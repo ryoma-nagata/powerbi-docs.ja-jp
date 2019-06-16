@@ -28,51 +28,51 @@ ms.locfileid: "61386295"
 名前  |タイプ  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
 ID     |  Guid       | システム全体で一意である、データセットの識別子です。        | True        | False        
-名前     | 文字列        | データセットのユーザー定義名です。        | False        | True        
-tables     | テーブル[]        | テーブルのコレクションです。        |  False       | False        
-relationships     | リレーションシップ[]        | テーブル間のリレーションシップのコレクションです。        | False        |  False  
-defaultMode     | 文字列        | 決定、データセットをプッシュされるかどうか、ストリーミングされたか、またはその両方を値「プッシュ」と「ストリーミング」にします。         | False        |  False
+name     | String        | データセットのユーザー定義名です。        | False        | True        
+tables     | Table[]        | テーブルのコレクションです。        |  False       | False        
+relationships     | Relationship[]        | テーブル間のリレーションシップのコレクションです。        | False        |  False  
+defaultMode     | String        | 決定、データセットをプッシュされるかどうか、ストリーミングされたか、またはその両方を値「プッシュ」と「ストリーミング」にします。         | False        |  False
 
 ## <a name="table"></a>テーブル
 
 名前  |タイプ  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-名前     | 文字列        |  テーブルのユーザー定義名前です。 これは、テーブルの識別子としても使用されます。       | False        |  True       
-列     |  列[]       |  列のコレクション。       | False        |  True       
-メジャー     | メジャー[]        |  メジャーのコレクション。       | False        |  False       
-isHidden     | ブール値        | true の場合、クライアント ツールにテーブルは表示されません。        | False        | False        
+name     | String        |  テーブルのユーザー定義名前です。 これは、テーブルの識別子としても使用されます。       | False        |  True       
+columns     |  column[]       |  列のコレクション。       | False        |  True       
+measures     | measure[]        |  メジャーのコレクション。       | False        |  False       
+isHidden     | Boolean        | true の場合、クライアント ツールにテーブルは表示されません。        | False        | False        
 
 ## <a name="column"></a>列
 
 名前  |タイプ  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-名前     |  文字列        | 列のユーザー定義名です。        |  False       | True       
-dataType     |  文字列       |  サポートされている [EDM データ型](https://msdn.microsoft.com/library/ee382832.aspx) と制限事項です。 [データ型の制限事項](#DataTypeRestrictions) を参照してください。      |  False       | True        
-formatString     | 文字列        | 値が表示されるときの値の書式設定を示す文字列です。 文字列の書式設定の詳細については、[「FORMAT_STRING Contents」](https://msdn.microsoft.com/library/ms146084.aspx) (FORMAT_STRING の内容) を参照してください。      | False        | False        
-sortByColumn    | 文字列        |   同一テーブル内の列の文字列名であり、現在の列を並べ替えるために使用されます。     | False        | False       
-dataCategory     | 文字列        |  この列のデータを説明するデータのカテゴリで使用される文字列です。 一般的に使用される値:Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
-isHidden    |  ブール値       |  列がビューで非表示になっているかどうかを示すプロパティです。 既定値は false です。       | False        | False        
-summarizeBy     | 文字列        |  列の既定の集計方法です。 含まれる値: default、none、sum、min、max、count、average、distinctCount     |  False       | False
+name     |  name        | 列のユーザー定義名です。        |  False       | True       
+dataType     |  String       |  サポートされている [EDM データ型](https://msdn.microsoft.com/library/ee382832.aspx) と制限事項です。 [データ型の制限事項](#DataTypeRestrictions) を参照してください。      |  False       | True        
+formatString     | String        | 値が表示されるときの値の書式設定を示す文字列です。 文字列の書式設定の詳細については、[「FORMAT_STRING Contents」](https://msdn.microsoft.com/library/ms146084.aspx) (FORMAT_STRING の内容) を参照してください。      | False        | False        
+sortByColumn    | String        |   同一テーブル内の列の文字列名であり、現在の列を並べ替えるために使用されます。     | False        | False       
+dataCategory     | String        |  この列のデータを説明するデータのカテゴリで使用される文字列です。 一般的に使用される値:Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
+isHidden    |  Boolean       |  列がビューで非表示になっているかどうかを示すプロパティです。 既定値は false です。       | False        | False        
+summarizeBy     | String        |  列の既定の集計方法です。 含まれる値: default、none、sum、min、max、count、average、distinctCount     |  False       | False
 
 ## <a name="measure"></a>メジャー
 
 名前  |タイプ  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-名前     | 文字列        |  メジャーのユーザー定義名です。       |  False       | True        
-expression     | 文字列        | 有効な DAX 式です。        | False        |  True       
-formatString     | 文字列        |  値が表示されるときの値の書式設定を示す文字列です。 文字列の書式設定の詳細については、[「FORMAT_STRING Contents」](https://msdn.microsoft.com/library/ms146084.aspx) (FORMAT_STRING の内容) を参照してください。       | False        | False        
-isHidden     | 文字列        |  true の場合、クライアント ツールにテーブルは表示されません。       |  False       | False       
+name     | String        |  メジャーのユーザー定義名です。       |  False       | True        
+expression     | String        | 有効な DAX 式です。        | False        |  True       
+formatString     | String        |  値が表示されるときの値の書式設定を示す文字列です。 文字列の書式設定の詳細については、[「FORMAT_STRING Contents」](https://msdn.microsoft.com/library/ms146084.aspx) (FORMAT_STRING の内容) を参照してください。       | False        | False        
+isHidden     | String        |  true の場合、クライアント ツールにテーブルは表示されません。       |  False       | False       
 
 ## <a name="relationship"></a>リレーションシップ
 
 名前  |タイプ  |説明  |読み取り専用  |必須 
 ---------|---------|---------|---------|---------
-名前     | 文字列        | リレーションシップのユーザー定義名です。 リレーションシップの識別子としても使用されます。        | False       | True        
-crossFilteringBehavior     | 文字列        |    リレーションシップのフィルターの方向:OneDirection (既定値)、BothDirections、Automatic       | False        | False        
-fromTable     | 文字列        | 外部キー テーブルの名前です。        | False        | True         
-fromColumn    | 文字列        | 外部キー列の名前です。        | False        | True         
-toTable    | 文字列        | 主キー テーブルの名前です。        | False        | True         
-toColumn     | 文字列        | 主キー列の名前です。        | False        | True        
+name     | String        | リレーションシップのユーザー定義名です。 リレーションシップの識別子としても使用されます。        | False       | True        
+crossFilteringBehavior     | String        |    リレーションシップのフィルターの方向:OneDirection (既定値)、BothDirections、Automatic       | False        | False        
+fromTable     | String        | 外部キー テーブルの名前です。        | False        | True         
+fromColumn    | String        | 外部キー列の名前です。        | False        | True         
+toTable    | String        | 主キー テーブルの名前です。        | False        | True         
+toColumn     | String        | 主キー列の名前です。        | False        | True        
 
 <a name="DataTypeRestrictions"/>
 
@@ -82,10 +82,10 @@ toColumn     | 文字列        | 主キー列の名前です。        | False 
 ---------|---------
 Int64     |   Int64.MaxValue と Int64.MinValue が許可されまていせん。      
 Double     |  Double.MaxValue と Double.MinValue 値が許可されていません。 NaN はサポートされていません。一部の関数では正の無限大と負の無限大がサポートされていません (例: Min、Max)。       
-ブール値     |   True または False。
+Boolean     |   True または False。
 DateTime    |   データの読み込み中に、日時分数の値を 1/300 秒 (3.33ms) の整数倍に量子化します。      
-文字列     |  現在のところ、文字列値あたり、最大 4,000 文字が許可されます。
-小数|精度=28、スケール=4
+String     |  現在のところ、文字列値あたり、最大 4,000 文字が許可されます。
+Decimal|精度=28、スケール=4
 
 ## <a name="example"></a>例
 次のコード サンプルには、上記のプロパティが複数含まれています。
