@@ -31,7 +31,7 @@ ID     |  Guid       | システム全体で一意である、データセット
 name     | String        | データセットのユーザー定義名です。        | False        | True        
 tables     | Table[]        | テーブルのコレクションです。        |  False       | False        
 relationships     | Relationship[]        | テーブル間のリレーションシップのコレクションです。        | False        |  False  
-defaultMode     | String        | 決定、データセットをプッシュされるかどうか、ストリーミングされたか、またはその両方を値「プッシュ」と「ストリーミング」にします。         | False        |  False
+defaultMode | String |「プッシュ」と「ストリーミング」の値を使用して、データセットをプッシュするかストリーミングするか、またはその両方を決定します。 | False | False
 
 ## <a name="table"></a>テーブル
 
@@ -46,7 +46,7 @@ isHidden     | Boolean        | true の場合、クライアント ツールに
 
 名前  |タイプ  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-name     |  name        | 列のユーザー定義名です。        |  False       | True       
+name | String | 列のユーザー定義名です。 | False | True       
 dataType     |  String       |  サポートされている [EDM データ型](https://msdn.microsoft.com/library/ee382832.aspx) と制限事項です。 [データ型の制限事項](#DataTypeRestrictions) を参照してください。      |  False       | True        
 formatString     | String        | 値が表示されるときの値の書式設定を示す文字列です。 文字列の書式設定の詳細については、[「FORMAT_STRING Contents」](https://msdn.microsoft.com/library/ms146084.aspx) (FORMAT_STRING の内容) を参照してください。      | False        | False        
 sortByColumn    | String        |   同一テーブル内の列の文字列名であり、現在の列を並べ替えるために使用されます。     | False        | False       
