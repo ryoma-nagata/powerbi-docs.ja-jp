@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61386295"
@@ -31,27 +31,27 @@ ID     |  Guid       | システム全体で一意である、データセット
 name     | String        | データセットのユーザー定義名です。        | False        | True        
 tables     | Table[]        | テーブルのコレクションです。        |  False       | False        
 relationships     | Relationship[]        | テーブル間のリレーションシップのコレクションです。        | False        |  False  
-defaultMode | String |「プッシュ」と「ストリーミング」の値を使用して、データセットをプッシュするかストリーミングするか、またはその両方を決定します。 | False | False
+defaultMode     | String        | 「プッシュ」と「ストリーミング」の値を使用して、データセットをプッシュするかストリーミングするか、またはその両方を決定します。         | False        |  False
 
 ## <a name="table"></a>テーブル
 
 名前  |タイプ  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-name     | String        |  テーブルのユーザー定義名前です。 これは、テーブルの識別子としても使用されます。       | False        |  True       
-columns     |  column[]       |  列のコレクション。       | False        |  True       
-measures     | measure[]        |  メジャーのコレクション。       | False        |  False       
-isHidden     | Boolean        | true の場合、クライアント ツールにテーブルは表示されません。        | False        | False        
+名前     | 文字列        |  テーブルのユーザー定義名前です。 これは、テーブルの識別子としても使用されます。       | False        |  True       
+列     |  列[]       |  列のコレクション。       | False        |  True       
+メジャー     | メジャー[]        |  メジャーのコレクション。       | False        |  False       
+isHidden     | ブール値        | true の場合、クライアント ツールにテーブルは表示されません。        | False        | False        
 
 ## <a name="column"></a>列
 
 名前  |タイプ  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-name | String | 列のユーザー定義名です。 | False | True       
-dataType     |  String       |  サポートされている [EDM データ型](https://msdn.microsoft.com/library/ee382832.aspx) と制限事項です。 [データ型の制限事項](#DataTypeRestrictions) を参照してください。      |  False       | True        
+名前     |  文字列        | 列のユーザー定義名です。        |  False       | True       
+dataType     |  文字列       |  サポートされている [EDM データ型](https://msdn.microsoft.com/library/ee382832.aspx) と制限事項です。 [データ型の制限事項](#DataTypeRestrictions) を参照してください。      |  False       | True        
 formatString     | String        | 値が表示されるときの値の書式設定を示す文字列です。 文字列の書式設定の詳細については、[「FORMAT_STRING Contents」](https://msdn.microsoft.com/library/ms146084.aspx) (FORMAT_STRING の内容) を参照してください。      | False        | False        
-sortByColumn    | String        |   同一テーブル内の列の文字列名であり、現在の列を並べ替えるために使用されます。     | False        | False       
-dataCategory     | String        |  この列のデータを説明するデータのカテゴリで使用される文字列です。 一般的に使用される値:Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
-isHidden    |  Boolean       |  列がビューで非表示になっているかどうかを示すプロパティです。 既定値は false です。       | False        | False        
+sortByColumn    | 文字列        |   同一テーブル内の列の文字列名であり、現在の列を並べ替えるために使用されます。     | False        | False       
+dataCategory     | 文字列        |  この列のデータを説明するデータのカテゴリで使用される文字列です。 一般的に使用される値:Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
+isHidden    |  ブール値       |  列がビューで非表示になっているかどうかを示すプロパティです。 既定値は false です。       | False        | False        
 summarizeBy     | String        |  列の既定の集計方法です。 含まれる値: default、none、sum、min、max、count、average、distinctCount     |  False       | False
 
 ## <a name="measure"></a>メジャー
@@ -82,7 +82,7 @@ toColumn     | String        | 主キー列の名前です。        | False    
 ---------|---------
 Int64     |   Int64.MaxValue と Int64.MinValue が許可されまていせん。      
 Double     |  Double.MaxValue と Double.MinValue 値が許可されていません。 NaN はサポートされていません。一部の関数では正の無限大と負の無限大がサポートされていません (例: Min、Max)。       
-Boolean     |   True または False。
+ブール値     |   True または False。
 DateTime    |   データの読み込み中に、日時分数の値を 1/300 秒 (3.33ms) の整数倍に量子化します。      
 String     |  現在のところ、文字列値あたり、最大 4,000 文字が許可されます。
 Decimal|精度=28、スケール=4
