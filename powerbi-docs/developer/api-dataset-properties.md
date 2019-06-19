@@ -37,21 +37,21 @@ defaultMode     | String        | 「プッシュ」と「ストリーミング�
 
 名前  |タイプ  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-名前     | 文字列        |  テーブルのユーザー定義名前です。 これは、テーブルの識別子としても使用されます。       | False        |  True       
-列     |  列[]       |  列のコレクション。       | False        |  True       
-メジャー     | メジャー[]        |  メジャーのコレクション。       | False        |  False       
-isHidden     | ブール値        | true の場合、クライアント ツールにテーブルは表示されません。        | False        | False        
+name     | String        |  テーブルのユーザー定義名前です。 これは、テーブルの識別子としても使用されます。       | False        |  True       
+columns     |  column[]       |  列のコレクション。       | False        |  True       
+measures     | measure[]        |  メジャーのコレクション。       | False        |  False       
+isHidden     | Boolean        | true の場合、クライアント ツールにテーブルは表示されません。        | False        | False        
 
 ## <a name="column"></a>列
 
 名前  |タイプ  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-名前     |  文字列        | 列のユーザー定義名です。        |  False       | True       
-dataType     |  文字列       |  サポートされている [EDM データ型](https://msdn.microsoft.com/library/ee382832.aspx) と制限事項です。 [データ型の制限事項](#DataTypeRestrictions) を参照してください。      |  False       | True        
+name     |  String        | 列のユーザー定義名です。        |  False       | True       
+dataType     |  String       |  サポートされている [EDM データ型](https://msdn.microsoft.com/library/ee382832.aspx) と制限事項です。 [データ型の制限事項](#DataTypeRestrictions) を参照してください。      |  False       | True        
 formatString     | String        | 値が表示されるときの値の書式設定を示す文字列です。 文字列の書式設定の詳細については、[「FORMAT_STRING Contents」](https://msdn.microsoft.com/library/ms146084.aspx) (FORMAT_STRING の内容) を参照してください。      | False        | False        
-sortByColumn    | 文字列        |   同一テーブル内の列の文字列名であり、現在の列を並べ替えるために使用されます。     | False        | False       
-dataCategory     | 文字列        |  この列のデータを説明するデータのカテゴリで使用される文字列です。 一般的に使用される値:Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
-isHidden    |  ブール値       |  列がビューで非表示になっているかどうかを示すプロパティです。 既定値は false です。       | False        | False        
+sortByColumn    | String        |   同一テーブル内の列の文字列名であり、現在の列を並べ替えるために使用されます。     | False        | False       
+dataCategory     | String        |  この列のデータを説明するデータのカテゴリで使用される文字列です。 一般的に使用される値:Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
+isHidden    |  Boolean       |  列がビューで非表示になっているかどうかを示すプロパティです。 既定値は false です。       | False        | False        
 summarizeBy     | String        |  列の既定の集計方法です。 含まれる値: default、none、sum、min、max、count、average、distinctCount     |  False       | False
 
 ## <a name="measure"></a>メジャー
