@@ -106,6 +106,8 @@
       items:
         - name: 用語集と用語
           href: end-user-glossary.md
+        - name: よく寄せられる質問
+          href: end-user-faq.md
         - name: サポートされているブラウザー
           href: end-user-browsers.md
         - name: Power BI でサポートされているクイック インサイトの種類
