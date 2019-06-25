@@ -12,7 +12,7 @@ ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61161714"
@@ -23,7 +23,7 @@ SQL Sentry が収集したパフォーマンス データの分析は、Power BI
 Power BI 用 [SQL Sentry コンテンツ パック](https://app.powerbi.com/groups/me/getdata/services/sql-sentry)に接続します。
 
 >[!NOTE]
->http://cloud.sqlsentry.com に接続するときに使用する SQL Sentry アカウントへのアクセス、および監視するデータベース ID が、接続のために必要です。  データベース ID の検索手順は次のとおりです。
+>[http://cloud.sqlsentry.com](http://cloud.sqlsentry.com ) に接続するときに使用する SQL Sentry アカウントへのアクセス、および監視するデータベース ID が、接続のために必要です。  データベース ID の検索手順は次のとおりです。
 
 ## <a name="how-to-connect"></a>接続する方法
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
