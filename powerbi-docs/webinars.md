@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750994"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389551"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -23,10 +23,6 @@ ms.locfileid: "66750994"
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
 登録して Power BI の専門家の話を聞き、ライブ Q&A セッションに参加してください。
-
-**Power BI で実行する Microsoft:Modern Treasury での Power BI の使用**
-<br>作成者: Pankaj Gudimella および Guru Kirthigavasan
-<br>[6 月 25 日、午前 10 時 00 分から午前 11 時 00 分まで (太平洋標準時) に視聴できるように登録する](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI:Workday HR データから分析情報を取得する方法**
 <br>作成者: Iman Eftekhari、Julia Paton (Agile Analytics)、および Shahram Karimi (QBE Insurance)
@@ -61,6 +57,10 @@ ms.locfileid: "66750994"
 **Power BI で実行する Microsoft - 財務の計画と分析を簡単に**
 <br>作成者: Cory Hrncirik と Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI で実行する Microsoft:Modern Treasury での Power BI の使用**
+<br>作成者: Pankaj Gudimella および Guru Kirthigavasan
+<br>[登録して今すぐ見る](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI JavaScript API を使用して、お使いのアプリケーションの機能を強化する**
 <br>作成者: Nimrod Shalit
@@ -141,17 +141,9 @@ ms.locfileid: "66750994"
 <br>作成者: Stephen Cracknell/Stuart Macanliss (US Medical IT)
 <br>[登録して今すぐ見る](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**Location Intelligence で BI を強化する**
-<br>作成者: Scott Ball (Esri) と Enrique Plaza (Microsoft)
-<br>[登録して今すぐ見る](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **セールスおよびサービスのインテリジェンスを適用する**
 <br>作成者: Ed Bobrin (Avanade)
 <br>[登録して今すぐ見る](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**成功を収めるトレンド キュレーターの 5 つの習慣 - Rohit Bhargava**
-<br>作成者: Rohit Bhargava (Non-Obvious)
-<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **製造業:業界が経験しているデジタル変革 - 分析の活用によるリーダーシップの維持と収益の最大化**
 <br>作成者: Jon Thompson (Blue Margin)/Jim Pastor (Elgin Fastener Group)
@@ -160,6 +152,14 @@ ms.locfileid: "66750994"
 **新しい Power BI と data.world コネクタでパブリックまたはプライベートのデータセットを視覚化する**
 <br>作成者: Patrick McGarry、Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**Location Intelligence で BI を強化する**
+<br>作成者: Scott Ball (Esri) と Enrique Plaza (Microsoft)
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**成功を収めるトレンド キュレーターの 5 つの習慣 - Rohit Bhargava**
+<br>作成者: Rohit Bhargava (Non-Obvious)
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>コミュニティ ###
 
