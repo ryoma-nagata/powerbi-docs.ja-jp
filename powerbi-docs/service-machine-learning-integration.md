@@ -1,5 +1,5 @@
 ---
-title: Azure Machine Learning の Power BI への統合 (プレビュー)
+title: Azure Machine Learning の Power BI への統合
 description: Machine Learning を Power BI で使用する方法について説明します。
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448342"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823482"
 ---
-# <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Azure Machine Learning の Power BI への統合 (プレビュー)
+# <a name="azure-machine-learning-integration-in-power-bi"></a>Azure Machine Learning の Power BI への統合
 
 多くの組織が **Machine Learning** モデルを使用して、ビジネスに関する分析情報の質や予測を向上させています。 これらのモデルからの分析情報は、レポートやダッシュボードなどの分析で視覚化したり、呼び出したりできるので、その情報を最も必要としているビジネス ユーザーに提供することが可能です。  Power BI では、ポイントアンドクリック ジェスチャを使用するだけで、Azure Machine Learning service 上でホストされているモデルから、簡単に分析情報を取り込めるようになりました。
 
@@ -51,7 +51,7 @@ Azure ML service 上でホストされているモデルへのアクセス権を
 
     ![サブスクリプションを選択する](media/service-machine-learning-integration/machine-learning-integration_02.png)
 
-4. **[アクセス制御 (IAM)]** を選択してから、**[追加]** ボタンを選択します。
+4. **[アクセス制御 (IAM)]** を選択してから、 **[追加]** ボタンを選択します。
 
     ![アクセス制御 AIM](media/service-machine-learning-integration/machine-learning-integration_03.png)
 
@@ -75,7 +75,7 @@ Machine Learning service モデルでは、デプロイされた Web サービ�
 エントリ スクリプトの更新によるこれらのスキーマ生成は、Azure Machine Learning SDK を使用して自動機械学習エクスペリエンスにより作成されたモデルにも適用する必要があります。
 
 > [!NOTE]
-> Azure Machine Learning service ビジュアル インターフェイス (プレビュー) を使用して作成されたモデルでは、現在のところスキーマ生成はサポートされていませんが、今後のリリースではサポートされる予定です。 
+> Azure Machine Learning service ビジュアル インターフェイスを使用して作成されたモデルでは、現在のところスキーマ生成はサポートされていませんが、今後のリリースではサポートされる予定です。 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Power BI で Azure ML モデルを呼び出す
 
@@ -107,9 +107,9 @@ Azure ML モデルを呼び出すには、選択したエンティティのい�
 
 この記事では、Machine Learning を Power BI サービスに統合する手順を概説しました。 以下の記事も興味深い内容で、役立つかもしれません。 
 
-* [チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し (プレビュー)](service-tutorial-invoke-machine-learning-model.md)
+* [チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し](service-tutorial-invoke-machine-learning-model.md)
 * [チュートリアル:Power BI での Cognitive Services の使用](service-tutorial-use-cognitive-services.md)
-* [Power BI での Cognitive Services (プレビュー)](service-cognitive-services.md)
+* [Power BI の Cognitive Services](service-cognitive-services.md)
 
 データフローの詳細については、以下の記事をご覧ください。
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)

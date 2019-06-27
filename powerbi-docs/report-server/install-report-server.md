@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187730"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839441"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
@@ -22,9 +22,9 @@ Power BI レポート サーバーのインストール方法について説明�
 
 ## <a name="download-power-bi-report-server"></a>Power BI Report Server のダウンロード
 
-[Power BI Report Server のダウンロード](https://www.microsoft.com/download/details.aspx?id=56722)Microsoft ダウンロード センターから。
+Microsoft ダウンロード センターから、[Power BI Report Server をダウンロード](https://www.microsoft.com/download/details.aspx?id=56722)します。
 
-無料試用版もあります。 [オンプレミス Power BI Report Server によるレポート](https://powerbi.microsoft.com/report-server/)] ページで、[**無料試用版をダウンロード**します。
+無料試用版もあります。 「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」ページで **[無料試用版をダウンロードする]** を選択します。
 
 ## <a name="before-you-install"></a>インストールする前に
 
@@ -35,12 +35,12 @@ Power BI Report Server をインストールする前に、「[Power BI レポ�
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI Report Server のプロダクト キー
 
-2 つの異なるソースから Power BI Report Server のプロダクト キーを取得できます。
+Power BI Report Server のプロダクト キーは、次の 2 つの異なるソースから取得できます。
 
 - Power BI Premium
 - SQL Server Enterprise Software Assurance (SA)
 
-詳細についてお読みください。
+詳細をお読みください。
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -75,8 +75,8 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 
     ![エディション 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    それ以外の場合、Power BI サービスまたはボリューム ライセンス サービス センターから入手したプロダクト キーを入力します。 プロダクト キーを取得する方法の詳細については、次を参照してください。、[インストールする前に](#before-you-install)前のセクション。
-4. 読み取りとライセンス条項および条件に同意し、選択**次**します。
+    それ以外の場合、Power BI サービスまたはボリューム ライセンス サービス センターから取得したプロダクト キーを入力します。 プロダクト キーを取得する方法の詳細については、前述の「[インストールする前に](#before-you-install)」セクションを参照してください。
+4. ライセンス条件を読んで同意してから、 **[次へ]** を選択します。
 
     ![ライセンス条項](media/install-report-server/pbireportserver-eula.png)
 5. レポート サーバー データベースを格納するためのデータベース エンジンを使用できる必要があります。 **[次へ]** を選択し、レポート サーバーのみをインストールします。
@@ -92,7 +92,7 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 
     ![レポート サーバーを構成する](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configure-your-report-server"></a>レポート サーバーを構成します。
+## <a name="configure-your-report-server"></a>自分のレポート サーバーを構成する
 
 セットアップで **[レポート サーバーの構成]** を選択すると、Reporting Services Configuration Manager が表示されます。 詳細については、「[Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)」(Reporting Services 構成マネージャー) を参照してください。
 

@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/10/2019
+ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61354149"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823411"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded での行レベルのセキュリティ
 
@@ -215,7 +215,7 @@ Power BI Embedded アプリケーションで CustomData() 機能の設定を開
 
 7. Power BI API を使って、アプリケーション内で CustomData 機能を使います。  カスタム データ機能を使ってトークンを生成するときは、ユーザー名が必要です。 ユーザー名は、マスター ユーザーの UPN と同じである必要があります。 マスター ユーザーは、作成したロールのメンバーである必要があります。 ロールが指定されていない場合、マスター ユーザーがそのメンバーになっているすべてのロールが RLS の評価に使用されます。
 
-    使用する場合、[サービス プリンシパル](embed-service-principal.md)、マスターのアカウントを使用する代わりに、上記の手順を実行する必要もあります。 埋め込みトークンを生成する、使用して、[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)ユーザー名とします。
+    [サービス プリンシパル](embed-service-principal.md)を使用する場合、マスター アカウントを使用する代わりに、上記の手順も実行する必要があります。 埋め込みトークンを生成する場合、ユーザー名として[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) を使用します。
 
     > [!Note]
     > 運用環境にアプリケーションをデプロイする準備ができたら、マスター ユーザーのアカウント フィールドまたはオプションは、エンド ユーザーに対して非表示である必要があります。
@@ -310,7 +310,7 @@ ID BLOB で提供する値は、Azure SQL Server に対する (リソース URL 
 
    ![アプリの登録](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
-## <a name="on-premises-data-gateway-with-service-principal-preview"></a>サービス プリンシパルを使用するオンプレミス データ ゲートウェイ (プレビュー)
+## <a name="on-premises-data-gateway-with-service-principal"></a>サービス プリンシパルを使用するオンプレミス データ ゲートウェイ
 
 SQL Server Analysis Services (SSAS) オンプレミス ライブ接続データ ソースを使用して行レベル セキュリティ (RLS) を構成するお客様は、**Power BI Embedded** と統合することで、新しい[サービス プリンシパル](embed-service-principal.md)機能を使用して、ユーザーと、SSAS のデータへのユーザー アクセスを管理することができます。
 

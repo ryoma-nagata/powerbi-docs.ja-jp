@@ -6,15 +6,15 @@ ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: resource
+ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412908"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751013"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -142,7 +142,7 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 ## <a name="h"></a>H
 **high-density visuals (高密度のビジュアル)** Power BI で表示できる数より多くのデータ ポイントがあるビジュアル。 Power BI では、図形や外れ値を表示するためにデータをサンプリングします。
 
-**ホーム**ランディング Power BI サービスのユーザーの有効期間を既定値。 何も変更されません。 ホームまたは単にホームは Power BI を呼び出せます。
+**Home** Power BI サービス ユーザー向けの既定のランディング ページ。 何も変更されません。 Power BI ホームまたは単にホームと呼ばれます。
 
 ## <a name="i"></a>I
 

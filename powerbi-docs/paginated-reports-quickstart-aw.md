@@ -1,5 +1,5 @@
 ---
-title: チュートリアル:ページ分割されたレポートを作成して Power BI サービスにアップロードする (プレビュー)
+title: チュートリアル:ページ分割されたレポートを作成して Power BI サービスにアップロードする
 description: このチュートリアルでは、サンプルの Azure SQL データベースに接続します。 その後、レポート ビルダーのウィザードを使用してページ分割されたレポートを作成します。 次に、Power BI サービスで Premium 容量のワークスペースにページ分割されたレポートをアップロードします。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989910"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839748"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>チュートリアル:ページ分割されたレポートを作成して Power BI サービスにアップロードする (プレビュー)
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>チュートリアル:ページ分割されたレポートを作成して Power BI サービスにアップロードする
 
-このチュートリアルでは、サンプルの Azure SQL データベースに接続します。 ウィザードを使用する Power BI のレポート ビルダーで改ページ調整されたレポートを複数のページをラップするテーブルを作成します。 次に、Power BI サービスで Premium 容量のワークスペースにページ分割されたレポートをアップロードします。 Power BI サービスでのページ分割されたレポートは、現在プレビュー段階です。
+このチュートリアルでは、サンプルの Azure SQL データベースに接続します。 その後、Power BI レポート ビルダーのウィザードを使用して、複数のページにラップするテーブルを含むページ分割されたレポートを作成します。 次に、Power BI サービスで Premium 容量のワークスペースにページ分割されたレポートをアップロードします。
 
 ![Power BI サービスにおけるページ分割されたレポート](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ ms.locfileid: "60989910"
 
 > [!div class="checklist"]
 > * Azure のサンプル データベースを作成します。
-> * ウィザードのヘルプで、Power BI のレポート ビルダーでマトリックスを作成します。
+> * Power BI レポート ビルダーのウィザードを使用してマトリックスを作成します。
 > * 各ページのタイトル、ページ番号、列見出しでレポートの書式を設定します。
 > * 通貨の書式を設定します。
 > * Power BI サービスにレポートをアップロードします。
@@ -37,7 +37,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 ページ分割されたレポートを作成するための前提条件を次に示します。
 
-- インストール[Power BI のレポート ビルダー、Microsoft ダウンロード センターから](https://go.microsoft.com/fwlink/?linkid=2086513)します。 
+- [Microsoft ダウンロード センターから Power BI レポート ビルダー](https://go.microsoft.com/fwlink/?linkid=2086513)をインストールします。 
 
 - クイック スタート「[Azure portal で Azure SQL データベースを作成する](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)」に従います。 **[概要]** タブの **[サーバー名]** ボックスの値をコピーして保存します。Azure で作成したパスワードとユーザー名を憶えておきます。
 
@@ -48,7 +48,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 ## <a name="create-the-matrix-with-a-wizard"></a>ウィザードでマトリックスを作成する
   
-1.  お使いのコンピューターから Power BI のレポート ビルダーを起動します。  
+1.  コンピューターから Power BI レポート ビルダーを開始します。  
   
      **[作業の開始]** ダイアログ ボックスが開きます。  
   
@@ -329,5 +329,5 @@ Power BI サービスにレポートを発行する前に、もう 1 つの書�
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI Premium のページ分割されたレポートとは(プレビュー)](paginated-reports-report-builder-power-bi.md)
+[Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
 

@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720341"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823305"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>Power BI でのサービス プリンシパル (プレビュー)
+# <a name="service-principal-with-power-bi"></a>Power BI でのサービス プリンシパル
 
 **サービス プリンシパル**を使用して、アプリケーションに Power BI コンテンツを埋め込み、**アプリ専用**トークンを使用して Power BI でオートメーションを使用することができます。 サービス プリンシパルは、**Power BI Embedded** を使用するとき、または **Power BI のタスクとプロセスを自動化する**ときに役に立ちます。
 
@@ -94,7 +94,7 @@ Power BI の成果物とリソースが[新しい Power BI ワークスペース
    > [!Important]
    > Power BI でサービス プリンシパルを使用できるようにすると、アプリケーションの AD アクセス許可は無効になります。 アプリケーションのアクセス許可はその後、Power BI 管理ポータルを介して管理されます。
 
-2. [Azure Active Directory (AAD) にセキュリティ グループ](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)を作成し、作成したアプリケーションをそのセキュリティ グループに追加します。 AAD セキュリティ グループは [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) で作成できます。
+2.  **推奨** - [Azure Active Directory (AAD) にセキュリティ グループ](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)を作成し、作成したアプリケーションをそのセキュリティ グループに追加します。 AAD セキュリティ グループは [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) で作成できます。
 
     新しいセキュリティ グループを作成し、そのセキュリティ グループにアプリケーションを追加するためのスクリプトのサンプルを次に示します。
 
@@ -109,7 +109,7 @@ Power BI の成果物とリソースが[新しい Power BI ワークスペース
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. Power BI 管理者は、Power BI 管理ポータルの **[開発者向け設定]** でサービス プリンシパルを有効にする必要があります。 Azure AD で作成したセキュリティ グループを、**[開発者向け設定]** の **[特定のセキュリティ グループ]** セクションに追加します。
+3. Power BI 管理者は、Power BI 管理ポータルの **[開発者向け設定]** でサービス プリンシパルを有効にする必要があります。 Azure AD で作成したセキュリティ グループを、 **[開発者向け設定]** の特定のセキュリティ グループのセクションに追加します。 また、組織全体に対するサービス プリンシパルのアクセスを有効にすることもできます。 その場合は、ステップ 2 は必要ありません。
 
    > [!Important]
    > サービス プリンシパルには、組織全体に対して有効化されるか、またはグループの一部としてサービス プリンシパルを有するセキュリティ グループに対して有効化される、すべてのテナント設定へのアクセス権があります。 サービス プリンシパルによる特定のテナント設定へのアクセスを制限するには、特定のセキュリティ グループへのアクセスのみを許可するか、またはサービス プリンシパルの専用のセキュリティ グループを作成して除外します。
@@ -147,7 +147,7 @@ Azure portal からサービス プリンシパル オブジェクト ID を取�
 
 1. Azure portal で新しいアプリの登録を作成します。  
 
-2. 次に、**[ローカル ディレクトリでのマネージド アプリケーション]** の下で、作成したアプリケーションの名前を選択します。
+2. 次に、 **[ローカル ディレクトリでのマネージド アプリケーション]** の下で、作成したアプリケーションの名前を選択します。
 
    ![ローカル ディレクトリでのマネージド アプリケーション](media/embed-service-principal/managed-application-in-local-directory.png)
 
@@ -181,4 +181,4 @@ PowerShell でサービス プリンシパル オブジェクト ID を取得す
 * [アプリを登録する](register-app.md)
 * [顧客向けの Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory でのアプリケーション オブジェクトとサービス プリンシパル オブジェクト](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [サービス プリンシパルを使用するオンプレミス データ ゲートウェイを使用した行レベルのセキュリティ (プレビュー)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [サービス プリンシパルを使用するオンプレミス データ ゲートウェイを使用した行レベルのセキュリティ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

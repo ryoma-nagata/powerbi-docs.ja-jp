@@ -6,15 +6,15 @@ ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
-ms.subservice: powerbi - developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 56b417cb60f7c149b926f4307be0a50b33c278d6
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374690"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751025"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI の埋め込み分析でマルチテナントを管理する
 
@@ -142,9 +142,9 @@ SaaS アプリケーションのストレージで、すべてのテナントに
 
 ### <a name="scalability"></a>スケーラビリティ
 
-このモデルの利点の 1 つは、テナントごとの複数のデータセットにデータを分離することで、[単一データセットのサイズ制限](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (現在、容量 10 GB) が適用されないことです。 容量をオーバー ロードするときに、データセットのアクティブなメモリを解放するデータセットが使用されていない、削除できます。 1 つの大規模なデータセットでは、このようなことはできません。 複数のデータセットを使用すると、必要に応じて、複数の Power BI 容量にテナントを分離することもできます。
+このモデルの利点の 1 つは、テナントごとの複数のデータセットにデータを分離することで、[単一データセットのサイズ制限](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (現在、容量 10 GB) が適用されないことです。 容量がオーバーロードになったら、未使用のデータセットを削除して、アクティブなデータセットのためにメモリを解放できます。 1 つの大規模なデータセットでは、このようなことはできません。 複数のデータセットを使用すると、必要に応じて、複数の Power BI 容量にテナントを分離することもできます。
 
-このような利点はありますが、将来的に SaaS アプリケーションが達する可能性のあるスケールを考慮する必要があります。 たとえば、管理できる成果物の数に関する制限に到達する可能性があります。 詳細については、この記事で後述されているデプロイに関する[制限](#summary-comparison-of-the-different-approaches)をご覧ください。 SKU が使用される容量には、同じ時間と最大データ更新の頻度で実行できる数の更新に収まるようにデータセットが必要なメモリのサイズに制限が導入されています。 数百または数千のデータセットを管理するときは、テストすることをお勧めします。 また、平均とピーク時の使用量、および他のテナントとは管理が異なる大きいデータセットを持つ特定のテナントや使用パターンが異なるテナントについて、考慮することをお勧めします。
+このような利点はありますが、将来的に SaaS アプリケーションが達する可能性のあるスケールを考慮する必要があります。 たとえば、管理できる成果物の数に関する制限に到達する可能性があります。 詳細については、この記事で後述されているデプロイに関する[制限](#summary-comparison-of-the-different-approaches)をご覧ください。 使用されている容量 SKU により、データセットが収まる必要のあるメモリのサイズ、同時に実行できる更新の数、データ更新の最大頻度についての制限が適用されます。 数百または数千のデータセットを管理するときは、テストすることをお勧めします。 また、平均とピーク時の使用量、および他のテナントとは管理が異なる大きいデータセットを持つ特定のテナントや使用パターンが異なるテナントについて、考慮することをお勧めします。
 
 ### <a name="automation--operational-complexity"></a>自動化と運用の複雑さ
 

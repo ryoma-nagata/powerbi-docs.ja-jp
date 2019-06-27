@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578563"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751238"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>組織でテンプレート アプリをインストールし、配布する - Power BI (プレビュー)
 
-Power BI のアナリストはでしょうか。 場合、そのため、この記事ではインストールする方法について説明します*テンプレート アプリ*Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用するサービスの多くへの接続にします。 ダッシュ ボードと、組織のニーズに合わせてレポートを変更してとして同僚に配布する*アプリ*します。 
+あなたは Power BI のアナリストですか? そうであれば、この記事では*テンプレート アプリ*をインストールし、Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用するさまざまなサービスに接続する方法について説明します。 組織のニーズに合わせてダッシュボードとレポートを変更し、その後*アプリ*として同僚に配布できます。 
 
 ![インストールされた Power BI アプリ](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-自分で配布するテンプレート アプリを作成する場合、「[Create a template app in Power BI](service-template-apps-create.md)」 (Power BI でテンプレート アプリを作成する) を参照してください。 Power BI パートナーでは、ほとんどまたはまったくない次のようにコーディングでの Power BI アプリを構築でき、Power BI のお客様に配置することができます。 
+自分で配布するテンプレート アプリを作成する場合、「[Create a template app in Power BI](service-template-apps-create.md)」 (Power BI でテンプレート アプリを作成する) を参照してください。 Power BI パートナーは、ほとんどまたはまったくコーディングせずに Power BI アプリを作成し、Power BI ユーザーに展開することができます。 
 
 ## <a name="prerequisites"></a>前提条件  
 

@@ -8,42 +8,49 @@ ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 05/29/2019
+ms.openlocfilehash: 5cb741d194d787014fec39f963e19d04de59a668
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710350"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809079"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>手順 2:認証アクセス トークンを取得する
 
-この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
+この記事は、シリーズ「[Power BI データセットにデータをプッシュする](walkthrough-push-data.md)」の 2 番目の手順です。
 
-チュートリアル「データセットにデータをプッシュする」の**手順 1**「[アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)」では、クライアント アプリを Azure AD に登録しました。 この手順では、認証アクセス トークンを取得します。 Power BI アプリは **Azure AD** と統合されており、それによってセキュリティで保護されたサインインと承認をアプリで行うことができます。 トークンを使って **Azure AD** に対して認証を行い、Power BI リソースにアクセスします。
-
-ここでは、認証アクセス トークンを取得する方法を説明します。
+手順 1 では、[Azure AD でクライアント アプリを登録しました](walkthrough-push-data-register-app-with-azure-ad.md)。 この手順では、認証アクセス トークンを取得します。 Power BI アプリは、Azure Active Directory と統合されることで、アプリにセキュリティで保護されたサインインと認証を提供します。 アプリでは、トークンを使って Azure AD に対して認証を行い、Power BI リソースにアクセスします。
 
 ## <a name="get-an-authentication-access-token"></a>認証アクセス トークンを取得する
 
-> **注**:作業を開始する前に、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の前の手順を完了してください。
+開始する前に、「[Power BI データセットにデータをプッシュする](walkthrough-push-data.md)」シリーズの[前の手順](walkthrough-push-data-register-app-with-azure-ad.md)を完了していることを確認してください。 
 
-1. Visual Studio (2015 以降) で作成、**コンソール アプリケーション**プロジェクト。
-2. [Azure AD Authentication Library for .NET NuGet パッケージ](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)をインストールします。 .NET アプリで認証セキュリティ トークンを取得するには、このパッケージを使います。 パッケージをインストールする方法を次に示します。
+この手順では、Visual Studio 2015 以降が必要です。
 
-     a. Visual Studio (2015 以降) で次のように選択します。**ツール** > **NuGet パッケージ マネージャー** > **パッケージ マネージャー コンソール**します。
+1. Visual Studio で、新しい C# **コンソール アプリケーション** プロジェクトを作成します。
 
-     b. **[パッケージ マネージャー コンソール]** で、「Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612」と入力します。
-3. Program {...} クラスに、以下のコードを追加します。
-4. "{ClientID}" を、アプリを登録したときに取得した **クライアント ID** で置き換えます。 「[アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)」をご覧ください。
-5. Microsoft.IdentityModel.Clients.ActiveDirectory パッケージをインストールした後、Program.cs に「 **using Microsoft.IdentityModel.Clients.ActiveDirectory;** 」を追加します。
-6. コンソール アプリを実行し、Power BI アカウントにログインします。 コンソール ウィンドウにトークン文字列が表示されます。
+2. [Azure AD Authentication Library for .NET NuGet パッケージ](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)をインストールします。 .Net アプリでは、認証セキュリティ トークンを取得するために、このパッケージが必要です。 
+
+     a. **[ツール]**  >  **[NuGet パッケージ マネージャー]**  >  **[パッケージ マネージャー コンソール]** の順に選択します。
+
+     b. 「**Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**」と入力します
+
+     c. Program.cs に、`using Microsoft.IdentityModel.Clients.ActiveDirectory;` を追加します。
+
+3. 次の手順の後に一覧表示されているサンプル コードを Program.cs に追加します。
+
+4. "{ClientID}" を、[前のシリーズの記事](walkthrough-push-data-register-app-with-azure-ad.md)で、アプリを登録したときに取得した**クライアント ID** で置き換えます。
+
+5. コンソール アプリを実行し、Power BI アカウントにサインインします。 
+
+   コンソール ウィンドウにトークン文字列が表示されます。
 
 **認証セキュリティ トークンを取得するサンプル コード**
 
 このコードを Program {...} に追加します。
 
-* 操作を呼び出すためのトークン変数。
+* 操作を呼び出すためのトークン変数。 
   
   ```csharp
   private static string token = string.Empty;
@@ -104,13 +111,10 @@ ms.locfileid: "65710350"
        #endregion
 ```
 
-認証トークンを取得すると、任意の Power BI 操作を呼び出せます。 次の手順では、[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作を呼び出して、ダッシュボードにデータをプッシュするデータセットを作成する方法を説明します。
+認証トークンを取得すると、任意の Power BI 操作を呼び出せます。
 
-次の手順では、[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)方法について説明します。
+このシリーズの次の手順では、[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)方法について説明します。
 
-以下は、[完全なコード リスト](#code)です。
-
-<a name="code"/>
 
 ## <a name="complete-code-listing"></a>完全なコード リスト
 
@@ -175,14 +179,13 @@ namespace walkthrough_push_data
 }
 ```
 
-[次の手順 >](walkthrough-push-data-create-dataset.md)
+
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)  
-[アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)  
-[Azure AD Authentication Library for .NET NuGet パッケージ](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
-[Power BI データセットにデータをプッシュする](walkthrough-push-data.md)  
+[このシリーズの次の記事 > Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)
+
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
-[Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
+[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
+
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

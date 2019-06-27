@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: 8cee670028da828e052d8fe30c594882555c5d53
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 52863ea4bd666547a9c63b3add1d2d9c0626adc7
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770159"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839702"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Report Server のアップグレード
 
@@ -31,21 +31,21 @@ Power BI Report Server および Power BI Report Server 向けに最適化され
 
 ### <a name="backing-up-the-encryption-keys"></a>暗号化キーのバックアップ
 
-最初にレポート サーバーのインストールを構成するときに、暗号化キーをバックアップする必要があります。 サービス アカウントの id を変更またはコンピューターの名前を変更するときにいつでもも、目的のキーをバックアップする必要があります。 詳細については、「[Reporting Services の暗号化キーのバックアップと復元](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)」を参照してください。
+暗号化キーは、レポート サーバーのインストールの初回構成時に、バックアップする必要があります。 また、サービス アカウントの ID を変更したり、コンピューター名を変更したりするたびに、キーはバックアップする必要があります。 詳細については、「[Reporting Services の暗号化キーのバックアップと復元](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)」を参照してください。
 
 ### <a name="backing-up-the-report-server-databases"></a>レポート サーバー データベースのバックアップ
 
-レポート サーバーはステートレス サーバーであるため、すべてのアプリケーション データは、SQL Server データベース エンジンのインスタンスで実行される **reportserver** と **reportservertempdb** データベースに格納されます。 バックアップすることができます、 **reportserver**と**reportservertempdb**データベースを SQL Server データベースのバックアップのサポートされているメソッドのいずれかを使用します。 レポート サーバー データベース固有の推奨事項を以下に示します。
+レポート サーバーはステートレス サーバーであるため、すべてのアプリケーション データは、SQL Server データベース エンジンのインスタンスで実行される **reportserver** と **reportservertempdb** データベースに格納されます。 **reportserver** と **reportservertempdb** データベースは、SQL Server データベースをバックアップするサポート対象のいずれかの方法を使用して、バックアップすることができます。 レポート サーバー データベース固有の推奨事項を以下に示します。
 
-* 完全復旧モデルを使用して、バックアップ、 **reportserver**データベース。
-* 単純復旧モデルを使用して、バックアップ、 **reportservertempdb**データベース。
-* 各データベースには別のバックアップ スケジュールを使用することができます。 バックアップを作成する唯一の理由、 **reportservertempdb**ハードウェア障害が発生した場合に再作成しなくてもすむようにします。 ハードウェア障害が発生した場合、**reportservertempdb** 内のデータを復元する必要はありませんが、テーブル構造は必要です。 **reportservertempdb** を失った場合、レポート サーバー データベースを再作成してのみそれを復元できます。 **reportservertempdb** を再作成する場合、プライマリ レポート サーバー データベースと同じ名前にすることが重要です。
+* **reportserver** データベースのバックアップには完全復旧モデルを使用します。
+* **reportservertempdb** データベースのバックアップには単純復旧モデルを使用します。
+* 各データベースには別のバックアップ スケジュールを使用することができます。 **reportservertempdb** は、ハードウェア障害が発生した場合にそれを再作成することを防ぐためのみ、バックアップします。 ハードウェア障害が発生した場合、**reportservertempdb** 内のデータを復元する必要はありませんが、テーブル構造は必要です。 **reportservertempdb** を失った場合、レポート サーバー データベースを再作成してのみそれを復元できます。 **reportservertempdb** を再作成する場合、プライマリ レポート サーバー データベースと同じ名前にすることが重要です。
 
 SQL Server リレーショナル データベースのバックアップと復旧の詳細については、「[SQL Server データベースのバックアップと復元](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases)」を参照してください。
 
 ### <a name="backing-up-the-configuration-files"></a>構成ファイルのバックアップ
 
-Power BI Report Server は、アプリケーション設定の格納に構成ファイルを使用します。 最初に、サーバーを構成するときに、任意のカスタム拡張機能を展開した後、ファイルをバックアップする必要があります。 バックアップするファイルは次のとおりです。
+Power BI Report Server は、アプリケーション設定の格納に構成ファイルを使用します。 これらのファイルは、サーバーの初回構成時、および任意のカスタム拡張機能を配置した後にバックアップする必要があります。 バックアップするファイルは次のとおりです。
 
 * config.json
 * RSHostingService.exe.config
@@ -63,7 +63,7 @@ Power BI Report Server のアップグレードは簡単です。 ファイル�
 
 2. **[Power BI Report Server をアップグレードする]** を選択します。
 
-    ![Power BI Report Server をアップグレード](media/upgrade/reportserver-upgrade1.png "Power BI Report Server のアップグレード")
+    ![Power BI Report Server のアップグレード](media/upgrade/reportserver-upgrade1.png "Power BI Report Server のアップグレード")
 
 3. ライセンス条件を読んで同意し、 **[アップグレード]** を選択します。
 

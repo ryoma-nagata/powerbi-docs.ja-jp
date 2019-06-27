@@ -7,19 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/07/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5e4b41b36dfbf6cca14a348268b96eaad21b00e
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461858"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816651"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>ワークスペース全体でデータセットを使用する (プレビュー)
 
 ビジネス インテリジェンスは共同作業です。 "1 つの正しい情報源" になれる標準化されたデータセットを確立することが重要です。 そのような標準化されたデータセットを検出し、再利用することが鍵となります。 組織のデータ モデリングの専門家が最適化されたデータセットを作成し、共有するとき、レポートの作成者はそのようなデータセットから始め、正確なレポートを構築できます。 そうすれば、組織は整合性のあるデータで意思決定できるほか、そのデータ文化が健全になります。
+
+![共有データセットを選択する](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
 Power BI では、データセットの作成者は、他のユーザーがデータセットを見つけられるよう、データセットを簡単に認定または奨励できます。 その後、レポートの作成者は高品質の正式なデータセットを見つけ、Power BI 内のあらゆる場所で使用できます。 データセットの所有者は[ビルド アクセス許可](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)を使用することで、自分のデータにアクセスできるユーザーを制御できます。 テナント管理者には、[ワークスペース全体でデータセットの使用を制御する](service-datasets-admin-across-workspaces.md)ための新しいテナント設定が与えられます。
 

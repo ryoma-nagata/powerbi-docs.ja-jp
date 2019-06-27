@@ -1,20 +1,20 @@
 ---
 title: Power BI ウェビナー
 description: Power BI ウェビナー
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
-ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66453787"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750994"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -22,7 +22,15 @@ ms.locfileid: "66453787"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
+登録して Power BI の専門家の話を聞き、ライブ Q&A セッションに参加してください。
+
+**Power BI で実行する Microsoft:Modern Treasury での Power BI の使用**
+<br>作成者: Pankaj Gudimella および Guru Kirthigavasan
+<br>[6 月 25 日、午前 10 時 00 分から午前 11 時 00 分まで (太平洋標準時) に視聴できるように登録する](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI:Workday HR データから分析情報を取得する方法**
+<br>作成者: Iman Eftekhari、Julia Paton (Agile Analytics)、および Shahram Karimi (QBE Insurance)
+<br>[6 月 27 日、午後 1 時 30 分から午後 2 時 30 分まで (太平洋標準時) に視聴できるように登録する](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

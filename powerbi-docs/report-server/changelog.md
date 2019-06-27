@@ -1,7 +1,7 @@
 ---
 title: Power BI Report Server の変更ログ
 description: この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
-ms.author: jtarquino
+ms.author: jaimeta
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65990621"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751117"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -22,34 +22,34 @@ ms.locfileid: "65990621"
 
 新機能の詳細については、「[Power BI レポート サーバーの新機能](whats-new.md)」を参照してください。 
 
-## <a name="may-2019"></a>2019 年の月
+## <a name="may-2019"></a>2019 年 5 月
 
 - **Power BI Report Server**          
-    - *1.5.7074.36177 (ビルド 15.0.1102.371) リリースのバージョン:2019 年 5 月 21日*
+    - *バージョン 1.5.7074.36177 (ビルド 15.0.1102.371)、リリース日: 2019 年 5 月 21 日*
         - バグの修正
             - ページ分割されたレポート
-                - Pdf のフォントの埋め込みを常に有効にするための修正。
-                - 修正としてセキュリティで保護された https 経由で送信されたクッキーを設定するには
-                - Pop での問題を修正するスクリプトのエラーにより ups
-                - Android フォンでモバイル アプリの表示の問題を修正します。
-                - モバイル レポートの時間ナビゲーター会計年度の開始に関係なく、正しい週番号を表示する問題を修正しました
-                - 追加的な 'RestrictedResourceMimeTypeForUpload' で管理者を指定するための構成可能なプロパティが禁止されている mime の種類
+                - PDF のフォント埋め込みを常に有効にするための修正
+                - HTTPS 経由で送信された Cookie を安全として設定するための修正
+                - スクリプトのエラーが原因のポップ アップの問題の修正
+                - Android フォン上のモバイル アプリの表示の問題の修正
+                - モバイル レポート時間ナビゲーターで会計年度の開始に関係なく正しい週の数を表示するための修正
+                - 禁止されている MIME の種類を指定できるよう管理者向けの構成可能なプロパティ 'RestrictedResourceMimeTypeForUpload' を追加
          - 機能
             - PBIRS への信頼されたビジュアルのサポートの追加
 
 - **Power BI Desktop (Power BI Report Server 用に最適化)**
-    - *バージョン:2.69.5467.1801 (月 2019)、リリース:2019 年 5 月 21日*
+    - *バージョン:2.69.5467.1801 (2019 年 5 月)、リリース日: 2019 年 5 月 21 日*
         - バグの修正
-            - PBIRS に PBIX のアップロード中に資格情報の再を回避するための修正
-            - 修正プログラムのファイル名に # でドキュメントを開く
-            - PBIRS の選択 ウィンドウのナビゲーションを簡単にリンクが追加されました
-            - [戻る] ボタンを表示するのには、警告メッセージのビジュアルを表示する PBIRS でハイ コントラスト モードを修正します。
-            - UI の修正プログラムの選択 ウィンドウには、スケーリングをキャンバスです。
+            - PBIRS への PBIX のアップロード中の資格情報の再エントリを回避するための修正
+            - ファイル名に # があるドキュメントを開くための修正
+            - PBIRS の選択ウィンドウ上の "戻る" ナビゲーションへのより簡単なリンクの追加
+            - [戻る] ボタンを表示、警告のビジュアル メッセージを表示するための PBIRS のハイコントラスト モードの修正
+            - [選択] ウィンドウ、キャンバス スケーリングに対する UI 修正
 
 ## <a name="january-2019"></a>2019 年 1 月
 
 - **Power BI Report Server**          
-    - *1.4.7024.16477 (ビルド 15.0.1102.299) リリースのバージョン:2019 年 3 月 28日*
+    - *バージョン 1.4.7024.16477 (ビルド 15.0.1102.299)、リリース日: 2019 年 3 月 28 日*
         - バグの修正
             - Power BI レポート
                 - SAP Hana と SAP BW に対して直接クエリを使う場合の基本資格情報に関する問題の修正

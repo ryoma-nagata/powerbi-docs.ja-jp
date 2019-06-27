@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770474"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823319"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -80,6 +80,7 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 * Azure AD 認証トークンの有効期限が切れています。
 * 認証されたユーザーがグループ (アプリ ワークスペース) に属していません。
 * 認証されたユーザーがグループ (アプリ ワークスペース) の管理者ではありません。
+* 認証されたユーザーは、アクセス許可を持っていません。 アクセス許可は [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) を使用して更新できます
 * Authorization ヘッダーが正しく記載されていない可能性があります。 入力ミスがないことを確認してください。
 
 場合によっては、GenerateToken を呼び出す前にアプリケーションのバックエンドで認証トークンを更新する必要があります。
@@ -187,7 +188,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="cs1061-error"></a>CS1061 エラー
 
-ダウンロード[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)が発生した場合、"'AuthenticationContext' に 'AcquireToken' のないアクセス可能な 'AcquireToken' 型の最初の引数を受け付ける定義が含まれていません 'AuthenticationContext' が見つかりませんでした (が存在することを使用して、ディレクティブまたはアセンブリ参照。)"エラー。
+"'AuthenticationContext' に 'AcquireToken' の定義が含まれておらず、型 'AuthenticationContext' の最初の引数を受け付けるアクセス可能な拡張メソッド 'AcquireToken' が見つかりませんでした。using ディレクティブまたはアセンブリ参照が不足していないことを確認してください" というエラーが発生する場合は、[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) をダウンロードします。
 
 ## <a name="data-sources"></a>データ ソース
 

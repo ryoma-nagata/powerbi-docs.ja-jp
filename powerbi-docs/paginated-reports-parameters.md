@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスでページ分割されたレポートのパラメーターを作成する (プレビュー)
+title: Power BI サービスでページ分割されたレポートのパラメーターを作成する
 description: この記事では、Power BI サービスでページ分割されたレポートのパラメーターを作成する方法について説明します。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: adec7af0032772022a330e3ab25377205de9ace5
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60987672"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838991"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI サービスでページ分割されたレポートのパラメーターを作成する (プレビュー)
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポートのパラメーターを作成する
 
 この記事では、Power BI サービスでページ分割されたレポートのパラメーターを作成する方法について説明します。  レポート パラメーターは、レポート データを選択し、レポートの体裁を変更する方法を提供します。 ユーザーが既定値および使用可能な値の一覧を指定し、レポート閲覧者が選択内容を変更できます。  
 
-次の図は、レポートのパラメーターを使用して Power BI のレポート ビルダーでデザイン ビューを示します@BuyingGroup、 @Customer、 @FromDate、および@ToDateします。 
+次の図は、@BuyingGroup、@Customer、@FromDate、@ToDate の各パラメーターを指定したレポートの Power BI レポート ビルダーのデザイン ビューを示しています。 
   
 ![レポート ビルダーにおけるパラメーター](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ ms.locfileid: "60987672"
   
 ## <a name="create-or-edit-a-report-parameter"></a>レポート パラメーターを作成または編集する  
   
-1.  Power BI のレポート ビルダーで改ページ調整されたレポートを開きます。
+1.  ページ分割されたレポートを Power BI レポート ビルダーで開きます。
 
 1. **レポート データ** ペインで、 **[パラメーター]** ノードを右クリックして **[パラメーターの追加]** を選択します。 **[レポート パラメーターのプロパティ]** ダイアログ ボックスが表示されます。  
   
@@ -67,4 +67,4 @@ ms.locfileid: "60987672"
 
 Power BI サービスにおけるパラメーターの表示方法を確認するには、「[View parameters for paginated reports](paginated-reports-view-parameters.md)」(ページ分割されたレポートのパラメーターを表示する) を参照してください。
 
-ページ分割されたレポートのパラメーターの詳細については、SQL Server Reporting Services のドキュメントの記事「[レポート パラメーター (レポート ビルダーおよびレポート デザイナー)](https://docs.microsoft.com/sql/reporting-services/report-design/report-parameters-report-builder-and-report-designer)」を参照してください。  
+ページ分割されたレポートのパラメーターの詳細については、「[Report parameters in Power BI Report Builder](report-builder-parameters.md)」 (Power BI レポート ビルダーのレポート パラメーター) を参照してください。

@@ -1,5 +1,5 @@
 ---
-title: Power BI での Cognitive Services (プレビュー)
+title: Power BI の Cognitive Services
 description: Power BI で Cognitive Services を使用する方法について説明します。
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 267534198d40b91a5550321162b42ecd45500673
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61182012"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823513"
 ---
-# <a name="cognitive-services-in-power-bi-preview"></a>Power BI での Cognitive Services (プレビュー)
+# <a name="cognitive-services-in-power-bi"></a>Power BI の Cognitive Services 
 
 Power BI で Cognitive Services を使用すると、[Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) からのさまざまなアルゴリズムを適用して、データフロー用のセルフ サービスのデータ準備でデータを強化できます。
 
@@ -25,7 +25,7 @@ Power BI で Cognitive Services を使用すると、[Azure Cognitive Services](
 
 ## <a name="enabling-ai-features"></a>**AI 機能を有効にする**
 
-Cognitive Services は、Premium 容量ノード EM2、A2、または P1 以降でサポートされます。 Cognitive Services を実行する際は、容量上の別個の AI ワークロードが使用されます。 パブリック プレビューの期間中、既定では、このワークロードは無効になっています。 Power BI で Cognitive Services を使用する前に、管理ポータルの容量設定で AI ワークロードを有効にする必要があります。 [ワークロード] セクションで AI ワークロードを有効にし、このワークロードで消費する最大メモリ量を定義します。 推奨されるメモリ制限は、20% です。 この制限を超えると、クエリ速度が低下します。
+Cognitive Services は、Premium 容量ノード EM2、A2、または P1 以降でサポートされます。 Cognitive Services を実行する際は、容量上の別個の AI ワークロードが使用されます。 (2019 年 6 月以前の) パブリック プレビューの期間中、このワークロードは既定で無効になっていました。 Power BI で Cognitive Services を使用する前に、管理ポータルの容量設定で AI ワークロードを有効にする必要があります。 [ワークロード] セクションで AI ワークロードを有効にし、このワークロードで消費する最大メモリ量を定義します。 推奨されるメモリ制限は、20% です。 この制限を超えると、クエリ速度が低下します。
 
 ![Power BI での Cognitive Services](media/service-cognitive-services/cognitive-services_01.png)
 
@@ -95,14 +95,14 @@ Text Analytics では、機械学習分類アルゴリズムを使用して、0 
 
 この記事では、Power BI サービスで Cognitive Services を使用する方法を概説しました。 以下の記事も興味深い内容で、役立つかもしれません。 
 
-* [チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し (プレビュー)](service-tutorial-invoke-machine-learning-model.md)
-* [Azure Machine Learning の Power BI への統合 (プレビュー)](service-machine-learning-integration.md)
+* [チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し](service-tutorial-invoke-machine-learning-model.md)
+* [Azure Machine Learning の Power BI への統合](service-machine-learning-integration.md)
 * [チュートリアル:Power BI での Cognitive Services の使用](service-tutorial-use-cognitive-services.md)
 
 
 データフローの詳細については、以下の記事をご覧ください。
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium での計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
 * [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
-* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
+* [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)

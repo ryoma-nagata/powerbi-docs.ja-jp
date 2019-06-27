@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium での増分更新
 description: Power BI Premium サービスで非常に大きいデータセットを有効にする方法を説明します。
-author: christianwade
+author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/10/2019
-ms.author: chwade
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65536143"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408585"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium での増分更新
 
@@ -41,7 +41,7 @@ PBIX ファイルはデスクトップ コンピューターで利用可能な�
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart パラメーターと RangeEnd パラメーター
 
-増分更新の場合、大文字と小文字が区別される予約済みの名前 **RangeStart** と **RangeEnd** で、Power Query の日付/時刻パラメーターを使用して、データセットがフィルター処理されます。 これらのパラメーターは、Power BI Desktop にインポートされるデータをフィルター処理するためだけでなく、Power BI サービスに発行された複数の範囲に動的にデータをパーティション分割するためにも使用されます。 パラメーターの値は、サービスによってパーティションごとにフィルター処理のために置き換えられます。 発行すると、パラメーター値は Power BI サービスによって自動的にオーバーライドされます。 サービスのデータセットの設定で設定する必要はありません。 発行すると、パラメーター値は Power BI サービスによって自動的にオーバーライドされます。 
+増分更新の場合、大文字と小文字が区別される予約済みの名前 **RangeStart** と **RangeEnd** で、Power Query の日付/時刻パラメーターを使用して、データセットがフィルター処理されます。 これらのパラメーターは、Power BI Desktop にインポートされるデータをフィルター処理するためだけでなく、Power BI サービスに発行された複数の範囲に動的にデータをパーティション分割するためにも使用されます。 パラメーターの値は、サービスによってパーティションごとにフィルター処理のために置き換えられます。 サービスのデータセットの設定で設定する必要はありません。 発行すると、パラメーター値は Power BI サービスによって自動的にオーバーライドされます。
 
 既定値でパラメーターを定義するには、Power Query エディターで **[パラメーターの管理]** を選択します。
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>制限事項
 
-現在のところ、[複合モデル](desktop-composite-models.md)、sql、Oracle、増分更新がサポートされているし、Teradata データ ソースのみです。
+現在のところ、[複合モデル](desktop-composite-models.md)の場合、増分更新は SQL、Oracle、Teradata データ ソースでのみサポートされています。

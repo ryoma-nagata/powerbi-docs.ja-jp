@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/20/2017
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 201e4e75c9a1ce0d05c85112457191a8d306c596
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c2ccbf8eaa272d6e5a57f88c76c79b5d06bb3892
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61248092"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839667"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Power BI レポートでの視覚化の種類の変更
 Power BI サービスおよび Power BI Desktop では、さまざまな種類の視覚化を試して、データの最適な表示方法を探すことができます。 
@@ -24,7 +24,7 @@ Power BI サービスおよび Power BI Desktop では、さまざまな種類�
 2. 視覚化を選んでアクティブにします。 アクティブな視覚エフェクトには、ハンドルと罫線があります。    
 3. [視覚化] ウィンドウで、新しい視覚化の種類を選びます。 
    
-   ![](media/power-bi-report-change-visualization-type/changeviz.gif)
+   ![縦棒グラフから折れ線グラフへの変更を示すビデオ](media/power-bi-report-change-visualization-type/changeviz.gif).
 4. (オプション) ダッシュボードにタイルとして[視覚エフェクトをピン留め](../service-dashboard-pin-tile-from-report.md)します。 
 
 ダッシュボードにピン留めした後で、レポート内で視覚エフェクトの種類を変更した場合、ダッシュボードのタイルは自動的に更新されません。 そのため、折れ線グラフで視覚化をピン留めした後、これをレポート内で横棒グラフに変更しても、既にピン留めされているバージョンの同じデータは折れ線グラフのままです。 横棒グラフをピン留めすると、ダッシュボードでも表示されます。

@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスでのページ分割されたレポートの埋め込みデータ ソース (プレビュー)
+title: Power BI サービスでのページ分割されたレポートの埋め込みデータ ソース
 description: この記事では、Power BI サービスでページ分割されたレポートの埋め込みデータ ソースを作成および変更する方法について説明します。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/16/2019
-ms.openlocfilehash: 4dd9ad935a9f7b286aa64d977a78364f2aed0e0f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853397"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838928"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Power BI サービスでページ分割されたレポート用の埋め込みデータ ソースを作成する (プレビュー)
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポート用の埋め込みデータ ソースを作成する
 
 この記事では、Power BI サービスでページ分割されたレポートの埋め込みデータ ソースを作成および変更する方法について説明します。 埋め込みデータ ソースは、1 つのレポートで定義し、そのレポート内のみで使用します。 現時点では、Power BI サービスに発行されるページ分割されたレポートには、埋め込みデータセットと埋め込みデータ ソースが必要であり、次のデータ ソースに接続できます。
 
@@ -26,16 +26,18 @@ ms.locfileid: "65853397"
 - Oracle 
 - Teradata 
 
-これらのデータ ソース、使用、 [SQL Server Analysis Services 接続](service-premium-connect-tools.md)オプション。
+次のデータ ソースの場合は、[SQL Server Analysis Services 接続](service-premium-connect-tools.md)オプションを使用します。
 
 - Azure Analysis Services
-- Power BI Premium のデータセット
+- Power BI Premium データセット
 
-ページ分割されたレポートは、ゲートウェイを使用してオンプレミスのデータ ソースに接続します。 ゲートウェイの設定は、Power BI サービスにレポートを発行した後で行います。 詳しくは、「[Power BI ゲートウェイとは](service-gateway-getting-started.md)」をご覧ください。 
+ページ分割されたレポートは、[Power BI ゲートウェイ](service-gateway-getting-started.md)を使用してオンプレミスのデータ ソースに接続します。 ゲートウェイの設定は、Power BI サービスにレポートを発行した後で行います。
+
+詳細については、「[Report Data in Power BI Report Builder](report-builder-data.md)」 (Power BI レポート ビルダーでのレポート データ) を参照してください。
 
 ## <a name="create-an-embedded-data-source"></a>埋め込みデータ ソースを作成する
   
-1. Power BI のレポート ビルダーを開きます。
+1. Power BI レポート ビルダーを開きます。
 
 1. [レポート データ] ペインのツール バーで、 **[新規]**  >  **[データ ソース]** の順に選択します。 **[データ ソースのプロパティ]** ダイアログ ボックスが開きます。
 
@@ -68,4 +70,4 @@ ms.locfileid: "65853397"
 ## <a name="next-steps"></a>次の手順
 
 - [Power BI サービスのページ分割されたレポート用の埋め込みデータセットを作成する](paginated-reports-create-embedded-dataset.md)
-- [Power BI Premium のページ分割されたレポートとは(プレビュー)](paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)

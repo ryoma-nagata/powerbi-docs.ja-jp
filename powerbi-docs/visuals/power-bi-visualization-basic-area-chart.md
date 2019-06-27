@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61393246"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839867"
 ---
 # <a name="basic-area-chart"></a>基本的な面グラフ
 基本的な面グラフ (層グラフとも呼ばれます) は、折れ線グラフに基づいています。 軸と折れ線の間の領域は、量を示すために色で塗りつぶされます。 
@@ -40,11 +40,11 @@ ms.locfileid: "61393246"
  
 
 1. [小売りの分析のサンプル] ダッシュボードで、 **\[Total Stores] \(総店舗数)** タイルを選び、[小売りの分析のサンプル] レポートを開きます。
-2. **[レポートの編集]** を選んで、編集ビューでレポートを開きます。
+2. **[編集]** を選択し、編集ビューでレポートを開きます。
 3. レポートの下部にある黄色の正符号 [+] アイコンを選んで、新しいページを追加します。
 4. 今年の売上と去年の売上を月ごとに表示する面グラフを作成します。
    
-   a. [フィールド] ウィンドウで、 **[Sales] \> [Last Year Sales]** を選び、 **[This Year Sales] > [Value]** を選びます。
+   a. [フィールド] ウィンドウで、 **[Sales] \> [Last Year Sales]** を選択し、 **[This Year Sales] > [Value]** を選択します。
 
    ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 

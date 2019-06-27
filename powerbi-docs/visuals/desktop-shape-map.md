@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394794"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839340"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
 色を使用して、マップで領域を比較するために **[図形マップ]** ビジュアルを作成します。 **[マップ]** ビジュアルとは異なり、 **[図形マップ]** ではマップ上の地理的な場所を正確には表示できません。 代わりに、これの主な用途は、違う色を適用することにより、マップ上の領域を相対的に比較できます。
@@ -27,15 +27,15 @@ ms.locfileid: "61394794"
 
 **[マップのシェイプ]** のビジュアルは、プレビュー段階にあるため、Power BI Desktop でこれを有効にする作業が必要です。 **[マップのシェイプ]** を有効にするには、 **[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能]** の順に選択し、 **[図形マップのビジュアル]** チェック ボックスをオンにします。 選択を行った後、Power BI Desktop を再起動する必要があります。
 
-![](media/desktop-shape-map/shape-map_1a.png)
+![[マップのシェイプ] プレビュー機能の有効化](media/desktop-shape-map/power-bi-preview-features.png)
 
-**[マップのシェイプ]** が有効になったら、 **[視覚化]** ウィンドウで **[マップのシェイプ]** コントロールをクリックします。
+**[マップのシェイプ]** が有効になったら、 **[視覚化]** ウィンドウで **[マップのシェイプ]** アイコンを選択します。
 
-![](media/desktop-shape-map/shape-map_2.png)
+![図形マップ用のテンプレートを選択する](media/desktop-shape-map/power-bi-shape-map-template2.png)
 
 Power BI Desktop は、 **[マップのシェイプ]** のビジュアルのデザイン キャンバスを作成します。
 
-![](media/desktop-shape-map/shape-map_3.png)
+![自分のキャンバス上に空の図形マップが表示される](media/desktop-shape-map/shape-map-3.png)
 
 次の手順に従って、 **[マップのシェイプ]** を作成します。
 
@@ -46,26 +46,23 @@ Power BI Desktop は、 **[マップのシェイプ]** のビジュアルのデ�
    > 
    > 
 
-   ![](media/desktop-shape-map/shape-map_3a.png)
+   ![自分の図形マップを作成する](media/desktop-shape-map/shape-map-3a.png)
 2. **[形式]** 設定ウィンドウで、 **[図形]** を展開し、 **[標準マップ]** ドロップダウンから選択して、目的のデータを表示します。 この時点で、次の図に示すようにレンダリングが行われます。
 
-   ![](media/desktop-shape-map/shape-map_3b.png)
+   ![[書式設定] ウィンドウを開き、[図形] を選択する](media/desktop-shape-map/shape-map-3b-new.png)
 
    > [!NOTE]
    > この記事の最後に記載した「**地域キー**」セクションは、 **[マップのシェイプ]** のビジュアルをテストするのに使用できる地図の地域キーが含まれる表のコレクションです。
    > 
    > 
-3. **[形式]** 設定ウィンドウでは、データ ポイントの色に加えて、地図の投影やズームの設定も変更できます。 ズーム設定を変更することもできます。 たとえば、色の変更、最大値と最小値の設定などを行うことができます。
-
-   ![](media/desktop-shape-map/shape-map_3d.png)
-4. また、カテゴリ データ列を **[凡例]** バケットに追加し、カテゴリに基づいて地図の地域を分類することもできます。
+3. **[既定の色]** や **[ズーム]** などの [書式設定] オプションを使用してマップを変更することができます。 また、カテゴリ データ列を **[凡例]** バケットに追加し、カテゴリに基づいて地図の地域を分類することもできます。
 
 ## <a name="use-custom-maps"></a>カスタム マップの使用
 それが **TopoJSON** 形式であれば、**マップのシェイプ**でカスタム マップを使用できます。 マップが別の形式の場合、[**Map Shaper**](http://mapshaper.org/) などのオンライン ツールを使用し、*シェイプ ファイル*や *GeoJSON* マップを **TopoJSON** 形式に変換できます。
 
 **TopoJSON** マップ ファイルを使用するには、ShapeMap ビジュアルをレポートに追加し、データを *[場所]* バケットと *[色の彩度]* バケットに追加します。 その後、 **[視覚化]** ウィンドウで **[形式]** セクションを選択し (次の画像の (1))、 **[図形]** セクションを展開し、 **[+ マップの追加]** を選択します。
 
-![](media/desktop-shape-map/shape-map_6.png)
+![[書式設定] ウィンドウを開き、[マップの追加] を選択する](media/desktop-shape-map/shape-map-6-new.png)
 
 ## <a name="sample-custom-map"></a>サンプル カスタム マップ
 *米国連邦地検* は、訴訟および取扱件数データに関する年次会計報告を公表しました。  これらすべてのレポートは以下のリンクで確認できます。
@@ -74,11 +71,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 州は複数の区に分けられるため、カスタム シェイプ マップを使用する必要があります。  米国司法管轄区の **TopoJSON** マップを **Power BI Desktop** にインポートすることで、地区検事長の年次会計報告データを視覚化できます。  次の画像はこのマップの例を示しています。
 
-![](media/desktop-shape-map/shape-map_7a.png)
+![ユーザー設定の図形マップ](media/desktop-shape-map/shape-map-7a.png)
 
 個々の州マップについても、含まれる区に基づいて詳細を表示することができます。 
 
-![](media/desktop-shape-map/shape-map_7b.png)
+![テキサスの図形マップ](media/desktop-shape-map/shape-map-7b.png)
 
 このデータセットと視覚エフェクトを試したい場合は、以下のリンクを使用して、このレポートの生成に使用された元の PBIX ファイルをダウンロードできます。
 
@@ -87,11 +84,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 ## <a name="getting-map-data"></a>マップ データの取得
 **[マップのシェイプ]** をテストできるようにモデルに迅速にデータを入力するには、 **[ホーム]** リボンから **[データの入力]** を選択します。
 
-![](media/desktop-shape-map/shape-map_4.png)
+![Desktop で、[データの入力] を選択する](media/desktop-shape-map/shape-map-4-new.png)
 
 データに複数の列がある場合は、Excel などのエディターを使用してデータを貼り付け、各データ列を個別にコピーする必要があります。 このデータは Power BI Desktop に貼り付けることができます。 一番上の行は、自動的に見出しとして識別されます。
 
-![](media/desktop-shape-map/shape-map_5.png)
+![[テーブルの作成] ウィンドウ](media/desktop-shape-map/shape-map-5.png)
 
 新しい列は簡単に入力できます。新しい列名を入力し (右側の空の列に)、各セルに値を追加します。この方法は Excel で行う操作と同じです。 列の作成が完了したら、 **[読み込み]** を選択します。表が Power BI Desktop のデータ モデルに追加されます。
 

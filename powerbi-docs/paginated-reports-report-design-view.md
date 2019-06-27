@@ -1,5 +1,5 @@
 ---
-title: ページ分割されたレポート用のレポート デザイン ビュー内を移動する (プレビュー)
+title: ページ分割されたレポート用のレポート デザイン ビュー内を移動する
 description: レポート ビルダーのレポート デザイン ビューは、Power BI サービスに発行できるページ分割されたレポートを作成するためのデザイン領域です。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 76c12cf411f49fda9f9fe042a6d1aafa457bf914
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423369"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839526"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>ページ分割されたレポート用のレポート デザイン ビュー内を移動する (プレビュー)
+# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>ページ分割されたレポート用のレポート デザイン ビュー内を移動する
 
-Power BI のレポート ビルダーでレポート デザイン ビューは、Power BI サービスに公開できる改ページ調整されたレポートを作成するためのデザイン領域です。 デザイン サーフェイスはレポート ビルダーの中央に表示され、周囲にはリボンやペインがあります。 デザイン サーフェイスでは、レポート アイテムを追加して整理します。 この記事では、レポート リソースの追加、選択、整理およびレポート アイテムのプロパティの変更に使用するペインについて説明します。  
+Power BI レポート ビルダーのレポート デザイン ビューは、Power BI サービスに発行できるページ分割されたレポートを作成するためのデザイン領域です。 デザイン サーフェイスはレポート ビルダーの中央に表示され、周囲にはリボンやペインがあります。 デザイン サーフェイスでは、レポート アイテムを追加して整理します。 この記事では、レポート リソースの追加、選択、整理およびレポート アイテムのプロパティの変更に使用するペインについて説明します。  
 
 ![レポート ビルダーのレポート デザイン ビュー](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
@@ -109,7 +109,7 @@ Power BI のレポート ビルダーでレポート デザイン ビューは�
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI Premium のページ分割されたレポートとは(プレビュー)](paginated-reports-report-builder-power-bi.md) 
+[Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md) 
 
   
   
