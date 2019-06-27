@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991056"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038900"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -23,16 +23,45 @@ ms.locfileid: "65991056"
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
 
-## <a name="april-2019"></a>4 月 2019
+## <a name="may-2019"></a>2019 年 5 月
 
-### <a name="key-influencers-visual"></a>主要な影響元 visual 
-主要な影響元ビジュアルは、モバイル アプリで公開されています。 このビジュアルでは、わずか 2 回のタップで、データに対する主な推進要因の分析を実行できます。
+### <a name="siri-shortcuts-support-ios"></a>Siri ショートカットのサポート (iOS)
+ユーザーは、各自の Power BI のレポートとダッシュボードへの Siri ショートカットを作成した後、Siri 音声インターフェイスからそれらを直接開くことができます。 [Power BI iOS アプリで Siri ショートカットを使用する方法を参照する](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/)。
 
-### <a name="add-comments-to-report-content-android-and-ios"></a>レポートのコンテンツ (Android および iOS) にコメントを追加します。
-現在のレポート ページとビジュアルに関するフィードバックを共有する場とコメントを使用できます。 詳細については、レポートを Power BI サービスとモバイルでのコメント[このブログで](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)します。 
+### <a name="device-search-ios"></a>デバイスの検索 (iOS)
+iOS デバイスの検索 (スポットライト) との Power BI の統合。 iPhone または iPad でのコンテンツの検索も、Power BI のアイテムに含まれるようになりました。 ユーザーが、デバイスのネイティブ検索を使用したときに、検索条件と一致する Power BI レポート、ダッシュボード、アプリ、ワークスペース、およびユーザーが検索結果に表示されます。 [ブログ記事で詳細を確認する](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/)。
 
-### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>全画面表示モード (Android および iOS) で最大にします。
-レポートのヘッダーとフッターを削除して、レポートを表示するための最大領域を提供して、データに集中するタイミングを制御できる新しいボタンが追加されました。
+
+### <a name="single-tap-report-interaction---ga"></a>シングル タップ レポート対話機能 - GA
+
+シングル タップが一般提供されるようになり、新規ユーザーにとっては既定のタッチ操作になります。 ユーザーはそれをオフにすることができ、アプリ設定でダブル タップを有効にできます。
+
+### <a name="enhanced-conditional-access-protection-ios-android"></a>強化された条件付きアクセスの保護 (iOS、Android)
+
+アプリ ポリシーが適用される前の Power BI へのアクセスを制限することでセキュリティを強化するために、AAD に[新しいアプリ保護ベースの条件付きアクセス機能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)が統合されました。
+
+### <a name="device-protection-ios"></a>デバイスの保護 (iOS)
+
+ユーザーは、デバイスの組み込み保護を使用して、Face ID、Touch ID または Power BI にアクセスするためのパスコードを要求することによって、Power BI をセキュリティで保護することができます。 これは、アプリ設定を使用してユーザーが制御できますが、Intune やその他の MDM ツールを使用して管理者が制御することもできます。 [詳細情報](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access)
+
+### <a name="one-page-report-slideshow-windows"></a>1 ページのレポートのスライド ショー (Windows)
+
+スライド ショーでの 1 ページのレポートの自動更新もサポートされます。 そのため、レポートの基になるデータ ソースが更新された場合は、それがピックアップされ、ページ内のデータが更新されます。
+
+
+## <a name="april-2019"></a>2019 年 4 月
+
+### <a name="key-influencers-visual"></a>主要なインフルエンサーのビジュアル 
+
+モバイル アプリで主要なインフルエンサーのビジュアルを利用できるようになりました。 このビジュアルを使用して、数回のタップでデータの主な推進要因の分析を実行できます。
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>レポートのコンテンツへのコメントの追加 (Android および iOS)
+
+コメントを使用して、レポートのページとビジュアルに対する共同作業とフィードバックの共有を実行できるようになりました。 Power BI サービスとモバイルでのレポートのコメントの詳細については、[こちらのブログ](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)を参照してください。 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>表示を全画面表示モードで最大化する (Android および iOS)
+
+データに注目するときに、レポートのヘッダーとフッターを削除することでレポートの表示スペースを最大化できる新しいボタンが追加されました。
 
 ## <a name="march-2019"></a>2019 年 3 月
 
@@ -42,20 +71,20 @@ ms.locfileid: "65991056"
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>スライド ショーでの Windows プレゼンテーション モードの強化 (Windows)
 
-[スライド ショー](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)レポートのページ間が自動的に全画面で Power BI レポートを回転実行、オフィスにあるパブリックの表示を使用することができます。  
+[スライド ショー](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)では、オフィスにあるパブリック ディスプレイを使用して、レポート ページ間を自動的にローテーションする Power BI レポートを全画面で実行することができます。  
 
-### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>ADFS と WAP の構成 (iOS のみ) で PBI RS レポートのサポート
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>ADFS と WAP 構成での PBI RS レポートのサポート (iOS のみ)
 
-Power BI レポート (PBIX) が ADFS 構成上の PBI RS でホストされているは、Power BI iOS アプリから今すぐアクセスできます。
+Power BI iOS アプリから、ADFS 構成上の PBI RS でホストされている Power BI レポート (PBIX) にアクセスできるようになりました。
 
-### <a name="enabling-single-tap-interaction-with-report-visuals"></a>1 回のタップのやり取り、レポートのビジュアルを有効にします。
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>レポート ビジュアルでのシングル タップ操作の有効化
 
-1 つだけのビジュアルでタップ、ボタン、またはそのデータの対話をすぐにスライサーが必要であるためにレポートの相互作用を変更しました。 ユーザーが不要になったビジュアルを選択し、タップして、操作をもう一度タップする必要があります、両方とも 1 回のタップはしないでください。
+レポート対話機能が変更され、ビジュアル、ボタン、またはスライサーを 1 回タップするだけで、データをすぐに操作できるようになりました。 ユーザーは、ビジュアルを操作するときに、タップしてそれを選択し、操作するためにもう一度タップする必要はなくなりました。シングル タップで両方が実行されます。
 
 ![シングル タップ操作](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> 既存のユーザーは、アプリ設定では、この動作を有効にする必要があります。 詳細については、次を参照してください。、 [1 回のタップ レポート対話機能を構成する方法](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)記事。
+> 既存のユーザーは、アプリ設定でこの動作を有効にする必要があります。 詳細については、[シングル タップ レポート対話機能を構成する方法](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)に関する記事を参照してください。
 
 ## <a name="january---february-2019"></a>2019 年 1 月 - 2 月
  
@@ -352,7 +381,7 @@ Power BI コンテンツの編成については[ここ](mobile-apps-quickstart-
 #### <a name="ios-devices"></a>iOS デバイス
 **Q&A のプレビューによるデータに関する質問** 
 
-Q&A を使って自分の言葉でデータに関する質問をすると、Power BI が答えてくれます。 Q&A は、Power BI サービス (http://powerbi.com) で既に提供されています。 また、[iPhone または iPad のモバイル アプリで使用する](mobile-apps-ios-qna.md)こともできます。
+Q&A を使って自分の言葉でデータに関する質問をすると、Power BI が答えてくれます。 Q&A は、Power BI サービス (http://powerbi.com ) で既に提供されています。 また、[iPhone または iPad のモバイル アプリで使用する](mobile-apps-ios-qna.md)こともできます。
 
 **複数の SSRS サーバーへの接続** 
 

@@ -7,29 +7,25 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: sample
-ms.date: 06/23/2018
+ms.date: 06/11/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c508a97d10c1ac16df5c5a006900257d7003ed43
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1227179a143ccfb4f313a298f9ab8eaacae9c652
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61200393"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038893"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Power BI 用の Financial Sample のダウンロード
-Power BI サービスで試すデータが必要な場合 サンプルの財務データが含まれる簡単な Excel ブックをダウンロードできます。  これをダウンロードする方法を次に示します。
+Power BI サービスで試すデータが必要ですか。 サンプルの財務データが含まれる簡単な Excel ブックをダウンロードできます。[財務サンプル Excel ブック](http://go.microsoft.com/fwlink/?LinkID=521962)。
 
-財務データのサンプル Excel ブック: [こちらから直接ダウンロードします](http://go.microsoft.com/fwlink/?LinkID=521962)。
-
-このブックには、市場区分と国/地域ごとの売上データと利益データを入れた 1 つのテーブルがあります。
+このブックには、市場区分と国別に分類された売上と利益データのテーブルがあります。
 
 ### <a name="next-steps"></a>次の手順
-[データの取得](service-get-data.md)
+[Excel ブック ファイルからデータを取得する](service-excel-workbook-files.md)
 
-[Excel データをインポートする方法](service-excel-workbook-files.md)
-
-[その他のお試し用 Power BI データ-- サンプル データとコンテンツ パック](sample-datasets.md)
+[Power BI で利用できるサンプル データ](sample-datasets.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 
