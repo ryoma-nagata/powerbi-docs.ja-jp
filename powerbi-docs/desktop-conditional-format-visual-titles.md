@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b90ef66d2c118a70f1b18ed4fe302ce1db23e45c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769744"
@@ -57,7 +57,7 @@ SWITCH (
 
 フィールドを選択し、適用するには、**視覚化**ウィンドウ。 **形式**領域で、**タイトル**ビジュアルのタイトルのオプションを表示します。 
 
-右クリックすると**タイトルのテキスト**、選択できるように、コンテキスト メニューが表示されます ***fx * 条件付き書式**します。 そのメニュー項目を選択すると、**タイトルのテキスト** ダイアログ ボックスが表示されます。 
+右クリックすると**タイトルのテキスト**、選択できるように、コンテキスト メニューが表示されます ***fx* 条件付き書式**します。 そのメニュー項目を選択すると、**タイトルのテキスト** ダイアログ ボックスが表示されます。 
 
 ![スクリーン ショットのタイトル テキスト ダイアログ ボックス](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 
