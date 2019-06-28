@@ -82,7 +82,7 @@ toColumn     | String        | 主キー列の名前です。        | False    
 ---------|---------
 Int64     |   Int64.MaxValue と Int64.MinValue が許可されまていせん。      
 Double     |  Double.MaxValue と Double.MinValue 値が許可されていません。 NaN はサポートされていません。一部の関数では正の無限大と負の無限大がサポートされていません (例: Min、Max)。       
-ブール値     |   True または False。
+Boolean     |   True または False。
 DateTime    |   データの読み込み中に、日時分数の値を 1/300 秒 (3.33ms) の整数倍に量子化します。      
 String     |  現在のところ、文字列値あたり、最大 4,000 文字が許可されます。
 Decimal|精度=28、スケール=4
