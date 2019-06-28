@@ -106,9 +106,9 @@ Power BI のテーブル スキーマでは、次のデータ型を使うこと�
 | --- | --- |
 | Int64 |Int64.MaxValue と Int64.MinValue が許可されまていせん。 |
 | Double |Double.MaxValue と Double.MinValue 値が許可されていません。 NaN はサポートされていません。 + 無限大と負の無限大 (たとえば、Min、Max) の一部の関数でサポートされていません。 |
-| ブール値 |なし |
+| Boolean |なし |
 | DateTime |データの読み込み中には、値 1/300 秒 (3.33 ミリ秒) の整数倍日時分数の量子化します。 |
-| 文字列 |現在、最大 128 文字でもできます。 |
+| String |現在、最大 128 文字でもできます。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI へのデータのプッシュに関する詳細
 
