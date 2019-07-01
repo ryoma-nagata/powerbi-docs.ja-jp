@@ -229,8 +229,10 @@
               href: desktop-insights-find-where-different.md
             - name: Power BI のブックマーク
               href: desktop-bookmarks.md
-            - name: レポートのテーマの使用
+            - name: レポートのテーマを使用する
               href: desktop-report-themes.md
+            - name: フィルターの種類
+              href: power-bi-report-filter-types.md
             - name: 新しいフィルター エクスペリエンスを試す
               href: power-bi-report-filter-preview.md
             - name: クイック メジャーの使用
@@ -417,50 +419,46 @@
           href: service-whats-new.md
         - name: 基本的な概念
           items:
-            - name: デザイナーの基本的な概念
+            - name: Power BI サービスについて理解する
               href: service-basic-concepts.md
-            - name: Power BI でのデータの種類
-              href: service-get-data.md
             - name: レポート エディターのツアー
               href: service-the-report-editor-take-a-tour.md
-        - name: Power BI でのワークフロー
+            - name: Power BI データ ソース
+              href: service-get-data.md
+            - name: Power BI でのデータの更新
+              href: refresh-data.md
+        - name: Power BI での共同作業
           items:
             - name: 作業を整理する
               href: service-new-workspaces.md
-            - name: 作業を共有する方法
+            - name: 作業の共有
               href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: データを最新に維持する方法
-              href: refresh-data.md
-            - name: 使用状況の監視
+            - name: Power BI の使用状況を監視する
               href: service-usage-metrics.md
         - name: ライセンス
           items:
-            - name: セルフサービス サインアップ
+            - name: Power BI にサインアップする
               href: service-self-service-signup-for-power-bi.md
-            - name: 組織でのライセンス
+            - name: Power BI のライセンスを管理する
               href: service-admin-licensing-organization.md
             - name: ライセンスの種類別の機能
               href: service-features-license-type.md
-        - name: その他の概念
+            - name: 米国政府用 Power BI
+              href: service-govus-overview.md
+            - name: ドイツのクラウド ユーザーに関するよく寄せられる質問
+              href: service-govde-faq.md
+        - name: ヘルプとサポートを入手する
           items:
-            - name: ヘルプを得るための 10 のヒント
-              href: service-tips-for-finding-help.md
             - name: Power BI のサポート オプション
               href: service-support-options.md
-            - name: ライセンスの特殊なケース
-              items:
-                - name: Extended Pro Trial のアクティブ化
-                  href: service-extended-pro-trial.md
-                - name: 米国政府用 Power BI
-                  href: service-govus-overview.md
-                - name: ドイツのクラウド ユーザーに関するよく寄せられる質問
-                  href: service-govde-faq.md
-            - name: その他
-              items:
-                - name: Microsoft Flow と Power BI
-                  href: service-flow-integration.md
-                - name: サードパーティのアプリの概要
-                  href: service-power-bi-get-started-third-party-apps.md
+            - name: ヘルプを得るための 10 のヒント
+              href: service-tips-for-finding-help.md
+        - name: Power BI をさらにパワーアップ
+          items:
+            - name: Microsoft Flow と Power BI
+              href: service-flow-integration.md
+            - name: サード パーティ製アプリを使用する
+              href: service-power-bi-get-started-third-party-apps.md
     - name: 方法
       items:
         - name: ファイルからデータを取得
@@ -527,8 +525,6 @@
               href: refresh-csv-file-onedrive.md
             - name: Power BI Premium でのクエリのキャッシュ
               href: power-bi-query-caching.md
-            - name: 更新に関するトラブルシューティング シナリオ
-              href: refresh-troubleshooting-refresh-scenarios.md
         - name: ダッシュボード
           items:
             - name: ダッシュボードの概要
@@ -709,6 +705,8 @@
           items:
             - name: Power BI のパスワードを忘れた場合
               href: service-admin-forgot-your-password.md
+            - name: サインインに問題がありますか?
+              href: power-bi-cannot-sign-in.md
             - name: Power BI 用に追加の診断情報をキャプチャする
               href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
             - name: Power BI の代替メール アドレス
@@ -717,26 +715,26 @@
               href: service-admin-how-to-use-the-same-account-as-azure.md
             - name: Office 365 Dedicated - 既知の問題
               href: service-admin-office-365-dedicated-known-issues.md
-            - name: Cortana のトラブルシューティング
-              href: service-cortana-troubleshoot.md
-            - name: ”Excel で分析” に関するトラブルシューティング
-              href: desktop-troubleshooting-analyze-in-excel.md
-            - name: オンプレミス データ ゲートウェイのトラブルシューティング
-              href: service-gateway-onprem-tshoot.md
-            - name: Power BI Gateway - Personal のトラブルシューティング
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: 更新のシナリオに関するトラブルシューティング
+              href: refresh-troubleshooting-refresh-scenarios.md
             - name: 更新がサポートされていないデータ ソースのトラブルシューティング
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
             - name: Azure SQL Database のスケジュール設定された更新に関するトラブルシューティング
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-            - name: 'エラー:Excel ブックにデータが見つかりませんでした'
-              href: service-admin-troubleshoot-excel-workbook-data.md
             - name: タイルのエラーのトラブルシューティング
               href: refresh-troubleshooting-tile-errors.md
+            - name: オンプレミス データ ゲートウェイのトラブルシューティング
+              href: service-gateway-onprem-tshoot.md
+            - name: Power BI Gateway - Personal のトラブルシューティング
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: ”Excel で分析” に関するトラブルシューティング
+              href: desktop-troubleshooting-analyze-in-excel.md
+            - name: 'エラー:Excel ブックにデータが見つかりませんでした'
+              href: service-admin-troubleshoot-excel-workbook-data.md
+            - name: Cortana のトラブルシューティング
+              href: service-cortana-troubleshoot.md
             - name: 更新が失敗した場合に Xero コンテンツ パックの資格情報を更新する方法
               href: service-refresh-xero-credentials.md
-            - name: サインインに問題がありますか
-              href: power-bi-cannot-sign-in.md
         - name: その他のタスク
           items:
             - name: Power BI 内のコンテンツの名前を変更する
@@ -859,14 +857,12 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: コンテンツ パックへの接続の削除
                   href: service-organizational-content-pack-disconnect.md
-    - name: リソース
+    - name: リファレンス
       items:
-        - name: ビデオ
-          href: videos.md
-        - name: Web セミナー
-          href: webinars.md
         - name: サポートされる言語と国/地域
           href: supported-languages-countries-regions.md
+    - name: リソース
+      items:
         - name: ホワイトペーパー
           items:
             - name: ホワイトペーパーの概要
@@ -877,6 +873,10 @@
               href: whitepaper-powerbi-premium-deployment.md
             - name: Azure Active Directory B2B を使用して外部に Power BI を配布する
               href: whitepaper-azure-b2b-power-bi.md
+        - name: ビデオ
+          href: videos.md
+        - name: Web セミナー
+          href: webinars.md
 - name: Power BI Premium
   items:
     - name: 概要

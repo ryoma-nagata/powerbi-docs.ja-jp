@@ -1,22 +1,22 @@
 ---
-title: Power BI でテンプレート アプリを作成する (プレビュー)
+title: Power BI でテンプレート アプリを作成する
 description: Power BI でテンプレート アプリを作成する方法。作成したアプリは Power BI の顧客に配布できます。
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: maggies
-ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751195"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264545"
 ---
-# <a name="create-a-template-app-in-power-bi-preview"></a>Power BI でテンプレート アプリを作成する (プレビュー)
+# <a name="create-a-template-app-in-power-bi"></a>Power BI でテンプレート アプリを作成する
 
 新しい Power BI *テンプレート アプリ*を利用すれば、Power BI パートナーはコードをほとんど、あるいはまったく記述せずに Power BI アプリを作成し、Power BI の顧客に配布できます。  この記事には、Power BI テンプレート アプリを段階的に作成する手順が含まれています。
 
@@ -31,20 +31,7 @@ Power BI テナント管理者は、組織においてテンプレート アプ�
 - [Power BI Pro ライセンス](service-self-service-signup-for-power-bi.md)
 - [Power BI Desktop をインストールしておくこと](desktop-get-the-desktop.md) (任意)
 - [Power BI の基本的概念](service-basic-concepts.md)に関する知識
-- テンプレート アプリを作成する許可。 詳細については、Power BI [管理ポータルのテンプレート アプリの設定](service-admin-portal.md#template-apps-settings-preview)に関するセクションを参照してください。
-
-## <a name="enable-app-developer-mode"></a>アプリ開発者モードを有効にする
-
-他の Power BI テナントに配布できるテンプレート アプリを作成するには、アプリ開発者モードに入る必要があります。 入らない場合、自分の組織の Power BI 利用者のためにアプリを作成することになります。
-
-1. ブラウザーで Power BI サービスを開きます。
-2. **[設定]** 、 **[全般]** 、 **[開発者]** 、 **[テンプレート アプリ開発モードを有効にする]** の順に選択します。
-
-    ![テンプレート アプリを有効にする](media/service-template-apps-create/power-bi-dev-template-app.png)
-
-    このオプションが表示されない場合、管理ポータルで[テンプレート アプリ開発の許可](service-admin-portal.md#template-apps-settings-preview)を与えるよう、Power BI 管理者に連絡してください。
-
-3. **[適用]** を選びます。
+- テンプレート アプリをパブリックに共有するための権限。 詳細については、Power BI [管理ポータルのテンプレート アプリの設定](service-admin-portal.md#template-apps-settings)に関するセクションを参照してください。
 
 ## <a name="create-the-template-app-workspace"></a>テンプレート アプリ ワークスペースを作成する
 
@@ -54,9 +41,9 @@ Power BI テナント管理者は、組織においてテンプレート アプ�
 
     ![アプリのワークスペースの作成](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. **[アプリ ワークスペースを作成する]** の **[強化されたワークスペースをプレビューする]** で **[今すぐ試す]** を選択します。
+2. **[アプリのワークスペースの作成]** で **[新しいものにアップグレード]** を選択します。
 
-    ![新しいワークスペースを試す](media/service-template-apps-create/power-bi-try-now-new-workspace.png)
+    ![新しいワークスペースを試す](media/service-template-apps-create/power-bi-upgrade-new.png)
 
 3. アプリ ワークスペースの名前、説明 (任意)、ロゴ画像 (任意) を入力します。
 
@@ -70,13 +57,13 @@ Power BI テナント管理者は、組織においてテンプレート アプ�
 
 ## <a name="create-the-content-in-your-template-app"></a>テンプレート アプリでコンテンツを作成する
 
-通常の Power BI アプリ ワークスペースと同様に、次の手順はワークスペースでコンテンツを作成することです。  このプレビュー版のテンプレート アプリでは、データセット、レポート、ダッシュボードという種類のうち、いずれかを 1 つだけ作成できます。
+通常の Power BI アプリ ワークスペースと同様に、次の手順はワークスペースでコンテンツを作成することです。  
 
 - アプリ ワークスペースで [Power BI コンテンツを作成します](power-bi-creator-landing.md)。
 
 Power Query でパラメーターを使用している場合、型を明確に定義します (Text など)。 Any 型と Binary 型はサポートされていません。
 
-「[Power BI でのテンプレート アプリの作成に関するヒント (プレビュー)](service-template-apps-tips.md)」には、テンプレート アプリのためにレポートやダッシュボードを作成するときに考慮してほしい事項が提案されています。
+「[Power BI でのテンプレート アプリの作成に関するヒント](service-template-apps-tips.md)」には、テンプレート アプリのためにレポートやダッシュボードを作成するときに考慮してほしい事項が提案されています。
 
 ## <a name="create-the-test-template-app"></a>テスト テンプレート アプリを作成する
 
@@ -174,10 +161,10 @@ Power Query でパラメーターを使用している場合、型を明確に�
 10. アプリを実稼働前ステージに昇格させ、テナントの外でテストする準備ができたら、 **[リリース管理]** ウィンドウに戻り、 **[アプリの昇格]** を選択します。 
 
     ![実稼働前にアプリを昇格させる](media/service-template-apps-create/power-bi-template-app-promote.png)
-
     >[!NOTE]
     > アプリを昇格させると、組織の外部で一般に使用できるようになります。
 
+    このオプションが表示されない場合、管理ポータルで[テンプレート アプリ開発の許可](service-admin-portal.md#template-apps-settings)を与えるよう、Power BI 管理者に連絡してください。
 11. **[昇格]** を選択し、選択を確定します。
 12. この新しい URL をコピーし、テスト目的でテナントの外と共有します。 このリンクは、[新しい Cloud パートナー ポータル オファー](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)を作成することで、AppSource 上でアプリを配信するプロセスを始めるときに送信するリンクでもあります。 Cloud パートナー ポータルには実稼働前のリンクのみ送信します。 アプリが承認され、AppSource で公開されたという通知を受け取ってから初めて、このパッケージを Power BI で実稼働として昇格させることができます。
 13. アプリを運用する、あるいは AppSource 経由で共有する準備ができたら、 **[リリース管理]** ウィンドウに戻り、 **[実稼働前]** の隣にある **[アプリの昇格]** を選択します。
@@ -188,25 +175,6 @@ Power Query でパラメーターを使用している場合、型を明確に�
     ![実稼働のアプリ](media/service-template-apps-create/power-bi-template-app-production.png)
 
 自分のアプリを世界中に何千人といる Power BI ユーザーに広く利用してもらうために、アプリを AppSource に提出することをお勧めします。 詳細については、「[Power BI アプリケーション プラン](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)」を参照してください。
-
-## <a name="update-your-app"></a>アプリを更新する
-
-これでアプリが実稼働に入りました。実稼働のアプリを邪魔することなく、テスト段階を繰り返すことができます。
-
-1. **[リリース管理]** ウィンドウで **[アプリの作成]** を選択します。
-2. アプリ作成プロセスを繰り返します。
-3. **[ブランド]** 、 **[コンテンツ]** 、 **[コントロール]** 、 **[アクセス]** を設定し、もう一度 **[アプリの作成]** を選択します。
-4. **[閉じる]** を選択し、 **[リリース管理]** に戻ります。
-
-   これで実稼働のバージョンとテスト中の新しいバージョンという 2 つのバージョンが表示されます。
-
-    ![テンプレート アプリの 2 つのバージョン](media/service-template-apps-create/power-bi-template-app-2-versions.png)
-
-5. アプリを実稼働前ステージに昇格させ、テナントの外でテストする準備ができたら、[リリース管理] ウィンドウに戻り、 **[テスト]** の隣にある **[アプリの昇格]** を選択します。
-6. リンクはライブとなったので、[Power BI アプリ オファーの更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)に関する記事の手順に従って、Cloud パートナー ポータルにそのリンクを再度送信します。
-
->[!NOTE]
->アプリを実稼働ステージに昇格させるのは、アプリが Cloud パートナー ポータルで承認され、それを公開した後のみです。
 
 ## <a name="next-steps"></a>次の手順
 

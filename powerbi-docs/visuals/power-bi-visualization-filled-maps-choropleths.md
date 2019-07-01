@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
+ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839802"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67299362"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI の塗り分け地図 (コロプレス)
 塗り分け地図では、網掛け、着色またはパターンを使用して、値の違いを割合に応じて、地理的または地域的に表示します。  こうした相対的な違いは、薄い色の網掛け (頻度が低い/量が少ない) から、濃い色の網掛け (頻度が高い/量が多い) を使用して、すぐにわかるように表示されます。    
@@ -70,10 +70,10 @@ Bing に送信されているデータの詳細、およびジオコーディン
 1. フィールド ウィンドウで **[Geo (地理)]** \> **[State]** フィールドを選択します。    
 
    ![[State] の横にある黄色のチェック マーク](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
-5. [グラフを変換](power-bi-report-change-visualization-type.md)して、塗り分け地図にします。 **[State]** も、 **[場所]** に含まれるようになったことに注目してください。 Bing 地図は、マップの作成に **[場所]** のフィールドも使用します。  場所には、正しい各種の場所 (国、都道府県、市区町村、郵便番号など) を指定できます。Bing 地図には、世界中の場所に対応する塗り分け地図の輪郭が用意されています。 正しいエントリが [場所] に指定されていないと、Power BI では塗り分け地図を作成できなくなります。  
+2. [グラフを変換](power-bi-report-change-visualization-type.md)して、塗り分け地図にします。 **[State]** も、 **[場所]** に含まれるようになったことに注目してください。 Bing 地図は、マップの作成に **[場所]** のフィールドも使用します。  場所には、正しい各種の場所 (国、都道府県、市区町村、郵便番号など) を指定できます。Bing 地図には、世界中の場所に対応する塗り分け地図の輪郭が用意されています。 正しいエントリが [場所] に指定されていないと、Power BI では塗り分け地図を作成できなくなります。  
 
    ![塗り分け地図のアイコンが強調表示されたテンプレート](media/power-bi-visualization-filled-maps-choropleths/img003.png)
-6. 地図にフィルターを適用して、米国本土のみが表示されるようにします。
+3. 地図にフィルターを適用して、米国本土のみが表示されるようにします。
 
    a.  [視覚化] ウィンドウの下部にある **[フィルター]** 領域を探します。
 
@@ -83,21 +83,24 @@ Bing に送信されているデータの詳細、およびジオコーディン
    c.  **[すべて]** の横にチェックマークを付けて、 **[AK]** の横のチェックマークを外します。
 
    ![[All] と [AK] が選択されていない [State] のドロップダウン](media/power-bi-visualization-filled-maps-choropleths/img005.png)
-7. **[SalesFact]** \> **[センチメント]** を選択して、これも **[色の彩度]** に追加します。 **[色の彩度]** のフィールドも、マップの網掛けの制御に関わります。  
-   ![[色の彩度] フィールドの [センチメント]](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
-8. 塗り分け地図は緑色と赤色で網掛け表示されます。赤色はセンチメント数が低いことを表し、緑色はより多くの肯定的なセンチメントを表します。  ここでは、ワイオミング州 (WY) を強調表示にして、センチメントが非常に良好 (74) であることを確認しています。  
-   ![州とセンチメントを示す黒いダイアログ](media/power-bi-visualization-filled-maps-choropleths/power-bi-wy.png)
-9. [レポートを保存](../service-report-save.md)します。
-##    <a name="adjust-the-color-formatting"></a>色の書式設定を調整する
-Power BI では、塗り分け地図の外観に対する数多くのコントロールが提供されます。
-1. ペイント ローラー アイコンを選び、[書式設定] ウィンドウを開きます。
+4. ペイント ローラー アイコンを選択して [書式設定] ウィンドウを開きます。 **[データの色]** を選択します。
 
-    ![書式設定ウィンドウ](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-colors.png)
+    ![[データの色] オプションを表示している [書式設定] ウィンドウ](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
 
-2. **[データの色]** を選択して、色のオプションを表示します。
-3. 最小と最大の色をそれぞれ黄色と青色に設定します。 次に、データに基づいて、最小値と最大値を追加します。 希望する外観になるまで、これらのコントロールでいろいろ試してみます。 
+5. 3 つの縦向きドットを選択して、 **[条件付き書式設定]** を選択します。
 
-    ![非左右逆方向の色](media/power-bi-visualization-filled-maps-choropleths/power-bi-color.png)
+    ![データの色の条件付き書式設定ボタン](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+
+6. **[既定色 - データの色]** 画面を使用して、ご自分の塗り分け地図をどのように網掛け表示するかを決定します。 利用可能なオプションには、網掛けの基礎となるフィールド、および網掛けを適用する方法などがあります。 この例では、 **[SalesFact]**  >  **[センチメント]** の順に使用して、センチメントの最小値を赤色、最大値を緑色に設定します。 最大値と最小値の間にある値は、濃淡の異なる赤色と緑色になります。 画面の下部にある図は、使用する色の範囲を示しています。 
+
+    ![センチメントが選択されている [既定色] ウィンドウ](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+
+7. 塗り分け地図は緑色と赤色で網掛け表示されます。赤色はセンチメント数が低いことを表し、緑色はより多くの肯定的なセンチメントを表します。  追加の詳細を表示するには、フィールドをツールヒントにドラッグします。  ここでは、 **[センチメント ギャップ]** を追加し、アイダホ (ID) 州を強調表示しました。センチメント ギャップは小さく 6 であることがわかります。
+   ![アイダホのツールヒントを表示している塗り分け地図](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+
+10. [レポートを保存](../service-report-save.md)します。
+
+Power BI には、塗り分け地図の外観に対して数多くのコントロールが用意されています。自分が望んでいる外観になるまで、これらのデータの色のコントロールを使用していろいろ試して見てください。 
 
 ## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
 [フィルター] ウィンドウの使用方法については、「[Power BI でのレポートへのフィルターの追加](../power-bi-report-add-filter.md)」をご覧ください。

@@ -1,22 +1,22 @@
 ---
-title: Power BI テンプレート アプリとは (プレビュー)
+title: Power BI テンプレート アプリとは
 description: この記事では、Power BI テンプレート アプリ プログラムの概要を説明します。 ほとんどまたはまったくコーディングしないで Power BI アプリを作成し、Power BI ユーザーに展開する方法を説明します。
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/26/2019
-ms.author: maggies
-ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/24/2019
+ms.author: tebercov
+ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751091"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408208"
 ---
-# <a name="what-are-power-bi-template-apps-preview"></a>Power BI テンプレート アプリとは (プレビュー)
+# <a name="what-are-power-bi-template-apps"></a>Power BI テンプレート アプリとは
 
 新しい Power BI *テンプレート アプリ*を利用すれば、Power BI パートナーはコードをほとんど、あるいはまったく記述せずに Power BI アプリを作成し、Power BI の顧客に配布できます。  この記事では、Power BI テンプレート アプリ プログラムの概要を説明します。
 
@@ -37,7 +37,7 @@ ms.locfileid: "66751091"
 | **3** | |  | Power BI テナント外での検証のために運用前テスト パッケージをプロモートし、AppSource に送信します  |  | 運用前パッケージで、Power BI テンプレート アプリ オファーを作成し、検証プロセスを開始します |
 | **4** | |  | 運用前パッケージを運用環境にプロモートします |  | ライブに移行します |
 
-## <a name="requirements"></a>要件
+## <a name="before-you-begin"></a>始める前に
 
 テンプレート アプリを作成するには、作成するためのアクセス許可が必要です。 詳細については、Power BI 管理ポータルのテンプレート アプリの設定に関するセクションを参照してください。 
 
@@ -57,7 +57,7 @@ ms.locfileid: "66751091"
 
 1. テスト パッケージを作成し、組織内でテンプレート アプリをテストします。 
 
-1. AppSource での検証と、テナント外でのテストのために、テスト アプリを運用前環境にプロモートしてアプリを送信します。 
+1. AppSource での検証と、テナント外でのテストのために、テスト アプリを運用前環境に昇格させてアプリを送信します。 
 
 1. 公開用に Cloud パートナー プラットフォームにコンテンツを送信します。 
 
@@ -66,9 +66,11 @@ ms.locfileid: "66751091"
 
 ## <a name="requirements"></a>要件
 
-テンプレート アプリを作成するには、作成するためのアクセス許可が必要です。 詳細については、Power BI [管理ポータルのテンプレート アプリの設定](service-admin-portal.md#template-apps-settings-preview)に関するセクションを参照してください。 
+テンプレート アプリを作成するには、作成するためのアクセス許可が必要です。 詳細については、Power BI [管理ポータルのテンプレート アプリの設定](service-admin-portal.md#template-apps-settings)に関するセクションを参照してください。 
 
 テンプレート アプリを Power BI サービスと AppSource に公開するには、「[クラウド マーケットプレース パブリッシャーになる](https://docs.microsoft.com/azure/marketplace/become-publisher)」の要件を満たす必要があります。
+ > [!NOTE] 
+ > テンプレート アプリの送信は、[Cloud パートナー ポータル](https://cloudpartner.azure.com)で管理されます。 同じ Microsoft デベロッパー センター登録アカウントを使用してサインインします。 ご自分の AppSource オファリング用に所持する Microsoft アカウントは 1 つだけとする必要があります。 アカウントは個々のサービスまたはオファーに固有のものとしないでください。
 
 ## <a name="tips"></a>ヒント 
 
@@ -78,7 +80,7 @@ ms.locfileid: "66751091"
 - 独立した固有のシナリオのために複数のテンプレート アプリの提供を検討します。 
 - カスタム接続や、インストーラーによるパラメーター構成のサポートなど、データをカスタマイズできるようにします。
 
-他の推奨事項については、「[Power BI でのテンプレート アプリの作成に関するヒント (プレビュー)](service-template-apps-tips.md)」をご覧ください。
+他の推奨事項については、「[Power BI でのテンプレート アプリの作成に関するヒント](service-template-apps-tips.md)」をご覧ください。
 
 ## <a name="support"></a>サポート
 開発中のサポートのために、[https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) を使用してください。 私たちは、このサイトを常に見守り、管理しています。 顧客のインシデントは、すみやかに該当するチームに伝わります。

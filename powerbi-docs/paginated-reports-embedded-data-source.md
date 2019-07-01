@@ -9,18 +9,20 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838928"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345493"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポート用の埋め込みデータ ソースを作成する
 
 この記事では、Power BI サービスでページ分割されたレポートの埋め込みデータ ソースを作成および変更する方法について説明します。 埋め込みデータ ソースは、1 つのレポートで定義し、そのレポート内のみで使用します。 現時点では、Power BI サービスに発行されるページ分割されたレポートには、埋め込みデータセットと埋め込みデータ ソースが必要であり、次のデータ ソースに接続できます。
 
-- Azure SQL Database と Data Warehouse
+- Azure Analysis Services
+- ライブ データなどに接続 
+- Azure SQL Data Warehouse
 - SQL Server
 - SQL Server Analysis Services
 - Oracle 
@@ -28,7 +30,6 @@ ms.locfileid: "66838928"
 
 次のデータ ソースの場合は、[SQL Server Analysis Services 接続](service-premium-connect-tools.md)オプションを使用します。
 
-- Azure Analysis Services
 - Power BI Premium データセット
 
 ページ分割されたレポートは、[Power BI ゲートウェイ](service-gateway-getting-started.md)を使用してオンプレミスのデータ ソースに接続します。 ゲートウェイの設定は、Power BI サービスにレポートを発行した後で行います。
@@ -66,6 +67,30 @@ ms.locfileid: "66838928"
 5.  **[OK]** を選択します。  
   
      データ ソースが [レポート データ] ペインに表示されます。  
+     
+## <a name="limitations-and-considerations"></a>制限事項と考慮事項
+
+ページ分割されたレポートを Power BI データセットに接続する場合は、軽微な変更が加えられた Power BI での共有データセットに関する規則に従います。  ユーザーが Power BI データセットを使用してページ分割されたレポートを正しく表示し、行レベルのセキュリティ (RLS) が確実に有効にされ閲覧者に適用されるようにする場合、あなたは必ず次の規則に従ってください。
+
+### <a name="classic-apps-and-app-workspaces"></a>従来のアプリとアプリ ワークスペース
+
+- データセットと同じワークスペース内の .rdl (同じ所有者): サポートされている
+- データセットと異なるワークスペース内の .rdl (同じ所有者): サポートされている
+- 共有された .rdl: データセット レベルでレポートを表示するユーザーごとに割り当てられたビルド アクセス許可が必要です。
+- 共有されたアプリ: データセット レベルでレポートを表示するユーザーごとに割り当てられたビルド アクセス許可が必要です。
+- データセットと同じワークスペース内の .rdl (異なるユーザー): サポートされている
+- データセットと異なるワークスペース内の .rdl (異なるユーザー): データセット レベルでレポートを表示するユーザーごとに割り当てられたビルド アクセス許可が必要です。
+- ロールレベルのセキュリティ: それを適用してもらうには、データセット レベルでレポートを表示するユーザーごとに割り当てられたビルド アクセス許可が必要です。
+
+### <a name="new-experience-apps-and-app-workspaces"></a>新しいエクスペリエンス アプリとアプリのワークスペース
+
+- データセットと同じワークスペース内の .rdl: サポートされている
+- データセットと異なるワークスペース内の .rdl (同じ所有者): サポートされている
+- 共有された .rdl: データセット レベルでレポートを表示するユーザーごとに割り当てられたビルド アクセス許可が必要です。
+- 共有されたアプリ: データセット レベルでレポートを表示するユーザーごとに割り当てられたビルド アクセス許可が必要です。
+- データセットと同じワークスペース内の .rdl (異なるユーザー) - サポートされている
+- データセットと異なるワークスペース内の .rdl (異なるユーザー): データセット レベルでレポートを表示するユーザーごとに割り当てられたビルド アクセス許可が必要です。
+- ロールレベルのセキュリティ: それを適用してもらうには、データセット レベルでレポートを表示するユーザーごとに割り当てられたビルド アクセス許可が必要です。
 
 ## <a name="next-steps"></a>次の手順
 
