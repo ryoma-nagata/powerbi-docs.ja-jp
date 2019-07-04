@@ -174,6 +174,8 @@
               href: mobile/mobile-apps-qr-code.md
             - name: 注釈とモバイル アプリでの共有
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+            - name: iPhone のアプリからバーコードをスキャンする
+              href: mobile/mobile-apps-scan-barcode-iphone.md
         - name: iOS
           items:
             - name: iOS アプリを使ってみる
@@ -188,8 +190,6 @@
               href: mobile/mobile-apps-iOS-search-integration.md
             - name: Power BI Apple Watch アプリ
               href: mobile/mobile-apple-watch.md
-            - name: iPhone のアプリからバーコードをスキャンする
-              href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: モバイル デバイス管理を使用して構成する
               href: mobile/mobile-app-configuration.md
         - name: Android デバイス
