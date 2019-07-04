@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2412fe72d62549277001b64121ecf9db2ea5502
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239546"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408549"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop でカスタム列を追加する
 **Power BI Desktop** の**クエリ エディター**を使って、データの新しいカスタム列をモデルに簡単に追加することができます。 ボタンを使ってカスタム列を定義する [M 式](https://msdn.microsoft.com/library/mt270235.aspx)を簡単に作成し、カスタム列を作成したり、カスタム列の名前を変更したりできます。 M 式には、[包括的な関数参照コンテンツ セット](https://msdn.microsoft.com/library/mt779182.aspx)があります。 
@@ -68,6 +68,5 @@ ms.locfileid: "65239546"
 **クエリ エディター**に提供した例に基づく列の作成など、カスタム列を作成するには他の方法もあります。 例からのカスタム列の作成の詳細については、次の記事をご覧ください。
 
 * [Power BI Desktop で例から列を追加する](desktop-add-column-from-example.md)
-* [M 式言語の概要](https://msdn.microsoft.com/library/mt270235.aspx)
-* [M 関数リファレンス](https://msdn.microsoft.com/library/mt779182.aspx)  
+* [Power Query M リファレンス](/powerquery-m/power-query-m-reference)  
 
