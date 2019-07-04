@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61067997"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161127"
 ---
 # <a name="funnel-charts"></a>じょうごグラフ
 じょうごグラフは、順番につながっている各段階がある線形プロセスを視覚化するために役立ちます。 たとえば、次のような段階にわたって顧客を追跡する販売のじょうごグラフがあります:リード \> 見込みのあるリード \> 見込顧客 \> 契約 \> 契約の締結。  じょうごの形状は、追跡しているプロセスの正常性がひとめでわかります。
@@ -61,7 +61,7 @@ ms.locfileid: "61067997"
 2. [グラフを変換](power-bi-report-change-visualization-type.md)してじょうごグラフにします。 **[Sales Stage]** (売上ステージ) が **[Group]** (グループ) に入っていることをご覧ください。 
 3. **[フィールド]** ウィンドウで、 **[Fact]** \> **[Opportunity Count]** を選びます。
    
-    ![じょうごグラフの構築](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![じょうごグラフの構築](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 横棒の上にポインターを合わせると、以下の情報が表示されます。
    
    * 段階の名前

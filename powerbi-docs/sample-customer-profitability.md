@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 70f47e4885b3abeb6ee17bea23dec35a230d57ec
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349407"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418794"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI のお客様の収益性のサンプル:ツアーを開始する
 
-## <a name="overview-of-the-customer-profitability-sample"></a>お客様の収益性のサンプルの概要
 "お客様の収益性のサンプル" コンテンツ パックには、マーケティング資料を製作する会社向けのダッシュボード、レポート、データセットが含まれています。 このダッシュボードは、5 つの事業部のマネージャー (役員)、製品、顧客、および粗利益 (GM) に関する主要なメトリックを確認するために、CFO によって作成されました。 これにより、収益性に影響する要因を一目で確認できます。
 
 ![お客様の収益性のサンプルのダッシュボード](media/sample-customer-profitability/power-bi-dash.png)
@@ -34,7 +33,7 @@ ms.locfileid: "67349407"
 
 ### <a name="get-the-content-pack-for-this-sample"></a>このサンプルのコンテンツ パックを入手する
 
-1. Power BI サービス (app.powerbi.com) を開き、サインインし、サンプルを保存するワークスペースを開きます。
+1. Power BI サービス (app.powerbi.com) を開いてサインインし、サンプルを保存するワークスペースを開きます。
 
 2. 左下隅にある **[データを取得]** を選びます。
 
@@ -54,7 +53,7 @@ ms.locfileid: "67349407"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータ ソースを確認する場合は、[Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529781) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 内での Excel のサンプルの確認](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
+このサンプルのデータ ソースを確認する場合は、[Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529781) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>ダッシュボードからわかること
 
@@ -203,9 +202,8 @@ ms.locfileid: "67349407"
 
     同様に他の業界を調査して、視覚化に顧客を追加し、Valery の業績の原因を理解することもできます。
 
-変更内容を保存しないことを選択できるため、この環境で試してみるのは安全です。 ただし、それらを保存した場合は、 **[データを取得]** を選択して、常にこのサンプルの新しいコピーを取得できます。
-
 ## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
+変更内容を保存しないことを選択できるため、この環境で試してみるのは安全です。 一方、それらを保存した場合は、 **[データを取得]** を選択して、常にこのサンプルの新しいコピーを取得できます。
+
 この記事から、Power BI ダッシュボード、Q&A、レポートから顧客データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータに接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、[Power BI サービスの概要](service-get-started.md)に関するページを参照してください。
 
-[Power BI 用のサンプル](sample-datasets.md)  

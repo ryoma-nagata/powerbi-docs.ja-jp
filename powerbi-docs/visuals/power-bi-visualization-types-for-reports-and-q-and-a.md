@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 202fa85fa930de45f4f6838202733d8d1098256d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61388836"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161182"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
@@ -27,7 +27,7 @@ ms.locfileid: "61388836"
 これらすべての視覚化は、Power BI レポートに追加し、Q&A で指定し、ダッシュボードにピン留めできます。
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>面グラフ:基本 (階層) と積み上げ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
+![面グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
 >基本的な面グラフは、折れ線グラフに基づいており、軸と線の間の範囲が塗りつぶされます。
@@ -35,23 +35,23 @@ ms.locfileid: "61388836"
 詳細については、「[Basic Area chart](power-bi-visualization-basic-area-chart.md)」 (基本的な面グラフ) を参照してください。
 
 ### <a name="bar-and-column-charts"></a>横棒グラフおよび縦棒グラフ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
+![横棒グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
- ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
+ ![縦棒グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
 >[!TIP]
 >横棒グラフは、異なるカテゴリの特定の値を調べるときの標準的なグラフです。
 
 ### <a name="cards-multi-row"></a>カード:複数行
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
+![複数の行カード](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>カード:単一数値
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
+![数値カード](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 詳しくは、[カードの作成 (大きな数字のタイル)](power-bi-visualization-card.md) に関するトピックをご覧ください。
 
 ### <a name="combo-charts"></a>複合グラフ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
+![複合グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
 >複合グラフは、縦棒グラフと折れ線グラフを組み合わせたものです。 *[折れ線グラフおよび積み上げ縦棒グラフ]* と *[折れ線グラフおよび集合縦棒グラフ]* から選びます。
@@ -59,7 +59,7 @@ ms.locfileid: "61388836"
 詳しくは、「[Combo charts in Power BI](power-bi-visualization-combo-chart.md)」 (Power BI の複合グラフ) をご覧ください。
 
 ### <a name="doughnut-charts"></a>ドーナツ グラフ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
+![ドーナツ グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
 
 >[!TIP]
 >ドーナツ グラフは円グラフと似ています。  どちらのグラフも全体とその一部との関係を表します。
@@ -67,7 +67,7 @@ ms.locfileid: "61388836"
 詳しくは、「[Doughnut charts in Power BI](power-bi-visualization-doughnut-charts.md)」 (Power BI のドーナツ グラフ) をご覧ください。
 
 ### <a name="funnel-charts"></a>じょうごグラフ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
+![じょうごグラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
 
 >[!TIP]
 >じょうごグラフは、段階と 1 つの段階から順番にフローする項目を持つプロセスを視覚化するのに役立ちます。  潜在顧客で始まり、購入の完了で終わる営業プロセスなど、段階ごとに順番のフローがある場合にじょうごを使用します。
@@ -75,7 +75,7 @@ ms.locfileid: "61388836"
 詳しくは、[Power BI のじょうごグラフ](power-bi-visualization-funnel-charts.md)に関するページを参照してください。
 
 ### <a name="gauge-charts"></a>ゲージ グラフ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
+![放射状ゲージ グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
 
 >[!TIP]
 >目標のコンテキストにおける現在の状態を表示します。
@@ -90,7 +90,7 @@ ms.locfileid: "61388836"
 詳しくは、[Power BI の主要なインフルエンサのグラフ](power-bi-visualization-influencers.md)に関するページを参照してください
 
 ### <a name="kpis"></a>KPI
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
+![KPI グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
 >測定可能な目標に向けた進行状況を表示します。
@@ -98,13 +98,13 @@ ms.locfileid: "61388836"
 詳しくは、[Power BI の KPI](power-bi-visualization-kpi.md) に関するページを参照してください。
 
 ### <a name="line-charts"></a>折れ線グラフ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
+![折れ線グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
 
 >[!TIP]
 >通常、時間の経過に伴う一連の値すべての全体的な形を強調します。
 
 ### <a name="maps-basic-maps"></a>マップ:基本マップ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
+![基本マップ](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
 >空間的な場所におけるカテゴリと数量の両方の情報を関連付けるのに使用されます。
@@ -112,12 +112,12 @@ ms.locfileid: "61388836"
 詳しくは、「[Power BI マップの視覚エフェクトに関するヒントとテクニック](power-bi-map-tips-and-tricks.md)」をご覧ください。
 
 ### <a name="maps-arcgis-maps"></a>マップ:ArcGIS マップ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
+![ArcGIS マップ](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 詳しくは、[Power BI の ArcGIS マップ](power-bi-visualization-arcgis.md)に関するページを参照してください。
 
 ### <a name="maps-filled-maps-choropleth"></a>マップ:塗り分け地図 (コロプレス)
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
+![塗り分け地図](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
 >色が濃いほど値が大きくなります。
@@ -125,7 +125,7 @@ ms.locfileid: "61388836"
 詳しくは、[Power BI の塗り分け地図](power-bi-visualization-filled-maps-choropleths.md)に関するページを参照してください。
 
 ### <a name="maps-shape-maps"></a>マップ:図形マップ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+![テキサス州の図形マップ](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
 >地域を色別に比較します。
@@ -134,22 +134,37 @@ ms.locfileid: "61388836"
 
 
 ### <a name="matrix"></a>マトリックス
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![マトリックス](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+>[!TIP]
+>テーブルは 2 つのディメンションをサポートしていますが、マトリックスでは、複数のディメンションにわたってデータをわかりやすく表示することが簡単にでき、階段状レイアウトがサポートされています。 マトリックスではデータが自動的に集計され、ドリル ダウンを使用できます。 
 
 詳しくは、[Power BI のマトリックス マップ](desktop-matrix-visual.md)に関するページを参照してください。
 
 ### <a name="pie-charts"></a>円グラフ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+![円グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
 
-円グラフでは、全体に対する部分の関係が示されます。 
+>[!TIP]
+>円グラフでは、全体に対する部分の関係が示されます。 
+
+### <a name="r-script-visuals"></a>R スクリプトのビジュアル
+![R ビジュアル](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
+
+>[!TIP]
+>R スクリプトで作成したビジュアルは一般的に "*R ビジュアル*" と呼ばれ、R の豊富な分析と視覚化の機能を使用した高度なデータ整形と予測などの分析に使用できます。R ビジュアルは、Power BI Desktop で作成でき、Power BI サービスに公開できます。   
+
+詳しくは、[Power BI の R ビジュアル](service-r-visuals.md)に関するページを参照してください。
 
 ### <a name="ribbon-chart"></a>リボン グラフ
 ![リボン グラフ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
 
-リボン グラフでは、どのデータ カテゴリが最高ランク (最大値) かが示されます。 リボン グラフでは、ランクの変化を効果的に確認できます。各期間を対象に、最高位の範囲 (値) が常に一番上に表示されます。
+>[!TIP]
+>リボン グラフでは、どのデータ カテゴリが最高ランク (最大値) かが示されます。 リボン グラフでは、ランクの変化を効果的に確認できます。各期間を対象に、最高位の範囲 (値) が常に一番上に表示されます。
+
+詳しくは、[Power BI のリボン グラフ](desktop-ribbon-charts.md)に関するページを参照してください。
 
 ### <a name="scatter-and-bubble-charts"></a>散布図およびバブル チャート
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
+![バブル チャート](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
 
 >[!TIP]
 >2 (散布) または 3 (バブル) 個の数量メジャーの間の関係を表示します (真偽、順序など)。
@@ -157,7 +172,7 @@ ms.locfileid: "61388836"
 詳しくは、[Power BI の散布図](power-bi-visualization-scatter.md)に関するページを参照してください。
 
 ### <a name="scatter-high-density"></a>高密度散布図
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+![高密度な散布図](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
 
 >[!TIP]
 >ビジュアルのデータ ポイントが多すぎると見づらくなる可能性があるため、視覚エフェクトの精度を確保するために高度なサンプリング アルゴリズムが使用されます。
@@ -165,17 +180,17 @@ ms.locfileid: "61388836"
 詳細については、[Power BI の高密度散布図](desktop-high-density-scatter-charts.md)に関するページを参照してください。
 
 ### <a name="slicers"></a>スライサー
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 詳しくは、「[Slicers in Power BI](power-bi-visualization-slicers.md)」 (Power BI のスライサー) をご覧ください。
 
 ### <a name="standalone-images"></a>スタンドアロン画像
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
+![スタンドアロン画像のビジュアル](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
 詳しくは、「[ダッシュボードへのイメージ ウィジェットの追加](../service-dashboard-add-widget.md)」をご覧ください。
 
 ### <a name="tables"></a>テーブル
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
+![テーブルのビジュアル](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
 
 >[!TIP]
 >カテゴリの多い項目における数量の比較に適しています。
@@ -183,7 +198,7 @@ ms.locfileid: "61388836"
 詳しくは、「[Power BI のレポートとダッシュボードでのテーブルの使用](power-bi-visualization-tables.md)」をご覧ください。
 
 ### <a name="treemaps"></a>ツリーマップ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![ツリーマップ](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 詳しくは、「[Treemaps in Power BI](power-bi-visualization-treemaps.md)」 (Power BI のツリーマップ) をご覧ください。
 
@@ -191,7 +206,7 @@ ms.locfileid: "61388836"
 >サイズが値を示す色付きの四角形を使ったグラフです。  メインの四角形内で入れ子になった四角形では階層的になることがあります。
 
 ### <a name="waterfall-charts"></a>ウォーターフォール グラフ
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
+![ウォーターフォール グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
 
 >[!TIP]
 >ウォーターフォール グラフは、値が加算または減算される際の累計を示します。

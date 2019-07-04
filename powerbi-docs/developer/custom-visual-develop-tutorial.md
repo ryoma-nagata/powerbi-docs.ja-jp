@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61383618"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161235"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>チュートリアル:Power BI カスタム ビジュアルを開発する
 
@@ -73,21 +73,15 @@ Power BI Desktop レポートでは、Circle Card になるようにカードが
 
 #### <a name="windows"></a>Windows
 
-1. 証明書を作成するには、次のコマンドを実行します。
-
-    ```powershell
-    pbiviz --create-cert
-    ```
-
-  結果が返され、"*パスフレーズ*" が生成されています。 ここでは、"*パスフレーズ*" は **_15105661266553327_** になっています。
-
-  ![PowerShell 経由で作成された証明書](media/custom-visual-develop-tutorial/cert-create.png)
-
-2. 次に、証明書をインストールする必要があります。 証明書をインストールするには、次のコマンドを入力します。
+1. 証明書を作成してインストールするには、次のコマンドを入力します。
 
     ```powershell
     pbiviz --install-cert
     ```
+
+  結果が返され、"*パスフレーズ*" が生成されています。 ここでは、"*パスフレーズ*" は **_15105661266553327_** になっています。そして、証明書のインポート ウィザードが起動されます。
+
+  ![PowerShell 経由で作成された証明書](media/custom-visual-develop-tutorial/cert-create.png)
 
 3. 証明書のインポート ウィザードで、ストアの場所が [現在のユーザー] に設定されていることを確認します。 *[次へ]* を選択します。
 
@@ -559,14 +553,14 @@ PowerShell で実行されるカスタム ビジュアルを停止するため�
 
     このステートメントでは、簡単にアクセスできるように *dataView* を 1 つの変数に代入して、*dataView* オブジェクトを参照するようにその変数を宣言します。
 
-2. **更新**メソッドを置き換える **.text("Value")** に次のです。
+2. **update** メソッドで、 **.text("Value")** を次のように置き換えます。
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![textValue の置き換え](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. **更新**メソッドを置き換える **.text("Label")** に次のです。
+3. **update** メソッドで、 **.text("Label")** を次のように置き換えます。
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)
