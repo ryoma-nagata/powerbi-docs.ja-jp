@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389551"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418643"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -22,11 +22,7 @@ ms.locfileid: "67389551"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-登録して Power BI の専門家の話を聞き、ライブ Q&A セッションに参加してください。
-
-**Power BI:Workday HR データから分析情報を取得する方法**
-<br>作成者: Iman Eftekhari、Julia Paton (Agile Analytics)、および Shahram Karimi (QBE Insurance)
-<br>[6 月 27 日、午後 1 時 30 分から午後 2 時 30 分まで (太平洋標準時) に視聴できるように登録する](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -128,6 +124,10 @@ ms.locfileid: "67389551"
 
 ### <a name="partner-solutions-series"></a>パートナー ソリューション シリーズ ###
 [このシリーズを見る](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
+
+**Power BI:Workday HR データから分析情報を取得する方法**
+<br>作成者: Iman Eftekhari、Julia Paton (Agile Analytics)、および Shahram Karimi (QBE Insurance)
+<br>[登録して今すぐ見る](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 **コンシューマー向け製品の製造元と小売業者が Win-Win の関係を実現する**
 <br>作成者: Liz McCreesh (Thorogood)
