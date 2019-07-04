@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: ae2e4dcfe1fdcd88c3e6ff9e4942afdedf9d126b
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: 762a28d2340a691316b1aaf26b7ce62d45cc7496
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349483"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418746"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI の人事のサンプル:ツアーを開始する
 
-## <a name="overview-of-the-human-resources-sample"></a>人事のサンプルの概要
 人事のサンプル コンテンツ パックには、人事部向けのダッシュボード、レポート、およびデータセットが含まれています。 このサンプルでは、業界や規模が違っても、人事部が使用するレポート モデルはどの企業でも変わりがありません。 このサンプルでは、新規採用者、在職者、退職者を調査します。 採用戦略の傾向を明らかにすることを試みます。 主な目的は次を理解することです。
 
 * 雇用した人材
@@ -159,7 +158,7 @@ ms.locfileid: "67349483"
 
    女性の不適切な人材採用のほとんどは 30 歳未満であることにご注意ください。
 
+## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
 変更内容を保存しないことを選択できるため、この環境で試してみるのは安全です。 一方、それらを保存した場合は、 **[データを取得]** を選択して、常にこのサンプルの新しいコピーを取得できます。
 
-## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
 この記事から、Power BI ダッシュボード、Q&A、レポートから人事データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータに接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、[Power BI サービスの概要](service-get-started.md)に関するページを参照してください。
