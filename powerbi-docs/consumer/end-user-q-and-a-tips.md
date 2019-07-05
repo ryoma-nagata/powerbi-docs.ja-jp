@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048136"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408189"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A で質問するためのヒント
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A で認識される語句と用語
@@ -41,7 +41,7 @@ ms.locfileid: "61048136"
 |     |         |         |
 |**接続詞**     |  and、or、each of、with、versus、&、and、but、nor、along with、in addition to       |         
 |          |         |
-|**短縮系**     |  Q&A ではほぼあらゆる短縮形が認識されます。試してみてください。例: didn’t、haven’t、he’d、he’s、isn’t、it’s、she’ll、they’d、weren’t、where’ll、who’s、won’t、wouldn’t          |
+|**短縮系**     |  Q&A ではほぼあらゆる短縮形が認識されます。試してみてください。例: didn’t、haven’t、he’d、he’s、isn’t、it’s、she’ll、they’d、weren’t、who’s、won’t、wouldn’t          |
 |        |         |
 |**日付**     |       Power BI では、ほとんどの日付の用語 (day、week、month、year、quarter、decade など) と、さまざまな形式 (下記参照) で記述された日付が認識されます。 Power BI では、次のキーワードも認識されます:MonthName、Days 1-31、decade 例:January 3rd of 1995、January 3rd 1995、jan 03 1995、3 Jan 1995、the 3rd of January、January 1995、1995 January、1995-01、01/1995、月の名前         |
 |        |         |
@@ -62,27 +62,27 @@ ms.locfileid: "61048136"
 |**範囲**     |      greater、more、larger、above、over、>、less、smaller、fewer、below、under、<、at least、no less than、>=、at most、no more than、<=、in、between、in the range of、from、later、earlier、sooner、after、on、at、later than、after、since、starting with、starting from、ending with           |
 |        |         |
 **時刻**  |am、pm、o'clock、noon、midnight、hour、minute、second、hh:mm:ss  |
-|  |  例:10 pm、10:35 pm、10:35:15 pm、10 oclock、noon、midnight、hour、minute、second  |
+|  |  例:10 pm、10:35 pm、10:35:15 pm、10 o clock、noon、midnight、hour、minute、second  |
 |  |  |
 |**上位 N**     |     (順序、順位付け): top、bottom、highest、lowest、first、last、next、earliest、newest、oldest、latest、most recent、next            |
 |        |         |
-|**ビジュアルの種類**     |  すべてのビジュアルの種類は Power BI に固有です。  [視覚化] ウィンドウのオプションである場合は質問に含めることができます。  この例外は、[視覚化] ウィンドウに手動で追加した[カスタム ビジュアル](../power-bi-custom-visuals.md)です。  |
+|**ビジュアルの種類**     |  すべてのビジュアルの種類は Power BI に固有です。  [視覚化] ウィンドウのオプションである場合は質問に含めることができます。  このルールの例外は、[視覚化] ウィンドウに手動で追加した[カスタム ビジュアル](../power-bi-custom-visuals.md)です。  |
 |  |  例: show districts by month and sales total as bar chart (地区を月別および売上合計別に棒グラフとして示す)               |
 |        |         |
 |**Wh (関係、限定)**  | when、where、which、who、whom、how many、how much、how many times、how often、how frequently、amount、number、quantity、how long、what                |
 
 ## <a name="qa-helps-you-phrase-the-question"></a>Q&A は質問の言い回しの作成を手助けする
-Q&A は、質問の内容を理解して回答するために、できる限りのことを行います。 これは、いくつかの方法で実行されます。 どのアクションについても、全部を採用するか、一部を採用するかは自由です。まったく採用しなくても構いません。 質問を入力する過程で、Q&A は次のようなアクションをとります。
+Q&A は、質問の内容を理解して回答するために、できる限りのことを行います。 また、いくつかの方法で実行されます。 どの言い回しについても、全部を採用するか、一部を採用するかは自由です。 質問を入力する過程で、Q&A は次のようなアクションをとります。
 
-* 語句や質問をオートコンプリートします。 認識された単語のオートコンプリートや、以前に適切な回答が返された質問など、さまざまな方法を使用します。 複数のオートコンプリート オプションが使用可能な場合は、ドロップダウン リストとして表示されます。
+* 語句や質問をオートコンプリートします。 認識された単語のオートコンプリートや、保存されている質問、以前に適切な回答が返された質問など、さまざまな方法が使用されます。 複数のオートコンプリート オプションが使用可能な場合は、ドロップダウン リストとして表示されます。
 * スペル チェックによる修正を加えます。
-* 回答のプレビューを視覚化して提供します。 質問を入力および編集するにつれて、視覚化が更新されます (Enter キーが押されるまで待機しません)。
+* 回答のプレビューがビジュアルの形式で提供されます。 質問を入力および編集すると (Enter キーを押さなくても)、ビジュアルが更新されます。
 * カーソルを質問ボックスに戻すと、基になるデータセットから用語の置換が提案されます。
 * 基になるデータセット内のデータに基づいて質問を言い換えます。 Q&A では、使われた語句が基になるデータセットの同意語に置き換えられます。 言い換えを読むことで、Q&A が質問を理解したかどうかを把握できます。 
 * 理解できない語は灰色表示になります。
 
 ## <a name="dont-stop-now"></a>これで終わりではありません
-Q&A の結果が表示された後も、対話を続けてください。 視覚化と Q&A の対話型の機能を使用して、さらに洞察を得られます。
+Q&A の結果が表示された後も、対話を続けてください。 ビジュアルと Q&A の対話型の機能を使用すると、さらに詳しい分析情報を得られます。
 
 ## <a name="next-steps"></a>次の手順
 「[Power BI での Q&A](end-user-q-and-a.md)」に戻る  

@@ -3,72 +3,87 @@ title: Power BI の折れ線グラフ
 description: Power BI の折れ線グラフ
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0654dccf55b1e13f26d8ecaabee0349f0e56afc6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4b2c7c237393fd0a8e76b7ca27987c479b5c411d
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65535792"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408619"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI の折れ線グラフ
-折れ線グラフは、一連のデータ ポイントをドットで表され、直線で接続されているのです。 折れ線グラフで、1 つまたは複数の行があります。 折れ線グラフでは、X と Y 軸があります。 
+折れ線グラフでは、ドットで表された一連のデータ ポイントが直線で接続されています。 折れ線グラフには 1 つまたは複数の線を含めることができ、 X と Y 軸があります。 
 
-![単純な折れ線グラフ](media/power-bi-line-charts/power-bi-line.png)
+![シンプルな折れ線グラフ](media/power-bi-line-charts/power-bi-line.png)
 
-## <a name="create-a-line-chart"></a>折れ線グラフを作成します。
-これらの手順の使用、販売とマーケティングのサンプル アプリをカテゴリ別の今年の売上を表示する折れ線グラフを作成します。 作業を進めるには、appsource.com からサンプル アプリを取得します。
+## <a name="create-a-line-chart"></a>折れ線グラフを作成する
+以下の手順では、売上およびマーケティングのサンプル アプリを使って、今年の売上をカテゴリ別に表示する折れ線グラフを作成します。 作業を進めるために、appsource.com からサンプル アプリを取得します。
 
 1. 空のレポート ページで開始します。 Power BI サービスを使っている場合は、[編集ビュー](../service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
 
-2. フィールド ウィンドウで、次のように選択します。 **SalesFact** \> **ユニット数**、選択および**日付** > **月**します。  Power BI では、レポート キャンバスに縦棒グラフを作成します。
+2. [フィールド] ウィンドウで、 **[SalesFact]** \> **[合計単位]** を選択し、 **[日付]**  >  **[月]** を選択します。  お使いのレポート キャンバスに縦棒グラフが作成されます。
 
-    ![[フィールド] ウィンドウから選択します](media/power-bi-line-charts/power-bi-step1.png)
+    ![[フィールド] ウィンドウから選択する](media/power-bi-line-charts/power-bi-step1.png)
 
-4. [視覚化] ウィンドウから線グラフ テンプレートを選択して、折れ線グラフに変換します。 
+4. [視覚化] ウィンドウから折れ線グラフのテンプレートを選択して、折れ線グラフに変換します。 
 
-    ![折れ線グラフに変換します。](media/power-bi-line-charts/power-bi-convert-to-line.png)
+    ![折れ線グラフに変換する](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. 2012-2014 年のデータを表示する棒グラフをフィルター処理します。 [フィルター] ウィンドウが折りたたまれている場合は、今すぐ展開します。 フィールド ウィンドウで、次のように選択します。**日付** \> **年**フィルター ペインにドラッグします。 見出しの下にドロップ**このビジュアルにフィルター**します。 
+4. 2012 ～ 2014 年のデータが表示されるように折れ線グラフをフィルター処理します。 [フィルター] ウィンドウが折りたたまれている場合は、ここで展開します。 [フィールド] ウィンドウで **[日付]** \> **[年]** を選択し、[フィルター] ウィンドウにドラッグして、 **[このビジュアルでのフィルター]** 見出しにドロップします。 
      
-    ![[フィールド] ウィンドウの横にある行](media/power-bi-line-charts/power-bi-year-filter.png)
+    ![[フィールド] ウィンドウの横にある折れ線](media/power-bi-line-charts/power-bi-year-filter.png)
 
-    変更**フィルターを高度な**に**基本的なフィルター**選択**2012**、 **2013**と**2014**します。
+    **[高度なフィルター]** を **[基本フィルター]** に変更し、 **[2012]** 、 **[2013]** 、および **[2014]** を選択します。
 
     ![年のフィルター](media/power-bi-line-charts/power-bi-filter-year.png)
 
 6. 必要に応じて、[グラフのテキストの色とサイズを調整](power-bi-visualization-customize-title-background-and-legend.md)します。 
 
-    ![フォント サイズを大きくと、Y axisfont の変更](media/power-bi-line-charts/power-bi-line-3years.png)
+    ![フォント サイズを大きくして、Y 軸のフォントを変更する](media/power-bi-line-charts/power-bi-line-3years.png)
 
-## <a name="add-additional-lines-to-the-chart"></a>グラフに行を追加します。
-折れ線グラフでは、多くの異なる行を持つことができます。 また、場合によってで、行の値が、うまく連携表示しないように異なる可能性があります。 現行の追加の行がします線で表された値が非常に異なる場合、グラフの書式を設定する方法を学習し、グラフを追加することを見てみましょう。 
+## <a name="add-additional-lines-to-the-chart"></a>折れ線をグラフに追加する
+折れ線グラフには、さまざまな線を多数追加できます。 また、それぞれの折れ線の値の差が大きすぎて、一緒には上手く表示されないことがあります。 ここでは現在のグラフに折れ線を追加して、折れ線によって表される値の差が非常に大きいときに、グラフの書式を設定する方法について説明します。 
 
-### <a name="add-additional-lines"></a>行を追加します。
-グラフ上の単一行としてすべてのリージョンの合計ユニット数を調べる代わりリージョン別の合計ユニットを分割してみましょう。 ドラッグして行を追加する**Geo** > **リージョン**凡例有効にします。
+### <a name="add-additional-lines"></a>折れ線を追加する
+グラフ上のすべてのリージョンの合計ユニット数を 1 本の折れ線で表すのではなく、合計ユニットをリージョン別に分割してみましょう。 **[Geo]**  >  **[リージョン]** を [凡例] ウェルにドラッグして、折れ線を追加します。
 
-   ![地域ごとに 1 つの行](media/power-bi-line-charts/power-bi-line-regions.png)
+   ![リージョンごとに 1 本の折れ線](media/power-bi-line-charts/power-bi-line-regions.png)
 
 
-### <a name="use-two-y-axes"></a>2 つの Y 軸を使用します。
-What-if 売上合計と合計ユニット数を同じグラフを確認しますか。 販売数が折れ線グラフで表示を使用できないため、ユニットの番号よりもはるかに高くなります。 実際には、0 を合計ユニット数の赤色の線が表示されます。
+### <a name="use-two-y-axes"></a>2 つの Y 軸を使用する
+同じグラフで売上合計と合計ユニット数を確認したい場合は、どうしますか。 販売数がユニット数を大幅に上回っている場合、折れ線グラフは使用できません。 実際、合計ユニット数を示す赤色の線はゼロのように見えます。
 
-   ![値が高い分岐](media/power-bi-line-charts/power-bi-diverging.png)
+   ![値の差が大きい](media/power-bi-line-charts/power-bi-diverging.png)
 
-高度に左右逆方向の値を 1 つのグラフに表示するには、複合グラフを使用します。 読み取りでの複合グラフのすべてについて学習できます[Power BI での複合グラフ](power-bi-visualization-combo-chart.md)します。 、次の例でおできますいっしょに表示販売と合計ユニット 1 つのグラフに 2 番目の Y 軸を追加することで。 
+それぞれの値の差が大きい場合、その値を 1 つのグラフに表示するには、複合グラフを使用します。 複合グラフの詳細については、「[Power BI の複合グラフ](power-bi-visualization-combo-chart.md)」を参照してください。 以下の例では、2 つ目の Y 軸を追加することで、売上と合計ユニット数を 1 つのグラフに表示しています。 
 
-   ![値が高い分岐](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![値の差が大きい](media/power-bi-line-charts/power-bi-dual-axes.png)
+
+## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
+[フィルター] ウィンドウの使用方法については、「[Power BI でのレポートへのフィルターの追加](../power-bi-report-add-filter.md)」をご覧ください。
+
+折れ線グラフでデータ ポイントを選択すると、レポート ページ上の他の視覚化がクロス強調表示およびクロス フィルター処理されます。逆の場合も同様です。 作業を進めるには、 **[マーケット シェア]** タブを開きます。  
+
+折れ線グラフでは、1 つのデータ ポイントが X 軸と Y 軸上の交差ポイントです。 データ ポイントを選択すると、マーカーが追加されます。このマーカーは、レポート ページの他のビジュアルで、クロス強調表示およびクロス フィルター処理のソースであるポイント (折れ線が 1 本の場合は 1 つのポイント、折れ線が複数の場合は複数のポイント) を示しています。 お使いのビジュアルの密度が非常に高い場合、ビジュアル上でクリックした場所に最も近いポイントが選択されます。
+
+この例では、2014 年 7 月の R12 のユニット数マーケット シェア % 33.16 とユニット数マーケット シェア% 34.74 が含まれるデータ ポイントが選択されています。
+
+![折れ線グラフで 1 つのデータ ポイントを選択](media/power-bi-line-charts/power-bi-single-select.png)
+
+縦棒グラフがどのようにクロス強調表示され、ゲージがクロス フィルター処理されているかを確認してください。
+
+グラフ相互間のクロスフィルター処理とクロス強調表示を管理するには、「[Power BI レポートでの視覚エフェクトの相互作用](../service-reports-visual-interactions.md)」を参照してください。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-* 1 つの折れ線グラフは、2 つの Y 軸を持つことはできません。  複合グラフを代わりに使用する必要があります。
-* 上記の例で、グラフの形式にフォント サイズを大きく、フォントの色を変更、軸のタイトルを追加、グラフのタイトルと凡例を中央揃え、0、その他の両方の軸を開始します。 書式設定ウィンドウ (ペイント ローラー アイコン) には、無限に方法、グラフの外観を行うためのオプションのセットがあります。 学習する最善の方法では、書式設定ウィンドウを開き、探索します。
+* 1 つの折れ線グラフで 2 つの Y 軸を使用することはできません。  代わりに複合グラフを使用する必要があります。
+* 上記の例のグラフでは、フォント サイズを増やし、フォントの色を変更して、軸のタイトルを追加しました。また、グラフのタイトルと凡例を中央に揃える、両方の軸を 0 で開始する、などの書式も設定しています。 [書式設定] ウィンドウ (ペイント ローラー アイコン) には、無限と思われるようなオプション セットがあり、ご自身のグラフの外観を自由に設定できます。 [書式設定] ウィンドウを開いて、書式を設定する方法を確認することをお勧めします。
 
 ## <a name="next-steps"></a>次の手順
 

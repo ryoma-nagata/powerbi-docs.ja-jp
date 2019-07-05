@@ -683,9 +683,9 @@
               href: service-machine-learning-automated.md
         - name: Power BI のページ分割されたレポート
           items:
-            - name: ページ分割されたレポートを表示する (プレビュー)
+            - name: ページ分割されたレポートを表示する
               href: paginated-reports-view-power-bi-service.md
-            - name: パラメーターと対話する (プレビュー)
+            - name: パラメーターと対話する
               href: paginated-reports-view-parameters.md
             - name: 自分や他のユーザーをサブスクライブする
               href: paginated-reports-subscriptions.md
