@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 45a7cdd3c7b5324f3d618eaba4bdb3968a9549a5
 ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66375193"
@@ -36,7 +36,7 @@ Power BI Desktop でクロス レポートのドリルスルー機能を使用�
 
 選択、**他のレポートからドリルスルー ターゲットを使用するには、このレポートでビジュアルを許可する**チェック ボックスを次の図のようにします。
 
-![オプションのスクリーン ショット] ウィンドウ [強調表示されているレポートの設定](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
+![オプションのスクリーン ショット ウィンドウ 強調表示されているレポートの設定](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 
 クロス レポートのドリルスルーが有効になりました。
 
