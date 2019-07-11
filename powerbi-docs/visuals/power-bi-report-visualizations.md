@@ -9,20 +9,20 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 07/01/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d470a262bd8a5e6590746fb07889b1230f5cfc25
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: aabc58e34e5ba61f44673905450c8feb8d6ace47
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375661"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532275"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI レポートでの視覚エフェクト
 
-視覚エフェクト (ビジュアルとも呼ばれる) は、データ内で検出された洞察を表示します。 Power BI レポートは、ビジュアルが 1 つ使用された単一のページのこともあれば、ビジュアルが多数含まれる複数ページから成ることもあります。 Power BI サービスでは、ビジュアルを[レポートからダッシュボードにピン留め](../service-dashboard-pin-tile-from-report.md)することができます。
+視覚エフェクト (略してビジュアルとも呼ばれる) には、データ内で検出された分析情報が表示されます。 Power BI レポートは、ビジュアルが 1 つ使用された単一のページのこともあれば、ビジュアルが多数含まれる複数ページから成ることもあります。 Power BI サービスでは、ビジュアルを[レポートからダッシュボードにピン留め](../service-dashboard-pin-tile-from-report.md)することができます。
 
-レポートを区別することが重要*デザイナー*とレポート*コンシューマー*構築または変更、レポートを担当しているかどうかは、デザイナーは。  デザイナーでは、レポートとその基になるデータセットの編集アクセス許可を持っています。 これは、Power BI Desktop では、データ ビューでデータセットを開き、レポート ビューでビジュアルを作成できることを意味し、 Power BI サービスで、つまり、レポート エディターで、データセットまたはレポートを開くことができます[編集ビュー](../consumer/end-user-reading-view.md)します。 自分がレポートまたはダッシュボードの[共有相手](../consumer/end-user-shared-with-me.md)である場合は、レポート **コンシューマー**となります。 レポートとそのビジュアルを表示して操作することができますが、主要な変更を保存することはできません。
+レポートの "*デザイナー*" とレポートの "*コンシューマー*" とを区別することは重要です。  レポートのビルドまたは修正を行うのであれば、デザイナーということになります。  デザイナーには、レポートとその基になるデータセットに対して編集のためのアクセス許可が付与されます。 これは、Power BI Desktop では、データ ビューでデータセットを開き、レポート ビューでビジュアルを作成できることを意味し、 Power BI サービスでは、レポート エディターの[編集ビュー](../consumer/end-user-reading-view.md)で、データセットまたはレポートを開くことができることを意味します。 自分がレポートまたはダッシュボードの[共有相手](../consumer/end-user-shared-with-me.md)である場合は、レポート **コンシューマー**となります。 レポートとそのビジュアルを表示および操作することはできますが、大幅な変更内容を保存することはできません。
 
 さまざまな種類のビジュアルが Power BI の [視覚化] ウィンドウから直接使用できます。
 
@@ -33,7 +33,7 @@ ms.locfileid: "66375661"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 
-  Power BI を初めて使用する場合や、復習したい場合は、以下のリンクを使用して、Power BI 視覚エフェクトの基本を確認してください。  または、目次 (この記事の左側) を使用して役に立つ情報を見つけます。
+Power BI を初めて使用する場合や、復習したい場合は、以下のリンクを使用して、Power BI 視覚エフェクトの基本を確認してください。  または、目次 (この記事の左側) を使用して役に立つ情報を見つけます。
 
 ## <a name="add-a-visualization-in-power-bi"></a>Power BI での視覚化の追加
 
@@ -42,6 +42,18 @@ ms.locfileid: "66375661"
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>カスタムの視覚化をアップロードして Power BI で使用する
 
 自分で作成した、または [Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)で見つけたカスタムの視覚エフェクトを追加します。 自分でカスタマイズする場合は、 ソース コードを調べ、[開発者ツール](../developer/custom-visual-develop-tutorial.md)を使用して新しい視覚化の種類を作成して、[コミュニティと共有](../developer/office-store.md)してください。 カスタム ビジュアルの開発について詳しくは、「[Power BI カスタム ビジュアルを開発する](../developer/custom-visual-develop-tutorial.md)」をご覧ください。
+
+## <a name="personalize-your-visualization-pane-preview"></a>個人設定された [視覚化] ウィンドウ (プレビュー)
+
+多数のレポート間で同じカスタム ビジュアルを使用している場合、[視覚化] ウィンドウにカスタム視覚エフェクトをピン留めできます。 視覚化をピン止めするには、ビジュアル上で右クリックしてウィンドウにピン留めします。
+
+![[視覚化] ウィンドウへのピン留め](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
+
+ビジュアルがピン留めされると上に移動し、他の組み込みのビジュアルとともにライブになります。 このビジュアルは、サインインしているアカウントに関連付けられます。そのため、ビルドした新しいレポートではすべて、サインインしていることを推定の上で、このビジュアルが自動的に含まれます。 これにより、特定のビジュアルを 1 つ 1 つのレポートに追加することなく標準化するのが非常に簡単になります。
+
+![個人設定された [視覚化] ウィンドウ](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
+
+この機能のプレビュー期間中は、ピン留めされたビジュアルのみが Power BI Desktop に表示されます。 さらに、この機能を利用するには、サインインが必要です。
 
 ## <a name="change-the-visualization-type"></a>視覚化の種類の変更
 
@@ -52,9 +64,9 @@ ms.locfileid: "66375661"
 Power BI サービスでは、希望する視覚エフェクトができたら、タイルとしてその[視覚エフェクトをダッシュボードにピン留め](../service-dashboard-pin-tile-from-report.md)します。 ピン留めした後、レポートで使用されている視覚エフェクトを変更しても、ダッシュボードのタイルは変更されません。つまり、レポート内の視覚エフェクトが折れ線グラフである場合、それをドーナツ グラフに変更しても、視覚エフェクトは折れ線グラフのままです。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
-- データ ソースと、フィールド (メジャーまたは列) の数に応じてビジュアルを緩やかに変化読み込む可能性があります。  読みやすさとパフォーマンス上の理由 10 ~ 20 合計フィールドにビジュアルを制限することをお勧めします。 
+- データ ソースやフィールド数 (メジャーまたは列) によっては、ビジュアルの読み込みが遅い場合があります。  読みやすさとパフォーマンス上の理由により、ビジュアルを合計 10 から 20 個のフィールドに制限することをお勧めします。 
 
-- ビジュアルの上限は、100 のフィールド (メジャーまたは列) です。 ビジュアルに読み込みに失敗した場合は、フィールドの数を減らします。   
+- ビジュアルの上限は、フィールド 100 個です (メジャーまたは列)。 ビジュアルの読み込みに失敗した場合は、フィールド数を減らします。   
 
 ## <a name="next-steps"></a>次の手順
 

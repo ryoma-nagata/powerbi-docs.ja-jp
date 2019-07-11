@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67038900"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558978"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,15 @@ ms.locfileid: "67038900"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="june-2019"></a>2019 年 6 月
+
+### <a name="barcode-scanning-is-now-available-in-android"></a>バーコード スキャンが Android で使用可能に
+Android (スマートフォンおよびタブレット) の Power BI アプリを使用し、製品または店頭の棚に印刷されているバーコードをスキャンして、スキャンされた値でフィルターされた、関連する Power BI レポートが表示できるようになりました。 詳細については、[バーコードでデータをフィルターする方法](mobile-apps-scan-barcode-iphone.md)に関するページを参照してください。
+
+### <a name="supporting-pbix-reports-hosted-in-pbi-rs-over-adfs-configuration-ios-android"></a>ADFS 構成 (iOS、Android) 上の PBI-RS でホストされている PBIX レポートのサポート
+
+Power BI モバイル アプリから、ADFS 構成上の PBI-RS でホストされている Power BI レポート (PBIX) にアクセスできるようになりました。
 
 ## <a name="may-2019"></a>2019 年 5 月
 

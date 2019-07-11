@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770377"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559080"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth を使用し、Power BI Report Server と SSRS に接続する
 
@@ -25,7 +25,7 @@ Power BI Report Server と SQL Server Reporting Services 2016 以降に接続す
 OAuth を使用して Power BI Report Server と Reporting Services に接続し、モバイル レポートまたは KPI を表示できます。 Windows Server 2016 では、この種の認証を許可するように、Web アプリケーション プロキシ (WAP) の役割が機能強化されています。
 
    > [!NOTE]
-   > Power BI Report Server でホストされている Power BI レポートの表示は、iOS アプリでのみ現在サポートされて WAP を使用して認証します。 この時点で、android アプリが正式にサポートされていません。
+   > WAP 認証を使用した Power BI Report Server でホストされている Power BI レポートの表示が、現在 iOS と Android アプリでサポートされるようになりました。
 
 ## <a name="requirements"></a>要件
 
@@ -81,11 +81,11 @@ SPN は、Kerberos 認証を使うサービスの一意の識別子です。 レ
 
 ### <a name="create-an-application-group"></a>アプリケーション グループを作成する
 
-AD FS 管理画面内で、Power BI モバイル アプリの情報を含む Reporting Services のアプリケーション グループを作成します。
+AD FS 管理画面内で、Power BI Mobile アプリの情報を含む Reporting Services のアプリケーション グループを作成します。
 
 次の手順でアプリケーション グループを作成できます。
 
-1. AD FS 管理アプリで、 **[アプリケーション グループ]** を右クリックし、 **[アプリケーション グループの追加...]** を選びます。
+1. AD FS 管理アプリで、**[アプリケーション グループ]** を右クリックし、**[アプリケーション グループの追加...]** を選びます。
 
    ![ADFS のアプリケーションの追加](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
@@ -118,7 +118,7 @@ AD FS 管理画面内で、Power BI モバイル アプリの情報を含む Rep
    > [!NOTE]
    > この URL は、大文字と小文字が区別されます。
 
-   *https://< レポート サーバーの url >]、[レポート*
+   *https://<レポート サーバー URL>/reports*
 
    ![ADFS のアプリケーション グループ ウィザード 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. **[次へ]** を選びます。
@@ -141,7 +141,7 @@ AD FS 管理画面内で、Power BI モバイル アプリの情報を含む Rep
 
 ## <a name="web-application-proxy-wap-configuration"></a>Web アプリケーション プロキシ (WAP) の構成
 
-環境内のサーバーで、Web アプリケーション プロキシ (役割) の Windows の役割を有効にします。 Windows 2016 サーバー上でなければなりません。 詳しくは、「[Web Application Proxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)」 (Windows Server 2016 での Web アプリケーション プロキシ) および「[Publishing Applications using AD FS Preauthentication](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)」 (AD FS の事前認証を使用したアプリケーションの公開) をご覧ください。
+環境内のサーバーで、Web アプリケーション プロキシ (役割) の Windows の役割を有効にします。 これは、Windows 2016 サーバー上になければなりません。 詳しくは、「[Web Application Proxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)」 (Windows Server 2016 での Web アプリケーション プロキシ) および「[Publishing Applications using AD FS Preauthentication](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)」 (AD FS の事前認証を使用したアプリケーションの公開) をご覧ください。
 
 ### <a name="constrained-delegation-configuration"></a>制約付き委任の構成
 
@@ -155,7 +155,7 @@ Active Directory 内の WAP サーバー コンピューター アカウント�
 
 2. WAP サーバーのコンピューター アカウントを検索します。 既定では、コンピューター コンテナー内にあります。
 
-3. WAP サーバーを右クリックし、 **[プロパティ]** に移動します。
+3. WAP サーバーを右クリックし、**[プロパティ]** に移動します。
 
 4. **[委任]** タブを選びます。
 
@@ -165,7 +165,7 @@ Active Directory 内の WAP サーバー コンピューター アカウント�
 
    これにより、この WAP サーバー コンピューター アカウントに制約付き委任が設定されます。 次に、このコンピューターが委任を許可されるサービスを指定する必要があります。
 
-6. サービス ボックスで、 **[追加...]** を 選びます。
+6. サービス ボックスで、**[追加...]** を 選びます。
 
    ![制約付きの WAP 02](media/mobile-oauth-ssrs/wap-contrained-delegation2.png)
 
@@ -173,7 +173,7 @@ Active Directory 内の WAP サーバー コンピューター アカウント�
 
 8. Reporting Services に使っているサービス アカウントを入力します。 これは、Reporting Services の構成で SPN を追加したアカウントです。
 
-9. Reporting Services の SPN を選び、 **[OK]** を選びます。
+9. Reporting Services の SPN を選び、**[OK]** を選びます。
 
    > [!NOTE]
    > NetBIOS の SPN だけが表示される場合があります。 NetBIOS と FQDN の両方の SPN が存在する場合は、実際に両方が選択されます。
@@ -225,11 +225,11 @@ Power BI モバイル アプリ内で、Reporting Services インスタンスに
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
-**[接続]** を選ぶと、ADFS ログイン ページに移動します。 ドメインの有効な資格情報を入力します。
+[**接続**] を選ぶと、ADFS ログイン ページに移動します。 ドメインの有効な資格情報を入力します。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
-**[サインイン]** を選ぶと、Reporting Services サーバーからの要素が表示されます。
+[**サインイン**] を選ぶと、Reporting Services サーバーからの要素が表示されます。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
@@ -239,7 +239,7 @@ Power BI モバイル アプリ内で、Reporting Services インスタンスに
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>SSRS サーバーにログインできませんでした。 サーバー構成を確認してください。
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>[SSRS サーバーにログインできませんでした。 サーバー構成を確認します。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

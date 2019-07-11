@@ -3,206 +3,205 @@ title: チュートリアル:SQL Server でオンプレミス データに接続
 description: データを更新する方法など、SQL Server をゲートウェイ データ ソースとして使用する方法について説明します。
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 96ea117ff0ba28a158eb9f0eaf748d66b25f90d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278931"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468146"
 ---
-# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>チュートリアル:SQL Server でオンプレミス データに接続する
+# <a name="refresh-data-from-an-on-premises-sql-server-database"></a>オンプレミス SQL Server データベースからのデータを更新する
 
-オンプレミス データ ゲートウェイは、オンプレミス ネットワーク内にインストールするソフトウェアです。ゲートウェイがあると、そのネットワーク内のデータに簡単にアクセスできるようになります。 このチュートリアルでは、SQL Server からインポートされたサンプル データに基づいて Power BI Desktop でレポートを作成します。 次に、レポートを Power BI サービスに発行し、サービスがオンプレミス データにアクセスできるようにゲートウェイを構成します。 このアクセスは、レポートを最新の状態に保つためにサービスがデータを更新できることを意味します。
+このチュートリアルでは、ローカル ネットワーク内にオンプレミスで存在するリレーショナル データベースからの Power BI データセットを更新する方法について説明します。 具体的には、このチュートリアルではサンプルの SQL Server データベースを使用します。Power BI はこのデータベースにオンプレミス データ ゲートウェイ経由でアクセスする必要があります。
 
-このチュートリアルで学習する内容は次のとおりです。
+このチュートリアルでは、以下の手順を実行します。
+
 > [!div class="checklist"]
-> * SQL Server のデータからレポートを作成する
-> * Power BI サービスにレポートを発行する
-> * SQL Server をゲートウェイ データ ソースとして追加する
-> * レポートのデータを更新する
-
-Power BI にサインアップしていない場合は、[無料の試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
-
+> * オンプレミス SQL Server データベースからのデータをインポートする Power BI Desktop (.pbix) ファイルを作成して公開します。
+> * データ ゲートウェイ経由の SQL Server 接続用に、Power BI でデータ ソースとデータセットの設定を構成します。
+> * Power BI データセットに最新のデータが確実に保持されるようにするための更新スケジュールを構成します。
+> * データセットのオンデマンド更新を実行します。
+> * 過去の更新サイクルの結果を分析するために更新履歴を確認します。
+> * このチュートリアルで作成した成果物を削除してリソースをクリーンアップします。
 
 ## <a name="prerequisites"></a>前提条件
 
-* [Power BI Desktop をインストールする](https://powerbi.microsoft.com/desktop/)
-* ローカル コンピューターに [SQL Server をインストールする](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server) 
-* 同じローカル コンピューターに[オンプレミス データ ゲートウェイをインストールする](service-gateway-install.md) (実稼働環境では、通常は別のコンピューターにインストールします)
+- まだお持ちでない場合は、始める前に[無料の Power BI 試用版](https://app.powerbi.com/signupredirect?pbi_source=web)にサインアップしてください。
+- ローカル コンピューターに [Power BI Desktop](https://powerbi.microsoft.com/desktop/) をインストールします。
+- ローカル コンピューターに [SQL Server をインストール](/sql/database-engine/install-windows/install-sql-server)し、[バックアップからサンプル データベース]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak))を復元します。 AdventureWorks の詳細については、「[AdventureWorks のインストールと構成](/sql/samples/adventureworks-install-configure)」を参照してください。
+- 同じローカル コンピューターに SQL Server として[オンプレミス データ ゲートウェイをインストール](service-gateway-install.md)します (実稼働環境では、通常は別のコンピューターにインストールします)。
 
+> [!NOTE]
+> ゲートウェイの管理者ではなく、ゲートウェイを自分でインストールしたくない場合は、組織内のゲートウェイの管理者に問い合わせてください。 管理者はデータセットを SQL Server データベースに接続するために必要なデータ ソースの定義を作成することができます。
 
-## <a name="set-up-sample-data"></a>サンプル データを設定する
+## <a name="create-and-publish-a-power-bi-desktop-file"></a>Power BI Desktop ファイルを作成して公開する
 
-まずサンプル データを SQL Server に追加し、以降のチュートリアルでそのデータを使用できるようにします。
+AdventureWorksDW サンプル データベースを使用して基本的な Power BI レポートを作成するには、次の手順を行います。 レポートを Power BI に発行します。これにより、Power BI のデータセットを取得し、以降の手順で構成および更新することができます。
 
-1. SQL Server Management Studio (SSMS) で、SQL Server のインスタンスに接続し、テスト データベースを作成します。
+1. Power BI Desktop の **[ホーム]** タブで、**[データの取得]** \> **[SQL Server]** の順に選択します。
 
-    ```sql
-    CREATE DATABASE TestGatewayDocs
-    ```
+2. **[SQL Server データベース]** ダイアログ ボックスで、**[サーバー]** と **[データベース (省略可能)]** の名前を入力し、**[データ接続モード]** が **[インポート]** であることを確認して、**[OK]** を選択します。
 
-2. 作成したデータベースにテーブルを追加し、データを挿入します。
+    ![SQL Server データベース](./media/service-gateway-sql-tutorial/sql-server-database.png)
 
-    ```sql
-    USE TestGatewayDocs
+3. **資格情報**を確認し、**[接続]** を選択します。
 
-    CREATE TABLE Product (
-        SalesDate DATE,
-        Category  VARCHAR(100),
-        Product VARCHAR(100),
-        Sales MONEY,
-        Quantity INT
-    )
+    > [!NOTE]
+    > 認証できない場合は、必ず適切な認証方法を選択してデータベースへのアクセスを持つアカウントを使用するようにします。 テスト環境では、明示的なユーザー名とパスワードを指定してデータベース認証を使用することができます。 運用環境では、通常 Windows 認証を使用します。 「[更新に関するトラブルシューティング シナリオ](refresh-troubleshooting-refresh-scenarios.md)」を参照し、追加の支援についてデータベース管理者に問い合わせてください。
 
-    INSERT INTO Product VALUES('2018-05-05','Accessories','Carrying Case',9924.60,68)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','Tripod',1350.00,18)
-    INSERT INTO Product VALUES('2018-05-11','Accessories','Lens Adapter',1147.50,17)
-    INSERT INTO Product VALUES('2018-05-05','Accessories','Mini Battery Charger',1056.00,44)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','Telephoto Conversion Lens',1380.00,18)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','USB Cable',780.00,26)
-    INSERT INTO Product VALUES('2018-05-08','Accessories','Budget Movie-Maker',3798.00,9)
-    INSERT INTO Product VALUES('2018-05-09','Digital video recorder','Business Videographer',10400.00,13)
-    INSERT INTO Product VALUES('2018-05-10','Digital video recorder','Social Videographer',3000.00,60)
-    INSERT INTO Product VALUES('2018-05-11','Digital','Advanced Digital',7234.50,39)
-    INSERT INTO Product VALUES('2018-05-07','Digital','Compact Digital',10836.00,84)
-    INSERT INTO Product VALUES('2018-05-08','Digital','Consumer Digital',2550.00,17)
-    INSERT INTO Product VALUES('2018-05-05','Digital','Slim Digital',8357.80,44)
-    INSERT INTO Product VALUES('2018-05-09','Digital SLR','SLR Camera 35mm',18530.00,34)
-    INSERT INTO Product VALUES('2018-05-07','Digital SLR','SLR Camera',26576.00,88)
-    ```
+1. **[暗号化のサポート]** ダイアログ ボックスが表示されたら、**[OK]** を選択します。
 
-3. テーブルからデータを選択して確認します。
+2. **[ナビゲーター]** ダイアログ ボックスで **[DimProduct]** テーブルを選択し、**[読み込む]** を選択します。
 
-    ```sql
-    SELECT * FROM Product
-    ```
+    ![データ ソース ナビゲーター](./media/service-gateway-sql-tutorial/data-source-navigator.png)
 
-    ![クエリ結果](media/service-gateway-sql-tutorial/query-results.png)
+3. Power BI Desktop の **[レポート]** ビューで、**[視覚化]** ウィンドウから **[積み上げ縦棒グラフ]** を選択します。
 
+    ![積み上げ縦棒グラフ](./media/service-gateway-sql-tutorial/stacked-column-chart.png)
 
-## <a name="build-and-publish-a-report"></a>レポートを作成して発行する
+4. レポート キャンバスで縦棒グラフを選択した状態で、**[フィールド]** ウィンドウの **[EnglishProductName]** フィールドと **[ListPrice]** フィールドを選択します。
 
-作業に使用するサンプル データがあるので、Power BI Desktop で SQL Server に接続し、そのデータに基づいてレポートを作成します。 次に Power BI サービスにレポートを発行します。
+    ![[フィールド] ウィンドウ](./media/service-gateway-sql-tutorial/fields-pane.png)
 
-1. Power BI Desktop の **[ホーム]** タブで、**[データの取得]** > **[SQL Server]** の順に選択します。
+5. **[EndDate]** を **[レポート レベル フィルター]** 上にドラッグし、**[基本フィルター]** の下で **[(空白)]** チェックボックスのみ選択します。
 
-2. **[サーバー]** にサーバー名を入力し、**[データベース]** に「TestGatewayDocs」と入力します。 **[OK]** を選択します。 
-
-    ![サーバーとデータベースを入力する](media/service-gateway-sql-tutorial/server-database.png)
-
-3. 資格情報を確認し、**[接続]** を選択します。
-
-4. **[ナビゲーター]** の **[Product]** テーブルを選択し、**[読み込む]** を選択します。
-
-    ![[Product] テーブルを選択する](media/service-gateway-sql-tutorial/select-product-table.png)
-
-5. Power BI Desktop の **[レポート]** ビューで、**[視覚化]** ウィンドウから **[積み上げ縦棒グラフ]** を選択します。
-
-    ![積み上げ縦棒グラフ](media/service-gateway-sql-tutorial/column-chart.png)    
-
-6. レポート キャンバスで縦棒グラフを選択した状態で、**[フィールド]** ウィンドウの **[Product]** フィールドと **[Sales]** フィールドを選択します。  
-
-    ![フィールドを選択する](media/service-gateway-sql-tutorial/select-fields.png)
+    ![レポート レベル フィルター](./media/service-gateway-sql-tutorial/report-level-filters.png)
 
     グラフは次のように表示されます。
 
-    ![[Product] テーブルを選択する](media/service-gateway-sql-tutorial/finished-chart.png)
+    ![完成した縦棒グラフ](./media/service-gateway-sql-tutorial/finished-column-chart.png)
 
-    **SLR Camera** が現在最も売れている製品であることがわかります。 このチュートリアルの後半でデータを更新し、レポートを更新すると、この情報は変わります。
+    5 つの **Road-250** 製品が最も高い表示価格で表示されていることに注目してください。 このチュートリアルの後半でデータを更新し、レポートを更新すると、この情報は変わります。
 
-7. "TestGatewayDocs.pbix" という名前でレポートを保存します。
+6. "AdventureWorksProducts.pbix" という名前でレポートを保存します。
 
-8. **[ホーム]** タブで **[発行]** > **[マイ ワークスペース]** > **[選択]** の順に選択します。 Power BI サービスにサインインするように求められたら、サインインします。 
+7. **[ホーム]** タブで **[発行]** \> **[マイ ワークスペース]** \> **[選択]** の順に選択します。 Power BI サービスにサインインするように求められたら、サインインします。
 
-    ![レポートを発行する](media/service-gateway-sql-tutorial/publish-report.png)
+8. **[成功]** 画面で、**[Power BI で 'AdventureWorksProducts.pbix' を開く]** を選択します。
 
-9. **[成功]** 画面で、**[Power BI で 'TestGatewayDocs.pbix' を開く]** を選択します。
+    [Power BI へ発行](./media/service-gateway-sql-tutorial/publish-to-power-bi.png)
 
+## <a name="connect-a-dataset-to-a-sql-server-database"></a>データセットを SQL Server データベースに接続する
 
-## <a name="add-sql-server-as-a-gateway-data-source"></a>SQL Server をゲートウェイ データ ソースとして追加する
+Power BI Desktop では、オンプレミス SQL Server データベースに直接接続しましたが、Power BI サービスにはクラウドとオンプレミス ネットワーク間のブリッジとして機能するゲートウェイが必要です。 次の手順を行って、オンプレミス SQL Server データベースをデータ ソースとしてゲートウェイに追加し、データセットをこのデータ ソースに接続します。
 
-Power BI Desktop では、SQL Server に直接接続しますが、Power BI サービスにはブリッジとして機能するゲートウェイが必要です。 以上で、(「[前提条件](#prerequisites)」に記載されている) 前の記事で作成したゲートウェイのデータ ソースとして SQL Server のインスタンスを追加する操作は完了です。 
+1. Power BI にサインインします。 右上隅の設定歯車アイコンを選択して、**[設定]** を選択します。
 
-1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-sql-tutorial/icon-gear.png) > **[ゲートウェイの管理]** の順に選択します。
+    ![Power BI の設定](./media/service-gateway-sql-tutorial/power-bi-settings.png)
 
-    ![ゲートウェイの管理](media/service-gateway-sql-tutorial/manage-gateways.png)
+2. **[データセット]** タブで、データセット **AdventureWorksProducts** を選択します。これによりデータ ゲートウェイ経由でオンプレミス SQL Server データベースに接続することができます。
 
-2. **[データ ソースの追加]** を選択し、**[データ ソース名]** に「test-sql-source」と入力します。
+3. **[ゲートウェイ接続]** を展開して、少なくとも 1 つのゲートウェイが表示されていることを確認します。 ゲートウェイがない場合は、このチュートリアルで前出した「[前提条件](#prerequisites)」セクションで、ゲートウェイをインストールして構成するための製品ドキュメントへのリンクを参照してください。
 
-    ![データ ソースの追加](media/service-gateway-sql-tutorial/add-data-source.png)
+    ![ゲートウェイの接続](./media/service-gateway-sql-tutorial/gateway-connection.png)
 
-3. **[SQL Server]** の **[データ ソースの種類]** を選択し、次のように他の値を入力します。
+4. **[アクション]** の下で、トグル ボタンを展開してデータ ソースを表示し、**[ゲートウェイに追加]** リンクを選択します。
 
-    ![データ ソースの設定を入力する](media/service-gateway-sql-tutorial/data-source-settings.png)
+    ![データ ソースのゲートウェイへの追加](./media/service-gateway-sql-tutorial/add-data-source-gateway.png)
 
+    > [!NOTE]
+    > ゲートウェイの管理者ではなく、ゲートウェイを自分でインストールしたくない場合は、組織内のゲートウェイの管理者に問い合わせてください。 管理者はデータセットを SQL Server データベースに接続するために必要なデータ ソースの定義を作成することができます。
 
-   |          オプション           |                                               値                                                |
-   |---------------------------|----------------------------------------------------------------------------------------------------|
-   |   **データ ソース名**    |                                          test-sql-source                                           |
-   |   **データ ソースの種類**    |                                             SQL Server                                             |
-   |        **サーバー**         | SQL Server インスタンスの名前 (Power BI Desktop で指定した名前と同じにする必要があります) |
-   |       **データベース**        |                                          TestGatewayDocs                                           |
-   | **認証方法** |                                              Windows                                               |
-   |       **ユーザー名**        |             SQL Server への接続に使用するアカウント (michael@contoso.com など)             |
-   |       **パスワード**        |                   SQL Server への接続に使用するアカウントのパスワード                    |
+5. **[ゲートウェイ]** 管理ページの **[データ ソース設定]** タブで以下の情報を入力して確認し、**[追加]** を選択します。
 
+    | オプション | 値 |
+    | --- | --- |
+    | データ ソース名 | AdventureWorksProducts |
+    | データ ソースの種類 | SQL Server |
+    | サーバー | SQLServer01 などの SQL Server インスタンスの名前 (Power BI Desktop で指定した名前と同じにする必要があります)。 |
+    | データベース | AdventureWorksDW などの SQL Server データベースの名前 (Power BI Desktop で指定した名前と同じにする必要があります)。 |
+    | 認証方法 | Windows または Basic (通常は Windows です)。 |
+    | ユーザー名 | SQL Server への接続に使用するユーザー アカウント。 |
+    | パスワード | SQL Server への接続に使用するアカウントのパスワード。 |
 
-4. **[追加]** を選択します。 接続に成功すると、"*接続成功*" というメッセージが表示されます。
+    ![データ ソース設定](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    ![接続成功](media/service-gateway-sql-tutorial/connection-successful.png)
+6. **[データセット]** タブで、**[ゲートウェイ接続]** セクションを再度展開します。 構成したデータ ゲートウェイを選択すると、インストールしたマシン上での実行の **[状態]** が表示されます。**[適用]** を選択します。
 
-    これで、このデータ ソースを使用して、Power BI ダッシュボードとレポートに SQL Server のデータを含めることができます。
+    ![ゲートウェイの接続を更新する](./media/service-gateway-sql-tutorial/update-gateway-connection.png)
 
+## <a name="configure-a-refresh-schedule"></a>更新スケジュールを構成する
 
-## <a name="configure-and-use-data-refresh"></a>データ更新の構成と使用
+これで Power BI のデータセットをデータ ゲートウェイ経由でオンプレミスの SQL Server データベースに接続したので、次の手順を行い更新スケジュールを構成します。 スケジュールに基づいてデータセットを更新することで、レポートとダッシュボードに最新のデータが確実に表示されるようにすることができます。
 
-Power BI サービスへのレポート発行と、SQL Server データ ソースの構成が完了しました。 この準備が完了したら、次は Product テーブルに変更を加え、その変更をゲートウェイを介して発行済みレポートに反映します。 また、今後、変更が発生した場合に処理できるように、スケジュールされた更新を構成することもできます。
+1. 左側のナビゲーション ウィンドウで、**[マイ ワークスペース]** \> **[データセット]** の順に開きます。 **AdventureWorksProducts**データセットの省略記号 (**. . .**) を選択し、**[更新のスケジュール設定]** を選択します。
 
-1. SSMS で、Product テーブルのデータを更新します。
+    > [!NOTE]
+    > 必ず、同じ名前のレポートの省略記号ではなく、**AdventureWorksProducts** データセットの省略記号を選択してください。 **AdventureWorksProducts** レポートのコンテキスト メニューには **[更新のスケジュール設定]** オプションは含まれていません。
 
-    ```sql
-    UPDATE Product
-    SET Sales = 32508, Quantity = 252
-    WHERE Product='Compact Digital'     
+2. **[スケジュールされている更新]** セクションの **[データを最新の状態に保つ]** で、更新を **[オン]** に設定します。
 
-    ```
+3. 適切な **[更新の頻度]** を選び (この例では **[毎日]**)、**[時刻]** の下で **[別の時間帯を追加]** を選択して、希望の更新時間を指定します (この例では 6:30 AM と PM)。
 
-2. Power BI Service の左側のナビゲーション ウィンドウで、**[マイ ワークスペース]** を選択します。
+    ![スケジュールされた更新の構成](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
 
-3. **[データセット]** の **TestGatewayDocs** データセットで **[詳細]** (**. . .**)、**[今すぐ更新]** の順に選択します。
+    > [!NOTE]
+    > データセットが共有された容量上にある場合は 1 日に最大 8 時間の枠を、Power BI Premium 上では 48 時間の枠を構成できます。
 
-    ![今すぐ更新](media/service-gateway-sql-tutorial/refresh-now.png)
+4. **[更新失敗に関する通知を電子メールで受信する]** チェックボックスを有効のままにして、**[適用]** を選択します。
 
-4. **[マイ ワークスペース]** > **[レポート]** > **[TestGatewayDocs]** の順に選択します。 更新内容が反映され、最も売れている製品が **Compact Digital** になりました。 
+## <a name="perform-an-on-demand-refresh"></a>オンデマンド更新を実行する
 
-    ![更新後のデータ](media/service-gateway-sql-tutorial/updated-data.png)
+これで更新スケジュールを構成したので、Power BI により次のスケジュールされた時間 (15 分の幅あり) にデータセットが更新されます。 ゲートウェイとデータ ソースの構成をテストする場合など、データの更新をより早く行いたい場合には、左側のナビゲーション ウィンドウ内のデータセット メニューにある **[今すぐ更新]** オプションを使用して、オンデマンド更新を実行します。 オンデマンド更新は、スケジュールされた次回の更新時刻には影響を及ぼしません。ただし、前のセクションで述べたように、1 日の更新上限に対してはカウントされます。
 
-5. **[マイ ワークスペース]** > **[レポート]** > **[TestGatewayDocs]** の順に選択します。 **[詳細]**(**. . .**)、**[更新のスケジュール設定]** の順に選択します。
+説明するために、SQL Server Management Studio (SSMS) を使用して AdventureWorksDW データベースの DimProduct テーブルを更新することで、サンプル データの変更をシミュレートします。
 
-6. **[更新のスケジュール設定]** で更新を **[オン]** に設定し、**[適用]** を選択します。 既定でデータセットは毎日更新されます。
+```sql
 
-    ![更新のスケジュール設定](media/service-gateway-sql-tutorial/schedule-refresh.png)
+UPDATE [AdventureWorksDW].[dbo].[DimProduct]
+SET ListPrice = 5000
+WHERE EnglishProductName ='Road-250 Red, 58'
+
+```
+
+今度は次の手順を行い、更新されたデータがゲートウェイ接続を経由して Power BI のデータセットとレポートに反映されるようにします。
+
+1. Power BI Service の左側のナビゲーション ウィンドウで、**[マイ ワークスペース]** を選択して展開ます。
+
+2. **[データセット]** の下の **[AdventureWorksProducts]** データセットの省略記号 (**. . .**) を選択し、**[今すぐ更新]** を選択します。
+
+    ![今すぐ更新](./media/service-gateway-sql-tutorial/refresh-now.png)
+
+    Power BI が要求された更新の実行準備をしていることを右上隅で確認します。
+
+3. **[マイ ワークスペース]\>[レポート]\>[AdventureWorksProducts]** の順に選択します。 更新されたデータが反映され、表示価格が最も高い製品が **Road-250 Red, 58** になりました。
+
+    ![更新された縦棒グラフ](./media/service-gateway-sql-tutorial/updated-column-chart.png)
+
+## <a name="review-the-refresh-history"></a>更新履歴を確認する
+
+更新履歴で過去の更新サイクルの結果を定期的に確認することをお勧めします。 データベースの資格情報の期限が切れていたかもしれません。または、選択したゲートウェイがスケジュールされた更新の期限のときにオフラインになっていたかもしれません。 次の手順を行い、更新履歴を調べて問題を確認します。
+
+1. Power BI ユーザー インターフェイスの右上隅の設定歯車アイコンを選択して、**[設定]** を選択します。
+
+2. **[データセット]** に切り替えて、**AdventureWorksProducts** などの調べたいデータセットを選択します。
+
+3. **[更新履歴]** リンクを選択して、**[更新履歴]** ダイアログを開きます。
+
+    ![[更新履歴] リンク](./media/service-gateway-sql-tutorial/refresh-history-link.png)
+
+4. **[スケジュール済み]** タブで、過去にスケジュールされていた更新とオンデマンド更新について、**[開始]** 時刻と **[終了]** 時刻を確認し、**[状態]** が **[完了]** であることを確認します。これは、Power BI で更新が正常に実行されたことを示します。 失敗した更新については、エラー メッセージを表示してエラーの詳細を調べることができます。
+
+    ![更新履歴の詳細](./media/service-gateway-sql-tutorial/refresh-history-details.png)
+
+    > [!NOTE]
+    > [OneDrive] タブは、OneDrive または SharePoint Online 上の Power BI Desktop ファイル、Excel ブック、CSV ファイルに接続されているデータセットにのみ関連するものです。詳細については、「[Power BI でのデータの更新](refresh-data.md)」で説明しています。
 
 ## <a name="clean-up-resources"></a>リソースをクリーンアップする
-今後はサンプル データを使用しない場合は、SSMS で `DROP DATABASE TestGatewayDocs` を実行します。 SQL Server データ ソースを使用しない場合は、[データ ソースを削除](service-gateway-manage.md#remove-a-data-source)します。 
 
+今後はサンプル データを使用しない場合は、そのデータベースを SQL Server Management Studio (SSMS) で削除します。 SQL Server データ ソースを使用しない場合は、そのデータ ソースをデータ ゲートウェイから削除します。 データ ゲートウェイをこのチュートリアルを完了する目的でのみインストールした場合は、アンインストールすることも検討してください。 また、AdventureWorksProducts.pbix ファイルをアップロードしたときに Power BI により作成された AdventureWorksProducts データセットと AdventureWorksProducts レポートを削除する必要があります。
 
 ## <a name="next-steps"></a>次の手順
-このチュートリアルでは、次の内容を学習しました。
-> [!div class="checklist"]
-> * SQL Server のデータからレポートを作成する
-> * Power BI サービスにレポートを発行する
-> * SQL Server をゲートウェイ データ ソースとして追加する
-> * レポートのデータを更新する
 
-さらに学習するには、次の記事に進んでください
-> [!div class="nextstepaction"]
-> [Power BI ゲートウェイを管理する](service-gateway-manage.md)
+このチュートリアルでは、オンプレミスの SQL Server データベースからデータを Power BI データセットにインポートする方法と、このデータセットを使用するレポートとダッシュボードが Power BI で更新されるよう、このデータセットをスケジュールおよびオンデマンド ベースで更新する方法について説明してきました。 これで、Power BI でのデータ ゲートウェイとデータ ソースの管理についてさらに詳しく学習することができます。 Power BI でデータ更新の概念に関する記事を参照することもお勧めします。
 
+- [Power BI のオンプレミス ゲートウェイを管理する](service-gateway-manage.md)
+- [データ ソースの管理 - インポート/スケジュールされた更新](service-gateway-enterprise-manage-scheduled-refresh.md)
+- [Power BI でのデータの更新](refresh-data.md)

@@ -1,16 +1,37 @@
-1. 最初に、ワークスペースを作成します。 **[ワークスペース]**  > **[アプリのワークスペースの作成]** の順に選択します。 
+---
+title: ワークスペースの作成 - Power BI
+description: ワークスペースを作成する方法 - 含める
+services: powerbi
+author: maggiesMSFT
+ms.service: powerbi
+ms.topic: include
+ms.date: 04/04/2019
+ms.author: maggies
+ms.custom: include file
+ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67534675"
+---
+1. 最初に、ワークスペースを作成します。 **[ワークスペース]**  >  **[アプリのワークスペースの作成]** の順に選択します。 
    
-     ![アプリのワークスペースを作成する](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![アプリのワークスペースの作成](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    
-    ここが、同僚と共同でコンテンツを配置する場所になります。
+    ここには、同僚と共同作業をするコンテンツを配置します。
 
-2. ワークスペースの名前を付けます。 対応する**ワークスペース ID** が使用できない場合は、一意の ID になるように編集します。
+2. **[You're creating an upgraded workspace]** \(アップグレードされたワークスペースを作成しています\) バナーで **[クラシックに戻す]** をクリックします。 
+
+    ![[クラシックに戻す] ワークスペース オプション](media/powerbi-service-create-app-workspace/power-bi-revert-classic-workspace.png)
+
+3. ワークスペースの名前を付けます。 対応する**ワークスペース ID** が使用できない場合は、一意の ID になるように編集します。
    
-     これはアプリの名前にもなります。
+     アプリの名前は同じになります。
    
      ![ワークスペースに名前を付ける](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-name.png)
 
-3. 設定にはいくつかのオプションがあります。 **[パブリック]** を選択すると、組織内のすべてのユーザーがワークスペースの内容を表示できます。 一方、**[プライベート]** の場合、ワークスペースのメンバーしかその内容を表示できません。
+3. 設定にはいくつかのオプションがあります。 **[パブリック]** を選択すると、組織内のすべてのユーザーがワークスペースの内容を表示できます。 **[プライベート]** の場合、ワークスペースのメンバーしかその内容を表示できません。
    
      ![公開または非公開を設定する](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-private-public.png)
    
@@ -22,7 +43,7 @@
    
      コンテンツを編集できるようにアプリ ワークスペースだけにユーザーを追加します。 コンテンツを表示するだけのユーザーの場合は、ワークスペースには追加しないでください。 そのユーザーは、アプリを発行するときに追加できます。
 
-5. ワークスペースへのアクセス許可を与えるユーザーの電子メール アドレスを追加して、**[追加]** を選択します。 追加できるのは個別ユーザーのみで、グループのエイリアスは追加できません。
+5. ワークスペースへのアクセス許可を与えるユーザーの電子メール アドレスを追加して、 **[追加]** を選択します。 追加できるのは個別ユーザーのみで、グループのエイリアスは追加できません。
 
 6. ユーザーごとにメンバーか管理者かを判断します。
    

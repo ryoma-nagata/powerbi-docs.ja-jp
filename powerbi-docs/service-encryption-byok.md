@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5c93a50ce481c5fad899c1911b30100dca7cb841
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264502"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498969"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI 用の独自の暗号化キーを使用する (プレビュー)
 
@@ -103,13 +103,22 @@ BYOK を有効にするには、`Connect-PowerBIServiceAccount` コマンドレ�
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
 ```
 
-コマンドレットでは、現在および今後の容量の暗号化に影響する、2 つのスイッチ パラメーターが受け入れられます。 既定では、どのスイッチも設定されません。
+複数のキーを追加するには、`-Name` と `-KeyVaultKeyUri` に別の値を指定して `Add-PowerBIEncryptionKey` を実行します。 
 
-- `-Activate`:このキーがテナント内の既存のすべての容量に対して使用されることを示します。
+コマンドレットでは、現在および今後の容量の暗号化に影響する、2 つのスイッチ パラメーターが受け入れられます。 既定では、どちらのスイッチも設定されていません。
+
+- `-Activate`:このキーがまだ暗号化されていないテナント内の既存のすべての容量に対して使用されることを示します。
 
 - `-Default`:このキーが現在、テナント全体の既定値であることを示します。 新しい容量を作成するときに、容量ではこのキーが継承されます。
 
-`-Default` を指定した場合、この時点からこのテナントで作成されたすべての容量が、指定するキー (または更新された既定のキー) を使用して暗号化されます。 既定の操作を元に戻すことはできません。したがって、テナントで BYOK が使用されない Premium 容量は作成できなくなります。
+> [!IMPORTANT]
+> `-Default` を指定した場合、この時点からテナントで作成されたすべての容量が、指定するキー (または更新された既定のキー) を使用して暗号化されます。 既定の操作を元に戻すことはできません。したがって、BYOK が使用されない Premium 容量はテナントで作成できなくなります。
+
+テナントで BYOK を有効にした後は、[`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) を使用して 1 つまたは複数の Power BI 容量に対する暗号化キーを設定します。
+
+```powershell
+Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
+```
 
 テナント全体で BYOK を使用する方法を制御することができます。 たとえば、単一の容量を暗号化するには、`-Activate` または `-Default` なしで `Add-PowerBIEncryptionKey` を呼び出します。 その後、BYOK を有効にする容量に対して、`Set-PowerBICapacityEncryptionKey` を呼び出します。
 
@@ -136,12 +145,6 @@ Power BI では、テナントでの BYOK の管理に役立つ追加のコマ�
     ```
 
     暗号化は容量レベルで有効になっていますが、暗号化状態は指定されたワークスペースのデータセット レベルで取得することに注意してくだささい。
-
-- Power BI 容量の暗号化キーを更新するには、[`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) を次のように使用します。
-
-    ```powershell
-    Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-    ```
 
 - 暗号化に使用されているキーのバージョンを切り替える (または_回転_する) には、[`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) を次のように使用します。 コマンドレットでは単にキー `-Name` の `-KeyVaultKeyUri` を更新します。
 

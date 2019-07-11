@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137534"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67499004"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS デバイスでの Power BI モバイル アプリの概要
 iPhone、iPad、iPod Touch に Microsoft Power BI for iOS アプリをインストールすれば、Power BI、Power BI Report Server、Reporting Services のビジネス インテリジェンスをモバイル利用できます。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
@@ -33,7 +33,7 @@ iOS の Power BI モバイル アプリで、オンプレミスまたはクラ�
 ## <a name="download-the-app"></a>アプリのダウンロード
 [iOS アプリをダウンロード] Apple App Store から iPhone、iPad、iPod Touch に (http://go.microsoft.com/fwlink/?LinkId=522062 "iOS アプリをダウンロード")します。
 
-Power BI for iOS アプリは、iOS 10 以降を搭載した iPhone 5 以降で実行できます。 iOS 10 以降を搭載した iPad または iPod Touch でも実行できます。 
+Power BI for iOS アプリは、iOS 11 以降を実行している任意のデバイス上で実行できます。 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI サービスにサインアップする
 まだサインアップしていない場合は、[powerbi.com](https://powerbi.microsoft.com/get-started/) にアクセスし、 **[Power BI - クラウド コラボレーションと共有]** の下の **[無料で試す]** を選択します。

@@ -1,5 +1,5 @@
 ---
-title: iPhone で Power BI モバイル アプリからバーコードをスキャンする
+title: Power BI モバイル アプリでバーコードをスキャンする
 description: 現実世界でバーコードをスキャンし、Power BI モバイル アプリでフィルターされた BI 情報に直接アクセスできます。
 author: mshenhav
 manager: kfile
@@ -9,21 +9,28 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 432b65f8d7f461ac1942cf8996f9cc67e756fc7f
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137330"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559020"
 ---
-# <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>iPhone で Power BI モバイル アプリからバーコードをスキャンする
+# <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>デバイスで Power BI モバイル アプリからバーコードをスキャンする
 現実世界でバーコードをスキャンし、Power BI モバイル アプリでフィルターされた BI 情報に直接アクセスできます。
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+適用対象:
+
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
+|:--- |:--- |
+| iPhone | Android (スマートフォン、タブレット) | 
 
 たとえば、同僚が [Power BI Desktop のレポートのバーコード フィールドにタグを付け](../../desktop-mobile-barcodes.md)、そのレポートを自分と共有したとします。 
 
-iPhone の Power BI アプリのスキャナーで製品バーコードをスキャンすると、そのバーコードを持つレポート (またはレポートの一覧) が表示されます。 そのレポートは、そのバーコードでフィルターされた状態で iPhone で開くことができます。
+![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+デバイスの Power BI アプリのスキャナーで製品バーコードをスキャンすると、そのバーコードのレポート (またはレポートの一覧) が表示されます。 そのバーコードにフィルター処理されたレポートを開くことができます。
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Power BI スキャナーでバーコードをスキャンする
 1. Power BI モバイル アプリで、左上のメイン ナビゲーション メニュー ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png) を開きます。 
@@ -34,10 +41,10 @@ iPhone の Power BI アプリのスキャナーで製品バーコードをスキ
 4. 製品のバーコードをスキャナーでポイントします。 
    
     そのバーコードに関連付けられたレポートの一覧が表示されます。
-5. レポート名をタップして iPhone で開くと、そのバーコードで自動的にフィルターされた状態で表示されます。
+5. そのバーコードに自動的にフィルター処理されたレポート名をタップして、デバイスで開きます。
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>レポートを開いているときに他のバーコードでフィルターする
-バーコードでフィルターされたレポートを iPhone で表示しているときに、そのレポートを別のバーコードでフィルターすることがあります。
+あるバーコードでフィルター処理されたレポートをデバイスで表示しているときに、そのレポートを別のバーコードでフィルター処理したい場合があります。
 
 * バーコード アイコンにフィルター ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png) がある場合、フィルターがアクティブになり、レポートをバーコードでフィルターすることができます。 
 * アイコンにフィルター ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png) が含まれていない場合、フィルターはアクティブにならず、レポートはバーコードでフィルターされません。 

@@ -1,6 +1,6 @@
 ---
-title: 1 回のタップへのレポート対話機能を構成します。
-description: 単一引用符または二重の tap へのレポート対話機能を構成する方法について説明します。
+title: シングル タップにレポートの操作を構成する
+description: レポートの操作をシングル タップまたはダブル タップに構成する方法について説明します。
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,14 +9,14 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: c7f5476ed9d47cc42f275d51801a44c4ee3482ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c553b921ebeb30b8fb8ec7ba9f7bce74f6c31dee
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61340640"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558966"
 ---
-# <a name="configure-report-interaction-to-single-tap-or-double-tap-preview"></a>1 回のタップやダブルタップ (プレビュー) にはレポートの操作を構成します。
+# <a name="configure-report-interaction-to-single-tap-or-double-tap"></a>シングル タップまたはダブル タップにレポートの操作を構成する
 適用対象:
 
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android フォン](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | 
@@ -25,24 +25,24 @@ ms.locfileid: "61340640"
 
 Power BI レポートは、データの対話型表示で、データから得られるさまざまな発見と洞察を表す視覚化が付いています。
 
-データと対話する方法を構成することができます。 1 回のタップ操作または倍精度浮動小数点の対話をタップするかどうかを決定できます。
+データの操作方法を構成することができます。 シングル タップ操作またはダブル タップ操作をするかを決定できます。
 
-* ダブルタップの操作では、ビジュアルで、最初のタップで選択されますが、し、ビジュアルの 2 番目のタップのみリンク、ボタン上のスライサー項目の選択、クロス強調表示、またはクリックのように、アクションを実行します。
+* ダブル タップの操作では、ビジュアルの最初のタップでそれが選択され、ビジュアルの 2 回目のタップになって初めて、スライサー アイテムの選択、クロス強調、リンクやボタンなどのクリックのアクションが実行されます。
 
-* 1 回のタップの操作では、1 回のタップは両方、ビジュアルを選択し、- アクションを実行します。
-![Power BI モバイル 1 回のタップ](./media/mobile-app-single-tap/single-tap-2.gif)
+* シングル タップの操作では、1 回のタップでビジュアルの選択とアクションの実行の両方が実行されます。
+![Power BI モバイルでのシングル タップ](./media/mobile-app-single-tap/single-tap-2.gif)
 
 
-Android 用の Power BI iOS および 112540 用のアプリ バージョン 18.0 から以降、すべての新しいインストールとして構成する 1 つをタップして既定の動作。
-既に Power BI の電話にインストールされているがあり、これらの新しいバージョンにアップグレードされるユーザーに 1 回のタップに切り替えるに提供されます。
+Power BI アプリの iOS 用バージョン 18.0 および Android 用 112540 以降、すべての新しいインストールにはシングル タップが既定の動作として構成されます。
+スマートフォンに既に Power BI がインストールされている、このバージョンにアップグレードするユーザーには、シングル タップへの切り替えが提案されます。
 
-## <a name="change-interaction-behavior"></a>操作の動作を変更します。
+## <a name="change-interaction-behavior"></a>操作の動作を変更する
 
-相互作用の動作を変更するには、アプリの設定に移動し、オン/オフ、1 つタップ操作できます。
+操作の動作を変更するには、アプリの設定に移動し、シングル タップ操作をオンまたはオフにします。
 
-![Power BI モバイル レポートの相互作用を変更します。](./media/mobile-app-single-tap/configure-single-tap.png)
+![Power BI モバイルのレポートの変更操作](./media/mobile-app-single-tap/configure-single-tap.png)
 
-この記事では、両方ランドス ケープし、電話レポートでは適用されます。
+この記事は、横方向のレポートと電話のレポートの両方に該当します。
 
 ## <a name="next-steps"></a>次の手順
 * [電話用に最適化された Power BI レポートの表示と対話](mobile-apps-view-phone-report.md)

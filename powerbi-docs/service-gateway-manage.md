@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
-ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
-ms.translationtype: MT
+ms.openlocfilehash: 8acc0e403c983de79657cd01a7aa7f458bfb01ad
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66469816"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559064"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Power BI のオンプレミス ゲートウェイを管理する
 
@@ -31,6 +31,8 @@ Power BI サービスの **[ゲートウェイの管理]** 領域を通して、
 
 Power BI は、多数のオンプレミス データ ソースをサポートしますが、各データ ソースには独自の要件があります。 ゲートウェイは、単一のデータ ソースにも複数のデータ ソースにも使用できます。 この例では、SQL Server をデータ ソースとして 追加する方法を示しますが、他のデータ ソースも手順は類似しています。
 
+> [!NOTE]
+> ゲートウェイの管理者は、それぞれが別の資格情報を持つ、同じソースに接続される複数のデータ ソースを作成し、ユーザーのアクセス レベルに基づいてこれらのデータ ソースを各ユーザーを追加できるようになりました。
 
 ### <a name="add-a-data-source"></a>データ ソースの追加
 
@@ -53,6 +55,11 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 1. SQL Server では、 **[認証方法]** で **[Windows]** または **[基本]** (SQL 認証) を選択します。  **[基本]** を選択した場合は、データ ソースの資格情報を入力します。
 
+1. 現在、このデータ ソースを利用できない場合、または低速である場合、 **[テスト接続をスキップする]** を選択します。 そのようにしない場合、データ ソースの作成が失敗する可能性があります。
+
+    > [!NOTE]
+    > Analysis Services では、テスト接続のスキップはサポートされていません。
+
 1. **[詳細設定]** で、必要に応じてデータ ソースの[プライバシー レベル](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)を構成します ([DirectQuery](desktop-directquery-about.md) には適用されません)。
 
     ![詳細設定](media/service-gateway-manage/advanced-settings.png)
@@ -74,7 +81,7 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 ## <a name="manage-users-and-administrators"></a>ユーザーと管理者を管理する
 
-データ ソースをゲートウェイに追加した後、ユーザーとセキュリティ グループに (ゲートウェイ全体ではなく) 特定のデータ ソースへのアクセス権を与えます。 データ ソースのユーザーの一覧は、データ ソースのデータが含まれるレポートを発行できるユーザーを制御します。 レポートの所有者は、ダッシュボード、コンテンツ パック、およびアプリを作成し、それらを他のユーザーと共有できます。
+データ ソースをゲートウェイに追加した後、ユーザーとメールが有効なセキュリティ グループに (ゲートウェイ全体ではなく) 特定のデータ ソースへのアクセス権を与えます。 データ ソースのユーザーの一覧は、データ ソースのデータが含まれるレポートを発行できるユーザーを制御します。 レポートの所有者は、ダッシュボード、コンテンツ パック、およびアプリを作成し、それらを他のユーザーと共有できます。
 
 ゲートウェイへの管理アクセス権をユーザーとセキュリティ グループに与えることもできます。
 
@@ -91,21 +98,21 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 4. **[追加]** を選択します。追加されたメンバーがボックスに表示されます。
 
-    ![ユーザーを追加します。](media/service-gateway-manage/add-user.png)
+    ![ユーザーの追加](media/service-gateway-manage/add-user.png)
 
 これで完了です。 アクセスを与えるデータ ソースごとにユーザーを追加する必要があります。 各データ ソースには、別個のユーザー リストがあります。データ ソースごとにユーザーを追加する必要があります。
 
 
 ### <a name="remove-users-from-a-data-source"></a>データ ソースからのユーザーの削除
 
-データ ソースの **[ユーザー]** タブで、このデータ ソースを使用できるユーザーまたはセキュリティ グループを削除できます。
+データ ソースの **[ユーザー]** タブで、このデータ ソースを使用できるユーザーまたはメールが有効なセキュリティ グループを削除できます。
 
 ![ユーザーの削除](media/service-gateway-manage/remove-user.png)
 
 
 ### <a name="add-and-remove-administrators"></a>管理者の追加と削除
 
-ゲートウェイの **[管理者]** タブで、ゲートウェイを管理できるユーザー (またはセキュリティ グループ) の追加と削除を実行できます。
+ゲートウェイの **[管理者]** タブで、ゲートウェイを管理できるユーザー (またはメールが有効なセキュリティ グループ) の追加と削除を実行できます。
 
 ![[管理者] タブ](media/service-gateway-manage/administrators-tab.png)
 
