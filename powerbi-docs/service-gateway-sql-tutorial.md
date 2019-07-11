@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468146"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596630"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>オンプレミス SQL Server データベースからのデータを更新する
 
@@ -35,7 +35,7 @@ ms.locfileid: "67468146"
 
 - まだお持ちでない場合は、始める前に[無料の Power BI 試用版](https://app.powerbi.com/signupredirect?pbi_source=web)にサインアップしてください。
 - ローカル コンピューターに [Power BI Desktop](https://powerbi.microsoft.com/desktop/) をインストールします。
-- ローカル コンピューターに [SQL Server をインストール](/sql/database-engine/install-windows/install-sql-server)し、[バックアップからサンプル データベース]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak))を復元します。 AdventureWorks の詳細については、「[AdventureWorks のインストールと構成](/sql/samples/adventureworks-install-configure)」を参照してください。
+- ローカル コンピューターに [SQL Server をインストール](/sql/database-engine/install-windows/install-sql-server)し、[バックアップからサンプル データベース](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)を復元します。 AdventureWorks の詳細については、「[AdventureWorks のインストールと構成](/sql/samples/adventureworks-install-configure)」を参照してください。
 - 同じローカル コンピューターに SQL Server として[オンプレミス データ ゲートウェイをインストール](service-gateway-install.md)します (実稼働環境では、通常は別のコンピューターにインストールします)。
 
 > [!NOTE]
@@ -45,32 +45,32 @@ ms.locfileid: "67468146"
 
 AdventureWorksDW サンプル データベースを使用して基本的な Power BI レポートを作成するには、次の手順を行います。 レポートを Power BI に発行します。これにより、Power BI のデータセットを取得し、以降の手順で構成および更新することができます。
 
-1. Power BI Desktop の **[ホーム]** タブで、**[データの取得]** \> **[SQL Server]** の順に選択します。
+1. Power BI Desktop の **[ホーム]** タブで、 **[データの取得]** \> **[SQL Server]** の順に選択します。
 
-2. **[SQL Server データベース]** ダイアログ ボックスで、**[サーバー]** と **[データベース (省略可能)]** の名前を入力し、**[データ接続モード]** が **[インポート]** であることを確認して、**[OK]** を選択します。
+2. **[SQL Server データベース]** ダイアログ ボックスで、 **[サーバー]** と **[データベース (省略可能)]** の名前を入力し、 **[データ接続モード]** が **[インポート]** であることを確認して、 **[OK]** を選択します。
 
     ![SQL Server データベース](./media/service-gateway-sql-tutorial/sql-server-database.png)
 
-3. **資格情報**を確認し、**[接続]** を選択します。
+3. **資格情報**を確認し、 **[接続]** を選択します。
 
     > [!NOTE]
     > 認証できない場合は、必ず適切な認証方法を選択してデータベースへのアクセスを持つアカウントを使用するようにします。 テスト環境では、明示的なユーザー名とパスワードを指定してデータベース認証を使用することができます。 運用環境では、通常 Windows 認証を使用します。 「[更新に関するトラブルシューティング シナリオ](refresh-troubleshooting-refresh-scenarios.md)」を参照し、追加の支援についてデータベース管理者に問い合わせてください。
 
-1. **[暗号化のサポート]** ダイアログ ボックスが表示されたら、**[OK]** を選択します。
+1. **[暗号化のサポート]** ダイアログ ボックスが表示されたら、 **[OK]** を選択します。
 
-2. **[ナビゲーター]** ダイアログ ボックスで **[DimProduct]** テーブルを選択し、**[読み込む]** を選択します。
+2. **[ナビゲーター]** ダイアログ ボックスで **[DimProduct]** テーブルを選択し、 **[読み込む]** を選択します。
 
     ![データ ソース ナビゲーター](./media/service-gateway-sql-tutorial/data-source-navigator.png)
 
-3. Power BI Desktop の **[レポート]** ビューで、**[視覚化]** ウィンドウから **[積み上げ縦棒グラフ]** を選択します。
+3. Power BI Desktop の **[レポート]** ビューで、 **[視覚化]** ウィンドウから **[積み上げ縦棒グラフ]** を選択します。
 
     ![積み上げ縦棒グラフ](./media/service-gateway-sql-tutorial/stacked-column-chart.png)
 
-4. レポート キャンバスで縦棒グラフを選択した状態で、**[フィールド]** ウィンドウの **[EnglishProductName]** フィールドと **[ListPrice]** フィールドを選択します。
+4. レポート キャンバスで縦棒グラフを選択した状態で、 **[フィールド]** ウィンドウの **[EnglishProductName]** フィールドと **[ListPrice]** フィールドを選択します。
 
     ![[フィールド] ウィンドウ](./media/service-gateway-sql-tutorial/fields-pane.png)
 
-5. **[EndDate]** を **[レポート レベル フィルター]** 上にドラッグし、**[基本フィルター]** の下で **[(空白)]** チェックボックスのみ選択します。
+5. **[EndDate]** を **[レポート レベル フィルター]** 上にドラッグし、 **[基本フィルター]** の下で **[(空白)]** チェックボックスのみ選択します。
 
     ![レポート レベル フィルター](./media/service-gateway-sql-tutorial/report-level-filters.png)
 
@@ -84,7 +84,7 @@ AdventureWorksDW サンプル データベースを使用して基本的な Powe
 
 7. **[ホーム]** タブで **[発行]** \> **[マイ ワークスペース]** \> **[選択]** の順に選択します。 Power BI サービスにサインインするように求められたら、サインインします。
 
-8. **[成功]** 画面で、**[Power BI で 'AdventureWorksProducts.pbix' を開く]** を選択します。
+8. **[成功]** 画面で、 **[Power BI で 'AdventureWorksProducts.pbix' を開く]** を選択します。
 
     [Power BI へ発行](./media/service-gateway-sql-tutorial/publish-to-power-bi.png)
 
@@ -92,7 +92,7 @@ AdventureWorksDW サンプル データベースを使用して基本的な Powe
 
 Power BI Desktop では、オンプレミス SQL Server データベースに直接接続しましたが、Power BI サービスにはクラウドとオンプレミス ネットワーク間のブリッジとして機能するゲートウェイが必要です。 次の手順を行って、オンプレミス SQL Server データベースをデータ ソースとしてゲートウェイに追加し、データセットをこのデータ ソースに接続します。
 
-1. Power BI にサインインします。 右上隅の設定歯車アイコンを選択して、**[設定]** を選択します。
+1. Power BI にサインインします。 右上隅の設定歯車アイコンを選択して、 **[設定]** を選択します。
 
     ![Power BI の設定](./media/service-gateway-sql-tutorial/power-bi-settings.png)
 
@@ -102,14 +102,14 @@ Power BI Desktop では、オンプレミス SQL Server データベースに直
 
     ![ゲートウェイの接続](./media/service-gateway-sql-tutorial/gateway-connection.png)
 
-4. **[アクション]** の下で、トグル ボタンを展開してデータ ソースを表示し、**[ゲートウェイに追加]** リンクを選択します。
+4. **[アクション]** の下で、トグル ボタンを展開してデータ ソースを表示し、 **[ゲートウェイに追加]** リンクを選択します。
 
     ![データ ソースのゲートウェイへの追加](./media/service-gateway-sql-tutorial/add-data-source-gateway.png)
 
     > [!NOTE]
     > ゲートウェイの管理者ではなく、ゲートウェイを自分でインストールしたくない場合は、組織内のゲートウェイの管理者に問い合わせてください。 管理者はデータセットを SQL Server データベースに接続するために必要なデータ ソースの定義を作成することができます。
 
-5. **[ゲートウェイ]** 管理ページの **[データ ソース設定]** タブで以下の情報を入力して確認し、**[追加]** を選択します。
+5. **[ゲートウェイ]** 管理ページの **[データ ソース設定]** タブで以下の情報を入力して確認し、 **[追加]** を選択します。
 
     | オプション | 値 |
     | --- | --- |
@@ -123,7 +123,7 @@ Power BI Desktop では、オンプレミス SQL Server データベースに直
 
     ![データ ソース設定](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
-6. **[データセット]** タブで、**[ゲートウェイ接続]** セクションを再度展開します。 構成したデータ ゲートウェイを選択すると、インストールしたマシン上での実行の **[状態]** が表示されます。**[適用]** を選択します。
+6. **[データセット]** タブで、 **[ゲートウェイ接続]** セクションを再度展開します。 構成したデータ ゲートウェイを選択すると、インストールしたマシン上での実行の **[状態]** が表示されます。 **[適用]** を選択します。
 
     ![ゲートウェイの接続を更新する](./media/service-gateway-sql-tutorial/update-gateway-connection.png)
 
@@ -131,21 +131,21 @@ Power BI Desktop では、オンプレミス SQL Server データベースに直
 
 これで Power BI のデータセットをデータ ゲートウェイ経由でオンプレミスの SQL Server データベースに接続したので、次の手順を行い更新スケジュールを構成します。 スケジュールに基づいてデータセットを更新することで、レポートとダッシュボードに最新のデータが確実に表示されるようにすることができます。
 
-1. 左側のナビゲーション ウィンドウで、**[マイ ワークスペース]** \> **[データセット]** の順に開きます。 **AdventureWorksProducts**データセットの省略記号 (**. . .**) を選択し、**[更新のスケジュール設定]** を選択します。
+1. 左側のナビゲーション ウィンドウで、 **[マイ ワークスペース]** \> **[データセット]** の順に開きます。 **AdventureWorksProducts**データセットの省略記号 ( **. . .** ) を選択し、 **[更新のスケジュール設定]** を選択します。
 
     > [!NOTE]
     > 必ず、同じ名前のレポートの省略記号ではなく、**AdventureWorksProducts** データセットの省略記号を選択してください。 **AdventureWorksProducts** レポートのコンテキスト メニューには **[更新のスケジュール設定]** オプションは含まれていません。
 
 2. **[スケジュールされている更新]** セクションの **[データを最新の状態に保つ]** で、更新を **[オン]** に設定します。
 
-3. 適切な **[更新の頻度]** を選び (この例では **[毎日]**)、**[時刻]** の下で **[別の時間帯を追加]** を選択して、希望の更新時間を指定します (この例では 6:30 AM と PM)。
+3. 適切な **[更新の頻度]** を選び (この例では **[毎日]** )、 **[時刻]** の下で **[別の時間帯を追加]** を選択して、希望の更新時間を指定します (この例では 6:30 AM と PM)。
 
     ![スケジュールされた更新の構成](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
 
     > [!NOTE]
     > データセットが共有された容量上にある場合は 1 日に最大 8 時間の枠を、Power BI Premium 上では 48 時間の枠を構成できます。
 
-4. **[更新失敗に関する通知を電子メールで受信する]** チェックボックスを有効のままにして、**[適用]** を選択します。
+4. **[更新失敗に関する通知を電子メールで受信する]** チェックボックスを有効のままにして、 **[適用]** を選択します。
 
 ## <a name="perform-an-on-demand-refresh"></a>オンデマンド更新を実行する
 
@@ -163,9 +163,9 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 今度は次の手順を行い、更新されたデータがゲートウェイ接続を経由して Power BI のデータセットとレポートに反映されるようにします。
 
-1. Power BI Service の左側のナビゲーション ウィンドウで、**[マイ ワークスペース]** を選択して展開ます。
+1. Power BI Service の左側のナビゲーション ウィンドウで、 **[マイ ワークスペース]** を選択して展開ます。
 
-2. **[データセット]** の下の **[AdventureWorksProducts]** データセットの省略記号 (**. . .**) を選択し、**[今すぐ更新]** を選択します。
+2. **[データセット]** の下の **[AdventureWorksProducts]** データセットの省略記号 ( **. . .** ) を選択し、 **[今すぐ更新]** を選択します。
 
     ![今すぐ更新](./media/service-gateway-sql-tutorial/refresh-now.png)
 
@@ -179,15 +179,15 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 更新履歴で過去の更新サイクルの結果を定期的に確認することをお勧めします。 データベースの資格情報の期限が切れていたかもしれません。または、選択したゲートウェイがスケジュールされた更新の期限のときにオフラインになっていたかもしれません。 次の手順を行い、更新履歴を調べて問題を確認します。
 
-1. Power BI ユーザー インターフェイスの右上隅の設定歯車アイコンを選択して、**[設定]** を選択します。
+1. Power BI ユーザー インターフェイスの右上隅の設定歯車アイコンを選択して、 **[設定]** を選択します。
 
 2. **[データセット]** に切り替えて、**AdventureWorksProducts** などの調べたいデータセットを選択します。
 
-3. **[更新履歴]** リンクを選択して、**[更新履歴]** ダイアログを開きます。
+3. **[更新履歴]** リンクを選択して、 **[更新履歴]** ダイアログを開きます。
 
     ![[更新履歴] リンク](./media/service-gateway-sql-tutorial/refresh-history-link.png)
 
-4. **[スケジュール済み]** タブで、過去にスケジュールされていた更新とオンデマンド更新について、**[開始]** 時刻と **[終了]** 時刻を確認し、**[状態]** が **[完了]** であることを確認します。これは、Power BI で更新が正常に実行されたことを示します。 失敗した更新については、エラー メッセージを表示してエラーの詳細を調べることができます。
+4. **[スケジュール済み]** タブで、過去にスケジュールされていた更新とオンデマンド更新について、 **[開始]** 時刻と **[終了]** 時刻を確認し、 **[状態]** が **[完了]** であることを確認します。これは、Power BI で更新が正常に実行されたことを示します。 失敗した更新については、エラー メッセージを表示してエラーの詳細を調べることができます。
 
     ![更新履歴の詳細](./media/service-gateway-sql-tutorial/refresh-history-details.png)
 
