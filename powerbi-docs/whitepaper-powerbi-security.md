@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9aa80c336fa7918632b71b25f8f57b2798fa52e5
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: dd656f81cb0fdb32f9637f969ef538e263e20053
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418688"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68272004"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI のセキュリティに関するホワイトペーパー
 
@@ -129,7 +129,7 @@ Power BI は、リージョンのデータセンターで Power BI クラスタ�
 
 データが格納されている場所とその使用方法の詳細については、[Microsoft セキュリティ センター](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)を参照してください。 保存時の顧客データの場所に関するコミットメントは、[Microsoft Online Services 規約](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)の**データ処理規約**で指定されています。
 
-## <a name="user-authentication"></a>ユーザーの認証
+## <a name="user-authentication"></a>ユーザー認証
 
 Power BI サービスに対するユーザーの認証は、ユーザーのブラウザーと Power BI サービスまたは Power BI で使用される Azure サービスの間で行われる、一連の要求、応答、リダイレクトで構成されます。 そのシーケンスでは、Power BI でのユーザー認証のプロセスが示されています。 組織のユーザー認証モデル (サインイン モデル) のオプションについて詳しくは、「[Choosing a sign-in model for Office 365 (Office 365 のサインイン モデルの選択)](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)」をご覧ください。
 
@@ -176,9 +176,9 @@ Power BI サービスによるデータの管理方法は、データが **Direc
 
 |  |インポート  |DirectQuery  |ライブ接続  |
 |---------|---------|---------|---------|
-|スキーマ     |     X    |    X     |         |
-|行データ     |    X     |         |         |
-|ビジュアルのデータ キャッシュ     |    X     |     X    |    X     |
+|スキーマ     |     x    |    x     |         |
+|行データ     |    x     |         |         |
+|ビジュアルのデータ キャッシュ     |    x     |     X    |    x     |
 
 DirectQuery と他のクエリの違いによって、Power BI サービスによる保存データの処理方法と、クエリ自体が暗号化されるかどうかが決まります。 以下のセクションでは、保存データと移動中のデータ、および暗号化、場所、データを処理するプロセスについて説明します。
 
@@ -355,8 +355,8 @@ Power BI Mobile は、次の主要な 3 つのモバイル プラットフォー
 
 | **CBA サポート** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (サービスにサインイン) | サポートされている | サポートされている | サポートされていません |
-| **SSRS ADFS** (SSRS サーバーに接続) | サポートされていません | サポートされている | サポートされていません |
+| **Power BI** (サービスにサインイン) | サポートされている | サポートされている | サポートなし |
+| **SSRS ADFS** (SSRS サーバーに接続) | サポートなし | サポート状況 | サポートなし |
 
 Power BI Mobile アプリは、積極的に Power BI サービスと通信します。 利用統計情報はモバイル アプリの利用統計情報や類似のデータの収集に使用され、利用状況とアクティビティを監視するために使用するサービスに転送されます。個人データが利用統計情報とともに送信されることは一切ありません。
 
@@ -382,7 +382,7 @@ Power BI Mobile が使用可能な 3 つのプラットフォームすべてで�
 
 * **Power BI の資格情報とドメインの資格情報:** ユーザーはメール アドレスを使用して Power BI にサインインします。ユーザーがデータ ソースに接続しようとすると、Power BI へのログインに使用したメール アドレスが資格情報として渡されます。 ドメイン接続されたリソース (オンプレミスまたはクラウドベース) の場合、ディレクトリ サービスによって、ログインに使用したメール アドレスが_ユーザー プリンシパル名_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) とマッチングされます。 作業ベースのメール アドレスを使用して Power BI にサインインしている組織の場合 ( _david@contoso.com_ など、作業リソースへのログインに使用するメール アドレスと同じもの)、マッピングはシームレスに行われます。作業ベースのメール アドレスを使用しなかった組織の場合 ( _david@contoso.onmicrosoft.com_ など)、Power BI ログイン資格情報でのオンプレミス リソースへのアクセスを可能にするため、ディレクトリ マッピングを確立する必要があります。
 
-* **SQL Server Analysis Services と Power BI:** Power BI では、オンプレミス SQL Server Analysis Services を使用している組織に対し、Power BI オンプレミス データ ゲートウェイ (これは、前のセクションで説明したとおり、**ゲートウェイ**です) を提供しています。  Power BI オンプレミス データ ゲートウェイは、データ ソースに対してロールレベルのセキュリティ (RLS) を適用できます。 RLS の詳細については、この文書の前半にある「**データ ソースに対するユーザー認証**」を参照してください。 [Power BI Gateway](service-gateway-manage.md)に関する記事で、より詳しい情報を確認することもできます。
+* **SQL Server Analysis Services と Power BI:** Power BI では、オンプレミス SQL Server Analysis Services を使用している組織に対し、Power BI オンプレミス データ ゲートウェイ (これは、前のセクションで説明したとおり、**ゲートウェイ**です) を提供しています。  Power BI オンプレミス データ ゲートウェイは、データ ソースに対してロールレベルのセキュリティ (RLS) を適用できます。 RLS の詳細については、この文書の前半にある「**データ ソースに対するユーザー認証**」を参照してください。 ゲートウェイの詳細については、次を参照してください。 [、オンプレミス データ ゲートウェイ](service-gateway-onprem.md)します。
 
   さらに、組織は**シングル サインオン** (SSO) に Kerberos を使用し、SQL Server、SAP HANA、Teradata などのオンプレミス データ ソースに Power BI からシームレスに接続することができます。 詳細な情報、特定の構成要件については、[**Power BI からオンプレミス データ ソースへの SSO での Kerberos の使用**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)に関する記事を参照してください。
 
@@ -422,7 +422,7 @@ Power BI Mobile が使用可能な 3 つのプラットフォームすべてで�
 
 **オンプレミス データ ゲートウェイと個人用ゲートウェイで使用されるポートは何ですか?接続のために許可する必要があるドメイン名はありますか?**
 
-* この質問に対する詳細な回答は、次のリンクで入手できます: [Power BI Gateway](service-gateway-manage.md)
+* この質問に対する詳細な回答は、次のリンクで入手できます: [ゲートウェイのポート](/data-integration/gateway/service-gateway-communication#ports)
 
 **オンプレミス データ ゲートウェイを使用している場合、回復キーはどのように使用され、どこに格納されるのですか?また、安全な資格情報管理について教えてください。**
 
@@ -438,7 +438,7 @@ Power BI Mobile が使用可能な 3 つのプラットフォームすべてで�
 
   - **AMQP 1.0 – TCP + TLS** :このプロトコルでは、発信のために、ポート 443、5671-5672、9350-9354 を開く必要があります。 このプロトコルは、通信のオーバーヘッドが少なくなるため、推奨されます。
 
-  - **HTTPS – WebSockets over HTTPS + TLS** :このプロトコルは、ポート 443 のみを使用します。 WebSocket は、1 つの HTTP CONNECT メッセージによって開始されます。 一度チャンネルが確立されると、通信は基本的に TCP+TLS となります。 [On-Premises ゲートウェイ](service-gateway-manage.md)に関する記事で説明されているように設定を変更すると、ゲートウェイでこのプロトコルを使用するよう強制することができます。
+  - **HTTPS – WebSockets over HTTPS + TLS** :このプロトコルは、ポート 443 のみを使用します。 WebSocket は、1 つの HTTP CONNECT メッセージによって開始されます。 一度チャンネルが確立されると、通信は基本的に TCP+TLS となります。 説明した設定を変更してこのプロトコルを使用するゲートウェイを強制することができます、[オンプレミス ゲートウェイの記事](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)します。
 
 **Power BI での Azure CDN の役割は何ですか?**
 
@@ -448,14 +448,14 @@ Power BI Mobile が使用可能な 3 つのプラットフォームすべてで�
 
 **カスタム ビジュアルの場合、Microsoft ではカスタム ビジュアル コードのセキュリティまたはプライバシーの評価を、ギャラリーへのアイテムの発行前に行いますか?**
 
-* いいえ。 カスタム ビジュアル コードが信頼に値するかどうかを確認して決定するのは、お客様の責任となります。 カスタム ビジュアルの誤ったコードが Power BI サービスの残りの部分に悪影響を及ぼさないよう、すべてのカスタム ビジュアル コードはサンド ボックス環境で運用されます。
+* No. カスタム ビジュアル コードが信頼に値するかどうかを確認して決定するのは、お客様の責任となります。 カスタム ビジュアルの誤ったコードが Power BI サービスの残りの部分に悪影響を及ぼさないよう、すべてのカスタム ビジュアル コードはサンド ボックス環境で運用されます。
 
 **自社のネットワークの外部に情報を送信する、その他の Power BI ビジュアルはありますか?**
 
 * はい。 Bing 地図と ESRI ビジュアルは、これらのサービスを使用するビジュアルに関して、Power BI サービスの外部にデータを送信します。 Power BI 外部テナント トラフィックに関する詳細な情報については、「[**Power BI と ExpressRoute**](service-admin-power-bi-expressroute.md)」を参照してください。
 
 **テンプレート アプリの場合は Microsoft またはを実行セキュリティ項目をギャラリーに発行する前に、テンプレートのアプリのプライバシー評価でしょうか。**
-* いいえ。 アプリの発行元は、お客様の責任およびテンプレート アプリの発行元を信頼するかどうか確認するときにコンテンツを担当します。 
+* No. アプリの発行元は、お客様の責任およびテンプレート アプリの発行元を信頼するかどうか確認するときにコンテンツを担当します。 
 
 **お客様のネットワーク外の情報を送信できるアプリをテンプレートではありますか。**
 * はい。 発行元のプライバシー ポリシーを確認し、テナントにテンプレート アプリをインストールするかどうかを判断するお客様の責任になります。 さらに、パブリッシャーは、アプリの動作と機能を通知する役割を担います。
@@ -486,10 +486,9 @@ Power BI に関する詳細については、次のリソースを参照して�
 
 - [Power BI 内のグループ](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Power BI Desktop の概要](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI Gateway](service-gateway-manage.md)
 - [Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-manage.md)
+- [On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)
 - [Power BI と ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 国内クラウド](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
