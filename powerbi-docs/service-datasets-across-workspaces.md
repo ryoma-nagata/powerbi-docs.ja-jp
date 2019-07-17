@@ -7,29 +7,29 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 17a8e1c9e0d46a56d6b6ff3e46c0fda6da8ffe12
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816651"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567838"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>ワークスペース全体でデータセットを使用する (プレビュー)
 
-ビジネス インテリジェンスは共同作業です。 "1 つの正しい情報源" になれる標準化されたデータセットを確立することが重要です。 そのような標準化されたデータセットを検出し、再利用することが鍵となります。 組織のデータ モデリングの専門家が最適化されたデータセットを作成し、共有するとき、レポートの作成者はそのようなデータセットから始め、正確なレポートを構築できます。 そうすれば、組織は整合性のあるデータで意思決定できるほか、そのデータ文化が健全になります。
+ビジネス インテリジェンスは共同作業です。 "1 つの正しい情報源" になれる標準化されたデータセットを確立することが重要です。 その後、そのような標準化されたデータセットを検出し、再利用することが鍵となります。 組織のデータ モデリングの専門家が最適化されたデータセットを作成し、共有するとき、レポートの作成者はそのようなデータセットから始め、正確なレポートを構築できます。 そうすれば、組織は整合性のあるデータで意思決定できるほか、そのデータ文化が健全になります。
 
 ![共有データセットを選択する](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI では、データセットの作成者は、他のユーザーがデータセットを見つけられるよう、データセットを簡単に認定または奨励できます。 その後、レポートの作成者は高品質の正式なデータセットを見つけ、Power BI 内のあらゆる場所で使用できます。 データセットの所有者は[ビルド アクセス許可](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)を使用することで、自分のデータにアクセスできるユーザーを制御できます。 テナント管理者には、[ワークスペース全体でデータセットの使用を制御する](service-datasets-admin-across-workspaces.md)ための新しいテナント設定が与えられます。
+Power BI では、データセットの作成者は、他のユーザーがデータセットを見つけられるよう、データセットを "*認定*" または "*昇格*" できます。 そうすることで、レポートの作成者は、どのデータセットが高品質かつ正式であるかを把握し、それらのデータセットを Power BI 内のあらゆる作成場所で使用できます。 データセットの所有者は[ビルド アクセス許可](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)を使用することで、自分のデータにアクセスできるユーザーを制御できます。 テナント管理者には、[ワークスペース全体でデータセットの使用を制御する](service-datasets-admin-across-workspaces.md)ための新しいテナント設定が与えられます。
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>データセット共有と新しいワークスペース エクスペリエンス
 
 さまざまなワークスペースのデータセットに基づいてレポートを構築することと、さまざまなワークスペースにレポートをコピーすることは、[新しいワークスペース エクスペリエンス](service-create-the-new-workspaces.md)と密結合しています。
 
-- サービスでは、新しいワークスペース エクスペリエンスからデータセット カタログを開くとき、データセット カタログには My Workspace と新しいワークスペース エクスペリエンスのワークスペースにあるデータセットが表示されます。 
+- サービスでは、新しいワークスペース エクスペリエンスからデータセット カタログを開くとき、データセット カタログにはマイ ワークスペースと他の新しいワークスペース エクスペリエンスのワークスペースにあるデータセットが表示されます。 
 - 従来のワークスペースからデータセット カタログを開くときは、そのワークスペースのデータセットのみが表示され、他のワークスペースのデータセットは表示されません。
 - デスクトップでは、データセットが新しいエクスペリエンスのワークスペースにある限り、さまざまなワークスペースに Live Connect レポートを発行できます。
 - ワークスペース間でレポートをコピーするとき、コピー先のワークスペースを新しいエクスペリエンスのワークスペースにする必要があります。

@@ -7,21 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 366f80ccb1db2d226a80528da610b15082c44ed6
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 681cd9f65713738e2b842bfa3404511f9e3a98f4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461375"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567352"
 ---
 # <a name="promote-your-dataset-preview"></a>データセットを昇格する (プレビュー)
 
 Power BI レポートの作成者が多様なデータセットにアクセスできるようになったため、企業は作成者を信頼性の高い、高品質のデータセットに誘導する必要があります。 Power BI には、データセットを*推奨する*方法が 2 つあります。
 
-- **昇格**: データセットの所有者は、広範囲の使用が可能になったデータセットを昇格することができます。 昇格により、組織内のデータセットを共同作業するための拡散が可能になります。 この記事では、データセットの昇格について説明します。
+- **昇格**: データセットの所有者は、広範囲の使用が可能になったデータセットを昇格することができます。 書き込みアクセス許可を持つ任意のワークスペース メンバーがデータセットを昇格できます。 だれがデータセットを昇格できるかについての制限はありません。 昇格により、組織内のデータセットを共同作業するための拡散が可能になります。 この記事では、データセットの昇格について説明します。
 - **認定**: 昇格したデータセットの認定を要求することができます。 **データセットの認定**のテナント管理者の設定で定義された選択ユーザーのグループが、認定するデータセットを決定します。 詳細については、「[Certify datasets (Preview)](service-datasets-certify.md)」(データセットを認定する (プレビュー)) を参照してください。
 
 ## <a name="promote-a-dataset"></a>データセットを昇格する

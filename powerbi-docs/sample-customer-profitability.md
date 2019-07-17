@@ -7,15 +7,15 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/20/2019
+ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418794"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791999"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI のお客様の収益性のサンプル:ツアーを開始する
 
@@ -23,17 +23,21 @@ ms.locfileid: "67418794"
 
 ![お客様の収益性のサンプルのダッシュボード](media/sample-customer-profitability/power-bi-dash.png)
 
-このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 [obviEnce](http://www.obvience.com/) による匿名化された実データを使用して作成されています。 データは複数の形式 (コンテンツ パック/コンテンツ アプリ、Power BI Desktop の .pbix ファイル、Excel ブック) で使用できます。 [Power BI 用のサンプル](sample-datasets.md)を参照してください。 
+このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 [obviEnce](http://www.obvience.com/) による匿名化された実データを使用して作成されています。 データは複数の形式 (コンテンツ パック、Power BI Desktop の .pbix ファイル、Excel ブック) で使用できます。 [Power BI 用のサンプル](sample-datasets.md)を参照してください。 
 
-このチュートリアルでは、Power BI サービスと "お客様の収益性のサンプル" コンテンツ パックを使用します。 レポート エクスペリエンスはよく似ているので、Power BI Desktop とサンプルの .pbix ファイルを使用して作業することもできます。 
+このチュートリアルでは、Power BI サービス内のお客様の収益性のサンプル コンテンツ パックを調べます。 Power BI Desktop とサービスのレポート エクスペリエンスは似ているので、Power BI Desktop 内のサンプルの .pbix ファイルを使用して作業することもできます。 
 
-## <a name="prerequisites"></a>前提条件
+Power BI Desktop 内でサンプルを調べるために Power BI ライセンスは不要です。 Power BI Pro ライセンスを持っていない場合は、Power BI サービス内で、マイ ワークスペースにサンプルを保存できます。 
+
+## <a name="get-the-sample"></a>サンプルを入手する
 
 このサンプルを使用するには、事前にサンプルを[コンテンツ パック](#get-the-content-pack-for-this-sample)、[.pbix ファイル](#get-the-pbix-file-for-this-sample)、または [Excel ブック](#get-the-excel-workbook-for-this-sample)としてダウンロードしておく必要があります。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>このサンプルのコンテンツ パックを入手する
 
 1. Power BI サービス (app.powerbi.com) を開いてサインインし、サンプルを保存するワークスペースを開きます。
+
+   Power BI Pro ライセンスを持っていない場合は、マイ ワークスペースにサンプルを保存できます。
 
 2. 左下隅にある **[データを取得]** を選びます。
 
@@ -135,8 +139,8 @@ ms.locfileid: "67418794"
 1. 左側の **[Executive]** スライサーで Andrew の名前を選んで、Andrew のデータのみが表示されるようにレポート ページをフィルター処理します。
 
    * クイック KPI では、Andrew の**収益の状態 (合計年)** に注目します。それは緑色であり、業績が良好であることを意味しています。
-   * **[Revenue % Variance to Budget by Month and Executive]\(月および役員別の予算に対する収益 % 差異\)** グラフには、2 月の落ち込みを除き、Andrew は全体として良好な結果を出していることが示されています。 Andrew の主要な地域は東部で、49 社の顧客と (7 つのうち) 5 つの製品を扱っています。 彼の GM% は、最上位でも最下位でもありません。
-   * **[RevenueTY and Revenue % Var to Budget by Month]\(月別の予算に対する収益年合計と収益 % 差異\)** グラフには、安定した一様の収益利益が示されています。 ところが、地域ツリーマップ内の **[Central]\(中部\)** の四角形をクリックしてフィルター処理すると、Andrew は 3 月にインディアナ州でのみ売上があることがわかります。 これは計画的なものでしょうか、それとも検討する必要があるものでしょうか。
+   * **[月別および役員別の予算に対する収益率差異]** グラフには、2 月の落ち込みを除き、Andrew は良好な結果を出していることが示されています。 彼の主要な地域は東部地域で、49 社の顧客と (7 つのうち) 5 つの製品を扱っています。 彼の GM% は、最上位でも最下位でもありません。
+   * **[RevenueTY and Revenue % Var to Budget by Month]\(月別の予算に対する収益年合計と収益 % 差異\)** グラフには、安定した一様の収益利益が示されています。 ところが、地域ツリーマップ内の **[Central]\(中部\)** の四角形をクリックしてフィルター処理すると、Andrew は 3 月にインディアナ州でのみ売上があることがわかります。 この傾向は意図的なものでしょうか、それとも検討する必要があるものでしょうか。
 
 2. 次は Valery です。 **[Executive]** スライサーで Valery の名前を選んで、Valery のデータのみを表示するようにレポート ページをフィルター処理します。 
 
@@ -205,5 +209,5 @@ ms.locfileid: "67418794"
 ## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
 変更内容を保存しないことを選択できるため、この環境で試してみるのは安全です。 一方、それらを保存した場合は、 **[データを取得]** を選択して、常にこのサンプルの新しいコピーを取得できます。
 
-この記事から、Power BI ダッシュボード、Q&A、レポートから顧客データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータに接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、[Power BI サービスの概要](service-get-started.md)に関するページを参照してください。
+この記事から、Power BI ダッシュボード、Q&A、レポートからサンプル データの分析情報をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータに接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、[Power BI サービスの概要](service-get-started.md)に関するページを参照してください。
 

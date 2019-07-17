@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408354"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791822"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI でのテンプレート アプリの作成に関するヒント
 
@@ -126,6 +126,7 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 
 * アプリの機能をインストーラーが理解しやすいように魅力的なサンプル データを使ってテンプレート アプリを作成します (空のレポートとダッシュボードは承認されていません)。
 テンプレート アプリではサンプル データのみのアプリがサポートされます。静的なアプリのチェック ボックスは必ずオンにしてください。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* 一般に、AppSource での一般的な使用に対しては貴重な機能を持つアプリケーションのみを承認できます。 サンプル データ コンテンツのみを含むアプリケーションにはガイダンスまたは統計値が必要です。
 * データ接続に必要な資格情報とパラメーターが含まれる、検証チームを対象とした指示を用意します。
 * アプリケーションでは、Power BI とご自身の CPP プランにアプリ アイコンを含める必要があります。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * ランディング ページを構成します。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)

@@ -7,15 +7,15 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/20/2019
+ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: eea93888cf3a8ea5c7ca7b6eb9389cbabc79dc9c
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 75fa566b4b60e9f15e1641a49ea3c5ffa95420a9
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418717"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791906"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の IT 支出分析のサンプル:ツアーを開始する
 
@@ -23,17 +23,21 @@ IT 支出分析のサンプル コンテンツ パックには、IT 部門の予
 
 ![IT 支出分析のサンプルのダッシュボード](media/sample-it-spend/it1.png)
 
-このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 [obviEnce](http://www.obvience.com/) による匿名化された実データを使用して作成されています。 データは複数の形式 (コンテンツ パック/コンテンツ アプリ、Power BI Desktop の .pbix ファイル、Excel ブック) で使用できます。 [Power BI 用のサンプル](sample-datasets.md)を参照してください。 
+このサンプルは、ビジネス用のデータ、レポート、ダッシュボードを用いて Power BI を使う方法について説明するシリーズの一部です。 [obviEnce](http://www.obvience.com/) による匿名化された実データを使用して作成されています。 データは複数の形式 (コンテンツ パック、Power BI Desktop の .pbix ファイル、Excel ブック) で使用できます。 [Power BI 用のサンプル](sample-datasets.md)を参照してください。 
 
-このチュートリアルでは、Power BI サービスと IT 支出分析のサンプル コンテンツ パックを使用します。 レポート エクスペリエンスはよく似ているので、Power BI Desktop とサンプルの .pbix ファイルを使用して作業することもできます。
+このチュートリアルでは、Power BI サービス内の IT 支出分析のサンプル コンテンツ パックを調べます。 Power BI Desktop とサービスのレポート エクスペリエンスは似ているので、Power BI Desktop 内のサンプルの .pbix ファイルを使用して作業することもできます。 
 
-## <a name="prerequisites"></a>前提条件
+Power BI Desktop 内でサンプルを調べるために Power BI ライセンスは不要です。 Power BI Pro ライセンスを持っていない場合は、Power BI サービス内で、マイ ワークスペースにサンプルを保存できます。 
+
+## <a name="get-the-sample"></a>サンプルを入手する
 
  このサンプルを使用するには、事前にサンプルを[コンテンツ パック](#get-the-content-pack-for-this-sample)、[.pbix ファイル](#get-the-pbix-file-for-this-sample)、または [Excel ブック](#get-the-excel-workbook-for-this-sample)としてダウンロードしておく必要があります。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>このサンプルのコンテンツ パックを入手する
 
 1. Power BI サービス (app.powerbi.com) を開いてサインインし、サンプルを保存するワークスペースを開きます。
+
+   Power BI Pro ライセンスを持っていない場合は、マイ ワークスペースにサンプルを保存できます。
 
 2. 左下隅にある **[データを取得]** を選びます。
    
@@ -126,4 +130,4 @@ IT 支出分析のサンプル コンテンツ パックには、IT 部門の予
 ## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
 変更内容を保存しないことを選択できるため、この環境で試してみるのは安全です。 一方、それらを保存した場合は、 **[データを取得]** を選択して、常にこのサンプルの新しいコピーを取得できます。
 
-この記事から、Power BI ダッシュボード、Q & A、レポートから IT 支出データへの洞察をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータに接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、[Power BI サービスの概要](service-get-started.md)に関するページを参照してください。
+この記事から、Power BI ダッシュボード、Q&A、レポートからサンプル データの分析情報をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータに接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、[Power BI サービスの概要](service-get-started.md)に関するページを参照してください。

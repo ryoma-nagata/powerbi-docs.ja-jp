@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2d1e9e32fcec67647bb75ac14ed872e6c51fef96
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cf384d8c346ddc3292699189bfe59f124e283f32
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65101810"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596496"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -25,17 +25,17 @@ Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統
 
 ## <a name="enable-access"></a>アクセスを有効にする
 
-有効にすることを確認、[外部ユーザーとコンテンツの共有](service-admin-portal.md#export-and-sharing-settings)ゲスト ユーザーを招待する前に、Power BI 管理ポータルで機能します。
+ゲスト ユーザーを招待する前に、Power BI 管理ポータル内で [[外部ユーザーとコンテンツを共有する]](service-admin-portal.md#export-and-sharing-settings) 機能を有効にします。
 
-使用することも、[編集および管理する外部ゲスト ユーザーの組織のコンテンツを許可する](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)機能します。 できます、ゲスト ユーザーを参照してくださいし、組織の Power BI の参照を含むワークスペースのコンテンツの作成を選びます。
+[[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 機能を使用することもできます。 これにより、組織の Power BI の参照など、ワークスペース内のコンテンツを参照および作成できるゲスト ユーザーを選択できます。
 
 ## <a name="who-can-you-invite"></a>招待できるユーザー
 
-Gmail.com、outlook.com、hotmail.com などの個人のアカウントを含む、任意の電子メール アドレスを持つゲスト ユーザーを招待することができます。 Azure AD B2B は、これらのアドレスを呼び出す*ソーシャル id*します。
+gmail.com、outlook.com、hotmail.com などの個人アカウントも含めて、任意のメール アドレスを使用するゲスト ユーザーを招待できます。 Azure AD B2B では、これらのアドレスは "*ソーシャル ID*" と呼ばれます。
 
 ## <a name="invite-guest-users"></a>ゲスト ユーザーを招待する
 
-ゲスト ユーザーは、最初に、組織に招待する招待のみ必要です。 ユーザーを招待する 2 つの方法はあります。 計画的な招待とアドホック招待します。
+ゲスト ユーザーの招待が必要なのは、初めて自分の組織に招待するときだけです。 ユーザーを招待する方法には、計画的な招待とアドホック招待の 2 種類があります。
 
 ### <a name="planned-invites"></a>計画的な招待
 
@@ -45,13 +45,13 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 1. [Azure portal](https://portal.azure.com) で、 **[Azure Active Directory]** を選択します。
 
-1. **管理**、**ユーザー** > **すべてのユーザー** > **新しいゲスト ユーザー**します。
+1. **[管理]** で、 **[ユーザー]**  >  **[すべてのユーザー]**  >  **[新しいゲスト ユーザー]** を選択します。
 
-    ![新しいゲスト ユーザー オプションを使用して、Azure portal のスクリーン ショットは、と呼ばれます。](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
+    ![[新しいゲスト ユーザー] オプションが強調された Azure portal のスクリーン ショット。](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
 
 1. **メール アドレス**と**個人的なメッセージ**を入力します。
 
-    ![Azure AD ポータル新しいゲスト ユーザー ダイアログのスクリーン ショット。](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
+    ![Azure AD Portal の [新しいゲスト ユーザー] ダイアログのスクリーン ショット。](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
 1. **[招待]** を選びます。
 
@@ -59,84 +59,84 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 ゲスト ユーザーは、受信した招待メール内で **[開始]** を選択する必要があります。 その操作により、ゲスト ユーザーはテナントに追加されます。
 
-![スクリーン ショットのゲスト ユーザーの電子メールの招待します。](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
+![ゲスト ユーザー宛ての招待メールのスクリーンショット。](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
 ### <a name="ad-hoc-invites"></a>アドホック招待
 
-いつでも、外部ユーザーを招待するには、ダッシュ ボードまたはレポート、共有 UI を使用すること、またはアクセス ページを使ってアプリを追加します。 アプリを使うよう外部ユーザーを招待するときに行うことの例を次に示します。
+任意の時点で外部ユーザーを招待するには、共有 UI を使ってダッシュボードやレポートに、またはアクセス ページを使ってアプリに、それらの外部ユーザーを追加します。 アプリを使うよう外部ユーザーを招待するときに行うことの例を次に示します。
 
-![スクリーン ショットの外部ユーザーが Power BI でアプリのアクセス リストに追加します。](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+![Power BI 内のアプリのアクセス リストに追加される外部ユーザーのスクリーンショット。](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
-ゲスト ユーザーは、アプリを共有することを示す電子メールを受け取ります。
+ゲスト ユーザーには、アプリをそのゲスト ユーザーと共有したことを示す電子メールが届きます。
 
-![ゲスト ユーザーと共有するアプリの電子メールのスクリーン ショット](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
+![ゲスト ユーザーと共有されたアプリに関する電子メールのスクリーンショット](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
-ゲスト ユーザーは、自分の所属する組織の電子メール アドレスでサインインする必要があります。 サインインした後に招待を承諾を求めるメッセージが表示されます。 サインイン後、アプリは、ゲスト ユーザーが開きます。 アプリに戻るには、リンクをブックマークするか、メールを保存します。
+ゲスト ユーザーは、自分の所属する組織の電子メール アドレスでサインインする必要があります。 サインイン後、招待を受け入れるよう求められます。 サインイン後、アプリがゲスト ユーザーに対して開かれます。 アプリに戻るには、リンクをブックマークするか、メールを保存します。
 
 ## <a name="licensing"></a>ライセンス
 
-ゲスト ユーザーは、共有するコンテンツを表示するための適切なライセンスが必要です。 ユーザーが適切なライセンスを持つかどうかを確認する次の 3 つの方法があります。 Power BI Premium を使用して、Power BI Pro のライセンスを割り当てる、またはゲストの Power BI Pro ライセンスを使用します。
+ゲスト ユーザーは、共有されているコンテンツを表示するために、適切なライセンスが必要になります。 ユーザーが適切なライセンスを持っていることを確認するには、Power BI Premium の使用、Power BI Pro ライセンスの割り当て、ゲストの Power BI Pro ライセンスの使用の、3 つの方法があります。
 
 [[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 機能を使用する場合、ワークスペースにコンテンツを投稿したり他のユーザーとコンテンツを共有したりするゲスト ユーザーには、Power BI Pro ライセンスが必要になります。
 
 ### <a name="use-power-bi-premium"></a>Power BI Premium を使用する
 
-アプリ ワークスペースを割り当てる[Power BI Premium 容量](service-premium-what-is.md)ゲスト ユーザーが Power BI Pro ライセンスを必要とせず、アプリを使用できます。 Power BI Premium では、高いリフレッシュ レート、専用の容量、大規模なモデル サイズなどの他の機能を活用するアプリこともできます。
+[Power BI Premium 容量](service-premium-what-is.md)にアプリ ワークスペースを割り当てると、ゲスト ユーザーは Power BI Pro ライセンスなしでアプリを使用できるようになります。 Power BI Premium では、高いリフレッシュ レート、専用の容量、大規模なモデル サイズなどの他の機能をアプリで活用することもできます。
 
 ![Power BI Premium でのゲスト ユーザー エクスペリエンスのダイアグラム。](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>ゲスト ユーザーに Power BI Pro ライセンスを割り当てる
 
-テナント内で、ゲスト ユーザーに Power BI Pro ライセンスを割り当てるには、テナントにゲスト ユーザー ビュー コンテンツことができます。
+テナント内で Power BI Pro ライセンスをゲスト ユーザーに割り当てると、そのゲスト ユーザーはテナント内のコンテンツを表示できるようになります。
 
-![テナントから Pro を割り当てるライセンスを持つゲスト ユーザー エクスペリエンスのダイアグラム。](media/service-admin-azure-ad-b2b/license-approach-2.png)
+![テナントから Pro ライセンスを割り当てるゲスト ユーザー エクスペリエンスのダイアグラム。](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
 ### <a name="guest-user-brings-their-own-power-bi-pro-license"></a>ゲスト ユーザーが独自の Power BI Pro ライセンスを使用する
 
 ゲスト ユーザーは、そのテナント内で Power BI Pro ライセンスに既に割り当てられています。
 
-![独自のライセンスを持ち込む場合に、ゲスト ユーザー エクスペリエンスのダイアグラム。](media/service-admin-azure-ad-b2b/license-approach-3.png)
+![独自のライセンスを持ち込む場合のゲスト ユーザー エクスペリエンスのダイアグラム。](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
 ## <a name="guest-users-who-can-edit-and-manage-content"></a>コンテンツを編集および管理できるゲスト ユーザー 
 
-使用する場合、[編集および管理する外部ゲスト ユーザーの組織のコンテンツを許可する](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)機能では、指定したゲスト ユーザーが、組織の Power BI へのアクセスを取得します。 アクセス許可がある任意のコンテンツを表示できます。 ホームにアクセス、ワークスペースの [参照]、アプリをインストール、アクセス リストのいる場所を参照してくださいし、できますワークスペースにコンテンツを投稿します。 新しいワークスペース エクスペリエンスを使用するワークスペースを作成したり、その管理者になったりすることができます。 いくつかの制限が適用されます。 考慮事項と制約のセクションでは、これらの制限事項が一覧表示します。
+[[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) を使用すると、指定したゲスト ユーザーが組織の Power BI にアクセスできるようになります。 アクセス許可がある任意のコンテンツを表示できます。 これらのユーザーは、ホームにアクセスしたり、ワークスペースを参照したり、アプリをインストールしたり、自分がアクセス リストのどこに載っているかを確認したり、ワークスペースにコンテンツを投稿することができます。 新しいワークスペース エクスペリエンスを使用するワークスペースを作成したり、その管理者になったりすることができます。 いくつかの制限が適用されます。 「考慮事項と制限事項」のセクションでは、これらの制限事項が一覧表示されています。
  
-これらのユーザーが Power BI にサインインするには、テナント URL を使用してそれらを提供します。 テナントの URL を見つけるには、次の手順に従います。
+これらのユーザーが Power BI にサインインできるよう、テナントの URL を提供します。 テナントの URL を見つけるには、次の手順に従います。
 
 1. Power BI サービスの上部のメニューで、ヘルプ **[?]** を選択して、 **[Power BI について]** を選択します。
 
-2. **[テナントの URL]** の横にある値を見つけます。 値は、テナントの URL をゲスト ユーザーと共有することができます。
+2. **[テナントの URL]** の横にある値を見つけます。 この値は、ゲスト ユーザーと共有できるテナントの URL です。
 
-    ![ゲスト ユーザーのテナント url が呼び出されたスクリーン ショットの Power BI について ダイアログ。](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
+    ![ゲスト ユーザーのテナントの URL が強調された [Power BI について] ダイアログのスクリーンショット。](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
-* 既定では、外部の Azure AD B2B は、コンテンツのみの消費量にゲストを制限します。 アプリ、ダッシュ ボード、レポート、外部の Azure AD の B2B ゲストを表示できるデータをエクスポートし、ダッシュ ボードとレポートの電子メール サブスクリプションを作成します。 ワークスペースにアクセスしたり、独自のコンテンツを公開することはできません。 ただし、これらの制限が経由でアクセスするユーザーをゲストに適用しない、[編集および管理する外部ゲスト ユーザーの組織のコンテンツを許可する](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)機能します。
+* 既定では、外部の Azure AD B2B によってゲストはコンテンツの使用のみに制限されます。 外部の Azure AD B2B ゲストは、アプリ、ダッシュボード、レポートの表示、データのエクスポート、ダッシュボードとレポートの電子メール サブスクリプションの作成ができます。 ワークスペースにアクセスしたり、独自のコンテンツを公開することはできません。 ただし、[[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 機能を通じてアクセス権を獲得するゲスト ユーザーに対しては、これらの制限は適用されません。
 
-* を通じて、ゲスト ユーザーに対して、[編集および管理する外部ゲスト ユーザーの組織のコンテンツを許可する](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)機能をいくつかのエクスペリエンスはそれらを使用できません。 これらのユーザーがレポートを更新または発行するには、[データの取得] などの Power BI サービスの Web UI を使用して、Power BI Desktop ファイルをアップロードする必要があります。  以下のエクスペリエンスはサポートされていません。
+* [[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 機能を通じて有効にされたゲスト ユーザーには、一部のエクスペリエンスが使用可能になりません。 これらのユーザーがレポートを更新または発行するには、[データの取得] などの Power BI サービスの Web UI を使用して、Power BI Desktop ファイルをアップロードする必要があります。  次のエクスペリエンスはサポートされていません。
     * Power BI Desktop から Power BI サービスに直接発行することはできません。
-    * ゲスト ユーザーは Power BI サービスのサービス データセットへの接続に Power BI desktop を使用することはできません。
+    * ゲスト ユーザーは、Power BI Desktop を使用して Power BI サービス内のサービス データセットに接続することができません
     * Office 365 グループに関連付けられた従来のワークスペース:
-        * ゲスト ユーザーを作成またはこれらのワークスペースの管理者にすることはできません。
-        * ゲスト ユーザーはメンバーであることができます。
-    * ワークスペース アクセス リストのアドホック招待を送信することはサポートされていません
-    * ゲスト ユーザーの power BI Publisher for Excel はサポートされていません
-    * ゲスト ユーザーが Power BI Gateway のインストールし、組織に接続することはできません。
-    * ゲスト ユーザーはインストールできないアプリを組織全体に発行
-    * ゲスト ユーザーできませんを使用して、作成、更新、または組織のコンテンツ パックのインストール
-    * ゲスト ユーザーは Excel で分析を使用することはできません。
-    * ゲスト ユーザーがすることはできません@mentionedでコメント
-    * ゲスト ユーザーがサブスクリプションを使用できません。
-    * この機能を使用するゲスト ユーザーには、職場または学校のアカウントが必要です。 ゲスト ユーザーが個人のアカウントを使用するには、制限にサインインするための複数の制限事項が発生します。
+        * ゲスト ユーザーは、これらのワークスペースを作成したり、その管理者になったりすることはできません
+        * ゲスト ユーザーはメンバーであってもかまいません
+    * ワークスペース アクセス リストに対して、アドホック招待の送信はサポートされていません
+    * ゲスト ユーザーに対して、Power BI Publisher for Excel はサポートされていません
+    * ゲスト ユーザーは、Power BI Gateway をインストールして組織に接続することができません
+    * ゲスト ユーザーは、組織全体に発行されるアプリをインストールできません
+    * ゲスト ユーザーは組織のコンテンツ パックを使用、作成、更新、またはインストールできません
+    * ゲスト ユーザーは [Excel で分析] を使用できません
+    * ゲスト ユーザーはコメント時に @mentioned の対象になりません
+    * ゲスト ユーザーはサブスクリプションを使用できません
+    * この機能を使用するゲスト ユーザーには、職場または学校のアカウントが必要です。 個人用アカウントを使用するゲスト ユーザーの場合は、サインインの制限により、さらに多くの制限事項が発生します。
 
-* この機能は現在、Power BI SharePoint Online のレポート web パーツを使用します。
+* 現在、この機能は Power BI SharePoint Online レポート Web パーツでは使用できません。
 
-* 外部ゲスト ユーザーの全体的な組織内で実行できる操作です。 制限できる Active Directory の設定があります。 Power BI 環境も適用されます。 これらの設定については、次のドキュメントで説明されています。
-    * [外部コラボレーションの設定を管理する](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations#control-who-can-invite)
+* Active Directory には、全体的な組織内で外部ゲスト ユーザーが実行できる内容を制限できる設定が存在します。 これは Power BI 環境にも適用されます。 これらの設定については、次のドキュメントで説明されています。
+    * [外部コラボレーションの設定を管理する](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
     * [特定の組織からの B2B ユーザーへの招待を許可またはブロックする](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)  
 
 ## <a name="next-steps"></a>次の手順
 
-詳細については、行レベル セキュリティの機能を含む、ホワイト ペーパーをご覧ください。「[Distribute Power BI content to external guest users using Azure AD B2B (Azure AD B2B を使用して外部ゲスト ユーザーに Power BI のコンテンツを配布する)](https://aka.ms/powerbi-b2b-whitepaper)」をご覧ください。
+行レベル セキュリティのしくみなど、詳細については、ホワイトペーパー「[Distribute Power BI content to external guest users using Azure AD B2B (Azure AD B2B を使用して外部ゲスト ユーザーに Power BI のコンテンツを配布する)](https://aka.ms/powerbi-b2b-whitepaper)」をご覧ください。
 
-Azure AD B2B の詳細については、次を参照してください。 [Azure AD B2B コラボレーションとは何ですか?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)します。
+Azure AD B2B について詳しくは、「[Azure Active Directory B2B コラボレーションとは](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)」をご覧ください。

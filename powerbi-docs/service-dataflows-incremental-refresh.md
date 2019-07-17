@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7e9d8779480eb7a00dacfc9fc52fc81987629e7b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136662"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791929"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Power BI データフローでの増分更新の使用
 
@@ -33,7 +33,7 @@ Power BI のデータフローに対して増分更新を使用するには、�
 
 データ フローには多数のエンティティが含まれることがあります。 増分更新はエンティティ レベルで設定されるので、1 つのデータ フローで、完全に更新されるエンティティと増分更新されるエンティティの両方を保持することができます。
 
-増分更新されるエンティティを設定するには、最初に他のエンティティと同じようにエンティティを構成します。 データ フローの設定の詳細については、次を参照してください。[セルフ サービスのデータ準備の Power BI で](service-dataflows-overview.md)します。
+増分更新されるエンティティを設定するには、最初に他のエンティティと同じようにエンティティを構成します。 データフローの設定について詳しくは、「[Power BI でのセルフサービスのデータ準備](service-dataflows-overview.md)」をご覧ください。
 
 データフローを作成して保存した後、次の図のように、エンティティ ビューで **[増分更新]** アイコンを選択します。
 
@@ -157,7 +157,7 @@ Power BI のデータフローに対して増分更新を使用するには、�
 * [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
 * [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
-* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
+* [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 
 Power Query とスケジュールされた更新について詳しくは、次の記事をご覧ください。
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)

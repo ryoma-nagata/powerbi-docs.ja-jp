@@ -723,10 +723,6 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: タイルのエラーのトラブルシューティング
               href: refresh-troubleshooting-tile-errors.md
-            - name: オンプレミス データ ゲートウェイのトラブルシューティング
-              href: service-gateway-onprem-tshoot.md
-            - name: Power BI Gateway - Personal のトラブルシューティング
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: ”Excel で分析” に関するトラブルシューティング
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'エラー:Excel ブックにデータが見つかりませんでした'
@@ -1279,38 +1275,38 @@
   items:
     - name: 概要
       items:
-        - name: Power BI ゲートウェイとは
-          href: service-gateway-getting-started.md
-    - name: チュートリアル
-      items:
-        - name: SQL Server データへの接続
-          href: service-gateway-sql-tutorial.md
+        - name: オンプレミス データ ゲートウェイとは
+          href: service-gateway-onprem.md
     - name: 概念
       items:
         - name: データ ゲートウェイの展開に関するガイダンス
           href: service-gateway-deployment-guidance.md
         - name: オンプレミス データ ゲートウェイに関してよく寄せられる質問 (FAQ)
-          href: service-gateway-onprem-faq.md
+          href: service-gateway-power-bi-faq.md
     - name: 方法
       items:
-        - name: ゲートウェイのインストール
-          href: service-gateway-install.md
-        - name: ゲートウェイの管理
-          href: service-gateway-manage.md
-        - name: ゲートウェイ パフォーマンスの監視
-          href: service-gateway-performance-monitoring.md
-        - name: エンタープライズ データ ソースの管理 - Analysis Services
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: エンタープライズ データ ソースの管理 - SAP HANA
-          href: service-gateway-enterprise-manage-sap.md
-        - name: エンタープライズ データ ソースの管理 - SQL
-          href: service-gateway-enterprise-manage-sql.md
-        - name: データ ソースの管理 - Oracle
-          href: service-gateway-onprem-manage-oracle.md
-        - name: エンタープライズ データ ソースの管理 - インポート/スケジュールされた更新
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: オンプレミスとクラウド データ ソースの統合
-          href: service-gateway-mashup-on-premises-cloud.md
+        - name: オンプレミス データ ゲートウェイの詳細
+          href: service-gateway-onprem-indepth.md
+        - name: オンプレミス データ ゲートウェイ (個人用モード)
+          href: service-gateway-personal-mode.md
+        - name: ユーザーと管理者を管理する
+          href: service-gateway-manage-admins.md
+        - name: データ ソースを管理する
+          items:
+            - name: データ ソースを管理する
+              href: service-gateway-data-sources.md
+            - name: エンタープライズ データ ソースの管理 - Analysis Services
+              href: service-gateway-enterprise-manage-ssas.md
+            - name: エンタープライズ データ ソースの管理 - SAP HANA
+              href: service-gateway-enterprise-manage-sap.md
+            - name: エンタープライズ データ ソースの管理 - SQL
+              href: service-gateway-enterprise-manage-sql.md
+            - name: データ ソースの管理 - Oracle
+              href: service-gateway-onprem-manage-oracle.md
+            - name: エンタープライズ データ ソースの管理 - インポート/スケジュールされた更新
+              href: service-gateway-enterprise-manage-scheduled-refresh.md
+            - name: オンプレミスとクラウド データ ソースの統合
+              href: service-gateway-mashup-on-premises-cloud.md
         - name: シングル サインオン (SSO) を有効にする
           items:
             - name: シングル サインオン (SSO) - 概要
@@ -1321,24 +1317,16 @@
               href: service-gateway-sso-kerberos-resource.md
             - name: シングル サインオン (SSO) - SAML
               href: service-gateway-sso-saml.md
-        - name: プロキシ設定の構成
-          href: service-gateway-proxy.md
-        - name: オンプレミス データ ゲートウェイの高可用性クラスター
-          href: service-gateway-high-availability-clusters.md
-        - name: オンプレミス データ ゲートウェイ
-          href: service-gateway-onprem.md
-        - name: オンプレミス データ ゲートウェイの詳細
-          href: service-gateway-onprem-indepth.md
-        - name: オンプレミス データ ゲートウェイ (個人用モード)
-          href: service-gateway-personal-mode.md
-        - name: カスタム コネクタ
-          href: service-gateway-custom-connectors.md
-        - name: オンプレミス データ ゲートウェイのトラブルシューティング
+        - name: ゲートウェイをトラブルシューティングする
           href: service-gateway-onprem-tshoot.md
+        - name: ゲートウェイ (個人用モード) をトラブルシューティングする
+          href: service-admin-troubleshooting-power-bi-personal-gateway.md
+        - name: カスタム コネクタを使用する
+          href: service-gateway-custom-connectors.md
     - name: リソース
       items:
         - name: 毎月のゲートウェイ更新プログラム
-          href: service-gateway-monthly-updates.md
+          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
 - name: 管理
   items:
     - name: 概要
