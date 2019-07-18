@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136369"
@@ -25,7 +25,7 @@ ms.locfileid: "61136369"
 
 Power BI では、ばらばらのソースからデータを取りまとめてモデリング用に準備するのに役立つ**データフロー**が導入されています。 アナリストは、使い慣れたセルフサービス ツールを使用して簡単にデータフローを作成できます。 データフローは、データ ソース接続、ETL ロジック、更新スケジュールなどを定義することにより、ビッグ データの取り込み、変換、統合、補強を行うために使用されます。 さらに、データフローの一部である新しいモデル駆動型計算エンジンにより、データ アナリストやレポート作成者にとっても、データの準備が管理しやすくなり、より決定論的になり、面倒でなくなります。 スプレッドシートが影響を受けたすべての数式を再計算するのと同じように、データフローはユーザーに代わってエンティティやデータ要素の変更を管理し、更新を自動化して、基本的なデータ更新であっても面倒で時間がかかっていたロジック チェックを軽減します。 データフローを使用すると、データ科学者が監視する必要のあった (そして、完了するまでに何時間または何日も要した) タスクを、アナリストやレポート作成者が数回クリックするだけで処理できるようになります。 
 
-データは、Azure Data Lake Storage Gen2 の [**Common Data Service**](https://docs.microsoft.com/powerapps/common-data-model/overview) 内にエンティティとして保存されます。 データフローの作成と管理は、Power BI サービスのアプリ ワークスペースで行います。  
+データは、Azure Data Lake Storage Gen2 の [**Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) 内にエンティティとして保存されます。 データフローの作成と管理は、Power BI サービスのアプリ ワークスペースで行います。  
  
 **データフロー** は、**Common Data Model** を使用するように設計されています。Common Data Model は、マイクロソフトによって公開されている、データのビルド、使用、および分析を容易にする目的で作成されているデータ スキーマの標準化されたモジュール型の拡張可能なコレクションです。 このモデルでは、データ ソースから Power BI ダッシュボードを作成する手間がほとんどかかりません。
 

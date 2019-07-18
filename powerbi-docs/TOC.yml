@@ -1289,8 +1289,6 @@
           href: service-gateway-onprem-indepth.md
         - name: オンプレミス データ ゲートウェイ (個人用モード)
           href: service-gateway-personal-mode.md
-        - name: ユーザーと管理者を管理する
-          href: service-gateway-manage-admins.md
         - name: データ ソースを管理する
           items:
             - name: データ ソースを管理する
