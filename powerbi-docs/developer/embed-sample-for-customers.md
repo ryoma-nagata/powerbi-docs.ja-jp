@@ -12,7 +12,7 @@ ms.custom: seodec18
 ms.date: 04/02/2019
 ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710951"
@@ -365,7 +365,7 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 | A5 |16 仮想コア |8 コア、50 GB RAM |8 コア |1 秒あたり 60 |
 | A6 |32 仮想コア |16 コア、100 GB RAM |16 コア |1 秒あたり 120 |
 
-**_A SKU の場合、無料 Power BI ライセンスでは Power BI コンテンツにアクセスできません。_ **
+**_A SKU の場合、無料 Power BI ライセンスでは Power BI コンテンツにアクセスできません。_**
 
 埋め込みトークンと PRO ライセンスを一緒に使用するのは、開発テストのためのものです。そのため、Power BI マスター アカウントまたはサービス プリンシパルで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、専用の容量が必要です。 専用の容量があると、生成できる埋め込みトークンの数に制限がなくなります。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、[使用可能な機能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)に関するページに移動します。 使用量はマスター アカウント別となっています。
 

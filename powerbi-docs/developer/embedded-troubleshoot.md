@@ -110,7 +110,7 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 または AADSTS50053 で認証が失敗しました
 
-** _(AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました)_ **
+** _(AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました)_**
 
 Power BI Embedded を使用、および Azure AD Direct Authentication を利用している場合、次のようなログインに関するメッセージを受信する場合があります: ***error:unauthorized_client,error_description:AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました***。これは、2018 年 6 月 14 日から直接認証が使われていないことが原因です。
 
@@ -162,7 +162,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 許可には管理者権限が必要です
 
-**_症状:_ **<br>
+**_症状:_**<br>
 同意を与えるとき、管理者以外のユーザーがアプリケーションに初めてサインインすると、次のいずれかのエラーが返されます。
 
 * ConsentTest は、管理者のみが付与することができる組織内のリソースへのアクセス許可を必要とします。 アプリケーションを使用するには、まず管理者に依頼してこのアプリにアクセス許可を付与してください。
@@ -172,10 +172,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 管理者ユーザーは正常にサインインし、同意を許可することができます。
 
-**_根本原因:_ **<br>
+**_根本原因:_**<br>
 ユーザーの同意がテナントに対して無効です。
 
-**_いくつかの修正方法が可能です:_ **
+**_いくつかの修正方法が可能です:_**
 
 *テナント全体に対するユーザーの同意を有効にする (すべてのユーザー、すべてのアプリケーション)*
 
