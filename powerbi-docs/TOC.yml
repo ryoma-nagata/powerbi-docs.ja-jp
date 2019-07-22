@@ -55,7 +55,7 @@
           href: desktop-latest-update.md
         - name: Power BI Desktop でのモデルリング ビュー
           href: desktop-modeling-view.md
-        - name: Power BI Desktop での集計 (プレビュー)
+        - name: Power BI Desktop での集計
           href: desktop-aggregations.md
         - name: Power BI Desktop の複合モデル
           href: desktop-composite-models.md
@@ -234,7 +234,7 @@
             - name: フィルターの種類
               href: power-bi-report-filter-types.md
             - name: 新しいフィルター エクスペリエンスを試す
-              href: power-bi-report-filter-preview.md
+              href: power-bi-report-filter.md
             - name: クイック メジャーの使用
               href: desktop-quick-measures.md
             - name: What if パラメーターの使用
@@ -453,6 +453,8 @@
               href: service-support-options.md
             - name: ヘルプを得るための 10 のヒント
               href: service-tips-for-finding-help.md
+            - name: サービス中断の通知
+              href: service-interruption-notifications.md
         - name: Power BI をさらにパワーアップ
           items:
             - name: Microsoft Flow と Power BI
@@ -685,6 +687,8 @@
           items:
             - name: ページ分割されたレポートを表示する
               href: paginated-reports-view-power-bi-service.md
+            - name: サポートされているデータ ソース
+              href: paginated-reports-data-sources.md
             - name: パラメーターと対話する
               href: paginated-reports-view-parameters.md
             - name: 自分や他のユーザーをサブスクライブする
