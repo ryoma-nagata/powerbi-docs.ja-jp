@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
+ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497975"
+ms.lasthandoff: 07/20/2019
+ms.locfileid: "68362726"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>アプリで Premium 容量を監視する
 
@@ -41,7 +41,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 ご使用の Premium 容量メトリック アプリが最後に更新された時刻を確認するには、 **[設定]**  >  **[データセット]**  >  **[Power BI Premium Capacity Metrics app]\(Power BI Premium 容量メトリック アプリ\)**  >  **[更新履歴]** の順にクリックします。 
 
-![[設定] での更新履歴](media/settings-refresh-history.png)
+![[設定] での更新履歴](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
 最終更新日時が表示されます。スケジュールされた更新またはオンデマンドの更新を参照するには **[更新履歴]** をクリックしてください。
 
@@ -237,7 +237,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 | --- | --- |
 | AI Memory Consumption\(AI のメモリ消費量\) | 1 時間のバケットに分割され、UTC 時間で報告されるメモリ消費量 (GB)。 |
 | Hourly AI Function Execution and Average Wait Time\(1 時間ごとの AI 関数の実行と平均待機時間\) | 1 時間のバケットに分割され、UTC 時間で報告される、AI の実行と平均待機時間 (ミリ秒)。 |
-| 全体の使用状況 | 合計数:ワークスペースまたはデータフロー内の AI 関数の数です。 <br> System Reliability\(システムの信頼性\):完了した実行の割合です。<br> 平均待機時間:スケジュールされた時間と実行の開始間の平均ラグ (ミリ秒)。<br> Max Wait Time\(最大待機時間\): 最大待機時間 (ミリ秒)。<br> Avg. Duration\(平均時間\):実行の平均時間 (ミリ秒)。<br> Max Duration\(最大実行時間\): 最も時間のかかった実行時間 (ミリ秒)。<br> Avg Total Size\(平均合計サイズ\):AI 関数用の入出力データの平均サイズ (バイト)。 |
+| 全体の使用状況 | 合計数:ワークスペースまたはデータフロー内の AI 関数の数です。 <br> System Reliability\(システムの信頼性\):完了した実行の割合です。<br> 平均待機時間:スケジュールされた時間と実行の開始間の平均ラグ (ミリ秒)。<br> Max Wait Time\(最大待機時間\): 最大待機時間 (ミリ秒)。<br> 平均Duration\(平均時間\):実行の平均時間 (ミリ秒)。<br> Max Duration\(最大実行時間\): 最も時間のかかった実行時間 (ミリ秒)。<br> Avg Total Size\(平均合計サイズ\):AI 関数用の入出力データの平均サイズ (バイト)。 |
 | | |
 
 ### <a name="resource-consumption"></a>リソース消費量

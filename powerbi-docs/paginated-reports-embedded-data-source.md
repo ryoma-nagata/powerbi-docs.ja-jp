@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: 83e3ffbae43d25e89cf52077acaa731cdee9b502
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345493"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270844"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポート用の埋め込みデータ ソースを作成する
 
@@ -32,7 +32,7 @@ ms.locfileid: "67345493"
 
 - Power BI Premium データセット
 
-ページ分割されたレポートは、[Power BI ゲートウェイ](service-gateway-getting-started.md)を使用してオンプレミスのデータ ソースに接続します。 ゲートウェイの設定は、Power BI サービスにレポートを発行した後で行います。
+ページ分割されたレポートは、[Power BI ゲートウェイ](service-gateway-onprem.md)を使用してオンプレミスのデータ ソースに接続します。 ゲートウェイの設定は、Power BI サービスにレポートを発行した後で行います。
 
 詳細については、「[Report Data in Power BI Report Builder](report-builder-data.md)」 (Power BI レポート ビルダーでのレポート データ) を参照してください。
 

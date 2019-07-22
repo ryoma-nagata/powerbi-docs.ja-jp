@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: eec8f3b74646fa7f783888b95e95c1ed8d922260
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823319"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271027"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -26,7 +26,7 @@ ms.locfileid: "66823319"
 
 [Fiddler](http://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。  クライアント コンピューターから Power BI API によるトラフィックを確認できます。 このツールでは、エラーとその他の関連する情報が表示される場合があります。
 
-![Fiddler のトレース](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+![Fiddler のトレース](media/embedded-troubleshoot/fiddler.png)
 
 ### <a name="f12-in-browser-for-front-end-debugging"></a>フロントエンド デバッグにはブラウザーで F12
 
@@ -110,7 +110,7 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 または AADSTS50053 で認証が失敗しました
 
-** _(AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました)_**
+**_(AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました)_**
 
 Power BI Embedded を使用、および Azure AD Direct Authentication を利用している場合、次のようなログインに関するメッセージを受信する場合があります: ***error:unauthorized_client,error_description:AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました***。これは、2018 年 6 月 14 日から直接認証が使われていないことが原因です。
 

@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385385"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289863"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure の Power BI Embedded の診断ログ
 
@@ -22,7 +22,6 @@ ms.locfileid: "61385385"
 診断を使用することで、次のようないくつかのシナリオに対処できます。
 
 * 実行時間の長いクエリや問題のあるクエリを検出する。
-* 容量の制限に達したときのエラーを検出する。
 * [容量メトリック](https://powerbi.microsoft.com/blog/power-bi-developer-community-april-update/)の派生。
 * 特定のデータセットの使用状況を追跡する。
 
@@ -105,14 +104,14 @@ PowerShell を使用してメトリックと診断ログを有効にするには
 
 |     イベント名     |     イベントの説明     |
 |----------------------------|----------------------------------------------------------------------------------|
-|    Audit Login    |    追跡開始以降のエンジン イベントへの新しい接続を、すべて記録します。    |
-|    Session Initialize    |    追跡開始以降のセッション初期化イベントをすべて記録します。    |
-|    Vertipaq Query Begin    |    追跡開始以降の VertiPaq SE クエリの開始イベントを、すべて記録します。    |
-|    Query Begin    |    追跡開始以降のクエリの開始イベントを、すべて記録します。    |
-|    Query End    |    追跡開始以降のクエリの終了イベントを、すべて記録します。    |
-|    Vertipaq Query End    |    追跡開始以降の VertiPaq SE クエリの終了イベントを、すべて記録します。    |
-|    Audit Logout    |    追跡開始以降のエンジン イベントからの切断を、すべて記録します。    |
-|    Error    |    追跡開始以降のエンジン エラーのイベントを、すべて記録します。    |
+|    監査ログイン    |    追跡開始以降のエンジン イベントへの新しい接続を、すべて記録します。    |
+|    セッションの初期化    |    追跡開始以降のセッション初期化イベントをすべて記録します。    |
+|    Vertipaq クエリの開始    |    追跡開始以降の VertiPaq SE クエリの開始イベントを、すべて記録します。    |
+|    クエリの開始    |    追跡開始以降のクエリの開始イベントを、すべて記録します。    |
+|    クエリの終了    |    追跡開始以降のクエリの終了イベントを、すべて記録します。    |
+|    Vertipaq クエリの終了    |    追跡開始以降の VertiPaq SE クエリの終了イベントを、すべて記録します。    |
+|    監査ログアウト    |    追跡開始以降のエンジン イベントからの切断を、すべて記録します。    |
+|    エラー    |    追跡開始以降のエンジン エラーのイベントを、すべて記録します。    |
 
 <br>
 <br>
@@ -127,18 +126,14 @@ PowerShell を使用してメトリックと診断ログを有効にするには
 | JobID | 0 | 進行状況に対応するジョブ ID です。 |
 | ObjectID | 464 | オブジェクト ID |
 | ObjectType | 802012 | ObjectType |
-| ObjectName | SalesLT Customer | ObjectName |
-| ObjectPath | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527.Model.SalesLT Customer | オブジェクトのパスです。 そのオブジェクトの親から始まる、コンマで区切られた親のリストです。 |
-| ObjectReference | <Object><Table>SalesLT Customer</Table><Model>モデル</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | オブジェクト参照です。 すべての親に対して XML としてエンコードされ、タグを使用してオブジェクトを記述します。 |
 | EndTime | 2018-04-06T18:30:11.9137358Z | イベントが終了した時刻です。 |
-| Duration | 0 | イベントの実行にかかった時間です (ミリ秒)。 |
+| 期間 | 0 | イベントの実行にかかった時間です (ミリ秒)。 |
 | SessionType | ユーザー | セッションの種類です (操作の原因となったエンティティ)。 |
 | ProgressTotal | 0 | 進行状況の合計です。 |
 | IntegerData | 0 | 整数データです。 |
 | Severity | 0 | 例外の重要度レベルです。 |
-| Success | 1 | 1 = 成功。 0 = 失敗 (たとえば、1 は権限チェックの成功を表し、0 は失敗を表します)。 |
-| Error | 0 | 指定されたイベントのエラー番号です。 |
-| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes):850 6800] | イベントに関連付けられたテキスト データです。 |
+| 成功 | 1 | 1 = 成功。 0 = 失敗 (たとえば、1 は権限チェックの成功を表し、0 は失敗を表します)。 |
+| エラー | 0 | 指定されたイベントのエラー番号です。 |
 | ConnectionID | 3 | 一意な接続 ID です。 |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | ユーザーのステートメントが実行されているデータセットの ID です。 |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | セッション GUID です。 |
@@ -146,8 +141,7 @@ PowerShell を使用してメトリックと診断ログを有効にするには
 | ClientProcessID | null | クライアント アプリケーションのプロセス ID です。 |
 | ApplicationName | null | サーバーへの接続を作成したクライアント アプリケーションの名前です。 |
 | CapacityName | pbi641fb41260f84aa2b778a85891ae2d97 | Power BI Embedded 容量のリソースの名前です。 |
-| RequestParameters |  |  |
-| RequestProperties |  |  |
+
 
 ### <a name="allmetrics"></a>AllMetrics
 
