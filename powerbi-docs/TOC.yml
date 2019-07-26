@@ -933,6 +933,8 @@
           href: report-builder-planning-report.md
         - name: レポート ビルダーのデータ
           href: report-builder-data.md
+        - name: Power BI 共有データセットを使用する
+          href: report-builder-shared-datasets.md
         - name: デザインに関するヒント
           href: report-builder-design-tips.md
         - name: テーブル、マトリックス、リスト
