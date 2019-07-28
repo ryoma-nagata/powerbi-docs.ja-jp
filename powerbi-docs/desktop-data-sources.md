@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823543"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324837"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -65,7 +65,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * SQL Server Analysis Services
 * Oracle データベース
 * IBM DB2 データベース
-* IBM Informix データベース (ベータ版)
+* IBM Informix データベース (ベータ)
 * IBM Netezza
 * MySQL データベース
 * PostgreSQL データベース
@@ -114,6 +114,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB (ベータ版)
+* Azure Data Lake Storage Gen2 (ベータ版)
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
@@ -167,6 +168,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Microsoft Graph Security (ベータ)
 * Quick Base
 * TeamDesk (Beta)
+* Dynamics 365 Customer Insights (ベータ版)
 
 次の図は、 **[オンライン サービス]** の **[データの取得]** ウィンドウを示しています。
 

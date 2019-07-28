@@ -1,5 +1,5 @@
 ---
-title: フィルターと Power BI レポートで強調表示
+title: Power BI レポートのフィルターと強調表示
 description: Power BI レポートのフィルターと強調表示について
 author: maggiesMSFT
 manager: kfile
@@ -10,25 +10,25 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8084b8dbbc27c856633d84c6628727dcd426964d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187554"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342160"
 ---
-# <a name="filters-and-highlighting-in-power-bi-reports"></a>フィルターと Power BI レポートで強調表示
- この記事では、フィルター処理と、Power BI サービスで強調表示することについて説明します。 操作は Power BI Desktop の場合とほぼ同じです。 *フィルター処理*を実行すると、絞り込んだデータ以外のすべてのデータが削除されます。 *強調表示*フィルターはありません。 代わりに表示されるデータのサブセットが強調表示されますが、データが削除されません。強調表示されていないデータは、表示が淡色表示に残ります。
+# <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI レポートのフィルターと強調表示
+ この記事では、Power BI サービスでのフィルター処理と強調表示の概要を示します。 操作は Power BI Desktop の場合とほぼ同じです。 *フィルター処理*を実行すると、絞り込んだデータ以外のすべてのデータが削除されます。 "*強調表示*" はフィルター処理ではありません。 データが削除されることはなく、表示されるデータのサブセットが強調表示されます。強調表示対象外のデータは表示されますが、淡色になります。
 
 Power BI ではさまざまな方法でレポートをフィルター処理および強調表示できます。 すべての情報をまとめて説明すると混乱するので、以下のセクションに分けて説明します。
 
-* フィルターと強調表示の概要、記事をご覧になっているようになりました。
-* 方法[作成し、編集ビューでフィルターを使用して](power-bi-report-add-filter.md)で Power BI Desktop と Power BI サービスでのレポート。 レポートの編集アクセス許可がある場合、レポートでフィルターを作成、変更、削除できます。
-* どのビジュアル[をフィルター処理し、共有したレポートで強調表示](consumer/end-user-interactions.md)で、レポートの Power BI サービスでの読み取りビュー。 できることには限りがありますが、それでもさまざまなフィルター処理と強調表示のオプションを使用できます。  
-* 詳細なツアー、[フィルターと編集ビューで使用できるコントロールを強調表示](power-bi-report-add-filter.md)Power BI Desktop と Power BI サービスでします。 記事では、日付と時刻、数値などのフィルターの種類の詳細およびテキストを受け取ります。 基本および詳細なオプションの違いについても説明します。
+* フィルターと強調表示の概要 (この記事)
+* Power BI Desktop と Power BI サービスのレポートの[編集ビューでフィルターを作成し、使用する](power-bi-report-add-filter.md)方法。 レポートの編集アクセス許可がある場合、レポートでフィルターを作成、変更、削除できます。
+* Power BI サービスのレポートの読み取りビューで、ビジュアルを[共有レポートでフィルターしたり、強調表示したりする](consumer/end-user-interactions.md)方法。 できることには限りがありますが、それでもさまざまなフィルター処理と強調表示のオプションを使用できます。  
+* Power BI Desktop と Power BI サービスの[編集ビューで利用できるフィルターと強調表示のコントロール](power-bi-report-add-filter.md)の詳細なツアー。 この記事では、日付と時刻、数値、テキストなどのフィルターの種類について詳しく説明します。 また、基本オプションと詳細オプションの違いについても説明します。
 * フィルターと強調表示の既定の動作を理解した後は、[ページの視覚エフェクトが相互にフィルターおよび強調表示する方法を変更する](service-reports-visual-interactions.md)方法を学習してください
 
-**ご存知でしたか?** Power BI には新しいフィルター エクスペリエンスがあります (現在プレビュー段階)。 詳細については、[Power BI レポートの新しいフィルター エクスペリエンス](power-bi-report-filter-preview.md)に関する記事をご覧ください。
+**ご存知でしたか?** Power BI には新しいフィルター エクスペリエンスがあります (現在プレビュー段階)。 詳細については、[Power BI レポートの新しいフィルター エクスペリエンス](power-bi-report-filter.md)に関する記事をご覧ください。
 
 ![新しいフィルター エクスペリエンス](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 
@@ -67,32 +67,32 @@ Power BI ではさまざまな方法でレポートをフィルター処理お�
 
 各ビジュアルではビジュアル内のすべてのフィールドにフィルターを設定でき、レポート作成者はさらに追加できます。 次の図では、バブル チャートに 6 個のフィルターがあります。
 
-![ビジュアル レベル フィルター](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
+![ビジュアルレベルのフィルター](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
 読み取りビューでは、既存のフィルターを変更することによってデータを調べます。 モバイル アプリでレポートを開く場合でも、加えた変更の内容はレポートと共に保存されます。 方法については、「[レポート フィルター ウィンドウの使用方法](consumer/end-user-report-filter.md)」をご覧ください
 
 レポートの終了時に、フィルターが保存されます。 フィルター処理を取り消し、レポート作成者が設定したフィルター処理、スライス、ドリル、並べ替えに戻すには、一番上のメニュー バーから **[既定値にリセット]** を選択します。
 
-![既定のアイコンにリセットします。](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
+![[既定値にリセット] アイコン](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ### <a name="filters-in-editing-view"></a>編集ビューでのフィルター
 レポートに対する所有者権限を持つユーザーが編集ビューでレポートを開くと、**フィルター**は使用可能な複数の編集ウィンドウの 1 つとして表示されます。
 
-![編集ビューでフィルター ウィンドウ](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-editing-view.png)
+![編集ビューの [フィルター] ウィンドウ](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-editing-view.png)
 
 読み取りビューと同じように、レポートのこのページには、6 個のページ レベル フィルターと 1 個のレポート レベル フィルターがあります。 また、バブル チャートを選択すると、6 個のビジュアル レベル フィルターが適用されていることがわかります。
 
 編集ビューでは、フィルターと強調表示に関してさらに多くのことができます。 まず第一に、新しいフィルターを追加できます。 その方法と他の機能については、「[レポートにフィルターを追加する](power-bi-report-add-filter.md)」をご覧ください。
 
-## <a name="ad-hoc-highlighting"></a>アドホックの強調表示
-ビジュアル、ページ上の他のビジュアルを強調表示するには、値または軸のラベルを選択します。 強調表示を削除するには、値をもう一度選択するか、同じビジュアルの空いている領域を選択します。 楽しいを強調表示がデータの影響をすばやく探索する方法。 この種のクロス強調表示を微調整する場合は、「[Power BI レポートでの視覚化の相互作用](service-reports-visual-interactions.md)」をご覧ください。
+## <a name="ad-hoc-highlighting"></a>アドホック強調表示
+ビジュアル内の値または軸のラベルを選択し、ページ上の他のビジュアルを強調表示します。 強調表示を解除するには、もう一度値を選択するか、同じビジュアル内の空の領域を選択します。 強調表示は、データの変化を簡単に調べられる楽しい方法です。 この種のクロス強調表示を微調整する場合は、「[Power BI レポートでの視覚化の相互作用](service-reports-visual-interactions.md)」をご覧ください。
 
 ![クロス強調表示](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI レポートで、新しいフィルター エクスペリエンス](power-bi-report-filter-preview.md)
+[Power BI レポートの新しいフィルター エクスペリエンス](power-bi-report-filter.md)
 
 [レポートへのフィルターの追加 (編集ビュー)](power-bi-report-add-filter.md)
 

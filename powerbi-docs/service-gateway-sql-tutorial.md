@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
-ms.date: 05/03/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596630"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307393"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>オンプレミス SQL Server データベースからのデータを更新する
 
@@ -36,7 +36,7 @@ ms.locfileid: "67596630"
 - まだお持ちでない場合は、始める前に[無料の Power BI 試用版](https://app.powerbi.com/signupredirect?pbi_source=web)にサインアップしてください。
 - ローカル コンピューターに [Power BI Desktop](https://powerbi.microsoft.com/desktop/) をインストールします。
 - ローカル コンピューターに [SQL Server をインストール](/sql/database-engine/install-windows/install-sql-server)し、[バックアップからサンプル データベース](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)を復元します。 AdventureWorks の詳細については、「[AdventureWorks のインストールと構成](/sql/samples/adventureworks-install-configure)」を参照してください。
-- 同じローカル コンピューターに SQL Server として[オンプレミス データ ゲートウェイをインストール](service-gateway-install.md)します (実稼働環境では、通常は別のコンピューターにインストールします)。
+- 同じローカル コンピューターに SQL Server として[オンプレミス データ ゲートウェイをインストール](service-gateway-onprem.md)します (実稼働環境では、通常は別のコンピューターにインストールします)。
 
 > [!NOTE]
 > ゲートウェイの管理者ではなく、ゲートウェイを自分でインストールしたくない場合は、組織内のゲートウェイの管理者に問い合わせてください。 管理者はデータセットを SQL Server データベースに接続するために必要なデータ ソースの定義を作成することができます。
@@ -202,6 +202,6 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 このチュートリアルでは、オンプレミスの SQL Server データベースからデータを Power BI データセットにインポートする方法と、このデータセットを使用するレポートとダッシュボードが Power BI で更新されるよう、このデータセットをスケジュールおよびオンデマンド ベースで更新する方法について説明してきました。 これで、Power BI でのデータ ゲートウェイとデータ ソースの管理についてさらに詳しく学習することができます。 Power BI でデータ更新の概念に関する記事を参照することもお勧めします。
 
-- [Power BI のオンプレミス ゲートウェイを管理する](service-gateway-manage.md)
+- [オンプレミス データ ゲートウェイの管理](/data-integration/gateway/service-gateway-manage)
 - [データ ソースの管理 - インポート/スケジュールされた更新](service-gateway-enterprise-manage-scheduled-refresh.md)
 - [Power BI でのデータの更新](refresh-data.md)

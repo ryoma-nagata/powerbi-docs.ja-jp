@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop で集計を使用する (プレビュー)
+title: Power BI Desktop で集計を使用する
 description: Power BI Desktop でビッグ データに対して対話型の分析を実行する
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239595"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325202"
 ---
-# <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop での集計 (プレビュー)
+# <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop での集計
 
 Power BI で**集計** を使用すると、以前は不可能だった方法でビッグ データを対話的に分析することが可能になります。 **集計**によって、意思決定のために大規模なデータセットをロック解除するコストを大幅に削減できます。
 
@@ -36,16 +36,6 @@ Power BI で**集計** を使用すると、以前は不可能だった方法で
 集計は、データ ウェアハウスやデータ マート、Hadoop ベースのビッグ データ ソースなど、ディメンション モデルを表すデータ ソースと共に使用されます。 この記事では、Power BI での一般的なモデリングの相違点を、データ ソースの種類ごとに説明します。
 
 Power BI のインポート (非多次元) と DirectQuery のすべてのソースが集計で機能します。
-
-## <a name="enabling-the-aggregations-preview-feature"></a>集計のプレビュー機能を有効にする
-
-**集計**機能はプレビュー段階であり、**Power BI Desktop** で有効にする必要があります。 **集計**を有効にするには、 **[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能]** の順に選択し、 **[複合モデル]** と **[集計の管理]** のチェックボックスをオンにします。 
-
-![プレビュー機能を有効にする](media/desktop-aggregations/aggregations_01.jpg)
-
-この機能を有効にするには、**Power BI Desktop** を再起動する必要があります。
-
-![変更を有効にするには再起動が必要](media/desktop-composite-models/composite-models_03.png)
 
 ## <a name="aggregations-based-on-relationships"></a>リレーションシップに基づく集計
 
@@ -103,8 +93,10 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 
 リレーションシップに依存しない "*ソース間*" の集計のヒットについては、グループ化列に基づく集計に関する以下のセクションをご覧ください。
 
-### <a name="aggregation-table-is-hidden"></a>集計テーブルの非表示
-**Sales Agg** テーブルは非表示です。 集計テーブルは、データセットのコンシューマーからは常に非表示にする必要があります。 コンシューマーとクエリは、集計テーブルではなく、詳細テーブルを参照するため、集計テーブルの存在を知る必要はありません。
+### <a name="aggregation-tables-are-not-addressable"></a>集計テーブルにアドレスを指定することはできません
+データセットへの読み取り専用アクセス権を持つユーザーは、集計テーブルにクエリを実行できません。 これにより、RLS とともに使用する場合のセキュリティの問題が回避されます。 コンシューマーとクエリは、集計テーブルではなく、詳細テーブルを参照するため、集計テーブルの存在を知る必要はありません。
+
+このため、**Sales Agg** テーブルは非表示にする必要があります。 非表示になっていない場合、[すべて適用] をクリックすると、[集計の管理] ダイアログ ボックスが非表示に設定されます。
 
 ### <a name="manage-aggregations-dialog"></a>[集計の管理] ダイアログ
 次に、集計を定義します。 **Sales Agg** テーブルを右クリックして、 **[集計の管理]** コンテキスト メニューを選択します。
@@ -136,11 +128,7 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 * 選択された詳細列には、カウントとテーブル行数のカウントの概要作成関数を除き、集計列と同じデータ型がある必要があります。 カウントとテーブル行数のカウントには、整数の集計列のみが提供されます。一致するデータ型は必要ありません。
 * 3 つ以上のテーブルをカバーするチェーン集計は許可されていません。 たとえば、**テーブル C** を参照する集計を持つ**テーブル B** を参照する**テーブル A** に集計を設定することはできません。
 * 2 つのエントリが同じ概要作成関数を使用し、同じ詳細テーブル/列を参照する重複した集計は許可されません。
-
-**集計**のこのパブリック プレビューの期間中は、次の検証も適用されます。 これらの検証は、一般公開のリリース時に削除される予定です。
-
-* 集計は、行レベル セキュリティ (RLS) では使用できません。 *パブリック プレビューの制限。*
-* 詳細テーブルは、インポートではなく、DirectQuery にする必要があります。 *パブリック プレビューの制限。*
+* 詳細テーブルは、インポートではなく、DirectQuery にする必要があります。
 
 このような検証のほとんどは、次の図のように、ドロップダウンの値を無効にして、ツールヒントの説明テキストを表示することで適用されます。
 
@@ -149,6 +137,9 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 ### <a name="group-by-columns"></a>グループ化列
 
 この例では、3 つの GroupBy エントリは省略可能です。これらは集計動作には影響しません (この後の画像に示されている、DISTINCTCOUNT サンプル クエリを除く)。 これらは主に読みやすくする目的のために含まれています。 これらの GroupBy エントリがなくても、集計はリレーションシップに基づいてヒットされます。 これは、この記事で後述するビッグ データの例で説明する、リレーションシップなしで集計を使用した場合の動作とは異なります。
+
+### <a name="inactive-relationships"></a>非アクティブなリレーションシップ
+非アクティブなリレーションシップによって使用されている外部キー列によるグループ化と、集計ヒットで USERELATIONSHIP 関数に依存することはサポートされていません。
 
 ### <a name="detecting-whether-aggregations-are-hit-or-missed-by-queries"></a>集計がクエリでヒットまたはミスされるかどうかを検出する
 
@@ -191,6 +182,17 @@ AVERAGE 関数は集計を利用できます。 AVERAGE が COUNT で除算さ�
 
 ![クエリの例](media/desktop-aggregations/aggregations-code_07.jpg)
 
+### <a name="rls"></a>RLS
+行レベル セキュリティ (RLS) 式を正常に動作させるには、集計テーブルと詳細テーブルの両方をフィルター処理する必要があります。 例を見ると、**Geography** テーブルの RLS 式が機能します。これは、**Sales** テーブルと **Sales Agg** テーブルの両方に対し、Geography はリレーションシップをフィルタリングする側にあるからです。 集計テーブルでヒットするクエリとヒットしないクエリに RLS が正常に適用されます。
+
+![集計管理ロール](media/desktop-aggregations/manage-roles.jpg)
+
+**Product** テーブルの RLS 式は、**Sales Agg** テーブルをフィルタリングせず、**Sales** テーブルのみをフィルタリングします。 これは推奨されません。 このロールを使用してデータセットにアクセスするユーザーによって送信されたクエリは、集計ヒットの恩恵を受けません。 集計テーブルは詳細テーブルで同じデータを別の方法で表現したものであり、RLS フィルターを適用できないため、集計テーブルからクエリに応答するのは安全ではありません。
+
+**SalesAgg** テーブル自体の RLS 式では、詳細テーブルがフィルタリングされず、集計テーブルだけがフィルタリングされます。 これは許可されていません。
+
+![集計管理ロール](media/desktop-aggregations/filter-agg-error.jpg)
+
 ## <a name="aggregations-based-on-group-by-columns"></a>グループ化列に基づく集計 
 
 Hadoop ベースのビッグ データ モデルには、ディメンション モデルとは異なる特性があります。 大規模なテーブル間の結合を避けるため、多くの場合これらはリレーションシップに依存しません。 代わりに、ディメンション属性がファクト テーブルに非正規化されることがよくあります。 このようなビッグ データ モデルは、グループ化列に基づく**集計**を使用して、対話型の分析のためにロックを解除することができます。
@@ -225,6 +227,10 @@ Hadoop ベースのビッグ データ モデルには、ディメンション �
 
 ![[フィルター] ダイアログ](media/desktop-aggregations/aggregations_12.jpg)
 
+### <a name="rls"></a>RLS
+
+RLS 式で集計テーブル、詳細テーブル、または両方をフィルタリングできるかどうかに関する、リレーションシップに基づく集計のための上述の同じ RLS ルールは、group by 列に基づく集計にも適用されます。 この例では、集計テーブルのすべての group by 列が詳細テーブルで網羅されているため、**Driver Activity** テーブルに適用されている RLS 式を利用し、**Driver Activity Agg** テーブルをフィルタリングできます。 一方、**Driver Activity Agg** テーブルの RLS フィルターは、**Driver Activity** テーブルに適用できず、許可されません。
+
 ## <a name="aggregation-precedence"></a>集計の優先順位
 
 集計の優先順位により、1 つのサブクエリで複数の集計テーブルを対象にすることができます。
@@ -232,8 +238,11 @@ Hadoop ベースのビッグ データ モデルには、ディメンション �
 次の例を考えてみましょう。 これは、複数の DirectQuery ソースが含まれている[複合モデル](desktop-composite-models.md)です。
 
 * **Driver Activity Agg2** インポート テーブルは、group-by 属性が少なくカーディナリティが低いため、粒度が高くなっています。 行数は、メモリ内キャッシュに余裕で収まるように、数千程度に抑えることができます。 これらの属性は、幹部のダッシュボードで使用されることがあるため、それらを参照するクエリはできるだけ高速にする必要があります。
-* **Driver Activity Agg** テーブルは、DirectQuery モードの中間の集計テーブルです。 これには 10 億を超える行が含まれており、列ストア インデックスを使用してソースで最適化されています。
+* **Driver Activity Agg** テーブルは、DirectQuery モードの中間の集計テーブルです。 Azure SQL DW の 10 億を超える行を含み、列ストア インデックスを使用してソースで最適化されます。
 * **Driver Activity** テーブルは DirectQuery で、ビッグ データ システムをソースとする IoT データの数兆を超える行が含まれています。 これは、制御されたフィルター コンテキストで IoT の個別の読み取りを表示するドリルスルー クエリを提供します。
+
+> [!NOTE]
+> 詳細テーブルと異なるデータ ソースを使用する DirectQuery 集計テーブルは、集計テーブルが SQL Server、Azure SQL または Azure SQL DW ソースからのものである場合にのみサポートされます。
 
 このモデルのメモリ占有領域は比較的小さいものの、大きなデータセットのロックを解除します。 これはクエリの負荷を、それを使用するアーキテクチャのコンポーネントの長所に基づいて分散するため、分散アーキテクチャを表します。
 
@@ -261,8 +270,6 @@ Hadoop ベースのビッグ データ モデルには、ディメンション �
 
 ![Sales Agg 集計テーブル](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> 注:このモデルでは、**Date** テーブルが詳細テーブルのため、[管理の集計] ダイアログを入力するためには、このテーブルが DirectQuery モードである必要があります。 これは、プレビューの制限で、一般公開では削除される予定です。
-
 ### <a name="query-examples"></a>クエリ例
 
 次のクエリでは、CalendarMonth が集計テーブルでカバーされ、CategoryName は一対多のリレーションシップを使用してアクセスできるため、集計がヒットします。 **SalesAmount** には、Sum 集計が使用されています。
@@ -285,9 +292,9 @@ DirectQuery とインポートおよびデュアルのいずれかまたは両�
 
 以下の記事では、複合モデルと DirectQuery について詳しく説明しています。
 
-* [Power BI Desktop の複合モデル (プレビュー)](desktop-composite-models.md)
-* [Power BI Desktop (プレビュー) での多対多のリレーションシップ](desktop-many-to-many-relationships.md)
-* [Power BI Desktop のストレージ モード (プレビュー)](desktop-storage-mode.md)
+* [Power BI Desktop の複合モデル](desktop-composite-models.md)
+* [Power BI Desktop での多対多カーディナリティのリレーションシップ](desktop-many-to-many-relationships.md)
+* [Power BI Desktop のストレージ モード](desktop-storage-mode.md)
 
 DirectQuery に関する記事:
 

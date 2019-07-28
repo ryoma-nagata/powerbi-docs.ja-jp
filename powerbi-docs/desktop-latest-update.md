@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 07/15/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8833f9f4cc4bea23d2070ce19fe34f9400d6bac4
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 33b14b8e89a1ba4433896634b7f48a1fcfb6f80e
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823244"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324590"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Power BI Desktop の最新の更新プログラムの新機能 
 
-## <a name="june-2019-update-2705494561"></a>2019 年 6 月更新 (2.70.5494.561)
+## <a name="july-2019-update-2715523641"></a>2019 年 7 月更新プログラム (2.71.5523.641)
 
-6 月の更新プログラムでは、Power BI Desktop のさわやかな明るい新しい配色パターンと、他の改善のホストにより、レポートに太陽の光と青空が広がります。 
+7 月の更新プログラムには、ご利用の Power BI Desktop 用の多彩な新機能が一気に盛り込まれています。 
 
 [最新バージョンの Power BI Desktop をダウンロード](https://powerbi.microsoft.com/desktop)できるようになりました。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 バージョン番号が異なる場合でも、月次バージョン番号は **Power BI Desktop** のインストール方法に関係なく同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
 
@@ -37,54 +37,41 @@ ms.locfileid: "66823244"
 以下の更新は、今月の **Power BI Desktop** の新しい機能です。
 
 ### <a name="reporting"></a>レポート
-* 更新されたウィンドウのデザイン [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=8)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
-* スライサーのビジュアル レベル フィルター [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=116)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#slicerFilters)
-* パフォーマンス アナライザー ウィンドウの並べ替え [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=237)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#perfAnalyzer)
-* 書式設定オプションの条件付き書式の更新 [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=311)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#conditionalFormatting)
-* ビジュアル ヘッダー ツールヒント [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=530)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#headerTooltips)
-* テーブルとマトリックスの合計ラベルのカスタマイズ [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=722)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#totalLabels)
-* 階層スライサーのスライサー同期のサポート [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=859)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#syncSlicer)
-* ビジュアル間で一貫性のあるフォント サイズ [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=962)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#fontSizes)
+* テーブルとマトリックスのアイコン セット [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=11) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
+* ルールによる条件付き書式設定のサポート率  [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=445)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#percentRules)
+* 新しいフィルター ウィンドウが一般公開されました [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=543)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#filterPane)
+* 散布図上で再生軸を使用する場合のデータ色のサポート [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=610)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#playAxis)
+* 相対日付とドロップダウン スライサーを使用した場合のパフォーマンスの向上 [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=669)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#slicers)
 
 
 ### <a name="analytics"></a>分析
-* 主要なインフルエンサーのビジュアルの更新 (プレビュー) [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1064)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#keyInfluencers) 
-    * Power BI データセットにライブ接続する主要インフルエンサー
-    * 主要インフルエンサーのアクセシビリティ
-    * クラウド RLS のサポート
-* 集計ダイアログのアクセシビリティの管理 [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1213)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
-
-### <a name="modeling"></a>モデリング
-* 新しい == DAX 比較演算子 [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1267)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
+* 主要なインフルエンサーのビジュアルのカウント (プレビュー) [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=760) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#keyInfluencers) 
+* 集計の機能強化 [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=870)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#aggregations) 
 
 
 ### <a name="visuals"></a>ビジュアル
-* 個人設定された視覚化ウィンドウ (プレビュー) [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1349)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
-* 3 つの新しいカスタム ビジュアルと更新 [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+* PowerApps ビジュアルが認定されました  [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=894)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
+* 3 つの新しいカスタム ビジュアルと更新 [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=932)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
 
 
 ### <a name="data-connectivity"></a>データ接続
-* 共有データセットと認定済みデータセットへの接続 [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1739)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#sharedCertifiedDatasets) 
-* 一般提供されるようになった Common Data Service コネクタ [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1807)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cds) 
-* 一般提供されるようになった Azure Data Explorer コネクタ [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1823)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#azureDataExplorer) 
-* Cosmos DB コネクタの機能強化 [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1835)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cosmosDB)
-* Entersoft データ コネクタ [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1851)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#entersoft) 
+* Azure Data Lake Storage Gen2 コネクタ (ベータ) [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=1203)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#azureDataLake) 
+* Dynamics 365 Customer Insights コネクタ  [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=1250)   [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#customerInsights) 
 
 
 ### <a name="data-preparation"></a>データ準備
-* M Intellisense の改善 [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1866)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#intellisense) 
+* 新しい変換: 位置による列の分割 [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=1321)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#splitColumn) 
 
 
 > [!NOTE]
 > [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
 
-これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
 
 
 次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7k-nP38uHyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l7OMRUF9UYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。

@@ -7,32 +7,40 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7b863af882604be8c2c59fd21f26cd8441f9e170
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
+ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54272653"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68352181"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>オンプレミスとクラウド データ ソースのマージまたはアペンド
 
-オンプレミス データ ゲートウェイを使用すると、オンプレミスとクラウドのデータ ソースを同じクエリでマージまたはアペンドできます。 これは、別個のクエリを使用せず、複数のソースからのデータをマッシュアップするときに便利です。
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
+
+オンプレミス データ ゲートウェイを使用すると、オンプレミスとクラウドのデータ ソースを同じクエリでマージまたはアペンドできます。 これは、個別のクエリを使用せず、複数のソースからデータを結合するときに便利です。
+
+>[!NOTE]
+>この記事は、クラウドとオンプレミスのデータ ソースが 1 つのクエリにマージまたはアペンドされているデータセットにのみ適用されます。 個別のクエリを含む (1 つはオンプレミスに接続し、もう一方はクラウド データ ソースに接続する) データセットの場合、クラウド データ ソースを使用するクエリがゲートウェイを使用して実行されることはありません。
 
 ## <a name="prerequisites"></a>前提条件
 
-- ローカル コンピューターに[ゲートウェイがインストールされている](service-gateway-install.md)こと。
+- ローカル コンピューターに[ゲートウェイがインストールされている](/data-integration/gateway/service-gateway-install)こと。
 - オンプレミスとクラウドのデータ ソースを結合するクエリを含む Power BI Desktop ファイル。
 
-1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **[ゲートウェイの管理]** の順に選択します。
+>[!NOTE]
+>クラウド データ ソースにアクセスするには、確実にゲートウェイがそれらのデータ ソースにアクセスできるようにする必要があります。
+
+1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) >  **[ゲートウェイの管理]** の順に選択します。
 
     ![ゲートウェイの管理](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
 
 2. 構成するゲートウェイを選択します。
 
-3. **[ゲートウェイ クラスターの設定]** で **[Allow user's cloud data sources to refresh through this gateway cluster]\(このゲートウェイ クラスターでユーザーのクラウド データ ソースを更新することを許可します\)** > **[適用]** の順に選択します。
+3. **[ゲートウェイ クラスターの設定]** で **[Allow user's cloud data sources to refresh through this gateway cluster]\(このゲートウェイ クラスターでユーザーのクラウド データ ソースを更新することを許可します\)**  >  **[適用]** の順に選択します。
 
     ![このゲートウェイ クラスターで更新する](media/service-gateway-mashup-on-premises-cloud/refresh-gateway-cluster.png)
 
@@ -46,10 +54,11 @@ ms.locfileid: "54272653"
 
    - **[データ ソースの資格情報]** の下で、必要に応じてクラウド データ ソースの資格情報を編集します。
 
+    クラウドとオンプレミスの両方のデータ ソースのプライバシー レベルが適切に設定されていることを確認し、結合が安全に処理されるように確保してください。
+
      ![データセットの設定](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-7. クラウドの資格情報が設定されたので、**[今すぐ更新]** オプションを利用してデータセットを更新できるようになりました。あるいは、定期的に更新するようにスケジュールを設定できます。
-
+7. クラウドの資格情報が設定されたので、 **[今すぐ更新]** オプションを利用してデータセットを更新できるようになりました。あるいは、定期的に更新するようにスケジュールを設定できます。
 
 ## <a name="next-steps"></a>次の手順
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61348878"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324788"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 **Power BI Desktop** を利用すれば、データ ソースに接続するとき、常にデータのコピーを **Power BI Desktop** にインポートできます。 データ ソースによっては、代替手法を利用できます。**DirectQuery** でデータ ソースに直接接続する方法です。
@@ -50,12 +50,10 @@ ms.locfileid: "61348878"
 
 * [複合モデル](desktop-composite-models.md)を使用しない限り、すべてのテーブルを必ず 1 つのデータベースから取得する必要があります。
 * **クエリ エディター**のクエリが複雑すぎるとエラーが発生します。 エラーを解決するには、問題となるステップを**クエリ エディター**で削除するか、**DirectQuery** を使用する代わりにデータを*インポート*する必要があります。 SAP Business Warehouse のように多次元ソースの場合、**クエリ エディター**はありません。
-* リレーションシップ フィルタリングは、双方向ではなく、一方向に制限されます (ただし、プレビュー機能に含まれる **DirectQuery** では、両方向でクロス フィルタリングを使用できる可能性があります)。 SAP Business Warehouse のように多次元ソースの場合、モデルに定義されているリレーションシップがありません。
+* リレーションシップ フィルタリングは、双方向ではなく、一方向に制限されます (ただし、**DirectQuery** では、両方向でクロス フィルタリングを有効にすることができます)。 SAP Business Warehouse のように多次元ソースの場合、モデルに定義されているリレーションシップがありません。
 * タイム インテリジェンス機能は **DirectQuery** では利用できません。 たとえば、データ列 (年度、四半期、月、日など) の特殊な処理は **DirectQuery** モードではサポートされていません。
-* 既定では、メジャーで許可される DAX 式に制約があります。詳しくは、次の段落 (この箇条書きリストの後) をご覧ください。
+* 基になるデータ ソースに送信されるクエリが許容範囲のパフォーマンスを確実に発揮できるよう、メジャー内で許可される DAX 式には制約があります。
 * **DirectQuery** を使用した場合の返されるデータには 100 万行の制限があります。 この制限は **DirectQuery** を使用して返されるデータセットの作成に使用される集計や計算には影響せず、返される行のみに影響します。 たとえば、データ ソースに対して実行すクエリで 1,000 万行を集計し、その集計の結果のデータが 100 万行未満であれば、**DirectQuery** を使用して、Power BI に正確に返すことができます。 **DirectQuery** から 100 万行を超える行が返された場合、Power BI はエラーを返します。
-
-基になるデータ ソースに送信されるクエリが許容範囲のパフォーマンスを発揮できるよう、既定ではメジャーに制限が課されています。 詳しい知識のあるユーザーなら、 **[ファイル] > [オプションと設定] > [オプション]** 、次に **[DirectQuery]** の順に選んでから、オプション *[DirectQuery モードで無制限のメジャーを許可する]* を選べば、この制限を回避できます。 このオプションを選ぶと、メジャーに使用できる DAX 式ならどれでも使用できるようになります。 しかし、ユーザーが注意すべき点として、データのインポート時のパフォーマンスが非常に良好な式の中には、DirectQuery モードでバックエンド ソースにクエリを実行する際に非常に低速になるものがあります。
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery を使用する場合の重要な考慮事項
 **DirectQuery** の使用時には次の 3 点を考慮してください。
