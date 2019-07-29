@@ -10,42 +10,49 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dd6698cab5b9fed407e6e8f45ceb160209a38fae
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6ada87813593fd0f06d7870fa1727bc35fe7d47
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61146858"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324915"
 ---
-# <a name="connect-to-project-online-with-power-bi"></a>Power BI で Project Online に接続する
-Microsoft Project Online は、プロジェクト ポートフォリオ管理 (PPM) および日常の作業用の柔軟なオンライン ソリューションです。 Project Online を使用すると、プロジェクト ポートフォリオの投資を開始して優先順位を設定し、意図したとおりのビジネス価値を提供できます。 Power BI 用 Project Online コンテンツ パックでは、Project Online から分析情報をロック解除し、プロジェクト、ポートフォリオ、リソースの管理に役立てることができます。
+# <a name="connect-to-project-web-app-with-power-bi"></a>Power BI で Project Web App に接続する
+Microsoft Project Web App は、プロジェクト ポートフォリオ管理 (PPM) および日常の作業用の柔軟なオンライン ソリューションです。 Project Web App を使用すると、プロジェクト ポートフォリオの投資を開始して優先順位を設定し、意図したとおりのビジネス価値を提供できます。 Power BI 用 Project Web App テンプレート アプリでは、Project Web App から分析情報をロック解除し、プロジェクト、ポートフォリオ、リソースの管理に役立てることができます。
 
-Power BI 用 [Project Online コンテンツ パック](https://app.powerbi.com/getdata/services/project-online)に接続します。
+Power BI 用 [Project Web App テンプレート アプリ](https://appsource.microsoft.com/product/power-bi/pbi_msprojectonline.pbi-microsoftprojectwebapp)に接続します。
 
 ## <a name="how-to-connect"></a>接続する方法
-1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
-   
-    ![](media/service-connect-to-project-online/getdata.png)
+
+   ![](media/service-connect-to-project-online/GetApps.png)
+1. 左側のナビゲーション ウィンドウの **[アプリ]** を選択し、右上隅にある **[アプリの取得]** を選択します。
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
-   ![](media/service-connect-to-project-online/services.png)
-3. **[Microsoft Project Online]** \> **[取得]** の順に選択します。
+   ![](media/service-connect-to-project-online/AppSource.png)
+3. AppSource で **[アプリ]** タブを選択し、 **[Microsoft Project Web App]** を検索して選択します。
+   
+4. **[この Power BI アプリをインストールしますか?]** というメッセージが表示されます。 **[インストール]** を選択します。 
+
+   ![](media/service-connect-to-project-online/ProjectTile.png)
+5. **[アプリ]** ウィンドウで、 **[Microsoft Project Web App]** タイルを選択します。 
+   
+   ![](media/service-connect-to-project-online/getstarted.png)
+6. **[新しいアプリを開始する]** で **[データに接続]** を選択します。
    
    ![](media/service-connect-to-project-online/mproject.png)
-4. **[Project Web App の URL]** テキスト ボックスに接続する Project Web App (PWA) の URL を入力し、 **[次へ]** をクリックします。 カスタム ドメインを使用している場合は例と異なる場合があることに注意してください。 **[PWA Site Language]\(PWA サイトの言語\)** テキスト ボックスに、PWA サイト言語に対応する番号を入力します。 英語には '1' を、フランス語には '2' を、ドイツ語には '3' を、ブラジルのポルトガル語には '4' を、ポルトガルのポルトガル語には '5' を、スペイン語には '6' を入力します。 
+7. **[Project Web App の URL]** テキスト ボックスに、接続する Project Web App (PWA) の URL を入力します。  カスタム ドメインを使用している場合は例と異なる場合があることに注意してください。 **[PWA Site Language]\(PWA サイトの言語\)** テキスト ボックスに、PWA サイト言語に対応する番号を入力します。 英語には '1' を、フランス語には '2' を、ドイツ語には '3' を、ブラジルのポルトガル語には '4' を、ポルトガルのポルトガル語には '5' を、スペイン語には '6' を入力します。 
    
-    ![](media/service-connect-to-project-online/params.png)
-5. [認証方法] として **[oAuth2]** を選択し、 **[サイン イン]** をクリックします。 プロンプトが表示されたら、Project Online の資格情報を入力し、認証プロセスに従います。
-   
-    ![](media/service-connect-to-project-online/creds.png)
+   ![](media/service-connect-to-project-online/params.png)
+8. [認証方法] として **[oAuth2]** を選択し、 **[サイン イン]** をクリックします。 プロンプトが表示されたら、Project Web App の資格情報を入力し、認証プロセスに従います。
+
     
 接続先の Project Web App のポートフォリオ閲覧者、ポートフォリオ マネージャー、または管理者のアクセス許可が必要です。
 
-6. データを読み込んでいることを示す通知が表示されます。 アカウントの大きさによっては時間がかかる可能性があります。 Power BI によるデータのインポート後、新しいダッシュ ボード、13 のレポート、データセットが左側のナビゲーション ウィンドウに表示されます。 これは、データを表示するために Power BI によって作成された既定のダッシュボードです。 このダッシュボードを変更し、希望する方法でデータを表示できます。
+9. データを読み込んでいることを示す通知が表示されます。 アカウントの大きさによっては時間がかかる可能性があります。 Power BI でデータがインポートされると、新しいワークスペースの内容が表示されます。 最新の更新を取得するには、データセットを更新する必要がある場合があります。 
 
-   ![](media/service-connect-to-project-online/dashboard2.png)
+Power BI でデータをインポートすると、左側のナビゲーション ウィンドウにデータセットを含む 13 ページのレポートが表示されます。 
 
-7. ダッシュボードとレポートが準備できたら、Project Online データの探索を開始してください。 コンテンツ パックには、ポートフォリオ概要 (6 レポート ページ)、リソース概要 (5 レポート ページ)、プロジェクト ステータス (2 レポート ページ) からなる、13 の多機能かつ詳細なレポートが付属しています。 
+10. レポートの準備ができたら、Project Web App データの探索を開始してください。 テンプレート アプリには、ポートフォリオ概要 (6 レポート ページ)、リソース概要 (5 レポート ページ)、プロジェクト ステータス (2 レポート ページ) からなる、13 の多機能かつ詳細なレポートが付属しています。 
 
    ![](media/service-connect-to-project-online/report1.png)
    
@@ -55,12 +62,9 @@ Power BI 用 [Project Online コンテンツ パック](https://app.powerbi.com/
 
 **実行できる操作**
 
-* ダッシュボード上部にある [Q&A ボックスで質問](consumer/end-user-q-and-a.md)してみてください。
-* ダッシュボードで[タイルを変更](service-dashboard-edit-tile.md)できます。
-* [タイルを選択](consumer/end-user-tiles.md)して基になるレポートを開くことができます。
 * データセットは毎日更新するようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
-**コンテンツ パックの展開**
+**テンプレート アプリを展開する**
 
 コンテンツ パックをさらにカスタマイズし、更新するには、[GitHub PBIT ファイル](https://github.com/OfficeDev/Project-Power-BI-Content-Packs)をダウンロードします
 
