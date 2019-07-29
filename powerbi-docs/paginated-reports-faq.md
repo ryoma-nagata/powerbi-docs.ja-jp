@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/18/2019
-ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.date: 07/15/2019
+ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345526"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270797"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI のページ分割されたレポート:よく寄せられる質問 
 
@@ -119,10 +119,10 @@ Microsoft では最近 Power BI レポート ビルダーを、ページ分割�
 
 サポートされているデータ ソースは次のとおりです。 
 
-- Power BI Premium データセット
+- Power BI データセット (シングル サインオン (SSO) を使用)
 - Azure Analysis Services (シングル サインオン (SSO) および oAuth を使用)
 - Azure SQL Data Warehouse
-- Azure SQL Database (ユーザー名/パスワード および oAuth)
+- Azure SQL Database (ユーザー名/パスワード、SSO、OAuth)
 - SQL Server*
 - SQL Server Analysis Services (SSAS) 表形式 (DAX) および多次元 (MDX) モデル* 
 - Oracle* 
@@ -134,11 +134,11 @@ Microsoft では最近 Power BI レポート ビルダーを、ページ分割�
 
 ### <a name="what-authentication-methods-do-you-support"></a>どのような認証方法がサポートされていますか。
 
-Azure Analysis Services と Power BI Premium の両方のデータ ソースの SSO がサポートされています。また、Azure SQL Database では oAuth と SSO がサポートされています。  他のデータ ソースについては、現在、ポータルまたはゲートウェイでデータ ソースと共にユーザー名とパスワードを格納する必要があります。  
+Azure Analysis Services、Azure SQL Database、Power BI の各データ ソースに対する SSO がサポートされています。  また、Azure SQL Database と Azure Analysis Services に対する OAuth もサポートされています。  他のデータ ソースについては、現在、ポータルまたはゲートウェイでデータ ソースと共にユーザー名とパスワードを格納する必要があります。  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>ページ分割されたレポートのデータ ソースとして、Power BI データセットを使用できますか。
 
-はい。Power BI Premium データセットが、お使いのページ分割されたレポートのデータ ソースとしてサポートされています。
+はい。Power BI データセットは、ページ分割されたレポートのデータ ソースとしてサポートされています。
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>ゲートウェイを介してストアド プロシージャを使用できますか。
 
@@ -179,10 +179,6 @@ SaaS Embedding は 6 月にサポートされる予定です。  PaaS Embedding 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>SSRS の顧客が Power BI に既存のレポートと資産を移動できる移行ツールは計画されていますか。
 
 Power BI にコンテンツを移動するとき、自動化を取り入れるべく、Microsoft はさまざまな選択肢を検討しています。ただし、これは GA まで利用できません。
-
-### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>1 つの作成ツールでページ分割されたレポートと Power BI レポートの両方を作成できるようになりますか。
-
-このシナリオを可能にする方法を検討中ですが、現時点では、まだその計画はありません。
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスにはページ分割されたレポート用のレポート ビューアー コントロールがありますか。
 

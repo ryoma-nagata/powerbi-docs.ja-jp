@@ -7,119 +7,103 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: de3400989e6d8fe62c03d6b21707559fac0fd7bf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383418"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271435"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>オンプレミス データ ゲートウェイの詳細
-組織のユーザーはオンプレミス データ (アクセス認証を取得済みの) にアクセスできますが、オンプレミス データ ソースに接続するには、事前にオンプレミス データ ゲートウェイをインストールし、設定しておく必要があります。 このゲートウェイにより、クラウドのユーザーとオンプレミス データ ソースの間のバックグラウンドの通信が迅速かつ安全な方法で確立されます。
 
-ゲートウェイのインストールと構成は、通常、管理者によって行われます。 この作業には、オンプレミスのサーバーの特別な知識と、場合によっては、サーバー管理者のアクセス許可が必要です。
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-この記事では、ゲートウェイをインストールして構成する方法の詳しい手順は説明しません。 そのために、「[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)」を必ず参照してください。 この記事の目的は、ゲートウェイが機能するしくみを理解できるように、その詳細を説明することです。 また、Azure Active Directory と Analysis Services の両方におけるユーザー名とセキュリティの詳細も少し説明します。さらに、サインインでユーザーが使用した電子メール アドレス、ゲートウェイ、Active Directory をクラウド サービスが利用し、オンプレミスのデータにセキュリティで保護された接続を行い、クエリを実行する方法について説明します。
+この記事の情報は、Power BI および一般的なドキュメントに関する複数の記事に移動されました。各見出しの下のリンクに従って、関連するコンテンツを見つけてください。
 
-<!-- Shared Requirements Include -->
-[!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-how-it-works-include.md)]
+## <a name="how-the-gateway-works"></a>ゲートウェイのしくみ
 
-<!-- Shared Install steps Include -->
-[!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
+「[オンプレミス データ ゲートウェイのアーキテクチャ](/data-integration/gateway/service-gateway-onprem-indepth)」を参照してください。
 
-## <a name="sign-in-account"></a>アカウントにサインインする
-ユーザーは職場または学校のアカウントでサインインします。 これは組織アカウントです。 Office 365 サービスにサインアップし、実際の職場のメールを指定しなかった場合、nancy@contoso.onmicrosoft.com のようになります。 クラウド サービス内では、アカウントは Azure Active Directory (AAD) のテナント内に保存されます。 ほとんどの場合、AAD アカウントの UPN はメール アドレスに一致します。
+## <a name="list-of-available-data-source-types"></a>使用可能なデータ ソースの種類の一覧
+
+「[Manage data sources (データ ソースを管理する)](service-gateway-data-sources.md)」を参照してください。
 
 ## <a name="authentication-to-on-premises-data-sources"></a>オンプレミス データ ソースの認証
-保存された資格情報は、Analysis Services を除き、オンプレミス データ ソースにゲートウェイから接続するために使用されます。 個々のユーザーに関係なく、ゲートウェイは保存されている資格情報を利用して接続します。
+
+「[オンプレミス データ ソースの認証](/data-integration/gateway/service-gateway-onprem-indepth#authentication-to-on-premises-data-sources)」を参照してください。
 
 ## <a name="authentication-to-a-live-analysis-services-data-source"></a>ライブ Analysis Services データ ソースの認証
-Analysis Services をユーザーが操作するたびに、有効なユーザー名がゲートウェイに渡され、次にオンプレミスの Analysis Services サーバーに渡されます。 ユーザー プリンシパル名 (UPN)、通常、クラウドにサインインするときに使用する電子メール アドレスは、有効なユーザーとして Analysis Services に渡すものです。 UPN は接続プロパティ EffectiveUserName に渡されます。 この電子メール アドレスは、ローカルの Active Directory ドメイン内で定義されている UPN と一致する必要があります。 UPN は、Active Directory アカウントのプロパティです。 サーバーにアクセスするには、その Windows アカウントが Analysis Services ロールに存在する必要があります。 Active Directory で一致を検出できない場合、ログインは正常に実行されません。
 
-Analysis Services は、このアカウントに基づいて、フィルター処理も提供できます。 フィルター処理は、ロール ベースのセキュリティまたは行レベルのセキュリティで実行できます。
+「[Authentication to a live Analysis Services data source (ライブ Analysis Services データ ソースの認証)](service-gateway-enterprise-manage-ssas.md#authentication-to-a-live-analysis-services-data-source)」を参照してください。
 
 ## <a name="role-based-security"></a>ロール ベース セキュリティ
-モデルでは、ユーザー ロールに基づいてセキュリティが提供されます。 特定のモデル プロジェクトに対してロールが定義されるのは、SQL Server Data Tools – Business Intelligence (SSDT-BI) でのオーサリング中、または SQL Server Management Studio (SSMS) を使用してモデルをデプロイした後です。 ロールに含まれるメンバーは、Windows ユーザー名または Windows グループによって決まります。 ロールは、ユーザーがモデルに対してクエリまたは操作を実行するためのアクセス許可を定義します。 ほとんどのユーザーは、読み取りアクセス許可を持つロールに属します。 その他のロールは管理者向けで、項目を処理するアクセス許可、データベースの機能を管理するアクセス許可、他のロールを管理するアクセス許可を持つものがあります。
+
+「[Role-based security (ロール ベースのセキュリティ)](service-gateway-enterprise-manage-ssas.md#role-based-security)」を参照してください。
 
 ## <a name="row-level-security"></a>行レベルのセキュリティ
-行レベルのセキュリティは、Analysis Services の行レベルのセキュリティに固有です。 モデルでは、動的な行レベルのセキュリティを提供できます。 ユーザーが少なくとも 1 つのロールに属する場合とは異なり、表形式モデルに動的なセキュリティは必要ではありません。 動的なセキュリティでは、上位レベルから、特定テーブル内の特定の行のデータに対してユーザーの読み取りアクセス権が定義されます。 ロールの場合と同様、動的な行レベルのセキュリティは、ユーザーの Windows ユーザー名に依存します。
 
-ユーザーがモデルのデータを閲覧したりクエリを実行したりできるかどうかは、第 1 にそのユーザーの Windows ユーザー アカウントがメンバーとなっているロールによって決まり、第 2 に動的な行レベルのセキュリティ (構成されている場合) によって決まります。
-
-モデルでのロールと動的な行レベル セキュリティの実装については、この記事では説明しません。  詳細については、MSDN の「[ロール (SSAS 表形式)](https://msdn.microsoft.com/library/hh213165.aspx)」と「[(Analysis Services - 多次元データ) のセキュリティ ロール](https://msdn.microsoft.com/library/ms174840.aspx)」を参照してください。 また、表形式モデルのセキュリティに関するさらに詳細な情報については、「[表形式 BI セマンティック モデルをセキュリティで保護する](https://msdn.microsoft.com/library/jj127437.aspx)」というホワイトペーパーをダウンロードしてお読みください。
+「[Row-level security (行レベルのセキュリティ)](service-gateway-enterprise-manage-ssas.md#row-level-security)」を参照してください。
 
 ## <a name="what-about-azure-active-directory"></a>Azure Active Directory の役割
-Microsoft クラウド サービスは、ユーザーの認証を処理するために [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) を使用します。 Azure Active Directory は、ユーザー名とセキュリティ グループを含むテナントです。 通常、ユーザーがサインインに使用する電子メール アドレスはアカウントの UPN と同じです。
 
-ローカル Active Directory の役割
-
-Analysis Services に接続するユーザーがデータの読み取りアクセス許可を持つロールに属しているかどうかを判断するため、サーバーは、AAD からゲートウェイ、Analysis Services サーバーの順に渡された有効なユーザー名を変換する必要があります。 Analysis Services サーバーは、Windows Active Directory ドメイン コントローラー (DC) に有効なユーザー名を渡します。 Active Directory DC は、ローカル アカウントで、有効なユーザー名が有効 UPN であることを検証し、Analysis Services サーバーにそのユーザーの Windows ユーザー名を返します。
-
-EffectiveUserName は、ドメインに参加していない Analysis Services サーバーで使用できません。 ログイン エラーを回避するには、Analysis Services サーバーをドメインに参加させる必要があります。
+「[Azure Active Directory](/data-integration/gateway/service-gateway-onprem-indepth#azure-active-directory)」を参照してください。
 
 ## <a name="how-do-i-tell-what-my-upn-is"></a>自分の UPN を確認する方法
-自分の UPN がわからないけれども、自分がドメイン管理者ではない場合もあります。 ワークステーションから次のコマンドを実行して、自分のアカウントの UPN を確認できます。
 
-    whoami /upn
-
-結果は電子メール アドレスに似ていますが、これはローカル ドメイン アカウントの UPN です。 ライブ接続に Analysis Services データ ソースを使用している場合、これはゲートウェイから EffectiveUserName に渡されたものに一致する必要があります。
+「[自分の UPN を確認する方法](/data-integration/gateway/service-gateway-onprem-indepth#how-do-i-tell-what-my-upn-is)」を参照してください。
 
 ## <a name="mapping-usernames-for-analysis-services-data-sources"></a>Analysis Services データ ソースのユーザー名をマッピングする
-Power BI では、Analysis Services データ ソースのユーザー名をマッピングできます。 Power BI のログイン ユーザー名を、Analysis Services 接続の有効なユーザー名に渡される名前にマッピングする規則を構成できます。 ユーザー名のマッピング機能は、AAD のユーザー名がローカル Active Directory の UPN に一致しないときの回避策として優れています。 たとえば、メール アドレスが nancy@contoso.onmicrsoft.com の場合、それを nancy@contoso.com にマッピングできます。その値がゲートウェイに渡されます。 詳細については、[ユーザー名のマッピング](service-gateway-enterprise-manage-ssas.md#map-user-names)方法に関するページを参照してください。
+
+「[Mapping usernames for Analysis Services data sources (Analysis Services データ ソースのユーザー名をマッピングする)](service-gateway-enterprise-manage-ssas.md#mapping-usernames-for-analysis-services-data-sources)」を参照してください。
 
 ## <a name="synchronize-an-on-premises-active-directory-with-azure-active-directory"></a>オンプレミスの Active Directory を Azure Active Directory と同期する
-Analysis Services ライブ接続を使用する場合、ローカル Active Directory アカウントが Azure Active Directory に一致すると便利です。 UPN はアカウント間で一致する必要があるためです。
 
-クラウドサービスは、Azure Active Directory 内のアカウントのみを認識します。 ローカル Active Directory にアカウントを追加したかどうかは問題ではなく、AAD に存在しなければ、使用できません。 ローカル Active Directory アカウントと Azure Active Directory はさまざまな方法で一致させることができます。
-
-1. Azure Active Directory にアカウントを手動で追加できます。
-   
-   アカウントは Azure portal 上で、または Microsoft 365 管理センター内で作成できます。アカウント名はローカル Active Directory アカウントの UPN と一致します。
-2. [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) ツールを使用し、ローカル アカウントと Azure Active Directory テナントを同期させることができます。
-   
-   Azure AD Connect ツールでは、パスワード ハッシュ同期、パススルー認証、フェデレーションなど、ディレクトリ同期と認証設定のオプションが提供されます。 テナント管理者またはローカル ドメイン管理者ではない場合、IT 管理者に問い合わせ、これを構成してもらう必要があります。
-
-Azure AD Connect を利用すると、UPN は AAD とローカル Active Directory 間で一致します。
-
-> [!NOTE]
-> Azure AD Connect ツールでアカウントを同期させると、AAD テナント内に新しいアカウントが作成されます。
-> 
-> 
-
-## <a name="now-this-is-where-the-gateway-comes-in"></a>ゲートウェイについて
-ゲートウェイは、クラウドとオンプレミス サーバー間のブリッジとして機能します。 クラウドとゲートウェイ間のデータ転送は、[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview) を介してセキュリティで保護されます。 Service Bus は、ゲートウェイでの送信接続を使用して、クラウドとオンプレミスのサーバーの間にセキュリティで保護されたチャネルを作成します。  オンプレミス ファイアウォールで開く必要のある受信接続はありません。 Power BI ではサービス バスが自動的に管理されるので、追加のコストまたは構成手順は必要ありません。
-
-Analysis Services データ ソースを持っている場合は、Analysis Services サーバーと同じフォレストまたはドメインに結合しているコンピューターにゲートウェイをインストールする必要があります。
-
-ゲートウェイがサーバーに近づけば近づくほど、接続は速くなります。 データ ソースと同じサーバー上にゲートウェイを取得できる場合、それはゲートウェイとサーバー間のネットワーク遅延を回避するのに最適です。
+「[オンプレミスの Active Directory を Azure Active Directory と同期する](/data-integration/gateway/service-gateway-onprem-indepth#synchronize-an-on-premises-active-directory-with-azure-active-directory)」を参照してください。
 
 ## <a name="what-to-do-next"></a>次に行うこと
-ゲートウェイをインストールした後は、そのゲートウェイのデータ ソースを作成します。 データ ソースの追加は、**[ゲートウェイの管理]** 画面で行うことができます。 詳細については、データ ソースの管理に関する記事をご覧ください。
 
-[データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
+データソースに関する記事をご覧ください。
+
+[データ ソースの管理](service-gateway-data-sources.md)
+ [データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [データ ソースの管理 - SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [データ ソースの管理 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [データ ソースの管理 - Oracle](service-gateway-onprem-manage-oracle.md)  
 [データ ソースの管理 - インポート/スケジュールされた更新](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
 ## <a name="where-things-can-go-wrong"></a>うまくいかない場合
-場合によっては、ゲートウェイのインストールが失敗することがあります。 または、ゲートウェイのインストールが成功したように見えても、サービスがそれを処理できない場合があります。 多くの場合、それは簡単な要因です (ゲートウェイがデータ ソースにサインインするのに使用する資格情報のパスワードなど)。
 
-その他のケースとして、ユーザーがサインインする電子メール アドレスの種類に問題がある場合や、Analysis Services が有効なユーザー名を解決できない場合があります。 相互に信頼関係を持つ複数のドメインがあり、ゲートウェイのあるドメインと、Analysis Services のあるドメインが異なっていると、そのことが問題の原因になる場合があります。
+「[オンプレミス データ ゲートウェイのトラブルシューティング](/data-integration/gateway/service-gateway-tshoot)」および「[ゲートウェイのトラブルシューティング - Power BI](service-gateway-onprem-tshoot.md)」を参照してください。
 
-ゲートウェイのトラブルシューティングについては、この記事ではなく、トラブルシューティングの手順に関する別の記事で説明します。「[オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)」をご覧ください。 何も問題が起きないことを願っています。 もし問題が起きてしまった場合は、この機能のしくみを理解しておくことと、トラブルシューティングの記事が役立ちます。
+## <a name="sign-in-account"></a>アカウントにサインインする
 
-<!-- Account and Port information -->
-[!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
+「[アカウントにサインインする](/data-integration/gateway/service-gateway-onprem-indepth#sign-in-account)」を参照してください。
+
+## <a name="windows-service-account"></a>Windows サービス アカウント
+
+「[Change the on-premises data gateway service account (オンプレミスのデータ ゲートウェイ サービス アカウントを変更する)](/data-integration/gateway/service-gateway-service-account)」を参照してください。
+
+## <a name="ports"></a>ポート
+
+「[ポート](/data-integration/gateway/service-gateway-communication#ports)」を参照してください。
+
+## <a name="forcing-https-communication-with-azure-service-bus"></a>Azure Service Bus との強制的な HTTPS 通信
+
+「[Azure Service Bus との HTTPS 通信を強制する](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)」を参照してください。
+
+## <a name="support-for-tls-12"></a>TLS 1.2 のサポート
+
+「[ゲートウェイトラフィック用の TLS 1.2](/data-integration/gateway/service-gateway-communication#tls-12-for-gateway-traffic)」を参照してください。
+
+## <a name="how-to-restart-the-gateway"></a>ゲートウェイを再起動する方法
+
+「[ゲートウェイを再起動する](/data-integration/gateway/service-gateway-restart)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 
-[オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
-[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview/)  
-[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+[オンプレミス データ ゲートウェイとは](service-gateway-onprem.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
-

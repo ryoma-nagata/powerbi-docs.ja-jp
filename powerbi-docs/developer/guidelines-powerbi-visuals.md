@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61342769"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271183"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI ビジュアルのガイドライン
+他のユーザーが検出して使用できるように自分のビジュアルを AppSource に[発行](https://docs.microsoft.com/power-bi/developer/office-store)する前に、ユーザー向けに優れたエクスペリエンスを作成するためのガイドラインに従っていることを確認してください。 
+
+## <a name="context-menu"></a>コンテキスト メニュー
+コンテキスト メニューは、ユーザーがビジュアルの上にマウス ポインターを置いたときに表示される右クリック メニューです。
+すべての Power BI ビジュアルでは、コンテキスト メニューを使用して、統一されたエクスペリエンスを実現できます。 コンテキスト メニューを追加する方法については、[こちらの記事](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)をご覧ください。
+
+
+## <a name="logo-guidelines"></a>ロゴのガイドライン
+
+このセクションでは、ロゴをビジュアルに追加するための仕様について説明します。
+
+> [!IMPORTANT]
+> ロゴは*編集モードでのみ*許可されます。 ロゴはビュー モードでは表示*できません*。
+
+![定義](media/guidelines-powerbi-visuals/definitions.png)
+
+![留意すべき点](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![回避事項](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![サイズと形式](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![余白とサイズ](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![編集モード](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Power BI ビジュアルの追加購入のガイドライン
 
@@ -36,31 +62,13 @@ ms.locfileid: "61342769"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP 機能のある Power BI ビジュアルとは
 
-IAP ビジュアルは**無料の機能**を提供する**無料の**ビジュアルです。 これは、操作するために追加料金が適用される場合がある、いくつかの高度な機能も持っています。 開発者は、ビジュアルの説明で、操作のために追加購入が必要となる機能についてユーザーに通知する必要があります。 現在、Microsoft は、アプリおよびアドインの購入をサポートするためのネイティブ API を提供していません。
+IAP ビジュアルは*無料の機能*を提供する*無料の*ビジュアルです。 これは、操作するために追加料金が適用される場合がある、いくつかの高度な機能も持っています。 開発者は、ビジュアルの説明で、操作のために追加購入が必要となる機能についてユーザーに通知する必要があります。 現在、Microsoft は、アプリおよびアドインの購入をサポートするためのネイティブ API を提供していません。
 
 開発者は、これらの購入に対し、任意のサードパーティ製の支払いシステムを使うことができます。 詳細については、[ストアのポリシー](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)に関する記事をご覧ください。
 
 > [!NOTE]
 > 無料の機能または無料のビジュアルでは、透かしを使用できません。 透かしは、有効なライセンスなしに使用される有料の機能でのみ使用できます。 有効なライセンスなしに高度な有料機能が使用される場合は、すべてのライセンス関連情報を含むポップアップ ウィンドウを表示することをお勧めします。  
 
-## <a name="logo-guidelines"></a>ロゴのガイドライン
-
-このセクションでは、ロゴをビジュアルに追加するための仕様について説明します。
-
-> [!IMPORTANT]
-> ロゴは**編集モードでのみ**許可されます。 ロゴはビュー モードでは表示**できません**。
-
-![定義](media/guidelines-powerbi-visuals/definitions.png)
-
-![留意すべき点](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![回避事項](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![サイズと形式](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![余白とサイズ](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![編集モード](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>ベスト プラクティス
 

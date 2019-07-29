@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f18ed2b0e370ad4617b7eccae4fbf043233fe4c0
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514516"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590527"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop のレポート ページを基にしてヒントを作成する
 **Power BI Desktop** で作成したレポート ページを基にして、ビジュアルをマウス ポインターでポイントすると表示されるさまざまな視覚的**レポート ヒント**を作成できます。 ヒントとして機能するレポート ページを作成することにより、レポート ページで作成したビジュアル、イメージ、その他の項目のコレクションを、カスタム ヒントに含めることができます。 
@@ -113,7 +113,6 @@ ms.locfileid: "65514516"
 **ヒント**に関して注意すべきいくつかの制限事項と考慮事項があります。
 
 * **Power BI Desktop** の 2018 年 12 月リリースより、ボタン ビジュアルでもツールヒントがサポートされます。
-* モバイル アプリでレポートを表示するときには、レポート ヒントはサポートされていません。 
 * カスタム ビジュアルでは、レポート ヒントはサポートされません。 
 * 現在、クラスターはレポート ヒントに表示できるフィールドとしてサポートされません。 
 * レポート ヒントに表示するフィールドを選択するとき、フィールドとカテゴリが使われていると、そのフィールドを含むビジュアルは、選択されたフィールドの要約が一致する場合にのみ指定されたヒントを表示します。 

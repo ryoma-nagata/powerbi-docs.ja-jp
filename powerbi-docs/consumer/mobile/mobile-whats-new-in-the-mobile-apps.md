@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
+ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67558978"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230195"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,18 @@ ms.locfileid: "67558978"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="july-2019"></a>2019 年 7 月
+
+### <a name="report-page-tooltips"></a>レポート ページのヒント
+
+モバイル アプリでレポートを表示するときに、レポート ページのヒントがサポートされるようになりました。 レポートのツールヒントが関連付けられているビジュアルを長押しするだけで、表示されます。  
+
+![レポート キャンバスのツールヒント](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
+
+> [!NOTE]
+> レポートのツールヒントは、640 ピクセルのサイズと 320 のビューポートを超えるデバイスでサポートされています。 小さいデバイスでは、既定のツールヒントが使用されます。
+
 
 ## <a name="june-2019"></a>2019 年 6 月
 

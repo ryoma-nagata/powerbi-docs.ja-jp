@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564940"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289829"
 ---
-# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium のサポートを複数の地理的リージョンを構成します。
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium の Multi-Geo のサポートを構成する
 
 Multi-Geo は、多国籍企業のお客様が、リージョン、業界固有、または組織のデータの配置場所に関する要件に対応するために役立つ Power BI Premium の機能です。 Power BI Premium をご利用の場合、Power BI テナントのホーム リージョン以外のリージョンにあるデータセンターにコンテンツを展開できます。 geo (地域) には、複数のリージョンが含まれる可能性があります。 たとえば、米国は geo であり、米国中西部と米国中南部は米国のリージョンです。 次のいずれかのリージョンにコンテンツを展開することができます。
 
@@ -35,7 +35,7 @@ Multi-Geo は、Power BI Germany、21Vianet が運営する Power BI China、ま
 
 Multi-Geo は、Power BI Embedded でも使用できるようになりました。 詳細については、「[Power BI Embedded の Multi-Geo のサポート](developer/embedded-multi-geo.md)」をご覧ください。
 
-## <a name="enable-and-configure"></a>有効化し、構成
+## <a name="enable-and-configure"></a>有効化と構成
 
 新しい容量の場合、Multi-Geo を有効にするには、ドロップダウンから既定のリージョン以外のリージョンを選択します。  利用可能な容量ごとに、**米国中西部**など、現在配置されているリージョンが表示されます。
 
@@ -68,7 +68,7 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 - アクセス許可
 - データセットの資格情報
 
-## <a name="view-capacity-regions"></a>容量のリージョンを表示します。
+## <a name="view-capacity-regions"></a>容量のリージョンを表示する
 
 管理ポータルでは、Power BI テナントのすべての容量とその現在のリージョンを確認できます。
 
@@ -94,7 +94,7 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 - リモート リージョンに格納されているキャッシュ クエリは、保存時はそのリージョン内に残ります。 ただし、転送中の他のデータは、複数の地域間を行き来する可能性があります。
 - Multi-Geo 環境でデータを別のリージョンに移行する場合、ソース データは、データが移行された元のリージョンに最大 30 日間残る可能性があります。 その間、エンド ユーザーはそのデータにアクセスできません。 30 日の期間中に、そのデータはこのリージョンから削除され、破棄されます。
 - 一般的に、Multi-Geo でパフォーマンスが向上することはありません。 レポートとダッシュボードの読み込み処理の場合、ホーム リージョンに対してメタデータを要求する必要があります。
-- [データフロー](service-dataflows-overview.md)の機能 (プレビュー) は、この時点では Multi-GEO でサポートされていません。
+- [データフロー](service-dataflows-overview.md)の機能は、この時点では Multi-GEO でサポートされていません。
 
 ## <a name="next-steps"></a>次の手順
 

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 01/08/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 6dc530305634b44415ddccb9c42952c0bfbe2e5f
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383362"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271915"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへのシングル サインオン (SSO) にリソースに基づく Kerberos を使用する
 
@@ -23,7 +23,7 @@ ms.locfileid: "58383362"
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>リソースに基づく Kerberos の制約付き委任のための準備
 
-Kerberos の制約付き委任が正しく機能するためには、"_サービス プリンシパル名_" (SPN) やサービス アカウントでの委任の設定など、いくつかのことを構成する必要があります。 
+Kerberos の制約付き委任が正しく機能するためには、"_サービス プリンシパル名_" (SPN) やサービス アカウントでの委任の設定など、いくつかのことを構成する必要があります。
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>前提条件 1:オペレーティング システムの要件
 
@@ -31,7 +31,7 @@ Kerberos の制約付き委任が正しく機能するためには、"_サービ
 
 ### <a name="prerequisite-2-install-and-configure-the-on-premises-data-gateway"></a>前提条件 2:オンプレミス データ ゲートウェイをインストールして構成する
 
-オンプレミス データ ゲートウェイのこのリリースでは、インプレース アップグレードと、既存のゲートウェイの "_引き継ぎの設定_" がサポートされています。
+オンプレミス データ ゲートウェイでは、インプレース アップグレードと、既存のゲートウェイの "_引き継ぎの設定_" がサポートされています。
 
 ### <a name="prerequisite-3-run-the-gateway-windows-service-as-a-domain-account"></a>前提条件 3:ゲートウェイの Windows サービスをドメイン アカウントとして実行する
 
@@ -39,7 +39,7 @@ Kerberos の制約付き委任が正しく機能するためには、"_サービ
 
 ![ドメイン アカウント](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-Azure AD が既に (Azure AD DirSync/Connect を使って) ローカルの Active Directory と同期されている場合を除き、**Kerberos の制約付き委任を有効にするには、ゲートウェイをドメイン アカウントとして実行する必要があります。 アカウントをドメイン アカウントに切り替える必要がある場合は、「[ゲートウェイをドメイン アカウントに切り替える](service-gateway-sso-kerberos.md)」をご覧ください。
+Azure AD が既に (Azure AD DirSync/Connect を使って) ローカルの Active Directory と同期されている場合を除き、**Kerberos の制約付き委任を有効にするには、ゲートウェイをドメイン アカウントとして実行する必要があります。 アカウントをドメイン アカウントに切り替える必要がある場合は、「[ゲートウェイ サービス アカウントの変更](/data-integration/gateway/service-gateway-service-account)」を参照してください。
 
 Azure AD DirSync/Connect が構成済みで、ユーザー アカウントが同期済みの場合、実行時にゲートウェイ サービスでローカル AD 参照を実行する必要はありません。 ゲートウェイ サービスに対してローカル サービス SID を使用できます (ドメイン アカウントは必要ありません)。 この記事で説明する Kerberos の制約付き委任の構成手順は、その構成と同じです (ドメイン アカウントではなく、Active Directory のゲートウェイのコンピューター オブジェクトに単に適用されます)。
 
@@ -51,9 +51,9 @@ Azure AD DirSync/Connect が構成済みで、ユーザー アカウントが同
 
 システムを正しく構成するには、次の 2 つのことを構成または検証する必要があります。
 
-1. 必要に応じて、ゲートウェイ サービスのドメイン アカウントに SPN を構成します。
+* 必要に応じて、ゲートウェイ サービスのドメイン アカウントに SPN を構成します。
 
-1. ゲートウェイ サービスのドメイン アカウントに委任設定を構成します。
+* ゲートウェイ サービスのドメイン アカウントに委任設定を構成します。
 
 これら 2 つの構成手順はドメイン管理者が実行する必要があることに注意してください。
 
@@ -65,11 +65,11 @@ Azure AD DirSync/Connect が構成済みで、ユーザー アカウントが同
 
 1. ドメイン管理者として **[Active Directory ユーザーとコンピューター]** を起動します。
 
-1. ドメインを右クリックし、**[検索]** を選んで、ゲートウェイ サービス アカウントのアカウント名を入力します
+1. ドメインを右クリックし、 **[検索]** を選択して、ゲートウェイ サービス アカウントのアカウント名を入力します。
 
-1. 検索結果で、ゲートウェイ サービス アカウントを右クリックして、**[プロパティ]** を選びます。
+1. 検索結果で、ゲートウェイ サービス アカウントを右クリックして、 **[プロパティ]** を選びます。
 
-1. **[委任]** タブが **[プロパティ]** ダイアログに表示される場合、SPN は既に作成されており、委任設定の構成に関する次のサブセクションに進むことができます。
+1. **[委任]** タブが **[プロパティ]** ダイアログに表示される場合、SPN は既に作成されており、[[委任] 設定の構成](#configure-delegation-settings)に関する次のサブセクションに進むことができます。
 
     **[委任]** タブが **[プロパティ]** ダイアログにない場合は、そのアカウントに SPN を手動で作成でき、作成すると **[委任]** タブが追加されます (これが、委任設定を構成する最も簡単な方法です)。 SPN の作成は、Windows に付属する [setspn ツール](https://technet.microsoft.com/library/cc731241.aspx)を使って行うことができます (SPN を作成するにはドメイン管理者権限が必要です)。
 
@@ -83,10 +83,10 @@ Azure AD DirSync/Connect が構成済みで、ユーザー アカウントが同
 
 次の手順では、ゲートウェイ コンピューターと、SQL Server を実行しているデータベース サーバーの 2 つのコンピューターが、異なるドメインに存在するオンプレミス環境を想定しています。 また、この例では次の設定と名前を使用します。
 
-- ゲートウェイ コンピューターの名前:**PBIEgwTestGW**
-- ゲートウェイ サービス アカウント:**PBIEgwTestFrontEnd\GatewaySvc** (アカウントの表示名:Gateway Connector)
-- SQL Server データ ソースのコンピューター名:**PBIEgwTestSQL**
-- SQL Server データ ソースのサービス アカウント:**PBIEgwTestBackEnd\SQLService**
+* ゲートウェイ コンピューターの名前:**PBIEgwTestGW**
+* ゲートウェイ サービス アカウント:**PBIEgwTestFrontEnd\GatewaySvc** (アカウントの表示名:Gateway Connector)
+* SQL Server データ ソースのコンピューター名:**PBIEgwTestSQL**
+* SQL Server データ ソースのサービス アカウント:**PBIEgwTestBackEnd\SQLService**
 
 これらの名前と設定を例にして、次の構成手順を使用します。
 
@@ -119,19 +119,19 @@ Azure AD DirSync/Connect が構成済みで、ユーザー アカウントが同
 
     ![ユーザー権利の割り当て](media/service-gateway-sso-kerberos-resource/user-rights-assignment.png)
 
-1. **[ユーザー権利の割り当て]** のポリシーの一覧で、**[認証後にクライアントを偽装]** を選びます。
+1. **[ユーザー権利の割り当て]** のポリシーの一覧で、 **[認証後にクライアントを偽装]** を選びます。
 
     ![クライアントの偽装](media/service-gateway-sso-kerberos-resource/impersonate-client.png)
 
-1. **[認証後にクライアントを偽装]** を右クリックして **[プロパティ]** を開き、アカウントの一覧を確認します。 ゲートウェイ サービス アカウント (**PBIEgwTestFront-end****\GatewaySvc**) が含まれている必要があります。
+1. **[認証後にクライアントを偽装]** を右クリックして **[プロパティ]** を開き、アカウントの一覧を確認します。 ゲートウェイ サービス アカウント (**PBIEgwTestFront-end** **\GatewaySvc**) が含まれている必要があります。
 
-1. **[ユーザー権利の割り当て]** のポリシーの一覧から、**[オペレーティング システムの一部として機能 (SeTcbPrivilege)]** を選びます。 アカウントの一覧にゲートウェイ サービス アカウントが含まれることも確認します。
+1. **[ユーザー権利の割り当て]** のポリシーの一覧から、 **[オペレーティング システムの一部として機能 (SeTcbPrivilege)]** を選びます。 アカウントの一覧にゲートウェイ サービス アカウントが含まれることも確認します。
 
 1. **オンプレミス データ ゲートウェイ** サービス プロセスを再起動します。
 
 ## <a name="running-a-power-bi-report"></a>Power BI レポートを実行する
 
-この記事でこれまでに説明したすべての構成手順が完了すると、Power BI の **[Manage Gateway]\(ゲートウェイの管理\)** ページを使ってデータ ソースを構成することができます。 その後、**[詳細設定]** で SSO を有効にし、そのデータ ソースに対するレポートとデータセットのバインドを発行します。
+この記事でこれまでに説明したすべての構成手順が完了すると、Power BI の **[Manage Gateway]\(ゲートウェイの管理\)** ページを使ってデータ ソースを構成することができます。 その後、 **[詳細設定]** で SSO を有効にし、そのデータ ソースに対するレポートとデータセットのバインドを発行します。
 
 ![データ ソース設定](media/service-gateway-sso-kerberos-resource/data-source-settings.png)
 
@@ -141,8 +141,8 @@ Azure AD DirSync/Connect が構成済みで、ユーザー アカウントが同
 
 **オンプレミス データ ゲートウェイ**と **DirectQuery** の詳細については、次のリソースをご覧ください。
 
-- [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)
-- [Power BI の DirectQuery](desktop-directquery-about.md)
-- [DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
-- [DirectQuery と SAP BW](desktop-directquery-sap-bw.md)
-- [DirectQuery と SAP HANA](desktop-directquery-sap-hana.md)
+* [オンプレミス データ ゲートウェイとは](/data-integration/gateway/service-gateway-onprem.md)
+* [Power BI の DirectQuery](desktop-directquery-about.md)
+* [DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
+* [DirectQuery と SAP BW](desktop-directquery-sap-bw.md)
+* [DirectQuery と SAP HANA](desktop-directquery-sap-hana.md)

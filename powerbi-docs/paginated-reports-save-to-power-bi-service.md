@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839605"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271213"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>ページ分割されたレポートを Power BI サービスに発行する
 
@@ -79,7 +79,7 @@ ms.locfileid: "66839605"
 
    ![ページ分割されたレポートを管理する](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. 詳細と以降の手順については、[ゲートウェイのインストール](service-gateway-install.md)に関する Power BI サービスの記事をご覧ください。
+1. 詳細と以降の手順については、Power BI サービスの記事「[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)」をご覧ください。
 
 ### <a name="gateway-limitations"></a>ゲートウェイの制限
 

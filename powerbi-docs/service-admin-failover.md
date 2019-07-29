@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b3fa7fd07a4c7f1992623871ed408b959582a125
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61196913"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270606"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ
 
@@ -65,7 +65,7 @@ Power BI サービス インスタンスは、フェールオーバーの原因�
 組織で使用される Power BI ソリューションに次の要素のいずれかが含まれている場合は、ソリューションの高可用性が保たれていることを保証するために何らかの対応が必要です。
 
 - 組織で Power BI Premium が使用されている場合は、デプロイの負荷需要を満たすために Premium 容量のサイズが設定されていることを確認する必要があります。  [Power BI Premium の計画と展開に関するホワイトペーパー](https://aka.ms/Premium-Capacity-Planning-Deployment)、および [Power BI Premium 容量メトリック アプリ](service-admin-premium-monitor-capacity.md)に関するページは、計画とこの要件を満たすのに役立つ場合があります。 Power BI の管理ポータルとメトリック アプリには、役立つ新しい機能が定期的に追加されています。
-- 組織で Power BI オンプレミス ゲートウェイを使用してオンプレミス データ ソースにアクセスする場合は、高可用性をサポートするために、[この記事の説明に従って](service-gateway-high-availability-clusters.md)ゲートウェイを設定する必要があります。 インポート モードでレポートを更新するか、DirectQuery または Live Connect を使用してデータまたはデータ モデルにアクセスするかに関係なく、このガイダンスに従ってください。
+- 組織でオンプレミス データ ゲートウェイを使用してオンプレミスのデータ ソースにアクセスする場合は、高可用性をサポートするために、[この記事の説明に従って](/data-integration/gateway/service-gateway-high-availability-clusters)ゲートウェイを設定する必要があります。 インポート モードでレポートを更新するか、DirectQuery または Live Connect を使用してデータまたはデータ モデルにアクセスするかに関係なく、このガイダンスに従ってください。
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>フェールオーバー モードの場合、ゲートウェイは機能しますか。
 
