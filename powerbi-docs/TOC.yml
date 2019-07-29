@@ -165,6 +165,8 @@
               href: desktop-connect-azure-consumption-insights.md
             - name: Power BI Desktop で SAP HANA を使用する
               href: desktop-sap-hana.md
+            - name: SAP HANA の暗号化を有効にする
+              href: desktop-sap-hana-encryption.md
             - name: Power BI Desktop の Analysis Services の表形式データ
               href: desktop-analysis-services-tabular-data.md
             - name: Power BI Desktop の DirectQuery
