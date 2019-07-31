@@ -947,6 +947,8 @@
           href: report-builder-expressions.md
         - name: 式の例
           href: report-builder-expression-examples.md
+        - name: レポートの改ページ
+          href: paginated-reports-pagination.md
         - name: レポートのプレビュー
           href: report-builder-previewing-reports.md
         - name: ページ分割されたレポートに関する FAQ
