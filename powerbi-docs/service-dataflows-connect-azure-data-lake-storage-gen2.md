@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 79bba3b65d508716bc451c1c4876a8674242fcc2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139257"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523489"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)
 
 組織の Azure Data Lake Storage Gen2 アカウントにデータフローを格納するように、Power BI ワークスペースを構成できます。 この記事では、実行する必要がある一般的な手順について説明し、それに伴うガイダンスとベスト プラクティスを示します。 ご利用の Data Lake にデータフロー定義とデータファイルを格納するワークスペースを構成すると、次に示すようないくつかの利点があります。
 
 * Azure Data Lake Storage Gen2 は、極めてスケーラブルなストレージ機能を提供する
-* データ フローのデータと定義のファイルは、Azure のデータを活用する IT 部門の開発者によって利用できるし、人工知能 (AI) サービスで示した、 [Azure データ サービスからの GitHub のサンプル](https://aka.ms/cdmadstutorial)
-* により、開発者は、組織の内部のアプリケーション、およびデータフローと Azure の開発者向けリソースを使用して、基幹業務ソリューションにデータ フローのデータを統合するには
+* [Azure Data Services からの GitHub サンプル](https://aka.ms/cdmadstutorial)に示されているように、IT 部門の開発者が Azure Data と人工知能 (AI) サービスを活用するために、データフロー データと定義ファイルを利用できる
+* データフローと Azure の開発者向けリソースを使用して、組織内の開発者がデータフロー データを内部アプリケーションおよび一連の業務ソリューションと統合できる
 
 データフローに Azure Data Lake Storage Gen2 を使用するには、次のものが必要になります。
 
@@ -31,13 +31,13 @@ ms.locfileid: "61139257"
 * **グローバル管理者アカウント** - ご利用の Azure Data Lake Storage Gen2 アカウントで、Power BI に接続してデータフロー定義とデータを格納するように構成するには、このアカウントが必要になります
 * **Azure サブスクリプション** - Azure Data Lake Storage Gen2 を使用するには Azure サブスクリプションが必要です
 * **リソース グループ** - 既にお持ちのリソース グループを使用するか、新しく作成できます
-* **Data Lake ストレージ Gen2 機能を有効にする Azure ストレージ アカウント** 
+* **Data Lake Storage Gen2 機能が有効になっている Azure Storage アカウント** 
 
 > [!TIP]
 > Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/)してください。
 
 > [!WARNING]
-> データフロー ストレージの場所は、一度構成したら変更できません。 参照してください、[考慮事項と制約](#considerations-and-limitations)考慮すべきその他の重要な要素は、この記事の末尾付近のセクション。
+> データフロー ストレージの場所は、一度構成したら変更できません。 考慮すべき他の重要な要素については、この記事の終わり近くにある「[考慮事項と制限事項](#considerations-and-limitations)」セクションを参照してください。
 
 ## <a name="prepare-your-azure-data-lake-storage-gen2-for-power-bi"></a>Power BI 用の Azure Data Lake Storage Gen2 を準備する
 
@@ -72,7 +72,7 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
 
 > [!NOTE]
-> ポータルから Power BI へのアクセス許可に 30 分が反映されるまでは、少なくともを許可します。 これらのアクセス許可を Power BI に反映されるまで 30 分をポータルで、アクセス許可を変更するたびに許可します。 
+> アクセス許可がポータルから Power BI に反映されるまでに、少なくとも 30 分は見込んでください。 ポータルでアクセス許可を変更した場合は、そのアクセス許可が Power BI に反映されるまでに 30 分は見込んでください。 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Power BI 用のファイル システムの作成
@@ -115,7 +115,7 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
     ![Power アプリケーションを検索する](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. 選択し、検索結果からオブジェクト Id を Power BI サービスと Power Query をオンラインの両方をコピーします。 以降の手順でこの 2 つの値を貼り付けられるように準備しておきます。
+5. 検索結果から、Power BI サービスと Power Query Online のオブジェクト ID を両方選択してコピーします。 以降の手順でこの 2 つの値を貼り付けられるように準備しておきます。
 
 7. 次に、**Azure Storage Explorer** を使用して、前のセクションで作成した *powerbi* ファイル システムに移動します。 「[Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)」(Azure Storage Explorer を使用したファイルとディレクトリ レベルのアクセス許可の設定) の記事にある「[Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)」(アクセスの管理) セクションの手順に従います。
 
@@ -133,15 +133,15 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>Azure Data Lake Storage Gen2 を Power BI に接続する
 
-内の Power BI に接続する Azure portal で Azure Data Lake ストレージ Gen2 アカウントをセットアップした後、 **Power BI 管理ポータル**します。 Power BI でのデータフロー記憶域の管理も、**データフロー ストレージ**Power BI 管理ポータルの設定 セクション。 起動と基本的な使用のガイダンスの詳細については、「[管理ポータルにアクセスする方法](service-admin-portal.md)」を参照してください。
+Azure portal で Azure Data Lake Storage Gen2 アカウントの設定を終えたら、**Power BI 管理ポータル**で Power BI に接続します。 また、Power BI 管理ポータルの **[データフロー ストレージ]** 設定セクションで、Power BI データフロー ストレージを管理します。 起動と基本的な使用のガイダンスの詳細については、「[管理ポータルにアクセスする方法](service-admin-portal.md)」を参照してください。
 
 次の手順に従って、**Azure Data Lake Storage Gen2** アカウントを接続します。
 
-1. 移動し、**データフロー設定**のタブ、 **Power BI 管理ポータル**
+1. **Power BI 管理ポータル**の **[データフローの設定]** タブに移動します。
 
     ![Power BI 管理ポータル](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-08b.png) 
 
-2. 選択、**接続、Azure Data Lake ストレージ Gen2**ボタンをクリックします。 次のウィンドウが表示されます。
+2. **[Azure Data Lake Storage Gen2 を接続する]** ボタンを選択します。 次のウィンドウが表示されます。
 
     ![Azure Data Lake Storage Gen2](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_09.jpg) 
 
@@ -162,7 +162,7 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
 既定では、データフローの定義とデータ ファイルは、Power BI から提供されたストレージに格納されます。 独自のストレージ アカウント内のデータフロー ファイルにアクセスするには、最初に、ワークスペース管理者が、新しいストレージ アカウント内でのデータフローの割り当てと保管が許可されるように、ワークスペースを構成する必要があります。 ワークスペース管理者がデータフロー ストレージの設定を構成するには、事前に、**Power BI 管理ポータル**でその管理者にストレージ割り当てのアクセス許可が付与されている必要があります。
 
-記憶域割り当てのアクセス許可を付与するには、**データフロー設定** タブで、 **Power BI 管理ポータル**します。 " *[Allow workspace admins to assign workspaces to this storage account]\(ワークスペースの管理者によるこのストレージ アカウントへのワークスペースの割り当てを許可する\)* " ラジオ ボタンが確認できます。このボタンは、 **[許可]** に設定されている必要があります。 そのスライダーを有効にしたら、変更を反映するための **[適用]** ボタンを選択します。 
+ストレージ割り当てのアクセス許可を付与するには、**Power BI 管理ポータル**の **[データフローの設定]** タブに移動します。 " *[Allow workspace admins to assign workspaces to this storage account]\(ワークスペースの管理者によるこのストレージ アカウントへのワークスペースの割り当てを許可する\)* " ラジオ ボタンが確認できます。このボタンは、 **[許可]** に設定されている必要があります。 そのスライダーを有効にしたら、変更を反映するための **[適用]** ボタンを選択します。 
 
 ![管理者によるワークスペースの割り当てを許可する](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_10.jpg) 
 
@@ -184,7 +184,7 @@ Power BI Desktop の顧客は、データフローの所有者である場合か
 
 1. アンナは新しいアプリのワークスペースを作成して、組織内の Data Lake にデータフローを格納するように構成しました。 
 2. ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得したいと考えています。
-3. 佐藤さんは、彼が承認されていないため、lake にデータ フローの CDM フォルダーのようなエラーを受信します。
+3. ベンは、Lake 内のデータフローの CDM フォルダーに対して承認されなかったため、同様のエラーを受け取ります。
 
 よく寄せられる質問と回答を以下に示します。
 
@@ -210,9 +210,9 @@ Power BI Desktop の顧客は、データフローの所有者である場合か
 データフロー全体について詳しくは、次の記事をご覧ください。
 
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium での計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
 * [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
-* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
+* [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 
 Azure Storage の詳細については、次の記事をご覧ください。
 * [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2e0fc8ae6a6d2b01121ffb1c52c29652af21f21e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1d07c678b02f77689d24d067ca58a4e28ac70cb0
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67533079"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623922"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
 色を使用して、マップで領域を比較するために **[図形マップ]** ビジュアルを作成します。 **[マップ]** ビジュアルとは異なり、 **[図形マップ]** ではマップ上の地理的な場所を正確には表示できません。 代わりに、これの主な用途は、違う色を適用することにより、マップ上の領域を相対的に比較できます。
@@ -323,11 +323,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-gro |Gro. |MX-GRO |Guerrero |Guerrero (ゲレロ) |GR |
 | mx-gua |Gto. |MX-GUA |Guanajuato |Guanajuato (グアナフアト) |GT |
 | mx-dur |Dgo. |MX-DUR |Durango |Durango (ドゥランゴ) |DU |
-| mx-dif |Col. |MX-DIF |Ciudad de México |Mexico City (メキシコシティー) |DF |
-| mx-col |Coah. |MX-COL |Colima |Colima (コリマ) |CL |
-| mx-coa |Chis. |MX-COA |Coahuila |Coahuila (コアウイラ) |CA |
+| mx-dif |CDMX. |MX-DIF |Ciudad de México |Mexico City (メキシコシティー) |DF |
+| mx-col |Col. |MX-COL |Colima |Colima (コリマ) |CL |
+| mx-coa |Coah. |MX-COA |Coahuila |Coahuila (コアウイラ) |CA |
 | mx-chh |Chih. |MX-CHH |Chihuahua |Chihuahua (チワワ) |CH |
-| mx-chp |CDMX. |MX-CHP |Chiapas |Chiapas (チャパス) |CP |
+| mx-chp |Chis. |MX-CHP |Chiapas |Chiapas (チャパス) |CP |
 | mx-cam |Camp. |MX-CAM |Campeche |Campeche (カンペチェ) |CM |
 | mx-bcs |B.C.S. |MX-BCS |Baja California Sur |Baja California Sur (バハ カリフォルニア スル) |BS |
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California (バハ カリフォルニア) |BN |

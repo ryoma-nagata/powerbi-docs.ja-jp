@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5b8cce3c62811509b5a2fa80bdde683c6278c7b2
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60978375"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624163"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>ホワイトリスト登録用の Power BI の URL
 
@@ -38,7 +38,7 @@ Power BI は、Office 365 の認証セクションと ID セクションの必�
 
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |
-| 1 | **必須:** 認証と ID | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) については、Office 365 ドキュメントを参照  | N/A |
+| 1 | **必須:** 認証と ID | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) については、Office 365 ドキュメントを参照  | N/A |
 
 ## <a name="general-site-usage"></a>一般的なサイトの使用
 
@@ -47,7 +47,7 @@ Power BI の一般的な使用では、次の表内とリンク先のサイト�
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |
 | 1 | **必須:** バックエンド API | *.analysis.windows.net | TCP 443 |
-| 2 | **必須:** Office 365 の統合 | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) については、Office 365 ドキュメントを参照 | N/A |
+| 2 | **必須:** Office 365 の統合 | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) については、Office 365 ドキュメントを参照 | N/A |
 | 3 | **必須:** ポータル | app.powerbi.com | TCP 443 |
 | 4 | **必須:** サービスの利用統計情報 | dc.services.visualstudio.com | TCP 443 |
 | 5 | **オプション:** 情報メッセージ | dynmsg.modpim.com | TCP 443 |
@@ -60,7 +60,7 @@ Power BI 内で管理機能を実行するには、以下のリンク先のサ�
 
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |
-| 1 | **必須:** ユーザーの管理と監査ログの表示用 | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) については、Office 365 ドキュメントを参照 | N/A |
+| 1 | **必須:** ユーザーの管理と監査ログの表示用 | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) については、Office 365 ドキュメントを参照 | N/A |
 | | | |
 
 ## <a name="getting-data"></a>データの取得
@@ -82,7 +82,7 @@ Power BI は、ダッシュボードとレポートをサポートするため�
 
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |
-| 1 | **必須:** Excel との連携 | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) については、Office 365 ドキュメントを参照 | N/A |
+| 1 | **必須:** Excel との連携 | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) については、Office 365 ドキュメントを参照 | N/A |
 | | | |
 
 ## <a name="custom-visuals"></a>カスタム ビジュアル
@@ -94,7 +94,7 @@ Power BI は、カスタム ビジュアルを表示してアクセスするた�
 | 1 | **必須:** Marketplace インターフェイスまたはファイルからカスタム ビジュアルをインポートする | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
 | 2 | **オプション:** Bing 地図 | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **オプション:** PowerApps | PowerApps のシステム要件のサイトの「[必要なサービス](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)」セクションを参照 | N/A |
-| 4 | **オプション:** Visio | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)、[SharePoint Online と OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) に関する Office 365 ドキュメントを参照 | N/A |
+| 4 | **オプション:** Visio | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)、[SharePoint Online と OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) に関する Office 365 ドキュメントを参照 | N/A |
 | | | |
 
 ## <a name="related-external-sites"></a>関連する外部サイト

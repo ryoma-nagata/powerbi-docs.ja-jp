@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7d716c79146a0d53d261dba514aacb8787ca2fa3
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299729"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523740"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>レポートとビジュアルのデザインに関するベスト プラクティス
 
@@ -407,7 +407,7 @@ Power BI サービスで、上部のメニュー バーから **[テキスト �
 
 ビジュアルで伝えるストーリーには説得力がありますか? それは重要なことですか? ビジュアルを構築するためにビジュアルを構築してはなりません。 データが興味深いストーリーを伝えると思うかもしれませんが、そうではありません。 恐れずに最初からやり直して、より興味深いストーリーを探してください。 ストーリーはそれでよくても、別の方法で測定する必要があるのかもしれません。
 
-たとえば、営業マネージャーの成功を測定するものとします。 どのようなメジャーを使いますか? 総売上や総利益、前年の成長、または目標に対する実績で、成功を最善に測定できますか? 販売員の Sally は最大の利益を上げている可能性があります。 販売員別の総利益を横棒グラフで示すと、他の販売員と比較して彼女の成績はまるでロック スターのようです。 Sally の営業経費 (旅費、送料、製造コストなど) が多い場合、売上を見ただけでは最善のストーリーを伝えられません。
+たとえば、営業マネージャーの成功を測定するものとします。 どのようなメジャーを使いますか? 総売上や総利益、前年の成長、または目標に対する実績で、成功を最善に測定できますか? 販売員の Sally は最大の利益を上げている可能性があります。 販売員別の総利益を横棒グラフで示すと、他の販売員と比較してその成績は飛び抜けています。 Sally の営業経費 (旅費、送料、製造コストなど) が多い場合、売上を見ただけでは最善のストーリーを伝えられません。
 
 #### <a name="reflect-reality-dont-distort-reality"></a>現実を忠実に反映する/現実を歪めない
 
@@ -1007,7 +1007,7 @@ Power BI では、縦棒グラフと折れ線グラフを組み合わせて、�
 
 一般的に、横棒グラフ、縦棒グラフ、折れ線グラフでほとんどの目的に対応できます。 円グラフおよびドーナツ グラフを、人間が正しく解釈するのは難しいことは十分に理解されています。 実際、データが歪曲されることはよくあります。 可能な限り使わないでください。 円グラフの歴史と危険性については、Stephen Few の優れた論文「[Save the Pies for Dessert (パイはデザートに残しておく)](https://www.perceptualedge.com/articles/08-21-07.pdf)」をご覧ください。
 
-この論文では、円グラフが有用な例として、部分と全体の関係性の比較を取り上げられています。 それでも、100% 積み上げ横棒グラフよりも優れていることはまれです。
+Stephen は、円グラフが有用な例として、部分と全体の関係性の比較を取り上げています。 それでも、100% 積み上げ横棒グラフよりも優れていることはまれです。
 
 その他の興味深い円グラフに関する記事 (およびアニメーション) については、[Darkhorse Analytics のサイト](http://www.darkhorseanalytics.com/blog/salvaging-the-pie)をご覧ください。
 
@@ -1037,4 +1037,4 @@ KPI では、値、ステータス、目標、目標との差、トレンドが�
 
 ### <a name="book-recommendations"></a>推薦図書
 
-ビジュアル デザインの技法に関する知識を、最新のものに更新するための優れた書籍が多数あります。 Stephen Few の『*Information Dashboard Design*』は必読です。 彼の 2 冊の書籍『*Show Me the Numbers*』と『*Now You See It*』では、さらに詳しく解説されています。 Few 等が影響を受けた Edward R. Tufte の本『 *The Visual Display of Quantitative Information* 』はこの分野のクラシックと考えられます。 Tufte は、『 *Visual Explanations* 』、『*Envisioning Information* 』、『 *Beautiful Evidence* 』も書いています。 Andy Kirk の新しい本『*Data Visualization:A Handbook for Data Driven Design*』も優れた内容です。 他には次の著者がお勧めです: Lachlan James、William McKnight、Boris Evelson (Forrester)、Darkhorse Analytics。
+ビジュアル デザインの技法に関する知識を、最新のものに更新するための優れた書籍が多数あります。 Stephen Few の『*Information Dashboard Design*』は必読です。 他の 2 冊の書籍『*Show Me the Numbers*』と『*Now You See It*』では、さらに詳しく解説されています。 Few 等が影響を受けた Edward R. Tufte の本『 *The Visual Display of Quantitative Information* 』はこの分野のクラシックと考えられます。 Tufte は、『 *Visual Explanations* 』、『*Envisioning Information* 』、『 *Beautiful Evidence* 』も書いています。 Andy Kirk の新しい本『*Data Visualization:A Handbook for Data Driven Design*』も優れた内容です。 他には次の著者がお勧めです: Lachlan James、William McKnight、Boris Evelson (Forrester)、Darkhorse Analytics。

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230195"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665430"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -649,8 +649,6 @@ Power BI モバイル アプリの通知センターには、自分と共有さ�
 [Android フォンで横モード](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone)でダッシュボードを表示できます。 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Windows 10 デバイス用の Power BI アプリ
-[Windows 10 Phone で横モード](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device)でダッシュボードを表示できます。
-
 [Windows 10 Phone でレポート](mobile-reports-in-the-mobile-apps.md)を表示できます。
 
 より短時間での [Windows 10 モバイル ダッシュボードでの分析情報の獲得](mobile-tiles-in-the-mobile-apps.md):タイルのスナップショットを共有したり、ダッシュボードから直接レポートを開いたりできます。

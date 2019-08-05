@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271183"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380213"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI ビジュアルのガイドライン
 他のユーザーが検出して使用できるように自分のビジュアルを AppSource に[発行](https://docs.microsoft.com/power-bi/developer/office-store)する前に、ユーザー向けに優れたエクスペリエンスを作成するためのガイドラインに従っていることを確認してください。 
@@ -26,7 +26,7 @@ ms.locfileid: "68271183"
 
 ## <a name="logo-guidelines"></a>ロゴのガイドライン
 
-このセクションでは、ロゴをビジュアルに追加するための仕様について説明します。
+このセクションでは、ロゴをビジュアルに追加するための仕様について説明します。 ロゴは必須ではありません。 追加する場合、これらのガイドラインに従う必要があります。 
 
 > [!IMPORTANT]
 > ロゴは*編集モードでのみ*許可されます。 ロゴはビュー モードでは表示*できません*。

@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: f29ce1ce05db80378eee81293d92484fb4f58f45
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289829"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665406"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium の Multi-Geo のサポートを構成する
 
@@ -30,6 +30,7 @@ Multi-Geo は、多国籍企業のお客様が、リージョン、業界固有�
 - インド
 - アジア太平洋
 - オーストラリア
+- アフリカ
 
 Multi-Geo は、Power BI Germany、21Vianet が運営する Power BI China、または米国政府向け Power BI では使用できません。
 

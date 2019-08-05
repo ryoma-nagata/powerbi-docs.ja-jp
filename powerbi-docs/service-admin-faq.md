@@ -1,6 +1,6 @@
 ---
 title: Power BI の管理 - よく寄せられる質問 (FAQ)
-description: Power BI へのサインアップ、テナントの管理、およびその他の管理タスクに関するよく寄せられる質問に対する回答について説明します。
+description: Power BI のサインアップ、テナント管理、その他の管理タスクに関するよく寄せられる質問 (FAQ) とその回答について説明します。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2e51017333a940bd9d7838e6a903c1a66ce2e342
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d6961007c3f7185b954188fa7bd7866d80a7f85a
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65100773"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523402"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -30,7 +30,7 @@ ms.locfileid: "65100773"
 * [組織内の個々のユーザーは、どのような方法でサインアップできますか。](#how-do-individual-users-in-my-organization-sign-up)
 * [既存の Office 365 テナントにユーザーが参加できないようにするにはどうすればよいですか。](#how-can-i-prevent-users-from-joining-my-existing-office-365-tenant)
 * [既存の Office 365 テナントへの参加をユーザーに許可するにはどうすればよいですか。](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
-* [テナント内、ブロックがあるはかどうかを確認する方法](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
+* [テナントをブロックしたかどうかを確認するにはどうすればよいですか。](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
 * [既存のユーザーが Power BI の使用を開始できないようにするにはどうすればよいですか。](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [既存のユーザーに Power BI へのサインアップを許可するにはどうすればよいですか。](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)
 
@@ -39,10 +39,10 @@ ms.locfileid: "65100773"
 * [組織内のユーザーの ID を管理する方法はどのように変わりますか。](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Power BI を管理するにはどうすればよいですか。](#how-do-we-manage-power-bi)
 * [Microsoft によってユーザーに対して作成されたテナントを管理するにはどうすればよいですか。](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
-* [複数のドメインがある場合、ユーザーに追加される Office 365 テナントを制御できますか。](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
+* [複数のドメインがある場合、ユーザーが追加される Office 365 テナントを制御できますか。](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [Power BI に既にサインアップしているユーザーを削除するにはどうすればよいですか。](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [新しいユーザーがいつテナントに参加したかを確認するにはどうすればよいですか。](#how-do-i-know-when-new-users-have-joined-my-tenant)
-* [他に何を準備する必要がありますはありますか。](#are-there-any-additional-things-i-should-prepare-for)
+* [他に何か準備する必要があることはありますか。](#are-there-any-additional-things-i-should-prepare-for)
 * [Power BI テナントの場所](#where-is-my-power-bi-tenant-located)
 * [Power BI SLA (サービス レベル アグリーメント) とは何ですか。](#what-is-the-power-bi-sla)
 * [Power BI では高可用性とフェールオーバーはどのように処理されますか。](#how-does-power-bi-handle-high-availability-and-failover)
@@ -60,29 +60,29 @@ ms.locfileid: "65100773"
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>ユーザーは Power BI にどのような方法でサインアップできますか。
 
-管理者はから Power BI にサインアップすることができます、 [Power BI web サイト](https://powerbi.microsoft.com)または[サービスを購入](https://admin.microsoft.com/AdminPortal/Home#/catalog)Microsoft 365 管理センターのページ。 管理者が Power BI のサインアップ時に、アクセス権を持つユーザーにユーザー ライセンスを割り当てることができます、します。
+管理者は、[Power BI Web サイト](https://powerbi.microsoft.com)または Microsoft 365 管理センターの[サービス購入](https://admin.microsoft.com/AdminPortal/Home#/catalog)ページから、Power BI にサインアップすることができます。 管理者が Power BI にサインアップした場合は、アクセスする必要があるユーザーにユーザー ライセンスを割り当てることができます。
 
-さらに、組織内の個々のユーザーは、[Power BI Web サイト](https://powerbi.microsoft.com)から Power BI にサインアップすることができます。 組織内のユーザーが Power BI にサインアップすると、ときに、サービスは自動的にユーザーに Power BI ライセンスを割り当てます。 詳細については、次を参照してください。[個人として Power BI にサインアップする](service-self-service-signup-for-power-bi.md)と[、組織内の Power BI ライセンス](service-admin-licensing-organization.md)します。
+さらに、組織内の個々のユーザーは、[Power BI Web サイト](https://powerbi.microsoft.com)から Power BI にサインアップすることができます。 組織内のユーザーが Power BI にサインアップすると、そのユーザーに Power BI ライセンスがサービスによって自動的に割り当てられます。 詳しくは、「[個人として Power BI にサインアップする](service-self-service-signup-for-power-bi.md)」および「[組織での Power BI のライセンス](service-admin-licensing-organization.md)」をご覧ください。
 
 ### <a name="how-do-individual-users-in-my-organization-sign-up"></a>組織内の個々のユーザーは、どのような方法でサインアップできますか。
 
 組織内のユーザーに適用される可能性がある 3 つのシナリオがあります。
 
 * **シナリオ 1**:組織に既存の Office 365 環境が既に存在し、Power BI にサインアップするユーザーが Office 365 アカウントを既に持っている。
-    このシナリオで、ユーザーが既に職場または学校のアカウント、テナント (contoso.com など) ではがまだ Power bi では、Microsoft だけをアクティブにそのアカウントの計画。 ユーザーには、Power BI サービスを使用する方法についてで自動的に通知します。
+    このシナリオでは、ユーザーがテナント (contoso.com など) に既に職場または学校のアカウントを持っているが、まだ Power BI にサインアップしていない場合は、Microsoft がそのアカウントに対してプランをアクティブ化します。 Power BI サービスの使用方法に関する通知が自動的にユーザーに送信されます。
 
 * **シナリオ 2**:組織に既存の Office 365 環境が既に存在するが、Power BI にサインアップするユーザーがまだ Office 365 アカウントを持っていない場合。
-    このシナリオでは、ユーザーは、組織のドメイン (contoso.com など) に、電子メール アドレスがあるが、Office 365 アカウントがまだないです。 この場合、ユーザーは Power BI にサインアップすることができ、アカウントが自動的に与えられます。 この操作には、Power BI サービスのユーザー アクセスことができます。 たとえば、従業員が Nancy を使用してという名前の場合、職場の電子メール アドレス (のようなnancy@contoso.com) にサインアップすると、Microsoft 自動的に Nancy を Contoso の Office 365 環境のユーザーとして追加し、そのアカウントに対して Power BI をアクティブにします。
+    このシナリオでは、ユーザーは、組織のドメイン (contoso.com など) の電子メール アドレスを持っていますが、まだ Office 365 アカウントを持っていません。 この場合、ユーザーは Power BI にサインアップすることができ、アカウントが自動的に与えられます。 このアクションにより、ユーザーは、Power BI サービスにアクセスすることができます。 たとえば、Nancy という名前の従業員が職場の電子メール アドレス (nancy@contoso.com など) を使用してサインアップした場合、Contoso の Office 365 環境に Nancy がユーザーとして自動的に追加され、そのアカウントに対して Power BI が有効になります。
 
-* **シナリオ 3**:組織は、メールのドメインに接続されている Office 365 環境にありません。
-    Power BI を活用するために、組織に必要な管理の操作はありません。 サービスでは、新しいクラウド専用ユーザーのディレクトリにユーザーを追加します。 テナント管理者として引き継ぐし、それらを管理することもできます。
+* **シナリオ 3**:組織に電子メール ドメインに接続されている Office 365 環境がない。
+    Power BI を利用するために組織が行う必要がある管理操作はありません。 ユーザーは、そのサービスによって新しいクラウド専用のユーザー ディレクトリに追加されます。 テナント管理者として引き継いで、それらを管理することもできます。
 
 > [!IMPORTANT]
-> 組織に複数の電子メール ドメインがあり、すべての電子メール アドレスの拡張を同じテナントにまとめる場合は、ユーザーがサインアップする前に、すべての電子メール アドレス ドメインを Azure Active Directory テナントに追加する必要があります。 ユーザーを作成したら、テナント間でユーザーを移動する自動メカニズムはありません。 このプロセスの詳細については、次を参照してください。[複数のドメインがある場合、Office 365 テナントを制御できますユーザーに追加されるでしょうか。](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)この記事で後述と[Office 365 にドメインを追加](/office365/admin/setup/add-domain/)します。
+> 組織に複数の電子メール ドメインがあり、すべての電子メール アドレスの拡張を同じテナントにまとめる場合は、ユーザーがサインアップする前に、すべての電子メール アドレス ドメインを Azure Active Directory テナントに追加する必要があります。 ユーザーを作成した後、テナント間でユーザーを自動的に移動するメカニズムはありません。 このプロセスについて詳しくは、この記事で後述する「[複数のドメインがある場合、ユーザーが追加される Office 365 テナントを制御できますか](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)」と、「[Office 365 にドメインを追加する](/office365/admin/setup/add-domain/)」をご覧ください。
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>既存の Office 365 テナントにユーザーが参加できないようにするにはどうすればよいですか。
 
-既存の Office 365 テナントにユーザーが参加できないようにするために、管理者として実行できる手順があります。 失敗、サインアップするユーザーは、アクセスをブロックして、メッセージが表示場合、するよう指示、組織の管理者に問い合わせてください。既に (学生、教職員、およびスタッフ向けの教育機関向け Office 365) を使用してライセンスの自動配布を無効にした場合、このプロセスを繰り返す必要はありません。
+既存の Office 365 テナントにユーザーが参加できないようにするために、管理者として実行できる手順があります。 アクセスをブロックした場合、ユーザーのサインアップ試行は失敗し、ユーザーに組織の管理者に連絡するように指示するメッセージが表示されます。ライセンスの自動配布 (学生、教職員、およびスタッフ向けの Office 365 for Education など) を既に無効にしている場合は、このプロセスを繰り返す必要はありません。
 
 新しいユーザーがマネージド テナントに参加できないようにするには、次の PowerShell スクリプトを使用します。 ([PowerShell の詳細を確認する][1]。)
 
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>既存の Office 365 テナントへの参加をユーザーに許可するにはどうすればよいですか。
 
-次の PowerShell スクリプトを使用して、新しいユーザーが管理対象テナントに参加できるようにします。 ([PowerShell の詳細を確認する][1]。)
+新しいユーザーがマネージド テナントに参加できるようにするには、次の PowerShell スクリプトを使用します。 ([PowerShell の詳細を確認する][1]。)
 
 ```powershell
 $msolcred = get-credential
@@ -107,9 +107,9 @@ connect-msolservice -credential $msolcred
 Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 ```
 
-### <a name="how-do-i-check-if-i-have-the-block-on-in-the-tenant"></a>テナント内、ブロックがあるはかどうかを確認する方法
+### <a name="how-do-i-check-if-i-have-the-block-on-in-the-tenant"></a>テナントをブロックしたかどうかを確認するにはどうすればよいですか。
 
-設定を確認するのにには、次の PowerShell スクリプトを使用します。 *AllowEmailVerifiedUsers* が false になっている必要があります。 ([PowerShell の詳細を確認する][1]。)
+設定を確認するには、次の PowerShell スクリプトを使用します。 *AllowEmailVerifiedUsers* が false になっている必要があります。 ([PowerShell の詳細を確認する][1]。)
 
 ```powershell
 $msolcred = get-credential
@@ -120,7 +120,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>既存のユーザーが Power BI の使用を開始できないようにするにはどうすればよいですか。
 
-これを制御する Azure AD の設定は、**AllowAdHocSubscriptions** です。 ほとんどのテナントがある、有効になっていることを意味する true に設定します。 パートナーを通じて Power BI を入手した場合、このを無効になっていることを意味する false に設定できます。
+これを制御する Azure AD の設定は、**AllowAdHocSubscriptions** です。 ほとんどのテナントでは、これは、有効を意味する true に設定されます。 パートナーを通じて Power BI を入手した場合、これは、無効を意味する false に設定されている可能性があります。
 
 アドホック サブスクリプションを無効にするには、次の PowerShell スクリプトを使用します。 ([PowerShell の詳細を確認する][1]。)
 
@@ -131,26 +131,26 @@ Get-MsolCompanyInformation | fl allow*
      connect-msolservice -credential $msolcred
     ```
 
-   ![Azure の Active Directory のスクリーン ショットが PowerShell を使ったサインイン](media/service-admin-licensing-organization/azure-ad-sign-in.png)
+   ![PowerShell を使用した Azure Active Directory サインインのスクリーンショット](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. サインインすると、テナントの現在設定の方法を参照してください。 次のコマンドを実行します。
+1. サインインの後、次のコマンドを実行してテナントの現在のセットアップ内容を確認することができます。
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
     ```
 
-1. 有効にするのには、次のコマンドを実行 (`$true`) または無効にする (`$false`) **AllowAdHocSubscriptions**します。
+1. 次のコマンドを使用して、**AllowAdHocSubscriptions** を有効 (`$true`) または無効 (`$false`) にします。
 
     ```powershell
      Set-MsolCompanySettings -AllowAdHocSubscriptions $false
     ```
 
 > [!NOTE]
-> 使用して、 **AllowAdHocSubscriptions**ユーザーが Azure Rights Management サービスにサインアップする機能など、組織内のいくつかのユーザー機能を制御するフラグ。 このフラグの変更は、これらすべての能力に影響します。
+> **AllowAdHocSubscriptions** フラグは、組織内のさまざまなユーザーの能力を制御するために使用されます。この中には、ユーザーが Azure Rights Management サービスにサインアップする能力も含まれます。 このフラグの変更は、これらすべての能力に影響します。
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>既存のユーザーに Power BI へのサインアップを許可するにはどうすればよいですか。
 
-前の質問の一覧表示コマンドを実行して、Power BI にサインアップする既存のユーザーを許可するが、渡す`$true`の代わりに`$false`最後の手順でします。
+既存のユーザーに Power BI へのサインアップを許可するには、前の質問で説明されているコマンドを実行しますが、最後のステップで `$false` の代わりに `$true` を渡します。
 
 ## <a name="administration-of-power-bi"></a>Power BI の管理
 
@@ -158,40 +158,40 @@ Get-MsolCompanyInformation | fl allow*
 
 組織内のユーザーに適用される可能性がある 3 つのシナリオがあります。
 
-* **シナリオ 1**:場合は、組織で既にに既存の Office 365 環境があり、ユーザーが、組織内のすべてのユーザーが Office 365 アカウントを持っているは、id の管理方法の変更はありません。
+* **シナリオ 1**:組織に既存の Office 365 環境があり、組織内のすべてのユーザーが Office 365 アカウントを持っている場合、ID の管理方法に変更はありません。
 
-* **シナリオ 2**:既に導入している既存の Office 365 環境が、組織内のすべてのユーザーが Office 365 アカウントを持っている、テナントでユーザーを作成し、ユーザーの職場または学校の電子メール アドレスに基づいてライセンスを割り当てます。
+* **シナリオ 2**:組織に既存の Office 365 環境は既に存在するが、組織内の一部のユーザーのみが Office 365 アカウントを持っている場合は、テナント内にユーザーが作成され、ユーザーの職場または学校の電子メール アドレスに基づいてライセンスが割り当てられます。
 
-    結果として、組織のユーザーがサービスにサインアップすると、特定の時点に管理しているユーザーの数が増大します。
+    その結果、組織内のユーザーがサービスにサインアップすると、その時点で管理しているユーザーの数が増加します。
 
-* **シナリオ 3**:組織では、電子メール ドメインに接続されている Office 365 環境があるない場合、id の管理方法の変更はありません。
+* **シナリオ 3**:組織に電子メール ドメインに接続された Office 365 環境がない場合は、ID の管理方法に変更はありません。
 
-    サービスでは、新しいクラウド専用ユーザーのディレクトリにユーザーを追加します。 また、テナント管理者として引き継ぐし、それらを管理することができます。
+    ユーザーは、そのサービスによって新しいクラウド専用のユーザー ディレクトリに追加されます。 テナント管理者として引き継いで、それらを管理することもできます。
 
 ### <a name="how-do-we-manage-power-bi"></a>Power BI を管理するにはどうすればよいですか。
 
-Power BI には、管理ポータル、使用状況の統計を表示することができるユーザーとグループを管理する Microsoft 365 管理センターへのリンクし、テナント全体の設定を制御する機能を提供しますが提供します。
+Power BI には、使用状況の統計を表示できる管理ポータル、ユーザーとグループを管理するための Microsoft 365 管理センターへのリンク、テナント全体の設定を制御するための機能が用意されています。
 
-Power BI の管理ポータルを使用するには、としてアカウントをマークする必要があります、**グローバル管理者**Office 365 または Azure 内で Active Directory、またはユーザーが割り当てる必要があります、Power BI サービス管理者ロール、ユーザー アカウントにします。 詳細については、次を参照してください。 [Power BI 管理者の役割について](service-admin-role.md)と[Power BI 管理ポータル](service-admin-portal.md)します。
+Power BI 管理ポータルを使用するには、自分のアカウントを Office 365 または Azure Active Directory 内で**全体管理者**としてマークしておくか、自分のユーザー アカウントに別のユーザーが Power BI サービス管理者ロールを割り当てている必要があります。 詳しくは、[Power BI 管理者ロールについて](service-admin-role.md)および [Power BI 管理ポータル](service-admin-portal.md)についての記事をご覧ください。
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft によってユーザーに対して作成されたテナントを管理するにはどうすればよいですか。
 
-セルフ サービス ユーザーが Azure AD を使用するクラウド サービスのサインアップ時にサービスに追加して非管理対象の Azure AD ディレクトリは、電子メール ドメインに基づきます。 要求のおよびと呼ばれるプロセスを使用して作成されたユーザーがテナントを管理することができます、*管理者の引き継ぎ*します。 引き継ぎを行うの種類によって異なります、ドメインに関連付けられているテナントを管理するかどうかが既に存在します。
+セルフサービスのユーザーは、Azure AD を使用しているクラウド サービスにサインアップするとき、サービスによってユーザーは、各自の電子メール ドメインに基づいて Azure AD のアンマネージド ディレクトリに追加されます。 "*管理者引き継ぎ*" と呼ばれるプロセスを使って別のユーザーが作成したテナントを、管理できるようになります。 実行する引き継ぎの種類は、ご自身のドメインに関連付けられている既存のマネージド テナントが存在するかどうかによって異なります。
 
 * ドメインに対して新しいマネージド テナントを作成するには、"*内部の引き継ぎ*" を使用します。
 
 * 既存のマネージド テナントにドメインを移動するには、"*外部の引き継ぎ*" を使用します。
 
-詳細については、次を参照してください。 [Azure Active Directory で管理者として、非管理対象のディレクトリを引き継ぐ](/azure/active-directory/users-groups-roles/domains-admin-takeover)します。
+詳細については、「[Azure Active Directory の非管理対象ディレクトリを管理者として引き継ぐ](/azure/active-directory/users-groups-roles/domains-admin-takeover)」をご覧ください。
 
-外部の引き継ぎを行うと、サービスが配置 Power BI での引き継ぎの前に作成されたコンテンツを[Power BI アーカイブ済みワークスペース](service-admin-power-bi-archived-workspace.md)します。 新しいテナントで使いたいコンテンツは、すべて手動で移行する必要があります。
+外部の引き継ぎを実行すると、引き継ぎの前に作成した Power BI コンテンツはサービスによって [Power BI アーカイブ済みワークスペース](service-admin-power-bi-archived-workspace.md)内に配置されます。 新しいテナントで使いたいコンテンツは、すべて手動で移行する必要があります。
 
-### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>複数のドメインがある場合、ユーザーに追加される Office 365 テナントを制御できますか。
+### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>複数のドメインがある場合、ユーザーが追加される Office 365 テナントを制御できますか。
 
-何を行うと、サービスは、各ユーザーの電子メール ドメインとサブドメインのテナントを作成します。 電子メール アドレスの拡張に関係なく、すべてのユーザーを同じテナントにまとめる場合:事前に、対象のテナントを作成するか、既存のテナントを使用します。 次に、すべての既存のドメインとそのテナントに統合するサブドメインを追加します。 サインアップするときに、自動的にこれらのドメインとサブドメインで終わる電子メール アドレスを持つすべてのユーザーは対象テナントを結合します。
+何もしなければ、各ユーザーの電子メール ドメインとサブドメイン用のテナントがサービスによって作成されます。 電子メール アドレスの拡張に関係なく、すべてのユーザーを同じテナントにまとめる場合:事前に対象テナントを作成するか、既存のテナントを使用します。 次に、そのテナントに含める既存のドメインとサブドメインをすべて追加します。 電子メール アドレスの末尾がこれらのドメインとサブドメインに該当するすべてのユーザーは、サインアップ時に自動的に対象テナントに追加されます。
 
 > [!IMPORTANT]
-> ユーザーを作成したら、テナント間でユーザーを移動する自動メカニズムがサポートされていることはありません。 1 つの Office 365 テナントにドメインを追加する方法については、[Office 365 へのユーザーとドメインの追加に関するページ](/office365/admin/setup/add-domain/)を参照してください。
+> ユーザーを作成した後、テナント間でユーザーを自動的に移動するメカニズムはサポートされていません。 1 つの Office 365 テナントにドメインを追加する方法については、[Office 365 へのユーザーとドメインの追加に関するページ](/office365/admin/setup/add-domain/)を参照してください。
 
 ### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>Power BI に既にサインアップしているユーザーを削除するにはどうすればよいですか。
 
@@ -207,13 +207,13 @@ Power BI にサインアップする必要がなくなったユーザーが Powe
 
 1. ユーザーの詳細ウィンドウで、 **[製品ライセンス]** の隣にある **[編集]** を選択します。
 
-1. 自分のアカウントに適用するライセンスの内容に応じて、設定**Power BI (無料)** または**Power BI Pro**に**オフ**します。
+1. アカウントに適用されているライセンスに応じて、 **[Power BI (無料)]** または **[Power BI Pro]** を **[オフ]** に設定します。
 
 1. **[保存]** を選択します。
 
 ### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>新しいユーザーがいつテナントに参加したかを確認するにはどうすればよいですか。
 
-このプログラムの一環として、テナントに参加したユーザーは、管理ダッシュ ボードで、アクティブなユーザー ウィンドウ内でフィルター処理できます固有のライセンスを割り当てられます。 この新しいビューを作成するには、次の手順のようにします。
+このプログラムの一部であるテナントに参加したユーザーには、管理ダッシュボードの [アクティブ ユーザー] ウィンドウでフィルター処理することができる一意のライセンスが割り当てられます。 この新しいビューを作成するには、次の手順のようにします。
 
 1. [Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/Home#/homepage)に移動します。
 
@@ -227,25 +227,25 @@ Power BI にサインアップする必要がなくなったユーザーが Powe
 
 1. 他の必要な条件を入力した後、 **[追加]** を選択します。
 
-1. 使用できますが、新しいビューを作成した後、**ビュー**メニュー。
+1. 新しく作成したビューは、 **[ビュー]** メニューから使用できます。
 
-### <a name="are-there-any-additional-things-i-should-prepare-for"></a>他に何を準備する必要がありますはありますか。
+### <a name="are-there-any-additional-things-i-should-prepare-for"></a>他に何か準備する必要があることはありますか。
 
-パスワードのリセット要求が増える可能性があります。 このプロセスの詳細については、次を参照してください。[ユーザーのパスワード リセット](/office365/admin/add-users/reset-passwords)します。
+パスワードのリセット要求が増える可能性があります。 このプロセスの詳細については、[ユーザーのパスワードを再設定する](/office365/admin/add-users/reset-passwords)ことに関する記事を参照してください。
 
 テナントからのユーザーの削除は、Microsoft 365 管理センターの標準的なプロセスを使用して実行できます。 ただし、ユーザーが組織のアクティブなメール アドレスを引き続き使用する場合、すべてのユーザーがブロックされない限り、そのユーザーはテナントに再び参加できます。
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Power BI テナントの場所
 
-Power BI テナントが、データ領域の詳細については、次を参照してください。 [Power BI テナントはどこにあるでしょうか。](service-admin-where-is-my-tenant-located.md)します。
+Power BI テナントが存在するデータ リージョンについて詳しくは、「[Power BI テナントの場所](service-admin-where-is-my-tenant-located.md)」をご覧ください。
 
 ### <a name="what-is-the-power-bi-sla"></a>Power BI SLA とは何ですか。
 
-詳細については、Power BI SLA (サービス レベル アグリーメント) は、次を参照してください。、[ライセンス条項とドキュメント](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)記事、**ライセンス**Microsoft ライセンス web サイトの「します。
+Power BI SLA (サービス レベル アグリーメント) については、Microsoft ライセンス Web サイトの「**ライセンス**」セクションにある「[ライセンス条項とドキュメント](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)」という記事をご覧ください。
 
 ### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI では高可用性とフェールオーバーはどのように処理されますか。
 
-高可用性とフェールオーバーの詳細については、次を参照してください。 [Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ](service-admin-failover.md)します。
+高可用性とフェールオーバーの詳細については、「[Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ](service-admin-failover.md)」を参照してください。
 
 ## <a name="security-in-power-bi"></a>Power BI のセキュリティ
 
@@ -255,7 +255,7 @@ Power BI のコンプライアンスの詳細については、[Microsoft セキ
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI のセキュリティはどのように機能していますか。
 
-Microsoft では、Azure Active Directory などの Azure サービス上に構築される Office 365 の基盤に Power BI が構築されています。 Power BI のアーキテクチャの概要については、「[Power BI のセキュリティ](service-admin-power-bi-security.md)」をご覧ください。
+Microsoft は Power BI を Office 365 上に構築しており、Azure Active Directory などの Azure サービス上に構築されます。 Power BI のアーキテクチャの概要については、「[Power BI のセキュリティ](service-admin-power-bi-security.md)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 
