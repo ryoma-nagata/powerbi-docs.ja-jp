@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342181"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380255"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI でのレポートへのフィルターの追加
 
@@ -76,6 +76,8 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
     ビジュアルに新しいフィルターが反映されます。 レポートをフィルターとともに保存すると、レポート閲覧者は、フィルター処理されたビジュアルが最初に表示され、読み取りビューでフィルターと対話して、値を選んだりクリアしたりすることができます。
      
     ![フィルター処理されたビジュアル](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    
+    フィールドが集計される (sum、average、count など) ビジュアルで使用されるフィールドに対してフィルターを使用すると、各データ ポイントの "*集計*" 値に基づいてフィルター処理が行われます。 したがって、上記のビジュアルに "**今年の売上 > 500,000**" というフィルターを適用することは、**13 - Charleston Fashion Direct** データ ポイントのみが結果に表示されることを意味します。 [モデル メジャー](desktop-measures.md)に対するフィルターは、常にデータ ポイントの集計値に適用されます。
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>ビジュアルに含まれていないフィールドでフィルター処理する
 
@@ -94,6 +96,8 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
     ![フィルター処理されたビジュアル](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     レポートをフィルターとともに保存すると、レポート閲覧者は読み取りビューで **District Manager** フィルターを操作して、値を選んだりクリアしたりすることができます。
+    
+    "*数値列*" をフィルター ウィンドウにドラッグしてビジュアルレベルのフィルターを作成すると、フィルターは "*基になるデータの行*" に適用されます。 たとえば、**UnitCost** フィールドにフィルターを追加し、それを **UnitCost** > 20 に設定した場合、ビジュアルに表示されているデータ ポイントの合計単価に関係なく、単価が 20 を超えた製品行のデータのみが表示されます。
 
 ## <a name="add-a-filter-to-an-entire-page"></a>ページ全体にフィルターを追加する
 
@@ -158,10 +162,6 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
 1. 戻る矢印を選んで、前のレポート ページに戻ります。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-
-- ビジュアル レベル フィルターとページ レベル フィルターが異なる結果を返すことがあります。  たとえば、ビジュアル レベル フィルターを追加すると、Power BI は集計結果をフィルター処理します。  既定の集計は合計ですが、[集計の種類を変更](service-aggregates.md)することもできます。  
-
-    その後、ページ レベル フィルターを追加すると、Power BI は集計せずにフィルター処理します。  集計しない理由は、それぞれが異なる集計の種類を利用するビジュアルが、多数ページに含まれている可能性があるためです。  そのため、フィルターは各データ行に適用されます。
 
 - [フィールド] ウィンドウが表示されない場合は、レポートが[編集ビュー](service-interact-with-a-report-in-editing-view.md)になっていることを確認してください。    
 - フィルターに多くの変更を加えた後で、レポート作成者の初期設定に戻す場合、一番上のメニュー バーから **[既定値にリセット]** を選択します。

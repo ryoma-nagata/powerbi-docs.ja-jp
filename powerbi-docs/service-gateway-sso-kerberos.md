@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1a0ec90d3f6a1de5a542da7ee98f956dfcef67b1
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325155"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624054"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する
 
@@ -170,9 +170,96 @@ SAP HANA を使用している場合は、次のパフォーマンスが若干�
 
 この構成は、ほとんどの場合に機能します。 ただし、Kerberos については、環境に応じて構成が異なる可能性があります。 レポートがまだ読み込まれない場合は、ドメイン管理者に連絡してさらに詳しく調査します。
 
-## <a name="configure-sap-bw-for-sso"></a>SAP BW に対して SSO を構成する
+## <a name="configure-sap-bw-for-sso-using-commoncryptolib"></a>CommonCryptoLib を使用して SSO 用に SAP BW を構成する
 
 Kerberos がゲートウェイと連携するしくみを理解できたので、SAP Business Warehouse (SAP BW) に対して SSO を構成できます。 次の手順は、この記事で前述したように、[Kerberos の制約付き委任の準備](#prepare-for-kerberos-constrained-delegation)が既にできていることを前提としています。
+
+> [!NOTE]
+> これらの手順では、SAP BW **アプリケーション** サーバーの SSO 設定について説明しています。 現在、Microsoft では、SAP BW **メッセージ** サーバーへの SSO 接続をサポートしていません。
+
+1. 自分の BW サーバーが Kerberos SSO 用に正しく構成されていることを確認します。 そうなっていれば、SSO を使用して、SAP GUI などの SAP ツールで自分の BW サーバーにアクセスできるはずです。 設定の手順の詳細については、次を参照してください: 「[SAP シングル サインオン: Kerberos/SPNEGO による認証](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/)」。 自分の BW サーバーでは、SNC ライブラリとして CommonCryptoLib を使用し、"CN=" で始まる SNC 名 (たとえば "CN=BW1") を付ける必要があります。 SNC 名の要件の詳細については、「[Kerberos 構成の SNC パラメーター](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html)」(snc/identity/as パラメーター) を参照してください。
+
+1. まだ行っていない場合は、「[Kerberos の制約付き委任のために準備する](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos#prepare-for-kerberos-constrained-delegation)」の手順を完了してください。 自分のゲートウェイ サービス ユーザーが、Active Directory 環境内で自分の BW アプリケーション サーバーを表すサービス ユーザーに、委任された資格情報を提示するように構成されていることを確認します。
+
+1. まだ行っていない場合は、x64 バージョンの [SAP .NET Connector](https://support.sap.com/en/product/connectors/msnet.html) を、ゲートウェイがインストールされているコンピューターにインストールしてください。 コンポーネントがインストールされているかどうかを確認するには、Power BI Desktop で自分の BW サーバーに接続してみます。 2\.0 実装を使用して接続できない場合は、.NET Connector がインストールされていません。
+
+1. ゲートウェイがインストールされているコンピューター上で、SAP Secure Login Client (SLC) が実行されていないことを確認します。 SLC は、SSO のために Kerberos を使用するゲートウェイの機能を妨げる可能性がある方法で、Kerberos チケットをキャッシュします。 SLC がインストールされている場合は、アンインストールするか、SAP Secure Login Client を必ず終了します。ゲートウェイを使用して SSO 接続を試行する前に、システム トレイ内のアイコンを右クリックし、[Log Out and Exit]\(ログアウトして終了\) を選択します。 SLC では、Windows Server マシン上での使用はサポートされていません。 詳細については、[SAP Note 2780475](https://launchpad.support.sap.com/#/notes/2780475) を参照してください (s-user が必要)。
+
+    ![SAP Secure Login Client](media/service-gateway-sso-kerberos/sap-secure-login-client.png)
+
+    SLC をアンインストールするか、 **[Log Out** and **Exit]\(ログアウトして終了\)** を選択した場合は、コマンド ウィンドウを開いて「`klist purge`」と入力して、ゲートウェイ経由で SSO 接続を試行する前に、キャッシュされた Kerberos チケットをクリアします。
+
+1. SAP スタート パッドから CommonCryptoLib (sapcrypto.dll) バージョン **8.5.25 以上**をダウンロードし、それを自分のゲートウェイ マシン上のフォルダーにコピーします。 sapcrypto.dll をコピーしたのと同じディレクトリに、次の内容が含まれた sapcrypto.ini という名前のファイルを作成します。
+
+    ```
+    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ```
+
+    .ini ファイルには、ゲートウェイ シナリオで SSO を有効にするために CommonCryptoLib が必要とする構成情報が含まれています。
+
+    > [!NOTE]
+    > これらのファイルは同じ場所に格納する必要があります。つまり、 _/path/to/sapcrypto/_ に sapcrypto.ini と sapcrypto.dll の両方を含める必要があります。
+
+    サービス ユーザーが偽装するゲートウェイ サービス ユーザーと Active Directory (AD) ユーザーの両方に、両方のファイルに対する読み取りおよび実行アクセス許可が必要です。 Authenticated Users グループに .ini ファイルと .dll ファイルの両方に対するアクセス許可を付与することをお勧めします。 テストを目的として、ゲートウェイ サービス ユーザーと偽装したユーザーの両方に、これらのアクセス許可を明示的に付与することもできます。 次のスクリーンショットでは、Authenticated Users グループに sapcrypto.dll に対する**読み取りと実行**のアクセス許可を付与しました。
+
+    ![Authenticated Users](media/service-gateway-sso-kerberos/authenticated-users.png)
+
+1. SAP Business Warehouse サーバーのデータ ソースがない場合は、Power BI サービスの **[ゲートウェイの管理]** ページで、データ ソースを追加します。 SSO 接続を通らせるゲートウェイに関連付けられている BW データ ソースが既にある場合は、それを編集する準備をします。
+
+    **SNC ライブラリ**には、**SNC\_LIB または SNC\_LIB\_64 環境変数**か、**カスタム**を選択してください。 **SNC\_LIB** オプションを選択する場合は、ゲートウェイ マシン上の SNC\_LIB\_64 環境変数の値を、ゲートウェイ マシン上の sapcrypto.dll のコピーの絶対パス (C:\Users\Test\Desktop\sapcrypto.dll など) に設定する必要があります。 **[カスタム]** を選択した場合は、 **[ゲートウェイの管理]** ページに表示される [カスタム SNC ライブラリ パス] フィールドに、sapcrypto .dll の絶対パスを貼り付けます。
+
+    **[詳細設定]** の下で、 **[DirectQuery クエリには Kerberos 経由で SSO を使用します]** チェック ボックスがオンになっていることを確認してください。 入力するユーザー名は、BW サーバーに接続するためのアクセス許可だけを備えている必要があります。また、これは主に、データ ソース接続の作成後、それをテストするために使用されます。 ユーザーは、インポートベースのデータセットから作成されたレポートを更新するためにも使用されます (存在する場合)。 **[基本]** 認証を選択した場合は、BW ユーザーを指定する必要があります。 **[Windows]** 認証を選択した場合は、SAP GUI の SU01 トランザクションを通じて BW ユーザーにマップされている Windows Active Directory ユーザーを指定する必要があります。 残りのフィールド ( **[システム番号] **、** [クライアント ID] **、** [SNC パートナー名]** など) は、SSO を介して自分の BW サーバーに接続するために Power BI Desktop に入力する情報と一致する必要があります。 **[適用]** を選択し、テスト接続が成功したことを確認します。
+
+    ![認証方法](media/service-gateway-sso-kerberos/authentication-method.png)
+
+1. CCL\_PROFILE システム環境変数を作成し、sapcrypto.ini を指すように設定します。
+
+    ![CCL\_PROFILE システム環境変数](media/service-gateway-sso-kerberos/ccl-profile-variable.png)
+
+    sapcrypto .dll と .ini ファイルは同じ場所に存在する必要があることに注意してください。 sapcrypto.ini がデスクトップ上にある上の例では、sapcrypto.dll もデスクトップ上にある必要があります。
+
+1. ゲートウェイ サービスを再起動します。
+
+    ![ゲートウェイ サービスを再起動する](media/service-gateway-sso-kerberos/restart-gateway-service.png)
+
+1. Power BI Desktop で **DirectQuery ベースの** BW レポートを発行します。 このレポートでは、Power BI サービスにサインインする Azure Active Directory (AAD) ユーザーにマップされている BW ユーザーがアクセスできるデータを使用する必要があります。 更新がどのように動作するかによっては、インポートの代わりに DirectQuery を使用する必要があります。 インポートベースのレポートを更新する場合、ゲートウェイでは、BW データ ソースを作成したときに **[ユーザー名]** と **[パスワード]** のフィールドに入力した資格情報が使用されます。 言い換えると、Kerberos SSO は使用**されません**。 また、複数のゲートウェイがある場合は、発行時に、BW SSO 用に構成したゲートウェイを選択してください。 これで、Power BI サービスで、発行したデータセットに基づいて、レポートを更新したり新しいレポートを作成したりできるようになりました。
+
+### <a name="troubleshooting"></a>トラブルシューティング
+
+Power BI サービスでレポートを更新できない場合は、ゲートウェイ トレース、CPIC トレース、および CommonCryptoLib トレースを使用して、問題の診断に役立てることができます。 CPIC トレースと CommonCryptoLib は SAP 製品であるため、Microsoft ではそれらを直接サポートすることはできません。 BW への SSO アクセスを許可される Active Directory ユーザーについては、一部の Active Directory 構成で、ゲートウェイがインストールされているマシンの Administrators グループのメンバーであることが必要になる場合があります。
+
+1. **ゲートウェイ ログ:** 単に問題を再現し、[ゲートウェイ アプリ](https://docs.microsoft.com/data-integration/gateway/service-gateway-app)を開き、 **[診断]** タブに移動して、 **[ログのエクスポート]** を選択します。
+
+    ![ゲートウェイ ログをエクスポートする](media/service-gateway-sso-kerberos/export-gateway-logs.png)
+
+1. **CPIC トレース:** CPIC トレースを有効にするには、次の 2 つの環境変数を設定します。CPIC\_TRACE と CPIC\_TRACE\_DIR です。 最初の変数はトレース レベルを設定し、2 番目の変数はトレース ファイルのディレクトリを設定します。 ディレクトリは、Authenticated Users グループのメンバーが書き込み可能な場所である必要があります。 CPIC\_TRACE を 3 に設定し、CPIC\_TRACE\_DIR をトレース ファイルの書き込み先にする任意のディレクトリに設定します。
+
+    ![CPIC トレース](media/service-gateway-sso-kerberos/cpic-tracing.png)
+
+    問題を再現し、CPIC\_TRACE\_DIR にトレース ファイルが含まれていることを確認します。
+
+1. **CommonCryptoLib トレース:** 前に作成した sapcrypto.ini ファイルに 2 行を追加して、CommonCryptoLib トレースを有効にします。
+
+    ```
+    ccl/trace/level=5
+    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ```
+
+    _ccl/trace/directory_ オプションを、Authenticated Users グループのメンバーが書き込み可能な場所に必ず変更します。 または、新しい .ini ファイルを作成して、この動作を変更します。 sapcrypto.ini および sapcrypto.dll と同じディレクトリに、次の内容が含まれた sectrace.ini という名前のファイルを作成します。  DIRECTORY オプションを、認証されたユーザーが書き込むことができる自分のマシン上の場所に置き換えます。
+
+    ```
+    LEVEL = 5
+    
+    DIRECTORY = \\<drive\\>:\logs\sectrace
+    ```
+
+    ここで問題を再現し、DIRECTORY によって指されている場所にトレース ファイルが含まれていることを確認します。 完了したら、CPIC および CCL トレースを無効にしてください。
+
+    CommonCryptoLib トレースの詳細については、[SAP Note 2491573](https://launchpad.support.sap.com/#/notes/2491573) (s-user が必要) を参照してください。
+
+## <a name="configure-sap-bw-for-sso-using-gsskrb5gx64krb5"></a>gsskrb5 または gx64krb5 を使用して SAP BW を SSO 用に構成する
+
+自分の SNC ライブラリとして CommonCryptoLib を使用できない場合は、代わりに gsskrb5 または gx64krb5 を使用できます。 ただし、設定手順はかなり複雑であり、SAP では gsskrb5 のサポートが提供されなくなっています。
 
 このガイドは、可能な限り包括的になるように書かれています。 一部の手順を既に完了している場合は、それをスキップできます。 たとえば、SAP BW サーバーのサービス ユーザーを既に作成して SPN をマップしてある場合や、`gsskrb5` ライブラリを既にインストールしてある場合です。
 
@@ -382,7 +469,7 @@ Azure AD Connect を構成していない場合は、Azure AD ユーザーにマ
 
 **オンプレミス データ ゲートウェイ**と **DirectQuery** の詳細については、次のリソースをご覧ください。
 
-* [オンプレミス データ ゲートウェイとは?](/data-integration/gateway/service-gateway-getting-started)
+* [オンプレミス データ ゲートウェイとは](/data-integration/gateway/service-gateway-onprem)
 * [Power BI の DirectQuery](desktop-directquery-about.md)
 * [DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
 * [DirectQuery と SAP BW](desktop-directquery-sap-bw.md)

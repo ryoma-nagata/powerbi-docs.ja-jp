@@ -1,6 +1,6 @@
 ---
 title: ワークスペース データフローの設定の構成
-description: Azure Data Lake ストレージ Gen2 に、データ フローの定義とデータ ファイルを格納する Power BI でのアプリ ワークスペースを構成します。
+description: Power BI にアプリのワークスペースを構成して、Azure Data Lake Storage Gen2 内にデータフロー定義とデータ ファイルを格納します
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61168552"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523520"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>ワークスペース データフローの設定の構成 (プレビュー)
 
@@ -105,7 +105,7 @@ Power BI Pro、Premium、および埋め込みのワークスペース:
 
 1.  アンナは新しいアプリのワークスペースを作成して、組織内の Data Lake にデータフローを格納するように構成しました。
 2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得することを考えています。
-3.  ベンは Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受信します。
+3.  ベンは Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受け取ります。
 
     ![データフローの使用を試行した際のエラー](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

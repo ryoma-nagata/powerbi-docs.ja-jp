@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809145"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590436"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -48,8 +48,7 @@ Azure は複数のクラウドに分散されます。 既定では、テナン�
 * 米国政府テキサス
 * 米国政府アリゾナ
 
-パブリック クラウドの場合、IP 空間を使用できますが、政府機関向けクラウドの場合は、Azure サポート チケットを開いて、上記に一覧したデータ センターの IP 範囲を要求する必要があります。 
-
+パブリック クラウドでは、IP 空間を使用できます。 政府機関向けクラウドの場合、最新情報については、ダウンロード可能な [Azure 政府サービスのドキュメント](https://www.microsoft.com/download/details.aspx?id=57063)を参照してください。
 
 ## <a name="limitations-of-power-bi-us-government"></a>米国政府向け Power BI の制限事項
 **Power BI サービス** の市販バージョンで利用できる機能の一部は、 **Power BI サービス** の米国政府顧客バージョンでは利用 *できません* 。 Power BI チームは米国政府顧客がこれらの機能を使用できるようにする作業を行っており、これらの機能が利用できるようになった時点でこの記事を更新します。
