@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e687c72ae058f56ca4f528783c5e2326d82db6bb
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140961"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523151"
 ---
 # <a name="dashboard-data-classification"></a>ダッシュボードのデータの分類
 すべてのダッシュボードは異なっており、接続先のデータ ソースによっては、共有を設定した人や共有する同僚がデータの機密性に応じてさまざまな予防措置を講じる必要があります。 社外の人と共有したり印刷したりしてはならないダッシュボードもあれば、自由に共有できるダッシュボードもあります。 ダッシュボードのデータの分類を使用すると、ダッシュボードを見るユーザーの、使用する必要があるセキュリティ レベルについての認識を高めることができます。 会社の IT 部門によって定義された分類でダッシュボードにタグを付けると、コンテンツを見るすべてのユーザーにデータの機密性を同じレベルで理解させることができます。
@@ -79,7 +79,7 @@ ms.locfileid: "61140961"
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 
-この時点で、すべてのダッシュボードには既定の分類が割り当てられ、ダッシュボードの所有者は分類の種類をコンテンツに適したものに更新できるようになります。 後でこのフォームに戻り、分類の種類を追加または削除したり、既定値を変更したりできます。  
+この時点で、すべてのダッシュボードに既定の分類が割り当てられます。 ダッシュボードの所有者は、分類の種類をコンテンツに適したものに更新できるようになりました。 後でこのフォームに戻り、分類の種類を追加または削除したり、既定値を変更したりできます。  
 
 > [!NOTE]
 > 後で変更するときに注意すべき重要な点がいくつかあります。

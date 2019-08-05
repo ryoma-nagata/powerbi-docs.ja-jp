@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514153"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523207"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop のメジャー
 
@@ -41,17 +41,17 @@ ms.locfileid: "65514153"
 DAX の数式は、Excel の数式とよく似ています。 DAX には、DATE、SUM、LEFT など、Excel と同じ関数も多く含まれています。 ただし、DAX の関数は、Power BI Desktop で取り扱っているようなリレーショナル データを操作することを意図しています。
 
 ## <a name="lets-look-at-an-example"></a>例を見てみましょう
-Jan は、Contoso 社の営業マネージャーです。 彼女は、次の会計年度の販売店売上予測を提供するように依頼されました。 そこで、Jan は昨年度の売上高に基づき、今後 6 か月間に予定されている各種のプロモーションの成果として年率 6% の売上増加を見込んで予測を立てることにしました。
+Jan は、Contoso 社の営業マネージャーです。 Jan は、次の会計年度の販売店売上予測を提供するように依頼されました。 そこで、Jan は昨年度の売上高に基づき、今後 6 か月間に予定されている各種のプロモーションの成果として年率 6% の売上増加を見込んで予測を立てることにしました。
 
-推定値を報告するため、Jan は Power BI Desktop に昨年度の売上データをインポートします。 "Reseller Sales" テーブルに、"SalesAmount" フィールドがあることを確認します。 インポートしたデータには昨年度の売上高だけが含まれているので、Jan は "SalesAmount" フィールドの名前を "Last Years Sales" に変更します。 次に Jan は "Last Years Sales" をレポート キャンバスにドラッグします。 昨年度のすべての販売店の売上合計を示す単一の値として、グラフによる視覚エフェクトが表示されます。
+推定値を報告するため、Jan は Power BI Desktop に昨年度の売上データをインポートします。 Jan は、Reseller Sales テーブルに SalesAmount フィールドがあることを確認します。 インポートしたデータには昨年度の売上高だけが含まれているので、Jan は "SalesAmount" フィールドの名前を "Last Years Sales" に変更します。 その後、Jan は Last Years Sales をレポート キャンバスにドラッグします。 昨年度のすべての販売店の売上合計を示す単一の値として、グラフによる視覚エフェクトが表示されます。
 
-ここで、Jan は自分で指定しなくても、数式が 1 つ自動的に用意されたことに気付きます。 Power BI Desktop により、"Last Years Sales" に含まれるすべての値の合計を計算する独自のメジャーが作成されました。
+Jan は計算を指定しなくても、自動的に 1 つ用意されたことに気付きます。 Power BI Desktop により、"Last Years Sales" に含まれるすべての値の合計を計算する独自のメジャーが作成されました。
 
-しかし、次の会計年度の売上予測を計算するメジャーが必要です。このメジャーでは、事業に 6% の増加を見込んで、昨年度の売上に 1.06 を乗算して計算します。 この計算については、自分で独自のメジャーを作成します。 新しいメジャーを作成する機能を使用して、新しいメジャーを作成し、次のような DAX 式を入力します。
+しかし、次の会計年度の売上予測を計算するメジャーが必要です。このメジャーでは、事業に 6% の増加を見込んで、昨年度の売上に 1.06 を乗算して計算します。 この計算については、Jan は独自のメジャーを作成します。 新しいメジャー機能を作成して、新しいメジャーを作成し、次の DAX 式を入力します。
 
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 
-この後、新しい Projected Sales メジャーをグラフにドラッグします。
+その後、Jan は新しい Projected Sales メジャーをグラフにドラッグします。
 
 ![](media/desktop-measures/measuresinpbid_lastyearsales.png)
 

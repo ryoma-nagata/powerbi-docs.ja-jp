@@ -1,6 +1,6 @@
 ---
-title: Power BI の組織のカスタム ビジュアル
-description: Power BI で組織のカスタム ビジュアルを使用、管理、作成する
+title: Power BI の組織のビジュアル
+description: Power BI で組織のビジュアルを使用、管理、作成する
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9775b7cd1eb936019051ae952bc270924061daaa
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421913"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415340"
 ---
-# <a name="organizational-custom-visuals-in-power-bi"></a>Power BI の組織のカスタム ビジュアル
+# <a name="organizational-visuals-in-power-bi"></a>Power BI の組織のビジュアル
 
 Power BI でカスタム ビジュアルを使い、ご自身の目的に合った独自のビジュアルを作成することができます。 カスタム ビジュアルは開発者が作成します。これは多くの場合、Power BI に付属している多くのビジュアルが各自の要件を満たしていないときに作成されます。
 

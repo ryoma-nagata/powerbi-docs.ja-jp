@@ -1,5 +1,5 @@
 ---
-title: Power BI カスタム ビジュアルに関してよく寄せられる質問
+title: Power BI ビジュアルに関してよく寄せられる質問
 description: Power BI カスタム ビジュアルについてよく寄せられる質問とその回答の一覧です
 author: sranins
 ms.author: rasala
@@ -10,16 +10,18 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 58fa65abfa2d2cff5e02b34fe8db8aa10b36ee14
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497928"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415386"
 ---
-# <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Power BI カスタム ビジュアルに関してよく寄せられる質問
+# <a name="frequently-asked-questions-about-power-bi-visuals"></a>Power BI ビジュアルに関してよく寄せられる質問
 
 ## <a name="organizational-custom-visuals"></a>組織のカスタム ビジュアル
+
+管理ポータルを使用すると、組織の Power BI ビジュアルを管理できます。
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>管理者が組織のカスタム ビジュアルを管理する方法を教えてください。
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0efbcf61eea82dd1db016917c7fa7c53e06c8a66
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a26cd6d654f9378d9fa09ae46b64762213b26089
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61407610"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522981"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI サービスでのデータ アラート
 アラートを設定すると、ダッシュボード内のデータが設定した制限を超えて変更された場合に通知されます。 
@@ -33,7 +33,7 @@ Power BI Pro のライセンスがある場合、または [Premium 容量](serv
 > 
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>Power BI サービスでのデータ アラートの設定
-Amanda がダッシュボードのタイルにアラートを追加するところをご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
+Amanda がダッシュボードのタイルにいくつかのアラートを追加する様子をご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 

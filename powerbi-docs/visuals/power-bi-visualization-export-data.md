@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d001c75d006838f46ce40a8f81bad0a9a058b148
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299443"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523347"
 ---
 # <a name="export-data-from-visualizations"></a>ビジュアルからデータをエクスポートする
 
@@ -150,9 +150,9 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
 
 - データをビジュアルからエクスポートするには、[基になるデータセットのビルド アクセス許可](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets)が必要です。
 
--  **Power BI Desktop** および **Power BI サービス**から *.csv* ファイルにエクスポートできる最大行数は 30,000 行です。
+-  **Power BI Desktop** および **Power BI サービス**で**インポート モード レポート**から *.csv* ファイルにエクスポートできる最大行数は、30,000 です。
 
-- アプリケーションから *.xlsx* ファイルにエクスポートできる最大行数は 150,000 行です。
+- アプリケーションで**インポート モード レポート**から *.xlsx* ファイルにエクスポートできる最大行数は、150,000 です。
 
 - "*基になるデータ*" を使用したエクスポートは、次の場合は動作しません。
 
@@ -166,7 +166,7 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
 
 - Power BI によるエクスポート対象の視覚化に対して *[データのない項目を表示する]* オプションが有効になっている場合、"*基になるデータ*" を使用したエクスポートは機能しません。
 
-- DirectQuery を使用している場合、Power BI でエクスポートできるデータの最大量は 16 MB です。 このためエクスポートされた行数が最大行数よりも少なくなることがあります。 これは次の場合に発生する可能性があります。
+- DirectQuery を使用している場合、Power BI でエクスポートできるデータの最大量は 16 MB (非圧縮データ) です。 このためエクスポートされた行数が最大行数よりも少なくなることがあります。 これは次の場合に発生する可能性があります。
 
     - 列の数が多い。
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 07/25/2019
 ms.author: mblythe
-ms.openlocfilehash: 0bb78e29cc3e9b9792d5916050179703281aa01a
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: a33ace000917311cbd060c853e0122034a396ae2
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68366751"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501727"
 ---
 # <a name="service-interruption-notifications"></a>サービス中断の通知
 
@@ -28,10 +28,10 @@ ms.locfileid: "68366751"
 - モデルの更新の信頼性
 - クエリの更新の信頼性
 
-インシデントが解決されると、フォローアップの電子メールを受信します。
+これらの通知の例として、ユーザーがレポートを開く、データセットを更新する、クエリを実行するといった操作の遅延が長くなる場合などがあります。 インシデントが解決されると、フォローアップの電子メールを受信します。
 
 > [!NOTE]
-> 現在、この機能は Power BI Premium の専用容量に対してのみ使用できます。 共有された容量には使用できません。
+> 現在、この機能は Power BI Premium の専用容量に対してのみ使用できます。 共有や埋め込み容量には使用できません。
 
 ## <a name="enable-notifications"></a>通知を有効にする
 

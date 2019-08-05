@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: cd75aebb09c7b6c54c1ff3f68635bfd5033c7f80
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d613085e47477500390ac6111887df89a802ea0b
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721469"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522874"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Excel ブックから魅力的なレポートを即座に作成する
 最新の売上データを直前のキャンペーンの感触と組み合わせて、上司にレポートを今日中に提出しなければなりません。 しかし、最新のデータはさまざまなサード パーティ システムと、自分のノート PC 内のファイルに散在しています。 以前に、ビジュアルとレポート書式を作成するのに何時間もかかった経験があります。 次第に不安が募ります。
@@ -71,7 +71,7 @@ Power BI に Excel ファイルがインポートされたら、レポートの�
 > 
 > 
 
-また、上司は、利益が大きいのはどの国かについて知りたいと考えています。 上司に気に入ってもらうため、地図による視覚化を使うことにします。 キャンバスの空白領域を選択し、[フィールド] ウィンドウから **[国]** 、 **[収益]** フィールドの順にドラッグします。 Power BI によって、各場所の相対的な利益を表すバブルの表示された地図ビジュアルが作成されます。
+また、上司は、利益が大きいのはどの国かについて知りたいと考えています。 気に入ってもらうため、マップの視覚エフェクトを使うことにします。 キャンバスの空白領域を選択し、[フィールド] ウィンドウから **[国]** 、 **[収益]** フィールドの順にドラッグします。 Power BI によって、各場所の相対的な利益を表すバブルの表示された地図ビジュアルが作成されます。
 
 ![レポート エディターでのマップ ビジュアル](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
 

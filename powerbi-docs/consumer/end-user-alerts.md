@@ -12,15 +12,15 @@ ms.topic: tutorial
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd92374a23a2ee7023c75cfb2612c00d513e9895
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 64da077e079ca3df11ce2a89da546e24865eaf0e
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61065773"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522880"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>チュートリアル:Power BI サービスでのデータ アラートの設定
-アラートを設定すると、ダッシュボード内のデータが設定した制限を超えて変更された場合に通知されます。 
+アラートを設定すると、ダッシュボード内のデータが設定した制限を超えて変更された場合に通知されます。  
 
 Power BI Pro のライセンスがある場合、または [Premium 容量](../service-premium-what-is.md)からダッシュボードを共有されている場合は、タイルにアラートを設定できます。 アラートは、レポートのビジュアルからピン留めされたタイルでのみ、ゲージ、KPI、カードに対してだけ設定できます。 アラートは、レポートからダッシュボードにピン留めしたストリーミング データセットから作成されるビジュアルに設定できますが、 **[タイルの追加]**  >  **[カスタム ストリーミング データ]** でダッシュボードで直接作成したストリーミング タイルには設定できません。 
 
@@ -44,7 +44,7 @@ Power BI Pro のライセンスがある場合、または [Premium 容量](../s
 Power BI にサインアップしていない場合は、[無料の試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>Power BI サービスでのデータ アラートの設定
-Amanda がダッシュボードのタイルにアラートを追加するところをご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
+Amanda がダッシュボードのタイルにいくつかのアラートを追加する様子をご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161003"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522740"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
 
@@ -75,8 +75,8 @@ Power BI Desktop:
 **Power BI Desktop** の顧客は、データフローの所有者である場合か、データフローの CDM フォルダーに対して明示的に承認済みになっている場合を除いて、Azure Data Lake Storage Gen2 アカウント内に格納されているデータフローにはアクセスできません。 次の状況を検討します。
 
 1.  アンナは新しいアプリのワークスペースを作成して、CDM フォルダーからのデータフローを格納するように構成しました。
-2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得したいと考えています。
-3.  ベンは Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受信します。
+2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得することを考えています。
+3.  Ben は Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受け取ります。
 
     ![データフローの使用を試行した際のエラー](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
@@ -96,9 +96,9 @@ Power BI Desktop:
 データフロー全般については、次の記事をご覧ください。
 
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium での計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
 * [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
-* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
+* [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 
 Azure Storage の詳細については、次の記事をご覧ください。
 * [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

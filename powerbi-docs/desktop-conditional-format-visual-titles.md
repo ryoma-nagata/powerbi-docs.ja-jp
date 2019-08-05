@@ -1,6 +1,6 @@
 ---
-title: Power BI Desktop での式に基づくタイトル
-description: Power BI Desktop で変更をプログラムでの式に基づくプログラムによる条件付き書式を使用して動的なタイトルを作成します。
+title: Power BI Desktop の式に基づくタイトル
+description: Power BI Desktop で、条件付きのプログラムによる書式設定を使用し、プログラム式に基づいて変更される動的タイトルを作成する
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,32 +10,32 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b90ef66d2c118a70f1b18ed4fe302ce1db23e45c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1b4e134ef6f8da43a1856c8a5458c8c09b2c42b5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769744"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522176"
 ---
-# <a name="expression-based-titles-in-power-bi-desktop"></a>Power BI Desktop での式に基づくタイトル
+# <a name="expression-based-titles-in-power-bi-desktop"></a>Power BI Desktop の式に基づくタイトル
 
-動的に作成することができます、Power BI ビジュアルのタイトルをカスタマイズします。 Data Analysis Expressions (DAX) フィールド、変数、またはその他のプログラム要素に基づいて作成すると、ビジュアルのタイトルは必要に応じて自動的に調整できます。 これらの変更は、フィルター、選択、またはその他のユーザーの操作や構成に基づきます。
+Power BI ビジュアルに対して、カスタマイズされた動的なタイトルを作成できます。 フィールド、変数、またはその他のプログラム要素に基づいて Data Analysis Expressions (DAX) を作成することで、ビジュアルのタイトルを必要に応じて自動的に調整できます。 これらの変更は、フィルター、選択、またはその他のユーザー操作と構成に基づいています。
 
-![Power BI Desktop のスクリーン ショットの条件付き書式設定オプション](media/desktop-conditional-formatting-visual-titles/expression-based-title-01.png)
+![Power BI Desktop の条件付き書式設定オプションのスクリーンショット](media/desktop-conditional-formatting-visual-titles/expression-based-title-01.png)
 
-動的のタイトルの作成とも呼ばれる*タイトルの式に基づく*は簡単です。 
+動的なタイトル (*式に基づくタイトル* ともいう) の作成は簡単です。 
 
-## <a name="create-a-field-for-your-title"></a>タイトルのフィールドを作成します。
+## <a name="create-a-field-for-your-title"></a>タイトルのフィールドを作成する
 
-式ベースのタイトルを作成する最初の手順では、タイトルに使用するモデルのフィールドを作成します。 
+式に基づくタイトルを作成する最初の手順は、タイトルに使用するためにモデルでフィールドを作成することです。 
 
-あらゆる種類の創造的な方法が必要だ、または express する内容の反映、ビジュアルのタイトルがあります。 2 つの例を見ていきましょう。
+ビジュアルのタイトルに、伝えたい内容や表現したい内容を反映させるためのさまざまな創造的方法があります。 例をいくつか見てみましょう。
 
-製品のブランド名のビジュアルを受信するフィルター コンテキストに基づいて変更する式を作成することができます。 次の図は、このようなフィールドに DAX 数式を示します。
+ビジュアルで製品のブランド名に対して受け取るフィルター コンテキストに基づいて変更される式を作成できます。 次の図は、このようなフィールドの DAX 式を示しています。
 
-![スクリーン ショットの DAX の数式](media/desktop-conditional-formatting-visual-titles/expression-based-title-02.png)
+![DAX 式のスクリーンショット](media/desktop-conditional-formatting-visual-titles/expression-based-title-02.png)
 
-別の例では、変更がユーザーの言語またはカルチャに基づく動的なタイトルを使用しています。 メジャーの DAX 言語に固有のタイトルを作成するにを使用して、`USERCULTURE()`関数。 この関数は、オペレーティング システムやブラウザーの設定に基づき、ユーザーのカルチャ コードを返します。 次の DAX switch ステートメントを使用すると、適切な翻訳された値を選択します。 
+別の例では、ユーザーの言語またはカルチャに基づいて変更される動的なタイトルを使用します。 `USERCULTURE()` 関数を使用することで、DAX メジャーで言語固有のタイトルを作成できます。 この関数では、オペレーティング システムまたはブラウザーの設定に基づき、ユーザーのカルチャ コードが返されます。 次の DAX switch ステートメントを使用して、変換された正しい値を選択できます。 
 
 ```
 SWITCH (
@@ -46,33 +46,35 @@ SWITCH (
 )
 ```
 
-または、すべての翻訳を格納する参照テーブルから文字列を取得することができます。 モデルには、そのテーブルを配置します。 
+または、すべての変換を含むルックアップ テーブルから文字列を取得することもできます。 そのテーブルをモデルに配置します。 
 
-これらは、Power BI Desktop でビジュアルのタイトルを動的な式に基づくを作成する際の例の 2 だけです。 タイトルで行うことができますが、想像力と、モデルによってのみ制限されます。
+これらは、Power BI Desktop でビジュアルの式に基づく動的なタイトルを作成するために使用できるいくつかの例にすぎません。 タイトルでできることは、お客様の想像力とモデルで決まります。
 
 
-## <a name="select-your-field-for-your-title"></a>タイトルのフィールドを選択します。
+## <a name="select-your-field-for-your-title"></a>タイトルのフィールドを選択する
 
-モデルを作成するフィールドの DAX 式を作成した後、ビジュアルのタイトルに適用する必要があります。
+モデルで作成するフィールドに対して DAX 式を作成した後、それをビジュアルのタイトルに適用する必要があります。
 
-フィールドを選択し、適用するには、**視覚化**ウィンドウ。 **形式**領域で、**タイトル**ビジュアルのタイトルのオプションを表示します。 
+フィールドを選択して適用するには、 **[視覚化]** ウィンドウに移動します。 **[書式]** 領域で、 **[タイトル]** を選択してビジュアルのタイトル オプションを表示します。 
 
-右クリックすると**タイトルのテキスト**、選択できるように、コンテキスト メニューが表示されます ***fx* 条件付き書式**します。 そのメニュー項目を選択すると、**タイトルのテキスト** ダイアログ ボックスが表示されます。 
+**[タイトルのテキスト]** を右クリックすると、コンテキスト メニューが表示され、***fx* 条件付き書式設定**を選択できます。 そのメニュー項目を選択すると、 **[タイトル テキスト]** ダイアログボックスが表示されます。 
 
-![スクリーン ショットのタイトル テキスト ダイアログ ボックス](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
+![[タイトル テキスト] ダイアログ ボックスのスクリーンショット](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 
-そのウィンドウのタイトルに使用するために作成するフィールドを選択できます。
+このウィンドウから、タイトルに使用するために作成したフィールドを選択できます。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 
-ビジュアルのタイトルを式に基づくの現在の実装にいくつかの制限があります。
+ビジュアルの式に基づくタイトルの現在の実装にはいくつかの制限があります。
 
-* ビジュアルの Python、R ビジュアルまたは主要な影響元のビジュアルで現在、式ベースの書式設定機能はサポートされていません。
-* タイトルを作成するフィールドは、文字列データ型である必要があります。 数値または日付/時刻 (またはその他の任意のデータ型) を返すメジャーは現在サポートされていません。
+* 式に基づく書式設定は、現在、Python ビジュアル、R ビジュアル、または主要なインフルエンサーのビジュアルではサポートされていません。
+* タイトルに対して作成するフィールドは、文字列データ型である必要があります。 数値や日付/時刻 (またはその他のデータ型) を返すメジャーは、現在、サポートされていません。
+* ビジュアルをダッシュボードにピン留めすると、式に基づくタイトルが引き継がれません。
 
 ## <a name="next-steps"></a>次の手順
 
-この記事では、ユーザーがレポートと対話するときに変更可能な動的フィールドに、ビジュアルのタイトルを有効にする DAX 式を作成する方法について説明します。 次の記事に役に立つもします。
+この記事では、ユーザーがレポートを操作するときに変更される可能性がある動的フィールドにビジュアルのタイトルを変換する DAX 式を作成する方法について説明しました。 次の記事も役立つ場合があります。
 
-* [Power BI Desktop でクロス レポートのドリルスルーを使用します。](desktop-cross-report-drill-through.md)
+* [テーブルでの条件付き書式設定](desktop-conditional-table-formatting.md)
+* [Power BI Desktop でレポート間のドリルスルーを使用する](desktop-cross-report-drill-through.md)
 * [Power BI Desktop でドリルスルーを使用する](desktop-drillthrough.md)

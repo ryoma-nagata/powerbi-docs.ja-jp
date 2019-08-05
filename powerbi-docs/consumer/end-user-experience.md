@@ -12,16 +12,16 @@ ms.topic: quickstart
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 86c8297c9a55f2b59e7c01390ff15bb3b2d4bf2e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: af7f2f0ca5407694b13f0b053ff347f883c8c983
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61049393"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523039"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>クイック スタート - Power BI サービス内の移動
 
-Power BI の基本を理解したので、**Power BI サービス**の操作について説明します。 前に説明したように、ユーザーによっては、**Power BI Desktop** だけを使って、データを組み合わせたり、他のユーザーのためのレポートを作成したりすることがあります。 一方で、Power BI サービスだけを使って、他のユーザーが作成したコンテンツを表示し、操作するユーザーもいます (エクスペリエンスの**消費**)。 このクイック スタートでは、サンプル データをインポートし、そのデータを使って Power BI サービスの操作方法を説明します。 
+Power BI の基本を理解したので、**Power BI サービス**の操作について説明します。 前述のとおり、チームのメンバーが、**Power BI Desktop** だけを使って、データを組み合わせたり、他のユーザーのためのレポートを作成したりすることがあります。 一方で、Power BI サービスだけを使って、他のユーザーが作成したコンテンツを表示し、操作するユーザーもいます (エクスペリエンスの**消費**)。 このクイック スタートでは、サンプル データをインポートし、そのデータを使って Power BI サービスの操作方法を説明します。 
  
 ## <a name="prerequisites"></a>前提条件
 
@@ -61,7 +61,7 @@ Amanda が Power BI サービスのナビゲーション操作を説明するツ
 
 ![ワークスペースの短いビデオ](./media/end-user-experience/nav.gif)
 
-これらのタブには ("*コンテンツ ビュー*" とも呼ばれます)、コンテンツについての情報と、そのコンテンツで実行できるアクションが表示されます。  たとえば、[ダッシュボード] タブからは、ダッシュボードを開いたり、検索したり、並べ替えたりできます。
+これらのタブ (*コンテンツ ビュー* ともいう) 内には、コンテンツについての情報と、そのコンテンツで実行できるアクションが表示されます。  たとえば、[ダッシュボード] タブからは、ダッシュボードを開いたり、検索したり、並べ替えたりできます。
 
 ![[ダッシュボード] タブ](./media/end-user-experience/power-bi-dashboard-tab.png)
 

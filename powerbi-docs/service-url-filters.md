@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051283"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523314"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -28,7 +28,7 @@ Power BI サービスでレポートを開くと、レポートの各ページ�
 
 Power BI Desktop で作業しているとします。 他の Power BI レポートへのリンクを含むレポートを作成しますが、他のレポートの情報の一部のみを表示する必要があります。 最初に、クエリ文字列パラメーターを使用してレポートをフィルター処理し、URL を保存します。 次に、Desktop でこれらの新しいレポート URL を使用してテーブルを作成します。  その後、レポートを発行して共有します。
 
-また、クエリ文字列パラメーターは、高度な Power BI ソリューションを作成するユーザーが使用することもできます。  そのユーザーは DAX を使用して、現在のレポートでの顧客の選択に基づいて、フィルター処理されたレポート URL を動的に生成するレポートを作成します。 顧客が URL を選択すると、目的の情報のみが表示されます。 
+また、クエリ文字列パラメーターは、高度な Power BI ソリューションを作成するユーザーが使用することもできます。  DAX を使用して、現在のレポートでの顧客の選択に基づいて、フィルター処理されたレポート URL を動的に生成するレポートを作成します。 顧客が URL を選択すると、目的の情報のみが表示されます。 
 
 ## <a name="query-string-parameter-syntax-for-filtering"></a>フィルター処理のためのクエリ文字列パラメーターの構文
 
@@ -43,7 +43,7 @@ URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
 
 ### <a name="reports-in-apps"></a>アプリ内のレポート
 
-アプリ内のレポートに URL フィルターを追加する場合は、書式設定が少し異なります。 アプリ内のレポートへのリンクには、URL に追加されるクエリ パラメーター (ctid) が含まれます。 クエリ パラメーターを区切りますアンパサンド (&)。 保持"でしょうか。 フィルター ="と ctid パラメーターを URL の末尾に移動する前にアンパサンド (&)。 
+アプリ内のレポートに URL フィルターを追加する場合は、書式設定が少し異なります。 アプリ内のレポートへのリンクには、URL に追加されるクエリ パラメーター (ctid) が含まれます。 クエリ パラメーターはアンパサンド (&) で区切ります。 “?filter=” を保持し、ctid パラメーターを URL の末尾に移動し、その前にアンパサンド (&) を指定します。 
 
 次の例のようにします。
 
@@ -83,7 +83,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 レポートはノースカロライナでフィルター処理されます。レポート ページのすべての視覚化には、ノースカロライナのデータだけが表示されます。
 
-![レポートはノースカロライナでフィルター処理](media/service-url-filters/power-bi-report4.png)
+![ノースカロライナでフィルター処理されたレポート](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>複数のフィールドでフィルター処理する
 
@@ -133,9 +133,9 @@ Power BI の URL フィルターには、次の形式で数値を含めること
 
 ### <a name="date-data-types"></a>日付データ型
 
-Power BI では、**Date** および **DateTimeOffset** データ型で OData V3 と V4 の両方がサポートされます。  日付は、EDM の形式を使用して表されます (2019-02-12T00:00:00) ' YYYY MM DD' として日付を指定するときに Power BI として解釈するため、' YYYY、MM-DDT00:00:00'。
+Power BI では、**Date** および **DateTimeOffset** データ型で OData V3 と V4 の両方がサポートされます。  日付は EDM 形式 (2019-02-12T00:00:00) を使用して表されます。そのため、日付を 'YYYY-MM-DD' のように指定すると、それは Power BI によって 'YYYY-MM-DDT00:00:00' と解釈されます。
 
-この区別が重要なのはなぜでしょうか? たとえば、クエリ文字列パラメーターを作成する**テーブル/日付 gt ' 2018-08-03'** します。  結果には 2018 年 8 月 3 日が含まれるのでしょうか。または、2018 年 8 月 4 日 で始まるのでしょうか。 Power BI にクエリを変換するため**テーブル/日付 gt '2018-08-03T00:00:00'** の結果には、それらの日付よりも大きくなるため、0 以外の時刻部分がある任意の日付が含まれます **' 2018-08-03T00:00:00'** .
+この区別が重要なのはなぜでしょうか? たとえば、**Table/Date gt '2018-08-03'** というクエリ文字列パラメーターを作成するとします。  結果には 2018 年 8 月 3 日が含まれるのでしょうか。または、2018 年 8 月 4 日 で始まるのでしょうか。 Power BI ではクエリが **Table/Date gt '2018-08-03T00:00:00'** に変換されるため、ゼロ以外の時刻部分を含む日付が結果に含まれます。これは、日付が **'2018-08-03T00:00:00'** より大きいためです。
 
 ## <a name="special-characters-in-url-filters"></a>URL フィルター内の特殊文字
 
@@ -177,7 +177,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 * *in* 演算子を使用する場合は、*in* の右側の値をかっこで囲んだコンマ区切りのリストにする必要があります。    
 * Power BI Report Server で、レポートの URL に含ませることによって[レポート パラメーターを渡す](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)ことができます。 レポート処理エンジンに直接渡されるため、これらの URL パラメーターにはプレフィックスが付いていません。
-* クエリ文字列のフィルター処理を使用しない[web に公開](service-publish-to-web.md)または[PDF へのエクスポート](consumer/end-user-pdf.md)します。
+* クエリ文字列のフィルター処理は、[Web に公開](service-publish-to-web.md)や [PDF にエクスポート](consumer/end-user-pdf.md)では機能しません。
 * 「[SharePoint Online にレポート Web パーツを埋め込む](service-embed-report-spo.md)」では、URL のフィルター処理はサポートされていません。
 * JavaScript の制限により、long データ型は (2^53-1) となります。
 * レポート URL フィルターには、10 個の式 (AND によって連結された 10 個のフィルター) の制限があります。

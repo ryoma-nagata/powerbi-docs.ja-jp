@@ -8,128 +8,132 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: dfa8ff694a1f4a4ba4e5078fe93300e4bf26cc73
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
+ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721396"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68391511"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI サービス内のサンプルに接続する
 
-このチュートリアルでは、次の方法について説明します。 
+このチュートリアルでは、次の方法を紹介します。 
 - サンプル コンテンツ パックをインポートして Power BI サービスに追加し、コンテンツを開く。 *コンテンツ パック*は、データセットにダッシュボードやレポートがバンドルされているタイプのサンプルです。 
 - Power BI Desktop でサンプルの .pbix ファイルを開く。
 
-最初にバックグラウンド情報についての知識を増やしたい場合は、「[Power BI のサンプル データセットに関する記事](sample-datasets.md)」をお読みになることをお勧めします。 入手方法、保存場所、使用方法、各サンプルのストーリーなどがわかります。 基本的なことがわかったら、このチュートリアルに戻ってください。   
+背景情報の詳細については、「[Power BI 用のサンプル データセット](sample-datasets.md)」を参照してください。 その記事では、入手方法、保存場所、使用方法、各サンプルのストーリーなど、サンプルに関するすべてがわかります。 
 
 ## <a name="prerequisites"></a>前提条件
 このサンプルは、Power BI サービスでも Power BI Desktop でも利用できます。 作業を進めるには、小売りの分析のサンプルを開きます。
 
 このチュートリアルで使う *小売の分析* のサンプル コンテンツ パックは、ダッシュボード、レポート、データセットで構成されています。
-特定のコンテンツ パックとそのシナリオに慣れるには、始める前に、「[take a tour of the Retail Analysis sample](sample-retail-analysis.md)」 (Power BI の小売りの分析のサンプル: 使ってみる) を読んでください。
+このコンテンツ パックとそのシナリオに慣れるには、始める前に「[Retail Analysis sample for Power BI:take a tour](sample-retail-analysis.md)」 (Power BI の小売りの分析サンプル: ツアーを開始する) をご覧ください。
 
-## <a name="samples-and-power-bi-service"></a>サンプルと Power BI サービス
+## <a name="samples-in-the-power-bi-service"></a>Power BI サービスのサンプル
 
-1. Power BI サービス (app.powerbi.com) を開き、サインインします。
-2. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。 **[データの取得]** が表示されていない場合は、![ハンバーガー アイコン](media/sample-tutorial-connect-to-the-samples/expand-nav.png)を選んでナビゲーション ウィンドウを展開してください。
-   
-   ![[データの取得] アイコン](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
-5. **[サンプル]** を選択します。  
-   
-   ![[サンプル] ボタン](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
-6. *[小売の分析のサンプル]* を選び、 **[接続]** を選びます。   
-   
-   ![黄色の [接続] ボタン](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
+1. Power BI サービス (app.powerbi.com) を開いてサインインし、サンプルを保存するワークスペースを開きます。 
 
-## <a name="what-exactly-was-imported"></a>実際にインポートされたもの
-サンプル コンテンツ パックの場合、 **[接続]** を選ぶと、Power BI はそのコンテンツ パックのコピーを実際に取り込んで、クラウドに格納します。 コンテンツ パックにはデータセット、レポート、ダッシュボードが含まれるので、 **[接続]** をクリックするとそれらが取得されます。 
+    Power BI Pro ライセンスを持っていない場合は、マイ ワークスペースにサンプルを保存できます。
 
-1. Power BI は新しいダッシュボードを作成し、 **[ダッシュボード]** タブの一覧に表示します。黄色のアスタリスクは、レポートが新しいことを示します。
+2. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。 
+
+   ![[データを取得] を選択](media/sample-datasets/power-bi-get-data.png)
+
+   **[データの取得]** が表示されない場合、ナビゲーション ウィンドウの一番上にある![ハンバーガー アイコン](media/sample-tutorial-connect-to-the-samples/expand-nav.png)を選択し、ウィンドウを展開してください。
+
+5. 表示された **[データを取得]** ページで、 **[サンプル]** を選びます。
    
-   ![成功メッセージ](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
+6. **[小売りの分析のサンプル]** を選び、 **[接続]** を選びます。   
+   
+   ![[接続] ボタン](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
+
+## <a name="what-was-imported"></a>何がインポートされましたか?
+サンプル コンテンツ パックの場合、 **[接続]** を選択すると、Power BI にそのコンテンツ パックのコピーが与えられ、クラウドに自動保存されます。 コンテンツ パックにはデータセット、レポート、ダッシュボードが含まれるので、 **[接続]** を選択するとそれらが取得されます。 
+
+1. **[接続]** を選択すると、Power BI では新しいダッシュボードが作成され、 **[ダッシュボード]** タブに一覧表示されます。 
+   
+   ![小売りの分析のサンプル エントリ](media/sample-retail-analysis/retail-entry.png)
 2. **[レポート]** タブを開きます。"*小売りの分析のサンプル*" という名前の新しいレポートが表示されます。
    
-   ![赤いボックスに囲まれた [小売りの分析のサンプル] と黄色のアスタリスク](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
+   ![小売りの分析のサンプル レポート エントリ](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
    
-   **[データセット]** タブをクリックします。新しいデータセットが表示されます。
+   **[データセット]** タブを確認します。新しいデータセットもそこにあります。
    
-   ![赤いボックスに囲まれた [小売りの分析のサンプル]](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
+   ![小売りの分析のサンプル データセット エントリ](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
 
 ## <a name="explore-your-new-content"></a>新しいコンテンツを調べる
-ダッシュボード、データセット、レポートを自分で調べてみてください。 ダッシュボード、レポート、データセット内の移動にはさまざまな方法があり、以下で説明するのはそのうちの 1 つだけです。  
+ダッシュボード、データセット、レポートを自分で調べてみてください。 ダッシュボード、レポート、データセットにはさまざまな方法で移動できます。 その 1 つは次の手順になります。  
 
-> [!TIP]
-> 最初に少し手助けが必要な場合は、  「[Power BI の小売りの分析のサンプル: 使ってみる](sample-retail-analysis.md)」でこのサンプルの詳細なチュートリアルをご覧ください。
-> 
-> 
+1. **[ダッシュボード]** タブに戻り、 **[小売りの分析のサンプル]** ダッシュボードを選択して開きます。       
 
-1. **[ダッシュボード]** タブに戻り、"*小売りの分析のサンプル*" ダッシュボードを選んで開きます。    
+   ダッシュボードが開きます。ダッシュボードには、さまざまな視覚的タイルが含まれています。   
+ 
+1. ダッシュボードでタイルの 1 つを選択し、基になるレポートを開きます。 この例では、 **[This Year's Sales, Last Year's Sales by Fiscal Month]\(会計月別の今年の売上、昨年の売上\)** という面グラフを選択します。  
+
+   ![[小売りの分析のサンプル] ダッシュボード。ビジュアルが強調表示されています](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards2new.png)
+
+   レポートが開き、選択した面グラフが含まれるページが表示されます。この場合、レポートの **[地区の毎月の売上]** ページになります。
    
-   ![[ダッシュボード] タブが選択されています](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards.png)
-2. ダッシュボードが開きます。  さまざまな視覚化タイルがあります。
-   
-   ![ビジュアルが強調表示されているダッシュボード](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards2new.png)
-3. タイルの 1 つを選び、基になるレポートを開きます。  この例では面グラフを選びます (前の図のピンクで囲まれた部分)。 その面グラフを含むページが開きます。
-   
-    ![一致するビジュアルが強調表示されているレポート ページ](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
+   ![[地区の毎月の売上] レポートページ](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > タイルが [Power BI Q&A](power-bi-tutorial-q-and-a.md) を使って作成されている場合は、代わりに Q&A ページが開きます。 タイルを [Excel からピン留め](service-dashboard-pin-tile-from-excel.md)した場合は、Power BI 内で Excel Online が開きます。
+   > [Power BI Q&A](power-bi-tutorial-q-and-a.md) を利用してタイルが作成された場合、代わりに Q&A ページが開きます。 タイルを [Excel からピン留め](service-dashboard-pin-tile-from-excel.md)した場合、Power BI 内で Excel Online が開きます。
    > 
    > 
-1. **[データセット]** タブに戻ると、データセットを調べるためのいくつかのオプションがあります。  それを開いてすべての行と列を表示することはできません (Power BI Desktop または Excel ではできます)。  同僚とコンテンツ パックを共有する作成者は、通常、分析情報の結果だけを共有し、同僚がデータに直接アクセスできるようにはしません。 ただし、これは同僚がデータセットを調べることができないという意味ではありません。  
+1. 同僚とコンテンツ パックを共有する作成者は、通常、分析情報だけを共有し、データに直接アクセスできるようにはしません。 **[データセット]** タブには、データセットを調べるためのいくつかのオプションがあります。 ただし、Power BI Desktop または Excel の場合と同様に、データの行と列を表示することはできません。 
    
-   ![データセット タブ](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
+   ![小売りの分析のサンプル データセット エントリ](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
    
-   * データセットを調べる 1 つの方法は、独自の視覚化とレポートを一から作成することです。  [グラフ] アイコンを選び、 ![[レポート] アイコン](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) レポート編集モードでデータセットを開きます。
+1. データセットを調べる 1 つの方法は、独自の視覚化とレポートを一から作成することです。 [グラフ] アイコンを選び、 ![[グラフ] アイコン](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) レポート編集モードでデータセットを開きます。
      
-       ![新しいレポート](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * データセットを調べるもう 1 つの方法は、[クイック分析情報](consumer/end-user-insights.md)を実行することです。 省略記号 [...] を選び、 **[詳細情報の取得]** を選びます。 詳細情報の準備ができたら、 **[詳細情報を表示]** を選びます。
+   ![真新しいレポート](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
+
+1. データセットを調べるもう 1 つの方法は、[クイック分析情報](consumer/end-user-insights.md)を実行することです。 省略記号 [...] を選択し、 **[詳細情報の取得]** を選択します。 詳細情報の準備ができたら、 **[詳細情報を表示]** を選びます。
      
-       ![分析情報のレポート](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
+    ![分析情報のレポート](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-and-power-bi-desktop"></a>サンプルと Power BI Desktop 
-サンプルの PBIX ファイルを初めて開くと、ファイルがレポート ビューで表示され、レポートの任意のページを視覚エフェクトを利用して検索、作成および変更できます。 [レポート] ビューには、Power BI サービスのレポートの編集ビューとほとんど同じデザイン機能が用意されています。 視覚化の移動、コピーと貼り付け、マージなどを行えます。
+## <a name="samples-in-power-bi-desktop"></a>Power BI Desktop のサンプル 
+Power BI Desktop でサンプルの .pbix ファイルを初めて開くと、ファイルがレポート ビューで表示され、レポートの任意のページを視覚エフェクトを利用して検索、作成、変更できます。 [レポート] ビューには、Power BI サービスのレポートの編集ビューとほとんど同じデザイン機能が用意されています。 視覚化の移動、コピーと貼り付け、マージなどを行うことができます。 
 
-これらの相違点は、Power BI Desktop を使用すると、データのクエリとモデルを操作して、レポートでの最適な分析を支えるデータが確実に得られるようになることです。 その後、Power BI Desktop のファイルは、ローカルのドライブまたはクラウドに関係なく、お好みの場所に保存することができます。
+Power BI サービスでレポートを編集する場合とは異なり、Power BI Desktop では、データのクエリとモデルを操作し、レポートでの最適な分析情報をサポートするデータが確実に得られます。 その後、Power BI Desktop のファイルは、ローカルのドライブまたはクラウドに関係なく、任意の場所に保存できます。
 
-1. [小売りの分析のサンプルの .pbix ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を Power BI Desktop で開きます。 
+1. [小売りの分析のサンプルの .pbix ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)をダウンロードし、Power BI Desktop で開きます。 
 
-    ![Power BI のレポート ビューで開いているサンプル](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
+    ![Power BI のレポート ビューのサンプル](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
-1. ファイルがレポート ビューで開きます。 レポート エディターの下部に、タブが 4 つあることにお気付きですか。 このレポートには 4 ページあり、今は [New Stores]\(新しい店舗\) ページが選択されている状態です。 
+1. ファイルがレポート ビューで開きます。 レポート エディターの下部にある 4 つのタブにご注目ください。これらのタブは、このレポートの 4 つのページを表わします。 この例では、 **[新しい店舗]** ページが現在選択されています。 
 
-    ![下部のタブと強調表示されている [New Stores] のクローズアップ](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
+    ![[新しい店舗] タブが強調表示されている](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
 
-3. レポート エディターの詳細については、[レポート エディターの紹介](service-the-report-editor-take-a-tour.md)に関するページをご覧ください。
+1. レポートエディターの詳細については、「[Power BI でのレポート エディターのツアー](service-the-report-editor-take-a-tour.md)」を参照してください。
 
-## <a name="what-exactly-was-imported"></a>実際にインポートされたもの
-サンプルの PBIX ファイルを Desktop で開くと、Power BI は実際にそのデータのコピーを作成し、クラウドに保存します。 Desktop からはレポートおよび***基になるデータセット***にアクセスすることができます。 データが読み込まれるときに、Power BI Desktop はリレーションシップの検索および作成を試みます。  
+## <a name="whats-in-your-report"></a>レポートには何が入っていますか?
+サンプルの .pbix ファイルをダウンロードすると、レポートだけでなく、*基になるデータセット*もダウンロードされます。 ファイルを開くと、Power BI Desktop では、データとそれに関連するクエリやリレーションシップが読み込まれます。 基になるデータやリレーションシップを表示できますが、クエリ エディターで基になるクエリを表示することはできません。
 
-1. テーブル アイコン ![テーブル アイコン](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png)を選択して[データ ビュー](desktop-data-view.md)に切り替えます。
+
+1. テーブル アイコン ![テーブル アイコン](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png) を選択し、[[データ ビュー]](desktop-data-view.md) に切り替えてください。
  
     ![Desktop のデータ ビュー](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
 
-    データ ビューは、Power BI Desktop モデル内のデータを検査、調査、理解するのに役立ちます。 これは、クエリ エディター内のテーブル、列、データの表示方法とは異なります。 データ ビューには、モデルに読み込まれた後のデータが表示されます。
+    データ ビューで、Power BI Desktop モデルのデータを調べ、いろいろ試し、理解できます。 クエリ エディターでテーブル、列、データを表示する方法とは異なります。 データ ビューのデータはモデルに既に読み込まれています。
 
-    データをモデル化しているときに、レポート キャンバスにビジュアルを作成することなく、実際のテーブルまたは列の内容を行レベルまで確認したい場合があります。 これは、メジャーと計算列を作成している場合や、データ型またはデータのカテゴリを識別する必要に特に当てはまります。
+    データをモデリングするとき、レポート キャンバスでビジュアルを作成することなく、テーブルの行と列に実際にあるものを表示できれば便利なことがあります。 これは、メジャーと計算列を作成している場合や、データ型またはデータのカテゴリを識別する必要に特に当てはまります。
 
-1. アイコン ![3 つの箱がつながっているようなアイコン](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png) を選択して[リレーションシップ ビュー](desktop-relationship-view.md)に切り替えます。
+1. [[リレーションシップ ビュー]](desktop-relationship-view.md) に切り替えるには、![リレーションシップ ビュー](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png) アイコンを選択します。
  
     ![Power BI Desktop のリレーションシップ ビュー](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
 
     リレーションシップ ビューには、モデル内のすべてのテーブル、列、リレーションシップが表示されます。 ここからリレーションシップの表示、変更、および作成を行えます。
 
-## <a name="explore-your-new-content"></a>新しいコンテンツを調べる
-データセット、リレーションシップ、レポートをご自身で調べてみてください。 概要については、[Desktop の概要ガイド](desktop-getting-started.md)に関するページをご覧ください。    
-
-
 ## <a name="next-steps"></a>次の手順
+変更内容を保存しないことを選択できるため、この環境で試してみるのは安全です。 一方、それらを保存した場合は、 **[データを取得]** を選択して、常にこのサンプルの新しいコピーを取得できます。
 
+Power BI のダッシュボード、データセット、リレーションシップ、レポートでサンプル データから分析情報を得るしくみをこのツアーでご理解いただけたら幸いです。 次はあなたの番です。ご自分のデータに接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細は、[Power BI サービスの概要](service-get-started.md)ページと [Power BI Desktop の概要](desktop-getting-started.md)ページをご覧ください。  
+
+詳細については、次のトピックを参照してください。  
 - [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 - [Power BI サービスのサンプル](sample-datasets.md)
 - [Power BI のデータ ソース](service-get-data.md)

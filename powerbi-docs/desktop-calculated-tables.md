@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239473"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522234"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop で計算テーブルを使用する
 計算テーブルを使うと、モデルに新しいテーブルを追加できます。 しかし、値のクエリを実行してデータ ソースから新しいテーブルの列に値を読み込む代わりに、テーブルの値を定義する Data Analysis Expressions (DAX) 数式を作成することができます。 Power BI Desktop では、レポート ビューまたはデータ ビューの [新しいテーブル] 機能を使用して計算テーブルを作成します。
@@ -39,7 +39,7 @@ Contoso 社のプロジェクト マネージャー Jeff は、北西部の従�
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 
-この 2 つのテーブルを合わせて 1 つの計算テーブルにする操作は非常に簡単です。 計算テーブルはレポート ビューとデータ ビューのどちらでも作成できますが、新しい計算テーブルをすぐに確認できるので、データ ビューで操作すると少し簡単になります。
+この 2 つのテーブルを合わせて 1 つの計算テーブルにする操作は非常に簡単です。 Jeff は計算テーブルをレポート ビューまたはデータ ビューで作成できますが、新しい計算テーブルをすぐに確認できるので、データ ビューで操作すると少し簡単になります。
 
 **データ ビュー**の **[モデリング]** タブで **[新しいテーブル]** をクリックします。 数式バーが表示されます。
 
@@ -53,7 +53,7 @@ Western Region Employees という名前の新しいテーブルが作成され�
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-この新しい Western Region Employees テーブルは、フィールドの一覧に他のテーブルと同じように表示されます。 他のテーブルとのリレーションシップを作成したり、計算列やメジャーを追加したり、任意のフィールドを他のテーブルと同じようにレポートに追加したりできます。
+この新しい Western Region Employees テーブルは、フィールドの一覧に他のテーブルと同じように表示されます。 Jeff は他のテーブルとのリレーションシップを作成したり、計算列やメジャーを追加したり、任意のフィールドを他のテーブルと同じようにレポートに追加したりすることもできます。
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 

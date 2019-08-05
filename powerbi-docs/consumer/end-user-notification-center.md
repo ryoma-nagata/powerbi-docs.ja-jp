@@ -12,17 +12,17 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 34bb77c84d1813e32421b87e957e24a946f282f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e0a7985997a4512fe26812547f12f1b9be648f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61066231"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522737"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI 通知を表示する
 通知センターは、Power BI の利用に関連する情報のシーケンシャルなフィードです。 これを開くと、共有されている新しいダッシュボードに関するメッセージ、グループ領域の変更、Power BI のイベントや会議、設定したアラートなどに関する情報が表示されます。 [Power BI サービスでアラートを設定](../service-set-data-alerts.md)できます。Power BI モバイル アプリでもアラートを設定できます。
 
-Amanda が受け取った通知を確認し、通知を管理し、返信するのをご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
+Amanda が通知をレビューし、管理し、また、通知に応答する様子をご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 

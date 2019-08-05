@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
-ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
+ms.openlocfilehash: 4c39cf5a60786f7cc1748155ce7004254d40ad00
+ms.sourcegitcommit: ebac79f8c2871d4a7e54c1e99ce6d2409345b060
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67235056"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68475638"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>クライアント アプリケーションとツールでデータセットに接続する (プレビュー)
 
-Power BI Premium ワークスペースとデータセットでは、Microsoft およびサード パーティのクライアント アプリケーションとツールからの*読み取り専用*接続をサポートします。 
+Power BI Premium ワークスペースとデータセットでは、Microsoft およびサード パーティのクライアント アプリケーションとツールからの*読み取り専用*接続をサポートします。 既定では、接続は有効になっています
 
 > [!NOTE]
 > この記事は、Power BI Premium のワークスペースとデータセットに読み取り専用接続を導入することのみを対象にしています。 プログラミング、特定のツールとアプリケーション、アーキテクチャ、ワークスペースとデータセットの管理に関する詳細な情報を提供することを想定して*いません*。 ここで説明されているサブジェクトには、Analysis Services 表形式モデルのデータベース アーキテクチャと管理をしっかりと理解しておく必要があります。
@@ -104,6 +104,10 @@ SQL Server Profiler などの一部のツールでは、*初期カタログ*の�
 ### <a name="roles-and-role-memberships"></a>ロールとロールのメンバーシップ
 
 現時点では、モデルのロールとロールのメンバーシップは、XMLA エンドポイントを使用して検出も表示もされません。
+
+## <a name="disable-connectivity"></a>接続を無効にする
+
+既定では、XMLA エンドポイント接続はデータセット ワークロードに対して有効になっています。 [ワークロードの設定](service-admin-premium-workloads.md#workload-settings)で接続を無効にすることができます。
 
 ## <a name="audit-logs"></a>監査ログ 
 

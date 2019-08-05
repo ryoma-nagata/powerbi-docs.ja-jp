@@ -11,20 +11,20 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: cb0870bf6f1cdca3cb1f95dc516f5f9124422327
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375231"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523379"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI 用 Cortana のトラブルシューティング
 この記事はシリーズの一部です。 
 
 > [!IMPORTANT]
-> Power BI で Cortana の統合は非推奨です。 6 月 11 日以降、任意のダッシュ ボードとレポートの Cortana は動作しなくします。
+> Cortana の統合は Power BI では非推奨になります。 6 月 11 日以降、すべてのダッシュボードとレポートで Cortana が動作しなくなります。
 
-Cortana が Power BI と統合させる際に問題が生じる場合は、適切な場所にしてきました。 以下の手順に従って問題を診断し、解決してください。
+Cortana と Power BI の統合に問題がある場合は、ここでその解決方法を説明します。 以下の手順に従って問題を診断し、解決してください。
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Cortana が Power BI のレポートまたはダッシュボードから回答を発見できない理由
 1. Power BI アカウントがありますか。  ない場合は、[無料試用版にサインアップ](https://powerbi.microsoft.com/get-started/)します。
@@ -54,7 +54,7 @@ Cortana が Power BI と統合させる際に問題が生じる場合は、適�
 1. レポートで回答を探している場合、Cortana **回答カード**を含むレポートがありますか? 回答カードは、Cortana が Power BI レポートで回答を見つけられる唯一の方法です。  回答カードの作成方法については、[Power BI サービスと Power BI Desktop での Cortana 回答カードの作成](service-cortana-answer-cards.md)に関するページをご覧ください。
 2. Windows バージョン 1511 以降を実行していますか。  Windows の設定を開き、 **[システム] > [バージョン情報]** を選んで確認してください。 上記のバージョンでない場合は、Windows のバージョンを更新します。
 3. Windows と Power BI アカウントは接続されていますか。 これはややこしい場合があります。 「[Power BI 用に Cortana を有効にする](service-cortana-enable.md#add-your-power-bi-credentials-to-windows)」の説明に従ってください。
-4. 基礎となるデータセットを Cortana に対して有効にしていますか? Cortana が有効になっているデータセットが他のユーザーによって既に共有されているかもしれません。 そうでない場合は、[自分で Cortana 用にデータセットを有効にする方法を学習](service-cortana-enable.md)してください。 すぐに簡単にできます。
+4. 基礎となるデータセットを Cortana に対して有効にしていますか? Cortana に対して既に有効になっているデータセットを同僚が共有している可能性があります。 そうでない場合は、[自分で Cortana 用にデータセットを有効にする方法を学習](service-cortana-enable.md)してください。 すぐに簡単にできます。
 
 ## <a name="dashboards-only-why-doesnt-cortana-find-answers-from-my-power-bi-dashboards"></a>ダッシュボードのみ: Cortana が Power BI のダッシュボードから回答を発見できない理由
 1. 職場のアカウントに接続していることを確認します。 Power BI は、データに対するアクセス許可を認証するためにこの接続を必要とします。 職場のアカウントに接続されているかどうかを確認するには、Windows 検索ボックスを利用し、“職場または学校への接続” に移動します。  

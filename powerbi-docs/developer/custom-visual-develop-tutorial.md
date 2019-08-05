@@ -1,5 +1,5 @@
 ---
-title: Power BI カスタム ビジュアルを開発する
+title: Power BI のビジュアルを開発する
 description: Power BI カスタム ビジュアルの開発方法に関するチュートリアル
 author: sranins
 ms.author: rasala
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161235"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415435"
 ---
-# <a name="tutorial-developing-a-power-bi-custom-visual"></a>チュートリアル:Power BI カスタム ビジュアルを開発する
+# <a name="tutorial-developing-a-power-bi-visual"></a>チュートリアル:Power BI のビジュアルを開発する
 
 開発者が Power BI にカスタム ビジュアルを簡単に追加して、ダッシュボードとレポートで使用できるようにします。 すぐに始められるように、すべての視覚化のコードが GitHub で公開されています。
 
@@ -79,35 +79,35 @@ Power BI Desktop レポートでは、Circle Card になるようにカードが
     pbiviz --install-cert
     ```
 
-  結果が返され、"*パスフレーズ*" が生成されています。 ここでは、"*パスフレーズ*" は **_15105661266553327_** になっています。そして、証明書のインポート ウィザードが起動されます。
+    結果が返され、"*パスフレーズ*" が生成されています。 ここでは、"*パスフレーズ*" は **_15105661266553327_** になっています。 証明書のインポート ウィザードも起動します。
 
-  ![PowerShell 経由で作成された証明書](media/custom-visual-develop-tutorial/cert-create.png)
+    ![PowerShell 経由で作成された証明書](media/custom-visual-develop-tutorial/cert-create.png)
 
-3. 証明書のインポート ウィザードで、ストアの場所が [現在のユーザー] に設定されていることを確認します。 *[次へ]* を選択します。
+2. 証明書のインポート ウィザードで、ストアの場所が [現在のユーザー] に設定されていることを確認します。 *[次へ]* を選択します。
 
       ![証明書のインストール](media/custom-visual-develop-tutorial/install-cert-PowerShell.png)
 
-4. **[File to Import]\(インポートするファイル\)** 手順で、 *[次へ]* を選択します。
+3. **[File to Import]\(インポートするファイル\)** 手順で、 *[次へ]* を選択します。
 
-5. **[秘密キーの保護]** 手順で、[パスワード] ボックスに、証明書の作成で受け取ったパスフレーズを貼り付けます。ここでも、パスフレーズは **_15105661266553327_** です。
+4. **[秘密キーの保護]** 手順で、[パスワード] ボックスに、証明書の作成で受け取ったパスフレーズを貼り付けます。ここでも、パスフレーズは **_15105661266553327_** です。
 
       ![パスフレーズのコピー](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
-6. **[証明書ストア]** 手順で、 **[証明書をすべて次のストアに配置する]** オプションを選択します。 次に、 *[参照]* を選択します。
+5. **[証明書ストア]** 手順で、 **[証明書をすべて次のストアに配置する]** オプションを選択します。 次に、 *[参照]* を選択します。
 
       ![次のストアにあるすべての証明書](media/custom-visual-develop-tutorial/all-certs-in-the-following-store.png)
 
-7. **[証明書ストアの選択]** ウィンドウで、 **[信頼されたルート証明機関]** を選択して、 *[OK]* をクリックします。 その後、 **[証明書ストア]** 画面で *[次へ]* をクリックします。
+6. **[証明書ストアの選択]** ウィンドウで、 **[信頼されたルート証明機関]** を選択して、 *[OK]* をクリックします。 その後、 **[証明書ストア]** 画面で *[次へ]* をクリックします。
 
       ![信頼されたルート証明書](media/custom-visual-develop-tutorial/trusted-root-cert.png)
 
-8. インポートを完了するには、 **[完了]** を選択します。
+7. インポートを完了するには、 **[完了]** を選択します。
 
-9. セキュリティの警告を受信した場合は、 **[はい]** を選択します。
+8. セキュリティの警告を受信した場合は、 **[はい]** を選択します。
 
     ![セキュリティの警告](media/custom-visual-develop-tutorial/cert-security-warning.png)
 
-10. インポートが成功したという通知を受け取った場合は、 **[OK]** をクリックします。
+9. インポートが成功したという通知を受け取った場合は、 **[OK]** をクリックします。
 
     ![証明書のインポートに成功](media/custom-visual-develop-tutorial/cert-import-successful.png)
 

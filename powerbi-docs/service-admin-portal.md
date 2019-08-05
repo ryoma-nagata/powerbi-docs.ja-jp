@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/27/2019
+ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 751bcb5ee3b383853f0087bab406d59a2271b588
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67568142"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501780"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -117,7 +117,7 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 
 削除した既存の利用状況の指標コンテンツとユーザーごとの指標コンテンツは元に戻せないので注意が必要です。
 
-## <a name="users"></a>Users
+## <a name="users"></a>ユーザー
 
 Microsoft 365 管理センターで Power BI のユーザー、グループ、管理者を管理します。 **[ユーザー]** タブには、テナントの管理センターへのリンクが含まれています。
 
@@ -133,7 +133,7 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 **[テナント設定]** タブを使うと、組織で利用できる機能をきめ細かく制御できます。 機密データに関して懸念がある場合、一部の機能がお客様の組織に適していない場合や、特定の機能を特定のグループのみが使用できるようにする必要がある場合があります。
 
-**[テナント設定]** タブの最初の 2 つのセクションを次の図に示します。
+次の図には、 **[テナント設定]** タブのいくつかの設定が示されています。
 
 ![テナント設定](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -169,6 +169,10 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 組織内のユーザーは、Power BI のヘルプ メニューから、内部のヘルプおよびサポート リソースにアクセスできます。 具体的には、これらのパラメーターにより、[詳細]、[コミュニティ]、[ヘルプを表示] の各メニュー項目の動作を変更します。
 
 また、ライセンス要求に対して、ユーザーをカスタム ソリューションに誘導する URL を指定することもできます。 このパラメーターにより、[アカウントのアップグレード] ボタンのターゲット URL をカスタマイズします。これは、Power BI Pro のライセンスを持たないユーザーに対して、Power BI Pro への更新ダイアログ ボックスおよび [パーソナル ストレージの管理] ページで表示されます。
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>サービスの停止またはインシデントに関するメール通知を受け取る
+
+このテナントがサービスの停止またはインシデントの影響を受けた場合、メールが有効なセキュリティ グループはメール通知を受け取ります。 詳細については、「[サービス中断の通知](service-interruption-notifications.md)」を参照してください。
 
 ## <a name="workspace-settings"></a>ワークスペースの設定
 
