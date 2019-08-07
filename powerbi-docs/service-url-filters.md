@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2019
+ms.date: 07/25/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523314"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623893"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -54,8 +54,8 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 フィールドの型は、数値、日付時刻、または文字にすることができます。使用する型は、データセットに設定されている型と一致する必要があります。  たとえば、日付として設定されているデータセット列で日付時刻値や数値を検索する場合、"文字列" 型のテーブル列を指定しても動作しません (Table/StringColumn eq 1 など)。
 
 * **文字列**は単一引用符で囲む必要があります (例: 'manager name')。
-* **数値**には特別な書式設定は必要ありません。
-* **日付と時刻**は単一引用符で囲む必要があります。 OData v3 では、これらの前には datetime という単語が必要ですが、OData v4 では datetime は必要ありません。
+* **数値**には特別な書式設定は必要ありません。 詳細については、この記事の「[数値データ型](#numeric-data-types)」を参照してください。
+* **日付と時刻**については、この記事の「[日付データ型](#date-data-types)」を参照してください。 
 
 以下では構文についてさらに詳しく説明します。  
 
@@ -133,9 +133,17 @@ Power BI の URL フィルターには、次の形式で数値を含めること
 
 ### <a name="date-data-types"></a>日付データ型
 
-Power BI では、**Date** および **DateTimeOffset** データ型で OData V3 と V4 の両方がサポートされます。  日付は EDM 形式 (2019-02-12T00:00:00) を使用して表されます。そのため、日付を 'YYYY-MM-DD' のように指定すると、それは Power BI によって 'YYYY-MM-DDT00:00:00' と解釈されます。
+Power BI では、**Date** および **DateTimeOffset** データ型で OData V3 と V4 の両方がサポートされます。 OData V3 の場合、日付は単一引用符で囲み、その前には datetime という単語を付ける必要があります。 OData V4 では、単一引用符と datetime という単語を使用する必要ありません。 
+  
+日付は EDM 形式を使用して表されます (2019-02-12T00:00:00)。日付を 'YYYY-MM-DD' と指定した場合、Power BI ではそれが 'YYYY-MM-DDT00:00:00' と解釈されます。 月と日は必ず 2 桁 (MM および DD) とする必要があります。
 
-この区別が重要なのはなぜでしょうか? たとえば、**Table/Date gt '2018-08-03'** というクエリ文字列パラメーターを作成するとします。  結果には 2018 年 8 月 3 日が含まれるのでしょうか。または、2018 年 8 月 4 日 で始まるのでしょうか。 Power BI ではクエリが **Table/Date gt '2018-08-03T00:00:00'** に変換されるため、ゼロ以外の時刻部分を含む日付が結果に含まれます。これは、日付が **'2018-08-03T00:00:00'** より大きいためです。
+この区別が重要なのはなぜでしょうか? たとえば、**Table/Date gt '2018-08-03'** というクエリ文字列パラメーターを作成するとします。  結果には 2018 年 8 月 3 日が含まれるのでしょうか。または、2018 年 8 月 4 日 で始まるのでしょうか。 ご利用のクエリは、Power BI によって、**Table/Date gt '2018-08-03T00:00:00'** に変換されます。 したがって、結果にはゼロ以外の時刻部分を持つ日付が含まれます。これらの日付は **'2018-08-03T00:00:00'** よりも大きいためです。
+
+V3 と V4 には他にも違いがあります。 OData V3 では、Dates はサポートされていません。サポートされているのは DateTime のみです。 そのため、V3 形式を使用する場合は、それを完全な日時で修飾する必要があります。 "datetime'2019-05-20'" のような日付リテラルは、V3 表記ではサポートされていません。 しかし、V4 表記では "2019-05-20" のみの記述するだけで済みます。 V3 と V4 の 2 つの同等のフィルター クエリを次に示します。
+
+- OData V4 形式: filter=Table/Date gt 2019-05-20
+- OData V3 形式: filter=Table/Date gt datetime'2019-05-20T00:00:00'
+
 
 ## <a name="special-characters-in-url-filters"></a>URL フィルター内の特殊文字
 

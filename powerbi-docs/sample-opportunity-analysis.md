@@ -82,7 +82,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
 1. サンプルを保存したワークスペースで、 **[ダッシュボード]** タブを開き、 **[営業案件の分析のサンプル]** ダッシュボードを探してそれを選択します。
 
-2. **[Opportunity Count by Partner Driven, Sales Stage]\(パートナー主導の営業案件数、営業段階)\** タイルを選んで、[営業案件の分析のサンプル] レポートの最初のページを開きます。 
+2. **[Opportunity Count by Partner Driven, Sales Stage]\(パートナー主導の営業案件数、営業段階)** タイルを選んで、[営業案件の分析のサンプル] レポートの最初のページを開きます。 
 
     ![[Opportunity Count by Partner Driven, Sales Stage]\(パートナー主導の営業案件数、営業段階)\ タイル](media/sample-opportunity-analysis/opportunity2.png)
 
