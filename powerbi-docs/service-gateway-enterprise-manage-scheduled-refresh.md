@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a3cdc3e6c4fc4f18613994a919f8ab733df5e14
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e223fba25386e91354130083f8bacc653b26cee
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271699"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757656"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>データ ソースの管理 - インポート/スケジュールされた更新
 
@@ -25,7 +25,7 @@ ms.locfileid: "68271699"
 
 ## <a name="add-a-data-source"></a>データ ソースの追加
 
-データ ソースを追加する方法の詳細については、「[Add a data source](service-gateway-data-sources.md#add-a-data-source)」(データソースの追加) を参照してください。
+データ ソースを追加する方法の詳細については、「[データ ソースの追加](service-gateway-data-sources.md#add-a-data-source)」を参照してください。 データ ソースの種類を選択します。
 
 一覧表示されているすべてのデータソースの種類は、オンプレミス データ ゲートウェイでスケジュールされた更新に使用できます。 Analysis Services、SQL Server、SAP HANA は、スケジュールされた更新、DirectQuery/ライブ接続のどちらに対しても使用できます。
 
@@ -34,7 +34,7 @@ ms.locfileid: "68271699"
 次に、データ ソースにアクセスするために使用するソース情報や資格情報などの、データ ソースの情報を記入できます。
 
 > [!NOTE]
-> データ ソースへのすべてのクエリは、これらの資格情報を使用して実行されます。 資格情報の格納方法の詳細については、「[Storing encrypted credentials in the cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)」(暗号化された資格情報のクラウドへの格納) を参照してください。
+> データ ソースへのすべてのクエリは、これらの資格情報を使用して実行されます。 資格情報の格納方法の詳細については、「[暗号化された資格情報をクラウドに格納する](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)」を参照してください。
 
 ![データ ソース設定の入力](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
 
@@ -46,20 +46,20 @@ ms.locfileid: "68271699"
 
 ### <a name="advanced-settings"></a>詳細設定
 
-必要に応じて、データ ソースのプライバシー レベルを構成できます。 これにより、データを結合できる方法を制御します。 これは、スケジュールされた更新にのみ使用します。 データ ソースのプライバシー レベルの詳細については、「[プライバシーレベル (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)」を参照してください。
+必要に応じて、データ ソースのプライバシー レベルを構成できます。 この設定により、データを結合できる方法が管理されます。 これは、スケジュールされた更新にのみ使用されます。 データ ソースのプライバシー レベルの詳細については、「[プライバシーレベル (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)」を参照してください。
 
 ![プライバシー レベルの設定](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings9.png)
 
-## <a name="using-the-data-source-for-scheduled-refresh"></a>スケジュールされた更新でデータ ソースを使用する
+## <a name="use-the-data-source-for-scheduled-refresh"></a>スケジュールされた更新でデータ ソースを使用する
 
-データ ソースを作成した後、DirectQuery 接続かスケジュールされた更新のいずれかによって使用できるようになります。
+作成したデータ ソースは、DirectQuery 接続またはスケジュールされた更新のいずれかで使用できます。
 
 > [!NOTE]
 > Power BI Desktop とオンプレミス データ ゲートウェイ内のデータ ソースとの間で、サーバーとデータベース名が一致している必要があります。
 
-データセットとゲートウェイ内のデータ ソース間のリンクは、サーバー名とデータベース名に基づいています。 このため、これらは一致している必要があります。 たとえば、Power BI Desktop 内でサーバー名の IP アドレスを指定する場合は、ゲートウェイ構成内のデータ ソースでもその IP アドレスを使用する必要があります。 Power BI Desktop で *SERVER\INSTANCE* を使用する場合は、ゲートウェイ用に構成されているデータ ソース内でも同じものを使用する必要があります。
+データセットとゲートウェイ内のデータ ソース間のリンクは、サーバー名とデータベース名に基づいています。 これらの名前は一致している必要があります。 たとえば、Power BI Desktop 内でサーバー名の IP アドレスを指定する場合は、ゲートウェイ構成内のデータ ソースでもその IP アドレスを使用する必要があります。 Power BI Desktop で *SERVER\INSTANCE* を使用する場合は、ゲートウェイ用に構成されているデータ ソース内でもそれを使用する必要があります。
 
-ゲートウェイ内に構成されているデータ ソースの **[ユーザー]** タブの一覧に自分のアカウントが表示されていて、さらにサーバーとデータベース名が一致している場合は、スケジュールされた更新で使用するオプションとして、ゲートウェイが表示されます。
+ゲートウェイ内に構成されているデータ ソースの **[ユーザー]** タブの一覧に自分のアカウントが表示されていて、さらにサーバー名とデータベース名が一致している場合は、スケジュールされた更新で使用するオプションとして、ゲートウェイが表示されます。
 
 ![ユーザーの表示](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
@@ -68,11 +68,11 @@ ms.locfileid: "68271699"
 
 ## <a name="limitations"></a>制限事項
 
-OAuth は、オンプレミスのデータ ゲートウェイでサポートされる認証方式ではありません。 OAuth を必要とするデータ ソースを追加することはできません。 データセットに OAuth を必要とするデータ ソースが含まれる場合は、スケジュールされた更新にゲートウェイを使用できません。
+OAuth は、オンプレミスのデータ ゲートウェイでサポートされる認証方式ではありません。 OAuth を必要とするデータ ソースを追加することはできません。 データセットに OAuth を必要とするデータ ソースが含まれる場合、スケジュールされた更新にゲートウェイを使用できません。
 
 ## <a name="next-steps"></a>次の手順
 
 * [オンプレミス データ ゲートウェイのトラブルシューティング](/data-integration/gateway/service-gateway-tshoot)
 * [ゲートウェイのトラブルシューティング - Power BI](service-gateway-onprem-tshoot.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)を利用してください。

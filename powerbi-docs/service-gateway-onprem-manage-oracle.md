@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: af3ebd421a82448ce8a3f13661801ffc1d0051e0
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e3e51bf13a904e46552529d9131dbbb4665cb7d
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271471"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730230"
 ---
 # <a name="manage-your-data-source---oracle"></a>データ ソースの管理 - Oracle
 
@@ -73,7 +73,7 @@ Oracle データ ソースの種類を選択した後は、 **[サーバー]** �
 また、 **[認証方法]** も選択する必要があります。  **[Windows]** または **[基本]** を選択できます。  Windows 認証ではなく Oracle 内で作成されたアカウントを使用する場合は、 **[基本]** を選択します。 次に、このデータ ソースで使用される資格情報を入力します。
 
 > [!NOTE]
-> データ ソースへのすべてのクエリは、これらの資格情報を使用して実行されます。 資格情報の格納方法の詳細については、「[Storing encrypted credentials in the cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)」(暗号化された資格情報のクラウドへの格納) を参照してください。
+> データ ソースへのすべてのクエリは、これらの資格情報を使用して実行されます。 資格情報の格納方法の詳細については、「[暗号化された資格情報をクラウドに格納する](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)」を参照してください。
 
 ![データ ソース設定の入力](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 

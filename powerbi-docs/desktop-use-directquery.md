@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324788"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757608"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 **Power BI Desktop** を利用すれば、データ ソースに接続するとき、常にデータのコピーを **Power BI Desktop** にインポートできます。 データ ソースによっては、代替手法を利用できます。**DirectQuery** でデータ ソースに直接接続する方法です。
@@ -62,10 +62,9 @@ ms.locfileid: "68324788"
   
   ソース データベースの負荷も、公開されたレポートを使用する Power BI ユーザーの数に基づき考慮してください。 *行レベルのセキュリティ* (RLS) を使用した場合も大きな影響があります。RLS 以外のダッシュボード タイルを複数のユーザーが共有した場合、1 件のクエリがデータベースに実行されますが、ダッシュボード タイルで RLS を使用することは、通常、タイルの更新には、*ユーザー*あたり 1 クエリ必要になることを意味します。そのため、ソースデータベースに大きな負荷がかかり、パフォーマンスに影響を与える可能性があります。
   
-  Power BI では、可能な限り効率的なクエリが作成されます。 ただし、特定の状況では、生成されたクエリは十分に効率的ではなく、更新が失敗することがあります。 たとえば、生成されたクエリがバックエンド データ ソースから過度に大量の行 (100 万以上) を取得することがあります。その場合、次のエラーが発生します。
+  Power BI では、可能な限り効率的なクエリが作成されます。 ただし、特定の状況では、生成されたクエリは十分に効率的ではなく、更新が失敗することがあります。 たとえば、生成されたクエリがバックエンド データ ソースから過度に大量の行を取得することがあります。その場合、次のエラーが発生します。
   
       The resultset of a query to external data source has exceeded
-      the maximum allowed size of '1000000' rows.
   
   このような状況は、カーディナリティが非常に高い列を含む簡単なグラフで集計オプションが *[Don’t Summarize]* (集計しない) に設定されている場合に発生します。 ビジュアルの場合、列のカーディナリティは 100 万未満にする必要があります。あるいは、適切なフィルターを適用する必要があります。
 * **セキュリティ** - 公開されたレポートを利用するユーザーは全員、Power BI サービスに公開した後に入力された資格情報を利用し、バックエンド データ ソースに接続します。 これはインポートされたデータと同じ状況になります。バックエンド ソースに定義されているセキュリティ ルールに関係なく、すべてのユーザーに同じデータが表示されます。 ユーザーごとのセキュリティを希望のお客様は、DirectQuery ソースを実装し、RLS を使用する必要があります。 [RLS についての詳細情報](service-admin-rls.md)。

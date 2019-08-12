@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751117"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729810"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -45,6 +45,10 @@ ms.locfileid: "66751117"
             - PBIRS の選択ウィンドウ上の "戻る" ナビゲーションへのより簡単なリンクの追加
             - [戻る] ボタンを表示、警告のビジュアル メッセージを表示するための PBIRS のハイコントラスト モードの修正
             - [選択] ウィンドウ、キャンバス スケーリングに対する UI 修正
+
+    - *バージョン:2.69.5467.5201 (2019 年 5 月)、リリース日:2019 年 7 月 30 日*
+        - バグの修正
+            - 不正確なテレメトリ ログ記録の修正
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -93,8 +97,11 @@ ms.locfileid: "66751117"
         - Power BI Report Server のアンインストール後もショートカットとピン留めされたアイコンが残る
         - スタート メニューに Power BI Report Server をピン留めすると黒のアイコン上に黒のテキストが表示される問題の修正
 
-    - *バージョン:2.65.5313.1421 (2019 年 1 月)、リリース日:2019 年 1 月 22 日*
-        - Power BI Report Server (2019 年 1 月) との接続に必要な変更が含まれます。  
+    - *バージョン:2.65.5313.1421 (2019 年 1 月)、リリース日:2019 年 1 月 22 日* (新しいビルドと新しいバージョン)
+        - Power BI Report Server (2019 年 1 月) との接続に必要な変更が含まれます。 
+    - *バージョン:2.65.5313.5141 (2019 年 1 月)、リリース日:2019 年 7 月 31 日* (新しいビルドと新しいバージョン)
+        - バグの修正
+            - 不正確なテレメトリ ログ記録の修正
 
 ## <a name="august-2018"></a>2018 年 8 月
 

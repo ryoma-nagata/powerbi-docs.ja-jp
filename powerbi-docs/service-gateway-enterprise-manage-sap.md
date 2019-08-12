@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b61d794701d18fd25ab9acb5d5208ae289376eb6
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: a09388e8b22131c9b82771385b69142b18e3cc84
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271739"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729999"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>データ ソースの管理 - SAP HANA
 
@@ -32,7 +32,7 @@ ms.locfileid: "68271739"
 データ ソースの種類として [SAP HANA] を選択したら、データ ソースの **[サーバー]** 、 **[ユーザー名]** 、および **[パスワード]** の情報を入力します。
 
 > [!NOTE]
-> データ ソースへのすべてのクエリは、これらの資格情報を使用して実行されます。 資格情報の格納方法の詳細については、「[Storing encrypted credentials in the cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)」(暗号化された資格情報のクラウドへの格納) を参照してください。
+> データ ソースへのすべてのクエリは、これらの資格情報を使用して実行されます。 資格情報の格納方法の詳細については、「[暗号化された資格情報をクラウドに格納する](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)」を参照してください。
 
 ![データ ソース設定の入力](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 

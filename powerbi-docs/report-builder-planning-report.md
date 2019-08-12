@@ -1,22 +1,23 @@
 ---
 title: Power BI レポート ビルダーでのレポートの計画
 description: Power BI の改ページ調整されたレポート ビルダーを使用して、さまざまな種類のページ分割されたレポートを作成できます。 便利でわかりやすいレポートを作成するには、まず計画を立てると役立ちます。
-ms.date: 06/06/2019
+ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: fd4a318d7a61f6f2298de6b9d5d23ad2ae063d28
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840512"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623878"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Power BI レポート ビルダーでのレポートの計画
-  Power BI の改ページ調整されたレポート ビルダーを使用して、さまざまな種類のページ分割されたレポートを作成できます。 たとえば、売上データの概要または詳細、マーケティングと売上の傾向、運用レポート、ダッシュボードを表示するレポートを作成できます。 表現力豊かな書式付きテキストを活用したレポート (販売注文、製品カタログ、定型書簡など) を作成することもできます。 レポート ビルダーで同じ基本的な構成要素をさまざまに組み合わせて使用することで、これらすべてのレポートが作成されます。 便利でわかりやすいレポートを作成するには、まず計画を立てると役立ちます。 開始する前に考慮できるいくつかの事柄を次に示します。  
+
+Power BI の改ページ調整されたレポート ビルダーを使用して、さまざまな種類のページ分割されたレポートを作成できます。 たとえば、売上データの概要または詳細、マーケティングと売上の傾向、運用レポート、ダッシュボードを表示するレポートを作成できます。 表現力豊かな書式付きテキストを活用したレポート (販売注文、製品カタログ、定型書簡など) を作成することもできます。 レポート ビルダーで同じ基本的な構成要素をさまざまに組み合わせて使用することで、これらすべてのレポートが作成されます。 便利でわかりやすいレポートを作成するには、まず計画を立てると役立ちます。 開始する前に考慮できるいくつかの事柄を次に示します。  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>レポートをどのような形式で表示するか
   
@@ -36,7 +37,7 @@ ms.locfileid: "66840512"
   
 ## <a name="do-you-need-to-create-calculations"></a>計算を作成する必要があるか 
   
-     Sometimes, your data source and datasets do not contain the exact fields that you need for your report. In that situation, you might have to create your own calculated fields. For example, you might want to multiply the price per unit times the quantity to get a line item sales amount. Expressions are also used to provide conditional formatting and other advanced features. For more information, see [Expressions in Power BI Report Builder](report-builder-expressions.md).  
+場合によっては、データ ソースとデータセットに、レポートに必要な正確なフィールドが含まれていないことがあります。 そのような場合は、独自の計算フィールドを作成しなければならない場合があります。 たとえば、ある品目の売上高を取得するために、単価に数量を乗算することが必要な場合があります。 式は、条件付き書式やその他の高度な機能を提供するためにも使用されます。 詳細については、「[Power BI レポート ビルダーでの式](report-builder-expressions.md)」を参照してください。  
   
 ## <a name="do-you-want-to-hide-report-items-initially"></a>最初はレポート アイテムを非表示にするか
   
@@ -44,7 +45,7 @@ ms.locfileid: "66840512"
   
 ## <a name="how-are-you-going-to-deliver-your-report"></a>レポートをどのように配信するか  
   
-     You can save your report to your local computer and continue to work on it, or run it locally for your own information. However, to share your report with others, you need to save the report to Power BI. Saving it to Power BI lets others run it whenever they want to. Alternatively, you can set up a subscription and e-mail delivery of the report to other individuals. You can have the report delivered in a specific export format if you prefer. 
+レポートは、ローカル コンピューターに保存して引き続き作業することも、独自の情報を得るためにローカルに実行することもできます。 ただし、レポートを他のユーザーと共有するには、レポートを Power BI に保存する必要があります。 Power BI に保存すると、他のユーザーが必要なときにいつでも実行できるようになります。 別の方法として、レポートのサブスクリプションを設定し、レポートを他のユーザーにメールで配信することもできます。 必要に応じて、レポートを特定のエクスポート形式で配信できます。 
   
 ## <a name="next-steps"></a>次の手順
 

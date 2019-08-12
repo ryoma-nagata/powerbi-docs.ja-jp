@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 6e3bed0cf8dda765722c0076086f59a91f1f380d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770792"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808221"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。
@@ -85,7 +85,7 @@ Power BI レポートは、複数のデータ ソースに接続できます。 
 | Dynamics 365 for Financials (Beta) |はい |いいえ |いいえ |
 | GitHub (Beta) |はい |いいえ |いいえ |
 | Google BigQuery (ベータ版) |はい |いいえ |いいえ |
-| IBM Informix データベース (ベータ版) |はい |いいえ |いいえ |
+| IBM Informix データベース (ベータ) |はい |いいえ |いいえ |
 | IBM Netezza (ベータ版) |はい |いいえ |いいえ |
 | Kusto (Beta) |はい |いいえ |いいえ |
 | MailChimp (ベータ) |はい |いいえ |いいえ |
@@ -168,7 +168,7 @@ Power BI Report Server では、モデル更新のための認証方法として
 | Dynamics 365 for Financials (Beta) |いいえ |いいえ |いいえ |いいえ |
 | GitHub (Beta) |いいえ |いいえ |いいえ |いいえ |
 | Google BigQuery (ベータ版) |いいえ |いいえ |いいえ |いいえ |
-| IBM Informix データベース (ベータ版) |いいえ |いいえ |いいえ |いいえ |
+| IBM Informix データベース (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | IBM Netezza (ベータ版) |いいえ |いいえ |いいえ |いいえ |
 | Kusto (Beta) |いいえ |いいえ |いいえ |いいえ |
 | MailChimp (ベータ) |いいえ |いいえ |いいえ |いいえ |
@@ -202,7 +202,7 @@ Power BI Report Server では、DirectQuery 用の認証方法として、OAuth 
 | Azure SQL Database |いいえ |いいえ |はい |いいえ |いいえ |
 | Azure SQL Data Warehouse |いいえ |いいえ |はい |いいえ |いいえ |
 | Oracle データベース |いいえ |いいえ |はい |はい |はい |
-| SAP Business Warehouse サーバー |いいえ |いいえ |はい |いいえ |はい |
+| SAP Business Warehouse サーバー |いいえ |いいえ |はい |いいえ |いいえ |
 | SAP HANA データベース |いいえ |いいえ |はい |はい |いいえ |
 | Teradata データベース |いいえ |いいえ |はい |はい |はい |
 

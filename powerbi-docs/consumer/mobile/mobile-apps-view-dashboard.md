@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140611"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665525"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリにおけるダッシュボードとレポートの表示
 適用対象:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 デバイス](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android フォン](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android タブレット](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Windows 10 デバイス](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Android フォン](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Android タブレット](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
 ダッシュボードは、会社のライフ サイクルとプロセスへの入口です。 ダッシュボードには、ビジネスの現在の状態を 1 つの場所から監視する概要が表示されます。
 
@@ -145,45 +145,6 @@ ms.locfileid: "61140611"
     ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     "ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域をズームン/ズームアウトしたり、表示する領域を移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
-
-## <a name="view-dashboards-on-your-windows-10-device"></a>Windows 10 デバイスでダッシュボードを表示する
-1. Windows 10 デバイスで Power BI アプリを開き、サインインします。
-   
-   必要なら、最初に[アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkID=526478)します。
-2. ダッシュボードをタップして開きます。   
-   
-   ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-windows-10-device-dashboard-home.png)
-   
-   * 黒い星は、お気に入りのダッシュ ボードを表します。 
-   * 各ダッシュボード名の下の表示 (この例では **MBI**) は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../service-data-classification.md)に関するページを参照してください。
-   
-   Power BI ダッシュボードは、Windows 10 Phone では外観がいくらか異なります。 すべてのタイルは同じ幅で表示され、上から下に 1 つずつ配置されます。
-   
-   ![ダッシュ ボードの縦向きビュー](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-0928.png)
-   
-    また、電話を横向きに変えることで、電話のダッシュボードを横モードで表示することができます。
-   
-   > [!TIP]
-   > ダッシュボードの所有者である場合は、Power BI サービスで、縦モードの[スマートフォン独自のダッシュボード ビューを作成](../../service-create-dashboard-mobile-phone-view.md)できます。 
-   > 
-   > 
-3. ダッシュボードで、次の操作を実行できます。
-   
-   * [タイルをタップ](mobile-tiles-in-the-mobile-apps.md)して開き、操作します。
-   * **[全画面表示]** アイコン ![[全画面表示] アイコン](./media/mobile-apps-view-dashboard/power-bi-windows-10-full-screen-icon.png) をタップすると、PowerPoint の**スライド ショー** ビューのように、境界またはメニューなしで Power BI ダッシュボードが表示されます。
-   * **[招待]** アイコン ![[招待] アイコン](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png) をタップして、仕事仲間と[ダッシュボードを共有](mobile-share-dashboard-from-the-mobile-apps.md)します。
-   * 星 ![お気に入りの星](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) をタップして、[ダッシュボードをお気に入りとして設定](mobile-apps-favorites.md)します。
-   * **[スタート画面にピン留め]** アイコンをタップし、[Windows のスタート画面にダッシュボードをピン留めします](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)。 
-4. ダッシュボードのホーム ページに戻って、ダッシュボードの名前をタップして階層リンクの軌跡を開き、 **[マイ ワークスペース]** をタップします。
-   
-    ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
-
-### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>Windows 10 Phone で横モードでダッシュボードを表示する
-携帯電話の向きを変えるだけで、ダッシュボードを横モードで表示することもできます。 ダッシュボードのレイアウトは、一連のタイルのビューから、ダッシュボード全体のビューに切り替わります。ダッシュボードのすべてのタイルは、Power BI サービスで表示されるのと同じレイアウトで表示されます。
-
-![ダッシュ ボードの横向きビュー](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
-
-"ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域をズームン/ズームアウトしたり、表示する領域を移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Power BI サービスでダッシュボードの Phone ビューを作成する
 ダッシュボードの所有者である場合は、*Power BI サービスで*、スマートフォン独自の縦モードのダッシュボード ビューを作成できます。 

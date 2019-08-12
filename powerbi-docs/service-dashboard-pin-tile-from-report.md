@@ -8,65 +8,63 @@ featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a8acb5ab382c541b330d3448da8187238c42a3f5
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: b27cf80985dc1789fff5797430e4592fe361b533
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720295"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624128"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードにタイルをピン留め
-## <a name="pinning-tiles-from-a-report"></a>レポートからタイルをピン留め
-新しい[ダッシュボード タイル](consumer/end-user-tiles.md)を追加する方法の 1 つは、[Power BI レポート](consumer/end-user-reports.md)から追加することです。 実際、レポートから多数の新しいタイルを追加できます。  各タイルは、クリックするとレポートに戻るリンクです。
 
-レポート ページ全体をダッシュボードにピン留めできます。  これは、 *ライブ* タイルのピン留めとも呼ばれています。  ダッシュボードでタイルと対話でき、個々の視覚化タイルとは異なり、レポートに加えられる変更はダッシュボードと同期されているため、*ライブ*と呼ばれます。 詳しくは以下をご覧ください。
+[ダッシュボード タイル](consumer/end-user-tiles.md)を追加する方法の 1 つは、[Power BI レポート](consumer/end-user-reports.md)から追加することです。 これらのタイルのいずれかを選択すると、レポートに表示されます。
+
+レポート ページ全体をダッシュボードにピン留めすることができます。これは "*ライブ*" タイルのピン留めと呼ばれます。 ダッシュボード上でタイルを操作できるので、ライブ タイルと呼ばれます。 個々の視覚化タイルとは異なり、レポートに加えた変更は自動的にダッシュボードと同期されます。 詳細については、「[レポート ページ全体をピン留めする](#pin-an-entire-report-page)」をご覧ください。
 
 他のユーザーと共有したレポートから、または Power BI Desktop から、タイルをピン留めすることはできません。 
 
-> **ヒント**:一部の視覚エフェクトでは、背景画像が使われています。 背景画像が大きすぎる場合、ピン留めが動作しない可能性があります。  画像のサイズを小さくするか、画像の圧縮を使ってみてください。  
+> [!TIP]
+> 一部の視覚エフェクトでは背景画像が使用されるため、背景画像が大きすぎると、ピン留めが機能しないことがあります。 画像のサイズを小さくするか、画像の圧縮を使ってみてください。  
 > 
 > 
 
 ## <a name="pin-a-tile-from-a-report"></a>レポートからタイルをピン留めする
 Amanda が Power BI レポートからビジュアルとイメージを固定することでダッシュ ボードを作成している様子をご覧ください。
+    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
 それでは、Power BI サンプル レポートの 1 つを使用して、独自のダッシュ ボードを作成していきましょう。
 
-1. ピン留めする視覚化にポインターを合わせ、ピン ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png) アイコンを選びます。 Power BI で **[ダッシュボードにピン留め]** 画面が開きます。
+1. レポート内で、ピン留めする視覚エフェクトにポインターを合わせ、ピン留めアイコン ![ピン留めアイコン](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png) を選択します。 Power BI で **[ダッシュボードにピン留め]** 画面が開きます。
    
      ![[ダッシュボードにピン留め] ウィンドウ](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
-2. 既存のダッシュボードと新規のダッシュボードのどちらにピン留めするかを決定します。
+2. 既存のダッシュボードと新しいダッシュボードのどちらにピン留めするかを選択します。
    
-   * 既存のダッシュボード: ドロップダウンから、ダッシュボードの名前を選びます。 共有してもらったダッシュボードはドロップダウンに表示されません。
-   * 新しいダッシュボード: 新しいダッシュボードの名前を入力します。
-3. 場合によっては、ピン留めする項目には既に *テーマ* が適用されている場合があります。  たとえば、Excel ブックからピン留めされたビジュアルの場合です。 その場合、タイルに適用するテーマを選びます。
+   * **既存のダッシュボード**: ドロップダウンから、ダッシュボードの名前を選びます。 共有したダッシュボードはドロップダウンに表示されません。
+   * **新しいダッシュボード**: 新しいフォルダーの名前を入力します。
+3. 場合によっては、ピン留めする項目には既に "*テーマ*" が適用されている場合があります。 たとえば、Excel ブックからピン留めされたビジュアルの場合です。 その場合、タイルに適用するテーマを選びます。
 4. **[Pin]** (ピン留め) を選択します。
    
-   右上隅の近くに成功メッセージが表示されたら、視覚エフェクトがダッシュボードにタイルとして追加されたことがわかります。
+   右上隅の近くに表示される成功メッセージによって、視覚エフェクトがダッシュボードにタイルとして追加されたことが通知されます。
    
    ![成功メッセージ](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
-5. ナビゲーション ウィンドウから、新しいタイルを持つダッシュボードを選びます。 タイルを選んで、レポートに戻ります。 または、[タイルの表示と動作を編集](service-dashboard-edit-tile.md)します。
+5. ナビゲーション ウィンドウから、新しいタイルを持つダッシュボードを選びます。 [タイルの表示と動作を編集する](service-dashboard-edit-tile.md)か、タイルを選択してレポートに戻ります。
 
 ## <a name="pin-an-entire-report-page"></a>レポート ページ全体をピン留めする
-別のオプションとして、レポート ページ全体をダッシュボードにピン留めすることもできます。 これは、複数の視覚化を一度にピン留めする簡単な方法です。  さらに、ページ全体をピン留めする場合、タイルは *ライブ* であり、ダッシュボードで直接それらのタイルと対話できます。 レポート エディターで視覚化に加えるすべての変更 (フィルターの追加、またはチャートで使用されるフィールドの変更など) は、ダッシュボード タイルにも反映されます。  
+別のオプションとして、レポート ページ全体をダッシュボードにピン留めすることもできます。これは、一度に複数の視覚エフェクトをピン留めする簡単な方法です。 ページ全体をピン留めすると、タイルは "*ライブ*" になります。 つまり、ダッシュボード上で操作できます。 レポート エディターで視覚エフェクトに加えるすべての変更 (フィルターの追加、チャートで使用されるフィールドの変更など) は、ダッシュボード タイルにも反映されます。  
 
 詳細については、「[レポート ページ全体をピン留めする](service-dashboard-pin-live-tile-from-report.md)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI のダッシュボード](consumer/end-user-dashboards.md)
-
-[Power BI のダッシュボードのタイル](consumer/end-user-tiles.md)
-
-[Power BI のレポート](consumer/end-user-reports.md)
-
-[Power BI でのデータの更新](refresh-data.md)
-
-[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
+- [Power BI サービスの利用者向けのダッシュボード](consumer/end-user-dashboards.md)
+- [Power BI のダッシュボードのタイル](consumer/end-user-tiles.md)
+- [Power BI のレポート](consumer/end-user-reports.md)
+- [Power BI でのデータの更新](refresh-data.md)
+- [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

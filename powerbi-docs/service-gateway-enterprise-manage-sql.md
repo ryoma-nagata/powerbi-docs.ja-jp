@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d9e670d2567181a0dc99c23997ac3bc2d35f3c9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 2c21792f97445b336709038f7ec2ec39d041312b
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271598"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730050"
 ---
 # <a name="manage-your-data-source---sql-server"></a>データ ソースの管理 - SQL Server
 
@@ -37,7 +37,7 @@ ms.locfileid: "68271598"
 また、 **[認証方法]** も選択する必要があります。 **[Windows]** または **[基本]** を選択できます。 Windows 認証ではなく SQL 認証を使用する場合は、 **[基本]** を選択してください。 次に、このデータ ソースで使用される資格情報を入力します。
 
 > [!NOTE]
-> データ ソースへのすべてのクエリは、Kerberos シングル サインオン (SSO) が構成され、データ ソースに対して有効な場合を除き、これらの資格情報を使用して実行されます。 SSO を使用すると、インポート データセットは保存された資格情報を使用しますが、DirectQuery データセットは現在の Power BI ユーザーを使用し、SSO を使用してクエリを実行します。 資格情報の格納方法の詳細については、「[Storing encrypted credentials in the cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)」(クラウドへの暗号化された資格情報の格納)、または、[Power BI からオンプレミスのデータソースへの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-sso-kerberos.md)方法を説明する記事を参照してください。
+> データ ソースへのすべてのクエリは、Kerberos シングル サインオン (SSO) が構成され、データ ソースに対して有効な場合を除き、これらの資格情報を使用して実行されます。 SSO を使用すると、インポート データセットは保存された資格情報を使用しますが、DirectQuery データセットは現在の Power BI ユーザーを使用し、SSO を使用してクエリを実行します。 資格情報の格納方法の詳細については、「[暗号化された資格情報をクラウドに保存する](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)」、または、[Power BI からオンプレミスのデータ ソースへの SSO (シングル サインオン) に Kerberos を使用する](service-gateway-sso-kerberos.md)方法を説明する記事を参照してください。
 
 ![データ ソース設定の入力](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 

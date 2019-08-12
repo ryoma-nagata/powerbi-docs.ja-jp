@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269816"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623827"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>カスタム ビジュアルを AppSource に発行する
 
@@ -22,7 +22,7 @@ AppSource にカスタム ビジュアルを発行して、他のユーザーが
 
 カスタム ビジュアルを作成した後は、AppSource に発行することで、他のユーザーがそれを探して使用できるようにすることができます。 これを可能にするには、事前に終えておく必要がある準備がいくつかあります。 カスタム ビジュアルの作成方法に関する詳細については、「[Developing a Power BI Custom Visual](custom-visual-develop-tutorial.md)」(Power BI カスタム ビジュアルの作成) を参照してください。
 
-   ![Office ストア](media/office-store/AppSource_01.jpg)
+   ![Office ストア](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>AppSource とは
 
@@ -30,7 +30,7 @@ AppSource にカスタム ビジュアルを発行して、他のユーザーが
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>カスタム ビジュアルを送信する準備
 
-完了したら読み取り、 [Power BI ビジュアルのガイドライン](guidelines-powerbi-visuals.md)、コーディングと[カスタム ビジュアルをテスト](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)パッケージ化した後、pbiviz ファイルにも必要次の準備完了の提出します。
+「[Power BI ビジュアルのガイドライン](guidelines-powerbi-visuals.md)」を読み、[カスタム ビジュアルのコーディングとテスト](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)が完了し、pbiviz ファイルにパッケージ化した後は、次のものも送信できる状態にする必要があります。
 
 | 項目 | 必須 | 説明 |
 | --- | --- | --- |

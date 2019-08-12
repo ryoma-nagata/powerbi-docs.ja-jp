@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0525d448d5337c2c1613d8bc8f6d332a05b13e3
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409486"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867208"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードのテーブル
 
@@ -35,9 +35,6 @@ ms.locfileid: "67409486"
 * データを表形式で表示する。
 
 * 数値データをカテゴリ別に表示する。
-
-> [!NOTE]
-> テーブルの値が多いときは、マトリックス変換やドリルダウンを検討してください。 テーブルで表示されるデータ ポイントの最大数は 3,500 です。
 
 ## <a name="prerequisites"></a>前提条件
 

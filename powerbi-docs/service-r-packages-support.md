@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 76361bba2690e0ab6ae8fa49008d7a6accae900e
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 60d97d8b2226e9a3f9aba2bf043bd9c6aade161a
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325067"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665309"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI サービスの R パッケージ
 Power BI サービスでビジュアルを作成するには、強力な [R プログラミング言語](https://www.r-project.org/)を使用できます。 多くの R パッケージが Power BI サービスでサポートされています (また、常にサポート対象は増えています) が、一部のパッケージはサポートされていません。
@@ -29,6 +29,7 @@ Power BI サービスでビジュアルを作成するには、強力な [R プ�
 ## <a name="requirements-and-limitations-of-r-packages"></a>R パッケージの要件と制限事項
 R パッケージにはいくつかの要件と制限があります。
 
+* 現在の R ランタイム: Microsoft R 3.4.4
 * Power BI サービスは、ほとんどの場合、無料の R パッケージと、GPL-2、GPL-3、MIT+ などのオープン ソース ソフトウェア ライセンスをサポートします。
 * Power BI サービスは、CRAN で公開されているパッケージをサポートします。 サービスは、プライベートまたはカスタムの R パッケージをサポートしません。 ユーザーには、Power BI サービスでパッケージを使用できるようにすることを要求する前に、プライベート パッケージを CRAN で使用できるようにすることをお勧めします。
 * **Power BI Desktop** には、R パッケージの 2 つのバリエーションがあります。

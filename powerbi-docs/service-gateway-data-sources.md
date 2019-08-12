@@ -11,32 +11,28 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a4b343894f23d6f5720d95eb6c92436259befaa
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352200"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730215"
 ---
 # <a name="manage-data-sources"></a>データ ソースを管理する
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI は、多数のオンプレミス データ ソースをサポートしますが、各データ ソースには独自の要件があります。 ゲートウェイは、単一のデータ ソースにも複数のデータ ソースにも使用できます。 この例では、SQL Server をデータ ソースとして 追加する方法を示しますが、他のデータ ソースも手順は類似しています。
+Power BI は、多数のオンプレミス データ ソースをサポートしますが、各データ ソースには独自の要件があります。 ゲートウェイは、単一のデータ ソースにも複数のデータ ソースにも使用できます。 この例では、データソースとして SQL Server を追加する方法について説明します。 手順は、他のデータソースの場合と似ています。
 
->[!NOTE]
->ほとんどのデータ ソースの管理操作は、API を使用して実行することもできます。 詳細については、[REST API (ゲートウェイ)](/rest/api/power-bi/gateways) に関するページを参照してください。
+ほとんどのデータ ソースの管理操作は、API を使用して実行することもできます。 詳細については、[REST API (ゲートウェイ)](/rest/api/power-bi/gateways) に関するページを参照してください。
 
 ## <a name="add-a-data-source"></a>データ ソースの追加
-
->[!NOTE]
->電子メールのないグループは追加できません。
 
 1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-data-sources/icon-gear.png) >  **[ゲートウェイの管理]** の順に選択します。
 
     ![ゲートウェイの管理](media/service-gateway-data-sources/manage-gateways.png)
 
-2. ゲートウェイを選択し、 **[データ ソースの追加]** を選択するか、[ゲートウェイ] > **[データ ソースの追加]** に移動します。
+2. ゲートウェイを選択し、 **[データ ソースの追加]** を選択します。 または、 **[ゲートウェイ]**  >  **[データ ソースの追加]** の順に進みます。
 
     ![データ ソースの追加](media/service-gateway-data-sources/add-data-source.png)
 
@@ -44,7 +40,7 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
     ![SQL Server の選択](media/service-gateway-data-sources/select-sql-server.png)
 
-4. データ ソースの情報を入力します。 この例では、**サーバー**、**データベース**、およびその他の情報です。  
+4. データ ソースの情報を入力します。 この例では、**サーバー**、**データベース**、およびその他の情報です。 
 
     ![データ ソース設定](media/service-gateway-data-sources/data-source-settings.png)
 
@@ -62,15 +58,15 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 ## <a name="remove-a-data-source"></a>データ ソースの削除
 
-データ ソースを使用しなくなった場合は、それを削除できます。 データ ソースを削除すると、そのデータ ソースに依存するすべてのダッシュボードやレポートが壊れることに注意してください。
+使用しなくなったデータ ソースは削除できます。 データ ソースを削除すると、そのデータ ソースに依存するすべてのダッシュボードやレポートが壊れます。
 
-データ ソースを削除するには、データ ソースに移動し、 **[削除]** を選択します。
+データソースを削除するには、そのデータ ソースまで移動し、 **[削除]** を選択します。
 
 ![データ ソースの削除](media/service-gateway-data-sources/remove-data-source.png)
 
-## <a name="using-the-data-source-for-scheduled-refresh-or-directquery"></a>スケジュールされた更新または DirectQuery でデータ ソースを使用する
+## <a name="use-the-data-source-for-scheduled-refresh-or-directquery"></a>スケジュールされた更新または DirectQuery にデータ ソースを使用する
 
-データ ソースを作成した後、DirectQuery 接続かスケジュールされた更新のいずれかによって使用できるようになります。
+作成したデータ ソースは、DirectQuery 接続またはスケジュールされた更新のいずれかで使用できます。
 
 > [!NOTE]
 >Power BI Desktop とオンプレミス データ ゲートウェイ内のデータ ソースとの間で、サーバーとデータベース名が一致している必要があります。
@@ -79,7 +75,7 @@ Power BI は、多数のオンプレミス データ ソースをサポートし
 
 ゲートウェイ内に構成されているデータ ソースの **[ユーザー]** タブの一覧に自分が表示されていて、さらにサーバーとデータベース名が一致している場合は、スケジュールされた更新で使用するオプションとして、ゲートウェイが表示されます。
 
-![ゲートウェイの接続](media/service-gateway-data-sources/gateway-connection.png)
+![ゲートウェイ接続](media/service-gateway-data-sources/gateway-connection.png)
 
 > [!WARNING]
 > データセットに複数のデータ ソースが含まれる場合、ゲートウェイで各データ ソースを追加する必要があります。 ゲートウェイに追加されていないデータ ソースがある場合、そのゲートウェイはスケジュールされた更新に更新可能なものとして表示されません。
@@ -90,13 +86,13 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 
 ## <a name="manage-users"></a>ユーザーの管理
 
-データ ソースをゲートウェイに追加した後、ユーザーとメールが有効なセキュリティ グループに (ゲートウェイ全体ではなく) 特定のデータ ソースへのアクセス権を与えます。 データ ソースのユーザーの一覧は、データ ソースのデータが含まれるレポートを発行できるユーザーを制御します。 レポートの所有者は、ダッシュボード、コンテンツ パック、およびアプリを作成し、それらを他のユーザーと共有できます。
+データ ソースをゲートウェイに追加した後、ユーザーとメールが有効なセキュリティ グループに (ゲートウェイ全体ではなく) 特定のデータ ソースへのアクセス権を与えます。 データ ソースのユーザーの一覧は、データ ソースのデータが含まれるレポートを発行できるユーザーを制御します。 レポートの所有者は、ダッシュボード、コンテンツ パック、アプリを作成し、それらの項目を他のユーザーと共有できます。
 
 ゲートウェイへの管理アクセス権をユーザーとセキュリティ グループに与えることもできます。
 
 ### <a name="add-users-to-a-data-source"></a>データ ソースへのユーザーの追加
 
-1. Power BI サービスの右上隅で、歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-data-sources/icon-gear.png) >  **[ゲートウェイの管理]** を選択します。
+1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-data-sources/icon-gear.png) >  **[ゲートウェイの管理]** の順に選択します。
 
 2. ユーザーを追加するデータ ソースを選択します。
 
@@ -104,11 +100,11 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 
     ![[ユーザー] タブ](media/service-gateway-data-sources/users-tab.png)
 
-4. **[追加]** を選択します。追加されたメンバーがボックスに表示されます。
+4. **[追加]** を選択します。追加されたメンバーの名前がボックスに表示されます。
 
     ![ユーザーの追加](media/service-gateway-data-sources/add-user.png)
 
-これで完了です。 アクセス権を付与するデータ ソースごとにユーザーを追加する必要があることに注意してください。 各データ ソースには、別個のユーザー リストがあります。データ ソースごとにユーザーを追加する必要があります。
+アクセス権を付与するデータ ソースごとにユーザーを追加する必要があることに注意してください。 データ ソースにはそれぞれ、ユーザーの一覧があります。 各データ ソースに個別にユーザーを追加します。
 
 ### <a name="remove-users-from-a-data-source"></a>データ ソースからのユーザーの削除
 
@@ -116,20 +112,20 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 
 ![ユーザーの削除](media/service-gateway-data-sources/remove-user.png)
 
-## <a name="storing-encrypted-credentials-in-the-cloud"></a>暗号化された資格情報をクラウドに格納する
+## <a name="store-encrypted-credentials-in-the-cloud"></a>暗号化された資格情報をクラウドに格納する
 
-データ ソースをゲートウェイに追加する場合は、そのデータ ソースの資格情報を指定する必要があります。 データ ソースへのすべてのクエリは、これらの資格情報を使用して実行されます。 資格情報は、クラウド内で解読されないように、クラウドに格納される前に対称暗号化を使用して安全に暗号化されます。 資格情報は、データ ソースにアクセスするときに、ゲートウェイを実行しているオンプレミスのコンピューターに送信されて暗号化が解除されます。
+データ ソースをゲートウェイに追加する場合は、そのデータ ソースの資格情報を指定する必要があります。 データ ソースへのすべてのクエリは、これらの資格情報を使用して実行されます。 資格情報は安全に暗号化されます。 クラウド内で解読されないように、クラウドに格納される前に対称暗号化が資格情報で使用されます。 資格情報は、データ ソースにアクセスするときに、ゲートウェイを実行しているオンプレミスのコンピューターに送信されて暗号化が解除されます。
 
 ## <a name="list-of-available-data-source-types"></a>使用可能なデータ ソースの種類の一覧
 
 オンプレミス データ ゲートウェイでは、Power BI に対して次のデータ ソースがサポートされています。 オンプレミスのデータ ソースに加えて、ファイアウォール、VPN、または仮想ネットワークの背後にあるソースにもデータ ゲートウェイが必要になる場合があります。
 
-| **データ ソース** | **Live/DirectQuery** | **ユーザー構成による手動更新またはスケジュールされた更新** |
+| **データ ソース** | **Live/DirectQuery** | **手動更新またはスケジュールされた更新 (ユーザー構成)** |
 | --- | --- | --- |
-| Active Directory |いいえ |はい |
 | Amazon Redshift |はい |はい |
-| Analysis Services |はい |はい |
 | AtScale キューブ |はい |はい |
+| Azure Active Directory |いいえ |はい |
+| Azure Analysis Services |はい |はい |
 | Azure Blob Storage |いいえ |はい |
 | Azure DevOps Server |いいえ |はい |
 | Azure Table Storage |いいえ |はい |
@@ -153,7 +149,7 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 | MySQL |いいえ |はい |
 | ODBC |いいえ |はい |
 | OData |いいえ |はい |
-| OleDb |いいえ |はい |
+| OLE DB |いいえ |はい |
 | Oracle |はい |はい |
 | PostgreSQL |いいえ |はい |
 | QubolePresto |はい |はい |
@@ -182,4 +178,4 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 * [データ ソースの管理 - インポート/スケジュールされた更新](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [データ ゲートウェイの展開に関するガイダンス](service-gateway-deployment-guidance.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)を利用してください。

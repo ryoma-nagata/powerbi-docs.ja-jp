@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b1d84e9de9ae6d6fd8306fce4865977a8d273652
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289942"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757670"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへのシングル サインオン (SSO) に Security Assertion Markup Language (SAML) を使用します。
 
@@ -33,7 +33,7 @@ HANA の場合は、SAML SSO 接続を確立する前に暗号化を有効にす
 
 SAML を使用するには、HANA サーバー (これに対して SSO を有効にする) とゲートウェイ (このシナリオでは SAML ID プロバイダー (IdP) として機能する) との間に信頼関係を確立する必要があります。 この関係を確立するにはさまざまな方法があります。たとえば、ゲートウェイ IdP の x509 証明書を HANA サーバーの信頼ストアにインポートするという方法や、HANA サーバーによって信頼されたルート証明機関 (CA) の署名が入ったゲートウェイの X509 証明書を用意するという方法が挙げられます。 このガイドでは後者の方法について説明しますが、もう一方が都合が良い場合はそちらを使用してかまいません。
 
-また、このガイドでは HANA サーバーの暗号化サービス プロバイダーとして OpenSSL を使用しますが、OpenSSL ではなく SAP 暗号化ライブラリ (CommonCryptoLib または sapcrypto とも呼ばれる) を使用して、信頼関係を確立するためのセットアップ手順を行うこともできます。 詳細については、公式の SAP ドキュメントを参照してください。
+また、このガイドでは HANA サーバーの暗号化サービス プロバイダーとして OpenSSL を使用しますが、OpenSSL ではなく SAP 暗号化ライブラリ (CommonCryptoLib または sapcrypto とも呼ばれる) を使用して、信頼関係を確立するためのセットアップ手順を行うことを SAP は推奨しています。 詳細については、公式の SAP ドキュメントを参照してください。
 
 次の手順では、HANA サーバーによって信頼されたルート CA を使用してゲートウェイ IdP の X509 証明書に署名することで、HANA サーバーとゲートウェイ IdP 間の信頼関係を確立する方法について説明します。
 
@@ -180,7 +180,7 @@ SSO を構成したら、Power BI ポータルで次のエラーが表示され�
 
 **オンプレミス データ ゲートウェイ**と **DirectQuery** の詳細については、次のリソースをご覧ください。
 
-* [オンプレミス データ ゲートウェイとは](/data-integration/gateway/service-gateway-getting-started)
+* [オンプレミス データ ゲートウェイとは](/data-integration/gateway/service-gateway-onprem)
 * [Power BI の DirectQuery](desktop-directquery-about.md)
 * [DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
 * [DirectQuery と SAP BW](desktop-directquery-sap-bw.md)

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840305"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624154"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI レポート ビルダーでの式の例
 式は、Power BI ページ分割されたレポート ビルダーのページ分割されたレポートで、内容とレポートの外観を制御するためによく使われます。 式を記述するには Microsoft Visual Basic を使い、式では組み込み関数、カスタム コード、レポートとグループ変数、およびユーザー定義変数を使うことができます。 式は等号 (=) で始まります。   
@@ -40,7 +40,7 @@ ms.locfileid: "66840305"
 ##  <a name="VisualBasicFunctions"></a> Visual Basic の関数  
  Visual Basic の関数を使って、テキスト ボックスに表示されるデータや、パラメーター、プロパティ、またはレポートの他の領域に使われるデータを、操作することができます。 このセクションでは、これらの関数の使い方を示す例を提供します。 詳しくは、MSDN の「[Visual Basic ランタイム ライブラリのメンバー](https://go.microsoft.com/fwlink/?LinkId=198941)」をご覧ください。  
   
- .NET Framework では、特定の日付形式など、さまざまなカスタム書式オプションが提供されています。 詳しくは、MSDN の「[Formatting Types](https://go.microsoft.com/fwlink/?LinkId=112024)」 (書式設定の種類) をご覧ください。  
+ .NET Framework では、特定の日付形式など、さまざまなカスタム書式オプションが提供されています。 詳しくは、「[型の書式設定](/dotnet/standard/base-types/formatting-types)」をご覧ください。  
   
 ### <a name="math-functions"></a>数値演算関数  
   
