@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391119"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665379"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI 用の独自の暗号化キーを使用する (プレビュー)
 
-Power BI では、"_保存_" データと "_処理中_" のデータが暗号化されます。 既定では、Power BI で Microsoft マネージド キーを使用してデータを暗号化します。 Power BI Premium では、データセットにインポートされる、保存データに対して独自のキーを使用することもできます (詳細については、「[データ ソースとストレージに関する考慮事項](#data-source-and-storage-considerations)」を参照)。 このアプローチは多くの場合、_Bring Your Own Key_ (BYOK) と説明されます。
+Power BI では、" _" データと " _" のデータが暗号化されます。 既定では、Power BI で Microsoft マネージド キーを使用してデータを暗号化します。 Power BI Premium では、データセットにインポートされる、保存データに対して独自のキーを使用することもできます (詳細については、「[データ ソースとストレージに関する考慮事項](#data-source-and-storage-considerations)」を参照)。 このアプローチは多くの場合、 _ (BYOK) と説明されます。
 
 ## <a name="why-use-byok"></a>BYOK を使用する理由
 
@@ -48,7 +48,7 @@ Azure Key Vault は、暗号化キーなどのシークレットを安全に格�
     > [!IMPORTANT]
     > Power BI BYOK では、4,096 ビット長の RSA キーのみがサポートされます。
 
-1. 推奨: キー コンテナーで "_論理的な削除_" オプションが有効になっていることを確認します。
+1. 推奨: キー コンテナーで " _" オプションが有効になっていることを確認します。
 
 ### <a name="add-the-service-principal"></a>サービス プリンシパルを追加する
 
@@ -64,6 +64,9 @@ Azure Key Vault は、暗号化キーなどのシークレットを安全に格�
     ![PBIX ファイル コンポーネント](media/service-encryption-byok/service-principal.png)
 
 1. **[OK]** 、 **[保存]** の順に選択します。
+
+> [!NOTE]
+> 将来、Power BI によるデータへのアクセスを取り消す場合、Azure Key Vault からこのサービス プリンシパルへのアクセス権限を削除します。
 
 ### <a name="create-an-rsa-key"></a>RSA キーを作成する
 
@@ -99,7 +102,7 @@ BYOK を有効にする前に、次の考慮事項に注意してください。
 
 - この時点では、BYOK を有効にした後で無効にすることはできません。 `Add-PowerBIEncryptionKey` のパラメーターを指定する方法に応じて、1 つまたは複数の容量に対して BYOK を使用する方法を制御できます。 しかし、テナントに対するキーの導入を元に戻すことはできません。 詳細については、「[BYOK を有効にする](#enable-byok)」を参照してください。
 
-- 共有されている容量に、Power BI Premium の専用容量から BYOK を使用するワークスペースを "_直接_" 移動することはできません。 まず、BYOK が有効になっていない専用容量にワークスペースを移動する必要があります。
+- 共有されている容量に、Power BI Premium の専用容量から BYOK を使用するワークスペースを " _" 移動することはできません。 まず、BYOK が有効になっていない専用容量にワークスペースを移動する必要があります。
 
 ### <a name="enable-byok"></a>BYOK を有効にする
 
@@ -152,7 +155,7 @@ Power BI では、テナントでの BYOK の管理に役立つ追加のコマ�
 
     暗号化は容量レベルで有効になっていますが、暗号化状態は指定されたワークスペースのデータセット レベルで取得することに注意してくだささい。
 
-- 暗号化に使用されているキーのバージョンを切り替える (または_回転_する) には、[`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) を次のように使用します。 コマンドレットでは単にキー `-Name` の `-KeyVaultKeyUri` を更新します。
+- 暗号化に使用されているキーのバージョンを切り替える (または _する) には、[`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) を次のように使用します。 コマンドレットでは単にキー `-Name` の `-KeyVaultKeyUri` を更新します。
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
