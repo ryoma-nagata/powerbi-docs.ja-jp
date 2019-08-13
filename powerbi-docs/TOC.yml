@@ -593,6 +593,8 @@
               href: service-export-to-pbix.md
             - name: URL のパラメーターを使用してレポートをフィルター処理する
               href: service-url-filters.md
+            - name: SAP 変数の編集
+              href: service-edit-sap-variables.md
             - name: 高速で信頼性の高いレポートを作成するためのベスト プラクティス
               href: power-bi-reports-performance.md
         - name: データに関する質問
