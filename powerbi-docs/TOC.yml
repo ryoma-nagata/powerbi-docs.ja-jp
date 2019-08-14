@@ -1289,6 +1289,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: リモートでモバイル アプリへのアクセスを構成する
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: Azure AD を使用したリモート モバイル アクセス
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Excel ブックのホスト
               href: report-server/excel-oos.md
     - name: リファレンス
@@ -1424,3 +1426,7 @@
           href: service-admin-governance.md
         - name: Power BI のセキュリティ
           href: service-admin-power-bi-security.md
+- name: ガイダンス
+  items:
+    - name: スター スキーマとは
+      href: guidance/star-schema.md
