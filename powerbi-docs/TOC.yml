@@ -53,6 +53,8 @@
       items:
         - name: Power BI Desktop の最新の更新プログラムの新機能
           href: desktop-latest-update.md
+        - name: Power BI Desktop でのビジュアルのグループ化
+          href: desktop-grouping-visuals.md
         - name: Power BI Desktop でのモデルリング ビュー
           href: desktop-modeling-view.md
         - name: Power BI Desktop での集計
