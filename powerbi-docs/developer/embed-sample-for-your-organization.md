@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665550"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808252"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -83,7 +83,7 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
    
 ### <a name="create-and-publish-your-paginated-reports"></a>ページ分割されたレポートを作成して発行する
 
-[Power BI レポート ビルダー](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)を使用し、ページ分割されたレポートを作成できます。その後、少なくとも A4/P1 容量に割り当てられたアプリ ワークスペースに[レポートをアップロード](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)できます。レポートをアップロードするエンドユーザーは、アプリ ワークスペースに公開するには Power BI Pro ライセンスを用意する必要があります。
+[Power BI レポート ビルダー](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)を使用すると、ページ分割されたレポートを作成できます。それから、A4/P1 以上の容量に割り当てられたアプリのワークスペースに[レポートをアップロード](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)できます。 レポートをアップロードするエンドユーザーは、アプリのワークスペースに発行するには、Power BI Pro ライセンスを持っている必要があります。
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>サンプル アプリケーションを使用してコンテンツを埋め込む
 

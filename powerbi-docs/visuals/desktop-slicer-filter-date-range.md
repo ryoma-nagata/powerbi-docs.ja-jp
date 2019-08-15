@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c039b00ced1bf62c8be72d218177d04a9fd3accf
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: e1dfda3c759d225019cc50d36cfe746976bd797a
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532711"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867086"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Power BI Desktop で相対日付のスライサーおよびフィルターを使用する
 
@@ -41,7 +41,7 @@ ms.locfileid: "67532711"
 
 ![最初の設定が呼び出されている相対構成オプションのスクリーンショット。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* 過去
+* 最後
 
 * 次へ
 
@@ -75,7 +75,7 @@ ms.locfileid: "67532711"
 
 * スライサーによって制約されるビジュアルに含まれているデータには、前の 2 か月間のデータが表示されます
 
-* 5 月 20 日に始まり 7 月 20 日 (今日の日付) まで
+* 5 月 21 日から 7 月 20 日 (今日の日付) まで
 
 一方、"*月 (暦)* " を選択すると、制約されたビジュアルに、5 月 1 日から 6 月 30 日 (過去 2 カレンダー月) までのデータが表示されます。
 

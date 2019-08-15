@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
+ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729810"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68940894"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -124,7 +124,10 @@ ms.locfileid: "68729810"
 - **Power BI Desktop (Power BI Report Server 用に最適化)**
     - *バージョン:2.61.5192.641 (2018 年 8 月)、リリース日:2018 年 8 月 15 日*
         - Power BI Report Server (2018 年 8 月) との接続に必要な変更が含まれます。         
-        
+    - *バージョン:2.61.5192.7701 (2018 年 8 月)、リリース日:2019 年 8 月 8 日* (新しいビルドと新しいバージョン)
+        - バグの修正
+            - 不正確なテレメトリ ログ記録の修正
+            
 ## <a name="march-2018"></a>2018 年 3 月
 
 - **Power BI Report Server**

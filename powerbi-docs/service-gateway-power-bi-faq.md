@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730260"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867068"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>オンプレミス データ ゲートウェイに関するよく寄せられる質問 (FAQ) - Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730260"
 
 ## <a name="power-bi"></a>Power BI
 
-**質問:** パーソナル ゲートウェイをアップグレードする必要はありますか。 
+**質問:** オンプレミス データ ゲートウェイ (個人用モード) をアップグレードする必要はありますか。
 
-**回答:** いいえ。Power BI のパーソナル ゲートウェイを引き続き使用できます。
+**回答:** いいえ。Power BI ではゲートウェイ (個人用モード) を引き続き使用できます。
 
 **質問:** ゲートウェイをインストールし、それを Power BI サービスで管理するために必要な特別なアクセス許可はありますか。
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730260"
 
 **質問:** Oracle サーバーに接続できないのはなぜですか。 
 
-**回答:** Oracle サーバーに接続するには、Oracle クライアントをインストールし、tnsnames.ora ファイルに適切なサーバー情報を構成することが必要な場合があります。 このインストールは、ゲートウェイとは別に行います。 詳細については、「[Oracle クライアントのインストール](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client)」をご覧ください。
+**回答:** Oracle サーバーに接続するには、Oracle クライアントをインストールし、tnsnames.ora ファイルに適切なサーバー情報を構成することが必要な場合があります。 このインストールは、ゲートウェイとは別に行います。 詳細については、「[Oracle クライアントのインストール](service-gateway-onprem-manage-oracle.md#install-the-oracle-client)」をご覧ください。
 
 **質問:** ゲートウェイは Azure ExpressRoute と連携して動作しますか。 
 
