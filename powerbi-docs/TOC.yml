@@ -489,9 +489,9 @@
               href: reduce-the-size-of-an-excel-workbook.md
         - name: 共有データセットからデータを取得する
           items:
-            - name: ワークスペース全体でデータセットを使用する
+            - name: ワークスペースをまたいでデータセットを使用
               href: service-datasets-across-workspaces.md
-            - name: データセットを作成し、共有する (プレビュー)
+            - name: データセットの共有 (プレビュー)
               href: service-datasets-build-permissions.md
             - name: データセットに基づいてレポートを作成する
               href: service-datasets-discover-across-workspaces.md
@@ -1432,3 +1432,5 @@
   items:
     - name: スター スキーマとは
       href: guidance/star-schema.md
+    - name: データ モデル サイズの縮小
+      href: guidance/import-modeling-data-reduction.md
