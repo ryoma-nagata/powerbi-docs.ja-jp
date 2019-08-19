@@ -39,8 +39,8 @@ Power BI では、顧客と開発者が、さまざまな方法で接続する�
 
 **[データ拡張機能]** の下では、2 つのセキュリティ レベルから選択できます。
 
-* [(Recommended) Only allow certified extensions to load]\(推奨) 認定されている拡張機能のみ読み込みを許可する\
-* [(Not Recommended) Allow any extension to load without warning]\(非推奨) あらゆる拡張機能の読み込みを警告なしで許可する\
+* [(Recommended) Only allow certified extensions to load]\(推奨) 認定されている拡張機能のみ読み込みを許可する
+* [(Not Recommended) Allow any extension to load without warning]\(非推奨) あらゆる拡張機能の読み込みを警告なしで許可する
 
 **カスタム コネクタ**、あるいは自分かサードパーティが開発したコネクタを使用する予定の場合、 **[(Not Recommended) Allow any extension to load without warning]\((非推奨) あらゆる拡張機能の読み込みを警告なしで許可する\)** を選択する必要があります。 カスタム コネクタを完全に信頼している場合を除き、このセキュリティ設定はお勧めしません。 その理由は、そこにあるコードで、HTTP 経由での送信や、プライバシー レベルの無視など、資格情報を処理できるからです。
 
