@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d6961007c3f7185b954188fa7bd7866d80a7f85a
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523402"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490320"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -38,7 +38,6 @@ ms.locfileid: "68523402"
 
 * [組織内のユーザーの ID を管理する方法はどのように変わりますか。](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Power BI を管理するにはどうすればよいですか。](#how-do-we-manage-power-bi)
-* [Microsoft によってユーザーに対して作成されたテナントを管理するにはどうすればよいですか。](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [複数のドメインがある場合、ユーザーが追加される Office 365 テナントを制御できますか。](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [Power BI に既にサインアップしているユーザーを削除するにはどうすればよいですか。](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [新しいユーザーがいつテナントに参加したかを確認するにはどうすればよいですか。](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -173,18 +172,6 @@ Get-MsolCompanyInformation | fl allow*
 Power BI には、使用状況の統計を表示できる管理ポータル、ユーザーとグループを管理するための Microsoft 365 管理センターへのリンク、テナント全体の設定を制御するための機能が用意されています。
 
 Power BI 管理ポータルを使用するには、自分のアカウントを Office 365 または Azure Active Directory 内で**全体管理者**としてマークしておくか、自分のユーザー アカウントに別のユーザーが Power BI サービス管理者ロールを割り当てている必要があります。 詳しくは、[Power BI 管理者ロールについて](service-admin-role.md)および [Power BI 管理ポータル](service-admin-portal.md)についての記事をご覧ください。
-
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft によってユーザーに対して作成されたテナントを管理するにはどうすればよいですか。
-
-セルフサービスのユーザーは、Azure AD を使用しているクラウド サービスにサインアップするとき、サービスによってユーザーは、各自の電子メール ドメインに基づいて Azure AD のアンマネージド ディレクトリに追加されます。 "*管理者引き継ぎ*" と呼ばれるプロセスを使って別のユーザーが作成したテナントを、管理できるようになります。 実行する引き継ぎの種類は、ご自身のドメインに関連付けられている既存のマネージド テナントが存在するかどうかによって異なります。
-
-* ドメインに対して新しいマネージド テナントを作成するには、"*内部の引き継ぎ*" を使用します。
-
-* 既存のマネージド テナントにドメインを移動するには、"*外部の引き継ぎ*" を使用します。
-
-詳細については、「[Azure Active Directory の非管理対象ディレクトリを管理者として引き継ぐ](/azure/active-directory/users-groups-roles/domains-admin-takeover)」をご覧ください。
-
-外部の引き継ぎを実行すると、引き継ぎの前に作成した Power BI コンテンツはサービスによって [Power BI アーカイブ済みワークスペース](service-admin-power-bi-archived-workspace.md)内に配置されます。 新しいテナントで使いたいコンテンツは、すべて手動で移行する必要があります。
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>複数のドメインがある場合、ユーザーが追加される Office 365 テナントを制御できますか。
 
