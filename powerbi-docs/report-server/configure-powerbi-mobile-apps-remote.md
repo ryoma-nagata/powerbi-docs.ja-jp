@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/15/2018
+ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 27b3aad6f1a96c069f56ed68823b71b38115a98a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770635"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994810"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
 
@@ -63,8 +63,10 @@ Intune を使用して構成ポリシーを設定する例を以下に示しま�
 これで、レポート サーバーに格納されている KPI および Power BI レポートを表示して操作できるようになりました。
 
 ## <a name="next-steps"></a>次の手順
-[管理者の概要](admin-handbook-overview.md)  
-[Power BI レポート サーバーのインストール](install-report-server.md)  
+
+- [Azure AD アプリケーション プロキシを使用して Power BI Mobile へのリモート アクセスを有効にする](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+- [管理者の概要](admin-handbook-overview.md)  
+- [Power BI レポート サーバーのインストール](install-report-server.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

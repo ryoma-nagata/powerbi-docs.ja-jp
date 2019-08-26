@@ -1,38 +1,39 @@
 ---
-title: iFrame を使用してレポートを埋め込む
-description: SharePoint Server の iFrame に Power BI Report Server レポートを埋め込む
+title: SharePoint Server の iFrame を使用して Power BI Report Server レポートを埋め込む
+description: この記事では、SharePoint Server の iFrame を使用して Power BI Report Server レポートを埋め込む方法を紹介します
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/04/2018
-ms.topic: quickstart
+ms.date: 08/12/2019
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: ca26770c652c12573bf28e24b218b214bf1196fa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e1787863d2b5db50cdb9a8d09907fbee6623972f
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769871"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994999"
 ---
-# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>クイック スタート:SharePoint Server の iFrame を使用して Power BI Report Server レポートを埋め込む
+# <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>SharePoint Server の iFrame を使用して Power BI Report Server レポートを埋め込む
 
-このクイック スタートでは、SharePoint ページの iFrame を使用して Power BI Report Server レポートを埋め込む方法について説明します。 SharePoint Online を使用している場合は、Power BI Report Server にパブリックにアクセスできる必要があります。 SharePoint Online では、Power BI サービスで動作する Power BI Web パーツは、Power BI Report Server で動作しません。 
+この記事では、SharePoint ページの iFrame を使用して Power BI Report Server レポートを埋め込む方法について説明します。 SharePoint Online を使用している場合は、Power BI Report Server にパブリックにアクセスできる必要があります。 SharePoint Online では、Power BI サービスで動作する Power BI Web パーツは、Power BI Report Server で動作しません。  
 
 ![iFrame のサンプル](media/quickstart-embed/quickstart_embed_01.png)
+
 ## <a name="prerequisites"></a>前提条件
-* [Power BI Report Server](https://powerbi.microsoft.com/report-server/) をインストールする必要があります。
-* [Power BI Report Server 向けに最適化された Power BI Desktop](install-powerbi-desktop.md) をインストールする必要があります。
-* [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 環境をインストールし、構成する必要があります。
+* [Power BI Report Server](https://powerbi.microsoft.com/report-server/) をインストールし、構成しておくこと。
+* [Power BI Report Server 向けに最適化された Power BI Desktop](install-powerbi-desktop.md) をインストールしておくこと。
+* [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 環境をインストールし、構成しておくこと。
 
-## <a name="creating-the-power-bi-report-server-report-url"></a>Power BI Report Server のレポート URL の作成
+## <a name="create-the-power-bi-report-url"></a>Power BI レポート URL の作成
 
-1. GitHub からサンプル [Blog Demo](https://github.com/Microsoft/powerbi-desktop-samples) をダウンロードします。
+1. GitHub からサンプル [Blog Demo](https://github.com/Microsoft/powerbi-desktop-samples) をダウンロードします。 **[Clone or download]\(複製またはダウンロード\)** を選択し、 **[Download ZIP]\(ZIP のダウンロード\)** を選択します。
 
-    ![サンプル PBIX ファイルをダウンロードする](media/quickstart-embed/quickstart_embed_14.png)
+    ![サンプル PBIX ファイルのダウンロード](media/quickstart-embed/quickstart_embed_14.png)
 
-2. **Power BI Desktop 向けに最適化された Power BI Desktop** で GitHub のサンプル PBIX ファイルを開きます。
+2. ファイルを解凍し、Power BI Report Server 向けに最適化された Power BI Desktop でサンプルの .pbix ファイルを開きます。
 
     ![PBI RS Desktop ツール](media/quickstart-embed/quickstart_embed_02.png)
 
@@ -40,19 +41,19 @@ ms.locfileid: "64769871"
 
     ![PBI RS の保存](media/quickstart-embed/quickstart_embed_03.png)
 
-4. **Web ポータル**でレポートを表示します。
+4. Power BI Report Server Web ポータルでレポートを表示します。
 
     ![Web ポータル](media/quickstart-embed/quickstart_embed_04.png)
 
-### <a name="capturing-the-url-parameter"></a>URL パラメーターの取得
+### <a name="capture-the-url-parameter"></a>URL パラメーターの取得
 
-URL を用意したら、レポートをホストする iFrame を SharePoint ページ内に作成できます。 Power BI Report Server のレポートの URL には、querystring パラメーター `?rs:embed=true` を追加してレポートを iFrame に埋め込むことができます。 
+URL を用意したら、レポートをホストする iFrame を SharePoint ページ内に作成できます。 どの Power BI Report Server レポート URL の場合でも、次のクエリ文字列パラメーター `?rs:embed=true` を追加し、SharePoint iFrame にレポートを埋め込みます。
 
    例:
     ``` 
     http://myserver/reports/powerbi/Sales?rs:embed=true
     ```
-## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>PowerBI Report Server レポートを SharePoint の iFrame に埋め込む
+## <a name="embed-the-report-in-a-sharepoint-iframe"></a>SharePoint iFrame にレポートを埋め込む
 
 1. SharePoint の **[サイト コンテンツ]** ページに移動します。
 
@@ -60,7 +61,7 @@ URL を用意したら、レポートをホストする iFrame を SharePoint �
 
 2. レポートを追加するページを選択します。
 
-    ![[サイト コンテンツ] ページのアプリ](media/quickstart-embed/quickstart_embed_06.png)
+    ![[サイト コンテンツ] ページ アプリ](media/quickstart-embed/quickstart_embed_06.png)
 
 3. 右上の歯車アイコンを選択し、 **[ページの編集]** を選択します。
 
@@ -68,21 +69,17 @@ URL を用意したら、レポートをホストする iFrame を SharePoint �
 
 4. **[Web パーツの追加]** を選択します。
 
-    ![Web パーツの追加](media/quickstart-embed/quickstart_embed_08.png)
+5. **[カテゴリ]** で **[メディアとコンテンツ]** を選択します。 **[パーツ]** で **[コンテンツ エディター]** を選択し、 **[追加]** を選択します。
 
-5. **[カテゴリ]** で **[メディアとコンテンツ]** を選択し、 **[パーツ]** で **[コンテンツ エディター]** を選択して **[追加]** を選択します。
-
-    ![[コンテンツ エディター] Web パーツを選択し](media/quickstart-embed/quickstart_embed_09.png)、![[追加] を選択する](media/quickstart-embed/quickstart_embed_091.png)
+    ![コンテンツ エディターの Web パーツを選択する](media/quickstart-embed/quickstart_embed_09.png)
 
 6. **[ここをクリックして新しいコンテンツを追加]** を選択します。
 
-    ![新しいコンテンツの追加](media/quickstart-embed/quickstart_embed_10.png)
-
-7. リボンの **[テキストの書式設定]** タブを選択し、 **[ソースの編集]** を選択します。
+7. 一番上のメニューから **[テキストの書式設定]** を選択し、 **[ソースの編集]** を選択します。
 
      ![ソースの編集](media/quickstart-embed/quickstart_embed_11.png)
 
-8. [ソースの編集] ウィンドウに iFrame コードを貼り付け、[OK] を選択します。
+8. **[ソースの編集]** ウィンドウで、 **[HTML ソース]** に iFrame コードを貼り付け、 **[OK]** を選択します。
 
     ![iFrame コード](media/quickstart-embed/quickstart_embed_12.png)
 
@@ -91,17 +88,17 @@ URL を用意したら、レポートをホストする iFrame を SharePoint �
      <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
-9. リボンの **[テキストの書式設定]** タブを選択し、 **[編集の終了]** を選択します。
+9. 一番上のメニューで、 **[ページ]** を選択し、 **[編集の終了]** を選択します。
 
     ![編集の終了](media/quickstart-embed/quickstart_embed_13.png)
 
-10. これでページにレポートが表示されます。
+    ページにレポートが表示されます。
 
     ![iFrame のサンプル](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>次の手順
 
-[クイック スタート:Power BI Report Server 用の Power BI レポートを作成する](quickstart-create-powerbi-report.md)  
-[クイック スタート:Power BI Report Server 用のページ分割されたレポートを作成する](quickstart-create-paginated-report.md)  
+- [Power BI Report Server 用の Power BI レポートを作成する](quickstart-create-powerbi-report.md)。  
+- [Power BI Report Server のページ分割されたレポートを作成する](quickstart-create-paginated-report.md)。  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。 
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。 

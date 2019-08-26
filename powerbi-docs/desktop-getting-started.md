@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ecd58ca21e7fb6c5fb0bc2d3410788e2563efa9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454515"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654841"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop の概要
 「**Power BI Desktop 概要ガイド**」へようこそ。 この短いツアーでは、Power BI Desktop の機能を説明し、その動作の実例を示します。これにより、強力なデータ モデルと優れたレポートをより迅速に作成できるようになり、ビジネス インテリジェンスの作業を拡張できます。 
@@ -130,7 +130,7 @@ Web のデータ ソースに接続して検索した退職者関係のデータ
 
 さらに、 **[変換]** リボンを使用して、列をテキストからヘッダーに変更または*変換*することもできます。 **[変換]** リボンを次に示します。矢印は、現在のデータ型を別のデータ型に変換する **[データ型]** ボタンを指しています。
 
- ![](media/desktop-getting-started/shapecombine_changetype.png)
+ ![](media/desktop-getting-started/shapecombine-changetype-b.png)
 
 **[クエリの設定]** では、 **適用される手順** が、加えられたすべての変更を反映することに注意してください。 整形プロセスからいずれかの手順を削除する場合は、その手順を選択してから、手順の左側にある **[X]** を選択します。
 

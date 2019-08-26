@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418643"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023430"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -22,7 +22,9 @@ ms.locfileid: "67418643"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
+**Dynamics 365 Finance and Operations での Power BI の使用**
+<br>作成者: Kevin Horlock
+<br>[9 月 11 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

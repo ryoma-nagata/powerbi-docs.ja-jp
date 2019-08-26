@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 06/06/2019
-ms.openlocfilehash: f7cf5091c60a6a916b24d6170eae96b3c1ee64dc
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839632"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985726"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium のページ分割されたレポートとは
 
@@ -26,7 +26,7 @@ ms.locfileid: "66839632"
 
 ![Power BI サービスにおけるページ分割されたレポート](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-レポート ビルダーでレポートをプレビューした後、Power BI サービス (http://app.powerbi.com ) に発行することができます。 サービスにレポートを発行するには、Power BI Pro ライセンスが必要です。 ワークスペースが Power BI Premium 容量に存在する限り、マイ ワークスペースまたはアプリ ワークスペースにページ分割されたレポートを発行して共有できます。 また、Power BI 管理者は、Power BI 管理ポータルの [Premium 容量セクション](service-admin-premium-workloads.md#paginated-reports-preview)で、ページ分割されたレポートを有効にする必要があります。 
+レポート ビルダーでレポートをプレビューした後、Power BI サービス (http://app.powerbi.com ) に発行することができます。 サービスにレポートを発行するには、Power BI Pro ライセンスが必要です。 ワークスペースが Power BI Premium 容量に存在する限り、マイ ワークスペースまたはアプリ ワークスペースにページ分割されたレポートを発行して共有できます。 また、Power BI 管理者は、Power BI 管理ポータルの [Premium 容量セクション](service-admin-premium-workloads.md#paginated-reports)で、ページ分割されたレポートを有効にする必要があります。 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Power BI レポート ビルダーでレポートを作成する
 

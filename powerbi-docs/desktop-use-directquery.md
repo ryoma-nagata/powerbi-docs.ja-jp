@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757608"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654782"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 **Power BI Desktop** を利用すれば、データ ソースに接続するとき、常にデータのコピーを **Power BI Desktop** にインポートできます。 データ ソースによっては、代替手法を利用できます。**DirectQuery** でデータ ソースに直接接続する方法です。
@@ -49,10 +49,13 @@ ms.locfileid: "68757608"
 現在、 **DirectQuery**の使用には、いくつかの制限があります。
 
 * [複合モデル](desktop-composite-models.md)を使用しない限り、すべてのテーブルを必ず 1 つのデータベースから取得する必要があります。
+
 * **クエリ エディター**のクエリが複雑すぎるとエラーが発生します。 エラーを解決するには、問題となるステップを**クエリ エディター**で削除するか、**DirectQuery** を使用する代わりにデータを*インポート*する必要があります。 SAP Business Warehouse のように多次元ソースの場合、**クエリ エディター**はありません。
-* リレーションシップ フィルタリングは、双方向ではなく、一方向に制限されます (ただし、**DirectQuery** では、両方向でクロス フィルタリングを有効にすることができます)。 SAP Business Warehouse のように多次元ソースの場合、モデルに定義されているリレーションシップがありません。
+
 * タイム インテリジェンス機能は **DirectQuery** では利用できません。 たとえば、データ列 (年度、四半期、月、日など) の特殊な処理は **DirectQuery** モードではサポートされていません。
+
 * 基になるデータ ソースに送信されるクエリが許容範囲のパフォーマンスを確実に発揮できるよう、メジャー内で許可される DAX 式には制約があります。
+
 * **DirectQuery** を使用した場合の返されるデータには 100 万行の制限があります。 この制限は **DirectQuery** を使用して返されるデータセットの作成に使用される集計や計算には影響せず、返される行のみに影響します。 たとえば、データ ソースに対して実行すクエリで 1,000 万行を集計し、その集計の結果のデータが 100 万行未満であれば、**DirectQuery** を使用して、Power BI に正確に返すことができます。 **DirectQuery** から 100 万行を超える行が返された場合、Power BI はエラーを返します。
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery を使用する場合の重要な考慮事項

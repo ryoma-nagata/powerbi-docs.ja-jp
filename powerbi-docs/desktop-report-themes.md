@@ -7,31 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0c098baa42e4fdc45b23519856eed824dbab5cad
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989332"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023384"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポートのテーマを使用する
-**レポートのテーマ**では、企業の色、季節の色、または他の配色テーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます。 例外がいくつかあり、それについてはこの記事の後半で説明します。
+**レポートのテーマ**では、企業の色、季節の色、アイコン セットまたは他の配色テーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます。 例外がいくつかあり、それについてはこの記事の後半で説明します。
 
 ![レポートのテーマ](media/desktop-report-themes/report-themes_1.png)
 
 **レポートのテーマ**を適用するときは、基本的な構造を使用する JSON ファイルが必要です。 この JSON ファイルを Power BI Desktop にインポートし、レポートに適用できます。 JSON ファイルの構造と、インポートのプロセスはとても簡単です (ボタンを数回クリックするだけ)。
 
-ほとんどすべての要素をカスタマイズおよび標準化することもできます。 カスタマイズするには JSON ファイルを使用し、 **[書式]** ウィンドウを使用して手動で調整します。 目標は、レポートの検索アンド フィールを細かなレベルを完全に制御します。
+ほとんどすべての要素をカスタマイズおよび標準化することもできます。 カスタマイズするには JSON ファイルを使用し、 **[書式]** ウィンドウを使用して手動で調整します。 この目標は、レポートの外観を細かなレベルまで完全に制御できるようにすることです。
 
 ## <a name="how-report-themes-work"></a>レポートのテーマのしくみ
 Power BI Desktop レポートにレポート テーマを適用するには、使用可能な組み込みのレポート テーマから選択するか、またはカスタムのテーマをインポートします。
 
 | 組み込みのレポート テーマ | 既定の色順序    |
 |------ |---------- |
-| 既定   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
+| 既定値   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
 | 公園     | ![#73B761](https://placehold.it/20/73B761/000000?text=+) ![#4A588A](https://placehold.it/20/4A588A/000000?text=+) ![#ECC846](https://placehold.it/20/ECC846/000000?text=+) ![#CD4C46](https://placehold.it/20/CD4C46/000000?text=+) ![#71AFE2](https://placehold.it/20/71AFE2/000000?text=+) ![#8D6FD1](https://placehold.it/20/8D6FD1/000000?text=+) ![#EE9E64](https://placehold.it/20/EE9E64/000000?text=+) ![#95DABB](https://placehold.it/20/95DABB/000000?text=+)|
 | 教室     | ![#4A8DDC](https://placehold.it/20/4A8DDC/000000?text=+) ![#4C5D8A](https://placehold.it/20/4C5D8A/000000?text=+) ![#F3C911](https://placehold.it/20/F3C911/000000?text=+) ![#DC5B57](https://placehold.it/20/DC5B57/000000?text=+) ![#33AE81](https://placehold.it/20/33AE81/000000?text=+) ![#95C8F0](https://placehold.it/20/95C8F0/000000?text=+) ![#DD915F](https://placehold.it/20/DD915F/000000?text=+) ![#9A64A0](https://placehold.it/20/9A64A0/000000?text=+)|
 | 色の識別が困難な障碍を抱えるユーザーにとって安全   | ![#074650](https://placehold.it/20/074650/000000?text=+) ![#009292](https://placehold.it/20/009292/000000?text=+) ![#FE6DB6](https://placehold.it/20/FE6DB6/000000?text=+) ![#FEB5DA](https://placehold.it/20/FEB5DA/000000?text=+) ![#480091](https://placehold.it/20/480091/000000?text=+) ![#B66DFF](https://placehold.it/20/B66DFF/000000?text=+) ![#B5DAFE](https://placehold.it/20/B5DAFE/000000?text=+) ![#6DB6FF](https://placehold.it/20/6DB6FF/000000?text=+)|
@@ -112,7 +112,7 @@ JSON ファイルを作成する利点はさまざまです。 たとえば、�
 
 **[書式]** パネルの **[データの色]** セクションにはレポートのテーマが反映されます。 たとえば、**St. Patrick's Day** テーマから多数の緑色と茶色を適用した後、ビジュアルを選択します。 次に、 **[書式] > [データの色]** に移動して、次の情報を確認します。
 
-![視覚化](media/desktop-report-themes/report-themes_8.png)
+![視覚エフェクト](media/desktop-report-themes/report-themes_8.png)
 
 すべて緑色になっているのは、 これらの色が、インポートして適用した**レポートのテーマ**の一部であるためです。
 

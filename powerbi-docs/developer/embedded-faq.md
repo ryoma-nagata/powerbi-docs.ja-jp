@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: af3c22197e4d6783787bd72c9cf010bf6db64bc1
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270968"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490353"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -23,7 +23,7 @@ ms.locfileid: "68270968"
 
 ## <a name="general"></a>全般
 
-### <a name="what-is-power-bi-embedded"></a>Power BI Embedded とは何ですか?
+### <a name="what-is-power-bi-embedded"></a>Power BI Embedded とは?
 
 [Microsoft Power BI Embedded (PBIE)](azure-pbie-what-is-power-bi-embedded.md) を利用すれば、アプリケーション開発者は、完全にインタラクティブな優れたレポートをアプリケーションに埋め込むことができます。データの視覚エフェクトやコントロールを自分で一から構築する必要はありません。
 
@@ -66,9 +66,10 @@ Power BI Embedded は、開発者が埋め込み分析ソリューションを�
 
 | 特性 | Power BI Embedded | Power BI Premium 容量 | Power BI Premium 容量 |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | (A SKU) | (EM SKU) | (P SKU) |
-| Power BI アプリ ワークスペースからアーティファクトを埋め込む | Azure 容量 | Office 365 容量 | Office 365 容量 |
-| 埋め込みアプリケーションで Power BI レポートを使用する | はい | はい | はい |
+|   | A SKU-Azure 容量 | EM SKU-O365 容量 | P SKU-O365 容量 |
+| Power BI アプリ ワークスペースからアーティファクトを埋め込む | はい | はい | はい |
+| 埋め込みアプリケーションで Power BI レポートを使用する - SaaS | いいえ | はい | はい |
+| 埋め込みアプリケーションで Power BI レポートを使用する - PaaS | はい | はい | はい |
 | SharePoint で Power BI レポートを利用する | いいえ | はい | はい |
 | Dynamics で Power BI レポートを利用する | いいえ | はい | はい |
 | Teams で Power BI レポートを利用する (モバイル アプリを除く) | いいえ | はい | はい |

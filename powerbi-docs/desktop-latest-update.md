@@ -7,23 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 08/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 33b14b8e89a1ba4433896634b7f48a1fcfb6f80e
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 105fac5bf26ac15e9151d642f3b276ee5b00f87c
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324590"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023353"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Power BI Desktop の最新の更新プログラムの新機能 
 
-## <a name="july-2019-update-2715523641"></a>2019 年 7 月更新プログラム (2.71.5523.641)
 
-7 月の更新プログラムには、ご利用の Power BI Desktop 用の多彩な新機能が一気に盛り込まれています。 
+## <a name="august-2019-update-2715523641"></a>2019 年 8 月更新 (2.71.5523.641)
 
-[最新バージョンの Power BI Desktop をダウンロード](https://powerbi.microsoft.com/desktop)できるようになりました。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 バージョン番号が異なる場合でも、月次バージョン番号は **Power BI Desktop** のインストール方法に関係なく同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
+8 月の更新プログラムは注目されており、Power BI Desktop で作成できるレポートを明るく際立たせます。 
+
+[Power BI Desktop の最新バージョンをダウンロード](https://powerbi.microsoft.com/desktop)できるようになり、サポートされているすべての言語を含む 1 つの .exe ファイルとして配信されるようになりました。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 バージョン番号が異なる場合でも、月次バージョン番号は **Power BI Desktop** のインストール方法に関係なく同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
 
 各更新の横にあるリンクには、次の意味があります。
 
@@ -37,41 +38,40 @@ ms.locfileid: "68324590"
 以下の更新は、今月の **Power BI Desktop** の新しい機能です。
 
 ### <a name="reporting"></a>レポート
-* テーブルとマトリックスのアイコン セット [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=11) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
-* ルールによる条件付き書式設定のサポート率  [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=445)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#percentRules)
-* 新しいフィルター ウィンドウが一般公開されました [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=543)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#filterPane)
-* 散布図上で再生軸を使用する場合のデータ色のサポート [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=610)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#playAxis)
-* 相対日付とドロップダウン スライサーを使用した場合のパフォーマンスの向上 [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=669)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#slicers)
+* グループ化ビジュアル [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=10)  [[記事]](desktop-grouping-visuals.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#grouping) 
+* フィルター ウィンドウの移行 [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=360)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#filterPane)
+* アイコンの条件付き書式でのアイコン スタイル ピッカー [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=509)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#iconStyles)
+* 条件付き書式の警告 [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=621)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#conditionalFormatting)
 
 
 ### <a name="analytics"></a>分析
-* 主要なインフルエンサーのビジュアルのカウント (プレビュー) [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=760) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#keyInfluencers) 
-* 集計の機能強化 [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=870)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#aggregations) 
+* 主要なインフルエンサーのビジュアルの改善、一般公開 [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=801)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#keyInfluencers) 
 
 
 ### <a name="visuals"></a>ビジュアル
-* PowerApps ビジュアルが認定されました  [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=894)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
-* 3 つの新しいカスタム ビジュアルと更新 [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=932)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
+* 新しいカスタム ビジュアルと更新 [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=956)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
 
 
 ### <a name="data-connectivity"></a>データ接続
-* Azure Data Lake Storage Gen2 コネクタ (ベータ) [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=1203)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#azureDataLake) 
-* Dynamics 365 Customer Insights コネクタ  [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=1250)   [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#customerInsights) 
+* SAP HANA HDI コンテナーのサポート [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=1502)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#HDIcontainers) 
+* Power BI サービスで SAP 変数を編集する (プレビュー) [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=1522)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#SAPvariables)
+* PostgreSQL DirectQuery [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=1662)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#postgresql) 
+* MarkLogic コネクタの一般提供を開始 [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=1678)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#marklogic) 
+* [データの取得] 内の新しい Power Platform カテゴリ [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=1688)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#powerPlatform) 
 
-
-### <a name="data-preparation"></a>データ準備
-* 新しい変換: 位置による列の分割 [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=1321)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#splitColumn) 
+### <a name="template-apps"></a>テンプレート アプリ
+* Facebook ページ - 基本的な分析 [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#facebook) 
 
 
 > [!NOTE]
 > [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
 
-これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
 
 
 次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l7OMRUF9UYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sf4n7VXoQHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624054"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655164"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへの SSO (シングル サインオン) に Kerberos を使用する
 
@@ -192,7 +192,7 @@ Kerberos がゲートウェイと連携するしくみを理解できたので�
 1. SAP スタート パッドから CommonCryptoLib (sapcrypto.dll) バージョン **8.5.25 以上**をダウンロードし、それを自分のゲートウェイ マシン上のフォルダーにコピーします。 sapcrypto.dll をコピーしたのと同じディレクトリに、次の内容が含まれた sapcrypto.ini という名前のファイルを作成します。
 
     ```
-    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ccl/snc/enable_kerberos_in_client_role = 1
     ```
 
     .ini ファイルには、ゲートウェイ シナリオで SSO を有効にするために CommonCryptoLib が必要とする構成情報が含まれています。
@@ -242,7 +242,7 @@ Power BI サービスでレポートを更新できない場合は、ゲート�
 
     ```
     ccl/trace/level=5
-    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ccl/trace/directory=<drive>:\logs\sectrace
     ```
 
     _ccl/trace/directory_ オプションを、Authenticated Users グループのメンバーが書き込み可能な場所に必ず変更します。 または、新しい .ini ファイルを作成して、この動作を変更します。 sapcrypto.ini および sapcrypto.dll と同じディレクトリに、次の内容が含まれた sectrace.ini という名前のファイルを作成します。  DIRECTORY オプションを、認証されたユーザーが書き込むことができる自分のマシン上の場所に置き換えます。
@@ -250,7 +250,7 @@ Power BI サービスでレポートを更新できない場合は、ゲート�
     ```
     LEVEL = 5
     
-    DIRECTORY = \\<drive\\>:\logs\sectrace
+    DIRECTORY = <drive>:\logs\sectrace
     ```
 
     ここで問題を再現し、DIRECTORY によって指されている場所にトレース ファイルが含まれていることを確認します。 完了したら、CPIC および CCL トレースを無効にしてください。

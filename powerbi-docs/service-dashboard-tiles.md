@@ -1,6 +1,6 @@
 ---
 title: Power BI デザイナーのダッシュボードのタイルの概要
-description: Power BI のダッシュボードのタイルの概要 これには、SQL Server Reporting Services (SSRS) のレポートから作成されるタイルが含まれます。
+description: この記事では、Power BI のダッシュボード タイルについて説明します。これには、SQL Server Reporting Services (SSRS) レポートから作成されたタイルも含まれます。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139939"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994882"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードのタイルの概要
 
@@ -26,17 +26,17 @@ ms.locfileid: "61139939"
 
 ダッシュボードおよびダッシュボード タイルは、Power BI Desktop ではなく、Power BI サービスの機能です。 ダッシュボードはモバイル デバイスで作成できますが、そこで[参照し共有する](mobile-apps-view-dashboard.md)ことができます。
 
-ピン留めするだけでなく、[タイルの追加](service-dashboard-add-widget.md)を使ってダッシュボードに直接、スタンドアロンのタイルを作成できます。 スタンドアロン タイルには、テキスト ボックス、画像、ビデオ、ストリーミング データ、Web コンテンツが含まれます。
+タイルをピン留めするだけでなく、[[タイルの追加]](service-dashboard-add-widget.md) コントロールを使用することでダッシュボードで直接、スタンドアロンのタイルを作成できます。 スタンドアロン タイルには、テキスト ボックス、画像、ビデオ、ストリーミング データ、Web コンテンツが含まれます。
 
-Power BI を構成する要素を理解するうえで助けが必要ですか?  「[Power BI - 基本的な概念](service-basic-concepts.md)」をご覧ください。
+Power BI を構成する要素を理解するうえで助けが必要ですか? 「[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)」を参照してください。
 
 > [!NOTE]
 > タイルの作成に使った元の視覚エフェクトが変更された場合、タイルは変更されません。  たとえば、レポートからの折れ線グラフをピン留めし、折れ線グラフを横棒グラフに変更した場合でも、ダッシュボード タイルは引き続き折れ線グラフを表示します。 データは更新されますが、視覚化の種類は変更されません。
 > 
 > 
 
-## <a name="pin-a-tile-from"></a>ピン留めするタイルのソース
-ダッシュボードにタイルを追加 (ピン留め) するには、さまざまな方法があります。 タイルは次からピン留めできます。
+## <a name="pin-a-tile"></a>タイルをピン留めする
+ダッシュボードにタイルを追加 (ピン留め) するには、さまざまな方法があります。 次の場所にあるタイルをピン留めできます。
 
 * [Power BI Q & A](service-dashboard-pin-tile-from-q-and-a.md)
 * [レポート](service-dashboard-pin-tile-from-report.md)
@@ -44,45 +44,44 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 * [OneDrive for Business 上の Excel ブック](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher for Excel](publisher-for-excel.md)
 * [Quick Insights (クイック分析情報)](service-insights.md)
-* [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+* [Power BI Report Server または SQL Server Reporting Services のページ分割されたオンプレミス レポート](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
-また、[[タイルの追加]](service-dashboard-add-widget.md) を使って、画像、テキスト ボックス、ビデオ、ストリーミング データ、Web コンテンツ用のスタンドアロン タイルをダッシュボードに直接作成できます。
+[[タイルの追加]](service-dashboard-add-widget.md) コントロールを使用することで、画像、テキスト ボックス、ビデオ、ストリーミング データ、Web コンテンツ用のスタンドアロン タイルをダッシュボードで直接作成します。
 
   ![タイルの追加アイコン](media/service-dashboard-tiles/add_widgetnew.png)
 
-## <a name="interacting-with-tiles-on-a-dashboard"></a>ダッシュボードのタイルと対話する
+## <a name="interact-with-tiles-on-a-dashboard"></a>ダッシュボードのタイルとの対話
+ダッシュボードにタイルを追加した後、タイルを移動したり、サイズ、外観、動作を変更したりできます。
+
 ### <a name="move-and-resize-a-tile"></a>タイルの移動とサイズ変更
-タイルをつかんで、[ダッシュボード上を移動](service-dashboard-edit-tile.md)できます。 ハンドル ![ハンドル](media/service-dashboard-tiles/resize-handle.jpg) にマウス カーソルを置いて選ぶと、タイルのサイズを変更できます。
+タイルをつかんで、[ダッシュボード上を移動](service-dashboard-edit-tile.md)できます。 ![タイル ハンドル](media/service-dashboard-tiles/resize-handle.jpg) ハンドルにマウス カーソルを置いて選択し、タイルのサイズを変更します。
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>タイルにカーソルを置いて動作と外観を変更する
 1. タイルにマウス カーソルを置き、省略記号を表示します。
    
     ![タイルの省略記号](media/service-dashboard-tiles/ellipses_new.png)
-2. 省略記号を選んで、タイルの操作メニューを開きます。
+2. 省略記号を選択し、タイルの操作メニューを開きます。
    
     ![省略記号アイコン](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     ここでは、次の操作を実行できます。
    
-   * [このタイルの作成に使われたレポートを開く](service-reports.md) ![レポート アイコン](media/service-dashboard-tiles/chart-icon.jpg)  
-   
-   * [このタイルの作成に使われたワークシートを開く](service-reports.md) ![ワークシート アイコン](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
-     
-    * [フォーカス モードで表示する](service-focus-mode.md) ![フォーカス アイコン](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [タイルで使われているデータをエクスポートする](visuals/power-bi-visualization-export-data.md) ![データのエクスポート アイコン](media/service-dashboard-tiles/export-icon.png)
-     * [タイトルとサブタイトルの編集、ハイパーリンクの追加](service-dashboard-edit-tile.md) ![編集アイコン](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [インサイトを実行する](service-insights.md) ![インサイト アイコン](media/service-dashboard-tiles/power-bi-insights.png)
-     * [別のダッシュボードにタイルをピン留めする](service-pin-tile-to-another-dashboard.md)
-       ![ピン留めアイコン](media/service-dashboard-tiles/pin-icon.jpg)
-     * [タイルの削除](service-dashboard-edit-tile.md)
-     ![削除アイコン](media/service-dashboard-tiles/trash-icon.png)
-3. 操作メニューを閉じるには、キャンバスの空白領域を選びます。
+     * [ダッシュボードにコメントを追加する](consumer/end-user-comment.md)。
+     * [このタイルの作成に使用されたレポートを開く](service-reports.md)。  
+     * [フォーカス モードで表示する](service-focus-mode.md)。   
+     * [タイルで使用されているデータをエクスポートする](visuals/power-bi-visualization-export-data.md)。
+     * [タイトルとサブタイトルを編集し、ハイパーリンクを追加する](service-dashboard-edit-tile.md)。 
+     * [インサイトを実行する](service-insights.md)。 
+     * [別のダッシュボードにタイルをピン留めする](service-pin-tile-to-another-dashboard.md)。
+     * [タイルを削除する](service-dashboard-edit-tile.md)。
 
-### <a name="select-click-a-tile"></a>タイルの選択 (クリック)
-タイルを選択したときに次に生じる動作は、タイルの作成方法によって異なります。 また、[カスタム リンク](service-dashboard-edit-tile.md)がある場合、タイルを選択するとそのリンクに移動できます。 それ以外の場合、タイルを選択すると、そのタイルを作成するために使われたレポート、Excel Online ブック、オンプレミスの Reporting Services レポート、Q&A の質問に移動できます。
+3. 操作メニューを閉じるには、ダッシュボードの空白領域を選択します。
+
+### <a name="select-a-tile"></a>タイルの選択
+タイルを選択したときに次に生じる動作は、タイルの作成方法によって異なります。 それ以外の場合、タイルを選択すると、そのタイルを作成するために使われたレポート、Excel Online ブック、オンプレミスの Reporting Services レポート、Q&A の質問に移動できます。 あるいは、[カスタム リンク](service-dashboard-edit-tile.md)がある場合、タイルを選択するとそのリンクに移動します。
 
 > [!NOTE]
-> 例外は、 **[タイルを追加]** を使ってダッシュボードに直接作成したビデオ タイルの場合です。 (この方法で作成された) ビデオ タイルを選択すると、ダッシュボード上で直接ビデオが再生されます。   
+> 例外は、 **[タイルの追加]** を使用してダッシュボードに直接作成したビデオ タイルの場合です。 (この方法で作成された) ビデオ タイルを選択すると、ダッシュボード上で直接ビデオが再生されます。   
 > 
 > 
 
@@ -91,22 +90,17 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 * 視覚エフェクトの作成に使われたレポートが保存されなかった場合は、タイルを選択してもアクションは発生しません。
 * タイルが Excel Online のブックから作成された場合、少なくともそのブックに対する読み取りアクセス許可が必要です。 ない場合、タイルを選択しても Excel Online でブックは開けません。
 * **[タイルの追加]** を使用してダッシュボードに直接タイルを作成し、それに対してカスタム ハイパーリンクを設定したとします。 その場合、タイトル、サブタイトル、またはタイルを選択すると、その URL が開きます。 それ以外の場合、既定では、イメージ、Web コード、またはテキスト ボックスのためにダッシュボード上に直接作成されたタイルを選択しても、何も起こりません。
-* Reporting Services 内のレポートに対する権限がない場合、Reporting Services レポートから作成されたタイルを選択すると、アクセス権がないことを示すページに移動します (rsAccessDenied)。
-* Reporting Services サーバーが置かれたネットワークへのアクセス権がない場合、Reporting Services から作成されたタイルを選択すると、サーバーが見つからないことを示すページに移動します (HTTP 404)。 レポートを表示するには、デバイスにレポート サーバーへのネットワーク アクセスが必要です。
-* タイルの作成に使った元の視覚エフェクトが変更された場合、タイルは変更されません。  たとえば、レポートからの折れ線グラフをピン留めし、折れ線グラフを横棒グラフに変更した場合でも、ダッシュボード タイルは引き続き折れ線グラフを表示します。 データは更新されますが、視覚化の種類は変更されません。
+* タイルは、Power BI Report Server または SQL Server Reporting Services のページ分割されたオンプレミス レポートから作成できます。 オンプレミス レポートにアクセスする権限がない場合、タイルを選択すると、アクセス権がないことを示す (rsAccessDenied) ページに移動します。
+* Power BI Report Server または SQL Server Reporting Services のページ分割されたオンプレミス レポートから作成されたタイルを選択するとします。 レポート サーバーが置かれているネットワークにアクセスする権限がない場合、そのページ分割されたレポートから作成されたタイルを選択すると、サーバーが見つからないことを示すページに移動します (HTTP 404)。 レポートを表示するには、デバイスにレポート サーバーへのネットワーク アクセスが必要です。
+* タイルの作成に使った元の視覚エフェクトが変更された場合、タイルは変更されません。 たとえば、レポートからの折れ線グラフをピン留めし、折れ線グラフを横棒グラフに変更した場合でも、ダッシュボード タイルは引き続き折れ線グラフを表示します。 データは更新されますが、視覚化の種類は変更されません。
 
 ## <a name="next-steps"></a>次の手順
-[ダッシュボードのカード (大きな数字のタイル) を作成する](power-bi-visualization-card.md)
-
-[Power BI のダッシュボード](service-dashboards.md)  
-
-[データ更新](refresh-data.md)
-
-[Power BI - 基本的な概念](service-basic-concepts.md)
-
-[PowerPoint へのタイルのエクスポート](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
-
-[Reporting Services のアイテムを Power BI ダッシュボードにピン留めする](https://msdn.microsoft.com/library/mt604784.aspx)
+- [ダッシュボードのカード (大きな数字のタイル) を作成する](power-bi-visualization-card.md)
+- [Power BI デザイナーのダッシュボードの概要](service-dashboards.md)  
+- [Power BI でのデータの更新](refresh-data.md)
+- [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
+- [Power BI タイルを Office ドキュメントに統合する](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Reporting Services のアイテムを Power BI ダッシュボードにピン留めする](https://msdn.microsoft.com/library/mt604784.aspx)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

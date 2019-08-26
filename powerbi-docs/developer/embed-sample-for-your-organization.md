@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808252"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490380"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -35,7 +35,7 @@ ms.locfileid: "68808252"
 * [Power BI Pro アカウント](../service-self-service-signup-for-power-bi.md)。
 * [Microsoft Azure](https://azure.microsoft.com/) サブスクリプション。
 * 独自の [Azure Active Directory テナント](create-an-azure-active-directory-tenant.md)のセットアップが必要です。
-* ページ分割された SharePoint レポートを埋め込むためには、少なくとも A4/P1 の容量が必要です。「[ページ分割されたレポートに必要な Premium 容量のサイズはどれくらいですか。](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)」を参照してください。
+* ページ分割された SharePoint レポートを埋め込むためには、少なくとも P1 容量が必要です。「[ページ分割されたレポートに必要な Premium 容量のサイズはどれくらいですか。](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)」を参照してください。
 
 **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/pricing/)してください。
 
@@ -45,7 +45,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 アプリケーションへのレポート、ダッシュボード、タイルの埋め込みを開始する前に、使用している環境で Power BI での埋め込みが許可されていることを確認する必要があります。
 
-[埋め込みセットアップ ツール](https://aka.ms/embedsetup/UserOwnsData)を使うと、環境の作成とレポートの埋め込みを段階的に行うのに役立つサンプル アプリケーションをすぐに使い始めたり、ダウンロードしたりできます。 ページ分割されたレポートを埋め込む場合、作成したアプリ ワークスペースに少なくとも A4/P1 容量を割り当てる必要があります。
+[埋め込みセットアップ ツール](https://aka.ms/embedsetup/UserOwnsData)を使うと、環境の作成とレポートの埋め込みを段階的に行うのに役立つサンプル アプリケーションをすぐに使い始めたり、ダウンロードしたりできます。 ページ分割されたレポートを埋め込む場合、作成したアプリ ワークスペースに少なくとも P1 容量を割り当てる必要があります。
 
 手動で環境をセットアップする場合は、以下を続行できます。
 
@@ -83,7 +83,7 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
    
 ### <a name="create-and-publish-your-paginated-reports"></a>ページ分割されたレポートを作成して発行する
 
-[Power BI レポート ビルダー](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)を使用すると、ページ分割されたレポートを作成できます。それから、A4/P1 以上の容量に割り当てられたアプリのワークスペースに[レポートをアップロード](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)できます。 レポートをアップロードするエンドユーザーは、アプリのワークスペースに発行するには、Power BI Pro ライセンスを持っている必要があります。
+[Power BI レポート ビルダー](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)を使用して、ページ分割されたレポートを作成できます。 その後、少なくとも P1 容量に割り当てられているアプリ ワークスペースに[レポートをアップロード](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)できます。 レポートをアップロードするエンドユーザーは、アプリのワークスペースに発行するには、Power BI Pro ライセンスを持っている必要があります。
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>サンプル アプリケーションを使用してコンテンツを埋め込む
 
@@ -152,9 +152,6 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 Power BI レポート URL <br>
 
 ![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
-
-ページ分割されたレポートの URL <br>
-
 
 
 ページ分割されたレポートの URL<br>
@@ -384,7 +381,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
 
-専用の容量を作成することで、アプリ ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 ページ分割されたレポートについては、少なくとも A4/P1 の容量でアプリ ワークスペースをバックアップする必要があります。[Power BI Premium](../service-premium-what-is.md) を利用し、専用の容量を作成できます。
+専用の容量を作成することで、アプリ ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 ページ分割されたレポートの場合は、少なくとも P1 容量を使用してアプリ ワークスペースをバックアップする必要があります。 [Power BI Premium](../service-premium-what-is.md) を使用して、専用の容量を作成できます。
 
 次の表は、[Microsoft Office 365](../service-admin-premium-purchase.md) で利用可能な Power BI Premium SKU の一覧です。
 

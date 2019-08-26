@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスから Power BI Desktop にレポートをエクスポートする (プレビュー)
+title: Power BI サービスから Power BI Desktop にレポートをダウンロードする (プレビュー)
 description: Power BI サービスから Power BI Desktop ファイルへのレポートのダウンロード
 author: maggiesMSFT
 manager: kfile
@@ -7,72 +7,69 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 296970466505f01ae9ad11f994fe2008563f4884
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720205"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994818"
 ---
-# <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Power BI サービスからデスクトップにレポートをエクスポートする (プレビュー)
-Power BI Desktop では、レポートを保存して **[発行]** を選ぶことにより、レポートを Power BI サービスにエクスポートできます (*ダウンロード* ともいいます)。 反対の方向にもエクスポートでき、Power BI サービスから Desktop にレポートをダウンロードできます。 どちらの方向でも、エクスポートされたファイルの拡張子は *.pbix* です。
+# <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI サービスから Power BI Desktop にレポートをダウンロードする (プレビュー)
+Power BI Desktop では、ローカル コンピューターから Power BI サービスにレポート ( *.pbix* ファイル) を発行できます。 Power BI レポートは反対の方向に発行することもできます。Power BI サービスから Power BI Desktop にレポートをダウンロードできます。 いずれの場合も、Power BI レポートの拡張子は .pbix です。
 
 この記事の後半では、注意する必要のあるいくつかの制限事項と考慮事項について説明します。
 
 ![[ファイル] ドロップダウン](media/service-export-to-pbix/power-bi-file-export.png)
 
-## <a name="download-the-report-as-a-pbix"></a>レポートを .pbix としてダウンロードする
+## <a name="download-the-report-as-a-pbix-file"></a>レポートを .pbix ファイルとしてダウンロードする
+
+2016 年 11 月 23 日以降に [Power BI Desktop で作成され](guided-learning/publishingandsharing.yml?tutorial-step=2)、その後更新されたレポートのみダウンロードできます。 作成がそれ以前の場合、Power BI サービスの **[レポートのダウンロード]** メニュー オプションは淡色表示されます。
+
 .pbix ファイルをダウンロードするには、次の手順に従います。
 
-1. **Power BI サービス**で、ダウンロードするレポートを[編集ビュー](consumer/end-user-reading-view.md)で開きます。
-2. メニュー バーから、 **[ファイル]、[レポートのダウンロード]** の順に選択します。
+1. Power BI サービスで、ダウンロードするレポートを[編集ビュー](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view)で開きます。
+
+2. 上部のナビゲーション バーから、 **[ファイル]、[レポートのダウンロード]** の順に選択します。
    
-   > [!NOTE]
-   > レポートをダウンロードするには、レポートが 2016 年 11 月 23 日以降に [Power BI Desktop で作成されていて](guided-learning/publishingandsharing.yml?tutorial-step=2)、かつそれ以降に更新されている必要があります。 これに該当しない場合、Power BI サービスの *[レポートのダウンロード (プレビュー)]* メニュー オプションは淡色表示されます。
-   > 
-   > 
-3. .pbix ファイルが作成されている間、進行状況が状態バナーに表示されます。 .pbix ファイルの準備ができると、開くか保存するように求められます。 ファイルの名前はレポートのタイトルと同じです。
+3. レポートがダウンロードされているとき、ステータス バナーに進捗状況が表示されます。 ファイルの用意ができると、.pbix ファイルを保存する場所を問われます。 ファイルの既定の名前はレポートのタイトルと同じです。
    
-    ![[開く]、[保存]、[キャンセル]](media/service-export-to-pbix/power-bi-save-pbix.png)
+4. Power BI Desktop をまだインストールしていない場合、[インストール](desktop-get-the-desktop.md)し、.pbix ファイルを Power BI Desktop で開きます。
    
-    Power BI サービス (app.powerbi.com) または Power BI Desktop で .pbix ファイルを開くオプションが表示されるようになります。     
-4. レポートを Desktop ですぐ開くには、 **[開く]** を選びます。 特定の場所にファイルを保存するには、 **[保存] > [名前を付けて保存]** の順に選択します。 まだ行っていない場合は、[Power BI Desktop をインストール](desktop-get-the-desktop.md)します。
-   
-    レポートを Desktop で開くとき、Power BI サービスのレポートで使用できる一部の機能が Desktop では使用できないという警告メッセージが表示されることがあります。
+    レポートを Power BI Desktop で開くと、Power BI サービスのレポートで使用できる一部の機能が Power BI Desktop では使用できないという警告メッセージが表示されることがあります。
    
     ![警告ダイアログ](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
 
-5. Power BI Desktop のレポート エディターと Power BI サービスのレポート エディターは、よく似ています。  
+5. Power BI Desktop のレポート エディターと Power BI サービスのレポート エディターは似ています。  
    
-    ![デスクトップ レポート エディター](media/service-export-to-pbix/power-bi-desktop.png)
+    ![Power BI Desktop レポート エディター](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-Power BI サービスからの *.pbix* ファイルのダウンロード (エクスポート) に関しては、重要な考慮事項と制限事項がいくつかあります。
+Power BI サービスから .pbix ファイルをダウンロードすることに関しては、重要な考慮事項と制限事項がいくつかあります。
 
 * ファイルをダウンロードするには、レポートの編集アクセス権限が必要です。
-* レポートが **Power BI Desktop** を使って作成され、**Power BI サービス**に*発行*されているか、.pbix ファイルがサービスに*アップロード*されている必要があります。
-* レポートは、2016 年 11 月 23 日以降に更新または発行されている必要があります。 この日より前に発行されたレポートはダウンロードできません。
-* この機能は、**Power BI サービス** (コンテンツ パックを含みます) でもともと作成されたレポートには使用できません。
-* ダウンロードしたファイルを開くときは常に、最新バージョンの **Power BI Desktop** を使用する必要があります。 最新バージョンではない **Power BI Desktop** では、ダウンロードした *.pbix* ファイルを開くことができない場合があります。
-* データをエクスポートする機能を管理者が無効にしている場合、この機能は **Power BI サービス**に表示されません。
-* 増分更新を使用しているデータセットは *.pbix* ファイルにダウンロードできません。
+* レポートが Power BI Desktop を使用して作成され、Power BI サービスに*発行*されているか、.pbix ファイルが Power BI サービスに*アップロード*されている必要があります。
+* レポートは、2016 年 11 月 23 日以降に更新または発行されている必要があります。 それ以前に発行されたレポートはダウンロードできません。
+* この機能は、Power BI サービスでもともと作成されたレポートやコンテンツ パックには使用できません。
+* ダウンロードしたファイルを開くときは常に最新バージョンの Power BI Desktop を使用してください。 最新バージョンではない Power BI Desktop では、ダウンロードした .pbix ファイルを開くことができない場合があります。
+* データをダウンロードする機能を管理者が無効にしている場合、この機能は Power BI サービスに表示されません。
+* 増分更新を使用しているデータセットは .pbix ファイルにダウンロードできません。
 
 ## <a name="next-steps"></a>次の手順
 この機能に関しては、**Guy in a Cube** の簡単なビデオをご覧ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ymWqU5jiUl0" frameborder="0" allowfullscreen></iframe>
 
-また、**Power BI サービス**の使い方を知るのに役立つ記事を以下に示します。
+Power BI サービスの使い方を知るのに役立つ記事を以下に示します。
 
 * [Power BI のレポート](consumer/end-user-reports.md)
 * [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
-以下のガイドは、**Power BI Desktop** をインストールした後で、すばやく作業を開始するのに役立ちます。
+Power BI Desktop をインストールした後、次の記事を参照すると短時間で作業を開始するのに役立ちます。
 
 * [Power BI Desktop の概要](desktop-getting-started.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。   
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 
