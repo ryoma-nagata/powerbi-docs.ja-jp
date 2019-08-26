@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2019
+ms.date: 08/15/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30552ee407460856fd1548073f0b3046ab508115
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567520"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530549"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポートの利用状況の指標を監視する
 
@@ -41,20 +41,7 @@ ms.locfileid: "67567520"
 - 特定のダッシュボードまたはレポートの利用状況の指標にアクセスするには、そのダッシュボードまたはレポートに対する編集アクセス権が必要です。
 - Power BI 管理者が、コンテンツ作成者に対して利用状況の指標を有効にしている必要があります。 Power BI 管理者は、利用状況の指標内のユーザーごとのデータの収集を有効にしている場合もあります。 [管理ポータル内でこれらのオプションを有効にする](service-admin-portal.md#control-usage-metrics)方法をご覧ください。 
 
-## <a name="about-the-usage-metrics-report"></a>利用状況の指標レポートについて
-
-**[利用状況の指標]** またはダッシュボードやレポートの横にあるアイコン ![利用状況の指標アイコン](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) を選択すると、Power BI によって過去 90 日間のそのコンテンツの利用状況の指標が含まれる事前に作成されたレポートが生成されます。  このレポートは、おなじみの Power BI レポートに似ています。 アクセス手段 (Web やモバイル アプリなど) に関係なく、エンド ユーザーがアクセス権を受け取った方法に基づいてスライスできます。ダッシュボードやレポートが変わると利用状況指標レポートも変わります。新しいデータで毎日更新されます。  
-
-利用状況の指標レポートは、 **[最近]** 、 **[ワークスペース]** 、 **[お気に入り]** 、その他のコンテンツ一覧には表示されません。 これらはアプリに追加できません。 利用状況の指標レポートからダッシュボードにタイルをピン留めすると、そのダッシュボードはアプリに追加できません。
-
-レポート データを詳しく調べる、または基になるデータセットに対して独自のレポートを作成するには、2 つのオプションがあります。 
-
-- Power BI サービス内でレポートのコピーを作成します。 詳細については、この記事で後述する「[利用状況の指標レポートのコピーを保存する](#save-a-copy-of-the-usage-metrics-report)」を参照してください。
-- Power BI Desktop からデータセットに接続します。 詳細については、[発行されたデータセットへの接続の確立](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)に関するページを参照してください。
-
-    ![利用状況レポートのデータセットへの接続](media/service-usage-metrics/power-bi-usage-dataset.png)
-
-## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>ダッシュボードまたはレポートの利用状況の指標レポートを開く
+## <a name="view-a-usage-metrics-report"></a>利用状況の指標レポートを表示する
 
 1. ダッシュボードまたはレポートを含んでいるワークスペースで起動します。
 2. ワークスペース コンテンツの一覧から、またはダッシュボードまたはレポート自体から、 **[利用状況の指標]** アイコン ![利用状況の指標アイコン](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) を選択します。
@@ -82,6 +69,18 @@ ms.locfileid: "67567520"
 
 ![レポートの利用状況の指標レポート](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
+## <a name="about-the-usage-metrics-report"></a>利用状況の指標レポートについて
+
+**[利用状況の指標]** またはダッシュボードやレポートの横にあるアイコン ![利用状況の指標アイコン](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) を選択すると、Power BI によって過去 90 日間のそのコンテンツの利用状況の指標が含まれる事前に作成されたレポートが生成されます。  このレポートは、おなじみの Power BI レポートに似ています。 アクセス手段 (Web やモバイル アプリなど) に関係なく、エンド ユーザーがアクセス権を受け取った方法に基づいてスライスできます。ダッシュボードやレポートが変わると利用状況指標レポートも変わります。新しいデータで毎日更新されます。  
+
+利用状況の指標レポートは、 **[最近]** 、 **[ワークスペース]** 、 **[お気に入り]** 、その他のコンテンツ一覧には表示されません。 これらはアプリに追加できません。 利用状況の指標レポートからダッシュボードにタイルをピン留めすると、そのダッシュボードはアプリに追加できません。
+
+レポート データを詳しく調べる、または基になるデータセットに対して独自のレポートを作成するには、2 つのオプションがあります。 
+
+- Power BI サービス内でレポートのコピーを作成します。 詳細については、この記事で後述する「[利用状況の指標レポートのコピーを保存する](#save-a-copy-of-the-usage-metrics-report)」を参照してください。
+- Power BI Desktop からデータセットに接続します。 すべてのワークスペースについて、データセットの名前は "Report Usage Metrics Model" になります。 詳細については、[発行されたデータセットへの接続の確立](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)に関するページを参照してください。
+
+    ![利用状況レポートのデータセットへの接続](media/service-usage-metrics/power-bi-usage-dataset.png)
 
 ## <a name="which-metrics-are-reported"></a>どの指標が報告されるでしょうか。
 
@@ -105,7 +104,7 @@ ms.locfileid: "67567520"
 
 **[名前を付けて保存]** を使用して、利用状況の指標レポートを、特定のニーズに合わせてカスタマイズ可能な通常の Power BI レポートに変換します。 Power BI Desktop を使用して、基になるデータセットに基づいたカスタムの利用状況の指標レポートを作成することもできます。 詳細については、[発行されたデータセットへの接続の確立](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)に関するページを参照してください。
 
-また、基礎データセットには、ワークスペースのすべてのダッシュボードまたはレポートの利用状況詳細が含まれます。 これにより、可能性がさらに広がります。 たとえば、利用状況に基づき、ワークスペース内のすべてのダッシュボードを比較するレポートを作成できます。 あるいは、自分の Power BI アプリに利用状況の指標ダッシュボードを作成できます。そのアプリ内で配信されているすべてのコンテンツを対象に利用状況を集計します。  この記事で後述する[ページ レベル フィルターの削除](#remove-the-filter-to-see-all-workspace-usage-metrics)に関するセクションを参照してください。
+また、基礎データセットには、ワークスペースのすべてのダッシュボードまたはレポートの利用状況詳細が含まれます。 これにより、可能性がさらに広がります。 たとえば、利用状況に基づき、ワークスペース内のすべてのダッシュボードを比較するレポートを作成できます。 あるいは、自分の Power BI アプリに利用状況の指標ダッシュボードを作成できます。そのアプリ内で配信されているすべてのコンテンツを対象に利用状況を集計します。  この記事で後述する、フィルターの削除方法と、「[すべてのワークスペース利用状況の指標を表示する](#see-all-workspace-usage-metrics)」を参照してください。
 
 ### <a name="create-a-copy-of-the-usage-report"></a>利用状況レポートのコピーを作成する
 
@@ -121,7 +120,7 @@ ms.locfileid: "67567520"
 
     ![[レポート] タブ](media/service-usage-metrics/power-bi-new-report.png)
 
-## <a name="remove-the-filter-to-see-all-workspace-usage-metrics"></a>フィルターを削除し、"*すべての*" ワークスペース利用状況の指標を表示する
+## <a name="see-all-workspace-usage-metrics"></a>"*すべての*" ワークスペース利用状況の指標を表示する
 
 ワークスペース内のすべてのダッシュボードまたはすべてのレポートの指標を表示するには、フィルターを削除する必要があります。 既定では、レポートにはフィルターが適用され、その作成に使用したダッシュボードまたはレポートのみの指標が表示されます。
 
@@ -169,7 +168,7 @@ Power BI は別個の国内クラウドで利用できます。 これらのク�
 
 **質問:**  利用状況の指標は、埋め込みのダッシュボードやレポートからビューを取り込みますか。
 
-**回答:**  現在、利用状況の指標では、埋め込まれたダッシュボード、レポート、[Web への公開](service-publish-to-web.md)フローに関する利用状況の取り込みはサポートされていません。          これらについては、既存の Web 分析プラットフォームを使って、ホストしているアプリまたはポータルの利用状況を追跡することをお勧めします。
+**回答:**  現在、利用状況の指標では、埋め込まれたダッシュボード、レポート、[Web への公開](service-publish-to-web.md)フローに関する利用状況の取り込みはサポートされていません。 これらについては、既存の Web 分析プラットフォームを使って、ホストしているアプリまたはポータルの利用状況を追跡することをお勧めします。
 
 **質問:**  コンテンツに関係なく利用状況の指標をまったく実行できません。
 

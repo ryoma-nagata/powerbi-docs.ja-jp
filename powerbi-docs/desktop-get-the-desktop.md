@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 08/15/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 9fa79bc17e87863d094afbc479d664c8bbf9daaf
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 8b92bd2917165cd6dc89e0c9f9a94e83d69f1c2a
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590485"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560850"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 **Power BI Desktop** では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 **Power BI Desktop** を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。  **Power BI Desktop** は無料でダウンロードできます。
 
 **Power BI Desktop** は 2 つの方法で取得でき、次のセクションではそれぞれについて説明します。
 
-* 直接**ダウンロード**する (MSI パッケージをダウンロードしてコンピューターにインストール)
+* 直接**ダウンロード**する (パッケージをダウンロードしてコンピューターにインストール)
 * **Microsoft ストア**からアプリとしてインストールする
 
 どちらの方法でも最新バージョンの **Power BI Desktop** がコンピューターにインストールされますが、注目すべきいくつかの違いがあります。これについては以下のセクションで説明します。
@@ -30,21 +30,23 @@ ms.locfileid: "68590485"
 ## <a name="download-power-bi-desktop"></a>Power BI Desktop をダウンロードする
 **Power BI Desktop** の最新バージョンをダウンロードするには、Power BI サービスの右上隅からダウンロード アイコンを選択し、 **[Power BI Desktop]** を選択します。
 
-![](media/desktop-get-the-desktop/getpbid_downloads.png)
+![最新バージョンの Power BI Desktop をダウンロードする](media/desktop-get-the-desktop/getpbid_downloads.png)
 
 また、次のダウンロード ページから Power BI Desktop の最新バージョンをダウンロードすることもできます。
 
-* [**Power BI Desktop のダウンロード** (32/64 ビットの両バージョン)](https://powerbi.microsoft.com/desktop).
+* [**Power BI Desktop のダウンロード** (32 ビットと 64 ビットの両バージョン)](https://powerbi.microsoft.com/desktop).
   
-  [![](media/service-admin-power-bi-security/PBI_Security_01.png)](https://powerbi.microsoft.com/desktop)
+  [![最新バージョンの Power BI Desktop をダウンロードする](media/service-admin-power-bi-security/PBI_Security_01.png)](https://powerbi.microsoft.com/desktop)
 
 どちらの方法でダウンロードしても、**Power BI Desktop** のダウンロードが終わると、インストール ファイルを実行するよう求められます。
 
-![](media/desktop-get-the-desktop/getpbid_3.png)
+![Power BI Desktop インストール ファイルを実行する](media/desktop-get-the-desktop/getpbid_3.png)
 
-**Power BI Desktop** がアプリケーションとしてインストールされて、デスクトップで実行します。
+2019 年 7 月リリース以降、**Power BI Desktop** は、サポートされているすべての言語を含む 1 つの .exe インストール パッケージとしてリリースされています。 32 ビット バージョンと 64 ビット バージョン用に個別の .exe ファイルがあります。 2019 年 9 月リリースの後は .msi パッケージが廃止されます。その後、インストールには .exe 実行可能ファイルを使用する必要があります。 この方法により、(特に管理者の場合) 配布、更新、およびインストールがはるかに簡単で便利になります。 また、コマンドライン パラメーターを使用してインストール プロセスをカスタマイズすることもできます。詳細については、この記事で後述する「[インストール時にコマンドライン オプションを使用する](#using-command-line-options-during-installation)」セクションを参照してください。
 
-![](media/desktop-get-the-desktop/designer_gsg_install.png)
+インストール パッケージを起動すると、**Power BI Desktop** がアプリケーションとしてインストールされ、デスクトップ上で実行されます。
+
+![Power BI Desktop アプリケーションがデスクトップ上で実行される](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
 > 同じコンピューターに **Power BI Desktop** のダウンロード (MSI) バージョンと **Microsoft ストア** バージョンをインストールすること (*サイド バイ サイド* インストールとも呼ばれます) はサポートされていません。
@@ -56,20 +58,20 @@ ms.locfileid: "68590485"
 
 * [**Microsoft ストア**から **Power BI Desktop** をインストールする](http://aka.ms/pbidesktopstore)
 
-![](media/desktop-get-the-desktop/getpbid_04.png)
+  ![Microsoft ストアから Power BI Desktop をインストールする](media/desktop-get-the-desktop/getpbid_04.png)
 
 Microsoft ストアから **Power BI Desktop** を入手するといくつかの利点があります。
 
 * **自動更新** - Windows は最新バージョンが入手できるようになるとすぐ自動的にダウンロードするので、バージョンは常に最新の状態です。
 * **ダウンロード量が少なくなる** - **Microsoft ストア**では、各更新で変更されたコンポーネントのみがコンピューターにダウンロードされるようになっています。結果的に、各更新のダウンロード量が少なくなります。
-* **管理者特権が必要ない** - MSI を直接ダウンロードしてインストールする場合は、インストールが正常に完了するには管理者が行う必要があります。 Microsoft ストアから **Power BI Desktop** を入手するときは、管理者特権は必要 "*ありません*"。
+* **管理者特権が必要ない** - パッケージを直接ダウンロードしてインストールする場合は、インストールが正常に完了するには管理者が行う必要があります。 Microsoft ストアから **Power BI Desktop** を入手するときは、管理者特権は必要 "*ありません*"。
 * **IT のロールアウトが可能** - **Microsoft ストア** バージョンの方が組織内の全ユーザーへのデプロイ ("*ロールアウト*") が簡単であり、**ビジネス向け Microsoft ストア**から **Power BI Desktop** を入手できるようにすることができます。
 * **言語検出** - **Microsoft ストア** バージョンにはサポート対象のすべての言語が含まれ、コンピューターを起動するたびに使われている言語が確認されます。 これは、**Power BI Desktop** で作成されるモデルのローカライズにも影響します。たとえば、組み込みの日付階層は、.pbix ファイルが作成されたときに **Power BI Desktop** で使われていた言語と一致します。
 
 Microsoft ストアからの **Power BI Desktop** のインストールには、以下で示すようないくつかの考慮事項と制限があります。
 
 * SAP コネクタを使う場合、SAP ドライバー ファイルを *Windows\System32* フォルダーに移動することが必要な場合があります。
-* Microsoft ストアから **Power BI Desktop** をインストールしても、MSI バージョンのユーザー設定はコピーされません。 必要に応じて、最近使ったデータ ソースに再接続し、データ ソースの資格情報を再入力します。 
+* Microsoft ストアから **Power BI Desktop** をインストールしても、.exe バージョンのユーザー設定はコピーされません。 必要に応じて、最近使ったデータ ソースに再接続し、データ ソースの資格情報を再入力します。 
 
 > [!NOTE]
 > 同じコンピューターに **Power BI Desktop** のダウンロード (MSI) バージョンと **Microsoft ストア** バージョンをインストールすること (*サイド バイ サイド* インストールとも呼ばれます) はサポートされていません。 手動で **Power BI Desktop** をアンインストールしてから、**Microsoft ストア**から Power BI Desktop をダウンロードする必要があります。
@@ -82,7 +84,7 @@ Microsoft ストアからの **Power BI Desktop** のインストールには、
 ## <a name="using-power-bi-desktop"></a>Power BI Desktop の使用
 **Power BI Desktop** を実行すると、 *[ようこそ]* 画面が表示されます。
 
-![](media/desktop-get-the-desktop/getpbid_05.png)
+![Power BI Desktop の [ようこそ] 画面](media/desktop-get-the-desktop/getpbid_05.png)
 
 **Power BI Desktop** を初めて使う場合は (インストールがアップグレードではない場合)、フォームに入力していくつかの質問に回答すること、または先に進む前に **Power BI サービス**にサインインすることを求められます。
 
@@ -102,6 +104,25 @@ Microsoft ストアからの **Power BI Desktop** のインストールには、
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
 Power BI Desktop での経験が常に素晴らしいものであることを望んでいます。 そうはいっても、問題が発生する可能性はあるので、このセクションでは、Power BI Desktop で発生することがある問題に対処するための解決策と提案を示します。 
+
+
+### <a name="using-command-line-options-during-installation"></a>インストール時にコマンドライン オプションを使用する 
+
+Power BI Desktop をインストールするときに、コマンドライン スイッチを使用してプロパティとオプションを設定できます。 これは、複数の組織間全体で Power BI Desktop のインストールを管理または促進にする管理者の場合に特に便利です。 これらのオプションは、.msi および .exe のインストールに適用されます。 
+
+
+|コマンドライン オプション  |動作  |
+|---------|---------|
+|-q、-quiet、-s、-silent     |サイレント インストール         |
+|-passive     |インストール時に進行状況バーのみを表示します         |
+|-norestart     |コンピューターの再起動要件を抑制します         |
+|-forcerestart     |プロンプトを表示せずにインストール後にコンピューターを再起動します         |
+|-promptrestart     |コンピューターの再起動が必要かどうかをユーザーに確認します (既定値)         |
+|-l<>、-log<>     |<> で指定されたファイルを使用して、インストールを特定のファイルに記録します         |
+|-uninstall     |Power BI Desktop をアンインストールします         |
+|-repair     |インストールを修復します (現在インストールされていない場合はインストールします)         |
+|-package、-update     |Power BI Desktop をインストールします (-uninstall または -repair が指定されていない場合は既定値)。         |
+
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop の以前のリリースを使用しているときの問題
 

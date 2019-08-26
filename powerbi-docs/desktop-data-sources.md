@@ -7,29 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/15/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324837"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560873"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
 
 データに接続するには、 **[ホーム]** リボンの **[データの取得]** を選択します。 下向きの矢印を選択するか、ボタン上の **[データの取得]** テキストを選択すると、次の画像に示されているように **[最も一般的]** なデータ型が記載されたメニューが表示されます。
 
-![Power BI Desktop でデータを取得する](media/desktop-data-sources/data-sources_01.png)
+![Power BI Desktop でデータを取得する](media/desktop-data-sources/data-sources-01.png)
 
 **[その他]** を **[最も一般的]** メニューから選択すると、 **[データの取得]** ウィンドウが表示されます。 **[データの取得]** ウィンドウを表示する場合 ( **[最も一般的]** メニューをバイパスします)、 **[データの取得]** **アイコン ボタン** を直接選択することもできます。
 
-![[データの取得] ボタン](media/desktop-data-sources/data-sources_02.png)
+![[データの取得] ボタン](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI チームは **Power BI Desktop** や **Power BI サービス**で利用できるデータ ソースを継続的に拡張しています。 そのため、*ベータ*や*プレビュー*などのマークが付いた、未完成の早期バージョンのデータ ソースが頻繁に公開されています。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されています。運用環境では利用しないでください。
+> Power BI チームは **Power BI Desktop** や **Power BI サービス**で利用できるデータ ソースを継続的に拡張しています。 そのため、*ベータ*や*プレビュー*などのマークが付いた、未完成の早期バージョンのデータ ソースが頻繁に公開されています。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されています。運用環境では利用しないでください。 
+
+> また、**Power BI Desktop** の "*ベータ*" または "*プレビュー*" とマークされているデータ ソースは、データ ソースが一般提供 (GA) になるまで、**Power BI サービス**または他の Microsoft サービスで使用できない可能性があります。
 
 ## <a name="data-sources"></a>データ ソース
 データ型は、次のカテゴリに分類されます。
@@ -56,7 +58,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 次の図は、 **[ファイル]** の **[データの取得]** ウィンドウを示しています。
 
-![[データの取得] > [ファイル]](media/desktop-data-sources/data-sources_03.png)
+![[データの取得] > [ファイル]](media/desktop-data-sources/data-sources-03.png)
 
 **[データベース]** カテゴリには、次のデータ接続があります。
 
@@ -95,16 +97,18 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 次の図は、 **[データベース]** の **[データの取得]** ウィンドウを示しています。
 
-![[データの取得] > [データベース]](media/desktop-data-sources/data-sources_04.png)
+![[データの取得] > [データベース]](media/desktop-data-sources/data-sources-04.png)
 
-**[Power BI]** カテゴリには、次のデータ接続があります。
+**[Power Platform]** カテゴリには、次のデータ接続があります。
 
-* Power BI データ セット
+* Power BI データセット
 * Power BI データフロー
+* Common Data Service
+* Power Platform データフロー (ベータ)
 
-次の図は、 **[Power BI]** の **[データの取得]** ウィンドウを示しています。
+次の図は、 **[Power Platform]** の **[データの取得]** ウィンドウを示しています。
 
-![[データの取得] > [Power BI]](media/desktop-data-sources/data-sources_05.png)
+![[データの取得] > [Power BI]](media/desktop-data-sources/data-sources-05.png)
 
 **[Azure]** カテゴリには、次のデータ接続があります。
 
@@ -112,8 +116,8 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure SQL Data Warehouse
 * Azure Analysis Services データベース
 * Azure Blob Storage
-* Azure Table Storage
-* Azure Cosmos DB (ベータ版)
+* Azure テーブル ストレージ
+* Azure Cosmos DB
 * Azure Data Lake Storage Gen2 (ベータ版)
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -124,7 +128,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 次の図は、 **[Azure]** の **[データの取得]** ウィンドウを示しています。
 
-![[データの取得] > [Azure]](media/desktop-data-sources/data-sources_06.png)
+![[データの取得] > [Azure]](media/desktop-data-sources/data-sources-06.png)
 
 **[オンライン サービス]** カテゴリには、次のデータ接続があります。
 
@@ -134,7 +138,6 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (オンプレミス)
-* Common Data Service
 * Microsoft Azure Consumption Insights (ベータ)
 * Azure DevOps (ベータ)
 * Azure DevOps Server (ベータ)
@@ -161,6 +164,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (ベータ)
+* Dynamics 365 Customer Insights (ベータ版)
 * Emigo Data Source (ベータ)
 * Entersoft Business Suite (ベータ)
 * Industrial App Store
@@ -168,11 +172,11 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Microsoft Graph Security (ベータ)
 * Quick Base
 * TeamDesk (Beta)
-* Dynamics 365 Customer Insights (ベータ版)
+
 
 次の図は、 **[オンライン サービス]** の **[データの取得]** ウィンドウを示しています。
 
-![[データの取得] > [オンライン サービス]](media/desktop-data-sources/data-sources_07.png)
+![[データの取得] > [オンライン サービス]](media/desktop-data-sources/data-sources-07.png)
 
 **[その他]** カテゴリには、次のデータ接続があります。
 
@@ -200,7 +204,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 次の図は、 **[その他]** の **[データの取得]** ウィンドウを示しています。
 
-![[データの取得] > [その他]](media/desktop-data-sources/data-sources_08.png)
+![[データの取得] > [その他]](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > 現時点では、Azure Active Directory を使用して保護されているカスタム データ ソースに接続することはできません。
@@ -208,15 +212,15 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 ## <a name="connecting-to-a-data-source"></a>データ ソースへの接続
 データ ソースに接続するには、 **[データの取得]** ウィンドウでデータ ソースを選択し、 **[接続]** を選びます。 次の図の場合、 **[その他]** データ接続カテゴリで **[Web]** が選択されています。
 
-![Web への接続](media/desktop-data-sources/data-sources_08.png)
+![Web への接続](media/desktop-data-sources/data-sources-08.png)
 
 対象のデータ接続に固有の接続ウィンドウが表示されます。 資格情報が必要な場合には、入力を求めるプロンプトが表示されます。 次の図には、Web データ ソースに接続するために URL を入力している様子が示されています。
 
-![Web URL を入力する](media/desktop-data-sources/datasources_fromwebbox.png)
+![Web URL を入力する](media/desktop-data-sources/datasources-fromwebbox.png)
 
 URL またはリソースの接続情報を入力したら、 **[OK]** を選択します。 Power BI Desktop はデータ ソースに接続し、 **[ナビゲーター]** に利用可能なデータ ソースが示されます。
 
-![[ナビゲーター] 画面](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![[ナビゲーター] 画面](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
 **[ナビゲーター]** ウィンドウの下部にある **[読み込み]** ボタンを選択してデータを読み込むか、 **[編集]** ボタンを選択してクエリを編集してからデータを読み込みます。
 

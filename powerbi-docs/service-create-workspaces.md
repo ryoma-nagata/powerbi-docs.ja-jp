@@ -1,34 +1,34 @@
 ---
-title: Power BI での従来のワークスペースを作成します。
-description: ワークスペース、ダッシュ ボード、レポート、および、組織に主要な指標を提供するために構築、改ページ調整されたレポートのコレクションを作成する方法について説明します。
+title: Power BI でクラシック ワークスペースを作成する
+description: 組織に主要な指標を提供するためにビルドされたダッシュボード、レポート、およびページ分割されたレポートのコレクションである、ワークスペースを作成する方法について説明します。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dcf9b8befabfec98fcae154e6276f8e698b3ddc2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0bb8d796af5139cd89f4bdfa0a8da10603acb2ed
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150956"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530568"
 ---
-# <a name="create-classic-workspaces-in-power-bi"></a>Power BI での従来のワークスペースを作成します。
+# <a name="create-classic-workspaces-in-power-bi"></a>Power BI でクラシック ワークスペースを作成する
 
-Power BI で作成することができます*ワークスペース*を作成し、ダッシュ ボード、レポートのコレクションを絞り込むの同僚と共同作業への配置やページ分割されたレポート。 コレクションをまとめてバンドルし、*アプリ*組織全体にまたは特定のユーザーやグループに配布することができます。 
+Power BI では、"*ワークスペース*" を作成することができます。このワークスペースは、同僚と共同でダッシュボード、レポート、およびページ分割されたレポートのコレクションを作成して調整するための場所です。 その後、それらのコレクションをまとめて "*アプリ*" にバンドルできます。これにより、所属の組織全体や特定のユーザーまたはグループに配布することができます。 
 
-**ご存知でしたか?** Power BI では、既定値が、新しいワークスペース エクスペリエンスを提供します。 読み取り[新しいワークスペースでの作業を整理](service-new-workspaces.md)詳細については、新しいワークスペース。 
+**ご存知でしたか?** Power BI で新しいワークスペース エクスペリエンスが提供されるようになりました。これは既定値となります。 新しいワークスペースの詳細については、「[Power BI の新しいワークスペースで作業を整理する](service-new-workspaces.md)」を参照してください。 
 
-従来のワークスペースを作成するときに基になる、関連付けられている Office 365 グループを作成します。 ワークスペースの管理はすべて Office 365 で行われます。 こうしたワークスペースには、メンバーまたは管理者として、同僚を追加することができます。 ワークスペースでは、より広範な対象ユーザーに発行する予定のダッシュボード、レポート、およびその他の記事で、全員が共同作業を行うことできます。 アプリ ワークスペースに追加するすべてのユーザーに、Power BI Pro のライセンスが必要となります。 
+クラシック ワークスペースを作成するときは、基になる、関連する Office 365 グループを作成します。 ワークスペースの管理はすべて Office 365 で行われます。 こうしたワークスペースには、メンバーまたは管理者として、同僚を追加することができます。 ワークスペースでは、より広範な対象ユーザーに発行する予定のダッシュボード、レポート、およびその他の記事で、全員が共同作業を行うことできます。 アプリ ワークスペースに追加するすべてのユーザーに、Power BI Pro のライセンスが必要となります。 
 
 ## <a name="video-apps-and-app-workspaces"></a>ビデオ:アプリとアプリ ワークスペース
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>Office 365 グループに基づくクラシック アプリ ワークスペースを作成します。
+## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>Office 365 グループに基づいてクラシック アプリ ワークスペースを作成する
 
 アプリ ワークスペースは Office 365 グループを基に作成します。
 
@@ -51,7 +51,7 @@ Power BI で作成することができます*ワークスペース*を作成し
    
      ![鉛筆をもう一度選択する](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
 
-     イメージは、.png、.jpg、.bmp ファイルを指定できます。 ファイル サイズは 3 MB を大規模にできます。 
+     画像には、.png、.jpg、.bmp のいずれかのファイルを使用できます。 ファイルのサイズは、最大で 3 MB にすることができます。 
 
 4. **[保存]** を選択します。
    
@@ -77,16 +77,16 @@ Power BI でサポートされるすべてのサード パーティ サービス
 
 ## <a name="distribute-an-app"></a>アプリを配布する
 
-公式のコンテンツを組織内で大規模なユーザーを配布する場合は、ワークスペースからアプリを発行できます。  ダッシュ ボードとレポートをパブリッシュするを選択してとして発行し、コンテンツの準備ができたら、*アプリ*します。 各ワークスペースから 1 つのアプリを作成できます。
+組織内の大勢の対象ユーザーに公式コンテンツを配布する場合は、ワークスペースからアプリを発行できます。  コンテンツが用意できたら、発行するダッシュボードやレポートを選択し、それを "*アプリ*" として発行します。 各ワークスペースから 1 つのアプリを作成できます。
 
-左側のナビゲーションで、アプリの一覧は、インストールしたすべてのアプリを示しています。 同僚はいくつかの異なる方法でアプリを取得することができます。 
-- 検索し、Microsoft AppSource からアプリをインストールできます。
-- 直接リンクを送信することができます。 
+左側のナビゲーションにあるアプリの一覧には、インストールしたすべてのアプリが表示されます。 同僚はいくつかの異なる方法でアプリを取得することができます。 
+- Microsoft AppSource からアプリを検索してインストールできます。
+- これらのユーザーに直接リンクを送信できます。 
 - Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 
 
-ユーザーは、ワークスペースから更新プログラムを発行した後に自動的に更新されたアプリのコンテンツを表示します。 ワークスペースで、アプリのコンテンツで使用するデータセットで更新スケジュールを設定して、データを更新する頻度を制御できます。 参照してください[Power BI の新しいワークスペースからアプリの発行](service-create-distribute-apps.md)詳細についてはします。
+ワークスペースから更新プログラムを公開すると、更新されたアプリ コンテンツがユーザーに自動的に表示されます。 ワークスペースのアプリ コンテンツによって使用されるデータセットの更新スケジュールを設定すると、データ更新の頻度を制御できます。 詳細については、「[Power BI でアプリを発行する](service-create-distribute-apps.md)」を参照してください。
 
-## <a name="power-bi-classic-apps-faq"></a>Power BI のクラシック アプリに関する FAQ
+## <a name="power-bi-classic-apps-faq"></a>Power BI クラシック アプリに関する FAQ
 
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>アプリと組織のコンテンツ パックとの違いは何ですか?
 アプリは、組織のコンテンツ パックが進化したものです。 組織のコンテンツ パックが既にある場合は、アプリと並行して使用することになります。 アプリとコンテンツ パックには、大きな違いがいくつかあります。 
@@ -96,7 +96,7 @@ Power BI でサポートされるすべてのサード パーティ サービス
 * 将来的には、組織のコンテンツ パックは廃止される予定のため、今後はアプリを作成することをお勧めします。  
 * 新しいワークスペース エクスペリエンス プレビューの提供は、組織のコンテンツ パックの廃止への第一歩となります。 組織のコンテンツ パックをプレビュー ワークスペースで利用したり、作成したりすることはできません。
 
-「[新しいアプリ ワークスペースと現在のアプリ ワークスペースの違いは何ですか?](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces)」を参照して、2 つを比較してください。 
+2 つを比較するには、[新しいアプリ ワークスペースと既存のアプリ ワークスペースの相違点](service-new-workspaces.md#how-the-new-workspaces-are-different)に関する記事を参照してください。 
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI にアプリをインストールし、使用する](service-create-distribute-apps.md)

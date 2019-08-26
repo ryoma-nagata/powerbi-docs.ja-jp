@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222258"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561065"
 ---
 # <a name="conditional-formatting-in-tables"></a>テーブルでの条件付き書式設定 
 テーブルで条件付き書式を使用するときに、グラデーションを使用するなど、セルの値または他の値やフィールドに基づいてカスタマイズされたセルの色を指定できます。 セルの値と共にデータ バーも表示できます。 
@@ -130,11 +130,17 @@ ms.locfileid: "66222258"
 
 想像力と DAX を少し使うだけで、より多くのバリエーションを作成できます。
 
-CSS 色仕様に記載した値のいずれかを使用する[ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/)にビジュアルの色します。
-* 3、6 か月または 8 桁の 16 進コードを #3E4AFF など。 コードの先頭に # 記号を含めることを確認します。 "3E4AFF"は許容されません。 
-* RGB または RGBA 値 RGBA (234、234、234, 0.5) 例。
-* HSL または HSLA 値などの HSLA (123, 75%、75%, 0.5)
-* 色の緑、スカイ ブルー、PeachPuff 例: 名前します。 
+[https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/) にある CSS カラー仕様に一覧されている次の値のいずれかを使用して、ビジュアルの色を設定できます。
+* 3、6、または 8 桁の 16 進コード (例: #3E4AFF)。 コードの先頭に # 記号が含まれていることを確認します。 "3E4AFF" は受け入れられません。 
+* RGB 値または RGBA 値 (例: RGBA(234, 234, 234, 0.5))
+* HSL 値または HSLA 値 (例: HSLA (123, 75%, 75%, 0.5))
+* 色の名前 (例: Green、SkyBlue、PeachPuff) 
+
+## <a name="considerations-and-limitations"></a>考慮事項と制限事項
+条件付きテーブルの書式設定を使用する場合は、留意すべき考慮事項がいくつかあります。
+
+* 条件付き書式は、**マトリックス** ビジュアルの値にのみ適用され、小計や総計には適用されません。 
+
 
 ## <a name="next-steps"></a>次の手順
 詳しくは、次の資料を参照してください。  
