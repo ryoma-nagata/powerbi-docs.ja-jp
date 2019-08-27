@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a6ada87813593fd0f06d7870fa1727bc35fe7d47
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324915"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023781"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI で Project Web App に接続する
 Microsoft Project Web App は、プロジェクト ポートフォリオ管理 (PPM) および日常の作業用の柔軟なオンライン ソリューションです。 Project Web App を使用すると、プロジェクト ポートフォリオの投資を開始して優先順位を設定し、意図したとおりのビジネス価値を提供できます。 Power BI 用 Project Web App テンプレート アプリでは、Project Web App から分析情報をロック解除し、プロジェクト、ポートフォリオ、リソースの管理に役立てることができます。
@@ -24,41 +24,43 @@ Power BI 用 [Project Web App テンプレート アプリ](https://appsource.mi
 
 ## <a name="how-to-connect"></a>接続する方法
 
-   ![](media/service-connect-to-project-online/GetApps.png)
 1. 左側のナビゲーション ウィンドウの **[アプリ]** を選択し、右上隅にある **[アプリの取得]** を選択します。
+
+    ![アプリの取得](media/service-connect-to-project-online/GetApps.png)
+
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
-   ![](media/service-connect-to-project-online/AppSource.png)
+   ![AppSource](media/service-connect-to-project-online/AppSource.png)
 3. AppSource で **[アプリ]** タブを選択し、 **[Microsoft Project Web App]** を検索して選択します。
    
 4. **[この Power BI アプリをインストールしますか?]** というメッセージが表示されます。 **[インストール]** を選択します。 
 
-   ![](media/service-connect-to-project-online/ProjectTile.png)
+   ![Project Web のインストール](media/service-connect-to-project-online/ProjectTile.png)
 5. **[アプリ]** ウィンドウで、 **[Microsoft Project Web App]** タイルを選択します。 
    
-   ![](media/service-connect-to-project-online/getstarted.png)
+   ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. **[新しいアプリを開始する]** で **[データに接続]** を選択します。
    
-   ![](media/service-connect-to-project-online/mproject.png)
+   ![データへの接続](media/service-connect-to-project-online/mproject.png)
 7. **[Project Web App の URL]** テキスト ボックスに、接続する Project Web App (PWA) の URL を入力します。  カスタム ドメインを使用している場合は例と異なる場合があることに注意してください。 **[PWA Site Language]\(PWA サイトの言語\)** テキスト ボックスに、PWA サイト言語に対応する番号を入力します。 英語には '1' を、フランス語には '2' を、ドイツ語には '3' を、ブラジルのポルトガル語には '4' を、ポルトガルのポルトガル語には '5' を、スペイン語には '6' を入力します。 
    
-   ![](media/service-connect-to-project-online/params.png)
+   ![Microsoft Project Online への接続](media/service-connect-to-project-online/params.png)
 8. [認証方法] として **[oAuth2]** を選択し、 **[サイン イン]** をクリックします。 プロンプトが表示されたら、Project Web App の資格情報を入力し、認証プロセスに従います。
 
-    
-接続先の Project Web App のポートフォリオ閲覧者、ポートフォリオ マネージャー、または管理者のアクセス許可が必要です。
+    > [!NOTE]
+    > 接続先の Project Web App のポートフォリオ閲覧者、ポートフォリオ マネージャー、または管理者のアクセス許可が必要です。
 
 9. データを読み込んでいることを示す通知が表示されます。 アカウントの大きさによっては時間がかかる可能性があります。 Power BI でデータがインポートされると、新しいワークスペースの内容が表示されます。 最新の更新を取得するには、データセットを更新する必要がある場合があります。 
 
-Power BI でデータをインポートすると、左側のナビゲーション ウィンドウにデータセットを含む 13 ページのレポートが表示されます。 
+    Power BI でデータをインポートすると、左側のナビゲーション ウィンドウにデータセットを含む 13 ページのレポートが表示されます。 
 
 10. レポートの準備ができたら、Project Web App データの探索を開始してください。 テンプレート アプリには、ポートフォリオ概要 (6 レポート ページ)、リソース概要 (5 レポート ページ)、プロジェクト ステータス (2 レポート ページ) からなる、13 の多機能かつ詳細なレポートが付属しています。 
 
-   ![](media/service-connect-to-project-online/report1.png)
+    ![ポートフォリオ ダッシュ ボード](media/service-connect-to-project-online/report1.png)
    
-   ![](media/service-connect-to-project-online/report3.png)
+    ![公開形態](media/service-connect-to-project-online/report3.png)
    
-   ![](media/service-connect-to-project-online/report2.png)
+    ![プロジェクトの状態](media/service-connect-to-project-online/report2.png)
 
 **実行できる操作**
 
@@ -66,7 +68,7 @@ Power BI でデータをインポートすると、左側のナビゲーショ�
 
 **テンプレート アプリを展開する**
 
-コンテンツ パックをさらにカスタマイズし、更新するには、[GitHub PBIT ファイル](https://github.com/OfficeDev/Project-Power-BI-Content-Packs)をダウンロードします
+コンテンツ パックをさらにカスタマイズし、更新するには、[GitHub PBIT ファイル](https://github.com/OfficeDev/Project-Power-BI-Content-Packs)をダウンロードします。
 
 ## <a name="next-steps"></a>次の手順
 [Power BI の概要](service-get-started.md)
