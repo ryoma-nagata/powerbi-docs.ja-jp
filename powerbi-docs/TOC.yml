@@ -1426,3 +1426,5 @@
       href: guidance/star-schema.md
     - name: データ モデル サイズの縮小
       href: guidance/import-modeling-data-reduction.md
+    - name: DIVIDE 関数と除算演算子 (/)
+      href: guidance/dax-divide-function-operator.md
