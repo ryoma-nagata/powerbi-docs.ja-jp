@@ -8,26 +8,26 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d82b03325991276924f25da5511baadfe53127e1
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: da7b8999dfb6185b044960dde7795008d7e716f7
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523000"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655130"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>同僚や他のユーザーと Power BI ダッシュボードやレポートを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の異なる方法でダッシュボードでの共同作業を行ったり、ダッシュボードやレポートを配布](service-how-to-collaborate-distribute-dashboards-reports.md)したりできます。
 
-![お気に入りのダッシュボードの一覧での共有アイコン](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
+![ダッシュボードの一覧での共有アイコン](media/service-share-dashboards/power-bi-share-new-look.png)
 
 共有を行うには、コンテンツの共有先が組織内でも組織外でも、共有元に [Power BI Pro ライセンス](service-features-license-type.md)が必要です。 コンテンツが [Premium 容量](service-premium-what-is.md)にない限り、受信者には Power BI Pro ライセンスも必要です。 
 
-Power BI サービスのほとんどの場所からダッシュボードとレポートを共有できます:[お気に入り]、[最近使った項目]、[自分と共有] (所有者が許可している場合)、[マイ ワークスペース]、またはその他のワークスペース。 同僚とダッシュボードやレポートを共有した場合、共有された相手はそれを表示して操作することはできますが、編集することはできません。 [行レベル セキュリティ (RLS)](service-admin-rls.md) を適用しない限り、自分のダッシュボードやレポートに表示されるものと同じデータが同僚にも表示されます。 共有元のユーザーが許可した場合、共有先のユーザーも同僚と共有できます。 組織外のユーザーも、ダッシュボードやレポートを表示して操作することはできますが、それを共有することはできません。 
+Power BI サービスのほとんどの場所からダッシュボードとレポートを共有できます:[お気に入り]、[最近使った項目]、[自分と共有] (所有者が許可している場合)、[マイ ワークスペース]、またはその他のワークスペース。 ダッシュボードやレポートを共有する場合、共有した相手はそれを表示して操作することはできますが、編集することはできません。 [行レベル セキュリティ (RLS)](service-admin-rls.md) を適用しない限り、自分のダッシュボードやレポートに表示されるものと同じデータが同僚にも表示されます。 共有元のユーザーが許可した場合、共有先のユーザーも同僚と共有できます。 組織外のユーザーも、ダッシュボードやレポートを表示して操作することはできますが、それを共有することはできません。 
 
-[任意の Power BI モバイル アプリからダッシュボードを共有する](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)こともできます。 しかし、Power BI Desktop からダッシュボードを共有することはできません。
+Power BI Desktop からダッシュボードを共有することはできません。 しかし、[任意の Power BI モバイル アプリからダッシュボードを共有](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)できます。  
 
 ## <a name="video-share-a-dashboard"></a>ビデオ:ダッシュボードの共有
 Amanda が社内および社外の同僚とダッシュボードを共有する様子をご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
@@ -55,7 +55,9 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
    
    他のユーザーに共有を許可することを "*再共有*" と呼びます。 共有を許可すると、そのユーザーは Power BI サービスやモバイル アプリから再共有したり、組織内の他のユーザーにメール招待状を転送したりできます。 招待状は 1 か月後に期限が切れます。 組織外のユーザーは、再共有を行えません。 コンテンツの所有者として、再共有を無効にしたり、再共有を個別に取り消したりできます。 「[共有または他のユーザーによる再共有を停止する](#stop-sharing-or-stop-others-from-sharing)」を参照してください。
 
-5. **[共有]** を選択します。
+5. **[基になるデータセットからの新しいコンテンツのビルドをユーザーに許可します]** を選択すると、このダッシュボードのデータセットに基づいて、他のワークスペースに独自のレポートを作成できます。
+
+1. **[共有]** を選択します。
    
    ![[共有] ボタンを選ぶ](media/service-share-dashboards/power-bi-share-dialog-share.png)  
    
@@ -63,11 +65,11 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
    
    組織内の受信者がリンクをクリックすると、Power BI はダッシュボードまたはレポートをそのユーザーの **[自分と共有]** リスト ページに追加します。 ユーザーが自分の名前を選択すると、そのユーザーと自分とで共有されているすべてのコンテンツが表示されます。 
    
-   ![[自分と共有] リスト ページ](media/service-share-dashboards/power-bi-shared-with-me-dashboards-reports.png)
+   ![[自分と共有] リスト ページ](media/service-share-dashboards/power-bi-shared-with-me-new-look.png)
    
-   組織外の受信者がリンクをクリックすると、ダッシュボードまたはレポートが表示されますが、通常の Power BI ポータルではありません。 詳細については、「[組織外のユーザーとダッシュボードまたはレポートを共有する](#share-a-dashboard-or-report-with-people-outside-your-organization)」を参照してください。
+   組織外の受信者がリンクをクリックすると、ダッシュボードまたはレポートが表示されますが、通常の Power BI ポータルではありません。 詳細については、「[組織外のユーザーとダッシュボードまたはレポートを共有する](#share-a-dashboard-or-report-outside-your-organization)」を参照してください。
 
-## <a name="who-has-access-to-a-dashboard-or-report-you-shared"></a>自分が共有したダッシュボードまたはレポートにアクセスできるユーザー
+## <a name="see-who-has-access-to-a-dashboard-or-report"></a>ダッシュボードまたはレポートへのアクセス権があるユーザーを確認する
 場合によっては、自分が共有している相手や、その相手が共有しているユーザーを確認する必要があります。
 
 1. ダッシュボードかレポートの一覧、またはダッシュボードかレポート自体で、 **[共有]** ![共有アイコン](media/service-share-dashboards/power-bi-share-icon.png) を選びます。 
@@ -99,7 +101,7 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
 
     ![Power BI の共有に関する警告ダイアログ ボックス](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
 
-## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>組織外のユーザーとダッシュボードまたはレポートを共有する
+## <a name="share-a-dashboard-or-report-outside-your-organization"></a>組織外でダッシュボードまたはレポートを共有する
 組織外のユーザーと共有すると、共有相手は共有されたダッシュボードまたはレポートへのリンクを含むメールを受け取ります。共有相手は、それを表示するために Power BI にサインインする必要があります。 Power BI Pro ライセンスがない共有相手は、リンクをクリックした後でライセンスにサインアップできます。
 
 サインイン後に、共有されたダッシュボードまたはレポートが、通常の Power BI ポータルではなく、独自のブラウザー ウィンドウに表示されます。 後でこのダッシュボードまたはレポートにアクセスするには、リンクをブックマークする必要があります。

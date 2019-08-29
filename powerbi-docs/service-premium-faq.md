@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 08/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565378"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654288"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium のよく寄せられる質問
 
@@ -76,9 +76,9 @@ Power BI Premium は、Power BI Pro のアドオンとして使用できます�
 
 **Power BI レポート サーバーとは何ですか?オンプレミスで Power BI を使用できるということですか?**
 
-Power BI レポート サーバーはオンプレミス サーバーです。完全に組織のファイアウォールの境界内で、対話型の Power BI レポートとページ分割されたレポートを展開し、配布することができます。 Power BI Report Server は Power BI Premium で使用できます。または、SQL Server Enterprise Edition とソフトウェア アシュアランスを持つお客様の特典として利用できます。 詳細については、Microsoft の担当者にお問い合わせください。
+Power BI レポート サーバーはオンプレミス サーバーです。完全に組織のファイアウォールの境界内で、対話型の Power BI レポートとページ分割されたレポートを展開し、配布することができます。 Power BI Report Server は Power BI Premium で使用できます。または、SQL Server Enterprise Edition とソフトウェア アシュアランスを持つお客様の特典として利用できます。 ライセンスの詳細については、「[Power BI Report Server のライセンス](report-server/get-started.md#licensing-power-bi-report-server)」を参照してください。 詳細については、Microsoft の担当者にお問い合わせください。
 
-Power BI Premium では、 組織がクラウド内にプロビジョニングした同数の仮想コアを Power BI Report Server 経由でオンプレミスに展開することもできます。 容量を分割する必要はありません。 組織は、クラウド内の Power BI または Power BI レポート サーバーを選択して、Power BI レポート サーバーと共にオンプレミスにレポートを保存し、自分のペースでクラウドに移行することができます。
+Power BI Premium では、組織がクラウド内にプロビジョニングした同数の仮想コアを Power BI Report Server 経由でオンプレミスに展開することもできます。 容量を分割する必要はありません。 組織は、クラウド内の Power BI または Power BI レポート サーバーを選択して、Power BI レポート サーバーと共にオンプレミスにレポートを保存し、自分のペースでクラウドに移行することができます。
 
 詳細については、「[Power BI レポート サーバーの概要](report-server/get-started.md)」を参照してください。
 

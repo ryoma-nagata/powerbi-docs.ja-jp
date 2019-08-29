@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523489"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621257"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)
 
@@ -177,6 +177,7 @@ Azure portal で Azure Data Lake Storage Gen2 アカウントの設定を終え�
 * Azure Data Lake Storage Gen2 内に格納されているデータフローの所有者だけが、既定でそのデータにアクセスできます。 Azure 内に格納されているデータフローに対して別のユーザーを承認するには、それらのユーザーをデータフローの CDM フォルダーに追加する必要があります。 
 * 同じストレージ アカウント内に格納されている場合のみ、リンクされたエンティティを使ってデータフローを作成することが可能です。
 * Power BI の共有容量にあるオンプレミス データ ソースは、組織内の Data Lake に保管されているデータフローではサポートされません。
+* スナップショットは、ADLS Gen 2 で自動的に削除されることはありません。 空き領域を増やすには、Azure 関数を作成して、古いスナップショットを定期的にクリーンアップすることができます。
 
 このセクションでは、いくつかの既知の問題についても以下に説明します。
 

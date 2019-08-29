@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c5b880132255fbdf37996273dc6c70029e548df6
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530516"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654892"
 ---
 # <a name="share-a-dataset-preview"></a>データセットを共有する (プレビュー)
 
@@ -42,7 +42,7 @@ Power BI Desktop の*データ モデル*の作成者であれば、それらを
 
 ## <a name="build-permissions-for-shared-datasets"></a>共有データセットのビルド アクセス許可
 
-ビルド アクセス許可の種類はデータセットにのみ関係します。 これにより、ユーザーは、レポート、ダッシュボード、Q&A のピン留めされたタイル、Insights Discovery などの新しいコンテンツをデータセット上に構築できます。 また、Excel で分析、XMLA、エクスポートを利用した Excel シートなど、Power BI 外部のデータセットの上で新しいコンテンツを構築できます。
+ビルド アクセス許可の種類はデータセットにのみ関係します。 これにより、ユーザーは、レポート、ダッシュボード、Q&A のピン留めされたタイル、Insights Discovery などの新しいコンテンツをデータセット上に構築できます。 また、Excel で分析、XMLA、基になるデータのエクスポートを利用した Excel シートなど、Power BI 外部のデータセット上で新しいコンテンツを構築することもできます。
 
 ユーザーはさまざまな方法でビルド アクセス許可を取得します。
 
@@ -72,7 +72,7 @@ Power BI では、既存のアクセス許可である読み取りと再共有�
 
 データセットがデータセット ワークスペース以外のレポートで使用されている場合、そのデータセットを削除することはできません。 代わりに、エラー メッセージが表示されます。
 
-ビルド アクセス許可は削除できます。 この場合、アクセス許可を取り消したユーザーは、レポートは表示できますが、レポートを編集することはできなくなります。
+ビルド アクセス許可は削除できます。 この場合、アクセス許可を取り消したユーザーは、引き続きレポートを表示できますが、レポートを編集したり、基になるデータをエクスポートしたりすることはできなくなります。 読み取りアクセス許可のみを持つユーザーは、集計データを引き続きエクスポートできます。 
 
 ## <a name="track-your-dataset-usage"></a>データセットの使用状況を追跡する
 

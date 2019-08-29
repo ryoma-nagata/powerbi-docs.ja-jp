@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757734"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655149"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -188,7 +188,7 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 ### <a name="share-content-with-external-users"></a>外部ユーザーとコンテンツを共有する
 
-組織内のユーザーは組織外のユーザーとダッシュボードを共有できます。 [詳細情報](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
+組織内のユーザーは組織外のユーザーとダッシュボードを共有できます。 外部共有の詳細については、[こちら](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)を参照してください。
 
 ![外部ユーザーの設定](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -371,7 +371,7 @@ Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポ�
 
 組織内のユーザーは、自分が作成したダッシュボードとレポートの使用状況メトリックを確認できます。 [詳細情報](service-usage-metrics.md)
 
-### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>コンテンツ作成者用の使用状況メトリックにおけるユーザーごとのデータ
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>コンテンツ作成者用の使用状況メトリックのユーザーごとのデータ
 
 コンテンツ作成者用の使用状況メトリックには、コンテンツにアクセスしているユーザーの表示名とメール アドレスが示されます。 [詳細情報](service-usage-metrics.md)
 

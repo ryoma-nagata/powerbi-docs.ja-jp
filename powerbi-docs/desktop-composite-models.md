@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/09/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f3d67d0b57f2f04a31d99fb36476871c164aad4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65533588"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654580"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop で複合モデルを使用する
 
-以前、Power BI Desktop での他のデータ接続、レポートで DirectQuery を使用したときにできるかどうか DirectQuery またはインポート - がそのレポート。 複合モデルでは、その制限が除外されます。 複数の DirectQuery またはインポート データ接続からのデータ接続を、任意の組み合わせでシームレスにレポートに含めることができるようになりました。
+以前の Power BI Desktop では、レポートに DirectQuery を使用した場合、そのレポートで他のデータ接続 (DirectQuery またはインポートにかかわらず) は許可されませんでした。 複合モデルでは、その制限が除外されます。 複数の DirectQuery またはインポート データ接続からのデータ接続を、任意の組み合わせでシームレスにレポートに含めることができるようになりました。
 
 ![Power BI Desktop の複合モデル](media/desktop-composite-models/composite-models_01.png)
 
@@ -39,7 +39,7 @@ Power BI Desktop の複合モデル機能は、3 つの関連する機能で構�
 * Power BI にデータをインポートする方法 (データを取得する最も一般的な方法です)。
 * DirectQuery を使用して、元のソース リポジトリ内のデータに直接接続する方法。 DirectQuery について詳しくは、「[Power BI で DirectQuery を使用する](desktop-directquery-about.md)」をご覧ください。
 
-DirectQuery を使用するときに*複合モデル*Power BI モデルを作成すること (など、1 つ *.pbix* Power BI Desktop ファイル) は、次の両方またはいずれか。
+DirectQuery を使用するときに "*複合モデル*" を使用すると、以下のいずれか、または両方を実行する Power BI モデル (単一の Power BI Desktop *.pbix* ファイルなど) を作成できます。
 
 * 1 つ以上の DirectQuery ソースのデータを結合する。
 * DirectQuery ソースのデータとインポート データを結合する。
@@ -100,7 +100,7 @@ DirectQuery を使用する代わりに、データ ウェアハウスからそ�
 
 ![フィールド ウィンドウ](media/desktop-composite-models/composite-models_11.png)
 
-次の例の一般的なケースを表示する、*ディメンション*テーブル - など*製品*または*顧客*-他の場所からインポートされたいくつか余分なデータを拡張します。 テーブルで DirectQuery を使用して、さまざまなソースに接続することもできます。 引き続きこの例を使用して、*Country* (国) 別と *Period* (期間) 別の *SalesTargets* (売り上げ目標) が個別の部門データベースに格納されているとします。 次の図のように、通常どおりに *GetData* を使用してそのデータに接続できます。 
+次の例では、別の場所からインポートした追加データを使用して拡張された "*ディメンション*" テーブル (*Product* (製品) や *Customer* (顧客) など) の一般的なケースを示します。 テーブルで DirectQuery を使用して、さまざまなソースに接続することもできます。 引き続きこの例を使用して、*Country* (国) 別と *Period* (期間) 別の *SalesTargets* (売り上げ目標) が個別の部門データベースに格納されているとします。 次の図のように、通常どおりに *GetData* を使用してそのデータに接続できます。 
 
 ![[ナビゲーター] ウィンドウ](media/desktop-composite-models/composite-models_12.png)
 
@@ -125,6 +125,9 @@ DirectQuery を使用する代わりに、データ ウェアハウスからそ�
 いくつかの DirectQuery のテーブルといくつかのインポート テーブルを含む Power BI Desktop ファイル ( *.pbix* ファイル) の場合、ステータス バーには **[混合]** というストレージ モードが表示されます。 ステータス バーのその単語をクリックすると、すべてのテーブルをインポートに簡単に切り替えることができます。
 
 ストレージ モードについて詳しくは、「[Power BI Desktop のストレージ モード (プレビュー)](desktop-storage-mode.md)」をご覧ください。  
+
+> [!NOTE]
+> Power BI Desktop と Power BI サービスでは、 *[混合]* ストレージ モードを使用できます。
 
 ## <a name="calculated-tables"></a>計算テーブル
 
@@ -152,7 +155,7 @@ DirectQuery を使用するモデルに計算テーブルを追加すること�
 
 DirectQuery を使用する場合は、常にパフォーマンスを考慮する必要があります。これは主に、バックエンド ソースに十分なリソースがあることを確認して、良好なユーザー エクスペリエンスを提供するためです。 良好なエクスペリエンスとは、ビジュアルが 5 秒以内に更新されるということです。 また、「[Power BI で DirectQuery を使用する](desktop-directquery-about.md)」の記事に記載されているパフォーマンスのアドバイスにも従う必要があります。 
 
-複合モデルを使用する場合、その他のパフォーマンスの考慮事項が追加されます。 1 つのビジュアル間の 1 つのクエリから 2 番目のソースに多くの場合、結果を渡す複数のソースにクエリを送信する可能性があります。 このような状況では、次のような実行の形式になる可能性があります。
+複合モデルを使用する場合、その他のパフォーマンスの考慮事項が追加されます。 1 つのビジュアルによって複数のソースにクエリが送信される場合があり、この場合は、1 つのクエリの結果が 2 番目のソースに渡されることがよくあります。 このような状況では、次のような実行の形式になる可能性があります。
 
 * **多数のリテラル値を含む SQL クエリ**:たとえば、選択した *Product Managers* (プロダクト マネージャー) のセットに関する合計の *Sales Amount* (売上高) を要求するビジュアルの場合、まずそのプロダクト マネージャーが管理した *Products* (製品) を検索する必要があります。 このシーケンスは、*WHERE* 句にすべての製品 ID を含む SQL クエリがビジュアルによって送信される前に行う必要があります。
 
@@ -160,7 +163,7 @@ DirectQuery を使用する場合は、常にパフォーマンスを考慮す�
 
 * **複数の SQL クエリ、値ごとに各グループで 1 つ**:集計で **DistinctCount** が使用され、別のソースの列によってグループ化されているときに、グループ化を定義する多数のリテラル値を効率的に渡す処理を外部ソースがサポートしていない場合、値ごとに各グループで 1 つの SQL クエリを送信する必要があります。 
 
-   たとえば、*Product Manager* (プロダクト マネージャー) (スプレッドシートからインポート) ごとの *CustomerAccountNumber* (顧客アカウント番号) (SQL Server テーブル) の個別の数を要求するビジュアルの場合、SQL Server に送信されるクエリで *Product Managers* (プロダクト マネージャー) テーブルの詳細を渡す必要があります。 他のソース (Redshift など) を使用する場合、このアクションは使用できません。 代わりは 1 つあたりの SQL クエリが送信される*営業マネージャー* - いくつか実用的な上限は、この時点で、クエリは失敗します。 
+   たとえば、*Product Manager* (プロダクト マネージャー) (スプレッドシートからインポート) ごとの *CustomerAccountNumber* (顧客アカウント番号) (SQL Server テーブル) の個別の数を要求するビジュアルの場合、SQL Server に送信されるクエリで *Product Managers* (プロダクト マネージャー) テーブルの詳細を渡す必要があります。 他のソース (Redshift など) を使用する場合、このアクションは使用できません。 代わりに、*Sales Manager* (セールス マネージャー) ごとに 1 つの SQL クエリが送信されます - クエリが失敗する実用的な限界まで送信されます。 
 
 これらの各ケースは、パフォーマンスに独自の影響を及ぼします。その詳細は各データ ソースによって異なります。 2 つのソースを結合するリレーションシップで使用される列のカーディナリティは低いまま (数千) ですが、パフォーマンスへの影響はありません。 このカーディナリティが大きくなるほど、結果として得られるパフォーマンスへの影響をさらに注意する必要があります。 このガイダンスは経験則として適用してください。 
 
@@ -168,16 +171,16 @@ DirectQuery を使用する場合は、常にパフォーマンスを考慮す�
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 
-複合モデルのこのリリースでは、いくつかの制限が表示されます。
+このリリースの複合モデルには、いくつかの制限事項があります。
 
-現時点では、[増分更新](service-premium-incremental-refresh.md)複合モデルの場合のみ SQL、Oracle、および Teradata のデータ ソースへの接続はサポートされています。
+現在、SQL、Oracle、Teradata データ ソースにのみ接続する複合モデルに対しては、[増分更新](service-premium-incremental-refresh.md)がサポートされています。
 
 次の Live Connect (多次元) ソースは、複合モデルでは使用できません。
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
-* Power BI データ セット
+* Power BI データセット
 * Azure Analysis Services
 
 DirectQuery を使用してこれらの多次元ソースに接続した場合、別の DirectQuery ソースに接続することも、これをインポート データと結合することもできません。
@@ -188,7 +191,7 @@ DirectQuery の既存の制限事項は、複合モデルを使用する場合�
 
 複合モデルと DirectQuery について詳しくは、次の記事をご覧ください。
 * [Power BI Desktop での多対多カーディナリティのリレーションシップ](desktop-many-to-many-relationships.md)
-* [Power BI Desktop でのストレージ モード](desktop-storage-mode.md)
+* [Power BI Desktop のストレージ モード](desktop-storage-mode.md)
 * [Power BI で DirectQuery を使用する](desktop-directquery-about.md)
 * [Power BI の DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61364369"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654728"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop のストレージ モード
 
@@ -62,6 +62,10 @@ Power BI Desktop のストレージ モード設定は、次の 3 つの関連�
 * **デュアル**:デュアル テーブルは、Power BI データセットに送信されたクエリのコンテキストに応じて、キャッシュまたは非キャッシュとして動作することができます。 場合によっては、キャッシュされたデータからクエリを実行します。 それ以外の場合は、データ ソースへのオンデマンド クエリを実行することで、クエリを実行します。
 
 テーブルを **[インポート]** に変更する操作を*元に戻すことはできません*。 このプロパティを、[DirectQuery] や [デュアル] に戻すことはできません。
+
+> [!NOTE]
+> Power BI Desktop と Power BI サービスでは、 *[デュアル]* ストレージ モードを使用できます。
+
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery テーブルとデュアル テーブルに関する制約
 
@@ -152,7 +156,7 @@ Power BI Desktop のストレージ モード設定は、次の 3 つの関連�
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
-* Power BI データ セット
+* Power BI データセット
 * Azure Analysis Services
 
 DirectQuery を使用してこれらの多次元ソースに接続すると、別の DirectQuery ソースに接続することも、これをインポートしたデータと結合することもできません。

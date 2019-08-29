@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/28/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06ba5835a568b7158a204ea6676e92844d40414d
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375258"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655028"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -30,32 +30,32 @@ ms.locfileid: "66375258"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>2019 年の月
-* [カスタム ナビゲーション](service-create-distribute-apps.md)Power BI アプリ用です。
-* その他の添付ファイルの種類 (PPTX、XLSX、DOCX、CSV、XML) 改ページ調整されたレポート内での電子メールのサブスクリプション の使用可能です。
+## <a name="may-2019"></a>2019 年 5 月
+* Power BI アプリの[カスタム ナビゲーション](service-create-distribute-apps.md)。
+* ページ分割されたレポート内の電子メール サブスクリプションで使用できる追加の添付ファイルの種類 (PPTX、XLSX、DOCX、CSV、XML)。
 
 ## <a name="previous-months-2019"></a>前の月 (2019)
-### <a name="april-2019"></a>4 月 2019
-* Power BI の一般[データフロー](service-dataflows-overview.md)します。
-* 新しいワークスペース エクスペリエンスの一般提供します。
-* フランスおよび韓国で Power BI の新しいリージョン。
-* 更新の Q & a のダッシュ ボードのエクスペリエンス。
-* 内での Azure Analysis Services のサポート[ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)します。
-* 改ページ調整されたレポートが Power BI アプリでサポートされています。
-* [電子メール サブスクリプション](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)の改ページ調整されたレポートの PDF 添付ファイル。
-* Power BI Premium の概要とワークロード メトリックの管理ポータルでサポートされています
-* [クエリのキャッシュ](power-bi-query-caching.md)Power BI Premium で使用できます。
-* 一般公開の[Power BI ホーム](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)します。
+### <a name="april-2019"></a>2019 年 4 月
+* Power BI [データフロー](service-dataflows-overview.md)の一般提供。
+* 新しいワークスペース エクスペリエンスの一般提供。
+* フランスと韓国の新しい Power BI リージョン。
+* ダッシュボードでの Q&A エクスペリエンスの更新。
+* [ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)内の Azure Analysis Services のサポート。
+* Power BI アプリでサポートされるページ分割されたレポート。
+* ページ分割されたレポートに PDF 添付ファイルを使用した[電子メール サブスクリプション](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)。
+* 管理ポータルでサポートされている Power BI Premium 集計とワークロード メトリック
+* Power BI Premium で使用できる[クエリ キャッシュ](power-bi-query-caching.md)。
+* [Power BI ホーム](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)の一般提供。
 
 ### <a name="march-2019"></a>2019 年 3 月
 * Power BI Premium の Multi-Geo の一般提供。
 * Azure B2B に対する Power BI コンテンツの編集と管理のサポート。
-* 読み取り専用のパブリック プレビュー [XMLA エンドポイント](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)します。
+* 読み取り専用の [XMLA エンドポイント](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)のパブリック プレビュー。
 
 ### <a name="february-2019"></a>2019 年 2 月
 * [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)でのワークロードとアクティブなデータセットのサイズのメトリック。
 * Power BI レポートの PDF へのエクスポート。
-* [オンデマンドでの電子メール サブスクリプション](service-report-subscribe.md)します。
+* [オンデマンドの電子メールのサブスクリプション](service-report-subscribe.md)。
 * 管理ポータルでの一括操作。
 * PPT および PDF 用のフィルター処理済みエクスポート。
 * 管理ポータルでの[ヘルプとサポートの設定](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/)。
@@ -87,8 +87,8 @@ ms.locfileid: "66375258"
 
 ### <a name="september-2018"></a>2018 年 9 月
 * Power BI サービスの[ダッシュボードのコメント](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
-* パブリック プレビューの[Power BI ホームとグローバル検索](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)します。
-* 機能[クエリの監視](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)で、[容量の監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)します。
+* [Power BI ホームとグローバル検索](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)のパブリック プレビュー。
+* [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)での[クエリ監視](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)の機能。
 
 ### <a name="august-2018"></a>2018 年 8 月
 * Power BI Premium の[容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
@@ -302,7 +302,7 @@ ms.locfileid: "66375258"
 ***Excel で分析***
 
 * [Excel で分析](service-analyze-in-excel.md) をすべてのユーザーに提供: Excel 内で Power BI データ モデルにアクセスする機能が、割り当てられているライセンスに関係なく、すべてのユーザーに提供されるようになりました。
-* マルチユーザー アカウント エクスペリエンスの向上: Power BI ユーザー アカウントを 1 つ以上持つ場合、サインインが容易になりました。
+* マルチユーザー アカウント エクスペリエンスの向上: Power BI ユーザー アカウントを複数持つ場合、サインインがより容易になりました。
 
 詳しくは、[Power BI チームのブログ](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)をご覧ください。
 
@@ -350,7 +350,7 @@ ms.locfileid: "66375258"
 
 ***Quick Insights (クイック分析情報)***
 
-* 傾向と相関関係分析情報には、傾向線を見やすく、データのパターンがあるようになりました。
+* 傾向と相関の分析情報に、データのパターンを見やすくするための傾向線が表示されるようになりました
 
 ***Q&A***
 
@@ -502,7 +502,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * [Power BI で VMob データを視覚化できるようになりました](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI を Cortana と統合できるようになりました](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [企業向けの Power BI ゲートウェイのプレビューが公開されました](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* 新しいコンテンツ パックの概要。[Power BI ダッシュボードで Bing の検索分析を利用できます](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* 新しいコンテンツ パックの導入: [Power BI ダッシュボードで Bing の検索分析を利用できます](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * 開発者向けの新しい拡張機能:[2 つの新しい API、アプリの登録の簡素化](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **2015 年 11 月 24 日**
@@ -513,7 +513,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * オンプレミスのレポートの読み込みが改善されました
 * ダッシュボードを別のユーザーのワークスペースで直接共有できるようになりました
 * Google Analytics コネクタのエクスペリエンスが向上しました
-* Power BI アカウントを削除します。
+* Power BI アカウントを閉じることができるようになりました
 
 詳細については、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx)をご覧ください
 
@@ -620,12 +620,8 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * Webtrends は、企業が自社の顧客データの意味を理解し、デジタル マーケティングでの成功を促進するために役立ちます。 ユーザーは、Web、ソーシャル、モバイル、および SharePoint の各チャネルにわたる訪問者のアクセス行動を監視、分析し、洞察を配信することができます。 この [Webtrends コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx)のリリースにより、ユーザーは Power BI を使用して、Webtrends 分析データを監視、分析、視覚化できるようになりました。 詳細については、Power BI 用 Webtrends コンテンツ パックの[ヘルプ ページ](service-connect-to-webtrends.md)をご覧ください。
 * Q&A の開始がよりシンプルになりました。 Q&A のテキスト ボックス内にカーソルを置くと、質問の一覧と、データに関連する主要なメトリックが即座に表示されます。  既定では、ドロップ ダウンに、ダッシュボードにピン留め済みのタイルに関する質問、およびデータセット内にあるテーブルごとのエントリが表示されます。
-* 既定で表示される動的キャンバスのサイズによって、ブラウザーのウィンドウ サイズに最適な大きさのレポート アイテムがすべてレンダリングされます。 縦横比をロックするか、または別の方法でレポートを表示するため、[ページに合わせる]、[幅に合わせる]、および [実際のサイズ] という 3 つのオプションがさらにサポートされるようになりました。
+* 既定で表示される動的キャンバスのサイズによって、ブラウザーのウィンドウ サイズに最適な大きさのレポート アイテムがすべてレンダリングされます。 縦横比をロックするか、または別の方法でレポートをウィンドウに合わせる場合、次の 3 つのオプションがさらにサポートされるようになりました: [ページに合わせる]、[幅に合わせる]、[実際のサイズ]。
 * また、保持できるデータセットとレポートの数の制限を大きくしました。 Power BI アカウントのデータセットごとに、データセットとレポートをそれぞれ 200 まで保持できます。
-
-**2015 年 8 月 25 日**
-
-* Power BI を使用して、[Adobe Analytics データを監視、探索、視覚化](http://blogs.msdn.com/b/powerbi/archive/2015/08/25/exploring-your-adobe-analytics-data-in-power-bi.aspx)できるようになりました。 すぐに使用できるコンテンツ パックを使用すれば、お客様のデータにすぐに接続してその洞察を得ることができます。 詳細については、[Power BI 用 Adobe Analytics コンテンツ パックのヘルプ ページ](service-connect-to-adobe-analytics.md)をご覧ください。
 
 **2015 年 8 月 18 日**
 
@@ -680,11 +676,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 **2015 年 6 月 16 日**
 
-* SweetIQ を使用すれば、場所の指定によってローカルの一覧を追跡して、ローカル検索エコシステムからのデータを確認することができます。 Power BI を使用すれば、このデータを分析および監視できます。これは、SweetIQ データから作成された[すぐに使えるコンテンツ](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)を提供して行います。 開始方法の詳細については、[Power BI 用 SweetIQ コンテンツ パックのヘルプ ページ](service-connect-to-sweetiq.md)をご覧ください。
-
-**2015 年 6 月 9 日**
-
-* Power BI では、[MailChimp API](http://blogs.msdn.com/b/powerbi/archive/2015/06/09/user-power-bi-to-monitor-and-visualize-your-mailchimp-data.aspx) を使用してデータを監視および探索することができ、分析用のすぐに使用できるコンテンツ一式が提供されます。 MailChimp シナリオ用に精選されたダッシュボード、レポートおよびデータセットを使用すると、「開いている合計数の曜日別上位キャンペーン」などのデータに簡単にアクセスできます。 開始方法の詳細については、Power BI 用 MailChimp コンテンツ パックの[ドキュメント](service-connect-to-mailchimp.md)をご覧ください。
+* SweetIQ を使用すれば、場所の指定によってローカルの一覧を追跡して、ローカル検索エコシステムからのデータを簡単に確認することができます。 Power BI を使用すれば、このデータを分析および監視できます。これは、SweetIQ データから作成された[すぐに使えるコンテンツ](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)を提供して行います。 開始方法の詳細については、[Power BI 用 SweetIQ コンテンツ パックのヘルプ ページ](service-connect-to-sweetiq.md)をご覧ください。
 
 **2015 年 6 月 2 日**
 
@@ -697,7 +689,6 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 **2015 年 5 月 13 日**
 
-* Power BI に対する最新の更新を使用すれば、すぐに使用できる一連のレポートとカスタマイズされたダッシュボードで、 **SQL Database Auditing** によってログに記録されたデータに接続することができます。 このコンテンツ パックにより、レポート用に作成されたデータセットに基づいて、不審なイベント、通常とは異なるアクティビティ、および傾向が検出しやすくなります。 詳細については、この[ブログの投稿](http://blogs.msdn.com/b/powerbi/archive/2015/05/14/monitor-your-azure-sql-database-auditing-activity-with-power-bi.aspx)と、この[ドキュメント](service-connect-to-azure-sql-database-auditing.md)をご覧ください。
 * **Azure SQL Database**に格納されたデータに直接接続することができます。 クエリが動的に生成されてソースに送信されるため、データベースから直接に対話型レポートを作成することができます。 詳細については、この[ブログの投稿](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx)と、この[ドキュメント](service-azure-sql-database-with-direct-connect.md)をご覧ください。
 
 **2015 年 5 月 7 日**
@@ -714,7 +705,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 **2015 年 4 月 15 日**
 
-* 新しいコンテンツ パックを使用すれば、 **Google アナリティクス** のデータを視覚化および探索できるようになりました。 Google アナリティクス コンテンツ パックを使用すれば、過去 6 か月のサイトの利用のされ方についての洞察を得ることができる、ダッシュボード、レポート、およびデータセットを入手できます。 読み取ることができます[ブログの投稿](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)します。
+* 新しいコンテンツ パックを使用すれば、 **Google アナリティクス** のデータを視覚化および探索できるようになりました。 Google アナリティクス コンテンツ パックを使用すれば、過去 6 か月のサイトの利用のされ方についての洞察を得ることができる、ダッシュボード、レポート、およびデータセットを入手できます。 [こちらのブログ記事](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)を読むことができます。
 * **すべてのカードをピン留め**して、Q&A とレポートから、それらのカードに含まれた KPI およびイメージを求めることができるようになりました。
 * クエリの最後に「as card」という語句を使用すれば、**Q&A でカードを使用**できるようになりました。
 

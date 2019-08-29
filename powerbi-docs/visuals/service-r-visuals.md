@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/16/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0af278171a00c792e466bbd0e21a3efb5ffa8962
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389723"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655025"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI サービスで R ビジュアルを作成する
 Power BI サービスでは、R スクリプトで作成したビジュアルの表示と操作がサポートされています。 R スクリプトで作成したビジュアルは一般的に *R ビジュアル*と呼ばれ、R の豊富な分析と視覚化の機能を使用した高度なデータ整形と予測などの分析に使用できます。
 
 > [!NOTE]
-> [R プログラミング言語](https://www.r-project.org/)は、統計学者、データ科学者、ビジネス アナリストの間で最も広く使用されているプログラミング言語です。 R 言語には、7,000 を超えるアドオン パッケージを提供しているオープン ソース コミュニティや、広く利用されている R ユーザー グループがあります。 Power BI サービスに展開されている R のバージョンは *Revolution R Open 3.2.2* です。
+> [R プログラミング言語](https://www.r-project.org/)は、統計学者、データ科学者、ビジネス アナリストの間で最も広く使用されているプログラミング言語です。 R 言語には、7,000 を超えるアドオン パッケージを提供しているオープン ソース コミュニティや、広く利用されている R ユーザー グループがあります。 Power BI サービスに展開されている R のバージョンは *Microsoft R 3.4.4* です。
 > 
 > 
 

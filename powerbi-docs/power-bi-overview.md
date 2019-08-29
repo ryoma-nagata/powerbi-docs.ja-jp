@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 05/30/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d6c9eb47d5f88a2d835c1ba6835e871b0c64bf1c
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324768"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654982"
 ---
 # <a name="what-is-power-bi"></a>Power BI とは?
 **Power BI** はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型洞察を得ることができます。 Excel スプレッドシートや、クラウド ベースとオンプレミスのハイブリッド データ ウェアハウスのコレクションなど、さまざまなデータを使えます。 Power BI を使うと、ご利用のデータ ソースへの接続、重要事項の視覚化と検出、必要に応じた任意のユーザーまたはすべてのユーザーとの共有を、簡単に実行できます。
@@ -26,10 +26,10 @@ Power BI はシンプルで高速です。つまり、Excel スプレッドシ�
 ## <a name="the-parts-of-power-bi"></a>Power BI の構成要素
 Power BI は次のもので構成されます。 
 - **Power BI Desktop** と呼ばれる Windows デスクトップ アプリケーション
-- **Power BI サービス**と呼ばれるオンラインの SaaS (*サービスとしてのソフトウェア*) サービス。 
-- Windows、iOS、および Android デバイス向けの Power BI **モバイル アプリ**
+- **Power BI サービス**と呼ばれるオンラインの SaaS (*サービスとしてのソフトウェア*) サービス 
+- Windows、iOS、Android デバイス向けの Power BI **モバイル アプリ**
 
-![Power BI Desktop、サービス、モバイル](media/power-bi-overview/power-bi-blocks.png)
+![Power BI Desktop、サービス、モバイル](media/power-bi-overview/power-bi-overview-blocks.png)
 
 この 3 つの要素 &mdash; Power BI Desktop、サービス、モバイル アプリ &mdash; は、ユーザー (またはそのロール) に対して最も効果的な方法で、ビジネス上の分析情報を作成、共有、使用できるように設計されています。
 
