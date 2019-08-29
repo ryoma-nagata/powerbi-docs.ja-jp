@@ -201,8 +201,8 @@ R パッケージにはいくつかの要件と制限があります。
 |d3r|0.8.0|https://cran.r-project.org/web/packages/d3r/index.html|
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
 |data.tree|0.7.5|https://cran.r-project.org/web/packages/data.tree/index.html|
-|データセット|3.4.4|NA|
-|日付|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
+|datasets|3.4.4|NA|
+|date|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
 |DBI|0.8|https://cran.r-project.org/web/packages/DBI/index.html|
 |dbplyr|1.2.1|https://cran.r-project.org/web/packages/dbplyr/index.html|
 |dbscan|1.1-1|https://cran.r-project.org/web/packages/dbscan/index.html|
@@ -302,7 +302,7 @@ R パッケージにはいくつかの要件と制限があります。
 |foreign|0.8-69|https://cran.r-project.org/web/packages/foreign/index.html|
 |formatR|1.5|https://cran.r-project.org/web/packages/formatR/index.html|
 |formattable|0.2.0.1|https://cran.r-project.org/web/packages/formattable/index.html|
-|式|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
+|Formula|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
 |fpc|2.1-11|https://cran.r-project.org/web/packages/fpc/index.html|
 |fracdiff|1.4-2|https://cran.r-project.org/web/packages/fracdiff/index.html|
 |fTrading|3042.79|https://cran.r-project.org/web/packages/fTrading/index.html|
@@ -371,7 +371,7 @@ R パッケージにはいくつかの要件と制限があります。
 |gower|0.1.2|https://cran.r-project.org/web/packages/gower/index.html|
 |GPArotation|2014.11-1|https://cran.r-project.org/web/packages/GPArotation/index.html|
 |gplots|3.0.1|https://cran.r-project.org/web/packages/gplots/index.html|
-|グラフィックス|3.4.4|NA|
+|graphics|3.4.4|NA|
 |grDevices|3.4.4|NA|
 |grid|3.4.4|NA|
 |gridBase|0.4-7|https://cran.r-project.org/web/packages/gridBase/index.html|
@@ -503,8 +503,7 @@ R パッケージにはいくつかの要件と制限があります。
 |MasterBayes|2.55|https://cran.r-project.org/web/packages/MasterBayes/index.html|
 |Matching|4.9-5|https://cran.r-project.org/web/packages/Matching/index.html|
 |MatchIt|3.0.2|https://cran.r-project.org/web/packages/MatchIt/index.html|
-|マトリックス|1.2-12|https://cran.r-project.org/web/packages/Matrix/index.html|
-|マトリックス|1.2-12|https://cran.r-project.org/web/packages/Matrix/index.html|
+|Matrix|1.2-12|https://cran.r-project.org/web/packages/Matrix/index.html|
 |matrixcalc|1.0-3|https://cran.r-project.org/web/packages/matrixcalc/index.html|
 |MatrixModels|0.4-1|https://cran.r-project.org/web/packages/MatrixModels/index.html|
 |matrixStats|0.54.0|https://cran.r-project.org/web/packages/matrixStats/index.html|
@@ -706,7 +705,7 @@ R パッケージにはいくつかの要件と制限があります。
 |relimp|1.0-5|https://cran.r-project.org/web/packages/relimp/index.html|
 |rematch|1.0.1|https://cran.r-project.org/web/packages/rematch/index.html|
 |Renext|3.1-0|https://cran.r-project.org/web/packages/Renext/index.html|
-|レポート|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
+|reports|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
 |reprex|0.1.2|https://cran.r-project.org/web/packages/reprex/index.html|
 |reshape|0.8.7|https://cran.r-project.org/web/packages/reshape/index.html|
 |reshape2|1.4.3|https://cran.r-project.org/web/packages/reshape2/index.html|
@@ -823,7 +822,7 @@ R パッケージにはいくつかの要件と制限があります。
 |sp|1.2-7|https://cran.r-project.org/web/packages/sp/index.html|
 |spacetime|1.2-1|https://cran.r-project.org/web/packages/spacetime/index.html|
 |spacyr|0.9.6|https://cran.r-project.org/web/packages/spacyr/index.html|
-|スパム|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
+|spam|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
 |SparseM|1.77|https://cran.r-project.org/web/packages/SparseM/index.html|
 |sparsepp|0.2.0|https://cran.r-project.org/web/packages/sparsepp/index.html|
 |spatial|7.3-11|https://cran.r-project.org/web/packages/spatial/index.html|
@@ -914,9 +913,9 @@ R パッケージにはいくつかの要件と制限があります。
 |tools|3.4.4|NA|
 |topicmodels|0.2-7|https://cran.r-project.org/web/packages/topicmodels/index.html|
 |TraMineR|2.0-8|https://cran.r-project.org/web/packages/TraMineR/index.html|
-|変換|3.4.4|NA|
+|translations|3.4.4|NA|
 |tree|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
-|ツリーマップ|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
+|treemap|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
 |trimcluster|0.1-2|https://cran.r-project.org/web/packages/trimcluster/index.html|
 |truncnorm|1.0-8|https://cran.r-project.org/web/packages/truncnorm/index.html|
 |TSA|1.01|https://cran.r-project.org/web/packages/TSA/index.html|
