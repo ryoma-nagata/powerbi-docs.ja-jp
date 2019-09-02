@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2cf6b351c00d89ad6e87b6bc95661dab57078bac
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e6c63d93c876377da7a5d36e814431dfda8665c3
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61151885"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185781"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Power BI で VMob に接続する
 VMob データの追跡と探索は、Power BI と VMob コンテンツ パックを使って簡単に行うことができます。 Power BI によって取得されるデータは、すべての期間と過去 30 日間のユーザー統計情報、過去 30 日間の販売 KPI、過去 30 日間のキャンペーンの成果です。
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Power BI 用 [VMob コンテンツ パック](https://app.powerbi.com/getdata/services/vmob)に接続します。
 

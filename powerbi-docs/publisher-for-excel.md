@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4e9efa729b9dc4ac645bc8d3ff7df92cafc929e4
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514334"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200974"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI Publisher for Excel
 **Power BI Publisher for Excel** では、Excel にある最も重要な洞察のスナップショット (ピボットテーブル、グラフ、範囲など) を作成し、Power BI のダッシュボードにピン留めできます。
@@ -32,7 +32,7 @@ Excel から要素をピン留めすると、Power BI で、新規または既�
 ## <a name="download-and-install"></a>ダウンロードとインストール
 Power BI Publisher for Excel は、ダウンロードして Microsoft Excel 2007 以降のデスクトップ バージョンにインストールできるアドインです。
 
-[Power BI Publisher for Excel をダウンロードする](http://go.microsoft.com/fwlink/?LinkId=715729)
+[Power BI Publisher for Excel をダウンロードする](https://www.microsoft.com/download/details.aspx?id=50729)
 
 Publisher をインストールすると、Excel に新しく **[Power BI]** リボンが表示されます。このリボンでは、Power BI のサインイン (またはサインアウト)、ダッシュボードへの要素のピン留め、既にピン留めした要素の管理を行うことができます。
 
