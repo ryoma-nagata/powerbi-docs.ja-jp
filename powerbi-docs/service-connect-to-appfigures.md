@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2a19cc832f7e03acfd224c6ab2409016ce8da770
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 07ba5c79245e4c87acee90c2c7c6a48df7a2d0e0
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61179809"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186103"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Power BI で appFigures に接続する
 Power BI と appFigures コンテンツ パックを使用すると、アプリに関する重要な統計情報を簡単に追跡できます。 Power BI は、アプリの販売数、ダウンロード数、および広告統計情報を含むデータを取得し、そのデータに基づいて既定のダッシュボードと関連レポートを作成します。
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [appFigures コンテンツ パック](https://app.powerbi.com/getdata/services/appfigures)に接続するか、Power BI と [appFigures との統合](https://powerbi.microsoft.com/integrations/appfigures)について詳細をお読みください。
 
