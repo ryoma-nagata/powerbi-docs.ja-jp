@@ -1358,7 +1358,7 @@
     - name: リソース
       items:
         - name: 毎月のゲートウェイ更新プログラム
-          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
+          href: /data-integration/gateway/service-gateway-monthly-updates
 - name: 管理
   items:
     - name: 概要
