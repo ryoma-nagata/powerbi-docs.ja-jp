@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621257"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160367"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)
 
@@ -115,19 +115,19 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
     ![Power アプリケーションを検索する](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. 検索結果から、Power BI サービスと Power Query Online のオブジェクト ID を両方選択してコピーします。 以降の手順でこの 2 つの値を貼り付けられるように準備しておきます。
+5. 検索結果から、Power BI Premium サービスと Power Query Online のオブジェクト ID を両方選択してコピーします。 以降の手順でこの 2 つの値を貼り付けられるように準備しておきます。
 
-7. 次に、**Azure Storage Explorer** を使用して、前のセクションで作成した *powerbi* ファイル システムに移動します。 「[Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)」(Azure Storage Explorer を使用したファイルとディレクトリ レベルのアクセス許可の設定) の記事にある「[Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)」(アクセスの管理) セクションの手順に従います。
+6. 次に、**Azure Storage Explorer** を使用して、前のセクションで作成した *powerbi* ファイル システムに移動します。 「[Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)」(Azure Storage Explorer を使用したファイルとディレクトリ レベルのアクセス許可の設定) の記事にある「[Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)」(アクセスの管理) セクションの手順に従います。
 
-8. 手順 5 で収集した 2 つの各 Power BI オブジェクト ID では、 **[読み取り]** 、 **[書き込み]** 、 **[実行]** のアクセスと既定の ACL を *powerbi* ファイル システムに割り当てます。
+7. 手順 5 で収集した 2 つの各 Power BI Premium オブジェクト ID では、 **[読み取り]** 、 **[書き込み]** 、 **[実行]** のアクセスと既定の ACL を *powerbi* ファイル システムに割り当てます。
 
    ![両方に対して、3 つすべてを割り当てる](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. 手順 4 で収集した Power Query Online のオブジェクト ID では、 **[書き込み]** 、 **[実行]** のアクセスと既定の ACL を *powerbi* ファイル システムに割り当てます。
+8. 手順 4 で収集した Power Query Online のオブジェクト ID では、 **[書き込み]** 、 **[実行]** のアクセスと既定の ACL を *powerbi* ファイル システムに割り当てます。
 
    ![次に、書き込みと実行を割り当てる](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. さらに、 **[その他]** にも、 **[実行]** のアクセスと既定の ACL を割り当てます。
+9. さらに、 **[その他]** にも、 **[実行]** のアクセスと既定の ACL を割り当てます。
 
     ![最後に、[その他] に対して実行を割り当てる](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 

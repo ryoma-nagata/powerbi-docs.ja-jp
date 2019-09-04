@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a25a9cc220dcb9f4620b7fb77e6bac264a47256
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514759"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160235"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop で SSAS 多次元モデルに接続する
 Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも呼ばれる) にアクセスできます。
@@ -36,7 +36,7 @@ Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも�
 | --- | --- |
 | キューブ |モデル |
 | キューブ ディメンション |テーブル |
-| ディメンション属性 (Keys)、Name |削除 |
+| ディメンション属性 (Keys)、Name |列 |
 | メジャー グループ |テーブル |
 | メジャー |メジャー |
 | 関連付けられたメジャー グループのないメジャー |*メジャー*という名前のテーブル内 |
@@ -78,7 +78,8 @@ Power BI は、イメージの URL (Uniform Resource Locator) を含むフィー
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 **SSAS MD**の使用には、次のようないくつかの制限があります。
 
-* Power BI Desktop SSAS MD コネクタが機能するには、サーバーは SQL Server 2012 SP1 CU4 以降のバージョンの Analysis Services を実行する必要があります。
+* Power BI Desktop SSAS MD コネクタが正常に動作するには、SQL Server 2012 SP1 CU4 以降のバージョンの Analysis Services をサーバーで実行する必要があります。
+* ライブ接続は、SQL Server 2012 と SQL Server 2014 の Enterprise および BI エディションのみでサポートされています。 SQL Server の標準バージョンの場合、ライブ接続には SQL Server 2016 以降が必要です。
 * *アクション* および *名前付きセット* は Power BI には公開されませんが、 *アクション* または *名前付きセット* も含むキューブに接続し、ビジュアルおよびレポートを作成することはできます。
 * Power BI に SSAS モデルのメタデータが表示されても、モデルのデータを取得できない問題が発生することがあります。 この問題は、システムに 32 ビット版の MSOLAP プロバイダーがインストールされ、64 ビット版がインストールされていない場合に発生します。 64 ビット版をインストールすると、この問題が解決することがあります。
 * SSAS 多次元モデルにライブ接続されているレポートを作成する場合、'レポート レベル' のメジャーは作成できません。 使用できるメジャーは MD モデルで定義されているもののみです。

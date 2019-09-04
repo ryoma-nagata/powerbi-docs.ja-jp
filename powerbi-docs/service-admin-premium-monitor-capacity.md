@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 9f5e2715af5b3fd898d3c7f0486c8b75463a1c42
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70008117"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030193"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>アプリで Premium 容量を監視する
 
@@ -244,7 +244,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 | **レポート セクション** | **メトリック** |
 | --- | --- |
-| CPU 消費量 |  ワークロードによる消費量 (CPU の合計容量に対する割合)。 過去 7 日間の値が時間単位で表示されます。 |
+| CPU 消費量 |  時間内の最大 CPU 消費量 (CPU の合計容量に対するワークロードの割合)。 過去 7 日間の値が時間単位で表示されます。 |
 | メモリ消費量 |  時間内の最大メモリ使用量 (ワークロードあたりの GB 単位) (実線) にワークロードの上限 (点線) が重ねて表示されます。 過去 7 日間の値が時間単位で表示されます。 |
 |  |  |
 

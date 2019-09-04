@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d6d6ca0b9a1a2ec312a9168aad7a7cc93981e396
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816722"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200956"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI サービスのデータ ソース
 データは Power BI の中核です。 たとえば、データを探索しているとしましょう。 グラフとダッシュボードを作成するか、**Q&A** で質問をすることでこれを行えます。 表示される視覚化と回答は、データセットから基になるデータを取得しています。 しかし、そのデータセットはどこから得られるでしょうか。 それはデータ ソースから得られます。
@@ -46,7 +46,7 @@ ms.locfileid: "66816722"
 ### <a name="files"></a>ファイル
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** ( *.xlsx*、 *.xlsm*) - Excel は特有です。 Excel では、ブックにさまざまなデータの種類を含めることができます。 たとえば、ワークシートに自分で入力したデータを含めることができます。 Power Query を使用して外部データ ソースからクエリして読み込んだデータを含めることもできます。 Power Query は、Excel 2016 または Power Pivot の **[取得と変換]** から使用できます。 データは、ワークシート内のテーブルからインポートすることも、データ モデルからインポートすることもできます。 詳しくは、「[ファイルから Power BI 用のデータを取得する](service-get-data-from-files.md)」をご覧ください。
+**Excel** ( *.xlsx*、 *.xlsm*) - Excel では、ブックにさまざまなデータの種類を含めることができます。 たとえば、ワークシートに自分で入力したデータを含めることができます。 Power Query を使用して外部データ ソースからクエリして読み込んだデータを含めることもできます。 Power Query は、Excel 2016 または Power Pivot の **[取得と変換]** から使用できます。 データは、ワークシート内のテーブルからインポートすることも、データ モデルからインポートすることもできます。 詳しくは、「[ファイルから Power BI 用のデータを取得する](service-get-data-from-files.md)」をご覧ください。
 
 **Power BI Desktop** ( *.pbix*) - Power BI Desktop を使うと、外部データ ソースのデータのクエリや読み込み、レポートの作成を行うことができます。 メジャーやリレーションシップを使ったデータ モデルの拡張や、Power BI Desktop ファイルの Power BI サイトへのインポートもできます。 Power BI Desktop は、熟練のユーザーに最適です。 通常、これらのユーザーは、自分のデータ ソースについてよく理解しています。 また、データ クエリと変換、およびデータ モデリングの概念についても理解しています。 詳しくは、「[Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)」をご覧ください。
 
@@ -102,9 +102,9 @@ OneDrive for Business または SharePoint - Team Sites でファイルを保存
 
 サービスのコンテンツ パックは自動的に更新されます。 ほとんどの場合、更新は 1 日に 1 回です。 手動で更新することもできますが、更新されたデータが表示されるかどうかはサービス プロバイダーによって異なります。 組織内の人からのコンテンツ パックへの更新は、使用されているデータ ソースによって異なります。 また、コンテンツ パックの作成者がどのように更新を構成したかによっても異なります。
 
-Azure SQL Database、Azure SQL Data Warehouse、Azure HDInsight 上の Spark が特有なのは、これらがクラウド内のデータ ソースだからです。 Power BI サービスもクラウド内にあるため、Power BI では **DirectQuery** を使用してそれらにライブ接続できます。 Power BI での表示内容は常に同期され、更新をスケジュール設定する必要はありません。
+Azure SQL Database、Azure SQL Data Warehouse、および Azure HDInsight 上の Spark は、クラウド内のデータ ソースです。 Power BI サービスもクラウド内にあるため、Power BI では **DirectQuery** を使用してそれらにライブ接続できます。 Power BI での表示内容は常に同期され、更新をスケジュール設定する必要はありません。
 
-SQL Server Analysis Services データベースは特有です。 Power BI から接続すると、クラウド内の Azure データベースと同じく、ライブ接続になります。 違いは、データベースそのものが組織内のサーバー上にあることです。 この種類の接続には、IT 部門が構成する、Power BI Gateway が必要です。
+Power BI から SQL Server Analysis Services に接続すると、クラウド内の Azure データベースと同じく、ライブ接続になります。 違いは、データベースそのものが組織内のサーバー上にあることです。 この種類の接続には、IT 部門が構成する、Power BI Gateway が必要です。
 
 データ更新は Power BI の非常に重要な部分であり、奥が深すぎるためここではカバーできません。 理解を深めたい場合は、「[Power BI でのデータの更新](refresh-data.md)」をご覧ください。
 

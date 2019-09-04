@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654841"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201014"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop の概要
 「**Power BI Desktop 概要ガイド**」へようこそ。 この短いツアーでは、Power BI Desktop の機能を説明し、その動作の実例を示します。これにより、強力なデータ モデルと優れたレポートをより迅速に作成できるようになり、ビジネス インテリジェンスの作業を拡張できます。 
@@ -105,6 +105,9 @@ Power BI Desktop をインストールすると、拡大を続けるデータの
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
 データへの接続について詳しくは、「[Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)」をご覧ください。
+
+> [!NOTE]
+> この記事で参照されているテーブル データは、時間の経過と共に変更される可能性があります。 そのため、従う手順が次と異なる場合があります。手順や結果をどのように調整するかを考える必要がありますが、それも学習の楽しみです。 
 
 次のセクションでは、ニーズを満たすようにデータを調整します。 接続されているデータを調整するプロセスは、データの *整形* と呼ばれます。
 

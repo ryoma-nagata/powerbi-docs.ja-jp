@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590503"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160343"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop から Power BI サービスのデータセットに接続する
 Power BI サービスの共有データセットへのライブ接続を確立し、同じデータセットから多数の異なるレポートを作成できます。 つまり、Power BI Desktop で自分の完全なデータ モデルを作成し、それを Power BI サービスに発行することができます。 そうすれば、その同じ共通のデータ モデルから、あなたと他の人は複数のさまざまなレポート (別々の .pbix ファイルに) を作成し、それらを異なるワークスペースに保存できます。 この機能は、**Power BI サービス ライブ接続**と呼ばれます。
@@ -108,4 +108,5 @@ Power BI にサインインしていない場合は、サインインするよ�
 * コンテンツ パックの場合は、**Power BI サービス**に .pbix レポートおよびデータセットを共有するための基礎として使う前に、コンテンツ パックのコピーを作成しておく必要があります。
 * "*自分の所属組織*" からのコンテンツ パックの場合、コピーした後は、サービスで作成されたレポートや、ライブ接続でのコンテンツ パックのコピーの一部として作成されたレポートを、置き換えることはできません。 置き換えようとすると、ファイルの名前を変更して発行するよう求める警告が表示されます。 このような状況では、発行されたライブ接続されているレポートのみを置換できます。
 * **Power BI サービス**で共有データセットを削除すると、**Power BI Desktop** からそのデータセットにアクセスできなくなります。
+* Power BI サービスでデータセットが共有されるレポートでは、Power BI REST API を使用した自動デプロイはサポートされていません。
 

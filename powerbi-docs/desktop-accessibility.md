@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67ca5a4c8014dc295f3ffc458eca3dc5496282a
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307329"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185695"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop レポートのアクセシビリティ
 Power BI には、障碍のある方がより簡単に Power BI レポートを使用し、レポートと対話できる機能があります。 これらは、レポートでキーボードやスクリーンリーダーを使用したり、ページ上のさまざまなオブジェクトにフォーカスをタブ移動したり、マーカーを使用して気の利いた視覚化を実行するための機能です。
@@ -75,6 +75,9 @@ Power BI には、障碍のある方がより簡単に Power BI レポートを�
 * レポートのすべてのオブジェクトに、[代替テキスト] を用意します。 そうすることで、あなたがビジュアルで伝えようとしている内容をレポート コンシューマーは確実に理解できます。 ビジュアル、画像、図形、またはテキスト ボックスが表示されない場合でも役立ちます。 **PowerBI Desktop** レポート上の任意のオブジェクトに代替テキストを指定するには、オブジェクト (ビジュアルや図形など) を選択し、 **[視覚化]** ウィンドウで **[書式]** を選択します。 次に、 **[全般]** を展開し、一番下までスクロールして、 **[代替テキスト]** テキスト ボックスに入力します。
   
   ![レポートのすべてのオブジェクトには、[視覚エフェクト]、[形式]、[全般]、[代替テキスト ボックス] から代替テキストを追加できます。](media/desktop-accessibility/accessibility-02.png)
+  
+  ビジュアルに適用されたフィルターを反映するなど、式を使用して代替テキストを動的に変更することもできます。 ビジュアルのタイトルの場合と同じように、式を設定します。 [ビジュアルのタイトルの条件付き書式](desktop-conditional-format-visual-titles.md)
+  
 * レポートのテキストと背景色の間に十分なコントラストがあることを確認します。 [Color Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) など、レポートの色を確認するために使用できるツールがいくつかあります。 
 * 読みやすいテキストのサイズとフォントを使います。 小さいテキスト サイズや読みにくいフォントは、アクセシビリティを損ないます。
 * すべてのビジュアルにタイトル、軸ラベル、データ ラベルを含めます。
@@ -124,7 +127,7 @@ Microsoft はアクセシビリティを改善する取り組みを続けてい�
 ### <a name="frequently-used-shortcuts"></a>頻繁に使用されるショートカット
 | この操作を行うには           | 押すキー                |
 | :------------------- | :------------------- |
-| セクション間でフォーカスを移動します  | **Ctrl + F6** |
+| セクション間でフォーカスを移動する  | **Ctrl + F6** |
 | セクション内でフォーカスを移動します | **Tab**         |
 | セクション内でフォーカスを逆方向に移動します | **Shift + Tab** |
 | オブジェクトを選択または選択解除します | **Enter** または **Space** |
