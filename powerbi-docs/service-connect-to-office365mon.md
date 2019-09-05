@@ -1,29 +1,29 @@
 ---
 title: Power BI で Office365Mon に接続する
 description: Power BI 用 Office365Mon
-author: SarinaJoan
+author: teddybercovitz
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 8/29/2019
+ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cce886edbed00075efaa43bae9c8a712929e8b9a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61170226"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159903"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI で Office365Mon に接続する
-Office 365 の障害および正常性のパフォーマンス データの分析は、Power BI や Office365Mon コンテンツ パックを使用すると簡単に行えます。 Power BI は、障害および正常性 プローブを含むデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
+Office 365 の障害および正常性のパフォーマンス データの分析は、Power BI や Office365Mon テンプレート アプリを使用すると簡単です。 Power BI は、障害および正常性 プローブを含むデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
 
-Power BI 用 [Office365Mon コンテンツ パック](https://app.powerbi.com/groups/me/getdata/services/office365mon)に接続します。
+Power BI 用 [Office365Mon テンプレート アプリ](https://app.powerbi.com/groups/me/getdata/services/office365mon)に接続します。
 
 >[!NOTE]
->Office365Mon の管理者アカウントは、Power BI コンテンツ パックに接続して読み込むときに必要です。
+>Power BI テンプレート アプリに接続して読み込むには、Office365Mon の管理者アカウントが必要です。
 
 ## <a name="how-to-connect"></a>接続する方法
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
