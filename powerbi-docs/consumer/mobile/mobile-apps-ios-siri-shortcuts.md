@@ -1,7 +1,7 @@
 ---
 title: Siri のショートカットを使用しての Power BI モバイル アプリの統合
 description: Siri ショートカットを使用して、必要な Power BI コンテンツに直接アクセスする方法。
-author: michalfo
+author: KesemSharabi
 manager: mshenhav
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 0fd94e7e8f1ea54dd6544eb5c0da13c90808d7e2
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816802"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391495"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Power BI Mobile iOS アプリで Siri ショートカットを使用する (プレビュー)
 
@@ -67,6 +67,6 @@ Power BI レポートの場合は、ショートカットを作成したとき�
 次の手順に従って、Power BI Mobile アプリの詳細を確認します。 
 
 * [Power BI iPhone モバイル アプリ](http://go.microsoft.com/fwlink/?LinkId=522062)をダウンロードする
-* [Twitter で @MSPowerBI](https://twitter.com/MSPowerBI) に従う
+* [Twitter で @MSPowerBI](https://twitter.com/MSPowerBI) をフォローする
 * [Power BI コミュニティの会話](http://community.powerbi.com/)に参加する
 
