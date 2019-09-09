@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160235"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751627"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop で SSAS 多次元モデルに接続する
 Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも呼ばれる) にアクセスできます。
@@ -87,7 +87,7 @@ Power BI は、イメージの URL (Uniform Resource Locator) を含むフィー
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop  での SSAS MD のサポートされている機能
 Power BI Desktop では、SSAS MD の次の機能がサポートされています。
 
-* このリリースの **SSAS MD** では次の要素を利用できます (これらの機能に関する[詳しい情報](https://msdn.microsoft.com/library/jj969574.aspx)を入手できます)。
+* このリリースの **SSAS MD** では次の要素を利用できます (これらの機能に関する[詳しい情報](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014)を入手できます)。
   * フォルダーの表示
   * KPI 傾向
   * 既定のメンバー

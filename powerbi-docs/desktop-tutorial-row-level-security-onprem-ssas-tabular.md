@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: bbd40173bd10abf312ff382a9452f7636234bc95
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523236"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751691"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
 
@@ -35,7 +35,7 @@ ms.locfileid: "68523236"
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>タスク 1:ユーザーのセキュリティ テーブルを作成し、データのリレーションシップを定義する
 
-**SQL Server Analysis Services (SSAS) 表形式**モデルを使用して、行レベルの動的なセキュリティを定義する方法を説明する多くの記事を見つけることができます。 サンプルでは、[行フィルターを使用した動的なセキュリティの実装](https://msdn.microsoft.com/library/hh479759.aspx)に関するページを使用します。 
+**SQL Server Analysis Services (SSAS) 表形式**モデルを使用して、行レベルの動的なセキュリティを定義する方法を説明する多くの記事を見つけることができます。 サンプルでは、[行フィルターを使用した動的なセキュリティの実装](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)に関するページを使用します。 
 
 ここに示す手順では、**AdventureworksDW2012** リレーショナル データベースを使用する必要があります。
 

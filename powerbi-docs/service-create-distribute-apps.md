@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530588"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751575"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI でアプリを発行する
 
@@ -127,7 +127,7 @@ Power BI で公式のパッケージ化コンテンツを作成し、*アプリ*
 アプリのナビゲーションにリンクを追加し、[コンテンツ領域] オプションを選択する際の留意点を次に示します。
 * 確実にリンクを埋め込むことができるようにします。 一部のサービスでは、Power BI などのサード パーティのサイトでコンテンツの埋め込みがブロックされます。
 * 他のワークスペースにレポートやダッシュボードなどの Power BI サービス コンテンツを埋め込むことはできません。 
-* オンプレミスのデプロイから、Power BI Report Server コンテンツを、そのネイティブの埋め込み URL コンテンツ経由で埋め込みます。 [Power BI Report Server URL の作成](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#creating-the-power-bi-report-server-report-url)の手順に従って、URL を取得します。 標準の認証ルールが適用されるため、コンテンツを表示するには、オンプレミス サーバーへの VPN 接続が必要です。 
+* オンプレミスのデプロイから、Power BI Report Server コンテンツを、そのネイティブの埋め込み URL コンテンツ経由で埋め込みます。 [Power BI Report Server URL の作成](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url)の手順に従って、URL を取得します。 標準の認証ルールが適用されるため、コンテンツを表示するには、オンプレミス サーバーへの VPN 接続が必要です。 
 * 埋め込まれたコンテンツの上部に、コンテンツが Power BI にないことを示すセキュリティ警告が表示されます。
 
 

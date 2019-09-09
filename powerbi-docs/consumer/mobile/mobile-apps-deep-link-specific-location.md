@@ -42,7 +42,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 * **action**(必須) = OpenApp/OpenDashboard/OpenTile/OpenReport
 * **appId** = レポートまたはアプリの一部であるダッシュ ボードを開きたい場合 
 * **groupObjectId** = レポートまたはワークスペース (ただし、マイ ワークスペースではなく) の一部であるダッシュ ボードを開きたい場合
-* **dashboardObjectId** (操作が OpenDashboard または OpenTile) 場合は、ダッシュ ボード オブジェクトの ID を =
+* **dashboardObjectId** = ダッシュ ボード オブジェクト ID (アクションが OpenDashboard または OpenTile 場合)
 * **reportObjectId** = レポート オブジェクト ID (アクションが OpenReport の場合)
 * **tileObjectId** = タイル オブジェクト ID(アクションが OpenTile の場合)
 * **reportPage** = (action は、OpenReport) 場合は、特定のレポート セクションを開きたい場合

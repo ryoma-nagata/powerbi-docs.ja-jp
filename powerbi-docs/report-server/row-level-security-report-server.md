@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: b4a5d11697cff2cae8d137916636907967a7c276
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f43538b658c1d46984026fd936378a37d33c2e1d
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769805"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751534"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Report Server での行レベルのセキュリティ (RLS)
 
@@ -32,7 +32,7 @@ Power BI Desktop を使用して Power BI にインポートされるレポー�
 
     ![セキュリティ フィルターを適用する](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-ユーザー名またはログイン ID に基づく[動的な行レベルのセキュリティ](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)を実装する場合は、このチェック ボックスをオンにします。 
+ユーザー名またはログイン ID に基づく[動的な行レベルのセキュリティ](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)を実装する場合は、このチェック ボックスをオンにします。 
 
 詳細については、「[Power BI Desktop での DirectQuery を使用する双方向のクロス フィルタリング](../desktop-bidirectional-filtering.md)」と「[表形式の BI セマンティック モデルの保護](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)」の技術的なホワイトペーパーを参照してください。
 
