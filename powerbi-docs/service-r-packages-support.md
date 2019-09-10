@@ -303,7 +303,7 @@ R パッケージにはいくつかの要件と制限があります。
 |foreign|0.8-69|https://cran.r-project.org/web/packages/foreign/index.html|
 |formatR|1.5|https://cran.r-project.org/web/packages/formatR/index.html|
 |formattable|0.2.0.1|https://cran.r-project.org/web/packages/formattable/index.html|
-|式|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
+|Formula|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
 |fpc|2.1-11|https://cran.r-project.org/web/packages/fpc/index.html|
 |fracdiff|1.4-2|https://cran.r-project.org/web/packages/fracdiff/index.html|
 |fTrading|3042.79|https://cran.r-project.org/web/packages/fTrading/index.html|
@@ -374,7 +374,7 @@ R パッケージにはいくつかの要件と制限があります。
 |gower|0.1.2|https://cran.r-project.org/web/packages/gower/index.html|
 |GPArotation|2014.11-1|https://cran.r-project.org/web/packages/GPArotation/index.html|
 |gplots|3.0.1|https://cran.r-project.org/web/packages/gplots/index.html|
-|グラフィックス|3.4.4|NA|
+|graphics|3.4.4|NA|
 |grDevices|3.4.4|NA|
 |grid|3.4.4|NA|
 |gridBase|0.4-7|https://cran.r-project.org/web/packages/gridBase/index.html|
@@ -703,7 +703,7 @@ R パッケージにはいくつかの要件と制限があります。
 |relimp|1.0-5|https://cran.r-project.org/web/packages/relimp/index.html|
 |rematch|1.0.1|https://cran.r-project.org/web/packages/rematch/index.html|
 |Renext|3.1-0|https://cran.r-project.org/web/packages/Renext/index.html|
-|レポート|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
+|reports|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
 |reprex|0.1.2|https://cran.r-project.org/web/packages/reprex/index.html|
 |reshape|0.8.7|https://cran.r-project.org/web/packages/reshape/index.html|
 |reshape2|1.4.3|https://cran.r-project.org/web/packages/reshape2/index.html|
@@ -818,7 +818,7 @@ R パッケージにはいくつかの要件と制限があります。
 |sp|1.2-7|https://cran.r-project.org/web/packages/sp/index.html|
 |spacetime|1.2-1|https://cran.r-project.org/web/packages/spacetime/index.html|
 |spacyr|0.9.6|https://cran.r-project.org/web/packages/spacyr/index.html|
-|スパム|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
+|spam|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
 |SparseM|1.77|https://cran.r-project.org/web/packages/SparseM/index.html|
 |sparsepp|0.2.0|https://cran.r-project.org/web/packages/sparsepp/index.html|
 |spatial|7.3-11|https://cran.r-project.org/web/packages/spatial/index.html|
@@ -907,9 +907,9 @@ R パッケージにはいくつかの要件と制限があります。
 |tools|3.4.4|NA|
 |topicmodels|0.2-7|https://cran.r-project.org/web/packages/topicmodels/index.html|
 |TraMineR|2.0-8|https://cran.r-project.org/web/packages/TraMineR/index.html|
-|変換|3.4.4|NA|
+|translations|3.4.4|NA|
 |tree|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
-|ツリーマップ|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
+|treemap|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
 |trelliscopejs|0.1.18|https://cran.r-project.org/web/packages/trelliscopejs/index.html|
 |trimcluster|0.1-2|https://cran.r-project.org/web/packages/trimcluster/index.html|
 |truncnorm|1.0-8|https://cran.r-project.org/web/packages/truncnorm/index.html|
