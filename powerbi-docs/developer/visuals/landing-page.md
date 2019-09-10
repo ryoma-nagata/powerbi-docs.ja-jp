@@ -1,6 +1,6 @@
 ---
-title: ランディング ページ
-description: Power BI ビジュアルにランディング ページを追加する方法
+title: Power BI ビジュアルにランディング ページを追加する
+description: この記事では、Power BI ビジュアルにランディング ページを追加する方法を説明します。
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 44cc9314b31803c97d3203d4aab846685d8f88fa
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: d15c52134fe3c8638625e50a1374867a4abed3c1
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424886"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236696"
 ---
-# <a name="landing-page"></a>ランディング ページ
+# <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Power BI ビジュアルにランディング ページを追加する
 
-API 2.3.0 を使用すると、ビジュアルにランディング ページを追加できます。これを行うには、`supportsLandingPage` を機能に追加し、これを true に設定します。これにより、データを追加する前にビジュアルの初期化と更新が行われます (つまり、ウォーターマークが表示されなくなります)。したがって、データがない場合にビジュアルに表示する独自のランディング ページをデザインできます。
+API 2.3.0 では、Power BI のビジュアルにランディング ページを追加できます。 それを行うには、機能に `supportsLandingPage` を追加して、true に設定します。 これにより、データを追加する前にビジュアルが初期化されて更新されます。 ビジュアルにはウォーターマークが表示されなくなるため、ビジュアルにデータがないときにビジュアルに表示される独自のランディング ページをデザインできます。
 
 ```typescript
 export class BarChart implements IVisual {
@@ -57,6 +57,6 @@ export class BarChart implements IVisual {
     }
 ```
 
-サンプル
+次の図に、ランディング ページの例を示します。
 
 ![ランディング ページのスクリーンショット](./media/landing-page.png)

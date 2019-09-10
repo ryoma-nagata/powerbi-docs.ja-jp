@@ -1,6 +1,6 @@
 ---
-title: より多くのデータをフェッチする
-description: Power BI ビジュアルの大きいデータセットのセグメント化されたフェッチを有効にする
+title: より多くのデータを Power BI からフェッチする
+description: この記事では、Power BI ビジュアルに対する大きいデータセットのセグメント化されたフェッチを有効にする方法を説明します。
 author: AviSander
 ms.author: asander
 manager: rkarlin
@@ -9,23 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bc8ff673927fd66bf44164e4e9950c279b98c6c1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 7e5ecc0e317a21d10e76e9413926822ac4d6760b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425070"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237143"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>より多くのデータを Power BI からフェッチする
 
-より多くのデータを読み込む API は、30 K のデータ ポイントというハードリミットを乗り越えます。 これはデータをチャンクで取り込みます。 チャンク サイズは、ユース ケースに従ってパフォーマンスを向上させるために構成できます。  
+この記事では、30 KB のデータ ポイントのハード制限を回避して、より多くのデータを読み込む方法について説明します。 この方法では、データがチャンクで提供されます。 パフォーマンスを向上させるために、ユース ケースに合わせてチャンク サイズを構成できます。  
 
-## <a name="enable-segmented-fetch-of-large-datasets"></a>大きいデータセットのセグメント化されたフェッチを有効にする
+## <a name="enable-a-segmented-fetch-of-large-datasets"></a>大きいデータセットのセグメント化されたフェッチを有効にする
 
-`dataview` セグメント モードでは、必要な dataViewMapping に対してビジュアルの `capabilities.json` 内の "window" dataReductionAlgorithm を定義します。
-`count` はウィンドウ サイズを決定します。これにより、更新ごとに `dataview` に追加される新しいデータ行の数が制限されます。
+`dataview` セグメント モードでは、必要な dataViewMapping に対する dataReductionAlgorithm のウィンドウ サイズを、ビジュアルの *capabilities.json* ファイルで定義します。 `count` によってウィンドウ サイズが決定され、更新ごとに `dataview` に追加できる新しいデータ行の数が制限されます。
 
-capabilities.json に以下が追加されます
+次のコードを *capabilities.json* ファイルに追加します。
 
 ```typescript
 "dataViewMappings": [
@@ -47,9 +46,9 @@ capabilities.json に以下が追加されます
 
 新しいセグメントが既存の `dataview` に追加され、`update` 呼び出しとしてビジュアルに提供されます。
 
-## <a name="usage-in-the-custom-visual"></a>カスタム ビジュアルでの使用
+## <a name="usage-in-the-power-bi-visual"></a>Power BI ビジュアルでの使用
 
-データが存在するかどうかは、`dataView.metadata.segment` の存在を確認することによって判断できます。
+`dataView.metadata.segment` の存在を調べることによって、データが存在するかどうかを確認できます。
 
 ```typescript
     public update(options: VisualUpdateOptions) {
@@ -59,11 +58,9 @@ capabilities.json に以下が追加されます
     }
 ```
 
-また、`options.operationKind` をチェックすることで、それが最初の更新であるか、それとも後続の更新であるかを確認することもできます。
+また、`options.operationKind` を調べることによって、それが最初の更新か、それとも 2 回目以降の更新かを確認することもできます。 次のコードで、`VisualDataChangeOperationKind.Create` では最初のセグメントが参照され、`VisualDataChangeOperationKind.Append` では後続のセグメントが参照されます。
 
-`VisualDataChangeOperationKind.Create` は最初のセグメントを意味し、`VisualDataChangeOperationKind.Append` は後続のセグメントを意味します。
-
-実装の例については、次のコード スニペットを参照してください。
+実装のサンプルについては、次のコード スニペットを参照してください。
 
 ```typescript
 // CV update implementation
@@ -73,7 +70,7 @@ public update(options: VisualUpdateOptions) {
 
     }
 
-    // on second or subesquent segments:
+    // on second or subsequent segments:
     if (options.operationKind == VisualDataChangeOperationKind.Append) {
 
     }
@@ -82,24 +79,24 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-`fetchMoreData` メソッドは UI イベント ハンドラーから呼び出すこともできます。
+次に示すように、UI イベント ハンドラーから `fetchMoreData` メソッドを呼び出すこともできます。
 
 ```typescript
 btn_click(){
 {
-    // check if more data is expected for the current dataview
+    // check if more data is expected for the current data view
     if (dataView.metadata.segment) {
-        //request for more data if available, as resopnce Power BI will call update method
+        //request for more data if available; as a response, Power BI will call update method
         let request_accepted: bool = this.host.fetchMoreData();
         // handle rejection
         if (!request_accepted) {
-            // for example when the 100 MB limit has been reached
+            // for example, when the 100 MB limit has been reached
         }
     }
 }
 ```
 
-Power BI は、`this.host.fetchMoreData` メソッドの呼び出しの応答として、新しいデータ セグメントを使用してビジュアルの `update` メソッドを呼び出します。
+`this.host.fetchMoreData` メソッドの呼び出しに対する応答として、Power BI では新しいデータ セグメントを使用してビジュアルの `update` メソッドが呼び出されます。
 
 > [!NOTE]
-> Power BI はクライアントのメモリ制約を回避するために、フェッチされるデータの合計を現時点では **100 MB** に制限しています。 fetchMoreData() で 'false' が返される場合、この制限に達していることが分かります。*
+> クライアントのメモリ制約を回避するため、Power BI では現在、フェッチされるデータの合計が 100 MB に制限されています。 fetchMoreData() から `false` が返されることで、制限に達したことがわかります。

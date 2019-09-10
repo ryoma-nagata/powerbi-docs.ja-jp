@@ -1,6 +1,6 @@
 ---
-title: ビジュアルの相互作用
-description: Power BI ビジュアルでビジュアルの相互作用を許可する必要があることを確認する方法
+title: Power BI ビジュアルでのビジュアル対話
+description: この記事では、Power BI ビジュアルでビジュアル対話を許可する必要があるかどうかを確認する方法について説明します。
 author: shaym83
 ms.author: shaym
 manager: rkarlin
@@ -9,26 +9,25 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 739e59c6da3c1e464e0462a928bc4f33ea0d01f8
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f2fb2d451deb63b5e9c08472654e28d0e1a469db
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424495"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236641"
 ---
-# <a name="visuals-interactions"></a>ビジュアルの相互作用
+# <a name="visual-interactions-in-power-bi-visuals"></a>Power BI ビジュアルでのビジュアル対話
 
-ビジュアルでは、"allowInteractions" フラグの値にクエリを実行できます。このフラグは、ビジュアルでビジュアルの相互作用を許可する必要があるかどうかを示します。
-たとえば、ビジュアルはレポートの表示や編集の間、インタラクティブになりますが、ダッシュボードで表示されるときはインタラクティブになりません。
-このようなは相互作用には、クリック、パン、ズーム、選択などがあります。
-このフラグに関係なく、あらゆるシナリオにおいてツールヒントを有効にする必要があることにご留意ください。
+ビジュアルでは、`allowInteractions` フラグの値のクエリを実行できます。このフラグでは、ビジュアルでビジュアル対話を許可する必要があるかどうかが示されています。 たとえば、ビジュアルはレポートの表示や編集の間は対話形式になりますが、ダッシュボードで表示されるときは対話形式ではありません。 このような操作には、"*クリック*"、"*パン*"、"*ズーム*"、"*選択*" などがあります。 
 
-"allowInteractions" フラグは (IVisualHost インターフェイスのメンバーとしての) ビジュアルの初期化中、ブール値として渡されます。
+> [!NOTE]
+> どのフラグが指定されているかに関係なく、すべてのシナリオでツールヒントを有効にする必要があります。
 
-Power BI でビジュアルのインタラクティブ性が求められない場合 (ダッシュボード タイルなど)、"allowInteractions" フラグは false に設定されます。
-それ以外の場合 (レポートなど)、"allowInteractions" フラグは true に設定されます。
+`allowInteractions` フラグは、IVisualHost インターフェイスのメンバーとして、ビジュアルの初期化の間に、ブール値として渡されます。
 
-詳細は、「[SampleBarChart ビジュアル リポジトリ](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/59a47935d8f5272ce145fe804193599ddb7e2001)」を参照してください。
+ビジュアルが対話形式ではない必要がある Power BI のすべてのシナリオにおいて (ダッシュボード タイルなど)、`allowInteractions` フラグは `false` に設定されます。 それ以外の場合 (レポートなど)、`allowInteractions` は `true` に設定されます。
+
+詳細については、[SampleBarChart ビジュアル リポジトリ](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/59a47935d8f5272ce145fe804193599ddb7e2001)に関するページを参照してください。
 
 ```typescript
    ...

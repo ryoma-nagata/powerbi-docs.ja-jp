@@ -1,6 +1,6 @@
 ---
-title: 単体テストの概要
-description: Power BI のビジュアル プロジェクトの単体テストを作成する方法
+title: Power BI ビジュアル プロジェクトの単体テストの概要
+description: この記事では、Power BI ビジュアル プロジェクトの単体テストを作成する方法について説明します
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,31 +9,29 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 4b16eaad9b541bf6e5d8df49ffda99d9bbd5bbf2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424541"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236722"
 ---
-# <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>チュートリアル: Power BI のビジュアル プロジェクトの単体テストを追加する
+# <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>チュートリアル:Power BI のビジュアル プロジェクトの単体テストを追加する
 
-このチュートリアルでは、Power BI のビジュアルに関する単体テストを作成する際の基本事項について説明します。
+この記事では、以下のことを行う方法など、Power BI のビジュアルに関する単体テストを作成するときの基本事項について説明します。
 
-このチュートリアルで検討する内容は次のとおりです。
-
-* テスト ランナー karma.js およびテスト フレームワーク jasmine.js の使い方
-* powerbi-visuals-utils-testutils パッケージの使い方
-* モックとフェイクを使って Power BI のビジュアルを対象とした単体テストを簡略化する方法
+* Karma JavaScript テスト ランナー テスト フレームワークである Jasmine を設定します。
+* powerbi-visuals-utils-testutils パッケージを使用します。
+* モックとフェイクを使用して Power BI のビジュアルの単体テストを簡略化します。
 
 ## <a name="prerequisites"></a>前提条件
 
-* Power BI のビジュアル プロジェクトがある
-* Node.js 環境の構成が済んでいる
+* Power BI のビジュアル プロジェクトがインストールされている
+* Node.js 環境が構成されている
 
-## <a name="install-and-configure-karmajs-and-jasmine"></a>karma.js と jasmine のインストールと構成
+## <a name="install-and-configure-the-karma-javascript-test-runner-and-jasmine"></a>Karma JavaScript テスト ランナーと Jasmine をインストールして構成する
 
-package.json の `devDependencies` セクションに、必要なライブラリを追加します。
+必要なライブラリを *package.json* ファイルの `devDependencies` セクションに追加します。
 
 ```json
 "@babel/polyfill": "^7.2.5",
@@ -67,19 +65,19 @@ package.json の `devDependencies` セクションに、必要なライブラリ
 "webpack": "4.26.0"
 ```
 
-パッケージの詳細については、以下の説明を参照してください。
+パッケージの詳細については、説明を参照してください。
 
-`package.json` を保存し、`package.json` の場所に移動して、コマンド ラインで次のコマンドを実行します。
+*package.json* ファイルを保存し、その `package.json` の場所で次のコマンドを実行します。
 
 ```cmd
 npm install
 ```
 
-パッケージ マネージャーにより、`package.json` に追加した新しいパッケージがすべてインストールされます。
+パッケージ マネージャーによって、*package.json* に追加されるすべての新しいパッケージがインストールされます。
 
-単体テストを実行するには、テスト ランナーと `webpack` 構成の構成が必要です。構成のサンプルはここに示したとおりです。
+単体テストを実行するには、テスト ランナー `webpack` の構成を構成します。
 
-`test.webpack.config.js` のサンプル:
+次のコードは、*test.webpack.config.js* ファイルのサンプルです。
 
 ```typescript
 const path = require('path');
@@ -147,7 +145,7 @@ module.exports = {
 };
 ```
 
-`karma.conf.ts` のサンプル
+次のコードは、*karma.conf.ts* ファイルのサンプルです。
 
 ```typescript
 "use strict";
@@ -252,31 +250,29 @@ module.exports = (config: Config) => {
 
 この構成は、必要に応じて変更できます。
 
-`karma.conf.js` の設定の一部
+*karma.conf.js* のコードには、次の変数が含まれています。
 
-* `recursivePathToTests` 変数は、テストのコードの場所を指定するものです。
+* `recursivePathToTests`:テスト コードの場所を示します
 
-* `srcRecursivePath` 変数は、コンパイル後に出力される JS コードの場所を指定するものです。
+* `srcRecursivePath`:コンパイル後に出力される JavaScript コードの場所を示します
 
-* `srcCssRecursivePath` 変数は、(スタイル情報を格納したファイルを除いた) コンパイル後に出力される CSS の場所を指定するものです。
+* `srcCssRecursivePath`:スタイル情報が含まれる less ファイルのコンパイル後に出力される CSS の場所を示します
 
-* `srcOriginalRecursivePath` 変数は、ビジュアルのソース コードの場所を指定するものです。
+* `srcOriginalRecursivePath`:ビジュアルのソース コードの場所を示します
 
-* `coverageFolder` 変数は、カバレッジのレポートの作成先となる場所を指定するものです。
+* `coverageFolder`:カバレッジ レポートが作成される場所を決定します
 
-構成のプロパティの一部
+構成ファイルには、次のプロパティが含まれます。
 
-* `singleRun: true` - CI システム上でテストを実行します。 1 回のみで十分です。
-テストのデバッグのために `false` に変更することもできます。 Karma によりブラウザーの実行が続き、デバッグ用のコンソールが利用できるようになります。
+* `singleRun: true`:テストは、継続的インテグレーション (CI) システムで実行するか、または 1 回実行することができます。 テストをデバッグする場合は、この設定を *false* に変更できます。 Karma では、デバッグにコンソールを使用できるように、ブラウザーは実行されたままになります。
 
-* `files: [...]` - この配列には、ブラウザーに読み込むファイルを設定できます。
-通常は、ソース ファイル、テスト ケース、ライブラリ (jasmine、テスト ユーティリティ) です。 必要に応じて、他のファイルを追加することもできます。
+* `files: [...]`:この配列では、ブラウザーに読み込むファイルを指定できます。 通常は、ソース ファイル、テスト ケース、ライブラリ (jasmine、テスト ユーティリティ) があります。 必要に応じて、リストにファイルを追加できます。
 
-* `preprocessors` - 構成のこのセクションでは、単体テストの実行前に実行するアクションを構成します。 TypeScript を JS にプリコンパイルする処理と、ソース マップ ファイルと生成されるコード カバレッジ レポートを準備する処理があります。 テストのデバッグのために `coverage` を無効にすることもできます。 カバレッジではコードのテスト カバレッジを検査するための追加のコードが生成されるので、テストのデバッグが複雑になります。
+* `preprocessors`:このセクションでは、単体テストを実行する前に実行するアクションを構成します。 それらでは、TypeScript が JavaScript にプリコンパイルされ、ソース マップ ファイルが準備されて、コード カバレッジ レポートが生成されます。 テストをデバッグするときは、`coverage` を無効にできます。 カバレッジではテスト カバレッジに対するチェック コード用に追加のコードが生成されるので、テストのデバッグが複雑になります。
 
-**構成はいずれも、karma.js の[ドキュメント](https://karma-runner.github.io/1.0/config/configuration-file.html)で説明を確認できます。**
+すべての Karma 構成の説明については、[Karma 構成ファイル](https://karma-runner.github.io/1.0/config/configuration-file.html)のページを参照してください。
 
-`scripts` にテスト コマンドを追加すると、利用の際に便利です。
+便宜のため、テスト コマンドを `scripts` に追加できます。
 
 ```json
 {
@@ -294,13 +290,13 @@ module.exports = (config: Config) => {
 
 これで、単体テストの作成を始める準備ができました。
 
-## <a name="simple-unit-test-for-check-dom-element-of-the-visual"></a>ビジュアルの DOM 要素を検査するシンプルな単体テスト
+## <a name="check-the-dom-element-of-the-visual"></a>ビジュアルの DOM 要素を確認する
 
-ビジュアルのテストのために、ビジュアルのインスタンスを作成する必要があります。
+ビジュアルをテストするには、最初にビジュアルのインスタンスを作成します。
 
-### <a name="creating-visual-instance-builder"></a>ビジュアル インスタンス ビルダーを作成する
+### <a name="create-a-visual-instance-builder"></a>ビジュアル インスタンス ビルダーを作成する
 
-`test` フォルダーに、次のコードを記述した `visualBuilder.ts` ファイルを追加します。
+次のコードを使用して、*visualBuilder.ts* ファイルを *test* フォルダーに追加します。
 
 ```typescript
 import {
@@ -329,13 +325,13 @@ export class BarChartBuilder extends VisualBuilderBase<VisualClass> {
 }
 ```
 
-`build` メソッドは、ビジュアルのインスタンスを作成するためのものです。 `mainElement` は get メソッドの一種で、ビジュアル内の "ルート" の DOM 要素を返します。 このゲッターは省略可能ですが、単体テストの作成が容易になります。
+`build` メソッドは、ビジュアルのインスタンスを作成するためのものです。 `mainElement` は get メソッドで、ビジュアル内の "ルート" ドキュメント オブジェクト モデル (DOM) 要素のインスタンスを返します。 このゲッターは省略可能ですが、単体テストの作成が容易になります。
 
-ビジュアルのインスタンスのビルダーが用意できました。 テスト ケースを作成してみましょう。 ビジュアルが表示されるときに作成される SVG 要素を検査するテスト ケースです。
+これで、ビジュアルのインスタンスのビルドが完成です。 テスト ケースを作成してみましょう。 テスト ケースでは、ビジュアルが表示されるときに作成される SVG 要素がチェックされます。
 
-### <a name="creating-typescript-file-to-write-test-cases"></a>TypeScript ファイルを作成してテスト ケースを記述する
+### <a name="create-a-typescript-file-to-write-test-cases"></a>TypeScript ファイルを作成してテスト ケースを記述する
 
-次のコードを記述したテスト ケース用の `visualTest.ts` ファイルを追加します。
+次のコードを使用して、テスト ケースの *visualTest.ts* ファイルを追加します。
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -362,40 +358,36 @@ describe("BarChart", () => {
 });
 ```
 
-メソッドの呼び出しがいくつかあります。
+複数のメソッドが呼び出されます。
 
-* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe) メソッドは、テスト ケースを記述するものです。 jasmine フレームワークの文脈では、よくスイートまたはスペック グループと呼ばれています。
+* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe): テスト ケースが記述されます。 Jasmine フレームワークのコンテキストでは、多くの場合、スペックのスイートまたはグループが記述されます。
 
-* `beforeEach` メソッドは、[`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) メソッドの中で定義されている `it` メソッドを呼び出す前に毎回呼び出されるものです。
+* `beforeEach`:[`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) メソッドで定義されている `it` メソッドの各呼び出しの前に呼び出されます。
 
-* `it` は、単一のスペックを定義するものです。[`it`](https://jasmine.github.io/api/2.6/global.html#it) メソッドには、`expectations` が 1 つ以上含まれている必要があります。
+* [`it`](https://jasmine.github.io/api/2.6/global.html#it): 1 つのスペックが定義されます。`it` メソッドには、`expectations` が 1 つ以上含まれている必要があります。
 
-* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect) メソッドは、スペックの要求項目を作成するものです。要求項目のすべてに合格すると (不合格の項目が 1 つもなければ) スペックが成功となります。
+* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): スペックの要求項目が作成されます。要求項目のすべてに合格すると (不合格の項目が 1 つもなければ) スペックが成功となります。
 
-* `toBeInDOM` は、マッチャー メソッドの一種です。 exists マッチャーについては、jasmine フレームワークの[ドキュメント](https://jasmine.github.io/api/2.6/matchers.html)を参照してください。
+* `toBeInDOM`:"*matchers*" メソッドの 1 つです。 マッチャーの詳細については、[Jasmine の名前空間 matchers](https://jasmine.github.io/api/2.6/matchers.html) に関するページを参照してください。
 
-**jasmine フレームワークの詳細については、公式[ドキュメント](https://jasmine.github.io/)を参照してください。**
-
-その後は、コマンドライン ツールでコマンドを入力して、単体テストを実行できます。
-
-このテストでは、ビジュアルのルートの SVG 要素が作成できているかどうかを検査します。
+Jasmine の詳細については、[Jasmine framework のドキュメント](https://jasmine.github.io/)のページを参照してください。
 
 ### <a name="launch-unit-tests"></a>単体テストを開始する
 
-単体テストを実行するには、コマンドライン ツールでこのコマンドを入力します。
+このテストでは、ビジュアルのルートの SVG 要素が作成できているかどうかを検査します。 単体テストを実行するには、コマンドライン ツールで次のコマンドを入力します。
 
 ```cmd
 npm run test
 ```
 
-`karma.js` により Chrome ブラウザーが開き、テスト ケースが実行されます。
+`karma.js` では、Chrome ブラウザーでテスト ケースが実行されます。
 
-![Chrome で KarmaJS が起動したところ](./media/karmajs-chrome.png)
+![Chrome で開かれた Karma JavaScript](./media/karmajs-chrome.png)
 
 > [!NOTE]
-> Google Chrome はローカルにインストールする必要があります。
+> Google Chrome をローカル環境にインストールする必要があります。
 
-コマンドラインに、次の出力が表示されます。
+コマンドライン ウィンドウに、次の出力が表示されます。
 
 ```cmd
 > karma start
@@ -418,7 +410,7 @@ Lines        : 20.85% ( 44/211 )
 
 ### <a name="how-to-add-static-data-for-unit-tests"></a>単体テスト用の静的データを追加する方法
 
-`test` フォルダーに `visualData.ts` ファイルを作成します。 コードは次のとおりです。
+次のコードを使用して、*visualData.ts* ファイルを *test* フォルダーに作成します。
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -458,19 +450,19 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 }
 ```
 
-`SampleBarChartDataBuilder` クラスは `TestDataViewBuilder` を拡張し、抽象メソッド `getDataView` を実装するものです。
+`SampleBarChartDataBuilder` クラスでは `TestDataViewBuilder` が拡張され、抽象メソッド `getDataView` が実装されます。
 
-データをデータ フィールド バケットに入れると、そのデータに基づいて Power BI によりカテゴリに応じた `dataview` オブジェクトが生成されます。
+データをデータ フィールド バケットに入れると、Power BI により、そのデータに基づくカテゴリの `dataview` オブジェクトが生成されます。
 
-![フィールド バケット](./media/fields-buckets.png)
+![データ フィールド バケット](./media/fields-buckets.png)
 
-単体テストでは、それを再現するための Power BI のコア機能がありません。 しかし、静的データをカテゴリ別の `dataview` にマップする必要があります。 その際には、`TestDataViewBuilder` クラスが役立ちます。
+単体テストでは、データを再生成するための Power BI コア機能はありません。 ただし、静的データをカテゴリの `dataview` にマップする必要があります。 `TestDataViewBuilder` クラスがそれをマップするのに役立ちます。
 
-[DataViewMapping の詳細を参照する](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)
+データ ビュー マッピングの詳細については、「[DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)」を参照してください。
 
-`getDataView` メソッドでは、データを指定して `createCategoricalDataViewBuilder` メソッドを呼び出しています。
+`getDataView` メソッドでは、データを指定して `createCategoricalDataViewBuilder` メソッドを呼び出します。
 
-`sampleBarChart` ビジュアルの [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) には、dataRoles と dataViewMapping の 2 つのオブジェクトがあります。
+`sampleBarChart` ビジュアルの [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) ファイルには、dataRoles オブジェクトと dataViewMapping オブジェクトがあります。
 
 ```json
 "dataRoles": [
@@ -555,7 +547,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 public valuesCategory: string[] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 ```
 
-`this.valuesMeasure` は、各カテゴリのメジャーの配列です。 例:
+`this.valuesMeasure` は、各カテゴリのメジャーの配列です。
 
 ```ts
 public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 376074.57, 814724.34, 570921.34];
@@ -563,7 +555,7 @@ public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 37
 
 これで、単体テストで `SampleBarChartDataBuilder` クラスを使用できるようになりました。
 
-`ValueType` クラスは、`powerbi-visuals-utils-testutils` パッケージ内で定義されています。 また、`createCategoricalDataViewBuilder` メソッドには `lodash` ライブラリが必要です。
+`ValueType` クラスは、powerbi-visuals-utils-testutils パッケージで定義されています。 また、`createCategoricalDataViewBuilder` メソッドには `lodash` ライブラリが必要です。
 
 これらのパッケージを依存関係に追加します。
 
@@ -582,7 +574,7 @@ npm install
 
 これで、`lodash-es` ライブラリがインストールされます。
 
-これで、単体テストをもう一度実行できるようになりました。 出力はこのようになります。
+これで、単体テストをもう一度実行できるようになりました。 次の出力を取得する必要があります。
 
 ```cmd
 > karma start
@@ -603,27 +595,25 @@ Lines        : 52.83% ( 112/212 )
 ================================================================================
 ```
 
-また、Chrome ブラウザーが起動し、ビジュアルが表示されます。
+次のように、Chrome ブラウザーでビジュアルが開きます。
 
 ![Chrome で UT が起動したところ](./media/karmajs-chrome-ut-runned.png)
 
-カバレッジ サマリーが増えていることに注目してください。 現在のコード カバレッジに関する詳細を確認するには、`coverage\index.html` を開きます。
+概要では、カバレッジが増加したことが示されます。 現在のコード カバレッジに関する詳細を確認するには、`coverage\index.html` を開きます。
 
 ![UT のカバレッジ インデックス](./media/code-coverage-index.png)
 
-表示範囲を `src` フォルダーにすると、次のようになります。
+または、`src` フォルダーのスコープを確認します。
 
 ![src フォルダーのカバレッジ](./media/code-coverage-src-folder.png)
 
-表示範囲をファイルにすると、ソース コードを確認できます。 単体テストの最中に実行されなかったコードがあれば、`Coverage` ユーティリティにより、その行が赤でマークされます。
+ファイルのスコープでは、ソース コードを確認できます。 単体テストの間に特定のコードが実行されない場合、`Coverage` ユーティリティではその行が赤で強調表示されます。
 
 ![visual.ts ファイルのコード カバレッジ](./media/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
-> ただし、コード カバレッジはビジュアルの機能のカバレッジが十分であることを意味するものではありません。 `src\visual.ts` では、シンプルな単体テストのカバレッジが 96% を超えていました。
+> コード カバレッジはビジュアルの機能のカバレッジが十分であることを意味するものではありません。 1 つの簡単な単体テストで、`src\visual.ts` の 96% 以上のカバレッジが提供されています。
 
 ## <a name="next-steps"></a>次の手順
 
-ビジュアルの準備ができたら、ビジュアルをパブリケーションに送信できます。
-
-[ビジュアルを AppSource に公開する方法を読む](../office-store.md)
+ビジュアルの準備ができたら、発行用に送信できます。 詳細については、「[カスタム ビジュアルを AppSource に発行する](../office-store.md)」を参照してください。

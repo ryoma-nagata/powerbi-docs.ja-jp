@@ -1,6 +1,6 @@
 ---
-title: オブジェクトとプロパティ
-description: Power BI ビジュアルのカスタマイズ可能なプロパティ
+title: Power BI ビジュアルのオブジェクトとプロパティ
+description: この記事では、Power BI ビジュアルのカスタマイズ可能なプロパティについて説明します。
 author: MrMeison
 ms.author: rasala
 manager: rkarlin
@@ -9,18 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c22a1cfb281c9902d490e2320b85c2f6bbb63468
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: e15d80af35ff7c56879dab4380d4ae0c9fdd0e8a
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424610"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236621"
 ---
-# <a name="object-and-properties"></a>オブジェクトとプロパティ
+# <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI ビジュアルのオブジェクトとプロパティ
 
-オブジェクトは、ビジュアルに関連付けられているカスタマイズ可能なプロパティを記述します。
-各オブジェクトは複数のプロパティを持つことができ、各プロパティには型が関連付けられます。
-型は、プロパティの内容を示します。 型の詳細については、以下を参照してください。
+オブジェクトでは、ビジュアルに関連付けられているカスタマイズ可能なプロパティが記述されています。 オブジェクトは複数のプロパティを持つことができ、各プロパティにはプロパティの内容を示す型が関連付けられています。 この記事では、オブジェクトとプロパティの型について説明します。
 
 `myCustomObject` は、`dataView` および `enumerateObjectInstances` 内のオブジェクトを参照するために使用される内部名です
 
@@ -66,12 +64,13 @@ ms.locfileid: "68424610"
 
 ### <a name="property-types"></a>プロパティの型
 
-プロパティの型には、`ValueTypeDescriptor` と `StructuralTypeDescriptor` の 2 種類があります。
+プロパティには、`ValueTypeDescriptor` と `StructuralTypeDescriptor` の 2 つの型があります。
 
 #### <a name="value-type-descriptor"></a>値型記述子
 
-`ValueTypeDescriptor` は、通常はプリミティブ型で、通常は静的オブジェクトとして使用されます。
-一般的な `ValueTypeDescriptor` をいくつか次に示します。
+`ValueTypeDescriptor` 型は、通常はプリミティブであり、通常は静的オブジェクトとして使用されます。
+
+一般的な `ValueTypeDescriptor` 要素をいくつか次に示します。
 
 ```typescript
 export interface ValueTypeDescriptor {
@@ -84,8 +83,8 @@ export interface ValueTypeDescriptor {
 
 #### <a name="structural-type-descriptor"></a>構造型記述子
 
-`StructuralTypeDescriptor` は、主に、データ バインドされたオブジェクトに使用されます。
-fill は、最も一般的な `StructuralTypeDescriptor` です
+`StructuralTypeDescriptor` 型は、主に、データ バインドされたオブジェクトに使用されます。
+最も一般的な `StructuralTypeDescriptor` 型は *fill* です。
 
 ```typescript
 export interface StructuralTypeDescriptor {
@@ -95,8 +94,9 @@ export interface StructuralTypeDescriptor {
 
 ## <a name="gradient-property"></a>グラデーション プロパティ
 
-グラデーション プロパティは、標準プロパティとして設定できないプロパティです。 代わりに、カラー ピッカー プロパティ (塗りつぶし型) の置換に関する規則を設定する必要があります。
-次の例を参照してください。
+グラデーション プロパティは、標準プロパティとして設定できないプロパティです。 代わりに、カラー ピッカー プロパティ (*fill* 型) の置換に関する規則を設定する必要があります。
+
+次のコードで例を示します。
 
 ```json
 "properties": {
@@ -137,13 +137,13 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-`"fill"` プロパティと `"fillRule"` プロパティに注意してください。 1 つ目は、カラー ピッカーです。2 つ目は、グラデーションの置換規則で、規則条件が満たされるときに "fill" プロパティ `visually` を置き換えます。
+*fill* および *fillRule* プロパティには注意する必要があります。 前者は、カラー ピッカーです。後者は、グラデーションの置換規則であり、規則の条件が満たされると "*fill プロパティ*" `visually` を置き換えます。
 
-fill プロパティと置換規則との間のこのリンクは、`"fillRule"` プロパティの `"rule"`->`"output"` セクションに設定されています。
+*fill* プロパティと置換規則との間のこのリンクは、*fillRule* プロパティの `"rule"`>`"output"` セクションで設定されています。
 
-`"Rule"`->`"InputRole"` は、規則 (条件) をトリガーするデータ ロールを設定します。 この例では、データ ロール `"Gradient"` にデータが含まれている場合、`"fill"` プロパティに規則が適用されます。
+`"Rule"`>`"InputRole"` プロパティでは、規則 (条件) をトリガーするデータ ロールを設定します。 この例では、データ ロール `"Gradient"` にデータが含まれている場合、`"fill"` プロパティに規則が適用されます。
 
-次に示すのは、fill 規則 (`the last item`) をトリガーするデータ ロールの例です。
+次のコードでは、fill 規則 (`the last item`) をトリガーするデータ ロールの例を示します。
 
 ```json
 {
@@ -170,9 +170,9 @@ fill プロパティと置換規則との間のこのリンクは、`"fillRule"`
 }
 ```
 
-## <a name="enumerateobjectinstances-method"></a>`enumerateObjectInstances` メソッド
+## <a name="the-enumerateobjectinstances-method"></a>enumerateObjectInstances メソッド
 
-オブジェクトを効果的に使用するには、カスタム ビジュアルに `enumerateObjectInstances` という関数が必要です。 この関数は、プロパティ ウィンドウにオブジェクトを追加し、dataView 内でのオブジェクトのバインド先を決定します。  
+オブジェクトを効果的に使用するには、カスタム ビジュアルに `enumerateObjectInstances` という関数が必要です。 この関数では、プロパティ ウィンドウにオブジェクトを追加し、dataView 内でのオブジェクトのバインド先を決定します。  
 
 一般的なセットアップは次のようになります。
 
@@ -197,15 +197,15 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 ### <a name="properties"></a>プロパティ
 
-`enumerateObjectInstances` のプロパティは、機能内に定義されたプロパティを反映します。 ページの下部の例を参照してください。
+`enumerateObjectInstances` のプロパティには、機能で定義したプロパティを反映します。 例については、この記事の末尾を参照してください。
 
 ### <a name="objects-selector"></a>オブジェクト セレクター
 
-`enumerateObjectInstances` のセレクターは、dataView 内でのオブジェクトのバインド先を決定します。 4 つの異なるオプションがあります。
+`enumerateObjectInstances` のセレクターでは、dataView 内でのオブジェクトのバインド先を決定します。 4 つの異なるオプションがあります。
 
 #### <a name="static"></a>静的
 
-このオブジェクトは、メタデータ `dataviews[index].metadata.objects` にバインドされます
+このオブジェクトは、ここで示すようにメタデータ `dataviews[index].metadata.objects` にバインドされます。
 
 ```typescript
 selector: null
@@ -223,7 +223,7 @@ selector: {
 
 #### <a name="selector"></a>セレクター
 
-このオブジェクトは、`selectionID` を作成した要素にバインドされます。 この例では、いくつかの dataPoint に対して `selectionID` が作成されていると仮定し、それらに対してループ処理を行います。
+このオブジェクトは、作成した `selectionID` の対象である要素にバインドされます。 この例では、いくつかのデータ ポイントに対して `selectionID` を作成してあり、それらをループ処理するものとします。
 
 ```typescript
 for (let dataPoint in dataPoints) {
@@ -234,7 +234,7 @@ for (let dataPoint in dataPoints) {
 
 #### <a name="scope-identity"></a>スコープ ID
 
-このオブジェクトは、グループの共通部分の特定の値にバインドされます。 たとえば、カテゴリ `["Jan", "Feb", "March", ...]` と系列 `["Small", "Medium", "Large"]` がある場合に、`Feb` と `Large` に一致する値の共通部分にあるオブジェクトを見つけたいとします。 これを実現するには、両方の列の `DataViewScopeIdentity` を取得し、それらを変数 `identities` にプッシュして、セレクターで次の構文を使用することができます。
+このオブジェクトは、グループの共通部分の特定の値にバインドされます。 たとえば、カテゴリ `["Jan", "Feb", "March", ...]` と系列 `["Small", "Medium", "Large"]` がある場合に、`Feb` と `Large` に一致する値の共通部分にあるオブジェクトを取得したいものとします。 これを実現するには、両方の列の `DataViewScopeIdentity` を取得し、それらを変数 `identities` にプッシュして、セレクターで次の構文を使用します。
 
 ```typescript
 selector: {
@@ -244,7 +244,7 @@ selector: {
 
 ##### <a name="example"></a>例
 
-この例では、1 つのプロパティ `fill` を持つ customColor オブジェクトを含む 1 つの objectEnumeration を示します。 ここでは、このオブジェクトを `dataViews[index].metadata.objects` に静的にバインドしています
+次の例では、1 つのプロパティ *fill* を持つ customColor オブジェクトに対する 1 つの objectEnumeration がどのようなものになるかを示します。 次に示すように、このオブジェクトを `dataViews[index].metadata.objects` に静的にバインドします。
 
 ```typescript
 objectEnumeration.push({
