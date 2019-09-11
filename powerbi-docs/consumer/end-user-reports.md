@@ -1,30 +1,29 @@
 ---
-title: Power BI でレポートを表示する
-description: Power BI のレポート
+title: Power BI サービスのレポート
+description: コンシューマー向け Power BI サービスのレポート
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532146"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391340"
 ---
 # <a name="reports-in-power-bi"></a>Power BI のレポート
 
 Power BI レポートはデータセットのマルチパースペクティブ表示です。データセットからのさまざまな結果や分析情報がビジュアルによって表されます。  レポートでは、単一のビジュアルを使用することも、各ページでさまざまなビジュアルを使用することもできます。 職務に応じて、レポートを*デザイン*する人になる場合があります。 また、レポートを*使用*する人になる場合もあります。
 
-![レポート ページのスクリーンショット。](./media/end-user-reports/power-bi-report.png)
+![レポート ページのスクリーンショット。](./media/end-user-reports/power-bi-reports.png)
 
-このレポートには 4 つのページ (またはタブ) があり、現在表示されているのは **[Sentiment]** ページです。 このページには 5 つの異なるビジュアルとページ タイトルがあります。
+このレポートには 6 つのページ (またはタブ) があり、現在表示されているのは **[センチメント]** ページです。 このページには 5 つの異なるビジュアルとページ タイトルがあります。 *フィルター* ウィンドウでは、すべてのレポート ページに 1 つのフィルターが適用されていることが示されます。 フィルター ウィンドウを折りたたむには、矢印 ( **>** ) を選択します。
 
 Power BI を初めて使うときは、「[Power BI サービスのコンシューマーの基本的な概念](end-user-basic-concepts.md)」を読むと基礎がよくわかります。 レポートは、モバイル デバイス上で表示、共有、および注釈を付けることができます。 詳細については、「[Power BI モバイル アプリのレポートを調べる](mobile/mobile-reports-in-the-mobile-apps.md)」を参照してください。
 
@@ -42,6 +41,8 @@ Power BI では、1 つのデータセットに基づいてレポートが作成
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>変更を保存する、または既定の設定に戻す
 
 それは変更を保存できないという意味ではありません。 保存はできます。ただし、それらの変更が反映されるのはコンテンツの自分の表示だけです。 レポートの元の既定の表示に戻すには、 **[既定値にリセット]** を選択します。
+
+![[既定値に戻す] アイコンのスクリーンショット。](./media/end-user-reports/power-bi-reset.png)
 
 ## <a name="dashboards-versus-reports"></a>ダッシュボードとレポート
 
@@ -76,6 +77,5 @@ Power BI では、1 つのデータセットに基づいてレポートが作成
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI とは?](../power-bi-overview.md)
-
-[Power BI サービスのコンシューマーの基本的な概念](end-user-basic-concepts.md)
+[レポートを開いて表示する](end-user-report-open.md)    
+[Power BI サービスのダッシュボード](end-user-dashboards.md)

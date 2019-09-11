@@ -1,6 +1,6 @@
 ---
-title: URL の起動
-description: Power BI ビジュアルでは、新しいタブで URL を開くことができます
+title: 起動 URL を作成する
+description: この記事では、Power BI ビジュアルを使用して、新しいタブで URL を開く方法について説明します。
 author: Guy-Moses
 ms.author: guymos
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1a7002c3b45f341c0cbc0db683bc4f8a113e21f9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 3ef6be9383b606ce865b4bcd3ccda397e471301b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424863"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236662"
 ---
-# <a name="launch-url"></a>URL の起動
+# <a name="create-a-launch-url"></a>起動 URL を作成する
 
-Launch URL では、実際の作業を Power BI に委任することによって、新しいブラウザー タブ (またはウィンドウ) を開くことができます。
+起動 URL を作成することにより、実際の処理を Power BI に任せて、新しいブラウザー タブ (またはウィンドウ) を開くことができます。
 
 ## <a name="sample"></a>サンプル
 
@@ -36,18 +36,21 @@ this.host.launchUrl('http://some.link.net');
 
 ## <a name="restrictions"></a>制限事項
 
-* 絶対パスのみを使用します。相対パスは使用しません。 `http://some.link.net/subfolder/page.html` は問題ありませんが、`/page.html` では開きません。
-* 現在、`http` および `https` のプロトコルのみがサポートされています。 `ftp` や `mailto` などは避けてください。
+* 絶対パスのみを使用し、相対パスは使用しません。 たとえば、`http://some.link.net/subfolder/page.html` のような絶対パスを使用します。 相対パス `/page.html` を開くことはできません。
+
+* 現在は、*HTTP* および *HTTPS* プロトコルのみがサポートされています。 *FTP* や *MAILTO* などは使用しないでください。
 
 ## <a name="best-practices"></a>ベスト プラクティス
 
-1. ほとんどの場合で、ユーザーの明示的なアクションへの応答としてのみリンクを開くことをお勧めします。 リンクまたはボタンをクリックすると新しいタブが開くことを、ユーザーが容易に理解できるようにしてください。ユーザーのアクションがないまま、または別のアクションの副作用として `launchUrl()` 呼び出しをトリガーすると、ユーザーを混乱させたりユーザーに不満を抱かせたりする場合があります。
-2. ビジュアルが正しく機能するためにリンクが重要というわけでない場合、レポートの作成者に、リンクを無効にしたり非表示にしたりする方法を提供することをお勧めします。 これは特に、サードパーティのアプリケーションにレポートを埋め込む場合や、それを Web に公開する場合など、特殊な Power BI ユースケースに関連します。
-3. `launchUrl()` 呼び出しを、ループ内、ビジュアルの `update` 関数、またはその他の頻繁に繰り返されるコードからトリガーしないようにします。
+* 通常は、ユーザーの明示的なアクションへの応答としてのみリンクを開くことをお勧めします。 リンクまたはボタンをクリックすると新しいタブが開くことを、ユーザーが容易に理解できるようにしてください。ユーザーのアクションがないまま、または別のアクションの副作用として `launchUrl()` 呼び出しをトリガーすると、ユーザーを混乱させたりユーザーに不満を抱かせたりする場合があります。
 
-## <a name="step-by-step-example"></a>ステップ バイ ステップの例
+* ビジュアルが正しく機能するためにリンクが必須ではない場合は、レポートの作成者に、リンクを無効にしたり非表示にしたりする方法を提供することをお勧めします。 この推奨は特に、サードパーティのアプリケーションにレポートを埋め込む場合や、それを Web に公開する場合など、特殊な Power BI のユースケースに関連します。
 
-### <a name="adding-a-link-launching-element"></a>リンク起動要素の追加
+* `launchUrl()` の呼び出しを、ループ内、ビジュアルの `update` 関数、またはその他の頻繁に繰り返されるコードから、トリガーしないようにします。
+
+## <a name="a-step-by-step-example"></a>ステップバイステップの例
+
+### <a name="add-a-link-launching-element"></a>リンク起動要素を追加する
 
 次の行がビジュアルの `constructor` 関数に追加されました。
 
@@ -56,7 +59,7 @@ this.host.launchUrl('http://some.link.net');
     options.element.appendChild(this.helpLinkElement);
 ```
 
-また、アンカー要素を作成およびアタッチするプライベート関数が追加されました。
+アンカー要素を作成してアタッチするプライベート関数を追加します。
 
 ```typescript
 private createHelpLinkElement(): Element {
@@ -71,7 +74,7 @@ private createHelpLinkElement(): Element {
 };
 ```
 
-最後に、visual.less ファイル内のエントリによって、リンク要素のスタイルが次のように定義されます。
+最後に、*visual.less* ファイル内のエントリで、リンク要素のスタイルを定義します。
 
 ```less
 .helpLink {
@@ -103,10 +106,11 @@ private createHelpLinkElement(): Element {
 }
 ```
 
-### <a name="adding-a-toggling-mechanism"></a>切り替え機構の追加
+### <a name="add-a-toggling-mechanism"></a>切り替えメカニズムを追加する
 
-これには、レポートの作成者がリンク要素の表示を切り替えることができるように (既定では非表示に設定されます)、静的オブジェクトの追加が必要です ([静的オブジェクトのチュートリアル](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties)に関する記事を参照)。
-`showHelpLink` ブール型静的オブジェクトが `capabilities.json` オブジェクト エントリに追加されました。
+切り替えメカニズムを追加するには、レポートの作成者がリンク要素の表示を切り替えることができるように、静的なオブジェクトを追加する必要があります。 (既定では "*非表示*" に設定されています。)詳細については、[静的オブジェクトのチュートリアル](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties)に関するページを参照してください。
+
+次のコードに示すように、ブール型の静的オブジェクト `showHelpLink` が、*capabilities.json* ファイルの objects エントリに追加されています。
 
 ```typescript
 "objects": {
@@ -136,4 +140,4 @@ if (settings.generalView.showHelpLink) {
 }
 ```
 
-要素の表示を制御するために、`hidden` クラスが visual.less で定義されています。
+要素の表示を制御するために、*hidden* クラスが *visual.less* ファイルで定義されています。

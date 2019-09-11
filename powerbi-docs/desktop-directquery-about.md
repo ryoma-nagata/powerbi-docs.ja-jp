@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590553"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654771"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI で DirectQuery を使用する
 **Power BI Desktop** または **Power BI サービス**を使用すると、あらゆる種類のデータ ソースにさまざまな方法で接続できます。 Power BI にデータを*インポート*したり (最もよく使われるデータ取得方法)、元のソース リポジトリ内のデータに直接接続したり (**DirectQuery** と呼ばれています) できます。 この記事では **DirectQuery** とその機能について説明します。
@@ -140,11 +140,8 @@ Power BI は、次のような多様なデータ ソースに接続します。
 * **計算列での制限事項:** 計算列は集計関数を使用しない行内に制限されます。たとえば、同じテーブルの他の列の値だけを参照できます。 さらに、許可される DAX スカラー関数 (LEFT() など) は基になるソースに単純にプッシュできるものに制限され、したがってソースの正確な機能によって異なります。 計算列の DAX を作成するときはサポートされない関数はオートコンプリートに表示されず、使うとエラーが発生します。
 * **親子 DAX 関数がサポートされない:** DirectQuery モデルでは、一般に親子構造 (アカウントのグラフや従業員の階層など) を処理する DAX PATH() 関数ファミリを使うことはできません。
 * **計算テーブルがサポートされない:** DirectQuery モードでは、DAX 式を使って計算テーブルを定義する機能はサポートされません。
-* **リレーションシップのフィルタリングが一方向に制限される:** DirectQuery を使うと、リレーションシップでのクロス フィルターの方向を "両方" に設定することはできません。 たとえば、次の 3 つのテーブルで、各 Customer[Gender] が購入した Product[Category] の数を表示する視覚エフェクトは作成できません。 このような双方向フィルタリングの使用について詳しくは、[このホワイトペーパー](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)をご覧ください (SQL Server Analysis Services のコンテキストでの例が示されていますが、基本的なポイントは Power BI にも同じように当てはまります)。
-  
-  ![](media/desktop-directquery-about/directquery-about_01.png)
-  
-  やはり、制限の理由はパフォーマンスへの影響です。 これの具体的な応用で重要なアプリケーションの 1 つは、レポートの一部として行レベル セキュリティを定義する場合です。一般的なパターンでは、ユーザーとユーザーがアクセスを許可されるエンティティの間には多対多のリレーションシップがあり、これを適用するには双方向のフィルターが必要です。 ただし、DirectQuery モデルでの双方向フィルタリングは、パフォーマンスへの悪影響を考慮して慎重に使う必要があります。  
+* **リレーションシップのフィルター:** 双方向フィルタリングの使用については、[この詳細なホワイトペーパー](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)で説明しています (SQL Server Analysis Services のコンテキストでの例が示されていますが、基本的なポイントは Power BI にも同じように当てはまります)。
+
 * **クラスタリングがない:** DirectQuery を使うと、クラスタリング機能を使って自動的にグループを検索することはできません。
 
 ### <a name="reporting-limitations"></a>レポート作成の制限事項

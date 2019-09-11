@@ -7,123 +7,177 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2018
+ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61285733"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70303096"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Python を使用して Power BI ビジュアルを作成する
 **Power BI Desktop** では、**Python** を使用してデータを視覚化できます。
 
-## <a name="install-python"></a>Python をインストールする
-**Power BI Desktop** は、**Python** エンジンを含んでいません。また、配置やインストールも行いません。 **Power BI Desktop** で Python スクリプトを実行するには、ローカル コンピューターに **Python** を個別にインストールする必要があります。 **Python** はさまざまな場所から無料でダウンロードし、インストールできます。たとえば、[公式 Python ダウンロード ページ](https://www.python.org/)や [Anaconda](https://anaconda.org/anaconda/python/) があります。 Power BI Desktop での Python スクリプトの現在のリリースでは、インストール パスで Unicode 文字とスペース (空の文字) がサポートされています。
+## <a name="prerequisites"></a>前提条件
 
-## <a name="enable-python-visuals"></a>Python ビジュアルを有効にする
-Python ビジュアルを有効にするには、 **[ファイル]、[オプションと設定]、[オプション]** の順に選択します。次に、表示された **[オプション]** ページで、以下の画像に示すように、 **[オプション]** ウィンドウの **[Python スクリプト]** セクションでローカルの Python インストールが指定されていることを確認します。 以下の画像では、Python のパス ローカル インストールは **C:\Python27** で、そのパスはテキスト ボックスに明示的に指定されています。 正しく表示されたパスが、**Power BI Desktop** が使用するローカル Python インストールであることを確認します。
-   
-   ![](media/desktop-python-visuals/python-visuals-1.png)
+次の Python スクリプトを使用して、「[Power BI Desktop で Python スクリプトを実行する](desktop-python-scripts.md)」チュートリアルを確認します。
 
-ご使用の Python のインストールを指定すると、Python ビジュアルの作成を開始する準備ができます。
+```python
+import pandas as pd 
+df = pd.DataFrame({ 
+    'Fname':['Harry','Sally','Paul','Abe','June','Mike','Tom'], 
+    'Age':[21,34,42,18,24,80,22], 
+    'Weight': [180, 130, 200, 140, 176, 142, 210], 
+    'Gender':['M','F','M','M','F','M','M'], 
+    'State':['Washington','Oregon','California','Washington','Nevada','Texas','Nevada'],
+    'Children':[4,1,2,3,0,2,0],
+    'Pets':[3,2,2,5,0,1,5] 
+}) 
+print (df) 
+```
+「[Power BI Desktop で Python スクリプトを実行する](desktop-python-scripts.md)」の記事では、Python をローカル コンピューターにインストールし、**Power BI Desktop** で Python スクリプトに対してそれを有効にする方法を示します。 このチュートリアルでは、上記のスクリプトのデータを使用して、Python ビジュアルの作成について示します。
 
 ## <a name="create-python-visuals-in-power-bi-desktop"></a>Power BI Desktop で Python ビジュアルを作成する
-1. 次の画像に示すように、 **[視覚化]** ペインの **[Python ビジュアル]** アイコンを選択し、Python ビジュアルを追加します。
+1. **[視覚エフェクト]** ウィンドウで **[Python ビジュアル]** を選択します。
    
    ![](media/desktop-python-visuals/python-visuals-2.png)
 
-   レポートに Python ビジュアルを追加すると、**Power BI Desktop** によって次のことが行われます。
-   
-   - プレース ホルダーの Python ビジュアル イメージが、レポート キャンバスに表示されます。
-   
-   - **[Python スクリプト エディター]** が中央ペインの下部に表示されます。
-   
-   ![](media/desktop-python-visuals/python-visuals-3.png)
+1.  表示される **[スクリプト ビジュアルを有効にする]** ダイアログ ボックスで、 **[有効]** を選択します。 
 
-2. 次に、他の **Power BI Desktop** ビジュアルと同様に、Python スクリプトで使用するフィールドを **[フィールド]** の **[値]** セクションに追加します。 
-    
-    Python スクリプトで使用できるのは、 **[フィールド]** に追加されたフィールドだけです。 **Power BI Desktop の Python スクリプト エディター**で Python スクリプトを処理しているときも、新しいフィールドを追加したり、 **[フィールド]** から不要なフィールドを削除したりすることができます。 **Power BI Desktop** は、追加または削除したフィールドを自動的に検出します。
+    レポートに Python ビジュアルを追加すると、**Power BI Desktop** によって次のアクションが行われます。
+   
+     - プレース ホルダーの Python ビジュアル イメージが、レポート キャンバスに表示されます。
+   
+     - **[Python スクリプト エディター]** が中央ペインの下部に表示されます。
+   
+    ![](media/desktop-python-visuals/python-visuals-3.png)
+
+1. 次に、**年齢**、**子供**、**名**、**性別**、**ペット**、**状態**、**体重**フィールドを、"**ここにデータ フィールドを追加してください**" と示されている **[値]** セクションにドラッグします。 
+
+    ![](media/desktop-python-visuals/python-visuals-15.png)
+
+   Python スクリプトでは、 **[値]** セクションに追加されたフィールドのみを使用できます。 Python スクリプトで作業しているときに、 **[値]** セクションに対してフィールドを追加または削除することができます。 **Power BI Desktop** では、フィールドの変更が自動的に検出されます。
    
    > [!NOTE]
    > Python ビジュアルの既定の集計タイプは、 *[集計しない]* です。
    > 
    > 
    
-3. これで、選択したデータを使用して、プロットを作成できます。 
+1. これで、選択したデータを使用して、プロットを作成できます。 
 
-    フィールドを選択すると、**Python スクリプト エディター**では、エディター ペインの上部にあるグレー表示のセクションの選択内容に基づいてサポートする Python スクリプトのバインド コードが生成されます。 追加のフィールドを選択または削除すると、Python スクリプト エディターのサポート コードが自動的に生成されるか、必要に応じて削除されます。
-   
-   次のイメージに示される例では、3 つのフィールドが選択されました: HP、gear、および drat。 これらの選択の結果として、Python スクリプト エディターでは、次のバインド コードが生成されます。
-   
-   * **データセット** と呼ばれるデータ フレームが作成されます
-     * そのデータ フレームは、ユーザーが選択したさまざまなフィールドで構成されます
-   * 既定の集計は、 *[集計しない]* です
-   * テーブル ビジュアルと同様、フィールドはグループ化され、重複する行は一度だけ表示されます。
-   
-   ![](media/desktop-python-visuals/python-visuals-4.png)
-   
-   > [!TIP]
-   > 自動グループ化を行いたくない場合や、重複を含めたすべての行を表示させたい場合があります。 その場合は、インデックス フィールドを追加し、すべての行が一意と見なされるようにしてグループ化を防止します。
-   > 
-   > 
-   
-   生成されたデータフレームは**データセット**と呼ばれ、選択された列は個々の名前でアクセスすることができます。 たとえば、ご自分の Python スクリプトに「*dataset["gear"]* 」と書き込んで、gear フィールドにアクセスします。
+    フィールドを選択または削除すると、Python スクリプト エディターのサポート コードが自動的に生成されるか、削除されます。 
+    
+    選択の結果として、Python スクリプト エディターでは、次のバインド コードが生成されます。
 
-4. 選択したフィールドによって自動的に生成されたデータフレームを使って、Python の既定デバイスにプロットすることになる Python スクリプトを書き込む準備ができました。 スクリプトが完了したら、 **[Python スクリプト エデイタ]** タイトル バーから **[実行]** を選択します ( **[実行]** はタイトル バーの右側にあります)。
+    * エディターによって、追加したフィールドを含む、**データセット** データフレームが作成されました。 
+    * 既定の集計は、 *[集計しない]* です。
+    * テーブル ビジュアルと同様、フィールドはグループ化され、重複する行は一度だけ表示されます。
+
+        ![](media/desktop-python-visuals/python-visuals-10.png)
    
-    **[実行]** を選択すると、**Power BI Desktop** は、プロットを識別し、キャンバス上にそれを示します。 プロセスはローカルの Python インストールで実行されるため、必要なパッケージがインストールされていることを確認してください。
+     > [!TIP] 
+     > 自動グループ化を行いたくない場合や、重複を含めたすべての行を表示させたい場合があります。 その場合は、インデックス フィールドを追加し、すべての行が一意と見なされるようにし、グループ化されないようにします。
    
-   **Power BI Desktop** は、次のイベントのいずれかが発生したときにビジュアルを再度プロットします:
+   データセット内の列には、それぞれの名前を使用してアクセスできます。 たとえば、Python スクリプトで dataset["Age"] をコード化して、年齢フィールドにアクセスすることができます。
+
+1. 選択したフィールドによって自動的に生成されたデータフレームを使って、Python の既定デバイスにプロットすることになる Python スクリプトを書き込む準備ができました。 スクリプトが完了したら、 **[Python スクリプト エディター]** タイトル バーから **[実行]** を選択します。
+
+   **Power BI Desktop** では、次のイベントのいずれかが発生したときにビジュアルを再度プロットします。
    
    * **[Python スクリプト エディター]** タイトル バーから **[実行]** が選択された
    * データ更新、フィルター処理、または強調表示によってデータの変更が発生した
+   
+   Python スクリプトを実行してエラーが発生した場合、Python ビジュアルはプロットされず、キャンバスのエラー メッセージが表示されます。 エラーの詳細については、メッセージの **[詳細を確認する]** を選択します。
 
-    次のイメージは、相関プロット コードの例を示し、自動車の異なるタイプの属性間の相関関係をプロットします。
+   視覚化されたより大きなビューを取得するには、 **[Python スクリプト エディター]** を最小化することができます。
 
-    ![](media/desktop-python-visuals/python-visuals-5.png)
+では、ビジュアルをいくつか作成してみましょう。
 
-5. 視覚化されたより大きなビューを取得するには、 **[Python スクリプト エディター]** を最小化することができます。 **Power BI Desktop** での他のビジュアルのように、ドーナツ ビジュアル (上記の例のイメージの右側の丸いビジュアル) のスポーツカーのみを選択して相関プロットをクロスフィルター処理できます。
+## <a name="create-a-scatter-plot"></a>散布図を作成する
 
-    ![](media/desktop-python-visuals/python-visuals-6.png)
+散布図を作成して、年齢と体重の間に相関関係があるかどうかを確認してみましょう。 
 
-6. Python スクリプトを変更してビジュアルをカスタマイズしたり、パラメーターをプロット コマンドに追加して Python の機能を活用したりすることもできます。
+1. **[スクリプトのコードをここに貼り付けるか入力します]** の下に、次のコードを入力します。
 
-    元のプロット コマンドは次のとおりです:
+   ```python
+   import matplotlib.pyplot as plt 
+   dataset.plot(kind='scatter', x='Age', y='Weight', color='red')
+   plt.show() 
+   ```  
+   Python スクリプト エディター ウィンドウは、次のようになります。
 
-    plt.matshow(dataset.corr('pearson'))
+   ![](media/desktop-python-visuals/python-visuals-11.png)
 
-    Python スクリプトでいくつかの変更があり、コマンドは次のようになりました。
+   **matplotlib** ライブラリがインポートされ、ビジュアルがプロットおよび作成されます。
 
-    plt.matshow(dataset.corr('kendall'))
+1. **[スクリプトの実行]** ボタンを選択すると、プレースホルダーの Python ビジュアル イメージで次の散布図が生成されます。
 
-    その結果、Python ビジュアルでは、次の画像のように、ケンドールのタウ相関係数を使用してプロットされます。
+   ![](media/desktop-python-visuals/python-visuals-12.png)
 
-    ![](media/desktop-python-visuals/python-visuals-7.png)
+## <a name="create-a-line-plot-with-multiple-columns"></a>複数の列で線プロットを作成する
 
-    Python スクリプトを実行してエラーが発生した場合、Python ビジュアルはプロットされず、キャンバス上にエラー メッセージが表示されます。 エラーの詳細については、キャンバス上の Python ビジュアル エラーから **[詳細の表示]** を選択します。
+ 子供とペットの数を示す線プロットを人ごとに作成してみましょう。 **[スクリプトのコードをここに貼り付けるか入力します]** の下のコードを削除するか、コメントして、次の Python コードを入力します。
 
-    ![](media/desktop-python-visuals/python-visuals-8.png)
+ ```python
+ import matplotlib.pyplot as plt 
+ax = plt.gca() 
+dataset.plot(kind='line',x='Fname',y='Children',ax=ax) 
+dataset.plot(kind='line',x='Fname',y='Pets', color='red', ax=ax) 
+plt.show() 
+```
+**[スクリプトの実行]** ボタンを選択すると、複数の列を使って次の線プロットが生成されます。
 
-    > **Python スクリプトのセキュリティ:** Python ビジュアルは Python スクリプトから作成されますが、Python スクリプトにはセキュリティやプライバシーのリスクがあるコードが含まれる場合があります。 初めて Python ビジュアルを表示または Python ビジュアルと対話しようとすると、ユーザーにセキュリティ警告メッセージが表示されます。 作成者とソースを信頼する場合、または Python スクリプトを確認して理解した場合にのみ、Python ビジュアルを有効にします。
-    > 
-    > 
+![](media/desktop-python-visuals/python-visuals-13.png) 
+
+## <a name="create-a-bar-plot"></a>棒プロットを作成する
+
+人の年齢ごとに棒プロットを作成してみましょう。 **[スクリプトのコードをここに貼り付けるか入力します]** の下のコードを削除するか、コメントして、次の Python コードを入力します。
+
+```python
+import matplotlib.pyplot as plt 
+dataset.plot(kind='bar',x='Fname',y='Age') 
+plt.show() 
+```
+
+**[スクリプトの実行]** ボタンを選択すると、次の棒プロットが生成されます。
+
+![](media/desktop-python-visuals/python-visuals-14.png) 
+
+## <a name="security"></a>セキュリティ
+
+> [!IMPORTANT] 
+  > **Python スクリプトのセキュリティ:** Python ビジュアルは Python スクリプトから作成されますが、Python スクリプトにはセキュリティやプライバシーのリスクがあるコードが含まれる場合があります。 初めて Python ビジュアルを表示または Python ビジュアルと対話しようとすると、ユーザーにセキュリティ警告メッセージが表示されます。 作成者とソースを信頼する場合、または Python スクリプトを確認して理解した場合にのみ、Python ビジュアルを有効にします。 
+  >  
+
+## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Matprolib、Pandas、Python でのプロットに関する詳細情報
+
+このチュートリアルは、**Power BI Desktop** で Python を使用したビジュアルの作成を開始する際に役立つように設計されています。 Python、Pandas、Matprolib ライブラリを使用してビジュアル レポートを作成する多くのオプションと機能に関しては、ごく一部のみを紹介しています。 外部にはもっと多くの情報がありますが、ここでは作業を開始するためのリンクをいくつか示します。
+
+* [Matplotlib](https://matplotlib.org/) Web サイトのドキュメント 
+* [Matplotlib チュートリアル: Python で Matplotlib を使用するための基本ガイド](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
+* [Matplotlib チュートリアル – 例を含む Python Matplotlib ライブラリ](https://www.edureka.co/blog/python-matplotlib-tutorial/) 
+* [Pandas API リファレンス](http://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
+* [Power BI サービスでの Python の視覚化](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/) 
+* [Power BI で Python ビジュアルを使用する](https://www.absentdata.com/how-to-user-python-and-power-bi/)
+
 
 ## <a name="known-limitations"></a>既知の制限事項
+
 **Power BI Desktop** での Python ビジュアルには、いくつかの制限があります。
 
 * データ サイズの制限 – プロット作成で Python ビジュアルが使用するデータは、150,000 行に制限されています。 150,000 を超える行が選択されている場合は、上位の 150,000 の行のみが使用され、メッセージがイメージに表示されます。
 * 計算時間の制限 – Python ビジュアル計算で実行時間が 5 分を超えると、エラーが発生します。
 * リレーションシップ – 他の Power BI Desktop ビジュアルと同様、定義されたリレーションシップを持たない異なるテーブルからデータ フィールドが選択されている場合、エラーが発生します。
-* Python ビジュアルは、データ更新、フィルター処理、および強調表示の際に更新されます。 ただし、イメージ自体は対話型ではなく、クロス フィルター処理のソースになることはできません。
-* Python ビジュアルは他のビジュアルの強調表示に応答しますが、他の要素をクロス フィルター処理するために Python ビジュアルの要素をクリックすることはできません。
+* Python ビジュアルは、データ更新、フィルター処理、および強調表示の際に更新されます。 しかし、イメージ自体は対話型ではなく、クロス フィルター処理のソースにすることはできません。
+* Python ビジュアルは他のビジュアルの強調表示に応答しますが、他の要素をクロス フィルター処理するために、Python ビジュアルの要素をクリックすることはできません。
 * Python の既定のディスプレイ デバイスにプロットされるプロットだけが、キャンバス上に正しく表示されます。 異なる Python ディスプレイ デバイスを明示的に使用することは避けてください。
 
 ## <a name="next-steps"></a>次の手順
+
 Power BI での Python については、次の追加情報を参照してください。
 
-* [Power BI Desktop での Python スクリプトの実行](desktop-python-scripts.md)
+* [Power BI Desktop で Python スクリプトを実行する](desktop-python-scripts.md)
 * [Power BI で外部 Python IDE を使用する](desktop-python-ide.md)
 

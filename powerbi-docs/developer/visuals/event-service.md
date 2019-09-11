@@ -1,6 +1,6 @@
 ---
-title: イベントのレンダリング
-description: Power BI ビジュアルは、Power Point または PDF にエクスポートする準備ができていることを Power BI に通知できます
+title: Power BI ビジュアルでイベントをレンダリングする
+description: Power BI ビジュアルでは、PowerPoint または PDF にエクスポートする準備ができたことを Power BI に通知できます。
 author: Yarovinsky
 ms.author: alexyar
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 46166b3503a770e033b98474fcf9240235296cc2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425093"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237169"
 ---
-# <a name="event-service"></a>イベント サービス
+# <a name="render-events-in-power-bi-visuals"></a>Power BI ビジュアルでイベントをレンダリングする
 
-新しい API は、レンダリング中に呼び出す必要がある 3 つのメソッド (開始、終了、失敗) で構成されます。
+新しい API は、レンダリング中に呼び出す必要がある 3 つのメソッド (`started`、`finished`、`failed`) で構成されます。
 
-レンダリングが開始されると、カスタム ビジュアル コードは、renderingStarted メソッドを呼び出して、レンダリング プロセスが開始されたことを示します。
+レンダリングが開始されたら、Power BI ビジュアルのコードで `renderingStarted` メソッドを呼び出して、レンダリング プロセスが開始されたことを示します。
 
-レンダリングが正常に完了した場合、カスタム ビジュアル コードは、即座に `renderingFinished` メソッドを呼び出して、ビジュアルのイメージの準備ができたことをリスナーに通知します (**主に "PDF へのエクスポート" と "PowerPoint へのエクスポート"** )。
+レンダリングが正常に完了した場合は、Power BI ビジュアルのコードで即座に `renderingFinished` メソッドを呼び出して、ビジュアルのイメージをエクスポートする準備ができたことを、リスナーに通知します (主に "*PDF へのエクスポート*" と "*PowerPoint へのエクスポート*")。
 
-レンダリング処理中に問題が発生してカスタム ビジュアルが正常に完了しなかった場合、 カスタム ビジュアル コードは、`renderingFailed` メソッドを呼び出して、レンダリング プロセスが完了していないことをリスナーに通知する必要があります。 また、このメソッドは、エラーの原因に関するオプションの文字列も提供します。
+プロセスの間に問題が発生した場合、Power BI ビジュアルは正常にレンダリングされません。 レンダリング プロセスが完了していないことをリスナーに通知するには、Power BI ビジュアルのコードで `renderingFailed` メソッドを呼び出す必要があります。 また、このメソッドでは、障害の理由を示すオプションの文字列も提供します。
 
 ## <a name="usage"></a>Usage
 
@@ -38,31 +38,31 @@ export interface IVisualHost extends extensibility.IVisualHost {
  */
 export interface IVisualEventService {
     /**
-     * Should be called just before the actual rendering was started. 
-     * Usually at the very start of the update method.
+     * Should be called just before the actual rendering starts, 
+     * usually at the start of the update method
      *
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingStarted(options: VisualUpdateOptions): void;
 
     /**
-     * Shoudl be called immediately after finishing successfull rendering.
+     * Should be called immediately after rendering finishes successfully
      * 
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingFinished(options: VisualUpdateOptions): void;
 
     /**
-     * Called when rendering failed with optional reason string
+     * Called when rendering fails, with an optional reason string
      * 
-     * @param options - the visual update options received as update parameter
-     * @param reason - the option failure reason string
+     * @param options - the visual update options received as an update parameter
+     * @param reason - the optional failure reason string
      */
     renderingFailed(options: VisualUpdateOptions, reason?: string): void;
 }
 ```
 
-### <a name="simple-sample-the-visual-hasnt-any-animations-on-rendering"></a>簡易サンプル。 レンダリング時にビジュアルにアニメーションが表示されない
+### <a name="sample-the-visual-displays-no-animations"></a>サンプル: ビジュアルにアニメーションが表示されない
 
 ```typescript
     export class Visual implements IVisual {
@@ -83,9 +83,9 @@ export interface IVisualEventService {
         }
 ```
 
-### <a name="sample-the-visual-with-animation"></a>サンプル。 アニメーションを使用したビジュアル
+### <a name="sample-the-visual-displays-animations"></a>サンプル: ビジュアルにアニメーションが表示される
 
-ビジュアルにレンダリングするアニメーションまたは非同期関数がある場合は、アニメーションの後または非同期関数の内部で `renderingFinished` メソッドを呼び出す必要があります。
+ビジュアルにレンダリングするアニメーションまたは非同期関数がある場合は、アニメーションの後または非同期関数の内部で、`renderingFinished` メソッドを呼び出す必要があります。
 
 ```typescript
     export class Visual implements IVisual {
@@ -104,7 +104,7 @@ export interface IVisualEventService {
         public update(options: VisualUpdateOptions) {
             this.events.renderingStarted(options);
             ...
-            // read more https://github.com/d3/d3-transition/blob/master/README.md#transition_end
+            // Learn more at https://github.com/d3/d3-transition/blob/master/README.md#transition_end
             d3.select(this.element).transition().duration(100).style("opacity","0").end().then(() => {
                 // renderingFinished called after transition end
                 this.events.renderingFinished(options);
@@ -114,4 +114,4 @@ export interface IVisualEventService {
 
 ## <a name="rendering-events-for-visual-certification"></a>ビジュアル認定のためのレンダリング イベント
 
-ビジュアルによるレンダリング イベントのサポートは、ビジュアル認定の要件の 1 つです。 [認定要件](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)に関する詳細を確認してください
+ビジュアル認定の要件の 1 つは、ビジュアルによるレンダリング イベントのサポートです。 詳細については、「[認定要件](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)」をご覧ください。

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665430"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030155"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,12 @@ ms.locfileid: "68665430"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="august-2019"></a>2019 年 8 月
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Azure Active Directory (AD) アプリケーション プロキシを使用したセキュリティで保護されたアクセス
+
+Azure Active Directory チームと手を組み、Azure Active Directory (AAD) アプリケーション プロキシに Power BI モバイル アプリケーションを統合しました。 この構成を使用すると、複雑なオンプレミス構成を設定することなく、エンタープライズ境界内でホストされているレポート サーバーに Power BI モバイル アプリから接続できます。 [Power BI モバイルと Azure AD アプリケーション プロキシの統合](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)の詳細を参照してください。 [Azure AD アプリケーション プロキシと Power BI の構成方法](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)を参照してください。
 
 ## <a name="july-2019"></a>2019 年 7 月
 

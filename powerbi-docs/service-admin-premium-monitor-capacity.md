@@ -10,25 +10,25 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: 9f5e2715af5b3fd898d3c7f0486c8b75463a1c42
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68362726"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030193"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>アプリで Premium 容量を監視する
 
 Premium 容量リソースを最適に利用するにはどうすればよいかを十分な情報に基づいて判断するには、ご利用の容量を監視することが不可欠です。 管理ポータルまたは **Power BI Premium 容量メトリック** アプリで容量を監視できます。 この記事では、Premium 容量メトリック アプリの使い方について説明します。 このアプリを使用すると、自分の容量がどのように活用されているかについて非常に詳細な情報を得ることができます。 過去 7 日間の平均使用量のメトリックに関する大まかな概要は、管理ポータルを使用して確認できます。 このポータルでの監視の詳細については、[管理ポータルでの Premium 容量の管理](service-admin-premium-monitor-portal.md)に関するページを参照してください。
 
-アプリは定期的に新しい機能によって更新されます。 最新のバージョンが実行されていることを確認してください。 アプリの以前のバージョンが既にインストールされている場合は、それをご利用のアプリの中から削除し、Ctrl + F5 キーを押して更新することをお勧めします。 
+アプリは定期的に新しい機能によって更新されます。 最新のバージョンが実行されていることを確認してください。 アプリの以前のバージョンが既にインストールされている場合は、それをご利用のアプリの中から削除し、Ctrl + F5 キーを押して更新することをお勧めします。
 
 ## <a name="install-the-app"></a>アプリをインストールする
 
 [Premium 容量メトリック アプリ](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)に直接移動するか、Power BI の他のアプリと同じようにインストールします。
 
+1. Power BI で **[アプリ]** をクリックします。
 
-1. Power BI で **[アプリ]** をクリックします。   
     ![アプリに移動する](media/service-admin-premium-monitor-capacity/apps.png)
 
 2. 右側にある **[アプリの取得]** をクリックします。
@@ -244,8 +244,8 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 | **レポート セクション** | **メトリック** |
 | --- | --- |
-| CPU 消費量 |  ワークロードによる消費量 (CPU の合計容量に対する割合)。 過去 7 日間の値が時間単位で表示されます。 |
-| メモリ消費量 |  ワークロードによるメモリ消費量 (GB) (実線) にワークロードの上限 (点線) が重ねて表示されます。 過去 7 日間の値が時間単位で表示されます。 |
+| CPU 消費量 |  時間内の最大 CPU 消費量 (CPU の合計容量に対するワークロードの割合)。 過去 7 日間の値が時間単位で表示されます。 |
+| メモリ消費量 |  時間内の最大メモリ使用量 (ワークロードあたりの GB 単位) (実線) にワークロードの上限 (点線) が重ねて表示されます。 過去 7 日間の値が時間単位で表示されます。 |
 |  |  |
 
 ### <a name="ids-and-info"></a>ID と情報

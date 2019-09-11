@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b4e134ef6f8da43a1856c8a5458c8c09b2c42b5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 7917edc17bd93d96c22641b14c4c70bfe3222e10
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522176"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621268"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Power BI Desktop の式に基づくタイトル
 
@@ -57,7 +57,7 @@ SWITCH (
 
 フィールドを選択して適用するには、 **[視覚化]** ウィンドウに移動します。 **[書式]** 領域で、 **[タイトル]** を選択してビジュアルのタイトル オプションを表示します。 
 
-**[タイトルのテキスト]** を右クリックすると、コンテキスト メニューが表示され、***fx* 条件付き書式設定**を選択できます。 そのメニュー項目を選択すると、 **[タイトル テキスト]** ダイアログボックスが表示されます。 
+**[タイトルのテキスト]** を右クリックすると、コンテキスト メニューが表示され、 **[<em>fx</em>Conditional formatting]\(fx 条件付き書式\)** を選択できます。 そのメニュー項目を選択すると、 **[タイトル テキスト]** ダイアログボックスが表示されます。 
 
 ![[タイトル テキスト] ダイアログ ボックスのスクリーンショット](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

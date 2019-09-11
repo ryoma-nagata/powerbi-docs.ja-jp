@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530487"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750903"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI の新しいワークスペースで作業を整理する
 
@@ -61,7 +61,7 @@ Power BI 管理ポータルで[ワークスペース リストを使用できま
 
 ユーザー グループにロールを割り当てると、グループ内の個人がコンテンツにアクセスできるようになります。 ユーザー グループを入れ子にすると、含まれているすべてのユーザーにアクセス許可が付与されます。
 
-管理者、メンバー、共同作成者、ビューアーの 4 つのロールの機能を以下に示します。
+管理者、メンバー、共同作成者、ビューアーの 4 つのロールの機能を以下に示します。 これらの機能では、最後を除き、すべて Power BI Pro ライセンスが必要です。
 
 |機能   | 管理者  | メンバー  | 共同作成者  | ビューアー |
 |---|---|---|---|---|
@@ -73,9 +73,9 @@ Power BI 管理ポータルで[ワークスペース リストを使用できま
 | 他のユーザーに対するアイテムの再共有の許可。 |  X | X  |   |   |
 | ワークスペースでのコンテンツの作成、編集、削除。  |  X | X  | X  |   |
 | ワークスペースへのレポートの公開と、コンテンツの削除。  |  X | X  | X  |   |
-| 項目の表示。 |  X | X  | X  | X  |
 | このワークスペース内のデータセットに基づいた、別のワークスペースでのレポートの作成。 |  X | X  | X  | X <sup>1</sup>  |
 | レポートのコピー。 | X | X | X | X <sup>1</sup> |
+| 項目を表示して操作する。 |  X | X  | X  | X  |
 
 **1** については、Power BI Pro ライセンスおよび[データセットのビルド アクセス許可](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)が必要です。 
  

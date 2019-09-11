@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスの "新しい外観" の紹介
+title: Power BI サービスの "新しい外観"
 description: Power BI サービス (app.powerbi.com) の外観が新しくなりました。 この記事では、新しい外観を使用してレポートを操作する方法について説明します。
 author: maggiesMSFT
 manager: kfile
@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: aa7de324e77b8f2b1c58e558c0814df97d997631
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471309"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654951"
 ---
-# <a name="navigate-the-new-look-of-the-power-bi-service"></a>Power BI サービスの "新しい外観" の紹介
+# <a name="the-new-look-of-the-power-bi-service"></a>Power BI サービスの "新しい外観"
 
-Power BI サービスの外観が新しくなりました。 レポートをより簡単に表示できるようになりました。 新しい外観は、よりシンプルで現代的なエクスペリエンスで、他の Microsoft 製品との親しみやすさに基づいて構築されています。 Power BI サービス全体で、明るい色のテーマに切り替え、アイコンを更新して、レポート コンテンツが焦点の中心になるようにしました。 新しい外観の変更点の概要を次に示します。 詳細については、番号付きのセクションを参照してください。
+Power BI サービス (app.powerbi.com) には、レポートの表示と操作を容易にする新しい外観が備わっています。 新しい外観は、よりシンプルで現代的なエクスペリエンスで、他の Microsoft 製品との親しみやすさに基づいて構築されています。 Power BI サービス全体で、明るい色のテーマに切り替え、アイコンを更新して、レポート コンテンツが焦点の中心になるようにしました。 新しい外観の変更点の概要を次に示します。 詳細については、番号付きのセクションを参照してください。
 
 ![新しい外観の変更点の概要](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -31,11 +31,11 @@ Power BI サービスの外観が新しくなりました。 レポートをよ�
 
 ## <a name="1-opt-in-to-the-new-look"></a>1.新しい外観を選択する
 
-Power BI サービスのすべてのユーザーは、新しい外観を選択できます。 **[新しい外観をオフにする]** を **[新しい外観をオフにする]** にスライドさせるだけです。
+Power BI サービスのすべてのユーザーは、新しい外観を選択できます。 **[新しい外観をオフにする]** を **[新しい外観をオンにする]** にスライドさせるだけです。
 
 ![新しい外観を選択する](media/service-new-look/power-bi-new-look-off.png)
 
-従来の外観に戻す必要がある場合は、右上隅にある省略記号メニューを選択します。
+以前の外観に戻す必要がある場合は、![[新しい外観をオンにする]](media/service-new-look/power-bi-new-look-toggle-on.png) をスライドして**オフ**に戻すだけです。 表示されない場合は、右上隅にある省略記号メニューを選択します。
 
 ![新しい外観を選択解除する](media/service-new-look/power-bi-new-look-on.png)
 
@@ -82,7 +82,7 @@ Power BI サービスのすべてのユーザーは、新しい外観を選択�
 
 ## <a name="no-changes-to-edit-mode"></a>編集モードへの変更なし 
 
-作成エクスペリエンスは、デスクトップでの作成エクスペリエンスと同様に保たれています。 新しい外観の変更は、読み取りビューにのみ適用されます。
+作成エクスペリエンスは、デスクトップでのエクスペリエンスと同様に保たれています。 新しい外観の変更は、読み取りビューにのみ適用されます。
 
 ## <a name="next-steps"></a>次の手順
 

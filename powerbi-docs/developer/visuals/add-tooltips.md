@@ -1,6 +1,6 @@
 ---
-title: ビジュアルのヒント
-description: Power BI ビジュアルではヒントを表示できます
+title: Power BI ビジュアルのヒント
+description: この記事では、Power BI ビジュアルにヒントを表示する方法について説明します。
 author: AviSander
 ms.author: asander
 manager: rkarlin
@@ -9,32 +9,32 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 286c5eef2c341ad77c351008b321992597bef292
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5ad14c632955c42607206dd09a16a8fdb3670e92
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425645"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237373"
 ---
-# <a name="power-bi-visuals-tooltips"></a>Power BI ビジュアルのヒント
+# <a name="tooltips-in-power-bi-visuals"></a>Power BI ビジュアルのヒント
 
 ビジュアルで Power BI のヒントのサポートを利用できるようになりました。 Power BI のヒントでは、次の操作が処理されます。
 
-ヒントを表示する。
-ヒントを非表示にする。
-ヒントを移動する。
+* ヒントを表示する。
+* ヒントを非表示にする。
+* ヒントを移動する。
 
-ヒントには、タイトル、特定の色の値、および指定された座標セットの不透明度を含むテキスト要素を表示できます。 このデータは API に提供されます。 また、Power BI ホストでは、ネイティブ ビジュアルのヒントをレンダリングするのと同じ方法でそれをレンダリングします。
+ヒントには、タイトル、特定の色の値、指定された座標セットの不透明度を含むテキスト要素を表示できます。 このデータは API に提供され、Power BI ホストでは、ネイティブ ビジュアルのヒントがレンダリングされるのと同じ方法でそれがレンダリングされます。
 
-たとえば、サンプル BarChart のヒントです。
+次の画像は、サンプルの棒グラフのヒントを示しています。
 
-![サンプル BarChart のヒント](./media/tooltips-in-samplebarchart.png)
+![サンプルの棒グラフのヒント](./media/tooltips-in-samplebarchart.png)
 
-上記のヒントは、1 つの棒のカテゴリと値を示しています。 1 つのヒント内で複数の値を表示するように拡張できます。
+前のヒントの画像は、1 つのバー カテゴリと値を示しています。 1 つのヒントを拡張して、複数の値を表示できます。
 
-## <a name="handling-tooltips"></a>ヒントの処理
+## <a name="manage-tooltips"></a>ヒントの管理
 
-ヒントの管理に使用するインターフェイスは、'ITooltipService' です。 このインターフェイスは、ヒントを表示、削除、または移動する必要があることをホストに通知するために使用されます。
+ヒントの管理に使用するインターフェイスは、"ITooltipService" です。 これは、ヒントを表示、削除、または移動する必要があることをホストに通知するために使用されます。
 
 ```typescript
     interface ITooltipService {
@@ -45,21 +45,23 @@ ms.locfileid: "68425645"
     }
 ```
 
-ビジュアルでは、ビジュアル内のマウス イベントをリッスンし、`Tooltip****Options` オブジェクトに設定されている適切なコンテンツで必要に応じて、`show()`、`move()` および `hide()` デリゲートを呼び出す必要があります。
-その後、`TooltipShowOptions` と `TooltipHideOptions` で、表示内容とこれらのイベントでの動作が定義されます。
+ご利用のビジュアルでは、ビジュアル内のマウス イベントをリッスンし、`Tooltip****Options` オブジェクトに設定されている適切なコンテンツで必要に応じて、`show()`、`move()`、`hide()` の委任を呼び出す必要があります。
+その後、`TooltipShowOptions` と `TooltipHideOptions` で、表示内容とこれらのイベントでの動作方法が定義されます。
+
 これらのメソッドを呼び出すと、マウスの移動やタッチ イベントなどのユーザー イベントが発生するため、これらのイベントのリスナーを作成することをお勧めします。これにより、`TooltipService` メンバーが呼び出されます。
 このサンプルでは、`TooltipServiceWrapper` というクラスで集計を行います。
 
-### <a name="tooltipservicewrapper-class"></a>TooltipServiceWrapper クラス
+### <a name="the-tooltipservicewrapper-class"></a>TooltipServiceWrapper クラス
 
-このクラスの背後にある基本的な考え方は、`TooltipService` のインスタンスを保持し、関連する要素に対する D3 マウス イベントをリッスンしてから、`show()` を呼び出し、必要に応じて `hide()` を呼び出すことです。
-クラスでは、これらのイベントに関連するすべての状態とロジックが保持および管理されます。ほとんどの場合、基になる D3 コードとのインターフェイスが対象となります。 D3 インターフェイスと変換は、このドキュメントの範囲外です。
+このクラスの背後にある基本的な考え方は、`TooltipService` のインスタンスを保持し、関連する要素に対する D3 マウス イベントをリッスンしてから、`show()` と `hide()` を呼び出し、必要に応じて要素を呼び出すことです。
 
-完全なサンプル コードについては、[SampleBarChart ビジュアル リポジトリ](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/981b021612d7b333adffe9f723ab27783c76fb14)に関するページを参照してください
+クラスでは、これらのイベントに関連するすべての状態とロジックが保持および管理されます。ほとんどの場合、これは基になる D3 コードとのインターフェイスが対象となります。 D3 インターフェイスと変換は、この記事の範囲外です。
 
-### <a name="creating-tooltipservicewrapper"></a>TooltipServiceWrapper の作成
+完全なサンプル コードについては、[SampleBarChart ビジュアル リポジトリ](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/981b021612d7b333adffe9f723ab27783c76fb14)で見つけることができます。
 
-BarChart コンストラクターに `tooltipServiceWrapper` メンバーが含まれるようになりました。これは、ホスト `tooltipService` インスタンスと共にコンストラクターでインスタンス化されます。
+### <a name="create-tooltipservicewrapper"></a>TooltipServiceWrapper の作成
+
+横棒グラフのコンストラクターに `TooltipServiceWrapper` メンバーが含まれるようになりました。これは、ホスト `tooltipService` インスタンスと共にコンストラクターでインスタンス化されます。
 
 ```typescript
         private tooltipServiceWrapper: ITooltipServiceWrapper;
@@ -89,7 +91,7 @@ BarChart コンストラクターに `tooltipServiceWrapper` メンバーが含�
 
 このクラスでイベント リスナーを登録するための単一のエントリ ポイントは、`addTooltip` メソッドです。
 
-### <a name="addtooltip-method"></a>addTooltip メソッド
+### <a name="the-addtooltip-method"></a>addTooltip メソッド
 
 ```typescript
         public addTooltip<T>(
@@ -106,20 +108,19 @@ BarChart コンストラクターに `tooltipServiceWrapper` メンバーが含�
         }
 ```
 
-* **selection: d3.Selection<Element>**
-* ヒントが処理される d3 要素
-* **getTooltipInfoDelegate: (args:TooltipEventArgs<T>) => VisualTooltipDataItem[]**
-* コンテキストごとにヒント コンテンツ (表示内容) を設定するためのデリゲート
-* **getDataPointIdentity: (args:TooltipEventArgs<T>) => ISelectionId**
-* datapoint ID を取得するためのデリゲート - このサンプルでは使用されません 
-* **reloadTooltipDataOnMouseMove?: boolean**
-* mouseMove イベント中にヒント データを更新するかどうかを示すブール値 - このサンプルでは使用されません
+* **selection: d3.Selection<Element>** : ヒントが処理される d3 要素。
+
+* **getTooltipInfoDelegate: (args:TooltipEventArgs<T>) => VisualTooltipDataItem[]** : コンテキストごとにヒント コンテンツ (表示内容) を作成するための委任。
+
+* **getDataPointIdentity: (args:TooltipEventArgs<T>) => ISelectionId**: データ ポイント ID を取得するための委任 (このサンプルでは使用されません)。 
+
+* **reloadTooltipDataOnMouseMove? boolean**: MouseMove イベント中にヒント データを更新するかどうかを示すブール値 (このサンプルでは使用されません)。
 
 ご覧のとおり、`tooltipService` が無効になっている場合や、実際の選択がない場合は、アクションなしで `addTooltip` が終了します。
 
-### <a name="call-of-show-method-to-display-a-tooltip"></a>ヒントを表示するための show メソッドの呼び出し
+### <a name="call-the-show-method-to-display-a-tooltip"></a>ヒントを表示するための show メソッドを呼び出す
 
-`addTooltip` では次に、D3 `mouseover` イベントをリッスンします。
+次のコードに示すように、`addTooltip` メソッドでは次に D3 の `mouseover` イベントをリッスンします。
 
 ```typescript
         ...
@@ -148,22 +149,21 @@ BarChart コンストラクターに `tooltipServiceWrapper` メンバーが含�
         });
 ```
 
-* **makeTooltipEventArgs**
-* D3 で選択された要素から tooltipEventArgs にコンテキストが抽出されます。 座標も計算されます。
-* **getTooltipInfoDelegate**
-* その後、tooltipEventArgs からヒント コンテンツが構築されます。 これは、ビジュアルのロジックであるため、BarChart クラスへのコールバックです。 これは、ヒントに表示される実際のテキスト コンテンツです。
-* **getDataPointIdentity**
-* このサンプルでは使用されません
-* **this.visualHostTooltipService.show**
-* ヒントを表示するための呼び出し  
+* **makeTooltipEventArgs**: D3 で選択された要素から tooltipEventArgs にコンテキストが抽出されます。 これにより、座標も計算されます。
+
+* **getTooltipInfoDelegate**: その後、tooltipEventArgs からヒント コンテンツが構築されます。 これはビジュアルのロジックであるため、BarChart クラスへのコールバックです。 これは、ヒントに表示される実際のテキスト コンテンツです。
+
+* **getDataPointIdentity**: このサンプルでは使用されません。
+
+* **this.visualHostTooltipService.show**: ヒントを表示するための呼び出し。  
 
 追加の処理については、`mouseout` および `mousemove` イベントのサンプルを参照してください。
 
 詳細については、[SampleBarChart ビジュアル リポジトリ](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/981b021612d7b333adffe9f723ab27783c76fb14)に関するページを参照してください。
 
-### <a name="populating-the-tooltip-content-by-gettooltipdata-method"></a>getTooltipData メソッドによるヒント コンテンツの設定
+### <a name="populate-the-tooltip-content-by-the-gettooltipdata-method"></a>getTooltipData メソッドによるヒント コンテンツの設定
 
-`BarChart` は、データポイントのカテゴリ、値、および色を VisualTooltipDataItem [] 要素に抽出するだけのメンバー `getTooltipData` と共に追加されました。
+BarChart クラスは、データ ポイントの `category`、`value`、`color` を VisualTooltipDataItem[] 要素に抽出するだけの `getTooltipData` メンバーと共に追加されました。
 
 ```typescript
         private static getTooltipData(value: any): VisualTooltipDataItem[] {
@@ -176,11 +176,11 @@ BarChart コンストラクターに `tooltipServiceWrapper` メンバーが含�
         }
 ```
 
-上記の実装では、`header` メンバーは定数ですが、動的な値を必要とする、より複雑な実装に使用できます。 `VisualTooltipDataItem[]` には複数の要素を設定できます。これにより、複数の行がヒントに追加されます。 これは、ヒントに複数のデータポイントのデータが表示される可能性のある積み上げ横棒グラフなどのビジュアルで役に立つ場合があります。
+前の実装では、`header` メンバーは定数ですが、動的な値を必要とする、より複雑な実装にこれを使用できます。 `VisualTooltipDataItem[]` には複数の要素を設定できます。これにより、複数の行がヒントに追加されます。 これは、ヒントに複数のデータ ポイントのデータが表示される可能性のある積み上げ横棒グラフなどのビジュアルで役に立つ場合があります。
 
-### <a name="calling-addtooltip-method"></a>addTooltip メソッドの呼び出し
+### <a name="call-the-addtooltip-method"></a>addTooltip メソッドを呼び出す
 
-最後の手順では、実際のデータが変更される可能性がある場合に `addTooltip` を呼び出します。 この呼び出しは `BarChart.update()` メソッドで行われます。 したがって、上記のとおり、`BarChart.getTooltipData()` のみを渡すことで、すべての 'bar' 要素の選択を監視するために呼び出しが行われます。
+最後の手順では、実際のデータが変更される可能性がある場合に `addTooltip` メソッドを呼び出します。 この呼び出しは `BarChart.update()` メソッドで行われます。 前述のとおり、`BarChart.getTooltipData()` のみを渡すことで、すべての 'bar' 要素の選択を監視するために呼び出しが行われます。
 
 ```typescript
         this.tooltipServiceWrapper.addTooltip(this.barContainer.selectAll('.bar'),
@@ -188,9 +188,9 @@ BarChart コンストラクターに `tooltipServiceWrapper` メンバーが含�
             (tooltipEvent: TooltipEventArgs<number>) => null);
 ```
 
-## <a name="adding-report-page-tooltips"></a>レポート ページのヒントの追加
+## <a name="add-report-page-tooltips"></a>レポート ページのヒントを追加する
 
-レポート ページ ヒントのサポートを追加するために、ほとんどの変更は capabilities.json に配置されます。
+レポート ページのヒントのサポートを追加するために、ほとんどの変更を *capabilities.json* ファイルで見つけることができます。
 
 サンプル スキーマは次のとおりです。
 
@@ -208,19 +208,21 @@ BarChart コンストラクターに `tooltipServiceWrapper` メンバーが含�
 }
 ```
 
-レポート ページ ヒントの定義は、書式ウィンドウで行うことができます。
+**書式**ウィンドウでは、レポート ページのヒントを定義できます。
 
 ![レポート ページのヒント](media/report-page-tooltip.png)
 
-`supportedTypes` は、ビジュアルでサポートされるヒントの構成であり、フィールドでも反映されます。 `default` は、データ フィールドを介した "自動" ヒント バインドがサポートされるかどうかを示します。 canvas は、レポート ページのヒントがサポートされるかどうかを示します。
+* `supportedTypes`:ビジュアルでサポートされるヒントの構成であり、フィールドでも反映されます。 
+   * `default`:データ フィールドを介した "自動" ヒント バインドがサポートされるかどうかを示します。 
+   * `canvas`:レポート ページのヒントがサポートされるかどうかを示します。
 
-`roles` は省略可能です。 定義されると、フィールドでも選択されたヒント オプションにバインドされるデータ ロールが指示されます。
+* `roles`:(省略可能) 定義された後、フィールドでも選択されたヒント オプションにバインドされるデータ ロールが指示されます。
 
-詳細については、レポート ページ ヒントの使用に関するガイドラインである[レポート ページのヒント](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips)についての記述を参照してください
+詳細については、[レポート ページのヒントの使用に関するガイドライン](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips)を参照してください。
 
-レポート ページのヒントを表示する場合、`ITooltipService.Show(options: TooltipShowOptions)` または `ITooltipService.Move(options: TooltipMoveOptions)` の呼び出し時に、Power BI ホストでは selectionId (上記の `options` 引数の `identities` プロパティ) を使用します。 SelectionId では、ヒントによって取得される、マウスでポイントした項目の選択されたデータ (カテゴリや系列など) を表す必要があります。
+レポート ページのヒントを表示するには、Power BI ホストで `ITooltipService.Show(options: TooltipShowOptions)` または `ITooltipService.Move(options: TooltipMoveOptions)` を呼び出した後、selectionId (前の `options` 引数の `identities` プロパティ) が使用されます。 ヒントによって取得されるように、SelectionId では、マウスでポイントした項目の選択されたデータ (カテゴリや系列など) を表す必要があります。
 
-selectionId を送信してヒントを表示するための呼び出し例は以下のとおりです。
+次のコードでは、selectionId を送信してヒントを表示するための呼び出し例を示しています。
 
 ```typescript
     this.tooltipServiceWrapper.addTooltip(this.barContainer.selectAll('.bar'),

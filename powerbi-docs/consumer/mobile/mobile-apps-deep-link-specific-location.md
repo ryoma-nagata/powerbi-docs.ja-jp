@@ -11,7 +11,7 @@ ms.date: 04/24/2019
 ms.author: mshenhav
 ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64906526"
@@ -39,12 +39,12 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 
 **クエリ PARAMS**は。
-* **アクション**(必須) = OpenApp/OpenDashboard/OpenTile/OpenReport
+* **action**(必須) = OpenApp/OpenDashboard/OpenTile/OpenReport
 * **appId** = レポートまたはアプリの一部であるダッシュ ボードを開きたい場合 
 * **groupObjectId** = レポートまたはワークスペース (ただし、マイ ワークスペースではなく) の一部であるダッシュ ボードを開きたい場合
-* **dashboardObjectId** (操作が OpenDashboard または OpenTile) 場合は、ダッシュ ボード オブジェクトの ID を =
-* **reportObjectId** (action は、OpenReport) 場合は、レポート オブジェクトの ID を =
-* **tileObjectId** (アクションが OpenTile の場合) は、タイルのオブジェクト ID を =
+* **dashboardObjectId** = ダッシュ ボード オブジェクト ID (アクションが OpenDashboard または OpenTile 場合)
+* **reportObjectId** = レポート オブジェクト ID (アクションが OpenReport の場合)
+* **tileObjectId** = タイル オブジェクト ID(アクションが OpenTile の場合)
 * **reportPage** = (action は、OpenReport) 場合は、特定のレポート セクションを開きたい場合
 * **ctid** = 項目の組織 ID (B2B のシナリオに関連します。 これを省略できます、項目がユーザーの組織に属している場合)。
 

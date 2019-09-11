@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9f5357056c27d6461ad7f7d7fba1daa27a508868
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391153"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750912"
 ---
 # <a name="optimizing-premium-capacities"></a>Premium 容量を最適化する
 
@@ -257,7 +257,7 @@ Premium 容量のサイズと数を決定するのは難しい場合がありま
 
 ロード テストを行いたい容量とレポートが既にある場合は、[PowerShell ロード生成ツール](https://aka.ms/PowerBILoadTestingTool)を使用して、ロード テストをすばやく生成します。 このツールでは、ご自分の容量で 1 時間に実行できる各レポートのインスタンス数を予測できます。 ツールを使用して、個別のレポートの表示またはいくつかの異なるレポートの並列表示に関する、自分の容量の能力を評価できます。 詳細については、次のビデオを参照してください: [Microsoft Power BI: Premium 容量](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw)。
 
-より複雑なテストを生成するには、現実的なワークロードをシミュレートするロード テスト アプリケーションの開発を検討してください。 詳細については、ウェビナー「[Power BI のロード テスト アプリケーションと Visual Studio ロード テスト](https://blogs.msdn.microsoft.com/charles_sterling/2018/04/04/webinar-load-testing-power-bi-applications-with-visual-studio-load-test/)」を参照してください。
+より複雑なテストを生成するには、現実的なワークロードをシミュレートするロード テスト アプリケーションの開発を検討してください。 詳細については、ウェビナー「[Power BI のロード テスト アプリケーションと Visual Studio ロード テスト](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)」を参照してください。
 
 ## <a name="acknowledgements"></a>謝辞
 

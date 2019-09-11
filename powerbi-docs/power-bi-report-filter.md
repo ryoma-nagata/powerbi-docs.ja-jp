@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 148f4881f78b5bba9b6936f5688ba6aaea3a0145
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68346363"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654424"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI レポートの新しいフィルター エクスペリエンス
 
@@ -48,6 +48,10 @@ Power BI のフィルターに、新しい機能と新しいデザインが追�
 3. **[エクスペリエンスのフィルター処理]** の下で、 **[このレポートに関して、更新されたフィルター ウィンドウを有効にし、ビジュアル ヘッダーにフィルターを表示する]** を選択します。
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>サービスで既存のレポートに対して新しいフィルターを有効にする
+
+Power BI サービスで **[新しい外観]** がオンになっている場合は ![[新しい外観] がオン](media/power-bi-report-filter/power-bi-new-look-on.png)、新しいフィルター エクスペリエンスが自動的にオンになります。 Power BI サービスの新しい外観の詳細については、[こちら](service-new-look.md)を参照してください。
+
+新しい外観をオンにしていない場合でも、次の手順に従って新しいフィルター エクスペリエンスを確認できます。
 
 1. Power BI サービスで、ワークスペースのコンテンツ リストで **[レポート]** タブを選択します。
 2. 有効にするレポートを見つけて、そのレポートの **[設定]** アイコン ![レポートの設定アイコン](media/power-bi-report-filter/power-bi-settings-icon.png) を選択します。
@@ -104,7 +108,7 @@ Power BI のフィルターに、新しい機能と新しいデザインが追�
 - 背景色
 - 背景の透明度
 - 境界線のオンまたはオフ
-- 境界線の色
+- 罫線の色
 - タイトルとヘッダーのフォント、色、テキスト サイズ
 
 また、フィルター カードに対しても、それが適用されている (何かに設定されている) か、または使用可能 (オフ) かに応じて、これらの要素を書式設定することができます。 
@@ -112,7 +116,7 @@ Power BI のフィルターに、新しい機能と新しいデザインが追�
 - 背景色
 - 背景の透明度
 - 境界線: オンまたはオフ
-- 境界線の色
+- 罫線の色
 - フォント、色、テキスト サイズ
 - 入力ボックスの色
 
@@ -121,15 +125,13 @@ Power BI のフィルターに、新しい機能と新しいデザインが追�
 1. レポート内で、レポート自体か背景 ("*壁紙*") をクリックしてから、 **[視覚化]** ウィンドウ内で **[書式]** を選択します。 
     レポート ページや壁紙、また [フィルター] ウィンドウやフィルター カードを書式設定するためのオプションが表示されます。
 
-    ![書式設定アイコンを選択する](media/power-bi-report-filter/power-bi-filter-format.png)    
-
 1. **[フィルター ウィンドウ]** を展開して背景、アイコン、左の境界線の色を設定し、レポート ページを補完します。
 
-    ![フィルター ウィンドウを展開する](media/power-bi-report-filter/power-bi-filter-format-pane-font.png)
+    ![フィルター ウィンドウを展開する](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. **[フィルター カード]** を展開して、色と境界線の **[使用可能]** と **[適用済み]** を設定します。 カードのさまざまな色を使用可能にして適用すれば、どのフィルターが適用されているか明確になります。 
   
-    ![フィルター カードを展開する](media/power-bi-report-filter/power-bi-filter-format-card-font.png)
+    ![フィルター カードを展開する](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>[フィルター] ウィンドウのテーマ
 テーマ ファイルを使用して、[フィルター] ウィンドウの既定の設定を変更できるようになりました。 作業を開始するためのサンプル テーマのスニペットを次に示します。
@@ -224,7 +226,7 @@ Power BI のフィルターに、新しい機能と新しいデザインが追�
 
 ## <a name="restrict-changes-to-filter-type"></a>フィルターの種類への変更を制限する
 
-レポート設定のフィルター処理エクスペリエンスのセクションには、ユーザーがフィルタ―の種類を変更できるようにするかどうかを制御するオプションがあります。
+レポート設定の [エクスペリエンスのフィルター処理] セクションには、ユーザーがフィルターの種類を変更できるかどうかを制御するオプションがあります。
 
 ![フィルターの種類の変更を制限する](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
 

@@ -7,25 +7,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/21/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: c743f56de101cb63db2357acf869aba80162c181
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 4f3c709c0ea699c0c9ad7ebee61889e6c7bceef8
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559038"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985773"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium での増分更新
 
 増分更新により Power BI Premium サービスで非常に大きいデータセットを有効にすると次の利点があります。
 
-- **更新が高速化される** - 更新する必要があるのは変更されたデータのみです。 たとえば、10 年間のデータセットのうち過去 5 日間だけを更新します。
-
-- **更新の信頼性が高くなる** - 揮発性のソース システムに対して長時間の接続を維持する必要がなくなります。
-
-- **リソースの消費量が減る** - 更新するデータが少ないと、メモリや他のリソースの全体的な消費量が減少します。
+> [!div class="checklist"]
+> * **更新が高速化される** - 更新する必要があるのは変更されたデータのみです。 たとえば、10 年間のデータセットのうち過去 5 日間だけを更新します。
+> * **更新の信頼性が高くなる** - 揮発性のソース システムに対して長時間の接続を維持する必要がなくなります。
+> * **リソースの消費量が減る** - 更新するデータが少ないと、メモリや他のリソースの全体的な消費量が減少します。
 
 ## <a name="configure-incremental-refresh"></a>増分更新を構成する
 
@@ -51,9 +50,13 @@ PBIX ファイルはデスクトップ コンピューターで利用可能な�
 
 ![カスタム フィルター](media/service-premium-incremental-refresh/custom-filter.png)
 
-列の値が "**RangeStart***以降で***RangeEnd** *より前*" になるように、行がフィルター処理されることを確認します。
+列の値が "**RangeStart***以降で***RangeEnd** *より前*" になるように、行がフィルター処理されることを確認します。 他のフィルターの組み合わせによっては、行が二重にカウントされる場合があります。
 
 ![行のフィルター](media/service-premium-incremental-refresh/filter-rows.png)
+
+> [!IMPORTANT]
+> **RangeStart** または **RangeEnd** のいずれか (両方ではなく) で、クエリに等しい (=) があることを確認します。 等しい (=) が両方のパラメーターに存在する場合、行が 2 つのパーティションの条件を満たし、その結果、モデル内にデータが重複する可能性があります。 次はその例です。  
+> \#"Filtered Rows" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** and [OrderDate] **<= RangeEnd**) は、データが重複する結果になる可能性があります。
 
 > [!TIP]
 > パラメーターのデータ型は日付/時刻でなければなりませんが、データ ソースの要件に合うように変換できます。 たとえば、次の Power Query 関数は、*yyyymmdd* という形式の整数代理キーと同じように日付/時刻値を変換します。これは、データ ウェアハウスの一般的な形式です。 この関数は、フィルター手順から呼び出すことができます。
@@ -152,7 +155,7 @@ Power BI サービスの最初の更新では、丸 5 年間のすべてをイ�
 
 [更新のトラブルシューティング](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios)に関する記事では、Power BI サービスでの更新操作がタイムアウトの対象になることが説明されています。 クエリは、データ ソースの既定のタイムアウトによっても制限できます。 ほとんどのリレーショナル ソースでは、M 式でタイムアウトをオーバーライドできます。 たとえば、次の例では、[SQL Server のデータ アクセス関数](https://msdn.microsoft.com/query-bi/m/sql-database)を使って 2 時間に設定しています。 ポリシーの範囲によって定義されている各期間が、コマンド タイムアウトの設定に従ってクエリを送信します。
 
-```
+```powerquery-m
 let
     Source = Sql.Database("myserver.database.windows.net", "AdventureWorks", [CommandTimeout=#duration(0, 2, 0, 0)]),
     dbo_Fact = Source{[Schema="dbo",Item="FactInternetSales"]}[Data],
@@ -164,3 +167,4 @@ in
 ## <a name="limitations"></a>制限事項
 
 現在のところ、[複合モデル](desktop-composite-models.md)の場合、増分更新は SQL Server、Azure SQL Database、SQL Data Warehouse、Oracle、Teradata データ ソースでのみサポートされています。
+

@@ -7,18 +7,21 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 66dcbd76d76de04675204674626c2942aef515fa
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172811"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201008"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Power BI で Marketo に接続する
 Power BI 用 Marketo コンテンツ パックを使用すると、Marketo アカウントに関する情報 (潜在顧客とそのアクティビティに関するデータを含む) を入手できます。この接続を作成すると、データが取得され、そのデータに基づいて自動的にダッシュボードおよび関連するレポートが提供されます。
+
+>[!IMPORTANT]
+>2019 年 9 月 4 日には、このコンテンツ パックを廃止します。 それより前にこのコンテンツ パックをインストールした場合、引き続き動作しますが、その後、新しいものをインストールすることはできません。 テンプレート アプリは、サービス コンテンツ パックに代わるものです。
 
 Power BI 用の [Marketo コンテンツ パック](https://app.powerbi.com/getdata/services/marketo)に接続します。
 

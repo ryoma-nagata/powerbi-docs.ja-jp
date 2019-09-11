@@ -7,14 +7,14 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: overview
-ms.date: 07/15/2019
-ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.topic: conceptual
+ms.date: 09/04/2019
+ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665370"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751530"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI のページ分割されたレポート:よく寄せられる質問 
 
@@ -26,11 +26,11 @@ ms.locfileid: "68665370"
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>ページ分割されたレポートに必要な Premium 容量のサイズはどれくらいですか。
 
-ページ分割されたレポート ワークロードは P1 ～ P3 SKU で利用できます。  A4 ～ A6 SKU では、SaaS 埋め込みシナリオに使用することもできます。
+ページ分割されたレポート ワークロードは P1 ～ P3 SKU で利用できます。  A4 から A6 SKU では、埋め込みまたはテスト/開発シナリオに使用することもできます。
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>容量でページ分割されたレポートに対して設定できる最大メモリしきい値はどれくらいですか。
 
-2019 年 6 月末時点で、このワークロードに対して最大でメモリの 100% を使用できます。 
+このワークロードに対して最大でメモリの 100% を使用することができます。
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>ユーザー アクセスはページ分割されたレポートに対してどのように動作しますか。
 
@@ -152,7 +152,7 @@ Microsoft Excel、Microsoft Word、Microsoft PowerPoint、PDF、.CSV、XML、MHT
 
 はい。ページ分割されたレポートは印刷できます。印刷プレビュー機能が新しくなり、改善されています。 
 
-### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>メール サブスクリプションはページ分割されたレポートに対して使用できますか。
+### <a name="are-e-mail-subscriptions-available-for-paginated-reports"></a>ページ分割されたレポートでメール サブスクリプションを使用できますか。
 
 はい。メール サブスクリプションは、ページ分割されたレポートに対して完全にサポートされ、これには 6 つ異なるファイル形式とパラメーター値のサポートが含まれます。
 
@@ -166,7 +166,7 @@ SaaS 埋め込みは既にサポートされています。 PaaS 埋め込みは
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Power BI レポートからページ分割されたレポートにドリルスルーできますか。
 
-いいえ、まだできませんが、このシナリオのサポートは予定されています。
+はい。ページ分割されたレポートで URL パラメーターを使用して、これを実現することができます。
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Power BI アプリを使って、ページ分割されたレポートの内容を共有できますか。
 

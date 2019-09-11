@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7965751740384c5a5f1cc663389a559e0c1bd1c0
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e28306532714369830df46304aa4a1ebff67bd8f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69563668"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985649"
 ---
 # <a name="using-templates-in-power-bi-desktop"></a>Power BI Desktop でのテンプレートの使用
 
@@ -70,7 +70,10 @@ Power BI レポート テンプレートを使用するには、Power BI Desktop
 これで完了です。 Power BI Desktop でレポート テンプレートの作成および使用が簡単にできるため、説得力のあるレイアウトやその他のレポートの要素を簡単に再現し、他のユーザーと共有することができます。
 
 ## <a name="next-steps"></a>次の手順
-Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。
+**クエリ パラメーター**の学習についても関心がありますか。
+* [Power BI Desktop でクエリ パラメーターを使用する](https://docs.microsoft.com/power-query/power-query-query-parameters)
+
+さらに、Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)

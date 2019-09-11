@@ -1,6 +1,6 @@
 ---
-title: ビジュアル フィルター API
-description: Power BI ビジュアルで他のビジュアルをフィルター処理する方法
+title: Power BI ビジュアルでの Visual Filters API
+description: この記事では、Power BI ビジュアルで他のビジュアルをフィルター処理する方法を説明します。
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 50e9601faf497675ebc3f24609a856a600e3bcb1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: fc0b21116888c8455d4d7b8efc5c476bfc592483
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425047"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237112"
 ---
-# <a name="power-bi-visual-filters-api"></a>Power BI ビジュアル フィルター API
+# <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI ビジュアルでの Visual Filters API
 
-ビジュアルのフィルター処理で、データをフィルター処理できます。 選択との主な違いは、別のビジュアルで強調表示がサポートされていても、他のビジュアルが任意の方法でフィルター処理されることです。
+Visual Filters API を使用すると、Power BI ビジュアルでデータをフィルター処理できます。 他の選択肢との主な違いは、他のビジュアルでの強調表示のサポートに関係なく、他のビジュアルが任意の方法でフィルター処理されることです。
 
-ビジュアルのフィルター処理を有効にするには、capabilities.json コンテンツの `general` セクションに `filter` オブジェクトが含まれている必要があります。
+ビジュアルのフィルター処理を有効にするには、*capabilities.json* のコードの `general` セクションに `filter` オブジェクトが含まれている必要があります。
 
 ```json
 "objects": {
@@ -38,15 +38,15 @@ ms.locfileid: "68425047"
     }
 ```
 
-フィルター API インターフェイスは [`powerbi-models`](https://www.npmjs.com/package/powerbi-models) パッケージで使用できます。 このパッケージには、フィルター インスタンスを作成するためのクラスも含まれています。
+Visual Filters API のインターフェイスは、[powerbi-models](https://www.npmjs.com/package/powerbi-models) パッケージで使用できます。 このパッケージには、フィルター インスタンスを作成するためのクラスも含まれています。
 
 ```cmd
 npm install powerbi-models --save
 ```
 
-古いバージョンのツール (バージョン 3.x.x より前のバージョン) を使用する場合、`powerbi-models` をビジュアル パッケージに含める必要があります。 [パッケージを含める方法の簡単なガイド](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md)
+ツールの古いバージョン (3.x.x より前) を使用する場合は、ビジュアル パッケージに `powerbi-models` を含める必要があります。 詳細については、簡単なガイド「[Advanced Filter API をカスタム ビジュアルに追加する](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md)」を参照してください。
 
-すべてのフィルターは `IFilter` インターフェイスを拡張します。
+次のコードで示すように、すべてのフィルターでは `IFilter` インターフェイスが拡張されています。
 
 ```typescript
 export interface IFilter {
@@ -54,12 +54,12 @@ export interface IFilter {
     target: IFilterTarget;
 }
 ```
+ここで:
+* `target` は、データ ソースのテーブル列です。
 
-`target` - データソースのテーブル列です。
+## <a name="the-basic-filter-api"></a>Basic Filter API
 
-## <a name="basic-filter-api"></a>基本フィルター API
-
-基本フィルター インターフェイスは次のようになります。
+基本的なフィルターのインターフェイスは次のコードで示すとおりです。
 
 ```typescript
 export interface IBasicFilter extends IFilter {
@@ -68,9 +68,9 @@ export interface IBasicFilter extends IFilter {
 }
 ```
 
-`operator` - 値が "In"、"NotIn"、"All" の列挙型
-
-`values` - 条件の値
+ここで:
+* `operator` は列挙型であり、値は *In*、*NotIn*、*All* です。
+* `values` は、条件の値です。
 
 基本フィルターの例:
 
@@ -84,7 +84,7 @@ let basicFilter = {
 }
 ```
 
-このフィルターは、"`col1` が値 1、2、3 のいずれかに等しいすべての行を表示する" という意味です。
+このフィルターは、"`col1` が値 1、2、または 3 に等しいすべての行を表示する" という意味です。
 
 対応する SQL は次のとおりです。
 
@@ -94,7 +94,7 @@ SELECT * FROM table WHERE col1 IN ( 1 , 2 , 3 )
 
 フィルターを作成するには、`powerbi-models` の BasicFilter クラスを使用します。
 
-以前のバージョンのツールを使用する場合は、`window['powerbi-models']` によって window オブジェクト内のモデルのインスタンスを取得する必要があります。
+古いバージョンのツールを使用している場合は、次のコードで示すように、`window['powerbi-models']` を使用してウィンドウ オブジェクト内のモデルのインスタンスを取得する必要があります。
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -109,21 +109,21 @@ let values = [ 1, 2, 3 ];
 let filter: IBasicFilter = new window['powerbi-models'].BasicFilter(target, "In", values);
 ```
 
-ビジュアルは、コンストラクター内のビジュアルに提供されたホスト インターフェイス IVisualHost の applyJsonFilter() メソッドを使用してフィルターを呼び出します。
+ビジュアルでフィルターを呼び出すには、コンストラクターでビジュアルに対して提供されるホスト インターフェイス IVisualHost の applyJsonFilter() メソッドを使用します。
 
 ```typescript
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-## <a name="advanced-filter-api"></a>高度なフィルター API
+## <a name="the-advanced-filter-api"></a>Advanced Filter API
 
-[高度なフィルター API](https://github.com/Microsoft/powerbi-models) を使用すると、複数の条件 ("LessThan"、"Contains"、"Is"、"IsBlank" など) に基づく複雑なクロスビジュアルのデータ ポイント選択/フィルター処理クエリが可能になります。
+[Advanced Filter API](https://github.com/Microsoft/powerbi-models) を使用すると、複数の条件 (*LessThan*、*Contains*、*Is*、*IsBlank* など) に基づく複雑なクロスビジュアルのデータポイント選択およびフィルター処理のクエリが可能になります。
 
 このフィルターは、ビジュアル API 1.7.0 で導入されました。
 
-高度なフィルター API には、`table` および `column` の名前を指定した `target` も必要です。 ただし、高度なフィルター API の演算子は `"And" | "Or"` です。 
+Advanced Filter API には、`table` および `column` の名前を指定した `target` も必要です。 ただし、Advanced Filter API の演算子は *And* と *Or* です。 
 
-さらに、フィルターでは、interface で値の代わりに条件を使用します。
+さらに、フィルターでは、インターフェイスでの値ではなく条件が使用されます。
 
 ```typescript
 interface IAdvancedFilterCondition {
@@ -132,7 +132,7 @@ interface IAdvancedFilterCondition {
 }
 ```
 
-`operator` パラメーターの条件演算子は、`"None" | "LessThan" | "LessThanOrEqual" | "GreaterThan" | "GreaterThanOrEqual" | "Contains" | "DoesNotContain" | "StartsWith" | "DoesNotStartWith" | "Is" | "IsNot" | "IsBlank" | "IsNotBlank"` です
+`operator` パラメーターの条件演算子は、*None*、*LessThan*、*LessThanOrEqual*、*GreaterThan*、*GreaterThanOrEqual*、*Contains*、*DoesNotContain*、*StartsWith*、*DoesNotStartWith*、*Is*、*IsNot*、*IsBlank*、"IsNotBlank" です。
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -161,15 +161,13 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 SELECT * FROM table WHERE col1 < 0;
 ```
 
-高度なフィルター API を使用した完全なサンプルコードは、[`Sampleslicer visual` リポジトリ](https://github.com/Microsoft/powerbi-visuals-sampleslicer)にあります。
+Advanced Filter API の使用に関する完全なサンプル コードについては、[Sampleslicer ビジュアル リポジトリ](https://github.com/Microsoft/powerbi-visuals-sampleslicer)を参照してください。
 
-## <a name="tuple-filter-api-multi-column-filter"></a>タプル フィルター API (複数列フィルター)
+## <a name="the-tuple-filter-api-multi-column-filter"></a>Tuple Filter API (複数列フィルター)
 
-タプル フィルター API は、ビジュアル API 2.3.0 で導入されました。
+Tuple Filter API は、Visuals API 2.3.0 で導入されました。 Basic Filter API に似ていますが、複数の列とテーブルに対して条件を定義することができます。
 
-タプル フィルター API は基本フィルターに似ていますが、複数の列およびテーブルに対して条件を定義することができます。
-
-また、フィルターにはインターフェイスがあります。 
+そのフィルター インターフェイスは次のコードで示すとおりです。 
 
 ```typescript
 interface ITupleFilter extends IFilter {
@@ -181,21 +179,22 @@ interface ITupleFilter extends IFilter {
 }
 ```
 
-`target` は、テーブル名を持つ列の配列です。
+ここで:
+* `target` は、テーブル名を持つ列の配列です。
 
-```typescript
-declare type ITupleFilterTarget = IFilterTarget[];
-```
+    ```typescript
+    declare type ITupleFilterTarget = IFilterTarget[];
+    ```
 
-  フィルターは、さまざまなテーブルの列に対応できます。
+  そのフィルターは、さまざまなテーブルの列に対応できます。
 
-`$schema` は "http://powerbi.com/product/schema#tuple" です
+* `$schema` は http://powerbi.com/product/schema#tuple です。
 
-`filterType` は `FilterType.Tuple` です
+* `filterType` は *FilterType.Tuple* です。
 
-`operator` では `"In"` 演算子の使用のみが許可されます
+* `operator` は *In* 演算子でのみ使用できます。
 
-`values` はタプル値の配列です。各タプルは、ターゲット列の値の許可された 1 つの組み合わせを表します。 
+* `values` は値のタプルの配列であり、各タプルはターゲット列の値の許可された 1 つの組み合わせを表します。 
 
 ```typescript
 declare type TupleValueType = ITupleElementValue[];
@@ -221,16 +220,16 @@ let target: ITupleFilterTarget = [
 
 let values = [
     [
-        // the 1st column combination value (aka column tuple/vector value) that the filter will pass through
+        // the first column combination value (or the column tuple/vector value) that the filter will pass through
         {
-            value: "Team1" // the value for `Team` column of `DataTable` table
+            value: "Team1" // the value for the `Team` column of the `DataTable` table
         },
         {
-            value: 5 // the value for `Value` column of `DataTable` table
+            value: 5 // the value for the `Value` column of the `DataTable` table
         }
     ],
     [
-        // the 2nd column combination value (aka column tuple/vector value) that the filter will pass through
+        // the second column combination value (or the column tuple/vector value) that the filter will pass through
         {
             value: "Team2" // the value for `Team` column of `DataTable` table
         },
@@ -252,7 +251,8 @@ let filter: ITupleFilter = {
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-**条件の列名と値の順序は区別されます。**
+> [!IMPORTANT]
+> 列名と条件値の順序が重要です。
 
 対応する SQL は次のとおりです。
 
@@ -260,9 +260,9 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 SELECT * FROM DataTable WHERE ( Team = "Team1" AND Value = 5 ) OR ( Team = "Team2" AND Value = 6 );
 ```  
 
-## <a name="restoring-json-filter-from-dataview"></a>DataView からの JSON フィルターの復元
+## <a name="restore-the-json-filter-from-the-data-view"></a>データ ビューから JSON フィルターを復元する
 
-API 2.2 以降では、**JSON フィルター**は **VisualUpdateOptions** から復元できます。
+API バージョン 2.2 以降では、次のコードで示すように、*VisualUpdateOptions* から JSON フィルターを復元できます。
 
 ```typescript
 export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
@@ -276,16 +276,17 @@ export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
 }
 ```
 
-ユーザーがブックマークを切り替え、ビジュアルが対応する `filter` オブジェクトを取得するとき、Power BI はビジュアルの `update` メソッドを呼び出します。
-[ブックマーク サポートの詳細についてはこちらをご覧ください](bookmarks-support.md)
+ブックマークを切り替えると、Power BI によってビジュアルの `update` メソッドが呼び出されて、ビジュアルは対応する `filter` オブジェクトを取得します。 詳細については、「[Power BI ビジュアルのブックマーク サポートを追加する](bookmarks-support.md)」を参照してください。
 
 ### <a name="sample-json-filter"></a>JSON フィルターのサンプル
 
-![JSON フィルターのスクリーンショット](./media/json-filter.png)
+次の図では、JSON フィルターのコードのサンプルをいくつか示します。
 
-### <a name="clear-json-filter"></a>JSON フィルターのクリア
+![JSON フィルターのコード](./media/json-filter.png)
 
-フィルター API は、リセットまたはクリアとしてフィルターの `null` 値を受け入れます。
+### <a name="clear-the-json-filter"></a>JSON フィルターをクリアする
+
+Filter API では、フィルターの `null` 値を *reset* または *clear* として受け入れます。
 
 ```typescript
 // invoke the filter

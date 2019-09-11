@@ -7,57 +7,98 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 08/29/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: a0cf919d184946b23cb9ebc4ddfc24e0652c64d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fde61f2411fb04897cc23f24639dc373a98e6edd
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61064119"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185059"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 これで[アプリの基礎を理解](end-user-apps.md)できたので、次はアプリを開いて操作する方法を学習しましょう。 
 
 ## <a name="ways-to-get-a-new-app"></a>新しいアプリの入手方法
-新しいアプリの入手には、いくつか方法があることを既に説明しました。 レポートのデザイナーである同僚は、あなたの Power BI アカウントにアプリを自動的にインストールするか、アプリの直接リンクを送信することができます。 それからご自分で AppSource に進み、社内と社外の両方から提供されているアプリを検索することができます。 
+新しいアプリの入手には、いくつかの方法があります。 レポートのデザイナーである同僚は、あなたの Power BI アカウントにアプリを自動的にインストールするか、アプリの直接リンクを送信することができます。 それから自分で AppSource に進み、社内外両方のアプリ デザイナーから提供されているアプリを検索することができます。 
 
-モバイル デバイスの Power BI では、直接リンクからのみアプリをインストールできます。AppSource からはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。
+モバイル デバイスの Power BI では、直接リンクからのみアプリをインストールできます。AppSource からはインストールできません。 アプリのデザイナーが自動的にアプリをインストールした場合は、アプリの一覧に表示されます。
 
 ## <a name="install-an-app-from-a-direct-link"></a>直接リンクからのアプリをインストールする
-新しいアプリをご自分でインストールする最も簡単な方法は、アプリの作成者からメールでの直接リンクを得ることです。  
+新しいアプリを自分でインストールする最も簡単な方法は、アプリ デザイナーからのメールで直接リンクを入手することです。  
 
 **コンピューターで** 
 
-電子メールのこのリンクを選択すると、ブラウザーで Power BI サービス ([https://powerbi.com](https://powerbi.com)) が開きます。 アプリのインストールを確認すると、Power BI によってアプリのランディング ページが開かれます。
+電子メールでこのリンクを選択すると、Power BI サービス ([https://powerbi.com](https://powerbi.com)) によってブラウザーでアプリが開かれます。 
 
-![Power BI サービスのアプリ ランディング ページ](./media/end-user-app-view/power-bi-app-landing-page-opportunity-480.png)
+![Power BI サービスのアプリ ランディング ページ](./media/end-user-app-view/power-bi-app-from-link.png)
 
 **iOS または Android モバイル デバイスで** 
 
-モバイル デバイスで電子メールにあるリンクを選択すると、アプリが自動的にインストールされ、モバイル アプリでアプリのコンテンツ リストが開きます。 
+モバイル デバイスで電子メールにあるリンクを選択すると、アプリが自動的にインストールされ、モバイル アプリで開きます。 最初にサインインする必要がある場合があります。 
 
-![モバイル デバイスのアプリ コンテンツ リスト](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
+![モバイル デバイスのアプリ コンテンツ リスト](./media/end-user-app-view/power-bi-ios.png)
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource からアプリを取得する
 アプリを Microsoft AppSource から検索してインストールすることもできます。 アクセスできる (つまり、アプリの作成者があなたまたはすべてのユーザーにアクセス許可を与えた) アプリのみが表示されます。
 
-1. **[アプリ]** ![左側のナビゲーション ウィンドウの [アプリ]](./media/end-user-apps/power-bi-apps-bar.png) >  **[アプリの取得]** の順に選択します。 
+1. **[アプリ]**   >  **[アプリの取得]** を選択します。 
    
-     ![[アプリの取得] アイコン](./media/end-user-app-view/power-bi-get-apps.png)
+    ![[アプリの取得] アイコン](./media/end-user-app-view/power-bi-get-app2.png)    
 2. [AppSource] の **[My organization (自分の組織)]** で、結果を絞り込むための検索を行って、探しているアプリを見つけることができます。
    
-     ![AppSource の [自分の所属組織]](./media/end-user-app-view/power-bi-appsource-my-org.png)
+    ![AppSource の [自分の所属組織]](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. **[今すぐ入手する]** を選択して、これをアプリのコンテンツ リストに追加します。 
 
-## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>アプリのダッシュボードとレポートを操作する
-これで、アプリのダッシュボードおよびレポートのデータを探索できます。 フィルター処理、強調表示、並べ替え、ドリル ダウンなど、Power BI の標準機能にすべてアクセスできます。 レポート内のテーブルや他のビジュアルから [Excel にデータをエクスポートする](end-user-export-data.md)こともできます。 [Power BI でレポートを使用する方法](end-user-reading-view.md)に関するページをご覧ください。 
+## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Microsoft AppSource Web サイトからアプリを取得する (https://appsource.microsoft.com)
+この例では、Microsoft のサンプル アプリの 1 つを開きます。 AppSource では、ビジネスに使用する多くのサービス向けアプリが見つかります。  Salesforce、Microsoft Dynamics、Google Analytics、GitHub、Zendesk、Marketo などのサービスです。 詳細については、[Power BI で使用するサービス向けアプリ](../service-connect-to-services.md)に関するページを参照してください。 
 
-![Power BI ビジュアルからデータをエクスポートする](./media/end-user-app-view/power-bi-service-export-data-visual.png)
+1. ブラウザーで https://appsource.microsoft.com を開き、 **[Power BI アプリ]** を選択します。
+
+    ![Power BI アプリが選択されている AppSource Web サイト  ](./media/end-user-apps/power-bi-appsource.png)
+
+
+2. 現在、AppSource で利用可能なすべての Power BI アプリの一覧を表示するには、 **[すべて表示]** を選択します。 **Microsoft サンプル - 営業とマーケティング**という名前のアプリまでスクロールするか、検索します。
+
+    ![Power BI 営業とマーケティング アプリが強調表示されている AppSource Web サイト  ](./media/end-user-apps/power-bi-appsource-samples.png)
+
+3. **[今すぐ入手]** を選択して、使用条件に同意します。
+
+    ![AppSource Web サイトの使用条件 ](./media/end-user-apps/power-bi-permission.png)
+
+
+4. このアプリをインストールすることを確認します。
+
+    ![このアプリをインストールしますか?  ](./media/end-user-apps/power-bi-app-install.png)
+
+5. アプリがインストールされると、Power BI サービスに成功のメッセージが表示されます。 **[アプリへ移動]** を選択して、アプリを開きます。 デザイナーでアプリを作成した方法に応じて、アプリのダッシュボードまたはアプリのレポートのいずれかが表示されます。
+
+    ![アプリが正常にインストールされました ](./media/end-user-apps/power-bi-app-ready.png)
+
+    **[アプリ]** を選択し、 **[営業とマーケティング]** を選択することで、アプリのコンテンツ リストからアプリを直接開くこともできます。
+
+    ![Power BI のアプリ](./media/end-user-apps/power-bi-apps.png)
+
+
+6. 新しいアプリを探索するか、カスタマイズして共有するかを選択します。 Microsoft のサンプル アプリを選択したので、探索を開始しましょう。 
+
+    ![サンプル データで探索する](./media/end-user-apps/power-bi-explore.png)
+
+7.  新しいアプリがダッシュボードで開かれます。 アプリ "*デザイナー*" によって、代わりにレポートを開くように、アプリが設定されている可能性があります。  
+
+    ![サンプル データで探索する](./media/end-user-apps/power-bi-new-app.png)
+
+
+
+
+## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>アプリのダッシュボードとレポートを操作する
+時間をかけてアプリを構成するダッシュボードとレポートのデータを調べます。 フィルター処理、強調表示、並べ替え、ドリルダウンなど、標準の Power BI の相互作用のすべてにアクセスできます。  ダッシュボードとレポートの違いでまだ少し混乱していますか?  [ダッシュボードに関する記事](end-user-dashboards.md)と[レポートに関する記事](end-user-reports.md)を参照してください。  
+
+
 
 
 ## <a name="next-steps"></a>次の手順
-* [外部サービス用の Power BI アプリ](end-user-connect-to-services.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-
+* [アプリの概要に戻る](end-user-apps.md)
+* [Power BI レポートを表示する](end-user-report-open.md)
+* [コンテンツを自分と共有するその他の方法](end-user-shared-with-me.md)

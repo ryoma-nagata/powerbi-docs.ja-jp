@@ -403,6 +403,8 @@
       items:
         - name: Power BI とは?
           href: power-bi-overview.md
+        - name: Power BI サービスとは何ですか?
+          href: power-bi-service-overview.md
         - name: Power BI Desktop とサービスの比較
           href: service-service-vs-desktop.md
     - name: チュートリアル
@@ -939,8 +941,8 @@
           href: report-builder-tables-matrices-lists.md
         - name: パラメーター
           href: report-builder-parameters.md
-        - name: 式
-          href: report-builder-expressions.md
+        - name: ページ分割されたレポートの URL パラメーター
+          href: report-builder-url-parameters.md
         - name: 式の例
           href: report-builder-expression-examples.md
         - name: レポートの改ページ
@@ -959,6 +961,8 @@
           href: paginated-reports-create-embedded-dataset.md
         - name: パラメーターを作成する
           href: paginated-reports-parameters.md
+        - name: URL でレポート パラメーターを渡す
+          href: report-builder-url-pass-parameters.md
         - name: ページ分割されたレポートを発行する
           href: paginated-reports-save-to-power-bi-service.md
 - name: 開発者向け Power BI
@@ -1356,7 +1360,7 @@
     - name: リソース
       items:
         - name: 毎月のゲートウェイ更新プログラム
-          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
+          href: /data-integration/gateway/service-gateway-monthly-updates
 - name: 管理
   items:
     - name: 概要

@@ -1,8 +1,8 @@
 ---
 title: Power BI サービスで SAP 変数を編集する (プレビュー)
 description: Azure と Power BI
-author: maggiesMSFT
-ms.author: maggies
+author: Sujata994
+ms.author: sunaraya
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aff72d8efed716af2e7f4c881b22af12e248c207
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: db1d4a8a9734c910514b4952b664bf7ebce324c1
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962897"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654865"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service-preview"></a>Power BI サービスで SAP 変数を編集する (プレビュー)
 
@@ -30,9 +30,9 @@ SAP Business Warehouse または SAP HANA を DirectQuery と共に使用する�
 SAP 変数編集機能を使用するにはいくつかの要件があります。 次の一覧にその要件をまとめています。
 
 **新しいフィルター エクスペリエンスが必須** - レポートに対して[新しいフィルター エクスペリエンス](power-bi-report-filter.md)を有効にする必要があります。 Power BI Desktop では、レポートに対してこれを次のように有効にします。
-- Power BI Desktop で、**[ファイル]**、**[オプションと設定]**、**[オプション]** の順に選択します。
-- 左側のナビゲーション バーで、**[現在のファイル]** の **[レポートの設定]** を選択します。
-- **[エクスペリエンスのフィルター処理]** で、**[Enable the updated filter pane]\(更新されたフィルター ウィンドウを有効にする\)** を選択します。
+- Power BI Desktop で、 **[ファイル]** 、 **[オプションと設定]** 、 **[オプション]** の順に選択します。
+- 左側のナビゲーション バーで、 **[現在のファイル]** の **[レポートの設定]** を選択します。
+- **[エクスペリエンスのフィルター処理]** で、 **[Enable the updated filter pane]\(更新されたフィルター ウィンドウを有効にする\)** を選択します。
 
 **DirectQuery 接続が必須** - DirectQuery を使用し、SAP データ ソースに接続している必要があります。 インポート接続はサポートされていません。
 
@@ -48,7 +48,7 @@ SAP 変数編集機能を使用するにはいくつかの要件があります�
 
 ## <a name="how-to-enable-the-feature"></a>機能を有効にする方法
 
-**SAP 変数編集**機能を有効にするには、Power BI Desktop 内で SAP HANA または SAP BW データソースに接続します。 次に、**[ファイル]、[オプションと設定]、[オプション]** の順に移動し、左側のウィンドウにある [現在のファイル] セクションで **[DirectQuery]** を選択します。 これを選択すると、次の画像のように、右側のウィンドウに DirectQuery オプションとチェック ボックスが表示されます。ここでは、**レポートで SAP 変数を変更することをエンド ユーザーに許可できます (プレビュー)**。
+**SAP 変数編集**機能を有効にするには、Power BI Desktop 内で SAP HANA または SAP BW データソースに接続します。 次に、 **[ファイル]、[オプションと設定]、[オプション]** の順に移動し、左側のウィンドウにある [現在のファイル] セクションで **[DirectQuery]** を選択します。 これを選択すると、次の画像のように、右側のウィンドウに DirectQuery オプションとチェック ボックスが表示されます。ここでは、**レポートで SAP 変数を変更することをエンド ユーザーに許可できます (プレビュー)** 。
 
 ![DirectQuery オプション](media/service-edit-sap-variables/sap-preview-setting-in-desktop.png)
 
@@ -65,19 +65,19 @@ Power BI Desktop で SAP 変数編集を使用する場合、リボンの **[ク
 
 1. Power BI サービスでは、ワークスペースのコンテンツ一覧で **[データセット]** タブを選択します。
 
-2. 更新する必要があるデータセットを見つけ、**[更新]** アイコンを選択します。
+2. 更新する必要があるデータセットを見つけ、 **[更新]** アイコンを選択します。
 
     ![変数を編集](media/service-edit-sap-variables/sap-edit-variables-link.png)
 
-3. [変数を編集] リンクを選択すると、**[変数を編集]** ダイアログが表示され、そこで変数をオーバーライドできます。 **[リセット]** ボタンを選択すると、このダイアログを開いたときに表示された元の値に変数がリセットされます。
+3. [変数を編集] リンクを選択すると、 **[変数を編集]** ダイアログが表示され、そこで変数をオーバーライドできます。 **[リセット]** ボタンを選択すると、このダイアログを開いたときに表示された元の値に変数がリセットされます。
 
     ![[変数を編集] ダイアログ ボックス](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
-4. Power BI の他の永続性動作と同様に、**[変数を編集]** ダイアログで行った変更はこのユーザーに対してのみ残ります。 次の画像のように、**[既定値にリセット]** を選択すると、変数を含め、レポート作成者がレポートを作成したときの元の状態にレポートがリセットされます。
+4. Power BI の他の永続性動作と同様に、 **[変数を編集]** ダイアログで行った変更はこのユーザーに対してのみ残ります。 次の画像のように、 **[既定値にリセット]** を選択すると、変数を含め、レポート作成者がレポートを作成したときの元の状態にレポートがリセットされます。
 
     ![既定値にリセット](media/service-edit-sap-variables/reset-to-default.png)
 
-SAP HANA または SAP BW を使用する Power BI サービスで公開済みのレポートを操作するとき、**[変数を編集]** 機能が有効になっている場合、レポート所有者はこれらの既定値を変更できます。 レポートの所有者は編集モードで変数を変更してレポートを保存し、その設定をそのレポートの*新しい既定の設定*にすることができます。 レポートの所有者によるそのような変更の後、そのレポートにアクセスするユーザーには、新しい設定が既定値として表示されます。
+SAP HANA または SAP BW を使用する Power BI サービスで公開済みのレポートを操作するとき、 **[変数を編集]** 機能が有効になっている場合、レポート所有者はこれらの既定値を変更できます。 レポートの所有者は編集モードで変数を変更してレポートを保存し、その設定をそのレポートの*新しい既定の設定*にすることができます。 レポートの所有者によるそのような変更の後、そのレポートにアクセスするユーザーには、新しい設定が既定値として表示されます。
 
 ## <a name="issues-and-considerations"></a>問題と考慮事項
 

@@ -4,49 +4,47 @@ description: Power BI レポートのページの表示設定を変更します
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d740dd012c6041893a2fa5fc5f1a97a74dcf1566
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: fb4bffe36c24f83d81501554edffa0bb3ae5a3c0
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532404"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391601"
 ---
 # <a name="change-the-display-of-a-report-page"></a>レポート ページの表示の変更
 
 レポートは、さまざまなデバイスで表示され、画面サイズや縦横比も異なります。 レポート ページの表示方法をニーズに合わせて変更します。
 
-![キャンバス上で表示されるレポートのスクリーンショット。](media/end-user-report-view/power-bi-report.png)
+![キャンバス上で表示されるレポートのスクリーンショット。](media/end-user-report-view/power-bi-canvas.png)
 
 ## <a name="explore-the-view-menu"></a>[表示] メニューの探索
 
-![[表示] のドロップダウン オプションのスクリーンショット。](media/end-user-report-view/power-bi-view-menu.png)
+![[表示] のドロップダウン オプションのスクリーンショット。](media/end-user-report-view/power-bi-viewmenu.png)
 
 
 **[表示]** メニューのオプションで、サイズや幅を柔軟に選択してレポート ページを表示できます。
 
 - たとえば、小型デバイスでレポートを表示したものの、タイトルや凡例が見づらいとします。  **[表示]**  >  **[原寸大]** を選択し、レポート ページのサイズを大きくします。 レポートを移動するには、スクロール バーを使用します。
 
-    ![2 つのスクロール バーが呼び出されている、原寸大に設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-actual-size-new.png)
+    ![2 つのスクロール バーが呼び出されている、原寸大に設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-view-actual.png)
 
 - 別のオプションでは、 **[幅に合わせる]** を選択して、ご覧の画面の幅にレポートを合わせます。 これは幅のみであり高さではないため、垂直スクロール バーを使う必要があります。
 
-  ![垂直スクロール バーが呼び出されている、[幅に合わせる] で設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-fit-to-width-new.png)
+  ![垂直スクロール バーが呼び出されている、[幅に合わせる] で設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-view-width.png)
 
 - スクロール バーを表示したくないもののスクリーン サイズを最大限に活用したい場合は、 **[ページに合わせる]** を選択します。
 
-   ![[ページに合わせる] で設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-fit-to-width.png)
+   ![[ページに合わせる] で設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-view-fit.png)
 
-- 4 つの **[ハイ コントラストの色]** から選択することもできます。ハイ コントラスト 1、ハイ コントラスト 2、ハイ コントラスト黒、ハイ コントラスト白があります。 これは、視覚障碍を持つユーザーがレポートを見やすくなるように使用することのできるアクセシビリティ機能です。
+- 4 つの **[ハイ コントラストの色]** から選択することもできます。ハイ コントラスト 1、ハイ コントラスト 2、ハイ コントラスト黒、ハイ コントラスト白があります。 これは、視覚障碍を持つユーザーがレポートを見やすくなるように使用することができるアクセシビリティ機能です。 以下の例は、ハイ コントラスト 1 です。 
 
-    ![ハイ コントラスト 1 に設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-high-contrast-1.png)![ハイ コントラスト 2 に設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-high-contrast-2.png)
-    ![ハイ コントラスト黒に設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-high-contrast-black.png)![ハイ コントラスト白に設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-high-contrast-white.png)
+    ![ハイ コントラスト 1 に設定されたレポートのスクリーンショット。](media/end-user-report-view/power-bi-contrast1.png)
 
 - 最後のオプションは、 **[全画面表示]** です。メニュー バーやヘッダーなしのレポート ページが表示されます。 画面が小さく、詳細が見づらい場合は、全画面表示を選択するのが良いでしょう。  見るだけで操作をしないユーザーに対して大きな画面にレポート ページを射影する場合にも、全画面表示は良い選択です。  
 
