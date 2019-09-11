@@ -1,21 +1,21 @@
 ---
 title: 顧客向けのアプリケーション内に Power BI コンテンツを埋め込むための埋め込み分析
 description: Power BI API を使って、アプリケーションに顧客向けの分析情報用のレポート、ダッシュボード、タイルを統合する (埋め込む) 方法について説明します。 埋め込み分析ソフトウェア、埋め込み分析ツール、または埋め込みビジネス インテリジェンス ツールを使って、ご自身のアプリケーションに Power BI を統合する方法について説明します。
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
-ms.reviewer: nishalit
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
+ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710951"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391800"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>チュートリアル:顧客向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -198,9 +198,9 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
     ![アプリを選択する](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. 選択**証明書やシークレット** **管理**します。
+4. **[管理]** で **[証明書とシークレット]** を選択します。
 
-5. 選択**新しいクライアント シークレット**します。
+5. **[新しいクライアント シークレット]** を選択します。
 
 6. **[説明]** ボックスに名前を入力し、期間を選択します。 次に、 **[保存]** を選択して、アプリケーションの**値**を取得します。 キーの値を保存した後で **[キー]** ウィンドウを閉じると、値フィールドは非表示としてのみ表示されます。 その時点では、キー値を取得することはできません。 キー値をなくした場合は、Azure portal で新しいものを作成します。
 

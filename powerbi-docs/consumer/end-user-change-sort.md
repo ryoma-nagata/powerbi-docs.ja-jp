@@ -4,19 +4,18 @@ description: Power BI レポートでのグラフの並べ替え方法の変更
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aa6193045ba1c399eaae1b48bf813738edba99f1
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 98a91b0651e7a357f0ba0462f6ba8734c64ab162
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750845"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302744"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI レポートでのグラフの並べ替え方法の変更
 Power BI レポートのほとんどの視覚エフェクトは、グラフ内のカテゴリ名のアルファベット順や、各カテゴリの数値順に、並べ替えることができます。 たとえば、このグラフは**店舗名**のカテゴリを基準に並べ替えられています。
@@ -31,12 +30,12 @@ Power BI レポートのほとんどの視覚エフェクトは、グラフ内�
    ![[並べ替え]、[昇順で並べ替え]、[降順で並べ替え] の順に選択しているビデオ](media/end-user-change-sort/sort.gif)
 
 > [!NOTE]
-> すべてのビジュアルが並べ替え可能なわけではありません。 たとえば、次の視覚化は並べ替えできません。ツリーマップ、マップ、塗り分け地図、散布図、ゲージ、カード、複数行のカード、ウォーターフォールなどのビジュアルは並べ替えできません。
+> すべてのビジュアルが並べ替え可能なわけではありません。 たとえば、次のビジュアルは並べ替えできません: ツリーマップ、マップ、塗り分け地図、散布図、ゲージ、カード、ウォーターフォール。
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>並べ替え順序の変更を保存する
-Power BI レポートでは、フィルター、スライサー、並べ替え、その他のデータ ビューに行った変更が保存されます。 そのため、レポートを終了し後で戻ったときに、変更が保存されています。  レポートのデザイナーの設定に戻す場合、一番上のメニュー バーから **[既定値にリセット]** を選択してください。 
+Power BI レポートでは、フィルター、スライサー、並べ替え、その他のデータ ビューに行った変更が保存されます。 そのため、レポートを終了し後で戻ったときに、変更が保存されています。  レポートのデザイナーの設定に戻す場合、上のメニュー バーから **[既定値にリセット]** を選択します。 
 
-![永続的な並べ替え](media/end-user-change-sort/power-bi-reset-to-default.png)
+![永続的な並べ替え](media/end-user-change-sort/power-bi-reset.png)
 
 ただし、 **[既定値にリセット]** ボタンが淡色表示になっている場合、変更を保存する (永続化する) 機能をレポートのデザイナーが無効にしています。
 

@@ -6,16 +6,16 @@ manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
-ms.topic: overview
+ms.topic: conceptual
 ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61059859"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751657"
 ---
 # <a name="your-content-is-up-to-date"></a>コンテンツが最新の状態に維持される
 *コンシューマー*は、*デザイナー*が作成し、コンシューマーと共有したコンテンツを使用します。 そのコンテンツが最新の状態になっているか気になることがあるでしょう。あるいは、コンテンツの最終更新日が知りたくなることもあります。 最新のコンテンツを使用していることがわかれば、自信を持って作業できます。  
@@ -82,7 +82,7 @@ ms.locfileid: "61059859"
 最新の状態に維持する別の方法として、レポートやダッシュボードにサブスクライブするという方法があります。 ログインしてレポートやダッシュボードを開く代わりに、設定したスケジュールに基づいてスナップショットを送信するように Power BI に指示します。  詳細については、[ダッシュボードとレポートにサブスクライブする](end-user-subscribe.md)方法に関するページを参照してください。
 
 ## <a name="set-data-alerts"></a>データ アラートの設定
-設定した上限を超えてデータが変化した場合、通知を受けますか。 [データ アラートを作成します](end-user-alerts.md)。  データ アラートを使用すれば、最新の状態を維持することが簡単になります。 データ アラートでは、レポート内の値が特定のしきい値を超えた場合、電子メールを送信するように Power BI に指示します。  たとえば、在庫が 25 ユニットを下回った場合や売上が目標を超えた場合にメールを受信します。  
+設定した上限を超えてデータが変化した場合、通知を受けますか。 [データ アラートを作成します](end-user-alerts.md)。  データ アラートを使用すれば、最新の状態を維持することが簡単になります。 データ アラートを使用して、レポート内の値が特定のしきい値を超えた場合、電子メールを送信するように Power BI に指示します。  たとえば、在庫が 25 ユニットを下回った場合や売上が目標を超えた場合にメールを受信します。  
 
 ## <a name="next-steps"></a>次の手順
 [データ アラートを作成する](end-user-alerts.md)    

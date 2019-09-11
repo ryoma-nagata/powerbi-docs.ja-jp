@@ -4,20 +4,19 @@ description: このトピックによれば、Power BI コンシューマーと�
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 8/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
-ms.openlocfilehash: 0896d397c7cc78ce36109cf1c975b34d081169a1
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70184686"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391751"
 ---
-# <a name="view-a-report-in-power-bi-service-for-consumers"></a>"*コンシューマー*" 向け Power BI サービスでレポートを表示する
+# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*コンシューマー*向け Power BI サービスでレポートを表示する
 レポートは、ビジュアルで構成される 1 つまたは複数のページです。 レポートは Power BI "*デザイナー*" によって作成され、["*コンシューマー*" と直接](end-user-shared-with-me.md)、または[アプリ](end-user-apps.md)の一部として共有されます。 
 
 レポートはさまざまな方法で開くことができますが、そのうちの [ホーム] から開く方法とダッシュボードから開く方法の 2 つを説明します。 
@@ -31,7 +30,7 @@ ms.locfileid: "70184686"
    ![ホーム ページ](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>ユーザーと共有されているレポートを開く
-Power BI "*デザイナー*" では、レポートをお客様と直接共有できます。 この方法で共有されたコンテンツは、ナビゲーション バーの **[自分と共有]** コンテナーとホーム キャンバスの **[自分と共有]** セクションに表示されます。
+Power BI *デザイナー*では、電子メールのリンクを使用したり、Power BI ホームに追加したりすることで、個々のレポートを直接共有できます。 この方法で共有されたコンテンツは、ナビゲーション バーの **[自分と共有]** コンテナーとホーム キャンバスの **[自分と共有]** セクションに表示されます。
 
 1. Power BI サービス (app.powerbi.com) を開きます。
 
@@ -45,13 +44,13 @@ Power BI "*デザイナー*" では、レポートをお客様と直接共有で
 
 4. レポートを開くには、レポート "*カード*" を選択するだけです。
 
-   ![レポート ページ](./media/end-user-report-open/power-bi-report-open.png)
+   ![レポート ページ](./media/end-user-report-open/power-bi-open.png)
 
 5. 左側にタブが並んでいます。  各タブはレポート *ページ*を表します。 現在、"*成長の機会*" ページが開いています。 "*YTD カテゴリ*" タブを選択して、代わりにそのレポート ページを開きます。 
 
    ![レポート ページ タブ](./media/end-user-report-open/power-bi-ytd.png)
 
-6. これで、レポート ページ全体が表示されます。 ページの表示 (ズーム) を変更するには、右上隅 ( **>** ) にある [表示] ドロップダウンを選択し、 **[実際のサイズ]** を選択します。
+6. これで、レポート ページ全体が表示されます。 ページの表示 (ズーム) を変更するには、右上隅にある [表示] ドロップダウンを選択し、 **[実際のサイズ]** を選択します。
 
    ![ズームの変更](./media/end-user-report-open/power-bi-fit-new.png)
 
@@ -66,7 +65,7 @@ Power BI "*デザイナー*" では、レポートをお客様と直接共有で
 
    ![ホーム ページ](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. アプリの 1 つを選択して開きます。 アプリでは、アプリ "*デザイナー*" によって設定されたオプションに基づき、ダッシュボード、レポート、またはアプリ コンテンツ リストが開きます。 アプリを選択し、
+8. アプリの 1 つを選択して開きます。 アプリでは、アプリ *デザイナー*によって設定されたオプションに基づき、ダッシュボードまたはレポートが開きます。 アプリを選択し、
     - レポートが開いた場合、そこで操作はおしまいです。
     - ダッシュボードが開いた場合、下の「***ダッシュボードからレポートを開く***」を参照してください。
 
@@ -95,5 +94,5 @@ Power BI サービスのナビゲーションに慣れてくると、最適な�
 - その他
 
 ## <a name="next-steps"></a>次の手順
-[レポートはさまざまな方法で操作](end-user-reading-view.md)できます。  レポート キャンバスの横側にある各タブを選択することで、探索を開始します。
+[ダッシュボードを開いて表示する](end-user-dashboard-open.md)
 

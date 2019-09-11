@@ -6,22 +6,18 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 08/19/2019
+ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 3ee116f4467abaeecf8c96f6e7e469f3265a9ebe
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654982"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751603"
 ---
 # <a name="what-is-power-bi"></a>Power BI とは?
 **Power BI** はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型洞察を得ることができます。 Excel スプレッドシートや、クラウド ベースとオンプレミスのハイブリッド データ ウェアハウスのコレクションなど、さまざまなデータを使えます。 Power BI を使うと、ご利用のデータ ソースへの接続、重要事項の視覚化と検出、必要に応じた任意のユーザーまたはすべてのユーザーとの共有を、簡単に実行できます。
-
-![Power BI 用の入力ソースを示す図](media/power-bi-overview/power-bi-input-new.png)
-
-Power BI はシンプルで高速です。つまり、Excel スプレッドシートやローカル データベースから分析情報をすばやく作成できます。 同時に、Power BI は堅牢なエンタープライス クラスなので、広範なモデリング、リアルタイム分析、およびカスタム開発の準備もできています。 これはご自分の個人用レポートおよび視覚化ツールとすることができるほか、グループ プロジェクト、部門、または会社全体の分析および意思決定エンジンとしても使用できます。
 
 ## <a name="the-parts-of-power-bi"></a>Power BI の構成要素
 Power BI は次のもので構成されます。 
@@ -31,14 +27,14 @@ Power BI は次のもので構成されます。
 
 ![Power BI Desktop、サービス、モバイル](media/power-bi-overview/power-bi-overview-blocks.png)
 
-この 3 つの要素 &mdash; Power BI Desktop、サービス、モバイル アプリ &mdash; は、ユーザー (またはそのロール) に対して最も効果的な方法で、ビジネス上の分析情報を作成、共有、使用できるように設計されています。
+この 3 つの要素 (Power BI Desktop、サービス、モバイル アプリ) は、ユーザーおよびそのロールに対して最も効果的な方法で、ビジネス上の分析情報を作成、共有、使用できるように設計されています。
 
 4 番目の要素である **Power BI Report Server** を使うと、Power BI Desktop で Power BI レポートを作成した後、それをオンプレミスのレポート サーバーに発行できます。 [Power BI レポート サーバー](#on-premises-reporting-with-power-bi-report-server)の詳細をお読みください。
 
 ## <a name="how-power-bi-matches-your-role"></a>Power BI とロールの対応
 Power BI の使用方法は、プロジェクトまたはチームにおけるユーザーのロールによって異なる場合があります。 ロールが異なれば Power BI の使用方法も異なる可能性があります。
 
-たとえば、ご自分では **Power BI サービス**を主に使うかもしれません。 しかし、大量の計算を行ってビジネス レポートを作成する同僚は、レポートを作成し、そのレポートをあなたが確認できる Power BI サービスに発行するために、**Power BI Desktop** を重点的に使うかもしれません。 営業担当の別の同僚は、売上ノルマの達成状況の観察や、新しい潜在顧客の詳細を確認するために、**Power BI のスマートフォン アプリ**を主に使うかもしれません。
+たとえば、あなたはレポートとダッシュボードを表示するために、**Power BI サービス**を主に使うことができます。 大量の計算を行ってビジネス レポートを作成する同僚は、レポートを作成し、そのレポートをあなたが確認する Power BI サービスに発行するために、**Power BI Desktop** を重点的に使うことができます。 営業担当の別の同僚は、売上ノルマの達成状況の観察や、新しい潜在顧客の詳細を確認するために、**Power BI のスマートフォン アプリ**を主に使うことができます。
 
 開発者であれば、Power BI API を使用してデータをデータセットにプッシュしたり、ダッシュボードとレポートをカスタム アプリケーションに埋め込んだりする可能性があります。 新しいビジュアルのアイデアがあれば、 それを自分で作成して、他のユーザーと共有できます。  
 
@@ -47,10 +43,10 @@ Power BI の使用方法は、プロジェクトまたはチームにおける�
 Power BI の使用方法は、Power BI のどの機能またはサービスがご自分の状況に対して最適なツールとなるかに基づいています。 たとえば、Power BI Desktop を使用して、顧客契約統計に関するレポートを自分のチーム用に作成したり、Power BI サービスのリアルタイム ダッシュボードで在庫や製造の進行状況を確認したりすることができます。 Power BI の各部分を利用できることが、その柔軟性と魅力の理由です。
 
 ご自身のロールに関連するドキュメントについては、次をご覧ください。
-- [***デザイナー***](desktop-what-is-desktop.md)向け Power BI
-- [***利用者***](consumer/end-user-consumer.md)向け Power BI
-- [***開発者***](developer/what-can-you-do.md)向け Power BI
-- [***管理者***](service-admin-administering-power-bi-in-your-organization.md)向け Power BI
+- [*デザイナー*](desktop-what-is-desktop.md)向け Power BI Desktop
+- [*利用者*](consumer/end-user-consumer.md)向け Power BI
+- [*開発者*](developer/what-can-you-do.md)向け Power BI
+- [*管理者*](service-admin-administering-power-bi-in-your-organization.md)向け Power BI
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI のワークフロー
 Power BI での一般的な作業の流れは、データ ソースに接続し、Power BI Desktop でレポートを作成することから始まります。 次に、そのレポートを Power BI Desktop から Power BI サービスに発行し、それを共有することで、Power BI サービスとモバイル デバイスのエンド ユーザーがレポートを表示して操作できるようにします。
@@ -58,10 +54,11 @@ Power BI での一般的な作業の流れは、データ ソースに接続し�
 
 こちらに詳細な [Power BI Desktop と Power BI サービスの比較](service-service-vs-desktop.md)があります。
 
-でも、クラウドに移行する準備が整っていないため、企業のファイアウォールの背後にレポートを保持する場合はどうすればよいでしょうか。  読み続けてください。
-
 ## <a name="on-premises-reporting-with-power-bi-report-server"></a>Power BI Report Server によるオンプレミスでのレポート作成
-Power BI Report Server が提供するすぐに使用できるさまざまなツールとサービスを使用して、Power BI モバイル レポートおよびページ分割されたレポートをオンプレミスで作成、展開、管理します。
+
+しかし、クラウドに移行する準備が整っていないため、企業のファイアウォールの背後にレポートを保持する必要がある場合はどうすればよいでしょうか。  読み続けてください。
+
+Power BI Report Server が提供するすぐに使用できるさまざまなツールとサービスを使用して、Power BI モバイル レポートおよびページ分割されたレポートをオンプレミスで作成、展開、管理できます。
 
 ![オンプレミス用の図](media/power-bi-overview/power-bi-report-server2.png)
 

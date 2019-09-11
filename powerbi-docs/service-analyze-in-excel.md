@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 6f4beb98c195c5af9967f988015959806d485696
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5dbfa400f25f6981f7a73bffe1afad2acf735334
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159964"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391904"
 ---
 # <a name="analyze-in-excel"></a>Excel で分析
 Excel を使用して Power BI にあるデータセットを表示したり、データセットと対話したりする必要が生じる場合があります。 **[Excel で分析]** を使用すれば、Power BI に存在するデータセットに応じて、表示や対話だけでなく、Excel 内で PivotTable、グラフ、スライサーの機能を活用できます。
@@ -67,7 +67,7 @@ Power BI で、レポートまたはデータセット名の横の省略記号�
 ### <a name="users-with-multiple-power-bi-accounts"></a>複数の Power BI アカウントを持つユーザー
 複数の Power BI アカウントを持つユーザーがそのうちの 1 つのアカウントを使用して Power BI にログインしているとき、[Excel で分析] で使用されているデータセットへのアクセス権限を持つアカウントが、ログインしているアカウントとは別のアカウントである場合があります。 このような場合、[Excel で分析] ブックで使用されているデータセットにアクセスしようとすると、**Forbidden** エラーやサインインの失敗が生じることがあります。
 
-このようなときは、[Excel で分析] によってアクセスされているデータセットへのアクセス権限を有する Power BI アカウントを使用して再度サインインする機会が提供されます。 Excel の **[Power BI]** リボン タブから **[プロファイル]** を選択すると、ユーザーが現在どのアカウントを使用してログインしているかを特定できるほか、サインアウトをするためのリンクが表示されます (その後、別のアカウントでサインインします)。
+このようなときは、[Excel で分析] によってアクセスされているデータセットへのアクセス権限を有する Power BI アカウントを使用して再度サインインする機会が提供されます。 Excel の **[Power BI]** リボン タブから **[プロファイル]** を選択すると、ユーザーが現在どのアカウントを使用してログインしているかを特定できるほか、サインアウトをするためのリンクが表示されます (その後、別のアカウントでサインインします)。 Power BI publisher for Excel をまだインストールしていない場合は、[ダウンロード](https://www.microsoft.com/download/details.aspx?id=50729)することができます。この方法で [Power BI] リボンが Excel にインストールされます。
 
 ![](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
 
