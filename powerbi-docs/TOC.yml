@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: テーブル内のハイパーリンク
               href: power-bi-hyperlinks-in-tables.md
+            - name: テーブルに画像を表示する
+              href: power-bi-images-tables.md
             - name: カスタム書式設定文字列
               href: desktop-custom-format-strings.md
             - name: テーブルの条件付き書式設定
@@ -569,8 +571,6 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: タイルの QR コードを作成する
               href: service-create-qr-code-for-tile.md
-            - name: ダッシュボードにイメージを追加
-              href: service-dashboard-add-image.md
             - name: ダッシュボードのデータの分類
               href: service-data-classification.md
             - name: ダッシュボード テーマ
