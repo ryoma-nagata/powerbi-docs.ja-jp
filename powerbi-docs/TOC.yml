@@ -677,8 +677,6 @@
               href: service-dataflows-linked-entities.md
             - name: データフローでの増分更新の使用
               href: service-dataflows-incremental-refresh.md
-            - name: データフローのベスト プラクティス
-              href: service-dataflows-best-practices.md
             - name: データフロー用の開発者向けリソース
               href: service-dataflows-developer-resources.md
             - name: Power BI Desktop でデータフローに接続する
@@ -1432,6 +1430,8 @@
           href: service-admin-power-bi-security.md
 - name: ガイダンス
   items:
+    - name: データフローのベスト プラクティス
+      href: service-dataflows-best-practices.md
     - name: スター スキーマとは
       href: guidance/star-schema.md
     - name: データ モデル サイズの縮小
