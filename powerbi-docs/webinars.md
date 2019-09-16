@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: e02d50a7990eb90405d6a864fe294fee8e946e10
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023430"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70936262"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -22,9 +22,7 @@ ms.locfileid: "69023430"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-**Dynamics 365 Finance and Operations での Power BI の使用**
-<br>作成者: Kevin Horlock
-<br>[9 月 11 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -51,6 +49,10 @@ ms.locfileid: "69023430"
 **Power BI を使用してデータ モデリング スキルを高める**
 <br>作成者: Kasper de Jonge
 <br>[登録して今すぐ見る](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
+**Dynamics 365 Finance and Operations での Power BI の使用**
+<br>作成者: Kevin Horlock
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 **Power BI で実行する Microsoft - 財務の計画と分析を簡単に**
 <br>作成者: Cory Hrncirik と Miguel Martinez

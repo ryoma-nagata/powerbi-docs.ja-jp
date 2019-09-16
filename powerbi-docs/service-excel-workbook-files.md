@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513127"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840970"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel ブック ファイルからデータを取得する
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -77,8 +77,6 @@ Excel 2016 では、[発行] を選択して [エクスポート] すること�
 **[接続]** を選択すると、ブックは、Excel Online を使用しているときと同じように Power BI に表示されます。 ただし、Excel Online とは異なり、ワークシートの要素をダッシュボードにピン留めするのに役立ついくつかの優れた機能を利用できます。
 
 Power BI ではブックを編集できません。 しかし、変更を加える必要がある場合は、[編集] をクリックして、Excel Online でブックを編集するかまたは自分のコンピューターの Excel で開くかを選択できます。 ブックに加えたすべての変更は、OneDrive 上のブックに保存されます。
-
-この方法を選択した場合、Power BI では接続されたブック用に対応するデータセットが作成されます。 必要に応じて、このデータセットを使用して Power BI レポートを作成できます。 ブックは、Power BI ワークスペース ナビゲーション ウィンドウの [レポート] の下にも表示されます。 接続されたブックには特殊な Excel アイコンが付いています。
 
 このオプションは、データがワークシートにのみ存在する場合や、ダッシュボードにピン留めしたい範囲、ピボットテーブル、グラフがある場合に選択します。
 
