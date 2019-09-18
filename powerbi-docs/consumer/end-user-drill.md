@@ -13,10 +13,10 @@ ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 29823a2f1ca7f1448df54282e0ce081310974eb3
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67265264"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI での視覚エフェクトのドリル モード
@@ -48,7 +48,7 @@ ms.locfileid: "67265264"
 
     | ウェル | フィールド |
     | ---- | ----- |
-    | 値 |Sales<br>\|\_ Total Units This Year |
+    | 値 |売上<br>\|\_ Total Units This Year |
     | グループ | Store<br>\|\_ Territory<br>\|\_ City<br>\|\_ Postal Code<br>\|\_ Name
 
     ツリーマップには、地域、都市、郵便番号、および都市名で構成された階層があります。 各地域には 1 つ以上の都市があり、各都市には 1 つ以上の郵便番号があります。 リストの先頭が *Territory* なので、既定では、視覚化に地域のデータのみが表示されます。
@@ -209,7 +209,7 @@ Power BI では、1 つまたはすべてのサブセットを展開できます
     | ウェル | フィールド |
     | ---- | ----- |
     | 軸 | 時刻<br>\|\_ Month |
-    | 値 | Sales<br>\|\_ TotalSales |
+    | 値 | 売上<br>\|\_ TotalSales |
 
     軸データ フィールドは **Month** ですが、 **[軸]** ウェルには **Year** カテゴリも作成します。 これは、Power BI は読み取るすべての値に対する完全な DateTime 構造を提供するためです。 階層の最上部では、年のデータが表示されます。
 
@@ -244,7 +244,7 @@ Power BI では、1 つまたはすべてのサブセットを展開できます
 
     | ウェル | フィールド |
     | ---- | ----- |
-    | 値 |Sales<br>\|\_ Total Units This Year |
+    | 値 |売上<br>\|\_ Total Units This Year |
     | 軸 | Store<br>\|\_ Territory<br>\|\_ City - **[凡例]** ウェルから **[軸]** ウェルに City をドラッグすることが必要な場合があります。<br>\|\_ Postal Code<br>\|\_ Name |
 
     ![地域別の今年の合計単位を示す棒グラフのスクリーンショット。](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)

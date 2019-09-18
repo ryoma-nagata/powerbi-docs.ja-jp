@@ -11,10 +11,10 @@ ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
 ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/04/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70302502"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI でのビジュアルの種類
@@ -131,7 +131,7 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 
 図形マップでは、色を使用してマップの領域が比較されます。 図形マップでは、マップ上のデータ ポイントの地理的な場所を正確に示すことはできません。 代わりに、これの主な用途は、違う色を適用することにより、マップ上の領域を相対的に比較できます。
 
-### <a name="matrix"></a>マトリックス
+### <a name="matrix"></a>Matrix
 ![マトリックス](media/end-user-visual-type/matrix.png)
 
 マトリックス ビジュアルは、階段状レイアウトをサポートするテーブル ビジュアル (後の「テーブル」を参照) の一種です。 多くの場合、レポート デザイナーは、ユーザーがマトリックスの 1 つまたは複数の要素 (行、列、セル) を選択してレポート ページ上の他のビジュアルをクロス強調表示できるようにするため、レポートやダッシュボードにマトリックスを組み込みます。  
