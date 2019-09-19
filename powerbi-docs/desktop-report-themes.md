@@ -212,7 +212,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 | comboChart |
 | donutChart |
 | filledMap |
-| じょうご |
+| funnel |
 | gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
@@ -221,7 +221,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| マップ |
+| map |
 | multiRowCard |
 | pieChart |
 | pivotTable |
@@ -231,7 +231,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 | slicer |
 | stackedAreaChart |
 | tableEx |
-| ツリーマップ |
+| treemap |
 | waterfallChart |
 
 次の表では、*cardName* 値を定義します。 各セルの最初の値は、JSON ファイルでの用語です。 2 つ目の値は、**Power BI Desktop** のユーザー インターフェイスで表示されるカードの名前です。
