@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590436"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841637"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -48,7 +48,7 @@ Azure は複数のクラウドに分散されます。 既定では、テナン�
 * 米国政府テキサス
 * 米国政府アリゾナ
 
-パブリック クラウドでは、IP 空間を使用できます。 政府機関向けクラウドの場合、最新情報については、ダウンロード可能な [Azure 政府サービスのドキュメント](https://www.microsoft.com/download/details.aspx?id=57063)を参照してください。
+パブリック クラウドでは、IP 空間を使用できます。 政府機関向けクラウドの場合、最新情報については、ダウンロード可能な [Azure Government サービスのドキュメント](https://www.microsoft.com/download/details.aspx?id=57063)を参照してください。
 
 ## <a name="limitations-of-power-bi-us-government"></a>米国政府向け Power BI の制限事項
 **Power BI サービス** の市販バージョンで利用できる機能の一部は、 **Power BI サービス** の米国政府顧客バージョンでは利用 *できません* 。 Power BI チームは米国政府顧客がこれらの機能を使用できるようにする作業を行っており、これらの機能が利用できるようになった時点でこの記事を更新します。
@@ -85,13 +85,13 @@ Azure は複数のクラウドに分散されます。 既定では、テナン�
 
 **回答:** サインアップ ("*オンボーディング*" とも呼ばれます) は、既存のライセンスとサブスクリプションによって異なる場合があります。 詳細については、[米国政府向け Power BI へのサインアップ](service-govus-signup.md)に関する記事をご覧ください。
 
-**質問:** 米国政府向け **Power BI** に接続するための URL は、市販バージョンの **Power BI** の URL とは異なりますか。
+**質問:** 米国政府向け **Power BI** に接続するための URL は、市販バージョンの **Power BI** の URL とは異なりますか。 Government Community Cloud High (GCC High) の顧客向けに異なる URL がありますか。
 
 **回答:** はい、URL は異なります。 次の表に各 URL を示します。
 
-| 市販バージョンの URL | 米国政府バージョンの URL |
-| --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+| 市販バージョンの URL | 米国政府バージョンの URL | GCC High 用の米国政府向け URL |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 **質問:** アカウントが複数の国内クラウドでプロビジョニングされています。 **Power BI Desktop** を利用するとき、接続するクラウドをどのように選択しますか。
 

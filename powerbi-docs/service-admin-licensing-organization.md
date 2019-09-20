@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c5a3b2b3e74d636f8d9af75e4c84b7fd61bd2139
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65099842"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877871"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織での Power BI のライセンス
 
@@ -31,11 +31,11 @@ ms.locfileid: "65099842"
 
 Power BI Pro のライセンスは、Microsoft Office 365 または Microsoft 認定パートナーから購入することができます。 ライセンスを購入したら、それを個々のユーザーに割り当てます。 詳細については、「[Power BI Pro のライセンスを購入して割り当てる](service-admin-purchasing-power-bi-pro.md)」を参照してください。
 
-### <a name="power-bi-pro-license-expiration"></a>Power BI Pro ライセンスの有効期限
+### <a name="power-bi-pro-license-expiration"></a>Power BI Pro ライセンスの有効期限切れ
 
 Power BI Pro ライセンスの有効期限切れ後には猶予期間があります。 ライセンスがボリューム ライセンス契約の一部である場合、猶予期間は 90 日です。 ライセンスを直接購入した場合、猶予期間は 30 日です。
 
-Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳細については、次を参照してください。[ビジネス サブスクリプションの場合は、Office 365 の終了時に、データとアクセスに起こるでしょうか。](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)します。
+Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳しくは、「[一般法人向け Office 365 のサブスクリプションが終了したとき、データとアクセスはどうなりますか?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)」をご覧ください。
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>Power BI Pro の個人向け試用版
 
@@ -125,7 +125,7 @@ Power BI Pro のサブスクリプション ライフサイクルは Office 365 
 
 管理者は、Azure Active Directory (AAD) を使用して、個人ユーザーのサインアップの有効化または無効化を選択することができます。 この記事のこのセクションでは、PowerShell のコマンドを使用して、サインアップを管理する方法を説明します。 Azure の PowerShell の詳細については、「[Overview of Azure PowerShell](/powershell/azure/overview)」 (Azure PowerShell の概要) を参照してください。
 
-サインアップを制御する AAD 設定は、**AllowAdHocSubscriptions** です。 多くのテナントでは、この設定は有効を意味する *true* に設定されています。 パートナーを通じて Power BI を入手した場合、無効を意味する *false* がこれに設定されている可能性があります。 この設定を *true* から *false* に変更した場合、組織の新しいユーザーは個人としてサインアップすることができなくなります。 設定の変更前に Power BI にサインアップしたユーザーは、そのライセンスを保持できます。
+サインアップを制御する Azure AD の設定は、**AllowAdHocSubscriptions** です。 多くのテナントでは、この設定は有効を意味する *true* に設定されています。 パートナーを通じて Power BI を入手した場合、無効を意味する *false* がこれに設定されている可能性があります。 この設定を *true* から *false* に変更した場合、組織の新しいユーザーは個人としてサインアップすることができなくなります。 設定の変更前に Power BI にサインアップしたユーザーは、そのライセンスを保持できます。 設定が *false* の場合でも、ユーザーは Pro 試用版にサインアップできることに注意してください。
 
 1. Office 365 の資格情報を使用して Azure Active Directory にサインインします。 次の PowerShell のスクリプトの 1 行目では、ユーザーに資格証明が要求されます。 2 行目で、Azure Active Directory に接続します。
 
@@ -136,7 +136,7 @@ Power BI Pro のサブスクリプション ライフサイクルは Office 365 
 
    ![Azure Active Directory でのサインイン](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. サインインの後、次のコマンドを発行してテナントの現在の構成内容を確認することができます。 ('Fl' 以下が文字数 1 ではなく ' l' を使用することに注意してください)。
+1. サインインの後、次のコマンドを発行してテナントの現在の構成内容を確認することができます。 (次の "fl" では、数字 1 ではなく文字 "l" を使用することに注意してください。)
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 

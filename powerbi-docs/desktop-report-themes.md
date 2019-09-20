@@ -7,42 +7,53 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c098baa42e4fdc45b23519856eed824dbab5cad
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 37304f9d23c514c7223b3eca481bf3b7b2258ac4
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023384"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70904422"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポートのテーマを使用する
-**レポートのテーマ**では、企業の色、季節の色、アイコン セットまたは他の配色テーマなど、色のテーマをレポート全体に適用することができます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色が使用されます。 例外がいくつかあり、それについてはこの記事の後半で説明します。
+**レポートのテーマ**を使用すると、会社の色の使用、アイコン セットの変更、新しい既定のビジュアル書式の適用など、レポート全体にデザインの変更を適用できます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色と書式設定が使用されます。 例外がいくつかあり、それについてはこの記事の後半で説明します。
 
-![レポートのテーマ](media/desktop-report-themes/report-themes_1.png)
+![レポートのテーマ](media/desktop-report-themes/report-themes-1a.png)
 
-**レポートのテーマ**を適用するときは、基本的な構造を使用する JSON ファイルが必要です。 この JSON ファイルを Power BI Desktop にインポートし、レポートに適用できます。 JSON ファイルの構造と、インポートのプロセスはとても簡単です (ボタンを数回クリックするだけ)。
+カスタムの**レポートのテーマ**を適用するときは、基本的な構造を使用する JSON ファイルが必要です。 この JSON ファイルを Power BI Desktop にインポートし、レポートに適用できます。
 
-ほとんどすべての要素をカスタマイズおよび標準化することもできます。 カスタマイズするには JSON ファイルを使用し、 **[書式]** ウィンドウを使用して手動で調整します。 この目標は、レポートの外観を細かなレベルまで完全に制御できるようにすることです。
+テーマの JSON ファイルを使用すると、 **[書式]** ウィンドウに表示されるほぼすべての要素をカスタマイズし、標準化することもできます。 この目標は、レポートの外観を細かなレベルまで完全に制御できるようにすることです。
 
 ## <a name="how-report-themes-work"></a>レポートのテーマのしくみ
 Power BI Desktop レポートにレポート テーマを適用するには、使用可能な組み込みのレポート テーマから選択するか、またはカスタムのテーマをインポートします。
 
 | 組み込みのレポート テーマ | 既定の色順序    |
 |------ |---------- |
-| 既定値   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
-| 公園     | ![#73B761](https://placehold.it/20/73B761/000000?text=+) ![#4A588A](https://placehold.it/20/4A588A/000000?text=+) ![#ECC846](https://placehold.it/20/ECC846/000000?text=+) ![#CD4C46](https://placehold.it/20/CD4C46/000000?text=+) ![#71AFE2](https://placehold.it/20/71AFE2/000000?text=+) ![#8D6FD1](https://placehold.it/20/8D6FD1/000000?text=+) ![#EE9E64](https://placehold.it/20/EE9E64/000000?text=+) ![#95DABB](https://placehold.it/20/95DABB/000000?text=+)|
-| 教室     | ![#4A8DDC](https://placehold.it/20/4A8DDC/000000?text=+) ![#4C5D8A](https://placehold.it/20/4C5D8A/000000?text=+) ![#F3C911](https://placehold.it/20/F3C911/000000?text=+) ![#DC5B57](https://placehold.it/20/DC5B57/000000?text=+) ![#33AE81](https://placehold.it/20/33AE81/000000?text=+) ![#95C8F0](https://placehold.it/20/95C8F0/000000?text=+) ![#DD915F](https://placehold.it/20/DD915F/000000?text=+) ![#9A64A0](https://placehold.it/20/9A64A0/000000?text=+)|
-| 色の識別が困難な障碍を抱えるユーザーにとって安全   | ![#074650](https://placehold.it/20/074650/000000?text=+) ![#009292](https://placehold.it/20/009292/000000?text=+) ![#FE6DB6](https://placehold.it/20/FE6DB6/000000?text=+) ![#FEB5DA](https://placehold.it/20/FEB5DA/000000?text=+) ![#480091](https://placehold.it/20/480091/000000?text=+) ![#B66DFF](https://placehold.it/20/B66DFF/000000?text=+) ![#B5DAFE](https://placehold.it/20/B5DAFE/000000?text=+) ![#6DB6FF](https://placehold.it/20/6DB6FF/000000?text=+)|
-| エレクトリック  | ![#118DFF](https://placehold.it/20/118DFF/000000?text=+) ![#750985](https://placehold.it/20/750985/000000?text=+) ![#C83D95](https://placehold.it/20/C83D95/000000?text=+) ![#FF985E](https://placehold.it/20/FF985E/000000?text=+) ![#1DD5EE](https://placehold.it/20/1DD5EE/000000?text=+) ![#42F7C0](https://placehold.it/20/42F7C0/000000?text=+) ![#3049AD](https://placehold.it/20/3049AD/000000?text=+) ![#F64F5C](https://placehold.it/20/F64F5C/000000?text=+)|
-| ハイ コントラスト     | ![#107C10](https://placehold.it/20/107C10/000000?text=+) ![#002050](https://placehold.it/20/002050/000000?text=+) ![#A80000](https://placehold.it/20/A80000/000000?text=+) ![#5C2D91](https://placehold.it/20/5C2D91/000000?text=+) ![#004B50](https://placehold.it/20/004B50/000000?text=+) ![#0078D7](https://placehold.it/20/0078D7/000000?text=+) ![#D83B01](https://placehold.it/20/D83B01/000000?text=+) ![#B4009E](https://placehold.it/20/B4009E/000000?text=+)|
-| 夕日    | ![#B6B0FF](https://placehold.it/20/B6B0FF/000000?text=+) ![#3049AD](https://placehold.it/20/3049AD/000000?text=+) ![#FF994E](https://placehold.it/20/FF994E/000000?text=+) ![#C83D95](https://placehold.it/20/C83D95/000000?text=+) ![#FFBBED](https://placehold.it/20/FFBBED/000000?text=+) ![#42F9F9](https://placehold.it/20/42F9F9/000000?text=+) ![#00B2D9](https://placehold.it/20/00B2D9/000000?text=+) ![#FFD86C](https://placehold.it/20/FFD86C/000000?text=+)|
-| トワイライト  | ![#F17925](https://placehold.it/20/F17925/000000?text=+) ![#004753](https://placehold.it/20/004753/000000?text=+) ![#CCAA14](https://placehold.it/20/CCAA14/000000?text=+) ![#4B4C4E](https://placehold.it/20/4B4C4E/000000?text=+) ![#D82C20](https://placehold.it/20/D82C20/000000?text=+) ![#A3D0D4](https://placehold.it/20/A3D0D4/000000?text=+) ![#536F18](https://placehold.it/20/536F18/000000?text=+) ![#46ABB0](https://placehold.it/20/46ABB0/000000?text=+)|
+| 既定値   | ![default](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+| Highrise (ハイライズ)  | ![highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+| 役員     | ![executive](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+| Frontier (フロンティア)  | ![frontier](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+| Innovative (革新的)    | ![innovative](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+| Bloom (ブルーム)     | ![bloom](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+| Tidal (タイダル) | ![tidal](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+| Temperature (温度)   | ![temperature](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+| Solar (太陽) | ![solar](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+| Divergent (ダイバージェント)     | ![divergent](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+| Storm (ストーム)     | ![storm](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+| Classic (クラシック)   | ![classic](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+| 公園     | ![city park](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+| 教室     | ![classroom](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+| 色の識別が困難な障碍を抱えるユーザーにとって安全   | ![colorblind safe](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+| エレクトリック  | ![electric](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+| ハイ コントラスト     | ![high contrast](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+| 夕日    | ![sunset](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+| トワイライト  | ![twilight](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
 
 使用可能な組み込みのレポート テーマから選択するには、 **[ホーム]** リボンから **[テーマの切り替え]** ボタンを選択し、ドロップダウン メニューからいずれかの組み込みのテーマを選択します。
 
-![レポート テーマの選択](media/desktop-report-themes/report-themes_2a.png)
+![レポート テーマの選択](media/desktop-report-themes/report-themes-2a.png)
 
 レポート テーマがレポートに適用され、準備が整いました。
 
@@ -50,7 +61,7 @@ Power BI Desktop レポートにレポート テーマを適用するには、�
 
 カスタムのレポート テーマをインポートするには、 **[ホーム]** リボンから **[テーマの切り替え]** ボタンを選択します。 次に、ドロップダウン メニューから **[テーマのインポート]** を選択します。
 
-![テーマのインポート](media/desktop-report-themes/report-themes_3.png)
+![テーマのインポート](media/desktop-report-themes/report-themes-3a.png)
 
 表示されたウィンドウで、JSON テーマ ファイルがある場所を参照できます。 JSON が Power BI のレポート テーマ ファイルの種類なので、Power BI Desktop は JSON ファイルを探します。 次の図には、使用可能ないくつかの休暇テーマ ファイルが示されています。 3 月の休暇のテーマを選びます。
 
@@ -60,7 +71,7 @@ Power BI Desktop レポートにレポート テーマを適用するには、�
 
 ![テーマが正常にインポートされた](media/desktop-report-themes/report-themes_5.png)
 
-これでテーマ ファイルがインポートされました。次は、単純でわかりやすい JSON ファイルの構造を見てみましょう。
+テーマ ファイルをインポートしたので、JSON ファイルの構造を見てみましょう。
 
 ## <a name="structure-of-a-report-theme-json-file"></a>レポート テーマの JSON ファイルの構造
  前のセクションで選択した基本 JSON ファイル (*St Patrick's Day.json* ファイル) をエディターで開くと、次のスクリーンショットのようになります。
@@ -73,17 +84,7 @@ Power BI Desktop レポートにレポート テーマを適用するには、�
 
 * **dataColors**:Power BI Desktop ビジュアルのデータで使用する色の 16 進コードのリストです。 このリストには、必要な数の色を含めることができます。
 
-* **background**、**foreground**、**tableAccent**:さまざまな種類のビジュアルで適用される必要がある色です。 
-  - **foreground** はテキストボックス テキスト、KPI 目標テキスト、複数行カード テキスト、カード値テキスト、ゲージ吹き出しテキスト、垂直スライサー要素テキスト、**テーブル**と**マトリックス** の合計と値のテキストに適用されます。 
-  - **background** はボタン入力の塗りつぶしとコンボ チャート ラベルの背景に適用されます。 これらの色の使用方法は、適用される特定のビジュアルのスタイルによって異なります。 
-  - **テーブル** ビジュアルおよび**マトリックス** ビジュアルには、既定ではこれらのスタイルが適用されます。
-
-**テーブル** ビジュアルまたは**マトリックス** ビジュアルにスタイルを適用するには、次の手順のようにします。 
-1. ビジュアルを選択します。 
-2. 次に、 **[視覚化]** ウィンドウで **[書式]** セクションを選択します。
-3. **[マトリックスのスタイル]** を展開し、 **[スタイル]** ドロップダウンからスタイルを選択します。
-
-![[スタイル] ドロップダウン](media/desktop-report-themes/report-themes_7.png)
+* **background**、**foreground**、**tableAccent**:複数の色クラス。 色クラスの詳細については後で説明しますが、色クラスを使用するとレポートの多くの色を一度に設定できることを憶えておいてください。
 
 次に示すのは、独自の JSON ファイルの作成に使用できる *St Patrick's Day.json* ファイルのテキストです。
 
@@ -97,7 +98,7 @@ Power BI Desktop レポートにレポート テーマを適用するには、�
     }
 ```
 
-そこから、選択した色に対応する独自の色の 16 進コードを入力できます。
+レポートの基本的な色を調整するだけの場合は、このファイルの名前と 16 進コードを変更するだけで、独自の個人用 JSON ファイルをインポートすることができます。
 
 JSON ファイルでは、調整する書式設定を定義するだけです。JSON ファイルで "*指定されていない*" ものは Power BI の初期設定に戻ります。
 
@@ -112,14 +113,16 @@ JSON ファイルを作成する利点はさまざまです。 たとえば、�
 
 **[書式]** パネルの **[データの色]** セクションにはレポートのテーマが反映されます。 たとえば、**St. Patrick's Day** テーマから多数の緑色と茶色を適用した後、ビジュアルを選択します。 次に、 **[書式] > [データの色]** に移動して、次の情報を確認します。
 
-![視覚エフェクト](media/desktop-report-themes/report-themes_8.png)
+![視覚化](media/desktop-report-themes/report-themes_8.png)
 
 すべて緑色になっているのは、 これらの色が、インポートして適用した**レポートのテーマ**の一部であるためです。
 
-### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>レポートでレポート テーマの色が維持されない場合
-たとえば、カスタム カラー セット (または個別の色) をビジュアル内の特定のデータ ポイントに適用するものとします。 レポートのテーマを適用しても、そのカスタマイズしたデータ ポイントの色はオーバーライド "*されません*"。
+色パレットの色は、現在のテーマによっても異なります。 したがって、たとえばデータ ポイント用に一番上の行の 3 番目の色を選択し、後で別のテーマに変更した場合、Microsoft Office でテーマを変更したときと同じように、データ ポイントの色は新しいテーマの先頭行の 3 番目の色に自動的に更新されます。
 
-[テーマの色] セクションを使用してデータ ポイントの色も手動で設定したい場合があります。 新しいレポート テーマを適用しても、色は更新 "*されません*"。 既定の色に戻す (新しいレポート テーマの適用時に更新する) 場合は、 **[テーマの色]** パレットで **[既定値に戻す]** を選択します。
+### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>レポートでレポート テーマの色が維持されない場合
+たとえば、カラー ピッカーの [ユーザー設定の色] オプションを使用して、ビジュアル内の特定のデータ ポイントに、カスタム カラー セット (または個別の色) を適用するものとします。 レポートのテーマを適用しても、そのカスタマイズしたデータ ポイントの色はオーバーライド "*されません*"。
+
+[テーマの色] セクションを使用してデータ ポイントの色も手動で設定したい場合があります。 新しいレポート テーマを適用しても、色は更新 "*されません*"。 既定の色に戻し、新しいレポート テーマの適用時に更新する場合は、カラー ピッカーで、 **[既定値に戻す]** を選択するか、または **[テーマの色]** パレットから色を選択します。
 
 ![既定値に戻す](media/desktop-report-themes/report-themes_9.png)
 
@@ -166,13 +169,139 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 * [ハイ コントラスト](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)
 
 ## <a name="report-theme-json-file-format"></a>レポート テーマの JSON ファイル書式
-基本 JSON ファイルには、5 つの必須行があります。
+最も基本的なレベルでは、テーマの JSON ファイルには、唯一の必須行である **name** のみがあります。 
 
-* **name**:テーマ名で、唯一の必須フィールドです。
-* **dataColors**:Power BI Desktop ビジュアルのデータで使用する色の 16 進コードのリストです。 このリストには、必要な数の色を含めることができます。
-* **background**、**foreground**、**tableAccent**:さまざまな種類のビジュアルで適用される必要がある色です。 **foreground** はテキストボックス テキスト、KPI 目標テキスト、複数行カード テキスト、カード値テキスト、ゲージ吹き出しテキスト、垂直スライサー要素テキスト、**テーブル**と**マトリックス** の合計と値のテキストに適用されます。 **background** はボタン入力の塗りつぶしとコンボ チャート ラベルの背景に適用されます。 これらの色の使用方法は、適用される特定のビジュアルのスタイルによって異なります。 **テーブル** ビジュアルおよび**マトリックス** ビジュアルには、既定ではこれらのスタイルが適用されます。
+```json
+    {
+        "name": "Custom Theme",
+    }
+```
 
-書式設定がより細かく制御された拡張形式 JSON ファイルを作成するには、JSON ファイルに **visualStyles** セクションを追加する必要もあります。 **visualStyles** セクションに、書式の詳細を入れ子にします。 **visualStyles** セクションの書式は次のようになります。
+*name* 以外はすべて省略可能であり、特定の書式を設定したいプロパティだけをテーマ ファイルに追加し、残りは Power BI の既定値をそのまま使用できることを意味します。 
+
+name の下には、基本的なデータ カラーに関連するプロパティを追加できます。 
+
+
+* **dataColors**:Power BI Desktop ビジュアルのデータで使用する色の 16 進コードのリストです。 このリストには、必要な数の色を含めることができます。 このリストのすべての色を使用したうえで、ビジュアルにさらに色が必要な場合は、Power BI の既定の色パレットの使用に戻ります。 
+* **good、neutral、bad**: これらでは、ウォーターフォール図や KPI ビジュアルで使用される状態の色を設定します。
+* **maximum、center、minimum、null**: これらの色では、条件付き書式ダイアログでのさまざまなグラデーション色を設定します。  
+
+これらの色が定義されている基本的なテーマは、次のようになります。
+
+```json
+    {
+        "name": "Custom Theme",
+          "dataColors": [
+                "#118DFF",
+                "#12239E", 
+                "#E66C37", 
+                "#6B007B", 
+                "#E044A7",
+                "#744EC2", 
+                "#D9B300", 
+                "#D64550",
+                "#197278", 
+                "#1AAB40"
+    ],
+        "good": "#1AAB40",
+        "neutral": "#D9B300",
+        "bad": "#D64554",
+        "maximum": "#118DFF",
+        "center": "#D9B300",
+        "minimum": "#DEEFFF",
+        "null": "#FF7F48"
+    }
+```
+
+次に、さまざまな色クラスを追加できます。 色クラスを使用すると、通常は同じ色がまとめて使用される似たビジュアル プロパティをグループ化することにより、レポート全体の多くの色を 1 行で設定できます。 
+
+次の表では、書式設定できる 6 つの色クラスを示します。
+
+
+|色クラス  |書式設定の対象  |
+|---------|---------|
+|foreground | ラベルの背景色 (外部データ ポイントの場合) <br> 傾向線の色 <br>  テキスト ボックスの既定の色 <br> テーブルとマトリックスの値および合計のフォントの色、データ バーの軸の色 <br> カードのデータ ラベル <br> ゲージ コールアウトの値の色 <br> KPI 目標の色 <br>  KPI テキストの色 <br> スライサー項目の色 (フォーカス モードの場合)  <br> スライサー ドロップダウン項目のフォントの色 <br> スライサー数値入力のフォントの色 <br> スライサー ヘッダーのフォントの色 <br> 散布図の比率の線の色 <br> 折れ線グラフの予測線の色 <br> マップの引き出し線の色 <br> フィルター ウィンドウとカードのテキストの色|
+|foregroundNeutralSecondary |ラベルの色  <br> 凡例ラベルの色 <br> 軸ラベルの色 <br> テーブルとマトリックスのヘッダーのフォントの色 <br> ゲージ ターゲットとターゲットの引き出し線の色 <br>  KPI の傾向軸の色 <br> スライサーのスライダーの色 <br> スライサー項目のフォントの色 <br> スライサーの枠線の色 <br> 折れ線のグラフポイント時の色 <br> 複数行カードのタイトルの色 <br> リボン グラフの線の色 <br> 図形マップの境界線の色 <br> ボタン テキストのフォントの色 <br> ボタン アイコンの線の色 <br> ボタンの枠線の色 |
+| foregroundNeutralTertiary | 凡例の淡色表示の色 <br> カードのカテゴリ ラベルの色 <br> 複数行カードのカテゴリ ラベルの色 <br> 複数行カードのバーの色 <br> じょうごグラフの変換率の線の色 
+| backgroundLight | 軸のグリッド線の色 <br> テーブルとマトリックスのグリッドの色 <br> スライサー ヘッダーの背景色 (フォーカス モードの場合)  <br> 複数行カードの枠線の色  <br> 図形の塗りつぶしの色 <br> ゲージの円弧の背景色 <br> 適用されたフィルター カードの背景色 <br> |
+backgroundNeutral | テーブルとマトリックスのグリッドの枠線の色 <br> 図形マップの既定の色 <br> リボン グラフのリボンの塗りつぶしの色 (系列一致オプションがオフになっている場合) |
+background | ラベルの背景色 (内部データ ポイントの場合) <br> スライサーのドロップダウン項目の背景色  <br> ドーナツ グラフの線の色 <br> ツリーマップの線の色 <br> 複合グラフの背景色 <br> ボタンの塗りつぶしの色 <br> フィルター ウィンドウと使用可能なフィルター カードの背景色 |
+tableAccent | テーブルとマトリックスのグリッドの枠線の色をオーバーライドする (存在する場合) |
+
+
+次に、色クラスのサンプル テーマの設定を示します。
+
+```json
+    {
+        "name": "Custom Theme",
+        "foreground": "#252423",
+          "foregroundNeutralSecondary": "#605E5C",
+          "foregroundNeutralTertiary": "#B3B0AD",
+        "background": "#FFFFFF",
+          "backgroundLight": "#F3F2F1",
+          "backgroundNeutral": "#C8C6C4",
+        "tableAccent": "#118DFF"
+    }
+```
+
+次に、テキスト クラスを JSON ファイルに追加できます。これは、色クラスに似ていますが、レポート全体のテキスト グループのフォント サイズ、色、およびファミリを更新できるように設計されています。 テキスト クラスは 12 個ありますが、実際に設定する必要があるのは、レポート内のすべてのテキストの書式を変更するための、"*プライマリ クラス*" と呼ばれる 4 つのクラスだけです。 "*セカンダリ クラス*" と見なされる他のテキスト クラスのプロパティは、関連付けられているプライマリ クラスから自動的に継承または派生されます。 多くの場合、セカンダリ クラスでは、プライマリ クラスと比較して、影を薄くしたテキストの色や、ある割合で拡大または縮小されたテキスト サイズが派生されます。 
+
+"*ラベル*" クラスを例にして説明します。 ラベル クラスの既定の書式設定は Segoe UI、#252423 (濃い灰色)、12 ポイントであり、このクラスはテーブルとマトリックスの値の書式設定に使用されます。 通常、テーブルまたはマトリックスの合計は似た書式になりますが、よく目立つように太字になっているので、太字のラベル クラスが使用されます。 ただし、テーマの JSON でユーザー自身が指定する必要はありません。 Power BI によって自動的に設定されます。 後でラベルのフォントを 14 ポイントにすることにして、テーマでそれを指定する場合、太字のラベル クラスも更新する必要はありません。太字クラスは、ラベル クラスからすべてのテキストの書式設定を継承し、それを基にしてフォント ファミリを太字にしているだけであるためです。 
+
+表の一覧では、次のことが示されています。
+* 4 つのプライマリ テキスト クラス、それで設定されている書式、および既定の設定
+* 各セカンダリ クラス、それで設定されている書式、プライマリ クラスと比較して異なる既定の設定
+
+
+|プライマリ クラス  |セカンダリ クラス  |JSON でのクラス名  |設定  |関連付けられているビジュアル オブジェクト  |
+|---------|---------|---------|---------|---------|
+| コールアウト   | 該当なし   | callout | DIN <br> #252423 <br> 45 ポイント |カードのデータ ラベル <br> KPI インジケーター|
+|ヘッダー|該当なし|header|Segoe UI Semibold <br> #252423 <br> 12 ポイント |主要インフルエンサーのヘッダー |
+| タイトル || title    |DIN <br> #252423 <br> 12 ポイント |カテゴリ軸のタイトル <br> 値軸のタイトル <br> 複数行カードのタイトル* <br> スライサー ヘッダー|
+|-| 大きいタイトル | largeTitle    |14 ポイント   |ビジュアル タイトル |
+|ラベル ||label |Segoe UI<br>#252423<br>10 ポイント |テーブルとマトリックスの列見出し <br> マトリックスの行見出し<br>テーブルとマトリックスのグリッド<br>テーブルとマトリックスの値 |
+|-|中太字 |semiboldLabel| Segoe UI Semibold   | 主要インフルエンサーのプロファイル テキスト
+|-|大    |largeLabel |12 ポイント   | 複数行カードのデータ ラベル |
+|-|小    |smallLabel |9 ポイント    |参照線のラベル* <br>スライサーの日付範囲ラベル<br> スライサーの数値入力のテキスト スタイル<br>スライサーの検索ボックス<br>主要インフルエンサーのインフルエンサー テキスト|
+|-|明るい    |lightLabel |#605E5C    |凡例のテキスト<br>ボタンのテキスト<br>カテゴリ軸のタイトル<br>じょうごグラフのデータ ラベル<br>じょうごグラフの変換率のラベル<br>ゲージ ターゲット<br>散布図のカテゴリ ラベル<br>スライサー項目|
+|-|太字 |boldLabel  |Segoe UI Bold  |マトリックスの小計<br>マトリックスの総計<br>テーブルの合計 |
+|-|大で明るい  |largeLightLabel    |#605E5C<br>12 ポイント    |カードのカテゴリ ラベル<br>ゲージ ラベル<br>複数行カードのカテゴリ ラベル |
+|-|小で明るい  |smallLightLabel    |#605E5C<br>9 ポイント |データ ラベル<br>値軸のラベル|
+
+
+セカンダリ クラスはプライマリ クラスから継承されるためテーマ ファイルで設定する必要はありませんが、継承規則が適切でない場合は (たとえば、合計をテーブルの値の太字バージョンにしたくない場合など)、プライマリ クラスの書式設定と同様に、テーマ ファイルでセカンダリ クラスを明示的に書式設定できます。
+
+プライマリ テキスト クラスのみを設定するテーマの例を次に示します。 
+
+```json
+    {
+            "name": "Custom Theme",
+          "textClasses": {
+                "callout": {
+                    "fontSize": 45,
+                    "fontFace": "wf_standard-font",
+                    "color": "#252423"
+                },
+                "title": {
+                    "fontSize": 12,
+                    "fontFace": "wf_standard-font",
+                    "color": "#252423"
+                },
+                "header": {
+                    "fontSize": 12,
+                    "fontFace": "Segoe UI Semibold",
+                    "color": "#252423"
+                },
+                "label": {
+                    "fontSize": 10,
+                    "fontFace": "Segoe UI",
+                    "color": "#252423"
+                }
+        }    
+    }
+```
+
+最後に、すべてのビジュアルの書式設定がより細かく制御された拡張形式 JSON ファイルを作成するには、JSON ファイルに **visualStyles** セクションを追加できます。 **visualStyles** セクションに、書式の詳細を入れ子にします。 **visualStyles** セクションの書式は次のようになります。
 
     visualStyles: {
         visualName: {
@@ -184,7 +313,52 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
         }
     }
 
-**VisualName** セクションと **cardName** セクションでは、特定のビジュアルとカード名を使用します。 特定のビジュアルに対するプロパティを含むすべてのビジュアルまたはカードに設定を適用する場合は、アスタリスク ("\*") を使用します。 アスタリスク ("\*") は、ビジュアルに対するフォント サイズや特定のフォント ファミリなど、レポート全体に設定を適用するときに利用できます。
+**VisualName** セクションと **cardName** セクションでは、特定のビジュアルとカード名を使用します。 現在、**styleName** は常にアスタリスク ("*") ですが、今後のリリースでは、ビジュアル用に異なるスタイルを作成し、名前を付けることができるようになります (テーブルとマトリックスのスタイル機能に似ています)。 **propertyName** は特定の書式設定オプションの名前であり、**propertyValue** では必要に応じて書式設定オプションを指定します。  
+
+**visualName** と **cardName** では、プロパティが含まれるすべてのビジュアルまたはカードにその設定を適用したい場合は、特定のビジュアル名またはカード名ではなく、アスタリスク ("\*") を使用できます。 ビジュアル名とカード名の両方にアスタリスク ("\*") を使用すると、実質的に、すべてのビジュアルのすべてのテキストに対するフォント サイズや特定のフォント ファミリなど、レポート内でグローバルに設定を適用することになります。
+
+ビジュアル スタイルを使用していくつかのプロパティを設定する例を次に示します。 
+
+```json
+{  
+   "name":"Custom Theme",
+   "visualStyles":{  
+      "*":{  
+         "*":{  
+            "*":[{  
+                  "wordWrap":true
+            }],
+            "categoryAxis":[{
+                  "gridlineStyle":"dotted"
+            }],
+            "filterCard":[{  
+                  "$id":"Applied",
+                  "foregroundColor":{"solid":{"color":"#252423"}}
+               },
+               {  
+                  "$id":"Available",
+                  "border":true
+            }]
+         }
+      },
+      "scatterChart":{  
+         "*":{  
+            "bubbles":[{  
+                  "bubbleSize":-10
+            }]
+         }
+      }
+   }
+}
+```
+
+この例では以下のことが示されています。
+
+* すべての場所で右端での折り返しを有効にする
+* カテゴリ軸があるすべてのビジュアルで、グリッド線のスタイルを点線に設定する
+* 使用可能および適用済みのフィルター カードのいくつかの書式を設定する ("$id" を使用して異なるバージョンのフィルター カードを設定する書式設定に注意してください)
+* 散布図のバブル サイズを -10 に設定する。
+
 
 > [!NOTE]
 > 調整する書式要素を指定する必要があります。 JSON ファイルに含まれていない書式設定要素は既定の値と設定に戻ります。
@@ -193,12 +367,6 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 
 ### <a name="json-file-element-definitions"></a>JSON ファイル要素定義
 このセクションの表では、ビジュアル名 (*visualName*)、カード名 (*cardName*)、JSON ファイルの作成に必要な列挙を定義します。
-
-*dateTime* を使用するときは、日付は ISO 日付にして一重引用符を付けます。また、datetime を先頭に付けます。 次に例を示します。
-
-    “datetime’2011-10-05T14:48:00.000Z’”
-
-ブール値は *true* か *false* です。 文字列は、"this is a string" のように、二重引用符で囲む必要があります。
 
 | **visualName** |
 | --- |
@@ -212,7 +380,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 | comboChart |
 | donutChart |
 | filledMap |
-| funnel |
+| じょうご |
 | gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
@@ -221,7 +389,7 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| map |
+| マップ |
 | multiRowCard |
 | pieChart |
 | pivotTable |
@@ -291,7 +459,20 @@ Valentine's Day の JSON ファイルは、ダウンロードするのではな�
 | zoom:ズーム |
 
 ### <a name="properties-within-each-card"></a>各カード内のプロパティ
-次のセクションでは、各カードに含まれるプロパティを定義します。
+次のセクションでは、各カードに含まれるプロパティを定義します。 カード名の後で各プロパティ名を指定します。 プロパティごとに、書式設定ウィンドウが表示されている場合に表示される名前、書式設定オプションの動作の説明、および書式設定オプションの種類を指定します。 この方法により、テーマ ファイルで使用できる値の種類を知ることができます。 
+
+**dateTime** を使用するときは、日付は ISO 日付にして一重引用符を付けます。また、datetime を先頭に付けます。 次に例を示します。
+
+    “datetime’2011-10-05T14:48:00.000Z’”
+
+ブール値は true または false です。 文字列は、"this is a string" のように、二重引用符で囲む必要があります。 数値は、引用符のない値自体だけです。
+
+色では、次の形式を使用する必要があります。カスタムの 16 進コードを使用し、"FFFFFF" は次の例のようになります。  
+
+    { "solid": { "color": "#FFFFFF" } }
+
+ドロップダウン書式設定オプションで最もよく使用される列挙値は、ウィンドウに表示される任意のオプションに設定できます。たとえば、凡例の位置の "右中央" や、円データ ラベルの "データ値、合計の割合" などです。 列挙オプションは、プロパティ リストの後で示します。
+
 
 ```json
       "general":

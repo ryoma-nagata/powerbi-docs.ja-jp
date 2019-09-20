@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 00574228fbfa8954b8cfb9cb026a9230eb1bd73e
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816545"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841760"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI で作業を共有する方法
 
@@ -31,7 +31,7 @@ ms.locfileid: "66816545"
 
 どのオプションでも、コンテンツを共有するには [Power BI Pro のライセンス](service-features-license-type.md)が必要です。あるいは、コンテンツを [Premium 容量](service-premium-what-is.md)に格納する必要があります。 ライセンスの要件は、コンテンツを表示する同僚については、選んだオプションに応じて異なります。 次のセクションでは、詳細を説明します。 
 
-![Power BI サービスでのアプリ](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
+![Power BI サービスでのアプリ](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-new-look.png)
 
 *Power BI サービスでのアプリ*
 
@@ -41,7 +41,7 @@ ms.locfileid: "66816545"
 
 ワークスペースには、同僚に付与するアクセス許可を指定するロールも用意されています。 このようなロールを使用して、ワークスペース全体を管理できるユーザー、コンテンツを編集できるユーザー、コンテンツを配布できるユーザーを指定することができます。
 
-![ワークスペース](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![ワークスペース](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 当然ながら、自分のマイ ワークスペースにコンテンツを配置し、そこから共有することもできます。 しかしワークスペースにはコンテンツの共同所有機能があるため、共同作業の点でマイ ワークスペースよりも優れています。 チームの管理者とチーム全体が更新を加え、他のユーザーにアクセス権を付与する操作も簡単です。 マイ ワークスペースは、1 人のユーザーが 1 回限りのコンテンツや個人用のコンテンツに使用する場合に適しています。
 
@@ -57,19 +57,21 @@ Power BI のワークスペース エクスペリエンスが新しくなりま�
 
 組織で多くの対象ユーザーにダッシュボードを配布するとします。 チームは*ワークスペース*を作成し、そのワークスペースに、ダッシュボード、レポート、およびデータセットを作成して、調整しました。 次に、目的のダッシュボードとレポートを選択し、それらをアプリとしてグループまたは組織全体に発行します。
 
-![アプリを公開する](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
+![アプリを公開する](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
-アプリは Power BI サービス ([https://powerbi.com](https://powerbi.com)) で簡単に検索してインストールすることができます。 アプリへの直接リンクをビジネス ユーザーに送信したり、ユーザーが AppSource でアプリを検索しりすることができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 詳細については、[アプリの発行](service-create-distribute-apps.md)に関するページを参照してください。
+アプリは Power BI サービス ([https://app.powerbi.com](https://app.powerbi.com)) で簡単に検索してインストールすることができます。 アプリへの直接リンクをビジネス ユーザーに送信したり、ユーザーが AppSource でアプリを検索しりすることができます。 Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 詳細については、[アプリの発行](service-create-distribute-apps.md)に関するページを参照してください。
 
 インストールしたアプリは、ブラウザーまたはモバイル デバイスで表示できます。
 
 ユーザーがアプリを表示するには、ユーザーに Power BI Pro ライセンスが付与されているか、アプリを Power BI Premium 容量に格納する必要があります。 詳しくは、[Power BI Premium](service-premium-what-is.md) に関するページをご覧ください。
 
-組織外のユーザーにアプリを発行することもできます。 組織外のユーザーは、アプリのコンテンツを表示し、操作することはできますが、他のユーザーと共有することはできません。 これで、*テンプレート アプリ*を作成して、Power BI の顧客に配布できます。
+組織外の人向けにアプリを発行することもできます。 組織外のユーザーは、アプリのコンテンツを表示し、操作することはできますが、他のユーザーと共有することはできません。 これで、*テンプレート アプリ*を作成して、Power BI の顧客に配布できます。
 
 ## <a name="share-a-dataset"></a>データセットを共有する
 
 レポート内に、高品質で適切に設計されたデータ モデルを作成するスキルが人より高いユーザーがいる場合があります。 あなたが、その人かもしれません。 適切に設計された同じデータ モデルを組織全体で使用できれば便利です。 *共有データセット*がその役目を果たします。 全員が使用すべきデータ モデルでレポートを作成したら、そのレポートを Power BI サービスに保存して、適切なユーザーに使用権限を付与することができます。 それにより、ユーザーはそのデータセットに基づいてレポートを作成できます。 これで、誰もが同じデータに基づいてレポートを作成し、同じ "真実に基づく結果" を見ることができます。
+
+![共有データセットを検索する](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-shared-datasets.png)
 
 詳細については、[共有データセットの作成と使用](service-datasets-across-workspaces.md)に関する記事を参照してください。
 
@@ -77,9 +79,9 @@ Power BI のワークスペース エクスペリエンスが新しくなりま�
 
 マイ ワークスペースまたはワークスペースでダッシュボードとレポートの作成が完了し、他の少数のユーザーにアクセス許可を与える場合を考えてみましょう。 アクセス許可を与える方法の 1 つが、 *共有* することです。 
 
-![[共有] アイコン](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
+![レポートの共有](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-コンテンツを共有するには Power BI Pro ライセンスが必要です。また、共有先にも同様のライセンスが必要です。あるいは、コンテンツを [Premium 容量](service-premium-what-is.md)のワークスペースに格納する必要があります。 ダッシュボードまたはレポートを共有すると、共有相手は、ダッシュボードを表示し、対話操作を行うことができますが、編集はできません。 行レベルのセキュリティ (RLS) が内部のデータセットに適用されない限り、自分のダッシュボードおよびレポートに表示されるものと同じデータが同僚にも表示されます。 共有元のユーザーが許可した場合、共有先のユーザーはそれを同僚と共有できます。 
+コンテンツを共有するには Power BI Pro ライセンスが必要です。また、共有先の人にも同様のライセンスが必要です。または、コンテンツを [Premium 容量](service-premium-what-is.md)のワークスペースに格納する必要があります。 ダッシュボードまたはレポートを共有すると、共有相手は、ダッシュボードを表示し、対話操作を行うことができますが、編集はできません。 行レベルのセキュリティ (RLS) が内部のデータセットに適用されない限り、自分のダッシュボードおよびレポートに表示されるものと同じデータが同僚にも表示されます。 共有元のユーザーが許可した場合、共有先のユーザーはそれを同僚と共有できます。 
 
 組織外のユーザーと共有することもできます。 組織外のユーザーは、ダッシュボードまたはレポートを表示し、対話操作を行うことはできますが、共有することはできません。 
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391751"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903812"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*コンシューマー*向け Power BI サービスでレポートを表示する
 レポートは、ビジュアルで構成される 1 つまたは複数のページです。 レポートは Power BI "*デザイナー*" によって作成され、["*コンシューマー*" と直接](end-user-shared-with-me.md)、または[アプリ](end-user-apps.md)の一部として共有されます。 
@@ -30,7 +30,7 @@ ms.locfileid: "70391751"
    ![ホーム ページ](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>ユーザーと共有されているレポートを開く
-Power BI *デザイナー*では、電子メールのリンクを使用したり、Power BI ホームに追加したりすることで、個々のレポートを直接共有できます。 この方法で共有されたコンテンツは、ナビゲーション バーの **[自分と共有]** コンテナーとホーム キャンバスの **[自分と共有]** セクションに表示されます。
+Power BI "*デザイナー*" では、電子メールのリンクを使用したり、自動的に追加したりすることで、個々のレポートを直接共有できます。 この方法で共有されたコンテンツは、ナビゲーション バーの **[自分と共有]** コンテナーとホーム キャンバスの **[自分と共有]** セクションに表示されます。
 
 1. Power BI サービス (app.powerbi.com) を開きます。
 
@@ -50,6 +50,12 @@ Power BI *デザイナー*では、電子メールのリンクを使用したり
 
    ![レポート ページ タブ](./media/end-user-report-open/power-bi-ytd.png)
 
+6. 右側に **[フィルター]** ウィンドウが表示されることに注意してください。 このレポート ページまたはレポート全体に適用されているフィルターが、ここに表示されます。
+
+7. レポートのビジュアルの上にカーソルを置くと、いくつかのアイコンと省略記号 [...] が表示されます。特定のビジュアルに適用されているフィルターを確認するには、[フィルター] アイコンを選択します。 ここでは、*Rolling Period および Region による Total Units* の折れ線グラフのフィルター アイコンを選択しています。
+
+   ![レポート ページ タブ](./media/end-user-report-open/power-bi-visual-filters.png)
+
 6. これで、レポート ページ全体が表示されます。 ページの表示 (ズーム) を変更するには、右上隅にある [表示] ドロップダウンを選択し、 **[実際のサイズ]** を選択します。
 
    ![ズームの変更](./media/end-user-report-open/power-bi-fit-new.png)
@@ -59,15 +65,20 @@ Power BI *デザイナー*では、電子メールのリンクを使用したり
 ### <a name="open-a-report-that-is-part-of-an-app"></a>アプリの一部となっているレポートを開く
 仕事仲間や AppSource からアプリを受け取っている場合、そのアプリは [ホーム] とナビゲーション バーの **[アプリ]** コンテナーから利用できます。 [アプリ](end-user-apps.md)はダッシュボードとレポートをまとめたものです。
 
+### <a name="prerequisites"></a>前提条件
+先に進むには、売上およびマーケティング アプリをダウンロードしてください。
+1. ブラウザーで、appsource.microsoft.com に移動します。
+1. "Sales and Marketing" を検索し、**Microsoft sample - Sales & Marketing** を選択します。
+1. **[今すぐ入手する]**  >  **[続行]**  >  **[インストール]** を選択して、アプリ コンテナーにアプリをインストールします。 
+
+アプリ コンテナーまたはホームからアプリを開くことができます。
 1. ナビゲーション バーから **[ホーム]** を選択して、[ホーム] に戻ります。
 
 7. **[マイ アプリ]** が表示されるまで下方向にスクロールします。
 
-   ![ホーム ページ](./media/end-user-report-open/power-bi-my-apps.png)
+   ![ホーム ページ](./media/end-user-report-open/power-bi-app.png)
 
-8. アプリの 1 つを選択して開きます。 アプリでは、アプリ *デザイナー*によって設定されたオプションに基づき、ダッシュボードまたはレポートが開きます。 アプリを選択し、
-    - レポートが開いた場合、そこで操作はおしまいです。
-    - ダッシュボードが開いた場合、下の「***ダッシュボードからレポートを開く***」を参照してください。
+8. 新しい営業およびマーケティング アプリを選択して開きます。 アプリでは、アプリ *デザイナー*によって設定されたオプションに基づき、ダッシュボードまたはレポートが開きます。 このアプリはダッシュボードに開かれます。  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>ダッシュボードからレポートを開く
@@ -94,5 +105,6 @@ Power BI サービスのナビゲーションに慣れてくると、最適な�
 - その他
 
 ## <a name="next-steps"></a>次の手順
-[ダッシュボードを開いて表示する](end-user-dashboard-open.md)
+[ダッシュボードを開いて表示する](end-user-dashboard-open.md)    
+[レポートのフィルター](end-user-report-filter.md)
 

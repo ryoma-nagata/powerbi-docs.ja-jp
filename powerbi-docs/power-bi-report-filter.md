@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654424"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841261"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI レポートの新しいフィルター エクスペリエンス
 
 Power BI のフィルターに、新しい機能と新しいデザインが追加されました。 新しいフィルター エクスペリエンスを利用するとき、レポートの他の部分に合わせて [フィルター] ウィンドウを書式設定できます。 フィルターをロックし、非表示にすることも可能です。 レポートをデザインするとき、[視覚化] ウィンドウには、以前の [フィルター] ウィンドウは表示されません。 フィルターの編集と書式設定のすべての操作を、1 つの [フィルター] ウィンドウで行います。 
 
-![新しいフィルター エクスペリエンス](media/power-bi-report-filter/power-bi-filter-reading.png)
+![新しいフィルター エクスペリエンス](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-レポート デザイナーが、新しい 1 つの [フィルター] ウィンドウで実行できる操作を次に示します。
+レポート デザイナーが新しい [フィルター] ウィンドウで実行できるタスクの一部を次に示します。
 
 - フィルターを適用するフィールドを追加および削除する。 
 - フィルターの状態を変更する。
@@ -207,7 +207,7 @@ Power BI サービスで **[新しい外観]** がオンになっている場合
 
 ## <a name="sort-the-filter-pane"></a>フィルター ウィンドウを並べ替える
 
-カスタムの並べ替え機能は、新しいフィルター ウィンドウのエクスペリエンスの一部です。 レポート作成者がフィルターをドラッグ アンド ドロップして、必要な順序で並べ替えることができます。
+カスタムの並べ替え機能は、新しいフィルター ウィンドウのエクスペリエンスの一部です。 レポート作成者は、フィルターをドラッグ アンド ドロップして、任意の順序で並べ替えることができます。
 
 ![フィルターの並べ替え順序を変更する](media/power-bi-report-filter/power-bi-filter-sort.gif)
 

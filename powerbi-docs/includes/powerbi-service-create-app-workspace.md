@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/04/2019
+ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67534675"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903969"
 ---
-1. 最初に、ワークスペースを作成します。 **[ワークスペース]**  >  **[アプリのワークスペースの作成]** の順に選択します。 
+1. 最初に、ワークスペースを作成します。 **[ワークスペース]**  >  **[ワークスペースの作成]** を選択します。 
    
-     ![アプリのワークスペースの作成](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![ワークスペースの作成](media/powerbi-service-create-app-workspace/power-bi-workspace-create.png)
    
     ここには、同僚と共同作業をするコンテンツを配置します。
 
@@ -41,7 +41,7 @@ ms.locfileid: "67534675"
    
      ![編集または表示専用を設定する](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     コンテンツを編集できるようにアプリ ワークスペースだけにユーザーを追加します。 コンテンツを表示するだけのユーザーの場合は、ワークスペースには追加しないでください。 そのユーザーは、アプリを発行するときに追加できます。
+     コンテンツを編集できるように、ワークスペースだけにユーザーを追加します。 コンテンツを表示するだけのユーザーの場合は、ワークスペースには追加しないでください。 そのユーザーは、アプリを発行するときに追加できます。
 
 5. ワークスペースへのアクセス許可を与えるユーザーの電子メール アドレスを追加して、 **[追加]** を選択します。 追加できるのは個別ユーザーのみで、グループのエイリアスは追加できません。
 
@@ -55,5 +55,5 @@ ms.locfileid: "67534675"
 
 Power BI でワークスペースが作成され、開きます。 メンバーであるワークスペースの一覧が表示されます。 管理者は、省略記号 (...) を選択すると、前の画面に戻って新しいメンバーの追加やアクセス許可の変更などの変更を加えることができます。
 
-![ワークスペースの編集](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![ワークスペースの編集](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

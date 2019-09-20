@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490320"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877808"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -119,9 +119,9 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>既存のユーザーが Power BI の使用を開始できないようにするにはどうすればよいですか。
 
-これを制御する Azure AD の設定は、**AllowAdHocSubscriptions** です。 ほとんどのテナントでは、これは、有効を意味する true に設定されます。 パートナーを通じて Power BI を入手した場合、これは、無効を意味する false に設定されている可能性があります。
+これを制御する Azure AD の設定は、**AllowAdHocSubscriptions** です。 ほとんどのテナントでは、これは、有効を意味する *true* に設定されます。 パートナーを通じて Power BI を入手した場合、これは、無効を意味する *false* に設定されている可能性があります。
 
-アドホック サブスクリプションを無効にするには、次の PowerShell スクリプトを使用します。 ([PowerShell の詳細を確認する][1]。)
+アドホック サブスクリプションを無効にするには、次の PowerShell スクリプトを使用します ([PowerShell の詳細を確認する][1])。
 
 1. Office 365 の資格情報を使用して Azure Active Directory にサインインします。 次の PowerShell のスクリプトの 1 行目では、ユーザーに資格証明が要求されます。 2 行目で、Azure Active Directory に接続します。
 
@@ -145,7 +145,7 @@ Get-MsolCompanyInformation | fl allow*
     ```
 
 > [!NOTE]
-> **AllowAdHocSubscriptions** フラグは、組織内のさまざまなユーザーの能力を制御するために使用されます。この中には、ユーザーが Azure Rights Management サービスにサインアップする能力も含まれます。 このフラグの変更は、これらすべての能力に影響します。
+> **AllowAdHocSubscriptions** フラグは、組織内のさまざまなユーザーの能力を制御するために使用されます。この中には、ユーザーが Azure Rights Management サービスにサインアップする能力も含まれます。 このフラグの変更は、これらすべての能力に影響します。 設定が *false* の場合でも、ユーザーは Pro 試用版にサインアップできます。
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>既存のユーザーに Power BI へのサインアップを許可するにはどうすればよいですか。
 

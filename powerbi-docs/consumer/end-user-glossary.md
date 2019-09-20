@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751013"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903676"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -60,14 +60,19 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **calculation (計算)** 何らかのサイズや数を数学的に決定すること。
 
+**card (カード)** (ビジュアルの種類) Power BI の[ビジュアルの種類](end-user-visual-type.md)。
+
+**card (カード)** (Power BI ホーム) Power BI ホームには、ダッシュボード、レポート、アプリなどを表す長方形と正方形の画像が表示されます。 これらの画像は "*カード*" と呼ばれます。
+
 **certified custom visual (認定済みカスタム ビジュアル)** 要件を満たし、厳密なセキュリティ テストに合格した Power BI のカスタム ビジュアル。
 
 **classification (分類)** データ分類とも呼ばれます。 このオプションは、ダッシュボードに必要なセキュリティ レベルの認識を高めるために Power BI 管理者が有効にすることができます。 分類の種類は組織でカスタマイズできます。
 
 **connect live (ライブ接続する)** SQL Server Analysis Services データ モデルに接続する方法。 ライブ接続ともいいます。
 
-**content (コンテンツ)**
+**container (コンテナー)** ナビゲーション バー上の領域は "*コンテナー*" です。 ナビゲーション バーには、次のコンテナーがあります: [お気に入り]、[最近]、[アプリ]、[自分と共有]、[ホーム]。 
 
+**content (コンテンツ)** Power BI サービスのコンテンツは、通常、ダッシュボード、レポート、アプリです。 ブックとデータセットを含めることもできます。
 
 **content list (コンテンツ リスト)** アプリのコンテンツ インデックス。
 
@@ -109,7 +114,8 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **Editing View (編集ビュー)** レポート *デザイナー*がレポートを探索、設計、構築、および共有できるモード。
 
-**ellipsis (省略記号)** ...
+**ellipsis (省略記号)** ...    
+省略記号を選択すると、追加のメニュー オプションが表示されます。
 
 **embed code (埋め込みコード)** インターネット全体の共通基準。 Power BI では、顧客は埋め込みコードを生成し、それをコピーして、Web サイトやブログにレポート ビジュアルなどのコンテンツを配置できます。
 
@@ -158,7 +164,8 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 ## <a name="l"></a>L
 
-**left navigation (left nav) (左側のナビゲーション (左ナビ))** Power BI サービスの左端に沿って示されるコントロール。
+**left navigation (left nav) (左ナビゲーション)** これは**ナビゲーション バー**に置き換えられていますが、一部のドキュメントではまだ表示される場合があります。    
+Power BI サービスの左端に沿って示されるコントロール。
 
 最初のインスタンス: 左側のナビゲーション、以降の言及またはスペースに余裕がない場合: 左ナビ
 
@@ -176,7 +183,11 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **native (ネイティブ)** 製品に付属しているもの。 たとえば、Power BI には、一連の*ネイティブ*の視覚エフェクトの種類が付属しています。 しかし、カスタム ビジュアルなどの他の種類をインポートすることもできます。
 
-**navigation pane (ナビゲーション ウィンドウ)** 「**左側のナビゲーション**」を参照してください
+**navigation bar (ナビゲーション バー)** または **nav bar (ナビ バー)** Power BI サービスの左端に沿って示されるコントロール。
+
+最初のインスタンス: ナビゲーション バー、以降の言及またはスペースに余裕がない場合: ナビ バー
+
+**navigation pane (ナビゲーション ウィンドウ)** 「**ナビゲーション バー**」を参照してください
 
 **notification (通知)** Power BI 通知センターから、また、同センターに送信されるメッセージ。  
 

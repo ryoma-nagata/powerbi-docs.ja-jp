@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0bb8d796af5139cd89f4bdfa0a8da10603acb2ed
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530568"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903993"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI でクラシック ワークスペースを作成する
 
@@ -23,53 +23,49 @@ Power BI では、"*ワークスペース*" を作成することができます
 
 **ご存知でしたか?** Power BI で新しいワークスペース エクスペリエンスが提供されるようになりました。これは既定値となります。 新しいワークスペースの詳細については、「[Power BI の新しいワークスペースで作業を整理する](service-new-workspaces.md)」を参照してください。 
 
-クラシック ワークスペースを作成するときは、基になる、関連する Office 365 グループを作成します。 ワークスペースの管理はすべて Office 365 で行われます。 こうしたワークスペースには、メンバーまたは管理者として、同僚を追加することができます。 ワークスペースでは、より広範な対象ユーザーに発行する予定のダッシュボード、レポート、およびその他の記事で、全員が共同作業を行うことできます。 アプリ ワークスペースに追加するすべてのユーザーに、Power BI Pro のライセンスが必要となります。 
+クラシック ワークスペースを作成するときは、基になる、関連する Office 365 グループを作成します。 ワークスペースの管理はすべて Office 365 で行われます。 こうしたワークスペースには、メンバーまたは管理者として、同僚を追加することができます。 ワークスペースでは、より広範な対象ユーザーに発行する予定のダッシュボード、レポート、およびその他の記事で、全員が共同作業を行うことできます。 ワークスペースに追加するすべてのユーザーに、Power BI Pro のライセンスが必要となります。 
 
-## <a name="video-apps-and-app-workspaces"></a>ビデオ:アプリとアプリ ワークスペース
+## <a name="video-apps-and-workspaces"></a>ビデオ:アプリとワークスペース
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>Office 365 グループに基づいてクラシック アプリ ワークスペースを作成する
+## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>Office 365 グループに基づいてクラシック ワークスペースを作成する
 
-アプリ ワークスペースは Office 365 グループを基に作成します。
+ワークスペースは Office 365 グループを基に作成します。
 
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
 
 最初に作成するとき、場合によっては、ワークスペースが Office 365 に反映されるまで 1 時間程度待つ必要があります。 
 
-### <a name="add-an-image-to-your-office-365-app-workspace-optional"></a>Office 365 アプリ ワークスペースにイメージを追加する (省略可能)
+### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Office 365 ワークスペースにイメージを追加する (省略可能)
 既定では、Power BI は、アプリの頭文字を使用した色付きの小さな丸をアプリに作成します。 しかし、画像でカスタマイズする必要があるかもしれません。 画像を追加するには、Exchange Online ライセンスが必要です。
 
 1. **[ワークスペース]** を選択し、ワークスペースの名前の横にある省略記号 (...) を選択して、 **[メンバー]** を選択します。 
    
-     ![ワークスペースのメンバーを選択する](media/service-create-distribute-apps/power-bi-apps-workspace-members.png)
+     ![ワークスペースのメンバーを選択する](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
     ワークスペースの Office 365 Outlook アカウントが、新しいブラウザー ウィンドウで開きます。
-2. 左上の色付きの丸にマウスを置くと、鉛筆のアイコンに変わります。 その質問を選択します。
+2. **[編集]** 鉛筆を選択します。
    
-     ![Office 365 の鉛筆アイコン](media/service-create-distribute-apps/power-bi-apps-workspace-edit-image.png)
-3. 鉛筆のアイコンを再度選択し、使用する画像を検索します。
+     ![Office 365 の鉛筆アイコン](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+3. カメラ画像を選択し、使用する画像を検索します。
    
-     ![鉛筆をもう一度選択する](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
+     ![カメラ画像を選択する](media/service-create-workspaces/power-bi-workspace-old-camera.png)
 
      画像には、.png、.jpg、.bmp のいずれかのファイルを使用できます。 ファイルのサイズは、最大で 3 MB にすることができます。 
 
-4. **[保存]** を選択します。
-   
-     ![[保存] を選択する](media/service-create-distribute-apps/power-bi-apps-workspace-save-image.png)
+4. **[OK]** を選択し、 **[保存]** を選択します。
    
     Office 365 Outlook のウィンドウで、色付きの丸がその画像に置き換えられます。 
    
-     ![カスタマイズされた画像](media/service-create-distribute-apps/power-bi-apps-workspace-image-in-office-365.png)
+     ![カスタマイズされた画像](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    
     数分後に、Power BI のアプリでも画像が表示されます。
-   
-     ![カスタマイズされた画像](media/service-create-distribute-apps/power-bi-apps-image.png)
 
-## <a name="add-content-to-your-app-workspace"></a>アプリ ワークスペースにコンテンツを追加する
+## <a name="add-content-to-your-workspace"></a>ワークスペースにコンテンツを追加する
 
-アプリ ワークスペースを作成したら、次はコンテンツを追加します。 これはマイ ワークスペースにコンテンツを追加する場合と似ていますが、ワークスペース内の他のユーザーが表示だけでなく編集もできる点が異なります。 大きな違いは、作業が完了したら、アプリとしてコンテンツを発行できることです。 アプリ ワークスペースのコンテンツ リストでコンテンツを表示すると、アプリ ワークスペースの名前が所有者としてリストされます。
+ワークスペースを作成したら、次はコンテンツを追加します。 これはマイ ワークスペースにコンテンツを追加する場合と似ていますが、ワークスペース内の他のユーザーが表示だけでなく編集もできる点が異なります。 大きな違いは、作業が完了したら、アプリとしてコンテンツを発行できることです。 ワークスペースのコンテンツ リストでコンテンツを表示すると、ワークスペースの名前が所有者としてリストされます。
 
-### <a name="connect-to-third-party-services-in-app-workspaces"></a>アプリ ワークスペースでサード パーティ サービスに接続する
+### <a name="connect-to-third-party-services-in-workspaces"></a>ワークスペースでサード パーティ サービスに接続する
 
 Power BI でサポートされるすべてのサード パーティ サービスに対してアプリが提供されます。これにより、Microsoft Dynamics CRM、Salesforce、Google Analytics などの使用するサービスからデータを簡単に取得することができます。 組織のアプリを発行して、ユーザーが必要とするデータをそのユーザーに提供することができます。
 
@@ -96,7 +92,7 @@ Power BI でサポートされるすべてのサード パーティ サービス
 * 将来的には、組織のコンテンツ パックは廃止される予定のため、今後はアプリを作成することをお勧めします。  
 * 新しいワークスペース エクスペリエンス プレビューの提供は、組織のコンテンツ パックの廃止への第一歩となります。 組織のコンテンツ パックをプレビュー ワークスペースで利用したり、作成したりすることはできません。
 
-2 つを比較するには、[新しいアプリ ワークスペースと既存のアプリ ワークスペースの相違点](service-new-workspaces.md#how-the-new-workspaces-are-different)に関する記事を参照してください。 
+2 つを比較するには、[新しいワークスペースと既存のワークスペースの相違点](service-new-workspaces.md#how-the-new-workspaces-are-different)に関する記事を参照してください。 
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI にアプリをインストールし、使用する](service-create-distribute-apps.md)

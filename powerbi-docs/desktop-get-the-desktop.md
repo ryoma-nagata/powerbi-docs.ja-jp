@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b92bd2917165cd6dc89e0c9f9a94e83d69f1c2a
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e7a96186fe68ed0d70de7a502e81da4f24f4d802
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560850"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903565"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 **Power BI Desktop** では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 **Power BI Desktop** を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。  **Power BI Desktop** は無料でダウンロードできます。
@@ -40,9 +40,9 @@ ms.locfileid: "69560850"
 
 どちらの方法でダウンロードしても、**Power BI Desktop** のダウンロードが終わると、インストール ファイルを実行するよう求められます。
 
-![Power BI Desktop インストール ファイルを実行する](media/desktop-get-the-desktop/getpbid_3.png)
+![Power BI Desktop インストール ファイルを実行する](media/desktop-get-the-desktop/download-desktop-exe.png)
 
-2019 年 7 月リリース以降、**Power BI Desktop** は、サポートされているすべての言語を含む 1 つの .exe インストール パッケージとしてリリースされています。 32 ビット バージョンと 64 ビット バージョン用に個別の .exe ファイルがあります。 2019 年 9 月リリースの後は .msi パッケージが廃止されます。その後、インストールには .exe 実行可能ファイルを使用する必要があります。 この方法により、(特に管理者の場合) 配布、更新、およびインストールがはるかに簡単で便利になります。 また、コマンドライン パラメーターを使用してインストール プロセスをカスタマイズすることもできます。詳細については、この記事で後述する「[インストール時にコマンドライン オプションを使用する](#using-command-line-options-during-installation)」セクションを参照してください。
+2019 年 7 月リリース以降、**Power BI Desktop** は、サポートされているすべての言語を含む 1 つの .exe インストール パッケージとしてリリースされています。 32 ビット バージョンと 64 ビット バージョン用に個別の .exe ファイルがあります。 .msi パッケージは 2019 年 9 月リリースから廃止され、インストールには .exe 実行可能ファイルが必要になりました。 この方法により、(特に管理者の場合) 配布、更新、およびインストールがはるかに簡単で便利になります。 また、コマンドライン パラメーターを使用してインストール プロセスをカスタマイズすることもできます。詳細については、この記事で後述する「[インストール時にコマンドライン オプションを使用する](#using-command-line-options-during-installation)」セクションを参照してください。
 
 インストール パッケージを起動すると、**Power BI Desktop** がアプリケーションとしてインストールされ、デスクトップ上で実行されます。
 
@@ -105,6 +105,27 @@ Microsoft ストアからの **Power BI Desktop** のインストールには、
 
 Power BI Desktop での経験が常に素晴らしいものであることを望んでいます。 そうはいっても、問題が発生する可能性はあるので、このセクションでは、Power BI Desktop で発生することがある問題に対処するための解決策と提案を示します。 
 
+### <a name="installing-power-bi-desktop-on-remote-machines"></a>リモート コンピューターへの Power BI Desktop のインストール
+
+Windows インストーラー ファイル (.msi ファイル) を必要とするツールを使用してユーザーに Power BI Desktop を展開する場合は、Power BI Desktop のインストーラーの .exe ファイルから .msi ファイルを抽出できます。 WiX ツールセットなどのサードパーティ製のツールを使用して、これを実現できます。
+
+> [!NOTE]
+> サードパーティ製品なので、WiX ツールセットのオプションは予告なしに変更される可能性があります。 最新の情報についてはドキュメントを確認し、ヘルプについてはユーザーのメーリング リストに問い合わせてください。
+
+* Power BI Desktop インストーラーをダウンロードしたコンピューターで、WiX の Web サイト (https://wixtoolset.org/ ) から最新バージョンの WiX ツールセットをダウンロードしてインストールします。
+* 管理者としてコマンド ライン ウィンドウを開き、WiX ツールセットをインストールしたフォルダーに移動します。
+* 次のコマンドを実行します。 
+    
+    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
+
+    たとえば、次のように実行します。
+
+    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
+
+* 出力フォルダーに含まれる *AttachedContainer* という名前のフォルダーに .msi ファイルが含まれます。
+
+
+
 
 ### <a name="using-command-line-options-during-installation"></a>インストール時にコマンドライン オプションを使用する 
 
@@ -122,6 +143,25 @@ Power BI Desktop をインストールするときに、コマンドライン �
 |-uninstall     |Power BI Desktop をアンインストールします         |
 |-repair     |インストールを修復します (現在インストールされていない場合はインストールします)         |
 |-package、-update     |Power BI Desktop をインストールします (-uninstall または -repair が指定されていない場合は既定値)。         |
+
+次の**構文パラメーター**を使用することもできます。これらは、"PROPERTY=VALUE" という構文で指定します。
+
+
+|パラメーター  |意味  |
+|---------|---------|
+|ACCEPT_EULA     |使用許諾契約に自動的に同意するには、値を 1 にする必要があります         |
+|ENABLECXP     |値を 1 にすると、製品の使用状況に関するテレメトリをキャプチャするカスタマー エクスペリエンス プログラムに登録します         |
+|INSTALLDESKTOPSHORTCUT     |値 1 にすると、デスクトップにショートカットが追加されます         |
+|INSTALLLOCATION     |インストール先のファイル パスです         |
+|LANGUAGE     |アプリケーションの既定の言語を強制的するためのロケール コード (en-US、de-DE、pr-BR など) です。 言語を指定しないと、Power BI Desktop には Windows OS の言語が表示されます。 ユーザーはこれを [オプション] ダイアログで変更できます。         |
+|REG_SHOWLEADGENDIALOG     |値 0 にすると、Power BI Desktop にサインインする前に表示されるダイアログが表示されなくなります         |
+
+
+
+
+たとえば、ドイツ語を使用して、ユーザー インターフェイスなしでインストールするには、次の構文を実行します。 
+
+```“-quiet LANG=de-DE ACCEPT_EULA=1”```
 
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop の以前のリリースを使用しているときの問題

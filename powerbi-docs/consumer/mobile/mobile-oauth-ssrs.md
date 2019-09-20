@@ -9,23 +9,25 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 59c376afd384812473d3175df992c628ae5049ca
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567805"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903654"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth を使用し、Power BI Report Server と SSRS に接続する
 
-Power BI Report Server と SQL Server Reporting Services 2016 以降に接続する目的で、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。
+OAuth を使用して Power BI Report Server と Reporting Services に接続し、モバイル レポートまたは KPI を表示できます。 Power BI Report Server と SQL Server Reporting Services 2016 以降に接続する目的で、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。
 
-![サーバーに接続する](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+Adam が OAuth を使用して Power BI Mobile から SSRS に接続するところを見てください。
 
-OAuth を使用して Power BI Report Server と Reporting Services に接続し、モバイル レポートまたは KPI を表示できます。 Windows Server 2016 では、この種の認証を許可するように、Web アプリケーション プロキシ (WAP) の役割が機能強化されています。
 
-   > [!NOTE]
-   > WAP 認証を使用した Power BI Report Server でホストされている Power BI レポートの表示が、現在 iOS と Android アプリでサポートされるようになりました。
+<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> WAP 認証を使用した Power BI Report Server でホストされている Power BI レポートの表示が、現在 iOS と Android アプリでサポートされるようになりました。
 
 ## <a name="requirements"></a>要件
 
@@ -33,19 +35,19 @@ Web アプリケーション プロキシ (WAP) および Active Directory フ�
 
 ## <a name="domain-name-services-dns-configuration"></a>ドメイン ネーム サービス (DNS) の構成
 
-Power BI モバイル アプリが接続するパブリック URL を決定する必要があります。 次に例を示します。
+パブリック URL は Power BI モバイル アプリの接続先です。 次に例を示します。
 
 ```https
 https://reports.contoso.com
 ```
 
-**reports** の DNS レコードでは、Web アプリケーション プロキシ (WAP) サーバーのパブリック IP アドレスを指し示す必要があります。 また、ADFS サーバーのパブリック DNS レコードを構成する必要もあります。 たとえば、次の URL で ADFS サーバーを構成してあるものとします。
+**reports** の DNS レコードでは、Web アプリケーション プロキシ (WAP) サーバーのパブリック IP アドレスを指定します。 また、ADFS サーバーのパブリック DNS レコードを構成する必要もあります。 たとえば、次の URL で ADFS サーバーを構成してあるものとします。
 
 ```https
 https://fs.contoso.com
 ```
 
-**fs** の DNS レコードでは、Web アプリケーション プロキシ (WAP) サーバーのパブリック IP アドレスを指し示す必要があります。この IP アドレスは、WAP アプリケーションの一部として発行されます。
+**fs** の DNS レコードでは、Web アプリケーション プロキシ (WAP) サーバーのパブリック IP アドレスを指定します。この IP アドレスは、WAP アプリケーションの一部として発行されます。
 
 ## <a name="certificates"></a>証明書
 
@@ -77,7 +79,7 @@ SPN は、Kerberos 認証を使うサービスの一意の識別子です。 レ
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Active Directory フェデレーション サービス (ADFS) の構成
 
-環境内の Windows 2016 サーバーで ADFS を構成する必要があります。 これを構成するには、サーバー マネージャーで [管理]、[役割と機能の追加] の順に選択します。 詳しくは、「[Active Directoryフェデレーション サービス](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)」をご覧ください。
+環境内の Windows 2016 サーバーで ADFS を構成する必要があります。 構成を行うには、サーバー マネージャーで [管理]、[役割と機能の追加] の順に選択します。 詳しくは、「[Active Directoryフェデレーション サービス](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)」をご覧ください。
 
 ### <a name="create-an-application-group"></a>アプリケーション グループを作成する
 
@@ -107,7 +109,7 @@ AD FS 管理画面内で、Power BI Mobile アプリの情報を含む Reporting
    mspbi-adal://com.microsoft.powerbimobile  
    mspbi-adalms://com.microsoft.powerbimobilems
 
-   **Android アプリに必要なのは次のものだけです。**  
+   **Android アプリに必要なのは次の手順だけです。**  
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS のアプリケーション グループ ウィザード 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
@@ -171,7 +173,7 @@ Active Directory 内の WAP サーバー コンピューター アカウント�
 
 7. **[ユーザーまたはコンピューター]** を選びます。
 
-8. Reporting Services に使っているサービス アカウントを入力します。 これは、Reporting Services の構成で SPN を追加したアカウントです。
+8. Reporting Services に使っているサービス アカウントを入力します。 このアカウントは、Reporting Services の構成で SPN を追加したアカウントです。
 
 9. Reporting Services の SPN を選び、 **[OK]** を選びます。
 
@@ -196,14 +198,14 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 
 | パラメーター | コメント |
 | --- | --- |
-| **ADFSRelyingPartyName** |これは、ADFS 内のアプリケーション グループの一部として作成した Web API の名前です。 |
-| **ExternalCertificateThumbprint** |これは、外部ユーザーに使う証明書です。 この証明書がモバイル デバイスで有効であり、信頼された証明機関から発行されていることが重要です。 |
-| **BackendServerUrl** |これは、WAP サーバーからレポート サーバーへの URL です。 WAP サーバーが DMZ 内にある場合は、完全修飾ドメイン名を使うことが必要な場合があります。 WAP サーバー上の Web ブラウザーからこの URL にアクセスできることを確認します。 |
-| **BackendServerAuthenticationSPN** |これは、Reporting Services の構成の一部として作成した SPN です。 |
+| **ADFSRelyingPartyName** |ADFS 内のアプリケーション グループの一部として作成した Web API の名前です。 |
+| **ExternalCertificateThumbprint** |外部ユーザーに使う証明書です。 この証明書がモバイル デバイスで有効であり、信頼された証明機関から発行されていることが重要です。 |
+| **BackendServerUrl** |WAP サーバーからレポート サーバーへの URL です。 WAP サーバーが DMZ 内にある場合は、完全修飾ドメイン名を使うことが必要な場合があります。 WAP サーバー上の Web ブラウザーからこの URL にアクセスできることを確認します。 |
+| **BackendServerAuthenticationSPN** |Reporting Services の構成の一部として作成した SPN です。 |
 
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>WAP アプリケーションの統合認証の設定
 
-WAP アプリケーションを追加した後は、IntegratedWindowsAuthentication を使うように BackendServerAuthenticationMode を設定する必要があります。 これを設定するには、WAP アプリケーションからの ID が必要です。
+WAP アプリケーションを追加した後は、IntegratedWindowsAuthentication を使うように BackendServerAuthenticationMode を設定する必要があります。 それを設定するには、WAP アプリケーションからの ID が必要です。
 
 ```powershell
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
@@ -229,7 +231,7 @@ Power BI モバイル アプリ内で、Reporting Services インスタンスに
 
 ![ADFS へのサインイン](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
-**[サインイン]** を選ぶと、Reporting Services サーバーからの要素が表示されます。
+**[サインイン]** を選択すると、Reporting Services サーバーからの要素が表示されます。
 
 ## <a name="multi-factor-authentication"></a>多要素認証
 
@@ -241,7 +243,7 @@ Power BI モバイル アプリ内で、Reporting Services インスタンスに
 
 ![「SSRS サーバーにログインできませんでした」エラー](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
-モバイル デバイスのプロキシとして動作するように [Fiddler](http://www.telerik.com/fiddler) を設定し、要求がどこまで行われているかを確認できます。 デバイスの Fiddler プロキシを有効にするには、Fiddler を実行しているコンピューターで [iOS および Android 用の CertMaker](http://www.telerik.com/fiddler/add-ons) をセットアップする必要があります。 これは、Telerik for Fiddler からのアドインです。
+モバイル デバイスのプロキシとして動作するように [Fiddler](http://www.telerik.com/fiddler) を設定し、要求がどこまで行われているかを確認できます。 デバイスの Fiddler プロキシを有効にするには、Fiddler を実行しているコンピューターで [iOS および Android 用の CertMaker](http://www.telerik.com/fiddler/add-ons) をセットアップする必要があります。 Telerik for Fiddler からのアドインです。
 
 Fiddler を使うとサインインが正常に行われる場合は、WAP アプリケーションまたは ADFS サーバーでの証明書の問題である可能性があります。 [Microsoft メッセージ アナライザー](https://www.microsoft.com/download/details.aspx?id=44226)などのツールを使って、証明書が有効かどうかを確認できます。
 

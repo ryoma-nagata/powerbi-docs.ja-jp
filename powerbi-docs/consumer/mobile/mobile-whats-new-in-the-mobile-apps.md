@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
-ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
+ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70030155"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841374"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -25,7 +25,15 @@ ms.locfileid: "70030155"
 
 ## <a name="august-2019"></a>2019 年 8 月
 
-### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Azure Active Directory (AD) アプリケーション プロキシを使用したセキュリティで保護されたアクセス
+### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Power BI Mobile の新しい外観の導入 (プレビュー) (iOS および Android)
+
+アプリを一新し、新しいエクスペリエンスを導入しました。よく使用されるコンテンツにすばやくアクセスできるホーム ページと、アプリ内を簡単に移動できる新しいナビゲーション バーが追加されています。 新しい一新されたエクスペリエンスでは、必要なときに、必要なものをすばやく簡単に検索できます。
+新しい外観はプレビュー段階であるため、利用するには有効にする必要があります。
+詳しくは、[Power BI Mobile の新しい外観](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/)に関する記事をご覧ください。
+
+![Power BI Mobile の新しい外観](./media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-new-look2.gif)
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure Active Directory (AD) アプリケーション プロキシを使用したセキュリティで保護されたアクセス (iOS および Android)
 
 Azure Active Directory チームと手を組み、Azure Active Directory (AAD) アプリケーション プロキシに Power BI モバイル アプリケーションを統合しました。 この構成を使用すると、複雑なオンプレミス構成を設定することなく、エンタープライズ境界内でホストされているレポート サーバーに Power BI モバイル アプリから接続できます。 [Power BI モバイルと Azure AD アプリケーション プロキシの統合](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)の詳細を参照してください。 [Azure AD アプリケーション プロキシと Power BI の構成方法](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)を参照してください。
 
@@ -36,7 +44,7 @@ Azure Active Directory チームと手を組み、Azure Active Directory (AAD) �
 モバイル アプリでレポートを表示するときに、レポート ページのヒントがサポートされるようになりました。 レポートのツールヒントが関連付けられているビジュアルを長押しするだけで、表示されます。  
 
 ![レポート キャンバスのツールヒント](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
-
+ 
 > [!NOTE]
 > レポートのツールヒントは、640 ピクセルのサイズと 320 のビューポートを超えるデバイスでサポートされています。 小さいデバイスでは、既定のツールヒントが使用されます。
 

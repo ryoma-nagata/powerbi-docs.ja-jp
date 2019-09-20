@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 278d631e755c4d484db0788b6c58fca9cfce4616
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961962"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903771"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI と Office 365 でアプリ ワークスペースを管理する
 
@@ -72,7 +72,7 @@ Outlook for Office 365 でアプリ ワークスペースの側面を直接編�
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>イメージを追加してその他のワークスペースのプロパティを設定する
 
-アプリ ワークスペースからアプリを配布するときに、ここで追加したイメージがアプリのイメージになります。 **新しいワークスペースの作成**に関する記事の「[Office 365 アプリ ワークスペースにイメージを追加する (省略可能)](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional)」セクションを参照してください。
+アプリ ワークスペースからアプリを配布するときに、ここで追加したイメージがアプリのイメージになります。 **新しいワークスペースの作成**に関する記事の「[Office 365 アプリ ワークスペースにイメージを追加する](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional)」を参照してください。
 
 1. アプリ ワークスペースの Outlook for Office 365 で、 **[バージョン情報]** タブにアクセスし、 **[編集]** を選択します。
 

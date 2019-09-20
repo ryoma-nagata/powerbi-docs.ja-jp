@@ -1,20 +1,20 @@
 ---
 title: DAX:DIVIDE 関数と除算演算子 (/)
 description: DAX DIVIDE 関数を使用する場合のガイダンスです。
-author: guyinacube
+author: peter-myers
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/05/2019
+ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d22491ee314ebcebd4479c4e57dbfdf7a6a1ffdb
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 7516aaedb886e7b9e0f57ed76f0a7c5e40efbd6d
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70010439"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877843"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX:DIVIDE 関数と除算演算子 (/)
 
@@ -34,15 +34,15 @@ DIVIDE(<numerator>, <denominator> [,<alternateresult>])
 
 DIVIDE 関数は、ゼロ除算を自動的に処理するように設計されています。 代替結果が渡されず、分母がゼロまたは空白の場合、関数は空白を返します。 代替結果が渡された場合は、空白の代わりにそれが返されます。
 
-DIVIDE 関数では、最初に分母の値をテストする必要がないため、便利です。 この関数は、分母の値のテストにおいて、[IF](/dax/if-function-dax) 関数よりも最適化されています。 また、DIVIDE を使用することで、より簡潔で洗練された式になります。
+DIVIDE 関数では、最初に分母の値をテストする必要がないため、便利です。 この関数は、分母の値のテストにおいて、[IF](/dax/if-function-dax) 関数よりも最適化されています。 0 での除算のチェックは高コストであるため、パフォーマンスが大きく向上します。 また、DIVIDE を使用することで、より簡潔で洗練された式になります。
 
 ## <a name="example"></a>例
 
-次のメジャー式は安全な除算を行いますが、3 つの DAX 関数を使用します。
+次のメジャー式は安全な除算を行いますが、4 つの DAX 関数を使用します。
 
 ```dax
 
-=IF(ISBLANK([Sales]) || [Sales] = 0, BLANK(), [Profit] / [Sales])
+=IF(OR(ISBLANK([Sales]), [Sales] == 0), BLANK(), [Profit] / [Sales])
 
 ```
 

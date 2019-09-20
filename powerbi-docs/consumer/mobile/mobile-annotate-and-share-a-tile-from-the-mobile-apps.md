@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1f7911007d9629c8990fc15ddf7453bafe0e78f5
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61342993"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841459"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI モバイル アプリでタイル、レポート、ビジュアルに注釈を付けて共有する
 適用対象:
@@ -29,7 +29,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、�
 
 *注釈付きのレポート*
 
-タイル、レポート、または視覚エフェクトのスナップショットを含むメールには、Power BI サービス ([https://powerbi.com](https://powerbi.com)) の実際のオブジェクトへのリンクも含まれています。 送信者と受信者が Power BI Pro ライセンスを持っている、またはコンテンツが [Premium 容量](../../service-premium-what-is.md)に格納されていて、タイル、レポート、および視覚エフェクトをその受信者と既に共有している場合、受信者はリンクをクリックして、それらのアイテムに直接移動できます。 
+タイル、レポート、または視覚エフェクトのスナップショットを含むメールには、Power BI サービス ([https://powerbi.com](https://powerbi.com)) の実際のオブジェクトへのリンクも含まれています。 送信者と受信者が Power BI Pro ライセンスを持っている場合、またはコンテンツが [Premium 容量](../../service-premium-what-is.md)に格納されていて、タイル、レポート、および視覚エフェクトをその受信者と既に共有している場合、受信者はリンクをクリックして、それらのアイテムに直接移動できます。 
 
 [Windows 10 デバイス用 Power BI モバイル アプリからもタイルを共有](mobile-windows-10-phone-app-get-started.md)できますが、タイルに注釈を付けることはできません。
 

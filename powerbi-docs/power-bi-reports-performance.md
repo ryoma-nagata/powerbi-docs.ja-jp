@@ -1,8 +1,8 @@
 ---
 title: Power BI のパフォーマンスのベスト プラクティス
 description: この記事では、Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティスについて説明します。
-author: MarkMcGeeAtAquent
-ms.author: kfile
+author: Bhavik-MSFT
+ms.author: bhmerc
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665334"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841488"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI のパフォーマンスのベスト プラクティス
 
 この記事では、Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティスについて説明します。  
+
+## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>適切なストレージ モードを選択する: インポート、DirectQuery
+
+ほとんどの場合は、インポート モードが最適な選択肢です。インポート モードでは、単票形式のストレージを使用して圧縮される、ローカルにキャッシュされたメモリ内データを利用することで、最高の速度が提供されます。 インポート モードでは、DAX の完全な機能も使用できます。 ソース データの量が多すぎて Power BI の容量に収まらない場合は、DirectQuery (および複合モデル) を検討します。 DirectQuery は、レポートが読み込まれるたびにソースから最新のデータをフェッチする必要がある場合にも便利です。 これらの要件がなく、ユーザーが 1 日に数回以下しか更新されないデータのみを表示する必要がある場合は (たとえば、企業のデータ ウェアハウスから)、インポートを強くお勧めします。 DirectQuery モードでは、ユーザーは、ソースからまったく同じデータをフェッチしていることに気付かずに、レポートの更新を試みる可能性があります。      
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>必要なものだけを表示するようにフィルターを使用してレポートのビジュアルを制限する 
 
@@ -57,7 +61,7 @@ DirectQuery とライブ接続上に構築された Power BI レポートをデ�
 ## <a name="directquery-best-practices"></a>DirectQuery のベスト プラクティス
 
 次のセクションでは、DirectQuery を使用して接続するための一般的なベスト プラクティスについて説明します。
-  
+
 ### <a name="db-design-guidance"></a>DB の設計のガイダンス
 
 - 可能な場合、計算列とメジャーをソースにプッシュします。 ソースに近いほど、実行の可能性が高くなります。
