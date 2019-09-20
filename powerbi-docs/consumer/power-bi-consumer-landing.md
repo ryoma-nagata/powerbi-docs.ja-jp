@@ -6,17 +6,17 @@ manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 05/29/2019
+ms.date: 09/11/2019
 ms.author: mihart
 layout: HubPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 7dae9f7a2768a8e9f51d5454019cff740304fe2f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66270613"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073396"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -26,7 +26,7 @@ ms.locfileid: "66270613"
             <p>Power BI コンシューマー向けドキュメントのすべてを確認するには、<a href="end-user-consumer.md">目次</a>を開いてください。</p>
             <ul class="pivots">
             <li>
-                <a href="#get-started" data-linktype="self-bookmark">概要</a>
+                <a href="#get-started" data-linktype="self-bookmark">作業の開始</a>
                 <ul id="get-started" class="cardsF">
                     <li>
                         <a data-default="true" href="#getstarted" data-linktype="self-bookmark"></a>
@@ -42,7 +42,7 @@ ms.locfileid: "66270613"
                                             </div>
                                             <div class="cardText">
                                                 <h3>作業の開始</h3>
-                                                <p><a href="/power-bi/service-get-started" data-linktype="absolute-path">Power BI サービスのツアー</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-reading-view" data-linktype="absolute-path">Power BI サービスのツアー</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-consumer" data-linktype="absolute-path">Power BI <b><i>コンシューマー</i></b>とは</a></p>
                                                 <p><b>違いは何ですか:</b><a href="/power-bi/consumer/end-user-reports" data-linktype="absolute-path">レポート</a>、<a href="/power-bi/consumer/end-user-dashboards" data-linktype="absolute-path">ダッシュボード</a>、<a href="/power-bi/consumer/end-user-apps" data-linktype="absolute-path">アプリ</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-sign-in" data-linktype="absolute-path">サインインとサインアウト</a></p>
@@ -122,7 +122,7 @@ ms.locfileid: "66270613"
                                             </div>
                                             <div class="cardText">
                                                 <h3>ヘルプを表示</h3>
-                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft についてセルフぺースのトレーニング</a></p>
+                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft LEARN 自習トレーニング</a></p>
                                                 <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">Power BI ブログを読む</a></p>
                                                 <p><a href="http://community.powerbi.com/" data-linktype="absolute-path">Power BI フォーラムで質問する</a></p>
                                             </div>
@@ -314,25 +314,6 @@ ms.locfileid: "66270613"
                                                 <div class="cardText">
                                                     <h3>アクセシビリティ</h3>
                                                     <p>Microsoft がどのようにして障碍のある方がより簡単に Power BI を使用し Power BI と対話できるようにしているかを説明します。 </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>                            
-                            <li>
-                                <a href="/power-bi/consumer/end-user-browsers" data-linktype="absolute-path">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/end-user-consumer/browser-info.svg" alt="Browsers Info" data-linktype="relative-path">
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>ブラウザー情報</h3>
-                                                    <p>Power BI で最適に機能するブラウザーの一覧を参照してください。 </p>
                                                 </div>
                                             </div>
                                         </div>
