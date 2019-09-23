@@ -3,20 +3,19 @@ title: Power BI ダッシュボードの表示
 description: ダッシュボードは Power BI サービスの主要な機能です。ダッシュボードを開いて表示する方法について説明します。
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b8d604b8872bae14bc2ffeeb16b56b1b3a98e056
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608484"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141378"
 ---
 # <a name="view-a-dashboard"></a>ダッシュボードの表示
 Power BI *コンシューマー*は、ダッシュボードの表示に多くの時間を使います。 ダッシュボードは、基になるレポートとデータセットから特定の情報を強調表示するために設計されています。 Power BI コンシューマーは、その情報を追跡、監視、質問への回答、テストなどに使用して、データ駆動型のビジネス上の意思決定を行います。
@@ -39,7 +38,7 @@ Power BI Pro は、ダッシュボードの共有、および共有ダッシュ�
 
 ダッシュボードは左側のナビゲーション バーにあるすべてのコンテナーで見つけることができます。 
 
-![ダッシュボード アイコン](media/end-user-dashboard-open/opendash.gif)
+![ダッシュボード アイコン](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **ホーム** 
 - **[お気に入り]** : [お気に入りとしてダッシュボードを設定](end-user-favorite.md)した場合
