@@ -1,5 +1,5 @@
 ---
-title: ビジュアルの作成に使用されたデータを表示します。
+title: ビジュアルの作成に使用されたデータを表示する
 description: このドキュメントでは、Power BI コンシューマーがビジュアルの作成に使用するデータを "表示" する方法について説明します。
 author: mihart
 manager: kvivek
@@ -12,18 +12,18 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5b36ded0863685726f9af3104b43c507b9a3c4d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65607980"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visual"></a>ビジュアルの作成に使用されたデータを表示します。
+# <a name="show-the-data-that-was-used-to-create-the-visual"></a>ビジュアルの作成に使用されたデータを表示する
 
-Power BI ビジュアルは、基になるデータセットからデータを使用して構築されます。 目に見えない部分を確認する場合は、ビジュアルの作成に使用されているデータを Power BI によって*表示*することができます。 選択すると**データの表示**、Power BI には、下 (または横に) データが表示されます。 ビジュアル。
+Power BI のビジュアルは、基礎データセットからのデータを使用して作成されます。 目に見えない部分を確認する場合は、ビジュアルの作成に使用されているデータを Power BI によって*表示*することができます。 **[データの表示]** を選択すると、Power BI によりビジュアルの下 (または横に) データが表示されます。
 
 
-1. Power BI サービスで[レポートを開く](end-user-report-open.md)ビジュアルを選択します。  
+1. Power BI サービスで、[レポートを開き](end-user-report-open.md)、ビジュアルを選択します。  
 2. ビジュアルの背後にあるデータを表示するには、省略記号 (...) を選択し、 **[データの表示]** を選択します。
    
    ![[データの表示] を選択する](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
@@ -36,5 +36,5 @@ Power BI ビジュアルは、基になるデータセットからデータを�
    ![ビジュアルとデータの横表示](./media/end-user-show-data/power-bi-show-data-rotate.png)
 
 ## <a name="next-steps"></a>次の手順
-[Power BI レポート内のビジュアル](../visuals/power-bi-report-visualizations.md)    
+[Power BI レポートのビジュアル](../visuals/power-bi-report-visualizations.md)    
 [Power BI レポート](end-user-reports.md)    

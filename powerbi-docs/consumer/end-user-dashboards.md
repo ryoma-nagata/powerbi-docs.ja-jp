@@ -12,10 +12,10 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608336"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI サービスの利用者向けのダッシュボード
@@ -24,7 +24,7 @@ Power BI の "***ダッシュボード***" は、視覚化を使ってストー�
 
 ![ダッシュボード](media/end-user-dashboards/power-bi-dashboard2.png)
 
-ダッシュ ボードに表示される視覚化と呼ばれます*タイル*、*固定*レポートでダッシュ ボードに*デザイナー*します。 ほとんどの場合、タイルを選択ページに移動、レポート、視覚エフェクトが作成されました。 Power BI を初めて使うときは、[Power BI の基本的な概念](end-user-basic-concepts.md)に関するページを読むと基礎がよくわかります。
+ダッシュボードに表示される視覚エフェクトは*タイル*と呼ばれ、レポート *デザイナー*によってダッシュボードに*ピン留め*されています。 通常、タイルを選択すると、その視覚エフェクトが作成されたレポート ページに移動します。 Power BI を初めて使うときは、[Power BI の基本的な概念](end-user-basic-concepts.md)に関するページを読むと基礎がよくわかります。
 
 > [!NOTE]
 > ダッシュボードは、[モバイル デバイス上で表示および共有する](mobile/mobile-apps-view-dashboard.md)ことができます。
@@ -39,7 +39,7 @@ Power BI の "***ダッシュボード***" は、視覚化を使ってストー�
 ## <a name="advantages-of-dashboards"></a>ダッシュボードの利点
 ダッシュボードは、ビジネスを注視し、答えを探し、すべての最も重要なメトリックを一目で見るための、素晴らしい手段です。 ダッシュボード上の視覚化は、1 つまたは複数の基になっているデータセット、および 1 つまたは複数の基になっているレポートから取得できます。 ダッシュボードでは、オンプレミスとクラウドのデータが結合され、データの保存場所に関わらず統合されたビューを利用できます。
 
-ダッシュ ボードのない美しい画像だけです。対話形式でとタイルが基になるデータの変化に応じて更新します。
+ダッシュボードは単なる美しい画像ではありません。対話機能を備え、基になっているデータが変化するとタイルが更新されます。
 
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Power BI "***コンシューマー***" 向けのダッシュボードとレポート
 レポートも視覚化が表示されたキャンバスであるため、ダッシュボードと混同されることがよくあります。 しかし、Power BI "*コンシューマー*" の観点からは大きな違いがいくつかあります。

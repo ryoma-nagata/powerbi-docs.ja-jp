@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61049235"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI を使用してダッシュボード タイルに関するデータの分析情報を表示する
@@ -59,7 +59,7 @@ ms.locfileid: "61049235"
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 - **[分析情報の表示]** は、DirectQuery では機能しません。Power BI にアップロードされたデータに限り機能します。
-- **[分析情報の表示]** を使用できない種類のダッシュボード タイルもあります。 たとえば、カスタム ビジュアルをご利用いただけません。<!--[custom visuals](end-user-custom-visuals.md)-->
+- **[分析情報の表示]** を使用できない種類のダッシュボード タイルもあります。 たとえば、カスタム ビジュアルでは使用できません。<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>次の手順

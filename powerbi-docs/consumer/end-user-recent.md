@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61054922"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI サービスの **[最近]** のコンテンツ
@@ -37,7 +37,7 @@ Amanda による Power BI サービスの **[最近]** コンテンツの一覧�
 
 ![最近のコンテンツをすべて表示する](./media/end-user-recent/power-bi-recent-list.png)
 
-ここからと対話できますコンテンツのように、個人[**ダッシュ ボード**](end-user-dashboards.md)、 [**レポート**](end-user-reports.md)、および**ブック**タブ、およびアプリ <!--[**Apps**](end-user-apps.md)--> 画面。
+ここからは、[ **[ダッシュボード]** ](end-user-dashboards.md)、[ **[レポート]** ](end-user-reports.md)、 **[ブック]** タブ、アプリ <!--[**Apps**](end-user-apps.md)--> 画面と同様にコンテンツを操作することができます。
 
 ## <a name="next-steps"></a>次の手順
 <!--[Power BI service Apps](end-user-apps.md)-->

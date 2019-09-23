@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
 ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61338259"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub と Windows 10 デバイスで、プレゼンテーション モードでレポートとダッシュボードを表示する
@@ -43,7 +43,7 @@ Power BI モバイル アプリで **[全画面表示]** アイコンをタッ�
 1. [戻る] アイコンをタップすると、 ![[戻る] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 前のページに戻ります。 アイコンを長押しすると、階層リンク ウィンドウが表示されます。このウィンドウから、レポートまたはダッシュボードが含まれるフォルダーに移動できます。
 2. [インク] アイコンをタップすると、 ![[インク] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) Surface ペンでレポート ページに線を引いたり、注釈を付けたりするときの色を選択できます。 
 3. [ページ] アイコンを使用すると、 ![[改ページ] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 現在表示しているレポート ページが別のページに代わります。
-4. 再生アイコン  ![再生 アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 操作バーを非表示にし、アプリをレポート ページ間で回転 auto、スライド ショーを開始します。 
+4. [再生] アイコン  ![[再生] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) をクリックすると、アクション バーが隠れ、スライドショーが開始されます。スライドショーでは、レポート ページ間でアプリが自動ローテーションします。 
 5. [検索] アイコン ![[検索] アイコン](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) をタップし、Power BI で他の成果物を検索します。
 6. プレゼンテーション モードを終了するには、ツールバーにある内向きの 2 つの矢印の付いたアイコン ![全画面表示モードを終了](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) をタップします。
 

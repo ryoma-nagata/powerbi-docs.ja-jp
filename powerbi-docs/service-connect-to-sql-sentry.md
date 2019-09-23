@@ -23,7 +23,7 @@ SQL Sentry が収集したパフォーマンス データの分析は、Power BI
 Power BI 用 [SQL Sentry コンテンツ パック](https://app.powerbi.com/groups/me/getdata/services/sql-sentry)に接続します。
 
 >[!NOTE]
->[http://cloud.sqlsentry.com](http://cloud.sqlsentry.com ) に接続するときに使用する SQL Sentry アカウントへのアクセス、および監視するデータベース ID が、接続のために必要です。  データベース ID の検索手順は次のとおりです。
+>http://cloud.sqlsentry.com に接続するときに使用する SQL Sentry アカウントへのアクセス、および監視するデータベース ID が、接続のために必要です。  データベース ID の検索手順は次のとおりです。
 
 ## <a name="how-to-connect"></a>接続する方法
 1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。

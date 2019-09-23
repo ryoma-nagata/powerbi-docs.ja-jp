@@ -10,107 +10,107 @@ ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
 ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "64906526"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの特定の場所へのリンクを作成する
-リンクを使用して、Power BI での特定の項目に直接アクセスすることができます。レポート、ダッシュ ボードとタイル。
+Power BI では、リンクを使用し、レポート、ダッシュボード、タイルといった特定の項目に直接アクセスできます。
 
-Power BI モバイルでのリンクを使用するための主に 2 つのシナリオがあります。 
+Power BI Mobile におけるリンクの使用には主に 2 つのシナリオがあります。 
 
-* Power BI を開く **、アプリ外で**と特定のコンテンツ (レポート/ダッシュ ボードとアプリ) にします。 その他のアプリから Power BI Mobile を開きたい場合は通常、統合シナリオになります。 
-* **移動**Power BI 内で。 これは、通常、Power BI でカスタム ナビゲーションを作成するときにします。
+* **アプリの外部**から Power BI を開き、特定のコンテンツ (レポート/ダッシュボード/アプリ) にアクセスするため。 これは通常、他のアプリから Power BI Mobile を開くような統合シナリオです。 
+* Power BI 内で**移動**するため。 これは通常、Power BI でカスタム ナビゲーションを作成するときです。
 
 
-## <a name="use-links-from-outside-of-power-bi"></a>Power BI の外部からのリンクを使用して、
-Power BI アプリの外部からのリンクを使用する場合は、アプリによって開かれることかどうかを確認して、アプリをインストールするユーザーを提供し、デバイス上にインストールされていない場合。 サポートするために特別なリンク形式を作成しました。 このリンク形式はことを確認、デバイスが、リンクを開く、アプリを使用して、アプリがデバイスにインストールされていない場合は、手をストアに移動するユーザーが提供されます。
+## <a name="use-links-from-outside-of-power-bi"></a>Power BI の外部からリンクを使用する
+Power BI アプリの外部からリンクを使用するとき、アプリによってリンクが開くことを確認し、アプリがデバイスにインストールされていない場合、それをインストールすることをユーザーに提案します。 まさにこれをサポートする目的で Microsoft では特別なリンク形式を作成しました。 このリンク形式によって、デバイスではアプリを使用してリンクが開きます。アプリがデバイスにインストールされていない場合、ストアに移動してアプリを入手するようにユーザーに提案されます。
 
-次のように、リンクを開始する必要があります。  
+リンクは次から始めてください。  
 ```html
 https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 ```
 
 > [!IMPORTANT]
-> 場合は、コンテンツは、政府、中国などの特殊なデータ センターでホストされます。リンクのような先頭には、右側の Power BI アドレス`app.powerbigov.us`または`app.powerbi.cn`します。   
+> コンテンツが政府や中国など特別なデータセンターでホストされている場合、`app.powerbigov.us` や `app.powerbi.cn` のような正しい Power BI アドレスでリンクを始める必要があります。   
 >
 
 
-**クエリ PARAMS**は。
-* **action**(必須) = OpenApp/OpenDashboard/OpenTile/OpenReport
-* **appId** = レポートまたはアプリの一部であるダッシュ ボードを開きたい場合 
-* **groupObjectId** = レポートまたはワークスペース (ただし、マイ ワークスペースではなく) の一部であるダッシュ ボードを開きたい場合
-* **dashboardObjectId** = ダッシュ ボード オブジェクト ID (アクションが OpenDashboard または OpenTile 場合)
+**QUERY PARAMS** には次があります。
+* **action** (必須) = OpenApp / OpenDashboard / OpenTile / OpenReport
+* **appId** = アプリに含まれるレポートまたはダッシュボードを開く場合 
+* **groupObjectId** = ワークスペース (ただし、個人用ワークスペースではない) に含まれるレポートまたはダッシュボードを開く場合
+* **dashboardObjectId** = ダッシュボード オブジェクト ID (アクションが OpenDashboard または OpenTile の場合)
 * **reportObjectId** = レポート オブジェクト ID (アクションが OpenReport の場合)
-* **tileObjectId** = タイル オブジェクト ID(アクションが OpenTile の場合)
-* **reportPage** = (action は、OpenReport) 場合は、特定のレポート セクションを開きたい場合
-* **ctid** = 項目の組織 ID (B2B のシナリオに関連します。 これを省略できます、項目がユーザーの組織に属している場合)。
+* **tileObjectId** = タイル オブジェクト ID (アクションが OpenTile の場合)
+* **reportPage** = 特定のレポート セクションを開く場合 (アクションが OpenReport の場合)
+* **ctid** = 項目の編成 ID (B2B シナリオ関連。 ユーザーの組織に項目が属する場合、これは省略できます)。
 
 **例:**
 
-* アプリを開くリンク 
+* アプリ リンクを開く 
   ```html
   https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
   ```
 
-* アプリの一部であるダッシュ ボードを開く 
+* アプリに含まれるダッシュボードを開く 
   ```html
   https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
   ```
 
-* ワークスペースの一部であるレポートを開く
+* ワークスペースに含まれるレポートを開く
   ```html
   https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
   ```
 
-### <a name="how-to-get-the-right-link-format"></a>適切なリンク形式を取得する方法
+### <a name="how-to-get-the-right-link-format"></a>正しいリンク形式を取得する方法
 
-#### <a name="links-of-apps-and-items-in-app"></a>アプリとアプリ内の項目のリンク
+#### <a name="links-of-apps-and-items-in-app"></a>アプリに含まれるアプリ/項目のリンク
 
-**アプリのレポートとダッシュ ボードはアプリの一部である**リンクを取得する最も簡単な方法は、アプリ ワークスペースに移動し、「アプリを更新」を選択します。 開き、「アプリの発行」エクスペリエンスとアクセス タブでは紹介を**リンク**セクション。 展開セクションとするアプリの一覧が表示され、そのすべてのコンテンツにリンクすることは、直接アクセスするために使用できます。
+**アプリに含まれるアプリ、レポート、ダッシュボード**については、リンクを取得する最も簡単な方法はアプリ ワークスペースに移動し、"アプリを更新" を選択します。 これで "アプリの発行" エクスペリエンスが開きます。[アクセス] タブには **[リンク]** セクションがあります。 そのセクションを展開すると、アプリの一覧とそのコンテンツ リンクがすべて表示されます。このリンクを利用すると、アプリに直接アクセスできます。
 
-![Power BI アプリへのリンクを発行します。 ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
+![Power BI でアプリ リンクを発行する ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-#### <a name="links-of-items-not-in-app"></a>アプリではなく項目のリンク 
+#### <a name="links-of-items-not-in-app"></a>アプリに含まれない項目のリンク 
 
-レポートおよびダッシュ ボードをアプリの一部ではない、アイテムの URL から Id を抽出する必要があります。
+アプリに含まれないレポートやダッシュボードについては、項目 URL から ID を抽出する必要があります。
 
-たとえば、36 文字を検索する**ダッシュ ボード**オブジェクト ID、Power BI サービスで特定のダッシュ ボードに移動します 
+たとえば、36 文字の**ダッシュボード** オブジェクト ID を検索するには、Power BI サービスでその特定のダッシュボードに移動します。 
 
 ```html
 https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
 ```
 
-36 文字を検索する**レポート**オブジェクト ID、Power BI サービスでは、特定のレポートに移動します。
-これは、「マイ ワークスペース」からのレポートの例
+36 文字の**レポート** オブジェクト ID を検索するには、Power BI サービスでその特定のレポートに移動します。
+これは "個人用ワークスペース" からのレポートの例です
 
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
 ```
-上記の URL にも含まれる特定のレポート ページ **"ReportSection3"** します。
+上の URL には、 **"ReportSection3"** という特定のレポート ページも含まれています。
 
-これは、ワークスペース (マイ ワークスペースではなく) からレポートの例
+これはワークスペース (個人用ワークスペースではなく) からのレポートの例です
 
 ```html
 https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
 ```
 
-## <a name="use-links-inside-power-bi"></a>Power BI 内のリンクを使用して、
+## <a name="use-links-inside-power-bi"></a>Power BI 内でリンクを使用する
 
-Power BI 内のリンクは、Power BI サービス同様に、モバイル アプリで作業しています。
+Power BI 内のリンクは、Power BI Service とまったく同じようにモバイル アプリで機能します。
 
-Power BI の別のアイテムを指すレポートへのリンクを追加する場合は、ブラウザーのアドレス バーからだけそのアイテムの URL をコピーできます。 詳細をご覧ください[レポート内のテキスト ボックスにハイパーリンクを追加する方法](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)します。
+別の Power BI 項目を指すレポートにリンクを追加する場合、ブラウザーのアドレス バーからその項目 URL をコピーできます。 レポートのテキスト ボックスにハイパーリンクを追加する方法については[こちら](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)をご覧ください。
 
-## <a name="use-report-url-with-filter"></a>フィルターを使用してレポート URL を使用します。
-同じ Power BI サービス、Power BI モバイル アプリもサポートしてフィルターのクエリ パラメーターを含むレポートの URL。 Power BI モバイル アプリでレポートを開くし、特定の状態をフィルター処理できます。 この URL の売上レポートを開くなどと Territory でフィルター処理
+## <a name="use-report-url-with-filter"></a>フィルターを含むレポート URL を使用する
+Power BI サービスと同様に、Power BI Mobile アプリでも、フィルター クエリ パラメーターを含む URL がサポートされています。 Power BI Mobile アプリでレポートを開き、フィルターを適用して特定の状態のものに絞り込むことができます。 たとえば、この URL の場合、売上レポートが開き、担当地域でフィルター処理されます
 
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```
 
-詳細を読む[レポートをフィルター処理するクエリ パラメーターを作成する方法](https://docs.microsoft.com/power-bi/service-url-filters)します。
+レポートをフィルター処理するためのクエリ パラメーターを構築する方法については[こちら](https://docs.microsoft.com/power-bi/service-url-filters)をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 Power BI モバイル アプリで使用したいその他の機能にぜひ投票してください。お客様からのフィードバックは、将来実装する機能を決めるのに役立ちます。 

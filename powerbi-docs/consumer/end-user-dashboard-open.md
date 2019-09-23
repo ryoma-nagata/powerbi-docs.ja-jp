@@ -12,14 +12,14 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608484"
 ---
 # <a name="view-a-dashboard"></a>ダッシュボードの表示
-Power BI*コンシューマー*多くダッシュ ボードを表示する時間を費やします。 ダッシュボードは、基になるレポートとデータセットから特定の情報を強調表示するために設計されています。 Power BI コンシューマーは、その情報を追跡、監視、質問への回答、テストなどに使用して、データ駆動型のビジネス上の意思決定を行います。
+Power BI *コンシューマー*は、ダッシュボードの表示に多くの時間を使います。 ダッシュボードは、基になるレポートとデータセットから特定の情報を強調表示するために設計されています。 Power BI コンシューマーは、その情報を追跡、監視、質問への回答、テストなどに使用して、データ駆動型のビジネス上の意思決定を行います。
 
 ![ダッシュボード](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
@@ -32,7 +32,7 @@ Power BI Pro は、ダッシュボードの共有、および共有ダッシュ�
 
 |              |         |
 |------------|--------------------------------|
-|![ダッシュボード アイコン](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |ダッシュ ボードは Power BI サービスでさまざまな場所から開くことができます。 <br> このダッシュボード アイコンを探してください。 ダッシュボードを特定したら、 <br>簡単に開くことができます。それを選択するだけで、 <br>ダッシュボードが Power BI のキャンバスに表示されます。 |
+|![ダッシュボード アイコン](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |ダッシュボードは、Power BI サービスのさまざまな場所から開くことができます。 <br> このダッシュボード アイコンを探してください。 ダッシュボードを特定したら、 <br>簡単に開くことができます。それを選択するだけで、 <br>ダッシュボードが Power BI のキャンバスに表示されます。 |
 |                    |          |
 
 

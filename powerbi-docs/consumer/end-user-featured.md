@@ -13,10 +13,10 @@ ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608666"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI サービスのおすすめのダッシュボード
@@ -25,11 +25,11 @@ ms.locfileid: "65608666"
 
 ![おすすめに設定アイコン](./media/end-user-featured/power-bi-dropdown.png)
 
-ダッシュ ボードを選択すると*機能を備えた*たびに、Power BI サービスを開く、表示されるダッシュ ボードが開き、します。  
+ダッシュボードを*おすすめ*に選択すると、Power BI サービスを開くたびに、そのダッシュボードが表示され開きます。  
 
 複数のダッシュボードを選んで、"*お気に入り*" に設定することもできます。 「[お気に入りのダッシュボード](end-user-favorite.md)」を参照してください。
 
-おすすめのダッシュ ボードをまだ設定していない場合、または Power BI ホームを使用した最後のダッシュ ボードを Power BI で開きます。  
+おすすめのダッシュボードをまだ設定していない場合、Power BI では、最後に使用したダッシュボードか Power BI ホームが開きます。  
 
 ### <a name="to-set-a-dashboard-as-featured"></a>ダッシュボードを**おすすめ**として設定するには
 Amanda がおすすめのダッシュボードを作成するビデオを参照してください。その後、ビデオ下部にある指示に従って、自分で試してください。
@@ -39,7 +39,7 @@ Amanda がおすすめのダッシュボードを作成するビデオを参照�
 
 
 1. *おすすめ*に設定するダッシュボードを開きます。 
-2. 上部のメニュー バーで、省略記号 (...) を選択し、**おすすめに設定**します。  
+2. 上部のメニューバーで、省略記号 (...) を選択し、 **[おすすめに設定]** を選択します。  
    
     ![おすすめに設定アイコン](./media/end-user-featured/power-bi-dropdown.png)
 3. 選択内容を確認します。
@@ -60,9 +60,9 @@ Amanda がおすすめのダッシュボードを作成するビデオを参照�
 おすすめのダッシュボードを 1 つも設定しない場合に、ダッシュボードのおすすめを解除する方法を次に示します。
 
 1. 現在おすすめに設定しているダッシュボードを開きます。
-2. 上部のメニュー バーで、省略記号 (...) を選択し、 **おすすめをオフ**します。
+2. 上部のメニューバーで、省略記号 (...) を選択し、 **[おすすめをオフにする]** を選択します。
 
-    ![選択したおすすめのダッシュ ボードを無効にします。](./media/end-user-featured/power-bi-unfeature-newer.png)
+    ![おすすめのダッシュボードをオフにする操作が選択されました](./media/end-user-featured/power-bi-unfeature-newer.png)
    
 ## <a name="next-steps"></a>次の手順
 [ダッシュボードをお気に入りにする](end-user-favorite.md)

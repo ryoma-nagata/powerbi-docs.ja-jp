@@ -9,15 +9,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/30/2019
+ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 2796b29ee553ece77846f5edc8af4b2523fd48c6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522789"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073550"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>ダッシュボードまたはレポートにコメントを追加する
 個人のコメントを追加するか、同僚とダッシュボードまたはレポートに関する会話を開始します。 **コメント**機能は、*コンシューマー*が共同作業するための方法の 1 つにすぎません。 
@@ -25,16 +25,18 @@ ms.locfileid: "68522789"
 ![コメントのビデオ](media/end-user-comment/comment.gif)
 
 ## <a name="how-to-use-the-comments-feature"></a>コメント機能を使用する方法
-コメントは、ダッシュボード全体、ダッシュボード上の個々のビジュアル、レポート ページ、レポート ページ上の個々のビジュアルに追加できます。 一般的なコメント、または特定の同僚に宛てたコメントを追加します。  
+コメントは、ダッシュボード全体、ダッシュボード上の個々のビジュアル、レポート ページ、ページ分割されたレポート、レポート ページ上の個々のビジュアルに追加することができます。 一般的なコメント、または特定の同僚に宛てたコメントを追加します。  
 
 レポートにコメントを追加すると、Power BI によって現在のフィルターとスライサーの値がキャプチャされます。 つまり、コメントを選択またはコメントに応答すると、レポート ページまたはレポートのビジュアルが変更されて、コメントが最初に追加されたときにアクティブだったフィルターとスライサーの選択が表示される場合があります。  
 
 ![フィルター付きレポートのビデオ](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
 
-これが重要である理由 たとえば、同僚が、チームと共有したい興味深い分析情報を示すフィルターを適用したとします。 そのフィルターが選択されていないと、コメントに意味がない場合があります。 
+これが重要である理由 たとえば、同僚が、チームと共有したい興味深い分析情報を示すフィルターを適用したとします。 そのフィルターが選択されていないと、コメントに意味がない場合があります。
+
+ページ分割されたレポートを使用している場合、レポートに関する一般的なコメントのみを残しておくことができます。  個々のレポート ビジュアルにコメントを残すことはできません。
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>ダッシュボードまたはレポートに一般的なコメントを追加する
-ダッシュボードまたはレポートにコメントを追加するプロセスは似ています。 この例では、ダッシュボードを使用しています。 
+ダッシュボードまたはレポートにコメントを追加するプロセスは似ています。  この例では、ダッシュボードを使用しています。 
 
 1. Power BI ダッシュボードまたはレポートを開き、 **[コメント]** アイコンを選択します。 これによって [コメント] ダイアログが開きます。
 
