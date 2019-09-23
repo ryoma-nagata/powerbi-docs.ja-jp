@@ -380,7 +380,7 @@ tableAccent | テーブルとマトリックスのグリッドの枠線の色を
 | comboChart |
 | donutChart |
 | filledMap |
-| じょうご |
+| funnel |
 | gauge |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
@@ -389,7 +389,7 @@ tableAccent | テーブルとマトリックスのグリッドの枠線の色を
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| マップ |
+| map |
 | multiRowCard |
 | pieChart |
 | pivotTable |
