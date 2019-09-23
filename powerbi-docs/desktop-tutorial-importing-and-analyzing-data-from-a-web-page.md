@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514631"
@@ -29,7 +29,7 @@ ms.locfileid: "65514631"
 
 ## <a name="connect-to-a-web-data-source"></a>Web データ ソースに接続する
 
-UEFA 優勝国のデータは、UEFA European Football Championship Wikipedia ページ (http://en.wikipedia.org/wiki/UEFA_European_Football_Championship) の Results テーブルから取得できます。 
+UEFA 優勝国のデータは、UEFA European Football Championship Wikipedia ページ (http://en.wikipedia.org/wiki/UEFA_European_Football_Championship ) の Results テーブルから取得できます。 
 
 ![Wikipedia の Results テーブル](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 

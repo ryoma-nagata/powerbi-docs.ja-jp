@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61143944"
@@ -162,9 +162,9 @@ Power BI のデータフローでは、Power BI のデータ更新プロセス�
 この記事では、独自の**データフロー**を作成する方法、および **Power BI Desktop** でデータセットとレポートを作成してそれを利用する方法を説明しました。 データフローを使用する場合の詳細およびシナリオについては、以下の記事が役に立ちます。
 
 * [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
-* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium での計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
 * [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
-* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
+* [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。

@@ -12,7 +12,7 @@ ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61276429"
@@ -81,7 +81,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 ### <a name="doughnut"></a>ドーナツ
 - 最大ポイント数:3,500
 - グループ:上位 500
-- 詳細:上位 20
+- 詳細: 上位 20
 
 ### <a name="filled-map-choropleth"></a>塗り分け地図 (コロプレス) 
 塗り分け地図では静的または動的制限を使用できます。 Power BI は、動的制限、静的制限、最後に構成の順で削減の使用を試行します。 
@@ -116,7 +116,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 - 凡例、緯度、経度、サイズ:上位 233 の凡例、上位 15 の緯度および経度 (静的または動的制限を使用できる場合あり)
 - 場所、凡例、緯度経度の集計 (+/- サイズ):上位 233 の場所、上位 15 の凡例 (静的または動的制限を使用できる場合あり)
 
-### <a name="matrix"></a>マトリックス
+### <a name="matrix"></a>Matrix
 - 行:一度に 500 行のウィンドウを使用することによる仮想化
 - 列:上位 100 のグループ化列 
 - 値: 複数の値はデータ削減としてカウントされません
@@ -133,7 +133,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 ### <a name="pie"></a>円
 - 最大ポイント数:3,500
 - グループ:上位 500
-- 詳細:上位 20
+- 詳細: 上位 20
 
 ### <a name="r--python-visuals"></a>R および Python ビジュアル
 150,000 行に制限。 150,000 を超える行が選択されている場合、上位の 150,000 行のみが使用されます
@@ -159,7 +159,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 ### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>ツリー マップ (静的または動的制限を使用できる場合あり)
 - 最大ポイント数:3,500
 - グループ:上位 500
-- 詳細:上位 20
+- 詳細: 上位 20
 
 ### <a name="waterfall-chart"></a>ウォーターフォール グラフ
 - カテゴリ バケットのみのとき

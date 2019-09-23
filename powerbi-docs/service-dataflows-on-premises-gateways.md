@@ -10,22 +10,19 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82c8bbb5361730b306cacd14dc9598ca12035027
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81dfc6961ff0c00b609f98e50da3532a230cf26d
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61136167"
 ---
-# <a name="using-dataflows-with-on-premises-data-sources-preview"></a>オンプレミス データ ソースでのデータフローの使用 (プレビュー)
+# <a name="using-dataflows-with-on-premises-data-sources"></a>オンプレミス データ ソースでのデータフローの使用
 
 **データフロー**を使用すると、さまざまなソースからデータのコレクションを作成し、データをクリーンアップし、データを変換し、Power BI ストレージにデータを読み込むことができます。 データフローを作成するとき、オンプレミスのデータ ソースを使用したい場合があります。 この記事では、データフローの作成に関する要件と、それらの接続を有効にするために必要な**エンタープライズ ゲートウェイ**の構成方法を明らかにします。
 
 ![データフローとゲートウェイ](media/service-dataflows-onpremises-gateways/onpremises-gateways_01.png)
 
-> [!NOTE]
-> データフローの機能はプレビュー中であり、一般公開前に変更および更新される可能性があります。
- 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>データフローで使用するためのエンタープライズ ゲートウェイの構成
 
 オンプレミスのデータ ソースをデータフローで使用するには、データフローを作成するすべてのユーザーが、**エンタープライズ ゲートウェイ**をインストールして構成する必要があります。 また、データフローでそのゲートウェイを使用するには、データフローを作成するユーザーがエンタープライズ ゲートウェイの管理者である必要もあります。
@@ -80,8 +77,8 @@ ms.locfileid: "54276470"
 
 * [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
-* [Power BI データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [Power BI Premium での計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 
 Power Query とスケジュールされた更新について詳しくは、次の記事をご覧ください。
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)

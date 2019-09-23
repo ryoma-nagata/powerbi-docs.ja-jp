@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730215"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164531"
 ---
 # <a name="manage-data-sources"></a>データ ソースを管理する
 
@@ -123,9 +123,9 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 | **データ ソース** | **Live/DirectQuery** | **手動更新またはスケジュールされた更新 (ユーザー構成)** |
 | --- | --- | --- |
 | Amazon Redshift |はい |はい |
+| Analysis Services |はい |はい |
 | AtScale キューブ |はい |はい |
 | Azure Active Directory |いいえ |はい |
-| Azure Analysis Services |はい |はい |
 | Azure Blob Storage |いいえ |はい |
 | Azure DevOps Server |いいえ |はい |
 | Azure Table Storage |いいえ |はい |

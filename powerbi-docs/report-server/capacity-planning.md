@@ -11,7 +11,7 @@ ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60976741"
@@ -105,7 +105,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 
 <iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
-## <a name="summary"></a>サマリー
+## <a name="summary"></a>概要
 各ロード テストの実行で、Power BI Report Server マシンのピーク負荷時に最も負荷がかかるリソースは CPU でした。 このため、最初に増やす必要があるリソースはコアの数です。 または、トポロジに Power BI Report Server をホストするサーバーを追加することによるスケールアウトも検討できます。
 
 このホワイト ペーパーで示した結果は、特定のデータ セットを使う特定のレポート セットを特定の方法で繰り返すことにより得られたものです。 参考としては役に立ちますが、実際の使用状況は Power BI Report Server の実際のレポート、クエリ、使用パターン、および展開に依存することに留意してください。
@@ -114,7 +114,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 ### <a name="1-topology"></a>1 トポロジ
 **1.1 Power BI Report Server のトポロジ**
 
-異なる構成での Power BI Report Server の動作にのみ注目するため、各マシンの種類 (Power BI Report Server をホストしているマシンを除きます) の VM の構成は固定にしました。 各マシンを、Premium Storage ディスクを使う第 2 世代 (v2) D シリーズ マシンに従ってプロビジョニングしました。 各 VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/) を参照してください。
+異なる構成での Power BI Report Server の動作にのみ注目するため、各マシンの種類 (Power BI Report Server をホストしているマシンを除きます) の VM の構成は固定にしました。 各マシンを、Premium Storage ディスクを使う第 2 世代 (v2) D シリーズ マシンに従ってプロビジョニングしました。 各 VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/ ) を参照してください。
 
 | 仮想マシンの種類 | プロセッサ | メモリ | Azure VM のサイズ |
 | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 
 **1.2 Power BI Report Server の仮想マシンの構成** 
 
-Power BI Report Server をホストする仮想マシンには、異なる構成のプロセッサとメモリを使いました。 他の VM とは異なり、このマシンは、Premium Storage ディスクを使う第 3 世代 (v3) D シリーズ マシンに従ってプロビジョニングしました。 この VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/) を参照してください。
+Power BI Report Server をホストする仮想マシンには、異なる構成のプロセッサとメモリを使いました。 他の VM とは異なり、このマシンは、Premium Storage ディスクを使う第 3 世代 (v3) D シリーズ マシンに従ってプロビジョニングしました。 この VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/ ) を参照してください。
 
 | 仮想マシン | プロセッサ | メモリ | Azure VM のサイズ |
 | --- | --- | --- | --- |
@@ -134,7 +134,7 @@ Power BI Report Server をホストする仮想マシンには、異なる構成
 ### <a name="2-run-the-loadtest-tool"></a>2 LoadTest ツールの実行
 Power BI Report Server のオンプレミスの展開または Microsoft Azure の展開に対して Reporting Services LoadTest ツールを実行する場合は、以下の手順のようにします。
 
-1. GitHub から Reporting Services LoadTest プロジェクトを複製します (https://github.com/Microsoft/Reporting-Services-LoadTest)。
+1. GitHub から Reporting Services LoadTest プロジェクトを複製します (https://github.com/Microsoft/Reporting-Services-LoadTest) 。
 2. プロジェクト ディレクトリで、RSLoadTests.sln という名前のソリューション ファイルを探します。 Visual Studio 2015 以降でこのファイルを開きます。
 3. Power BI Report Server のオンプレミスの展開または Microsoft Azure での展開のどちらに対してこのツールを実行するかを決定します。 独自の展開に対して実行する場合は、手順 5 に進みます。
 4. https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure の指示に従って、Azure に Power BI Report Server 環境を作成します。

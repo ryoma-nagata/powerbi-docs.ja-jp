@@ -12,7 +12,7 @@ ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 340e32d6d3b29e266d81253378feb4266c01d000
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61389935"
@@ -44,7 +44,7 @@ ms.locfileid: "61389935"
 * タイトル
 * 背景
 * 縦横比を固定する
-* 境界線
+* 罫線
 
 > [!NOTE]
 >  

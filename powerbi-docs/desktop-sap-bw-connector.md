@@ -225,19 +225,19 @@ Implementation 2.0 は以下のオプションをサポートします。
 
 
 
-|製品  |モード  |認証  |コネクタ  |SNC ライブラリ  |サポートされている  |
+|Product  |モード  |認証  |コネクタ  |SNC ライブラリ  |サポートされている  |
 |---------|---------|---------|---------|---------|---------|
-|Power BI Desktop     |任意         | ユーザー/パスワード  | アプリケーション サーバー | N/A  | はい  |
+|Power BI Desktop     |任意         | ユーザー/パスワード  | アプリケーション サーバー | 該当なし  | はい  |
 |Power BI Desktop     |任意         | Windows          | アプリケーション サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
 |Power BI Desktop     |任意         | 借用による Windows | アプリケーション サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
-|Power BI Desktop     |任意         | ユーザー/パスワード        | メッセージ サーバー | N/A  | はい  |
+|Power BI Desktop     |任意         | ユーザー/パスワード        | メッセージ サーバー | 該当なし  | はい  |
 |Power BI Desktop     |任意         | Windows        | メッセージ サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
 |Power BI Desktop     |任意         | 借用による Windows | メッセージ サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
 |Power BI Gateway     |インポート      | Power BI Desktop と同じ |         |   |   |
-|Power BI Gateway     |DirectQuery | ユーザー/パスワード        | アプリケーション サーバー | N/A  | はい  |
+|Power BI Gateway     |DirectQuery | ユーザー/パスワード        | アプリケーション サーバー | 該当なし  | はい  |
 |Power BI Gateway     |DirectQuery | 借用による Windows (固定ユーザー、SSO なし) | アプリケーション サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
 |Power BI Gateway     |DirectQuery | DirectQuery クエリ オプションには Kerberos 経由で SSO を使用する | アプリケーション サーバー | gsskrb5/gx64krb5 *の場合のみ*   | はい  |
-|Power BI Gateway     |DirectQuery | ユーザー/パスワード        | メッセージ サーバー | N/A  | はい  |
+|Power BI Gateway     |DirectQuery | ユーザー/パスワード        | メッセージ サーバー | 該当なし  | はい  |
 |Power BI Gateway     |DirectQuery | 借用による Windows (固定ユーザー、SSO なし) | メッセージ サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
 |Power BI Gateway     |DirectQuery | DirectQuery クエリ オプションには Kerberos 経由で SSO を使用する | メッセージ サーバー | sapcrypto + gsskrb5/gx64krb5  | いいえ  |
 

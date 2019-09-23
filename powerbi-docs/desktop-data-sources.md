@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560873"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142280"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -116,7 +116,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure SQL Data Warehouse
 * Azure Analysis Services データベース
 * Azure Blob Storage
-* Azure テーブル ストレージ
+* Azure Table Storage
 * Azure Cosmos DB
 * Azure Data Lake Storage Gen2 (ベータ版)
 * Azure Data Lake Storage Gen1
@@ -192,7 +192,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (ベータ)
-* Denado
+* Denodo
 * Information Grid (ベータ)
 * Paxata 
 * QubolePresto (ベータ)
