@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
 ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65100988"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
@@ -24,7 +24,7 @@ ms.locfileid: "65100988"
 |:--- |:--- |
 | iPhone |Android フォン |
 
-スマート フォンに Power BI レポートを表示すると、Power BI は、レポートが電話用に最適化されているかどうかを確認します。 場合は、Power BI は縦長ビューに最適化されたレポートを自動的に開きます。
+スマートフォンで Power BI レポートを表示すると、レポートがスマートフォン向けに最適化されているかどうかが Power BI によって確認されます。 最適化されている場合、Power BI では、最適化されたレポートが縦表示で自動的に開きます。
 
 ![縦モードのレポート](./media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -38,7 +38,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 * [Android フォンでのレポート](mobile-reports-in-the-mobile-apps.md)。
 
 ## <a name="filter-the-report-page-on-a-phone"></a>電話でレポート ページをフィルター処理する
-電話用に最適化されたレポートにフィルターが定義されている場合、電話でレポートを表示するときに、これらのフィルターを使うことができます。 電話で、web 上のレポートでフィルター選択されている値をフィルター処理されたレポートを開きます。 ページにアクティブなフィルターがあることを示すメッセージが表示されます。 スマートフォンでフィルターを変更できます。
+電話用に最適化されたレポートにフィルターが定義されている場合、電話でレポートを表示するときに、これらのフィルターを使うことができます。 レポートは、Web 上のレポートに適用されているフィルターでフィルター処理されてからスマートフォン上で開きます。 ページにアクティブなフィルターがあることを示すメッセージが表示されます。 スマートフォンでフィルターを変更できます。
 
 1. ページの下部にあるフィルター アイコン ![電話のフィルター アイコン](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) をタップします。 
 2. 基本的または詳細なフィルター処理を使って、関心がある結果を表示します。
@@ -46,7 +46,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
     ![Power BI 電話レポートの詳細フィルター](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>ビジュアルをクロス強調表示する
-クロス (縦向き) ビジュアルを強調表示ビューでは、横長ビューでのスマート フォンと、Power BI サービスでに行う方法が機能します。1 つのビジュアルでデータを選択すると、そのページの他のビジュアルの関連するデータが強調表示されます。
+縦表示のビジュアルのクロス強調表示は、Power BI サービスや横長ビューのスマートフォンの場合と同じように機能します。1 つのビジュアルでデータを選択すると、そのページの他のビジュアルの関連するデータが強調表示されます。
 
 詳しくは、[Power BI のフィルターと強調表示について](../../power-bi-reports-filters-and-highlighting.md)のページを参照してください。
 
@@ -56,13 +56,13 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 ビジュアルが選択されている場合、ビジュアル内でスクロールなどの操作を実行できます。 ビジュアルを選択解除するには、ビジュアル領域外の任意の場所に触れるだけです。
 
 ## <a name="open-visuals-in-focus-mode"></a>フォーカス モードでビジュアルを開く
-電話レポートでは、フォーカス モードも提供します。拡大表示して、1 つのビジュアルを取得しより簡単に調査します。
+スマートフォンの場合、レポートにはフォーカス モードもあります。1 つのビジュアルを大きく表示したり、いろいろ試したりすることが簡単になります。
 
 * 電話レポートで、ビジュアルの右上隅にある省略記号 **[...]** をタップし、 **[フォーカス モードに展開]** をタップします。
   
     ![フォーカス モードに展開](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
-フォーカス モードで何が引き継がレポート キャンバスに、その逆です。 たとえば、ビジュアルで値を強調表示してレポート全体に戻る場合は、レポートのビジュアルで強調表示されている値にフィルターが。
+フォーカス モードでの実行内容は、レポート キャンバスに持ち込まれます。その逆も可能です。 たとえば、ビジュアルの値を強調表示してから、レポート全体に戻ると、ビジュアルで強調表示した値にレポートがフィルター処理されます。
 
 画面サイズの制限により、フォーカス モードでは、一部の操作のみ実行できます。
 
@@ -74,29 +74,29 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
   
     ![元に戻す](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
-    元に戻すは、すべてのビジュアルからの探索をオフにすると、レポート レベルで、またはオフにすると、選択したビジュアルからの探索、ビジュアルのレベルで使用します。   
+    レポート レベルで元に戻すことができます。試しに実行したことがすべてのビジュアルから消去されます。ビジュアル レベルで元に戻す場合、選択したビジュアルから試しに実行したことが消去されます。   
 
 ## <a name="drill-down-in-a-visual"></a>ビジュアルをドリルダウンする
 ビジュアルで階層レベルが定義されている場合、ビジュアルに表示されている詳細情報にドリルダウンした後、ドリルアップして戻ることができます。 [ビジュアルへのドリルダウンの追加](../end-user-drill.md)は、Power BI サービスまたは Power BI Desktop で行います。
 
-ドリル ダウンのいくつかの種類があります。
+ドリルダウンには次のような種類があります。
 
-### <a name="drill-down-on-a-value"></a>値にドリル ダウン
-1. 時間の長いビジュアルでデータ ポイント (タップ アンド ホールド) をタップします。
-2. ツールヒントが表示され、階層が定義されている場合は、そのツールヒントのフッターがドリルダウンとドリルアップの矢印が表示されます。
-3. ドリルダウンの下向きの矢印をタップします
+### <a name="drill-down-on-a-value"></a>値でドリルダウン
+1. ビジュアル内のデータ ポイントで長くタップします (タップしたまま押さえます)。
+2. ツールヒントが表示されます。階層が定義されている場合、ツールヒント フッターにドリルダウンと上矢印が表示されます。
+3. 下矢印をタップしてドリルダウンします。
 
-    ![Tap のドリルダウン](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![タップしてドリルダウン](././media/mobile-apps-view-phone-report/report-drill-down.png)
     
-4. ドリル アップの上向きの矢印をタップします。
+4. 上矢印をタップしてドリルアップします。
 
-### <a name="drill-to-next-level"></a>次のレベルにドリル ダウンします。
+### <a name="drill-to-next-level"></a>次のレベルにドリル
 1. 電話のレポートでは、右上隅にある省略記号 **[...]** 、 **[フォーカス モードに展開]** の順にタップします。
    
     ![フォーカス モードに展開](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     この例では、バーには州の値が表示されています。
-2. 左下の [探索] アイコン ![探索アイコン](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) 左の下。
+2. 左下の [探索] アイコン ![探索アイコン](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) をタップします。これは左下にあります。
    
     ![探索モード](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-mode.png)
 3. **[次のレベルを表示する]** または **[次のレベルに展開]** をタップします。
@@ -113,21 +113,21 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
    
     ![元に戻す](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
-## <a name="drill-through-from-a-value"></a>値からのドリルスルーします。
-ドリルスルーは、1 つのレポート ページで、値を他のレポート ページに接続します。 別のレポート ページにデータ ポイントからドリルスルーする場合は、フィルター ページで、処理、ドリルするデータ ポイント値が使用されます。 または選択したデータのコンテキストになります。
-レポート作成者は[ドリル スルーを定義する](https://docs.microsoft.com/power-bi/desktop-drillthrough)レポートを作成するとき。
+## <a name="drill-through-from-a-value"></a>値からドリルスルーする
+ドリルスルーでは、あるレポートページ内の値が他のレポートページと接続されます。 データ ポイントから別のレポートページにドリルスルーすると、データ ポイント値を使用し、ドリルスルーしたページにフィルターが適用されます。あるいは、選択したデータのコンテキストで表示されます。
+レポート作成者は、レポートを作成するときに[ドリルスルーを定義](https://docs.microsoft.com/power-bi/desktop-drillthrough)できます。
 
-1. 時間の長いビジュアルでデータ ポイント (タップ アンド ホールド) をタップします。
-2. ツールヒントが表示され、ドリルスルーが定義されている場合は、ツールヒントのフッターが矢印のドリルスルーは表示します。
-3. ドリルスルーの矢印をタップします
+1. ビジュアル内のデータ ポイントで長くタップします (タップしたまま押さえます)。
+2. ツールヒントが表示されます。ドリルスルーが定義されている場合、ツールヒント フッターにドリルスルー矢印が表示されます。
+3. 矢印をタップしてドリルスルーします。
 
-    ![ドリルスルーをタップします。](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![タップしてドリルスルー](././media/mobile-apps-view-phone-report/report-drill-through1.png)
 
-4. ドリルスルー レポート ページを選択します。
+4. ドリルスルーするレポート ページを選択します。
 
-    ![レポート ページを選択します。](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![レポート ページの選択](././media/mobile-apps-view-phone-report/report-drill-through2.png)
 
-5. 開始したページに戻るにアプリのヘッダーで、[戻る] ボタンを使用します。
+5. アプリのヘッダーにある [戻る] ボタンを使用すると、開始したページに戻ります。
 
 
 ## <a name="next-steps"></a>次の手順

@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/13/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ea81f7c264e4329ae29bb71e0fa8b038604504a1
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b2d658daade3ab1aa2a1c09dc33c0e7d48636910
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608414"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141506"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI サービスのプレビュー機能のオプトイン
 ## <a name="what-are-preview-features"></a>*プレビュー機能* とは
@@ -30,7 +29,7 @@ Power BI サービスの機能向上を行ったときは、新しい機能を*�
    ![[設定] メニュー](./media/end-user-preview-features/power-bi-settings.png).
 2. **[全般]** タブを選びます。プレビューが存在する場合、 **[プレビュー機能]** オプションが表示されるか、または左側にプレビュー機能の一覧が表示されます。  次の例では、プレビューの一覧には ArcGIS Maps が表示されています。 
    
-   ![[全般] タブ](./media/end-user-preview-features/power-bi-preview-arcgis.png)
+   ![[全般] タブ](./media/end-user-preview-features/power-bi-preview-esri.png)
 3. 新しいエクスペリエンスを試すには、 **[オン]** のラジオ ボタンを選ぶか、チェック ボックスをオンにします。 そして、 **[適用]** を選びます。
 4. プレビュー機能を無効にするには、上記の手順 1 から 3 までを行うとき、手順 3 で、 **[オフ]** を選択するか、チェックボックスをオフにして **[適用]** を選択します。
 
