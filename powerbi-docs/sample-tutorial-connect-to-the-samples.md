@@ -83,7 +83,7 @@ ms.locfileid: "68391511"
    > [Power BI Q&A](power-bi-tutorial-q-and-a.md) を利用してタイルが作成された場合、代わりに Q&A ページが開きます。 タイルを [Excel からピン留め](service-dashboard-pin-tile-from-excel.md)した場合、Power BI 内で Excel Online が開きます。
    > 
    > 
-1. 同僚とコンテンツ パックを共有する作成者は、通常、分析情報だけを共有し、データに直接アクセスできるようにはしません。 **[データセット]** タブには、データセットを調べるためのいくつかのオプションがあります。 ただし、Power BI Desktop または Excel の場合と同様に、データの行と列を表示することはできません。 
+1. 同僚とコンテンツ パックを共有する作成者は、通常、分析情報だけを共有し、データに直接アクセスできるようにはしません。 **[データセット]** タブには、データセットを調べるためのいくつかのオプションがあります。 ただし、Power BI Desktop または Excel でできるように、データの行と列を表示することはできません。 
    
    ![小売りの分析のサンプル データセット エントリ](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
    
