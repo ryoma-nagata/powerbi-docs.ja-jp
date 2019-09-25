@@ -92,6 +92,8 @@
               href: end-user-insights.md
             - name: プレビュー機能をオンにする
               href: end-user-preview-features.md
+            - name: Power BI サービスで通知を受け取る
+              href: end-user-notification-center.md
         - name: データを取得
           items:
             - name: Power BI のアプリ
