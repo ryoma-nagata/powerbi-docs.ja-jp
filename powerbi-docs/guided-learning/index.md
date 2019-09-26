@@ -4,14 +4,14 @@ description: この順番に並んだ一連のコースを使って、Microsoft 
 layout: LandingPage
 ms.service: powerbi
 ms.author: davidiseminger
-ms.date: 05/10/2019
+ms.date: 09/20/2019
 ms.topic: hub-page
-ms.openlocfilehash: 69bb6ce574c1ee6922c83f4ae2fcc06479eba440
-ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
+ms.openlocfilehash: 0d42295d3f6a3ccb6f3147d8293f1544ca0a3095
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "65533689"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192067"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -22,6 +22,7 @@ ms.locfileid: "65533689"
                   <p>この順番に並んだ一連のコースを使って、Microsoft Power BI についての学習をはじめ、その幅広い強力な機能を理解しましょう。</p>
               </div>
           </li>
+          
           <li>
             <div class="cardSize">
                 <div class="cardPadding">
@@ -33,18 +34,36 @@ ms.locfileid: "65533689"
                                 <img src="media/logo_power-bi.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-はじめに </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/explore-power-bi-service" style="text-decoration: none">Power BI で何ができるかを調べる</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/">Microsoft Learn を利用して Power BI を使ってみる</a>
-                                <span style="margin-left: 32px; align-self: center;">47 分</span>
-                              </li>                              
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-power-bi-service/1-why-power-bi">コンシューマーとして Power BI サービスで何ができますか?</a>
+                                <span style="margin-left: 32px; align-self: center;">12 分</span>
+                              </li>      
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-power-bi-service/2-find-content">Power BI サービスでコンテンツを表示する</a>
+                                <span style="margin-left: 32px; align-self: center;">10 分</span>
+                              </li>     
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-power-bi-service/3-navigate-content">Power BI のダッシュボード、レポート、アプリを探索する</a>
+                                <span style="margin-left: 32px; align-self: center;">15 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-power-bi-service/4-collaborate-and-share">Power BI で共同作業し、共有する</a>
+                                <span style="margin-left: 32px; align-self: center;">15 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-power-bi-service/5-lab-1">ダッシュボードとレポートの検索と表示</a>
+                                <span style="margin-left: 32px; align-self: center;">7 分</span>
+                              </li>
                           </ul>
                       </div>
                     </div>
                 </div>
             </div>
           </li>
+          
           <li>
             <div class="cardSize">
                 <div class="cardPadding">
@@ -56,31 +75,24 @@ ms.locfileid: "65533689"
                                 <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-データの取得 </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/analyze-data-power-bi" style="text-decoration: none">Power BI を使用したデータ分析</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=1">Power BI Desktop の概要</a>
-                                <span style="margin-left: 32px; align-self: center;">4 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/analyze-data-power-bi/1-filtering-data">Power BI を使用してデータをフィルターする</a>
+                                <span style="margin-left: 32px; align-self: center;">15 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=2">Power BI Desktop の概要</a>
-                                <span style="margin-left: 32px; align-self: center;">9 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/analyze-data-power-bi/2-exploring-with-numbers">データを表示する</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=3">Power BI Desktop のデータ ソースへの接続</a>
-                                <span style="margin-left: 32px; align-self: center;">8 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/analyze-data-power-bi/3-asking-questions-data">データに関して質問する</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=4">クエリ エディターを使用してデータをクリーンアップおよび変換する</a>
-                                <span style="margin-left: 32px; align-self: center;">8 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=5">より詳細なデータ ソースと変換</a>
-                                <span style="margin-left: 32px; align-self: center;">8 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=6">不規則な書式が設定されたデータのクリーニング</a>
-                                <span style="margin-left: 32px; align-self: center;">8 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/analyze-data-power-bi/4-lab-2">レポートにフィルターを適用する</a>
+                                <span style="margin-left: 32px; align-self: center;">25 分</span>
                               </li>
                           </ul>
                       </div>
@@ -88,7 +100,8 @@ ms.locfileid: "65533689"
                 </div>
             </div>
           </li>
-          <li>
+          
+                    <li>
             <div class="cardSize">
                 <div class="cardPadding">
                   <div class="card" style="padding: 0 12px 54px 0;">
@@ -96,133 +109,27 @@ ms.locfileid: "65533689"
                           <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
                             <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
                               <div class="cardImage" style="width: 32px;">
-                                <img src="media/pbi-modeling.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-モデリング </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/get-started-with-power-bi" style="text-decoration: none">Power BI を使用してビルドを開始する</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=1">データのモデリングの概要</a>
-                                <span style="margin-left: 32px; align-self: center;">3 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=2">データ リレーションシップを管理する方法</a>
-                                <span style="margin-left: 32px; align-self: center;">9 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=3">計算列の作成</a>
-                                <span style="margin-left: 32px; align-self: center;">9 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=4">データ モデルの最適化</a>
-                                <span style="margin-left: 32px; align-self: center;">8 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=5">計算メジャーの作成</a>
-                                <span style="margin-left: 32px; align-self: center;">14 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=6">計算テーブルの作成</a>
-                                <span style="margin-left: 32px; align-self: center;">4 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=7">時間ベースのデータの探索</a>
-                                <span style="margin-left: 32px; align-self: center;">6 分</span>
-                              </li>
-                          </ul>
-                      </div>
-                    </div>
-                </div>
-            </div>
-          </li>
-          <li>
-            <div class="cardSize">
-                <div class="cardPadding">
-                  <div class="card" style="padding: 0 12px 54px 0;">
-                      <div class="cardText" style="box-shadow: 0 2px 5px #e8e8e8; border: 1px solid #dbdbdb;">
-                          <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
-                            <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
-                              <div class="cardImage" style="width: 32px;">
-                                <img src="media/pbi-visualizations.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
-                              </div>
-                            </div>
-視覚化 </h3>
-                          <ul class="noBullet" style="margin: 24px;">
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=1">Power BI でのビジュアルの概要</a>
-                                <span style="margin-left: 32px; align-self: center;">2 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=2">単純な視覚エフェクトの作成とカスタマイズ</a>
-                                <span style="margin-left: 32px; align-self: center;">8 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=3">複合グラフ</a>
-                                <span style="margin-left: 32px; align-self: center;">5 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=4">スライサー</a>
-                                <span style="margin-left: 32px; align-self: center;">7 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=5">視覚エフェクトのマップ</a>
-                                <span style="margin-left: 32px; align-self: center;">11 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=6">マトリックスとテーブル</a>
-                                <span style="margin-left: 32px; align-self: center;">8 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=7">散布図</a>
-                                <span style="margin-left: 32px; align-self: center;">9 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=8">ウォーターフォール グラフとじょうごグラフ</a>
-                                <span style="margin-left: 32px; align-self: center;">5 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=9">ケージと単一数値カード</a>
-                                <span style="margin-left: 32px; align-self: center;">7 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=10">グラフとビジュアルの色の変更</a>
-                                <span style="margin-left: 32px; align-self: center;">5 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=11">図形、テキスト ボックス、および画像</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-started-with-power-bi/1-introduction">はじめに</a>
                                 <span style="margin-left: 32px; align-self: center;">6 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=12">ページ レイアウトと書式設定</a>
-                                <span style="margin-left: 32px; align-self: center;">5 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=13">視覚エフェクト間の相互作用のグループ化</a>
-                                <span style="margin-left: 32px; align-self: center;">9 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=14">レポート ページの複製</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-started-with-power-bi/2-using-power-bi">Power BI を使用する</a>
                                 <span style="margin-left: 32px; align-self: center;">2 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=15">データなしでカテゴリを表示する</a>
-                                <span style="margin-left: 32px; align-self: center;">3 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-started-with-power-bi/3-building-blocks-of-power-bi">Power BI の構成要素</a>
+                                <span style="margin-left: 32px; align-self: center;">12 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=16">集計およびカテゴリのオプション</a>
-                                <span style="margin-left: 32px; align-self: center;">9 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=17">Z オーダー</a>
-                                <span style="margin-left: 32px; align-self: center;">3 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=18">ビジュアルの階層とドリルダウン</a>
-                                <span style="margin-left: 32px; align-self: center;">5 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=19">Power BI Desktop での R 統合</a>
-                                <span style="margin-left: 32px; align-self: center;">9 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-started-with-power-bi/4-exercise-touring-and-using-power-bi">Power BI サービスの概要と使用</a>
+                                <span style="margin-left: 32px; align-self: center;">12 分</span>
                               </li>
                           </ul>
                       </div>
@@ -230,7 +137,8 @@ ms.locfileid: "65533689"
                 </div>
             </div>
           </li>
-          <li>
+          
+                    <li>
             <div class="cardSize">
                 <div class="cardPadding">
                   <div class="card" style="padding: 0 12px 54px 0;">
@@ -238,50 +146,39 @@ ms.locfileid: "65533689"
                           <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
                             <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
                               <div class="cardImage" style="width: 32px;">
-                                <img src="media/pbi-exploring-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-データの探索 </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/get-data-power-bi" style="text-decoration: none">Power BI Desktop でデータを取得する</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=1">Power BI サービスの概要</a>
-                                <span style="margin-left: 32px; align-self: center;">2 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=2">Power BI のクイック分析情報</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/1-overview-power-bi-desktop">Power BI Desktop の概要</a>
                                 <span style="margin-left: 32px; align-self: center;">5 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=3">ダッシュボードの作成と構成</a>
-                                <span style="margin-left: 32px; align-self: center;">6 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop">Power BI Desktop を調べる</a>
+                                <span style="margin-left: 32px; align-self: center;">10 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=4">自然言語を使用してデータに関する質問をする</a>
-                                <span style="margin-left: 32px; align-self: center;">9 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/3-connect-data-sources-power-bi-desktop">データ ソースに接続する</a>
+                                <span style="margin-left: 32px; align-self: center;">10 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">カスタム Q&amp;A 候補の作成</a>
-                                <span style="margin-left: 32px; align-self: center;">4 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=6">ダッシュボードを組織で共有する</a>
-                                <span style="margin-left: 32px; align-self: center;">7 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=7">ビジュアルおよびタイルの全画面表示</a>
-                                <span style="margin-left: 32px; align-self: center;">4 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=8">タイルの詳細を編集してウィジェットを追加する</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/3b-data-from-excel">Excel からデータを取得する</a>
                                 <span style="margin-left: 32px; align-self: center;">5 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=9">ダッシュボードに空きスペースを作る</a>
-                                <span style="margin-left: 32px; align-self: center;">5 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/4-clean-data-query-editor">レポートに含めるためにデータを変換する</a>
+                                <span style="margin-left: 32px; align-self: center;">10 分</span>
+                                <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/5-advanced-data-sources-transformation">複数のソースのデータを結合する</a>
+                                <span style="margin-left: 32px; align-self: center;">10 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=10">Personal Gateway のインストールと構成</a>
-                                <span style="margin-left: 32px; align-self: center;">11 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/6-cleaning-data">レポートに含めるためにデータをクリーンアップする</a>
+                                <span style="margin-left: 32px; align-self: center;">10 分</span>
+                              </li>
                               </li>
                           </ul>
                       </div>
@@ -289,7 +186,8 @@ ms.locfileid: "65533689"
                 </div>
             </div>
           </li>
-          <li>
+          
+                    <li>
             <div class="cardSize">
                 <div class="cardPadding">
                   <div class="card" style="padding: 0 12px 54px 0;">
@@ -297,30 +195,39 @@ ms.locfileid: "65533689"
                           <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
                             <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
                               <div class="cardImage" style="width: 32px;">
-                                <img src="media/logo_excel-blk.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-Power BI と Excel </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/model-data-power-bi" style="text-decoration: none">Power BI でデータをモデル化する</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=1">Power BI での Excel データの使用の概要</a>
-                                <span style="margin-left: 32px; align-self: center;">2 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/1-overview-power-bi">データのモデリングの概要</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=2">Excel データを Power BI にアップロード</a>
-                                <span style="margin-left: 32px; align-self: center;">4 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=3">Power View と Power Pivot を Power BI にインポートする</a>
-                                <span style="margin-left: 32px; align-self: center;">4 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=4">OneDrive for Business を Power BI に接続する</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/2-how-to-manage-data-relationships">データ リレーションシップを管理する方法</a>
                                 <span style="margin-left: 32px; align-self: center;">8 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=5">Power BI での Excel - まとめ</a>
-                                <span style="margin-left: 32px; align-self: center;">2 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/3-create-calculated-columns">計算列を作成する</a>
+                                <span style="margin-left: 32px; align-self: center;">7 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/4-optimize-data-models">データ モデルを最適化する</a>
+                                <span style="margin-left: 32px; align-self: center;">8 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/4b-create-calculated-measures">計算メジャーを作成する</a>
+                                <span style="margin-left: 32px; align-self: center;">15 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables">計算テーブルを作成する</a>
+                                <span style="margin-left: 32px; align-self: center;">4 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/6-explore-time-based-data">時間ベースのデータを探索する</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
                               </li>
                           </ul>
                       </div>
@@ -328,7 +235,8 @@ Power BI と Excel </h3>
                 </div>
             </div>
           </li>
-          <li>
+          
+                    <li>
             <div class="cardSize">
                 <div class="cardPadding">
                   <div class="card" style="padding: 0 12px 54px 0;">
@@ -336,58 +244,43 @@ Power BI と Excel </h3>
                           <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
                             <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
                               <div class="cardImage" style="width: 32px;">
-                                <img src="media/pbi-pub-sharing.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-発行と共有 </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi" style="text-decoration: none">Power BI のビジュアルの使用</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=1">コンテンツ パック、セキュリティ、グループの概要</a>
-                                <span style="margin-left: 32px; align-self: center;">2 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=2">Power BI Desktop レポートの発行</a>
-                                <span style="margin-left: 32px; align-self: center;">2 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=3">ダッシュボードやレポートの印刷とエクスポート</a>
-                                <span style="margin-left: 32px; align-self: center;">4 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=4">手動でデータの再発行と更新を行う</a>
-                                <span style="margin-left: 32px; align-self: center;">5 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=5">Power BI モバイルの紹介</a>
-                                <span style="margin-left: 32px; align-self: center;">7 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=6">Power BI でのグループ作成</a>
-                                <span style="margin-left: 32px; align-self: center;">5 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=7">コンテンツ パックを作成する</a>
-                                <span style="margin-left: 32px; align-self: center;">5 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=8">コンテンツ パックを使用する</a>
-                                <span style="margin-left: 32px; align-self: center;">7 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=9">コンテンツ パックを更新する</a>
-                                <span style="margin-left: 32px; align-self: center;">4 分</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=10">OneDrive for Business と Power BI を統合する</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/1-intro-visuals">Power BI のビジュアルの概要</a>
                                 <span style="margin-left: 32px; align-self: center;">3 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=11">Web に公開</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/2-create-simple-visuals">シンプルな視覚エフェクトの作成とカスタマイズ</a>
+                                <span style="margin-left: 32px; align-self: center;">9 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/4-create-slicers">スライサーを作成する</a>
+                                <span style="margin-left: 32px; align-self: center;">9 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/5-map-visualizations">視覚エフェクトをマップする</a>
                                 <span style="margin-left: 32px; align-self: center;">5 分</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=12">Power BI のガイド付き学習の完了</a>
-                                <span style="margin-left: 32px; align-self: center;">4 分</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/6-create-matrixes-tables">マトリックスとテーブル</a>
+                                <span style="margin-left: 32px; align-self: center;">8 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/7-create-scatter-charts">散布図、ウォーターフォール図、じょうごグラフを作成する</a>
+                                <span style="margin-left: 32px; align-self: center;">9 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/10-modify-colors">グラフとビジュアル内の色を変更する</a>
+                                <span style="margin-left: 32px; align-self: center;">6 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/12-formatting">ページ レイアウトと書式設定</a>
+                                <span style="margin-left: 32px; align-self: center;">12 分</span>
                               </li>
                           </ul>
                       </div>
@@ -395,6 +288,122 @@ Power BI と Excel </h3>
                 </div>
             </div>
           </li>
+          
+                    <li>
+            <div class="cardSize">
+                <div class="cardPadding">
+                  <div class="card" style="padding: 0 12px 54px 0;">
+                      <div class="cardText" style="box-shadow: 0 2px 5px #e8e8e8; border: 1px solid #dbdbdb;">
+                          <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
+                            <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
+                              <div class="cardImage" style="width: 32px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                              </div>
+                            </div>
+                            <a href="https://docs.microsoft.com/learn/modules/explore-data-power-bi" style="text-decoration: none">Power BI でデータを探索する</a>
+                          </h3>
+                          <ul class="noBullet" style="margin: 24px;">
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/1-introduction-power-bi-service">Power BI サービスについて</a>
+                                <span style="margin-left: 32px; align-self: center;">6 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/2-quick-insights">Power BI のクイック分析情報</a>
+                                <span style="margin-left: 32px; align-self: center;">7 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/3-create-configure-dashboard">ダッシュボードを作成して構成する</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/4-ask-questions">自然言語でデータについて質問する</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/5-custom-qa">カスタムの Q&A 候補を作成する</a>
+                                <span style="margin-left: 32px; align-self: center;">4 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/6-share-dashboards">ダッシュボードを組織で共有する</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/7-display-full-screen">ビジュアルとタイルを全画面で表示する</a>
+                                <span style="margin-left: 32px; align-self: center;">3 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/8-edit-tile-details">タイルの詳細を編集し、ウィジェットを追加する</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/9-get-more-space-on-dashboard">ダッシュボード上の領域を増やす</a>
+                                <span style="margin-left: 32px; align-self: center;">3 分</span>
+                              </li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </li>
+          
+                    <li>
+            <div class="cardSize">
+                <div class="cardPadding">
+                  <div class="card" style="padding: 0 12px 54px 0;">
+                      <div class="cardText" style="box-shadow: 0 2px 5px #e8e8e8; border: 1px solid #dbdbdb;">
+                          <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
+                            <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
+                              <div class="cardImage" style="width: 32px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                              </div>
+                            </div>
+                            <a href="https://docs.microsoft.com/learn/modules/publish-share-power-bi" style="text-decoration: none">Power BI で発行および共有する</a>
+                          </h3>
+                          <ul class="noBullet" style="margin: 24px;">
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/1-introduction-content-packs">コンテンツ パック、セキュリティ、グループの概要</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/2-publish-reports">Power BI Desktop レポートを発行する</a>
+                                <span style="margin-left: 32px; align-self: center;">6 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/3-print-export-reports">ダッシュボードやレポートを印刷およびエクスポートする</a>
+                                <span style="margin-left: 32px; align-self: center;">7 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/5-power-bi-mobile">Power BI Mobile の概要</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/6-create-groups">Power BI でワークスペースを作成する</a>
+                                <span style="margin-left: 32px; align-self: center;">6 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/7-build-apps">アプリを構築する</a>
+                                <span style="margin-left: 32px; align-self: center;">7 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/8-use-apps">アプリを使用する</a>
+                                <span style="margin-left: 32px; align-self: center;">6 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/10-integrate-onedrive">OneDrive for Business と Power BI を統合する</a>
+                                <span style="margin-left: 32px; align-self: center;">7 分</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/11-publish-web">Web に公開する</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分</span>
+                              </li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </li>
+     
+          
           <li>
             <div class="cardSize">
                 <div class="cardPadding">
@@ -406,7 +415,8 @@ Power BI と Excel </h3>
                                 <img src="media/pbi-dax-intro.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-DAX の概要 </h3>
+                            <a href="introductiontodax.yml?tutorial-step=1" style="text-decoration: none">DAX の概要</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="introductiontodax.yml?tutorial-step=1">DAX の概要</a>
