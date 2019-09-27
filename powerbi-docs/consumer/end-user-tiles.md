@@ -4,24 +4,23 @@ description: コンシューマー向け Power BI のダッシュボードのタ
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050263"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142116"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI のダッシュボードのタイル
-タイルは、*デザイナー*によってダッシュボードにピン留めされた、データのスナップショットです。 タイルは、レポート、データセット、ダッシュボード、Q&A 質問ボックス、Excel、SQL Server Reporting Services (SSRS) などから作成できます。  次のスクリーンショットは、ダッシュボードにピン留めされているさまざまなタイルを示しています。
+タイルは、*デザイナー*によってダッシュボードにピン留めされた、データのスナップショットです。 "*デザイナー*" は、レポート、データセット、ダッシュボード、Q&A 質問ボックス、Excel、SQL Server Reporting Services (SSRS) などから、タイルを作成できます。  次のスクリーンショットは、ダッシュボードにピン留めされているさまざまなタイルを示しています。
 
-![Power BI ダッシュボード](./media/end-user-tiles/power-bi-dashboard.png)
+![Power BI ダッシュボード](./media/end-user-tiles/power-bi-dash.png)
 
 
 レポートからピン留めされたタイルに加え、*デザイナー*は **[タイルの追加]** を利用し、ダッシュボードに直接、スタンドアロンのタイルを追加できます。 スタンドアロン タイルには、テキスト ボックス、画像、ビデオ、ストリーミング データ、Web コンテンツが含まれます。
@@ -38,15 +37,15 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 
     - Q&A を利用して作成されたタイル
    
-        ![省略記号アイコン](./media/end-user-tiles/power-bi-menu1.png)
+        ![省略記号アイコン](./media/end-user-tiles/power-bi-options-1.png)
 
     - ブックから作成されたタイル
    
-        ![省略記号アイコン](./media/end-user-tiles/power-bi-menu2.png)
+        ![省略記号アイコン](./media/end-user-tiles/power-bi-options-2.png)
 
     - レポートから作成されたタイル
    
-        ![省略記号アイコン](./media/end-user-tiles/power-bi-menu3.png)
+        ![省略記号アイコン](./media/end-user-tiles/power-bi-options-3.png)
    
     ここでは、次の操作を実行できます。
    
@@ -56,9 +55,12 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
    
 
    * [このタイルの作成に使われたブックを開く](end-user-reports.md) ![ワークシート アイコン](./media/end-user-tiles/power-bi-open-worksheet.png)  
-    * [フォーカス モードでタイルを表示する](end-user-focus.md) ![フォーカス アイコン](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [インサイトを実行する](end-user-insights.md) ![インサイト アイコン](./media/end-user-tiles/power-bi-insights.png)
-    * [コメントを追加し、ディスカッションを開始する ](end-user-comment.md) ![コメント アイコン](./media/end-user-tiles/comment-icons.png)
+   * [フォーカス モードでタイルを表示する](end-user-focus.md) ![フォーカス アイコン](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [分析情報を表示する](end-user-insights.md) ![分析情報アイコン](./media/end-user-tiles/power-bi-insights.png)
+   * [コメントを追加し、ディスカッションを開始する ](end-user-comment.md) ![コメント アイコン](./media/end-user-tiles/comment-icons.png)
+   * [ダッシュボードのタイルで設定されたアラートを管理する](end-user-alerts.md) ![アラート アイコン](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Excel でデータを開く](end-user-export.md) ![エクスポート アイコン](./media/end-user-tiles/power-bi-export-icon.png)
+
 
 3. 操作メニューを閉じるには、キャンバスの空白領域を選びます。
 
@@ -66,7 +68,7 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 タイルを選択したときに次に生じる動作は、タイルの作成方法、および[カスタム リンク](../service-dashboard-edit-tile.md)があるかどうかによって異なります。 カスタム リンクがある場合、タイルを選択するとそのリンクに移動します。 それ以外の場合、タイルを選択すると、そのタイルを作成するために使われたレポート、Excel Online ブック、オンプレミスの SSRS レポート、Q&A の質問に移動します。
 
 > [!NOTE]
-> 例外は、 **[タイルを追加]** を使ってダッシュボードに直接作成したビデオ タイルの場合です。 (この方法で作成された) ビデオ タイルを選択すると、ダッシュボード上で直接ビデオが再生されます。   
+> 例外は、**[タイルを追加]** を使ってダッシュボードに直接作成したビデオ タイルの場合です。 (この方法で作成された) ビデオ タイルを選択すると、ダッシュボード上で直接ビデオが再生されます。   
 > 
 > 
 

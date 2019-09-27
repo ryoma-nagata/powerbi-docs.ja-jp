@@ -9,16 +9,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: add2f82594d83d1e1f177bfad5045c2e0a34ba84
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: f7f1b777e7c4e54dbdcfb1757fe4df274624a580
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189371"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076002"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Power BI のページ分割されたレポートの URL 内でレポート パラメーターを渡す 
 
-レポート パラメーターをページ分割されたレポート URL に含めることで、レポートに渡すことができます。 すべてのクエリ パラメーターには、対応するレポート パラメーターを含めることができます。 そのため、対応するレポート パラメーターを渡すことで、クエリ パラメーターをレポートに渡すことができます。 Power BI で URL 内のパラメーター名が認識されるには、名前の前に  `rp:` を付ける必要があります。 
+レポート パラメーターをページ分割されたレポート URL に含めることで、レポートに渡すことができます。 すべてのクエリ パラメーターには、対応するレポート パラメーターを含めることができます。 そのため、対応するレポート パラメーターを渡すことで、クエリ パラメーターをレポートに渡すことができます。 Power BI で URL 内のパラメーター名が認識されるには、名前の前に `rp:` を付ける必要があります。 
 
 レポート パラメーターは大文字と小文字が区別され、次の特殊文字が使用されます。 
 
@@ -63,7 +63,7 @@ rp:SalesOrderNumber:isnull=true
 ブール値を渡すには、false には 0 を、true には 1 を使用します。 浮動小数点型の値を渡すには、サーバー ロケールの小数点区切り記号を含めます。
 
 > [!NOTE]
-> 既定値を持つレポート パラメーターがレポートに含まれ、 **[プロンプト]**   プロパティの値が  **false** (つまり、 **[ユーザーにメッセージを表示]** プロパティがレポート マネージャーで選択されていない場合)、URL 内のそのレポート パラメーターの値を渡すことはできません。 これにより、管理者は、エンド ユーザーが特定のレポート パラメーターの値を追加または変更できないようにすることができます。
+> 既定値を持つレポート パラメーターがレポートに含まれ、**[プロンプト]** プロパティの値が **false** (つまり、**[ユーザーにメッセージを表示]** プロパティがレポート マネージャーで選択されていない場合)、URL 内のそのレポート パラメーターの値を渡すことはできません。 これにより、管理者は、エンド ユーザーが特定のレポート パラメーターの値を追加または変更できないようにすることができます。
 
 ## <a name="additional-examples"></a>追加の例 
 
@@ -73,7 +73,7 @@ rp:SalesOrderNumber:isnull=true
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:Salesperson=Tie+Bear&rp:Salesperson=Mickey 
 ```
 
-次の URL の例では、ネイティブ モードのレポート サーバーに対して、値が "7/1/2005" の SellStartDate の 1 つのパラメーターを渡します。
+次の URL の例では、ネイティブ モードのレポート サーバーに対して、値が "7/1/2005" の SellStartDate の 1 つのパラメーターが渡されます。
 
 ```
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:SellStartDate=7/1/2005

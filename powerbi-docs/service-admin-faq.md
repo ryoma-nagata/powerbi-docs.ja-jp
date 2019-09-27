@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877808"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175188"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -38,6 +38,7 @@ ms.locfileid: "70877808"
 
 * [組織内のユーザーの ID を管理する方法はどのように変わりますか。](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Power BI を管理するにはどうすればよいですか。](#how-do-we-manage-power-bi)
+* [Microsoft によってユーザーに対して作成されたテナントを管理するにはどうすればよいですか。](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [複数のドメインがある場合、ユーザーが追加される Office 365 テナントを制御できますか。](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [Power BI に既にサインアップしているユーザーを削除するにはどうすればよいですか。](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [新しいユーザーがいつテナントに参加したかを確認するにはどうすればよいですか。](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -173,6 +174,14 @@ Power BI には、使用状況の統計を表示できる管理ポータル、�
 
 Power BI 管理ポータルを使用するには、自分のアカウントを Office 365 または Azure Active Directory 内で**全体管理者**としてマークしておくか、自分のユーザー アカウントに別のユーザーが Power BI サービス管理者ロールを割り当てている必要があります。 詳しくは、[Power BI 管理者ロールについて](service-admin-role.md)および [Power BI 管理ポータル](service-admin-portal.md)についての記事をご覧ください。
 
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft によってユーザーに対して作成されたテナントを管理するにはどうすればよいですか。
+
+セルフサービスのユーザーは、Azure AD を使用しているクラウド サービスにサインアップするとき、サービスによってユーザーは、各自の電子メール ドメインに基づいて Azure AD のアンマネージド ディレクトリに追加されます。 "*管理者引き継ぎ*" と呼ばれるプロセスを使って別のユーザーが作成したテナントを、管理できるようになります。 詳細については、「[Azure Active Directory の非管理対象ディレクトリを管理者として引き継ぐ](/azure/active-directory/users-groups-roles/domains-admin-takeover)」をご覧ください。 実行する引き継ぎの種類は、ご自身のドメインに関連付けられている既存のマネージド テナントが存在するかどうかによって異なります。
+
+* Power BI では、内部管理者の引き継ぎがサポートされています。 アンマネージド Azure ディレクトリの "_内部_" 管理者の引き継ぎを実行すると、アンマネージド ディレクトリのグローバル管理者として追加されます。 ユーザー、ドメイン、またはサービス プランは、管理対象の他のディレクトリには移行されません。
+
+* Power BI では、外部管理者の引き継ぎはサポートされなくなりました。 アンマネージド Azure ディレクトリの "_外部_" 管理者の引き継ぎを実行すると、アンマネージド ディレクトリの DNS ドメイン名が、マネージド Azure ディレクトリに追加されます。 ドメイン名を追加すると、リソースへのユーザーのマッピングがマネージド Azure ディレクトリに作成され、ユーザーは中断なしで引き続きサービスにアクセスできます。
+
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>複数のドメインがある場合、ユーザーが追加される Office 365 テナントを制御できますか。
 
 何もしなければ、各ユーザーの電子メール ドメインとサブドメイン用のテナントがサービスによって作成されます。 電子メール アドレスの拡張に関係なく、すべてのユーザーを同じテナントにまとめる場合:事前に対象テナントを作成するか、既存のテナントを使用します。 次に、そのテナントに含める既存のドメインとサブドメインをすべて追加します。 電子メール アドレスの末尾がこれらのドメインとサブドメインに該当するすべてのユーザーは、サインアップ時に自動的に対象テナントに追加されます。
@@ -186,15 +195,15 @@ Power BI にサインアップする必要がなくなったユーザーが Powe
 
 1. [Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/Home#/homepage)に移動します。
 
-1. 左側のナビゲーション バーで、 **[ユーザー]**  >  **[アクティブ ユーザー]** の順に選択します。
+1. 左側のナビゲーション バーで、**[ユーザー]** > **[アクティブ ユーザー]** の順に選択します。
 
 1. ライセンスを削除するユーザーを見つけ、その名前を選択します。
 
-    ユーザーのライセンスは、一括管理することもできます。 これを実行するには、複数のユーザーを選択し、 **[製品ライセンスを編集]** を選択します。
+    ユーザーのライセンスは、一括管理することもできます。 これを実行するには、複数のユーザーを選択し、**[製品ライセンスを編集]** を選択します。
 
-1. ユーザーの詳細ウィンドウで、 **[製品ライセンス]** の隣にある **[編集]** を選択します。
+1. ユーザーの詳細ウィンドウで、**[製品ライセンス]** の隣にある **[編集]** を選択します。
 
-1. アカウントに適用されているライセンスに応じて、 **[Power BI (無料)]** または **[Power BI Pro]** を **[オフ]** に設定します。
+1. アカウントに適用されているライセンスに応じて、**[Power BI (無料)]** または **[Power BI Pro]** を **[オフ]** に設定します。
 
 1. **[保存]** を選択します。
 
@@ -204,17 +213,17 @@ Power BI にサインアップする必要がなくなったユーザーが Powe
 
 1. [Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/Home#/homepage)に移動します。
 
-1. 左側のナビゲーション バーで、 **[ユーザー]**  >  **[アクティブ ユーザー]** の順に選択します。
+1. 左側のナビゲーション バーで、**[ユーザー]** > **[アクティブ ユーザー]** の順に選択します。
 
 1. **[ビュー]** メニューの **[カスタム ビューの追加]** を選択します。
 
-1. 新しいビューに名前を付け、 **[割り当て済みの製品ライセンス]** で、 **[Power BI (無料)]** または **[Power BI Pro]** を選択します。
+1. 新しいビューに名前を付け、**[割り当て済みの製品ライセンス]** で、**[Power BI (無料)]** または **[Power BI Pro]** を選択します。
 
     ビューごとにライセンスを 1 つだけ選択できます。 組織内に **Power BI (無料)** のライセンスと **Power BI Pro** のライセンスがある場合は、2 つのビューを作成できます。
 
-1. 他の必要な条件を入力した後、 **[追加]** を選択します。
+1. 他の必要な条件を入力した後、**[追加]** を選択します。
 
-1. 新しく作成したビューは、 **[ビュー]** メニューから使用できます。
+1. 新しく作成したビューは、**[ビュー]** メニューから使用できます。
 
 ### <a name="are-there-any-additional-things-i-should-prepare-for"></a>他に何か準備する必要があることはありますか。
 

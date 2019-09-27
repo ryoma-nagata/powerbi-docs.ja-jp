@@ -1,5 +1,5 @@
 ---
-title: 携帯電話の Power BI のダッシュ ボードを最適化します。
+title: 携帯電話用にダッシュボードを最適化する - Power BI
 description: 携帯電話での表示専用に Power BI サービスでダッシュボードのカスタマイズしたビューを作成する方法について説明します。
 author: maggiesMSFT
 manager: kfile
@@ -12,15 +12,15 @@ ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61158264"
 ---
-# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>携帯電話の Power BI のダッシュ ボードを最適化します。 
-スマート フォンの縦モードでダッシュ ボードを表示するダッシュ ボードのタイルのレイアウト 1 つずつ、すべて同じサイズに注意してください。 Power BI サービスでは、専用のスマート フォンの縦モードのダッシュ ボードのカスタマイズされたビューを作成できます。 電話を横向きにすると、phone ビューを作成する場合でも、サービスの配置とダッシュ ボードを表示します。
+# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>携帯電話用にダッシュボードを最適化する - Power BI 
+スマートフォンの縦モードでダッシュボードを開くと、ダッシュボードのタイルがすべて同じサイズで並んで表示されることに気付くでしょう。 Power BI サービスでは、ダッシュボードのカスタマイズされたビュー (特にスマートフォンの縦モード用) を作成できます。 スマートフォンのビューを作成した場合でも、電話を横向きにすると、サービスにレイアウトされているダッシュボードが表示されます。
 
-モバイル デバイスでダッシュ ボードを表示する方法について調べていますか。 このクイック スタートをお試しください[ダッシュ ボードと Power BI モバイル アプリでレポートを探索](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)代わりにします。
+モバイル デバイスでダッシュボードを表示する方法について情報をお探しの場合は 代わりにクイックスタート「[Power BI モバイル アプリでダッシュボードとレポートを調べる](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)」を参照してください。
 
 > [!NOTE]
 > Phone ビューを編集すると、スマートフォンでダッシュボードを見ているユーザーに対して、ビューの変更がリアルタイムで表示される場合があります。 たとえば、ダッシュボードの Phone ビューですべてのタイルの固定を解除すると、突然スマートフォン上のダッシュボードにタイルが 1 つもなくなります。 

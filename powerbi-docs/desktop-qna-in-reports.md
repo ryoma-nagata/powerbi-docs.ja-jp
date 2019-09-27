@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61285039"
@@ -23,9 +23,9 @@ ms.locfileid: "61285039"
 Q&A が回答可能な質問の大規模なコレクションを正常に解釈できるようにするには、Q&A がモデルについてさまざまな推測をする必要があります。 ご利用のモデルの構造がこれらの推測に 1 つ以上当てはまらない場合は、モデルを調整する必要があります。 Q&A のこれらの調整は、Q&A を使用するかどうかに関係なく、Power BI のどのモデルに対しても同じ最適化のベスト プラクティスです。 
 
 > [!NOTE]
-> Q & A は使用可能な場合にのみを含むモデルを使用して**インポート**データまたは SSAS へのライブ接続します。 DirectQuery モデルはサポートされていません。
+> Q&A は、**インポートされた**データを含むモデルを操作する場合、または SSAS へのライブ接続にのみ使用できます。 DirectQuery モデルはサポートされていません。
 >
-> Windows 10 以前のバージョンの Windows を使用している場合、Q&A には次の C ランタイムの更新プログラムが必要です。 重要な更新プログラムを Windows Update からインストールしてみることも、Microsoft からの必須コンポーネント (KB2999226) を手動でインストールすることもできます。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
+> Windows 10 以前のバージョンの Windows を使用している場合、Q&A には次の C ランタイムの更新プログラムが必要です。 重要な更新プログラムを Windows Update からインストールしてみることも、Microsoft からの必須コンポーネント (KB2999226) を手動でインストールすることもできます。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows )
 >
 >
 

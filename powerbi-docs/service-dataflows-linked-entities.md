@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136499"
@@ -88,11 +88,11 @@ Power BI サービスの **[エンティティの追加]** メニュー項目か
 
 データフローを作成または使用するときは、次の記事も役に立ちます。 
 
-* [Power BI でのセルフ サービスのデータの準備](service-dataflows-overview.md)
+* [Power BI でのセルフサービスのデータ準備](service-dataflows-overview.md)
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium での計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
 * [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
-* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
+* [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 
 Power Query とスケジュールされた更新について詳しくは、次の記事をご覧ください。
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)

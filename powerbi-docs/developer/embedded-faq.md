@@ -23,7 +23,7 @@ ms.locfileid: "69490353"
 
 ## <a name="general"></a>全般
 
-### <a name="what-is-power-bi-embedded"></a>Power BI Embedded とは?
+### <a name="what-is-power-bi-embedded"></a>Power BI Embedded とは何ですか?
 
 [Microsoft Power BI Embedded (PBIE)](azure-pbie-what-is-power-bi-embedded.md) を利用すれば、アプリケーション開発者は、完全にインタラクティブな優れたレポートをアプリケーションに埋め込むことができます。データの視覚エフェクトやコントロールを自分で一から構築する必要はありません。
 

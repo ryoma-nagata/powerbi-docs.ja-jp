@@ -208,12 +208,12 @@ IError オブジェクトを取得したら、使用している埋め込みの�
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
 | TokenExpired | Access token has expired, resubmit with a new access token (アクセス トークンの期限が切れました。新しいアクセス トークンを使用して再送信してください) | 403 | トークンの有効期限が切れました  |
 | PowerBIEntityNotFound | Get report failed (レポートの取得に失敗しました) | 404 | <li> レポート ID が正しくありません <li> レポートが存在しません  |
-| 正しくないパラメーター | powerbiToken parameter not specified (powerbiToken パラメーターが指定されていません) | N/A | <li> アクセス トークンが指定されていません <li> レポート ID が指定されていません |
+| 正しくないパラメーター | powerbiToken parameter not specified (powerbiToken パラメーターが指定されていません) | 該当なし | <li> アクセス トークンが指定されていません <li> レポート ID が指定されていません |
 | LoadReportFailed | Fail to initialize - Couldn't resolve cluster (初期化できません - クラスターを解決できませんでした) | 403 | * アクセス トークンが無効です * 埋め込みの種類がトークンの種類に一致しません |
 | PowerBINotAuthorizedException | Get report failed (レポートの取得に失敗しました) | 401 | <li> グループ ID が正しくありません <li> 許可されていないグループです |
-| TokenExpired | Access token has expired, resubmit with a new access token. (アクセス トークンの期限が切れました。新しいアクセス トークンを使用して再送信してください。) Couldn't render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | N/A | クエリ データのトークンの有効期限が切れました |
-| OpenConnectionError | ビジュアルを表示できません。 Couldn't render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | N/A | 容量に関連するレポートをセッションで開いているときに容量が一時停止または削除されました |
-| ExplorationContainer_FailedToLoadModel_DefaultDetails | このレポートに関連付けられているモデル スキーマを読み込むことができません。 サーバーに接続できることを確認して、もう一度やり直してください。 | N/A | <li> 容量が一時停止されました <li> 容量が削除されました |
+| TokenExpired | Access token has expired, resubmit with a new access token. (アクセス トークンの期限が切れました。新しいアクセス トークンを使用して再送信してください。) Couldn't render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | 該当なし | クエリ データのトークンの有効期限が切れました |
+| OpenConnectionError | ビジュアルを表示できません。 Couldn't render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | 該当なし | 容量に関連するレポートをセッションで開いているときに容量が一時停止または削除されました |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | このレポートに関連付けられているモデル スキーマを読み込むことができません。 サーバーに接続できることを確認して、もう一度やり直してください。 | 該当なし | <li> 容量が一時停止されました <li> 容量が削除されました |
 
 ### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>Power BI 以外のユーザー向けに埋め込む場合に発生する一般的なエラー (埋め込みトークンを使用)
 
@@ -223,12 +223,12 @@ IError オブジェクトを取得したら、使用している埋め込みの�
 | LoadReportFailed | Get report failed (レポートの取得に失敗しました) | 404 | <li> レポート ID が正しくありません <li> レポートが存在しません  |
 | LoadReportFailed | Get report failed (レポートの取得に失敗しました) | 403 | レポート ID がトークンに一致しません |
 | LoadReportFailed | Get report failed (レポートの取得に失敗しました) | 500 | レポートが指定した ID が GUID ではありません |
-| 正しくないパラメーター | powerbiToken parameter not specified (powerbiToken パラメーターが指定されていません) | N/A | <li> アクセス トークンが指定されていません <li> レポート ID が指定されていません |
+| 正しくないパラメーター | powerbiToken parameter not specified (powerbiToken パラメーターが指定されていません) | 該当なし | <li> アクセス トークンが指定されていません <li> レポート ID が指定されていません |
 | LoadReportFailed | Fail to initialize - Couldn't resolve cluster (初期化できません - クラスターを解決できませんでした) | 403 | トークンの種類が正しくありません。無効なトークンです |
 | PowerBINotAuthorizedException | Get report failed (レポートの取得に失敗しました) | 401 | グループ ID が正しくありません/許可されていないグループ ID です |
-| TokenExpired | Access token has expired, resubmit with a new access token. (アクセス トークンの期限が切れました。新しいアクセス トークンを使用して再送信してください。) Couldn't render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | N/A | クエリ データのトークンの有効期限が切れました |
-| OpenConnectionError | ビジュアルを表示できません。 Couldn't render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | N/A | 容量に関連するレポートをセッションで開いているときに容量が一時停止または削除されました |
-| ExplorationContainer_FailedToLoadModel_DefaultDetails | このレポートに関連付けられているモデル スキーマを読み込むことができません。 サーバーに接続できることを確認して、もう一度やり直してください。 | N/A | <li> 容量が一時停止されました <li> 容量が削除されました |
+| TokenExpired | Access token has expired, resubmit with a new access token. (アクセス トークンの期限が切れました。新しいアクセス トークンを使用して再送信してください。) Couldn't render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | 該当なし | クエリ データのトークンの有効期限が切れました |
+| OpenConnectionError | ビジュアルを表示できません。 Couldn't render a report visual titled: (次のタイトルのレポートのビジュアルを表示できませんでした:) <visual title> | 該当なし | 容量に関連するレポートをセッションで開いているときに容量が一時停止または削除されました |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | このレポートに関連付けられているモデル スキーマを読み込むことができません。 サーバーに接続できることを確認して、もう一度やり直してください。 | 該当なし | <li> 容量が一時停止されました <li> 容量が削除されました |
 
 ## <a name="content-rendering"></a>コンテンツ レンダリング
 

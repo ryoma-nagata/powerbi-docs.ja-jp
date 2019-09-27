@@ -1,5 +1,5 @@
 ---
-title: Power BI アカウントを削除します。
+title: Power BI アカウントを閉じることができるようになりました
 description: Power BI を使用しなくなった場合は、Power BI アカウントを削除することができます。
 author: mgblythe
 manager: kfile
@@ -7,43 +7,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/26/2019
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a285c6188e8b9298702645e28ad686e33147c3a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 227b4e837e75959dc838556ab0215db32131ec07
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65101105"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075658"
 ---
-# <a name="close-your-power-bi-account"></a>Power BI アカウントを削除します。
+# <a name="close-your-power-bi-account"></a>Power BI アカウントを閉じることができるようになりました
 
-Power BI を使用しなくなった場合は、Power BI アカウントを削除することができます。  アカウントを削除した後は、Power BI にサインインすることはできません。 また、サービスの Power BI の用語で、データ保持ポリシーで示されて、いるとおり Power BI は、アップロードまたは作成したすべての顧客データを削除します。 これは保持されません。
+Power BI を使用しなくなった場合は、Power BI アカウントを削除することができます。  アカウントを削除した後は、Power BI にサインインできません。 また、Power BI サービス利用規約のデータ保持ポリシーに記載されているように、アップロード または作成したすべての顧客データは、Power BI によって削除されます。 保持されることはありません。
 
 ## <a name="individual-power-bi-users"></a>個々の Power BI ユーザー
 
-個人として Power BI にサインアップしている場合は、 **[設定]** 画面からアカウントを削除できます。
+個人として Power BI にサインアップしている場合は、**[設定]** 画面からアカウントを削除できます。
 
-1. Power BI で、右上にある歯車を選択してから、 **[設定]** を選択します。
+1. Power BI で、右上にある歯車を選択してから、**[設定]** を選択します。
 
-    ![歯車のアイコンとが呼び出された設定オプションで、UI の右上隅のスクリーン ショット。](media/service-admin-closing-your-account/close-account-settings.png)
+    ![歯車アイコンと設定オプションが強調して示されている、UI の右上隅のスクリーンショット。](media/service-admin-closing-your-account/close-account-settings.png)
 
 1. **[全般]** タブで **[アカウントの削除]** を選択します。
 
-    ![アカウントのオプションを使用して、設定 ページの左上隅のスクリーン ショットは、と呼ばれます。](media/service-admin-closing-your-account/close-account-settings-2.png)
+    ![[アカウントの削除] オプションが強調して示されている設定ページの左上隅のスクリーンショット。](media/service-admin-closing-your-account/close-account-settings-2.png)
 
 1. アカウントを削除する理由を選択します (1)。 詳細情報も提供できます (2)。 それから、 **[アカウントの使用の停止]** を選択します。
 
-    ![アカウントの アカウントのオプション ダイアログのスクリーン ショットは、と呼ばれます。](media/service-admin-closing-your-account/close-account-settings-3.png)
+    ![[アカウントの削除] オプションが強調して示されている [アカウントの削除] ダイアログのスクリーンショット。](media/service-admin-closing-your-account/close-account-settings-3.png)
 
 1. アカウントの使用を停止することを確認します。
 
-    ![[はい] オプションを使用してアカウントの削除の確認ダイアログのスクリーン ショットは、と呼ばれます。](media/service-admin-closing-your-account/close-account-settings-4.png)
+    ![[はい] オプションが強調して示されている [アカウントの削除] 確認ダイアログのスクリーンショット。](media/service-admin-closing-your-account/close-account-settings-4.png)
 
-    Power BI が自分のアカウントを閉じることの確認メッセージが表示されます。 必要な場合は、ここからアカウントを再度開くことができます。
+    Power BI によってアカウントが削除されたことの確認が表示されます。 必要な場合は、ここからアカウントを再度開くことができます。
 
-    ![スクリーン ショット、アカウントが削除されました ダイアログ。](media/service-admin-closing-your-account/close-account-settings-5.png)
+    ![[アカウントは削除されました] ダイアログのスクリーンショット。](media/service-admin-closing-your-account/close-account-settings-5.png)
 
 ## <a name="managed-tenant-users"></a>管理対象テナント ユーザー
 

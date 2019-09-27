@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769938"
@@ -29,17 +29,17 @@ Power BI では、ライブ SQL Server Analysis Services サーバーに接続�
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>[データの取得] からモデルに接続するには
 
-1. **マイ ワークスペース**で、 **[データの取得]** を選択します。 グループワーク スペースが利用可能である場合、グループワーク スペースに変更することもできます。
+1. **マイ ワークスペース**で、**[データの取得]** を選択します。 グループワーク スペースが利用可能である場合、グループワーク スペースに変更することもできます。
 
-   ![接続データ ボタンを取得するには](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![[データの取得] ボタンに接続する](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. **[データベースとその他]** を選択します。
 
-   ![1 のデータを取得する接続します。](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
+   ![データの取得への接続 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
-3. **[SQL Server Analysis Services]**  >  **[接続]** を選択します。
+3. **[SQL Server Analysis Services]** > **[接続]** を選択します。
 
-   ![2 のデータを取得する接続します。](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+   ![データの取得への接続 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
 4. サーバーを選択します。 一覧にサーバーが表示されていない場合、それは、ゲートウェイとデータソースが構成されていないか、アカウントがゲートウェイのデータソースの **[ユーザー]** タブにリストされていないことを意味します。 管理者に確認してください。
 
@@ -47,7 +47,7 @@ Power BI では、ライブ SQL Server Analysis Services サーバーに接続�
 
 モデルに接続すると、Power BI サイトの **マイ ワークスペース/データセット**に表示されます。 グループ ワークスペースに切り替わると、データセットがグループ内に表示されます。
 
-![データセットへの接続します。](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
+![データセットへの接続](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
 ## <a name="dashboard-tiles"></a>データのプッシュ時の
 

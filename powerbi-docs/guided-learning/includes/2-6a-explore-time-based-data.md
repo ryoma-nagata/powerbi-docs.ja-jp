@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 48e553ebd81632cb0baa9a2c9c6a761860c3c9c6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61255712"
@@ -31,7 +31,7 @@ Power BI では、モデルに日付フィールドがあると時間階層ご�
 ![](media/2-6a-explore-time-based-data/2-6a_5.png)
 
 ## <a name="next-steps"></a>次の手順
-**お疲れ様でした。** Power BI の**ガイド付き学習**コースのこのセクションが完了しました。 について理解できたところ*モデリング*楽しい作業について学習する準備ができたデータを次のセクションで待機しているもの。**視覚エフェクト**します。
+**お疲れ様でした。** Power BI の**ガイド付き学習**コースのこのセクションが完了しました。 データの "*モデリング*" について理解したところで、次のセクションに進みましょう。「**視覚エフェクト**」です。
 
 前述のとおり、このコースでは、Power BI の一般的なワークフローに従って、次の知識を習得します。
 

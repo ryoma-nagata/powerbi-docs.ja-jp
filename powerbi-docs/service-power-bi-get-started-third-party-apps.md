@@ -9,18 +9,18 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 08/10/2017
+ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 11afe27ffbca295eec67fd07731cc646bcca56dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769705"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073512"
 ---
 # <a name="get-started-with-third-party-apps"></a>サードパーティのアプリの概要
 
-Power BI では、Microsoft 以外の会社または個人によってビルドされたアプリを使用できます。 たとえば、カスタム ビルド web アプリケーションに Power BI のタイルを統合するサード パーティ製アプリを使用する可能性があります。 サード パーティ製アプリを使用するように求められますそのアプリケーションに許可する、Power BI アカウントとリソースに特定のアクセスを許可します。 既知で信頼のおけるアプリケーションにだけ、アクセス許可を付与することが重要です。 アプリケーションへのアクセス許可は、いつでも取り消すことができます。 「[サード パーティ製のアプリのアクセス許可の取り消し](#revoke)」を参照してください。
+Power BI では、Microsoft 以外の会社または個人によってビルドされたアプリを使用できます。 たとえば、カスタム ビルドの Web アプリケーションに Power BI タイルが統合されるサード パーティ製アプリを使用することもできます。 サード パーティ製アプリを使用する場合は、Power BI アカウントとリソースへの特定のアクセスをそのアプリケーションに許可することを求められます。 既知で信頼のおけるアプリケーションにだけ、アクセス許可を付与することが重要です。 アプリケーションへのアクセス許可は、いつでも取り消すことができます。 「[サード パーティ製のアプリのアクセス許可の取り消し](#revoke)」を参照してください。
 
 ここでは、アプリケーションが要求するアクセス権の種類を説明します。
 
@@ -47,15 +47,15 @@ Power BI では、Microsoft 以外の会社または個人によってビルド�
 
 <a name="revoke"/>
 
-## <a name="revoke-third-party-app-permissions"></a>サード パーティ製アプリのアクセス許可を取り消す
+## <a name="revoke-third-party-app-permissions"></a>サード パーティ製のアプリのアクセス許可の取り消し
 
-Office 365 のマイ アプリ サイトに移動して、サード パーティ製アプリのアクセス許可を取り消します。
+サード パーティ製アプリのアクセス許可を取り消すには、Office 365 のマイ アプリ サイトに移動します。
 
-**Office 365 のマイ アプリ**サイトで、サード パーティ製のアクセス許可を取り消す方法を次に示します。
+**Office 365 のマイ アプリ** サイトに、サード パーティ製のアクセス許可の取り消し方法が記載されています。
 
 1. [Office 365 のマイ アプリ](https://portal.office.com/myapps) サイトに移動します。
 
-2. **のマイ アプリ** ページで、サード パーティ製アプリを検索します。
+2. **[マイ アプリ]** ページで、サード パーティのアプリを検索します。
 
 3. アプリケーションのタイルをポイントし、 **(...)** ボタンをクリックして **[削除]** をクリックします。
 

@@ -3,20 +3,19 @@ title: Power BI から PowerPoint にレポートをエクスポートする
 description: Power BI レポートを PowerPoint にエクスポートする方法について説明します。
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9a798afead16174f66fadba87c795d5377747e93
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61063915"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141442"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Power BI から PowerPoint にレポートをエクスポートする
 Power BI では、レポートを **Microsoft PowerPoint** に発行して、Power BI レポートに基づくスライド デッキを簡単に作成できます。 **PowerPoint にエクスポート**すると、次のようになります。
@@ -29,27 +28,24 @@ Power BI では、レポートを **Microsoft PowerPoint** に発行して、Pow
 **Power BI レポート**は、**PowerPoint** に短時間でエクスポートできます。 次のセクションで説明する手順に従うだけです。
 
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Power BI レポートを PowerPoint にエクスポートする方法
-Power BI サービスで、レポートを選択してそれをキャンバス上に表示します。 また、 **[ホーム]** ページや **[アプリ]** など、左側のナビゲーション ウィンドウで選択した場所からのレポートを選択することもできます。
+Power BI サービスで、レポートを選択してそれをキャンバス上に表示します。 また、**[ホーム]** ページ、**[アプリ]**、または左側のナビゲーション バーの他のコンテナーから、レポートを選択することもできます。
 
-![メニュー バーの [ファイル]、[PowerPoint へのエクスポート] を指している矢印](media/end-user-powerpoint/power-bi-publish.png)
+PowerPoint にエクスポートするレポートがキャンバスに表示されている場合は、メニュー バーから **[エクスポート] > [PowerPoint]** を選択します。
 
-PowerPoint にエクスポートするレポートがキャンバスに表示されている場合は、Power BI サービスのメニュー バーから **[ファイル] > [PowerPoint へのエクスポート]** を選択します。
+![メニュー バーから [エクスポート] を選択する](media/end-user-powerpoint/power-bi-export.png)
 
-![左のナビゲーション バーの [マイ ワークスペース]、[ファイル] ドロップダウンが選択された状態のクローズ アップ](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
    
-表示されるポップアップには、 **[現在のビュー]** または **[既定のビュー]** を選択するオプションがあります。  **[現在のビュー]** では現在の状態でレポートがエクスポートされ、スライサーとフィルターの値に対して行ったアクティブな変更が含まれます。  ほとんどのユーザーは、このオプションを選択します。  または、 **[既定のビュー]** を選択するとレポートは (作成者が共有したときの) 元の状態でエクスポートされ、元の状態に対して行った変更は反映されません。
+表示されるポップアップには、**[現在の値]** または **[既定値]** を選択するオプションがあります。  **[現在の値]** では現在の状態でレポートがエクスポートされ、スライサーとフィルターの値に対して行ったアクティブな変更が含まれます。  ほとんどのユーザーは、このオプションを選択します。  または、**[既定値]** を選択するとレポートは (作成者が共有したときの) 元の状態でエクスポートされ、元の状態に対して行った変更は反映されません。
+
+![エクスポートするものを選択する](media/end-user-powerpoint/power-bi-current-values.png)
     
-さらに、レポートの非表示のタブをエクスポートするかどうかを選択するチェック ボックスがあります。  ブラウザーに表示されるレポートのタブのみをエクスポートしたい場合は、このチェック ボックスをオンにするだけです。  すべての非表示タブをエクスポートに含めたい場合は、オフのままにします。  チェック ボックスがグレー表示になっている場合は、レポートには非表示タブはありません。  選択を行った後、 **[エクスポート]** をクリックして続行します。
+さらに、レポートの非表示のタブをエクスポートするかどうかを選択するチェック ボックスがあります。  ブラウザーに表示されるレポートのタブのみをエクスポートしたい場合は、このチェック ボックスをオンにするだけです。  すべての非表示タブをエクスポートに含めたい場合は、オフのままにします。  チェック ボックスがグレー表示になっている場合は、レポートには非表示タブはありません。  選択を行った後、**[エクスポート]** を選択して続行します。
 
 レポートが PowerPoint にエクスポートされていることを示す通知バナーが、Power BI サービス ブラウザー ウィンドウの右上隅に表示されます。 これには数分間かかる場合があり、レポートのエクスポート中も Power BI で作業を進めることができます。
 
-![PowerPoint へのエクスポートが実行中であることの通知](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![PowerPoint へのエクスポートが実行中であることの通知](media/end-user-powerpoint/power-bi-export-progress.png)
 
-完了すると、Power BI サービスのエクスポート処理が終了したことが通知バナーで示されます。
-
-![成功メッセージの表示](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
-
-ファイルは、ブラウザーがダウンロードしたファイルを表示する場所から使用できます。 次の図では、ブラウザー ウィンドウ下部のダウンロード バナーとして表示されています。
+完了すると、Power BI サービスのエクスポート処理が終了したことが通知バナーで示されます。 ファイルは、ブラウザーがダウンロードしたファイルを表示する場所から使用できます。 次の図では、ブラウザー ウィンドウ下部のダウンロード バナーとして表示されています。
 
 ![画面の下部のブラウザーの通知を指している矢印](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 

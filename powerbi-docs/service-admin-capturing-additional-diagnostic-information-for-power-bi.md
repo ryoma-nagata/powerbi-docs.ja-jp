@@ -1,5 +1,5 @@
 ---
-title: 追加の診断情報をキャプチャします。
+title: 追加の診断情報をキャプチャする
 description: 次の手順では、Power BI Web クライアントから追加の診断情報を手動で収集するために可能性のある 2 つのオプションを提供します。
 author: mgblythe
 manager: kfile
@@ -13,48 +13,48 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 710fb4cdcf9efb051434966d47c2eaced17ac9ba
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65100228"
 ---
-# <a name="capture-additional-diagnostic-information-for-power-bi"></a>Power BI 用の追加の診断情報をキャプチャします。
+# <a name="capture-additional-diagnostic-information-for-power-bi"></a>Power BI 用に追加の診断情報をキャプチャする
 
-この記事では、Power BI web クライアントから手動で追加の診断情報を収集するための手順を提供します。
+この記事では、Power BI Web クライアントから追加の診断情報を手動で収集する手順について説明します。
 
-1. 参照する[Power BI](https://app.powerbi.com) Microsoft Edge または Internet Explorer。
+1. Microsoft Edge または Internet Explorer で [Power BI](https://app.powerbi.com) を閲覧します。
 
-1. キーを押して**F12** Microsoft Edge の開発者ツールを開きます。
+1. **F12** キーを押して、Microsoft Edge 開発者ツールを開きます。
 
-   ![Microsoft Edge の開発者のスクリーン ショット ツール タブ。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![Microsoft Edge 開発者ツールの [要素] タブのスクリーンショット。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 
 1. **[ネットワーク]** タブを選びます。既ににキャプチャされたトラフィックが一覧表示されます。
 
-   ![Microsoft Edge の開発者のスクリーン ショット ツール ネットワーク タブ。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Microsoft Edge 開発者ツールの [ネットワーク] タブのスクリーンショット。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 
     次の操作を実行できます。
 
-    * ウィンドウを参照し、遭遇する可能性があります、問題を再現します。
+    * ウィンドウ内を閲覧して、発生する可能性のある問題を再現します。
 
-    * 非表示にし、F12 キーを押して、セッション中にいつでも、開発者ツール ウィンドウを表示します。
+    * セッション中にいつでも F12 キーを押して、開発者ツール ウィンドウの表示/非表示を切り替えます。
 
-1. プロファイリング セッションを停止するの赤い四角形を選択できる、**ネットワーク** タブの開発者ツールの領域。
+1. セッションのプロファイリングを停止するには、開発者ツール領域の **[ネットワーク]** タブで赤い四角形を選択します。
 
-   ![停止 ボタンからの呼び出しで Microsoft Edge の開発者のスクリーン ショット ツール ネットワーク タブ。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![Microsoft Edge 開発者ツールの [停止] ボタンが強調表示された [ネットワーク] タブのスクリーンショット。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 
-1. HTTP アーカイブ (HAR) ファイルとしてデータをエクスポートするフロッピー ディスクのアイコンを選択します。
+1. フロッピー ディスク アイコンを選択して、HTTP アーカイブ (HAR) ファイル形式でデータをエクスポートします。
 
-   ![フロッピー ディスクのアイコンのコールアウトを含む Microsoft Edge の開発者のスクリーン ショット ツール ネットワーク タブ。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![Microsoft Edge 開発者ツールのフロッピー ディスク アイコンが強調表示された [ネットワーク] タブのスクリーンショット。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 
 1. ファイル名を指定し、HAR ファイルを保存します。
 
-    HAR ファイル ブラウザーのウィンドウと Power BI などの間のネットワーク要求に関するすべての情報が含まれます。
+    HAR ファイルには、次のようにブラウザー ウィンドウと Power BI の間のネットワーク要求に関するすべての情報が含まれます。
 
-    * 各要求のアクティビティ Id。
+    * 各要求のアクティビティ ID。
 
     * 各要求の正確なタイムスタンプ。
 
-    * すべてのエラー情報は、クライアントに返されます。
+    * クライアントに返されるエラー情報。
 
     このトレースには、画面に表示されるビジュアルを設定するのに使われるデータも含まれます。
 

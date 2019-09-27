@@ -3,20 +3,19 @@ title: ダッシュボードとは何ですか? それはどのように開き�
 description: ダッシュボードは、Power BI サービスの主要な機能です。
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cad6aeeb156534052241d5183a575b222736230a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608336"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141938"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI サービスの利用者向けのダッシュボード
 
@@ -54,8 +53,8 @@ Power BI の "***ダッシュボード***" は、視覚化を使ってストー�
 | 基になっているデータセットのテーブルとフィールドの表示 |いいえ。 データをエクスポートすることはできますが、ダッシュボード自体でテーブルとフィールドを表示することはできません。 |はい。 データセットのテーブル、フィールド、値を表示することができます。 |
 
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>ダッシュボードの "作成者" とダッシュボードの "利用者"
-Power BI "***コンシューマー***" は、"*作成者*" からダッシュボードを受信します。 次のトピックについて、ダッシュボードに関する学習を続けてください。
+## <a name="dashboard-designers-and-dashboard-consumers"></a>ダッシュボードのデザイナーとダッシュボードのコンシューマー
+Power BI の "***コンシューマー***" は、"*デザイナー*" からダッシュボードを受け取ります。 次のトピックについて、ダッシュボードに関する学習を続けてください。
 
 * [ダッシュボードの表示](end-user-dashboard-open.md)
 * [ダッシュボードのタイル](end-user-tiles.md)およびタイルを選んだときの結果について学習します。

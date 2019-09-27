@@ -1,20 +1,20 @@
 ---
 title: Power BI の埋め込みコンテンツで行レベルのセキュリティを使用する
 description: ここでは、アプリケーション内に Power BI コンテンツを埋め込むために必要な手順について説明します。
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 7c58d4a5ce94a8659c85606dc2cbce1b4fc615f5
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596568"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073343"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded での行レベルのセキュリティ
 
@@ -26,7 +26,7 @@ Power BI 以外のユーザー (アプリ所有データ) のために埋め込�
 
 ![行レベル セキュリティに含まれる項目。](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
-RLS を利用するには、ユーザー、ロール、ルールの 3 つの主要な概念を理解することが重要です。 それぞれについて詳しく説明します。
+RLS を利用するには、ユーザー、ロール、ルールの 3 つの主要な概念を理解することが重要です。 これらの概念について詳しく説明します。
 
 **ユーザー** – アーティファクト (ダッシュボード、タイル、レポート、データセット) を表示するエンド ユーザー。 Power BI Embedded では、ユーザーは埋め込みトークンのユーザー名プロパティによって識別されます。
 
@@ -77,7 +77,7 @@ RLS は Power BI Desktop で作成します。 データセットとレポート
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>埋め込みトークンへのユーザーとロールの適用
 
-Power BI Desktop でロールを構成したので、そのロールを利用するための作業がアプリケーションに必要です。
+Power BI Desktop でロールを構成したので、アプリケーションでロールを利用するための作業が必要です。
 
 ユーザーはアプリケーションによって認証および承認され、特定の Power BI Embedded レポートへのアクセスを、埋め込みトークンを使って許可されます。 Power BI Embedded は、ユーザーについての具体的な情報を持っていません。 RLS を機能させるためには、埋め込みトークンの一部として、ID の形式で追加コンテキストを渡す必要があります。 [埋め込みトークン](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API を使って ID を渡すことができます。
 

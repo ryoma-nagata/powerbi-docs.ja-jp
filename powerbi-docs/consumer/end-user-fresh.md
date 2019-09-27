@@ -7,47 +7,54 @@ ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/08/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70751657"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141737"
 ---
 # <a name="your-content-is-up-to-date"></a>コンテンツが最新の状態に維持される
 *コンシューマー*は、*デザイナー*が作成し、コンシューマーと共有したコンテンツを使用します。 そのコンテンツが最新の状態になっているか気になることがあるでしょう。あるいは、コンテンツの最終更新日が知りたくなることもあります。 最新のコンテンツを使用していることがわかれば、自信を持って作業できます。  
  
-![Power BI ダッシュボード](media/end-user-consumer/power-bi-service.png)
+![Power BI ダッシュボード](media/end-user-fresh/power-bi-dashboards.png)
 
 
 必ず最新のデータを使用することは、多くの場合、正しい意思決定をする上で重要です。 最新のコンテンツを確実に使用するには何ができるでしょうか。 ほとんどの場合、何もする必要はありません。 共有アプリはアプリ デザイナーが設定したスケジュールに基づいて自動的に更新されます。 共有ダッシュボードや共有レポートの場合も同じです。デザイナーが手作業か、自動更新スケジュールを利用し、コンテンツが最新の状態に維持されるように取り計らいます。  
 
 データの新しさについて疑問があれば、デザイナーにお問い合わせください。
 
-## <a name="how-to-locate-the-name-of-the-designer"></a>デザイナーの名前を見つける方法
+## <a name="how-to-locate-the-name-of-the-designer-or-owner"></a>デザイナーまたは所有者の名前を見つける方法
+
+### <a name="dashboard-or-report"></a>ダッシュボードまたはレポート
+
+所有者の名前は、ダッシュボードとレポートのタイトル バーでわかります。 レポートまたはダッシュボードの名前を選択すると、**所有者**を含む追加の詳細が表示されます。
+
+![Power BI ダッシュボードの所有者](media/end-user-fresh/power-bi-owner.png)
+
 
 ### <a name="apps"></a>アプリ
 
-アプリ画面には、デザイナーの名前とアプリの作成日付が表示されます。  
+アプリ画面には、デザイナーの名前とアプリの最終更新日時が表示されます。  
 
 1. 左側のナビゲーション ウィンドウから **[アプリ]** を選択します。
 
-    ![左ナビゲーション ウィンドウ](media/end-user-fresh/power-bi-nav-apps.png)
+    ![左ナビゲーション ウィンドウ](media/end-user-fresh/power-bi-nav-app.png)
 
-    アプリごとに、タイトルと作成日付が表示されます。 
 
-2. アプリの上にカーソルを合わせる方法でもデザイナーの名前が表示されます。 
+
+2. アプリをポイントすると、タイトル、更新日、デザイナーの名前が表示されます。 
 
     ![2 つのアプリの内、1 つが選択されています](media/end-user-fresh/power-bi-app.png)
 
 
 ### <a name="shared-with-me"></a>共有アイテム
-**[共有アイテム]** 画面には、コンテンツ所有者の名前とコンテンツが共有された日付が表示されます。
+**[共有アイテム]** 画面には、コンテンツ所有者の名前とコンテンツが最後に共有された日付が表示されます。
 
-![共有アイテム画面に変更日付と所有者が表示されています](media/end-user-fresh/power-bi-shared-new.png) 
+![共有アイテム画面に変更日付と所有者が表示されています](media/end-user-fresh/power-bi-share.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>最終更新日を調べる方法
@@ -56,26 +63,26 @@ ms.locfileid: "70751657"
 ### <a name="dashboard-tiles"></a>データのプッシュ時の
 ダッシュボード タイルの場合、タイルをフォーカス モードで表示すると、最終更新日のタイムスタンプが表示されます。
 
-1. ダッシュボード タイルで省略記号 (...) を選択し、 **[フォーカス モードで開く]** を選択します。
+1. ダッシュボード タイルで省略記号 (...) を選択し、**[フォーカス モードで開く]** を選択します。
 
-    ![省略記号を選択すると表示されるメニュー](media/end-user-fresh/power-bi-focus.png)
+    ![省略記号を選択すると表示されるメニュー](media/end-user-fresh/power-bi-focus-mode.png)
 
 2. 右上隅に最終更新日が表示されます。 表示されない場合、ブラウザーの幅を大きくしてください。 
 
     ![幅を広くしたブラウザーに最終更新日が表示されています](media/end-user-fresh/power-bi-last-refresh2.png)
 
-### <a name="from-dashboards-and-reports"></a>ダッシュボードとレポートから
-最終更新日を調べるもう 1 つの方法に **[関連の表示]** を使用する方法があります。  **[関連の表示]** は Power BI の上部メニュー バーから利用できます。
+### <a name="dashboards-and-reports"></a>ダッシュボードとレポート
+最終更新日を調べるもう 1 つの方法に **[関連の表示]** を使用する方法があります。  **[関連の表示]** は、Power BI の上部メニュー バーから省略記号 [...] を選択して利用できます。
 
-![メニューから [関連の表示] を選択する](media/end-user-fresh/power-bi-view-related.png)
+![メニューから [関連の表示] を選択する](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
 **[関連コンテンツ]** ウィンドウに、ダッシュボードまたはレポートの基になるデータセットの最終更新情報が表示されます。
 
-![Power BI ダッシュボード](media/end-user-fresh/power-bi-last-refresh.png)
+![Power BI ダッシュボード](media/end-user-fresh/power-bi-refresh.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>デザイナーがアプリを削除するとどうなるか
 
-デザイナーがアプリを削除すると、そのアプリに関連付けられているダッシュボードやレポートも Power BI ワークスペースから自動的に削除されます。 今後は利用できなくなり、アプリは [ナビゲーション] ウィンドウに表示されなくなります。
+デザイナーがアプリを削除すると、そのアプリに関連付けられているダッシュボードやレポートも Power BI ワークスペースから自動的に削除されます。 今後は利用できなくなり、アプリは [アプリ] コンテナーまたはナビゲーション バーの他の場所に表示されなくなります。
 
 
 ## <a name="subscribe-to-see-changes"></a>サブスクライブして変更を確認する

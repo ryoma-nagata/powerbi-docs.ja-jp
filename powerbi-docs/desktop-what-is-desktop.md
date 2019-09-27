@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 711e0252cddcc78437e03a82d91c67441cfc3a55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513510"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141979"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop とは何ですか?
 
@@ -33,10 +33,20 @@ ms.locfileid: "65513510"
 
 このようなタスクを最も担当する人物は、多くの場合、"*データ アナリスト*" (単に "*アナリスト*" と呼ばれることもあります) または Business Intelligence プロフェッショナル (多くの場合 "*レポート作成者*" と呼ばれます) であるとみなされます。 ただし、自身をアナリストでもレポート作成者でもないと考えている多くの人々が、**Power BI Desktop** を使用して、同僚や組織と共有できる説得力のあるレポートを作成したり、さまざまなソースからデータをプルしてデータ モデルを作成したりしています。
 
+Power BI Desktop には、キャンバスの左側に表示される 3 つのビューがあります。 ビューは表示順で次のとおりです。
+* **レポート ビュー** - ここはレポートとビジュアルを作成する場所であり、作成時間の大半が費やされます。
+* **データ ビュー** - ここでは、レポートに関連付けられているデータ モデルで使用されているテーブル、メジャー、その他のデータを表示したり、レポートのモデルで最適に使用できるようにデータを変換したりすることができます。
+* **モデル ビュー** - このビューでは、データ モデル内のテーブル間のリレーションシップを表示および管理します。
+
+次の図では、キャンバスの左側に表示される 3 つのビューが示されています。
+
+![さまざまなビュー](media/desktop-what-is-desktop/what-is-desktop-07.png)
+
+
 **Power BI Desktop** を使用すると、複数のソースのすべてのデータを組織内の他のユーザーと共有できる 1 つのレポートにまとめた、複雑で視覚的にリッチなレポートを作成できます。 
 
 ## <a name="connect-to-data"></a>データへの接続
-**Power BI Desktop** を使用するための最初の手順は、データに接続することです。 **Power BI Desktop** から接続できるデータ ソースには、たくさんの種類があります。 データに接続するには、 **[ホーム]** リボンを選択し、 **[データの取得] > [さらに表示]** を選択します。 次の図は、Power BI Desktop が接続できる多数のカテゴリを表示している **[データの取得]** ウィンドウを示しています。
+**Power BI Desktop** を使用するための最初の手順は、データに接続することです。 **Power BI Desktop** から接続できるデータ ソースには、たくさんの種類があります。 データに接続するには、**[ホーム]** リボンを選択し、**[データの取得] > [さらに表示]** を選択します。 次の図は、Power BI Desktop が接続できる多数のカテゴリを表示している **[データの取得]** ウィンドウを示しています。
 
 ![Power BI Desktop でデータを取得する](media/desktop-what-is-desktop/what-is-desktop_02.png)
 
@@ -66,7 +76,7 @@ Power BI Desktop で、組み込みの**クエリ エディター**使用して�
 
 ![Power BI Desktop のビジュアル](media/desktop-what-is-desktop/what-is-desktop_04.png)
 
-Power BI Desktop から選択できるビジュアルには、さまざまな種類があります。 ビジュアルを作成または変更するには、 **[視覚化]** ウィンドウからビジュアル アイコンを選択するだけです。 レポート キャンバスに選択済みのビジュアルがある場合は、選択済みのビジュアルがたった今選択した種類に変更されます。 ビジュアルが選択されていなければ、選択に基づいて新しいビジュアルが作成されます。
+Power BI Desktop から選択できるビジュアルには、さまざまな種類があります。 ビジュアルを作成または変更するには、**[視覚化]** ウィンドウからビジュアル アイコンを選択するだけです。 レポート キャンバスに選択済みのビジュアルがある場合は、選択済みのビジュアルがたった今選択した種類に変更されます。 ビジュアルが選択されていなければ、選択に基づいて新しいビジュアルが作成されます。
 
 ![Power BI Desktop の [視覚化] ウィンドウ](media/desktop-what-is-desktop/what-is-desktop_05.png)
 

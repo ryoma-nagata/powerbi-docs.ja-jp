@@ -12,13 +12,13 @@ ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513233"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI サービスに米国政府組織を登録する
-**Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 **Power BI サービス**この記事で説明されているバージョンは米国政府顧客向けに設計されています、独立していての商用バージョンと異なる、 **Power BI サービス**します。
+**Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
 
 米国政府向け **Power BI サービス**の機能や制限などの詳細については、「[米国政府顧客向け Power BI - 概要](service-govus-overview.md)」をご覧ください。
 
@@ -58,7 +58,7 @@ ms.locfileid: "65513233"
 > 
 > 
 
-1. 既存の Office Government Cloud アカウントにサインインし、管理ポータルに移動
+1. 既存の Office Government Cloud アカウントにサインインし、管理ポータルに移動します
 2. **[Billing]** (支払い) を選びます。
 3. **[Purchase Service]** (サービスの購入) を選びます。
 4. Power BI Pro Government Option を選び、 **[Try]** または **[Buy Now]** を選びます
@@ -66,7 +66,7 @@ ms.locfileid: "65513233"
 6. ユーザーをアカウントに割り当てます。
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. サインイン、 **Power BI サービス**米国政府機関のお客様は、 [https://app.powerbigov.us](https://app.powerbigov.us)
+7. [https://app.powerbigov.us](https://app.powerbigov.us) で米国政府顧客向け **Power BI サービス**にサインインします。
 
 ## <a name="additional-signup-information"></a>サインアップに関する追加の情報
 ライセンス移行のさまざまなケースで、**米国政府向け Power BI** にサインアップする場合の追加の情報を以下に示します。
@@ -75,7 +75,7 @@ ms.locfileid: "65513233"
 * [Billing] > [Purchase Service] > [Power BI Pro Gov] の順にクリックして、試用ではなく購入を選択する
 * 必要な情報を入力してライセンスを取得する
 * Power BI Pro 試用版を削除するか古いライセンスを削除して、新しいものをユーザーに割り当てる
-* をサインインするには [https://app.powerbigov.us](https://app.powerbigov.us)
+* [https://app.powerbigov.us](https://app.powerbigov.us) にサインインします
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>販売店による Power BI 試用版から Power BI Pro への顧客のオンボーディング
 **[支払い]、[サブスクリプション]** の順に移動し、 **[政府向け Power BI Pro サブスクリプション]** を選択します。 次の項目が表示されます。
@@ -90,14 +90,14 @@ ms.locfileid: "65513233"
 ### <a name="whitelisting-instructions"></a>ホワイトリストの手順
 *ホワイトリスト*とは、Power BI のエンジニアリング チームが商用クラウド環境から、セキュリティが強化された政府向けクラウド環境にお客様を移動する場合に使用するプロセスです。 これにより、米国政府向けクラウドで使用可能な機能が期待どおりに動作するようになります。 米国政府向け **Power BI** サービスを初めて購入するすべての既存 (または新規) 米国政府顧客は、以下のホワイトリスティング プロセスを開始する*必要があります*。 米国政府向け **Power BI** サービスのセットアップまたはサービスへの移行を行う前に、プロセスを完了する必要があります。 
 
-テナント*ホワイト リストに登録*US Government クラウドでホワイト リスト登録については、Microsoft アカウント チームにお問い合わせください。 管理者のみには、この要求を行うことができます。 *ホワイトリストに登録する*プロセスには約 3 週間かかります。その間、テナントが米国政府向けクラウドで正しく動作するように Power BI のエンジニアリング チームが変更を行います。
+テナントを米国政府向けクラウドの "*ホワイトリストに登録*" するには、Microsoft アカウント チームにお問い合わせください。 この依頼ができるのは管理者だけです。 *ホワイトリストに登録する*プロセスには約 3 週間かかります。その間、テナントが米国政府向けクラウドで正しく動作するように Power BI のエンジニアリング チームが変更を行います。
 
 Power BI **無償版**ライセンスから **米国政府向け Power BI** に移行する場合 (また、定義上、この記事で先に説明した関連 **Pro** ライセンス機能に移行する場合)、Power BI エンジニアリング チームがテナントを*ホワイトリストに登録する*までこの記事の次のセクションで説明する問題が発生します。
 
 ### <a name="mixed-free-and-pro-licenses-in-us-government-tenants"></a>無償版ライセンスと米国政府テナント Pro ライセンスの混在
 無償版ライセンスと米国政府 Pro ライセンスの両方がテナントに存在する場合、無償版ライセンスと (米国政府) Pro ライセンスの両方が残りますが、どちらかのライセンス タイプが正常に機能しません。 テナントが*ホワイトリストに登録される*と、次のようになります。
 
-* 無料のライセンスのすべてのユーザーを使用して Power BI にサインインできなく**Power BI Desktop**、し、次のセクションで説明されている機能のギャップが発生します。
+* 無償版ライセンス ユーザーは **Power BI Desktop** を利用して Power BI にサインインできなくなり、次のセクションで説明するように、一部の機能が使用できなくなります。
 * 米国政府 Pro ライセンスを割り当てられているすべてのクライアントは予想どおりに動作します。ゲートウェイ、Power BI Desktop、モバイル アプリも利用できます。
 
 無償版ライセンスと米国政府 Pro ライセンスが混在しているとき、*ホワイトリストに登録する*と、次のことが予想されます。

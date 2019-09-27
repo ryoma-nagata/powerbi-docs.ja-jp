@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 80182ae0898ab5c88acb85ce24a55fe615cf2a0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 589f34db5009a9203ee33c13dc4931e42d68ddcb
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61415653"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076098"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online の .CSV ファイルから作成されたデータセットを更新する
 ## <a name="what-are-the-advantages"></a>使用する利点
@@ -36,7 +36,7 @@ Power BI へのサインインに使用するアカウントが OneDrive for Bus
 
 Microsoft アカウントにサインインしたら、必ず [サインアウトしない] を選択してください。 これで、Power BI のデータセットと更新が同期されます。
 
-![](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
+![サインインの例](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Microsoft アカウントの資格情報が変更されている可能性があるために Power BI のデータセットと同期できない OneDrive の .csv ファイルに変更を行う場合は、そのファイルに接続して、個人用の OneDrive から再度インポートする必要があります。
 

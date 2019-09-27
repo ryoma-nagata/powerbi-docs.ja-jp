@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: mblythe
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9047ae7f74a7589d242531a5af18f6094c2b03a6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1c8c65d9b0f0b669d46d73d739be24f29f623743
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523943"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164459"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>SAP HANA の暗号化を有効にする
 
@@ -99,7 +99,7 @@ HANA サーバーへの接続に使用するクライアントによって信頼
 
 Power BI Desktop または Power BI サービスで接続をテストします。
 
-1. Power BI Desktop または Power BI サービスの **[ゲートウェイの管理]** ページで、SAP HANA サーバーへの接続を確立する前に、 **[サーバー証明書の検証]** が有効になっていることを確認します。 **[SSL 暗号化プロバイダー]** については、OpenSSL セットアップ手順に従っている場合は mscrypto を選択し、そのライブラリを暗号化プロバイダーとして構成している場合は commoncrypto を選択します。 [SSL キーストア] と [SSL 信頼ストア] フィールドは空白のままにします。
+1. Power BI Desktop または Power BI サービスの **[ゲートウェイの管理]** ページで、SAP HANA サーバーへの接続を確立する前に、**[サーバー証明書の検証]** が有効になっていることを確認します。 **[SSL 暗号化プロバイダー]** については、OpenSSL セットアップ手順に従っている場合は mscrypto を選択し、そのライブラリを暗号化プロバイダーとして構成している場合は commoncrypto を選択します。 [SSL キーストア] と [SSL 信頼ストア] フィールドは空白のままにします。
 
     - Power BI Desktop
 

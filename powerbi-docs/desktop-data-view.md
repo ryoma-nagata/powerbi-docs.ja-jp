@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454475"
@@ -28,7 +28,7 @@ ms.locfileid: "65454475"
 
 1. **[データ ビュー] アイコン** – このアイコンを選択すると、データ ビューに入ります。
 
-2. **[データ グリッド]** – 選んだテーブルとその中のすべての列と行を表示します。 **レポート ビュー**に表示されない列はグレー表示されます。列のオプションを右クリックすることができます。
+2. **[データ グリッド]** – 選んだテーブルとその中のすべての列と行を表示します。 **レポート ビュー**に表示されない列はグレー表示されます。列を右クリックしてオプションを表示できます。
 
 3. **[モデリング] リボン** – ここでは、リレーションシップの管理、計算の作成、列のデータ型、書式設定、データ カテゴリの変更を行うことができます。
 

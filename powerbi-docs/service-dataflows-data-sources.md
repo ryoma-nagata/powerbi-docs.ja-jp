@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d2ba4809ce5c6664350ec81b57b6fc717a13879f
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141399"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164546"
 ---
-# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI のデータフローのデータ ソースに接続します。
+# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI データフロー用のデータ リソースに接続する
 
 Power BI データフローを利用すると、さまざまなデータ ソースに接続し、新しいデータフローを作成したり、新しいエンティティを既存のデータフローに追加したりできます。
 
 この記事では、データフローを作成するためやデータフローに追加するために利用できるさまざまなデータ ソースを挙げ、そのようなデータ ソースを利用してデータフローを作成する方法について説明します。
 
-作成して、データフローを使用する方法の概要については、次を参照してください。[を作成すると、Power BI でのデータフローを使用して](service-dataflows-create-use.md)します。
+データフローを作成して使用する方法の概要については、「[Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)」を参照してください。
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>データ ソースからデータフローを作成する
 
@@ -47,7 +47,7 @@ Power BI データフローを利用すると、さまざまなデータ ソー�
 
 ![データフローの [データの取得] の各種カテゴリ](media/service-dataflows-data-sources/dataflows-data-sources_04.png)
 
-データフローのデータ ソースは次のカテゴリに整理され、 **[データの取得]** ダイアログの上部に並べて表示されます。
+データフローのデータ ソースは次のカテゴリに整理され、**[データの取得]** ダイアログの上部に並べて表示されます。
 
 * すべてのカテゴリ
 * ファイル
@@ -113,7 +113,7 @@ Power BI データフローを利用すると、さまざまなデータ ソー�
 
 ## <a name="connecting-to-a-data-source"></a>データ ソースに接続する
 
-データ ソースに接続するには、データ ソースを選択します。 今回、例を 1 つ取り上げてこのプロセスのしくみを説明しますが、データフロー用データ接続ではプロセスはどれも似ています。 コネクタが異なれば、特定の資格情報やその他の情報が必要になることがありますが、フローは同じようなものです。 今回の例では、次の画像でご覧いただけるように、 **[オンライン サービス]** というデータ接続カテゴリから **[Common Data Service for Apps]** が選択されています。
+データ ソースに接続するには、データ ソースを選択します。 今回、例を 1 つ取り上げてこのプロセスのしくみを説明しますが、データフロー用データ接続ではプロセスはどれも似ています。 コネクタが異なれば、特定の資格情報やその他の情報が必要になることがありますが、フローは同じようなものです。 今回の例では、次の画像でご覧いただけるように、**[オンライン サービス]** というデータ接続カテゴリから **[Common Data Service for Apps]** が選択されています。
 
 ![Common Data Service for Apps を選択する](media/service-dataflows-data-sources/dataflows-data-sources_05.png)
 
@@ -121,13 +121,13 @@ Power BI データフローを利用すると、さまざまなデータ ソー�
 
 ![データ接続の資格情報または URL](media/service-dataflows-data-sources/dataflows-data-sources_06.png)
 
-サーバー URL やリソース接続情報を指定したら、 **[サインイン]** を選択し、データ アクセスに利用する資格情報を入力し、 **[次へ]** を選択します。
+サーバー URL やリソース接続情報を指定したら、**[サインイン]** を選択し、データ アクセスに利用する資格情報を入力し、**[次へ]** を選択します。
 
-**Power Query Online** によってデータ ソースへの接続が開始され、確立されます。その後、次の画像のように、 **[ナビゲーター]** ウィンドウにそのデータ ソースで利用できるテーブルが表示されます。
+**Power Query Online** によってデータ ソースへの接続が開始され、確立されます。その後、次の画像のように、**[ナビゲーター]** ウィンドウにそのデータ ソースで利用できるテーブルが表示されます。
 
 ![[ナビゲーター] ウィンドウにデータ ソースのテーブルが表示される](media/service-dataflows-data-sources/dataflows-data-sources_07.png)
 
-左側のウィンドウで各テーブルの横にあるチェックボックスを選択することで、読み込むテーブルとデータを選択できます。 データを読み込むには、 **[ナビゲーター]** ウィンドウの下部にある **[OK]** を選択します。 [Power Query Online] ダイアログが表示されます。このダイアログでは、クエリを編集したり、選択したデータに実行するその他のあらゆる変換を実行したりできます。
+左側のウィンドウで各テーブルの横にあるチェックボックスを選択することで、読み込むテーブルとデータを選択できます。 データを読み込むには、**[ナビゲーター]** ウィンドウの下部にある **[OK]** を選択します。 [Power Query Online] ダイアログが表示されます。このダイアログでは、クエリを編集したり、選択したデータに実行するその他のあらゆる変換を実行したりできます。
 
 ![Power Query エディターでクエリを編集し、変換する](media/service-dataflows-data-sources/dataflows-data-sources_08.png)
 
@@ -139,8 +139,8 @@ Power BI データフロー ユーザー インターフェイスに表示され
 
 ユーザー インターフェイスに表示されないコネクタへの接続は次の手順で作成できます。
 
-1. **Power BI Desktop** を開き、 **[データの取得]** を選択します。
-2. Power BI Desktop で **Power Query エディター**を開き、関連クエリを右クリックし、次の画像のように、 **[詳細エディター]** を開きます。 そこから、詳細エディターに表示されている M スクリプトをコピーできます。
+1. **Power BI Desktop** を開き、**[データの取得]** を選択します。
+2. Power BI Desktop で **Power Query エディター**を開き、関連クエリを右クリックし、次の画像のように、**[詳細エディター]** を開きます。 そこから、詳細エディターに表示されている M スクリプトをコピーできます。
 
     ![Power BI Desktop で詳細エディターから M スクリプトをコピーする](media/service-dataflows-data-sources/dataflows-data-sources_09.png) 
 
@@ -156,7 +156,6 @@ Power BI データフロー ユーザー インターフェイスに表示され
 
 以下は、M クエリをコピーし、空のクエリに貼り付けることで使用できるコネクタの現時点の一覧です。
 
-* SAP Business Warehouse 
 * Azure analysis Services
 * Adobe Analytics
 * ODBC
@@ -176,11 +175,11 @@ Power BI データフローのデータ ソースに接続する作業はこれ�
 
 この記事では、データフローで接続できるデータ ソースについて説明しました。 以下の記事では、データフローの一般的な使用シナリオについてさらに詳しく説明します。 
 
-* [Power BI でのセルフ サービスのデータの準備](service-dataflows-overview.md)
+* [Power BI でのセルフサービスのデータ準備](service-dataflows-overview.md)
 * [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium で計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
+* [Power BI Premium での計算されたエンティティの使用](service-dataflows-computed-entities-premium.md)
 * [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
-* [Power BI のデータフローに関する開発者向けリソース](service-dataflows-developer-resources.md)
+* [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
 
 Power Query とスケジュールされた更新について詳しくは、次の記事をご覧ください。

@@ -1,5 +1,5 @@
 ---
-title: モバイル アプリ - Power BI のレポートを最適化します。
+title: モバイル アプリ用にレポートを最適化する - Power BI
 description: 縦バージョンのレポートをスマートフォンとタブレット専用に作成して、Power BI モバイル アプリ用にレポート ページを最適化する方法について説明します。
 author: maggiesMSFT
 manager: kfile
@@ -12,19 +12,19 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61310787"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを最適化します。
-縦のレイアウトを作成して、モバイル アプリでレポートを表示するためのエクスペリエンスを向上できます。 Power BI Desktop と Power BI サービスでは、再配置し、最適なエクスペリエンスを縦向きモードのレポートのビジュアルのサイズを変更します。  
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI モバイル アプリ用にレポートを最適化する
+縦レイアウトを作成して、モバイル アプリでレポートを表示するエクスペリエンスを向上させることができます。 Power BI Desktop と Power BI サービスでは、レポートのビジュアルを再配置やサイズ変更を行って縦モードで最適なエクスペリエンスを実現することができます。  
 
-代わりに、モバイル デバイスでレポートを表示する方法についての情報を探しですか。 このクイック スタートをお試しください[ダッシュ ボードと Power BI モバイル アプリでレポートを探索](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)します。
+モバイル デバイスでのレポートの表示について情報をお探しの場合は クイックスタート「[Power BI モバイル アプリでダッシュボードとレポートを調べる](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)」を参照してください。
 
 ![電話に対して最適化されたレポート](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-作成することができますと[*応答性の高い*ビジュアル](#optimize-a-visual-for-any-size)と[レスポンシブ スライサー](#enhance-slicers-to-work-well-in-phone-reports)任意の場所でもサイズを変更します。 レポートにフィルターを追加する場合、自動的に表示最適化されたレポート。
+さらに、どこでもサイズを変更できる["*応答性の高い*" ビジュアル](#optimize-a-visual-for-any-size)と[応答性の高いスライサー](#enhance-slicers-to-work-well-in-phone-reports)を作成できます。 レポートにフィルターを追加すると、最適化されたレポートに自動的に表示されます。
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>縦バージョンのレポート ページをレイアウトする
 

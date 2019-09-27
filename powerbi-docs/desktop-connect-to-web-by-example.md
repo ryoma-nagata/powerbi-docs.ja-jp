@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514100"
@@ -52,7 +52,7 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 ![例を指定したデータ](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
-> 注:値の候補に含まれるのは、長さが 128 文字以下の値のみです。
+> 注意:値の候補に含まれるのは、長さが 128 文字以下の値のみです。
 
 Web ページから抽出されたデータに満足したら、 **[OK]** を選択して **[クエリ エディター]** に移動します。クエリ エディターではさらに変換を適用したり、データを整形したりすることができます (このデータを他のデータ ソースと組み合わせるなど)。
 
@@ -64,7 +64,7 @@ Web ページから抽出されたデータに満足したら、 **[OK]** を選
 ## <a name="next-steps"></a>次の手順
 **Power BI Desktop** を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
-* [例による列を追加します。](desktop-add-column-from-example.md)
+* [例から列を追加する](desktop-add-column-from-example.md)
 * [Web ページに接続する](desktop-connect-to-web.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)

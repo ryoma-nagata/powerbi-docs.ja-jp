@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: e30a79796fd4d5538406a85a3297a23b2c09a61a
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d21199d8960df4db5027115704533bd3d5d8097c
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751411"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142259"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Power BI サービスでテキストとして返される、入れ子になった値のトラブルシューティング
 
 ## <a name="cause"></a>原因
 
-以前は、Power BI レポートがデスクトップでは正常に更新されたのに、Power BI サービスでは "値 "[Table]" を型 Table に変換できません" のようなエラーが表示されて失敗することがありました。 このエラーの原因の 1 つは、Data Privacy Firewall (ここにリンク?) がデータ ソースをバッファー処理するときに、入れ子になった非スカラー値 (テーブル、レコード、リスト、関数など) は、自動的にテキスト値 (“[Table]” や “[Record]” など) に変換されることです。
+以前は、Power BI レポートがデスクトップでは正常に更新されたのに、Power BI サービスでは "値 "[Table]" を型 Table に変換できません" のようなエラーが表示されて失敗することがありました。 このエラーの原因の 1 つは、Data Privacy Firewall でデータ ソースがバッファー処理されるときに、入れ子になった非スカラー値 (テーブル、レコード、リスト、関数など) が、自動的にテキスト値 ("[Table]" や "[Record]" など) に変換されることです。
 
 Power BI サービスでプライバシー レベルの設定 (またはファイアウォールの完全な無効化) がサポートされるようになったので、Power BI サービスで[データ ソースのプライバシー設定を非プライベートに構成](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/)することで、このようなエラーを回避できます。
 

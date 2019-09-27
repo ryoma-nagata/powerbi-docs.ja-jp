@@ -11,16 +11,16 @@ ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 52b7748b6b634caf87de01ddc965576339a04b8b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61174992"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Power BI アプリ ワークスペースの OneDrive に保存されているファイルに接続する
-[Power BI にアプリ ワークスペースを作成](service-create-distribute-apps.md)した後、Excel、CSV、Power BI Desktop などのファイルを Power BI アプリ ワークスペースの OneDrive for Business に保存できるようになりました。 OneDrive に保存したファイルの更新を続行することができます。 これらの更新プログラムは、Power BI レポートやダッシュ ボードのファイルに基づいて自動的に反映されます。 
+[Power BI にアプリ ワークスペースを作成](service-create-distribute-apps.md)した後、Excel、CSV、Power BI Desktop などのファイルを Power BI アプリ ワークスペースの OneDrive for Business に保存できるようになりました。 OneDrive に保存したファイルは引き続き更新できます。 これらの更新プログラムは、ファイルに基づいて Power BI レポートとダッシュボードに自動的に反映されます。 
 
 > [!NOTE]
-> 新しいワークスペース エクスペリエンスでは、Power BI のワークスペースと Office 365 グループ間のリレーションシップを変更します。 新しいワークスペースのいずれかを作成するたびに自動的に、Office 365 グループを作成しないでください。 について[新しいワークスペースの作成](service-create-the-new-workspaces.md)
+> 新しいワークスペース エクスペリエンスでは、Power BI ワークスペースと Office 365 グループ間の関係が変わります。 新しいワークスペースの 1 つを作成するたびに Office 365 グループは自動的に作成されません。 新しいワークスペースの作成については、[こちら](service-create-the-new-workspaces.md)を参照してください
 
 アプリ ワークスペースへのファイルの追加は、次の 2 つの手順で行います。 
 
@@ -48,7 +48,7 @@ ms.locfileid: "61174992"
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel ファイルをデータセットまたは Excel Online のブックとしてインポートする
 ファイルがアプリ ワークスペースの OneDrive for Business に保存されたので、選択肢ができました。 次の操作を実行できます。 
 
-* [データセットとして Excel ブックからデータをインポート](service-get-data-from-files.md)します。 レポートと web ブラウザーやモバイル デバイスを表示するダッシュ ボードを構築するのに、このデータを使用します。
+* [Excel ブックからデータセットとしてデータをインポートします](service-get-data-from-files.md)。 次に、そのデータを使用して Web ブラウザーやモバイル デバイスで表示できるレポートとダッシュボードを作成します。
 * または、[Power BI で Excel ブック全体に接続](service-excel-workbook-files.md)し、Excel Online で表示されるのと同じようにブックを表示します。
 
 ### <a name="import-or-connect-to-the-files-in-your-app-workspace"></a>アプリ ワークスペースへのインポートまたはファイルへの接続
@@ -64,7 +64,7 @@ ms.locfileid: "61174992"
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. 必要なファイルを選び、**接続**します。
    
-    この時点を決定するかどうか[Excel ブックからデータをインポート](service-get-data-from-files.md)、または[全体の Excel ブックに接続する](service-excel-workbook-files.md)します。
+    この時点で、[Excel ブックからデータをインポートする](service-get-data-from-files.md)か、[Excel ブック全体に接続する](service-excel-workbook-files.md)かどうかを決定します。
 6. **[インポート]** または **[接続]** を選びます。
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)

@@ -11,7 +11,7 @@ ms.date: 04/15/2019
 ms.author: davidi
 ms.openlocfilehash: 5c31277b640b16882bef5c5f2cd9c56b441ede82
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61329900"
@@ -27,7 +27,7 @@ Power BI Desktop を初めて起動したときは、サインイン フォー�
 Key: HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop
 valueName: ShowLeadGenDialog
 ```
-その構成に基づいて一部のお客様の成功した、次のキーを試すこともできます。
+次のキーを試すこともできます。これは、構成に基づいて一部の顧客に対して成功しています。
 
 ```
 Key: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Microsoft Power BI Desktop

@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271867"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100382"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI のゲートウェイ用シングル サインオン (SSO) の概要
 
-オンプレミスのデータ ゲートウェイと、Kerberos で制約される委任か Security Assertion Markup Language (SAML) を構成することにより、シームレスなシングル サインオン接続を確立し、Power BI のレポートとダッシュボードをオンプレミスのデータで更新できます。 オンプレミス データ ゲートウェイにより、DirectQuery を使う SSO が容易になります。この場合、オンプレミスのデータ ソースへの接続に使われます。
+オンプレミスのデータ ゲートウェイと、Kerberos で制約される委任か Security Assertion Markup Language (SAML) を構成することにより、シームレスなシングル サインオン接続を確立し、Power BI のレポートとダッシュボードをオンプレミスのデータでリアルタイムに更新できます。 オンプレミス データ ゲートウェイにより、DirectQuery を使う SSO がサポートされ、オンプレミスのデータ ソースへの接続に使われます。
 
 現在サポートされているデータ ソースは次のとおりです。
 
@@ -52,8 +52,7 @@ SSO を使ったクエリ実行は、次の図に示す 3 つのステップで�
 
 ## <a name="next-steps"></a>次の手順
 
-SSO の基本を理解したところで、Kerberos と SAML に関する詳細をお読みください。
+ゲートウェイ経由での SSO の基本を理解したところで、Kerberos と SAML に関する詳細をお読みください。
 
 * [シングル サインオン (SSO) - Kerberos](service-gateway-sso-kerberos.md)
-* [シングル サインオン (SSO) - Kerberos - リソースに基づく](service-gateway-sso-kerberos-resource.md)
 * [シングル サインオン (SSO) - SAML](service-gateway-sso-saml.md)

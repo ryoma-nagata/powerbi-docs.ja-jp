@@ -1,20 +1,20 @@
 ---
 title: より多くのデータを Power BI からフェッチする
 description: この記事では、Power BI ビジュアルに対する大きいデータセットのセグメント化されたフェッチを有効にする方法を説明します。
-author: AviSander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 7e5ecc0e317a21d10e76e9413926822ac4d6760b
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: b67977abd93b3aa605430dd2d7fb516ca33bd51c
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237143"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194057"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>より多くのデータを Power BI からフェッチする
 

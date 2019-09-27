@@ -12,14 +12,14 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
 ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454556"
 ---
 # <a name="certified-custom-visuals"></a>認定済みカスタム ビジュアル
 
-## <a name="what-are-certified-custom-visuals"></a>**_認定済み_** カスタム ビジュアルとは何ですか?
+## <a name="what-are-_certified_-custom-visuals"></a>**_認定済み_** カスタム ビジュアルとは何ですか?
 
 認定済みカスタム ビジュアルとは**マーケットプレース**内のビジュアルであり、**特定のコード**要件を満たしていることを **Microsoft Power BI チーム**がテストし、承認したものです。 カスタム ビジュアルが認定されると、機能が増えます。 たとえば、[PowerPoint にエクスポート](consumer/end-user-powerpoint.md)したり、ユーザーが[レポート ページを定期購読する](consumer/end-user-subscribe.md)と受信するメールにビジュアルを表示したりできます。
 
@@ -44,34 +44,34 @@ ms.locfileid: "65454556"
 [カスタム ビジュアルを認定してもらう](#certified-custom-visuals)には、カスタム ビジュアルが以下の基準を満たしている必要があります。  
 
 * Microsoft AppSource が承認していること。 カスタム ビジュアルは Microsoft の[マーケットプレース](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)に表示されるはずです。
-* カスタム ビジュアルがバージョン管理で記述された**API v2.5**またはそれ以降。
-* コード リポジトリは Power BI チームによるレビューの使用可能な (人間が読める形式でソース コード (JavaScript または TypeScript) のインスタンスは、GitHub で入手できます)。
+* カスタム ビジュアルは、バージョン管理された **API v2.5** 以降で記述されていること。
+* Power BI チームがレビューするためのコード リポジトリが用意されていること (たとえば、GitHub に人間が読める形式のソース コード (JavaScript や TypeScript) を用意しておきます)。
 
     >[!Note]
     > Github でコードを一般公開する必要はありません。
 * コード リポジトリの要件:
-   * 最低限必要な一連のファイルを含める必要があります。
+   * 最低限必要なファイルのセットを含める必要があります。
       * .gitignore
       * capabilities.json
       * pbiviz.json
       * package.json
-      * パッケージ lock.json
+      * package-lock.json
       * tsconfig.json
-   * Node_modules フォルダーを含めることはできません (node_modules を .gitingore ファイルに追加する)
-   * **npm インストール**コマンドには任意のエラーが返される必要があります。
-   * **npm 監査**コマンドが高または中程度のレベルを持つすべての警告を返す必要がありますされません。
-   * **pbiviz パッケージ**コマンドには任意のエラーが返される必要があります。
-   * 含める必要があります[Microsoft から TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib)オーバーライドの構成なしでこのコマンドでは、lint のエラーを返す必要がありますいないとします。
-   * カスタム ビジュアルのコンパイル済みのパッケージが送信されたパッケージに一致する必要があります (両方のファイルの md5 ハッシュ値と同じになります)。
+   * node_modules フォルダーを含めてはなりません (node_modules を .gitingore ファイルに追加します)
+   * **npm install** コマンドからエラーが返されてはなりません。
+   * **npm audit** コマンドから高レベルまたは中レベルの警告が返されてはなりません。
+   * **pbiviz package** コマンドからエラーが返されてはなりません。
+   * オーバーライドされた構成を使用せずに [Microsoft からの TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib) を含める必要があります。また、このコマンドから lint エラーが返されてはなりません。
+   * カスタム ビジュアルのコンパイル済みパッケージは、送信されたパッケージと一致する必要があります (両方のファイルの md5 ハッシュは同じである必要があります)。
 * ソース コードの要件:
-   * ビジュアルをサポートする必要があります[レンダリング イベント API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/)します。
-   * /動的な任意のコードは実行されないことを確認 (が正しくありません:"eval()"、settimeout()、requestAnimationFrame()、setinterval (ユーザー入力をいくつかの関数)、実行中のユーザーの入力/データを使用して、安全ではありません)。
-   * DOM を安全に操作を確認します (不適切な: innerHTML D3.html (< いくつかのユーザー/データの入力 >)、DOM に追加する前にユーザーの入力/データのサニタイズを使用して
-   * すべての入力データはブラウザーのコンソールに javascript のエラーと例外がないことを確認します。 ビジュアルは失敗する必要がありますしないように、ユーザーは、予期しないデータの範囲が異なるビジュアルを使う可能性があります。 使用することができます[このサンプル レポート](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)テスト データセットとして。
+   * ビジュアルは [Rendering Events API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/) をサポートしている必要があります。
+   * 任意/動的コードが実行されていないことを確認します (不適切: eval()、確実に使用できない可能性のある settimeout()、requestAnimationFrame()、setinterval (ユーザー入力のある関数)、ユーザー入力/データの実行)。
+   * DOM が問題なく操作されていることを確認します (不適切: innerHTML、D3.html(<一部のユーザー/データ入力>)、DOM に追加する前にユーザー入力/データにサニタイズを使用する)。
+   * ブラウザー コンソールで、すべての入力データに対して javascript エラー/例外がないことを確認します。 ユーザーは、異なる範囲の予期しないデータを含むビジュアルを使用する可能性があるため、ビジュアルが失敗しないようにする必要があります。 [このサンプル レポート](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)をテスト データセットとして使用できます。
 
-* Capabilities.json でプロパティを変更する場合は、既存のユーザーのレポートが損なわれないを確認します。
+* capabilities.json のプロパティが変更された場合は、既存のユーザーのレポートが破損しないようにしてください。
 
-* ビジュアルが準拠することを確認、 [Power BI ビジュアルのガイドライン](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases)します。 **透かしは許可されません**します。
+* ビジュアルが [Power BI ビジュアルのガイドライン](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases)に準拠していることを確認します。 **透かしは使用できません**。
 
 * 公開レビュー可能な OSS コンポーネントのみを使用すること (一般公開の JS ライブラリまたは TypeScript。 ソース コードがレビューできて、既知の脆弱性がない)。 Microsoft は商用コンポーネントを利用してカスタム ビジュアルを検証することかできません。
 

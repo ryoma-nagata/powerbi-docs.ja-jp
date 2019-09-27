@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: e87ea8470464e458c1da2037f25adfcee857361e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61271394"
@@ -16,5 +16,5 @@ ms.locfileid: "61271394"
 
 ![](media/5-3-import-powerpivot-powerview/5-3_2.png)
 
-Power BI の優れた機能の 1 つを次に示します。Power Query または Power Pivot を使用して、クエリ、および Power BI にブックをインポートしたら、外部データ ソースからデータの読み込みに接続する場合はセットアップできます**スケジュールされた更新**します。 スケジュールされた更新を使用すると、Power BI はワークブックからの接続情報を使用してデータ ソースとクエリに直接接続し、変更されたデータを読み込みます。 また、レポートの視覚エフェクトは自動的に更新されます。
+Power BI の優れた機能の 1 つを次に示します。Power Query または Power Pivot を使用して外部データ ソースへの接続、クエリの実行、データの読み込みを行う場合、ブックを Power BI にインポートすると、**スケジュールされた更新**を設定できます。 スケジュールされた更新を使用すると、Power BI はワークブックからの接続情報を使用してデータ ソースとクエリに直接接続し、変更されたデータを読み込みます。 また、レポートの視覚エフェクトは自動的に更新されます。
 

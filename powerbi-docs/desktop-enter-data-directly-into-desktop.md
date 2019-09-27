@@ -8,20 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f50fa577cace62adadd0dfc29216445c6c8f269
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 10586d0fa685bb947b27a5c243117596517bdb52
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454350"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142247"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Power BI Desktop にデータを直接入力する
 Power BI Desktop では、データを直接入力して、レポートや表示でそのデータを使用できます。 たとえば、ブックや Web ページの一部をコピーし、Power BI Desktop に貼り付けることができます。
 
-データを直接入力するには、 **[ホーム]** リボンの **[データの入力]** を選択します。
+新しいテーブルの形式で Power BI Desktop に直接データを入力するには、**[ホーム]** リボンの **[データの入力]** を選択します。
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 
@@ -29,9 +29,9 @@ Power BI Desktop では、データを直接入力して、レポートや表示
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_2.png)
 
-Power BI Desktop に取り込む前に入力した (または貼り付けた) データを整形する必要がある場合は、[編集] を選択して **[クエリ エディター]** を表示して、データを整形および変換できます。 または、 **[読み込み]** ボタンを選択して、そのままデータをインポートできます。
+Power BI Desktop に取り込む前に入力した (または貼り付けた) データを整形する必要がある場合は、[編集] を選択して **[クエリ エディター]** を表示して、データを整形および変換できます。 または、**[読み込み]** ボタンを選択して、そのままデータをインポートできます。
 
-**[読み込み]** を選択すると、データから新しいテーブルが作成されて、 **[フィールド]** ウィンドウで使用できるようになります。 次の図では、*Table1* という名前の既定の新しいテーブルが表示され、その中には 2 つのフィールドが作成されています。
+**[読み込み]** を選択すると、データから新しいテーブルが作成されて、**[フィールド]** ウィンドウで使用できるようになります。 次の図では、*Table1* という名前の既定の新しいテーブルが表示され、その中には 2 つのフィールドが作成されています。
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_3.png)
 

@@ -5,21 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608666"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141272"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>Power BI サービスのおすすめのダッシュボード
+# <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI サービスのおすすめのダッシュボード
 ## <a name="create-a-featured-dashboard"></a>おすすめのダッシュボードを作成する
 多くのユーザーには、他のダッシュボードより頻繁にアクセスする 1 つのダッシュボードがあります。  それはビジネスの運営に使用するダッシュボードかもしれません。また、多くの異なるダッシュボードとレポートから取られたタイルの集合体が含まれるダッシュボードであることもあります。
 
@@ -52,7 +51,7 @@ Amanda がおすすめのダッシュボードを作成するビデオを参照�
 1. 前述の手順 1 と 2 を実行します。
    
     ![おすすめのダッシュボードの変更ウィンドウ](./media/end-user-featured/power-bi-change-feature.png)
-2. **[おすすめに設定]** を選択します。 ダッシュボードをおすすめにしない場合、ダッシュボードはワークスペースから削除されません。  
+2. **[おすすめに設定]** を選択します。 ダッシュボードをおすすめにしない場合、ダッシュボードは Power BI から削除されません。  
    
     ![成功メッセージ](./media/end-user-featured/power-bi-unfeature-new.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841374"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164505"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -296,11 +296,11 @@ iPad アプリの Power BI レポートに更新ボタンが追加されまし�
 
 #### <a name="report-favorites"></a>レポートのお気に入り
 
-レポートにお気に入りのタグを付け、 **[お気に入り]** ページに表示します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
+レポートにお気に入りのタグを付け、**[お気に入り]** ページに表示します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 
 #### <a name="view-shared-reports"></a>共有レポートを表示する
 
-誰かとレポートを共有すると、ダッシュボードの他に、 **[共有アイテム]** ページにレポートが一覧表示されます。
+誰かとレポートを共有すると、ダッシュボードの他に、**[共有アイテム]** ページにレポートが一覧表示されます。
 
 #### <a name="improved-hyperlink-support"></a>ハイパーリンク サポートの改善
 
@@ -416,7 +416,7 @@ Power BI コンテンツの編成については[ここ](mobile-apps-quickstart-
 #### <a name="ios-devices"></a>iOS デバイス
 **Q&A のプレビューによるデータに関する質問** 
 
-Q&A を使って自分の言葉でデータに関する質問をすると、Power BI が答えてくれます。 Q&A は、Power BI サービス (http://powerbi.com ) で既に提供されています。 また、[iPhone または iPad のモバイル アプリで使用する](mobile-apps-ios-qna.md)こともできます。
+Q&A を使って自分の言葉でデータに関する質問をすると、Power BI が答えてくれます。 Q&A は、Power BI サービス (http://powerbi.com) で既に提供されています。 また、[iPhone または iPad のモバイル アプリで使用する](mobile-apps-ios-qna.md)こともできます。
 
 **複数の SSRS サーバーへの接続** 
 
