@@ -1,20 +1,20 @@
 ---
 title: Power BI ビジュアルのガイドライン
 description: AppSource にカスタム ビジュアルを発行して、それを他のユーザーが見つけたり、購入して使用できるようにする方法について説明します。
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: 71752a635c69e6712befbb00e942189fa4dacc36
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380213"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327732"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI ビジュアルのガイドライン
 他のユーザーが検出して使用できるように自分のビジュアルを AppSource に[発行](https://docs.microsoft.com/power-bi/developer/office-store)する前に、ユーザー向けに優れたエクスペリエンスを作成するためのガイドラインに従っていることを確認してください。 
@@ -25,11 +25,14 @@ ms.locfileid: "68380213"
 
 
 ## <a name="logo-guidelines"></a>ロゴのガイドライン
+> [!NOTE]
+> この記事に含まれている単語のロゴは、以下の図で説明されているように任意の営利企業のアイコンを示しています。 
 
-このセクションでは、ロゴをビジュアルに追加するための仕様について説明します。 ロゴは必須ではありません。 追加する場合、これらのガイドラインに従う必要があります。 
+このセクションでは、Power BI ビジュアルにロゴを追加するための仕様について説明します。 ロゴは必須ではありません。 追加する場合、これらのガイドラインに従う必要があります。 
 
 > [!IMPORTANT]
 > ロゴは*編集モードでのみ*許可されます。 ロゴはビュー モードでは表示*できません*。
+
 
 ![定義](media/guidelines-powerbi-visuals/definitions.png)
 
@@ -44,11 +47,13 @@ ms.locfileid: "68380213"
 ![編集モード](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 
+閲覧モードにおけるわかりやすいアイコンが存在する場合は、上記のロゴのように色、サイズ、場所に従う必要があります。
+
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Power BI ビジュアルの追加購入のガイドライン
 
 最近まで、Marketplace (AppSource) では、無料の Power BI ビジュアルのみが受け付けられていました。 このポリシーが変更され (2018 年 12 月)、"追加購入が必要になる場合があります" の価格タグが付いているビジュアルも AppSource に送信できるようになりました。 
 
-"追加購入が必要になる場合がある" ビジュアルは、Office ストアのアプリ内購入 (IAP) アドインと似ています。 開発者はこれらのビジュアルを、AppSource チームの承認後、認定の要件に準拠していることを確認してから、認定のために送信することも可能です。 要件の詳細については、「[認定済みカスタム ビジュアル](../power-bi-custom-visuals-certified.md)」をご覧ください。
+"追加購入が必要になる場合がある" ビジュアルは、Office ストアのアプリ内購入 (IAP) アドインと似ています。 開発者はこれらのビジュアルを、AppSource チームの承認後、認定の要件に準拠していることを確認してから、認定のために送信することも可能です。 要件の詳細については、[認定済み Power BI ビジュアル](../power-bi-custom-visuals-certified.md)に関するページをご覧ください。
 
 > [!NOTE]
 > ビジュアルが認定されるには、外部サービスやリソースにはアクセスしないようにする必要があります。

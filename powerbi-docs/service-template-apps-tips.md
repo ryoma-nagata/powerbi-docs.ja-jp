@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791822"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194791"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI でのテンプレート アプリの作成に関するヒント
 
@@ -126,7 +126,6 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 
 * アプリの機能をインストーラーが理解しやすいように魅力的なサンプル データを使ってテンプレート アプリを作成します (空のレポートとダッシュボードは承認されていません)。
 テンプレート アプリではサンプル データのみのアプリがサポートされます。静的なアプリのチェック ボックスは必ずオンにしてください。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 一般に、AppSource での一般的な使用に対しては貴重な機能を持つアプリケーションのみを承認できます。 サンプル データ コンテンツのみを含むアプリケーションにはガイダンスまたは統計値が必要です。
 * データ接続に必要な資格情報とパラメーターが含まれる、検証チームを対象とした指示を用意します。
 * アプリケーションでは、Power BI とご自身の CPP プランにアプリ アイコンを含める必要があります。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * ランディング ページを構成します。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
@@ -135,6 +134,7 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 * アプリを送信する前に、アプリ リンクを使用してそのアプリをインストールします。データセットに接続できることと、計画したとおりのアプリ エクスペリエンスであることを確認します。
 * bpix をテンプレート アプリ ワークスペースにアップロードする前に、不要な接続すべてをアンロードしてください。
 * Power BI の「[レポートとビジュアルのデザインに関するベスト プラクティス](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)」に従って、ユーザーに対する効果を最大限に高め、配布の承認を得ます。
+<!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>既知の制限事項
 

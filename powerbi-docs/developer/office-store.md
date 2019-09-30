@@ -1,22 +1,22 @@
 ---
-title: カスタム ビジュアルを AppSource に発行する
+title: Power BI ビジュアルを AppSource に発行する
 description: AppSource にカスタム ビジュアルを発行して、他のユーザーが見つけたり使用したりすることができるようにする方法について説明します。
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 3cbc2c6fcb70d6298c9d2ade3e3f2cd10cd8a834
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623827"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194505"
 ---
-# <a name="publish-custom-visuals-to-appsource"></a>カスタム ビジュアルを AppSource に発行する
+# <a name="publish-power-bi-visuals-to-appsource"></a>Power BI ビジュアルを AppSource に発行する
 
 AppSource にカスタム ビジュアルを発行して、他のユーザーが見つけたり使用したりすることができるようにする方法について説明します。
 
@@ -40,13 +40,13 @@ AppSource にカスタム ビジュアルを発行して、他のユーザーが
 | スクリーンショット |はい |少なくとも 1 つのスクリーンショットを提供する必要があります。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 大きさはちょうど 1366 (幅) x 768 (高さ) ピクセルにする必要があります。 ファイルのサイズは 1024 KB 以下でなければなりません。 *使いやすくするには、各スクリーンショットの重要な機能の価値提案がはっきりわかる吹き出しを追加します。* |
 | サポート ダウンロード リンク |はい |ビジュアルに問題がある顧客をサポートするための URL を提供します。 このリンクは SellerDashboard リストの一部として入力され、AppSource 上のビジュアルのリストにアクセスしたユーザーに表示されます。 https:// または http:// を含む URL の形式を使う必要があります。 |
 | プライバシーに関するドキュメントへのリンク |はい |ビジュアルを使うユーザーに対するプライバシー ポリシーへのリンクを提供します。 このリンクは SellerDashboard リストの一部として入力され、AppSource 上のビジュアルのリストにアクセスしたユーザーに表示されます。 https:// または http:// を含むリンクの形式にする必要があります。 |
-| エンド ユーザー使用許諾契約 (EULA) |はい |EULA ファイルをアップロードする必要があります。 独自の EULA を使うことも、Power BI カスタム ビジュアル向けの Office ストアで用意されている既定の EULA を使うこともできます。 既定の EULA を使うには、販売者ダッシュボードの "使用許諾契約書" ファイル アップロード ダイアログ ボックスに[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) の URL を貼り付けます。 |
+| エンド ユーザー使用許諾契約 (EULA) |はい |EULA ファイルをアップロードする必要があります。 独自の EULA を使うことも、Power BI の Power BI ビジュアル向け Office ストア内で用意されている既定の EULA を使うこともできます。 既定の EULA を使うには、販売者ダッシュボードの "使用許諾契約書" ファイル アップロード ダイアログ ボックスに[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) の URL を貼り付けます。 |
 | ビデオへのリンク |いいえ |カスタム ビジュアルに対するユーザーの関心を高めるには、ビジュアルに関するビデオへのリンクを提供することをお勧めします。 https:// または http:// を含む URL の形式を使う必要があります。 |
 | GitHub リポジトリ |いいえ |他の開発者がフィードバックを提供したりコードの改善を提案したりできるように、ビジュアルのソースとサンプル データを置いた [GitHub](https://www.github.com) リポジトリへの有効なパブリック リンクを提供することをお勧めします。 |
 
 ## <a name="submitting-to-power-bi"></a>Power BI に送信する
 
-送信は、Power BI カスタム ビジュアル送信チームに電子メールを送ることで開始します。 [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com) にメールを送ってください。
+送信は、Power BI の Power BI ビジュアル送信チームに電子メールを送ることで開始します。 [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com) にメールを送ってください。
 
 > [!IMPORTANT]
 > .pbiviz パッケージを作成する前に、pbiviz.json ファイルの "description"、"supportUrl"、"author"、"name"、"email" の各フィールドを入力する必要があります。
@@ -89,7 +89,7 @@ Power BI チームからアプリ パッケージ XML を受け取った後は�
    * *[Submission title]\(送信タイトル\):* デベロッパー センターで送信に名前を付ける方法です
    * *[バージョン]:* バージョン番号はアドイン アプリ パッケージから自動的に入力されます。
    * *[リリース日 (UTC)]:* アプリをストアにリリースする日付を選びます。 将来の日付を選んだ場合、その日になるまでアプリはストアで提供されません。
-   * *[カテゴリ]:* 最初のカテゴリには、"データのビジュアル化 + BI" が自動的に入力されます。 すべての Power BI カスタム ビジュアルにはこのようにタグ付けされます。 ユーザーがビジュアルを簡単に検索できるように、最大 2 つのカテゴリを追加指定できます。
+   * *[カテゴリ]:* 最初のカテゴリには、"データのビジュアル化 + BI" が自動的に入力されます。 Power BI のすべての Power BI ビジュアルは、このようにタグ付けされます。 ユーザーがビジュアルを簡単に検索できるように、最大 2 つのカテゴリを追加指定できます。
    * *[テスト用メモ]:* (省略可能) Microsoft のテスト担当者に対する説明がある場合は入力します。
    * *[このアプリは、暗号化を呼び出したり、サポートしたり、組み込んだり、使用したりします]:* オフのままにします。
    * *[このアドインを iPad の Office アドイン カタログで利用できる状態にする]:* オフのままにします。
@@ -104,7 +104,7 @@ Power BI チームからアプリ パッケージ XML を受け取った後は�
    * ビデオへのリンク
    * 使用許諾契約書 (EULA)
 
-       EULA ファイルをアップロードする必要があります。 独自の EULA を使うことも、Power BI カスタム ビジュアル向けの Office ストアで用意されている既定の EULA を使うこともできます。 既定の EULA を使うには、販売者ダッシュボードの "使用許諾契約書" ファイル アップロード ダイアログ ボックスに[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) の URL を貼り付けます。
+       EULA ファイルをアップロードする必要があります。 独自の EULA を使うことも、Power BI の Power BI ビジュアル向け Office ストア内で用意されている既定の EULA を使うこともできます。 既定の EULA を使うには、販売者ダッシュボードの "使用許諾契約書" ファイル アップロード ダイアログ ボックスに[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) の URL を貼り付けます。
 
 8. **[次へ]** を選び、 **[詳細]** ページに進みます。
 

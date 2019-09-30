@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 37304f9d23c514c7223b3eca481bf3b7b2258ac4
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 64be68398ffa2ab8323307b45b5bff09ec511090
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904422"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327851"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポートのテーマを使用する
 **レポートのテーマ**を使用すると、会社の色の使用、アイコン セットの変更、新しい既定のビジュアル書式の適用など、レポート全体にデザインの変更を適用できます。 **レポートのテーマ**を適用すると、レポートのすべてのビジュアルで、選択したテーマの色と書式設定が使用されます。 例外がいくつかあり、それについてはこの記事の後半で説明します。
@@ -475,7 +475,8 @@ tableAccent | テーブルとマトリックスのグリッドの枠線の色を
 
 
 ```json
-      "general":
+{
+      "general":{ 
         "responsive": {
           "type": [
             "bool"
@@ -486,7 +487,7 @@ tableAccent | テーブルとマトリックスのグリッドの枠線の色を
           "description": [
             "The visual will adapt to size changes"
           ]
-        }
+        },
         "legend": {
         "show": {
           "type": [
@@ -4378,4 +4379,6 @@ tableAccent | テーブルとマトリックスのグリッドの枠線の色を
          ]
        }
     }
+  }
+}
 ```

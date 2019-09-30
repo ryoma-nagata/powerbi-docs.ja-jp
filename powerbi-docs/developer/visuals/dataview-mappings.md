@@ -1,20 +1,20 @@
 ---
 title: Power BI ビジュアルでのデータ ビューのマッピングについて理解する
 description: この記事では、ビジュアルにデータを渡す前にそのデータを Power BI で変換する方法について説明します。
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237221"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193536"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Power BI ビジュアルでのデータ ビューのマッピングについて理解する
 
@@ -618,7 +618,7 @@ Power BI のコア マトリックス ビジュアルでは、データがテー
 
 データ ビューで受信するデータの量を制御するには、データの削減アルゴリズムを適用します。
 
-既定では、すべてのカスタム ビジュアルには、*count* が 1000 のデータ ポイントに設定された top データ削減アルゴリズムが適用されます。 これは *capabilities.json* ファイル内の次のプロパティを設定することと同じです。
+既定では、すべての Power BI ビジュアルには、*count* が 1000 個のデータ ポイントに設定された先頭データ削減アルゴリズムが適用されます。 これは *capabilities.json* ファイル内の次のプロパティを設定することと同じです。
 
 ```json
 "dataReductionAlgorithm": {
@@ -628,7 +628,7 @@ Power BI のコア マトリックス ビジュアルでは、データがテー
 }
 ```
 
-*count* 値は 30000 までの任意の整数値に変更できます。 R ベースのカスタム ビジュアルでは最大 150000 行をサポートできます。
+*count* 値は 30000 までの任意の整数値に変更できます。 R ベースの Power BI ビジュアルでは、最大 150000 行をサポートできます。
 
 ## <a name="data-reduction-algorithm-types"></a>データの削減アルゴリズムの種類
 

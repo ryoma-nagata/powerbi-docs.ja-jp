@@ -1,22 +1,22 @@
 ---
 title: Power BI カスタム ビジュアルへの書式設定オプションの追加
 description: Power BI カスタム ビジュアルの書式オプションの開発方法に関するチュートリアル
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61380146"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194585"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>チュートリアル:Power BI カスタム ビジュアルへの書式設定オプションの追加
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>チュートリアル:Power BI ビジュアルへの書式設定オプションの追加
 
 このチュートリアルでは、ビジュアルに共通プロパティを追加する方法について説明します。
 
@@ -263,4 +263,4 @@ Power BI Desktop レポートを開き、カスタム ビジュアル Circle Car
 
 ## <a name="next-steps"></a>次の手順
 
-他のユーザーが使用できるように新しく開発したビジュアルをリストすることはできますが、その場合、**AppSource** に送信する必要があります。 このプロセスの詳細については、「[カスタム ビジュアルを AppSource に発行する](office-store.md)」を参照してください。
+他のユーザーが使用できるように新しく開発したビジュアルをリストすることはできますが、その場合、**AppSource** に送信する必要があります。 このプロセスの詳細については、「[Power BI ビジュアルを AppSource に発行する](office-store.md)」を参照してください。

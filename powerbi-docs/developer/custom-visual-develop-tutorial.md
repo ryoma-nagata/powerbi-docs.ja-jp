@@ -1,26 +1,26 @@
 ---
 title: Power BI のビジュアルを開発する
 description: Power BI カスタム ビジュアルの開発方法に関するチュートリアル
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5d9ed20435069fa31707d9532141558351ec63ba
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415435"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194499"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>チュートリアル:Power BI のビジュアルを開発する
 
-開発者が Power BI にカスタム ビジュアルを簡単に追加して、ダッシュボードとレポートで使用できるようにします。 すぐに始められるように、すべての視覚化のコードが GitHub で公開されています。
+開発者が Power BI に Power BI ビジュアルを簡単に追加して、ダッシュボードとレポートで使用できるようにします。 すぐに始められるように、すべての視覚化のコードが GitHub で公開されています。
 
-ビジュアル化のフレームワークのほか、コミュニティの皆様が Power BI の質の高いのカスタム ビジュアルをビルドするのに役立つテスト スイートとツールを提供しています。
+視覚化のフレームワークのほか、コミュニティの皆様が Power BI 用に質の高い Power BI ビジュアルをビルドするのに役立つ、テスト スイートとツールが用意されています。
 
 このチュートリアルでは、Circle Card という名前の Power BI カスタム ビジュアルを開発して、円の中に書式設定されたメジャー値を表示する方法を示します。 Circle Card ビジュアルでは、色の塗りつぶしと枠線の太さのカスタマイズをサポートします。
 

@@ -18,9 +18,9 @@ ms.locfileid: "66222151"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
 
-Power BI API を使用するデータを Power BI のデータセットをプッシュします。 この記事で紹介する既存のデータセットに Product テーブルを含む Sales Marketing データセットをプッシュする方法。
+Power BI API を使うと、Power BI データセットにデータをプッシュできます。 この記事では、Product テーブルを含んだ Sales Marketing データセットを、既存のデータセットにプッシュする方法について説明します。
 
-始める前に、Azure Active Directory (Azure AD) 必要があります、 [Power BI アカウント](create-an-azure-active-directory-tenant.md)します。
+作業を開始する前に、Azure Active Directory (Azure AD) と [Power BI アカウント](create-an-azure-active-directory-tenant.md)が必要です。
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>データセットにデータをプッシュする手順
 
@@ -34,7 +34,7 @@ Power BI API を使用するデータを Power BI のデータセットをプッ
 
 ## <a name="power-bi-api-operations-to-push-data"></a>データをプッシュする Power BI API の操作
 
-Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリは、データセットに行を追加するときに、新しいデータで自動的に更新プログラム ダッシュ ボードのタイルします。 データをプッシュするを使用して、 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)と[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)操作。 データセットを検索するには使用、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作。 これらの操作のいずれかのグループを使用するグループの ID を渡すことができます。 グループ ID の一覧を取得する、[グループの取得](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作。
+Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリによりデータセットに行が追加されると、ダッシュボードのタイルは新しいデータで自動的に更新されます。 データをプッシュするには、[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) および [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を使います。 データセットを検索するには、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作を使います。 これらの操作のいずれについても、グループ ID を渡してグループを操作することができます。 グループ ID の一覧を取得するには、[グループの取得](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作を使います。
 
 データセットにデータをプッシュするための操作を次に示します。
 
@@ -59,7 +59,7 @@ Power BI でデータセットを作成するには、Power BI サービスに J
         ]
     }
 
-この Sales Marketing データセットの例では、次に示すように、JSON 文字列を渡します。 この例で**SalesMarketing**データセットの名前と**製品**テーブル名です。 テーブルを定義した後は、テーブル スキーマを定義します。 **SalesMarketing** データセットの場合、テーブル スキーマには次の列が含まれています:ProductID、Manufacturer、Category、Segment、Product、IsCompete。
+Sales Marketing データセットの例では、以下のような JSON 文字列を渡します。 この例では、**SalesMarketing** がデータセット名、**Product** がテーブル名です。 テーブルを定義したら、テーブル スキーマを定義します。 **SalesMarketing** データセットの場合、テーブル スキーマには次の列が含まれています:ProductID、Manufacturer、Category、Segment、Product、IsCompete。
 
 **データセット オブジェクト JSON の例**
 
@@ -105,10 +105,10 @@ Power BI のテーブル スキーマでは、次のデータ型を使うこと�
 | **データ型** | **制限事項** |
 | --- | --- |
 | Int64 |Int64.MaxValue と Int64.MinValue が許可されまていせん。 |
-| Double |Double.MaxValue と Double.MinValue 値が許可されていません。 NaN はサポートされていません。 + 無限大と負の無限大 (たとえば、Min、Max) の一部の関数でサポートされていません。 |
-| Boolean |なし |
-| DateTime |データの読み込み中には、値 1/300 秒 (3.33 ミリ秒) の整数倍日時分数の量子化します。 |
-| String |現在、最大 128 文字でもできます。 |
+| Double |Double.MaxValue と Double.MinValue 値が許可されていません。 NaN はサポートされていません。一部の関数では正の無限大と負の無限大がサポートされていません (例: Min、Max)。 |
+| ブール値 |なし |
+| DateTime |データの読み込み中に、日時分数の値を 1/300 秒 (3.33 ms) の整数倍に量子化します。 |
+| 文字列 |現在、最大 128 K 文字が許可されています。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI へのデータのプッシュに関する詳細
 
