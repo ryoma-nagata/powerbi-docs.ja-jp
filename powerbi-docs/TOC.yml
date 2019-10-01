@@ -477,7 +477,7 @@
               href: service-power-bi-get-started-third-party-apps.md
     - name: 方法
       items:
-        - name: ファイルからデータを取得
+        - name: ファイルからのデータの取得
           items:
             - name: ファイルからデータを取得
               href: service-get-data-from-files.md
@@ -1442,11 +1442,13 @@
           href: service-admin-power-bi-security.md
 - name: ガイダンス
   items:
-    - name: データフローのベスト プラクティス
-      href: service-dataflows-best-practices.md
+    - name: 概要
+      href: guidance/overview.md
     - name: スター スキーマとは
       href: guidance/star-schema.md
     - name: データ モデル サイズの縮小
       href: guidance/import-modeling-data-reduction.md
     - name: DIVIDE 関数と除算演算子 (/)
       href: guidance/dax-divide-function-operator.md
+    - name: データフローのベスト プラクティス
+      href: service-dataflows-best-practices.md
