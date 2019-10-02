@@ -697,6 +697,8 @@
               href: service-cognitive-services.md
             - name: Power BI での自動化 された機械学習 (プレビュー)
               href: service-machine-learning-automated.md
+        - name: データ系列
+          href: service-data-lineage.md
         - name: Power BI のページ分割されたレポート
           items:
             - name: ページ分割されたレポートを表示する
@@ -867,6 +869,8 @@
       items:
         - name: サポートされる言語と国/地域
           href: supported-languages-countries-regions.md
+        - name: サポートされているブラウザー
+          href: power-bi-browsers.md
     - name: リソース
       items:
         - name: ホワイトペーパー
