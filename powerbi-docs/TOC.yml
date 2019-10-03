@@ -873,16 +873,6 @@
           href: power-bi-browsers.md
     - name: リソース
       items:
-        - name: ホワイトペーパー
-          items:
-            - name: ホワイトペーパーの概要
-              href: whitepapers.md
-            - name: Power BI のセキュリティに関するホワイトペーパー
-              href: whitepaper-powerbi-security.md
-            - name: Power BI Premium のデプロイ
-              href: whitepaper-powerbi-premium-deployment.md
-            - name: Azure Active Directory B2B を使用して外部に Power BI を配布する
-              href: whitepaper-azure-b2b-power-bi.md
         - name: ビデオ
           href: videos.md
         - name: Web セミナー
@@ -1456,3 +1446,13 @@
       href: guidance/dax-divide-function-operator.md
     - name: データフローのベスト プラクティス
       href: service-dataflows-best-practices.md
+    - name: ホワイトペーパー
+      items:
+        - name: ホワイトペーパーの概要
+          href: whitepapers.md
+        - name: Power BI のセキュリティに関するホワイトペーパー
+          href: whitepaper-powerbi-security.md
+        - name: Power BI Premium のデプロイ
+          href: whitepaper-powerbi-premium-deployment.md
+        - name: Azure Active Directory B2B を使用して外部に Power BI を配布する
+          href: whitepaper-azure-b2b-power-bi.md
