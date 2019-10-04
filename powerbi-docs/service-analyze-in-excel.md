@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 5dbfa400f25f6981f7a73bffe1afad2acf735334
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: b04feaff983f2a4384fc87028355143264c6e6b1
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391904"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325509"
 ---
 # <a name="analyze-in-excel"></a>Excel で分析
 Excel を使用して Power BI にあるデータセットを表示したり、データセットと対話したりする必要が生じる場合があります。 **[Excel で分析]** を使用すれば、Power BI に存在するデータセットに応じて、表示や対話だけでなく、Excel 内で PivotTable、グラフ、スライサーの機能を活用できます。
@@ -25,11 +25,13 @@ Excel を使用して Power BI にあるデータセットを表示したり、�
 **[Excel で分析]** を使用するには、次のいくつかの要件があります。
 
 * **[Excel で分析]** は、Microsoft Excel 2010 SP1 以降でサポートされています。
+
 * Excel のピボット テーブルは、数値フィールドのドラッグ アンド ドロップでの集計をサポートしていません。 Power BI でのデータセットには、*メジャーを事前定義する必要があります*。
 * 一部の組織では、グループ ポリシーの規則により、必要な **[Excel で分析]** 更新プログラムを Excel にインストールできないことがあります。 更新プログラムをインストールできない場合は、管理者に問い合わせてください。
 * **[Excel で分析]** では、Power BI Premium にデータセットがあるか、またはユーザーが Power BI Pro ライセンスを持っている必要があります。 ライセンスの種類の機能の違いについては、「[Power BI features by license type](service-features-license-type.md)」 (Power BI のライセンスの種類別機能) を参照してください。 
 * ユーザーが基になるデータセットに対する読み取り権限を持っている場合、[Excel で分析] を使用してデータセットに接続できます。  ユーザーがこの権限を持つには、データセットを含むワークスペースのメンバーである、データセットを使用するレポートまたはダッシュボードを共有している、データセットを含むアプリへのアクセス許可を持っているなど、いくつかの方法があります。
 * **[Excel で分析]** は Power BI サービスの機能であり、Power BI Report Server または Power BI Embedded では使用できません。 
+* **[Excel で分析]** は、Microsoft Windows を実行しているコンピューターでのみサポートされます。
 
 ## <a name="how-does-it-work"></a>しくみ
 **Power BI** のデータセットまたはレポートに関連付けられた省略記号のメニュー (...) から **[Excel で分析]** を選択すると、Power BI によって .ODC ファイルが作成され、ブラウザーからお使いのコンピューターにダウンロードされます。

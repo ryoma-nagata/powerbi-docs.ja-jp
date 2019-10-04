@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/06/2019
-ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.date: 09/24/2019
+ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985726"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305674"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium のページ分割されたレポートとは
 
@@ -36,14 +36,13 @@ ms.locfileid: "69985726"
 
 1 つのページ分割されたレポートで、さまざまな異なるデータ ソースを使用できます。 Power BI レポートとは異なり、基になるデータ モデルはありません。 Power BI サービスでのページ分割されたレポートの初期リリースでは、レポート自体にデータ ソースとデータセットを埋め込みます。 現在のところ、共有データ ソースと共有データセットは使用できません。 ローカル コンピューター上のレポート ビルダーでレポートを作成します。 レポートでオンプレミスのデータに接続する場合は、レポートを Power BI サービスにアップロードした後、ゲートウェイを作成し、データ接続をリダイレクトする必要があります。 現時点で接続できるデータ ソースは次のとおりです。
 
-- Azure SQL Database と Data Warehouse
+- Azure SQL Database と Data Warehouse (Basic と oAuth 経由)
 - Azure Analysis Services (SSO 経由)
 - ゲートウェイ経由の SQL Server
 - ゲートウェイ経由の SQL Server Analysis Services
-- Power BI Premium データセット
+- Power BI データセット
 - Oracle
 - Teradata
-- 追加されたその他のソース
 
 ## <a name="design-your-report"></a>レポートをデザインする  
 
@@ -79,10 +78,10 @@ Power BI サービスのページ分割されたレポートに対して自分�
 最初のリリースでは、次のような他のいくつかの機能がサポートされていません。
 
 - レポート ページまたはビジュアルの Power BI ダッシュボードへのピン留め。 Power BI Report Server または Reporting Services のレポート サーバー上のオンプレミスのページ分割されたレポートから視覚エフェクトを Power BI ダッシュボードにピン留めすることは引き続き可能です。 詳しくは、[Reporting Services のアイテムの Power BI ダッシュボードへのピン留め](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)に関するページをご覧ください。
-- ドキュメント マップや表示/非表示ボタンなどの対話機能。
-- サブレポートとドリルスルー レポート。
+- ドキュメント マップ。
+- サブレポートとドリルスルー レポート。  ただし、ドリルスルー シナリオを実現する目的で、URL パラメーターとページ分割されたレポートを使用することを検討できます。
 - 共有データ ソースと共有データセット。
-- Power BI レポートからのビジュアル。
+
  
 ## <a name="next-steps"></a>次の手順
 

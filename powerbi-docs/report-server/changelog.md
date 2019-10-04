@@ -9,18 +9,43 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
-ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
+ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68940894"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325722"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
 この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
 
 新機能の詳細については、「[Power BI レポート サーバーの新機能](whats-new.md)」を参照してください。 
+
+## <a name="september-2019"></a>2019 年 9 月
+
+- **Power BI Report Server**          
+    - *バージョン 1.6.7206.38019 (ビルド 15.0.1102.597)、リリース日:2019 年 9 月 26 日*
+        - セキュリティ更新プログラム
+        - バグの修正
+           - ページ分割されたレポート
+             - IE と Edge の使用中に発生するアクセシビリティ問題の修正プログラム。
+             - 接続のテスト中に発生する SAP HANA の問題の修正プログラム。
+             - 電子メール アドレスの一覧を提供するときに発生する問題の修正プログラム。
+             - DirectQuery データソースと統合認証を使用する Power BI レポートの修正プログラム。
+             - スナップショットが有効になっているときに、ページ分割されたレポートを、フィルター パラメーターを指定してレンダリングするための修正プログラム。
+             - レポートの実行時、ストアド プロシージャが 2 回実行される問題の修正プログラム。
+             - Power BI Report Server を実行するようにカスタム サービス アカウントが構成されているとき、既定のサービス アカウントに SQL Server ログイン アクセス許可が与えられる問題の修正プログラム。
+             - モデルにアクセスすると、日本のタイム ゾーンで更新される問題の修正プログラム。
+             - 古いモデルで最新の情報に更新すると、レポートの新しいバージョンがアップロードされる問題の修正プログラム。
+             - '&' 文字が含まれるパラメーター値の修正プログラム。
+         - プログラミング
+             - Web API: /PowerBIReports({Id})/DataSources (PATCH) を更新し、接続文字列の更新を可能にしました。
+         
+- **Power BI Desktop (Power BI Report Server 用に最適化)**
+    - *バージョン:2.73.5586.821 (2019 年 9 月)、リリース日:2019 年 9 月 26 日* (新しいビルドと新しいバージョン)
+    - Power BI Report Server (2019 年 9 月) との接続に必要な変更が含まれます
+
 
 ## <a name="may-2019"></a>2019 年 5 月
 

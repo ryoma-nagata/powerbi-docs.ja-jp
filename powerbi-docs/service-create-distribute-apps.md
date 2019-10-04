@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751575"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305763"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI でアプリを発行する
 
@@ -190,6 +190,13 @@ Power BI で公式のパッケージ化コンテンツを作成し、*アプリ*
 アプリの利用者がアプリを開くと、標準の Power BI の左側のナビゲーション ウィンドウではなく、作成されたナビゲーションが表示されます。 アプリのナビゲーションでは、定義されたセクションにレポートとダッシュボードが一覧表示されます。 また、レポート名だけでなく、各レポートの個々のページも一覧表示されます。
 
 ![ナビゲーションを使用するアプリ](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>考慮事項と制限事項
+アプリを公開するときに注意すべき事項:
+
+* アプリのアクセス リストには、最大 100 のユーザーまたはグループを含めることができます。 ただし、アプリへのアクセス権は、100 を超えるユーザーに付与できます。 これを行うには、必要なすべてのユーザーを含む 1 つまたは複数のユーザー グループを使用します。
+* 新しいワークスペース エクスペリエンスでは、アプリのアクセス リストに追加されたユーザーにワークスペース経由でアプリへのアクセス権が既に与えられている場合、そのユーザーはアプリのアクセス リストに表示されません。  
+
 
 ## <a name="next-steps"></a>次の手順
 * [ワークスペースの作成](service-create-workspaces.md)

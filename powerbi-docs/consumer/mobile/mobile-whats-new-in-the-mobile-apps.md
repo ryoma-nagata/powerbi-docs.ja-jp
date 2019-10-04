@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: fe8f21bbbd0886b8ff4046f744884e53f8822912
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164505"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327755"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -22,6 +22,13 @@ ms.locfileid: "71164505"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="september-2019"></a>2019 年 9 月
+
+### <a name="support-for-custom-app-navigation-ios-and-android"></a>カスタム アプリ ナビゲーションのサポート (iOS と Android)
+
+カスタム アプリ ナビゲーションのサポートが追加されました。 これで、Power BI Mobile でアプリを開くと、アプリの作成者によって作成されたカスタム ナビゲーション エクスペリエンスが使用できるようになります。 アプリのナビゲーションはコンテンツ別に整理できます。また、リンクや折りたたみ可能なセクションなど、新しい項目を含めることができます。
+カスタム ナビゲーションの詳細は[こちら](https://powerbi.microsoft.com/en-us/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/)を参照してください。
 
 ## <a name="august-2019"></a>2019 年 8 月
 
@@ -296,11 +303,11 @@ iPad アプリの Power BI レポートに更新ボタンが追加されまし�
 
 #### <a name="report-favorites"></a>レポートのお気に入り
 
-レポートにお気に入りのタグを付け、**[お気に入り]** ページに表示します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
+レポートにお気に入りのタグを付け、 **[お気に入り]** ページに表示します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 
 #### <a name="view-shared-reports"></a>共有レポートを表示する
 
-誰かとレポートを共有すると、ダッシュボードの他に、**[共有アイテム]** ページにレポートが一覧表示されます。
+誰かとレポートを共有すると、ダッシュボードの他に、 **[共有アイテム]** ページにレポートが一覧表示されます。
 
 #### <a name="improved-hyperlink-support"></a>ハイパーリンク サポートの改善
 
@@ -416,7 +423,7 @@ Power BI コンテンツの編成については[ここ](mobile-apps-quickstart-
 #### <a name="ios-devices"></a>iOS デバイス
 **Q&A のプレビューによるデータに関する質問** 
 
-Q&A を使って自分の言葉でデータに関する質問をすると、Power BI が答えてくれます。 Q&A は、Power BI サービス (http://powerbi.com) で既に提供されています。 また、[iPhone または iPad のモバイル アプリで使用する](mobile-apps-ios-qna.md)こともできます。
+Q&A を使って自分の言葉でデータに関する質問をすると、Power BI が答えてくれます。 Q&A は、Power BI サービス (http://powerbi.com ) で既に提供されています。 また、[iPhone または iPad のモバイル アプリで使用する](mobile-apps-ios-qna.md)こともできます。
 
 **複数の SSRS サーバーへの接続** 
 

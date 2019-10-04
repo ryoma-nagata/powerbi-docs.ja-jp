@@ -1,6 +1,6 @@
 ---
 title: Power BI 管理者の役割について
-description: Power BI サービス内にインポートしたデータセットと DirectQuery の行レベルのセキュリティを構成する方法。
+description: この記事では、Power BI サービス管理者ロールについて説明し、それを組織で使用する方法について説明します。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,18 +10,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2185d7a9c91ed014cf0bed29d6393be0e40556a8
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074504"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256436"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI サービス管理者ロールについて
 
 組織で Power BI サービス管理者ロールを使用する方法について説明します。 このロールのユーザーは、Power BI テナントとその管理機能を完全に制御できます (ライセンス以外)。
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/PQRbdJgEm3k?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Office 365 の完全な管理アクセス権を付与することなく、Power BI 管理ポータルにアクセスできるようにする必要があるユーザーには、Power BI サービス監理者ロールを割り当てることができます。
 
@@ -39,7 +37,7 @@ Power BI サービス管理者ロールでは、次の機能を使用できま�
 
 Microsoft 365 管理センターでユーザーを Power BI 管理者ロールに割り当てるには、以下の手順を行います。
 
-1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)で、**[ユーザー]** > **[アクティブなユーザー]** の順に選択します。
+1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)で、 **[ユーザー]**  >  **[アクティブなユーザー]** の順に選択します。
 
     ![Microsoft 365 管理センター](media/service-admin-role/powerbi-admin-users.png)
 
@@ -49,11 +47,11 @@ Microsoft 365 管理センターでユーザーを Power BI 管理者ロール�
 
     ![ロールを編集する](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. **[カスタム管理者]** > **[Power BI サービス管理者]** の順に選択します。
+1. **[カスタム管理者]**  >  **[Power BI サービス管理者]** の順に選択します。
 
     ![Power BI サービス管理者](media/service-admin-role/powerbi-admin-role.png)
 
-1. **[保存]** を選択し、**[閉じる]** を選択します。
+1. **[保存]** を選択し、 **[閉じる]** を選択します。
 
 そのユーザー名の役割に対する **[Power BI service administrator]** \(Power BI サービス管理者) がリストされます。
 

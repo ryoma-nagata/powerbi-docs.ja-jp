@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 54713c9c978554521d68aeb7b4c25d681ddb3d69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: bbd9a3884b3b6b0cd235471b0746f605e3872aff
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187461"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325747"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
 
@@ -30,28 +30,27 @@ Power BI Report Server 向けに最適化された Power BI Desktop のバージ
 
     ![Web ポータルから Power BI Desktop をダウンロードする](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    直接移動または[Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (最適化の Power BI Report Server - 月 2019年)、Microsoft ダウンロード センター。
+    あるいは、[Power BI Report Server](https://powerbi.microsoft.com/report-server/) ホーム ページに進み、 **[高度なダウンロード オプション]** を選択します。
 
 2. ダウンロード センター ページで、 **[ダウンロード]** を選択します。
 
 3. 使用しているコンピューターに適したものを以下から選択します。 
 
     - **PBIDesktopRS.msi** (32 ビット バージョン)
-
     - **PBIDesktopRS_x64.msi** (64 ビット バージョン)
 
-1. インストーラーをダウンロードした後は、Power BI Desktop (月 2019) セットアップ ウィザードを実行します。
+1. インストーラーをダウンロードしたら、Power BI Desktop (2019 年 9 月) のセットアップ ウィザードを実行します。
 
-2. インストールの最後に、次のように選択します。 **Power BI Desktop を起動**します。
+2. インストールの最後に、 **[Launch Power BI Desktop]\(Power BI Desktop を起動する\)** を選択します。
 
     Power BI Desktop が自動的に起動し、すぐに使えます。
 
 ## <a name="verify-youre-using-the-correct-version"></a>正しいバージョンを使用していることを確認する
-正しい Power BI Desktop を使用しているかどうかは、Power BI Desktop の起動画面またはタイトル バーを見れば容易に確認できます。 タイトル バーには、リリースの月と年が示されます。 また、Power BI のロゴの色の表示も反転し、黄色の背景に黒の前景ではなく、黒の背景に黄色の前景となります。
+正しい Power BI Desktop を使用しているかどうかは、Power BI Desktop の起動画面またはタイトル バーを見れば容易に確認できます。 適切なバージョンでは、タイトル バーに **Power BI Desktop (2019 年 9 月)** と表示されます。 また、Power BI のロゴの色の表示も反転し、黄色の背景に黒の前景ではなく、黒の背景に黄色の前景となります。
 
-![Power BI Report Server 向けに最適化された Power BI Desktop のタイトル バー](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2019.png)
+![Power BI Desktop 2019 年 9 月](media/install-powerbi-desktop/power-bi-report-server-desktop-sept-2019.png)
 
-Power BI サービスの Power BI Desktop バージョンの場合、タイトル バーに月と年は示されません。
+Power BI サービスの Power BI Desktop のバージョンの場合、タイトル バーに月と年は示されません。
 
 ## <a name="file-extension-association"></a>ファイル拡張子の関連付け
 Power BI Desktop と Power BI Report Server 向けに最適化された Power BI Desktop を同じコンピューターにインストールした場合、最後にインストールした Power BI Desktop が .pbix ファイルと関連付けられます。 したがって、.pbix ファイルをダブルクリックすると、最後にインストールした Power BI Desktop が起動されます。
@@ -60,15 +59,15 @@ Power BI Desktop をインストールし、次に Power BI Report Server 向け
 
 最初に使用したい Power BI Desktop のバージョンを常に開くことができます。 その後、Power BI Desktop からファイルを開きます。
 
-Power BI レポートを Power BI Report Server 内から編集または、web ポータルから新しい Power BI レポートの作成は、常に正しいバージョンの Power BI Desktop を開きます。
+Power BI Report Server 内で Power BI レポートを編集したり、Web ポータルから新しい Power BI レポートを作成すると、適切なバージョンの Power BI Desktop が常に開きます。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
-Power BI Report Server、Power BI サービス (http://app.powerbi.com))、Power BI モバイル アプリの Power BI レポートは、ほぼ同じように機能しますが、いくつかの機能は異なります。
+Power BI Report Server、Power BI サービス (http://app.powerbi.com) )、Power BI モバイル アプリの Power BI レポートは、ほぼ同じように機能しますが、いくつかの機能は異なります。
 
 ### <a name="in-a-browser"></a>ブラウザー
 
-Power BI レポート サーバーのレポートは、カスタム ビジュアルを含むほぼすべての視覚エフェクトをサポートします。 Power BI レポート サーバーのレポートは、次をサポートしません。
+Power BI Report Server のレポートでは、カスタムのビジュアルなど、ほぼすべての視覚化がサポートされます。 Power BI レポート サーバーのレポートは、次をサポートしません。
 
 * R ビジュアル
 * ArcGIS マップ
@@ -89,13 +88,13 @@ Power BI レポート サーバーのレポートは、Power BI モバイル ア
 * ArcGIS マップ
 * カスタム ビジュアル
 * 階層リンク
-* Geo フィルタ リングまたはバー コード
+* geo フィルタリングまたはバー コード
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>以前のバージョンの Power BI Report Server の Power BI Desktop
 
-ご利用のレポート サーバーが以前のバージョンである場合、対応するバージョンの Power BI Desktop が必要です。 以前のバージョンをダウンロードするリンクを次に示します。
+ご利用のレポート サーバーが以前のバージョンである場合、対応するバージョンの Power BI Desktop が必要です。 このリンクから前のバージョンをダウンロードできます。
 
-- Microsoft Power BI Desktop ([最適化の Power BI Report Server - 2019 年 1 月](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop ([Power BI Report Server (2019 年 1 月) 向けに最適化](https://go.microsoft.com/fwlink/?linkid=2055039))
 
 ## <a name="next-steps"></a>次の手順
 

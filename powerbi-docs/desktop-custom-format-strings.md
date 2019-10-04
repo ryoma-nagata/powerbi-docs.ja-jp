@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a81aa47fb7945b2fd76d03a6bdde7712304bdc
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919603"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305731"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop でカスタム書式設定文字列を使用する
 
@@ -148,13 +148,14 @@ ms.locfileid: "70919603"
 | ( **E- E+ e- e+** ) | 科学的表記形式。 書式設定式で、E-、E+、e-、e+ の右側に少なくとも 1 つの数字プレースホルダー (**0** または **#** ) がある場合、数値は科学的な形式で表示され、E または e が数値とその指数の間に挿入されます。 右側の桁プレースホルダーの数によって、指数部の桁数が決まります。 負の指数の横にマイナス記号を付けるには、E- または e- を使用します。 負の指数の横にマイナス記号を付け、正の指数の横にプラス記号を付けるには、E+ または e+ を使用します。 |
 | **- + $**  ( ) | リテラル文字を表示します。 一覧に含まれていない文字を表示するには、その文字の前に円記号 (\) を付けるか、または二重引用符 (&quot; &quot;) で囲みます。 |
 | ( * *\** ) | 書式設定文字列内の次の文字を表示します。 リテラル文字として特別な意味を持つ文字を表示するには、その文字の前に円記号 (\) を付けます. 円記号自体は表示されません。 円記号の使用は、次の文字を二重引用符で囲むことと同じです。 円記号を表示するには、2 つの円記号 (\\) を使用します。 リテラル文字として表示できない文字の例としては、日付書式設定と時刻書式設定の文字 (a、c、d、h、m、n、p、q、s、t、w、y、/、:)、数値書式設定の文字 (#、0、%、E、e、コンマ、ピリオド)、文字列書式設定の文字 (@、&amp;、\&lt;、\&gt;、!) があります。 |
-| (&quot;ABC&quot;) | 二重引用符 (&quot; &quot;) の内側にある文字列を表示します。 コード内から**書式設定**に文字列を含めるには、**Chr(34)** を使用してテキストを囲む必要があります (34 は引用符 (&quot;) の文字コード)。 |
+| (&quot;ABC&quot;) | 二重引用符 (&quot; &quot;) の内側にある文字列を表示します。 |
 
 
 ## <a name="next-steps"></a>次の手順
 次の記事にも興味をもたれるかもしれません。
 
 * [VBA の書式設定文字列](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [Power BI Desktop のメジャー](desktop-measures.md)
+* [Power BI Desktop でのデータ型](desktop-data-types.md)
 * [テーブルでの条件付き書式設定](desktop-conditional-table-formatting.md)
-* [Power BI Desktop の式に基づくタイトル](desktop-conditional-format-visual-titles.md)
 

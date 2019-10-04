@@ -1,6 +1,6 @@
 ---
 title: Power BI サービスを開いたときに表示するダッシュボードを選択する
-description: Power BI サービスでおすすめのダッシュボードを作成する方法について説明します
+description: Power BI サービスでおすすめのダッシュボードを作成する方法についてのドキュメント
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -11,60 +11,58 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 7f7f488891ddbdac1f377d25cf32c2eb0468c291
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141272"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256306"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI サービスのおすすめのダッシュボード
+多くのユーザーには、他のダッシュボードより頻繁にアクセスする 1 つのダッシュボードがあります。 それは、ビジネスの運営に使用するダッシュボードかもしれません。 または、多くの異なるダッシュボードとレポートから取られたタイルの集合体が含まれるダッシュボードの場合もあります。
+
 ## <a name="create-a-featured-dashboard"></a>おすすめのダッシュボードを作成する
-多くのユーザーには、他のダッシュボードより頻繁にアクセスする 1 つのダッシュボードがあります。  それはビジネスの運営に使用するダッシュボードかもしれません。また、多くの異なるダッシュボードとレポートから取られたタイルの集合体が含まれるダッシュボードであることもあります。
+ダッシュボードを "*おすすめ*" に選択すると、Power BI サービスを開くたびに、そのダッシュボードが表示された状態で開きます。 
 
 ![おすすめに設定アイコン](./media/end-user-featured/power-bi-dropdown.png)
 
-ダッシュボードを*おすすめ*に選択すると、Power BI サービスを開くたびに、そのダッシュボードが表示され開きます。  
+複数のダッシュボードを選んで、お気に入りに設定することもできます。 「[お気に入りのダッシュボード](end-user-favorite.md)」を参照してください。
 
-複数のダッシュボードを選んで、"*お気に入り*" に設定することもできます。 「[お気に入りのダッシュボード](end-user-favorite.md)」を参照してください。
+おすすめのダッシュボードを設定していない場合、Power BI では、最後に使用したダッシュボードか、または Power BI の **[ホーム]** が開きます。 
 
-おすすめのダッシュボードをまだ設定していない場合、Power BI では、最後に使用したダッシュボードか Power BI ホームが開きます。  
-
-### <a name="to-set-a-dashboard-as-featured"></a>ダッシュボードを**おすすめ**として設定するには
-Amanda がおすすめのダッシュボードを作成するビデオを参照してください。その後、ビデオ下部にある指示に従って、自分で試してください。
+### <a name="set-a-dashboard-as-featured"></a>ダッシュボードをおすすめとして設定する
+Amanda がおすすめのダッシュボードを作成するビデオを参照してください。 その後、手順に従って自分で試してみてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
-
-1. *おすすめ*に設定するダッシュボードを開きます。 
-2. 上部のメニューバーで、省略記号 (...) を選択し、 **[おすすめに設定]** を選択します。  
+1. おすすめに設定するダッシュボードを開きます。 
+2. 上部のメニューバーで、省略記号 (...) を選択し、 **[おすすめに設定]** を選択します。 
    
     ![おすすめに設定アイコン](./media/end-user-featured/power-bi-dropdown.png)
 3. 選択内容を確認します。
    
-    ![おすすめに設定ダッシュボード](./media/end-user-featured/power-bi-featured-confirm.png)
+    ![おすすめのダッシュボードを設定する](./media/end-user-featured/power-bi-featured-confirm.png)
 
 ## <a name="change-the-featured-dashboard"></a>おすすめのダッシュボードを変更する
-もちろん、後で考えが変わった場合、新しいダッシュボードをおすすめのダッシュボードとして設定できます。
+後で考えが変わった場合、新しいダッシュボードをおすすめのダッシュボードとして設定できます。
 
-1. 前述の手順 1 と 2 を実行します。
+1. 前の手順 1 と 2 に従います。
    
     ![おすすめのダッシュボードの変更ウィンドウ](./media/end-user-featured/power-bi-change-feature.png)
-2. **[おすすめに設定]** を選択します。 ダッシュボードをおすすめにしない場合、ダッシュボードは Power BI から削除されません。  
+2. **[おすすめのダッシュボードに設定]** を選択します。 ダッシュボードをおすすめから解除しても、Power BI から削除されることはありません。 
    
     ![成功メッセージ](./media/end-user-featured/power-bi-unfeature-new.png)
 
 ## <a name="remove-the-featured-dashboard"></a>おすすめのダッシュボードを削除する
 おすすめのダッシュボードを 1 つも設定しない場合に、ダッシュボードのおすすめを解除する方法を次に示します。
 
-1. 現在おすすめに設定しているダッシュボードを開きます。
+1. 現在のおすすめのダッシュボードを開きます。
 2. 上部のメニューバーで、省略記号 (...) を選択し、 **[おすすめをオフにする]** を選択します。
 
-    ![おすすめのダッシュボードをオフにする操作が選択されました](./media/end-user-featured/power-bi-unfeature-newer.png)
+    ![おすすめのダッシュボードをオフにする操作を選択](./media/end-user-featured/power-bi-unfeature-newer.png)
    
 ## <a name="next-steps"></a>次の手順
-[ダッシュボードをお気に入りにする](end-user-favorite.md)
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+- [ダッシュボードをお気に入りにする](end-user-favorite.md)
+- 他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)を利用してください。
 

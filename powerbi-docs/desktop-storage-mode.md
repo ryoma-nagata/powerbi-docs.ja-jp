@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841315"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327716"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop のストレージ モード
 
 Microsoft Power BI Desktop では、テーブルの*ストレージ モード*を指定することができます。 *ストレージ モード*では、Power BI Desktop でレポートのテーブル データをメモリ内にキャッシュするかどうかを制御することができます。 
 
-![Power BI Desktop のストレージ モード](media/desktop-storage-mode/storage-mode_01.png)
+![Power BI Desktop のストレージ モード](media/desktop-storage-mode/storage-mode-01.png)
 
 ストレージ モードを設定すると、多くの利点があります。 ご利用のモデルで、各テーブルのストレージ モードを個別に設定できます。 これにより、単一データセットが有効になり、次の利点が得られます。
 
@@ -48,13 +48,10 @@ Power BI Desktop のストレージ モード設定は、次の 3 つの関連�
 
 ## <a name="use-the-storage-mode-property"></a>ストレージ モード プロパティを使用する
 
-ストレージ モードは、モデルの各テーブルに設定できるプロパティです。 ストレージ モードを設定するには、 **[フィールド]** ウィンドウで、プロパティを設定するテーブルを右クリックし、 **[プロパティ]** を選択します。
+ストレージ モードは、モデルの各テーブルに設定できるプロパティです。 ストレージ モードを設定するか、その現在の設定を表示するには、 **[モデル]** ビューで、プロパティを表示または設定するテーブルを選択し、 **[プロパティ]** ウィンドウを選択し、 **[詳細]** セクションを展開し、 **[ストレージ モード]** ドロップ ダウンを展開します。
 
-![コンテキスト メニューの [プロパティ] コマンド](media/desktop-storage-mode/storage-mode_02.png)
+![コンテキスト メニューの [プロパティ] コマンド](media/desktop-storage-mode/storage-mode-02.png)
 
-現在のプロパティは、テーブルの **[フィールド プロパティ]** ウィンドウ内の **[ストレージ モード]** ドロップダウン リストに表示されます。 そこで現在のストレージ モードを確認したり、変更したりすることができます。
-
-![テーブルのストレージ モードを設定する](media/desktop-storage-mode/storage-mode_03.png)
 
 ストレージ モードには、次の 3 つの値があります。
 
@@ -77,11 +74,11 @@ Power BI Desktop のストレージ モード設定は、次の 3 つの関連�
 ## <a name="propagation-of-dual"></a>デュアルの伝達
 次の単純なモデルを考えてみましょう。このモデルでは、すべてのテーブルがインポートと DirectQuery をサポートする単一のソースのテーブルです。
 
-![ストレージ モードのリレーションシップ ビューの例](media/desktop-storage-mode/storage-mode_04.png)
+![ストレージ モードのリレーションシップ ビューの例](media/desktop-storage-mode/storage-mode-04.png)
 
 このモデルのすべてのテーブルが最初は DirectQuery だとしましょう。 *SurveyResponse* テーブルの**ストレージ モード**を [インポート] に変更すると、次の警告ウィンドウが表示されます。
 
-![ストレージ モードの警告ウィンドウ](media/desktop-storage-mode/storage-mode_05.png)
+![ストレージ モードの警告ウィンドウ](media/desktop-storage-mode/storage-mode-05.png)
 
 データセットにある弱いリレーションシップの数を減らし、パフォーマンスを向上させるために、ディメンション テーブル (*Customer* (顧客)、*Geography* (地域)、*Date* (日付)) を **[デュアル]** に設定する場合があります。 通常、弱いリレーションシップは、結合のロジックをソース システムにプッシュできない 1 つ以上の DirectQuery テーブルと関係しています。 **[デュアル]** テーブルは DirectQuery、インポートのどちらとしても動作できるため、これを回避するのに役立ちます。
 
@@ -123,15 +120,15 @@ Power BI Desktop のストレージ モード設定は、次の 3 つの関連�
 
 前の例を続けて、次のクエリでは、**デュアル** モードの *Date* (日付) テーブルの列のみを参照します。 そのため、クエリはキャッシュにヒットします。
 
-![ストレージ モード診断のスクリプト](media/desktop-storage-mode/storage-mode_06.png)
+![ストレージ モード診断のスクリプト](media/desktop-storage-mode/storage-mode-06.png)
 
 次のクエリは、**DirectQuery** モードの *Sales* (売上) テーブルの列のみを参照します。 そのため、キャッシュにはヒット*しません*。
 
-![ストレージ モード診断のスクリプト](media/desktop-storage-mode/storage-mode_07.png)
+![ストレージ モード診断のスクリプト](media/desktop-storage-mode/storage-mode-07.png)
 
 次の例は、両方の列を結合する興味深いクエリです。 このクエリはキャッシュにヒットしません。 最初は、キャッシュから *CalendarYear* 値を取得し、ソースから *SalesAmount* 値を取得した後で、結果を組み合わせることを考えるかもしれませんが、この方法はソース システムに SUM/GROUP BY 操作を送信するよりも効率的ではありません。 操作がソースにプッシュされた場合、返される行数ははるかに少なくなります。 
 
-![ストレージ モード診断のスクリプト](media/desktop-storage-mode/storage-mode_08.png)
+![ストレージ モード診断のスクリプト](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > キャッシュされたテーブルとキャッシュされていないテーブルを組み合わせた場合、この動作は、[Power BI Desktop での多対多カーディナリティのリレーションシップ](desktop-many-to-many-relationships.md)とは異なります。
@@ -145,7 +142,7 @@ Power BI Desktop のストレージ モード設定は、次の 3 つの関連�
 ## <a name="data-view"></a>データ ビュー
 データセット内の少なくとも 1 つのテーブルの**ストレージ モード**が **[インポート]** または **[デュアル]** に設定されている場合、[データ ビュー] タブが表示されます。
 
-![Power BI Desktop のデータ ビュー](media/desktop-storage-mode/storage-mode_09.png)
+![Power BI Desktop のデータ ビュー](media/desktop-storage-mode/storage-mode-03.png)
 
 **[データ ビュー]** で選択されている場合、**デュアル** テーブルと**インポート** テーブルにはキャッシュ データが表示されます。 DirectQuery テーブルにはデータが表示されず、DirectQuery テーブルを表示できないことを示すメッセージが表示されます。
 

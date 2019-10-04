@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 09/26/2019
 ms.author: maggies
-ms.openlocfilehash: 2401064f1f7f3be63c23d72e79987784e1ec7049
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ec1aab13955a4c34861a3f0d8dd39b6c77607696
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187500"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325660"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server の Power BI レポートの作成
-Power BI サービス (https://powerbi.com)) のクラウドで Power BI レポートを格納する場合と同じように、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで格納して管理することができます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
+Power BI サービス (https://powerbi.com) ) のクラウドで Power BI レポートを格納する場合と同じように、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで格納して管理することができます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
 
 ![Web ポータル上の Power BI レポート](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
@@ -31,7 +31,7 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
 
     ![Web ポータルから Power BI Desktop をダウンロードする](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    直接移動または[Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (最適化の Power BI Report Server - 月 2019年)、Microsoft ダウンロード センター。
+    あるいは、[Power BI Report Server](https://powerbi.microsoft.com/report-server/) ホーム ページに進み、 **[高度なダウンロード オプション]** を選択します。
 
 2. ダウンロード センター ページで、 **[ダウンロード]** を選択します。
 
@@ -41,13 +41,13 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
 
     - **PBIDesktopRS_x64.msi** (64 ビット バージョン)
 
-4. インストーラーをダウンロードした後は、Power BI Desktop (月 2019) セットアップ ウィザードを実行します。
+4. インストーラーをダウンロードしたら、Power BI Desktop (2019 年 9 月) のセットアップ ウィザードを実行します。
 
 2. インストールの最後に、 **[Start Power BI Desktop now]** \(今すぐ Power BI Desktop を起動する\) をオンにします。
    
-    Power BI Desktop が自動的に起動し、すぐに使えます。 "Power BI Desktop (月 2019)"がタイトル バーのために、適切なバージョンを作成するを指定できます。
+    Power BI Desktop が自動的に起動し、すぐに使えます。 適切なバージョンでは、タイトル バーに **Power BI Desktop (2019 年 9 月)** と表示されます。
 
-    ![Power BI Desktop が 2019年バージョン](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2019.png)
+    ![Power BI Desktop 2019 年 9 月](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
 
 3. Power BI Desktop に慣れていない場合は、[ようこそ] 画面のビデオをご覧になることをお勧めします。
    
@@ -61,7 +61,7 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
     または **[ホーム]** タブで **[データの取得]** を選択します。
 2. データ ソースを選びます (この例では **Analysis Services**)。
    
-    ![データ ソースの選択](media/quickstart-create-powerbi-report/report-server-get-data-ssas.png)
+    ![データ ソースの選択](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
 3. **[サーバー]** を入力し、必要に応じて **[データベース]** も入力します。 **[ライブ接続]** が選択されていることを確認し、 **[OK]** をクリックします。
    
     ![サーバー名](media/quickstart-create-powerbi-report/report-server-ssas-server-name.png)

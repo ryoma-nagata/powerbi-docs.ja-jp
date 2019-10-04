@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1622e06cd7aa394d384954b393d1e547e87df10a
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564929"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305670"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium 容量を再起動する
 
@@ -31,7 +31,7 @@ Power BI では、Premium 容量の利用者をこのような問題から守る
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>再起動プロセスは安全ですか。 データを失ったりしませんか。
 
-容量に保存されているデータ、定義、レポート、ダッシュボードはすべて、再起動後も前の状態を完全に維持しています。 容量を再起動すると、進行中の定期更新や臨時更新は停止します。 サービスが、容量が使用可能な場合に、更新を再試行しようとするとします。 ユーザーが容量を操作していた場合、未保存の作業は失われます。 再起動の完了後、ブラウザーを更新する必要があります。
+容量に保存されているデータ、定義、レポート、ダッシュボードはすべて、再起動後も前の状態を完全に維持しています。 容量を再起動すると、進行中の定期更新や臨時更新は停止します。 このサービスでは、容量が利用できるとき、更新が再試行されます。 ユーザーが容量を操作していた場合、未保存の作業は失われます。 再起動の完了後、ブラウザーを更新する必要があります。
 
 ## <a name="how-do-i-restart-a-capacity"></a>容量を再起動する方法は?
 

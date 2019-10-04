@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: 26dde078ce0b237779660c44b2843a645e4d1a47
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187325"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325569"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
-新しい Power BI Report Server および Power BI Report Server 用に最適化された Power BI Desktop の新機能について説明します。 この記事は主要な機能領域を網羅しており、新しいアイテムがリリースされるたびに更新されます。
+Power BI Report Server と Power BI Report Server 向けに最適化された Power BI Desktop の新機能について説明します。 この記事は主要な機能領域を網羅しており、新しいリリースのたびに更新されます。
 
 関連するPower BI の最新情報については、以下を参照してください。
 
@@ -26,77 +26,132 @@ ms.locfileid: "66187325"
 * [Power BI Desktop の新機能](../desktop-latest-update.md)
 * [Power BI 用モバイル アプリの新機能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>5 月 2019:Power BI Report Server 向け power BI Desktop
+## <a name="september-2019"></a>2019 年 9 月
 
-参照してください、 [Power BI Report Server が 2019年](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/)詳細については、すべての新機能に関するブログの投稿。
+すべての新機能の詳細については、「[Power BI Report Server September 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/)」というブログ記事を参照してください。
 
-リリースの主な特徴を次に示します。
+Power BI Report Server の 2019 年 9 月の更新には、多くの Power BI レポート機能が含まれています。 特に重要な機能には次のものがあります。
 
-### <a name="performance-analyzer"></a>パフォーマンス アナライザー 
+- **スライサー用のビジュアルレベル フィルター** スライサーにビジュアルレベル フィルターを追加できます。 他のビジュアルレベル フィルターと同じように動作します。スライサー自体をフィルタリングし、他のビジュアルはフィルタリングされません。 このフィルターは、空白を除外するためや、メジャー フィルターを使用する場合に便利です。
+- **テーブルとマトリックスのためのアイコン セット** KPI アイコンを利用することで、Excel のアイコン セットと同じように、テーブルとマトリックスにさまざまなアイコン セットを表示するためのルールを設定できます。
+- **ビジュアルのグループ化** PowerPoint のように、ビジュアル、図形、テキスト ボックス、画像、ボタンをグループにし、1 つのレポート ページにまとめることができるようになりました。 オブジェクトをグループにまとめると、まとめて移動させたり、サイズを変更したりできます。 グループ化すると、ページごとにたくさんのオブジェクトからなる層が形成され、レポートでの作業が簡単になります。
+- **新しい既定のテーマ** Microsoft では、新しいテーマの JSON オプションに合うように、レポートに利用できるテーマを更新し、新しいレポートの既定のテーマを変更しています。 新しい既定のテーマは Microsoft のデザイン言語との相性が良く、ビジュアルのための最良のデザイン手法に従います。 
+- **新しくなったウィンドウ デザイン** インターフェイスの大部分を新しくしました。 すべてのウィンドウ、フッター、ビュー スイッチャーを明るい色に変更し、余白設定を変更し、新しいアイコンを導入しました。 この新しいデザインは、インターフェイス全体を新しくするための最初の一歩です。
 
-レポートは、予想よりも遅く、実行する場合は、Power BI Desktop で Performance Analyzer をお試しください。 を起動すると、レポートで行うすべてのアクションに関する情報を含むログ ファイルを作成します。 詳細をご覧ください、 [Performance Analyzer](../desktop-performance-analyzer.md)します。
-
-### <a name="new-modeling-view"></a>新しいビューをモデリング
-
-Power BI Desktop で新しいモデリング ビューでは、表示し、多数のテーブルを含む複雑なデータセットを使用します。 ハイライトは、複数のダイアグラムのレイアウトを含めるし、一括列、メジャー、およびテーブルの編集します。 詳細をご覧ください[ビューをモデリング](../desktop-modeling-view.md)します。
-
-### <a name="accessible-visual-interaction"></a>アクセス可能なビジュアルの相互作用
-
-キーボード ナビゲーションを使用して組み込みのビジュアルのさまざまなデータ ポイントを今すぐアクセスできます。 詳細をご覧ください[Power BI レポートでのユーザー補助](../desktop-accessibility.md)します。
-
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>条件付き書式のタイトルと web URL アクション
-
-Power BI レポートは対話型です。 レポートのタイトルを動的にレポートの現在の状態を反映するようになることをお合理的です。 同じ式バインディングの書式を使用する、ボタン、図形、およびイメージの Url を動的にします。 詳細をご覧ください[タイトルの式に基づく](../desktop-conditional-format-visual-titles.md)します。
-
-### <a name="cross-highlight-by-axis-labels"></a>軸ラベルでクロス強調表示
-
-ビジュアル内のデータ ポイントを選択するように、ビジュアル、ページの他の要素をクロス強調表示をで軸のカテゴリのラベルを選択します。 詳細をご覧ください[クロス強調表示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)します。
-
-### <a name="all-the-new-features"></a>すべての新機能
-
-すべての新機能の一覧を次に示します。
+機能の完全な一覧は次のようになります。 
 
 ### <a name="reporting"></a>レポート
 
-- 折れ線グラフ内の 1 つのポイントでクロス強調表示 
-- タイトルの折り返し 
-- 既定のビジュアルの相互作用をクロス フィルター処理松に更新します。
-- ビジュアルの罫線の角が丸い 
-- 1 つ選択スライサー  
-- Bing マップのヒート マップのサポート  
-- 軸ラベルでクロス強調表示  
-- 既定のツールヒントが書式設定  
-- 静的な web のボタン、図形、イメージの URL をサポートします。  
-- ページの配置オプション   
-- 選択 ウィンドウの改良  
-- アクセス可能なビジュアルの相互作用  
-- 条件付きビジュアルのタイトルの書式設定  
-- 条件付きのボタン、図形、およびイメージの web URL アクションの書式設定
-- パフォーマンス アナライザー ウィンドウ
-- テーブルとマトリックスのキーボード ナビゲーション
-- 行のデータ ラベル位置コントロール
-- KPI ビジュアル インジケーター テキスト コントロールのサイズ
+- 新しくなったウィンドウ デザイン
+- スライサー用のビジュアル レベル フィルター
+- パフォーマンス アナライザー ウィンドウの並べ替え
+- ビジュアル ヘッダー ツールヒント
+- テーブルとマトリックスの合計ラベルのカスタマイズ
+- 階層スライサーのスライサー同期のサポート
+- ビジュアル間で一貫性のあるフォント サイズ
+- テーブルとマトリックスのアイコン セット
+- ルールによる条件付き書式設定のパーセントのサポート
+- 新しいフィルター ウィンドウが一般公開されました
+- 散布図上で再生軸を使用する場合のデータ色のサポート
+- 相対日付とドロップダウン スライサーを使用した場合のパフォーマンスの向上
+- ビジュアルのグループ化
+- テーマでの色とテキストのクラス
+- 新しい既定のテーマ
 
 ### <a name="analytics"></a>分析
 
-- 今すぐ階層として日付を表示することが一般提供開始  
+- カスタム書式設定文字列
+- 書式設定オプションの条件付き書式の更新
+
+    - ビジュアルの背景とタイトルの色
+    - カードの色
+    - ゲージの塗りつぶしと色
+    - 代替テキスト
+    - 罫線の色
+
+- 条件付き書式の警告
+- ドリルスルー探索機能の向上
+- 新しい DAX 式:REMOVEFILTERS と CONVERT
+- 新しい == DAX 比較演算子
+
+### <a name="data-preparation"></a>データ準備
+
+- M Intellisense の改善
+- 新しい変換:位置による列の分割
+- データ プロファイルからクリップボードへのコピー
+
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019 年 5 月:Power BI Report Server 向け Power BI Desktop
+
+すべての新機能の詳細については、「[Power BI Report Server May 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/)」というブログ記事を参照してください。
+
+このリリースの特に重要な機能には次のものがあります。
+
+### <a name="performance-analyzer"></a>パフォーマンス アナライザー 
+
+レポートの実行速度が予想よりも遅い場合、Power BI Desktop でパフォーマンス アナライザーをお試しください。 これを開始すると、レポート内で行うあらゆるアクションに関する情報が含まれるログ ファイルが作成されます。 パフォーマンス アナライザーの詳細は[こちら](../desktop-performance-analyzer.md)で参照してください。
+
+### <a name="new-modeling-view"></a>新しいモデリング ビュー
+
+Power BI Desktop の新しいモデルリング ビューでは、多くのテーブルを含む複雑なデータセットを表示し、操作できます。 特に重要な機能には、複数の図からなるレイアウトと列、メジャー、テーブルの一括編集があります。 モデリング ビューの詳細は[こちら](../desktop-modeling-view.md)で参照してください。
+
+### <a name="accessible-visual-interaction"></a>アクセス可能なビジュアルの相互作用
+
+キーボード ナビゲーションを使用し、さまざまな組み込みビジュアル上のデータ ポイントにアクセスできるようになりました。 Power BI レポートのアクセシビリティの詳細は[こちら](../desktop-accessibility.md)で参照してください。
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>条件付き書式設定タイトルと Web URL アクション
+
+Power BI レポートは対話式です。 レポートの現在の状態が反映されるよう、レポートのタイトルが動的に変化すれば理にかないます。 同じ式バインドの書式設定を利用し、ボタン、図形、画像の URL を動的に変化させることができます。 式ベースのタイトルの詳細は[こちら](../desktop-conditional-format-visual-titles.md)で参照してください。
+
+### <a name="cross-highlight-by-axis-labels"></a>軸ラベルによるクロス強調表示
+
+ビジュアル内で軸カテゴリ ラベルを選択すると、ビジュアル内でデータ ポイントを選択する場合と同じように、ページ上の他の要素が強調表示されます。 クロス強調表示の詳細は[こちら](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)で参照してください。
+
+### <a name="all-the-new-features"></a>すべての新機能
+
+新機能の全一覧は次のようになります。
+
+### <a name="reporting"></a>レポート
+
+- 折れ線グラフの一点でクロス強調表示 
+- タイトルを右端で折り返す 
+- クロスフィルターの既定の視覚的相互作用を更新
+- ビジュアルの境界線の角を丸くする 
+- 単一選択スライサー  
+- Bing 地図のヒートマップ サポート  
+- 軸ラベルによるクロス強調表示  
+- 既定のヒントの書式設定  
+- ボタン、図形、イメージに対する静的 Web URL サポート  
+- ページの配置オプション   
+- 選択ウィンドウの改善  
+- アクセス可能なビジュアルの相互作用  
+- ビジュアルのタイトルの条件付き書式  
+- ボタン、図形、イメージ用の Web URL アクションの条件付き書式
+- パフォーマンス アナライザー ウィンドウ
+- テーブルとマトリックスのキーボード ナビゲーション
+- 行のデータ ラベルの位置コントロール
+- KPI ビジュアル インジケーターのテキスト サイズ コントロール
+
+### <a name="analytics"></a>分析
+
+- 日付の階層表示の一般提供が開始  
 
 ### <a name="modeling"></a>モデリング
 
-- 新しいビューの一般提供をモデリング
+- 新しいモデリング ビューの一般提供が開始
 - 新しい DAX 関数
-- ALLSELECTED DAX 関数を更新します。
-- 新しいレポートの自動日付テーブルを無効にします。
+- ALLSELECTED DAX 関数に対する更新
+- 新しいレポート用の自動日付テーブルの無効化
 
-## <a name="may-2019-power-bi-report-server"></a>5 月 2019:Power BI Report Server
+## <a name="may-2019-power-bi-report-server"></a>2019 年 5 月:Power BI Report Server
 
 ### <a name="support-for-trusted-visuals"></a>信頼されたビジュアルのサポート
 
-Power BI レポート サーバーに信頼されているビジュアルのサポートが追加されました。 現在 Mapbox と PowerOn ビジュアルをサポートします。 ESRI、Visio、および PowerApps はサポートされていません今回のリリースです。)
+信頼されたビジュアルのサポートが Power BI Report Server に追加されました。 現在のところ、Mapbox と PowerOn のビジュアルがサポートされています。 ESRI、Visio、PowerApps は今回のリリースではサポートされていません。
 
-### <a name="improved-security-features"></a>強化されたセキュリティ機能
+### <a name="improved-security-features"></a>改善されたセキュリティ機能
 
-**RestrictedResourceMimeTypeForUpload**管理者の使用を禁止されている mime の種類、たとえばテキスト/html のコンマ区切りの一覧を指定できます。
+**RestrictedResourceMimeTypeForUpload**。管理者はこれを利用し、text/html のように、禁止する MIME の種類をコンマ区切りの一覧で指定できます。
 
 ## <a name="january-2019"></a>2019 年 1 月
 

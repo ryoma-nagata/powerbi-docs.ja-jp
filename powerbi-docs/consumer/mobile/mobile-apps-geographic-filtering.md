@@ -6,21 +6,21 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 02/09/2018
+ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 828dcb4aeb8b7c5e69292685470f112a2d85cb71
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9a4950a1d52451764c3c62413bf4ecbd036f06c8
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61349491"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305770"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリで地理的な場所によりレポートをフィルターする
 適用対象:
 
-| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-geographic-filtering/android-tablet-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
-|:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android フォン |Android タブレット |Windows 10 スマートフォン |
+| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
+|:--- |:--- |:--- |:--- |
+| iPhone |iPad |Android フォン |Windows 10 スマートフォン |
 
 モバイル デバイスで Power BI レポートを開くと、右上に小さなプッシュピン アイコンが表示されることがあります。 プッシュピンが表示される場合、場所に基づいてそのレポートをフィルターできます。
 
@@ -32,18 +32,18 @@ ms.locfileid: "61349491"
 ## <a name="filter-your-report-by-your-geographic-location"></a>地理的な場所でレポートをフィルターする
 1. モバイル デバイスの Power BI モバイル アプリでレポートを開きます。
 2. レポートに地理的なデータが含まれている場合、Power BI に位置情報へのアクセスを許可するように求めるメッセージが表示されます。 **[許可]** をクリックし、もう一度 **[許可]** をタップします。
-3. 押しピン ![押しピン アイコンをタップします。](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png). レポート内のデータに応じて、市、都道府県、または国/地域でフィルターすることができます。 フィルターを使用すると、現在地に一致する選択肢のみが一覧表示されます。
+3. 押しピン ![押しピン アイコンをタップします。](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png). レポート内のデータに応じて、市、都道府県、または国/地域でフィルター処理できます。 フィルターを使用すると、現在地に一致する選択肢のみが一覧表示されます。
    
     ![押しピン フィルター](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-map-set-filter.png)
 
 ## <a name="why-dont-i-see-location-tags-on-a-report"></a>レポートに場所タグが表示されない場合
-場所タグが表示されるには、3 つの条件がすべて満たされている必要があります。 
+場所タグを表示するには、下の 3 つの条件をすべて満たす必要があります。 
 
-* Power BI Desktop でレポートを作成したユーザーが、少なくとも 1 つの列に対して[地理データを分類](../../desktop-mobile-geofiltering.md)していること (市区町村、都道府県、国/地域など)。
+* Power BI Desktop でレポートを作成したユーザーは、少なくとも 1 つの列に対して[地理データを分類](../../desktop-mobile-geofiltering.md)している必要があります (市区町村、都道府県、国/地域など)。
 * レポートを表示するユーザーが、列内にデータがある場所のいずれかにいること。
 * レポートを表示するユーザーが、次のモバイル デバイスのいずれかを使っていること。
   * iOS (iPad、iPhone、iPod)。
-  * Android フォンまたはタブレット。
+  * Android フォン。
   * Windows 10 スマートフォン (PC やタブレットなどの他の Windows 10 デバイスは、地理的フィルタリングをサポートしません)。
 
 Power BI Desktop での[地理的なフィルターの設定](../../desktop-mobile-geofiltering.md)の詳細を参照してください。
