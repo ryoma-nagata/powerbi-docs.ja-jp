@@ -10,22 +10,35 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cd78fc1411f1eb4e9148bb12ddf6d9805954cfd7
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d90ef12e1971ddc81928746f338ba927a48d5b23
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839727"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195150"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI のドーナツ グラフ
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 ドーナツ グラフは、全体に対する部分の関係が示される点で円グラフと似ています。 唯一の違いは、中央が空白で、ラベルまたはアイコン用の領域を確保できることです。
 
+## <a name="prerequisite"></a>前提条件
+
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
+
+1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
+   
+2. **小売の分析のサンプル PBIX ファイル**を探します。
+
+1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
+
+1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+
+
 ## <a name="create-a-doughnut-chart"></a>ドーナツ グラフの作成
-以下の手順では、小売りの分析のサンプルを使って、今年の売上をカテゴリ別に表示するドーナツ グラフを作成します。 作業を進めるために、Power BI サービスまたは Power BI Desktop の[サンプルをダウンロード](../sample-datasets.md)します。
 
-1. 空のレポート ページで開始します。 Power BI サービスを使っている場合は、[編集ビュー](../service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
-
-2. [フィールド] ウィンドウで、 **[Sales]** \> **[Last Year Sales]** を選びます。  
+1. 空のレポート ページから開始し、[フィールド] ウィンドウで **[販売]** \> **[昨年度の売上高]** を選択します。  
    
 3. [視覚化] ウィンドウで、ドーナツ グラフのアイコン ![ドーナツ グラフ アイコン](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) を選んで、横棒グラフをドーナツ グラフに変換します。 **[Last Year Sales]** が **[値]** 領域にない場合は、そこにドラッグします。
      

@@ -11,19 +11,24 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8222194359077cb0d88286a33d1c9b2a05f6bd80
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: d776425d4c19070c00658cbd588c5421d22a0057
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390766"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192781"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI での散布図、バブル チャート、およびドット プロット グラフ
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 Power BI では、これらのデータ ポイントが横軸に沿って均等または不均等に分布されます。 これはグラフで表されるデータによって異なります。
 
 このビデオで散布図の作成方法を確認した後、以下の手順に従って自分で作成してみてください。
-
+   > [!NOTE]
+   > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 データ ポイント数を最大 10,000 まで設定することができます。  
@@ -65,7 +70,7 @@ ms.locfileid: "67390766"
 
 ### <a name="dot-plot-charts"></a>ドット プロット グラフ
 
-ドット プロット グラフは、バブル チャートや散布図と似ていますが、数値またはカテゴリ データを X 軸にプロットすることもできます。
+ドット プロット グラフは、バブル チャートや散布図と似ていますが、カテゴリ データを X 軸にプロットするのに使用されます。
 
 ![ドット プロット グラフのスクリーンショット。](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
@@ -73,17 +78,20 @@ ms.locfileid: "67390766"
 
 ## <a name="prerequisites"></a>前提条件
 
-* Power BI サービス
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
 
-* 小売りの分析のサンプル レポート
+1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
+   
+2. **小売の分析のサンプル PBIX ファイル**を探します。
+
+1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
+
+1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+
 
 ## <a name="create-a-scatter-chart"></a>散布図を作成する
 
-まず、[Power BI サービス](https://app.powerbi.com)にサインインし、[小売りの分析のサンプル](../sample-datasets.md) レポートを[レポート編集](../service-interact-with-a-report-in-editing-view.md)ビューで開きます。
-
-1. 黄色のプラス アイコン ![黄色のプラス アイコンのスクリーンショット](media/power-bi-visualization-scatter/power-bi-yellow-plus-icon.png) を選択して、空のレポート ページを作成します。
-
-1. **[フィールド]** ウィンドウで、次のフィールドを選択します。
+1. 空のレポート ページから開始し、 **[フィールド]** ウィンドウで次のフィールドを選択します。
 
     * **[Sales]**  >  **[Sales Per Sq Ft]**
 
@@ -113,11 +121,11 @@ ms.locfileid: "67390766"
 
 1. バブルの上にマウスを置きます。 バブルのサイズは、 **[This Year Sales]** の値を反映しています。
 
-    ![ツールヒントが表示される](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![ツールヒントが表示される](media/power-bi-visualization-scatter/pbi-scatter-chart-hover.png)
 
 1. バブル チャートに表示するデータ ポイントの数を設定するには、 **[視覚化]** ウィンドウの **[形式]** セクションで、 **[全般]** を展開し、 **[データ ボリューム]** を調整します。
 
-    ![[視覚化] ウィンドウと、形式アイコン、[全般] ドロップダウン、および [データ ボリューム] オプションのスクリーンショット。](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png)
+    ![[視覚化] ウィンドウと、形式アイコン、[全般] ドロップダウン、および [データ ボリューム] オプションのスクリーンショット。](media/power-bi-visualization-scatter/pbi-scatter-data-volume.png)
 
     10,000 までの任意の値に最大データ量を設定できます。 数字が大きくなったら、最初にテストをして、良いパフォーマンスが得られることを確認することをお勧めします。
 
@@ -128,7 +136,7 @@ ms.locfileid: "67390766"
 
     [アクセシビリティを向上させる](../desktop-accessibility.md)には、行ごとにマーカー図形を追加することを検討します。 マーカーの形状を選択するには、 **[図形]** を展開し、 **[マーカーの図形]** を選択して図形を選択します。
 
-    ![[図形] ドロップダウンと [マーカーの図形] オプションのスクリーンショット。](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+    ![[図形] ドロップダウンと [マーカーの図形] オプションのスクリーンショット。](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
     マーカーの図形をひし形、三角形、または正方形に変更できます。 各線に別のマーカーの図形を使用すると、レポートの使用者は個々の線 (または領域) を区別するのが容易になります。
 
@@ -146,15 +154,15 @@ ms.locfileid: "67390766"
 
 散布図に、X 軸上と Y 軸上のすべての値を集計した 1 つのデータ ポイントのみが表示されていますか?  あるいは、1 本の横線または縦線に沿ってすべての値が集計されていますか?
 
-![散布図と 1 つのデータ ポイントのスクリーンショット。](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
+![散布図と 1 つのデータ ポイントのスクリーンショット。](media/power-bi-visualization-scatter/pbi-scatter-tshoot1.png)
 
 **[詳細]** ウェルにフィールドを追加して、値をグループ化する方法を Power BI に指示してください。 フィールドは、プロットするポイントごとに一意である必要があります。 シンプルな行番号や ID フィールドの場合はこれで十分です。
 
-![RowNum が [詳細] ウェルに追加されている散布図のスクリーンショット。](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
+![RowNum が [詳細] ウェルに追加されている散布図のスクリーンショット。](media/power-bi-visualization-scatter/pbi-scatter-tshoot.png)
 
 そのようなデータがない場合は、X と Y の値を連結してポイントごとに一意の値を持つフィールドを作成します。
 
-![TempTime が [詳細] ウェルに追加されている散布図のスクリーンショット。](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
+![TempTime が [詳細] ウェルに追加されている散布図のスクリーンショット。](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
 新しいフィールドを作成するには、[Power BI Desktop クエリ エディターを使ってデータセットにインデックス列を追加します](../desktop-add-custom-column.md)。 その後、この列を視覚化の **[詳細]** ウェルに追加します。
 

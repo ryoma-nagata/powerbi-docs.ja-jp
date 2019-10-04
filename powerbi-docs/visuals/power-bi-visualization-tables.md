@@ -11,18 +11,20 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867208"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193118"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードのテーブル
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 テーブルは、関連性のあるデータが論理的な一連の行と列に格納されたグリッドです。 ヘッダーと合計行が含まれる場合もあります。 テーブルは、1 つのカテゴリの多くの値を調べるときの定量的な比較で役に立ちます。 たとえば、次のテーブルには、**カテゴリ**に対する 5 つの異なるメジャーが表示されています。
 
-![カテゴリに対して 5 つの異なるメジャーが表示されているテーブルのスクリーンショット。](media/power-bi-visualization-tables/table.png)
+![カテゴリに対して 5 つの異なるメジャーが表示されているテーブルのスクリーンショット。](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 
 レポート内でテーブルを作成し、そのテーブル内の要素を、同じレポート ページ上の他のビジュアルを使用してクロス強調表示します。 行、列、個々のセルを選択して、クロス強調表示できます。 個々のセルおよび複数のセルを選択してコピーし、他のアプリケーションに貼り付けることもできます。
 
@@ -36,25 +38,23 @@ ms.locfileid: "68867208"
 
 * 数値データをカテゴリ別に表示する。
 
-## <a name="prerequisites"></a>前提条件
+## <a name="prerequisite"></a>前提条件
 
-* Power BI サービスまたは Power BI Desktop
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
 
-* 小売りの分析のサンプル レポート
+1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
+   
+2. **小売の分析のサンプル PBIX ファイル**を探します。
 
-## <a name="get-the-retail-analysis-sample-report"></a>小売りの分析のサンプル レポートを取得する
+1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
 
-次の手順では、「Retail Analysis Sample」を使用します。 視覚エフェクトを作成するには、データセットとレポートへの編集アクセス許可が必要です。 Power BI のサンプルはすべて編集できます。 他のユーザーからのレポートの共有を受ける場合、レポートでは視覚化を作成できません。 作業を進めるには、[小売りの分析のサンプル レポート](../sample-datasets.md)を取得します。
+1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
-**小売りの分析のサンプル** データセットを取得したら、作業を開始できます。
 
 ## <a name="create-a-table"></a>テーブルを作成する
 
 この記事の最初に示したテーブルを作成して、売上高の値を品目カテゴリ別に表示します。
 
-1. **[マイ ワークスペース]** から **[データセット]**  >  **[レポートの作成]** を選択します。
-
-    ![[データセット] > [レポートの作成] のスクリーンショット。](media/power-bi-visualization-tables/power-bi-create-a-report.png)
 
 1. **[フィールド]** ウィンドウで、 **[品目]**  >  **[カテゴリ]** を選択します。
 
@@ -66,11 +66,10 @@ ms.locfileid: "68867208"
 
 1. 次に、 **[Sales]\(売上\) > [This Year Sales]\(今年の売上\)** を選択し、 **[値]** 、 **[目標]** 、 **[状況]** の 3 つオプションすべてを選択します。
 
-1. **[視覚化]** ウィンドウで **[値]** ウェルを探し、グラフの列の順序がこのページの最初の図と一致するまで値をドラッグします。 **[値]** ウェルは次のようになります。
+1. **[視覚化]** ウィンドウで **[値]** ウェルを探し、グラフの列の順序がこのページの最初の図と一致するまで値を選択します。 必要に応じて、ウェルで値をドラッグします。 **[値]** ウェルは次のようになります。
 
     ![[値] ウェル](media/power-bi-visualization-tables/power-bi-table2.png)
 
-1. ピン アイコンを選んで、ダッシュボードにテーブルをピン留めします。 ![画鋲](media/power-bi-visualization-tables/pbi_pintile.png) をタップします。
 
 ## <a name="format-the-table"></a>テーブルの書式を設定する
 
@@ -98,7 +97,7 @@ ms.locfileid: "68867208"
 
     ![これまでのすべての書式を示すテーブル](media/power-bi-visualization-tables/power-bi-table-format.png)
 
-### <a name="conditional-formatting"></a>条件付き書式設定
+### <a name="conditional-formatting"></a>条件付き書式
 
 "*条件付き書式*" は書式設定の一種です。 Power BI では、 **[視覚化]** ウィンドウ **[値]** ウェル のフィールドに条件付き書式設定が適用されます。
 
@@ -170,10 +169,6 @@ ms.locfileid: "68867208"
 1. **[コピー]**  >  **[選択範囲のコピー]** を選択します。
 
     ![コピー オプション](media/power-bi-visualization-tables/power-bi-copy-selection.png)
-
-    コピーには列および行のヘッダーが含まれています。
-
-    ![Excel に貼り付ける](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>テーブルの列の幅を調整する
 

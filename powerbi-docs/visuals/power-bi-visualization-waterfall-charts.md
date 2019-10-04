@@ -11,18 +11,25 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9ad87d851f52db6cd2720c9e3bd5d4bb7b189a7
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408917"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71191305"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI のウォーターフォール図
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 ウォーターフォール図は、Power BI で値が加算または減算されるときの累計を示します。 一連の加算と減算の変化によって、初期値 (純利益など) が、どのように影響を受けるかを理解するために役立ちます。
 
 各縦棒が色分けされるため、ひと目で増減を識別できます。 最初と最後の値の縦棒は、通常[横軸を起点](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "横軸を起点")としますが、中間値の縦棒は浮動縦棒です。 この形式から、ウォーターフォール図はブリッジ図と呼ばれることもあります。
+
+   > [!NOTE]
+   > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -40,35 +47,30 @@ ms.locfileid: "67408917"
 
 * 毎月の収入と支出、および口座の現在の残高を視覚化する場合。
 
-## <a name="prerequisites"></a>前提条件
+## <a name="prerequisite"></a>前提条件
 
-* Power BI サービスまたは Power BI Desktop
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
 
-* 小売りの分析のサンプル レポート
+1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
+   
+2. **小売の分析のサンプル PBIX ファイル**を探します。
 
-## <a name="get-the-retail-analysis-sample-report"></a>小売りの分析のサンプル レポートを取得する
+1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
 
-次の手順では、「Retail Analysis Sample」を使用します。 視覚エフェクトを作成するには、データセットとレポートへの編集アクセス許可が必要です。 Power BI のサンプルはすべて編集できます。 他のユーザーからのレポートの共有を受ける場合、レポートでは視覚化を作成できません。 作業を進めるには、[小売りの分析のサンプル レポート](../sample-datasets.md)を取得します。
+1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
-**小売りの分析のサンプル** データセットを取得したら、作業を開始できます。
 
 ## <a name="create-a-waterfall-chart"></a>ウォーターフォール図の作成
 
 ここでは、月別の売上差異 (予想売上高と実際の売上高の差異) を示すウォーターフォール図を作成します。
 
-1. **[マイ ワークスペース]** から **[データセット]**  >  **[レポートの作成]** を選択します。
-
-    ![[データセット] > [レポートの作成] のスクリーンショット。](media/power-bi-visualization-waterfall-charts/power-bi-create-a-report.png)
-
 1. **[フィールド]** ウィンドウで、 **[Sales]**  >  **[Total Sales Variance]** を選択します。
 
    ![[Sales] > [Total Sales Variance] が選択された状態および結果のビジュアルのスクリーンショット。](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
 
-1. ウォーターフォール アイコン ![ウォーターフォール アイコンのスクリーンショット](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png) を選択して、グラフをツリーマップに変換します。
+1. ウォーターフォール アイコン ![ウォーターフォール アイコンのスクリーンショット](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
-    **[Total Sales Variance]** が **[Y 軸]** 領域内にない場合、そこにドラッグします。
-
-    ![視覚エフェクトのテンプレート](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![視覚エフェクトのテンプレート](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
 1. **[Time]**  >  **[FiscalMonth]** を選択して、 **[カテゴリ]** に追加します。
 
@@ -76,19 +78,25 @@ ms.locfileid: "67408917"
 
 1. Power BI でウォーターフォール図が時系列で並べ替えられたことを確認します。 グラフの右上隅から、省略記号 (...) を選択します。
 
-    **[昇順で並べ替え]** オプションと **[FiscalMonth]** オプションの左横に黄色のインジケーターがあることを確認します
+    この例では、 **[昇順で並べ替え]** を選択します。
 
-    ![[並べ替え] > [FiscalMonth] の選択](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+    **[昇順で並べ替え]** の左横に黄色のインジケーターがあることを確認します これは、選択したオプションが適用されていることを示します。
+
+    ![[並べ替え] > [昇順] を選択](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+
+    次に、 **[並べ替え]** をクリックし、 **[FiscalMonth]** を選択します。前の手順と同様に、選択した項目の横に黄色のインジケーターが表示され、選択オプションが適用されることを示します。
+
+    ![[並べ替え] > [FiscalMonth] の選択](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscal-month.png)
 
     X 軸の値を見て、**Jan** から **Aug** の順になっていることを確認します。
 
     さらに調べると、月別の変化の要因がわかります。
 
-1. **[Store]**  >  **[Territory]** を **[詳細]** バケットにドラッグします。
+1.  **[ストア]**  >  **[担当地域]** を選択します。これにより、 **[詳細]** バケットに **[担当地域]** が追加されます。
 
     ![[詳細] バケットでのストアの表示](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    Power BI の既定では、月別の増減に寄与した上位 5 個の要素が追加されます。
+    Power BI の既定では、月別の増減に寄与した上位 5 個の要素が追加されます。 次の図は、さらに多くのデータを含むように、[視覚化] ウィンドウを展開したものです。 
 
     ![[詳細] バケットでのストアの表示](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-initial.png)
 
@@ -101,20 +109,6 @@ ms.locfileid: "67408917"
     ウォーターフォール図をざっと見ると、オハイオ州とペンシルバニア州の地域が売上の増加と減少の両方に最も大きく貢献していることがわかります。
 
     ![ウォーターフォール グラフ](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-
-    これは興味深い発見です。 オハイオ州とペンシルバニア州の売上が他の地域よりもはるかに高いため、この 2 つの州がこのように重大な影響を及ぼしているのでしょうか。 このようなことも確認するには、
-
-1. 今年の売上値と昨年の売上値を地域別に表示するマップを作成します。
-
-    ![PA とオハイオがクローズアップされたマップ](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
-
-    このマップはこの理論をサポートしています。 これら 2 つの地域は、昨年 (バブルのサイズ) と今年 (バブルの網掛け) の売上値が最高だったことが示されています。
-
-## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
-
-**[フィルター]** ウィンドウの使い方については、[編集ビューでのレポートへのフィルターの追加](../power-bi-report-add-filter.md)に関するページをご覧ください。
-
-ウォーターフォール図内の縦棒を強調表示すると、レポートのページ上の他の視覚化がクロス フィルター処理されます。逆の場合も同様です。 ただし、 **[合計]** の縦棒では強調表示がトリガーされることも、クロス フィルター処理に反応することもありません。
 
 ## <a name="next-steps"></a>次の手順
 

@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4c28071917dbe5669e6e35bd416236ef7047eb24
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 1de5869bc5b422dc98a13316022f653f62675829
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408680"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192602"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI のツリーマップ
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 ツリーマップでは、入れ子になった一連の四角形で階層データが表示されます。 階層の各レベルは、色付きの四角形 (ブランチ) で表され、ブランチには四角形 (リーフ) が含まれます。 Power BI では、各四角形内のスペースのサイズは測定値に基づいています。 各四角形は大きさの順に左上 (最大) から右下 (最小) に向かって配置されます。
 
@@ -40,6 +42,11 @@ ms.locfileid: "67408680"
 
 ツリーマップの作成例を見たい方は、 このビデオの 2:10 にスキップし、Amanda がツリーマップを作成するところをご覧ください。
 
+   > [!NOTE]
+   > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
+   > 
+   > 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>ツリーマップを使用すべきケース
@@ -58,15 +65,18 @@ ms.locfileid: "67408680"
 
 * パターン、外れ値、最も重要な要因、および例外を見分ける。
 
-## <a name="prerequisites"></a>前提条件
+## <a name="prerequisite"></a>前提条件
 
-* Power BI サービスまたは Power BI Desktop
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
 
-* 小売りの分析のサンプル レポート
+1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
+   
+2. **小売の分析のサンプル PBIX ファイル**を探します。
 
-## <a name="get-the-retail-analysis-sample-report"></a>小売りの分析のサンプル レポートを取得する
+1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
 
-次の手順では、「Retail Analysis Sample」を使用します。 視覚エフェクトを作成するには、データセットとレポートへの編集アクセス許可が必要です。 Power BI のサンプルはすべて編集できます。 他のユーザーからのレポートの共有を受ける場合、レポートでは視覚化を作成できません。 作業を進めるには、[小売りの分析のサンプル レポート](../sample-datasets.md)を取得します。
+1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+
 
 **小売りの分析のサンプル** データセットを取得したら、作業を開始できます。
 
@@ -74,25 +84,22 @@ ms.locfileid: "67408680"
 
 レポートを作成し、基本的なツリーマップを追加します。
 
-1. **[マイ ワークスペース]** から **[データセット]**  >  **[レポートの作成]** を選択します。
-
-    ![[データセット] > [レポートの作成] のスクリーンショット。](media/power-bi-visualization-treemaps/power-bi-create-a-report.png)
 
 1. **[フィールド]** ウィンドウで、 **[Sales]\(売上\)**  >  **[Last Year Sales]\(前年度の売上\)** を選択します。
 
-   ![選択されている [Sales]\(売上\) > [Last Tear Sales]\(前年度の売上\) と、結果のビジュアルのスクリーンショット。](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
+   ![選択されている [Sales]\(売上\) > [Last Tear Sales]\(前年度の売上\) と、結果のビジュアルのスクリーンショット。](media/power-bi-visualization-treemaps/treemapfirstvalue-new.png)
 
 1. ツリーマップ アイコン ![ツリーマップ アイコンのスクリーンショット](media/power-bi-visualization-treemaps/power-bi-treemap-icon.png) を選択して、グラフをツリーマップに変換します。
 
-   ![構成されていないツリーマップのスクリーンショット。](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
+   ![構成されていないツリーマップのスクリーンショット。](media/power-bi-visualization-treemaps/treemapconvertto-new.png)
 
-1. **[アイテム]**  >  **[カテゴリ]** を **[グループ]** にドラッグします。
+1. **[品目]**  >  **[カテゴリ]** を選択します。これにより、 **[グループ]** ウェルに **[カテゴリ]** が追加されます。
 
     四角形のサイズが総売上高に基づき、色でカテゴリが表されるツリーマップが Power BI によって作成されます。 つまり、カテゴリ別の総売上高の相対的な大きさを視覚的に説明する階層が作成されます。 **[Mens]\(男性向け\)** カテゴリの売上高が最高で、 **[Hosiery]\(靴下・下着類\)** カテゴリの売上高が最低です。
 
     ![構成されたツリーマップのスクリーンショット。](media/power-bi-visualization-treemaps/power-bi-complete.png)
 
-1. **[ストア]**  >  **\[Chain] \(チェーン)** を **"Details"** にドラッグしてツリーマップを完成させます。 これで、前年の売上高をカテゴリおよびチェーン別に比較できます。
+1. **[ストア]**  >  **[チェーン]** を選択します。これにより、 **[詳細]** ウェルに **[チェーン]** が追加され、ツリーマップが完成します。 これで、前年の売上高をカテゴリおよびチェーン別に比較できます。
 
    ![[ストア] > [チェーン] が詳細に追加されたツリーマップのスクリーンショット。](media/power-bi-visualization-treemaps/power-bi-details.png)
 
@@ -103,19 +110,14 @@ ms.locfileid: "67408680"
 
     たとえば、 **[090-Home]** の四角形内の **[Fashions Direct]** にポインターを合わせると、Home カテゴリの Fashion Direct の部分のツールヒントが表示されます。
 
-   ![ヒントが表示されている Home のスクリーンショット。](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
+   ![ヒントが表示されている Home のスクリーンショット。](media/power-bi-visualization-treemaps/treemaphoverdetail-new.png)
 
-1. ツリーマップを[ダッシュボード タイルとして追加 (ビジュアルをピン留め)](../service-dashboard-tiles.md) します。
-
-1. [レポート](../service-report-save.md)を保存します。
 
 ## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
 
-**[フィルター]** ウィンドウの使い方については、[レポートへのフィルターの追加](../power-bi-report-add-filter.md)に関するページをご覧ください。
+ツリーマップ内の **[カテゴリ]** または **[詳細]** を強調表示すると、レポート ページ上の他の視覚エフェクトがクロス強調表示またはクロスフィルター処理されます。 先に進むには、このレポート ページにいくつかのビジュアルを追加するか、このレポートの他のページのいずれかにツリーマップをコピーします。 次の図では、ツリーマップが**概要**ページにコピーされました。 
 
-ツリーマップ内の **[カテゴリ]** または **[詳細]** を強調表示すると、レポート ページ上の他の視覚エフェクトがクロス強調表示またはクロスフィルター処理されます。逆の場合も同様です。 先に進むには、このレポート ページにいくつかのビジュアルを追加するか、このレポートの他のページのいずれかにツリーマップをコピーします。
-
-1. ツリーマップ上で、 **[カテゴリ]** 、または **[カテゴリ]** 内の **[チェーン]** のいずれかを選択します。 これにより、ページ上の他の視覚化がクロス強調表示されます。 たとえば、 **[050-Shoes]** を選択すると、前年の靴の売上高が **3,640,471 ドル**で、そのうち**ファッション ディレクター** アカウントの売上高が **2,174,185 ドル**であったことが表示されます。
+1. ツリーマップ上で、 **[カテゴリ]** 、または **[カテゴリ]** 内の **[チェーン]** のいずれかを選択します。 これにより、ページ上の他の視覚化がクロス強調表示されます。 たとえば、 **[050-Shoes]** を選択すると、前年の靴の売上高が **16,352,432 ドル**で、そのうち**ファッション ディレクター** アカウントの売上高が **2,174,185 ドル**であったことが示されます。
 
    ![クロス強調表示されている店舗売上の概要レポートのスクリーンショット。](media/power-bi-visualization-treemaps/treemaphiliting.png)
 

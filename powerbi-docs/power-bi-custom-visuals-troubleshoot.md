@@ -1,22 +1,22 @@
 ---
-title: Power BI カスタム ビジュアルの開発方法に関するトラブルシューティング
+title: Power BI の Power BI ビジュアルの開発方法に関するトラブルシューティング
 description: この記事では、Power BI カスタム ビジュアルの開発または作成時に発生する一般的な問題について説明します。
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 4d863ff921df2a5cfb5233d85679f2277542bb44
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421803"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195364"
 ---
-# <a name="troubleshoot-power-bi-custom-visuals"></a>Power BI カスタム ビジュアルのトラブルシューティング
+# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Power BI の Power BI ビジュアルのトラブルシューティング
 
 ## <a name="debug"></a>デバッグ
 
@@ -39,8 +39,8 @@ ms.locfileid: "61421803"
 
 ビジュアル プロジェクトのルートから、ターミナルのコマンド ラインで `pbiviz start` コマンドを使用してビジュアル サーバーを実行します。 サーバーが動作していない場合、SSL 証明書が正しくインストールされていない可能性があります。
 
-ご質問、ご意見、問題がございましたら、カスタム ビジュアルのサポート チームまでお気軽にお問い合わせください。アドレスは  *pbicvsupport@microsoft.com*   です。
+ご質問、ご意見、問題がございましたら、Power BI ビジュアルのサポート チームまでお気軽にお問い合わせください。アドレスは  *pbicvsupport@microsoft.com*   です。
 
 ## <a name="next-steps"></a>次の手順
 
-詳細については、[Power BI カスタム ビジュアルに関してよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-custom-visuals)のページにアクセスしてください。
+詳細については、[Power BI の Power BI ビジュアルに関してよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-visuals)に関するページにアクセスしてください。

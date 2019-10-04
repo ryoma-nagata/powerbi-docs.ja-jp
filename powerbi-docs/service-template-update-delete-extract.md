@@ -7,25 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 273734493c761739f9780e6a7fe6e781900723f9
-ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
+ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67125880"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71207633"
 ---
 # <a name="update-delete-and-extract-template-app"></a>テンプレート アプリの更新、削除、および抽出
 
 これでアプリが実稼働に入りました。実稼働のアプリを邪魔することなく、テスト段階を繰り返すことができます。
 ## <a name="update-your-app"></a>アプリを更新する
 
+Power BI Desktop で変更を加えた場合は、ステップ (1) から開始します。 Power BI Desktop で変更を加えていない場合は、ステップ (4) から開始します。
+
+1. 更新されたデータセットをアップロードし、既存のデータセットを上書きします。 **データセット名はまったく同じものを使用してください**。 別の名前を使用すると、アプリを更新するユーザーに新しいデータセットが作成されます。
+![データセットを上書きする](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+1. コンピューターから pbix ファイルをインポートします。
+![データセットを上書きする](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+1. 上書きを確認します。
+![データセットを上書きする](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. **[リリース管理]** ウィンドウで **[アプリの作成]** を選択します。
-2. アプリ作成プロセスを繰り返します。
-3. **[ブランド]** 、 **[コンテンツ]** 、 **[コントロール]** 、 **[アクセス]** を設定し、もう一度 **[アプリの作成]** を選択します。
-4. **[閉じる]** を選択し、 **[リリース管理]** に戻ります。
+1. アプリ作成プロセスを繰り返します。
+1. **[ブランド]** 、 **[コンテンツ]** 、 **[コントロール]** 、 **[アクセス]** を設定し、もう一度 **[アプリの作成]** を選択します。
+1. **[閉じる]** を選択し、 **[リリース管理]** に戻ります。
 
    これで実稼働のバージョンとテスト中の新しいバージョンという 2 つのバージョンが表示されます。
 
@@ -33,10 +41,18 @@ ms.locfileid: "67125880"
 
 5. アプリを実稼働前ステージに昇格させ、テナントの外でテストする準備ができたら、[リリース管理] ウィンドウに戻り、 **[テスト]** の隣にある **[アプリの昇格]** を選択します。
 6. これでリンクはライブになります。 [Power BI アプリ オファーの更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)に関する記事の手順に従って、Cloud パートナー ポータル (CPP) にそれを再度送信します。
-7. CPP で、オファーをもう一度検証するだけでなく、再度**公開**する必要があります。
+7. Cloud パートナー ポータルで、オファーをもう一度**公開**し、再度検証する必要があります。
 
->[!NOTE]
->アプリを実稼働ステージに昇格させるのは、アプリが Cloud パートナー ポータルで承認され、それを公開した後のみです。
+   >[!NOTE]
+   >アプリを実稼働ステージに昇格させるのは、アプリが Cloud パートナー ポータルで承認され、それを公開した後のみです。
+
+### <a name="update-behavior"></a>動作を更新する
+
+1. アプリを更新すると、テンプレート アプリのインストーラーは、接続の構成を失うことなく、既にインストールされているワークスペースの[テンプレート アプリを更新する](service-template-apps-install-distribute.md#update-a-template-app)ことができるようになります。
+1. データセットの変更がインストールされているテンプレート アプリにどのように影響するかについては、インストーラーの[上書き動作](service-template-apps-install-distribute.md#overwrite-behavior)を確認してください。
+1. テンプレート アプリを更新 (上書き) すると、最初にサンプル データに戻され、ユーザーの構成 (パラメーターと認証) を使用して自動的に再接続されます。 更新が完了するまで、レポート、ダッシュボード、組織のアプリにはサンプル データ バナーが表示されます。
+1. 更新されたデータセットにユーザーの入力を必要とする新しいクエリ パラメーターを追加した場合は、 *[必須]* チェック ボックスをオンにする必要があります。 これにより、アプリの更新後に、インストーラーに接続文字列が表示されます。
+ ![必須パラメーター](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset4.png)
 
 ## <a name="extract-workspace"></a>ワークスペースの抽出
 以前のバージョンのテンプレート アプリへのロールバックは、抽出機能を使用して今までより簡単になりました。 次の手順では、さまざまなリリースの段階から新しいワークスペースに特定のアプリ バージョンを抽出します。

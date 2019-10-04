@@ -1,37 +1,37 @@
 ---
-title: Power BI で R を利用したカスタム ビジュアルを使用する
-description: Power BI で R を利用したカスタム ビジュアルを使用する
-author: sranins
-ms.author: rasala
-manager: kfile
+title: Power BI で R を利用した Power BI ビジュアルを使用する
+description: Power BI で R を利用した Power BI ビジュアルを使用する
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b5f8677b3207122831e3d2cae6c07aa5bbcb9983
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61278652"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194594"
 ---
-# <a name="use-r-powered-custom-visuals-in-power-bi"></a>Power BI で R を利用したカスタム ビジュアルを使用する
+# <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI で R を利用した Power BI ビジュアルを使用する
 
-**Power BI Desktop** および **Power BI サービス**では、R の知識がなく、R スクリプトを作成しなくても、R を利用したカスタム ビジュアルを使用できます。 これにより、自分で R を学習したりプログラミングを実行したりしなくても、R ビジュアルの分析や視覚機能に加え、R スクリプトを活用できます。
+**Power BI Desktop** および **Power BI サービス**では、R の知識がなく、R スクリプトを作成しなくても、R を利用した Power BI ビジュアルを使用できます。 これにより、自分で R を学習したりプログラミングを実行したりしなくても、R ビジュアルの分析や視覚機能に加え、R スクリプトを活用できます。
 
-R を利用したカスタム ビジュアルを使用するには、まず、使用したい R カスタム ビジュアルを、Power BI **カスタム ビジュアル**の [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) ギャラリーで選択してダウンロードします。
+R を利用した Power BI ビジュアルを使用するには、まず、使用したい R カスタム ビジュアルを、[**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) ギャラリーで Power BI 用の **Power BI ビジュアル**を選択してダウンロードします。
 
 ![R ビジュアル 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
 以下のセクションでは、R を利用したビジュアルを **Power BI Desktop** で選択して読み込み、使用する方法について説明します。
 
-## <a name="use-r-custom-visuals"></a>R カスタム ビジュアルを使用する
+## <a name="use-r-power-bi-visuals"></a>R を利用した Power BI ビジュアルを使用する
 
-R を利用したカスタム ビジュアルを使用するには、各ビジュアルを**カスタム ビジュアル** ライブラリからダウンロードした後、このビジュアルを **Power BI Desktop** で他の種類のビジュアルと同様に使用します。 カスタム ビジュアルを取得する場合、オンラインの **AppSource** サイトからダウンロードする方法と、**Power BI Desktop** 内から参照して取得する方法の 2 つがあります。 
+R を利用した Power BI ビジュアルを使用するには、各ビジュアルを **Power BI ビジュアル** ライブラリからダウンロードした後、このビジュアルを **Power BI Desktop** で他の種類のビジュアルと同様に使用します。 Power BI ビジュアルを取得する場合、オンラインの **AppSource** サイトからダウンロードする方法と、**Power BI Desktop** 内から参照して取得する方法の 2 つがあります。 
 
-### <a name="get-custom-visuals-from-appsource"></a>AppSource からカスタム ビジュアルを取得する
+### <a name="get-power-bi-visuals-from-appsource"></a>AppSource から Power BI ビジュアルを取得する
 
 オンラインの **AppSource** サイトからビジュアルを参照して選択する手順を以下に示します。
 
@@ -50,7 +50,7 @@ R を利用したカスタム ビジュアルを使用するには、各ビジ�
 
    ![R ビジュアル 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   R を利用したカスタム ビジュアルを **Power BI サービス**で使用するために R をインストールする必要はありませんが、**Power BI Desktop** で使用する場合は、ローカル コンピューターに R をインストールする "*必要があります*"。 R は、次の場所からダウンロードできます。
+   R は、R を利用した Power BI ビジュアルを **Power BI サービス**で使用するためにインストールする必要はありませんが、**Power BI Desktop** で使用する場合は、ローカル コンピューターにインストールする*必要があります*。 R は、次の場所からダウンロードできます。
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
@@ -79,25 +79,25 @@ R を利用したカスタム ビジュアルを使用するには、各ビジ�
 
     新しいビジュアルが頻繁に追加されるため、ライブラリはこまめに確認してください。
 
-### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>**Power BI Desktop** 内からカスタム ビジュアルを入手する
+### <a name="get-power-bi-visuals-from-within-power-bi-desktop"></a>**Power BI Desktop** 内から Power BI ビジュアルを入手する
 
-1. **Power BI Desktop** 内からカスタム ビジュアルを入手することもできます。 **Power BI Desktop** の **[視覚化]** ウィンドウで省略記号 (...) をクリックして、 **[Import from marketplace]\(Marketplace からインポート\)** を選択します。
+1. **Power BI Desktop** 内から Power BI ビジュアルを入手することもできます。 **Power BI Desktop** の **[視覚化]** ウィンドウで省略記号 (...) をクリックして、 **[Import from marketplace]\(Marketplace からインポート\)** を選択します。
 
    ![R ビジュアル 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-2. これを行うと、 **[Power BI ビジュアル]** ダイアログが表示され、ここから入手可能なカスタム ビジュアルをスクロールして選択することができます。 名前で検索したり、カテゴリを選択したり、または単に利用可能なビジュアルをスクロールしていくこともできます。 準備ができたら、 **[追加]** を選択してカスタム ビジュアルを **Power BI Desktop** に追加します。
+2. これを行うと、 **[Power BI ビジュアル]** ダイアログが表示され、スクロールして入手可能な Power BI ビジュアルを選択することができます。 名前で検索したり、カテゴリを選択したり、または単に利用可能なビジュアルをスクロールしていくこともできます。 準備ができたら、 **[追加]** を選択してカスタム ビジュアルを **Power BI Desktop** に追加します。
 
    ![R ビジュアル 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
-## <a name="contribute-r-powered-custom-visuals"></a>R を利用したカスタム ビジュアルを投稿する
+## <a name="contribute-r-powered-power-bi-visuals"></a>R を利用した Power BI ビジュアルを投稿する
 
-レポートで使うためにご自分の R ビジュアルを作成した場合は、そのカスタム ビジュアルを**カスタム ビジュアル ギャラリー**に投稿することで、それらのビジュアルを世界中に公開できます。 投稿は GitHub を通じて行われるため、その処理については次の場所で説明されています。
+レポートで使う作成したご自分用の R ビジュアルは、**Power BI ビジュアル ギャラリー**に投稿して世界に公開できます。 投稿は GitHub を通じて行われるため、その処理については次の場所で説明されています。
 
-* [R を利用したカスタム ビジュアル ギャラリーに投稿する](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [R を利用した Power BI ビジュアル ギャラリーに投稿する](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
-## <a name="troubleshoot-r-powered-custom-visuals"></a>R を利用したカスタム ビジュアルをトラブルシューティングする
+## <a name="troubleshoot-r-powered-power-bi-visuals"></a>R を利用した Power BI ビジュアルをトラブルシューティングする
 
-R を利用したカスタム ビジュアルには、ビジュアルが適切に機能するために満たす必要のある特定の依存関係があります。 R を利用したカスタム ビジュアルの実行や読み込みが正常に行われないときは、通常、次のいずれかの問題があります。
+R を利用した Power BI ビジュアルには、ビジュアルが適切に機能するために必要な特定の依存関係があります。 R を利用した Power BI ビジュアルの実行や読み込みが正常に行われないときは、通常、次のいずれかの問題があります。
 
 * R エンジンがない
 * ビジュアルの基になっている R スクリプトにエラーがある
@@ -150,7 +150,7 @@ Power BI チームはこれらの問題の軽減に懸命に取り組んでお�
 
 Power BI での R については、次の追加情報を参照してください。
 
-* [Power BI カスタム ビジュアル ギャラリー](https://app.powerbi.com/visuals/)
+* [Power BI の Power BI ビジュアル ギャラリー](https://app.powerbi.com/visuals/)
 * [Power BI Desktop での R スクリプトの実行](desktop-r-scripts.md)
 * [Power BI Desktop で R ビジュアルを作成する](desktop-r-visuals.md)
 * [Power BI で外部 R IDE を使用する](desktop-r-ide.md)
