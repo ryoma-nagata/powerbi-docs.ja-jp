@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264545"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195390"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI でテンプレート アプリを作成する
 
@@ -37,7 +37,7 @@ Power BI テナント管理者は、組織においてテンプレート アプ�
 
 他の Power BI テナントに配布できるテンプレート アプリを作成するには、それを新しいアプリ ワークスペースで作成する必要があります。
 
-1. Power BI サービスで、 **[ワークスペース]** 、 **[アプリのワークスペースの作成]** の順に選択します。
+1. Power BI サービスで、 **[ワークスペース]**  >  **[アプリのワークスペースの作成]** の順に選択します。
 
     ![アプリのワークスペースの作成](media/service-template-apps-create/power-bi-new-workspace.png)
 
@@ -47,7 +47,7 @@ Power BI テナント管理者は、組織においてテンプレート アプ�
 
 3. アプリ ワークスペースの名前、説明 (任意)、ロゴ画像 (任意) を入力します。
 
-4. **[テンプレート アプリを開発する]** を選択します。
+4. **[詳細]** セクションを展開し、 **[テンプレート アプリを開発する]** を選択します。
 
     ![テンプレート アプリを開発する](media/service-template-apps-create/power-bi-template-app-develop.png)
 
@@ -71,7 +71,7 @@ Power Query でパラメーターを使用している場合、型を明確に�
 
 1. テンプレート アプリ ワークスペースで **[アプリの作成]** を選択します。
 
-    ![アプリを作成する](media/service-template-apps-create/power-bi-create-app.png)
+    ![アプリの作成](media/service-template-apps-create/power-bi-create-app.png)
 
     ここでは、テンプレート アプリの追加の作成オプションを入力します。5 つのカテゴリがあります。
 
@@ -84,11 +84,13 @@ Power Query でパラメーターを使用している場合、型を明確に�
     - アプリのロゴ (ファイル サイズの上限 45 K、縦横比 1:1、png .jpg .jpeg 形式)
     - アプリのテーマの色
 
-    **コンテンツ**
+    **ナビゲーション**
 
-    **アプリのランディング ページ:** アプリのランディング ページにするレポートまたはダッシュボードを定義します。適切な印象を与えるランディング ページを使用します。
+    **[新しいナビゲーション ビルダー]** をオンにすると、アプリの左側のナビゲーション ウィンドウを定義できます (詳細については、「[ナビゲーション エクスペリエンスを設計する](service-create-distribute-apps.md#design-the-navigation-experience)」を参照してください)。
 
-    ![コンテンツ](media/service-template-apps-create/power-bi-create-content.png)
+   ![アプリのランディング ページを設定する](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+    
+    **アプリのランディング ページ:** ナビゲーション ビルダーをオフにすることを選択した場合は、アプリのランディング ページを選択するオプションがあります。 アプリのランディング ページにするレポートまたはダッシュボードを定義します。 適切な印象を与えるランディング ページを使用します。
 
     **コントロール**
 
@@ -107,7 +109,6 @@ Power Query でパラメーターを使用している場合、型を明確に�
     - **値**: パラメーターの規定値。
     - **必須**: インストールする人にユーザー固有のパラメーターの入力を求める場合に、これを使用します。
     - **ロック**: ロックすると、インストールする人はパラメーターを更新できません。
-    - **静的**: アプリに含まれているのがサンプル データ*のみ*の場合に、有効にします。 **[静的]** を選択すると、ユーザーはインストール ウィザードでデータ ソースへの接続は求められません。
 
     **アクセス** テストの段階で、アプリをインストールし、テストできる組織内の他のユーザーを決定します。 心配はありません。この設定は後でいつでも変更できます (設定が配布済みのテンプレート アプリのアクセスに影響することはありません)。
 
