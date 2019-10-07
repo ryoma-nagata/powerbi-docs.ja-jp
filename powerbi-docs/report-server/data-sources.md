@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71401840"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945835"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。
@@ -79,10 +79,10 @@ Power BI レポートは、複数のデータ ソースに接続できます。 
 | Azure Analysis Services データベース |はい |いいえ |はい |
 | Azure Cosmos DB (ベータ版) |はい |いいえ |いいえ |
 | Azure HDInsight Spark (Beta) |はい |いいえ |いいえ |
-| Common Data Service (Beta) |はい |いいえ |いいえ |
+| Common Data Service (ベータ) |はい |いいえ |いいえ |
 | comScore Digital Analytix (ベータ) |はい |いいえ |いいえ |
 | Dynamics 365 for Customer Insights (ベータ) |はい |いいえ |いいえ |
-| Dynamics 365 for Financials (Beta) |はい |いいえ |いいえ |
+| Dynamics 365 for Financials (ベータ) |はい |いいえ |いいえ |
 | GitHub (Beta) |はい |いいえ |いいえ |
 | Google BigQuery (ベータ版) |はい |いいえ |いいえ |
 | IBM Informix データベース (ベータ) |はい |いいえ |いいえ |
@@ -157,15 +157,15 @@ Power BI Report Server では、モデル更新のための認証方法として
 | SharePoint Online リスト |いいえ |いいえ |いいえ |いいえ |
 | Snowflake |いいえ |いいえ |いいえ |いいえ |
 | Sybase データベース |いいえ |いいえ |はい |はい |
-| Teradata データベース |いいえ |いいえ |はい |はい |
+| Teradata |いいえ |いいえ |はい |はい |
 | appFigures (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Azure Analysis Services データベース (ベータ版) |いいえ |いいえ |いいえ |いいえ |
 | Azure Cosmos DB (ベータ版) |いいえ |いいえ |いいえ |いいえ |
 | Azure HDInsight Spark (Beta) |いいえ |いいえ |いいえ |いいえ |
-| Common Data Service (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Common Data Service (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | comScore Digital Analytix (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Dynamics 365 for Customer Insights (ベータ) |いいえ |いいえ |いいえ |いいえ |
-| Dynamics 365 for Financials (Beta) |いいえ |いいえ |いいえ |いいえ |
+| Dynamics 365 for Financials (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | GitHub (Beta) |いいえ |いいえ |いいえ |いいえ |
 | Google BigQuery (ベータ版) |いいえ |いいえ |いいえ |いいえ |
 | IBM Informix データベース (ベータ) |いいえ |いいえ |いいえ |いいえ |
@@ -204,7 +204,7 @@ Power BI Report Server では、DirectQuery 用の認証方法として、OAuth 
 | Oracle データベース |いいえ |いいえ |はい |はい |はい |
 | SAP Business Warehouse サーバー |いいえ |いいえ |はい |いいえ |いいえ |
 | SAP HANA データベース |いいえ |いいえ |はい |はい |いいえ |
-| Teradata データベース |いいえ |いいえ |はい |はい |はい |
+| Teradata |いいえ |いいえ |はい |はい |はい |
 
 
 ## <a name="next-steps"></a>次の手順

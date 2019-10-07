@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840614"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715507"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>スター スキーマと Power BI での重要性を理解する
 
@@ -205,6 +205,6 @@ Power BI モデルでは、販売注文番号列をファクトの種類のテ�
 スター スキーマ設計または Power BI モデル設計の詳細については、次の記事を参照してください。
 
 - [ディメンション モデリングに関する Wikipedia の記事](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Power BI Desktop でのリレーションシップの作成と管理](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)
-- [Power BI Desktop での多対多カーディナリティのリレーションシップ](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)
-- [モデリングに関するガイド付き学習エクスペリエンス](https://docs.microsoft.com/power-bi/guided-learning/modeling)
+- [Power BI Desktop でのリレーションシップの作成と管理](../desktop-create-and-manage-relationships.md)
+- [Power BI Desktop での多対多カーディナリティのリレーションシップ](../desktop-many-to-many-relationships.md)
+- [モデリングに関するガイド付き学習エクスペリエンス](/learn/modules/model-data-power-bi/)

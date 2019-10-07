@@ -1113,7 +1113,7 @@
       items:
         - name: 新着情報
           href: report-server/whats-new.md
-        - name: ログを変更する
+        - name: 変更ログ
           href: report-server/changelog.md
         - name: サポート タイムライン
           href: report-server/support-timeline.md
@@ -1253,7 +1253,7 @@
                       href: service-gateway-sso-kerberos-sap-hana.md
                     - name: SAP BW - sapcrypto.dll (共通暗号化ライブラリ)
                       href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
-                    - name: SAP BW - gx64krb5.dll と gsskrb5.dll
+                    - name: SAP BW - gx64krb5.dll
                       href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
             - name: SAML ベースの SSO
               href: service-gateway-sso-saml.md

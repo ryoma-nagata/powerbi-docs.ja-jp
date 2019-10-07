@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92f7a89f99f97c8b497406b3ff947cd0fa645e6c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 03157d34e8d3a20ae7b4aadf71a0829d9a88e08d
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720670"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715285"
 ---
 # <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Power BI レポート内のテキスト ボックスと図形
 Power BI サービスと Power BI Desktop を使用すると、レポートにテキスト ボックスや図形を追加できます。 どちらの場合もレポートの編集アクセス許可が必要です。 Power BI サービスでレポートが自分と共有されている場合、編集アクセス許可はありません。 
 
-Will が Power BI Desktop を使用して[静的な画像をレポートに追加](guided-learning/visualizations.yml?tutorial-step=11)する様子をご覧ください。視聴後は下記の手順に従い、Power BI サービスを代わりに使用してご自身でお試しください。
+Will が Power BI Desktop を使用して[静的な画像をレポートに追加](/learn/modules/visuals-in-power-bi/12-formatting)する様子をご覧ください。視聴後は下記の手順に従い、Power BI サービスを代わりに使用してご自身でお試しください。
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61401256"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715427"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI の質問のヘルプを得るための 10 のヒント
 Power BI に関する疑問に対する答えを、必要なときに (つまり、"ジャストインタイム" で) 得られないために、Power BI を使用しながらイライラしたり、苦労したりしていませんか。 
@@ -45,7 +45,7 @@ Power BI チームは、定期的な [Power BI ブログ投稿](https://powerbi.
 ## <a name="6-attend-training"></a>6\. トレーニングに参加する
 利用できるトレーニング オプションは、対面式のラボ トレーニングから短いビデオまで、ほぼ無限にあります。
 
-* Power BI サイトで提供されている「[ガイド付き学習](guided-learning/gettingstarted.yml?tutorial-step=1)」。
+* Power BI サイトで提供されている「[ガイド付き学習](guided-learning/index.md)」。
 * Power BI サイトでライブおよびオンデマンド形式で提供されている無料の「[Power BI ウェビナー](webinars.md)」。
 
 他にも次のようなオプションをオンラインで利用できます。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994818"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715174"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI サービスから Power BI Desktop にレポートをダウンロードする (プレビュー)
 Power BI Desktop では、ローカル コンピューターから Power BI サービスにレポート ( *.pbix* ファイル) を発行できます。 Power BI レポートは反対の方向に発行することもできます。Power BI サービスから Power BI Desktop にレポートをダウンロードできます。 いずれの場合も、Power BI レポートの拡張子は .pbix です。
@@ -26,7 +26,7 @@ Power BI Desktop では、ローカル コンピューターから Power BI サ�
 
 ## <a name="download-the-report-as-a-pbix-file"></a>レポートを .pbix ファイルとしてダウンロードする
 
-2016 年 11 月 23 日以降に [Power BI Desktop で作成され](guided-learning/publishingandsharing.yml?tutorial-step=2)、その後更新されたレポートのみダウンロードできます。 作成がそれ以前の場合、Power BI サービスの **[レポートのダウンロード]** メニュー オプションは淡色表示されます。
+2016 年 11 月 23 日以降に [Power BI Desktop で作成され](/learn/modules/publish-share-power-bi/2-publish-reports)、その後更新されたレポートのみダウンロードできます。 作成がそれ以前の場合、Power BI サービスの **[レポートのダウンロード]** メニュー オプションは淡色表示されます。
 
 .pbix ファイルをダウンロードするには、次の手順に従います。
 
