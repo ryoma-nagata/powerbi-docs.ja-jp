@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2de6d79971e59879e65d2e3cf652caf156d80cf
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904097"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715527"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI で新しいワークスペースを作成する
 
@@ -28,7 +28,7 @@ Power BI では、新しいワークスペース エクスペリエンスが導�
 - ワークスペースでより柔軟なアクセス許可の管理を行うために、より細分化されたワークスペース ロールを使用する。
 
 > [!NOTE]
-> ワークスペースでコンテンツを参照する Power BI Pro ユーザーに対して行レベル セキュリティ (RLS) を適用するには、引き続き[従来のワークスペース](service-create-workspaces.md)を使用します。 **[メンバーは Power BI コンテンツの表示のみができます]** オプションを選択します。 または、これらのユーザーに対して Power BI アプリを発行するか、共有機能を使用してコンテンツを配布します。 将来のビューアー ロールでは、新しいワークスペース エクスペリエンス ワークスペースでこのシナリオを有効にすることができます。
+> ワークスペースでコンテンツを参照する Power BI Pro ユーザーに対して行レベル セキュリティ (RLS) を適用するには、ユーザーにビューアー ロールを割り当てます。
 
 詳細については、[新しいワークスペース](service-new-workspaces.md)に関する記事を参照してください。
 
@@ -42,7 +42,7 @@ Power BI では、新しいワークスペース エクスペリエンスが導�
    
      ![新しいワークスペース エクスペリエンス](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     **[クラシックに戻す]** を選択した場合は、Office 365 グループに基づいてワークスペースを作成します。 ワークスペース メンバーに対して行レベル セキュリティ (RLS) を適用するために **[メンバーは Power BI コンテンツの表示のみができます]** オプションが必要な場合、このオプションを使用します。
+     **[クラシックに戻す]** を選択した場合は、[Office 365 グループに基づいてワークスペース](service-create-workspaces.md)を作成します。 
 
 2. ワークスペースの名前を付けます。 名前が使用できない場合は、一意の名前になるように編集します。
    

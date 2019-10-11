@@ -10,24 +10,22 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 385cae5511d89ec86e52232066227687673f9523
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d627b74d4c681e409424b18a117743e0488dc34c
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394113"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715466"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散布図の高密度サンプリング
-**Power BI Desktop** の 2017 年 9 月リリースおよび **Power BI サービス**の更新以降、新しいサンプリング アルゴリズムが使用可能です。これにより、散布図で高密度データを表す方法が改善されます。
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+**Power BI Desktop** の 2017 年 9 月リリース以降、新しいサンプリング アルゴリズムが使用可能です。これにより、散布図で高密度データを表す方法が改善されます。
 
 たとえば、一年あたりの各店舗のデータ ポイントが数万になる組織の営業活動から散布図を作成することがあります。 このような情報の散布図では、使用可能なデータからデータをサンプリングし (そのデータのわかりやすい表現を選択して、時間の経過と共に売上がどのように発生しているかを把握し)、基になるデータを表す散布図を作成します。 これは、高密度散布図の一般的な方法です。 Power BI Desktop では高密度データのサンプリングが改善されました。詳細については、この記事で説明します。
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
-
-> [!NOTE]
-> この記事で説明する**高密度サンプリング** アルゴリズムは、**Power BI Desktop** と **Power BI サービス**の両方の散布図に使用できます。
-> 
-> 
+![散布図の例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-01.png)
 
 ## <a name="how-high-density-scatter-charts-work"></a>高密度散布図のしくみ
 これまで、**Power BI** では、決定論的な方法で基になるデータ全体のサンプル データ ポイントのコレクションを選択して散布図を作成していました。 具体的には、Power BI では、散布図グラフの系列の最初と最後の行のデータを選択し、次に合計 3,500 のデータ ポイントを散布図グラフにプロットできるように、残りの行を均等に分割します。 たとえば、サンプルに 35,000 行がある場合、プロットする最初と最後の行を選択し、次にすべての 10 番目ごとの行 (35,000/10 = すべての 10 番目ごとの行 = 3,500 データ ポイント) もプロットします。 以前は、データ系列内の null 値またはプロットできないポイント (テキスト値など) は表示されませんでした。そのためそれらはビジュアルを生成するときに考慮されませんでした。 このようなサンプリングでは、散布図の見かけ上の密度も、表現可能なデータ ポイントに基づいているため、暗黙的な視覚的密度は、サンプリングされたポイントの状況であり、基になるデータの完全なコレクションではありませんでした。
@@ -60,20 +58,22 @@ ms.locfileid: "61394113"
 
 * **[詳細]** で値を右クリックしてメニューから **[データのない項目を表示する]** に設定した場合、散布図は元のアルゴリズムに戻ります。
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
+  ![[データのない項目を表示する] の例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-02.png)
 * **[再生]** 軸に値がある場合、散布図は元のアルゴリズムに戻ります。
 * 散布図の X と Y の両方の軸が存在しない場合、図は元のアルゴリズムに戻ります。
 * **[分析]** ウィンドウで **[比率線]** を使用すると、図は元のアルゴリズムに戻ります。
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
+  ![比率線の使用例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>散布図の [高密度サンプリング] を有効にする方法
 **[高密度サンプリング]** を有効にするには、散布図を選択して **[書式設定]** ウィンドウに移動し、 **[全般]** カードを展開して、カードの下部にある、 **[高密度サンプリング]** トグル スライダーを **[オン]** にスライドします。
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
+![高密度サンプリングの例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-04.png)
 
 > [!NOTE]
 > スライダーが有効になると、Power BI は、使用可能なときには常に**高密度サンプリング**の使用を試行します。 このアルゴリズムを使用できない場合 (たとえば、[*再生*] 軸に値を配置した場合)、図は標準アルゴリズムに戻されますが、スライダーは **[オン]** の位置のままです。 *[再生]* 軸の値を削除した場合 (または、高密度サンプリング アルゴリズムを使用できるように条件が変更された場合)、機能が有効になっているので、図は自動的に高密度のサンプリングを使用します。
+> 
+
 > 
 > [!NOTE]
 > データ ポイントはインデックスによってグループ化または選択されます。 凡例の使用は、アルゴリズムに影響しません。ビジュアルの順序にのみ影響します。

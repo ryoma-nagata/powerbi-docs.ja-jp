@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
-ms.openlocfilehash: ec1aab13955a4c34861a3f0d8dd39b6c77607696
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: f3a52e14271827a043f05d6b170e79718306aa99
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325660"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715243"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server の Power BI レポートの作成
 Power BI サービス (https://powerbi.com) ) のクラウドで Power BI レポートを格納する場合と同じように、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで格納して管理することができます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
@@ -97,7 +97,7 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
 Power BI Desktop でのレポートを作成するために役立つ多くの優れたリソースがあります。 このリンクを出発点にすることをお勧めします。
 
 * [Power BI Desktop の概要](../desktop-getting-started.md)
-* ガイド付き学習:[Power BI Desktop の概要](../guided-learning/gettingdata.yml?tutorial-step=2)
+* ガイド付き学習:[Power BI Desktop を調べる](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 * [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  

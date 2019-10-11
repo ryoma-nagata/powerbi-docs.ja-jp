@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: efb2ee5ef0ed09cbca1a2bebf6ab3a0f8908efb8
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256442"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968679"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI でサポートされる言語と国または地域
 
@@ -121,6 +121,9 @@ Power BI Desktop を入手するには2 つがあります。スタンドアロ�
 * Windows ストアから Power BI Desktop をインストールすると、すべての言語がインストールされ、Windows の既定の言語に対応する言語が既定で表示されます。
 * Power BI Desktop をスタンドアロン インストーラーとしてダウンロードする場合は、インストーラーを実行するときに既定の言語を選択します。これは後で変更できます。
 * 特定のレポートの[データをインポートするときに使うロケールを選択する](#choose-the-locale-for-importing-data-into-power-bi-desktop)こともできます。
+
+> [!NOTE]
+> Power BI Report Server 用に最適化されたバージョンの Power BI Desktop をインストールする場合は、ダウンロード時に言語を選択します。 詳細については、「[Install Power BI Desktop optimized for Power BI Report Server](report-server/install-powerbi-desktop.md)」 (Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール) を参照してください。
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Power BI Desktop の言語を選択する 
 1. Power BI Desktop を [Windows ストアから](http://aka.ms/pbidesktopstore)インストールするか、[スタンドアロン インストーラー](http://aka.ms/pbiSingleInstaller)としてインストールします。

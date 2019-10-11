@@ -3,20 +3,19 @@ title: Power BI のエンド ユーザーからよく寄せられる質問
 description: Power BI サービスおよび Power BI モバイル アプリに関してよく寄せられる質問と回答の一覧をご覧ください。
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 6/17/2019
+ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654139"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943316"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 
@@ -33,27 +32,17 @@ Power BI Pro は、Power BI サービスのすべてのコンテンツと機能�
 
 Power BI Premium では、専用の容量を提供して、より一貫したパフォーマンスを実現します。 また、Power BI でより大規模なデータ ボリュームもサポートします。 個々のユーザーについては、Premium では Pro ユーザーがコンテンツを広範囲に配布できます。コンテンツを表示する受信者にユーザーごとのライセンスは必要ありません。
 
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Power BI Pro ライセンスの有効期限が切れるとどうなりますか?
-
-Power BI Pro ライセンスの有効期限切れ後には猶予期間があります。 ライセンスがボリューム ライセンス契約の一部である場合、猶予期間は 90 日です。 ライセンスを直接購入した場合、猶予期間は 30 日です。
-
-Power BI Pro のサブスクリプション ライフサイクルは Office 365 と同じです。 詳しくは、「[一般法人向け Office 365 のサブスクリプションが終了したとき、データとアクセスはどうなりますか?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)」をご覧ください。
-
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI Premium について質問がある場合はどうすればよいですか?
 
 Power BI Premium に関連する質問については、「[Power BI Premium FAQ](../service-premium-faq.md)」 (Power BI Premium のよく寄せられる質問) をご覧ください。
 
-## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>自分の組織でだれが Power BI アカウントを持っているかを調べるにはどうすればよいですか?
-
-Power BI 用の Azure Active Directory 統合アプリケーション レポートで、組織内のアクティブ ユーザーを確認することができます。 Azure AD のレポートでは、各ユーザーのライセンスの種類は示されません。 このレポートには、Power BI にサインインしたユーザーとログイン時間が示されるだけです。 詳しくは、「[サインインした Power BI ユーザーを見つける](../service-admin-access-usage.md)」をご覧ください。
-
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop とは何ですか?
 
-Power BI Desktop は無償のアプリケーションで、各自のコンピューターに直接インストールできます。 Power BI Desktop は、Power BI サービスと連携して動作します。  データ サイエンティスト、管理者、および開発者は、Power BI Desktop でレポートを作成し、お客様のような Power BI サービスのユーザーが利用できるようにします。 [Power BI Desktop](../desktop-what-is-desktop.md) について、詳細を確認してください。
+Power BI Desktop は無償のアプリケーションで、各自のコンピューターに直接インストールできます。 Power BI Desktop は、Power BI サービスと連携して動作します。  データ サイエンティスト、管理者、および開発者は、Power BI Desktop でレポートを作成し、お客様のような Power BI サービスの*コンシューマー*が利用できるようにします。 [Power BI Desktop](../desktop-what-is-desktop.md) について、詳細を確認してください。
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service"></a>Power BI サービスを使用するには何が必要ですか?
 
-Web ブラウザーと勤務先の電子メール アドレスだけです。 *.gov* および *.mil* のメール アドレスでサインアップすることができます。 詳しくは、「[Power BI サービスに米国政府組織を登録する](../service-govus-signup.md)」をご覧ください。
+Web ブラウザーと勤務先の電子メール アドレスだけです。 *.gov* および *.mil* のメール アドレスでサインアップすることもできます。 詳しくは、「[Power BI サービスに米国政府組織を登録する](../service-govus-signup.md)」をご覧ください。
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>勤務先の電子メール アドレスでサインアップしなければならないのはなぜですか?
 
@@ -88,7 +77,7 @@ Power BI モバイル アプリはそれぞれ該当するストアから無料�
 * [Power BI ブログ](http://blogs.msdn.com/b/powerbi/)
 * [Web セミナー](../webinars.md)
 * [YouTube チャンネル](https://www.youtube.com/user/mspowerbi)の概要ビデオ
-* 記事「[Power BI の概要](../service-get-started.md)」
+* [*コンシューマー*としての Power BI の使用開始](power-bi-consumer-landing.md)に関する記事
 * [コミュニティに参加](https://community.powerbi.com/)して質問する
 * 他の推奨事項については、「[ヘルプを取得するための 10 のヒント](../service-tips-for-finding-help.md)」をご覧ください。
 
@@ -126,6 +115,7 @@ Power BI セキュリティ、プライバシー、およびコンプライア�
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI とは?](../power-bi-overview.md)
+* [Power BI コンシューマーとは何ですか? ](end-user-consumer.md)
+* [コンシューマーが Power BI を使用するにはどうすればよいですか? ](end-user-reading-view.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください

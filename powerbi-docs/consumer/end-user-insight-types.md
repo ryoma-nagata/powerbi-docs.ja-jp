@@ -4,23 +4,25 @@ description: Power BI でのクイック インサイトと詳細情報の表示
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/23/2019
+ms.date: 10/2/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 991dd7bb94e79a21c8e4ec877093b81d2ed9b285
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 507d49ba6cdb894667bf66f8f35c5c325b9ff25e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327777"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943919"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI でサポートされているインサイトの種類
+
+Power BI サービスでは、ダッシュボードまたはレポートのインサイトを自動的に検索できます。
+
 ## <a name="how-does-insights-work"></a>インサイトのしくみ
-Power BI は、興味がある可能性のある情報を検出するために一連の高度なアルゴリズムを適用しながら、データセットのさまざまなサブセットをすばやく検索します。 Power BI は、割り当てられた時間で、可能な限り多くのデータセットをスキャンします。
+Power BI はデータセットのさまざまなサブセットをすばやく検索します。 Power BI は検索する際、興味がある可能性のあるインサイトを検出するために一連の洗練されたアルゴリズムを適用します。 Power BI は、割り当てられた時間で、可能な限り多くのデータセットをスキャンします。
 
 データセットまたはダッシュボードのタイルに対して、インサイトを実行できます。   
 
@@ -50,7 +52,7 @@ Power BI は、興味がある可能性のある情報を検出するために�
 ## <a name="majority-major-factors"></a>マジョリティ (主要因子)
 別のディメンションによって分類した場合に、合計値の大部分が単一の因子に帰する可能性があるケースを検索します。  
 
-![主要因子の例](./media/end-user-insight-types/pbi_auto_insight_types_majority.png)
+![主な要因の例](./media/end-user-insight-types/pbi_auto_insight_types_majority.png)
 
 ## <a name="overall-trends-in-time-series"></a>時系列の全体的な傾向
 時系列データの上昇または下降の傾向を検出します。
@@ -74,8 +76,6 @@ Power BI は、興味がある可能性のある情報を検出するために�
 
 ## <a name="next-steps"></a>次の手順
 [Power BI のインサイト](end-user-insights.md)
-
-データセットを所有している場合は、[インサイト用に最適化します](../service-insights-optimize.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
 

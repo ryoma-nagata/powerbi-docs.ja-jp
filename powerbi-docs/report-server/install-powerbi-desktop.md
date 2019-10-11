@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: bbd9a3884b3b6b0cd235471b0746f605e3872aff
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/03/2019
+ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325747"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968644"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
 
-Power BI Report Server の Power BI レポートを作成するには、Power BI Report Server 向けに最適化された Power BI Desktop をダウンロードしてインストールする必要があります。 このリリースは、Power BI サービスで使用される Power BI Desktop とは別のものです。 たとえば、Power BI サービス向けの Power BI Desktop 版にはプレビュー機能が含まれていていますが、これらのプレビュー機能は Power BI Report Server 版にはなく、それらがリリースされて初めて含められます。 このリリースを使用すると、レポート サーバーが、既知のバージョンのレポートおよびモデルと対話できることを確認できます。 
+Power BI Report Server の Power BI レポートを作成するには、Power BI Report Server 向けに最適化された Power BI Desktop のバージョンをダウンロードしてインストールする必要があります。 このリリースは、Power BI サービスで使用される Power BI Desktop とは別のものです。 たとえば、Power BI サービス向けの Power BI Desktop 版にはプレビュー機能が含まれていていますが、これらのプレビュー機能は Power BI Report Server 版にはなく、それらが一般提供されて初めて含められます。 このリリースを使用すると、レポート サーバーが、既知のバージョンのレポートおよびモデルと対話できることを確認できます。 
 
 Power BI Desktop と、Power BI Report Server 向けに最適化された Power BI Desktop は、同じコンピューターにサイド バイ サイドでインストールできます。
 
@@ -32,7 +32,7 @@ Power BI Report Server 向けに最適化された Power BI Desktop のバージ
 
     あるいは、[Power BI Report Server](https://powerbi.microsoft.com/report-server/) ホーム ページに進み、 **[高度なダウンロード オプション]** を選択します。
 
-2. ダウンロード センター ページで、 **[ダウンロード]** を選択します。
+2. ダウンロード センター ページで、言語を選択し、 **[ダウンロード]** を選択します。
 
 3. 使用しているコンピューターに適したものを以下から選択します。 
 
@@ -65,7 +65,11 @@ Power BI Report Server 内で Power BI レポートを編集したり、Web ポ�
 
 Power BI Report Server、Power BI サービス (http://app.powerbi.com) )、Power BI モバイル アプリの Power BI レポートは、ほぼ同じように機能しますが、いくつかの機能は異なります。
 
-### <a name="in-a-browser"></a>ブラウザー
+### <a name="selecting-a-language"></a>言語の選択
+
+Power BI Report Server 用に最適化された Power BI Desktop について、アプリをインストールするときに言語を選択します。 後でこれを変更することはできませんが、別の言語のバージョンをインストールすることはできます。
+
+### <a name="report-visuals-in-a-browser"></a>ブラウザーのレポートのビジュアル
 
 Power BI Report Server のレポートでは、カスタムのビジュアルなど、ほぼすべての視覚化がサポートされます。 Power BI レポート サーバーのレポートは、次をサポートしません。
 
@@ -74,7 +78,7 @@ Power BI Report Server のレポートでは、カスタムのビジュアルな
 * 階層リンク
 * Power BI Desktop のプレビュー機能
 
-### <a name="in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリ
+### <a name="reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポート
 
 Power BI レポート サーバーのレポートは、次を含む [Power BI モバイル アプリ](../consumer/mobile/mobile-apps-for-mobile-devices.md)のすべての基本機能をサポートします。
 

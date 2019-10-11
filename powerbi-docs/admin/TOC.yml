@@ -1,0 +1,65 @@
+- name: Power BI 管理
+  items:
+    - name: 概要
+      expanded: true
+      items:
+        - name: Power BI 管理とは
+          href: ../service-admin-administering-power-bi-in-your-organization.md
+    - name: 概念
+      expanded: true
+      items:
+        - name: Office 365 の管理ロール
+          href: ../service-admin-role.md
+        - name: よく寄せられる質問 (FAQ)
+          href: ../service-admin-faq.md
+        - name: 高可用性とフェールオーバーの FAQ
+          href: ../service-admin-failover.md
+    - name: 方法
+      items:
+        - name: ライセンスとサインアップ
+          items:
+            - name: 組織向けのライセンス
+              href: ../service-admin-licensing-organization.md
+            - name: Power BI Pro を購入する
+              href: ../service-admin-purchasing-power-bi-pro.md
+            - name: Office 365 の試用版にサインアップする
+              href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+            - name: Office 365 パートナーによる Power BI の追加
+              href: ../service-admin-syndication-partner.md
+        - name: 管理ポータルの使用
+          href: ../service-admin-portal.md
+        - name: 自分のテナントの場所はどこにありますか?
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: サインインしたユーザーを見つける
+          href: ../service-admin-access-usage.md
+        - name: Power BI の監査
+          href: ../service-admin-auditing.md
+        - name: サービスの正常性の追跡
+          href: ../service-admin-health.md
+        - name: Power BI アカウントを削除する
+          href: ../service-admin-closing-your-account.md
+        - name: Power BI と ExpressRoute
+          href: ../service-admin-power-bi-expressroute.md
+        - name: Azure AD B2B を使用する
+          href: ../service-admin-azure-ad-b2b.md
+        - name: Power BI での行レベルのセキュリティ
+          href: ../service-admin-rls.md
+        - name: Power BI アーカイブ済みワークスペース
+          href: ../service-admin-power-bi-archived-workspace.md
+        - name: Intune でモバイル アプリを構成する
+          href: ../service-admin-mobile-intune.md
+    - name: リファレンス
+      items:
+        - name: PowerShell、REST API、および .NET SDK
+          href: ../service-admin-reference.md
+        - name: PowerShell 用の Power BI のコマンドレット
+          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          maintainContext: true
+        - name: サービス URL リファレンス
+          href: ../power-bi-whitelist-urls.md
+    - name: リソース
+      items:
+        - name: Power BI の管理と展開のアプローチ
+          href: ../service-admin-governance.md
+        - name: Power BI のセキュリティ
+          href: ../service-admin-power-bi-security.md

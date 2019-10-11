@@ -1,22 +1,21 @@
 ---
-title: レポート利用者向けの Power BI
-description: Power BI を初めて使いますか? Power BI の機能を理解し、Power BI のコンシューマーまたはエンド ユーザーとしてそれらを利用してできることを確認してください。
+title: 利用者向けの Power BI
+description: Power BI を初めて使いますか? Power BI サービスの機能を理解し、Power BI のコンシューマーまたはエンド ユーザーとしてそれらを利用してできることを確認してください。
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 09/11/2019
+ms.date: 10/01/2019
 ms.author: mihart
 layout: HubPage
-ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: ec123c29bc6cf942c096ffb78b8bfab10be3bc14
+ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073396"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "71829609"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -26,7 +25,7 @@ ms.locfileid: "71073396"
             <p>Power BI コンシューマー向けドキュメントのすべてを確認するには、<a href="end-user-consumer.md">目次</a>を開いてください。</p>
             <ul class="pivots">
             <li>
-                <a href="#get-started" data-linktype="self-bookmark">作業の開始</a>
+                <a href="#get-started" data-linktype="self-bookmark">概要</a>
                 <ul id="get-started" class="cardsF">
                     <li>
                         <a data-default="true" href="#getstarted" data-linktype="self-bookmark"></a>
@@ -105,7 +104,8 @@ ms.locfileid: "71073396"
                                                 <p><a href="/power-bi/consumer/end-user-experience" data-linktype="absolute-path">ナビゲーション - 必要なコンテンツをすばやく検索する</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-q-and-a" data-linktype="absolute-path">Q&amp;A - 自然言語を使用して質問をする</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-report-filter" data-linktype="absolute-path">フィルターおよびスライサーとの対話</a></p>
-                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">Power BI で表示されるビジュアルの種類について</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">ビジュアルの種類について</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-app-marketing" data-linktype="absolute-path">サンプル アプリをダウンロードする</a></p>
                                             </div>
                                         </div>
                                     </div>

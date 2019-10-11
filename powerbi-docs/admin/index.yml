@@ -1,0 +1,61 @@
+### YamlMime:Landing
+title: 管理者向けの Power BI
+summary: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+metadata:
+  title: 管理者向けの Power BI
+  description: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/04/2019
+  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
+  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 10/10/2019
+  ms.locfileid: "72245652"
+landingContent:
+- title: 管理者の Power BI について
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI 管理とは
+      url: ../service-admin-administering-power-bi-in-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Office 365 の管理ロール
+      url: ../service-admin-role.md
+- title: 作業の開始
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 組織向けのライセンス
+      url: ../service-admin-licensing-organization.md
+    - text: 管理ポータルの使用
+      url: ../service-admin-portal.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI Pro を購入する
+      url: ../service-admin-purchasing-power-bi-pro.md
+    - text: Office 365 の試用版にサインアップする
+      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+    - text: Office 365 パートナーによる Power BI の追加
+      url: ../service-admin-syndication-partner.md
+- title: テナント
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 自分のテナントの場所はどこにありますか?
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: サインインしたユーザーを見つける
+      url: ../service-admin-access-usage.md
+    - text: Power BI の監査
+      url: ../service-admin-auditing.md
+    - text: サービスの正常性の追跡
+      url: ../service-admin-health.md
+    - text: Power BI アカウントを削除する
+      url: ../service-admin-closing-your-account.md

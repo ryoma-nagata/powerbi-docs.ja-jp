@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: f0cc7563fc59a6c1ceeceefcf4b65b0cc1a3aa80
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462331"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968665"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI のページ分割されたレポートでサポートされるデータ ソース
 
@@ -24,13 +24,14 @@ ms.locfileid: "68462331"
 
 ページ分割されたレポートでは、次のデータ ソースの一覧をネイティブでサポートします。
 
-| データ ソース | 認証 | 注 |
+| データ ソース | 認証 | ノート |
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL Data Warehouse | 基本、シングル サインオン (SSO)、OAuth2 |   |
+| Azure SQL Managed Instance | 基本 | Azure SQL Database 拡張機能を使用したパブリック エンドポイント経由  |
 | Azure Analysis Services | SSO、OAuth2 |   |
 | Power BI データセット | SSO | Premium と Premium 以外の Power BI データセット |
 | Premium Power BI データセット (XMLA) | SSO |   |
-| データの入力 | N/A | データはレポートに埋め込まれます。 |
+| データの入力 | 該当なし | データはレポートに埋め込まれます。 |
 
 Azure SQL Database を除き、データ ソースはすべて、Power BI サービスにレポートをアップロードした後に使用できるようになります。 データ ソースは、既定でシングル サインオン (SSO) を使用するように設定されています (該当する場合)。 Azure Analysis Services では、認証の種類を OAuth2 に変更できます。
 

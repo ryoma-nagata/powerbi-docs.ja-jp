@@ -502,6 +502,8 @@
             - name: ワークスペースをまたいでデータセットを使用
               href: service-datasets-across-workspaces.md
             - name: データセットの共有 (プレビュー)
+              href: service-datasets-share.md
+            - name: 共有データセットのビルド アクセス許可
               href: service-datasets-build-permissions.md
             - name: データセットに基づいてレポートを作成する
               href: service-datasets-discover-across-workspaces.md
@@ -757,6 +759,8 @@
           items:
             - name: Power BI 内のコンテンツの名前を変更する
               href: service-rename.md
+            - name: 項目の連絡先の設定
+              href: service-item-contact.md
             - name: 米国政府組織を登録する
               href: service-govus-signup.md
             - name: Power BI のほとんどすべてのものを削除する
@@ -773,8 +777,6 @@
                   href: service-connect-to-appfigures.md
                 - name: Application Insights
                   href: service-connect-to-application-insights.md
-                - name: AT Internet Bridge
-                  href: service-connect-to-at-internet.md
                 - name: Azure の監査ログ
                   href: service-connect-to-azure-audit-logs.md
                 - name: Azure Mobile Engagement
@@ -799,8 +801,6 @@
                   href: service-connect-to-lithium.md
                 - name: Mandrill
                   href: service-connect-to-mandrill.md
-                - name: Marketo
-                  href: service-connect-to-marketo.md
                 - name: Microsoft Dynamics AX
                   href: service-connect-to-microsoft-dynamics-ax.md
                 - name: Microsoft Dynamics CRM
@@ -809,14 +809,10 @@
                   href: service-connect-to-microsoft-dynamics-nav.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: Planview Enterprise
-                  href: service-connect-to-planview.md
                 - name: Prevedere
                   href: service-connect-to-prevedere.md
                 - name: Project Online
                   href: service-connect-to-project-online.md
-                - name: Projectplace
-                  href: service-connect-to-projectplace.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
                 - name: Salesforce
@@ -843,8 +839,6 @@
                   href: service-connect-to-uservoice.md
                 - name: VMob
                   href: service-connect-to-vmob.md
-                - name: Webtrends
-                  href: service-connect-to-webtrends.md
                 - name: Windows デベロッパー センター
                   href: service-connect-to-windows-dev-center.md
                 - name: Xero
@@ -967,136 +961,6 @@
           href: report-builder-url-pass-parameters.md
         - name: ページ分割されたレポートを発行する
           href: paginated-reports-save-to-power-bi-service.md
-    - name: カスタム ビジュアル
-      items:
-        - name: 概要
-          items:
-            - name: Power BI のビジュアル
-              href: power-bi-custom-visuals.md
-        - name: チュートリアル
-          items:
-            - name: Power BI のビジュアルを開発する
-              href: developer/custom-visual-develop-tutorial.md
-            - name: 書式設定オプションを追加する
-              href: developer/custom-visual-develop-tutorial-format-options.md
-            - name: ビジュアル プロジェクトの単体テストを追加する
-              href: developer/visuals/unit-tests-introduction.md
-        - name: 概念
-          items:
-            - name: Power BI での組織のビジュアル
-              href: power-bi-custom-visuals-organization.md
-            - name: Power BI ビジュアルのガイドライン
-              href: developer/guidelines-powerbi-visuals.md
-            - name: ビジュアルに関する FAQ
-              href: power-bi-custom-visuals-faq.md
-            - name: 機能を使用する
-              href: developer/visuals/capabilities.md
-            - name: データ ビューのマッピング
-              href: developer/visuals/dataview-mappings.md
-            - name: オブジェクトとプロパティ
-              href: developer/visuals/objects-properties.md
-            - name: 高度な編集モード
-              href: developer/visuals/advanced-edit-mode.md
-        - name: 方法
-          items:
-            - name: ビジュアルの認定を受ける
-              href: power-bi-custom-visuals-certified.md
-            - name: カスタム ビジュアルを AppSource に発行する
-              href: developer/office-store.md
-            - name: Power BI で R を利用したカスタム ビジュアルを使用する
-              href: desktop-r-powered-custom-visuals.md
-            - name: ビジュアルの相互作用
-              href: developer/visuals/visuals-interactions.md
-            - name: ビジュアルのツールヒントを追加する
-              href: developer/visuals/add-tooltips.md
-            - name: 分析ウィンドウを追加する
-              href: developer/visuals/analytics-pane.md
-            - name: ビジュアルのフィルター処理
-              href: developer/visuals/filter-api.md
-            - name: より多くのデータをフェッチする
-              href: developer/visuals/fetch-more-data.md
-            - name: ブックマーク サポートを追加する
-              href: developer/visuals/bookmarks-support.md
-            - name: ビジュアル内のデータを強調表示する
-              href: developer/visuals/highlight.md
-            - name: ハイコントラスト モードのサポートを追加する
-              href: developer/visuals/high-contrast-support.md
-            - name: スライサーの同期を有効にする
-              href: developer/visuals/enable-sync-slicers.md
-            - name: Power BI ビジュアルのトラブルシューティング
-              href: power-bi-custom-visuals-troubleshoot.md
-        - name: リファレンス
-          items:
-            - name: ランディング ページ
-              href: developer/visuals/landing-page.md
-            - name: URL の起動
-              href: developer/visuals/launch-url.md
-            - name: イベントのレンダリング
-              href: developer/visuals/event-service.md
-            - name: 並べ替え
-              href: developer/visuals/sort-options.md
-        - name: リソース
-          items:
-            - name: デベロッパー センター
-              href: 'https://powerbi.microsoft.com/developers/'
-            - name: サンプル
-              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: カスタム ビジュアル Git リポジトリ
-              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-            - name: SSL 証明書を作成する
-              href: developer/visuals/create-ssl-certificate.md
-    - name: オートメーション
-      items:
-        - name: 概要
-          items:
-            - name: Power BI API の機能
-              href: developer/overview-of-power-bi-rest-api.md
-        - name: チュートリアル
-          items:
-            - name: データセットにデータをプッシュする
-              href: developer/walkthrough-push-data.md
-            - name: 認証アクセス トークンを取得する
-              href: developer/walkthrough-push-data-get-token.md
-            - name: データセットの作成
-              href: developer/walkthrough-push-data-create-dataset.md
-            - name: 行を追加するためにデータセットを取得する
-              href: developer/walkthrough-push-data-get-datasets.md
-            - name: テーブルに行を追加する
-              href: developer/walkthrough-push-data-add-rows.md
-        - name: 概念
-          items:
-            - name: リアルタイム データの自動保持ポリシー
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-            - name: データのプッシュ
-              items:
-                - name: Power BI REST API の制限事項
-                  href: developer/api-rest-api-limitations.md
-                - name: データセットのプロパティ
-                  href: developer/api-dataset-properties.md
-                - name: データ モデルのバージョン管理
-                  href: developer/api-data-model-versioning.md
-        - name: 方法
-          items:
-            - name: 資格情報を構成する
-              href: developer/configure-credentials.md
-            - name: 資格情報を暗号化する
-              href: developer/encrypt-credentials.md
-        - name: リファレンス
-          items:
-            - name: REST API
-              href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI REST API リファレンス
-              href: developer/rest-api-reference.md
-            - name: 完全なコード リスト
-              href: developer/walkthrough-push-data-complete-code.md
-        - name: リソース
-          items:
-            - name: デベロッパー センター
-              href: 'https://powerbi.microsoft.com/en-us/developers/'
-            - name: 'Power BI C# Git リポジトリ'
-              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-            - name: .NET SDK ダウンロード
-              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI Report Server
   items:
     - name: 概要
@@ -1267,69 +1131,6 @@
       items:
         - name: 毎月のゲートウェイ更新プログラム
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: 管理
-  items:
-    - name: 概要
-      items:
-        - name: Power BI 管理とは
-          href: service-admin-administering-power-bi-in-your-organization.md
-    - name: 概念
-      items:
-        - name: Office 365 の管理ロール
-          href: service-admin-role.md
-        - name: よく寄せられる質問 (FAQ)
-          href: service-admin-faq.md
-        - name: 高可用性とフェールオーバーの FAQ
-          href: service-admin-failover.md
-    - name: 方法
-      items:
-        - name: ライセンスとサインアップ
-          items:
-            - name: 組織向けのライセンス
-              href: service-admin-licensing-organization.md
-            - name: Power BI Pro を購入する
-              href: service-admin-purchasing-power-bi-pro.md
-            - name: Office 365 の試用版にサインアップする
-              href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Office 365 パートナーによる Power BI の追加
-              href: service-admin-syndication-partner.md
-        - name: 管理ポータルの使用
-          href: service-admin-portal.md
-        - name: 自分のテナントの場所はどこにありますか?
-          href: service-admin-where-is-my-tenant-located.md
-        - name: サインインしたユーザーを見つける
-          href: service-admin-access-usage.md
-        - name: Power BI の監査
-          href: service-admin-auditing.md
-        - name: サービスの正常性の追跡
-          href: service-admin-health.md
-        - name: Power BI アカウントを削除する
-          href: service-admin-closing-your-account.md
-        - name: Power BI と ExpressRoute
-          href: service-admin-power-bi-expressroute.md
-        - name: Azure AD B2B を使用する
-          href: service-admin-azure-ad-b2b.md
-        - name: Power BI での行レベルのセキュリティ
-          href: service-admin-rls.md
-        - name: Power BI アーカイブ済みワークスペース
-          href: service-admin-power-bi-archived-workspace.md
-        - name: Intune でモバイル アプリを構成する
-          href: service-admin-mobile-intune.md
-    - name: リファレンス
-      items:
-        - name: PowerShell、REST API、および .NET SDK
-          href: service-admin-reference.md
-        - name: PowerShell 用の Power BI のコマンドレット
-          href: 'https://docs.microsoft.com/powershell/power-bi/'
-          maintainContext: true
-        - name: サービス URL リファレンス
-          href: power-bi-whitelist-urls.md
-    - name: リソース
-      items:
-        - name: Power BI の管理と展開のアプローチ
-          href: service-admin-governance.md
-        - name: Power BI のセキュリティ
-          href: service-admin-power-bi-security.md
 - name: ガイダンス
   items:
     - name: 概要
@@ -1340,6 +1141,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: DIVIDE 関数と除算演算子 (/)
       href: guidance/dax-divide-function-operator.md
+    - name: エラー関数の適切な使用方法
+      href: guidance/dax-error-functions.md
     - name: データフローのベスト プラクティス
       href: service-dataflows-best-practices.md
     - name: ホワイトペーパー

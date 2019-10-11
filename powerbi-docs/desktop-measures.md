@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730091"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715392"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop のメジャー
 
 **Power BI Desktop** では、わずか数クリックで、データに対する洞察を作成できます。 しかし、場合によっては、最も重要な質問に答えるために必要なものが、データに含まれていないことがあります。 メジャーは、それを入手するために役立ちます。
 
-メジャーは、最も一般的なデータ分析のいくつかに使用します。 [集計およびカテゴリ](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16)に関するビデオで説明しているように、合計、平均、最小値、最大値、カウントなどのシンプルな集計は、[フィールド] ウェルで設定できます。 DAX 式を使用すれば、より高度な計算を自分で作成できます。 メジャーの計算結果は、ユーザーがレポートを操作するたびに変化するため、アドホック データ探索を高速で、また動的に実行できます。 詳しく見てみましょう。
+メジャーは、最も一般的なデータ分析のいくつかに使用します。 合計、平均、最小値、最大値、カウントなどのシンプルな集計は、[フィールド] ウェルで設定できます。 メジャーの計算結果は、ユーザーがレポートを操作するたびに変化するため、アドホック データ探索を高速で、また動的に実行できます。 詳しく見てみましょう。 詳細については、「[計算メジャーを作成する](/learn/modules/model-data-power-bi/4b-create-calculated-measures)」を参照してください。
 
 ## <a name="understanding-measures"></a>メジャーについて
 

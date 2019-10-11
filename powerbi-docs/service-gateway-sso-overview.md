@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: a99aad87763edce54996f0a485fde5498fb1df11
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100382"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968615"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI のゲートウェイ用シングル サインオン (SSO) の概要
 
@@ -30,6 +30,8 @@ ms.locfileid: "71100382"
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
 
+現在、[M-extensions](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md) の SSO はサポートされていません。
+
 ユーザーが Power BI サービスで DirectQuery レポートを操作すると、クロスフィルター、スライス、並べ替え、レポート編集の各操作で、基になるオンプレミス データ ソースに対してクエリがライブ実行される場合があります。 データ ソースに SSO が構成されていると、Power BI を操作しているユーザーの ID でクエリが実行されます (つまり、Web エクスペリエンスまたは Power BI モバイル アプリで)。 これにより、各ユーザーには、そのユーザーが基になるデータ ソースでアクセス許可を持っているデータだけが表示されます。シングル サインオンを構成すると、異なるユーザー間で共有されるデータ キャッシュはありません。
 
 ## <a name="query-steps-when-running-sso"></a>SSO を実行するときのクエリ ステップ
@@ -40,13 +42,13 @@ SSO を使ったクエリ実行は、次の図に示す 3 つのステップで�
 
 これらの手順の詳細を次に示します。
 
-1. 各クエリに対し、**Power BI サービス**は構成されたゲートウェイに送信するクエリ要求に*ユーザー プリンシパル名* (UPN) を組み込みます。
+1. 構成済みゲートウェイにクエリ要求が送信されるときに、クエリごとに **Power BI サービス**には*ユーザー プリンシパル名* (UPN、つまり現在 Power BI サービスにログインしているユーザーの完全修飾ユーザー名) が含まれます。
 
 2. ゲートウェイは、Azure Active Directory の UPN を Active Directory のローカル ID にマップする必要があります。
 
    a.  Azure AD DirSync (*Azure AD Connect* とも呼ばれる) が構成されている場合は、マッピングがゲートウェイで自動的に動作します。
 
-   b.  それ以外の場合、ゲートウェイは、ローカルの Active Directory ドメインに対して検索を実行することにより、Azure AD UPN を参照し、これをローカル ユーザーにマップします。
+   b.  それ以外の場合、ゲートウェイは、ローカルの Active Directory ドメインに対して検索を実行することにより、Azure AD UPN を参照し、これをローカルの AD ユーザーにマップします。
 
 3. ゲートウェイ サービスのプロセスは、マップされたローカル ユーザーを偽装して、基になるデータベースへの接続を開き、クエリを送信します。 ゲートウェイはデータベースと同じコンピューターにインストールされている必要はありません。
 

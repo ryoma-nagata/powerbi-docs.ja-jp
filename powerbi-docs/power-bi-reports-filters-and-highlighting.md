@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: cfae856cf80027a92fb7d19c27b990aa659d992d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342160"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968747"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI レポートのフィルターと強調表示
  この記事では、Power BI サービスでのフィルター処理と強調表示の概要を示します。 操作は Power BI Desktop の場合とほぼ同じです。 *フィルター処理*を実行すると、絞り込んだデータ以外のすべてのデータが削除されます。 "*強調表示*" はフィルター処理ではありません。 データが削除されることはなく、表示されるデータのサブセットが強調表示されます。強調表示対象外のデータは表示されますが、淡色になります。
@@ -28,7 +28,7 @@ Power BI ではさまざまな方法でレポートをフィルター処理お�
 * Power BI Desktop と Power BI サービスの[編集ビューで利用できるフィルターと強調表示のコントロール](power-bi-report-add-filter.md)の詳細なツアー。 この記事では、日付と時刻、数値、テキストなどのフィルターの種類について詳しく説明します。 また、基本オプションと詳細オプションの違いについても説明します。
 * フィルターと強調表示の既定の動作を理解した後は、[ページの視覚エフェクトが相互にフィルターおよび強調表示する方法を変更する](service-reports-visual-interactions.md)方法を学習してください
 
-**ご存知でしたか?** Power BI には新しいフィルター エクスペリエンスがあります (現在プレビュー段階)。 詳細については、[Power BI レポートの新しいフィルター エクスペリエンス](power-bi-report-filter.md)に関する記事をご覧ください。
+**ご存知でしたか?** Power BI には新しいフィルター エクスペリエンスがあります。 詳細については、[Power BI レポートの新しいフィルター エクスペリエンス](power-bi-report-filter.md)に関する記事をご覧ください。
 
 ![新しいフィルター エクスペリエンス](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 

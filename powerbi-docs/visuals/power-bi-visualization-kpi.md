@@ -11,19 +11,24 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8fa39c7cc57e24f0c19e1a484c0e925bfeec94f7
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389693"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715222"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>主要業績評価指標 (KPI) ビジュアル
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 KPI の詳細については、「[PowerPivot の主要業績評価指標 (KPI)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))」を参照してください。
 
 Will が単一のメトリック ビジュアル (ゲージ、カード、KPI) を作成するのをご覧ください。
-
+   > [!NOTE]
+   > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>KPI を使用する場合
@@ -42,19 +47,19 @@ KPI データセットには KPI の目標値が含まれている必要があ�
 
 ## <a name="prerequisites"></a>前提条件
 
-Power BI にサインアップしていない場合は、[無料の試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
 
-* [Power BI Desktop](https://powerbi.microsoft.com/get-started/) - 無料
+1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
+   
+2. **小売の分析のサンプル PBIX ファイル**を探します。
 
-* [小売りの分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
+
+1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
 ## <a name="how-to-create-a-kpi"></a>KPI を作成する方法
 
-理解するには、「[小売りの分析のサンプルの .PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)」を Power BI Desktop で開きます。 売上目標に対する進行状況を測定する KPI を作成します。
-
-1. **小売りの分析のサンプル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
-
-1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+この例では、売上目標に対する進行状況を測定する KPI を作成します。
 
 1. **[フィールド]** ウィンドウで、 **[Sales] > [Total Units This Year]** を選択します。  この値がインジケーターになります。
 

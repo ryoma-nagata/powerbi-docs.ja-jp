@@ -7,36 +7,40 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/24/2019
+ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b95df5c32d9058e4480d7af5e226a971ba581144
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 3a73656d8de462dfc7d1d9e7ac742d588cc8c810
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256291"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943883"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Power BI のレポート内でビジュアルがどのように相互作用するか
 Power BI の優れた機能の 1 つは、レポート ページ上のすべてのビジュアルが相互接続される方法です。 ビジュアルのいずれかのデータ ポイントを選択すると、そのデータを含むページ上の他のすべてのビジュアルが選択に基づいて変化します。 
 
 ![ビジュアルの相互作用のビデオ](media/end-user-interactions/interactions.gif)
 
-既定では、レポート ページ上の 1 つの視覚エフェクトでデータ ポイントを選択すると、そのページ上の他の視覚エフェクトに対してクロスフィルター処理、クロス強調表示、ドリルが行われます。 
+## <a name="how-visuals-interact-with-each-other"></a>ビジュアルの相互作用のしくみ
 
-データに含まれる 1 つの値が他の値にどのように貢献しているかを確認する際に役立つことがあります。 たとえば、ドーナツ グラフで [Moderation] セグメントを選択すると、[Total units by Month] グラフにおけるそのセグメントの各列に対する貢献が強調表示されます。また、右側で折れ線グラフにフィルターが適用されます。
+既定では、レポート ページ上の 1 つのビジュアルでデータ ポイントを選択すると、そのページ上の他のビジュアルに対してクロスフィルター処理またはクロス強調表示が行われます。 ページ上のビジュアルがどのように相互作用するかは、レポート *デザイナー*によって設定されます。 *デザイナー*には、視覚的な相互作用のオンとオフを切り替えるオプションと、既定のクロスフィルター処理、クロス強調表示、および[詳細表示](end-user-drill.md)の動作を変更するオプションがあります。 
+
+階層または詳細表示を目にしたことがない場合、[Power BI でのドリル ダウン](end-user-drill.md)に関する記事を読んで詳細を学ぶことができます。 
+
+データに含まれる 1 つの値が他の値にどのように貢献しているかを確認するには、クロスフィルター処理およびクロス強調表示が役立ちます。 たとえば、ドーナツ グラフで [Moderation] セグメントを選択すると、[Total units by Month] グラフにおけるそのセグメントの各列に対する貢献が強調表示されます。また、折れ線グラフがフィルター処理されます。
 
 ![ビジュアルの相互作用をとらえた画像](media/end-user-interactions/power-bi-interactions.png)
 
-「[フィルター処理と強調表示について](../power-bi-reports-filters-and-highlighting.md)」を参照してください。 
+「[フィルター処理と強調表示について](end-user-report-filter.md)」を参照してください。 
 
-ページ上のビジュアルがどのように相互作用するかは、レポート *デザイナー*によって設定されます。 デザイナーには、視覚的な相互作用のオンとオフを切り替えるオプションと、既定のクロスフィルター処理、クロス強調表示、およびドリルの動作を変更するオプションがあります。 
+
   
 > [!NOTE]
-> *クロスフィルター処理* と *クロス強調表示* という用語は、ここで説明する動作を、 **[フィルター]** ウィンドウを使って視覚化のフィルター処理と強調表示を行う場合の動作と区別するために使っています。  
+> *クロスフィルター処理* と *クロス強調表示* という用語は、ここで説明する動作を、 **[フィルター]** ウィンドウを使ってビジュアルのフィルター処理と強調表示を行う場合の動作と区別するために使用しています。  
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-- [詳細表示](../power-bi-visualization-drill-down.md)に対応している視覚エフェクトがレポートに含まれる場合、既定では、ある視覚エフェクトに詳細表示を適用してもレポート ページの他の視覚エフェクトは変更されません。     
+- [詳細表示](end-user-drill.md)に対応しているビジュアルがレポートに含まれる場合、既定では、あるビジュアルに詳細表示を適用してもレポート ページの他のビジュアルは変更されません。     
 - visualA を使用して visualB とやりとりすると、visualA のビジュアルレベル フィルターが visualB にも適用されます。
 
 ## <a name="next-steps"></a>次の手順

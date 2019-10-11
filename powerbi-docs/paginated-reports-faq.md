@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 09/04/2019
-ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.date: 10/04/2019
+ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751530"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968490"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI のページ分割されたレポート:よく寄せられる質問 
 
@@ -123,6 +123,7 @@ Microsoft では最近 Power BI レポート ビルダーを、ページ分割�
 - Azure Analysis Services (シングル サインオン (SSO) および oAuth を使用)
 - Azure SQL Data Warehouse
 - Azure SQL Database (ユーザー名/パスワード、SSO、OAuth)
+- パブリック エンドポイント経由の Azure SQL Managed Instance (ユーザー名/パスワード)
 - SQL Server*
 - SQL Server Analysis Services (SSAS) 表形式 (DAX) および多次元 (MDX) モデル* 
 - Oracle* 
