@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715222"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239925"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>主要業績評価指標 (KPI) ビジュアル
 
@@ -50,12 +50,12 @@ KPI データセットには KPI の目標値が含まれている必要があ�
 このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
 
 1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
-   
-2. **小売の分析のサンプル PBIX ファイル**を探します。
 
-1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
+1. **小売の分析のサンプル PBIX ファイル**を探します。
 
-1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+1. **小売りの分析のサンプルの .PBIX ファイル**をレポート ビューで開きます。 ![レポート ビューのアイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. 新しいページを追加するには **+** を選択します。 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
 
 ## <a name="how-to-create-a-kpi"></a>KPI を作成する方法
 
