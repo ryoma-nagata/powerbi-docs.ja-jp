@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "70987018"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239920"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -113,7 +113,7 @@ Power BI の **[Web に公開]** オプションを使用すると、Power BI �
 
 ## <a name="updates-to-reports-and-data-refresh"></a>レポートへの更新とデータ更新
 
-**[Web に公開]** 埋め込みコードを作成して共有した後は、加えられた変更を反映してレポートが更新され、埋め込みコードのリンクが直ちに有効になります。 そのリンクを開いたすべてのユーザーがそれを参照できます。 ただし、この最初の操作後、レポートまたはビジュアルの更新がユーザーに表示されるには約 1 時間かかります。 更新をすぐに反映する必要がある場合は、埋め込みコードを削除し、新しいコードを作成することができます。 詳しくは、この記事で後述する「[**機能方法**](#howitworks)」をご覧ください。 
+**[Web に公開]** 埋め込みコードを作成して共有した後は、加えられた変更を反映してレポートが更新され、埋め込みコードのリンクが直ちに有効になります。 そのリンクを開いたすべてのユーザーがそれを参照できます。 ただし、この最初の操作後、レポートまたはビジュアルの更新がユーザーに表示されるには約 1 時間かかります。 詳しくは、この記事で後述する「[**機能方法**](#howitworks)」をご覧ください。 
 
 ## <a name="data-refresh"></a>データ更新
 

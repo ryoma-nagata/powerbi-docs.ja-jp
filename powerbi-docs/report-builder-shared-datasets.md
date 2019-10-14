@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 50f78709ce7ce302ce79df5eb383af25f55d539a
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471585"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72021032"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Power BI のレポート ビルダーで共有データセットを使用する
 
@@ -20,14 +20,14 @@ Power BI Desktop で作成したデータセットは、Power BI レポート �
 
 ![Power BI Desktop からレポート ビルダーの改ページ調整されたレポートへの変換](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-データセットを Premium 容量のワークスペースに配置する必要はありません。また、そのワークスペースのメンバーである必要もありません。 必要なのは、対象のデータセットについて[ビルドのアクセス許可](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)があることだけです。 改ページ調整されたレポートを発行するには、Power BI Pro のライセンスが必要です。 また、ワークスペースが Premium 容量にある場合には、最低限その共同作成者ロールが必要です。
+データセットを Premium 容量のワークスペースに配置する必要はありません。また、そのワークスペースのメンバーである必要もありません。 必要なのは、対象のデータセットについて[ビルドのアクセス許可](service-datasets-build-permissions.md)があることだけです。 改ページ調整されたレポートを発行するには、Power BI Pro のライセンスが必要です。 また、ワークスペースが Premium 容量にある場合には、最低限その共同作成者ロールが必要です。
 
 ## <a name="what-you-need"></a>必要な操作
 
 Power BI レポート ビルダーで共有データセットを使用するうえで必要なものと、必要のないものを以下に示します。
 
 - Power BI レポート ビルダー。 [Power BI レポート ビルダーをダウンロードおよびインストール](https://go.microsoft.com/fwlink/?linkid=2086513)してください。
-- Power BI データセットにアクセスするには、そのデータセットについてビルドのアクセス許可が必要です。 [ビルドのアクセス許可](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)に関する記事を参照してください。
+- Power BI データセットにアクセスするには、そのデータセットについてビルドのアクセス許可が必要です。 [ビルドのアクセス許可](service-datasets-build-permissions.md)に関する記事を参照してください。
 - レポート ビルダーで改ページ調整されたレポートを作成する操作には、Power BI Pro のライセンスは必要ありません。 
 - 改ページ調整されたレポートの発行には、Power BI Pro のライセンスが必要です。 また、ワークスペースが Premium 容量にある場合には、最低限その共同作成者ロールが必要です。 
 - 任意:この記事に従って作業を進める場合には、Power BI Desktop 用の [Retail Analysis sample.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) ファイルをダウンロードし、Power BI Desktop で開いて、多数の列を含むテーブルを追加します。 **[形式]** ペインで、 **[合計]** をオフにします。 その後、Power BI サービス内のワークスペースに発行します。
