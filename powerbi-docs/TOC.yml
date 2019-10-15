@@ -165,6 +165,8 @@
               href: desktop-connect-to-web.md
             - name: Power BI Desktop で Snowflake Computing ウェアハウスに接続する
               href: desktop-connect-snowflake.md
+            - name: Azure Cost Management データに接続する
+              href: desktop-connect-azure-cost-management.md
             - name: Azure Consumption Insights データへの接続
               href: desktop-connect-azure-consumption-insights.md
             - name: Power BI Desktop で SAP HANA を使用する
@@ -217,6 +219,8 @@
               href: desktop-import-and-display-kpis.md
         - name: レポートの作成
           items:
+            - name: Power BI Desktop でのページの自動更新 (プレビュー)
+              href: desktop-automatic-page-refresh.md
             - name: Power BI Desktop でパフォーマンス アナライザーを使用する
               href: desktop-performance-analyzer.md
             - name: レポートのビジュアル要素
