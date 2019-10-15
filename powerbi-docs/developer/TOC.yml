@@ -15,9 +15,9 @@
         - name: チュートリアル
           items:
             - name: Power BI のビジュアルを開発する
-              href: custom-visual-develop-tutorial.md
+              href: visuals/custom-visual-develop-tutorial.md
             - name: 書式設定オプションを追加する
-              href: custom-visual-develop-tutorial-format-options.md
+              href: visuals/custom-visual-develop-tutorial-format-options.md
             - name: ビジュアル プロジェクトの単体テストを追加する
               href: visuals/unit-tests-introduction.md
         - name: 概念
