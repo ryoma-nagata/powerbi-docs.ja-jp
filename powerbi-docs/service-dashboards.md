@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/17/2019
+ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7ee083de9800b55c4f7d998a113c1a63df112b7b
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 269b495a41f193c6a2ba02fa75f171c3b5789689
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624025"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72019611"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードの概要
 
@@ -29,9 +29,6 @@ Power BI の*ダッシュボード*は、ストーリーをしばしばキャン
 
 ダッシュボードに表示される視覚化は、*タイル*と呼ばれます。 タイルはレポートからダッシュボードに*ピン留め*します。 Power BI を初めて使うときは、「[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)」を読むと基礎がよくわかります。
 
-> [!IMPORTANT]
-> ダッシュボードを作成するには、[Power BI Pro](service-free-vs-pro.md) のライセンスが必要です。
-
 ダッシュボード上の視覚エフェクトはレポートから生成され、各レポートは 1 つのデータセットが基になっています。 ダッシュボードは基になっているレポートとデータセットへの入り口と考えることもできます。 視覚化を選ぶと、その作成に使われたレポート (およびデータセット) に行き着きます。
 
 ![ダッシュボード、レポート、データセット間の関係を示す図](media/service-dashboards/power-bi-diagram.png)
@@ -40,6 +37,13 @@ Power BI の*ダッシュボード*は、ストーリーをしばしばキャン
 ダッシュボードは、ビジネスを注視し、最も重要なすべてのメトリックをひとめで見るための、素晴らしい手段です。 ダッシュボード上の視覚エフェクトは、1 つまたは複数の基になっているデータセットから、および 1 つまたは複数の基になっているレポートから生成できます。 ダッシュボードは、オンプレミスのデータとクラウド データを結合し、存在する場所に関係なくデータを統合して表示します。
 
 ダッシュボードは単なるきれいな絵ではありません。 高度な対話機能を備え、基になっているデータが変化するとタイルが更新されます。
+
+## <a name="who-can-create-a-dashboard"></a>ダッシュボードを作成できるユーザー
+ダッシュボードを作成する機能は "*作成者*" の機能であり、レポートに対する編集のアクセス許可が必要です。 編集のアクセス許可はレポート作成者と、作成者からアクセス許可を付与された同僚が使用できます。 たとえば、David が WorkspaceABC でレポートを作成し、そのワークスペースのメンバーとしてあなたを追加した場合、あなたと David の両方に編集のアクセス許可があります。 これに対して、直接または [Power BI アプリ](service-create-distribute-apps.md)の一部としてレポートが共有されている場合、あなたはレポートを "*使用*" することになります。 ダッシュボードにタイルをピン留めすることができない場合があります。 
+
+> [!IMPORTANT]
+> ワークスペースでダッシュボードを作成するには、[Power BI Pro](service-free-vs-pro.md) のライセンスが必要です。 Power BI Pro ライセンスを使用せずに、自分のマイ ワークスペースにダッシュボードを作成できます。
+
 
 ## <a name="dashboards-versus-reports"></a>ダッシュボードとレポート
 [レポート](service-reports.md)とダッシュボードは、両方とも視覚エフェクトがたくさんあるキャンバスであるため似ているように思えます。 しかし、次の表に示すように、大きな違いがあります。

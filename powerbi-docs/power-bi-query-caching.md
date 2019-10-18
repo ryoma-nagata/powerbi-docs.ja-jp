@@ -2,20 +2,20 @@
 title: Power BI Premium でのクエリのキャッシュ
 description: Power BI Premium でのクエリのキャッシュ
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076168"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020516"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Power BI Premium/Embedded でのクエリのキャッシュ
 
@@ -26,13 +26,13 @@ Power BI Premium または Power BI Embedded を使用する組織は、"*クエ
 
 キャッシュされたクエリ結果は、ユーザーおよびデータセットのコンテキストに固有であり、常にセキュリティ規則を順守します。 現時点では、このサービスでは、表示した最初のページに対してのみクエリ キャッシュが行われます。 つまり、レポートと対話する際には、クエリはキャッシュされません。 クエリ キャッシュは[個人用ブックマーク](consumer/end-user-bookmarks.md#personal-bookmarks)と[固定フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)を尊重します。そのため、個人用レポートによって生成されたクエリはキャッシュされます。 同じクエリを利用する[ダッシュボードのタイル](service-dashboard-tiles.md)も、クエリがキャッシュされることでメリットを得られます。 パフォーマンスは、データセットが頻繁にアクセスされてあまり更新する必要がない場合に、特に大きなメリットを得られます。 クエリ キャッシュにより、全体的なクエリ数を減少させることで、Premium/Embedded 容量に対する負荷を軽減することもできます。
 
-クエリ キャッシュの動作は、Power BI サービスのデータセット用の **[設定]** ページで制御します。 ここには次の 2 つの設定があります。
+クエリ キャッシュの動作は、Power BI サービスのデータセット用の **[設定]** ページで制御します。 このページには次の 3 つの設定があります。
 
+- **容量の既定値**: クエリ キャッシュ オフ
 - **オフ**: このデータセットにはクエリ キャッシュを使用しません。
-
 - **オン**: このデータセットにはクエリ キャッシュを使用します。
 
-![[クエリ キャッシュ] ダイアログ ボックス](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![[クエリ キャッシュ] ダイアログ ボックス](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 

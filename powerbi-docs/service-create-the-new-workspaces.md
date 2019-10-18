@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715527"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020187"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI で新しいワークスペースを作成する
 
@@ -68,7 +68,7 @@ Power BI では、新しいワークスペース エクスペリエンスが導�
 
 ## <a name="workspace-contact-list"></a>ワークスペースの連絡先リスト
 
-新しいワークスペース連絡先リストを使用すると、ワークスペースで発生している問題に関する通知を受け取るユーザーを指定できます。 既定では、ワークスペース管理者として指定された任意のユーザーまたはグループに通知されますが、このリストはカスタマイズできます。 連絡先リストのユーザーまたはグループはユーザー インターフェイス (UI) に表示されます。これは、ユーザーがワークスペースに関連するヘルプを取得するのに役立ちます。
+ワークスペースで発生している問題に関する通知を受け取るユーザーを指定できます。 既定では、ワークスペース管理者として指定された任意のユーザーまたはグループに通知されますが、"*連絡先リスト*" に追加して、このリストをカスタマイズできます。 連絡先リストのユーザーまたはグループはユーザー インターフェイス (UI) に一覧表示され、ユーザーがワークスペースに関連するヘルプを取得するのに役立ちます。
 
 1. 新しい **[連絡先リスト]** の設定にアクセスするには、次の 2 つの方法があります。
 
@@ -79,6 +79,9 @@ Power BI では、新しいワークスペース エクスペリエンスが導�
     ![ワークスペースの設定](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. **[詳細設定]**  >  **[連絡先リスト]** で、既定の **[ワークスペース管理者]** のままにするか、または **[特定のユーザーやグループ]** の独自のリストを追加します。 
+
+    ![ワークスペースの連絡先](media/service-create-the-new-workspaces/power-bi-workspace-contacts.png)
+
 3. **[保存]** を選択します。
 
 ## <a name="workspace-onedrive"></a>ワークスペース OneDrive
@@ -103,34 +106,15 @@ Office 365 グループ メンバーシップを使用して、ワークスペ�
 
 ### <a name="access-the-workspace-onedrive-location"></a>ワークスペースの OneDrive の場所にアクセスする
 
-OneDrive の場所を構成した後は、ワークスペース内のいくつかの場所からそれにアクセスできます。
+OneDrive の場所を構成した後、Power BI サービスの他のデータ ソースにアクセスするのと同じ方法で、そこにアクセスできます。
 
-- **[ワークスペース]**  > "*ワークスペースの名前*" > 省略記号 **[...]** メニュー > **[ファイル]** を選択します。 
+1. 左側のナビゲーション ウィンドウで、 **[データの取得]** を選択して、 **[ファイル]** ボックスで **[取得]** を選択します。
 
-    ![ワークスペースのファイルの場所](media/service-new-workspaces/power-bi-new-workspace-files.png)
+    ![データの取得、ファイルの取得](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
-- ワークスペースの右上隅にある省略記号 **[...]** メニューを選択し、 **[ファイル]** を選択します。
-
-    ![ワークスペースのファイルの場所](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-    
-- **[データを取得]**  >  **[ファイル]** エクスペリエンスで。 **[OneDrive – Business]** エントリは、独自の OneDrive for Businessです。 2 番目の OneDrive は、追加したものです。
+1.  **[OneDrive – Business]** エントリは、独自の OneDrive for Businessです。 2 番目の OneDrive は、追加したものです。
 
     ![ワークスペースのファイルの場所 - データを取得](media/service-create-the-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
-
-## <a name="add-content-to-your-workspace"></a>ワークスペースにコンテンツを追加する
-
-新しいワークスペース エクスペリエンス ワークスペースを作成した後、それにコンテンツを追加します。 コンテンツの追加は、新しいワークスペースでもクラシック ワークスペースでも似ています。 ワークスペースにコンテンツを追加するには、[作成] ボタンまたは [データを取得] を使用します。
-
-1. 新しいワークスペースの**ようこそ**画面で、コンテンツを追加することができます。 
-
-    ![新しいワークスペースのようこそ画面](media/service-create-the-new-workspaces/power-bi-workspace-get-data.png)
-
-1. たとえば、 **[サンプル]**  >  **[お客様の収益性のサンプル]** の順に選択します。
-
-> [!NOTE]
-> 組織のコンテンツ パックやサードパーティのコンテンツ パックを、新しいワークスペースに追加することはできません。 以前に使用した多数のサードパーティ製コンテンツ パックで、アプリを利用できます。 コンテンツ パックを引き続き使用する必要がある場合は、クラシック ワークスペースを使用します。 コンテンツ パックは非推奨になったため、代わりにアプリを使用することをお勧めします。
-
-ワークスペースのコンテンツ リストでコンテンツを表示すると、ワークスペースの名前が所有者としてリストされます。
 
 ### <a name="connecting-to-third-party-services-in-new-workspaces"></a>新しいワークスペースでのサードパーティ サービスへの接続
 
@@ -142,9 +126,7 @@ OneDrive の場所を構成した後は、ワークスペース内のいくつ�
 
 1. ワークスペースのコンテンツの一覧では、管理者には新しい操作 **[アクセス]** が表示されます。
 
-    ![ワークスペースのコンテンツ一覧](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-
-1. **[アクセス]** を選択します。
+    ![ワークスペースのコンテンツ一覧](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
 1. セキュリティ グループ、配布リスト、Office 365 グループ、または個人をメンバー、共同作成者、または管理者として、これらのワークスペースに追加します。 さまざまなロールの説明については、「[新しいワークスペースのロール](service-new-workspaces.md#roles-in-the-new-workspaces)」を参照してください。
 

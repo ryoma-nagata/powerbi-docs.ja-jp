@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903993"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020244"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI でクラシック ワークスペースを作成する
 
@@ -90,11 +90,11 @@ Power BI でサポートされるすべてのサード パーティ サービス
 * ビジネス ユーザーがコンテンツ パックをインストールすると、グループ化された ID が失われ、他のダッシュボードやレポートと混在した単なるダッシュボードとレポートの一覧になります。 一方、アプリではインストール後もグループ化および ID が維持されます。 このグループ化により、ビジネス ユーザーは時間が経っても簡単にアクセスすることができます。
 * 任意のワークスペースから複数のコンテンツ パックを作成できますが、アプリとそのワークスペースの間には 1 対 1 の関係があります。 
 * 将来的には、組織のコンテンツ パックは廃止される予定のため、今後はアプリを作成することをお勧めします。  
-* 新しいワークスペース エクスペリエンス プレビューの提供は、組織のコンテンツ パックの廃止への第一歩となります。 組織のコンテンツ パックをプレビュー ワークスペースで利用したり、作成したりすることはできません。
+* 新しいワークスペース エクスペリエンスの使用は、組織のコンテンツ パックの廃止への第一歩となります。 それらを新しいワークスペースで使用したり、作成したりすることはできません。
 
 2 つを比較するには、[新しいワークスペースと既存のワークスペースの相違点](service-new-workspaces.md#how-the-new-workspaces-are-different)に関する記事を参照してください。 
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI にアプリをインストールし、使用する](service-create-distribute-apps.md)
-- [新しいワークスペース (プレビュー) を作成する](service-create-the-new-workspaces.md)
+- [新しいワークスペースを作成する](service-create-the-new-workspaces.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。

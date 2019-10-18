@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d48214cffcc17da9c105f7277b721c03946d5c2
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961820"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020655"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>チュートリアル:Power BI の組織のコンテンツ パックを作成して発行する
 
@@ -26,7 +26,7 @@ ms.locfileid: "68961820"
 組織のコンテンツ パックを作成するには、あなたとあなたの同僚が使用する [Power BI Pro アカウント](https://powerbi.microsoft.com/pricing)が必要となります。
 
 > [!NOTE]
-> 新しいワークスペース エクスペリエンス プレビューでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
+> 新しいワークスペース エクスペリエンスでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
 
 ## <a name="create-and-publish-a-content-pack"></a>コンテンツ パックの作成および公開
 

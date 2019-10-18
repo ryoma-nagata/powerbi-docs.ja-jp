@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1d07c678b02f77689d24d067ca58a4e28ac70cb0
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
+ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623922"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72164091"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 色を使用して、マップで領域を比較するために **[図形マップ]** ビジュアルを作成します。 **[マップ]** ビジュアルとは異なり、 **[図形マップ]** ではマップ上の地理的な場所を正確には表示できません。 代わりに、これの主な用途は、違う色を適用することにより、マップ上の領域を相対的に比較できます。
 
 **[図形マップ]** のビジュアルは ESRI/TopoJSON マップをベースにしています。このマップの強みは、ユーザー作成のカスタム マップを使用できることです。 地理、座席配置、フロア プランなどがカスタム マップの例です。 カスタム マップを利用する機能は、このプレビュー リリースの**マップのシェイプ**では使用できません。
@@ -113,7 +116,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="australia-states"></a>オーストラリア:州
 
-| id | 省略形 | ISO | 名前 | 郵便 |
+| ID | 省略形 | ISO | 名前 | 郵便 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -126,7 +129,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="austria-states"></a>オーストリア:州
 
-| id | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | ISO | 名前 | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna (ウィーン) |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg (フォアアールベルク) |VO |
@@ -140,7 +143,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="brazil-states"></a>ブラジル:州
 
-| id |
+| ID |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -176,7 +179,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="canada-provinces"></a>カナダ:州
 
-| id | ISO | 名前 | 郵便 |
+| ID | ISO | 名前 | 郵便 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -194,7 +197,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="france-regions"></a>フランス:地域
 
-| id | 名前 | 名前 (英語) |
+| ID | 名前 | 名前 (英語) |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace (アルザス) |
 | Rhone-Alpes |Rhône-Alpes |Rhone-Alpes (ローヌアルプ) |
@@ -221,7 +224,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="germany-states"></a>ドイツ:州
 
-| id | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | ISO | 名前 | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin (ベルリン) |BE |
 | de-th |DE-TH |Thüringen |Thuringia (チューリンゲン) |TH |
@@ -242,7 +245,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="ireland-counties"></a>アイルランド:郡
 
-| id |
+| ID |
 | --- |
 | Wicklow |
 | Wexford |
@@ -273,7 +276,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="italy-regions"></a>イタリア:地域
 
-| id | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | ISO | 名前 | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto (ベネト) |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley (ヴァッレ ダオスタ) |VD |
@@ -298,7 +301,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="mexico-states"></a>メキシコ:州
 
-| id | 省略形 | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | 省略形 | ISO | 名前 | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas (サカテカス) |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan (ユカタン) |YU |
@@ -335,7 +338,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="netherlands-provinces"></a>オランダ:州
 
-| id | ISO | 名前 | 名前 (英語) |
+| ID | ISO | 名前 | 名前 (英語) |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland (南ホラント) |
 | nl-ze |NL-ZE |Zeeland |Zeeland (ゼーラント) |
@@ -352,7 +355,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="uk-countries"></a>英国:国
 
-| id | ISO | 名前 |
+| ID | ISO | 名前 |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
@@ -361,7 +364,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="usa-states"></a>米国:州
 
-| id | 名前 | 郵便 |
+| ID | 名前 | 郵便 |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |

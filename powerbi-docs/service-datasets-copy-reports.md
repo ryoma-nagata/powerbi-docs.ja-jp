@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530620"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020831"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>他のワークスペースからレポートをコピーする (プレビュー)
 
@@ -32,7 +32,7 @@ ms.locfileid: "69530620"
 
     ![レポートのコピーを作成する](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    **[コピーの保存]** アイコンが表示されるのは、レポートが新しいエクスペリエンス ワークスペース内にあり、[ビルド アクセス許可](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)をお持ちの場合のみです。 ワークスペースにアクセスできる場合でも、データセットに対するビルド アクセス許可が必要です。
+    **[コピーの保存]** アイコンが表示されるのは、レポートが新しいエクスペリエンス ワークスペース内にあり、[ビルド アクセス許可](service-datasets-build-permissions.md)を持っている場合のみです。 ワークスペースにアクセスできる場合でも、データセットに対するビルド アクセス許可が必要です。
 
 3. **[このレポートのコピーを保存します]** で、レポートに名前を付けて保存先のワークスペースを選択します。
 

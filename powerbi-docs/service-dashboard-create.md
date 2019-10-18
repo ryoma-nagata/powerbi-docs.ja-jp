@@ -10,49 +10,46 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: b50d247f54cfe2af4cefbd14b9528b1dfa263acf
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624239"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020364"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
 「[Power BI デザイナーのダッシュボードの概要](service-dashboards.md)」を読みました。今度は自分のダッシュボードを作成します。 ダッシュボードを作成するには、さまざまな方法があります。 たとえば、レポートから、何もない状態から、データセットから、または既存のダッシュボードを複製して、ダッシュボードを作成できます。  
 
-初めて取り掛かるときは難しそうに見えるかもしれません。そのため、まずはレポートから視覚エフェクトをピン留めして、手早く簡単にダッシュボードを作成します。レポートはあらかじめ用意されているものを使用します。 
+まずは、既に作成されているレポートから視覚エフェクトをピン留めして、すばやく簡単なダッシュボードを作成します。 
 
-このクイックスタートを完了すると、次のことを十分に理解できるようになります。
+この記事を完了すると、次のことを十分に理解できるようになります。
 - ダッシュボードとレポートの関係
 - レポート エディターで編集ビューを開く方法
 - タイルをピン留めする方法 
 - ダッシュボードとレポートの間を移動する方法 
-
-## <a name="who-can-create-a-dashboard"></a>ダッシュボードを作成できるユーザー
-ダッシュボードを作成する機能は "*作成者*" の機能であり、レポートに対する編集のアクセス許可が必要です。 編集のアクセス許可はレポート作成者と、作成者からアクセス許可を付与された同僚が使用できます。 たとえば、David が WorkspaceABC でレポートを作成し、そのワークスペースのメンバーとしてユーザーを追加した場合、David とそのユーザーの両方に編集のアクセス許可があることになります。 これに対して、直接または [Power BI アプリ](service-create-distribute-apps.md)の一部としてレポートが共有されている場合 (ユーザーはレポートを "*使用*" します)、ダッシュボードにタイルをピン留めすることはできません。
  
 ![ダッシュボード](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
-> ダッシュボードは、Power BI Desktop ではなく、Power BI サービスの機能です。 Power BI モバイルでは、ダッシュボードを作成することはできませんが、そこで[表示して共有する](consumer/mobile/mobile-apps-view-dashboard.md)ことはできます。
+> ダッシュボードは、Power BI Desktop ではなく、Power BI サービスの機能です。 ダッシュボードは Power BI モバイル デバイスで作成することはありませんが、そこで[表示および共有する](consumer/mobile/mobile-apps-view-dashboard.md)ことができます。
 >
 > 
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>ビデオ:レポートからビジュアルとイメージをピン留めすることでダッシュボードを作成する
-レポートからの視覚化をピン留めして、新しいダッシュボードを作成する手順をご覧ください。 その後は、「[レポートでデータセットをインポートする](#import-a-dataset-with-a-report)」で説明されている手順に従い、調達の分析のサンプルを使ってご自身でお試しください。
+レポートからの視覚化をピン留めして、新しいダッシュボードを作成する手順をご覧ください。 その後は、次のセクションの「[レポートでデータセットをインポートする](#import-a-dataset-with-a-report)」にある手順に従い、調達の分析のサンプルを使ってご自身でお試しください。
     
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="import-a-dataset-with-a-report"></a>レポートでデータセットをインポートする
-Power BI サンプル データセットの 1 つをインポートし、それを使って新しいダッシュボードを作成します。 ここで使うサンプルは、2 つの PowerView を含む Excel ブックです。 Power BI でブックをインポートすると、データセットとレポートがワークスペースに追加されます。 レポートは、PowerView シートから自動的に作成されます。
+このステップバイステップでは、Power BI サンプル データセットの 1 つをインポートし、それを使って新しいダッシュボードを作成します。 ここで使うサンプルは、2 つの PowerView シートを含む Excel ブックです。 Power BI でブックをインポートすると、データセットとレポートがワークスペースに追加されます。 レポートは、PowerView シートから自動的に作成されます。
 
-1. 調達の分析のサンプルの [Excel ファイル](http://go.microsoft.com/fwlink/?LinkId=529784)をダウンロードします。 OneDrive for Business に保存することをお勧めします。
+1. [調達の分析のサンプル](http://go.microsoft.com/fwlink/?LinkId=529784)の Excel ファイルをダウンロードします。 OneDrive for Business に保存することをお勧めします。
 2. ブラウザーで Power BI サービス (app.powerbi.com) を開きます。
 3. 左側のナビゲーション パネルから **[マイ ワークスペース]** を選択し、次に **[データの取得]** を選択します。
 
-    ![左側のナビゲーション ウィンドウ](media/service-dashboard-create/power-bi-get-data3.png)
-5. **[ファイル]** を選択します。
+    ![左側のナビゲーション ウィンドウ](media/service-dashboard-create/power-bi-get-data-new-look.png)
+5. **[ファイル]** で **[取得]** を選択します。
 
    ![ファイルの取得](media/service-dashboard-create/power-bi-select-files.png)
 6. 調達の分析のサンプルの Excel ファイルを保存した場所に移動します。 ファイルを選び、 **[接続]** を選択します。
@@ -64,6 +61,9 @@ Power BI サンプル データセットの 1 つをインポートし、それ�
 8. 成功メッセージが表示されたら、 **[x]** を選択して閉じます。
 
    ![成功メッセージ](media/service-dashboard-create/power-bi-view-datasetnew.png)
+
+> [!TIP]
+> ご存知でしたか? 左側のナビゲーション バーを絞り込むには、上部の 3 本線のアイコン ![ナビゲーション ウィンドウの表示/非表示アイコン](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png) を選択します。 これにより、レポート自体の領域が増えます。
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>レポートを開いてダッシュボードにタイルをピン留めする
 1. 同じワークスペースで **[レポート]** タブを選択し、 **[調達の分析のサンプル]** を選択してレポートを開きます。

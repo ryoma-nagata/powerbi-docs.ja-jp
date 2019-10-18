@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654951"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239954"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI サービスの "新しい外観"
 
-Power BI サービス (app.powerbi.com) には、レポートの表示と操作を容易にする新しい外観が備わっています。 新しい外観は、よりシンプルで現代的なエクスペリエンスで、他の Microsoft 製品との親しみやすさに基づいて構築されています。 Power BI サービス全体で、明るい色のテーマに切り替え、アイコンを更新して、レポート コンテンツが焦点の中心になるようにしました。 新しい外観の変更点の概要を次に示します。 詳細については、番号付きのセクションを参照してください。
+Power BI サービス (app.powerbi.com) には、レポートの表示と操作を容易にする新しい外観が備わっています。 新しい外観はよりシンプルで、他の Microsoft 製品で慣れ親しんでいる外観に基づいています。 Power BI サービス全体で、明るい色のテーマに切り替え、アイコンを更新して、レポート コンテンツが焦点の中心になるようにしました。 新しい外観の変更点の概要を次に示します。 詳細については、番号付きのセクションを参照してください。
 
 ![新しい外観の変更点の概要](media/service-new-look/power-bi-new-look-changes.png)
+
+特定のアクションをお探しですか。 「["新しい外観": アクションの新しい場所](service-new-look-where-actions.md)」を参照してください。
 
 ## <a name="quick-tour-of-the-changes"></a>変更のクイック ツアー
 

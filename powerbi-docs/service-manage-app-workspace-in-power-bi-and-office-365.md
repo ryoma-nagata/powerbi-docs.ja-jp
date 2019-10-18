@@ -7,22 +7,22 @@ ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 77be33787599cfbb50916093d0445cf586511d90
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903771"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020762"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Power BI と Office 365 でアプリ ワークスペースを管理する
 
 Office 365 または [Power BI でのアプリ ワークスペース](service-create-distribute-apps.md)の作成者または管理者として、Power BI でワークスペースの一部の側面を管理します。 その他の側面は、Office 365 で管理します。
 
 > [!NOTE]
-> 新しいワークスペース エクスペリエンス プレビューでは、Power BI ワークスペースと Office 365 グループ間の関係が変わります。 新しいワークスペースのいずれかを作成するたびに、Office 365 グループが自動的に作成されることはありません。 新しいワークスペースの作成については、[こちら](service-create-the-new-workspaces.md)を参照してください。
+> 新しいワークスペース エクスペリエンスでは、Power BI ワークスペースと Office 365 グループ間の関係が変わります。 新しいワークスペースのいずれかを作成するたびに、Office 365 グループが自動的に作成されることはありません。 新しいワークスペースの作成については、[こちら](service-create-the-new-workspaces.md)を参照してください。
 
 **Power BI** では、次のことができます。
 

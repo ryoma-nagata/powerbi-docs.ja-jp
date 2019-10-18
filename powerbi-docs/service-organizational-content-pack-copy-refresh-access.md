@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c369d8f0d342aebcb3625b289472089412ef7cee
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61227738"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72019632"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>組織のコンテンツ パック: コピー、更新、およびアクセスの取得
 
@@ -24,7 +24,7 @@ ms.locfileid: "61227738"
 コンテンツ パックの作成は、ダッシュ ボードを共有すること、またはグループ内でダッシュボードで共同作業を行うこととは異なります。 状況に応じた最適なオプションを決定するには、「[How should I collaborate on and share dashboards and reports?](service-how-to-collaborate-distribute-dashboards-reports.md)」(ダッシュボードとレポートで共同作業と共有を行う方法) を参照してください。
 
 > [!NOTE]
-> 新しいワークスペース エクスペリエンス プレビューでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
+> 新しいワークスペース エクスペリエンスでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
 >
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>組織のコンテンツ パックのコピーを作成する

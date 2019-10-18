@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cbca162348092d9d03bef03199c63113ec487165
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 86b7a5e93183c06d6cac1445cb1702edde5d4bc9
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226323"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020597"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>組織のコンテンツ パックを管理、更新、削除する
 > [!NOTE]
-> 新しいワークスペース エクスペリエンス プレビューでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
+> 新しいワークスペース エクスペリエンスでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
 > 
 
 自分のダッシュボード、レポート、Excel ブック、データセットを[組織のコンテンツ パック](service-organizational-content-pack-introduction.md)にパッケージ化して、仕事仲間と共有できます。 同僚はそのまま使用するか、独自のコピーを作成することができます。

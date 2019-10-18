@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715210"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020688"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI の新しいワークスペースで作業を整理する
 
@@ -78,8 +78,8 @@ Power BI 管理ポータルで[ワークスペース リストを使用できま
 | 項目を表示して操作する。 |  X | X  | X  | X  |
 
 > [!NOTE]
->レポートをコピーする場合、およびこのワークスペース内のデータセットに基づいて別のワークスペースでレポートを作成する場合、次の追加条件を満たす必要があります。
->- Power BI Pro ライセンスが必要です。 
+>レポートをコピーする場合、およびこのワークスペース内のデータセットに基づいて別のワークスペースでレポートを作成する場合、ユーザーは次の追加条件を満たす必要があります。
+>- Power BI Pro ライセンスが必要です。 詳細については、次のセクションの「[ライセンス](#licensing)」を参照してください。
 >- データセットのビルド アクセス許可が必要です。 このワークスペース内のデータセットについては、管理者、メンバー、共同作成者のロールを持つユーザーに対して、そのワークスペース ロールを通じてビルドのアクセス許可が付与されます。
  
 ## <a name="licensing"></a>ライセンス
@@ -141,7 +141,7 @@ Office 365 グループ メンバーシップを使用して、ワークスペ�
 - メンバーが再共有できる、またはできない: 共同作成者ロールに置き換えられます。
 - 読み取り専用ワークスペース:ユーザーにワークスペースへの読み取り専用アクセスを許可する代わりに、ビューアー ロールにユーザーを割り当てます。これにより、ワークスペースのコンテンツに対する同様の読み取り専用アクセス権が許可されます。
 - ワークスペースが Power BI Premium 容量にある場合、ユーザーにビューアー ロールがあれば、Power BI Pro ライセンスがなくても、そのワークスペースにアクセスできます。
-- ビューアー ロールを持つユーザーにデータのエクスポートを許可するには、そのユーザーに、ワークスペースのデータセットに対するビルド アクセス許可があることを確認します。 詳細については、「[データセットのビルド アクセス許可](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)」をご覧ください。
+- ビューアー ロールを持つユーザーにデータのエクスポートを許可するには、そのユーザーに、ワークスペースのデータセットに対するビルド アクセス許可があることを確認します。 詳細については、「[データセットのビルド アクセス許可](service-datasets-build-permissions.md)」をご覧ください。
 - **[ワークスペースからの脱退]** ボタンはありません。
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問

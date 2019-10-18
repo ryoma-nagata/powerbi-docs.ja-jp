@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62bec222a3f948612db63c386e10c0afe9762bb4
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d83a57b2b1f8e2ca0887f2432f2de43647900b81
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721430"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020647"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI の組織のコンテンツ パックへの接続を削除する
 
 > [!NOTE]
-> 新しいワークスペース エクスペリエンス プレビューでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
+> 新しいワークスペース エクスペリエンスでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
 > 
 
 同僚がコンテンツ パックを作成しました。 それを AppSource で見つけて、Power BI ワークスペースに追加しました。 それが必要なくなった場合、  どのように削除できますか。
