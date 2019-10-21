@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a8b1be9157fa34e9ed4c987628f0b67624b4c826
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946194"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307474"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI のビジュアル
 
@@ -57,7 +57,7 @@ Power BI 管理者が承認し組織に展開した Power BI ビジュアルを�
 Power BI 認定済みビジュアルは品質に関する厳格な追加テストに合格したマーケットプレース ビジュアルであり、[電子メール サブスクリプション](service-report-subscribe.md)や [PowerPoint へのエクスポート](service-publish-to-powerpoint.md)などの追加のシナリオに対応しています。
 認定済み Power BI ビジュアルの一覧を表示する場合、または自作のものを送信する場合は、[認定済み Power BI ビジュアル](power-bi-custom-visuals-certified.md)に関する記事を参照してください。
 
-独自の視覚エフェクトを作成して AppSource に追加することに興味がある Web 開発者の方は、 「[Power BI カスタム ビジュアルの開発](developer/custom-visual-develop-tutorial.md)」を参照し、[AppSource に Power BI ビジュアルを発行する](developer/office-store.md)方法を学習してください。
+独自の視覚エフェクトを作成して AppSource に追加することに興味がある Web 開発者の方は、 「[Power BI カスタム ビジュアルの開発](developer/visuals/custom-visual-develop-tutorial.md)」を参照し、[AppSource にカスタム ビジュアルを公開する](developer/office-store.md)方法を学習してください。
 
 ### <a name="import-a-custom-visual-from-a-file"></a>カスタム ビジュアルをファイルからインポートする
 

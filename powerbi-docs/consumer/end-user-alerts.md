@@ -8,17 +8,20 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 08/26/2019
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 16639f6e9bf005d04c64fc3ae6a331338efdd5d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 713f177bf81b587cc6b50a7a1d05a6b0668daa74
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70064545"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589468"
 ---
 # <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>チュートリアル:Power BI ダッシュボードでアラートを設定する
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 ダッシュボード内のデータが設定した制限を上回って、または下回って変更された場合に通知されるように、アラートを設定します。 アラートは、ゲージ、KPI、カードに対して動作します。 この機能は進化し続けているため、[次の「ヒントとトラブルシューティング」セクション](#tips-and-troubleshooting)を参照してください。
 
 ![タイル、カード、KPI](media/end-user-alerts/card-gauge-kpi.png)

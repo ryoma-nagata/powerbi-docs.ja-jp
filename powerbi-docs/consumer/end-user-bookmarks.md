@@ -6,17 +6,20 @@ manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/22/2019
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0b4da978687afbafcc7f0d48b6df220b240a507f
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: 5383b06bbc40953ea9f4322562190b6a7b29db14
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207615"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589440"
 ---
 # <a name="what-are-bookmarks"></a>ブックマークとは?
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 ブックマークは、フィルター、スライサー、ビジュアルの状態など、レポート ページで現在構成されているビューをキャプチャします。 ブックマークを選択すると、Power BI はそのビューに戻ります。 ブックマークには、自分で作成したものとレポート *デザイナー*が作成したものの 2 種類があります。
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI でブックマークを使用して詳細情報を共有し、ストーリーを作成する 

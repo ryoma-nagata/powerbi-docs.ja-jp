@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e7a96186fe68ed0d70de7a502e81da4f24f4d802
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 7c99b00427ffe742511c0029da79b6ebde02d916
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903565"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511676"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 **Power BI Desktop** では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 **Power BI Desktop** を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。  **Power BI Desktop** は無料でダウンロードできます。
@@ -105,28 +105,6 @@ Microsoft ストアからの **Power BI Desktop** のインストールには、
 
 Power BI Desktop での経験が常に素晴らしいものであることを望んでいます。 そうはいっても、問題が発生する可能性はあるので、このセクションでは、Power BI Desktop で発生することがある問題に対処するための解決策と提案を示します。 
 
-### <a name="installing-power-bi-desktop-on-remote-machines"></a>リモート コンピューターへの Power BI Desktop のインストール
-
-Windows インストーラー ファイル (.msi ファイル) を必要とするツールを使用してユーザーに Power BI Desktop を展開する場合は、Power BI Desktop のインストーラーの .exe ファイルから .msi ファイルを抽出できます。 WiX ツールセットなどのサードパーティ製のツールを使用して、これを実現できます。
-
-> [!NOTE]
-> サードパーティ製品なので、WiX ツールセットのオプションは予告なしに変更される可能性があります。 最新の情報についてはドキュメントを確認し、ヘルプについてはユーザーのメーリング リストに問い合わせてください。
-
-* Power BI Desktop インストーラーをダウンロードしたコンピューターで、WiX の Web サイト (https://wixtoolset.org/ ) から最新バージョンの WiX ツールセットをダウンロードしてインストールします。
-* 管理者としてコマンド ライン ウィンドウを開き、WiX ツールセットをインストールしたフォルダーに移動します。
-* 次のコマンドを実行します。 
-    
-    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
-
-    たとえば、次のように実行します。
-
-    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
-
-* 出力フォルダーに含まれる *AttachedContainer* という名前のフォルダーに .msi ファイルが含まれます。
-
-
-
-
 ### <a name="using-command-line-options-during-installation"></a>インストール時にコマンドライン オプションを使用する 
 
 Power BI Desktop をインストールするときに、コマンドライン スイッチを使用してプロパティとオプションを設定できます。 これは、複数の組織間全体で Power BI Desktop のインストールを管理または促進にする管理者の場合に特に便利です。 これらのオプションは、.msi および .exe のインストールに適用されます。 
@@ -146,7 +124,6 @@ Power BI Desktop をインストールするときに、コマンドライン �
 
 次の**構文パラメーター**を使用することもできます。これらは、"PROPERTY=VALUE" という構文で指定します。
 
-
 |パラメーター  |意味  |
 |---------|---------|
 |ACCEPT_EULA     |使用許諾契約に自動的に同意するには、値を 1 にする必要があります         |
@@ -156,12 +133,28 @@ Power BI Desktop をインストールするときに、コマンドライン �
 |LANGUAGE     |アプリケーションの既定の言語を強制的するためのロケール コード (en-US、de-DE、pr-BR など) です。 言語を指定しないと、Power BI Desktop には Windows OS の言語が表示されます。 ユーザーはこれを [オプション] ダイアログで変更できます。         |
 |REG_SHOWLEADGENDIALOG     |値 0 にすると、Power BI Desktop にサインインする前に表示されるダイアログが表示されなくなります         |
 
-
-
-
 たとえば、ドイツ語を使用して、ユーザー インターフェイスなしでインストールするには、次の構文を実行します。 
 
 ```“-quiet LANG=de-DE ACCEPT_EULA=1”```
+
+### <a name="installing-power-bi-desktop-on-remote-machines"></a>リモート コンピューターへの Power BI Desktop のインストール
+
+Windows インストーラー ファイル (.msi ファイル) を必要とするツールを使用してユーザーに Power BI Desktop を展開する場合は、Power BI Desktop のインストーラーの .exe ファイルから .msi ファイルを抽出できます。 WiX ツールセットなどのサードパーティ製のツールを使用して、これを実現できます。
+
+> [!NOTE]
+> サードパーティ製品なので、WiX ツールセットのオプションは予告なしに変更される可能性があります。 最新の情報についてはドキュメントを確認し、ヘルプについてはユーザーのメーリング リストに問い合わせてください。
+
+* Power BI Desktop インストーラーをダウンロードしたコンピューターで、WiX の Web サイト (https://wixtoolset.org/ ) から最新バージョンの WiX ツールセットをダウンロードしてインストールします。
+* 管理者としてコマンド ライン ウィンドウを開き、WiX ツールセットをインストールしたフォルダーに移動します。
+* 次のコマンドを実行します。 
+    
+    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
+
+    たとえば、次のように実行します。
+
+    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
+
+* 出力フォルダーに含まれる *AttachedContainer* という名前のフォルダーに .msi ファイルが含まれます。
 
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop の以前のリリースを使用しているときの問題

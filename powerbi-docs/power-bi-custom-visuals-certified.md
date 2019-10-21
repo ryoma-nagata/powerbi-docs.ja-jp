@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 2203e3a9abddb52902c09fdc98665ba013f604ee
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946206"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307828"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>認定済みの Power BI ビジュアルを取得する
 
@@ -31,7 +31,7 @@ ms.locfileid: "71946206"
 
 **未認定 Power BI ビジュアル**は、安全ではないビジュアルを意味するわけではありません。 一部のビジュアルは 1 つまたは複数の[認定要件](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)を満たしていないために認定されていません。 たとえば、地図ビジュアルのような外部サービスや商用ライブラリを利用するビジュアルに接続する場合です。
 
-独自の視覚エフェクトを作成して  **[Microsoft AppSource](https://appsource.microsoft.com)** に追加することに興味がある Web 開発者の方は、  **[Power BI カスタム ビジュアルを開発する](developer/custom-visual-develop-tutorial.md)** 方法に関するページをご覧ください。
+独自の視覚エフェクトを作成して  **[Microsoft AppSource](https://appsource.microsoft.com)** に追加することに興味がある Web 開発者の方は、  **[Power BI カスタム ビジュアルを開発する](developer/visuals/custom-visual-develop-tutorial.md)** 方法に関するページをご覧ください。
 
 ## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Power BI 認定済み Power BI ビジュアルの削除
 
@@ -196,7 +196,7 @@ ms.locfileid: "71946206"
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI カスタム ビジュアルの開発](developer/custom-visual-develop-tutorial.md)
+* [Power BI カスタム ビジュアルの開発](developer/visuals/custom-visual-develop-tutorial.md)
 * [YouTube の Microsoft カスタム ビジュアル プレイリスト](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Power BI での視覚化](visuals/power-bi-report-visualizations.md)  
 * [Power BI でのカスタム ビジュアル](power-bi-custom-visuals.md)  

@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/01/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aabc58e34e5ba61f44673905450c8feb8d6ace47
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 91ae7fbbba8b9ba63e8b429c8b2ef3a3adb1c95e
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532275"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307155"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI レポートでの視覚エフェクト
 
@@ -28,7 +28,7 @@ ms.locfileid: "67532275"
 
 ![](media/power-bi-report-visualizations/power-bi-templates.png)
 
-さらに多くの選択肢については、[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)にアクセスし、Microsoft およびコミュニティによって提供されている[カスタム ビジュアル](../developer/custom-visual-develop-tutorial.md)を見つけて[ダウンロード](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)してください。
+さらに多くの選択肢については、[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)にアクセスし、Microsoft およびコミュニティによって提供されている[カスタム ビジュアル](../developer/visuals/custom-visual-develop-tutorial.md)を見つけて[ダウンロード](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ Power BI を初めて使用する場合や、復習したい場合は、以下�
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>カスタムの視覚化をアップロードして Power BI で使用する
 
-自分で作成した、または [Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)で見つけたカスタムの視覚エフェクトを追加します。 自分でカスタマイズする場合は、 ソース コードを調べ、[開発者ツール](../developer/custom-visual-develop-tutorial.md)を使用して新しい視覚化の種類を作成して、[コミュニティと共有](../developer/office-store.md)してください。 カスタム ビジュアルの開発について詳しくは、「[Power BI カスタム ビジュアルを開発する](../developer/custom-visual-develop-tutorial.md)」をご覧ください。
+自分で作成した、または [Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)で見つけたカスタムの視覚エフェクトを追加します。 自分でカスタマイズする場合は、 ソース コードを調べ、[開発者ツール](../developer/visuals/custom-visual-develop-tutorial.md)を使用して新しい視覚化の種類を作成して、[コミュニティと共有](../developer/office-store.md)してください。 カスタム ビジュアルの開発について詳しくは、「[Power BI カスタム ビジュアルを開発する](../developer/visuals/custom-visual-develop-tutorial.md)」をご覧ください。
 
 ## <a name="personalize-your-visualization-pane-preview"></a>個人設定された [視覚化] ウィンドウ (プレビュー)
 

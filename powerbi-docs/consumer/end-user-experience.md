@@ -9,17 +9,19 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 12/06/2018
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: af7f2f0ca5407694b13f0b053ff347f883c8c983
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68523039"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589450"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>クイック スタート - Power BI サービス内の移動
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI の基本を理解したので、**Power BI サービス**の操作について説明します。 前述のとおり、チームのメンバーが、**Power BI Desktop** だけを使って、データを組み合わせたり、他のユーザーのためのレポートを作成したりすることがあります。 一方で、Power BI サービスだけを使って、他のユーザーが作成したコンテンツを表示し、操作するユーザーもいます (エクスペリエンスの**消費**)。 このクイック スタートでは、サンプル データをインポートし、そのデータを使って Power BI サービスの操作方法を説明します。 
  

@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c32133a7958c1239337a5f77a92dde098652514e
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65101441"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72542858"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>エラー:Excel ブックにデータが見つかりませんでした
 
@@ -51,10 +51,10 @@ Excel ブックをインポートするとき、Power BI はそれらのテー�
 2. データを含むセルの範囲を選択します。 最初の行には、列のヘッダー (列名) が含まれている必要があります。
    
     ![セルの範囲の選択](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-2.png)
-3. **[挿入]** タブのリボンで、**[テーブル]** をクリックします  (または、ショートカットの **Ctrl + T** キーを押します)。
+3. **[挿入]** タブのリボンで、 **[テーブル]** をクリックします (または、ショートカットの **Ctrl + T** キーを押します)。
    
     ![テーブルの挿入](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-3.png)
-4. 次のダイアログ ボックスが表示されます。 [ **先頭行をテーブルの見出しとして使用する** ] にチェックマークが付いていることを確認して、[ **OK**] を選択します。
+4. 次のダイアログ ボックスが表示されます。 **[先頭行をテーブルの見出しとして使用する]** にチェックマークが付いていることを確認して、 **[OK]** を選択します。
    
     ![テーブルの作成](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-create-table.png)
 5. これで、データはテーブルとして書式設定されました。
