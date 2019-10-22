@@ -353,6 +353,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: マトリックス ビジュアル
               href: visuals/desktop-matrix-visual.md
+            - name: Q&A ビジュアル
+              href: visuals/power-bi-visualization-q-and-a.md
             - name: Power BI で R スクリプトを使用して高度な分析とビジュアルを作成する
               href: visuals/service-r-visuals.md
             - name: Power BI の放射状ゲージ グラフ
@@ -375,6 +377,22 @@
               href: visuals/power-bi-visualization-waterfall-charts.md
             - name: 動的な参照線を作成する
               href: service-analytics-pane.md
+        - name: 自然言語
+          items:
+            - name: Q&A 概要
+              href: natural-language/q-and-a-intro.md
+            - name: Q&A ビジュアル
+              href: visuals/power-bi-visualization-q-and-a.md
+            - name: Q&A ツールの概要
+              href: natural-language/q-and-a-tooling-intro.md
+            - name: Q&A ツールを学習する Q&A
+              href: natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: Q&A ツールの詳細
+              href: natural-language/q-and-a-tooling-advanced.md
+            - name: Q&A ベスト プラクティス
+              href: natural-language/q-and-a-best-practices.md
+            - name: Q&A 制限事項
+              href: natural-language/q-and-a-limitations.md
         - name: トラブルシューティング
           items:
             - name: Power BI Desktop と Power Query での Access データベースと Excel スプレッドシートのインポート問題を解決する
