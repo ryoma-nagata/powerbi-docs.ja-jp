@@ -129,6 +129,8 @@
               href: register-app.md
             - name: Azure AD アクセス トークンを取得する
               href: get-azuread-access-token.md
+            - name: 動的バインド
+              href: embed-dynamic-binding.md
             - name: 埋め込みに関する Q&A
               href: qanda.md
             - name: 埋め込みアプリケーションのトラブルシューティング
