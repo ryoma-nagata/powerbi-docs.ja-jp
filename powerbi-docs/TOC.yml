@@ -211,8 +211,6 @@
               href: desktop-calculated-tables.md
             - name: Power BI Desktop のメジャー
               href: desktop-measures.md
-            - name: Q&A の言語スキーマを編集する
-              href: power-bi-q-and-a-linguistic-schema.md
             - name: KPI のインポートと表示 (プレビュー)
               href: desktop-import-and-display-kpis.md
         - name: レポートの作成
@@ -227,8 +225,6 @@
               href: desktop-tooltips.md
             - name: PDF へのエクスポートおよびレポートの印刷
               href: desktop-export-to-pdf.md
-            - name: Power BI Desktop の Q&A
-              href: desktop-qna-in-reports.md
             - name: 'Power BI Desktop の [分析] ウィンドウ'
               href: desktop-analytics-pane.md
             - name: 分析情報を使用して増加と減少を説明する
