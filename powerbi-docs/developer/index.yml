@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: 開発者向けの Power BI のドキュメント
+title: Power BI 開発者向けドキュメント
 summary: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
 metadata:
-  title: 開発者向け Power BI
+  title: Power BI 開発者向けドキュメント
   description: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
   services: powerbi
   ms.service: powerbi
@@ -11,49 +11,49 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/02/2019
-  ms.openlocfilehash: 04cbb872183f589ad37e39c0dd132a1a17662ce4
-  ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+  ms.date: 10/25/2019
+  ms.openlocfilehash: ac0d2e2955846d7b67e94af923b41c8b5f476996
+  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 10/14/2019
-  ms.locfileid: "72307643"
+  ms.lasthandoff: 10/26/2019
+  ms.locfileid: "72959525"
 landingContent:
 - title: 開発者向け Power BI について
   linkLists:
   - linkListType: overview
     links:
-    - text: Power BI の開発者向け機能
+    - text: 開発者向け機能
       url: what-can-you-do.md
     - text: Power BI のビジュアル
       url: ../power-bi-custom-visuals.md
-    - text: Power BI での埋め込みとは
+    - text: 埋め込みとは
       url: embedding.md
     - text: Power BI API とは
       url: overview-of-power-bi-rest-api.md
   - linkListType: reference
     links:
-    - text: Power BI デベロッパー センター
+    - text: デベロッパー センター
       url: https://powerbi.microsoft.com/developers/
-    - text: Power BI の開発者向けサンプル
+    - text: 開発者向けのサンプル
       url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: Power BI JavaScript Wiki
+    - text: JavaScript Wiki
       url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: Power BI REST API
+    - text: REST API
       url: https://docs.microsoft.com/rest/api/power-bi/
     - text: Azure Resource Manager REST API
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: Power BI ビジュアル
+- title: ビジュアル
   linkLists:
   - linkListType: tutorial
     links:
-    - text: Power BI のビジュアルを開発する
+    - text: ビジュアルを開発する
       url: visuals/custom-visual-develop-tutorial.md
   - linkListType: concept
     links:
-    - text: Power BI ビジュアルに関する FAQ
+    - text: ビジュアルに関する FAQ
       url: ../power-bi-custom-visuals-faq.md
-    - text: Power BI ビジュアルのガイドライン
+    - text: ビジュアルのガイドライン
       url: guidelines-powerbi-visuals.md
     - text: ビジュアルの高度な編集モード
       url: /advanced-edit-mode.md
@@ -79,7 +79,7 @@ landingContent:
       url: embed-multi-tenancy.md
     - text: 埋め込みに関する FAQ
       url: embedded-faq.md
-    - text: Power BI のアクセス許可
+    - text: アクセス許可
       url: power-bi-permissions.md
   - linkListType: how-to-guide
     links:
@@ -89,5 +89,5 @@ landingContent:
       url: create-an-azure-active-directory-tenant.md
     - text: Azure AD アクセス トークンを取得する
       url: get-azuread-access-token.md
-    - text: Power BI Embedded での Q&A
+    - text: Power BI Embedded の Q&A 機能
       url: qanda.md

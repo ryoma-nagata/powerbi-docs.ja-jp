@@ -1047,6 +1047,8 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: OData フィードとして共有データセットにアクセスする
               href: report-server/access-dataset-odata.md
+            - name: PowerShell を使用してデータ ソース接続文字列を変更する
+              href: report-server/connect-data-source-apis.md
             - name: スケジュールされた更新の構成
               href: report-server/configure-scheduled-refresh.md
             - name: レポートにコメントを追加

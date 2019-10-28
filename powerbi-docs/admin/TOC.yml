@@ -1,4 +1,6 @@
-- name: Power BI 管理
+- name: Power BI 管理者向けドキュメント
+  href: index.yml
+  expanded: true
   items:
     - name: 概要
       expanded: true
@@ -8,7 +10,7 @@
     - name: 概念
       expanded: true
       items:
-        - name: Office 365 の管理ロール
+        - name: Microsoft 365 の管理ロール
           href: ../service-admin-role.md
         - name: よく寄せられる質問 (FAQ)
           href: ../service-admin-faq.md
@@ -22,9 +24,9 @@
               href: ../service-admin-licensing-organization.md
             - name: Power BI Pro を購入する
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Office 365 の試用版にサインアップする
+            - name: Microsoft 365 評価版でサインアップする
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Office 365 パートナーによる Power BI の追加
+            - name: Microsoft 365 パートナーと共に Power BI を追加する
               href: ../service-admin-syndication-partner.md
         - name: 管理ポータルの使用
           href: ../service-admin-portal.md
@@ -32,19 +34,19 @@
           href: ../service-admin-where-is-my-tenant-located.md
         - name: サインインしたユーザーを見つける
           href: ../service-admin-access-usage.md
-        - name: Power BI の監査
+        - name: 監査
           href: ../service-admin-auditing.md
         - name: サービスの正常性の追跡
           href: ../service-admin-health.md
-        - name: Power BI アカウントを削除する
+        - name: アカウントを削除しています
           href: ../service-admin-closing-your-account.md
-        - name: Power BI と ExpressRoute
+        - name: ExpressRoute
           href: ../service-admin-power-bi-expressroute.md
         - name: Azure AD B2B を使用する
           href: ../service-admin-azure-ad-b2b.md
-        - name: Power BI での行レベルのセキュリティ
+        - name: 行レベルのセキュリティ
           href: ../service-admin-rls.md
-        - name: Power BI アーカイブ済みワークスペース
+        - name: アーカイブ済みワークスペース
           href: ../service-admin-power-bi-archived-workspace.md
         - name: Intune でモバイル アプリを構成する
           href: ../service-admin-mobile-intune.md
