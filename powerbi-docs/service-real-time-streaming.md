@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514319"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307344"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI のリアルタイム ストリーミング
 Power BI のリアルタイム ストリーミングでは、データをストリームし、リアルタイムでダッシュボードを更新できます。 Power BI で作成可能なビジュアルやダッシュボードは、リアルタイムのデータやビジュアルを表示し、更新するためにも作成できます。 工場のセンサー、ソーシャル メディア ソース、サービス利用指標、および時間依存データの回収元または転送元となるあらゆるものがストリーミング データのデバイスとソースになります。
@@ -235,6 +235,13 @@ Power BI におけるリアルタイム ストリーミングの動作は、簡�
 4. Azure Stream Analytics クエリは明示的に Power BI に出力していますか? (INTO キーワードを使用)
 5. Azure Stream Analytics ジョブには、送信対象のデータがありますか? データセットは、送信されるデータがある場合にのみ作成されます。
 6. 警告またはエラーの発生を確認するために、Azure Stream Analytics ログを調べることはできますか?
+
+## <a name="automatic-page-refresh"></a>ページの自動更新
+
+ページの自動更新はレポート ページ レベルで動作し、レポート作成者は、ページが使用されているときにのみアクティブなページ内のビジュアルの更新間隔を設定できます。 ページの自動更新は、DirectQuery データ ソースでのみ使用できます。 最小更新間隔は、レポートが発行されているワークスペースの種類と、Premium ワークスペースの容量の管理者設定によって変わります。
+
+ページの自動更新の詳細については、[ページの自動更新](desktop-automatic-page-refresh.md)に関する記事を参照してください。
+
 
 ## <a name="next-steps"></a>次の手順
 Power BI でリアルタイム ストリーミングを使用する場合に役に立ついくつかのリンクを次に示します。

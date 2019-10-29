@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968795"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544862"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI でのレポートへのフィルターの追加
 
@@ -51,11 +51,12 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 * 視覚エフェクトによって既に使われているフィールドにフィルターを追加します。
 * 視覚エフェクトによってまだ使われていないフィールドを識別し、そのフィールドを**ビジュアル レベル フィルター** バケットに直接追加します。
 
-ところで、この手順では小売りの分析サンプルを使用するので、よろしければダウンロードして同じように操作してみてください。 [小売りの分析のサンプル](sample-retail-analysis.md)はこちらからダウンロードできます。
+
+ところで、この手順では小売りの分析サンプルを使用するので、よろしければダウンロードして同じように操作してみてください。 [小売りの分析のサンプル](sample-retail-analysis.md#get-the-content-pack-for-this-sample) コンテンツ パックをダウンロードします。
 
 ### <a name="filter-the-fields-in-the-visual"></a>ビジュアルでフィールドをフィルター処理する
 
-1. **[レポートの編集]** を選び、編集ビューでレポートを開きます。
+1. **[その他のオプション (...)]**  >  **[レポートの編集]** を選択して、編集ビューでレポートを開きます。
    
    ![レポートの編集ボタン](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -85,7 +86,7 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 
 次に、新しいフィールドをビジュアル レベル フィルターとして視覚エフェクトに追加します。
    
-1. [フィールド] ウィンドウで新しいビジュアル レベル フィルターとして追加するフィールドを選び、 **[ビジュアル レベル フィルター]** 領域までドラッグします。  この例では、**District Manager** を **[ビジュアル レベル フィルター]** バケットにドラッグし、「**an**」を検索して、それらの 3 人のマネージャーを選択します。 
+1. [フィールド] ウィンドウで新しいビジュアル レベル フィルターとして追加するフィールドを選び、 **[ビジュアル レベル フィルター]** 領域までドラッグします。  この例では、**District Manager** を **[ビジュアル レベル フィルター]** バケットにドラッグし、「**an**」を検索して、それらの 3 人のマネージャーを選択します。
      
     ![[フィルター] ウィンドウにフィールドを追加](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -105,7 +106,9 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 
 ページ レベル フィルターを追加して、ページ全体をフィルター処理することもできます。
 
-1. **[レポートの編集]** を選び、編集ビューでレポートを開きます。
+1. Power BI サービスで、小売りの分析レポートを開き、 **[District Monthly Sales]\(地区の毎月の売上\)** ページに移動します。 
+
+2. **[...]**  >  **[レポートの編集]** を選択し、編集ビューでレポートを開きます。
    
    ![レポートの編集ボタン](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. 視覚化およびフィルター ウィンドウとフィールド ウィンドウがまだ開いていない場合は開きます。
@@ -122,19 +125,21 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 Power BI サービスと Power BI Desktop のドリルスルーでは、サプライヤー、顧客、メーカーなど、特定のエンティティに注目した "*ドリルスルー先*" レポート ページを作成できます。 ユーザーは、他のレポート ページでそのエンティティのデータ ポイントを右クリックして、フォーカスされたページにドリルスルーできます。
 
 ### <a name="create-a-drillthrough-filter"></a>ドリルスルー フィルターを作成する
-作業を進めるために、[お客様の収益性のサンプル](sample-customer-profitability.md)をダウンロードします。 Executive ビジネス領域に注目したページを作成します。
+作業を進めるために、[お客様の収益性のサンプル](sample-customer-profitability.md#get-the-content-pack-for-this-sample)をダウンロードします。 Executive ビジネス領域に注目したページを作成します。
 
-1. **[レポートの編集]** を選んで、編集ビューでレポートを開きます。
+1. Power BI サービスで、小売りの分析レポートを開き、 **[District Monthly Sales]\(地区の毎月の売上\)** ページに移動します。
+
+2. **[その他のオプション (...)]**  >  **[レポートの編集]** を選択して、編集ビューでレポートを開きます。
    
    ![レポートの編集ボタン](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. レポートに新しいページを追加し、「**Team Executive**」という名前を付けます。 このページが "*ドリルスルー先*" になります。
 2. チーム エグゼクティブ ビジネス分野の主要指標を追跡するための視覚化を追加します。    
-3. [ドリル スルー フィルター] ウェルに **[Executive] > [Executive Name]** を追加します。    
+3. **Executives** テーブルから、**Executive** をドリルスルー フィルター ウェルにドラッグします。    
    
     ![ドリルスルー フィルターに値を追加](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
-    レポート ページに戻る矢印が追加されることに注意してください。  戻る矢印を選ぶと、"*ドリルスルー元*" のレポート ページ (ドリルスルーを選んだときのページ) に戻ります。 戻る矢印は、読み取りビューでのみ機能します。
+    レポート ページに戻る矢印が追加されることに注意してください。  戻る矢印を選ぶと、"*ドリルスルー元*" のレポート ページ (ドリルスルーを選んだときのページ) に戻ります。 編集ビューで、Ctrl キーを押しながら戻る矢印を選択します。
    
      ![戻る矢印](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
@@ -145,7 +150,7 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
 2. Andrew Ma が自分のデータだけにフィルター処理された [Team Executive] レポート ページを見たいものとします。  左上の面グラフで任意の緑のデータ ポイントを右クリックして、[ドリルスルー] メニュー オプションを開きます。
    
     ![ドリルスルー アクションの開始](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. **[ドリルスルー] > [Team Executive]** を選んで、 **[Team Executive]** という名前のレポート ページにドリルスルーします。 このページは、右クリックしたデータ ポイント (この場合は Andrew Ma) に関する情報を表示するようにフィルター処理されています。 ドリルスルー フィルターにあるフィールドのみが、ドリルスルー レポート ページに渡されます。  
+3. **[ドリルスルー] > [Team Executive]** を選んで、 **[Team Executive]** という名前のレポート ページにドリルスルーします。 このページは、右クリックしたデータ ポイント (この場合は Andrew Ma) に関する情報を表示するようにフィルター処理されています。 元のページのすべてのフィルターは、ドリルスルー レポート ページに適用されます。  
    
     ![ドリルスルー アクションの選択](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 

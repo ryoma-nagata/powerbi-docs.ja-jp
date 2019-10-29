@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a99aad87763edce54996f0a485fde5498fb1df11
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: b1379bb783b090362215eaf7c317bbea435d1eec
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968615"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259935"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI のゲートウェイ用シングル サインオン (SSO) の概要
 
@@ -25,7 +25,9 @@ ms.locfileid: "71968615"
 
 * SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
 * SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) と [SAML](service-gateway-sso-saml.md))
-* SAP BW ([Kerberos](service-gateway-sso-kerberos.md))
+* SAP BW Application Server ([Kerberos](service-gateway-sso-kerberos.md))
+* SAP BW Message Server ([Kerberos](service-gateway-sso-kerberos.md)) - パブリック プレビュー
+* Oracle([Kerberos](service-gateway-sso-kerberos.md)) - パブリック プレビュー
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))

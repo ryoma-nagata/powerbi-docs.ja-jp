@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561065"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543998"
 ---
 # <a name="conditional-formatting-in-tables"></a>テーブルでの条件付き書式設定 
 テーブルで条件付き書式を使用するときに、グラデーションを使用するなど、セルの値または他の値やフィールドに基づいてカスタマイズされたセルの色を指定できます。 セルの値と共にデータ バーも表示できます。 
@@ -140,6 +140,9 @@ ms.locfileid: "69561065"
 条件付きテーブルの書式設定を使用する場合は、留意すべき考慮事項がいくつかあります。
 
 * 条件付き書式は、**マトリックス** ビジュアルの値にのみ適用され、小計や総計には適用されません。 
+* 条件付き書式は **[合計]** 行には適用されません
+* グループがないテーブルは、条件付き書式をサポートしていない単一行として表示されます。
+* 自動最大値/最小値を使用したグラデーション書式、または割合のルールを使用したルールベースの書式を使用する場合、データに NaN 値が含まれていると、条件付き書式を適用することはできません。 NaN は 'Not a number' (数値ではない) を意味します。これは、通常、ゼロ除算エラーによって発生します。 このようなエラーを回避するには、[DIVIDE() DAX 関数](https://docs.microsoft.com/dax/divide-function-dax)を使用できます。
 
 
 ## <a name="next-steps"></a>次の手順

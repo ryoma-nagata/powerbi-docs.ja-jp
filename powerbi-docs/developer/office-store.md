@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944814"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307656"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Power BI ビジュアルを AppSource に発行する
 
 AppSource にカスタム ビジュアルを発行して、他のユーザーが見つけたり使用したりすることができるようにする方法について説明します。
 
-カスタム ビジュアルを作成した後は、AppSource に発行することで、他のユーザーがそれを探して使用できるようにすることができます。 これを可能にするには、事前に終えておく必要がある準備がいくつかあります。 カスタム ビジュアルの作成方法に関する詳細については、「[Developing a Power BI Custom Visual](custom-visual-develop-tutorial.md)」(Power BI カスタム ビジュアルの作成) を参照してください。
+カスタム ビジュアルを作成した後は、AppSource に発行することで、他のユーザーがそれを探して使用できるようにすることができます。 これを可能にするには、事前に終えておく必要がある準備がいくつかあります。 カスタム ビジュアルの作成方法に関する詳細については、「[Developing a Power BI Custom Visual](visuals/custom-visual-develop-tutorial.md)」(Power BI カスタム ビジュアルの作成) を参照してください。
 
    ![Office ストア](media/office-store/appsource-01.png)
 
@@ -147,7 +147,7 @@ Power BI チームからアプリ パッケージ XML を受け取った後は�
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI カスタム ビジュアルの開発](custom-visual-develop-tutorial.md)  
+[Power BI カスタム ビジュアルの開発](visuals/custom-visual-develop-tutorial.md)  
 [Power BI での視覚化](../visuals/power-bi-report-visualizations.md)  
 [Power BI でのカスタム ビジュアル](../power-bi-custom-visuals.md)  
 [カスタム ビジュアルの*認定*を受ける](../power-bi-custom-visuals-certified.md)

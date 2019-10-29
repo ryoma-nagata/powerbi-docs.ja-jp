@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325031"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307946"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 
@@ -309,6 +309,13 @@ Power BI では、更新失敗時だけでなく、非アクティブ状態が�
 > [!NOTE]
 > データセットの設定には、更新履歴を表示するためのリンクがあります。 また、[Power BI REST API](/rest/api/power-bi/datasets/getrefreshhistoryingroup) を使用して、プログラムによって更新履歴を取得することも可能です。 カスタム ソリューションを使用して、複数のデータセットの更新履歴を一元的な方法で監視することができます。
 
+## <a name="automatic-page-refresh"></a>ページの自動更新
+
+ページの自動更新はレポート ページ レベルで動作し、レポート作成者は、ページが使用されているときにのみアクティブなページ内のビジュアルの更新間隔を設定できます。 ページの自動更新は、DirectQuery データ ソースでのみ使用できます。 最小更新間隔は、レポートが発行されているワークスペースの種類と、Premium ワークスペースの容量の管理者設定によって変わります。
+
+ページの自動更新の詳細については、[ページの自動更新](desktop-automatic-page-refresh.md)に関する記事を参照してください。
+
+
 ## <a name="best-practices"></a>ベスト プラクティス
 
 データセットの更新履歴を定期的にチェックすることは、レポートとダッシュボードにおいて最新のデータが利用されることを保証するために取り入れることができる、最も重要なベスト プラクティスの 1 つです。 問題を発見した場合には速やかに対応し、データ ソースの所有者とゲートウェイ管理者と共に対処します。
@@ -324,6 +331,7 @@ Power BI では、更新失敗時だけでなく、非アクティブ状態が�
 - 信頼できるエンタープライズ データ ゲートウェイの展開を利用して、オンプレミス データ ソースにデータセットを接続します。 ゲートウェイが利用不可能や過負荷になるなどで、ゲートウェイ関連の更新失敗に気付いたら、ゲートウェイ管理者と共に、既存のクラスターにさらにゲートウェイを追加するか、新しいクラスターを展開して、対応を行います (スケールアップとスケールアウト)。
 - ユーザー操作のたびにデータ ソースを照会することから、スケジュールされた更新の間に行われるデータ インポートが DirectQuery/LiveConnect データセットの最上部にあるレポートやダッシュボードのパフォーマンスに影響しないように、Import データセットと DirectQuery/LiveConnect データセットには別個のデータ ゲートウェイを使用します。
 - Power BI からご自身の電子メール ボックスに更新失敗の通知を送信できることを確認します。 スパム フィルターによって、電子メール メッセージがブロックされたり、気付かないような別のフォルダーへ直ちに移動されたりする可能性があります。
+
 
 ## <a name="next-steps"></a>次の手順
 

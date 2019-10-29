@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020364"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543387"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
 「[Power BI デザイナーのダッシュボードの概要](service-dashboards.md)」を読みました。今度は自分のダッシュボードを作成します。 ダッシュボードを作成するには、さまざまな方法があります。 たとえば、レポートから、何もない状態から、データセットから、または既存のダッシュボードを複製して、ダッシュボードを作成できます。  
@@ -68,9 +68,9 @@ ms.locfileid: "72020364"
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>レポートを開いてダッシュボードにタイルをピン留めする
 1. 同じワークスペースで **[レポート]** タブを選択し、 **[調達の分析のサンプル]** を選択してレポートを開きます。
 
-    ![[レポート] タブ](media/service-dashboard-create/power-bi-reports.png) 読み取りビューでレポートが開きます。 下部に 2 つのタブがあります。 **[割引の分析]** と **[支出の概要]** です。 各タブはレポートのページを表します。
+    ![[レポート] タブ](media/service-dashboard-create/power-bi-reports.png) 読み取りビューでレポートが開きます。 左側に 2 つのタブがあることに注目してください。 **[割引の分析]** と **[支出の概要]** です。 各タブはレポートのページを表します。
 
-2. **[レポートの編集]** を選んで、編集ビューでレポートを開きます。
+2. **[その他のオプション (...)]**  >  **[レポートの編集]** を選択して、編集ビューでレポートを開きます。
 
     ![読み取りビューのレポート](media/service-dashboard-create/power-bi-reading-view.png)
 3. 視覚化をポイントして、使用可能なオプションを表示します。 ダッシュボードに視覚エフェクトを追加するには、ピン留めアイコンを選択します ![ピン留めアイコン](media/service-dashboard-create/power-bi-pin-icon.png).

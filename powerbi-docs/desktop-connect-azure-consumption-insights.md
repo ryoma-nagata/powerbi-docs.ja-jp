@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop で Azure のコストと使用状況のデータを分析する
+title: Power BI Desktop での Azure Consumption Insights データへの接続
 description: Power BI Desktop を使用して、Azure に簡単に接続し、使用状況を把握できます
 author: davidiseminger
 manager: kfile
@@ -8,29 +8,22 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 44a9e361a1f5031963ba5ce33ee44c7b21f5459b
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160196"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307554"
 ---
-# <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Power BI Desktop で Azure のコストと使用状況のデータを分析する
+# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop での Azure Consumption Insights データへの接続
 
 Power BI Desktop を使用すると、Azure に接続し、組織の Azure サービスの使用状況に関する詳細なデータを取得することができます。 このデータを使用して、カスタム レポートとカスタム メジャーを作成し、Azure の使用状況の把握と分析をさらに適切に行うことができます。
 
-Power BI は現在、Enterprise Agreement および Customer Agreement の請求先アカウントへの接続をサポートしています。
-
-* **Enterprise Agreement** ユーザーは、**Azure Consumption Insights コネクタ**を使用して接続する必要があります (下記参照)。
-
-* **Customer Agreement** ユーザーは、[**Azure Cost Management コネクタ**](#connect-with-azure-cost-management)を使用して接続する必要があります。
-
 > [!NOTE]
-> Azure Cost Management コネクタを使用する、マイクロソフト エンタープライズ契約のお客様で、[コスト管理] ブレードに " *[課金プロファイル ID]* " が表示されない場合は、お客様がモダン コマース プラットフォームにいないことを意味します。 そのような場合は、"*課金プロファイル ID*" ではなく EA 登録番号が要求される Azure Consumption Insights コネクタを使用します。
-
+> Microsoft Azure Consumption Insights (ベータ) のサポートは制限されています。 新しい機能については、[Power BI 用の Azure Cost Management コネクタ](desktop-connect-azure-cost-management.md)に関する記事を参照してください。
 
 ## <a name="connect-with-azure-consumption-insights"></a>Azure Consumption Insights に接続する
 
@@ -200,7 +193,7 @@ Azure portal の列および詳細の名前と、API およびコネクタでの
 | ConsumedServiceId |consumedServiceId | |はい |
 | コスト |cost |ExtendedCost |いいえ |
 | Cost Center |costCenter |Cost Center |いいえ |
-| 日付 |日付 |日付 |いいえ |
+| Date |date |Date |いいえ |
 | 日 | |日 |いいえ |
 | DepartmentName |departmentName |Department Name |いいえ |
 | DepartmentID |departmentId | |はい |
@@ -236,112 +229,12 @@ Azure portal の列および詳細の名前と、API およびコネクタでの
 | SubscriptionId |subscriptionId |SubscriptionId |はい |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |いいえ |
 
-## <a name="connect-with-azure-cost-management"></a>Azure Cost Management に接続する
-
-このセクションでは、Customer Agreement 請求先アカウントに接続する方法を説明します。
-
-> [!NOTE]
-> Azure Cost Management コネクタでは現在のところ、**Customer Agreement** のお客様をサポートしています。  **Enterprise Agreement** のお客様は、Azure Consumption Insights コネクタをご利用ください。
->
->
-
-**Power BI Desktop** で **Azure Cost Management** コネクタを使用するには:
-
-1. **[ホーム]** リボンで **[データの取得]** を選択します。
-
-1. 左側のカテゴリで、 **[Azure]** を選択します。
-
-1. 右側の **[Azure Cost Management (ベータ)]** を選択します。
-
-1. **[接続]** を選択します。
-
-
-   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
-
-   表示されるダイアログ ボックスで、**課金プロファイル ID** を入力します。
-
-   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
-
-ご利用の ID は [Azure portal](https://portal.azure.com) から取得できます。
-
-1. **[コスト管理 + 課金]** に移動します。
-
-1. ご自分の請求先アカウントを選択します。
-
-1. サイドバーで **[課金プロファイル]** を選択します。
-
-1. ご自分の課金プロファイルを選択します。
-
-1. サイドバーで **[プロパティ]** を選択します。
-
-1. 課金プロファイル ID をコピーします。
-
-   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
-
-   Azure のメール アドレスとパスワードでサインインするように求められます。  認証が完了すると、 **[ナビゲーター]** ウィンドウが開き、使用可能な 12 個のテーブルが表示されます。
-
-| テーブル        | 説明 |
-|-------------------- | -------------------------------------------------------------|
-| **Billing events** | 新しい請求書やクレジットでの購入などのイベント ログ。 |
-| **Budgets** | 既存の予算目標に対する実際のコストや使用状況を確認できる予算の詳細。 |
-| **Charges** | Azure の使用状況、マーケットプレイスの料金、および別請求の料金についての月レベルの概要。 |
-| **Credit lots** | 指定された課金プロファイルの Azure クレジット ロット購入の詳細。 |
-| **Credit summary** | 指定された課金プロファイルのクレジットの概要。 |
-| **Marketplace** | 使用状況に基づく Azure Marketplace の料金。 |
-| **Pricesheets** | 指定された課金プロファイルに適用されるメーター レート。 |
-| **RI charges** | 過去 24 か月の間の、ご利用の予約インスタンスに関連付けられている料金。 |
-| **RI recommendations (single)** | ご利用の 1 つのサブスクリプション上での過去 7 日、30 日、または 60 日の間の使用状況の傾向に基づく、予約インスタンス購入の推奨事項。 |
-| **RI recommendations (shared)** | ご利用のすべてのサブスクリプション上での過去 7 日、30 日、または 60 日の間の使用状況の傾向に基づく、予約インスタンス購入の推奨事項。 |
-| **RI usage** | 過去 1 か月の間の既存の予約インスタンスの消費に関する詳細。 |
-| **Usage details** | 指定した課金プロファイル ID の消費量と見積もり料金の内訳。 |
-
-テーブルのチェックボックスをオンにすると、プレビューを表示できます。  1 つ以上のテーブルを選択するには、名前の横のチェック ボックスをオンにして **[読み込み]** を選択します。
-
-![](media/desktop-connect-azure-consumption-insights/azure-cost-management-03.png)
-
-**[読み込み]** を選択すると、**Power BI Desktop** にデータが読み込まれます。
-
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
-
-選択したデータが読み込まれると、選択したテーブルとフィールドが **[フィールド]** ウィンドウに表示されます。
-
-![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
-
-[Azure Consumption Insights を使用して Power BI の支出を分析する方法](https://www.youtube.com/watch?v=QKBMXXrlpEk)に関するビデオをご覧ください。 このビデオでは、Power BI Desktop 内で Azure Consumption Insights コネクタを使用してご自分のコスト データを確認する方法について説明します。
-
-## <a name="writing-custom-queries"></a>カスタム クエリの作成
-
-月数をカスタマイズしたり、API バージョンを変更したり、返されたデータに対してさらに高度なロジックを実行したりする場合は、カスタム [M クエリ](/powerquery-m/power-query-m-reference)を作成できます。
-
-**Power BI Desktop** の場合:
-
-1. **[ホーム]** リボンを選択します
-2. **[データの取得]**  >  **[空のクエリ]** を選択します
-
-または、**クエリ エディター**の場合:
-
-1. 左側の **[クエリ]** ウィンドウを右クリックします
-2. 表示されるメニューから **[新しいクエリ] > [空のメニュー]** の順に選択します
-
-**数式バー**に、次の式を入力します。`billingProfileId` は実際の ID に置き換え、"charges" は任意の有効なテーブル名 (上記の一覧) に置き換えます。
-
-```
-let
-    Source = AzureCostManagement.Tables(billingProfileId, [ numberOfMonths = 3 ]),
-    charges = Source{[Key="charges"]}[Data]
-in
-    charges
-```
-
-`numberOfMonths` を 1 から 36 までの任意の値に変更するだけでなく、次の指定もできます。
-
-* クエリで呼び出す API バージョンをカスタマイズするための `apiVersion`。
-* `lookbackWindow`: RI recommendations (single または shared) に対して、推奨事項を生成する期間を変更します (有効なオプション:7 日、30 日、または 60 日)。
 
 ## <a name="next-steps"></a>次の手順
 
 Power BI Desktop を使用すれば、さまざまな種類のデータ ソースに接続できます。 詳しくは、次の各記事をご覧ください。
 
+* [Power BI Desktop で Azure Cost Management データに接続する](desktop-connect-azure-cost-management.md)
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)

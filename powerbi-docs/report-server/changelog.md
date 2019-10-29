@@ -8,15 +8,15 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/31/2018
-ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/09/2019
+ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325722"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259963"
 ---
-# <a name="changelog-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
+# <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
 この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
 
@@ -24,12 +24,19 @@ ms.locfileid: "71325722"
 
 ## <a name="september-2019"></a>2019 年 9 月
 
-- **Power BI Report Server**          
+- **Power BI Report Server**
+    - *バージョン:1.6.7221.30698 (ビルド 15.0.1102.620)、リリース日:2019 年 10 月 9 日*
+        - バグの修正
+            - テキスト フィルターのカスタム ビジュアルの修正。
+            - ドロップ ダウン スライサーのパフォーマンスの修正。
+            - テレメトリからの PII の削除の修正。
+          - URL を大文字と小文字を区別しないようにする修正。
+             
     - *バージョン 1.6.7206.38019 (ビルド 15.0.1102.597)、リリース日:2019 年 9 月 26 日*
         - セキュリティ更新プログラム
         - バグの修正
            - ページ分割されたレポート
-             - IE と Edge の使用中に発生するアクセシビリティ問題の修正プログラム。
+             - Internet Explorer と Microsoft Edge の使用中に発生するアクセシビリティの問題の修正。
              - 接続のテスト中に発生する SAP HANA の問題の修正プログラム。
              - 電子メール アドレスの一覧を提供するときに発生する問題の修正プログラム。
              - DirectQuery データソースと統合認証を使用する Power BI レポートの修正プログラム。
@@ -43,10 +50,17 @@ ms.locfileid: "71325722"
              - Web API: /PowerBIReports({Id})/DataSources (PATCH) を更新し、接続文字列の更新を可能にしました。
          
 - **Power BI Desktop (Power BI Report Server 用に最適化)**
+
+    - *バージョン:2.73.5586.1241 (2019 年 9 月)、リリース日:2019 年 10 月 9 日*
+        - バグの修正
+            - テキスト フィルターのカスタム ビジュアルの修正。
+            - ドロップ ダウン スライサーのパフォーマンスの修正。
+            - テレメトリからの PII の削除の修正。
+            
     - *バージョン:2.73.5586.821 (2019 年 9 月)、リリース日:2019 年 9 月 26 日* (新しいビルドと新しいバージョン)
-    - Power BI Report Server (2019 年 9 月) との接続に必要な変更が含まれます
+        - Power BI Report Server (2019 年 9 月) との接続に必要な変更が含まれます
 
-
+    
 ## <a name="may-2019"></a>2019 年 5 月
 
 - **Power BI Report Server**          

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/16/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a9e8d2aaab7c0b3ed1daea32486260d09bc6f6a2
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945195"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511641"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI の DirectQuery でサポートされるデータ ソース
 
@@ -76,7 +76,7 @@ ms.locfileid: "71945195"
 | Oracle データベース |はい |
 | PostgreSQL |はい |
 | SAP Business Warehouse Application サーバー |はい |
-| SAP Business Warehouse メッセージ サーバー |現時点では、**Power BI サービス**でサポート対象外 |
+| SAP Business Warehouse メッセージ サーバー |はい |
 | SAP HANA |はい |
 | Snowflake |はい |
 | Spark (ベータ) バージョン 0.9 以降 |はい |
@@ -97,6 +97,7 @@ SSO オプションは、このデータ ソースを使うすべてのデータ
 - Impala
 - SAP HANA
 - SAP BW
+- SAP BW Message Server (プレビュー)
 - Spark
 - SQL Server
 - Teradata

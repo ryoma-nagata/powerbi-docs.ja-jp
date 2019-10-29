@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968881"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307391"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium 容量でワークロードを構成する
 
@@ -70,6 +70,8 @@ AI ワークロードを使用すると、Power BI で cognitive services と自
 | **Max Result Row Set Count (結果行セットの最大数)** | DAX クエリで返される行の最大数。 既定値は -1 (無制限) に設定されており、許容範囲は 100,000 - 2,147,483,647 です。 |
 | **クエリのメモリ制限 (%)** | クエリまたは DAX メジャーの一時的な結果に使用できるメモリの最大割合。 |
 | **クエリのタイムアウト (秒)** | クエリがタイムアウトするまでの最大時間。既定値は 3,600 秒 (1 時間) です。 値 0 は、クエリがタイムアウトしないことを指定します。 |
+| **Automatic page refresh (preview) (ページの自動更新 (プレビュー))** | Premium ワークスペースでページの自動更新を含むレポートを作成する機能のオン/オフを切り替えます。 |
+| **Minimum refresh interval (最小更新間隔)** | ページの自動更新がオンの場合に、ページ更新間隔に許容される最小間隔。 既定値は 5 分であり、許容される最小値は 1 秒です。 |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>Max Intermediate Row Set Count (中間行セットの最大数)
@@ -112,6 +114,19 @@ AI ワークロードを使用すると、Power BI で cognitive services と自
 すべてのクエリの合計時間は 75 分ですが、個々のクエリはいずれも実行時間が 20 分未満であるため、設定の上限に達しません。
 
 Power BI のレポートでは、容量に対するクエリごとに、この既定値をはるかに小さいタイムアウトにオーバーライドされることに注意してください。 各クエリのタイムアウトは通常約 3 分です。
+
+#### <a name="automatic-page-refresh-preview"></a>ページの自動更新 (プレビュー)
+
+ページの自動更新を有効にすると、Premium 容量のユーザーは、DirectQuery ソースに対して定義された間隔でレポート内のページを更新できます。 容量管理者は、次の操作を行うことができます。
+
+1.  ページの自動更新のオン/オフを切り替える
+2.  最小更新間隔を定義する
+
+次の図は、自動更新間隔の設定の場所を示しています。
+
+![自動更新間隔の管理者設定](media/service-admin-premium-workloads/automatic-refresh-interval.png)
+
+ページの自動更新によって作成されたクエリは、データ ソースに直接送られるため、組織でページの自動更新を許可する場合は、それらのソースに対する信頼性と負荷を考慮することが重要です。 
 
 ### <a name="dataflows"></a>データフロー
 
@@ -181,5 +196,6 @@ Power BI のレポートでは、容量に対するクエリごとに、この�
 [Power BI Premium の容量の最適化](service-premium-capacity-optimize.md)     
 [データフローを使用した Power BI でのセルフサービスのデータ準備](service-dataflows-overview.md)   
 [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)   
+[Power BI Desktop でのページの自動更新 (プレビュー)](desktop-automatic-page-refresh.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティに質問する](http://community.powerbi.com/)

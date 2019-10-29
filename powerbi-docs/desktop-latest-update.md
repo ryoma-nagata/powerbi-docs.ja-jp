@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 646372dbba995a359b732e46a8689cb295565c1f
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 0ccd89bfa868569f6547c67d3673d0afd664d6a7
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903550"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307720"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Power BI Desktop の最新の更新プログラムの新機能 
 
 
-## <a name="september-2019-update-2735586561"></a>2019 年 9 月更新 (2.73.5586.561)
+## <a name="october-2019-update-2745619621"></a>2019 年 10 月の更新 (2.74.5619.621)
 
-9月の更新プログラムは、学校の新学期のようなもので、新しく学習すること、夏の間会えなかった友人が変わったところ、将来のレポートに知識を適用する機会などがあります。 
+10 月の更新プログラムは、ハロウィン用のかぼちゃマーケットよりも楽しく、お化け屋敷のミッドナイト ツアーよりも刺激的です。 
 
 [Power BI Desktop の最新バージョンをダウンロード](https://powerbi.microsoft.com/desktop)できるようになり、サポートされているすべての言語を含む 1 つの .exe ファイルとして配信されるようになりました。 Windows 10 を実行している場合、Windows ストアから **Power BI Desktop** を取得することもできます。 バージョン番号が異なる場合でも、月次バージョン番号は **Power BI Desktop** のインストール方法に関係なく同じです。 詳細については、[この記事](desktop-get-the-desktop.md)を参照してください。 
 
@@ -42,46 +42,57 @@ ms.locfileid: "70903550"
 以下の更新は、今月の **Power BI Desktop** の新しい機能です。
 
 ### <a name="reporting"></a>レポート
-* テーマでの色とテキストのクラス [[ビデオ]](https://youtu.be/neq0THnRJzo?t=11)  [[記事]](desktop-report-themes.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#themeJSON) 
-* 新しい既定のテーマ [[ビデオ]](https://youtu.be/neq0THnRJzo?t=334)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#newThemes)
-* 個人設定された視覚化ウィンドウの強化 (プレビュー) [[ビデオ]](https://youtu.be/neq0THnRJzo?t=601)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#vizPane)
+* DirectQuery のページの自動更新 [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=12) [[記事]](desktop-automatic-page-refresh.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh) 
+
 
 
 ### <a name="analytics"></a>分析
-* カスタム書式設定文字列 [[ビデオ]](https://youtu.be/neq0THnRJzo?t=731)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#customFormatStrings) 
-* より多くのビジュアル書式設定オプションに対する条件付き書式設定 [[ビデオ]](https://youtu.be/neq0THnRJzo?t=813)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#conditionalFormatting) 
-* ドリルスルー探索可能性の向上 [[ビデオ]](https://youtu.be/neq0THnRJzo?t=959)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#drillThrough) 
-* 新しい DAX 式:REMOVEFILTERS と CONVERT [[ビデオ]](https://youtu.be/neq0THnRJzo?t=1048)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#dax) 
+* 新しい Q&A [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=144) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaVisual) 
+* Q&A のユーザー エクスペリエンスの機能強化 [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=144) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#improvedExperience) 
+    * ドロップダウン コントロールの機能強化
+    * 赤と青の下線
+    * 視覚効果の機能強化
+* Q&A の自然言語の機能強化 [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=322) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#nlImprovements) 
+    * Office/Bing 類義語辞典との統合
+    * メジャー テーブルのサポートと、テーブル名とあいまいさの処理の向上
+* Q&A ツール (プレビュー) [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=376) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaTooling) 
+    * 質問の確認
+    * Q&A の学習
+    * 加えられたすべての変更の確認
+* RLS を含む SSAS と Azure AS のサポート [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=480) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#supportAS) 
 
 
 ### <a name="visuals"></a>ビジュアル
-* PowerApps ビジュアルの一般提供開始 [[ビデオ]](https://youtu.be/neq0THnRJzo?t=1063)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#powerApps) 
-
+* 既定で PowerApps ビジュアルを追加 [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=505) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#powerApps) 
+* 新しい xViz ビジュアル [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=538) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#xViz) 
 
 ### <a name="data-connectivity"></a>データ接続
-* PostgreSQL コネクタの拡張機能 [[ビデオ]](https://youtu.be/neq0THnRJzo?t=1112) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#postgreSQL) 
+* Sagra Emigo コネクタの一般提供開始 [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=778) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#sagraEmigo) 
+* Azure Cost Management コネクタの更新 [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=805) [[記事]](desktop-connect-azure-cost-management.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#azureCostManagement) 
+* 新しい Workplace Analytics コネクタ [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=830) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#workplaceAnalytics) 
+
 
 ### <a name="data-preparation"></a>データ準備
-* データ プロファイルからクリップボードへのコピー [[ビデオ]](https://youtu.be/neq0THnRJzo?t=1146)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#copyProfiling) 
+* クエリ診断 [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=907) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#queryDiagnostics) 
+* データ プロファイルの機能強化 [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=953) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#dataProfiling) 
 
 
 ### <a name="template-apps"></a>テンプレート アプリ
-* Google Analytics レポート [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
+* Project Web App [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=850) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#projectWebApp) 
 
 ### <a name="other"></a>その他
-* 多次元モデルのパフォーマンス向上 [[ビデオ]](https://youtu.be/neq0THnRJzo?t=1208)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
-* DirectQuery モデルのクエリ パフォーマンス向上 [[ビデオ]](https://youtu.be/neq0THnRJzo?t=1272)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
+* 新しいファイル形式: .PBIDS [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=2455) [[記事]](desktop-data-sources.md#pbids-file-examples) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#pbids) 
+* モデリング操作のパフォーマンスの向上 [[ビデオ]](https://youtu.be/A8A9baUQsXQ?t=2583) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#performance) 
 
 > [!NOTE]
 > [Power BI Desktop で使用可能なすべてのデータ ソースを確認](desktop-data-sources.md)することもできます。この一覧は常に更新されているため、頻繁にご確認ください。
 
-これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/)」を参照すると、これらの新機能のそれぞれについて詳しく知ることができます (上記のリストのブログ投稿の参照先と同じです)。
 
 
 次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/neq0THnRJzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A8A9baUQsXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。

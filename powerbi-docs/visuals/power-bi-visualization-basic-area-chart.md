@@ -10,19 +10,22 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: b7a4021999a39d88b78d31aaa55d7f9c08a93d8e
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839867"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544143"
 ---
 # <a name="basic-area-chart"></a>基本的な面グラフ
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 基本的な面グラフ (層グラフとも呼ばれます) は、折れ線グラフに基づいています。 軸と折れ線の間の領域は、量を示すために色で塗りつぶされます。 
 
 面グラフは、時間の経過に伴う変化の大きさを強調し、トレンドの合計値に注目させるために使用できます。 たとえば、時間の経過に伴う利益を表すデータを面グラフにプロットして、総利益を強調することができます。
 
-![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
+![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
 ## <a name="when-to-use-a-basic-area-chart"></a>基本的な面グラフを使用すべきケース
 基本的な面グラフを選ぶとよい状況を挙げます。
@@ -31,29 +34,32 @@ ms.locfileid: "66839867"
 * 個々の系列が物理的に数えられる集合を表す場合
 
 ### <a name="prerequisites"></a>前提条件
- - Power BI サービス
- - 小売りの分析のサンプル
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
 
-先に進むには、Power BI にサインインして、 **[データの取得] \> [サンプル] \> [小売りの分析のサンプル]** を選んでから、 **[ダッシュボードに移動]** を選びます。 
+1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
+   
+2. **小売の分析のサンプル PBIX ファイル**を探します。
+
+1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
+
+1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+
 
 ## <a name="create-a-basic-area-chart"></a>基本的な面グラフの作成
  
 
-1. [小売りの分析のサンプル] ダッシュボードで、 **\[Total Stores] \(総店舗数)** タイルを選び、[小売りの分析のサンプル] レポートを開きます。
-2. **[編集]** を選択し、編集ビューでレポートを開きます。
-3. レポートの下部にある黄色の正符号 [+] アイコンを選んで、新しいページを追加します。
-4. 今年の売上と去年の売上を月ごとに表示する面グラフを作成します。
+1. これらの手順は、今年の売上と去年の売上を月ごとに表示する面グラフを作成する際に役立ちます。
    
    a. [フィールド] ウィンドウで、 **[Sales] \> [Last Year Sales]** を選択し、 **[This Year Sales] > [Value]** を選択します。
 
-   ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
+   ![面グラフのデータ値](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
    b.  [視覚化] ウィンドウの [面グラフ] アイコンを選んで、グラフを基本的な面グラフに変換します。
 
-   ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
+   ![面グラフ アイコン](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  **\[Time] \(時間) \> \[Month] \(月)** を選び、[Month] を **[軸]** に追加します。   
-   ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
+   c.  **[時刻] \> [FiscalMonth]** の順に選択して、 **[軸]** に追加します。   
+   ![面グラフの軸の値](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  月別にグラフを表示するには、(ビジュアルの右上隅にある) 省略記号を選択し、 **[Sort by month]** (月別に並べ替え) を選択します。 並べ替え順序を変更するには、省略記号をもう一度選び、 **[昇順で並べ替え]** または **[降順で並べ替え]** を選択します。
 
@@ -62,14 +68,11 @@ ms.locfileid: "66839867"
 
 グラフ内の 1 つの特定の領域を強調表示するには、その領域または上部の境界を選びます。  他の視覚エフェクトの種類とは異なり、同じページに他の視覚エフェクトがある場合、基本的な面グラフを強調表示しても、レポート ページの他の視覚エフェクトはクロス フィルター処理されません。 ただし、面グラフは、レポート ページ上の他の視覚化によってトリガーされたクロス フィルター処理のターゲットになります。 
 
-1. 面グラフを選択し、それを別のレポート ページにコピーして、試してください (CTRL + C および CTRL + V)。
-2. 影付きの領域を 1 つ選択し、次いでもう 1 つ影付きの領域を選択します。 ページのその他の視覚化には、何も影響がないことがわかります。
+1. 面グラフを選択し、**New Store Analysis (新しい店舗の分析)** レポート ページにコピーしてみてください (Ctrl + C キーとCtrl + V キー)。
+2. 面グラフの網掛けされた領域の 1 つを選択し、もう 1 つの網掛けされた領域を選択します。 ページのその他の視覚化には、何も影響がないことがわかります。
+1. 次に、要素を選択します。 面グラフの変化を確認してください。クロスフィルタリングされます。
 
-    ![面グラフ上で選択されている今年の売上](media/power-bi-visualization-basic-area-chart/power-bi-select-area.png)
-
-3. ここで、ページ上の縦棒グラフの 1 本のバーまたは折れ線グラフの 1 月など、その他の視覚化の要素を 1 つ選択します。 面グラフの変化を確認してください。フィルタリングされます。  
-
-    ![選択されている Ft Oglethorpe バー](media/power-bi-visualization-basic-area-chart/power-bi-filter.png) 
+    ![フィルターの例](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
 詳しくは、「[Power BI レポートでの視覚化の相互作用](../service-reports-visual-interactions.md)」をご覧ください。
 

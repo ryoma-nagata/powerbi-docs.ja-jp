@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299362"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544331"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI の塗り分け地図 (コロプレス)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 塗り分け地図では、網掛け、着色またはパターンを使用して、値の違いを割合に応じて、地理的または地域的に表示します。  こうした相対的な違いは、薄い色の網掛け (頻度が低い/量が少ない) から、濃い色の網掛け (頻度が高い/量が多い) を使用して、すぐにわかるように表示されます。    
 
 ![米国のマップ](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
@@ -44,27 +47,24 @@ Bing に送信されているデータの詳細、およびジオコーディン
 * 異なる地理的位置への分散状況を全体的に理解する。
 
 ### <a name="prerequisites"></a>前提条件
-- Power BI サービスまたは Power BI Desktop
-- 売上およびマーケティングのサンプル
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)を使用します。
+1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
+   
+2. **小売の分析のサンプル PBIX ファイル**を探します。
 
-まず、このチュートリアルでは Power BI Desktop ではなく Power BI サービスを使います。
+1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
+
+1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+
 
 ## <a name="create-a-basic-filled-map"></a>基本的な塗り分け地図を作成する
 このビデオでは、基本的な地図マップを作成し、塗り分け地図に変換する様子をご覧いただけます。
+   > [!NOTE]
+   > このビデオでは、以前のバージョンの Power BI Desktop を使用します。
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
-
-### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>データを取得し、レポートに新しい空白ページを追加する
-1. 独自の塗り分け地図を作成するには、Power BI にサインインして **[データの取得] \> [サンプル] \> [売上およびマーケティング] \> [接続]** の順に選択し、[売上およびマーケティングのサンプルをダウンロード](../sample-datasets.md)します。 または、appsource.com で **Power BI の売上およびマーケティング** アプリを入手します。 
-
-2. 売上およびマーケティング レポートを開きます。
-
-   ![売上およびマーケティング レポートが開く](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
-3. Power BI でレポートが開きます。 **[レポートの編集]** を選び、[編集ビュー](../service-interact-with-a-report-in-editing-view.md)でレポートを開きます。
-
-4. レポート キャンバスの下部にある黄色の正符号を選んで、新しいページを追加します。
-
-    ![[レポート] タブ](media/power-bi-visualization-filled-maps-choropleths/power-bi-new-page.png)
 
 ### <a name="create-a-filled-map"></a>塗り分け地図を作成する
 1. フィールド ウィンドウで **[Geo (地理)]** \> **[State]** フィールドを選択します。    
@@ -75,9 +75,9 @@ Bing に送信されているデータの詳細、およびジオコーディン
    ![塗り分け地図のアイコンが強調表示されたテンプレート](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. 地図にフィルターを適用して、米国本土のみが表示されるようにします。
 
-   a.  [視覚化] ウィンドウの下部にある **[フィルター]** 領域を探します。
+   a.  [視覚化] ウィンドウの左側にある **[フィルター]** ウィンドウを確認します。 最小化されている場合は展開します
 
-   b.  **[State]** にポインターを合わせて、展開シェブロンをクリックします。  
+   b.  **[状態]** をポイントし、展開シェブロンを選択します。  
    ![[State (All)] を示すビジュアル レベル フィルター](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  **[すべて]** の横にチェックマークを付けて、 **[AK]** の横のチェックマークを外します。
@@ -115,11 +115,11 @@ Power BI には、塗り分け地図の外観に対して数多くのコント�
 
     ![選択された [センチメント] タブ](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. ページの視覚エフェクトを移動し、サイズを変更してスペースを確保し、Ctrl + V キーを使用して、前のレポートから塗り分け地図を貼り付けます。
+4. ページの視覚エフェクトを移動し、サイズを変更してスペースを確保し、Ctrl + V キーを使用して、前のレポートから塗り分け地図を貼り付けます。 (以下の画像が表示されます)
 
    ![センチメント ページに追加された塗り分け地図](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. 塗り分け地図で、1 つの州を選択します。  これにより、ページ上の他の視覚化が強調表示されます。 たとえば、**テキサス**を選ぶと、センチメントが 74 と表示されます。このとき、テキサスは中央地区 \#23 内にあります。   
+5. 塗り分け地図で、1 つの州を選択します。  これで、ページ上の他の視覚化がクロス強調表示され、クロスフィルター処理されます。 たとえば、**テキサス**を選ぶと、センチメントが 75 と表示されます。また、テキサスは中央地区 #23 内にあります。   
    ![テキサスが選択されています](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
 2. [VanArsdel - 月別の感情] 折れ線グラフでデータ ポイントを選択します。 これにより、塗り分けマップがフィルター処理され、競合他社ではなく、VanArsdel のセンチメント データが表示されます。  
    ![新しい網掛け](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)
