@@ -424,11 +424,11 @@
     - name: 概要
       items:
         - name: Power BI とは?
-          href: power-bi-overview.md
+          href: fundamentals/power-bi-overview.md
         - name: Power BI サービスとは何ですか?
           href: power-bi-service-overview.md
         - name: Power BI Desktop とサービスの比較
-          href: service-service-vs-desktop.md
+          href: designer/service-service-vs-desktop.md
     - name: チュートリアル
       items:
         - name: Power BI の概要
