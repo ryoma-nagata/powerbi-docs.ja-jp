@@ -21,7 +21,7 @@ ms.locfileid: "72020800"
 この記事では、Power BI サービスでページ分割されたレポートの埋め込みデータ ソースを作成および変更する方法について説明します。 埋め込みデータ ソースは、1 つのレポートで定義し、そのレポート内のみで使用します。 現時点では、Power BI サービスに発行されるページ分割されたレポートには、埋め込みデータセットと埋め込みデータ ソースが必要であり、次のデータ ソースに接続できます。
 
 - Azure Analysis Services
-- ライブ データなどに接続 
+- Azure SQL Database 
 - Azure SQL Data Warehouse
 - SQL Server
 - SQL Server Analysis Services
