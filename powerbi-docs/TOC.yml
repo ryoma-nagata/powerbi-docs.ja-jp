@@ -415,10 +415,20 @@
           href: desktop-latest-update-archive.md
         - name: Power BI Desktop "気に入った機能の報告" のプライバシーに関する声明
           href: desktop-send-smile-privacy-statement.md
-        - name: Power BI レポート内のアクセス性
-          href: desktop-accessibility.md
         - name: Power BI Desktop のサインイン フォームを管理する
           href: desktop-admin-sign-in-form.md
+        - name: アクセシビリティ
+          items:
+            - name: Power BI でのユーザー補助の概要
+              href: desktop-accessibility-overview.md
+            - name: アクセス可能な Power BI レポートの作成
+              href: desktop-accessibility-creating-reports.md
+            - name: ユーザー補助ツールを使用した Power BI レポートの使用
+              href: desktop-accessibility-consuming-tools.md
+            - name: ユーザー補助ツールを使用した Power BI レポートの作成
+              href: desktop-accessibility-creating-tools.md
+            - name: Power BI レポートのユーザー補助キーボード ショートカット
+              href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI サービス
   items:
     - name: 概要
