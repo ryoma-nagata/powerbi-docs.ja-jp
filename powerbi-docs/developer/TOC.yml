@@ -71,6 +71,8 @@
               href: visuals/landing-page.md
             - name: URL の起動
               href: visuals/launch-url.md
+            - name: ローカル ストレージ API
+              href: visuals/local-storage.md
             - name: イベントのレンダリング
               href: visuals/event-service.md
             - name: 並べ替え

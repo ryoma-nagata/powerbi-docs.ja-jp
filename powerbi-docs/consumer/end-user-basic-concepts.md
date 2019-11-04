@@ -12,16 +12,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 902bfe11ba3dfa4047ab5918de7081ae05fb9a09
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543713"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060345"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI サービスのコンシューマーの基本的な概念
 
-この記事は、[Power BI の概要](../power-bi-overview.md)に関する記事を既に読んでいて、ご自分を [Power BI ***コンシューマー***](end-user-consumer.md)と認識していることを前提としています。 コンシューマーは、仕事仲間からダッシュボードやレポートなどの Power BI のコンテンツを受け取ります。 コンシューマーは、Power BI の Web サイト ベースのバージョンである Power BI サービスを使用します。
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+この記事は、[Power BI の概要](../fundamentals/power-bi-overview.md)に関する記事を既に読んでいて、ご自分を [Power BI ***コンシューマー***](end-user-consumer.md)と認識していることを前提としています。 コンシューマーは、仕事仲間からダッシュボードやレポートなどの Power BI のコンテンツを受け取ります。 コンシューマーは、Power BI の Web サイト ベースのバージョンである Power BI サービスを使用します。
 
 "Power BI Desktop" あるいは単に "Desktop" という用語をご存知かと思います。 これは、ダッシュボードおよびレポートをビルドしてお客様と共有する "*デザイナー*" によって使用されるスタンドアロン ツールです。 その他の Power BI ツールが存在することを知っておくことは重要です。 お客様がコンシューマーである限り、Power BI サービスのみを操作します。 この記事は Power BI サービスにのみ適用されます。
 

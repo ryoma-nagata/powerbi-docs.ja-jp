@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a80c549ab3aa61e377b657ad426d240a6a485fdd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f2d175896876bd6ea6f76b58b0eda0e5100dcfe1
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074250"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060893"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database と DirectQuery
 
@@ -55,7 +55,7 @@ DirectQuery を使用して Azure SQL Database に接続するには、Power BI 
 ## <a name="next-steps"></a>次の手順
 
 * [Power BI Desktop で DirectQuery を使用する](desktop-use-directquery.md)  
-* [Power BI とは?](power-bi-overview.md)  
+* [Power BI とは?](fundamentals/power-bi-overview.md)  
 * [Power BI のデータの取得](service-get-data.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。

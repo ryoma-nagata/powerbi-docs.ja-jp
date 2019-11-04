@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ee4b4616f264f0bd20e53d999b64301b2a7a693b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186053"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060613"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI で Azure 監査ログに接続する
 Azure 監査ログのコンテンツ パックを利用して、監査ログに格納されている情報を分析したり、視覚化したりすることができます。 Power BI は、データを取得し、そのまま使えるダッシュボードをビルドし、取得したデータに基づくレポートを作成します。
@@ -71,6 +71,6 @@ Azure 監査ログのコンテンツ パックには、Azure portal の監査ロ
 資格情報エラーまたは、更新しようとして資格情報が正しくないためにエラーが表示される場合は、Azure 監査ログのコンテンツ パックのすべてのインスタンスを削除し、再接続してみてください。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](power-bi-overview.md)  
+[Power BI とは?](fundamentals/power-bi-overview.md)  
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)  
 

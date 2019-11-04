@@ -7,17 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/24/2019
+ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fb4bffe36c24f83d81501554edffa0bb3ae5a3c0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b92060847dbdd100f33ca590cbedc7866fbe252d
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391601"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716689"
 ---
 # <a name="change-the-display-of-a-report-page"></a>レポート ページの表示の変更
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 レポートは、さまざまなデバイスで表示され、画面サイズや縦横比も異なります。 レポート ページの表示方法をニーズに合わせて変更します。
 

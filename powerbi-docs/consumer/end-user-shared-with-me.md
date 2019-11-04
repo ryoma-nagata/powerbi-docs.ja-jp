@@ -11,15 +11,16 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d50ed2c06c81514fa6fb129ca3691ec56b8116b9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 0f7926e536ba80549e8a6e1cdce5a7cf609efaba
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256232"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716702"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>自分と共有されているダッシュボードとレポートを表示する
 
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 同僚が **[共有]** ボタンを使用して自分とコンテンツを共有した場合、 **[自分と共有]** コンテナーに表示されます。 このダッシュボードまたはレポートは、 **[自分と共有]** からのみ使用でき、 **[アプリ]** からは使用できません。
 
@@ -45,7 +46,7 @@ Amanda による**自分と共有**コンテンツの一覧の説明と、一覧
 * 星のアイコンを選択して[ダッシュボードまたはレポートをお気に入り](end-user-favorite.md) ![星のアイコン](./media/end-user-shared-with-me/power-bi-star-icon.png)にします。
 * ダッシュボードまたはレポートを削除する  ![ごみ箱アイコン](./media/end-user-shared-with-me/power-bi-delete-icon.png).
 * 一部のダッシュボードとレポートを再共有することができます。  ![共有アイコン](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [レポートを Excel で開きます](end-user-export.md) ![Excel へのエクスポート アイコン](./media/end-user-shared-with-me/power-bi-excel.png) 
+* [レポートを Excel で開きます](end-user-export.md) ![Excel にエクスポート アイコン](./media/end-user-shared-with-me/power-bi-excel.png) 
 * Power BI によるデータの[分析情報を表示](end-user-insights.md)します ![分析情報アイコン](./media/end-user-shared-with-me/power-bi-insights.png)。
   
   > [!NOTE]

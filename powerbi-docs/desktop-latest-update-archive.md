@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307738"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429707"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -107,8 +107,8 @@ ms.locfileid: "72307738"
 
 次のリンクを選択して、この以前のバージョンをダウンロードします。 
 
-* [2019 年 9 月バージョンの Power BI Desktop - 32 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
-* [2019 年 9 月バージョンの Power BI Desktop - 64 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+* [2019 年 9 月バージョンの Power BI Desktop - 32 ビット](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
+* [2019 年 9 月バージョンの Power BI Desktop - 64 ビット](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>2019 年 8 月更新 (2.72.5556.801)
@@ -767,7 +767,7 @@ ms.locfileid: "72307738"
 ### <a name="reporting"></a>レポート
 
 * フィルター カード内の検索 [[ビデオ]](https://youtu.be/cT3L2VzgBRU?t=56)  [[記事]](power-bi-reports-filters-and-highlighting.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
-* 作成機能に関するアクセシビリティの改善 [[ビデオ]](https://youtu.be/cT3L2VzgBRU?t=118)  [[記事]](desktop-accessibility.md#arranging-items-in-field-buckets)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* 作成機能に関するアクセシビリティの改善 [[ビデオ]](https://youtu.be/cT3L2VzgBRU?t=118)  [[記事]](desktop-accessibility-overview.md)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
 * ArcGIS Map のパフォーマンスの向上 [[ビデオ]](https://youtu.be/cT3L2VzgBRU?t=333) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
@@ -980,7 +980,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 
 ### <a name="reporting"></a>レポート
 
-* レポートに対するハイ コントラストのサポート [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=13s) [[記事]](desktop-accessibility.md#high-contrast-support-for-reports) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* レポートに対するハイ コントラストのサポート [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=13s) [[記事]](desktop-accessibility-overview.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
 * ドーナツの半径のコントロール [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=6m1s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
 * 円とドーナツの詳細ラベルの位置コントロール [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=7m19s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
 * 複合グラフのメジャーごとの各データ ラベルの書式設定 [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
