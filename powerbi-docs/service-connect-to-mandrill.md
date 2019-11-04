@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: aa685ae9b51e1f5044dab883d8de871dcc7ed5da
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a72a1ef01b12b83e555a547a00ffd0dda0c8a34f
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945850"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060977"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Power BI で Mandrill に接続する
 Power BI コンテンツ パックはお客様の Mandrill アカウントからデータを取得し、ダッシュボード、一連のレポート、およびデータセットを生成してデータを探索できるようにします。 Mandrill の分析を使用すると、ニュースレターや販促活動の情報を素早く取得できます。 データは、毎日更新されるように設定されているため、監視対象のデータが常に最新の状態に保たれています。
@@ -49,7 +49,7 @@ Power BI コンテンツ パックはお客様の Mandrill アカウントから
 * データセットは毎日更新するようにスケジュール設定されますが、更新のスケジュールは変更でき、また **[今すぐ更新]** を使えばいつでも必要なときに更新できます。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](power-bi-overview.md)
+[Power BI とは?](fundamentals/power-bi-overview.md)
 
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 

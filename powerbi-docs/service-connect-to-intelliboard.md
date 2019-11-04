@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e912c47c58c96de8d2875b83a530468135e93ef2
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 06fc561d3fbe07cbf553be63c7b19de3ab11992e
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185907"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060960"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Power BI で IntelliBoard に接続する
 IntelliBoard を使用すると、Reporting Services を介してご利用の Moodle 学習管理システムのデータに簡単にアクセスできます。 Power BI 用 IntelliBoard コンテンツ パックは、コース、登録ユーザー、全体的な成績、および LMS アクティビティに関するメトリックを含む、追加の分析を提供します。
@@ -68,7 +68,7 @@ Power BI 用 [IntelliBoard コンテンツ パック](https://app.powerbi.com/ge
 このコンテンツ パックをインスタンス化するには、上記のテーブルへのアクセス許可を持つ IntelliBoard アカウントが必要です。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](power-bi-overview.md)
+[Power BI とは?](fundamentals/power-bi-overview.md)
 
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 

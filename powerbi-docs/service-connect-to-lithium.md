@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c2f6564c83c7234b626686a6fe4c76f65b354e58
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 9a02c642d0b5d766b22b3b8c3853da2d4d773cbd
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185522"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060548"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Power BI で Lithium に接続する
 
@@ -61,7 +61,7 @@ Power BI 用 [Lithium コンテンツ パック](https://app.powerbi.com/getdata
 Lithium コンテンツ パックには、Lithium Community v15.9 以降が必要です。 Lithium の管理者に問い合わせてご確認ください。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](power-bi-overview.md)
+[Power BI とは?](fundamentals/power-bi-overview.md)
 
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 

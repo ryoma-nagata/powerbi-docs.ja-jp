@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc562c1c75f72e0ada23580aa0698f6463c129bb
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814304"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060810"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI で Salesforce に接続する
 Power BI を使用すると、簡単に Salesforce.com アカウントに接続できます。 この接続により、Salesforce データを取得し、ダッシュボードとレポートを自動的に提供できます。
@@ -91,7 +91,7 @@ Salesforce アカウントに接続しようとしたときに "リモート サ
 
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](power-bi-overview.md)
+[Power BI とは?](fundamentals/power-bi-overview.md)
 
 [Power BI サービスのデータ ソース](service-get-data.md)
 

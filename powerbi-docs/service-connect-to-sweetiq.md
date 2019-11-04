@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 535a5b0d24abcd76d7c7b9becedad152e17829ed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 665640596dba13dbd444b7a3f98b677380300d29
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61159345"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060485"
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>Power BI で SweetIQ に接続する
 Power BI コンテンツ パックは、SweetIQ アカウントからデータを取得し、すぐに使えるコンテンツのセットを生成して、簡単にデータを探索できるようにします。 SweetIQ コンテンツ パックを使用して、場所、一覧、評価、およびレビューに関するデータを分析します。 データは、毎日更新されるように設定されているため、監視対象のデータが常に最新の状態に保たれています。
@@ -54,7 +54,7 @@ Power BI 用 [SweetIQ コンテンツ パック](https://app.powerbi.com/groups/
 特定のクライアントのデータにアクセスするための API キーについては、管理者にお問い合わせください。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](power-bi-overview.md)
+[Power BI とは?](fundamentals/power-bi-overview.md)
 
 [Power BI のデータの取得](service-get-data.md)
 

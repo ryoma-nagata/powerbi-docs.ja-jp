@@ -9,12 +9,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9fc0360ccf2e036cca1c68cf21bb538b30adf7e6
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4abf01163dbf454ee75b04e5d519ec2292b6e80c
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71190999"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060781"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>インシデント レポート用の Power BI で ServiceNow に接続する
 ServiceNow からは、ビジネスをよりよいものにするため、ビジネス、運用、IT 管理などに関する複数の製品とソリューションが提供されています。 このコンテンツ パックには、未解決のインシデント、最近解決されたインシデント、最近終了したインシデントについての複数のレポートや洞察を得られる情報が含まれています。  
@@ -60,7 +60,7 @@ ServiceNow からは、ビジネスをよりよいものにするため、ビジ
 読み込みに長い時間がかかる場合は、接続時に指定したインシデントの数との日数を確認し、それを減らすことを検討してください。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](power-bi-overview.md)
+[Power BI とは?](fundamentals/power-bi-overview.md)
 
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 

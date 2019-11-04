@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 51cd08959b0d8ee58a5f121f9ff3269fa8e76511
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 5e16264c3cf5b6d361353c18ba9eb666fd00ce5d
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720441"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060461"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Power BI で Ziosk Survey Analytics に接続する
 BI 用 Ziosk Survey Analytics コンテンツ パックは、Ziosk タブレットを使用しているレストランに対し、Ziosk 調査データによって提供される、日、場所、従業員などに基づくセグメント化を含む詳細データへのアクセスを提供します。
@@ -71,7 +71,7 @@ Power BI 用 [Ziosk Survey Analytics コンテンツ パック](https://app.powe
 このコンテンツ パックをインスタンス化するには、上記のテーブルへのアクセス許可を持つ Ziosk アカウントが必要です。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](power-bi-overview.md)
+[Power BI とは?](fundamentals/power-bi-overview.md)
 
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
