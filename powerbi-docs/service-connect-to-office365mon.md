@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 8/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5d31eccd52164bb4d1ff37532d89dc7e147693d3
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159903"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060825"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI で Office365Mon に接続する
 Office 365 の障害および正常性のパフォーマンス データの分析は、Power BI や Office365Mon テンプレート アプリを使用すると簡単です。 Power BI は、障害および正常性 プローブを含むデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
@@ -57,7 +57,7 @@ Power BI 用 [Office365Mon テンプレート アプリ](https://app.powerbi.com
 Office365Mon サブスクリプション資格情報を使用してログインした後に **"ログインに失敗しました"** エラーが表示された場合、使用しているアカウントには、アカウントから Office365Mon データを取得するためのアクセス許可がありません。 管理者アカウントであることを確認してからやり直してください。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](power-bi-overview.md)
+[Power BI とは?](fundamentals/power-bi-overview.md)
 
 [Power BI のデータの取得](service-get-data.md)
 
