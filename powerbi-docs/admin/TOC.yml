@@ -44,6 +44,14 @@
           href: ../service-admin-power-bi-expressroute.md
         - name: Azure AD B2B を使用する
           href: ../service-admin-azure-ad-b2b.md
+        - name: データ保護
+          items:
+            - name: データ保護の概要
+              href: service-security-data-protection-overview.md
+            - name: データの機密情報のラベル付けを有効にする
+              href: service-security-enable-data-sensitivity-labels.md
+            - name: Power BI で Microsoft Cloud App Security を使用する
+              href: service-security-using-microsoft-cloud-app-security-controls.md
         - name: 行レベルのセキュリティ
           href: ../service-admin-rls.md
         - name: アーカイブ済みワークスペース

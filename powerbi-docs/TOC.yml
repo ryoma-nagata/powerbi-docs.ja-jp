@@ -327,7 +327,9 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: X 軸と Y 軸のプロパティのカスタマイズ
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: ArcGIS マップ
+            - name: ArcGIS Maps for Power BI のビジュアルを作成する
+              href: visuals/power-bi-visualizations-arcgis.md
+            - name: ArcGIS Maps for Power BI ビジュアルとの対話
               href: visuals/power-bi-visualization-arcgis.md
             - name: 基本的な面グラフ
               href: visuals/power-bi-visualization-basic-area-chart.md
@@ -727,6 +729,12 @@
               href: service-cognitive-services.md
             - name: Power BI での自動化 された機械学習
               href: service-machine-learning-automated.md
+        - name: データを保護する
+          items:
+            - name: データ保護の概要
+              href: admin/service-security-data-protection-overview.md
+            - name: 機密ラベルの適用
+              href: designer/service-security-apply-data-sensitivity-labels.md
         - name: データ系列
           href: service-data-lineage.md
         - name: Power BI のページ分割されたレポート
@@ -929,6 +937,8 @@
           href: service-admin-premium-monitor-portal.md
         - name: 増分更新を構成する
           href: service-premium-incremental-refresh.md
+        - name: 大規模なモデルを構成する (プレビュー)
+          href: service-premium-large-models.md
         - name: Multi-Geo の構成
           href: service-admin-premium-multi-geo.md
         - name: 独自の暗号化キーを表示する
