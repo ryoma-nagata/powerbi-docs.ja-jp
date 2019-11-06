@@ -1109,6 +1109,8 @@
       items:
         - name: キャパシティ プランニングホワイト ペーパー
           href: report-server/capacity-planning.md
+        - name: PDF 表示拡張機能の準拠
+          href: report-server/rendering-extension-support.md
 - name: ゲートウェイ
   items:
     - name: 概要
