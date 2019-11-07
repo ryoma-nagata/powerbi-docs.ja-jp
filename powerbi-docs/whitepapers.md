@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: d1289a3e030f0a93c5c2ce3b68b7cf92c378a7e0
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
+ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194769"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73710772"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
 ホワイト ペーパーを読めば、Power BI のトピックの詳細がわかります。 Power BI について読むことができるホワイト ペーパーの一覧を次に示します。
 
-| ホワイト ペーパー | 説明 | date |
+| ホワイト ペーパー | Description | 日付 |
 | --- | --- | --- |
 | [Power BI のエンタープライズ展開の計画](https://go.microsoft.com/fwlink/?linkid=2057861) |これは、組織で効果的かつ安全に Power BI を展開するための考慮事項をまとめた技術白書です。 | 2018 年 7 月 |
 | [Power BI and Dataflows (Power BI とデータフロー)](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| このホワイト ペーパーでは、データフローの技術的な詳細およびデータフロー機能の背後にある機能とイニシアティブについて説明します。 | 2018 年 11 月 |
@@ -28,10 +28,9 @@ ms.locfileid: "71194769"
 | [Power BI Premium の計画と展開](whitepaper-powerbi-premium-deployment.md)| このホワイト ペーパーでは、適切に定義されたワークロードの Premium 容量を計画して展開するためのガイダンスとベスト プラクティスを提供します。| 2019 年 3 月 |
 | [Power BI Premium による埋め込み分析のための容量を分析する](https://aka.ms/pbiewhitepaper) |この白書は、アプリ開発者/ISV がそのビジネスに最適な容量を決定するための指針を提供します。 | 2017 年 10 月 |
 | [Power BI Report Server のキャパシティ プランニング ガイダンス](report-server/capacity-planning.md) |このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 | 2018 年 3 月 |
-| [Security](service-admin-power-bi-security.md) |Power BI でのセキュリティについて詳細に説明します。 | 2019 年 3 月 |
+| [セキュリティ](service-admin-power-bi-security.md) |Power BI でのセキュリティについて詳細に説明します。 | 2019 年 3 月 |
 | [Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](whitepaper-azure-b2b-power-bi.md)|このホワイト ペーパーでは、Azure Active Directory Business-to-business (AAD B2B) の統合を使用して組織外のユーザーにコンテンツを配布する方法について説明します。| 2019 年 3 月 |
 | [Power BI を使用した高度な分析](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |予測分析、カスタム視覚化、R の統合、データ分析式などの、Power BI の高度な分析機能について説明します。 | 2017 年 2 月 |
-| [レポートとビジュアルのデザインに関するベスト プラクティス](visuals/power-bi-visualization-best-practices.md) |Power BI でレポートをデザインするためのベスト プラクティスを示します。 | 2018 年 6 月 |
 | [双方向フィルタリング](desktop-bidirectional-filtering.md) |Power BI Desktop での双方向のクロス フィルタリングについて説明します (同じ動作の SQL Server Analysis Services 2016 についても説明されています)。 | 2018 年 7 月 |
 | [SQL Server 2016 Analysis Services の DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |SQL Server 2016 では、DirectQuery の設計が変更され、速度とパフォーマンスが大幅に向上しましたが、理解することと実装方法もより複雑になりました。 | 2017 年 1 月 |
 | [Power BI と SAP BW](https://aka.ms/powerbiandsapbw)| このドキュメントでは、SAP のお客様が既存の SAP Business Warehouse (BW) システムに Power BI を接続することで得られる利点について説明します。| 2018 年 2 月 |
