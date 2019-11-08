@@ -3,19 +3,19 @@ title: Power BI のセキュリティに関するホワイトペーパー
 description: Power BI でのセキュリティ アーキテクチャとその実装について検討および解説したホワイト ペーパーです
 author: davidiseminger
 ms.author: davidi
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4cb2ae69044b156d5f8a4bd554f8386808fb6b9e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 8cbb1c4b25cacae5cb025f85790be6a1657b0482
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430500"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73787761"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI のセキュリティに関するホワイトペーパー
 
@@ -34,13 +34,13 @@ ms.locfileid: "73430500"
 
 **Power BI** は、Microsoft のオンライン ソフトウェア サービス (_SaaS_、またはサービスとしてのソフトウェア) オファリングであり、セルフサービスのビジネス インテリジェンス ダッシュボード、レポート、データセット、および視覚エフェクトを、簡単かつ迅速に作成することができます。 Power BI では、多くの異なるデータ ソースに接続し、それらの接続からのデータを組み合わせて整形した後、他のユーザーと共有できるレポートやダッシュボードを作成することができます。
 
-Power BI サービスは、[Microsoft Online Services の使用条件](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)および [Microsoft Enterprise のプライバシーに関する声明](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)によって管理されます。 データ処理の場所で、Microsoft Online Services の使用条件のデータ処理の場所の使用条件を参照してください。 コンプライアンスについては、[Microsoft セキュリティ センター](https://www.microsoft.com/trustcenter)が Power BI に関する主要なリソースです。 Power BI チームは、お客様に最新の技術革新と生産性を届けようと懸命に取り組んでいます。 Power BI は、現在、 [Office 365 準拠フレームワーク](http://go.microsoft.com/fwlink/p/?LinkID=618494)の階層 D にあります。
+Power BI サービスは、[Microsoft Online Services の使用条件](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)および [Microsoft Enterprise のプライバシーに関する声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)によって管理されます。 データ処理の場所で、Microsoft Online Services の使用条件のデータ処理の場所の使用条件を参照してください。 コンプライアンスについては、[Microsoft セキュリティ センター](https://www.microsoft.com/trustcenter)が Power BI に関する主要なリソースです。 Power BI チームは、お客様に最新の技術革新と生産性を届けようと懸命に取り組んでいます。 Power BI は、現在、 [Office 365 準拠フレームワーク](https://go.microsoft.com/fwlink/p/?LinkID=618494)の階層 D にあります。
 
 この記事では、Power BI のセキュリティについて、Power BI のアーキテクチャ、ユーザーが Power BI に対して認証を行う方法とデータ接続が確立される方法、Power BI でサービスによりデータが格納および移される方法の順に説明します。 最後のセクションでは、セキュリティに関する質問にお答えします。
 
 ## <a name="power-bi-architecture"></a>Power BI のアーキテクチャ
 
-**Power BI** サービスは、Microsoft の**クラウド コンピューティング プラットフォーム**である [Azure](http://azure.microsoft.com/overview/what-is-azure/) 上に構築されています。 Power BI は現在、世界の多くのデータセンターにデプロイされています。リージョン内のお客様が利用できるようにデータセンターによって提供されている多数のアクティブなデプロイだけでなく、各アクティブなデプロイのバックアップとして提供されるパッシブなデプロイも同じくらい多く存在します。
+**Power BI** サービスは、Microsoft の[クラウド コンピューティング プラットフォーム](https://azure.microsoft.com/overview/what-is-azure/)である **Azure** 上に構築されています。 Power BI は現在、世界の多くのデータセンターにデプロイされています。リージョン内のお客様が利用できるようにデータセンターによって提供されている多数のアクティブなデプロイだけでなく、各アクティブなデプロイのバックアップとして提供されるパッシブなデプロイも同じくらい多く存在します。
 
 Power BI のそれぞれのデプロイは、Web フロントエンド (**WFE**) クラスターと **バックエンド** クラスターという 2 つのクラスターで構成されています。 次の図はこれら 2 つのクラスターを示したものであり、この記事の残りの部分の背景になります。 
 
@@ -117,8 +117,8 @@ Power BI は、リージョンのデータセンターで Power BI クラスタ�
 
 次のリンクでは、Azure データセンターに関する追加情報が提供されています。
 
-- [Azure リージョン](http://azure.microsoft.com/regions/) – Azure のグローバル プレゼンスと場所についての情報
-- [リージョンごとの Azure サービス](http://azure.microsoft.com/regions/#services) – 各リージョンで Microsoft から利用できる Azure サービスの完全な一覧 (インフラストラクチャ サービスとプラットフォーム サービスの両方)。
+- [Azure リージョン](https://azure.microsoft.com/regions/) – Azure のグローバル プレゼンスと場所についての情報
+- [リージョンごとの Azure サービス](https://azure.microsoft.com/regions/#services) – 各リージョンで Microsoft から利用できる Azure サービスの完全な一覧 (インフラストラクチャ サービスとプラットフォーム サービスの両方)。
 
 現時点では、Power BI サービスは、 [Microsoft セキュリティセンター](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)で説明されているように、データセンターによって提供される特定の地域で利用できます。 次のリンクは Power BI のデータ センターのマップを示しており、リージョンにポインターを合わせると、そこに位置するデータ センターを表示できます。
 
@@ -126,7 +126,7 @@ Power BI は、リージョンのデータセンターで Power BI クラスタ�
 
 ソブリン クラウドに対するデータセンターも提供されています。 国内クラウドで利用可能な Power BI サービスについて詳しくは、[Power BI 国内クラウド](https://powerbi.microsoft.com/clouds/)に関する記事をご覧ください。
 
-データが格納されている場所とその使用方法の詳細については、[Microsoft セキュリティ センター](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)を参照してください。 保存時の顧客データの場所に関するコミットメントは、**Microsoft Online Services 規約**の[データ処理規約](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)で指定されています。
+データが格納されている場所とその使用方法の詳細については、[Microsoft セキュリティ センター](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)を参照してください。 保存時の顧客データの場所に関するコミットメントは、[Microsoft Online Services 規約](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)の**データ処理規約**で指定されています。
 
 ## <a name="user-authentication"></a>ユーザーの認証
 
@@ -136,7 +136,7 @@ Power BI サービスに対するユーザーの認証は、ユーザーのブ�
 
 Power BI サービスでのユーザー認証シーケンスは、以下の手順で説明するように行われます。次の図はそれを示したものです。
 
-1. ユーザーは、ブラウザーでアドレス バーに Power BI のアドレスを入力することによって (例: https://app.powerbi.com)、または Power BI のランディング ページ (_で_[サインイン]https://powerbi.microsoft.com) を選択することによって、Power BI サービスへの接続を始めます。 接続は TLS 1.2 と HTTPS を使用して確立され、それ以降にブラウザーと Power BI サービスの間で行われるすべての通信には HTTPS が使用されます。 要求は **Azure Traffic Manager** に送信されます。
+1. ユーザーは、ブラウザーでアドレス バーに Power BI のアドレスを入力することによって (例: https://app.powerbi.com) 、または Power BI のランディング ページ (https://powerbi.microsoft.com) で _[サインイン]_ を選択することによって、Power BI サービスへの接続を始めます。 接続は TLS 1.2 と HTTPS を使用して確立され、それ以降にブラウザーと Power BI サービスの間で行われるすべての通信には HTTPS が使用されます。 要求は **Azure Traffic Manager** に送信されます。
 
 2. **Azure Traffic Manager** では、ユーザーの DNS レコードを調べて Power BI がデプロイされている最も近いデータセンターを決定し、ユーザーを送信する必要がある WFE クラスターの IP アドレスで DNS に応答します。
 
@@ -217,14 +217,14 @@ CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定
 
       c. プッシュされたデータ - 適用できません
 
-      d. ETL
+      d.グループ メンバーがコンテンツ パックを簡単に見つけられるようにロゴを追加します。 ETL
 
       - **Salesforce** または **OneDrive** の場合 – 更新トークンは、Power BI サービスの Azure SQL Database で暗号化されて格納されます。
       - それ以外の場合:
         - データセットが更新の対象として設定されている場合、資格情報はデータ移動の Azure SQL Database で暗号化されて格納されます。 暗号化キーは、顧客のインフラストラクチャ上でゲートウェイを実行しているコンピューターに格納されます。
         - データセットが更新の対象として設定されていない場合は、データ ソースの資格情報は格納されません。
 
-1. データ
+1. 表示
 
     a. オンプレミスの Analysis Services と、DirectQuery – Power BI サービスでは何も格納されません。
 
@@ -232,7 +232,7 @@ CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定
 
     c. プッシュ データ v1 – Azure Blob ストレージで暗号化されて格納されます。しかし、Power BI サービスの Azure Blob ストレージに現在あるすべてのデータに [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) が使用されます (サーバー側の暗号化とも呼ばれる)。 Multi-Geo でも SSE が使用されます。 プッシュデータ v1 は、2016の開始から廃止されました。 
 
-    d. プッシュ データ v2 – Azure SQL で暗号化されて格納されます。
+    d.グループ メンバーがコンテンツ パックを簡単に見つけられるようにロゴを追加します。 プッシュ データ v2 – Azure SQL で暗号化されて格納されます。
 
 Power BI では、クライアント側の暗号化の手法 (暗号ブロック チェーン (CBC) と Advanced Encryption Standard (AES) を組み合わせて使用) を使用してその Azure Blob ストレージが暗号化されます。 クライアント側の暗号化の詳細については、[こちら](https://azure.microsoft.com/documentation/articles/storage-client-side-encryption/)を参照してください。
 
@@ -300,8 +300,8 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
     c. プッシュされたデータ - なし (適用できません)
 
-    d. ETL - なし (計算ノードには何も格納されず、また上記の「**保存データ**」セクションの説明と違いはありません)
-4. データ
+    d.グループ メンバーがコンテンツ パックを簡単に見つけられるようにロゴを追加します。 ETL - なし (計算ノードには何も格納されず、また上記の「**保存データ**」セクションの説明と違いはありません)
+4. 表示
 
     一部のデータ成果物は、計算ノードのディスク上に一定の時間、格納することができます。
 
@@ -371,7 +371,7 @@ Power BI Mobile からのデータ キャッシュは 2 週間、あるいは、
 
 Power BI Mobile アプリケーションは、デバイス上のフォルダーは参照しません。 
 
-Power BI Mobile が使用可能な 3 つのプラットフォームすべてで、モバイル デバイスとアプリケーションの管理を提供するソフトウェア サービスである、Microsoft Intune をサポートしています。 Intune を有効にして構成すると、モバイル デバイス上のデータが暗号化され、Power BI アプリケーション自体を SD カードにインストールすることができません。 Microsoft Intune の詳細については、[こちら](http://www.microsoft.com/cloud-platform/microsoft-intune)を参照してください。
+Power BI Mobile が使用可能な 3 つのプラットフォームすべてで、モバイル デバイスとアプリケーションの管理を提供するソフトウェア サービスである、Microsoft Intune をサポートしています。 Intune を有効にして構成すると、モバイル デバイス上のデータが暗号化され、Power BI アプリケーション自体を SD カードにインストールすることができません。 Microsoft Intune の詳細については、[こちら](https://www.microsoft.com/cloud-platform/microsoft-intune)を参照してください。
 
 ## <a name="power-bi-security-questions-and-answers"></a>Power BI のセキュリティに関する質問と回答
 
@@ -487,7 +487,7 @@ Power BI に関する詳細については、次のリソースを参照して�
 - [Power BI Desktop の概要](https://support.powerbi.com/knowledgebase/articles/471664)
 - [Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)
-- [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)
+- [On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)
 - [Power BI と ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 国内クラウド](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)

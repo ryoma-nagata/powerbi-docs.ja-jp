@@ -2,19 +2,19 @@
 title: Power BI のホワイト ペーパー
 description: ホワイト ペーパーを読めば、Power BI のトピックの詳細がわかります。
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
-ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
+ms.openlocfilehash: e88e6753df091fb7f046d475df59fa4344da5d98
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/07/2019
-ms.locfileid: "73710772"
+ms.locfileid: "73787297"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
@@ -34,9 +34,9 @@ ms.locfileid: "73710772"
 | [双方向フィルタリング](desktop-bidirectional-filtering.md) |Power BI Desktop での双方向のクロス フィルタリングについて説明します (同じ動作の SQL Server Analysis Services 2016 についても説明されています)。 | 2018 年 7 月 |
 | [SQL Server 2016 Analysis Services の DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |SQL Server 2016 では、DirectQuery の設計が変更され、速度とパフォーマンスが大幅に向上しましたが、理解することと実装方法もより複雑になりました。 | 2017 年 1 月 |
 | [Power BI と SAP BW](https://aka.ms/powerbiandsapbw)| このドキュメントでは、SAP のお客様が既存の SAP Business Warehouse (BW) システムに Power BI を接続することで得られる利点について説明します。| 2018 年 2 月 |
-| [表形式の BI セマンティック モデルの保護](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |このホワイトペーパーでは、表形式の BI セマンティックおよび Power BI のセキュリティ モデルを紹介します。 説明する内容は、ロールの作成、動的セキュリティの実装、権限借用設定の構成、ロールの管理、ネットワーク セキュリティのコンテキストで動作するモデルへの接続方法の選択についてです。 | 2016 年 4 月 |
+| [表形式の BI セマンティック モデルの保護](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |このホワイトペーパーでは、表形式の BI セマンティックおよび Power BI のセキュリティ モデルを紹介します。 説明する内容は、ロールの作成、動的セキュリティの実装、権限借用設定の構成、ロールの管理、ネットワーク セキュリティのコンテキストで動作するモデルへの接続方法の選択についてです。 | 2016 年 4 月 |
 | [Power BI と GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| このリンクをたどると、Microsoft Power BI GDPR ホワイトペーパーも含む、Service Trust Portal に関するホワイトペーパーの一覧が表示されます。 | 2018 年 4 月 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
