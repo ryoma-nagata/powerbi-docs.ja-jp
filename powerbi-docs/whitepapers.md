@@ -2,19 +2,18 @@
 title: Power BI のホワイト ペーパー
 description: ホワイト ペーパーを読めば、Power BI のトピックの詳細がわかります。
 author: maggiesMSFT
-manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: e88e6753df091fb7f046d475df59fa4344da5d98
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: c1c374b62921a4becec2ec4ed5d75311ad489e93
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73787297"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870743"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
