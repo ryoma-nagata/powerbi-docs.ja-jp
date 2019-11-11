@@ -2,7 +2,6 @@
 title: チュートリアル:Power BI Desktop で Excel と OData フィードのデータを結合する
 description: チュートリアル:Excel と OData フィードのデータを結合します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160380"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866087"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル:Excel と OData フィードの売上データを結合する
 
@@ -35,11 +34,11 @@ ms.locfileid: "70160380"
 
 最初に、Products.xlsx という Excel ブックの製品データを Power BI Desktop にインポートします。
 
-1. [Products.xlsx Excel ブックをダウンロード](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)し、**Products.xlsx** として保存します。
+1. [Products.xlsx Excel ブックをダウンロード](https://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)し、**Products.xlsx** として保存します。
    
 2. Power BI Desktop リボンの **[ホーム]** タブの **[データを取得]** の横にあるドロップダウン矢印を選択し、 **[よく使われる]** ドロップダウンから **[Excel]** を選択します。 
    
-   ![データの取得](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
+   ![データを取得](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
    
    >[!NOTE]
    >**[データを取得]** 項目自体を選ぶか、Power BI の **[作業の開始]** ダイアログから **[データを取得]** を選び、 **[データを取得]** ダイアログで **[Excel]** または **[ファイル]**  >  **[Excel]** を選んで、 **[接続]** を選ぶこともできます。
@@ -76,7 +75,7 @@ ms.locfileid: "70160380"
    
    ![OData を取得する](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. **[OData フィード]** ダイアログ ボックスに、Northwind OData フィードの URL である `http://services.odata.org/V3/Northwind/Northwind.svc/` を貼り付けます。 **[OK]** を選択します。
+2. **[OData フィード]** ダイアログ ボックスに、Northwind OData フィードの URL である `https://services.odata.org/V3/Northwind/Northwind.svc/` を貼り付けます。 **[OK]** を選択します。
    
    ![[OData フィード] ダイアログ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -271,7 +270,7 @@ Power BI Desktop では、相互に強調表示し、互いにフィルターを
 完成したレポートでは、Products.xlsx Excel ファイルと Northwind OData フィードからのデータが、さまざまな国の注文情報、期間、製品を分析するのに役立つビジュアルに結合されています。 レポートの準備ができたら、[それを Power BI サービスにアップロード](desktop-upload-desktop-files.md)して、他の Power BI ユーザーと共有できます。
 
 ## <a name="next-steps"></a>次の手順
-* [他の Power BI Desktop のチュートリアルを読む](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop のビデオを見る](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Power BI フォーラムにアクセスする](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Power BI ブログを読む](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [他の Power BI Desktop のチュートリアルを読む](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop のビデオを見る](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI フォーラムにアクセスする](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Power BI ブログを読む](https://go.microsoft.com/fwlink/?LinkID=519327)

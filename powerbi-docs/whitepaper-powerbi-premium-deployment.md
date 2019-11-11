@@ -3,19 +3,18 @@ title: Power BI Premium 容量のデプロイと管理
 description: Power BI Premium の可能性を理解し、スケーラブルなソリューションを設計、展開、監視、およびトラブルシューティングする方法について説明します。
 author: mgblythe
 ms.author: mblythe
-manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 3ccd4af0f00e132c8bc0bd29a9ff23f89b13a15f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73786347"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880604"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium 容量のデプロイと管理
 
@@ -834,7 +833,7 @@ Power BI Premium 容量をデプロイして管理するには、管理者およ
 
 ## <a name="end-notes"></a>メモを終了する
 
-<a name="endnote-01"></a>\[1\] このテクニカルペーパーは、Power BI クラウドサービスでのみサポートされている Power BI Premium に関係しています。 Power BI Report Server のインストールに必要なライセンスがに含まれていることを除き、Power BI Report Server はスコープに含まれていません。いくつかの Power BI Premium Sku。
+<a name="endnote-01"></a>\[1\] この技術文書は、Power BI クラウドサービスでのみサポートされている Power BI Premium に関係しています。 Power BI Report Server のインストールに必要なライセンスが Power BI Report Server Sku に含まれていることを除き、Power BI Premium はスコープに含まれていません。
 
 <a name="endnote-02"></a>アプリケーションユーザーの代わりにコンテンツを埋め込むために使用するクラウドサービスとしての \[2 Power BI\] は、サービスとしてのプラットフォーム (PaaS) です。 この種類の埋め込みは、異なる2つの製品で実現できます。そのうちの1つは Power BI Premium です。
 
