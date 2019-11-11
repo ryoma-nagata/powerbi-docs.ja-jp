@@ -2,7 +2,6 @@
 title: Power BI の塗り分け地図 (コロプレス)
 description: Power BI での塗り分け地図 (コロプレス) の作成に関するドキュメント
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544331"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870963"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI の塗り分け地図 (コロプレス)
 
@@ -47,7 +46,7 @@ Bing に送信されているデータの詳細、およびジオコーディン
 * 異なる地理的位置への分散状況を全体的に理解する。
 
 ### <a name="prerequisites"></a>前提条件
-このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)を使用します。
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)を使用します。
 1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
    
 2. **小売の分析のサンプル PBIX ファイル**を探します。

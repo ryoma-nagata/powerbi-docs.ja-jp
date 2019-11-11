@@ -2,7 +2,6 @@
 title: ビジュアルの動的な参照線を作成する
 description: Power BI サービスでビジュアルの動的な参照線を作成します
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ce99539e1804746970eae20dc9396f0f0536afea
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ab8fb8daa46a21676925de16a068f2d2029954d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61184108"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855913"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI サービスでビジュアルの動的な参照線を作成します
 
@@ -100,5 +99,5 @@ ms.locfileid: "61184108"
 ## <a name="next-steps"></a>次の手順
 [Power BI Desktop の [分析] ウィンドウ](desktop-analytics-pane.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

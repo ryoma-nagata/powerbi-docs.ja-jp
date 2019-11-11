@@ -2,7 +2,6 @@
 title: Power BI の Cognitive Services
 description: Power BI で Cognitive Services を使用する方法について説明します。
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 267534198d40b91a5550321162b42ecd45500673
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 3965a21ff2ab53fd46667658f7cfa21fa4a3b916
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823513"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855594"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Power BI の Cognitive Services 
 
@@ -89,7 +88,7 @@ Text Analytics では、機械学習分類アルゴリズムを使用して、0 
 
 イメージをアップロードするか、またはイメージの URL を指定すると、Computer Vision のアルゴリズムにより、そのイメージ内で識別されたオブジェクト、生物、およびアクションに基づいてタグが出力されます。 タグ付けの対象は、前景の人間などの主題だけではありません。セット (室内またはアウトドア)、家具、道具、植物、動物、アクセサリ、小物なども対象となります。
 
-この関数では、イメージの URL または base-64 フィールドが入力として必要です。 現時点でイメージのタグ付けでサポートされるのは、英語、スペイン語、日本語、ポルトガル語、および簡体字中国語です。 詳細については、[サポートされる言語](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)に関する記事を参照してください。
+この関数では、イメージの URL または base-64 フィールドが入力として必要です。 現時点でイメージのタグ付けでサポートされるのは、英語、スペイン語、日本語、ポルトガル語、および簡体中国語です。 詳細については、[サポートされる言語](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)に関する記事を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 
