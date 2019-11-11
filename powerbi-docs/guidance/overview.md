@@ -2,19 +2,18 @@
 title: Power BI のガイダンス
 description: このガイダンス ドキュメントでは、Power BI を使用する際の推奨されるプラクティスを紹介します。
 author: guyinacube
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: 3e8a4a92ce3a1e5cbc9459732cdd12225ae901e1
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: e3aeff47e585d9a54edf46f7001f4686e9a76c3a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691259"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875561"
 ---
 # <a name="guidance-for-power-bi"></a>Power BI のガイダンス
 
@@ -37,6 +36,6 @@ ms.locfileid: "71691259"
 
 | ガイダンス | 説明 |
 | --- | --- |
-| [データフローのベスト プラクティス](/service-dataflows-best-practices.md) | Power BI でのデータフローの設計に関するベスト プラクティスについて説明します。 |
+| [データフローのベスト プラクティス](../service-dataflows-best-practices.md) | Power BI でのデータフローの設計に関するベスト プラクティスについて説明します。 |
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

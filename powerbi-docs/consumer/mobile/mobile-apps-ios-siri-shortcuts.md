@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391495"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73783549"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Power BI Mobile iOS アプリで Siri ショートカットを使用する (プレビュー)
 
@@ -66,7 +66,7 @@ Power BI レポートの場合は、ショートカットを作成したとき�
 ## <a name="next-steps"></a>次の手順
 次の手順に従って、Power BI Mobile アプリの詳細を確認します。 
 
-* [Power BI iPhone モバイル アプリ](http://go.microsoft.com/fwlink/?LinkId=522062)をダウンロードする
+* [Power BI iPhone モバイル アプリ](https://go.microsoft.com/fwlink/?LinkId=522062)をダウンロードする
 * [Twitter で @MSPowerBI](https://twitter.com/MSPowerBI) をフォローする
-* [Power BI コミュニティの会話](http://community.powerbi.com/)に参加する
+* [Power BI コミュニティの会話](https://community.powerbi.com/)に参加する
 

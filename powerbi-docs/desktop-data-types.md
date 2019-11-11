@@ -2,7 +2,6 @@
 title: Power BI Desktop でのデータ型
 description: Power BI Desktop でのデータ型
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391787"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868531"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop でのデータ型
 この記事では、Power BI Desktop と Data Analysis Expressions (DAX) でサポートされるデータ型について説明します。 
@@ -71,7 +70,7 @@ Power BI Desktop では、クエリ ビューでは 5 つの日付/時刻型、�
 **True/False** – True または False のどちらかの値を示すブール値。
 
 ### <a name="blanksnulls-type"></a>空白または null 値型
-**Blank** - SQL の null を表し、null と置き換わる DAX データ型です。 [BLANK](http://msdn.microsoft.com/library/ee634820.aspx) 関数を使用すると、空白を作成できます。空白かどうかをテストするには、[ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 論理関数を使用します。
+**Blank** - SQL の null を表し、null と置き換わる DAX データ型です。 [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 関数を使用すると、空白を作成できます。空白かどうかをテストするには、[ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 論理関数を使用します。
 
 ### <a name="table-data-type"></a>テーブル データ型
 DAX では、集計やタイム インテリジェンス計算など、多くの関数でテーブル データ型を使用します。 一部の関数は、テーブルへの参照を必要とします。また、関数からテーブルが返され、そのテーブルを他の関数への入力として使用できる場合もあります。 入力としてテーブルを必要とするいくつかの関数では、テーブルに評価される式を指定できます。また、ベース テーブルへの参照を必要とする関数もあります。 特定の関数の要件については、「[DAX 関数リファレンス](https://msdn.microsoft.com/library/ee634396.aspx)」をご覧ください。

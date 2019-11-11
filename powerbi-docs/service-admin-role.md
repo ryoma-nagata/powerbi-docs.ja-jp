@@ -2,7 +2,6 @@
 title: Power BI 管理者の役割について
 description: この記事では、Power BI サービス管理者ロールについて説明し、それを組織で使用する方法について説明します。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 900734a027a0f1af76f93709f80eec8d8e8b3108
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256436"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856727"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Power BI サービス管理者ロールについて
 
@@ -111,4 +110,4 @@ PowerShell を使用してロールにユーザーを割り当てることもで
 [組織内の Power BI を管理する](service-admin-administering-power-bi-in-your-organization.md)  
 [Power BI 管理ポータル](service-admin-portal.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

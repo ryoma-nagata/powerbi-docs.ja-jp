@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431513"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791259"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Power BI のレポート ビルダーで共有データセットを使用する
 
@@ -30,7 +30,7 @@ Power BI レポート ビルダーで共有データセットを使用するう�
 - Power BI データセットにアクセスするには、そのデータセットについてビルドのアクセス許可が必要です。 [ビルドのアクセス許可](service-datasets-build-permissions.md)に関する記事を参照してください。
 - レポート ビルダーで改ページ調整されたレポートを作成する操作には、Power BI Pro のライセンスは必要ありません。 
 - 改ページ調整されたレポートの発行には、Power BI Pro のライセンスが必要です。 また、ワークスペースが Premium 容量にある場合には、最低限その共同作成者ロールが必要です。 
-- 任意:この記事に従って作業を進める場合には、Power BI Desktop 用の [Retail Analysis sample.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) ファイルをダウンロードし、Power BI Desktop で開いて、多数の列を含むテーブルを追加します。 **[形式]** ペインで、 **[合計]** をオフにします。 その後、Power BI サービス内のワークスペースに発行します。
+- 任意:この記事に従って作業を進める場合には、Power BI Desktop 用の [Retail Analysis sample.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) ファイルをダウンロードし、Power BI Desktop で開いて、多数の列を含むテーブルを追加します。 **[形式]** ペインで、 **[合計]** をオフにします。 その後、Power BI サービス内のワークスペースに発行します。
 
     ![[合計] をオフにしたところ](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: Minewiskan
 ms.author: owend
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769938"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871184"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI の SQL Server Analysis Services ライブ データ
 
@@ -29,7 +28,7 @@ Power BI では、ライブ SQL Server Analysis Services サーバーに接続�
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>[データの取得] からモデルに接続するには
 
-1. **マイ ワークスペース**で、**[データの取得]** を選択します。 グループワーク スペースが利用可能である場合、グループワーク スペースに変更することもできます。
+1. **マイ ワークスペース**で、 **[データの取得]** を選択します。 グループワーク スペースが利用可能である場合、グループワーク スペースに変更することもできます。
 
    ![[データの取得] ボタンに接続する](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
@@ -37,7 +36,7 @@ Power BI では、ライブ SQL Server Analysis Services サーバーに接続�
 
    ![データの取得への接続 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
-3. **[SQL Server Analysis Services]** > **[接続]** を選択します。
+3. **[SQL Server Analysis Services]**  >  **[接続]** を選択します。
 
    ![データの取得への接続 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
@@ -63,4 +62,4 @@ Power BI では、ライブ SQL Server Analysis Services サーバーに接続�
 * [Analysis Services データ ソースの管理](service-gateway-enterprise-manage-ssas.md)  
 * [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

@@ -2,7 +2,6 @@
 title: Power BI Desktop に対する以前の毎月の更新
 description: 以前の Power BI Desktop リリースの機能更新
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e775d5c4cf0ad1c24765368681134f5d4e865ad3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429707"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866967"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -176,8 +175,8 @@ ms.locfileid: "73429707"
 
 次のリンクを選択して、この以前のバージョンをダウンロードします。 
 
-* [2019 年 8 月バージョンの Power BI Desktop - 32 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
-* [2019 年 8 月バージョンの Power BI Desktop - 64 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
+* [2019 年 8 月バージョンの Power BI Desktop - 32 ビット](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
+* [2019 年 8 月バージョンの Power BI Desktop - 64 ビット](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
 
 
 ## <a name="july-2019-update-2715523641"></a>2019 年 7 月更新プログラム (2.71.5523.641)
@@ -247,8 +246,8 @@ ms.locfileid: "73429707"
 
 次のリンクを選択して、この以前のバージョンをダウンロードします。 
 
-* [2019 年 7 月バージョンの Power BI Desktop - 32 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
-* [2019 年 7 月バージョンの Power BI Desktop - 64 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
+* [2019 年 7 月バージョンの Power BI Desktop - 32 ビット](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
+* [2019 年 7 月バージョンの Power BI Desktop - 64 ビット](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
 
 
 ## <a name="june-2019-update-2705494561"></a>2019 年 6 月更新 (2.70.5494.561)
@@ -330,8 +329,8 @@ ms.locfileid: "73429707"
 
 次のリンクを選択して、この以前のバージョンをダウンロードします。 
 
-* [2019 年 6 月バージョンの Power BI Desktop - 32 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
-* [2019 年 6 月バージョンの Power BI Desktop - 64 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
+* [2019 年 6 月バージョンの Power BI Desktop - 32 ビット](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
+* [2019 年 6 月バージョンの Power BI Desktop - 64 ビット](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
 
 
 ## <a name="may-2019-update-26954671251"></a>2019 年 5 月更新 (2.69.5467.1251)
@@ -408,8 +407,8 @@ ms.locfileid: "73429707"
 
 次のリンクを選択して、この以前のバージョンをダウンロードします。 
 
-* [2019 年 5 月バージョンの Power BI Desktop - 32 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
-* [2019 年 5 月バージョンの Power BI Desktop - 64 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
+* [2019 年 5 月バージョンの Power BI Desktop - 32 ビット](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
+* [2019 年 5 月バージョンの Power BI Desktop - 64 ビット](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
 
 
 ## <a name="april-2019-update-2685432361"></a>2019 年 4 月更新 (2.68.5432.361)
@@ -490,12 +489,6 @@ ms.locfileid: "73429707"
 * より新しいリリースの Power BI Desktop で作成されたファイルは、以前のバージョンの Power BI Desktop では開けない場合があります。 
 * 新しいリリースの Power BI Desktop で保存したレポートを読み込むときに警告が発生する場合は、以前のバージョンでそのレポートを保存します。新機能に関連する情報はすべて失われます。
 * アーカイブされるのは英語版の Power BI Desktop のみです。
-
-次のリンクを選択して、この以前のバージョンをダウンロードします。 
-
-* [2019 年 4 月バージョンの Power BI Desktop - 32 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
-* [2019 年 4 月バージョンの Power BI Desktop - 64 ビット](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
-
 
 ## <a name="march-2019-update-2675404581"></a>2019 年 3 月の更新 (2.67.5404.581)
 
@@ -2414,7 +2407,7 @@ Power BI Desktop の新機能を完全に利用できます。
 -   Power BI Desktop での R 統合への機能強化
 
 
-これらの更新に関する詳細な情報については、 「[ブログの投稿](http://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx)」を参照して、これらの新機能のそれぞれについて詳しく知ることができます。
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx)」を参照して、これらの新機能のそれぞれについて詳しく知ることができます。
 
 次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
 
@@ -2470,7 +2463,7 @@ Power BI Desktop の新機能を完全に利用できます。
 -   CSV コネクタ: [ソース] ダイアログで列区切り記号を指定するための機能
 
 
-これらの更新に関する詳細な情報については、 「[ブログの投稿](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)」を参照して、これらの新機能のそれぞれについて詳しく知ることができます。
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)」を参照して、これらの新機能のそれぞれについて詳しく知ることができます。
 
 次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
 
@@ -2525,7 +2518,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 -   ローカライズされたコンテンツも含む、新しいドキュメント Web サイト
 
-これらの更新に関する詳細な情報については、 「[ブログの投稿](http://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx)」を参照して、これらの新機能のそれぞれについて詳しく知ることができます。
+これらの更新に関する詳細な情報については、 「[ブログの投稿](https://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx)」を参照して、これらの新機能のそれぞれについて詳しく知ることができます。
 
 次のビデオでは、それぞれの更新を表示して説明しています。 ブログの投稿からビデオを視聴することもできます。
 
@@ -2577,7 +2570,7 @@ Power BI Desktop の新機能を完全に利用できます。
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jbocn1ZNkxM" frameborder="0" allowfullscreen></iframe>
 
 
-詳しくは、各更新プログラムの詳細が記載されている[ブログのお知らせを確認](http://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx)してください。
+詳しくは、各更新プログラムの詳細が記載されている[ブログのお知らせを確認](https://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx)してください。
 
 
 
@@ -2647,7 +2640,7 @@ Power BI Desktop の新機能を完全に利用できます。
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jm44dLXdarQ" frameborder="0" allowfullscreen></iframe>
 
-この更新プログラムについて詳しくは、各更新プログラムの詳細が記載されている[ブログのお知らせを確認](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx)してください。
+この更新プログラムについて詳しくは、各更新プログラムの詳細が記載されている[ブログのお知らせを確認](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx)してください。
 
 ## <a name="august-2015-update-2264128403"></a>2015 年 8 月更新 (2.26.4128.403)
 

@@ -2,7 +2,6 @@
 title: レポートのテーブルまたはマトリックスに画像を表示する
 description: Power BI Desktop で、画像へのハイパーリンクを含む列を作成します。 次に、Power BI Desktop または Power BI サービスで、レポートのテーブル、マトリックス、スライサー、または複数行カードにそれらのハイパーリンクを追加して、画像を表示します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715550"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874483"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>レポートのテーブル、マトリックス、スライサーに画像を表示する
 
@@ -48,5 +47,5 @@ ms.locfileid: "71715550"
 
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

@@ -2,7 +2,6 @@
 title: Power BI でサポートされる言語と国または地域
 description: Power BI サービス、Power BI Desktop、および Power BI ドキュメントでサポートされている言語と国/地域の一覧を示します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: efb2ee5ef0ed09cbca1a2bebf6ab3a0f8908efb8
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968679"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876888"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI でサポートされる言語と国または地域
 
@@ -31,8 +30,8 @@ Power BI が利用可能な国と地域の一覧については、[ご利用い�
 * バスク語 - Basque
 * ブルガリア語 - Български
 * カタルニア語 - català
-* 簡体字中国語 - 中文 (简体)
-* 繁体字中国語 - 中文 (繁體)
+* 簡体中国語 - 中文 (简体)
+* 繁体中国語 - 中文 (繁體)
 * クロアチア語 - hrvatski
 * チェコ語 - čeština
 * デンマーク語 - dansk
@@ -126,7 +125,7 @@ Power BI Desktop を入手するには2 つがあります。スタンドアロ�
 > Power BI Report Server 用に最適化されたバージョンの Power BI Desktop をインストールする場合は、ダウンロード時に言語を選択します。 詳細については、「[Install Power BI Desktop optimized for Power BI Report Server](report-server/install-powerbi-desktop.md)」 (Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール) を参照してください。
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Power BI Desktop の言語を選択する 
-1. Power BI Desktop を [Windows ストアから](http://aka.ms/pbidesktopstore)インストールするか、[スタンドアロン インストーラー](http://aka.ms/pbiSingleInstaller)としてインストールします。
+1. Power BI Desktop を [Windows ストアから](https://aka.ms/pbidesktopstore)インストールするか、[スタンドアロン インストーラー](https://aka.ms/pbiSingleInstaller)としてインストールします。
 2. 言語を変更するには、コンピューターで **[Windows の設定]** を探します。 
 3. **[時刻と言語]** を選択します。
    
@@ -182,8 +181,8 @@ Power BI Desktop アプリケーション用の言語を設定するだけでな
 ## <a name="languages-for-the-help-documentation"></a>ヘルプ ドキュメントの言語
 ヘルプは、次の 10 の言語にローカライズされています。 
 
-* 簡体字中国語 - 中文 (简体)
-* 繁体字中国語 - 中文 (繁體)
+* 簡体中国語 - 中文 (简体)
+* 繁体中国語 - 中文 (繁體)
 * フランス語 - français
 * ドイツ語 - Deutsch
 * イタリア語 - italiano
@@ -195,6 +194,6 @@ Power BI Desktop アプリケーション用の言語を設定するだけでな
 
 ## <a name="next-steps"></a>次の手順
 * Power BI モバイル アプリを使っている場合、 詳しくは「[Power BI モバイル アプリでサポートされる言語](consumer/mobile/mobile-apps-supported-languages.md)」をご覧ください。
-* わからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)で質問してみてください。
+* わからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。
 

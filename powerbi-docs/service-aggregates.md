@@ -2,7 +2,6 @@
 title: Power BI サービスで集計 (合計や平均値など) を使用する
 description: Power BI サービスのグラフで集計 (合計、平均値、最大値など) を変更する方法について説明します。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 05/03/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cee05df6a7d13e18bc31bc1a1f34a5f89711c0d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "65710616"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873308"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Power BI サービスで集計 (合計や平均値など) を使用する
 
@@ -50,7 +49,7 @@ Power BI サービスで集計を使おうとすると、わかりにくいこ�
 
 通常、基になっている問題は、データセットでのフィールドの定義です。 データセットの所有者がフィールドをテキストとして定義しており、そのために Power BI でその合計や平均を計算できない場合があります。 残念ながら、[フィールドの分類方法を変更できるのはデータセットのオーナーだけです](desktop-measures.md)。 したがって、データセットに対する所有者アクセス許可がある場合は、Desktop またはデータセットの作成に使用したプログラム (Excel など) で、この問題を解決することができます。 それ以外の場合は、支援を得るためにデータセットの所有者に連絡する必要があります。  
 
-この記事の終わりに、「[**考慮事項とトラブルシューティング**](#considerations-and-troubleshooting)」という特別なセクションがあります。 そこでは、ヒントとガイダンスが提供されています。 そこで回答が見つからない場合は、[Power BI コミュニティ フォーラム](http://community.powerbi.com)に質問を投稿してください。 Power BI チームが速やかに直接お答えします。
+この記事の終わりに、「[**考慮事項とトラブルシューティング**](#considerations-and-troubleshooting)」という特別なセクションがあります。 そこでは、ヒントとガイダンスが提供されています。 そこで回答が見つからない場合は、[Power BI コミュニティ フォーラム](https://community.powerbi.com)に質問を投稿してください。 Power BI チームが速やかに直接お答えします。
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>数値フィールドの集計方法の変更
 
@@ -188,4 +187,4 @@ Q:ドロップダウン リストのオプションとして **[集計しない]
 
 A:フィールドを削除し、もう一度追加してみてください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

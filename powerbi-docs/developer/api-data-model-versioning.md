@@ -3,18 +3,17 @@ title: Power BI データ モデルのバージョン管理
 description: OData サービスによって公開されるデータ モデル
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 6456974e7c05b65eb084d00bb1970d4291a0cf0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3835aabee88b33ba8b053550e4637cb387bace02
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385621"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875964"
 ---
 # <a name="data-model-versioning"></a>データ モデルのバージョン管理
 
@@ -37,7 +36,7 @@ Power BI データ モデルなど、OData サービスによって公開され�
   
 サービスでは、認証されたユーザーに応じてそのデータ モデルを変更する "***べきではありません***"。 データ モデルがユーザーやユーザー グループに依存する場合は、認証が制限されているユーザーに表示されるモデルと完全なモデルを比較するときに、このセクションで定義されているように、すべての変更は安全な変更である必要があります。  
   
-OData データ モデル標準について詳しくは、「[OData Version 4.0 Part 1:Protocol Plus Errata 02 (OData バージョン 4.0 パート 1: プロトコルと改訂 02)](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)」をご覧ください。  
+OData データ モデル標準について詳しくは、「[OData Version 4.0 Part 1:Protocol Plus Errata 02 (OData バージョン 4.0 パート 1: プロトコルと改訂 02)](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)」をご覧ください。  
   
 ## <a name="see-also"></a>参照
 [Power BI REST API の概要](https://docs.microsoft.com/rest/api/power-bi/)  

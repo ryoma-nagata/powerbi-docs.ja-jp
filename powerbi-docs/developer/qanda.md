@@ -3,18 +3,17 @@ title: Power BI Embedded での Q&A
 description: Power BI Embedded では、アプリケーションに Q&amp;A を組み込む手段が提供されており、ユーザーは自然言語を使って質問できます。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.openlocfilehash: afe53e7b24328612bd7858abe263e4365f1c891d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f02274a18624ce2e9bb14902c29fe05833f3fbde
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61268751"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880421"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded での Q&A
 
@@ -36,8 +35,8 @@ var config= {
     accessToken: access token value,
     embedUrl:    https://app.powerbi.com/qnaEmbed (groupId to be appended as query parameter if required),
     datasetIds:  array of requested data set ids (at the moment we support only one dataset),
-    viewMode:    models.QnAMode.Interactive | models.QnAMode.ResultOnly,
-    question:    optional parameter for Explore mode (QnAMode.Interactive) and mandatory for Render Result mode (QnAMode.ResultOnly)
+    viewMode:    models.QnaMode.Interactive | models.QnaMode.ResultOnly,
+    question:    optional parameter for Explore mode (QnaMode.Interactive) and mandatory for Render Result mode (QnaMode.ResultOnly)
 };
 
 // Get a reference to the embedded QNA HTML element
@@ -103,4 +102,4 @@ Q&A パーツを開始するためのデータセットの埋め込みトーク�
 
 Q&A の埋め込みを試してみるなら、[JavaScript の埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)をご覧ください。
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

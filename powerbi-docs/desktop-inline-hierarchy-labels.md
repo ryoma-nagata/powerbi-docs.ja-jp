@@ -2,7 +2,6 @@
 title: Power BI Desktop でのインライン階層ラベルの使用
 description: Power BI Desktop でのインライン階層ラベルの使用
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8762be72353aa779281d721ac8038b6e3dd16aa2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: db86fee2303759d30b2ff64dc59b56314f220474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454210"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867356"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Power BI Desktop でのインライン階層ラベルの使用
 **Power BI Desktop** は**インライン階層ラベル**の使用をサポートします。これは、階層的ドリルダウンの拡張を意図した 2 つの機能の 1 つです。 もう 1 つの機能は、現在開発中の、入れ子の階層ラベルを使用する機能です (頻繁に更新中です。ご期待ください)。   

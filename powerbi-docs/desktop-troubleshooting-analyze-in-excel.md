@@ -2,7 +2,6 @@
 title: Power BI Desktop の "Excel で分析" に関するトラブルシューティング
 description: ”Excel で分析” に関する一般的な問題の解決方法
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a2116f2146072590c4cbcc7f41d941950d9692f0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543971"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865751"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>”Excel で分析” に関するトラブルシューティング
 
@@ -24,7 +23,7 @@ ms.locfileid: "72543971"
 > [!NOTE]
 > [Excel で分析](service-analyze-in-excel.md)の説明とその有効化についてのみ扱ったページを別に用意しています。
 > 
-> 以下に記載されていないシナリオが発生し、問題を引き起こしている場合は、[コミュニティ サイト](http://community.powerbi.com/)でさらに支援を求めることや、[サポート チケット](https://powerbi.microsoft.com/support/)を作成することができます。
+> 以下に記載されていないシナリオが発生し、問題を引き起こしている場合は、[コミュニティ サイト](https://community.powerbi.com/)でさらに支援を求めることや、[サポート チケット](https://powerbi.microsoft.com/support/)を作成することができます。
 > 
 > 
 
@@ -40,7 +39,7 @@ ms.locfileid: "72543971"
 * ピボットテーブルの値領域 (メジャーなし) にドラッグできない
 
 ## <a name="update-excel-libraries-for-the-ole-db-provider"></a>OLE DB プロバイダーの Excel ライブラリを更新する
-**Excel で分析**を使用するには、コンピューターに最新の AS OLE DB プロバイダーがインストールされている必要があります。 この[コミュニティ投稿](http://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081)は、OLE DB プロバイダーのインストールを確認したり、最新バージョンをダウンロードしたりするうえで有益な情報源です。
+**Excel で分析**を使用するには、コンピューターに最新の AS OLE DB プロバイダーがインストールされている必要があります。 この[コミュニティ投稿](https://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081)は、OLE DB プロバイダーのインストールを確認したり、最新バージョンをダウンロードしたりするうえで有益な情報源です。
 
 Excel ライブラリは、ビット レベルが Windows のバージョンと一致している必要があります。 64 ビットの Windows がインストールされている場合は、64 ビットの OLE DB プロバイダーをインストールする必要があります。
 

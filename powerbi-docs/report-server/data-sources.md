@@ -2,19 +2,18 @@
 title: Power BI Report Server での Power BI レポート データ ソース
 description: Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945835"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874175"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。
@@ -47,7 +46,7 @@ Power BI レポートは、複数のデータ ソースに接続できます。 
 | Dynamics 365 (オンライン) |はい |いいえ |いいえ |
 | Facebook |はい |いいえ |いいえ |
 | フォルダー |はい |はい |いいえ |
-| Google アナリティクス |はい |いいえ |いいえ |
+| Google Analytics |はい |いいえ |いいえ |
 | Hadoop ファイル (HDFS) |はい |いいえ |いいえ |
 | IBM DB2 データベース |はい |はい |いいえ |
 | Impala |はい |いいえ |いいえ |
@@ -134,7 +133,7 @@ Power BI Report Server では、モデル更新のための認証方法として
 | Dynamics 365 (オンライン) |いいえ |いいえ |いいえ |いいえ |
 | Facebook |いいえ |いいえ |いいえ |いいえ |
 | フォルダー |いいえ |いいえ |いいえ |はい |
-| Google アナリティクス |いいえ |いいえ |いいえ |いいえ |
+| Google Analytics |いいえ |いいえ |いいえ |いいえ |
 | Hadoop ファイル (HDFS) |いいえ |いいえ |いいえ |いいえ |
 | IBM DB2 データベース |いいえ |いいえ |はい |はい |
 | Impala |いいえ |いいえ |いいえ |いいえ |

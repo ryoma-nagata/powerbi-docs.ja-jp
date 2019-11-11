@@ -2,7 +2,6 @@
 title: Power BI "コンシューマー" とは
 description: コンシューマー (エンド ユーザーまたはビジネス ユーザーとも呼ばれます) 向けの Power BI の概要。
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b1876d0990cc21d854ac96329e5ab4a5632f22d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430266"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863800"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>コンシューマー向けの Power BI サービス
 
@@ -59,6 +58,6 @@ Power BI をどのように操作するかは、ご自分の仕事上の役割�
 ## <a name="next-steps"></a>次の手順
 
 [コンシューマー向けの Power BI サービスのツアーを見る](end-user-reading-view.md)    
-[コンシューマー向けの Power BI サービス トレーニング](https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/)    
+[コンシューマー向けの Power BI サービス トレーニング](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
 [Power BI "*コンシューマー*" の用語と概念](end-user-basic-concepts.md)    
 

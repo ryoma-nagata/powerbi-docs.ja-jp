@@ -3,19 +3,18 @@ title: 認定済み Power BI ビジュアル
 description: 認定のためにカスタム ビジュアルを送信する場合の要件とプロセス。 および、既に認定されている Power BI ビジュアルの一覧。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8b119f0f3b0dfb67dc2f9cb1dfd6f19d72593d66
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021351"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874576"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>認定済みの Power BI ビジュアルを取得する
 
@@ -202,4 +201,4 @@ ms.locfileid: "73021351"
 * [Power BI でのカスタム ビジュアル](power-bi-custom-visuals.md)  
 * [Microsoft AppSource に Power BI ビジュアルを発行する](developer/office-store.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

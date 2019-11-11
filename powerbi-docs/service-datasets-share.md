@@ -2,7 +2,6 @@
 title: データセットを共有する (プレビュー)
 description: データセットの所有者として、データセットを作成し、他のユーザーが使用できるように共有することができます。 共有方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c490228a1dfa1e6c842db3c41ab077a99f35f975
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: ce8a404a53eebb88bbd72998f10fd94a649b8af8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72021116"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872487"
 ---
 # <a name="share-a-dataset-preview"></a>データセットを共有する (プレビュー)
 
@@ -55,4 +54,4 @@ Power BI Desktop の "*データ モデル*" の作成者であれば、Power BI
 ## <a name="next-steps"></a>次の手順
 
 - [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
-- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

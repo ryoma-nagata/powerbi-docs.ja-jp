@@ -2,7 +2,6 @@
 title: Excel ブックから作成されたデータセットを更新する - クラウド
 description: OneDrive または SharePoint Online の Excel ブックから作成されたデータセットを更新する
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 18087514545a2994c021a61aacac02a9f08a4810
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 14377878034a9df614d7885fc6810c3b67f46355
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816509"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874356"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online の Excel ブックから作成されたデータセットを更新する
 
@@ -118,5 +117,5 @@ Power Pivot に接続されている、問い合わせ先の OData フィード�
 - [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)
 - [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

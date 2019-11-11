@@ -3,18 +3,17 @@ title: Power BI の Power BI ビジュアルの開発方法に関するトラブ
 description: この記事では、Power BI カスタム ビジュアルの開発または作成時に発生する一般的な問題について説明します。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: troubleshooting
 ms.date: 11/06/2018
-ms.openlocfilehash: 6fce02a4707d12859286f85073222b498a1a59f4
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d1897c010cb275e1f44077ca00e6448e5ee05ab2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543889"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874532"
 ---
 # <a name="troubleshoot-power-bi-power-bi-visuals"></a>Power BI の Power BI ビジュアルのトラブルシューティング
 

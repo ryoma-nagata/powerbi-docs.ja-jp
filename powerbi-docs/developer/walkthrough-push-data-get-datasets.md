@@ -3,18 +3,17 @@ title: 行を追加するためにデータセットを取得する
 description: データをプッシュするチュートリアル - Power BI テーブルに行を追加するためにデータセットを取得する
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f7dc84c9c6c84a30417d97f37d984b5f01ec9cd7
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 1edf73aa20301e86146de0d9ef924ad45c6f1f33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596471"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875718"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>手順 4:Power BI テーブルに行を追加するためにデータセットを取得する
 
@@ -22,7 +21,7 @@ ms.locfileid: "67596471"
 
 チュートリアル「データセットにデータをプッシュする」の**手順 3**「[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)」では、[データセットの作成](https://docs.microsoft.com/rest/api/power-bi/datasets)操作を呼び出して Power BI でデータセットを作成しました。 この手順では、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作と Newtonsoft.Json を使ってデータセット ID を取得します。データセットに行を追加するには、手順 4 で取得したデータセット ID を使います。 
 
-Power BI データセットにデータをプッシュするには、データセット内のテーブルを参照する必要があります。 データセット内のテーブルを参照するには、まず **データセット ID**を取得する必要があります。 **データセット ID** は、[データセットの取得](/rest/api/power-bi/datasets/getdatasets)操作を使って取得します。 **データセットの取得**操作では、Power BI 内にあるすべてのデータセットのリストを含む JSON 文字列が返されます。 JSON 文字列を逆シリアル化するには、[Newtonsoft.Json](http://www.newtonsoft.com/json) を使うことをお勧めします。
+Power BI データセットにデータをプッシュするには、データセット内のテーブルを参照する必要があります。 データセット内のテーブルを参照するには、まず **データセット ID**を取得する必要があります。 **データセット ID** は、[データセットの取得](/rest/api/power-bi/datasets/getdatasets)操作を使って取得します。 **データセットの取得**操作では、Power BI 内にあるすべてのデータセットのリストを含む JSON 文字列が返されます。 JSON 文字列を逆シリアル化するには、[Newtonsoft.Json](https://www.newtonsoft.com/json) を使うことをお勧めします。
 
 データセットを取得する方法は次のとおりです。
 
@@ -270,10 +269,10 @@ namespace walkthrough_push_data
 ## <a name="next-steps"></a>次の手順
 
 [Power BI テーブルに行を追加する](walkthrough-push-data-add-rows.md)  
-[Newtonsoft.Json](http://www.newtonsoft.com/json)  
+[Newtonsoft.Json](https://www.newtonsoft.com/json)  
 [データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Power BI にデータをプッシュする](walkthrough-push-data.md)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 [Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

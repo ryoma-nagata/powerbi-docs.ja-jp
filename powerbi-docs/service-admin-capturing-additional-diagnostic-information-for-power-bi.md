@@ -2,7 +2,6 @@
 title: 追加の診断情報をキャプチャする
 description: 次の手順では、Power BI Web クライアントから追加の診断情報を手動で収集するために可能性のある 2 つのオプションを提供します。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 09/17/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: ea1756b82efe6a68940ae3c5094eafc9c3ca4c7c
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 370ac3fad6f31c214ecafad7762acd8219831218
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305863"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873701"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>Power BI 用に追加の診断情報をキャプチャする
 
@@ -60,4 +59,4 @@ ms.locfileid: "71305863"
 
 1. サポートのレビュー用にも HAR ファイルを提供できます。
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

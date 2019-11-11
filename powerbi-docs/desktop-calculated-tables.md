@@ -2,7 +2,6 @@
 title: Power BI Desktop で計算テーブルを使用する
 description: Power BI Desktop の計算テーブル
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 4da25e0c6ea7115111bc057947183a8b86b5c2f4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522234"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878682"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop で計算テーブルを使用する
 計算テーブルを使うと、モデルに新しいテーブルを追加できます。 しかし、値のクエリを実行してデータ ソースから新しいテーブルの列に値を読み込む代わりに、テーブルの値を定義する Data Analysis Expressions (DAX) 数式を作成することができます。 Power BI Desktop では、レポート ビューまたはデータ ビューの [新しいテーブル] 機能を使用して計算テーブルを作成します。

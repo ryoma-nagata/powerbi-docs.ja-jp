@@ -2,7 +2,6 @@
 title: Power BI Desktop で集計を使用する
 description: Power BI Desktop でビッグ データに対して対話型の分析を実行する
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325202"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876733"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop での集計
 
@@ -49,10 +48,10 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 
 次のディメンション テーブルは、高いビジネス価値を持つクエリに最もよく使用されるとします。 これらのテーブルは、*一対多* (または*多対一*) リレーションシップを使用して、**Sales Agg** をフィルター処理できます。
 
-* 地理
-* 顧客
-* 日付
-* 製品サブカテゴリ
+* Geography
+* Customer
+* Date
+* Product Subcategory
 * Product Category (製品カテゴリ)
 
 次の図に、このモデルを示します。
@@ -60,7 +59,7 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 ![モデル内の集計テーブル](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> **Sales Agg** テーブルはよくあるテーブルなので、さまざまな方法で読み込める柔軟性があります。 たとえば、集計は、ソース データベースで ETL/ELT プロセスを使用して実行することも、テーブルの [M 式](https://msdn.microsoft.com/query-bi/m/power-query-m-reference)で実行することもできます。 集計では、[Power BI Premium での増分更新](service-premium-incremental-refresh.md)の有無にかかわらず、インポート ストレージ モードを使用できます。または DirectQuery にして[列ストア インデックス](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview)を使用して高速クエリ用に最適化することもできます。 この柔軟性により、ボトルネックを避けるためにクエリ負荷を分散する分散アーキテクチャが可能になります。
+> **Sales Agg** テーブルはよくあるテーブルなので、さまざまな方法で読み込める柔軟性があります。 たとえば、集計は、ソース データベースで ETL/ELT プロセスを使用して実行することも、テーブルの [M 式](/powerquery-m/power-query-m-function-reference)で実行することもできます。 集計では、[Power BI Premium での増分更新](service-premium-incremental-refresh.md)の有無にかかわらず、インポート ストレージ モードを使用できます。または DirectQuery にして[列ストア インデックス](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview)を使用して高速クエリ用に最適化することもできます。 この柔軟性により、ボトルネックを避けるためにクエリ負荷を分散する分散アーキテクチャが可能になります。
 
 ### <a name="storage-mode"></a>ストレージ モード 
 使用している例を使って続けましょう。 クエリを高速化するため、**Sales Agg** のストレージ モードを **[インポート]** に設定します。

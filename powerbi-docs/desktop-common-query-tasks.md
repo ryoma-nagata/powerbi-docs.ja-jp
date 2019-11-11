@@ -2,7 +2,6 @@
 title: Power BI Desktop での一般的なクエリ タスク
 description: Power BI Desktop での一般的なクエリ タスク
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239445"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878666"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop での一般的なクエリ タスク
 Power BI Desktop の **クエリ エディター** ウィンドウで作業するとき、一般的に使用される多数のタスクがあります。 このドキュメントでは、それらの一般的なタスクについて説明し、追加情報へのリンクを示します。 
@@ -31,9 +30,9 @@ Power BI Desktop の **クエリ エディター** ウィンドウで作業す�
 
 これらのタスクを完了するために、いくつかのデータ接続を使用します。 これらのタスクの手順をユーザー自身で実行することもできるように、データはダウンロードや接続が可能になっています。
 
-最初のデータ接続は Excel ブックです。これは[このリンク](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)からダウンロードできます。 もう 1 つは Web リソースで (これは他の Power BI Desktop のヘルプ コンテンツにも使用されます)、以下の場所からアクセスできます。
+最初のデータ接続は Excel ブックです。これは[このリンク](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)からダウンロードできます。 もう 1 つは Web リソースで (これは他の Power BI Desktop のヘルプ コンテンツにも使用されます)、以下の場所からアクセスできます。
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 一般的なクエリ タスクは、それら両方のデータ ソースへの接続に必要な手順によって開始します。
 
@@ -142,7 +141,7 @@ Power BI Desktop では、列をピボットして、列内の一意の値ごと
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-**USA\_StudentEnrollment** クエリに関連付けられたクエリ手順が表示されている、**詳細設定エディター**をここに示します。 これらの手順は、しばしば「**M**」と呼ばれる Power Query 数式言語で作成されています。詳しくは、「[Power Query 数式の詳細について](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)」をご覧ください。 言語仕様そのものを確認するには、「[Microsoft Power Query for Excel の数式言語仕様](http://go.microsoft.com/fwlink/?linkid=320633)」を参照してください。
+**USA\_StudentEnrollment** クエリに関連付けられたクエリ手順が表示されている、**詳細設定エディター**をここに示します。 これらの手順は、しばしば「**M**」と呼ばれる Power Query 数式言語で作成されています。詳しくは、「[Power Query 数式の詳細について](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)」をご覧ください。 言語仕様そのものを確認するには、「[Microsoft Power Query for Excel の数式言語仕様](/powerquery-m/excel-workbook)」を参照してください。
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

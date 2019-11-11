@@ -2,7 +2,6 @@
 title: レポートとダッシュボードに連絡先情報を設定する
 description: レポートとダッシュボードに連絡先情報を設定する方法について説明します。
 author: LukaszPawlowski-MS
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2010
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b64bc2566be8787ad4bb4916ed8b8c8731a87ed7
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: bb98f7bbb92b72512f880513ec94ccb55d64fc67
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72245494"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872147"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Power BI サービスでレポートとダッシュボードの連絡先情報を設定する
 この記事では、Power BI サービスでダッシュボードまたはレポートに連絡先情報を設定する方法について説明します。
@@ -65,4 +64,4 @@ ms.locfileid: "72245494"
 
 ## <a name="next-steps"></a>次の手順
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

@@ -2,7 +2,6 @@
 title: Power BI Desktop での Azure Consumption Insights データへの接続
 description: Power BI Desktop を使用して、Azure に簡単に接続し、使用状況を把握できます
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 44a9e361a1f5031963ba5ce33ee44c7b21f5459b
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307554"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876524"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop での Azure Consumption Insights データへの接続
 

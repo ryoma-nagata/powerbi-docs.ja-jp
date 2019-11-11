@@ -2,7 +2,6 @@
 title: カード視覚エフェクト (大きな数字のタイル)
 description: Power BI でカード視覚エフェクトを作成します
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 268b69362f0f8c98ba01fbd0673fc46856d54ba2
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195482"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870992"
 ---
 # <a name="card-visualizations"></a>カード視覚エフェクト
 
@@ -27,7 +26,7 @@ Power BI のダッシュボードまたはレポートで追跡すべき最重�
 
 ## <a name="prerequisite"></a>前提条件
 
-このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します
 
 1. メニューバーの左上にある **[ファイル]** \> **[開く]** を選択します。
    

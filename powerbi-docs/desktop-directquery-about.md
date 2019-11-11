@@ -2,7 +2,6 @@
 title: Power BI で DirectQuery を使用する
 description: Power BI での DirectQuery の使用について説明します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 13ca0b53bb1aed2d4323afdc99a97f8b9cfa5567
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305796"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868337"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI で DirectQuery を使用する
 **Power BI Desktop** または **Power BI サービス**を使用すると、あらゆる種類のデータ ソースにさまざまな方法で接続できます。 Power BI にデータを*インポート*したり (最もよく使われるデータ取得方法)、元のソース リポジトリ内のデータに直接接続したり (**DirectQuery** と呼ばれています) できます。 この記事では **DirectQuery** とその機能について説明します。
@@ -32,7 +31,7 @@ ms.locfileid: "71305796"
 
 インポートと DirectQuery の両方の接続モードに対して Power BI が提供する機能のセットは、今後も徐々に拡充されます。 これには、インポートしたデータを使用するときの柔軟性の向上 (インポートを使用できるケースの増加など) や、DirectQuery を使用するときのいくつかの欠点の除去などが含まれます。 機能強化に関係なく、DirectQuery を使うときは、基になるデータ ソースのパフォーマンスが常に大きな考慮事項になります。 基になるデータ ソースが遅い場合、そのソースで DirectQuery を使うことはできません。
 
-この記事では、Power BI での DirectQuery の使用について説明します。SQL Server Analysis Services については説明しません。 DirectQuery は **SQL Server Analysis Services** の機能でもあり、ここで説明する詳細の多くは SQL Server Analysis Services にも当てはまりますが、重要な相違点もあります。 SQL Server Analysis Services での DirectQuery の使用については、[SQL Server Analysis Services 2016 での DirectQuery の詳細に関するホワイトペーパー](http://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)をご覧ください。  
+この記事では、Power BI での DirectQuery の使用について説明します。SQL Server Analysis Services については説明しません。 DirectQuery は **SQL Server Analysis Services** の機能でもあり、ここで説明する詳細の多くは SQL Server Analysis Services にも当てはまりますが、重要な相違点もあります。 SQL Server Analysis Services での DirectQuery の使用については、[SQL Server Analysis Services 2016 での DirectQuery の詳細に関するホワイトペーパー](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)をご覧ください。  
 
 この記事で注目する DirectQuery の推奨されるワークフローではレポートを **Power BI Desktop** で作成しますが、**Power BI サービス**での直接接続についても説明します。
 
@@ -141,7 +140,7 @@ Power BI は、次のような多様なデータ ソースに接続します。
 * **計算列での制限事項:** 計算列は集計関数を使用しない行内に制限されます。たとえば、同じテーブルの他の列の値だけを参照できます。 さらに、許可される DAX スカラー関数 (LEFT() など) は基になるソースに単純にプッシュできるものに制限され、したがってソースの正確な機能によって異なります。 計算列の DAX を作成するときはサポートされない関数はオートコンプリートに表示されず、使うとエラーが発生します。
 * **親子 DAX 関数がサポートされない:** DirectQuery モデルでは、一般に親子構造 (アカウントのグラフや従業員の階層など) を処理する DAX PATH() 関数ファミリを使うことはできません。
 * **計算テーブルがサポートされない:** DirectQuery モードでは、DAX 式を使って計算テーブルを定義する機能はサポートされません。
-* **リレーションシップのフィルター:** 双方向フィルタリングの使用については、[この詳細なホワイトペーパー](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)で説明しています (SQL Server Analysis Services のコンテキストでの例が示されていますが、基本的なポイントは Power BI にも同じように当てはまります)。
+* **リレーションシップのフィルター:** 双方向フィルタリングの使用については、[この詳細なホワイトペーパー](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)で説明しています (SQL Server Analysis Services のコンテキストでの例が示されていますが、基本的なポイントは Power BI にも同じように当てはまります)。
 
 * **クラスタリングがない:** DirectQuery を使うと、クラスタリング機能を使って自動的にグループを検索することはできません。
 

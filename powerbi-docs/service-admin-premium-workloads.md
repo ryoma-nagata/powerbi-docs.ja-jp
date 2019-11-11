@@ -3,19 +3,18 @@ title: Power BI Premium でワークロードを構成する方法
 description: Power BI Premium 容量でワークロードを構成する方法について説明します。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307391"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856826"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium 容量でワークロードを構成する
 
@@ -198,4 +197,4 @@ Power BI のレポートでは、容量に対するクエリごとに、この�
 [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)   
 [Power BI Desktop でのページの自動更新 (プレビュー)](desktop-automatic-page-refresh.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティに質問する](http://community.powerbi.com/)
+他にわからないことがある場合は、 [Power BI コミュニティに質問する](https://community.powerbi.com/)

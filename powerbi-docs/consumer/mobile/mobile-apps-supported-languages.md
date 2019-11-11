@@ -2,27 +2,26 @@
 title: Power BI モバイル アプリでサポートされる言語
 description: Power BI モバイル アプリでサポートされる言語の一覧を示します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 97fa91dda195d6976d92b027a0f96fca8e2ccea1
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ac3ed868f23ff15441a30dd2425820d2cda0c920
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841432"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879151"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでサポートされる言語
 現在、Power BI モバイル アプリでは以下の言語がサポートされています。
 
 * アラビア語 (iOS のみ)
 * カタルニア語 - català
-* 簡体字中国語 - 中文 (简体)
-* 繁体字中国語 - 中文 (繁體)
+* 簡体中国語 - 中文 (简体)
+* 繁体中国語 - 中文 (繁體)
 * クロアチア語 - hrvatski
 * チェコ語 - čeština
 * デンマーク語 - dansk
@@ -60,6 +59,6 @@ ms.locfileid: "70841432"
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI でサポートされる言語と国/地域](../../supported-languages-countries-regions.md)
-* わからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)で質問してみてください。
+* わからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。
 

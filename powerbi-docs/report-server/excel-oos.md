@@ -3,18 +3,17 @@ title: Office Online Server (OOS) を使用して Excel ブックをホストす
 description: Web ポータルで Power BI レポートを表示することに加え、Power BI Report Server は Office Online Server (OOS) を使用して Excel ブックをホストすることができます。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 5585750fcd5e6237f3cb00591cf5841f91393b84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769594"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874101"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) を利用し、Excel ブックをホストするようにレポート サーバーを構成する
 
@@ -54,7 +53,7 @@ Office Online Server を実行するサーバーで以下の手順を実行し�
 
 外部データ アクセスを活用する Excel Online 機能を使用する場合 (Power Pivot など)、そのユーザーや、Windows ベースの認証でアクセスする予定の外部データ ソースと同じ Active Directory フォレストに Office Online Server を置く必要があります。
 
-1. [ボリューム ライセンス サービス センター (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) から Office Online Server をダウンロードします。 ダウンロードは、VLSC ポータルの Office 製品の下にあります。 開発目的の場合、MSDN サブスクライバー ダウンロードから OOS をダウンロードできます。
+1. [ボリューム ライセンス サービス センター (VLSC)](https://go.microsoft.com/fwlink/p/?LinkId=256561) から Office Online Server をダウンロードします。 ダウンロードは、VLSC ポータルの Office 製品の下にあります。 開発目的の場合、MSDN サブスクライバー ダウンロードから OOS をダウンロードできます。
 2. Setup.exe を実行します。
 3. **[マイクロソフト ソフトウェア ライセンス条項をお読みください]** ページで、 **[「マイクロソフト ソフトウェア ライセンス条項」に同意します]** を選択し、 **[続行]** を選択します。
 4. **[ファイルの場所を選択してください]** ページで、Office Online Server ファイルをインストールするフォルダーを選択し (例: C:\Program Files\Microsoft Office Web Apps\*)、 **[今すぐインストール]** を選択します。 指定したフォルダーが存在しない場合、自動的に作成されます。
@@ -69,7 +68,7 @@ Office Online Server 言語パックを利用すれば、Web ベースの Office
 
 言語パックをインストールするには、次の手順を実行します。
 
-1. [Microsoft ダウンロード センター](http://go.microsoft.com/fwlink/p/?LinkId=798136)から Office Online Server 言語パックをダウンロードします。
+1. [Microsoft ダウンロード センター](https://go.microsoft.com/fwlink/p/?LinkId=798136)から Office Online Server 言語パックをダウンロードします。
 2. **wacserverlanguagepack.exe** を実行します。
 3. Office Online Server 言語パック ウィザードの **[マイクロソフト ソフトウェア ライセンス条項をお読みください]** ページで、 **[「マイクロソフト ソフトウェア ライセンス条項」に同意します]** を選択し、 **[続行]** を選択します。
 4. Office Online Server のインストールが完了したら、 **[閉じる]** を選択します。
@@ -86,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **パラメーター**
 
-* **–InternalURL** は、Office Online Server を実行するサーバーの完全修飾ドメイン名 (FQDN) です。たとえば、`http://servername.contoso.com` のようになります。
+* **–InternalURL** は、Office Online Server を実行するサーバーの完全修飾ドメイン名 (FQDN) です。たとえば、`https://servername.contoso.com` のようになります。
 * **–ExternalURL** は、インターネットでアクセスできる FQDN です。
 * **–CertificateName** は、証明書のフレンドリ名です。
 
@@ -95,12 +94,12 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 次の例のように、New-OfficeWebAppsFarm コマンドを使用し、1 台のサーバーから構成される Office Online Server ファームを新規作成します。
 
 ```powershell
-New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
+New-OfficeWebAppsFarm -InternalURL "https://servername" -AllowHttp
 ```
 
 **パラメーター**
 
-* **–InternalURL** は、Office Online Server を実行するサーバーの名前です。たとえば、`http://servername` のようになります。
+* **–InternalURL** は、Office Online Server を実行するサーバーの名前です。たとえば、`https://servername` のようになります。
 * **–AllowHttp** は、HTTP を使用するようにファームを構成します。
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Office Online Server ファームが作成されたことを確認する
@@ -168,7 +167,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>OOS サーバーを使用するように Power BI Report Server を構成する
 
-**[サイト設定]** の **[全般]** ページで、OOS 検出 URL を入力します。 OOS 検出 URL は OOS サーバーの展開時に使用された *InternalUrl* であり、後ろに */hosting/discovery* が続きます。 たとえば、HTTP の場合、`http://servername/hosting/discovery` のようになります。 HTTPS の場合は、`https://server.contoso.com/hosting/discovery` のようになります。
+**[サイト設定]** の **[全般]** ページで、OOS 検出 URL を入力します。 OOS 検出 URL は OOS サーバーの展開時に使用された *InternalUrl* であり、後ろに */hosting/discovery* が続きます。 たとえば、HTTP の場合、`https://servername/hosting/discovery` のようになります。 HTTPS の場合は、`https://server.contoso.com/hosting/discovery` のようになります。
 
 **[サイト設定]** に移動するには、右上にある**歯車アイコン**を選択し、 **[サイト設定]** を選択します。
 
@@ -187,6 +186,6 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) のダウンロード](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

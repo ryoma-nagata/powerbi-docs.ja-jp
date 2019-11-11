@@ -2,7 +2,6 @@
 title: Power BI Desktop でのデータ分類
 description: Power BI Desktop でのデータ分類
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 5b6bbf7a203d8e87d129b6336be4f4531ae34107
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8667823567270680415c2fb0ba2db7846dd968ac
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454481"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878324"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop でのデータ分類
 **Power BI Desktop** では、ユーザーが列に対してデータ カテゴリを指定すれば、Power BI Desktop が視覚化するときにその列の値をどのように扱うべきかを自動的に見極めます。

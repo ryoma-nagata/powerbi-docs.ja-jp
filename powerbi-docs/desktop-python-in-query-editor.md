@@ -2,7 +2,6 @@
 title: Power BI クエリ エディターでの Python の使用
 description: Power BI Desktop クエリ エディターで Python を使用し、高度な分析を行う
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61286884"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878015"
 ---
 # <a name="using-python-in-query-editor"></a>クエリ エディターでの Python の使用
 Power BI Desktop **クエリ エディター**では、統計学者、データ科学者、データ分析官によって広く使用されているプログラミング言語、**Python** を使用できます。 Python と**クエリ エディター**を統合することで、Python を使用したデータ クレンジングを実行したり、データセットで高度なデータ シェイプおよびデータ分析 (失ったデータを埋める、予測、クラスター化など) を実行したりできます。 **Python** は高度な言語であり、**クエリ エディター**で使用し、ご自分のデータ モデルを用意したり、レポートを作成したりできます。
@@ -24,7 +23,7 @@ Power BI Desktop **クエリ エディター**では、統計学者、データ�
 Power BI Desktop の**クエリ エディター**で **Python** を使用するには、ご使用のローカル コンピューターに **Python** をインストールする必要があります。 **Python** はさまざまな場所から無料でダウンロードし、インストールできます。たとえば、[公式 Python ダウンロード ページ](https://www.python.org/)や [Anaconda](https://anaconda.org/anaconda/python/) があります。
 
 ## <a name="using-python-in-query-editor"></a>クエリ エディターでの Python の使用
-**クエリ エディター**で **Python** を使用する方法を示すために、ある株式市場のデータセットを例として使用します。これは .CSV ファイルに基づいており、[ここからダウンロード](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)してご利用いただけます。 この例の手順は次のようになります。
+**クエリ エディター**で **Python** を使用する方法を示すために、ある株式市場のデータセットを例として使用します。これは .CSV ファイルに基づいており、[ここからダウンロード](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)してご利用いただけます。 この例の手順は次のようになります。
 
 1. 最初に、**Power BI Desktop** にデータを読み込みます。 この例では、*EuStockMarkets_NA.csv* ファイルを読み込み、**Power BI Desktop** の **[ホーム]** リボンから **[データの取得] > [CSV]** を選択します。
    
@@ -77,7 +76,7 @@ Power BI Desktop の**クエリ エディター**で **Python** を使用する�
 そのビジュアルが完成したら (**Power BI Desktop** を使用して作成する必要がある任意の他のビジュアル)、**Power BI Desktop** ファイルを保存し (.pbix ファイルとして保存)、Power BI サービスでデータ モデル (その一部である Python スクリプトが含まれる) を使用できます。
 
 > [!NOTE]
-> 以上の手順を完了した .pbix ファイルをご覧になる場合は、 上記の例で使用されている **Power BI Desktop** ファイルの完成したものを[ここから](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)ダウンロードできます。
+> 以上の手順を完了した .pbix ファイルをご覧になる場合は、 上記の例で使用されている **Power BI Desktop** ファイルの完成したものを[ここから](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)ダウンロードできます。
 
 .pbix ファイルを Power BI サービスにアップロードしたら、さらにいくつかの手順を行い、(サービスで) データ更新を有効にし、サービスでビジュアルの更新を有効にする必要があります (ビジュアルを更新するには、データが Python にアクセスする必要があります)。 追加の手順は次のとおりです。
 

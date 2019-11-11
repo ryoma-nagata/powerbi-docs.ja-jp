@@ -2,7 +2,6 @@
 title: Excel ブックから作成されたデータセットを更新する - ローカル
 description: ローカル ドライブの Excel ブックから作成されたデータセットを更新する
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a71631c0ac8e45c7e268eb11a0539fa8305dfcd7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b69e908e378605facbdaea79618aaf5167ff7739
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61414746"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874383"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>ローカル ドライブの Excel ブックから作成されたデータセットを更新する
 ## <a name="whats-supported"></a>サポートされている機能
@@ -80,5 +79,5 @@ Power BI では、次のいずれかのデータ ソースに接続してデー�
 [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>次の手順
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

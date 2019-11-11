@@ -2,7 +2,6 @@
 title: コンマ区切り値 (.csv) ファイルからデータを取得する
 description: .csv ファイルから Power BI にデータを取得する方法を学習します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513324"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855519"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>コンマ区切り値 (.csv) ファイルからデータを取得する
 ![](media/service-comma-separated-value-files/csv_icon.png)
 
-コンマ区切り値ファイルは、.csv とも呼ばれるシンプルなテキスト ファイルです。データは各行に配置され、各データのそれぞれの値がコンマで区切られた形となっています。 この種のファイルでは、ファイルのサイズを比較的小さく抑えつつ非常に多くのデータを入れておくことができるため、Power BI にとって理想的なデータ ソースの 1 つとなっています。 サンプルの .csv ファイルは[こちら](http://go.microsoft.com/fwlink/?LinkID=619356)からダウンロードできます。
+コンマ区切り値ファイルは、.csv とも呼ばれるシンプルなテキスト ファイルです。データは各行に配置され、各データのそれぞれの値がコンマで区切られた形となっています。 この種のファイルでは、ファイルのサイズを比較的小さく抑えつつ非常に多くのデータを入れておくことができるため、Power BI にとって理想的なデータ ソースの 1 つとなっています。 サンプルの .csv ファイルは[こちら](https://go.microsoft.com/fwlink/?LinkID=619356)からダウンロードできます。
 
 .csv の用意ができたら、それをデータセットとして Power BI サイトで使ってみましょう。Power BI サイトでは、データの探索はもちろん、ダッシュボードを作成したり、得られた洞察を他の人と共有したりできます。
 

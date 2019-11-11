@@ -2,7 +2,6 @@
 title: 代替メール アドレスの使用
 description: 代替メール アドレスの使用
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 88432f55fc8cfeefa07b66ea68437bbb23f12531
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6549ec04d8ec47381b4639d15242e909929b52de
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906651"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858090"
 ---
 # <a name="use-an-alternate-email-address"></a>代替メール アドレスの使用
 
@@ -32,9 +31,9 @@ Office 365 で代替アドレスを指定するには、次の手順のように
 
 1. [Office 365 の個人情報ページ](https://portal.office.com/account/#personalinfo)を開きます。 アプリのプロンプトが表示されたら、Power BI に使用するメール アドレスとパスワードを使用してサインインします。
 
-1. 左側のメニューで、**[個人情報]** を選択します。
+1. 左側のメニューで、 **[個人情報]** を選択します。
 
-1. **[連絡先の詳細]** セクションで、**[編集]** を選択します。
+1. **[連絡先の詳細]** セクションで、 **[編集]** を選択します。
 
     詳細を編集できない場合は、Office 365 管理者がメール アドレスを管理していることを示します。 管理者に連絡して、メール アドレスを更新してください。
 
@@ -70,4 +69,4 @@ Power BI では、次の順序で使用するメール アドレスが選択さ�
 
 1. 上記の条件のいずれも存在しない場合、Power BI では UPN アドレスが使用されます。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

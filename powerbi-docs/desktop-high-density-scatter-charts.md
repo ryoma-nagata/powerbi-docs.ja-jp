@@ -2,7 +2,6 @@
 title: Power BI の高密度散布図
 description: Power BI の高密度散布図
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 928e93c724a47f48aff1f87ee51f9a8c907774d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454278"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867444"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散布図の高密度サンプリング
 **Power BI Desktop** の 2017 年 9 月リリースおよび **Power BI サービス**の更新以降、新しいサンプリング アルゴリズムが使用可能です。これにより、散布図で高密度データを表す方法が改善されます。
@@ -61,19 +60,19 @@ ms.locfileid: "65454278"
 * **[詳細]** で値を右クリックしてメニューから **[データのない項目を表示する]** に設定した場合、散布図は元のアルゴリズムに戻ります。
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
-* [**再生**] 軸に値がある場合、散布図は元のアルゴリズムに戻ります。
+* **[再生]** 軸に値がある場合、散布図は元のアルゴリズムに戻ります。
 * 散布図の X と Y の両方の軸が存在しない場合、図は元のアルゴリズムに戻ります。
-* [**分析**] ウィンドウで [**比率線**] を使用すると、図は元のアルゴリズムに戻ります。
+* **[分析]** ウィンドウで **[比率線]** を使用すると、図は元のアルゴリズムに戻ります。
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>散布図の [高密度サンプリング] を有効にする方法
-**[高密度サンプリング]** を有効にするには、散布図を選択して **[書式設定]** ウィンドウに移動し、**[全般]** カードを展開して、カードの下部にある、**[高密度サンプリング]** トグル スライダーを **[オン]** にスライドします。
+**[高密度サンプリング]** を有効にするには、散布図を選択して **[書式設定]** ウィンドウに移動し、 **[全般]** カードを展開して、カードの下部にある、 **[高密度サンプリング]** トグル スライダーを **[オン]** にスライドします。
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
 > [!NOTE]
-> スライダーが有効になると、Power BI は、使用可能なときには常に**高密度サンプリング**の使用を試行します。 このアルゴリズムを使用できない場合 (たとえば、[*再生*] 軸に値を配置した場合)、図は標準アルゴリズムに戻されますが、スライダーは [**オン**] の位置のままです。 *[再生]* 軸の値を削除した場合 (または、高密度サンプリング アルゴリズムを使用できるように条件が変更された場合)、機能が有効になっているので、図は自動的に高密度のサンプリングを使用します。
+> スライダーが有効になると、Power BI は、使用可能なときには常に**高密度サンプリング**の使用を試行します。 このアルゴリズムを使用できない場合 (たとえば、[*再生*] 軸に値を配置した場合)、図は標準アルゴリズムに戻されますが、スライダーは **[オン]** の位置のままです。 *[再生]* 軸の値を削除した場合 (または、高密度サンプリング アルゴリズムを使用できるように条件が変更された場合)、機能が有効になっているので、図は自動的に高密度のサンプリングを使用します。
 > 
 > [!NOTE]
 > データ ポイントはインデックスによってグループ化または選択されます。 凡例の使用は、アルゴリズムに影響しません。ビジュアルの順序にのみ影響します。

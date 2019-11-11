@@ -2,7 +2,6 @@
 title: Power BI 管理とは
 description: Power BI のガバナンス ポリシー、利用状況の監視、およびライセンス、容量、組織のリソースのプロビジョニングの構成について説明します。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 779dba9262752a4030eb263002822d0186f3e470
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: d33aad1d52a7074873e4b2bb7f5e2f93e2b8ab0e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075801"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873725"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 管理とは
 
@@ -87,4 +86,4 @@ Power BI 管理に関連するいくつかのツールがあります。それ�
 
 [Power BI 管理のよく寄せられる質問](service-admin-faq.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

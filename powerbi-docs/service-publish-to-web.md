@@ -3,19 +3,18 @@ title: Power BI から Web への公開
 description: Power BI で Web に公開すると、対話型の Power BI の視覚化をブログ投稿記事、Web サイト、メールやソーシャル メディアなどにオンラインで簡単に埋め込むことができます。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 9f8da4a5f37eb1e652dd2125dd588febf49fb01b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239920"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871844"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -186,4 +185,4 @@ Web サイトまたはブログに埋め込まれた **[Web に公開]** コン�
 
 - [セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む](service-embed-secure.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

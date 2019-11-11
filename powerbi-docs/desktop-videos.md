@@ -2,7 +2,6 @@
 title: Power BI Desktop のビデオ
 description: Power BI Desktop のビデオ
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,15 +9,15 @@ ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 609b0d1a30c065227e3700b2a3a2ee284b76a8b0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 5ac2b2e498c6cd81e922e3ee82435d0d32720ced
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391448"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876018"
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop のビデオ
-[Power BI 用の YouTube チャンネルがあります](http://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)!
+[Power BI 用の YouTube チャンネルがあります](https://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)!
 
 Power BI Desktop に関するすべてのビデオを次に一覧で示します。 下記のいずれかのリンクを選択すると、関連付けられているビデオが表示されます。
 

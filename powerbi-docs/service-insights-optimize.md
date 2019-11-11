@@ -2,7 +2,6 @@
 title: Power BI クイック インサイト用のデータの最適化
 description: Power BI クイック インサイト用のデータを最適化します。 Power BI でデータの詳細情報を見つけられない場合、実行できることを説明しています。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2d2a0cca984776ea67fca45b39f91e280fe02afa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ed588b0ca183e090d12f9aa0df23460a6037ed4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61235032"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872216"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI クイック インサイト用のデータの最適化
 クイック インサイトの結果を改善する必要がありますか。  データセット所有者の場合は、以下を試します。
@@ -28,5 +27,5 @@ ms.locfileid: "61235032"
 ### <a name="next-steps"></a>次の手順
 [Power BI クイック インサイト](consumer/end-user-insights.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

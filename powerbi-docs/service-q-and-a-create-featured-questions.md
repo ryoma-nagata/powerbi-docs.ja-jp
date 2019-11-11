@@ -2,7 +2,6 @@
 title: Power BI Q&A のおすすめの質問を作成する
 description: Power BI Q&A のおすすめの質問を作成する方法についてのドキュメント
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 138c14e98485777d84130854c7811a33b74dffd3
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721121"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881118"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Q&A のおすすめの質問を作成する
 データセットがある場合、そのデータセットにおすすめの質問を追加できます。 Power BI Q&A には、そのデータセットに基づくレポートを使用する同僚におすすめの質問が表示されます。  同僚は、データセットについて確認できる質問の種類についておすすめの質問をヒントにすることができます。 任意のおすすめの質問を追加できます。よくある質問、興味深い結果が表示される質問、表現しづらい質問などを追加してください。
@@ -50,5 +49,5 @@ ms.locfileid: "66721121"
 - [ダッシュボードとレポートで Q&A を使用する](power-bi-tutorial-q-and-a.md)  
 - [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

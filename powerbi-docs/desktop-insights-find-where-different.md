@@ -2,7 +2,6 @@
 title: 分析情報を利用して販売総数が異なる箇所を見つける (プレビュー)
 description: Power BI Desktop で簡単に分析情報を得て、グラフ内の販売総数が異なる箇所を見つける
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 99ad06b84b01ce94b3433952cdd031a81c336e04
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bb4e177ff813c332c8b60b490ead1f6d97a03935
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454142"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867127"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Power BI Desktop の分析情報を利用し、販売総数が異なる箇所を見つける (プレビュー)
 
@@ -26,7 +25,7 @@ ms.locfileid: "65454142"
 
 ![大きな販売網を示すグラフ](media/desktop-insights-find-where-different/find-where-different_01.png)
 
-販売総数の異なる箇所を見つけるように **Power BI Desktop** に指示すれば、データを自動分析し、短時間で洞察力のある情報が得られます。 データ ポイントを右クリックし、**[分析]、[Find where the distribution is different]\(分布が異なる部分を見つける\)** の順にクリックします。使いやすいウィンドウに分析情報が表示されます。
+販売総数の異なる箇所を見つけるように **Power BI Desktop** に指示すれば、データを自動分析し、短時間で洞察力のある情報が得られます。 データ ポイントを右クリックし、 **[分析]、[Find where the distribution is different]\(分布が異なる部分を見つける\)** の順にクリックします。使いやすいウィンドウに分析情報が表示されます。
 
 ![販売総数が異なる箇所に対する分析情報](media/desktop-insights-find-where-different/find-where-different_02.png)
 
@@ -38,7 +37,7 @@ ms.locfileid: "65454142"
 > 
 
 ## <a name="using-insights"></a>インサイトの使用
-分析情報を利用してグラフ上の販売総数が異なる箇所を見るには、データ ポイント (または、グラフ全体) を右クリックし、**[分析] > [Find where the distribution is different]\(分布が異なる部分を見つける\)** の順にクリックします。
+分析情報を利用してグラフ上の販売総数が異なる箇所を見るには、データ ポイント (または、グラフ全体) を右クリックし、 **[分析] > [Find where the distribution is different]\(分布が異なる部分を見つける\)** の順にクリックします。
 
 ![右クリックで分析情報を得る](media/desktop-insights-find-where-different/find-where-different_03.png)
 

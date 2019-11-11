@@ -2,7 +2,6 @@
 title: オンプレミス データ ゲートウェイに関するよく寄せられる質問 (FAQ) - Power BI
 description: この記事は、Power BI のオンプレミス データ ゲートウェイに関してよく寄せられる質問 (FAQ) です。 この記事では、Power BI で使用されるゲートウェイに関してよく寄せられる質問を 1 か所にまとめています。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867068"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872403"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>オンプレミス データ ゲートウェイに関するよく寄せられる質問 (FAQ) - Power BI
 
@@ -73,5 +72,5 @@ ms.locfileid: "68867068"
 
 * [オンプレミス データ ゲートウェイのトラブルシューティング](/data-integration/gateway/service-gateway-tshoot)
 
-他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)を利用してください。
+他にわからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)を利用してください。
 

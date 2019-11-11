@@ -2,7 +2,6 @@
 title: Power BI Desktop の取得
 description: Power BI Desktop のダウンロードおよびインストール
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7c99b00427ffe742511c0029da79b6ebde02d916
-ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
+ms.openlocfilehash: 9f503ad8d5ae7b26a87da4e1d6664315b6119652
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72511676"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878243"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 **Power BI Desktop** では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 **Power BI Desktop** を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。  **Power BI Desktop** は無料でダウンロードできます。
@@ -56,7 +55,7 @@ ms.locfileid: "72511676"
 ## <a name="install-as-an-app-from-the-microsoft-store"></a>Microsoft ストアからアプリとしてインストールする
 次のリンクを使って、Microsoft ストアから **Power BI Desktop** を取得することもできます。
 
-* [**Microsoft ストア**から **Power BI Desktop** をインストールする](http://aka.ms/pbidesktopstore)
+* [**Microsoft ストア**から **Power BI Desktop** をインストールする](https://aka.ms/pbidesktopstore)
 
   ![Microsoft ストアから Power BI Desktop をインストールする](media/desktop-get-the-desktop/getpbid_04.png)
 

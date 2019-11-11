@@ -2,7 +2,6 @@
 title: Power BI Desktop で計算列を使用する
 description: Power BI Desktop の計算列
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 805e052a2d5b493705c604d1817fc03c0a8b5376
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 10c6f9f512c1b8c837842247d9dc928e8e065451
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522190"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876629"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop で計算列を使用する
 計算列を使うと、既にモデル内に存在するテーブルに新しいデータを追加できます。 しかし、値のクエリを実行してデータ ソースから新しい列に読み込む代わりに、列の値を定義する Data Analysis Expressions (DAX) 数式を作成します。 Power BI Desktop では、レポート ビューの [新しい列] 機能を使用して計算列を作成します

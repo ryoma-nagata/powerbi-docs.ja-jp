@@ -2,7 +2,6 @@
 title: Power BI の折れ線グラフ
 description: Power BI の折れ線グラフ
 author: mihart
-manager: kvivek
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4b2c7c237393fd0a8e76b7ca27987c479b5c411d
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408619"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871078"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI の折れ線グラフ
 折れ線グラフでは、ドットで表された一連のデータ ポイントが直線で接続されています。 折れ線グラフには 1 つまたは複数の線を含めることができ、 X と Y 軸があります。 

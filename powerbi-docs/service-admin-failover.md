@@ -2,7 +2,6 @@
 title: Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ
 description: Power BI サービスでユーザーに高可用性、ビジネス継続性およびディザスター リカバリーがどのように提供されるかを理解します。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b8f98541b70c3573d9f31b5e59196cd37d322bb3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: dd2c94b490cdf31bd383c7100b9a1bc372f8e75f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075235"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873682"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ
 
@@ -23,7 +22,7 @@ ms.locfileid: "71075235"
 
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>Power BI における "高可用性" にはどのような意味がありますか。
 
-Power BI は、フル マネージドのサービスとしてのソフトウェア (SaaS) です。  Microsoft では、ユーザーがいつでも自分のレポートにアクセスできるように、インフラストラクチャ エラーに対して回復力を持たせるように設計し、運用しています。  サービスは [99.9% SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) によってサポートされます。
+Power BI は、フル マネージドのサービスとしてのソフトウェア (SaaS) です。  Microsoft では、ユーザーがいつでも自分のレポートにアクセスできるように、インフラストラクチャ エラーに対して回復力を持たせるように設計し、運用しています。  サービスは [99.9% SLA](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) によってサポートされます。
 
 ## <a name="what-is-a-power-bi-failover"></a>Power BI のフェールオーバーとは
 
@@ -50,7 +49,7 @@ Power BI サービスのすべてのコンポーネントでは、そのバッ�
 
 ## <a name="how-do-i-know-power-bi-is-now-in-failover-mode"></a>Power BI が現在、フェールオーバー モードかどうかを確認するにはどうすればよいですか。
 
-Power BI のサポート ページ ([https://powerbi.microsoft.com/en-us/support/](https://powerbi.microsoft.com/en-us/support/)) に通知が投稿されます。 通知には、ダッシュボードの発行、更新、作成、複製、およびアクセス許可の変更など、フェールオーバー時に利用できない主な操作が含まれます。
+Power BI のサポート ページ ([https://powerbi.microsoft.com/support/](https://powerbi.microsoft.com/support/)) に通知が投稿されます。 通知には、ダッシュボードの発行、更新、作成、複製、およびアクセス許可の変更など、フェールオーバー時に利用できない主な操作が含まれます。
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Power BI でのフェールオーバーにはどれくらいかかりますか。
 

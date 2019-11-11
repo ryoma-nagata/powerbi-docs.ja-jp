@@ -2,7 +2,6 @@
 title: Power BI でボタンの使用
 description: Power BI Desktop でボタンを使用すると、アプリのように動作するレポートとダッシュボードを作成し、ユーザーとの連携を深めることができます。
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d884df7fdfa6d0f16e7963c00a1100186d70546
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a38b54bdacd0f60ee0151ad7c1a2084cebac2a37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239498"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878706"
 ---
 # <a name="using-buttons-in-power-bi"></a>Power BI でボタンの使用
 Power BI で**ボタン**を使用すると、アプリと同様に動作するレポートとダッシュボードを作成できるため、興味をそそる環境を作成できます。これにより、ユーザーは Power BI コンテンツに対するマウスのポイント、クリック、および対話操作を行うことができます。 **Power BI Desktop** のレポートにボタンを追加して、Power BI サービスにレポートを共有および発行し、ユーザーのためにアプリのように動作するダッシュボードを作成できます。
@@ -41,7 +40,7 @@ Power BI のボタンには 3 つの状態があります: 既定 (マウスで�
 
 * ボタンのテキスト
 * アイコン
-* アウトライン
+* 枠線
 * 塗りつぶし
 
 各状態に表示されるボタンを選択するには、カードのいずれかを展開して、カードの上部に表示されるドロップダウンを選択します。 次の図では、 **[アウトライン]** カードが展開され、ドロップダウンが選択され、3 つの状態が表示されています。

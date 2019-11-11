@@ -3,18 +3,17 @@ title: Power BI Embedded の Multi-Geo のサポート
 description: Power BI Embedded のホーム リージョン以外のリージョンにあるデータセンターにコンテンツを展開する方法について説明します。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 57f01a458bad36c73a01adb1bc62bfd5a055a337
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 093b1e430d59a6060829b63a5bcfe17a7bb43928
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61344970"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875788"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded の Multi-Geo のサポート
 
@@ -92,4 +91,4 @@ Multi-Geo で API を使用して容量を管理できるように、既存の A
 
 * [Power BI Premium 容量での Multi-Geo](../service-admin-premium-multi-geo.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

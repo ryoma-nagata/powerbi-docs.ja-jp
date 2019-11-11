@@ -2,19 +2,18 @@
 title: リモートでレポート サーバーへの iOS モバイル アプリのアクセスを構成する
 description: レポート サーバー用にリモートで iOS モバイル アプリを構成する方法を説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994810"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874206"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
 

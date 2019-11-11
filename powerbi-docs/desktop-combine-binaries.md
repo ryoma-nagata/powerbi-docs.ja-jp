@@ -2,7 +2,6 @@
 title: Power BI Desktop でファイル (バイナリ) を結合する
 description: Power BI Desktop でファイル (バイナリ) データ ソースを簡単に結合できます
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8a5b4c7cb484b296ccab395e18eb2b0089ffd5c7
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 03a6e044a55613d40a1cf195d6a0ad3b44a9f012
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327821"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876553"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Power BI Desktop でファイル (バイナリ) を結合する
 **Power BI Desktop** にデータをインポートする強力な方法の 1 つは、スキーマが一致している複数のファイルを単一の論理テーブルに組み合わせることです。 この記事で説明しているように、この便利で人気のある方法がいっそう強化され、拡張されています。

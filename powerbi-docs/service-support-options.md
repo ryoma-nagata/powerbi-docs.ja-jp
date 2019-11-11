@@ -2,19 +2,18 @@
 title: Power BI Pro と Power BI Premium のサポート オプション
 description: この記事では、Power BI Pro と Power BI Premium のお客様が利用できるサポート オプションについて説明します。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305834"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871406"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro と Power BI Premium のサポート オプション
 
@@ -55,4 +54,4 @@ Power BI の顧客として、プロアクティブ サポート時間に次の�
 
   - **WorkshopPLUS - Data AI: Power BI での高度な Data Analytics** このコースでは、BI 資産の公開や使用のためのクラウド サービスに加え、Power BI Desktop などのツールを使用する Power BI でのデータ モデリングの側面に関する、基本原則を理解し、実装するための知識が提供されます。 このコースでは、レポート開発の基本、コンテンツをカスタム アプリケーションに埋め込むための Power BI での埋め込み分析、リアルタイムのダッシュボード、Power BI でのデータ サイエンスと開発に関連する高度な分析がカバーされます。
 
-詳細については、Microsoft テクニカル アカウント マネージャーにお問い合わせください。 まだ Microsoft Premier サポートを契約していない場合、詳細については、「[プレミア サポート](https://support.microsoft.com/en-us/premier)」をご覧ください。
+詳細については、Microsoft テクニカル アカウント マネージャーにお問い合わせください。 まだ Microsoft Premier サポートを契約していない場合、詳細については、「[プレミア サポート](https://support.microsoft.com/premier)」をご覧ください。

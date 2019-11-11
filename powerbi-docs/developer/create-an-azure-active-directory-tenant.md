@@ -3,18 +3,17 @@ title: Power BI で使用する Azure Active Directory テナントを作成す�
 description: Power BI REST API を呼び出すカスタム アプリケーション用に新しい Azure Active Directory (Azure AD) テナントを作成する方法を説明します。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: 73dddd00b6f811cd29c76c97b04136358d6e6b7a
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 1297341014154267a7e99cbb8b1e85e36e6194b9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809217"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864688"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI で使用する Azure Active Directory テナントを作成する
 
@@ -98,4 +97,4 @@ Azure AD テナントを作成すると、アプリケーションを定義し�
  
 [クイック スタート:開発環境の設定](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

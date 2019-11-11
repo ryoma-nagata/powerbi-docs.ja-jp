@@ -2,7 +2,6 @@
 title: Power BI Desktop におけるデータへの接続
 description: Power BI Desktop におけるデータへの接続
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,15 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a582eb5c160685784c6db497353f92d2dd3d2cf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514078"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878482"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop におけるデータへの接続
-Power BI Desktop を使用すれば、拡大し続けるデータの世界に簡単につながることができます。 Power BI Desktop をお持ちでない場合は、[ダウンロード](http://go.microsoft.com/fwlink/?LinkID=521662)してインストールできます。
+Power BI Desktop を使用すれば、拡大し続けるデータの世界に簡単につながることができます。 Power BI Desktop をお持ちでない場合は、[ダウンロード](https://go.microsoft.com/fwlink/?LinkID=521662)してインストールできます。
 
 Power BI Desktop では、 *あらゆる種類* のデータ ソースを使用できます。 次の図は、 **[ファイル]** リボンで **[データの取得] \> [詳細]** をクリックして行う、データへの接続方法を示しています。
 
@@ -32,7 +31,7 @@ Power BI Desktop では、 *あらゆる種類* のデータ ソースを使用�
 
 いずれの場合も、これらのトピックやその他のトピックに関する興味深いデータを含んだ Web リソースを見つけます。
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 **[データの取得] \> [Web]** をクリックしてから、アドレスを入力します。
 
@@ -75,7 +74,7 @@ Power BI Desktop を使用すると、さまざまなことを行えます。 �
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop での一般的なクエリ タスク](desktop-common-query-tasks.md)   
 
-弊社に対するフィードバックを歓迎いたします。 Power BI Desktop の **[コメントを送信する]** を使うか、[Community Feedback](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) にアクセスしてください。 皆さまからのご意見をお待ちしています。
+弊社に対するフィードバックを歓迎いたします。 Power BI Desktop の **[コメントを送信する]** を使うか、[Community Feedback](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) にアクセスしてください。 皆さまからのご意見をお待ちしています。
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

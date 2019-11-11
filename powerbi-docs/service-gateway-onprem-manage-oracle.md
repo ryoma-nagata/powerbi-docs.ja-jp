@@ -2,7 +2,6 @@
 title: データ ソースの管理 - Oracle
 description: オンプレミス データ ゲートウェイとそのゲートウェイに属しているデータ ソースを管理する方法。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ac116cfb2e3f09ceab6c9f78dba33bc18e847784
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832456"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872457"
 ---
 # <a name="manage-your-data-source---oracle"></a>データ ソースの管理 - Oracle
 
@@ -29,11 +28,11 @@ ms.locfileid: "68832456"
 
 Power BI Desktop の 32 ビット バージョンの場合、次のリンクをクリックして 32 ビット Oracle クライアントをダウンロードし、インストールします。
 
-* [32-bit Oracle Data Access Components (ODAC) with Oracle Developer Tools for Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [32-bit Oracle Data Access Components (ODAC) with Oracle Developer Tools for Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 Power BI Desktop の 64 ビット バージョンまたはオンプレミス データ ゲートウェイの場合は、次のリンクをクリックして 64 ビットの Oracle クライアントをダウンロードしてインストールしてください。
 
-* [64-bit ODAC 12.2c Release 1 (12.2.0.1.0) for Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [64-bit ODAC 12.2c Release 1 (12.2.0.1.0) for Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 クライアントをインストールした後は、データベースの適切な情報で tnsnames.ora ファイルを構成します。 Power BI Desktop とゲートウェイでは、tnsnames.ora ファイルで定義されている net_service_name が使用されます。 net_service_name が構成されていない場合、接続できません。 tnsnames.ora の既定のパスは `[Oracle Home Directory]\Network\Admin\tnsnames.ora` です。 tnsnames.ora ファイルの構成方法の詳細は、「[Oracle:Local naming parameters (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)」 (Oracle: ローカル名パラメーター (tnsnames.ora)) をご覧ください。
 
@@ -132,5 +131,5 @@ Power BI Desktop とゲートウェイ用に構成されているデータ ソ�
 * [ゲートウェイのトラブルシューティング - Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](service-premium.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)で質問してみてください。
+他にわからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
 

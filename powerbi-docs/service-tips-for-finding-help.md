@@ -2,7 +2,6 @@
 title: Power BI の質問のヘルプを得るための 10 のヒント
 description: ここでは、Power BI のしくみについて質問がある場合に、ヘルプを得るための 10 の方法を紹介します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060296"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876945"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI の質問のヘルプを得るための 10 のヒント
 Power BI に関する疑問に対する答えを、必要なときに (つまり、"ジャストインタイム" で) 得られないために、Power BI を使用しながらイライラしたり、苦労したりしていませんか。 
@@ -55,7 +54,7 @@ Power BI チームは、定期的な [Power BI ブログ投稿](https://powerbi.
 * 対面式の「**Dashboard in a Day**」トレーニング セッション。
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7\. Power BI コミュニティ内で質問または検索する
-[Power BI コミュニティ](http://community.powerbi.com)に質問を投稿し、答えを見つけることができます。 世界中の BI の専門家がコミュニティで積極的に活動しています。 このリソースを使用して、専門家の知識を活用してください。
+[Power BI コミュニティ](https://community.powerbi.com)に質問を投稿し、答えを見つけることができます。 世界中の BI の専門家がコミュニティで積極的に活動しています。 このリソースを使用して、専門家の知識を活用してください。
 
 ## <a name="8-join-or-create-a-power-bi-user-group"></a>8\. Power BI ユーザー グループに参加または作成する
 [Power BI ユーザー グループ](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups)に参加し、グループに疑問点を質問して協力を求めることができます。 または、ニーズを重要視した独自のユーザー グループを立ち上げて、互いに協力し合うユーザー コミュニティを作成することもできます (該当する地域、データ、タイムゾーンで)。
@@ -70,5 +69,5 @@ Power BI チームは、定期的な [Power BI ブログ投稿](https://powerbi.
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI とは?](fundamentals/power-bi-overview.md)
-* [Power BI コミュニティ](http://community.powerbi.com/)で質問してみてください。
+* [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。

@@ -3,19 +3,18 @@ title: 政府機関向けクラウドおよび国内クラウド用のアプリ�
 description: Power BI API を使って、アプリケーションに顧客向けの分析情報用のレポート、ダッシュボード、タイルを統合する (埋め込む) 方法について説明します。 政府機関向けクラウドおよび国内クラウド用の埋め込み分析ソフトウェア、埋め込み分析ツール、または埋め込みビジネス インテリジェンス ツールを使って、ご自身のアプリケーションに Power BI を統合する方法について説明します。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: bc6b9cf92966dd9e86e789169b9b8134dbfcb2ba
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 7ede1678dc6cf0e217eb17dcc28f756031467b84
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374321"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875883"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>チュートリアル:Power BI コンテンツを国内クラウド向けアプリケーションに埋め込む
 
@@ -37,7 +36,7 @@ Power BI では[国内クラウド](https://docs.microsoft.com/azure/active-dire
 
 ![埋め込まれたダッシュボード](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-このチュートリアルを開始するには、**Power BI** アカウントが必要です。 アカウントを設定していない場合、政府や国の種類に基づき、適切な国内クラウドを選択できます。 [U. S. Government Power BI アカウント](../service-govus-signup.md)、[Germany Cloud 向け Power BI アカウント](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)、または [China Cloud 向け Power BI アカウント](http://www.21vbluecloud.com/powerbi/)にサインアップできます。
+このチュートリアルを開始するには、**Power BI** アカウントが必要です。 アカウントを設定していない場合、政府や国の種類に基づき、適切な国内クラウドを選択できます。 [U. S. Government Power BI アカウント](../service-govus-signup.md)、[Germany Cloud 向け Power BI アカウント](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)、または [China Cloud 向け Power BI アカウント](https://www.21vbluecloud.com/powerbi/)にサインアップできます。
 
 > [!NOTE]
 > 代わりに組織向けのダッシュボードを埋め込む場合は、 「[ダッシュボードを組織のアプリに統合する](integrate-dashboard.md)」をご覧ください。
@@ -150,7 +149,7 @@ Power BI では[国内クラウド](https://docs.microsoft.com/azure/active-dire
 
 * Government Community Cloud (GCC) - ```https://login.microsoftonline.com```
 
-* Military Contractors (DoDCON) - ```http://login.microsoftonline.us```
+* Military Contractors (DoDCON) - ```https://login.microsoftonline.us```
 
 * Military (DoD) - ```https://login.microsoftonline.us```
 
@@ -445,4 +444,4 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 
 考慮事項と制限事項
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

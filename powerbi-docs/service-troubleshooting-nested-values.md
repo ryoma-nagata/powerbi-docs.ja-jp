@@ -2,7 +2,6 @@
 title: Power BI サービスでテキストとして返される、入れ子になった値のトラブルシューティング
 description: 不適切なデータ ソースのプライバシー設定を使用したときに、文字列に変換される入れ子になった値を修正する方法について説明します
 author: cpopell
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: 61181f9317718b6a4fb1cd73a767e4002b5b27f5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544268"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871285"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Power BI サービスでテキストとして返される、入れ子になった値のトラブルシューティング
 
@@ -24,7 +23,7 @@ ms.locfileid: "72544268"
 
 以前は、Power BI レポートがデスクトップでは正常に更新されたのに、Power BI サービスでは "値 "[Table]" を型 Table に変換できません" のようなエラーが表示されて失敗することがありました。 このエラーの原因の 1 つは、Data Privacy Firewall でデータ ソースがバッファー処理されるときに、入れ子になった非スカラー値 (テーブル、レコード、リスト、関数など) が、自動的にテキスト値 ("[Table]" や "[Record]" など) に変換されることです。
 
-Power BI サービスでプライバシー レベルの設定 (またはファイアウォールの完全な無効化) がサポートされるようになったので、Power BI サービスで[データ ソースのプライバシー設定を非プライベートに構成](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/)することで、このようなエラーを回避できます。
+Power BI サービスでプライバシー レベルの設定 (またはファイアウォールの完全な無効化) がサポートされるようになったので、Power BI サービスで[データ ソースのプライバシー設定を非プライベートに構成](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/)することで、このようなエラーを回避できます。
 
 6 月の Power BI 以降では、ファイアウォールが入れ子になったテーブル/レコード/リストなどの値をサイレント モードでテキストに変換する代わりにバッファー処理すると、次のエラーが生成されます。 
 
@@ -57,4 +56,4 @@ Power BI サービスでプライバシー レベルの設定 (またはファ�
 `if [MyColumn] is table then "[Table]" else if [MyColumn] is record then "[Record]" else if [MyColumn] is list then "[List]" else if [MyColumn] is function then "[Function]" else [MyColumn]`
 
 すべてのデータ ソースのプライバシーの設定をプライベートに設定した場合に、Power BI Desktop で問題が再現しますか。
-その場合は、Power BI サービスで[そのデータ ソースのプライバシー設定を非プライベートに構成する](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/)ことで、エラーを解決できるはずです。
+その場合は、Power BI サービスで[そのデータ ソースのプライバシー設定を非プライベートに構成する](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/)ことで、エラーを解決できるはずです。

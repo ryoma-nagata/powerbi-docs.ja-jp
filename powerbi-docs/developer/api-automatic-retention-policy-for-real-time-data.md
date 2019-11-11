@@ -3,18 +3,17 @@ title: リアルタイム データに対する自動保持ポリシーを使用
 description: Power BI サービスでの自動保持ポリシーについて説明します
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 07726535246f8b115402373c315062151177d27c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e2d81ac67ea5c070f31315a381b42e3a1379a49b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61347351"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865068"
 ---
 # <a name="automatic-retention-policy-for-real-time-data"></a>リアルタイム データの自動保持ポリシー
 

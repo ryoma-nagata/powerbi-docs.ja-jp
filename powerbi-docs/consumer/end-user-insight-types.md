@@ -2,20 +2,19 @@
 title: Power BI でサポートされているインサイトの種類
 description: Power BI でのクイック インサイトと詳細情報の表示。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f754c1164448be88a3269cb8e3d129b63a6115f
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: 75462c2414854d0848254a36b89bcdd1de365ec5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379903"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863481"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI でサポートされているインサイトの種類
 
@@ -32,17 +31,17 @@ Power BI はデータセットのさまざまなサブセットをすばやく�
 ## <a name="category-outliers-topbottom"></a>カテゴリ外れ値 (上/下)
 モデル内のメジャーとして、ディメンションの 1 つまたは 2 つのメンバーが、ディメンションの他のメンバーよりも値がはるかに大きいケースを強調表示します。  
 
-![カテゴリの外れ値の例](./media/end-user-insight-types/pbi_auto_insight_types_category_outliers.png)
+![カテゴリの外れ値の例](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
 
 ## <a name="change-points-in-a-time-series"></a>時系列の変更点
 データの時系列の傾向で、大きな変化があったときに強調表示します。
 
-![時系列の変更点の例](./media/end-user-insight-types/pbi_auto_insight_types_changepoint.png)
+![時系列の変更点の例](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
 ## <a name="correlation"></a>相関関係
 データセット内のディメンションに対してプロットした場合に、複数のメジャーで相互の相関関係が示されるケースを検出します。
 
-![相関関係の例](./media/end-user-insight-types/pbi_auto_insight_types_correlation.png)
+![相関関係の例](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ## <a name="low-variance"></a>低差異
 データ ポイントが平均から離れていないケースを検出します。
@@ -52,30 +51,30 @@ Power BI はデータセットのさまざまなサブセットをすばやく�
 ## <a name="majority-major-factors"></a>マジョリティ (主要因子)
 別のディメンションによって分類した場合に、合計値の大部分が単一の因子に帰する可能性があるケースを検索します。  
 
-![主な要因の例](./media/end-user-insight-types/pbi_auto_insight_types_majority.png)
+![主な要因の例](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
 
 ## <a name="overall-trends-in-time-series"></a>時系列の全体的な傾向
 時系列データの上昇または下降の傾向を検出します。
 
-![時系列の全体的な傾向の例](./media/end-user-insight-types/pbi_auto_insight_types_trend.png)
+![時系列の全体的な傾向の例](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
 
 ## <a name="seasonality-in-time-series"></a>時系列の周期性
 週単位、月単位、または年単位の周期性などの時系列データの定期的なパターンを見つけます。
 
-![周期性の例](./media/end-user-insight-types/pbi_auto_insight_types_seasonality_new.png)
+![周期性の例](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ## <a name="steady-share"></a>安定した共有
 連続した変数にわたる親の全体の値に関連して、子の値のシェア間に親子の相関関係があるケースを強調表示します。
 
-![安定した共有の例](./media/end-user-insight-types/pbi_auto_insight_types_steadyshare.png)
+![安定した共有の例](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 
 ## <a name="time-series-outliers"></a>時系列外れ値
 時系列全体にわたるデータに対して、その他の日付/時刻値と大きく異なる値を持つ特定の日付や時刻がある場合を検出します。
 
-![時系列外れ値の例](./media/end-user-insight-types/pbi_auto_insight_types_time_series_outliers.png)
+![時系列外れ値の例](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
 
 ## <a name="next-steps"></a>次の手順
 [Power BI のインサイト](end-user-insights.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

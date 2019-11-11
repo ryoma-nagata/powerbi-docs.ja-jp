@@ -2,19 +2,18 @@
 title: Surface Hub および Windows 10 でプレゼンテーション モードを表示する - Power BI
 description: Surface Hub で Power BI レポートを表示する方法と、Windows 10 デバイスで Power BI のダッシュボード、レポート、タイルを全画面表示モードで表示する方法について説明します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61338259"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869545"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub と Windows 10 デバイスで、プレゼンテーション モードでレポートとダッシュボードを表示する
 Windows 10 デバイスと Surface Hub で、プレゼンテーション モードを使用し、レポートとダッシュボードを全画面表示できます。 
@@ -54,5 +53,5 @@ Power BI モバイル アプリで **[全画面表示]** アイコンをタッ�
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI サービスから全画面表示モードでダッシュボードとレポートを表示する](../end-user-focus.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

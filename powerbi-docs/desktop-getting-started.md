@@ -2,7 +2,6 @@
 title: Power BI Desktop の概要
 description: Power BI Desktop の概要
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70201014"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868014"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop の概要
 「**Power BI Desktop 概要ガイド**」へようこそ。 この短いツアーでは、Power BI Desktop の機能を説明し、その動作の実例を示します。これにより、強力なデータ モデルと優れたレポートをより迅速に作成できるようになり、ビジネス インテリジェンスの作業を拡張できます。 
 
-読むよりも見ることをご希望ですか。 [概要を示すビデオをどうぞご覧ください](desktop-videos.md)。 ビデオを閲覧しながら対応するサンプル データも参照する場合は、[このサンプルの Excel ブックをダウンロード](http://go.microsoft.com/fwlink/?LinkID=521962)します。
+読むよりも見ることをご希望ですか。 [概要を示すビデオをどうぞご覧ください](desktop-videos.md)。 ビデオを閲覧しながら対応するサンプル データも参照する場合は、[このサンプルの Excel ブックをダウンロード](https://go.microsoft.com/fwlink/?LinkID=521962)します。
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
@@ -88,7 +87,7 @@ Power BI Desktop をインストールすると、拡大を続けるデータの
 
 いずれの場合も、次の Web リソースには、これらのトピックやその他のトピックに関する興味深いデータが含まれています。
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 **[データの取得] \> [Web]** を選んで、アドレスを貼り付けます。
 
@@ -158,7 +157,7 @@ Web のデータ ソースに接続して検索した退職者関係のデータ
 
 幸運にも、ぴったりな別の公共データ ソースがあります。しかし、この退職者テーブルに接続する前に、いくらかの整形を行う必要があります。 州の省略形の Web リソースを次に示します。
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 **クエリ エディター**の **[ホーム]** リボンで、 **[データの取得] \> [Web]** の順に選び、アドレスを入力して **[OK]** を選びます。その Web ページの内容が **[ナビゲーター]** ウィンドウに表示されます。
 

@@ -2,7 +2,6 @@
 title: コンシューマー向け Power BI でのビジュアルの種類
 description: Power BI サービスでのビジュアルの種類
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302502"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861320"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI でのビジュアルの種類
 レポート、ダッシュボード、Q&A でビジュアルを見つけることができます。 これらのビジュアルの種類には、Power BI でパッケージ化されているものと、"*カスタム ビジュアル*" として作成されているものがあります。 カスタム ビジュアルは、Power BI の外部で作成され、レポート "*デザイナー*" でそれを Power BI のレポートとダッシュボードに追加できるようになっています。 
@@ -232,4 +231,4 @@ Power BI の Q&A で自然言語クエリを入力するときに、クエリ内
 
 ## <a name="next-steps"></a>次の手順
 [レポート、ダッシュボード、アプリでビジュアルを操作する](end-user-visualizations.md)    
-[sqlbi.com の正しい視覚エフェクト参照](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[sqlbi.com の正しい視覚エフェクト参照](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

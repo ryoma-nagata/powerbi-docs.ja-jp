@@ -2,7 +2,6 @@
 title: プレビュー機能のオプトイン
 description: プレビュー段階の Power BI の機能を有効および無効にする方法です。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b2d658daade3ab1aa2a1c09dc33c0e7d48636910
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5189c92c9da29b38d9ffaa4bf59e271e08fc4b2c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141506"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862712"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI サービスのプレビュー機能のオプトイン
 ## <a name="what-are-preview-features"></a>*プレビュー機能* とは
@@ -34,5 +33,5 @@ Power BI サービスの機能向上を行ったときは、新しい機能を*�
 4. プレビュー機能を無効にするには、上記の手順 1 から 3 までを行うとき、手順 3 で、 **[オフ]** を選択するか、チェックボックスをオフにして **[適用]** を選択します。
 
 
-質問やフィードバックがある場合は、 [Power BI のコミュニティ フォーラムを利用してください](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)。
+質問やフィードバックがある場合は、 [Power BI のコミュニティ フォーラムを利用してください](https://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)。
 

@@ -3,19 +3,18 @@ title: Power BI のセキュリティ
 description: Power BI のセキュリティ。 Power BI を Azure Active Directory や他の Azure サービスと関連付ける方法。 このトピックには、さらに詳しい情報が記載されたホワイト ペーパーへのリンクも含まれます。
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: a5dac73fd2555b0ae53b0618dbc10f831db1149b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074709"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873493"
 ---
 # <a name="power-bi-security"></a>Power BI のセキュリティ
 
@@ -46,7 +45,7 @@ Power BI では、データの格納と管理に 2 つの主要なリポジト�
 
 ## <a name="user-authentication"></a>ユーザーの認証
 
-Power BI では、Power BI サービスにサインインするユーザーを Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) を使用して認証します。その後、認証が必要なリソースにユーザーがアクセスしようとするたびに、Power BI ログイン資格情報が使用されます。 ユーザーは、Power BI アカウントを確立するために使用されたメール アドレスを使って、Power BI サービスにサインインします。Power BI ではそのログイン メールを*有効なユーザー名*として使用します。このユーザー名は、ユーザーがデータに接続しようとするたびにリソースに渡されます。 その後、*有効なユーザー名*は*ユーザー プリンシパル名* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) にマップされ、認証の適用対象となる、関連付けられた Windows ドメイン アカウントに解決されます。
+Power BI では、Power BI サービスにサインインするユーザーを Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) を使用して認証します。その後、認証が必要なリソースにユーザーがアクセスしようとするたびに、Power BI ログイン資格情報が使用されます。 ユーザーは、Power BI アカウントを確立するために使用されたメール アドレスを使って、Power BI サービスにサインインします。Power BI ではそのログイン メールを*有効なユーザー名*として使用します。このユーザー名は、ユーザーがデータに接続しようとするたびにリソースに渡されます。 その後、*有効なユーザー名*は*ユーザー プリンシパル名* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) にマップされ、認証の適用対象となる、関連付けられた Windows ドメイン アカウントに解決されます。
 
 Power BI のログインに職場の電子メール (<em>david@contoso.com</em> など) を使用する組織では、"*有効なユーザー名*" から UPN へのマッピングは簡単です。 Power BI のログインに職場の電子メール (<em>david@contoso.onmicrosoft.com</em> など) を使用しない組織では、AAD とオンプレミスの資格情報との間のマッピングが適切に機能するために、[ディレクトリ同期](https://technet.microsoft.com/library/jj573653.aspx)が必要になります。
 

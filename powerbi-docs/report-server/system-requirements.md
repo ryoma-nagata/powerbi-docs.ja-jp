@@ -3,18 +3,17 @@ title: Power BI レポート サーバーをインストールするためのハ
 description: この記事では、Power BI Report Server をインストールして実行するためのハードウェアとソフトウェアの最小要件について説明します。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/23/2019
-ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: aeb47f7f2a6e2de7c8c5095561819367ab16a7e9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415355"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873934"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件
 
@@ -24,7 +23,7 @@ ms.locfileid: "68415355"
 
 | コンポーネント | 要件 |
 | --- | --- |
-| .NET Framework |4.6<br><br>.NET Framework は、「[Microsoft .NET Framework 4.6 (Web Installer) for Windows](http://support.microsoft.com/kb/3045560)」(Windows 用 Microsoft.NET Framework 4.6 (Web インストーラー)) から手動でインストールできます。<br/><br/> .NET Framework 4.6 の詳細情報、推奨事項、およびガイダンスについては、「[.NET Framework 配置ガイド (開発者向け)](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)」をご覧ください。<br/><br/>Windows 8.1 および Windows Server 2012 R2 では、.NET Framework 4.6 をインストールする前に、[KB2919355](http://support.microsoft.com/kb/2919355) をインストールする必要があります。 |
+| .NET Framework |4.6<br><br>.NET Framework は、「[Microsoft .NET Framework 4.6 (Web Installer) for Windows](https://support.microsoft.com/kb/3045560)」(Windows 用 Microsoft.NET Framework 4.6 (Web インストーラー)) から手動でインストールできます。<br/><br/> .NET Framework 4.6 の詳細情報、推奨事項、およびガイダンスについては、「[.NET Framework 配置ガイド (開発者向け)](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)」をご覧ください。<br/><br/>Windows 8.1 および Windows Server 2012 R2 では、.NET Framework 4.6 をインストールする前に、[KB2919355](https://support.microsoft.com/kb/2919355) をインストールする必要があります。 |
 | ハード ディスク |Power BI レポート サーバーには、最低 1 GB の使用可能なハード ディスク空き領域が必要です。<br><br>レポート サーバーのデータベースをホストしているデータベース サーバーには、追加の領域が必要です。 |
 | メモリ |**最小:** 1 GB<br/><br/> **推奨:** 4 GB 以上 |
 | プロセッサ速度 |**最低:** x64 プロセッサ:1.4 GHz<br/><br/> **推奨:** 2.0 GHz 以上 |
@@ -50,7 +49,7 @@ SQL Server は、レポート サーバー データベースをホストする�
 
 Power BI レポート サーバーは、既定値をインストールして、レポート サーバーの動作に必要なコア設定を構成します。 次の要件があります。
 
-* Power BI Report Server でサポートされている言語は、英語、ドイツ語、スペイン語、日本語、イタリア語、フランス語、ロシア語、簡体字中国語、繁体字中国語、ポルトガル語 (ブラジル)、韓国語です
+* Power BI Report Server でサポートされている言語は、英語、ドイツ語、スペイン語、日本語、イタリア語、フランス語、ロシア語、簡体中国語、繁体中国語、ポルトガル語 (ブラジル)、韓国語です
 * セットアップが終了した後、レポート サーバー用にデータベースを構成する前に、SQL Server データベース エンジンを使用できる状態にする必要があります。 データベース エンジンのインスタンスは、Reporting Services Configuration Manager が作成するレポート サーバー データベースをホストします。 データベース エンジンは、実際のセットアップ エクスペリエンスには必要ありません。
 * 「[SQL Server 2016 の各エディションがサポートする Reporting Services の機能](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)」では、SQL Server のエディション間の違いについて説明されています。
 * セットアップを実行するユーザー アカウントは、ローカル Administrators グループのメンバーである必要があります。
@@ -77,6 +76,6 @@ Power BI レポート サーバーは、既定値をインストールして、�
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) のダウンロード](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

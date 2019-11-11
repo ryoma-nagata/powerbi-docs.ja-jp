@@ -2,19 +2,18 @@
 title: Power BI レポート サーバーのブラウザーのサポート
 description: Power BI レポート サーバーとレポート ビューアー コントロールで管理および表示するためにサポートされているブラウザーのバージョンについて説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 5a2ca653a06efbde161899602536b05c8f6ab666
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769776"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874309"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI レポート サーバーのブラウザーのサポート
 Power BI レポート サーバーとレポート ビューアー コントロールで管理および表示するためにサポートされているブラウザーのバージョンについて説明します。
@@ -115,7 +114,7 @@ Your browser does not support scripts or has been configured to not allow script
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) のダウンロード](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

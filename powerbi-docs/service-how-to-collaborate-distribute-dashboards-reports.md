@@ -3,19 +3,18 @@ title: Power BI で作業を共有する方法
 description: Power BI では、ダッシュボード、レポート、タイル、アプリに対してさまざまな方法で共同作業を行い、共有できます。 それぞれの方法に利点があります。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841760"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881340"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI で作業を共有する方法
 
@@ -135,4 +134,4 @@ Power BI サービスの **[SharePoint Online に埋め込む]** および **[�
 
 ご意見およびご提案がある場合は、 [Power BI コミュニティ サイト](https://community.powerbi.com/)をご利用ください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

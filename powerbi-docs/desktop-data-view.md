@@ -2,7 +2,6 @@
 title: Power BI Desktop のデータ ビュー
 description: Power BI Desktop のデータ ビュー
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454475"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876369"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop のデータ ビュー
 **データ ビュー**は、**Power BI Desktop** モデル内のデータを検査、調査、理解するのに役立ちます。 これは、**クエリ エディター**内のテーブル、列、データの表示方法とは異なります。 データ ビューには、モデルに読み込まれた *後* のデータが表示されます。

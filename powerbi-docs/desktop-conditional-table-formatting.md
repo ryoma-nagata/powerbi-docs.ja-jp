@@ -2,7 +2,6 @@
 title: Power BI Desktop での条件付きテーブルの書式設定
 description: テーブルへのカスタマイズされた書式の適用
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 14bddde618d4ef623fb91593a6a62cdb5be851a6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543998"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876610"
 ---
 # <a name="conditional-formatting-in-tables"></a>テーブルでの条件付き書式設定 
 テーブルで条件付き書式を使用するときに、グラデーションを使用するなど、セルの値または他の値やフィールドに基づいてカスタマイズされたセルの色を指定できます。 セルの値と共にデータ バーも表示できます。 

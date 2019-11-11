@@ -2,7 +2,6 @@
 title: Cortana 用にカスタムの Power BI 回答ページを作成する
 description: Power BI で Cortana 用のカスタム回答ページを作成する
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 06f155676dffa7b5f87ce61a8b342708793ef2c6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375239"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853743"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Power BI サービスまたは Power BI Desktop を使用して Cortana のカスタム回答ページを作成する
 Power BI のすべての機能を使って、Cortana の質問に回答するために特別に設計された *Cortana 回答ページ* (*Cortana 回答カード*と呼ばれることもあります) と呼ばれる特別なレポート ページを作成できます。
 
 > [!IMPORTANT]
-> Power BI で Cortana の統合は非推奨です。 6 月 11 日以降、任意のダッシュ ボードとレポートの Cortana は動作しなくします。
+> Cortana の統合は Power BI では非推奨になります。 6 月 11 日以降、すべてのダッシュボードとレポートで Cortana が動作しなくなります。
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
@@ -96,5 +95,5 @@ Cortana for Power BI を設定し、利用するための 4 つのガイドが�
 
 まだ Power BI で Cortana を使うことができない場合は、  「[Cortana troubleshooter](service-cortana-troubleshoot.md)」 (Power BI 用 Cortana のトラブルシューティング) を試してください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

@@ -2,7 +2,6 @@
 title: Power BI でのマトリックス ビジュアルの使用
 description: Power BI でマトリックス ビジュアルを使用して、ステップのレイアウトと詳細の強調表示を有効にする方法について説明します。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0015921990bb35a7ac5e6652b018ef16485e5b9c
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: f37bbbb51176624cd2d1562e5d89de43facf3b43
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164680"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876874"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>Power BI でのマトリックス ビジュアルの使用
 

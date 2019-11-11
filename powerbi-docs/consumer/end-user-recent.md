@@ -2,7 +2,6 @@
 title: Power BI サービスで最近表示したコンテンツを表示する
 description: Power BI の最近のドキュメント
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bae340f89b10253920f8e22d02b4b78c23fa2dd9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256255"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862425"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI サービスの "**最近**" のコンテンツ
 最近のコンテンツとは、Power BI サービスで最近表示した最大 20 個のアイテムです。  これには、ダッシュボード、レポート、アプリ、ブックが含まれます。
@@ -53,5 +52,5 @@ Amanda による Power BI サービスの **[最近]** コンテンツの一覧�
 ## <a name="next-steps"></a>次の手順
 [Power BI サービス アプリ](end-user-apps.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

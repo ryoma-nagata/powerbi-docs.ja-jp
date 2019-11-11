@@ -2,7 +2,6 @@
 title: Power BI での DirectQuery と SAP Business Warehouse (BW)
 description: SAP Business Warehouse (BW) で DirectQuery を使用する場合の考慮事項
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ffff443716f11101347debd97f28349afc3904bb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61304423"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876322"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery と SAP Business Warehouse (BW)
 **SAP Business Warehouse (BW)** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP BW は OLAP/多次元的な性質があるため、SAP BW での DirectQuery と SQL Server などのリレーショナル ソース間では多数の重要な違いがあります。 これらの相違点は次のとおりです。

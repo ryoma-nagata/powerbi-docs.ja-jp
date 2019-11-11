@@ -2,7 +2,6 @@
 title: 色の書式設定と軸のプロパティの概要
 description: 色の書式設定と軸のプロパティの概要
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 340e32d6d3b29e266d81253378feb4266c01d000
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a01598bda6520bbf0bf82175ab4256cf7d529e84
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389935"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880697"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>色の書式設定と軸のプロパティの概要
 **Power BI** では、データ系列、データ ポイント、そして視覚化の背景の色も変更できます。 また X 軸と Y 軸の表示方法を変更することもでき、ダッシュボードとレポートの表示方法を完全に制御できます。

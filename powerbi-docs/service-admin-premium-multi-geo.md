@@ -3,19 +3,18 @@ title: Power BI Premium の Multi-Geo のサポート
 description: Power BI テナントのホーム リージョン以外のリージョンにあるデータセンターにコンテンツを展開する方法について説明します。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f29ce1ce05db80378eee81293d92484fb4f58f45
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 129cef8a923b27582bd6424c8d025b93ecbe5532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665406"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873457"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium の Multi-Geo のサポートを構成する
 
@@ -102,4 +101,4 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 - [Power BI Premium とは何ですか?](service-premium-what-is.md)
 - [Power BI Embedded の容量に対する Multi-Geo](developer/embedded-multi-geo.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

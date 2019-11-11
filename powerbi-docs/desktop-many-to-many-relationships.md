@@ -2,7 +2,6 @@
 title: Power BI Desktop で多対多のリレーションシップ
 description: Power BI Desktop で多対多カーディナリティのリレーションシップを使用します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 578d5f77753884575111b3247f5aa4d3ae79e179
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65941440"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866811"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Power BI Desktop での多対多カーディナリティのリレーションシップ
 
@@ -147,7 +146,7 @@ Power BI Desktop では、いずれのテーブルにもリレーションシッ
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
-* Power BI データ セット
+* Power BI データセット
 * Azure Analysis Services
 
 DirectQuery を使用してこれらの多次元ソースに接続すると、別の DirectQuery ソースに接続することも、これをインポートしたデータと結合することもできません。

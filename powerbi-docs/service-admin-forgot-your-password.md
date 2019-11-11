@@ -2,7 +2,6 @@
 title: Power BI のパスワードを忘れた場合
 description: パスワードを忘れた場合は、パスワードのリセットを要求するリンクを使用できます。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6b3e75b9674a8b22948bdee1b8f8b9086eb2b691
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c4e13871e7ebf432e1478eb8d524f466bed9f0bc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075177"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873614"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Power BI のパスワードを忘れた場合
 
@@ -34,4 +33,4 @@ ms.locfileid: "71075177"
 > [!NOTE]
 > Power BI では、東部標準時 (EST) タイム ゾーンの通常の営業時間中にサポートが提供されます。 現在、サポートは英語でのみ提供されています。
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

@@ -2,7 +2,6 @@
 title: Power BI Desktop とは何ですか?
 description: Power BI Desktop は何かと、その使用を開始する方法について説明します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 01e5effcf5f72dd110005815e2ba86c9a6731a70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141979"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865147"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop とは何ですか?
 
@@ -46,7 +45,7 @@ Power BI Desktop には、キャンバスの左側に表示される 3 つのビ
 **Power BI Desktop** を使用すると、複数のソースのすべてのデータを組織内の他のユーザーと共有できる 1 つのレポートにまとめた、複雑で視覚的にリッチなレポートを作成できます。 
 
 ## <a name="connect-to-data"></a>データへの接続
-**Power BI Desktop** を使用するための最初の手順は、データに接続することです。 **Power BI Desktop** から接続できるデータ ソースには、たくさんの種類があります。 データに接続するには、**[ホーム]** リボンを選択し、**[データの取得] > [さらに表示]** を選択します。 次の図は、Power BI Desktop が接続できる多数のカテゴリを表示している **[データの取得]** ウィンドウを示しています。
+**Power BI Desktop** を使用するための最初の手順は、データに接続することです。 **Power BI Desktop** から接続できるデータ ソースには、たくさんの種類があります。 データに接続するには、 **[ホーム]** リボンを選択し、 **[データの取得] > [さらに表示]** を選択します。 次の図は、Power BI Desktop が接続できる多数のカテゴリを表示している **[データの取得]** ウィンドウを示しています。
 
 ![Power BI Desktop でデータを取得する](media/desktop-what-is-desktop/what-is-desktop_02.png)
 
@@ -76,7 +75,7 @@ Power BI Desktop で、組み込みの**クエリ エディター**使用して�
 
 ![Power BI Desktop のビジュアル](media/desktop-what-is-desktop/what-is-desktop_04.png)
 
-Power BI Desktop から選択できるビジュアルには、さまざまな種類があります。 ビジュアルを作成または変更するには、**[視覚化]** ウィンドウからビジュアル アイコンを選択するだけです。 レポート キャンバスに選択済みのビジュアルがある場合は、選択済みのビジュアルがたった今選択した種類に変更されます。 ビジュアルが選択されていなければ、選択に基づいて新しいビジュアルが作成されます。
+Power BI Desktop から選択できるビジュアルには、さまざまな種類があります。 ビジュアルを作成または変更するには、 **[視覚化]** ウィンドウからビジュアル アイコンを選択するだけです。 レポート キャンバスに選択済みのビジュアルがある場合は、選択済みのビジュアルがたった今選択した種類に変更されます。 ビジュアルが選択されていなければ、選択に基づいて新しいビジュアルが作成されます。
 
 ![Power BI Desktop の [視覚化] ウィンドウ](media/desktop-what-is-desktop/what-is-desktop_05.png)
 
@@ -100,4 +99,4 @@ Power BI Desktop から選択できるビジュアルには、さまざまな種
 **Power BI Desktop** の使用を開始するには、まず、アプリケーションをダウンロードしてインストールする必要があります。 **Power BI Desktop** の取得方法は 2 つあります。
 
 * [Web から Power BI Desktop をダウンロードする](desktop-get-the-desktop.md)
-* [Windows ストアから Power BI Desktop を取得する](http://aka.ms/pbidesktopstore)
+* [Windows ストアから Power BI Desktop を取得する](https://aka.ms/pbidesktopstore)

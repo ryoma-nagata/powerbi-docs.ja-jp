@@ -2,7 +2,6 @@
 title: Power BI Desktop ファイルから作成されたデータセットを更新する
 description: ローカル ドライブの Power BI Desktop ファイルから作成されたデータセットを更新する
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/04/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 58727627656a3cb22ad7fce626d0c7e6ce746440
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: b96163b433998ad92860ad6c234aac4126cf5486
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816485"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874379"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>ローカル ドライブの Power BI Desktop ファイルから作成されたデータセットを更新する
 
@@ -51,7 +50,7 @@ Power BI では、[データの取得]/[クエリ エディター] を使って�
 
 ## <a name="how-do-i-schedule-refresh"></a>更新のスケジュール方法
 
-更新スケジュールを設定する際、Power BI はデータセットの接続情報と資格情報を使用して直接データ ソースに接続し、データの更新がないかを問い合わせ、更新されたデータをデータセットに読み込みます。 Power BI サービスのデータセットに基づくレポートおよびダッシュボードのすべての視覚エフェクトも更新されます。
+更新スケジュールを設定した場合、Power BI はデータセットの接続情報と資格情報を使用して直接データ ソースに接続し、更新されたデータについて照会し、更新済みのデータをデータセットに読み込みます。 Power BI サービスのデータセットに基づくレポートおよびダッシュボードのすべての視覚エフェクトも更新されます。
 
 更新のスケジュールを設定する方法について詳しくは、「[スケジュールされた更新の構成](refresh-scheduled-refresh.md)」をご覧ください。
 
@@ -68,5 +67,5 @@ Power BI では、[データの取得]/[クエリ エディター] を使って�
 - [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)
 - [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

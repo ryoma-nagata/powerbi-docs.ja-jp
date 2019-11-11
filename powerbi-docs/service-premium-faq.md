@@ -3,25 +3,24 @@ title: Power BI Premium のよく寄せられる質問
 description: Power BI Premium プランについてよく寄せられる質問とその回答の一覧です。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f7d23c291e77ebacd3ed19a14ed7ce2921da5673
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 31335f01bd91355587634afbde9a10df5689226b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073328"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881186"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium のよく寄せられる質問
 
 この記事では、Power BI Premium についてよく寄せられる質問を取り上げます。 概要については、「[Microsoft Power BI Premium とは何ですか?](service-premium-what-is.md)」を参照してください。
 
-* 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* 他の質問がある場合は、[Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。
 
 **Power BI Premium とは何ですか?**  

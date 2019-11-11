@@ -2,7 +2,6 @@
 title: Power BI Desktop レポートでグリッド線と "グリッドにスナップ" を使用する
 description: Power BI Desktop レポートで、グリッド線、グリッドへのスナップ、重ね順、配置、および分布を使用する
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b304a917e2b3e09e93f7f01b3b31d75023777bb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b7be8601a535843fc012cf7ea0f2ae723ea6ba79
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454316"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878213"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Power BI Desktop レポートでグリッド線と "グリッドにスナップ" を使用する
 **Power BI Desktop** のレポート キャンバスには、グリッド線と "グリッドにスナップ" 機能が提供されました。グリッド線を使用すると、レポート上でビジュアルを一直線に並べることができます。また、"グリッドにスナップ" 機能を使用すると、レポート内のビジュアルがきれいに揃えられ、間隔が均等に見えるようになります。

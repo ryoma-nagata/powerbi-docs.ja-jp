@@ -3,18 +3,17 @@ title: Power BI Report Server 用の REST API を使って開発する
 description: REST API を使うと、Power BI Report Server カタログ内のオブジェクトにプログラムでアクセスできます。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 8f35b7a3c19751b4537a49fa8cb30f4347f080ed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770748"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874074"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Report Server 用の REST API を使って開発する
 
@@ -41,7 +40,7 @@ REST API の要求/応答ペアは、5 つのコンポーネントに分ける�
 * 省略可能な HTTP **要求メッセージ本文**のフィールド。URI および HTTP 操作をサポートするためのフィールドです。 たとえば、POST 操作には、複雑なパラメーターとして渡される、MIME でエンコードされたオブジェクトが含まれます。 POST または PUT 操作の場合、本文の MIME エンコードの種類を、`Content-type` 要求ヘッダーでも指定する必要があります。 一部のサービスでは、`application/json` などの特定の MIME の種類を使う必要があります。
 * HTTP **応答メッセージ ヘッダー**のフィールド:
   
-  * [HTTP 状態コード](http://www.w3.org/Protocols/HTTP/HTRESP.html)。成功コードの 2xx から、エラー コードの 4xx または 5xx までの範囲です。 または、API のドキュメントに記載されているように、サービスで定義された状態コードが返されることもあります。
+  * [HTTP 状態コード](https://www.w3.org/Protocols/HTTP/HTRESP.html)。成功コードの 2xx から、エラー コードの 4xx または 5xx までの範囲です。 または、API のドキュメントに記載されているように、サービスで定義された状態コードが返されることもあります。
   * 省略可能な追加ヘッダー フィールド。要求の応答をサポートするために必要です (`Content-type` 応答ヘッダーなど)。
 * 省略可能な HTTP **応答メッセージ本文**のフィールド。
   
@@ -53,7 +52,7 @@ REST API の要求/応答ペアは、5 つのコンポーネントに分ける�
 
 ## <a name="testing-api-calls"></a>API 呼び出しのテスト
 
-HTTP 要求/応答メッセージをテストするためのツールは [Fiddler](http://www.telerik.com/fiddler) です。 Fiddler は、REST 要求をインターセプトできる無料の Web デバッグ プロキシであり、HTTP 要求/応答メッセージの診断が容易になります。
+HTTP 要求/応答メッセージをテストするためのツールは [Fiddler](https://www.telerik.com/fiddler) です。 Fiddler は、REST 要求をインターセプトできる無料の Web デバッグ プロキシであり、HTTP 要求/応答メッセージの診断が容易になります。
 
 ## <a name="next-steps"></a>次の手順
 

@@ -2,7 +2,6 @@
 title: Power Query エディターで R を使用する
 description: Power BI Desktop クエリ エディターで R を使用し、高度な分析を行う
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841517"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877940"
 ---
 # <a name="use-r-in-query-editor"></a>クエリ エディターで R を使用する
 
@@ -50,7 +49,7 @@ R 環境に [**mice** ライブラリ](https://www.rdocumentation.org/packages/m
 
 **クエリ エディター**で **R** を使用する方法を示すために、.csv ファイルに含まれているサンプル株式市場データセットを使用して、次の手順を行います。
 
-1. [**EuStockMarkets_NA.csv** ファイルをダウンロードします](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)。 ファイルを保存した場所を忘れないようにします。
+1. [**EuStockMarkets_NA.csv** ファイルをダウンロードします](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)。 ファイルを保存した場所を忘れないようにします。
 
 1. **Power BI Desktop** にファイルを読み込みます。 **[ホーム]** リボンで、 **[データの取得] > [テキスト/CSV]** を選択します。
 
@@ -108,7 +107,7 @@ R 環境に [**mice** ライブラリ](https://www.rdocumentation.org/packages/m
 完成したすべてのビジュアルを 1 つの **Power BI Desktop** .pbix ファイルに保存し、データ モデルとその R スクリプトを Power BI サービスで使用することができます。
 
 > [!NOTE]
-> これらの手順をすべて完了した [.pbix ファイルをダウンロード](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix)できます。
+> これらの手順をすべて完了した [.pbix ファイルをダウンロード](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix)できます。
 
 Power BI サービスに .pbix ファイルをアップロードしたら、サービス データ更新と更新されたビジュアルを有効にするために、追加の手順を行う必要があります。  
 
