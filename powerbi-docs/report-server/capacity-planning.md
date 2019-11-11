@@ -2,19 +2,18 @@
 title: Power BI Report Server のキャパシティ プランニング ガイダンス
 description: このホワイト ペーパーでは、さまざまなワークロードのロード テストを実行した結果を示し、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。
 author: parthsha
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 3631c814876c5fbb14fa2bab376b212137858b2a
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: c286e921c47b46c20cd73d4b32146093adc74d7f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946132"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860118"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server のキャパシティ プランニング ガイダンス
 Power BI Report Server はセルフ サービスの BI およびエンタープライズ レポート ソリューションであり、ユーザーはファイアウォールの内側のオンプレミスに展開できます。 Power BI Desktop の対話型レポート機能と、SQL Server Reporting Services のオンプレミスのサーバー プラットフォームが組み合わされています。 企業では分析とレポートが大量に使用され、さらに増え続けており、エンタープライズ ユーザー ベースへの拡張に必要なハードウェア インフラストラクチャやソフトウェア ライセンスの予算が問題になる場合があります。 このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 レポート、クエリ、使用のパターンは組織によって大きく異なりますが、ここで示す結果と、実際に使われたテストおよび実行方法の詳細な説明は、Power BI Report Server の展開の早期計画プロセスで参考になります。
@@ -114,7 +113,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 ### <a name="1-topology"></a>1 トポロジ
 **1.1 Power BI Report Server のトポロジ**
 
-異なる構成での Power BI Report Server の動作にのみ注目するため、各マシンの種類 (Power BI Report Server をホストしているマシンを除きます) の VM の構成は固定にしました。 各マシンを、Premium Storage ディスクを使う第 2 世代 (v2) D シリーズ マシンに従ってプロビジョニングしました。 各 VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/ ) を参照してください。
+異なる構成での Power BI Report Server の動作にのみ注目するため、各マシンの種類 (Power BI Report Server をホストしているマシンを除きます) の VM の構成は固定にしました。 各マシンを、Premium Storage ディスクを使う第 2 世代 (v2) D シリーズ マシンに従ってプロビジョニングしました。 各 VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/) を参照してください。
 
 | 仮想マシンの種類 | プロセッサ | メモリ | Azure VM のサイズ |
 | --- | --- | --- | --- |
@@ -124,7 +123,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 
 **1.2 Power BI Report Server の仮想マシンの構成** 
 
-Power BI Report Server をホストする仮想マシンには、異なる構成のプロセッサとメモリを使いました。 他の VM とは異なり、このマシンは、Premium Storage ディスクを使う第 3 世代 (v3) D シリーズ マシンに従ってプロビジョニングしました。 この VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/ ) を参照してください。
+Power BI Report Server をホストする仮想マシンには、異なる構成のプロセッサとメモリを使いました。 他の VM とは異なり、このマシンは、Premium Storage ディスクを使う第 3 世代 (v3) D シリーズ マシンに従ってプロビジョニングしました。 この VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/) を参照してください。
 
 | 仮想マシン | プロセッサ | メモリ | Azure VM のサイズ |
 | --- | --- | --- | --- |
@@ -134,10 +133,10 @@ Power BI Report Server をホストする仮想マシンには、異なる構成
 ### <a name="2-run-the-loadtest-tool"></a>2 LoadTest ツールの実行
 Power BI Report Server のオンプレミスの展開または Microsoft Azure の展開に対して Reporting Services LoadTest ツールを実行する場合は、以下の手順のようにします。
 
-1. GitHub から Reporting Services LoadTest プロジェクトを複製します (https://github.com/Microsoft/Reporting-Services-LoadTest) 。
+1. GitHub から Reporting Services LoadTest プロジェクトを複製します (https://github.com/Microsoft/Reporting-Services-LoadTest)。
 2. プロジェクト ディレクトリで、RSLoadTests.sln という名前のソリューション ファイルを探します。 Visual Studio 2015 以降でこのファイルを開きます。
 3. Power BI Report Server のオンプレミスの展開または Microsoft Azure での展開のどちらに対してこのツールを実行するかを決定します。 独自の展開に対して実行する場合は、手順 5 に進みます。
-4. [https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure](https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure ) の指示に従って、Azure に Power BI Report Server 環境を作成します。
+4. [https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure](https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure) の指示に従って、Azure に Power BI Report Server 環境を作成します。
 5. 環境のデプロイが完了したら、 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution の指示に従って、テストを実行します。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

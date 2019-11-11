@@ -3,18 +3,17 @@ title: テーブルに行を追加する
 description: データをプッシュするチュートリアル - Power BI テーブルに行を追加する
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 39bf8ec92fba25c6097cf663bdb6572705938a42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710411"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879848"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>手順 5:Power BI テーブルに行を追加する
 
@@ -317,4 +316,4 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
 [Power BI ダッシュボードにデータをプッシュする](walkthrough-push-data.md)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 [Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

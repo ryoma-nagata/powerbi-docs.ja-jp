@@ -2,7 +2,6 @@
 title: 他のワークスペースからレポートをコピーする (プレビュー) - Power BI
 description: 組織全体でユーザーとデータセットを共有する方法について説明します。 これで、各自のワークスペースのデータセットに基づいてレポートを作成できます。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020831"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881939"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>他のワークスペースからレポートをコピーする (プレビュー)
 
@@ -28,7 +27,7 @@ ms.locfileid: "72020831"
 
 1. アプリまたはワークスペースで、[レポート] リスト ビューに移動します。
 
-1. **[アクション]** で、 **[コピーの保存]** を選択します。
+1. **[アクション]** で、**[コピーの保存]** を選択します。
 
     ![レポートのコピーを作成する](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
@@ -55,7 +54,7 @@ ms.locfileid: "72020831"
 
 ワークスペースにレポートがあるときに、必要に応じてどのデータセットに基づいているかを確認することができます。
 
-1. [レポート] リスト ビューで、 **[関連の表示]** を選択します。
+1. [レポート] リスト ビューで、**[関連の表示]** を選択します。
 
     ![[関連の表示] アイコン](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
@@ -71,7 +70,7 @@ ms.locfileid: "72020831"
 
     ![レポートの削除アイコン](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
 
-2. データセットの一覧で、共有データセットには**削除**アイコンがないことがわかります。 ページを最新の情報に更新するか、別のページに移動して戻ります。 データセットがなくなります。 そうでない場合は、 **[関連の表示]** を確認してください。 ワークスペース内の別のテーブルに関連している可能性があります。
+2. データセットの一覧で、共有データセットには**削除**アイコンがないことがわかります。 ページを最新の情報に更新するか、別のページに移動して戻ります。 データセットがなくなります。 そうでない場合は、**[関連の表示]** を確認してください。 ワークスペース内の別のテーブルに関連している可能性があります。
 
     ![[関連の表示] アイコン](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
@@ -82,4 +81,4 @@ ms.locfileid: "72020831"
 ## <a name="next-steps"></a>次の手順
 
 - [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
-- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

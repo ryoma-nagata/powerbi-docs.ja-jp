@@ -2,7 +2,6 @@
 title: データ ソースを管理する
 description: Power BI でデータ ソースを管理する方法について学習します。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -11,12 +10,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164531"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881778"
 ---
 # <a name="manage-data-sources"></a>データ ソースを管理する
 
@@ -178,4 +177,4 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 * [データ ソースの管理 - インポート/スケジュールされた更新](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [データ ゲートウェイの展開に関するガイダンス](service-gateway-deployment-guidance.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)を利用してください。
+他にわからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)を利用してください。

@@ -2,7 +2,6 @@
 title: ダッシュボードのデータの分類
 description: 管理者が分類を設定する方法や、ダッシュボード所有者が分類を変更する方法など、ダッシュボードのデータの分類について説明します。
 author: amandacofsky
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e687c72ae058f56ca4f528783c5e2326d82db6bb
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 421c587c96563784d84500ba9ba06a41ed5cdade
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523151"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872761"
 ---
 # <a name="dashboard-data-classification"></a>ダッシュボードのデータの分類
 すべてのダッシュボードは異なっており、接続先のデータ ソースによっては、共有を設定した人や共有する同僚がデータの機密性に応じてさまざまな予防措置を講じる必要があります。 社外の人と共有したり印刷したりしてはならないダッシュボードもあれば、自由に共有できるダッシュボードもあります。 ダッシュボードのデータの分類を使用すると、ダッシュボードを見るユーザーの、使用する必要があるセキュリティ レベルについての認識を高めることができます。 会社の IT 部門によって定義された分類でダッシュボードにタグを付けると、コンテンツを見るすべてのユーザーにデータの機密性を同じレベルで理解させることができます。
@@ -47,23 +46,23 @@ ms.locfileid: "68523151"
 
 分類の種類を変更するには、次のようにします。
 
-1. ダッシュボード名の横にある**省略記号**を選択し、 **[設定]** を選択して、ダッシュボードの設定に移動します。
+1. ダッシュボード名の横にある**省略記号**を選択し、**[設定]** を選択して、ダッシュボードの設定に移動します。
    
     ![](media/service-data-classification/dashboard_settings.png)
 2. ダッシュボードの設定では、ダッシュボードの現在の分類を確認でき、ドロップダウンを使用して分類の種類を変更できます。
    
     ![](media/service-data-classification/classification_setting_dropdown.png)
-3. 終了したら、 **[適用]** を選択します。
+3. 終了したら、**[適用]** を選択します。
 
 変更を適用した後は、ダッシュボードを共有するすべてのユーザーに対して、次にダッシュボードの再読み込みを行った時点で、更新した内容が表示されます。
 
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>管理者としてのデータ分類タグの使用
 データの分類は、組織のグローバル管理者によって設定されます。 データの分類を有効にするには、次のようにします。
 
-1. [設定] の歯車を選択し、 **[管理ポータル]** を選択します。
+1. [設定] の歯車を選択し、**[管理ポータル]** を選択します。
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. **[テナント設定]** タブで、 **[ダッシュボードとレポート用のデータ分類]** を *[オン]* に切り替えます。
+2. **[テナント設定]** タブで、**[ダッシュボードとレポート用のデータ分類]** を *[オン]* に切り替えます。
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 
@@ -75,7 +74,7 @@ ms.locfileid: "68523151"
 
 最後に決定する必要があるのは、既定値にする分類の種類です。  
 
-フォームに分類の種類の情報を入力した後、 **[適用]** を選択して変更を保存します。
+フォームに分類の種類の情報を入力した後、**[適用]** を選択して変更を保存します。
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 

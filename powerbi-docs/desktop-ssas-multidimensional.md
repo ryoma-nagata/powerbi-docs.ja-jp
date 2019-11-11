@@ -2,7 +2,6 @@
 title: Power BI Desktop の Analysis Services 多次元データ
 description: Power BI Desktop の Analysis Services 多次元データ
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 68ae5b04f951fcc0fa8a067e60a408d1610c3fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751627"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879658"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop で SSAS 多次元モデルに接続する
 Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも呼ばれる) にアクセスできます。
 
-**SSAS MD** データベースに接続するには、次の画像のように、 **[データの取得] &gt; [データベース] &gt; [SQL Server Analysis Services Database]** の順に選択します。
+**SSAS MD** データベースに接続するには、次の画像のように、**[データの取得] &gt; [データベース] &gt; [SQL Server Analysis Services Database]** の順に選択します。
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -36,7 +35,7 @@ Power BI Desktop を利用し、 **SSAS 多次元モデル**( **SSAS MD**とも�
 | --- | --- |
 | キューブ |モデル |
 | キューブ ディメンション |テーブル |
-| ディメンション属性 (Keys)、Name |列 |
+| ディメンション属性 (Keys)、Name |選択 |
 | メジャー グループ |テーブル |
 | メジャー |メジャー |
 | 関連付けられたメジャー グループのないメジャー |*メジャー*という名前のテーブル内 |

@@ -3,19 +3,18 @@ title: Power BI のパフォーマンスのベスト プラクティス
 description: この記事では、Power BI で高速で信頼性の高いレポートを作成するためのベスト プラクティスについて説明します。
 author: Bhavik-MSFT
 ms.author: bhmerc
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841488"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875101"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI のパフォーマンスのベスト プラクティス
 
@@ -129,10 +128,10 @@ DirectQuery とライブ接続では、このクエリ キャッシュはデー�
 3. **SQL Server Profiler を Power BI Desktop に接続する**
 
    - **[スタート]** メニューから SQL Server Profiler を起動する
-   - **[ファイル]**  >  **[新しいトレース]**
+   - **[ファイル]** > **[新しいトレース]**
    - サーバーの種類:Analysis Services
    - サーバー名: localhost:[上記で見つかったポート番号]
-   - 次の画面で、 **[実行]** を選択
+   - 次の画面で、**[実行]** を選択
    - これで SQL Profiler がライブになり、Power BI Desktop が送信するクエリをアクティブにプロファイリングします。 
    - クエリが実行されると、クエリのそれぞれの期間および CPU 時間を表示できます。この情報を使用して、ボトルネックとなっているクエリを判断できます。  
 
@@ -152,7 +151,7 @@ SQL Profiler を使用することで、最長の CPU 時間を消費するク�
 
 ネットワーク待機時間は、要求が Power BI サービスに到達するまでに要する時間と、応答の配信に要する時間が増えることで、レポートのパフォーマンスに影響を及ぼす可能性があります。 Power BI のテナントには、特定のリージョンが割り当てられています。 自分のテナントの "ホーム" 領域を表示するには、powerbi.com に移動して、右上にある **[?]** を選択し、 **[Power BI について]** を選択します。 テナントのユーザーが Power BI サービスにアクセスすると、要求は常にこのリージョンにルーティングされます。 要求が Power BI サービスに到達すると、サービスが追加の要求を (基になるデータ ソースやゲートウェイなどに) 送信することがあり、これもネットワーク待機時間に影響します。
 
-[Azure Speed Test](http://azurespeedtest.azurewebsites.net/) などのツールによって、クライアントと Azure リージョン間のネットワーク待機時間の表示が提供されます。 一般に、ネットワーク待機時間の影響を最小限に抑えるには、データ ソース、ゲートウェイ、および Power BI クラスターをできるだけ近くに配置するようにします。 ネットワーク待機時間が問題の場合は、ゲートウェイとデータ ソースを仮想マシンに配置することで、Power BI クラスターにより近い位置に配置してみてください。
+[Azure Speed Test](https://azurespeedtest.azurewebsites.net/) などのツールによって、クライアントと Azure リージョン間のネットワーク待機時間の表示が提供されます。 一般に、ネットワーク待機時間の影響を最小限に抑えるには、データ ソース、ゲートウェイ、および Power BI クラスターをできるだけ近くに配置するようにします。 ネットワーク待機時間が問題の場合は、ゲートウェイとデータ ソースを仮想マシンに配置することで、Power BI クラスターにより近い位置に配置してみてください。
 
 ネットワークの待機時間をさらに改善するには、[Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) の使用を検討してください。これは、クライアントと Azure データ センター間により高速でより信頼性の高い接続を作成することができます。
 

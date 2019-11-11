@@ -2,7 +2,6 @@
 title: チュートリアル:Web ページからデータをインポートおよび分析する
 description: チュートリアル:Power BI Desktop を使用して Web ページからデータをインポートおよび分析する
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514631"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879588"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>チュートリアル:Power BI Desktop を使用して Web ページのデータを分析する
 
@@ -29,7 +28,7 @@ ms.locfileid: "65514631"
 
 ## <a name="connect-to-a-web-data-source"></a>Web データ ソースに接続する
 
-UEFA 優勝国のデータは、UEFA European Football Championship Wikipedia ページ (http://en.wikipedia.org/wiki/UEFA_European_Football_Championship ) の Results テーブルから取得できます。 
+UEFA 優勝国のデータは、UEFA European Football Championship Wikipedia ページ (https://en.wikipedia.org/wiki/UEFA_European_Football_Championship ) の Results テーブルから取得できます。 
 
 ![Wikipedia の Results テーブル](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ Web 接続の確立には基本認証のみが使用されることに注意し�
    >[!NOTE]
    >**[データを取得]** 項目自体を選ぶか、Power BI の **[作業の開始]** ダイアログから **[データを取得]** を選び、 **[データを取得]** ダイアログの **[すべて]** または **[その他]** セクションから **[Web]** を選んで、 **[接続]** を選ぶこともできます。
    
-2. **[Web から]** ダイアログ ボックスで、URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` を **[URL]** テキスト ボックスに貼り付けて、 **[OK]** を選びます。
+2. **[Web から]** ダイアログ ボックスで、URL `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship` を **[URL]** テキスト ボックスに貼り付けて、 **[OK]** を選びます。
    
     ![ダイアログからの [データを取得]](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -186,8 +185,8 @@ Web 接続の確立には基本認証のみが使用されることに注意し�
 Power BI Desktop は、さまざまなデータ ソースからデータを取得して分析のニーズに合わせてデータの形を整えることから、このデータを機能豊富な対話型の方法で視覚化することまで、シームレスなエンド ツー エンドのエクスペリエンスを提供します。 レポートが完成したら、[Power BI にアップロード](desktop-upload-desktop-files.md)し、それに基づいて、他の Power BI ユーザーと共有可能なダッシュボードを作成できます。
 
 ## <a name="see-also"></a>参照
-* [他の Power BI Desktop のチュートリアルを読む](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop のビデオを見る](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Power BI フォーラムにアクセスする](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Power BI ブログを読む](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [他の Power BI Desktop のチュートリアルを読む](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop のビデオを見る](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI フォーラムにアクセスする](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Power BI ブログを読む](https://go.microsoft.com/fwlink/?LinkID=519327)
 

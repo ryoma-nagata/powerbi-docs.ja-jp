@@ -2,19 +2,18 @@
 title: 管理の概要、Power BI Report Server
 description: この記事では、Power BI Report Server の管理の概要について説明します。Power BI Report Server は、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187351"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860219"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>管理の概要、Power BI Report Server
 この記事では、Power BI Report Server の管理の概要について説明します。Power BI Report Server は、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。 この記事では、Power BI Report Server の計画、展開、管理の概念について説明します。また、詳細情報へのリンクが用意されています。
@@ -49,7 +48,7 @@ SQL Server Reporting Services のインプレース アップグレードはあ�
 [レポート サーバーのプロダクト キーを検索する](find-product-key.md)  
 [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  
 [レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) のダウンロード](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

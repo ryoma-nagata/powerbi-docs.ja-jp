@@ -2,19 +2,18 @@
 title: モバイル デバイスから Power BI QR コードをスキャンする
 description: Power BI で QR コードを使用すると、実世界の任意のものを、iPhones および Android デバイス用の Power BI モバイル アプリの関連する BI 情報に直接接続することができます。
 author: KesemSharabi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236754"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879205"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>モバイル デバイスから Power BI QR コードをスキャンする
 適用対象:
@@ -50,7 +49,7 @@ Power BI アプリのスキャナーや電話にインストールされてい�
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>iPhone 上の外部スキャナーからの QR コードのスキャン
 1. スマートフォンにインストールされているスキャナーからタイルまたはレポートにただちにアクセスするには、関連する Power BI QR コードにスキャナーをポイントします。 
-2. Power BI アプリをインストールしていない場合は、[Apple App Store](http://go.microsoft.com/fwlink/?LinkId=522062) にリダイレクトされるので、それを iPhone にダウンロードします。
+2. Power BI アプリをインストールしていない場合は、[Apple App Store](https://go.microsoft.com/fwlink/?LinkId=522062) にリダイレクトされるので、それを iPhone にダウンロードします。
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Power BI スキャナーによる Android デバイスでの Power BI QR コードのスキャン
 1. Power BI モバイル アプリで、左上のグローバル ナビゲーション ボタン ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png) を開きます。 
@@ -67,12 +66,12 @@ Power BI アプリのスキャナーや電話にインストールされてい�
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Android デバイスの外部スキャナーからの QR コードのスキャン
 1. Android デバイスにインストールされているスキャナーから、タイルまたはレポートにただちにアクセスするには、関連する Power BI QR コードにスキャナーをポイントします。 
-2. Power BI アプリをインストールしていない場合は [Google Play にリダイレクトされるので、そこでアプリをダウンロード](http://go.microsoft.com/fwlink/?LinkID=544867)します。 
+2. Power BI アプリをインストールしていない場合は [Google Play にリダイレクトされるので、そこでアプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)します。 
 
 ## <a name="next-steps"></a>次の手順
 * [モバイル アプリで現実世界から Power BI データに接続する](mobile-apps-data-in-real-world-context.md)
 * [Power BI サービスでタイルの QR コードを作成する](../../service-create-qr-code-for-tile.md)
 * [Power BI サービスでレポートの QR コードを作成する](../../service-create-qr-code-for-report.md)
 * [Power BI for Mixed Reality アプリで QR コードをスキャンする](mobile-mixed-reality-app.md)こともできます。
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

@@ -3,19 +3,18 @@ title: Azure と Power BI
 description: Azure と Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513323"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873214"
 ---
 # <a name="azure-and-power-bi"></a>Azure と Power BI
 
@@ -31,7 +30,7 @@ Power BI では多数の Azure との接続を利用でき、それらのサー�
 
 ![PBI への SQL](media/service-azure-and-power-bi/azure_2_sqltopbi.png)
 
-[Azure SQL Database](http://azure.microsoft.com/services/sql-database/) の詳細についてはこちらをご覧ください。
+[Azure SQL Database](https://azure.microsoft.com/services/sql-database/) の詳細についてはこちらをご覧ください。
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>クラウド データの変換、成形、マージ
 
@@ -43,13 +42,13 @@ Power BI では多数の Azure との接続を利用でき、それらのサー�
 
 詳細については、次のリソースを参照してください。
 
-* [Azure SQL Database](http://azure.microsoft.com/services/sql-database/)
-* [Azure HDInsight](http://azure.microsoft.com/services/hdinsight/)
-* [Azure Storage](http://azure.microsoft.com/services/storage/) (BLOB ストレージおよびテーブル ストレージ)
+* [Azure SQL Database](https://azure.microsoft.com/services/sql-database/)
+* [Azure HDInsight](https://azure.microsoft.com/services/hdinsight/)
+* [Azure Storage](https://azure.microsoft.com/services/storage/) (BLOB ストレージおよびテーブル ストレージ)
 
 ## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>Azure サービスおよび Power BI による各種融合と成長
 
-Azure と Power BI を使用して必要な限りの拡張を行えます。 複数のソース データ処理の活用、大規模なリアルタイム システムの使用、[Stream Analytics](http://azure.microsoft.com/services/stream-analytics/) と [Event Hubs](http://azure.microsoft.com/services/event-hubs/) の使用、ビジネスで優位性を与えるビジネス インテリジェンス レポートと各種 SaaS サービスとの融合を行います。
+Azure と Power BI を使用して必要な限りの拡張を行えます。 複数のソース データ処理の活用、大規模なリアルタイム システムの使用、[Stream Analytics](https://azure.microsoft.com/services/stream-analytics/) と [Event Hubs](https://azure.microsoft.com/services/event-hubs/) の使用、ビジネスで優位性を与えるビジネス インテリジェンス レポートと各種 SaaS サービスとの融合を行います。
 
 ![Azure 複合](media/service-azure-and-power-bi/azure_4_complex.png)
 
@@ -57,7 +56,7 @@ Azure と Power BI を使用して必要な限りの拡張を行えます。 複
 
 魅力的でインタラクティブなデータ視覚化を、アプリケーション、Web サイト、ポータル、などに埋め込むことで、ビジネス データを活用できます。 [Azure のリソースとして Power BI Embedded を使用すると](https://azure.microsoft.com/services/power-bi-embedded/)、インタラクティブなレポートやダッシュボードを簡単に埋め込むことができるため、ユーザーはデバイスの種類にかかわらず一貫した再現性に優れた製品体験を楽しむことができます。  分析を埋め込んで Power BI を使用することで、データからナレッジ、分析情報、行動へと、体験を進めることができます。  さらに、[社内のアプリケーションやポータルに](https://powerbi.microsoft.com/developers/embedded-analytics/organization/)分析を埋め込むことで、Power BI Azure をさらに活用できるようになります。
 
-[Power BI デベロッパー ポータル](http://dev.powerbi.com)には、Power BI API に関する詳細が示されています。
+[Power BI デベロッパー ポータル](https://dev.powerbi.com)には、Power BI API に関する詳細が示されています。
 
 詳細については、「[開発者が Power BI でできること](developer/what-can-you-do.md)」を参照してください。
 

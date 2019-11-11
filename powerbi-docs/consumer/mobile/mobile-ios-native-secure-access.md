@@ -2,19 +2,18 @@
 title: デバイス ネイティブ ID で Power BI のデータを保護する
 description: 自分の Power BI データにアクセスするために、ご利用の iOS アプリを追加 ID を必要とするように構成する方法について学習します
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: b7418c9579a439a18a30a967947c15d58693fd44
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a4ae7d7d61f4b377fe020fcc5f66f68ae7709ac7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66816825"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870157"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-or-passcode"></a>Face ID、Touch ID、またはパスコードで Power BI アプリを保護する 
 
@@ -28,7 +27,7 @@ Power BI iOS アプリでは、追加 ID を構成することによって、ご
 
 ## <a name="turn-on-face-id-touch-id-or-passcode-in-app-setting"></a>アプリ設定で Face ID、Touch ID、またはパスコードをオンにする
 
-Power BI で追加 ID を使用するには、 **[プライバシーとセキュリティ]** の下でアプリ設定に移動します。 ご利用のデバイスの機能に基づいて、Face ID、Touch ID、またはパスコードをオンにするオプションが表示されます。
+Power BI で追加 ID を使用するには、**[プライバシーとセキュリティ]** の下でアプリ設定に移動します。 ご利用のデバイスの機能に基づいて、Face ID、Touch ID、またはパスコードをオンにするオプションが表示されます。
 
 ![Power BI iOS のアプリ設定ページ](./media/mobile-ios-native-secure-access/mobile-ios-native-secured-setting.png)
 

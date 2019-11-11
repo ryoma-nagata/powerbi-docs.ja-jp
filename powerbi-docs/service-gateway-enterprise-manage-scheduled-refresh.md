@@ -2,7 +2,6 @@
 title: データ ソースの管理 - インポート/スケジュールされた更新
 description: オンプレミス データ ゲートウェイとそのゲートウェイに属しているデータ ソースを管理する方法。 この記事は、インポート/スケジュールされた更新で使用できるデータ ソースにのみ適用されます。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3e223fba25386e91354130083f8bacc653b26cee
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 7512257a3abad33babe2a5b6b56f613c7bb1b50f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757656"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881707"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>データ ソースの管理 - インポート/スケジュールされた更新
 
@@ -40,7 +39,7 @@ ms.locfileid: "68757656"
 
 スケジュールされた更新で使用できるデータ ソースの種類の一覧については、「[List of available data source types](service-gateway-data-sources.md#list-of-available-data-source-types)」(使用可能なデータ ソースの種類の一覧) を参照してください。
 
-すべての情報を入力したら、 **[追加]** を選択します。 これで、オンプレミス データと一緒に、スケジュールされた更新にこのデータ ソースを使用できるようになりました。 成功すると、"*接続成功*" というメッセージが表示されます。
+すべての情報を入力したら、**[追加]** を選択します。 これで、オンプレミス データと一緒に、スケジュールされた更新にこのデータ ソースを使用できるようになりました。 成功すると、"*接続成功*" というメッセージが表示されます。
 
 ![接続の状態の表示](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings4.png)
 
@@ -75,4 +74,4 @@ OAuth は、オンプレミスのデータ ゲートウェイでサポートさ�
 * [オンプレミス データ ゲートウェイのトラブルシューティング](/data-integration/gateway/service-gateway-tshoot)
 * [ゲートウェイのトラブルシューティング - Power BI](service-gateway-onprem-tshoot.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)を利用してください。
+他にわからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)を利用してください。

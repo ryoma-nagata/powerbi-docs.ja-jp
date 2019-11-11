@@ -2,7 +2,6 @@
 title: 異なるワークスペースのデータセットに基づいてレポートを作成する (プレビュー) - Power BI
 description: 組織全体でユーザーとデータセットを共有する方法について説明します。 これで、各自のワークスペースのデータセットに基づいてレポートを作成できます。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 371507eb86e1b68225e9d66ee3a1363b0e163d4f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567458"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877167"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>異なるワークスペースのデータセットに基づいてレポートを作成する (プレビュー)
 
 他のワークスペース内のデータセットに基づいて、各自のワークスペースにレポートを作成する方法について説明します。 既存のデータセットの上にレポートを作成するには、Power BI Desktop または Power BI サービスの [マイ ワークスペース] または[新しいワークスペース エクスペリエンス](service-create-the-new-workspaces.md)を起動します。
 
-- Power BI サービスの場合: **[データを取得]**  >  **[発行済みデータセット]** 。
-- Power BI Desktop の場合: **[データを取得]**  >  **[Power BI データセット]** 。
+- Power BI サービスの場合: **[データを取得]** > **[発行済みデータセット]**。
+- Power BI Desktop の場合: **[データを取得]** > **[Power BI データセット]**。
 
     ![既存のデータセットに接続する](media/service-datasets-across-workspaces/power-bi-connect-dataset-pk.png)
    
@@ -51,10 +50,10 @@ Power BI サービスの現在のワークスペースにレポートを保存�
 
 ## <a name="find-an-endorsed-dataset"></a>推奨されるデータセットを検索する
 
-推奨されるデータセットは 2 種類あります。 データセットの所有者はお勧めのデータセットを*昇格*することができます。 また、Power BI テナントの管理者は、すべてのユーザーが使用できるデータセットを "*認定*" するエキスパートを組織内で指定できます。 データセットの検索時と、ワークスペースのデータセットのリストには、昇格されたデータセットと認定されたデータセットの両方に*バッジ*が表示されます。 データセットを認定した担当者の名前がデータセット検出エクスペリエンス中にツールヒントに表示されます。 **[認定済み]** ラベルをポイントすると、それが表示されます。
+推奨されるデータセットは 2 種類あります。 データセットの所有者はお勧めのデータセットを*昇格*することができます。 また、Power BI テナントの管理者は、すべてのユーザーが使用できるデータセットを "*認定*" するエキスパートを組織内で指定できます。 データセットの検索時と、ワークスペースのデータセットのリストには、昇格されたデータセットと認定されたデータセットの両方に*バッジ*が表示されます。 データセットを認定した担当者の名前がデータセット検出エクスペリエンス中にツールヒントに表示されます。**[認定済み]** ラベルをポイントすると、それが表示されます。
 
-- Power BI サービスの場合: **[データを取得]**  >  **[発行済みデータセット]** 。
-- Power BI Desktop の場合: **[データを取得]**  >  **[Power BI データセット]** 。
+- Power BI サービスの場合: **[データを取得]** > **[発行済みデータセット]**。
+- Power BI Desktop の場合: **[データを取得]** > **[Power BI データセット]**。
 
     **[データセットの選択]** ダイアログ ボックスのリストでは、推奨されるデータセットが既定で一番上に表示されます。 
 
@@ -63,4 +62,4 @@ Power BI サービスの現在のワークスペースにレポートを保存�
 ## <a name="next-steps"></a>次の手順
 
 - [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
-- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

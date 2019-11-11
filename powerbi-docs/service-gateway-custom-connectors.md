@@ -3,19 +3,18 @@ title: オンプレミス データ ゲートウェイでカスタム データ 
 description: オンプレミス データ ゲートウェイでカスタム データ コネクタを使用できます。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c0ef172115dba05deb02d724b663742a2e71c13
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: c76c8fdb635db7724ffeb1a5140e9095c9b2eff5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832527"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881746"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイでカスタム データ コネクタを使用する
 
@@ -23,7 +22,7 @@ ms.locfileid: "68832527"
 
 Power BI 用のデータ コネクタを使用すると、アプリケーション、サービス、またはデータ ソースからデータに接続してアクセスすることができます。 カスタム データ コネクタを開発して、Power BI Desktop で使用することができます。
 
-Power BI 用にカスタム データ コネクタを開発する方法の詳細については、[データ コネクタ SDK に関する GitHub ページ](http://aka.ms/dataconnectors)を参照してください。 このサイトには、Power BI と Power Query の開始方法とサンプルについての情報が含まれています。
+Power BI 用にカスタム データ コネクタを開発する方法の詳細については、[データ コネクタ SDK に関する GitHub ページ](https://aka.ms/dataconnectors)を参照してください。 このサイトには、Power BI と Power Query の開始方法とサンプルについての情報が含まれています。
 
 Power BI Desktop でカスタム データ コネクタを使用するレポートを作成すると、オンプレミス データ ゲートウェイを使用して Power BI サービスからこれらのレポートを更新することができます。
 
@@ -58,4 +57,4 @@ Power BI Desktop でカスタム データ コネクタを使用するレポー�
 * [オンプレミス データ ゲートウェイのプロキシ設定を構成する](/data-integration/gateway/service-gateway-proxy)
 * [Power BI からオンプレミス データ ソースへのシングル サインオン (SSO) に Kerberos を使用する](service-gateway-sso-kerberos.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)で質問してみてください。
+他にわからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。

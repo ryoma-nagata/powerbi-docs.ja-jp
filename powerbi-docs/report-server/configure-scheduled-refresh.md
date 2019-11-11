@@ -2,19 +2,18 @@
 title: Power BI レポートのスケジュールされた更新を構成する方法
 description: Power BI レポートのデータを更新するには、スケジュールされた更新計画を作成する必要があります。
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: mblythe
-ms.openlocfilehash: f502ae89eb4c413dd900077272dbed5a4a9c4c6f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c8794d797d6267fcc378b22d8b41995d88b8bddd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61219501"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859978"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI レポートのスケジュールされた更新を構成する方法
 Power BI レポートのデータを更新するには、スケジュールされた更新計画を作成する必要があります。 これは、Power BI レポートの *[管理]* 領域で行います。
@@ -24,10 +23,10 @@ Power BI レポートのデータを更新するには、スケジュールさ�
 ## <a name="configure-data-source-credentials"></a>データ ソースの資格情報を構成する
 スケジュールされたデータ更新計画を作成する前に、Power BI レポートで使われている**各データ ソース**の資格情報を設定する必要があります。
 
-1. Web ポータルで、Power BI レポートを右クリックして、 **[管理]** を選びます。
+1. Web ポータルで、Power BI レポートを右クリックして、**[管理]** を選びます。
    
     ![Power BI レポートのコンテキスト メニューで [管理] を選ぶ](media/configure-scheduled-refresh/manage-power-bi-report.png)
-2. 左側のメニューで、 **[データ ソース]** タブを選びます。
+2. 左側のメニューで、**[データ ソース]** タブを選びます。
 3. 表示される各データ ソースについて、そのデータ ソースに接続するときに使う認証の種類を選びます。 適切な資格情報を入力します。
    
     ![レポート管理画面のデータ ソースの資格情報](media/configure-scheduled-refresh/data-source-credentials.png)
@@ -35,40 +34,40 @@ Power BI レポートのデータを更新するには、スケジュールさ�
 ## <a name="creating-a-schedule-refresh-plan"></a>スケジュールされた更新計画を作成する
 スケジュールされた更新計画を作成するには、次の手順のようにします。
 
-1. Web ポータルで、Power BI レポートを右クリックして、 **[管理]** を選びます。
+1. Web ポータルで、Power BI レポートを右クリックして、**[管理]** を選びます。
    
     ![Power BI レポートのコンテキスト メニューで [管理] を選ぶ](media/configure-scheduled-refresh/manage-power-bi-report.png)
-2. 左側のメニューで、 **[スケジュールされている更新]** タブを選びます。
-3. **[スケジュールされている更新]** ページで、 **[スケジュールされた新しい更新計画]** を選びます。
+2. 左側のメニューで、**[スケジュールされている更新]** タブを選びます。
+3. **[スケジュールされている更新]** ページで、**[スケジュールされた新しい更新計画]** を選びます。
    
     ![スケジュールされた新しい更新計画](media/configure-scheduled-refresh/new-scheduled-refresh-plan.png)
 4. **[スケジュールされた新しい更新計画]** ページで、説明を入力し、データ モデルを更新するスケジュールを設定します。
-5. 終わったら、 **[Create scheduled refresh plan]\(スケジュールされた更新計画の作成\)** を選びます。
+5. 終わったら、**[Create scheduled refresh plan]\(スケジュールされた更新計画の作成\)** を選びます。
    
     ![スケジュールされた更新計画の作成](media/configure-scheduled-refresh/create-scheduled-refresh-plan.png)
 
 ## <a name="modifying-a-schedule-refresh-plan"></a>スケジュールされた更新計画を変更する
 スケジュールされた更新計画の変更は作成と似ています。
 
-1. Web ポータルで、Power BI レポートを右クリックして、 **[管理]** を選びます。
+1. Web ポータルで、Power BI レポートを右クリックして、**[管理]** を選びます。
    
     ![Power BI レポートのコンテキスト メニューで [管理] を選ぶ](media/configure-scheduled-refresh/manage-power-bi-report.png)
-2. 左側のメニューで、 **[スケジュールされている更新]** タブを選びます。
+2. 左側のメニューで、**[スケジュールされている更新]** タブを選びます。
 3. **[スケジュールされている更新]** ページで、管理する更新計画の **[編集]** を選びます。
    
     ![編集する計画の [編集] を選ぶ](media/configure-scheduled-refresh/edit-scheduled-refresh-plan.png)
 4. **[Edit Scheduled Refresh Plan]\(スケジュールされた更新計画の編集\)** ページで、説明を入力し、データ モデルを更新するスケジュールを設定します。
-5. 終わったら、 **[適用]** を選びます。
+5. 終わったら、**[適用]** を選びます。
    
     ![作成画面に似ているスケジュールされた更新計画の編集](media/configure-scheduled-refresh/edit-scheduled-refresh-plan-page.png)
 
 ## <a name="viewing-the-status-of-schedule-refresh-plan"></a>スケジュールされた更新計画の状態を表示する
 Web ポータルでスケジュールされた更新計画の状態を表示します。
 
-1. Web ポータルで、Power BI レポートを右クリックして、 **[管理]** を選びます。
+1. Web ポータルで、Power BI レポートを右クリックして、**[管理]** を選びます。
    
     ![Power BI レポートのコンテキスト メニューで [管理] を選ぶ](media/configure-scheduled-refresh/manage-power-bi-report.png)
-2. 左側のメニューで、 **[スケジュールされている更新]** タブを選びます。
+2. 左側のメニューで、**[スケジュールされている更新]** タブを選びます。
 3. **[スケジュールされている更新]** ページで、右端の列に計画の状態が表示されます。
    
    | **状態** | **説明** |

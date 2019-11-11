@@ -2,7 +2,6 @@
 title: Power BI デザイナーのダッシュボードのタイルの概要
 description: この記事では、Power BI のダッシュボード タイルについて説明します。これには、SQL Server Reporting Services (SSRS) レポートから作成されたタイルも含まれます。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994882"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872798"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードのタイルの概要
 
@@ -81,7 +80,7 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 タイルを選択したときに次に生じる動作は、タイルの作成方法によって異なります。 それ以外の場合、タイルを選択すると、そのタイルを作成するために使われたレポート、Excel Online ブック、オンプレミスの Reporting Services レポート、Q&A の質問に移動できます。 あるいは、[カスタム リンク](service-dashboard-edit-tile.md)がある場合、タイルを選択するとそのリンクに移動します。
 
 > [!NOTE]
-> 例外は、 **[タイルの追加]** を使用してダッシュボードに直接作成したビデオ タイルの場合です。 (この方法で作成された) ビデオ タイルを選択すると、ダッシュボード上で直接ビデオが再生されます。   
+> 例外は、**[タイルの追加]** を使用してダッシュボードに直接作成したビデオ タイルの場合です。 (この方法で作成された) ビデオ タイルを選択すると、ダッシュボード上で直接ビデオが再生されます。   
 > 
 > 
 
@@ -99,8 +98,8 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 - [Power BI デザイナーのダッシュボードの概要](service-dashboards.md)  
 - [Power BI でのデータの更新](refresh-data.md)
 - [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
-- [Power BI タイルを Office ドキュメントに統合する](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Power BI タイルを Office ドキュメントに統合する](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Reporting Services のアイテムを Power BI ダッシュボードにピン留めする](https://msdn.microsoft.com/library/mt604784.aspx)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

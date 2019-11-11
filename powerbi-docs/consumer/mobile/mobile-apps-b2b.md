@@ -2,19 +2,18 @@
 title: 外部のゲスト ユーザー (Azure AD B2B) として Power BI コンテンツを表示する
 description: Power BI モバイル アプリを使用して、外部組織から共有されているコンテンツを表示します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
-ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69490361"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879338"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>外部組織から共有されている Power BI コンテンツを表示する
 
@@ -40,7 +39,7 @@ Power BI と Azure Active Directory Business-to-Business (Azure AD B2B) との�
 
 ![Power BI ゲスト ユーザー ヘッダー](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
 
-外部組織に接続するには Power BI アーティファクト リンクが必要ですが、アプリを切り替えると、(電子メールから開いた項目だけでなく) 自分と共有されているすべての項目にアクセスできます。 外部組織でアクセスできるすべての項目を表示するには、アプリ メニューに移動し、 **[自分と共有]** を選択します。 **[アプリ]** の下で、使用できるアプリを検索することもできます。
+外部組織に接続するには Power BI アーティファクト リンクが必要ですが、アプリを切り替えると、(電子メールから開いた項目だけでなく) 自分と共有されているすべての項目にアクセスできます。 外部組織でアクセスできるすべての項目を表示するには、アプリ メニューに移動し、**[自分と共有]** を選択します。 **[アプリ]** の下で、使用できるアプリを検索することもできます。
 
 ![外部のゲスト ユーザーの Power BI アプリ メニュー](./media/mobile-apps-b2b/mobile-b2b-menu.png)
 

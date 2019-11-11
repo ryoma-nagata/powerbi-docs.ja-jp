@@ -3,19 +3,18 @@ title: Power BI レポート ビルダーでのレポート データ
 description: Power BI の改ページ調整されたレポート ビルダーでレポートをデザインする際の最初の手順は、基になるレポート データを表すデータ ソースとデータセットを作成することです。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: 3c2f6882e9480802d40ff61580ebfda9bbf3b14a
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: cbcb710a806c400ea33ac4d605614b5325277d07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840328"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860434"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI レポート ビルダーでのレポート データ
 

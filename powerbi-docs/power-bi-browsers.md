@@ -2,7 +2,6 @@
 title: Power BI のサポートされているブラウザー
 description: Power BI をサポートするブラウザーの一覧を示します
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e27fdf6c57eeaebe554011517d6bea79b7270055
-ms.sourcegitcommit: 35f7ee9280022c76033502b344e8ebc52d3ec1d1
+ms.openlocfilehash: d81e9e7142a05ac49969e98dbada0e0edf2fe3ba
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71705465"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875232"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI のサポートされているブラウザー
 Power BI は、次のブラウザーで実行されます。
@@ -30,6 +29,6 @@ Power BI は、次のブラウザーで実行されます。
 
 ### <a name="next-steps"></a>次の手順
 * [Power BI とは?](power-bi-overview.md)
-* [Power BI コミュニティ](http://community.powerbi.com/)で質問してみてください。
+* [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください
 

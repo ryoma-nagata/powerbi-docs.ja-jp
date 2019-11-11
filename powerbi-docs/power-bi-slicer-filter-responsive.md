@@ -2,7 +2,6 @@
 title: Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成
 description: レポートに合わせてサイズを変更できるレスポンシブ スライサーの作成方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: fed4119946cb762fb4d9aee3b5300be225a6e379
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61419830"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877599"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成
 
@@ -34,8 +33,8 @@ ms.locfileid: "61419830"
 
 ## <a name="convert-to-a-horizontal-slicer"></a>水平スライサーに変換する
 
-1. スライサーを選択し、 **[視覚化]** ウィンドウで **[書式]** タブを選択します。
-2. **[全般]** セクションを展開し、 **[方向]** で **[横]** を選択します。
+1. スライサーを選択し、**[視覚化]** ウィンドウで **[書式]** タブを選択します。
+2. **[全般]** セクションを展開し、**[方向]** で **[横]** を選択します。
 
     ![スライサーを水平に設定する](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
 
@@ -47,7 +46,7 @@ ms.locfileid: "61419830"
 
 この手順は簡単です。 
 
-1. **[書式]** タブの **[全般]** セクションの **[方向]** の下で、 **[レスポンシブ]** を **[オン]** にスライドします。  
+1. **[書式]** タブの **[全般]** セクションの **[方向]** の下で、**[レスポンシブ]** を **[オン]** にスライドします。  
 
     ![スライサーがレスポンシブになりました](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 
@@ -81,4 +80,4 @@ Power BI Desktop では、レポートのページごとに電話レイアウト
 ## <a name="next-steps"></a>次の手順
 
 - [Power BI サービスのスライサー](visuals/power-bi-visualization-slicers.md)
-- 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+- 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

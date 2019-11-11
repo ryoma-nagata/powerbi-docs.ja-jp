@@ -2,7 +2,6 @@
 title: Power BI のデータ ソース
 description: Power BI のデータ ソース
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e6b0d7db9f82d8bc68f230858799f6afbcad1c82
-ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
+ms.openlocfilehash: ac8b403163ea2599955afd79d8e95659b8cc5bed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72511663"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881428"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI サービスのデータ ソース
 データは Power BI の中核です。 たとえば、データを探索しているとしましょう。 グラフとダッシュボードを作成するか、**Q&A** で質問をすることでこれを行えます。 表示される視覚化と回答は、データセットから基になるデータを取得しています。 しかし、そのデータセットはどこから得られるでしょうか。 それはデータ ソースから得られます。
@@ -46,13 +45,13 @@ ms.locfileid: "72511663"
 ### <a name="files"></a>ファイル
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** ( *.xlsx*、 *.xlsm*) - Excel では、ブックにさまざまなデータの種類を含めることができます。 たとえば、ワークシートに自分で入力したデータを含めることができます。 Power Query を使用して外部データ ソースからクエリして読み込んだデータを含めることもできます。 Power Query は、Excel 2016 または Power Pivot の **[取得と変換]** から使用できます。 データは、ワークシート内のテーブルからインポートすることも、データ モデルからインポートすることもできます。 詳しくは、「[ファイルから Power BI 用のデータを取得する](service-get-data-from-files.md)」をご覧ください。
+**Excel** (*.xlsx*、*.xlsm*) - Excel では、ブックにさまざまなデータの種類を含めることができます。 たとえば、ワークシートに自分で入力したデータを含めることができます。 Power Query を使用して外部データ ソースからクエリして読み込んだデータを含めることもできます。 Power Query は、Excel 2016 または Power Pivot の **[取得と変換]** から使用できます。 データは、ワークシート内のテーブルからインポートすることも、データ モデルからインポートすることもできます。 詳しくは、「[ファイルから Power BI 用のデータを取得する](service-get-data-from-files.md)」をご覧ください。
 
-**Power BI Desktop** ( *.pbix*) - Power BI Desktop を使うと、外部データ ソースのデータのクエリや読み込み、レポートの作成を行うことができます。 メジャーやリレーションシップを使ったデータ モデルの拡張や、Power BI Desktop ファイルの Power BI サイトへのインポートもできます。 Power BI Desktop は、熟練のユーザーに最適です。 通常、これらのユーザーは、自分のデータ ソースについてよく理解しています。 また、データ クエリと変換、およびデータ モデリングの概念についても理解しています。 詳しくは、「[Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)」をご覧ください。
+**Power BI Desktop** (*.pbix*) - Power BI Desktop を使うと、外部データ ソースのデータのクエリや読み込み、レポートの作成を行うことができます。 メジャーやリレーションシップを使ったデータ モデルの拡張や、Power BI Desktop ファイルの Power BI サイトへのインポートもできます。 Power BI Desktop は、熟練のユーザーに最適です。 通常、これらのユーザーは、自分のデータ ソースについてよく理解しています。 また、データ クエリと変換、およびデータ モデリングの概念についても理解しています。 詳しくは、「[Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)」をご覧ください。
 
-**コンマ区切り値** ( *.csv*) - ファイルは、データ行の単純なテキスト ファイルです。 各行には、1 つ以上の値をコンマで区切って含めることができます。 たとえば、名前とアドレス データを格納する *.csv* には、多くの行が含まれている可能性があります。 各行には、都道府県、市区町村、住所、姓、名などの値を含めることができます。 データを *.csv* ファイルにインポートすることはできませんが、Excel などの多くのアプリケーションでは、単純なテーブル データを *.csv* ファイルとして保存できます。
+**コンマ区切り値** (*.csv*) - ファイルは、データ行の単純なテキスト ファイルです。 各行には、1 つ以上の値をコンマで区切って含めることができます。 たとえば、名前とアドレス データを格納する *.csv* には、多くの行が含まれている可能性があります。 各行には、都道府県、市区町村、住所、姓、名などの値を含めることができます。 データを *.csv* ファイルにインポートすることはできませんが、Excel などの多くのアプリケーションでは、単純なテーブル データを *.csv* ファイルとして保存できます。
 
-XML テーブル ( *.xml*) やテキスト ( *.txt*) ファイルなど、その他のファイル形式については、 **[取得して変換]** を使用して最初にそのデータをクエリおよび変換し、Excel または Power BI Desktop ファイルにデータに読み込むことができます。 次に、Excel または Power BI Desktop ファイルを Power BI にインポートできます。
+XML テーブル (*.xml*) やテキスト (*.txt*) ファイルなど、その他のファイル形式については、**[取得して変換]** を使用して最初にそのデータをクエリおよび変換し、Excel または Power BI Desktop ファイルにデータに読み込むことができます。 次に、Excel または Power BI Desktop ファイルを Power BI にインポートできます。
 
 ファイルの保存先にも大きな違いがあります。 OneDrive for Business は優れた柔軟性と Power BI との統合を提供します。 ファイルをローカル ドライに保持することは問題ありません。 ただし、データを更新する必要がある場合は、いくつか追加の手順があります。 詳しくは、次の記事のリンクを参照してください。
 

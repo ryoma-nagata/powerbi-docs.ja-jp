@@ -2,19 +2,18 @@
 title: 電話用に最適化された Power BI レポートを表示する
 description: Power BI 電話アプリで表示するように最適化されたレポート ページとの対話について説明しています。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
-ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f8dba41a15390e4b52227c7daaa603daf7c08939
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65100988"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870531"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
 
@@ -58,7 +57,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 ## <a name="open-visuals-in-focus-mode"></a>フォーカス モードでビジュアルを開く
 スマートフォンの場合、レポートにはフォーカス モードもあります。1 つのビジュアルを大きく表示したり、いろいろ試したりすることが簡単になります。
 
-* 電話レポートで、ビジュアルの右上隅にある省略記号 **[...]** をタップし、 **[フォーカス モードに展開]** をタップします。
+* 電話レポートで、ビジュアルの右上隅にある省略記号 **[...]** をタップし、**[フォーカス モードに展開]** をタップします。
   
     ![フォーカス モードに展開](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
@@ -68,9 +67,9 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 
 * ビジュアルに表示される情報に**ドリルダウン**します。 詳しくは、電話レポートの[ドリルダウンとドリルアップ](mobile-apps-view-phone-report.md#drill-down-in-a-visual)に関するページを参照してください。
 * ビジュアル内の値を**並べ替え**ます。
-* **[元に戻す]** :ビジュアルで使用した探索手順をクリアし、レポートの作成時に設定された定義に戻します。
+* **[元に戻す]**:ビジュアルで使用した探索手順をクリアし、レポートの作成時に設定された定義に戻します。
   
-    ビジュアルからすべての探索をクリアするには、省略記号 **[...]** **[元に戻す]** の順にタップします。
+    ビジュアルからすべての探索をクリアするには、省略記号 **[...]****[元に戻す]** の順にタップします。
   
     ![元に戻す](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
@@ -91,7 +90,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 4. 上矢印をタップしてドリルアップします。
 
 ### <a name="drill-to-next-level"></a>次のレベルにドリル
-1. 電話のレポートでは、右上隅にある省略記号 **[...]** 、 **[フォーカス モードに展開]** の順にタップします。
+1. 電話のレポートでは、右上隅にある省略記号 **[...]**、**[フォーカス モードに展開]** の順にタップします。
    
     ![フォーカス モードに展開](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
@@ -109,7 +108,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 4. 左上隅の矢印をタップすると、下位レベルの値がまだ展開された状態で、電話レポートに戻ります。
    
     ![下位レベルの値がまだ展開された状態](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
-5. 上位の元のレベルに戻るには、省略記号 **[...]** を再びタップし、 **[元に戻す]** をタップします。
+5. 上位の元のレベルに戻るには、省略記号 **[...]** を再びタップし、**[元に戻す]** をタップします。
    
     ![元に戻す](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
@@ -134,5 +133,5 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 * [Power BI 電話アプリ用に最適化したレポートを作成する](../../desktop-create-phone-report.md)
 * [Power BI でダッシュボードの Phone ビューを作成する](../../service-create-dashboard-mobile-phone-view.md)
 * [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](../../visuals/desktop-create-responsive-visuals.md)
-* 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

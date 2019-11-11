@@ -3,18 +3,17 @@ title: 起動 URL を作成する
 description: この記事では、Power BI ビジュアルを使用して、新しいタブで URL を開く方法について説明します。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 7dff03f0ad192e0598c677d41709447fbdc0688d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307326"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879945"
 ---
 # <a name="create-a-launch-url"></a>起動 URL を作成する
 
@@ -31,12 +30,12 @@ ms.locfileid: "72307326"
 `host.launchUrl()` API 呼び出しを使用して、送信先 URL を文字列引数として渡します。
 
 ```typescript
-this.host.launchUrl('http://some.link.net');
+this.host.launchUrl('https://some.link.net');
 ```
 
 ## <a name="restrictions"></a>制限事項
 
-* 絶対パスのみを使用し、相対パスは使用しません。 たとえば、`http://some.link.net/subfolder/page.html` のような絶対パスを使用します。 相対パス `/page.html` を開くことはできません。
+* 絶対パスのみを使用し、相対パスは使用しません。 たとえば、`https://some.link.net/subfolder/page.html` のような絶対パスを使用します。 相対パス `/page.html` を開くことはできません。
 
 * 現在は、*HTTP* および *HTTPS* プロトコルのみがサポートされています。 *FTP* や *MAILTO* などは使用しないでください。
 

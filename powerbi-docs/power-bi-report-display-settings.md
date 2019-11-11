@@ -2,7 +2,6 @@
 title: Power BI レポートのページ表示設定
 description: レポートのページ表示設定
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 97df2d6910f0215bd01875c88ea5d81d5dcc2c7c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720856"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875137"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI レポートのページ表示設定
 レポートのレイアウトをピクセル パーフェクトに保つことは重要です。 しかし場合によってはこれは難しいことです。自身や同僚が縦横比やサイズの異なる画面でレポートを表示しなければならない場合があるためです。 
@@ -31,7 +30,7 @@ ms.locfileid: "66720856"
 ページ表示設定は Power BI サービスと Power BI Desktop の両方で使うことができますが、インターフェイスは若干異なります。 次のセクションでは、各 Power BI ツールでの表示設定の場所について説明します。
 
 ### <a name="in-power-bi-desktop"></a>Power BI Desktop の場合
-レポート ビューで、 **[表示]** タブを選んで [ページ表示] 設定と [電話レイアウト] 設定を開きます。
+レポート ビューで、**[表示]** タブを選んで [ページ表示] 設定と [電話レイアウト] 設定を開きます。
 
   ![Desktop のページ表示設定](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
 
@@ -80,5 +79,5 @@ Power BI サービスでは、レポートを開き、左上のメニュー バ�
 
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

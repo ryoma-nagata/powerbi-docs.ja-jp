@@ -2,7 +2,6 @@
 title: Power BI でのレポートへのフィルターの追加
 description: Power BI でレポートにページ フィルター、視覚化フィルター、またはレポート フィルターを追加する
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: bc3fdd40848975dea675ce63955184686912ffd7
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 143851013679dd0356c1ea5036c3d724b1dc436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891887"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875172"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI でのレポートへのフィルターの追加
 
@@ -56,14 +55,14 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 
 ### <a name="filter-the-fields-in-the-visual"></a>ビジュアルでフィールドをフィルター処理する
 
-1. **[その他のオプション (...)]**  >  **[レポートの編集]** を選択して、編集ビューでレポートを開きます。
+1. **[その他のオプション (...)]** > **[レポートの編集]** を選択して、編集ビューでレポートを開きます。
    
    ![レポートの編集ボタン](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 2. 視覚化およびフィルター ウィンドウとフィールド ウィンドウがまだ開いていない場合は開きます。
    
    ![[視覚化]、[フィルター]、[フィールド] のウィンドウ](media/power-bi-report-add-filter/power-bi-display-panes.png)
-3. ビジュアルを選んでアクティブにします。 ビジュアルで使用されているすべてのフィールドが **[フィールド]** ウィンドウに表示され、 **[フィルター]** ウィンドウの **[ビジュアル レベル フィルター]** の見出しにも一覧表示されます。
+3. ビジュアルを選んでアクティブにします。 ビジュアルで使用されているすべてのフィールドが **[フィールド]** ウィンドウに表示され、**[フィルター]** ウィンドウの **[ビジュアル レベル フィルター]** の見出しにも一覧表示されます。
    
    ![ビジュアル レベル フィルターを選択](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
 4. この時点で、視覚化によって既に使われているフィールドにフィルターを追加します。 
@@ -86,11 +85,11 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 
 次に、新しいフィールドをビジュアル レベル フィルターとして視覚エフェクトに追加します。
    
-1. [フィールド] ウィンドウで新しいビジュアル レベル フィルターとして追加するフィールドを選び、 **[ビジュアル レベル フィルター]** 領域までドラッグします。  この例では、**District Manager** を **[ビジュアル レベル フィルター]** バケットにドラッグし、「**an**」を検索して、それらの 3 人のマネージャーを選択します。
+1. [フィールド] ウィンドウで新しいビジュアル レベル フィルターとして追加するフィールドを選び、**[ビジュアル レベル フィルター]** 領域までドラッグします。  この例では、**District Manager** を **[ビジュアル レベル フィルター]** バケットにドラッグし、「**an**」を検索して、それらの 3 人のマネージャーを選択します。
      
     ![[フィルター] ウィンドウにフィールドを追加](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
-    **District Manager** は視覚エフェクト自体に追加されるのでは "*ない*" ことに注意してください。 視覚化はまだ **[StoreNumberName]** を軸とし、 **[This Year Sales (今年の売上)]** を値として構成されています。  
+    **District Manager** は視覚エフェクト自体に追加されるのでは "*ない*" ことに注意してください。 視覚化はまだ **[StoreNumberName]** を軸とし、**[This Year Sales (今年の売上)]** を値として構成されています。  
      
     ![フィールドはビジュアルに含まれていない](media/power-bi-report-add-filter/power-bi-visualization.png)
 
@@ -106,13 +105,13 @@ Desktop と Power BI サービスのどちらを使用しているかに関係�
 
 ページ レベル フィルターを追加して、ページ全体をフィルター処理することもできます。
 
-1. Power BI サービスで、小売りの分析レポートを開き、 **[District Monthly Sales]\(地区の毎月の売上\)** ページに移動します。 
+1. Power BI サービスで、小売りの分析レポートを開き、**[District Monthly Sales]\(地区の毎月の売上\)** ページに移動します。 
 
-2. **[...]**  >  **[レポートの編集]** を選択し、編集ビューでレポートを開きます。
+2. **[...]** > **[レポートの編集]** を選択し、編集ビューでレポートを開きます。
    
    ![レポートの編集ボタン](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. 視覚化およびフィルター ウィンドウとフィールド ウィンドウがまだ開いていない場合は開きます。
-3. [フィールド] ウィンドウで新しいページ レベル フィルターとして追加するフィールドを選び、 **[ページ レベル フィルター]** 領域までドラッグします。  
+3. [フィールド] ウィンドウで新しいページ レベル フィルターとして追加するフィールドを選び、**[ページ レベル フィルター]** 領域までドラッグします。  
 4. フィルターを適用する値を選び、フィルター処理コントロールとして**基本**または**高度**を設定します。
    
    ページ上のすべての視覚化が、変更を反映するように再描画されます。
@@ -127,9 +126,9 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
 ### <a name="create-a-drillthrough-filter"></a>ドリルスルー フィルターを作成する
 作業を進めるために、[お客様の収益性のサンプル](sample-customer-profitability.md#get-the-content-pack-for-this-sample)をダウンロードします。 Executive ビジネス領域に注目したページを作成します。
 
-1. Power BI サービスで、小売りの分析レポートを開き、 **[District Monthly Sales]\(地区の毎月の売上\)** ページに移動します。
+1. Power BI サービスで、小売りの分析レポートを開き、**[District Monthly Sales]\(地区の毎月の売上\)** ページに移動します。
 
-2. **[その他のオプション (...)]**  >  **[レポートの編集]** を選択して、編集ビューでレポートを開きます。
+2. **[その他のオプション (...)]** > **[レポートの編集]** を選択して、編集ビューでレポートを開きます。
    
    ![レポートの編集ボタン](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -150,7 +149,7 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
 2. Andrew Ma が自分のデータだけにフィルター処理された [Team Executive] レポート ページを見たいものとします。  左上の面グラフで任意の緑のデータ ポイントを右クリックして、[ドリルスルー] メニュー オプションを開きます。
    
     ![ドリルスルー アクションの開始](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. **[ドリルスルー] > [Team Executive]** を選んで、 **[Team Executive]** という名前のレポート ページにドリルスルーします。 このページは、右クリックしたデータ ポイント (この場合は Andrew Ma) に関する情報を表示するようにフィルター処理されています。 元のページのすべてのフィルターは、ドリルスルー レポート ページに適用されます。  
+3. **[ドリルスルー] > [Team Executive]** を選んで、**[Team Executive]** という名前のレポート ページにドリルスルーします。 このページは、右クリックしたデータ ポイント (この場合は Andrew Ma) に関する情報を表示するようにフィルター処理されています。 元のページのすべてのフィルターは、ドリルスルー レポート ページに適用されます。  
    
     ![ドリルスルー アクションの選択](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
@@ -161,7 +160,7 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
    ![レポートの編集ボタン](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 2. [視覚化] と [フィルター] のウィンドウと [フィールド] ウィンドウをまだ開いていない場合は、開きます。
-3. [フィールド] ウィンドウで新しいレポート レベル フィルターとして追加するフィールドを選び、 **[レポート レベル フィルター]** 領域までドラッグします。  
+3. [フィールド] ウィンドウで新しいレポート レベル フィルターとして追加するフィールドを選び、**[レポート レベル フィルター]** 領域までドラッグします。  
 4. フィルターする値を選択します。
 
     アクティブ ページおよびレポート内のすべてのページ上のビジュアルに、新しいフィルターが反映されます。 レポートをフィルターとともに保存すると、レポート閲覧者が読み取りビューでフィルターと対話でき、値を選んだりクリアしたりすることができます。
@@ -180,5 +179,5 @@ Power BI サービスと Power BI Desktop のドリルスルーでは、サプ�
 
 [Power BI で使用できるさまざまなフィルター](power-bi-report-filter-types.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

@@ -2,19 +2,18 @@
 title: Power BI モバイル アプリでデータ アラートを設定する
 description: ユーザーが設定した制限を超えてダッシュボードのデータが変化したときにユーザーに通知するように、Power BI モバイル アプリでアラートを設定する方法を説明します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: mshenhav
-ms.openlocfilehash: 65e6414cb31c2b8234bb1f5426c7bff295263308
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61381384"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870111"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータ アラートを設定する
 適用対象:
@@ -136,7 +135,7 @@ Power BI モバイル アプリでは個別のアラートを管理でき、[Pow
 3. アラートをタップして、値を変更したり、オフにしたりします。
    
     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
-4. アラートをまとめて削除するには、右クリックまたは長押しして、 **[削除]** をタップします。
+4. アラートをまとめて削除するには、右クリックまたは長押しして、**[削除]** をタップします。
 
 ## <a name="receiving-alerts"></a>アラートの受信
 モバイル デバイスの Power BI [通知センター](mobile-apps-notification-center.md)または Power BI サービスで、アラートと共に、他のユーザーによって共有するように設定された新しいダッシュボードについての通知を受信します。
@@ -168,5 +167,5 @@ Power BI モバイル アプリでは個別のアラートを管理でき、[Pow
 ## <a name="next-steps"></a>次の手順
 * [Power BI サービスでアラートを管理する](../../service-set-data-alerts.md)
 * [Power BI モバイル通知センター](mobile-apps-notification-center.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

@@ -2,7 +2,6 @@
 title: Power BI モバイル アプリとは
 description: Power BI モバイル アプリは、オンプレミスまたはクラウド内のデータへの接続を維持します。 モバイル デバイス上に Power BI ダッシュボードとレポートを表示します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 04/26/2018
 ms.author: mshenhav
 ms.custom: ''
-ms.openlocfilehash: 40dd5a0ed03a7d6bd258de39bb9c29dcd7390cd9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 05f0526698e0d5d74c4b317261be6753b9296ff0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70064671"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879324"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI モバイル アプリとは
 Power BI では、iOS、Android、および Windows 10 モバイル デバイス用のモバイル アプリを提供しています。 モバイル アプリを使用して、クラウドとオンプレミスのデータに接続して操作します。 

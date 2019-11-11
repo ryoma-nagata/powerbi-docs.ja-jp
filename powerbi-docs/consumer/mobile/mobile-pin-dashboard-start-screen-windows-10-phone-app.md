@@ -2,19 +2,18 @@
 title: Windows 10 のスタート画面にダッシュボードをピン留めする - Power BI モバイル アプリ
 description: 重要なメトリックをひとめで把握できるように、Power BI モバイル アプリから Windows 10 のスタート画面に Power BI のダッシュボードをピン留めする方法について説明します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 78bb51a7ef2d7bd7309c7bb93c27b7e9193b85bf
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 556ca293458c6874097a4733aaed453130778848
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059408"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869860"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Power BI モバイル アプリから Windows 10 のスタート画面にダッシュボードをピン留めする
 Windows 10 用の Power BI モバイル アプリから Power BI のダッシュボードを Windows のスタート画面にピン留めすることができます。 これが*ライブ タイル*になります。 スタート画面でタイルをタップすると、Windows 10 用の Power BI モバイル アプリでダッシュボードが開きます。
@@ -32,8 +31,8 @@ Windows 10 用の Power BI モバイル アプリから Power BI のダッシュ
    ![Windows 10 のライブ タイル](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/pbi_win10ph_startscrn.png)
 
 ## <a name="next-steps"></a>次の手順
-* Windows ストアから [Windows 10 用の Power BI モバイル アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkID=526478)  
+* Windows ストアから [Windows 10 用の Power BI モバイル アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=526478)  
 * [Windows 10 用の Power BI モバイル アプリの概要](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

@@ -3,19 +3,18 @@ title: Power BI の組織のビジュアル
 description: Power BI で組織のビジュアルを使用、管理、作成する
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b10a856a98c892b32e873bd01105c52777d2b413
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946161"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875230"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI の組織のビジュアル
 
@@ -62,4 +61,4 @@ Power BI ビジュアルが重要視される組織もあります。その組�
 
 詳細情報と質問の回答については、[Power BI ビジュアルについてよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-visuals)に関するページを参照してください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

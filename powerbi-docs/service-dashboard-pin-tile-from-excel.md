@@ -2,7 +2,6 @@
 title: Excel から Power BI ダッシュボードにタイルをピン留めする方法
 description: OneDrive for Business 上の Excel から Power BI ダッシュボードにタイルをピン留めします。 範囲、グラフ、テーブルのピン留め
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 273cfbd86573a5eceaf9705ac19b0f7928b59176
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139204"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877431"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel から Power BI ダッシュボードにタイルをピン留めする
 Excel ブックからタイルをピン留めするには、その前にブックを Power BI サービス (app.powerbi.com) に接続する必要があります。 ブックを接続すると、基本的に、そのブックのリンクされた読み取り専用バージョンが Power BI サービスに取り込まれて、範囲をダッシュボードにピン留めできるようになります。 ワークシート全体をダッシュボードにピン留めすることもできます。  
 他のユーザーから共有を受けているブックの場合は、所有者がピン留めしたタイルを表示することはできますが、ダッシュボードのタイルを自分で作成することはできません。 
 
-Excel と Power BI の連携について詳しくは、「[Excel ブック ファイルからデータを取得する](http://go.microsoft.com/fwlink/?LinkID=521962)」をご覧ください。
+Excel と Power BI の連携について詳しくは、「[Excel ブック ファイルからデータを取得する](https://go.microsoft.com/fwlink/?LinkID=521962)」をご覧ください。
 
 Excel ブックからデータをインポートしたり、Excel ブックに接続したりするさまざまな方法に関する Will によるデモをご覧ください。
 
@@ -81,12 +80,12 @@ Power BI でブックのタイルを選択すると、リンク先のブック�
  ![ビデオ](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-サポートされていない機能:Power BI では、Excel Services を使用してブックのタイルを取得します。 そのため、Excel の機能のうち Excel Services の REST API でサポートされていない一部の機能は、Power BI のタイルには表示されません。 例:スパークライン、アイコン セットの条件付き書式、タイム スライサーなどの機能がそれに当たります。 サポートされていない機能の完全な一覧については、「[Excel Services REST API でサポートされない機能](http://msdn.microsoft.com/library/office/ff394477.aspx)」をご覧ください。
+サポートされていない機能:Power BI では、Excel Services を使用してブックのタイルを取得します。 そのため、Excel の機能のうち Excel Services の REST API でサポートされていない一部の機能は、Power BI のタイルには表示されません。 例:スパークライン、アイコン セットの条件付き書式、タイム スライサーなどの機能がそれに当たります。 サポートされていない機能の完全な一覧については、「[Excel Services REST API でサポートされない機能](https://msdn.microsoft.com/library/office/ff394477.aspx)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 [Excel ブックへのリンクがあるダッシュボードを共有する](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [Excel ブックからデータを取得する](service-excel-workbook-files.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

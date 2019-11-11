@@ -2,7 +2,6 @@
 title: データセットを認定する (プレビュー) - Power BI
 description: エンタープライズ ユーザーを信頼性の高い、高品質なデータセットに誘導する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567332"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877162"
 ---
 # <a name="certify-datasets-preview"></a>データセットを認定する (プレビュー)
 
@@ -24,7 +23,7 @@ ms.locfileid: "67567332"
 これで Power BI ユーザーが多様なデータセットにアクセスできるようになるため、企業はユーザーを信頼性の高い、高品質のデータセットに誘導する必要があります。 Power BI には、データセットを*推奨する*方法が 2 つあります。
 
 - **昇格**: データセットの所有者とワークスペース内のその他のユーザーは、広範囲の使用が可能になったデータセットを昇格することができます。 詳細については、「[Promote your dataset](service-datasets-promote.md)」(データセットを昇格する) を参照してください。 
-- **認定**: データセットの所有者は、昇格したデータセットの認定を要求できます。 **データセットの認定**のテナント管理者の設定で定義された選択ユーザーのグループが、認定するデータセットを決定します。 データセットを認定した担当者の名前がデータセット検出エクスペリエンス中にツールヒントに表示されます。 **[認定済み]** ラベルをポイントすると、それが表示されます。
+- **認定**: データセットの所有者は、昇格したデータセットの認定を要求できます。 **データセットの認定**のテナント管理者の設定で定義された選択ユーザーのグループが、認定するデータセットを決定します。 データセットを認定した担当者の名前がデータセット検出エクスペリエンス中にツールヒントに表示されます。**[認定済み]** ラベルをポイントすると、それが表示されます。
 
 ## <a name="certify-a-dataset"></a>データセットを認定する
 
@@ -43,4 +42,4 @@ ms.locfileid: "67567332"
 ## <a name="next-steps"></a>次の手順
 
 * 「[Using datasets across workspaces](service-datasets-across-workspaces.md)」(ワークスペース全体でのデータセットの使用) を参照してください
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

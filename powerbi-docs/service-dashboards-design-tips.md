@@ -2,7 +2,6 @@
 title: 優れた Power BI ダッシュボードのデザインに関するヒント
 description: 優れた Power BI ダッシュボードのデザインに関するヒント
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023767"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877396"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>優れた Power BI ダッシュボードのデザインに関するヒント
 ダッシュボードの作成が完了し、タイルもいくつか追加したので、ダッシュボードの外観をよくすることに加えて、機能的なものにする方法についても考えてみましょう。 通常、この改良は、最も重要な情報を目立つようにしたり、簡潔ですっきりとした外観にしたりすることです。
@@ -24,8 +23,6 @@ ms.locfileid: "69023767"
 
 > [!TIP]
 > このダッシュボードは気に入りましたか? このダッシュボードと関連するレポートを AppSource からダウンロードできます。 **[データの取得]**  >  **[サービス]** に移動します。 **[Microsoft Sample - Sales & Marketing]**  >  **[今すぐ入手する]** を探します。
-
-レポートの多くのデザイン原則は、ダッシュボードにも適用されます。 詳細については、ホワイトペーパー「[レポートとビジュアルのデザインに関するベスト プラクティス](visuals/power-bi-visualization-best-practices.md)」をご覧ください。
 
 以下に、ダッシュボードに関するヒントをいくつか示します。
 
@@ -85,4 +82,4 @@ ms.locfileid: "69023767"
 ## <a name="next-steps"></a>次の手順
 [レポートからダッシュボードを作成する](service-dashboard-create.md)  
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)  
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

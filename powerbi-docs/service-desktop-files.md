@@ -2,7 +2,6 @@
 title: Power BI Desktop ファイルからデータを取得する
 description: Power BI Desktkop から Power BI にデータとレポートを取得する方法について学習します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5e0ad4ed93fac06ace7c8e0569ebb0c2aeac9a87
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ea5e4a4af3f4049ccb9d69fbe95a13dc08a8cf05
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513083"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877103"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop ファイルからデータを取得する
 ![](media/service-desktop-files/pbid_file_icon.png)
@@ -40,7 +39,7 @@ ms.locfileid: "65513083"
 1. Power BI の [ナビゲーター] ウィンドウで、**[データの取得]** をクリックします。
    
    ![](media/service-desktop-files/pbid_get_data_button.png)
-2. **[ファイル]** 、 **[取得]** の順にクリックします。
+2. **[ファイル]**、**[取得]** の順にクリックします。
    
    ![](media/service-desktop-files/pbid_files_get.png)
 3. 目的のファイルを見つけます。 Power BI Desktop ファイルには、.PBIX という拡張子が付いています。
@@ -50,7 +49,7 @@ ms.locfileid: "65513083"
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Power BI Desktop から Power BI サイトへのファイルの発行
 Power BI Desktop の発行機能を使用することは、Power BI でデータの取得機能を使用してローカル ドライブからファイルをインポートしたり、OneDrive 上のファイルに接続したりすることと事実上同じです。  以下では、その手順を簡単に紹介します。詳しくは、「[Power BI Desktop からの発行](desktop-upload-desktop-files.md)」をご覧ください。
 
-1. Power BI Desktop で **[ファイル]**  >  **[発行]**  >  **[Power BI へ発行]** を選択するか、リボンの **[発行]** をクリックします。
+1. Power BI Desktop で **[ファイル]** > **[発行]** > **[Power BI へ発行]** を選択するか、リボンの **[発行]** をクリックします。
    
    ![](media/service-desktop-files/pbid_publish.png)
 2. Power BI にサインインします。 この操作は、最初に 1 回だけ行う必要があります。
@@ -60,7 +59,7 @@ Power BI Desktop の発行機能を使用することは、Power BI でデータ
    ![](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>次の手順
-**データの探索** - ファイルのデータとレポートを Power BI に取得したら、次は探索です。 ファイルに既にレポートがある場合は、[ナビゲーター] ウィンドウの **[レポート]** に表示されます。 ファイルにデータのみが含まれる場合は、新しいレポートを作成できます。そのためには、新しいデータセットを右クリックし、 **[探索]** をクリックします。
+**データの探索** - ファイルのデータとレポートを Power BI に取得したら、次は探索です。 ファイルに既にレポートがある場合は、[ナビゲーター] ウィンドウの **[レポート]** に表示されます。 ファイルにデータのみが含まれる場合は、新しいレポートを作成できます。そのためには、新しいデータセットを右クリックし、**[探索]** をクリックします。
 
 **外部データ ソースの更新** - Power BI Desktop ファイルが外部データ ソースに接続する場合は、データセットが常に最新の状態に保たれるように、更新スケジュールを設定できます。 ほとんどの場合、更新スケジュールを設定するのは非常に簡単ですが、詳細な手順についてはこの記事の範囲外です。 詳しくは、「[Power BI でのデータの更新](refresh-data.md)」をご覧ください。
 

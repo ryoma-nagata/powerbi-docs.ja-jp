@@ -2,7 +2,6 @@
 title: 携帯電話用にダッシュボードを最適化する - Power BI
 description: 携帯電話での表示専用に Power BI サービスでダッシュボードのカスタマイズしたビューを作成する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 75152d546bc2dc622210d5b9e5933ee44fbdc0b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61158264"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872853"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>携帯電話用にダッシュボードを最適化する - Power BI 
 スマートフォンの縦モードでダッシュボードを開くと、ダッシュボードのタイルがすべて同じサイズで並んで表示されることに気付くでしょう。 Power BI サービスでは、ダッシュボードのカスタマイズされたビュー (特にスマートフォンの縦モード用) を作成できます。 スマートフォンのビューを作成した場合でも、電話を横向きにすると、サービスにレイアウトされているダッシュボードが表示されます。
@@ -29,7 +28,7 @@ ms.locfileid: "61158264"
 
 ## <a name="create-a-phone-view-of-a-dashboard"></a>ダッシュボードの Phone ビューを作成する
 1. Power BI サービスでダッシュボードを開きます。
-2. 右上隅の **[Web ビュー]** の横にある矢印を選んでから、 **[Phone ビュー]** を選びます。
+2. 右上隅の **[Web ビュー]** の横にある矢印を選んでから、**[Phone ビュー]** を選びます。
 
     ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
 
@@ -47,17 +46,17 @@ ms.locfileid: "61158264"
     固定解除されたタイルは [ピンを外したタイル] ウィンドウに移動し、再度追加しない限り、そのままです。
    
     ![](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-post-edit.png)
-2. 操作を取り消す場合は、 **[タイルのリセット]** を選ぶと、前のサイズと順序に戻ります。
+2. 操作を取り消す場合は、**[タイルのリセット]** を選ぶと、前のサイズと順序に戻ります。
    
     ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-reset-tiles.png)
    
-    Power BI サービスでスマートフォン用編集ビューを開くだけで、スマートフォン上のタイルのサイズと形状がわずかに変更されます。 ダッシュボードをスマートフォン用編集ビューで開く前の正確な状態に戻すには、 **[タイルのリセット]** を選択します。
-3. スマートフォン用ダッシュボードのレイアウト編集が完了したら、右上隅の **[Phone ビュー]** の横にある矢印を選んだ後、 **[Web ビュー]** を選びます。
+    Power BI サービスでスマートフォン用編集ビューを開くだけで、スマートフォン上のタイルのサイズと形状がわずかに変更されます。 ダッシュボードをスマートフォン用編集ビューで開く前の正確な状態に戻すには、**[タイルのリセット]** を選択します。
+3. スマートフォン用ダッシュボードのレイアウト編集が完了したら、右上隅の **[Phone ビュー]** の横にある矢印を選んだ後、**[Web ビュー]** を選びます。
    
     スマートフォン用レイアウトが自動的に保存されます。
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI 電話アプリ用に最適化したレポートを作成する](desktop-create-phone-report.md)
 * [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](visuals/desktop-create-responsive-visuals.md)
-* 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

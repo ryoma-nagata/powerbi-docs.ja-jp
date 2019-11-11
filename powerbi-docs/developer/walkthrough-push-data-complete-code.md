@@ -3,18 +3,17 @@ title: 完全なコード リスト
 description: データをプッシュするチュートリアル - 完全なコード リスト
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: cdf6bf157a3d8fe1f865c610238e3cd1f829ef9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ac534946b5f7e6fb5bb0164a1144523fa8f2aa94
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710280"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875499"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>データセットにデータをプッシュする処理の完全なコード リスト
 
@@ -235,4 +234,4 @@ ms.locfileid: "65710280"
 [Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

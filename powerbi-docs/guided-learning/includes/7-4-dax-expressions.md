@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 5c2b254f20bd1eba97840a464a1b554cc4fe1238
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f22c12ec0ad5bd413f3658704132143c878df1aa
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273590"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799967"
 ---
 **変数**の使用は、DAX 式の中でも強力な部分を占めています。
 
@@ -18,7 +18,7 @@ ms.locfileid: "61273590"
 
 DAX 式で変数を参照するたびに、Power BI は定義に従ってその値を再計算する必要があることに注意してください。 このため、関数内で変数を繰り返さないようにすることをお勧めします。
 
-> ビデオ コンテンツは、[SQLBI 社の Alberto Ferrari 氏](http://www.sqlbi.com/learning-dax)のご厚意によるものです。
+> ビデオ コンテンツは、[SQLBI 社の Alberto Ferrari 氏](https://www.sqlbi.com/learning-dax)のご厚意によるものです。
 > 
 > 
 

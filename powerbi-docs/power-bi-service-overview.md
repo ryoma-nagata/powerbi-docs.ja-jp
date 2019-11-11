@@ -2,7 +2,6 @@
 title: Power BI サービスとは何ですか?
 description: Power BI サービスの概要と、Power BI の他の部分にどのように適合するかを説明します。
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 featuredvideoid: B2vd4MQrz4M
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 22446936f36074379242bd54af15c9bb2864e4a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060865"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874983"
 ---
 # <a name="what-is-the-power-bi-service"></a>Power BI サービスとは何ですか?
 **Power BI** は、ソフトウェア サービス、アプリ、コネクタのコレクションで、これらを連携させることで、ユーザーおよびユーザーのビジネスに最も効率的な方法でビジネスの分析情報を作成、共有、および使用できるようにします。 Microsoft Power BI *サービス* (app.powerbi.com) は、Power BI オンラインとも呼ばれ、Power BI の SaaS (*サービスとしてのソフトウェア*) の一部です。 Power BI サービスでは、*ダッシュボード*を使うと、ビジネスの実情を正確に把握することができます。 ダッシュボードには*タイル*が表示され、それを選択して*レポート*を開くと、さらに調査することができます。 ダッシュボードとレポートは、すべての関連データを 1 か所にまとめた*データセット*に接続されます。 

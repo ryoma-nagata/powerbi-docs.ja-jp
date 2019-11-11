@@ -2,7 +2,6 @@
 title: Power BI での散布図、バブル チャート、およびドット プロット グラフ
 description: Power BI での散布図、ドット プロット グラフ、およびバブル チャート
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d776425d4c19070c00658cbd588c5421d22a0057
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192781"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870830"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI での散布図、バブル チャート、およびドット プロット グラフ
 
@@ -78,7 +77,7 @@ ms.locfileid: "71192781"
 
 ## <a name="prerequisites"></a>前提条件
 
-このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
 
 1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
    
@@ -172,4 +171,4 @@ ms.locfileid: "71192781"
 
 * [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

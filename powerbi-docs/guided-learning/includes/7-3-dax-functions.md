@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273617"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799965"
 ---
 DAX では、データの整形、形成、あるいは分析に使用できる多くの関数が用意されています。 これらの関数は、次に示すいくつかのカテゴリに分類することができます。
 
@@ -97,7 +97,7 @@ DAX には、次の**日付**関数が含まれています。
 
 これらの関数は、*日付*の値から情報を計算したり抽出したりする場合に便利ですが、日付テーブルを使用するタイム インテリジェンスには適用されません。
 
-> ビデオ コンテンツは、[SQLBI 社の Alberto Ferrari 氏](http://www.sqlbi.com/learning-dax)のご厚意によるものです。
+> ビデオ コンテンツは、[SQLBI 社の Alberto Ferrari 氏](https://www.sqlbi.com/learning-dax)のご厚意によるものです。
 > 
 > 
 

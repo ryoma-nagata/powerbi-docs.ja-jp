@@ -2,19 +2,18 @@
 title: Power BI モバイル アプリでデータをオフライン表示する
 description: ネットワークに接続していなくてもデータを表示できるという、モバイル ブラウザーでなくモバイル アプリで Power BI を表示する利点について説明します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: d0d9b10c24d3d9da60ecf1afde7347f53d20f224
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059435"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870612"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータをオフライン表示する
 適用対象:
@@ -64,6 +63,6 @@ Power BI モバイル アプリで使用したいその他の機能にぜひ投�
 
 * [モバイル デバイス用の Power BI アプリ](mobile-apps-for-mobile-devices.md)
 * Twitter で @MSPowerBI をフォローする
-* [Power BI コミュニティの会話](http://community.powerbi.com/)に参加する
+* [Power BI コミュニティの会話](https://community.powerbi.com/)に参加する
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
 

@@ -2,19 +2,18 @@
 title: iOS デバイスの検索と Power BI の統合
 description: デバイスの検索 (Spotlight) を使用して必要なコンテンツを検索し、アクセスします
 author: michalfo
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f89895650bb0b81533aeddbc149f225742dc9d3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66817078"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879224"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>iOS デバイスの検索 (Spotlight) と Power BI Mobile iOS アプリの統合 (プレビュー)
 iOS デバイスの検索を使用して必要なコンテンツを検索し、アクセスします。
@@ -51,7 +50,7 @@ Siri を利用したデバイスの検索では、Power BI アプリで頻繁に
 ## <a name="next-steps"></a>次の手順
 次の手順に従って、Power BI Mobile アプリの詳細を確認します。 
 
-* [Power BI iPhone モバイル アプリ](http://go.microsoft.com/fwlink/?LinkId=522062)をダウンロードする
+* [Power BI iPhone モバイル アプリ](https://go.microsoft.com/fwlink/?LinkId=522062)をダウンロードする
 * [Twitter で @MSPowerBI](https://twitter.com/MSPowerBI) をフォローする
-* [Power BI コミュニティの会話](http://community.powerbi.com/)に参加する
+* [Power BI コミュニティの会話](https://community.powerbi.com/)に参加する
 

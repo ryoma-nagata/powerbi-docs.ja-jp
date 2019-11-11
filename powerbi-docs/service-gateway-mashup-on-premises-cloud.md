@@ -2,7 +2,6 @@
 title: オンプレミスとクラウド データ ソースのマージまたはアペンド
 description: オンプレミス データ ゲートウェイを使用し、オンプレミスとクラウドのデータ ソースを同じクエリでマージまたはアペンドします。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e5a4e862c89d08b4e277cb4abae934f3fd47141e
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 079e3c785277c91bdc09f91c083e80abd6bdd36b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757637"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881619"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>オンプレミスとクラウド データ ソースのマージまたはアペンド
 
@@ -34,13 +33,13 @@ ms.locfileid: "68757637"
 >[!NOTE]
 >クラウド データ ソースにアクセスするには、確実にゲートウェイがそれらのデータ ソースにアクセスできるようにする必要があります。
 
-1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) >  **[ゲートウェイの管理]** の順に選択します。
+1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **[ゲートウェイの管理]** の順に選択します。
 
     ![ゲートウェイの管理](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
 
 2. 構成するゲートウェイを選択します。
 
-3. **[ゲートウェイ クラスターの設定]** で **[Allow user's cloud data sources to refresh through this gateway cluster]\(このゲートウェイ クラスターでユーザーのクラウド データ ソースを更新することを許可します\)**  >  **[適用]** の順に選択します。
+3. **[ゲートウェイ クラスターの設定]** で **[Allow user's cloud data sources to refresh through this gateway cluster]\(このゲートウェイ クラスターでユーザーのクラウド データ ソースを更新することを許可します\)** > **[適用]** の順に選択します。
 
     ![このゲートウェイ クラスターで更新する](media/service-gateway-mashup-on-premises-cloud/refresh-gateway-cluster.png)
 
@@ -57,7 +56,7 @@ ms.locfileid: "68757637"
 
      ![データセットの設定](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-7. クラウドの資格情報が設定されたので、 **[今すぐ更新]** オプションを利用してデータセットを更新できるようになりました。 または、定期的に更新するようにスケジュールを設定できます。
+7. クラウドの資格情報が設定されたので、**[今すぐ更新]** オプションを利用してデータセットを更新できるようになりました。 または、定期的に更新するようにスケジュールを設定できます。
 
 ## <a name="next-steps"></a>次の手順
 

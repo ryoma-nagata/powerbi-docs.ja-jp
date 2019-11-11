@@ -2,7 +2,6 @@
 title: データ ソースの管理 - SQL
 description: オンプレミス データ ゲートウェイとそのゲートウェイに属しているデータ ソースを管理する方法。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ca8cf2e9c20f2efb4fe4b9f80a936ba887cccc93
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 66e9b53761fa154fe76cefea99cb5c88345b97aa
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832376"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881634"
 ---
 # <a name="manage-your-data-source---sql-server"></a>データ ソースの管理 - SQL Server
 
@@ -25,7 +24,7 @@ ms.locfileid: "68832376"
 
 ## <a name="add-a-data-source"></a>データ ソースの追加
 
-データ ソースを追加する方法の詳細については、「[データ ソースの追加](service-gateway-data-sources.md#add-a-data-source)」を参照してください。 **[データ ソースの種類]** で、 **[SQL Server]** を選択します。
+データ ソースを追加する方法の詳細については、「[データ ソースの追加](service-gateway-data-sources.md#add-a-data-source)」を参照してください。 **[データ ソースの種類]** で、**[SQL Server]** を選択します。
 
 ![SQL Server データ ソースの選択](media/service-gateway-enterprise-manage-sql/datasourcesettings2.png)
 
@@ -34,14 +33,14 @@ ms.locfileid: "68832376"
 
 **[サーバー]** や **[データベース]** など、データ ソースの情報を入力します。 
 
-**[認証方法]** で、 **[Windows]** または **[基本]** を選択します。 Windows 認証ではなく SQL 認証を使用する場合は、 **[基本]** を選択します。 次に、このデータ ソースに使用する資格情報を入力します。
+**[認証方法]** で、**[Windows]** または **[基本]** を選択します。 Windows 認証ではなく SQL 認証を使用する場合は、**[基本]** を選択します。 次に、このデータ ソースに使用する資格情報を入力します。
 
 > [!NOTE]
 > データ ソースへのすべてのクエリは、これらの資格情報を使用して実行されますが、Kerberos シングル サインオン (SSO) が構成されていて、データ ソースに対して有効な場合を除きます。 SSO を使用すると、インポート データセットは保存された資格情報を使用しますが、DirectQuery データセットは現在の Power BI ユーザーを使用し、SSO を使用してクエリを実行します。 資格情報の格納方法の詳細については、「[暗号化された資格情報をクラウドに格納する](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)」を参照してください。 または、[Power BI からオンプレミス データ ソースへのシングル サインオン (SSO) に Kerberos を使用する](service-gateway-sso-kerberos.md)方法について説明している記事を参照してください。
 
 ![データ ソース設定の入力](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 
-すべての情報を入力したら、 **[追加]** を選択します。 これで、オンプレミスの SQL Server サーバーに対するスケジュールされた更新または DirectQuery にこのデータ ソースを使用できるようになりました。 成功すると、"*接続成功*" というメッセージが表示されます。
+すべての情報を入力したら、**[追加]** を選択します。 これで、オンプレミスの SQL Server サーバーに対するスケジュールされた更新または DirectQuery にこのデータ ソースを使用できるようになりました。 成功すると、"*接続成功*" というメッセージが表示されます。
 
 ![接続の状態の表示](media/service-gateway-enterprise-manage-sql/datasourcesettings4.png)
 
@@ -81,5 +80,5 @@ Power BI Desktop とゲートウェイ用に構成されているデータ ソ�
 * [ゲートウェイのトラブルシューティング - Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI からオンプレミス データ ソースへのシングル サインオン (SSO) に Kerberos を使用する](service-gateway-sso-kerberos.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)で質問してみてください。
+他にわからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
 
