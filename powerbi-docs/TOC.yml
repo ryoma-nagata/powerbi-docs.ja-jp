@@ -131,7 +131,7 @@
               href: desktop-connect-pdf.md
             - name: Adobe Analytics への接続
               href: desktop-connect-adobe-analytics.md
-            - name: Oracle データベースに接続する
+            - name: Oracle データベースへの接続
               href: desktop-connect-oracle-database.md
             - name: Power BI Desktop での Python スクリプトの実行
               href: desktop-python-scripts.md
@@ -149,19 +149,19 @@
               href: desktop-r-ide.md
             - name: サポートされる R パッケージ
               href: service-r-packages-support.md
-            - name: Power BI Desktop に直接データを入力する
+            - name: Power BI Desktop にデータを直接入力する
               href: desktop-enter-data-directly-into-desktop.md
-            - name: Power BI Desktop における Excel への接続
+            - name: Power BI Desktop で Excel に接続する
               href: desktop-connect-excel.md
             - name: Power BI Desktop の Analysis Services 多次元データ
               href: desktop-ssas-multidimensional.md
-            - name: Power BI Desktop における CSV ファイルへの接続
+            - name: Power BI Desktop で CSV に接続する
               href: desktop-connect-csv.md
             - name: Power BI Desktop で Google BigQuery データベースに接続する
               href: desktop-connect-bigquery.md
             - name: Power BI Desktop で Impala データベースに接続する
               href: desktop-connect-impala.md
-            - name: Power BI Desktop における OData フィードへの接続
+            - name: Power BI Desktop で OData フィードに接続する
               href: desktop-connect-odata.md
             - name: Power BI Desktop で Amazon Redshift データベースに接続する
               href: desktop-connect-redshift.md
@@ -185,7 +185,7 @@
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery と SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Power BI Desktop で参照整合性の設定を想定する
+            - name: Power BI Desktop で参照整合性設定を想定する
               href: desktop-assume-referential-integrity.md
             - name: Power BI Desktop で SAP BW Connector を使用する
               href: desktop-sap-bw-connector.md
@@ -229,7 +229,7 @@
               href: desktop-tooltips.md
             - name: PDF へのエクスポートおよびレポートの印刷
               href: desktop-export-to-pdf.md
-            - name: Power BI Desktop の Analytics ウィンドウ
+            - name: 'Power BI Desktop の [分析] ウィンドウ'
               href: desktop-analytics-pane.md
             - name: 分析情報を使用して増加と減少を説明する
               href: desktop-insights.md
@@ -303,7 +303,7 @@
               href: desktop-see-data-see-records.md
             - name: レポートを作成するためのヒント
               href: desktop-tips-and-tricks-for-creating-reports.md
-        - name: 視覚エフェクト
+        - name: 視覚化
           items:
             - name: Power BI での視覚化
               href: visuals/power-bi-report-visualizations.md
@@ -355,7 +355,7 @@
               href: visuals/desktop-matrix-visual.md
             - name: Q&A ビジュアル
               href: visuals/power-bi-visualization-q-and-a.md
-            - name: Power BI で R スクリプトを使用して、詳細なアナリティクスおよび視覚エフェクトを作成する
+            - name: Power BI で R スクリプトを使用して高度な分析とビジュアルを作成する
               href: visuals/service-r-visuals.md
             - name: Power BI の放射状ゲージ グラフ
               href: visuals/power-bi-visualization-radial-gauge-charts.md
@@ -417,7 +417,7 @@
       items:
         - name: Power BI Desktop のビデオ
           href: desktop-videos.md
-        - name: Power BI Desktop に対する以前の月ごとの更新
+        - name: Power BI Desktop に対する以前の毎月の更新
           href: desktop-latest-update-archive.md
         - name: Power BI Desktop "気に入った機能の報告" のプライバシーに関する声明
           href: desktop-send-smile-privacy-statement.md
@@ -503,13 +503,13 @@
               href: service-interruption-notifications.md
         - name: Power BI をさらにパワーアップ
           items:
-            - name: Microsoft Flow および Power BI
+            - name: Microsoft Flow と Power BI
               href: service-flow-integration.md
             - name: サード パーティ製アプリを使用する
               href: service-power-bi-get-started-third-party-apps.md
     - name: 方法
       items:
-        - name: ファイルからデータを取得
+        - name: ファイルからのデータの取得
           items:
             - name: ファイルからデータを取得
               href: service-get-data-from-files.md
@@ -557,7 +557,7 @@
               href: service-azure-sql-data-warehouse-with-direct-connect.md
             - name: Azure SQL Database と DirectQuery
               href: service-azure-sql-database-with-direct-connect.md
-            - name: Power BI での SQL Server Analysis Services ライブ データ
+            - name: Power BI の SQL Server Analysis Services ライブ データ
               href: sql-server-analysis-services-tabular-data.md
         - name: データの更新
           items:
@@ -595,7 +595,7 @@
               href: service-dashboard-pin-tile-from-q-and-a.md
             - name: レポート ページ全体をダッシュボードにピン留めする
               href: service-dashboard-pin-live-tile-from-report.md
-            - name: Power BI service におけるデータ通知
+            - name: Power BI サービスでのデータ アラート
               href: service-set-data-alerts.md
             - name: イメージ、テキスト ボックス、ビデオ、コードをダッシュボードに追加する
               href: service-dashboard-add-widget.md
@@ -607,7 +607,7 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: タイルの QR コードを作成する
               href: service-create-qr-code-for-tile.md
-            - name: ダッシュボード データの分類
+            - name: ダッシュボードのデータの分類
               href: service-data-classification.md
             - name: ダッシュボード テーマ
               href: service-dashboard-themes.md
@@ -691,7 +691,7 @@
               href: service-embed-report-spo.md
             - name: セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
               href: service-embed-secure.md
-            - name: Power BI から Web への発行
+            - name: Power BI から Web への公開
               href: service-publish-to-web.md
             - name: OneDrive 上の Excel ブックにリンクするダッシュボードを共有する
               href: service-share-dashboard-that-links-to-excel-onedrive.md
@@ -809,58 +809,20 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
-                - name: Alpine Metrics Sales Predictions
-                  href: service-connect-to-alpine-metrics.md
-                - name: appFigures
-                  href: service-connect-to-appfigures.md
-                - name: Application Insights
-                  href: service-connect-to-application-insights.md
                 - name: Azure の監査ログ
                   href: service-connect-to-azure-audit-logs.md
-                - name: Azure Mobile Engagement
-                  href: service-connect-to-azure-mobile.md
-                - name: ClickDimensions
-                  href: service-connect-to-clickdimensions.md
-                - name: comScore Digital Analytix
-                  href: service-connect-to-connect-to.md
                 - name: GitHub
                   href: service-connect-to-github.md
-                - name: Insightly
-                  href: service-connect-to-insightly.md
-                - name: IntelliBoard
-                  href: service-connect-to-intelliboard.md
-                - name: Lithium
-                  href: service-connect-to-lithium.md
-                - name: Mandrill
-                  href: service-connect-to-mandrill.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: Prevedere
-                  href: service-connect-to-prevedere.md
                 - name: Project Online
                   href: service-connect-to-project-online.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
                 - name: Salesforce
                   href: service-connect-to-salesforce.md
-                - name: SendGrid
-                  href: service-connect-to-sendgrid.md
-                - name: ServiceNow Incidents
-                  href: service-connect-to-servicenow.md
                 - name: Smartsheet
                   href: service-connect-to-smartsheet.md
-                - name: SQL Sentry
-                  href: service-connect-to-sql-sentry.md
-                - name: SweetIQ
-                  href: service-connect-to-sweetiq.md
-                - name: Troux
-                  href: service-connect-to-troux.md
-                - name: Twilio
-                  href: service-connect-to-twilio.md
-                - name: VMob
-                  href: service-connect-to-vmob.md
-                - name: Windows デベロッパー センター
-                  href: service-connect-to-windows-dev-center.md
                 - name: Xero
                   href: service-connect-to-xero.md
                 - name: Zendesk
@@ -887,7 +849,7 @@
       items:
         - name: ビデオ
           href: videos.md
-        - name: ウェビナー
+        - name: Web セミナー
           href: webinars.md
 - name: Power BI Premium
   items:
@@ -997,7 +959,7 @@
       items:
         - name: 新着情報
           href: report-server/whats-new.md
-        - name: ログを変更する
+        - name: 変更ログ
           href: report-server/changelog.md
         - name: サポート タイムライン
           href: report-server/support-timeline.md
@@ -1067,7 +1029,7 @@
               href: report-server/upgrade.md
             - name: レポート サーバーの移行
               href: report-server/migrate-report-server.md
-            - name: Power BI レポートの使用向けに Kerberos を構成
+            - name: Power BI レポートを使用するために Kerberos を構成する
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: リモートでモバイル アプリへのアクセスを構成する
               href: report-server/configure-powerbi-mobile-apps-remote.md
