@@ -1,19 +1,19 @@
 ---
 title: Power BI レポート ビルダーでの式の例
 description: 式は、Power BI ページ分割されたレポート ビルダーのページ分割されたレポートで、内容とレポートの外観を制御するためによく使われます。
-ms.date: 06/06/2019
+ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
+ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624154"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72728562"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI レポート ビルダーでの式の例
 式は、Power BI ページ分割されたレポート ビルダーのページ分割されたレポートで、内容とレポートの外観を制御するためによく使われます。 式を記述するには Microsoft Visual Basic を使い、式では組み込み関数、カスタム コード、レポートとグループ変数、およびユーザー定義変数を使うことができます。 式は等号 (=) で始まります。   
@@ -35,7 +35,7 @@ ms.locfileid: "68624154"
 単純な式と複雑な式、式を使用できる場所、および式に含めることができる参照の種類について詳しくは、「[Expressions in Power BI Report Builder](report-builder-expressions.md)」(Power BI レポート ビルダーでの式) のトピックをご覧ください。 
   
 ## <a name="functions"></a>関数  
- レポート内の多くの式には、関数が含まれます。 これらの関数を使って、データの書式設定、ロジックの適用、レポートのメタデータへのアクセスを行うことができます。 Microsoft Visual Basic ランタイム ライブラリの関数や、`xref:System.Convert` および `xref:System.Math` 名前空間の関数を使って、式を記述することができます。 他のアセンブリまたはカスタム コードから関数への参照を追加することができます。 また、`xref:System.Text.RegularExpressions` などの Microsoft .NET Framework のクラスを使うこともできます。  
+ レポート内の多くの式には、関数が含まれます。 これらの関数を使って、データの書式設定、ロジックの適用、レポートのメタデータへのアクセスを行うことができます。 Microsoft Visual Basic ランタイム ライブラリの関数や、`xref:System.Convert` および `xref:System.Math` 名前空間の関数を使って、式を記述することができます。 カスタム コード内の関数への参照を追加できます。 また、`xref:System.Text.RegularExpressions` などの Microsoft .NET Framework のクラスを使うこともできます。  
   
 ##  <a name="VisualBasicFunctions"></a> Visual Basic の関数  
  Visual Basic の関数を使って、テキスト ボックスに表示されるデータや、パラメーター、プロパティ、またはレポートの他の領域に使われるデータを、操作することができます。 このセクションでは、これらの関数の使い方を示す例を提供します。 詳しくは、MSDN の「[Visual Basic ランタイム ライブラリのメンバー](https://go.microsoft.com/fwlink/?LinkId=198941)」をご覧ください。  
@@ -476,7 +476,7 @@ ms.locfileid: "68624154"
     ```  
   
 ##  <a name="CustomCode"></a> カスタム コード  
- レポートでカスタム コードを使用できます。 カスタム コードは、レポートに埋め込むか、またはレポートで使われるカスタム アセンブリに格納します。  
+ レポートに埋め込まれたカスタム コードを使用できます。 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>カスタム集計に対するグループ変数の使用  
  特定のグループ スコープのローカルなグループ変数に対する値を初期化した後、その変数への参照を式に含めることができます。 カスタム コードでグループ変数を使用できる方法の 1 つは、カスタム集計を実装することです。 

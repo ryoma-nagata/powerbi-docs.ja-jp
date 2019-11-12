@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6d8de145f9158e4aa649fa39670fdf2808fc5af4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903969"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021093"
 ---
 1. 最初に、ワークスペースを作成します。 **[ワークスペース]**  >  **[ワークスペースの作成]** を選択します。 
    
@@ -53,7 +53,7 @@ ms.locfileid: "70903969"
 
 7. **[保存]** を選択します。
 
-Power BI でワークスペースが作成され、開きます。 メンバーであるワークスペースの一覧が表示されます。 管理者は、省略記号 (...) を選択すると、前の画面に戻って新しいメンバーの追加やアクセス許可の変更などの変更を加えることができます。
+Power BI でワークスペースが作成され、開きます。 メンバーであるワークスペースの一覧が表示されます。 管理者は、 **[その他のオプション]** (...) を選択して、前の画面に戻り、新しいメンバーの追加やアクセス許可の変更などの変更を加えることができます。
 
 ![ワークスペースの編集](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 
