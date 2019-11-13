@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 075d4ea0c243f77ebf0d29020f25bbca6567c6c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870779"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009830"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI のセキュリティに関するホワイトペーパー
 
@@ -334,12 +334,6 @@ RLS データ ソースと非 RLS データ ソースを比較対照する簡単
 
 共有されたダッシュ ボードまたはレポートに Ralph がアクセスする場合も、Ralph が持つロール レベルに基づいて同じ順序で処理が行われます。
 
-## <a name="power-bi-and-expressroute"></a>Power BI と ExpressRoute
-
-Power BI と ExpressRoute を使用すると、組織から Power BI へのプライベート ネットワーク接続を作成して (または ISP の共用施設を使用して) インターネットを迂回することにより、機密性の高い Power BI データおよび接続のセキュリティを高めることができます。
-
-ExpressRoute は、(Power BI が存在する) Azure データセンターとオンプレミスのインフラストラクチャとの間または Azure データセンターとコロケーション環境との間にプライベート接続を作成することを可能にする Azure サービスです。 詳細については、「[Power BI と ExpressRoute](service-admin-power-bi-expressroute.md)」の記事を参照してください。
-
 ## <a name="power-bi-mobile"></a>Power BI Mobile
 
 Power BI Mobile は、Android、iOS、Windows Mobile という3つの主要なモバイルプラットフォーム向けに設計されたアプリのコレクションです。 Power BI Mobile アプリのセキュリティに関する考慮事項は、2 つのカテゴリに分類されます。
@@ -450,7 +444,7 @@ Power BI Mobile が使用可能な 3 つのプラットフォームすべてで�
 
 **自社のネットワークの外部に情報を送信する、その他の Power BI ビジュアルはありますか?**
 
-* はい。 Bing 地図と ESRI ビジュアルは、これらのサービスを使用するビジュアルに関して、Power BI サービスの外部にデータを送信します。 Power BI 外部テナント トラフィックに関する詳細な情報については、「[**Power BI と ExpressRoute**](service-admin-power-bi-expressroute.md)」を参照してください。
+* はい。 Bing 地図と ESRI ビジュアルは、これらのサービスを使用するビジュアルに関して、Power BI サービスの外部にデータを送信します。
 
 **テンプレートアプリの場合、Microsoft では、ギャラリーに項目を公開する前に、テンプレートアプリのセキュリティまたはプライバシー評価を実行しますか。**
 * いいえ。 アプリの発行元は、テンプレートアプリの発行元を信頼するかどうかを確認し、その内容を決定すると同時に、コンテンツの責任を負うものとします。 
@@ -487,7 +481,6 @@ Power BI に関する詳細については、次のリソースを参照して�
 - [Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)
 - [On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)
-- [Power BI と ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 国内クラウド](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Power BI からオンプレミス データ ソースへの SSO での Kerberos の使用](service-gateway-sso-overview.md)
