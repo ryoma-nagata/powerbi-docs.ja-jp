@@ -119,6 +119,8 @@
           items:
             - name: Power BI Desktop のデータ ソース
               href: desktop-data-sources.md
+            - name: LinkedIn Sales Navigator への接続 (プレビュー)
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: 例による Web ページへの接続 (プレビュー)
               href: desktop-connect-to-web-by-example.md
             - name: Power BI サービスでのデータセットへの接続
@@ -201,6 +203,8 @@
           items:
             - name: バイナリの結合
               href: desktop-combine-binaries.md
+            - name: Power BI Desktop で AI 分析情報を使用する (プレビュー)
+              href: desktop-ai-insights.md
         - name: データのモデル化
           items:
             - name: Power BI Desktop でのデータ分類
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: Power BI での複合グラフ
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: Power BI の分解ツリー (プレビュー)
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: Power BI のドーナツ グラフ
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: Power BI の塗り分け地図 (コロプレス)
@@ -405,6 +411,8 @@
       items:
         - name: Power BI Desktop でのデータ型
           href: desktop-data-types.md
+        - name: Power BI Desktop で更新されたリボンを使用する (プレビュー)
+          href: desktop-ribbon.md
         - name: Power BI Desktop の式エディターのショートカット
           href: desktop-formula-editor.md
         - name: Power BI Desktop のプライバシー レベル
