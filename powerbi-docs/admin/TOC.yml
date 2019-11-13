@@ -40,8 +40,6 @@
           href: ../service-admin-health.md
         - name: アカウントを削除しています
           href: ../service-admin-closing-your-account.md
-        - name: ExpressRoute
-          href: ../service-admin-power-bi-expressroute.md
         - name: Azure AD B2B を使用する
           href: ../service-admin-azure-ad-b2b.md
         - name: データ保護
