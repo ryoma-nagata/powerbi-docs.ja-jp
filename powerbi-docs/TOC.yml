@@ -381,8 +381,6 @@
               href: visuals/power-bi-visualization-treemaps.md
             - name: Power BI のウォーターフォール図
               href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: 動的な参照線を作成する
-              href: service-analytics-pane.md
         - name: 自然言語
           items:
             - name: Q&A 概要
