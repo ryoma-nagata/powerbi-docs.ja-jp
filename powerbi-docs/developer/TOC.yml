@@ -45,8 +45,10 @@
               href: office-store.md
             - name: Power BI で R を利用したカスタム ビジュアルを使用する
               href: ../desktop-r-powered-custom-visuals.md
-            - name: ビジュアルの相互作用
+            - name: ビジュアルの相互作用を許可する
               href: visuals/visuals-interactions.md
+            - name: 選択範囲を追加する
+              href: visuals/selection-api.md
             - name: ビジュアルのツールヒントを追加する
               href: visuals/add-tooltips.md
             - name: 分析ウィンドウを追加する
@@ -57,6 +59,8 @@
               href: visuals/fetch-more-data.md
             - name: ブックマーク サポートを追加する
               href: visuals/bookmarks-support.md
+            - name: コンテキスト メニュー サポートを追加する
+              href: visuals/context-menu.md
             - name: ビジュアル内のデータを強調表示する
               href: visuals/highlight.md
             - name: ハイコントラスト モードのサポートを追加する
@@ -65,6 +69,8 @@
               href: visuals/enable-sync-slicers.md
             - name: Power BI ビジュアルのトラブルシューティング
               href: ../power-bi-custom-visuals-troubleshoot.md
+            - name: 新しい powerbi ビジュアルツールへの移行
+              href: visuals/migrate-to-new-tools.md
         - name: リファレンス
           items:
             - name: ランディング ページ
@@ -77,6 +83,8 @@
               href: visuals/event-service.md
             - name: 並べ替え
               href: visuals/sort-options.md
+            - name: インタラクティビティ ユーティリティ
+              href: visuals/utils-interactivity-selections.md
         - name: リソース
           items:
             - name: デベロッパー センター
