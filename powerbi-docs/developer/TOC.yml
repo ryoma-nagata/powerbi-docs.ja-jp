@@ -12,7 +12,7 @@
         - name: 概要
           items:
             - name: Power BI のビジュアル
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: チュートリアル
           items:
             - name: Power BI のビジュアルを開発する
@@ -24,11 +24,11 @@
         - name: 概念
           items:
             - name: Power BI での組織のビジュアル
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: Power BI ビジュアルのガイドライン
               href: guidelines-powerbi-visuals.md
             - name: ビジュアルに関する FAQ
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: 機能を使用する
               href: visuals/capabilities.md
             - name: データ ビューのマッピング
@@ -40,12 +40,12 @@
         - name: 方法
           items:
             - name: ビジュアルの認定を受ける
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: カスタム ビジュアルを AppSource に発行する
               href: office-store.md
             - name: Power BI で R を利用したカスタム ビジュアルを使用する
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: ビジュアルの相互作用を許可する
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: ビジュアルの相互作用
               href: visuals/visuals-interactions.md
             - name: 選択範囲を追加する
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: スライサーの同期を有効にする
               href: visuals/enable-sync-slicers.md
             - name: Power BI ビジュアルのトラブルシューティング
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: 新しい powerbi ビジュアルツールへの移行
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: リファレンス
           items:
             - name: ランディング ページ
