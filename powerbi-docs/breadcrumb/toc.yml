@@ -18,3 +18,6 @@
         - name: レポート サーバー
           tocHref: /power-bi/report-server/
           topicHref: /power-bi/report-server/get-started
+        - name: ガイダンス
+          tocHref: /power-bi/guidance/
+          topicHref: /power-bi/guidance/index
