@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4aa3d46741044498846865278db51859980a19b9
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872403"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010836"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>オンプレミス データ ゲートウェイに関するよく寄せられる質問 (FAQ) - Power BI
 
@@ -41,10 +41,6 @@ ms.locfileid: "73872403"
 **質問:** Oracle サーバーに接続できないのはなぜですか。 
 
 **回答:** Oracle サーバーに接続するには、Oracle クライアントをインストールし、tnsnames.ora ファイルに適切なサーバー情報を構成することが必要な場合があります。 このインストールは、ゲートウェイとは別に行います。 詳細については、「[Oracle クライアントのインストール](service-gateway-onprem-manage-oracle.md#install-the-oracle-client)」をご覧ください。
-
-**質問:** ゲートウェイは Azure ExpressRoute と連携して動作しますか。 
-
-**回答:** はい。 ExpressRoute と Power BI の詳細については、「[Power BI と ExpressRoute](service-admin-power-bi-expressroute.md)」を参照してください。
 
 **質問:** R スクリプトを使用しています。 これには対応していますか。
 

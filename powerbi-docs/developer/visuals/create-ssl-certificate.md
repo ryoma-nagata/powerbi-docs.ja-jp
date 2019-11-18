@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: d24135cc55ebc8cdfd2a1279cb2a2a46f8f0bc3e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 224b6db8fa04a471a1ce7d1fff2b34a838d6fb9d
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880184"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060349"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL 証明書を作成する
 
@@ -22,20 +22,19 @@ ms.locfileid: "73880184"
 Windows 8 以降で PowerShell `New-SelfSignedCertificate` コマンドレットを使用して証明書を作成するには、次のコマンドを実行します。
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 ツールを使用するには、Windows 7 用の OpenSSL をインストールする必要があります。 OpenSSL ユーティリティはコマンド ラインから使用できる必要があります。
 
 OpenSSL をインストールするには、[OpenSSL](https://www.openssl.org) サイトまたは [OpenSSL バイナリ](https://wiki.openssl.org/index.php/Binaries) サイトにアクセスします。
 
-
-
 ## <a name="create-a-certificate-mac-os-x"></a>証明書を作成する (Mac OS X)
 
 通常、OpenSSL ユーティリティは、Linux または Mac OS X オペレーティング システムで使用できます。
 
 次のいずれかのコマンドを実行して、ユーティリティをインストールすることもできます。
+
 * *Brew* パッケージ マネージャーからの場合:
 
     ```cmd
@@ -52,7 +51,7 @@ OpenSSL をインストールするには、[OpenSSL](https://www.openssl.org) �
 新しい証明書を生成するための OpenSSL ユーティリティをインストールしたら、次のコマンドを実行します。
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 ## <a name="create-a-certificate-linux"></a>証明書を作成する (Linux)
@@ -80,7 +79,7 @@ pbiviz --create-cert
 ご利用のオペレーティング システムで OpenSSL ユーティリティが既に使用できるようになっている場合は、次のコマンドを実行して新しい証明書を作成します。
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 あるいは、[OpenSSL](https://www.openssl.org) サイトまたは [OpenSSL バイナリ](https://wiki.openssl.org/index.php/Binaries) サイトにアクセスすることで、OpenSSL ユーティリティを取得することもできます。

@@ -3,18 +3,18 @@ title: ページ分割されたレポートの URL パラメーター - Power BI
 description: このトピックでは、Power BI の改ページ調整されたレポート ビルダーのレポート パラメーターの一般的な用途や設定できるプロパティなどについて説明します。
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
+ms.custom: ''
 ms.date: 09/10/2019
-ms.openlocfilehash: e2a325a8a59b35ad1fcd477fd2d0891b3591ee88
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: e39864081ce4dd1ad415224454b75404e882e9ce
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877839"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128314"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI のページ分割されたレポートの URL パラメーター
 
