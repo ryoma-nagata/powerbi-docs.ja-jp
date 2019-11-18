@@ -1,0 +1,53 @@
+### YamlMime:Landing
+title: Power BI ガイダンスのドキュメント
+summary: Power BI ガイダンスのドキュメントでは、Power BI を構築するチームのベスト プラクティス情報と、企業のお客様と協力しているユーザーを提供します。 ここでは、Power BI のパフォーマンスと成功を向上させる学習について説明します。 新しい情報が利用可能になると、更新して追加します。
+metadata:
+  title: Power BI ガイダンスのドキュメント
+  description: Power BI ガイダンスのドキュメントでは、Power BI を構築するチームのベスト プラクティス情報と、企業のお客様と協力しているユーザーを提供します。 ここでは、Power BI のパフォーマンスと成功を向上させる学習について説明します。 新しい情報が利用可能になると、更新して追加します。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 11/14/2019
+  ms.openlocfilehash: de1ea8bbc35bc1d2ecc42a8deffc54fd9ac01bc1
+  ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 11/16/2019
+  ms.locfileid: "74133844"
+landingContent:
+- title: Power BI ガイダンス
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI のガイダンス
+      url: overview.md
+    - text: ホワイトペーパーの概要
+      url: ../whitepapers.md
+- title: データ モデリング
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: スター スキーマとは
+      url: star-schema.md
+    - text: データ削減の手法
+      url: import-modeling-data-reduction.md
+    - text: クエリ フォールディングの重要性
+      url: power-query-folding.md
+- title: DAX
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: DIVIDE 関数と除算演算子
+      url: dax-divide-function-operator.md
+    - text: エラー関数の適切な使用方法
+      url: dax-error-functions.md
+- title: データフロー
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: データフローのベスト プラクティス
+      url: ../service-dataflows-best-practices.md

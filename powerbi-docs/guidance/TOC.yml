@@ -1,0 +1,36 @@
+- name: Power BI ガイダンスのドキュメント
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概要
+      expanded: true
+      items:
+        - name: 概要
+          href: overview.md
+    - name: 概念
+      expanded: true
+      items:
+        - name: スター スキーマとは
+          href: star-schema.md
+        - name: データ モデル サイズの縮小
+          href: import-modeling-data-reduction.md
+        - name: DIVIDE 関数と除算演算子 (/)
+          href: dax-divide-function-operator.md
+        - name: クエリ フォールディングの重要性
+          href: power-query-folding.md
+        - name: エラー関数の適切な使用方法
+          href: dax-error-functions.md
+        - name: データフローのベスト プラクティス
+          href: ../service-dataflows-best-practices.md
+        - name: Power BI Desktop の DirectQuery モデルのガイダンス
+          href: directquery-model-guidance.md
+    - name: ホワイトペーパー
+      items:
+        - name: ホワイトペーパーの概要
+          href: ../whitepapers.md
+        - name: Power BI のセキュリティに関するホワイトペーパー
+          href: ../whitepaper-powerbi-security.md
+        - name: Power BI Premium のデプロイ
+          href: ../whitepaper-powerbi-premium-deployment.md
+        - name: Azure Active Directory B2B を使用して外部に Power BI を配布する
+          href: ../whitepaper-azure-b2b-power-bi.md
