@@ -513,7 +513,7 @@
               href: service-interruption-notifications.md
         - name: Power BI をさらにパワーアップ
           items:
-            - name: Microsoft Flow と Power BI
+            - name: Power Automate と Power BI
               href: service-flow-integration.md
             - name: サード パーティ製アプリを使用する
               href: service-power-bi-get-started-third-party-apps.md
