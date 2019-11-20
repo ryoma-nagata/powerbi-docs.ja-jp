@@ -2,19 +2,18 @@
 title: 組織でテンプレート アプリを配布する - Power BI
 description: Power BI を利用し、組織内でテンプレート アプリをインストールし、カスタマイズし、配布する方法について説明します。
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195253"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871416"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>組織でテンプレート アプリをインストールし、配布する - Power BI
 
@@ -45,7 +44,7 @@ ms.locfileid: "71195253"
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>Power BI サービスから AppSource を検索する
 
-1. Power BI サービスの左側のナビゲーション ウィンドウで、 **[アプリ]**  >  **[アプリの取得]** の順に選択します。
+1. Power BI サービスのナビ ペインで、 **[アプリ]**  >  **[アプリの取得]** の順に選択します。
 
     ![アプリの取得](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -57,7 +56,7 @@ ms.locfileid: "71195253"
 
 4. ダイアログ ボックスで **[インストール]** を選択します。
 
-    ![Install app](media/service-template-apps-install-distribute/power-install-dialog.png) Power BI Pro ライセンスを持っている場合、アプリとそれに関連するアプリ ワークスペースがインストールされます。 関連ワークスペースでアプリをカスタマイズします。
+    ![アプリをインストールする](media/service-template-apps-install-distribute/power-install-dialog.png) Power BI Pro ライセンスを持っている場合、アプリとそれに関連するワークスペースがインストールされます。 関連ワークスペースでアプリをカスタマイズします。
 
     インストールが正常に完了すると、新しいアプリの準備ができたことが通知されます。
 4. **[アプリに移動]** を選択します。
@@ -69,9 +68,9 @@ ms.locfileid: "71195253"
     - **データに接続**:データ ソースをサンプル データから独自のデータ ソースに変更します。 データセット パラメーターとデータ ソースの資格情報を再定義できます。 テンプレート アプリのヒント記事で「[既知の制限事項](service-template-apps-tips.md#known-limitations)」をご覧ください。 
     - **ワークスペースに移動** (最も細かく設定する場合): アプリ ビルダーが許可しているあらゆる変更を実行できます。
 
-    あるいは、このダイアログ ボックスをスキップし、左側のナビゲーション ウィンドウにある **[ワークスペース]** から直接、関連ワークスペースにアクセスします。
+    あるいは、このダイアログ ボックスをスキップし、ナビ ペインにある **[ワークスペース]** から直接、関連ワークスペースにアクセスします。
     >[!NOTE]
-    >テンプレート アプリをインストールすると、*組織アプリ*と*アプリ ワークスペース*の両方がインストールされました。 詳細については、[Power BI でのアプリの配布](service-create-distribute-apps.md)に関するページをご覧ください。
+    >テンプレート アプリをインストールすると、"*組織アプリ*" と "*ワークスペース*" の両方がインストールされました。 詳細については、[Power BI でのアプリの配布](service-create-distribute-apps.md)に関するページをご覧ください。
  
 6. 同僚と共有する前に、独自のデータに接続することをお勧めします。 また、組織に合わせてレポートやダッシュボードを修正することもお勧めします。 この段階で他のレポートやダッシュボードも追加できます。
 

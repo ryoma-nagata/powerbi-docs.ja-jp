@@ -2,26 +2,25 @@
 title: Power BI での視覚化の種類
 description: Power BI での視覚化の種類
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161182"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099920"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
 新しい視覚化が追加されます。お待ちください。
 
-また、[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) を参照してください。このサイトには、[カスタム ビジュアル](../power-bi-custom-visuals.md)が追加されており、ダウンロードしてダッシュボードやレポートに使用することができます。 自分でカスタマイズする場合は、 [独自の視覚エフェクトを作成する方法を学習し、このコミュニティ サイトに追加してみてください](../developer/office-store.md)。  
+また、[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) を参照してください。このサイトには、[カスタム ビジュアル](../developer/power-bi-custom-visuals.md)が追加されており、ダウンロードしてダッシュボードやレポートに使用することができます。 自分でカスタマイズする場合は、 [独自の視覚エフェクトを作成する方法を学習し、このコミュニティ サイトに追加してみてください](../developer/office-store.md)。  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI で利用可能な視覚化の一覧
 これらすべての視覚化は、Power BI レポートに追加し、Q&A で指定し、ダッシュボードにピン留めできます。
@@ -133,7 +132,7 @@ ms.locfileid: "67161182"
 詳しくは、[Power BI の図形マップ](desktop-shape-map.md)に関するページを参照してください。
 
 
-### <a name="matrix"></a>マトリックス
+### <a name="matrix"></a>Matrix
 ![マトリックス](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
@@ -146,6 +145,14 @@ ms.locfileid: "67161182"
 
 >[!TIP]
 >円グラフでは、全体に対する部分の関係が示されます。 
+
+### <a name="qa-visual"></a>Q&A ビジュアル
+![Q&A ビジュアル](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
+
+>[!TIP]
+>[ダッシュボードでの Q&A エクスペリエンス](../power-bi-tutorial-q-and-a.md)と同様に、Q&A ビジュアルでは、自然言語を使用してデータに関する質問をすることができます。 
+
+詳細については、[Power BI の Q&A ビジュアル](power-bi-visualization-q-and-a.md)に関するページを参照してください。
 
 ### <a name="r-script-visuals"></a>R スクリプトのビジュアル
 ![R ビジュアル](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
@@ -198,7 +205,7 @@ ms.locfileid: "67161182"
 詳しくは、「[Power BI のレポートとダッシュボードでのテーブルの使用](power-bi-visualization-tables.md)」をご覧ください。
 
 ### <a name="treemaps"></a>ツリーマップ
-![ツリーマップ](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 詳しくは、「[Treemaps in Power BI](power-bi-visualization-treemaps.md)」 (Power BI のツリーマップ) をご覧ください。
 
@@ -218,8 +225,8 @@ Power BI Q&A で自然言語クエリを入力するときに、クエリ内で�
 
 ***ツリー マップでの都市ごとの売り上げ***
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![指定されたビジュアルの種類を示す Q&A 質問ボックス](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>次の手順
 [Power BI レポートでの視覚化](power-bi-report-visualizations.md)    
-[sqlbi.com の正しい視覚エフェクト参照](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[sqlbi.com の正しい視覚エフェクト参照](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

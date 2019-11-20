@@ -2,19 +2,18 @@
 title: Power BI でのテンプレート アプリの作成に関するヒント
 description: テンプレート アプリをよくするためのクエリ、データ モデル、レポート、およびダッシュボードの作成に関するヒントです
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194791"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099753"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI でのテンプレート アプリの作成に関するヒント
 
@@ -132,7 +131,7 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 * 必ず [Power BI アプリ オファー](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)のドキュメントに従ってください。
 * ダッシュボードがご自身のアプリに含まれる場合は、空でないことを確認します。
 * アプリを送信する前に、アプリ リンクを使用してそのアプリをインストールします。データセットに接続できることと、計画したとおりのアプリ エクスペリエンスであることを確認します。
-* bpix をテンプレート アプリ ワークスペースにアップロードする前に、不要な接続すべてをアンロードしてください。
+* bpix をテンプレート ワークスペースにアップロードする前に、不要な接続すべてをアンロードしてください。
 * Power BI の「[レポートとビジュアルのデザインに関するベスト プラクティス](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)」に従って、ユーザーに対する効果を最大限に高め、配布の承認を得ます。
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
@@ -147,7 +146,7 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 | データ ソース | クラウドのスケジュールされたデータ更新がサポートされているデータ ソースは許可されます。 <br>非サポート: <li> DirectQuery</li><li>ライブ接続 (Azure AS なし)</li> <li>オンプレミスのデータ ソース (パーソナル ゲートウェイとエンタープライズ ゲートウェイはサポートされていません)</li> <li>リアルタイム (プッシュ データセットはサポートされていません)</li> <li>複合モデル</li></ul> |
 | データセット: クロスワークスペース | クロスワークスペースのデータセットは許可されません  |
 | クエリ パラメーター | 非サポート:"Any" 型のパラメーターまたはデータセットの "Binary" 型のブロック更新操作 |
-| カスタム ビジュアル | パブリックに使用可能なカスタム ビジュアルのみがサポートされます。 [組織のカスタム ビジュアル](power-bi-custom-visuals-organization.md)はサポートされません |
+| カスタム ビジュアル | パブリックに使用可能なカスタム ビジュアルのみがサポートされます。 [組織のカスタム ビジュアル](developer/power-bi-custom-visuals-organization.md)はサポートされません |
 
 ## <a name="next-steps"></a>次の手順
 

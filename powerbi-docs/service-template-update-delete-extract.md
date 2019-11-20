@@ -2,19 +2,18 @@
 title: Power BI テンプレート アプリの更新、削除、および抽出
 description: テンプレート アプリの更新、削除、および抽出の方法。
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207633"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871383"
 ---
 # <a name="update-delete-and-extract-template-app"></a>テンプレート アプリの更新、削除、および抽出
 
@@ -65,7 +64,7 @@ Power BI Desktop で変更を加えた場合は、ステップ (1) から開始�
 新しいワークスペースのバージョン管理がリセットされ、新しく抽出されたワークスペースからテンプレート アプリの開発および配布を続行できます。
 
 ## <a name="delete-template-app-version"></a>テンプレート アプリのバージョンの削除
-テンプレート アプリ ワークスペースは、アクティブな配布済みテンプレート アプリのソースです。 テンプレート アプリのユーザーを保護するために、まずワークスペース内の作成済みのアプリ バージョンをすべて削除しなければ、ワークスペースを削除することはできません。
+テンプレート ワークスペースは、アクティブな配布済みテンプレート アプリのソースです。 テンプレート アプリのユーザーを保護するために、まずワークスペース内の作成済みのアプリ バージョンをすべて削除しなければ、ワークスペースを削除することはできません。
 アプリのバージョンを削除すると、機能しなくなるアプリ URL も削除されます。
 
 1. [リリース管理] ウィンドウで、省略記号 **(...)** を押してから、 **[削除]** を選択します。

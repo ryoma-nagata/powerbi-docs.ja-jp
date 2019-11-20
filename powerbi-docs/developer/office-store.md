@@ -3,18 +3,17 @@ title: Power BI ビジュアルを AppSource に発行する
 description: AppSource にカスタム ビジュアルを発行して、他のユーザーが見つけたり使用したりすることができるようにする方法について説明します。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307656"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128066"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Power BI ビジュアルを AppSource に発行する
 
@@ -38,10 +37,10 @@ AppSource にカスタム ビジュアルを発行して、他のユーザーが
 | サンプルの .pbix レポート ファイル |はい |ビジュアルを紹介するには、ユーザーがビジュアルをよく理解できるようにする必要があります。 ユーザーにとってのビジュアルの価値を強調し、使用例や書式設定オプションなどを示す必要があります。ヒントと秘訣や避けるべきことなどを説明した "*ヒント*" ページを最後に追加することもできます。<br>サンプルの .pbix レポート ファイルは、外部に接続していないオフラインの状態で動作する必要があります |
 | アイコン |はい |ストアの先頭に表示されるカスタム ビジュアルのロゴを含める必要があります。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 大きさはちょうど 300 (幅) x 300 (高さ) ピクセルにする必要があります。 **重要!** アイコンを送信する前に[簡単なガイド](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images)をよくお読みください。 |
 | スクリーンショット |はい |少なくとも 1 つのスクリーンショットを提供する必要があります。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 大きさはちょうど 1366 (幅) x 768 (高さ) ピクセルにする必要があります。 ファイルのサイズは 1024 KB 以下でなければなりません。 *使いやすくするには、各スクリーンショットの重要な機能の価値提案がはっきりわかる吹き出しを追加します。* |
-| サポート ダウンロード リンク |はい |ビジュアルに問題がある顧客をサポートするための URL を提供します。 このリンクは SellerDashboard リストの一部として入力され、AppSource 上のビジュアルのリストにアクセスしたユーザーに表示されます。 https:// または http:// を含む URL の形式を使う必要があります。 |
-| プライバシーに関するドキュメントへのリンク |はい |ビジュアルを使うユーザーに対するプライバシー ポリシーへのリンクを提供します。 このリンクは SellerDashboard リストの一部として入力され、AppSource 上のビジュアルのリストにアクセスしたユーザーに表示されます。 https:// または http:// を含むリンクの形式にする必要があります。 |
+| サポート ダウンロード リンク |はい |ビジュアルに問題がある顧客をサポートするための URL を提供します。 このリンクは SellerDashboard リストの一部として入力され、AppSource 上のビジュアルのリストにアクセスしたユーザーに表示されます。 http:// または https:// を含む URL の形式を使う必要があります。 |
+| プライバシーに関するドキュメントへのリンク |はい |ビジュアルを使うユーザーに対するプライバシー ポリシーへのリンクを提供します。 このリンクは SellerDashboard リストの一部として入力され、AppSource 上のビジュアルのリストにアクセスしたユーザーに表示されます。 http:// または https:// を含むリンクの形式にする必要があります。 |
 | エンド ユーザー使用許諾契約 (EULA) |はい |EULA ファイルをアップロードする必要があります。 独自の EULA を使うことも、Power BI の Power BI ビジュアル向け Office ストア内で用意されている既定の EULA を使うこともできます。 既定の EULA を使うには、販売者ダッシュボードの "使用許諾契約書" ファイル アップロード ダイアログ ボックスに[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) の URL を貼り付けます。 |
-| ビデオへのリンク |いいえ |カスタム ビジュアルに対するユーザーの関心を高めるには、ビジュアルに関するビデオへのリンクを提供することをお勧めします。 https:// または http:// を含む URL の形式を使う必要があります。 |
+| ビデオへのリンク |いいえ |カスタム ビジュアルに対するユーザーの関心を高めるには、ビジュアルに関するビデオへのリンクを提供することをお勧めします。 http:// または https:// を含む URL の形式を使う必要があります。 |
 | GitHub リポジトリ |いいえ |他の開発者がフィードバックを提供したりコードの改善を提案したりできるように、ビジュアルのソースとサンプル データを置いた [GitHub](https://www.github.com) リポジトリへの有効なパブリック リンクを提供することをお勧めします。 |
 
 ## <a name="submitting-to-power-bi"></a>Power BI に送信する
@@ -143,13 +142,13 @@ Power BI チームからアプリ パッケージ XML を受け取った後は�
 
 ## <a name="certify-your-visual"></a>視覚エフェクトの認定
 
-視覚エフェクトが作成されたら、任意でそれを認定できます。 これは Power BI サービス内で実行できること、PowerPoint へのエクスポートなど、このサービスの他の機能と連動できることを意味します。 詳細については、「[カスタム ビジュアルの*認定*を受ける](../power-bi-custom-visuals-certified.md)」を参照してください。
+視覚エフェクトが作成されたら、任意でそれを認定できます。 これは Power BI サービス内で実行できること、PowerPoint へのエクスポートなど、このサービスの他の機能と連動できることを意味します。 詳細については、「[カスタム ビジュアルの*認定*を受ける](../developer/power-bi-custom-visuals-certified.md)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 
 [Power BI カスタム ビジュアルの開発](visuals/custom-visual-develop-tutorial.md)  
 [Power BI での視覚化](../visuals/power-bi-report-visualizations.md)  
-[Power BI でのカスタム ビジュアル](../power-bi-custom-visuals.md)  
-[カスタム ビジュアルの*認定*を受ける](../power-bi-custom-visuals-certified.md)
+[Power BI でのカスタム ビジュアル](../developer/power-bi-custom-visuals.md)  
+[カスタム ビジュアルの*認定*を受ける](../developer/power-bi-custom-visuals-certified.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

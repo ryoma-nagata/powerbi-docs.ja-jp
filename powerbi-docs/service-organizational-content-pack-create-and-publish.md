@@ -2,7 +2,6 @@
 title: 組織のコンテンツ パックを作成して発行する - Power BI
 description: このチュートリアルでは、組織のコンテンツ パックを作成して、特定のグループにアクセスを制限し、そのコンテンツ パックを Power BI の組織のコンテンツ パック ライブラリに発行します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020655"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872007"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>チュートリアル:Power BI の組織のコンテンツ パックを作成して発行する
 
@@ -34,9 +33,9 @@ ms.locfileid: "72020655"
 
 どうしたらよいでしょうか? [Power BI サービス](https://powerbi.com)で **[マイ ワークスペース]** に移動します。 次に、 **[データの取得]**  >  **[サンプル]**  >  **[営業案件の分析のサンプル]**  >  **[接続]** に移動し、自分用のコピーを取得します。
 
-1. 左側のナビゲーション ウィンドウで、 **[ワークスペース]**  >  **[マイ ワークスペース]** を選びます。
+1. ナビ ペインで、 **[ワークスペース]**  >  **[マイ ワークスペース]** の順に選択します。
 
-1. 上部のナビゲーション バーで、歯車アイコン ![歯車アイコンのスクリーンショット](media/service-organizational-content-pack-create-and-publish/cog.png) >  **[コンテンツ パックの作成]** の順に選択します。
+1. 上部のナビ ペインで、歯車アイコン ![歯車アイコンのスクリーンショット](media/service-organizational-content-pack-create-and-publish/cog.png) を選択します。 >  **[コンテンツ パックの作成]** の順に選択します。
 
    ![歯車アイコンと [コンテンツパックの作成] オプションにフォーカスがある UI のスクリーンショット。](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -100,4 +99,4 @@ ms.locfileid: "72020655"
 
 * [OneDrive for Business とは?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

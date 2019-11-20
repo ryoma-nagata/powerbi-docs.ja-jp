@@ -2,19 +2,18 @@
 title: iOS 用 Power BI モバイル アプリの使用を開始する
 description: Microsoft Power BI モバイル アプリ (iOS 向け) を利用すれば、Power BI を持ち歩き、オンプレミスやクラウドに置いてあるビジネス情報にモバイル アクセスできます。ここではその方法について説明します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67499004"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870181"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS デバイスでの Power BI モバイル アプリの概要
 iPhone、iPad、iPod Touch に Microsoft Power BI for iOS アプリをインストールすれば、Power BI、Power BI Report Server、Reporting Services のビジネス インテリジェンスをモバイル利用できます。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
@@ -31,7 +30,7 @@ iOS の Power BI モバイル アプリで、オンプレミスまたはクラ�
 「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」をご覧ください。
 
 ## <a name="download-the-app"></a>アプリのダウンロード
-[iOS アプリをダウンロード] Apple App Store から iPhone、iPad、iPod Touch に (http://go.microsoft.com/fwlink/?LinkId=522062 "iOS アプリをダウンロード")します。
+Apple App Store から iPhone、iPad、iPod Touch に [iOS アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkId=522062 "iOS アプリをダウンロード")します。
 
 Power BI for iOS アプリは、iOS 11 以降を実行している任意のデバイス上で実行できます。 
 
@@ -75,7 +74,7 @@ Power BI ダッシュボードのサンプルを表示し、使ってみるこ�
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでコンテンツを見つける
 ダッシュボードとレポートの Power BI モバイル アプリ内で保存されている場所はソースによって異なります。 モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。 また、Power BI モバイル アプリに置かれているものは常に何でも検索できます。 
 
-![左側のナビゲーション ウィンドウ](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+![ナビ ペイン](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
 モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。
 
@@ -84,7 +83,7 @@ Power BI ダッシュボードのサンプルを表示し、使ってみるこ�
 
 * **[お気に入り]** をタップします。
   
-   ![左側のナビゲーション ウィンドウの [お気に入り]](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
+   ![ナビ ペインの [お気に入り]](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
   
    すべてのお気に入りが一緒にこのページに表示されます。
   
@@ -109,7 +108,7 @@ Microsoft Intune では、アクセスに暗証番号 (PIN) を必要とする�
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI とは?](../../power-bi-overview.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* [Power BI とは?](../../fundamentals/power-bi-overview.md)
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 
 

@@ -2,23 +2,25 @@
 title: Power BI サービスでのコンテンツの検索と並べ替え
 description: Power BI マイ ワークスペースでコンテンツを検索し、並べ替えるのためのドキュメント
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e32f0da4c512434fb316c010f2547de3ad5828e5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302799"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861730"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>ナビゲーション: Power BI サービスでコンテンツの検索、探索、並べ替えを行う
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Power BI サービスでコンテンツ間を移動する方法はたくさんあります。 ワークスペース内のコンテンツは、種類 (ダッシュボードとレポート) ごとにまとめられています。  また、コンテンツは使用方法 (お気に入り、最近、アプリ、自分と共有、おすすめ) によっても整理されています。 ワン ストップ ナビゲーションの場合、Power BI *ホーム*ですべてのコンテンツが 1 ページにまとめられます。 コンテンツへのこれらの異なる経路により、Power BI サービス内で必要な内容をすばやく見つけることができます。  
 
 ## <a name="navigation-within-workspaces"></a>ワークスペース内のナビゲーション
@@ -44,10 +46,10 @@ ________________________________________
 並べ替えることができるのは一部の列に限られます。 列見出しの上にカーソルを合わせると、並べ替えることができる列を確認できます。
 
 ___________________________________________________________________
-## <a name="navigation-using-the-left-nav-bar"></a>左ナビゲーション バーを使ったナビゲーション
-左ナビゲーション バーでは、必要なものを迅速に見つけることができる方法でコンテンツが分類されています。  
+## <a name="navigation-using-the-nav-pane"></a>ナビ ペインを使ったナビゲーション
+ナビ ペインでは、必要なものを迅速に見つけることができる方法でコンテンツが分類されています。  
 
-![左ナビゲーション バー](./media/end-user-search-sort/power-bi-navbar.png)
+![ナビゲーション ウィンドウ](./media/end-user-search-sort/power-bi-nav pane.png)
 
 
 - 自分と共有されているコンテンツは、 **[自分と共有]** に表示されます。
@@ -55,7 +57,7 @@ ___________________________________________________________________
 - アプリを見つけるには、 **[アプリ]** を選択します。
 - **[ホーム]** は、最も重要なコンテンツ、推奨されるコンテンツ、学習ソースが掲載された単一ページ ビューです。
 
-さらに、コンテンツに[お気に入り](end-user-favorite.md)および[おすすめ](end-user-featured.md)のタグを付けることができます。 最も頻繁に表示すると予想されるダッシュボードを選び、それを*おすすめ*のコンテンツとして設定します。 Power BI サービスを開くたびに、このおすすめのダッシュボードが最初に表示されます。 頻繁に参照するダッシュボードとアプリがたくさんありますか? それらをお気に入りに設定すると、常に左ナビゲーション バーから使うことができます。
+さらに、コンテンツに[お気に入り](end-user-favorite.md)および[おすすめ](end-user-featured.md)のタグを付けることができます。 最も頻繁に表示すると予想されるダッシュボードを選び、それを*おすすめ*のコンテンツとして設定します。 Power BI サービスを開くたびに、このおすすめのダッシュボードが最初に表示されます。 頻繁に参照するダッシュボードとアプリがたくさんありますか? それらをお気に入りに設定すると、常にナビ ペインから使うことができます。
 
 ![お気に入りポップアップ](./media/end-user-search-sort/power-bi-favorite.png).
 
@@ -67,4 +69,4 @@ ___________________________________________________________________
 ## <a name="next-steps"></a>次の手順
 [レポートでビジュアルを並べ替える](end-user-change-sort.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

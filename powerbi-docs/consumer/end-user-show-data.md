@@ -2,7 +2,6 @@
 title: ビジュアルの作成に使用されたデータを表示する
 description: このドキュメントでは、Power BI コンシューマーがビジュアルの作成に使用するデータを "表示" する方法について説明します。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,14 +9,16 @@ ms.topic: conceptual
 ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d35cdc6e2c6d2c2632fe8a9776ddc366436cff94
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 83248967f721526f61e63aa92b1e51f22ddbefa9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71251503"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861545"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Power BI レポートでデータを表示する
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI のビジュアルは、基礎データセットからのデータを使用して作成されます。 バックグラウンドの動作に関心がある場合は、レポートでビジュアルの作成に使用されているデータを Power BI サービスで*表示*することができます。 **[データの表示]** を選択すると、Power BI によりビジュアルの下 (または横に) データが表示されます。
 
@@ -25,7 +26,7 @@ Power BI のビジュアルは、基礎データセットからのデータを�
 
 ## <a name="show-the-data-being-used-to-create-a-report-visual"></a>レポート ビジュアルの作成に使用されているデータを表示する
 1. Power BI サービスで、[レポートを開き](end-user-report-open.md)、ビジュアルを選択します。  
-2. ビジュアルの背後にあるデータを表示するには、省略記号 (...) を選択し、 **[データの表示]** を選択します。
+2. ビジュアルの背後にあるデータを表示するには、**その他のオプション** (...) を選択し、 **[データの表示]** を選択します。
    
    ![[データの表示] を選択する](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
 3. 既定では、データはビジュアルの下に表示されます。

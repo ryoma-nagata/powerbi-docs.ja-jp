@@ -2,19 +2,18 @@
 title: Windows 10 用の Power BI モバイル アプリの概要
 description: Windows 10 用 Power BI モバイル アプリを導入すると、タブレットやスマート フォンのタッチ対応画面で最新のビジネス情報に簡単にアクセスできます。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 3aff2b6a939a53a6246ed69ac5bd76dfe4f0dfe4
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059701"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879070"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 用の Power BI モバイル アプリの概要
 Windows 10 用の Power BI モバイル アプリでは、タブレットまたは携帯電話で Power BI を使用できます。 タッチ対応の最新のモバイルからビジネス情報にアクセスできるようになります。 どこにいても、[Windows のスタート画面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)から会社のダッシュボードを表示して操作できます。
@@ -26,16 +25,16 @@ Windows 10 用の Power BI モバイル アプリでは、タブレットまた�
 次にダッシュボードおよびレポートを対話式に操作し、データを探索し、Windows 10 用 Power BI モバイル アプリですべてを共有します。
 
 ## <a name="first-things-first"></a>最初に行うこと
-* Windows ストアから [**Windows 10 用の Power BI モバイル アプリ**](http://go.microsoft.com/fwlink/?LinkID=526478)を入手します。
+* Windows ストアから [**Windows 10 用の Power BI モバイル アプリ**](https://go.microsoft.com/fwlink/?LinkID=526478)を入手します。
   
   デバイスで Windows 10 が実行されている必要があります。 このアプリは、最低 3 GB RAM と 8 GB の内部記憶域を持つデバイスで実行できます。
    
 * 「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」をご覧ください。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Web 上で Power BI サービスにサインアップする
-まだサインアップしていない場合は、[Power BI サービス](http://powerbi.com/)にアクセスします。 自分のアカウントにサインアップし、ダッシュボードとレポートを作成して保存し、データをまとめます。 これで、Windows 10 デバイスから Power BI にサインインすれば、どこからでも自分のダッシュボードを表示できるようになります。
+まだサインアップしていない場合は、[Power BI サービス](https://powerbi.com/)にアクセスします。 自分のアカウントにサインアップし、ダッシュボードとレポートを作成して保存し、データをまとめます。 これで、Windows 10 デバイスから Power BI にサインインすれば、どこからでも自分のダッシュボードを表示できるようになります。
 
-1. Power BI サービスで [[サインアップ]](http://go.microsoft.com/fwlink/?LinkID=513879) をタップし、Power BI アカウントを作成します。
+1. Power BI サービスで [[サインアップ]](https://go.microsoft.com/fwlink/?LinkID=513879) をタップし、Power BI アカウントを作成します。
 2. [独自のダッシュボードとレポートの作成](../../service-get-started.md)を開始します。
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI アプリの概要
@@ -89,7 +88,7 @@ Power BI ダッシュボードのサンプルを表示し、操作できます�
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでコンテンツを見つける
 ダッシュボードとレポートの Power BI モバイル アプリ内で保存されている場所はソースによって異なります。 モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。 また、Power BI モバイル アプリに置かれているものは常に何でも検索できます。 
 
-![Power BI の左側のナビゲーション](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
+![Power BI のナビ ペイン](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>お気に入りのダッシュボード、KPI、レポートを表示する
 お気に入りの Power BI ダッシュボードおよび Reporting Services KPI とモバイル レポートを、モバイル アプリの [お気に入り] ページに表示します。 Power BI モバイル アプリでダッシュボードを *お気に入り* にすると、ブラウザーの Power BI サービスを含むすべてのデバイスからアクセスできます。 
@@ -120,7 +119,7 @@ Windows 10 デバイス用 Power BI アプリ、Power BI のダッシュボー�
 * [SQL Server Mobile Report Publisher でモバイル レポートを作成](https://msdn.microsoft.com/library/mt652547.aspx)し、Reporting Services の Web ポータルにそのレポートを公開する。
 
 ## <a name="next-steps"></a>次の手順
-* Windows ストアから [Power BI アプリ](http://go.microsoft.com/fwlink/?LinkID=526478)をダウンロードします。  
+* Windows ストアから [Power BI アプリ](https://go.microsoft.com/fwlink/?LinkID=526478)をダウンロードします。  
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

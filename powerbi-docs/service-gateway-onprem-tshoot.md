@@ -3,25 +3,24 @@ title: ゲートウェイのトラブルシューティング - Power BI
 description: この記事では、オンプレミス データ ゲートウェイと Power BI に関する問題を解決するための方法を紹介します。 既知の問題を解決できる可能性がある回避策と便利なツールを紹介します。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543817"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881570"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>ゲートウェイのトラブルシューティング - Power BI
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-この記事では、Power BI でオンプレミス データ ゲートウェイを使用するときの一般的な問題について説明します。 ここに記載されていない問題が発生した場合、Power BI [コミュニティ](http://community.powerbi.com) サイトを使用できます。 あるいは、[サポート チケット](http://powerbi.microsoft.com/support)を作成できます
+この記事では、Power BI でオンプレミス データ ゲートウェイを使用するときの一般的な問題について説明します。 ここに記載されていない問題が発生した場合、Power BI [コミュニティ](https://community.powerbi.com) サイトを使用できます。 あるいは、[サポート チケット](https://powerbi.microsoft.com/support)を作成できます
 
 ## <a name="configuration"></a>構成
 
@@ -227,7 +226,7 @@ Active Directory で委任が正しく構成されていない場合は、"-1070
 
 スケジュールされている更新にゲートウェイを使用するときに、 **[更新履歴]** で発生したエラーの内容を確認できます。 サポート リクエストを作成する場合に役立つデータが得られることもあります。 スケジュールされた更新とオンデマンドの更新を表示できます。 更新履歴を表示する方法は次のようになります。
 
-1. Power BI ナビゲーション ウィンドウの **[データセット]** で、データセットを選択します。 メニューを開き、 **[更新のスケジュール設定]** を選択します。
+1. Power BI のナビ ペインの **[データセット]** で、データセットを選択します。 メニューを開き、 **[更新のスケジュール設定]** を選択します。
 
     ![[更新のスケジュール設定] を選択する方法](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
@@ -241,7 +240,7 @@ Active Directory で委任が正しく構成されていない場合は、"-1070
 
 ## <a name="fiddler-trace"></a>Fiddler のトレース
 
-[Fiddler](http://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。 クライアント コンピューターから Power BI サービスによるやり取りを確認できます。 このトラフィックの一覧では、エラーとその他の関連する情報が表示される場合があります。
+[Fiddler](https://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。 クライアント コンピューターから Power BI サービスによるやり取りを確認できます。 このトラフィックの一覧では、エラーとその他の関連する情報が表示される場合があります。
 
 ![Fiddler トレースの使用](media/service-gateway-onprem-tshoot/fiddler.png)
 
@@ -254,4 +253,4 @@ Active Directory で委任が正しく構成されていない場合は、"-1070
 * [データ ソースの管理 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [データ ソースの管理 - インポート/スケジュールされた更新](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)を利用してください。
+他にわからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)を利用してください。

@@ -2,7 +2,6 @@
 title: ダッシュボードのタイルを編集する
 description: このチュートリアルでは、タイルを作成し、ダッシュボードにピン留めする方法から、サイズの変更、移動、名前の変更、ピン留、消去、ハイパーリンクの追加など、ダッシュボード タイルを編集する方法までを説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720562"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877483"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>ダッシュボードのタイルを編集または削除する
 
@@ -83,9 +82,9 @@ ms.locfileid: "66720562"
 ![ビデオ](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
-## <a name="the-ellipses--menu"></a>省略記号 (...) のメニュー
+## <a name="more-options--menu"></a>**[その他のオプション]** (...) メニュー
 
-1. タイルの右上隅にある省略記号 (...) を選択します。 
+1. タイルの右上隅にある **[その他のオプション]** (...) を選択します。 
    
    ![タイルの省略記号](media/service-dashboard-edit-tile/power-bi-tile.png)
 
@@ -148,5 +147,5 @@ ms.locfileid: "66720562"
 
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

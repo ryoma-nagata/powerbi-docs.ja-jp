@@ -3,19 +3,18 @@ title: Power BI Premium で容量を構成および管理する
 description: Power BI Premium を管理し、組織全体にコンテンツへのアクセスを可能する方法について説明します。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e9214fbb78b501b49e8c2115423ec1c6f55e65d7
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 04f5b1f639b7abdbbe789a23e5d7a54790ad50a5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175753"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857097"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium で容量を構成および管理する
 
@@ -47,7 +46,7 @@ Office 365 で容量ノードを購入したら、Power BI 管理ポータルで
 
 利用可能な仮想コアがある場合は、次の手順に従って使用する新しい容量を設定します。
 
-1. [**新しい容量をセットアップする**] を選択します。
+1. **[新しい容量をセットアップする]** を選択します。
 
 1. 使用する容量に名前を付けます。
 
@@ -57,7 +56,7 @@ Office 365 で容量ノードを購入したら、Power BI 管理ポータルで
 
     ![利用可能な Premium 容量のサイズ](media/service-admin-premium-manage/premium-capacity-size.png)
 
-1. [**セットアップ**] を選択します。
+1. **[セットアップ]** を選択します。
 
     ![新しい容量の設定](media/service-admin-premium-manage/set-up-capacity.png)
 
@@ -65,7 +64,7 @@ Office 365 で容量ノードを購入したら、Power BI 管理ポータルで
 
 ### <a name="capacity-settings"></a>容量の設定
 
-1. Premium 容量管理の画面で、**[アクション]** の下にある**歯車アイコン**を選択して設定を確認および更新します。 
+1. Premium 容量管理の画面で、 **[アクション]** の下にある**歯車アイコン**を選択して設定を確認および更新します。 
 
     ![容量管理領域での容量に関するアクション](media/service-admin-premium-manage/capacity-actions.png)
 
@@ -98,7 +97,7 @@ Power BI 管理者と Office 365 全体管理者は、Power BI Premium の容量
 
 ### <a name="manage-user-permissions"></a>ユーザーのアクセス許可を管理する
 
-追加で容量管理者を割り当てることも、*容量の割り当て*のアクセス許可を持つユーザーを割り当てることもできます。 割り当てのアクセス許可を持つユーザーは、アプリ ワークスペースの管理者である場合、容量にそのワークスペースを割り当てることができます。 また、個人の*マイ ワークスペース*を容量に割り当てることもできます。 割り当てのアクセス許可を持つユーザーには、管理ポータルへのアクセス権はありません。
+追加で容量管理者を割り当てることも、*容量の割り当て*のアクセス許可を持つユーザーを割り当てることもできます。 割り当てのアクセス許可を持つユーザーは、ワークスペースの管理者である場合、容量にそのワークスペースを割り当てることができます。 また、個人の*マイ ワークスペース*を容量に割り当てることもできます。 割り当てのアクセス許可を持つユーザーには、管理ポータルへのアクセス権はありません。
 
 > [!NOTE]
 > Power BI Embedded の場合、容量管理者は Microsoft Azure portal 内で定義されます。
@@ -109,15 +108,15 @@ Power BI 管理者と Office 365 全体管理者は、Power BI Premium の容量
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>容量にワークスペースを割り当てる
 
-ワークスペースを容量に割り当てるには、管理者ポータル内で行う方法とアプリ ワークスペースから行う方法の 2 通りがあります。
+ワークスペースを容量に割り当てるには、管理者ポータル内で行う方法とワークスペースから行う方法の 2 とおりがあります。
 
 ### <a name="assign-from-the-admin-portal"></a>管理ポータルで割り当てる
 
-容量管理者と、Power BI 管理者および Office 365 全体管理者は、管理ポータルの Premium 容量管理セクション内でワークスペースを一括で割り当てることができます。 容量を管理するときに、**[ワークスペース]** セクションが表示され、ここでワークスペースを割り当てることができます。
+容量管理者と、Power BI 管理者および Office 365 全体管理者は、管理ポータルの Premium 容量管理セクション内でワークスペースを一括で割り当てることができます。 容量を管理するときに、 **[ワークスペース]** セクションが表示され、ここでワークスペースを割り当てることができます。
 
 ![容量管理のワークスペース割り当て領域](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 
-1. [**ワークスペースの割り当て**] を選択します。 このオプションは、複数の場所で使用できます。
+1. **[ワークスペースの割り当て]** を選択します。 このオプションは、複数の場所で使用できます。
 
 1. **[適用対象]** を選択します。
 
@@ -127,22 +126,22 @@ Power BI 管理者と Office 365 全体管理者は、Power BI Premium の容量
    | --- | --- |
    | **ユーザー別のワークスペース** | ユーザーまたはグループごとのワークスペースを割り当てると、これらのユーザーが所有するすべてのワークスペース (ユーザーの個人用ワークスペースを含む) が Premium 容量に割り当てられます。 これらのユーザーには、ワークスペースの割り当てアクセス許可が自動的に与えられます。<br>これには、別の容量に既に割り当てられているワークスペースが含まれます。 |
    | **特定ワークスペース** | 選択されている容量に割り当てる特定のワークスペースの名前を入力します。 |
-   | **組織全体のワークスペース** | 組織全体のワークスペースを Premium 容量に割り当てると、組織内のすべてのアプリ ワークスペースとマイ ワークスペースがこの Premium 容量に割り当てられます。 さらに、現在および将来のすべてのユーザーに、この容量に再割り当てされた個々のワークスペースに対するアクセス許可が与えられます。 |
+   | **組織全体のワークスペース** | 組織全体のワークスペースを Premium 容量に割り当てると、組織内のすべてのワークスペースとマイ ワークスペースがこの Premium 容量に割り当てられます。 さらに、現在および将来のすべてのユーザーに、この容量に再割り当てされた個々のワークスペースに対するアクセス許可が与えられます。 |
    | | |
 
 1. **[適用]** を選びます。
 
-### <a name="assign-from-app-workspace-settings"></a>アプリ ワークスペースの設定から割り当てる
+### <a name="assign-from-workspace-settings"></a>ワークスペースの設定から割り当てる
 
-アプリ ワークスペースをそのワークスペースの設定から Premium 容量に割り当てることもできます。 ワークスペースを容量に移動するには、そのワークスペースに対する管理者権限と、その容量に対する容量の割り当てアクセス許可が必要です。 ワークスペース管理者は、Premium 容量からワークスペースをいつでも削除できることに注意してください。
+ワークスペースをそのワークスペースの設定から Premium 容量に割り当てることもできます。 ワークスペースを容量に移動するには、そのワークスペースに対する管理者権限と、その容量に対する容量の割り当てアクセス許可が必要です。 ワークスペース管理者は、Premium 容量からワークスペースをいつでも削除できることに注意してください。
 
-1. アプリ ワークスペースを編集するには、省略記号 **(. . .)**、**[ワークスペースの編集]** の順に選択します。
+1. ワークスペースを編集するには、省略記号 **(. . .)** 、 **[ワークスペースの編集]** の順に選択します。
 
     ![省略記号コンテキスト メニューからのワークスペース編集](media/service-admin-premium-manage/edit-app-workspace.png)
 
-1. **[ワークスペースの編集]** で、**[詳細]** を展開します。
+1. **[ワークスペースの編集]** で、 **[詳細]** を展開します。
 
-1. このアプリ ワークスペースを割り当てる容量を選択します。
+1. このワークスペースを割り当てる容量を選択します。
 
     ![容量選択ドロップダウン](media/service-admin-premium-manage/app-workspace-advanced.png)
 
@@ -156,7 +155,7 @@ Power BI 管理者ポータルの **[容量の設定]** タブでは、Power BI 
 
 ![[容量の設定] の Power BI Report Server キー](media/service-admin-premium-manage/pbirs-product-key.png)
 
-[**Power BI Report Server キー**] を選択すると、プロダクト キーを含むダイアログが表示されます。 これをコピーして、インストールで使用することができます。
+**[Power BI Report Server キー]** を選択すると、プロダクト キーを含むダイアログが表示されます。 これをコピーして、インストールで使用することができます。
 
 ![Power BI Report Server のプロダクト キー](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
 
@@ -166,4 +165,4 @@ Power BI 管理者ポータルの **[容量の設定]** タブでは、Power BI 
 
 [Premium 容量を管理する](service-premium-capacity-manage.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

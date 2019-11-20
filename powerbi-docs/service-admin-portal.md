@@ -3,7 +3,6 @@ title: Power BI 管理ポータル
 description: 管理ポータルを使用して、組織内の Power BI のテナントを管理できます。 利用状況の指標、Microsoft 365 管理センターへのアクセス、設定などの項目があります。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: fd9864ed086f535e0978dee7f5f8837039aa5491
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305894"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857507"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -169,7 +168,9 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 組織内のユーザーは、Power BI のヘルプ メニューから、内部のヘルプおよびサポート リソースにアクセスできます。 具体的には、これらのパラメーターにより、[詳細]、[コミュニティ]、[ヘルプを表示] の各メニュー項目の動作を変更します。
 
-また、ライセンス要求に対して、ユーザーをカスタム ソリューションに誘導する URL を指定することもできます。 このパラメーターにより、[アカウントのアップグレード] ボタンのターゲット URL をカスタマイズします。これは、Power BI Pro のライセンスを持たないユーザーに対して、Power BI Pro への更新ダイアログ ボックスおよび [パーソナル ストレージの管理] ページで表示されます。
+    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+
+ライセンス要求の URL を指定することにより、 **[アカウントのアップグレード]** ボタンのターゲット URL をカスタマイズします。これは、Power BI Pro のライセンスを持たないユーザーに対して、**Power BI Pro への更新**ダイアログ ボックスおよび **[パーソナル ストレージの管理]** ページで表示されます。 加えて、組織内で規定されているプロセスに、ご利用のライセンス管理ソリューションを通じて確実にユーザーを誘導できるよう、このダイアログ ボックスやストレージ ページにあった Power BI の **[Pro を無料でお試しいただけます]** ボタンは廃止されています。
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>サービスの停止またはインシデントに関するメール通知を受け取る
 
@@ -179,7 +180,7 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 ### <a name="create-workspaces"></a>ワークスペースを作成する
 
-管理者は、 **[Create workspaces]\(ワークスペースの作成\)** 設定を使用して、アプリ ワークスペースを作成してダッシュボード、レポート、その他のコンテンツで共同作業を行うことができる組織内のユーザーを指定します。 アプリ ワークスペースの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
+管理者は、 **[Create workspaces]\(ワークスペースの作成\)** 設定を使用して、ワークスペースを作成してダッシュボード、レポート、その他のコンテンツで共同作業を行うことができる組織内のユーザーを指定します。 [ワークスペース](service-create-the-new-workspaces.md)の詳細を参照してください。
 
 管理ポータルには、テナント内のワークスペースに関する設定の別のセクションがあります。 そのセクションでは、ワークスペースの一覧を並べ替えたり、フィルターを適用したり、ワークスペースごとの詳細を表示したりできます。 詳細については、「[ワークスペース](#workspaces)」を参照してください。
 
@@ -293,7 +294,7 @@ Azure B2B ゲスト ユーザーは、組織内のコンテンツの編集およ
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI を使用する
 
-組織内のユーザーは、Esri が提供する ArcGIS Maps for Power BI の視覚エフェクトを使用できます。 [詳細情報](visuals/power-bi-visualization-arcgis.md)
+組織内のユーザーは、Esri が提供する ArcGIS Maps for Power BI の視覚化を使用できます。 [詳細情報](visuals/power-bi-visualization-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI でグローバル検索を使用する (プレビュー)
 
@@ -511,7 +512,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 ビジュアル ID が変わらないことを確認します。 新しいファイルで、組織全体のすべてのレポートの以前のファイルが置き換えられます。 ただし、ビジュアルの新しいバージョンのためにビジュアルの以前のバージョンを使用できなくなったり、データ構造が破損されたりする可能性がある場合は、以前のバージョンを置き換えないでください。 代わりに、新しいバージョンのビジュアル用に新しく登録することをお勧めします。 たとえば、新しいバージョン番号 (バージョン X.X) を新しく登録されたビジュアルのタイトルに追加します。 こうすると、バージョン番号が更新されているだけで同じビジュアルであることがわかるので、既存のレポートの機能は中断されません。 この場合も、ビジュアル ID が変わらないことを確認します。 次回ユーザーが Power BI Desktop から組織のリポジトリに入ると、新しいバージョンをインポートできます。レポートに入っている現在のバージョンを置換するように求められます。
 
-詳細については、[組織のカスタム ビジュアルに関してよく寄せられる質問](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)のページにアクセスしてください。
+詳細については、[組織のカスタム ビジュアルに関してよく寄せられる質問](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals)のページにアクセスしてください。
 
 ## <a name="dataflowStorage">データフロー ストレージ (プレビュー)</a>
 
@@ -545,7 +546,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 * **テーマの色の選択**: 16 進数の番号、RGB、値で、または提供されたパレットから、テーマを選択できます。
 
 
-詳細については、[組織向けのカスタム ブランド](http://aka.ms/orgBranding)に関する記事をご覧ください。
+詳細については、[組織向けのカスタム ブランド](https://aka.ms/orgBranding)に関する記事をご覧ください。
 
 ![ワークスペース リスト](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>次の手順

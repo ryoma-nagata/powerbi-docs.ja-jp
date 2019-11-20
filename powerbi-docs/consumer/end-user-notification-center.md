@@ -2,21 +2,20 @@
 title: 通知センターでメッセージを表示する
 description: 通知センターは、Power BI の利用に関連する情報のシーケンシャルなフィードです。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/24/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e0ec01eb4d4ee8134a165d438f29baa4aee22841
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: c4feda0e502a9363900901ebe76005219587167b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716936"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863025"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI 通知を表示する
 
@@ -31,7 +30,7 @@ Amanda が通知をレビューし、管理し、また、通知に応答する�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 
-
+## <a name="view-your-notifications"></a>通知を表示する
 1. Power BI にサインインすると、オフラインの間に送信された新しい通知がフィードに追加されます。 新しい通知があると、Power BI では、黄色いバブルと新しいアイテムの数が表示されます。
    
    ![新しい通知アイコン](./media/end-user-notification-center/power-bi-new-notification.png)
@@ -43,9 +42,9 @@ Amanda が通知をレビューし、管理し、また、通知に応答する�
    ![通知センター](./media/end-user-notification-center/power-bi-notification-center.png)
 4. 通知を破棄するには、[X] アイコンを選択します。
 
-### <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次の手順
 * [Power BI サービスでのデータ アラート](end-user-alerts.md)
 * [iPhone アプリでデータ アラートを設定する (Power BI for iOS)](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10 用の Power BI モバイル アプリでデータ アラートを設定する](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

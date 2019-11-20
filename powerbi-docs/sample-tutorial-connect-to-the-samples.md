@@ -2,7 +2,6 @@
 title: Power BI サービス内のサンプルに接続する
 description: Power BI サービスにサンプルをインストールして探索する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391511"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873849"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI サービス内のサンプルに接続する
 
@@ -38,11 +37,11 @@ ms.locfileid: "68391511"
 
     Power BI Pro ライセンスを持っていない場合は、マイ ワークスペースにサンプルを保存できます。
 
-2. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。 
+2. ナビ ペインの下部にある **[データの取得]** を選択します。 
 
    ![[データを取得] を選択](media/sample-datasets/power-bi-get-data.png)
 
-   **[データの取得]** が表示されない場合、ナビゲーション ウィンドウの一番上にある![ハンバーガー アイコン](media/sample-tutorial-connect-to-the-samples/expand-nav.png)を選択し、ウィンドウを展開してください。
+   **[データの取得]** が表示されない場合、ナビ ペインの一番上にある![ハンバーガー アイコン](media/sample-tutorial-connect-to-the-samples/expand-nav.png)を選択してナビ ペインを展開してください。
 
 5. 表示された **[データを取得]** ページで、 **[サンプル]** を選びます。
    
@@ -91,7 +90,7 @@ ms.locfileid: "68391511"
      
    ![真新しいレポート](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
-1. データセットを調べるもう 1 つの方法は、[クイック分析情報](consumer/end-user-insights.md)を実行することです。 省略記号 [...] を選択し、 **[詳細情報の取得]** を選択します。 詳細情報の準備ができたら、 **[詳細情報を表示]** を選びます。
+1. データセットを調べるもう 1 つの方法は、[クイック分析情報](consumer/end-user-insights.md)を実行することです。 **その他のオプション** (...) を選択し、 **[クイック分析情報を取得する]** を選択します。 詳細情報の準備ができたら、 **[詳細情報を表示]** を選びます。
      
     ![分析情報のレポート](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -100,7 +99,7 @@ Power BI Desktop でサンプルの .pbix ファイルを初めて開くと、�
 
 Power BI サービスでレポートを編集する場合とは異なり、Power BI Desktop では、データのクエリとモデルを操作し、レポートでの最適な分析情報をサポートするデータが確実に得られます。 その後、Power BI Desktop のファイルは、ローカルのドライブまたはクラウドに関係なく、任意の場所に保存できます。
 
-1. [小売りの分析のサンプルの .pbix ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)をダウンロードし、Power BI Desktop で開きます。 
+1. [小売りの分析のサンプルの .pbix ファイル](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)をダウンロードし、Power BI Desktop で開きます。 
 
     ![Power BI のレポート ビューのサンプル](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
@@ -138,4 +137,4 @@ Power BI のダッシュボード、データセット、リレーションシ�
 - [Power BI サービスのサンプル](sample-datasets.md)
 - [Power BI のデータ ソース](service-get-data.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

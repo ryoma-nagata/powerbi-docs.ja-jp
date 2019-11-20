@@ -2,7 +2,6 @@
 title: '調達の分析のサンプル: ツアーを開始する'
 description: Power BI の調達の分析のサンプル:ツアーを開始する
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 9e27d09414167f9625e046204c14a5fb57112cd9
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462273"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873871"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の調達の分析のサンプル:ツアーを開始する
 
@@ -58,11 +57,11 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>このサンプルの .pbix ファイルを取得する
 
-あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)として、調達の分析のサンプルをダウンロードすることもできます。 
+あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)として、調達の分析のサンプルをダウンロードすることもできます。 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータ ソースを確認する場合は、[Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529784) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
+このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529784) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
 
 
 ## <a name="spending-trends"></a>支出傾向
@@ -99,7 +98,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
       ![メキシコの [間接的な商品およびサービス] のドリルダウン](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. グラフの左上隅にある上向きの矢印を選んで、ドリルダウン前の状態に戻ります。
 4. もう一度ドリルダウン矢印を選んで、ドリルダウンをオフにします。  
-5. 上部のナビゲーション バーで **[調達の分析のサンプル]** を選んでダッシュボードに戻ります。
+5. 上部のナビ ペインで **[調達の分析のサンプル]** を選んでダッシュボードに戻ります。
 
 ## <a name="evaluate-different-cities"></a>異なる複数の市区町村の評価
 強調表示を使用して、異なる複数の市区町村を評価することができます。

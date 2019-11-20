@@ -2,7 +2,6 @@
 title: 分析を実行し、ダッシュボード タイルの分析情報を表示する
 description: Power BI のエンド ユーザーとして、ダッシュボード タイルに関する分析情報を取得する方法を説明します。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207579"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863402"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI を使用してダッシュボード タイルに関するデータの分析情報を表示する
 ダッシュボード上の各ビジュアル [タイル](end-user-tiles.md)からデータの探索を開始できます。 タイルを選択すると、レポートまたは [Q&A](end-user-q-and-a.md) が開き、レポートの背後でデータセットをフィルター処理し、並べ替えて掘り下げることができます。 また、インサイトを実行すると、Power BI でデータの探索が自動的に実行されます。
@@ -31,7 +30,7 @@ ms.locfileid: "71207579"
 ダッシュボード タイルでインサイトを実行すると、Power BI ではその 1 つのダッシュボード タイルを作成するために使用されたデータのみが検索されます。 
 
 1. [ダッシュボードを開きます](end-user-dashboards.md)。
-2. タイルの上にマウスを置きます。 省略記号 [...] を選択し、 **[詳細情報の表示]** を選択します。 
+2. タイルの上にマウスを置きます。 **その他のオプション** (...) を選択し、 **[詳細情報の表示]** を選択します。 
 
     ![省略記号メニュー モード](./media/end-user-insights/power-bi-hovers.png)
 

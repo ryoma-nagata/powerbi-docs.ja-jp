@@ -2,19 +2,18 @@
 title: Power BI モバイル アプリでオンプレミス レポートと KPI を表示する
 description: Power BI モバイル アプリを使って、タッチ対応のモバイルから SQL Server Reporting Services と Power BI のレポート サーバー内のオンプレミスのビジネス情報に簡単にアクセスできます。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 01ee3cf9be3a0d6b4350925d4ecb9e57b668457a
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060235"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879442"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでオンプレミスのレポート サーバーのレポートと KPI を表示する
 
@@ -67,7 +66,7 @@ Power BI モバイル アプリでオンプレミスの Power BI レポート、
 
 1. サーバーのアドレス、ユーザー名、パスワードを入力します。 サーバーのアドレスには次の形式を使用します。
    
-     `http://<servername>/reports`
+     `https://<servername>/reports`
    
      OR
    
@@ -77,9 +76,9 @@ Power BI モバイル アプリでオンプレミスの Power BI レポート、
    
     ![[サーバーに接続] ダイアログ ボックス](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (省略可能) 必要に応じて、 **[詳細オプション]** でサーバーのわかりやすい名前を指定できます。
-6. 左側のナビゲーション バーにサーバー (この例では、"power bi report server") が表示されます。
+6. ナビ ペインにサーバー (この例では、"power bi report server") が表示されます。
    
-   ![左側のナビゲーション ウィンドウ](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
+   ![ナビ ペインのレポート サーバー](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
 ## <a name="connect-to-an-on-premises-report-server-in-ios"></a>iOS でオンプレミス レポート サーバーに接続する
 
@@ -120,18 +119,18 @@ KPI とレポートを Web ポータルでお気に入りとしてマークし�
 
 * **[お気に入り]** をタップします。
   
-   ![左側のナビゲーション ウィンドウの [お気に入り]](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
+   ![ナビ ペインの [お気に入り]](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    Web ポータルのお気に入りの KPI とレポートはすべて、Power BI サービスの Power BI ダッシュボードと共にこのページに表示されます。
   
    ![[お気に入り] ページの Power BI レポートとダッシュボード](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>レポート サーバーへの接続を削除する
-1. 左側のナビゲーション バーの下部にある **[設定]** をタップします。
+1. ナビ ペインの下部にある **[設定]** をタップします。
 2. 接続を望まないサーバー名をタップします。
 3. **[サーバーの削除]** をタップします。
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)  
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

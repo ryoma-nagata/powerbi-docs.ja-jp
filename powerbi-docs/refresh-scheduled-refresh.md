@@ -2,7 +2,6 @@
 title: スケジュールされた更新の構成
 description: ここでは、ゲートウェイを選択して、スケジュールされた更新を構成する手順を説明します。
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 89f8b3d609b9433cc85d8af709eec828f924ad8e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816606"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860694"
 ---
 # <a name="configure-scheduled-refresh"></a>スケジュールされた更新の構成
 
@@ -30,12 +29,12 @@ ms.locfileid: "66816606"
 
 次の操作を行うと、 **[スケジュールされている更新]** 画面に移動できます。
 
-1. **[データセット]** の下で一覧表示されたデータセットの横にある**省略記号 (...)** を選択します。
+1. **[データセット]** の下で一覧表示されたデータセットの横にある**その他のオプション** (...) を選択します。
 2. **[更新のスケジュール設定]** を選択します。
 
     ![更新のスケジュール設定](media/refresh-scheduled-refresh/dataset-menu.png)
 
-## <a name="gateway-connection"></a>ゲートウェイの接続
+## <a name="gateway-connection"></a>ゲートウェイ接続
 パーソナル ゲートウェイまたはエンタープライズ ゲートウェイのどちらをオンラインにして使用できるようにしているかによって、ここに表示されるオプションが変わります。
 
 使用できるゲートウェイがない場合は、 **[ゲートウェイ接続]** が無効になっています。 パーソナル ゲートウェイをインストールする方法を示すメッセージも表示されます。
@@ -44,15 +43,15 @@ ms.locfileid: "66816606"
 
 パーソナル ゲートウェイを構成している場合は、オンラインになっていると、パーソナル ゲートウェイを選択できます。 使用できない場合は、パーソナル ゲートウェイはオフラインとして表示されます。
 
-![ゲートウェイの接続](media/refresh-scheduled-refresh/gateway-connection.png)
+![ゲートウェイ接続](media/refresh-scheduled-refresh/gateway-connection.png)
 
 エンタープライズ ゲートウェイが使用できる場合は、エンタープライズ ゲートウェイも選択できます。 任意のゲートウェイ用に構成されたデータ ソースの **[ユーザー]** タブにアカウントが表示されている場合は、使用可能なエンタープライズ ゲートウェイのみ表示されます。
 
-## <a name="data-source-credentials"></a>データ ソースの資格情報
+## <a name="data-source-credentials"></a>データ ソース資格情報
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 パーソナル ゲートウェイを使用してデータを更新している場合は、バックエンド データ ソースに接続するために資格情報を指定する必要があります。 オンライン サービスからコンテンツ パックに接続した場合は、接続用に入力した資格情報は、スケジュールされた更新に引き継がれます。
 
-![データ ソースの資格情報](media/refresh-scheduled-refresh/data-source-credentials-pgw.png)
+![データ ソース資格情報](media/refresh-scheduled-refresh/data-source-credentials-pgw.png)
 
 必要なのは、このデータセットで更新を初めて使用するときにデータ ソースにサインインすることだけです。 入力した後は、資格情報はデータセットに保持されます。
 
@@ -73,7 +72,7 @@ ms.locfileid: "66816606"
 >
 >
 
-## <a name="scheduled-refresh"></a>スケジュールされた更新
+## <a name="scheduled-refresh"></a>スケジュールされている更新
 **[スケジュールされている更新]** セクションでは、データセットを更新する頻度と時間帯を定義します。 一部のデータ ソースでは、更新を構成できるようにするためにゲートウェイは不要です。その他のデータ ソースでは、ゲートウェイが必要となります。
 
 **[データを最新の状態に保つ]** スライダーを **[オン]** に設定して、設定を構成します。
@@ -127,5 +126,5 @@ ms.locfileid: "66816606"
 - [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
 - [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

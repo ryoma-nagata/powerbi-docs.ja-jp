@@ -3,7 +3,6 @@ title: SharePoint Online にレポート Web パーツを埋め込む
 description: Power BI の新しい SharePoint Online 用レポート Web パーツでは、対話型の Power BI レポートを SharePoint Online のページに簡単に埋め込むことができます。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073615"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881901"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
@@ -79,11 +78,11 @@ SharePoint Online にレポートを埋め込んだだけで、レポートを�
 > [!IMPORTANT]
 > Power BI サービスでレポートを表示できるユーザーを確認し、一覧に含まれないユーザーにアクセスを許可します。
 
-Power BI でレポートへのアクセスを許可するには 2 つの方法があります。 1 番目の方法は、Office 365 グループを使用して SharePoint Online のチーム サイトを構築している場合、**Power BI サービス内のアプリ ワークスペース**および **SharePoint ページ**のメンバーとしてユーザーをリストすることです。 詳しくは、[アプリ ワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)方法に関する記事をご覧ください。
+Power BI でレポートへのアクセスを許可するには 2 つの方法があります。 1 番目の方法は、Office 365 グループを使用して SharePoint Online のチーム サイトを構築している場合、**Power BI サービス内のワークスペース**および **SharePoint ページ**のメンバーとしてユーザーをリストすることです。 詳細については、[ワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)方法に関するページを参照してください。
 
 2 番目の方法は、アプリ内にレポートを埋め込んでユーザーと直接に共有することです。  
 
-1. 作成者は (Pro ユーザーである必要があります)、アプリ ワークスペースにレポートを作成します。 "*Power BI 無料ユーザー*" と共有するには、アプリ ワークスペースを "*Premium ワークスペース*" として設定する必要があります。
+1. 作成者は (Pro ユーザーである必要があります)、ワークスペースにレポートを作成します。 "*Power BI 無料ユーザー*" と共有するには、ワークスペースを "*Premium ワークスペース*" として設定する必要があります。
 
 2. 作成者は、アプリを発行し、インストールします。 作成者は、アプリをインストールして、SharePoint Online に埋め込むために使用されるレポートの URL にアクセスできるようにする必要があります。
 
@@ -93,7 +92,7 @@ Power BI でレポートへのアクセスを許可するには 2 つの方法�
 
 4. 作成者は、アプリを開いて、レポートに移動します。
 
-5. 作成者は、アプリによってインストールされたレポートから埋め込みレポート URL をコピーします。 アプリ ワークスペースから元のレポートの URL を使用しないでください。
+5. 作成者は、アプリによってインストールされたレポートから埋め込みレポート URL をコピーします。 ワークスペースから元のレポートの URL を使用しないでください。
 
 6. SharePoint Online で新しいチーム サイトを作成します。
 
@@ -123,8 +122,8 @@ SharePoint Online 用の Power BI Web パーツに対して調整できる設定
 | --- | --- |
 | ページ名 |Web パーツの既定のページを設定します。 ドロップダウンから値を選びます。 ドロップダウンにページが表示されない場合は、レポートが 1 ページであるか、または貼り付けた URL にページ名が含まれています。 特定のページを選ぶには、URL からレポート セクションを削除します。 |
 | ディスプレイ |レポートを SharePoint Online のページ内に収める方法を調整します。 |
-| ナビゲーション ウィンドウの表示 |ページ ナビゲーション ウィンドウの表示と非表示を切り替えます。 |
-| Show Filter Pane (フィルター ウィンドウの表示) |フィルター ウィンドウの表示と非表示を切り替えます。 |
+| ナビ ペインの表示 |ページ ナビ ペインの表示と非表示を切り替えます。 |
+| フィルター ウィンドウの表示 |フィルター ウィンドウの表示と非表示を切り替えます。 |
 
 ## <a name="reports-that-do-not-load"></a>読み込まれないレポート
 
@@ -173,4 +172,4 @@ SharePoint Online 用の Power BI Web パーツに対して調整できる設定
 * [Power BI Premium とは何ですか?](service-premium-what-is.md)
 * [セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む](service-embed-secure.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

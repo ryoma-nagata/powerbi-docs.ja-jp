@@ -2,19 +2,18 @@
 title: Power BI モバイル アプリのお気に入り
 description: モバイル アプリでお気に入りの Power BI ダッシュボード、レポート、アプリ、Microsoft Power BI Report Server および Reporting Services のレポートと KPI を作成し、表示する方法について説明します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c4fcf7bea8bf458231533efbc88e307d8d9ba2ab
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61339565"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870676"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでお気に入りを作成し、表示する
 適用対象:
@@ -44,7 +43,7 @@ Power BI レポート サーバーまたは Reporting Services Web ポータル�
   ![[お気に入り] ページ](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>アプリをお気に入りに追加する
-1. モバイル アプリでアプリの一覧で、アプリの横にある省略記号 (...) をタップし、 **[お気に入り]** をタップします。
+1. モバイル アプリのアプリの一覧で、アプリの横にある**その他のオプション** (...) をタップし、 **[お気に入り]** をタップします。
    
     ![アプリのお気に入りメニュー](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +64,7 @@ Power BI レポート サーバーまたは Reporting Services Web ポータル�
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Android モバイル アプリでダッシュボードまたはレポートをお気に入りにする
 ダッシュボードまたはレポートの一覧から、あるいはダッシュボードまたはレポート自体から、ダッシュボードまたはレポートをお気に入りにすることができます。
 
-* モバイル アプリのダッシュボードまたはレポートの一覧で、名前の横にある垂直線の省略記号 (...) をタップし、 **[お気に入り]** をタップします。 名前の横に黄色い星 ![お気に入りアイコン](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png) が表示されます。
+* モバイル アプリのダッシュボードまたはレポートの一覧で、名前の横にある垂直線の**その他のオプション** (...) ボタンをタップし、 **[お気に入り]** をタップします。 名前の横に黄色い星 ![お気に入りアイコン](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png) が表示されます。
   
     ![Android のお気に入りメニュー](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * ダッシュボードまたはレポートで、リボンにある白抜きの星をタップします。 ![お気に入りではないときのアイコン](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 星が濃い灰色に変わります。 ![お気に入りになったときのアイコン](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
@@ -77,5 +76,5 @@ Power BI モバイル アプリでは、お気に入りの Power BI レポート
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI のお気に入りのダッシュボード](../end-user-favorite.md) 
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

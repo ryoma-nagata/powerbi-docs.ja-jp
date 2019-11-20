@@ -2,19 +2,18 @@
 title: クイック スタート:モバイル アプリでダッシュボードとレポートを調べる
 description: このクイック スタートでは、Power BI モバイル アプリでサンプルのダッシュボードとレポートを調べます。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60976116"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879277"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>クイック スタート:Power BI モバイル アプリでダッシュボードとレポートを調べる
 このクイック スタートでは、Android フォンで Power BI モバイル アプリを使ってサンプルのダッシュボードとレポートを調べます。 他のモバイル アプリでも同じようにできます。 
@@ -35,7 +34,7 @@ ms.locfileid: "60976116"
 Power BI にサインアップしていない場合は、[無料の試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
 
 ### <a name="install-the-power-bi-for-android-app"></a>Power BI for Android アプリをインストールする
-Google Play ストアから [Power BI for Android アプリをダウンロードします](http://go.microsoft.com/fwlink/?LinkID=544867)。
+Google Play ストアから [Power BI for Android アプリをダウンロードします](https://go.microsoft.com/fwlink/?LinkID=544867)。
 
 Power BI は、Android 5.0 以降のオペレーティング システムを搭載する Android デバイスで動作します。 お使いのデバイスでバージョンを確認するには、 **[設定]**  >  **[端末情報]**  >  **[Android バージョン]** の順に移動します。
 
@@ -44,11 +43,11 @@ Power BI は、Android 5.0 以降のオペレーティング システムを搭�
 
 1. ブラウザーで Power BI サービスを開き (app.powerbi.com)、サインインします。
 
-1. グローバル ナビゲーション アイコンを選んで左側のナビゲーションを開きます。
+1. グローバル ナビゲーション アイコンを選んでナビ ペインを開きます。
 
     ![グローバル ナビゲーション アイコン](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 左側のナビゲーション ウィンドウで、 **[ワークスペース]**  >  **[マイ ワークスペース]** を選びます。
+2. ナビ ペインで、 **[ワークスペース]**  >  **[マイ ワークスペース]** の順に選択します。
 
     ![マイ ワークスペース](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
@@ -135,7 +134,7 @@ Power BI は、Android 5.0 以降のオペレーティング システムを搭�
 
 1. Power BI サービス (app.powerbi.com) を開いてサインインします。
 
-2. 左側のナビゲーション ウィンドウで、 **[ワークスペース]**  >  **[マイ ワークスペース]** を選びます。
+2. ナビ ペインで、 **[ワークスペース]**  >  **[マイ ワークスペース]** の順に選択します。
 
     お気に入りを示す黄色のアスタリスクがわかりますか。
 

@@ -2,19 +2,18 @@
 title: Android デバイスでの Power BI モバイル アプリの概要
 description: Microsoft Power BI 用 Android モバイル アプリで、Power BI をどこでも使用できるようにし、オンプレミスやクラウドのビジネス情報にモバイルでアクセスできるようにする方法について説明します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 9a0d15c73ed19990a44ff888b73d9c569d0dfc5f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060285"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876791"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android デバイスでの Power BI モバイル アプリの概要
 Microsoft Power BI 用 Android アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 
@@ -34,7 +33,7 @@ Android の Power BI アプリで、オンプレミスまたはクラウドの�
 
 ### <a name="get-the-app"></a>アプリの入手
 
-Google Play ストアから [Power BI for Android アプリをダウンロードします](http://go.microsoft.com/fwlink/?LinkID=544867)。
+Google Play ストアから [Power BI for Android アプリをダウンロードします](https://go.microsoft.com/fwlink/?LinkID=544867)。
   
 Power BI は、Android 5.0 以降のオペレーティング システムを搭載するさまざまな Android デバイスで実行できます。 お使いのデバイスでバージョンを確認するには、 **[設定]**  >  **[端末情報]**  >  **[Android バージョン]** の順に移動します。 
 
@@ -44,9 +43,9 @@ Android デバイスでアプリを開くと、サインアップやサインイ
 「[Power BI 用モバイル アプリの新機能](../../mobile-whats-new-in-the-mobile-apps.md)」をご覧ください。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Web 上で Power BI サービスにサインアップする
-まだサインアップしていない場合は、[Power BI サービス (http://powerbi.com/)](http://powerbi.com/) に移動して自分のアカウントでサインアップしてください。そのアカウントで、ダッシュボードやレポートを作成および保存し、データをまとめます。 これで、Android デバイスから Power BI にサインインし、どこからでも自分のダッシュボードを表示できるようになります。
+まだサインアップしていない場合は、[Power BI サービス (https://powerbi.com/)](https://powerbi.com/) に移動して自分のアカウントでサインアップしてください。そのアカウントで、ダッシュボードやレポートを作成および保存し、データをまとめます。 これで、Android デバイスから Power BI にサインインし、どこからでも自分のダッシュボードを表示できるようになります。
 
-1. Power BI サービスで [[サインアップ]](http://go.microsoft.com/fwlink/?LinkID=513879) をタップし、Power BI アカウントを作成します。
+1. Power BI サービスで [[サインアップ]](https://go.microsoft.com/fwlink/?LinkID=513879) をタップし、Power BI アカウントを作成します。
 2. [独自のダッシュボードとレポートの作成](../../service-get-started.md)を開始します。
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>デバイスで Power BI アプリを使用する
@@ -88,14 +87,14 @@ Power BI ダッシュボードのサンプルを表示し、使ってみるこ�
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでコンテンツを見つける
 ダッシュボードとレポートの Power BI モバイル アプリ内で保存されている場所はソースによって異なります。 モバイル アプリのコンテンツを見つける方法については[ここ](../../mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。 また、Power BI モバイル アプリに置かれているものは常に何でも検索できます。 
 
-![左側のナビゲーション ウィンドウ](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
+![ナビ ペイン](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>お気に入りのダッシュボード、KPI、レポートを表示する
 モバイル アプリの [お気に入り] ページで、Power BI レポート サーバーおよび Reporting Services の KPI とレポートと共にすべてのお気に入りの Power BI ダッシュボードを表示することができます。 Power BI モバイル アプリでダッシュボードを *お気に入り* にすると、ブラウザーの Power BI サービスを含むすべてのデバイスからアクセスできます。 
 
 * **[お気に入り]** をタップします。
   
-   ![左側のナビゲーション ウィンドウの [お気に入り]](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
+   ![ナビ ペインの [お気に入り]](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
   
    Power BI のお気に入りおよび Power BI レポート サーバーおよび Reporting Services Web ポータルからのお気に入りがすべて、このページにあります。
   
@@ -135,8 +134,8 @@ Power BI 用の Android デバイス アプリ、Power BI のダッシュボー�
 * Power BI Desktop で[レポートを作成し、Power BI レポート サーバー](../../report-server/quickstart-create-powerbi-report.md) Web ポータルでそれらを公開します。
 
 ### <a name="see-also"></a>参照
-* Android アプリ ストアから [Android アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkID=544867)する。
+* Android アプリ ストアから [Android アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)する。
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 
 

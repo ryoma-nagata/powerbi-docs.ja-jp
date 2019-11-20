@@ -3,18 +3,17 @@ title: 埋め込みアプリケーションのトラブルシューティング
 description: この記事では、Power BI からコンテンツを埋め込むときに発生する一般的な問題について説明します。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 4038ffdb9a3218c0b2f04dd524463235fa91b6b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543904"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864101"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -24,7 +23,7 @@ ms.locfileid: "72543904"
 
 ### <a name="fiddler-trace"></a>Fiddler のトレース
 
-[Fiddler](http://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。  クライアント コンピューターから Power BI API によるトラフィックを確認できます。 このツールでは、エラーとその他の関連する情報が表示される場合があります。
+[Fiddler](https://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。  クライアント コンピューターから Power BI API によるトラフィックを確認できます。 このツールでは、エラーとその他の関連する情報が表示される場合があります。
 
 ![Fiddler のトレース](media/embedded-troubleshoot/fiddler.png)
 
@@ -78,9 +77,9 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 * ユーザーが共有容量で生成できる埋め込みトークンの量を超えました。 埋め込みトークンを生成するための Azure 容量を購入し、ワークスペースをその容量に割り当てます。 「[Azure Portal での Power BI Embedded 容量の作成](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)」をご覧ください。
 * Azure AD 認証トークンの有効期限が切れています。
-* 認証されたユーザーがグループ (アプリ ワークスペース) に属していません。
-* 認証されたユーザーがグループ (アプリ ワークスペース) の管理者ではありません。
-* 認証されたユーザーは、アクセス許可を持っていません。 アクセス許可は [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) を使用して更新できます
+* 認証されたユーザーがグループ (ワークスペース) に属していません。
+* 認証されたユーザーがグループ (ワークスペース) の管理者ではありません。
+* 認証されたユーザーは、アクセス許可を持っていません。 アクセス許可は [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) を使用して更新できます
 * Authorization ヘッダーが正しく記載されていない可能性があります。 入力ミスがないことを確認してください。
 
 場合によっては、GenerateToken を呼び出す前にアプリケーションのバックエンドで認証トークンを更新する必要があります。
@@ -293,7 +292,7 @@ Power BI Desktop から、あるいは powerbi.com 内でファイルを開き�
 
     AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-このエラーは、Web サーバー アプリケーションに対して指定されているリダイレクト URL が、サンプルの URL と異なるためです。 サンプル アプリケーションを登録する場合は、リダイレクト URL として `http://localhost:13526/` を使います。
+このエラーは、Web サーバー アプリケーションに対して指定されているリダイレクト URL が、サンプルの URL と異なるためです。 サンプル アプリケーションを登録する場合は、リダイレクト URL として `https://localhost:13526/` を使います。
 
 登録済みのアプリケーションを編集する場合は、[Azure AD 登録済みアプリケーションの更新](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)方法を確認し、アプリケーションが Web API へのアクセスを提供できるようにします。
 
@@ -305,7 +304,7 @@ Power BI ユーザー プロファイルまたはデータを編集する場合�
 
 詳しくは、「[Power BI Embedded に関してよく寄せられる質問](embedded-faq.md)」をご覧ください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 
 さらなる支援が必要な場合は、[サポートに問い合わせる](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded)か、[Azure portal でサポート チケットを作成](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)し、発生したエラー メッセージを指定してください。
 
@@ -313,4 +312,4 @@ Power BI ユーザー プロファイルまたはデータを編集する場合�
 
 詳細については、[よくあるご質問](embedded-faq.md)をご覧ください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

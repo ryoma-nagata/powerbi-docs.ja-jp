@@ -2,7 +2,6 @@
 title: Power BI でクラシック ワークスペースを作成する
 description: 組織に主要な指標を提供するためにビルドされたダッシュボード、レポート、およびページ分割されたレポートのコレクションである、ワークスペースを作成する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020244"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853553"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI でクラシック ワークスペースを作成する
 
@@ -39,7 +38,7 @@ Power BI では、"*ワークスペース*" を作成することができます
 ### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Office 365 ワークスペースにイメージを追加する (省略可能)
 既定では、Power BI は、アプリの頭文字を使用した色付きの小さな丸をアプリに作成します。 しかし、画像でカスタマイズする必要があるかもしれません。 画像を追加するには、Exchange Online ライセンスが必要です。
 
-1. **[ワークスペース]** を選択し、ワークスペースの名前の横にある省略記号 (...) を選択して、 **[メンバー]** を選択します。 
+1. **[ワークスペース]** を選択し、ワークスペースの名前の横にある**その他のオプション** (...) を選択して、 **[メンバー]** を選択します。 
    
      ![ワークスペースのメンバーを選択する](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
@@ -75,7 +74,7 @@ Power BI でサポートされるすべてのサード パーティ サービス
 
 組織内の大勢の対象ユーザーに公式コンテンツを配布する場合は、ワークスペースからアプリを発行できます。  コンテンツが用意できたら、発行するダッシュボードやレポートを選択し、それを "*アプリ*" として発行します。 各ワークスペースから 1 つのアプリを作成できます。
 
-左側のナビゲーションにあるアプリの一覧には、インストールしたすべてのアプリが表示されます。 同僚はいくつかの異なる方法でアプリを取得することができます。 
+ナビ ペインにあるアプリの一覧には、インストールしたすべてのアプリが表示されます。 同僚はいくつかの異なる方法でアプリを取得することができます。 
 - Microsoft AppSource からアプリを検索してインストールできます。
 - これらのユーザーに直接リンクを送信できます。 
 - Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。 
@@ -97,4 +96,4 @@ Power BI でサポートされるすべてのサード パーティ サービス
 ## <a name="next-steps"></a>次の手順
 * [Power BI にアプリをインストールし、使用する](service-create-distribute-apps.md)
 - [新しいワークスペースを作成する](service-create-the-new-workspaces.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

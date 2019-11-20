@@ -2,7 +2,6 @@
 title: Power BI を使用してデータ インサイトを自動的に生成する
 description: データセットとダッシュボード タイルに関する詳細情報を取得する方法を説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994909"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872246"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI を使用してデータ インサイトを自動的に生成する
 新しいデータセットがあるが、どこから始めるべきかわからない場合。  ダッシュボードをすばやく構築する必要がある場合。  不足している情報を探したい場合。
@@ -38,7 +37,7 @@ Amanda がクイック インサイトをデータセットに対して実行し
 
 次はあなたの番です。 [サプライヤー クオリティ分析サンプル](sample-supplier-quality.md)を使用して分析情報を試してみます。
 
-1. **[データセット]** タブから省略記号 [...] を選び、 **[クイック分析情報を取得する]** を選びます。
+1. **[データセット]** タブから**その他のオプション** (...) を選び、 **[クイック分析情報を取得する]** を選びます。
    
     ![データセット タブ](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +61,7 @@ Amanda がクイック インサイトをデータセットに対して実行し
 
 1. ダッシュボードに視覚化を追加するには、カードの上にポインターを移動してピン アイコンを選択します。
 
-2. カードをポイントし、省略記号 (...) を選択し、 **[詳細情報の表示]** を選択します。 
+2. カードをポイントし、**その他のオプション** (...) を選択し、 **[詳細情報の表示]** を選択します。 
 
     分析情報画面がフォーカス モードで開きます。
    
@@ -86,7 +85,7 @@ Amanda がクイック インサイトをデータセットに対して実行し
 データセット全体から情報を検索する代わりに、検索を絞り込み、単一のダッシュボード タイルの作成に使用するデータに範囲付き分析情報を実行します。 
 
 1. ダッシュボードを開きます。
-2. タイルの上にマウスを置きます。 省略記号 (...) を選択し、 **[詳細情報の表示]** を選択します。 タイルが[フォーカス モード](service-focus-mode.md)で開き、インサイト カードが右側に表示されます。    
+2. タイルの上にマウスを置きます。 **その他のオプション** (...) を選択し、 **[詳細情報の表示]** を選択します。 タイルが[フォーカス モード](service-focus-mode.md)で開き、インサイト カードが右側に表示されます。    
    
     ![フォーカス モード](media/service-insights/pbi-insights-tile.png)    
 3. 興味をそそる情報がありましたか? 詳細に確認するには、その分析情報カードを選択します。 選択した分析情報が左側に表示され、右側には、その単一の分析情報に含まれるデータのみに基づく新しい分析情報カードが表示されます。    
@@ -96,5 +95,5 @@ Amanda がクイック インサイトをデータセットに対して実行し
 - データセットを所有している場合は、[クイック分析情報用に最適化します](service-insights-optimize.md)。
 - 使用できるクイック分析情報の種類については[こちら](service-insight-types.md)を参照してください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

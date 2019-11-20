@@ -2,7 +2,6 @@
 title: Power BI Desktop でのページの自動更新 (プレビュー)
 description: Power BI Desktop で DirectQuery ソースのページを自動的に更新する方法について説明します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 546dffe20d6840544eca1360945482630a686069
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307986"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878765"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop でのページの自動更新 (プレビュー)
 
@@ -112,7 +111,7 @@ Power BI サービスでは、ワークスペースや、Premium サービスが
 
 共有容量の場合、ワークロードは他のお客様と共有される計算リソースで実行されます。 容量はリソースを共有する必要があるため、最大モデル サイズ (1 GB) や最大日次更新頻度 (1 日 8 回) の設定など、"*フェア プレイ*" を確保するための制限が課されます。
 
-Power BI の**ワークスペース**は容量内にあり、セキュリティ、コラボレーション、およびデプロイ コンテナーを表します。 各 Power BI ユーザーには、**マイ ワークスペース**と呼ばれる個人用のワークスペースが用意されます。 追加のワークスペースを作成することで、コラボレーションや配置を有効にすることができます。これらは**アプリのワークスペース**と呼ばれます。 既定では、ワークスペース (個人用のワークスペースも含む) は、**共有容量**内に作成されます。
+Power BI の**ワークスペース**は容量内にあり、セキュリティ、コラボレーション、およびデプロイ コンテナーを表します。 各 Power BI ユーザーには、**マイ ワークスペース**と呼ばれる個人用のワークスペースが用意されます。 追加のワークスペースを作成することで、コラボレーションやデプロイを有効にすることができます。これらは**ワークスペース**と呼ばれます。 既定では、ワークスペース (個人用のワークスペースも含む) は、**共有容量**内に作成されます。
 
 2 つのワークスペース シナリオの詳細を次に示します。
 

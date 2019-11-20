@@ -2,19 +2,18 @@
 title: Power BI モバイル アプリの特定の場所へのリンクを作成する
 description: URI (Uniform Resource Identifier) で Power BI モバイル アプリの特定のダッシュボード、タイル、またはレポートへのディープ リンクを作成する方法について説明します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "64906526"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879287"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの特定の場所へのリンクを作成する
 Power BI では、リンクを使用し、レポート、ダッシュボード、タイルといった特定の項目に直接アクセスできます。
@@ -69,7 +68,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 #### <a name="links-of-apps-and-items-in-app"></a>アプリに含まれるアプリ/項目のリンク
 
-**アプリに含まれるアプリ、レポート、ダッシュボード**については、リンクを取得する最も簡単な方法はアプリ ワークスペースに移動し、"アプリを更新" を選択します。 これで "アプリの発行" エクスペリエンスが開きます。[アクセス] タブには **[リンク]** セクションがあります。 そのセクションを展開すると、アプリの一覧とそのコンテンツ リンクがすべて表示されます。このリンクを利用すると、アプリに直接アクセスできます。
+**アプリに含まれるアプリ、レポート、ダッシュボード**の場合、リンクを取得する最も簡単な方法は、ワークスペースに移動し、[アプリを更新] を選択することです。 これで "アプリの発行" エクスペリエンスが開きます。[アクセス] タブには **[リンク]** セクションがあります。 そのセクションを展開すると、アプリの一覧とそのコンテンツ リンクがすべて表示されます。このリンクを利用すると、アプリに直接アクセスできます。
 
 ![Power BI でアプリ リンクを発行する ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -117,6 +116,6 @@ Power BI モバイル アプリで使用したいその他の機能にぜひ投�
 
 * [モバイル デバイス用の Power BI アプリ](mobile-apps-for-mobile-devices.md)
 * Twitter で @MSPowerBI をフォローする
-* [Power BI コミュニティの会話](http://community.powerbi.com/)に参加する
-* [Power BI とは?](../../power-bi-overview.md)
+* [Power BI コミュニティの会話](https://community.powerbi.com/)に参加する
+* [Power BI とは?](../../fundamentals/power-bi-overview.md)
 

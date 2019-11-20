@@ -2,7 +2,6 @@
 title: Power BI でコンテンツが最新の状態に維持されるしくみ
 description: Power BI では、常に最新のデータ、レポート、ダッシュボード、アプリが使用されるようになっています。そのしくみについて説明します。
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,14 +9,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141737"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863877"
 ---
 # <a name="your-content-is-up-to-date"></a>コンテンツが最新の状態に維持される
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 *コンシューマー*は、*デザイナー*が作成し、コンシューマーと共有したコンテンツを使用します。 そのコンテンツが最新の状態になっているか気になることがあるでしょう。あるいは、コンテンツの最終更新日が知りたくなることもあります。 最新のコンテンツを使用していることがわかれば、自信を持って作業できます。  
  
 ![Power BI ダッシュボード](media/end-user-fresh/power-bi-dashboards.png)
@@ -40,9 +42,9 @@ ms.locfileid: "71141737"
 
 アプリ画面には、デザイナーの名前とアプリの最終更新日時が表示されます。  
 
-1. 左側のナビゲーション ウィンドウから **[アプリ]** を選択します。
+1. ナビ ペインから **[アプリ]** を選択します。
 
-    ![左ナビゲーション ウィンドウ](media/end-user-fresh/power-bi-nav-app.png)
+    ![ナビゲーション ウィンドウ](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -51,7 +53,7 @@ ms.locfileid: "71141737"
     ![2 つのアプリの内、1 つが選択されています](media/end-user-fresh/power-bi-app.png)
 
 
-### <a name="shared-with-me"></a>共有アイテム
+### <a name="shared-with-me"></a>自分と共有
 **[共有アイテム]** 画面には、コンテンツ所有者の名前とコンテンツが最後に共有された日付が表示されます。
 
 ![共有アイテム画面に変更日付と所有者が表示されています](media/end-user-fresh/power-bi-share.png) 
@@ -63,7 +65,7 @@ ms.locfileid: "71141737"
 ### <a name="dashboard-tiles"></a>データのプッシュ時の
 ダッシュボード タイルの場合、タイルをフォーカス モードで表示すると、最終更新日のタイムスタンプが表示されます。
 
-1. ダッシュボード タイルで省略記号 (...) を選択し、**[フォーカス モードで開く]** を選択します。
+1. ダッシュボード タイルで**その他のオプション** (...) を選択し、 **[フォーカス モードで開く]** を選択します。
 
     ![省略記号を選択すると表示されるメニュー](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +74,7 @@ ms.locfileid: "71141737"
     ![幅を広くしたブラウザーに最終更新日が表示されています](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>ダッシュボードとレポート
-最終更新日を調べるもう 1 つの方法に **[関連の表示]** を使用する方法があります。  **[関連の表示]** は、Power BI の上部メニュー バーから省略記号 [...] を選択して利用できます。
+最終更新日を調べるもう 1 つの方法に **[関連の表示]** を使用する方法があります。  **[関連の表示]** は、Power BI の上部メニュー バーから**その他のオプション** (...) を選択して利用できます。
 
 ![メニューから [関連の表示] を選択する](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
@@ -82,7 +84,7 @@ ms.locfileid: "71141737"
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>デザイナーがアプリを削除するとどうなるか
 
-デザイナーがアプリを削除すると、そのアプリに関連付けられているダッシュボードやレポートも Power BI ワークスペースから自動的に削除されます。 今後は利用できなくなり、アプリは [アプリ] コンテナーまたはナビゲーション バーの他の場所に表示されなくなります。
+デザイナーがアプリを削除すると、そのアプリに関連付けられているダッシュボードやレポートも Power BI ワークスペースから自動的に削除されます。 今後は利用できなくなり、アプリは [アプリ] コンテナーまたはナビ ペインの他の場所に表示されなくなります。
 
 
 ## <a name="subscribe-to-see-changes"></a>サブスクライブして変更を確認する

@@ -1,8 +1,7 @@
 ---
 title: Power BI Desktop で Azure Cost Management データに接続する
-description: 簡単に Azure に接続し、Power BI Desktop を使用してコスト管理に関する分析情報を得ることができます
+description: Power BI Desktop を使用して、Azure に簡単に接続し、Azure のコストと使用状況に関する分析情報を取得します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,21 +10,21 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1ef9deac169873d7faee33abdae9f8f38aa09c6d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1a09bd706a69156066f077bfb1668dd27448bd40
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308009"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878600"
 ---
-# <a name="connect-to-azure-cost-management-data-in-power-bi-desktop"></a>Power BI Desktop で Azure Cost Management データに接続する
+# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Power BI Desktop で Azure Cost Management に接続する
 
 Power BI Desktop 用の Azure Cost Management コネクタを使用すると、強力でカスタマイズされた視覚化とレポートを作成し、Azure のコストの理解を深めることができます。 現在、Azure Cost Management コネクタは、[Microsoft 顧客契約](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/)または [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) を結んでいるお客様をサポートしています。  
 
-Azure Cost Management コネクタは、Azure での認証に OAuth 2.0 を使用します。 接続する場合、Enterprise Agreement の場合は [Enterprise Administrator](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) アカウントを使用し、Microsoft 顧客契約の場合は[課金アカウント所有者](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles)を使用する必要があります。 
+Azure Cost Management コネクタは、Azure での認証に OAuth 2.0 を使用して、コネクタを利用するユーザーを識別します。 このプロセスで生成されるトークンは、特定の期間、有効です。 Power BI は、次回のログインのためにトークンを保持します。 OAuth 2.0 は、これらのアクセス許可の安全な処理を保証するためにバックグラウンドで実行されるプロセスのための標準です。 接続する場合、Enterprise Agreement の場合は [Enterprise Administrator](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) アカウントを使用し、Microsoft 顧客契約の場合は[課金アカウント所有者](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles)を使用する必要があります。 
 
 > [!NOTE]
-> このコネクタは、以前にリリースされていた [Azure Cost Management (ベータ)](desktop-connect-azure-consumption-insights.md) コネクタに置き換わるものです。 前のコネクタで作成されたレポートは、このコネクタを使用して再作成する必要があります。
+> このコネクタは、以前にリリースされていた [Azure Consumption Insights および Azure Cost Management (ベータ)](desktop-connect-azure-consumption-insights.md) コネクタに置き換わるものです。 前のコネクタで作成されたレポートは、このコネクタを使用して再作成する必要があります。
 
 ## <a name="connect-using-azure-cost-management"></a>Azure Cost Management を使用して接続する
 

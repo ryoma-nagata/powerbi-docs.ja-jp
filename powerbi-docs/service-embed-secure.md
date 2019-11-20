@@ -3,19 +3,18 @@ title: セキュリティで保護されたポータルまたは Web サイト�
 description: Power BI の埋め込み機能を使うと、ユーザーは簡単かつ安全に内部 Web ポータルにレポートを埋め込むことができます。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 59841cdcfae3bc08e0b6dcacf4bcb6664dfe209c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867104"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877076"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 
@@ -49,7 +48,7 @@ Power BI レポートの新しい**埋め込み**オプションを使うと、�
 
 **[埋め込む]** オプションによって、ユーザーがレポートを表示することが自動的に許可されるわけではありません。 表示権限は Power BI サービスで設定されます。
 
-Power BI サービスでは、アクセスを必要とするユーザーと埋め込みレポートを共有できます。 Office 365 グループを使用している場合、アプリ ワークスペースのメンバーとしてユーザーを記載できます。 詳細は、[Power BI と Office 365 でアプリ ワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)方法に関するページを参照してください。
+Power BI サービスでは、アクセスを必要とするユーザーと埋め込みレポートを共有できます。 Office 365 グループを使用している場合、ワークスペースのメンバーとしてユーザーを記載できます。 詳細については、「[Power BI と Office 365 でワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)」を参照してください。
 
 ## <a name="licensing"></a>ライセンス
 

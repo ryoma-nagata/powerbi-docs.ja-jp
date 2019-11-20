@@ -2,7 +2,6 @@
 title: Power BI のウォーターフォール図
 description: Power BI のウォーターフォール図
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71191305"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881970"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI のウォーターフォール図
 
@@ -24,7 +23,7 @@ ms.locfileid: "71191305"
 
 ウォーターフォール図は、Power BI で値が加算または減算されるときの累計を示します。 一連の加算と減算の変化によって、初期値 (純利益など) が、どのように影響を受けるかを理解するために役立ちます。
 
-各縦棒が色分けされるため、ひと目で増減を識別できます。 最初と最後の値の縦棒は、通常[横軸を起点](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "横軸を起点")としますが、中間値の縦棒は浮動縦棒です。 この形式から、ウォーターフォール図はブリッジ図と呼ばれることもあります。
+各縦棒が色分けされるため、ひと目で増減を識別できます。 最初と最後の値の縦棒は、通常は[横軸を起点](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "横軸を起点とする")としますが、中間値の縦棒は浮動縦棒です。 この形式から、ウォーターフォール図はブリッジ図と呼ばれることもあります。
 
    > [!NOTE]
    > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
@@ -49,7 +48,7 @@ ms.locfileid: "71191305"
 
 ## <a name="prerequisite"></a>前提条件
 
-このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
 
 1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
    
@@ -76,7 +75,7 @@ ms.locfileid: "71191305"
 
     ![ウォーターフォール](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 
-1. Power BI でウォーターフォール図が時系列で並べ替えられたことを確認します。 グラフの右上隅から、省略記号 (...) を選択します。
+1. Power BI でウォーターフォール図が時系列で並べ替えられたことを確認します。 グラフの右上隅で、 **[その他のオプション]** (...) を選択します。
 
     この例では、 **[昇順で並べ替え]** を選択します。
 

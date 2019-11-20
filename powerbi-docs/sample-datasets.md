@@ -2,7 +2,6 @@
 title: Power BI で使用できるサンプルのツアー
 description: Power BI のコンテンツ パック、PBIX ファイル、Excel データセットのサンプル
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721480"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858985"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI で使用できるサンプル データ
 Power BI を初めて試してみたくてもデータがない場合や、  データセットはあっても Power BI の動作が (まだ) よくわからないためデータセットが壊れるのではないかと心配になる場合があります。
@@ -116,16 +115,16 @@ ObviEnce は、Microsoft Business Intelligence に重点を置いた ISV およ�
 ## <a name="the-power-bi-samples-as-excel-files"></a>Excel ファイルの Power BI サンプル
 各サンプル コンテンツ パックは、Excel ブックでも入手できます。 Excel ブックは、Power BI サービスで使うように設計されています。  
 
-1. 以下のリンクを使ってファイルを個別にダウンロードするか、[すべてのサンプル ファイルを 1 つにまとめた zip ファイルをダウンロードしてください](http://go.microsoft.com/fwlink/?LinkId=535020)。 経験のあるユーザーは、Excel ブックをダウンロードしてデータ モデルを自由に調査したり編集したりしてかまいません。
+1. 以下のリンクを使ってファイルを個別にダウンロードするか、[すべてのサンプル ファイルを 1 つにまとめた zip ファイルをダウンロードしてください](https://go.microsoft.com/fwlink/?LinkId=535020)。 経験のあるユーザーは、Excel ブックをダウンロードしてデータ モデルを自由に調査したり編集したりしてかまいません。
 
-   * [小売の分析のサンプル](http://go.microsoft.com/fwlink/?LinkId=529778)
-   * [サプライヤー クオリティ分析サンプル](http://go.microsoft.com/fwlink/?LinkId=529779)
-   * [人事のサンプル](http://go.microsoft.com/fwlink/?LinkId=529780)
-   * [お客様の収益性のサンプル](http://go.microsoft.com/fwlink/?LinkId=529781)
-   * [営業案件の追跡のサンプル](http://go.microsoft.com/fwlink/?LinkId=529782)
-   * [IT 支払い分析のサンプル](http://go.microsoft.com/fwlink/?LinkId=529783)
-   * [調達の分析のサンプル](http://go.microsoft.com/fwlink/?LinkId=529784)
-   * [売上およびマーケティングのサンプル](http://go.microsoft.com/fwlink/?LinkId=529785)
+   * [小売の分析のサンプル](https://go.microsoft.com/fwlink/?LinkId=529778)
+   * [サプライヤー クオリティ分析サンプル](https://go.microsoft.com/fwlink/?LinkId=529779)
+   * [人事のサンプル](https://go.microsoft.com/fwlink/?LinkId=529780)
+   * [お客様の収益性のサンプル](https://go.microsoft.com/fwlink/?LinkId=529781)
+   * [営業案件の追跡のサンプル](https://go.microsoft.com/fwlink/?LinkId=529782)
+   * [IT 支払い分析のサンプル](https://go.microsoft.com/fwlink/?LinkId=529783)
+   * [調達の分析のサンプル](https://go.microsoft.com/fwlink/?LinkId=529784)
+   * [売上およびマーケティングのサンプル](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. ダウンロードしたファイルを保存します。 どこにファイルを保存するかによって違いがあります。
 
    * ![ローカル](media/sample-datasets/power-bi-local-file2.png)  **ローカル** - コンピューター上のローカル ドライブまたは組織内の別の場所にファイルを保存した場合、ファイルを Power BI にインポートできます。 実際はファイルがローカル ドライブに残ったままになるため、ファイル全体が Power BI にインポートされるわけではありません。 Power BI サイトに新しいデータセットが作成され、データ (場合によってはデータ モデル) がデータセットに読み込まれるという処理が発生しています。 ファイルにレポートが含まれている場合、これらのレポートは Power BI サイトの [レポート] に表示されます。
@@ -154,7 +153,7 @@ ObviEnce は、Microsoft Business Intelligence に重点を置いた ISV およ�
 
     ![[インポート] または [接続]](media/sample-datasets/power-bi-import.png)
 9. **[インポート]** を選んだ場合、Power BI はサンプル ブックをインポートし、"**調達の分析のサンプル**" という名前の新しいデータセットとして追加します。  ブックに Power View のシート、テーブル、または範囲や、データ モデルがある場合、Power BI でも (同じ名前の) レポートが作成されます。 そして、ダッシュボードをまだ開いていない場合は、新しいダッシュボードが自動的に作成されます ( **[データの取得]** をクリックするときにダッシュボードを開いてあった場合は、ダッシュボードに新しい空のタイルが表示されて、  そのタイルをクリックすると、追加したデータセットのレポートに移動します)。 新しいコンテンツにはサンプルにちなんだ名前が付けられ、黄色いアスタリスクで示されます。
-10. **[データセットの準備ができました]** 画面が表示されたら、 **[データセットの表示]** または **[クイック分析情報を入手する]** を選ぶか、Power BI の左側のナビゲーション バーを使って関連するレポートまたはダッシュボードを探して開きます。  
+10. **[データセットの準備ができました]** 画面が表示されたら、 **[データセットの表示]** または **[クイック分析情報を入手する]** を選ぶか、Power BI のナビ ペインを使って関連するレポートまたはダッシュボードを探して開きます。  
 
      ![データセットの表示](media/sample-datasets/power-bi-ready.png)
 
@@ -176,15 +175,15 @@ Excel ブックのデータが Power BI のデータセットやレポートに�
 
 1. 下のリンクを使って、ファイルを個別にダウンロードします。 次のリンクを選択すると、ファイルが自動的にご利用のダウンロード フォルダーに保存されます。 
 
-   * [小売りの分析のサンプル PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [サプライヤー クオリティ分析サンプル PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   * [小売りの分析のサンプル PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [サプライヤー クオリティ分析サンプル PBIX](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    <!-- Previous link doesn't work -->
-   * [人事のサンプル PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
-   * [お客様の収益性のサンプル PBIX](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
-   * [営業案件の追跡のサンプル PBIX](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
-   * [IT 支払い分析のサンプル PBIX](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
-   * [調達の分析のサンプル PBIX](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
-   * [売上およびマーケティングのサンプル PBIX](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+   * [人事のサンプル PBIX](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [お客様の収益性のサンプル PBIX](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [営業案件の追跡のサンプル PBIX](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [IT 支払い分析のサンプル PBIX](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [調達の分析のサンプル PBIX](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [売上およびマーケティングのサンプル PBIX](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 1. Power BI Desktop で **[ファイル]、[開く]** の順に選択し、サンプル .pbix を保存した場所に移動します。
 
@@ -198,4 +197,4 @@ Excel ブックのデータが Power BI のデータセットやレポートに�
 
 [Power BI のデータ ソース](service-get-data.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

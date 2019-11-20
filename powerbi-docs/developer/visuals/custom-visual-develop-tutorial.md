@@ -3,18 +3,17 @@ title: Power BI のビジュアルを開発する
 description: Power BI カスタム ビジュアルの開発方法に関するチュートリアル
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 1aa269bc738b873ac36498e2ecf52f2cf06c209d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308699"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128015"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>チュートリアル:Power BI のビジュアルを開発する
 
@@ -238,7 +237,7 @@ Power BI Desktop レポートでは、Circle Card になるようにカードが
 
     ![データの取得](media/custom-visual-develop-tutorial/get-data.png) ![ローカル ファイル](media/custom-visual-develop-tutorial/local-file.png)
 
-    レポートを表示するには、左側のナビゲーション ウィンドウにある **[レポート]** セクションから **[US_Sales_Analysis]** を選択します。
+    レポートを表示するには、左側のナビ ペインにある **[レポート]** セクションから **[US_Sales_Analysis]** を選択します。
 
     ![カスタム ビジュアルの Desktop のサンプル](media/custom-visual-develop-tutorial/custom-visual-sample.png)
 

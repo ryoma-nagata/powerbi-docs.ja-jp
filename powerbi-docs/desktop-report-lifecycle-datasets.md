@@ -2,7 +2,6 @@
 title: Power BI Desktop から Power BI サービスのデータセットに接続する
 description: 複数のワークスペース内の複数の Power BI Desktop レポートに共通のデータセットを使い、レポートのライフサイクルを管理します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d7d48b78ecced3e26a52df12bc8850ab8fed4c1e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020482"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877890"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop から Power BI サービスのデータセットに接続する
 Power BI サービスの共有データセットへのライブ接続を確立し、同じデータセットから多数の異なるレポートを作成できます。 つまり、Power BI Desktop で自分の完全なデータ モデルを作成し、それを Power BI サービスに発行することができます。 そうすれば、その同じ共通のデータ モデルから、あなたと他の人は複数のさまざまなレポート (別々の .pbix ファイルに) を作成し、それらを異なるワークスペースに保存できます。 この機能は、**Power BI サービス ライブ接続**と呼ばれます。
@@ -37,7 +36,7 @@ Anna (ビジネス アナリスト) はチームのメンバーであり、優�
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>ライブ接続を使用して Power BI サービス データセットに接続する
 Anna がレポート (および、その基になるデータセット) を作って **Power BI サービス**に発行すると、Power BI サービスのチームのワークスペースに表示されます。 Anna がそれを "*新しいエクスペリエンス ワークスペース*" に保存した場合、Anna は自分のワークスペースの内外にいるすべての人がそれを表示および使用できるように、ビルド アクセス許可を設定することができます。
 
-新しいエクスペリエンス ワークスペースの詳細については、「[アプリ ワークスペース](service-new-workspaces.md)」を参照してください。
+新しいエクスペリエンス ワークスペースの詳細については、[ワークスペース](service-new-workspaces.md)に関するページを参照してください。
 
 Anna のワークスペースの内外の他のメンバーは、(**Power BI サービス ライブ接続**機能を使って) Anna の共有データ モデルへのライブ接続を確立し、"*それらのメンバーの独自の新しいエクスペリエンス ワークスペース*内" で "*彼らのオリジナルなデータセット*" から独自のレポートを作成することができます。
 

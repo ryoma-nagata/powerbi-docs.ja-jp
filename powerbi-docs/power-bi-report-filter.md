@@ -2,7 +2,6 @@
 title: Power BI レポートの新しいフィルター エクスペリエンス
 description: Power BI のフィルターに、新しい機能と新しいデザインが追加されます。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841261"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875140"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI レポートの新しいフィルター エクスペリエンス
 
@@ -44,7 +43,7 @@ Power BI のフィルターに、新しい機能と新しいデザインが追�
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>Power BI Desktop で既存のレポートに対して新しいフィルターを有効にする
 
 1. Power BI Desktop の既存のレポート内で、 **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]** を選択します。
-2. 左側のナビゲーション バーで、 **[現在のファイル]** の **[レポートの設定]** を選択します。
+2. ナビ ペインで、 **[現在のファイル]** の **[レポートの設定]** を選択します。
 3. **[エクスペリエンスのフィルター処理]** の下で、 **[このレポートに関して、更新されたフィルター ウィンドウを有効にし、ビジュアル ヘッダーにフィルターを表示する]** を選択します。
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>サービスで既存のレポートに対して新しいフィルターを有効にする
@@ -238,5 +237,5 @@ Power BI サービスで **[新しい外観]** がオンになっている場合
 - [レポート内のフィルターと強調表示](power-bi-reports-filters-and-highlighting.md)
 - [Power BI で使用できるさまざまなフィルター](power-bi-report-filter-types.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

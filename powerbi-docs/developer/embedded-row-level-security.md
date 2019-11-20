@@ -3,18 +3,17 @@ title: Power BI の埋め込みコンテンツで行レベルのセキュリテ�
 description: ここでは、アプリケーション内に Power BI コンテンツを埋め込むために必要な手順について説明します。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073343"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875814"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded での行レベルのセキュリティ
 
@@ -33,7 +32,7 @@ RLS を利用するには、ユーザー、ロール、ルールの 3 つの主�
 **ロール** – ユーザーはロールに属しています。 ロールはルールのコンテナーであり、"*営業マネージャー*" や "*営業担当者*" のような名前を付けます。ロールは Power BI Desktop で作成します。 詳しくは、「[Power BI Desktop での行レベルのセキュリティ (RLS)](../desktop-rls.md)」をご覧ください。
 
 **ルール** – ロールにはルールが割り当てられ、それらのルールはデータに適用される実際のフィルターです。 ルールは、"Country = USA" のような単純なものもあれば、もっと動的なものもあります。
-この記事の残りの部分では、RLS を作成し、埋め込みアプリケーション内でそれを使う方法の例について説明します。 この例では、[小売の分析のサンプル](http://go.microsoft.com/fwlink/?LinkID=780547)の PBIX ファイルを使います。
+この記事の残りの部分では、RLS を作成し、埋め込みアプリケーション内でそれを使う方法の例について説明します。 この例では、[小売の分析のサンプル](https://go.microsoft.com/fwlink/?LinkID=780547)の PBIX ファイルを使います。
 
 ![レポートの例](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
@@ -73,7 +72,7 @@ RLS は Power BI Desktop で作成します。 データセットとレポート
 
     レポートには、**AndrewMa** としてサインインした場合のデータが表示されます。
 
-ここでのフィルター適用方法では、**District**、**Store**、**Sales** の各テーブルのすべてのレコードがフィルター処理されます。 ただし、リレーションシップ上でのフィルターの向きのため、**Sales** から **Time**、**Sales** から **Item**、**Item** から **Time** テーブルには、フィルターは適用されません。 双方向のクロス フィルター処理について詳しくは、「[Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)」(SQL Server Analysis Services 2016 と Power BI Desktop での双方向クロス フィルター処理) ホワイトペーパーをダウンロードしてご覧ください。
+ここでのフィルター適用方法では、**District**、**Store**、**Sales** の各テーブルのすべてのレコードがフィルター処理されます。 ただし、リレーションシップ上でのフィルターの向きのため、**Sales** から **Time**、**Sales** から **Item**、**Item** から **Time** テーブルには、フィルターは適用されません。 双方向のクロス フィルター処理について詳しくは、「[Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)」(SQL Server Analysis Services 2016 と Power BI Desktop での双方向クロス フィルター処理) ホワイトペーパーをダウンロードしてご覧ください。
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>埋め込みトークンへのユーザーとロールの適用
 
@@ -241,7 +240,7 @@ Power BI Embedded アプリケーションで CustomData() 機能の設定を開
 
 ユーザーが短縮、スコープ設定、またはフィルター処理されたデータのビューを利用できるようにするためには、[JavaScript のフィルター](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters)を使います。 ただし、ユーザーは引き続きモデル スキーマのテーブル、列、およびメジャーにアクセスできるため、潜在的にはそこにあるすべてのデータにアクセスできます。 データへのアクセス制限は RLS を使う場合にのみ適用でき、クライアント側のフィルター処理 API を使う場合は適用できません。
 
-## <a name="token-based-identity-with-azure-sql-database-preview"></a>Azure SQL Database でのトークン ベースの ID (プレビュー)
+## <a name="token-based-identity-with-azure-sql-database"></a>Azure SQL Database でのトークンベースの ID
 
 **トークン ベースの ID** では、**Azure SQL Database** に対する **Azure Active Directory (AAD)** のアクセス トークンを使用して、埋め込みトークンに対する有効な ID を指定することができます。
 
@@ -332,7 +331,7 @@ SQL Server Analysis Services (SSAS) オンプレミス ライブ接続データ 
 * 基になるデータセットがクラウド モデル (キャッシュされたモデルまたは DirectQuery) の場合は、有効な ID に少なくとも 1 つのロールが含まれている必要があります。そうでない場合、ロールの割り当ては行われません。
 * ID のリストを使うと、ダッシュボードの埋め込みに複数の ID トークンを使うことができます。 他のすべてのアーティファクトでは、リストには単一の ID が含まれます。
 
-### <a name="token-based-identity-limitations-preview"></a>トークン ベースの ID の制限 (プレビュー)
+### <a name="token-based-identity-limitations"></a>トークンベースの ID の制限
 
 * この機能では、Power BI Premium での使用のみが制限されます。
 * この機能は、オンプレミスの SQL Server では動作しません。

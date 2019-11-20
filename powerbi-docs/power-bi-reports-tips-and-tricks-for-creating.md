@@ -2,7 +2,6 @@
 title: 美しいレポートを作成するためのヒント
 description: Power BI サービス と Power BI Desktop でレポートを作成するときのヒントとテクニックです
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4d686a807d9413c15b19ff382e5ac54fb696b10b
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d7f2c83cf1d0f29f2c0d0c6e621a253acdd3ce41
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721360"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860883"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop と Power BI サービスでのレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop、Power BI サービス、"*および*" Power Pivot のアドインを有効にし、Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションで、レポートを作成する場合に役立つヒントとテクニックをまとめました。
@@ -115,7 +114,7 @@ Power BI Desktop では、計算フィールドを使ってヒストグラムを
 
 アクティブなカスタマー サポート要求からデータセットを読み込み、スキーマを含む作業項目の別のデータセットをさらに読み込む場合は、次のようになります。
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
 >
 >
 
@@ -163,12 +162,9 @@ DAX は、Power BI Desktop で使用される計算式言語です。  それは
 
 [Data Analysis Expressions (DAX) リファレンス](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[DAX リソース センター](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[DAX リソース センター](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI サービス "*および*" Power BI Desktop
-
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>次のホワイトペーパーをお読みください:「[Power BI レポートのデザインの原則](visuals/power-bi-visualization-best-practices.md)」
-このホワイト ペーパーでは、Power BI でレポートをデザインするためのベスト プラクティスについて説明します。 計画から始めて、レポートと、レポートを構成するページおよび個々のビジュアルに適用できる、デザインの原則について説明します。 これらのベスト プラクティスの多くは、ダッシュボードのデザインにも当てはまります。
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>"Power BI で視覚的に美しいレポート (とダッシュボード) をデザインする方法" を読む/見る
 コミュニティ メンバーである Miguel Myers は、データ サイエンティスト兼グラフィック デザイナーです。
@@ -226,4 +222,4 @@ DAX は、Power BI Desktop で使用される計算式言語です。  それは
 
 [Power BI のレポート](consumer/end-user-reports.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

@@ -2,7 +2,6 @@
 title: Power BI サービスのダッシュボード テーマを使用する
 description: ユーザー設定の色パレットを使用し、Power BI サービスでダッシュボード全体に適用する方法について説明します
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8e444c78c1f6f9f3f0be1375f96f7381489cc069
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e2793fe56df462fd5f1bd1c266b75ad14fd9b375
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143700"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877450"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI サービスのダッシュボード テーマを使用する
 **ダッシュボード テーマ**では、企業の色、季節の色、または適用する可能性がある他の色のテーマなど、色のテーマをダッシュボード全体に適用することができます。 **ダッシュボード テーマ**を適用すると、ダッシュボードのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。
@@ -30,7 +29,7 @@ ms.locfileid: "61143700"
 
 
 ## <a name="how-dashboard-themes-work"></a>ダッシュボード テーマのしくみ
-作業を始めるには、まず、作成した (または編集アクセス許可がある) カスタマイズ対象のダッシュボードを開きます。 省略記号 (...) を選択して、 **[ダッシュ ボード テーマ]** を選びます。 
+作業を始めるには、まず、作成した (または編集アクセス許可がある) カスタマイズ対象のダッシュボードを開きます。 **[その他のオプション]** (...) を選択し、 **[ダッシュボード テーマ]** を選択します。 
 
 ![ダッシュボード テーマのオプション](media/service-dashboard-themes/power-bi-dashboard-theme.png)
 

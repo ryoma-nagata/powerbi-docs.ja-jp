@@ -2,7 +2,6 @@
 title: Power BI の売上およびマーケティングのサンプル:ツアーを開始する
 description: Power BI の売上およびマーケティングのサンプル:ツアーを開始する
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 31f42d7f53b3322717677d586266668fb2c0f26b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391365"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873807"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI の売上およびマーケティングのサンプル:ツアーを開始する
 
@@ -56,11 +55,11 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>このサンプルの .pbix ファイルを取得する
 
-あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)とし、売上およびマーケティングのサンプルをダウンロードすることもできます。
+あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)とし、売上およびマーケティングのサンプルをダウンロードすることもできます。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータ ソースを確認する場合は、[Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529785) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
+このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529785) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>ダッシュボードからわかること
 ダッシュボードのツアーを開始し、CMO がピン留めしたタイルを確認してみましょう。 市場シェア、売上、センチメントに関する情報が表示されます。 データは地域、時刻、競合会社別に分類されています。
@@ -82,7 +81,7 @@ Q&A を使用し、データの追加詳細を確認できます。
 
    ![Q&A 質問:VanArsdel のセグメント別合計個数](media/sample-sales-and-marketing/sales2.png)
 3. **[Moderation]\(モデレーション\)** カテゴリと **[Convenience]\(利便性\)** カテゴリにおけるシェアが高く、これらのセグメントで会社は競争しています。
-4. 上部のナビゲーション バーにある **[売上およびマーケティングのサンプル]** を選択し、ダッシュボードに戻ります。
+4. 上部のナビ ペインにある **[売上およびマーケティングのサンプル]** を選択し、ダッシュボードに戻ります。
 
 ### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>各カテゴリ (対地域) における個数合計の市場シェアの動向は?
 1. **[Total Units YTD by Manufacturer, Region]\(製造元、地域別の年度累計個数\)** タイルにご留意ください。 カテゴリ別合計個数の市場シェアは?

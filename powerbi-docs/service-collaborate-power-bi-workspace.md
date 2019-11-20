@@ -2,7 +2,6 @@
 title: クラシック ワークスペースで共同作業する
 description: OneDrive for Business でのファイルの共有、Exchange での会話、予定表、タスクなど、Office 365 のサービスを使って、Power BI ワークスペース内の Power BI Desktop ファイルに対して共同作業を行う方法を説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cddb55ab85cfd6d8d6a5e49d81b83a80df2f81da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832436"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873187"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>クラシック ワークスペースで共同作業する
 Power BI ワークスペースは、同僚とダッシュ ボード、レポート、データセットで共同作業して*アプリ*を作成するのに最適な場所です。 この記事では、オリジナルである*クラシック* ワークスペースについて説明します。  
@@ -45,7 +44,7 @@ Power BI Desktop ファイルを作成した後、ワークスペースにいる
 ## <a name="collaborate-in-office-365"></a>Office 365 で共同作業する
 Office 365 で共同作業するには、まず Power BI のクラシック ワークスペースから作業を開始します。
 
-1. Power BI サービスで、 **[ワークスペース]** の横にある矢印を選択し、目的のワークスペース名の隣にある省略記号 (…) を選択します。 
+1. Power BI サービスで、 **[ワークスペース]** の横にある矢印を選択し、目的のワークスペース名の横にある**その他のオプション** (...) を選択します。 
    
    ![[ワークスペース] メニュー](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. このメニューから、いくつかの方法でグループと共同作業できます。 
@@ -56,7 +55,7 @@ Office 365 で共同作業するには、まず Power BI のクラシック ワ�
    Office 365 で初めてグループ ワークスペースを参照する際は、時間がかかる場合があります。 15 ～ 30 分待ってからブラウザーを更新してください。
 
 ## <a name="have-a-group-conversation-in-office-365"></a>Office 365 のグループのメッセージ交換
-1. ワークスペース名の横にある省略記号 (…) を選択し、\> **[会話]** を選択します。 
+1. ワークスペース名の横から**その他のオプション** (...) \> **[会話]** の順に選択します。 
    
     ![[会話] タブ](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -66,7 +65,7 @@ Office 365 で共同作業するには、まず Power BI のクラシック ワ�
 2. [Office 365 の Outlook でのグループのメッセージ交換](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22)についてご覧ください。
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>グループ ワークスペースの予定表でのイベント スケジュール作成
-1. ワークスペース名 \> **[予定表]** の横にある省略記号 (...) を選択します。 
+1. ワークスペース名の横から**その他のオプション** (...) \> **[予定表]** の順に選択します。 
    
    ![[予定表] タブ](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -80,6 +79,6 @@ Office 365 で共同作業するには、まず Power BI のクラシック ワ�
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI でアプリを発行する](service-create-distribute-apps.md)。
-* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 * フィードバックがある場合は、 「[Power BI に関するヒント](https://ideas.powerbi.com/forums/265200-power-bi)」を参照してください。
 

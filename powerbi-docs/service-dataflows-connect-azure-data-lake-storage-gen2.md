@@ -2,7 +2,6 @@
 title: データフロー ストレージ用に Power BI に Azure Data Lake Storage Gen2 を接続する方法について説明します
 description: Azure Data Lake Storage Gen2 を使用してデータフローに独自のデータを取り込みます
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160367"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872714"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)
 
@@ -105,7 +104,7 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
 ご利用のテナント アプリケーションを検索するには、次の手順に従います。
 
-1. [Azure portal](https://portal.azure.com/) で、左側のナビゲーション パネルから **[Azure Active Directory]** を選択します。
+1. [Azure portal](https://portal.azure.com/) で、ナビ ペインから **[Azure Active Directory]** を選択します。
 2. Azure の **[Active Directory]** ブレードで、 **[エンタープライズ アプリケーション ]** を選択します。
 3. **[アプリケーションの種類]** ドロップダウン メニューから **[すべてのアプリケーション]** を選択して **[適用]** を選びます。 次の画像とほぼ同じように、ご利用のテナント アプリケーションのサンプルが表示されます。
 
@@ -183,7 +182,7 @@ Azure portal で Azure Data Lake Storage Gen2 アカウントの設定を終え�
 
 Power BI Desktop の顧客は、データフローの所有者である場合か、または Lake 内の CDM フォルダーに対して承認済みになっている場合を除いて、**Azure Data Lake Storage アカウント**内に格納されているデータフローにはアクセスできません。 シナリオは次のようになります。
 
-1. アンナは新しいアプリのワークスペースを作成して、組織内の Data Lake にデータフローを格納するように構成しました。 
+1. アンナは新しいワークスペースを作成して、組織内の Data Lake にデータフローを格納するように構成しました。 
 2. ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得したいと考えています。
 3. ベンは、Lake 内のデータフローの CDM フォルダーに対して承認されなかったため、同様のエラーを受け取ります。
 
@@ -223,4 +222,4 @@ Common Data Model について詳しくは、次の概要記事をご覧くだ�
 * [CDM フォルダー](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM モデル ファイル定義](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-[Power BI コミュニティへの質問](http://community.powerbi.com/)は、いつでも行うことができます。
+[Power BI コミュニティへの質問](https://community.powerbi.com/)は、いつでも行うことができます。

@@ -2,7 +2,6 @@
 title: レポートから Power BI ダッシュボードにタイルをピン留め
 description: レポートから Power BI ダッシュボードにタイルをピン留めします。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b27cf80985dc1789fff5797430e4592fe361b533
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 24d706108bab274ef6aae8733f1fc11d212f13eb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624128"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852625"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードにタイルをピン留め
 
@@ -52,7 +51,7 @@ Amanda が Power BI レポートからビジュアルとイメージを固定す
    右上隅の近くに表示される成功メッセージによって、視覚エフェクトがダッシュボードにタイルとして追加されたことが通知されます。
    
    ![成功メッセージ](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
-5. ナビゲーション ウィンドウから、新しいタイルを持つダッシュボードを選びます。 [タイルの表示と動作を編集する](service-dashboard-edit-tile.md)か、タイルを選択してレポートに戻ります。
+5. ナビ ペインから、新しいタイルを持つダッシュボードを選びます。 [タイルの表示と動作を編集する](service-dashboard-edit-tile.md)か、タイルを選択してレポートに戻ります。
 
 ## <a name="pin-an-entire-report-page"></a>レポート ページ全体をピン留めする
 別のオプションとして、レポート ページ全体をダッシュボードにピン留めすることもできます。これは、一度に複数の視覚エフェクトをピン留めする簡単な方法です。 ページ全体をピン留めすると、タイルは "*ライブ*" になります。 つまり、ダッシュボード上で操作できます。 レポート エディターで視覚エフェクトに加えるすべての変更 (フィルターの追加、チャートで使用されるフィールドの変更など) は、ダッシュボード タイルにも反映されます。  
@@ -66,5 +65,5 @@ Amanda が Power BI レポートからビジュアルとイメージを固定す
 - [Power BI でのデータの更新](refresh-data.md)
 - [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

@@ -3,18 +3,17 @@ title: Power BI API の機能
 description: Power BI API の機能
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8a231a426823d40be34e900a32d06e5d5f77108b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307627"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880485"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Power BI API の開発者向け機能
 
@@ -32,7 +31,7 @@ Power BI API を使って行うことのできる例は以下のとおりです�
 | Power BI に対して認証を行う | [Power BI に対して認証を行う](get-azuread-access-token.md) |
 
 > [!NOTE]
-> Power BI API では引き続き、アプリ ワークスペースをグループと呼びます。 したがって、グループと記述されている場合はすべて、アプリ ワークスペースを使用していることを意味します。
+> Power BI API では引き続き、ワークスペースをグループと呼びます。 したがって、グループと記述されている場合はすべて、ワークスペースを使用していることを意味します。
 
 ## <a name="api-developer-tools"></a>API 開発者ツール
 
@@ -61,4 +60,4 @@ Power BI API を使って、[データセットにデータをプッシュ](walk
 * [Power BI REST API リファレンス](rest-api-reference.md)
 * [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

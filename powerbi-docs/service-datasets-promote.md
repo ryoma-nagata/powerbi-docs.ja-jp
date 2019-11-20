@@ -2,7 +2,6 @@
 title: データセットを昇格する (プレビュー) - Power BI
 description: データセットを昇格し、エンタープライズ ユーザーを信頼性の高い、高品質なデータセットに誘導する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 681cd9f65713738e2b842bfa3404511f9e3a98f4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567352"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877131"
 ---
 # <a name="promote-your-dataset-preview"></a>データセットを昇格する (プレビュー)
 
@@ -30,7 +29,7 @@ Power BI レポートの作成者が多様なデータセットにアクセス�
 
 1. ワークスペースのデータセットの一覧に移動します。
  
-1. 省略記号 (...) を選択し、 **[設定]** を選択します。
+1. **[その他のオプション]** (...) を選択し、 **[設定]** を選択します。
 
     ![データセットの省略記号を選択する](media/service-datasets-certify-promote/power-bi-dataset-settings.png)
 
@@ -55,4 +54,4 @@ Power BI レポートの作成者が多様なデータセットにアクセス�
 ## <a name="next-steps"></a>次の手順
 
 * 「[Using datasets across workspaces](service-datasets-across-workspaces.md)」(ワークスペース全体でのデータセットの使用) を参照してください
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

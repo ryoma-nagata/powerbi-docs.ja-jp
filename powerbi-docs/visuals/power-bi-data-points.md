@@ -2,20 +2,19 @@
 title: 大規模なデータセット、データ ポイントの制限、およびデータ戦略
 description: ビジュアルのデータ制限とデータ削減戦略
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/07/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276429"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011296"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>ビジュアルの種類別のデータ ポイントの制限と戦略
 
@@ -81,7 +80,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 ### <a name="doughnut"></a>ドーナツ
 - 最大ポイント数:3,500
 - グループ:上位 500
-- 詳細: 上位 20
+- 詳細:上位 20
 
 ### <a name="filled-map-choropleth"></a>塗り分け地図 (コロプレス) 
 塗り分け地図では静的または動的制限を使用できます。 Power BI は、動的制限、静的制限、最後に構成の順で削減の使用を試行します。 
@@ -109,12 +108,12 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 構成によっては、地図には次のものがあります。
 - 場所:上位 3,500
 - 場所、サイズ:上位 3,500
-- 場所、緯度と経度の集計 (+/- サイズ):上位 3,500
+- 場所、緯度、および経度の集計 (+ および - サイズ):上位 3,500
 - 緯度、経度: [高密度散布図](desktop-high-density-scatter-charts.md)に関する記事をご覧ください
 - 緯度、経度、サイズ:上位 3,500
 - 凡例、緯度、経度: [高密度散布図](desktop-high-density-scatter-charts.md)に関する記事をご覧ください
-- 凡例、緯度、経度、サイズ:上位 233 の凡例、上位 15 の緯度および経度 (静的または動的制限を使用できる場合あり)
-- 場所、凡例、緯度経度の集計 (+/- サイズ):上位 233 の場所、上位 15 の凡例 (静的または動的制限を使用できる場合あり)
+- 凡例、緯度、経度、サイズ:上位 233 の凡例、上位 15 の緯度および経度 (統計情報または動的制限を使用できる場合あり)
+- 場所、凡例、緯度、および経度の集計 (+ および - サイズ):上位 233 の場所、上位 15 の凡例 (統計情報または動的制限を使用できる場合あり)
 
 ### <a name="matrix"></a>Matrix
 - 行:一度に 500 行のウィンドウを使用することによる仮想化
@@ -133,7 +132,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 ### <a name="pie"></a>円
 - 最大ポイント数:3,500
 - グループ:上位 500
-- 詳細: 上位 20
+- 詳細:上位 20
 
 ### <a name="r--python-visuals"></a>R および Python ビジュアル
 150,000 行に制限。 150,000 を超える行が選択されている場合、上位の 150,000 行のみが使用されます
@@ -147,19 +146,18 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
         - カテゴリ:500 の値のサンプル
         - 系列:上位 20 の値
 
-### <a name="shape-map"></a>マップのシェイプ
-塗り分け地図では静的または動的制限を使用できます。 
-- 最大ポイント数:10,000
+### <a name="shape-map-preview"></a>図形マップ (プレビュー)
+図形マップでは統計情報または動的制限を使用できます。 
+- 最大ポイント数:1,500
 - カテゴリ:上位 500
-- 系列 (X と Y の両方が存在するとき):上位 20
 
 ### <a name="table"></a>テーブル
 - 値:一度に 500 行のウィンドウを使用することによる仮想化 (データのウィンドウ化)
 
-### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>ツリー マップ (静的または動的制限を使用できる場合あり)
+### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>ツリー マップ (統計情報または動的制限を使用できる場合あり)
 - 最大ポイント数:3,500
 - グループ:上位 500
-- 詳細: 上位 20
+- 詳細:上位 20
 
 ### <a name="waterfall-chart"></a>ウォーターフォール グラフ
 - カテゴリ バケットのみのとき

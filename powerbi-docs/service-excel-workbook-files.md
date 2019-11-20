@@ -2,7 +2,6 @@
 title: Excel ブック ファイルからデータを取得する
 description: Excel ブック ファイルから Power BI にデータを取り込む方法について説明します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840970"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877062"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel ブック ファイルからデータを取得する
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -83,7 +82,7 @@ Power BI ではブックを編集できません。 しかし、変更を加え�
 Excel 2016 では、[発行] を選択して [アップロード] することもできます。 これはほぼ同じ機能です。 詳しくは、「[Excel 2016 から Power BI へ発行する](service-publish-from-excel.md)」をご覧ください。
 
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>Power BI から Excel ブックへのインポートまたは接続
-1. Power BI のナビゲーション ウィンドウで、 **[データの取得]** をクリックします。
+1. Power BI のナビ ペインで、 **[データの取得]** をクリックします。
    
    ![](media/service-excel-workbook-files/excel_get_data_button.png)
 2. [ファイル]、 **[取得]** の順にクリックします。

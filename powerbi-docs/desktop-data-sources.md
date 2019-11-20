@@ -2,20 +2,19 @@
 title: Power BI Desktop のデータ ソース
 description: Power BI Desktop のデータ ソース
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: c363e63a7354c2a8c66099a98cb441ce2c94becf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307837"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878365"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 Power BI Desktop を使用すると、多種多様なソースからデータに接続できます。 使用できるデータ ソースの完全な一覧は、このページの下部にあります。
@@ -234,7 +233,7 @@ PBIDS ファイルは、特定の構造を持つ Power BI Desktop ファイル�
 
 作成者が .PBIDS ファイルを開くと、Power BI Desktop が開き、認証を受けてファイルに指定されているデータ ソースに接続することができる資格情報の入力がユーザーに求められます。 [ナビゲーション] ダイアログが表示されると、ユーザーはモデルに読み込むデータ ソースからテーブルを選択する必要があります。 .PBIDS ファイルで指定されていない場合、ユーザーは必要に応じてデータベースを選択します。 
 
-以降、ユーザーは視覚化を構築し、*[最近のソース]U にアクセスして新しいテーブル セットをモデルに読み込むことができるようになります。 
+以降、ユーザーはビジュアルの構築を開始するか、"*最近のソース*" に再度アクセスして新しいテーブル セットをモデルに読み込むことができるようになります。 
 
 現在、.PBIDS ファイルは、1 つのファイルで 1 つのデータ ソースのみをサポートしています。 複数のデータ ソースを指定すると、エラーが発生します。 
 
@@ -364,21 +363,20 @@ URL は、サイト内のリストではなく、SharePoint サイト自体を�
 **SQL Server**
 ```
 { 
-  “version”: “0.1”, 
-  “connections”: [ 
+  "version": "0.1", 
+  "connections": [ 
     { 
-      “details”: { 
-        “protocol”: “tds”, 
-        “address”: { 
-          “server”: “server-name-here”, 
-          “database”: “db-name-here (optional)” 
+      "details": { 
+        "protocol": "tds", 
+        "address": { 
+          "server": "server-name-here", 
+          "database": "db-name-here (optional) "
         } 
       }, 
-      “options”: {}, 
-      “mode”: “DirectQuery” 
+      "options": {}, 
+      "mode": "DirectQuery" 
     } 
   ] 
-} 
 } 
 ```
  
@@ -419,6 +417,24 @@ URL は、サイト内のリストではなく、SharePoint サイト自体を�
 ```
  
 
+**データフロー**
+```
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "powerbi-dataflows",
+        "address": {
+          "workspace":"workspace id (Guid)",
+          "dataflow":"optional dataflow id (Guid)",
+          "entity":"optional entity name"
+        }
+       }
+    }
+  ]
+}
+```
 
 
 ## <a name="next-steps"></a>次の手順

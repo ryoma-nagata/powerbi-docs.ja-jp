@@ -2,7 +2,6 @@
 title: レポート エディターのツアー
 description: Power BI Desktop と Power BI サービスで、レポート エディターは、エンド ユーザーに表示されるレポートをデザインするための場所です。 これは 2 つの環境で同様になります。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023734"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871359"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI でのレポート エディターのツアー
 
@@ -34,14 +33,14 @@ Power BI サービスでは、レポート エディターは編集ビューで�
 
 Power BI のレポート エディターは、次のいくつかのメイン セクションに分かれています。  
 
-1. 上部のナビゲーション バー
+1. 上部のナビ ペイン
 1. レポート キャンバス
 1. フィルター ウィンドウ
 1. 視覚化ウィンドウ
 1. [フィールド] ウィンドウ
 
-## <a name="1-the-top-navigation-bar"></a>1.上部のナビゲーション バー
-上部のナビゲーション バーからさまざまな操作を実行できます。新しい操作が常時追加されています。 特定の操作については、Power BI ドキュメントの目次や検索ボックスを使用してください。
+## <a name="1-the-top-nav-pane"></a>1.上部のナビ ペイン
+上部のナビ ペインからさまざまな操作を実行できます。新しい操作が常時追加されています。 特定の操作については、Power BI ドキュメントの目次や検索ボックスを使用してください。
 
 
 ## <a name="2-the-report-canvas"></a>2.レポート キャンバス
@@ -147,7 +146,7 @@ Power BI では、レポート内のフィールドの種類を示すために�
 |![Geo データ](media/service-the-report-editor-take-a-tour/power-bi-field-list-geo-data.png)     | Geo データ: これらの場所フィールドは、地図の視覚化を作成するために使用できます。 |
 | ![ID フィールド](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | ID フィールド: このアイコンのフィールドは、*一意のフィールド*であり、重複するものがあっても、すべての値が表示されるように設定されています。 たとえば、データに 'Robin Smith' という名前のユーザーのためのレコードが 2 つあったとしても、それぞれが一意として扱われます。 これらは合算されることはありません。   |
 |![パラメーター](media/service-the-report-editor-take-a-tour/power-bi-field-list-parameter.png)   | パラメーター: 1 つまたは複数のパラメーター値に応じて、レポートおよびデータ モデルの一部 (クエリ フィルター、データ ソース参照、メジャー定義など) にするパラメーターを設定します。 詳細については、この Power BI の[クエリ パラメーター](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)に関するブログ投稿を参照してください。 |
-| ![Calendar](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | 組み込みの日付テーブルを含むカレンダー日付フィールド |
+| ![カレンダー](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | 組み込みの日付テーブルを含むカレンダー日付フィールド |
 
 ## <a name="next-steps"></a>次の手順
 [レポートの作成](service-report-create-new.md)
@@ -156,5 +155,5 @@ Power BI では、レポート内のフィールドの種類を示すために�
 
 [Power BI デザイナーの基本的な概念](service-basic-concepts.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

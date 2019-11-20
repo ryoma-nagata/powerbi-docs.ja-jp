@@ -1,26 +1,25 @@
 ---
-title: レポートとダッシュボードを自分および他のユーザーがサブスクライブする - Power BI
+title: レポートとダッシュボードを自分および他のユーザーがサブスクライブする
 description: Power BI レポート ページ、ダッシュボード、またはページ分割されたレポートのスナップショットを自分および他のユーザーがサブスクライブする方法を説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073411"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099763"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI サービスのレポートとダッシュボードを自分および他のユーザーがサブスクライブする
 
-最も重要なレポート ページ、ダッシュボード、およびページ分割されたレポートを自分と同僚がサブスクライブすることができます。 スナップショットは Power BI によってメールで自分の受信トレイに送信されます。 メールを受信する頻度 (毎日、毎週、毎時間、毎月、または最初のデータ更新後に 1 日 1 回) を Power BI に指示します。  毎日、毎週、毎時間、または毎月を選択する場合は、サブスクリプションを実行する時刻を選択できます。  いずれの場合も、すべてのレポート ページとダッシュボードに、1 日あたり最大 24 個の異なるサブスクリプションを設定できます。
+最も重要なレポート ページ、ダッシュボード、およびページ分割されたレポートを自分と同僚がサブスクライブすることができます。 スナップショットは Power BI によってメールで自分の受信トレイに送信されます。 メールを受信する頻度 (毎日、毎週、毎時間、毎月、または最初のデータ更新後に 1 日 1 回) を Power BI に指示します。  毎日、毎週、毎時間、または毎月を選択する場合は、サブスクリプションを実行する時刻を選択できます。  いずれの場合も、レポートまたはダッシュボードあたり最大 24 個の異なるサブスクリプションを設定できます。
 
 ![ダッシュボードのメール スナップショット](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -97,7 +96,7 @@ Pro ライセンスの有効期限が切れた場合、所有者がダッシュ�
 * レポート ページのサブスクリプションは、レポート ページの名前に関連付けられています。 レポート ページにサブスクライブしてから、名前を変更する場合は、サブスクリプションを再作成する必要があります。
 * 所属組織が Azure Active Directory 内の特定の設定を構成することで、Power BI でメール サブスクリプションを使用するための機能が制限される場合があります。  これらの制限には、リソースにアクセスするときの多要素認証や IP 範囲の制限が含まれますが、その限りではありません。
 * 現在のところ、セキュリティ コンテキストを利用して他のユーザーにサブスクリプションを送信できる、ページ分割されたレポートを使用していない限り、自分以外のユーザーをサブスクライブするとき、ライブ接続データセットを利用したレポート/ダッシュボードの電子メール サブスクリプションはサポートされません。 
-* メール サブスクリプションでは、ほとんどの[カスタム ビジュアル](power-bi-custom-visuals.md)がサポートされていません。  例外は[認定](power-bi-custom-visuals-certified.md)されているカスタム ビジュアルです。  
+* メール サブスクリプションでは、ほとんどの[カスタム ビジュアル](developer/power-bi-custom-visuals.md)がサポートされていません。  例外は[認定](developer/power-bi-custom-visuals-certified.md)されているカスタム ビジュアルです。  
 * メール サブスクリプションでは、この時点では、R を利用したカスタム ビジュアルはサポートされていません。  
 * メール サブスクリプションは、レポートの既定のフィルターとスライサーの状態で送信されます。 サブスクライブした後に既定値を変更しても、メールには反映されません。  ページ分割されたレポートではこの機能がサポートされており、サブスクリプションごとに特定のパラメーター値を設定できます。   
 * ダッシュボードのサブスクリプションに限り、特定の種類のタイルはまだサポートされていません。  ストリーミング タイル、ビデオ タイル、カスタム Web コンテンツ タイルなどです。     
@@ -109,5 +108,5 @@ Pro ライセンスの有効期限が切れた場合、所有者がダッシュ�
 ## <a name="next-steps"></a>次の手順
 
 - [Power BI サービスのページ分割されたレポートを自分および他のユーザーがサブスクライブする](paginated-reports-subscriptions.md)
-- 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。    
+- 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。    
 - [ブログの投稿をお読みください](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

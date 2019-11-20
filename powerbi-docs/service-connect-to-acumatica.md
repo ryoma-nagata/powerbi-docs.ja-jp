@@ -2,7 +2,6 @@
 title: Power BI で Acumatica に接続する
 description: Power BI 用 Acumatica
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d2ee7a338f34e4c29fdbefae6518bede9e94badb
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 09e55aef3a1167143694c8e26a342cb1b8f0875c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186148"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873192"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Power BI で Acumatica に接続する
 Power BI Acumatica コンテンツ パックを使用すると、短時間で営業案件に関するデータについての洞察が得られます。 Power BI は、営業案件、アカウント、顧客などのデータを取得し、そのデータに基づいて既定のダッシュボードと関連レポートを作成します。
@@ -28,7 +27,7 @@ Power BI Acumatica コンテンツ パックを使用すると、短時間で営
 >このコンテンツ パックには、Acumatica v5.2 以降が必要です。
 
 ## <a name="how-to-connect"></a>接続する方法
-1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
+1. ナビ ペインの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-acumatica/getdata3.png)
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
@@ -47,7 +46,7 @@ Power BI Acumatica コンテンツ パックを使用すると、短時間で営
 5. 認証方法として **[基本]** を選択します。 Acumatica アカウントのユーザー名とパスワードを入力し、 **[サインイン]** をクリックします。
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. Power BI によるデータのインポート後、新しいダッシュ ボード、レポート、データセットが左側のナビゲーション ウィンドウに表示されます。 新しい項目には、黄色のアスタリスク \* が付きます。その項目を選択するとアスタリスクは消え、ダッシュボードを選択すると次の例のようなレイアウトで表示されます。
+6. Power BI によるデータのインポート後、新しいダッシュ ボード、レポート、データセットがナビ ペインに表示されます。 新しい項目には、黄色のアスタリスク \* が付きます。その項目を選択するとアスタリスクは消え、ダッシュボードを選択すると次の例のようなレイアウトで表示されます。
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

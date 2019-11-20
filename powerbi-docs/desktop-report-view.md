@@ -2,7 +2,6 @@
 title: Power BI Desktop のレポート ビュー
 description: Power BI Desktop のレポート ビュー
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142158"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877868"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop のレポート ビュー
 Power BI を操作したことがあるユーザーは、レポートを作成して動的なパースペクティブとデータへの洞察を得ることがいかに簡単であるかをご存知でしょう。 Power BI では、Power BI Desktop にさらに多くの高度な機能を備えています。 Power BI Desktop を使用すると、高度なクエリの作成、複数のソースからのデータのマッシュアップ、テーブル間のリレーションシップの作成などを行えます。
@@ -29,7 +28,7 @@ Power BI Desktop には、 **[レポート] ビュー**が含まれています�
 
 ![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-左側のナビゲーション バーのアイコンを選択して、 **[レポート] ビュー**、 **[データ] ビュー**、 **[リレーションシップ] ビュー**の間で切り替えることができます。
+左側のナビ ペインのアイコンを選択して、 **[レポート] ビュー**、 **[データ] ビュー**、 **[リレーションシップ] ビュー**の間で切り替えることができます。
 
 ![レポート ビュー アイコン](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 

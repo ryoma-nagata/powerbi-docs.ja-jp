@@ -2,21 +2,20 @@
 title: Power BI サービスでデータ アラートを設定する
 description: Microsoft Power BI サービスで設定した制限を超えてダッシュボード内のデータが変更された場合に通知されるように、アラートを設定する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c87a54a0e991af3faa53b9ac4ac6c92893b2ed0a
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962686"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871555"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI サービスのデータ アラート
 
@@ -24,7 +23,7 @@ ms.locfileid: "68962686"
 
 Power BI Pro ライセンスをお持ちの場合は、タイルにアラートを設定できます。 また、だれかが [Premium 容量](service-premium-what-is.md)にあるダッシュボードを共有している場合は、アラートを設定することもできます。 アラートは、レポートのビジュアルからピン留めされたタイルでのみ、ゲージ、KPI、カードに対してだけ設定できます。 アラートは、レポートからダッシュボードにピン留めするストリーミング データセットから作成されたビジュアルに対して設定できます。 **[タイルの追加]**  >  **[カスタム ストリーミング データ]** を使用して、ダッシュボード上に直接作成されたストリーミング タイルにアラートを設定することはできません。
 
-ダッシュボードを共有している場合であっても、見ることができるのは自分で設定したアラートだけです。 データ アラートはプラットフォーム間で完全に同期されます。[Power BI モバイル アプリ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)および Power BI サービスで、データ アラートを設定して表示できます。 これらを Power BI Desktop で使用することはできません。 アラートを自動化し、Microsoft Flow と統合することもできます。 この [Microsoft Flow と Power BI](service-flow-integration.md) に関する記事では、ご自分で試すことができます。
+ダッシュボードを共有している場合であっても、見ることができるのは自分で設定したアラートだけです。 ダッシュボードのビューで設定したアラートは、そのダッシュボードの所有者でも表示できません。 データ アラートはプラットフォーム間で完全に同期されます。[Power BI モバイル アプリ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)および Power BI サービスで、データ アラートを設定して表示できます。 これらを Power BI Desktop で使用することはできません。 アラートを自動化し、Microsoft Flow と統合することもできます。 この [Microsoft Flow と Power BI](service-flow-integration.md) に関する記事では、ご自分で試すことができます。
 
 ![タイル](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -116,15 +115,13 @@ Amanda がダッシュボードのタイルにいくつかのアラートを追�
 
 1. ここからは、アラートをオンまたはオフにしたり、 **[アラートの管理]** ウィンドウを開いて変更を行ったり、アラートを削除したりできます。
 
-## <a name="tips-and-troubleshooting"></a>ヒントとトラブルシューティング
+## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 
 * 日付/時刻メジャーを含むカード タイルについては、アラートがサポートされていません。
-
 * アラートは、数値データ型でのみ機能します。
-
 * アラートは、更新されたデータに対してのみ機能します。 静的データでは動作しません。
-
 * KPI、カード、またはゲージ レポート ビジュアルを作成し、そのビジュアルをダッシュボードにピン留めした場合、アラートはストリーミング データセットでのみ動作します。
+
 
 ## <a name="next-steps"></a>次の手順
 
@@ -132,6 +129,6 @@ Amanda がダッシュボードのタイルにいくつかのアラートを追�
 
 * [モバイル デバイスでデータ アラートを設定する](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)。
 
-* [Power BI とは?](power-bi-overview.md)
+* [Power BI とは?](fundamentals/power-bi-overview.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

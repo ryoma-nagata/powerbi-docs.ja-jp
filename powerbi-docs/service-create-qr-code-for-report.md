@@ -2,7 +2,6 @@
 title: Power BI モバイル アプリで使用するレポートの QR コードを作成する
 description: Power BI で QR コードを使用すると、実世界の任意のものを、Power BI モバイル アプリの関連する BI 情報に直接接続することができます。検索の必要はありません。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: eb2ea1fbb96138e892ed563d5999f5bc9da8e59f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61160702"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853362"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>モバイル アプリで使用する Power BI のレポートの QR コードを作成する
 Power BI で QR コードを使用すると、実世界の任意のものを、関連する BI 情報に直接接続することができます。ナビゲーションや検索の必要がなくなります。
@@ -26,7 +25,7 @@ Power BI サービスでは、編集できないレポートの場合でも、�
 
 ## <a name="create-a-qr-code-for-a-report"></a>レポートの QR コードを作成する
 1. Power BI サービスで、レポートを開きます。
-2. 右上隅にある省略記号 (...) を選び、 **[QR コードの生成]** を選びます。 
+2. 右上隅にある**その他のオプション** (...) を選び、 **[QR コードの生成]** を選びます。 
    
     ![](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
 3. QR コードを含むダイアログ ボックスが表示されます。 
@@ -51,5 +50,5 @@ Power BI は QR コードを JPG ファイルとして生成するので、印�
 * [モバイル アプリで現実世界から Power BI データに接続する](consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [モバイル デバイスから Power BI QR コードをスキャンする](consumer/mobile/mobile-apps-qr-code.md)
 * [タイルの QR コードを作成する](service-create-qr-code-for-tile.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

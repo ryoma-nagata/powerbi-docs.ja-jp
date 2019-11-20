@@ -1,20 +1,19 @@
 ---
 title: アプリからレポートやダッシュボードを埋め込む
-description: アプリ ワークスペースからではなく、Power BI アプリからレポートやダッシュボードを統合する (埋め込む) 方法について説明します。
+description: ワークスペースからではなく、Power BI アプリからレポートやダッシュボードを統合する (埋め込む) 方法について説明します。
 author: rkarlin
 ms.author: rkarlin
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
-manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 5a988eb160ce772d2c2e70e8cba2c01d3f0a36a9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 188601167684313c6e103063e67b9ba57fd2d451
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750905"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877673"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>アプリからレポートやダッシュボードを埋め込む
 
@@ -42,7 +41,7 @@ Power BI では、関連のあるダッシュボードやレポートをまと�
 
 ## <a name="next-steps"></a>次の手順
 
-サード パーティの顧客と組織向けのアプリ ワークスペースから埋め込む方法を確認します。
+サードパーティの顧客と組織向けのワークスペースから埋め込む方法を確認します。
 
 > [!div class="nextstepaction"]
 >[サード パーティの顧客向けの埋め込み](embed-sample-for-customers.md)

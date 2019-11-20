@@ -2,7 +2,6 @@
 title: Power BI で Azure 監査ログに接続する
 description: Power BI 用 Azure Audit Logs
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: d0bd4e90dac6e71d95c38bed83f1c9507acc4fd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060613"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855385"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI で Azure 監査ログに接続する
 Azure 監査ログのコンテンツ パックを利用して、監査ログに格納されている情報を分析したり、視覚化したりすることができます。 Power BI は、データを取得し、そのまま使えるダッシュボードをビルドし、取得したデータに基づくレポートを作成します。
@@ -25,7 +24,7 @@ Azure 監査ログのコンテンツ パックを利用して、監査ログに�
 [Azure 監査ログのコンテンツ パック](https://app.powerbi.com/getdata/services/azure-audit-logs)に接続するか、Power BI と [Azure 監査ログとの統合](https://powerbi.microsoft.com/integrations/azure-audit-logs)について詳細をお読みください。
 
 ## <a name="how-to-connect"></a>接続する方法
-1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。  
+1. ナビ ペインの下部にある **[データの取得]** を選択します。  
    
     ![](media/service-connect-to-azure-audit-logs/getdata.png)
 2. **[サービス]** ボックスで、 **[取得]** を選択します。  

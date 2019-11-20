@@ -2,7 +2,6 @@
 title: チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し (プレビュー)
 description: このチュートリアルでは、Power BI で Machine Learning Studio モデルを呼び出します。
 author: davidiseminger
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e0b2036192ace4404816f5ba64ad07569949452e
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596580"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876960"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し (プレビュー)
 
@@ -44,7 +43,7 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 
 以下の手順では、モデルを発行した Azure サブスクリプションとリソース グループの共同管理者であることを前提としています。
 
-[Azure portal](https://portal.azure.com) にサインインして **[サブスクリプション]** ページに移動します (左側のナビゲーション メニューの **[すべてのサービス]** の一覧にあります)。
+[Azure portal](https://portal.azure.com) にサインインして **[サブスクリプション]** ページに移動します (ナビ ペイン メニューの **[すべてのサービス]** の一覧にあります)。
 
 ![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
@@ -68,7 +67,7 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 
 データフローにエンティティを作成するには、Power BI サービスにサインインし、AI プレビューが有効になっている専用容量内のワークスペースに移動します。
 
-ワークスペースがまだない場合は、左側のメニューで **[ワークスペース]** を選択してから、下部のパネルで **[アプリのワークスペースの作成]** をクリックすると作成できます。  これにより、ワークスペースの詳細を入力するパネルが開きます。 ワークスペース名を入力したら、 **[保存]** を選択します。
+ワークスペースがまだない場合は、左側のメニューで **[ワークスペース]** を選択してから、下部のパネルで **[ワークスペースの作成]** をクリックすると作成できます。  これにより、ワークスペースの詳細を入力するパネルが開きます。 ワークスペース名を入力したら、 **[保存]** を選択します。
 
 ![ワークスペースの作成](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_03.png)
 
@@ -135,7 +134,7 @@ Text/CSV ソースのテーブル内の列は、すべてテキスト列とし�
 
 ![編集](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-リボン内で **[AI インサイト]** ボタンを選択した後、左側のナビゲーション メニューから "_Azure Machine Learning Models_" フォルダーを選択します。
+リボン内で **[AI 分析情報]** ボタンを選択した後、ナビ ペインのメニューから "_Azure Machine Learning Models_" フォルダーを選択します。
 
 自分がアクセス権を持っている Azure ML モデルが、プレフィックス *AzureML* の付いた Power Query 関数として一覧表示されます。  _AutomobilePricePrediction_ モデルに対応する関数をクリックすると、モデルの Web サービスのパラメーターが関数のパラメーターとして一覧表示されます。
 

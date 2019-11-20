@@ -2,7 +2,6 @@
 title: 'クイック スタート: データに接続する'
 description: Power BI Desktop でデータ ソースに接続する
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514447"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876205"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>クイック スタート:Power BI Desktop におけるデータへの接続
 
@@ -28,12 +27,12 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 ## <a name="prerequisites"></a>前提条件
 
 この記事の手順を完了するには、以下が必要です。
-* **Power BI Desktop** をダウンロードしてインストールします。このアプリケーションは無料であり、ローカル コンピューター上で動作します。 [**Power BI Desktop**](https://powerbi.microsoft.com/desktop) を直接ダウンロードするか、[**Microsoft ストア**](http://aka.ms/pbidesktopstore)から入手することができます。
-* [このサンプル Excel ブックをダウンロード](http://go.microsoft.com/fwlink/?LinkID=521962)し、この Excel ファイルを保存できる *C:\PBID-qs* という名前のフォルダーを作成します。 このクイックスタートの以降の手順では、それがダウンロード済みの Excel ブックのファイルの場所であることを前提とします。
+* **Power BI Desktop** をダウンロードしてインストールします。このアプリケーションは無料であり、ローカル コンピューター上で動作します。 [**Power BI Desktop**](https://powerbi.microsoft.com/desktop) を直接ダウンロードするか、[**Microsoft ストア**](https://aka.ms/pbidesktopstore)から入手することができます。
+* [このサンプル Excel ブックをダウンロード](https://go.microsoft.com/fwlink/?LinkID=521962)し、この Excel ファイルを保存できる *C:\PBID-qs* という名前のフォルダーを作成します。 このクイックスタートの以降の手順では、それがダウンロード済みの Excel ブックのファイルの場所であることを前提とします。
 
 ## <a name="launch-power-bi-desktop"></a>Power BI Desktop を起動する
 
-**Power BI Desktop** をインストールしたら、アプリケーションを起動してローカル コンピューターで実行されるようにします。 空白のキャンバスが表示されます。ここで接続先のデータからビジュアルとレポートを作成します。 
+**Power BI Desktop** をインストールしたら、アプリケーションを起動してローカル コンピューターで実行されるようにします。 Power BI チュートリアルが表示されます。 チュートリアルに従うか、クリックしてスキップし、空白のキャンバスから始めます。ここで接続先のデータからビジュアルとレポートを作成します。 
 
 ![Power BI Desktop - 空白のキャンバス](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 

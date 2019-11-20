@@ -2,19 +2,18 @@
 title: Windows 10 モバイル アプリで SSRS のモバイル レポートと KPI を表示する - Power BI
 description: Windows 10 用 Power BI モバイル アプリにより、タッチ対応のモバイルからオンプレミスの重要なビジネス情報に簡単にアクセスできるようになります。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 114cf65e8abb072ab3f0254cbd4041a43a31d1dc
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059648"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879349"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 の Power BI モバイル アプリで Reporting Services (SSRS) のモバイル レポートと KPI を表示する
 Windows 10 用 Power BI モバイル アプリを使って、タッチ対応のモバイルから、SQL Server 2016 Reporting Services のオンプレミスの重要なビジネス情報に簡単にアクセスできます。 
@@ -46,11 +45,11 @@ Reporting Services の Web ポータルへのアクセス権がない場合で�
 サンプルを参照して KPI とモバイル レポートを操作します。
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>Reporting Services レポート サーバーに接続する
-1. 左側のナビゲーション バーの下部にある **[設定]** ![[設定] アイコン](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) をタップします。
+1. ナビ ペインの下部にある **[設定]** ![[設定] アイコン](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) をタップします
 2. **[サーバーに接続]** をタップします。
 3. サーバーのアドレス、ユーザー名、パスワードを入力します。 サーバーのアドレスには次の形式を使用します。
    
-     `http://<servername>/reports` または `https://<servername>/reports`
+     `https://<servername>/reports` または `https://<servername>/reports`
    
    > [!NOTE]
    > 接続文字列の先頭に、**http** または **https** を含めてください。
@@ -60,9 +59,9 @@ Reporting Services の Web ポータルへのアクセス権がない場合で�
     必要に応じて、 **[詳細オプション]** をタップしてサーバーの名前を指定します。
 4. チェック マークをタップして接続します。 
    
-   左側のナビゲーション バーに、サーバーが表示されます。
+   ナビ ペインに、サーバーが表示されます。
    
-   ![左側のナビゲーション バー内のサーバー](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
+   ![ナビ ペインのサーバー](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
    
    >[!TIP]
    >[グローバル ナビゲーション] ボタン ![[グローバル ナビゲーション] ボタン](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) をタップすると、Power BI サービスでいつでも Reporting Services のモバイル レポートとダッシュボードの間を行き来できます。 
@@ -96,7 +95,7 @@ Reporting Services Web ポータルで KPI とモバイル レポートをお気
 ## <a name="remove-a-connection-to-a-report-server"></a>レポート サーバーへの接続を削除する
 Power BI モバイル アプリから一度に接続できるのは、1 つのレポート サーバーだけです。 別のサーバーに接続する場合は、現在のサーバーを切断する必要があります。
 
-1. 左側のナビゲーション バーの下部にある **[設定]** ![[設定] アイコン](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) をタップします。
+1. ナビ ペインの下部にある **[設定]** ![[設定] アイコン](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) をタップします。
 2. 接続を望まないサーバー名をタップしてそのまま押さえます。
 3. **[サーバーの削除]** をタップします。
    
@@ -111,5 +110,5 @@ Power BI モバイル アプリでは、Reporting Services KPI とモバイル �
 ## <a name="next-steps"></a>次の手順
 * [Windows 10 用の Power BI モバイル アプリの概要](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)  
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

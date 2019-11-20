@@ -2,19 +2,18 @@
 title: Power BI テンプレート アプリとは
 description: この記事では、Power BI テンプレート アプリ プログラムの概要を説明します。 ほとんどまたはまったくコーディングしないで Power BI アプリを作成し、Power BI ユーザーに展開する方法を説明します。
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: tebercov
-ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 4b4e32f787d2d262d604ff0745f8c028e9fff949
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408208"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871338"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI テンプレート アプリとは
 
@@ -61,7 +60,7 @@ ms.locfileid: "67408208"
 
 1. 公開用に Cloud パートナー プラットフォームにコンテンツを送信します。 
 
-1. AppSource でオファーを "ライブ" にし、アプリを Power BI の運用環境に移動します。
+1. AppSource でプランを "ライブ" にし、アプリを Power BI の運用環境に移動します。
 2. 運用前環境の同じワークスペースで次のバージョンの開発を開始できます。 
 
 ## <a name="requirements"></a>要件

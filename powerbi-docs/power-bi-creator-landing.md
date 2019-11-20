@@ -1,21 +1,20 @@
 ---
 title: レポート デザイナー向け Power BI
 description: Power BI では、データ接続、クエリ設計、レポート作成およびダッシュボード作成を行いますか? あなたは Power BI の管理者ですか?
-author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
 ms.date: 10/07/2019
 ms.author: maggies
+author: maggiesMSFT
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: cb80bad73a615621ad8a2459e71607900f8d493d
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239888"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128322"
 ---
 # <a name="power-bi-for-report-designers"></a>レポート デザイナー向け Power BI
 
@@ -37,7 +36,7 @@ Power BI では、データ接続、クエリ設計、レポート作成およ�
                                           <h3>Power BI による作成の概要</h3> 
                                           <p></p>
                                                <a href="desktop-what-is-desktop.md">Power BI Desktop の概要</a><br/> 
-                                               <a href="power-bi-overview.md">Power BI サービスの概要</a><br/> 
+                                               <a href="fundamentals/power-bi-overview.md">Power BI サービスの概要</a><br/> 
                                                <a href="report-server/get-started.md">Power BI Report Server とは</a>
                                     </div> 
                               </div> 
@@ -156,7 +155,7 @@ Power BI では、データ接続、クエリ設計、レポート作成およ�
                                           <h3>作業の共有</h3> 
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">共同作業および共有を行う方法</a><br/>
-                                                <a href="service-create-workspaces.md">Power BI サービスのアプリ ワークスペース</a> 
+                                                <a href="service-create-workspaces.md">Power BI サービスのワークスペース</a> 
                                     </div> 
                               </div> 
                         </div> 

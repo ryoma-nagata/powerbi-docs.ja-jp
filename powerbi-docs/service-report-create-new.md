@@ -2,7 +2,6 @@
 title: データセットからレポートを作成する
 description: データセットから Power BI レポートを作成します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,27 +9,27 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523079"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871769"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>データセットをインポートして Power BI サービスでレポートを作成する
 [Power BI のレポート](consumer/end-user-reports.md)を読んで、次は自分のレポートを作成しようと思われるでしょう。 レポートを作成するには、さまざまな方法があります。 この記事では、まず、Excel データセットから Power BI サービスに基本的なレポートを作成します。 レポートの作成の基本を理解したら、最後の「[次の手順](#next-steps)」でより高度なレポートに関するトピックを確認してください。  
 
 ## <a name="prerequisites"></a>前提条件
 - [Power BI サービスにサインアップする](service-self-service-signup-for-power-bi.md)。 Power BI Desktop を使用したレポート作成については、[Desktop のレポート ビュー](desktop-report-view.md)に関するページをご覧ください。 
-- [小売りの分析のサンプル Excel データセットをダウンロード](http://go.microsoft.com/fwlink/?LinkId=529778)し、それを OneDrive for Business またはローカルに保存します。
+- [小売りの分析のサンプル Excel データセットをダウンロード](https://go.microsoft.com/fwlink/?LinkId=529778)し、それを OneDrive for Business またはローカルに保存します。
 
 ## <a name="import-the-dataset"></a>データセットをインポートする
 この方法でのレポート作成は、データセットと空白のレポート キャンバスから始まります。 小売りの分析のサンプル Excel データセットでも同じようにできます。
 
 1. Power BI サービスのワークスペースでレポートを作成するので、既存のワークスペースを選択するか、ワークスペースを作成します。
    
-   ![アプリ ワークスペースのリスト](media/service-report-create-new/power-bi-workspaces2.png)
-2. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
+   ![ワークスペースのリスト](media/service-report-create-new/power-bi-workspaces2.png)
+2. ナビ ペインの下部にある **[データの取得]** を選択します。
    
    ![データを取得](media/service-report-create-new/power-bi-get-data3.png)
 3. **[ファイル]** を選択し、小売りの分析のサンプルを保存した場所に移動します。
@@ -93,5 +92,5 @@ CMO に対して、その他いくつかの質問に応える必要がありま�
 ## <a name="next-steps"></a>次の手順
 
 * [視覚化をダッシュボードにピン留めする](service-dashboard-pin-tile-from-report.md)方法の詳細   
-* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

@@ -2,25 +2,24 @@
 title: Power BI 用に Cortana をアクティブ化する
 description: Cortana を Power BI で使用して、データから回答を得ることができます。 Power BI のデータセットごとに Cortana をアクティブ化した後、Windows デバイスから Cortana がデータセットにアクセスできるようにします。
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: a631bc37c193521b2acc367a0c6d8540419e3b79
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375155"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872906"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana を有効にし、Power BI レポート (とその基礎データセット) にアクセスできるようにする
 「[Power BI 用の Cortana の概要](service-cortana-intro.md)」を読み (まだの場合は先に読んでおいてください)、 自分で試してみたい場合、  Cortana で自然言語を使って質問し、Power BI ***レポート***に格納されたデータから回答を検索できるようにするには、前提条件がいくつかあります。 具体的には、次を行う必要があります。
 
 > [!IMPORTANT]
-> Power BI で Cortana の統合は非推奨です。 6 月 11 日以降、任意のダッシュ ボードとレポートの Cortana は動作しなくします。
+> Cortana の統合は Power BI では非推奨になります。 6 月 11 日以降、すべてのダッシュボードとレポートで Cortana が動作しなくなります。
 
 Power BI サービスで
 
@@ -42,7 +41,7 @@ Power BI サービス (Power BI Desktop ではありません) にサインイ�
 2. このレポートに関連付けられているデータセットは **Contoso Sales** です。
    
     ![Contoso Sales データセット](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. データセット名の右側にある**省略記号 [...] > [設定]** を選びます。  
+3. データセット名の右側にある**その他のオプション** (...) を選び、[設定]** を選びます。  
    
     ![設定を選択する](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. **[Q&A と Cortana]**  >  **[Cortana がこのデータセットにアクセスすることを許可する]**  >  **[適用]** の順に選択します。
@@ -84,5 +83,5 @@ Cortana は、ユーザーの質問に対して可能性のある回答を Power
 
 [Cortana と Power BI の統合に関する問題のトラブルシューティング](service-cortana-troubleshoot.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

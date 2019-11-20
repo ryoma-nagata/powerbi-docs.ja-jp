@@ -2,21 +2,19 @@
 title: Q&A で質問するヒントとテクニック
 description: Power BI の Q&A で質問するヒントとテクニック
 author: mihart
-manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408189"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099008"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A で質問するためのヒント
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A で認識される語句と用語
@@ -66,7 +64,7 @@ ms.locfileid: "67408189"
 |  |  |
 |**上位 N**     |     (順序、順位付け): top、bottom、highest、lowest、first、last、next、earliest、newest、oldest、latest、most recent、next            |
 |        |         |
-|**ビジュアルの種類**     |  すべてのビジュアルの種類は Power BI に固有です。  [視覚化] ウィンドウのオプションである場合は質問に含めることができます。  このルールの例外は、[視覚化] ウィンドウに手動で追加した[カスタム ビジュアル](../power-bi-custom-visuals.md)です。  |
+|**ビジュアルの種類**     |  すべてのビジュアルの種類は Power BI に固有です。  [視覚化] ウィンドウのオプションである場合は質問に含めることができます。  このルールの例外は、[視覚化] ウィンドウに手動で追加した[カスタム ビジュアル](../developer/power-bi-custom-visuals.md)です。  |
 |  |  例: show districts by month and sales total as bar chart (地区を月別および売上合計別に棒グラフとして示す)               |
 |        |         |
 |**Wh (関係、限定)**  | when、where、which、who、whom、how many、how much、how many times、how often、how frequently、amount、number、quantity、how long、what                |
@@ -79,7 +77,9 @@ Q&A は、質問の内容を理解して回答するために、できる限り�
 * 回答のプレビューがビジュアルの形式で提供されます。 質問を入力および編集すると (Enter キーを押さなくても)、ビジュアルが更新されます。
 * カーソルを質問ボックスに戻すと、基になるデータセットから用語の置換が提案されます。
 * 基になるデータセット内のデータに基づいて質問を言い換えます。 Q&A では、使われた語句が基になるデータセットの同意語に置き換えられます。 言い換えを読むことで、Q&A が質問を理解したかどうかを把握できます。 
-* 理解できない語は灰色表示になります。
+* 理解できない語句に二重下線を追加します。
+* 理解できた語句に一重下線を追加します。
+* 用語が見つからない場合や、質問の結果が得られなかった場合は、レポートまたはダッシュボードの所有者に連絡できます。
 
 ## <a name="dont-stop-now"></a>これで終わりではありません
 Q&A の結果が表示された後も、対話を続けてください。 ビジュアルと Q&A の対話型の機能を使用すると、さらに詳しい分析情報を得られます。
@@ -89,5 +89,5 @@ Q&A の結果が表示された後も、対話を続けてください。 ビジ
 
 [Power BI - 基本的な概念](end-user-basic-concepts.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

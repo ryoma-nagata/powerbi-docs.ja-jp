@@ -2,19 +2,18 @@
 title: Power BI モバイル アプリのレポートを調べる
 description: スマートフォンまたはタブレット上の Power BI モバイル アプリでレポートを表示および操作する方法について説明します。 Power BI サービスまたは Power BI Desktop でレポートを作成し、モバイル アプリで操作します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69985735"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869764"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -45,7 +44,7 @@ Power BI モバイル アプリのレポートには、次の 2 つのアイコ�
 > [!NOTE]
 > 電話を横向きに持つと、レポート ページが電話レイアウトの場合でも、常に横レイアウトが表示されます。
 
-ダッシュボードからレポートを表示するには、タイルの右上にある省略記号 [...] をタップして、 **[レポートを開く]** をタップします。
+ダッシュボードからレポートを表示するには、タイルの右上にある**その他のオプション** (...) をタップして、 **[レポートを開く]** をタップします。
   
   ![レポートを開く](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -59,7 +58,7 @@ Power BI モバイル アプリのレポートには、次の 2 つのアイコ�
 スライサー値をタップすると、値が選択され、レポートの残りの部分がその値によってスライスされます。
 リンク、ボタン、またはブックマークをタップすると、レポート作成者によって定義されたアクションが実行されます。
 
-おそらくお気付きでしょうが、ビジュアルをタップすると、枠線が表示されます。 枠線の右上隅には、省略記号 [...] が表示されます。省略記号をタップすると、そのビジュアルで実行できるアクションのメニューが表示されます。
+おそらくお気付きでしょうが、ビジュアルをタップすると、枠線が表示されます。 枠線の右上隅には、**その他のオプション** (...) が表示されます。省略記号をタップすると、そのビジュアルで実行できるアクションのメニューが表示されます。
 
 ![ビジュアルとメニュー](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -92,7 +91,7 @@ Power BI モバイル アプリのレポートには、次の 2 つのアイコ�
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>レポート フッターでの操作の使用
-レポート フッターからは、現在のレポート ページまたはレポート全体に対していくつかのアクションを実行できます。 フッターでは、最もよく使用されるアクションへのクイック アクセスが提供されます。 省略記号 [...] ボタンをタップすると、他のアクションにアクセスできます。
+レポート フッターからは、現在のレポート ページまたはレポート全体に対していくつかのアクションを実行できます。 フッターでは、最もよく使用されるアクションへのクイック アクセスが提供されます。 **その他のオプション** (...) ボタンをタップすると、他のアクションにアクセスできます。
 
 ![レポート フッター](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -105,7 +104,7 @@ Power BI モバイル アプリのレポートには、次の 2 つのアイコ�
 - すべてのレポート操作を表示します。
 
 #### <a name="all-report-actions"></a>すべてのレポート操作
-レポート フッターの省略記号ボタン [...] をタップすると、レポートで実行できるすべてのアクションが表示されます。
+レポート フッターの**その他のオプション** (...) をタップすると、レポートで実行できるすべてのアクションが表示されます。
 
 
 ![すべてのレポート操作](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
@@ -124,5 +123,5 @@ Power BI モバイル アプリからの共有を禁止する [Intune 保護ポ�
 ## <a name="next-steps"></a>次の手順
 * [電話用に最適化された Power BI レポートの表示と対話](mobile-apps-view-phone-report.md)
 * [電話用に最適化されたレポートのバージョンを作成する](../../desktop-create-phone-report.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

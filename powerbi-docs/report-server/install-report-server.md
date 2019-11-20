@@ -3,18 +3,17 @@ title: Power BI レポート サーバーのインストール
 description: Power BI レポート サーバーのインストール方法について説明します。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839441"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874130"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
@@ -46,7 +45,7 @@ Power BI Report Server のプロダクト キーは、次の 2 つの異なる�
 
 Power BI Premium を購入した場合は、Power BI 管理者ポータルの **[Premium 設定]** タブ内で、Power BI Report Server のプロダクト キーにアクセスできます。 これが可能なのは、グローバル管理者、または Power BI サービス管理者ロールが割り当てられているユーザーのみです。
 
-![Premium 設定](../report-server/media/install-report-server/pbirs-product-key.png "Premium 設定の Power BI Report Server キー")
+![Premium の設定](../report-server/media/install-report-server/pbirs-product-key.png "Premium 設定の Power BI Report Server キー")
 
 **[Power BI Report Server キー]** を選択すると、プロダクト キーを含むダイアログが表示されます。 これをコピーして、インストールで使用することができます。
 
@@ -127,14 +126,14 @@ URL 予約は、プレフィックス、ホスト名、ポート、および仮�
 | パーツ | 説明 |
 | --- | --- |
 | プレフィックス |既定のプレフィックスは HTTP です。 以前に Secure Sockets Layer (SSL) 証明書をインストールした場合、セットアップは、HTTPS プレフィックスを使用して URL 予約を作成しようとします。 |
-| ホスト名 |既定のホスト名は、厳密なワイルドカード (+) です。 レポート サーバーが `http://<computername>/reportserver`、`http://localhost/reportserver`、`http://<IPAddress>/reportserver.` を含むコンピューターに解決されるすべてのホスト名に対して指定されたポート上ですべての HTTP 要求を受け入れることを指定します。 |
+| ホスト名 |既定のホスト名は、厳密なワイルドカード (+) です。 レポート サーバーが `https://<computername>/reportserver`、`https://localhost/reportserver`、`https://<IPAddress>/reportserver.` を含むコンピューターに解決されるすべてのホスト名に対して指定されたポート上ですべての HTTP 要求を受け入れることを指定します。 |
 | ポート |既定のポートは 80 です。 ポート 80 以外のポートを使用する場合は、ブラウザー ウィンドウで Web ポータルを開くときに、それを URL に明示的に追加する必要があります。 |
 | 仮想ディレクトリ |既定では、仮想ディレクトリは、レポート サーバー Web サービス用に ReportServer の形式で、Web ポータル用に Reports の形式で作成されます。 レポート サーバー Web サービスの場合、既定の仮想ディレクトリは **reportserver** です。 Web ポータルの場合、既定の仮想ディレクトリは **reports** です。 |
 
 完全な URL 文字列の例は次のようになることがあります。
 
-* `http://+:80/reportserver`、レポート サーバーへのアクセスを提供します。
-* `http://+:80/reports`、Web ポータルへのアクセスを提供します。
+* `https://+:80/reportserver`、レポート サーバーへのアクセスを提供します。
+* `https://+:80/reports`、Web ポータルへのアクセスを提供します。
 
 ## <a name="firewall"></a>ファイアウォール
 

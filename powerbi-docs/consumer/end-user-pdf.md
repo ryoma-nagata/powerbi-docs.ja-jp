@@ -2,7 +2,6 @@
 title: レポートを PDF にエクスポートする
 description: Power BI レポートを PDF にエクスポートする方法について説明します。
 author: mihart
-manager: kvivek
 ms.custom: ''
 ms.reviewer: cmfinlan
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1d6ddcd11118e0eb9894002c5c97edda134d4635
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 376ecd007e774a153b47df75417621d4233cc4ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716984"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862866"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Power BI から PDF にレポートをエクスポートする
 
@@ -25,7 +24,7 @@ ms.locfileid: "72716984"
 Power BI では、レポートを PDF 形式に発行すると、Power BI レポートに基づくドキュメントを容易に作成することができます。 PDF にエクスポートすると、Power BI レポートの各ページが PDF ドキュメントの個々のページになります。
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>Power BI レポートを PDF にエクスポートする
-Power BI サービスで、レポートを選択してそれをキャンバス上に表示します。 また、 **[ホーム]** ページ、 **[アプリ]** 、または左側のナビゲーション ウィンドウの他のコンテナーから、レポートを選択することもできます。
+Power BI サービスで、レポートを選択してそれをキャンバス上に表示します。 また、 **[ホーム]** ページ、 **[アプリ]** 、またはナビ ペインの他のコンテナーから、レポートを選択することもできます。
 
 1. メニュー バーから **[エクスポート]**  >  **[PDF]** を選択します。
 

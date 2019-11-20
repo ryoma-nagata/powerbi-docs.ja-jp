@@ -2,7 +2,6 @@
 title: Power BI サービスの "新しい外観"
 description: Power BI サービス (app.powerbi.com) の外観が新しくなりました。 この記事では、新しい外観を使用してレポートを操作する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239954"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881387"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI サービスの "新しい外観"
 
@@ -66,7 +65,7 @@ Power BI サービスのすべてのユーザーは、新しい外観を選択�
 
 ### <a name="where-are-file-menu-actions"></a>[ファイル] メニューのアクションの場所
 
-**[ファイル]** メニューのアクションをお探しですか。 **[ファイル]** メニューにあったアクションは、省略記号 ([...]) メニューにもあります。 
+**[ファイル]** メニューのアクションをお探しですか。 **[ファイル]** メニューにあったアクションは、 **[その他のオプション]** (...) メニューにもあります。 
 
 ![新しい外観の [ファイル] メニュー](media/service-new-look/power-bi-file-menu-new-look.gif)
 

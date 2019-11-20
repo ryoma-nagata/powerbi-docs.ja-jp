@@ -2,7 +2,6 @@
 title: Power BI Desktop で複合モデルを使用する
 description: Power BI Desktop で複数のデータ接続と多対多のリレーションシップを使用するデータ モデルを作成する
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: c79994f2144dfe019c3ac10a51230d17b75b542e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654580"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876573"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop で複合モデルを使用する
 
@@ -53,7 +52,7 @@ DirectQuery を使用するときに "*複合モデル*" を使用すると、�
 複数の DirectQuery ソースのデータを結合したモデル、または DirectQuery とインポート データを結合したモデルは、"*複合モデル*" と呼ばれます。
 
 
-異なるソースのテーブルであっても、通常どおりテーブル間にリレーションシップを作成できます。ただし、異なるソース間のリレーションシップは、その実際のカーディナリティにかかわらず "*多対多*" のカーディナリティを持つと定義する必要がある、という制限事項があります。 このようなリレーションシップの動作は、「[Power BI Desktop での多対多のリレーションシップ (プレビュー)](desktop-many-to-many-relationships.md)」で説明されているように、通常の "*多対多*" のリレーションシップの場合と同じです。 
+テーブル間のリレーションシップは、テーブルが異なるソースからのものであっても、いつもと同様に作成できます。 異なるソース間のリレーションシップは、実際のカーディナリティに関係なく、"*多対多*" のカーディナリティで作成されます。 これらは、一対多、多対一、または一対一に変更できます。 どのカーディナリティを設定しても、異なるソース間のリレーションシップの動作は異なり、DAX 関数を使用して "多" 側から "一" 側の値を取得することはできません。 また、同じソース内の多対多のリレーションシップとの比較において、パフォーマンスへの影響が見られる場合があります。
 
 > [!NOTE]
 > 複合モデルのコンテキスト内では、インポート元となる実際の基のデータ ソースにかかわらず、インポートされるテーブルはすべて実質的に単一のソースです。   
@@ -88,7 +87,7 @@ DirectQuery を使用する代わりに、データ ウェアハウスからそ�
 
 ![テーブルのリレーションシップ ビュー](media/desktop-composite-models/composite-models_08.png)
 
-次は、これらのテーブルをモデルの他のテーブルに関連付ける必要があります。 通常どおり、SQL Server の **Bike** テーブルとインポートされた **ProductManagers** テーブル間のリレーションシップを作成します。 つまり、*Bike[ProductName]* と *ProductManagers[ProductName]* の間のリレーションシップです。 前述のように、ソース間にわたるすべてのリレーションシップは、既定で "*多対多*" のカーディナリティを持つ必要があります。 
+次は、これらのテーブルをモデルの他のテーブルに関連付ける必要があります。 通常どおり、SQL Server の **Bike** テーブルとインポートされた **ProductManagers** テーブル間のリレーションシップを作成します。 つまり、*Bike[ProductName]* と *ProductManagers[ProductName]* の間のリレーションシップです。 前述のように、ソース間にわたるすべてのリレーションシップは、既定で "*多対多*" のカーディナリティを持ちます。 
 
 ![[リレーションシップの作成] ウィンドウ](media/desktop-composite-models/composite-models_09.png)
 

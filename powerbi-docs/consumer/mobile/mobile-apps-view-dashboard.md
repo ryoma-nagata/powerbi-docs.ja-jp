@@ -2,19 +2,18 @@
 title: Power BI モバイル アプリにおけるダッシュボードとレポートの表示
 description: Power BI サービス内でダッシュボードとレポートを作成するか、ダッシュボードとレポートに接続します。 次に、Power BI モバイル アプリでダッシュボードを表示します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654621"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870660"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリにおけるダッシュボードとレポートの表示
 適用対象:
@@ -40,7 +39,7 @@ ms.locfileid: "69654621"
 ## <a name="view-dashboards-on-your-iphone"></a>iPhone でダッシュボードを表示する
 1. iPhone で Power BI アプリを開き、サインインします。
    
-   Apple App Store から [iPhone アプリをダウンロードする](http://go.microsoft.com/fwlink/?LinkId=522062)必要がある場合は、
+   Apple App Store から [iPhone アプリをダウンロードする](https://go.microsoft.com/fwlink/?LinkId=522062)必要がある場合は、
 2. ダッシュボードをタップして開きます。  
    
     ![ダッシュ ボードをタップする](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ ms.locfileid: "69654621"
 ## <a name="view-dashboards-on-your-ipad"></a>iPad でダッシュボードを表示する
 1. Power BI アプリを開きます。
    
-   必要なら、最初に Apple App Store から [iPad アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkId=522062)します。
+   必要なら、最初に Apple App Store から [iPad アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkId=522062)します。
 2. アプリの上部にある **[ダッシュ ボード]** をタップします。  
    
    ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ ms.locfileid: "69654621"
 ## <a name="view-dashboards-on-your-android-phone"></a>Android フォンでダッシュボードを表示する
 1. Android フォンで Power BI アプリを開き、サインインします。
    
-   必要なら、最初に [Android アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkID=544867)します。
+   必要なら、最初に [Android アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)します。
 2. ダッシュボードをタップして開きます。   
    
    ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -118,7 +117,7 @@ ms.locfileid: "69654621"
 
     ダッシュボードの所有者である場合は、Power BI サービスで、縦モードの[スマートフォン独自のダッシュボード ビューを作成](../../service-create-dashboard-mobile-phone-view.md)できます。 
 
-1. ダッシュボードでは、名前の隣にある垂直線の省略記号 (...) をタップして仕事仲間の招待、更新、またはダッシュボードに関する情報を取得できます。
+1. ダッシュボードでは、名前の隣にある垂直線の**その他のオプション** (...) ボタンをタップして仕事仲間の招待、更新、またはダッシュボードに関する情報を取得できます。
    
    ![省略記号メニュー](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. [ダッシュボードのタイル](mobile-tiles-in-the-mobile-apps.md)をすべて参照するには、上下にスワイプします。 
@@ -127,14 +126,14 @@ ms.locfileid: "69654621"
 ## <a name="view-dashboards-on-your-android-tablet"></a>Android タブレットでダッシュボードを表示する
 1. Android タブレットで Power BI アプリを開き、サインインします。
    
-   必要なら、最初に [Android アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkID=544867)します。
+   必要なら、最初に [Android アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)します。
 2. ダッシュボードをタップして開きます。   
    
    ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * 黄色の星 ![お気に入りの星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
    * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../service-data-classification.md)に関するページを参照してください。
-3. ダッシュボードでは、名前の隣にある垂直線の省略記号 (...) をタップして仕事仲間の招待、更新、またはダッシュボードに関する情報を取得できます。
+3. ダッシュボードでは、名前の隣にある垂直線の**その他のオプション** (...) ボタンをタップして仕事仲間の招待、更新、またはダッシュボードに関する情報を取得できます。
    
    ![省略記号メニュー](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. [ダッシュボードのタイル](mobile-tiles-in-the-mobile-apps.md)をすべて参照するには、上下にスワイプします。 
@@ -154,8 +153,8 @@ ms.locfileid: "69654621"
 ダッシュボードの Phone ビューの作成の詳細については、[こちら](../../service-create-dashboard-mobile-phone-view.md)を参照してください。
 
 ## <a name="next-steps"></a>次の手順
-* Google プレイから [Android アプリをダウンロードする](http://go.microsoft.com/fwlink/?LinkID=544867)  
+* Google プレイから [Android アプリをダウンロードする](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI 用 Android アプリの概要](mobile-android-app-get-started.md)  
-* [Power BI とは?](../../power-bi-overview.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* [Power BI とは?](../../fundamentals/power-bi-overview.md)
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

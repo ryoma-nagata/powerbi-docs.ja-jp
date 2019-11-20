@@ -3,18 +3,17 @@ title: Power BI Embedded からコンテンツを移行するためのコード 
 description: ここでは、コンテンツの移行に必要な基本処理のコード スニペットを紹介します
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269231"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880510"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI ワークスペース コレクションからコンテンツを移行するためのコード スニペット
 
@@ -167,7 +166,7 @@ SaaS に移行した後に PBIX を更新する場合の例です。
 
 作成したデータセットのレポートを再構築する必要があります。
 
-このスニペットでは、プッシュ可能なデータセットが SaaS 環境内のアプリ ワークスペースに既に存在すると想定しています。 プッシュ API の詳細については、「[Power BI データセットにデータをプッシュする](walkthrough-push-data.md)」を参照してください。
+このスニペットでは、プッシュ可能なデータセットが SaaS 環境内のワークスペースに既に存在すると想定しています。 プッシュ API の詳細については、「[Power BI データセットにデータをプッシュする](walkthrough-push-data.md)」を参照してください。
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");
@@ -240,4 +239,4 @@ SaaS に移行した後に PBIX を更新する場合の例です。
 [JavaScript 埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

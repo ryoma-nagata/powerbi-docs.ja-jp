@@ -2,19 +2,18 @@
 title: Power BI モバイル アプリからダッシュボードまたはレポートを共有する
 description: Power BI モバイル アプリからリンクを共有することにより、ダッシュボードやレポートを見るよう他のユーザーを招待します。 ここでは、その方法について説明します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274650"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879075"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI モバイル アプリからダッシュボードまたはレポートを共有する
 適用対象:
@@ -39,7 +38,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    受信者は、ダッシュボードまたはレポートへの直接のリンクを含むメール招待状を受け取ります。 招待状は 1 か月後に期限が切れます。 仕事仲間がブラウザーまたは Power BI モバイル アプリで招待状を開くと、Power BI アカウントの **[自分と共有]** セクションに追加されます。
    
-   ![共有アイテム](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![自分と共有](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    詳細については、[同僚との共有に関する注意事項](../../service-share-dashboards.md)のページをご覧ください。
 
@@ -69,7 +68,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    受信者は、ダッシュボードまたはレポートへの直接のリンクを含むメール招待状を受け取ります。 招待状は 1 か月後に期限が切れます。 仕事仲間がブラウザーまたは Power BI モバイル アプリで招待状を開くと、Power BI アカウントの **[自分と共有]** セクションに追加されます
    
-   ![共有アイテム](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![自分と共有](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    詳細については、[同僚との共有に関する注意事項](../../service-share-dashboards.md)のページをご覧ください。
 
@@ -86,7 +85,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
 3. 共有を解除するには、名前の横の赤い円をタップし、 **[削除]** をタップします。
 
 ## <a name="share-from-your-android-device"></a>Android デバイスから共有する
-1. ダッシュボードまたはレポートのホーム ページで、省略記号 [...] をタップし、 **[仕事仲間を招待]** をタップします。
+1. ダッシュボードまたはレポートのホーム ページで、 **[その他のオプション]** (...) をタップし、 **[仕事仲間を招待]** をタップします。
    
    ![仕事仲間を招待](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. または、ダッシュボードかレポートで、[招待] アイコン ![[招待] アイコン](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
@@ -105,7 +104,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    受信者は、ダッシュボードへの直接のリンクを含むメール招待状を受け取ります。 招待状は 1 か月後に期限が切れます。 仕事仲間がブラウザーまたは Power BI モバイル アプリで招待状を開くと、Power BI アカウントの **[自分と共有]** セクションに追加されます
    
-   ![共有アイテム](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
+   ![自分と共有](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
    詳しくは、[ダッシュボードの共有に関する注意事項](../../service-share-dashboards.md)をご覧ください。
 
@@ -140,12 +139,12 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    受信者は、ダッシュボードまたはレポートへの直接のリンクを含むメール招待状を受け取ります。 招待状は 1 か月後に期限が切れます。 仕事仲間がブラウザーまたは Power BI モバイル アプリで招待状を開くと、Power BI アカウントの **[自分と共有]** セクションに追加されます
    
-   ![共有アイテム](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![自分と共有](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    詳細については、[同僚との共有に関する注意事項](../../service-share-dashboards.md)のページをご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 * [モバイル アプリにおけるタイル、レポート、または視覚エフェクトのスナップショットの注釈付けと共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Power BI でダッシュボードまたはレポートを共有する](../../service-share-dashboards.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

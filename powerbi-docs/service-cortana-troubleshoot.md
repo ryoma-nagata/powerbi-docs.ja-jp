@@ -2,7 +2,6 @@
 title: Power BI 用 Cortana のトラブルシューティング
 description: Power BI で Cortana を使っていて問題がある場合は、この記事のトラブルシューティングを試してください。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 678910000a0062836004b208cb401774c9eb2a9a
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542873"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872869"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI 用 Cortana のトラブルシューティング
 この記事はシリーズの一部です。 
@@ -39,7 +38,7 @@ Cortana と Power BI の統合に問題がある場合は、ここでその解�
    * "show sales" は Power BI 結果を*返しません*。   
    * "show me sales fy16"、"sales fy16"、"show sales fy16"、"show me sales f" は Power BI 結果を*返します*。    
    * "powerbi" という単語を追加すると、必要な 2 つの単語の 1 つとして数えられます。そのため、"powerbi sales" は Power BI 結果を*返します*。
-5. レポートまたはダッシュボードにアクセスできますか? または編集アクセス許可を与えられていますか? レポートの場合、検索しようとしているコンテンツに[回答カード](service-cortana-answer-cards.md)があることを確認してください。  ダッシュボードの場合、検索しようとしているコンテンツが**共有アイテム**、アプリ ワークスペース、または**マイ ワークスペース**にあることを確認してください。 問題の特定には[トラブルシューティング ツールを利用してください](#try-the-cortana-troubleshooting-tool)。
+5. レポートまたはダッシュボードにアクセスできますか? または編集アクセス許可を与えられていますか? レポートの場合、検索しようとしているコンテンツに[回答カード](service-cortana-answer-cards.md)があることを確認してください。  ダッシュボードの場合、検索しようとしているコンテンツが**共有アイテム**、ワークスペース、または**マイ ワークスペース**にあることを確認してください。 問題の特定には[トラブルシューティング ツールを利用してください](#try-the-cortana-troubleshooting-tool)。
 6. モバイル デバイスを使っていますか。  現在のところ、Power BI と Cortana の統合は Windows モバイル デバイスでのみ対応しています。
 7. Cortana は英語用に構成されていますか。  現在の Cortana と Power BI の統合は、英語でのみサポートされています。 Cortana を開き、歯車アイコンを選んで [設定] を表示します。 **[Cortana 言語]** まで下にスクロールし、英語オプションのいずれかに設定されていることを確認します。
 
@@ -96,4 +95,4 @@ Cortana と Power BI の統合に問題がある場合は、ここでその解�
 * 仕様により、クエリは 2 語以上にする必要があります。  クエリが短すぎる場合は、単語 "show" を追加します。
 * 前置詞を含むクエリ文字列は動作しない可能性があります (例: "sales by item")。 前置詞を含まず、意味があって一意の別のクエリ用語を使ってみてください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

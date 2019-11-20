@@ -3,23 +3,25 @@ title: レポートとダッシュボードをサブスクライブする
 description: Power BI レポートやダッシュボードの電子メールでのスナップショットを自分で購読する方法を説明します。
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/12/2019
-LocalizationGroup: Common tasks
-ms.openlocfilehash: 2b0554729824b170fecbe6493141c6f3a8354002
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.date: 10/21/2019
+rLocalizationGroup: Common tasks
+ms.openlocfilehash: add49c43e16b2070b054f4228d1faf0075b736f8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68961674"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861389"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI サービスでレポートまたはダッシュボードをサブスクライブする 
-最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールを受信する頻度 (毎日、毎週、データ更新時) を Power BI に指示します。 特定の日時に Power BI でメールが送信されるように設定することも、今すぐ実行することもできます。  
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールを受信する頻度 (毎日、毎週、データ更新時) を Power BI に指示します。 特定の日時に Power BI でメールが送信されるように設定することも、今すぐ実行することもできます。  いずれの場合も、レポートまたはダッシュボードあたり最大 24 個の異なるサブスクリプションを設定できます。  
 
 メールとスナップショットでは、Power BI 設定で指定されている言語が使用されます (「[Power BI でサポートされる言語と国/地域](../supported-languages-countries-regions.md)」参照)。 言語が定義されていない場合、Power BI では現在のブラウザーのロケール設定に基づいて言語を使用します。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](./media/end-user-subscribe/power-bi-settings-icon.png) >  **> [設定] > [全般] > [言語]** の順に選択します。 
 
@@ -78,7 +80,7 @@ Pro ライセンスの有効期限が切れた場合、所有者がダッシュ�
 * ダッシュボード メールのサブスクリプションについては、行レベルのセキュリティ (RLS) が適用されているタイルがある場合、そのタイルは表示されません。  レポート メールのサブスクリプションについては、データセットで RLS を使用する場合、サブスクリプションを作成することはできません。
 * メール内の (コンテンツへの) リンクが機能しなくなった場合は、コンテンツが削除された可能性があります。 メール内のスクリーンショットの下で、自分自身をサブスクライブしたかどうか、または他の人が自分をサブスクライブしたかどうかを確認できます。 他の人の場合は、同僚に電子メールをキャンセルするか、再度自分をサブスクライブするよう依頼してください。
 * レポート ページのサブスクリプションは、レポート ページの名前に関連付けられています。 レポート ページにサブスクライブしたときに、その名前が変更されている場合は、サブスクリプションを再作成する必要があります。
-* サブスクリプション機能を使用できない場合は、システム管理者に問い合わせてください。 認証などの理由から、組織としてこの機能が無効にされている可能性があります。  
+* サブスクリプション機能を使用できない場合は、システム管理者に問い合わせてください。 組織によって、この機能が無効にされている可能性があります。  
 * メール サブスクリプションは、ほとんどの[カスタム ビジュアル](../power-bi-custom-visuals.md)をサポートしていません。  例外は[認定](../power-bi-custom-visuals-certified.md)されているカスタム ビジュアルです。  
 * メール サブスクリプションは、この時点では、R を利用したカスタム ビジュアルをサポートしていません。  
 * ダッシュボードのサブスクリプションに限り、特定の種類のタイルはまだサポートされていません。  ストリーミング タイル、ビデオ タイル、カスタム Web コンテンツ タイルなどです。     

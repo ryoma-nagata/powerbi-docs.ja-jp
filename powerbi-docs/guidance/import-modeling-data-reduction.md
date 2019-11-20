@@ -2,19 +2,18 @@
 title: インポート モデリングのデータ削減手法
 description: インポート モデルに読み込まれるデータを減らすためのさまざまな手法について説明します。
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 794ded1bc310cfcecc609f48ee4f0595693ceeb3
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69520182"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875600"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>インポート モデリングのデータ削減手法
 
@@ -29,7 +28,7 @@ VertiPaq ストレージ エンジンによって実現される効率性だけ�
 - モデルが小さいほどデータ更新が高速になるため、レポート作成の待機時間が短くなり、データセットの更新スループットが向上し、ソース システムと容量リソースの負荷が軽減されます。
 - テーブルの行数が少ないほど、評価計算が高速になるため、クエリの全体的なパフォーマンスを向上させることができます。
 
-この記事では、7 種類のデータ削減手法について説明します。 次のようなものが含まれます。
+この記事では、8 種類のデータ削減手法について説明します。 次のようなものが含まれます。
 
 - [不要な列を削除する](#remove-unnecessary-columns)
 - [不要な行を削除する](#remove-unnecessary-rows)
@@ -37,6 +36,7 @@ VertiPaq ストレージ エンジンによって実現される効率性だけ�
 - [列のデータ型を最適化する](#optimize-column-data-types)
 - [カスタム列の設定](#preference-for-custom-columns)
 - [Power Query クエリの読み込みを無効にする](#disable-power-query-query-load)
+- [自動の日付/時刻を無効にする](#disable-auto-datetime)
 - [混合モードに切り替える](#switch-to-mixed-mode)
 
 ## <a name="remove-unnecessary-columns"></a>不要な列を削除する
@@ -85,6 +85,10 @@ VertiPaq ストレージ エンジンでは、通常の Power Query ソース列
 他のクエリとのデータ統合のサポートを意図した Power Query クエリは、モデルに読み込むことはできません。 クエリがモデルに読み込まれないようにするには、これらのインスタンスでクエリの読み込みを確実に無効にするようにしてください。
 
 ![Power Query クエリの読み込みを無効にする](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+
+## <a name="disable-auto-datetime"></a>自動の日付/時刻を無効にする
+
+Power BI Desktop には、"_自動の日付/時刻_" と呼ばれるオプションが含まれています。 有効にすると、カレンダー期間のフィルター、グループ化、ドリルダウンの構成時にレポート作成者をサポートするために、日付列に対して非表示の自動の日付/時刻テーブルが作成されます。 非表示のテーブルは、実際には計算テーブルであり、これによってモデルのサイズが大きくなります。 このオプションの使用に関するガイダンスについては、[Power BI Desktop の自動の日付/時刻のガイダンス](../desktop-auto-date-time.md)の記事を参照してください。
 
 ## <a name="switch-to-mixed-mode"></a>混合モードに切り替える
 

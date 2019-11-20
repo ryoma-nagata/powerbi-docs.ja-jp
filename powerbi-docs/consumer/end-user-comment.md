@@ -2,7 +2,6 @@
 title: ダッシュボードとレポートにコメントを追加する
 description: このドキュメントでは、ダッシュボード、レポート、またはビジュアルにコメントを追加する方法と、コメントを使用して共同作業者と会話する方法を示します。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100692"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852035"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>ダッシュボードまたはレポートにコメントを追加する
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 個人のコメントを追加するか、同僚とダッシュボードまたはレポートに関する会話を開始します。 **コメント**機能は、*コンシューマー*が共同作業するための方法の 1 つにすぎません。 
 
 ![コメントのビデオ](media/end-user-comment/comment.gif)
@@ -64,7 +66,7 @@ ms.locfileid: "71100692"
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>特定のダッシュボードまたはレポートのビジュアルにコメントを追加する
 ダッシュボード全体またはレポート ページ全体にコメントを追加するだけでなく、個々のダッシュボード タイルと個々のレポート ビジュアルにコメントを追加することができます。 これらのプロセスは似ています。この例では、レポートを使用しています。
 
-1. ビジュアルをポイントし、省略記号 (...) を選びます。    
+1. ビジュアルをポイントし、**その他のオプション** (...) を選びます。    
 2. ドロップダウンから、 **[コメントを開く]** を選択します。
 
     ![[コメントの追加] が最初の選択肢](media/end-user-comment/power-bi-report-comment.png)  

@@ -2,7 +2,6 @@
 title: チュートリアル:SQL Server でオンプレミス データに接続する
 description: データを更新する方法など、SQL Server をゲートウェイ データ ソースとして使用する方法について説明します。
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307393"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881548"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>オンプレミス SQL Server データベースからのデータを更新する
 
@@ -100,7 +99,7 @@ Power BI Desktop では、オンプレミス SQL Server データベースに直
 
 3. **[ゲートウェイ接続]** を展開して、少なくとも 1 つのゲートウェイが表示されていることを確認します。 ゲートウェイがない場合は、このチュートリアルで前出した「[前提条件](#prerequisites)」セクションで、ゲートウェイをインストールして構成するための製品ドキュメントへのリンクを参照してください。
 
-    ![ゲートウェイの接続](./media/service-gateway-sql-tutorial/gateway-connection.png)
+    ![ゲートウェイ接続](./media/service-gateway-sql-tutorial/gateway-connection.png)
 
 4. **[アクション]** の下で、トグル ボタンを展開してデータ ソースを表示し、 **[ゲートウェイに追加]** リンクを選択します。
 
@@ -131,7 +130,7 @@ Power BI Desktop では、オンプレミス SQL Server データベースに直
 
 これで Power BI のデータセットをデータ ゲートウェイ経由でオンプレミスの SQL Server データベースに接続したので、次の手順を行い更新スケジュールを構成します。 スケジュールに基づいてデータセットを更新することで、レポートとダッシュボードに最新のデータが確実に表示されるようにすることができます。
 
-1. 左側のナビゲーション ウィンドウで、 **[マイ ワークスペース]** \> **[データセット]** の順に開きます。 **AdventureWorksProducts**データセットの省略記号 ( **. . .** ) を選択し、 **[更新のスケジュール設定]** を選択します。
+1. ナビ ペインで、 **[マイ ワークスペース]** \> **[データセット]** の順に開きます。 **AdventureWorksProducts**データセットの省略記号 ( **. . .** ) を選択し、 **[更新のスケジュール設定]** を選択します。
 
     > [!NOTE]
     > 必ず、同じ名前のレポートの省略記号ではなく、**AdventureWorksProducts** データセットの省略記号を選択してください。 **AdventureWorksProducts** レポートのコンテキスト メニューには **[更新のスケジュール設定]** オプションは含まれていません。
@@ -149,7 +148,7 @@ Power BI Desktop では、オンプレミス SQL Server データベースに直
 
 ## <a name="perform-an-on-demand-refresh"></a>オンデマンド更新を実行する
 
-これで更新スケジュールを構成したので、Power BI により次のスケジュールされた時間 (15 分の幅あり) にデータセットが更新されます。 ゲートウェイとデータ ソースの構成をテストする場合など、データの更新をより早く行いたい場合には、左側のナビゲーション ウィンドウ内のデータセット メニューにある **[今すぐ更新]** オプションを使用して、オンデマンド更新を実行します。 オンデマンド更新は、スケジュールされた次回の更新時刻には影響を及ぼしません。ただし、前のセクションで述べたように、1 日の更新上限に対してはカウントされます。
+これで更新スケジュールを構成したので、Power BI により次のスケジュールされた時間 (15 分の幅あり) にデータセットが更新されます。 ゲートウェイとデータ ソースの構成をテストする場合など、データの更新をより早く行いたい場合には、ナビ ペイン内のデータセット メニューにある **[今すぐ更新]** オプションを使用して、オンデマンド更新を実行します。 オンデマンド更新は、スケジュールされた次回の更新時刻には影響を及ぼしません。ただし、前のセクションで述べたように、1 日の更新上限に対してはカウントされます。
 
 説明するために、SQL Server Management Studio (SSMS) を使用して AdventureWorksDW データベースの DimProduct テーブルを更新することで、サンプル データの変更をシミュレートします。
 
@@ -163,7 +162,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 今度は次の手順を行い、更新されたデータがゲートウェイ接続を経由して Power BI のデータセットとレポートに反映されるようにします。
 
-1. Power BI Service の左側のナビゲーション ウィンドウで、 **[マイ ワークスペース]** を選択して展開ます。
+1. Power BI Service のナビ ペインで、 **[マイ ワークスペース]** を選択して展開します。
 
 2. **[データセット]** の下の **[AdventureWorksProducts]** データセットの省略記号 ( **. . .** ) を選択し、 **[今すぐ更新]** を選択します。
 

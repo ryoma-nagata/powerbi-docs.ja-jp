@@ -2,19 +2,18 @@
 title: Power BI Report Server の Web ポータルでコンテンツを管理する
 description: Power BI Report Server の Web ポータルでコンテンツを管理する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770139"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859478"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Web ポータルでコンテンツを管理する 
 Power BI レポート サーバー Web ポータルは、Power BI レポート、モバイル レポート、およびページ分割されたレポート、および KPI を表示、格納、および管理するためのオンプレミスの場所です。
@@ -38,9 +37,9 @@ Web ポータル アプリケーションはブラウザーで実行されます
     [サポートされる Web ブラウザーとバージョン](browser-support.md)のリストが表示されます。
 2. アドレス バーに、Web ポータルの URL を入力します。
    
-    既定の URL は <em>http://<コンピューター名>/reports</em> です。
+    既定の URL は <em>https://<コンピューター名>/reports</em> です。
    
-    レポート サーバーは、特定のポートを使用するように構成される可能性があります。 たとえば、 <em>http://<コンピューター名>:80/reports</em>または<em>http://<コンピューター名>:8080/reports</em> のようになります。
+    レポート サーバーは、特定のポートを使用するように構成される可能性があります。 たとえば、<em>https://<コンピューター名>:80/reports</em>または<em>https://<コンピューター名>:8080/reports</em> のようになります。
    
     Web ポータル グループ項目が以下のカテゴリに分類されます。
    
@@ -56,7 +55,7 @@ Web ポータル アプリケーションはブラウザーで実行されます
 ## <a name="manage-items-in-the-web-portal"></a>Web ポータルで項目を管理する
 Power BI レポート サーバーでは、Web ポータルに格納する項目を細かく制御することができます。 たとえば、個々のページ分割されたレポートのサブスクリプション、キャッシュ、スナップショット、およびセキュリティを設定することができます。
 
-1. 項目の右上隅にある省略記号 (...) を選択し、 **[管理]** を選択します。
+1. 項目の右上隅にある**その他のオプション** (...) を選択し、 **[管理]** を選択します。
    
     ![[管理] を選択](media/getting-around/report-server-web-portal-manage-ellipsis.png)
 2. プロパティまたは設定するその他の機能を選択します。

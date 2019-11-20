@@ -2,7 +2,6 @@
 title: チュートリアル:Power BI Desktop での独自のメジャーの作成
 description: チュートリアル:Power BI Desktop での独自のメジャーの作成
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513886"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865939"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>チュートリアル:Power BI Desktop での独自のメジャーの作成
 Power BI Desktop でメジャーを使用すると、強力なデータ分析ソリューションを作成できます。 メジャーは、ユーザーがレポートで操作するデータに対して計算を実行するために役立ちます。 このチュートリアルでは、メジャーの基本について説明し、独自のメジャーを Power BI Desktop で作成する手順を紹介します。
@@ -23,7 +22,7 @@ Power BI Desktop でメジャーを使用すると、強力なデータ分析ソ
 ### <a name="prerequisites"></a>前提条件
 - このチュートリアルは、Power BI Desktop を使用して高度なモデルを作成することに既に慣れている Power BI ユーザー向けに書かれています。 [データの取得] とクエリ エディターを使用してデータをインポートする操作、複数の関連したテーブルを取り扱う操作、およびレポート キャンバスにフィールドを追加する操作に既に習熟している必要があります。 Power BI Desktop を新しく使い始めたユーザーの場合は、まず「[Power BI Desktop の概要](desktop-getting-started.md)」をお読みください。
   
-- [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) ファイルをダウンロードしてください。このファイルには、Contoso, inc. という架空の会社のオンライン売上データが既に含まれています。このデータはデータベースからインポートしたものであるため、データソースに接続したり、クエリ エディターで表示したりすることはできません。 自分のコンピューターに独自のファイルがある場合は、そのファイルを Power BI Desktop で開いてください。
+- [Contoso Sales Sample for Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) ファイルをダウンロードしてください。このファイルには、Contoso, inc. という架空の会社のオンライン売上データが既に含まれています。このデータはデータベースからインポートしたものであるため、データソースに接続したり、クエリ エディターで表示したりすることはできません。 自分のコンピューターに独自のファイルがある場合は、そのファイルを Power BI Desktop で開いてください。
 
 ## <a name="understand-measures"></a>メジャーの概要
 
@@ -60,7 +59,7 @@ DAX の数式では、Excel の数式と同じ関数、演算子、および構�
 
 総売上金額から割引と返品を差し引いて純売上高を分析したいとします。 視覚化にどのようなコンテキストが存在する場合でも、SalesAmount の合計から DiscountAmount と ReturnAmount の合計を差し引くメジャーが必要です。 [フィールド] リストに純売上高のフィールドはありませんが、純売上高を計算する独自のメジャーを作成するための構成要素はあります。 
 
-1.  [フィールド] ウェルの **Sales** テーブルを右クリックするか、テーブルにマウス カーソルを移動し、 **[その他のオプション]** の省略記号 ([...])、 **[新しいメジャー]** の順に選択します。 これで新しいメジャーが Sales テーブル内に保存され、見つけやすくなります。
+1.  [フィールド] ウェルの **Sales** テーブルを右クリックするか、テーブルにマウス カーソルを移動し、**その他のオプション** (...)、 **[新しいメジャー]** の順に選択します。 これで新しいメジャーが Sales テーブル内に保存され、見つけやすくなります。
     
     ![新しいメジャー](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

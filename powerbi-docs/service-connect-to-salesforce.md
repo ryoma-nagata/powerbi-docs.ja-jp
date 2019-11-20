@@ -2,7 +2,6 @@
 title: Power BI で Salesforce に接続する
 description: Power BI 用 Salesforce
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 6fedd3994a9e6a14ea89637a0c12aa8dd47928a9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060810"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854641"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI で Salesforce に接続する
 Power BI を使用すると、簡単に Salesforce.com アカウントに接続できます。 この接続により、Salesforce データを取得し、ダッシュボードとレポートを自動的に提供できます。
@@ -23,7 +22,7 @@ Power BI を使用すると、簡単に Salesforce.com アカウントに接続�
 Power BI と Salesforce の統合については[こちら](https://powerbi.microsoft.com/integrations/salesforce)をご覧ください。
 
 ## <a name="how-to-connect"></a>接続する方法
-1. Power BI で、左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
+1. Power BI で、ナビ ペインの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
@@ -53,7 +52,7 @@ Power BI と Salesforce の統合については[こちら](https://powerbi.micr
      
      レポートが表示されない場合、Salesforce にレポートを追加または作成し、接続を再試行してください。
 
-7. **[接続]** を選択してインポート プロセスを開始します。 インポート中、インポートが進行中であることを示す通知が表示されます。 インポートが完了すると、Salesforce データのダッシュボード、レポート、データ セットが左側のナビゲーション ウィンドウに一覧表示されます。
+7. **[接続]** を選択してインポート プロセスを開始します。 インポート中、インポートが進行中であることを示す通知が表示されます。 インポートが完了すると、Salesforce データのダッシュボード、レポート、データ セットがナビ ペインに一覧表示されます。
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 

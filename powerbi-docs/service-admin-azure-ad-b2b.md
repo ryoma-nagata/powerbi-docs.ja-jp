@@ -2,7 +2,6 @@
 title: Azure AD B2B で外部ゲスト ユーザーにコンテンツを配布する
 description: Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統合により、組織外のゲスト ユーザーに Power BI コンテンツを安全に配布できるようになりました。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b7327a7b32aacd222efc422263187f29285bd73
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075770"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858004"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -81,7 +80,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 ### <a name="use-power-bi-premium"></a>Power BI Premium を使用する
 
-[Power BI Premium 容量](service-premium-what-is.md)にアプリ ワークスペースを割り当てると、ゲスト ユーザーは Power BI Pro ライセンスなしでアプリを使用できるようになります。 Power BI Premium では、高いリフレッシュ レート、専用の容量、大規模なモデル サイズなどの他の機能をアプリで活用することもできます。
+[Power BI Premium 容量](service-premium-what-is.md)にワークスペースを割り当てると、ゲスト ユーザーは Power BI Pro ライセンスなしでアプリを使用できるようになります。 Power BI Premium では、高いリフレッシュ レート、専用の容量、大規模なモデル サイズなどの他の機能をアプリで活用することもできます。
 
 ![Power BI Premium でのゲスト ユーザー エクスペリエンスのダイアグラム。](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -113,6 +112,8 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 * 既定では、外部の Azure AD B2B によってゲストはコンテンツの使用のみに制限されます。 外部の Azure AD B2B ゲストは、アプリ、ダッシュボード、レポートの表示、データのエクスポート、ダッシュボードとレポートの電子メール サブスクリプションの作成ができます。 ワークスペースにアクセスしたり、独自のコンテンツを公開することはできません。 ただし、[[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 機能を通じてアクセス権を獲得するゲスト ユーザーに対しては、これらの制限は適用されません。
 
+* ゲスト ユーザーを招待するためには、Power BI Pro のライセンスが必要です。 Pro 試用版のユーザーが Power BI にゲスト ユーザーを招待することはできません。
+
 * [[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 機能を通じて有効にされたゲスト ユーザーには、一部のエクスペリエンスが使用可能になりません。 これらのユーザーがレポートを更新または発行するには、[データの取得] などの Power BI サービスの Web UI を使用して、Power BI Desktop ファイルをアップロードする必要があります。  次のエクスペリエンスはサポートされていません。
     * Power BI Desktop から Power BI サービスに直接発行することはできません。
     * ゲスト ユーザーは、Power BI Desktop を使用して Power BI サービス内のサービス データセットに接続することができません
@@ -127,7 +128,12 @@ Azure portal で招待を送信するには、次の手順のようにします�
     * ゲスト ユーザーは [Excel で分析] を使用できません
     * ゲスト ユーザーはコメント時に @mentioned の対象になりません
     * ゲスト ユーザーはサブスクリプションを使用できません
-    * この機能を使用するゲスト ユーザーには、職場または学校のアカウントが必要です。 個人用アカウントを使用するゲスト ユーザーの場合は、サインインの制限により、さらに多くの制限事項が発生します。
+    * この機能を使用するゲスト ユーザーには、職場または学校のアカウントが必要です。 
+    
+* 個人用アカウントを使用するゲスト ユーザーの場合は、サインインの制限により、さらに多くの制限事項が発生します。
+    * Web ブラウザーを通じて Power BI サービスの利用を体験することができます。
+    * Power BI Mobile アプリを使用することはできません。
+    * 職場または学校アカウントが要求される資格情報を指定するためのサインインができません。
 
 * 現在、この機能は Power BI SharePoint Online レポート Web パーツでは使用できません。
 

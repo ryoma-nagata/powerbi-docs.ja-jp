@@ -2,7 +2,6 @@
 title: 画像やビデオなどをダッシュボードに追加する
 description: '[タイルの追加] ウィジェットを使用して画像、ビデオ、テキスト ボックス、Web コード、ストリーミング データ タイルをダッシュボードに追加する方法に関するドキュメント。'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832560"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853535"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>画像やビデオなどをダッシュボードに追加する
 
@@ -232,7 +231,7 @@ PubNub を使用して、Twitter フィードやセンサー データなどの�
 ## <a name="edit-a-tile"></a>タイルを編集します。
 既存のタイルに変更を加えるには:
 
-1. タイルの右上隅にマウス ポインターを移動し、省略記号 (...) を選択します。
+1. タイルの右上隅にマウス ポインターを移動し、**その他のオプション** (...) を選択します。
    
     ![タイルの省略記号の選択](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. **[詳細の編集]** を選択し、 **[タイルの詳細]** ウィンドウを表示して変更を加えます。
@@ -246,5 +245,5 @@ PubNub を使用して、Twitter フィードやセンサー データなどの�
 ## <a name="next-steps"></a>次の手順
 [Power BI デザイナーのダッシュボードのタイルの概要](service-dashboard-tiles.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

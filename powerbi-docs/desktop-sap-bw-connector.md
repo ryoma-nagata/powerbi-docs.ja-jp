@@ -2,7 +2,6 @@
 title: Power BI Desktop で SAP BW Connector を使用する
 description: Power BI Desktop で SAP BW Connector を使用する
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f55245fc037f48622bb636e961f59c796f267646
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514669"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879769"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Power BI Desktop で SAP BW Connector を使用する
 Power BI Desktop で、**SAP BusinessWarehouse (BW)** のデータにアクセスできます。
@@ -236,10 +235,11 @@ Implementation 2.0 は以下のオプションをサポートします。
 |Power BI Gateway     |インポート      | Power BI Desktop と同じ |         |   |   |
 |Power BI Gateway     |DirectQuery | ユーザー/パスワード        | アプリケーション サーバー | 該当なし  | はい  |
 |Power BI Gateway     |DirectQuery | 借用による Windows (固定ユーザー、SSO なし) | アプリケーション サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
-|Power BI Gateway     |DirectQuery | DirectQuery クエリ オプションには Kerberos 経由で SSO を使用する | アプリケーション サーバー | gsskrb5/gx64krb5 *の場合のみ*   | はい  |
+|Power BI Gateway     |DirectQuery | DirectQuery クエリ オプションには Kerberos 経由で SSO を使用する | アプリケーション サーバー | sapcrypto + gsskrb5/gx64krb5   | はい  |
 |Power BI Gateway     |DirectQuery | ユーザー/パスワード        | メッセージ サーバー | 該当なし  | はい  |
 |Power BI Gateway     |DirectQuery | 借用による Windows (固定ユーザー、SSO なし) | メッセージ サーバー | sapcrypto + gsskrb5/gx64krb5  | はい  |
-|Power BI Gateway     |DirectQuery | DirectQuery クエリ オプションには Kerberos 経由で SSO を使用する | メッセージ サーバー | sapcrypto + gsskrb5/gx64krb5  | いいえ  |
+|Power BI Gateway     |DirectQuery | DirectQuery クエリ オプションには Kerberos 経由で SSO を使用する | メッセージ サーバー | gsskrb5/gx64krb5  | いいえ  |
+|Power BI Gateway     |DirectQuery | DirectQuery クエリ オプションには Kerberos 経由で SSO を使用する | メッセージ サーバー | sapcrypto  | はい  |
 
 
 

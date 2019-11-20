@@ -2,7 +2,6 @@
 title: Office 365 で Power BI サービスの正常性を追跡する
 description: Microsoft 365 管理センターでサービスの現在および過去の正常性を表示する方法を説明します。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 579950320c3193e9cc1921a06d5b121ff0b58ae0
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 0e944dfa34bec1e1c1816cf80d7dc2df7252b65a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075353"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857678"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Office 365 で Power BI サービスの正常性を追跡する
 
@@ -29,11 +28,11 @@ Microsoft 365 管理センターでは、Power BI 管理者向けの重要なツ
 
 1. [Microsoft 365 管理センター](https://portal.office.com/adminportal)にサインインします。
 
-1. 左側のナビゲーション バーで、**[すべて表示]** > **[正常性]** > **[サービス正常性]** を選択します。 [サービス正常性] ページが表示されます。
+1. ナビ ペインで、 **[すべて表示]**  >  **[正常性]**  >  **[サービス正常性]** を選択します。 [サービス正常性] ページが表示されます。
 
     ![[正常性] と [サービス正常性] オプションが強調して示されている Microsoft 365 管理センターのスクリーンショット。](media/service-admin-health/service-health-tile.png)
 
-1. **[すべてのサービス]** の一覧で、**[アドバイザリ]** または **[インシデント]** を選択し、結果を確認します。 次のスクリーンショットでは、3 件のアクティブなアドバイザリのうちの 1 つが示されています。
+1. **[すべてのサービス]** の一覧で、 **[アドバイザリ]** または **[インシデント]** を選択し、結果を確認します。 次のスクリーンショットでは、3 件のアクティブなアドバイザリのうちの 1 つが示されています。
 
     ![Power BI の 3 つのアドバイザリと [詳細の表示] オプションが強調して示されている [サービス正常性] ページのスクリーンショット。](media/service-admin-health/active-advisories.png)
 
@@ -43,6 +42,6 @@ Microsoft 365 管理センターでは、Power BI 管理者向けの重要なツ
 
     下にスクロールして他の情報を確認し、完了したらウィンドウを閉じます。
 
-1. すべてのサービスの履歴情報を表示するには、**[サービス正常性]** ページの右上隅で **[履歴の表示]** を選択します。 次に、**[過去 7 日間]** または **[過去 30 日間]** を選びます。 
+1. すべてのサービスの履歴情報を表示するには、 **[サービス正常性]** ページの右上隅で **[履歴の表示]** を選択します。 次に、 **[過去 7 日間]** または **[過去 30 日間]** を選びます。 
 
-1. 現在のサービス正常性に戻るには、**[現在の状態の表示]** を選びます。
+1. 現在のサービス正常性に戻るには、 **[現在の状態の表示]** を選びます。

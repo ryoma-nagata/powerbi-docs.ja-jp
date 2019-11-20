@@ -2,20 +2,19 @@
 title: 主要なインフルエンサの視覚エフェクトのチュートリアル
 description: チュートリアル:Power BI で主要なインフルエンサーの視覚化を作成する
 author: mihart
-manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 05/22/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544047"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871015"
 ---
 # <a name="key-influencers-visualization"></a>主要なインフルエンサの視覚エフェクト
 
@@ -58,7 +57,7 @@ ms.locfileid: "72544047"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-あなたは、プロダクト マネージャーから顧客が自社のクラウド サービスについて否定的なレビューをすることにつながる要因を把握するように指示されています。 理解するには、Power BI Desktop で[カスタマー フィードバック PBIX ファイル](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)を開きます。 [Power BI サービスまたは Power BI Desktop 用のカスタマー フィードバック Excel ファイル](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)をダウンロードすることもできます。 
+あなたは、プロダクト マネージャーから顧客が自社のクラウド サービスについて否定的なレビューをすることにつながる要因を把握するように指示されています。 理解するには、Power BI Desktop で[カスタマー フィードバック PBIX ファイル](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)を開きます。 [Power BI サービスまたは Power BI Desktop 用のカスタマー フィードバック Excel ファイル](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)をダウンロードすることもできます。 どちらか一方のリンクを選択して、表示された GitHub ページの **[ダウンロード]** を選択します。
 
 > [!NOTE]
 > カスタマー フィードバック データセットは、[Moro et al., 2014] S. Moro, P. Cortez, and P. Rita. "A Data-Driven Approach to Predict the Success of Bank Telemarketing." *Decision Support Systems*, Elsevier, 62:22-31, June 2014 に基づくものです。 
@@ -240,7 +239,7 @@ ID の数を見てみましょう。 各顧客の行には、関連付けられ�
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>メジャーまたは集計された列であるメトリックを分析する
 
-メジャーまたは集計された列の場合、分析の既定値は[上](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)で説明した**継続的な分析タイプ**になります。 これは変更できません。 メジャー/集計された列の分析と、集計されていない数値列の分析の最大の違いは、分析が実行されるレベルです。
+メジャーまたは集計された列の場合、分析の既定値は[上](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)で説明した**継続的な分析タイプ**になります。 これは変更できません。 メジャー/集計された列の分析と、集計されていない数値列の分析の最大の違いは、分析が実行されるレベルです。
 
 集計されていない列の場合、分析は常にテーブル レベルで実行されます。 上の家の価格の例では、**House Price** メトリックを分析して、家の価格の上昇/低下に影響を与えるものを確認しました。 分析はテーブル レベルで自動的に実行されます。 テーブルには家ごとに一意の ID があるので、分析は家のレベルで実行されます。
 
@@ -254,7 +253,7 @@ ID の数を見てみましょう。 各顧客の行には、関連付けられ�
 
 この分析は非常に要約されているため、回帰モデルで学習できるデータ内のパターンを見つけることは困難です。 より良い結果を得るには、さらに詳細なレベルで分析を実行する必要があります。 住宅レベルで家の価格を分析する場合は、**ID** フィールドを分析に明示的に追加する必要があります。 それでも、家の ID をインフルエンサーと考えたくはありません。 家の ID が大きくなると家の価格が上昇することを学習しても役に立ちません。 このような場合は、 **[配置方法]** フィールド ウェル オプションが役に立ちます。 **[配置方法]** を使用すると、新しいインフルエンサーを探さずに、分析のレベルを設定するために使用するフィールドを追加できます。
 
-**[配置方法]** に **ID** を追加すると視覚エフェクトがどのようになるか見てみましょう。 メジャーを評価するレベルを定義すると、インフルエンサーの解釈は、[集計されていない数値列](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)の場合とまったく同じになります。
+**[配置方法]** に **ID** を追加すると視覚エフェクトがどのようになるか見てみましょう。 メジャーを評価するレベルを定義すると、インフルエンサーの解釈は、[集計されていない数値列](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)の場合とまったく同じになります。
 
 ![メジャー テーブル](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

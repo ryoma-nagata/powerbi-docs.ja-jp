@@ -3,7 +3,6 @@ title: Microsoft Power BI Premium 容量の最適化
 description: Power BI Premium 容量の最適化戦略について説明します。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750912"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871912"
 ---
 # <a name="optimizing-premium-capacities"></a>Premium 容量を最適化する
 
@@ -33,7 +32,7 @@ Premium 容量のパフォーマンスに関する問題が発生した場合、
 
 最適な使用率とパフォーマンスを得ようとする場合には、次のようないくつかのベスト プラクティスが推奨されます。
 
-- 個人ワークスペースではなく、アプリ ワークスペースを使用する。
+- 個人ワークスペースではなく、ワークスペースを使用する。
 - ビジネス クリティカルおよびセルフサービス BI (SSBI) を異なる容量に分ける。
 
   ![ビジネス クリティカルおよびセルフサービス BI を異なる容量に分ける](media/service-premium-capacity-optimize/separate-capacities.png)
@@ -257,7 +256,7 @@ Premium 容量のサイズと数を決定するのは難しい場合がありま
 
 ロード テストを行いたい容量とレポートが既にある場合は、[PowerShell ロード生成ツール](https://aka.ms/PowerBILoadTestingTool)を使用して、ロード テストをすばやく生成します。 このツールでは、ご自分の容量で 1 時間に実行できる各レポートのインスタンス数を予測できます。 ツールを使用して、個別のレポートの表示またはいくつかの異なるレポートの並列表示に関する、自分の容量の能力を評価できます。 詳細については、次のビデオを参照してください: [Microsoft Power BI: Premium 容量](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw)。
 
-より複雑なテストを生成するには、現実的なワークロードをシミュレートするロード テスト アプリケーションの開発を検討してください。 詳細については、ウェビナー「[Power BI のロード テスト アプリケーションと Visual Studio ロード テスト](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)」を参照してください。
+より複雑なテストを生成するには、現実的なワークロードをシミュレートするロード テスト アプリケーションの開発を検討してください。 詳細については、ウェビナー「[Power BI のロード テスト アプリケーションと Visual Studio ロード テスト](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)」を参照してください。
 
 ## <a name="acknowledgements"></a>謝辞
 

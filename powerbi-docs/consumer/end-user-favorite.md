@@ -2,7 +2,6 @@
 title: Power BI サービスでのお気に入り (ダッシュボード、レポート、アプリ)
 description: Power BI サービスでダッシュボード、レポート、アプリをお気に入りとして設定する方法についてのドキュメント
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256385"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852649"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Power BI サービスでのお気に入りのダッシュボード、レポート、アプリ
 コンテンツを "*お気に入り*" にすると、 **[お気に入り]** コンテンツ リストから、および Power BI の **[ホーム]**  >  **[お気に入り+ 頻繁に使用]** から、簡単にアクセスできるようになります。 お気に入りは通常、最も頻繁にアクセスするコンテンツであり、識別子として黄色い星が付きます。
@@ -41,7 +40,7 @@ Power BI サービスの[おすすめのダッシュボード](end-user-featured
 
 ## <a name="add-an-app-as-a-favorite"></a>アプリをお気に入りとして追加する
 
-1. ナビゲーション ウィンドウから、 **[アプリ]** を選択します。
+1. ナビ ペインから **[アプリ]** を選択します。
 
    ![ダッシュボード](./media/end-user-favorite/power-bi-app.png)
 
@@ -53,7 +52,7 @@ Power BI サービスの[おすすめのダッシュボード](end-user-featured
 1. お気に入りにアクセスするには、 **[お気に入り]** の右にあるポップアップ矢印を選択します。 ここからお気に入りを選んで開くことができます。 最大で 5 つのお気に入りがアルファベット順に一覧表示されます。 5 つより多い場合、 **[すべて表示]** を選択し、[お気に入り] コンテンツ リストを開きます。 
    
    ![お気に入りポップアップ](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. お気に入りとして追加したすべてのコンテンツを表示するには、ナビゲーション ウィンドウで **[お気に入り]** またはお気に入り ![星アイコン](./media/end-user-favorite/power-bi-favorites-icon.png) アイコンを選択します。 
+2. お気に入りとして追加したすべてのコンテンツを表示するには、ナビ ペインで **[お気に入り]** またはお気に入り ![星アイコン](./media/end-user-favorite/power-bi-favorites-icon.png) アイコンを選択します。 
    
     ![[お気に入り] ウィンドウ](./media/end-user-favorite/power-bi-fav-screen.png)
    
@@ -62,7 +61,7 @@ Power BI サービスの[おすすめのダッシュボード](end-user-featured
 ## <a name="unfavorite-content"></a>コンテンツをお気に入りから外す
 以前ほど使用しなくなったレポートは、お気に入りから外すことができます。 コンテンツをお気に入りから外すと、お気に入りの一覧から削除されますが、Power BI からは削除されません。
 
-1. 左側のナビゲーション ウィンドウで **[お気に入り]** を選択し、 **[お気に入り]** 画面を開きます。
+1. ナビ ペインで **[お気に入り]** を選択し、 **[お気に入り]** 画面を開きます。
    
    ![[お気に入り] 画面](./media/end-user-favorite/power-bi-un-favorite.png)
 2. お気に入りから外すコンテンツの横にある黄色の星を選びます。
@@ -76,5 +75,5 @@ Power BI サービスの[おすすめのダッシュボード](end-user-featured
 
 ## <a name="next-steps"></a>次の手順
 - [Power BI:基本的な概念](end-user-basic-concepts.md)
-- 他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)を利用してください。
+- 他にわからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)を利用してください。
 

@@ -1,8 +1,7 @@
 ---
 title: データフローとして CDM フォルダーを Power BI へ追加する
-description: アプリのワークスペースを構成して、Azure Data Lake Storage Gen2 にデータフロー定義とデータ ファイルを格納します
+description: ワークスペースを構成して、Azure Data Lake Storage Gen2 にデータフロー定義とデータ ファイルを格納します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522740"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872685"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
 
@@ -33,7 +32,7 @@ Power BI では、組織の Azure Data Lake Store Gen2 にデータフローと�
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>CDM フォルダーからのデータフローの作成
 
-CDM フォルダーからデータフローの作成を開始するには、**Power BI サービス**を起動して、左側のナビゲーション ウィンドウから**アプリのワークスペース**を選択します。 また、新しいワークスペースを作成して、そこに新しいデータフローを作成することも可能です。
+CDM フォルダーからデータフローの作成を開始するには、**Power BI サービス**を起動して、ナビ ペインから**ワークスペース**を選択します。 また、新しいワークスペースを作成して、そこに新しいデータフローを作成することも可能です。
 
 ![Power BI サービスでのデータフローの作成](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -74,9 +73,9 @@ Power BI Desktop:
 
 **Power BI Desktop** の顧客は、データフローの所有者である場合か、データフローの CDM フォルダーに対して明示的に承認済みになっている場合を除いて、Azure Data Lake Storage Gen2 アカウント内に格納されているデータフローにはアクセスできません。 次の状況を検討します。
 
-1.  アンナは新しいアプリのワークスペースを作成して、CDM フォルダーからのデータフローを格納するように構成しました。
+1.  アンナは新しいワークスペースを作成して、CDM フォルダーからのデータフローを格納するように構成しました。
 2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得することを考えています。
-3.  Ben は Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受け取ります。
+3.  ベンは Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受け取ります。
 
     ![データフローの使用を試行した際のエラー](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
@@ -110,5 +109,5 @@ Common Data Model について詳しくは、次の概要記事をご覧くだ�
 * [CDM フォルダー](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM モデル ファイル定義](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-[Power BI コミュニティへの質問](http://community.powerbi.com/)は、いつでも行うことができます。
+[Power BI コミュニティへの質問](https://community.powerbi.com/)は、いつでも行うことができます。
 

@@ -3,17 +3,16 @@ title: Azure の Power BI Embedded サービスの診断ログ | Microsoft Docs
 description: Azure の Power BI Embedded サービスの診断ログの設定について説明します。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: 9065feef76050c6a04e1ecf8ec7907b74be4b0ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289863"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875976"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure の Power BI Embedded の診断ログ
 
@@ -29,7 +28,7 @@ ms.locfileid: "68289863"
 
 ### <a name="azure-portal"></a>Azure Portal
 
-1. [Azure Portal](https://portal.azure.com) の Power BI Embedded リソースで、左側のナビゲーションの **[診断ログ]** を選択し、 **[診断をオンにする	]** を選択します。
+1. [Azure portal](https://portal.azure.com) の Power BI Embedded リソースで、ナビ ペインの **[診断ログ]** を選択し、 **[診断をオンにする]** を選択します。
 
     ![Azure Portal で Power BI Embedded の診断ログをオンにする](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 

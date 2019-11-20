@@ -2,7 +2,6 @@
 title: Power BI での行レベルのセキュリティ (RLS)
 description: Power BI サービス内にインポートしたデータセットと DirectQuery の行レベルのセキュリティを構成する方法。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6ce3a65489c60cabb1dd705ce3243c4cec6abe40
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074851"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873528"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI での行レベルのセキュリティ (RLS)
 
@@ -28,7 +27,7 @@ Power BI Desktop で Power BI にインポートされたデータ モデルの 
 
 既定では、リレーションシップが一方向と双方向のいずれに設定されているかに関係なく、行レベルのセキュリティ フィルターで一方向のフィルターが使用されます。 行レベルのセキュリティで双方向のクロス フィルターを手動で有効にすることができます。その場合は、リレーションシップを選択して、 **[両方向にセキュリティ フィルターを適用する]** チェック ボックスをオンにします。 サーバー レベルで、動的な行レベルのセキュリティも実装した場合 (行レベルのセキュリティはユーザー名またはログイン ID に基づく) は、このボックスをオンにする必要があります。
 
-詳細については、「[Power BI Desktop での DirectQuery を使用する双方向のクロス フィルタリング](desktop-bidirectional-filtering.md)」と「[表形式の BI セマンティック モデルの保護](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)」の技術記事を参照してください。
+詳細については、「[Power BI Desktop での DirectQuery を使用する双方向のクロス フィルタリング](desktop-bidirectional-filtering.md)」と「[表形式の BI セマンティック モデルの保護](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)」の技術記事を参照してください。
 
 ![セキュリティ フィルターの適用](media/service-admin-rls/rls-apply-security-filter.png)
 
@@ -70,7 +69,7 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 
 役割をテストすることで、定義した役割が正しく動作することを検証することができます。 
 
-1. 役割の横にある**省略記号 (...)** を選択します。
+1. ロールの横にある**その他のオプション** (...) を選択します。
 2. **[ロールとしてデータをテスト]** を選択します。
 
 ![ロールとしてテスト](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +88,12 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Power BI での RLS とアプリ ワークスペースの使用
+## <a name="using-rls-with-workspaces-in-power-bi"></a>Power BI での RLS とワークスペースの使用
 
-Power BI サービス内のアプリ ワークスペースに Power BI Desktop レポートを発行した場合、役割は読み取り専用のメンバーに適用されます。 メンバーはアプリ ワークスペース設定内の Power BI コンテンツだけを表示できることを示す必要があります。
+Power BI サービス内のワークスペースに Power BI Desktop レポートを発行した場合、役割は読み取り専用のメンバーに適用されます。 メンバーはワークスペース設定内の Power BI コンテンツだけを表示できることを示す必要があります。
 
 > [!WARNING]
-> メンバーが編集アクセス許可を持つようにアプリ ワークスペースを構成している場合、RLS の役割は適用されません。 ユーザーはすべてのデータを確認できます。
+> メンバーが編集アクセス許可を持つようにワークスペースを構成している場合、RLS の役割は適用されません。 ユーザーはすべてのデータを確認できます。
 
 ![グループ設定](media/service-admin-rls/rls-group-settings.png)
 
@@ -105,4 +104,4 @@ Power BI サービス内のアプリ ワークスペースに Power BI Desktop �
 ## <a name="next-steps"></a>次の手順
 [Power BI Desktop での行レベルのセキュリティ (RLS)](desktop-rls.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

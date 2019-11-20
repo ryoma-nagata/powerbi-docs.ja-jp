@@ -2,7 +2,6 @@
 title: レポートから Power BI ダッシュボードを作成する
 description: レポートから Power BI ダッシュボードを作成する
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543387"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853404"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
 「[Power BI デザイナーのダッシュボードの概要](service-dashboards.md)」を読みました。今度は自分のダッシュボードを作成します。 ダッシュボードを作成するには、さまざまな方法があります。 たとえば、レポートから、何もない状態から、データセットから、または既存のダッシュボードを複製して、ダッシュボードを作成できます。  
@@ -44,11 +43,11 @@ ms.locfileid: "72543387"
 ## <a name="import-a-dataset-with-a-report"></a>レポートでデータセットをインポートする
 このステップバイステップでは、Power BI サンプル データセットの 1 つをインポートし、それを使って新しいダッシュボードを作成します。 ここで使うサンプルは、2 つの PowerView シートを含む Excel ブックです。 Power BI でブックをインポートすると、データセットとレポートがワークスペースに追加されます。 レポートは、PowerView シートから自動的に作成されます。
 
-1. [調達の分析のサンプル](http://go.microsoft.com/fwlink/?LinkId=529784)の Excel ファイルをダウンロードします。 OneDrive for Business に保存することをお勧めします。
+1. [調達の分析のサンプル](https://go.microsoft.com/fwlink/?LinkId=529784)の Excel ファイルをダウンロードします。 OneDrive for Business に保存することをお勧めします。
 2. ブラウザーで Power BI サービス (app.powerbi.com) を開きます。
-3. 左側のナビゲーション パネルから **[マイ ワークスペース]** を選択し、次に **[データの取得]** を選択します。
+3. ナビ ペインから **[マイ ワークスペース]** を選択し、次に **[データの取得]** を選択します。
 
-    ![左側のナビゲーション ウィンドウ](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![ナビゲーション ウィンドウ](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. **[ファイル]** で **[取得]** を選択します。
 
    ![ファイルの取得](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ ms.locfileid: "72543387"
    ![成功メッセージ](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> ご存知でしたか? 左側のナビゲーション バーを絞り込むには、上部の 3 本線のアイコン ![ナビゲーション ウィンドウの表示/非表示アイコン](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png) を選択します。 これにより、レポート自体の領域が増えます。
+> ご存知でしたか? ナビ ペインを絞り込むには、上部の 3 本線のアイコン ![ナビ ペインの表示/非表示アイコン](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png) を選択します。 これにより、レポート自体の領域が増えます。
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>レポートを開いてダッシュボードにタイルをピン留めする
 1. 同じワークスペースで **[レポート]** タブを選択し、 **[調達の分析のサンプル]** を選択してレポートを開きます。
@@ -118,4 +117,4 @@ ms.locfileid: "72543387"
 * [Power BI - 基本的な概念](service-basic-concepts.md)
 * [優れたダッシュボードのデザインに関するヒント](service-dashboards-design-tips.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

@@ -2,7 +2,6 @@
 title: コンシューマーとしての視覚化 (ビジュアル) の操作
 description: Power BI の概念と用語 - 視覚化、ビジュアル。 Power BI の視覚化とビジュアルの概要。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379972"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860982"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>レポート、ダッシュボード、アプリでビジュアルを操作する
 
@@ -52,7 +51,7 @@ ms.locfileid: "72379972"
 |ビジュアルのデータから[興味深い事実や傾向を探すように Power BI に要求します](end-user-insights.md)。  これらの自動的に生成されたビジュアルは、*分析情報*と呼ばれます。     |    はい     |  ビジュアルごとではなくレポート全体に対して       | いいえ   |
 |["*フォーカス*" モードを使用して一度に 1 つずつビジュアルを表示します](end-user-focus.md)。     | はい        |   はい      | na  |
 |[ビジュアルが最後に更新された時刻を検索します](end-user-fresh.md)。     |  はい       |    はい     | na  |
-|[*全画面表示*モードまたは*フォーカス* モードを使用して、罫線またはナビゲーション バーなしで、ビジュアルを一度に 1 つずつ表示します](end-user-focus.md)。     |   はい      |  はい       | 既定による  |
+|["*全画面表示*" モードまたは "*フォーカス*" モードを使用して、罫線またはナビ ペインなしで、ビジュアルを一度に 1 つずつ表示します](end-user-focus.md)。     |   はい      |  はい       | 既定による  |
 |[印刷します](end-user-print.md)。     |  はい       |   はい      | いいえ  |
 |[ビジュアル フィルターを追加および変更して、ビジュアルを詳しく調べます。](end-user-report-filter.md)     |    いいえ     |   はい      | いいえ  |
 |ビジュアルにマウス カーソルを移動して、詳細情報とツールヒントを表示します。     |    はい     |   はい      | はい  |

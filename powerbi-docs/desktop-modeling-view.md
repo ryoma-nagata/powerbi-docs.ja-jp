@@ -1,8 +1,7 @@
 ---
-title: Power BI Desktop でモデルのビューを使用します。
+title: Power BI Desktop でモデルリング ビューを使用する
 description: Power BI Desktop でモデリング ビューを使用して、複雑なデータセットをビジュアル形式で表示させます
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6869430e3fece78210d538c9886234c7728b667a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65941342"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866545"
 ---
-# <a name="modeling-view-in-power-bi-desktop"></a>Power BI Desktop でのビューのモデリング
+# <a name="modeling-view-in-power-bi-desktop"></a>Power BI Desktop でのモデルリング ビュー
 
 **Power BI Desktop** の**モデルリング ビュー**を使用すると、多くのテーブルを含む複雑なデータセットを表示して操作することができます。
 

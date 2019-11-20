@@ -2,7 +2,6 @@
 title: Q&A からダッシュボードにタイルをピン留めする方法
 description: Q&A 質問ボックスから Power BI ダッシュボードにタイルをピン留めする方法についてのドキュメント
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139420"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872810"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Q&A からダッシュボードにタイルをピン留めする
 ## <a name="how-to-pin-a-tile-from-qa"></a>Q&A からタイルをピン留めする方法
@@ -52,9 +51,9 @@ Q&A は、Power BI のアドホック レポート作成ツールです。 特�
    ![タイルのあるダッシュボード](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-* 質問を入力し始めると、Q&A はすぐに、現在のダッシュボードに関連付けられているすべてのデータセットから最適な回答の検索を開始します。  "現在のダッシュボード" は、上部ナビゲーション バーに表示されているダッシュボードです。 たとえば、この質問は、 **[小売りの分析のサンプル]** ダッシュボードで入力しています。このダッシュボードは **mihart** アプリ ワークスペースの一部です。
+* 質問を入力し始めると、Q&A はすぐに、現在のダッシュボードに関連付けられているすべてのデータセットから最適な回答の検索を開始します。  "現在のダッシュボード" は、上部のナビ ペインに表示されているダッシュボードです。 たとえば、この質問は、 **[小売りの分析のサンプル]** ダッシュボードで入力しています。このダッシュボードは **mihart** ワークスペースの一部です。
 
-  ![階層リンク](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![階層リンク](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
 * **Q&A が使用するデータセットを認識する方法**:  Q&A は、そのダッシュボードにピン留めされた視覚エフェクトが 1 つでもあるデータセットすべてにアクセスします。
 
 * **質問ボックスが表示されない場合**: Power BI 管理者に問い合わせてください。 管理者は Q&A 機能を無効にすることができます。
@@ -64,4 +63,4 @@ Q&A は、Power BI のアドホック レポート作成ツールです。 特�
 [タイルの名前の変更、サイズ変更、ハイパーリンクの追加、位置変更など](service-dashboard-edit-tile.md)    
 [フォーカス モードでダッシュボード タイルを表示する](consumer/end-user-focus.md)     
 [Power BI での Q&A に戻る](consumer/end-user-q-and-a.md)  
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

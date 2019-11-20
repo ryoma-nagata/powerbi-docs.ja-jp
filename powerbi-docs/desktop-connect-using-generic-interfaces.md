@@ -2,7 +2,6 @@
 title: Power BI Desktop でジェネリック インターフェイスを使用してデータに接続する
 description: Power BI Desktop でジェネリック インターフェイスを使用して異なるデータ ソースに接続する方法を説明します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b553d9341723c9b44abce57a384d4c7ba76e00a2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513761"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868975"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Power BI Desktop でジェネリック インターフェイスを使用してデータに接続する
 **Power BI Desktop** では、 **[データの取得]** ウィンドウに表示されるように、**Access データベース**から **Zendesk** まで広範にカバーする組み込みデータ接続を使用して、さまざまな異なるデータ ソースに接続できます。 また、**Power BI Desktop** に組み込まれているジェネリック インターフェイス (**ODBC** や **REST API** など) を使うことで、"*その他*" のあらゆる種類のデータ ソースに接続でき、接続オプションの範囲が大きく広がります。
@@ -48,16 +47,16 @@ ms.locfileid: "65513761"
 
 | Power BI Desktop のジェネリック コネクタ | 外部データ ソース | 詳細情報のリンク |
 | --- | --- | --- |
-| ODBC |Cassandra |[Cassandra ODBC ドライバー](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
+| ODBC |Cassandra |[Cassandra ODBC ドライバー](https://www.simba.com/drivers/cassandra-odbc-jdbc/) |
 | ODBC |Couchbase DB |[Couchbase と Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
-| ODBC |DynamoDB |[DynamoDB ODBC ドライバー](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
-| ODBC |Google BigQuery |[BigQuery ODBC ドライバー](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |HBase |[HBase ODBC ドライバー](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
-| ODBC |Hive |[Hive ODBC ドライバー](http://www.simba.com/drivers/hive-odbc-jdbc/) |
+| ODBC |DynamoDB |[DynamoDB ODBC ドライバー](https://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
+| ODBC |Google BigQuery |[BigQuery ODBC ドライバー](https://www.simba.com/drivers/bigquery-odbc-jdbc/) |
+| ODBC |HBase |[HBase ODBC ドライバー](https://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |Hive |[Hive ODBC ドライバー](https://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[IBM Netezza の情報](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
-| ODBC |Presto |[Presto ODBC ドライバー](http://www.simba.com/drivers/presto-odbc-jdbc/) |
+| ODBC |Presto |[Presto ODBC ドライバー](https://www.simba.com/drivers/presto-odbc-jdbc/) |
 | ODBC |Project Online |[Project Online の記事](desktop-project-online-connect-to-data.md) |
-| ODBC |Progress OpenEdge |[Progress OpenEdge ODBC ドライバーのブログ投稿](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.progress.com%2Fblogs%2Fconnect-microsoft-power-bi-to-openedge-via-odbc-driver&data=02%7C01%7CMatt.Masson%40microsoft.com%7C5e63742e6c454308b58a08d4034b5923%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636137069555329811&sdata=gSu2Rq3vZ0uBVOgjaXxd8Y3uBf%2B8DidX6PG33jwAduY%3D&reserved=0) |
+| ODBC |Progress OpenEdge |[Progress OpenEdge ODBC ドライバーのブログ投稿](https://www.progress.com/blogs/connect-microsoft-power-bi-to-openedge-via-odbc-driver) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>OLE DB でアクセスできるデータ ソース
 **Power BI Desktop** の **OLE DB** コネクタを使うと、*接続文字列*を指定するだけで、任意のサードパーティ製 OLE DB ドライバーから簡単にデータをインポートできます。 必要であれば、OLE DB ドライバーに対して SQL ステートメントを実行することもできます。

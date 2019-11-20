@@ -2,7 +2,6 @@
 title: Power BI での複合グラフ
 description: 複合グラフに関するこのチュートリアルでは、複合グラフを使用する状況と、Power BI サービスおよび Power BI Desktop.で複合グラフを作成する方法について説明します。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195086"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880936"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI での複合グラフ
 
@@ -36,7 +35,7 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
 * キャンバスのスペースを節約する場合。
 
 ### <a name="prerequisites"></a>前提条件
-このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
+このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します。
 
 1. メニューバーの左上にある **[ファイル]**  >  **[開く]** を選択します。
    
@@ -67,7 +66,7 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
     c. **[Time]** \> **[Fiscal Month]** の順に選択して、 **[軸]** に追加します。
 
     ![複合のチュートリアルの例](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. 視覚エフェクトの右上隅にある省略記号 (...) を選び、 **[並べ替え] > [FiscalMonth]** を選択します。 並べ替え順序を変更するには、省略記号をもう一度選び、 **[昇順で並べ替え]** または **[降順で並べ替え]** を選択します。 この例では、 **[昇順で並べ替え]** を使用します。
+5. ビジュアルの右上隅の **[その他のオプション]** (...) を選択し、 **[Sort by]\(並べ替え\) > [FiscalMonth]** の順に選択します。 並べ替え順序を変更するには、省略記号をもう一度選び、 **[昇順で並べ替え]** または **[降順で並べ替え]** を選択します。 この例では、 **[昇順で並べ替え]** を使用します。
 
 6. 縦棒グラフを複合グラフに変換します。 次の 2 つの複合グラフを使用できます: **[折れ線グラフおよび積み上げ縦棒グラフ]** と **[折れ線グラフおよび集合縦棒グラフ]** 。 縦棒グラフを選んだ状態で **[視覚化]** ウィンドウから **[折れ線グラフおよび集合縦棒グラフ]** を選びます。
 

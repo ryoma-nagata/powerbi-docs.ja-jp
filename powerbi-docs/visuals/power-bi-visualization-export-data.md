@@ -3,24 +3,24 @@ title: Power BI ビジュアルからデータをエクスポートする
 description: レポートのビジュアルとダッシュボードのビジュアルからデータをエクスポートします。
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431097"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060463"
 ---
 # <a name="export-data-from-visualizations"></a>ビジュアルからデータをエクスポートする
 
-Power BI での視覚化の作成に使用されるデータを確認したい場合は、[Power BI でデータを表示できます](service-reports-show-data.md)。 そのデータを *.xlsx* または *.csv* ファイルとして Excel にエクスポートすることもできます。 データをエクスポートするオプションを使用するには、Pro ライセンスまたは Premium ライセンスに加えて、データセットとレポートへの編集アクセス許可が必要です。
+Power BI での視覚化の作成に使用されるデータを確認したい場合は、[Power BI でデータを表示できます](service-reports-show-data.md)。 そのデータを *.xlsx* または *.csv* ファイルとして Excel にエクスポートすることもできます。 データをエクスポートするオプションを使用するには、Pro ライセンスまたは Premium ライセンスに加えて、データセットとレポートへの編集アクセス許可が必要です。 <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 Watch では、レポート内の視覚化の 1 つからデータをエクスポートし、 *.xlsx* ファイルとして保存して、Excel で開くことができます。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
 
@@ -152,7 +152,7 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 次の制限事項と考慮事項は、Power BI Desktop と Power BI サービス (Power BI Pro および Power BI Premium を含む) に適用されます。
 
-- データをビジュアルからエクスポートするには、[基になるデータセットのビルド アクセス許可](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets)が必要です。
+- データをビジュアルからエクスポートするには、[基になるデータセットのビルド アクセス許可](https://docs.microsoft.com/power-bi/service-datasets-build-permissions)が必要です。
 
 -  **Power BI Desktop** および **Power BI サービス**で**インポート モード レポート**から *.csv* ファイルにエクスポートできる最大行数は、30,000 です。
 
@@ -160,9 +160,7 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
 
 - "*基になるデータ*" を使用したエクスポートは、次の場合は動作しません。
 
-  - データ ソースが Analysis Services ライブ接続である。
-
-  - バージョンが 2016 年より古い。
+  - バージョンが 2016 より古い。
 
   - モデルのテーブルに一意のキーがない。
     
@@ -196,4 +194,4 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
 
 - Power BI 管理者は、データのエクスポートを無効にできます。
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

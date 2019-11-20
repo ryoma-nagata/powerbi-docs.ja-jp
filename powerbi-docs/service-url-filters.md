@@ -3,20 +3,19 @@ title: URL のクエリ文字列パラメーターを使用してレポートを
 description: URL クエリ文字列パラメーターを使って、レポートをフィルター処理します。複数のフィールドでもフィルター処理できます。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623893"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876926"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -105,9 +104,9 @@ URL にパラメーターを追加し、複数のフィールドでフィルタ�
 
 Power BI では、'**and**' に加え、多くの演算子がサポートされています。 次の表に、その演算子とサポートされるコンテンツの種類を一覧表示します。
 
-|演算子  | 定義 | 文字列  | 数値 | 日付 |  例|
+|演算子  | 定義 | 文字列  | 数値 | Date |  例|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | および |  はい      | はい |  はい|  product/price le 200 and price gt 3.5 |
+|**and**     | と |  はい      | はい |  はい|  product/price le 200 and price gt 3.5 |
 |**eq**     | equals |  はい      | はい   |  はい       | Address/City eq 'Redmond' |
 |**ne**     | 等しくない |   はい      | はい  | はい        |  Address/City ne 'London' |
 |**ge**     |  以上       | いいえ | はい |はい |  product/price ge 10
@@ -153,7 +152,7 @@ V3 と V4 には他にも違いがあります。 OData V3 では、Dates はサ
 |---------|---------|---------|
 |**テーブル名**     | スペースは 0x20        |  Table_x0020_Name       |
 |**列**@**数値**     |   @ は 0x40     |  Column_x0040_Number       |
-|**[列]**     |  [ is 0x0058 ] は 0x0050       |  _x0058_Column_x0050_       |
+|**[列]**     |  [ is 0x005B ] は 0x005D       |  _x005B_Column_x005D_       |
 |**列+プラス**     | + は 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![ 特殊文字をレンダリングするテーブルのビジュアル](media/service-url-filters/power-bi-special-characters1.png)
@@ -195,4 +194,4 @@ TerritoryChain = [Territory] & " - " & [Chain]
 [視覚化をダッシュボードにピン留めする](service-dashboard-pin-tile-from-report.md)  
 [無料試用版にサインアップ](https://powerbi.microsoft.com/get-started/)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

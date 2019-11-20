@@ -2,7 +2,6 @@
 title: Power BI サービスのレポート
 description: コンシューマー向け Power BI サービスのレポート
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,14 +9,16 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903725"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851224"
 ---
 # <a name="reports-in-power-bi"></a>Power BI のレポート
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI レポートはデータセットのマルチパースペクティブ表示です。データセットからのさまざまな結果や分析情報がビジュアルによって表されます。  レポートでは、単一のビジュアルを使用することも、各ページでさまざまなビジュアルを使用することもできます。 職務に応じて、レポートを*デザイン*する人になる場合があります。 また、レポートを*使用*する人になる場合もあります。 この記事は、"*コンシューマー*" を対象としています。
 
@@ -27,7 +28,7 @@ A. このレポートには 6 つのページ (またはタブ) があり、現�
 B. このページには 5 つの異なるビジュアルとページ タイトルがあります。    
 C. *フィルター* ウィンドウでは、すべてのレポート ページに 1 つのフィルターが適用されていることが示されます。 フィルター ウィンドウを折りたたむには、矢印 ( **>** ) を選択します。    
 D. Power BI のバナーには、レポートの名前と最終更新日が表示されます。 矢印を選択すると開くメニューには、レポートの所有者の名前も表示されます。    
-E. アクション バーには、このレポートで実行できる操作が表示されます。  たとえば、コメントの追加、ブックマークの表示、レポートからのデータのエクスポートなどを行うことができます。  省略記号 [...] を選択すると、追加のレポート機能の一覧が表示されます。    
+E. アクション バーには、このレポートで実行できる操作が表示されます。  たとえば、コメントの追加、ブックマークの表示、レポートからのデータのエクスポートなどを行うことができます。  **その他のオプション** (...) を選択すると、追加のレポート機能の一覧が表示されます。    
 
 Power BI を初めて使うときは、「[Power BI サービスのコンシューマーの基本的な概念](end-user-basic-concepts.md)」を読むと基礎がよくわかります。 レポートは、モバイル デバイス上で表示、共有、および注釈を付けることができます。 詳細については、「[Power BI モバイル アプリのレポートを調べる](mobile/mobile-reports-in-the-mobile-apps.md)」を参照してください。
 

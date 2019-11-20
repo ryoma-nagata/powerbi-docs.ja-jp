@@ -3,18 +3,17 @@ title: Power BI サービスでのページ分割されたレポートの埋め�
 description: この記事では、Power BI サービスでページ分割されたレポートの埋め込みデータ ソースを作成および変更する方法について説明します。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020800"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875305"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポート用の埋め込みデータ ソースを作成する
 
@@ -72,7 +71,7 @@ ms.locfileid: "72020800"
 
 ページ分割されたレポートを Power BI データセットに接続する場合は、軽微な変更が加えられた Power BI での共有データセットに関する規則に従います。  ユーザーが Power BI データセットを使用してページ分割されたレポートを正しく表示し、行レベルのセキュリティ (RLS) が確実に有効にされ閲覧者に適用されるようにする場合、あなたは必ず次の規則に従ってください。
 
-### <a name="classic-apps-and-app-workspaces"></a>従来のアプリとアプリ ワークスペース
+### <a name="classic-apps-and-workspaces"></a>従来のアプリとワークスペース
 
 - データセットと同じワークスペース内の .rdl (同じ所有者): サポートされている
 - データセットと異なるワークスペース内の .rdl (同じ所有者): サポートされている
@@ -82,7 +81,7 @@ ms.locfileid: "72020800"
 - データセットと異なるワークスペース内の .rdl (異なるユーザー): データセット レベルでレポートを表示するユーザーごとに割り当てられたビルド アクセス許可が必要です
 - ロールレベルのセキュリティ: それを適用してもらうには、データセット レベルでレポートを表示するユーザーごとに割り当てられたビルド アクセス許可が必要です
 
-### <a name="new-experience-apps-and-app-workspaces"></a>新しいエクスペリエンス アプリとアプリのワークスペース
+### <a name="new-experience-apps-and-workspaces"></a>新しいエクスペリエンス アプリとワークスペース
 
 - データセットと同じワークスペース内の .rdl: サポートされている
 - データセットと異なるワークスペース内の .rdl (同じ所有者): サポートされている

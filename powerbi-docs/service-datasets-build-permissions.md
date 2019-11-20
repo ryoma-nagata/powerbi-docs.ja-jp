@@ -2,7 +2,6 @@
 title: 共有データセットのビルド アクセス許可 (プレビュー)
 description: ビルド アクセス許可を使用して、データにアクセスできるユーザーを制御する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 069ec5e0c767bcfcb0a4a41c2180ae78146800f2
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020902"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872553"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>共有データセットのビルド アクセス許可 (プレビュー)
 
@@ -29,7 +28,7 @@ Power BI Desktop の*データ モデル*の作成者であれば、それらを
 
 - 少なくとも共同作成者ロールを持つワークスペースのメンバーには、そのワークスペースのデータセットに対するビルド アクセス許可と、レポートをコピーするアクセス許可が自動的に付与されます。
  
-- データセットが存在するワークスペースのメンバーは、アクセス許可センターの特定のユーザーまたはセキュリティ グループにアクセス許可を割り当てることができます。 ワークスペースのメンバーの場合、データセットの横にある省略記号 (...)、 **[アクセス許可の管理]** の順に選択します。
+- データセットが存在するワークスペースのメンバーは、アクセス許可センターの特定のユーザーまたはセキュリティ グループにアクセス許可を割り当てることができます。 ワークスペースのメンバーの場合、データセットの横にある**その他のオプション** (...)、 **[アクセス許可の管理]** の順に選択します。
 
     ![省略記号を選択する](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -50,11 +49,11 @@ Power BI Desktop の*データ モデル*の作成者であれば、それらを
 ある時点で、共有データセットの一部のユーザーに対するビルド アクセス許可の削除が必要になることがあります。 
 
 1. ワークスペースで、 **[データセット]** リスト ページに移動します。 
-1. データセットの横にある省略記号 (...)、 **[アクセス許可の管理]** の順に選択します。
+1. データセットの横にある**その他のオプション** (...)、 **[アクセス許可の管理]** の順に選択します。
 
     ![アクセス許可の管理](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 名前の横にある省略記号 (...)、 **[ビルドの削除]** の順に選択します。
+1. 名前の横にある**その他のオプション** (...) を選択し、 **[ビルドの削除]** を選択します。
 
     ![ビルド アクセス許可の削除](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -80,11 +79,11 @@ Power BI Desktop の*データ モデル*の作成者であれば、それらを
 1. **[更新]** を選択します。
 
 1. ワークスペースで、 **[データセット]** リスト ページに移動します。 
-1. データセットの横にある省略記号 (...)、 **[アクセス許可の管理]** の順に選択します。
+1. データセットの横にある**その他のオプション** (...)、 **[アクセス許可の管理]** の順に選択します。
 
     ![アクセス許可の管理](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 名前の横にある省略記号 (...)、 **[ビルドの削除]** の順に選択します。
+1. 名前の横にある**その他のオプション** (...) を選択し、 **[ビルドの削除]** を選択します。
 
     ![ビルド アクセス許可の削除](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -103,4 +102,4 @@ Power BI では、既存のアクセス許可である読み取りと再共有�
 ## <a name="next-steps"></a>次の手順
 
 - [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
-- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

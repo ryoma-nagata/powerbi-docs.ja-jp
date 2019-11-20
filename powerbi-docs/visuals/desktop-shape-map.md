@@ -2,20 +2,19 @@
 title: Power BI Desktop で図形マップを使用する (プレビュー)
 description: Power BI Desktop で図形マップを使用して領域間の相対比較を作成する
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amanda
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164091"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871118"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
 
@@ -61,7 +60,7 @@ Power BI Desktop は、 **[マップのシェイプ]** のビジュアルのデ�
 3. **[既定の色]** や **[ズーム]** などの [書式設定] オプションを使用してマップを変更することができます。 また、カテゴリ データ列を **[凡例]** バケットに追加し、カテゴリに基づいて地図の地域を分類することもできます。
 
 ## <a name="use-custom-maps"></a>カスタム マップの使用
-それが **TopoJSON** 形式であれば、**マップのシェイプ**でカスタム マップを使用できます。 マップが別の形式の場合、[**Map Shaper**](http://mapshaper.org/) などのオンライン ツールを使用し、*シェイプ ファイル*や *GeoJSON* マップを **TopoJSON** 形式に変換できます。
+それが **TopoJSON** 形式であれば、**マップのシェイプ**でカスタム マップを使用できます。 マップが別の形式の場合、[**Map Shaper**](https://mapshaper.org/) などのオンライン ツールを使用し、*シェイプ ファイル*や *GeoJSON* マップを **TopoJSON** 形式に変換できます。
 
 **TopoJSON** マップ ファイルを使用するには、ShapeMap ビジュアルをレポートに追加し、データを *[場所]* バケットと *[色の彩度]* バケットに追加します。 その後、 **[視覚化]** ウィンドウで **[形式]** セクションを選択し (次の画像の (1))、 **[図形]** セクションを展開し、 **[+ マップの追加]** を選択します。
 
@@ -82,7 +81,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 このデータセットと視覚エフェクトを試したい場合は、以下のリンクを使用して、このレポートの生成に使用された元の PBIX ファイルをダウンロードできます。
 
-* [カスタム シェイプ マップのデモ .PBIX ファイル](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
+* [カスタム シェイプ マップのデモ .PBIX ファイル](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>マップ データの取得
 **[マップのシェイプ]** をテストできるようにモデルに迅速にデータを入力するには、 **[ホーム]** リボンから **[データの入力]** を選択します。
@@ -108,7 +107,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 * **[マップのシェイプ]** のビジュアルは、プレビュー段階にあるため、Power BI Desktop でこれを有効にする作業が必要です。 **[マップのシェイプ]** を有効にするには、 **[ファイル] > [オプションと設定] > [オプション] > [プレビュー機能]** の順に選択し、 **[図形マップのビジュアル]** チェック ボックスをオンにします。
 * 現時点で、 **[凡例]** の分類が適切に機能するには、 **[色の彩度]** バケットも設定されている必要があります。
 * **マップのシェイプ**の最終リリース版には、現在選択されているマップのマップ キーが表示されるユーザー インターフェイスが搭載される予定です (最終リリースの日付は未定であり、**マップのシェイプ**はまだプレビュー段階です)。 このプレビュー リリースでは、この記事の次の「**地域キー**」セクションにある表のマップの地域キーを参照してください。
-* **マップのシェイプ** ビジュアルで最大 1,000 個のデータ ポイントが描かれます。
+* **マップのシェイプ** ビジュアルで最大 1,500 個のデータ ポイントが描かれます。
 
 ## <a name="region-keys"></a>地域キー
 

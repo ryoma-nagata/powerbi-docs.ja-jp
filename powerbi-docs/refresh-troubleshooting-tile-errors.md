@@ -2,7 +2,6 @@
 title: タイルのエラーのトラブルシューティング
 description: Power BI のタイルの更新時に発生する一般的なエラー
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544288"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877497"
 ---
 # <a name="troubleshooting-tile-errors"></a>タイルのエラーのトラブルシューティング
 次に、タイルで発生する可能性がある一般的なエラーとその説明を示します。
 
 > [!NOTE]
-> 以下に記載されていないエラーが発生し、問題を引き起こしている場合は、[コミュニティ サイト](http://community.powerbi.com/)でさらに支援を求めることや、[サポート チケット](https://powerbi.microsoft.com/support/)を作成することができます。
+> 以下に記載されていないエラーが発生し、問題を引き起こしている場合は、[コミュニティ サイト](https://community.powerbi.com/)でさらに支援を求めることや、[サポート チケット](https://powerbi.microsoft.com/support/)を作成することができます。
 > 
 > 
 
@@ -38,7 +37,7 @@ ms.locfileid: "72544288"
 
 **カスタムのビジュアルは、管理者によって無効にされました。**
 
-Power BI 管理者は、組織またはセキュリティ グループのカスタム ビジュアルの使用を無効にしています。 [Microsoft マーケットプレース](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals)からカスタム ビジュアルを使用したり、ファイルからプライベート ビジュアルをインポートしたりすることはできません。 パック済みのビジュアル セットのみを使用できます。
+Power BI 管理者は、組織またはセキュリティ グループのカスタム ビジュアルの使用を無効にしています。 [Microsoft マーケットプレース](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)からカスタム ビジュアルを使用したり、ファイルからプライベート ビジュアルをインポートしたりすることはできません。 パック済みのビジュアル セットのみを使用できます。
 
 
 **データ シェイプには少なくとも 1 つのグループかデータを出力する計算が必要です。ダッシュボードの所有者にお問い合わせください。**
@@ -69,7 +68,7 @@ Power BI 管理者は、組織またはセキュリティ グループのカス�
 
 これは、基になるデータセットが、オンプレミス データ ゲートウェイを介した DirectQuery モードまたは Analysis Services へのライブ接続を使用するように構成されている場合に発生する可能性があります。 この場合、データ ソースの SSO を有効にした後、次のタイル更新が行われるまで、タイルにはフィルター処理されていないデータが引き続き表示されます。 次回のタイル更新時に、Power BI には構成どおりに SSO が使用され、タイルにはユーザー ID に従ってフィルター処理されたデータが表示されます。 
 
-フィルター処理されたデータをすぐに表示する場合は、ダッシュボードの右上にある省略記号 (...) を選択し、 **[ダッシュボード タイルの更新]** を選択して、タイルを強制的に更新できます。
+フィルター処理されたデータをすぐに表示する場合は、ダッシュボードの右上にある **[その他のオプション]** (...) を選択し、 **[ダッシュボード タイルの更新]** を選択して、タイルを強制的に更新できます。
 
 データ セットの所有者は、タイルの更新頻度を変更して 15 分に設定し、タイルの更新間隔を短くすることもできます。 Power BI サービスの右上隅にある歯車アイコンを選択し、 **[設定]** を選択します。 **[設定]** ページで、 **[データセット]** タブを選択します。 **[スケジュールされたキャッシュの更新]** を展開し、 **[更新の頻度]** を変更します。 Power BI で次回のタイル更新が実行された後は、必ず構成を元の更新頻度に再設定してください。
 
@@ -82,5 +81,5 @@ Power BI 管理者は、組織またはセキュリティ グループのカス�
 ## <a name="next-steps"></a>次の手順
 [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
 [Power BI Personal Gateway のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

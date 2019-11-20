@@ -3,19 +3,18 @@ title: ご自身の組織向けのアプリケーションに Power BI コンテ
 description: Power BI API を使って、アプリケーションにご自身の組織向けの分析情報用のレポート (Power BI またはページ分割された)、ダッシュボード、タイルを統合する (埋め込む) 方法について説明します。 埋め込み分析ソフトウェア、埋め込み分析ツール、または埋め込みビジネス インテリジェンス ツールを使って、ご自身のアプリケーションに Power BI を統合する方法について説明します。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 3a217ebd1b6450c76ebf25ad5154293566d955f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237391"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875994"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -45,7 +44,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 アプリケーションへのレポート、ダッシュボード、タイルの埋め込みを開始する前に、使用している環境で Power BI での埋め込みが許可されていることを確認する必要があります。
 
-[埋め込みセットアップ ツール](https://aka.ms/embedsetup/UserOwnsData)を使うと、環境の作成とレポートの埋め込みを段階的に行うのに役立つサンプル アプリケーションをすぐに使い始めたり、ダウンロードしたりできます。 ページ分割されたレポートを埋め込む場合、作成したアプリ ワークスペースに少なくとも P1 容量を割り当てる必要があります。
+[埋め込みセットアップ ツール](https://aka.ms/embedsetup/UserOwnsData)を使うと、環境の作成とレポートの埋め込みを段階的に行うのに役立つサンプル アプリケーションをすぐに使い始めたり、ダウンロードしたりできます。 ページ分割されたレポートを埋め込む場合、作成したワークスペースに少なくとも P1 容量を割り当てる必要があります。
 
 手動で環境をセットアップする場合は、以下を続行できます。
 
@@ -57,13 +56,13 @@ Azure Active Directory に[アプリケーションを登録する](register-app
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 環境を設定する
 
-### <a name="create-an-app-workspace"></a>アプリ ワークスペースを作成する
+### <a name="create-a-workspace"></a>ワークスペースの作成
 
-顧客向けのレポート、ダッシュボード、またはタイルを埋め込む場合は、コンテンツをアプリ ワークスペース内に配置する必要があります。 設定可能なワークスペースには、[従来のワークスペース](../service-create-workspaces.md)と[新しいワークスペース](../service-create-the-new-workspaces.md)があります。
+顧客向けのレポート、ダッシュボード、またはタイルを埋め込む場合は、コンテンツをワークスペース内に配置する必要があります。 設定可能なワークスペースには、[従来のワークスペース](../service-create-workspaces.md)と[新しいワークスペース](../service-create-the-new-workspaces.md)があります。
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Power BI レポートを作成して発行する
 
-Power BI Desktop を使用して、レポートとデータセットを作成することができます。 その後、そのレポートをアプリ ワークスペースに発行できます。 レポートを発行するエンド ユーザーには、アプリ ワークスペースに発行するための Power BI Pro ライセンスが必要です。
+Power BI Desktop を使用して、レポートとデータセットを作成することができます。 その後、そのレポートをワークスペースに発行できます。 レポートを発行するエンド ユーザーには、ワークスペースに発行するための Power BI Pro ライセンスが必要です。
 
 1. GitHub からサンプルの [Demo](https://github.com/Microsoft/powerbi-desktop-samples) をダウンロードします。
 
@@ -73,7 +72,7 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
 
    ![サンプルの Power BI Desktop レポート](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. アプリ ワークスペースに発行します。
+3. ワークスペースに発行します。
 
    ![Power BI Desktop レポートを発行する](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +82,7 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
    
 ### <a name="create-and-publish-your-paginated-reports"></a>ページ分割されたレポートを作成して発行する
 
-[Power BI レポート ビルダー](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)を使用して、ページ分割されたレポートを作成できます。 その後、少なくとも P1 容量に割り当てられているアプリ ワークスペースに[レポートをアップロード](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)できます。 レポートをアップロードするエンドユーザーは、アプリのワークスペースに発行するには、Power BI Pro ライセンスを持っている必要があります。
+[Power BI レポート ビルダー](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)を使用して、ページ分割されたレポートを作成できます。 その後、少なくとも P1 容量に割り当てられているワークスペースに[レポートをアップロード](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)できます。 レポートをアップロードするエンドユーザーがワークスペースに発行するには、Power BI Pro ライセンスを持っている必要があります。
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>サンプル アプリケーションを使用してコンテンツを埋め込む
 
@@ -118,7 +117,7 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
 
 1. [Azure Portal ](https://portal.azure.com)にサインインします。
 
-2. 左側のナビゲーション ウィンドウで、 **[すべてのサービス]** 、 **[アプリの登録]** の順に選択します。
+2. 左側のナビ ペインで、 **[すべてのサービス]** 、 **[アプリの登録]** の順に選択します。
 
 3. **applicationId** を必要とするアプリケーションを選択します。
 
@@ -130,7 +129,7 @@ Power BI Desktop を使用して、レポートとデータセットを作成す
 
 ### <a name="workspace-id"></a>ワークスペース ID
 
-**workspaceId** 情報には、Power BI のアプリ ワークスペース (グループ) の GUID を入力します。 この情報は、Power BI サービスにサインインしたときに URL から取得するか、PowerShell を使用して取得できます。
+**workspaceId** 情報には、Power BI のワークスペース (グループ) の GUID を入力します。 この情報は、Power BI サービスにサインインしたときに URL から取得するか、PowerShell を使用して取得できます。
 
 URL <br>
 
@@ -376,11 +375,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Power BI Premium 専用容量の使用
 
-これでアプリケーションの開発が完了したため、専用の容量を持つアプリ ワークスペースに戻ります。
+これでアプリケーションの開発が完了したため、専用の容量を持つワークスペースに戻ります。
 
 ### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
 
-専用の容量を作成することで、アプリ ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 ページ分割されたレポートの場合は、少なくとも P1 容量を使用してアプリ ワークスペースをバックアップする必要があります。 [Power BI Premium](../service-premium-what-is.md) を使用して、専用の容量を作成できます。
+専用の容量を作成することで、ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 ページ分割されたレポートの場合は、少なくとも P1 容量を使用してワークスペースをバックアップする必要があります。 [Power BI Premium](../service-premium-what-is.md) を使用して、専用の容量を作成できます。
 
 次の表は、[Microsoft Office 365](../service-admin-premium-purchase.md) で利用可能な Power BI Premium SKU の一覧です。
 
@@ -399,9 +398,9 @@ function updateEmbedReport() {
 > - Microsoft Office アプリで埋め込もうとしている場合は、EM SKU を使用して、無料の Power BI ライセンスでコンテンツにアクセスできます。 しかし、Powerbi.com または Power BI Mobile を使用する場合、無料の Power BI ライセンスでコンテンツにアクセスすることはできません。
 > - Powerbi.com または Power BI Mobile を使用して、Microsoft Office アプリで埋め込もうとしている場合は、無料の Power BI ライセンスでコンテンツにアクセスできます。
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>専用の容量にアプリ ワークスペースを割り当てる
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>専用の容量にワークスペースを割り当てる
 
-専用の容量を作成した後、アプリ ワークスペースをその専用の容量に割り当てることができます。 このプロセスを完了するには、次の手順に従います。
+専用の容量を作成した後、ワークスペースをその専用の容量に割り当てることができます。 このプロセスを完了するには、次の手順に従います。
 
 1. Power BI サービス内でワークスペースを展開し、コンテンツを埋め込むために使用しているワークスペースの省略記号を選択します。 次に、 **[Edit workspaces]\(ワークスペースの編集\)** を選択します。
 
@@ -411,9 +410,9 @@ function updateEmbedReport() {
 
     ![専用の容量を割り当てる](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. **[保存]** を選択した後、アプリ ワークスペース名の横にひし形が表示されます。
+3. **[保存]** を選択すると、ワークスペース名の横にひし形が表示されます。
 
-    ![容量に関連付けられたアプリ ワークスペース](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![容量に関連付けられたワークスペース](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>管理の設定
 
@@ -429,4 +428,4 @@ function updateEmbedReport() {
 > [!div class="nextstepaction"]
 >[顧客向けに埋め込む](embed-sample-for-customers.md)
 
-さらに質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+さらに質問がある場合は、[Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

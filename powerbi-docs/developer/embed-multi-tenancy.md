@@ -3,18 +3,17 @@ title: Power BI の埋め込み分析でマルチテナントを管理する
 description: 埋め込み分析でマルチテナント アプリケーションを設計します。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 3940f677cadc5844cfac9c32781a5586bde0607a
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 0456e1e56db3e291f359f266b1ac12073fb747da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621293"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864426"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI の埋め込み分析でマルチテナントを管理する
 
@@ -37,7 +36,7 @@ Power BI Embedded では、テナント間の分離を維持するための基�
 
 **テナント** – SaaS アプリケーションと、SaaS アプリケーションに自分で格納したリソースやデータを使用する、単一の顧客 (組織)。
 
-**[Power BI](../power-bi-overview.md)** - Power BI Embedded のプラットフォームとして機能する Power BI クラウド サービス。
+**[Power BI](../fundamentals/power-bi-overview.md)** - Power BI Embedded のプラットフォームとして機能する Power BI クラウド サービス。
 
 **Power BI テナント** - 単一の AAD テナントに関連付けられている Power BI リソースのセット。
 
@@ -55,7 +54,7 @@ Power BI Embedded では、テナント間の分離を維持するための基�
 
 **容量** - Power BI サービス実行専用のリソースのセット。 [Power BI Premium 容量](../service-premium-what-is.md)は Power BI を社内で使用する企業を対象としたものですが、[Power BI Embedded 容量](azure-pbie-create-capacity.md)はサード パーティ向けの SaaS アプリケーションを開発するアプリケーション開発者を対象としています。
 
-**[Power BI Pro ライセンス](../service-admin-purchasing-power-bi-pro.md)** - ユーザー ベースのライセンスであり、アプリ ワークスペースへのコンテンツの発行、Premium 容量なしでのアプリの利用、ダッシュボードの共有、ダッシュボードおよびレポートのサブスクライブを行う権限が付与されます。
+**[Power BI Pro ライセンス](../service-admin-purchasing-power-bi-pro.md)** - ユーザーベースのライセンスであり、ワークスペースへのコンテンツの発行、Premium 容量なしでのアプリの利用、ダッシュボードの共有、ダッシュボードおよびレポートのサブスクライブを行う権限が付与されます。
 
 **[データ接続モード](../desktop-directquery-about.md)** - 異なるモードで Power BI にデータ ソースを接続できます。
 

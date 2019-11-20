@@ -2,7 +2,6 @@
 title: Power BI Desktop ビジュアルでのデータの確認とレコードの確認
 description: Power BI Desktop のデータの確認機能とレコードの確認機能を使用して、詳細情報にドリルダウンします
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514765"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877781"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Power BI Desktop のデータの確認とレコードの確認を使用する
 **Power BI Desktop** では、視覚エフェクトの詳細にドリルダウンして、基になるデータのテキスト表現または選択したビジュアルの個々のデータ レコードを見ることができます。 これらの機能は、"*クリックスルー*"、"*ドリルスルー*"、"*詳細情報へのドリルスルー*" などとも呼ばれます。
@@ -41,7 +40,7 @@ ms.locfileid: "65514765"
 
 ![リボンの [データの確認]](media/desktop-see-data-see-records/see-data1.png)
 
-データは、視覚エフェクトを右クリックし、表示されるメニューから **[データの表示]** を選択するか、視覚エフェクトの右上隅で **その他のオプション**の省略記号 (...) を選択し、 **[データの表示]** を選択することでも表示できます。
+データは、ビジュアルを右クリックし、表示されるメニューから **[データの表示]** を選択するか、ビジュアルの右上隅で**その他のオプション** (...) を選択し、 **[データの表示]** を選択することでも表示できます。
 
 ![右クリックの [データの表示]](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![その他のオプションの [データの表示]](media/desktop-see-data-see-records/see-data3.png)
 

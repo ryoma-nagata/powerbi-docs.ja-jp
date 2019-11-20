@@ -3,30 +3,29 @@ title: Power BI サービスおよび Power BI Desktop でのレポートの視�
 description: Microsoft Power BI でのレポートの視覚エフェクト (ビジュアル) の概要
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/01/2019
+ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91ae7fbbba8b9ba63e8b429c8b2ef3a3adb1c95e
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307155"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099095"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI レポートでの視覚エフェクト
 
 視覚エフェクト (略してビジュアルとも呼ばれる) には、データ内で検出された分析情報が表示されます。 Power BI レポートは、ビジュアルが 1 つ使用された単一のページのこともあれば、ビジュアルが多数含まれる複数ページから成ることもあります。 Power BI サービスでは、ビジュアルを[レポートからダッシュボードにピン留め](../service-dashboard-pin-tile-from-report.md)することができます。
 
-レポートの "*デザイナー*" とレポートの "*コンシューマー*" とを区別することは重要です。  レポートのビルドまたは修正を行うのであれば、デザイナーということになります。  デザイナーには、レポートとその基になるデータセットに対して編集のためのアクセス許可が付与されます。 これは、Power BI Desktop では、データ ビューでデータセットを開き、レポート ビューでビジュアルを作成できることを意味し、 Power BI サービスでは、レポート エディターの[編集ビュー](../consumer/end-user-reading-view.md)で、データセットまたはレポートを開くことができることを意味します。 自分がレポートまたはダッシュボードの[共有相手](../consumer/end-user-shared-with-me.md)である場合は、レポート **コンシューマー**となります。 レポートとそのビジュアルを表示および操作することはできますが、大幅な変更内容を保存することはできません。
+レポートの "*デザイナー*" とレポートの "*コンシューマー*" とを区別することは重要です。  レポートのビルドまたは修正を行うのであれば、デザイナーということになります。  デザイナーには、レポートとその基になるデータセットに対して編集のためのアクセス許可が付与されます。 これは、Power BI Desktop では、データ ビューでデータセットを開き、レポート ビューでビジュアルを作成できることを意味し、 Power BI サービスでは、レポート エディターの[編集ビュー](../consumer/end-user-reading-view.md)で、データセットまたはレポートを開くことができることを意味します。 自分がレポートまたはダッシュボードの[共有相手](../consumer/end-user-shared-with-me.md)である場合は、レポート *コンシューマー*となります。 レポートとそのビジュアルを表示および操作することはできますが、"*デザイナー*" ほど多くの変更をすることはできません。
 
-さまざまな種類のビジュアルが Power BI の [視覚化] ウィンドウから直接使用できます。
+さまざまな種類のビジュアルを Power BI の [Visualizations]\(ビジュアル\) ペインで直接使用できます。
 
-![](media/power-bi-report-visualizations/power-bi-templates.png)
+![各ビジュアルの種類のアイコンがあるペイン](media/power-bi-report-visualizations/power-bi-icons.png)
 
 さらに多くの選択肢については、[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)にアクセスし、Microsoft およびコミュニティによって提供されている[カスタム ビジュアル](../developer/visuals/custom-visual-develop-tutorial.md)を見つけて[ダウンロード](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)してください。
 
@@ -49,7 +48,7 @@ Power BI を初めて使用する場合や、復習したい場合は、以下�
 
 ![[視覚化] ウィンドウへのピン留め](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
 
-ビジュアルがピン留めされると上に移動し、他の組み込みのビジュアルとともにライブになります。 このビジュアルは、サインインしているアカウントに関連付けられます。そのため、ビルドした新しいレポートではすべて、サインインしていることを推定の上で、このビジュアルが自動的に含まれます。 これにより、特定のビジュアルを 1 つ 1 つのレポートに追加することなく標準化するのが非常に簡単になります。
+ビジュアルがピン留めされると上に移動し、他の組み込みのビジュアルとともにライブになります。 このビジュアルは、サインインしているアカウントに関連付けられます。そのため、ビルドするすべての新しいレポートで、サインインしているという想定で、このビジュアルが自動的に含められます。 これにより、特定のビジュアルを 1 つ 1 つのレポートに追加することなく標準化するのが非常に簡単になります。
 
 ![個人設定された [視覚化] ウィンドウ](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 
@@ -71,4 +70,4 @@ Power BI サービスでは、希望する視覚エフェクトができたら�
 ## <a name="next-steps"></a>次の手順
 
 * [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [カスタム ビジュアル](../power-bi-custom-visuals.md)
+* [カスタム ビジュアル](../developer/power-bi-custom-visuals.md)

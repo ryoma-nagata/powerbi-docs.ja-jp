@@ -3,20 +3,19 @@ title: ダッシュボードとレポートの利用状況の指標を監視す�
 description: Power BI のダッシュボードとレポートの利用状況の指標を表示、保存、使用する方法。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530549"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871206"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポートの利用状況の指標を監視する
 
@@ -86,7 +85,7 @@ ms.locfileid: "69530549"
 
 | 指標 | ダッシュボード | レポート | 説明 |
 | --- | --- | --- | --- |
-| Distribution method slicer (配布メソッド スライサー) |はい |はい |どのようにユーザーがコンテンツにアクセスしたか。 3 つの使用可能な方法があります。ユーザーは[アプリ ワークスペース](consumer/end-user-experience.md)のメンバーになることによって、コンテンツを[共有する](service-share-dashboards.md)ことによって、またはコンテンツ パック/アプリをインストールすることによって、ダッシュボードまたはレポートにアクセスすることができます。  アプリを介した表示は、"コンテンツ パック" としてカウントされます。 |
+| Distribution method slicer (配布メソッド スライサー) |はい |はい |どのようにユーザーがコンテンツにアクセスしたか。 3 つの使用可能な方法があります。ユーザーは[ワークスペース](consumer/end-user-experience.md)のメンバーになることによって、コンテンツを[共有する](service-share-dashboards.md)ことによって、またはコンテンツ パック/アプリをインストールすることによって、ダッシュボードまたはレポートにアクセスすることができます。  アプリを介した表示は、"コンテンツ パック" としてカウントされます。 |
 | Platforms slicer (プラットフォーム スライサー) |はい |はい |ダッシュボードまたはレポートに Power BI サービス (powerbi.com) またはモバイル デバイスを使用してアクセスしましたか。 モバイルには、すべての iOS、Android、および Windows アプリが含まれています。 |
 | レポート ページ スライサー |いいえ |はい |レポートに複数のページがある場合、表示したページごとにレポートをスライスします。 "Blank (空)" にリスト オプションが表示された場合、レポート ページが最近追加されたか (24 時間以内に新しいページの実際の名前がスライサー リストに表示されます)、削除されています。 "Blank" とはそのような状況を表現します。 |
 | Views per day (1 日あたりの表示) |はい |はい |1 日の表示の合計数 ‐ 表示はユーザーによるレポート ページまたはダッシュボードの読み込みとして定義されます。 |
@@ -152,11 +151,18 @@ Power BI は別個の国内クラウドで利用できます。 これらのク�
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
+### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>監査ログと利用状況の指標の違い
+
 利用状況の指標と監査ログを比較したときに違いが生じる可能性があること、またその理由について理解することが重要です。 "*監査ログ*" は Power BI サービスからのデータを使用して収集され、"*利用状況の指標*" はクライアント上で収集されます。 次の理由により、監査ログ内のアクティビティの集計カウントが利用状況の指標と一致しない場合があります。
 
 * 一貫性のないネットワーク接続やアド ブロッカー、またはクライアントからのイベントの送信を妨害する可能性があるその他の問題が原因で、利用状況の指標がアクティビティを少なくカウントする場合があります。
 * この記事で前述したように、特定の種類のビューは利用状況の指標に含まれません。
 * Power BI サービスに要求を送り返すことなくクライアントが更新を行う状況では、利用状況の指標がアクティビティを多くカウントする場合があります。
+
+### <a name="other-considerations"></a>その他の注意事項
+
+ワークスペース内のコンテンツは、そのワークスペース内から少なくとも 1 回は表示する必要があります。 そのワークスペース自体から一度もコンテンツが表示されないと、"利用状況の指標に関するレポート" のアプリケーション ビューからデータが関連付けられません。 このレポートに使用されるデータの処理のブロックを解除するには、ご利用のワークスペースから少なくとも 1 回はコンテンツを表示してください。
+
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
@@ -188,4 +194,4 @@ Power BI は別個の国内クラウドで利用できます。 これらのク�
 
 [管理ポータルでの Power BI の管理](service-admin-portal.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

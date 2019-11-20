@@ -2,7 +2,6 @@
 title: ワークスペース全体のデータセットの概要 (プレビュー)
 description: 組織全体でユーザーとデータセットを共有する方法について説明します。 これで、各自のワークスペースのデータセットに基づいてレポートを作成できます。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020775"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877193"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>ワークスペース全体のデータセットの概要 (プレビュー)
 
@@ -62,7 +61,7 @@ Power BI では、データセットの作成者は、[ビルド アクセス許
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
-- アプリの発行元は、対象ユーザーがアプリ ワークスペースの外部にあるデータセットにアクセスできることを確認する必要があります。 それ以外の場合は、ユーザーはアプリとやりとりするときに問題が発生します。データセットへのアクセス権がないとレポートは開かず、ダッシュボード タイルはロック済みとして表示されます。 また、ナビゲーションの最初の項目がデータセットへのアクセス権がないレポートである場合、ユーザーはアプリを開くことができません。
+- アプリの発行元は、対象ユーザーがワークスペースの外部にあるデータセットにアクセスできることを確認する必要があります。 それ以外の場合は、ユーザーはアプリとやりとりするときに問題が発生します。データセットへのアクセス権がないとレポートは開かず、ダッシュボード タイルはロック済みとして表示されます。 また、ナビゲーションの最初の項目がデータセットへのアクセス権がないレポートである場合、ユーザーはアプリを開くことができません。
 - 異なるワークスペースのデータセットに基づいてレポートを構築するには、両端に新しいワークスペース エクスペリエンスが必要になります。レポートを 1 つの新しいワークスペース エクスペリエンスに置き、データセットを 1 つの新しいワークスペース エクスペリエンスに置きます。
 - 従来のワークスペースの場合、データセットを検出すると、そのワークスペースにあるデータセットのみが表示されます。
 - 設計上、共有データセットに基づくレポートに対しては、"Web に公開" は機能しません。
@@ -73,4 +72,4 @@ Power BI では、データセットの作成者は、[ビルド アクセス許
 - [データセットを推奨する](service-datasets-promote.md)
 - [データセットを認定する](service-datasets-certify.md)
 - [ワークスペース全体でデータセットの使用を制御する](service-datasets-admin-across-workspaces.md)
-- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

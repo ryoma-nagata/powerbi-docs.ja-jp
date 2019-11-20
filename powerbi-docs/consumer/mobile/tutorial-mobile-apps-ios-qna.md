@@ -2,19 +2,18 @@
 title: チュートリアル:iOS アプリの Q&A 仮想アナリストで質問する
 description: このチュートリアルでは、iOS デバイス上の Power BI モバイル アプリで Q&A 仮想アナリストを使用して、自分の言葉でサンプル データについて質問します。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337769"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869652"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>チュートリアル:Power BI iOS アプリの Q&A 仮想アナリストでデータについて質問する
 
@@ -42,7 +41,7 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 ## <a name="prerequisites"></a>前提条件
 
 ### <a name="install-the-power-bi-for-ios-app"></a>Power BI for iOS アプリをインストールする
-Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone アプリをダウンロード")します。
+Apple App Store から iPad、iPhone、iPod Touch に [iOS アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkId=522062 "iPhone アプリのダウンロード")します。
 
 次のバージョンが Power BI for iOS アプリをサポートしています。
 - iOS 10 以降の iPad。
@@ -54,11 +53,11 @@ Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリ�
 
 1. ブラウザーで Power BI サービスを開き (app.powerbi.com)、サインインします。
 
-1. グローバル ナビゲーション アイコンを選んで左側のナビゲーションを開きます。
+1. グローバル ナビゲーション アイコンを選んでナビ ペインを開きます。
 
     ![グローバル ナビゲーション アイコン](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 左側のナビゲーション ウィンドウで、 **[ワークスペース]**  >  **[マイ ワークスペース]** を選びます。
+2. ナビ ペインで、 **[ワークスペース]**  >  **[マイ ワークスペース]** の順に選択します。
 
     ![マイ ワークスペース](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -117,7 +116,7 @@ Apple App Store から iPad、iPhone、または iPod Touch に [iOS アプリ�
 
 1. Power BI サービス (app.powerbi.com) を開いてサインインします。
 
-2. 左側のナビゲーション ウィンドウで、 **[ワークスペース]**  >  **[マイ ワークスペース]** を選びます。
+2. ナビ ペインで、 **[ワークスペース]**  >  **[マイ ワークスペース]** の順に選択します。
 
 3. **[ダッシュ ボード]** タブで、営業案件の分析のダッシュ ボードの横にあるゴミ箱の **[削除]** アイコンを選びます。
 

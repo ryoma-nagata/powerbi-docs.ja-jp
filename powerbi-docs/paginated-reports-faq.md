@@ -3,24 +3,23 @@ title: Power BI のページ分割されたレポート:よく寄せられる質
 description: この記事では、ページ分割されたレポートについてよく寄せられる質問に答えます。 これらのレポートは、印刷や PDF 生成用に最適化されている、高度に書式設定されたピクセル単位で完璧な出力です。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/04/2019
-ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968490"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874798"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI のページ分割されたレポート:よく寄せられる質問 
 
 この記事では、ページ分割されたレポートについてよく寄せられる質問に答えます。 これらのレポートは、印刷や PDF 生成用に最適化されている、高度に書式設定されたピクセル単位で完璧な出力です。 これらは、複数のページにちょうど収まるように設定されているため "ページ分割された" と呼ばれます。 ページ分割されたレポートは、SQL Server Reporting Services の RDL レポート テクノロジに基づいています。 
 
-この記事では、Power BI Premium でのページ分割されたレポート、およびページ分割されたレポートを作成するためのスタンドアロン ツールであるレポート ビルダーに関する多くの一般的な質問に回答します。 サービスにレポートを発行するには、Power BI Pro ライセンスが必要です。 ワークスペースが Power BI Premium 容量に存在する限り、マイ ワークスペースまたはアプリ ワークスペースにページ分割されたレポートを発行して共有できます。 
+この記事では、Power BI Premium でのページ分割されたレポート、およびページ分割されたレポートを作成するためのスタンドアロン ツールであるレポート ビルダーに関する多くの一般的な質問に回答します。 サービスにレポートを発行するには、Power BI Pro ライセンスが必要です。 ワークスペースが Power BI Premium 容量に存在する限り、マイ ワークスペースまたはワークスペースにページ分割されたレポートを発行して共有できます。 
 
 ## <a name="administration"></a>管理
 
@@ -163,7 +162,7 @@ Microsoft Excel、Microsoft Word、Microsoft PowerPoint、PDF、.CSV、XML、MHT
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Power BI Embedded を使用して、自分がホストしているアプリにページ分割されたレポートを埋め込むことはできますか。
 
-SaaS 埋め込みは既にサポートされています。 PaaS 埋め込みは現在サポートされていません。
+SaaS 埋め込み (Secure Embed のサポートを含む) は既に利用できます。  PaaS 埋め込みは、年内のサポートを予定しています。
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Power BI レポートからページ分割されたレポートにドリルスルーできますか。
 
@@ -179,7 +178,7 @@ SaaS 埋め込みは既にサポートされています。 PaaS 埋め込みは
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>SSRS の顧客が Power BI に既存のレポートと資産を移動できる移行ツールは計画されていますか。
 
-Power BI にコンテンツを移動するとき、自動化を取り入れるべく、Microsoft はさまざまな選択肢を検討しています。ただし、これは GA まで利用できません。
+現在 GitHub のプロジェクトが、SQL Server Reporting Services から Power BI へのコンテンツの移行に対応しています。  こちら ([https://github.com/microsoft/RdlMigration](https://github.com/microsoft/RdlMigration)) でツールの詳細を確認し、ダウンロードしてください。
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスにはページ分割されたレポート用のレポート ビューアー コントロールがありますか。
 

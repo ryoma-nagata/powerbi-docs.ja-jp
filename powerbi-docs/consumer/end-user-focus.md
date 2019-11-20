@@ -2,7 +2,6 @@
 title: フォーカス モードと全画面表示モード - 拡大して詳細を表示する方法
 description: フォーカス モードまたは全画面表示モードでの Power BI のダッシュボード、ダッシュボード タイル、レポート、またはレポートのビジュアルの表示について説明しているドキュメントです
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327794"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852740"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>コンテンツを詳細に表示する: フォーカス モードと全画面表示モード
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ ms.locfileid: "71327794"
 
 ![ダッシュボードの全画面表示モードの前後](media/end-user-focus/power-bi-dashboards-focus.png)
 
-メニューやナビゲーション バーを表示せずに、Power BI サービスのコンテンツ (ダッシュボード、レポート ページ、タイル、ビジュアル) を表示します。  いつでもひと目でコンテンツの全体図のみを把握できます。 このモードはテレビ モードとも呼ばれます。   
+メニューやナビ ペインを表示せずに、Power BI サービスのコンテンツ (ダッシュボード、レポート ページ、タイル、ビジュアル) を表示します。  いつでもひと目でコンテンツの全体図のみを把握できます。 このモードはテレビ モードとも呼ばれます。   
 
 全画面表示モードを開くには、フォーカス モードのダッシュボード、レポート、タイル、ビジュアルの上部にある Power BI サービスのメニュー バーで**全画面表示**アイコン ![全画面表示アイコン](media/end-user-focus/power-bi-full-screen-icon.png) を選択します。  選択したコンテンツが画面全体に表示されます。
 Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile アプリで使用できます](./mobile/mobile-windows-10-app-presentation-mode.md)。 
@@ -58,7 +59,7 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
 
 ## <a name="working-in-full-screen-mode"></a>全画面表示モードでの操作
 
-ダッシュボードまたはレポートのページを全画面表示モードで開くには、全画面表示アイコンを選択します ![全画面表示アイコン](media/end-user-focus/power-bi-full-screen-icon.png) (上部のナビゲーション バー)。 全画面表示モードにした後は、マウスまたはカーソルを移動するとコンテキスト メニューが表示されます。 全画面表示はさまざまなコンテンツで使用できるので、コンテキスト メニューのオプションはそれぞれで少し異なりますが、それ自体でよくわかるようになっています。  アイコンをポイントすると定義が表示されます。
+ダッシュボードまたはレポートのページを全画面表示モードで開くには、全画面表示アイコンを選択します ![全画面表示アイコン](media/end-user-focus/power-bi-full-screen-icon.png) (上部のナビ ペインから選択します)。 全画面表示モードにした後は、マウスまたはカーソルを移動するとコンテキスト メニューが表示されます。 全画面表示はさまざまなコンテンツで使用できるので、コンテキスト メニューのオプションはそれぞれで少し異なりますが、それ自体でよくわかるようになっています。  アイコンをポイントすると定義が表示されます。
 
 ダッシュボードのメニュー    
 ![ダッシュボードのメニュー](media/end-user-focus/power-bi-full-screen-dash.png)    
@@ -97,11 +98,11 @@ Power BI Mobile を使用している場合、[全画面は Windows 10 Mobile �
 
 1. Power BI サービスでダッシュボードを開きます。
 
-2. ダッシュボードのタイルまたはレポートのビジュアルをポイントし、省略記号 [...] を選択して、 **[フォーカス モードで開く]** を選択します。
+2. ダッシュボードのタイルまたはレポートのビジュアルをポイントし、**その他のオプション** (...) を選択して、 **[フォーカス モードで開く]** を選択します。
 
     ![タイルの省略記号メニュー](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. タイルが開き、レポート キャンバス全体に拡張されます。 **[フィルター]** ウィンドウが残るため、そこでビジュアルを操作できることにご注目ください。 **[フィルター]** ウィンドウは折りたたむことができます。 
+2. タイルが開き、レポート キャンバス全体に拡張されます。 **[フィルター]** ウィンドウが残るため、そこでビジュアルを操作できることにご注目ください。 **[フィルター]** ウィンドウは折りたたむことができます。
 
    ![タイルをレポート キャンバス全体に拡張する](media/end-user-focus/power-bi-focus-filter.png)
 

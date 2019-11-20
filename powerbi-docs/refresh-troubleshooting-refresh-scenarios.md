@@ -2,7 +2,6 @@
 title: 更新に関するトラブルシューティング シナリオ
 description: 更新に関するトラブルシューティング シナリオ
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,21 +9,27 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d79fc47ff30d7f28827290268ba01edf09643032
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543866"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860490"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>更新に関するトラブルシューティング シナリオ
 
 ここでは、Power BI サービス内のデータを更新するときに直面する可能性のあるさまざまなシナリオに関する情報を提供します。
 
 > [!NOTE]
-> 以下に記載されていないシナリオが発生し、問題を引き起こしている場合は、[コミュニティ サイト](http://community.powerbi.com/)でさらに支援を求めることや、[サポート チケット](https://powerbi.microsoft.com/support/)を作成することができます。
+> 以下に記載されていないシナリオが発生し、問題を引き起こしている場合は、[コミュニティ サイト](https://community.powerbi.com/)でさらに支援を求めることや、[サポート チケット](https://powerbi.microsoft.com/support/)を作成することができます。
 >
 >
+
+## <a name="email-notifications"></a>電子メールによる通知
+
+電子メールによる通知からこの記事にアクセスしている場合で、かつ更新の問題についてのメール通知を今後希望しない場合は、Power BI 管理者にお問い合わせください。受信登録しているメールまたはメール リストを、Power BI 内の適切なデータセットから削除するよう依頼してください。 この設定は、Power BI 管理ポータルの次の領域で行えます。
+
+![更新通知のメール](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>Web コネクタを使用した更新が正常に動作しない
 
@@ -86,5 +91,5 @@ Microsoft は、データの読み込みプロセスでトークンが更新さ�
 - [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
 - [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-他にわからないことがある場合は、 [Microsoft Power BI コミュニティで質問してみる](http://community.powerbi.com/)
+他にわからないことがある場合は、 [Microsoft Power BI コミュニティで質問してみる](https://community.powerbi.com/)
 

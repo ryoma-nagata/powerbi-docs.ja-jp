@@ -3,18 +3,17 @@ title: Power BI Report Server の変更ログ
 description: この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
 ms.author: jaimeta
 author: jtarquino
-manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/09/2019
-ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.date: 10/25/2019
+ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259963"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874272"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -23,15 +22,22 @@ ms.locfileid: "72259963"
 新機能の詳細については、「[Power BI レポート サーバーの新機能](whats-new.md)」を参照してください。 
 
 ## <a name="september-2019"></a>2019 年 9 月
-
 - **Power BI Report Server**
+    - *バージョン:1.6.7236.4246 (ビルド 15.0.1102.646)、リリース日: 2019 年 10 月 25 日*
+        - セキュリティ更新プログラム
+        - バグの修正
+            - .NET Framework 4.7 がインストールされない問題の修正。
+            - 複数値パラメーターを含んだ Teradata のページ分割されたレポートで発生するエラー 110083 の修正。
+            - Web サービスの URL バインディングが複数存在し、なおかつその 1 つが https://+80/reportserver である場合に URLRoot 値が機能しない問題の修正。
+          - ページ分割されたレポートの複数値パラメーターの値がレポート領域をはみ出す問題の修正。
+          
     - *バージョン:1.6.7221.30698 (ビルド 15.0.1102.620)、リリース日:2019 年 10 月 9 日*
         - バグの修正
             - テキスト フィルターのカスタム ビジュアルの修正。
             - ドロップ ダウン スライサーのパフォーマンスの修正。
             - テレメトリからの PII の削除の修正。
           - URL を大文字と小文字を区別しないようにする修正。
-             
+          
     - *バージョン 1.6.7206.38019 (ビルド 15.0.1102.597)、リリース日:2019 年 9 月 26 日*
         - セキュリティ更新プログラム
         - バグの修正
@@ -50,7 +56,10 @@ ms.locfileid: "72259963"
              - Web API: /PowerBIReports({Id})/DataSources (PATCH) を更新し、接続文字列の更新を可能にしました。
          
 - **Power BI Desktop (Power BI Report Server 用に最適化)**
-
+    - *バージョン:2.73.5586.1501 (2019 年 9 月)、リリース日: 2019 年 10 月 25 日*
+        - バグの修正
+            - テレメトリの修正。
+            
     - *バージョン:2.73.5586.1241 (2019 年 9 月)、リリース日:2019 年 10 月 9 日*
         - バグの修正
             - テキスト フィルターのカスタム ビジュアルの修正。
@@ -295,6 +304,6 @@ ms.locfileid: "72259963"
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) のダウンロード](http://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) のダウンロード](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

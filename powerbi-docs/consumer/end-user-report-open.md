@@ -2,21 +2,23 @@
 title: レポートの表示
 description: このトピックによれば、Power BI コンシューマーとエンドユーザーは Power BI レポートを開いて確認する必要がありました。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903812"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861969"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*コンシューマー*向け Power BI サービスでレポートを表示する
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 レポートは、ビジュアルで構成される 1 つまたは複数のページです。 レポートは Power BI "*デザイナー*" によって作成され、["*コンシューマー*" と直接](end-user-shared-with-me.md)、または[アプリ](end-user-apps.md)の一部として共有されます。 
 
 レポートはさまざまな方法で開くことができますが、そのうちの [ホーム] から開く方法とダッシュボードから開く方法の 2 つを説明します。 
@@ -30,11 +32,11 @@ ms.locfileid: "70903812"
    ![ホーム ページ](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>ユーザーと共有されているレポートを開く
-Power BI "*デザイナー*" では、電子メールのリンクを使用したり、自動的に追加したりすることで、個々のレポートを直接共有できます。 この方法で共有されたコンテンツは、ナビゲーション バーの **[自分と共有]** コンテナーとホーム キャンバスの **[自分と共有]** セクションに表示されます。
+Power BI "*デザイナー*" では、電子メールのリンクを使用したり、自動的に追加したりすることで、個々のレポートを直接共有できます。 この方法で共有されたコンテンツは、ナビ ペインの **[自分と共有]** コンテナーとホーム キャンバスの **[自分と共有]** セクションに表示されます。
 
 1. Power BI サービス (app.powerbi.com) を開きます。
 
-2. ナビゲーション バーで、 **[ホーム]** を選択して自分のホーム キャンバスを表示します。  
+2. ナビ ペインで、 **[ホーム]** を選択して自分のホーム キャンバスを表示します。  
 
    ![ホーム キャンバス](./media/end-user-report-open/power-bi-select-home-new.png)
    
@@ -52,7 +54,7 @@ Power BI "*デザイナー*" では、電子メールのリンクを使用した
 
 6. 右側に **[フィルター]** ウィンドウが表示されることに注意してください。 このレポート ページまたはレポート全体に適用されているフィルターが、ここに表示されます。
 
-7. レポートのビジュアルの上にカーソルを置くと、いくつかのアイコンと省略記号 [...] が表示されます。特定のビジュアルに適用されているフィルターを確認するには、[フィルター] アイコンを選択します。 ここでは、*Rolling Period および Region による Total Units* の折れ線グラフのフィルター アイコンを選択しています。
+7. レポートのビジュアルの上にカーソルを置くと、いくつかのアイコンと**その他のオプション** (...) が表示されます。特定のビジュアルに適用されているフィルターを確認するには、[フィルター] アイコンを選択します。 ここでは、*Rolling Period および Region による Total Units* の折れ線グラフのフィルター アイコンを選択しています。
 
    ![レポート ページ タブ](./media/end-user-report-open/power-bi-visual-filters.png)
 
@@ -63,7 +65,7 @@ Power BI "*デザイナー*" では、電子メールのリンクを使用した
    ![ページに合わせる](./media/end-user-report-open/power-bi-actual.png)
 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>アプリの一部となっているレポートを開く
-仕事仲間や AppSource からアプリを受け取っている場合、そのアプリは [ホーム] とナビゲーション バーの **[アプリ]** コンテナーから利用できます。 [アプリ](end-user-apps.md)はダッシュボードとレポートをまとめたものです。
+仕事仲間や AppSource からアプリを受け取っている場合、そのアプリは [ホーム] とナビ ペインの **[アプリ]** コンテナーから利用できます。 [アプリ](end-user-apps.md)はダッシュボードとレポートをまとめたものです。
 
 ### <a name="prerequisites"></a>前提条件
 先に進むには、売上およびマーケティング アプリをダウンロードしてください。
@@ -72,7 +74,7 @@ Power BI "*デザイナー*" では、電子メールのリンクを使用した
 1. **[今すぐ入手する]**  >  **[続行]**  >  **[インストール]** を選択して、アプリ コンテナーにアプリをインストールします。 
 
 アプリ コンテナーまたはホームからアプリを開くことができます。
-1. ナビゲーション バーから **[ホーム]** を選択して、[ホーム] に戻ります。
+1. ナビ ペインから **[ホーム]** を選択して、[ホーム] に戻ります。
 
 7. **[マイ アプリ]** が表示されるまで下方向にスクロールします。
 
@@ -98,10 +100,11 @@ Power BI "*デザイナー*" では、電子メールのリンクを使用した
 
 ##  <a name="still-more-ways-to-open-a-report"></a>レポートを開く他の方法
 Power BI サービスのナビゲーションに慣れてくると、最適なワークフローを見つけ出すことができます。 レポートにアクセスする他の方法をいくつか以下に示します。
-- ナビゲーション ウィンドウで **[お気に入り]** と **[最近]** を使用する    
+- ナビ ペインで **[お気に入り]** と **[最近]** を使用する    
 - [[関連の表示]](end-user-related.md) を使用する    
 - メールで (他のユーザーに[共有してもらう](../service-share-reports.md)場合、または自分で[アラートを設定する](end-user-alerts.md)場合)    
 - [通知センター](end-user-notification-center.md)から    
+- ワークスペースから
 - その他
 
 ## <a name="next-steps"></a>次の手順

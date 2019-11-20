@@ -2,7 +2,6 @@
 title: Power BI サービスの概要
 description: Power BI オンライン サービスの概要 (app.powerbi.com)
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,15 +9,15 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751028"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872326"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>チュートリアル:Power BI サービスの概要
-このチュートリアルでは、*Power BI サービス*の一部の機能について説明します。 ここでは、データに接続し、レポートとダッシュボードを作成して、データに関する質問をします。 Power BI サービスでは、さらに多くのことを行うことができます。このチュートリアルは、単にみなさんの興味をかき立てることを目的としています。 Power BI サービスと他の Power BI 製品の関係を理解するため、「[Power BI とは?](power-bi-overview.md)」を読むことをお勧めします。
+このチュートリアルでは、*Power BI サービス*の一部の機能について説明します。 ここでは、データに接続し、レポートとダッシュボードを作成して、データに関する質問をします。 Power BI サービスでは、さらに多くのことを行うことができます。このチュートリアルは、単にみなさんの興味をかき立てることを目的としています。 Power BI サービスと他の Power BI 製品の関係を理解するため、「[Power BI とは?](fundamentals/power-bi-overview.md)」を読むことをお勧めします。
 
 ![Power BI サービス ホーム](media/service-get-started/power-bi-service-get-started-home.png)
 
@@ -35,7 +34,7 @@ ms.locfileid: "70751028"
 > * データセット、レポート、ダッシュボードを削除してリソースをクリーンアップします。
 
 > [!TIP]
-> 自分のペースで進められる無料のトレーニング コースを代わりに選択しますか? [EdX の Analyzing and Visualizing Data (データの分析と視覚化) コースに登録](http://aka.ms/edxpbi)してください。
+> 自分のペースで進められる無料のトレーニング コースを代わりに選択しますか? [EdX の Analyzing and Visualizing Data (データの分析と視覚化) コースに登録](https://aka.ms/edxpbi)してください。
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI サービスにサインアップする
 Power BI アカウントがない場合は、始める前に[無料の Power BI Pro 試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
@@ -46,10 +45,10 @@ Power BI アカウントがない場合は、始める前に[無料の Power BI 
 
 Power BI レポートを作成するときには、多くの場合、Power BI Desktop から開始します。 今回は、Power BI サービスでレポートの作成を最初から開始します。
 
-このチュートリアルでは、CSV ファイルからデータを取得します。 どうしたらよいでしょうか? [財務サンプル CSV ファイルのダウンロード](http://go.microsoft.com/fwlink/?LinkID=521962)
+このチュートリアルでは、CSV ファイルからデータを取得します。 どうしたらよいでしょうか? [財務サンプル CSV ファイルのダウンロード](https://go.microsoft.com/fwlink/?LinkID=521962)
 
-1. [Power BI にサインイン](http://www.powerbi.com/)します。 アカウントをお持ちではありませんか。 心配はご無用です。無料の試用版にご登録いただけます。
-2. Power BI がブラウザーで開きます。 左ナビゲーション バーの下部にある **[データの取得]** を選択します。
+1. [Power BI にサインイン](https://www.powerbi.com/)します。 アカウントをお持ちではありませんか。 心配はご無用です。無料の試用版にご登録いただけます。
+2. Power BI がブラウザーで開きます。 ナビ ペインの下部にある **[データの取得]** を選択します。
 
     **[データの取得]** ページが開きます。   
 
@@ -73,7 +72,7 @@ Power BI レポートを作成するときには、多くの場合、Power BI De
 
     ![空のレポート キャンバス](media/service-get-started/power-bi-service-blank-report.png)
 
-7. 上部のナビゲーション バーに **[読み取りビュー]** のオプションがあることに注意してください。 このオプションがあるということは、現在編集ビューになっていることを意味します。 レポート エディターについて詳しく理解するには、[用意されているツアー](service-the-report-editor-take-a-tour.md)をご覧ください。
+7. 上部のナビ ペインに **[読み取りビュー]** のオプションがあることに注意してください。 このオプションがあるということは、現在編集ビューになっていることを意味します。 レポート エディターについて詳しく理解するには、[用意されているツアー](service-the-report-editor-take-a-tour.md)をご覧ください。
 
     ![[読み取りビュー] オプション](media/service-get-started/power-bi-service-reading-view.png)
 
@@ -115,13 +114,13 @@ Power BI レポートを作成するときには、多くの場合、Power BI De
    
 8. ダッシュボード上の新しいタイルを選択すると、レポートに戻ることができます。 Power BI の表示が閲覧表示のレポートに戻ります。 
 
-1. 編集表示に戻るには、上部のナビゲーションバーにある省略記号 [...] を選択し、 **[編集]** を選択します。 編集表示に戻ると、タイルの探索とピン留めを続けることができます。
+1. 編集表示に戻るには、上部のナビ ペインにある**その他のオプション** (...) を選択し、 **[編集]** を選択します。 編集表示に戻ると、タイルの探索とピン留めを続けることができます。
 
     ![[編集] を選択してレポートを編集する](media/service-get-started/power-bi-service-edit-report.png)
 
 ## <a name="step-3-explore-with-qa"></a>手順 3:Q&A で探索する
 
-データのクイック探索については、Q&A の質問ボックスで質問してください。 Q&A により、データに関する自然言語のクエリが作成されます。 Q&A ボックスは、ダッシュボードでは一番上にあります (**データについて質問する**)。 レポートでは、上部のナビゲーション バーにあります (**質問する**)。
+データのクイック探索については、Q&A の質問ボックスで質問してください。 Q&A により、データに関する自然言語のクエリが作成されます。 Q&A ボックスは、ダッシュボードでは一番上にあります (**データについて質問する**)。 レポートでは、上部のナビ ペインにあります (**質問する**)。
 
 1. ダッシュボードに戻るには、黒い **Power BI** バーで **[マイ ワークスペース]** を選択します。
 
@@ -198,9 +197,9 @@ Power BI レポートを作成するときには、多くの場合、Power BI De
 ## <a name="clean-up-resources"></a>リソースをクリーンアップする
 チュートリアルはこれで完了です。データセット、レポート、ダッシュボードは削除してかまいません。 
 
-1. 左側のナビゲーション バーで、 **[マイ ワークスペース]** が選択されていることを確認します。
+1. ナビ ペインで、 **[マイ ワークスペース]** が選択されていることを確認します。
 2. **[データセット]** タブを選択し、このチュートリアルのためにインポートしたデータセットを検索します。  
-3. 省略記号 [...]、 **[削除]** の順に選択します。
+3. **その他のオプション** (...) を選択し、 **[削除]** を選択します。
 
     ![データセットを削除する](media/service-get-started/power-bi-service-delete-dataset.png)
 

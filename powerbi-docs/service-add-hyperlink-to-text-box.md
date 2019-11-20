@@ -2,7 +2,6 @@
 title: レポートのテキスト ボックスへのハイパーリンクの追加
 description: Power BI Desktop と Power BI サービスでテキスト ボックスにハイパーリンクを追加する
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,22 +10,22 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ceb1749fcbf78ac844ca1c6e4b3f08a6f4c5d3f
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832406"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873790"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>レポートのテキスト ボックスへのハイパーリンクの追加
 Power BI Desktop または Power BI サービスでレポートにテキスト ボックスを追加できます。 テキスト ボックスをレポートからダッシュボードにピン留めしたり、ダッシュボードに直接追加したりすることができます。 ハイパーリンクは、テキスト ボックスの配置場所にかかわらず、常に追加することができます。 この記事では、レポートのテキスト ボックスにハイパーリンクを追加する方法について説明します。 
 
 
-Will Thompson がテキスト ボックスを作成し、それにハイパーリンクを追加する様子をご覧ください。 
+Will Thompson がテキスト ボックスを作成し、それにハイパーリンクを追加するようすをご覧ください。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew#t=0m55s" frameborder="0" allowfullscreen></iframe>
 
-Power BI のテーブルとマトリックス内のハイパーリンクの詳細については、「[テーブルにハイパーリンクを追加する](power-bi-hyperlinks-in-tables.md)」を参照してください。 ダッシュボードにテキスト ボックスを追加する方法については、「[画像、テキスト、ビデオ、その他をダッシュボードに追加する](service-dashboard-add-widget.md)」を参照してください。 
+Power BI のテーブルとマトリックス内のハイパーリンクの詳細については、[テーブルにハイパーリンクを追加する](power-bi-hyperlinks-in-tables.md)方法に関するページを参照してください。 ダッシュボードにテキスト ボックスを追加する方法については、「[画像やビデオなどをダッシュボードに追加する](service-dashboard-add-widget.md)」を参照してください。 
 
 ## <a name="to-add-a-hyperlink-to-a-text-box"></a>テキスト ボックスにハイパーリンクを追加するには
 1. レポートを開き、[テキスト ボックスを作成](power-bi-reports-add-text-and-shapes.md)して、テキストを追加します。 
@@ -35,7 +34,7 @@ Power BI のテーブルとマトリックス内のハイパーリンクの詳�
    テキスト ボックスのメニューが表示されます。
    
    ![テキスト ボックスでテキストを選択する](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
-3. ハイパーリンク アイコンを選択する ![ハイパーリンク アイコン](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png) テキスト ボックスのメニュー。
+3. ハイパーリンク アイコンを選択する ![ハイパーリンク アイコン](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png) (テキスト ボックスのメニュー上)。
 
    テキスト ボックスのメニューにハイパーリンク フィールドが表示されます。
 
@@ -53,7 +52,7 @@ Power BI のテーブルとマトリックス内のハイパーリンクの詳�
    b. ハイパーリンク フィールドで URL を選択して、新しいブラウザー ウィンドウでページを開きます。
 
 ## <a name="to-remove-the-hyperlink"></a>ハイパーリンクを削除するには
-1. テキスト ボックスで、強調表示するハイパーリンクを選択します。
+1. テキスト ボックスで、ハイパーリンクを選択して強調表示します。
    
      ![ハイパーリンクを削除する](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
 2. テキスト ボックスのメニューから **[削除]** を選択します。 
@@ -63,5 +62,5 @@ Power BI のテーブルとマトリックス内のハイパーリンクの詳�
 ## <a name="next-steps"></a>次の手順
 [Power BI レポート内のテキスト ボックスと図形](power-bi-reports-add-text-and-shapes.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

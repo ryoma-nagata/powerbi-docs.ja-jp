@@ -2,7 +2,6 @@
 title: Power BI のサプライヤー クオリティ分析のサンプル:ツアーを開始する
 description: Power BI のサプライヤー クオリティ分析のサンプル:ツアーを開始する
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621312"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858392"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI のサプライヤー クオリティ分析のサンプル:ツアーを開始する
 
@@ -59,11 +58,11 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>このサンプルの .pbix ファイルを取得する
 
-あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)として、サプライヤー クオリティ分析のサンプルをダウンロードすることもできます。
+あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)として、サプライヤー クオリティ分析のサンプルをダウンロードすることもできます。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータ ソースを確認する場合は、[Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529779) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
+このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529779) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
 
 ## <a name="downtime-caused-by-defective-materials"></a>欠陥のある素材によって発生するダウンタイム
 欠陥のある素材に伴うダウンタイムを分析し、責任のあるベンダーを確認してみましょう。  
@@ -94,7 +93,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
     ![[ベンダー別ダウンタイム (分)] ツリーマップ](media/sample-supplier-quality/supplier5.png)  
 
    このツリーマップでは、最上位の 8 つのベンダーが、ツリーマップの左側にある 8 つのブロックで表されています。 また、これらの 8 社がダウンタイム (分) 全体の約 50% を占めていることがわかります。  
-3. 上部のナビゲーション バーで **[サプライヤー クオリティ分析サンプル]** を選んでダッシュボードに戻ります。
+3. 上部のナビ ペインで **[サプライヤー クオリティ分析サンプル]** を選んでダッシュボードに戻ります。
 
 ### <a name="comparing-plants"></a>プラントの比較
 次に、欠陥のある素材の管理体制に優れ、結果的にダウンタイムを削減できたプラントを確認してみましょう。  
@@ -113,7 +112,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 3. バブル チャートで **[ロジスティクス]** バブルを選択し、イリノイ州の Springfield と Naperville のプラントを観察します。 Naperville は受領拒否の件数が多く、Springfield (影響の件数が多い) と比べて影響の件数も少ないことから、欠陥品の管理に大変優れていることが伺えます。  
 
    ![[ロジスティクス] を選択する](media/sample-supplier-quality/supplier8.png)  
-4. 上部のナビゲーション バーで **[サプライヤー クオリティ分析サンプル]** を選んでダッシュボードに戻ります。
+4. 上部のナビ ペインで **[サプライヤー クオリティ分析サンプル]** を選んでダッシュボードに戻ります。
 
 ## <a name="which-material-type-is-best-managed"></a>最も管理の行き届いている素材の種類
 最も管理が行き届いている素材の種類は、欠陥数量に関係なく、ダウンタイムが最短であるか、ダウンタイムにまったく影響のない種類です。
@@ -138,7 +137,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
     ![[月別および年別の欠陥数合計] グラフ](media/sample-supplier-quality/supplier11.png)  
 3. 欠陥が増えるとダウンタイムも増えるのでしょうか? 質問を [Q&A] ボックスに入力し、答えを見つけてください。  
-4. 上部のナビゲーション バーで **[サプライヤー クオリティ分析サンプル]** を選んでダッシュボードに戻ります。  
+4. 上部のナビ ペインで **[サプライヤー クオリティ分析サンプル]** を選んでダッシュボードに戻ります。  
 5. [Raw Materials]\(原材料\) の欠陥数が最も多いため、質問ボックスに「*show material types, year and total defect qty*」 (素材の種類、年、欠陥数量合計を表示) と入力します。  
 
     原材料欠陥数は 2013 年より 2014 年の方が増えています。  

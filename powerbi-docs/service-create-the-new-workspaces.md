@@ -2,7 +2,6 @@
 title: 新しいワークスペースを作成する - Power BI
 description: 組織に主要な指標を提供するために作成されたダッシュボード、レポート、およびページ分割されたレポートのコレクションである、新しいワークスペースを作成する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020187"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877512"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI で新しいワークスペースを作成する
 
@@ -74,7 +73,7 @@ Power BI では、新しいワークスペース エクスペリエンスが導�
 
     最初に作成するときに **[ワークスペースの作成]** ウィンドウで。
 
-    左のナビゲーション ウィンドウで、 **[ワークスペース]** の横にある矢印を選択し、ワークスペース名の横にある省略記号 […] を選択して、 **[ワークスペースの設定]** を選択します。 **[設定]** ウィンドウが開きます。
+    ナビ ペインで、 **[ワークスペース]** の横にある矢印を選択し、ワークスペース名の横にある **[その他のオプション]** (...) を選択して、 **[ワークスペースの設定]** を選択します。 **[設定]** ウィンドウが開きます。
 
     ![ワークスペースの設定](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -94,7 +93,7 @@ Office 365 グループ メンバーシップを使用して、ワークスペ�
 
     最初に作成するときに **[ワークスペースの作成]** ウィンドウで。
 
-    左のナビゲーション ウィンドウで、 **[ワークスペース]** の横にある矢印を選択し、ワークスペース名の横にある省略記号 […] を選択して、 **[ワークスペースの設定]** を選択します。 **[設定]** ウィンドウが開きます。
+    ナビ ペインで、 **[ワークスペース]** の横にある矢印を選択し、ワークスペース名の横にある **[その他のオプション]** (...) を選択して、 **[ワークスペースの設定]** を選択します。 **[設定]** ウィンドウが開きます。
 
     ![ワークスペースの設定](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -108,7 +107,7 @@ Office 365 グループ メンバーシップを使用して、ワークスペ�
 
 OneDrive の場所を構成した後、Power BI サービスの他のデータ ソースにアクセスするのと同じ方法で、そこにアクセスできます。
 
-1. 左側のナビゲーション ウィンドウで、 **[データの取得]** を選択して、 **[ファイル]** ボックスで **[取得]** を選択します。
+1. ナビ ペインで、 **[データの取得]** を選択して、 **[ファイル]** ボックスで **[取得]** を選択します。
 
     ![データの取得、ファイルの取得](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
@@ -145,4 +144,4 @@ OneDrive の場所を構成した後、Power BI サービスの他のデータ �
 * [Power BI での新しいワークスペース エクスペリエンスの作業の整理](service-new-workspaces.md)に関する記事を参考してください
 * [クラシック ワークスペースを作成する](service-create-workspaces.md)
 * [Power BI で新しいワークスペースからアプリを発行する](service-create-distribute-apps.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

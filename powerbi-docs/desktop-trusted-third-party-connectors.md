@@ -1,8 +1,7 @@
 ---
-title: Power BI でのサード パーティ製のコネクタの信頼
-description: Power BI で署名されたサードパーティ製コネクタの信頼する方法
+title: Power BI の信頼されたサードパーティ製コネクタ
+description: Power BI で署名付きのサードパーティ製コネクタを信頼する方法
 author: cpopell
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,41 +9,41 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 30b7457c6149320c43f24b967a842382821b01b1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ac3f795d6a80d5f143daf68436f41f5771b3c2bb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65607774"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876161"
 ---
-# <a name="trusting-third-party-connectors"></a>サードパーティ製のコネクタを信頼します。
+# <a name="trusting-third-party-connectors"></a>サードパーティ製コネクタを信頼する
 
-## <a name="why-do-you-need-trusted-third-party-connectors"></a>信頼されたサード パーティ製のコネクタを必要な理由
+## <a name="why-do-you-need-trusted-third-party-connectors"></a>信頼されたサードパーティ製コネクタが必要な理由
 
-Power BI で一般的な推奨事項、上位のレベル、マイクロソフトで認定されていないコードの読み込みが原因で、'データ拡張機能のセキュリティ' レベルを維持します。 ただし、特定のコネクタ - 次のように記述した、またはコンサルタントまたは Microsoft の証明書のパスの外部のベンダーによって提供されるものをロードする多くの場合があります。
+Power BI では、一般に、"データ拡張機能のセキュリティ" レベルをより高いレベルに維持して、Microsoft によって認定されていないコードが読み込まれないようにすることをお勧めします。 ただし、自分で作成したコネクタや、Microsoft 認定パス外でコンサルタントやベンダーから提供されたコネクタなど、特定のコネクタを読み込むことが必要になる場合もあります。
 
-指定されたコネクタの開発者は、証明書を使用して署名しのセキュリティ設定を下げることがなく安全にロードする必要がある情報を提供できます。
+特定のコネクタの開発者は、証明書を使用してコネクタに署名し、セキュリティ設定を引き下げることなく安全に読み込むために必要な情報を提供できます。
 
-それらについて確認できるセキュリティ設定の詳細を確認するには場合、[ここ](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)します。
+セキュリティ設定の詳細については、[こちら](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)を参照してください。
 
-## <a name="using-the-registry-to-trust-third-party-connectors"></a>レジストリを使用して、サードパーティ製のコネクタの信頼
+## <a name="using-the-registry-to-trust-third-party-connectors"></a>レジストリを使用してサードパーティ製コネクタを信頼する
 
-Power BI でのサード パーティ製のコネクタを信頼する側は、指定されたレジストリ値を信頼する証明書の拇印の一覧を表示して行われます。 この拇印には、ロードするコネクタの証明書の拇印が一致するは、Power BI の [推奨] セキュリティ レベルでこれを読み込むことができます。 
+Power BI でサードパーティ製コネクタを信頼するには、信頼する証明書の拇印を指定されたレジストリ値内に列記します。 読み込むコネクタの証明書の拇印とこの拇印が一致すれば、Power BI の "推奨" セキュリティ レベルで読み込むことができます。 
 
-レジストリ パスでは、HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Power BI Desktop です。 作成またはパスが存在するかどうかを確認します。 編集するローカル コンピューターの管理アクセスを必要とすると、IT ポリシーによって制御されている主にしているため、この場所を選択しました。 
+レジストリ パスは、HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Power BI Desktop です。 パスが存在することを確認するか、パスを作成します。 この場所は、主に IT ポリシーによって制御されていること、および編集するためにローカル コンピューター管理アクセスが必要であることが理由で選択されています。 
 
-![信頼済みのサードパーティ製キーなしで power BI Desktop のレジストリ設定](media/desktop-trusted-third-party-connectors/desktoptrustedthird1.png)
+![信頼されたサードパーティ キーが設定されていない Power BI Desktop レジストリ](media/desktop-trusted-third-party-connectors/desktoptrustedthird1.png)
 
-上記で指定したパスの下の新しい値を追加します。 クラスを対象に「複数行文字列の値」(REG_MULTI_SZ) と"TrustedCertificateThumbprints"を呼び出す必要があること 
+上で指定したパスの下に新しい値を追加します。 型は "複数行文字列値" (REG_MULTI_SZ) にする必要があり、"TrustedCertificateThumbprints" という名前にする必要があります。 
 
-![信頼されたサード パーティ製のコネクタがないキーのエントリを使って power BI Desktop のレジストリ](media/desktop-trusted-third-party-connectors/desktoptrustedthird2.png)
+![Power BI Desktop レジストリの、キーがない信頼されたサードパーティ製コネクタのエントリ](media/desktop-trusted-third-party-connectors/desktoptrustedthird2.png)
 
-信頼する証明書の拇印を追加します。 「\0」を使用して、区切り記号、または右クリックして レジストリ エディターで、複数の証明書を変更し、各拇印を新しい行に配置を追加することができます。 サムプリントの例は、自己署名証明書から取得されます。 
+信頼する証明書の拇印を追加します。 複数の証明書を追加するには、区切り記号として "\0" を使用するか、レジストリ エディターで右クリックして [修正] を選択し、各拇印を新しい行に配置します。 サンプルの拇印は、自己署名証明書から取得されます。 
 
- ![信頼されたサード パーティのキーを使用して power BI Desktop のレジストリ設定](media/desktop-trusted-third-party-connectors/desktoptrustedthird3.png)
+ ![信頼されたサードパーティ キーが設定された Power BI Desktop レジストリ](media/desktop-trusted-third-party-connectors/desktoptrustedthird3.png)
 
-手順については、適切に従っているし、開発者から適切な拇印が与えられている場合に安全に信頼コネクタが関連付けられている証明書で署名することがなります。
+手順に従って作業し、開発者から適切な拇印が提供されている場合、関連付けられている証明書で署名されたコネクタを安全に信頼できるようになります。
 
 ## <a name="how-to-sign-connectors"></a>コネクタに署名する方法
 
-Power Query のドキュメントについて読むことができますかサインインする必要がある開発者にコネクタがある場合[ここ](https://docs.microsoft.com/power-query/handlingconnectorsigning)します。
+自分または開発者が署名する必要があるコネクタがある場合は、[こちら](https://docs.microsoft.com/power-query/handlingconnectorsigning)の Power Query ドキュメントを参照してください。

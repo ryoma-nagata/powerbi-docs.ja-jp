@@ -2,7 +2,6 @@
 title: ビジュアルのドリルダウンとドリルアップ
 description: この記事では、Microsoft Power BI サービスでビジュアルをドリルダウンする方法について説明します。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589510"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851455"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI でのビジュアルのドリル モード
 
@@ -128,7 +127,7 @@ ms.locfileid: "72589510"
 ## <a name="show-the-data-as-you-drill"></a>データをドリルしながら表示する
 **[データの表示]** を使用してバックグラウンドの処理を確認します。 ドリルまたは展開するたびに、 **[データの表示]** によって、ビジュアルの構築に使用されるデータが表示されます。 これは、階層、ドリル、展開が連携してビジュアルを構築するしくみを理解するのに役立ちます。 
 
-右上隅で省略記号 (...) を選択し、 **[データの表示]** を選択します。 
+右上隅で**その他のオプション** (...) を選択し、 **[データの表示]** を選択します。 
 
 ![省略記号メニューのスクリーンショット。](./media/end-user-drill/power-bi-ellipses.png)
 
@@ -153,4 +152,4 @@ ms.locfileid: "72589510"
 
 [Power BI - 基本的な概念](end-user-basic-concepts.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

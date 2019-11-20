@@ -1,8 +1,7 @@
 ---
 title: Power BI サービスのライセンスの種類別機能
-description: Power BI サービスでは、ユーザー別 (無料および Pro) と容量別の 2 種類のライセンスにより、ユーザー機能が定義されます。
+description: Power BI サービスでは、ユーザーが利用できる機能は、各自が持つユーザーごとのライセンスの種類 (無料または Pro) と、各自が操作しているコンテンツが Power BI Premium 容量に割り当てられたワークスペース内にあるかどうかに基づいて定義されます。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 47070a7e215235826a35ba777683c2114ba612ec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65554435"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881795"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Power BI サービスのライセンスの種類別機能
 
@@ -37,7 +36,7 @@ ms.locfileid: "65554435"
 | API とコントロールの埋め込み |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
 | **コラボレーション** | | |
 | ピア ツー ピア共有 |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
-| アプリ ワークスペース |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
+| ワークスペース |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
 | Excel で分析、Power BI Desktop で分析 |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
 
 ## <a name="next-steps"></a>次の手順

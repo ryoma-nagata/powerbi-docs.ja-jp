@@ -2,7 +2,6 @@
 title: 組織内で監査を使用する
 description: Power BI で監査を使用して実行されたアクションを監視および調査する方法を説明します。 セキュリティ/コンプライアンス センターまたは PowerShell を使用できます。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325460"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873763"
 ---
 # <a name="use-auditing-within-your-organization"></a>組織内で監査を使用する
 
@@ -162,7 +161,9 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | 管理者がテナントにデータフローのストレージ アカウントをアタッチしました | AdminAttachedDataflowStorageAccountToTenant | 現在使用されていません                       |
 | Power BI データセットの分析                         | AnalyzedByExternalApplication               |                                          |
 | Power BI レポートを分析しました                          | AnalyzeInExcel                              |                                          |
+| データフロー ストレージ アカウントの関連付け                 | AttachedDataflowStorageAccount              |                                          |
 | ゲートウェイに対するバインドされた Power BI データセット                | BindToGateway                               |                                          |
+| データフローの更新をキャンセルしました                        | CancelDataflowRefresh                       |                                          |
 | 容量の状態を変更しました                            | ChangeCapacityState                         |                                          |
 | 容量のユーザー割り当てを変更しました                  | UpdateCapacityUsersAssignment               |                                          |
 | Power BI データセットの接続を変更しました              | SetAllConnections                           |                                          |
@@ -194,6 +195,7 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI レポートを削除しました                           | DeleteReport                                |                                          |
 | Power BI データセットのデータ ソースを検出しました          | GetDatasources                              |                                          |
 | Power BI レポートのダウンロード                        | DownloadReport                              |                                          |
+| データフローのプロパティを編集しました                        | EditDataflowProperties                      |                                          |
 | Power BI の証明書に対する権限を編集しました          | EditCertificationPermission                 | 現在使用されていません                       |
 | Power BI ダッシュボードを編集しました                         | EditDashboard                               | 現在使用されていません                       |
 | Power BI データセットを編集しました                           | EditDataset                                 |                                          |
@@ -213,7 +215,7 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI ダッシュボードを出力しました                        | PrintDashboard                              |                                          |
 | Power BI レポート ページを出力しました                      | PrintReport                                 |                                          |
 | Power BI レポートを Web に発行しました                  | PublishToWebReport                          |                                          |
-| Key Vault からの Power BI データフロー シークレットを受信しました  | ReceiveDataflowSecretFromKeyVault           | 現在使用されていません                       |
+| Key Vault からの Power BI データフロー シークレットを受信しました  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Power BI Gateway からのデータ ソースの削除         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI グループ メンバーを削除しました                    | DeleteGroupMembers                          |                                          |
 | 容量からのワークスペースを削除しました                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +223,7 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI データフローの更新を要求しました               | RequestDataflowRefresh                      | 現在使用されていません                       |
 | Power BI データセットの更新を要求しました                | RefreshDataset                              |                                          |
 | Power BI ワークスペースを取得しました                     | GetWorkspaces                               |                                          |
+| ワークスペースに使用されるデータフロー ストレージの場所を選択しました     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Power BI のデータフローへのスケジュールされた更新を設定しました        | SetScheduledRefreshOnDataflow               |                                          |
 | Power BI のデータセットへのスケジュールされた更新を設定しました         | SetScheduledRefresh                         |                                          |
 | Power BI ダッシュボードを共有しました                         | ShareDashboard                              |                                          |
@@ -229,10 +232,12 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI の試用版を開始しました                            | OptInForProTrial                            |                                          |
 | Power BI データソースを引継ぎました                   | TakeOverDatasource                          |                                          |
 | Power BI データセットを引き継ぎました                        | TakeOverDataset                             |                                          |
+| Power BI データフローを引継ぎました                     | TookOverDataflow                             |                                          |
 | 未発行の Power BI アプリ                          | UnpublishApp                                |                                          |
 | 容量リソース管理設定の更新      | UpdateCapacityResourceGovernanceSettings    | 現在 Microsoft 365 管理センターに存在していません |
 | 容量管理者を更新しました                            | UpdateCapacityAdmins                        |                                          |
 | 容量表示名を更新しました                     | UpdateCapacityDisplayName                   |                                          |
+| データフロー ストレージの割り当てのアクセス許可の更新   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | 組織の Power BI 設定を更新しました          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI アプリを更新しました                              | UpdateApp                                   |                                          |
 | Power BI データフローを更新しました                         | UpdateDataflow                              |                                          |
@@ -255,4 +260,4 @@ Exchange Online に接続する方法の詳細については、「[リモート
 
 [Power BI 管理ポータル](service-admin-portal.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

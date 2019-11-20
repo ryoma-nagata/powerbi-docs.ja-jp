@@ -2,7 +2,6 @@
 title: Power BI サービスで Excel ブックから魅力的なレポートを作成する
 description: この記事では、Excel ブックから魅力的なレポートをすばやく作成する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995033"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872511"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Power BI サービスで Excel ブックから魅力的なレポートを作成する
 最新の売上データを直前のキャンペーンの感触と組み合わせて、上司にレポートを今日中に提出しなければなりません。 しかし、最新のデータはさまざまなサードパーティ システムと、自分のノート PC 内のファイルに散在しています。 以前なら、ビジュアルとレポート書式を作成するのに何時間もかかって、次第に不安になったことでしょう。
@@ -57,11 +56,11 @@ Power BI サービスは、多くのデータ ソースに接続できます。�
 
    ![[作成] ドロップダウン](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
 
-4. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。 
+4. ナビ ペインの下部にある **[データの取得]** を選択します。 
 
 5. **[データの取得]** ページの **[新しいコンテンツの作成]** の **[ファイル]** ボックスで、 **[取得]** を選択します。
 
-   ![ファイルからデータを取得](media/service-from-excel-to-stunning-report/pbi_get_files.png)
+   ![ファイルからのデータの取得](media/service-from-excel-to-stunning-report/pbi_get_files.png)
 
 6. **[ファイル]** ページで、 **[ローカル ファイル]** を選択します。 ご使用のコンピューターで Excel ブック ファイルに移動し、 **[開く]** を選択して Power BI サービスに読み込みます。 
 
@@ -111,7 +110,7 @@ Power BI サービスに Excel ファイルがインポートされたら、レ�
 
 2. **[視覚化]** メニューで、アイコンのいずれかを選択すると、グラフの種類を変更できます。 たとえば、**積み上げ縦棒グラフ**に変更します。 
 
-3. グラフを並べ替えるには、省略記号 [...]、 **[並べ替え]** の順に選択します。
+3. グラフを並べ替えるには、**その他のオプション** (...)、 **[並べ替え]** の順に選択します。
 
    ![レポート エディターでの積み上げ縦棒グラフ](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 
@@ -140,5 +139,5 @@ Power BI サービスに Excel ファイルがインポートされたら、レ�
 * [Power BI Desktop の概要](desktop-getting-started.md)
 * [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

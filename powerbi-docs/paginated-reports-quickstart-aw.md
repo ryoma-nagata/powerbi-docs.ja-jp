@@ -3,18 +3,17 @@ title: チュートリアル:ページ分割されたレポートを作成して
 description: このチュートリアルでは、サンプルの Azure SQL データベースに接続します。 その後、レポート ビルダーのウィザードを使用してページ分割されたレポートを作成します。 次に、Power BI サービスで Premium 容量のワークスペースにページ分割されたレポートをアップロードします。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: ab4cb14936ceff52a78f713877064d525de4b104
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839748"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875426"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>チュートリアル:ページ分割されたレポートを作成して Power BI サービスにアップロードする
 
@@ -44,7 +43,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 ページ分割されたレポートを Power BI サービスにアップロードするための前提条件を次に示します。
 
 - [Power BI Pro ライセンス](service-admin-power-bi-pro-in-your-organization.md)が必要です。
-- [Power BI Premium 容量](service-premium-what-is.md)内のサービス上のアプリ ワークスペースが必要です。 ワークスペース名の横にダイヤモンド形のアイコン ![Premium のダイヤモンド形アイコン](media/paginated-reports-quickstart-aw/premium-diamond.png) が表示されます。
+- [Power BI Premium 容量](service-premium-what-is.md)内のサービス上のワークスペースが必要です。 ワークスペース名の横にダイヤモンド形のアイコン ![Premium のダイヤモンド形アイコン](media/paginated-reports-quickstart-aw/premium-diamond.png) が表示されます。
 
 ## <a name="create-the-matrix-with-a-wizard"></a>ウィザードでマトリックスを作成する
   
@@ -107,8 +106,8 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 10. **[クエリのデザイン]** ページで、SalesLT を展開し、テーブルを展開して、次のテーブルを選択します。
 
     - 住所
-    - 顧客
-    - 製品
+    - Customer
+    - Product
     - ProductCategory
     - SalesOrderDetail
     - SalesOrderHeader
@@ -287,7 +286,7 @@ Power BI サービスにレポートを発行する前に、もう 1 つの書�
 
 このページ分割されたレポートの作成は済んだので、次に Power BI サービスにレポートをアップロードします。
 
-1. Power BI サービス (http://app.powerbi.com) の左側のナビゲーションで、 **[ワークスペース]**  >  **[アプリのワークスペースの作成]** を選択します。
+1. Power BI サービス (https://app.powerbi.com) のナビ ペイン) で、 **[ワークスペース]**  >  **[ワークスペースの作成]** の順に選択します。
 
 2. ワークスペースに、「**Azure AW**」または他の一意名を付けます。 今のところ、メンバーはまだ自分だけです。 
 

@@ -2,7 +2,6 @@
 title: Azure Machine Learning の Power BI への統合
 description: Machine Learning を Power BI で使用する方法について説明します。
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 9593296b0e09340fe4f62fff7a2e7722912a4216
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.openlocfilehash: 2f872825c327b8195e7a6e5516e0b533235ddc27
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259948"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872108"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Azure Machine Learning の Power BI への統合
 
@@ -43,7 +42,7 @@ Azure ML service 上でホストされているモデルへのアクセス権を
 
 1. [Azure portal](https://portal.azure.com) にサインインします。
 
-2. **[Subscriptions]\(サブスクリプション\)** ページに移動します。 Azure portal の左側のナビゲーション メニューにある **[すべてのサービス]** リストに **[サブスクリプション]** ページがあります。
+2. **[Subscriptions]\(サブスクリプション\)** ページに移動します。 Azure portal のナビ ペインのメニューにある **[すべてのサービス]** リストに **[サブスクリプション]** ページがあります。
 
     ![[Azure サブスクリプション] ページ](media/service-machine-learning-integration/machine-learning-integration_01.png)
 
@@ -68,7 +67,7 @@ Azure ML service 上でホストされているモデルへのアクセス権を
 
 データ サイエンティストは、Machine Learning service の機械学習モデルを開発する際、さらにはデプロイする際にも、主に Python を使用しています。  モデルのスキーマ ファイルの作成タスクを自動化する Machine Learning Studio とは異なり、Machine Learning service の場合、データ サイエンティストは、Python を使用して、スキーマ ファイルを明示的に生成する必要があります。
 
-Machine Learning service モデルでは、デプロイされた Web サービスにこのスキーマ ファイルを含める必要があります。 Web サービスのスキーマを自動的に生成するには、デプロイされたモデルのエントリ スクリプトで入力/出力のサンプルを指定する必要があります。 ドキュメント「Azure Machine Learning service を使用してモデルをデプロイする」のサブセクション「(任意) Automatic Swagger スキーマ生成」を参照してください。 このリンクには、スキーマ生成のステートメントを含む、エントリ スクリプトの例が含まれます。 
+Machine Learning service モデルでは、デプロイされた Web サービスにこのスキーマ ファイルを含める必要があります。 Web サービスのスキーマを自動的に生成するには、デプロイされたモデルのエントリ スクリプトで入力/出力のサンプルを指定する必要があります。 Azure Machine Learning service を使用したモデルのデプロイに関するドキュメントの [Swagger スキーマの自動生成 (省略可能)](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation) に関するサブセクションを参照してください。 このリンクには、スキーマ生成のステートメントを含む、エントリ スクリプトの例が含まれます。 
 
 具体的には、エントリ スクリプト内の *\@input_schema* 関数と *\@output_schema* 関数によって、*input_sample* および *output_sample* 変数の入出力のサンプル形式が参照され、デプロイ時にこれらのサンプルを使用して Web サービス用の OpenAPI (Swagger) 仕様が生成されます。
 
@@ -87,7 +86,7 @@ Machine Learning service モデルでは、デプロイされた Web サービ�
 
 ![Power Query エディター](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
-リボン内で **[AI Insights]** ボタンを選択した後、左側のナビゲーション メニューから _[Azure Machine Learning Models]\(Azure Machine Learning モデル\)_ フォルダーを選択します。 アクセス権があるすべての Azure ML モデルが Power Query 関数としてここに一覧表示されます。 また、Azure ML モデルの入力パラメーターは、対応する Power Query 関数のパラメーターとして自動的にマップされます。
+リボン内で **[AI 分析情報]** ボタンを選択した後、ナビ ペインのメニューから "_Azure Machine Learning Models_" フォルダーを選択します。 アクセス権があるすべての Azure ML モデルが Power Query 関数としてここに一覧表示されます。 また、Azure ML モデルの入力パラメーターは、対応する Power Query 関数のパラメーターとして自動的にマップされます。
 
 Azure ML モデルを呼び出すには、選択したエンティティのいずれかの列を、ドロップダウン リストからの入力として指定します。 入力ダイアログの左側にある列アイコンを切り替えることにより、入力として使用する定数値を指定することもできます。
 

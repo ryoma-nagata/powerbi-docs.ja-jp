@@ -3,19 +3,18 @@ title: Power BI で R を利用した Power BI ビジュアルを使用する
 description: Power BI で R を利用した Power BI ビジュアルを使用する
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: ab0c4a7bf529f878796ea4b41177e57d19c79128
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945250"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128230"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI で R を利用した Power BI ビジュアルを使用する
 
@@ -55,7 +54,7 @@ R を利用した Power BI ビジュアルを使用するには、各ビジュ�
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. ビジュアルがダウンロードされたら (ブラウザーから任意のファイルをダウンロードするのと似ています)、**Power BI Desktop** に移動し、 **[視覚化]** ウィンドウの省略記号 ([...]) をクリックして、 **[ファイルからインポートする]** を選択します。
+4. ビジュアルがダウンロードされたら (ブラウザーから任意のファイルをダウンロードするのと似ています)、**Power BI Desktop** に移動し、 **[視覚化]** ペインの **[その他のオプション]** (...) をクリックして、 **[Import from file]\(ファイルからインポート\)** を選択します。
 
    ![R ビジュアル 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. 次の図に示すように、カスタム ビジュアルのインポートに関する警告が表示されます。

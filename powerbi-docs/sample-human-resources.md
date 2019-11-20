@@ -2,7 +2,6 @@
 title: '人事のサンプル: ツアーを開始する'
 description: Power BI の人事のサンプル:ツアーを開始する
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462348"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858859"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI の人事のサンプル:ツアーを開始する
 
@@ -58,11 +57,11 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>このサンプルの .pbix ファイルを取得する
 
-あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)として、人事のサンプルをダウンロードすることもできます。
+あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)として、人事のサンプルをダウンロードすることもできます。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータ ソースを確認する場合は、[Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529780) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
+このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529780) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
 
 ## <a name="new-hires"></a>新規採用者
 まず、新規採用者を調べてみましょう。
@@ -87,7 +86,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
 4. グラフ内のさまざまな年齢グループと性別を選んで、年齢、性別、地域、民族性グループ間の関連性を探ります。
 
-5. 上部のナビゲーション バーで **[Human Resource Sample]** を選んでダッシュボードに戻ります。
+5. 上部のナビ ペインで **[Human Resource Sample]** を選んでダッシュボードに戻ります。
 
    ![ダッシュ ボードに戻る](media/sample-human-resources/power-bi-breadcrumbs.png)
 
@@ -133,7 +132,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
 8. **[Active Employee Count by Gender]** 円グラフについても同じ手順に従い、在職者ではなく離職者に変更できます。 性別ごとに自主的な退職のデータを見て、他の洞察が得られるかどうかご確認ください。
 
-9. 上部のナビゲーション バーで **[Human Resource Sample]** を選んでダッシュボードに戻ります。 レポートに行った変更は保存することもできます。
+9. 上部のナビ ペインで **[Human Resource Sample]** を選んでダッシュボードに戻ります。 レポートに行った変更は保存することもできます。
 
 ## <a name="bad-hires"></a>不適切な人材採用
 調査する最後の領域は、不適切な人材採用です。 不適切な人材採用は、雇用期間が 60 日以下の従業員として定義されます。 急速な採用を実施していますが、適切な候補を採用しているでしょうか。
@@ -147,7 +146,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
 3. **[Bad Hire Count by Gender]** ドーナツ グラフを表示して、 **[Region]** スライサーで異なるリージョンを選択すると、不適切な人材採用が男性よりも女性の方が多いのは東部リージョンのみであることがわかります。  
 
-4. 上部のナビゲーション バーからダッシュボードの名前を選択して、ダッシュボードに戻ります。
+4. 上部のナビ ペインからダッシュボードの名前を選択して、ダッシュボードに戻ります。
 
 ## <a name="ask-a-question-in-the-dashboard-qa-box"></a>ダッシュボードの Q&A ボックスで質問する
 ダッシュボードの [Q&A の質問ボックス](power-bi-tutorial-q-and-a.md)では、自然言語を使用してデータに関する質問ができます。 Q&A は、入力した用語を認識して、回答を探す場所 (データセット) を見つけ出します。

@@ -2,7 +2,6 @@
 title: Power BI の IT 支出分析のサンプル:ツアーを開始する
 description: Power BI の IT 支出分析のサンプル:ツアーを開始する
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462241"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873907"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の IT 支出分析のサンプル:ツアーを開始する
 
@@ -54,11 +53,11 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>このサンプルの .pbix ファイルを取得する
 
-あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)として、IT 支払い分析のサンプルをダウンロードすることもできます。
+あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)として、IT 支払い分析のサンプルをダウンロードすることもできます。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータ ソースを確認する場合は、[Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529783) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
+このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529783) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>IT 支出分析のサンプル ダッシュボード
 ダッシュボードの左側の 2 つの数値タイル、 **[Var Plan %]** と **[Variance Latest Estimate % Quarter 3]** から、予算および最新四半期予測値 (LE3 = 最新予測第 3 四半期) に対する達成度の概要が得られます。 全体的に見て、予算を約 6% 下回っています。 この差異が生じる原因について、時、場所、カテゴリを調べましょう。
@@ -78,7 +77,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
     次に、米国内で差異の原因となっているのは、どのカテゴリかを見てみましょう。
 
 ## <a name="ask-questions-of-the-data"></a>データに関する質問
-1. 上部のナビゲーション バーで **[IT Spend Analysis Sample]** を選んでダッシュボードに戻ります。
+1. 上部のナビ ペインで **[IT Spend Analysis Sample]** を選んでダッシュボードに戻ります。
 2. **[データについて質問する]** を選択します。
 3. 左側の **[作業を開始するための質問]** 一覧から、 **[what is the plan by IT area]** を選択します。
 

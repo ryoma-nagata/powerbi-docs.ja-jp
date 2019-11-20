@@ -2,19 +2,18 @@
 title: チュートリアル:VM での Power BI Report Server の探索
 description: このチュートリアルでは、Power BI Report Server が既にインストールされている仮想マシンを作成し、Web ポータルを探索します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65240125"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859253"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>チュートリアル:VM で Power BI Report Server Web ポータルを探索する
 このチュートリアルでは、Power BI Report Server が既にインストールされている Azure 仮想マシンを作成するので、サンプルの Power BI とページ分割されたレポートの表示、編集、および管理と、KPI を体験できます。
@@ -40,7 +39,7 @@ Power BI チームが作成した、Power BI Report Server が既にインスト
 1. Azure Marketplace で、Power BI Report Server を選択します。 このリンクで直接開きます。[Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)。  
 
 2. **[今すぐ入手する]** を選択します。
-3. プロバイダーの使用条件とプライバシー ポリシーに同意するには、**[続行]** を選択します。
+3. プロバイダーの使用条件とプライバシー ポリシーに同意するには、 **[続行]** を選択します。
 
 4. **[作成]** を選択します。
 
@@ -52,7 +51,7 @@ Power BI チームが作成した、Power BI Report Server が既にインスト
 
 5. 新しいユーザー名とパスワードを作成します。
 
-6. **[リソース グループ]** で **[新規作成]** を選択し、**「reportserverresourcegroupOK」と名前を付けて** > **[OK]** を選択します。
+6. **[リソース グループ]** で **[新規作成]** を選択し、 **「reportserverresourcegroupOK」と名前を付けて** >  **[OK]** を選択します。
 
     チュートリアルを複数回繰り返す場合、2 回目以降はリソース グループに別の名前を付ける必要があります。 1 つのサブスクリプションで 2 回、同じリソース グループ名を使用することはできません。 
 
@@ -72,7 +71,7 @@ Power BI チームが作成した、Power BI Report Server が既にインスト
 
 ## <a name="connect-to-your-virtual-machine"></a>仮想マシンに接続する
 
-1. Azure の左側のナビゲーション ウィンドウで、**[仮想マシン]** を選択します。 
+1. Azure のナビ ペインで、 **[仮想マシン]** を選択します。 
 
 2. **[名前でフィルター]** ボックスに、「report」と入力します。 
 
@@ -80,15 +79,15 @@ Power BI チームが作成した、Power BI Report Server が既にインスト
 
     ![仮想マシンを表示する](media/tutorial-explore-report-server-web-portal/power-bi-report-server-view-virtual-machine.png)
 
-4. REPORTSERVERVM 仮想マシンで、**[接続]** を選択します。
+4. REPORTSERVERVM 仮想マシンで、 **[接続]** を選択します。
 
     ![仮想マシンに接続する](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
 5. **[仮想マシンに接続する]** ウィンドウで、既定値のままにして **[RDP ファイルのダウンロード]** を選択します。
 
-1. **[リモート デスクトップ接続]** ダイアログ ボックスで、**[接続]** を選択します。
+1. **[リモート デスクトップ接続]** ダイアログ ボックスで、 **[接続]** を選択します。
 
-6. VM 用に作成した名前とパスワードを入力し、**[OK]** を選択します。
+6. VM 用に作成した名前とパスワードを入力し、 **[OK]** を選択します。
 
 7. 次のダイアログ ボックスに、**リモート コンピューターの ID を特定できない**というメッセージが表示されます。 **[はい]** を選択します。
 
@@ -108,7 +107,7 @@ VM が開いたら、デスクトップには次の項目が表示されます�
 |![番号 4](media/tutorial-explore-report-server-web-portal/number-4.png) | ブラウザーで Power BI Report Server の Web ポータルを開きます |
 |![番号 5](media/tutorial-explore-report-server-web-portal/number-5.png) | ページ分割された (.RDL) レポートを作成するために SQL Server Data Tools を起動します |
 
-**[Report Server Web ポータル]** アイコンをダブルクリックします。 ブラウザーで `http://localhost/reports/browse` が開きます。 Web ポータルには、種類ごとにグループ化されたさまざまなファイルが表示されます。 
+**[Report Server Web ポータル]** アイコンをダブルクリックします。 ブラウザーで `https://localhost/reports/browse` が開きます。 Web ポータルには、種類ごとにグループ化されたさまざまなファイルが表示されます。 
 
 ![Power BI レポート サーバーの Web ポータル](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
@@ -125,7 +124,7 @@ VM が開いたら、デスクトップには次の項目が表示されます�
 ## <a name="tag-your-favorites"></a>お気に入りにタグを追加する
 お気に入りに登録するレポートおよび KPI をタグ付けすることができます。 それらはすべて 1 つの [お気に入り] フォルダーに集められるので、Web ポータルと Power BI モバイル アプリの両方で簡単に見つけることができます。 
 
-1. **利益率** KPI の右上にある省略記号 (**...**) を選択し、**[お気に入りに追加]** を選択します。
+1. **利益率** KPI の右上にある省略記号 ( **...** ) を選択し、 **[お気に入りに追加]** を選択します。
    
     ![お気に入りに追加](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. お気に入りにした KPI やモバイル レポートまたは他のお気に入りを Web ポータルの [お気に入り] ページで表示するには、Web ポータルの **[お気に入り]** を選択します。
@@ -139,11 +138,11 @@ VM が開いたら、デスクトップには次の項目が表示されます�
 
 リスト ビューに切り替えると、複数の項目を同時に簡単に移動または削除できます。 
 
-1. **[タイル]** > **[リスト]** を選択します。
+1. **[タイル]**  >  **[リスト]** を選択します。
    
     ![ビューの切り替え](media/tutorial-explore-report-server-web-portal/report-server-web-portal-list-view.png)
 
-2. タイル ビューに戻ります。**[リスト]** > **[タイル]** の順に選択します。
+2. タイル ビューに戻ります。 **[リスト]**  >  **[タイル]** の順に選択します。
 
 ## <a name="power-bi-reports"></a>Power BI レポート
 
@@ -151,7 +150,7 @@ Web ポータルで Power BI レポートを表示して操作し、Web ポー�
 
 ### <a name="view-power-bi-reports"></a>Power BI レポートを表示する
 
-1. Web ポータルの **[Power BI レポート]** で、**[Sample Customer Overview Report]** を選択します。 ブラウザーにレポートが表示されます。
+1. Web ポータルの **[Power BI レポート]** で、 **[Sample Customer Overview Report]** を選択します。 ブラウザーにレポートが表示されます。
 
 1. ツリー マップの [United States] ブロックを選択し、他の視覚化の関連する値がどのように強調表示されるかを確認します。
 
@@ -189,9 +188,9 @@ Web ポータルで Power BI レポートを表示して操作し、Web ポー�
 
 ### <a name="manage-a-paginated-report"></a>ページ分割されたレポートを管理する
 
-1. Web ポータルの **[ページ分割されたレポート]** で、**[Sales Order]** の横の省略記号 (...) > **[管理]** の順に選択します。
+1. Web ポータルの **[ページ分割されたレポート]** で、 **[Sales Order]** の横の**その他のオプション (...)**  >  **[管理]** を順に選択します。
 
-1. **[パラメーター]** を選択し、**SalesOrderNumber** の既定値を「**SO50689**」に変更し > **[適用]** を選択します。
+1. **[パラメーター]** を選択し、**SalesOrderNumber** の既定値を「**SO50689**」に変更し >  **[適用]** を選択します。
 
    ![レポート パラメーターを設定する](media/tutorial-explore-report-server-web-portal/power-bi-report-server-set-parameters.png)
 
@@ -207,7 +206,7 @@ Web ポータルで Power BI レポートを表示して操作し、Web ポー�
 
     既定値を変更せずに、このパラメーターを他のパラメーターと共に変更することができます。
 
-1. **Order** **SO48339** を選択し > **[レポート]** を選択します。
+1. **Order** **SO48339** を選択し >  **[レポート]** を選択します。
 
 4. 2 ページ中 1 ページ目にあることがわかります。 右矢印を選択すると、2 ページ目が表示されます。 テーブルは 2 ページ目に続いています。
 
@@ -219,7 +218,7 @@ Web ポータルで Power BI レポートを表示して操作し、Web ポー�
 
 レポート ビルダーでページ分割されたレポートを編集できます。また、レポート ビルダーはブラウザーから直接起動することができます。
 
-1. Web ポータルで、**Sales Order** の横にある省略記号 (...) を選択し > **[レポート ビルダーで編集]** を選択します。
+1. Web ポータルで、 **[Sales Order]** の横の**その他のオプション (...)**  >  **[レポート ビルダーで編集]** を順に選択します。
 
 1. **[許可]** を選択すると、この Web サイトで、このコンピューター上のプログラムを開くことができるようになります。
 
@@ -249,7 +248,7 @@ Power BI Report Server で、Excel Online の Excel ブックを表示し、操�
 
 このチュートリアルを完了したら、リソース グループ、仮想マシン、およびすべての関連リソースを削除します。 
 
-- 削除するには、VM のリソース グループを選択し、**[削除]** を選択します。
+- 削除するには、VM のリソース グループを選択し、 **[削除]** を選択します。
 
 ## <a name="next-steps"></a>次の手順
 

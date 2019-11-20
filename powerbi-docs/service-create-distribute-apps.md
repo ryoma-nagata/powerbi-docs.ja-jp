@@ -2,19 +2,18 @@
 title: Power BI でアプリを発行する
 description: ダッシュボードとレポートのコレクションである、組み込みのナビゲーションを使用する新しいアプリを発行する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020229"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853635"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI でアプリを発行する
 
@@ -115,7 +114,7 @@ Power BI で公式のパッケージ化コンテンツを作成し、*アプリ*
 * **[レポートの詳細]** 、 **[ダッシュボードの詳細]** 、および **[ブックの詳細]** でアイテムの名前を変更する。
 * ナビゲーションから特定のアイテムを非表示にする。
 * **[新規]** オプションを使用して、グループに関連するコンテンツに**セクション**を追加する。
-* **[新規]** オプションを使用して、左側のナビゲーションに外部リソースへの**リンク**を追加する。 
+* **[新規]** オプションを使用して、ナビ ペインに外部リソースへの**リンク**を追加する。 
 
 **リンク**を追加する際には、 **[リンクの詳細]** で、リンクを開く場所を選択できます。 既定では、リンクは **[現在のタブ]** で開きますが、 **[新しいタブ]** または **[コンテンツ領域]** を選択することもできます。 
 
@@ -187,7 +186,7 @@ Power BI で公式のパッケージ化コンテンツを作成し、*アプリ*
 
 ## <a name="view-your-published-app"></a>発行されたアプリを表示する
 
-アプリの利用者がアプリを開くと、標準の Power BI の左側のナビゲーション ウィンドウではなく、作成されたナビゲーションが表示されます。 アプリのナビゲーションでは、定義されたセクションにレポートとダッシュボードが一覧表示されます。 また、レポート名だけでなく、各レポートの個々のページも一覧表示されます。
+アプリの利用者がアプリを開くと、標準の Power BI のナビ ペインではなく、作成されたナビゲーションが表示されます。 アプリのナビゲーションでは、定義されたセクションにレポートとダッシュボードが一覧表示されます。 また、レポート名だけでなく、各レポートの個々のページも一覧表示されます。
 
 ![ナビゲーションを使用するアプリ](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
@@ -203,4 +202,4 @@ Power BI で公式のパッケージ化コンテンツを作成し、*アプリ*
 * [Power BI にアプリをインストールし、使用する](consumer/end-user-apps.md)
 * [外部サービス用の Power BI アプリ](service-connect-to-services.md)
 * [Power BI 管理ポータル](https://docs.microsoft.com/power-bi/service-admin-portal)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

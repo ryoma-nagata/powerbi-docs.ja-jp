@@ -3,18 +3,17 @@ title: データセットにデータをプッシュする
 description: Power BI データセットにデータをプッシュする
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222151"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875439"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
 
@@ -43,7 +42,7 @@ Power BI REST API を使うと、Power BI にデータ ソースをプッシュ�
 * [行の POST](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [グループの取得](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
-Power BI でデータセットを作成するには、Power BI サービスに JavaScript Object Notation (JSON) 文字列を渡します。 JSON について詳しくは、「[JSON の紹介](http://json.org/)」をご覧ください。
+Power BI でデータセットを作成するには、Power BI サービスに JavaScript Object Notation (JSON) 文字列を渡します。 JSON について詳しくは、「[JSON の紹介](https://json.org/)」をご覧ください。
 
 データセットの JSON 文字列は、次のような形式です。
 
@@ -112,13 +111,13 @@ Power BI のテーブル スキーマでは、次のデータ型を使うこと�
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI へのデータのプッシュに関する詳細
 
-データセットへのデータのプッシュを始める方法については、「[手順 1:アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)」 (左側のナビゲーション ウィンドウ) をご覧ください。
+データセットへのデータのプッシュを始める方法については、「[手順 1:ナビ ペインで Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) にアプリを登録します。
 
 [次の手順 >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>次の手順
 
 [Power BI にサインアップする](create-an-azure-active-directory-tenant.md)  
-[JSON の紹介](http://json.org/)  
+[JSON の紹介](https://json.org/)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

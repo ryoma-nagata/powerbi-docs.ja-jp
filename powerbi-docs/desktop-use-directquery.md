@@ -2,7 +2,6 @@
 title: Power BI Desktop の DirectQuery
 description: Power BI Desktop の DirectQuery (ライブ接続とも呼ばれます) を使用します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654782"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876061"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 **Power BI Desktop** を利用すれば、データ ソースに接続するとき、常にデータのコピーを **Power BI Desktop** にインポートできます。 データ ソースによっては、代替手法を利用できます。**DirectQuery** でデータ ソースに直接接続する方法です。
@@ -70,7 +69,7 @@ ms.locfileid: "69654782"
       The resultset of a query to external data source has exceeded
   
   このような状況は、カーディナリティが非常に高い列を含む簡単なグラフで集計オプションが *[Don’t Summarize]* (集計しない) に設定されている場合に発生します。 ビジュアルの場合、列のカーディナリティは 100 万未満にする必要があります。あるいは、適切なフィルターを適用する必要があります。
-* **セキュリティ** - 公開されたレポートを利用するユーザーは全員、Power BI サービスに公開した後に入力された資格情報を利用し、バックエンド データ ソースに接続します。 これはインポートされたデータと同じ状況になります。バックエンド ソースに定義されているセキュリティ ルールに関係なく、すべてのユーザーに同じデータが表示されます。 ユーザーごとのセキュリティを希望のお客様は、DirectQuery ソースを実装し、RLS を使用する必要があります。 [RLS についての詳細情報](service-admin-rls.md)。
+* **セキュリティ** - 既定では、公開されたレポートを利用するユーザーは全員、Power BI サービスに公開した後に入力された資格情報を利用し、バックエンド データ ソースに接続します。 これはインポートされたデータと同じ状況になります。バックエンド ソースに定義されているセキュリティ ルールに関係なく、すべてのユーザーに同じデータが表示されます。 DirectQuery ソースで実装されたユーザーごとのセキュリティが必要なお客様は、RLS を使用するか、ソースに対する Kerberos 制約付き認証を構成する必要があります。 Kerberos はすべてのソースで使用できるわけではありません。 [RLS についての詳細情報](service-admin-rls.md)。 [DirectQuery についての詳細情報](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos)。 
 * **サポートされている機能** - **Power BI Desktop** の一部の機能は **DirectQuery** モードでサポートされていないか、制限があります。 また、Power BI サービスには、**DirectQuery** 使用時のデータセットで利用できない機能もあります (*クイック分析情報*など)。 そのため、**DirectQuery** を利用するかどうかを判断するとき、以上のような **DirectQuery** 利用時の機能制約を考慮する必要があります。   
 
 ## <a name="publish-to-the-power-bi-service"></a>Power BI サービスに公開する
@@ -88,7 +87,7 @@ Power BI に **[設定]** ウィンドウが表示されます。 そこから�
 
 資格情報を入力せずに、公開したレポートを開いたり、**DirectQuery** 接続で作成されたデータセットを調べたりすると、このようなデータ ソースでエラーが発生します。
 
-DirectQuery を使用する **Azure SQL Database**、**Azure SQL Data Warehouse**、および **Redshift** 以外のデータ ソースについては、**オンプレミス データ ゲートウェイ**をインストールし、データ ソースを登録してデータ接続を確立する必要があります。 オンプレミス データ ゲートウェイの詳細については[こちら](http://go.microsoft.com/fwlink/p/?LinkID=627094)を参照してください。
+DirectQuery を使用する **Azure SQL Database**、**Azure SQL Data Warehouse**、および **Redshift** 以外のデータ ソースについては、**オンプレミス データ ゲートウェイ**をインストールし、データ ソースを登録してデータ接続を確立する必要があります。 オンプレミス データ ゲートウェイの詳細については[こちら](https://go.microsoft.com/fwlink/p/?LinkID=627094)を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 **DirectQuery** について詳しくは、次のリソースをご覧ください。

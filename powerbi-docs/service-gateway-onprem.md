@@ -3,19 +3,18 @@ title: オンプレミス データ ゲートウェイ
 description: この記事は Power BI のオンプレミス データ ゲートウェイの概要です。 このゲートウェイを使用し、DirectQuery データ ソースを操作できます。 また、このゲートウェイを使用し、オンプレミス データでクラウド データセットを更新できます。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730291"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872438"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイとは
 
@@ -42,13 +41,13 @@ ms.locfileid: "68730291"
 ゲートウェイを使用するための 4 つの主要な手順があります。
 
 1. [ゲートウェイをダウンロードして、ローカル コンピューターにインストールします](/data-integration/gateway/service-gateway-install)。
-2. ご利用のファイアウォールやその他のネットワーク要件に基づいてゲートウェイを[構成](/data-integration/gateway/service-gateway-app)します。
-3. 他のネットワーク要件も管理および操作できる[ゲートウェイ管理者を追加](/data-integration/gateway/service-gateway-manage)します。
-4. エラーが発生した場合にゲートウェイの[トラブルシューティング](service-gateway-onprem-tshoot.md)を行います。
+1. ご利用のファイアウォールやその他のネットワーク要件に基づいてゲートウェイを[構成](/data-integration/gateway/service-gateway-app)します。
+1. 他のネットワーク要件も管理および操作できる[ゲートウェイ管理者を追加](/data-integration/gateway/service-gateway-manage)します。
+1. [ゲートウェイを使用](service-gateway-sql-tutorial.md)して、オンプレミスのデータ ソースを更新します。
+1. エラーが発生した場合にゲートウェイの[トラブルシューティング](service-gateway-onprem-tshoot.md)を行います。
 
 ## <a name="next-steps"></a>次の手順
 
 * [オンプレミス データ ゲートウェイのインストール](/data-integration/gateway/service-gateway-install)
 
-
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

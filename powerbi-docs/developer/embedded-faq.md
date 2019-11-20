@@ -3,22 +3,21 @@ title: Power BI Embedded に関してよく寄せられる質問
 description: Power BI Embedded についてよく寄せられる質問とその回答の一覧です。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: 9e641b70c9fd6c6d378628d34413b14c59eaea23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490353"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864231"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
-* 他の質問がある場合は、[Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* 他の質問がある場合は、[Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。
 
 ## <a name="general"></a>全般
@@ -67,7 +66,7 @@ Power BI Embedded は、開発者が埋め込み分析ソリューションを�
 | 特性 | Power BI Embedded | Power BI Premium 容量 | Power BI Premium 容量 |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | A SKU-Azure 容量 | EM SKU-O365 容量 | P SKU-O365 容量 |
-| Power BI アプリ ワークスペースからアーティファクトを埋め込む | はい | はい | はい |
+| Power BI ワークスペースからアーティファクトを埋め込む | はい | はい | はい |
 | 埋め込みアプリケーションで Power BI レポートを使用する - SaaS | いいえ | はい | はい |
 | 埋め込みアプリケーションで Power BI レポートを使用する - PaaS | はい | はい | はい |
 | SharePoint で Power BI レポートを利用する | いいえ | はい | はい |
@@ -146,7 +145,7 @@ Power BI では、組織のアカウントでサインアップすることが�
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded ソリューションでは、PBI Embedded 専用容量はどのような役割を果たしますか?
 
-[ソリューションを運用に昇格させる](embed-sample-for-customers.md#move-to-production)には、アプリケーションで使う Power BI コンテンツ (アプリ ワークスペース) を、Power BI Embedded (A SKU) 容量に割り当てる必要があります。
+[ソリューションを運用に昇格させる](embed-sample-for-customers.md#move-to-production)には、アプリケーションで使う Power BI コンテンツ (ワークスペース) を、Power BI Embedded (A SKU) 容量に割り当てる必要があります。
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>PBI Embedded はどの Azure リージョンで利用できますか?
 
@@ -362,4 +361,4 @@ Power BI データの編集方法は、[こちら](https://docs.microsoft.com/po
 
 詳しくは、「[埋め込みアプリケーションのトラブルシューティング](embedded-troubleshoot.md)」をご覧ください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

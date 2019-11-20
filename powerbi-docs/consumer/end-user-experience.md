@@ -2,22 +2,21 @@
 title: Power BI サービス内の移動
 description: Power BI のナビゲーション環境の概要です
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 10/18/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589450"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851523"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>クイック スタート - Power BI サービス内の移動
 
@@ -57,7 +56,7 @@ Amanda が Power BI サービスのナビゲーション操作を説明するツ
 
 ![[マイ ワークスペース] 画面](./media/end-user-experience/power-bi-my-workspace.png)
 
-左側のナビゲーション ウィンドウでワークスペースを選ぶと、関連するコンテンツのタブ (ダッシュボード、レポート、ブック、データセット) が右側の Power BI キャンバスに表示されます。
+左側のナビ ペインでワークスペースを選ぶと、関連するコンテンツ (ダッシュボード、レポート、ブック、データセット) のタブが右側の Power BI キャンバスに表示されます。
 
 新しいユーザーの場合は、1 つのワークスペース ( **[マイ ワークスペース]** ) のみが表示されます。
 
@@ -82,7 +81,7 @@ Amanda が Power BI サービスのナビゲーション操作を説明するツ
    
    ![お気に入りの削除](./media/end-user-experience/power-bi-unfavorite2.png)
 
-2. お気に入りとして追加したすべてのコンテンツの一覧を表示するには、左側のナビゲーション ウィンドウで、 **[お気に入り]** の右にある矢印を選びます。 左側のナビゲーション ウィンドウは Power BI サービスの固定機能であるため、Power BI サービス内のどこからでもこの一覧にアクセスできます。
+2. お気に入りとして追加したすべてのコンテンツの一覧を表示するには、ナビ ペインで、 **[お気に入り]** の右にある矢印を選びます。 ナビ ペインは Power BI サービスの固定機能であるため、Power BI サービス内のどこからでもこの一覧にアクセスできます。
    
     ![お気に入りポップアップ](./media/end-user-experience/power-bi-favorite.png)
    
@@ -92,7 +91,7 @@ Amanda が Power BI サービスのナビゲーション操作を説明するツ
    
    ![お気に入りにする](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. 左側のナビゲーション ウィンドウで **[お気に入り]** を選ぶか、星形アイコン ![](media/end-user-experience/powerbi-star-icon.png) を選んで、 **[お気に入り]** *ウィンドウ*を開きます。
+3. ナビ ペインで **[お気に入り]** を選ぶか、星形アイコン ![黄色の星のアイコンを示すスクリーンショット](media/end-user-experience/powerbi-star-icon.png) を選んで、 **[お気に入り]** "*ペイン*" を開きます。
    
    ![[お気に入り] 画面を開く](./media/end-user-experience/power-bi-favorite-pane.png)
    
@@ -107,13 +106,13 @@ Amanda が Power BI サービスのナビゲーション操作を説明するツ
 
 ## <a name="locate-your-most-recent-content"></a>最新のコンテンツを探す
 
-1. [お気に入り] と同様に、左側のナビゲーション ウィンドウの **[最近]** の矢印を選んで、Power BI サービス内のどこからでも最近アクセスしたコンテンツをすぐに見ることができます。
+1. [お気に入り] と同様に、ナビ ペインの **[最近]** の矢印を選んで、Power BI サービス内のどこからでも最近アクセスしたコンテンツをすぐに見ることができます。
 
    ![[最近] ポップアップ](./media/end-user-experience/power-bi-recent-flyout.png)
 
     フライアウトから、開くコンテンツを選びます。
 
-2. 最近のコンテンツを開かずに、情報を見たり、分析情報の表示や Excel へのエクスポートなど、他のアクションを実行したりしたい場合があります。 そのような場合は、左側のナビゲーション ウィンドウで **[最近]** またはそのアイコンを選んで、 **[最近]** ウィンドウを開きます。 複数のワークスペースがある場合、この一覧にはすべてのワークスペースのコンテンツが含まれます。
+2. 最近のコンテンツを開かずに、情報を見たり、分析情報の表示や Excel へのエクスポートなど、他のアクションを実行したりしたい場合があります。 そのような場合は、ナビ ペインで **[最近]** またはそのアイコンを選んで、 **[最近]** ペインを開きます。 複数のワークスペースがある場合、この一覧にはすべてのワークスペースのコンテンツが含まれます。
 
    ![[最近] ウィンドウ](./media/end-user-experience/power-bi-recent.png)
 
@@ -138,7 +137,7 @@ Amanda が Power BI サービスのナビゲーション操作を説明するツ
 このクイックスタートが完了した後、希望する場合は、小売りの分析のサンプルのダッシュ ボード、レポート、およびデータセットを削除できます。
 
 1. Power BI サービス (app.powerbi.com) を開いてサインインします。    
-2. 左側のナビゲーション ウィンドウで、 **[ワークスペース > マイ ワークスペース]** を選択します。  
+2. ナビ ペインで、 **[ワークスペース] > [マイ ワークスペース]** の順に選択します。  
     お気に入りを示す黄色のアスタリスクがわかりますか。    
 3. **[ダッシュ ボード]** タブで、小売りの分析ダッシュ ボードの横にあるゴミ箱を **[削除]** アイコンを選択します。    
 

@@ -2,7 +2,6 @@
 title: ダッシュボード、レポート、ブック、データセット、またはワークスペースを削除する
 description: Power BI からほとんどすべてのものを削除する方法について説明します
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 087fe859c7b1a8ca732619866d492f143ff413c9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61157672"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872536"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI サービスのほとんどすべてのものを削除する
 この記事では、Power BI サービスでダッシュボード、レポート、ブック、データセット、アプリ、視覚化、ワークスペースを削除する方法について説明します。
@@ -71,7 +70,7 @@ ms.locfileid: "61157672"
 
 ### <a name="to-delete-a-dataset"></a>データセットを削除するには
 1. ワークスペースで、 **[データセット]** タブを選択します。
-2. 削除するデータセットを見つけて、省略記号 (...) を選択します。  
+2. 削除するデータセットを見つけて、**その他のオプション** (...) を選択します。  
 
     ![データセット タブ](media/service-delete/power-bi-delete-datasetnew.png)
 3. ドロップダウン リストで、 **[削除]** を選択します。
@@ -81,40 +80,41 @@ ms.locfileid: "61157672"
 
    ![ダッシュボードの削除ダイアログ](media/service-delete/power-bi-delete-dataset-confirm.png)
 
-## <a name="delete-an-app-workspace"></a>アプリ ワークスペースを削除する
+## <a name="delete-a-workspace"></a>ワークスペースの削除
 > [!WARNING]
-> アプリ ワークスペースを作成するときは、Office 365 グループを作成します。 そして、アプリ ワークスペースを削除するときは、その Office 365 グループを削除します。 つまり、SharePoint や Microsoft Teams などの他の O365 製品からもグループが削除されます。
+> ワークスペースを作成するときは、Office 365 グループを作成します。 そして、ワークスペースを削除するときは、その Office 365 グループを削除します。 つまり、SharePoint や Microsoft Teams などの他の O365 製品からもグループが削除されます。
 >
 >
 
-アプリ ワークスペースはその作成者が削除できます。 削除すると、すべてのグループ メンバーに関連するアプリも削除され、組織全体にアプリを発行した場合は、AppSource から除去されます。 アプリ ワークスペースを削除することは、アプリ ワークスペースから脱退することとは異なります。
+ワークスペースはその作成者が削除できます。 削除すると、すべてのグループ メンバーに関連するアプリも削除され、組織全体にアプリを発行した場合は、AppSource から除去されます。 ワークスペースを削除することは、ワークスペースから脱退することとは異なります。
 
-### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>アプリ ワークスペースを削除するには (管理者の場合)
-1. 左側のナビゲーションで、 **[ワークスペース]** を選択します。
+### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>ワークスペースを削除するには (管理者の場合)
+1. ナビ ペインから **[ワークスペース]** を選択します。
 
-    ![アプリ ワークスペース](media/service-delete/power-bi-delete-workspace.png)
-2. 削除するワークスペースの右にある省略記号 (...) を選択してから、 **[ワークスペースの編集]** を選択します。
+2. 削除するワークスペースの右にある**その他のオプション** (...) を選択してから、 **[ワークスペースの編集]** を選択します。
 
-   ![省略記号メニュー > [ワークスペースの編集]](media/service-delete/power-bi-edit-workspace.png)
+    ![ワークスペース](media/service-delete/power-bi-delete-workspace.png)
+
 3. **[ワークスペースの編集]** ウィンドウで、 **[ワークスペースの削除]**  >  **[削除]** の順に選択します。
 
     ![ワークスペースの削除](media/service-delete/power-bi-delete-workspace2.png)
 
-### <a name="to-remove-an-app-workspace-from-your-list"></a>リストからアプリ ワークスペースを除去するには
-アプリ ワークスペースのメンバーである必要がなくなった場合は、ワークスペースから***脱退***することができます。そうすると、ワークスペースはリストから除去されます。 ワークスペースから脱退しても、他のすべてのワークスペース メンバーはそのままです。  
+### <a name="to-remove-a-workspace-from-your-list"></a>リストからワークスペースを除去するには
+ワークスペースのメンバーである必要がなくなった場合は、ワークスペースから***脱退***することができます。そうすると、ワークスペースはリストから除去されます。 ワークスペースから脱退しても、他のすべてのワークスペース メンバーはそのままです。  
 
 > [!IMPORTANT]
-> アプリ ワークスペースの管理者が 1 人しかいない場合、Power BI ではその管理者の脱退は許可されません。
+> ワークスペースの管理者が 1 人しかいない場合、Power BI ではその管理者の脱退は許可されません。
 >
 >
 
-1. 除去するアプリ ワークスペースから開始します。
-2. 右上隅にある省略記号 (...) を選択し、 **[Leave workspace (ワークスペースからの脱退)]**  >  **[脱退]** の順に選択します。
+1. 除去するワークスペースに移動します。
+
+2. 右上隅にある**その他のオプション** (...) を選択し、 **[ワークスペースからの脱退]**  >  **[脱退する]** の順に選択します。
 
       ![ワークスペースからの脱退](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
-   > ドロップダウン リストに表示されるオプションは、そのアプリ ワークスペースの管理者であるか、メンバーであるかによって異なります。
+   > ドロップダウン リストに表示されるオプションは、そのワークスペースの管理者であるか、メンバーであるかによって異なります。
    >
    >
 
@@ -124,7 +124,7 @@ ms.locfileid: "61157672"
 ### <a name="remove-an-app-from-your-app-list-page"></a>アプリ リスト ページからアプリを除去する
 アプリ リスト ページからアプリを削除しても、他のメンバーのアプリは削除されません。
 
-1. 左側のナビゲーションで、 **[アプリ]** を選択してアプリ リスト ページを開きます。
+1. ナビ ペインで、 **[アプリ]** を選択してアプリ リスト ページを開きます。
 2. 削除するアプリにカーソルを合わせ、削除アイコン ![](media/service-delete/power-bi-delete-report2.png) を選択します。
 
    ![アプリの選択](media/service-delete/power-bi-delete-app.png)
@@ -140,4 +140,4 @@ ms.locfileid: "61157672"
 * [ダッシュボード タイルを削除する](service-dashboard-edit-tile.md)
 * [レポートの視覚化を削除する](service-delete.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

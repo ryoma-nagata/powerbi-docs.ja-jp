@@ -3,19 +3,18 @@ title: Power BI 用の独自の暗号化キーを使用する (プレビュー)
 description: Power BI Premium で独自の暗号化キーを使用する方法を学習します。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 39c6dc8a60be67f8f9e99e01ae1c7249166c5ddb
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 7ab5b09aa6341acf86e039c5951e4752e260876e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877727"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881862"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI 用の独自の暗号化キーを使用する (プレビュー)
 
@@ -32,6 +31,7 @@ BYOK を使用するには、Power BI Desktop (PBIX) ファイルから Power BI
 - Analysis Services ライブ接続
 - Excel ブック (データが最初に Power BI Desktop にインポートされる場合を除く)
 - プッシュ データセット
+- [大規模なモデル](service-premium-large-models.md)
 
 BYOK は PBIX ファイルに関連付けられたデータセットにのみ適用され、タイルやビジュアル用のクエリ結果キャッシュには適用されません。
 

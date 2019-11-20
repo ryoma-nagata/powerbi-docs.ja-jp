@@ -1,24 +1,27 @@
 ---
 title: Power BI REST API リファレンス
 description: Power BI REST API リファレンス
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 7677bbc71f141b0ca64bfa9d10d8c5b3c884904c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 0a42400c41d215a0cbe31bbb5fa0324abe4f6084
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61270129"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880380"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API リファレンス
 
-Power BI は、カスタム ダッシュ ボード アプリケーションの作成に使用できる、クラウド ベースのサービスです。 Power BI REST API は、Power BI の **データセット** 、 **テーブル**、 **行**などの **ダッシュボード** リソースへのプログラムによるアクセスを提供する REST ベースの API です。
+Power BI は、カスタム ダッシュ ボード アプリケーションの作成に使用できる、クラウド ベースのサービスです。 Power BI REST API は、サービスが使用している次のようなすべての成果物へのプログラムによるアクセスを提供する、REST ベースの API です。
+* データセット
+* ダッシュボード
+* レポート
+* ゲートウェイ
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
@@ -31,4 +34,4 @@ Power BI REST API には、次の操作があります。
 
 Power BI REST API の詳細については、「[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)」(Power BI REST API) を参照してください。
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

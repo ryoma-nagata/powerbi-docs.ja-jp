@@ -2,7 +2,6 @@
 title: Power BI ゲートウェイ (個人用モード) のトラブルシューティング
 description: Power BI ゲートウェイ (個人用モード) のトラブルシューティング
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543527"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873369"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI ゲートウェイ (個人用モード) のトラブルシューティング
 
@@ -111,7 +110,7 @@ ms.locfileid: "72543527"
 ### <a name="refresh-history"></a>更新履歴
 **[更新履歴]** を使用すると、サポート要求を作成する必要がある場合に、どのようなエラーが発生したかを確認し、役立つデータを見つけることができます。 スケジュールされた更新とオンデマンドの更新の両方を表示できます。 **[更新履歴]** を表示する方法を次に示します。
 
-1. Power BI ナビゲーション ウィンドウの **[データセット]** で、データセットを選択します。 メニューを開き、 **[更新のスケジュール設定]** を選択します。
+1. Power BI のナビ ペインの **[データセット]** で、データセットを選択します。 メニューを開き、 **[更新のスケジュール設定]** を選択します。
 
    ![[更新のスケジュール設定] を選択する](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
 1. **[設定]** で、 **[更新履歴]** を選択します。 
@@ -128,7 +127,7 @@ ms.locfileid: "72543527"
 ![Data Management Gateway と PowerBIGateway のログ](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Fiddler のトレース
-[Fiddler](http://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。 クライアント マシンからの Power BI サービスとの通信を確認できます。 この通信には、エラーやその他の関連情報が示される場合があります。
+[Fiddler](https://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。 クライアント マシンからの Power BI サービスとの通信を確認できます。 この通信には、エラーやその他の関連情報が示される場合があります。
 
 ![Fiddler のトレース](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ ms.locfileid: "72543527"
 - [タイルのエラーのトラブルシューティング](refresh-troubleshooting-tile-errors.md)  
 - [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md) 
  
-他にわからないことがある場合は、 [Power BI コミュニティ](http://community.powerbi.com/)で質問してみてください。
+他にわからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
 

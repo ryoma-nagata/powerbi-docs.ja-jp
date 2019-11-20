@@ -2,7 +2,6 @@
 title: Excel 2016 から Power BI へ発行する
 description: Excel ブックを Power BI サイトに発行する方法について説明します。
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb9ff3ae6b08111156616a84ee795131c708f42c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 81bc53bae43cb16af92a9ecaf20c26c594a24368
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514791"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881134"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Excel 2016 から Power BI へ発行する
 Excel 2016 では、Excel ブックのデータに基づいて対話性の高いレポートやダッシュボードを作成できる [Power BI](https://powerbi.microsoft.com) サイトに Excel ブックを直接発行できます。 これにより、分析情報を組織内のユーザーと共有できます。
@@ -63,7 +62,7 @@ OneDrive にブックが保存されている状態で **[発行]** を選択す
 
 Power BI で開いているブックを編集することはできません。ただし、変更を加える必要がある場合は、 **[編集]** を選択して、Excel Online でブックを編集するか、自分のコンピューターの Excel で開くかを選択できます。 ブックに加えたすべての変更は、OneDrive 上のブックに保存されます。
 
-ブックをアップロードするとき、Power BI にデータセットは作成されません。 ブックは、ワークスペース ナビゲーション ウィンドウの [レポート] に表示されます。 Power BI にアップロードされたブックは、アップロード済みの Excel ブックであることを示す特殊な Excel アイコンで表示されます。
+ブックをアップロードするとき、Power BI にデータセットは作成されません。 ブックは、ワークスペース ナビ ペインの [レポート] に表示されます。 Power BI にアップロードされたブックは、アップロード済みの Excel ブックであることを示す特殊な Excel アイコンで表示されます。
 
 このオプションは、データがワークシートにのみ存在する場合や、Power BI で表示したいピボットテーブルやグラフがある場合に選択します。
 Excel の [Power BI へ発行] から [アップロード] を使用することは、ブラウザーの Power BI から [データの取得]、[ファイル]、[OneDrive for Business]、[Power BI で Excel に接続し、管理し、表示する] の順に選択することと同じです。
@@ -88,5 +87,5 @@ Excel の [Power BI へ発行] から [エクスポート] を使用すること
 
 ## <a name="next-steps"></a>次の手順
 [Power BI の Excel データ](service-excel-workbook-files.md)  
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

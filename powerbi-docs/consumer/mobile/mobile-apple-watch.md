@@ -2,25 +2,24 @@
 title: Apple Watch のモバイル アプリで Power BI のデータを探索する
 description: Power BI Apple Watch アプリ
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 31db6725c027ed09e900dac7036778004e9e3ff3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61338924"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870734"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch の Power BI モバイル アプリでデータを探索する
 Power BI Apple Watch アプリを使用すると、ウォッチ上で Power BI ダッシュボードから KPI とカード タイルを表示できます。 KPI とカード タイルは、小さな画面でハートビートを測定するのに最適です。 iPhone から、または Watch 自体から、ダッシュボードを更新できます。
 
 ## <a name="install-the-apple-watch-app"></a>Apple Watch アプリのインストール
-Power BI Apple Watch アプリは Power BI for iOS アプリにバンドルされているため、Apple App Store から [iPhone にこの Power BI アプリをダウンロード](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone アプリをダウンロード")すると、自動的に Power BI Watch アプリもダウンロードされます。 Apple のガイドでは、[Apple Watch アプリケーションをインストールする](https://support.apple.com/HT204784)方法を説明しています。
+Power BI Apple Watch アプリは Power BI for iOS アプリにバンドルされているため、Apple App Store から [iPhone にこの Power BI アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkId=522062 "iPhone アプリのダウンロード")すると、自動的に Power BI Watch アプリもダウンロードされます。 Apple のガイドでは、[Apple Watch アプリケーションをインストールする](https://support.apple.com/HT204784)方法を説明しています。
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Apple Watch での Power BI アプリの使用
 Power BI Apple Watch アプリケーションに移動するには、ウォッチのスプリングボードから、または直接ウォッチの文字盤で Power BI ウィジェット (構成されている場合) をクリックします。
@@ -52,7 +51,7 @@ Watch アプリによって、ダッシュボードが Power BI サービスか�
 Apple Watch 上のダッシュ ボードを iPhone から更新することもできます。
 
 1. iPhone の Power BI で、Apple Watch と同期するダッシュボードを開きます。 
-2. 省略記号 (...)、 **[Watch との同期]** の順に選択します。
+2. **その他のオプション** (...) を選択し、 **[Watch との同期]** を選択します。
 
 Power BI では、ダッシュボードがウォッチと同期していることを示すインジケーターが表示されます。
 
@@ -86,7 +85,7 @@ Apple Watch の文字盤のスペースは小さいため、Power BI Apple Watch
 ## <a name="next-steps"></a>次の手順
 Power BI モバイル アプリで使用したいその他の機能にぜひ投票してください。お客様からのフィードバックは、将来実装する機能を決めるのに役立ちます。 
 
-* [Power BI iPhone モバイル アプリ](http://go.microsoft.com/fwlink/?LinkId=522062)をダウンロードする
+* [Power BI iPhone モバイル アプリ](https://go.microsoft.com/fwlink/?LinkId=522062)をダウンロードする
 * Twitter で [@MSPowerBI をフォローする](https://twitter.com/MSPowerBI)
-* [Power BI コミュニティの会話](http://community.powerbi.com/)に参加する
+* [Power BI コミュニティの会話](https://community.powerbi.com/)に参加する
 

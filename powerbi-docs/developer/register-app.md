@@ -1,20 +1,19 @@
 ---
 title: アプリを登録して Power BI コンテンツを埋め込む
 description: 埋め込みの Power BI コンテンツとともに使用するため、Azure Active Directory 内にアプリケーションを登録する方法を説明します。
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a2aa135bfa5720763485579b012c13c722637db
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269695"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009789"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Azure AD アプリケーションを登録して Power BI とともに使用する
 
@@ -83,7 +82,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 
 3. ページの右上隅でご自分のアカウントを選択することで、ご自分の Azure AD テナントを選択します。
 
-4. 左側のナビゲーション ウィンドウで、 **[すべてのサービス]** に移動し、 **[アプリの登録]** を選択して、 **[New registration]\(新規登録\)** を選択します。
+4. 左側のナビ ペインで、 **[すべてのサービス]** に移動し、 **[アプリの登録]** を選択して、 **[New registration]\(新規登録\)** を選択します。
 
 5. 画面の指示に従って、新しいアプリケーションを作成します。
 
@@ -105,7 +104,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 
 ### <a name="using-the-azure-ad-portal"></a>Azure AD ポータルの使用
 
-1. Azure portal 内で [[アプリの登録]](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) を参照して、埋め込みに使うアプリを選びます。
+1. Azure portal 内で [[アプリの登録]](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/) を参照して、埋め込みに使うアプリを選びます。
 
 2. **[管理]** で **[API のアクセス許可]** を選択します。
 
@@ -199,4 +198,4 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 
 Azure AD でアプリケーションを登録したので、アプリケーションでユーザーを認証する必要があります。 詳細については、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

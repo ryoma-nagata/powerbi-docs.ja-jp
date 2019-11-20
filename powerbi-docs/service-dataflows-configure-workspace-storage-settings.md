@@ -1,8 +1,7 @@
 ---
 title: ワークスペース データフローの設定の構成
-description: Power BI にアプリのワークスペースを構成して、Azure Data Lake Storage Gen2 内にデータフロー定義とデータ ファイルを格納します
+description: Power BI にワークスペースを構成して、Azure Data Lake Storage Gen2 内にデータフロー定義とデータ ファイルを格納します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: fa448dac3e7788639377ce2d73d9c0ed68952fb3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523520"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877342"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>ワークスペース データフローの設定の構成 (プレビュー)
 
@@ -35,11 +34,11 @@ Power BI とデータフローを使用すると、ワークスペースのデ�
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>新しいワークスペースを作成して、そのデータフロー ストレージを構成する
 
-Power BI サービスに新しいアプリのワークスペースを作成するには、 **[ワークスペース] > [アプリのワークスペースの作成]** の順に選択します。
+Power BI サービスに新しいワークスペースを作成するには、 **[ワークスペース] > [ワークスペースの作成]** の順に選択します。
 
 ![新しいワークスペースを追加する](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-[アプリのワークスペースの作成] ダイアログに、 **[強化されたワークスペースをプレビューする]** というタイトルの黄色いボックスが表示されます。 この領域で、 **[今すぐ試す]** を選択します。
+[ワークスペースの作成] ダイアログに、 **[強化されたワークスペースをプレビューする]** というタイトルの黄色いボックスが表示されます。 この領域で、 **[今すぐ試す]** を選択します。
 
 ![強化されたワークスペースをプレビューする](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
@@ -47,7 +46,7 @@ Power BI サービスに新しいアプリのワークスペースを作成す�
 
 ![新しいワークスペースに名前を付ける](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-次に、 **[アプリのワークスペースの作成]** ダイアログの **[詳細]** 領域を展開します。ここで、 **[データフロー ストレージ (プレビュー)]** 設定を有効にできます。
+次に、 **[ワークスペースの作成]** ダイアログの **[詳細]** 領域を展開します。ここで、 **[データフロー ストレージ (プレビュー)]** 設定を有効にできます。
 
 ![新しいワークスペースの詳細設定](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
@@ -57,7 +56,7 @@ Power BI サービスに新しいアプリのワークスペースを作成す�
 
 別の方法として、新しいワークスペースを作成するために、既存のワークスペースを更新して、組織の Azure Data Lake Storage Gen2 アカウントに定義ファイルとデータを格納できます。 ワークスペースにデータフローがまだ何も含まれていない場合しか、データフロー ストレージの設定を変更できないことに注意してください。
 
-アプリのワークスペースを編集するには、省略記号 **(...)** を選択して、 **[ワークスペースの編集]** を選択します。 
+ワークスペースを編集するには、省略記号 **(...)** を選択して、 **[ワークスペースの編集]** を選択します。 
 
 ![ワークスペースの編集](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
@@ -103,7 +102,7 @@ Power BI Pro、Premium、および埋め込みのワークスペース:
 
 **Power BI Desktop** の顧客は、データフローの所有者である場合を除いて、Azure Data Lake Storage Gen2 アカウント内に格納されているデータフローにはアクセスできません。 次の状況を検討します。
 
-1.  アンナは新しいアプリのワークスペースを作成して、組織内の Data Lake にデータフローを格納するように構成しました。
+1.  Anna は新しいワークスペースを作成して、組織内の Data Lake にデータフローを格納するように構成しました。
 2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得することを考えています。
 3.  ベンは Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受け取ります。
 
@@ -138,4 +137,4 @@ Common Data Model について詳しくは、次の概要記事をご覧くだ�
 * [CDM フォルダー](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM モデル ファイル定義](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-[Power BI コミュニティへの質問](http://community.powerbi.com/)は、いつでも行うことができます。
+[Power BI コミュニティへの質問](https://community.powerbi.com/)は、いつでも行うことができます。

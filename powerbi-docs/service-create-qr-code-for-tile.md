@@ -2,7 +2,6 @@
 title: Power BI モバイル アプリで使用するタイルの QR コードを作成する
 description: Power BI で QR コードを使用すると、実世界の任意のものを、Power BI モバイル アプリの関連する BI 情報に直接接続することができます。検索の必要はありません。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cab65ad12255b7a5ff2e37902684437f0e191723
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 10faca7cf81575dddd2abb29afee1aca0e9f1279
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61169050"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853339"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>モバイル アプリで使用する Power BI のタイルの QR コードを作成する
 Power BI で QR コードを使用すると、実世界の任意のものを、関連する BI 情報に直接接続することができます。ナビゲーションや検索の必要がなくなります。
@@ -27,8 +26,8 @@ Power BI サービスでは、自分では編集できないダッシュボー�
 
 ## <a name="create-a-qr-code-for-a-tile"></a>タイルの QR コードを作成する
 1. Power BI サービスで、ダッシュボードを開きます。
-2. タイルの右上隅にある省略記号 (...) を選び、 **[フォーカス モード]** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg) を選びます。
-3. 右上隅にある省略記号 (...) を選び、 **[QR コードの生成]** を選びます。 
+2. タイルの右上隅にある**その他のオプション** (...) を選び、 **[フォーカス モード]** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg) を選びます。
+3. 右上隅にある**その他のオプション** (...) を選び、 **[QR コードの生成]** を選びます。 
    
     ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. QR コードを含むダイアログ ボックスが表示されます。 
@@ -55,5 +54,5 @@ Power BI は QR コードを JPG ファイルとして生成するので、印�
 * [モバイル アプリで現実世界から Power BI データに接続する](consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [モバイル デバイスから Power BI QR コードをスキャンする](consumer/mobile/mobile-apps-qr-code.md)
 * [レポートの QR コードを作成する](service-create-qr-code-for-report.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

@@ -2,7 +2,6 @@
 title: '組織のコンテンツ パック: アクセスしてコピーする'
 description: Power BI で組織のコンテンツ パックのコピーを作成する方法、および Power BI のコンテンツ パックへのアクセスをトラブルシューティングする方法について説明します
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 905e461c69a898b41b45e48405c3aaaa6e09cfec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019632"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881305"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>組織のコンテンツ パック: コピー、更新、およびアクセスの取得
 
@@ -30,7 +29,7 @@ ms.locfileid: "72019632"
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>組織のコンテンツ パックのコピーを作成する
 他のユーザーは見ることができない、コンテンツ パックの自分専用のコピーを作成します。
 
-1. コンテンツ パック ダッシュボードの横にある省略記号 ([...]) を選択し、[コピーの作成] を選択します。
+1. コンテンツ パック ダッシュボードの横にある **[その他のオプション]** (...) を選択し、[コピーの作成] を選択します。
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. **[保存]** を選択します。  
@@ -58,4 +57,4 @@ ms.locfileid: "72019632"
 ## <a name="next-steps"></a>次の手順
 * [組織のコンテンツ パックの概要](service-organizational-content-pack-introduction.md)
 * [Power BI でのグループの作成](service-create-distribute-apps.md)
-* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

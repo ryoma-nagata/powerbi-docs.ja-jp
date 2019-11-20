@@ -3,19 +3,18 @@ title: Power BI でのサービス プリンシパル
 description: 埋め込み Power BI コンテンツで使用するために、サービス プリンシパルを使用して Azure Active Directory 内でアプリケーションを登録する方法を説明します。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073102"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877651"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI でのサービス プリンシパル
 
@@ -58,8 +57,8 @@ Power BI の成果物とリソースが[新しい Power BI ワークスペース
 |------------------------------------------------------|---------------------|-------------------|
 | Power BI サービスにサインインできる  | はい | いいえ |
 | Power BI 管理ポータルで有効にする | いいえ | はい |
-| [アプリ ワークスペース (v1) で動作する](../service-create-workspaces.md) | はい | いいえ |
-| [新しいアプリ ワークスペース (v2) で動作する](../service-create-the-new-workspaces.md) | はい | はい |
+| [ワークスペース (v1) で動作する](../service-create-workspaces.md) | はい | いいえ |
+| [新しいワークスペース (v2) で動作する](../service-create-the-new-workspaces.md) | はい | はい |
 | Power BI Embedded で使用する場合は、ワークスペース管理者である必要がある | はい | はい |
 | Power BI REST API を使用できる | はい | はい |
 | 作成するにはグローバル管理者である必要がある | はい | いいえ |
@@ -141,7 +140,7 @@ Power BI の成果物とリソースをワークスペース間で移動する�
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>サービス プリンシパル オブジェクト ID を取得する方法
 
-新しいアプリ ワークスペースにサービス プリンシパルを割り当てるには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) を使用します。 ワークスペースに管理者としてサービス プリンシパルを適用するなど、サービス プリンシパルを各種操作または変更のために参照するには、**サービス プリンシパル オブジェクト ID** を使用します。
+新しいワークスペースにサービス プリンシパルを割り当てるには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) シリーズを使用します。 ワークスペースに管理者としてサービス プリンシパルを適用するなど、サービス プリンシパルを各種操作または変更のために参照するには、**サービス プリンシパル オブジェクト ID** を使用します。
 
 Azure portal からサービス プリンシパル オブジェクト ID を取得する手順を次に示します。
 
@@ -166,7 +165,7 @@ PowerShell でサービス プリンシパル オブジェクト ID を取得す
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
-* サービス プリンシパルは、[新しいアプリ ワークスペース](../service-create-the-new-workspaces.md)でのみ動作します。
+* サービス プリンシパルは、[新しいワークスペース](../service-create-the-new-workspaces.md)でのみ動作します。
 * サービス プリンシパルを使用する場合は、**マイ ワークスペース**はサポートされません。
 * 運用環境に移行するときは、専用の容量が必要です。
 * サービス プリンシパルを使用して Power BI ポータルにサインインすることはできません。

@@ -1,67 +1,74 @@
 ---
-title: オンプレミス データ ソースへの SSO に SAML を使用する
+title: Power BI からオンプレミス データ ソースへの SSO に Security Assertion Markup Language (SAML) を使用する
 description: Security Assertion Markup Language (SAML) でゲートウェイを構成し、Power BI からオンプレミス データ ソースへの SSO を有効にします。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 62bb2f1e334d6bb125a2fffc49cd62611080ef29
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 6117cc884bc50e78ec0ec41f18b7868422165d78
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968944"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881461"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへの SSO に Security Assertion Markup Language (SAML) を使用する
 
-[Security Assertion Markup Language (SAML)](https://www.onelogin.com/pages/saml) を使用し、シームレスなシングル サインオン接続を有効にします。 SSO を有効にすると、Power BI レポートおよびダッシュボードでは、オンプレミスのソース上で構成されているユーザー レベルのアクセス許可を考慮しながら、それらのソースからのデータを簡単に更新できるようになります。
+SSO を有効にすると、Power BI レポートおよびダッシュボードでは、オンプレミスのソース上で構成されているユーザー レベルのアクセス許可を考慮しながら、それらのソースからのデータを簡単に更新できるようになります。 [Security Assertion Markup Language (SAML)](https://www.onelogin.com/pages/saml) を使用し、シームレスなシングル サインオン接続を有効にします。 
 
 ## <a name="supported-data-sources"></a>サポートされているデータ ソース
 
-現在、SAP HANA に SAML をご利用いただけます。 SAML を利用した SAP HANA のシングル サインオンを設定し、構成する方法については、SAP HANA ドキュメントのトピック「[SAML SSO for BI Platform to HANA](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA)」(BI プラットフォームの HANA に対する SAML SSO) を参照してください。
+現在、SAP HANA に SAML をご利用いただけます。 SAML を使用した SAP HANA のシングル サインオンの設定と構成の詳細については、「[BI プラットフォームから HANA への SAML SSO](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA)」を参照してください。
 
-[Kerberos](service-gateway-sso-kerberos.md) では、追加のデータ ソース (HANA を含む) をサポートしています。
+[Kerberos](service-gateway-sso-kerberos.md) では、追加のデータ ソース (SAP HANA を含む) をサポートしています。
 
-HANA の場合は、SAML SSO 接続を確立する前に暗号化を有効にすることを**強く**お勧めします (つまり、暗号化された接続を受け入れるように HANA サーバーを構成し、さらに HANA サーバーと通信するときに暗号化を使用するようにゲートウェイを構成する必要があります)。 HANA ODBC ドライバーは既定では SAML アサーションを暗号化することが**できません**。暗号化を有効にしないまま、署名された SAML アサーションがゲートウェイから HANA サーバーに "プレーンテキスト" で送信されると、そのアサーションは第三者による傍受および再利用に対して脆弱になります。 OpenSSL ライブラリを使用して HANA の暗号化を有効にする方法については、「[SAP HANA の暗号化を有効にする](/power-bi/desktop-sap-hana-encryption)」を参照してください。
+SAP HANA については、SAML SSO 接続を確立する前に暗号化を有効にすることをお勧めします。 暗号化を有効にするには、暗号化された接続を許可するよう HANA サーバーを構成し、HANA サーバーとの通信に暗号化を使用するようゲートウェイを構成します。 HANA ODBC ドライバーは既定で SAML アサーションを暗号化しないため、署名された SAML アサーションは、ゲートウェイから HANA サーバーに "*プレーンテキスト*" で送信され、第三者による傍受や再利用に対して脆弱になります。 OpenSSL ライブラリを使用して HANA の暗号化を有効にする方法については、「[SAP HANA の暗号化を有効にする](/power-bi/desktop-sap-hana-encryption)」を参照してください。
 
 ## <a name="configuring-the-gateway-and-data-source"></a>ゲートウェイとデータ ソースを構成する
 
-SAML を使用するには、HANA サーバー (これに対して SSO を有効にする) とゲートウェイ (このシナリオでは SAML ID プロバイダー (IdP) として機能する) との間に信頼関係を確立する必要があります。 この関係を確立するにはさまざまな方法があります。たとえば、ゲートウェイ IdP の x509 証明書を HANA サーバーの信頼ストアにインポートするという方法や、HANA サーバーによって信頼されたルート証明機関 (CA) の署名が入ったゲートウェイの X509 証明書を用意するという方法が挙げられます。 このガイドでは後者の方法について説明しますが、もう一方が都合が良い場合はそちらを使用してかまいません。
+SAML を使用するには、SSO を有効にする HANA サーバーとゲートウェイの間に信頼関係を確立する必要があります。 このシナリオでは、ゲートウェイは SAML ID プロバイダー (IdP) として機能します。 この関係を確立するにはさまざまな方法があります。たとえば、ゲートウェイ IdP の x509 証明書を HANA サーバーの信頼ストアにインポートしたり、HANA サーバーが信頼するルート証明機関 (CA) によって署名されたゲートウェイの X509 証明書を用意したりします。 このガイドでは後者の方法について説明しますが、もう一方が都合が良い場合はそちらを使用してかまいません。
 
-また、このガイドでは HANA サーバーの暗号化サービス プロバイダーとして OpenSSL を使用しますが、OpenSSL ではなく SAP 暗号化ライブラリ (CommonCryptoLib または sapcrypto とも呼ばれる) を使用して、信頼関係を確立するためのセットアップ手順を行うことを SAP は推奨しています。 詳細については、公式の SAP ドキュメントを参照してください。
+このガイドでは HANA サーバーの暗号化サービス プロバイダーとして OpenSSL を使用しますが、SAP では、OpenSSL ではなく SAP 暗号化ライブラリ (CommonCryptoLib または sapcrypto とも呼ばれる) を使用して、信頼関係を確立するための設定手順を完了することを推奨しています。 詳細については、SAP の公式ドキュメントを参照してください。
 
-次の手順では、HANA サーバーによって信頼されたルート CA を使用してゲートウェイ IdP の X509 証明書に署名することで、HANA サーバーとゲートウェイ IdP 間の信頼関係を確立する方法について説明します。 このルート CA を作成します。
+次の手順では、HANA サーバーによって信頼されたルート CA を使用してゲートウェイ IdP の X509 証明書に署名することで、HANA サーバーとゲートウェイ IdP の間の信頼関係を確立する方法について説明します。 このルート CA を作成します。
 
-1. ルート CA の X509 証明書と秘密キーを作成します。 たとえば、ルート CA の X509 証明書と秘密キーを .pem の形式で作成するには:
+1. ルート CA の X509 証明書と秘密キーを作成します。 たとえば、ルート CA の X509 証明書と .pem 形式の秘密キーを作成するには、次のコマンドを入力します。
 
    ```
    openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
    ```
 
-    ルート CA の秘密キーが適切にセキュリティで保護されていることを確認します。サードパーティによって取得された場合は、HANA サーバーへの未承認のアクセスを取得するために使用できます。
+    ルート CA の秘密キーが適切にセキュリティで保護されていることを確認します。 第三者の手に渡った場合、HANA サーバーへの不正アクセスに使用されるおそれがあります。 
 
-    作成したばかりの、ルート CA によって署名された証明書が HANA サーバーによって信頼されるように、HANA サーバーの信頼ストアに証明書 (CA_Cert.pem など) を追加します。 ご利用の HANA サーバーの信頼ストアの場所は、**ssltruststore** 構成設定を調べれば見つかります。 OpenSSL の構成方法につい説明した SAP ドキュメントに従っている場合、再利用できるルート CA は既にご使用の HANA サーバーによって信頼されている可能性があります。 詳細については、「[How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571)」(SAP HANA Studio と SAP HANA Server 間に Open SSL を構成する方法) を参照してください。 SAML SSO を有効にする HANA サーバーが複数ある場合は、このルート CA がそれらのサーバーの各々によって信頼されていることを確認します。
+ 1. 作成したルート CA によって署名された証明書が HANA サーバーから信頼されるように、HANA サーバーの信頼ストアに証明書 (CA_Cert.pem など) を追加します。 
 
-1. ゲートウェイ IdP の X509 証明書を作成します。 たとえば、1 年間有効な証明書署名要求 (IdP_Req.pem) と秘密キー (IdP_Key.pem) を作成するには、次のコマンドを実行します。
+    ご利用の HANA サーバーの信頼ストアの場所は、**ssltruststore** 構成設定を調べると見つかります。 OpenSSL の構成方法について説明した SAP ドキュメントの手順に従っている場合、再利用できるルート CA は既にご使用の HANA サーバーによって信頼されている可能性があります。 詳細については、「[SAP HANA Studio と SAP HANA Server 間に Open SSL を構成する方法](https://archive.sap.com/documents/docs/DOC-39571)」を参照してください。 SAML SSO を有効にする HANA サーバーが複数ある場合は、このルート CA が各サーバーによって信頼されていることを確認します。
+
+1. ゲートウェイ IdP の X509 証明書を作成します。 
+
+   たとえば、1 年間有効な証明書署名要求 (IdP_Req.pem) と秘密キー (IdP_Key.pem) を作成するには、次のコマンドを実行します。
 
    ```
    openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
    ```
 
-   ご利用の HANA サーバーで信頼されるルート CA を使用して証明書署名要求に署名します。 たとえば、CA_Cert.pem と CA_Key.pem (ルート CA の証明書とキー) を使用して IdP_Req.pem に署名するには、次のコマンドを実行します。
+ 1. ご利用の HANA サーバーによって信頼されるように構成したルート CA を使用して証明書署名要求に署名します。 
 
-   ```
-   openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
-   ```
+    たとえば、CA_Cert.pem と CA_Key.pem (ルート CA の証明書とキー) を使用して IdP_Req.pem に署名するには、次のコマンドを実行します。
 
-結果として生成される IdP 証明書は 1 年間有効になります (日付けオプションを参照)。 ここで、ご自分の IdP の証明書を HANA Studio にインポートして、新しい SAML ID プロバイダーを作成します。
+    ```
+    openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
+    ```
 
-1. SAP HANA Studio で、SAP HANA サーバーを右クリックし、 **[Security]\(セキュリティ\)** &gt; **[Open Security Console]\(セキュリティ コンソールを開く\)** &gt; **[SAML Identity Provider]\(SAML ID プロバイダー\)** &gt; **[OpenSSL Cryptographic Library]\(OpenSSL 暗号化ライブラリ\)** の順に移動します。
+     結果として生成される IdP 証明書は 1 年間有効です (-days オプションを参照)。 
+
+ご自分の IdP の証明書を HANA Studio にインポートして、新しい SAML ID プロバイダーを作成します。
+
+1. SAP HANA Studio で、SAP HANA サーバー名を右クリックし、 **[Security]\(セキュリティ\)** &gt; **[Open Security Console]\(セキュリティ コンソールを開く\)** &gt; **[SAML Identity Provider]\(SAML ID プロバイダー\)** &gt; **[OpenSSL Cryptographic Library]\(OpenSSL 暗号化ライブラリ\)** の順に移動します。
 
     ![ID プロバイダー](media/service-gateway-sso-saml/identity-providers.png)
 
@@ -71,19 +78,21 @@ SAML を使用するには、HANA サーバー (これに対して SSO を有効
 
     ![[Security] フォルダー](media/service-gateway-sso-saml/security-folder.png)
 
-1. **[User]\(ユーザー\)** を展開し、Power BI ユーザーをマッピングするユーザーを選択します。
+1. **[User]\(ユーザー\)** を展開し、Power BI ユーザーをマップするユーザーを選択します。
 
 1. **[SAML]** を選択し、 **[Configure]\(構成\)** を選択します。
 
     ![SAML を構成する](media/service-gateway-sso-saml/configure-saml.png)
 
-1. 手順 2 で作成した ID プロバイダーを選択します。 **[External Identity]\(外部 ID\)** に Power BI ユーザーの UPN (すなわち、ユーザーが Power BI へのログインに使用するメール アドレス) を入力し、 **[Add]\(追加\)** を選択します。 *ADUserNameReplacementProperty* 構成オプションを使用するようにゲートウェイを構成した場合は、Power BI ユーザーの元の UPN を置き換える値を入力する必要があることに注意してください。 たとえば、*ADUserNameReplacementProperty* を **SAMAccountName** に設定する場合は、ユーザーの **SAMAccountName** を入力する必要があります。
+1. 手順 2 で作成した ID プロバイダーを選択します。 **[External Identity]\(外部 ID\)** に Power BI ユーザーの UPN (通常は、Power BI へのログインにユーザーが使用するメール アドレス) を入力し、 **[Add]\(追加\)** を選択します。 *ADUserNameReplacementProperty* 構成オプションを使用するようゲートウェイを構成した場合は、Power BI ユーザーの元の UPN を置き換える値を入力します。 
+
+   たとえば、*ADUserNameReplacementProperty* を **SAMAccountName** に設定する場合は、ユーザーの **SAMAccountName** を入力する必要があります。
 
     ![ID プロバイダーを選択する](media/service-gateway-sso-saml/select-identity-provider.png)
 
-これで証明書と ID を構成できたので、ゲートウェイの証明書を pfx 形式に変換し、証明書を使用するようにゲートウェイを構成します。
+これでゲートウェイの証明書と ID を構成できたので、証明書を pfx 形式に変換し、この証明書を使用するようゲートウェイを構成します。
 
-1. 次のコマンドを実行し、証明書を pfx 形式に変換します。 このコマンドでは、結果として作成された .pfx ファイルである samlcert.pfx に名前を設定し、そのパスワードを "root" に設定します。
+1. 次のコマンドを実行し、証明書を pfx 形式に変換します。 このコマンドでは、結果として作成される .pfx ファイルに samlcert.pfx という名前を設定し、そのパスワードを *root* に設定します。
 
     ```
     openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
@@ -99,7 +108,7 @@ SAML を使用するには、HANA サーバー (これに対して SSO を有効
 
     1. **[次へ]** を選択し、 **[完了]** を選択します。
 
-    ![証明書をインポートする](media/service-gateway-sso-saml/import-certificate.png)
+       ![証明書をインポートする](media/service-gateway-sso-saml/import-certificate.png)
 
 1. 証明書の秘密キーにアクセスする許可をゲートウェイ サービス アカウントに付与します。
 
@@ -125,9 +134,9 @@ SAML を使用するには、HANA サーバー (これに対して SSO を有効
 
         ![ゲートウェイ サービス](media/service-gateway-sso-saml/gateway-service.png)
 
-最後に、次の手順を実行し、証明書の拇印をゲートウェイ構成に追加します。
+最後に、次の手順を実行して、証明書の拇印をゲートウェイ構成に追加します。
 
-1. 次の PowerShell コマンドを実行し、コンピューター上の証明書を一覧表示します。
+1. 次の PowerShell コマンドを実行して、マシン上の証明書を一覧表示します。
 
     ```powershell
     Get-ChildItem -path cert:\LocalMachine\My
@@ -135,21 +144,21 @@ SAML を使用するには、HANA サーバー (これに対して SSO を有効
 
 1. 作成した証明書の拇印をコピーします。
 
-1. ゲートウェイ ディレクトリに移動します。このディレクトリは既定で *C:\Program Files\On-premises data gateway* です。
+1. ゲートウェイ ディレクトリ (既定では C:\Program Files\On-premises data gateway) に移動します。
 
-1. **PowerBI.DataMovement.Pipeline.GatewayCore.dll.config** を開き、*SapHanaSAMLCertThumbprint* セクションを見つけます。 コピーした拇印を貼り付けます。
+1. PowerBI.DataMovement.Pipeline.GatewayCore.dll.config を開き、*SapHanaSAMLCertThumbprint* セクションを見つけます。 コピーした拇印を貼り付けます。
 
 1. ゲートウェイ サービスを再起動します。
 
 ## <a name="running-a-power-bi-report"></a>Power BI レポートを実行する
 
-これで Power BI の **[Manage Gateway]\(ゲートウェイの管理\)** ページを使用して SAP HANA データ ソースを構成し、その **[詳細設定]** で SSO を有効にすることができます。 その後、そのデータ ソースにバインドされているレポートやデータセットを公開できます。
+Power BI の **[Manage Gateway]\(ゲートウェイの管理\)** ページを使用して SAP HANA データ ソースを構成できるようになりました。 **[詳細設定]** で、SAML 経由で SSO を有効にします。 こうすることで、そのデータ ソースにバインドされているレポートやデータセットを発行できます。
 
-![詳細設定](media/service-gateway-sso-saml/advanced-settings.png)
+   ![詳細設定](media/service-gateway-sso-saml/advanced-settings.png)
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-SSO を構成したら、Power BI ポータルで次のエラーが表示される場合があります。 *"指定された資格情報は SapHana のソースに使用できません。"* このエラーは、SAML 資格情報が SAP HANA によって拒否されたことを示します。
+SAML ベースの SSO を構成した後、Power BI ポータルで次のエラーが表示される場合があります: "*指定された資格情報は SapHana のソースに使用できません*"。 このエラーは、SAML 資格情報が SAP HANA によって拒否されたことを示します。
 
 サーバー側の認証トレースを利用すれば、SAP HANA での資格情報の問題をトラブルシューティングするための詳細情報が得られます。 以下の手順に従って、ご利用の SAP HANA サーバーに対するトレースを構成します。
 
@@ -159,13 +168,13 @@ SSO を構成したら、Power BI ポータルで次のエラーが表示され�
     ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') set ('trace', 'authentication') = 'debug' with reconfigure 
     ```
 
-1. 発生している問題を再現させます。
+1. 問題を再現します。
 
-1. HANA Studio で、管理コンソールを開いて、 **[Diagnosis Files]\(診断ファイル\)** タブに移動します。
+1. HANA Studio で、管理コンソールを開いて、 **[Diagnosis Files]\(診断ファイル\)** タブを選択します。
 
-1. 最新の indexserver トレースを開いて、SAMLAuthenticator.cpp を検索します。
+1. 最新のインデックス サーバー トレースを開いて、*SAMLAuthenticator.cpp* を検索します。
 
-    次の例のような根本原因を示す詳細なエラー メッセージを検索する必要があります。
+    次のように、根本原因を示す詳細なエラー メッセージを見つける必要があります。
 
     ```
     [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815797 d Authentication   SAMLAuthenticator.cpp(00091) : Element '{urn:oasis:names:tc:SAML:2.0:assertion}Assertion', attribute 'ID': '123123123123123' is not a valid value of the atomic type 'xs:ID'.
@@ -180,7 +189,7 @@ SSO を構成したら、Power BI ポータルで次のエラーが表示され�
 
 ## <a name="next-steps"></a>次の手順
 
-**オンプレミス データ ゲートウェイ**と **DirectQuery** の詳細については、次のリソースをご覧ください。
+オンプレミス データ ゲートウェイと DirectQuery の詳細については、次のリソースを参照してください。
 
 * [オンプレミス データ ゲートウェイとは](/data-integration/gateway/service-gateway-onprem)
 * [Power BI の DirectQuery](desktop-directquery-about.md)

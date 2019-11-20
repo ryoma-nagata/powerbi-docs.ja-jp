@@ -2,19 +2,18 @@
 title: データ系列 (プレビュー)
 description: 最新のビジネス インテリジェンス (BI) プロジェクトでは、データ ソースから宛先へのデータ フローを理解することが、お客様の多くにとって重要な課題です。
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: e91f1d5084957ee7266161b9a34f916e2902d1f4
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 774b8b19f8b199e1d98b2bd5e079b35f1a9a6935
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019571"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877369"
 ---
 # <a name="data-lineage-preview"></a>データ系列 (プレビュー)
 最新のビジネス インテリジェンス (BI) プロジェクトでは、データ ソースから宛先へのデータ フローを理解することが課題となる可能性があります。 複数のデータ ソース、成果物、および依存関係にまたがる高度な分析プロジェクトを構築した場合、この課題はさらに大きくなります。  "このデータを変更すると、どうなりますか?" または、"このレポートが最新の状態ではないのはなぜですか" などの質問に 答えるのは難しい場合があります。 そのような質問を理解するには、専門家のチームまたは詳細な調査が必要な場合があります。 お客様がそれらの質問に容易に答えられるように、データ系列ビューを設計しました。
@@ -55,7 +54,7 @@ Power BI には、ダッシュボード、レポート、データセット、�
  
 ワークスペース内のレポートが別のワークスペース内のデータセットに基づいて作成されている場合は、データセット カードにソース ワークスペースの名前が表示されます。 ソース ワークスペース名を選択して、そのワークスペースにアクセスします。
  
-- 任意の成果物について、省略記号 (...) を選択すると、[オプション] メニューが表示されます。 リスト ビューで使用できるすべてのアクションが用意されています。
+- 任意の成果物について、 **[その他のオプション]** (...) を選択すると、[オプション] メニューが表示されます。 リスト ビューで使用できるすべてのアクションが用意されています。
   
 データセットに関する詳細なメタデータを表示するには、データセット カード自体を選択します。 作業ウィンドウにデータセットに関する追加情報が表示されます。
 
@@ -89,7 +88,8 @@ Power BI には、ダッシュボード、レポート、データセット、�
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
-系列ビューは、Internet Explorer で使用することはできません。 詳細については、「[Supported browsers for Power BI](power-bi-browsers.md)」 (Power BI 用にサポートされているブラウザー) を参照してください。
+- 系列ビューは、Internet Explorer で使用することはできません。 詳細については、「[Supported browsers for Power BI](power-bi-browsers.md)」 (Power BI 用にサポートされているブラウザー) を参照してください。
+- 系列ビューは、マイ ワークスペースで使用することはできません。
 
 ## <a name="next-steps"></a>次の手順
 

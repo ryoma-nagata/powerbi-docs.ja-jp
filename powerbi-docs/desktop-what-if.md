@@ -2,7 +2,6 @@
 title: What-if パラメーターを使用して変数を視覚化する
 description: 独自の What-if 変数を作成し、Power BI レポートの変数を想定して視覚化します
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1ad0c7d2a3c3d21d8ccb81354bdc03d845b61f58
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513480"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876042"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Power BI Desktop で変数を視覚化する What-if パラメーターを作成して使用する
 2018 年 8 月リリースの **Power BI Desktop** 以降では、レポート用の **What-if** 変数を作成し、スライサーで変数を操作して、レポート内の異なるキー値を視覚化および定量化できます。
@@ -50,7 +49,7 @@ ms.locfileid: "65513480"
 
 ![](media/desktop-what-if/what-if_05.png)
 
-新しいメジャーは、割引率を適用した合計売上金額を表示するだけの簡単なものです。 もちろん、複雑な興味深いメジャーを作成して、レポートの使用者が **What-if** パラメーターの変数を視覚化できるようにすることができます。 たとえば、販売員が、補正の効果を確認または特定の販売目標またはのパーセンテージを満たす場合増加より深いを売上割引を表示できるレポートを作成できます。
+新しいメジャーは、割引率を適用した合計売上金額を表示するだけの簡単なものです。 もちろん、複雑な興味深いメジャーを作成して、レポートの使用者が **What-if** パラメーターの変数を視覚化できるようにすることができます。 たとえば、販売員が販売目標や割合を達成したときの報酬を表示したり、より大きい割引への売上増加の影響を表示したりするレポートを作成できます。
 
 数式バーにメジャーの式を入力し、**Sales after Discount** という名前にして、結果を表示します。
 

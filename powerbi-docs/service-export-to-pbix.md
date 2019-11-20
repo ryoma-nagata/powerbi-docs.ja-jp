@@ -2,7 +2,6 @@
 title: Power BI サービスから Power BI Desktop にレポートをダウンロードする (プレビュー)
 description: Power BI サービスから Power BI Desktop ファイルへのレポートのダウンロード
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715174"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881814"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI サービスから Power BI Desktop にレポートをダウンロードする (プレビュー)
 Power BI Desktop では、ローカル コンピューターから Power BI サービスにレポート ( *.pbix* ファイル) を発行できます。 Power BI レポートは反対の方向に発行することもできます。Power BI サービスから Power BI Desktop にレポートをダウンロードできます。 いずれの場合も、Power BI レポートの拡張子は .pbix です。
@@ -32,7 +31,7 @@ Power BI Desktop では、ローカル コンピューターから Power BI サ�
 
 1. Power BI サービスで、ダウンロードするレポートを[編集ビュー](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view)で開きます。
 
-2. 上部のナビゲーション バーから、 **[ファイル]、[レポートのダウンロード]** の順に選択します。
+2. 上部のナビ ペインで、 **[ファイル]、[レポートのダウンロード]** の順に選択します。
    
 3. レポートがダウンロードされているとき、ステータス バナーに進捗状況が表示されます。 ファイルの用意ができると、.pbix ファイルを保存する場所を問われます。 ファイルの既定の名前はレポートのタイトルと同じです。
    
@@ -71,5 +70,5 @@ Power BI Desktop をインストールした後、次の記事を参照すると
 
 * [Power BI Desktop の概要](desktop-getting-started.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

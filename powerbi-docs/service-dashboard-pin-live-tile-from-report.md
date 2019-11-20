@@ -2,7 +2,6 @@
 title: 'レポート ページ全体を Power BI ダッシュボードにピン留めする方法 '
 description: ライブ レポート ページ全体をレポートから Power BI ダッシュボードにピン留めする方法についてのドキュメント
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140118"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853073"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Power BI ダッシュボードにレポート ページ全体をライブ タイルとしてピン留めする
 新しい[ダッシュボード タイル](consumer/end-user-tiles.md)を追加する別の方法は、レポート ページ全体をピン留めする方法です。 これは、複数の視覚化を一度にピン留めする簡単な方法です。  さらに、ページ全体をピン留めする場合、タイルは *ライブ* であり、ダッシュボードで直接それらのタイルと対話できます。 レポート エディターで視覚化に加えるすべての変更 (フィルターの追加、またはチャートで使用されるフィールドの変更など) は、ダッシュボード タイルにも反映されます。  
@@ -47,7 +46,7 @@ ms.locfileid: "61140118"
 4. **[ライブをピン留めする]** を選びます。 右上隅の近くに成功メッセージが表示されたら、ページがダッシュボードにタイルとして追加されたことがわかります。
 
 ## <a name="open-the-dashboard-to-see-the-pinned-live-tile"></a>ダッシュボードを開いてピン留めされたライブ タイルを表示する
-1. ナビゲーション ウィンドウから、新しいライブ タイルを持つダッシュボードを選びます。 ピン留めされたレポート ページの[名前変更、サイズ変更、リンク、移動](service-dashboard-edit-tile.md)などをそこで行うことができます。  
+1. ナビ ペインから、新しいライブ タイルを持つダッシュボードを選びます。 ピン留めされたレポート ページの[名前変更、サイズ変更、リンク、移動](service-dashboard-edit-tile.md)などをそこで行うことができます。  
 2. ライブ タイルと対話します。  次のスクリーン ショットでは、縦棒グラフのバーを選ぶと、他の視覚化がクロス フィルター処理およびクロス強調表示されます。
    
     ![ダッシュボードとライブ タイル](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
@@ -55,5 +54,5 @@ ms.locfileid: "61140118"
 ## <a name="next-steps"></a>次の手順
 [Power BI のダッシュボード](consumer/end-user-dashboards.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

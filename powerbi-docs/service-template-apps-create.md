@@ -2,19 +2,18 @@
 title: Power BI でテンプレート アプリを作成する
 description: Power BI でテンプレート アプリを作成する方法。作成したアプリは Power BI の顧客に配布できます。
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195390"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871492"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI でテンプレート アプリを作成する
 
@@ -33,19 +32,19 @@ Power BI テナント管理者は、組織においてテンプレート アプ�
 - [Power BI の基本的概念](service-basic-concepts.md)に関する知識
 - テンプレート アプリをパブリックに共有するための権限。 詳細については、Power BI [管理ポータルのテンプレート アプリの設定](service-admin-portal.md#template-apps-settings)に関するセクションを参照してください。
 
-## <a name="create-the-template-app-workspace"></a>テンプレート アプリ ワークスペースを作成する
+## <a name="create-the-template-workspace"></a>テンプレート ワークスペースを作成する
 
-他の Power BI テナントに配布できるテンプレート アプリを作成するには、それを新しいアプリ ワークスペースで作成する必要があります。
+他の Power BI テナントに配布できるテンプレート アプリを作成するには、それを新しいワークスペースで作成する必要があります。
 
-1. Power BI サービスで、 **[ワークスペース]**  >  **[アプリのワークスペースの作成]** の順に選択します。
+1. Power BI サービスで、 **[ワークスペース]**  >  **[ワークスペースの作成]** の順に選択します。
 
-    ![アプリのワークスペースの作成](media/service-template-apps-create/power-bi-new-workspace.png)
+    ![ワークスペースの作成](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. **[アプリのワークスペースの作成]** で **[新しいものにアップグレード]** を選択します。
+2. **[ワークスペースの作成]** で **[新しいものにアップグレード]** を選択します。
 
     ![新しいワークスペースを試す](media/service-template-apps-create/power-bi-upgrade-new.png)
 
-3. アプリ ワークスペースの名前、説明 (任意)、ロゴ画像 (任意) を入力します。
+3. ワークスペースの名前、説明 (任意)、ロゴ画像 (任意) を入力します。
 
 4. **[詳細]** セクションを展開し、 **[テンプレート アプリを開発する]** を選択します。
 
@@ -57,9 +56,9 @@ Power BI テナント管理者は、組織においてテンプレート アプ�
 
 ## <a name="create-the-content-in-your-template-app"></a>テンプレート アプリでコンテンツを作成する
 
-通常の Power BI アプリ ワークスペースと同様に、次の手順はワークスペースでコンテンツを作成することです。  
+通常の Power BI ワークスペースと同様に、次の手順はワークスペースでコンテンツを作成することです。  
 
-- アプリ ワークスペースで [Power BI コンテンツを作成します](power-bi-creator-landing.md)。
+- ワークスペースで [Power BI コンテンツを作成します](power-bi-creator-landing.md)。
 
 Power Query でパラメーターを使用している場合、型を明確に定義します (Text など)。 Any 型と Binary 型はサポートされていません。
 
@@ -69,7 +68,7 @@ Power Query でパラメーターを使用している場合、型を明確に�
 
 ワークスペースにコンテンツを用意できたので、次はテンプレート アプリでそれをパッケージ化できます。 最初の手順は、テナントで組織内からのみアクセスできるテスト テンプレート アプリを作成することです。
 
-1. テンプレート アプリ ワークスペースで **[アプリの作成]** を選択します。
+1. テンプレート ワークスペースで **[アプリの作成]** を選択します。
 
     ![アプリの作成](media/service-template-apps-create/power-bi-create-app.png)
 
@@ -86,7 +85,7 @@ Power Query でパラメーターを使用している場合、型を明確に�
 
     **ナビゲーション**
 
-    **[新しいナビゲーション ビルダー]** をオンにすると、アプリの左側のナビゲーション ウィンドウを定義できます (詳細については、「[ナビゲーション エクスペリエンスを設計する](service-create-distribute-apps.md#design-the-navigation-experience)」を参照してください)。
+    **[新しいナビゲーション ビルダー]** をオンにすると、アプリのナビ ペインを定義できます (詳細については、「[ナビゲーション エクスペリエンスを設計する](service-create-distribute-apps.md#design-the-navigation-experience)」を参照してください)。
 
    ![アプリのランディング ページを設定する](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     
@@ -133,7 +132,7 @@ Power Query でパラメーターを使用している場合、型を明確に�
 
 それでは各ステージを通過しましょう。
 
-1. テンプレート アプリ ワークスペースで **[リリース管理]** を選択します。
+1. テンプレート ワークスペースで **[リリース管理]** を選択します。
 
     ![[リリース管理] アイコン](media/service-template-apps-create/power-bi-release-management-icon.png)
 

@@ -3,44 +3,44 @@ title: SAP HANA への シングル サインオン (SSO) に Kerberos を使用
 description: Power BI サービスからの SSO を有効にするように SAP HANA サーバーを構成します
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 08/01/2019
+ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9e7bdb0ae2f1e512e3e431cf69395d601cbc7b3f
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: bf255e97bbce8360de6fba314ac181b7633e6db3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968526"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872340"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>SAP HANA への シングル サインオン (SSO) に Kerberos を使用する
 
 この記事では、Power BI サービスからの SSO を有効にするように SAP HANA データ ソースを構成する方法を説明します。
 
 > [!NOTE]
-> Kerberos SSO を使用する SAP HANA ベースのレポートを更新する前に、[Kerberos SSO の構成](service-gateway-sso-kerberos.md)に関する記事の手順に加えて、この記事の手順を完了してください。
+> Kerberos SSO を使用する SAP HANA ベースのレポートを更新する前に、この記事の手順と [Kerberos SSO の構成](service-gateway-sso-kerberos.md)に関するページの手順を両方済ませておいてください。
 
 ## <a name="enable-sso-for-sap-hana"></a>SAP HANA に対する SSO を有効にする
 
 SAP HANA に対する SSO を有効にするには、次の手順のようにします。
 
-* SAP HANA サーバーが必要な最小バージョンを実行していることを確認します。これは、SAP HANA サーバー プラットフォームのレベルによって異なります。
-  * [HANA 2 SPS 01 改訂 012.03](https://launchpad.support.sap.com/#/notes/2557386)
-  * [HANA 2 SPS 02 改訂 22](https://launchpad.support.sap.com/#/notes/2547324)
-  * [HANA 1 SP 12 改訂 122.13](https://launchpad.support.sap.com/#/notes/2528439)
-* ゲートウェイ マシンに、SAP の最新の HANA ODBC ドライバーをインストールする。  最小バージョンは 2017 年 8 月の HANA ODBC バージョン 2.00.020.00 です。
+1. SAP HANA サーバーが必要な最小バージョンを実行していることを確認します。これは、SAP HANA サーバー プラットフォームのレベルによって異なります。
+   - [HANA 2 SPS 01 改訂 012.03](https://launchpad.support.sap.com/#/notes/2557386)
+   - [HANA 2 SPS 02 改訂 22](https://launchpad.support.sap.com/#/notes/2547324)
+   - [HANA 1 SP 12 改訂 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 
-SAP HANA サーバーが Kerberos ベースの SSO 用に構成されていることを確認します。 Kerberos を使用した SAP HANA の SSO の設定に関する詳細については、SAP HANA セキュリティ ガイドの「[「Single Sign-on Using Kerberos](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.03/1885fad82df943c2a1974f5da0eed66d.html)」(Kerberos を用いたシングル サインオン) をご覧ください。 また、このページからのリンク (特に SAP Note 1837331 – HOWTO HANA DBSSO Kerberos/Active Directory) もご確認ください。
+2. ゲートウェイ マシンに、最新の SAP HANA ODBC ドライバーをインストールします。 最小バージョンは 2017 年 8 月の HANA ODBC バージョン 2.00.020.00 です。
+
+3. SAP HANA サーバーが Kerberos ベースの SSO 用に構成されていることを確認します。 Kerberos を使用した SAP HANA の SSO の設定に関する詳細については、SAP HANA セキュリティ ガイドの「[「Single Sign-on Using Kerberos](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.03/1885fad82df943c2a1974f5da0eed66d.html)」(Kerberos を用いたシングル サインオン) をご覧ください。 また、このページからのリンク (特に SAP Note 1837331 – HOWTO HANA DBSSO Kerberos/Active Directory) もご確認ください。
 
 また、次の追加の手順に従うことをお勧めします。これにより、パフォーマンスがわずかに向上します。
 
-1. ゲートウェイのインストール ディレクトリで、次の構成ファイルを見つけて開きます: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*。
+1. ゲートウェイのインストール ディレクトリで、次の構成ファイルを見つけて開きます: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config.
 
-2. *FullDomainResolutionEnabled* プロパティを見つけて、その値を *True* に変更します。
+2. `FullDomainResolutionEnabled` プロパティを見つけて、その値を `True` に変更します。
 
     ```xml
     <setting name=" FullDomainResolutionEnabled " serializeAs="String">
@@ -52,9 +52,9 @@ SAP HANA サーバーが Kerberos ベースの SSO 用に構成されている�
 
 ## <a name="next-steps"></a>次の手順
 
-**オンプレミス データ ゲートウェイ**と **DirectQuery** の詳細については、次のリソースをご覧ください。
+オンプレミス データ ゲートウェイと DirectQuery の詳細については、次のリソースを参照してください。
 
-* [オンプレミス データ ゲートウェイとは](/data-integration/gateway/service-gateway-getting-started)
+* [オンプレミス データ ゲートウェイとは](/data-integration/gateway/service-gateway-onprem)
 * [Power BI の DirectQuery](desktop-directquery-about.md)
 * [DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
 * [DirectQuery と SAP BW](desktop-directquery-sap-bw.md)

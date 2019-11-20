@@ -2,7 +2,6 @@
 title: Power BI Desktop と Power BI サービスの比較
 description: Power BI Desktop は包括的なデータ分析/レポート作成ツールです。 Power BI サービスは、チームや企業が簡単なレポート編集や共同作業を行うためのクラウドベースのオンライン サービスです。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e2985f4a27d8471bcfce80d40f2263e2be07d38c
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064355"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879013"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop と Power BI サービスの比較
 
@@ -38,7 +37,7 @@ Business Intelligence プロジェクトに取り組んでいるほとんどの�
 
 Power BI Desktop と Power BI サービスのレポート エディターは同じようなものです。 3 つのセクションから構成されています。  
 
-1. 上部のナビゲーション バー。これは Power BI Desktop と Power BI サービスで異なります    
+1. 上部のナビ ペイン。Power BI Desktop と Power BI サービスで異なります    
 2. レポート キャンバス     
 3. **フィールド**、**視覚化**、**フィルター**の各ウィンドウ
 

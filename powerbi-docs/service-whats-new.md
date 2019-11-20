@@ -2,20 +2,19 @@
 title: Power BI サービスの新機能
 description: Power BI サービスの新機能
 author: NikhilGaekwad-MSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655028"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099716"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -30,11 +29,43 @@ ms.locfileid: "69655028"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>2019 年 5 月
-* Power BI アプリの[カスタム ナビゲーション](service-create-distribute-apps.md)。
-* ページ分割されたレポート内の電子メール サブスクリプションで使用できる追加の添付ファイルの種類 (PPTX、XLSX、DOCX、CSV、XML)。
+### <a name="october-2019"></a>2019 年 10 月
+* Power BI データセットを更新するための新しい Microsoft Flow アクション。
+* Power BI サービスのレポートとダッシュボードの[連絡先リスト](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
 
 ## <a name="previous-months-2019"></a>前の月 (2019)
+### <a name="september-2019"></a>2019 年 9 月
+* [テンプレート アプリ](service-template-apps-overview.md)の接続構成の更新。
+
+### <a name="august-2019"></a>2019 年 8 月
+* Power BI Premium の新しい容量設定。
+* 組織向けの[カスタム ブランディング](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/)。
+* ビルド アクセス許可を使用した集約されたデータのエクスポート。
+* [ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)用の URL パラメーターのサポート。
+* 毎月の電子メール サブスクリプションのサポート。 
+
+### <a name="july-2019"></a>2019 年 7 月
+* [ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)用の非プレミアム データセットのサポート。
+* Power BI [集計](desktop-aggregations.md)の一般提供。
+* 他ユーザーへの更新通知の送信。
+* Power BI Premium 容量向けの[テスト ツール](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)。
+* [サービス可用性通知](https://powerbi.microsoft.com/blog/power-bi-introduces-service-availability-notifications/)のパブリック プレビュー。
+* Power BI レポートの[新しい外観](https://powerbi.microsoft.com/blog/introducing-the-new-look-for-power-bi-service/)のパブリック プレビュー。
+* 南アフリカの新しい Power BI リージョン。
+
+### <a name="june-2019"></a>2019 年 6 月
+* [共有データセットと認定済みデータセット](service-datasets-across-workspaces.md)のパブリック プレビュー。
+* [Premium 容量メトリック アプリ](service-admin-premium-monitor-capacity.md)で利用可能な AI メトリック。
+* Power BI [テンプレート アプリ](service-template-apps-overview.md)の一般提供。
+* Power BI での[ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)の一般提供。
+* Power BI Premium の Bring Your Own Key ([BYOK](service-encryption-byok.md)) のパブリック プレビュー。
+* [新しいワークスペース エクスペリエンス](service-new-workspaces.md)のビューアー ロール。
+
+### <a name="may-2019"></a>2019 年 5 月
+* Power BI アプリの[カスタム ナビゲーション](service-create-distribute-apps.md)。
+* ページ分割されたレポート内の電子メール サブスクリプションで使用できる追加の添付ファイルの種類 (PPTX、XLSX、DOCX、CSV、XML)。
+* サービスでの Power BI レポートの[コメント作成](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)。
+
 ### <a name="april-2019"></a>2019 年 4 月
 * Power BI [データフロー](service-dataflows-overview.md)の一般提供。
 * 新しいワークスペース エクスペリエンスの一般提供。
@@ -42,15 +73,15 @@ ms.locfileid: "69655028"
 * ダッシュボードでの Q&A エクスペリエンスの更新。
 * [ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)内の Azure Analysis Services のサポート。
 * Power BI アプリでサポートされるページ分割されたレポート。
-* ページ分割されたレポートに PDF 添付ファイルを使用した[電子メール サブスクリプション](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)。
+* ページ分割されたレポートに PDF 添付ファイルを使用した[電子メール サブスクリプション](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)。
 * 管理ポータルでサポートされている Power BI Premium 集計とワークロード メトリック
 * Power BI Premium で使用できる[クエリ キャッシュ](power-bi-query-caching.md)。
-* [Power BI ホーム](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)の一般提供。
+* [Power BI ホーム](https://powerbi.microsoft.com/blog/announcing-power-bi-home-general-availability-ga-roadmap/)の一般提供。
 
 ### <a name="march-2019"></a>2019 年 3 月
 * Power BI Premium の Multi-Geo の一般提供。
 * Azure B2B に対する Power BI コンテンツの編集と管理のサポート。
-* 読み取り専用の [XMLA エンドポイント](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)のパブリック プレビュー。
+* 読み取り専用の [XMLA エンドポイント](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)のパブリック プレビュー。
 
 ### <a name="february-2019"></a>2019 年 2 月
 * [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)でのワークロードとアクティブなデータセットのサイズのメトリック。
@@ -58,20 +89,20 @@ ms.locfileid: "69655028"
 * [オンデマンドの電子メールのサブスクリプション](service-report-subscribe.md)。
 * 管理ポータルでの一括操作。
 * PPT および PDF 用のフィルター処理済みエクスポート。
-* 管理ポータルでの[ヘルプとサポートの設定](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/)。
+* 管理ポータルでの[ヘルプとサポートの設定](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/)。
 * [データフロー](service-dataflows-overview.md)向けデータ系列エクスペリエンス。
 * 管理ポータルでの認定済みカスタム ビジュアル設定。
 
 ### <a name="january-2019"></a>2019 年 1 月
 * 内部ポータルまたは Web サイトでの[セキュリティ保護された Power BI レポートの埋め込み](service-embed-secure.md)。
 * 新しいコネクタでの[データフロー](service-dataflows-overview.md) エディターへの更新と、ネイティブ SQL クエリおよび Power Query Online 変換のサポート。
-* Power BI サービスでの[個人用ブックマーク](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。
+* Power BI サービスでの[個人用ブックマーク](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。
 * 電子メール サブスクリプションでの時間ベースのスケジュール。
 
-## <a name="2018"></a>2018
+## <a name="2018"></a>2018 年
 ### <a name="december-2018"></a>2018 年 12 月
-* Power BI ホームでの AI によって強化された[おすすめのアプリ](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)。
-* 管理ポータルでの[ワークスペース管理](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/)。
+* Power BI ホームでの AI によって強化された[おすすめのアプリ](https://powerbi.microsoft.com/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)。
+* 管理ポータルでの[ワークスペース管理](https://powerbi.microsoft.com/blog/workspace-management-in-the-admin-portal/)。
 * [データフロー](service-dataflows-overview.md)での Power BI データフローと Azure Data Lake Storage Gen2 統合のプレビュー。
 * Power BI ソリューション テンプレートはオープン ソースになりました。
 
@@ -87,8 +118,8 @@ ms.locfileid: "69655028"
 
 ### <a name="september-2018"></a>2018 年 9 月
 * Power BI サービスの[ダッシュボードのコメント](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
-* [Power BI ホームとグローバル検索](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)のパブリック プレビュー。
-* [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)での[クエリ監視](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)の機能。
+* [Power BI ホームとグローバル検索](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search/)のパブリック プレビュー。
+* [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)での[クエリ監視](https://powerbi.microsoft.com/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)の機能。
 
 ### <a name="august-2018"></a>2018 年 8 月
 * Power BI Premium の[容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
@@ -112,7 +143,7 @@ ms.locfileid: "69655028"
 * Azure B2B のレポートの招待ワークフローの改善。
 
 ### <a name="april-2018"></a>2018 年 4 月
-* [データ保護に関する Power BI のホワイト ペーパー](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [データ保護に関する Power BI のホワイト ペーパー](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * Office 365 テナントに対して既定でオンになる Power BI サービス[監査ログ](service-admin-auditing.md)。
 
 ### <a name="march-2018"></a>2018 年 3 月
@@ -122,7 +153,7 @@ ms.locfileid: "69655028"
 ### <a name="february-2018"></a>2018 年 2 月
 * エンド ユーザーに対する [Power BI Apps](service-create-distribute-apps.md) の自動インストール。
 * Power BI Premium での P4 および P5 の容量
-* [組織のカスタム ビジュアル](power-bi-custom-visuals-organization.md)のプレビュー。
+* [組織のカスタム ビジュアル](developer/power-bi-custom-visuals-organization.md)のプレビュー。
 
 ### <a name="january-2018"></a>2018 年 1 月
 *   Power BI レポートを共有し、お気に入りに追加する。
@@ -292,7 +323,6 @@ ms.locfileid: "69655028"
 
 ***Enterprise***
 
-* [ExpressRoute](service-admin-power-bi-expressroute.md): Power BI へのプライベートなマネージド接続の確立に使用します。
 * [RLS のコンテンツ パック サポート](service-admin-rls.md) (プレビュー):コンテンツ パックの一部として提供されているこれらのダッシュボードやレポートに対して RLS が定義されている場合、これらのコンテンツ パックにセキュリティ ルールが適用されます。
 
 ***ダッシュボード***
@@ -404,7 +434,7 @@ ms.locfileid: "69655028"
 
 **2016 年 1 月 6 日**
 
-Power BI チームは、休暇中忙しく働いていました。 詳しくは、[Power BI チームのブログ](http://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)をご覧ください。
+Power BI チームは、休暇中忙しく働いていました。 詳しくは、[Power BI チームのブログ](https://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)をご覧ください。
 
 ***ダッシュボード***
 
@@ -439,12 +469,12 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * Power BI (ブラジル)
 * ヘブライ語とアラビア語のサポート
 
-詳しくは、[Power BI チームのブログ](http://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)をご覧ください。
+詳しくは、[Power BI チームのブログ](https://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)をご覧ください。
 
 ## <a name="2015"></a>2015
 **2015 年 12 月 16 日**
 
-この 1 週間で大幅な更新が行われました。大半は Power BI Desktop に関するものですが、レポート作成と視覚化に関する重要な更新もいくつか含まれています。 更新内容の詳しい説明については、[Power BI チーム ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)をご覧ください。そこにはビデオも用意されています。   
+この 1 週間で大幅な更新が行われました。大半は Power BI Desktop に関するものですが、レポート作成と視覚化に関する重要な更新もいくつか含まれています。 更新内容の詳しい説明については、[Power BI チーム ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)をご覧ください。そこにはビデオも用意されています。   
 
 [Power BI Desktop をダウンロードする](https://powerbi.microsoft.com/desktop?WT.mc_id=Blog_Desktop_Update)
 
@@ -481,7 +511,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
   6. ODBC コネクタ:ユーザー DSN とシステム DSN の選択をサポート
   7. CSV コネクタ:[ソース] ダイアログで列区切り記号を指定するための機能
 
-詳しい説明と、更新内容の多くを紹介するビデオについては、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)をご覧ください。
+詳しい説明と、更新内容の多くを紹介するビデオについては、[Power BI ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)をご覧ください。
 
 **2015 年 12 月 10 日**
 
@@ -490,20 +520,20 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * スライサーでイメージの使用
 * レポート ビジュアル間の相互作用の変更
   
-  詳細については、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/12/10/power-bi-weekly-service-update-1210.aspx)をご覧ください。
+  詳細については、[Power BI ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/12/10/power-bi-weekly-service-update-1210.aspx)をご覧ください。
 
 **2015 年 12 月 8 日**
 
-* [Power BI で QR コードが使用できるようになりました](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)
+* [Power BI で QR コードが使用できるようになりました](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)
 
 **2015 年 12 月 3 日**
 
-* クイック インサイトを使用してデータセットから自動的に傾向を発見し、パターンを検出できるようになりました:  [ビデオ](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)または[記事](consumer/end-user-insights.md)
-* [Power BI で VMob データを視覚化できるようになりました](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Power BI を Cortana と統合できるようになりました](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
-* [企業向けの Power BI ゲートウェイのプレビューが公開されました](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* 新しいコンテンツ パックの導入: [Power BI ダッシュボードで Bing の検索分析を利用できます](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
-* 開発者向けの新しい拡張機能:[2 つの新しい API、アプリの登録の簡素化](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
+* クイック インサイトを使用してデータセットから自動的に傾向を発見し、パターンを検出できるようになりました:  [ビデオ](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)または[記事](consumer/end-user-insights.md)
+* [Power BI で VMob データを視覚化できるようになりました](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
+* [Power BI を Cortana と統合できるようになりました](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
+* [企業向けの Power BI ゲートウェイのプレビューが公開されました](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
+* 新しいコンテンツ パックの導入: [Power BI ダッシュボードで Bing の検索分析を利用できます](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* 開発者向けの新しい拡張機能:[2 つの新しい API、アプリの登録の簡素化](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **2015 年 11 月 24 日**
 
@@ -515,7 +545,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * Google Analytics コネクタのエクスペリエンスが向上しました
 * Power BI アカウントを閉じることができるようになりました
 
-詳細については、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx)をご覧ください
+詳細については、[Power BI ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx)をご覧ください
 
 **2015 年 11 月 18 日**
 
@@ -525,7 +555,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * 組織から Power BI グループにメンバーを招待するときのエクスペリエンスが改善されました
 * タイルのエラー メッセージが改善されました
 
-詳細については、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/11/17/power-bi-weekly-service-update-1117.aspx)をご覧ください
+詳細については、[Power BI ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/11/17/power-bi-weekly-service-update-1117.aspx)をご覧ください
 
 **2015 年 11 月 11 日**
 
@@ -535,7 +565,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * Microsoft 365 管理センターでの Power BI の正常性状態
 * テーブル、マトリックス、カードの KPI と画像
 
-詳細については、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)をご覧ください
+詳細については、[Power BI ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)をご覧ください
 
 **2015 年 11 月 3 日**
 
@@ -543,16 +573,16 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * 個人が Power BI Pro を購入できるようになりました。
 * 重複するレポート ページ。
 
-詳細については、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/11/03/power-bi-weekly-service-update-1103.aspx)をご覧ください
+詳細については、[Power BI ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/11/03/power-bi-weekly-service-update-1103.aspx)をご覧ください
 
 **2015 年 10 月 28 日**
 
 * ダッシュボードを Active Directory セキュリティ グループと共有できるようになりました
 * ユーザーの選択機能
 * 多数の電子メール アドレスを共有できるようになりました
-* パラメーターを指定した URL でナビゲーション ウィンドウを折りたたむことができるようになりました
+* パラメーターを指定した URL でナビ ペインを折りたたむことができるようになりました
 
-詳細については、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/10/28/power-bi-weekly-service-update-1027.aspx)をご覧ください
+詳細については、[Power BI ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/10/28/power-bi-weekly-service-update-1027.aspx)をご覧ください
 
 **2015 年 10 月 20 日**
 
@@ -560,7 +590,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * Q&A のおすすめの質問
 * レポートの視覚化の全画面表示ポップアウト モード
 
-詳細については、[Power BI ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/10/20/power-bi-weekly-service-update-1020.aspx)をご覧ください
+詳細については、[Power BI ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/10/20/power-bi-weekly-service-update-1020.aspx)をご覧ください
 
 **2015 年 10 月 13 日**
 
@@ -571,7 +601,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * 各タイルのソースを表示する機能
 * Planview Enterprise は、エンドツーエンドのポートフォリオであり、実行する戦略を接続して、企業全体の意思決定を改善するリソース管理ソリューションです。 Power BI 用の Planview Enterprise コンテンツ パックを使用すると、リソースと作業管理データをまったく新しい方法で視覚化できます。 資格情報を使用してサインインするだけで、ポートフォリオの投資支出、予算状況、戦略の優先度に合わせたプロジェクトの進行状況を対話形式で把握できます。
 
-詳細については、[ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi-weekly-service-update-1013.aspx)と[オンライン ドキュメント](service-get-started.md)をご覧ください。
+詳細については、[ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi-weekly-service-update-1013.aspx)と[オンライン ドキュメント](service-get-started.md)をご覧ください。
 
 **2015 年 10 月 6 日**
 
@@ -580,17 +610,17 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * ダッシュボードを共有するときに電子メール通知を無効にするオプションを追加しました。 Power BI 共有ダイアログの [電子メール通知を受信者に送信する] チェック ボックスをオフにするだけの操作です。 URL が表示されます。その URL をコピーして同僚と共有すると、同僚はダッシュボードにアクセスできます。
 * Microsoft Dynamics NAV は、小規模から中規模の組織向けビジネス管理ソリューションです。 財務プロセスや業務プロセスを詳細に管理できるようになります。 Dynamics NAV ユーザーは、売上や収益、営業案件のパイプライン、収益性など、Power BI コンテンツ パックのレポートをすぐに利用できます。 これらのメトリックをダッシュボードに表示し、詳細にカスタマイズすることができます。また、データに簡単に接続して、すぐに調べることができます。
 
-詳細については、[ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx)と[オンライン ドキュメント](service-get-started.md)をご覧ください。
+詳細については、[ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx)と[オンライン ドキュメント](service-get-started.md)をご覧ください。
 
 **2015 年 9 月 29 日**
 
 * 今週のサービス更新では、新しいレポートを作成するときに、複数のページ サイズから選択し、ページ サイズを定義できるようになりました。 この機能では、レポートの各ページのサイズと縦横比を制御します。
 * 画像とバブル チャートについて、視覚的な書式を追加しました。 縦横比をロックしながら画像のサイズを変更することで、画像のゆがみを回避できます。また、散布図のバブルを塗りつぶすかどうかを構成できます。
 * Power BI から、予備の電子メール アドレスに共有の招待を送信できるようになりました。 ダッシュボードを共有すると、元の電子メール アドレスと予備の電子メール アドレス (構成している場合) の両方に共有の招待のリンクが送信されます。
-* Power BI は、Dedicated on Multitenant (DonMT) O365 アーキテクチャのユーザーを含め、すべてのユーザーが使用できます。 マルチテナント モードの共有サービスとして Power BI を使用することになります。 ほとんどの場合、単純な[セルフサービスサインアップ プロセス](https://powerbi.microsoft.com/)を実行するだけで Power BI に登録できます。職場の電子メール アドレスを入力し、名前とパスワードを入力するだけで始めることができます。 テナント管理者の場合、[この手順](http://go.microsoft.com/fwlink/?LinkId=627174)に従ってユーザーにライセンスを割り当てることができます。
-* Azure 監査ログでは、Azure サブスクリプションの制御プレーン操作ログを確認できます。 Power BI Azure 監査ログ コンテンツ パックを使用すると、ログに含まれる豊富な情報を簡単に分析し、視覚化することができます。 コンテンツ パックからデータに接続し、すぐに使用できるダッシュボードとレポートでデータを分析できます。 詳細については、[ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx)と[オンライン ドキュメント](service-connect-to-azure-audit-logs.md)をご覧ください。
+* Power BI は、Dedicated on Multitenant (DonMT) O365 アーキテクチャのユーザーを含め、すべてのユーザーが使用できます。 マルチテナント モードの共有サービスとして Power BI を使用することになります。 ほとんどの場合、単純な[セルフサービスサインアップ プロセス](https://powerbi.microsoft.com/)を実行するだけで Power BI に登録できます。職場の電子メール アドレスを入力し、名前とパスワードを入力するだけで始めることができます。 テナント管理者の場合、[この手順](https://go.microsoft.com/fwlink/?LinkId=627174)に従ってユーザーにライセンスを割り当てることができます。
+* Azure 監査ログでは、Azure サブスクリプションの制御プレーン操作ログを確認できます。 Power BI Azure 監査ログ コンテンツ パックを使用すると、ログに含まれる豊富な情報を簡単に分析し、視覚化することができます。 コンテンツ パックからデータに接続し、すぐに使用できるダッシュボードとレポートでデータを分析できます。 詳細については、[ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx)と[オンライン ドキュメント](service-connect-to-azure-audit-logs.md)をご覧ください。
 
-[私たちのブログをご覧ください](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx)。
+[私たちのブログをご覧ください](https://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx)。
 
 **2015 年 9 月 22 日**
 
@@ -599,46 +629,46 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * 次の 5 つの[業界に関連するサンプル](sample-datasets.md)を Power BI に追加しました:お客様の収益性、人事、営業案件の分析、調達の分析、売上およびマーケティングのサンプル。
 * Stripe は、オンライン ビジネスの高度な支払いプラットフォームです。 新興企業から Fortune 500 に含まれる大企業まで、数千社が Stripe を使用して、世界各国の 130 種の通貨で支払いを処理しています。 既存の Stripe アカウントを使用して Power BI に接続すると、[Power BI Stripe コンテンツ パックを使用して Stripe アクティビティを監視、調査、視覚化できるようになります。](service-connect-to-stripe.md)
 
-[私たちのブログをご覧ください](http://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)。
+[私たちのブログをご覧ください](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)。
 
 **2015 年 9 月 15 日**
 
 * ビジュアルをピン留めするダッシュボードを選択できるようになりました。 既存の各ダッシュボードから目的のダッシュボードを選択でき、また 1 回の操作でダッシュボードを新規に作成して、そのダッシュボードにビジュアルをピン留めすることもできます。
 * さらに、ビジュアルの色をダッシュボードで制御することもできます。 レポートでダッシュボードのテーマとは異なるテーマを使用している場合に、ビジュアルで現在のテーマを保持するか、既定のダッシュボードのテーマを使用して、さまざまなソースから取得した各ビジュアル全体で一貫性をもたせるかを制御できます。
 * レポートのビジュアルをダッシュボードにピン留めするのと同様に、タイルをあるダッシュボードから別のダッシュボードに簡単にピン留めできるようになりました。
-* Power BI Pro の 60 日間の試用期間の期限切れが近づいている場合に、[弊社までご連絡](http://go.microsoft.com/fwlink/?LinkID=624573&clcid=0x409now)いただいて、試用期間の延長を要求できます。 要求が承認された場合、試用期間がさらに 60 日間延長されます。
-* comScore Digital Analytix は、最良の分析、およびオーディエンス デモグラフィックによって、ユーザー基盤に対する洞察を提供するオンライン ソリューションです。 Power BI 用の comScore コンテンツ パックを使用すれば、お客様の Web 分析データにすばやく接続してその洞察を開始できます。 このコンテンツ パックには、すぐに使用できるダッシュボード、一連のレポート、および精選されたデータ セットが含まれており、データの探索やドリル ダウンに役立ちます。 コンテンツ パックの詳細については、この[ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/09/16/visualize-and-explore-your-comscore-data-with-power-bi.aspx)と、この[ヘルプ トピック](service-connect-to-connect-to.md)をご覧ください。 
+* Power BI Pro の 60 日間の試用期間の期限切れが近づいている場合に、[弊社までご連絡](https://go.microsoft.com/fwlink/?LinkID=624573&clcid=0x409now)いただいて、試用期間の延長を要求できます。 要求が承認された場合、試用期間がさらに 60 日間延長されます。
+* comScore Digital Analytix は、最良の分析、およびオーディエンス デモグラフィックによって、ユーザー基盤に対する洞察を提供するオンライン ソリューションです。 Power BI 用の comScore コンテンツ パックを使用すれば、お客様の Web 分析データにすばやく接続してその洞察を開始できます。 このコンテンツ パックには、すぐに使用できるダッシュボード、一連のレポート、および精選されたデータ セットが含まれており、データの探索やドリル ダウンに役立ちます。 コンテンツ パックの詳細については、この[ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/09/16/visualize-and-explore-your-comscore-data-with-power-bi.aspx)と、この[ヘルプ トピック](service-connect-to-connect-to.md)をご覧ください。 
 
 **2015 年 9 月 8 日**
 
 * フレンドリ ハイパーリンクを使用すれば、テキスト ボックスに URL 全体を表示することなく、ユーザーにリンクを提供できるようになりました。
 * ドリル機能のサポートが Power BI レポートに追加されました。 ユーザーがデータの 1 つのレベルから関連するデータに移動できるようにするドリル パスを作成することができます。
 * [データの取得] エクスペリエンスのサンプル セクションの下に、2 つの新しい業界に関連するサンプル、「IT 支出分析」と「サプライヤー クオリティ分析」が追加されました。 これらのサンプルは、お客様のデータを活用して洞察に富むレポートとダッシュボードを作成する方法に関する優れた例です。
-* Yammer データに対するさらに深い洞察を容易に得ることができる tyGraph 用の新しいコンテンツ パックの提供を開始しました。 このコンテンツ パックには、ダッシュボード、一連のレポート、および精選されたデータセットが含まれており、Measure of Active Engagement (MAE スコア) やコンテンツ消費量のメトリック (ファイル閲覧数やファイル ダウンロード数など) などの洞察を探索して提供します。 詳細については、この[ブログ](http://blogs.msdn.com/b/powerbi/archive/2015/09/09/analyze-and-monitor-your-tygraph-data-with-power-bi.aspx)と、この[ヘルプ トピック](service-connect-to-tygraph.md)をご覧ください。
+* Yammer データに対するさらに深い洞察を容易に得ることができる tyGraph 用の新しいコンテンツ パックの提供を開始しました。 このコンテンツ パックには、ダッシュボード、一連のレポート、および精選されたデータセットが含まれており、Measure of Active Engagement (MAE スコア) やコンテンツ消費量のメトリック (ファイル閲覧数やファイル ダウンロード数など) などの洞察を探索して提供します。 詳細については、この[ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/09/09/analyze-and-monitor-your-tygraph-data-with-power-bi.aspx)と、この[ヘルプ トピック](service-connect-to-tygraph.md)をご覧ください。
 
 **2015 年 9 月 1 日**
 
-* Webtrends は、企業が自社の顧客データの意味を理解し、デジタル マーケティングでの成功を促進するために役立ちます。 ユーザーは、Web、ソーシャル、モバイル、および SharePoint の各チャネルにわたる訪問者のアクセス行動を監視、分析し、洞察を配信することができます。 この [Webtrends コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx)のリリースにより、ユーザーは Power BI を使用して、Webtrends 分析データを監視、分析、視覚化できるようになりました。 詳細については、Power BI 用 Webtrends コンテンツ パックの[ヘルプ ページ](service-connect-to-webtrends.md)をご覧ください。
+* Webtrends は、企業が自社の顧客データの意味を理解し、デジタル マーケティングでの成功を促進するために役立ちます。 ユーザーは、Web、ソーシャル、モバイル、および SharePoint の各チャネルにわたる訪問者のアクセス行動を監視、分析し、洞察を配信することができます。 この [Webtrends コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx)のリリースにより、ユーザーは Power BI を使用して、Webtrends 分析データを監視、分析、視覚化できるようになりました。 詳細については、Power BI 用 Webtrends コンテンツ パックの[ヘルプ ページ](service-connect-to-webtrends.md)をご覧ください。
 * Q&A の開始がよりシンプルになりました。 Q&A のテキスト ボックス内にカーソルを置くと、質問の一覧と、データに関連する主要なメトリックが即座に表示されます。  既定では、ドロップ ダウンに、ダッシュボードにピン留め済みのタイルに関する質問、およびデータセット内にあるテーブルごとのエントリが表示されます。
 * 既定で表示される動的キャンバスのサイズによって、ブラウザーのウィンドウ サイズに最適な大きさのレポート アイテムがすべてレンダリングされます。 縦横比をロックするか、または別の方法でレポートをウィンドウに合わせる場合、次の 3 つのオプションがさらにサポートされるようになりました: [ページに合わせる]、[幅に合わせる]、[実際のサイズ]。
 * また、保持できるデータセットとレポートの数の制限を大きくしました。 Power BI アカウントのデータセットごとに、データセットとレポートをそれぞれ 200 まで保持できます。
 
 **2015 年 8 月 18 日**
 
-* Azure Mobile Engagement は、開発者がアプリケーションのパフォーマンスを追跡できるようにするアプリの分析サービスで、保有期間とアプリの使用率の向上に役立ちます。 [Power BI Azure Mobile Engagement コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx)を使用すると、すぐに使用できるダッシュボード、一連のレポート、精選されたデータ セットにすばやく接続して、アプリの機能の良好性についての洞察を即座に得ることができます。 詳細については、[Power BI 用 Azure Mobile Engagement コンテンツ パックのヘルプ ページ](service-connect-to-azure-mobile.md)をご覧ください。
+* Azure Mobile Engagement は、開発者がアプリケーションのパフォーマンスを追跡できるようにするアプリの分析サービスで、保有期間とアプリの使用率の向上に役立ちます。 [Power BI Azure Mobile Engagement コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx)を使用すると、すぐに使用できるダッシュボード、一連のレポート、精選されたデータ セットにすばやく接続して、アプリの機能の良好性についての洞察を即座に得ることができます。 詳細については、[Power BI 用 Azure Mobile Engagement コンテンツ パックのヘルプ ページ](service-connect-to-azure-mobile.md)をご覧ください。
 
 **2015 年 8 月 11 日**
 
-* Mandrill は、MailChimp によって開発された電子メール インフラストラクチャ サービスで、広範な各種情報から電子メール キャンペーンを分析できます。 [Power BI Mandrill コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/08/12/explore-and-analyze-your-mandrill-data-in-power-bi.aspx)を使用すれば、Mandrill データにすばやく接続して、ニュースレターやマーケティング キャンペーンについての洞察をすぐに得ることができます。 開始方法の詳細については、[Power BI 用 Mandrill コンテンツ パックのヘルプ ページ](service-connect-to-mandrill.md)をご覧ください。
+* Mandrill は、MailChimp によって開発された電子メール インフラストラクチャ サービスで、広範な各種情報から電子メール キャンペーンを分析できます。 [Power BI Mandrill コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/08/12/explore-and-analyze-your-mandrill-data-in-power-bi.aspx)を使用すれば、Mandrill データにすばやく接続して、ニュースレターやマーケティング キャンペーンについての洞察をすぐに得ることができます。 開始方法の詳細については、[Power BI 用 Mandrill コンテンツ パックのヘルプ ページ](service-connect-to-mandrill.md)をご覧ください。
 
 **2015 年 8 月 4 日**
 
-* Power BI は、すべての Circuit ID クラウド通信サービスを追跡して監視する機能を [Circuit ID](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) ユーザーに提供して、それらのユーザーが適切なビジネス上の意思決定を行えるようにしました。 開始方法の詳細については、[Power BI 用 Circuit ID コンテンツ パックのヘルプ ページ](service-connect-to-circuit-id.md)をご覧ください。
-* 本日、「ダッシュボード​​を共有」機能の使用をさらに容易にする拡張機能をリリースしました。  組織で電子メールに Office 365 を使用している場合は、Outlook で電子メールを送信するのと同じように、[電子メール配布グループに対して共有](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx)できるようになりました。  この共有は、配布グループのアドレスを入力して [共有] をクリックするだけです。  配布グループのすべてのメンバーが、ダッシュボードを表示するための招待の電子メールを受け取ります。
+* Power BI は、すべての Circuit ID クラウド通信サービスを追跡して監視する機能を [Circuit ID](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) ユーザーに提供して、それらのユーザーが適切なビジネス上の意思決定を行えるようにしました。 開始方法の詳細については、[Power BI 用 Circuit ID コンテンツ パックのヘルプ ページ](service-connect-to-circuit-id.md)をご覧ください。
+* 本日、「ダッシュボード​​を共有」機能の使用をさらに容易にする拡張機能をリリースしました。  組織で電子メールに Office 365 を使用している場合は、Outlook で電子メールを送信するのと同じように、[電子メール配布グループに対して共有](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx)できるようになりました。  この共有は、配布グループのアドレスを入力して [共有] をクリックするだけです。  配布グループのすべてのメンバーが、ダッシュボードを表示するための招待の電子メールを受け取ります。
 
 **2015 年 7 月 28 日**
 
-* 今週の Power BI の更新では、[SQL Sentry コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx)を使用した、データベース パフォーマンスの追跡機能が提供されるようになりました。 このコンテンツ パックには、SQL Sentry Cloud を使用して追跡する SQL Server の展開の監視に役立つダッシュボードとレポートが含まれています。 開始方法の詳細については、Power BI 用 SQL Sentry コンテンツ パックの[ヘルプ ページ](service-connect-to-sql-sentry.md)をご覧ください。
+* 今週の Power BI の更新では、[SQL Sentry コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx)を使用した、データベース パフォーマンスの追跡機能が提供されるようになりました。 このコンテンツ パックには、SQL Sentry Cloud を使用して追跡する SQL Server の展開の監視に役立つダッシュボードとレポートが含まれています。 開始方法の詳細については、Power BI 用 SQL Sentry コンテンツ パックの[ヘルプ ページ](service-connect-to-sql-sentry.md)をご覧ください。
 
 **2015 年 7 月 24 日**
 
@@ -649,47 +679,47 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * [Excel ファイル全体の取り込み](service-excel-workbook-files.md):OneDrive for Business に格納されているどの Excel ブックでも Power BI に取り込み、そのブック全体を Excel Online での場合とまったく同様に表示できます。
 * [CSV ファイルの取り込み](service-get-data-from-files.md):Excel や Power BI Desktop ファイルと同様に、コンマ区切り値 (CSV) テキスト ファイルも、Power BI のダッシュボードとレポートのデータセットにできます。
 * Excel、Power BI Desktop、CSV のファイルの置き換え: 更新されたバージョンのファイルを Power BI にアップロードし、既存のデータセットをそのファイルで置換できます。 このデータセットに接続されているすべてのレポートとダッシュボードが、この新しいバージョンを自動的に使用するようになります。
-* 今週の Power BI の更新では、[Visual Studio Online コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)で、作業項目の追跡機能が提供されるようになりました。 この更新には、Git リポジトリ、pull requests、および初期バージョンに含まれているバージョン管理のコンテンツに関する重要なメトリックのほか、新しいダッシュボード、レポート、および作業項目に関する洞察を提供する更新されたデータ セットが含まれます。 開始方法の詳細については、[Power BI 用 Visual Studio Online コンテンツ パックのヘルプ ページ](service-connect-to-quickbooks-online.md)をご覧ください。
+* 今週の Power BI の更新では、[Visual Studio Online コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)で、作業項目の追跡機能が提供されるようになりました。 この更新には、Git リポジトリ、pull requests、および初期バージョンに含まれているバージョン管理のコンテンツに関する重要なメトリックのほか、新しいダッシュボード、レポート、および作業項目に関する洞察を提供する更新されたデータ セットが含まれます。 開始方法の詳細については、[Power BI 用 Visual Studio Online コンテンツ パックのヘルプ ページ](service-connect-to-quickbooks-online.md)をご覧ください。
 
 **2015 年 7 月 14 日**
 
-* Acumatica Cloud ERP では、財務、物流、CRM、プロジェクト会計などの完全に統合されたビジネス管理アプリケーション一式を提供しています。このシステムは、堅牢で柔軟性に富むプラットフォーム上に構築されています。 Power BI [Acumatica コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)を使用すれば、営業案件に関するデータにすばやく接続して、そのデータについての洞察がすぐに得られます。 このコンテンツには、すぐに使用できるダッシュボード、一連のレポート、および精選されたデータセットが含まれており、日付別の成立営業案件数の合計などの詳細を探索して提供します。 詳細については、[このページ](service-connect-to-acumatica.md)をご覧ください。 
-* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) では、フル マネージドの Spark サービスが提供されるようになりました。 この機能により、反復的な機械学習や対話型のデータ分析などのシナリオが実現できます。 Power BI を使用すると、HDInsight 上の Spark 内のデータに直接接続でき、シンプルかつライブの探索が提供されます。 詳細については、この[ヘルプ ドキュメント](spark-on-hdinsight-with-direct-connect.md)をご覧ください。
-* [Office 365 のナビゲーションとアプリケーション起動ツールの統合](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher)。 1 回のクリックで、すべての Office 365 アプリケーションに移動できるようになりました。
-* ユーザーがタイルをクリックしたときに移動する[カスタム URL の指定](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)。 ユーザーの移動先 (特定のレポート、別のダッシュボード、SSRS レポート、または外部 Web サイト) を正確に制御できるようになりました。 
-* Power BI で使用中の[ストレージの表示と管理](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
-* [Q&A に表示されるビジュアルとフィールドの構成](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)
+* Acumatica Cloud ERP では、財務、物流、CRM、プロジェクト会計などの完全に統合されたビジネス管理アプリケーション一式を提供しています。このシステムは、堅牢で柔軟性に富むプラットフォーム上に構築されています。 Power BI [Acumatica コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)を使用すれば、営業案件に関するデータにすばやく接続して、そのデータについての洞察がすぐに得られます。 このコンテンツには、すぐに使用できるダッシュボード、一連のレポート、および精選されたデータセットが含まれており、日付別の成立営業案件数の合計などの詳細を探索して提供します。 詳細については、[このページ](service-connect-to-acumatica.md)をご覧ください。 
+* [Azure HDInsight](https://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) では、フル マネージドの Spark サービスが提供されるようになりました。 この機能により、反復的な機械学習や対話型のデータ分析などのシナリオが実現できます。 Power BI を使用すると、HDInsight 上の Spark 内のデータに直接接続でき、シンプルかつライブの探索が提供されます。 詳細については、この[ヘルプ ドキュメント](spark-on-hdinsight-with-direct-connect.md)をご覧ください。
+* [Office 365 のナビゲーションとアプリケーション起動ツールの統合](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher)。 1 回のクリックで、すべての Office 365 アプリケーションに移動できるようになりました。
+* ユーザーがタイルをクリックしたときに移動する[カスタム URL の指定](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)。 ユーザーの移動先 (特定のレポート、別のダッシュボード、SSRS レポート、または外部 Web サイト) を正確に制御できるようになりました。 
+* Power BI で使用中の[ストレージの表示と管理](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
+* [Q&A に表示されるビジュアルとフィールドの構成](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)
 
 **2015 年 7 月 7 日**
 
-* 最も期待され、要望の多かった機能の 1 つが Power BI で使用できるようになりました。 Power BI では、本日から SQL Server などのオンプレミス ソースに接続する[データセットを更新](http://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx)できるようになりました。 Power BI Designer ファイル、あるいは Power Query または Power Pivot を使用してブックにデータがインポートされた Excel ブックから作成されたデータセットを更新することができます。 
+* 最も期待され、要望の多かった機能の 1 つが Power BI で使用できるようになりました。 Power BI では、本日から SQL Server などのオンプレミス ソースに接続する[データセットを更新](https://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx)できるようになりました。 Power BI Designer ファイル、あるいは Power Query または Power Pivot を使用してブックにデータがインポートされた Excel ブックから作成されたデータセットを更新することができます。 
 
 **2015 年 6 月 30 日**
 
-* 新しい [Power BI UserVoice コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/07/01/monitor-and-visualize-your-uservoice-data-with-power-bi.aspx)をリリースしました。このコンテンツ パックは、UserVoice データを監視および視覚化し、すぐに使用できるダッシュボードとレポートによってそのデータの洞察を即座に得るために役立ちます。
+* 新しい [Power BI UserVoice コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/07/01/monitor-and-visualize-your-uservoice-data-with-power-bi.aspx)をリリースしました。このコンテンツ パックは、UserVoice データを監視および視覚化し、すぐに使用できるダッシュボードとレポートによってそのデータの洞察を即座に得るために役立ちます。
 
 **2015 年 6 月 23 日**
 
-* Power BI Desktop ファイルを Power BI サービスにアップロードすると、[更新](http://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx) (「スケジュールされた更新」または「今すぐ更新」) できるようになりました。
-* Power BI に対する、昨年 12 月以降で最大の視覚的変更である、[[データの取得]](http://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx) に対するさらにシンプルですっきりしたエクスペリエンスをリリースします。  [データの取得] をクリックすると、選択するカテゴリ一式が配置された単一の画面が表示されます。 この変更により、自分にとって重要なコンテンツを見つけるのがさらに簡単になりました。
-* [Azure SQL Data Warehouse](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx) で、柔軟なスケールや大規模な並列処理が提供されるようになりました。 本日発表された限定的なパブリック プレビュー版を使用すれば、Power BI で、Azure SQL Data Warehouse に格納されたデータに直接接続でき、シンプルかつ動的な探索が提供されます。 データ ウェアハウスに接続すると、データを探索する際に、クエリがリアルタイムで生成されてソースに送り返されます。 これにより、カスタム データ モデルを作成してアップロードする必要がなくなり、データの対話型探索が提供されます。
+* Power BI Desktop ファイルを Power BI サービスにアップロードすると、[更新](https://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx) (「スケジュールされた更新」または「今すぐ更新」) できるようになりました。
+* Power BI に対する、昨年 12 月以降で最大の視覚的変更である、[[データの取得]](https://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx) に対するさらにシンプルですっきりしたエクスペリエンスをリリースします。  [データの取得] をクリックすると、選択するカテゴリ一式が配置された単一の画面が表示されます。 この変更により、自分にとって重要なコンテンツを見つけるのがさらに簡単になりました。
+* [Azure SQL Data Warehouse](https://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx) で、柔軟なスケールや大規模な並列処理が提供されるようになりました。 本日発表された限定的なパブリック プレビュー版を使用すれば、Power BI で、Azure SQL Data Warehouse に格納されたデータに直接接続でき、シンプルかつ動的な探索が提供されます。 データ ウェアハウスに接続すると、データを探索する際に、クエリがリアルタイムで生成されてソースに送り返されます。 これにより、カスタム データ モデルを作成してアップロードする必要がなくなり、データの対話型探索が提供されます。
 
 **2015 年 6 月 16 日**
 
-* SweetIQ を使用すれば、場所の指定によってローカルの一覧を追跡して、ローカル検索エコシステムからのデータを簡単に確認することができます。 Power BI を使用すれば、このデータを分析および監視できます。これは、SweetIQ データから作成された[すぐに使えるコンテンツ](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)を提供して行います。 開始方法の詳細については、[Power BI 用 SweetIQ コンテンツ パックのヘルプ ページ](service-connect-to-sweetiq.md)をご覧ください。
+* SweetIQ を使用すれば、場所の指定によってローカルの一覧を追跡して、ローカル検索エコシステムからのデータを簡単に確認することができます。 Power BI を使用すれば、このデータを分析および監視できます。これは、SweetIQ データから作成された[すぐに使えるコンテンツ](https://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)を提供して行います。 開始方法の詳細については、[Power BI 用 SweetIQ コンテンツ パックのヘルプ ページ](service-connect-to-sweetiq.md)をご覧ください。
 
 **2015 年 6 月 2 日**
 
-* Power BI と [appFigures コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx)を使用すると、アプリに関する重要な統計情報を簡単に追跡できるようになりました。 接続および開始の方法の詳細については、Power BI 用 appFigures コンテンツ パックの[ドキュメント](service-connect-to-appfigures.md)をご覧ください。
+* Power BI と [appFigures コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx)を使用すると、アプリに関する重要な統計情報を簡単に追跡できるようになりました。 接続および開始の方法の詳細については、Power BI 用 appFigures コンテンツ パックの[ドキュメント](service-connect-to-appfigures.md)をご覧ください。
 
 **2015 年 5 月 28 日**
 
-* この[コンテンツ パック](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)を使用して、QuickBooks Online アカウントのデータに関する洞察をすばやく得ることができます。 接続および開始の方法の詳細については、Power BI 用 QuickBooks Online コンテンツ パックの[ドキュメント](service-connect-to-quickbooks-online.md)をご覧ください。
+* この[コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)を使用して、QuickBooks Online アカウントのデータに関する洞察をすばやく得ることができます。 接続および開始の方法の詳細については、Power BI 用 QuickBooks Online コンテンツ パックの[ドキュメント](service-connect-to-quickbooks-online.md)をご覧ください。
 
 
 **2015 年 5 月 13 日**
 
-* **Azure SQL Database**に格納されたデータに直接接続することができます。 クエリが動的に生成されてソースに送信されるため、データベースから直接に対話型レポートを作成することができます。 詳細については、この[ブログの投稿](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx)と、この[ドキュメント](service-azure-sql-database-with-direct-connect.md)をご覧ください。
+* **Azure SQL Database**に格納されたデータに直接接続することができます。 クエリが動的に生成されてソースに送信されるため、データベースから直接に対話型レポートを作成することができます。 詳細については、この[ブログの投稿](https://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx)と、この[ドキュメント](service-azure-sql-database-with-direct-connect.md)をご覧ください。
 
 **2015 年 5 月 7 日**
 
@@ -697,15 +727,15 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 **2015 年 4 月 28 日**
 
-* Power BI が、 **44 の言語**で使用できるようになりました。 完全な一覧については、この[ブログの投稿](http://blogs.msdn.com/b/powerbi/archive/2015/04/28/power-bi-preview-now-available-in-your-language.aspx)をご覧ください。
+* Power BI が、 **44 の言語**で使用できるようになりました。 完全な一覧については、この[ブログの投稿](https://blogs.msdn.com/b/powerbi/archive/2015/04/28/power-bi-preview-now-available-in-your-language.aspx)をご覧ください。
 
 **2015 年 4 月 23 日**
 
-* 新しいコンテンツ パックを使用すれば、 **Microsoft Dynamics Marketing** データを視覚化および探索できるようになりました。 詳細については、[ブログ投稿](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx)をお読みください。
+* 新しいコンテンツ パックを使用すれば、 **Microsoft Dynamics Marketing** データを視覚化および探索できるようになりました。 詳細については、[ブログ投稿](https://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx)をお読みください。
 
 **2015 年 4 月 15 日**
 
-* 新しいコンテンツ パックを使用すれば、 **Google アナリティクス** のデータを視覚化および探索できるようになりました。 Google アナリティクス コンテンツ パックを使用すれば、過去 6 か月のサイトの利用のされ方についての洞察を得ることができる、ダッシュボード、レポート、およびデータセットを入手できます。 [こちらのブログ記事](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)を読むことができます。
+* 新しいコンテンツ パックを使用すれば、 **Google アナリティクス** のデータを視覚化および探索できるようになりました。 Google アナリティクス コンテンツ パックを使用すれば、過去 6 か月のサイトの利用のされ方についての洞察を得ることができる、ダッシュボード、レポート、およびデータセットを入手できます。 [こちらのブログ記事](https://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)を読むことができます。
 * **すべてのカードをピン留め**して、Q&A とレポートから、それらのカードに含まれた KPI およびイメージを求めることができるようになりました。
 * クエリの最後に「as card」という語句を使用すれば、**Q&A でカードを使用**できるようになりました。
 
@@ -731,7 +761,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * OneDrive に関する更新の信頼性が向上しました。  ブックが OneDrive から更新できなかった状況のいくつかが解決されました。
 
 ## <a name="next-steps"></a>次の手順
-[Power BI とは?](power-bi-overview.md)  
+[Power BI とは?](fundamentals/power-bi-overview.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

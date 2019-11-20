@@ -2,7 +2,6 @@
 title: Power BI の小売りの分析のサンプル:ツアーを開始する
 description: Power BI の小売りの分析のサンプル:ツアーを開始する
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962231"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858566"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の小売りの分析のサンプル:ツアーを開始する
 
@@ -54,11 +53,11 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>このサンプルの .pbix ファイルを取得する
 
-あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)として、小売りの分析のサンプルをダウンロードすることもできます。 
+あるいは、Power BI Desktop で使用するために設計された [.pbix ファイル](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)として、小売りの分析のサンプルをダウンロードすることもできます。 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータ ソースを確認する場合は、[Excel ブック](http://go.microsoft.com/fwlink/?LinkId=529778) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
+このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529778) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>ダッシュボードを起動し、レポートを開く
 
@@ -78,7 +77,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
    **FD-01** 地区は **1 平方フィートあたりの売上**の平均が最も高く、FD-02 は昨年に比べて **[総売上差異]** が最も小さくなっています。 FD-03 と FD-04 は全体的に業績が最低です。
 4. 個々のバブルまたは他のグラフをクリックすると、クロス強調表示が表示され、選択箇所による影響が明らかになります。
-5. ダッシュボードに戻るには、上部のナビゲーション バーから **[小売りの分析のサンプル]** を選びます。
+5. ダッシュボードに戻るには、上部のナビ ペインから **[小売りの分析のサンプル]** を選びます。
 
    ![ナビゲーション バー](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. ダッシュボード上の **[This Year's Sales New & Existing Stores]\(新規と既存の店舗の今年度の売上\)** タイルで、[Q&A] 質問ボックスに "*今年の売上*" と入力します。

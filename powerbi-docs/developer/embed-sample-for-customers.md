@@ -3,23 +3,22 @@ title: 顧客向けのアプリケーション内に Power BI コンテンツを
 description: Power BI API を使って、アプリケーションに顧客向けの分析情報用のレポート、ダッシュボード、タイルを統合する (埋め込む) 方法について説明します。 埋め込み分析ソフトウェア、埋め込み分析ツール、または埋め込みビジネス インテリジェンス ツールを使って、ご自身のアプリケーションに Power BI を統合する方法について説明します。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 24a9c0069cb80a20a84823655437a27a4f6c0e9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391800"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877714"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>チュートリアル:顧客向けのアプリケーションに Power BI コンテンツを埋め込む
 
-**Azure の Power BI Embedded** を使うと、アプリ所有データを使用して、レポート、ダッシュボード、またはタイルをアプリケーション内に埋め込むことができます。 **アプリ所有データ**がある場合、Power BI を埋め込み分析プラットフォームとして使用するアプリケーションが含まれます。 **ISV 開発者**は、完全に統合された対話型のアプリケーションにレポート、ダッシュボード、またはタイルを表示する Power BI コンテンツを作成できます。ユーザーに Power BI ライセンスは必要ありません。 このチュートリアルでは、顧客向けに **Power BI Embedded in Azure** の使用時、Power BI .NET SDK と Power BI JavaScript API でアプリケーション内にレポートを統合する方法を説明します。
+**Azure の Power BI Embedded** または **Office での Power BI の埋め込み**を使用すると、アプリ所有データを使用して、レポート、ダッシュボード、またはタイルをアプリケーション内に埋め込むことができます。 **アプリ所有データ**がある場合、Power BI を埋め込み分析プラットフォームとして使用するアプリケーションが含まれます。 **ISV** または**開発者**は、完全に統合された対話型のアプリケーションにレポート、ダッシュボード、またはタイルを表示する Power BI コンテンツを作成できます。ユーザーに Power BI ライセンスは必要ありません。 このチュートリアルでは、Power BI .NET SDK と Power BI JavaScript API を使用して、アプリケーションにレポートを統合する方法を説明します。
 
 ![Power BI 埋め込みレポート](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
@@ -33,12 +32,9 @@ ms.locfileid: "70391800"
 始めるにあたり、必要なもの:
 
 * [Power BI Pro アカウント](../service-self-service-signup-for-power-bi.md) (Power BI Pro アカウントにサインインするためのユーザー名とパスワードとなるマスター アカウント) または[サービス プリンシパル (アプリ専用トークン)](embed-service-principal.md)。
-* [Microsoft Azure](https://azure.microsoft.com/) サブスクリプション。
 * 独自の [Azure Active Directory テナント](create-an-azure-active-directory-tenant.md)のセットアップが必要です。
 
 **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/pricing/)してください。
-
-Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)してください。
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>埋め込み分析開発環境を設定する
 
@@ -60,13 +56,13 @@ Azure Active Directory に[アプリケーションを登録する](register-app
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 環境を設定する
 
-### <a name="create-an-app-workspace"></a>アプリ ワークスペースを作成する
+### <a name="create-a-workspace"></a>ワークスペースの作成
 
-顧客向けのレポート、ダッシュボード、またはタイルを埋め込む場合は、コンテンツをアプリ ワークスペース内に配置する必要があります。 設定可能なワークスペースには、[従来のワークスペース](../service-create-workspaces.md)と[新しいワークスペース](../service-create-the-new-workspaces.md)があります。 *マスター* アカウントを使用する場合、いずれのワークスペースを使用してもかまいません。 一方、 *[サービス プリンシパル](embed-service-principal.md)* を使用してアプリケーションにサインインする場合、新しいワークスペースを使用する必要があります。 いずれの場合でも、*マスター* アカウントも*サービス プリンシパル*もアプリケーションに関連するアプリ ワークスペースの管理者でなければなりません。
+顧客向けのレポート、ダッシュボード、またはタイルを埋め込む場合は、コンテンツをワークスペース内に配置する必要があります。 設定可能なワークスペースには、[従来のワークスペース](../service-create-workspaces.md)と[新しいワークスペース](../service-create-the-new-workspaces.md)があります。 *マスター* アカウントを使用する場合、いずれのワークスペースを使用してもかまいません。 一方、" *[サービス プリンシパル](embed-service-principal.md)* " を使用してアプリケーションにサインインする場合、新しいワークスペースを使用する必要があります。 いずれの場合でも、"*マスター*" アカウントも "*サービス プリンシパル*" もアプリケーションに関連するワークスペースの管理者でなければなりません。
 
 ### <a name="create-and-publish-your-reports"></a>レポートを作成して発行する
 
-Power BI Desktop を使用してレポートとデータセットを作成し、アプリ ワークスペースにこれらのレポートを発行できます。 この作業を実行するには 2 とおりの方法があります。エンド ユーザーはマスター アカウント (Power BI Pro ライセンス) で従来のアプリ ワークスペースにレポートを発行できます。 サービス プリンシパルを使用する場合、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) を使用し、新しいワークスペースにレポートを発行できます。
+Power BI Desktop を使用してレポートとデータセットを作成し、ワークスペースにこれらのレポートを発行できます。 この作業を実行するには 2 とおりの方法があります。エンド ユーザーは、マスター アカウント (Power BI Pro ライセンス) で従来のワークスペースにレポートを発行できます。 サービス プリンシパルを使用する場合、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) を使用し、新しいワークスペースにレポートを発行できます。
 
 以下の手順で PBIX レポートを Power BI ワークスペースに発行できます。
 
@@ -78,7 +74,7 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
    ![PBI デスクトップ レポート](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
 
-3. **アプリ ワークスペース**に発行します。 このプロセスは、マスター アカウント (Power Pro ライセンス) を使用する場合とサービス プリンシパルを使用する場合で異なります。 マスター アカウントを使用する場合、Power BI Desktop からレポートを発行できます。  サービス プリンシパルを使用する場合、Power BI REST API を使用する必要があります。
+3. **ワークスペース**に発行します。 このプロセスは、マスター アカウント (Power Pro ライセンス) を使用する場合とサービス プリンシパルを使用する場合で異なります。 マスター アカウントを使用する場合、Power BI Desktop からレポートを発行できます。  サービス プリンシパルを使用する場合、Power BI REST API を使用する必要があります。
 
 ## <a name="embed-content-using-the-sample-application"></a>サンプル アプリケーションを使用してコンテンツを埋め込む
 
@@ -123,7 +119,7 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
 1. [Azure Portal ](https://portal.azure.com)にサインインします。
 
-2. 左側のナビゲーション ウィンドウで、 **[すべてのサービス]** 、 **[アプリの登録]** の順に選択します。
+2. 左側のナビ ペインで、 **[すべてのサービス]** 、 **[アプリの登録]** の順に選択します。
 
     ![アプリの登録の検索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -139,7 +135,7 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
 この属性は AuthenticationTypes (マスター アカウントと[サービス プリンシパル](embed-service-principal.md)) の両方で必要です。
 
-**workspaceId** 情報には、Power BI のアプリ ワークスペース (グループ) の GUID を入力します。 この情報は、Power BI サービスにサインインしたときに URL から取得するか、PowerShell を使用して取得できます。
+**workspaceId** 情報には、Power BI のワークスペース (グループ) の GUID を入力します。 この情報は、Power BI サービスにサインインしたときに URL から取得するか、PowerShell を使用して取得できます。
 
 URL <br>
 
@@ -190,7 +186,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 1. [Azure portal](https://portal.azure.com) にサインインします。
 
-2. 左側のナビゲーション ウィンドウで、 **[すべてのサービス]** 、 **[アプリの登録]** の順に選択します。
+2. 左側のナビ ペインで、 **[すべてのサービス]** 、 **[アプリの登録]** の順に選択します。
 
     ![アプリの登録の検索](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -268,11 +264,23 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>埋め込みトークンを作成する
+JavaScript API から使うことができる埋め込みトークンを生成します。 API には 2 種類あります。1 つ目のグループには、それぞれが特定の項目の埋め込みトークンを生成する 5 つの API が含まれます。 2 番目のグループには、複数の項目を埋め込むために使用できるトークンを生成する API が 1 つ含まれます。
 
-JavaScript API から使うことができる埋め込みトークンを作成します。 埋め込みトークンは、埋め込むアイテムに固有のものです。 そのため、Power BI コンテンツを埋め込むときは常に、そのための埋め込みトークンを新しく作成する必要があります。 使う **accessLevel** など詳しくは、「[GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)」をご覧ください。
+**特定の項目の埋め込みトークンを生成するための API**
 
-*レポート、ダッシュボード、タイルのいずれを埋め込む場合でも、その埋め込みトークンを作成するサンプルは、[サンプル アプリケーション](https://github.com/Microsoft/PowerBI-Developer-Samples)内の Services\EmbedService.cs ファイルにあります。*
+これらの API で作成される埋め込みトークンは、埋め込む項目に固有のものです。 これらの API を使用して Power BI 項目 (レポート、ダッシュボード、タイルなど) を埋め込むときは常に、その項目用に新しい埋め込みトークンを作成する必要があります。
+* [Dashboards GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [Datasets GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [Tiles GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
+レポート、ダッシュボード、またはタイル用の埋め込みトークンを作成するサンプルは、[サンプル アプリケーション](https://github.com/Microsoft/PowerBI-Developer-Samples)の次のファイルから入手できます。
+* Services\EmbedService.cs
+* Models\EmbedConfig.cs
+* Models\TileEmbedConfig.cs
+
+reports GenerateTokenInGroup 埋め込みトークン API を使用するためのコード例を次に示します。
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
@@ -290,7 +298,55 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-**EmbedConfig** および **TileEmbedConfig** のクラスが作成されます。 **Models\EmbedConfig.cs** ファイルおよび **Models\TileEmbedConfig.cs ファイル**内にサンプルがあります。
+**複数の項目の埋め込みトークンを生成するための API**<a id="multiEmbedToken"></a>
+
+[Generate Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) 埋め込み API は、複数の項目を埋め込むために使用できるトークンを生成します。
+
+レポートを埋め込む際にデータセットを動的に選択するためにも使用できます。 この API の使用方法の詳細については、[動的バインド](embed-dynamic-binding.md)に関するページを参照してください。
+
+
+この API の使用例を次に示します。
+ 
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+var reports = new List<GenerateTokenRequestV2Report>()
+{ 
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = false,
+        Id = report1.Id
+    },
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = true,
+        Id = report2.Id
+    }
+};
+
+var datasets= new List<GenerateTokenRequestV2Dataset>()
+{
+    new GenerateTokenRequestV2Dataset(dataset1.Id),
+    new GenerateTokenRequestV2Dataset(dataset2.Id),
+    new GenerateTokenRequestV2Dataset(dataset3.Id),
+};
+
+var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
+{
+    new GenerateTokenRequestV2TargetWorkspace(workspace1.Id),
+    new GenerateTokenRequestV2TargetWorkspace(workspace2.Id),
+};
+
+var request = new GenerateTokenRequestV2()
+{
+    Datasets = datasetsRequestDetails ?? null,
+    Reports = reportsRequestDetails,
+    TargetWorkspaces = targetWSRequestdetials ?? null,
+};
+
+var token = client.GetClient().EmbedToken.GenerateToken(request);
+```
 
 ### <a name="load-an-item-using-javascript"></a>JavaScript を使ってアイテムを読み込む
 
@@ -345,35 +401,40 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 
 ## <a name="move-to-production"></a>運用開始
 
-これでアプリケーションの開発が完了したため、専用の容量を持つアプリ ワークスペースに戻ります。 
+これでアプリケーションの開発が完了したため、専用の容量を持つワークスペースに戻ります。 
 
 > [!Important]
-> 運用を開始するには、専用の容量が必要です。
+> 運用を開始するには、専用の容量が必要です。 すべてのワークスペース (レポートまたはダッシュボードが含まれるワークスペースとデータセットが含まれるワークスペース) が容量に割り当てられている必要があります。
 
 ### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
 
-専用の容量を作成することで、顧客専用のリソースを所有する利点が得られます。 [Microsoft Azure Portal](https://portal.azure.com) 内で専用の容量を購入できます。 Power BI Embedded 容量の作成方法の詳細については、「[Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md)」 (Azure Portal で Power BI Embedded 容量を作成する) をご覧ください。
+専用の容量を作成することで、顧客専用のリソースを所有する利点が得られます。 選択できる容量には、次の 2 種類があります。
+* **Power BI Premium** - 2 つの SKU ファミリ (*EM* および *P*) で利用可能なテナントレベルの Office 365 サブスクリプションです。Power BI コンテンツを埋め込む場合、このソリューションは "*Power BI 埋め込み*" と呼ばれます。 このサブスクリプションの詳細については、「[Power BI Premium とは](../service-premium-what-is.md)」を参照してください。
+* **Azure Power BI Embedded** - [Microsoft Azure portal](https://portal.azure.com) で専用の容量を購入できます。 このサブスクリプションは、*A* SKU を使用します。 Power BI Embedded 容量の作成方法の詳細については、「[Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md)」 (Azure Portal で Power BI Embedded 容量を作成する) をご覧ください。
+> [!NOTE]
+> A SKU の場合、無料 Power BI ライセンスでは Power BI コンテンツにアクセスできません。
 
-下の表を参照し、自分のニーズに最適な Power BI Embedded 容量を判断します。
+次の表は、各 SKU のリソースと制限を示しています。 ニーズに最適な容量を判断するには、[シナリオに応じてどの SKU を購入すればよいか](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario)をまとめた表を参照してください。
 
-| 容量ノード | 合計コア<br/>*(バックエンド + フロントエンド)* | バックエンド コア | フロントエンド コア | DirectQuery/ライブ接続の制限|
-| --- | --- | --- | --- | --- | --- |
-| A1 |1 仮想コア |0.5 コア、3 GB RAM |0.5 コア |1 秒あたり 0.5 |
-| A2 |2 仮想コア |1 コア、5 GB RAM |1 コア | 1 秒あたり 10 |
-| A3 |4 仮想コア |2 コア、10 GB RAM |2 コア | 1 秒あたり 15 |
-| A4 |8 仮想コア |4 コア、25 GB RAM |4 コア |1 秒あたり 30 |
-| A5 |16 仮想コア |8 コア、50 GB RAM |8 コア |1 秒あたり 60 |
-| A6 |32 仮想コア |16 コア、100 GB RAM |16 コア |1 秒あたり 120 |
+| 容量ノード | 合計 v コア数 | バックエンド v コア数 | RAM (GB) | フロントエンド v コア数 | DirectQuery/ライブ接続 (秒あたり) | モデル更新並列処理 |
+| --- | --- | --- | --- | --- | --- | --- |
+| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
+| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
+| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| | | | | | | |
 
-**_A SKU の場合、無料 Power BI ライセンスでは Power BI コンテンツにアクセスできません。_**
+### <a name="development-testing"></a>開発テスト
 
-埋め込みトークンと PRO ライセンスを一緒に使用するのは、開発テストのためのものです。そのため、Power BI マスター アカウントまたはサービス プリンシパルで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、専用の容量が必要です。 専用の容量があると、生成できる埋め込みトークンの数に制限がなくなります。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、[使用可能な機能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)に関するページに移動します。 使用量はマスター アカウント別となっています。
+埋め込みトークンと Pro ライセンスを一緒に使用するのは、開発テストのためのものです。そのため、Power BI マスター アカウントまたはサービス プリンシパルで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、専用の容量が必要です。 専用の容量があると、生成できる埋め込みトークンの数に制限がなくなります。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、[使用可能な機能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)に関するページに移動します。 使用量はマスター アカウント別となっています。
 
 詳細については、「[Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper)」 (埋め込み分析の容量計画に関するホワイト ペーパー) をご覧ください。
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>専用の容量にアプリ ワークスペースを割り当てる
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>専用の容量にワークスペースを割り当てる
 
-専用の容量を作成すると、アプリ ワークスペースをその専用の容量に割り当てることができます。
+専用の容量を作成した後、ワークスペースをその専用の容量に割り当てることができます。
 
 [サービス プリンシパル](embed-service-principal.md)を使用して専用の容量をワークスペースに割り当てるには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) を使用します。 Power BI REST API の使用時は必ず[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) を使用してください。
 
@@ -387,9 +448,9 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 
     ![専用の容量の割り当て](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. **[保存]** を選択すると、アプリ ワークスペース名の横に**ひし形**が表示されます。
+3. **[保存]** を選択すると、ワークスペース名の横に**ひし形**が表示されます。
 
-    ![容量に関連付けられたアプリ ワークスペース](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+    ![容量に関連付けられたワークスペース](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>次の手順
 
@@ -398,4 +459,4 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 > [!div class="nextstepaction"]
 >[組織向けの埋め込み](embed-sample-for-your-organization.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

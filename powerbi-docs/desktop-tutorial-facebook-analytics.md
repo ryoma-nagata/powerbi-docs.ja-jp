@@ -2,7 +2,6 @@
 title: チュートリアル:Power BI Desktop を使用した Facebook の分析
 description: チュートリアル:Power BI Desktop を使用した Facebook の分析
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841399"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876271"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>チュートリアル:Power BI Desktop を使用した Facebook の分析
 
@@ -147,7 +146,7 @@ Facebook ページからデータをインポートしたら、視覚化を使�
    
    ![横棒グラフ](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. 視覚化の右上にある省略記号 ([...]) を選択し、**Sort by Number of comments** を選択して、コメント数の降順でテーブルを並べ替えます。 
+4. 視覚化の右上にある **[その他のオプション]** (...) を選択し、**Sort by Number of comments** を選択して、コメント数の降順でテーブルを並べ替えます。 
    
    ![コメント数で並べ替える](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +183,7 @@ Facebook ページからデータをインポートしたら、視覚化を使�
 
 改善されましたが、すべてのデータ ラベルに小数点以下の **.0** が付いています。**Number of posts** は必ず整数なので、これは邪魔で誤解を招きます。 **Number of posts** 列のデータ型を整数に変更する必要があります。
 
-1. データ型を編集するには、[フィールド] リストで **[Query1]** を右クリックするか、マウス カーソルを移動して、 **[その他のオプション]** の省略記号 (...) を選択してから **[クエリの編集]** を選択します。 リボンの [ホーム] タブの **[外部データ]** 領域から **[クエリの編集]** を選択し、ドロップダウンから **[クエリの編集]** を選択することもできます。 Power BI Desktop の **Power Query エディター**が別のウィンドウに開きます。
+1. データ型を編集するには、[フィールド] リストで **[Query1]** を右クリックするか、マウス カーソルを移動して、 **[その他のオプション]** (...) を選択してから **[クエリの編集]** を選択します。 リボンの [ホーム] タブの **[外部データ]** 領域から **[クエリの編集]** を選択し、ドロップダウンから **[クエリの編集]** を選択することもできます。 Power BI Desktop の **Power Query エディター**が別のウィンドウに開きます。
    
    ![[フィールド] リストからクエリを編集する](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![リボンの [フィールドの編集]](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    
@@ -241,8 +240,8 @@ Facebook ページからデータをインポートしたら、視覚化を使�
 Power BI Desktop は、さまざまなデータ ソースからデータを取得して分析のニーズに合わせてデータの形を整えることから、このデータを機能豊富な対話型の方法で視覚化することまで、シームレスなエンド ツー エンドのエクスペリエンスを提供します。 レポートが完成したら、[Power BI サービスにアップロード](desktop-upload-desktop-files.md)し、それに基づいて、他の Power BI ユーザーと共有可能なダッシュボードを作成できます。
 
 ## <a name="next-steps"></a>次の手順
-* [他の Power BI Desktop のチュートリアルを読む](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop のビデオを見る](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Power BI フォーラムにアクセスする](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Power BI ブログを読む](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [他の Power BI Desktop のチュートリアルを読む](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop のビデオを見る](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI フォーラムにアクセスする](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Power BI ブログを読む](https://go.microsoft.com/fwlink/?LinkID=519327)
 
