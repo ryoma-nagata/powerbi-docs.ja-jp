@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 10/21/2019
 rLocalizationGroup: Common tasks
-ms.openlocfilehash: add49c43e16b2070b054f4228d1faf0075b736f8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a9339cc9f61a3a191e8783935c9ec38e119894e9
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861389"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099199"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI サービスでレポートまたはダッシュボードをサブスクライブする 
 
@@ -81,7 +81,7 @@ Pro ライセンスの有効期限が切れた場合、所有者がダッシュ�
 * メール内の (コンテンツへの) リンクが機能しなくなった場合は、コンテンツが削除された可能性があります。 メール内のスクリーンショットの下で、自分自身をサブスクライブしたかどうか、または他の人が自分をサブスクライブしたかどうかを確認できます。 他の人の場合は、同僚に電子メールをキャンセルするか、再度自分をサブスクライブするよう依頼してください。
 * レポート ページのサブスクリプションは、レポート ページの名前に関連付けられています。 レポート ページにサブスクライブしたときに、その名前が変更されている場合は、サブスクリプションを再作成する必要があります。
 * サブスクリプション機能を使用できない場合は、システム管理者に問い合わせてください。 組織によって、この機能が無効にされている可能性があります。  
-* メール サブスクリプションは、ほとんどの[カスタム ビジュアル](../power-bi-custom-visuals.md)をサポートしていません。  例外は[認定](../power-bi-custom-visuals-certified.md)されているカスタム ビジュアルです。  
+* メール サブスクリプションは、ほとんどの[カスタム ビジュアル](../developer/power-bi-custom-visuals.md)をサポートしていません。  例外は[認定](../developer/power-bi-custom-visuals-certified.md)されているカスタム ビジュアルです。  
 * メール サブスクリプションは、この時点では、R を利用したカスタム ビジュアルをサポートしていません。  
 * ダッシュボードのサブスクリプションに限り、特定の種類のタイルはまだサポートされていません。  ストリーミング タイル、ビデオ タイル、カスタム Web コンテンツ タイルなどです。     
 * メールのサイズ制限のため、ダッシュボードまたはレポートに非常に大きい画像が含まれると、サブスクリプションが失敗する場合があります。    

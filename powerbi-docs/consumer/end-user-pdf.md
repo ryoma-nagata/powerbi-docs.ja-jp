@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 376ecd007e774a153b47df75417621d4233cc4ce
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5d26327e41e4236a3ea5e0eca2246c6f66a64be4
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862866"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099131"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Power BI から PDF にレポートをエクスポートする
 
@@ -51,7 +51,7 @@ Power BI サービスで、レポートを選択してそれをキャンバス�
 "**PDF へのエクスポート**" 機能を使用する場合は、留意すべき注意事項と制限事項がいくつかあります。
 
 * 現在、R ビジュアルはサポートされていません。 PDF では、これらのビジュアルは空白となり、エラー メッセージが表示されます。 
-* 認定を受けたカスタム ビジュアルはサポートされます。 カスタム ビジュアルの認定を受ける方法など、認定を受けたカスタム ビジュアルの詳細については、[カスタム ビジュアルの認定](../power-bi-custom-visuals-certified.md)に関する記事を参照してください。 認定を受けていないカスタム ビジュアルはサポートされません。 PDF では、それらはエラー メッセージを伴って表示されます。 
+* 認定を受けたカスタム ビジュアルはサポートされます。 カスタム ビジュアルの認定を受ける方法など、認定を受けたカスタム ビジュアルの詳細については、[カスタム ビジュアルの認定](../developer/power-bi-custom-visuals-certified.md)に関する記事を参照してください。 認定を受けていないカスタム ビジュアルはサポートされません。 PDF では、それらはエラー メッセージを伴って表示されます。 
 * 現在、レポート ページが 30 ページを超えるレポートはエクスポートできません。
 * レポートを PDF にエクスポートする処理が完了するまで数分かかる場合がありますので、しばらくお待ちください。 必要な時間に影響する要因としては、レポートの構造や、Power BI サービスの現在の負荷などがあります。
 * Power BI サービスで **[PDF にエクスポート]** メニュー項目を使用できない場合は、テナント管理者が機能を無効にしている可能性があります。 詳細については、テナント管理者に問い合わせてください。

@@ -2,20 +2,20 @@
 title: Power BI 管理ポータル
 description: 管理ポータルを使用して、組織内の Power BI のテナントを管理できます。 利用状況の指標、Microsoft 365 管理センターへのアクセス、設定などの項目があります。
 author: mgblythe
-ms.author: mblythe
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
+ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: fd9864ed086f535e0978dee7f5f8837039aa5491
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73857507"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128390"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -304,7 +304,7 @@ Azure B2B ゲスト ユーザーは、組織内のコンテンツの編集およ
 
 ### <a name="add-and-use-custom-visuals"></a>カスタム視覚化の追加と使用
 
-組織内のユーザーは、カスタム ビジュアルを操作して共有することができます。 [詳細情報](power-bi-custom-visuals.md)
+組織内のユーザーは、カスタム ビジュアルを操作して共有することができます。 [詳細情報](developer/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > この設定は組織全体に適用するか、特定のグループに限定することができます。
@@ -456,7 +456,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
  ## <a name="organizational-visuals">組織のビジュアル</a> 
 
-**[組織のビジュアル]** タブでは、組織内にカスタム ビジュアルを展開して管理できます。 組織のビジュアルを使用すると、組織に独自のビジュアルを簡単に展開でき、レポート作成者はそれを検出して、Power BI Desktop からレポートにインポートできます。 [詳細情報](power-bi-custom-visuals-organization.md)
+**[組織のビジュアル]** タブでは、組織内にカスタム ビジュアルを展開して管理できます。 組織のビジュアルを使用すると、組織に独自のビジュアルを簡単に展開でき、レポート作成者はそれを検出して、Power BI Desktop からレポートにインポートできます。 [詳細情報](developer/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > カスタム ビジュアルには、セキュリティやプライバシー上のリスクを伴うコードが含まれている可能性があります。組織のリポジトリに展開する前に、カスタム ビジュアルの作成者とソースが信頼できることを確認してください。
