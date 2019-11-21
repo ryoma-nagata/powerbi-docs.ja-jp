@@ -3,18 +3,17 @@ title: Power BI Embedded 移行ツール
 description: この移行ツールを使用して、Power BI Embedded Azure サービス (PaaS) のレポートを Power BI サービス (SaaS) にコピーできます。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2970744f89bf8fdc115be018d00c8f5b73d9ddfc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61272253"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880570"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移行ツール
 
@@ -130,9 +129,9 @@ PaaS トポロジ内の項目を選択して、レポート セクションに�
 > [!NOTE]
 > この項目を設定しても、実際にダウンロードは実行されません。 レポートのダウンロード先の構造を指定するだけです。
 
-#### <a name="upload-plan"></a>[Upload Plan]/(アップロード プラン/)
+#### <a name="upload-plan"></a>アップロード プラン
 
-Power BI サービス内で作成されるアプリ ワークスペースに使用するプレフィックスを指定できます。 プレフィックスの後は、Azure に存在するワークスペースの GUID になります。
+Power BI サービス内で作成されるワークスペースに使用するプレフィックスを指定できます。 プレフィックスの後は、Azure に存在するワークスペースの GUID になります。
 
 ![アップロード プラン](media/migrate-tool/migrate-tool-upload-plan.png)
 
@@ -167,21 +166,21 @@ Power BI サービス内で作成されるアプリ ワークスペースに使�
 
 ## <a name="step-3-create-groups"></a>手順 3:グループの作成
 
-使用できるレポートをダウンロードしたら、 **[Create Groups]/(グループの作成/)** タブを選択します。このタブでは、作成した移行プランに基づいて、Power BI サービス内にアプリ ワークスペースが作成されます。 **[Analyze & Plan Migration]/(移行の分析と計画/)** 内の **[アップロード]** タブで指定した名前のアプリ ワークスペースが作成されます。
+使用できるレポートをダウンロードしたら、 **[Create Groups]/(グループの作成/)** タブを選択します。このタブでは、作成した移行プランに基づいて、Power BI サービス内にワークスペースが作成されます。 **[Analyze & Plan Migration]/(移行の分析と計画/)** 内の **[アップロード]** タブで指定した名前のワークスペースが作成されます。
 
 ![グループの作成](media/migrate-tool/migrate-tool-create-groups.png)
 
-アプリ ワークスペースを作成するには、 **[Create Selected Groups]/(選択されているグループの作成/)** または **[Create All Missing Groups]/(見つからないすべてのグループの作成/)** を選択します。
+ワークスペースを作成するには、 **[Create Selected Groups]/(選択されているグループの作成/)** または **[Create All Missing Groups]/(見つからないすべてのグループの作成/)** を選択します。
 
-いずれかのオプションを選択すると、サインインするように求められます。 *"アプリ ワークスペースを作成する Power BI サービスの資格情報を使用します。"*
+いずれかのオプションを選択すると、サインインするように求められます。 *ワークスペースを作成する Power BI サービスの資格情報を使用します。*
 
 ![グループのサインインの作成](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
-これで、Power BI サービス内にアプリ ワークスペースが作成されます。 この操作では、アプリ ワークスペースにレポートがアップロードされません。
+これで、Power BI サービス内にワークスペースが作成されます。 この操作では、ワークスペースにレポートがアップロードされません。
 
-Power BI にサインインしてワークスペースが存在することを確認することで、アプリ ワークスペースが作成されたことを確認できます。 ワークスペースには何も表示されません。
+Power BI にサインインしてワークスペースが存在することを確認することで、ワークスペースが作成されたことを確認できます。 ワークスペースには何も表示されません。
 
-![アプリ ワークスペース](media/migrate-tool/migrate-tool-app-workspace.png)
+![ワークスペース](media/migrate-tool/migrate-tool-app-workspace.png)
 
 ワークスペースの作成後は、 **[アップロード]** タブに移動できます。
 
@@ -235,9 +234,9 @@ Power BI にサインインしてワークスペースが存在することを�
 
 プランを開き直し、失敗したレポートを移行ツールでアップロードします。
 
-Power BI に戻ると、レポートとデータセットがアプリ ワークスペースにアップロードされたことを確認できます。
+Power BI に戻ると、レポートとデータセットがワークスペースにアップロードされたことを確認できます。
 
-![アプリのワークスペースのアップロード](media/migrate-tool/migrate-tool-upload-app-workspace.png)
+![ワークスペースのアップロード](media/migrate-tool/migrate-tool-upload-app-workspace.png)
 
 <a name="upload-local-file"></a>
 
@@ -264,7 +263,7 @@ DirectQuery レポートの接続文字列をアップロードするには、�
 
 ## <a name="embedding"></a>埋め込み
 
-Power BI Embedded Azure サービスから Power BI サービスにレポートが移行されたので、アプリケーションを更新し、このアプリ ワークスペースにレポートを埋め込むことができるようになりました。
+Power BI Embedded Azure サービスから Power BI サービスにレポートが移行されたので、アプリケーションを更新し、このワークスペースにレポートを埋め込むことができるようになりました。
 
 詳細については、「[Power BI に Power BI Embedded ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md)」を参照してください。
 
@@ -278,4 +277,4 @@ Power BI Embedded Azure サービスから Power BI サービスにレポート�
 [JavaScript 埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

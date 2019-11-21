@@ -2,7 +2,6 @@
 title: Power BI で Office365Mon に接続する
 description: Power BI 用 Office365Mon
 author: teddybercovitz
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 8/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5d31eccd52164bb4d1ff37532d89dc7e147693d3
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 64e8365a6d4e0c01911de9e69998af4d58d59202
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060825"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854712"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI で Office365Mon に接続する
 Office 365 の障害および正常性のパフォーマンス データの分析は、Power BI や Office365Mon テンプレート アプリを使用すると簡単です。 Power BI は、障害および正常性 プローブを含むデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
@@ -26,7 +25,7 @@ Power BI 用 [Office365Mon テンプレート アプリ](https://app.powerbi.com
 >Power BI テンプレート アプリに接続して読み込むには、Office365Mon の管理者アカウントが必要です。
 
 ## <a name="how-to-connect"></a>接続する方法
-1. 左側のナビゲーション ウィンドウの下部にある **[データの取得]** を選択します。
+1. ナビ ペインの下部にある **[データの取得]** を選択します。
    
    ![](media/service-connect-to-office365mon/pbi_getdata.png)
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
@@ -42,7 +41,7 @@ Power BI 用 [Office365Mon テンプレート アプリ](https://app.powerbi.com
    ![](media/service-connect-to-office365mon/creds.png)
    
    ![](media/service-connect-to-office365mon/creds2.png)
-5. Power BI によるデータのインポート後、新しいダッシュ ボード、レポート、データセットが左側のナビゲーション ウィンドウに表示されます。 新しい項目は、黄色のアスタリスク (\*) でマークされます。Office365Mon エントリを選択します。
+5. Power BI によるデータのインポート後、新しいダッシュ ボード、レポート、データセットがナビ ペインに表示されます。 新しい項目は、黄色のアスタリスク (\*) でマークされます。Office365Mon エントリを選択します。
    
    ![](media/service-connect-to-office365mon/dashboard4.png)
 

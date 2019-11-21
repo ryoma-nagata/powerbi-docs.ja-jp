@@ -2,7 +2,6 @@
 title: Power BI サービスから印刷する
 description: Power BI サービスからダッシュボード、タイル、またはレポート ページを印刷します。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100188"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862764"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI サービスから印刷する
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Power BI サービスから、ダッシュボード全体、ダッシュボード タイル、レポート ページ、またはレポートのビジュアルを印刷します。 レポートは、一度に 1 ページのみを印刷できます。レポート全体を一度に印刷することはできません。
 
    > [!NOTE]
@@ -37,7 +39,7 @@ Power BI サービスから、ダッシュボード全体、ダッシュボー�
 
 ## <a name="print-a-dashboard-tile"></a>ダッシュボード タイルの印刷
 1. 上部メニュー バーの全画面表示アイコン ![全画面表示アイコン](./media/end-user-print/power-bi-full-screen-icon.png) を選択すると、ダッシュボードが[全画面表示モード](end-user-focus.md)で開きます。
-3. カーソルを置いて省略記号 (...) を表示し、![[フォーカス モードで開く]](./media/end-user-print/power-bi-focus-icon.png) かフォーカス アイコン **フォーカス アイコン** を選択と、[タイルがフォーカス モードで開きます](end-user-focus.md)。
+3. カーソルを置いて**その他のオプション** (...) を表示し、 **[フォーカス モードで開く]** かフォーカス アイコン ![フォーカス アイコン](./media/end-user-print/power-bi-focus-icon.png) を選択すると、[タイルがフォーカス モードで開きます](end-user-focus.md)。
    
     ![省略記号メニュー](./media/end-user-print/power-bi-menu-options.png)
 4. タイルの上にカーソルを移動して、[オプション] メニューを表示します。
@@ -79,5 +81,5 @@ Power BI サービスから、ダッシュボード全体、ダッシュボー�
 ## <a name="next-steps"></a>次の手順
 [同僚や他のユーザーとダッシュボードやレポートを共有する](../service-share-dashboards.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](http://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

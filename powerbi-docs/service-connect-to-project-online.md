@@ -2,7 +2,6 @@
 title: Power BI で Project Online に接続する
 description: Power BI 用 Project Online
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023781"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854655"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI で Project Web App に接続する
 Microsoft Project Web App は、プロジェクト ポートフォリオ管理 (PPM) および日常の作業用の柔軟なオンライン ソリューションです。 Project Web App を使用すると、プロジェクト ポートフォリオの投資を開始して優先順位を設定し、意図したとおりのビジネス価値を提供できます。 Power BI 用 Project Web App テンプレート アプリでは、Project Web App から分析情報をロック解除し、プロジェクト、ポートフォリオ、リソースの管理に役立てることができます。
@@ -24,7 +23,7 @@ Power BI 用 [Project Web App テンプレート アプリ](https://appsource.mi
 
 ## <a name="how-to-connect"></a>接続する方法
 
-1. 左側のナビゲーション ウィンドウの **[アプリ]** を選択し、右上隅にある **[アプリの取得]** を選択します。
+1. ナビ ペインの **[アプリ]** を選択し、右上隅にある **[アプリの取得]** を選択します。
 
     ![アプリの取得](media/service-connect-to-project-online/GetApps.png)
 
@@ -52,13 +51,13 @@ Power BI 用 [Project Web App テンプレート アプリ](https://appsource.mi
 
 9. データを読み込んでいることを示す通知が表示されます。 アカウントの大きさによっては時間がかかる可能性があります。 Power BI でデータがインポートされると、新しいワークスペースの内容が表示されます。 最新の更新を取得するには、データセットを更新する必要がある場合があります。 
 
-    Power BI でデータをインポートすると、左側のナビゲーション ウィンドウにデータセットを含む 13 ページのレポートが表示されます。 
+    Power BI でデータをインポートすると、データセットを含む 13 ページのレポートがナビ ペインに表示されます。 
 
 10. レポートの準備ができたら、Project Web App データの探索を開始してください。 テンプレート アプリには、ポートフォリオ概要 (6 レポート ページ)、リソース概要 (5 レポート ページ)、プロジェクト ステータス (2 レポート ページ) からなる、13 の多機能かつ詳細なレポートが付属しています。 
 
     ![ポートフォリオ ダッシュ ボード](media/service-connect-to-project-online/report1.png)
    
-    ![公開形態](media/service-connect-to-project-online/report3.png)
+    ![使用できるかどうか](media/service-connect-to-project-online/report3.png)
    
     ![プロジェクトの状態](media/service-connect-to-project-online/report2.png)
 

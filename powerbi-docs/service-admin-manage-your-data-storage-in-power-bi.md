@@ -1,8 +1,7 @@
 ---
 title: ワークスペースでデータ ストレージを管理する
-description: レポートおよびデータセットを引き続き確実に発行できるように、個々のユーザーまたはアプリ ワークスペース内のデータ記憶域を管理する方法について説明します。
+description: レポートおよびデータセットを引き続き確実に発行できるように、個々のユーザーまたはワークスペース内のデータ記憶域を管理する方法について説明します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,24 +10,24 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61191064"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873655"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI ワークスペースでデータ ストレージを管理する
 
-レポートおよびデータセットを引き続き確実に発行できるように、個々のユーザーまたはアプリ ワークスペース内のデータ記憶域を管理する方法について説明します。
+レポートおよびデータセットを引き続き確実に発行できるように、個々のユーザーまたはワークスペース内のデータ記憶域を管理する方法について説明します。
 
-ユーザーとアプリ ワークスペースには固有のデータ容量が割り当てられています。
+ユーザーとワークスペースには固有のデータ容量が割り当てられています。
 
 * すべてのユーザーに最大 10 GB のデータ記憶域が与えられます。
-* Power BI Pro ライセンスを所有するユーザーはアプリ ワークスペースを作成することができ、それぞれのデータ記憶域の上限は 10 GB です。
-* Premium 容量のアプリ ワークスペースは、Power BI Pro ユーザーの記憶域に加算されません。
+* Power BI Pro ライセンスを所有するユーザーはワークスペースを作成することができ、それぞれのデータ記憶域の上限は 10 GB です。
+* Premium 容量のワークスペースは、Power BI Pro ユーザーの記憶域に加算されません。
 
-テナント レベルでは、テナント内のすべての Pro ユーザーとアプリ ワークスペースにおいて、総使用量が Pro ユーザー 1 人あたり 10 GB を超えることはできません。
+テナント レベルでは、テナント内のすべての Pro ユーザーとワークスペースにおいて、総使用量が Pro ユーザー 1 人あたり 10 GB を超えることはできません。
 
 「[Power BI 料金モデル](https://powerbi.microsoft.com/pricing)」のその他の特徴もご覧ください。
 
@@ -46,7 +45,7 @@ ms.locfileid: "61191064"
 
 Power BI アカウントで使用しているデータ記憶域を確認して、アカウントを管理します。
 
-1. 自分の記憶域を管理するには、左側のナビゲーション ウィンドウの **[マイ ワークスペース]** に移動します。
+1. 自分の記憶域を管理するには、ナビ ペインの **[マイ ワークスペース]** に移動します。
    
     ![マイ ワークスペース](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> **[個人の記憶域の管理]** の順にクリックします。
@@ -63,15 +62,15 @@ Power BI アカウントで使用しているデータ記憶域を確認して�
 
 データセットが、自分や他のユーザーが作成したレポートやダッシュボードの基になっている可能性があることにご注意ください。 そのデータセットを削除してしまうと、これらのレポートやダッシュボードは機能しなくなります。
 
-## <a name="manage-your-app-workspace"></a>アプリ ワークスペースの管理
-1. **[ワークスペース]** \> の横にある矢印をクリックし、アプリ ワークスペースの名前を選択します。
+## <a name="manage-your-workspace"></a>自分のワークスペースを管理する
+1. **[ワークスペース]** の横にある矢印をクリックし、ワークスペースの名前を選択します。
    
-    ![アプリ ワークスペースを選択する](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+    ![ワークスペースの選択](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
 2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)\> **[グループ ストレージの管理]** の順にクリックします。
    
     上部のバーに、グループの記憶域の上限のうちの使用量が表示されます。
    
-    ![アプリ ワークスペースの記憶域を管理する](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![ワークスペースの記憶域を管理する](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     データセットとレポートは、2 つのタブに分かれています。
    
@@ -80,7 +79,7 @@ Power BI アカウントで使用しているデータ記憶域を確認して�
 3. データセットやレポートを削除するには、ごみ箱のアイコン ![ごみ箱のアイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
-   > アプリ ワークスペースのメンバー (編集アクセス許可を持つ) はいずれも、アプリ ワークスペースからデータセットやレポートを削除するアクセス許可を持っています。
+   > ワークスペースのメンバー (編集アクセス許可を持つ) はいずれも、ワークスペースからデータセットやレポートを削除するアクセス許可を持っています。
    > 
    > 
 
@@ -104,5 +103,5 @@ Power BI にインポートされるデータセットごとに 1 GB の制限�
 
  ![ストレージの上限を超えています](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+ 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 
