@@ -44,7 +44,7 @@
             - name: カスタム ビジュアルを AppSource に発行する
               href: office-store.md
             - name: Power BI で R を利用したカスタム ビジュアルを使用する
-              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: ビジュアルの相互作用
               href: visuals/visuals-interactions.md
             - name: 選択範囲を追加する

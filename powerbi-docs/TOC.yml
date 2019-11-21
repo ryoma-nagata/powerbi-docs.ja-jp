@@ -279,8 +279,6 @@
               href: desktop-slicer-filter-date-range.md
             - name: サイズを変更できるスライサーを作成する
               href: power-bi-slicer-filter-responsive.md
-            - name: Cortana 用のカスタム回答カードを作成する
-              href: service-cortana-answer-cards.md
             - name: 行レベルのセキュリティ
               href: desktop-rls.md
             - name: カスタマイズのヒント
@@ -665,10 +663,6 @@
               href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
             - name: ライブ接続で Q&A を使用する
               href: service-q-and-a-direct-query.md
-            - name: Power BI 用 Cortana の概要
-              href: service-cortana-intro.md
-            - name: Cortana を Power BI で使用可能にする
-              href: service-cortana-enable.md
             - name: Power BI のクイック インサイト
               href: service-insights.md
             - name: クイック分析情報用のデータを最適化する
@@ -801,8 +795,6 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'エラー:Excel ブックにデータが見つかりませんでした'
               href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: Cortana のトラブルシューティング
-              href: service-cortana-troubleshoot.md
             - name: 更新が失敗した場合に Xero コンテンツ パックの資格情報を更新する方法
               href: service-refresh-xero-credentials.md
         - name: その他のタスク
