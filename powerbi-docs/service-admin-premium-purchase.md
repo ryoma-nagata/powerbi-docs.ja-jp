@@ -1,5 +1,5 @@
 ---
-title: Power BI Pro の購入方法
+title: Power BI Premium の購入方法
 description: Power BI Premium を購入し、組織全体にコンテンツへのアクセスを可能する方法について説明します。
 author: mgblythe
 ms.author: mblythe
@@ -16,7 +16,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 11/09/2019
 ms.locfileid: "73856877"
 ---
-# <a name="how-to-purchase-power-bi-premium"></a>Power BI Pro の購入方法
+# <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium の購入方法
 
 > [!NOTE]
 > この記事は現在、新機能について追記したり、詳細を提供したり、読みやすくしたりするために更新中です。 

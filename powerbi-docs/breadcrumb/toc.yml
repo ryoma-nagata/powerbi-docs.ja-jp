@@ -14,8 +14,8 @@
           topicHref: /power-bi/developer/index
           items:
             - name: Power BI で R を利用した Power BI ビジュアルを使用する
-              tocHref: /power-bi/desktop-r-powered-custom-visuals/
-              topicHref: /power-bi/developer/index
+              tocHref: /power-bi/developer/
+              topicHref: /power-bi/desktop-r-powered-custom-visuals/
         - name: ガイド付き学習
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
