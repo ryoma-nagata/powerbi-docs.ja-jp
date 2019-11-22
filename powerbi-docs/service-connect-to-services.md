@@ -2,25 +2,24 @@
 title: Power BI で使用するサービスに接続する
 description: Salesforce、Microsoft Dynamics CRM、Google Analytics など、ビジネスに使用する数多くのサービスに接続します。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159999"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925820"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI で使用するサービスに接続する
 Power BI では、Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用する数多くのサービスに接続できます。 Power BI は、資格情報を使用してサービスに接続することで開始します。 これは、データを自動表示し、ビジネスに関する分析を視覚的に示すダッシュボードと一連の Power BI レポートで Power BI "*ワークスペース*" を作成します。
 
 >[!IMPORTANT]
->2019 年 9 月 25 日には、いくつかのコンテンツ パックを廃止します。 インストール済みのコンテンツ パックは引き続き動作しますが、それ以降新しいパッケージをインストールすることはできません。 [テンプレート アプリ](https://docs.microsoft.com/power-bi/service-template-apps-overview)は、サービス コンテンツ パックに代わるものです。
+>サービス コンテンツ パックは、[テンプレート アプリ](https://docs.microsoft.com/power-bi/service-template-apps-overview)に置き換えられています。 2019 年 9 月 25 日の時点で、多くのコンテンツ パックが既に非推奨となっています。 インストールされている非推奨のコンテンツ パックはご利用のアカウントに残りますが、それに対するドキュメントやサポートは提供されません。また、もう一度インストールすることもできません。
 
 Power BI にサインインし、[接続できるすべてのサービス](https://app.powerbi.com/getdata/services)を表示します。 
 
@@ -36,7 +35,7 @@ Power BI にサインインし、[接続できるすべてのサービス](https
 ## <a name="edit-the-dashboard-and-reports"></a>ダッシュ ボードとレポートを編集する
 インポートが完了すると、新しいアプリが [アプリ] ページに表示されます。
 
-1. 左側のナビゲーション ウィンドウで **[アプリ]** を選択し、該当アプリを選択します。
+1. ナビ ペインで **[アプリ]** を選んでから、アプリを選びます。
    
      ![[アプリ] ページ](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. Q&A ボックスに質問を入力したり、タイルをクリックして基になっているレポートを開いたりできます。 
@@ -71,6 +70,6 @@ Power BI アプリにしてほしいサービスがある場合は、 [[Power BI
 ## <a name="next-steps"></a>次の手順
 * [同僚にアプリを配布する](service-create-distribute-apps.md)
 * [Power BI で新しいワークスペースを作成する](service-create-the-new-workspaces.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
-* 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](http://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

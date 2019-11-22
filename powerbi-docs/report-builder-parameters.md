@@ -3,18 +3,18 @@ title: Power BI レポート ビルダーでのレポート パラメーター
 description: このトピックでは、Power BI の改ページ調整されたレポート ビルダーのレポート パラメーターの一般的な用途や設定できるプロパティなどについて説明します。
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 21fe08c2cba004a6aff77eae12303d0181ab56ec
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840535"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128428"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Power BI レポート ビルダーでのレポート パラメーター
 
@@ -40,7 +40,7 @@ ms.locfileid: "66840535"
 
 パラメーターのあるレポートを表示すると、レポート ビューアーのツール バーに各パラメーターが表示されて、対話的に値を指定できます。 次の図では、@ReportMonth、@ReportYear、@EmployeeID、@ShowAll、@ExpandTableRows、@CategoryQuota、および @SalesDate の各パラメーターを含むレポートのパラメーター領域を示します。  
 
-![パラメーターがあるレポートの表示](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "パラメーターがあるレポートの表示")
+![パラメーターを指定してレポートを表示する](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "パラメーターを指定してレポートを表示する")
   
 1. **パラメーター ペイン**: レポート ビューアーのツール バーに、各パラメーターのプロンプトと既定値が表示されます。 パラメーター ペインでは、パラメーターのレイアウトをカスタマイズできます。  
   
@@ -65,7 +65,7 @@ ms.locfileid: "66840535"
   
  変数を含むデータセット クエリまたは入力パラメーターを含むデータセット ストアド プロシージャを追加します。 各変数または入力パラメーターに対してデータセット パラメーターを作成し、各データセット パラメーターに対してレポート パラメーターを作成します。  
   
-![レポート ビルダーのパラメーター データセットのプロパティ](media/report-builder-parameters/report-builder-parameter-dataset.png "レポート ビルダーのパラメーター データセットのプロパティ")
+![レポート ビルダーのパラメーターのデータセットのプロパティ](media/report-builder-parameters/report-builder-parameter-dataset.png "レポート ビルダーのパラメーターのデータセットのプロパティ")
 
   
  レポート ビルダーのこの図は、以下を示しています。  

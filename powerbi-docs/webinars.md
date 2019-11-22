@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 289e6490d2449bdcbca68e6acba85cf4466b315f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880555"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060443"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -21,7 +21,13 @@ ms.locfileid: "73880555"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
+**Azure 仮想イベントの分析: Azure Synapse Analytics を使用して分析情報の取得時間の短縮**
+<br>講師: Gayle Sheppard および John Macintyre
+<br>[今すぐ登録](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
+
+**Microsoft が BI データ保護をどのように変化させているか**
+<br>講師: Anton Fritz および Adi Regev
+<br>[12 月 4 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

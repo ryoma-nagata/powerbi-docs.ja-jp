@@ -7,15 +7,14 @@ ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691222"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128291"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
@@ -27,9 +26,9 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 |---------|---------|---------|---------|
 | デプロイ | オンプレミスまたはクラウドでホスト | クラウド | Power BI Report Server は、Power BI Premium を通じてライセンス供与された場合は、Azure VM にデプロイできます (クラウドでホストされます) |
 | ソース データ | クラウドとオンプレミスの両方またはいずれか | クラウドとオンプレミスの両方またはいずれか |  |
-| ライセンス | Power BI Premium または SA 付きの SQL Server EE | Power BI Pro と Power BI Premium の両方またはいずれか | |  
+| ライセンス | Power BI Premium またはソフトウェア アシュアランス (SA) 付きの SQL Server EE | Power BI Pro と Power BI Premium の両方またはいずれか | |  
 | ライフサイクル | 最新のライフサイクル ポリシー | フル マネージドのサービス |  |
-| リリース サイクル | 4 か月ごと | 月に 1 回 | 最新の機能と修正プログラムは、Power BI サービスに先に提供されます。 ほとんどのコア機能は、数回後のリリースで Power BI Report Server に提供されます。一部の機能は Power BI サービスのみが対象です。 |
+| リリース サイクル | 年に 3 回 (1 月、5 月、9 月) | 月に 1 回 | 最新の機能と修正プログラムは、Power BI サービスに先に提供されます。 ほとんどのコア機能は、数回後のリリースで Power BI Report Server に提供されます。一部の機能は Power BI サービスのみが対象です。 |
 | Power BI Desktop での Power BI レポートの作成 | はい | はい |  |
 | ブラウザーでの Power BI レポートの作成 | いいえ | はい |  |
 | ゲートウェイが必要 | いいえ | オンプレミス データ ソースでは必要 |  |
@@ -49,12 +48,12 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | データ アラート | いいえ | はい | Power BI サービスで[データ アラート](../service-set-data-alerts.md)を設定する
 | 行レベルのセキュリティ (RLS) | はい | はい | DirectQuery (データ ソース) とインポート モードの両方で利用可能 <br><br>[Power BI サービス](../service-admin-rls.md)での行レベル セキュリティ <br><br>[Power BI Report Server](row-level-security-report-server.md) での行レベル セキュリティ |
 | 全画面表示モード | いいえ | はい | Power BI サービスでの[全画面表示モード](../consumer/end-user-focus.md) |
-| Office 365 の高度な共同作業 | いいえ | はい | Office 365 を使用した[アプリ ワークスペースでの共同作業](../service-collaborate-power-bi-workspace.md) |
+| Office 365 の高度な共同作業 | いいえ | はい | Office 365 を使用した[ワークスペースでの共同作業](../service-collaborate-power-bi-workspace.md) |
 | R ビジュアル | いいえ | はい | Power BI Desktop で [R ビジュアルを作成](../desktop-r-visuals.md)し、それらを Power BI サービスに発行する。 R ビジュアルがある Power BI レポートは、Power BI Report Server に保存できる。  |
 | プレビュー機能 | いいえ | はい | [Power BI サービスのプレビュー機能のオプトイン](../consumer/end-user-preview-features.md) |
-| カスタム ビジュアル | はい | はい | [Power BI でのカスタム ビジュアル](../power-bi-custom-visuals.md) |
+| カスタム ビジュアル | はい | はい | [Power BI でのカスタム ビジュアル](../developer/power-bi-custom-visuals.md) |
 | 複合モデル | いいえ | はい |
-| Power BI Desktop | Report Server 用に最適化されたバージョン。Report Server と一緒にダウンロード可能 | Power BI サービス用に最適化されたバージョン。Windows ストアから入手可能 | [Report Server 用の Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI サービス用の Power BI Desktop](http://aka.ms/pbidesktopstore) |
+| Power BI Desktop | Report Server 用に最適化されたバージョン。Report Server と一緒にダウンロード可能 | Power BI サービス用に最適化されたバージョン。Windows ストアから入手可能 | [Report Server 用の Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI サービス用の Power BI Desktop](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>次の手順
 

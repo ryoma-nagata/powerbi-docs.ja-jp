@@ -8,21 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7fe802c2dbc225c07f3cf53481f078ff1399004e
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879945"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060424"
 ---
 # <a name="create-a-launch-url"></a>起動 URL を作成する
 
 起動 URL を作成することにより、実際の処理を Power BI に任せて、新しいブラウザー タブ (またはウィンドウ) を開くことができます。
 
+> [!IMPORTANT]
+> `host.launchUrl()` は、Visuals API 1.9.0 で導入されました。
+
 ## <a name="sample"></a>サンプル
 
+`IVisualHost` インターフェイスをインポートし、ビジュアルのコンストラクターで `host` オブジェクトへのリンクを保存します。
+
 ```typescript
-   this.host.launchUrl('https://powerbi.microsoft.com');
+import powerbi from "powerbi-visuals-api";
+import IVisualHost = powerbi.extensibility.visual.IVisualHost;
+
+export class Visual implements IVisual {
+    private host: IVisualHost;
+    // ...
+    constructor(options: VisualConstructorOptions) {
+        // ...
+        this.host = options.host;
+        // ...
+    }
+
+    // ...
+}
 ```
 
 ## <a name="usage"></a>Usage

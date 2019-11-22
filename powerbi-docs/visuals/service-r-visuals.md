@@ -1,23 +1,25 @@
 ---
 title: R スクリプトを使用して高度な分析とビジュアルを作成する
-description: Power BI で R スクリプトを使用して高度な分析と高度なビジュアルを作成する
+description: Power BI Desktop で R スクリプトを使用して高度な分析と高度なビジュアルを作成する
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655025"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099816"
 ---
-# <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI サービスで R ビジュアルを作成する
+# <a name="r-visuals-in-power-bi"></a>Power BI の R ビジュアル
+R ビジュアルは現在、**Power BI Desktop** でのみ作成でき、その後 Power BI サービスに発行できます。 R ビジュアルの作成の詳細については、「[R を使用した Power BI ビジュアルの作成](../desktop-r-visuals.md)」を参照してください。
+
+## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Power BI サービスで R ビジュアルを表示する
 Power BI サービスでは、R スクリプトで作成したビジュアルの表示と操作がサポートされています。 R スクリプトで作成したビジュアルは一般的に *R ビジュアル*と呼ばれ、R の豊富な分析と視覚化の機能を使用した高度なデータ整形と予測などの分析に使用できます。
 
 > [!NOTE]
@@ -27,23 +29,23 @@ Power BI サービスでは、R スクリプトで作成したビジュアルの
 
 次の図は、高度な分析に使用される Power BI ダッシュボードと R ビジュアルのコレクションを示しています。
 
-![](media/service-r-visuals/r-visuals-service_1.png)
+![Power BI サービスのレポート キャンバスのスクリーンショット](media/service-r-visuals/power-bi-r-visuals.png)
 
 R ビジュアルは、次の図に示すレポートのような [Power BI Desktop レポート](../desktop-get-the-desktop.md)内に作成します。
 
-![](media/service-r-visuals/r-visuals-service_2a.png)
+![2 つのビジュアルがある Desktop レポート](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
-**Power BI Desktop** でレポートを作成すると、1 つ以上の R ビジュアルを含むレポートを Power BI サービスに発行できます。 R ビジュアルは現在、**Power BI Desktop** でのみ作成でき、その後 Power BI サービスに発行できます。 R ビジュアルの作成の詳細については、Power BI Desktop での「[R を使用した Power BI ビジュアルの作成 ](../desktop-r-visuals.md)」を参照してください。
+**Power BI Desktop** でレポートを作成すると、1 つ以上の R ビジュアルを含むレポートを Power BI サービスに発行できます。 
 
-サービスでサポートされていない R パッケージもあることに注意してください。 Power BI サービスで現在サポートされているパッケージを確認するには、この記事の最後にあるサポート対象パッケージの一覧を参照してください。
+ このサービスでは、サポートされていない R パッケージもあります。 Power BI サービスで現在サポートされているパッケージを確認するには、この記事の最後にあるサポート対象パッケージの一覧を参照してください。
 
-[Power BI Desktop サンプル ファイル](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix ファイル) をダウンロードして、いくつかの R ビジュアルの動作を確認し、さまざまな使い方を試すことができます。
+[Power BI Desktop サンプル ファイル](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix ファイル) をダウンロードして、いくつかの R ビジュアルの動作を確認し、さまざまな使い方を試すことができます。
 
 **Power BI Desktop** で作成し、Power BI サービスに発行した R ビジュアルは、ほとんどの部分で Power BI サービスの他のビジュアルと同様に動作し、対話的な操作、フィルター処理、スライス、ダッシュボードへの固定、他のユーザーとの共有ができます。 ダッシュボードとビジュアルの共有の詳細については、「[同僚や他のユーザーとのダッシュボードの共有](../service-share-dashboards.md)」を参照してください。 他のビジュアルとの違いとして、R ビジュアルにはツール ヒントを表示できません。また、R ビジュアルを使って他のビジュアルをフィルター処理することはできません。
 
 次の図に示すように、Power BI サービスの R ビジュアルは、ダッシュボードとレポートのどちらに表示されるかにかかわらず、ほとんど他のビジュアルと同様に表示され、動作します。ユーザーは基になる R スクリプトを意識する必要がありません。
 
-![](media/service-r-visuals/r-visuals-service_3a.png)
+![Power BI サービスのレポート ページのスクリーンショット](media/service-r-visuals/power-bi-r-visual.png)
 
 ## <a name="r-scripts-security"></a>R スクリプトのセキュリティ
 R ビジュアルは R スクリプトから作成されますが、R スクリプトにはセキュリティやプライバシーのリスクとなる可能性のあるコードが含まれる場合があります。
@@ -57,11 +59,11 @@ Power BI サービスには、ユーザーとサービスをセキュリティ�
 ## <a name="r-scripts-error-experience"></a>R スクリプトのエラー エクスペリエンス
 R スクリプトでエラーが発生した場合、R ビジュアルはプロットされず、エラー メッセージが表示されます。 エラーの詳細については、次の図に示すように、キャンバス上の R ビジュアル エラーから **[詳細を確認する]** を選択します。
 
-![](media/service-r-visuals/r-visuals-service_4.png)
+![エラー メッセージ](media/service-r-visuals/r-visuals-service-4.png)
 
 もう 1 つの例として、Azure に R パッケージがないために R スクリプトを正常に実行できなかった場合、次の図のようなエラー メッセージが表示されます。
 
-![](media/service-r-visuals/r-visuals-service_5.png)
+![ランタイム エラーを示すスクリーンショット](media/service-r-visuals/r-visuals-service-5.png)
 
 ## <a name="licensing"></a>ライセンス
 R ビジュアルのレポートでの表示、更新、フィルター、クロス フィルターには、[Power BI Pro](../service-self-service-signup-for-power-bi.md) のライセンスが必要です。 Power BI Pro のライセンスの詳細および無料ライセンスとの違いについては、「[Power BI Pro コンテンツとは](../service-admin-purchasing-power-bi-pro.md)」を参照してください。
@@ -83,7 +85,7 @@ Pro ライセンスを持つ**マネージド テナント**     |   サポー�
 ## <a name="known-limitations"></a>既知の制限事項
 Power BI サービスの R ビジュアルには、一定の制限があります。
 
-* R ビジュアルのサポートは次のページに示すパッケージに限定されています。<make this a link to the supported packages page per my excel> 現在のところ、カスタム パッケージはサポートされていません。
+* R ビジュアルのサポートは、[サポートされる R パッケージの詳細](../service-r-packages-support.md)で特定されたパッケージに限定されます。 現在のところ、カスタム パッケージはサポートされていません。
 * データ サイズの制限 – プロット作成で R ビジュアルが使用するデータは、150,000 行に制限されています。 150,000 を超える行が選択されている場合は、上位の 150,000 の行のみが使用され、メッセージがイメージに表示されます。
 * 計算時間の制限 – R ビジュアル計算で実行時間が 60 秒を超えると、エラーが発生します。
 * R ビジュアルは、データ更新、フィルター処理、および強調表示の際に更新されます。 ただし、イメージ自体は対話に対応しておらず、ツール ヒントはサポートされていません。

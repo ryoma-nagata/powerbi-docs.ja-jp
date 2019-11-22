@@ -1,32 +1,32 @@
 ---
-title: Power BI iOS アプリ構成設定
-description: MDM ツールを使用して iOS 用 Power BI の動作をカスタマイズする方法
+title: Power BI アプリの構成設定
+description: MDM ツールを使用して Power BI の動作をカスタマイズする方法
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2019
-ms.author: mshenhav
-ms.openlocfilehash: c2d619489b042e523c559a16dab249b268389cd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: 7ed763d6c87e4b93ebecc474c9059ba83245368a
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879426"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925779"
 ---
-# <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>モバイル デバイス管理 (MDM) ツールを使用して Power BI iOS アプリをリモートで構成する
+# <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>モバイル デバイス管理 (MDM) ツールを使用して Power BI アプリをリモートで構成する
 
-iOS 用 Power BI Mobile アプリでは、Office 365 とモバイル デバイス管理 (MDM) (Intune など) の管理者がアプリの動作をカスタマイズできるようにするアプリ設定をサポートします。
+iOS および Android 用 Power BI Mobile アプリでは、Office 365 とモバイル デバイス管理 (MDM) (Intune など) の管理者が、アプリの動作をカスタマイズできるようにするアプリ設定がサポートされています。
 
-iOS 用 Power BI Mobile アプリでは、次の構成シナリオをサポートします。
+Power BI Mobile アプリでは、次の構成シナリオがサポートされています。
 
-- レポート サーバーの構成
-- データ保護の設定
+- レポート サーバーの構成 (iOS および Android)
+- データ保護の設定 (iOS)
 
-## <a name="report-server-configuration"></a>レポート サーバーの構成
+## <a name="report-server-configuration-ios-and-android"></a>レポート サーバーの構成 (iOS および Android)
 
-Power BI iOS アプリでは、管理者が登録済みデバイスを使用してレポート サーバーの構成をリモートで "プッシュ" することができます。
+管理者は、iOS および Android 用 Power BI アプリを使って、登録済みデバイスにレポート サーバーの構成をリモートで "プッシュ" することができます。
 
 | キー | 種類 | 説明 |
 |---|---|---|
@@ -35,9 +35,9 @@ Power BI iOS アプリでは、管理者が登録済みデバイスを使用し�
 | com.microsoft.powerbi.mobile.ServerDisplayName | 文字列 | (省略可能)<br><br>既定値は "Report server" です<br><br>サーバーを表すためにアプリで使用されるフレンドリ名。 |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | ブール値 | (省略可能)<br><br>既定値は True です。 True に設定されている場合、モバイル デバイスに既にあるレポート サーバーのすべての定義がオーバーライドされます。 既に構成されているサーバーは、削除されます。 また、オーバーライドを True に設定すると、ユーザーはその構成を削除できなくなります。<br><br>False に設定すると、既存の設定はそのままで、プッシュされた値が追加されます。 同じサーバー URL がモバイル アプリに既に構成されている場合、アプリはその構成をそのままにします。 アプリで同じサーバーへの再認証をユーザーに求めることはありません。 |
 
-## <a name="data-protection-setting"></a>データ保護の設定
+## <a name="data-protection-settings-ios"></a>データ保護の設定 (iOS)
 
-Power BI iOS アプリでは、管理者にセキュリティとプライバシーの設定に対する既定の構成をカスタマイズする機能が提供されます。 Power BI アプリにアクセスしている場合、ユーザーに自分の Face ID、Touch ID、またはパスコードを提供するように強制できます。
+管理者は、iOS 用 Power BI アプリを使用して、セキュリティとプライバシーの設定に対する既定の構成をカスタマイズすることができます。 Power BI アプリにアクセスするときに、ユーザーに自分の Face ID、Touch ID、またはパスコードを入力するように強制できます。
 
 | キー | 種類 | 説明 |
 |---|---|---|
@@ -45,21 +45,17 @@ Power BI iOS アプリでは、管理者にセキュリティとプライバシ�
 
 ## <a name="deploying-app-configuration-settings"></a>アプリ構成設定を配置する
 
-次の手順によって、アプリ構成ポリシーを作成できるようにします。 構成ポリシーが作成されたら、ユーザーのグループにその設定を割り当てることができます。
+アプリ構成ポリシーを作成するために必要な手順を、次に示します。 構成ポリシーを作成したら、ユーザーのグループにその設定を割り当てることができます。
 
 1. MDM ツールを接続します。
-
 2. 新しいアプリ構成ポリシーを作成して名前を付けます。
-
 3. このアプリ構成ポリシーを配布するユーザーを選択します。
-
 4. ユーザーにプッシュする設定に対してキー値のペアを作成します。
 
-Intune ポータルでは、管理者がアプリ構成ポリシーによって Power BI iOS アプリにこれらの設定を簡単に配置できます。
-しかし、任意の MDM プロバイダーがサポートされています。 Intune を使用していない場合は、これらの設定を配置する方法で、ご利用の MDM ドキュメントを参照する必要があります。
+管理者は、Intune ポータルを使用して、アプリ構成ポリシーによってこれらの設定を簡単に Power BI アプリに配置できます。 しかし、任意の MDM プロバイダーがサポートされています。 Intune を使用していない場合は、これらの設定を配置する方法について、ご利用の MDM のドキュメントを参照する必要があります。
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI iPhone モバイル アプリ](https://go.microsoft.com/fwlink/?LinkId=522062)をダウンロードする
+* [App Store]("https://apps.apple.com/app/microsoft-power-bi/id929738808) と [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409) から Power BI モバイル アプリを入手する
 * Twitter で [@MSPowerBI をフォローする](https://twitter.com/MSPowerBI)
 * [Power BI コミュニティの会話](https://community.powerbi.com/)に参加する

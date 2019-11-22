@@ -1,25 +1,31 @@
 ---
-title: リモートでレポート サーバーへの iOS モバイル アプリのアクセスを構成する
-description: レポート サーバー用にリモートで iOS モバイル アプリを構成する方法を説明します。
-author: maggiesMSFT
+title: リモートでレポート サーバーへのモバイル アプリのアクセスを構成する
+description: レポート サーバー用にリモートでモバイル アプリを構成する方法を説明します。
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/08/2019
-ms.author: maggies
-ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874206"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925885"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する
+# <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>リモートでレポート サーバーへの Power BI モバイル アプリのアクセスを構成する
 
-この記事では、組織の MDM ツールを使用して、レポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する方法について説明します。 これを設定するために、IT 管理者は、アプリにプッシュする必要な情報でアプリ構成ポリシーを作成します。 
+適用対象:
 
- レポート サーバー接続が既に構成されているため、Power BI iOS モバイル アプリのユーザーは組織のレポート サーバーにより簡単に接続できます。 
+| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![Android フォン](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
+|:--- |:--- |
+| iOS |Android |
+
+この記事では、組織の MDM ツールを使用して、レポート サーバーへの Power BI モバイル アプリのアクセスを構成する方法について説明します。 これを設定するために、IT 管理者は、アプリにプッシュする必要な情報でアプリ構成ポリシーを作成します。 
+
+ レポート サーバー接続が既に構成されているため、Power BI モバイル アプリのユーザーは組織のレポート サーバーにより簡単に接続できます。 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>MDM ツールでアプリ構成ポリシーを作成する 
 
@@ -43,9 +49,9 @@ Intune を使用して構成ポリシーを設定する例を以下に示しま�
 
 ![Intune の構成設定](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
-## <a name="end-users-connecting-to-a-report-server"></a>レポート サーバーに接続しているエンドユーザー
+## <a name="end-users-connecting-to-report-server"></a>レポート サーバーに接続しているエンド ユーザー
 
- 配布リスト用にアプリの構成ポリシーを発行したとします。 その配布リストのユーザーとデバイスが iOS モバイル アプリを起動した場合、次のようなエクスペリエンスがあります。 
+ 配布リスト用にアプリの構成ポリシーを発行したとします。 その配布リストのユーザーとデバイスがモバイル アプリを起動した場合、次のようなエクスペリエンスが提供されます。 
 
 1. レポート サーバーでモバイル アプリが構成されていることを示すメッセージを確認し、 **[サインイン]** をタップします。
 
