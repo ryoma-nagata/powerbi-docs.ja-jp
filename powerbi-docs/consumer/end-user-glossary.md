@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73764730"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264848"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -34,8 +34,6 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 **alert, alerts (アラート)** 設定された制限に基づいて、データの変更をユーザーに通知する機能。 レポートのビジュアルからピン留めされたタイルにアラートを設定できます。 ユーザーは、サービス、および自分のモバイル アプリに関するアラートを受け取ります。
 
 **annotate (注釈を付ける)** iOS および Android デバイス用 Power BI Mobile アプリで、タイル、レポート、またはビジュアルのスナップショット コピーに行、テキスト、またはスタンプを書き込むこと。
-
-**answer card, answer page (回答カード、回答ページ)** 「Cortana 回答カード」を参照してください。
 
 **app, apps (アプリ)** 
 
@@ -77,10 +75,6 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 **content pack (コンテンツ パック)** 事前にパッケージされたデータセット、レポート、およびダッシュボードのコレクション。 **アプリ**については、[新しいワークスペース エクスペリエンスの詳細](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces)を確認してください。 
 
 **content view (コンテンツ ビュー)**
-
-**Cortana answer card (Cortana 回答カード)** カスタムの Cortana の回答を作成できるようにするために、Power BI レポートに含まれる専用のレポート ページ。
-
-**Cortana answer page (Cortana 回答ページ)** 顧客に表示される Cortana ページの名前。
 
 **cross filter, cross highlight (クロス フィルター、クロス強調表示)**
 

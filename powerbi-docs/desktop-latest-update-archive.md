@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8ae5e8e348c982c7e1dffd469e180f4353910bf3
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 228bc9a7c6d02b5c2cdf34178c7b023c78fa23ea
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099512"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310812"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -1503,7 +1503,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 ### <a name="reporting"></a>レポート:
 
 -   ブックマーク (プレビュー) [[動画]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[記事]](desktop-bookmarks.md)
--   選択ウィンドウとビジュアル表示のコントロール [[動画]](https://youtu.be/jksjtR8GnBE?t=7m26s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[記事]](desktop-bookmarks.md#visibility---using-the-selection-pane) 
+-   選択ウィンドウとビジュアル表示のコントロール [[動画]](https://youtu.be/jksjtR8GnBE?t=7m26s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[記事]](desktop-bookmarks.md#visibility-using-the-selection-pane) 
 -   図形と画像へのブックマーク リンク  [[動画]](https://youtu.be/jksjtR8GnBE?t=8m54s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#links) [[記事]](desktop-bookmarks.md#bookmarks-for-shapes-and-images)
 -   Spotlight [[動画]](https://youtu.be/jksjtR8GnBE?t=5m39s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#spotlight) [[記事]](desktop-bookmarks.md#using-spotlight)
 -   散布図およびバブル マーカー  [[動画]](https://youtu.be/jksjtR8GnBE?t=17m20s)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#markers) [[記事]](desktop-accessibility.md)

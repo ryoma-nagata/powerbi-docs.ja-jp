@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c24ed4b605b0e0d8176fc5428d6c30aa2dd131cd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7edfe46173b1d9b2537c5fd980b245af09fd1f53
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872249"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178280"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI サービスに米国政府組織を登録する
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -122,7 +122,7 @@ Power BI の無償版ライセンスを実行しているユーザーをテナ�
 Power BI を使うと、さまざまなことを行えます。 サービスにサインアップする方法を説明する記事など、詳細および学習については、次のリソースをご覧ください。
 
 * [米国政府向け Power BI の概要](service-govus-overview.md)
-* [Power BI のガイド付き学習](guided-learning/index.md)
+* [Power BI のガイド付き学習](guided-learning/index.yml)
 * [Power BI サービスの概要](service-get-started.md)
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 

@@ -1,19 +1,19 @@
 ---
 title: データセットの作成
 description: チュートリアル - データセットにデータをプッシュする - Power BI でデータセットを作成する
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b0a1f2234490ae1c887b77395d87e41deb3319d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2a6c6a0e7860698ffd02625a413ca154898aab3b
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875484"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264965"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>手順 3:Power BI でデータセットを作成する
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
@@ -36,7 +36,7 @@ Power BI でデータセットを作成する手順は次のとおりです。
 > 
 > 
 
-1. 「[手順 2: 認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)」で作成したコンソール アプリケーション プロジェクトで、Program.cs に「**using System.Net;**」と「**using System.IO;**」を追加します。
+1. 「[手順 2: 認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)」で作成したコンソール アプリケーション プロジェクトで、Program.cs に「**using System.Net;** 」と「**using System.IO;** 」を追加します。
 2. Program.cs に、以下のコードを追加します。
 3. コンソール アプリを実行し、Power BI アカウントにログインします。 コンソール ウィンドウに、 **作成されたデータセット** が表示されるはずです。 また、Power BI にログインして、新しいデータセットを表示することもできます。
 

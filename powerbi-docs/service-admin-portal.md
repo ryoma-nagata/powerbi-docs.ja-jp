@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128390"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265883"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -278,13 +278,6 @@ Azure B2B ゲスト ユーザーは、組織内のコンテンツの編集およ
 
 ## <a name="integration-settings"></a>統合の設定
 
-### <a name="ask-questions-about-data-using-cortana"></a>Cortana を使ってデータに関する質問をする
-
-組織内のユーザーは、データについて Cortana を使って質問することができます。 [詳細情報](service-cortana-enable.md)
-
-> [!NOTE]
-> この設定は、組織全体に適用され、特定のグループに限定することはできません。
-
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>オンプレミスのデータセットで [Excel で分析] を使用する
 
 組織内のユーザーは、Excel を使用して、オンプレミスの Power BI データセットの表示および操作を行うことができます。 [詳細情報](service-analyze-in-excel.md)
@@ -298,7 +291,7 @@ Azure B2B ゲスト ユーザーは、組織内のコンテンツの編集およ
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI でグローバル検索を使用する (プレビュー)
 
-組織のユーザーには、Azure Search に依存する外部の検索機能を使用できます。 たとえば、Cortana を使用し、Power BI のダッシュボードとレポートから重要な情報を直接取得できます。 [詳細情報](service-cortana-intro.md)
+組織のユーザーには、Azure Search に依存する外部の検索機能を使用できます。
 
 ## <a name="custom-visuals-settings"></a>カスタム ビジュアルの設定
 
