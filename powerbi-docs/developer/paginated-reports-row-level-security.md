@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880471"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311501"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>埋め込みのページ分割されたレポート (プレビュー) での行レベルのセキュリティの実装
 
@@ -30,7 +30,7 @@ Power BI のページ分割されたレポートに行レベルのセキュリ�
 
 パラメーターを **UserID** に割り当てた後、[Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API を使用して、埋め込みトークンを取得します。
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>レポートまたはクエリ レベルで UderID をフィルターとして使用する
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>レポートまたはクエリのレベルで UserID をフィルターとして使用する
 
 **UserId** は、"*フィルター*" として使用することも、[Power BI のページ分割されたレポート ビルダー](../report-builder-power-bi.md)で、データソースに対する "*クエリ*" で使用することもできます。
 
@@ -66,7 +66,7 @@ Power BI のページ分割されたレポートに行レベルのセキュリ�
 
     ![Power BI レポート ビルダーでのパラメーター](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. **[パラメーター名]** に「 **@UserID** 」と入力し、 **[パラメーター値]** に **[&UserID]** を追加します。
+2. **[パラメーター名]** に「 **\@UserID**」と入力し、 **[パラメーター値]** に **[&UserID]** を追加します。
 
     ![Power BI レポート ビルダーでのパラメーター名](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 

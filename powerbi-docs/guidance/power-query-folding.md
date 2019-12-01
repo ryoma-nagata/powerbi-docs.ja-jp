@@ -8,22 +8,20 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 1ddcc94e2286c82f7e865a2a8012b9d407b3c171
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 01c3d7ac00ec4aa50373e36e1732d4eda55b280c
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875356"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410790"
 ---
 # <a name="the-importance-of-query-folding"></a>クエリ フォールディングの重要性
 
 この記事では、Power BI Desktop でモデルを開発しているデータ モデラーを対象としています。 ここでは、クエリ フォールディングとは何か、およびそれが重要である理由について説明します。 また、クエリ フォールディングを実現できるデータ ソースと変換、および Power Query クエリ (全部または一部) を折りたたむことができるかどうかを判断する方法についても説明します。 最後に、クエリ フォールディングを実現する場合と方法について、ベスト プラクティスのガイダンスを提供します。
 
-## <a name="background"></a>背景
-
 クエリ フォールディングは、ソース データを取得して変換するための単一のクエリ ステートメントを Power Query クエリで生成する機能です。 Power Query のマッシュアップ エンジンは、可能な場合は常にクエリ フォールディングを実現して、基になるデータ ソースに Power BI モデル テーブルを接続するための最も効率的なパスを生成しようとします。
 
-いくつかの理由で、クエリ フォールディングはデータ モデリングの重要なトピックです。
+いくつかの理由で、クエリ フォールディングはデータ モデリングの重要な概念です。
 
 - **インポート モデルのテーブル:** データ更新は、リソース使用率と更新期間の観点から、インポート モデルのテーブルに対して効率的に行われます。
 - **DirectQuery テーブルとデュアル ストレージ モードのテーブル:** 各 DirectQuery テーブルとデュアル ストレージ モードのテーブルは、折りたたみ可能な Power Query クエリに基づいている必要があります。
@@ -35,11 +33,11 @@ ms.locfileid: "73875356"
 
 ## <a name="sources-that-support-query-folding"></a>クエリ フォールディングをサポートするソース
 
-クエリ言語の概念に基づく多くのデータ ソースでは、クエリ フォールディングがサポートされます。 これには、リレーショナル データベース、OData フィード (SharePoint リストなど)、Exchange、Active Directory が含まれます。 しかし、フラット ファイル、BLOB、Web などのデータ ソースでは、通常サポートされません。
+クエリ言語の概念に基づく多くのデータ ソースでは、クエリ フォールディングがサポートされます。 そのようなデータ ソースには、リレーショナル データベース、OData フィード (SharePoint リストなど)、Exchange、Active Directory が含まれます。 しかし、フラット ファイル、BLOB、Web などのデータ ソースでは、通常サポートされません。
 
 ## <a name="transformations-that-can-achieve-query-folding"></a>クエリ フォールディングが実現可能な変換
 
-クエリ フォールディングが実現可能なリレーショナル データ ソース変換とは、単一の SELECT ステートメントとして記述できる変換です。 SELECT ステートメントは、適切な WHERE 句、GROUP BY 句、および JOIN 句を使用して作成することができます。 また、SQL データベースでサポートされる一般的な組み込み関数を使用する列の式 (計算) を含めることもできます。
+クエリ フォールディングが可能なリレーショナル データ ソース変換は、単一の SELECT ステートメントとして記述できます。 SELECT ステートメントは、適切な WHERE 句、GROUP BY 句、および JOIN 句を使用して作成することができます。 また、SQL データベースでサポートされる一般的な組み込み関数を使用する列の式 (計算) を含めることもできます。
 
 次の箇条書きでは、通常クエリ フォールディングが実現可能な変換について説明します。
 
@@ -113,7 +111,7 @@ Power Query クエリに複数のデータ ソースが含まれる場合、デ�
 
 ## <a name="next-steps"></a>次の手順
 
-クエリ フォールディングの詳細と関連トピックについては、次のリソースを参照してください。
+クエリ フォールディングの詳細と関連記事については、次のリソースを参照してください。
 
 - [Power BI Desktop で複合モデルを使用する](../desktop-composite-models.md)
 - [Power BI Premium での増分更新](../service-premium-incremental-refresh.md)

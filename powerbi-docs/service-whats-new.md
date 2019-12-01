@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099716"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265333"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -30,7 +30,7 @@ ms.locfileid: "74099716"
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ### <a name="october-2019"></a>2019 年 10 月
-* Power BI データセットを更新するための新しい Microsoft Flow アクション。
+* Power BI データセットを更新するための新しい Power Automate アクション。
 * Power BI サービスのレポートとダッシュボードの[連絡先リスト](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
 
 ## <a name="previous-months-2019"></a>前の月 (2019)
@@ -227,7 +227,7 @@ ms.locfileid: "74099716"
 * Office 365 監査ポータルの [Power BI 監査ログ](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)をグローバルに利用できます。
 * [開発ツールおよびカスタム ビジュアル API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) バージョン 1.4 がリリースされました。
 * [リアルタイム ストリーミング機能セット](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)の一般公開が開始されました。
-* コード行を記述せずに、[Microsoft Flow を使用して Power BI にデータをプッシュ](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)します。
+* コード行を記述せずに、[Power Automate を使用して Power BI にデータをプッシュ](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)します。
 * プレビュー:[レポート ページをサブスクライブ](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)して、データを完全に掌握します。
 * Azure AD のコンテンツ パックを使用して、従業員やパートナーが Azure AD をどのように使用しているかを詳細に把握します。
 
@@ -530,7 +530,6 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * クイック インサイトを使用してデータセットから自動的に傾向を発見し、パターンを検出できるようになりました:  [ビデオ](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)または[記事](consumer/end-user-insights.md)
 * [Power BI で VMob データを視覚化できるようになりました](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Power BI を Cortana と統合できるようになりました](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [企業向けの Power BI ゲートウェイのプレビューが公開されました](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * 新しいコンテンツ パックの導入: [Power BI ダッシュボードで Bing の検索分析を利用できます](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * 開発者向けの新しい拡張機能:[2 つの新しい API、アプリの登録の簡素化](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)

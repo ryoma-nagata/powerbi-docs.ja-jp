@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 422d742748fc6880b0636bd3a0c5de7011a3ff0a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 28a6aa8659411b829e6982e7c766e03d683871fd
+ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860788"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74415438"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 
@@ -105,7 +105,14 @@ Power BI ユーザーにとって、データ更新とは通常、更新スケ�
 
 OneDrive または SharePoint Online 上の Power BI Desktop ファイル、Excel ワークブック、またはコンマ区切りの値 (.csv) ファイルに基づいてデータセットとレポートを作成した場合、Power BI では、OneDrive の更新と呼ばれる別の種類の更新を実行します。 詳しくは、「[ファイルから Power BI 用のデータを取得する](service-get-data-from-files.md)」をご覧ください。
 
-OneDrive の更新では、データセットの更新中に Power BI がデータ ソースからデータセットへデータをインポートするのではなく、データセットとレポートをソース ファイルと同期します。 Power BI では既定で、OneDrive または SharePoint Online 上のファイルに接続されているデータセットを同期する必要があるかどうかを、約 1 時間ごとにチェックします。 過去の同期サイクルを確認するには、更新履歴にある [OneDrive] タブをチェックします。 次のスクリーンショットは、サンプル データセットに対する完了済みの同期サイクルを示しています。
+OneDrive の更新では、データセットの更新中に Power BI がデータ ソースからデータセットへデータをインポートするのではなく、データセットとレポートをソース ファイルと同期します。 Power BI では既定で、OneDrive または SharePoint Online 上のファイルに接続されているデータセットを同期する必要があるかどうかを、約 1 時間ごとにチェックします。
+
+> [!IMPORTANT]
+> OneDrive でのファイルの取り扱いに注意してください。 OneDrive ファイルをデータ ソースとして設定すると、Power BI では、更新時、ファイルの項目 ID が参照されます。そのことが一部のシナリオにおいて問題を起こすことがあります。 マスター ファイルの _A_ とそのファイルの運用コピー _B_ があるとき、ファイル B に対して OneDrive の更新を構成するいうシナリオを考えてみます。ファイル B の上にファイル A を_コピー_すると、古いファイル B が削除され、新しいファイル B が異なる項目 ID で作成され、それが原因で OneDrive の更新が中断されます。 代わりに、ファイル B をアップロードして置換すると、同じ項目 ID が維持されます。
+
+(ドラッグ アンド ドロップなどを利用し) ファイルを別の場所に移動すると、更新は引き続き動作します。PBI で引き続き、ファイル ID が認識されるためです。 ただし、そのファイルを別の場所にコピーすると、ファイルの新しいインスタンスと新しいファイル ID が作成されます。 そのため、Power BI ファイル参照は無効になり、更新は失敗します。
+
+過去の同期サイクルを確認するには、更新履歴にある [OneDrive] タブをチェックします。 次のスクリーンショットは、サンプル データセットに対する完了済みの同期サイクルを示しています。
 
 ![更新履歴](media/refresh-data/refresh-history.png)
 

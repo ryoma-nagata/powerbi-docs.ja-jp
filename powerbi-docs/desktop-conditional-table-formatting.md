@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b715cd42ea221f62258b66eee71b6525b2015ae1
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d28028c7b75bedae958df77c743c52b44c4437d9
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128182"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311738"
 ---
 # <a name="conditional-formatting-in-tables"></a>テーブルでの条件付き書式設定 
 テーブルで条件付き書式を使用するときに、グラデーションを使用するなど、セルの値または他の値やフィールドに基づいてカスタマイズされたセルの色を指定できます。 セルの値と共にデータ バーも表示できます。 
@@ -139,7 +139,7 @@ ms.locfileid: "74128182"
 条件付きテーブルの書式設定を使用する場合は、留意すべき考慮事項がいくつかあります。
 
 * 条件付き書式は、**マトリックス** ビジュアルの値にのみ適用され、小計や総計には適用されません。 
-* 条件付き書式は **[合計]** 行には適用されません
+* 条件付き書式は **[合計]** 行には適用されません。
 * グループがないテーブルは、条件付き書式をサポートしていない単一行として表示されます。
 * 自動最大値/最小値を使用したグラデーション書式、または割合のルールを使用したルールベースの書式を使用する場合、データに NaN 値が含まれていると、条件付き書式を適用することはできません。 NaN は 'Not a number' (数値ではない) を意味します。これは、通常、ゼロ除算エラーによって発生します。 このようなエラーを回避するには、[DIVIDE() DAX 関数](https://docs.microsoft.com/dax/divide-function-dax)を使用できます。
 

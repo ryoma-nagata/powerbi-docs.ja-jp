@@ -1,5 +1,5 @@
 ---
-title: Power BI と Microsoft Flow の統合
+title: Power BI と Power Automate との統合
 description: Power BI データ アラートでトリガーされたフローを作成する方法について説明します。
 author: mgblythe
 ms.reviewer: ''
@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c8d768e1d02846eca10c6100aa8ec30dbb7f704b
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881843"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164320"
 ---
-# <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow と Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate と Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) は、ビジネス ユーザーが使用するアプリケーションや SaaS サービスが増える中で、全体のワークフローを自動化する機能を提供する SaaS です。 Flow を使用すると、お気に入りのアプリとサービス (Power BI を含む) を統合して、通知の受信、ファイルの同期、データの収集などのタスクを自動化できます。 ワークフローを自動化すると、反復的なタスクが容易になります。
+[Power Automate](https://flow.microsoft.com/documentation/getting-started) は、ビジネス ユーザーが依存するアプリケーションや SaaS サービスが増える中で、全体のワークフローを自動化する機能を提供する SaaS です。 Flow を使用すると、お気に入りのアプリとサービス (Power BI を含む) を統合して、通知の受信、ファイルの同期、データの収集などのタスクを自動化できます。 ワークフローを自動化すると、反復的なタスクが容易になります。
 
 [今すぐ Flow を使い始めましょう。](https://flow.microsoft.com/documentation/getting-started)
 
@@ -30,12 +30,12 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Power BI データ アラートでトリガーされるフローを作成する
 
 ### <a name="prerequisites"></a>前提条件
-このチュートリアルでは、フローをテンプレートから作成する方法とゼロから作成する方法について説明します。 この手順を実行するには、[Power BI でデータ アラートを作成し](service-set-data-alerts.md)、無料の Slack アカウントを作成してから [Microsoft Flow にサインアップしてください](https://flow.microsoft.com/#home-signup) (サインアップは無料です)。
+このチュートリアルでは、フローをテンプレートから作成する方法とゼロから作成する方法について説明します。 この手順を行うには、[Power BI でデータ アラートを作成](service-set-data-alerts.md)し、[無料の Slack アカウントを作成](https://flow.microsoft.com/#home-signup)してから Power Automate にサインアップしてください (サインアップは無料です)。
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Power BI を使用するフローをテンプレートから作成する
 このタスクでは、テンプレートを使用して、Power BI データ アラート (通知) でトリガーされる単純なフローを作成します。
 
-1. Microsoft Flow (flow.microsoft.com) にサインインします。
+1. Power Automate にサインインします (flow.microsoft.com)。
 2. **[自分のフロー]** を選択します。
    
    ![フロー メニュー バー](media/service-flow-integration/power-bi-my-flows.png)
@@ -80,7 +80,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Power BI を使用するフローを最初 (ゼロ) から作成する
 このタスクでは、Power BI データ アラート (通知) でトリガーされる単純なフローをゼロから作成します。
 
-1. Microsoft Flow にサインインします。
+1. Power Automate にサインインします。
 2. **[マイ フロー]**  >  **[一から作成]** の順に選びます。
    
    ![フロー上部メニュー バー](media/service-flow-integration/power-bi-my-flows.png)
@@ -107,7 +107,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
     ![フローによる Outlook 通知のトリガー](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>次の手順
-* [Microsoft Flow の概要](https://flow.microsoft.com/documentation/getting-started/)
+* [Power Automate の概要](https://flow.microsoft.com/documentation/getting-started/)
 * [Power BI サービスでのデータ アラートの設定](service-set-data-alerts.md)
 * [iPhone でデータ アラートを設定する](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10 用の Power BI モバイル アプリでデータ アラートを設定する](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

@@ -10,18 +10,18 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881778"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410855"
 ---
 # <a name="manage-data-sources"></a>データ ソースを管理する
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI は、多数のオンプレミス データ ソースをサポートしますが、各データ ソースには独自の要件があります。 ゲートウェイは、単一のデータ ソースにも複数のデータ ソースにも使用できます。 この例では、データソースとして SQL Server を追加する方法について説明します。 手順は、他のデータソースの場合と似ています。
+Power BI は、多数の[オンプレミス データ ソース](power-bi-data-sources.md)をサポートしますが、各データ ソースには独自の要件があります。 ゲートウェイは、単一のデータ ソースにも複数のデータ ソースにも使用できます。 この例では、データソースとして SQL Server を追加する方法について説明します。 手順は、他のデータソースの場合と似ています。
 
 ほとんどのデータ ソースの管理操作は、API を使用して実行することもできます。 詳細については、[REST API (ゲートウェイ)](/rest/api/power-bi/gateways) に関するページを参照してください。
 
@@ -117,56 +117,7 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 
 ## <a name="list-of-available-data-source-types"></a>使用可能なデータ ソースの種類の一覧
 
-オンプレミス データ ゲートウェイでは、Power BI に対して次のデータ ソースがサポートされています。 オンプレミスのデータ ソースに加えて、ファイアウォール、VPN、または仮想ネットワークの背後にあるソースにもデータ ゲートウェイが必要になる場合があります。
-
-| **データ ソース** | **Live/DirectQuery** | **手動更新またはスケジュールされた更新 (ユーザー構成)** |
-| --- | --- | --- |
-| Amazon Redshift |はい |はい |
-| Analysis Services |はい |はい |
-| AtScale キューブ |はい |はい |
-| Azure Active Directory |いいえ |はい |
-| Azure Blob Storage |いいえ |はい |
-| Azure DevOps Server |いいえ |はい |
-| Azure Table Storage |いいえ |はい |
-| BI コネクタ |はい |はい |
-| Denodo |はい |はい |
-| Dremio |はい |はい |
-| EmigoDataSourceConnector |いいえ |はい |
-| Essbase |はい |はい |
-| Exasol |はい |はい |
-| ファイル |いいえ |はい |
-| フォルダー |いいえ |はい |
-| Paxata |いいえ |はい |
-| IBM DB2 |はい |はい |
-| IBM Informix データベース |いいえ |はい |
-| IBM Netezza |はい |はい |
-| Impala |はい |はい |
-| Jethro ODBC |はい |はい |
-| Kyligence Enterprise |はい |はい |
-| MarkLogic ODBC |はい |はい |
-| Microsoft Graph Security |いいえ |はい |
-| MySQL |いいえ |はい |
-| ODBC |いいえ |はい |
-| OData |いいえ |はい |
-| OLE DB |いいえ |はい |
-| Oracle |はい |はい |
-| PostgreSQL |いいえ |はい |
-| QubolePresto |はい |はい |
-| Quick Base コネクタ |いいえ |はい |
-| SAP Business Warehouse メッセージ サーバー |はい |はい |
-| SAP Business Warehouse サーバー |はい |はい |
-| SAP HANA |はい |はい |
-| SQL Server |はい |はい |
-| SharePoint |いいえ |はい |
-| Snowflake |はい |はい |
-| Spark |はい |はい |
-| SurveyMonkey |いいえ |はい |
-| Sybase |いいえ |はい |
-| TeamDesk.Database |いいえ |はい |
-| Teradata |はい |はい |
-| Vertica |はい |はい |
-| Web |いいえ |はい |
-| Workforce Dimensions |いいえ |はい |
+オンプレミス データ ゲートウェイでサポートされているデータ ソースに関する詳細については、「[Power BI データ ソース](power-bi-data-sources.md)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 

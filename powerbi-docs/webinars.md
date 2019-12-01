@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060443"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164240"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -28,6 +28,10 @@ ms.locfileid: "74060443"
 **Microsoft が BI データ保護をどのように変化させているか**
 <br>講師: Anton Fritz および Adi Regev
 <br>[12 月 4 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**ビッグ データ分析の未来を形成する 9 つの傾向**
+<br>講師: Vijay Gopalakrishnan
+<br>[12 月 18 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -87,7 +91,7 @@ ms.locfileid: "74060443"
 
 ### <a name="getting-started"></a>はじめに
 
-**Power BI、PowerApps、および Microsoft Flow を使用して、日常のビジネス プロセスを自動化する**
+**Power BI、PowerApps、および Power Automate を使用して、日常のビジネス プロセスを自動化する**
 <br>作成者: Wim Coorevits および Enrique Plaza Garcia
 <br>[登録して今すぐ見る](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
@@ -107,7 +111,7 @@ ms.locfileid: "74060443"
 <br>作成者: Charles Sterling
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**Microsoft Flow および PowerApps が及ぼす総合的な経済効果**
+**Power Automate および PowerApps が及ぼす総合的な経済効果**
 <br>作成者: Jonathan Lipsitz と Enrique Plaza Garcia
 <br>[登録して今すぐ見る](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 

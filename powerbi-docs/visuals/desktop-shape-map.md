@@ -2,19 +2,19 @@
 title: Power BI Desktop で図形マップを使用する (プレビュー)
 description: Power BI Desktop で図形マップを使用して領域間の相対比較を作成する
 author: mihart
-ms.reviewer: amanda
+ms.reviewer: amanda, justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871118"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199451"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
 
@@ -198,28 +198,23 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 | ID | 名前 | 名前 (英語) |
 | --- | --- | --- |
-| Alsace |Alsace |Alsace (アルザス) |
-| Rhone-Alpes |Rhône-Alpes |Rhone-Alpes (ローヌアルプ) |
-| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur (プロヴァンス=アルプ=コート ダジュール) |
-| Poitou-Charentes |Poitou-Charentes |Poitou-Charentes (ポアトゥー=シャラント) |
-| Picardie |Picardie |Picardy (ピカルディー) |
-| Pays de la Loire |Pays de la Loire |Pays de la Loire (ペイ ド ラ ロワール) |
-| Nord-Pas-de-Calais |Nord-Pas-de-Calais |Nord-Pas-de-Calais (ノール=パ ド カレー) |
-| Midi-Pyrenees |Midi-Pyrenees |Midi-Pyrenees (ミディ=ピレネー) |
-| Lorraine |Lorraine |Lorraine (ロレーヌ) |
-| Limousin |Limousin |Limousin (リムーザン) |
-| Languedoc Roussillon |Languedoc Roussillon |Languedoc-Roussillon (ラングドック=ルシヨン) |
-| Ile-del-France |Île-de-France |Ile-de-France (イル ド フランス) |
-| Haute-Normandie |Haute-Normandie |Upper Normandy (オート ノルマンディー) |
-| Franche-Comte |Franche-Comté |Franche-Comte (フランシュ＝コンテ地域圏) |
-| Corse |Corse |Corse (コルシカ島) |
-| Champagne-Ardenne |Champagne-Ardenne |Champagne-Ardenne (シャンパーニュ=アルデンヌ) |
-| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire (サントル=ヴァル ド ロワール) |
+| Auvergne-Rhone-Alpes |  |  |
+| Bourgogne-Franche-Comte |  |  |
 | Bretagne |Bretagne |Brittany (ブルターニュ) |
-| Bourgogne |Bourgogne |Burgundy (ブルゴーニュ) |
-| Basse-Normandie |Basse-Normandie |Lower Normandy (バス ノルマンディー) |
-| Auvergne |Auvergne |Auvergne (オーベルニュ) |
-| Aquitaine |Aquitaine |Aquitaine |
+| Centre-Val de Loire (サントル=ヴァル ド ロワール) |Centre-Val de Loire |Centre-Val de Loire (サントル=ヴァル ド ロワール) |
+| Corse |Corse |Corse (コルシカ島) |
+| Grand Est |  |  |
+| グアドループ島 | |   |
+| Hauts-de-France |  |  |
+| Ile-de-France (イル ド フランス) |Île-de-France |Ile-de-France (イル ド フランス) |
+| La Reunion |  |  |
+| マイヨット島  |  |  |
+| Normandie (ノルマンディー) |Normandie (ノルマンディー) |  |
+| Nouvelle-Aquitaine |  |  |
+| Occitanie  |  |  |
+| Pays de la Loire |Pays de la Loire |Pays de la Loire |
+| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
+|  |  |  |
 
 ### <a name="germany-states"></a>ドイツ:州
 

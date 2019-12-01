@@ -2,20 +2,20 @@
 title: Power BI での散布図、バブル チャート、およびドット プロット グラフ
 description: Power BI での散布図、ドット プロット グラフ、およびバブル チャート
 author: mihart
-ms.reviewer: ''
+ms.reviewer: amac
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870830"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311566"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI での散布図、バブル チャート、およびドット プロット グラフ
 
@@ -131,13 +131,30 @@ ms.locfileid: "73870830"
     > [!NOTE]
     > データ ポイントが多いほど読み込み時間が長くなります。 スケールの上限に制限のあるレポートを発行する場合は、Web とモバイルでレポートをテストし、 グラフでユーザーが望むパフォーマンスが得られることを確認する必要があります。
 
-1. [視覚化の色、ラベル、タイトル、背景などの書式を設定する](service-getting-started-with-color-formatting-and-axis-properties.md)ことができます。
-
-    [アクセシビリティを向上させる](../desktop-accessibility.md)には、行ごとにマーカー図形を追加することを検討します。 マーカーの形状を選択するには、 **[図形]** を展開し、 **[マーカーの図形]** を選択して図形を選択します。
+1. 視覚化の色、ラベル、タイトル、背景などの書式設定を続行します。 [アクセシビリティを向上させる](../desktop-accessibility.md)には、行ごとにマーカー図形を追加することを検討します。 マーカーの形状を選択するには、 **[図形]** を展開し、 **[マーカーの図形]** を選択して図形を選択します。
 
     ![[図形] ドロップダウンと [マーカーの図形] オプションのスクリーンショット。](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
-    マーカーの図形をひし形、三角形、または正方形に変更できます。 各線に別のマーカーの図形を使用すると、レポートの使用者は個々の線 (または領域) を区別するのが容易になります。
+    マーカーの図形をひし形、三角形、または正方形に変更します。 各線に別のマーカーの図形を使用すると、レポートの使用者は個々の線 (または領域) を区別するのが容易になります。
+
+1. [分析] ウィンドウ ![[分析] ウィンドウのアイコンのスクリーンショット。](media/power-bi-visualization-scatter/power-bi-analytics.png) を開き、視覚化に追加の情報を追加します。  
+    - 中央値線を追加します。 **[中央値線]**  >  **[追加]** の順に選択します。 既定では、Power BI によって*平方フィート単位の売上*の中央値線が追加されます。10 個のデータ ポイントがあり、両側に 5 つずつデータ ポイントがある中央値が作成されることがわかっているため、これはあまり役に立ちません。 代わりに、**メジャー**を*総売上差異 %* に切り替えます。  
+
+        ![中央値が追加されたバブル チャートのスクリーンショット。](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
+
+    - 対称網掛けを追加して、y 軸のメジャーと比較して x 軸のメジャーの値が高いポイントを示します。逆の場合も同様です。 [分析] ウィンドウで対称網掛けをオンにすると、Power BI によって、現在の軸の上限と下限に基づいて、散布図の背景が対称的に表示されます。 これは、特に x 軸と y 軸で異なる軸の範囲がある場合に、データ ポイントで優先する軸メジャーを識別するための非常に簡単な方法です。
+
+        a. **総売上差異 %** フィールドを**前年の粗利 (%)** に変更します
+
+        ![中央値が追加されたバブル チャートのスクリーンショット。](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+
+        b. [分析] ウィンドウから、 **[対称網掛け]** を追加します。 網掛けから、Hosiery (靴下・下着類) (ピンク色の網掛け領域内の緑のバブル) が店舗の面積あたりの売上よりも粗利を優先する唯一のカテゴリであることがわかります。 
+
+        ![対称網掛けがあるバブル チャートのスクリーンショット。](media/power-bi-visualization-scatter/power-bi-symmetry.png)
+
+    - [分析] ウィンドウの調査を続けて、データ内の興味深い洞察を見つけます。 
+
+        ![対称網掛けがあるバブル チャートのスクリーンショット。](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>ドット プロット グラフを作成する
 

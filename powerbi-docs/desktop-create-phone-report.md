@@ -1,20 +1,20 @@
 ---
-title: モバイル アプリ用にレポートを最適化する - Power BI
+title: Power BI モバイル アプリ用にレポートを最適化する
 description: 縦バージョンのレポートをスマートフォンとタブレット専用に作成して、Power BI モバイル アプリ用にレポート ページを最適化する方法について説明します。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 006d0e02f3b0aa7860cade4d8e035ddc299e8ba8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 16af5a6c8b5341067c458329c68da0a1a0fe14a5
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878402"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311486"
 ---
 # <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI モバイル アプリ用にレポートを最適化する
 縦レイアウトを作成して、モバイル アプリでレポートを表示するエクスペリエンスを向上させることができます。 Power BI Desktop と Power BI サービスでは、レポートのビジュアルを再配置やサイズ変更を行って縦モードで最適なエクスペリエンスを実現することができます。  
@@ -23,36 +23,36 @@ ms.locfileid: "73878402"
 
 ![電話に対して最適化されたレポート](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-さらに、どこでもサイズを変更できる["*応答性の高い*" ビジュアル](#optimize-a-visual-for-any-size)と[応答性の高いスライサー](#enhance-slicers-to-work-well-in-phone-reports)を作成できます。 レポートにフィルターを追加すると、最適化されたレポートに自動的に表示されます。
+どこでもサイズを変更できる[応答性の高いビジュアル](#optimize-a-visual-for-any-size)と[応答性の高いスライサー](#enhance-slicers-to-work-well-in-phone-reports)を作成できます。 レポートにフィルターを追加すると、最適化されたレポートに自動的に表示されます。
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>縦バージョンのレポート ページをレイアウトする
 
 レポートを作成したら、スマートフォンとタブレット用にそれを最適化できます。
 
-1. Power BI Desktop のレポート ビューにある **[表示]** タブで、 **[電話レイアウト]** を選択します。  
+1. Power BI Desktop の **[レポート]** ビューにある **[表示]** タブで、 **[電話レイアウト]** を選択します。  
    
     ![[電話レイアウト] アイコン](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
     Power BI サービスで、 **[レポートの編集]**  >  **[モバイル レイアウト]** を選択します。
 
-    スマートフォンのような形の空白のキャンバスが表示されます。 元のレポート ページのすべてのビジュアルが、右側の [視覚化] ウィンドウに表示されます。
+    スマートフォンのような形の空白のキャンバスが表示されます。 元のレポート ページのすべてのビジュアルが、右側の **[視覚化]** ペインに表示されます。
 
-3. 電話レイアウトにビジュアルを追加するには、それを [視覚化] ウィンドウから電話キャンバスにドラッグします。
+1. 電話レイアウトにビジュアルを追加するには、それを **[視覚化]** ペインから電話キャンバスにドラッグします。
    
     電話レポートは、グリッド レイアウトを使用します。 ビジュアルをモバイル キャンバスにドラッグすると、そのグリッドにスナップされます。
    
     ![ビジュアルのドラッグ アンド ドロップ](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
-    マスター レポート ページの一部またはすべてのビジュアルを電話レポート ページに追加できます。 各ビジュアルは 1 回だけ追加することができます。 すべてのビジュアルを含める必要はありません。
+    マスター レポート ページの一部またはすべてのビジュアルを電話レポート ページに追加できます。 各ビジュアルを追加できるのは 1 回だけであり、すべてのビジュアルを含める必要はありません。
 
-4. ダッシュボードやモバイル ダッシュボード上のタイルの場合と同様に、グリッド上のビジュアルのサイズを変更できます。
+1. ダッシュボードやモバイル ダッシュボード上のタイルの場合と同様に、グリッド上のビジュアルのサイズを変更できます。
    
    電話レポートのグリッドは、さまざまなサイズの電話に向けてスケーリングされます。このため、電話の画面が小さくても大きくても、レポートの見栄えがよくなります。
    
    ![ビジュアル サイズの変更](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>ビジュアルのサイズを最適化する
-ダッシュボードまたはレポート内のビジュアルを "*レスポンシブ*" に設定できます。 それらは、画面のサイズに関係なく、最大量のデータと分析情報を表示するために動的に変化できるようになります。 
+ダッシュボードまたはレポート内のビジュアルを "*レスポンシブ*" に設定できます。 ビジュアルは、画面のサイズに関係なく、最大量のデータとインサイトを表示できるように動的に変化します。 
 
 ビジュアルのサイズが変更されると、Power BI はデータ ビューを優先します。 たとえば、自動的に余白を削除し、凡例をビジュアルの上部に移動する場合があります。このため、ビジュアルは小さくなっても引き続き有益な情報を提供できます。
 
@@ -68,7 +68,7 @@ ms.locfileid: "73878402"
 * Power BI は、モバイル アプリの電話レポートに対して既定のタイトルとページ名を指定します。 レポートでタイトルとページ名のテキスト ビジュアルを作成していた場合は、それらを電話レポートに追加しないことを検討してください。     
 
 ## <a name="remove-a-visual-from-the-phone-layout"></a>電話レイアウトからのビジュアルの削除
-* ビジュアルを削除するには、電話キャンバス上のビジュアルの右上にある [X] をクリックするか、またはビジュアルを選択して、**Delete** キーを押します。
+* ビジュアルを削除するには、電話キャンバス上のビジュアルの右上にある **[X]** を選択するか、またはビジュアルを選択して **Delete** キーを押します。
   
    このビジュアルの削除では、電話レイアウト キャンバスからビジュアルが削除されるだけです。 ビジュアルとレポートは影響を受けません。
   
@@ -77,7 +77,7 @@ ms.locfileid: "73878402"
 ## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>電話レポートで適切に機能するようにスライサーを拡張する
 スライサーは、レポート データのキャンバス上のフィルター処理を行います。 通常のレポートの作成モードでスライサーを設計する場合、電話レポートそれらを使いやすくするために、いくつかのスライサー設定を変更できます。
 
-* レポートの閲覧者が、1 つだけの項目を選択できるか、または複数選択できるかを決定します。
+* レポートの閲覧者が、1 つの項目だけを選択できるか、または複数の項目を選択できるかを決定します。
 * レポートをスキャンしやすくなるように、スライサーの周りにボックスを配置します。
 * スライサーを垂直、水平、または*レスポンシブ*にします。 
 
@@ -88,9 +88,9 @@ ms.locfileid: "73878402"
 詳細については、[レスポンシブ スライサーの作成](power-bi-slicer-filter-responsive.md)に関するページをお読みください。
 
 ## <a name="publish-a-phone-report"></a>電話レポートの発行
-* レポートの電話バージョンを発行するには、[Power BI Desktop から Power BI サービスにメイン レポートを発行](desktop-upload-desktop-files.md)し、同時に電話バージョンを発行します。
+レポートの電話バージョンを発行するには、[Power BI Desktop から Power BI サービスにメイン レポートを発行](desktop-upload-desktop-files.md)し、同時に電話バージョンを発行します。
   
-    詳しくは、[Power BI での共有およびアクセス許可](service-how-to-collaborate-distribute-dashboards-reports.md)に関するページを参照してください。
+詳しくは、[Power BI での共有およびアクセス許可](service-how-to-collaborate-distribute-dashboards-reports.md)に関するページを参照してください。
 
 ## <a name="view-optimized-and-unoptimized-reports-on-a-phone-or-tablet"></a>スマートフォンまたはタブレット上で最適化されたレポートと最適化されていないレポートを表示する
 電話のモバイル アプリの Power BI は、最適化された電話レポートと最適化されていない電話レポートを自動的に検出します。 電話用に最適化されたレポートが存在する場合、Power BI の電話アプリは自動的に電話レポート モードでレポートを開きます。
@@ -106,8 +106,8 @@ ms.locfileid: "73878402"
 レポート閲覧者は、スマートフォンまたはタブレットを横向きにして、横長モードでページを表示できます。 詳しくは、[縦モード用に最適化された Power BI レポートとの対話](consumer/mobile/mobile-apps-view-phone-report.md)に関するページを参照してください。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI でダッシュボードの Phone ビューを作成する](service-create-dashboard-mobile-phone-view.md)
-* [電話用に最適化された Power BI レポートを表示する](consumer/mobile/mobile-apps-view-phone-report.md)
-* [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](visuals/desktop-create-responsive-visuals.md)
+* [Power BI でダッシュボードの Phone ビューを作成する](service-create-dashboard-mobile-phone-view.md)。
+* [電話用に最適化された Power BI レポートを表示する](consumer/mobile/mobile-apps-view-phone-report.md)。
+* [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](visuals/desktop-create-responsive-visuals.md)。
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

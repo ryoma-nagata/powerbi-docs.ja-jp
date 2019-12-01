@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871555"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74163753"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI サービスのデータ アラート
 
@@ -23,7 +23,7 @@ ms.locfileid: "73871555"
 
 Power BI Pro ライセンスをお持ちの場合は、タイルにアラートを設定できます。 また、だれかが [Premium 容量](service-premium-what-is.md)にあるダッシュボードを共有している場合は、アラートを設定することもできます。 アラートは、レポートのビジュアルからピン留めされたタイルでのみ、ゲージ、KPI、カードに対してだけ設定できます。 アラートは、レポートからダッシュボードにピン留めするストリーミング データセットから作成されたビジュアルに対して設定できます。 **[タイルの追加]**  >  **[カスタム ストリーミング データ]** を使用して、ダッシュボード上に直接作成されたストリーミング タイルにアラートを設定することはできません。
 
-ダッシュボードを共有している場合であっても、見ることができるのは自分で設定したアラートだけです。 ダッシュボードのビューで設定したアラートは、そのダッシュボードの所有者でも表示できません。 データ アラートはプラットフォーム間で完全に同期されます。[Power BI モバイル アプリ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)および Power BI サービスで、データ アラートを設定して表示できます。 これらを Power BI Desktop で使用することはできません。 アラートを自動化し、Microsoft Flow と統合することもできます。 この [Microsoft Flow と Power BI](service-flow-integration.md) に関する記事では、ご自分で試すことができます。
+ダッシュボードを共有している場合であっても、見ることができるのは自分で設定したアラートだけです。 ダッシュボードのビューで設定したアラートは、そのダッシュボードの所有者でも表示できません。 データ アラートはプラットフォーム間で完全に同期されます。[Power BI モバイル アプリ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)および Power BI サービスで、データ アラートを設定して表示できます。 これらを Power BI Desktop で使用することはできません。 アラートを自動化し、Power Automate と統合することもできます。 この [Power Automate と Power BI](service-flow-integration.md) に関する記事では、それをご自分で試すことができます。
 
 ![タイル](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -125,7 +125,7 @@ Amanda がダッシュボードのタイルにいくつかのアラートを追�
 
 ## <a name="next-steps"></a>次の手順
 
-* [データ アラートを含む Microsoft Flow を作成する](service-flow-integration.md)。
+* [データ アラートを含む Power Automate を作成する](service-flow-integration.md)。
 
 * [モバイル デバイスでデータ アラートを設定する](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)。
 

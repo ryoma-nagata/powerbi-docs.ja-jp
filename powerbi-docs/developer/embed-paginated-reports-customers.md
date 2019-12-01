@@ -1,5 +1,5 @@
 ---
-title: 顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む
+title: 顧客向けのアプリケーションにページ分割されたレポートを埋め込む
 description: Power BI API を使用して、Power BI のページ分割されたレポートをアプリケーションに統合または埋め込む方法を説明します。
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 11/04/2019
-ms.openlocfilehash: 5611d65ab800c14b2570a12078c08cce5dc58147
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877728"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311422"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>チュートリアル:顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む (プレビュー)
 
@@ -37,6 +37,11 @@ ms.locfileid: "73877728"
 * [ページ分割されたレポート](../service-admin-premium-workloads.md#paginated-reports)のワークロードが有効になっている、少なくとも A4 または P1 の[容量](#create-a-dedicated-capacity)
 
 Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)してください。
+
+> [!IMPORTANT]
+> * **サービス プリンシパル**を使用する必要があります。 マスター ユーザーはサポートされていません。
+> * シングル サインオン (SSO) を必要とするデータソースは、サポートされていません。
+> * Power BI データセットは、[データソース](../service-get-data.md)としてサポートされていません。
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 環境を設定する
 

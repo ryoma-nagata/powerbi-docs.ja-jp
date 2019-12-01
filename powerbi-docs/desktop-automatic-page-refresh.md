@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878765"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164163"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop でのページの自動更新 (プレビュー)
 
@@ -105,9 +105,9 @@ Power BI Desktop に更新間隔の制限はありません。更新間隔は毎
 
 Power BI サービスでは、ワークスペースや、Premium サービスが使用されているかどうかなどの要因に基づいて、ページの自動更新の制限が適用されます。
 
-このしくみをわかりやすくするために、[容量とワークスペース](whitepaper-powerbi-premium-deployment.md#capacities)に関する背景から説明します。
+このしくみをわかりやすくするために、容量とワークスペースに関する背景から説明します。
 
-**容量**は、Power BI コンテンツのホストと配信に使用される一連のリソース (ストレージ、プロセッサ、およびメモリ) を表す Power BI の中心的な概念です。 容量は共有または専用です。 **共有容量**は他の Microsoft のお客様と共有されますが、**専用容量**は単一のお客様専用です。 専用容量については、[Premium 容量](whitepaper-powerbi-premium-deployment.md#capacities)に関する記事を参照してください。
+**容量**は、Power BI コンテンツのホストと配信に使用される一連のリソース (ストレージ、プロセッサ、およびメモリ) を表す Power BI の中心的な概念です。 容量は共有または専用です。 **共有容量**は他の Microsoft のお客様と共有されますが、**専用容量**は単一のお客様専用です。 専用容量については、記事「[Premium 容量を管理する](service-premium-capacity-manage.md)」を参照してください。
 
 共有容量の場合、ワークロードは他のお客様と共有される計算リソースで実行されます。 容量はリソースを共有する必要があるため、最大モデル サイズ (1 GB) や最大日次更新頻度 (1 日 8 回) の設定など、"*フェア プレイ*" を確保するための制限が課されます。
 
@@ -123,7 +123,7 @@ Power BI の**ワークスペース**は容量内にあり、セキュリティ�
 
  2. "*最小更新間隔*": この機能を有効にする場合、容量管理者は最小更新間隔を設定する必要があります。 間隔が最小値よりも少ない場合、Power BI サービスでは、容量管理者によって設定された最小間隔に合わせて間隔が上書きされます。
 
-次の表は、この機能を使用できる場所と、各容量の種類と[ストレージ モード](whitepaper-powerbi-premium-deployment.md#model-storage-modes)の制限を詳しく説明したものです
+次の表は、この機能を使用できる場所と、各容量の種類と[ストレージ モード](service-dataset-modes-understand.md)の制限を詳しく説明したものです
 
 | ストレージ モード | 専用容量 | 共有された容量 |
 | --- | --- | --- |

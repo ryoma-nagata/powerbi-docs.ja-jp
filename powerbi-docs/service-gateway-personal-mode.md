@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e6adb5c07c18a72d278b17e70fa7f06d1f6fd5f
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881519"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164165"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Power BI で個人用ゲートウェイを使用する
 
@@ -31,7 +31,7 @@ ms.locfileid: "73881519"
 
 |   |オンプレミス データ ゲートウェイ | オンプレミス データ ゲートウェイ (個人用モード) |
 | ---- | ---- | ---- |
-|サポートされているクラウド サービス |Power BI、PowerApps、Azure Logic Apps、Microsoft Flow、Azure Analysis Services、データフロー |Power BI |
+|サポートされているクラウド サービス |Power BI、PowerApps、Azure Logic Apps、Power Automate、Azure Analysis Services、データフロー |Power BI |
 |実行 |ゲートウェイへのアクセス権を持つユーザーによる構成に応じて |Windows 認証の場合はゲートウェイのユーザーとして、他の認証の種類の場合はゲートウェイのユーザーによる構成に応じて |
 |コンピューター管理者としてのみインストールできる |はい |いいえ |
 |ゲートウェイとデータ ソースの一元管理 |はい |いいえ |
@@ -45,11 +45,11 @@ ms.locfileid: "73881519"
 
 1. [オンプレミス データ ゲートウェイをダウンロードします](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409)。
 
-2. インストーラーで [オンプレミス データ ゲートウェイ (個人用モード)] を選択し、**[次へ]** を選択します。
+2. インストーラーで [オンプレミス データ ゲートウェイ (個人用モード)] を選択し、 **[次へ]** を選択します。
 
    ![オンプレミス データ ゲートウェイ (個人用モード) を選択する](media/service-gateway-personal-mode/personal-gateway-select.png)
 
-ゲートウェイ ファイルは、_"%localappdata%\Microsoft\On-premises data gateway (personal mode)_ にインストールされます。 インストールが正常に完了し、サインインすると、次の画面が表示されます。
+ゲートウェイ ファイルは、 _"%localappdata%\Microsoft\On-premises data gateway (personal mode)_ にインストールされます。 インストールが正常に完了し、サインインすると、次の画面が表示されます。
 
 ![成功したオンプレミス データ ゲートウェイ (個人用モード)](media/service-gateway-personal-mode/personal-gateway-complete.png)
 
@@ -87,7 +87,7 @@ ms.locfileid: "73881519"
 
 **質問:** 資格情報の更新を求められるのはなぜですか。
   
-**回答:** さまざまな状況で資格情報が要求されます。 最も一般的な状況は、Power BI - Personal ゲートウェイとは異なるコンピューターにオンプレミス データ ゲートウェイ (個人用モード) を再インストールした場合です。 データ ソースに問題がある、Power BI でテスト接続を実行でなかった、タイムアウトが発生した、システム エラーが発生したなども考えられます。 Power BI サービスで資格情報を更新するには、歯車アイコンを選択し、**[設定]** > **[データセット]** を選択します。 問題のデータセットを見つけて、**[データ ソースの資格情報]** を選択します。
+**回答:** さまざまな状況で資格情報が要求されます。 最も一般的な状況は、Power BI - Personal ゲートウェイとは異なるコンピューターにオンプレミス データ ゲートウェイ (個人用モード) を再インストールした場合です。 データ ソースに問題がある、Power BI でテスト接続を実行でなかった、タイムアウトが発生した、システム エラーが発生したなども考えられます。 Power BI サービスで資格情報を更新するには、歯車アイコンを選択し、 **[設定]**  >  **[データセット]** を選択します。 問題のデータセットを見つけて、 **[データ ソースの資格情報]** を選択します。
 
 **質問:** アップグレードの間、以前の個人ゲートウェイはどのくらいの間オフラインになりますか。
   

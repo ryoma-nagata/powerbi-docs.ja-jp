@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874013"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265552"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI のお客様の収益性のサンプル:ツアーを開始する
 
@@ -128,7 +128,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
     * **チーム スコアカード**では、5 人のマネージャーの業績とその顧客管理手法に焦点を合わせます。
     * **業界の利益分析**では、業界全体の状況と比較して収益性を分析する方法が提供されます。
-    * **役員スコアカード**では、Cortana での表示用に書式設定されたマネージャーのそれぞれのビューが提供されます。
+    * **Executive Scorecard** では、カスタム ページ サイズ フォーマットで各マネージャーのビューが提供されます。
 
 ### <a name="team-scorecard-page"></a>「チーム スコアカード」ページ
 ![チーム スコアカード レポート ページ](media/sample-customer-profitability/customer2.png)
@@ -170,7 +170,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
    * Valery が扱っている製品は 1 つのみで、担当の業界セグメントはわずかに 5 つです。 Valery の業界への影響は季節的ですが常に大きなバブルを生み出すことは、会社の最終的な収益に大きな影響を与えていることを示します。 業界セグメントは、その業績が悪いことの説明になりますか。
 
 ### <a name="executive-scorecard"></a>役員スコアカード
-このページは Cortana 用の回答ページとして書式が設定されています。 詳細については、[Cortana 用のカスタム回答ページの作成](service-cortana-answer-cards.md)に関する記事をご覧ください。
+このページには、カスタム ページ サイズ フォーマットがあります。
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Q&A で質問をすることによるデータの詳しい考察
 どの業界が Valery の最大の収益を生み出すかを判別することは分析に役立つ場合があります。 Q&A を利用してみましょう
