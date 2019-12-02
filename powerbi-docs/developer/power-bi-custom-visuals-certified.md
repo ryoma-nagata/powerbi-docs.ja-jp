@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: c6ecb2eb2346940a22bbd6b7bff5ca0138faa290
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102596"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565253"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>認定済みの Power BI ビジュアルを取得する
 
@@ -70,7 +70,7 @@ ms.locfileid: "74102596"
 
 * capabilities.json のプロパティが変更された場合は、既存のユーザーのレポートが破損しないようにしてください。
 
-* ビジュアルが [Power BI ビジュアルのガイドライン](./guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases)に準拠していることを確認します。 **透かしは使用できません**。
+* ビジュアルが [Power BI ビジュアルのガイドライン](./guidelines-powerbi-visuals.md)に準拠していることを確認します。 **透かしは使用できません**。
 
 * 公開レビュー可能な OSS コンポーネントのみを使用すること (一般公開の JS ライブラリまたは TypeScript。 ソース コードがレビューできて、既知の脆弱性がない)。 Microsoft は商用コンポーネントを利用してカスタム ビジュアルを検証することかできません。
 

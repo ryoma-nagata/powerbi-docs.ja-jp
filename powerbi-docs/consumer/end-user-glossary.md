@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264848"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548535"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -177,7 +177,7 @@ Power BI サービスの左端に沿って示されるコントロール。
 
 **nav pane (ナビ ペイン)** または **nav pane (ナビ ペイン)** Power BI サービスの左端に沿って示されるコントロール。
 
-初出: ナビ ペイン、以降の言及またはスペースに余裕がない場合: ナビ ペイン
+初出: ナビゲーション ペイン、以降の言及またはスペースに余裕がない場合: ナビ ペイン
 
 **ナビ ペイン** 「**nav pane (ナビ ペイン)** 」を参照してください。
 
