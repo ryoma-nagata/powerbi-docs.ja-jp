@@ -1,20 +1,20 @@
 ---
 title: Power BI Premium 容量のデプロイと管理
 description: Power BI Premium の可能性を理解し、スケーラブルなソリューションを設計、展開、監視、およびトラブルシューティングする方法について説明します。
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 34166dcdb6a102f64fa12fea1e68883515abf0fc
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: b52f7c9aaa81f55d1c7efc21a2180aebea7a5d79
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164264"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699500"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium 容量のデプロイと管理
 
@@ -28,6 +28,6 @@ Power BI Premium のホワイトペーパーは、個別の記事で最新情報
 </br>[Premium 容量でワークロードを構成する](service-admin-premium-workloads.md) | 専用容量およびワークロードの構成と管理に関する詳細情報。 |
 | [Premium 容量の最適化](service-premium-capacity-optimize.md) | パフォーマンスの最適化のベストプラクティス、モデルの最適化、容量計画、およびテストアプローチ。 |
 | [Premium 容量のシナリオ](service-premium-capacity-scenarios.md) | 実際のシナリオにおける一般的な問題。これらの問題を特定し、解決することに重点を置いています。 |
-| [管理ポータルでの容量の監視](service-admin-premium-monitor-portal.md) | Power BI Premium 容量メトリックアプリで監視し、アプリに表示されるメトリックを解釈します。 |
+| [管理ポータルで容量を監視する](service-admin-premium-monitor-portal.md) | Power BI Premium 容量メトリックアプリで監視し、アプリに表示されるメトリックを解釈します。 |
 | [Power BI Premium のよく寄せられる質問](service-premium-faq.md) | 購入とライセンス、機能、および一般的なシナリオに関する質問への回答です。 |
 | | |
