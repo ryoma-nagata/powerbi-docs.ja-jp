@@ -16,10 +16,18 @@
           href: import-modeling-data-reduction.md
         - name: DIVIDE 関数と除算演算子 (/)
           href: dax-divide-function-operator.md
+        - name: VALUES の代わりに SELECTEDVALUE を使用する
+          href: dax-selectedvalue.md
         - name: クエリ フォールディングの重要性
           href: power-query-folding.md
         - name: エラー関数の適切な使用方法
           href: dax-error-functions.md
+        - name: 変数を使用して数式を改善する
+          href: dax-variables.md
+        - name: COUNT の代わりに COUNTROWS
+          href: dax-countrows.md
+        - name: BLANK を値に変換しない
+          href: dax-avoid-converting-blank.md
         - name: データフローのベスト プラクティス
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop の DirectQuery モデルのガイダンス

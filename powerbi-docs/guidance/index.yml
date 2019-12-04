@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 11/14/2019
-  ms.openlocfilehash: de1ea8bbc35bc1d2ecc42a8deffc54fd9ac01bc1
-  ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+  ms.openlocfilehash: f0ce469a57eb36d53769272feaff1b124c2a77ff
+  ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 11/16/2019
-  ms.locfileid: "74133844"
+  ms.lasthandoff: 12/02/2019
+  ms.locfileid: "74695245"
 landingContent:
 - title: Power BI ガイダンス
   linkLists:
@@ -45,6 +45,14 @@ landingContent:
       url: dax-divide-function-operator.md
     - text: エラー関数の適切な使用方法
       url: dax-error-functions.md
+    - text: VALUES の代わりに SELECTEDVALUE を使用する
+      url: dax-selectedvalue.md
+    - text: COUNT の代わりに COUNTROWS を使用する
+      url: dax-countrows.md
+    - text: 変数を使用して数式を改善する
+      url: dax-variables.md
+    - text: BLANK を値に変換しない
+      url: dax-avoid-converting-blank.md
 - title: データフロー
   linkLists:
   - linkListType: concept
