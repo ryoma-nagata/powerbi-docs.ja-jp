@@ -1,25 +1,25 @@
 ---
 title: Power BI で Office365Mon に接続する
 description: Power BI 用 Office365Mon
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 8/29/2019
-ms.author: tebercov
+ms.date: 11/26/2019
+ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 64e8365a6d4e0c01911de9e69998af4d58d59202
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73854712"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548588"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI で Office365Mon に接続する
 Office 365 の障害および正常性のパフォーマンス データの分析は、Power BI や Office365Mon テンプレート アプリを使用すると簡単です。 Power BI は、障害および正常性 プローブを含むデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
 
-Power BI 用 [Office365Mon テンプレート アプリ](https://app.powerbi.com/groups/me/getdata/services/office365mon)に接続します。
+Power BI 用 [Office365Mon テンプレート アプリ](https://msit.powerbi.com/groups/me/getapps/services/office365mon.office365mon_powerbi_v3)に接続します。
 
 >[!NOTE]
 >Power BI テンプレート アプリに接続して読み込むには、Office365Mon の管理者アカウントが必要です。
