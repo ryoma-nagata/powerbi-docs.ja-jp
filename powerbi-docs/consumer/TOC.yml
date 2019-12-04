@@ -58,6 +58,8 @@
               href: end-user-pdf.md
             - name: レポートにブックマークを追加する
               href: end-user-bookmarks.md
+            - name: ページ分割されたレポート
+              href: end-user-paginated-report.md
         - name: 視覚化
           items:
             - name: 視覚化で実行できること
