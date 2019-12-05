@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 11/27/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 59841cdcfae3bc08e0b6dcacf4bcb6664dfe209c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877076"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565753"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 
@@ -118,6 +118,8 @@ report.src = newUrl;
 ボタンを好きなだけ追加して、ローコードのカスタム エクスペリエンスを作成できます。 
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
+
+* ページ分割されたレポートはセキュリティで保護された埋め込みシナリオでサポートされています。URL パラメーターを使用したページ分割されたレポートもサポートされています。 詳細については、[ページ分割されたレポートの URL でレポート パラメーターを渡す方法](report-builder-url-pass-parameters.md)に関するページを参照してください。
 
 * Azure の企業間 (B2B) 機能を使った外部ゲスト ユーザーはサポートされません。
 

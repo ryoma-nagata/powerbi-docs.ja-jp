@@ -1,7 +1,7 @@
 ---
 title: Power BI の改ページ調整されたレポート ビルダー
 description: Power BI の改ページ調整されたレポート ビルダーは、ページ分割されたレポートを作成するためのツールです。
-ms.date: 09/16/2019
+ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076054"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565286"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Power BI の改ページ調整されたレポート ビルダー
 
  Power BI の改ページ調整されたレポート ビルダーは、ページ分割されたレポートを作成するためのツールです。  ページ分割されたレポートをデザインするときは、どのようなデータをどこから取得し、どのように表示するかの定義を作成します。 レポートを実行すると、指定したレポート定義がレポート プロセッサによって読み取られ、データが取得され、レポートのレイアウトと組み合わせることでレポートが生成されます。 レポート ビルダーでレポートをプレビューします。 その後、Power BI サービスにレポートを発行します。
+
+「[ハンズオン ラボ: Microsoft Power BI のページ分割されたレポートを作成する](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)」をお試しください。
 
 ビデオで学習する方がいいですか。 YouTube で、Power BI プリンシパル プログラム マネージャーの Chris Finlan による、Power BI のページ分割されたレポートに関するビデオ シリーズをご覧ください。
 
@@ -61,5 +63,5 @@ ms.locfileid: "71076054"
 ## <a name="next-steps"></a>次の手順
 
 - [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
-
+- 「[ハンズオン ラボ: Microsoft Power BI のページ分割されたレポートを作成する](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)」をお試しください。
 - YouTube で、Power BI プリンシパル プログラム マネージャーの Chris Finlan による、[Power BI のページ分割されたレポートに関するビデオ シリーズ](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ)をご覧ください

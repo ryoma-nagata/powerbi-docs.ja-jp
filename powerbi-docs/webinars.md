@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164240"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478648"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -32,6 +32,10 @@ ms.locfileid: "74164240"
 **ビッグ データ分析の未来を形成する 9 つの傾向**
 <br>講師: Vijay Gopalakrishnan
 <br>[12 月 18 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+
+**AI によって BI が変更される 3 つの方法**
+<br>作成者: Justyna Lucznik
+<br>[1 月 8 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

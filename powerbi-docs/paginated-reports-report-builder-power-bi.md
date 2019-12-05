@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874706"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565701"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium のページ分割されたレポートとは
 
@@ -21,9 +21,9 @@ ms.locfileid: "73874706"
 
 ページ分割されたレポートは、多くのページを含むことができます。 たとえば、このレポートは 563 ページです。 請求書ごとに 1 ページが使用されて、ヘッダーとフッターが繰り返されるように、各ページが正確にレイアウトされています。
 
-![ページ分割された](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+「[ハンズオン ラボ: Microsoft Power BI のページ分割されたレポートを作成する](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)」をお試しください。
 
-![Power BI サービスにおけるページ分割されたレポート](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![ページ分割された](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 レポート ビルダーでレポートをプレビューした後、Power BI サービス (https://app.powerbi.com ) に発行することができます。 サービスにレポートを発行するには、Power BI Pro ライセンスが必要です。 ワークスペースが Power BI Premium 容量に存在する限り、マイ ワークスペースまたはワークスペースにページ分割されたレポートを発行して共有できます。 また、Power BI 管理者は、Power BI 管理ポータルの [Premium 容量セクション](service-admin-premium-workloads.md#paginated-reports)で、ページ分割されたレポートを有効にする必要があります。 
 
@@ -87,6 +87,6 @@ Power BI サービスのページ分割されたレポートに対して自分�
 - [Microsoft ダウンロード センターから Power BI レポート ビルダーをインストールする](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [チュートリアル:ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)
 - [ページ分割されたレポートに直接データを入力する](paginated-reports-enter-data.md)
-
+- [ハンズオン ラボ: Microsoft Power BI のページ分割されたレポートを作成する](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
   
 

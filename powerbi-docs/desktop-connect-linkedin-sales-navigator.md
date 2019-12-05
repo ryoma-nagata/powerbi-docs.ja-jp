@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5631e4144cf202591e202fd46405815b38ceb42d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016252"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565641"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Power BI Desktop で LinkedIn Sales Navigator に接続する
 
@@ -111,6 +111,10 @@ PBIX ファイルに加えて、LinkedIn Sales Navigator には、ダウンロ�
 テンプレート アプリで、アプリ内のデータが自分のデータに更新されます。 スケジュールされた更新を設定することもできるため、アプリ内のデータは、更新頻度によって指定された最新の状態になります。 
 
 データが更新された後、アプリに自分のデータが入力されていることを確認できます。
+
+## <a name="getting-help"></a>ヘルプの表示
+
+ご利用のデータに接続する際に問題が発生した場合は、LinkedIn Sales Navigator サポート (https://www.linkedin.com/help/sales-navigator ) にご連絡ください。 
 
 ## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。

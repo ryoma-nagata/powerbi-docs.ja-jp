@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874130"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565773"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
@@ -21,9 +21,9 @@ Power BI レポート サーバーのインストール方法について説明�
 
 ## <a name="download-power-bi-report-server"></a>Power BI Report Server のダウンロード
 
-Microsoft ダウンロード センターから、[Power BI Report Server をダウンロード](https://www.microsoft.com/download/details.aspx?id=56722)します。
+「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」ページで **[無料試用版をダウンロードする]** を選択します。
 
-無料試用版もあります。 「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」ページで **[無料試用版をダウンロードする]** を選択します。
+PowerBIReportServer.exe ファイルを実行するときは、無料試用版を選択するか、ご自分のプロダクト キーを入力します。 詳細をお読みください。
 
 ## <a name="before-you-install"></a>インストールする前に
 
@@ -43,7 +43,7 @@ Power BI Report Server のプロダクト キーは、次の 2 つの異なる�
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-Power BI Premium を購入した場合は、Power BI 管理者ポータルの **[Premium 設定]** タブ内で、Power BI Report Server のプロダクト キーにアクセスできます。 これが可能なのは、グローバル管理者、または Power BI サービス管理者ロールが割り当てられているユーザーのみです。
+Power BI Premium を購入した場合は、Power BI 管理者ポータルの **[Premium 設定]** タブ内で、Power BI Report Server のプロダクト キーにアクセスできます。 管理ポータルを利用できるのは、グローバル管理者、または Power BI サービス管理者ロールが割り当てられているユーザーに限られます。
 
 ![Premium の設定](../report-server/media/install-report-server/pbirs-product-key.png "Premium 設定の Power BI Report Server キー")
 
@@ -70,7 +70,7 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 
     ![エディションを選択する](media/install-report-server/pbireportserver-choose-edition.png)
 
-    ドロップダウンから評価または開発者エディションを選択できます。
+    評価エディションまたは開発者エディションのいずれかを選択できます。
 
     ![エディション 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -95,11 +95,11 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 
 セットアップで **[レポート サーバーの構成]** を選択すると、Reporting Services Configuration Manager が表示されます。 詳細については、「[Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)」(Reporting Services 構成マネージャー) を参照してください。
 
-Reporting Services の初期構成を完了するには、[レポート サーバー データベースを作成する](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)必要があります。 この手順を完了するには、SQL Server データベース サーバーが必要です。
+Reporting Services の初期構成を完了するには、[レポート サーバー データベースを作成](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)します。 この手順を完了するには、SQL Server データベース サーバーが必要です。
 
 ### <a name="creating-a-database-on-a-different-server"></a>別のサーバーでデータベースを作成する
 
-別のコンピューター上のデータベース サーバーでレポート サーバー データベースを作成する場合は、レポート サーバーのサービス アカウントをデータベース サーバーで認識される資格情報に変更する必要があります。 
+別のコンピューター上のデータベース サーバーでレポート サーバー データベースを作成する場合は、レポート サーバーのサービス アカウントをデータベース サーバー上で認識される資格情報に変更します。 
 
 既定では、レポート サーバーは、仮想サービス アカウントを使用します。 別のサーバーにデータベースを作成しようとすると、接続の権限の適用手順で次のエラーが発生することがあります。
 
@@ -139,7 +139,7 @@ URL 予約は、プレフィックス、ホスト名、ポート、および仮�
 
 リモート コンピューターからレポート サーバーにアクセスする場合、ファイアウォールがある場合は、ファイアウォール規則を構成したことを確認します。
 
-Web サービスの URL と Web ポータルの URL 用に構成した TCP ポートを開く必要があります。 既定では、TCP ポート 80 でこれらを構成します。
+Web サービスの URL と Web ポータルの URL 用に構成した TCP ポートを開きます。 既定では、TCP ポート 80 に対して構成されます。
 
 ## <a name="additional-configuration"></a>追加の構成
 

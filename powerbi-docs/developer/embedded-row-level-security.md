@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875814"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478660"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded での行レベルのセキュリティ
 
@@ -333,8 +333,7 @@ SQL Server Analysis Services (SSAS) オンプレミス ライブ接続データ 
 
 ### <a name="token-based-identity-limitations"></a>トークンベースの ID の制限
 
-* この機能では、Power BI Premium での使用のみが制限されます。
-* この機能は、オンプレミスの SQL Server では動作しません。
-* この機能は、Multi-Geo では動作しません。
+* RLS は専用の容量がある場合にのみ使用できます。
+* RLS は、オンプレミスの SQL Server では機能しません。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
