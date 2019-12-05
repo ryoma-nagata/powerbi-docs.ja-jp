@@ -747,16 +747,6 @@
               href: designer/service-security-apply-data-sensitivity-labels.md
         - name: データ系列
           href: service-data-lineage.md
-        - name: Power BI のページ分割されたレポート
-          items:
-            - name: ページ分割されたレポートを表示する
-              href: paginated-reports-view-power-bi-service.md
-            - name: サポートされているデータ ソース
-              href: paginated-reports-data-sources.md
-            - name: パラメーターと対話する
-              href: paginated-reports-view-parameters.md
-            - name: 自分や他のユーザーをサブスクライブする
-              href: paginated-reports-subscriptions.md
         - name: テンプレート アプリ
           items:
             - name: テンプレート アプリの概要
@@ -915,6 +905,8 @@
           href: report-builder-planning-report.md
         - name: レポート ビルダーのデータ
           href: report-builder-data.md
+        - name: サポートされているデータ ソース
+          href: paginated-reports-data-sources.md
         - name: Power BI 共有データセットを使用する
           href: report-builder-shared-datasets.md
         - name: デザインに関するヒント

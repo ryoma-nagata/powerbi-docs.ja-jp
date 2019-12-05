@@ -58,8 +58,16 @@
               href: end-user-pdf.md
             - name: レポートにブックマークを追加する
               href: end-user-bookmarks.md
-            - name: ページ分割されたレポート
-              href: end-user-paginated-report.md
+            - name: Power BI のページ分割されたレポート
+              items:
+                - name: ページ分割されたレポート
+                  href: end-user-paginated-report.md
+                - name: ページ分割されたレポートを表示する
+                  href: paginated-reports-view-power-bi-service.md
+                - name: パラメーターと対話する
+                  href: paginated-reports-view-parameters.md
+                - name: 自分や他のユーザーをサブスクライブする
+                  href: paginated-reports-subscriptions.md
         - name: 視覚化
           items:
             - name: 視覚化で実行できること
