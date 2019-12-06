@@ -32,6 +32,10 @@
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop の DirectQuery モデルのガイダンス
           href: directquery-model-guidance.md
+        - name: レポート ページのツールヒントによるビジュアルの拡張
+          href: report-page-tooltips.md
+        - name: レポート ページのドリルスルー
+          href: report-drillthrough.md
     - name: ホワイトペーパー
       items:
         - name: ホワイトペーパーの概要
