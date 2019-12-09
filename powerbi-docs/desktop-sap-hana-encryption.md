@@ -1,21 +1,21 @@
 ---
 title: SAP HANA の暗号化を有効にする
 description: SAML SSO を使用して Power BI から HANA サーバーに接続するときに接続を暗号化する方法について説明します。
-author: mgblythe
+author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/26/2019
-ms.author: mblythe
+ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e0d8787c81fa6730e7ce34a888a05be3a2ffe63f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ae57579c88924d4c34ec2c2a1d4aed5238dce64b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877796"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695843"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>SAP HANA の暗号化を有効にする
 
@@ -98,7 +98,7 @@ HANA サーバーへの接続に使用するクライアントによって信頼
 
 Power BI Desktop または Power BI サービスで接続をテストします。
 
-1. Power BI Desktop または Power BI サービスの **[ゲートウェイの管理]** ページで、SAP HANA サーバーへの接続を確立する前に、**[サーバー証明書の検証]** が有効になっていることを確認します。 **[SSL 暗号化プロバイダー]** については、OpenSSL セットアップ手順に従っている場合は mscrypto を選択し、そのライブラリを暗号化プロバイダーとして構成している場合は commoncrypto を選択します。 [SSL キーストア] と [SSL 信頼ストア] フィールドは空白のままにします。
+1. Power BI Desktop または Power BI サービスの **[ゲートウェイの管理]** ページで、SAP HANA サーバーへの接続を確立する前に、 **[サーバー証明書の検証]** が有効になっていることを確認します。 **[SSL 暗号化プロバイダー]** については、OpenSSL セットアップ手順に従っている場合は mscrypto を選択し、そのライブラリを暗号化プロバイダーとして構成している場合は commoncrypto を選択します。 [SSL キーストア] と [SSL 信頼ストア] フィールドは空白のままにします。
 
     - Power BI Desktop
 

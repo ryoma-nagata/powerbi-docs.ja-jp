@@ -1,19 +1,19 @@
 ---
 title: Power BI Report Server での Power BI のスケジュールされた更新
 description: Power BI レポートは、さまざまなデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: mblythe
-ms.openlocfilehash: ede44316d9dd188787381b26ee3352af13775c0f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.author: maggies
+ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874008"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699017"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server での Power BI のスケジュールされた更新
 Power BI レポートのスケジュールされた更新は、レポートのデータを最新の状態に保つことができます。

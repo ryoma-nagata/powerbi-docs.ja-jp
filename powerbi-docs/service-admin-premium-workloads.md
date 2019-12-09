@@ -1,20 +1,20 @@
 ---
 title: Power BI Premium でワークロードを構成する方法
 description: Power BI Premium 容量でワークロードを構成する方法について説明します。
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856826"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831291"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium 容量でワークロードを構成する
 
@@ -164,7 +164,7 @@ Power BI のレポートでは、容量に対するクエリごとに、この�
 | **最大メモリ (%)** | 容量のうち、ページ分割されたレポートが使用できるメモリの最大割合。 |
 |  |  |
 
-ページ分割されたレポートでは、レポートをレンダリングするときにカスタム コードを実行できます。 たとえば、コンテンツに基づいてテキストの色を動的に変更すると、追加のメモリがかかる可能性があります。 Power BI Premium は、容量内に含まれる領域で、ページ分割されたレポートを実行します。 ワークロードがアクティブ*かどうかに関係なく*、指定した最大メモリが使用されます。 最大メモリの設定を既定値から変更する場合は、他のワークロードに悪影響を及ぼさない程度の少量のメモリを設定してください。
+ページ分割されたレポートでは、レポートをレンダリングするときにカスタム コードを実行できます。 たとえば、コンテンツに基づいてテキストの色を動的に変更すると、追加のメモリがかかる可能性があります。 Power BI Premium は、容量内に含まれる領域で、ページ分割されたレポートを実行します。 
 
 場合によっては、ページ分割されたレポート ワークロードが使用できなくなることがあります。 その場合、管理ポータルではワークロードがエラー状態であると表示され、ユーザーに対してはレポートの表示がタイムアウトしたと表示されます。 この問題を軽減するには、ワークロードを無効にしてからもう一度有効にしてください。
 

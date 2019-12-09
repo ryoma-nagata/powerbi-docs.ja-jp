@@ -1,20 +1,20 @@
 ---
 title: Power BI テナントの場所
 description: Power BI テナントが配置される場所およびその場所を選択する方法について説明します。 サービスを使用するときに影響する可能性があるので、これを理解しておくことが重要です。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3f12e6f0b54f85ebd626b2bd35bf1a03d513c17a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873345"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698373"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Power BI テナントの場所
 

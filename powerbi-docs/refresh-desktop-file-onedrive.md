@@ -1,21 +1,21 @@
 ---
 title: OneDrive または SharePoint Online からデータセットを更新する
 description: OneDrive または SharePoint Online の Power BI Desktop ファイルから作成されたデータセットを更新する
-author: mgblythe
+author: davidiseminger
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/04/2019
-ms.author: mblythe
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 1d9e38b94cf3c345df12cb22a0ab3309dff263c2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 57bc7eed7e8e51463494e2c4f562dcdb1e6a88c9
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877542"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699638"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online に格納されているデータセットを更新する
 OneDrive または SharePoint Online から Power BI サービスへのファイルのインポートは、Power BI Desktop での作業と Power BI サービスとの同期を確実に維持するための優れた方法です。
@@ -27,14 +27,14 @@ Power BI Desktop ファイルを OneDrive または SharePoint Online に保存�
 
 ![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
-OneDrive または SharePoint Online から Power BI Desktop ファイルをインポートすると、データおよびモデルの情報が Power BI のデータセットに読み込まれます。 Power BI サービス内のデータセットは、レポートの基準となるため、最新の情報に更新する必要があります。 データ ソースは外部であるため、**[今すぐ更新]** を使用してデータセットを手動で更新するか、または **[更新のスケジュール設定]** を使用して更新スケジュールを設定することができます。 
+OneDrive または SharePoint Online から Power BI Desktop ファイルをインポートすると、データおよびモデルの情報が Power BI のデータセットに読み込まれます。 Power BI サービス内のデータセットは、レポートの基準となるため、最新の情報に更新する必要があります。 データ ソースは外部であるため、 **[今すぐ更新]** を使用してデータセットを手動で更新するか、または **[更新のスケジュール設定]** を使用して更新スケジュールを設定することができます。 
 
 ![](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
 
 データセットを更新しても、Power BI は OneDrive または SharePoint Online のファイルに接続して更新されたデータのクエリを実行しません。 データセットの情報を使用してデータ ソースに直接接続し、更新されたデータのクエリを実行します。 次に、そのデータをデータセットに読み込みます。 データセットのこの更新データは、OneDrive または SharePoint Online 上のファイルに再度同期されることはありません。
 
 ## <a name="whats-supported"></a>サポートされている機能
-Power BI では、**[データの取得]** または **[クエリ エディター]** を使用して次のデータ ソースに接続してデータを読み込んでいるローカル ドライブがある場合、そのローカル ドライブからインポートされた Power BI Desktop ファイルから作成したデータセットについては、**[更新]** と **[更新のスケジュール設定]** をサポートしています。
+Power BI では、 **[データの取得]** または **[クエリ エディター]** を使用して次のデータ ソースに接続してデータを読み込んでいるローカル ドライブがある場合、そのローカル ドライブからインポートされた Power BI Desktop ファイルから作成したデータセットについては、 **[更新]** と **[更新のスケジュール設定]** をサポートしています。
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 * Power BI Desktop の **[データの取得]** および **[クエリ エディター]** に表示されるすべてのオンライン データ ソース。

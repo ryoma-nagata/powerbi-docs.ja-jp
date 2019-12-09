@@ -11,10 +11,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 12/03/2019
 ms.locfileid: "73876524"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop での Azure Consumption Insights データへの接続
@@ -192,7 +192,7 @@ Azure portal の列および詳細の名前と、API およびコネクタでの
 | ConsumedServiceId |consumedServiceId | |はい |
 | コスト |cost |ExtendedCost |いいえ |
 | Cost Center |costCenter |Cost Center |いいえ |
-| Date |date |Date |いいえ |
+| Date |日付 |Date |いいえ |
 | 日 | |日 |いいえ |
 | DepartmentName |departmentName |Department Name |いいえ |
 | DepartmentID |departmentId | |はい |

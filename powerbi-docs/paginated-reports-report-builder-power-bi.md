@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565701"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831148"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium のページ分割されたレポートとは
 
@@ -70,7 +70,7 @@ ms.locfileid: "74565701"
 
 Power BI サービスのページ分割されたレポートに対して自分および他のユーザー用の電子メール サブスクリプションを設定できるようになりました。 一般に、Power BI サービスのレポートおよびダッシュ ボードをサブスクライブする場合とプロセスは同じです。 サブスクリプションの設定時には、メールの受信頻度を次の中から選択します: 毎日、毎週、1 時間ごと。 サブスクリプションには、レポート出力全体の PDF 添付ファイルが含まれます。
 
-詳しくは、記事「[Power BI サービスのページ分割されたレポートを自分および他のユーザーがサブスクライブする](paginated-reports-subscriptions.md)」をご覧ください。 
+詳しくは、記事「[Power BI サービスのページ分割されたレポートを自分および他のユーザーがサブスクライブする](consumer/paginated-reports-subscriptions.md)」をご覧ください。 
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 

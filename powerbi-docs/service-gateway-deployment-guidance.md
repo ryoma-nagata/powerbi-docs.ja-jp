@@ -1,20 +1,20 @@
 ---
 title: Power BI のデータ ゲートウェイを展開するためのガイダンス
 description: Power BI のゲートウェイの展開に関するベスト プラクティスと考慮事項について説明します。
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a9d30d1346bf2801cd6cba44cc7cc33d734fccbb
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881693"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699569"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI のデータ ゲートウェイを展開するためのガイダンス
 
@@ -56,7 +56,7 @@ Power BI では、次の 2 種類の接続が提供されます。DirectQuery �
 
 ### <a name="location"></a>場所
 
-ゲートウェイのインストール場所は、クエリのパフォーマンスに大きな影響を与える場合があります。 ネットワークの待機時間を最小限に抑えるために、ゲートウェイ、データ ソースの場所、および Power BI テナントが、互いにできるだけ近い場所にあることを確認します。 Power BI テナントの場所を確認するには、Power BI サービスで、右上にある **[?]**  アイコンを選択します。 次に、**[Power BI について]** を選択します。
+ゲートウェイのインストール場所は、クエリのパフォーマンスに大きな影響を与える場合があります。 ネットワークの待機時間を最小限に抑えるために、ゲートウェイ、データ ソースの場所、および Power BI テナントが、互いにできるだけ近い場所にあることを確認します。 Power BI テナントの場所を確認するには、Power BI サービスで、右上にある **[?]** アイコンを選択します。 次に、 **[Power BI について]** を選択します。
 
 ![Power BI テナントの場所を決定する](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_02.png)
 

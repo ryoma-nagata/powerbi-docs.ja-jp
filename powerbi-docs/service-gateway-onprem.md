@@ -1,20 +1,20 @@
 ---
 title: オンプレミス データ ゲートウェイ
 description: この記事は Power BI のオンプレミス データ ゲートウェイの概要です。 このゲートウェイを使用し、DirectQuery データ ソースを操作できます。 また、このゲートウェイを使用し、オンプレミス データでクラウド データセットを更新できます。
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: f149b816f7489b6a26e86af6360062d86083a7e5
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164297"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697545"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイとは
 

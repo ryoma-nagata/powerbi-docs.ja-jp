@@ -1,20 +1,20 @@
 ---
 title: Power BI Pro のライセンスを購入して割り当てる
 description: Power BI Pro のユーザー ライセンスを購入して割り当て、ユーザーが Power BI サービスのコンテンツにアクセスして同僚と共同作業を行えるようにする方法を説明します。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
 ms.date: 10/29/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 72a158e2dca32d2199fcd48e2cc37bf4c90778ea
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873539"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698488"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro のユーザー ライセンスを購入して割り当てる
 

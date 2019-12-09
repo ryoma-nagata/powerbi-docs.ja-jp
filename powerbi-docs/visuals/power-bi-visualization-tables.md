@@ -2,20 +2,20 @@
 title: Power BI のレポートとダッシュボードでのテーブルの視覚化
 description: 列の幅の変更など、Power BI のレポートとダッシュボードでテーブルの視覚化を使うときのチュートリアルです。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bb20b9ecc43e73e85d798416fe0ddaabb98e12b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870804"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74830883"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードのテーブル
 
@@ -130,7 +130,7 @@ ms.locfileid: "73870804"
 
 1. 表示されるダイアログで **[正のバー]** と **[負のバー]** の色を設定し、 **[バーのみを表示]** オプションを選択します。また、必要に応じて他の変更を行います。
 
-    ![[バーのみを表示] のチェックマーク](media/power-bi-visualization-tables/power-bi-data-bars.png)
+    ![[バーのみを表示] のチェックマーク](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
 1. **[OK]** を選択します。
 

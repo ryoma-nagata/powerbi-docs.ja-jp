@@ -1,20 +1,20 @@
 ---
 title: Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ
 description: Power BI サービスでユーザーに高可用性、ビジネス継続性およびディザスター リカバリーがどのように提供されるかを理解します。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dd2c94b490cdf31bd383c7100b9a1bc372f8e75f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873682"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699063"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ
 

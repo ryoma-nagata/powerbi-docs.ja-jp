@@ -1,20 +1,20 @@
 ---
 title: Power BI 用の独自の暗号化キーを使用する (プレビュー)
 description: Power BI Premium で独自の暗号化キーを使用する方法を学習します。
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ab5b09aa6341acf86e039c5951e4752e260876e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881862"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698281"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI 用の独自の暗号化キーを使用する (プレビュー)
 

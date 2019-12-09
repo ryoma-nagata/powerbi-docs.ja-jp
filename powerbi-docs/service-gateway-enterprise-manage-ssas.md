@@ -1,20 +1,20 @@
 ---
 title: データ ソースの管理 - Analysis Services
 description: オンプレミス データ ゲートウェイとそのゲートウェイに属しているデータ ソースを管理する方法。 これは Analysis Services での多次元および表形式モードの両方に当てはまります。
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 646bbc2e1923c3c325fce4c8f745e6b9914133f2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ea6d4186d2f02665201f2161f50e06ad8f0f45a6
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881653"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699408"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
 
@@ -29,7 +29,7 @@ Analysis Services へのライブ接続を設定する方法の詳細につい�
 
 ## <a name="add-a-data-source"></a>データ ソースの追加
 
-データ ソースを追加する方法の詳細については、「[Add a data source](service-gateway-data-sources.md#add-a-data-source)」(データソースの追加) を参照してください。 多次元サーバーまたは表形式サーバーに接続している場合は、**[データ ソースの種類]** として **[Analysis Services]** を選択します。
+データ ソースを追加する方法の詳細については、「[Add a data source](service-gateway-data-sources.md#add-a-data-source)」(データソースの追加) を参照してください。 多次元サーバーまたは表形式サーバーに接続している場合は、 **[データ ソースの種類]** として **[Analysis Services]** を選択します。
 
 ![Analysis Services データ ソースの追加](media/service-gateway-enterprise-manage-ssas/datasourcesettings2-ssas.png)
 
@@ -40,7 +40,7 @@ Analysis Services へのライブ接続を設定する方法の詳細につい�
 
 ![データ ソース設定の入力](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 
-すべての情報を入力したら、**[追加]** を選択します。 これで、オンプレミスの Analysis Services インスタンスに対するスケジュールされた更新またはライブ接続にこのデータ ソースを使用できます。 成功すると、"*接続成功*" というメッセージが表示されます。
+すべての情報を入力したら、 **[追加]** を選択します。 これで、オンプレミスの Analysis Services インスタンスに対するスケジュールされた更新またはライブ接続にこのデータ ソースを使用できます。 成功すると、"*接続成功*" というメッセージが表示されます。
 
 ![接続の状態の表示](media/service-gateway-enterprise-manage-ssas/datasourcesettings4.png)
 
@@ -81,9 +81,9 @@ Analysis Services データ ソースの場合は、カスタムの UPN 規則�
 
 UPN マッピング画面にアクセスするには、次の手順に従います。
 
-1. 歯車アイコンにアクセスし、**[ゲートウェイの管理]** を選択します。
+1. 歯車アイコンにアクセスし、 **[ゲートウェイの管理]** を選択します。
 2. Analysis Services データ ソースを格納するゲートウェイを展開します。 または、Analysis Services データ ソースを作成していない場合は、この時点で作成します。
-3. データ ソースを選択してから、**[ユーザー]** タブを選択します。
+3. データ ソースを選択してから、 **[ユーザー]** タブを選択します。
 4. **[ユーザー名のマップ]** を選択します。
 
     ![UPN マッピング画面](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
@@ -91,7 +91,7 @@ UPN マッピング画面にアクセスするには、次の手順に従いま�
 特定のユーザーに対して規則を追加してテストするためのオプションが表示されます。
 
 > [!NOTE]
-> 意図していなかったユーザーを変更してしまう場合があります。 たとえば、**[置換前] (元の値)** が contoso.com で、**[置換後] (新しい名前)** が @contoso.local の場合、@contoso.com を含むサインイン名を持つすべてのユーザーが @contoso.local に置き換えられます。 また、**[置換前] (元の名前)** が dave@contoso.com で **[置換後] (新しい名前)** が dave@contoso.local の場合、v-dave@contoso.com でサインインしたユーザーが v-dave@contoso.local として送信されます。
+> 意図していなかったユーザーを変更してしまう場合があります。 たとえば、 **[置換前] (元の値)** が contoso.com で、 **[置換後] (新しい名前)** が @contoso.local の場合、@contoso.com を含むサインイン名を持つすべてのユーザーが @contoso.local に置き換えられます。 また、 **[置換前] (元の名前)** が dave@contoso.com で **[置換後] (新しい名前)** が dave@contoso.local の場合、v-dave@contoso.com でサインインしたユーザーが v-dave@contoso.local として送信されます。
 
 ### <a name="active-directory-lookup-mapping"></a>Active Directory 参照マッピング
 
@@ -116,7 +116,7 @@ Active Directory 参照を実行するようにゲートウェイを構成する
 
 1. [最新のゲートウェイをダウンロードしてインストールします](/data-integration/gateway/service-gateway-install)。
 
-2. ゲートウェイで、オンプレミスのデータ ゲートウェイ サービスを、ローカル サービス アカウントではなくドメイン アカウントで実行するように変更します。 そうしないと、ランタイムに Active Directory 参照が正しく機能しません。 コンピューター上で[オンプレミス データ ゲートウェイ アプリ](/data-integration/gateway/service-gateway-app)に移動し、**[サービス設定]** > **[サービス アカウントの変更]** の順に移動します。 新しいゲートウェイを作成しない場合は、同じコンピューター上でゲートウェイを復元する必要があるため、このゲートウェイの回復キーがあることを確認してください。 変更内容を有効にするには、ゲートウェイ サービスを再起動します。
+2. ゲートウェイで、オンプレミスのデータ ゲートウェイ サービスを、ローカル サービス アカウントではなくドメイン アカウントで実行するように変更します。 そうしないと、ランタイムに Active Directory 参照が正しく機能しません。 コンピューター上で[オンプレミス データ ゲートウェイ アプリ](/data-integration/gateway/service-gateway-app)に移動し、 **[サービス設定]**  >  **[サービス アカウントの変更]** の順に移動します。 新しいゲートウェイを作成しない場合は、同じコンピューター上でゲートウェイを復元する必要があるため、このゲートウェイの回復キーがあることを確認してください。 変更内容を有効にするには、ゲートウェイ サービスを再起動します。
 
 3. ゲートウェイのインストール フォルダー (*C:\Program Files\On-premises* data gateway) に移動し、管理者として書き込みアクセス許可があることを確認します。 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* ファイルを開きます。
 
@@ -152,7 +152,7 @@ Active Directory 参照を実行するようにゲートウェイを構成する
 
 ### <a name="work-with-mapping-rules"></a>マッピング規則を使用する
 
-マッピング規則を作成するには、**[元の名前]** と **[新しい名前]** の値を入力し、**[追加]** を選択します。
+マッピング規則を作成するには、 **[元の名前]** と **[新しい名前]** の値を入力し、 **[追加]** を選択します。
 
 | フィールド | 説明 |
 | --- | --- |
@@ -171,7 +171,7 @@ Active Directory 参照を実行するようにゲートウェイを構成する
 
 ### <a name="test-a-mapping-rule"></a>マッピング規則をテストする
 
-元の名前がどのように置き換えられるかを検証するには、**[元の名前]** に値を入力します。 **[ルールのテスト]** を選択します。
+元の名前がどのように置き換えられるかを検証するには、 **[元の名前]** に値を入力します。 **[ルールのテスト]** を選択します。
 
 ![マッピング規則のテスト](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-test-mapping-rule.png)
 

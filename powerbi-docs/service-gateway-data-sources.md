@@ -1,21 +1,21 @@
 ---
 title: データ ソースを管理する
 description: Power BI でデータ ソースを管理する方法について学習します。
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 2665e33d5f268bf8037634406aca819c23f3513c
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410855"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698189"
 ---
 # <a name="manage-data-sources"></a>データ ソースを管理する
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/19/2019
-ms.openlocfilehash: fcc6e7880a3f27c6b35fe2192e76a0b2cc82abd0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: f7662cbd2fb0085ad2e6fda6a33577d1cc29ddfb
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874850"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831269"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI のページ分割されたレポートでサポートされるデータ ソース
 
@@ -71,6 +71,6 @@ SSO と OAuth2 を正常に機能させるには、データ ソースが接続�
   
 ## <a name="next-steps"></a>次の手順
 
-[ページ分割されたレポートを Power BI サービスで表示する](paginated-reports-view-power-bi-service.md)
+[ページ分割されたレポートを Power BI サービスで表示する](consumer/paginated-reports-view-power-bi-service.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
