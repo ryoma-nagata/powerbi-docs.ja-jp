@@ -56,6 +56,8 @@
               href: end-user-interactions.md
             - name: レポートを PDF にエクスポートする
               href: end-user-pdf.md
+            - name: レポートを PowerPoint にエクスポートする
+              href: end-user-powerpoint.md
             - name: レポートにブックマークを追加する
               href: end-user-bookmarks.md
             - name: Power BI のページ分割されたレポート
