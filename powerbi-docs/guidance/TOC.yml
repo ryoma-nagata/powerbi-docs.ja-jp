@@ -32,10 +32,14 @@
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop の DirectQuery モデルのガイダンス
           href: directquery-model-guidance.md
+        - name: Power Query クエリの参照
+          href: power-query-referenced-queries.md
         - name: レポート ページのツールヒントによるビジュアルの拡張
           href: report-page-tooltips.md
         - name: レポート ページのドリルスルー
           href: report-drillthrough.md
+        - name: Power BI Desktop の日付と時刻の自動ガイダンス
+          href: auto-date-time.md
     - name: ホワイトペーパー
       items:
         - name: ホワイトペーパーの概要
