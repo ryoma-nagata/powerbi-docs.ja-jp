@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8a9218085b0da655d1ce4b3ece0b2666c4826c86
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: e2587140d5436552e26be90c67eb5e6240bf6a1d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061870"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696142"
 ---
 # <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Microsoft Power BI ビジュアルのインタラクティビティ ユーティリティ
 
@@ -61,7 +61,7 @@ import { interactivitySelectionService } from "powerbi-visuals-utils-interactivi
 > [!NOTE]
 > Power BI Visuals Tools によって外部 CSS ルールはラップされるため、.css ファイルを .less ファイルとしてインポートする必要があります。
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>使用
 
 ### <a name="define-interface-for-data-points"></a>データ ポイントのインターフェイスを定義する
 
@@ -106,7 +106,7 @@ export interface VisualDataPoint extends interactivitySelectionService.Selectabl
 2 番目の手順では、基本動作クラスを拡張します。
 
 > [!NOTE]
-> [5.6.x バージョンのインタラクティビティ ユーティリティ](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0)で導入された BaseBehavior。 以前のバージョンを使用する場合は、以下のサンプルから動作クラスを作成します (`BaseBehavior` クラスは同じです)。
+> [5.6.x バージョンのインタラクティビティ ユーティリティ](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0)で導入された BaseBehavior。 以前のバージョンを使用する場合は、次のサンプルから behavior クラスを作成します (`BaseBehavior` クラスは同じです)。
 
 動作クラスのオプションのインターフェイスを定義します。
 
@@ -126,8 +126,8 @@ export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoi
 }
 ```
 
-`visual behaviour` のクラスを定義します。 `click`、`contextmenu` マウス イベントを処理する担当のクラス。
-データ要素のクリックを使用すると、ビジュアルから選択ハンドラーが呼び出され、データ ポイントが選択されます。 または、ユーザーがビジュアルの背景要素をクリックすると、選択がクリアされます。 また、クラスには、`bindClick`、`bindClearCatcher`、`bindContextMenu` という対応するメソッドがあります。
+`visual behavior` のクラスを定義します。 このクラスを使用して、`click`、`contextmenu` マウス イベントの処理を行います。
+ユーザーがデータ要素をクリックすると、ビジュアルから選択ハンドラーを呼び出され、データ ポイントが選択されます。 ユーザーがビジュアルの背景要素をクリックすると、選択解除ハンドラーが呼び出されます。 また、クラスには、`bindClick`、`bindClearCatcher`、`bindContextMenu` という対応するメソッドがあります。
 
 ```typescript
 export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
@@ -230,9 +230,9 @@ protected bindContextMenu() {
   }
 ```
 
-グラフ内の要素のビジュアル状態を更新する処理を担当する `renderSelection` メソッド。
+`renderSelection` メソッドを使用して、グラフ内の要素のビジュアル状態を更新します。
 
-実装の `renderSelection` メソッドのサンプルを次に示します。
+実装の `renderSelection` メソッドの例を次に示します。
 
 ```typescript
 public renderSelection(hasSelection: boolean): void {
@@ -259,9 +259,9 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
 
 * `selectionMerge` は D3 選択オブジェクトであり、ビジュアルに対して選択可能なすべての要素を表します。
 
-* `select(this.target)` は D3 選択オブジェクトであり、ビジュアルのメイン DOm 要素を表します。
+* `select(this.target)` は D3 選択オブジェクトであり、ビジュアルの主要な DOM 要素を表します。
 
-* 要素を持つ `this.categories` データ ポイント (インターフェイスは `VisualDataPoint` または `categories: VisualDataPoint[];`)
+* `this.categories` は要素を持つデータ ポイントであり、インターフェイスは `VisualDataPoint` (または `categories: VisualDataPoint[];`) です
 
 * `this.behavior` は `visual behavior` の新しいインスタンスです。
 

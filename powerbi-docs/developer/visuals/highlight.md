@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: ed1a67168a386838049ec2ca047ec0cd971408fc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf5cd8d8ae649071b3c9cc7243f87ac3cc316c3b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880030"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695362"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI ビジュアルでデータ ポイントを強調表示する
 
@@ -26,6 +26,9 @@ ms.locfileid: "73880030"
 ![`dataview` でサポートされている強調表示](./media/highlight-dataview-supports.png)
 
 この例では、1 つの縦棒が選択されていることがわかります。 これは highlights 配列の唯一の値です。 また、複数選択されたり部分的な強調表示が存在したりする場合もあることに注意してください。 強調表示された値は、データ ビューに表示されます。
+
+> [!Note]
+> テーブル データ ビューのマッピングでは、強調表示機能がサポートされていません。
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>カテゴリ別のデータ ビューのマッピングを持つデータ ポイントを強調表示する
 

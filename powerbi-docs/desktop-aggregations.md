@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876733"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907951"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop での集計
 
@@ -49,7 +49,7 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 次のディメンション テーブルは、高いビジネス価値を持つクエリに最もよく使用されるとします。 これらのテーブルは、*一対多* (または*多対一*) リレーションシップを使用して、**Sales Agg** をフィルター処理できます。
 
 * Geography
-* Customer
+* 顧客
 * Date
 * Product Subcategory
 * Product Category (製品カテゴリ)
@@ -92,7 +92,7 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 
 リレーションシップに依存しない "*ソース間*" の集計のヒットについては、グループ化列に基づく集計に関する以下のセクションをご覧ください。
 
-### <a name="aggregation-tables-are-not-addressable"></a>集計テーブルにアドレスを指定することはできません
+### <a name="aggregation-tables-arent-addressable"></a>集計テーブルにアドレスを指定することはできません
 データセットへの読み取り専用アクセス権を持つユーザーは、集計テーブルにクエリを実行できません。 これにより、RLS とともに使用する場合のセキュリティの問題が回避されます。 コンシューマーとクエリは、集計テーブルではなく、詳細テーブルを参照するため、集計テーブルの存在を知る必要はありません。
 
 このため、**Sales Agg** テーブルは非表示にする必要があります。 非表示になっていない場合、[すべて適用] をクリックすると、[集計の管理] ダイアログ ボックスが非表示に設定されます。
@@ -184,7 +184,7 @@ AVERAGE 関数は集計を利用できます。 AVERAGE が COUNT で除算さ�
 ### <a name="rls"></a>RLS
 行レベル セキュリティ (RLS) 式を正常に動作させるには、集計テーブルと詳細テーブルの両方をフィルター処理する必要があります。 例を見ると、**Geography** テーブルの RLS 式が機能します。これは、**Sales** テーブルと **Sales Agg** テーブルの両方に対し、Geography はリレーションシップをフィルタリングする側にあるからです。 集計テーブルでヒットするクエリとヒットしないクエリに RLS が正常に適用されます。
 
-![集計管理ロール](media/desktop-aggregations/manage-roles.jpg)
+![集計管理ロール](media/desktop-aggregations/manage-roles.png)
 
 **Product** テーブルの RLS 式は、**Sales Agg** テーブルをフィルタリングせず、**Sales** テーブルのみをフィルタリングします。 これは推奨されません。 このロールを使用してデータセットにアクセスするユーザーによって送信されたクエリは、集計ヒットの恩恵を受けません。 集計テーブルは詳細テーブルで同じデータを別の方法で表現したものであり、RLS フィルターを適用できないため、集計テーブルからクエリに応答するのは安全ではありません。
 

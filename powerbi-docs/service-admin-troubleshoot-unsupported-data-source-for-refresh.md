@@ -1,21 +1,21 @@
 ---
 title: 更新がサポートされていないデータ ソースのトラブルシューティング
 description: 更新がサポートされていないデータ ソースのトラブルシューティング
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2017
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856261"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791984"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>更新がサポートされていないデータ ソースのトラブルシューティング
 スケジュールされた更新用にデータセットを構成しようとすると、エラーが発生する場合があります。
@@ -35,7 +35,7 @@ ms.locfileid: "73856261"
    ![詳細設定エディター](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. ソース用に一覧で示されているプロバイダーをメモしておきます。  この例では、プロバイダーは ActiveDirectory です。  
    ![データ ソースのプロバイダー](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. プロバイダーを、「[Power BI でのデータの更新](refresh-data.md)」のサポートされているデータ ソースの一覧と比較します。  Active Directory は、更新がサポートされたデータ ソースではないことが分かります。  
+5. プロバイダーを、「[Power BI データ ソース](power-bi-data-sources.md)」に含まれるサポートされているデータ ソースの一覧と比較します。
 
 ## <a name="next-steps"></a>次の手順
 [データ更新](refresh-data.md)  

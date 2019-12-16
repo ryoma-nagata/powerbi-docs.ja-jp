@@ -1,21 +1,21 @@
 ---
 title: Power BI 管理ポータル
 description: 管理ポータルを使用して、組織内の Power BI のテナントを管理できます。 利用状況の指標、Microsoft 365 管理センターへのアクセス、設定などの項目があります。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265883"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882899"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -208,7 +208,7 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 **[Web に公開]** の設定に基づき、UI にさまざまなオプションが表示されます。
 
-|特性 |組織全体に対して有効にする |組織全体に対して無効にする |特定のセキュリティ グループ   |
+|特徴 |組織全体に対して有効にする |組織全体に対して無効にする |特定のセキュリティ グループ   |
 |---------|---------|---------|---------|
 |**[ファイル]** メニューの下の **[Web に公開]** 。|すべてのユーザーに対して有効|すべてのユーザーに対して非表示|承認されたユーザーまたはグループに対してのみ表示されます。|
 |**[設定]** の下の **[埋め込みコードの管理]**|すべてのユーザーに対して有効|すべてのユーザーに対して有効|すべてのユーザーに対して有効<br><br>*  **[削除]** オプションは、承認されたユーザーまたはグループの場合にのみ使用可能です。<br>*  **[コードを取得]** は、すべてのユーザーに対して有効になります。|
@@ -247,11 +247,14 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 ![レポートを印刷する](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する
-Azure B2B ゲスト ユーザーは、組織内のコンテンツの編集および管理できます。 [詳細情報](service-admin-azure-ad-b2b.md)
+Azure Active Directory B2B ゲスト ユーザーは、組織内のコンテンツの編集および管理できます。 [詳細情報](service-admin-azure-ad-b2b.md)
 
 次の図は、[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する] オプションを示しています。
 
 ![外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+> [!IMPORTANT]
+> (手動か、そのユーザーとレポートを共有することで) Azure AD テナントに外部ユーザーを追加するとき、そのユーザー アカウントは内部アカウントで検出できるようになります。 内部ユーザーは、内部アカウントに外部共有許可が与えられていない場合でも、他のものを外部ユーザーと共有できます。
 
 ### <a name="email-subscriptions"></a>電子メール サブスクリプション
 組織内のユーザーは電子メール サブスクリプションを作成できます。 サブスクリプションの詳細は[こちら](service-report-subscribe.md)をご覧ください。

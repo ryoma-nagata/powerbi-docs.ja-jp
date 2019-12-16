@@ -6,43 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/06/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 6254f76a8810a16029ecfb052d48d2c8ae77d195
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: d054ec9e73330b8f742b70c05899fa0783fcbf7c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698247"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958601"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Power BI サービスのライセンスの種類別機能
 
 [!INCLUDE [license-capabilities](includes/license-capabilities.md)]
-
-## <a name="per-user-license-type-comparison"></a>ユーザー別ライセンスの種類の比較
-
-ユーザー別ライセンスの種類ごとにサポートされる機能の一覧を次に示します。
-
-|  | 無料 | Pro |
-| --- | --- | --- |
-| **70 以上のデータ ソースへの接続** |![機能を利用できます](media/features-license-type/available.png) |![機能を利用できます](media/features-license-type/available.png) |
-| **Web に公開** |![機能を利用できます](media/features-license-type/available.png) |![機能を利用できます](media/features-license-type/available.png) |
-| **PowerPoint、Excel、CSV へのエクスポート** |![機能を利用できます](media/features-license-type/available.png) |![機能を利用できます](media/features-license-type/available.png) |
-| **エンタープライズ配布** | | |
-| アプリ |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
-| 電子メール サブスクリプション |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
-| API とコントロールの埋め込み |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
-| **コラボレーション** | | |
-| ピア ツー ピア共有 |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
-| ワークスペース |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
-| Excel で分析、Power BI Desktop で分析 |![機能は利用できません](media/features-license-type/not-available.png) |![機能を利用できます](media/features-license-type/available.png) |
-
-## <a name="next-steps"></a>次の手順
-
-Power BI Premium に関心がある場合は、[Power BI Premium とは](service-premium-what-is.md)に関するページを参照してください。
-
-サインアップして Power BI で作業を開始するには、「[個人として Power BI にサインアップする](service-self-service-signup-for-power-bi.md)」を参照してください。
-
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

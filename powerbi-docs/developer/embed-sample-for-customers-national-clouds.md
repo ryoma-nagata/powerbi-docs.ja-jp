@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565318"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695429"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>チュートリアル:Power BI コンテンツを国内クラウド向けアプリケーションに埋め込む
 
@@ -54,7 +54,7 @@ Power BI では[国内クラウド](https://docs.microsoft.com/azure/active-dire
 * Government Community Cloud (GCC):
 
     > [!NOTE]
-    > Government Community Cloud (GCC) からの Power BI コンテンツの埋め込みは、Office 356 SKU でのみ行うことができます。 GCC High の顧客は [Office 356 または Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365) を使用できます。
+    > Government Community Cloud (GCC) からの Power BI コンテンツの埋め込みは、Office 356 SKU でのみ行うことができます。 その他の国内クラウドのお客様は、[Office 356 または Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365) を使用できます。
 
 1. Cloud.config ファイルを GCCCloud.config コンテンツで上書きします。
 

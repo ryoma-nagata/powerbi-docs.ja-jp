@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c56433e27794798f2907f0d780002db96b2f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878076"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791320"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop のプライバシー レベル
 **Power BI Desktop** では、プライバシー レベルにより、あるデータ ソースが他のデータ ソースから分離している程度を定義する分離レベルを指定します。 制限の厳しい分離レベルは、データ ソース間で交換される情報を妨げますが、機能性とパフォーマンスに与える影響を軽減できます。
@@ -44,7 +44,7 @@ ms.locfileid: "73878076"
 > 
 
 ## <a name="configure-privacy-levels"></a>プライバシー レベルの構成
-**[プライバシー レベル]** は、既定では **[各ソースについて、プライバシー レベル設定に合わせてデータを結合します]** という設定になっています。つまり、 **[プライバシー レベル]** は使用できません。
+**[プライバシー レベル]** は、既定では **[各ソースについて、プライバシー レベル設定に合わせてデータを結合します]** に設定されます。つまり、 **[プライバシー レベル]** は適用されません。
 
 | 設定 | 説明 |
 | --- | --- |

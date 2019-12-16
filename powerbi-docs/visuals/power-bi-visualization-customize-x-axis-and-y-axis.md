@@ -7,16 +7,18 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880918"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791779"
 ---
+- 年間の粗利益 (%) の線はどこですか? 複数の棒グラフは可能ですが、複数の折れ線グラフはそうではありません。
+
 # <a name="customize-x-axis-and-y-axis-properties"></a>X 軸と Y 軸のプロパティのカスタマイズ
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
@@ -171,7 +173,7 @@ Y 軸のタイトルが **[オン]** になっている場合、Y 軸のタイ�
 
 ### <a name="create-a-chart-with-two-y-axes"></a>2 つの Y 軸を持つグラフを作成する
 
-1. 縦棒グラフを選択し、これを *[折れ線グラフおよび積み上げ縦棒グラフ]* に変更します。 
+1. 縦棒グラフを選択し、これを *[折れ線グラフおよび積み上げ縦棒グラフ]* に変更します。 この種類の視覚化では、単一の折れ線グラフ値と複数の積み重ね可能な列値がサポートされています。 
 
     ![折れ線グラフおよび積み上げ縦棒グラフのアイコンが強調された [視覚化] ウィンドウのスクリーンショット。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
    
@@ -185,7 +187,7 @@ Y 軸のタイトルが **[オン]** になっている場合、Y 軸のタイ�
 
    ![フォント サイズが 12 に縮小された複合グラフと [書式] ペイン](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-   Power BI では 2 つの Y 軸が作成されるため、値をそれぞれ拡大縮小できます。 左側の測定単位はドルで、右側の測定単位は割合です。
+   Power BI では 2 つの Y 軸が作成されるため、値をそれぞれ拡大縮小できます。 左の軸は販売 (ドル) の測定値で、右の軸は粗利率の測定値です。
 
 ### <a name="format-the-second-y-axis"></a>2 番目の Y 軸の書式を設定する
 1 つの Y 軸が書式設定された視覚化から開始したので、Power BI は同じ設定を使用して 2 番目の Y 軸を作成しました。 ただし、これは変更できます。 

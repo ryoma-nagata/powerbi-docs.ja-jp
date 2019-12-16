@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061893"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696444"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI ビジュアルの選択によってビジュアルに対話機能を追加する
 
 Power BI には、ビジュアル間の相互作用を実現する 2 つの方法が用意されています。選択とフィルター処理です。 以下のサンプルでは、1 つのビジュアル内の任意の項目を選択し、そのレポート内の他のビジュアルに新しい選択状態について通知する方法を示しています。
 
-`Selection` オブジェクトは、次のインターフェイスに対応しています。
+`Selection` オブジェクトは次のインターフェイスに対応します。
 
 ```typescript
 export interface ISelectionId {
@@ -37,7 +37,7 @@ export interface ISelectionId {
 
 ビジュアルのホスト オブジェクトには、選択マネージャーのインスタンスを作成するためのメソッドが用意されています。 選択マネージャーを使用して、選択、選択の解除、コンテキスト メニューの表示、現在の選択の保存、および選択状態の確認を行います。 また、選択マネージャーには、これらのアクションに対応するメソッドがあります。
 
-### <a name="create-instance-of-selection-manager"></a>選択マネージャーのインスタンスを作成する
+### <a name="create-an-instance-of-the-selection-manager"></a>選択マネージャーのインスタンスを作成する
 
 選択マネージャーを使用するには、選択マネージャーのインスタンスを作成する必要があります。 通常は、ビジュアルによって、そのビジュアル オブジェクトの `constructor` 内で選択マネージャーのインスタンスが作成されます。
 
@@ -56,7 +56,7 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>選択ビルダーのインスタンスを作成する
+### <a name="create-an-instance-of-the-selection-builder"></a>選択ビルダーのインスタンスを作成する
 
 選択マネージャーのインスタンスを作成したら、そのビジュアルのデータ ポイントごとに `selections` を作成する必要があります。 ビジュアルのホスト オブジェクトには、各データ ポイントの選択を生成する `createSelectionIdBuilder` メソッドが用意されています。 このメソッドを使うと、インターフェイス `powerbi.visuals.ISelectionIdBuilder` を持つオブジェクトのインスタンスが返されます。
 
@@ -155,11 +155,11 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-このサンプルでは、`Manafacturer` が `columns` で、`Type` が `rows` です。 `rows` (`Type`) で値をグループ化することによって作成された系列があります。
+このサンプルでは、`Manufacturer` が `columns` で、`Type` が `rows` です。 `rows` (`Type`) で値をグループ化することによって作成された系列があります。
 
-また、ビジュアルでは、`Manafacturer` と `Type` によってデータをスライスすることもできます。
+また、ビジュアルでは、`Manufacturer` と `Type` によってデータをスライスすることもできます。
 
-たとえば、ユーザーが `Manafacturer` で `Chrysler` を選択すると、他のビジュアルには次のデータが表示されます。
+たとえば、ユーザーが `Manufacturer` で `Chrysler` を選択すると、他のビジュアルには次のデータが表示されます。
 
 | 製造元 | 種類 | 値 |
 | - | - | - |
@@ -185,7 +185,7 @@ export interface ISelectionIdBuilder {
 
 ![選択を備えたビジュアルのデータ バスケット](media/visual-selections-databuckets.png)
 
-カテゴリ (列) として `Manafacturer` が、系列 (行) として `Type` が、系列の `Values` として `Value` があります。
+カテゴリ (列) として `Manufacturer` が、系列 (行) として `Type` が、系列の `Values` として `Value` があります。
 
 > [!NOTE]
 > 系列に対して `Values` が必要です。データ ビュー マッピングに応じて、ビジュアルでは `Values` が `Rows` データによってグループ化されることが想定されるためです。
@@ -196,7 +196,7 @@ export interface ISelectionIdBuilder {
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -231,7 +231,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 
 このサンプル コードでは、すべてのカテゴリが反復処理されていることがわかります。 それぞれの反復では、`createSelectionIdBuilder` を呼び出し、その選択ビルダーの `withCategory` メソッドを呼び出すことで各カテゴリに対する次の選択を作成しています。 `createSelectionId` メソッドは、生成された `selection` オブジェクトを返すための最後のメソッドとして使用されています。
 
-`withCategory` メソッドには、`category` の列 (このサンプルでは `Manafacturer`) と、カテゴリ要素のインデックスを渡します。
+`withCategory` メソッドには、`category` の列 (このサンプルでは `Manufacturer`) と、カテゴリ要素のインデックスを渡します。
 
 #### <a name="create-selections-for-series"></a>系列に対する選択を作成する
 
@@ -361,7 +361,7 @@ interface ISelectionManager {
 }
 ```
 
-`select` には選択の配列を指定できることがわかります。 これは、ビジュアルで複数のデータ ポイントを選択できることを意味します。 2 番目のパラメーター `multiSelect` によって、複数選択が行われます。 この値が true の場合、Power BI では、前の選択状態がクリアされず、現在の選択が適用されます。それ以外の場合は前の選択がリセットされます。
+`select` には選択の配列を指定できることがわかります。 これは、ビジュアルで複数のデータ ポイントを選択できることを意味します。 2 番目のパラメーター `multiSelect` を使用して、複数選択を行います。 この値が true の場合、Power BI では、前の選択状態がクリアされず、現在の選択が適用されます。それ以外の場合は前の選択がリセットされます。
 
 `multiSelect` を使用する典型的なシナリオは、クリック イベントで CTRL ボタンの状態を処理する場合です。
 

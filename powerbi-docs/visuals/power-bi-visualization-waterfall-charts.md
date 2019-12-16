@@ -7,15 +7,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881970"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907666"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI のウォーターフォール図
 
@@ -63,9 +63,11 @@ ms.locfileid: "73881970"
 
 ここでは、月別の売上差異 (予想売上高と実際の売上高の差異) を示すウォーターフォール図を作成します。
 
+### <a name="build-the-waterfall-chart"></a>ウォーターフォール図を作成する
+
 1. **[フィールド]** ウィンドウで、 **[Sales]**  >  **[Total Sales Variance]** を選択します。
 
-   ![[Sales] > [Total Sales Variance] が選択された状態および結果のビジュアルのスクリーンショット。](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
+   ![[Sales] > [Total Sales Variance] が選択された状態および結果のビジュアルのスクリーンショット。](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
 1. ウォーターフォール アイコン ![ウォーターフォール アイコンのスクリーンショット](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
@@ -73,41 +75,45 @@ ms.locfileid: "73881970"
 
 1. **[Time]**  >  **[FiscalMonth]** を選択して、 **[カテゴリ]** に追加します。
 
-    ![ウォーターフォール](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![ウォーターフォール](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
-1. Power BI でウォーターフォール図が時系列で並べ替えられたことを確認します。 グラフの右上隅で、 **[その他のオプション]** (...) を選択します。
+### <a name="sort-the-waterfall-chart"></a>ウォーターフォール図を並べ替える
 
-    この例では、 **[昇順で並べ替え]** を選択します。
+1. Power BI でウォーターフォール図が月別の時系列で並べ替えられるようにします。 グラフの右上隅で、 **[その他のオプション]** (...) を選択します。
 
-    **[昇順で並べ替え]** の左横に黄色のインジケーターがあることを確認します これは、選択したオプションが適用されていることを示します。
+    この例の場合、 **[並べ替え]** を選択し、 **[FiscalMonth]** を選択します。 選択の横にある黄色のインジケーターによって、選択オプションが適用されていることが示されます。
 
-    ![[並べ替え] > [昇順] を選択](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+    ![[並べ替え] > [FiscalMonth] の選択](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
+    
+    月を時系列で表示するには、 **[昇順で並べ替え]** を選択します。 前の手順と同様に、 **[昇順で並べ替え]** の左横に黄色のインジケーターがあることを確認します これは、選択したオプションが適用されていることを示します。
 
-    次に、 **[並べ替え]** をクリックし、 **[FiscalMonth]** を選択します。前の手順と同様に、選択した項目の横に黄色のインジケーターが表示され、選択オプションが適用されることを示します。
+    ![[並べ替え] > [昇順] を選択](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-ascending.png)
 
-    ![[並べ替え] > [FiscalMonth] の選択](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscal-month.png)
+    
 
-    X 軸の値を見て、**Jan** から **Aug** の順になっていることを確認します。
+    FiscalMonth の 1 月から 8 月までグラフが並べ替えられることにご注目ください。  
 
-    さらに調べると、月別の変化の要因がわかります。
+### <a name="explore-the-waterfall-chart"></a>ウォーターフォール図をいろいろ試す
+
+さらに調べると、月別の変化の要因がわかります。
 
 1.  **[ストア]**  >  **[担当地域]** を選択します。これにより、 **[詳細]** バケットに **[担当地域]** が追加されます。
 
     ![[詳細] バケットでのストアの表示](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    Power BI の既定では、月別の増減に寄与した上位 5 個の要素が追加されます。 次の図は、さらに多くのデータを含むように、[視覚化] ウィンドウを展開したものです。 
+    Power BI では、視覚化にデータを追加する目的で **[詳細]** の値が使用されます。 会計月別の増減に寄与した上位 5 個の要素が追加されます。 つまり、たとえば、2 月の場合、データ ポイントが 1 つだけではなく、6 つ与えられます。  
 
-    ![[詳細] バケットでのストアの表示](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-initial.png)
+    ![[詳細] バケットでのストアの表示](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-default.png)
 
-    ここでは上位 2 個の要素にのみ関心があります。
+    あなたが上位 2 個の要素にのみ関心があるとします。
 
 1. **[書式]** ウィンドウで **[詳細]** を選択し、 **[最大ブレークダウン]** を **2** に設定します。
 
-    ![[書式] > [詳細]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![[書式] > [詳細]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 
     ウォーターフォール図をざっと見ると、オハイオ州とペンシルバニア州の地域が売上の増加と減少の両方に最も大きく貢献していることがわかります。
 
-    ![ウォーターフォール グラフ](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+    ![ウォーターフォール グラフ](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
 ## <a name="next-steps"></a>次の手順
 

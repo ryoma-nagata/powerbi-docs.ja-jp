@@ -7,27 +7,22 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 011e2b6d3bf5cc998f7db76e96536d2ddab09888
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 252e83a543640ec47fbadd00012bf1a4d8074f84
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880865"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831406"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>視覚化のタイトル、凡例、および背景をカスタマイズする
 
-このチュートリアルでは、視覚化をカスタマイズする、さまざまな方法について説明します。 視覚化をカスタマイズするオプションは多数あります。 そのすべてを学習するには、 **[形式]** ウィンドウ (ペイント ローラー アイコンを選択) を調べることをお勧めします。 その手始めとして、この記事では視覚化のタイトル、凡例、背景をカスタマイズする方法を説明します。
+このチュートリアルでは、視覚化をカスタマイズする、さまざまな方法について説明します。 視覚化をカスタマイズするオプションは多数あります。 そのすべてを学習するには、 **[形式]** ウィンドウ (ペイント ローラー アイコンを選択) を調べることをお勧めします。 その手始めとして、この記事では視覚化のタイトル、凡例、背景をカスタマイズする方法とテーマを追加する方法を説明します。
 
 一部の視覚化についてはカスタマイズできません。 詳細については、[完全なリスト](#visualization-types-that-you-can-customize)をご覧ください。
 
-4 分 50 秒までビデオを早送りして、視覚化をカスタマイズする方法をご覧いただくことができます。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
-
-ここでは以下の手順に従って、ご自分のデータでやってみてください。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -37,7 +32,7 @@ ms.locfileid: "73880865"
 
 ## <a name="customize-visualization-titles-in-reports"></a>レポートの視覚エフェクトのタイトルをカスタマイズする
 
-まず、[Power BI サービス](https://app.powerbi.com)にサインインし、[小売りの分析のサンプル](../sample-datasets.md) レポートを[レポート編集](../service-interact-with-a-report-in-editing-view.md)ビューで開きます。
+まず、Power BI Desktop にサインインし、[小売りの分析のサンプル](../sample-datasets.md) レポートを開きます。
 
 > [!NOTE]
 > 視覚エフェクトをダッシュボードにピン留めすると、その視覚エフェクトはダッシュボード タイルになります。 タイル自体も、[新しいタイトルとサブタイトル、ハイパーリンク、およびサイズの変更](../service-dashboard-edit-tile.md)でカスタマイズできます。
@@ -50,41 +45,38 @@ ms.locfileid: "73880865"
 
 1. **[タイトル]** を選択してセクションを展開します。
 
-   ![[形式] ウィンドウ、ペイント ローラー アイコン、および [タイトル] ドロップダウンを指している矢印のスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
+   ![[形式] ウィンドウ、ペイント ローラー アイコン、および [タイトル] ドロップダウンを指している矢印のスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-format-menu.png)
 
 1. **[タイトル]** スライダーを **[オン]** にします。
 
-   ![オンのスライダーのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
-
 1. タイトルを変更するには、 **[タイトル テキスト]** フィールドに「*月別の開店した店舗数*」と入力します。
 
-1. **[フォント色]** をオレンジに、 **[背景色]** を黄色に変更します。
+    ![タイトル テキストが入力された [形式] ウィンドウのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
-    1. ドロップダウンを選択し、 **[テーマの色]** 、 **[最近使用した色]** 、または **[ユーザー設定の色]** から色を選択します。
+1. **[フォント色]** を白に、 **[背景色]** を青に変更します。    
 
-        ![フォントの色と背景色のオプションのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
+    a. ドロップダウンを選択し、 **[テーマの色]** 、 **[最近使用した色]** 、または **[ユーザー設定の色]** から色を選択します。
 
-    1. ドロップダウンを選択して、色ウィンドウを閉じます。
+        ![Screenshot of the Font color and Background color options.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
-       変更を保存します。
+    b. ドロップダウンを選択して、色ウィンドウを閉じます。
 
-       すべての変更を既定値の戻す必要がある場合は、色ウィンドウの **[既定値に戻す]** を選択します。
 
-1. テキスト サイズを **12 ポイント**に増やします。
+1. テキスト サイズを **16 ポイント**に増やします。
 
 1. 最後のカスタマイズとして、グラフのタイトルを視覚化の中央に配置します。
 
-    ![[中央揃え] オプションが選択されている [配置] コントロールのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
+    ![[中央揃え] オプションが選択されている [配置] コントロールのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-align.png)
 
-チュートリアルのこの時点で、集合縦棒グラフのタイトルは次のように表示されます。
+    チュートリアルのこの時点で、集合縦棒グラフのタイトルは次のように表示されます。
 
-![新しく構成された集合縦棒グラフのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
+    ![新しく構成された集合縦棒グラフのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-table.png)
 
 変更を保存して、次のセクションに移動します。
 
 すべての変更を既定値に戻す必要がある場合は、 **[タイトル]** カスタマイズ ウィンドウの下部にある **[既定値に戻す]** を選択します。
 
-![[既定値に戻す] オプションのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
+![[既定値に戻す] オプションのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-revert.png)
 
 ## <a name="customize-visualization-backgrounds"></a>視覚エフェクトの背景をカスタマイズする
 
@@ -98,7 +90,7 @@ ms.locfileid: "73880865"
 
 チュートリアルのこの時点で、集合縦棒グラフの背景は次のように表示されます。
 
-![背景色が更新された集合縦棒グラフのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
+![背景色が更新された集合縦棒グラフのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-background.png)
 
 変更を保存して、次のセクションに移動します。
 
@@ -112,7 +104,7 @@ ms.locfileid: "73880865"
 
 1. **[凡例]** オプションを展開します。
 
-      ![[凡例] オプションのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
+    ![[凡例] カードのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-legends.png)
 
 1. **[凡例]** スライダーを **[オン]** にします。
 
@@ -120,15 +112,22 @@ ms.locfileid: "73880865"
 
 1. **[タイトル]** を **[オン]** に切り替えて、凡例にタイトルを追加します。
 
-1. *[凡例名]* テキスト フィールドに 「**マネージャー**」と入力します。
+1. *[凡例名]* フィールドに「**マネージャー**」と入力します。
 
-チュートリアルのこの時点で、集合縦棒グラフの凡例は次のように表示されます。
+1. **[色]** を黒に変更します。
 
-![集合縦棒グラフの更新された凡例のスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
-
-変更を保存して、次のセクションに移動します。
+行った変更を保存して、次のセクションに移動します。
 
 すべての変更を既定値に戻す必要がある場合は、 **[凡例]** カスタマイズ ウィンドウの下部にある **[既定値に戻す]** を選択します。
+
+## <a name="customize-colors-using-a-theme"></a>テーマを使用して色をカスタマイズする
+
+レポートのテーマでは、コーポレート カラーを使用したり、アイコン セットを変更したり、ビジュアルの新しい既定の形式を適用したりなど、デザインの変更をお使いのレポート全体に適用できます。 レポートのテーマを適用すると、お使いのレポートのすべてのビジュアルで、ご自身が選択したテーマの色と書式設定が使用されます。
+
+お使いのレポートにテーマを適用するには、メニュー バーから **[テーマの切り替え]** を選択します。 テーマを選択します。  次のレポートでは、 **[太陽]** のテーマが使用されています。
+
+ 
+![黄色、オレンジ、赤の [太陽] のテーマを使用したレポート](media/power-bi-visualization-customize-title-background-and-legend/power-bi-theme.png)
 
 ## <a name="visualization-types-that-you-can-customize"></a>カスタマイズ可能な視覚化の種類
 
@@ -146,12 +145,15 @@ ms.locfileid: "73880865"
 | 塗り分け地図 | はい | はい | はい |
 | じょうごグラフ | はい | はい | 該当なし |
 | ゲージ | はい | はい | 該当なし |
+| Key Influencer\(主要なインフルエンサー\) | はい | はい | 該当なし |
 | KPI | はい | はい | 該当なし |
 | 折れ線 | はい | はい | はい |
 | マップ | はい | はい | はい |
 | Matrix | はい | はい | 該当なし |
 | 円 | はい | はい | はい |
+| Q&A | はい | はい | 該当なし |
 | 散布 | はい | はい | はい |
+| 図形 | はい | はい | はい |
 | スライサー | はい | はい | 該当なし |
 | テーブル | はい | はい | 該当なし |
 | テキストボックス | いいえ | はい | 該当なし |
@@ -163,7 +165,5 @@ ms.locfileid: "73880865"
 - [X 軸と Y 軸のプロパティのカスタマイズ](power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 - [色の書式設定と軸のプロパティの概要](service-getting-started-with-color-formatting-and-axis-properties.md)
-
-- [Power BI サービス コンシューマーの基本的な概念](../consumer/end-user-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

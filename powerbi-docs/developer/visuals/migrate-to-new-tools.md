@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cc554bff1cbd248ccd69a80ee47b60af981cdab1
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061824"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696284"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>新しい powerbi-visuals-tools 3.x.x への移行
 
@@ -95,9 +95,9 @@ sampleBarChart ビジュアルのサンプルと、`package.json` 内の対応�
 
 ## <a name="update-custom-visuals-utils"></a>Custom Visuals utils を更新する
 
-いずれかの [powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) を使用する場合は、それらも最新バージョンに更新する必要があります。
+いずれかの powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) を使用する場合は、それらも最新バージョンに更新する必要があります。
 
-コマンド `npm install powerbi-visuals-utils-<UTILNAME> --save` を実行します。 (例: `npm install powerbi-visuals-utils-dataviewutils --save`) を使用して、TypeScript の外部モジュールを含む新しいバージョンを取得します。
+コマンド `npm install powerbi-visuals-utils-<UTILNAME> --save` を実行します。 (例:  `npm install powerbi-visuals-utils-dataviewutils --save`) を使用して、TypeScript の外部モジュールを含む新しいバージョンを取得します。
 
 MekkoChart [リポジトリ](https://github.com/Microsoft/powerbi-visuals-mekkochart)で例を見つけることができます。
 このビジュアルでは、すべての utils が使用されます。
@@ -110,7 +110,7 @@ MekkoChart [リポジトリ](https://github.com/Microsoft/powerbi-visuals-mekkoc
 
 ## <a name="fix-loading-external-libraries"></a>外部ライブラリの読み込みを修正する
 
-代わりに、`pbiviz.json` の `externalJS` 配列で lib の後ろに新しい JS ファイルを含めます。 例:
+代わりに、`pbiviz.json` の `externalJS` 配列で lib の後ろに新しい JS ファイルを含めます。 例: 
 
 ```JSON
 "externalJS": [
@@ -121,13 +121,13 @@ MekkoChart [リポジトリ](https://github.com/Microsoft/powerbi-visuals-mekkoc
 ]
 ```
 
-ソースに libs をインポートします。 `lodash-es` の例:
+ソースに libs をインポートします。 `lodash-es` の例: 
 
 ```JS
 import * as _ from "lodash-es";
 ```
 
-ここで `_` は `lodash` ライブラリのグローバル変数です。
+この `_` は `lodash` ライブラリのグローバル変数です。
 
 ## <a name="changes-in-the-visuals-sources"></a>ビジュアル ソースの変更
 

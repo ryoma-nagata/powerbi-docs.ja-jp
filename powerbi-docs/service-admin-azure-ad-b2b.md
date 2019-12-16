@@ -1,20 +1,20 @@
 ---
 title: Azure AD B2B で外部ゲスト ユーザーにコンテンツを配布する
 description: Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統合により、組織外のゲスト ユーザーに Power BI コンテンツを安全に配布できるようになりました。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858004"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882820"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -30,7 +30,9 @@ Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統
 
 ## <a name="who-can-you-invite"></a>招待できるユーザー
 
-gmail.com、outlook.com、hotmail.com などの個人アカウントも含めて、任意のメール アドレスを使用するゲスト ユーザーを招待できます。 Azure AD B2B では、これらのアドレスは "*ソーシャル ID*" と呼ばれます。
+メール アドレスを使用しているゲスト ユーザーを招待できます。gmail.com、outlook.com、hotmail.com などの個人アカウントも含めて、ほとんどのメール アドレスに対応しています。 Azure AD B2B では、これらのアドレスは "*ソーシャル ID*" と呼ばれます。
+
+[米国政府向け Power BI](service-govus-overview.md) など、政府機関向けクラウドに関連付けられているユーザーを招待することはできません。
 
 ## <a name="invite-guest-users"></a>ゲスト ユーザーを招待する
 
