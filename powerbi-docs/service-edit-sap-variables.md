@@ -18,18 +18,18 @@ ms.locfileid: "74010882"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Power BI サービスで SAP 変数を編集する
 
-SAP Business Warehouse または SAP HANA を DirectQuery と共に使用するとき、レポート作成者は、Premium ワークスペースと共有ワークスペースの **Power BI サービス**で SAP 変数を編集することをエンド ユーザーに許可できるようになりました。 この機能は、マイ ワークスペースの [自分と共有] タブのレポートでは機能しないことに注意してください。 
+SAP Business Warehouse または SAP HANA を DirectQuery と共に使用する場合、レポート作成者は、Premium および共有ワークスペース用に **Power BI サービス**で SAP 変数を編集することをエンド ユーザーに許可できるようになりました。 この機能は、[マイ ワークスペース] の [自分と共有] タブのレポートでは機能しないことに注意してください。 
 
 ![[変数を編集] ダイアログ ボックス](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
-このドキュメントでは、Power BI で変数を編集するための要件、この機能を有効にする方法、Power BI サービスの変数を編集する場所について説明しています。
+このドキュメントでは、Power BI で変数を編集するための要件、この機能を有効にする方法、および Power BI サービスで変数を編集する場所について説明します。
 
 ## <a name="requirements-for-sap-edit-variables"></a>SAP 変数編集の要件
 
 SAP 変数編集機能を使用するにはいくつかの要件があります。 次の一覧にその要件をまとめています。
 
 **新しいフィルター エクスペリエンスが必須** - レポートに対して[新しいフィルター エクスペリエンス](power-bi-report-filter.md)を有効にする必要があります。 Power BI Desktop では、レポートに対してこれを次のように有効にします。
-- Power BI Desktop で、 **[ファイル]** 、 **[オプションと設定]** 、 **[オプション]** の順に選択します。
+- Power BI Desktop で、 **[ファイル]** 、 >  **[オプションと設定]** 、 >  **[オプション]** の順に選択します。
 - ナビ ペインで、 **[現在のファイル]** の **[レポートの設定]** を選択します。
 - **[エクスペリエンスのフィルター処理]** で、 **[Enable the updated filter pane]\(更新されたフィルター ウィンドウを有効にする\)** を選択します。
 
@@ -45,7 +45,7 @@ SAP 変数編集機能を使用するにはいくつかの要件があります�
 
 ## <a name="how-to-enable-the-feature"></a>機能を有効にする方法
 
-**SAP 変数編集**機能を有効にするには、Power BI Desktop 内で SAP HANA または SAP BW データソースに接続します。 次に、 **[ファイル]、[オプションと設定]、[オプション]** の順に移動し、左側のウィンドウにある [現在のファイル] セクションで **[DirectQuery]** を選択します。 これを選択すると、次の画像のように、右側のウィンドウに DirectQuery オプションとチェック ボックスが表示されます。ここでは、**レポートで SAP 変数を変更することをエンド ユーザーに許可できます**。
+**SAP 変数編集**機能を有効にするには、Power BI Desktop 内で SAP HANA または SAP BW データソースに接続します。 次に、 **[ファイル]、[オプションと設定]、[オプション]** の順に移動し、左側のウィンドウにある [現在のファイル] セクションで **[DirectQuery]** を選択します。 これを選択すると、次の画像に示されているように、右側のウィンドウに DirectQuery オプションとチェックボックスが表示され、そこで**エンドユーザーにレポートの SAP 変数の変更を許可する**ことができます。
 
 ![DirectQuery オプション](media/service-edit-sap-variables/sap-preview-setting-in-desktop.png)
 
