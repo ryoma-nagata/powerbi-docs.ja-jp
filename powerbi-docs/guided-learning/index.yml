@@ -29,7 +29,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/4-collaborate-and-share
     - text: ダッシュボードとレポートの検索と表示 - 7 分
       url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/5-lab-1
-- title: Power BI を使用したデータ分析
+- title: Power BI を使用してデータを分析する
   linkLists:
   - linkListType: learn
     links:
@@ -63,7 +63,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop
     - text: データ ソースに接続する - 10 分
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/3-connect-data-sources-power-bi-desktop
-    - text: Excel からデータを取得 - 5 分
+    - text: Excel からデータを取得する - 5 分
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/3b-data-from-excel
     - text: レポートに含めるためにデータを変換する - 10 分
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/4-clean-data-query-editor
@@ -79,21 +79,21 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/1-overview-power-bi
     - text: データ リレーションシップを管理する方法 - 8 分
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/2-how-to-manage-data-relationships
-    - text: 計算列の作成 - 7 分
+    - text: 計算列を作成する - 7 分
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/3-create-calculated-columns
     - text: データ モデルを最適化する - 8 分
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4-optimize-data-models
-    - text: 計算メジャーの作成 - 15 分
+    - text: 計算メジャーを作成する - 15 分
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4b-create-calculated-measures
-    - text: 計算テーブルの作成 - 4 分
+    - text: 計算テーブルを作成する - 4 分
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables
-    - text: 時間ベースのデータの探索 - 5 分
+    - text: 時間ベースのデータを探索する - 5 分
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/6-explore-time-based-data
-- title: Power BI のビジュアルの使用
+- title: Power BI でビジュアルを使用する
   linkLists:
   - linkListType: learn
     links:
-    - text: Power BI での視覚化の概要 - 3 分
+    - text: Power BI のビジュアルの概要 - 3 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/1-intro-visuals
     - text: 単純な視覚エフェクトの作成とカスタマイズ - 9 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/2-create-simple-visuals
@@ -105,7 +105,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/6-create-matrixes-tables
     - text: 散布図、ウォーターフォール図、じょうごグラフを作成する - 9 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/7-create-scatter-charts
-    - text: グラフと視覚エフェクトの色の変更 - 6 分
+    - text: グラフとビジュアルの色を変更する - 6 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/10-modify-colors
     - text: ページ レイアウトと書式設定 - 12 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/12-formatting
@@ -121,7 +121,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/3-create-configure-dashboard
     - text: 自然言語を使用してデータに関する質問をする - 5 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/4-ask-questions
-    - text: カスタム Q&A 候補の作成 - 4 分
+    - text: カスタム Q&A 候補を作成する - 4 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/5-custom-qa
     - text: ダッシュボードを組織で共有する - 5 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/6-share-dashboards
@@ -137,7 +137,7 @@ landingContent:
     links:
     - text: コンテンツ パック、セキュリティ、グループの概要 - 5 分
       url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/1-introduction-content-packs
-    - text: Power BI Desktop レポートの発行 - 6 分
+    - text: Power BI Desktop レポートを発行する - 6 分
       url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/2-publish-reports
     - text: ダッシュボードやレポートの印刷とエクスポート - 7 分
       url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/3-print-export-reports

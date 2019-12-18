@@ -15,8 +15,6 @@
               href: power-bi-custom-visuals.md
         - name: チュートリアル
           items:
-            - name: 視覚的概念
-              href: visuals/power-bi-visuals-concept.md
             - name: Power BI のビジュアルを開発する
               href: visuals/custom-visual-develop-tutorial.md
             - name: 書式設定オプションを追加する
@@ -41,13 +39,13 @@
               href: visuals/advanced-edit-mode.md
         - name: 方法
           items:
-            - name: 認定済みの Power BI ビジュアルを取得する
+            - name: ビジュアルの認定を受ける
               href: power-bi-custom-visuals-certified.md
-            - name: Power BI ビジュアルを AppSource に発行する
+            - name: カスタム ビジュアルを AppSource に発行する
               href: office-store.md
-            - name: Power BI で R を利用した Power BI ビジュアルを使用する
-              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
-            - name: ビジュアル対話
+            - name: Power BI で R を利用したカスタム ビジュアルを使用する
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: ビジュアルの相互作用
               href: visuals/visuals-interactions.md
             - name: 選択範囲を追加する
               href: visuals/selection-api.md

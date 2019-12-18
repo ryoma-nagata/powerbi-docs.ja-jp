@@ -1,35 +1,35 @@
 ---
-title: 動的バインドを使用してレポートをデータセットに接続する
-description: 動的バインドを使用してレポートを埋め込む方法について学習します。
+title: 動的バインドを使用した、レポートのデータセットへの接続
+description: 動的バインドを使用して、レポートを埋め込む方法について学習します。
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: ecc7ec21117c9e2cd974058c63bcf02d72d1f4b1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164071"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925755"
 ---
-# <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>動的バインドを使用してレポートをデータセットに接続する 
+# <a name="connecting-a-report-to-a-dataset-using-dynamic-binding"></a>動的バインドを使用した、レポートのデータセットへの接続 
 
-レポートがデータセットに接続されている場合は、動的バインドを使用することができます。 レポートとデータセット間の接続は、*バインド*と呼ばれます。 事前に定義されたものではなく、埋め込みの時点でバインドが決定されると、そのバインドは[動的バインド](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0)と呼ばれます。
+動的バインドの使用は、レポートがデータセットに接続されている場合にのみ関連します。 レポートとデータセット間の接続は、"*バインド*" と呼ばれます。 バインドが事前に決定されるのではなく、埋め込みの時点で決定される場合、そのバインドは[動的バインド](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0)と呼ばれます。
  
-*動的バインド*を使用して Power BI レポートを埋め込む場合は、同じレポートをユーザーの資格情報に応じて異なるデータセットに接続することができます。
+"*動的バインド*" を使用して、Power BI レポートを埋め込む場合は、ユーザーの資格情報に応じて、同じレポートを異なるデータセットに接続することができます。
  
-これは、1 つのレポートを使用し、接続されているデータセットに応じて、異なる情報を表示できることを意味します。 たとえば、小売店の売上の値を示すレポートを別の小売業者のデータセットに接続し、接続されている小売業者のデータセットに応じて、異なる結果を生成することができます。
+これは、1 つのレポートを使用し、接続されているデータセットに応じて、異なる情報を表示できることを意味します。 たとえば、小売売上の値を示すレポートを別の小売業者のデータセットに接続し、接続されている小売業者のデータセットに応じて、異なる結果を得ることができます。
  
 レポートとデータセットは、必ずしも同じワークスペースに存在している必要はありません。 両方のワークスペース (レポートが含まれるものとデータセットが含まれるもの) が、[容量](azure-pbie-create-capacity.md)に割り当てられている必要があります。
 
-埋め込みプロセスの一環として、*十分なアクセス許可を持つトークンを確実に生成し*、*構成オブジェクトを調整します*。
+埋め込みプロセスの一環として、確実に、"*十分なアクセス許可を持つトークンを生成*" し、"*構成オブジェクトを調整*" してください。
 
 
-## <a name="generating-a-token-with-sufficient-permissions"></a>十分なアクセス許可を持つトークンを生成する
+## <a name="generating-a-token-with-sufficient-permissions"></a>十分なアクセス許可を持つトークンの生成
 
-動的バインドは、*組織向けの埋め込み*と*顧客向けの埋め込み*の両方のシナリオでサポートされます。 次の表では、各シナリオの考慮事項について説明します。
+動的バインドは、"*組織向けの埋め込み*" と "*顧客向けの埋め込み*" の両方のシナリオでサポートされます。 次の表では、各シナリオの考慮事項について説明します。
 
 
 |シナリオ  |データ所有権  |トークン  |要件  |
@@ -38,7 +38,7 @@ ms.locfileid: "74164071"
 |*顧客向けの埋め込み*     |アプリ所有データ         |Power BI ユーザーではないユーザーのアクセス トークン         |レポートと動的にバインドされたデータセットの両方に対するアクセス許可を含んでいることが必要です。 複数の成果物をサポートする埋め込みトークンを生成するには、[複数の項目の埋め込みトークンを生成するための API](embed-sample-for-customers.md#multiEmbedToken) を使用します。         |
 
 ## <a name="adjusting-the-config-object"></a>構成オブジェクトを調整する
-構成オブジェクトに `datasetBinding` を追加します。 次の例を参照として使用します。
+構成オブジェクトに `datasetBinding` を追加します。 以下の例を参照として使用します。
 
 ```javascript
 var config = {

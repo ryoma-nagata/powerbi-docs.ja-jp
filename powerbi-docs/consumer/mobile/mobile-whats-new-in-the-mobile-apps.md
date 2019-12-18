@@ -24,9 +24,9 @@ ms.locfileid: "74010013"
 
 ## <a name="october-2019"></a>2019 年 10 月
 
-### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>レポート サーバーのアクセス設定のリモート構成に対する Android サポート
+### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>レポート サーバーのアクセス設定をリモートで構成するための Android サポート
 
-Power BI モバイル アプリのレポート サーバーのアクセス設定をリモートで構成するための Android サポートを追加しました。 IT 管理者は、組織の MDM ツールを使用して、iOS デバイスと Android デバイスの両方でこれらの設定をリモートで構成できるようになりました。 詳細については、「[リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote)」を参照してください。
+Power BI モバイル アプリのレポート サーバーのアクセス設定をリモートで構成するための Android サポートを追加しました。 IT 管理者は、組織の MDM ツールを使用して、iOS と Android の両方のデバイスでこれらの設定をリモートで構成できるようになりました。 詳細については、「[リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote)」を参照してください。
 
 ### <a name="cross-report-drillthrough"></a>レポート間のドリルスルー
 

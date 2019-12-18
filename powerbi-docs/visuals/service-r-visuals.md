@@ -1,6 +1,6 @@
 ---
 title: R スクリプトを使用して高度な分析とビジュアルを作成する
-description: Power BI Desktop で R スクリプトを使用して高度な分析と高度なビジュアルを作成する
+description: Power BI Desktop で R スクリプトを使用して、高度な分析と高度な視覚エフェクトを作成する
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698994"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099816"
 ---
 # <a name="r-visuals-in-power-bi"></a>Power BI の R ビジュアル
 R ビジュアルは現在、**Power BI Desktop** でのみ作成でき、その後 Power BI サービスに発行できます。 R ビジュアルの作成の詳細については、「[R を使用した Power BI ビジュアルの作成](../desktop-r-visuals.md)」を参照してください。
 
-## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Power BI サービスで R ビジュアルを表示する
+## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Power BI サービスでの R ビジュアルの表示
 Power BI サービスでは、R スクリプトで作成したビジュアルの表示と操作がサポートされています。 R スクリプトで作成したビジュアルは一般的に *R ビジュアル*と呼ばれ、R の豊富な分析と視覚化の機能を使用した高度なデータ整形と予測などの分析に使用できます。
 
 > [!NOTE]
@@ -37,7 +37,7 @@ R ビジュアルは、次の図に示すレポートのような [Power BI Desk
 
 **Power BI Desktop** でレポートを作成すると、1 つ以上の R ビジュアルを含むレポートを Power BI サービスに発行できます。 
 
- このサービスでは、サポートされていない R パッケージもあります。 Power BI サービスで現在サポートされているパッケージを確認するには、この記事の最後にあるサポート対象パッケージの一覧を参照してください。
+ このサービスでは、すべての R パッケージがサポートされているわけではありません。 Power BI サービスで現在サポートされているパッケージを確認するには、この記事の最後にあるサポート対象パッケージの一覧を参照してください。
 
 [Power BI Desktop サンプル ファイル](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix ファイル) をダウンロードして、いくつかの R ビジュアルの動作を確認し、さまざまな使い方を試すことができます。
 
@@ -66,7 +66,7 @@ R スクリプトでエラーが発生した場合、R ビジュアルはプロ�
 ![ランタイム エラーを示すスクリーンショット](media/service-r-visuals/r-visuals-service-5.png)
 
 ## <a name="licensing"></a>ライセンス
-R ビジュアルのレポートでの表示、更新、フィルター、クロス フィルターには、[Power BI Pro](../service-self-service-signup-for-power-bi.md) のライセンスが必要です。 Power BI Pro のライセンスの詳細および無料ライセンスとの違いについては、「[Power BI Pro コンテンツとは](../service-admin-purchasing-power-bi-pro.md)」を参照してください。
+R ビジュアルでは、レポートでの表示、更新、フィルター処理、およびクロスフィルター処理を行う場合、[Power BI Pro](../service-self-service-signup-for-power-bi.md) のライセンスが必要です。 Power BI Pro のライセンスの詳細および無料ライセンスとの違いについては、「[Power BI Pro コンテンツとは](../service-admin-purchasing-power-bi-pro.md)」を参照してください。
 
 Power BI 無料版のユーザーは、Premium ワークスペースで共有されたタイルのみを使用できます。 詳細については、「[Power BI Pro を購入する](../service-admin-purchasing-power-bi-pro.md)」を参照してください。
 
@@ -85,7 +85,7 @@ Pro ライセンスを持つ**マネージド テナント**     |   サポー�
 ## <a name="known-limitations"></a>既知の制限事項
 Power BI サービスの R ビジュアルには、一定の制限があります。
 
-* R ビジュアルのサポートは、[サポートされる R パッケージの詳細](../service-r-packages-support.md)で特定されたパッケージに限定されます。 現在のところ、カスタム パッケージはサポートされていません。
+* R ビジュアルのサポートは、[サポート対象の R パッケージの確認](../service-r-packages-support.md)に関するページで特定されているパッケージに限定されます。 現在のところ、カスタム パッケージはサポートされていません。
 * データ サイズの制限 – プロット作成で R ビジュアルが使用するデータは、150,000 行に制限されています。 150,000 を超える行が選択されている場合は、上位の 150,000 の行のみが使用され、メッセージがイメージに表示されます。
 * 計算時間の制限 – R ビジュアル計算で実行時間が 60 秒を超えると、エラーが発生します。
 * R ビジュアルは、データ更新、フィルター処理、および強調表示の際に更新されます。 ただし、イメージ自体は対話に対応しておらず、ツール ヒントはサポートされていません。
@@ -94,12 +94,7 @@ Power BI サービスの R ビジュアルには、一定の制限がありま�
 * **[Web に公開]** を使用するとき、R ビジュアルは表示されません。
 * 現在のところ、R ビジュアルはダッシュボードとレポートの印刷機能では印刷されません。
 * 現在のところ、R ビジュアルは Analysis Services の DirectQuery モードでサポートされていません。
-* R ビジュアルには、テキスト ラベルをグラフィック要素に変換する機能があります。 Power BI サービスでこれを行うには、次の手順を実行する必要があります。
-  
-  * R スクリプトの先頭に次の行を追加します。
-    
-        powerbi_rEnableShowText =  1
-* 中国語、日本語、韓国語のフォントを Power BI サービスで正しく表示するには、次の追加手順をすべて実行する必要があります。
+* 中国語、日本語、および韓国語のフォントでは、Power BI サービスで正しく機能させるために、以下のすべての追加手順が必要になります。
   
   * 最初に、R パッケージ *showtext* とそのすべての依存関係をインストールします。 このインストールは、次のスクリプトで実行できます。
     
@@ -109,7 +104,7 @@ Power BI サービスの R ビジュアルには、一定の制限がありま�
         powerbi_rEnableShowTextForCJKLanguages =  1
 
 ## <a name="overview-of-r-packages"></a>R パッケージの概要
-R パッケージは、適切に定義された形式で結合された R 関数、データ、およびコンパイル済みコードのコレクションです。 R のインストールには標準のパッケージ セットが付属しており、他のパッケージはダウンロードしてインストールできます。 インストールした R パッケージを使うには、セッションに読み込む必要があります。 無料の R パッケージの主要なソースは、CRAN ([Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html)) です。
+R パッケージは、適切に定義された形式で結合された R 関数、データ、およびコンパイル済みコードのコレクションです。 R のインストールには標準のパッケージ セットが付属しており、他のパッケージはダウンロードしてインストールできます。 インストールしたら、使用するセッションに R パッケージを読み込む必要があります。 無料の R パッケージの主要なソースは、CRAN ([Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html)) です。
 
 **Power BI Desktop** では、どのような種類の R パッケージでも制限なく使うことができます。 **Power BI Desktop** で使う R パッケージをユーザー自身がインストールできます (たとえば、[RStudio IDE](https://www.rstudio.com/) を使って)。
 
