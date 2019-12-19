@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699132"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958565"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium とは
 
@@ -29,16 +29,17 @@ Power BI Premium では、お客様の組織を対象にして Power BI サー�
 > * 地域別にデータの所在地をサポート (Multi-geo)
 > * ユーザー別ライセンスを購入することなくどのユーザーともデータを共有できる
 
-この記事では、Power BI Premium の主要な機能を紹介します。 必要に応じて、より詳細な情報が記載されているその他の記事へのリンクが提供されています。
+この記事では、Power BI Premium の主要な機能を紹介します。 必要に応じて、より詳細な情報が記載されているその他の記事へのリンクが提供されています。 Power BI Pro と Power BI Premium の詳細については、「[Power BI の価格](https://powerbi.microsoft.com/pricing/)」の「_Power BI 機能の比較_」セクションを参照してください。
 
 ## <a name="subscriptions-and-licensing"></a>サブスクリプションとライセンス
 
 Power BI Premium は、2 つの SKU (Stock Keeping Unit) ファミリで利用可能なテナントレベルの Office 365 サブスクリプションです。
 
-- **EM** SKU (EM1 から EM3) - 埋め込み、年間契約が必要、1 か月単位での課金。 EM1 および EM2 SKU は、ボリューム ライセンス プランを通してのみ利用できます。 直接購入することはできません。
 - **P** SKU (P1 から P3) - 埋め込みおよびエンタープライズ機能、月間契約または年間契約が必要、1 か月単位での課金。オンプレミスの Power BI Report Server をインストールするライセンスも含まれている。
 
-別の方法としては、**Azure Power BI Embedded** サブスクリプションを購入することもできます。これには、埋め込みおよび容量テストの目的でのみ使用する単一の **A** (A1 から A6) SKU ファミリが含まれます。 すべての SKU で、容量を作成するための仮想コアが提供されますが、EM SKU はより小さなスケールの埋め込みに限定されています。 仮想コアが 4 個未満の EM1、EM2、A1、および A2 の SKU は、専用インフラストラクチャ上では実行されません。
+- **EM** SKU (EM1 から EM3) - "_組織的な_" 埋め込み、年間契約が必要、1 か月単位での課金。 EM1 および EM2 SKU は、ボリューム ライセンス プランを通してのみ利用できます。 直接購入することはできません。
+
+別の方法として、Azure の **Power BI Embedded** サブスクリプションを購入できます。 コミットメントを必要とせず、アプリケーション、ポータル、および Web サイト内で Power BI をホワイト ラベル化するか、P または EM の容量をテストする方法として使用するために時間単位で課金される単一の **A** (A1 から A6 の) SKU ファミリがあります。 すべての SKU で、容量を作成するための仮想コアが提供されますが、EM SKU はより小さなスケールの埋め込みに限定されています。 仮想コアが 4 個未満の EM1、EM2、A1、および A2 の SKU は、専用インフラストラクチャ上では実行されません。
 
 この記事では P SKU を重点的に取り上げていますが、説明されている内容の多くは A SKU にも関連しています。 Premium サブスクリプションとは対照的に、Azure SKU では期間契約の必要がなく、1 時間ごとに課金されます。 これらは完全な弾力性を備え、スケールアップ、スケールダウン、一時停止、再開、および削除が可能です。 
 
@@ -50,7 +51,11 @@ Power BI Premium サブスクリプションは、Microsoft 365 管理センタ�
 
 ## <a name="dedicated-capacities"></a>専用の容量
 
-Power BI Premium では、"*専用の容量*" が提供されます。 他の顧客と共有された計算リソース上でワークロードが実行される共有された容量とは対照的に、専用の容量は組織によって排他的に使用されます。 これは、ホストされるコンテンツに対して信頼性が高く一貫したパフォーマンスを提供する専用の計算リソースを使用して隔離されます。 
+Power BI Premium では、"*専用の容量*" が提供されます。 他の顧客と共有された計算リソース上でワークロードが実行される共有された容量とは対照的に、専用の容量は組織によって排他的に使用されます。 これは、ホストされるコンテンツに対して信頼性が高く一貫したパフォーマンスを提供する専用の計算リソースを使用して隔離されます。 次のリソースは、専用の容量ではなく共有容量に格納されることに注意してください。
+
+* Excel ブック (データが最初に Power BI Desktop にインポートされる場合を除く)
+* [プッシュ データセット](/rest/api/power-bi/pushdatasets)
+* [ストリーミング データセット](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 
 ワークスペースは容量内に存在します。 各 Power BI ユーザーには、**マイ ワークスペース**と呼ばれる個人用のワークスペースが用意されます。 **ワークスペース**と呼ばれる追加のワークスペースを作成して、コラボレーションを有効にすることができます。 既定では、ワークスペース (個人用のワークスペースも含む) は、共有された容量内に作成されます。 Premium 容量をお持ちの場合は、マイ ワークスペースとワークスペースの両方を Premium 容量に割り当てることができます。
 
@@ -77,6 +82,9 @@ Power BI Premium では、"*専用の容量*" が提供されます。 他の顧
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | | | | | | | |
+
+> [!NOTE]
+> 小さな SKU (たとえば 2 つの P1 SKU) を組み合わせるよりも、単一の大きな SKU (たとえば、1 つの P2 SKU) を使用することをお勧めします。 たとえば、大規模なモデルを使用して、P2 での並列処理を向上させることができます。
 
 ### <a name="capacity-workloads"></a>容量のワークロード
 
@@ -235,5 +243,3 @@ SQL Server Management Studio や SQL Server Profiler などの Microsoft のツ�
 > [Premium 容量を管理する](service-premium-capacity-manage.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-
-||||||

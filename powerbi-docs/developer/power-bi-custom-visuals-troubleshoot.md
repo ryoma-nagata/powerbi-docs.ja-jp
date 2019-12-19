@@ -1,5 +1,5 @@
 ---
-title: Power BI の Power BI ビジュアルの開発方法に関するトラブルシューティング
+title: Power BI ビジュアルの開発方法に関するトラブルシューティング
 description: この記事では、Power BI カスタム ビジュアルの開発または作成時に発生する一般的な問題について説明します。
 author: KesemSharabi
 ms.author: kesharab
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: e28df5035e057d485a8122853f6ae88327e3045f
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74127764"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999769"
 ---
-# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Power BI の Power BI ビジュアルのトラブルシューティング
+# <a name="troubleshoot-power-bi-visuals"></a>Power BI ビジュアルのトラブルシューティング
 
 ## <a name="debug"></a>Debug
 
@@ -42,4 +42,4 @@ ms.locfileid: "74127764"
 
 ## <a name="next-steps"></a>次の手順
 
-詳細については、[Power BI の Power BI ビジュアルに関してよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-visuals)に関するページにアクセスしてください。
+詳細については、「[Power BI ビジュアルに関してよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)」を参照してください。

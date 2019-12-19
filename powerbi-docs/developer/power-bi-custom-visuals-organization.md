@@ -9,18 +9,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102090"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999838"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI の組織のビジュアル
 
 Power BI で Power BI ビジュアルを使い、ご自身の目的に合った独自のビジュアルを作成することができます。 Power BI ビジュアルは開発者が作成します。これは多くの場合、Power BI に付属している多くのビジュアルが各自の要件を満たしていないときに作成されます。
 
-Power BI ビジュアルが重要視される組織もあります。その組織に特有のデータや分析情報イを伝えるために必要だからです。その組織だけのビジネス手法を反映し、データに特別な要件が求められることもあります。 そのような組織は Power BI ビジュアルを開発し、組織全体で共有し、適切に保守管理する必要があります。 Power BI ビジュアルを使用すると、それを実現できます。
+Power BI ビジュアルが重要視される組織もあります。その組織に特有のデータや分析情報イを伝えるために必要だからです。その組織だけのビジネス手法を反映し、データに特別な要件が求められることもあります。 そのような組織は Power BI ビジュアルを開発し、組織全体で共有し、適切に保守管理する必要があります。 Power BI ビジュアルを使用すると、組織でそれを実現できます。
 
 次の図は、Power BI における組織の Power BI ビジュアルのフロー プロセスを示したものです。管理者から始まり、開発と保守管理を経由し、最終的にデータ アナリストの元に届けられます。
 
@@ -55,10 +55,10 @@ Power BI ビジュアルが重要視される組織もあります。その組�
 
 ## <a name="troubleshoot"></a>トラブルシューティング
 
-トラブルシューティングについては、[Power BI ビジュアルのトラブルシューティング](power-bi-custom-visuals-troubleshoot.md)に関する記事を参照してください。
+トラブルシューティングに関する情報については、「[Power BI ビジュアルのトラブルシューティング](power-bi-custom-visuals-troubleshoot.md)」を参照してください。
 
 ## <a name="faq"></a>よく寄せられる質問
 
-詳細情報と質問の回答については、[Power BI ビジュアルについてよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-visuals)に関するページを参照してください。
+詳細情報と質問の回答については、「[Power BI ビジュアルについてよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)」を参照してください。
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

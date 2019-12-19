@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6c098a187b7f0d0d4828500cd6c5995a7c82ab42
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697637"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000183"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>CommonCryptoLib (sapcrypto.dll) を使用して SAP BW への SSO に Kerberos シングル サインオンを使用する
 
@@ -89,7 +89,7 @@ ms.locfileid: "74697637"
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-Power BI サービスでレポートを更新できない場合は、ゲートウェイ トレース、CPIC トレース、および CommonCryptoLib トレースを使用して、問題を診断することができます。 CPIC トレースと CommonCryptoLib は SAP 製品であるため、Microsoft でそれらをサポートすることはできません。 BW への SSO アクセスを許可される Active Directory ユーザーについては、一部の Active Directory 構成で、ゲートウェイがインストールされているマシンの Administrators グループのメンバーであることが必要になる場合があります。
+Power BI サービスでレポートを更新できない場合は、ゲートウェイ トレース、CPIC トレース、および CommonCryptoLib トレースを使用して、問題を診断することができます。 CPIC トレースと CommonCryptoLib は SAP 製品であるため、Microsoft でそれらをサポートすることはできません。
 
 ### <a name="gateway-logs"></a>ゲートウェイ ログ
 
@@ -109,7 +109,49 @@ Power BI サービスでレポートを更新できない場合は、ゲート�
 
    ![CPIC トレース](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
- 3. 問題を再現し、**CPIC\_TRACE\_DIR** にトレース ファイルが含まれていることを確認します。
+3. 問題を再現し、**CPIC\_TRACE\_DIR** にトレース ファイルが含まれていることを確認します。
+ 
+    CPIC トレースでは、sapcrypto.dll ライブラリの読み込みの失敗など、より高いレベルの問題を診断できます。 たとえば、次に示すのは、.dll の読み込みエラーが発生した CPIC トレース ファイルのスニペットです。
+
+    ```
+    [Thr 7228] *** ERROR => DlLoadLib()==DLENOACCESS - LoadLibrary("C:\Users\test\Desktop\sapcrypto.dll")
+    Error 5 = "Access is denied." [dlnt.c       255]
+    ```
+
+    このようなエラーが発生したが、[上記のセクション](#configure-sap-bw-to-enable-sso-using-commoncryptolib)で説明されているように sapcrypto.dll と sapcrypto.ini に対して読み取りと実行のアクセス許可を設定している場合は、ファイルが格納されているフォルダーに対して同じ読み取りと実行のアクセス許可を設定してみてください。
+
+    それでも .dll を読み込むことができない場合は、[ファイルの監査](/windows/security/threat-protection/auditing/apply-a-basic-audit-policy-on-a-file-or-folder)を有効にしてみてください。 Windows イベント ビューアーで結果の監査ログを調べると、ファイルの読み込みに失敗した原因を特定できることがあります。 偽装された Active Directory ユーザーによって開始されたエラー エントリを探します。 たとえば、偽装したユーザー `MYDOMAIN\mytestuser` の場合、監査ログでのエラーは次のようになります。
+
+    ```
+    A handle to an object was requested.
+
+    Subject:
+        Security ID:        MYDOMAIN\mytestuser
+        Account Name:       mytestuser
+        Account Domain:     MYDOMAIN
+        Logon ID:       0xCF23A8
+
+    Object:
+        Object Server:      Security
+        Object Type:        File
+        Object Name:        <path information>\sapcrypto.dll
+        Handle ID:      0x0
+        Resource Attributes:    -
+
+    Process Information:
+        Process ID:     0x2b4c
+        Process Name:       C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe
+
+    Access Request Information:
+        Transaction ID:     {00000000-0000-0000-0000-000000000000}
+        Accesses:       ReadAttributes
+                
+    Access Reasons:     ReadAttributes: Not granted
+                
+    Access Mask:        0x80
+    Privileges Used for Access Check:   -
+    Restricted SID Count:   0
+    ```
 
 ### <a name="commoncryptolib-tracing"></a>CommonCryptoLib トレース 
 

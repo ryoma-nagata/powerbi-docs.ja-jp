@@ -8,92 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 05/9/2019
-ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.date: 12/02/2019
+ms.openlocfilehash: 0a39496ade27cd45fae116eea92ef4b472e04582
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565253"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999746"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>認定済みの Power BI ビジュアルを取得する
 
-## <a name="what-are-_certified_-power-bi-visuals"></a>**_認定済み_** Power BI ビジュアルとは
+認定済み Power BI ビジュアルとは*マーケットプレース*内のビジュアルであり、*特定のコード*要件を満たしていることを *Microsoft Power BI チーム*がテストし、承認したものです。 テストは、ビジュアルで外部のサービスやリソースへのアクセスが行われないことを確認するように設計されています。
 
-認定済み Power BI ビジュアルとは**マーケットプレース**内のビジュアルであり、**特定のコード**要件を満たしていることを **Microsoft Power BI チーム**がテストし、承認したものです。 カスタム ビジュアルが認定されると、機能が増えます。 たとえば、[PowerPoint にエクスポート](../consumer/end-user-powerpoint.md)したり、ユーザーが[レポート ページを定期購読する](../consumer/end-user-subscribe.md)と受信するメールにビジュアルを表示したりできます。
+認定済み Power BI ビジュアルと[標準の Power BI ビジュアル](power-bi-custom-visuals.md)は、同じ方法で使用されます。 それらを [Power BI Desktop](../desktop-what-is-desktop.md) と [Power BI サービス](../power-bi-service-overview.md)に追加し、[Power BI Mobile](../consumer/mobile/mobile-apps-for-mobile-devices.md) と [Power BI Embedded](embedding.md) で表示できます。
 
-**認定済み Power BI ビジュアル**は、[標準の Power BI ビジュアル](power-bi-custom-visuals.md)のように使用されます。 認定済み Power BI ビジュアルは、**Power BI サービス** (**Power BI Desktop レポート**) に追加し、**Power BI Mobile** や **Power BI Embedded** で表示できます。
+認定プロセスは、オプションのプロセスです。 開発者が自分の Power BI ビジュアルを Marketplace で認定されるようにするかどうかの決定は、開発者に任されています。 Power BI ビジュアルが認定されると、提供される機能が増えます。 たとえば、[PowerPoint にエクスポート](../consumer/end-user-powerpoint.md)したり、ユーザーが[レポート ページをサブスクライブしている](../consumer/end-user-subscribe.md)ときに受信メールにビジュアルを表示したりできます。
 
-実行されたテストは、ビジュアルが外部のサービスやリソースにアクセスしないことを確認するように作られています。 **Microsoft** はサードパーティ製の Power BI ビジュアルの作成者では*ありません*。サードパーティ製のビジュアルの機能については、作成者に直接お問い合わせいただくことをお客様にお勧めしています。
+未認定 Power BI ビジュアルは、安全ではないビジュアルを意味するわけではありません。 一部のビジュアルは 1 つまたは複数の[認定要件](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)を満たしていないために認定されていません。 たとえば、地図ビジュアルのような外部サービスや商用ライブラリを利用するビジュアルに接続する場合です。
 
-認定プロセスは任意のプロセスであり、マーケットプレースのビジュアルを認定してもらうかどうかは開発者次第です。  
+独自の Power BI ビジュアルを作成し、それらを  [Microsoft AppSource](https://appsource.microsoft.com) に追加することに関心がある Web 開発者は、 [Power BI のビジュアルを開発する](visuals/custom-visual-develop-tutorial.md)ためのチュートリアルから始めてください。
 
-**未認定 Power BI ビジュアル**は、安全ではないビジュアルを意味するわけではありません。 一部のビジュアルは 1 つまたは複数の[認定要件](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)を満たしていないために認定されていません。 たとえば、地図ビジュアルのような外部サービスや商用ライブラリを利用するビジュアルに接続する場合です。
+> [!NOTE]
+> **Microsoft** は、サードパーティの Power BI ビジュアルの作成者では "*ありません*"。 Microsoft では、サードパーティ製のビジュアルの機能については、ビジュアルの作成者に直接お問い合わせいただくことをユーザーにお勧めしています。
 
-独自の視覚エフェクトを作成して  **[Microsoft AppSource](https://appsource.microsoft.com)** に追加することに興味がある Web 開発者の方は、  **[Power BI カスタム ビジュアルを開発する](visuals/custom-visual-develop-tutorial.md)** 方法に関するページをご覧ください。
+> [!IMPORTANT]
+> Microsoft は、独自の裁量で[認定リスト](#list-of-power-bi-visuals-that-have-been-certified)から Power BI ビジュアルを削除できます。
 
-## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Power BI 認定済み Power BI ビジュアルの削除
+## <a name="certification-requirements"></a>認定要件
 
-マイクロソフトは独自の裁量で[認定リスト](#list-of-power-bi-visuals-that-have-been-certified)からビジュアルを削除できます。
-
-## <a name="getting-a-custom-visualcertified"></a>カスタム ビジュアルの認定を受ける
-
-### <a name="certification-requirements"></a>認定要件
-
-[カスタム ビジュアルを認定してもらう](#get-a-power-bi-visual-certified)には、カスタム ビジュアルが以下の基準を満たしている必要があります。  
-
-* Microsoft AppSource が承認していること。 カスタム ビジュアルは Microsoft の[マーケットプレース](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)に表示されるはずです。
-* カスタム ビジュアルは、バージョン管理された **API v2.5** 以降で記述されていること。
-* Power BI チームがレビューするためのコード リポジトリが用意されていること (たとえば、GitHub に人間が読める形式のソース コード (JavaScript や TypeScript) を用意しておきます)。
-
-    >[!Note]
-    > Github でコードを一般公開する必要はありません。
-* コード リポジトリの要件:
-   * 最低限必要なファイルのセットを含める必要があります。
-      * .gitignore
-      * capabilities.json
-      * pbiviz.json
-      * package.json
-      * package-lock.json
-      * tsconfig.json
-   * node_modules フォルダーを含めてはなりません (node_modules を .gitingore ファイルに追加します)
-   * **npm install** コマンドからエラーが返されてはなりません。
-   * **npm audit** コマンドから高レベルまたは中レベルの警告が返されてはなりません。
-   * **pbiviz package** コマンドからエラーが返されてはなりません。
-   * オーバーライドされた構成を使用せずに [Microsoft からの TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib) を含める必要があります。また、このコマンドから lint エラーが返されてはなりません。
-   * カスタム ビジュアルのコンパイル済みパッケージは、送信されたパッケージと一致する必要があります (両方のファイルの md5 ハッシュは同じである必要があります)。
-* ソース コードの要件:
-   * ビジュアルは [Rendering Events API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/) をサポートしている必要があります。
-   * 任意/動的コードが実行されていないことを確認します (不適切: eval()、確実に使用できない可能性のある settimeout()、requestAnimationFrame()、setinterval (ユーザー入力のある関数)、ユーザー入力/データの実行)。
-   * DOM が問題なく操作されていることを確認します (不適切: innerHTML、D3.html(<一部のユーザー/データ入力>)、DOM に追加する前にユーザー入力/データにサニタイズを使用する)。
-   * ブラウザー コンソールで、すべての入力データに対して javascript エラー/例外がないことを確認します。 ユーザーは、異なる範囲の予期しないデータを含むビジュアルを使用する可能性があるため、ビジュアルが失敗しないようにする必要があります。 [このサンプル レポート](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)をテスト データセットとして使用できます。
-
-* capabilities.json のプロパティが変更された場合は、既存のユーザーのレポートが破損しないようにしてください。
-
-* ビジュアルが [Power BI ビジュアルのガイドライン](./guidelines-powerbi-visuals.md)に準拠していることを確認します。 **透かしは使用できません**。
-
-* 公開レビュー可能な OSS コンポーネントのみを使用すること (一般公開の JS ライブラリまたは TypeScript。 ソース コードがレビューできて、既知の脆弱性がない)。 Microsoft は商用コンポーネントを利用してカスタム ビジュアルを検証することかできません。
-
-* 外部のサービスやリソースにアクセスしない。これには HTTP/S 要求や WebSocket 要求を Power BI から外部のサービスに送信できないことが含まれますが、それに限定されません。 
+自分の Power BI ビジュアルに対する[認定](#get-a-power-bi-visual-certified)を取得するには、その Power BI ビジュアルがこのセクションに記載されている要件に準拠していることを確認してください。 
 
 > [!TIP]
-> 送信する前に、EsLint と既定のセキュリティ ルールセットを使用して、コードを事前検証することをお勧めします。
+> 送信する前に、EsLint と既定のセキュリティ ルール セットを使用して、コードを事前検証することをお勧めします。
 
-## <a name="process-for-submitting-a-custom-visual-for-certification"></a>認定のためにカスタム ビジュアルを送信するプロセス
+* Microsoft 販売者ダッシュボードまたはパートナー センターで承認されている。 自分の Power BI ビジュアルが、Microsoft [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) に表示されている必要があります。
+* Power BI ビジュアルが *API v2.5* 以降で記述されている。
+* Power BI チームによるレビューでコード リポジトリを使用できる。 たとえば、読み取り可能な形式のソース コード (JavaScript または TypeScript) を GitHub から入手できます。
 
-認定のためにカスタム ビジュアルを送信するには、次の手順に従います。
+    >[!NOTE]
+    > Github でコードを一般公開する必要はありません。
 
-1. Power BI ビジュアルのサポート チーム (pbicvsupport@microsoft.com) にメールでお問い合わせください。 電子メールには、次の情報を含めます。
-    * 件名:ビジュアル認定の要求
-    * 人間が読めるソース コードがホストされている GitHub リポジトリへのリンク
-    * [要件の遵守](#certification-requirements)
-    * コード レビューに合格する
+* コード リポジトリの要件:
+  * 次のファイルが含まれている必要があります。
+    * .gitignore
+    * capabilities.json
+    * pbiviz.json
+    * package.json
+    * package-lock.json
+    * tsconfig.json
+  * *node_modules* フォルダーを含めてはなりません (*node_modules* は .gitingore* ファイルに追加してください)。
+  * *npm install* コマンドからエラーが返されてはなりません。
+  * *npm audit* コマンドから高レベルまたは中レベルの警告が返されてはなりません。
+  * *pbiviz package* コマンドからエラーが返されてはなりません。
+  * オーバーライドされた構成を使用せずに [Microsoft からの TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib) を含める必要があります。 このコマンドから lint エラーが返されてはなりません。
+   * Power BI ビジュアルのコンパイル済みパッケージが、提出されたパッケージと一致する必要があります (両方のファイルの md5 ハッシュが同じである必要があります)。
+* ソース コードの要件:
+   * Power BI ビジュアルで、[Rendering Events API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/) がサポートされている必要があります。
+   * 任意/動的コードが実行されていないことを確認します (不適切: eval()、確実に使用できない可能性のある settimeout()、requestAnimationFrame()、setinterval (ユーザー入力のある関数)、ユーザー入力/データの実行)。
+   * DOM が問題なく操作されていることを確認します (不適切: innerHTML、D3.html(<一部のユーザー/データ入力>)、DOM に追加する前にユーザー入力/データにサニタイズを使用する)。
+   * ブラウザー コンソールで、すべての入力データに対して javascript エラーまたは例外が発生しないことを確認します。 ユーザーは、異なる範囲の予期しないデータで Power BI ビジュアルを使用する可能性があるため、ビジュアルでエラーが発生しないようにする必要があります。 この[サンプル レポート](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)をテスト データセットとして使用できます。
 
-2. Power BI ビジュアルが認定され、[認定リスト](#list-of-power-bi-visuals-that-have-been-certified)に追加されたら、あるいは却下され、修正すべき問題が報告されたら、Microsoft Power BI ビジュアル チームから通知が届きます。 Microsoft との連絡手段を維持し、必要に応じて認定済みのビジュアルを更新するのは、開発者の責任です。
+* *capabilities.json* ファイルのプロパティが変更された場合でも、既存のユーザーのレポートが破損しないことを確認します。
+
+* Power BI ビジュアルが [Power BI ビジュアルのガイドライン](./guidelines-powerbi-visuals.md)に準拠していることを確認します。
+    
+* コードでは、公開されている Javascript や TypeScript ライブラリなどの公開レビュー可能な OSS コンポーネントのみを使用できます。 レビューするためにソース コードを入手可能であり、既知の脆弱性が含まれていてはなりません。 Microsoft は商用コンポーネントを利用してカスタム ビジュアルを検証することかできません。
+
+* Power BI ビジュアルでは、外部のサービスまたはリソースにアクセスしてはなりません。 たとえば、Power BI から任意のサービスにアクセスできる HTTP/S または WebSocket 要求を含めることはできません。 
+
+## <a name="submitting-a-power-bi-visual-for-certification"></a>認定されるための Power BI ビジュアルの提出
+
+自分の Power BI ビジュアルに対する Power BI チームによる認定をパートナー センターを通して要求できます。
+
+>[!TIP]
+>Power BI 認定プロセスには時間がかかることがあります。 新しい Power BI ビジュアルを作成している場合は、Power BI 認定を要求する前に、パートナー センターを通して Power BI ビジュアルを発行しておくことをお勧めします。 これにより、自分のビジュアルの発行が遅れないようにすることができます。
+
+Power BI 認定を要求するには:
+
+1. パートナー センターにサインインします。
+2. **[概要]** ページで、自分の Power BI ビジュアルを選択し、 **[製品]** 設定ページに移動します。
+3. **[Power BI 認定を要求します]** チェック ボックスをオンにします。
+4. **[確認と発行]** ページで、 **[認定の注意書き]** テキスト ボックスに、ソース コードへのリンクと、それにアクセスするために必要な資格情報を入力します。
+
+>[!NOTE]
+> Power BI ビジュアル提出プロセスの途中であり、[販売者ダッシュボード](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (旧管理ツール) を使用する必要がある場合は、「[販売者ダッシュボードでの提出プロセス](seller-dashboard.md#seller-dashboard-certification-submission-process)」の手順を確認してください。
 
 ## <a name="list-of-power-bi-visuals-that-have-been-certified"></a>認定された Power BI ビジュアルの一覧
 
-| AppSource へのリンク | 動画のリンク |
+| リンク | ビデオ |
 | --- | --- |
 | [3AG Systems - Bar Chart With Relative Variance (3AG Systems - 相対分散を含む横棒グラフ)](https://appsource.microsoft.com/en/product/power-bi-visuals/WA104381912) | |
 | [3AG Systems - 相対差異を含む縦棒グラフ](https://appsource.microsoft.com/product/power-bi-visuals/WA104381803) | |

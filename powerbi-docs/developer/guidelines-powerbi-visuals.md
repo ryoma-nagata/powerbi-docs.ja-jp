@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565601"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000091"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI ビジュアルのガイドライン
 他のユーザーが検出して使用できるようにご自分の Power BI ビジュアルを Microsoft AppSource に[発行](https://docs.microsoft.com/power-bi/developer/office-store)する前に、ユーザー向けに優れたエクスペリエンスを作成するためのガイドラインに従っていることを確認してください。
@@ -50,7 +50,12 @@ Power BI IAP ビジュアルで無効 (または有効期限切れ) のライセ
 
 ### <a name="submission-process"></a>送信プロセス
 
-開発者は IAP Power BI ビジュアルを、無料のビジュアルに対して行うのと同様に、販売者のダッシュボードを介して Microsoft AppSource にアップロードします。 開発者は、送信した Power BI ビジュアルに IAP 機能が含まれることを示すために、販売者のダッシュボードのメモに "Visual with in-app purchase" (アプリ内購入があるビジュアル) と記載する必要があります。 また、開発者は検証チームが IAP 機能を検証できるように、ライセンス キーやトークンを提供する必要があります。 Power BI ビジュアルが検証されて承認されたら、IAP Power BI ビジュアル用の Microsoft AppSource の一覧で、価格オプションの下に "追加購入が必要になる場合があります" と記載されます。
+[提出プロセス](office-store.md#submitting-to-appsource)に従った後、 *[製品のセットアップ]* タブに移動し、 *[この製品ではサービスを購入する必要があります]* チェック ボックスをオンにします。
+
+Power BI ビジュアルが検証されて承認されたら、IAP Power BI ビジュアル用の Microsoft AppSource の一覧で、価格オプションの下に "追加購入が必要になる場合があります" と記載されます。
+
+>[!NOTE]
+>自分の Power BI ビジュアルを[販売者ダッシュボード](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store)を使用して既に提出しているときに IAP 機能を追加する必要がある場合は、販売者ダッシュボードのメモに "Visual with in-app purchase." (アプリ内購入があるビジュアル) と記載する必要があります。 さらに、検証チームが IAP 機能を検証できるように、ライセンス キーやトークンを提供する必要があります。
 
 ## <a name="context-menu"></a>コンテキスト メニュー
 コンテキスト メニューは、ユーザーがビジュアルの上にマウス ポインターを置いたときに表示される右クリック メニューです。

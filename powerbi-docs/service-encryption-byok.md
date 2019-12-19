@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698281"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958473"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI 用の独自の暗号化キーを使用する (プレビュー)
 
@@ -30,7 +30,8 @@ BYOK を使用するには、Power BI Desktop (PBIX) ファイルから Power BI
 
 - Analysis Services ライブ接続
 - Excel ブック (データが最初に Power BI Desktop にインポートされる場合を除く)
-- プッシュ データセット
+- [プッシュ データセット](/rest/api/power-bi/pushdatasets)
+- [ストリーミング データセット](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [大規模なモデル](service-premium-large-models.md)
 
 BYOK は PBIX ファイルに関連付けられたデータセットにのみ適用され、タイルやビジュアル用のクエリ結果キャッシュには適用されません。

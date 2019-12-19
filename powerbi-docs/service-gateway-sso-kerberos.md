@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/03/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699224"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000114"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI サービスからオンプレミス データ ソースへの Kerberos ベースの SSO を構成する
 
@@ -66,6 +66,22 @@ SPN と Kerberos 委任の設定を構成するために、ドメイン管理者
    ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
    また、 **[Active Directory ユーザーとコンピューター]** MMC スナップインを使用して、SPN を設定することもできます。
+   
+### <a name="add-gateway-service-account-to-windows-authorization-and-access-group-if-required"></a>必要に応じて Windows 認証およびアクセス グループにゲートウェイ サービス アカウントを追加する
+
+特定のシナリオでは、ゲートウェイ サービス アカウントを Windows 認証およびアクセス グループに追加する必要があります。 これらのシナリオには、Active Directory 環境のセキュリティの強化や、ゲートウェイで偽装するゲートウェイ サービス アカウントとユーザー アカウントが別のドメインまたはフォレストにある場合が含まれます。 ドメイン/フォレストが強化されていない状況で、ゲートウェイ サービス アカウントを Windows 認証およびアクセスグループに追加することもできますが、これは必須ではありません。
+
+詳細については、[Windows 認証およびアクセスグループ](/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-winauthaccess)に関する記事を参照してください。
+
+この構成手順を完了するには、ゲートウェイ サービス アカウントを偽装できるようにする Active Directory ユーザーが含まれるドメインごとに、次の手順を実行します。
+1. ドメイン内のコンピューターにサインインし、Active Directory ユーザーとコンピューター MMC スナップインを起動します。
+2. **[Windows Authorization and Access Group]\(Windows 認証およびアクセス グループ\)** グループを見つけます。これは、通常は、**Builtin** コンテナー内にあります。
+3. グループをダブルクリックし、 **[メンバー]** タブをクリックします。
+4. **[追加]** をクリックし、ドメインの場所をゲートウェイ サービス アカウントが存在するドメインに変更します。
+5. ゲートウェイ サービス アカウント名を入力し、 **[名前の確認]** をクリックして、そのゲートウェイ サービス アカウントにアクセスできることを確認します。
+6. **[OK]** をクリックします。
+7. **[適用]** をクリックします。
+8. ゲートウェイ サービスを再起動します。
 
 ### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>使用する Kerberos の制約付き委任の種類を決定する
 

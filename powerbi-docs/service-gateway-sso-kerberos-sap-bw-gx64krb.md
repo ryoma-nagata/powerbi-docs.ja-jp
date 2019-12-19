@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9588f13a857dc105dce3b3577df7c3b06df027ed
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6c8b62cf798d2fbbd09dab0603d216448d04487c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699247"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000137"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>gx64krb5 を用いた SAP BW へのシングル サインオン (SSO) に Kerberos を使用する
 
@@ -197,6 +197,8 @@ SSO アクセスを有効にした Active Directory ユーザーとして、SSO 
       ![CPIC トレース](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
     c. 問題を再現し、**CPIC\_TRACE\_DIR** にトレース ファイルが含まれていることを確認します。 
+    
+    d. トレース ファイルの内容を調べて、ブロッキングの問題を特定します。 たとえば、gx64krb5.dll が正しく読み込まれていなかったり、Active Directory ユーザーが SSO 接続を開始すると想定していたユーザーとは異なっていることに気付く場合があります。
 
 ## <a name="next-steps"></a>次の手順
 

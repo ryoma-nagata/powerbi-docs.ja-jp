@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699316"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958440"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>オンプレミス SQL Server データベースからのデータを更新する
 
@@ -49,6 +49,10 @@ AdventureWorksDW サンプル データベースを使用して基本的な Powe
 2. **[SQL Server データベース]** ダイアログ ボックスで、 **[サーバー]** と **[データベース (省略可能)]** の名前を入力し、 **[データ接続モード]** が **[インポート]** であることを確認して、 **[OK]** を選択します。
 
     ![SQL Server データベース](./media/service-gateway-sql-tutorial/sql-server-database.png)
+
+    このチュートリアルでは**詳細設定オプション**は使用しませんが、SQL ステートメントを指定して [SQL Server フェールオーバー](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server)などの他のオプションを設定できることに注意してください。
+
+    ![SQL Server の詳細設定オプション](media/service-gateway-sql-tutorial/sql-server-advanced-options.png)
 
 3. **資格情報**を確認し、 **[接続]** を選択します。
 

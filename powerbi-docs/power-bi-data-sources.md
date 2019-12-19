@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
 ms.author: kfollis
-ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699730"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958496"
 ---
 # <a name="power-bi-data-sources"></a>Power BI データ ソース
 
-この表には、DirectQuery やオンプレミス データ ゲートウェイに関する情報など、Power BI でサポートされているデータ ソースがまとめられています。
+この表には、DirectQuery やオンプレミス データ ゲートウェイに関する情報など、データセットに対して Power BI でサポートされているデータ ソースがまとめられています。 データフローの詳細については、「[Power BI データフロー用のデータ リソースに接続する](service-dataflows-data-sources.md)」を参照してください。
 
 | データ ソースの | デスクトップから接続する | サービスから接続し、更新する | DirectQuery / ライブ接続 | ゲートウェイ (サポートあり) | ゲートウェイ (必須) |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ ms.locfileid: "74699730"
 | Planview Enterprise One - CTM | はい | はい | いいえ | いいえ | いいえ |
 | Planview Enterprise One - PRM | はい | はい | いいえ | いいえ | いいえ |
 | Planview Projectplace | はい | はい | いいえ | いいえ | いいえ |
-| PostgreSQL | はい | はい | いいえ | はい | はい |
+| PostgreSQL | はい | はい | はい | はい | はい |
 | Power BI データフロー | はい | はい | いいえ | いいえ | いいえ |
 | Power BI データセット | はい | はい | はい | いいえ | いいえ |
 | Power Platform データフロー | はい | はい | いいえ | いいえ | いいえ |

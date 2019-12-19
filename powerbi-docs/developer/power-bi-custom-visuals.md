@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 1d176941f04bdaf06c9cdeda65271769098268fb
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265207"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999815"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI のビジュアル
 
@@ -168,11 +168,11 @@ Power BI ビジュアルをダウンロードおよびインポートする場�
 
 ## <a name="troubleshoot"></a>トラブルシューティング
 
-トラブルシューティングについては、[Power BI ビジュアルのトラブルシューティング](power-bi-custom-visuals-troubleshoot.md)に関する記事を参照してください。
+トラブルシューティングについては、「[Power BI ビジュアルのトラブルシューティング](power-bi-custom-visuals-troubleshoot.md)」を参照してください。
 
 ## <a name="faq"></a>よく寄せられる質問
 
-詳細情報と質問の回答については、[Power BI ビジュアルについてよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-visuals)に関するページを参照してください。
+詳細情報と質問の回答については、「[Power BI ビジュアルについてよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 
