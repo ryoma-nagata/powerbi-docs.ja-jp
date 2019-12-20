@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009830"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304357"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI のセキュリティに関するホワイトペーパー
 
@@ -33,7 +33,7 @@ ms.locfileid: "74009830"
 
 **Power BI** は、Microsoft のオンライン ソフトウェア サービス (_SaaS_、またはサービスとしてのソフトウェア) オファリングであり、セルフサービスのビジネス インテリジェンス ダッシュボード、レポート、データセット、および視覚エフェクトを、簡単かつ迅速に作成することができます。 Power BI では、多くの異なるデータ ソースに接続し、それらの接続からのデータを組み合わせて整形した後、他のユーザーと共有できるレポートやダッシュボードを作成することができます。
 
-Power BI サービスは、[Microsoft Online Services の使用条件](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)および [Microsoft Enterprise のプライバシーに関する声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)によって管理されます。 データ処理の場所で、Microsoft Online Services の使用条件のデータ処理の場所の使用条件を参照してください。 コンプライアンスについては、[Microsoft セキュリティ センター](https://www.microsoft.com/trustcenter)が Power BI に関する主要なリソースです。 Power BI チームは、お客様に最新の技術革新と生産性を届けようと懸命に取り組んでいます。 Power BI は、現在、 [Office 365 準拠フレームワーク](https://go.microsoft.com/fwlink/p/?LinkID=618494)の階層 D にあります。
+Power BI サービスは、[Microsoft Online Services の使用条件](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)および [Microsoft Enterprise のプライバシーに関する声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)によって管理されます。 データ処理の場所で、Microsoft Online Services の使用条件のデータ処理の場所の使用条件を参照してください。 コンプライアンスについては、[Microsoft セキュリティ センター](https://www.microsoft.com/trustcenter)が Power BI に関する主要なリソースです。 Power BI チームは、お客様に最新の技術革新と生産性を届けようと懸命に取り組んでいます。 Power BI は、現在、 [Office 365 準拠フレームワーク](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)の階層 D にあります。
 
 この記事では、Power BI のセキュリティについて、Power BI のアーキテクチャ、ユーザーが Power BI に対して認証を行う方法とデータ接続が確立される方法、Power BI でサービスによりデータが格納および移される方法の順に説明します。 最後のセクションでは、セキュリティに関する質問にお答えします。
 
@@ -135,7 +135,7 @@ Power BI サービスに対するユーザーの認証は、ユーザーのブ�
 
 Power BI サービスでのユーザー認証シーケンスは、以下の手順で説明するように行われます。次の図はそれを示したものです。
 
-1. ユーザーは、ブラウザーでアドレス バーに Power BI のアドレスを入力することによって (例: https://app.powerbi.com) 、または Power BI のランディング ページ (https://powerbi.microsoft.com) で _[サインイン]_ を選択することによって、Power BI サービスへの接続を始めます。 接続は TLS 1.2 と HTTPS を使用して確立され、それ以降にブラウザーと Power BI サービスの間で行われるすべての通信には HTTPS が使用されます。 要求は **Azure Traffic Manager** に送信されます。
+1. ユーザーは、ブラウザーでアドレス バーに Power BI のアドレスを入力することによって (例: https://app.powerbi.com)、または Power BI のランディング ページ (https://powerbi.microsoft.com) で _[サインイン]_ を選択することによって、Power BI サービスへの接続を始めます。 接続は TLS 1.2 と HTTPS を使用して確立され、それ以降にブラウザーと Power BI サービスの間で行われるすべての通信には HTTPS が使用されます。 要求は **Azure Traffic Manager** に送信されます。
 
 2. **Azure Traffic Manager** では、ユーザーの DNS レコードを調べて Power BI がデプロイされている最も近いデータセンターを決定し、ユーザーを送信する必要がある WFE クラスターの IP アドレスで DNS に応答します。
 
@@ -192,7 +192,7 @@ DirectQuery と他のクエリの違いによって、Power BI サービスに�
   - お客様のインフラストラクチャ上のオンプレミス データ ゲートウェイ内 – オンプレミスのデータ ソースの場合
   - データ移動ロール内 – クラウドベースのデータ ソースの場合
 
-Windows Azure Blob Storage の暗号化に使用されるコンテンツ暗号化キー (CEK) は、ランダムに生成された 256 ビット キーです。 CEK によるコンテンツの暗号化に使用されるアルゴリズムは、AES\_CBC\_256 です。
+Microsoft Azure Blob Storage の暗号化に使用されるコンテンツ暗号化キー (CEK) は、ランダムに生成された256ビットキーです。 CEK によるコンテンツの暗号化に使用されるアルゴリズムは、AES\_CBC\_256 です。
 
 CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定義された 256 ビット キーです。 CEK を暗号化するための KEK によるアルゴリズムは、A256KW です。
 
@@ -372,13 +372,13 @@ Power BI Mobile が使用可能な 3 つのプラットフォームすべてで�
 
 **ユーザーが Power BI を使用しているとき、データ ソースにどのように接続、アクセスするのですか?**
 
-* **Power BI 資格情報とドメイン資格情報:** ユーザーは、電子メールアドレスを使用して Power BI にサインインします。ユーザーがデータリソースに接続しようとすると、Power BI Power BI ログインの電子メールアドレスが資格情報として渡されます。 ドメイン接続されたリソース (オンプレミスまたはクラウドベース) の場合、ディレクトリ サービスによって、ログインに使用したメール アドレスが_ユーザー プリンシパル名_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) とマッチングされます。 作業ベースのメール アドレスを使用して Power BI にサインインしている組織の場合 ( _david@contoso.com_ など、作業リソースへのログインに使用するメール アドレスと同じもの)、マッピングはシームレスに行われます。作業ベースのメール アドレスを使用しなかった組織の場合 ( _david@contoso.onmicrosoft.com_ など)、Power BI ログイン資格情報でのオンプレミス リソースへのアクセスを可能にするため、ディレクトリ マッピングを確立する必要があります。
+* **Power BI 資格情報とドメイン資格情報:** ユーザーは、電子メールアドレスを使用して Power BI にサインインします。ユーザーがデータリソースに接続しようとすると、Power BI Power BI ログインの電子メールアドレスが資格情報として渡されます。 ドメイン接続されたリソース (オンプレミスまたはクラウドベース) の場合、ディレクトリ サービスによって、ログインに使用したメール アドレスが_ユーザー プリンシパル名_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) とマッチングされます。 作業ベースのメール アドレスを使用して Power BI にサインインしている組織の場合 (_david@contoso.com_ など、作業リソースへのログインに使用するメール アドレスと同じもの)、マッピングはシームレスに行われます。作業ベースのメール アドレスを使用しなかった組織の場合 (_david@contoso.onmicrosoft.com_ など)、Power BI ログイン資格情報でのオンプレミス リソースへのアクセスを可能にするため、ディレクトリ マッピングを確立する必要があります。
 
 * **SQL Server Analysis Services と Power BI:** オンプレミスの SQL Server Analysis Services を使用する組織の場合、Power BI には Power BI オンプレミスデータゲートウェイ (前のセクションで参照した**ゲートウェイ**) が用意されています。  Power BI オンプレミス データ ゲートウェイは、データ ソースに対してロールレベルのセキュリティ (RLS) を適用できます。 RLS の詳細については、この文書の前半にある「**データ ソースに対するユーザー認証**」を参照してください。 ゲートウェイの詳細については、「[オンプレミスデータゲートウェイ](service-gateway-onprem.md)」を参照してください。
 
   さらに、組織は**シングル サインオン** (SSO) に Kerberos を使用し、SQL Server、SAP HANA、Teradata などのオンプレミス データ ソースに Power BI からシームレスに接続することができます。 詳細な情報、特定の構成要件については、[**Power BI からオンプレミス データ ソースへの SSO での Kerberos の使用**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)に関する記事を参照してください。
 
-* **ドメイン**に参加していない接続: ドメインに参加しておらず、ロールレベルセキュリティ (RLS) にも対応していないデータ接続の場合、ユーザーは接続シーケンス中に資格情報を提供する必要があります。これにより、データソースに渡さ Power BI し、接続. アクセス許可が十分な場合は、データ ソースから Power BI サービスにデータが読み込まれます。
+* **ドメイン以外の接続**: ドメインに参加しておらず、ロールレベルのセキュリティ (RLS) にも対応していないデータ接続の場合、ユーザーは接続シーケンス中に資格情報を提供する必要があります。その後、接続を確立するためにデータソースに渡さ Power BI ます。 アクセス許可が十分な場合は、データ ソースから Power BI サービスにデータが読み込まれます。
 
 **データはどのように Power BI に転送されるのですか?**
 
