@@ -7,127 +7,127 @@
     - name: クイックスタート
       expanded: true
       items:
-        - name: データへの接続
+        - name: Power BI Desktop におけるデータへの接続
           href: desktop-quickstart-connect-to-data.md
     - name: チュートリアル
       items:
         - name: 複数のデータ ソースの整形と結合
           href: desktop-shape-and-combine-data.md
-        - name: Power BI Desktop を使用した Web ページのデータのインポートと分析
+        - name: Web ページからのデータのインポートと分析
           href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Excel と OData フィードの売上データの分析'
+        - name: Excel と OData フィードの売上データを分析する
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Power BI Desktop での独自のメジャーの作成
+        - name: 独自のメジャーを作成する
           href: desktop-tutorial-create-measures.md
-        - name: Power BI Desktop での計算列の作成
+        - name: 計算列の作成
           href: desktop-tutorial-create-calculated-columns.md
-        - name: Power BI Desktop を使用した Facebook の分析
+        - name: Facebook データを分析する
           href: desktop-tutorial-facebook-analytics.md
-        - name: Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
+        - name: Analysis Services 表形式モデルに行レベル セキュリティを実装する
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: サンプル
       items:
-        - name: Power BI 用のサンプル
+        - name: Power BI のサンプル データを取得する
           href: sample-datasets.md
-        - name: サンプル コンテンツ パックを使用する
+        - name: サンプル パックをインポートして開く
           href: sample-tutorial-connect-to-the-samples.md
-        - name: 'お客様の収益性のサンプル: ツアーを開始する'
+        - name: 'ツアーを開始する:お客様の収益性のサンプル'
           href: sample-customer-profitability.md
-        - name: 'IT 支払い分析のサンプル: ツアーを開始する'
+        - name: 'ツアーを開始する:IT 支払い分析のサンプル'
           href: sample-it-spend.md
-        - name: '人事のサンプル: ツアーを開始する'
+        - name: 'ツアーを開始する:人事のサンプル'
           href: sample-human-resources.md
-        - name: '営業案件の分析のサンプル: ツアーを開始する'
+        - name: 'ツアーを開始する:営業案件の分析のサンプル'
           href: sample-opportunity-analysis.md
-        - name: '調達の分析のサンプル: ツアーを開始する'
+        - name: 'ツアーを開始する:調達の分析のサンプル'
           href: sample-procurement.md
-        - name: '小売りの分析のサンプル: ツアーを開始する'
+        - name: 'ツアーを開始する:小売りの分析のサンプル'
           href: sample-retail-analysis.md
-        - name: '売上およびマーケティングのサンプル: ツアーを開始する'
+        - name: 'ツアーを開始する:売上およびマーケティングのサンプル'
           href: sample-sales-and-marketing.md
-        - name: 'サプライヤー クオリティ分析のサンプル: ツアーを開始する'
+        - name: 'ツアーを開始する:サプライヤー クオリティ分析のサンプル'
           href: sample-supplier-quality.md
         - name: 財務サンプル ブックのダウンロード
           href: sample-financial-download.md
     - name: 概念
       items:
-        - name: Power BI Desktop の最新の更新プログラムの新機能
+        - name: Power BI Desktop の新機能
           href: desktop-latest-update.md
-        - name: Power BI Desktop でのモデル リレーションシップ
+        - name: モデル リレーションシップを作成する
           href: desktop-relationships-understand.md
-        - name: Power BI Desktop でのビジュアルのグループ化
+        - name: レポート内のビジュアルをグループ化する
           href: desktop-grouping-visuals.md
-        - name: Power BI Desktop でのテンプレートの使用
+        - name: テンプレートを使用する
           href: desktop-templates.md
-        - name: Power BI Desktop でのモデルリング ビュー
+        - name: モデリング ビューを操作する
           href: desktop-modeling-view.md
-        - name: Power BI Desktop での集計
+        - name: 集計の管理
           href: desktop-aggregations.md
-        - name: Power BI Desktop の複合モデル
+        - name: 複合モデルを使用する
           href: desktop-composite-models.md
-        - name: Power BI Desktop で多対多のリレーションシップ
+        - name: 多対多のリレーションシップを使用する
           href: desktop-many-to-many-relationships.md
-        - name: Power BI Desktop (プレビュー) でのストレージ モード
+        - name: ストレージ モードを管理する
           href: desktop-storage-mode.md
-        - name: Power BI Desktop での双方向のクロス フィルタリング
+        - name: 双方向のクロス フィルタリングを使用する
           href: desktop-bidirectional-filtering.md
-        - name: Power BI と DirectQuery
+        - name: Power BI での DirectQuery の使用について
           href: desktop-directquery-about.md
-        - name: DirectQuery でサポートされるデータ ソース
-          href: desktop-directquery-data-sources.md
+        - name: DirectQuery でサポートされる Power BI データ ソース
+          href: power-bi-data-sources.md
         - name: Power BI データ ソースの前提条件
           href: desktop-data-source-prerequisites.md
-        - name: Power BI での多次元モデルの既定のメンバー
+        - name: Power BI で多次元モデルを操作する
           href: desktop-default-member-multidimensional-models.md
-        - name: ビジュアルに関する FAQ
+        - name: Power BI ビジュアルに関する FAQ
           href: developer/power-bi-custom-visuals-faq.md
-    - name: 方法
+    - name: 攻略ガイド
       items:
         - name: Power BI Desktop の取得
           href: desktop-get-the-desktop.md
-        - name: Power BI Desktop のファースト ステップ ガイド
+        - name: Power BI Desktop の概要
           href: desktop-getting-started.md
-        - name: Power BI Desktop での一般的なクエリ タスク
+        - name: 一般的なクエリ タスクを実行する
           href: desktop-common-query-tasks.md
-        - name: Power BI Desktop でのリレーションシップの作成と管理
+        - name: リレーションシップの作成と管理
           href: desktop-create-and-manage-relationships.md
-        - name: Power BI Desktop のデータ ビュー
+        - name: データ ビューを操作する
           href: desktop-data-view.md
-        - name: Power BI Desktop でのクエリの概要
+        - name: クエリを使用する
           href: desktop-query-overview.md
-        - name: Power BI Desktop における DAX の基本事項
+        - name: DAX の基本を適用する
           href: desktop-quickstart-learn-dax-basics.md
-        - name: Power BI Desktop のリレーションシップ ビュー
+        - name: リレーションシップ ビューを操作する
           href: desktop-relationship-view.md
-        - name: Power BI Desktop のレポート ビュー
+        - name: レポート ビューを操作する
           href: desktop-report-view.md
-        - name: Power BI Desktop での複数のデータ ソースへの接続
+        - name: 複数のデータ ソースに接続する
           href: desktop-connect-to-data.md
-        - name: Power BI Desktop からの発行
+        - name: データセットを公開する
           href: desktop-upload-desktop-files.md
-        - name: パート I、Power BI レポートへの視覚化の追加
+        - name: Power BI レポートにビジュアルを追加する (パート 1)
           href: visuals/power-bi-report-add-visualizations-i.md
-        - name: パート 2、Power BI レポートへの視覚化の追加
+        - name: Power BI レポートにビジュアルを追加する (パート 2)
           href: visuals/power-bi-report-add-visualizations-ii.md
-        - name: 視覚化タイトル、背景、および凡例のカスタマイズ
+        - name: ビジュアル タイトル、背景、凡例をカスタマイズする
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: Power BI でデータのない項目を表示する
           href: desktop-show-items-no-data.md
-        - name: Power BI Desktop の自動の日付/時刻
+        - name: 自動の日付/時刻を使用する
           href: desktop-auto-date-time.md
         - name: データへの接続
           items:
-            - name: Power BI Desktop のデータ ソース
+            - name: データ ソースに接続する
               href: desktop-data-sources.md
-            - name: LinkedIn Sales Navigator への接続 (プレビュー)
+            - name: LinkedIn Sales Navigator に接続する
               href: desktop-connect-linkedin-sales-navigator.md
-            - name: 例による Web ページへの接続 (プレビュー)
+            - name: 例を指定して Web ページからデータを取得する
               href: desktop-connect-to-web-by-example.md
             - name: Power BI サービスでのデータセットへの接続
               href: desktop-report-lifecycle-datasets.md
-            - name: Power BI Desktop に Excel ブックをインポートする
+            - name: Excel ブックをインポートする
               href: desktop-import-excel-workbooks.md
-            - name: ジェネリック インターフェイスを使用したデータへの接続
+            - name: Power BI Desktop のジェネリック インターフェイスを使用してデータに接続する
               href: desktop-connect-using-generic-interfaces.md
             - name: PDF ファイルへの接続
               href: desktop-connect-pdf.md
@@ -135,183 +135,181 @@
               href: desktop-connect-adobe-analytics.md
             - name: Oracle データベースへの接続
               href: desktop-connect-oracle-database.md
-            - name: Power BI Desktop での Python スクリプトの実行
+            - name: Python スクリプトを実行する
               href: desktop-python-scripts.md
-            - name: Power Query エディターでの Python の使用
+            - name: クエリ エディターで Python を使用する
               href: desktop-python-in-query-editor.md
-            - name: Power BI で外部 Python IDE を使用する
+            - name: 外部の Python IDE を使用する
               href: desktop-python-ide.md
-            - name: Python を使用して Power BI ビジュアルを作成する
+            - name: Python を使用してビジュアルを作成する
               href: desktop-python-visuals.md
-            - name: Power BI Desktop での R スクリプトの実行
+            - name: R スクリプトを実行する
               href: desktop-r-scripts.md
             - name: クエリ エディターで R を使用する
               href: desktop-r-in-query-editor.md
-            - name: Power BI で外部 R IDE を使用する
+            - name: 外部の R IDE を使用する
               href: desktop-r-ide.md
-            - name: サポートされる R パッケージ
+            - name: R パッケージを使用してビジュアルを作成する
               href: service-r-packages-support.md
             - name: Power BI Desktop にデータを直接入力する
               href: desktop-enter-data-directly-into-desktop.md
-            - name: Power BI Desktop で Excel に接続する
+            - name: Excel ブックに接続する
               href: desktop-connect-excel.md
-            - name: Power BI Desktop の Analysis Services 多次元データ
+            - name: 多次元モデルに接続する
               href: desktop-ssas-multidimensional.md
-            - name: Power BI Desktop で CSV に接続する
+            - name: CSV ファイルに接続する
               href: desktop-connect-csv.md
-            - name: Power BI Desktop で Google BigQuery データベースに接続する
+            - name: Google BigQuery データベースに接続する
               href: desktop-connect-bigquery.md
-            - name: Power BI Desktop で Impala データベースに接続する
+            - name: Impala データベースに接続する
               href: desktop-connect-impala.md
-            - name: Power BI Desktop で OData フィードに接続する
+            - name: OData フィードに接続する
               href: desktop-connect-odata.md
-            - name: Power BI Desktop で Amazon Redshift データベースに接続する
+            - name: Amazon Redshift データベースに接続する
               href: desktop-connect-redshift.md
-            - name: Power BI Desktop から Web ページに接続する
+            - name: Web ページに接続する
               href: desktop-connect-to-web.md
-            - name: Power BI Desktop で Snowflake Computing ウェアハウスに接続する
+            - name: Snowflake Computing ウェアハウスに接続する
               href: desktop-connect-snowflake.md
             - name: Azure Cost Management データに接続する
               href: desktop-connect-azure-cost-management.md
             - name: Azure Consumption Insights データへの接続
               href: desktop-connect-azure-consumption-insights.md
-            - name: Power BI Desktop で SAP HANA を使用する
+            - name: SAP HANA を使用する
               href: desktop-sap-hana.md
             - name: SAP HANA の暗号化を有効にする
               href: desktop-sap-hana-encryption.md
-            - name: Power BI Desktop の Analysis Services の表形式データ
+            - name: Analysis Services 表形式データを使用する
               href: desktop-analysis-services-tabular-data.md
-            - name: Power BI Desktop の DirectQuery
+            - name: DirectQuery を使用する
               href: desktop-use-directquery.md
-            - name: DirectQuery と SAP Business Warehouse (BW)
+            - name: DirectQuery と SAP Business Warehouse に接続する
               href: desktop-directquery-sap-bw.md
-            - name: DirectQuery と SAP HANA
+            - name: DirectQuery と SAP HANA に接続する
               href: desktop-directquery-sap-hana.md
-            - name: Power BI Desktop で参照整合性設定を想定する
+            - name: '[参照整合性を想定] 設定を適用する'
               href: desktop-assume-referential-integrity.md
-            - name: Power BI Desktop で SAP BW Connector を使用する
+            - name: SAP Business Warehouse コネクタを使用する
               href: desktop-sap-bw-connector.md
-            - name: Power BI Desktop で OneDrive for Business リンクを使用する
+            - name: OneDrive for Business のリンクを使用する
               href: desktop-use-onedrive-business-links.md
-            - name: 'サード パーティのサービス: Power BI Desktop の Facebook コネクタ'
+            - name: 'サード パーティのサービス:Facebook コネクタを使用する'
               href: service-facebook-connector.md
-            - name: 'サード パーティのサービス: Power BI Desktop のGoogle アナリティクス コネクタ'
+            - name: 'サード パーティのサービス:Google アナリティクス コネクタを使用する'
               href: service-google-analytics-connector.md
             - name: 'Project Online: Power BI Desktop 経由でデータに接続する'
               href: desktop-project-online-connect-to-data.md
         - name: データの変換と整形
           items:
-            - name: バイナリの結合
+            - name: ファイルの結合 (バイナリ)
               href: desktop-combine-binaries.md
-            - name: Power BI Desktop で AI 分析情報を使用する (プレビュー)
+            - name: AI 分析情報を使用する (プレビュー)
               href: desktop-ai-insights.md
         - name: データのモデル化
           items:
-            - name: Power BI Desktop でのデータ分類
+            - name: Power BI Desktop でデータ分類を指定する
               href: desktop-data-categorization.md
-            - name: モバイル アプリのバーコード フィールドにタグ付けする
+            - name: Power BI モバイル アプリのバーコード フィールドにタグ付けする
               href: desktop-mobile-barcodes.md
-            - name: モバイル アプリの地理的フィルタリングを設定する
+            - name: Power BI モバイルアプリに geography 型のフィルターを設定する
               href: desktop-mobile-geofiltering.md
-            - name: Power BI Desktop の計算列
+            - name: 計算列を使用する
               href: desktop-calculated-columns.md
-            - name: Power BI Desktop の計算テーブル
+            - name: 計算テーブルを使用する
               href: desktop-calculated-tables.md
-            - name: Power BI Desktop のメジャー
+            - name: メジャーを使用する
               href: desktop-measures.md
-            - name: KPI のインポートと表示 (プレビュー)
+            - name: KPI のインポートと表示
               href: desktop-import-and-display-kpis.md
         - name: レポートの作成
           items:
-            - name: Power BI Desktop でのページの自動更新 (プレビュー)
+            - name: ページの自動更新を使用する (プレビュー)
               href: desktop-automatic-page-refresh.md
-            - name: Power BI Desktop でパフォーマンス アナライザーを使用する
+            - name: パフォーマンス アナライザーを使用する
               href: desktop-performance-analyzer.md
-            - name: レポートのビジュアル要素
+            - name: レポートにビジュアル要素を追加する
               href: desktop-visual-elements-for-reports.md
             - name: レポート ページを基にヒントを作成する
               href: desktop-tooltips.md
-            - name: PDF へのエクスポートおよびレポートの印刷
+            - name: レポートを PDF ファイルにエクスポートする
               href: desktop-export-to-pdf.md
-            - name: 'Power BI Desktop の [分析] ウィンドウ'
+            - name: '[分析] ウィンドウを使用する'
               href: desktop-analytics-pane.md
-            - name: 分析情報を使用して増加と減少を説明する
+            - name: 分析情報を利用して変化をビジュアルで説明する (プレビュー)
               href: desktop-insights.md
-            - name: 分析情報を使用してグラフ内の異なる発行を探す
+            - name: 分析情報を利用して販売総数が異なる箇所を見つける (プレビュー)
               href: desktop-insights-find-where-different.md
-            - name: Power BI のブックマーク
+            - name: ブックマークを使用して分析情報を共有する
               href: desktop-bookmarks.md
-            - name: レポートのテーマを使用する
+            - name: レポートのテーマを操作する
               href: desktop-report-themes.md
-            - name: フィルターの種類
+            - name: Power BI レポート内のフィルターの種類
               href: power-bi-report-filter-types.md
-            - name: 新しいフィルター エクスペリエンスを試す
+            - name: Power BI レポートでフィルターを操作する
               href: power-bi-report-filter.md
-            - name: クイック メジャーの使用
+            - name: クイック メジャーを使用して一般的な計算を実行する
               href: desktop-quick-measures.md
-            - name: What if パラメーターの使用
+            - name: What-if パラメーターを使用して変数を視覚化する
               href: desktop-what-if.md
-            - name: ドリルスルーの使用
+            - name: ドリルスルー機能を使用する
               href: desktop-drillthrough.md
-            - name: クロス レポートのドリルスルーの使用
+            - name: クロス レポートのドリルスルー機能を使用する
               href: desktop-cross-report-drill-through.md
-            - name: 相対日付のスライサーおよびフィルターを使用する
-              href: visuals/desktop-slicer-filter-date-range.md
             - name: グループ化とビン分割を使用
               href: desktop-grouping-and-binning.md
-            - name: R を使用した Power BI ビジュアルの作成
+            - name: R を使用して Power BI ビジュアルを作成する
               href: desktop-r-visuals.md
             - name: R を利用したカスタム ビジュアルを使用する
               href: desktop-r-powered-custom-visuals.md
             - name: グリッド線と "グリッドにスナップ" を使用する
               href: desktop-gridlines-snap-to-grid.md
-            - name: Power BI レポートのページ表示設定
+            - name: Power BI レポートにページ表示設定を適用する
               href: power-bi-report-display-settings.md
             - name: 例から列を追加
               href: desktop-add-column-from-example.md
             - name: カスタム列を追加
               href: desktop-add-custom-column.md
-            - name: Power BI Desktop でのインライン階層ラベルの使用
+            - name: インライン階層ラベルを使用する
               href: desktop-inline-hierarchy-labels.md
             - name: 数値範囲スライサーを使用
               href: desktop-slicer-numeric-range.md
-            - name: 相対日付スライサーの使用
+            - name: 相対日付のスライサーおよびフィルターを使用する
               href: desktop-slicer-filter-date-range.md
             - name: サイズを変更できるスライサーを作成する
               href: power-bi-slicer-filter-responsive.md
-            - name: 行レベルのセキュリティ
+            - name: 行レベルのセキュリティを使用する
               href: desktop-rls.md
-            - name: カスタマイズのヒント
+            - name: ヒントをカスタマイズする
               href: desktop-custom-tooltips.md
-            - name: レポート内のテキスト ボックスと図形
+            - name: レポートにテキスト ボックスと図形を追加する
               href: power-bi-reports-add-text-and-shapes.md
             - name: テキスト ボックスへのハイパーリンクの追加
               href: service-add-hyperlink-to-text-box.md
-            - name: テーブル内のハイパーリンク
+            - name: テーブルにハイパーリンクを追加する
               href: power-bi-hyperlinks-in-tables.md
             - name: テーブルに画像を表示する
               href: power-bi-images-tables.md
-            - name: カスタム書式設定文字列
+            - name: カスタム書式設定文字列を使用する
               href: desktop-custom-format-strings.md
-            - name: テーブルの条件付き書式設定
+            - name: テーブルの条件付き書式設定を適用する
               href: desktop-conditional-table-formatting.md
-            - name: 条件付きの式に基づくタイトルの書式設定
+            - name: 動的な式ベースのタイトルを作成する
               href: desktop-conditional-format-visual-titles.md
-            - name: Power BI Desktop での列による並べ替え
+            - name: 列で並べ替える
               href: desktop-sort-by-column.md
-            - name: モバイル アプリのレポートを最適化する
+            - name: Power BI モバイル アプリのレポートを最適化する
               href: desktop-create-phone-report.md
-            - name: '[データを表示] と [レコードを表示] を使用'
+            - name: '[データを表示] と [レコードを表示] のオプションを使用する'
               href: desktop-see-data-see-records.md
             - name: レポートを作成するためのヒント
               href: desktop-tips-and-tricks-for-creating-reports.md
         - name: 視覚化
           items:
-            - name: Power BI での視覚化
+            - name: Power BI レポートにビジュアルを追加する
               href: visuals/power-bi-report-visualizations.md
-            - name: レポートの視覚化の種類を変更する
+            - name: Power BI レポートのビジュアルを変更する
               href: visuals/power-bi-report-change-visualization-type.md
-            - name: ビジュアルの種類別のデータ ポイントの制限
+            - name: ビジュアルの種類別のデータ ポイントの制限について
               href: visuals/power-bi-data-points.md
             - name: ビジュアルの作成に使用したデータを表示する
               href: visuals/service-reports-show-data.md
@@ -319,65 +317,65 @@
               href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
             - name: 色の書式設定に関するヒントとテクニック
               href: visuals/service-tips-and-tricks-for-color-formatting.md
-            - name: 視覚化のコピーと貼り付け
+            - name: レポートの視覚エフェクトをコピーして貼り付ける
               href: visuals/power-bi-visualization-copy-paste.md
-            - name: 視覚エフェクトの作成に使用されたデータをエクスポートする
+            - name: 視覚化の作成に使用されたデータをエクスポートする
               href: visuals/power-bi-visualization-export-data.md
-            - name: レポート内で視覚化を移動、サイズ変更、ポップアウトさせる
+            - name: レポート内でビジュアルを移動、サイズ変更、ポップアウトさせる
               href: visuals/power-bi-visualization-move-and-resize.md
             - name: レポート内のビジュアルの相互作用を変更します。
               href: service-reports-visual-interactions.md
             - name: Power BI マップの視覚エフェクトに関するヒントとテクニック
               href: visuals/power-bi-map-tips-and-tricks.md
-            - name: X 軸と Y 軸のプロパティのカスタマイズ
+            - name: X 軸と Y 軸のプロパティをカスタマイズする
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: ArcGIS Maps for Power BI のビジュアルを作成する
+            - name: Power BI のビジュアルで ArcGIS マップと対話する
               href: visuals/power-bi-visualizations-arcgis.md
-            - name: ArcGIS Maps for Power BI ビジュアルとの対話
+            - name: ArcGIS Maps for Power BI のビジュアルを作成する
               href: visuals/power-bi-visualization-arcgis.md
-            - name: 基本的な面グラフ
+            - name: 基本的な面グラフの作成と使用
               href: visuals/power-bi-visualization-basic-area-chart.md
-            - name: Power BI でのカード (大きな数字のタイル)
+            - name: カード ビジュアル (大きな数字のタイル) を作成する
               href: visuals/power-bi-visualization-card.md
-            - name: Power BI での複合グラフ
+            - name: 複合グラフの作成と使用
               href: visuals/power-bi-visualization-combo-chart.md
-            - name: Power BI の分解ツリー (プレビュー)
+            - name: 分解ツリー ビジュアルを使用する (プレビュー)
               href: visuals/power-bi-visualization-decomposition-tree.md
-            - name: Power BI のドーナツ グラフ
+            - name: ドーナツ グラフの作成と使用
               href: visuals/power-bi-visualization-doughnut-charts.md
-            - name: Power BI の塗り分け地図 (コロプレス)
+            - name: 塗り分け地図 (階級区分) の作成と使用
               href: visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: Power BI のじょうごグラフ
+            - name: じょうごグラフの作成と使用
               href: visuals/power-bi-visualization-funnel-charts.md
-            - name: Power BI での主要なインフルエンサのグラフ
+            - name: 主要なインフルエンサーの視覚化を使用する
               href: visuals/power-bi-visualization-influencers.md
-            - name: 高密度な線抽出法
+            - name: 高密度線サンプリングについて
               href: desktop-high-density-sampling.md
-            - name: KPI ビジュアル
+            - name: KPI 視覚化の作成と使用
               href: visuals/power-bi-visualization-kpi.md
-            - name: マトリックス ビジュアル
+            - name: マトリックスの視覚エフェクトを使用する
               href: visuals/desktop-matrix-visual.md
-            - name: Q&A ビジュアル
+            - name: Power BI Q&A ビジュアルについて
               href: visuals/power-bi-visualization-q-and-a.md
-            - name: Power BI で R スクリプトを使用して高度な分析とビジュアルを作成する
+            - name: R ビジュアルを使用する
               href: visuals/service-r-visuals.md
-            - name: Power BI の放射状ゲージ グラフ
+            - name: 放射状ゲージ グラフの作成と使用
               href: visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: リボン グラフ
+            - name: リボン グラフの作成と使用
               href: visuals/desktop-ribbon-charts.md
-            - name: Power BI の散布図
+            - name: 散布図、バブル チャート、ドット プロット グラフの作成と使用
               href: visuals/power-bi-visualization-scatter.md
-            - name: 高密度な散布図
+            - name: 高密度な散布図を使用する
               href: visuals/desktop-high-density-scatter-charts.md
-            - name: Power BI Desktop で図形マップを使用する (プレビュー)
+            - name: 図形マップ ビジュアルの作成と使用 (プレビュー)
               href: visuals/desktop-shape-map.md
-            - name: Power BI のスライサー
+            - name: スライサーの作成と使用
               href: visuals/power-bi-visualization-slicers.md
-            - name: Power BI のテーブル
+            - name: Power BI のレポートとダッシュボードでのテーブルの作成と使用
               href: visuals/power-bi-visualization-tables.md
-            - name: Power BI のツリーマップ
+            - name: ツリーマップの作成と使用
               href: visuals/power-bi-visualization-treemaps.md
-            - name: Power BI のウォーターフォール図
+            - name: ウォーターフォール図の作成と使用
               href: visuals/power-bi-visualization-waterfall-charts.md
         - name: 自然言語
           items:
@@ -397,49 +395,47 @@
               href: natural-language/q-and-a-limitations.md
         - name: トラブルシューティング
           items:
-            - name: Power BI Desktop と Power Query での Access データベースと Excel スプレッドシートのインポート問題を解決する
+            - name: Access と Excel の .xls ファイルのインポートに関するトラブルシューティング
               href: desktop-access-database-errors.md
-            - name: Power BI Desktop の起動時の問題を解決する
+            - name: Power BI Desktop の起動に関するトラブルシューティング
               href: desktop-error-launching-desktop.md
-            - name: Power BI Desktop での DirectQuery モデルのトラブルシューティング
+            - name: DirectQuery モデルの開発に関するトラブルシューティング
               href: desktop-directquery-troubleshoot.md
     - name: リファレンス
       items:
-        - name: Power BI Desktop でのデータ型
+        - name: Power BI Desktop でのデータ型について
           href: desktop-data-types.md
-        - name: Power BI データ ソース
-          href: power-bi-data-sources.md
-        - name: Power BI Desktop で更新されたリボンを使用する (プレビュー)
+        - name: 更新されたリボンを使用する (プレビュー)
           href: desktop-ribbon.md
-        - name: Power BI Desktop の式エディターのショートカット
+        - name: 数式エディターのショートカットを使用する
           href: desktop-formula-editor.md
-        - name: Power BI Desktop のプライバシー レベル
+        - name: プライバシー レベルを構成する
           href: desktop-privacy-levels.md
-        - name: Power BI でのコネクタの機能拡張
+        - name: コネクタの機能拡張について
           href: desktop-connector-extensibility.md
-        - name: 署名付きのサードパーティ製コネクタを信頼する
+        - name: 信頼されたサードパーティ製コネクタについて
           href: desktop-trusted-third-party-connectors.md
     - name: リソース
       items:
         - name: Power BI Desktop のビデオ
           href: desktop-videos.md
-        - name: Power BI Desktop に対する以前の毎月の更新
+        - name: Power BI Desktop の更新プログラムのアーカイブ
           href: desktop-latest-update-archive.md
-        - name: Power BI Desktop "気に入った機能の報告" のプライバシーに関する声明
+        - name: Power BI Desktop のプライバシー保護
           href: desktop-send-smile-privacy-statement.md
         - name: Power BI Desktop のサインイン フォームを管理する
           href: desktop-admin-sign-in-form.md
         - name: アクセシビリティ
           items:
-            - name: Power BI でのユーザー補助の概要
+            - name: Power BI のアクセシビリティについて
               href: desktop-accessibility-overview.md
-            - name: アクセス可能な Power BI レポートの作成
+            - name: Power BI レポートのアクセスシビリティ対応ナビゲーションについて
               href: desktop-accessibility-creating-reports.md
-            - name: ユーザー補助ツールを使用した Power BI レポートの使用
+            - name: Power BI レポートのアクセシビリティ機能について
               href: desktop-accessibility-consuming-tools.md
-            - name: ユーザー補助ツールを使用した Power BI レポートの作成
+            - name: アクセシビリティ ツールを使用して Power BI レポートを作成する
               href: desktop-accessibility-creating-tools.md
-            - name: Power BI レポートのユーザー補助キーボード ショートカット
+            - name: Power BI Desktop でキーボード ショートカットを使用する
               href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI サービス
   items:
@@ -727,9 +723,9 @@
               href: desktop-connect-dataflows.md
             - name: データフローと Azure Data Lake の統合 (プレビュー)
               href: service-dataflows-azure-data-lake-integration.md
-            - name: データ フロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)
+            - name: データフロー ストレージ用の Azure Data Lake Storage Gen2 を接続する
               href: service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: ワークスペース データ フローの設定の構成 (プレビュー)
+            - name: ワークスペース データフローの設定の構成 (プレビュー)
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
               href: service-dataflows-add-cdm-folder.md

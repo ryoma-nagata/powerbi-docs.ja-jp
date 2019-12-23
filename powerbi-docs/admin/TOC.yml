@@ -7,6 +7,10 @@
       items:
         - name: Power BI 管理とは
           href: ../service-admin-administering-power-bi-in-your-organization.md
+        - name: 自分のテナントの場所はどこにありますか?
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: ローカルへの移動によりドイツ リージョンに移行する
+          href: service-admin-migrate-data-germany.md
     - name: 概念
       expanded: true
       items:
@@ -30,8 +34,6 @@
               href: ../service-admin-syndication-partner.md
         - name: 管理ポータルの使用
           href: ../service-admin-portal.md
-        - name: 自分のテナントの場所はどこにありますか?
-          href: ../service-admin-where-is-my-tenant-located.md
         - name: サインインしたユーザーを見つける
           href: ../service-admin-access-usage.md
         - name: 監査

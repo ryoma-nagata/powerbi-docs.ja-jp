@@ -142,6 +142,8 @@
       items:
         - name: モバイル アプリとは
           href: mobile/mobile-apps-for-mobile-devices.md
+        - name: ホーム ページを開く
+          href: mobile/mobile-apps-home-page.md
     - name: クイックスタート
       items:
         - name: ダッシュボードとレポートの探索
@@ -198,7 +200,7 @@
               href: mobile/mobile-apps-qr-code.md
             - name: 注釈とモバイル アプリでの共有
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: iPhone のアプリからバーコードをスキャンする
+            - name: Power BI モバイル アプリでバーコードをスキャンする
               href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: モバイル デバイス管理を使用して構成する
               href: mobile/mobile-app-configuration.md

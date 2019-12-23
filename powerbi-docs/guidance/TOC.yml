@@ -40,6 +40,8 @@
           href: report-drillthrough.md
         - name: Power BI Desktop の日付と時刻の自動ガイダンス
           href: auto-date-time.md
+        - name: 多対多のリレーションシップのガイダンス
+          href: relationships-many-to-many.md
     - name: ホワイトペーパー
       items:
         - name: ホワイトペーパーの概要
