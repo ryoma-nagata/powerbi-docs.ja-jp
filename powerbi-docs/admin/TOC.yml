@@ -7,7 +7,7 @@
       items:
         - name: Power BI 管理とは
           href: ../service-admin-administering-power-bi-in-your-organization.md
-        - name: 自分のテナントの場所はどこにありますか?
+        - name: テナントの場所がわからない
           href: ../service-admin-where-is-my-tenant-located.md
         - name: ローカルへの移動によりドイツ リージョンに移行する
           href: service-admin-migrate-data-germany.md
@@ -20,7 +20,7 @@
           href: ../service-admin-faq.md
         - name: 高可用性とフェールオーバーの FAQ
           href: ../service-admin-failover.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: ライセンスとサインアップ
           items:
@@ -34,9 +34,9 @@
               href: ../service-admin-syndication-partner.md
         - name: 管理ポータルの使用
           href: ../service-admin-portal.md
-        - name: サインインしたユーザーを見つける
+        - name: サインインしたユーザーを検索する
           href: ../service-admin-access-usage.md
-        - name: 監査
+        - name: ユーザー アクティビティの追跡
           href: ../service-admin-auditing.md
         - name: サービスの正常性の追跡
           href: ../service-admin-health.md
