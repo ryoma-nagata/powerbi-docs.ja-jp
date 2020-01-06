@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870096"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220610"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth を使用し、Power BI Report Server と SSRS に接続する
 
@@ -94,7 +94,7 @@ AD FS 管理画面内で、Power BI Mobile アプリの情報を含む Reporting
 
    ![ADFS のアプリケーション グループ ウィザード 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. **[次へ]** を選びます。
+3. **[次へ]** を選択します。
 
 4. 追加するアプリケーションの**名前**を指定します。 
 
@@ -112,7 +112,7 @@ AD FS 管理画面内で、Power BI Mobile アプリの情報を含む Reporting
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS のアプリケーション グループ ウィザード 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. **[次へ]** を選びます。
+7. **[次へ]** を選択します。
 
 8. レポート サーバーの URL を指定します。 これは、Web アプリケーション プロキシにアクセスする外部 URL です。 次の形式でなければなりません。
 
@@ -122,17 +122,17 @@ AD FS 管理画面内で、Power BI Mobile アプリの情報を含む Reporting
    *https://<レポート サーバー URL>/*
 
    ![ADFS のアプリケーション グループ ウィザード 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. **[次へ]** を選びます。
+9. **[次へ]** を選択します。
 
 10. 組織のニーズに合った **[アクセス制御ポリシー]** を選びます。
 
     ![ADFS のアプリケーション グループ ウィザード 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. **[次へ]** を選びます。
+11. **[次へ]** を選択します。
 
 12. **[次へ]** を選びます。
 
-13. **[次へ]** を選びます。
+13. **[次へ]** を選択します。
 
 14. **[閉じる]** を選びます。
 
@@ -244,7 +244,7 @@ Power BI モバイル アプリ内で、Reporting Services インスタンスに
 
 モバイル デバイスのプロキシとして動作するように [Fiddler](https://www.telerik.com/fiddler) を設定し、要求がどこまで行われているかを確認できます。 デバイスの Fiddler プロキシを有効にするには、Fiddler を実行しているコンピューターで [iOS および Android 用の CertMaker](https://www.telerik.com/fiddler/add-ons) をセットアップする必要があります。 Telerik for Fiddler からのアドインです。
 
-Fiddler を使うとサインインが正常に行われる場合は、WAP アプリケーションまたは ADFS サーバーでの証明書の問題である可能性があります。 [Microsoft メッセージ アナライザー](https://www.microsoft.com/download/details.aspx?id=44226)などのツールを使って、証明書が有効かどうかを確認できます。
+Fiddler を使うとサインインが正常に行われる場合は、WAP アプリケーションまたは ADFS サーバーでの証明書の問題である可能性があります。 
 
 ## <a name="next-steps"></a>次の手順
 

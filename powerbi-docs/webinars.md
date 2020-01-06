@@ -8,26 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882750"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548567"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
 今後のウェビナーに登録するか、記録されたオンデマンド セッションをご覧ください。
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
-
-**Azure 仮想イベントの分析: Azure Synapse Analytics を使用して分析情報の取得時間の短縮**
-<br>講師: Gayle Sheppard および John Macintyre
-<br>[今すぐ登録](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**ビッグ データ分析の未来を形成する 9 つの傾向**
-<br>講師: Vijay Gopalakrishnan
-<br>[12 月 18 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **AI によって BI が変更される 3 つの方法**
 <br>作成者: Justyna Lucznik
@@ -39,6 +31,10 @@ ms.locfileid: "74882750"
 
 最初に、次の人気のオンデマンド ウェビナーをご覧ください。
 
+**Azure 仮想イベントの分析: Azure Synapse Analytics を使用して分析情報の取得時間の短縮**
+<br>講師: Gayle Sheppard および John Macintyre
+<br>[登録して今すぐ見る](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **Microsoft が BI データ保護をどのように変化させているか**
 <br>講師: Anton Fritz および Adi Regev
 <br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
@@ -46,6 +42,10 @@ ms.locfileid: "74882750"
 **Power BI、および最近の企業向け BI の将来**
 <br>作成者: Arun Ulag および Amir Netz
 <br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**ビッグ データ分析の未来を形成する 9 つの傾向**
+<br>講師: Vijay Gopalakrishnan
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Power BI の概要**
 <br>作成者: Miguel Martinez
@@ -244,7 +244,7 @@ ms.locfileid: "74882750"
 <br>作成者: Kirkland Barrett
 <br>[登録して今すぐ見る](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
 
-## <a name="see-also"></a>参照
+## <a name="see-also"></a>関連項目
 
 - [Power BI のホワイト ペーパー](whitepapers.md)
 

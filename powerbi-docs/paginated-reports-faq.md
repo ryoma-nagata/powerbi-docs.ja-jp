@@ -1,5 +1,5 @@
 ---
-title: Power BI のページ分割されたレポート:よく寄せられる質問
+title: Power BI のページ分割されたレポート:FAQ
 description: この記事では、ページ分割されたレポートについてよく寄せられる質問に答えます。 これらのレポートは、印刷や PDF 生成用に最適化されている、高度に書式設定されたピクセル単位で完璧な出力です。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,13 +9,13 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74831226"
 ---
-# <a name="paginated-reports-in-power-bi-faq"></a>Power BI のページ分割されたレポート:よく寄せられる質問 
+# <a name="paginated-reports-in-power-bi-faq"></a>Power BI のページ分割されたレポート:FAQ 
 
 この記事では、ページ分割されたレポートについてよく寄せられる質問に答えます。 これらのレポートは、印刷や PDF 生成用に最適化されている、高度に書式設定されたピクセル単位で完璧な出力です。 これらは、複数のページにちょうど収まるように設定されているため "ページ分割された" と呼ばれます。 ページ分割されたレポートは、SQL Server Reporting Services の RDL レポート テクノロジに基づいています。 
 
@@ -177,4 +177,4 @@ SaaS 埋め込み (Secure Embed のサポートを含む) は既に利用でき�
 ## <a name="next-steps"></a>次の手順
 
 - [Microsoft ダウンロード センターから Power BI レポート ビルダーをインストールする](https://go.microsoft.com/fwlink/?linkid=2086513)
-- [チュートリアル:ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)
+- [チュートリアル: ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)

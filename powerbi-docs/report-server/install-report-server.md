@@ -9,13 +9,13 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/26/2019
 ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74565773"
 ---
-# <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
+# <a name="install-power-bi-report-server"></a>Power BI Report Server のインストール
 
 Power BI レポート サーバーのインストール方法について説明します。
 
@@ -65,7 +65,7 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 
 2. **[Install Power BI Report Server]** \(Power BI レポート サーバーのインストール\) を選択します。
 
-    ![Power BI レポート サーバーのインストール](media/install-report-server/pbireportserver-install.png)
+    ![Power BI Report Server のインストール](media/install-report-server/pbireportserver-install.png)
 3. インストールするエディションを選択し、 **[次へ]** を選択します。
 
     ![エディションを選択する](media/install-report-server/pbireportserver-choose-edition.png)

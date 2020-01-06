@@ -10,10 +10,10 @@ ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: fcff0bf1d6c68b9bdb000855f4984b3664b882c1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877909"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop における DAX の基本事項
@@ -209,7 +209,7 @@ DAX でフィルター コンテキストが非常に重要なのはなぜでし
 
 答えは、この記事の最後に記載します。
 
-## <a name="summary"></a>まとめ
+## <a name="summary"></a>概要
 ここまでで、DAX の最も重要な概念の基礎を理解できましたので、さっそく、独自のメジャーの DAX 数式を作成できます。 DAX には確かに理解しにくい部分がありますが、多くの参考資料を入手できます。 この記事を読みながら、独自の数式を実際に作成してみると、ビジネス上の実際の課題を解決するために役立つその他の DAX の概念や数式についても理解できるようになります。 入手可能な DAX リソースは多数ありますが、最も重要なものは「[Data Analysis Expressions (DAX) リファレンス](https://msdn.microsoft.com/library/gg413422.aspx)」です。
 
 Power Pivot や Analysis Services 表形式モデルなどの Microsoft BI ツールで DAX が利用されるようになって数年が経ち、多くの情報が入手可能になりました。 また、Microsoft や指導的な BI プロフェッショナルが執筆した書籍、ホワイトペーパー、およびブログからも、さらに詳細な情報を知ることができます。 さらに、[TechNet の DAX リソース センター Wiki](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) から開始するのもよいでしょう。

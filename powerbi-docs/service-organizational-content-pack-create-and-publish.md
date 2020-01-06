@@ -10,10 +10,10 @@ ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872007"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>チュートリアル:Power BI の組織のコンテンツ パックを作成して発行する
@@ -56,7 +56,7 @@ ms.locfileid: "73872007"
         > [!TIP]
         > コンテンツ パックの名前には、ダッシュボードの名前を含めることをお勧めします。 そうすると、同僚がコンテンツ パックに接続した後、ダッシュボードを見つけやすくなります。
 
-    1. 推奨: 説明を追加します。 これにより、同僚が必要とするコンテンツ パックを簡単に見つけやすくなります。 説明に加えて、同僚がこのコンテンツ パックを検索するときに使用する可能性があるキーワードを追加します。 同僚が質問したり、サポートを必要としたりするときに備えて連絡先情報を含めます。
+    1. 推奨:説明を追加します。 これにより、同僚が必要とするコンテンツ パックを簡単に見つけやすくなります。 説明に加えて、同僚がこのコンテンツ パックを検索するときに使用する可能性があるキーワードを追加します。 同僚が質問したり、サポートを必要としたりするときに備えて連絡先情報を含めます。
 
     1. グループ メンバーがコンテンツ パックを簡単に見つけられるように、画像またはロゴをアップロードします。
 

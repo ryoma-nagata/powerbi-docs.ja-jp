@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 01e5effcf5f72dd110005815e2ba86c9a6731a70
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73865147"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop とは何ですか?
@@ -24,7 +24,7 @@ ms.locfileid: "73865147"
 
 **Power BI Desktop** の最も一般的な使い方を次に示します。
 
-* データへの接続
+* データに接続する
 * データの変換とクリーニングを行って、データ モデルを作成する
 * データの視覚的表現を示すグラフなどのビジュアルを作成する
 * ビジュアルのコレクションである 1 ページまたは複数ページのレポートを作成する
@@ -44,7 +44,7 @@ Power BI Desktop には、キャンバスの左側に表示される 3 つのビ
 
 **Power BI Desktop** を使用すると、複数のソースのすべてのデータを組織内の他のユーザーと共有できる 1 つのレポートにまとめた、複雑で視覚的にリッチなレポートを作成できます。 
 
-## <a name="connect-to-data"></a>データへの接続
+## <a name="connect-to-data"></a>データに接続する
 **Power BI Desktop** を使用するための最初の手順は、データに接続することです。 **Power BI Desktop** から接続できるデータ ソースには、たくさんの種類があります。 データに接続するには、 **[ホーム]** リボンを選択し、 **[データの取得] > [さらに表示]** を選択します。 次の図は、Power BI Desktop が接続できる多数のカテゴリを表示している **[データの取得]** ウィンドウを示しています。
 
 ![Power BI Desktop でデータを取得する](media/desktop-what-is-desktop/what-is-desktop_02.png)

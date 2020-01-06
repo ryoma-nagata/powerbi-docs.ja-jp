@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b674c621c30491a00c529af7f2fcd9eb87f3ecfa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834772"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223620"
 ---
 # <a name="report-page-drillthrough"></a>レポート ページのドリルスルー
 
@@ -63,7 +63,7 @@ ms.locfileid: "74834772"
 - **気付いてもらう:** ドリルスルー ページに気付いてもらうために、ビジュアル ヘッダー アイコン テキストを設定するか、テキスト ボックスに指示を追加します。 オーバーレイをデザインすることもできます。詳細は[こちらのブログ投稿](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/)にあります。
 
 > [!TIP]
-> Power BI のページ番号付きレポートのドリルスルーを構成することもできます。 これを行うには、Power BI レポートのリンクを追加します。 リンクでは、[URL パラメーター](/blog/url-parameters-for-paginated-reports-are-now-available/)を定義できます。
+> Power BI のページ番号付きレポートのドリルスルーを構成することもできます。 これを行うには、Power BI レポートのリンクを追加します。 リンクでは、[URL パラメーター](https://powerbi.microsoft.com/blog/url-parameters-for-paginated-reports-are-now-available/)を定義できます。
 
 ## <a name="next-steps"></a>次の手順
 

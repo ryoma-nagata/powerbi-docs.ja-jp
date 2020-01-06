@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
 ms.openlocfilehash: bbca4e5bf52ee0d4674cfcdc28edd53e90033a98
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265221"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Power BI API の開発者向け機能
@@ -53,7 +53,7 @@ Power BI API を使って、[データセットにデータをプッシュ](walk
 * [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
 * [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [データセットにデータをプッシュする](walkthrough-push-data.md)
 * [Power BI カスタム ビジュアルの開発](visuals/custom-visual-develop-tutorial.md)

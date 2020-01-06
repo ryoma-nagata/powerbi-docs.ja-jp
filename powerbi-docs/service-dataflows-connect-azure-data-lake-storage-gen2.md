@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872714"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223874"
 ---
-# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)
+# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 を接続する
 
 組織の Azure Data Lake Storage Gen2 アカウントにデータフローを格納するように、Power BI ワークスペースを構成できます。 この記事では、実行する必要がある一般的な手順について説明し、それに伴うガイダンスとベスト プラクティスを示します。 ご利用の Data Lake にデータフロー定義とデータファイルを格納するワークスペースを構成すると、次に示すようないくつかの利点があります。
 
@@ -199,13 +199,13 @@ Power BI Desktop の顧客は、データフローの所有者である場合か
 
 ## <a name="next-steps"></a>次の手順
 
-この記事では、データフロー ストレージ用に Azure Data Lake Gen2 を接続する方法のガイダンスを示しました。 詳細については、以下の記事を参照してください。
+この記事では、データフロー ストレージ用に Azure Data Lake Gen2 を接続する方法のガイダンスを示しました。 詳細については、以下の記事をご覧ください。
 
 データフロー、CDM、および Azure Data Lake Storage Gen2 について詳しくは、次の記事をご覧ください。
 
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
 * [ワークスペース データ フローの設定の構成 (プレビュー)](service-dataflows-configure-workspace-storage-settings.md)
-* [データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)](service-dataflows-add-cdm-folder.md)
+* [データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)](service-dataflows-add-cdm-folder.md)
 
 データフロー全体について詳しくは、次の記事をご覧ください。
 

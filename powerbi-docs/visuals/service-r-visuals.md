@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099816"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "74698994"
 ---
 # <a name="r-visuals-in-power-bi"></a>Power BI の R ビジュアル
 R ビジュアルは現在、**Power BI Desktop** でのみ作成でき、その後 Power BI サービスに発行できます。 R ビジュアルの作成の詳細については、「[R を使用した Power BI ビジュアルの作成](../desktop-r-visuals.md)」を参照してください。
@@ -94,6 +94,11 @@ Power BI サービスの R ビジュアルには、一定の制限がありま�
 * **[Web に公開]** を使用するとき、R ビジュアルは表示されません。
 * 現在のところ、R ビジュアルはダッシュボードとレポートの印刷機能では印刷されません。
 * 現在のところ、R ビジュアルは Analysis Services の DirectQuery モードでサポートされていません。
+* R ビジュアルには、テキスト ラベルをグラフィック要素に変換する機能があります。 Power BI サービスでこれを行うには、次の手順を実行する必要があります。
+  
+  * R スクリプトの先頭に次の行を追加します。
+    
+        powerbi_rEnableShowText =  1
 * 中国語、日本語、および韓国語のフォントでは、Power BI サービスで正しく機能させるために、以下のすべての追加手順が必要になります。
   
   * 最初に、R パッケージ *showtext* とそのすべての依存関係をインストールします。 このインストールは、次のスクリプトで実行できます。

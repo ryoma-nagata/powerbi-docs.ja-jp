@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
 ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74831148"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium のページ分割されたレポートとは
@@ -85,7 +85,7 @@ Power BI サービスのページ分割されたレポートに対して自分�
 ## <a name="next-steps"></a>次の手順
 
 - [Microsoft ダウンロード センターから Power BI レポート ビルダーをインストールする](https://go.microsoft.com/fwlink/?linkid=2086513)
-- [チュートリアル:ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)
+- [チュートリアル: ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)
 - [ページ分割されたレポートに直接データを入力する](paginated-reports-enter-data.md)
 - [ハンズオン ラボ: Microsoft Power BI のページ分割されたレポートを作成する](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
   

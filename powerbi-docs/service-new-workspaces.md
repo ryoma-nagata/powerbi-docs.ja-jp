@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565338"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622435"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI の新しいワークスペースで作業を整理する
 
@@ -62,7 +62,7 @@ Power BI 管理ポータルで[ワークスペース リストを使用できま
 
 管理者、メンバー、共同作成者、ビューアーの 4 つのロールの機能を以下に示します。 表示と操作を除く、これらの機能すべてに、Power BI Pro ライセンスが必要です。
 
-|機能   | 管理者  | メンバー  | 共同作成者  | ビューアー |
+|機能   | 管理者  | メンバー  | 共同作成者  | Viewer |
 |---|---|---|---|---|
 | ワークスペースの更新と削除。  | X  |   |   |   | 
 | 他の管理者を含む、ユーザーの追加と削除。  | X  |   |   |   |
@@ -111,18 +111,19 @@ Power BI 管理ポータルで[ワークスペース リストを使用できま
 Office 365 グループ メンバーシップを使用して、ワークスペース アクセスが付与されるように構成されたユーザーまたはグループのアクセス許可は、Power BI では同期されません。 この設定で構成するファイル ストレージの Office 365 グループと同じグループを使用して、ワークスペース アクセスを管理することをお勧めします。 
 
 [ワークスペース OneDrive を設定し、これにアクセス](service-create-the-new-workspaces.md#workspace-onedrive)する方法をご確認ください。  
-   
+
 ## <a name="auditing"></a>監査
+
 次のアクティビティは、新しいワークスペース エクスペリエンスのワークスペースに対して Power BI によって監査されます。
 
-| フレンドリ名 |   操作名 |
+| フレンドリ名 | 操作名 |
 |---|---|
 | Power BI フォルダーを作成しました | CreateFolder |
 | Power BI フォルダーを削除しました | DeleteFolder |
 | Power BI フォルダーを更新しました | UpdateFolder |
 | Power BI フォルダーへのアクセスを更新しました| UpdateFolderAccess |
 
-詳細については、[Power BI 監査](service-admin-auditing.md#activities-audited-by-power-bi)に関するページをご覧ください。
+詳細については、[Power BI 監査](service-admin-auditing.md)に関するページをご覧ください。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 

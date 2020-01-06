@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872681"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI データフロー用のデータ リソースに接続する
@@ -170,7 +170,7 @@ Power BI データフロー ユーザー インターフェイスに表示され
 Power BI データフローのデータ ソースに接続する作業はこれで完了です。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 この記事では、データフローで接続できるデータ ソースについて説明しました。 以下の記事では、データフローの一般的な使用シナリオについてさらに詳しく説明します。 
 

@@ -1,6 +1,6 @@
 ---
-title: エラー:Excel ブックにデータが見つかりませんでした
-description: エラー:Excel ブックにデータが見つかりませんでした
+title: 'エラー: Excel ブックにデータが見つかりませんでした'
+description: 'エラー: Excel ブックにデータが見つかりませんでした'
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -11,13 +11,13 @@ ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 1976567029454445f625ff400fb1d87ae6c01219
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698419"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>エラー:Excel ブックにデータが見つかりませんでした
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>エラー: Excel ブックにデータが見つかりませんでした
 
 >[!NOTE]  
 >この記事は、Excel 2007 以降に適用されます。

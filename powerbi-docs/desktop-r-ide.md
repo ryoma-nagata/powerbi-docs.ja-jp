@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876229"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223469"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Power BI で外部 R IDE を使用する
 **Power BI Desktop** では、外部の R IDE (統合開発環境) を使用して R スクリプトを作成および調整した後、Power BI でそのスクリプトを使用できます。
@@ -31,7 +31,7 @@ ms.locfileid: "73876229"
 この機能を使用するには、ローカル コンピューターに **R IDE** をインストールする必要があります。 **Power BI Desktop** には R エンジンは含まれず、配置もインストールも行われないので、ローカル コンピューターに **R** を別途インストールする必要があります。 次のオプションで、使用する R IDE を選択できます。
 
 * 任意の R IDE をインストールすることができます。それらの多くは、[Revolution Open ダウンロード ページ](https://mran.revolutionanalytics.com/download/)や [CRAN Repository](https://cran.r-project.org/bin/windows/base/) などで、無料で入手できます。
-* **Power BI Desktop** は [R Studio](https://www.rstudio.com/) や [*R Tools for Visual Studio*](https://beta.visualstudio.com/vs/rtvs/) エディターを含む **Visual Studio 2015** もサポートしています。
+* **Power BI Desktop** は [R Studio](https://www.rstudio.com/) や [*R Tools for Visual Studio*](/visualstudio/rtvs) エディターを含む **Visual Studio 2015** もサポートしています。
 * さまざまな R IDE をインストールし、次のいずれかを実行して、**Power BI Desktop** で **R IDE** を起動させることもできます。
   
   * **.R** ファイルを、**Power BI Desktop** で起動させる外部 IDE に関連付けることができます。

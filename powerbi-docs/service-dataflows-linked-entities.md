@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 31e2e681bc4309e5dce31583e70e669bce5e466f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877233"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Power BI のデータフロー間でエンティティをリンクする
@@ -83,7 +83,7 @@ Power BI サービスの **[エンティティの追加]** メニュー項目か
 * オンプレミスのデータ ソースからデータを取得する、通常のエンティティとリンクされたエンティティを結合することはできません
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 データフローを作成または使用するときは、次の記事も役に立ちます。 
 

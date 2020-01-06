@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877392"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI でのデータフローの作成と使用
@@ -156,7 +156,7 @@ Power BI のデータフローでは、Power BI のデータ更新プロセス�
 
 * **Azure SQL Data Warehouse** - データフローは現在、Azure SQL Data Warehouse での Azure Active Directory (AAD) 認証をサポートしていません。 このシナリオでは、基本認証を使用します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 この記事では、独自の**データフロー**を作成する方法、および **Power BI Desktop** でデータセットとレポートを作成してそれを利用する方法を説明しました。 データフローを使用する場合の詳細およびシナリオについては、以下の記事が役に立ちます。
 

@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265701"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure の Power BI Embedded の診断ログ
@@ -126,11 +126,11 @@ PowerShell を使用してメトリックと診断ログを有効にするには
 | ObjectID | 464 | オブジェクト ID |
 | ObjectType | 802012 | ObjectType |
 | EndTime | 2018-04-06T18:30:11.9137358Z | イベントが終了した時刻です。 |
-| Duration | 0 | イベントの実行にかかった時間です (ミリ秒)。 |
+| 期間 | 0 | イベントの実行にかかった時間です (ミリ秒)。 |
 | SessionType | ユーザー | セッションの種類です (操作の原因となったエンティティ)。 |
 | ProgressTotal | 0 | 進行状況の合計です。 |
 | IntegerData | 0 | 整数データです。 |
-| Severity | 0 | 例外の重要度レベルです。 |
+| 重大度 | 0 | 例外の重要度レベルです。 |
 | Success | 1 | 1 = 成功。 0 = 失敗 (たとえば、1 は権限チェックの成功を表し、0 は失敗を表します)。 |
 | Error | 0 | 指定されたイベントのエラー番号です。 |
 | ConnectionID | 3 | 一意な接続 ID です。 |

@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 0c9d346017dc3b18abd6a56d0d3a62e1305e6575
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698741"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
@@ -153,7 +153,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ## <a name="administration-of-power-bi"></a>Power BI の管理
 
-### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>組織内のユーザーの ID を管理する方法はどのように変わりますか。
+### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>現在管理している組織内のユーザーに関して、その ID の管理方法はどのように変わるのでしょうか
 
 組織内のユーザーに適用される可能性がある 3 つのシナリオがあります。
 
@@ -171,7 +171,7 @@ Get-MsolCompanyInformation | fl allow*
 
 Power BI には、Microsoft 365 全体管理者ロールのユーザーと Power BI サービス管理者ロールのユーザーとを対象とした Power BI 管理ポータルが用意されています。 Power BI 管理ポータルを使用するには、自分のアカウントを Microsoft 365 または Azure Active Directory 内で**全体管理者**としてマークしておくか、自分のユーザー アカウントに別のユーザーが Power BI サービス管理者ロールを割り当てている必要があります。 詳しくは、[Power BI 管理者ロールについて](service-admin-role.md)および [Power BI 管理ポータル](service-admin-portal.md)についての記事をご覧ください。 ポータルには、テナント全体の設定を制御する機能や、Power BI の使用状況の統計を表示する機能、ユーザーとグループを管理するための Microsoft 365 管理センターへのリンクが用意されています。
 
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft によってユーザーに対して作成されたテナントを管理するにはどうすればよいですか。
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft が私の管理下にあるユーザー用に作成したテナントは、どのようなプロセスで管理されますか
 
 セルフサービスのユーザーは、Azure AD を使用しているクラウド サービスにサインアップするとき、サービスによってユーザーは、各自の電子メール ドメインに基づいて Azure AD のアンマネージド ディレクトリに追加されます。 "*管理者引き継ぎ*" と呼ばれるプロセスを使って別のユーザーが作成したテナントを要求し、管理することができます。 詳細については、「[Azure Active Directory の非管理対象ディレクトリを管理者として引き継ぐ](/azure/active-directory/users-groups-roles/domains-admin-takeover)」をご覧ください。 実行する引き継ぎの種類は、ご自身のドメインに関連付けられている既存のマネージド テナントが存在するかどうかによって異なります。
 
@@ -181,7 +181,7 @@ Power BI には、Microsoft 365 全体管理者ロールのユーザーと Power
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to"></a>複数のドメインがある場合、ユーザーが追加される Microsoft 365 テナントを制御できますか。
 
-何もしなければ、各ユーザーの電子メール ドメインとサブドメイン用のテナントがサービスによって作成されます。 電子メール アドレスの拡張に関係なく、すべてのユーザーを同じテナントにまとめる場合:事前に対象テナントを作成するか、既存のテナントを使用します。 次に、そのテナントに含める既存のドメインとサブドメインをすべて追加します。 電子メール アドレスの末尾がこれらのドメインとサブドメインに該当するすべてのユーザーは、サインアップ時に自動的に対象テナントに追加されます。
+何もしなければ、各ユーザーの電子メール ドメインとサブドメイン用のテナントがサービスによって作成されます。 すべてのユーザーを、その電子メール アドレスの拡張子に関係なく同じテナントに含める場合は、次の操作を行ってください。事前に対象テナントを作成するか、既存のテナントを使用します。 次に、そのテナントに含める既存のドメインとサブドメインをすべて追加します。 電子メール アドレスの末尾がこれらのドメインとサブドメインに該当するすべてのユーザーは、サインアップ時に自動的に対象テナントに追加されます。
 
 > [!IMPORTANT]
 > ユーザーを作成した後、テナント間でユーザーを自動的に移動するメカニズムはサポートされていません。 1 つの Microsoft 365 テナントにドメインを追加する方法については、[Office 365 へのユーザーとドメインの追加](/office365/admin/setup/add-domain/)に関するページを参照してください。

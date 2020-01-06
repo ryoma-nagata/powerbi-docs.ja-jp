@@ -10,10 +10,10 @@ ms.date: 10/31/2019
 ms.author: kfollis
 LocalizationGroup: Get started
 ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74791634"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>個人として Power BI にサインアップする
@@ -76,7 +76,7 @@ Power BI Free ライセンスで十分な場合、他に何もする必要はあ
 
 ほとんどの場合、前述のプロセスに従うことで Power BI にサインアップできます。 次の表では、サインアップの妨げとなる可能性のあるいくつかの問題と、考えられる回避策について説明しています。
 
-| 現象またはエラー メッセージ | 原因と回避策 |
+| 症状/エラー メッセージ | 原因と回避策 |
 | ----------------------- | -------------------- |
 | <strong>個人のメール アドレス (例: nancy@gmail.com)</strong> サインアップ時に次のようなメッセージが表示されます。 <br /><br /> *You entered a personal email address:Please enter your work email address so we can securely store your company's data.* (個人のメール アドレスが入力されました: 会社のデータに安全に保存できるように、職場の電子メール アドレスを入力してください。) <br /><br /> または <br /><br /> "*That looks like a personal email address. (個人の電子メール アドレスが指定された可能性があります。)Enter your work address so we can connect you with others in your company. (勤務先の他のユーザーと接続できるよう、勤務先のメール アドレスをご入力ください。)And don’t worry. (ご心配なさる必要はありません。)We won't share your address with anyone. (Microsoft では、あなたのメール アドレスを他のだれかと共有することは一切ありません。)* " | Power BI では、コンシューマー向けメール サービスまたは通信プロバイダーが提供しているメール アドレスはサポートされません。 <br /><br /> サインアップを完了させるには、勤務先または学校から割り当てられているメール アドレスを使用して、もう一度お試しください。 <br /><br /> それでもサインアップできず、より高度なセットアップ プロセスを実行する場合は、[新しい Office 365 試用版サブスクリプションに登録して、そのメール アドレスを使用してサインアップしてください](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 既存ユーザーに[自分をゲストとして招待](service-admin-azure-ad-b2b.md)してもらうこともできます。 |
 | **セルフサービス サインアップが無効になっている**: サインアップ時に次のようなメッセージが表示されます。 <br /><br /> "*We can't finish signing you up. (サインアップを完了できません。)Your IT department has turned off signup for Microsoft Power BI. (あなたの勤務先の IT 部門が、Microsoft Power BI のサインアップを無効にしています。)Contact them to complete signup. (IT 部門に連絡して、サインアップを完了させてください。)* " <br /><br /> または <br /><br /> "*That looks like a personal email address. (個人の電子メール アドレスが指定された可能性があります。)Enter your work address so we can connect you with others in your company. (勤務先の他のユーザーと接続できるよう、勤務先のメール アドレスをご入力ください。)And don’t worry. (ご心配なさる必要はありません。)We won't share your address with anyone. (Microsoft では、あなたのメール アドレスを他のだれかと共有することは一切ありません。)* " | 組織の IT 管理者によって、Power BI のセルフサービス サインアップが無効にされています。 <br /><br /> サインアップを完了するには、[手順に従ってサインアップを有効にする](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)よう IT 管理者に要請します。 <br/><br/> [パートナーを通じて Office 365 にサインアップする](service-admin-syndication-partner.md)場合に、この問題が発生する可能性があります。 |

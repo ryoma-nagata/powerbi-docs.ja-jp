@@ -1,19 +1,19 @@
 ---
 title: 外部のゲスト ユーザー (Azure AD B2B) として Power BI コンテンツを表示する
 description: Power BI モバイル アプリを使用して、外部組織から共有されているコンテンツを表示します。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879338"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219887"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>外部組織から共有されている Power BI コンテンツを表示する
 
@@ -30,18 +30,18 @@ Power BI と Azure Active Directory Business-to-Business (Azure AD B2B) との�
 
 **まず、外部組織の人に項目を共有してもらう必要があります。** 同じ組織または外部組織から、他の人が[あなたと項目を共有](../../service-share-dashboards.md)すると、その共有項目へのリンクを含む電子メールが送られてきます。 モバイル デバイスでこのリンクに従うと、Power BI モバイル アプリが開きます。 アプリで項目が外部組織から共有されていることが認識されると、アプリはあなたの ID を使用してその組織に再接続します。 その後、その組織からあなたに共有されたすべての項目がアプリによって読み込まれます。
 
-![Power BI が電子メールから共有項目を開く ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Power BI が電子メールから共有項目を開く ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > これが外部のゲスト ユーザーとしてあなたに共有された最初の項目である場合は、ブラウザーで招待を要求する必要があります。 Power BI アプリで招待を要求することはできません。
 
 外部組織に接続している間は常に、黒いヘッダーがアプリに表示されます。 このヘッダーは、自分がホーム組織に接続されていないことを示します。 自分のホーム組織に再度接続するには、ゲスト モードを終了します。
 
-![Power BI ゲスト ユーザー ヘッダー](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Power BI ゲスト ユーザー ヘッダー](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
-外部組織に接続するには Power BI アーティファクト リンクが必要ですが、アプリを切り替えると、(電子メールから開いた項目だけでなく) 自分と共有されているすべての項目にアクセスできます。 外部組織でアクセスできるすべての項目を表示するには、アプリ メニューに移動し、**[自分と共有]** を選択します。 **[アプリ]** の下で、使用できるアプリを検索することもできます。
+外部組織に接続するには Power BI アーティファクト リンクが必要ですが、アプリを切り替えると、(電子メールから開いた項目だけでなく) 自分と共有されているすべての項目にアクセスできます。 外部組織でアクセスできるすべての項目を表示するには、アプリ メニューに移動し、 **[自分と共有]** を選択します。 **[アプリ]** の下で、使用できるアプリを検索することもできます。
 
-![外部のゲスト ユーザーの Power BI アプリ メニュー](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![外部のゲスト ユーザーの Power BI アプリ メニュー](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>制限事項
 

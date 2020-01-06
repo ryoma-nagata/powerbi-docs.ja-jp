@@ -11,10 +11,10 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 1349d62d0400c0ad283f6e9e234c44ffce0d63b9
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73766403"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI におけるデータ保護 (プレビュー)
@@ -102,7 +102,7 @@ Microsoft Cloud App Security を使用して、Power BI のコンテンツを意
 * 現在、秘密度ラベルは[ページ分割されたレポート]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)とブックでは使用できません。 
 * 現在、ラベルを適用後に Power BI 資産から削除することはできません。
 * Power BI 資産の秘密度ラベルは、ワークスペースの一覧と系列ビューでのみ表示されます。現在、お気に入り、自分と共有、最近使用、アプリ ビューでは表示されません。 ただし、Power BI 資産に適用されているラベルは、表示されない場合でも、Excel、PowerPoint、および PDF ファイルにエクスポートされたデータに常に保持されることに注意してください。
-* [Microsoft 365 セキュリティ センター](https://security.microsoft.com/)または [Microsoft 365 コンプライアンス センター](https://compliance.microsoft.com/)内で構成されている秘密度ラベルの "*ファイル暗号化設定*" は Power BI "*からエクスポートされた"* ファイルにのみ適用されます。Power BI "*内*" で適用されることはありません。
+* [Microsoft 365 セキュリティ センター](https://security.microsoft.com/)または [Microsoft 365 コンプライアンス センター](https://compliance.microsoft.com/)内で構成されている秘密度ラベルの "*ファイル暗号化設定*" は Power BI "*からエクスポートされた*" ファイルにのみ適用されます。Power BI "*内*" で適用されることはありません。
 * Power BI 内で適用されているラベルでは、[HYOK 保護](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)はサポートされていません。
 * Office アプリ内でラベルを表示および適用するには、[ライセンス要件](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)があります。
 * 秘密度ラベルは、グローバル (パブリック) クラウド内のテナントに対してのみサポートされています。 秘密度ラベルは、他のクラウド内のテナントではサポートされません。

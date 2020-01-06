@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 7edfe46173b1d9b2537c5fd980b245af09fd1f53
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74178280"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI サービスに米国政府組織を登録する
@@ -79,7 +79,7 @@ ms.locfileid: "74178280"
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>販売店による Power BI 試用版から Power BI Pro への顧客のオンボーディング
 **[支払い]、[サブスクリプション]** の順に移動し、 **[政府向け Power BI Pro サブスクリプション]** を選択します。 次の項目が表示されます。
 
-* 入手可能
+* 利用可能
 * 割り当て済み
 * ユーザーへの割り当てリンク
 * まだ評価版が割り当てられている場合:

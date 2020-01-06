@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 9d0ab5bcffe3b0267b3e07a684c2c7c9bd0fd316
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265819"
 ---
 # <a name="dataset-properties"></a>データセットのプロパティ
@@ -24,28 +24,28 @@ ms.locfileid: "74265819"
 
 ## <a name="dataset"></a>データセット
 
-名前  |タイプ  |説明  |読み取り専用  |必須
+名前  |種類  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-ID     |  Guid       | システム全体で一意である、データセットの識別子です。        | True        | False        
-名前     | 文字列        | データセットのユーザー定義名です。        | False        | True        
+id     |  Guid       | システム全体で一意である、データセットの識別子です。        | True        | False        
+name     | 文字列        | データセットのユーザー定義名です。        | False        | True        
 tables     | テーブル[]        | テーブルのコレクションです。        |  False       | False        
 relationships     | リレーションシップ[]        | テーブル間のリレーションシップのコレクションです。        | False        |  False  
 defaultMode     | 文字列        | "Push" と "Streaming" の値で、データセットがプッシュされるか、ストリーミングされるか、またはその両方かを決定します。         | False        |  False
 
 ## <a name="table"></a>テーブル
 
-名前  |タイプ  |説明  |読み取り専用  |必須
+名前  |種類  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-名前     | 文字列        |  テーブルのユーザー定義名前です。 これは、テーブルの識別子としても使用されます。       | False        |  True       
+name     | 文字列        |  テーブルのユーザー定義名前です。 これは、テーブルの識別子としても使用されます。       | False        |  True       
 列     |  列[]       |  列のコレクション。       | False        |  True       
 メジャー     | メジャー[]        |  メジャーのコレクション。       | False        |  False       
 isHidden     | ブール値        | true の場合、クライアント ツールにテーブルは表示されません。        | False        | False        
 
 ## <a name="column"></a>列
 
-名前  |タイプ  |説明  |読み取り専用  |必須
+名前  |種類  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-名前     |  文字列        | 列のユーザー定義名です。        |  False       | True       
+name     |  文字列        | 列のユーザー定義名です。        |  False       | True       
 dataType     |  文字列       |  サポートされている [EDM データ型](https://msdn.microsoft.com/library/ee382832.aspx) と制限事項です。 [データ型の制限事項](#DataTypeRestrictions) を参照してください。      |  False       | True        
 formatString     | 文字列        | 値が表示されるときの値の書式設定を示す文字列です。 文字列の書式設定の詳細については、[「FORMAT_STRING Contents」](https://msdn.microsoft.com/library/ms146084.aspx) (FORMAT_STRING の内容) を参照してください。      | False        | False        
 sortByColumn    | 文字列        |   同一テーブル内の列の文字列名であり、現在の列を並べ替えるために使用されます。     | False        | False       
@@ -55,18 +55,18 @@ summarizeBy     | 文字列        |  列の既定の集計方法です。 含�
 
 ## <a name="measure"></a>メジャー
 
-名前  |タイプ  |説明  |読み取り専用  |必須
+名前  |種類  |説明  |読み取り専用  |必須
 ---------|---------|---------|---------|---------
-名前     | 文字列        |  メジャーのユーザー定義名です。       |  False       | True        
+name     | 文字列        |  メジャーのユーザー定義名です。       |  False       | True        
 expression     | 文字列        | 有効な DAX 式です。        | False        |  True       
 formatString     | 文字列        |  値が表示されるときの値の書式設定を示す文字列です。 文字列の書式設定の詳細については、[「FORMAT_STRING Contents」](https://msdn.microsoft.com/library/ms146084.aspx) (FORMAT_STRING の内容) を参照してください。       | False        | False        
 isHidden     | 文字列        |  true の場合、クライアント ツールにテーブルは表示されません。       |  False       | False       
 
 ## <a name="relationship"></a>リレーションシップ
 
-名前  |タイプ  |説明  |読み取り専用  |必須 
+名前  |種類  |説明  |読み取り専用  |必須 
 ---------|---------|---------|---------|---------
-名前     | 文字列        | リレーションシップのユーザー定義名です。 リレーションシップの識別子としても使用されます。        | False       | True        
+name     | 文字列        | リレーションシップのユーザー定義名です。 リレーションシップの識別子としても使用されます。        | False       | True        
 crossFilteringBehavior     | 文字列        |    リレーションシップのフィルターの方向:OneDirection (既定値)、BothDirections、Automatic       | False        | False        
 fromTable     | 文字列        | 外部キー テーブルの名前です。        | False        | True         
 fromColumn    | 文字列        | 外部キー列の名前です。        | False        | True         
