@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478618"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223634"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery モデルのガイダンス
 
@@ -87,7 +87,7 @@ Power BI Desktop を使用して、すべての DirectQuery モデルを作成�
 
     **[データ ソースあたりの最大接続数]** の値を増やすと、基になるデータ ソースに送信できるクエリが増えます (指定された最大数まで)。1 つのページにたくさんのビジュアルがあるとき、たくさんのユーザーが同時にレポートにアクセスするときに便利です。 接続の最大数に到達した後は、接続が利用可能になるまで、後続のクエリは待ち行列に入ります。 この上限を増やすと、結果的に、基になるデータ ソースの負荷が増えます。そのため、全体的なパフォーマンスの向上はこの設定では保証されません。
     
-    Power BI にモデルを発行したとき、基になるデータ ソースに同時に送信されるクエリの最大数も、環境によって異なります。 異なる環境 (Power BI、Power BI Premium、Power BI Report Server など) ごとに、異なるスループット制約が適用される可能性があります。 Power BI Premium 容量リソースの制限について詳しくは、「[Power BI Premium 容量のデプロイと管理](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities)」をご覧ください。
+    Power BI にモデルを発行したとき、基になるデータ ソースに同時に送信されるクエリの最大数も、環境によって異なります。 異なる環境 (Power BI、Power BI Premium、Power BI Report Server など) ごとに、異なるスループット制約が適用される可能性があります。 Power BI Premium 容量リソースの制限について詳しくは、「[Power BI Premium 容量のデプロイと管理](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment)」をご覧ください。
 
 ## <a name="optimize-report-designs"></a>レポートの設計を最適化する
 
