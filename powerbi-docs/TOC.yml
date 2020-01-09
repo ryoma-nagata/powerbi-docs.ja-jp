@@ -115,7 +115,7 @@
           href: desktop-show-items-no-data.md
         - name: 自動の日付/時刻を使用する
           href: desktop-auto-date-time.md
-        - name: データへの接続
+        - name: データに接続する
           items:
             - name: データ ソースに接続する
               href: desktop-data-sources.md
@@ -123,7 +123,7 @@
               href: desktop-connect-linkedin-sales-navigator.md
             - name: 例を指定して Web ページからデータを取得する
               href: desktop-connect-to-web-by-example.md
-            - name: Power BI サービスでのデータセットへの接続
+            - name: Power BI サービスのデータセットに接続する
               href: desktop-report-lifecycle-datasets.md
             - name: Excel ブックをインポートする
               href: desktop-import-excel-workbooks.md
@@ -173,7 +173,7 @@
               href: desktop-connect-snowflake.md
             - name: Azure Cost Management データに接続する
               href: desktop-connect-azure-cost-management.md
-            - name: Azure Consumption Insights データへの接続
+            - name: Azure Consumption Insights データに接続する
               href: desktop-connect-azure-consumption-insights.md
             - name: SAP HANA を使用する
               href: desktop-sap-hana.md
@@ -255,7 +255,7 @@
               href: desktop-drillthrough.md
             - name: クロス レポートのドリルスルー機能を使用する
               href: desktop-cross-report-drill-through.md
-            - name: グループ化とビン分割を使用
+            - name: グループ化とビン分割を使用する
               href: desktop-grouping-and-binning.md
             - name: R を使用して Power BI ビジュアルを作成する
               href: desktop-r-visuals.md
@@ -265,13 +265,13 @@
               href: desktop-gridlines-snap-to-grid.md
             - name: Power BI レポートにページ表示設定を適用する
               href: power-bi-report-display-settings.md
-            - name: 例から列を追加
+            - name: 例から列を追加する
               href: desktop-add-column-from-example.md
-            - name: カスタム列を追加
+            - name: カスタム列を追加する
               href: desktop-add-custom-column.md
             - name: インライン階層ラベルを使用する
               href: desktop-inline-hierarchy-labels.md
-            - name: 数値範囲スライサーを使用
+            - name: 数値範囲スライサーを使用する
               href: desktop-slicer-numeric-range.md
             - name: 相対日付のスライサーおよびフィルターを使用する
               href: desktop-slicer-filter-date-range.md
@@ -495,7 +495,7 @@
               href: service-admin-licensing-organization.md
             - name: ライセンスの種類別の機能
               href: service-features-license-type.md
-            - name: 米国政府用 Power BI
+            - name: 米国政府向け Power BI
               href: service-govus-overview.md
             - name: ドイツのクラウド ユーザーに関するよく寄せられる質問
               href: service-govde-faq.md
@@ -513,7 +513,7 @@
               href: service-flow-integration.md
             - name: サード パーティ製アプリを使用する
               href: service-power-bi-get-started-third-party-apps.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: ファイルからのデータの取得
           items:
@@ -589,7 +589,7 @@
               href: service-dashboard-tiles.md
             - name: レポートからダッシュボードを作成する
               href: service-dashboard-create.md
-            - name: ダッシュボードのコピーを作成
+            - name: ダッシュボードのコピーを作成する
               href: service-dashboard-copy.md
             - name: レポートからダッシュボードにタイルをピン留めする
               href: service-dashboard-pin-tile-from-report.md
@@ -631,11 +631,11 @@
               href: service-interact-with-a-report-in-editing-view.md
             - name: Excel で分析
               href: service-analyze-in-excel.md
-            - name: レポートの作成に関するヒントとテクニック
+            - name: レポート作成のヒントとテクニック
               href: power-bi-reports-tips-and-tricks-for-creating.md
             - name: サービスでの集計の使用
               href: service-aggregates.md
-            - name: レポート用の利用状況の指標
+            - name: レポートの使用状況メトリック
               href: service-usage-metrics.md
             - name: レポートの QR コードを作成する
               href: service-create-qr-code-for-report.md
@@ -781,7 +781,7 @@
               href: refresh-troubleshooting-tile-errors.md
             - name: ”Excel で分析” に関するトラブルシューティング
               href: desktop-troubleshooting-analyze-in-excel.md
-            - name: 'エラー:Excel ブックにデータが見つかりませんでした'
+            - name: 'エラー: Excel ブックにデータが見つかりませんでした'
               href: service-admin-troubleshoot-excel-workbook-data.md
             - name: 更新が失敗した場合に Xero コンテンツ パックの資格情報を更新する方法
               href: service-refresh-xero-credentials.md
@@ -837,7 +837,7 @@
       items:
         - name: ビデオ
           href: videos.md
-        - name: Web セミナー
+        - name: ウェビナー
           href: webinars.md
 - name: Power BI Premium
   items:
@@ -855,7 +855,7 @@
           href: service-premium-capacity-scenarios.md
         - name: Power BI Premium のよく寄せられる質問
           href: service-premium-faq.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: Power BI Premium を購入する
           href: service-admin-premium-purchase.md
@@ -901,10 +901,8 @@
           href: report-builder-planning-report.md
         - name: レポート ビルダーのデータ
           href: report-builder-data.md
-        - name: サポートされているデータ ソース
+        - name: サポートされるデータ ソース
           href: paginated-reports-data-sources.md
-        - name: Power BI 共有データセットを使用する
-          href: report-builder-shared-datasets.md
         - name: デザインに関するヒント
           href: report-builder-design-tips.md
         - name: テーブル、マトリックス、リスト
@@ -921,7 +919,7 @@
           href: report-builder-previewing-reports.md
         - name: ページ分割されたレポートに関する FAQ
           href: paginated-reports-faq.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: ページ分割されたレポートに直接データを入力する
           href: paginated-reports-enter-data.md
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: 埋め込みデータセットを作成する
           href: paginated-reports-create-embedded-dataset.md
+        - name: Power BI 共有データセットを使用したレポートを作成する
+          href: report-builder-shared-datasets.md
         - name: パラメーターを作成する
           href: paginated-reports-parameters.md
         - name: URL でレポート パラメーターを渡す
@@ -953,11 +953,11 @@
           href: report-server/whats-new.md
         - name: 変更ログ
           href: report-server/changelog.md
-        - name: サポート タイムライン
+        - name: サポートのタイムライン
           href: report-server/support-timeline.md
-        - name: ハードウェアおよびソフトウェア要件
+        - name: ハードウェアとソフトウェアの要件
           href: report-server/system-requirements.md
-        - name: ブラウザー サポート
+        - name: ブラウザーのサポート
           href: report-server/browser-support.md
         - name: 管理者の概要
           href: report-server/admin-handbook-overview.md
@@ -985,10 +985,12 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848723'
             - name: レポートの埋め込み
               href: report-server/quickstart-embed.md
-    - name: 方法
+    - name: 操作方法
       items:
-        - name: Power BI Desktop のインストール
+        - name: Power BI Desktop をインストールする
           href: report-server/install-powerbi-desktop.md
+        - name: レポート ビルダーをインストールする
+          href: report-server/install-report-builder.md
         - name: レポート サーバーの基礎
           items:
             - name: レポート サーバー用の Power BI レポートの作成
@@ -1009,7 +1011,7 @@
               href: report-server/connect-data-source-apis.md
             - name: スケジュールされた更新の構成
               href: report-server/configure-scheduled-refresh.md
-            - name: レポートにコメントを追加
+            - name: レポートにコメントを追加する
               href: report-server/add-comments.md
         - name: 管理者向けレポート サーバー
           items:
@@ -1027,7 +1029,7 @@
               href: report-server/configure-powerbi-mobile-apps-remote.md
             - name: Azure AD を使用したリモート モバイル アクセス
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
-            - name: Excel ブックのホスト
+            - name: Excel ブックをホストする
               href: report-server/excel-oos.md
     - name: リファレンス
       items:
@@ -1043,7 +1045,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
     - name: リソース
       items:
-        - name: キャパシティ プランニングホワイト ペーパー
+        - name: キャパシティ プランニングに関するホワイト ペーパー
           href: report-server/capacity-planning.md
         - name: PDF 表示拡張機能の準拠
           href: report-server/rendering-extension-support.md
@@ -1059,7 +1061,7 @@
           href: service-gateway-deployment-guidance.md
         - name: オンプレミス データ ゲートウェイに関してよく寄せられる質問 (FAQ)
           href: service-gateway-power-bi-faq.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: オンプレミス データ ゲートウェイの詳細
           href: service-gateway-onprem-indepth.md
