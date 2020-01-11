@@ -709,6 +709,8 @@
               href: service-dataflows-overview.md
             - name: データフローの作成と使用
               href: service-dataflows-create-use.md
+            - name: データフローで強化されたコンピューティング エンジンを使用する
+              href: service-dataflows-enhanced-compute-engine.md
             - name: Power BI Premium での計算されたエンティティ
               href: service-dataflows-computed-entities-premium.md
             - name: データフローを使用してのデータ ソースへの接続
@@ -801,6 +803,8 @@
               items:
                 - name: アプリでサービスに接続する
                   href: service-connect-to-services.md
+                - name: Azure カーボン計算ツール
+                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
