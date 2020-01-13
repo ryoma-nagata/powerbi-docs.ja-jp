@@ -9,14 +9,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: mihart
-ms.openlocfilehash: 1e141c56387e4bbde1741752e40e600c37088e87
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 0cbd343203aa0626877e6d4841284eb57869e101
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199566"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758809"
 ---
-# <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI での ArcGIS マップとの対話
+# <a name="interact-with-arcgis-maps-in-power-bi"></a>Power BI での ArcGIS マップとの対話
 このトピックは、Power BI サービス、Desktop、またはモバイルで ArcGIS マップを使用するユーザーを対象として書かれています。 デザイナーから ArcGIS Maps for Power BI ビジュアルを共有されると、そのビジュアルとはさまざまな方法でやりとりすることができます。  ArcGIS マップの作成の詳細については、[Esri の ArcGIS マップのチュートリアル](../visuals/power-bi-visualization-arcgis.md)をご覧ください。
 
 ArcGIS マップと Power BI を組み合わせると、マッピングをマップ上のポイントの表現を越える、まったく新しいレベルに引き上げることができます。 レポート デザイナーは、マップから開始して、人口統計データのレイヤーをそのマップにアタッチします。 空間分析を使用してマップ上で場所に基づくデータのレイヤー (国勢調査データなど) を組み合わせることで、より深く理解できる視覚化されたデータを伝達できます。

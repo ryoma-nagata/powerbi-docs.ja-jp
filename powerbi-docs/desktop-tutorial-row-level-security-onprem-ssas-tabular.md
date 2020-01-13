@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 09e4a9cc3e6a5c16f23532f0a4589fdcb1906549
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311452"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759522"
 ---
-# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services 表形式モデルを使用した動的な行レベル セキュリティ
+# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services 表形式モデルに行レベル セキュリティを実装する
 
 このチュートリアルでは、サンプル データセットを使って以下の手順に従い、**Azure Analysis Services 表形式モデル**で[**行レベルのセキュリティ**](service-admin-rls.md)を実装し、それを Power BI レポートで使用する方法を示します。 
 
@@ -157,7 +157,7 @@ ms.locfileid: "74311452"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 
-    お疲れ様でした。 **Power BI サービス**には、オンプレミスの **Analysis Services** 表形式モデルで定義された動的な行レベルのセキュリティが表示されます。 Power BI では **EffectiveUserName** プロパティを使用し、現在の Power BI ユーザーの資格情報をオンプレミス データ ソースに送信してクエリを実行します。
+    おめでとうございます。 **Power BI サービス**には、オンプレミスの **Analysis Services** 表形式モデルで定義された動的な行レベルのセキュリティが表示されます。 Power BI では **EffectiveUserName** プロパティを使用し、現在の Power BI ユーザーの資格情報をオンプレミス データ ソースに送信してクエリを実行します。
 
 ## <a name="task-6-understand-what-happens-behind-the-scenes"></a>タスク 6:バックグラウンドでの動作を理解する
 

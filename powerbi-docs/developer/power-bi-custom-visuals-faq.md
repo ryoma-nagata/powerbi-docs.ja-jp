@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9078aaebd49705833d3ad5a15497ab0c2d69a1c3
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 01fe7056c844a9eed96356e478cc23d5593809bd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "74999723"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759062"
 ---
-# <a name="frequently-asked-questions-about-power-bi-visuals"></a>Power BI ビジュアルに関してよく寄せられる質問
+# <a name="power-bi-visuals-faq"></a>Power BI ビジュアルに関する FAQ
 
 ## <a name="organizational-power-bi-visuals"></a>組織の Power BI ビジュアル
 
@@ -87,7 +87,7 @@ Microsoft は、サードパーティの Power BI ビジュアルの作成者で
  
 ### <a name="are-certified-power-bi-visual-checked-again-with-every-new-submission-upgrade"></a>認定済み Power BI ビジュアルは新しい送信 (アップグレード) ごとにチェックを受けますか?
 
-はい。 認定済みビジュアルの新しいバージョンが Marketplace に送信されるたびに、ビジュアルのバージョン更新プログラムは、同じ証明書チェックを受けます。
+はい。 認定済みビジュアルの新しいバージョンが Marketplace に送信されるたびに、ビジュアルのバージョン更新プログラムは、同じ認定チェックを受けます。
 
 バージョン更新プログラムの認定は自動的に更新されます。 更新プログラムが拒否される違反が見つかった場合、必要な修正内容が記載されたメールが開発者に送信されます。
 

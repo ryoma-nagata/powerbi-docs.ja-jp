@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bf933203f8dc76d4ede2d25683981cbdf6755f5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 131101d6e7a23b7c6d8571c89097036f1149a2f3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73869051"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761544"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example"></a>例を指定して Web ページからデータを取得する
+# <a name="get-webpage-data-by-providing-examples"></a>例を提供して Web ページ データを取得する
 
 Web ページからのデータ取得を利用すると、ユーザーは Web ページからデータを簡単に抽出し、そのデータを **Power BI Desktop** にインポートすることができます。 ただし、多くの場合、Web ページ上のデータは、抽出が容易な整理されたテーブル形式ではないので、たとえ構造化され、一貫していても、そのようなページからデータを取得することは困難です。 
 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: afd85404dd926cab396222d3ba9b4bf62e689054
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ea60400a4522dd496e19d508f13760581c0b2620
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876357"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761251"
 ---
-# <a name="default-member-in-multidimensional-models-in-power-bi"></a>Power BI での多次元モデルの既定のメンバー
+# <a name="work-with-multidimensional-models-in-power-bi"></a>Power BI で多次元モデルを操作する
 
 Power BI で多次元モデルに接続し、モデル内のすべての種類のデータを視覚化するレポートを作成できます。 多次元モデルを使用するとき、Power BI では、"*既定のメンバー*" として定義されている列に基づいて、データの処理方法にルールが適用されます。 
 

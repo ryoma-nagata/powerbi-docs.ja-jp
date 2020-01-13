@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548567"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837584"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -21,9 +21,7 @@ ms.locfileid: "75548567"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-**AI によって BI が変更される 3 つの方法**
-<br>作成者: Justyna Lucznik
-<br>[1 月 8 日に視聴できるように登録する](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -38,6 +36,10 @@ ms.locfileid: "75548567"
 **Microsoft が BI データ保護をどのように変化させているか**
 <br>講師: Anton Fritz および Adi Regev
 <br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**AI によって BI が変更される 3 つの方法**
+<br>作成者: Justyna Lucznik
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 **Power BI、および最近の企業向け BI の将来**
 <br>作成者: Arun Ulag および Amir Netz

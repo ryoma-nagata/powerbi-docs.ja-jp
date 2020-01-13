@@ -10,16 +10,14 @@ ms.topic: conceptual
 ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791779"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758108"
 ---
-- 年間の粗利益 (%) の線はどこですか? 複数の棒グラフは可能ですが、複数の折れ線グラフはそうではありません。
-
-# <a name="customize-x-axis-and-y-axis-properties"></a>X 軸と Y 軸のプロパティのカスタマイズ
+# <a name="customize-x-axis-and-y-axis-properties"></a>X 軸と Y 軸のプロパティをカスタマイズする
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 

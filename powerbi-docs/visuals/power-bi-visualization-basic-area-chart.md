@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ccba97d7fc4df050b9685dd9c2a69af36f62a485
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880973"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757878"
 ---
-# <a name="basic-area-chart"></a>基本的な面グラフ
+# <a name="create-and-use-basic-area-charts"></a>基本的な面グラフの作成と使用
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -80,6 +80,6 @@ ms.locfileid: "73880973"
 * [障碍を持つユーザーのためにレポートをより使いやすくする](../desktop-accessibility.md)
 * 基本的な面グラフは、複数層の面の重なりによって値がわかりにくくなるため、値の比較には有効ではありません。 Power BI では、面の重なりを示すために透過が使用されます。 ただし、透過は 2 つか 3 つの異なる面についてのみうまく機能します。 4 つ以上のメジャーとトレンドを比較する必要がある場合は、折れ線グラフを使用してみてください。 4 つ以上のメジャーと量を比較する必要がある場合は、ツリーマップを使用してみてください。
 
-## <a name="next-step"></a>次の手順
+## <a name="next-step"></a>次のステップ
 [Power BI のレポート](power-bi-visualization-card.md)  
 

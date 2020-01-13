@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 82a03731ffea49f7e41fc8582155fe09734d475b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878015"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760844"
 ---
-# <a name="using-python-in-query-editor"></a>クエリ エディターでの Python の使用
+# <a name="use-python-in-query-editor"></a>クエリ エディターで Python を使用する
 Power BI Desktop **クエリ エディター**では、統計学者、データ科学者、データ分析官によって広く使用されているプログラミング言語、**Python** を使用できます。 Python と**クエリ エディター**を統合することで、Python を使用したデータ クレンジングを実行したり、データセットで高度なデータ シェイプおよびデータ分析 (失ったデータを埋める、予測、クラスター化など) を実行したりできます。 **Python** は高度な言語であり、**クエリ エディター**で使用し、ご自分のデータ モデルを用意したり、レポートを作成したりできます。
 
 ## <a name="installing-python"></a>Python のインストール

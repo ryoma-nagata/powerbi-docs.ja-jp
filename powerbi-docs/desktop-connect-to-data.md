@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 61af482ca5a035325a6c3f6c5a661aa8c3fc0985
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878482"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761590"
 ---
-# <a name="connect-to-data-in-power-bi-desktop"></a>Power BI Desktop におけるデータへの接続
+# <a name="connect-to-data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソースへの接続
 Power BI Desktop を使用すれば、拡大し続けるデータの世界に簡単につながることができます。 Power BI Desktop をお持ちでない場合は、[ダウンロード](https://go.microsoft.com/fwlink/?LinkID=521662)してインストールできます。
 
 Power BI Desktop では、 *あらゆる種類* のデータ ソースを使用できます。 次の図は、 **[ファイル]** リボンで **[データの取得] \> [詳細]** をクリックして行う、データへの接続方法を示しています。
