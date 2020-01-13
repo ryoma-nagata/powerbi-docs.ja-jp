@@ -11,10 +11,10 @@ ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 359d36e3becb58386aeaca66f12670bd463644d1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871094"
 ---
 # <a name="arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop の ArcGIS Maps
@@ -135,7 +135,7 @@ ArcGIS Maps for Power BI では、マップにデータを表示する最適な�
 ![Esri のマップのテーマの例](media/power-bi-visualization-arcgis/power-bi-esri-map-theme-new.png)
 
 <table>
-<tr><th>テーマ</th><th>説明</th>
+<tr><th>切り替え</th><th>説明</th>
 <tr>
 <td>場所のみ</td>
 <td>[場所] バケットに追加したフィールドに基づいて、マップにデータ ポイントまたは塗りつぶされた境界がプロットされます。</td>

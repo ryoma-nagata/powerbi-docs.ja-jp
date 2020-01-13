@@ -11,10 +11,10 @@ ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
 ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873655"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI ワークスペースでデータ ストレージを管理する
@@ -48,7 +48,7 @@ Power BI アカウントで使用しているデータ記憶域を確認して�
 1. 自分の記憶域を管理するには、ナビ ペインの **[マイ ワークスペース]** に移動します。
    
     ![マイ ワークスペース](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> **[個人の記憶域の管理]** の順にクリックします。
+2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> **[個人の記憶域の管理]** の順に選択します。
    
     上部のバーに、記憶域の上限のうちの使用量が表示されます。
    
@@ -63,10 +63,10 @@ Power BI アカウントで使用しているデータ記憶域を確認して�
 データセットが、自分や他のユーザーが作成したレポートやダッシュボードの基になっている可能性があることにご注意ください。 そのデータセットを削除してしまうと、これらのレポートやダッシュボードは機能しなくなります。
 
 ## <a name="manage-your-workspace"></a>自分のワークスペースを管理する
-1. **[ワークスペース]** の横にある矢印をクリックし、ワークスペースの名前を選択します。
+1. **[ワークスペース]** の横にある矢印 \> ワークスペースの名前の順に選択します。
    
     ![ワークスペースの選択](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)\> **[グループ ストレージの管理]** の順にクリックします。
+2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> **[グループ ストレージの管理]** の順に選択します。
    
     上部のバーに、グループの記憶域の上限のうちの使用量が表示されます。
    

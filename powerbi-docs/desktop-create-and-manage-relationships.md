@@ -10,10 +10,10 @@ ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73869128"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop でのリレーションシップの作成と管理
@@ -88,17 +88,17 @@ Power BI Desktop でのリレーションシップのしくみを理解できる
 
 | **Ticket** | **SubmittedBy** | **Hours** | **Project** | **DateSubmit** |
 | ---:|:--- | ---:|:--- | ---:|
-| 1001 |Brewer, Alan |22 |青 |2013 年 1 月 1 日 |
-| 1002 |Brewer, Alan |26 |赤 |2013 年 2 月 1 日 |
-| 1003 |Ito, Shu |34 |黄 |2012 年 12 月 4 日 |
-| 1004 |Brewer, Alan |13 |オレンジ色 |2012 年 1 月 2 日 |
-| 1005 |Bowen, Eli |29 |紫 |2013 年 10 月 1 日 |
-| 1006 |Bento, Nuno |35 |緑 |2013 年 2 月 1 日 |
-| 1007 |Hamilton, David |10 |黄 |2013 年 10 月 1 日 |
+| 1001 |Brewer, Alan |22 |ブルー |2013 年 1 月 1 日 |
+| 1002 |Brewer, Alan |26 |レッド |2013 年 2 月 1 日 |
+| 1003 |Ito, Shu |34 |イエロー |2012 年 12 月 4 日 |
+| 1004 |Brewer, Alan |13 |オレンジ |2012 年 1 月 2 日 |
+| 1005 |Bowen, Eli |29 |紫 |2013/10/1 |
+| 1006 |Bento, Nuno |35 |グリーン |2013 年 2 月 1 日 |
+| 1007 |Hamilton, David |10 |イエロー |2013/10/1 |
 | 1008 |Han, Mu |28 |オレンジ色 |2012 年 1 月 2 日 |
-| 1009 |Ito, Shu |22 |紫 |2013 年 2 月 1 日 |
-| 1010 |Bowen, Eli |28 |緑 |2013 年 10 月 1 日 |
-| 1011 |Bowen, Eli |9 |青 |2013 年 10 月 15 日 |
+| 1009 |Ito, Shu |22 |パープル |2013 年 2 月 1 日 |
+| 1010 |Bowen, Eli |28 |グリーン |2013 年 10 月 1 日 |
+| 1011 |Bowen, Eli |9 |ブルー |2013 年 10 月 15 日 |
 
 2 番目のテーブル [CompanyProject] は、優先順位 A、B、または C が割り当てられたプロジェクトの一覧です。 
 
@@ -106,12 +106,12 @@ Power BI Desktop でのリレーションシップのしくみを理解できる
 
 | **ProjName** | **Priority** |
 | --- | --- |
-| 青 |A |
+| ブルー |A |
 | 赤 |B |
-| 緑 |C |
+| グリーン |C |
 | 黄 |C |
-| 紫 |B |
-| オレンジ色 |C |
+| パープル |B |
+| オレンジ |C |
 
 各テーブルにプロジェクトの列があることに注意してください。 それぞれのテーブルで名前はわずかに異なりますが、値は同じように見えます。 これは重要な点です。後でまた説明します。
 
@@ -184,20 +184,20 @@ Power BI Desktop でのリレーションシップのしくみを理解できる
 
 | **Approved Projects** | **BudgetAllocation** | **AllocationDate** |
 |:--- | ---:| ---:|
-| 青 |40,000 |2012 年 12 月 1 日 |
-| 赤 |100,000 |2012 年 12 月 1 日 |
+| ブルー |40,000 |2012 年 12 月 1 日 |
+| レッド |100,000 |2012 年 12 月 1 日 |
 | 緑 |50,000 |2012 年 12 月 1 日 |
 
 **CompanyProjectPriority**
 
 | **Project** | **Priority** |
 | --- | --- |
-| 青 |A |
+| ブルー |A |
 | 赤 |B |
-| 緑 |C |
+| グリーン |C |
 | 黄 |C |
-| 紫 |B |
-| オレンジ色 |C |
+| パープル |B |
+| オレンジ |C |
 
 [CompanyProjectPriority] テーブルの [プロジェクト] 列と [ProjectBudget] テーブルの [承認済みプロジェクト] 列の間にリレーションシップを作成すると、次のようになります。
 
@@ -208,11 +208,11 @@ Power BI Desktop でのリレーションシップのしくみを理解できる
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 |:--- | --- | ---:| ---:|
 | 青 |A |40,000 |2012 年 12 月 1 日 |
-| 赤 |B |100,000 |2012 年 12 月 1 日 |
-| 緑 |C |50,000 |2012 年 12 月 1 日 |
-| 黄 |C |<br /> |<br /> |
-| 紫 |B |<br /> |<br /> |
-| オレンジ色 |C |<br /> |<br /> |
+| レッド |B |100,000 |2012 年 12 月 1 日 |
+| グリーン |C |50,000 |2012 年 12 月 1 日 |
+| イエロー |C |<br /> |<br /> |
+| パープル |B |<br /> |<br /> |
+| オレンジ |C |<br /> |<br /> |
 
 2 つのテーブル間には一対一のリレーションシップがあります。これは、結合したテーブルの [プロジェクト] 列に値の繰り返しがないためです。 [プロジェクト] 列は一意です。これは、各値が 1 回のみ発生するためです。このため、2 つのテーブルの行を重複なしで直接結合することができます。
 
@@ -222,24 +222,24 @@ Power BI Desktop でのリレーションシップのしくみを理解できる
 
 | **Approved Projects** | **BudgetAllocation** | **AllocationDate** |
 | --- | ---:| ---:|
-| 青 |40,000 |2012 年 12 月 1 日 |
-| 赤 |100,000 |2012 年 12 月 1 日 |
+| ブルー |40,000 |2012 年 12 月 1 日 |
+| レッド |100,000 |2012 年 12 月 1 日 |
 | 緑 |50,000 |2012 年 12 月 1 日 |
-| 青 |80,000 |2013 年 6 月 1 日 |
-| 赤 |90,000 |2013 年 6 月 1 日 |
+| ブルー |80,000 |2013 年 6 月 1 日 |
+| レッド |90,000 |2013 年 6 月 1 日 |
 
  これは、2 つのテーブルの最良の組み合わせが次のようになることを意味します。 
 
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 | --- | --- | ---:| ---:|
 | 青 |A |40,000 |2012 年 12 月 1 日 |
-| 赤 |B |100,000 |2012 年 12 月 1 日 |
-| 緑 |C |50,000 |2012 年 12 月 1 日 |
-| 黄 |C |<br /> |<br /> |
-| 紫 |B |<br /> |<br /> |
-| オレンジ色 |C |<br /> |<br /> |
-| 青 |A |80000 |2013 年 6 月 1 日 |
-| 赤 |B |90000 |2013 年 6 月 1 日 |
+| レッド |B |100,000 |2012 年 12 月 1 日 |
+| グリーン |C |50,000 |2012 年 12 月 1 日 |
+| イエロー |C |<br /> |<br /> |
+| パープル |B |<br /> |<br /> |
+| オレンジ |C |<br /> |<br /> |
+| ブルー |A |80000 |2013 年 6 月 1 日 |
+| レッド |B |90000 |2013 年 6 月 1 日 |
 
 この結合された新しいテーブルでは、[プロジェクト] 列に値の繰り返しがあります。 テーブルが更新されると、元の 2 つのテーブルに一対一のリレーションシップはなくなります。 この場合、今後の更新によって [プロジェクト] 列に重複が生じることがわかっているため、カーディナリティを多対一 (\*:1) に設定する必要があります。ここで、"多" は ProjectBudget 側で、"一" は CompanyProjectPriority 側です。
 
@@ -290,17 +290,17 @@ Power BI Desktop が自動的にリレーションシップを作成する際、
 
 | **Ticket** | **OpenedBy** | **SubmittedBy** | **Hours** | **Project** | **DateSubmit** |
 | ---:|:--- |:--- | ---:|:--- | ---:|
-| 1001 |Perham, Tom |Brewer, Alan |22 |青 |2013 年 1 月 1 日 |
-| 1002 |Roman, Daniel |Brewer, Alan |26 |赤 |2013 年 2 月 1 日 |
-| 1003 |Roth, Daniel |Ito, Shu |34 |黄 |2012 年 12 月 4 日 |
-| 1004 |Perham, Tom |Brewer, Alan |13 |オレンジ色 |2012 年 1 月 2 日 |
-| 1005 |Roman, Daniel |Bowen, Eli |29 |紫 |2013 年 10 月 1 日 |
-| 1006 |Roth, Daniel |Bento, Nuno |35 |緑 |2013 年 2 月 1 日 |
-| 1007 |Roth, Daniel |Hamilton, David |10 |黄 |2013 年 10 月 1 日 |
+| 1001 |Perham, Tom |Brewer, Alan |22 |ブルー |2013 年 1 月 1 日 |
+| 1002 |Roman, Daniel |Brewer, Alan |26 |レッド |2013 年 2 月 1 日 |
+| 1003 |Roth, Daniel |Ito, Shu |34 |イエロー |2012 年 12 月 4 日 |
+| 1004 |Perham, Tom |Brewer, Alan |13 |オレンジ |2012 年 1 月 2 日 |
+| 1005 |Roman, Daniel |Bowen, Eli |29 |紫 |2013/10/1 |
+| 1006 |Roth, Daniel |Bento, Nuno |35 |グリーン |2013 年 2 月 1 日 |
+| 1007 |Roth, Daniel |Hamilton, David |10 |イエロー |2013/10/1 |
 | 1008 |Perham, Tom |Han, Mu |28 |オレンジ色 |2012 年 1 月 2 日 |
-| 1009 |Roman, Daniel |Ito, Shu |22 |紫 |2013 年 2 月 1 日 |
-| 1010 |Roth, Daniel |Bowen, Eli |28 |緑 |2013 年 10 月 1 日 |
-| 1011 |Perham, Tom |Bowen, Eli |9 |青 |2013 年 10 月 15 日 |
+| 1009 |Roman, Daniel |Ito, Shu |22 |パープル |2013 年 2 月 1 日 |
+| 1010 |Roth, Daniel |Bowen, Eli |28 |グリーン |2013 年 10 月 1 日 |
+| 1011 |Perham, Tom |Bowen, Eli |9 |ブルー |2013 年 10 月 15 日 |
 
 **EmployeeRole**
 

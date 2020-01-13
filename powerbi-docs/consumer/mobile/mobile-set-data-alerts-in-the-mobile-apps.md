@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
-ms.author: mshenhav
-ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/11/2019
+ms.author: painbar
+ms.openlocfilehash: 7668df00d63fc1bdb8bb0e113fa9ad7e0f029147
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870111"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221379"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータ アラートを設定する
 適用対象:
@@ -62,7 +62,8 @@ Power BI Pro のライセンスがある場合、または共有ダッシュボ�
 
 1. ダッシュボードで、アラートのある数値タイルまたはゲージ タイルをタップします。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+
 2. ベルのアイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png) をタップします。  
 3. アラートの名前をタップして編集するか、スライダーをタップして電子メール アラートをオフにするか、ごみ箱をタップしてアラートを削除します。
    
@@ -135,7 +136,7 @@ Power BI モバイル アプリでは個別のアラートを管理でき、[Pow
 3. アラートをタップして、値を変更したり、オフにしたりします。
    
     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
-4. アラートをまとめて削除するには、右クリックまたは長押しして、**[削除]** をタップします。
+4. アラートをまとめて削除するには、右クリックまたは長押しして、 **[削除]** をタップします。
 
 ## <a name="receiving-alerts"></a>アラートの受信
 モバイル デバイスの Power BI [通知センター](mobile-apps-notification-center.md)または Power BI サービスで、アラートと共に、他のユーザーによって共有するように設定された新しいダッシュボードについての通知を受信します。
@@ -148,10 +149,12 @@ Power BI モバイル アプリでは個別のアラートを管理でき、[Pow
 2. 電子メールを送信するようにアラートを設定した場合は、次のようなメールを受信します。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI は、メッセージを**通知センター**に追加し、新しいアラート アイコンを該当するタイル ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) に追加します。
-4. [グローバル ナビゲーション] ボタン ![](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) をタップして [**通知センター**を開き](mobile-apps-notification-center.md)、アラートの詳細を表示します。
+3. Power BI では、ご利用の[通知センター](mobile-apps-notification-center.md)にメッセージが追加され、タイトル バーのベルのアイコン ![ベルのアイコン](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) (iOS と Android の場合) か、![グローバル ナビゲーション ボタン](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (Windows 10 デバイスの場合) に黄色い点が追加されます。
+
+
+4. ベルのアイコン ![ベルのアイコン](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) かグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)をタップし、[**通知センター**を開き](mobile-apps-notification-center.md)、アラートの詳細を表示します。
    
-     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-notifications.png) 
+     
 
 > [!NOTE]
 > アラートは更新されたデータでのみ動作します。 データが更新されると、Power BI はそのデータにアラートが設定されているかどうかを確認します。 データがアラートのしきい値に達した場合、アラートがトリガーされます。

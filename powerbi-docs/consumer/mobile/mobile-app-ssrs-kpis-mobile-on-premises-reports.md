@@ -1,19 +1,19 @@
 ---
 title: Power BI モバイル アプリでオンプレミス レポートと KPI を表示する
 description: Power BI モバイル アプリを使って、タッチ対応のモバイルから SQL Server Reporting Services と Power BI のレポート サーバー内のオンプレミスのビジネス情報に簡単にアクセスできます。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/13/2018
-ms.author: mshenhav
-ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/05/2019
+ms.author: painbar
+ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879442"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220077"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでオンプレミスのレポート サーバーのレポートと KPI を表示する
 
@@ -40,8 +40,9 @@ Power BI モバイル アプリで最大 5 個のレポート サーバーに接
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>サーバーを接続せずにモバイル アプリでサンプルを参照する
 Reporting Services の Web ポータルへのアクセス権がない場合でも、Reporting Services のモバイル レポートや KPI の機能を参照できます。 
 
-1. 左上隅にあるグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) をタップし、右上にある歯車アイコンをタップします。 ![歯車アイコン](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
-2. **[Reporting Services のサンプル]** をタップし、サンプルの KPI やモバイル レポートを参照して操作します。
+1. 左上隅にある自分のプロファイル写真をタップし、スライドして現れるアカウント パネルの **[設定]** をタップします。
+
+2. [設定] ページが開いたら、 **[Reporting Services のサンプル]** をタップし、サンプルの KPI やモバイル レポートを参照して操作します。
    
    ![Reporting Services サンプル](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
@@ -53,36 +54,35 @@ Power BI モバイル アプリでオンプレミスの Power BI レポート、
    
    ![レポート サーバーにサインインする](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
-   Power BI アプリに既にサインインしている場合は、グローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)をタップし、右上にある ![歯車アイコン](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png) をタップします。
-3. **[サーバーに接続]** をタップします。
+   Power BI アプリに既にサインインしている場合、左上隅にある自分のプロファイル写真をタップし、スライドして現れるアカウント パネルの **[設定]** をタップします。
+3. [設定] ページが開いたら、 **[サーバーに接続]** をタップします。
    
     ![サーバーに接続する](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
 
-     モバイル アプリは、何らかの方法でサーバーにアクセスする必要があります。 これを行うには、いくつかの方法があります。
+    モバイル アプリは、何らかの方法でサーバーにアクセスする必要があります。 これを行うには、いくつかの方法があります。
+     * 同じネットワークに接続して VPN を使うのが最も簡単な方法です。
+     * Web アプリケーション プロキシを使って組織の外から接続することができます。 詳しくは、「[OAuth を使って Reporting Services に接続する](mobile-oauth-ssrs.md)」をご覧ください。
+     * ファイアウォールで接続 (ポート) を開きます。
 
-    - 同じネットワークに接続して VPN を使うのが最も簡単な方法です。
-    - Web アプリケーション プロキシを使って組織の外から接続することができます。 詳しくは、「[OAuth を使って Reporting Services に接続する](mobile-oauth-ssrs.md)」をご覧ください。 
-    - ファイアウォールで接続 (ポート) を開きます。
-
-1. サーバーのアドレス、ユーザー名、パスワードを入力します。 サーバーのアドレスには次の形式を使用します。
+4. サーバー アドレスに入力し、必要であればサーバーにわかりやすい名前を付けます。 サーバーのアドレスには次の形式を使用します。
    
      `https://<servername>/reports`
    
-     OR
+     または
    
      `https://<servername>/reports`
    
    接続文字列の前に **http** または **https** を含めてください。
    
     ![[サーバーに接続] ダイアログ ボックス](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
-5. (省略可能) 必要に応じて、 **[詳細オプション]** でサーバーのわかりやすい名前を指定できます。
-6. ナビ ペインにサーバー (この例では、"power bi report server") が表示されます。
+5. サーバー アドレスを入力し、任意でわかりやすい名前を付けたら、 **[接続]** をタップし、入力を求められたらユーザー名とパスワードを入力します。
+6. これで [アカウント] ウィンドウにサーバーが表示されます。この例では "Work server" という名前になっています。
    
    ![ナビ ペインのレポート サーバー](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
-## <a name="connect-to-an-on-premises-report-server-in-ios"></a>iOS でオンプレミス レポート サーバーに接続する
+## <a name="connect-to-an-on-premises-report-server-in-ios-or-android"></a>iOS または Android でオンプレミス レポート サーバーに接続する
 
-iOS モバイル アプリで Power BI を表示している場合、IT 管理者によりアプリ構成ポリシーが定義されている可能性があります。 その場合、レポート サーバーへの接続が合理化されているので、レポート サーバーに接続するときに、たくさんの情報を入力する必要がありません。 
+iOS または Android のモバイル アプリで Power BI を表示している場合、IT 管理者によりアプリ構成ポリシーが定義されている可能性があります。 その場合、レポート サーバーへの接続が合理化されているので、レポート サーバーに接続するときに、たくさんの情報を入力する必要がありません。 
 
 1. レポート サーバーでモバイル アプリが構成されていることを示すメッセージが表示されます。 **[サインイン]** をタップしてください。
 
@@ -117,7 +117,7 @@ Power BI レポート、Reporting Services モバイル レポート、KPI は�
 ## <a name="view-your-favorite-kpis-and-reports"></a>お気に入りの KPI とレポートを表示する
 KPI とレポートを Web ポータルでお気に入りとしてマークし、モバイル デバイスの 1 つの便利なフォルダーに Power BI のお気に入りダッシュボードと共に表示できます。
 
-* **[お気に入り]** をタップします。
+* ナビゲーション バーの **[お気に入り]** をタップします。
   
    ![ナビ ペインの [お気に入り]](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
@@ -126,8 +126,8 @@ KPI とレポートを Web ポータルでお気に入りとしてマークし�
    ![[お気に入り] ページの Power BI レポートとダッシュボード](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>レポート サーバーへの接続を削除する
-1. ナビ ペインの下部にある **[設定]** をタップします。
-2. 接続を望まないサーバー名をタップします。
+1. [アカウント] ウィンドウを開き、 **[設定]** をタップします。
+2. 接続を望まないサーバーの名前をタップします。
 3. **[サーバーの削除]** をタップします。
 
 ## <a name="next-steps"></a>次の手順

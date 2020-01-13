@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881939"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223860"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>他のワークスペースからレポートをコピーする (プレビュー)
 
@@ -27,7 +27,7 @@ ms.locfileid: "73881939"
 
 1. アプリまたはワークスペースで、[レポート] リスト ビューに移動します。
 
-1. **[アクション]** で、**[コピーの保存]** を選択します。
+1. **[アクション]** で、 **[コピーの保存]** を選択します。
 
     ![レポートのコピーを作成する](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
@@ -37,7 +37,7 @@ ms.locfileid: "73881939"
 
     ![[コピーの保存] ダイアログ ボックス](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    レポートを現在のワークスペースまたは Power BI サービスの別のワークスペースに保存できます。 自分がメンバーである新しいエクスペリエンス ワークスペースのワークスペースのみが表示されます。
+    保存できるワークスペースは、コピー元の場所によって異なります。 ワークスペースからコピーする場合は、レポートを現在のワークスペースまたは Power BI サービスの別のワークスペースに保存できます。 自分がメンバーである新しいエクスペリエンス ワークスペースのワークスペースのみが表示されます。 アプリからコピーする場合は、レポートを個人用ワークスペースに保存できます。
   
 4. **[保存]** を選択します。
 
@@ -54,7 +54,7 @@ ms.locfileid: "73881939"
 
 ワークスペースにレポートがあるときに、必要に応じてどのデータセットに基づいているかを確認することができます。
 
-1. [レポート] リスト ビューで、**[関連の表示]** を選択します。
+1. [レポート] リスト ビューで、 **[関連の表示]** を選択します。
 
     ![[関連の表示] アイコン](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
@@ -70,7 +70,7 @@ ms.locfileid: "73881939"
 
     ![レポートの削除アイコン](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
 
-2. データセットの一覧で、共有データセットには**削除**アイコンがないことがわかります。 ページを最新の情報に更新するか、別のページに移動して戻ります。 データセットがなくなります。 そうでない場合は、**[関連の表示]** を確認してください。 ワークスペース内の別のテーブルに関連している可能性があります。
+2. データセットの一覧で、共有データセットには**削除**アイコンがないことがわかります。 ページを最新の情報に更新するか、別のページに移動して戻ります。 データセットがなくなります。 そうでない場合は、 **[関連の表示]** を確認してください。 ワークスペース内の別のテーブルに関連している可能性があります。
 
     ![[関連の表示] アイコン](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 

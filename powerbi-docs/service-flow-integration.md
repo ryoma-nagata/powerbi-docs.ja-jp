@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699684"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223778"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate と Power BI
 
-[Power Automate](https://flow.microsoft.com/documentation/getting-started) は、ビジネス ユーザーが依存するアプリケーションや SaaS サービスが増える中で、全体のワークフローを自動化する機能を提供する SaaS です。 Flow を使用すると、お気に入りのアプリとサービス (Power BI を含む) を統合して、通知の受信、ファイルの同期、データの収集などのタスクを自動化できます。 ワークフローを自動化すると、反復的なタスクが容易になります。
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started) は、ビジネス ユーザーが依存するアプリケーションや SaaS サービスが増える中で、全体のワークフローを自動化する機能を提供する SaaS です。 Flow を使用すると、お気に入りのアプリとサービス (Power BI を含む) を統合して、通知の受信、ファイルの同期、データの収集などのタスクを自動化できます。 ワークフローを自動化すると、反復的なタスクが容易になります。
 
-[今すぐ Flow を使い始めましょう。](https://flow.microsoft.com/documentation/getting-started)
+[今すぐ Flow を使い始めましょう。](https://docs.microsoft.com/power-automate/getting-started)
 
 Power BI のアラートがトリガーされたときに詳細なメールを同僚に送信するフローを Sirui が作成するところをご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。
 
@@ -47,7 +47,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
     ![検索結果](media/service-flow-integration/power-bi-flow-alert.png)
 
 
-### <a name="build-the-flow"></a>フローを構築する
+### <a name="build-the-flow"></a>フローの作成
 このテンプレートには、1 つのトリガー (アイルランドが新しいオリンピック メダルを獲得するとトリガーされる Power BI データ アラート) と、1 つのアクション (メールを送信する) が含まれています。 Flow でフィールドを選択すると、含めることができる動的なコンテンツが表示されます。  この例では、メッセージの本文にタイル値とタイル URL を含めています。
 
 ![フロー テンプレート](media/service-flow-integration/power-bi-template1.png)
@@ -86,7 +86,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
    ![フロー上部メニュー バー](media/service-flow-integration/power-bi-my-flows.png)
 3. [検索] ボックスを使用して Power BI トリガーを検索し、 **[Power BI - When a data driven alert is triggered]\(Power BI - データ ドリブン アラートがトリガーされた場合\)** を選択します。
 
-### <a name="build-your-flow"></a>フローを構築する
+### <a name="build-your-flow"></a>フローを作成する
 1. ドロップダウンからアラート名を選択します。  アラートの作成方法については、「[Data alerts in Power BI](service-set-data-alerts.md)」(Power BI のデータ アラート) を参照してください。
    
     ![アラートの名前の選択](media/service-flow-integration/power-bi-totalstores2.png)
@@ -107,7 +107,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
     ![フローによる Outlook 通知のトリガー](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>次の手順
-* [Power Automate の概要](https://flow.microsoft.com/documentation/getting-started/)
+* [Power Automate の概要](https://docs.microsoft.com/power-automate/getting-started/)
 * [Power BI サービスでのデータ アラートの設定](service-set-data-alerts.md)
 * [iPhone でデータ アラートを設定する](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10 用の Power BI モバイル アプリでデータ アラートを設定する](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

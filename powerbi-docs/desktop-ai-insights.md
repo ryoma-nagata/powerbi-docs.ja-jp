@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a1f6adfcf471fa6805e0a99c4b8789ba9eb7cf58
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: c2985f0281274adcdbde737c0f3b00688a401df7
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016666"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221277"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Power BI Desktop で AI 分析情報を使用する (プレビュー)
 
@@ -149,7 +149,7 @@ Text Analytics を使用するときに留意が必要な注意事項と制限�
 
 ## <a name="using-azure-ml"></a>Azure ML の使用
 
-多くの組織が **Machine Learning** モデルを使用して、ビジネスに関する分析情報の質や予測を向上させています。 これらのモデルからの分析情報は、レポートやダッシュボードなどの分析で視覚化したり、呼び出したりできるので、その情報を最も必要としているビジネス ユーザーに提供することが可能です。 Power BI では、ポイントアンドクリック ジェスチャを使用するだけで、Azure Machine Learning service 上でホストされているモデルから、簡単に分析情報を取り込めます。
+多くの組織が **Machine Learning** モデルを使用して、ビジネスに関する分析情報の質や予測を向上させています。 これらのモデルからの分析情報は、レポートやダッシュボードなどの分析で視覚化したり、呼び出したりできるので、その情報を最も必要としているビジネス ユーザーに提供することが可能です。 Power BI では、ポイントアンドクリック ジェスチャを使用するだけで、Azure Machine Learning 上でホストされているモデルから、簡単に分析情報を取り込めます。
 
 この機能を使用するには、最初にデータ サイエンティストが Azure portal を使用して、Azure ML モデルへのアクセス権を BI アナリストに付与します。 次に、Power Query が、セッションが開始されるたびに、ユーザーがアクセス可能なすべての Azure ML モデルを検出して、動的な Power Query 関数として公開します。 ユーザーがこれらの関数を呼び出すには、Power Query エディター内のリボンからこれらの関数にアクセスするか、M 関数を直接呼び出します。 また、一連の行のパフォーマンスを向上させるため、Power BI は、Azure ML モデルを呼び出すときに、アクセス要求を自動的にバッチ処理します。
 
@@ -159,15 +159,15 @@ Text Analytics を使用するときに留意が必要な注意事項と制限�
 
 Azure Machine Learning の詳細については、以下の記事を参照してください。
 
-- 概要:「[What is Azure Machine Learning service? (Azure Machine Learning について)](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)」
+- 概要:[Azure Machine Learning とは](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - Azure Machine Learning のクイック スタートおよびチュートリアル:「[Azure Machine Learning のドキュメント](https://docs.microsoft.com/azure/machine-learning/)」
 
 ### <a name="granting-access-to-an-azure-ml-model"></a>Azure ML モデルへのアクセス権の付与
 
 Power BI から Azure ML モデルにアクセスするには、Azure サブスクリプションへの**読み取り**アクセス権が必要です。 さらに、以下を所有している必要があります。
 
-- Machine Learning Studio モデルの場合は、Machine Learning Studio Web サービスへの**読み取り**アクセス権
-- Machine Learning service モデルの場合は、Machine Learning service ワークスペースへの**読み取り**アクセス権
+- Machine Learning Studio (クラシック) モデルの場合は、Machine Learning Studio (クラシック) Web サービスへの**読み取り**アクセス権
+- Machine Learning モデルの場合は、Machine Learning ワークスペースへの**読み取り**アクセス権
 
 このセクションでは、Azure ML service でホストされているモデルへのアクセス権を Power BI ユーザーに付与して、このモデルに Power Query 関数としてアクセスできるようにする手順を説明します。 詳細については、[RBAC および Azure portal を使用したアクセスの管理](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)に関する記事を参照してください。
 
@@ -177,20 +177,20 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 4. **[アクセス制御 (IAM)]** を選択し、 **[追加]** ボタンを選択します。
 5. ロールとして **[閲覧者]** を選択します。 Azure ML モデルへのアクセス権を付与する Power BI ユーザーを選択します。
 6. **[保存]** を選択する
-7. 上記の 3 ～ 6 の手順を繰り返し、特定の Machine Learning Studio Web サービスのユーザー、*または*モデルをホストしている Machine Learning service ワークスペースのユーザーに **[閲覧者]** アクセス権を付与します。
+7. 上記の 3 から 6 の手順を繰り返し、特定の Machine Learning Studio (クラシック) Web サービスのユーザー、"*または*" モデルをホストしている Machine Learning ワークスペースのユーザーに **[閲覧者]** アクセス権を付与します。
 
-### <a name="schema-discovery-for-machine-learning-service-models"></a>Machine Learning service モデルのスキーマの検出
+### <a name="schema-discovery-for-machine-learning-models"></a>Machine Learning モデルのスキーマの検出
 
-データ サイエンティストは、Machine Learning service の機械学習モデルを開発する際、さらにはデプロイする際にも、主に Python を使用しています。 モデルのスキーマ ファイルの作成タスクを自動化する Machine Learning Studio とは異なり、Machine Learning service の場合、データ サイエンティストは、Python を使用して、スキーマ ファイルを明示的に生成する必要があります。
+データ サイエンティストは、Machine Learning の機械学習モデルを開発する際、さらにはデプロイする際にも、主に Python を使用しています。 モデルのスキーマ ファイルの作成タスクを自動化する Machine Learning Studio (クラシック) とは異なり、Machine Learning の場合、データ サイエンティストは、Python を使用して、スキーマ ファイルを明示的に生成する必要があります。
 
-Machine Learning service モデルでは、デプロイされた Web サービスにこのスキーマ ファイルを含める必要があります。 Web サービスのスキーマを自動的に生成するには、デプロイされたモデルのエントリ スクリプトで入力/出力のサンプルを指定する必要があります。 記事「[Azure Machine Learning を使用してモデルをデプロイする」のサブセクション「(省略可能) Swagger スキーマの自動生成」](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation)を参照してください。 このリンクには、スキーマ生成のステートメントを含む、エントリ スクリプトの例が含まれます。
+Machine Learning モデルでは、デプロイされた Web サービスにこのスキーマ ファイルを含める必要があります。 Web サービスのスキーマを自動的に生成するには、デプロイされたモデルのエントリ スクリプトで入力/出力のサンプルを指定する必要があります。 記事「[Azure Machine Learning を使用してモデルをデプロイする」のサブセクション「(省略可能) Swagger スキーマの自動生成」](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation)を参照してください。 このリンクには、スキーマ生成のステートメントを含む、エントリ スクリプトの例が含まれます。
 
 具体的には、エントリ スクリプト内の _@input\_schema_ 関数と _@output\_schema_ 関数によって、 _input\_sample_変数と _output\_sample_ 変数の入出力のサンプル形式が参照され、デプロイ時にこれらのサンプルを使用して Web サービス用の OpenAPI (Swagger) 仕様が生成されます。
 
 エントリ スクリプトの更新によるこれらのスキーマ生成は、Azure Machine Learning SDK を使用して自動機械学習エクスペリエンスにより作成されたモデルにも適用する必要があります。
 
 > [!NOTE]
-> Azure Machine Learning service ビジュアル インターフェイスを使用して作成されたモデルでは、現在のところスキーマ生成はサポートされていませんが、今後のリリースではサポートされる予定です。
+> Azure Machine Learning ビジュアル インターフェイスを使用して作成されたモデルでは、現在のところスキーマ生成はサポートされていませんが、今後のリリースではサポートされる予定です。
 > 
 ### <a name="invoking-an-azure-ml-model-in-power-query"></a>Power BI での Azure ML モデルの呼び出し
 
@@ -212,7 +212,7 @@ Azure ML モデルを呼び出すには、選択したエンティティのい�
 
 Power BI Desktop の Azure ML には、次の考慮事項と制限事項が適用されます。
 
-* Azure Machine Learning service ビジュアル インターフェイスを使用して作成されたモデルでは、現在のところスキーマ生成はサポートされていません。 今後のリリースでサポートされる予定です。
+* Azure Machine Learning ビジュアル インターフェイスを使用して作成されたモデルでは、現在のところスキーマ生成はサポートされていません。 今後のリリースでサポートされる予定です。
 * 増分更新はサポートされていますが、AI 分析情報を含むクエリで使用すると、パフォーマンスの問題が発生する可能性があります。
 * 直接クエリはサポートされていません。
 
@@ -220,8 +220,8 @@ Power BI Desktop の Azure ML には、次の考慮事項と制限事項が適�
 
 この記事では、Machine Learning を Power BI Desktop. に統合する手順を概説しました。 以下の記事も興味深い内容で、役立つかもしれません。
 
-- [チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し](service-tutorial-invoke-machine-learning-model.md)
-- [チュートリアル:Power BI での Cognitive Services の使用](service-tutorial-use-cognitive-services.md)
+- [チュートリアル: Power BI での Machine Learning Studio (クラシック) モデルの呼び出し](service-tutorial-invoke-machine-learning-model.md)
+- [チュートリアル: Power BI での Cognitive Services の使用](service-tutorial-use-cognitive-services.md)
 - [Power BI の Cognitive Services](service-cognitive-services.md)
 - [Azure Machine Learning の Power BI への統合](service-machine-learning-integration.md)
 - [アプリで Premium 容量を監視する](service-admin-premium-monitor-capacity.md)

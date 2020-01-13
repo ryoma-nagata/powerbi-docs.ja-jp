@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099753"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622451"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI でのテンプレート アプリの作成に関するヒント
 
@@ -131,13 +131,13 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 * 必ず [Power BI アプリ オファー](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)のドキュメントに従ってください。
 * ダッシュボードがご自身のアプリに含まれる場合は、空でないことを確認します。
 * アプリを送信する前に、アプリ リンクを使用してそのアプリをインストールします。データセットに接続できることと、計画したとおりのアプリ エクスペリエンスであることを確認します。
-* bpix をテンプレート ワークスペースにアップロードする前に、不要な接続すべてをアンロードしてください。
+* pbix をテンプレート ワークスペースにアップロードする前に、不要な接続すべてをアンロードしてください。
 * Power BI の「[レポートとビジュアルのデザインに関するベスト プラクティス](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)」に従って、ユーザーに対する効果を最大限に高め、配布の承認を得ます。
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>既知の制限事項
 
-| 特性 | 既知の制限事項 |
+| 特徴 | 既知の制限事項 |
 |---------|---------|
 |コンテンツ:データセット   | 厳密に 1 つのデータセットが存在する必要があります。 Power BI Desktop で作成されたデータセット (.pbix ファイル) だけが許可されます。 <br>非サポート:他のテンプレート アプリからのデータセット、クロス ワークスペース データセット、改ページ調整されたレポート (.rdl ファイル)、Excel ブック |
 |コンテンツ:ダッシュボード | リアルタイム タイルは許可されません (つまり、プッシュまたはストリーミング データセットはサポートされていません) |

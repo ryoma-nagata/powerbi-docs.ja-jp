@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 934f045e2546893c48211729402a773b4bbe2aa0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696763"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223703"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium の大規模なモデル (プレビュー)
 
@@ -118,23 +118,4 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 - **Multi-geo のサポート**: Premium ファイルに対して有効になっているデータセットは、[Multi-geo](service-admin-premium-multi-geo.md) も有効になっている容量で失敗します。
 
 - **Power BI Desktop へのダウンロード**: データセットが Premium ファイルに格納されている場合、[.pbix ファイルとしてのダウンロード](service-export-to-pbix.md)は失敗します。
-- **サポートされているリージョン**: 大規模なモデルは、次のリージョンでサポートされています。
-  - オーストラリア東部
-  - オーストラリア南東部
-  - 米国中部
-  - 東アジア
-  - 米国東部
-  - 米国東部 2
-  - 東日本
-  - 西日本
-  - 韓国中部
-  - 韓国南部
-  - 米国中北部
-  - 北ヨーロッパ
-  - 米国中南部
-  - 東南アジア
-  - 英国南部
-  - 英国西部
-  - 西ヨーロッパ
-  - 米国西部
-  - 米国西部 2
+- **サポートされているリージョン**: 大規模なモデルは、Premium ファイル ストレージをサポートするすべての Azure リージョンでサポートされています。 詳細については、「[リージョン別の利用可能な製品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)」を参照してください。

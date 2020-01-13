@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311097"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223407"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>チュートリアル:顧客向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -78,7 +78,7 @@ Power BI Desktop を使用してレポートとデータセットを作成し、
 
 ## <a name="embed-content-using-the-sample-application"></a>サンプル アプリケーションを使用してコンテンツを埋め込む
 
-このサンプルは実演目的から意図的に単純に作られています。 アプリケーション シークレットやマスター アカウント資格情報の保護はユーザーや開発者の責任となります。
+このサンプルは実演目的から意図的に単純に作られています。 アプリケーション シークレットやマスター アカウント資格情報の保護は、お客様や開発者の責任となります。
 
 次の手順に従い、サンプル アプリケーションを使用してコンテンツの埋め込みを開始します。
 
@@ -435,6 +435,8 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>専用の容量にワークスペースを割り当てる
 
 専用の容量を作成した後、ワークスペースをその専用の容量に割り当てることができます。
+
+埋め込みコンテンツ (データセット、レポート、ダッシュボードを含む) に関連する Power BI リソースを含むすべてのワークスペースは、専用容量に割り当てられる必要があります。 たとえば、埋め込みレポートとそれにバインドされているデータセットが異なるワークスペースに存在する場合、両方のワークスペースを専用容量に割り当てる必要があります。
 
 [サービス プリンシパル](embed-service-principal.md)を使用して専用の容量をワークスペースに割り当てるには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) を使用します。 Power BI REST API の使用時は必ず[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) を使用してください。
 

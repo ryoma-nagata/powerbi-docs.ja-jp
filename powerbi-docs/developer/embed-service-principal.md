@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264187"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223370"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI でのサービス プリンシパル
 
@@ -53,7 +53,7 @@ Power BI の成果物とリソースが[新しい Power BI ワークスペース
 
 認証に対するサービス プリンシパルと標準のマスター アカウント (Power BI Pro ライセンス) の使用には違いがあります。 次の表では、いくつかの重要な違いを示します。
 
-| 関数の呼び出し | マスター ユーザー アカウント <br> (Power BI Pro ライセンス) | サービス プリンシパル <br> (アプリ専用トークン) |
+| 関数 | マスター ユーザー アカウント <br> (Power BI Pro ライセンス) | サービス プリンシパル <br> (アプリ専用トークン) |
 |------------------------------------------------------|---------------------|-------------------|
 | Power BI サービスにサインインできる  | はい | いいえ |
 | Power BI 管理ポータルで有効にする | いいえ | はい |
@@ -150,7 +150,7 @@ Azure portal からサービス プリンシパル オブジェクト ID を取�
 
    ![ローカル ディレクトリでのマネージド アプリケーション](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > 上の図のオブジェクト ID は、サービス プリンシパルで使用されているものではありません。
 
 3. **[プロパティ]** を選択してオブジェクト ID を表示します。
@@ -174,6 +174,7 @@ PowerShell でサービス プリンシパル オブジェクト ID を取得す
 * [組織のアプリケーションへの埋め込み](embed-sample-for-your-organization.md)では、サービス プリンシパルを使用することはできません。
 * [データフロー](../service-dataflows-overview.md)管理はサポートされていません。
 * サービス プリンシパルでは現在、管理 API は一切サポートされていません。
+* サービス プリンシパルを [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) データ ソースと共に使用する場合、サービス プリンシパル自体に Azure Analysis Services インスタンスのアクセス許可が含まれている必要があります。 この目的のためのサービス プリンシパルを含むセキュリティ グループを使用することはできません。
 
 ## <a name="next-steps"></a>次の手順
 

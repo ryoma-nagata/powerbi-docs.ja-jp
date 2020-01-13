@@ -1,22 +1,22 @@
 ---
 title: iOS 用 Power BI モバイル アプリの使用を開始する
 description: Microsoft Power BI モバイル アプリ (iOS 向け) を利用すれば、Power BI を持ち歩き、オンプレミスやクラウドに置いてあるビジネス情報にモバイル アクセスできます。ここではその方法について説明します。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/08/2019
+ms.author: painbar
+ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870181"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220347"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS デバイスでの Power BI モバイル アプリの概要
-iPhone、iPad、iPod Touch に Microsoft Power BI for iOS アプリをインストールすれば、Power BI、Power BI Report Server、Reporting Services のビジネス インテリジェンスをモバイル利用できます。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
+iPhone または iPad 上の Microsoft Power BI for iOS アプリは、Power BI、Power BI Report Server、Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
 
 ![iPhone または iPad の Power BI モバイル アプリ](./media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
 
@@ -30,7 +30,7 @@ iOS の Power BI モバイル アプリで、オンプレミスまたはクラ�
 「[Power BI 用モバイル アプリの新機能](mobile-whats-new-in-the-mobile-apps.md)」をご覧ください。
 
 ## <a name="download-the-app"></a>アプリのダウンロード
-Apple App Store から iPhone、iPad、iPod Touch に [iOS アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkId=522062 "iOS アプリをダウンロード")します。
+Apple App Store から iPhone または iPad に [iOS アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkId=522062 "iOS アプリをダウンロード")します。
 
 Power BI for iOS アプリは、iOS 11 以降を実行している任意のデバイス上で実行できます。 
 
@@ -41,57 +41,32 @@ Power BI for iOS アプリは、iOS 11 以降を実行している任意のデ�
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI アプリの概要
 1. iOS デバイスで Power BI アプリを開きます。
 2. Power BI ダッシュボードを表示するには、 **[Power BI]** をタップします。  
-   Reporting Services のモバイル レポートと KPI を表示するには、 **[SQL Server Reporting Services]** をタップします。
+   Reporting Services のモバイル レポートと KPI を表示するには、 **[レポート サーバー]** をタップします。
    
-   ![Power BI モバイル アプリにログインする](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
+   ![Power BI モバイル アプリにサインインする](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   アプリを起動しているとき、左上隅にあるグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) をタップするだけで、この 2 つを切り替えることができます。 
+   アプリにサインインしたら、画面の左上隅にあるアカウント プロファイル画像をタップすると、2 つの間で切り替えられます。 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Power BI と Reporting Services のサンプルをお試しください。
-サインアップしなくても、Power BI と Reporting Services のサンプルを再生できます。 アプリをダウンロードした後、サンプルを表示するか、開始することができます。 グローバル ナビゲーションから、いつでも好きなときにサンプルに戻ることができます。
+サインアップしなくても、Power BI と Reporting Services のサンプルを表示したり、操作したりできます。
 
-### <a name="power-bi-samples"></a>Power BI サンプル
-Power BI ダッシュボードのサンプルを表示し、使ってみることができますが、実行できない操作もいくつかあります。 ダッシュボードの背面でレポートを開く操作、サンプルを他のユーザーと共有する操作、またはサンプルをお気に入りに追加する操作はできません。
+サンプルにアクセスするには、ナビゲーション バーの **[その他のオプション]** (...) をタップし、 **[サンプル]** を選択します。
 
-1. 左上隅にあるグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) をタップします。
-2. 右上の![歯車アイコン](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)をタップし、 **[Power BI サンプル]** をタップします。
-3. ロールを選択して、そのロールのサンプル ダッシュボードを探索します。  
-   
+さまざまな Power BI サンプルの後にレポート サーバーのサンプルが続きます。
+
    ![Power BI モバイル サンプル](./media/mobile-iphone-app-get-started/power-bi-iphone-powerbi-samples.png)
    
    > [!NOTE]
-   > サンプルではすべての機能を使用できるわけではありません。 たとえば、ダッシュボードの基になっているサンプル レポートは表示できません。 
+   > サンプルではすべての機能を使用できるわけではありません。 たとえば、ダッシュボードの基礎となるサンプル レポートは表示できません。サンプルは他のユーザーと共有できません。サンプルはお気に入りに設定することができません。 
    > 
-   > 
-
-### <a name="reporting-services-mobile-report-samples"></a>Reporting Services のモバイル レポートのサンプル
-1. 左上隅にあるグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) をタップします。
-2. 右上の![歯車アイコン](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png)をタップし、 **[Reporting Services サンプル]** をタップします。
-3. Retail Reports または Sales Reports フォルダーを開き、その KPI やモバイル レポートを調べます。
-   
-   ![Power BI モバイル アプリの Reporting Services のサンプル](./media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
+   >
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでコンテンツを見つける
-ダッシュボードとレポートの Power BI モバイル アプリ内で保存されている場所はソースによって異なります。 モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。 また、Power BI モバイル アプリに置かれているものは常に何でも検索できます。 
 
-![ナビ ペイン](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+Power BI コンテンツの検索を始めるにはヘッダーの虫眼鏡をタップします。
 
-モバイル アプリのコンテンツを見つける方法については[ここ](mobile-apps-quickstart-view-dashboard-report.md)をご覧ください。
-
-## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>お気に入りのダッシュボード、KPI、レポートを表示する
-モバイル アプリの [お気に入り] ページで、Power BI レポート サーバーおよび Reporting Services の KPI とレポートと共にすべてのお気に入りの Power BI ダッシュボードを表示することができます。 Power BI モバイル アプリでダッシュボードを *お気に入り* にすると、ブラウザーの Power BI サービスを含むすべてのデバイスからアクセスできます。 
-
-* **[お気に入り]** をタップします。
-  
-   ![ナビ ペインの [お気に入り]](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
-  
-   すべてのお気に入りが一緒にこのページに表示されます。
-  
-   ![[お気に入り] ページ](./media/mobile-iphone-app-get-started/power-bi-iphone-faves-report-server-number-callouts.png)
-  
-  1. Power BI サービスのダッシュボード
-  2. Power BI レポート サーバーの KPI
-  3. Power BI レポート サーバー上の Power BI レポート
+## <a name="view-your-favorite-dashboards-and-reports"></a>お気に入りのダッシュボードとレポートを表示する
+ナビゲーション バーの **[お気に入り]** (![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) をタップし、[お気に入り] ページを表示します。 
 
 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 

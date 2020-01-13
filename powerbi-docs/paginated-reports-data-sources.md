@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: f7662cbd2fb0085ad2e6fda6a33577d1cc29ddfb
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: bd58f5f5f6ceaad07cbba5d25508a160b3447f88
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831269"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304333"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI のページ分割されたレポートでサポートされるデータ ソース
 
@@ -28,7 +28,7 @@ ms.locfileid: "74831269"
 | Azure SQL Database <br>Azure SQL Data Warehouse | 基本、シングル サインオン (SSO)、OAuth2 |   |
 | Azure SQL Managed Instance | 基本 | Azure SQL Database 拡張機能を使用したパブリック エンドポイント経由  |
 | Azure Analysis Services | SSO、OAuth2 |   |
-| Power BI データセット | SSO | Premium と Premium 以外の Power BI データセット |
+| Power BI データセット | SSO | Premium と Premium 以外の Power BI データセット。 読み取りのアクセス許可が必要 |
 | Premium Power BI データセット (XMLA) | SSO |   |
 | データの入力 | 該当なし | データはレポートに埋め込まれます。 |
 

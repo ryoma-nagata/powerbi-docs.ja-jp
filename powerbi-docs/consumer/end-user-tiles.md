@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73861407"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI のダッシュボードのタイル
@@ -51,17 +51,17 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
    
     ここでは、次の操作を実行できます。
    
-   * [このタイルの作成に使われたレポートを開く](end-user-reports.md) ![レポート アイコン](./media/end-user-tiles/chart-icon.jpg)  
+   * [このタイルの作成に使われたレポートを開く ](end-user-reports.md) ![レポート アイコン](./media/end-user-tiles/chart-icon.jpg)  
    
    * [タイルの作成に使用した Q&A 質問を開く ](end-user-reports.md) ![Q&A アイコン](./media/end-user-tiles/qna-icon.png)  
    
 
-   * [このタイルの作成に使われたブックを開く](end-user-reports.md) ![ワークシート アイコン](./media/end-user-tiles/power-bi-open-worksheet.png)  
-   * [フォーカス モードでタイルを表示する](end-user-focus.md) ![フォーカス アイコン](./media/end-user-tiles/fullscreen-icon.jpg)  
-   * [分析情報を表示する](end-user-insights.md) ![分析情報アイコン](./media/end-user-tiles/power-bi-insights.png)
+   * [このタイルの作成に使われたブックを開く ](end-user-reports.md) ![ワークシート アイコン](./media/end-user-tiles/power-bi-open-worksheet.png)  
+   * [フォーカス モードでタイルを表示する ](end-user-focus.md) ![フォーカス アイコン](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [分析情報を表示する ](end-user-insights.md) ![分析情報アイコン](./media/end-user-tiles/power-bi-insights.png)
    * [コメントを追加し、ディスカッションを開始する ](end-user-comment.md) ![コメント アイコン](./media/end-user-tiles/comment-icons.png)
-   * [ダッシュボードのタイルで設定されたアラートを管理する](end-user-alerts.md) ![アラート アイコン](./media/end-user-tiles/power-bi-alert-icon.png)
-   * [Excel でデータを開く](end-user-export.md) ![エクスポート アイコン](./media/end-user-tiles/power-bi-export-icon.png)
+   * [ダッシュボードのタイルで設定されたアラートを管理する ](end-user-alerts.md) ![アラート アイコン](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Excel でデータを開く ](end-user-export.md) ![エクスポート アイコン](./media/end-user-tiles/power-bi-export-icon.png)
 
 
 3. 操作メニューを閉じるには、キャンバスの空白領域を選びます。

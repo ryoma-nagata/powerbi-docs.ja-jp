@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c20a366ef657e851ef77a9649dbcc8b66b67dac0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74695199"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304184"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX:DIVIDE 関数と除算演算子 (/)
 
@@ -58,7 +58,7 @@ DIVIDE([Profit], [Sales])
 
 分母が定数値の場合は、除算演算子を使用することをお勧めします。 この場合、除算は成功することが保証され、不要なテストを回避するため、式のパフォーマンスが向上します。
 
-DIVIDE 関数で代替値を返す必要があるかどうかを慎重に検討してください。 メジャーの場合、通常、意味のある結果を評価できない場合は BLANK を返す方が優れた設計です。 詳細については、「[BLANK を値に変換しない](dax-avoid-converting-blank.md)」を参照してください。
+DIVIDE 関数で代替値を返す必要があるかどうかを慎重に検討してください。 メジャーの場合は通常、空白を返すため、より優れたデザインとなります。 空白を返すことが良いのは、集計が空白の場合、既定ではレポートのビジュアルでグループ化が削除されるためです。 これにより、データが存在するグループにビジュアルを集中させることができます。 必要に応じて、[[データのない項目を表示する]](../desktop-show-items-no-data.md) オプションを有効にすることで、フィルター コンテキスト内の (値または空白を返す) すべてのグループを表示するようにビジュアルを構成できます。
 
 ## <a name="next-steps"></a>次の手順
 

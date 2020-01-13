@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74565676"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI で Project Web App に接続する
@@ -40,11 +40,11 @@ Power BI 用 [Project Web App テンプレート アプリ](https://appsource.mi
    ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. **[新しいアプリを開始する]** で **[データに接続]** を選択します。
    
-   ![データへの接続](media/service-connect-to-project-online/mproject.png)
+   ![データに接続する](media/service-connect-to-project-online/mproject.png)
 7. **[Project Web App の URL]** テキスト ボックスに、接続する Project Web App (PWA) の URL を入力します。  カスタム ドメインを使用している場合は例と異なる場合があることに注意してください。 **[PWA Site Language]\(PWA サイトの言語\)** テキスト ボックスに、PWA サイト言語に対応する番号を入力します。 英語には '1' を、フランス語には '2' を、ドイツ語には '3' を、ブラジルのポルトガル語には '4' を、ポルトガルのポルトガル語には '5' を、スペイン語には '6' を入力します。 
    
    ![Microsoft Project Online への接続](media/service-connect-to-project-online/params.png)
-8. [認証方法] として **[oAuth2]** を選択し、 **[サイン イン]** をクリックします。 プロンプトが表示されたら、Project Web App の資格情報を入力し、認証プロセスに従います。
+8. 認証方式として、 **[oAuth2]** \> **[サインイン]** を選択します。 プロンプトが表示されたら、Project Web App の資格情報を入力し、認証プロセスに従います。
 
     > [!NOTE]
     > 接続先の Project Web App のポートフォリオ閲覧者、ポートフォリオ マネージャー、または管理者のアクセス許可が必要です。

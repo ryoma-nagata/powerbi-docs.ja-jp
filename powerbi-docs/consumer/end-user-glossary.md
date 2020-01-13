@@ -2,19 +2,18 @@
 title: Power BI コンシューマー向け用語集
 description: Power BI には、多くの新しい用語と、使い慣れた用語の新しい使い方が導入されています。 用語集を使用して、Power BI の用語に慣れてください。
 services: power-bi
-ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 12/18/2019
 ms.author: mihart
-ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548535"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75303920"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -76,7 +75,9 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **content view (コンテンツ ビュー)**
 
-**cross filter, cross highlight (クロス フィルター、クロス強調表示)**
+**クロスフィルター処理** ビジュアルの相互作用に適用されます。 クロスフィルター処理では、該当しないデータが削除されます。 たとえば、ドーナツ グラフで **[モデレーション]** を選択すると、折れ線グラフがクロスフィルター処理されます。 折れ線グラフには、[モデレーション] セグメントに該当するデータ ポイントのみが表示されるようになります。
+
+**クロス強調表示** ビジュアルの相互作用に適用されます。 クロス強調表示では元のすべてのデータ ポイントが保持されますが、ご自分で選択した部分以外の部分は淡色表示になります。 たとえば、ドーナツ グラフで **[モデレーション]** を選択すると、縦棒グラフがクロス強調表示されます。 縦棒グラフでは、[モデレーション] セグメントに該当しないすべてのデータが淡色表示され、[モデレーション] セグメントに該当するすべてのデータが強調表示されます。
 
 **custom visual (カスタム ビジュアル)** コミュニティと Microsoft によって作成されるビジュアル。 Office ストアからダウンロードして、Power BI レポートで使用できます。
 
@@ -214,7 +215,7 @@ Power BI サービスの左端に沿って示されるコントロール。
 
 **Power BI**、**Power BI サービス**、**Power BI Desktop**、**Power BI Mobile**、一部の Power BI サービス。 *Power BI* は一般的な用語です。 多くの場合、*Power BI サービス*や *Power BI Mobile* などの完全な製品名の代わりに、最初の言及の後に使用されます。
 
-**Power BI Desktop** *Desktop* ともいいます。 ローカル コンピューターにインストールできる Power BI の無料の Windows アプリケーションで、データへの接続、変換、および視覚化を行うことができます。 レポート デザイナーと管理者によって使用されます。 詳しくは、「[Power BI とは](../fundamentals/power-bi-overview.md)」をご覧ください。
+**Power BI Desktop***Desktop* ともいいます。 ローカル コンピューターにインストールできる Power BI の無料の Windows アプリケーションで、データへの接続、変換、および視覚化を行うことができます。 レポート デザイナーと管理者によって使用されます。 詳しくは、「[Power BI とは](../fundamentals/power-bi-overview.md)」をご覧ください。
 
 **Power BI Embedded** 開発者が自分のアプリ、サイト、およびツールに Power BI ダッシュボードやレポートを埋め込むために使用される製品。
 
@@ -310,6 +311,8 @@ Power BI ダッシュボードにはレポート タイルが含まれていま�
 **value, values (値)** 視覚化される数値データ。
 
 **visual, visualization (ビジュアル、視覚エフェクト)** グラフ。 棒グラフ、ツリーマップ、ドーナツ グラフ、マップなどのビジュアルがあります。
+
+**ビジュアルの相互作用** Power BI の優れた機能の 1 つは、レポート ページ上のすべてのビジュアルが相互接続される方法です。 ビジュアルのいずれかのデータ ポイントを選択すると、そのデータを含むページ上の他のすべてのビジュアルが選択に基づいて変化します。
 
 **Visualizations pane (視覚エフェクト ウィンドウ)** Power BI サービスおよび Power BI Desktop の共有レポート キャンバスに付属する視覚エフェクト テンプレートの名前。 ネイティブの視覚エフェクトの種類ごとに、小さなテンプレート (アイコンともいう) が含まれています。  
 

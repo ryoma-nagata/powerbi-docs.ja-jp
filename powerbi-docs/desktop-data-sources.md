@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410950"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222152"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 
@@ -24,14 +24,12 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 ![Power BI Desktop でデータを取得する](media/desktop-data-sources/data-sources-01.png)
 
-**[その他]** を **[最も一般的]** メニューから選択すると、 **[データの取得]** ウィンドウが表示されます。 **[データの取得]** ウィンドウを表示する場合 ( **[最も一般的]** メニューをバイパスします)、 **[データの取得]** **アイコン ボタン** を直接選択することもできます。
+**[その他]** を **[最も一般的]** メニューから選択すると、 **[データの取得]** ウィンドウが表示されます。 **[データを取得]** **アイコン ボタン**を直接選択して、 **[データを取得]** ウィンドウを表示することもできます ( **[最も一般的]** メニューをパイパスします)。
 
 ![[データの取得] ボタン](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI チームは **Power BI Desktop** や **Power BI サービス**で利用できるデータ ソースを継続的に拡張しています。 そのため、*ベータ*や*プレビュー*などのマークが付いた、未完成の早期バージョンのデータ ソースが頻繁に公開されています。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されています。運用環境では利用しないでください。 
-
-> また、**Power BI Desktop** の "*ベータ*" または "*プレビュー*" とマークされているデータ ソースは、データ ソースが一般提供 (GA) になるまで、**Power BI サービス**または他の Microsoft サービスで使用できない可能性があります。
+> Power BI チームは **Power BI Desktop** や **Power BI サービス**で利用できるデータ ソースを継続的に拡張しています。 そのため、*ベータ*や*プレビュー*などのマークが付いた、未完成の早期バージョンのデータ ソースが頻繁に公開されています。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されています。運用環境では利用しないでください。 また、**Power BI Desktop** の "*ベータ*" または "*プレビュー*" とマークされているデータ ソースは、データ ソースが一般提供 (GA) になるまで、**Power BI サービス**または他の Microsoft サービスで使用できない可能性があります。
 
 ## <a name="data-sources"></a>データ ソース
 データ型は、次のカテゴリに分類されます。
@@ -49,7 +47,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 **[ファイル]** カテゴリには、次のデータ接続があります。
 
 * Excel
-* TEXT/CSV
+* テキスト/CSV
 * XML
 * JSON
 * フォルダー
@@ -82,7 +80,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Vertica
 * Snowflake
 * Essbase
-* AtScale キューブ (ベータ)
+* AtScale キューブ
 * BI コネクタ
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Power BI データセット
 * Power BI データフロー
 * Common Data Service
-* Power Platform データフロー (ベータ)
+* Power Platform データフロー
 
 次の図は、 **[Power Platform]** の **[データの取得]** ウィンドウを示しています。
 
@@ -118,13 +116,14 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (ベータ版)
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 対話型クエリ
 * Azure Data Explorer (Kusto)
-* Azure Cost Management (ベータ)
+* Azure Cost Management
+* Azure Time Series Insights (ベータ)
 
 次の図は、 **[Azure]** の **[データの取得]** ウィンドウを示しています。
 
@@ -143,13 +142,13 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure DevOps Server (ベータ)
 * Salesforce オブジェクト
 * Salesforce レポート
-* Google アナリティクス
+* Google Analytics
 * Adobe Analytics
 * appFigures (ベータ)
 * Data.World - データセットの取得 (ベータ)
 * Facebook
 * GitHub (Beta)
-* MailChimp (Beta)
+* MailChimp (ベータ)
 * Marketo (Beta)
 * Mixpanel (ベータ)
 * Planview Enterprise One - PRM (ベータ)
@@ -209,7 +208,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 > [!NOTE]
 > 現時点では、Azure Active Directory を使用して保護されているカスタム データ ソースに接続することはできません。
 
-## <a name="connecting-to-a-data-source"></a>データ ソースへの接続
+## <a name="connecting-to-a-data-source"></a>データ ソースに接続する
 データ ソースに接続するには、 **[データの取得]** ウィンドウでデータ ソースを選択し、 **[接続]** を選びます。 次の図の場合、 **[その他]** データ接続カテゴリで **[Web]** が選択されています。
 
 ![Web への接続](media/desktop-data-sources/data-sources-08.png)
@@ -236,7 +235,7 @@ PBIDS ファイルは、特定の構造を持つ Power BI Desktop ファイル�
 
 以降、ユーザーはビジュアルの構築を開始するか、"*最近のソース*" に再度アクセスして新しいテーブル セットをモデルに読み込むことができるようになります。 
 
-現在、.PBIDS ファイルは、1 つのファイルで 1 つのデータ ソースのみをサポートしています。 複数のデータ ソースを指定すると、エラーが発生します。 
+現在、.PBIDS ファイルでは、1 つのファイルで 1 つのデータ ソースのみがサポートされています。 複数のデータ ソースを指定すると、エラーが発生します。 
 
 .PBIDS ファイルを作成するには、管理者は 1 つの接続に必要な入力を指定する必要があります。また、接続のモードを **DirectQuery** または **Import** に指定することができます。 ファイルに **mode** がないか null の場合、ユーザーが Power BI Desktop でファイルを開くと、DirectQuery または Import を選択するよう求められます。 
 

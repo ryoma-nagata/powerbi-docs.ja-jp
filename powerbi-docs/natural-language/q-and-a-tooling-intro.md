@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874955"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Power BI Q&A をトレーニングするための Q&A ツールの概要 (プレビュー)
@@ -24,7 +24,7 @@ Power BI Q&A "*ツール*" を使用すると、ユーザーの自然言語エ�
 
 これらの専用ツール機能のほかにも、Power BI Desktop の **[モデリング]** タブには、多くのオプションが用意されています。  
 
-- シノニム
+- 同意語
 - 行ラベル
 - Q&A に非表示する
 - 言語スキーマを構成する (詳細設定)
@@ -48,7 +48,7 @@ Q&A ツールは Power BI Desktop 内でのみ使用でき、現在はインポ�
 
 ![Q&A の [質問の確認]](media/qna-tooling-review-questions.png)
 
-### <a name="teach-qa"></a>Q&A の学習
+### <a name="teach-qa"></a>Q&A トレーニング
 
 **[Q&A の学習]** セクションでは、Q&A をトレーニングして単語を認識させることができます。 まず、Q&A が認識しなかった単語を含む質問を入力します。 Q&A により、その用語の定義を求めるプロンプトが表示されます。 その単語が表すものに対応するフィルターまたはフィールド名を入力します。 そうすると、Q&A が元の質問を解釈し直します。 結果に満足したら、自分の入力を保存します。 詳細については、[Q&A トレーニング](q-and-a-tooling-teach-q-and-a.md)に関するページを参照してください
 
@@ -80,7 +80,7 @@ Power BI Desktop の **[モデリング]** タブには、Q&A のエクスペリ
 
 1. Power BI Desktop 内で、[モデルリング ビュー] を選択します。
 
-2. フィールドまたはテーブルを選択して、 **[プロパティ]** ペインを表示させます。 **[非表示]** を **[オン]** にします。
+2. フィールドまたはテーブルを選択して **[プロパティ]** ペインを表示し、 **[非表示]** を **[オン]** にします。
 
     Q&A は、その設定を考慮し、そのフィールドが Q&A によって認識されないようにします。 たとえば、ID フィールドと外部キーを非表示にして、同じ名前のフィールドが不必要に重複しないようにすることができます。 フィールドは非表示にしても、Power BI Desktop の Q&A 以外のビジュアル内で使用できます。
 

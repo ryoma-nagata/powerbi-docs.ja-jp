@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831172"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657169"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポートのパラメーターを作成する
 
@@ -61,7 +61,12 @@ ms.locfileid: "74831172"
     -   パラメーターを非表示にして、レポートの発行後にレポート サーバーでパラメーターを変更できないようにするには、 **[内部]** を選択します。 これにより、レポート パラメーターをレポート定義でのみ確認することができます。 このオプションでは、既定値を設定するか、パラメーターが null 値を受け入れるようにする必要があります。  
   
 9. **[OK]** を選択します。 
-  
+
+## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
+
+- データ ソースとして Power BI データセットまたは Analysis Services モデルを使用している場合、DAX の制限により、1 つの要求で 1,000 を超えるパラメーター値を渡すことはできません。 
+
+ 
 ## <a name="next-steps"></a>次の手順
 
 Power BI サービスにおけるパラメーターの表示方法を確認するには、「[View parameters for paginated reports](consumer/paginated-reports-view-parameters.md)」(ページ分割されたレポートのパラメーターを表示する) を参照してください。

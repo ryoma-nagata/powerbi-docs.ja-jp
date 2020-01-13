@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73859253"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>チュートリアル:VM で Power BI Report Server Web ポータルを探索する
@@ -206,7 +206,7 @@ Web ポータルで Power BI レポートを表示して操作し、Web ポー�
 
     既定値を変更せずに、このパラメーターを他のパラメーターと共に変更することができます。
 
-1. **Order** **SO48339** を選択し >  **[レポート]** を選択します。
+1. **[Order** **SO48339]**  >  **[レポートの表示]** を選択します。
 
 4. 2 ページ中 1 ページ目にあることがわかります。 右矢印を選択すると、2 ページ目が表示されます。 テーブルは 2 ページ目に続いています。
 

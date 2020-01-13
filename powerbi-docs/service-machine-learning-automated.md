@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 49615e1b6c205d9b894df0bcca7ef4979f153ba7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f5fa262c01767ba934a10300e321796845d47c5f
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872117"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223808"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI での自動化 された機械学習
 
@@ -32,7 +32,7 @@ ms.locfileid: "73872117"
 
 AutoML では、データフローのために**バイナリの予測**、**分類**、**回帰モデル**の作成がサポートされています。 これらは監視対象の機械学習技術の種類です。つまり、過去の観測の既知の結果から学習して、他の観測結果を予測します。 AutoML モデルをトレーニングするための入力データセットは、既知の結果を使用して**ラベル付け**されたレコードのセットです。
 
-Power BI の AutoML では、[Azure Machine Learning service](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) の[自動 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) を統合して ML モデルが作成されます。 ただし、Power BI で AutoML を使用するために Azure サブスクリプションは必要ありません。 ML モデルのトレーニングとホストのプロセスは、Power BI サービスによって完全に管理されます。
+Power BI の AutoML では、[Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) の[自動 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) を統合して ML モデルが作成されます。 ただし、Power BI で AutoML を使用するために Azure サブスクリプションは必要ありません。 ML モデルのトレーニングとホストのプロセスは、Power BI サービスによって完全に管理されます。
 
 ML モデルをトレーニングした後、AutoML によって、ML モデルの可能性のパフォーマンスを説明する Power BI レポートが自動的に生成されます。 AutoML では、モデルから返される予測に影響を与える入力の中で主要なインフルエンサーを強調することにより、説明可能性を強調します。 このレポートには、モデルの主要なメトリックも含まれています。
 
@@ -280,9 +280,9 @@ Power BI レポートで ML モデルの分析情報と予測を使用するに�
 
 この記事では、Power BI サービスのデータフローの自動機械学習の概要について説明しました。 次の記事も推奨されます。
 
-- [チュートリアル:Power BI で Machine Learning モデルを構築する](service-tutorial-build-machine-learning-model.md)
-- [チュートリアル:Power BI での Cognitive Services の使用](service-tutorial-use-cognitive-services.md)
-- [チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し (プレビュー)](service-tutorial-invoke-machine-learning-model.md)
+- [チュートリアル: Power BI で Machine Learning モデルを構築する](service-tutorial-build-machine-learning-model.md)
+- [チュートリアル: Power BI での Cognitive Services の使用](service-tutorial-use-cognitive-services.md)
+- [チュートリアル: Power BI での Machine Learning Studio (クラシック) モデルの呼び出し (プレビュー)](service-tutorial-invoke-machine-learning-model.md)
 - [Power BI の Cognitive Services](service-cognitive-services.md)
 - [Azure Machine Learning の Power BI への統合](service-machine-learning-integration.md)
 

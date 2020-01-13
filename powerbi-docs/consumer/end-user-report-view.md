@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 12/10/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6e64ab2730b73339d6d22ba356cce6e644af52c5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48efc58c7428961b70fb31a96f404139a75a1ac3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861862"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217886"
 ---
 # <a name="change-the-display-of-a-report-page"></a>レポート ページの表示の変更
 
@@ -52,6 +52,26 @@ ms.locfileid: "73861862"
     ![レポートの全画面表示](media/end-user-report-view/power-bi-full-screen.png)
 
 レポートを終了すると、 **[表示]** の設定は保存されず、デフォルトに戻ります。 これらの設定が重要であるため保存する場合は、[ブックマーク](end-user-bookmarks.md)を使用します。
+
+## <a name="use-your-browser-to-change-page-display"></a>ブラウザーを使用してページの表示を変更する
+
+ブラウザーのズーム コントロールを使うと、使用できるキャンバス領域を増減できます。 ズームを小さくすると、使用できるキャンバス領域が拡張されます。その逆の操作も行うことができます。 
+
+![ブラウザーのズーム コントロールが表示される短い動画](media/end-user-report-view/power-bi-zoom.png)
+
+ブラウザー全体のサイズを変更して、レポートの表示サイズを変更することもできます。 
+
+![ブラウザーのサイズ変更が表示される短い動画](media/end-user-report-view/power-bi-resize-browser.gif)
+
+## <a name="zoom-in-on-a-visual"></a>ビジュアルを拡大表示する
+場合によっては、ビジュアルの細かい部分が見づらいことがあります。 このようなビジュアルの表示は大きくすることができます。 詳細については、「[フォーカス モードと全画面表示モード](end-user-focus.md)」を参照してください。
+
+### <a name="a-visual-in-focus-mode"></a>"*フォーカス*" モードのビジュアル
+
+![フォーカス モードで開かれているビジュアルのスクリーンショット。](media/end-user-report-view/power-bi-focus.png)
+
+### <a name="a-visual-in-full-screen-mode"></a>"*全画面表示*" モードのビジュアル
+![全画面表示モードで開かれているビジュアルのスクリーンショット。](media/end-user-report-view/power-bi-full-screen.png)
 
 ## <a name="next-steps"></a>次の手順
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3965a21ff2ab53fd46667658f7cfa21fa4a3b916
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cf927e94726f33e8d88c25c6d09f6f0ca2226e05
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73855594"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224118"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Power BI の Cognitive Services 
 
@@ -90,13 +90,13 @@ Text Analytics では、機械学習分類アルゴリズムを使用して、0 
 
 この関数では、イメージの URL または base-64 フィールドが入力として必要です。 現時点でイメージのタグ付けでサポートされるのは、英語、スペイン語、日本語、ポルトガル語、および簡体中国語です。 詳細については、[サポートされる言語](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)に関する記事を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 この記事では、Power BI サービスで Cognitive Services を使用する方法を概説しました。 以下の記事も興味深い内容で、役立つかもしれません。 
 
-* [チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し](service-tutorial-invoke-machine-learning-model.md)
+* [チュートリアル: Power BI での Machine Learning Studio (クラシック) モデルの呼び出し](service-tutorial-invoke-machine-learning-model.md)
 * [Azure Machine Learning の Power BI への統合](service-machine-learning-integration.md)
-* [チュートリアル:Power BI での Cognitive Services の使用](service-tutorial-use-cognitive-services.md)
+* [チュートリアル: Power BI での Cognitive Services の使用](service-tutorial-use-cognitive-services.md)
 
 
 データフローの詳細については、以下の記事をご覧ください。

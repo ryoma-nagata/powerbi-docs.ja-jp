@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 01f79bfaae13b60d3c63abd8f7fc801998075ee6
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265279"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移行ツール
@@ -184,7 +184,7 @@ Power BI にサインインしてワークスペースが存在することを�
 
 ワークスペースの作成後は、 **[アップロード]** タブに移動できます。
 
-## <a name="step-4-upload"></a>手順 4:アップロード
+## <a name="step-4-upload"></a>手順 4.アップロード
 
 **[アップロード]** タブで、レポートを Power BI サービスにアップロードします。 [ダウンロード] タブでダウンロードしたレポートの一覧と、移行プランに基づいたターゲット グループ名が表示されます。
 

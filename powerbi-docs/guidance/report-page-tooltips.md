@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b7256a04ccdca107ef0cd8e24af8b3170a3d68cc
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834726"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221944"
 ---
 # <a name="extending-visuals-with-report-page-tooltips"></a>レポート ページのツールヒントによるビジュアルの拡張
 
@@ -61,15 +61,15 @@ ms.locfileid: "74834726"
 
 ### <a name="add-help"></a>ヘルプの追加
 
-ビジュアル ヘッダーでは、ページのツールヒントを表示するように構成できます。 多彩な書式付きのテキスト ボックスを利用し、ページのツールヒントにヘルプ コンテンツを追加できます。 画像や図形を追加することもできます。
+ビジュアル ヘッダーでは、ページのツールヒントを表示するように構成できます。 多彩な書式付きのテキスト ボックスを利用し、ページのツールヒントにヘルプ ドキュメントを追加できます。 画像や図形を追加することもできます。
 
 興味深いことに、ボタン、画像、テキスト ボックス、図形でもビジュアル ヘッダーのページのツールヒントを表示できます。
 
-次の例では、レポート ユーザーがビジュアル ヘッダー アイコンの上にカーソルを置いたときの様子を示しています。
+次の例では、レポート ユーザーが[ビジュアル ヘッダー アイコン](../desktop-visual-elements-for-reports.md)の上にカーソルを置いたときの様子を示しています。
 
 ![レポート ユーザーがビジュアル ヘッダー アイコン (疑問符アイコン) の上にカーソルを置きました。 多彩な書式付きのツールヒントが表示されました。](media/report-page-tooltips/suggestion-add-help.png)
 
-ページのツールヒントが表示されました。 ビジュアルで表示されたメジャーについて説明する多彩な書式付きのテキストが提示されます。 このツールヒントには図形 (線) も含まれています。
+ページのツールヒントが表示されました。 リッチ形式のテキストが 4 つのテキスト ボックスと図形 (線) で表示されます。 ページのツールヒントでは、ビジュアルに表示されている頭字語をそれぞれ説明するという方法でヘルプが与えられます。
 
 ## <a name="recommendations"></a>推奨事項
 
@@ -87,5 +87,6 @@ ms.locfileid: "74834726"
 
 - [Power BI Desktop のレポート ページを基にしてヒントを作成する](../desktop-tooltips.md)
 - [Power BI Desktop でのヒントのカスタマイズ](../desktop-custom-tooltips.md)
+- [ビジュアル要素を使用して Power BI レポートを強化する](../desktop-visual-elements-for-reports.md)
 - Guy in a Cube 動画:[Power BI レポート ページ ツールヒント - Power BI Desktop での作成方法](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

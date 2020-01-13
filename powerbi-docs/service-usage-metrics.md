@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871206"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポートの利用状況の指標を監視する
@@ -147,7 +147,7 @@ ms.locfileid: "73871206"
 
 ## <a name="usage-metrics-in-national-clouds"></a>国内クラウドの使用状況指標
 
-Power BI は別個の国内クラウドで利用できます。 これらのクラウドのセキュリティ、プライバシー、コンプライアンス、および透明性のレベルはグローバルに使用されている Power BI と同様で、サービス提供、データ所在地、アクセス、および制御についての各国規制に対応する独自モデルとの組み合わせになっています。 この各国規制に応じた独自モデルにより、国内クラウドで利用状況の指標は使用できません。 詳しくは、[国内クラウド](https://powerbi.microsoft.com/clouds/)に関するページをご覧ください。
+Power BI は別個の国内クラウドで利用できます。 これらのクラウドは、グローバル バージョンの Power BI と同じレベルのセキュリティ、プライバシー、コンプライアンス、透明性を提供します。また、サービス提供、データの保存、アクセス、制御に関するその地域の規制に対応する独自のモデルと組み合わせて使用できます。 この各国規制に応じた独自モデルにより、国内クラウドで利用状況の指標は使用できません。 詳しくは、[国内クラウド](https://powerbi.microsoft.com/clouds/)に関するページをご覧ください。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 

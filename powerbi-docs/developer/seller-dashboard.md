@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/03/2019
-ms.openlocfilehash: 12ecde787bb268190f9b94a2db5992d5840080ac
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 73a6a3d16ae2515af41a3232a37579e18876f38b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75002537"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223660"
 ---
 # <a name="submit-a-power-bi-visual-to-appsource-using-seller-dashboard"></a>販売者ダッシュボードを使用して AppSource に Power BI ビジュアルを提出する
 
@@ -103,7 +103,7 @@ AppSource に提出する前に、**pbiviz**ファイルと **pbix** ファイ�
     * [要件の遵守](power-bi-custom-visuals-certified.md#certification-requirements)
     * コード レビューに合格する
 
-2. Power BI ビジュアルが認定されて[認定リスト](power-bi-custom-visuals-certified.md#list-of-power-bi-visuals-that-have-been-certified)に追加されたとき、または修正すべき問題のレポート付きで却下されたときに、Microsoft Power BI ビジュアル チームから通知が届きます。 Microsoft との連絡手段を維持し、必要に応じて認定済みのビジュアルを更新するのは、開発者の責任です。
+2. Power BI ビジュアルが認定されて[認定 Power BI ビジュアル リスト](power-bi-custom-visuals-certified.md#certified-power-bi-visuals)に追加されたとき、または修正すべき問題のレポート付きで却下されたときに、Microsoft Power BI ビジュアル チームから通知が届きます。 Microsoft との連絡手段を維持し、必要に応じて認定済みのビジュアルを更新するのは、開発者の責任です。
 
 ## <a name="tracking-submission-status-and-usage"></a>送信の状態と使用状況の追跡
 

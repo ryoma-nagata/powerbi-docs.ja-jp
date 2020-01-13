@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8562d0fd5acee2f18576f0a6b6f2e3d613354f92
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009628"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304245"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop でのモデル リレーションシップ
 
@@ -73,7 +73,7 @@ Power BI Desktop でリレーションシップを作成する場合、デザイ
 
 **一対一**のリレーションシップは、両方の列に一意の値が含まれていることを意味します。 このカーディナリティの種類は一般的ではなく、冗長データの格納による十分最適化されていないモデル設計を表している可能性があります。<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
 
-**多対多**のリレーションシップは、両方の列に重複する値が含まれる可能性があることを意味します。 このカーディナリティの種類は、あまり使用されません。 これは、通常、複雑なモデル要件を設計する場合に役に立ちます。<!-- For guidance on using this cardinality type, see the [Many-to-many relationship guidance](guidance/relationships-many-to-many) article.-->
+**多対多**のリレーションシップは、両方の列に重複する値が含まれる可能性があることを意味します。 このカーディナリティの種類は、あまり使用されません。 これは、通常、複雑なモデル要件を設計する場合に役に立ちます。 このカーディナリティの種類の使用方法については、[多対多リレーションシップのガイダンス](guidance/relationships-many-to-many.md)に関するページを参照してください。
 
 > [!NOTE]
 > 現在、Power BI Report Server 向けに開発されたモデルでは、多対多のカーディナリティの種類はサポートされていません。
@@ -226,4 +226,5 @@ _[参照整合性を想定]_ プロパティは、同じデータ ソースに�
 ## <a name="next-steps"></a>次の手順
 
 - [Power BI のスター スキーマおよび重要性について](guidance/star-schema.md)
+- [多対多のリレーションシップのガイダンス](guidance/relationships-many-to-many.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

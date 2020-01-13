@@ -1,6 +1,6 @@
 ---
-title: チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し (プレビュー)
-description: このチュートリアルでは、Power BI で Machine Learning Studio モデルを呼び出します。
+title: チュートリアル:Power BI での Machine Learning Studio (クラシック) モデルの呼び出し (プレビュー)
+description: このチュートリアルでは、Power BI で Machine Learning Studio (クラシック) モデルを呼び出します。
 author: davidiseminger
 ms.reviewer: SarinaJoan
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3a7d4fa73caa718cec905d8f511ae94b077f7e2b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876960"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224241"
 ---
-# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>チュートリアル:Power BI での Machine Learning Studio モデルの呼び出し (プレビュー)
+# <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>チュートリアル:Power BI での Machine Learning Studio (クラシック) モデルの呼び出し (プレビュー)
 
-このチュートリアルでは、**Azure Machine Learning Studio** モデルから得られた分析情報を Power BI に取り込む方法を順を追って説明します。 このチュートリアルには、Power BI ユーザーに Azure ML モデルへのアクセス権を付与する、データフローを作成する、および Azure ML モデルから得られた分析情報をデータフローに適用するためのガイダンスが含まれています。 また、Azure ML モデルがまだない場合は、モデルを作成するためのクイック スタート ガイドも参照します。
+このチュートリアルでは、**Azure Machine Learning Studio (クラシック)** モデルから得た分析情報を Power BI に取り込む方法を順を追って説明します。 このチュートリアルには、Power BI ユーザーに Azure ML モデルへのアクセス権を付与する、データフローを作成する、および Azure ML モデルから得られた分析情報をデータフローに適用するためのガイダンスが含まれています。 また、Azure ML モデルがまだない場合は、モデルを作成するためのクイック スタート ガイドも参照します。
 
 このチュートリアルでは、以下の手順を行います。
 
@@ -31,15 +31,15 @@ ms.locfileid: "73876960"
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Azure ML モデルを作成して発行する
 
-[チュートリアル手順 1:Machine Learning Studio ワークスペースの作成](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)に関するページの手順に従って **Machine Learning** ワークスペースを作成します。
+[チュートリアル手順 1:Machine Learning Studio (クラシック) ワークスペースの作成](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)に関するページの手順に従って **Machine Learning** ワークスペースを作成します。
 
-この手順では、既存のどの Azure ML モデルやデータセットを使っても構いません。 発行済みのモデルがない場合は、「[Azure Machine Learning Studio で初めてのデータ サイエンス実験を作成する](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)」の手順に従って、自動車の価格を予測する Azure ML モデルを数分で作成することができます。
+この手順では、既存のどの Azure ML モデルやデータセットを使っても構いません。 発行済みのモデルがない場合は、「[Azure Machine Learning Studio (クラシック) で初めてのデータ サイエンス実験を作成する](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)」の手順に従って、自動車の価格を予測する Azure ML モデルを数分で作成することができます。
 
-「[Azure Machine Learning Studio Web サービスをデプロイする](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service)」の手順に従って、Azure ML モデルを Web サービスとして発行します。
+[Azure Machine Learning Studio (クラシック) Web サービスのデプロイ](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)に関する手順に従って、Azure ML モデルを Web サービスとして発行します。
 
 ## <a name="grant-a-power-bi-user-access"></a>Power BI ユーザーにアクセス権を付与する
 
-Power BI から Azure ML モデルにアクセスするには、Azure サブスクリプションとリソース グループに対する**読み取り**アクセス権と、Machine Learning Studio モデル用の Azure Machine Learning Studio Web サービスに対する**読み取り**アクセス権が必要です。  Azure Machine Learning service モデルの場合は、Machine Learning service ワークスペースに対する**読み取り**アクセス権が必要です。
+Power BI から Azure ML モデルにアクセスするには、Azure サブスクリプションとリソース グループに対する**読み取り**アクセス権と、Machine Learning Studio (クラシック) モデル用の Azure Machine Learning Studio (クラシック) Web サービスに対する**読み取り**アクセス権が必要です。  Azure Machine Learning モデルの場合は、Machine Learning ワークスペースに対する**読み取り**アクセス権が必要です。
 
 以下の手順では、モデルを発行した Azure サブスクリプションとリソース グループの共同管理者であることを前提としています。
 
@@ -53,17 +53,17 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 
 上記の手順を繰り返して、Azure ML モデルがデプロイされている特定の Machine Learning Web サービスに対する **[共同作成者]** ロールのアクセス権を Power BI ユーザーに付与します。
 
-## <a name="create-a-dataflow"></a>データフローを作成する
+## <a name="create-a-dataflow"></a>データフローの作成
 
 ### <a name="get-data-for-creating-the-dataflow"></a>データフローを作成するためのデータを取得する
 
 前の手順で Azure ML モデルへのアクセス権を付与したユーザーの資格情報を使用して、Power BI サービスにサインインします。
 
-この手順では、Azure ML モデルでスコア付けするデータが CSV 形式で用意されていることを前提としています。  Machine Learning Studio でモデルを作成する際に**自動車価格の実験**を使用した場合、このデータセットは次のリンクで共有されています。
+この手順では、Azure ML モデルでスコア付けするデータが CSV 形式で用意されていることを前提としています。  Machine Learning Studio (クラシック) でモデルを作成する際に**自動車価格の実験**を使用した場合、このデータセットは次のリンクで共有されます。
 
-* [Azure Learning Studio モデルのサンプル](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
+* [Azure Learning Studio (クラシック) モデルのサンプル](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
-### <a name="create-a-dataflow"></a>データフローを作成する
+### <a name="create-a-dataflow"></a>データフローの作成
 
 データフローにエンティティを作成するには、Power BI サービスにサインインし、AI プレビューが有効になっている専用容量内のワークスペースに移動します。
 
@@ -173,7 +173,7 @@ Azure ML モデルを呼び出すには、選択したエンティティのい�
 
 ## <a name="next-steps"></a>次の手順
 
-このチュートリアルでは、Azure Machine Learning Studio で次の手順を行い、単純なデータセットを使って簡単な実験を作成しました。
+このチュートリアルでは、Azure Machine Learning Studio (クラシック) で次の手順を行い、単純なデータセットを使って簡単な実験を作成しました。
 
 - Azure Machine Learning モデルを作成して発行する
 - モデルを使用するためのアクセス権を Power BI ユーザーに付与する

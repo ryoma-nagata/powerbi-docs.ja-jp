@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 01eb30857b0b76f96e7e18115d92fb1d68dbef0c
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958705"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223821"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro のユーザー ライセンスを購入して割り当てる
 
@@ -36,27 +36,17 @@ Microsoft 365 管理センターで Power BI Pro ライセンスを購入する�
 
 1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)を開きます。
 
-2. ナビ ペインで、 **[課金]**  >  **[サブスクリプション]** の順に選択します。
-
-    ![ナビ ペイン](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+2. ナビ ペインで、 **[課金]** を選択し、次に **[サブスクリプション]** を選択します。
 
 3. **[サブスクリプション]** ページの右上隅にある **[サブスクリプションの追加]** を選択します。
 
-    ![サブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
-
 4. 次のようにして、目的のサブスクリプション オファーを見つけます。
 
-    **[Enterprise Suite]** で、 **[Office 365 Enterprise E5]** を選択します。
+    - **[Enterprise Suite]** で、 **[Office 365 Enterprise E5]** を選択します。
 
-    ![Office E5 サブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-03.png)
-
-    **[その他のプラン]** で、 **[Power BI Pro]** を選択します。
-
-    ![Power BI Pro のサブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
+    - **[その他のプラン]** で、 **[Power BI Pro]** を選択します。
 
 5. 目的のサブスクリプションの省略記号 ( **. . .** ) をポイントし、 **[今すぐ購入]** を選択します。
-
-    ![今すぐ購入する](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
 6. ご自分の状況に応じて、**毎月支払う**か、**1 年分支払う**かを選択します。
 
@@ -64,53 +54,27 @@ Microsoft 365 管理センターで Power BI Pro ライセンスを購入する�
 
 8. **[サブスクリプション]** ページに取得したサブスクリプションがリストされていることを確認します。
 
-   ![影響を受けるサブスクリプション](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-06.png)
-
-9. 最初の購入後に、さらにライセンスを追加するには、 **[サブスクリプション]** ページで **[Power BI Pro]** を選択した後、 **[ライセンスの追加/削除]** を選択します。
+9. 最初の購入後に、さらにライセンスを追加するには、 **[サブスクリプション]** ページで **[Power BI Pro]** を選択した後、 **[ライセンス数の変更]** を選択します。
 
 ### <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターでライセンスを割り当てる
 
-次の手順に従って、個々のユーザー アカウントに Power BI Pro ライセンスを割り当てます。
+Microsoft 365 管理センターでライセンスを割り当てる方法については、「[ユーザーにライセンスを割り当てる](/office365/admin/manage/assign-licenses-to-users)」を参照してください。
 
-1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/homepage)を開きます。
-
-2. ナビ ペインで **[ユーザー]** を展開し、 **[アクティブ ユーザー]** を選択します。
-
-    ![アクティブ ユーザー](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
-
-3. ユーザーを選択し、 **[製品ライセンス]** で **[編集]** を選択します。
-
-    ![製品ライセンスの編集](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-06.png)
-
-4. **[Power BI Pro]** で、設定を **[オン]** に切り替え、 **[保存]** を選択します。
-
-    ![製品ライセンスをオンにする](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-07.png)
-
-5. 選択したアカウントの **[状態]** で、Power BI Pro ライセンスが正常に割り当てられていることを確認します。
-
-    ![ライセンスの状態の確認](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-08.png)
+ゲスト ユーザーについては、「[[ライセンス] ページでユーザーにライセンスを割り当てる](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)」を参照してください。 ゲスト ユーザーに Pro ライセンスを割り当てる前に、Microsoft アカウントの担当者に連絡して、Microsoft との契約条件に準拠していることを確認してください。
 
 ### <a name="assign-licenses-in-the-azure-portal"></a>Azure portal でライセンスを割り当てる
 
 次の手順に従って、個々のユーザー アカウントに Power BI Pro ライセンスを割り当てます。
 
-1. [Azure Portal](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0) を開きます。
+1. [Azure Portal](https://portal.azure.com/) を開きます。
 
-2. ナビ ペインで **[Azure Active Directory]** を選択します。
-
-    ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
+2. **Azure Active Directory** を検索して選択します。
 
 3. **[Azure Active Directory]** で、 **[ライセンス]** を選択します。
 
-    ![ライセンス](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-02.png)
-
 4. **[ライセンス]** で、 **[すべての製品]** を選択します。次に **[Power BI Pro]** を選択して、ライセンス ユーザーの一覧を表示します。
 
-    ![ライセンス - すべての製品](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
-
 5. **[割り当て]** を選択して、Power BI Pro ライセンスをユーザー アカウントに追加します。
-
-    ![ライセンスの割り当て](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-04.png)
 
 ## <a name="next-steps"></a>次の手順
 

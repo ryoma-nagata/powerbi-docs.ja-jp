@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000114"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI サービスからオンプレミス データ ソースへの Kerberos ベースの SSO を構成する
@@ -189,7 +189,7 @@ SPN と Kerberos 委任の設定を構成するために、ドメイン管理者
 
 1. ゲートウェイ マシンで、**gpedit.msc** を実行します。
 
-2. **[ローカル コンピューター ポリシー]** &gt; **[コンピューターの構成]** &gt; **[Windows の設定]** &gt; **[セキュリティの設定]** &gt; **[ローカル ポリシー]** &gt; **[ユーザー権利の割り当て]** の順に移動します。
+2. **[ローカル コンピューター ポリシー]** &gt; **[コンピューターの構成]** &gt; **[Windows の設定]** &gt; **[セキュリティの設定]** &gt; **[ローカル ポリシー]** &gt; **[ユーザー権利の割り当て]** に移動します。
 
     ![ローカル コンピューター ポリシーのフォルダー構造](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 

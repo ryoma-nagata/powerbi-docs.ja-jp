@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ee7405b7c3d542dd824c70c17459c7078b3f0e1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
+ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878820"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "75523029"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop で Analysis Services の表形式データを使用する
 Power BI Desktop では、2 つの方法で SQL Server Analysis Services 表形式モデルに接続し、データを取得することができます。ライブ接続を使用して探索するか、項目を選択して Power BI Desktop にインポートします。
@@ -76,6 +76,12 @@ Power BI Desktop で動的なレポートを作成したら、Power BI サイト
 **質問:** ナビゲーターに、モデルとパースペクティブが表示されています。 違いは何ですか?
 
 **回答:** パースペクティブは、表形式モデルの特定のビューです。 固有のデータ分析のニーズに応じて、特定のテーブル、列、またはメジャーのみが含まれています。 表形式モデルには、常に 1 つ以上のパースペクティブがあります。それに、モデル内のすべてが含まれています。 どちらを選択すればよいか分からない場合は、管理者に確認してください。
+
+**質問:** Power BI の動作方法を変更する Analysis Services の機能はありますか?
+
+**回答:** はい。 テーブル モデルで使用される機能によっては、Power BI Desktop のエクスペリエンスが変わることがあります。 次に例をいくつか示します。
+* モデル内のメジャーは、列の横にあるテーブル内にではなく、フィールド一覧の先頭にグループ化されて表示されることがあります。 心配はありません。 通常どおり使用できますが、この方法で簡単に見つけることができます。
+* テーブル モデルに計算グループが定義されている場合は、ビジュアルに数値フィールドを追加することによって作成した暗黙的なメジャーではなく、モデル メジャーと組み合わせてのみ使用できます。 モデルには、**DiscourageImplicitMeasures** フラグが手動で設定されている場合もありますが、効果は同じです。 詳細については、[Analysis Services での計算グループ](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)に関するページを参照してください。
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>初回接続後にサーバー名を変更するには
 ライブ接続探索で Power BI Desktop ファイルを作成した後に、別のサーバーに接続を切り替えたくなる場合があるかもしれません。 たとえば、開発サーバーに接続して Power BI Desktop ファイルを作成した後に、接続を実稼働サーバーに切り替えてから Power BI サービスに発行したい場合などです。

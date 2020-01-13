@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2018
+ms.date: 12/14/2019
 ms.author: mihart
-ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4b8dd876cfaca3fa4ad91bf5b4d94aa5b4be311
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861969"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218029"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*コンシューマー*向け Power BI サービスでレポートを表示する
 
@@ -32,7 +32,7 @@ ms.locfileid: "73861969"
    ![ホーム ページ](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>ユーザーと共有されているレポートを開く
-Power BI "*デザイナー*" では、電子メールのリンクを使用したり、自動的に追加したりすることで、個々のレポートを直接共有できます。 この方法で共有されたコンテンツは、ナビ ペインの **[自分と共有]** コンテナーとホーム キャンバスの **[自分と共有]** セクションに表示されます。
+Power BI "*デザイナー*" では、メールのリンクを介して、または Power BI コンテンツに自動的に追加することにより、個々のレポートを直接共有できます。 この方法で共有されたレポートは、ナビゲーション ペインの **[自分と共有]** コンテナーとホーム キャンバスの **[自分と共有]** セクションに表示されます。
 
 1. Power BI サービス (app.powerbi.com) を開きます。
 
@@ -40,7 +40,7 @@ Power BI "*デザイナー*" では、電子メールのリンクを使用した
 
    ![ホーム キャンバス](./media/end-user-report-open/power-bi-select-home-new.png)
    
-3. **[共有アイテム]** が表示されるまで下方向にスクロールします。 レポート アイコン ![レポート アイコン](./media/end-user-report-open/power-bi-report-icon.png) を見つけます。 このスクリーンショットには、1 つのダッシュボードと "*売上およびマーケティングのサンプル*" という名前のレポートが 1 つあります。 
+3. **[共有アイテム]** が表示されるまで下方向にスクロールします。 レポート アイコン ![レポート アイコン](./media/end-user-report-open/power-bi-report-icon.png) を見つけます。 このスクリーンショットには、1 つのダッシュボードと 1 つのレポートがあります。 このレポートには "*売上およびマーケティングのサンプル*" という名前が付けられています。 
    
    ![ホーム ページの [共有アイテム] セクション](./media/end-user-report-open/power-bi-shared-new.png)
 
@@ -64,8 +64,10 @@ Power BI "*デザイナー*" では、電子メールのリンクを使用した
 
    ![ページに合わせる](./media/end-user-report-open/power-bi-actual.png)
 
+さまざまな方法でレポートを操作して分析情報を得て、ビジネス上の意思決定を行うことができます。  左側の目次を使用して、Power BI レポートに関するその他の記事を読むことができます。 
+
 ### <a name="open-a-report-that-is-part-of-an-app"></a>アプリの一部となっているレポートを開く
-仕事仲間や AppSource からアプリを受け取っている場合、そのアプリは [ホーム] とナビ ペインの **[アプリ]** コンテナーから利用できます。 [アプリ](end-user-apps.md)はダッシュボードとレポートをまとめたものです。
+仕事仲間や AppSource からアプリを受け取っている場合、そのアプリは [ホーム] とナビ ペインの **[アプリ]** コンテナーから利用できます。 [アプリ](end-user-apps.md)は、Power BI "*デザイナー*" によってまとめられたダッシュボードとレポートのコレクションです。
 
 ### <a name="prerequisites"></a>前提条件
 先に進むには、売上およびマーケティング アプリをダウンロードしてください。
@@ -80,17 +82,17 @@ Power BI "*デザイナー*" では、電子メールのリンクを使用した
 
    ![ホーム ページ](./media/end-user-report-open/power-bi-app.png)
 
-8. 新しい営業およびマーケティング アプリを選択して開きます。 アプリでは、アプリ *デザイナー*によって設定されたオプションに基づき、ダッシュボードまたはレポートが開きます。 このアプリはダッシュボードに開かれます。  
+8. 新しい "*営業およびマーケティング*" アプリを選択して開きます。 アプリでは、アプリ *デザイナー*によって設定されたオプションに基づき、ダッシュボードまたはレポートが開きます。 このアプリはダッシュボードに開かれます。  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>ダッシュボードからレポートを開く
 レポートはダッシュボードから開くことができます。 ほとんどのダッシュボード [タイル](end-user-tiles.md)はレポートから "*ピン留め*" されています。 タイルを選択すると、タイルの作成に使用されたレポートが開きます。 
 
-1. ダッシュボードからタイルを選択します。 この例では、"Total Units YTD..." という縦棒グラフ タイルを選択しています。
+1. ダッシュボードからタイルを選択します。 この例では、"*年度累計ユニット数...* " という縦棒グラフ タイルを選択しています。
 
     ![タイルが選択されているダッシュボード](./media/end-user-report-open/power-bi-dashboard.png)
 
-2.  関連付けられているレポートが開きます。 "YTD Category" ページが表示されていることがわかります。 これは、ダッシュボードから選択した縦棒グラフを含むレポート ページです。
+2.  関連付けられているレポートが開きます。 "*YTD カテゴリ*" ページが表示されていることがわかります。 これは、ダッシュボードから選択した縦棒グラフを含むレポート ページです。
 
     ![読み取りビューで開かれたレポート](./media/end-user-report-open/power-bi-report-tabs.png)
 
@@ -100,7 +102,7 @@ Power BI "*デザイナー*" では、電子メールのリンクを使用した
 
 ##  <a name="still-more-ways-to-open-a-report"></a>レポートを開く他の方法
 Power BI サービスのナビゲーションに慣れてくると、最適なワークフローを見つけ出すことができます。 レポートにアクセスする他の方法をいくつか以下に示します。
-- ナビ ペインで **[お気に入り]** と **[最近]** を使用する    
+- ナビ ペインで [[お気に入り]](end-user-favorite.md) と [[最近]](end-user-recent.md) を使用する    
 - [[関連の表示]](end-user-related.md) を使用する    
 - メールで (他のユーザーに[共有してもらう](../service-share-reports.md)場合、または自分で[アラートを設定する](end-user-alerts.md)場合)    
 - [通知センター](end-user-notification-center.md)から    

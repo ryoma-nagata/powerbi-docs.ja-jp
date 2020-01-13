@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882899"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224193"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -168,9 +168,9 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 組織内のユーザーは、Power BI のヘルプ メニューから、内部のヘルプおよびサポート リソースにアクセスできます。 具体的には、これらのパラメーターにより、[詳細]、[コミュニティ]、[ヘルプを表示] の各メニュー項目の動作を変更します。
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+また、 **[アカウントのアップグレード]** ボタンのターゲット URL を、ライセンス要求用の URL を指定してカスタマイズできます。 このボタンは、Power BI Pro のライセンスを持たないユーザーには、 **[Update to Power BI Pro]\(Power BI Pro に更新する\)** ダイアログ ボックスと **[パーソナル ストレージの管理]** ページに表示されます。 また、このダイアログ ボックスまたはストレージ ページの **[Pro を無料でお試しいただけます]** ボタンが Power BI で提供されなくなりました。 これにより、Power BI では確実にユーザーを、ご自分の組織でご自分のライセンス管理ソリューションを使用して定義したプロセスで誘導するようになります。
 
-ライセンス要求の URL を指定することにより、 **[アカウントのアップグレード]** ボタンのターゲット URL をカスタマイズします。これは、Power BI Pro のライセンスを持たないユーザーに対して、**Power BI Pro への更新**ダイアログ ボックスおよび **[パーソナル ストレージの管理]** ページで表示されます。 加えて、組織内で規定されているプロセスに、ご利用のライセンス管理ソリューションを通じて確実にユーザーを誘導できるよう、このダイアログ ボックスやストレージ ページにあった Power BI の **[Pro を無料でお試しいただけます]** ボタンは廃止されています。
+![一部を除いて有効にする設定](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>サービスの停止またはインシデントに関するメール通知を受け取る
 

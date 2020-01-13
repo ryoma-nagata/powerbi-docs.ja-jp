@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696855"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498488"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>チュートリアル:Power BI ビジュアルへの書式設定オプションの追加
 
@@ -124,10 +124,12 @@ ms.locfileid: "74696855"
 
 8. **visual.ts** ファイルで、
 
-    `VisualSettings` クラスをインポートし、
+    `VisualSettings`、`VisualObjectInstanceEnumeration`、`EnumerateVisualObjectInstancesOptions` をインポートします。
 
     ```typescript
     import { VisualSettings } from "./settings";
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
     ```
 
     **Visual** クラスに次のプロパティを追加します。
@@ -218,23 +220,34 @@ ms.locfileid: "74696855"
 
     *円の内側に書式設定された測定値を表示します*
 
-5. 必要に応じて、**author** オブジェクトに作成者の詳細情報を入力します。
+5. ビジュアルの **supportUrl** と **gitHubUrl** を設定します。
 
-6. **pbiviz.json** ファイルを保存します。
+    例:
 
-7. **assets** オブジェクトのドキュメントでアイコンへのパスが定義されていることに注意してください。 このアイコンは、 **_[視覚化]_** ウィンドウに表示されるイメージです。 これは "*20 × 20 ピクセル*" の **PNG** ファイルにする必要があります。
+    ```json
+    {
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": "https://github.com/microsoft/PowerBI-visuals-circlecard"
+    }
+    ```
 
-8. エクスプローラーで icon.png ファイルをコピーして貼り付け、assets フォルダーにある既定のファイルを置き換えます。
+6. **author** オブジェクトに詳細を入力します。
 
-9. Visual Studio Code のエクスプローラー ウィンドウで assets フォルダーを展開し、icon.png ファイルを選択します。
+7. **pbiviz.json** ファイルを保存します。
 
-10. アイコンを確認します。
+8. **assets** オブジェクトのドキュメントでアイコンへのパスが定義されていることに注意してください。 このアイコンは、 **_[視覚化]_** ウィンドウに表示されるイメージです。 これは "*20 × 20 ピクセル*" の **PNG** ファイルにする必要があります。
+
+9. エクスプローラーで icon.png ファイルをコピーして貼り付け、assets フォルダーにある既定のファイルを置き換えます。
+
+10. Visual Studio Code のエクスプローラー ウィンドウで assets フォルダーを展開し、icon.png ファイルを選択します。
+
+11. アイコンを確認します。
 
     ![視覚化ウィンドウのイメージ](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
-11. Visual Studio Code で、すべてのファイルが保存されていることを確認します。
+12. Visual Studio Code で、すべてのファイルが保存されていることを確認します。
 
-12. カスタム ビジュアルをパッケージ化するには、PowerShell で次のコマンドを入力します。
+13. カスタム ビジュアルをパッケージ化するには、PowerShell で次のコマンドを入力します。
 
     ```powershell
     pbiviz package

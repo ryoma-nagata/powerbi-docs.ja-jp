@@ -12,10 +12,10 @@ ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73851523"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>クイック スタート - Power BI サービス内の移動
@@ -91,7 +91,7 @@ Amanda が Power BI サービスのナビゲーション操作を説明するツ
    
    ![お気に入りにする](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. ナビ ペインで **[お気に入り]** を選ぶか、星形アイコン ![黄色の星のアイコンを示すスクリーンショット](media/end-user-experience/powerbi-star-icon.png) を選んで、 **[お気に入り]** "*ペイン*" を開きます。
+3. ナビゲーション ペインで **[お気に入り]** を選択するか、星形アイコン ![黄色の星のアイコンを示すスクリーンショット](media/end-user-experience/powerbi-star-icon.png) を選択し、 **[お気に入り]** "*ペイン*" を開きます。
    
    ![[お気に入り] 画面を開く](./media/end-user-experience/power-bi-favorite-pane.png)
    

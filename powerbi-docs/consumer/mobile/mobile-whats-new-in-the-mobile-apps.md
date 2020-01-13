@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010013"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75220519"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -21,6 +21,20 @@ ms.locfileid: "74010013"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="november-2019"></a>2019 年 11 月
+
+### <a name="power-bi-apps-new-look-is-now-on-by-default"></a>Power BI アプリの新しい外観が既定で有効化されるようになりました
+ 
+アプリを開くと、新しい外観とナビゲーションバーが自動的にオンになり、コンテンツを簡単に見つけて開くことができます。 開始点としてアプリの[ホーム ページ](mobile-apps-home-page.md)を使用します。最も重要なコンテンツと、あらゆる最新のアラートや通知などで最新の状態を維持する[アクティビティ フィード](mobile-apps-home-page.md#activity-feed)に簡単にアクセスできます。
+
+### <a name="see-all-your-latest-power-bi-activity"></a>最新の Power BI アクティビティをすべて表示する
+ 
+アクティビティ フィードを使用すると、Power BI コンテンツで起こっていることをリアルタイムで追跡できます。 アプリのホーム ページに移動し、[アクティビティ] タブを開くだけで最新の通知、アラート、コメント、@mentions などがすべて表示されます。 [詳細情報](mobile-apps-home-page.md#activity-feed)
+
+### <a name="use-bookmarks-in-your-reports"></a>レポートでブックマークを使用する
+
+Power BI モバイルアプリでは、Power BI で作成されたブックマークがサポートされるようになりました。 アプリを開くと、レポート作成者によって作成されたブックマークと、自分で作成した個人用ブックマークを活用できます。 [詳細情報](mobile-reports-in-the-mobile-apps.md#bookmarks)
 
 ## <a name="october-2019"></a>2019 年 10 月
 
@@ -287,7 +301,7 @@ Power BI for Mixed Reality アプリが Microsoft ストアに登場しました
 
 モバイル デバイスでドリルダウンとドリルアップを行って、レポートのビジュアルを調べることができます。 この新しい機能にアクセスするには、レポートのビジュアルを長押ししてツールヒント メニューを開いた後、データを掘り下げるためのドリル ボタンをタップします。 詳細については、[モバイル アプリのドリルアップとドリルダウン](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/)に関するページをご覧ください。
 
-#### <a name="persistent-filters"></a>永続的フィルター
+#### <a name="persistent-filters"></a>固定フィルター
 
 レポートのフィルターとスライサーが最近更新され、Web 上の Power BI からPower BI モバイル アプリに自動的に保存されるようになりました。 現在、モバイル アプリで設定したフィルターとスライサーは、Web 上の Power BI に自動的に保存されます。
 
@@ -302,7 +316,7 @@ Power BI for Mixed Reality アプリが Microsoft ストアに登場しました
 
 ダッシュボードおよびレポートを、組織の外部にいるユーザーと、アプリから直接共有します。 外部共有は、組織とソーシャル アカウントの両方に対して有効です。 
 
-#### <a name="persistent-filters"></a>永続的フィルター
+#### <a name="persistent-filters"></a>固定フィルター
 
 Web 上の Power BI でフィルターおよびスライサーを設定すると、フィルターの選択はモバイル アプリにも保存されるので、中断したところから再開できます。
 
@@ -520,7 +534,7 @@ Apple Watch のデータを Watch アプリから直接更新できるように�
 #### <a name="android-devices"></a>Android デバイス
 **プレビュー:Intune モバイル アプリケーション管理** Android デバイスで Power BI Pro を使用している場合、Microsoft Intune モバイル アプリケーション管理 (MAM) の Power BI プレビューをプレビューできます。 
 
-**お気に入り** Android デバイスでお気に入りのダッシュボードにタグを付けてください。[お気に入りの Power BI ダッシュボード、Reporting Services モバイル レポート、KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) がすべて 1 つの場所に集められ、表示されるので便利です。 
+**お気に入り** Android デバイスでお気に入りのダッシュボードにタグを付けてください。[お気に入りの Power BI ダッシュボード、Reporting Services モバイル レポート、KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports) がすべて 1 つの場所に集められ、表示されるので便利です。 
 
 #### <a name="ios-devices"></a>iOS デバイス
 **リンク** タイルと視覚エフェクトの URL をクリックできるようになりました。ブラウザーで開くことができます。

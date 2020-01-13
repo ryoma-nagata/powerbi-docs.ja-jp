@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698971"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548587"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 管理とは
 
@@ -61,7 +61,7 @@ Power BI サービス管理者ロールは、Office 365 でのユーザーへの
 | 内部ポリシー、法律、および規制に対するコンプライアンスを保証する | <ul><li>ビジネス データの分類を管理する<br><li>コンテンツの発行と共有ポリシーの適用を支援する</ul>|
 | Power BI Premium を管理する |<ul><li>ワークスペースを管理する<br><li>カスタム ビジュアルを発行する<br><li>Power BI を他のアプリケーションに埋め込むために使用されるコードを検証する|
 | テナントのユーザーにヘルプとサポートを提供する |<ul><li>データ アクセスとその他の問題をトラブルシューティングする</ul>|
-| その他のタスク |<ul><li>Power BI Desktop をデプロイする (例: System Center Configuration Manager を使用する)<br><li>Intune で Power BI モバイル アプリのデプロイを管理する<br><li>ソース データのセキュリティなどのデータのプライバシーとセキュリティを管理する</ul>|
+| その他のタスク |<ul><li>Power BI Desktop をデプロイする (例: Microsoft Endpoint Configuration Manager を使用する)<br><li>Intune で Power BI モバイル アプリのデプロイを管理する<br><li>ソース データのセキュリティなどのデータのプライバシーとセキュリティを管理する</ul>|
 
 ## <a name="administrative-tools"></a>管理ツール
 

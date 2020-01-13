@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: bbb0584843f79445c4e5cca073f9c4b953d346aa
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699362"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI からオンプレミス データ ソースへの SSO に Security Assertion Markup Language (SAML) を使用する
 
 SSO を有効にすると、Power BI レポートおよびダッシュボードでは、オンプレミスのソース上で構成されているユーザー レベルのアクセス許可を考慮しながら、それらのソースからのデータを簡単に更新できるようになります。 [Security Assertion Markup Language (SAML)](https://www.onelogin.com/pages/saml) を使用し、シームレスなシングル サインオン接続を有効にします。 
 
-## <a name="supported-data-sources"></a>サポートされているデータ ソース
+## <a name="supported-data-sources"></a>サポートされるデータ ソース
 
 現在、SAP HANA に SAML をご利用いただけます。 SAML を使用した SAP HANA のシングル サインオンの設定と構成の詳細については、「[BI プラットフォームから HANA への SAML SSO](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA)」を参照してください。
 
@@ -126,7 +126,7 @@ SAML を使用するには、SSO を有効にする HANA サーバーとゲー�
 
     1. **[証明書]** &gt; **[個人]** &gt; **[証明書]** の順に展開し、証明書を見つけます。
 
-    1. 証明書を右クリックし、 **[すべてのタスク]** &gt; **[Manage Private Keys]\(秘密キーの管理\)** の順に移動します。
+    1. 証明書を右クリックし、 **[すべてのタスク]** &gt; **[秘密キーの管理]** の順に移動します。
 
         ![秘密キーを管理する](media/service-gateway-sso-saml/manage-private-keys.png)
 

@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 22328ddd6be697f658301516d05971cdcee0d260
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882820"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223889"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
-Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統合により、内部データに対する制御を引き続き維持しながら、組織外のゲスト ユーザーに Power BI コンテンツを安全に配布できるようになりました。  
+Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統合により、内部データに対する制御を引き続き維持しながら、組織外のゲスト ユーザーに Power BI コンテンツを安全に配布できるようになりました。 さらに、組織内のコンテンツの編集と管理を組織外のゲスト ユーザーに許可できます。
 
-さらに、組織内のコンテンツの編集と管理を組織外のゲスト ユーザーに許可できます。
+この記事では、Power BI での B2B Azure AD の基本的な概要を示します。 詳細については、「[Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](whitepaper-azure-b2b-power-bi.md)」を参照してください。
 
 ## <a name="enable-access"></a>アクセスを有効にする
 
@@ -88,7 +88,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>ゲスト ユーザーに Power BI Pro ライセンスを割り当てる
 
-テナント内で Power BI Pro ライセンスをゲスト ユーザーに割り当てると、そのゲスト ユーザーはテナント内のコンテンツを表示できるようになります。
+テナント内で Power BI Pro ライセンスをゲスト ユーザーに割り当てると、そのゲスト ユーザーはテナント内のコンテンツを表示できるようになります。 ライセンスの割り当ての詳細については、「[[ライセンス] ページでユーザーにライセンスを割り当てる](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)」を参照してください。 ゲスト ユーザーに Pro ライセンスを割り当てる前に、Microsoft アカウントの担当者に連絡して、Microsoft との契約条件に準拠していることを確認してください。
 
 ![テナントから Pro ライセンスを割り当てるゲスト ユーザー エクスペリエンスのダイアグラム。](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
@@ -98,7 +98,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 ![独自のライセンスを持ち込む場合のゲスト ユーザー エクスペリエンスのダイアグラム。](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
-## <a name="guest-users-who-can-edit-and-manage-content"></a>コンテンツを編集および管理できるゲスト ユーザー 
+## <a name="guest-users-who-can-edit-and-manage-content"></a>コンテンツを編集および管理できるゲスト ユーザー
 
 [[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) を使用すると、指定したゲスト ユーザーが組織の Power BI にアクセスできるようになります。 アクセス許可がある任意のコンテンツを表示できます。 これらのユーザーは、ホームにアクセスしたり、ワークスペースを参照したり、アプリをインストールしたり、自分がアクセス リストのどこに載っているかを確認したり、ワークスペースにコンテンツを投稿することができます。 新しいワークスペース エクスペリエンスを使用するワークスペースを作成したり、その管理者になったりすることができます。 いくつかの制限が適用されます。 「考慮事項と制限事項」のセクションでは、これらの制限事項が一覧表示されています。
  

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870030"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221199"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのタイルを調べる
 適用対象:
@@ -35,16 +35,19 @@ ms.locfileid: "73870030"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   "*たとえば、この折れ線グラフで選択されている値は、**今年**と**昨年**の **8 月の売上値**です。*"  
+   "*たとえば、この折れ線グラフで選択されている値は、**今年**と**昨年**の **8 月の売上値**です。* "  
    
    円グラフでスライスをタップすると、円の上部にスライスの値を表示できます。  
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
-3. マップで、**[マップの中心を設定する]** アイコン ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) をタップし、マップの中心を現在の場所に設定します。
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. 共有のアイコン ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) をタップして、[タイルの注釈設定と他ユーザーとの共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)を行います。
+3. マップで、 **[マップの中心を設定する]** アイコン ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) をタップし、マップの中心を現在の場所に設定します。
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. 鉛筆アイコン ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) をタップして[タイルに注釈を付け](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)、共有アイコン ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) をタップして[他のユーザーとそれを共有します](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
+
 5. [タイルに警告を追加](mobile-set-data-alerts-in-the-mobile-apps.md)します。 値が目標を超えるか下回る場合、Power BI から通知されます。
+
 6. ダッシュボード作成者がリンクをタイルに追加することもあります。 その場合、フォーカス モードのときにリンク アイコン ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) が表示されます。
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -68,9 +71,9 @@ ms.locfileid: "73870030"
     フォーカス モードでは次のことができます。
    
    * グラフをタップして、折れ線グラフ、横棒グラフ、縦棒グラフ、またはバブル チャート内のバーを移動し、視覚化の特定の点の値を表示します。  
-   * 共有スナップショット アイコン ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) をタップして、[タイルの注釈設定と他ユーザーとの共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)を行います。
+   * 鉛筆アイコン ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) をタップして[タイルに注釈を付け](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)、[スナップショットを共有] アイコン ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) をタップして[他のユーザーとそれを共有します](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
    * [レポートを開く] アイコン ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) をタップして、モバイル アプリで[レポートを表示](mobile-reports-in-the-mobile-apps.md)します。
-3. ダッシュボード作成者がリンクをタイルに追加することもあります。 その場合、縦の省略記号 **[…]** をタップすると、**[リンクを開く]** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) が表示されます。
+3. ダッシュボード作成者がリンクをタイルに追加することもあります。 その場合、縦の省略記号 **[…]** をタップすると、 **[リンクを開く]** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) が表示されます。
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
@@ -102,7 +105,7 @@ ms.locfileid: "73870030"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   "*この横棒グラフでは、 **Decor** バーの値はグラフの上部に表示されます。*"
+   "*この横棒グラフでは、 **Decor** バーの値はグラフの上部に表示されます。* "
    
    **[全画面表示]** アイコン ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) をタップすると、タイルが全画面表示モードで開き、ナビゲーション バーとメニュー バーは表示されません。
    
@@ -111,7 +114,7 @@ ms.locfileid: "73870030"
    > 
    > 
    
-   マップで、**[マップの中心を設定する]** アイコン ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) をタップし、マップの中心を現在の場所に設定します。
+   マップで、 **[マップの中心を設定する]** アイコン ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) をタップし、マップの中心を現在の場所に設定します。
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    

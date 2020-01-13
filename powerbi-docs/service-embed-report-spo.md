@@ -1,21 +1,21 @@
 ---
 title: SharePoint Online にレポート Web パーツを埋め込む
 description: Power BI の新しい SharePoint Online 用レポート Web パーツでは、対話型の Power BI レポートを SharePoint Online のページに簡単に埋め込むことができます。
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 05/16/2019
-ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/18/2019
+ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881901"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221714"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
@@ -29,6 +29,7 @@ Power BI の新しい SharePoint Online 用レポート Web パーツでは、�
 
 * Power BI Pro ライセンス、または Power BI ライセンスがある [Power BI Premium 容量 (EM または P SKU)](service-premium-what-is.md)。
 * SharePoint Online の Power BI Web パーツには、[最新式のページ](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)が必要です。
+* 埋め込みレポートを使用するには、ユーザーは Power BI サービスにサインインし、自分の Power BI ライセンスをアクティベートする必要があります。
 
 ## <a name="embed-your-report"></a>レポートを埋め込む
 SharePoint Online にレポートを埋め込むには、レポートの URL を取得し、SharePoint Online の Power BI Web パーツでその URL を使う必要があります。
@@ -121,7 +122,7 @@ SharePoint Online 用の Power BI Web パーツに対して調整できる設定
 | プロパティ | 説明 |
 | --- | --- |
 | ページ名 |Web パーツの既定のページを設定します。 ドロップダウンから値を選びます。 ドロップダウンにページが表示されない場合は、レポートが 1 ページであるか、または貼り付けた URL にページ名が含まれています。 特定のページを選ぶには、URL からレポート セクションを削除します。 |
-| ディスプレイ |レポートを SharePoint Online のページ内に収める方法を調整します。 |
+| 表示 |レポートを SharePoint Online のページ内に収める方法を調整します。 |
 | ナビ ペインの表示 |ページ ナビ ペインの表示と非表示を切り替えます。 |
 | フィルター ウィンドウの表示 |フィルター ウィンドウの表示と非表示を切り替えます。 |
 
@@ -144,7 +145,7 @@ SharePoint Online 用の Power BI Web パーツに対して調整できる設定
 
 ## <a name="known-issues-and-limitations"></a>既知の問題と制限事項
 
-* エラー:"エラーが発生しました。ログアウトしてから再度ログインして、このページに再びアクセスしてください。 関連付け ID: 未定義、http の応答の状態: 400、サーバー エラー コード 10001、メッセージ: 更新トークンが見つかりません"
+* エラー: "エラーが発生しました。ログアウトしてから再度ログインして、このページに再びアクセスしてください。 関連付け ID: 未定義、http の応答の状態: 400、サーバー エラー コード 10001、メッセージ: 更新トークンが見つかりません"
   
   このエラーが返された場合は、以下のトラブルシューティング手順のいずれかをお試しください。
   
