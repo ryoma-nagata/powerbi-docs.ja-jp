@@ -48,6 +48,10 @@
           href: relationships-many-to-many.md
         - name: Power Query のバックグラウンド更新を無効にする
           href: power-query-background-refresh.md
+        - name: Power BI のページ分割されたレポートを使用する条件
+          href: report-paginated-or-power-bi.md
+        - name: SQL Server Reporting Services レポートを Power BI に移行する
+          href: migrate-ssrs-reports-to-power-bi.md
     - name: ホワイトペーパー
       items:
         - name: ホワイトペーパーの概要
