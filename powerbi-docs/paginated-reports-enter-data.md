@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
+ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: f3170fb30011e50ba97f936d879a7f19cc795521
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d4d6ed36ea849e2bc9ba3d5212c5d5973ea9c953
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128399"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691339"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>レポート ビルダーでページ分割されたレポートにデータを直接入力する - Power BI
 
@@ -75,7 +75,7 @@ ms.locfileid: "74128399"
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>ページ分割されたレポートを Power BI サービスにアップロードする
 
-これで Power BI サービスでページ分割されたレポートがサポートされたので、自分のページ分割されたレポートを Premium 容量にアップロードできます。 詳細については、「[ページ分割されたレポートをアップロードする](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report)」を参照してください。
+これで Power BI サービスでページ分割されたレポートがサポートされたので、自分のページ分割されたレポートを Premium 容量にアップロードできます。 詳細については、「[ページ分割されたレポートをアップロードする](paginated-reports-save-to-power-bi-service.md)」を参照してください。
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>ページ分割されたレポートをレポート サーバーにアップロードする
 
