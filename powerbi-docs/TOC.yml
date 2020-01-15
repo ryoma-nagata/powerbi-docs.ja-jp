@@ -871,6 +871,8 @@
           href: service-admin-premium-workloads.md
         - name: アプリで容量を監視する
           href: service-admin-premium-monitor-capacity.md
+        - name: Premium ワークロードのメトリックを監視する
+          href: service-premium-metrics-app.md
         - name: 管理ポータルで容量を監視する
           href: service-admin-premium-monitor-portal.md
         - name: 増分更新を構成する
