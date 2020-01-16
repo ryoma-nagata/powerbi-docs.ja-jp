@@ -357,6 +357,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: マトリックスの視覚エフェクトを作成して使用する
               href: visuals/desktop-matrix-visual.md
+            - name: Power Apps ビジュアルを作成して使用する
+              href: visuals/power-bi-visualization-powerapp.md
             - name: Power BI Q&A ビジュアルについて
               href: visuals/power-bi-visualization-q-and-a.md
             - name: R の視覚エフェクトを作成して使用する
@@ -1035,6 +1037,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: リモートでモバイル アプリへのアクセスを構成する
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: WAP と AD FS の構成
+              href: report-server/connect-adfs-wap-report-server.md
             - name: Azure AD を使用したリモート モバイル アクセス
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Excel ブックをホストする

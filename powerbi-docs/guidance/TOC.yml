@@ -52,12 +52,14 @@
               href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: レポートの作成
           items:
-            - name: レポート ページのツールヒントによるビジュアルの拡張
+            - name: レポート ページのヒントによるビジュアルの拡張
               href: report-page-tooltips.md
-            - name: レポート ページのドリルスルー
+            - name: レポート ページのドリルスルーの使用
               href: report-drillthrough.md
             - name: Power BI のページ分割されたレポートを使用する条件
               href: report-paginated-or-power-bi.md
+            - name: ページ分割されたレポートを印刷するときに空白のページを表示しない
+              href: report-paginated-blank-page.md
             - name: SQL Server Reporting Services レポートを Power BI に移行する
               href: migrate-ssrs-reports-to-power-bi.md
     - name: ホワイトペーパー
