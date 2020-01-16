@@ -54,8 +54,6 @@
               href: service-security-using-microsoft-cloud-app-security-controls.md
         - name: 行レベルのセキュリティ
           href: ../service-admin-rls.md
-        - name: アーカイブ済みワークスペース
-          href: ../service-admin-power-bi-archived-workspace.md
         - name: Intune でモバイル アプリを構成する
           href: ../service-admin-mobile-intune.md
     - name: リファレンス
