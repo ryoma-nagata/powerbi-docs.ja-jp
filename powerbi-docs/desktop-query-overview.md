@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3ee7c094972e7251ab99d9092691bf809344a3d5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 294bd8017d6e6c8a1eaca836b32c7bd5d50d88e1
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876304"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760798"
 ---
-# <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop でのクエリの概要
+# <a name="about-using-query-editor-in-power-bi-desktop"></a>Power BI Desktop でのクエリ エディターの使用について
 **Power BI Desktop** を使用すると、データの世界への接続、説得力のある基本的なレポートの作成、他のユーザーとの成果の共有を行えます。他のユーザーは、その成果を足場としてビジネス インテリジェンスの成果を拡大することができます。
 
 Power BI Desktop には 3 つのビューがあります。
@@ -33,7 +33,7 @@ Power BI Desktop には **クエリ エディター**も付属しており、1 �
 
 このドキュメントでは、 **クエリ エディター**を使用したデータ操作の概要を説明します。 もちろん、学習するべきことはほかにもあるため、このドキュメントの末尾には、サポートされているデータ型、データへの接続、データの整形、リレーションシップの作成、作業の開始方法に関する詳しいガイダンスへのリンクが用意されています。
 
-まずは、 **クエリ エディター**に親しむことから始めましょう。
+しかし、まずは、**クエリ エディター**に親しむことから始めましょう。
 
 ## <a name="the-query-editor"></a>クエリ エディター
 **クエリ エディター**にアクセスするには、Power BI Desktop の **[ホーム]** タブから **[Edit Queries]** (クエリの編集) を選びます。  
@@ -130,7 +130,7 @@ Power BI Desktop には **クエリ エディター**も付属しており、1 �
 
 希望する場所にクエリを作成したら、または作業内容を確実に保存したい場合、Power BI Desktop では .pbix ファイル形式で作業内容を保存できます。
 
-作業内容を保存するには、次の図に示すように、 **[ファイル] \> [保存]\> (または** [ファイル] \> [名前を付けて保存] **) の順に選びます\>** 。  
+作業内容を保存するには、次の図に示すように、 **[ファイル] \&gt; [保存]\> (または** [ファイル] \&gt; [名前を付けて保存] **) の順に選びます\>** 。  
 ![](media/desktop-query-overview/queryoverview_savework.png)
 
 ## <a name="next-steps"></a>次の手順
