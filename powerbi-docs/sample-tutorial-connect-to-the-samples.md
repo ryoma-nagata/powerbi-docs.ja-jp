@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873849"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762165"
 ---
-#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI サービス内のサンプルに接続する
+#  <a name="import-and-open-sample-packs-for-power-bi"></a>Power BI のサンプル パックをインポートして開く
 
 このチュートリアルでは、次の方法を紹介します。 
 - サンプル コンテンツ パックをインポートして Power BI サービスに追加し、コンテンツを開く。 *コンテンツ パック*は、データセットにダッシュボードやレポートがバンドルされているタイプのサンプルです。 

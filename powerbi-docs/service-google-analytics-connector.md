@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da7d4de1aa356c9df5004ecc07d479188d9e3a9e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b279ebb1ae4ae34f1b9832883ddde5d804a7ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881417"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762395"
 ---
-# <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop のGoogle アナリティクス コネクタ
+# <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop で Google アナリティクス コネクタを使用する
 > [!NOTE]
 > Power BI Desktop に含まれる Google アナリティクス コンテンツ パックおよびコネクタは、Google アナリティクス Core Reporting API に依存します。 そのため、今後機能や可用性が変更になることがあります。
 
 Google アナリティクス データへの接続には、**Google アナリティクス** コネクタを使用します。 接続するには、次の手順を実行します。
 
-1. **Power BI Desktop** で、**[ホーム]** リボン タブにある **[データの取得]** を選択します。
+1. **Power BI Desktop** で、 **[ホーム]** リボン タブにある **[データの取得]** を選択します。
 2. **[データの取得]** ウィンドウで、左側のウィンドウのカテゴリから **[Online Services]** を選択します。
 3. 右側のウィンドウに表示されている選択肢から、 **[Google アナリティクス]** を選択します。
 4. ウィンドウの下部にある **[接続]** を選択します。  

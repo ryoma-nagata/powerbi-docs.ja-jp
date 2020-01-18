@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d22ac09ac357f3060e4fd79a4e9344a059dace53
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311259"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761889"
 ---
-# <a name="use-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop でブックマークを使用して詳細情報を共有し、ストーリーを作成する
+# <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop でブックマークを作成して分析情報を共有し、ストーリーを作成する
 Power BI Desktop で "*ブックマーク*" を使用して、フィルター処理やビジュアルの状態など、レポート ページの現在構成されているビューをキャプチャします。 その後、保存したブックマークを選択することで、その状態に戻ることができます。 
 
 また、ブックマークのコレクションを作成して適切な順序に並べ替えた後、プレゼンテーションで各ブックマークを順番に表示することで、一連の詳細情報や、ビジュアルとレポートを使って伝えたいストーリーを強調することができます。 

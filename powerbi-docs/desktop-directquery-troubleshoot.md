@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 740760121635cc0dccb0f2aa64750ebf649d8de3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73868063"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761205"
 ---
-# <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Power BI Desktop での DirectQuery モデルのトラブルシューティング
+# <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Power BI Desktop での DirectQuery モデルの開発のトラブルシューティング
 
 この記事の対象読者は、Power BI DirectQuery モデル (Power BI Desktop または Power BI サービスを使用して開発されるもの) を開発するデータ モデラーです。 パフォーマンスの問題を診断する方法や、レポートを最適化できるより詳細な情報を取得する方法について説明します。
 

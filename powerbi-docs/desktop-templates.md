@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2001a83a1fb4a5d605a7ac1c752fe4bbd4c5a51
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879556"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759999"
 ---
-# <a name="using-templates-in-power-bi-desktop"></a>Power BI Desktop でのテンプレートの使用
+# <a name="create-report-templates-for-power-bi-desktop"></a>Power BI Desktop のレポート テンプレートを作成する
 
 **Power BI Desktop** を使用すると、分析情報を組織全体で共有する説得力のあるレポートを作成できます。 Power BI Desktop **テンプレート**を使用すると、既存のテンプレートに基づいてレポート テンプレートを作成することによって作業を効率化することができ、組織内のご自身も他のユーザーもそれを新しいレポートのレイアウト、データ モデル、およびクエリの出発点として使用することができます。 **Power BI Desktop** のテンプレートは、レポートの作成をすぐに開始し、標準化するのに役立ちます。
 

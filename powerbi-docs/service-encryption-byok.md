@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958473"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762119"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI 用の独自の暗号化キーを使用する (プレビュー)
 
@@ -49,7 +49,7 @@ Azure Key Vault は、暗号化キーなどのシークレットを安全に格�
     > [!IMPORTANT]
     > Power BI BYOK では、4,096 ビット長の RSA キーのみがサポートされます。
 
-1. 推奨: キー コンテナーで "_論理的な削除_" オプションが有効になっていることを確認します。
+1. 推奨:キー コンテナーで "_論理的な削除_" オプションが有効になっていることを確認します。
 
 ### <a name="add-the-service-principal"></a>サービス プリンシパルを追加する
 
@@ -104,6 +104,8 @@ BYOK を有効にする前に、次の考慮事項に注意してください。
 - この時点では、BYOK を有効にした後で無効にすることはできません。 `Add-PowerBIEncryptionKey` のパラメーターを指定する方法に応じて、1 つまたは複数の容量に対して BYOK を使用する方法を制御できます。 しかし、テナントに対するキーの導入を元に戻すことはできません。 詳細については、「[BYOK を有効にする](#enable-byok)」を参照してください。
 
 - 共有されている容量に、Power BI Premium の専用容量から BYOK を使用するワークスペースを "_直接_" 移動することはできません。 まず、BYOK が有効になっていない専用容量にワークスペースを移動する必要があります。
+
+- Power BI Premium の専用容量から BYOK を使用するワークスペースを共有に移動した場合、キーで暗号化されているため、レポートとデータセットにはアクセスできなくなります。 この状況を回避するには、まず BYOK が有効になっていない専用容量にワークスペースを移動する必要があります。
 
 ### <a name="enable-byok"></a>BYOK を有効にする
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef19c638f9c456364757576e21c303103a7f4e39
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878895"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761866"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI でのユーザー補助の概要
 Power BI を使用する場合は、実際のレポートを操作する可能性のあるさまざまな種類のユーザーを考慮することが重要です。 キーボードやスクリーン リーダーで簡単に操作して理解できるレポートを作成して提供すると、視覚障碍や身体障碍のあるユーザーが同じ情報を受け取ることができます。
@@ -27,9 +27,10 @@ Power BI を使用する場合は、実際のレポートを操作する可能�
 
 ユニバーサル デザインとは、特別な調整や特殊なデザインを必要とせず、できるだけ多くの人が使用できる製品のデザインです。 Power BI 内でレポートやエクスペリエンスを作成する場合は、実際のユーザーのニーズを考慮することが重要です。 アクセシビリティ対応のエクスペリエンスを設計した場合、恩恵を受けるのは、聴覚、運動、認知、または視覚障碍のあるエンド ユーザーだけではありません。 組織内のすべてのエンド ユーザーの役に立ちます。 Power BI には、アクセシビリティ対応のレポートを作成および利用するためのツールが用意されています。 レポート作成者は、そうしたツールを使用してすべてのユーザーのエクスペリエンスを向上させることができます。
 
+
 ## <a name="accessibility-standards"></a>アクセシビリティ標準
 
-Power BI では、次のアクセシビリティ標準に準拠しています。  このことは、Power BI の実際のエクスペリエンスをできるだけ多くのユーザーが利用できるようにする際に役立ちます。
+Power BI では、次のアクセシビリティ標準に準拠しています。 このことは、Power BI の実際のエクスペリエンスをできるだけ多くのユーザーが利用できるようにする際に役立ちます。 Power BI Mobile アプリは、アクセシビリティ グレード c に認定されています。つまり、アクセス可能なレポートまたはダッシュボードが作成されると、Power BI Mobile でそれらを表示するすべてのユーザーがそれらにアクセスできます。 
 
 ### <a name="wcag-21"></a>WCAG 2.1
 Web コンテンツ アクセシビリティ (WCAG) は、障碍のある方が Web コンテンツを利用できるようにするのに役立ちます。 WCAG には 3 つの主な原則があります。

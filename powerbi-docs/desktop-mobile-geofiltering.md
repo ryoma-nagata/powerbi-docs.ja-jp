@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878104"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760998"
 ---
-# <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>モバイル アプリ向けの Power BI Desktop で地理的フィルターを設定する
+# <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>モバイル アプリで使用するために Power BI Desktop で地理的フィルターを設定する
 Power BI Desktop で列の[地理的データを分類](desktop-data-categorization.md)し、Power BI Desktop がレポートの表示での値の処理方法を認識できるようにすることができます。 追加された特典として、お客様や仕事仲間が Power BI モバイル アプリでそのレポートを表示すると、Power BI では現在地に一致する地理的フィルターが自動的に適用されます。 
 
 たとえば、顧客を訪問する営業マネージャーが、その顧客の総売上と収益をすばやくフィルター処理し、 県、市、または実際の住所など、現在の場所のデータを抽出したいと考えます。 また、その後で時間があれば、近くの別の顧客も訪問する予定です。 そのような場合は、[場所でレポートをフィルター処理してこれらの顧客を見つける](consumer/mobile/mobile-apps-geographic-filtering.md)ことができます。

@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878666"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761751"
 ---
-# <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop での一般的なクエリ タスク
+# <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop で一般的なクエリ タスクを実行する
 Power BI Desktop の **クエリ エディター** ウィンドウで作業するとき、一般的に使用される多数のタスクがあります。 このドキュメントでは、それらの一般的なタスクについて説明し、追加情報へのリンクを示します。 
 
 ここでは、以下の一般的なクエリ タスクについて説明します。
 
-* データへの接続
+* データに接続する
 * データの整形と結合
 * 行のグループ化
 * 列のピボット
@@ -36,7 +36,7 @@ Power BI Desktop の **クエリ エディター** ウィンドウで作業す�
 
 一般的なクエリ タスクは、それら両方のデータ ソースへの接続に必要な手順によって開始します。
 
-## <a name="connect-to-data"></a>データへの接続
+## <a name="connect-to-data"></a>データに接続する
 Power BI Desktop のデータに接続するには、リボンの **[ホーム]** タブで **[データの取得]** ボタンを選択します。 Power BI Desktop は、最も一般的なデータ ソースのメニューを表示します。 Power BI Desktop が接続できるデータ ソースの完全な一覧を表示するには、メニューの下部にある **[その他]** ボタンを選択します。 詳しくは、「[Power BI Desktop のデータ ソース](https://docs.microsoft.com/power-bi/desktop-data-sources)」をご覧ください。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
@@ -154,8 +154,8 @@ Power BI Desktop には、数式カテゴリの幅広いセットが備わって
   * 情報
   * 変換および書式設定
   * 書式
-  * 丸め処理
-  * 操作
+  * 丸め
+  * 総務
   * ランダム
   * 三角関数
   * バイト
@@ -167,7 +167,7 @@ Power BI Desktop には、数式カテゴリの幅広いセットが備わって
   * メンバーシップ
   * 変換
 * 論理
-* 日付
+* Date
 * 時刻
 * DateTime
 * DateTimeZone
@@ -207,7 +207,7 @@ Power BI Desktop には、数式カテゴリの幅広いセットが備わって
 * 行
 * 式
 * 関数
-* エラー
+* Error
 * 比較演算子
 * スプリッター
 * コンバイナ

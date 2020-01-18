@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 644e68ec827915c5457e22e1c1486a8f6f3299f6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: dcfc695d0371cce21a827ddfe71b3b4b05863935
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877035"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762418"
 ---
-# <a name="facebook-connector-for-power-bi-desktop"></a>Power BI Desktop の Facebook コネクタ
+# <a name="use-the-facebook-connector-for-power-bi-desktop"></a>Power BI Desktop の Facebook コネクタを使用する
 **Power BI Desktop** の Facebook コネクタは、Facebook Graph API に依存します。 そのため、今後機能や可用性が変更になることがあります。
 
 「[Power BI Desktop の Facebook コネクタに関するチュートリアル](desktop-tutorial-facebook-analytics.md)」を参照してください。

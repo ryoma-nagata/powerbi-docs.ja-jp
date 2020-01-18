@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f477c21a337838fb275087f744eef02eb7fd57ce
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870861"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762372"
 ---
-# <a name="key-performance-indicator-kpi-visuals"></a>主要業績評価指標 (KPI) ビジュアル
+# <a name="create-key-performance-indicator-kpi-visualizations"></a>主要業績評価指標 (KPI) ビジュアルを作成する
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -97,7 +97,7 @@ KPI は Power BI サービスとモバイル デバイスでも使用できま�
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 
-KPI が上記のようにならない場合、**FiscalMonth** で並べ替えられていない可能性があります。 KPI には並べ替えオプションはありません。 もう一度やり直して、視覚エフェクトを KPI に変換する*前*に、**FiscalMonth** で並べ替える必要があります。
+KPI が上記のようにならない場合、**FiscalMonth** で並べ替えられていない可能性があります。 KPI には並べ替えオプションはありません。 お使いのビジュアルを KPI に変換する*前*に、最初から **FiscalMonth** で並べ替える必要があります。
 
 ## <a name="next-steps"></a>次の手順
 

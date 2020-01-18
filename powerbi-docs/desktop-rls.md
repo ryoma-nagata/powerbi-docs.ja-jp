@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/05/2019
 LocalizationGroup: Create reports
-ms.openlocfilehash: abbd8f34f42bdcfdca6e65df58c78bf394f00d91
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: dc2c1e312592048c90643526a898ebe654907a68
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882813"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760660"
 ---
-# <a name="row-level-security-rls-with-power-bi-desktop"></a>Power BI Desktop での行レベルのセキュリティ (RLS)
+# <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Power BI Desktop の行レベルのセキュリティを使用してデータ アクセスを制限する
 
 Power BI Desktop で行レベル セキュリティ (RLS) を使用すると、特定のユーザーのデータ アクセスを制限できます。 フィルターは、行レベルでデータを制限します。 役割内でフィルターを定義できます。
 

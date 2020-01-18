@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e1babaa39a1f52a06c69dcb9aac2441ca02452b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876369"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761274"
 ---
-# <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop のデータ ビュー
+# <a name="work-with-data-view-in-power-bi-desktop"></a>Power BI Desktop でデータ ビューを使用する
 **データ ビュー**は、**Power BI Desktop** モデル内のデータを検査、調査、理解するのに役立ちます。 これは、**クエリ エディター**内のテーブル、列、データの表示方法とは異なります。 データ ビューには、モデルに読み込まれた *後* のデータが表示されます。
 
 データをモデル化しているときに、レポート キャンバスにビジュアルを作成することなく、実際のテーブルまたは列の内容を行レベルまで確認したい場合があります。 これは、メジャーと計算列を作成している場合や、データ型またはデータのカテゴリを識別する必要に特に便利です。

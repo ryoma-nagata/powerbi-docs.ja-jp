@@ -1,20 +1,20 @@
 ---
-title: Power BI の改ページ調整されたレポート ビルダーで共有データセットを使用する
-description: Power BI の改ページ調整されたレポート ビルダーから共有データセットに接続します。
-ms.date: 07/23/2019
+title: Power BI 共有データセットを使用して改ページ調整されたレポートを作成する - Power BI Report Builder
+description: Power BI 共有データセットに基づいて、Power BI Report Builder で改ページ調整されたレポートを作成します。
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791259"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691461"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>Power BI のレポート ビルダーで共有データセットを使用する
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI 共有データセットを基づいて改ページ調整されたレポートを作成する
 
 Power BI Desktop で作成したデータセットは、Power BI レポート ビルダーの改ページ調整されたレポートのデータ ソースとして利用できます。 次のようなシナリオを考えてみましょう。Power BI Desktop で Power BI レポートを作成しました。 データ モデルの設計に多大な時間を費やしたので、多種多様なビジュアルを使った美しい Power BI レポートを作成することができました。 レポートのマトリックスには行が多数あり、全部を確認するにはスクロールが必要です。 レポートの読者からすると、印刷ができて、かつ、マトリックス内の行がすべて表示されるようなレポートが理想です。 Power BI の改ページ調整されたレポートなら、そのようなことが可能です。数ページに及ぶテーブルやマトリックスを、ページのヘッダーやフッターを含めて、設計どおりの完璧なレイアウトで印刷することができるのです。 これは、Power BI Desktop のレポートを補完するものです。 これらはまったく同じデータに基づいている必要があり、不一致があってはならないので、同じデータセットを使用します。
 

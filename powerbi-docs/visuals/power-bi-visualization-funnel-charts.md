@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1394d71a5a2e811da23e18b9ee0d98f171f19083
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880831"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762441"
 ---
-# <a name="funnel-charts"></a>じょうごグラフ
+# <a name="create-and-use-funnel-charts"></a>じょうごグラフの作成と使用
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -71,13 +71,13 @@ ms.locfileid: "73880831"
 
 それでは、営業の各段階にある営業案件の数を示す独自のじょうごグラフを作成してみましょう。
 
-1. 空のレポート ページで開始し、 **[SalesStage]** \> **[Sales Stage]** フィールドを選びます。
+1. 空のレポート ページで開始し、 **[営業段階]** \> **[営業段階]** フィールドを選びます。
    
     ![売上ステージの選択](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
 
 1. じょうごアイコンを選択し ![じょうごグラフ アイコン](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) 縦棒グラフをじょうごグラフに変換します。
 
-2. **[フィールド]** ウィンドウで、 **[Fact]** \> **[Opportunity Count]** を選びます。
+2. **[フィールド]** ウィンドウで **[ファクト]** \> **[営業案件数]** を選択します。
    
     ![じょうごグラフの構築](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 横棒の上にポインターを合わせると、以下の情報が表示されます。

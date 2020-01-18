@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 16af5a6c8b5341067c458329c68da0a1a0fe14a5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311486"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761481"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI モバイル アプリ用にレポートを最適化する
+# <a name="optimize-power-bi-reports-for-the-mobile-app"></a>モバイル アプリ用に Power BI レポートを最適化する
 縦レイアウトを作成して、モバイル アプリでレポートを表示するエクスペリエンスを向上させることができます。 Power BI Desktop と Power BI サービスでは、レポートのビジュアルを再配置やサイズ変更を行って縦モードで最適なエクスペリエンスを実現することができます。  
 
 モバイル デバイスでのレポートの表示について情報をお探しの場合は クイックスタート「[Power BI モバイル アプリでダッシュボードとレポートを調べる](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)」を参照してください。

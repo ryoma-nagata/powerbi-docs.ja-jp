@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb4e177ff813c332c8b60b490ead1f6d97a03935
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 33fc0faf92d1730c1d08f91eabc276cdafadfffb
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867127"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761113"
 ---
-# <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Power BI Desktop の分析情報を利用し、販売総数が異なる箇所を見つける (プレビュー)
+# <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>販売総数が異なる箇所を見つけるために Power BI Desktop に分析情報を適用する (プレビュー)
 
 ビジュアルでデータ ポイントを見るとき、異なるカテゴリに対して販売総数 (ディストリビューション) が同じになるか気になることがあります。 **Power BI Desktop** の**分析情報**を利用すれば、数回のクリックでわかります。
 

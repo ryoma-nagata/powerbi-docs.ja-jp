@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876926"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836718"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -46,7 +46,7 @@ URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
 
 次の例のようにします。
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*&'ctid=*ctid*
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*'&ctid=*ctid*
 
 ### <a name="field-types"></a>フィールドの型
 
@@ -107,16 +107,16 @@ Power BI では、'**and**' に加え、多くの演算子がサポートされ�
 |演算子  | 定義 | 文字列  | 数値 | Date |  例|
 |---------|---------|---------|---------|---------|---------|
 |**and**     | と |  はい      | はい |  はい|  product/price le 200 and price gt 3.5 |
-|**eq**     | equals |  はい      | はい   |  はい       | Address/City eq 'Redmond' |
+|**eq**     | 次の値に等しい |  はい      | はい   |  はい       | Address/City eq 'Redmond' |
 |**ne**     | 等しくない |   はい      | はい  | はい        |  Address/City ne 'London' |
 |**ge**     |  以上       | いいえ | はい |はい |  product/price ge 10
 |**gt**     | より大きい        |いいえ | はい | はい  | product/price gt 20
 |**le**     |   以下      | いいえ | はい | はい  | product/price le 100
-|**lt**     |  より小さい       | いいえ | はい | はい |  product/price lt 20
+|**lt**     |  次の値未満       | いいえ | はい | はい |  product/price lt 20
 |**in\*\***     |  含む       | はい | はい |  はい | Student/Age in (27, 29)
 
 
-\*\* **in** を使用する場合、**in** の右側の値をかっこで囲んだコンマ区切りのリストにすることができます。または、コレクションを返す単一の式にすることもできます。
+\*\***in** を使用する場合、**in** の右側の値をかっこで囲んだコンマ区切りのリストにすることができます。または、コレクションを返す単一の式にすることもできます。
 
 ### <a name="numeric-data-types"></a>数値データ型
 

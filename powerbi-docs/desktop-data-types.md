@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868531"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729715"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop でのデータ型
 この記事では、Power BI Desktop と Data Analysis Expressions (DAX) でサポートされるデータ型について説明します。 
@@ -51,7 +51,7 @@ Power BI Desktop では、次の 3 つの数値型がサポートされていま
 >
 
 ### <a name="datetime-types"></a>日付/時刻型
-Power BI Desktop では、クエリ ビューでは 5 つの日付/時刻型、レポート ビューとモデルでは 3 つの日付/時刻データ型がサポートされます。   日付/時刻/タイムゾーンと期間は、モデルに読み込まれる時点で変換されます。
+Power BI Desktop では、クエリ ビューで 5 つの日付/時刻型がサポートされています。  日付/時刻/タイムゾーンと期間は、モデルに読み込まれる時点で変換されます。 Power BI Desktop データ モデルでは、日付/時刻のみがサポートされていますが、日付または時刻として個別に書式設定できます。 
 
 **日付/時刻** – 日付と時刻の両方の値を表します。  背後の実際の値では、日付/時刻値は 10 進数型として保存されます。  そのため、実際にはこの 2 つの間で変換できます。   日付値の時刻部分は、1/300 秒 (3.33 ミリ秒) の整数倍の分数として保存されます。  1900 年から 9999 年までの日付がサポートされます。
 
@@ -59,7 +59,7 @@ Power BI Desktop では、クエリ ビューでは 5 つの日付/時刻型、�
 
 **時刻** – 時刻だけを表します (日付部分はありません)。  モデルに変換される際、時刻値は 日付/時刻値の小数点の左側に桁がない値と同じになります。
 
-**日付/時刻/タイムゾーン** – UTC 日付/時刻を表します。  現時点では、モデルに読み込まれる際に日付/時刻に変換されます。
+**日付/時刻/タイムゾーン** – UTC の日付/時刻とタイムゾーン オフセットを表します。  モデルに読み込まれる際に日付/時刻に変換されます。 Power BI モデルでは、ユーザーの場所やロケールなどに基づいてタイムゾーンが調整されることはありません。値 09:00 が米国のモデルに読み込まれた場合、レポートを開いたり表示したりすると、09:00 として表示されます。 
 
 **期間** – 時間の長さを表します。 モデルに読み込まれる際に 10 進数型に変換されます。  10 進数型であれば、日付/時刻フィールドと加算または減算を行ったとき、正しい結果が得られます。  10 進数型であれば、視覚化のときに大きさを示すために使用しやすくなります。
 
@@ -175,13 +175,13 @@ DAX では、null、空白値、空のセル、または欠落値はすべて、
 | BLANK + BLANK |BLANK |0 (ゼロ) |
 | BLANK + 5 |5 |5 |
 | BLANK * 5 |BLANK |0 (ゼロ) |
-| 5/BLANK |無限大 |エラー |
-| 0/BLANK |NaN |エラー |
-| BLANK/BLANK |BLANK |エラー |
+| 5/BLANK |無限大 |Error |
+| 0/BLANK |NaN |Error |
+| BLANK/BLANK |BLANK |Error |
 | FALSE OR BLANK |FALSE |FALSE |
 | FALSE AND BLANK |FALSE |FALSE |
 | TRUE OR BLANK |TRUE |TRUE |
 | TRUE AND BLANK |FALSE |TRUE |
-| BLANK OR BLANK |BLANK |エラー |
-| BLANK AND BLANK |BLANK |エラー |
+| BLANK OR BLANK |BLANK |Error |
+| BLANK AND BLANK |BLANK |Error |
 

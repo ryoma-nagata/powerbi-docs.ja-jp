@@ -6,18 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/22/2019
+ms.date: 01/08/2020
 ms.author: kfollis
-ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958496"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762556"
 ---
 # <a name="power-bi-data-sources"></a>Power BI データ ソース
 
 この表には、DirectQuery やオンプレミス データ ゲートウェイに関する情報など、データセットに対して Power BI でサポートされているデータ ソースがまとめられています。 データフローの詳細については、「[Power BI データフロー用のデータ リソースに接続する](service-dataflows-data-sources.md)」を参照してください。
+
+> [!NOTE]
+> Power BI Desktop 用のデータ コネクタの多くには、認証に Internet Explorer 10 (またはそれ以降) が必要です。 
+
 
 | データ ソースの | デスクトップから接続する | サービスから接続し、更新する | DirectQuery / ライブ接続 | ゲートウェイ (サポートあり) | ゲートウェイ (必須) |
 |---|---|---|---|---|---|---|---|
@@ -33,7 +37,7 @@ ms.locfileid: "74958496"
 | Azure Cost Management | はい | はい | いいえ | いいえ | いいえ |
 | Azure Data Explorer (Kusto) | はい | はい | はい | いいえ | いいえ |
 | Azure Data Lake Storage Gen1 | はい | はい | いいえ | いいえ | いいえ |
-| Azure Data Lake Storage Gen2 | はい | はい | いいえ | いいえ | いいえ |
+| Azure Data Lake Storage Gen2 | はい | はい | いいえ | はい | いいえ |
 | Azure DevOps | はい | はい | いいえ | いいえ | いいえ |
 | Azure DevOps Server | はい | はい | いいえ | はい | はい |
 | Azure HDInsight (HDFS) | はい | はい | いいえ | いいえ | いいえ |
@@ -65,8 +69,8 @@ ms.locfileid: "74958496"
 | Google BigQuery | はい | はい | いいえ | いいえ | いいえ |
 | Hadoop ファイル (HDFS) | はい | いいえ | いいえ | いいえ | いいえ |
 | HDInsight 対話型クエリ | はい | はい | はい | いいえ | いいえ |
-| IBM DB2 | はい | はい | はい | はい | はい |
-| IBM Informix データベース | はい | はい | いいえ | はい | はい |
+| IBM DB2 | はい | はい | はい | はい | いいえ |
+| IBM Informix データベース | はい | はい | いいえ | はい | いいえ |
 | IBM Netezza | はい | はい | はい | はい | はい |
 | Impala | はい | はい | はい | はい | はい |
 | Indexima | はい | はい | はい | はい | はい |
@@ -95,7 +99,7 @@ ms.locfileid: "74958496"
 | Planview Enterprise One - CTM | はい | はい | いいえ | いいえ | いいえ |
 | Planview Enterprise One - PRM | はい | はい | いいえ | いいえ | いいえ |
 | Planview Projectplace | はい | はい | いいえ | いいえ | いいえ |
-| PostgreSQL | はい | はい | はい | はい | はい |
+| PostgreSQL | はい | はい | はい | はい | いいえ |
 | Power BI データフロー | はい | はい | いいえ | いいえ | いいえ |
 | Power BI データセット | はい | はい | はい | いいえ | いいえ |
 | Power Platform データフロー | はい | はい | いいえ | いいえ | いいえ |
@@ -114,7 +118,7 @@ ms.locfileid: "74958496"
 | SharePoint リスト | はい | はい | いいえ | はい | いいえ <sup>4</sup> |
 | SharePoint Online リスト | はい | はい | いいえ | はい <sup>2</sup> | いいえ |
 | Smartsheet | はい | はい | いいえ | いいえ | いいえ |
-| Snowflake | はい | はい | はい | はい | はい |
+| Snowflake | はい | はい | はい | はい | いいえ |
 | Spark | はい | はい | はい | はい | いいえ |
 | SparkPost | はい | はい | いいえ | いいえ | いいえ |
 | SQL Server | はい | はい | はい | はい | はい |
@@ -137,7 +141,7 @@ ms.locfileid: "74958496"
 | Zendesk | はい | はい | いいえ | いいえ | いいえ |
 | | | | | | | | |
 
-<sup>1</sup> [ACE OLEDB プロバイダー](https://www.microsoft.com/download/details.aspx?id=54920)でサポートされ、ゲートウェイと同じコンピューターにインストールされます。
+<sup>1</sup>[ACE OLEDB プロバイダー](https://www.microsoft.com/download/details.aspx?id=54920)でサポートされ、ゲートウェイと同じコンピューターにインストールされます。
 
 <sup>2</sup> オンプレミス バージョンと同じ M 関数でサポートされます。
 
@@ -145,7 +149,7 @@ ms.locfileid: "74958496"
 
 <sup>4</sup> オンプレミス バージョンのテクノロジに必須です。
 
-<sup>5</sup> [個人ゲートウェイ](service-gateway-personal-mode.md)でのみサポートされます。
+<sup>5</sup>[個人ゲートウェイ](service-gateway-personal-mode.md)でのみサポートされます。
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery ソースのシングル サインオン (SSO)
 

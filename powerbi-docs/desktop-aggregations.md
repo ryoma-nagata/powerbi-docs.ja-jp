@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: ba9c11004099b1e11d935cd0b178463e542bea9a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907951"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761797"
 ---
-# <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop での集計
+# <a name="manage-aggregations-in-power-bi-desktop"></a>Power BI Desktop で集計を管理する
 
 Power BI で**集計** を使用すると、以前は不可能だった方法でビッグ データを対話的に分析することが可能になります。 **集計**によって、意思決定のために大規模なデータセットをロック解除するコストを大幅に削減できます。
 
@@ -115,7 +115,7 @@ Power BI のインポート (非多次元) と DirectQuery のすべてのソー
 [概要作成] のドロップダウンでは、選択肢として次の値が提供されます。
 * カウント
 * GroupBy
-* 最大
+* Max
 * 最小
 * 合計
 * テーブル行数のカウント

@@ -6,26 +6,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 01/02/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ac2b2e498c6cd81e922e3ee82435d0d32720ced
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8dbd72b310d6e62619a61d34001afc1f7bc44189
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876018"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75730998"
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop のビデオ
-[Power BI 用の YouTube チャンネルがあります](https://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)!
 
-Power BI Desktop に関するすべてのビデオを次に一覧で示します。 下記のいずれかのリンクを選択すると、関連付けられているビデオが表示されます。
+Power BI Desktop には、[YouTube チャンネル](https://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)が用意されています。
 
-- データを取得するところから、レポートを作成し、それを Power BI にアップロードするところまで、[Power BI Desktop の概要](https://www.youtube.com/watch?v=Qgam9M8I0xA)を説明するビデオです。この過程により、レポートの最新表示や、他のユーザーによる共有が可能になります。  
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe> 
-  
-- Power BI Desktop を使用して[魅力的なレポートを作成する方法](https://www.youtube.com/watch?v=ByIUx-HmQbw)と、Power Query エディターを使用してインポート、変形、変換を行う方法について学習します。
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>  
-  
+データを取得し、レポートを作成して、レポートを他のユーザーと共有するには、Power BI Desktop の概要をご覧ください。 
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe>
+
+Power BI Desktop を使用して魅力的なレポートを作成する方法を説明しています。
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe> 
+
+Power Query エディターを使ってデータのインポート、整形、変換を行います。
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe> 
+
+次のリンクを選択すると、Power BI の YouTube チャンネルで視聴できるすべてのビデオが表示されます。
+
+- [Power BI Desktop の概要](https://www.youtube.com/watch?v=Qgam9M8I0xA)
+- [Power BI Desktop でレポートを作成する](https://www.youtube.com/watch?v=IMAsitQ2cAc)
+- [Power Query エディターを使用する](https://www.youtube.com/watch?v=ByIUx-HmQbw)
+- [テーブル間のリレーションシップを作成する](https://www.youtube.com/watch?v=fVW4MCr0APA)
+- [Power BI Desktop から Power BI サービスに発行する](https://www.youtube.com/watch?v=ObwsFdC9e94)
+- [計算列を追加する](https://www.youtube.com/watch?v=62mLfiNcqVM)

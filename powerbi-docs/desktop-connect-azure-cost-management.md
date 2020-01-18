@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1a09bd706a69156066f077bfb1668dd27448bd40
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf83df157738621116eb9e5461876eee8faf0863
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878600"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761682"
 ---
-# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Power BI Desktop で Azure Cost Management に接続する
+# <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Power BI Desktop で Azure Cost Management コネクタを使用してビジュアルとレポートを作成する
 
 Power BI Desktop 用の Azure Cost Management コネクタを使用すると、強力でカスタマイズされた視覚化とレポートを作成し、Azure のコストの理解を深めることができます。 現在、Azure Cost Management コネクタは、[Microsoft 顧客契約](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/)または [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) を結んでいるお客様をサポートしています。  
 
@@ -102,7 +102,7 @@ Enterprise Agreement (EA) アカウントを使用して接続するには、Azu
 
 ## <a name="next-steps"></a>次の手順
 
-Power BI Desktop を使用すれば、さまざまな種類のデータ ソースに接続できます。 詳しくは、次の各記事をご覧ください。
+Power BI Desktop を使用すれば、さまざまな種類のデータ ソースに接続できます。 詳細については、次の記事を参照してください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)

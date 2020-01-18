@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69b6cd3200627c5b0523fce914eae5899e594c27
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867231"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761159"
 ---
-# <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Power BI Desktop の分析情報を利用し、ビジュアル内で観察される増減について説明する (プレビュー)
+# <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>ビジュアルの変動の説明に Power BI Desktop に分析情報を適用する (プレビュー)
 
 ビジュアルでは、値の大幅な増加や急激な減少が確認されることが頻繁にあり、そのような変化の原因は何かと疑問に思います。 **Power BI Desktop** の**分析情報**を利用すれば、数回のクリックで原因がわかります。
 

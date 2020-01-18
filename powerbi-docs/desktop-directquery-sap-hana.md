@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d5923c111debb14aab46977d42f3357837d9399
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73878294"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761228"
 ---
-# <a name="directquery-and-sap-hana"></a>DirectQuery と SAP HANA
+# <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Power BI で DirectQuery を使用して SAP HANA データ ソースに接続する
 **SAP HANA** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP HANA には 2 つの方法で接続できます。
 
 * **SAP HANA を多次元ソースとして扱う (既定):** この場合の動作は、Power BI が SAP Business Warehouse や Analysis Services など、他の多次元ソースに接続するときの動作に似たものになります。 この設定で SAP HANA に接続すると、分析または計算ビューが 1 つ選択され、そのビューのすべてのメジャー、階層、属性がフィールド一覧に表示されます。 ビジュアルを作成すると、集計データが常に SAP HANA から取得されます。 これは推奨される方法であり、SAP HANA を利用する新しい DirectQuery レポートの既定の方法です。

@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871015"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885325"
 ---
-# <a name="key-influencers-visualization"></a>主要なインフルエンサの視覚エフェクト
+# <a name="create-key-influencers-visualizations"></a>主要なインフルエンサーの視覚化を作成する
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ ms.locfileid: "73871015"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-あなたは、プロダクト マネージャーから顧客が自社のクラウド サービスについて否定的なレビューをすることにつながる要因を把握するように指示されています。 理解するには、Power BI Desktop で[カスタマー フィードバック PBIX ファイル](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)を開きます。 [Power BI サービスまたは Power BI Desktop 用のカスタマー フィードバック Excel ファイル](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)をダウンロードすることもできます。 どちらか一方のリンクを選択して、表示された GitHub ページの **[ダウンロード]** を選択します。
+あなたは、プロダクト マネージャーから顧客が自社のクラウド サービスについて否定的なレビューをすることにつながる要因を把握するように指示されています。 理解するには、Power BI Desktop で[カスタマー フィードバック PBIX ファイル](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix)を開きます。 [Power BI サービスまたは Power BI Desktop 用のカスタマー フィードバック Excel ファイル](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx)をダウンロードすることもできます。 どちらか一方のリンクを選択して、表示された GitHub ページの **[ダウンロード]** を選択します。
 
 > [!NOTE]
 > カスタマー フィードバック データセットは、[Moro et al., 2014] S. Moro, P. Cortez, and P. Rita. "A Data-Driven Approach to Predict the Success of Bank Telemarketing." *Decision Support Systems*, Elsevier, 62:22-31, June 2014 に基づくものです。 
@@ -73,7 +73,7 @@ ms.locfileid: "73871015"
     - 組織でのロール 
     - サブスクリプションの種類 
     - 企業規模 
-    - テーマ
+    - 切り替え
     
 4. **[配置方法]** フィールドは空のままにします。 このフィールドは、メジャーまたは集計されたフィールドを分析する場合にのみ使用されます。 
 
@@ -267,6 +267,8 @@ ID の数を見てみましょう。 各顧客の行には、関連付けられ�
  
 主要なインフルエンサーの視覚化には、次のような制限があります。
 
+
+
 - 直接クエリはサポートされていません
 - Azure Analysis Services および SQL Server Analysis Services へのライブ接続はサポートされていません
 - Web への公開はサポートされていません
@@ -357,6 +359,9 @@ AI 視覚化では、カテゴリ別フィールドと数値フィールドを�
 この判断の理由は、視覚化ではインフルエンサーを見つけるときに、データ ポイントの数も考慮されるからです。 次の例では、29,000 人を超えるコンシューマーと、その 10 分の 1 の数の約 2,900 人の管理者がいます。 そのうちの 390 人だけが低い評価を付けました。 視覚化には、一度調べただけで管理者評価のパターンを見つけられたかどうかを判断するための十分なデータがありません。 
 
 ![インフルエンサーを判断する方法](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**主要なインフルエンサーに対するデータ ポイントの制限とは**
+10,000 のデータ ポイントのサンプルで分析を実行します。 一方の側のバブルには、見つかったすべてのインフルエンサーが表示されています。 反対側の縦棒グラフと散布図は、これらのコア ビジュアルのサンプリング戦略に従います。
 
 **カテゴリ別の分析に対して主要なインフルエンサーをどのように計算しますか。**
 

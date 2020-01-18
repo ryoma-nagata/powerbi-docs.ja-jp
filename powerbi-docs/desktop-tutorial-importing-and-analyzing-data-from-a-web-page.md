@@ -1,5 +1,5 @@
 ---
-title: チュートリアル:Web ページからデータをインポートおよび分析する
+title: チュートリアル:Web ページからのデータのインポートと分析
 description: チュートリアル:Power BI Desktop を使用して Web ページからデータをインポートおよび分析する
 author: davidiseminger
 ms.reviewer: ''
@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d4aaa613ac2d79a08ed6bbc03ba47dd296942de
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879588"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759591"
 ---
-# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>チュートリアル:Power BI Desktop を使用して Web ページのデータを分析する
+# <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>チュートリアル:Power BI Desktop を使用して Web ページのデータを分析する
 
 昔からのサッカー ファンなら、UEFA 欧州選手権 (ユーロ カップ) の優勝国が気になります。 Power BI Desktop を使うと、このデータを Web ページからレポートにインポートして、データを表示する視覚エフェクトを作成できます。 このチュートリアルでは、Power BI Desktop を使って次のことを行う方法を学習します。
 
@@ -184,7 +184,7 @@ Web 接続の確立には基本認証のみが使用されることに注意し�
 
 Power BI Desktop は、さまざまなデータ ソースからデータを取得して分析のニーズに合わせてデータの形を整えることから、このデータを機能豊富な対話型の方法で視覚化することまで、シームレスなエンド ツー エンドのエクスペリエンスを提供します。 レポートが完成したら、[Power BI にアップロード](desktop-upload-desktop-files.md)し、それに基づいて、他の Power BI ユーザーと共有可能なダッシュボードを作成できます。
 
-## <a name="see-also"></a>参照
+## <a name="see-also"></a>関連項目
 * [他の Power BI Desktop のチュートリアルを読む](https://go.microsoft.com/fwlink/?LinkID=521937)
 * [Power BI Desktop のビデオを見る](https://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI フォーラムにアクセスする](https://go.microsoft.com/fwlink/?LinkID=519326)

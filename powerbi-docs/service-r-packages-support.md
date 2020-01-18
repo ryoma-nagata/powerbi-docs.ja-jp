@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1070cf40fb743fc0d4661bd067b6475ef8dc8217
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8bb07269b6406f052caceedb7b1f924e4424fde4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871683"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762349"
 ---
-# <a name="r-packages-in-the-power-bi-service"></a>Power BI サービスの R パッケージ
+# <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Power BI サービスで R パッケージを使用してビジュアルを作成する
 Power BI サービスでビジュアルを作成するには、強力な [R プログラミング言語](https://www.r-project.org/)を使用できます。 多くの R パッケージが Power BI サービスでサポートされています (また、常にサポート対象は増えています) が、一部のパッケージはサポートされていません。
 
 次のセクションでは、Power BI でサポートされる R パッケージとサポートされない R パッケージをアルファベット順の一覧で示します。 Power BI の R の詳細については、[R ビジュアル](visuals/service-r-visuals.md)に関する記事を参照してください。
@@ -143,7 +143,7 @@ R パッケージにはいくつかの要件と制限があります。
 |callr|2.0.2|https://cran.r-project.org/web/packages/callr/index.html|
 |car|2.1-6|https://cran.r-project.org/web/packages/car/index.html|
 |carData|3.0-1|https://cran.r-project.org/web/packages/carData/index.html|
-|caret|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
+|キャレット|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
 |catnet|1.15.3|https://cran.r-project.org/web/packages/catnet/index.html|
 |caTools|1.17.1|https://cran.r-project.org/web/packages/caTools/index.html|
 |cclust|0.6-21|https://cran.r-project.org/web/packages/cclust/index.html|

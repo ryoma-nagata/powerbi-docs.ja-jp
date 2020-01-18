@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop での Azure Consumption Insights データへの接続
+title: Power BI Desktop で Azure Consumption Insights データに接続する
 description: Power BI Desktop を使用して、Azure に簡単に接続し、使用状況を把握できます
 author: davidiseminger
 ms.reviewer: ''
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876524"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761728"
 ---
-# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop での Azure Consumption Insights データへの接続
+# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop で Azure Consumption Insights データに接続する
 
 Power BI Desktop を使用すると、Azure に接続し、組織の Azure サービスの使用状況に関する詳細なデータを取得することができます。 このデータを使用して、カスタム レポートとカスタム メジャーを作成し、Azure の使用状況の把握と分析をさらに適切に行うことができます。
 
@@ -164,14 +164,14 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 3. *Query1* を元の詳細テーブルの名前に変更します。
 4. 新しいテーブル メジャーとカスタム列を作成するには、ご利用のテーブルを右クリックし、 **[新しいメジャー]** を選択します。 次に、格納されているご自分のメジャーと列を最後まですべて、切り取って貼り付けます。
 
-### <a name="step-4-relink-tables-that-had-relationships"></a>手順 4:リレーションシップを持っていたテーブルを再リンクする
+### <a name="step-4-relink-tables-that-had-relationships"></a>手順 4.リレーションシップを持っていたテーブルを再リンクする
 多くのダッシュボードには、日付テーブルやカスタム プロジェクトで使用されるテーブルなど、検索またはフィルタリングに使用されるテーブルが追加されています。 これらのリレーションシップを再確立することで、未解決のほとんどの問題が解決されます。 その方法を次に示します。
 
 - **Power BI Desktop** の **[モデリング]** タブで、 **[リレーションシップの管理]** を選択し、モデル内のリレーションシップを管理できるウィンドウを表示します。 必要に応じて、テーブルを再リンクします。
 
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
-### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>手順 5:ビジュアルを確認し、必要に応じてフィールドの書式設定を調整する
+### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>手順 5.ビジュアルを確認し、必要に応じてフィールドの書式設定を調整する
 この時点で、元のビジュアル、テーブル、およびドリルダウンのほとんどは予期したとおりに動作するはずです。 ただし、外観を正確に書式設定するには、若干の調整が必要になる場合があります。 ダッシュボードとビジュアルをそれぞれ調べて、予期したとおりに確実に表示されるようにするには少し時間がかかります。
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Azure Consumption Insights (ACI) API を使用して使用量データを取得する
@@ -231,7 +231,7 @@ Azure portal の列および詳細の名前と、API およびコネクタでの
 
 ## <a name="next-steps"></a>次の手順
 
-Power BI Desktop を使用すれば、さまざまな種類のデータ ソースに接続できます。 詳しくは、次の各記事をご覧ください。
+Power BI Desktop を使用すれば、さまざまな種類のデータ ソースに接続できます。 詳細については、次の記事を参照してください。
 
 * [Power BI Desktop で Azure Cost Management データに接続する](desktop-connect-azure-cost-management.md)
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)

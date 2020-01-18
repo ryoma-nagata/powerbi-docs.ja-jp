@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907849"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757855"
 ---
-# <a name="filled-maps-choropleth-in-power-bi"></a>Power BI の塗り分け地図 (コロプレス)
+# <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI で塗り分け地図 (コロプレス地図) を作成して使用する
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -66,7 +66,7 @@ Bing に送信されているデータの詳細、およびジオコーディン
 [動画 https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>塗り分け地図を作成する
-1. フィールド ウィンドウで **[Geo (地理)]** \> **[State]** フィールドを選択します。    
+1. [フィールド] ペインから、 **[Geo]** \> **[State]** フィールドを選択します。    
 
    ![[State] の横にある黄色のチェック マーク](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
 2. [グラフを変換](power-bi-report-change-visualization-type.md)して、塗り分け地図にします。 **[State]** も、 **[場所]** に含まれるようになったことに注目してください。 Bing 地図は、マップの作成に **[場所]** のフィールドも使用します。  場所には、正しい各種の場所 (国、都道府県、市区町村、郵便番号など) を指定できます。Bing 地図には、世界中の場所に対応する塗り分け地図の輪郭が用意されています。 正しいエントリが [場所] に指定されていないと、Power BI では塗り分け地図を作成できなくなります。  

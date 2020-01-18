@@ -2,21 +2,21 @@
 title: 大規模なデータセット、データ ポイントの制限、およびデータ戦略
 description: ビジュアルのデータ制限とデータ削減戦略
 author: mihart
-ms.reviewer: amac
+ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011296"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885252"
 ---
-# <a name="data-point-limits-and-strategies-by-visual-type"></a>ビジュアルの種類別のデータ ポイントの制限と戦略
+# <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>視覚エフェクトの種類別のデータ ポイントの制限と戦略を適用する
 
 Power BI でビジュアルをレンダリングするときは、視覚エフェクトが迅速かつ正確である必要があります。 それには視覚化タイプ別に構成された、基になるアルゴリズムが必要です。 Power BI のビジュアルは、異なるサイズのデータセットを処理するために十分な柔軟性が必要です。 一部のデータセットのデータ ポイントは少数である一方、他のデータセットにはペタバイト単位のデータ ポイントがあります。 この記事では、Power BI で視覚エフェクトをレンダリングするために使用される戦略について説明します。
 
@@ -75,7 +75,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
  縦棒グラフと同じ戦略を使用します。 **複合グラフ**の線では**折れ線グラフ**で使用される高密度アルゴリズムは使用されないことに注意してください。
 
 ### <a name="custom-visuals"></a>カスタム ビジュアル
-最大で 30,000、ただし使用する戦略を指定するのはそのビジュアルの作成者
+最大で 30,000、ただし使用する戦略を指定するのはそのビジュアルの作成者です。 既定の制限は 1,000 ですが、ビジュアルの作成者は最大 30,000 まで変更できます。
 
 ### <a name="doughnut"></a>ドーナツ
 - 最大ポイント数:3,500
@@ -119,6 +119,9 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 - 行:一度に 500 行のウィンドウを使用することによる仮想化
 - 列:上位 100 のグループ化列 
 - 値: 複数の値はデータ削減としてカウントされません
+
+### <a name="powerapps-visual"></a>PowerApps のビジュアル
+最大で 30,000、ただし使用する戦略を指定するのはそのビジュアルの作成者です。 既定の制限は 1,000 ですが、ビジュアルの作成者は最大 30,000 まで変更できます。
 
 ### <a name="radial-gauge"></a>放射状ゲージ
 削減戦略なし

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3ba6f8faf22d3854ecfcbc40e7931ca887de0f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 25d80cd81eb06913eb24c17ef10db47fa4d2bea5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876647"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761912"
 ---
-# <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop の [分析] ウィンドウを使用する
+# <a name="use-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop の [分析] ウィンドウを使用する
 **Power BI Desktop** の **[分析]** ウィンドウによって、動的な*参照線*をビジュアルに追加して、重要な傾向や情報に注目させることができます。 **[分析]** ウィンドウは Power BI Desktop の **[視覚化]** 領域にあります。
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
@@ -100,7 +100,7 @@ ms.locfileid: "73876647"
 
 最後に、次のような非デカルト ビジュアルには、現在は **[分析]** ウィンドウの動的線を適用できません。
 
-* マトリックス
+* Matrix
 * 円グラフ
 * ドーナツ
 * テーブル

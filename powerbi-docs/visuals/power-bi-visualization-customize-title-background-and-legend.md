@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 252e83a543640ec47fbadd00012bf1a4d8074f84
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831406"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757833"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds"></a>視覚化のタイトル、凡例、および背景をカスタマイズする
+# <a name="customize-visualization-titles-backgrounds-and-legends"></a>視覚エフェクトのタイトル、背景、および凡例をカスタマイズする
 
 このチュートリアルでは、視覚化をカスタマイズする、さまざまな方法について説明します。 視覚化をカスタマイズするオプションは多数あります。 そのすべてを学習するには、 **[形式]** ウィンドウ (ペイント ローラー アイコンを選択) を調べることをお勧めします。 その手始めとして、この記事では視覚化のタイトル、凡例、背景をカスタマイズする方法とテーマを追加する方法を説明します。
 
@@ -92,7 +92,7 @@ ms.locfileid: "74831406"
 
 ![背景色が更新された集合縦棒グラフのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-background.png)
 
-変更を保存して、次のセクションに移動します。
+行った変更を保存して、次のセクションに移動します。
 
 すべての変更を既定値に戻す必要がある場合は、 **[背景]** カスタマイズ ウィンドウの下部にある **[既定値に戻す]** を選択します。
 
@@ -135,7 +135,7 @@ ms.locfileid: "74831406"
 
 | 視覚化 | タイトル | 背景 | 凡例 |
 |:--- |:--- |:--- |:--- |
-| 面 | はい | はい |はい |
+| 領域 | はい | はい |はい |
 | 横棒 | はい | はい |はい |
 | カード | はい | はい |該当なし |
 | 複数行カード | はい | はい | 該当なし |

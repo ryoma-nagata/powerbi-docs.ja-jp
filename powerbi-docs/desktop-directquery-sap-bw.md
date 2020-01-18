@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ffff443716f11101347debd97f28349afc3904bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876322"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761182"
 ---
-# <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery と SAP Business Warehouse (BW)
+# <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Power BI で DirectQuery を使用して SAP Business Warehouse に接続する
 **SAP Business Warehouse (BW)** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP BW は OLAP/多次元的な性質があるため、SAP BW での DirectQuery と SQL Server などのリレーショナル ソース間では多数の重要な違いがあります。 これらの相違点は次のとおりです。
 
 * リレーショナル ソースを使用する **DirectQuery** では、フィールド リストで使用できるデータを論理的に定義する ( **[データの取得]** または **[クエリ エディター]** ダイアログで定義される) 一連のクエリがあります。 これは、SAP BW などの OLAP ソースに接続するときには*該当しません*。 代わりに、 **[データの取得]** を使用して SAP サーバーに接続する場合、インフォキューブまたは BEx クエリのみが選択されます。 すると、選択されたインフォキューブ/BEx クエリのすべての主要な指標とディメンションがフィールド リストで使用できるようになります。   

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5af9c2e5979121054e51b928c58f49477c19a7d0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4d478396f88a1443c0d23d64199d84f0b615b1da
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878819"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761820"
 ---
-# <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop で参照整合性設定を想定する
+# <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Power BI Desktop で [参照整合性を想定] 設定を適用する
 **DirectQuery** を利用し、データ ソースに接続するとき、 **[参照整合性を想定]** 選択を使用し、より効率的なクエリをデータ ソースに対して実行します。 この機能には基礎となるデータに関していくつかの要件があり、**DirectQuery** の利用時にのみ利用できます。
 
 **[参照整合性を想定]** を設定すると、データ ソースに対するクエリで **OUTER JOIN** ステートメントではなく **INNER JOIN** ステートメントを使用できるようになり、クエリの効率性が上がります。

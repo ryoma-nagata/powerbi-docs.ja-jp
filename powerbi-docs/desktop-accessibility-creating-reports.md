@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878980"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761981"
 ---
-# <a name="creating-accessible-reports-in-power-bi"></a>Power BI でアクセシビリティ対応のレポートを作成する
+# <a name="design-power-bi-reports-for-accessibility"></a>アクセシビリティ対応の Power BI レポートを設計する
 説得力のあるレポートを設計および作成しながら、アクセシビリティ対応の設計にすることもできます。 レポートを作成する場合は、対象者が誰であっても、特別な設計の種類に適合させる必要なく、可能な限り多くのユーザーが使用できるようにレポートを作成する必要があります。
 
 ![ハイ コントラストの Windows の設定](media/desktop-accessibility/accessibility-05.png)

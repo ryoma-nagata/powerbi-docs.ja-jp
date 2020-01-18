@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877269"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762579"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>オンプレミス データ ソースでのデータフローの使用
 
@@ -24,7 +24,8 @@ ms.locfileid: "73877269"
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>データフローで使用するためのエンタープライズ ゲートウェイの構成
 
-オンプレミスのデータ ソースをデータフローで使用するには、データフローを作成するすべてのユーザーが、**エンタープライズ ゲートウェイ**をインストールして構成する必要があります。 また、データフローでそのゲートウェイを使用するには、データフローを作成するユーザーがエンタープライズ ゲートウェイの管理者である必要もあります。
+ゲートウェイを使用してデータフローを作成する場合、そのユーザーはエンタープライズ ゲートウェイの管理者である必要があります。または、ユーザーと使用する予定のデータソースをその管理者が共有している必要があります。 
+
 
 > [!NOTE]
 > データフローは、エンタープライズ ゲートウェイを使用した場合にのみサポートされます。
@@ -35,7 +36,7 @@ ms.locfileid: "73877269"
 
 ![オンプレミスのデータ ソースを選択する](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-選択すると、オンプレミスのデータへのアクセスに使用するエンタープライズ ゲートウェイに関する接続の詳細を指定するように求められます。 ゲートウェイ自体を選択し、選択したゲートウェイの資格情報を指定する必要があります。 ユーザーが管理者になっているゲートウェイのみが、ドロップダウン リストに表示されます。
+選択すると、オンプレミスのデータへのアクセスに使用するエンタープライズ ゲートウェイに関する接続の詳細を指定するように求められます。 ゲートウェイ自体を選択し、選択したゲートウェイの資格情報を指定する必要があります。
 
 ![接続の詳細を指定する](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 
@@ -70,7 +71,7 @@ ms.locfileid: "73877269"
 * データフローは、エンタープライズ ゲートウェイを使用した場合にのみサポートされます。 個人用ゲートウェイは、ドロップダウン リストおよび設定画面で選択できません。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 この記事では、データフロー用にオンプレミス データ ソースを使用すること、およびそのようなデータにアクセスするためにゲートウェイを使用および構成する方法について説明しました。 次の記事も役に立ちます
 

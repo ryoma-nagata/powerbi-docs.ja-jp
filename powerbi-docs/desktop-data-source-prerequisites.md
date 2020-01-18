@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 515c695125cd0702389a951cb5c4acffdd7aac41
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d118cae8cd4b6fbd95066b15819b1e798c8bbe0f
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868590"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761320"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI データ ソースの前提条件
-Power BI は、データ プロバイダーごとにオブジェクトの特定のプロバイダーのバージョンをサポートしています。 Power BI で使用できるデータ ソースについて詳しくは、「[データ ソース](desktop-data-sources.md)」をご覧ください。 次の表では、これらの要件について説明します。
+Power BI は、データ プロバイダーごとにオブジェクトの特定のプロバイダーのバージョンをサポートしています。 Power BI で使用できるデータ ソースについて詳しくは、[データ ソース](desktop-data-sources.md)に関するページをご覧ください。 次の表では、これらの要件について説明します。
 
-| データ ソース | プロバイダー | 最小のプロバイダー バージョン | 最小のデータ ソース バージョン | サポートされているデータ ソース オブジェクト | ダウンロード リンク |
+| データ ソースの | プロバイダー | 最小のプロバイダー バージョン | 最小のデータ ソース バージョン | サポートされているデータ ソース オブジェクト | ダウンロード リンク |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server |ADO.net (.NET Framework に組み込み) |.NET Framework 3.5 (のみ) |SQL Server 2005 以降 |テーブル/ビュー、スカラー関数、テーブル関数 |.NET framework 3.5 以降に含まれる |
-| Access |Microsoft Access データベース (ACE) |ACE 2010 SP1 |制限なし |テーブル/ビュー |[ダウンロード リンク](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
+| アクセス |Microsoft Access データベース (ACE) |ACE 2010 SP1 |制限なし |テーブル/ビュー |[ダウンロード リンク](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Excel (.xls ファイルのみ) (注 1 を参照) |Microsoft Access データベース (ACE) |ACE 2010 SP1 |制限なし |テーブル、シート |[ダウンロード リンク](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Oracle (注 2 を参照) |ODP.NET |ODAC 11.2 リリース 5 (11.2.0.3.20) |9.x 以降 |テーブル/ビュー |[ダウンロード リンク](https://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
 | | System.Data.OracleClient (.Net Framework に組み込み) |.NET Framework 3.5 |9.x 以降 |テーブル/ビュー |.NET Framework 3.5 以降に含まれる |

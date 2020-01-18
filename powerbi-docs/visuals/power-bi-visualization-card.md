@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2b584c0664623f62b6d1d77cce74eaa51b0e9041
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870992"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758039"
 ---
-# <a name="card-visualizations"></a>カード視覚エフェクト
+# <a name="create-card-visualizations"></a>カード視覚エフェクトを作成する
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,7 +28,7 @@ Power BI のダッシュボードまたはレポートで追跡すべき最重�
 
 このチュートリアルでは、[小売の分析のサンプル PBIX ファイル](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)を使用します
 
-1. メニューバーの左上にある **[ファイル]** \> **[開く]** を選択します。
+1. メニューバーの左上にある **[ファイル]** \> **[開く]** を選択します
    
 2. **小売の分析のサンプル PBIX ファイル**を探します。
 
@@ -40,7 +40,7 @@ Power BI のダッシュボードまたはレポートで追跡すべき最重�
 
 カードを作成する最初の方法は、Power BI Desktop でレポート エディターを使用することです。
 
-1. 空のレポート ページで開始し、 **[Store]** \> **[Open store count]** フィールドを選びます。
+1. 空のレポート ページで開始し、 **[Store]** \> **[Open store count]** フィールドを選択します。
 
     Power BI によって、1 つの数値のみが含まれた縦棒グラフが作成されます。
 

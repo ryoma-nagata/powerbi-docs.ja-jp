@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/03/2019
-ms.openlocfilehash: a7f0e6f08f25d47cd50789a3c8f296ae20c4cab0
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.date: 01/03/2020
+ms.openlocfilehash: 5f77e17eccf4c99e7a391ea310a34848c604e01d
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831214"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732086"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>ページ分割されたレポートを Power BI サービスに発行する
 
 この記事では、ページ分割されたレポートをローカル コンピューターからアップロードすることによって Power BI サービスに発行することについて学びます。 ワークスペースが Premium 容量である限り、ページ分割されたレポートをマイ ワークスペースまたは他のワークスペースにアップロードできます。 ワークスペース名の横にあるダイヤモンド形のアイコン ![Power BI Premium 容量のダイヤモンド形のアイコン](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) を探します。 
 
-レポートのデータ ソースがオンプレミスにある場合は、レポートをアップロードした後で、[ゲートウェイを作成する](#create-a-gateway)必要があります。
+レポートのデータ ソースがオンプレミスの場合は、レポートをアップロードした後で、ゲートウェイを作成する必要があります。 この記事の後半の「[ゲートウェイを作成する](#create-a-gateway)」セクションを参照してください。
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>Premium 容量にワークスペースを追加する
 
@@ -35,8 +35,33 @@ ms.locfileid: "74831214"
 
    変更できない場合があります。 できない場合は、Power BI Premium 容量の管理者に連絡し、ワークスペースを Premium 容量に追加するための割り当て権限を付与してもらってください。
 
+## <a name="from-report-builder-publish-a-paginated-report"></a>レポート ビルダーから、ページ分割されたレポートを発行する
 
-## <a name="upload-a-paginated-report"></a>ページ分割されたレポートをアップロードする
+1. レポート ビルダーでページ分割されたレポートを作成し、ローカル コンピューターに保存します。
+
+1. レポート ビルダーの **[ファイル]** メニューで、 **[名前を付けて保存]** を選択します。
+
+    ![[ファイル] メニュー > [保存] > [ファイルとして保存]](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+
+    まだ Power BI にサインインしていない場合は、ここでサインインするか、アカウントを作成する必要があります。 レポート ビルダーの右上隅にある **[サインイン]** を選択し、手順を完了します。
+
+2. 左側のワークスペースのリストで、その名前の横にあるダイヤモンド形のアイコン ![Power BI Premium 容量のダイヤモンド形のアイコン](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) が付いたワークスペースを選択します。 ボックスに**ファイル名**を入力して、 **[保存]** を選択します。 
+
+    ![Premium ワークスペースを選択する](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
+
+4. ブラウザーで Power BI サービスを開き、ページ分割されたレポートを発行する、Premium ワークスペースを参照します。 **[レポート]** タブにレポートが表示されます。
+
+    ![ページ一覧でのページ分割されたレポート](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
+
+5. ページ分割されたレポートを選択して、Power BI サービスで開きます。 パラメーターがある場合は、レポートを表示する前に、選択する必要があります。
+
+    ![パラメーターを選択する](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. レポートのデータ ソースがオンプレミスの場合は、この記事の[ゲートウェイを作成する](#create-a-gateway)方法を参照して、データ ソースにアクセスしてください。
+
+## <a name="from-the-power-bi-service-upload-a-paginated-report"></a>Power BI サービスから、ページ分割されたレポートをアップロードする
+
+Power BI サービスから開始し、ページ分割されたレポートをアップロードすることもできます。
 
 1. レポート ビルダーでページ分割されたレポートを作成し、ローカル コンピューターに保存します。
 
@@ -62,13 +87,15 @@ ms.locfileid: "74831214"
 
     ![資格情報を編集](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
-   自分のレポートがレポートの一覧に表示されます。
+   **[レポート]** タブにレポートが表示されます。
 
     ![ページ一覧でのページ分割されたレポート](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
 1. それを選択して Power BI サービスで開きます。 パラメーターがある場合は、レポートを表示する前に、選択する必要があります。
  
     ![パラメーターを選択する](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. レポートのデータ ソースがオンプレミスの場合は、この記事の[ゲートウェイを作成する](#create-a-gateway)方法を参照して、データ ソースにアクセスしてください。
 
 ## <a name="create-a-gateway"></a>ゲートウェイを作成する
 
@@ -89,4 +116,5 @@ ms.locfileid: "74831214"
 
 - [ページ分割されたレポートを Power BI サービスで表示する](consumer/paginated-reports-view-power-bi-service.md)
 - [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
+- [チュートリアル: 顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む](developer/embed-paginated-reports-customers.md)
 

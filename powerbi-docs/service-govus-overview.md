@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265450"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762096"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 **Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
@@ -34,7 +34,7 @@ ms.locfileid: "74265450"
 * 更新可能なチーム ダッシュボード
 * アクセス制御の共有と管理のための Active Directory グループ
 * Excel、CSV、Power BI Desktop ファイルからのレポートと[データのインポート](service-get-data.md)
-* Data Management Gateway
+* データ管理ゲートウェイ
 * すべてのデータは、Azure SQL と Power BI 用 Blob Storage の両方で暗号化されます
 * [コンテンツ パック](service-connect-to-services.md)でのサービスへの接続
 
@@ -59,6 +59,7 @@ Azure は複数のクラウドに分散されます。 既定では、テナン�
 * **ダッシュボードとレポートの利用状況指標** - レポートとダッシュボードで利用状況指標を使用することはできません。 お客様は監査ログ データを使用して、組織のコンテンツの利用状況情報を取得できます。
 * **データフロー** - データフローは利用できません。
 * **ページ分割されたレポート** - ページ分割されたレポートは、現在、米国政府バージニア州でのみ使用できます。  米国政府テキサス州でのサポートは予定されていますが、まだ利用できません。
+* Government Community Cloud (GCC) からの Power BI コンテンツの埋め込みは、Office 365 SKU でのみ行うことができます。 GCC High の顧客は [Office 365 または Azure SKU](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365) を使用できます。
 
 **Power BI** 無償版ライセンスがアカウントに割り当てられている場合、そのアカウントは **Power BI** サービスの商用バージョンで実行されます。**米国政府向け Power BI** サービスには含まれません。 無償版アカウントの場合、次の問題が発生することがあります。
 
@@ -88,7 +89,7 @@ Azure は複数のクラウドに分散されます。 既定では、テナン�
 
 **回答:** はい、URL は異なります。 次の表に各 URL を示します。
 
-| 市販バージョンの URL | 米国政府バージョンの URL | GCC High 用の米国政府向け URL |
+| 市販バージョンの URL | US Government バージョンの URL | GCC High 用の米国政府向け URL |
 | --- | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 

@@ -6,16 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: b8dd79e4b256a80ba5159a1b3980e798bc611840
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875027"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732040"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server のページ分割されたレポートを作成する
+この記事では、いくつかの簡単な手順で、Power BI Report Server のページ分割されたレポートを作成します。
+
+Power BI サービスのレポート ビルダーでのページ分割されたレポートの作成に関するヘルプをお探しですか? 代わりに、「[Power BI の改ページ調整されたレポート ビルダー](../report-builder-power-bi.md)」を参照してください。
+
 名前からわかるように、ページ分割されたレポートは多数のページに対して実行できます。 固定形式でレイアウトされた、正確なカスタマイズを提供します。 ページ分割されたレポートは .rdl ファイルです。
 
 SQL Server Reporting Services (SSRS) の Web ポータルと同様に、Power BI レポート サーバーの Web ポータルでは、ページ分割されたレポートの保存と管理ができます。 レポート ビルダーまたは SQL Server Data Tools (SSDT) のレポート デザイナーでレポートを作成および編集して、いずれかの Web ポータルに公開します。 その後、組織内のレポート閲覧者が、ブラウザーや、自身のモバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
@@ -24,15 +28,15 @@ SQL Server Reporting Services (SSRS) の Web ポータルと同様に、Power BI
 
 レポート ビルダーまたはレポート デザイナーでページ分割されたレポートを既に作成している場合は、Power BI Report Server のページ分割されたレポートを作成する準備ができています。 そうでない場合は、始めるために次の簡単な手順を実行します。
 
-## <a name="step-1-install-and-start-report-builder"></a>手順 1:レポート ビルダーをインストールして起動する
+## <a name="step-1-start-report-builder"></a>手順 1:レポート ビルダーの起動
 SSRS サーバーのレポートを作成するためにレポート ビルダーを既にインストールしている可能性があります。 レポート ビルダーの同じバージョンを使用して、Power BI レポート サーバーのレポートを作成できます。 レポート ビルダーをまだインストールしていない場合は、プロセスは簡単です。
 
-1. Power BI Report Server の Web ポータルで **[新規]** > **[ページ分割されたレポート]** の順に選択します。
+1. Power BI Report Server の Web ポータルで **[新規]**  >  **[ページ分割されたレポート]** の順に選択します。
    
     ![新規のページ分割されたレポート](media/quickstart-create-paginated-report/reportserver-new-paginated-report-menu.png)
    
     レポート ビルダーをまだインストールしていない場合は、インストール プロセスに案内されます。
-2. インストールが終了したら、**[新しいレポートまたはデータセット]** の画面にレポート ビルダーが開きます。
+2. インストールが終了したら、 **[新しいレポートまたはデータセット]** の画面にレポート ビルダーが開きます。
    
     ![[新しいレポートまたはデータセット] の画面](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
 3. 作成するレポートの種類のウィザードを選択します。
@@ -52,7 +56,7 @@ SSRS サーバーのレポートを作成するためにレポート ビルダ�
 
 グラフ ウィザードの最初のページ **[データセットの選択]** では、データセットを作成したり、サーバー上の共有データセットを選択できます。 *データセット*は外部データ ソースでのクエリからレポート データを返します。
 
-1. **[参照]** > サーバー上の共有データセットを選択 > **[開く]** > **[次へ]** の順に選択します。
+1. **[参照]** > サーバー上の共有データセットを選択 > **[開く]**  >  **[次へ]** の順に選択します。
    
     ![グラフ ウィザード:データセットを選択する](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
@@ -60,20 +64,20 @@ SSRS サーバーのレポートを作成するためにレポート ビルダ�
 2. グラフの種類、この場合は横棒グラフを選択します。
    
     ![グラフ ウィザード:グラフの種類](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
-3. フィールドを **[カテゴリ]**、**[系列]**、および **[値]** ボックスにドラッグして配置します。
+3. フィールドを **[カテゴリ]** 、 **[系列]** 、および **[値]** ボックスにドラッグして配置します。
    
     ![グラフ ウィザード:フィールドの配置](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
-4. **[次へ]** > **[完了]** の順に選択します。
+4. **[次へ]**  >  **[完了]** の順に選択します。
 
 ## <a name="step-3-design-your-report"></a>手順 3:レポートをデザインする
 現在、レポート デザイン ビューが表示されています。 データがユーザーのデータではなく、プレースホルダーのデータになっていることに注目してください。
 
 ![レポート デザイン ビュー](media/quickstart-create-paginated-report/reportserver-paginated-preview-report.png)
 
-* ユーザーのデータを表示するには、**[実行]** を選択します。
+* ユーザーのデータを表示するには、 **[実行]** を選択します。
   
      ![レポートの実行](media/quickstart-create-paginated-report/reportserver-paginated-run-report.png)
-* デザイン ビューに戻るには、**[デザイン]** を選択します。
+* デザイン ビューに戻るには、 **[デザイン]** を選択します。
 
 作成したばかりのグラフを変更することができます。レイアウト、値、凡例など、何でも変更できます。
 
@@ -81,10 +85,10 @@ SSRS サーバーのレポートを作成するためにレポート ビルダ�
 
 ![レポート ビルダーのデザイン ビュー](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>手順 4:レポート サーバーにレポートを保存する
+## <a name="step-4-save-your-report-to-the-report-server"></a>手順 4.レポート サーバーにレポートを保存する
 レポートの準備ができたら、Power BI Report Server に保存します。
 
-1. **[ファイル]** メニューで、**[名前を付けて保存]** を選択し、レポート サーバーに保存します。 
+1. **[ファイル]** メニューで、 **[名前を付けて保存]** を選択し、レポート サーバーに保存します。 
 2. これでこのレポートをブラウザーで表示できます。
    
     ![ブラウザーでのページ分割されたレポート](media/quickstart-create-paginated-report/reportserver-paginated-report.png)

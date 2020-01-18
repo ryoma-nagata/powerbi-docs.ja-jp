@@ -6,14 +6,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699017"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837610"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server での Power BI のスケジュールされた更新
 Power BI レポートのスケジュールされた更新は、レポートのデータを最新の状態に保つことができます。
@@ -61,8 +61,10 @@ Analysis Services インスタンスを監視する方法については、「[M
 
 Analysis Services 内のメモリ設定については、「[Memory Properties](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)」(メモリのプロパティ) をご覧ください。
 
+### <a name="data-model-size-limit"></a>データ モデル サイズの制限
+スケジュールされた更新中に内部の Analysis Services エンジンに読み込まれるデータ モデルの最大サイズは 2,000 MB (2 GB) です。 この最大サイズは構成できません。 データ モデルのサイズが 2 GB を超えると、"結果の長さが、対象となる大きな型の長さの制限 (2 GB) を超えています" という更新エラーが発生します。 その場合は、Analysis Services インスタンスでモデルをホストし、レポート内のモデルへのライブ接続を使用することをお勧めします。
+
 ## <a name="next-steps"></a>次の手順
 Power BI レポートに[スケジュールされた更新](configure-scheduled-refresh.md)を構成します。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

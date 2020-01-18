@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4dd6f185ea7d4f4664626586f1374f67bd34f784
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870930"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757724"
 ---
-# <a name="doughnut-charts-in-power-bi"></a>Power BI のドーナツ グラフ
+# <a name="create-and-use-doughnut-charts-in-power-bi"></a>Power BI でドーナツ グラフを作成して使用する
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -37,13 +37,13 @@ ms.locfileid: "73870930"
 
 ## <a name="create-a-doughnut-chart"></a>ドーナツ グラフの作成
 
-1. 空のレポート ページから開始し、[フィールド] ウィンドウで **[販売]** \> **[昨年度の売上高]** を選択します。  
+1. 空のレポート ページで開始し、[フィールド] ペインで **[Sales]** \> **[Last Year Sales]** の順に選択します。  
    
 3. [視覚化] ウィンドウで、ドーナツ グラフのアイコン ![ドーナツ グラフ アイコン](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) を選んで、横棒グラフをドーナツ グラフに変換します。 **[Last Year Sales]** が **[値]** 領域にない場合は、そこにドラッグします。
      
    ![ドーナツが選択された [視覚化] ウィンドウ](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-4. **[Item]** \> **[Category]** を選び、それを **[凡例]** 領域に追加します。 
+4. **[Item]** \> **[Category]** の順に選択し、それを **[凡例]** 領域に追加します。 
      
     ![[フィールド] ウィンドウの横にあるドーナツ](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 

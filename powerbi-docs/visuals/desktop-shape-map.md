@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199451"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762326"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop での図形マップ (プレビュー)
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Power BI Desktop で図形マップのビジュアルを作成する (プレビュー)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -115,7 +115,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="australia-states"></a>オーストラリア:州
 
-| ID | 省略形 | ISO | 名前 | 郵便 |
+| ID | 省略形 | ISO | name | 郵便 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="austria-states"></a>オーストリア:州
 
-| ID | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | ISO | name | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna (ウィーン) |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg (フォアアールベルク) |VO |
@@ -178,7 +178,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="canada-provinces"></a>カナダ:州
 
-| ID | ISO | 名前 | 郵便 |
+| ID | ISO | name | 郵便 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -196,7 +196,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="france-regions"></a>フランス:地域
 
-| ID | 名前 | 名前 (英語) |
+| ID | name | 名前 (英語) |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
@@ -204,11 +204,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Centre-Val de Loire (サントル=ヴァル ド ロワール) |Centre-Val de Loire |Centre-Val de Loire (サントル=ヴァル ド ロワール) |
 | Corse |Corse |Corse (コルシカ島) |
 | Grand Est |  |  |
-| グアドループ島 | |   |
+| グアドループ | |   |
 | Hauts-de-France |  |  |
 | Ile-de-France (イル ド フランス) |Île-de-France |Ile-de-France (イル ド フランス) |
 | La Reunion |  |  |
-| マイヨット島  |  |  |
+| マヨット  |  |  |
 | Normandie (ノルマンディー) |Normandie (ノルマンディー) |  |
 | Nouvelle-Aquitaine |  |  |
 | Occitanie  |  |  |
@@ -218,7 +218,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="germany-states"></a>ドイツ:州
 
-| ID | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | ISO | name | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin (ベルリン) |BE |
 | de-th |DE-TH |Thüringen |Thuringia (チューリンゲン) |TH |
@@ -270,7 +270,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="italy-regions"></a>イタリア:地域
 
-| ID | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | ISO | name | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto (ベネト) |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley (ヴァッレ ダオスタ) |VD |
@@ -295,7 +295,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="mexico-states"></a>メキシコ:州
 
-| ID | 省略形 | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | 省略形 | ISO | name | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas (サカテカス) |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan (ユカタン) |YU |
@@ -332,7 +332,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="netherlands-provinces"></a>オランダ:州
 
-| ID | ISO | 名前 | 名前 (英語) |
+| ID | ISO | name | 名前 (英語) |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland (南ホラント) |
 | nl-ze |NL-ZE |Zeeland |Zeeland (ゼーラント) |
@@ -349,7 +349,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="uk-countries"></a>英国:国
 
-| ID | ISO | 名前 |
+| ID | ISO | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
@@ -358,7 +358,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="usa-states"></a>米国:州
 
-| ID | 名前 | 郵便 |
+| ID | name | 郵便 |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -400,7 +400,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OR |
+| us-or |Oregon |または |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |
@@ -409,8 +409,8 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-sd |South Dakota |SD |
 | us-nd |North Dakota |ND |
 | us-me |Maine |ME |
-| us-mt |Montana |MT |
-| us-wa |Washington |WA |
+| us-mt |モンタナ |MT |
+| us-wa |ワシントン |WA |
 
 ## <a name="next-steps"></a>次の手順
 
