@@ -26,11 +26,11 @@
               href: star-schema.md
             - name: データ モデル サイズの縮小
               href: import-modeling-data-reduction.md
-            - name: Power BI Desktop の日付と時刻の自動ガイダンス
+            - name: 自動の日付/時刻ガイダンス
               href: auto-date-time.md
             - name: 多対多のリレーションシップのガイダンス
               href: relationships-many-to-many.md
-            - name: Power BI Desktop の DirectQuery モデルのガイダンス
+            - name: DirectQuery モデルのガイダンス
               href: directquery-model-guidance.md
         - name: DAX
           items:
@@ -58,9 +58,11 @@
               href: report-drillthrough.md
             - name: Power BI のページ分割されたレポートを使用する条件
               href: report-paginated-or-power-bi.md
+            - name: ページ分割されたレポートでカスケード型パラメーターを使用する
+              href: paginated-report-cascading-parameter.md
             - name: ページ分割されたレポートを印刷するときに空白のページを表示しない
               href: report-paginated-blank-page.md
-            - name: SQL Server Reporting Services レポートを Power BI に移行する
+            - name: SSRS レポートを Power BI に移行する
               href: migrate-ssrs-reports-to-power-bi.md
     - name: ホワイトペーパー
       items:
