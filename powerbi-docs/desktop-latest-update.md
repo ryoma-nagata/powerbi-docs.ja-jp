@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b3c370e6b17c5a5a4937da6db989f814a0ebd9
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221990"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761044"
 ---
-# <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Power BI Desktop の最新の更新プログラムの新機能
+# <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop の新機能
 
 
 ## <a name="december-2019-update-2765678661"></a>2019 年 12 月の更新 (2.76.5678.661)
@@ -42,8 +42,8 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 
 
 ### <a name="reporting"></a>レポート
-* テーマの更新 (プレビュー) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=10) [[記事]](desktop-report-themes.md#customize-report-themes-preview) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* 現在のテーマのエクスポート (プレビュー) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=242) [[記事]](desktop-report-themes.md#customize-report-themes-preview) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* 現在のテーマのカスタマイズ (プレビュー) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=10) [[記事]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* 現在のテーマのエクスポート (プレビュー) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=242) [[記事]](desktop-report-themes.md#export-report-themes-preview) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
 * テーブル列またはマトリックス値をカスタム URL として設定 [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=277) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
 * KPI ビジュアル フォーマット設定 [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=354) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
 * 新しい分解ツリーのフォーマット [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=442) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 

@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060541"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885269"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>Power BI で分解ツリー ビジュアルを使用する (プレビュー)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Power BI で分解ツリー ビジュアルを作成して表示する (プレビュー)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Power BI の分解ツリー ビジュアルを使用して、複数のディメンションのデータを視覚化できます。 データが自動的に集計され、任意の順序でディメンションをドリルダウンできるようになります。 それは人工知能 (AI) による視覚化でもあるため、特定の条件に基づいて、ドリルダウンする次のディメンションを検出するように要求することができます。 これにより、アドホック探索や根本原因分析に役立つ重要なツールになります。
@@ -131,6 +131,8 @@ Ai レベルを非 AI レベルのように動作させる場合は、電球を�
 ![分解ツリーのロック](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>既知の制限事項
+
+ツリーのレベルの最大数は 50 です。 ツリーで一度に視覚化できるデータ ポイントの最大数は 5000 です。 上位 n を表示するようにレベルを切り詰めます。 現在、レベルごとに上位 n が 10 に設定されます。 
 
 次のシナリオでは、分解ツリーはサポートされていません。  
 -   オンプレミスの Analysis Services

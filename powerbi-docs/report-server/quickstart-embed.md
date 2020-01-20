@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: fe91de89e7eec601c516895089e3dcc03eff14ea
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4e7616ec3ce6552130848bc0508bf8b9ac8ac965
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2020
-ms.locfileid: "75657215"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762602"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>SharePoint Server の iFrame を使用して Power BI Report Server レポートを埋め込む
 
@@ -25,7 +25,7 @@ ms.locfileid: "75657215"
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/) をインストールし、構成しておくこと。
 * [Power BI Report Server 向けに最適化された Power BI Desktop](install-powerbi-desktop.md) をインストールしておくこと。
 * [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 環境をインストールし、構成しておくこと。
-* Internet Explorer 11 は、SharePoint Online を使用している場合にのみサポートされます。  いずれのシナリオでも、他のサポート ブラウザーを使用できます。
+* Internet Explorer 11 は、ドキュメント モードが IE11 (Edge) モードに設定されている場合か、SharePoint Online を使用している場合にのみサポートされます。 SharePoint オンプレミスと SharePoint Online を使用して、サポートされている他のブラウザーを使用できます。
 
 ## <a name="create-the-power-bi-report-url"></a>Power BI レポート URL の作成
 

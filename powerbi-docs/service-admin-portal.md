@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75224193"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885299"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -25,7 +25,7 @@ ms.locfileid: "75224193"
 
 ## <a name="how-to-get-to-the-admin-portal"></a>管理ポータルにアクセスする方法
 
-Power BI の管理ポータルにアクセスするには、アカウントが Office 365 または Azure Active Directory 内で **[グローバル管理者]** とマークされているか、Power BI サービス管理者の役割が割り当てられている必要があります。 Power BI サービス管理者の役割の詳細については、「[Power BI 管理者の役割について](service-admin-role.md)」を参照してください。 Power BI 管理ポータルにアクセスするには、次のように操作します。
+Power BI の管理ポータルにアクセスするには、アカウントが Office 365 または Azure Active Directory (Azure AD) 内で **[グローバル管理者]** とマークされているか、Power BI サービス管理者の役割が割り当てられている必要があります。 Power BI サービス管理者の役割の詳細については、「[Power BI 管理者の役割について](service-admin-role.md)」を参照してください。 Power BI 管理ポータルにアクセスするには、次のように操作します。
 
 1. Power BI サービスの右上にある設定アイコン (歯車) を選択します。
 
@@ -190,13 +190,16 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 ### <a name="share-content-with-external-users"></a>外部ユーザーとコンテンツを共有する
 
-組織内のユーザーは組織外のユーザーとダッシュボードを共有できます。 外部共有の詳細については、[こちら](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)を参照してください。
+組織内のユーザーは、組織外のユーザーとダッシュボード、レポート、およびアプリを共有できます。 外部共有の詳細については、[こちら](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)を参照してください。
 
 ![外部ユーザーの設定](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
 外部ユーザーと共有すると、次の図のようなメッセージが表示されます。
 
 ![外部ユーザーと共有する](media/service-admin-portal/powerbi-admin-sharing-external.png)  
+
+> [!IMPORTANT]
+> このオプションは、Power BI のユーザーが Power BI を使用して組織内の Azure Active Directory B2B (Azure AD B2B) ゲスト ユーザーになるよう外部のユーザーを招待できるかどうかを制御します。 有効にすると、Azure AD のゲスト招待元ロールを持つユーザーは、レポート、ダッシュボード、Power BI アプリを共有するときに、外部の電子メールアドレスを追加できます。 外部の受信者は、Azure AD B2B ゲスト ユーザーとして組織に参加するように招待されます。 重要な点として、この設定を無効にした場合、組織内で既に Azure AD B2B ゲスト ユーザーである外部ユーザーは、Power BI のユーザー ピッカー UI に引き続き表示され、項目、ワークスペース、およびアプリにアクセスできます。
 
 ### <a name="publish-to-web"></a>Web に公開
 
@@ -247,14 +250,14 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 ![レポートを印刷する](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する
-Azure Active Directory B2B ゲスト ユーザーは、組織内のコンテンツの編集および管理できます。 [詳細情報](service-admin-azure-ad-b2b.md)
+
+Azure AD B2B ゲスト ユーザーは、組織内のコンテンツを編集および管理できます。 [詳細情報](service-admin-azure-ad-b2b.md)
 
 次の図は、[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する] オプションを示しています。
 
 ![外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
-> [!IMPORTANT]
-> (手動か、そのユーザーとレポートを共有することで) Azure AD テナントに外部ユーザーを追加するとき、そのユーザー アカウントは内部アカウントで検出できるようになります。 内部ユーザーは、内部アカウントに外部共有許可が与えられていない場合でも、他のものを外部ユーザーと共有できます。
+また、管理ポータルでは、組織に外部ユーザーを招待する権限を持つユーザーを制御することもできます。 詳細については、この記事の「[外部ユーザーとコンテンツを共有する](#export-and-sharing-settings)」を参照してください。
 
 ### <a name="email-subscriptions"></a>電子メール サブスクリプション
 組織内のユーザーは電子メール サブスクリプションを作成できます。 サブスクリプションの詳細は[こちら](service-report-subscribe.md)をご覧ください。
@@ -508,7 +511,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 ビジュアル ID が変わらないことを確認します。 新しいファイルで、組織全体のすべてのレポートの以前のファイルが置き換えられます。 ただし、ビジュアルの新しいバージョンのためにビジュアルの以前のバージョンを使用できなくなったり、データ構造が破損されたりする可能性がある場合は、以前のバージョンを置き換えないでください。 代わりに、新しいバージョンのビジュアル用に新しく登録することをお勧めします。 たとえば、新しいバージョン番号 (バージョン X.X) を新しく登録されたビジュアルのタイトルに追加します。 こうすると、バージョン番号が更新されているだけで同じビジュアルであることがわかるので、既存のレポートの機能は中断されません。 この場合も、ビジュアル ID が変わらないことを確認します。 次回ユーザーが Power BI Desktop から組織のリポジトリに入ると、新しいバージョンをインポートできます。レポートに入っている現在のバージョンを置換するように求められます。
 
-詳細については、[組織のカスタム ビジュアルに関してよく寄せられる質問](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals)のページにアクセスしてください。
+詳細については、[組織のカスタム ビジュアルに関してよく寄せられる質問](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals)のページにアクセスしてください。
 
 ## <a name="dataflowStorage">データフロー ストレージ (プレビュー)</a>
 

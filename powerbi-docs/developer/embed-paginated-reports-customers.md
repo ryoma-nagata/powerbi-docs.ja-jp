@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 11/04/2019
-ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/04/2019
+ms.openlocfilehash: 48aae2391ead5ded0860364ce5942d7bd725c2d9
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311422"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731245"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>チュートリアル:顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む (プレビュー)
 
@@ -271,6 +271,12 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 
 ## <a name="next-steps"></a>次の手順
 
-このチュートリアルでは、顧客向けアプリケーションに Power BI のページ分割されたレポートを埋め込む方法を説明しました。 組織向けの Power BI コンテンツの埋め込みを試すこともできます。
+このチュートリアルでは、顧客向けアプリケーションに Power BI のページ分割されたレポートを埋め込む方法を説明しました。 ご自分の顧客または組織向けに Power BI コンテンツの埋め込みを試すこともできます。
+
+> [!div class="nextstepaction"]
+>[顧客向けにコンテンツを埋め込む](embed-sample-for-customers.md)
+
+> [!div class="nextstepaction"]
+>[組織向けにコンテンツを埋め込む](embed-sample-for-your-organization.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

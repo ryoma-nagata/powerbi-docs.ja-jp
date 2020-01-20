@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.openlocfilehash: 7ce20b8b6dc382cdafe61bde3e9305197fd33ea6
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75523029"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762073"
 ---
-# <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop で Analysis Services の表形式データを使用する
+# <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop で Analysis Services の表形式データに接続する
 Power BI Desktop では、2 つの方法で SQL Server Analysis Services 表形式モデルに接続し、データを取得することができます。ライブ接続を使用して探索するか、項目を選択して Power BI Desktop にインポートします。
 
 詳しく見てみましょう。
 
-**ライブ接続を使用して探索** – ライブ接続を使用している場合、テーブル、列、メジャーなどの表形式モデルやパースペクティブは、Power BI Desktop の [フィールド] 一覧に表示されます。 Power BI Desktop の高度な視覚化とレポート ツールを使用して、新しい高度な対話型方式で表形式モデルを探索することができます。
+**ライブ接続を使用して探索** – ライブ接続を使用している場合、テーブル、列、メジャーなどの表形式モデルやパースペクティブに含まれる項目は、Power BI Desktop の [フィールド] 一覧に表示されます。 Power BI Desktop の高度な視覚化とレポート ツールを使用して、新しい高度な対話型方式で表形式モデルを探索することができます。
 
-ライブ接続しているときは、表形式モデルのデータが Power BI Desktop にインポートされることはありません。 視覚化と対話するたびに、Power BI Desktop は表形式モデルのクエリを実行し、表示結果を計算します。 最後の処理時間から、または表形式モデルで使用できる直接クエリ テーブルから、表形式モデルで利用可能な最新データを常に確認することができます。 
+ライブ接続しているときは、表形式モデルのデータが Power BI Desktop にインポートされることはありません。 視覚化と対話するたびに、Power BI Desktop によって表形式モデルが照会され、表示結果が計算されます。 最後の処理時間から、または表形式モデルで使用できる直接クエリ テーブルから、表形式モデルで利用できる最新データを常に確認することができます。 
 
-なお、表形式モデルは高度なセキュリティを備えています。 Power BI Desktop に表示される項目は、接続している表形式モデルに対してあなたが持っているアクセス許可によって異なります。
+なお、表形式モデルは高度なセキュリティを備えています。 Power BI Desktop に表示される項目は、接続している表形式モデルに対するユーザーのアクセス許可によって異なります。
 
-Power BI Desktop で動的なレポートを作成したら、Power BI サイトに発行してレポートを共有することができます。 表形式モデルにライブ接続している状態で Power BI Desktop ファイルを Power BI サイトに発行するときは、管理者によってオンプレミス データ ゲートウェイがインストールされ、構成されている必要があります。 詳細については、「[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)」をご覧ください。
+Power BI Desktop で動的なレポートを作成したら、Power BI サイトに発行してレポートを共有することができます。 表形式モデルへのライブ接続を使用して Power BI Desktop ファイルを Power BI サイトに発行するときは、管理者によってオンプレミス データ ゲートウェイがインストールされ、構成されている必要があります。 詳細については、「[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)」をご覧ください。
 
-**項目を選択して Power BI Desktop にインポートする** – このオプションで接続すると、表形式モデルまたはパースペクティブのテーブル、列、メジャーなどの項目を選択して、Power BI Desktop モデルに読み込ませることができます。 Power BI Desktop の高度なクエリ エディターを使用して、必要な整形を施すことができます。 Power BI Desktop のモデリング機能を使用して、データをさらにモデル化することができます。 Power BI Desktop と表形式モデルの間のライブ接続は維持されません。 Power BI Desktop のモデルをオフラインで探索したり、Power BI サイトに発行したりできます。
+**項目を選択して Power BI Desktop にインポートする** – このオプションで接続すると、表形式モデルまたはパースペクティブのテーブル、列、メジャーなどの項目を選択して、それらを Power BI Desktop モデルに読み込むことができます。 Power BI Desktop の高度なクエリ エディターを使用して、必要な整形を施すことができます。 Power BI Desktop のモデリング機能を使用して、データをさらにモデル化することができます。 Power BI Desktop と表形式モデルの間のライブ接続は維持されません。 Power BI Desktop のモデルをオフラインで探索したり、Power BI サイトに発行したりできます。
 
 ## <a name="to-connect-to-a-tabular-model"></a>表形式モデルに接続するには
 1. Power BI Desktop の **[ホーム]** タブで、 **[データの取得]** をクリックします。
@@ -55,11 +55,11 @@ Power BI Desktop で動的なレポートを作成したら、Power BI サイト
 
 **回答:** 場合によって異なります。 Power BI Desktop を使用して表形式モデルにライブ接続していても、Power BI サイトに発行するつもりがないなら、ゲートウェイは必要ありません。 一方、Power BI サイトに発行する予定がある場合、Power BI サービスとオンプレミスの Analysis Services サーバー間の安全な通信を確保するために、データ ゲートウェイが必要です。 データ ゲートウェイをインストールする前に、必ず Analysis Services サーバー管理者に相談してください。
 
-項目を選択してデータを取得する場合は、Power BI Desktop ファイルに表形式モデルのデータをそのままインポートしているので、ゲートウェイは必要ありません。
+項目を選択してデータを取得する場合は、Power BI Desktop ファイルに表形式モデルのデータを直接インポートするため、ゲートウェイは必要ありません。
 
-**質問:** Power BI サービスから表形式モデルにライブ接続するのと、Power BI Desktop からライブ接続するのは、何が違うのですか?
+**質問:** Power BI サービスから表形式モデルにライブ接続する場合と、Power BI Desktop からライブ接続する場合の違いは何ですか?
 
-**回答:** 表形式モデルへのライブ接続が、Power BI サービスのサイトから組織のオンプレミスの Analysis Services データベースに対して行われる場合、安全な通信を確立するためにオンプレミス データ ゲートウェイが必要です。 Power BI Desktop から表形式モデルにライブ接続する場合、Power BI Desktop と接続先の Analysis Services サーバーは、どちらも組織内でオンプレミスで動作しているため、ゲートウェイは必要ありません。 ただし、Power BI Desktop ファイルを Power BI サイトに発行する場合、ゲートウェイが必要です。
+**回答:** 表形式モデルへのライブ接続が、Power BI サービスのサイトから組織のオンプレミスの Analysis Services データベースに対して行われる場合、それらの間の通信をセキュリティで保護するために、オンプレミス データ ゲートウェイが必要です。 Power BI Desktop から表形式モデルにライブ接続する場合、Power BI Desktop と接続先の Analysis Services サーバーは、どちらも組織内でオンプレミスで動作しているため、ゲートウェイは必要ありません。 ただし、Power BI Desktop ファイルを Power BI サイトに発行する場合、ゲートウェイが必要です。
 
 **質問:** ライブ接続を作成したら、同じ Power BI Desktop ファイル内の別のデータ ソースに接続できますか?
 
@@ -75,7 +75,7 @@ Power BI Desktop で動的なレポートを作成したら、Power BI サイト
 
 **質問:** ナビゲーターに、モデルとパースペクティブが表示されています。 違いは何ですか?
 
-**回答:** パースペクティブは、表形式モデルの特定のビューです。 固有のデータ分析のニーズに応じて、特定のテーブル、列、またはメジャーのみが含まれています。 表形式モデルには、常に 1 つ以上のパースペクティブがあります。それに、モデル内のすべてが含まれています。 どちらを選択すればよいか分からない場合は、管理者に確認してください。
+**回答:** パースペクティブは、表形式モデルの特定のビューです。 固有のデータ分析のニーズに応じて、特定のテーブル、列、またはメジャーのみが含まれています。 表形式モデルには、常に 1 つ以上のパースペクティブがあり、それにはモデル内のすべてを含めることができます。 どちらを選択すればよいか分からない場合は、管理者に確認してください。
 
 **質問:** Power BI の動作方法を変更する Analysis Services の機能はありますか?
 
