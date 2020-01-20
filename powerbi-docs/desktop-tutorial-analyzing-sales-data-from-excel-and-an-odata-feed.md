@@ -9,14 +9,14 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 712864afdea5431fa630d052271e8cb2c05e9dd2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866087"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759884"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル:Excel と OData フィードの売上データを結合する
+# <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル:Excel と OData フィードの売上データを分析する
 
 データのデータ ソースが複数存在することは一般的です。 たとえば、製品情報に 1 つ、売上情報に 1 つと、データベースが 2 つ用意されることがあります。 **Power BI Desktop** では、異なるソースからのデータを組み合わせて、興味深く説得力のあるデータ分析と視覚エフェクトを作成できます。 
 
@@ -118,7 +118,7 @@ Power Query エディターでは、データを充実させるために計算�
    
 2. **[カスタム列]** ダイアログ ボックスで、 **[新しい列名]** フィールドに「**LineTotal**」と入力します。
 
-3. **[カスタム列の式]** フィールドの *=* の後に、「 **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** 」と入力します。 (入力する代わりに、 **[使用できる列]** スクロール ボックスからフィールド名を選び、 **[<< 挿入]** を選んでもかまいません。) 
+3. **[カスタム列の式]** フィールドの " *=* " の後に、「 **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** 」と入力します。 (入力する代わりに、 **[使用できる列]** スクロール ボックスからフィールド名を選び、 **[<< 挿入]** を選んでもかまいません。) 
 
 4. **[OK]** を選択します。
    
