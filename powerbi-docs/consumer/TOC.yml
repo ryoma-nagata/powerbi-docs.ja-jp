@@ -26,7 +26,7 @@
       items:
         - name: ダッシュボードのアラートの作成
           href: end-user-alerts.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: ダッシュボード
           items:
@@ -100,7 +100,7 @@
               href: end-user-recent.md
             - name: 自分と共有コンテナーでのコンテンツの表示
               href: end-user-shared-with-me.md
-            - name: レポートまたはダッシュボードにサブスクライブ
+            - name: レポートまたはダッシュボードをサブスクライブする
               href: end-user-subscribe.md
             - name: Power BI でのコンテンツの検索と並べ替え
               href: end-user-search-sort.md
@@ -162,7 +162,7 @@
           href: mobile/mobile-apps-offline-data.md
         - name: Power BI for Mixed Reality アプリ (プレビュー)
           href: mobile/mobile-mixed-reality-app.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: すべてのモバイル アプリ
           items:
@@ -176,8 +176,8 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: モバイル アプリでのお気に入り
               href: mobile/mobile-apps-favorites.md
-            - name: モバイル アプリでレポート対話機能を構成する (電話のみ)
-              href: mobile/mobile-app-single-tap.md
+            - name: 対話設定を構成する (電話のみ)
+              href: mobile/mobile-app-interaction-settings.md
             - name: Power BI モバイル アプリでデータ アラートを設定する
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Power BI モバイル アプリで通知を受け取る
