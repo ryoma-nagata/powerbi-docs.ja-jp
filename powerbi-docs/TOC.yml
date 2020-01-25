@@ -961,16 +961,18 @@
       items:
         - name: 新着情報
           href: report-server/whats-new.md
+        - name: 管理者の概要
+          href: report-server/admin-handbook-overview.md
         - name: 変更ログ
           href: report-server/changelog.md
         - name: サポートのタイムライン
           href: report-server/support-timeline.md
+        - name: Always Encrypted のサポート
+          href: report-server/always-encrypted-support.md
         - name: ハードウェアとソフトウェアの要件
           href: report-server/system-requirements.md
         - name: ブラウザーのサポート
           href: report-server/browser-support.md
-        - name: 管理者の概要
-          href: report-server/admin-handbook-overview.md
         - name: レポート サーバーの基礎
           items:
             - name: Power BI レポートのスケジュールされた更新
