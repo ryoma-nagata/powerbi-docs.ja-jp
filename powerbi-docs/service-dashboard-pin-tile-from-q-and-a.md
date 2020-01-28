@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872810"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282021"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Q&A からダッシュボードにタイルをピン留めする
 ## <a name="how-to-pin-a-tile-from-qa"></a>Q&A からタイルをピン留めする方法
@@ -53,7 +53,7 @@ Q&A は、Power BI のアドホック レポート作成ツールです。 特�
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 * 質問を入力し始めると、Q&A はすぐに、現在のダッシュボードに関連付けられているすべてのデータセットから最適な回答の検索を開始します。  "現在のダッシュボード" は、上部のナビ ペインに表示されているダッシュボードです。 たとえば、この質問は、 **[小売りの分析のサンプル]** ダッシュボードで入力しています。このダッシュボードは **mihart** ワークスペースの一部です。
 
-  ![階層リンク](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
+  ![階層リンク](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Q&A が使用するデータセットを認識する方法**:  Q&A は、そのダッシュボードにピン留めされた視覚エフェクトが 1 つでもあるデータセットすべてにアクセスします。
 
 * **質問ボックスが表示されない場合**: Power BI 管理者に問い合わせてください。 管理者は Q&A 機能を無効にすることができます。
