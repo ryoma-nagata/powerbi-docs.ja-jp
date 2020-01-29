@@ -1,6 +1,6 @@
 ---
 title: Power BI レポート ビルダーでのレポートの計画
-description: Power BI の改ページ調整されたレポート ビルダーを使用して、さまざまな種類のページ分割されたレポートを作成できます。 便利でわかりやすいレポートを作成するには、まず計画を立てると役立ちます。
+description: Power BI Report Builder では、さまざまな種類のページ分割されたレポートを作成できます。 便利でわかりやすいレポートを作成するには、まず計画を立てると役立ちます。
 ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623878"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953805"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Power BI レポート ビルダーでのレポートの計画
 
-Power BI の改ページ調整されたレポート ビルダーを使用して、さまざまな種類のページ分割されたレポートを作成できます。 たとえば、売上データの概要または詳細、マーケティングと売上の傾向、運用レポート、ダッシュボードを表示するレポートを作成できます。 表現力豊かな書式付きテキストを活用したレポート (販売注文、製品カタログ、定型書簡など) を作成することもできます。 レポート ビルダーで同じ基本的な構成要素をさまざまに組み合わせて使用することで、これらすべてのレポートが作成されます。 便利でわかりやすいレポートを作成するには、まず計画を立てると役立ちます。 開始する前に考慮できるいくつかの事柄を次に示します。  
+Power BI Report Builder では、さまざまな種類のページ分割されたレポートを作成できます。 たとえば、売上データの概要または詳細、マーケティングと売上の傾向、運用レポート、ダッシュボードを表示するレポートを作成できます。 表現力豊かな書式付きテキストを活用したレポート (販売注文、製品カタログ、定型書簡など) を作成することもできます。 レポート ビルダーで同じ基本的な構成要素をさまざまに組み合わせて使用することで、これらすべてのレポートが作成されます。 便利でわかりやすいレポートを作成するには、まず計画を立てると役立ちます。 開始する前に考慮できるいくつかの事柄を次に示します。  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>レポートをどのような形式で表示するか
   

@@ -1,109 +1,117 @@
 ---
 title: 米国政府顧客向け Power BI - 概要
-description: 米国政府顧客向けに、Power BI 米国政府サービスの機能と制限事項を説明します。
-author: davidiseminger
+description: 米国政府機関のお客様は、Power BI Pro サブスクリプションを Office 365 Government プランに追加できます。 このサービスの説明では、サインアップして利用可能な機能を確認する方法について説明します。
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
-ms.author: davidi
+ms.date: 01/13/2020
+ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762096"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160767"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
-**Power BI サービス**には、**Office 365 US Government Community** サブスクリプションの一部として米国政府顧客が利用できるバージョンがあります。 この記事で説明する **Power BI サービス**のバージョンは、米国政府顧客向けに特に設計されており、**Power BI サービス**の市販バージョンとは独立した別のものです。
+この記事は、Office 365 Government プランの一部として Power BI をデプロイする米国政府機関のお客様を対象としています。 Government プランは、米国のコンプライアンスとセキュリティ標準を満たする必要がある組織の固有のニーズに合うように設計されています。 米国政府機関のお客様向けに設計された Power BI サービスは、Power BI サービスの商用バージョンとは異なります。 これらの機能の相違点と能力について、以下のセクションで説明します。
 
-![](media/service-govus-overview/service_usgov_overview-1.png)
+## <a name="add-power-bi-to-your-office-365-government-plan"></a>Office 365 Government プランに Power BI を追加する
 
-以下のセクションでは、 **Power BI サービス** の米国政府バージョンで使用できる *機能* について説明し、いくつかの *制限事項* を明らかにし、よくある質問 ( **FAQ** ) と回答 (サインアップ方法を含みます) を示して、詳細情報へのリンクを提供します。
+Power BI US Government サブスクリプションを取得してユーザーにライセンスを割り当てる前に、Office 365 Government プランに登録する必要があります。 組織に既に Office 365 Government プランがある場合は、「[Power BI Pro Government サブスクリプションを購入する](#purchase-a-power-bi-pro-government-subscription)」に進んでください。
 
-## <a name="features-of-power-bi-us-government"></a>米国政府向け Power BI の機能
-**米国政府向け Power BI** は **Pro ライセンス**のみで入手できます。無償版ライセンスはありません。 Power BI サービスの一部の機能は、このサービスの**米国政府向け Power BI** バージョンで利用できます。
+### <a name="enroll-in-office-365-government-plan"></a>Office 365 Government プランに登録する
 
-次の機能は **Pro** ライセンスのものであり、**米国政府向け Power BI** で利用できます。
+新規のお客様は、Government プランにサインアップする前に、組織の資格を検証する必要があります。  [Office 365 for Government 適格性検証フォーム](https://www.microsoft.com/microsoft-365/government/eligibility-validation)を完成させることから始めます。 組織に適したプランを確実に選択するには、[Office 365 US Government サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)を参照してください。
 
-* ダッシュボードとレポートの作成と表示
-* [データ容量の制限](service-admin-manage-your-data-storage-in-power-bi.md)
-* [スケジュールされたデータ更新](refresh-data.md)
-* 更新可能なチーム ダッシュボード
-* アクセス制御の共有と管理のための Active Directory グループ
-* Excel、CSV、Power BI Desktop ファイルからのレポートと[データのインポート](service-get-data.md)
-* データ管理ゲートウェイ
-* すべてのデータは、Azure SQL と Power BI 用 Blob Storage の両方で暗号化されます
-* [コンテンツ パック](service-connect-to-services.md)でのサービスへの接続
+> [!NOTE]
+> Power BI を既に商用環境にデプロイ済みで、US Government クラウドに移行したい場合は、新しい Power BI Pro サブスクリプションを Office 365 Government プランに追加する必要があります。 次に、米国政府向けの Power BI サービスに商用データをレプリケートし、商用ライセンスの割り当てをユーザー アカウントから削除してから、Power BI Pro Government ライセンスをユーザー アカウントに割り当てます。
+>
+>
 
-## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>行政機関向け Azure Cloud Services とグローバルな Azure Cloud Services 間の接続 
+### <a name="government-cloud-instances"></a>Government クラウドのインスタンス
+Office 365 には、政府機関のさまざまなコンプライアンス要件を満たすための複数の環境が用意されています。 各環境で提供される内容の詳細については、リンク先のサービスの説明を参照してください。
 
-Azure は複数のクラウドに分散されます。 既定では、テナントにはクラウド固有のインスタンスに対するファイアウォール規則を開くことが許可されていますが、クラウド間ネットワーキングの場合は異なり、サービス間で通信するために特定のファイアウォール規則を開く必要があります。 Power BI のお客様で、アクセスする必要があるパブリック クラウドに既存の SQL インスタンスをお持ちのお客様の場合、次のデータセンターについては Azure Government Cloud IP 空間に対する特定のファイアウォール規則を SQL で開く必要があります。
+* [Office 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) は、連邦政府、州政府、および地方自治体向けに設計されています。
+
+* [Office 365 Government Community Cloud High (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) は、連邦政府機関、軍需産業、航空宇宙産業、および管理された未分類の情報を保持している他の組織向けに設計されています。 この環境は、国際武器取引規則 (ITAR) のデータまたは国防省調達規則 (DFARS) に関する要件がある、国家安全保障に関わる組織と企業に適しています。
+
+* [Office 365 DoD 環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)は、米国国防総省専用に設計されています。 
+
+### <a name="purchase-a-power-bi-pro-government-subscription"></a>Power BI Pro Government サブスクリプションを購入する
+
+Office 365 のデプロイ後に、Power BI サブスクリプションを追加できます。 [米国政府組織の登録](service-govus-signup.md#existing-office-government-cloud-customers)に関するページの詳細なガイダンスに従って、Power BI Pro Government サービスを購入します。 Power BI を使用する必要があるすべてのユーザーに割り当てできる数のライセンスを購入した後、それらのライセンスを個々のユーザー アカウントに割り当てます。
+
+> [!IMPORTANT]
+> Power BI US Government は、無料ライセンスとして利用することはできません。 Government Community Cloud にアクセスするには、各ユーザーに Pro ライセンスが割り当てられている必要があります。 無料ライセンスが割り当てられているユーザー アカウントには、商用クラウドへのアクセスのみが許可され、認証とアクセスの問題が発生します。 ライセンスの種類の違いを確認するには、「[Power BI サービスのライセンスの種類別機能](service-features-license-type.md)」を参照してください。
+>
+>
+
+## <a name="connect-to-power-bi-for-us-government"></a>米国政府向け Power BI に接続する
+
+米国政府向け Power BI に接続するには、商用ユーザー向けとは別の URL を使用します。 Power BI にサインインするには、次の URL を使用します。
+
+| 商用バージョンの URL | US Government バージョンの URL | GCC High 用の米国政府向け URL |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
+
+お使いのアカウントを複数のクラウドにプロビジョニングできます。 その場合は、Power BI Desktop を使用するときのサインイン時に、接続先のクラウドを選択できます。
+
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>行政機関向け Azure Cloud Services とグローバルな Azure Cloud Services 間の接続
+
+Azure は複数のクラウドに分散されています。 既定では、クラウド固有のインスタンスへの接続を開くファイアウォール規則を有効にすることができますが、クラウド間ネットワークはこれとは異なります。  パブリック クラウド内のサービスと Government Community Cloud 内のサービスの間で通信を行うには、固有のファイアウォール規則を構成する必要があります。 たとえば、Power BI の政府機関向けクラウドのデプロイから SQL のパブリック クラウド インスタンスにアクセスする場合は、SQL のファイアウォール規則が必要です。 次のデータセンターの Azure Government クラウドへの接続を許可するには、SQL の固有のファイアウォール規則を構成します。
 
 * 米国政府アイオワ
 * 米国政府バージニア州
 * 米国政府テキサス
 * 米国政府アリゾナ
 
-パブリック クラウドでは、IP 空間を使用できます。 政府機関向けクラウドの場合、最新情報については、ダウンロード可能な [Azure Government サービスのドキュメント](https://www.microsoft.com/download/details.aspx?id=57063)を参照してください。
+パブリック クラウドでは、IP 範囲を使用できます。 US Government クラウドの IP 範囲を取得するには、[Azure IP Ranges and Service Tags – US Government Cloud ](https://www.microsoft.com/download/details.aspx?id=57063) (Azure IP 範囲とサービス タグ ｰ US Government クラウド) ファイルをダウンロードしてください。 
 
-## <a name="limitations-of-power-bi-us-government"></a>米国政府向け Power BI の制限事項
-**Power BI サービス** の市販バージョンで利用できる機能の一部は、 **Power BI サービス** の米国政府顧客バージョンでは利用 *できません* 。 Power BI チームは米国政府顧客がこれらの機能を使用できるようにする作業を行っており、これらの機能が利用できるようになった時点でこの記事を更新します。
+SQL でファイアウォールを設定するには、「[IP ファイアウォール規則の作成および管理](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)」の手順に従ってください。
 
-* **SharePoint Online への埋め込み** - Power BI Web パーツを使って、SharePoint Online にコンテンツを埋め込むことはできません。 ただし、セキュリティで保護された埋め込みは、[*埋め込み* Web パーツ](https://docs.microsoft.com/power-bi/service-embed-secure)を使用することで機能します。 *app.powerbigov.us* を例外の一覧に追加する必要があります。これは、「[SharePoint ページにコンテンツを埋め込む機能を許可または制限する](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)」の記事にある手順に従って行うができます。
-* **米国政府向け Power BI** は **Pro** ライセンスとしてのみ利用できます。 管理ポータルで (あるいは、ユーザーとして) Power BI (無償版) ライセンスを参照するとき、それは商用 Power BI サービス クラウドで実行されます。
-* **監査** - 2018 年 6 月時点では、Office 365 のセキュリティとコンプライアンス ポータルで監査を使用することができます。
-* **外部ユーザー共有** - 共有は Power BI テナント内で許可されます。2018 年 6 月時点では、Power BI テナントの外部のユーザーとの共有も許可されます。 「[Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する](service-admin-azure-ad-b2b.md)」をご覧ください。
-* **ダッシュボードとレポートの利用状況指標** - レポートとダッシュボードで利用状況指標を使用することはできません。 お客様は監査ログ データを使用して、組織のコンテンツの利用状況情報を取得できます。
-* **データフロー** - データフローは利用できません。
-* **ページ分割されたレポート** - ページ分割されたレポートは、現在、米国政府バージニア州でのみ使用できます。  米国政府テキサス州でのサポートは予定されていますが、まだ利用できません。
-* Government Community Cloud (GCC) からの Power BI コンテンツの埋め込みは、Office 365 SKU でのみ行うことができます。 GCC High の顧客は [Office 365 または Azure SKU](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365) を使用できます。
+## <a name="power-bi-feature-availability"></a>Power BI の機能の利用可能性
 
-**Power BI** 無償版ライセンスがアカウントに割り当てられている場合、そのアカウントは **Power BI** サービスの商用バージョンで実行されます。**米国政府向け Power BI** サービスには含まれません。 無償版アカウントの場合、次の問題が発生することがあります。
+Government クラウドのお客様の要件に対応するため、Government プランと商用プランにはいくつかの違いがあります。 次の表で、各 Government 環境で使用できる機能を確認してください。
 
-* ゲートウェイ、モバイル、デスクトップを認証できません
-* Azure の商用データ ソースにアクセスできません
-* PBIX ファイルを商用から手動でアップロードする必要があります
-* Power BI モバイル アプリを使用できません
-
-問題を解決するには、アカウント担当者に問い合わせてください。
-
-## <a name="frequently-asked-questions-faq-for-the-us-government-version-of-the-power-bi-service"></a>Power BI サービス米国政府バージョンによく寄せられる質問 (FAQ)
-次の質問 (と回答) は、サービスに関して必要な情報を迅速に入手できるようにするために提供されます。
-
-**質問:** 市販版 **Power BI** のデータを **Power BI サービス**米国政府バージョンに移行する方法を教えてください。
-
-**回答:** 管理者は、独立した米国政府固有サブスクリプションに、**Power BI** の新しいインスタンスを作成する必要があります。 その後、市販版データを米国政府向け **Power BI サービス**にレプリケートし、市販版ライセンスを削除して、既存のドメインを新しい米国政府固有サービスに関連付けることができます。
-
-**質問:** 特定のコンテンツ パックに接続できないのはなぜですか。
-
-**回答:** コンテンツ パックに接続する前に、サブスクリプションが有効になっていることを確認する必要があります。
-
-**質問:** 自分の米国政府組織内で **Power BI** を使ってみたいと思います。 使い始めるには
-
-**回答:** サインアップ ("*オンボーディング*" とも呼ばれます) は、既存のライセンスとサブスクリプションによって異なる場合があります。 詳細については、[米国政府向け Power BI へのサインアップ](service-govus-signup.md)に関する記事をご覧ください。
-
-**質問:** 米国政府向け **Power BI** に接続するための URL は、市販バージョンの **Power BI** の URL とは異なりますか。 Government Community Cloud High (GCC High) の顧客向けに異なる URL がありますか。
-
-**回答:** はい、URL は異なります。 次の表に各 URL を示します。
-
-| 市販バージョンの URL | US Government バージョンの URL | GCC High 用の米国政府向け URL |
-| --- | --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
-
-**質問:** アカウントが複数の国内クラウドでプロビジョニングされています。 **Power BI Desktop** を利用するとき、接続するクラウドをどのように選択しますか。
-
-**回答:** **Power BI Desktop** の 2018 年 7 月リリースより、**Power BI Desktop** にサインインするとき、使用するクラウドを選択できます。
-
+|特徴 |   |GCC |GCC-High |DoD|
+|------|------|------|------|------|
+|管理|無料ライセンス|利用不可|利用不可|利用不可|
+|  |データ ストレージの制限の設定|利用可能|利用可能|利用可能|
+|  |共有とアクセス制御のための Active Directory グループの使用|利用可能|利用可能|利用可能|
+|  |Office 365 セキュリティ/コンプライアンス管理センターを使用した監査|利用可能|利用可能|利用可能|
+|  |外部ユーザーの共有|利用可能|利用可能|利用可能|
+|  |レポートとダッシュボードの使用状況メトリック|利用不可|利用不可|利用不可|
+|  |GCC と商用クラウド間の Azure B2B|利用不可|利用不可|利用不可|
+|レポートの作成|ダッシュボードとレポートの作成と表示|利用可能|利用可能|利用可能|
+|  |スケジュールされたデータ更新|利用可能|利用可能|利用可能|
+|  |更新可能なチーム ダッシュボード|利用可能|利用可能|利用可能|
+|  |ページ分割されたレポート|USGov Texas および USGov Virginia でのみ利用可能 |利用可能|ロードマップ上で|
+|  |テンプレート アプリ|利用不可|利用不可|利用不可|
+|データに接続する|Excel からのデータとレポートのインポート|利用可能|利用可能|利用可能|
+|  |CSV ファイルからのデータのインポート|利用可能|利用可能|利用可能|
+|  |Power BI Desktop ファイルからのデータのインポート|利用可能|利用可能|利用可能|
+|  |CDS への接続|利用不可|利用不可|利用不可|
+|  |Azure Data Lake Storage Gen2 コネクタ|利用不可|利用不可|利用不可|
+|データ管理|データ管理ゲートウェイ|利用可能|利用可能|利用可能|
+|  |Azure SQL でのデータの暗号化|利用可能|利用可能|利用可能|
+|  |Power BI 用 Blob Storage でのデータの暗号化|利用可能|利用可能|利用可能|
+|製品間の統合|Power BI Web パーツを使用した SharePoint Online への埋め込み|利用不可|利用不可|利用不可|
+|  |埋め込み Web パーツを使用した SharePoint Online への埋め込み|利用可能|利用可能|利用可能|
+|  |データフロー関数と AI 関数|利用不可|利用不可|利用不可|
+|  |データドリブン アラートのための Power Automate との接続|利用不可|利用不可|利用不可|
+|  |チームでの [Power BI] タブ|利用不可|利用不可|利用不可|
+|  |自動化された機械学習|利用不可|利用不可|利用不可|
+|  |Cognitive Services|利用不可|利用不可|利用不可|
+|  |Azure ML|利用不可|利用不可|利用不可|
 
 ## <a name="next-steps"></a>次の手順
-Power BI を使うと、さまざまなことを行えます。 サービスにサインアップする方法を説明する記事など、詳細および学習については、次のリソースをご覧ください。
 
 * [米国政府向け Power BI へのサインアップ](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">米国政府向け Power BI のデモ</a>
-* [Power BI のガイド付き学習](guided-learning/index.yml)
 * [Power BI サービスの概要](service-get-started.md)
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761981"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925686"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>アクセシビリティ対応の Power BI レポートを設計する
 説得力のあるレポートを設計および作成しながら、アクセシビリティ対応の設計にすることもできます。 レポートを作成する場合は、対象者が誰であっても、特別な設計の種類に適合させる必要なく、可能な限り多くのユーザーが使用できるようにレポートを作成する必要があります。
@@ -22,6 +22,8 @@ ms.locfileid: "75761981"
 ![ハイ コントラストの Windows の設定](media/desktop-accessibility/accessibility-05.png)
 
 この記事では、Power BI でアクセシビリティ対応のレポートを作成するためのアクセシビリティ機能とツールについて説明します。
+
+一般的に、スクリーン リーダーで Power BI を使用する場合は、スキャン モードまたはブラウズ モードをオフにすることをお勧めします。
 
 スクリーン リーダーを使用してレポートの作成プロセスを改善するには、コンテキスト メニューを使用します。 このメニューを使用すると、 **[フィールド]** リストで、ウェル内のフィールドを上または下に移動できます。 このメニューではまた、 **[凡例]** や **[値]** などの他のウェルにフィールドを移動することもできます。
 

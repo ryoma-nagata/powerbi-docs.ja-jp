@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/26/2019
-ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565773"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160606"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server のインストール
 
@@ -146,6 +146,7 @@ Web サービスの URL と Web ポータルの URL 用に構成した TCP ポ�
 * Power BI サービスとの統合を構成し、Power BI ダッシュボードにレポート アイテムを固定できるようにするには、「[Integrate with the Power BI service](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager) 」(Power BI サービスとの統合) を参照してください。
 * サブスクリプションの処理用の電子メールを構成するには、「[E-Mail settings](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)」 (電子メール設定) および「[E-Mail Delivery in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)」 (レポート サービスの電子メールの配信) を参照してください。
 * レポート コンピューターで Web ポータルにアクセスしてレポートを表示および管理できるように Web ポータルを構成するには、「[Configure a firewall for report server access](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)」 (レポート サーバーにアクセスするためのファイアウォールを構成する) と「[Configure a Report Server for Remote Administration](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)」 (リモート管理用にレポート サーバーを構成する) を参照してください。
+* SQL Server Management Studio でのレポート サーバー システム プロパティの設定の詳細については、「[サーバーのプロパティの [詳細設定] ページ](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services)」を参照してください。 特に指定しない限り、オプションは Power BI Report Server と SQL Server Reporting Services の両方に適用されます。
 
 ## <a name="next-steps"></a>次の手順
 

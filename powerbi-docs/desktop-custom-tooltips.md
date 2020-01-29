@@ -6,36 +6,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08eda4e93a3e02e357c8153c656ec16811893ea9
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 93177ac56bc2d8ecfe4b85f4ab66daef6bf0f0f3
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761435"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161021"
 ---
 # <a name="customize-tooltips-in-power-bi-desktop"></a>Power BI Desktop でヒントをカスタマイズする
+
 ヒントにより、ビジュアル上のデータ ポイントのコンテキスト情報と詳細を、洗練された方法で提供できます。 次の図は、Power BI Desktop のグラフに適用されたヒントを示しています。
 
 ![既定のヒント](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-視覚エフェクトが作成されると、既定のヒントに、データ ポイントの値とカテゴリが表示されます。 ツール ヒント情報をカスタマイズすると便利な場合が多く、ビジュアルを表示しているユーザーに追加のコンテキストと情報を提供できます。 カスタム ヒントを使用すると、ヒントの一部として表示する追加のデータ ポイントを指定できます。
+視覚エフェクトが作成されると、既定のヒントに、データ ポイントの値とカテゴリが表示されます。 ヒント情報のカスタマイズが有用である多くの状況があります。 ヒントのカスタマイズによって、ビジュアルを表示するユーザーに対して、追加のコンテキストと情報が提供されます。 カスタム ヒントを使用すると、ヒントの一部として表示する追加のデータ ポイントを指定できます。
 
 ## <a name="how-to-customize-tooltips"></a>ヒントをカスタマイズする方法
-カスタマイズされたヒントを作成するには、次の図に示すように、 **[視覚化]** ウィンドウの **[フィールド]** ウェルで、フィールドを **[ヒント]** バケットにドラッグします。 次の図では、2 つのフィールドが **[ヒント]** バケットに配置されています。
+
+カスタマイズされたヒントを作成するには、次の図に示すように、 **[視覚化]** ペインの **[フィールド]** ウェルで、フィールドを **[ヒント]** バケットにドラッグします。 次の図では、3 つのフィールドが **[ヒント]** バケットに配置されています。
 
 ![ヒント フィールドの追加](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
-ヒントがフィールド ウェルに追加されると、視覚エフェクトのデータ ポイントにポインターを合わせたときに、そのフィールドの値がヒントに表示されます。
+**[ヒント]** にヒントが追加されると、視覚化上のデータ ポイントにポインターを合わせたときに、それらのフィールドの値が表示されます。
 
 ![カスタム ヒント](media/desktop-custom-tooltips/custom-tooltips-3.png)
 
-## <a name="customizing-tooltips-with-aggregation-or-quick-calcs"></a>集計または簡単な計算でのヒントのカスタマイズ
-ヒントをさらにカスタマイズするには、 **[ヒント]** バケットのフィールドの横にある矢印を使用して集計関数または *[簡単な計算]* を選択し、使用可能なオプションを選択します。
+## <a name="customizing-tooltips-with-aggregation-or-quick-measures"></a>集計またはクイック メジャーでのヒントのカスタマイズ
 
-![簡単な計算でのヒント](media/desktop-custom-tooltips/custom-tooltips-4.png)
+集計関数または*クイック メジャー*を選択することで、ヒントをさらにカスタマイズできます。 **[ヒント]** バケット内のフィールドの横にある矢印を選択します。 次に、使用可能なオプションから選択します。
 
-データセットで使用できるフィールドを使って**ツール ヒント**をカスタマイズし、ダッシュボードやレポートを閲覧しているユーザーに情報と洞察をすばやく伝える方法は多数あります。
+![クイック メジャーでのヒント](media/desktop-custom-tooltips/custom-tooltips-4.png)
 
+ダッシュボードやレポートを閲覧するユーザーに情報と分析情報をすばやく伝えるために、データセットで使用できるフィールドを使用して、ヒントをカスタマイズする方法は多数あります。

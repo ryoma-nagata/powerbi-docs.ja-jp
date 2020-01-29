@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 935b453dabeaa731a218175526ddddeb980a2b92
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692461"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161434"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX:フィルター引数として FILTER を使用しない
 
@@ -36,13 +36,13 @@ CALCULATE(
 
 CALCULATE 関数で、[FILTER](/dax/filter-function-dax) DAX 関数によって返されるテーブル式を受け取り、**Product** テーブルの各行に対してフィルター式を評価します。 これにより、正しい結果 (赤色の製品の売上結果) を取得できます。 ただし、ブール式を使用すると、より効率的に実現できます。
 
-テーブル式の代わりにブール式を使用した、強化されたメジャー定義を次に示します。
+テーブル式の代わりにブール式を使用した、強化されたメジャー定義を次に示します。 [KEEPFILTERS](/dax/keepfilters-function-dax) DAX 関数では、**Color** 列に適用されている既存のフィルターは保持され、上書きされることはありません。
 
 ```dax
 Red Sales =
 CALCULATE(
     [Sales],
-    'Product'[Color] = "Red"
+    KEEPFILTERS('Product'[Color] = "Red")
 )
 ```
 

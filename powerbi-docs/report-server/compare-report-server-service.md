@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 12/03/2019
-ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: f7f163a8930d8bd90d6270f59e8afa602e89dd57
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831137"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160836"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
@@ -31,6 +31,7 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | リリース サイクル | 年に 3 回 (1 月、5 月、9 月) | 月に 1 回 | 最新の機能と修正プログラムは、Power BI サービスに先に提供されます。 ほとんどのコア機能は、数回後のリリースで Power BI Report Server に提供されます。一部の機能は Power BI サービスのみが対象です。 |
 | Power BI Desktop での Power BI レポートの作成 | はい | はい |  |
 | ブラウザーでの Power BI レポートの作成 | いいえ | はい |  |
+| Power BI 共有データセットをホストして接続する | いいえ | はい | [ワークスペース全体のデータセットの概要](../service-datasets-across-workspaces.md) |
 | ゲートウェイが必要 | いいえ | オンプレミス データ ソースでは必要 |  |
 | リアルタイム ストリーミング | いいえ | はい | [Power BI のリアルタイム ストリーミング](../service-real-time-streaming.md) |
 | ダッシュボード | いいえ | はい | [Power BI サービスのダッシュボード](../consumer/end-user-dashboards.md) |

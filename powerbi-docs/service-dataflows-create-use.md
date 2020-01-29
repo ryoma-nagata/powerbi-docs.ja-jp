@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877392"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040451"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI でのデータフローの作成と使用
 
@@ -155,6 +155,14 @@ Power BI のデータフローでは、Power BI のデータ更新プロセス�
 * **JSON ファイル コネクタ** - 現在、JSON ファイルに接続する方法は基本認証のみです。  URL (たとえば https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg...) 内での資格情報の入力による JSON ファイルへの接続は、現在サポートされて**いません**。  
 
 * **Azure SQL Data Warehouse** - データフローは現在、Azure SQL Data Warehouse での Azure Active Directory (AAD) 認証をサポートしていません。 このシナリオでは、基本認証を使用します。
+
+## <a name="considerations-and-limitations"></a>考慮事項と制限事項
+
+データフローには、いくつかの既知の制限事項があります。これらについて、次の一覧で説明します。
+
+* データフローでは、必ず次のいずれかの型が出力されます。"*日付/時刻、10 進数値、テキスト、整数、日付/時刻/ゾーン、True/False、日付、時刻*"
+* 現時点では、動的関数はデータフローではサポートされていません。
+
 
 ## <a name="next-steps"></a>次のステップ
 

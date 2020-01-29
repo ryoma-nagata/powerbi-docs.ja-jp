@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311501"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953760"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>埋め込みのページ分割されたレポート (プレビュー) での行レベルのセキュリティの実装
 
@@ -32,7 +32,7 @@ Power BI のページ分割されたレポートに行レベルのセキュリ�
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>レポートまたはクエリのレベルで UserID をフィルターとして使用する
 
-**UserId** は、"*フィルター*" として使用することも、[Power BI のページ分割されたレポート ビルダー](../report-builder-power-bi.md)で、データソースに対する "*クエリ*" で使用することもできます。
+**UserId** は、"*フィルター*" として使用することや、[Power BI Report Builder](../report-builder-power-bi.md) で、データソースに対する "*クエリ*" に使用することができます。
 
 ### <a name="using-the-filter"></a>フィルターの使用
 

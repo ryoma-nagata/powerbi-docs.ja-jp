@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ba911361ad2837a10f28358cbd1510effc1dd7eb
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837664"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038554"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online に格納されているデータセットを更新する
 OneDrive または SharePoint Online から Power BI サービスへのファイルのインポートは、Power BI Desktop での作業と Power BI サービスとの同期を確実に維持するための優れた方法です。
@@ -37,7 +37,7 @@ OneDrive または SharePoint Online から Power BI Desktop ファイルをイ�
 Power BI では、 **[データの取得]** または **[クエリ エディター]** を使用して次のデータ ソースに接続してデータを読み込んでいるローカル ドライブがある場合、そのローカル ドライブからインポートされた Power BI Desktop ファイルから作成したデータセットについては、 **[更新]** と **[更新のスケジュール設定]** をサポートしています。
 
 > [!NOTE]
-> Onedrive 上のインポートしたファイルはサポートされていますが、OneDrive 内のライブ接続されたデータセットは OneDrive の更新シナリオとしてサポートされていません。
+> ライブ接続データセットの Onedrive の更新がサポートされています。 ただし、OneDrive の更新シナリオでは、既に接続されているレポートのライブ データセットを別のデータセットに変更することはサポートされていません。
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 * Power BI Desktop の **[データの取得]** および **[クエリ エディター]** に表示されるすべてのオンライン データ ソース。

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 150de174b15e684c49c38f67767b13a3a7f9a36a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758970"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040409"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI でマトリックスの視覚エフェクトを作成する
 
@@ -197,6 +197,6 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI の散布図とバブル チャート](power-bi-visualization-scatter.md)
+[Power BI 用の Power Apps ビジュアル](power-bi-visualization-powerapp.md)
 
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)

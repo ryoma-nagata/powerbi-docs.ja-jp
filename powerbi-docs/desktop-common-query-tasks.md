@@ -1,25 +1,26 @@
 ---
-title: Power BI Desktop での一般的なクエリ タスク
-description: Power BI Desktop での一般的なクエリ タスク
+title: Power BI Desktop で一般的なクエリ タスクを実行する
+description: Power BI Desktop で一般的なクエリ タスクを実行する
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 8921737fac842d040d014244e2ce80e9bc158b23
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761751"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040131"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop で一般的なクエリ タスクを実行する
-Power BI Desktop の **クエリ エディター** ウィンドウで作業するとき、一般的に使用される多数のタスクがあります。 このドキュメントでは、それらの一般的なタスクについて説明し、追加情報へのリンクを示します。 
 
-ここでは、以下の一般的なクエリ タスクについて説明します。
+Power BI Desktop の Power Query エディター ウィンドウには、一般的に使用される多数のタスクがあります。 この記事では、それらの一般的なタスクについて説明し、追加情報へのリンクを示します。
+
+ここでは、次の一般的なクエリ タスクについて説明します。
 
 * データに接続する
 * データの整形と結合
@@ -30,196 +31,135 @@ Power BI Desktop の **クエリ エディター** ウィンドウで作業す�
 
 これらのタスクを完了するために、いくつかのデータ接続を使用します。 これらのタスクの手順をユーザー自身で実行することもできるように、データはダウンロードや接続が可能になっています。
 
-最初のデータ接続は Excel ブックです。これは[このリンク](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)からダウンロードできます。 もう 1 つは Web リソースで (これは他の Power BI Desktop のヘルプ コンテンツにも使用されます)、以下の場所からアクセスできます。
+最初のデータ接続は [Excel ブック](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)です。ダウンロードしてローカルに保存できます。 もう 1 つは、他の Power BI Desktop 記事でも使用されている Web リソースです。
 
-[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+<https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/>
 
-一般的なクエリ タスクは、それら両方のデータ ソースへの接続に必要な手順によって開始します。
+一般的なクエリ タスクは、それら両方のデータ ソースへの接続に必要な手順から始まります。
 
 ## <a name="connect-to-data"></a>データに接続する
-Power BI Desktop のデータに接続するには、リボンの **[ホーム]** タブで **[データの取得]** ボタンを選択します。 Power BI Desktop は、最も一般的なデータ ソースのメニューを表示します。 Power BI Desktop が接続できるデータ ソースの完全な一覧を表示するには、メニューの下部にある **[その他]** ボタンを選択します。 詳しくは、「[Power BI Desktop のデータ ソース](https://docs.microsoft.com/power-bi/desktop-data-sources)」をご覧ください。
 
-![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
+Power BI Desktop のデータに接続するには、 **[ホーム]** 、 **[データの取得]** の順に選択します。 Power BI Desktop は、最も一般的なデータ ソースのメニューを表示します。 Power BI Desktop が接続できるデータ ソースの完全な一覧を確認するには、メニューの末尾にある **[その他]** を選択します。 詳細については、「[Power BI Desktop のデータ ソース](desktop-data-sources.md)」を参照してください。
 
-最初に、 **[Excel]** を選択してブックに移動し、それを選択します。 クエリはブックを検査して、検出したデータを **[ナビゲーター]** ウィンドウに表示します。
+![[よく使われる] データ ソース メニュー、[データの取得] ボタン、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
-![](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
+まず **[Excel]** を選択し、前述の Excel ブックを指定して、 **[開く]** を選択します。 テーブルを選択すると、クエリによってブックが検査され、 **[ナビゲーター]** ダイアログ ボックスで見つかったデータが表示されます。
 
-データを Power BI Desktop に読み込む前に、 **[編集]** をクリックしてデータを調整したり、 *整形* したりできます。 読み込みの前にクエリを編集することは、読み込む前にサイズを縮小する予定の大規模なデータ セットを使用する際に特に役立ちます。 これを行うため、 **[編集]** を選択します。
+![Excel データ ソース、[ナビゲーター] ダイアログ ボックス、[データの取得]、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
 
-さまざまな種類のデータに接続することは、とても簡単です。 また、Web リソースに接続することもできます。 **[データの取得] \> [その他]** の順に選んでから、 **[その他] \> [Web]** の順に選びます。
+Power BI Desktop に読み込む前に、 **[データの変換]** を選択してデータの編集、調整、または "*整形*" を行うことができます。 編集は、読み込む前に減らしておきたい大規模なデータセットを使用する場合に特に便利です。
 
-![](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
+さまざまな種類のデータに接続することは簡単です。 また、Web リソースに接続することもできます。 **[データの取得]**  >  **[詳細]** を選択し、 **[その他]**  >  **[Web]**  >  **[接続]** を選択します。
 
-**\[From Web\]\(取得元の Web\)** ウィンドウが表示され、ここに Web ページの URL を入力できます。
+![Web データ ソース、[データの取得] ダイアログ ボックス、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
 
-![](media/desktop-common-query-tasks/datasources_fromwebbox.png)
+**[Web から]** ダイアログ ボックスが表示され、ここに Web ページの URL を入力できます。
 
-**[OK]** を選択すると、以前と同様に、Power BI Desktop はブックを検査して検出されたデータを **[ナビゲーター]** ウィンドウに表示します。
+![[Web から] ダイアログ ボックス、Web データ ソース、[データの取得]、Power BI Desktop](media/desktop-common-query-tasks/datasources_fromwebbox.png)
+
+**[OK]** を選択します。 以前と同様に、Power BI Desktop によって Web ページ データが検査され、 **[ナビゲーター]** ダイアログ ボックスにプレビュー オプションが表示されます。 テーブルを選択すると、データのプレビューが表示されます。
 
 その他のデータ接続も類似しています。 データ接続に認証が必要な場合、Power BI Desktop は適切なユーザーが資格情報を入力するように求めるダイアログを表示します。
 
-Power BI Desktop 内のデータに接続する方法を示すステップごとの実例については、「[Power BI Desktop におけるデータへの接続](https://docs.microsoft.com/power-bi/desktop-connect-to-data)」をご覧ください。
+Power BI Desktop 内のデータに接続する方法を示すステップごとの実例については、「[Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)」を参照してください。
 
 ## <a name="shape-and-combine-data"></a>データの整形と結合
-クエリ エディターを使用すると、データの整形と結合を簡単に行うことができます。 このセクションでは、データを整形する方法を示すいくつかの例を示します。 データを整形および結合する方法を示す、より詳しい実例は、「 **[Power BI Desktop でのデータの整形と結合](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** 」をご覧ください。
 
-前のセクションでは、Excel ブックと Web リソースという 2 組のデータに接続しました。 クエリ エディターに読み込まれると、選択した Web ページから ([クエリ エディター] ウィンドウの左側の **[クエリ]** ウィンドウにある使用可能なクエリの一覧から)、クエリに関して以下が表示されます。
+Power Query エディターを使用すると、データの整形と結合を簡単に行うことができます。 このセクションでは、データを整形する方法を示すいくつかの例を示します。 データを整形および結合する方法を示す、より詳しい実例は、「[Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)」を参照してください。
 
-![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
+前のセクションでは、Excel ブックと Web リソースという 2 組のデータに接続しました。 データが Power Query エディターに読み込まれたら、次に示すように、 **[クエリ]** ペインで使用できるクエリから Web ページ クエリを選択します。
 
-データを整形するときには、データ ソースの形式と書式をユーザーの必要に合わせて変換します。 このケースでは、「 *ヘッダー* 」というタイトルの最初の列が不要であるため、削除します。
+![[クエリ] ペイン、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
-**クエリ エディター**では、多くのコマンドがリボン内と状況依存の右クリック メニュー内にあります。 たとえば、 *[ヘッダー]* 列を右クリックすると、表示されるメニューによって列を削除できます。 また、列を選択してから、リボンの **[列の削除]** ボタンを選択することもできます。
+データを整形するときには、データ ソースの形式と書式をユーザーの必要に合わせて変換します。
 
-![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
+Power Query エディターのリボンとコンテキスト メニューには、多くのコマンドがあります。 たとえば、列を右クリックすると、コンテキスト メニューを使用して列を削除できます。 また、列を選択してから、リボンの **[ホーム]** タブから **[列の削除]** ボタンを選択することもできます。
 
-このクエリでは、他のさまざまな方法によってもデータを整形できます。上または下から任意の数の行を削除したり、列の追加、列の分割、値の置換、その他の整形タスクを実行したりして、ユーザーの必要とする方法でクエリ エディターがデータを取得するようにすることができます。
+![[列の削除] コマンド、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
+
+このクエリでは、他のさまざまな方法でデータを整形できます。 上または下から任意の数の行を削除できます。 また、列の追加、列の分割、値の置換などの整形タスクを行うことができます。 これらの機能を使用すると、好みの方法でデータを取得するように Power Query エディターに指示できます。
 
 ## <a name="group-rows"></a>行のグループ化
-クエリ エディターでは、複数の行の値をグループ化して単一の値にすることができます。 これは、提供される製品の数、総売り上げ高、生徒の数などを集計する際に便利です。
 
-この例では、教育登録データ セット内の複数の行をグループ化します。 データは、Excel ブックからのもので、必要な列だけを取得するようにクエリ エディターで整形され、テーブルの名前が変更され、他のいくつかの変換が実行されています。
+Power Query エディターでは、複数行の値を 1 つの値にグループ化することができます。 この機能は、提供される製品の数、総売り上げ高、学生の数などを集計する際に便利です。
 
-各州に存在する政府機関 (学区や地域サービス区などの他の教育機関を含む) の数を検索することにします。 *[州の略名]* 列を選択して、リボンの **[変換]** タブまたは **[ホーム]** タブで **[Group By]** ボタンを選択します ( **[Group By]** はどちらのタブにもあります)。
+この例では、教育登録データ セット内の複数の行をグループ化します。 データは、Excel ブックのものです。 Power Query エディターでは、必要な列のみを取得し、テーブルの名前を変更し、他のいくつかの変換を行うように整形されます。
 
-![](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
+各州の機関の数を調べてみましょう (機関には、学区や他の教育機関 (地域のサービス地区など) が含まれる可能性があります)。 **[Agency ID - NCES Assigned \[District\] Latest available year]\(機関 ID - NCES によって割り当てられた <地区> の最新の使用可能な年\)** 列を選択し、リボンの **[変換]** タブまたは **[ホーム]** タブの **[グループ化]** ボタンを選択します ( **[グループ化]** は両方のタブで使用できます)。
 
-**[グループ化…]** ウィンドウが表示されます。 クエリ エディターが行をグループ化すると、 **Group By** の結果が格納される新しい列が作成されます。 **Group By** 操作は、次の方法で調整できます。
+![[グループ化] ダイアログ ボックス、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
-1. *グループ化* – グループ化する列。選択済みの列がクエリ エディターによって選ばれますが、このウィンドウでテーブル内の任意の列に変更できます。
-2. *新しい列名* – クエリ エディターによって新しい列に、グループ化される列に適用する操作に基づいた名前の候補が示されますが、新しい列には任意の名前を指定できます。
-3. *操作* – ここで、クエリ エディターが適用される操作を指定します。
-4. *[グループの追加]* と *[集計の追加]* – これらのオプションは、 **[詳細]** オプションを選択した後に表示されます。 複数の列でグループ化操作 ( **[グループ化]** 操作) の実行や、複数の集計操作の実行を、すべて **[グループ化]** ウィンドウ内で、すべて 1 つの操作で行うことができます。 クエリ エディターは、複数の列に対する処理を行う 1 つの新しい列を (このウィンドウでの選択に基づいて) 作成します。 
+**[グループ化]** ダイアログ ボックスが表示されます。 Power Query エディターで行がグループ化されると、 **[グループ化]** の結果が格納される新しい列が作成されます。 **Group By** 操作は、次の方法で調整できます。
 
-**[グループの追加]** または **[集計の追加]** ボタンを選択すると、 **[グループ化]** 操作にグループ化または集計を追加できます。 **[...]** アイコンを選択し、 **[削除]** を選択すると、列または集計を除去することができます。実際に試行して、結果を確認してみてください。
-   
-   ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
+1. ラベルが付いていないドロップダウン リストで、グループ化する列を指定します。 Power Query エディターでは、選択した列にこの値が既定で設定されますが、テーブル内の任意の列に変更できます。
+2. **新しい列名**:Power Query エディターからは、グループ化の対象の列に適用される操作に基づいて、新しい列の名前が提案されます。 ただし、新しい列には任意の名前を付けることができます。
+3. **Operation**: **[合計]** 、 **[中央値]** 、 **[個別の行数のカウント]** など、Power Query エディターで適用される操作を選択できます。 既定値は **[行数のカウント]** です。
+4. **[グループ化の追加]** と **[集計の追加]** :これらのボタンは、 **[詳細]** オプションを選択した場合にのみ使用できます。 1 回の操作で、多くの列に対してグループ化操作 ( **[グループ化]** アクション) を行い、これらのボタンを使用して複数の集計を作成できます。 このダイアログ ボックスでの選択に基づき、Power Query エディターによって複数の列に対して動作する新しい列が作成されます。
 
-**[OK]** を選ぶと、クエリは **Group By** 操作を実行して結果を返します。 驚きの結果です。オハイオ州、テキサス州、イリノイ州、カリフォルニア州には、それぞれ 1000 を超える数の機関があります。
+**[グループの追加]** または **[集計の追加]** を選択すると、 **[グループ化]** 操作にグループ化または集計を追加できます。 グループ化または集計を削除するには、行の右側にある省略記号アイコン ( **[...]** ) を選択し、 **[削除]** を選択します。 次に進み、既定値を使用して **[グループ化]** 操作を試して、何が起こるかを確認します。
 
-![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
+![[グループ化] ダイアログ ボックス、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-また、クエリ エディターでは、直前に完了したステップの横にある **[X]** を選ぶと、最後の整形操作をいつでも取り消すことができます。 それで、試行してみてください。結果に満足できない場合は、クエリ エディターによってデータの適切な整形が行われるまで、ステップを再実行します。
+**[OK]** を選択すると、クエリによって **[グループ化]** 操作が実行され、結果が返されます。 驚きの結果です。オハイオ州、イリノイ州、テキサス州、カリフォルニア州には、それぞれ 1,000 を超える数の機関があります。
+
+![[カウント] 列、[グループ化] 操作、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
+
+Power Query エディターを使うと、最後の整形操作をいつでも削除できます。 **[クエリの設定]** ペインの **[適用したステップ]** で、最近完了したステップの横にある **[X]** を選択するだけです。 では、試してみましょう。 結果が気に入らない場合は、Power Query エディターでデータが希望どおりに整形されるまでステップをやり直します。
 
 ## <a name="pivot-columns"></a>列のピボット
-Power BI Desktop では、列をピボットして、列内の一意の値ごとの集計値を含むテーブルを作成できます。 たとえば、各製品カテゴリに含まれる異なる製品の数を知る必要がある場合、そのとおりの処理を行うテーブルを素早く作成することができます。
 
-例を見てみましょう。 次の「 **製品** 」テーブルは、一意の各製品 (その名前) と、その製品が分類されるカテゴリだけを示すように整形されています。 ( *CategoryName* 列に基づいて) 各カテゴリの製品数を示す新しいテーブルを作成するには、列を選択してから、リボンの **[変換]** タブにある **[列のピボット]** を選択します。
+列をピボットして、列内の一意の値ごとの集計値を含むテーブルを作成できます。 たとえば、各製品カテゴリに含まれる異なる製品数を調べるために、それを行うテーブルをすばやく作成できます。
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
+例を見てみましょう。 次の **Products_by_Categories** テーブルは、一意の各製品 (その名前) と、その製品が分類されるカテゴリだけを示すように整形されています。 (**CategoryName** 列に基づいて) 各カテゴリの製品数を示す新しいテーブルを作成するには、列を選択し、 **[変換]**  >  **[列のピボット]** を選択します。
 
-**[列のピボット]** ウィンドウが表示されて、新しい列の作成に使用される列の値が示され (1)、 **[詳細オプション]** を展開すると (2)、集計値に適用される関数を選択することができます (3)。
+![[列のピボット] コマンド、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
+**[列のピボット]** ダイアログ ボックスが表示され、新しい列 (1) の作成に使用される列の値がわかります (**CategoryName** の目的の列名が表示されない場合は、ドロップダウン リストから選択します)。 **[詳細] オプション** (2) を展開すると、集計値 (3) に適用される関数を選択できます。
 
-**[OK]** を選択すると、クエリは **[列のピボット]** ウィンドウで指定された変換の指示に従ってテーブルを表示します。
+![[列のピボット] ダイアログ ボックス、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
+**[OK]** を選択すると、 **[列のピボット]** ダイアログ ボックスで指定された転送指示に従って、クエリによってテーブルが表示されます。
+
+![[列のピボット] の結果、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
 
 ## <a name="create-custom-columns"></a>カスタム列の作成
-クエリ エディターでは、テーブル内の複数の列で実行されるカスタムの数式を作成して、それらの数式の結果を新しい (カスタムの) 列に入れることができます。 クエリ エディターを使用すると、簡単にカスタム列を作成できます。
 
-クエリ エディターで、リボンの **[列の追加]** タブから **[カスタム列]** を選択します。
+Power Query エディターでは、テーブル内の複数の列に対して動作するカスタム数式を作成できます。 これで、そのような数式の結果を新しい (カスタム) 列に配置できるようになります。 Power Query エディターを使用すると、簡単にカスタム列を作成できます。
 
-![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
+Power Query エディターで Excel ブックのデータを使用し、リボンの **[列の追加]** タブに移動し、 **[カスタム列]** を選択します。
 
-次のウィンドウが表示されます。 次の例では、英語学習者 (ELL) である合計生徒数のパーセンテージを計算する、「 *Percent ELL* 」という名前のカスタム列を作成します。
+![[カスタム列の追加] コマンド、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
-![](media/desktop-common-query-tasks/customcolumn_addcustomcolumndialog.png)
+次のダイアログ ボックスが表示されます。 この例では、英語学習者 (ELL) である合計学生数のパーセンテージを計算する、「*Percent ELL*」という名前のカスタム列を作成します。
 
-クエリ エディター内の他のすべての適用ステップと同様に、必要なデータが新しいカスタム列に存在しない場合は、 **\[Added Custom\]\(追加されたカスタム\)** ステップの横にある **[X]** を選択するだけで、 **[クエリの設定]** ウィンドウの **[適用される手順]** セクションからステップを削除できます。
+![[カスタム列] ダイアログ ボックス、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/customcolumn_addcustomcolumndialog.png)
 
-![](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
+Power Query エディターの他の適用されるステップと同様に、探しているデータが新しいカスタム列に表示されない場合は、そのステップを削除できます。 **[クエリの設定]** ペインの **[適用したステップ]** で、 **[追加されたカスタム]** ステップの横にある **[X]** を選択します。
+
+![[適用したステップ]、[クエリの設定] ペイン、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
 
 ## <a name="query-formulas"></a>数式のクエリ
-クエリ エディターによる生成手順を編集して、データの接続と整形を正確に制御するカスタムの数式を作成できます。 クエリ エディターがデータに対してアクションを実行するたびに、アクションに関連付けられた数式が **数式バー**に表示されます。 **数式バー**を表示するには、リボンの **[ビュー]** タブにある **数式バー** の横のチェックボックスを選択します。
 
-![](media/desktop-common-query-tasks/queryformulas_formulabar.png)
+Power Query エディターによって生成される手順を編集できます。 また、カスタム式を作成することもできます。これを使うと、データに接続してより正確に整形できます。 Power Query エディターがデータに対してアクションを実行するたびに、アクションに関連付けられた数式が数式バーに表示されます。 数式バーを表示するには、リボンの **[表示]** タブに移動し、 **[数式バー]** を選択します。
 
-クエリ エディターは、各クエリに適用されているすべてのステップを、表示や変更が可能なテキストとして保持します。 クエリのテキストは、リボンの **[ビュー]** タブで **[詳細設定エディター]** を選択すると表示される、 **詳細設定エディター** を使用して表示または変更できます。
+![[数式バー] オプション、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/queryformulas_formulabar.png)
 
-![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
+Power Query エディターには、各クエリに適用されているすべてのステップが、表示や変更が可能なテキストとして保持されます。 **詳細エディター**を使用して、任意のクエリのテキストを表示または変更できます。 **[表示]** 、 **[詳細エディター]** の順に選択します。
 
-**USA\_StudentEnrollment** クエリに関連付けられたクエリ手順が表示されている、**詳細設定エディター**をここに示します。 これらの手順は、しばしば「**M**」と呼ばれる Power Query 数式言語で作成されています。詳しくは、「[Power Query 数式の詳細について](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)」をご覧ください。 言語仕様そのものを確認するには、「[Microsoft Power Query for Excel の数式言語仕様](/powerquery-m/excel-workbook)」を参照してください。
+![[詳細エディター] コマンド、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
+**USA\_StudentEnrollment** クエリに関連付けられたクエリ手順が表示されている、**詳細設定エディター**をここに示します。 これらの手順は、しばしば「*M*」と呼ばれる Power Query 数式言語で作成されています。詳細については、「[Power Query 数式の詳細について](https://support.office.com/article/learn-about-power-query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)」を参照してください。 言語仕様そのものを確認するには、「[Power Query M 言語仕様](/powerquery-m/power-query-m-language-specification)」を参照してください。
 
-Power BI Desktop には、数式カテゴリの幅広いセットが備わっています。 詳細について、およびクエリ エディターの数式すべての完全なリファレンスは、「[Power Query 数式のカテゴリ](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819)」をご覧ください。
+![[詳細エディター] ダイアログ ボックス、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
-クエリ エディターの数式のカテゴリを次に示します。
-
-* 数
-  * 定数
-  * 情報
-  * 変換および書式設定
-  * 書式
-  * 丸め
-  * 総務
-  * ランダム
-  * 三角関数
-  * バイト
-* テキスト
-  * 情報
-  * テキストの比較
-  * 抽出
-  * 変更
-  * メンバーシップ
-  * 変換
-* 論理
-* Date
-* 時刻
-* DateTime
-* DateTimeZone
-* 期間
-* レコード
-  * 情報
-  * 変換
-  * 選択
-  * シリアル化
-* 一覧
-  * 情報
-  * 選択
-  * 変換
-  * メンバーシップ
-  * 操作の設定
-  * 順序付け
-  * 平均値
-  * 追加
-  * 数値
-  * ジェネレータ
-* テーブル
-  * テーブルの構築
-  * コンバージョン
-  * 情報
-  * 行の操作
-  * 列の操作
-  * メンバーシップ
-* 値
-* 算術演算
-* パラメーターの型
-* メタデータ
-* データへのアクセス
-* URI
-* バイナリ形式
-  * 数値の読み取り
-* バイナリ
-* 行
-* 式
-* 関数
-* Error
-* 比較演算子
-* スプリッター
-* コンバイナ
-* 置換関数
-* 種類
+Power BI Desktop には、数式カテゴリの幅広いセットが備わっています。 すべての Power Query エディターの数式の詳細と完全なリファレンスについては、「[Power Query M 関数参照](/powerquery-m/power-query-m-function-reference)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
-Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。
+
+Power BI Desktop では、あらゆる種類の操作を実行できます。 そのような機能の詳細については、次のリソースを参照してください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
-* [Power BI Desktop におけるデータへの接続](desktop-connect-to-data.md)
+* [Power BI Desktop でデータに接続する](desktop-connect-to-data.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
-

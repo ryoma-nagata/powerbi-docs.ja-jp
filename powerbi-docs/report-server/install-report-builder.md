@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
-ms.openlocfilehash: 4cf5d2c1df4d7e0884083d48aa66421e5c43765a
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 1cf8797939eafb69734ecd0f4be752926d1994a1
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75735145"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953929"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>レポート ビルダーをインストールする - Power BI Report Server
 
 レポート ビルダーはスタンドアロン アプリです。ユーザーまたは管理者によってコンピューターにインストールされます。 Microsoft ダウンロード センターまたは Power BI Report Server からインストールできます。  
 
-Power BI サービスのレポート ビルダーのインストールに関するヘルプをお探しですか? 代わりに、「[Power BI の改ページ調整されたレポート ビルダー](../report-builder-power-bi.md)」を参照してください。
+Power BI サービスのレポート ビルダーのインストールに関するヘルプをお探しですか? この場合は「[Power BI Report Builder](../report-builder-power-bi.md)」を参照してください。
   
 管理者は通常、Power BI Report Server のインストールと構成、Web ポータルからレポート ビルダーをダウンロードするための権限の許可、フォルダーの管理とレポート サーバーに保存されたレポート、および共有データセットに対する権限の管理を行います。 Power BI Report Server の管理の詳細については、「[管理の概要、Power BI Report Server](admin-handbook-overview.md)」を参照してください。  
   

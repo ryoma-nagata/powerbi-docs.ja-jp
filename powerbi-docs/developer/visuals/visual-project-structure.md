@@ -1,126 +1,179 @@
 ---
 title: Power BI ビジュアル プロジェクトの構造
-description: この記事では、ビジュアル プロジェクトの構造について説明します
-author: zBritva
-ms.author: v-ilgali
+description: この記事では、Power BI ビジュアル プロジェクトのフォルダーとファイルの構造について説明します。
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
+ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/15/2019
-ms.openlocfilehash: 728aba749f80710fdc0bb1e180b3318e63caa88c
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.date: 01/12/2020
+ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75542095"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925531"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI ビジュアル プロジェクトの構造
 
-このツールでは、pbiviz の新しい `<visual project name>` を実行すると、ファイルとフォルダーの基本的な構造が `<visual project name>` フォルダーに作成されます。
+新しい Power BI ビジュアルを作り始める場合は、Power BI ビジュアル [pbiviz](https://www.npmjs.com/package/powerbi-visuals-tools) ツールを使用することをお勧めします。
 
-## <a name="visual-project-structure"></a>ビジュアル プロジェクトの構造
+新しいビジュアルを作成するには、Power BI ビジュアルを配置するディレクトリに移動し、次のコマンドを実行します。
 
-![ビジュアル プロジェクトの構造](./media/visual-project-structure.png)
+`pbiviz new <visual project name>`
 
-* `.vscode` - VS Code のプロジェクトの設定が含まれています。 ワークスペースを構成するには、`.vscode/settings.json` ファイルを編集します。 詳細については、[VS コードの設定に関するドキュメント](https://code.visualstudio.com/docs/getstarted/settings)を参照してください。
+このコマンドを実行すると、次のファイルを含む Power BI ビジュアル フォルダーが作成されます。
 
-* `assets` フォルダーには、`icon.png` ファイルのみが含まれています。 このツールでは、Power BI の [視覚化] ウィンドウでのビジュアルのアイコンとしてこのファイルを使用します。
+```markdown
+project
+├───.vscode
+│   ├───launch.json
+│   └───settings.json
+├───assets
+│   └───icon.png
+├───node_modules
+├───src
+│   ├───settings.ts
+│   └───visual.ts
+├───style
+│   └───visual.less
+├───capabilities.json
+├───package-lock.json
+├───package.json
+├───pbiviz.json
+├───tsconfig.json
+└───tslint.json
+```
 
-    ![[視覚化] ウィンドウ](./media/visualization-pane-analytics-tab.png)
+## <a name="folder-and-file-description"></a>フォルダーとファイルの説明
 
-* `node_modules` フォルダーには、[ノード パッケージ マネージャーによってインストールされた](https://docs.npmjs.com/files/folders.html)すべてのパッケージが含まれています。
+このセクションでは、Power BI ビジュアルの **pbiciz** ツールを使って作成されるディレクトリ内の各フォルダーとファイルについて説明します。  
 
-* `src` フォルダーには、ビジュアルのソース コードが含まれています。 既定では、ツールによって次の 2 つのファイルが作成されます。
+### <a name="vscode"></a>.vscode
 
-  * `visual.ts` - ビジュアルのメイン ソース コード。
+このフォルダーには、VS Code プロジェクトの設定が含まれています。
 
-  * `settings.ts` - ビジュアルの設定のコード。 ファイルのクラスを使用すると、[ビジュアル プロパティの操作](./objects-properties.md#properties)が簡単になります。
+ワークスペースを構成するには、`.vscode/settings.json` ファイルを編集します。
 
-* `style` フォルダーには、ビジュアルのスタイルを含む `visual.less` ファイルが含まれています。
+詳細については、「[ユーザーとワークスペースの設定](https://code.visualstudio.com/docs/getstarted/settings)」を参照してください。
 
-* `capabilities.json` ファイルには、ビジュアルのメイン プロパティと設定が含まれています。 これにより、ビジュアルは、サポートされている機能、オブジェクト、プロパティ、データ ビュー マッピングを宣言できます。
+### <a name="assets"></a>資産
 
-    詳細については、[機能に関するドキュメント](./capabilities.md)を参照してください。
+このフォルダーには `icon.png` ファイルが含まれています。
 
-* `package-lock.json` は、npm によって `node_modules` ツリーまたは `package.json` のいずれかが変更されるすべての操作に対して、自動的に生成されます。
+Power BI ビジュアル ツールでは、このファイルが Power BI ビジュアル ペインの新しい Power BI ビジュアル アイコンとして使用されます。
 
-    詳細については、NPM の公式ドキュメントで [`package-lock.json` に関するページ](https://docs.npmjs.com/files/package-lock.json)を参照してください。
+<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
 
-* `package.json` は、プロジェクト パッケージを説明しています。 通常は、プロジェクト、その作成者、説明、プロジェクトの依存関係に関する情報が含まれています。
+### <a name="src"></a>src
 
-    詳細については、NPM の公式ドキュメントで [`package.json` に関するページ](https://docs.npmjs.com/files/package.json.html)を参照してください。
+このフォルダーには、ビジュアルのソース コードが含まれています。
 
-* `pbiviz.json` には、ビジュアル メタデータが含まれています。 このファイルで、ビジュアルのメタデータを指定します。
+このフォルダーには、Power BI ビジュアル ツールによって次のファイルが作成されます。
+* `visual.ts` - ビジュアルの主要なソース コード。
+* `settings.ts` - ビジュアルの設定のコード。 ファイルのクラスには、[ビジュアルのプロパティ](./objects-properties.md#properties)を定義するためのインターフェイスが用意されています。
 
-    ファイルの一般的な内容は次のとおりです。
+### <a name="style"></a>スタイル
 
-  ```json
-    {
-        "visual": {
-            "name": "<visual project name>",
-            "displayName": "<visual project name>",
-            "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
-            "visualClassName": "Visual",
-            "version": "1.0.0",
-            "description": "",
-            "supportUrl": "",
-            "gitHubUrl": ""
-        },
-        "apiVersion": "2.6.0",
-        "author": { "name": "", "email": "" },
-        "assets": { "icon": "assets/icon.png" },
-        "externalJS": null,
-        "style": "style/visual.less",
-        "capabilities": "capabilities.json",
-        "dependencies": null,
-        "stringResources": []
-    }
-  ```
+このフォルダーには、ビジュアルのスタイルを保持する `visual.less` ファイルが含まれています。
 
-    パラメーターの説明
+### <a name="capabilitiesjson"></a>capabilities.json
 
-  * `name` - ビジュアルの内部名。
+このファイルには、ビジュアルの主なプロパティと設定 (または[機能](./capabilities.md)) が含まれています。 これにより、ビジュアルは、サポートされている機能、オブジェクト、プロパティ、[データ ビュー マッピング](./dataview-mappings.md)を宣言できます。
 
-  * `displayName` - Power BI の UI インターフェイスでのビジュアルの名前。
+### <a name="package-lockjson"></a>package-lock.json
 
-  * `guid` - ビジュアルの一意の ID。
+このファイルは、*npm* によって `node_modules` ツリーまたは `package.json` ファイルのいずれかが変更されるすべての操作に対して、自動的に生成されます。
 
-  * `visualClassName` - ビジュアルのメイン クラスの名前。 Power BI は、このクラスのインスタンスを作成し、Power BI レポートのビジュアルを使用して起動します。
+このファイルの詳細については、公式の [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) のドキュメントを参照してください。
 
-  * `version` - ビジュアルのバージョン番号。
+### <a name="packagejson"></a>package.json
 
-  * `author` - 作成者の名前と連絡先のメール アドレスが含まれています。
+このファイルには、プロジェクト パッケージが記述されています。 作成者、説明、プロジェクトの依存関係などのプロジェクトに関する情報が含まれます。
 
-  * `assets` の `icon` - ビジュアル用のアイコン ファイルへのパス。
+このファイルの詳細については、公式の [npm-package.json](https://docs.npmjs.com/files/package.json.html) のドキュメントを参照してください。
 
-  * `externalJS` には、ビジュアルで使用される JS ライブラリのパスが含まれています。
+### <a name="pbivizjson"></a>pbiviz.json
 
-    > [!IMPORTANT]
-    > 最新バージョンのツール 3.x.x 以降では、`externalJS` は使用されません。
+このファイルには、ビジュアルのメタデータが含まれています。
 
-  * `style` は、スタイル ファイルへのパスです。
+メタデータ エントリを説明するコメントを含む `pbiviz.json` ファイルの例については、「[メタデータ エントリ](#metadata-entries)」セクションを参照してください。
 
-  * `capabilities` は、`capabilities.json` ファイルへのパスです。
+### <a name="tsconfigjson"></a>tsconfig.json
 
-  * `dependencies` は、`dependencies.json` ファイルへのパスです。 `dependencies.json` には、R ベースのビジュアルで使用される R パッケージに関する情報が含まれています。
+[TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) の構成ファイルです。
 
-  * `stringResources` は、ローカライズされたファイルへのパスの配列です。
+このファイルには、`pbiviz.json` ファイルの `visualClassName` プロパティに指定されているように、ビジュアルのメイン クラスが配置されている **\*.ts** ファイルのパスが含まれている必要があります。
 
-  詳細については、[ビジュアルでのローカライズに関するドキュメント](./localization.md)を参照してください。
+### <a name="tslintjson"></a>tslint.json
 
-* `tsconfig.json` は、TypeScript の構成ファイルです。
+このファイルには [TSLint の構成](https://palantir.github.io/tslint/usage/configuration/)が含まれています。
 
-    詳細については、[TypeScript の構成に関する公式ドキュメント](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)を参照してください。
+## <a name="metadata-entries"></a>メタデータ エントリ
 
-    `files` セクションの `tsconfig.json` には、`pbiviz.json` ファイルの `visualClassName` プロパティで指定され、ビジュアルのメイン クラスが配置されている *.ts ファイルへのパスが含まれている必要があります。
+`pbiviz.json` ファイルの次のコード キャプションのコメントは、メタデータ エントリを説明するものです。
 
-* `tslint.json` ファイルには、TSLint の構成が含まれています。
+> [!NOTE]
+> * **pbiciz** ツールのバージョン 3.x.x から、`externalJS` はサポートされません。
+> * ローカライズをサポートするには、[ビジュアルに Power BI ロケールを追加します](./localization.md)。
 
-    詳細については、[TSLint の構成に関する公式ドキュメント](https://palantir.github.io/tslint/usage/configuration/)を参照してください。
+```json
+{
+  "visual": {
+     // The visual's internal name.
+    "name": "<visual project name>",
+
+    // The visual's display name.
+    "displayName": "<visual project name>",
+
+    // The visual's unique ID.
+    "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
+
+    // The name of the visual's main class. Power BI creates the instance of this class to start using the visual in a Power BI report.
+    "visualClassName": "Visual",
+
+    // The visual's version number.
+    "version": "1.0.0",
+    
+    // The visual's description (optional)
+    "description": "",
+
+    // A URL linking to the visual's support page (optional).
+    "supportUrl": "",
+
+    // A link to the source code available from GitHub (optional).
+    "gitHubUrl": ""
+  },
+  // The version of the Power BI API the visual is using.
+  "apiVersion": "2.6.0",
+
+  // The name of the visual's author and email.
+  "author": { "name": "", "email": "" },
+
+  // 'icon' holds the path to the icon file in the assets folder; the visual's display icon.
+  "assets": { "icon": "assets/icon.png" },
+
+  // Contains the paths for JS libraries used in the visual.
+  // Note: externalJS' isn't used in the Power BI visuals tool version 3.x.x or higher.
+  "externalJS": null,
+
+  // The path to the 'visual.less' style file.
+  "style": "style/visual.less",
+
+  // The path to the `capabilities.json` file.
+  "capabilities": "capabilities.json",
+
+  // The path to the `dependencies.json` file which contains information about R packages used in R based visuals.
+  "dependencies": null,
+
+  // An array of paths to files with localizations.
+  "stringResources": []
+}
+```
 
 ## <a name="next-steps"></a>次の手順
 
-* ビジュアル、ユーザー、Power BI の相互作用について理解をさらに深めるには、[ビジュアルの概念](./power-bi-visuals-concept.md)に関する詳細を参照してください。
+* ビジュアル、ユーザー、および Power BI 間の相互作用を理解するには、「[Power BI ビジュアルの概念](./power-bi-visuals-concept.md)」を参照してください。
 
 * [ステップ バイ ステップ ガイド](./custom-visual-develop-tutorial.md)を使って、独自の Power BI ビジュアルをゼロから開発しましょう。

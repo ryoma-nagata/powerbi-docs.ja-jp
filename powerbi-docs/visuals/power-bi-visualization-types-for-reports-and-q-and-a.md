@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099920"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040483"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
@@ -145,6 +145,13 @@ ms.locfileid: "74099920"
 
 >[!TIP]
 >円グラフでは、全体に対する部分の関係が示されます。 
+
+### <a name="power-apps-visual"></a>Power Apps ビジュアル
+![Power Apps ビジュアル](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
+
+レポート デザイナーでは、パワー アプリを作成し、それをビジュアルとして Power BI レポートに埋め込むことができます。 コンシューマーは、Power BI レポート内でそのビジュアルを操作できます。 
+
+詳細については、[レポートへの Power Apps ビジュアルの追加](power-bi-visualization-powerapp.md)に関する記事を参照してください。
 
 ### <a name="qa-visual"></a>Q&A ビジュアル
 ![Q&A ビジュアル](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)

@@ -6,32 +6,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dbde3abec716e4868a6efce98129ea8c76506d7e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5693e75ff186c3edb95eeaa92d26823e0e0d3a60
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865992"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039072"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop で Python スクリプトを実行する
 
-**Power BI Desktop** で Python スクリプトを直接実行し、生成されたデータセットを Power BI Desktop データ モデルにインポートできます。
+Power BI Desktop で Python スクリプトを直接実行し、生成されたデータセットを Power BI Desktop データ モデルにインポートできます。
 
 ## <a name="install-python"></a>Python をインストールする
 
-Power BI Desktop で Python スクリプトを実行するには、ローカル コンピューターに **Python** をインストールする必要があります。 **Python** は、[公式の Python ダウンロード ページ](https://www.python.org/)からダウンロードできます。 現在の Python スクリプト リリースでは、インストール パスで Unicode 文字とスペースがサポートされています。
+Power BI Desktop で Python スクリプトを実行するには、ローカル コンピューターに Python をインストールする必要があります。 Python は、[Python Web サイト](https://www.python.org/)からダウンロードできます。 現在の Python スクリプト リリースでは、インストール パスで Unicode 文字とスペースがサポートされています。
 
 ### <a name="install-required-python-packages"></a>必要な Python パッケージをインストールする
 
 Power BI Python 統合では、次の 2 つの Python パッケージがインストールされている必要があります。
 
-- [Pandas](https://pandas.pydata.org/) - データの操作と分析を行うためのソフトウェア ライブラリです。 ここでは、数値テーブルと時系列を操作するためのデータ構造と操作が提供されます。 インポートしたデータは、[pandas データ フレーム](https://www.tutorialspoint.com/python_pandas/python_pandas_dataframe.htm)に含まれている必要があります。 データ フレームは、2 次元のデータ構造体です。 たとえば、データは行と列の表形式で配置されます。
-- [Matplotlib](https://matplotlib.org/) - Python 用のプロット ライブラリとその数値解析の拡張機能 [NumPy](https://www.numpy.org/) です。 これにより、汎用 GUI ツールキット (Tkinter、wxPython、Qt、GTK+ など) を使用して、アプリケーションにプロットを埋め込むためのオブジェクト指向 API が提供されます。
+* [Pandas](https://pandas.pydata.org/)。 データの操作と分析を行うためのソフトウェア ライブラリです。 ここでは、数値テーブルと時系列を操作するためのデータ構造と操作が提供されます。 インポートしたデータは、[pandas データ フレーム](https://www.tutorialspoint.com/python_pandas/python_pandas_dataframe.htm)に含まれている必要があります。 データ フレームは、2 次元のデータ構造体です。 たとえば、データは行と列の表形式で配置されます。
+* [Matplotlib](https://matplotlib.org/)。 Python 用のプロット ライブラリとその数値解析の拡張機能 [NumPy](https://www.numpy.org/) です。 これにより、Tkinter、wxPython、Qt、GTK+ など、汎用 GUI ツールキットを使用して、アプリケーションにプロットを埋め込むためのオブジェクト指向 API が提供されます。
 
-1. コンソールまたはシェルで、[pip](https://pip.pypa.io/en/stable/) コマンドライン ツールを使用して 2 つのパッケージをインストールします。 pip ツールは、より新しいバージョンの Python でパッケージ化されています。
+コンソールまたはシェルで、[pip](https://pip.pypa.io/en/stable/) コマンドライン ツールを使用して 2 つのパッケージをインストールします。 pip ツールは、より新しいバージョンの Python でパッケージ化されています。
 
 ```CMD
 pip install pandas
@@ -42,13 +42,13 @@ pip install matplotlib
 
 Python スクリプトを有効にするには
 
-1. Power BI Desktop で、 **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]**  >  **[Python スクリプト]** を選択します。 [Python スクリプトのオプション] ページが表示されます。
+1. Power BI Desktop で、 **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]**  >  **[Python スクリプト]** を選択します。 **[Python スクリプトのオプション]** ページが表示されます。
 
-   ![](media/desktop-python-scripts/python-scripts-7.png)
+   ![Power BI Desktop 用の Python スクリプト オプション](media/desktop-python-scripts/python-scripts-7.png)
 
-1. 必要に応じて、 **[Python ホーム ディレクトリが検出されました]** テキスト ボックスでローカルの Python インストール パスを指定します。 
+1. 必要に応じて、 **[Python ホーム ディレクトリが検出されました]** でローカルの Python インストール パスを指定します。
 
-   上の画像では、Python のインストール ローカル パスは **C:\Python** です。 パスが、Power BI Desktop で使用するローカルの Python インストールであることを確認します。
+   上の画像では、Python のインストール ローカル パスは *C:\Python* です。 パスが、Power BI Desktop で使用するローカルの Python インストールであることを確認します。
 
 1. **[OK]** を選択します。
 
@@ -59,6 +59,7 @@ Python スクリプトを有効にするには
 わずかな手順で、Python スクリプトを実行し、データ モデルを作成できます。 このモデルでは、レポートを作成して Power BI サービスで共有することができます。
 
 ### <a name="prepare-a-python-script"></a>Python スクリプトを準備する
+
 まず、ローカル Python 開発環境でスクリプトを作成し、それが正常に実行されることを確認します。 たとえば、pandas をインポートしてデータ フレームを使用する、シンプルな Python スクリプトを次に示します。
 
 ```python
@@ -67,7 +68,8 @@ data = [['Alex',10],['Bob',12],['Clarke',13]]
 df = pd.DataFrame(data,columns=['Name','Age'],dtype=float)
 print (df)
 ```
-実行すると、次のように出力されます。
+
+このスクリプトを実行すると、次のように返されます。
 
 ```python
      Name   Age
@@ -82,31 +84,31 @@ Power BI Desktop で Python スクリプトを準備し、実行するとき、�
 * Python スクリプトは、30 分以上実行するとタイムアウトになります
 * ユーザー入力の待機中など、Python スクリプトの対話的呼び出しでスクリプトの実行が停止します
 * Python スクリプト内で作業ディレクトリを設定する場合は、作業ディレクトリへの相対パスではなく、完全パスを定義する*必要があります*
-* 現在、入れ子になったテーブルはサポートされていません 
+* 現在、入れ子になったテーブルはサポートされていません
 
 ### <a name="run-your-python-script-and-import-data"></a>Python スクリプトを実行し、データをインポートする
 
 Power BI Desktop で Python スクリプトを実行するには
 
 1. [ホーム] リボンで **[データの取得]**  >  **[その他]** を選択します。
-   
+
 1. 次の画像に示すように、 **[その他]**  >  **[Python スクリプト]** を選択します。
 
-   ![](media/desktop-python-scripts/python-scripts-1.png)
-   
-1. **[接続]** を選択します。 ご利用のローカル コンピューターで最後にインストールした Python バージョンが、Python エンジンとして選択されます。 表示される [Python スクリプト] ダイアログ ボックスにスクリプトをコピーします。 ここでは、前に示したシンプルな Python スクリプトを入力します。
+   ![[データの取得] で Python スクリプトを選択する](media/desktop-python-scripts/python-scripts-1.png)
 
-   ![](media/desktop-python-scripts/python-scripts-6.png)
+1. **[接続]** を選択します。 ローカルで最後にインストールした Python バージョンが、Python エンジンとして選択されます。 表示される **[Python スクリプト]** ダイアログ ボックスにスクリプトをコピーします。 ここでは、前に示したシンプルな Python スクリプトを入力します。
 
-1. **[OK]** を選択します。 スクリプトが正常に実行されると、[ナビゲーター] ダイアログ ボックスが表示され、データを読み込んで使用できます。 この例では、画像に示されているように **[df]** チェック ボックスをオンにして、 **[読み込み]** を選択します。
+   ![Python スクリプトのサンプル](media/desktop-python-scripts/python-scripts-6.png)
 
-   ![](media/desktop-python-scripts/python-scripts-5.png) 
+1. **[OK]** を選択します。 スクリプトが正常に実行されると、 **[ナビゲーター]** が表示され、データを読み込んで使用できます。 この例では、図に示すように **df** を選択し、 **[読み込み]** を選択します。
+
+   ![読み込みと使用の対象となるデータを示すナビゲーター](media/desktop-python-scripts/python-scripts-5.png) 
 
 ### <a name="troubleshooting"></a>トラブルシューティング
 
 Python がインストールされていない、または特定されていない場合は、警告が表示されます。 複数のローカル コンピューターがインストールされている場合は、警告が表示されることもあります。 前の「Python をインストールする」セクションおよび「Python スクリプトを有効にする」セクションに戻って、確認してください。
 
-![](media/desktop-python-scripts/python-scripts-3.png)
+![Python がインストールされていないことを示す警告](media/desktop-python-scripts/python-scripts-3.png)
 
 ### <a name="refresh"></a>更新
 

@@ -1,6 +1,6 @@
 ---
 title: Power BI レポート ビルダーでの式の例
-description: 式は、Power BI ページ分割されたレポート ビルダーのページ分割されたレポートで、内容とレポートの外観を制御するためによく使われます。
+description: 式は、Power BI Report Builder のページ分割されたレポートで、内容とレポートの外観を制御するためによく使われます。
 ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
-ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
+ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72728562"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953976"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI レポート ビルダーでの式の例
-式は、Power BI ページ分割されたレポート ビルダーのページ分割されたレポートで、内容とレポートの外観を制御するためによく使われます。 式を記述するには Microsoft Visual Basic を使い、式では組み込み関数、カスタム コード、レポートとグループ変数、およびユーザー定義変数を使うことができます。 式は等号 (=) で始まります。   
+式は、Power BI Report Builder のページ分割されたレポートで、内容とレポートの外観を制御するためによく使われます。 式を記述するには Microsoft Visual Basic を使い、式では組み込み関数、カスタム コード、レポートとグループ変数、およびユーザー定義変数を使うことができます。 式は等号 (=) で始まります。   
 
 このトピックでは、レポートの一般的なタスクに使用できる式の例を示します。  
   

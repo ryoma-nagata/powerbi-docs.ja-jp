@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861320"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039105"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI でのビジュアルの種類
 レポート、ダッシュボード、Q&A でビジュアルを見つけることができます。 これらのビジュアルの種類には、Power BI でパッケージ化されているものと、"*カスタム ビジュアル*" として作成されているものがあります。 カスタム ビジュアルは、Power BI の外部で作成され、レポート "*デザイナー*" でそれを Power BI のレポートとダッシュボードに追加できるようになっています。 
@@ -139,6 +139,19 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 ![円グラフ](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 円グラフでは、全体に対する部分の関係が示されます。 
+
+### <a name="power-apps-visual"></a>Power Apps のビジュアル
+![Power Apps のビジュアル](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+レポート デザイナーでは、パワー アプリを作成し、それを Power BI レポートに埋め込むことができます。 ユーザーは、Power BI レポート内でそのビジュアルを操作できます。 
+
+### <a name="qa-visual"></a>Q&A ビジュアル
+![Q&A ビジュアル](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>[ダッシュボードでの Q&A エクスペリエンス](../power-bi-tutorial-q-and-a.md)と同様に、Q&A ビジュアルでは、自然言語を使用してデータに関する質問をすることができます。 
+
+詳細については、[Power BI の Q&A ビジュアル](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)に関するページを参照してください。
 
 ### <a name="ribbon-chart"></a>リボン グラフ
 ![リボン グラフ](media/end-user-visual-type/power-bi-ribbon.png)

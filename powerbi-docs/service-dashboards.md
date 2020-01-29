@@ -1,7 +1,7 @@
 ---
 title: Power BI デザイナーのダッシュボードの概要
 description: ダッシュボードは、Power BI サービスの主要な機能です。 これでは、ストーリーをしばしばキャンバスと呼ばれる 1 つのページで視覚化します。
-author: maggieMSFT
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872738"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160790"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードの概要
 
@@ -38,7 +38,7 @@ Power BI の*ダッシュボード*は、ストーリーをしばしばキャン
 ダッシュボードは単なるきれいな絵ではありません。 高度な対話機能を備え、基になっているデータが変化するとタイルが更新されます。
 
 ## <a name="who-can-create-a-dashboard"></a>ダッシュボードを作成できるユーザー
-ダッシュボードを作成する機能は "*作成者*" の機能であり、レポートに対する編集のアクセス許可が必要です。 編集のアクセス許可はレポート作成者と、作成者からアクセス許可を付与された同僚が使用できます。 たとえば、David が WorkspaceABC でレポートを作成し、そのワークスペースのメンバーとしてあなたを追加した場合、あなたと David の両方に編集のアクセス許可があります。 これに対して、直接または [Power BI アプリ](service-create-distribute-apps.md)の一部としてレポートが共有されている場合、あなたはレポートを "*使用*" することになります。 ダッシュボードにタイルをピン留めすることができない場合があります。 
+ダッシュボードを作成する機能は "*作成者*" の機能であり、レポートに対する編集のアクセス許可が必要です。 編集のアクセス許可はレポート作成者と、作成者からアクセス許可を付与された同僚が使用できます。 たとえば、David がワークスペース ABC でレポートを作成し、そのワークスペースのメンバーとしてあなたを追加した場合、あなたと David の両方に編集のアクセス許可があります。 これに対して、直接または [Power BI アプリ](service-create-distribute-apps.md)の一部としてレポートが共有されている場合、あなたはレポートを "*使用*" することになります。 ダッシュボードにタイルをピン留めすることができない場合があります。 
 
 > [!IMPORTANT]
 > ワークスペースでダッシュボードを作成するには、[Power BI Pro](service-free-vs-pro.md) のライセンスが必要です。 Power BI Pro ライセンスを使用せずに、自分のマイ ワークスペースにダッシュボードを作成できます。
@@ -52,7 +52,7 @@ Power BI の*ダッシュボード*は、ストーリーをしばしばキャン
 | ページ |1 ページ |1 ページ以上 |
 | データ ソース |ダッシュボードごとに、1 つ以上のレポートおよび 1 つ以上のデータセット |レポートごとに 1 つのデータセット |
 | Power BI Desktop での使用可能性 |いいえ | はい。 Power BI Desktop でレポートを作成および表示することができます |
-| 受信登録する |はい。 ダッシュボードをサブスクライブできます |はい。 レポート ページにサブスクライブできます |
+| 購読 |はい。 ダッシュボードをサブスクライブできます |はい。 レポート ページにサブスクライブできます |
 | フィルター処理 |いいえ。 フィルター処理またはスライスはできません |はい。 さまざまな方法でフィルター処理、強調表示、スライスできます |
 | おすすめ |はい。 1 つのダッシュボードを "*おすすめの*" ダッシュボードとして設定できます |いいえ |
 | お気に入り | はい。 複数のダッシュボードを "*お気に入り*" として設定できます | はい。 複数のレポートを "*お気に入り*" として設定できます

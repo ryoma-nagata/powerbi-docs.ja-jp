@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761044"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953503"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop の新機能
 
@@ -23,7 +23,7 @@ ms.locfileid: "75761044"
 
 12 月の更新プログラムは、雪山をボブスレーで滑り降りるくらい楽しい内容です。 
 
-[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=58494)から最新バージョンの Power BI Desktop を取得します。 Windows 10 を実行している場合、Windows 10 の Microsoft Store から Power BI Desktop を取得することもできます。 Power BI Desktop のインストール方法に関係なくバージョン番号が異なる場合でも、月次バージョン番号は同じです。 Power BI Desktop のダウンロードとインストールの詳細については、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」を参照してください。 
+[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=58494)から最新バージョンの Power BI Desktop を取得します。 Windows 10 を実行している場合、[Microsoft Store](https://aka.ms/pbidesktopstore) から Power BI Desktop を取得することもできます。 Power BI Desktop のインストール方法に関係なくバージョン番号が異なる場合でも、月次バージョン番号は同じです。 Power BI Desktop のダウンロードとインストールの詳細については、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」を参照してください。 
 
 > [!IMPORTANT]
 > 2019 年 9 月のリリース以降、Power BI Desktop は、サポートされているすべての言語を含む 1 つの .exe ファイルとしてのみリリースされています。 .msi バージョンはリリースされなくなります。
@@ -92,7 +92,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 ## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop の毎月の更新プログラムのビデオ
 次のビデオでは、それぞれの更新について説明しています。 ブログの投稿からこのビデオを視聴することもできます。
 
-> [!VIDEO https://youtu.be/eCEwgZsVUOs]
+> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
 
 
 ## <a name="more-videos"></a>他のビデオ

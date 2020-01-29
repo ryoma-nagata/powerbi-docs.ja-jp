@@ -1,6 +1,6 @@
 ---
 title: Power BI レポート ビルダーでの式
-description: 式は、Power BI の改ページ調整されたレポート ビルダーのページ分割されたレポート全体で、データの取得、計算、表示、グループ化、並べ替え、フィルター処理、パラメーター化、および書式設定を行うために広く使用されます。
+description: 式は、Power BI Report Builder のページ分割されたレポート全体で、データの取得、計算、表示、グループ化、並べ替え、フィルター処理、パラメーター化、および書式設定を行うために広く使用されます。
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3a72fd967eeb24cfa1093d16c4434447d5fc89d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840627"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953855"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Power BI レポート ビルダーでの式
-  式は、Power BI の改ページ調整されたレポート ビルダーのページ分割されたレポート全体で、データの取得、計算、表示、グループ化、並べ替え、フィルター処理、パラメーター化、および書式設定を行うために広く使用されます。 
+  式は、Power BI Report Builder のページ分割されたレポート全体で、データの取得、計算、表示、グループ化、並べ替え、フィルター処理、パラメーター化、および書式設定を行うために広く使用されます。 
   
   式には、多くのレポート アイテムのプロパティを設定できます。 式は、レポートのコンテンツ、デザイン、および対話機能を制御するために役立ちます。 式は、Microsoft Visual Basic で記述され、レポート定義内に保存され、レポートを実行したときにレポート プロセッサによって評価されます。  
   

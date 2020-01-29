@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791689"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039040"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 
@@ -317,10 +317,9 @@ Power BI では、更新失敗時だけでなく、非アクティブ状態が�
 
 ## <a name="automatic-page-refresh"></a>ページの自動更新
 
-ページの自動更新はレポート ページ レベルで動作し、レポート作成者は、ページが使用されているときにのみアクティブなページ内のビジュアルの更新間隔を設定できます。 ページの自動更新は、DirectQuery データ ソースでのみ使用できます。 最小更新間隔は、レポートが発行されているワークスペースの種類と、Premium ワークスペースの容量の管理者設定によって変わります。
+ページの自動更新はレポート ページ レベルで動作し、レポート作成者は、ページが使用されているときにのみアクティブなページ内のビジュアルの更新間隔を設定できます。 ページの自動更新は、DirectQuery データ ソースでのみ使用できます。 最小更新間隔は、レポートが発行されているワークスペースの種類と、Premium ワークスペースの容量の管理者設定と[埋め込まれたワークスペース](developer/embedding.md)によって変わります。
 
 ページの自動更新の詳細については、[ページの自動更新](desktop-automatic-page-refresh.md)に関する記事を参照してください。
-
 
 ## <a name="best-practices"></a>ベスト プラクティス
 

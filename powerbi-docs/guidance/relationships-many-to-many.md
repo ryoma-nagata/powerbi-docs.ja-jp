@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/25/2019
 ms.author: v-pemyer
-ms.openlocfilehash: becde542f68b2f9fb1412a904793f46a8f154856
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308251"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161296"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多対多のリレーションシップのガイダンス
 
@@ -120,7 +120,7 @@ ms.locfileid: "75308251"
 - 関連エンティティを格納するためのブリッジング テーブルを追加する
 - 3 つのテーブル間に一対多リレーションシップを作成する
 - フィルター伝達がファクトの種類のテーブルまで続くように、**1 つ**の双方向リレーションシップを構成する
-- ID 値が欠落していることが適切でない場合は、ID 列の **Is Nullable** プロパティを TRUE に設定する。これで、欠落値が発生した場合に、データ更新が失敗するようになります
+- ID 値が欠落していることが適切でない場合は、ID 列の **Is Nullable** プロパティを FALSE に設定する。これで、欠落値が発生した場合に、データ更新が失敗するようになります。
 - ブリッジング テーブルを非表示にする (レポートに必要な追加の列やメジャーが含まれている場合を除く)
 - レポートに適さない ID 列をすべて非表示にする (ID が代理キーである場合など)
 - ID 列を表示したままにすることが妥当である場合は、リレーションシップの "一" 側にあることを確認する。つまり、常に "多" 側の列を非表示にします。 これで、最適なフィルター パフォーマンスが得られます。

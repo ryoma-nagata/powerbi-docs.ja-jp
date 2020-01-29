@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2010
+ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bb98f7bbb92b72512f880513ec94ccb55d64fc67
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7ed0920f66c178c23e6c4db22ff6acd998619522
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872147"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160560"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Power BI サービスでレポートとダッシュボードの連絡先情報を設定する
 この記事では、Power BI サービスでダッシュボードまたはレポートに連絡先情報を設定する方法について説明します。
@@ -60,6 +60,7 @@ ms.locfileid: "73872147"
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 * 連絡先は、Power BI サービスで作成される新しい項目に対して自動的に設定されます。 既存の項目には、ワークスペースの既定値が表示されます。
 * 連絡先リストには任意のユーザーまたはグループを設定できますが、項目へのアクセス許可が自動的に付与されることはありません。 共有を使用するか、それを必要とするユーザーにロールを使用してワークスペースへのアクセス権を付与します。 
+* 項目レベルの連絡先リストは、発行時にアプリにプッシュされることはありません。 新しいアプリのナビゲーション エクスペリエンスには、多数のアプリ ユーザーからのフィードバックを管理するために役立つサポート URL が提供されています。
 
 
 ## <a name="next-steps"></a>次の手順
