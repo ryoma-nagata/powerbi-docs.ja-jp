@@ -1,19 +1,19 @@
 ---
 title: データセットにデータをプッシュする
 description: Power BI データセットにデータをプッシュする
-author: rkarlin
-ms.author: rkarlin
-ms.reviewer: madia
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ceebf32f62395db8741eaf43cfc494652fbbbf98
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875439"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818803"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
 
@@ -26,8 +26,8 @@ Power BI API を使うと、Power BI データセットにデータをプッシ�
 * 手順 1:[アプリを Azure AD に登録する](walkthrough-push-data-register-app-with-azure-ad.md)
 * 手順 2:[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)
 * 手順 3:[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)
-* 手順 4:[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)
-* 手順 5:[Power BI テーブルに行を追加する](walkthrough-push-data-add-rows.md)
+* 手順 4.[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)
+* 手順 5.[Power BI テーブルに行を追加する](walkthrough-push-data-add-rows.md)
 
 次のセクションでは、データをプッシュする Power BI API 操作の概要を説明します。
 

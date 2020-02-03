@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 024e04bd309080b5b31e43bde7c783255bfc3dba
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851060"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537234"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Power BI 内でデータの秘密度ラベルを有効にする (プレビュー)
 
@@ -36,7 +36,7 @@ Power BI 内で Microsoft Information Protection のデータの秘密度ラベ�
 ![[Information Protection] セクションを探す](media/service-security-enable-data-sensitivity-labels/enable-data-sensitivity-labels-01.png)
 
 **[Information Protection]** セクションで、次の手順を実行します。
-1.  **[Microsoft Information Protection 秘密度ラベルの有効化]** トグルを有効にし、 **[適用]** を押します。 この手順では、秘密度ラベルが組織全体に表示されるようになる "*だけ*" です。ラベルは適用されません。 Power BI 内でこれらのラベルを適用できるユーザーを定義するには、手順 2. を完了する必要があります。
+1.  **[Microsoft Information Protection 秘密度ラベルの有効化]** トグルを有効にし、**[適用]** を押します。 この手順では、秘密度ラベルが組織全体に表示されるようになる "*だけ*" です。ラベルは適用されません。 Power BI 内でこれらのラベルを適用できるユーザーを定義するには、手順 2. を完了する必要があります。
 2.  Power BI 資産の秘密度ラベルを適用および変更できるユーザーを定義します。 この手順には、次の 3 つのアクションが含まれます。
     1.  **[Power BI コンテンツとデータの秘密度ラベルの設定]** トグルを有効にします。
     2.  関連するセキュリティ グループを選択します。 既定では、組織内のすべてのユーザーが秘密度ラベルを適用できます。 ただし、特定のユーザーまたはセキュリティ グループに対してのみ秘密度ラベルの設定を有効にすることができます。 組織全体または特定のセキュリティ グループのどちらかを選択すると、ユーザーまたはセキュリティ グループの特定のサブセットを除外できます。
@@ -73,3 +73,4 @@ Power BI では、Microsoft Information Protection 秘密度ラベルを使用�
 * [Power BI におけるデータ保護の概要](service-security-data-protection-overview.md)
 * [Power BI 内でデータの秘密度ラベルを適用する](../designer/service-security-apply-data-sensitivity-labels.md)
 * [Power BI 内で Microsoft Cloud App Security の制御を使用する](service-security-using-microsoft-cloud-app-security-controls.md)
+* [データ保護メトリック レポート](service-security-data-protection-metrics-report.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622451"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710133"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI でのテンプレート アプリの作成に関するヒント
 
@@ -134,6 +134,17 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 * pbix をテンプレート ワークスペースにアップロードする前に、不要な接続すべてをアンロードしてください。
 * Power BI の「[レポートとビジュアルのデザインに関するベスト プラクティス](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)」に従って、ユーザーに対する効果を最大限に高め、配布の承認を得ます。
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
+
+## <a name="create-a-download-link-for-the-app"></a>アプリのダウンロード リンクを作成する
+
+AppSource でテンプレート アプリを発行した後、Web サイトから次のいずれかへのダウンロード リンクを作成することを検討します。
+* AppSource ダウンロード ページ - AppSource からリンクを入手して、だれでも表示できます。
+* Power BI - Power BI ユーザーが表示できます。
+
+ユーザーを Power BI 内のアプリのダウンロード リンクにリダイレクトするには、[GitHub リポジトリ](https://github.com/microsoft/Template-apps-examples/tree/master/src)のコード例を参照してください。
+[![アプリのダウンロード リンク](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+
 
 ## <a name="known-limitations"></a>既知の制限事項
 

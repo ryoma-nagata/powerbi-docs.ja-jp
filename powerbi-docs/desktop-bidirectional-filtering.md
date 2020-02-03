@@ -7,38 +7,33 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8aeae0075ed32a832c27f475ef3786b7df76576c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 141dabdce7816d21c49d8c7f98d1438c2fc20e8d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761774"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709835"
 ---
 # <a name="enable-bidirectional-cross-filtering-for-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery で双方向のクロス フィルタリングを有効にする
 
-テーブルをフィルター処理してデータの適切なビューを作成するレポート作成者 (およびデータ モデラー) にとって、レポートへのフィルター処理の適用方法の決定は困難な問題です。テーブルのフィルター コンテキストはリレーションシップの一方の側でのみ保持されており、目的の結果を得るためには複雑な DAX 式が必要になることがよくあります。
+テーブルをフィルター処理してデータの適切なビューを作成する場合、レポート作成者とデータ モデラーは、レポートにフィルターを適用する方法を決定するという課題に直面します。 以前は、テーブルのフィルター コンテキストはリレーションシップの一方で保持され、もう一方では保持されていませんでした。 この配置では、多くの場合、必要な結果を得るために複雑な DAX 式が必要でした。
 
-双方向のクロス フィルタリングを使用すると、関連するテーブルを処理するときのフィルターの適用方法に関して制御可能な範囲が広がり、テーブル リレーションシップの*両方の*側でフィルターを適用できるようになります。 この機能は、テーブル リレーションシップのもう一方の側の第 2 の関連テーブルにフィルター コンテキストを伝達することによって実現されます。
+双方向のクロスフィルター処理により、レポート作成者とデータ モデラーは、関連テーブルを操作するときにフィルターを適用する方法をより詳細に制御できるようになりました。 双方向のクロスフィルター処理により、テーブル リレーションシップの "*両*" 側にフィルターを適用できます。 テーブル リレーションシップの反対側にある 2 つ目の関連テーブルにフィルター コンテキストを反映することにより、フィルターを適用できます。
 
-## <a name="detailed-whitepaper-for-bidirectional-cross-filtering"></a>双方向のクロス フィルタリング用の詳細なホワイトペーパー
-Power BI Desktop での双方向のクロス フィルタリングについては、[詳細なホワイトペーパー](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)を参照してください (同じ動作の SQL Server Analysis Services 2016 についても説明されています)。
+## <a name="enable-bidirectional-cross-filtering-for-directquery"></a>DirectQuery の双方向のクロスフィルタリングを有効にする
 
-* 「[Bidirectional cross-filtering for Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)」 (Power BI Desktop 向けの双方向のクロス フィルタリング) ホワイトペーパーをダウンロードする
+**[リレーションシップの編集]** ダイアログ ボックスでクロスフィルター処理を有効にできます。 リレーションシップのクロスフィルター処理を有効にするには、次のオプションを構成する必要があります。
 
-## <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>DirectQuery の双方向のクロス フィルタリングを有効にする
+* **[クロス フィルターの方向]** を **[双方向]** に設定します。
+* **[両方向にセキュリティ フィルターを適用する]** を選択します。
 
-クロス フィルタリングを有効にするには、リレーションシップの **[リレーションシップの編集]** ダイアログ ボックスで、以下を選択する必要があります。
-
-* **[クロス フィルターの方向]** は、 **[双方向]** に設定する必要があります
-* **[両方向にセキュリティ フィルターを適用する]** もオンにする必要があります
-
-  ![](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
+  ![Power BI Desktop で双方向フィルター処理を構成します。](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
 
 > [!NOTE]
-> Power BI Desktop でクロス フィルタリングの DAX 式を作成するときは、*UserName* ではなく *UserPrincipalName* (多くの場合ユーザーのログインと同じ、<em>joe@contoso.com</em> など) を使用します。 そのため、*UserName* (または、たとえば EmployeeID) を *UserPrincipalName* にマップする関連テーブルの作成が必要になることがあります。
+> Power BI Desktop でクロスフィルターの DAX 数式を作成する場合は *UserPrincipalName* を使用します。 多くの場合、このフィールドはユーザーのログインと同じです。たとえば、*UserName* ではなく、<em>joe@contoso.com</em> です。 そのため、*UserName* または *EmployeeID* を *UserPrincipalName* にマップする関連テーブルの作成が必要です。
 
-詳細な情報、および双方向のクロス フィルタリングの動作の例については、前に示した[ホワイトペーパー](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)を参照してください。
+双方向のクロス フィルター処理の詳細としくみの例については、[Power BI Desktop の双方向クロスフィルター処理のホワイト ペーパー](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)を参照してください。
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223874"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710175"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 を接続する
 
@@ -45,7 +45,7 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 1. ストレージ アカウントは、ご利用の Power BI テナントと同じ AAD テナントに作成する必要がある。
 2. ストレージ アカウントは、ご利用の Power BI テナントと同じリージョンに作成する必要がある。 Power BI テナントが配置されている場所を特定するには、「[Power BI テナントの場所](service-admin-where-is-my-tenant-located.md)」を参照してください。
 3. ストレージ アカウントでは、*階層的名前空間*の機能が有効になっている必要がある。
-4. ストレージ アカウント上で、Power BI サービスに*閲覧者*ロールが付与されている必要がある。
+4. Power BI サービスには、ストレージ アカウントで *閲覧者*ロールと*データ アクセス* ロールが付与されている必要がある。
 5. **powerbi** という名前のファイルシステムが作成されている必要がある。
 6. 作成する **powerbi** ファイルシステムに対して、Power BI サービスが承認されている必要がある。
 
@@ -59,16 +59,13 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 2. 必ず、階層型名前空間の機能を有効にします。
 3. レプリケーション設定を **[読み取りアクセス地理冗長ストレージ (RA-GRS)]** に設定することが推奨されています。
 
-### <a name="grant-the-power-bi-service-a-reader-role"></a>Power BI サービスに閲覧者ロールを付与する
+### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>Power BI サービスに閲覧者ロールとデータ アクセス ロールを付与する
 
-次に、作成したストレージ アカウントで、Power BI サービスに閲覧者ロールを付与する必要があります。 組み込みのロールなので、手順は簡単です。 
+次に、作成したストレージ アカウントで、Power BI サービスに閲覧者ロールとデータ アクセス ロールを付与する必要があります。 これらは両方とも組み込みロールであるため、手順は簡単です。 
 
 [組み込み RBAC ロールの割り当て](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)に関する記事の手順に従います。
 
-**[ロール割り当ての追加]** ウィンドウで、 **[閲覧者]** ロールを選択して Power BI サービスに割り当てます。 次に、検索を利用して、 **[Power BI サービス]** を探します。 次に示す画像では、Power BI サービスに **[閲覧者]** ロールが割り当てられています。
-
-![[閲覧者] ロールが割り当てられた Power BI サービス](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
-
+**[ロール割り当ての追加]** ウィンドウで、 **[閲覧者]** ロールと **[データ アクセス]** ロールを選択して Power BI サービスに割り当てます。 次に、検索を利用して、 **[Power BI サービス]** を探します。 
 
 > [!NOTE]
 > アクセス許可がポータルから Power BI に反映されるまでに、少なくとも 30 分は見込んでください。 ポータルでアクセス許可を変更した場合は、そのアクセス許可が Power BI に反映されるまでに 30 分は見込んでください。 

@@ -1,27 +1,27 @@
 ---
-title: 色の書式設定と軸のプロパティの概要
-description: 色の書式設定と軸のプロパティの概要
+title: レポートの視覚化の書式設定の概要
+description: レポートの視覚化で書式設定オプションの使い方
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762257"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540628"
 ---
-# <a name="get-started-with-color-formatting-and-axis-properties"></a>色の書式設定と軸のプロパティの概要
-**Power BI** では、データ系列、データ ポイント、そして視覚化の背景の色も変更できます。 また X 軸と Y 軸の表示方法を変更することもでき、ダッシュボードとレポートの表示方法を完全に制御できます。
+# <a name="getting-started-with-the-formatting-pane"></a>書式設定ウィンドウの概要
+レポートに対する編集権限を持っている場合は、さまざまな書式設定オプションを使用できます。 **Power BI** レポートでは、データ系列、データ ポイント、そして視覚化の背景の色も変更できます。 X 軸と Y 軸の表示方法を変更できます。 視覚化、図形、タイトルのフォント プロパティを書式設定することもできるため、レポートの表示方法を完全に制御できます。
 
-開始するには、 **[マイ ワークスペース]** ウィンドウの **[レポート]** を選択します。 次に、上部のメニュー領域にある **[レポートの編集]** を選択します。  
+開始するには、Power BI Desktop または Power BI サービスでレポートを開きます。 どちらも、ほぼ同じ書式設定オプションが提供されています。 Power BI サービスでレポートを開くときは、必ずメニュー バーから **[レポートの編集]** を選択してください。  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
+![編集オプションが表示されているメニュー バー](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
 レポートの編集中に視覚化を選択すると、 **[視覚化]** ウィンドウが表示され、そこで視覚化を追加したり変更したりできます。 使用できる視覚化のすぐ下には、 **[フィールド]** アイコン (横並びの縦棒)、 **[書式]** アイコン (ペイント ブラシ)、 **[分析]** アイコン (虫眼鏡) という 3 つのアイコンがあります。 次の図では、 **[フィールド]** アイコンが選択されていることが、アイコンの下に黄色のバーによって示されています。
 

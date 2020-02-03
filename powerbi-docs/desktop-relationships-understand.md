@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 56ff7d09530030d1a1ae046a3439022cbf638b9d
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
+ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760574"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76309100"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>Power BI Desktop でモデル リレーションシップを作成する
 
@@ -227,4 +227,6 @@ _[参照整合性を想定]_ プロパティは、同じデータ ソースに�
 
 - [Power BI のスター スキーマおよび重要性について](guidance/star-schema.md)
 - [多対多のリレーションシップのガイダンス](guidance/relationships-many-to-many.md)
+- ビデオ:[Power BI リレーションシップの注意事項](https://youtu.be/78d6mwR8GtA)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

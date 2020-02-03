@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866422"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709775"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>パフォーマンス アナライザーを使用してレポート要素のパフォーマンスを確認する
 
@@ -58,6 +58,9 @@ ms.locfileid: "73866422"
 * **ビジュアルの表示** - ビジュアルが画面に描画されるのに必要な時間 (Web の画像やジオコーディングの取得に必要な時間を含む)。 
 * **その他** - クエリの準備、他のビジュアルの完了の待機、または他のバックグラウンド処理の実行のためにビジュアルが必要とする時間。
 
+**[期間 (ミリ秒)]** 値は、各操作の "*開始*" と "*終了*" のタイムスタンプの差を示します。 ほとんどのキャンバスおよびビジュアル操作は、複数の操作で共有される単一のユーザー インターフェイス スレッド上で順番に実行されます。 報告される期間には、他の操作が完了するまでキューに入れられた時間が含まれます。 GitHub の [パフォーマンス アナライザー サンプル](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)とそれに関連する[ドキュメント](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)で、ビジュアルでデータのクエリを実行する方法や、そのレンダリング方法の詳細がわかります。
+
+
 ![ログ情報の要素](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
 パフォーマンス アナライザーを使用して測定するレポート要素の操作が終わったら、 **[停止]** ボタンを選択できます。 **[停止]** を選択した後も、パフォーマンス情報はペインに残っているため、分析に利用できます。
@@ -89,3 +92,7 @@ ms.locfileid: "73866422"
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop での一般的なクエリ タスク](desktop-common-query-tasks.md)   
 
+パフォーマンス アナライザーのサンプルの詳細については、次のリソースを参照してください。
+
+* [パフォーマンス アナライザーのサンプル](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [パフォーマンス アナライザーのサンプルのドキュメント](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

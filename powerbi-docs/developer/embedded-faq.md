@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 7670f8147af54f3b3a6c2c0eba34bb3ca7843eda
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264088"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539051"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -63,12 +63,12 @@ Power BI Embedded は、開発者が埋め込み分析ソリューションを�
 
 機能の相違点の一覧の一部を次に示します。
 
-| 特性 | Power BI Embedded | Power BI Premium 容量 | Power BI Premium 容量 |
+| 特徴 | Power BI Embedded | Power BI Premium 容量 | Power BI Premium 容量 |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | A SKU-Azure 容量 | EM SKU-O365 容量 | P SKU-O365 容量 |
 | Power BI ワークスペースからアーティファクトを埋め込む | はい | はい | はい |
-| 埋め込みアプリケーションで Power BI レポートを使用する - SaaS | いいえ | はい | はい |
-| 埋め込みアプリケーションで Power BI レポートを使用する - PaaS | はい | はい | はい |
+| 組織向けの埋め込みアプリケーションで Power BI レポートを使用する  | いいえ | はい | はい |
+| 顧客向けの埋め込みアプリケーションで Power BI レポートを使用する | はい | はい | はい |
 | SharePoint で Power BI レポートを利用する | いいえ | はい | はい |
 | Dynamics で Power BI レポートを利用する | いいえ | はい | はい |
 | Teams で Power BI レポートを利用する (モバイル アプリを除く) | いいえ | はい | はい |
@@ -122,7 +122,7 @@ Power BI Embedded は、開発者が埋め込み分析ソリューションを�
 
 PBI ポータルを使って、PBI テナント リージョンを確認できます。
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Power BI について
+[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Power BI について
 
 ![Power BI について](media/embedded-faq/about-01.png)
 ![テナント リージョン](media/embedded-faq/tenant-location-01.png)
@@ -226,7 +226,7 @@ Power BI で[サービス プリンシパル](embed-service-principal.md)を使�
 
 **[アプリケーション ID](embed-sample-for-customers.md#application-id)** は、認証のためにアプリケーション ID を渡すときに、アクセス トークンを作成する目的で使用されます。
 
-ワークスペースに管理者としてサービス プリンシパルを適用するなど、サービス プリンシパルを各種操作または変更のために参照するには、 **[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)** を使用します。
+ワークスペースに管理者としてサービス プリンシパルを適用するなど、サービス プリンシパルを各種操作または変更のために参照するには、**[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)** を使用します。
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>サービス プリンシパルでオンプレミス データ ゲートウェイを管理できますか?
 
@@ -300,7 +300,7 @@ Power BI Embedded は[国内クラウド](embed-sample-for-customers-national-cl
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI ワークスペース コレクションから Power BI Embedded に移行できますか?
 
-1. 移行ツールを使って、**Power BI ワークスペース コレクション**のコンテンツを Power BI に複製できます https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration 。
+1. 移行ツールを使って、**Power BI ワークスペース コレクション**のコンテンツを Power BI に複製できます https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration。
 
 2. Power BI のコンテンツを使用する **Power BI Embedded** アプリケーション POC から始めます。
 

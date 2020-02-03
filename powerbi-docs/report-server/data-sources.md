@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874175"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540592"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。
@@ -202,12 +202,12 @@ Power BI Report Server では、DirectQuery 用の認証方法として、OAuth 
 | Azure SQL Data Warehouse |いいえ |いいえ |はい |いいえ |いいえ |
 | Oracle データベース |いいえ |いいえ |はい |はい |はい |
 | SAP Business Warehouse サーバー |いいえ |いいえ |はい |いいえ |いいえ |
-| SAP HANA データベース |いいえ |いいえ |はい |はい |いいえ |
+| SAP HANA データベース |いいえ |いいえ |はい |はい |はい** |
 | Teradata |いいえ |いいえ |はい |はい |はい |
 
+**SAP HANA では、統合 Windows 認証での DirectQuery は、公開されている Power BI Desktop ファイル (.pbix) でリレーショナル データベースとして使用する場合にのみサポートされます。
 
 ## <a name="next-steps"></a>次の手順
 データ ソースに接続したので、そのデータ ソースからのデータを使って [Power BI レポートを作成](quickstart-create-powerbi-report.md)します。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

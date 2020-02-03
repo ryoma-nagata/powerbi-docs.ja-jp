@@ -6,69 +6,80 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 75462c2414854d0848254a36b89bcdd1de365ec5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863481"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537913"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI でサポートされているインサイトの種類
 
-Power BI サービスでは、ダッシュボードまたはレポートのインサイトを自動的に検索できます。
+データを検索して興味深い傾向やパターンを見つけるように、Power BI に要求することができます。 これらの傾向とパターンは、"*分析情報*" と呼ばれるビジュアルの形式で表示されます。 
+
+分析情報の使用方法については、[Power BI の分析情報](end-user-insights.md)に関するページを参照してください。
+
+![一連の分析情報](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>インサイトのしくみ
-Power BI はデータセットのさまざまなサブセットをすばやく検索します。 Power BI は検索する際、興味がある可能性のあるインサイトを検出するために一連の洗練されたアルゴリズムを適用します。 Power BI は、割り当てられた時間で、可能な限り多くのデータセットをスキャンします。
+Power BI はデータセットのさまざまなサブセットをすばやく検索します。 Power BI は検索する際、興味がある可能性のあるインサイトを検出するために一連の洗練されたアルゴリズムを適用します。 Power BI の "*コンシューマー*" は、ダッシュボードのタイルで分析情報を実行できます。
 
-データセットまたはダッシュボードのタイルに対して、インサイトを実行できます。   
+## <a name="some-terminology"></a>用語
+Power BI では統計的アルゴリズムを使用して分析情報が明らかにされます。 これらのアルゴリズムについては、この記事の次のセクションに一覧して説明します。 アルゴリズムに進む前に、ここでは馴染みがないと思われるいくつかの用語の定義を示します。 
 
-## <a name="what-types-of-insights-can-we-find"></a>見つけることができる情報の種類
-使用されているアルゴリズムの一部を以下に示します。
+* **メジャー** - メジャーは、計算を行うために使用できる数量 (数値) フィールドです。 一般的な計算には合計、平均、最小があります。 たとえば、会社がスケートボードを製造および販売している場合、スケートボードの販売数と年間平均利益をメジャーとすることができます。  
+* **ディメンション** - ディメンションはカテゴリ (テキスト) データです。 ディメンションは、人、オブジェクト、アイテム、製品、場所、および時間を表します。 データセットでは、ディメンションを使用して "*メジャー*" を有用なカテゴリにグループ化することができます。 スケートボード会社の場合、一部のディメンションには、モデル、色、国、またはマーケティング キャンペーン別の売上 (メジャー) の表示が含まれる場合があります。   
+* **相関関係** - 相関関係によって、物事の動作がどのように関連しているかがわかります。  増加と減少のパターンが類似している場合、それらは正の相関関係にあります。 そして、パターンが逆の場合は、負の相関関係にあります。 たとえば、赤色のスケートボードの売上がテレビ マーケティング キャンペーンを実施するたびに増加した場合、赤色のスケートボードの売り上げとテレビ キャンペーンは正の相関関係にあります。
+* **時系列** - 時系列は、時間を連続するデータ ポイントとして表示する方法です。 これらのデータ ポイントは、秒、時間、月、年などの増分値とすることが可能です。  
+* **連続変数** - 連続変数は、その最小値と最大値の間の任意の値とすることができます。それ以外の場合は、離散変数になります。 例としては、温度、重量、年齢、時間などがあります。 連続変数には、値の分数または一部分を含めることができます。 販売した青色のスケートボードの合計数は離散変数になります。スケートボードは片方だけ販売することができないためです。  
 
-## <a name="category-outliers-topbottom"></a>カテゴリ外れ値 (上/下)
-モデル内のメジャーとして、ディメンションの 1 つまたは 2 つのメンバーが、ディメンションの他のメンバーよりも値がはるかに大きいケースを強調表示します。  
+## <a name="what-types-of-insights-can-you-find"></a>見つけることができる分析情報の種類
+これらは Power BI で使用されるアルゴリズムです。 
+
+### <a name="category-outliers-topbottom"></a>カテゴリ外れ値 (上/下)
+1 つまたは 2 つのカテゴリの値が他のカテゴリよりもはるかに大きいケースを強調表示します。  
 
 ![カテゴリの外れ値の例](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
 
-## <a name="change-points-in-a-time-series"></a>時系列の変更点
+### <a name="change-points-in-a-time-series"></a>時系列の変更点
 データの時系列の傾向で、大きな変化があったときに強調表示します。
 
 ![時系列の変更点の例](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
-## <a name="correlation"></a>相関関係
-データセット内のディメンションに対してプロットした場合に、複数のメジャーで相互の相関関係が示されるケースを検出します。
+### <a name="correlation"></a>相関関係
+データセット内のカテゴリまたは値に対してプロットされたときに、複数のメジャーが、類似したパターンまたは傾向を示すケースを検出します。
 
 ![相関関係の例](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
-## <a name="low-variance"></a>低差異
+### <a name="low-variance"></a>低差異
 データ ポイントが平均から離れていないケースを検出します。
 
 ![低差異の例](./media/end-user-insight-types/power-bi-low-variance.png)
 
-## <a name="majority-major-factors"></a>マジョリティ (主要因子)
+### <a name="majority-major-factors"></a>マジョリティ (主要因子)
 別のディメンションによって分類した場合に、合計値の大部分が単一の因子に帰する可能性があるケースを検索します。  
 
 ![主な要因の例](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
 
-## <a name="overall-trends-in-time-series"></a>時系列の全体的な傾向
+### <a name="overall-trends-in-time-series"></a>時系列の全体的な傾向
 時系列データの上昇または下降の傾向を検出します。
 
 ![時系列の全体的な傾向の例](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
 
-## <a name="seasonality-in-time-series"></a>時系列の周期性
+### <a name="seasonality-in-time-series"></a>時系列の周期性
 週単位、月単位、または年単位の周期性などの時系列データの定期的なパターンを見つけます。
 
 ![周期性の例](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
-## <a name="steady-share"></a>安定した共有
+### <a name="steady-share"></a>安定した共有
 連続した変数にわたる親の全体の値に関連して、子の値のシェア間に親子の相関関係があるケースを強調表示します。
 
 ![安定した共有の例](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 
-## <a name="time-series-outliers"></a>時系列外れ値
+### <a name="time-series-outliers"></a>時系列外れ値
 時系列全体にわたるデータに対して、その他の日付/時刻値と大きく異なる値を持つ特定の日付や時刻がある場合を検出します。
 
 ![時系列外れ値の例](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)

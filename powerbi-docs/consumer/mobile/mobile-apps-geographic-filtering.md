@@ -7,19 +7,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 002ddeac915b2b2b67570e8b4078a175de09aaef
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870633"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538200"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリで地理的な場所によりレポートをフィルターする
 適用対象:
 
-| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
-|:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android フォン |Windows 10 スマートフォン |
+| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows スマートフォン](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
+|:--- |:--- |:--- |:--- |:--- |
+| iPhone |iPad |Android フォン |Android タブレット |Windows 10 スマートフォン |
 
 モバイル デバイスで Power BI レポートを開くと、右上に小さなプッシュピン アイコンが表示されることがあります。 プッシュピンが表示される場合、場所に基づいてそのレポートをフィルターできます。
 
@@ -42,7 +42,7 @@ ms.locfileid: "73870633"
 * レポートを表示するユーザーが、列内にデータがある場所のいずれかにいること。
 * レポートを表示するユーザーが、次のモバイル デバイスのいずれかを使っていること。
   * iOS (iPad、iPhone、iPod)。
-  * Android フォン。
+  * Android (スマートフォン、タブレット)。
   * Windows 10 スマートフォン (PC やタブレットなどの他の Windows 10 デバイスは、地理的フィルタリングをサポートしません)。
 
 Power BI Desktop での[地理的なフィルターの設定](../../desktop-mobile-geofiltering.md)の詳細を参照してください。

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/18/2020
 ms.author: painbar
-ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220772"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538132"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -44,7 +44,7 @@ Power BI モバイル アプリのレポートには、次の 2 つのアイコ�
 > [!NOTE]
 > 電話を横向きに持つと、レポート ページが電話レイアウトの場合でも、常に横レイアウトが表示されます。
 
-ダッシュボードからレポートを表示するには、タイルの右上にある**その他のオプション** (...) をタップして、 **[レポートを開く]** をタップします。
+ダッシュボードからレポートを表示するには、タイルの右上にある**その他のオプション** (...) をタップして、**[レポートを開く]** をタップします。
   
   ![レポートを開く](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -52,6 +52,13 @@ Power BI モバイル アプリのレポートには、次の 2 つのアイコ�
   
 ## <a name="interact-with-reports"></a>レポートを操作する
 アプリでレポートを開いたら、操作を開始できます。 レポートとそのデータを使用してさまざまなことが行えます。 レポート フッターには、そのレポートに対して実行できるアクションが表示されます。 レポートに表示されるデータをタップおよびロング タップすることにより、データを細分化することもできます。
+
+### <a name="single-tap-versus-double-tap-interaction"></a>シングルタップ操作とダブルタップ操作
+Power BI モバイル アプリをダウンロードすると、そのアプリはシングルタップ操作用に設定されます。 これは、何らかのアクション (スライサー項目の選択、クロス強調表示、リンクまたはボタンのクリックなど) を行うためにビジュアルをタップすると、タップによってビジュアルの選択と必要な操作の実行の両方が行われることを意味します。
+
+必要に応じて、ダブルタップ操作に切り替えることができます。 ダブルタップ操作では、最初にビジュアルをタップして選択してから、ビジュアル内をもう一度タップして目的のアクションを実行します。
+
+ダブルタップ操作に切り替えるには、またはシングルタップ操作に戻すには、[アプリの対話式操作の設定](./mobile-app-interaction-settings.md)に移動します。
 
 ### <a name="using-tap-and-long-tap"></a>タップとロング タップの使用
 タップは、マウス クリックと同じです。 したがって、データ ポイントに基づいてレポートをクロス強調表示したい場合は、そのデータ ポイントをタップします。
@@ -63,7 +70,6 @@ Power BI モバイル アプリのレポートには、次の 2 つのアイコ�
 ![ビジュアルとメニュー](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
 ### <a name="tooltip-and-drill-actions"></a>ツールヒントとドリル操作
-
 データ ポイントをロング タップ (タップして保持) すると、このデータ ポイントが表す値を示すツールヒントが表示されます。
 
 ![ツールヒント](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
@@ -114,7 +120,7 @@ Power BI モバイル アプリのレポートには、次の 2 つのアイコ�
 
 **ブックマーク**はレポートに[ブックマーク](mobile-reports-in-the-mobile-apps.md#bookmarks)が設定されている場合にのみ表示されます。 Power BI サービスで定義できる個人用ブックマークとレポートの作成者によって定義されたブックマークの両方が表示されます。 ブックマークの 1 つが既定のブックマークとして定義されている場合、レポートが読み込まれたとき、そのビューが開きます。
 
-Power BI モバイル アプリからの共有を禁止する [Intune 保護ポリシー](https://docs.microsoft.com/intune/app-protection-policies)が組織で適用されている場合、 **[注釈を付けて共有]** がオフになることがあります。
+Power BI モバイル アプリからの共有を禁止する [Intune 保護ポリシー](https://docs.microsoft.com/intune/app-protection-policies)が組織で適用されている場合、**[注釈を付けて共有]** がオフになることがあります。
 
 **招待**は、ユーザーがレポートを他のユーザーと共有するアクセス許可を持っている場合にのみ有効になります。 レポートの所有者である場合、または所有者から再共有アクセス許可を与えられている場合にのみ、アクセス許可が付与されます。
 
@@ -126,6 +132,8 @@ Power BI モバイル アプリからの共有を禁止する [Intune 保護ポ�
 
 Power BI モバイル アプリでは、レポートの作成者が定義したレポートブックマークと、Power BI サービスで定義できる個人用ブックマークの両方がサポートされています。 ブックマーク メニューは、[レポート アクション ツールバー](mobile-reports-in-the-mobile-apps.md#all-report-actions)の **[その他のオプション]** (...) の下にあります。
 
+既定のブックマークは、特別なアイコンで示されます。 個人用のブックマークの場合、既定の設定を設定、設定解除、または変更するには、変更するブックマークの横にある **[その他のオプション (...)]** をタップし、**[既定値に設定]** または **[既定値のクリア]** を選択します。
+
 ![ブックマーク メニュー](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
 レポートのブックマーク ビューが開くと、ブックマークの名前がレポートの一番上に表示されます。
@@ -133,6 +141,15 @@ Power BI モバイル アプリでは、レポートの作成者が定義した�
 ![ブックマーク ビュー](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [Power BI サービスでのブックマークについてさらに学習してください](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks)。
+
+## <a name="configure-your-experience-with-reports"></a>レポート使用時のエクスペリエンスを構成する
+Power BI モバイル アプリには、レポート エクスペリエンスを制御するための設定がいくつかあります。 現時点では、以下のことを構成できます。
+* **レポート ビジュアルの対話式操作**: シングルタップ操作またはダブルタップ操作のどちらを使用するかを選択できます。
+* **データ更新方法**: レポート データを更新するために、更新ボタンまたは引き下げるアクションのいずれかを選択できます。
+* **レポート フッターの表示**: 常に表示される固定フッターにするか、操作 (スクロールなど) に応じて非表示になったり再表示されたりする動的フッターにするかを選択できます。
+
+これらの設定を変更する方法については、[アプリの対話式操作の設定](./mobile-app-interaction-settings.md)に関するページを参照してください。
+
 
 ## <a name="next-steps"></a>次の手順
 * [電話用に最適化された Power BI レポートの表示と対話](mobile-apps-view-phone-report.md)

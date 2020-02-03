@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/14/2020
+ms.date: 01/16/2020
 ms.author: mblythe
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d9549364f9129ee4ddc6e90fb973cb73c241e4a9
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76042120"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539902"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>チュートリアル:Power BI レポートに Power Apps ビジュアルを埋め込む
 
 このチュートリアルでは、Power Apps ビジュアルを使用して、サンプル Power BI レポートに埋め込まれる新しいアプリを作成します。 このアプリでは、そのレポート内の他のビジュアルとの対話が行われます。
 
-Power Apps サブスクリプションをお持ちでない場合は、開始する前に[無料アカウントを作成](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps)してください。
+Power Apps サブスクリプションをお持ちでない場合は、開始する前に[無料アカウントを作成](https://web.powerapps.com/signup?redirect=marketing&email=)してください。
 
 このチュートリアルで学習する内容は次のとおりです。
 > [!div class="checklist"]
@@ -33,7 +33,7 @@ Power Apps サブスクリプションをお持ちでない場合は、開始す
 
 * [Google Chrome](https://www.google.com/chrome/browser/) または [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) ブラウザー
 * [営業案件の分析のサンプル](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)がインストールされた [Power BI サブスクリプション](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)
-* [Power Apps でアプリを作成する](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch.md)方法と [Power BI レポートを編集する](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)方法を理解している
+* [Power Apps でアプリを作成する](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch)方法と [Power BI レポートを編集する](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)方法を理解している
 
 
 
@@ -49,7 +49,7 @@ Power Apps ビジュアルをレポートに追加すると、Power Apps と Pow
 
 2. [視覚化] ペインで、[Power Apps] アイコンを選択し、作成したスペースに合うようにビジュアルのサイズを変更します。
 
-    ![[PowerApps] アイコンが選択されている [視覚化] ウィンドウ](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
+    ![[Powe Apps] アイコンが選択されている [視覚化] ウィンドウ](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
 3. **[フィールド]** ウィンドウで、 **[名前]** 、 **[製品コード]** 、 **[営業段階]** を選択します。 
 

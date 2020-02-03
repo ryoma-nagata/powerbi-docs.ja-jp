@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/08/2019
 ms.author: painbar
-ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75220519"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538407"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -21,6 +21,27 @@ ms.locfileid: "75220519"
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
 * [Power BI サービスの新機能](../../service-whats-new.md)  
+
+## <a name="december-2019"></a>2019 年 12 月
+
+### <a name="docked-report-footer-and-a-refresh-button---new-experiences-for-interacting-with-reports-android"></a>ドッキングされたレポート フッターと更新ボタン - レポートの対話式操作に関する新しいエクスペリエンス (Android)
+
+Android ユーザーから、レポート使用時のエクスペリエンスが最適でないという意見がありました。レポート フッターが使いにくい、また、一部のデバイスでは引っ張って更新が過度に反応するということでした。 そのため、このリリースでは、次の動作が変更されています。
+* **ドッキングされたレポート フッター** - スマートフォンでレポートを開くと、レポート フッターがレポート ページの下部にドッキングされているのがわかります。ページでの操作に関係なく、常にそこに表示されていて使用することができます。 これにより、そこで提供されるすべてのオプションを簡単に使用できるようになります。
+* **レポート ヘッダー上の更新ボタン**- また、レポート ヘッダーに更新ボタンがあり、意図したまさにそのときにレポートを簡単に更新できるようになります。
+
+以前の動作を希望するユーザーは、モバイル アプリの新しい拡張された[対話式操作の設定](./mobile-app-interaction-settings.md)を使用して、それらの動作を復元できます。
+
+さらに、IT 管理者は任意の MDM ツールを使用して、アプリ構成ファイルでユーザーの代わりに[新しい既定の設定をリモートでオーバーライドする](./mobile-app-configuration.md#interaction-settings-android)ことができます。 このようにして、組織内のすべてのユーザーに対して同じ動作を構成できます。
+
+> [!NOTE]
+> 現在、更新ボタンとレポート フッターのドッキングの対話式操作の設定は、レポート サーバーのレポートには影響しません。 これは、レポート サーバーの 1 月のリリースで変更される予定です。
+
+### <a name="set-default-bookmarks-from-your-mobile-app"></a>モバイル アプリから既定のブックマークを設定する
+レポートの既定のブックマークを Power BI モバイル アプリから直接設定できるようになりました。 これにより、レポートを開くたびに、既定のブックマークが自動的に適用されます。 [詳細情報](./mobile-reports-in-the-mobile-apps.md#bookmarks)
+
+### <a name="filtering-by-location-on-android-tablets"></a>Android タブレット上の場所によるフィルター処理
+geo フィルタリングを使用すると、現在の場所に基づいてレポートをフィルター処理できます。 この機能が Android タブレット用 Power BI アプリでも使用できるようになりました。 [詳細情報](./mobile-apps-geographic-filtering.md)
 
 ## <a name="november-2019"></a>2019 年 11 月
 
@@ -338,11 +359,11 @@ iPad アプリの Power BI レポートに更新ボタンが追加されまし�
 
 #### <a name="report-favorites"></a>レポートのお気に入り
 
-レポートにお気に入りのタグを付け、 **[お気に入り]** ページに表示します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
+レポートにお気に入りのタグを付け、**[お気に入り]** ページに表示します。 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 
 #### <a name="view-shared-reports"></a>共有レポートを表示する
 
-誰かとレポートを共有すると、ダッシュボードの他に、 **[共有アイテム]** ページにレポートが一覧表示されます。
+誰かとレポートを共有すると、ダッシュボードの他に、**[共有アイテム]** ページにレポートが一覧表示されます。
 
 #### <a name="improved-hyperlink-support"></a>ハイパーリンク サポートの改善
 
@@ -458,7 +479,7 @@ Power BI コンテンツの編成については[ここ](mobile-apps-quickstart-
 #### <a name="ios-devices"></a>iOS デバイス
 **Q&A のプレビューによるデータに関する質問** 
 
-Q&A を使って自分の言葉でデータに関する質問をすると、Power BI が答えてくれます。 Q&A は、Power BI サービス (https://powerbi.com ) で既に提供されています。 また、[iPhone または iPad のモバイル アプリで使用する](mobile-apps-ios-qna.md)こともできます。
+Q&A を使って自分の言葉でデータに関する質問をすると、Power BI が答えてくれます。 Q&A は、Power BI サービス (https://powerbi.com) で既に提供されています。 また、[iPhone または iPad のモバイル アプリで使用する](mobile-apps-ios-qna.md)こともできます。
 
 **複数の SSRS サーバーへの接続** 
 

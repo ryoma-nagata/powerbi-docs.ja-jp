@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/07/2019
+ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622368"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538269"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>モバイル デバイス管理 (MDM) ツールを使用して Power BI アプリをリモートで構成する
 
@@ -21,8 +21,9 @@ iOS および Android 用 Power BI Mobile アプリでは、モバイル デバ�
 
 Power BI Mobile アプリでは、次の構成シナリオがサポートされています。
 
-- レポート サーバーの構成 (iOS および Android)
-- データ保護の設定 (iOS)
+* レポート サーバーの構成 (iOS および Android)
+* データ保護の設定 (iOS および Android)
+* 対話式操作の設定 (Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>レポート サーバーの構成 (iOS および Android)
 
@@ -37,11 +38,21 @@ Power BI Mobile アプリでは、次の構成シナリオがサポートされ�
 
 ## <a name="data-protection-settings-ios"></a>データ保護の設定 (iOS)
 
-管理者は、iOS 用 Power BI アプリを使用して、セキュリティとプライバシーの設定に対する既定の構成をカスタマイズすることができます。 Power BI アプリにアクセスするときに、ユーザーに自分の Face ID、Touch ID、またはパスコードを入力するように強制できます。
+管理者は、iOS および Android 用 Power BI アプリを使用して、セキュリティとプライバシーの設定に対する既定の構成をカスタマイズすることができます。 Power BI アプリにアクセスするときに、ユーザーに自分の Face ID、Touch ID、またはパスコードを入力するように強制できます。
 
 | キー | 種類 | 説明 |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | ブール値 | 既定値は False です。 <br><br>デバイス上のアプリにアクセスするために、ユーザーに TouchID や FaceID などの生体測定を要求することができます。 必要に応じて、認証に加えて生体測定が使用されます。<br><br>アプリ保護ポリシーを使用している場合、Microsoft ではデュアル アクセスのプロンプトを防ぐために、この設定を無効にすることをお勧めします。 |
+
+## <a name="interaction-settings-android"></a>対話式操作の設定 (Android)
+
+Android 用 Power BI アプリでは、組織内のユーザー グループ全体で既定の対話式操作の設定を変更する必要があると判断された場合に、管理者が対話式操作の設定を構成することができます。 
+
+| キー | 種類 | 値 | 説明 |
+|---|---|---|---|
+| com.microsoft.powerbi.mobile.ReportTapInteraction | 文字列 |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | ビジュアル上でタップすることでデータ ポイントの選択も行うかどうかを構成します。 |
+| ccom.microsoft.powerbi.mobile.RefreshAction | 文字列 |  <nobr>pull-to-refresh</nobr><br>選択します。 | ユーザーがレポートを更新するためにボタンを使用するか、引っ張って更新を使用する必要があるかを構成します。 |
+| com.microsoft.powerbi.mobile.FooterAppearance | 文字列 |  docked<br>動的 | レポートのフッターをレポートの下部にドッキングするか、自動的に非表示にするかを構成します。 |
 
 ## <a name="deploying-app-configuration-settings"></a>アプリ構成設定を配置する
 

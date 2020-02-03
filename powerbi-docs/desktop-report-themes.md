@@ -6,37 +6,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c111b04847cba56781b1dd77f899d456ad5f4162
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 5a4ed3ffc833b2405a3c231b80047c71b40a64cc
+ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75731442"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "76753699"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポート テーマを使用する
-Power BI Desktop の "*レポート テーマ*" を使うと、コーポレート カラーを使用したり、アイコンのセットを変更したり、新しい既定のビジュアルの書式設定を適用したりなど、デザインの変更をお使いのレポート全体に適用できます。 レポートのテーマを適用すると、お使いのレポートのすべてのビジュアルで、ご自身が選択したテーマの色と書式設定が使用されます。 いくつかの例外が適用されますが、それについてはこの記事の後半で説明します。
+
+Power BI Desktop の "*レポート テーマ*" を使うと、コーポレート カラーを使用したり、アイコンのセットを変更したり、新しい既定のビジュアルの書式設定を適用したりなど、デザインの変更をお使いのレポート全体に適用できます。 レポート テーマを適用すると、お使いのレポートのすべてのビジュアルで、選択されたテーマの色と書式設定が既定値として使用されます。 いくつかの例外が適用されますが、それについてはこの記事の後半で説明します。
 
 ![レポートのテーマ](media/desktop-report-themes/report-themes-1a.png)
 
 2 種類のレポート テーマがあります。組み込みのレポート テーマとカスタムのレポート テーマ ファイルです。
 
-- 組み込みのレポート テーマには、Power BI Desktop と共にインストールされる、さまざまな種類の定義済みの配色が用意されています。 組み込みのレポート テーマは、Power BI Desktop のメニューから直接選択できます。 
+- 組み込みのレポート テーマには、Power BI Desktop と共にインストールされる、さまざまな種類の定義済みの配色が用意されています。 組み込みのレポート テーマは、Power BI Desktop のメニューから直接選択できます。
 
 - カスタムのレポート テーマ ファイルは、その基本構造を定義した JSON ファイルで作成されるレポート テーマです。 カスタムのレポート テーマを適用するには、その JSON ファイルを Power BI Desktop にインポートし、お使いのレポートに適用します。
 
-Power BI Desktop 内で直接カスタマイズを行うか、またはレポート テーマの JSON ファイルを使用することで、 **[視覚化]** ペインの **[書式]** セクションに一覧表示されるほぼすべての要素をカスタマイズおよび標準化できます。 目標は、レポートの外観を、細かなレベルまで完全に制御できるようになることです。
+  Power BI Desktop 内から、[ **[テーマのカスタマイズ]** ダイアログ ボックス](#create-and-customize-a-theme-in-power-bi-desktop-preview)を使用して、既存のレポート テーマをカスタマイズすることもできます。
+
+Power BI Desktop 内で直接カスタマイズを行うか、またはレポート テーマの JSON ファイルを使用することで、 **[視覚化]** ペインの **[書式]** セクションに一覧表示されるほぼすべての要素をカスタマイズおよび標準化できます。 目標は、レポートの既定の外観を、詳細なレベルで完全に制御できるようになることです。
 
 ## <a name="how-report-themes-work"></a>レポート テーマのしくみ
-Power BI Desktop レポートにレポート テーマを適用するには、使用可能な組み込みのレポート テーマから選択するか、カスタムのテーマ ファイルを作成またはインポートします。
+
+Power BI Desktop レポートにレポート テーマを適用するには、[使用可能な組み込みのレポート テーマ](#built-in-report-themes)の中から選択するか、[カスタム テーマの JSON ファイルをインポートする](#import-custom-report-theme-files)か、[ **[テーマのカスタマイズ]** ダイアログ ボックスを使用する](#create-and-customize-a-theme-in-power-bi-desktop-preview)ことができます。
+
+カスタマイズできる既定値の詳細については、以下の[レポート テーマの JSON 形式](#report-theme-json-file-format)に関するセクションを確認してください。
 
 ### <a name="built-in-report-themes"></a>組み込みのレポート テーマ
 
-使用可能な組み込みのレポート テーマから選択するには: 
+使用可能な組み込みのレポート テーマから選択するには:
 
-1. **[ホーム]** リボンから **[テーマの切り替え]** を選択します。 
+1. **[ホーム]** リボンから **[テーマの切り替え]** を選択します。
 
    ![レポート テーマの選択](media/desktop-report-themes/report-themes-2a.png)
 
@@ -46,37 +52,83 @@ Power BI Desktop レポートにレポート テーマを適用するには、�
 
 次の表に、使用可能な組み込みのレポート テーマを示します。
 
-| 組み込みのレポート テーマ | 既定の色順序    |
+| 組み込みのレポート テーマ | 既定の色順序 |
 |------ |---------- |
-| 既定値   | ![既定値](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise (ハイライズ)  | ![Highrise (ハイライズ)](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| 役員     | ![役員](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| Frontier (フロンティア)  | ![Frontier (フロンティア)](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| イノベーション  | ![イノベーション](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| Bloom (ブルーム)     | ![Bloom (ブルーム)](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| Tidal (タイダル) | ![Tidal (タイダル)](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| Temperature (温度)   | ![Temperature (温度)](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| Solar (太陽) | ![Solar (太陽)](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| Divergent (ダイバージェント)     | ![Divergent (ダイバージェント)](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Storm (ストーム)     | ![Storm (ストーム)](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Classic (クラシック)   | ![Classic (クラシック)](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| 公園     | ![公園](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| 教室     | ![教室](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| 色の識別が困難な障碍を抱えるユーザーにとって安全   | ![色の識別が困難な障碍を抱えるユーザーにとって安全](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| エレクトリック  | ![エレクトリック](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| ハイ コントラスト     | ![ハイ コントラスト](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| 夕日    | ![夕日](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| トワイライト  | ![トワイライト](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+| 既定値 | ![既定値](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+| Highrise (ハイライズ) | ![Highrise (ハイライズ)](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+| 役員 | ![役員](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+| Frontier (フロンティア)| ![Frontier (フロンティア)](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+| イノベーション | ![イノベーション](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+| Bloom (ブルーム) | ![Bloom (ブルーム)](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+| Tidal (タイダル)| ![Tidal (タイダル)](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+| Temperature (温度) | ![Temperature (温度)](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+| Solar (太陽)| ![Solar (太陽)](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+| Divergent (ダイバージェント) | ![Divergent (ダイバージェント)](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+| Storm (ストーム) | ![Storm (ストーム)](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+| Classic (クラシック) | ![Classic (クラシック)](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+| 公園 | ![公園](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+| 教室 | ![教室](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+| 色の識別が困難な障碍を抱えるユーザーにとって安全 | ![色の識別が困難な障碍を抱えるユーザーにとって安全](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+| エレクトリック | ![エレクトリック](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+| ハイ コントラスト | ![ハイ コントラスト](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+| 夕日 | ![夕日](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+| トワイライト | ![トワイライト](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+
+## <a name="customize-report-themes"></a>レポート テーマをカスタマイズする
+
+Power BI Desktop の 2019 年 12 月リリースより、レポート テーマをカスタマイズする方法が 2 つ用意されています。
+
+- [Power BI Desktop でテーマを作成およびカスタマイズする (プレビュー)](#create-and-customize-a-theme-in-power-bi-desktop-preview)
+- [カスタムのレポート テーマの JSON ファイルを作成およびカスタマイズする](#introduction-to-report-theme-json-files)
+
+### <a name="create-and-customize-a-theme-in-power-bi-desktop-preview"></a>Power BI Desktop でテーマを作成およびカスタマイズする (プレビュー)
+
+Power BI Desktop の 2019 年 12 月リリースの時点で、Power BI Desktop 内でテーマを直接カスタマイズする機能がプレビューとして使用できるようになりました。
+
+Power BI Desktop 内でテーマを直接カスタマイズするには:
+
+1. **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]** の順に選択します。
+
+2. **[プレビュー機能]** セクションで、 **[現在のテーマのカスタマイズ]** を選択してから、 **[OK]** を選択します。
+
+   ![カスタマイズされたテーマを有効にする](media/desktop-report-themes/report-themes_5a.png)
+
+   プレビュー機能を有効にするために、Power BI Desktop を再起動するように求められる場合があります。 再起動したら、現在適用されているテーマのカスタマイズを開始できます。
+
+3. **[ホーム]** リボンから、 **[テーマの切り替え]**  >  **[現在のテーマのカスタマイズ]** の順に選択します。
+
+   ダイアログ ボックスが表示され、レポートに現在適用されているレポート テーマをカスタマイズする方法が示されます。
+
+   ![テーマをカスタマイズする](media/desktop-report-themes/report-themes_5b.png)
+
+4. 既存のテーマを使用して、いくつかの調整を行いたい場合は、そのテーマを選択 (またはインポート) してから **[現在のテーマのカスタマイズ]** を選びます。
+
+   ![現在のテーマをカスタマイズする](media/desktop-report-themes/report-themes_5c.png)
+
+次のカテゴリに該当するテーマ設定をカスタマイズできます。これは **[テーマのカスタマイズ]** ウィンドウに反映されています。
+
+- **[名前と色]** :テーマの名前と色の設定には、[テーマの色](#how-report-theme-colors-stick-with-your-reports)、センチメントの色、分岐の色、[構造色 (詳細)](#setting-structural-colors) が含まれます。
+- **Text**:テキスト設定には、フォント ファミリ、サイズ、および色が含まれ、これにより、ラベル、タイトル、カードと KPI、およびタブ ヘッダーに対する[プライマリ テキスト クラスの既定値](#setting-formatted-text-defaults)が設定されます。
+- **[ビジュアル]** :ビジュアルの設定には、背景、境界線、ヘッダー、ツールヒントが含まれます。
+- **ページ**: ページ要素の設定には、壁紙と背景などが含まれます。
+- **[フィルター ペイン]** :フィルター ペインの設定には、背景色、透明度、フォントとアイコンの色、サイズ、フィルター カードなどが含まれます。
+
+変更が完了したら、 **[適用して保存]** を選択してテーマを保存します。 これで、ご自分のテーマを現在のレポートで使用したり、エクスポートしたりできるようになりました。
+
+このようにして現在のテーマをカスタマイズすると、テーマをすばやく簡単にカスタマイズできます。 ただし、テーマをより細かく調整することもできます。それには、テーマの [JSON ファイル](#report-theme-json-file-format)を変更する必要があります。
+
+> [!TIP]
+> **[テーマのカスタマイズ]** ダイアログのコントロールを使用して、最も一般的なレポート テーマのオプションをカスタマイズできます。 さらに細かく制御する場合は、必要に応じて、テーマの JSON ファイルをエクスポートし、そのファイルの設定を手動で変更することで、微調整できます。 微調整した JSON ファイルの名前を変更し、後でインポートすることができます。
 
 ### <a name="import-custom-report-theme-files"></a>カスタムのレポート テーマ ファイルをインポートする
 
-カスタムのレポート テーマ ファイルをインポートするには: 
+カスタムのレポート テーマ ファイルをインポートするには:
 
-1. **[ホーム]** リボンから **[テーマの切り替え]** を選択し、ドロップダウン メニューから **[テーマのインポート]** を選択します。 
+1. **[ホーム]** リボンから **[テーマの切り替え]** を選択し、ドロップダウン メニューから **[テーマのインポート]** を選択します。
 
    ![テーマのインポート](media/desktop-report-themes/report-themes-3a.png)
 
-   表示されたウィンドウで、JSON テーマ ファイルがある場所を参照できます。 
+   表示されたウィンドウで、JSON テーマ ファイルがある場所を参照できます。
 
 2. 次の図には、使用可能ないくつかの休暇テーマ ファイルが示されています。 3 月用の休暇のテーマ、*St Patricks Day.json* を選択します。
 
@@ -86,55 +138,8 @@ Power BI Desktop レポートにレポート テーマを適用するには、�
 
    ![テーマが正常にインポートされた](media/desktop-report-themes/report-themes_5.png)
 
-Power BI Desktop でレポート テーマをカスタマイズするには、2 つの方法があります。 それぞれについて順に説明します。
-
-## <a name="customize-report-themes-preview"></a>レポート テーマをカスタマイズする (プレビュー)
-
-Power BI Desktop の 2019 年 12 月リリースより、レポート テーマをカスタマイズする方法が 2 つ用意されています。
-
-* [Power BI Desktop でテーマを作成およびカスタマイズする (プレビュー)](#create-and-customize-a-theme-in-power-bi-desktop-preview)
-* [カスタムのレポート テーマの JSON ファイルを作成およびカスタマイズする](#introduction-to-report-theme-json-files)
-
-### <a name="create-and-customize-a-theme-in-power-bi-desktop-preview"></a>Power BI Desktop でテーマを作成およびカスタマイズする (プレビュー)
-
-Power BI Desktop の 2019 年 12 月リリースの時点で、Power BI Desktop 内でテーマを直接カスタマイズする機能がプレビューとして使用できるようになりました。
-
-Power BI Desktop 内でテーマを直接カスタマイズするには: 
-
-1. **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]** の順に選択します。 
-
-2. **[プレビュー機能]** セクションで、 **[現在のテーマのカスタマイズ]** を選択してから、 **[OK]** を選択します。
-
-   ![カスタマイズされたテーマを有効にする](media/desktop-report-themes/report-themes_5a.png)
-
-   プレビュー機能を有効にするために、Power BI Desktop を再起動するように求められる場合があります。 再起動したら、現在適用されているテーマのカスタマイズを開始できます。 
-
-3. **[ホーム]** リボンから、 **[テーマの切り替え]**  >  **[現在のテーマのカスタマイズ]** の順に選択します。 
-
-   ダイアログ ボックスが表示され、既存のテーマをカスタマイズするための方法が表示されます。
-
-   ![テーマをカスタマイズする](media/desktop-report-themes/report-themes_5b.png)
-
-4. 既存のテーマを使用していくつかの調整を行いたい場合は、そのテーマを選択してから **[現在のテーマのカスタマイズ]** を選択します。 
-
-   ![現在のテーマをカスタマイズする](media/desktop-report-themes/report-themes_5c.png)
-
-次のカテゴリに該当するテーマ設定をカスタマイズできます。これは **[テーマのカスタマイズ]** ウィンドウに反映されています。
-
-* **[名前と色]** :テーマの名前と色の設定には、テーマの色、センチメントの色、分岐の色などが含まれます。
-* **Text**:テキストの設定には、フォント ファミリ、サイズ、色のほか、軸のタイトル、色、カードと KPI、およびタブ ヘッダーなどが含まれます。
-* **[ビジュアル]** :ビジュアル要素の設定には、背景、境界線、ヘッダー、ツールヒントなどが含まれます。
-* **ページ**: ページ要素の設定には、壁紙と背景などが含まれます。
-* **[フィルター ペイン]** :フィルター ペインの設定には、背景色、透明度、フォントとアイコンの色、サイズ、フィルター カードなどが含まれます。
-
-変更が完了したら、 **[適用して保存]** を選択してテーマを保存します。 これで、ご自分のテーマを現在のレポートで使用したり、エクスポートしたりできるようになりました。 
-
-この方法で現在のテーマをカスタマイズする場合、すばやく簡単に、かつ視覚的にテーマをカスタマイズする作業を実行できます。 ただし、テーマをより細かく調整することもできます。それには、テーマの [JSON ファイル](#report-theme-json-file-format)を変更する必要があります。
-
-> [!TIP]
-> **[テーマのカスタマイズ]** ウィンドウにあるビジュアル要素を使用すると、ほとんどのテーマ要素をカスタマイズできます。 次に、必要に応じて JSON ファイルをエクスポートし、その JSON ファイルの設定を変更することで、手動で微調整を行うことができます。 微調整した JSON ファイルの名前を変更し、後でインポートすることができます。
-
 ## <a name="introduction-to-report-theme-json-files"></a>レポート テーマの JSON ファイルの概要
+
  前のセクションで言及されている基本的な JSON ファイル (St Patricks Day.json) を開くと、次のように表示されます。
 
  ```json
@@ -149,11 +154,9 @@ Power BI Desktop 内でテーマを直接カスタマイズするには:
 
 このレポート テーマの JSON ファイルには、次の行が含まれています。
 
-* **name**:レポート テーマの名前です。 必須フィールドはこのフィールドのみです。
-
-* **dataColors**:Power BI Desktop ビジュアルのデータ用に使用する、色の 16 進数コードのリストです。 このリストには、必要な数の色を含めることができます。
-
-* **background**、**foreground**、**tableAccent**:色クラスです。 色クラスを使用すると、レポート内の多くの色を一度に設定できます。 
+- **name**:レポート テーマの名前です。 必須フィールドはこのフィールドのみです。
+- **dataColors**:Power BI Desktop ビジュアルのデータ用に使用する、色の 16 進数コードのリストです。 このリストには、必要な数の色を含めることができます。
+- **background**、**firstLevelElements**、および **tableAccent** (など): 色クラスです。 色クラスを使用すると、レポート内の多くの構造色を一度に設定できます。
 
 この JSON ファイルを基礎として使用して、インポートするカスタムのレポート テーマ ファイルを独自に作成できます。 レポートの基本色だけを調整する場合は、ファイル内の名前と 16 進コードを変更します。
 
@@ -163,15 +166,19 @@ JSON ファイルを作成する利点はさまざまです。 たとえば、�
 
 JSON ファイルの形式について詳しくは、「[レポート テーマの JSON ファイル書式](#report-theme-json-file-format)」をご覧ください。
 
+> [!NOTE]
+> [ **[テーマのカスタマイズ]** ダイアログ ボックス](#create-and-customize-a-theme-in-power-bi-desktop-preview)でのカスタム JSON レポート テーマの変更は安全です。  ダイアログでは、制御できないテーマの設定は変更されず、レポート テーマに加えられた変更がインプレースで更新されます。
+
 ## <a name="how-report-theme-colors-stick-with-your-reports"></a>レポート テーマの色がレポートに維持されるしくみ
-Power BI サービスにレポートを発行するとき、お使いのレポート テーマの色は維持されます。 **[書式]** パネルの **[データの色]** セクションには、お使いのレポート テーマが反映されます。 
+
+Power BI サービスにレポートを発行するとき、お使いのレポート テーマの色は維持されます。 **[書式]** パネルの **[データの色]** セクションには、お使いのレポート テーマが反映されます。
 
 レポート テーマで使用できる色を表示するには:
 
-1. ビジュアルを選択します。 
+1. ビジュアルを選択します。
 
 2. **[視覚化]** ペインの **[書式]** セクションで、 **[データの色]** を選択します。
- 
+
 3. 項目のドロップダウンを選択し、レポート テーマの **[テーマの色]** 情報を表示します。
 
    ![テーマの色](media/desktop-report-themes/report-themes_8.png)
@@ -181,6 +188,7 @@ Power BI サービスにレポートを発行するとき、お使いのレポ�
 色パレットの色は、現在のテーマによって異なります。 たとえば、あるデータ ポイントに対して、一番上の行の 3 番目の色を選択したとします。 その後、別のテーマに変更すると、そのデータ ポイントの色が自動的に更新され、新しいテーマの一番上の行の 3 番目の色になります。この動作は Microsoft Office でテーマを変更する場合と同様です。
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>レポート テーマの色がレポートに維持されない状況
+
 カラー ピッカーの **[カスタム色]** オプションを使用して、ビジュアル内の特定のデータ ポイントに、カスタム色のセット (または個別の色) を適用したとします。 レポート テーマを適用しても、そのカスタマイズしたデータ ポイントの色はオーバーライド "*されません*"。
 
 または、 **[テーマの色]** セクションを使用して、データ ポイントの色を手動で設定する必要があるとします。 新しいレポート テーマを適用しても、それらの色は更新 "*されません*"。 既定の色に戻し、新しいレポート テーマを適用するとそれらが更新されるようにするには、カラー ピッカーで **[既定値に戻す]** を選択するか、 **[テーマの色]** パレットから色を選択します。
@@ -190,22 +198,23 @@ Power BI サービスにレポートを発行するとき、お使いのレポ�
 多くのカスタム ビジュアルでは、レポート テーマが適用されません。
 
 ## <a name="custom-report-theme-files-you-can-use-right-now"></a>今すぐ使用できるカスタムのレポート テーマ ファイル
+
 レポート テーマの使用を開始しますか? [テーマ ギャラリー](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery)でカスタムのレポート テーマを確認するか、以下のあらかじめ用意されているカスタムのレポート テーマの JSON ファイルをお試しください。これらは、ダウンロードしてお使いの Power BI Desktop レポートにインポートすることができます。
 
-* [波形テーマ](https://community.powerbi.com/t5/Themes-Gallery/Waveform/m-p/140536)。 このレポート テーマは、レポート テーマの最初のリリースを発表した[ブログ記事](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)で紹介されました。 [Waveform.json をダウンロード](https://go.microsoft.com/fwlink/?linkid=843924)。
+- [波形テーマ](https://community.powerbi.com/t5/Themes-Gallery/Waveform/m-p/140536)。 このレポート テーマは、レポート テーマの最初のリリースを発表した[ブログ記事](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)で紹介されました。 [Waveform.json をダウンロード](https://go.microsoft.com/fwlink/?linkid=843924)。
 
   ![Waverform.json テーマ](media/desktop-report-themes/report-themes_10.png)
 
-* [色覚障碍対応のテーマ](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)。
+- [色覚障碍対応のテーマ](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)。
 このレポート テーマは、視覚障碍のある方が読みやすいものになっています。 [ColorblindSafe-Longer.json をダウンロード](https://go.microsoft.com/fwlink/?linkid=843923)。
 
   ![ColorblindSafe-Longer.json テーマ](media/desktop-report-themes/report-themes_11.png).
 
-* Apothecary.json を含む Power View テーマ シリーズ。 [Power View テーマを zip ファイルでダウンロード](https://go.microsoft.com/fwlink/?linkid=843925)。
+- Apothecary.json を含む Power View テーマ シリーズ。 [Power View テーマを zip ファイルでダウンロード](https://go.microsoft.com/fwlink/?linkid=843925)。
 
   ![Apothecary.json テーマ](media/desktop-report-themes/report-themes_12.png)
 
-* バレンタイン デーのテーマ。
+- バレンタイン デーのテーマ。
 
   ![バレンタイン デーのテーマ](media/desktop-report-themes/report-themes_13.png)
 
@@ -223,205 +232,227 @@ Power BI サービスにレポートを発行するとき、お使いのレポ�
 
 手始めに使うのに適したレポート テーマをいくつか次に示します。
 
-* [ヒマワリ トワイライト](https://community.powerbi.com/t5/Themes-Gallery/Sunflower-Twilight/m-p/140749)
-* [プラム](https://community.powerbi.com/t5/Themes-Gallery/Plum/m-p/140711)
-* [秋](https://community.powerbi.com/t5/Themes-Gallery/Autumn/m-p/140746)
-* [ハイ コントラスト](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)
+- [ヒマワリ トワイライト](https://community.powerbi.com/t5/Themes-Gallery/Sunflower-Twilight/m-p/140749)
+- [プラム](https://community.powerbi.com/t5/Themes-Gallery/Plum/m-p/140711)
+- [秋](https://community.powerbi.com/t5/Themes-Gallery/Autumn/m-p/140746)
+- [ハイ コントラスト](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)
 
-レポート テーマを使用すると、お使いの Power BI Desktop レポートに、ご自身や組織、さらには現在の季節や休暇などを色鮮やかに反映させることができます。 
-
+レポート テーマを使用すると、お使いの Power BI Desktop レポートに、ご自身や組織、さらには現在の季節や休暇などを色鮮やかに反映させることができます。
 
 ## <a name="export-report-themes-preview"></a>レポート テーマをエクスポートする (プレビュー)
 
-Power BI Desktop の 2019 年 12 月リリース以降、現在適用されているレポート テーマを Power BI Desktop から JSON ファイルに直接エクスポートすることができるようになりました。 エクスポートしたレポート テーマは、独自のレポートで再利用することができます。 このオプションを使用すると、ほとんどの組み込みテーマの JSON ファイルをエクスポートできます。 唯一の例外は基本テーマ (Classic および Default) です。インポートされた他のテーマは、これらを基礎とします。 
+Power BI Desktop の 2019 年 12 月リリース以降、現在適用されているレポート テーマを Power BI Desktop から JSON ファイルに直接エクスポートすることができるようになりました。 レポート テーマをエクスポートした後、他のレポートでそれを再利用できます。 このオプションを使用すると、ほとんどの組み込みテーマの JSON ファイルをエクスポートできます。 唯一の例外は基本テーマ (Classic および Default) です。インポートされた他のテーマは、これらを基礎とします。
 
-現在適用されているテーマを Power BI Desktop からエクスポートするには: 
+現在適用されているテーマを Power BI Desktop からエクスポートするには:
 
-1. **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]** の順に選択します。 
+1. **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]** の順に選択します。
 
 2. **[プレビュー機能]** セクションで、 **[現在のテーマのカスタマイズ]** を選択してから、 **[OK]** を選択します。
 
-   プレビュー機能を有効にするために、Power BI Desktop を再起動するように求められる場合があります。 再起動したら、現在適用されているテーマのエクスポートを開始できます。 
+   プレビュー機能を有効にするために、Power BI Desktop を再起動するように求められる場合があります。 再起動したら、現在適用されているテーマのエクスポートを開始できます。
 
-3.  **[ホーム]** リボンから、 **[テーマの切り替え]**  >  **[現在のテーマのエクスポート]** の順に選択します。 
+3. **[ホーム]** リボンから、 **[テーマの切り替え]**  >  **[現在のテーマのエクスポート]** の順に選択します。
 
 4. **[名前を付けて保存]** ダイアログ ボックスから JSON ファイルを保存するディレクトリを参照して、 **[保存]** を選択します。
 
 ## <a name="report-theme-json-file-format"></a>レポート テーマの JSON ファイル書式
-最も基本的なレベルにおいて、テーマの JSON ファイルに必須の行は、**name** の 1 つだけです。 
+
+最も基本的なレベルにおいて、テーマの JSON ファイルに必須の行は、**name** の 1 つだけです。
 
 ```json
-    {
-        "name": "Custom Theme",
-    }
+{
+    "name": "Custom Theme"
+}
 ```
 
-**name** 以外はすべて省略可能です。つまり、具体的に書式設定したいプロパティだけを自由にテーマ ファイルに追加し、残りについては引き続き Power BI の既定値を使用することができます。 
+**name** 以外はすべて省略可能です。つまり、具体的に書式設定したいプロパティだけを自由にテーマ ファイルに追加し、残りについては引き続き Power BI の既定値を使用することができます。
 
-**name** の下には、基本的なデータの色に関連する次のプロパティを追加できます。 
+### <a name="setting-theme-colors"></a>テーマの色の設定
 
-* **dataColors**:Power BI Desktop ビジュアルのデータ用に使用する、色の 16 進数コードのリストです。 このリストには、必要な数の色を含めることができます。 このリストのすべての色を使用したうえで、ビジュアルにさらに色が必要な場合は、Power BI の既定の色パレットの使用に戻ります。 
-* **good**、**neutral**、**bad**:これらのプロパティを使って、ウォーターフォール図や KPI ビジュアルで使用される状態の色を設定できます。
-* **maximum**、**center**、**minimum**、**null**:これらの色を使って、条件付き書式設定ダイアログ ボックスのさまざまなグラデーション色を設定できます。  
+**name** の下には、基本的なデータの色に関連する次のプロパティを追加できます。
+
+- **dataColors**:Power BI Desktop のビジュアルのデータを表す、図形の色を設定するために使用する色の 16 進数コードのリスト。 このリストには、必要な数の色を含めることができます。 このリストのすべての色を使用したうえで、ビジュアルにさらに色が必要な場合は、Power BI の既定の色パレットの使用に戻ります。
+- **good**、**neutral**、**bad**:これらのプロパティを使って、ウォーターフォール図や KPI ビジュアルで使用される状態の色を設定できます。
+- **maximum**、**center**、**minimum**、**null**:これらの色を使って、条件付き書式設定ダイアログ ボックスのさまざまなグラデーション色を設定できます。
 
 これらの色が定義されている基本的なテーマは、次のようになる可能性があります。
 
 ```json
-    {
-        "name": "Custom Theme",
-          "dataColors": [
-                "#118DFF",
-                "#12239E", 
-                "#E66C37", 
-                "#6B007B", 
-                "#E044A7",
-                "#744EC2", 
-                "#D9B300", 
-                "#D64550",
-                "#197278", 
-                "#1AAB40"
+{
+    "name": "Custom Theme",
+    "dataColors": [
+        "#118DFF",
+        "#12239E",
+        "#E66C37",
+        "#6B007B",
+        "#E044A7",
+        "#744EC2",
+        "#D9B300",
+        "#D64550",
+        "#197278",
+        "#1AAB40"
     ],
-        "good": "#1AAB40",
-        "neutral": "#D9B300",
-        "bad": "#D64554",
-        "maximum": "#118DFF",
-        "center": "#D9B300",
-        "minimum": "#DEEFFF",
-        "null": "#FF7F48"
-    }
+    "good": "#1AAB40",
+    "neutral": "#D9B300",
+    "bad": "#D64554",
+    "maximum": "#118DFF",
+    "center": "#D9B300",
+    "minimum": "#DEEFFF",
+    "null": "#FF7F48"
+}
 ```
 
-次に、**background** や **foreground** など、さまざまな色クラスを追加できます。 色クラスを使用すると、通常は同じ色がまとめて使用される似たビジュアル プロパティをグループ化することにより、レポート全体の多くの色を 1 行で設定できます。 
+### <a name="setting-structural-colors"></a>構造色の設定
 
-次の表は、書式設定できる 6 つの色クラスを示しています。
+次に、**background** や **firstLevelElements** など、さまざまな色クラスを追加できます。 これらの色クラスでは、ビジュアル要素の軸グリッド線、強調表示色、背景色など、レポート内の要素の構造色を設定します。
+
+次の表は、書式設定できる 6 つの色クラスを示しています。  **色クラス**の名前は、[ **[テーマのカスタマイズ]** ダイアログボックス](#create-and-customize-a-theme-in-power-bi-desktop-preview)にある [名前と色] セクションの [詳細] サブセクションの名前に対応しています。
 
 |色クラス  |書式設定の対象  |
 |---------|---------|
-|**フォアグラウンド** | ラベルの背景色 (外部データ ポイントの場合) <br> 傾向線の色 <br>  テキスト ボックスの既定の色 <br> テーブルとマトリックスの値および合計のフォントの色、データ バーの軸の色 <br> カードのデータ ラベル <br> ゲージ コールアウトの値の色 <br> KPI 目標の色 <br>  KPI テキストの色 <br> スライサー項目の色 (フォーカス モードの場合)  <br> スライサー ドロップダウン項目のフォントの色 <br> スライサー数値入力のフォントの色 <br> スライサー ヘッダーのフォントの色 <br> 散布図の比率の線の色 <br> 折れ線グラフの予測線の色 <br> マップの引き出し線の色 <br> フィルター ウィンドウとカードのテキストの色|
-|**foregroundNeutralSecondary** |ラベルの色  <br> 凡例ラベルの色 <br> 軸ラベルの色 <br> テーブルとマトリックスのヘッダーのフォントの色 <br> ゲージ ターゲットとターゲットの引き出し線の色 <br>  KPI の傾向軸の色 <br> スライサーのスライダーの色 <br> スライサー項目のフォントの色 <br> スライサーの枠線の色 <br> 折れ線のグラフポイント時の色 <br> 複数行カードのタイトルの色 <br> リボン グラフの線の色 <br> 図形マップの境界線の色 <br> ボタン テキストのフォントの色 <br> ボタン アイコンの線の色 <br> ボタンの枠線の色 |
-| **foregroundNeutralTertiary** | 凡例の淡色表示の色 <br> カードのカテゴリ ラベルの色 <br> 複数行カードのカテゴリ ラベルの色 <br> 複数行カードのバーの色 <br> じょうごグラフの変換率の線の色 
-| **backgroundLight** | 軸のグリッド線の色 <br> テーブルとマトリックスのグリッドの色 <br> スライサー ヘッダーの背景色 (フォーカス モードの場合)  <br> 複数行カードの枠線の色  <br> 図形の塗りつぶしの色 <br> ゲージの円弧の背景色 <br> 適用されたフィルター カードの背景色 <br> |
-**backgroundNeutral** | テーブルとマトリックスのグリッドの枠線の色 <br> 図形マップの既定の色 <br> リボン グラフのリボンの塗りつぶしの色 (系列一致オプションがオフになっている場合) |
-**background** | ラベルの背景色 (内部データ ポイントの場合) <br> スライサーのドロップダウン項目の背景色  <br> ドーナツ グラフの線の色 <br> ツリーマップの線の色 <br> 複合グラフの背景色 <br> ボタンの塗りつぶしの色 <br> フィルター ウィンドウと使用可能なフィルター カードの背景色 |
-**tableAccent** | テーブルとマトリックスのグリッドの枠線の色をオーバーライドする (存在する場合) |
-
+| **firstLevelElements** <br> **foreground**    (非推奨) | ラベルの背景色 (外部データ ポイントの場合) <br> 傾向線の色 <br>  テキスト ボックスの既定の色 <br> テーブルとマトリックスの値および合計のフォントの色、データ バーの軸の色 <br> カードのデータ ラベル <br> ゲージ コールアウトの値の色 <br> KPI 目標の色 <br>  KPI テキストの色 <br> スライサー項目の色 (フォーカス モードの場合)  <br> スライサー ドロップダウン項目のフォントの色 <br> スライサー数値入力のフォントの色 <br> スライサー ヘッダーのフォントの色 <br> 散布図の比率の線の色 <br> 折れ線グラフの予測線の色 <br> マップの引き出し線の色 <br> フィルター ウィンドウとカードのテキストの色|
+| **secondLevelElements** <br> **foregroundNeutralSecondary** (非推奨) | "light" [セカンダリ テキスト クラス](#setting-formatted-text-defaults) <br> ラベルの色  <br> 凡例ラベルの色 <br> 軸ラベルの色 <br> テーブルとマトリックスのヘッダーのフォントの色 <br> ゲージ ターゲットとターゲットの引き出し線の色 <br>  KPI の傾向軸の色 <br> スライサーのスライダーの色 <br> スライサー項目のフォントの色 <br> スライサーの枠線の色 <br> 折れ線のグラフポイント時の色 <br> 複数行カードのタイトルの色 <br> リボン グラフの線の色 <br> 図形マップの境界線の色 <br> ボタン テキストのフォントの色 <br> ボタン アイコンの線の色 <br> ボタンの枠線の色 |
+| **thirdLevelElements** <br >**backgroundLight** (非推奨) | 軸のグリッド線の色 <br> テーブルとマトリックスのグリッドの色 <br> スライサー ヘッダーの背景色 (フォーカス モードの場合)  <br> 複数行カードの枠線の色  <br> 図形の塗りつぶしの色 <br> ゲージの円弧の背景色 <br> 適用されたフィルター カードの背景色 <br> |
+| **fourthLevelElements** <br> **foregroundNeutralTertiary** (非推奨) | 凡例の淡色表示の色 <br> カードのカテゴリ ラベルの色 <br> 複数行カードのカテゴリ ラベルの色 <br> 複数行カードのバーの色 <br> じょうごグラフの変換率の線の色
+| **background** | ラベルの背景色 (内部データ ポイントの場合) <br> スライサーのドロップダウン項目の背景色  <br> ドーナツ グラフの線の色 <br> ツリーマップの線の色 <br> 複合グラフの背景色 <br> ボタンの塗りつぶしの色 <br> フィルター ウィンドウと使用可能なフィルター カードの背景色 |
+| **secondaryBackground** <br> **backgroundNeutral** (非推奨) | テーブルとマトリックスのグリッドの枠線の色 <br> 図形マップの既定の色 <br> リボン グラフのリボンの塗りつぶしの色 (系列一致オプションがオフになっている場合) |
+| **tableAccent** | テーブルとマトリックスのグリッドの枠線の色をオーバーライドする (存在する場合) |
 
 色クラスを設定するサンプル テーマを次に示します。
 
 ```json
-    {
-        "name": "Custom Theme",
-        "foreground": "#252423",
-          "foregroundNeutralSecondary": "#605E5C",
-          "foregroundNeutralTertiary": "#B3B0AD",
-        "background": "#FFFFFF",
-          "backgroundLight": "#F3F2F1",
-          "backgroundNeutral": "#C8C6C4",
-        "tableAccent": "#118DFF"
-    }
+{
+    "name": "Custom Theme",
+    "firstLevelElements": "#252423",
+    "secondLevelElements": "#605E5C",
+    "thirdLevelElements": "#F3F2F1",
+    "fourthLevelElements": "#B3B0AD",
+    "background": "#FFFFFF",
+    "secondaryBackground": "#C8C6C4",
+    "tableAccent": "#118DFF"
+}
 ```
 
-次に、JSON ファイルにテキスト クラスを追加できます。 テキスト クラスは、色クラスに似ていますが、レポート全体でテキストのグループに対するフォント サイズ、色、およびファミリを更新できるように設計されています。 テキスト クラスは 12 個ありますが、レポート内のすべてのテキストの書式設定を変更するために設定する必要があるのは、"*プライマリ クラス*" と呼ばれる 4 つのクラスだけです。 "*セカンダリ クラス*" と見なされる他のテキスト クラスのプロパティは、関連付けられているプライマリ クラスから自動的に継承または派生されます。 多くの場合、セカンダリ クラスでは、プライマリ クラスと比較して、影を薄くしたテキストの色や、ある割合で拡大または縮小されたテキスト サイズが派生されます。 
+> [!TIP]
+> "濃色のテーマ"、または "白" の **background** スタイル上の一般的な "黒" の **firstLevelElements** とは異なるその他のカラフルなテーマを作成する場合は、必ず、他の構造色と[プライマリ テキスト クラスの色](#setting-formatted-text-defaults)の値も設定してください。  これにより確実に、(たとえば) ラベルの背景があるグラフのデータ ラベルが予測されるスタイルと一致して読み取り可能となり、軸のグリッド線が表示されるようになります。
 
-"**ラベル**" クラスを例にして説明します。 **ラベル** クラスの既定の書式設定は、Segoe UI、#252423 (濃い灰色)、12 ポイントです。 このクラスは、テーブルとマトリックスの値の書式を設定するために使用されます。 通常、テーブルまたはマトリックスの合計には同様の書式が設定されますが、目立つように**太字ラベル** クラスを使って太字になっています。ただし、テーマの JSON でそのクラスを指定する必要はありません。Power BI によって自動的にそれが行われます。 後ほどお使いのテーマに 14 ポイントのフォントを持つラベルを指定する場合、**太字ラベル** クラスも更新する必要はありません。**ラベル** クラスからテキストの書式設定が継承されるためです。 
+### <a name="setting-formatted-text-defaults"></a>書式設定されたテキストの既定値の設定
+
+次に、JSON ファイルにテキスト クラスを追加できます。 テキスト クラスは、色クラスに似ていますが、レポート全体でテキストのグループに対するフォント サイズ、色、およびファミリを更新できるように設計されています。
+
+テキスト クラスは 12 個ありますが、レポート内のすべてのテキストの書式設定を変更するために設定する必要があるのは、"*プライマリ クラス*" と呼ばれる 4 つのクラスだけです。  これら 4 つのプライマリ クラスは、[ **[テーマのカスタマイズ]** ](#create-and-customize-a-theme-in-power-bi-desktop-preview) ダイアログ ボックスの [テキスト] セクションで設定できます。[全般] は **label**、[タイトル] は **title**、[カードと KPI] は **callout**、[タブ ヘッダー] は **header** に対応します。
+
+"*セカンダリ クラス*" と見なされる他のテキスト クラスのプロパティは、関連付けられているプライマリ クラスから自動的に派生されます。 多くの場合、セカンダリ クラスでは、プライマリ クラスと比較して、より明るい網掛けのテキストの色や、ある割合で拡大または縮小されたテキスト サイズが選択されます。
+
+"**ラベル**" クラスを例にして説明します。 **ラベル** クラスの既定の書式設定は、Segoe UI、#252423 (濃い灰色)、12 ポイントです。 このクラスは、テーブルとマトリックスの値の書式を設定するために使用されます。 通常、テーブルまたはマトリックスの合計には同様の書式が設定されますが、目立つように**太字ラベル** クラスを使って太字になっています。ただし、テーマの JSON でそのクラスを指定する必要はありません。Power BI によって自動的にそれが行われます。 後ほどお使いのテーマに 14 ポイントのフォントを持つラベルを指定する場合、**太字ラベル** クラスも更新する必要はありません。**ラベル** クラスからテキストの書式設定が継承されるためです。
 
 以下の表には、次の情報が示されています。
-* 4 つの各プライマリ テキスト クラス、それで設定される書式、およびその既定の設定
-* 各セカンダリ クラス、それで設定される書式、プライマリ クラスと比較して異なる既定の設定
 
+- 4 つの各プライマリ テキスト クラス、それで設定される書式、およびその既定の設定
+- 各セカンダリ クラス、それで設定される書式、プライマリ クラスと比較して異なる既定の設定
 
-|プライマリ クラス  |セカンダリ クラス  |JSON クラス名  |設定  |関連付けられているビジュアル オブジェクト  |
+|プライマリ クラス  |セカンダリ クラス  |JSON クラス名  | 既定の設定  |関連付けられているビジュアル オブジェクト  |
 |---------|---------|---------|---------|---------|
-| コールアウト   | 該当なし   | callout | DIN <br> #252423 <br> 45 ポイント |カードのデータ ラベル <br> KPI インジケーター|
+| コールアウト | 該当なし | callout | DIN <br> #252423 <br> 45 ポイント |カードのデータ ラベル <br> KPI インジケーター|
 |ヘッダー|該当なし|header|Segoe UI Semibold <br> #252423 <br> 12 ポイント |主要インフルエンサーのヘッダー |
-| タイトル || title    |DIN <br> #252423 <br> 12 ポイント |カテゴリ軸のタイトル <br> 値軸のタイトル <br> 複数行カードのタイトル* <br> スライサー ヘッダー|
-|-| 大きいタイトル | largeTitle    |14 ポイント   |ビジュアル タイトル |
+| タイトル || title |DIN <br> #252423 <br> 12 ポイント |カテゴリ軸のタイトル <br> 値軸のタイトル <br> 複数行カードのタイトル* <br> スライサー ヘッダー|
+|-| 大きいタイトル | largeTitle |14 ポイント |ビジュアル タイトル |
 |ラベル ||label |Segoe UI<br>#252423<br>10 ポイント |テーブルとマトリックスの列見出し <br> マトリックスの行見出し<br>テーブルとマトリックスのグリッド<br>テーブルとマトリックスの値 |
-|-|中太字 |semiboldLabel| Segoe UI Semibold   | 主要インフルエンサーのプロファイル テキスト
-|-|大    |largeLabel |12 ポイント   | 複数行カードのデータ ラベル |
-|-|小    |smallLabel |9 ポイント    |参照線のラベル* <br>スライサーの日付範囲ラベル<br> スライサーの数値入力のテキスト スタイル<br>スライサーの検索ボックス<br>主要インフルエンサーのインフルエンサー テキスト|
-|-|明るい    |lightLabel |#605E5C    |凡例のテキスト<br>ボタンのテキスト<br>カテゴリ軸のタイトル<br>じょうごグラフのデータ ラベル<br>じょうごグラフの変換率のラベル<br>ゲージ ターゲット<br>散布図のカテゴリ ラベル<br>スライサー項目|
-|-|太字 |boldLabel  |Segoe UI Bold  |マトリックスの小計<br>マトリックスの総計<br>テーブルの合計 |
-|-|大で明るい  |largeLightLabel    |#605E5C<br>12 ポイント    |カードのカテゴリ ラベル<br>ゲージ ラベル<br>複数行カードのカテゴリ ラベル |
-|-|小で明るい  |smallLightLabel    |#605E5C<br>9 ポイント |データ ラベル<br>値軸のラベル|
+|-|中太字 |semiboldLabel| Segoe UI Semibold | 主要インフルエンサーのプロファイル テキスト
+|-|大 |largeLabel |12 ポイント | 複数行カードのデータ ラベル |
+|-|小 |smallLabel |9 ポイント |参照線のラベル* <br>スライサーの日付範囲ラベル<br> スライサーの数値入力のテキスト スタイル<br>スライサーの検索ボックス<br>主要インフルエンサーのインフルエンサー テキスト|
+|-|明るい |lightLabel |#605E5C |凡例のテキスト<br>ボタンのテキスト<br>カテゴリ軸のタイトル<br>じょうごグラフのデータ ラベル<br>じょうごグラフの変換率のラベル<br>ゲージ ターゲット<br>散布図のカテゴリ ラベル<br>スライサー項目|
+|-|太字 |boldLabel |Segoe UI Bold |マトリックスの小計<br>マトリックスの総計<br>テーブルの合計 |
+|-|大で明るい |largeLightLabel |#605E5C<br>12 ポイント |カードのカテゴリ ラベル<br>ゲージ ラベル<br>複数行カードのカテゴリ ラベル |
+|-|小で明るい |smallLightLabel |#605E5C<br>9 ポイント |データ ラベル<br>値軸のラベル|
 
+*\* 星印の付いた項目も、レポート テーマの最初のデータ色に基づいて色付けされます。*
+
+> [!TIP]
+> テキスト クラスの "*明るい*" バリエーションでは、上記に定義されている[構造色](#setting-structural-colors)の明るい色を使用します。  "濃色のテーマ" を作成する場合は、必ず、"firstLevelElements" (プライマリ テキストの色と一致)、"secondLevelElements" (テキストに対して予測される "明るい" 色と一致)、および "background" (コントラストが最初と 2 番目のレベルの要素の色の両方に対して十分である) の色も設定してください。
+
+プライマリ テキスト クラスのみを設定するテーマの例を次に示します。
+
+```json
+{
+    "name": "Custom Theme",
+    "textClasses": {
+        "callout": {
+            "fontSize": 45,
+            "fontFace": "DIN",
+            "color": "#252423"
+        },
+        "title": {
+            "fontSize": 12,
+            "fontFace": "DIN",
+            "color": "#252423"
+        },
+        "header": {
+            "fontSize": 12,
+            "fontFace": "Segoe UI Semibold",
+            "color": "#252423"
+        },
+        "label": {
+            "fontSize": 10,
+            "fontFace": "Segoe UI",
+            "color": "#252423"
+        }
+    }
+}
+```
 
 セカンダリ クラスはプライマリ クラスから継承されるため、テーマ ファイル内でそれらを設定する必要はありません。 ただし、その継承規則を使用したくない場合 (たとえば、テーブルの合計をその値の太字バージョンにしたくない場合など) は、プライマリ クラスの書式設定と同様に、テーマ ファイルでセカンダリ クラスを明示的に書式設定できます。
 
-プライマリ テキスト クラスのみを設定するテーマの例を次に示します。 
+### <a name="setting-visual-property-defaults-visualstyles"></a>視覚エフェクトのプロパティの既定値の設定 (`visualStyles`)
+
+最後に、レポートのすべてのビジュアルの書式設定がより細かく制御された、拡張形式の JSON ファイルを作成するには、JSON ファイルに **visualStyles** セクションを追加して、書式設定の詳細を入れ子にします。 **visualStyles** セクションのテンプレート化された例を以下に示します。
 
 ```json
-    {
-            "name": "Custom Theme",
-          "textClasses": {
-                "callout": {
-                    "fontSize": 45,
-                    "fontFace": "wf_standard-font",
-                    "color": "#252423"
-                },
-                "title": {
-                    "fontSize": 12,
-                    "fontFace": "wf_standard-font",
-                    "color": "#252423"
-                },
-                "header": {
-                    "fontSize": 12,
-                    "fontFace": "Segoe UI Semibold",
-                    "color": "#252423"
-                },
-                "label": {
-                    "fontSize": 10,
-                    "fontFace": "Segoe UI",
-                    "color": "#252423"
-                }
-        }    
-    }
-```
-
-最後に、すべてのビジュアルの書式設定がより細かく制御された拡張形式 JSON ファイルを作成するには、JSON ファイルに **visualStyles** セクションを追加して、書式設定の詳細を入れ子にします。 **visualStyles** セクションの例を次に示します。
-
-    visualStyles: {
-        visualName: {
-            styleName: {
-                cardName: [{
-                    propertyName: propertyValue
+    "visualStyles": {
+        "<visualName>": {
+            "<styleName>": {
+                "<cardName>": [{
+                    "<propertyName>": <propertyValue>
                 }]
             }
         }
     }
+```
 
-**VisualName** セクションと **cardName** セクションでは、特定のビジュアルとカード名を使用します。 現在、**styleName** は常にアスタリスク (*) ですが、今後のリリースでは、ビジュアル用に異なるスタイルを作成し、名前を付けることができるようになります (テーブルとマトリックスのスタイル機能に似ています)。 **propertyName** は書式設定オプションの名前であり、**propertyValue** はその書式設定オプションの値です。  
+**VisualName** セクションと **cardName** セクションでは、特定のビジュアルとカード名を使用します。 現在、**styleName** は常にアスタリスク (*) ですが、今後のリリースでは、ビジュアル用に異なるスタイルを作成し、名前を付けることができるようになります (テーブルとマトリックスのスタイル機能に似ています)。 **propertyName** は書式設定オプションの名前であり、**propertyValue** はその書式設定オプションの値です。
 
 **visualName** と **cardName** については、プロパティを持つすべてのビジュアルまたはカードにその設定を適用する場合は、引用符で囲んだアスタリスクを使用します。 ビジュアル名とカード名の両方にアスタリスクを使用すると、実質的に、レポート内でグローバルに設定を適用することになります (すべてのビジュアルのすべてのテキストに対するフォント サイズや特定のフォント ファミリなど)。
 
-ビジュアル スタイルを使用していくつかのプロパティを設定する例を次に示します。 
+ビジュアル スタイルを使用していくつかのプロパティを設定する例を次に示します。
 
 ```json
-{  
+{
    "name":"Custom Theme",
-   "visualStyles":{  
-      "*":{  
-         "*":{  
-            "*":[{  
-                  "wordWrap":true
+   "visualStyles":{
+      "*": {
+         "*": {
+            "*": [{
+                "wordWrap": true
             }],
-            "categoryAxis":[{
-                  "gridlineStyle":"dotted"
+            "categoryAxis": [{
+                "gridlineStyle": "dotted"
             }],
-            "filterCard":[{  
-                  "$id":"Applied",
-                  "foregroundColor":{"solid":{"color":"#252423"}}
-               },
-               {  
-                  "$id":"Available",
-                  "border":true
-            }]
+            "filterCard": [
+              {
+                "$id": "Applied",
+                "foregroundColor": {"solid": {"color": "#252423" } }
+              },
+              {
+                "$id":"Available",
+                "border": true
+              }
+            ]
          }
       },
-      "scatterChart":{  
-         "*":{  
-            "bubbles":[{  
-                  "bubbleSize":-10
+      "scatterChart": {
+         "*": {
+            "bubbles": [{
+                  "bubbleSize": -10
             }]
          }
       }
@@ -431,19 +462,17 @@ Power BI Desktop の 2019 年 12 月リリース以降、現在適用されて�
 
 この例では、次の設定が行われます。
 
-* すべての場所で右端での折り返しを有効にする
-* カテゴリ軸があるすべてのビジュアルで、グリッド線のスタイルを点線に設定する
-* 使用可能および適用済みのフィルター カードのいくつかの書式を設定する ("$id" を使用して異なるバージョンのフィルター カードを設定している書式設定に注意してください)
-* 散布図のバブル サイズを -10 に設定する。
-
+- すべての場所で右端での折り返しを有効にする
+- カテゴリ軸があるすべてのビジュアルで、グリッド線のスタイルを点線に設定する
+- 使用可能および適用済みのフィルター カードのいくつかの書式を設定する ("$id" を使用して異なるバージョンのフィルター カードを設定している書式設定に注意してください)
+- 散布図のバブル サイズを -10 に設定する。
 
 > [!NOTE]
 > 調整したい書式設定要素を指定するだけでかまいません。 JSON ファイルに含まれていない書式設定要素は、既定の値と設定に戻ります。
-> 
-> 
 
-### <a name="json-file-element-definitions"></a>JSON ファイル要素定義
-このセクションの表では、ビジュアル名 (**visualName**)、カード名 (**cardName**)、JSON ファイルの作成に必要な列挙を定義します。
+### <a name="visualstyles-definition-list"></a>`visualStyles` 定義リスト
+
+このセクションの表では、視覚エフェクトの名前 (**visualName**)、カードの名前 (**cardName**)、プロパティの名前 (**propertyName**)、および JSON ファイルの作成に必要な列挙を定義します。
 
 | visualName の値 |
 | --- |
@@ -536,24 +565,24 @@ Power BI Desktop の 2019 年 12 月リリース以降、現在適用されて�
 | zoom:ズーム |
 
 ### <a name="properties-within-each-card"></a>各カード内のプロパティ
-次のセクションでは、各カードに含まれるプロパティを定義します。 カード名の後で各プロパティ名を指定します。 プロパティごとに、書式設定ペインが表示される場合に表示される名前、書式設定オプションの動作の説明、および書式設定オプションの種類を指定します。 この方法により、テーマ ファイルで使用できる値の種類を知ることができます。 
+
+次のセクションでは、各カードに含まれるプロパティを定義します。 カード名の後で各プロパティ名を指定します。 プロパティごとに、書式設定ペインが表示される場合に表示される名前、書式設定オプションの動作の説明、および書式設定オプションの種類を指定します。 この方法により、テーマ ファイルで使用できる値の種類を知ることができます。
 
 **dateTime** を使用するときは、日付は ISO 日付にして一重引用符を付けます。また、datetime を先頭に付けます。 次の例を参照してください。
 
-    “datetime’2011-10-05T14:48:00.000Z’”
+  "datetime'2011-10-05T14:48:00.000Z'"
 
 ブール値は true または false です。 文字列は、"this is a string" のように、二重引用符で囲む必要があります。 数値は、引用符のない値自体だけです。
 
-色では、次の形式が使用されます。カスタムの 16 進数コードによって "FFFFFF" が置き換えられる例を次に示します。  
+色では、次の形式が使用されます。カスタムの 16 進数コードによって "FFFFFF" が置き換えられる例を次に示します。
 
     { "solid": { "color": "#FFFFFF" } }
 
 ドロップダウン書式設定オプションで最もよく使用される列挙値は、ペインに表示される任意のオプションに設定できます。たとえば、凡例の位置に対する "RightCenter" や、円データ ラベルに対する "Data value, percent of total" などです。 列挙オプションは、プロパティ リストの後で示します。
 
-
 ```json
 {
-      "general":{ 
+      "general":{
         "responsive": {
           "type": [
             "bool"
@@ -4459,3 +4488,29 @@ Power BI Desktop の 2019 年 12 月リリース以降、現在適用されて�
   }
 }
 ```
+
+## <a name="limitations-and-considerations"></a>制限事項と考慮事項
+
+元のテーマのいずれか ("クラシック" テーマ)、またはこれらのいずれかの上にインポートしたカスタム テーマを使用する場合は、テーマ ダイアログ ボックスのテキスト セクションで構成することはできません。
+
+この制限の影響を受ける組み込みテーマには、次のテーマがあります。
+* Classic (クラシック)
+* 公園
+* 教室
+* 色の識別が困難な障碍を抱えるユーザーにとって安全
+* エレクトリック
+* ハイ コントラスト
+* 夕日
+* トワイライト
+
+影響を受けるテーマのいずれかを使用していて、テキスト設定を変更する必要がない場合は、ダイアログ ボックスの他のタブを問題なく安全に使用できます。 しかし、影響を受けるテーマのいずれかでテキスト クラスを使用する場合は、次の 2 つのオプションがあります。
+
+- テキスト クラスを有効にする最も迅速かつ簡単な方法は、既定のテーマ オプションを選択することです。
+- 現在のカスタム テーマを保持する場合に、テキスト タブを有効にするには、次のようにします。
+  1. 現在のテーマをエクスポートします。
+  1. 既定のテーマを選択します。
+  1. 最初の手順でエクスポートしたカスタム テーマをインポートします。
+
+レポート内のテキストの外観は異なりますが、テーマ ダイアログ ボックスのテキスト タブにはアクセスできます。
+
+

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: cc20d981e1e774eed109c614e146415ec3813601
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218247"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709799"
 ---
-# <a name="qa-for-power-bi-consumers"></a>Power BI **コンシューマー**のための Q&A
+# <a name="qa-for-power-bi-consumers"></a>Power BI コンシューマーのための Q&A
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -167,6 +167,10 @@ Q&A ビジュアルは、上部に並んだ質問ボックスで見分けるこ�
 **回答**:レポートまたはダッシュボードの所有者に連絡するためのオプションを選択してください。 この操作は、Q&A のダッシュボード ページまたは Q&A ビジュアルから直接行うことができます。 または、Power BI のヘッダーから所有者を検索できます。  Q&A の結果を改善するためにデザイナーができることがたくさんあります。 たとえば、デザイナーは、簡単に理解される言葉を使用するようにデータセットの列名を変更できます (`CustFN` の代わりに `CustomerFirstName`)。 デザイナーはデータセットのことをよく理解しているため、役に立つ質問を考え、Q&A によって提案される質問にそれらを追加できます。
 
 ![連絡先情報を表示する](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+
+## <a name="privacy"></a>プライバシー
+
+Microsoft は、Power BI を改善するために質問を使用する場合があります。 詳細については、「[Microsoft プライバシー ステートメント](https://go.microsoft.com/fwlink/?LinkId=521839)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 Q&A ビジュアルがレポートの "*デザイナー*" によってどのように作成され、管理されるかについては、[Q&A ビジュアルの種類](../visuals/power-bi-visualization-q-and-a.md)に関するページを参照してください。

@@ -457,6 +457,8 @@
           href: service-get-started.md
         - name: GitHub サンプルへの接続
           href: service-tutorial-connect-to-github.md
+        - name: Excel で分析を使用する
+          href: service-tutorial-analyze-in-excel.md
         - name: Cognitive Services の使用
           href: service-tutorial-use-cognitive-services.md
         - name: Machine Learning 統合

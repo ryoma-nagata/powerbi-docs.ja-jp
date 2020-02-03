@@ -6,33 +6,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 131101d6e7a23b7c6d8571c89097036f1149a2f3
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 2c09f21565cdf9987aad2027a148823fb32e2e55
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761544"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538988"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>例を提供して Web ページ データを取得する
 
-Web ページからのデータ取得を利用すると、ユーザーは Web ページからデータを簡単に抽出し、そのデータを **Power BI Desktop** にインポートすることができます。 ただし、多くの場合、Web ページ上のデータは、抽出が容易な整理されたテーブル形式ではないので、たとえ構造化され、一貫していても、そのようなページからデータを取得することは困難です。 
+Web ページからのデータ取得を利用すると、ユーザーは Web ページからデータを簡単に抽出し、そのデータを *Power BI Desktop* にインポートすることができます。 ただし、多くの場合、Web ページ上のデータは、抽出が容易な整理されたテーブル形式ではありません。 データが構造化されていて、一貫性がある場合でも、そのようなページからデータを取得することは困難です。
 
-そこで解決策があります。 **[Get Data from Web by example]\(例を指定して Web からデータを取得する\)** 機能を使用すると、基本的にはコネクタ ダイアログで 1 つ以上の例を指定して抽出するデータを **Power BI Desktop** に示すことができます。その結果、指定した例に合うその他のデータが収集され、ページに表示されます。 この解決策を利用すると、テーブルで見つかったデータ*だけでなく*、その他のテーブル以外のデータなど、Web ページからあらゆる種類のデータを抽出できます。 
+解決策はあります。 "*例を指定して Web からデータを取得する*" 機能を使用すると、基本的には、コネクタ ダイアログで 1 つ以上の例を指定して、抽出するデータを Power BI Desktop に示すことができます。 Power BI Desktop により、ページ上で例と一致する他のデータが収集されます。 この解決策を利用すると、テーブルで見つかったデータ*だけでなく*、その他のテーブル以外のデータなど、Web ページからあらゆる種類のデータを抽出できます。
 
 ![例を指定して Web からデータを取得する](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
-
+画像の価格はあくまでも例です。
 
 ## <a name="using-get-data-from-web-by-example"></a>[Get Data from Web by example]\(例を指定して Web からデータを取得する\) の使用
 
-**[Get Data from Web by example]\(例を指定して Web からデータを取得する\)** を使用するには、 **[ホーム]** リボン メニューから **[データを取得]** を選択します。 表示されるウィンドウで、左ウィンドウのカテゴリから **[その他]** を選択し、 **[Web]** を選択します。
+**[ホーム]** リボン メニューで **[データを取得]** を選択します。 表示されるダイアログ ボックスで、左のペインのカテゴリから **[その他]** を選択し、**[Web]** を選択します。 **[接続]** を選択して続行します。
 
 ![[データを取得] から [Web] を選択する](media/desktop-connect-to-web-by-example/web-by-example_03.png)
 
-ここから、データを抽出する Web ページの URL を入力します。 この記事では、Microsoft Store の Web ページを使用し、このコネクタのしくみを紹介します。 
+**[Web から]** で、データを抽出する Web ページの URL を入力します。 この記事では、Microsoft Store の Web ページを使用し、このコネクタのしくみを紹介します。
 
 この記事に従って操作する場合は、この記事で使用している [Microsoft Store の URL](https://www.microsoft.com/store/top-paid/games/xbox?category=classics) を利用できます。
 
@@ -40,34 +40,33 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 ![Web ダイアログ](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
-**[OK]** を選択すると、 **[ナビゲーター]** ダイアログが表示され、Web ページから自動検出されたテーブルが表示されます。 下図の例では、テーブルは見つかりませんでしたが、ページの下部に、 **[Extract table using examples]\(例を使用してテーブルを抽出する\)** というボタンが表示されます。このボタンをクリックして例を指定できます。
-
+**[OK]** を選択すると、**[ナビゲーター]** ダイアログ ボックスが表示され、Web ページから自動検出されたテーブルが表示されます。 次の図に示されているケースでは、テーブルが見つかりませんでした。 例を提供するには、**[例を使用してテーブルを追加]** を選択します。
 
 ![[ナビゲーター] ウィンドウ](media/desktop-connect-to-web-by-example/web-by-example_05.png)
 
-**[Extract table using examples]\(例を使用してテーブルを抽出する\)** を選択すると、対話型ウィンドウが表示されます。ここでは、Web ページのコンテンツをプレビューし、抽出するデータのサンプル値を入力できます。 
+**[例を使用してテーブルを追加]** を選択すると、Web ページのコンテンツをプレビューできる対話型ウィンドウが表示されます。 抽出するデータのサンプル値を入力します。
 
-この例では、ページ上のゲームごとに*名前*と*価格*を抽出します。 次の図に示すように、ページの各列からいくつかの例を指定することで、抽出することができます。 このように例を入力すると、**Power Query** (Web ページからデータを抽出する基礎となるテクノロジ) で、スマート データ抽出アルゴリズムを使用してサンプル エントリのパターンに適合するデータを抽出することができます。
+この例では、ページ上のゲームごとに*名前*と*価格*を抽出します。 ページから各列の例をいくつか指定することで、それを行うことができます。 例を入力すると、*Power Query* により、スマート データ抽出アルゴリズムを使用して、入力した例のパターンに適合するデータが抽出されます。
 
 ![例を指定したデータ](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
-> 注意:値の候補に含まれるのは、長さが 128 文字以下の値のみです。
+> [!NOTE]
+> 値の候補に含まれるのは、長さが 128 文字以下の値のみです。
 
-Web ページから抽出されたデータに満足したら、 **[OK]** を選択して **[クエリ エディター]** に移動します。クエリ エディターではさらに変換を適用したり、データを整形したりすることができます (このデータを他のデータ ソースと組み合わせるなど)。
+Web ページから抽出されたデータに問題がなければ、**[OK]** を選択して Power Query エディターに移動します。 さらに変換を適用したり、このデータを他のデータと結合するといった、データの整形を行ったりすることができます。
 
 ![例を指定したデータ](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
-そこからビジュアルを作成したり、**Power BI Desktop** レポートを作成するときに Web ページ データを使用したりすることができます。
-
+そこからは、ビジュアルを作成したり、Power BI Desktop レポートを作成するときに Web ページのデータを使用したりすることができます。
 
 ## <a name="next-steps"></a>次の手順
-**Power BI Desktop** を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
-* [例から列を追加する](desktop-add-column-from-example.md)
-* [Web ページに接続する](desktop-connect-to-web.md)
+Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
+
+* [Power BI Desktop で例から列を追加する](desktop-add-column-from-example.md)
+* [Power BI Desktop から Web ページに接続する](desktop-connect-to-web.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
-* [Power BI Desktop で Excel ブックに接続する](desktop-connect-excel.md)   
-* [Power BI Desktop で CSV ファイルに接続する](desktop-connect-csv.md)   
-* [Power BI Desktop にデータを直接入力する](desktop-enter-data-directly-into-desktop.md)   
-
+* [Power BI Desktop で Excel ブックに接続する](desktop-connect-excel.md)
+* [Power BI Desktop で CSV ファイルに接続する](desktop-connect-csv.md)
+* [Power BI Desktop にデータを直接入力する](desktop-enter-data-directly-into-desktop.md)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1349d62d0400c0ad283f6e9e234c44ffce0d63b9
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73766403"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537211"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI におけるデータ保護 (プレビュー)
 
@@ -35,7 +35,7 @@ Power BI のデータ保護を使用すると、次のことが可能です。
 
 秘密度ラベルは、[Microsoft 365 セキュリティ センター](https://security.microsoft.com/)または [Microsoft 365 コンプライアンス センター](https://compliance.microsoft.com/)内で作成および管理します。
 
-これらのセンターのどちらかで秘密度ラベルにアクセスするには、 **[分類] > [秘密度ラベル]** に移動します。 これらの秘密度ラベルは、Azure Information Protection、Office アプリ、Office 365 サービスなど、複数の Microsoft サービスで使用できます。
+これらのセンターのどちらかで秘密度ラベルにアクセスするには、**[分類] > [秘密度ラベル]** に移動します。 これらの秘密度ラベルは、Azure Information Protection、Office アプリ、Office 365 サービスなど、複数の Microsoft サービスで使用できます。
 
 > [!IMPORTANT]
 > Azure Information Protection のユーザーが Power BI 内で秘密度ラベルを使用するには、ラベルを前述のサービスのいずれかに移行する必要があります。 また、秘密度ラベルはパブリック クラウド内でのみサポートされており、ソブリン クラウドなどのクラウド内のテナントではサポートされていません。
@@ -99,13 +99,13 @@ Microsoft Cloud App Security を使用して、Power BI のコンテンツを意
 * 秘密度ラベルは、ダッシュボード、レポート、データセット、およびデータフローにのみ適用できます。
 * エクスポートされたファイルに対するラベルおよび保護制御の適用は、Excel、PowerPoint、および PDF ファイルに対してのみサポートされています。 データの .CSV ファイルへのエクスポート、メールの受信登録、ビジュアルの埋め込み、印刷を行う場合は、ラベルと保護は適用されません。
 * Power BI からファイルをエクスポートしたユーザーには、秘密度ラベルの設定に従って、そのファイルにアクセスして編集するためのアクセス許可が与えられます。 データをエクスポートしたユーザーに、そのファイルに対する所有者のアクセス許可を与えられません。 
-* 現在、秘密度ラベルは[ページ分割されたレポート]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)とブックでは使用できません。 
-* 現在、ラベルを適用後に Power BI 資産から削除することはできません。
+* 現在、秘密度ラベルは[ページ分割されたレポート]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)とブックでは使用できません。
 * Power BI 資産の秘密度ラベルは、ワークスペースの一覧と系列ビューでのみ表示されます。現在、お気に入り、自分と共有、最近使用、アプリ ビューでは表示されません。 ただし、Power BI 資産に適用されているラベルは、表示されない場合でも、Excel、PowerPoint、および PDF ファイルにエクスポートされたデータに常に保持されることに注意してください。
 * [Microsoft 365 セキュリティ センター](https://security.microsoft.com/)または [Microsoft 365 コンプライアンス センター](https://compliance.microsoft.com/)内で構成されている秘密度ラベルの "*ファイル暗号化設定*" は Power BI "*からエクスポートされた*" ファイルにのみ適用されます。Power BI "*内*" で適用されることはありません。
 * Power BI 内で適用されているラベルでは、[HYOK 保護](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)はサポートされていません。
 * Office アプリ内でラベルを表示および適用するには、[ライセンス要件](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)があります。
 * 秘密度ラベルは、グローバル (パブリック) クラウド内のテナントに対してのみサポートされています。 秘密度ラベルは、他のクラウド内のテナントではサポートされません。
+* [外部ユーザー (Azure Active Directory B2B ゲスト ユーザー)](../service-admin-azure-ad-b2b.md) については、秘密度ラベルはサポートされていません。 これは、外部ユーザーはラベルを表示できず、Excel、PDF、および PPTX ファイルへのデータのエクスポートがブロックされることを意味します。 外部ユーザーがこれらのファイルの種類にデータをエクスポートできるようにするには、[ラベルを削除](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels)します。
 
 
 
@@ -116,3 +116,4 @@ Microsoft Cloud App Security を使用して、Power BI のコンテンツを意
 * [Power BI 内でデータの秘密度ラベルを有効にする](service-security-enable-data-sensitivity-labels.md)
 * [Power BI 内でデータの秘密度ラベルを適用する](../designer/service-security-apply-data-sensitivity-labels.md)
 * [Power BI 内で Microsoft Cloud App Security の制御を使用する](service-security-using-microsoft-cloud-app-security-controls.md)
+* [データ保護メトリック レポート](service-security-data-protection-metrics-report.md)
