@@ -489,8 +489,10 @@
               href: service-new-workspaces.md
             - name: 作業の共有
               href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Power BI の使用状況を監視する
+            - name: クラシック ワークスペースで使用状況を監視する
               href: service-usage-metrics.md
+            - name: 新しいワークスペースで使用状況を監視する
+              href: service-modern-usage-metrics.md
         - name: ライセンス
           items:
             - name: Power BI にサインアップする
@@ -645,8 +647,6 @@
               href: service-create-qr-code-for-report.md
             - name: レポートを Power BI Desktop にエクスポートする (プレビュー)
               href: service-export-to-pbix.md
-            - name: URL のパラメーターを使用してレポートをフィルター処理する
-              href: service-url-filters.md
             - name: SAP 変数の編集
               href: service-edit-sap-variables.md
             - name: 高速で信頼性の高いレポートを作成するためのベスト プラクティス
@@ -691,8 +691,10 @@
           items:
             - name: ダッシュボードとレポートを共有する
               href: service-share-dashboards.md
-            - name: フィルター処理されたレポートを共有する
+            - name: レポートのフィルター処理と共有
               href: service-share-reports.md
+            - name: URL のパラメーターを使用してレポートをフィルター処理する
+              href: service-url-filters.md
             - name: 自分や他のユーザーをサブスクライブする
               href: service-report-subscribe.md
             - name: SharePoint Online にレポートを埋め込む

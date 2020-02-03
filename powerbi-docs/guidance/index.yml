@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 4f9d90caa643771ee300a9e7a62b4eb819becc82
-  ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+  ms.openlocfilehash: e3c842b40f0919ccbda823930bcb0a3f212d67cc
+  ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 01/17/2020
-  ms.locfileid: "76161457"
+  ms.lasthandoff: 01/30/2020
+  ms.locfileid: "76888663"
 landingContent:
 - title: Power BI ガイダンス
   linkLists:
@@ -51,6 +51,8 @@ landingContent:
       url: auto-date-time.md
     - text: DirectQuery モデルのガイダンス
       url: directquery-model-guidance.md
+    - text: 複合モデルのガイダンス
+      url: composite-model-guidance.md
     - text: 多対多のリレーションシップのガイダンス
       url: relationships-many-to-many.md
 - title: DAX
@@ -81,7 +83,7 @@ landingContent:
       url: report-page-tooltips.md
     - text: レポート ページのドリルスルーの使用
       url: report-drillthrough.md
-    - text: Power BI のページ分割されたレポートを使用する条件
+    - text: どのようなときに Power BI のページ分割されたレポートを使用するか
       url: report-paginated-or-power-bi.md
     - text: ページ分割されたレポートでカスケード型パラメーターを使用する
       url: paginated-report-cascading-parameter.md
@@ -89,3 +91,9 @@ landingContent:
       url: report-paginated-blank-page.md
     - text: SSRS レポートを Power BI に移行する
       url: migrate-ssrs-reports-to-power-bi.md
+- title: 管理者とデプロイ
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: オンプレミス データ ゲートウェイのサイズ設定
+      url: gateway-onprem-sizing.md
