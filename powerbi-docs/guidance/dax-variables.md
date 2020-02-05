@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: f352cbbd7c42aa54ae876e73c0ed821eccda59c8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74700710"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX:変数を使用して数式を改善する
@@ -26,7 +26,7 @@ DAX の数式で変数を使用すると、複雑で効率的な計算を作成�
 - [デバッグの簡略化](#simplify-debugging)
 - [複雑さの軽減](#reduce-complexity)
 
-この記事では、前年比 (YoY) での売上の増加を表すメジャーの例を使用して、最初の 3 つの利点について説明します  2(YoY での売上増加を求める数式は、期間売上から昨年の同じ期間の売上を引いて、昨年の同じ期間の売上で "_割る_" というものです)。
+この記事では、前年比 (YoY) での売上の増加を表すメジャーの例を使用して、最初の 3 つの利点について説明します 2(YoY での売上増加を求める数式は、期間売上から昨年の同じ期間の売上を引いて、昨年の同じ期間の売上で "_割る_" というものです)。
 
 まず、次のメジャー定義から始めましょう。
 

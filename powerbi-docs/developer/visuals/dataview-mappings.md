@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74696650"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Power BI ビジュアルでのデータ ビューのマッピングについて理解する
@@ -866,9 +866,9 @@ Power BI のコア マトリックス ビジュアルでは、データがテー
 
 * `top`: データセットの先頭から取得した値にデータを制限する場合。 先頭から *count* 個の値がデータセットから取得されます。
 * `bottom`: データセットの末尾から取得した値にデータを制限する場合。 末尾から "count" 個の値がデータセットから取得されます。
-* `sample`: *count* 個の項目に制限されたシンプルなサンプリング アルゴリズムによってデータセットを減らします。 これは、最初と最後の項目と、それらの間にある等間隔の *count* 個の項目が含まれることを意味します。
+* `sample`:*count* 個の項目に制限されたシンプルなサンプリング アルゴリズムによってデータセットを減らします。 これは、最初と最後の項目と、それらの間にある等間隔の *count* 個の項目が含まれることを意味します。
 たとえば、データ セット [0, 1, 2,...100] をお持ちで、*count* が 9 である場合、値 [0, 10, 20...100] を受け取ることになります。
-* `window`: *count* 個の要素を含む、ある時点のデータ ポイントの 1 つの *window* を読み込みます。 現時点では、`top` と `window` は同等です。 ウィンドウ設定を完全にサポートするための取り組みを進めています。
+* `window`:*count* 個の要素を含む、ある時点のデータ ポイントの 1 つの *window* を読み込みます。 現時点では、`top` と `window` は同等です。 ウィンドウ設定を完全にサポートするための取り組みを進めています。
 
 ## <a name="data-reduction-algorithm-usage"></a>データの削減アルゴリズムの使用
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74700388"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX:BLANK を値に変換しない
@@ -49,7 +49,7 @@ DIVIDE([Profit], [Sales], 0)
 
 ![テーブル ビジュアルには、次の 3 つの列があります: Customer、Sales、Profit Margin。 テーブルには約 10 行のデータが表示されていますが、垂直スクロール バーから、表示できる行が他にも数多くあることがわかります。 Sales 列には値が表示されていません。 Profit Margin 列にはゼロのみが表示されています。](media/dax-avoid-converting-blank/table-visual-poor.png)
 
-このテーブル ビジュアルには、膨大な数の行が表示されます  (実際にはモデルに 18,484 名の顧客が存在し、テーブルはそのすべてを表示しようとします)。ビュー内の顧客が売上を達成していないことに注目してください。 それにもかかわらず、**Profit Margin** メジャーから常に値が返るため、表示されています。
+このテーブル ビジュアルには、膨大な数の行が表示されます (実際にはモデルに 18,484 名の顧客が存在し、テーブルはそのすべてを表示しようとします)。ビュー内の顧客が売上を達成していないことに注目してください。 それにもかかわらず、**Profit Margin** メジャーから常に値が返るため、表示されています。
 
 > [!NOTE]
 > ビジュアルに表示するデータ ポイントが多すぎる場合、Power BI ではデータ削減戦略を使用して大きなクエリ結果を削除または集計することがあります。 詳細については、[ビジュアルの種類別のデータ ポイントの制限と戦略](../visuals/power-bi-data-points.md)に関する記事をご覧ください。
