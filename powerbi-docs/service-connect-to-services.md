@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73925820"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975035"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI で使用するサービスに接続する
 Power BI では、Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用する数多くのサービスに接続できます。 Power BI は、資格情報を使用してサービスに接続することで開始します。 これは、データを自動表示し、ビジネスに関する分析を視覚的に示すダッシュボードと一連の Power BI レポートで Power BI "*ワークスペース*" を作成します。
@@ -55,7 +55,7 @@ Power BI にサインインし、[接続できるすべてのサービス](https
 **タイルが空になっている**  
 Power BI が初めてサービスに接続するとき、ダッシュボードに空のタイル セットが表示されることがあります。 2 時間後、空のダッシュボードが依然として表示される場合、接続に失敗した可能性があります。 問題の修正の関する情報を含むエラー メッセージが表示されなかった場合、サポート チケットを利用してください。
 
-* 右上隅にある疑問符アイコン ( **?** ) を選択し、 **[ヘルプを取得]** を選択します。
+* 右上隅にある疑問符アイコン (**?**) を選択し、**[ヘルプを取得]** を選択します。
   
     ![[ヘルプを取得] アイコン](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -71,5 +71,4 @@ Power BI アプリにしてほしいサービスがある場合は、 [[Power BI
 * [同僚にアプリを配布する](service-create-distribute-apps.md)
 * [Power BI で新しいワークスペースを作成する](service-create-the-new-workspaces.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-* 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 50de63aed17d9fab695119d5c94fa4a5d9312702
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74834588"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポートのパラメーターを表示する
@@ -31,7 +31,7 @@ ms.locfileid: "74834588"
   
 3.  **Location パラメーター**: Location パラメーターは、1 つ、複数、または全部の値を選択できるように設定されています。 
   
-4.  **[レポートの表示]** : パラメーターの値を入力または変更した後、 **[レポートの表示]** をクリックしてレポートを実行します。 
+4.  **[レポートの表示]**: パラメーターの値を入力または変更した後、**[レポートの表示]** をクリックしてレポートを実行します。 
 
 5. **既定値**: すべてのパラメーターに既定値がある場合、レポートは最初に表示した時点で自動的に実行されます。 このレポートでは一部のパラメーターに既定値がないため、値を選択するまでレポートは表示されません。  
 

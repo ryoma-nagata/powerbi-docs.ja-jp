@@ -10,10 +10,10 @@ ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265333"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
@@ -711,7 +711,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * Power BI と [appFigures コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx)を使用すると、アプリに関する重要な統計情報を簡単に追跡できるようになりました。 接続および開始の方法の詳細については、Power BI 用 appFigures コンテンツ パックの[ドキュメント](service-connect-to-appfigures.md)をご覧ください。
 
-**2015 年 5 月 28 日**
+**2015 年 5 月 28 日 **
 
 * この[コンテンツ パック](https://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)を使用して、QuickBooks Online アカウントのデータに関する洞察をすばやく得ることができます。 接続および開始の方法の詳細については、Power BI 用 QuickBooks Online コンテンツ パックの[ドキュメント](service-connect-to-quickbooks-online.md)をご覧ください。
 

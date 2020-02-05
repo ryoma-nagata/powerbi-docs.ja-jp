@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76753193"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro のユーザー ライセンスを購入して割り当てる
@@ -32,7 +32,7 @@ Power BI Pro は、他のユーザーが Power BI サービスに発行したレ
 
 ### <a name="prerequisites"></a>前提条件
 
-Microsoft 365 管理センターでライセンスを購入して割り当てるには、Microsoft 365 の **[グローバル管理者または課金管理者](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)** のどちらかのロールのメンバーであることが必要です。
+Microsoft 365 管理センターでライセンスを購入して割り当てるには、Microsoft 365 の**[グローバル管理者または課金管理者](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)** のどちらかのロールのメンバーであることが必要です。
 
 Azure portal でライセンスの割り当てを行うユーザーは、Power BI が Azure Active Directory 参照で使用する Azure サブスクリプションの所有者である必要があります。
 
@@ -42,21 +42,21 @@ Microsoft 365 管理センターで Power BI Pro ライセンスを購入する�
 
 1. [Microsoft 365 管理センター](https://admin.microsoft.com)にサインインします。
 
-2. ナビゲーション メニューで、 **[課金]**  >  **[サービスの購入]** を選択します。
+2. ナビゲーション メニューで、**[課金]** > **[サービスの購入]** を選択します。
 
 3. 検索またはスクロールして、購入するサブスクリプションを見つけます。 **Power BI** は、ページの下部の近くにある **[Other categories that might interest you]\(興味深いその他のカテゴリ\)** に表示されます。 リンクを選択すると、組織で利用可能な Power BI サブスクリプションが表示されます。
 
 4. **[Power BI Pro]** を選択します。
 
-5. **[サービスの購入]** ページで、 **[購入]** を選択します。
+5. **[サービスの購入]** ページで、**[購入]** を選択します。
 
-6. 支払い方法に応じて、 **[月払い]** または **[1 年分支払う]** を選択します。
+6. 支払い方法に応じて、**[月払い]** または **[1 年分支払う]** を選択します。
 
-7. **[ユーザーはいくつ必要ですか?]** に購入するライセンスの数を入力してから、 **[今すぐ支払う]** を選択してトランザクションを完了します。
+7. **[ユーザーはいくつ必要ですか?]** に購入するライセンスの数を入力してから、**[今すぐ支払う]** を選択してトランザクションを完了します。
 
-8. 購入を確認するには、 **[課金]**  >  **[製品とサービス]** を参照し、 **[Power BI Pro]** を探します。
+8. 購入を確認するには、**[課金]** > **[製品とサービス]** を参照し、**[Power BI Pro]** を探します。
 
-9. 後でライセンスを追加するには、 **[製品とサービス]** ページで **[Power BI Pro]** を見つけ、 **[ライセンスの追加/削除]** を選択します。
+9. 後でライセンスを追加するには、**[製品とサービス]** ページで **[Power BI Pro]** を見つけ、**[ライセンスの追加/削除]** を選択します。
 
 ## <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターでライセンスを割り当てる
 
@@ -72,11 +72,11 @@ Microsoft 365 管理センターでライセンスを割り当てる方法につ
 
 2. **Azure Active Directory** を検索して選択します。
 
-3. **Azure Active Directory** リソース メニューで、 **[管理]** の下にある **[ライセンス]** を選択します。
+3. **Azure Active Directory** リソース メニューで、**[管理]** の下にある **[ライセンス]** を選択します。
 
 4. **[ライセンス - 概要]** リソース メニューから **[すべての製品]** を選択します。次に **[Power BI Pro]** を選択して、ライセンス ユーザーの一覧を表示します。
 
-5. コマンド バーで、 **[+ 割り当て]** を選択します。 **[ライセンスの割り当て]** ページで、まずユーザーを選択します。次に **[割り当てオプション]** を選択して、選択したユーザー アカウントの Power BI Pro ライセンスを有効にします。
+5. コマンド バーで、**[+ 割り当て]** を選択します。 **[ライセンスの割り当て]** ページで、まずユーザーを選択します。次に **[割り当てオプション]** を選択して、選択したユーザー アカウントの Power BI Pro ライセンスを有効にします。
 
 ## <a name="next-steps"></a>次の手順
 

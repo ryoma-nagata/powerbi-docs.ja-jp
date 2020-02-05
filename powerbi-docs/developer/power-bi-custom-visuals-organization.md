@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999838"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI の組織のビジュアル
@@ -57,7 +57,7 @@ Power BI ビジュアルが重要視される組織もあります。その組�
 
 トラブルシューティングに関する情報については、「[Power BI ビジュアルのトラブルシューティング](power-bi-custom-visuals-troubleshoot.md)」を参照してください。
 
-## <a name="faq"></a>よく寄せられる質問
+## <a name="faq"></a>FAQ
 
 詳細情報と質問の回答については、「[Power BI ビジュアルについてよく寄せられる質問](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)」を参照してください。
 

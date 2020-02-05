@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 897590324040a69dbaa1ac549dcee80de8da76a5
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75691396"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI のビジュアル
@@ -31,9 +31,9 @@ Power BI には、すぐに使用できる Power BI ビジュアルが多数用�
 
 *Power BI Desktop* および *Power BI サービス*の [視覚化] ペインから利用できる、すぐに使用できる Power BI ビジュアルです。
 
-[視覚化] ペインから Power BI ビジュアルのピン留めを外すには、ビジュアルを右クリックし、 **[ピン留めを外す]** を選択します。
+[視覚化] ペインから Power BI ビジュアルのピン留めを外すには、ビジュアルを右クリックし、**[ピン留めを外す]** を選択します。
 
-[視覚化] ペインで既定の Power BI ビジュアルを復元するには、 **[カスタム ビジュアルのインポート]** をクリックし、 **[既定の視覚化の復元]** を選択します。 
+[視覚化] ペインで既定の Power BI ビジュアルを復元するには、**[カスタム ビジュアルのインポート]** をクリックし、**[既定の視覚化の復元]** を選択します。 
 
 ## <a name="appsource-power-bi-visuals"></a>AppSource の Power BI ビジュアル
 
@@ -51,13 +51,13 @@ Microsoft とコミュニティのメンバーは公共の利益のために Pow
 
 ### <a name="samples-for-power-bi-visuals"></a>Power BI ビジュアルのサンプル
 
-AppSource 上の各 Power BI ビジュアルには、ビジュアルの動作を示すデータのサンプルが用意されています。 サンプルをダウンロードするには、[AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) で Power BI ビジュアルを選択し、 *[サンプルを試す]* セクションの **[サンプル レポート]** リンクをクリックします。
+AppSource 上の各 Power BI ビジュアルには、ビジュアルの動作を示すデータのサンプルが用意されています。 サンプルをダウンロードするには、[AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) で Power BI ビジュアルを選択し、*[サンプルを試す]* セクションの **[サンプル レポート]** リンクをクリックします。
 
 ## <a name="organizational-store"></a>組織のストア
 
 Power BI 管理者は、Power BI ビジュアルを承認して組織に展開します。 これにより、レポート作成者は、これらの Power BI ビジュアルを簡単に検出、更新、使用できます。 管理者は、バージョンの更新、Power BI ビジュアルの無効化と有効化などのアクションを使用して、これらのビジュアルを簡単に管理できます。
 
-組織のストアにアクセスするには、 *[視覚化]* ペインで **[カスタム ビジュアルのインポート]** をクリックし、 **[Marketplace からインポートする]** を選択してから、 *[Power BI ビジュアル]* ウィンドウの上部にある **[自分の所属組織]** タブを選択します。
+組織のストアにアクセスするには、*[視覚化]* ペインで **[カスタム ビジュアルのインポート]** をクリックし、**[Marketplace からインポートする]** を選択してから、*[Power BI ビジュアル]* ウィンドウの上部にある **[自分の所属組織]** タブを選択します。
 
 [組織のビジュアルに関する詳細は、こちらをご覧ください](power-bi-custom-visuals-organization.md)。
 
@@ -65,7 +65,7 @@ Power BI 管理者は、Power BI ビジュアルを承認して組織に展開�
 
 Power BI ビジュアルはパッケージであり、特定の目的を果たすデータをレンダリングするためのコードが含まれています。 カスタム ビジュアルは誰でも作成し、単一の `.pbiviz` ファイルとしてパッケージ化できます。このファイルはその後 Power BI レポートにインポートできます。
 
-Power BI ビジュアルをインポートするには、 *[視覚化]* ペインで **[カスタム ビジュアルのインポート]** をクリックし、 **[ファイルからインポートする]** を選択します。
+Power BI ビジュアルをインポートするには、*[視覚化]* ペインで **[カスタム ビジュアルのインポート]** をクリックし、**[ファイルからインポートする]** を選択します。
 
 独自のビジュアルを作成して AppSource に追加することに関心がある Web 開発者の方は、[Power BI ビジュアルを開発](visuals/custom-visual-develop-tutorial.md)する方法と、[Power BI ビジュアルを AppSource に発行する](office-store.md)方法をご確認ください。
 

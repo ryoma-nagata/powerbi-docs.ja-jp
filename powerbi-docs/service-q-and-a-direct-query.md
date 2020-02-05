@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265483"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI で Q&A のライブ接続を有効にする
@@ -37,18 +37,18 @@ Power BI Q&A は、データ ソースのテキスト値とスキーマ値を使
 ## <a name="enable-qa"></a>Q&A を有効する
 データ ゲートウェイをセットアップした後、Power BI からデータに接続します。  ダッシュボードを作成します。オンプレミス データを使用するか、オンプレミス データを使用する .pbix ファイルをアップロードします。  共有されているダッシュボード、レポート、およびデータセットに、オンプレミス データが既に存在する場合もあります。
 
-1. Power BI の右上隅の歯車アイコン ![歯車アイコン](media/service-q-and-a-direct-query/power-bi-cog.png) を選択し、 **[設定]** を選択します。
+1. Power BI の右上隅の歯車アイコン ![歯車アイコン](media/service-q-and-a-direct-query/power-bi-cog.png) を選択し、**[設定]** を選択します。
    
    ![[設定] メニュー](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. **[データセット]** を選択し、Q&A を有効にするデータセットを選択します
    
    ![[設定] メニューの [データセット] 画面](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
-3. **[Q&A]** を展開し、 **[このデータセットの QA をオンにする]** チェック ボックスをオンにして、 **[適用]** を選択します。
+3. **[Q&A]** を展開し、**[このデータセットの QA をオンにする]** チェック ボックスをオンにして、**[適用]** を選択します。
    
     ![展開された Q&A 領域](media/service-q-and-a-direct-query/power-bi-qna-dataset-direct-query.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>キャッシュされるデータとプライバシーの保護方法
-オンプレミス データに対して Q&A を有効にすると、データのサブセットがサービスにキャッシュされます。 このキャッシュにより、Q&A が適切なパフォーマンスで実行されることが保証されます。 24 文字を超える値は、Power BI によりキャッシュ処理から除外されます。 キャッシュは、 **[Turn on Q&A for this dataset (このデータセットで Q&A を有効にする)]** をオフにして Q&A を無効にするか、データセットを削除した後、数時間以内に削除されます。
+オンプレミス データに対して Q&A を有効にすると、データのサブセットがサービスにキャッシュされます。 このキャッシュにより、Q&A が適切なパフォーマンスで実行されることが保証されます。 24 文字を超える値は、Power BI によりキャッシュ処理から除外されます。 キャッシュは、**[Turn on Q&A for this dataset (このデータセットで Q&A を有効にする)]** をオフにして Q&A を無効にするか、データセットを削除した後、数時間以内に削除されます。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 この機能にはいくつかの制限があります。
@@ -60,7 +60,7 @@ Power BI Q&A は、データ ソースのテキスト値とスキーマ値を使
 
 ## <a name="next-steps"></a>次の手順
 
-- [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
+- [On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)  
 - [データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 - [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)  
 - [Power BI Q&A の概要](consumer/end-user-q-and-a.md)  
