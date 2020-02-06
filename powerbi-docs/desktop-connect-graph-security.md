@@ -11,10 +11,10 @@ ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999792"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop の Microsoft Graph Security API に接続する
@@ -74,7 +74,7 @@ Microsoft Graph Security コネクタにサインインするユーザーが "*�
     
 9. Microsoft Graph Security API で高度なクエリを使用する場合は、 **[Specify custom Microsoft Graph Security URL to filter results]\(カスタム Microsoft Graph Security URL を指定して結果を絞り込む\)** を選択します。 この機能を使用して、必須のアクセス許可を持つ Microsoft Graph Security API に対して [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) クエリを発行します。
 
-   次の例では、`https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'`*serviceUri* が使用されています。 クエリを作成してフィルター処理、並べ替え、または最近の結果の取得を行う方法を確認するには、[OData システム クエリ オプション](https://docs.microsoft.com/graph/query-parameters)に関するページを参照してください。
+   次の例では、`https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri* が使用されています。 クエリを作成してフィルター処理、並べ替え、または最近の結果の取得を行う方法を確認するには、[OData システム クエリ オプション](https://docs.microsoft.com/graph/query-parameters)に関するページを参照してください。
 
    ![OdataFeed の例](media/desktop-connect-graph-security/ODataFeed.PNG)
     

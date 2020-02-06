@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: cfb83ae8b005744098261c6973a87fb929a864dd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858950"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975012"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server の Power BI レポートの作成
 Power BI サービス (https://powerbi.com) ) のクラウドで Power BI レポートを格納する場合と同じように、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで格納して管理することができます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
@@ -81,7 +81,7 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
 
 詳細については、[Power BI レポートのデザイン](../desktop-report-view.md)に関する記事を参照してください。
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>手順 4:レポート サーバーにレポートを保存する
+## <a name="step-4-save-your-report-to-the-report-server"></a>手順 4.レポート サーバーにレポートを保存する
 レポートの準備ができたら、それを手順 2 で選択した Power BI Report Server に保存します。
 
 1. **[ファイル]** メニューで、 **[名前を付けて保存]**  >  **[Power BI レポート サーバー]** を選択します。
@@ -90,6 +90,9 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
 2. これで、レポートを Web ポータルで表示できます。
    
     ![Web ポータルで Power BI レポートを表示](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
+    
+> [!NOTE]
+> 今後レポートを編集することになった場合、デスクトップに表示されるレポート データは常に、レポートが最初に作成されたときのキャッシュ データになります。  レポートの編集時に最新のデータを表示するには、Power BI Desktop アプリケーションのデータを最新の情報に更新する必要があります。
 
 ## <a name="next-steps"></a>次の手順
 ### <a name="power-bi-desktop"></a>Power BI Desktop
