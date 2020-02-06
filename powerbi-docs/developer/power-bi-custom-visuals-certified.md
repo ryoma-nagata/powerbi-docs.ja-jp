@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2019
-ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925571"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026671"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>認定済みの Power BI ビジュアルを取得する
 
@@ -45,7 +45,7 @@ GitHub でコードをパブリックに共有する必要はありませんが�
 
 リポジトリには、1 つの Power BI ビジュアルのみのコードを含める必要があります。 複数の Power BI ビジュアルのコード、または関連のないコードを含めることはできません。
 
-リポジトリには、**certification** という名前のブランチを含める必要があります。 このブランチのソース コードは、提出されたパッケージと一致している必要があります。 このコードは、次回の提出プロセス中に、Power BI ビジュアルを再提出する場合にのみ、更新できます。
+リポジトリには、**certification** (必ず小文字) という名前のブランチを含める必要があります。 このブランチのソース コードは、提出されたパッケージと一致している必要があります。 このコードは、次回の提出プロセス中に、Power BI ビジュアルを再提出する場合にのみ、更新できます。
 
 Power BI ビジュアルにプライベート npm パッケージまたは git サブ モジュールを使用している場合は、そのコードを含む追加のリポジトリへのアクセスを提供する必要があります。
 
