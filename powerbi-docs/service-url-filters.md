@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836718"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913566"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -33,7 +33,7 @@ Power BI Desktop で作業しているとします。 他の Power BI レポー�
 
 パラメーターを使用すれば、値にスペースや特殊文字が含まれている場合でも、レポートで 1 つ以上の値をフィルター処理することができます。 基本構文はとても簡単です。レポート URL に疑問符を追加し、その後にフィルター構文を追加します。
 
-URL?filter=***<テーブル>***/***<フィールド>*** eq '***<値>***'
+*<URL>* ?filter= *<テーブル>* / *<フィールド>* eq ' *<値>* '
 
 ![フィルターを含む URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -84,6 +84,18 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 ![ノースカロライナでフィルター処理されたレポート](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>1 つのフィールド内の複数の値をフィルター処理する
+
+1 つのフィールド内の複数の値をフィルター処理するには、**and** 演算子ではなく **in** 演算子を使用します。 の構文は次のとおりです。
+
+*<URL>* ?filter= *<テーブル>* / *<フィールド>* **in** (' *<値 1>* ', ' *<値 2>* ')
+
+同じ例を使用して、"NC" (ノースカロライナ) または "TN" (テネシー) の店舗のデータのみを表示するようにレポートをフィルター処理するには、URL に以下を追加します。
+
+?filter=Store/Territory in ('NC', 'TN')
+
+その他の便利な演算子の一覧については、この記事で後述する「[演算子](#operators)」の表を参照してください。
+
 ## <a name="filter-on-multiple-fields"></a>複数のフィールドでフィルター処理する
 
 URL にパラメーターを追加し、複数のフィールドでフィルター処理することもできます。 元のフィルター パラメーターに戻りましょう。
@@ -97,8 +109,6 @@ URL にパラメーターを追加し、複数のフィールドでフィルタ�
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="operators"></a>演算子
 

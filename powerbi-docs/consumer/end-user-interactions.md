@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303877"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888502"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Power BI のレポート内でビジュアルがどのように相互作用するか
 Power BI の優れた機能の 1 つは、レポート ページ上のすべてのビジュアルが相互接続される方法です。 ビジュアルのいずれかのデータ ポイントを選択すると、そのデータを含むページ上の他のすべてのビジュアルが選択に基づいて変化します。 
@@ -45,7 +45,8 @@ Power BI の優れた機能の 1 つは、レポート ページ上のすべて�
 
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-- [詳細表示](end-user-drill.md)に対応しているビジュアルがレポートに含まれる場合、既定では、あるビジュアルに詳細表示を適用してもレポート ページの他のビジュアルは変更されません。     
+- [詳細表示](end-user-drill.md)に対応しているビジュアルがレポートに含まれる場合、既定では、あるビジュアルに詳細表示を適用してもレポート ページの他のビジュアルは変更されません。 ただし、レポート "*デザイナー*" はこの動作を変更できます。そのため、詳細表示できるビジュアルをチェックして、レポート "*デザイナー*" によって **[他の視覚化に詳細なフィルターを適用する]** が有効にされているかどうかを確認してください。
+    
 - レポート ページ上のその他のビジュアルをクロスフィルター処理およびクロス強調表示するとき、ビジュアルレベル フィルターは保持されます。 したがって、VisualA にレポート デザイナーまたはユーザーが適用したビジュアル レベルのフィルターがあり、visualA を使用して visualB と相互作用する場合、visualA のビジュアル レベル フィルターが visualB に適用されます。
 
     ![ドーナツ グラフで [モデレーション] セグメントを選択した後のレポート ページ](media/end-user-interactions/power-bi-visual-filters.png)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 444a6978b0fcf841f0d0a3b2d50cc70062389cba
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222050"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888364"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 Power BI Desktop では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 Power BI Desktop を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。 Power BI Desktop は無料でダウンロードできます。
@@ -132,6 +132,8 @@ Power BI Desktop をインストールするときに、コマンドライン �
 |INSTALLLOCATION     |インストール先のファイル パスです         |
 |LANGUAGE     |アプリケーションの既定の言語を強制的するためのロケール コード (en-US、de-DE、pr-BR など) です。 言語を指定しないと、Power BI Desktop には Windows OS の言語が表示されます。 この設定は、 **[オプション]** ダイアログで変更できます。         |
 |REG_SHOWLEADGENDIALOG     |値 0 にすると、Power BI Desktop にサインインする前に表示されるダイアログが表示されなくなります。         |
+|DISABLE_UPDATE_NOTIFICATION     |値 1 を指定すると、更新通知が無効になります。         |
+
 
 たとえば、次のオプションとパラメーターを指定して Power BI Desktop を実行すると、ドイツ語を使用し、ユーザー インターフェイスなしでインストールが行われます。 
 

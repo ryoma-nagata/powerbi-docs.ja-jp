@@ -1,66 +1,57 @@
 ---
-title: Power BI サービスでのコンテンツの検索と並べ替え
-description: Power BI マイ ワークスペースでコンテンツを検索し、並べ替えるのためのドキュメント
+title: コンテンツの検索と発見
+description: Power BI サービスでのコンテンツの検索、発見、ナビゲーションに関するドキュメント
 author: mihart
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 01/27/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64570b23700e125e9040f493630317c0c6350d0e
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861730"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889126"
 ---
-# <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>ナビゲーション: Power BI サービスでコンテンツの検索、探索、並べ替えを行う
+# <a name="navigation-for-power-bi-consumers-sorting-content"></a>Power BI コンシューマー向けのナビゲーション: コンテンツの並べ替え
+
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI サービスでコンテンツ間を移動する方法はたくさんあります。 ワークスペース内のコンテンツは、種類 (ダッシュボードとレポート) ごとにまとめられています。  また、コンテンツは使用方法 (お気に入り、最近、アプリ、自分と共有、おすすめ) によっても整理されています。 ワン ストップ ナビゲーションの場合、Power BI *ホーム*ですべてのコンテンツが 1 ページにまとめられます。 コンテンツへのこれらの異なる経路により、Power BI サービス内で必要な内容をすばやく見つけることができます。  
 
-## <a name="navigation-within-workspaces"></a>ワークスペース内のナビゲーション
+Power BI サービスを初めて使用する場合は、いくつかのコンテンツ (ダッシュボード、レポート、アプリ) のみが表示されます。 ただし、同僚があなたとコンテンツの共有を始めて、あなたがアプリのダウンロードを始めると、コンテンツの一覧が長くなる可能性があります。 このような場合は、検索と並べ替えが非常に役に立ちます。
 
-通常、Power BI "*コンシューマー*" には 1 つのワークスペースしかありません: **[マイ ワークスペース]** です。 **[マイ ワークスペース]** には、Microsoft のサンプルをダウンロードした場合、または独自のダッシュボード、レポート、またはアプリを作成するか、ダウンロードした場合にのみコンテンツが含まれます。  
+## <a name="searching-for-content"></a>コンテンツの検索
+ 検索は、Power BI サービスのほぼすべての部分から使用できます。 検索ボックスまたは検索アイコンを見てください ![拡大鏡アイコン](./media/end-user-search-sort/power-bi-search-icon.png).
 
-**[マイ ワークスペース]** 内では、Power BI サービスによって、コンテンツが種類 (ダッシュボード、レポート、ブック、データセット) 別に分けられています。 ワークスペースを選ぶと、この編成方法で表示されます。 この例で、 **[マイ ワークスペース]** には 1 つのダッシュボード、1 つのレポート、0 個のワークブック、1 つのデータセットが含まれています。
+ 検索フィールドに、ダッシュボード、レポート、ブック、アプリ、または所有者の名前のすべてまたは一部を入力します。 Power BI によってすべてのコンテンツが検索されます。 
 
-![ビデオ](./media/end-user-search-sort/myworkspace/myworkspace.gif)
+ ![レポートの検索](./media/end-user-search-sort/power-bi-search-field.png) 
 
-________________________________________
-## <a name="navigation-using-the-search-field"></a>検索フィールドを使ったナビゲーション
-**[マイ ワークスペース]** コンテンツ ビューを使用して、コンテンツの検索、フィルター処理、並べ替えを行います。 検索フィールドに、ダッシュボード、レポート、ブック、または所有者の名前のすべてまたは一部を入力します。  
+ ワークスペースなど、Power BI の一部の領域には、2 つの異なる検索フィールドが表示されます。 メニュー バーの検索フィールドを使うと、すべてのコンテンツを検索できます。一方、ワークスペース キャンバスの検索フィールドを使うと、そのワークスペースのみを検索できます。
 
-コンテンツの構成物が少しだけの場合は、検索や並べ替えの必要はありません。  しかし、ダッシュボードとレポートの一覧が長い場合は、検索や並べ替えが非常に役立ちます。 たとえば、以下のレポートの一覧には、83 個の項目があります。 
+ ![ワークスペース内の検索](./media/end-user-search-sort/power-bi-search-fields.png) 
 
-![レポートの検索](./media/end-user-experience/power-bi-search.png)
+## <a name="sorting-content-lists"></a>コンテンツ一覧の並べ替え
 
-コンテンツは、名前または所有者で並べ替えることもできます。 **[名前]** の右にある上矢印をご覧ください。 現在、83 個の項目が名前のアルファベット順に昇順で並べられています。 並べ替え順序を降順に変更するには、 **[名前]** を選択します。 上矢印が下矢印に変わります。
+わずかの数のコンテンツしかない場合は、並べ替えが不要な可能性があります。  ただし、ダッシュボードとレポートの一覧が長い場合は、並べ替えを使うと必要なものを見つけやすくなります。 たとえば、この **[自分と共有]** のコンテンツ一覧の項目数は 63 個です。 
 
-![コンテンツの並べ替え](./media/end-user-experience/power-bi-sort-new.png)
+![[自分と共有] のコンテンツ一覧](./media/end-user-search-sort/power-bi-long-lists.png)
+
+現在、このコンテンツ一覧は日付が新しい順に並べ替えられています。 並べ替え条件を変更するには、 **[日付 (最新)]** の右にある矢印を選択します。
+
+![並べ替えドロップダウン メニュー](./media/end-user-search-sort/power-bi-sort-date.png)
+
+
+並べ替えは、ワークスペースでも使用できます。 この例では、コンテンツは、 **[更新]** 日順に並べ替えられています。 ワークスペースの並べ替え条件を設定するには、列ヘッダーを選択します。1 度選択してそのヘッダーを選択し、もう一度選択すると、並べ替えの方向が変わります。 
+
+![レポートの検索](./media/end-user-search-sort/power-bi-workspace-sort.png)
 
 並べ替えることができるのは一部の列に限られます。 列見出しの上にカーソルを合わせると、並べ替えることができる列を確認できます。
-
-___________________________________________________________________
-## <a name="navigation-using-the-nav-pane"></a>ナビ ペインを使ったナビゲーション
-ナビ ペインでは、必要なものを迅速に見つけることができる方法でコンテンツが分類されています。  
-
-![ナビゲーション ウィンドウ](./media/end-user-search-sort/power-bi-nav pane.png)
-
-
-- 自分と共有されているコンテンツは、 **[自分と共有]** に表示されます。
-- 最近表示したコンテンツは **[最近]** に表示されます。 
-- アプリを見つけるには、 **[アプリ]** を選択します。
-- **[ホーム]** は、最も重要なコンテンツ、推奨されるコンテンツ、学習ソースが掲載された単一ページ ビューです。
-
-さらに、コンテンツに[お気に入り](end-user-favorite.md)および[おすすめ](end-user-featured.md)のタグを付けることができます。 最も頻繁に表示すると予想されるダッシュボードを選び、それを*おすすめ*のコンテンツとして設定します。 Power BI サービスを開くたびに、このおすすめのダッシュボードが最初に表示されます。 頻繁に参照するダッシュボードとアプリがたくさんありますか? それらをお気に入りに設定すると、常にナビ ペインから使うことができます。
-
-![お気に入りポップアップ](./media/end-user-search-sort/power-bi-favorite.png).
-
 
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング

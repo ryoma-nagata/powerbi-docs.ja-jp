@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/14/2020
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040409"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895496"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI でマトリックスの視覚エフェクトを作成する
 
@@ -41,25 +41,24 @@ ms.locfileid: "76040409"
 
 合計と小計を見るときは、それらの値が、潜在するデータに基づいていることを忘れないでください。 目に見える値だけに基づいているわけではありません。
 
-<!-- use Nov blog post video
 
-## Expanding and collapsing row headers
-There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+## <a name="expanding-and-collapsing-row-headers"></a>行ヘッダーの展開と折りたたみ
+行ヘッダーを展開する方法は 2 つあります。 1 つ目は、右クリック メニューを使用する方法です。 選択した特定の行ヘッダー、レベル全体、または階層の最下層までのすべてを展開するオプションが表示されます。 行ヘッダーを折りたたむ場合も同様のオプションがあります。
 
 ![](media/desktop-matrix-visual/power-bi-expand1.png)
 
-You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
-Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+**[行ヘッダー]** カードの下にある書式設定ペインを使用して、行ヘッダーに + または - ボタンを追加することもできます。 既定では、アイコンは行ヘッダーの書式設定と一致しますが、必要に応じてアイコンの色とサイズを個別にカスタマイズできます。
+
+アイコンが有効になると、Excel のピボットテーブル アイコンと似た動作になります。
 
 ![](media/desktop-matrix-visual/power-bi-expand2.png)
 
-The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+マトリックスの展開状態はレポートと共に保存されます。 展開された、または折りたたまれたダッシュボードにマトリックスをピン留めすることができます。 このダッシュボード タイルを選択してレポートを開くと、レポートの展開状態を変更することができます。 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-Watch the following video to learn more about expand/collapse in the matrix:
 
--->
+
 ## <a name="using-drill-down-with-the-matrix-visual"></a>マトリックス ビジュアルでドリルダウンを使用する
 マトリックス ビジュアルを使って、これまで使用できなかった興味深いさまざまなドリルダウン操作を行うことができます。 また、行、列、さらには個々のセクションやセルを使用して、ドリルダウンすることもできます。 これらのそれぞれのしくみを見てましょう。
 
@@ -183,6 +182,16 @@ Watch the following video to learn more about expand/collapse in the matrix:
 * コピーはもう 1 つのマトリックス視覚化ですが、コピーしたデータだけが含まれています。
 
     ![視覚エフェクトのコピー例のスクリーンショット](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
+## <a name="setting-a-matrix-value-as-a-custom-url"></a>マトリックス値をカスタム URL として設定する
+
+Web サイト URL が含まれる列またはメジャーがある場合は、条件付き書式を使用して、それらの URL をアクティブ リンクとしてフィールドに適用できます。 このオプションは、書式設定ペインの **[条件付き書式]** カードの下にあります。
+
+![選択されている行を示すフィルター カード](media/desktop-matrix-visual/power-bi-web-url.png)
+
+**[Web URL]** を [オン] にし、列の URL として使用するフィールドを選択します。 適用されると、そのフィールド (列) の値はアクティブなリンクになります。 マウス ポインターを移動してリンクを表示し、選択してそのページに移動します。 
+
+詳細については、[テーブルの条件付き書式設定](../desktop-conditional-table-formatting.md)に関する記事を参照してください。
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>マトリックス ビジュアルでの網掛けとフォントの色
 マトリックス ビジュアルでは、条件付き書式 (色、網掛け、データ バー) をマトリックス内のセルの背景に適用したり、テキストや値自体に条件付き書式を適用したりできます。

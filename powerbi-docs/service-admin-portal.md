@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885299"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819585"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -203,11 +203,24 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 ### <a name="publish-to-web"></a>Web に公開
 
-組織内のユーザーは、Web にレポートを公開することができます。 [詳細情報](service-publish-to-web.md)
+組織内のユーザーは、Web にレポートを公開することができます。 [詳細情報](service-publish-to-web.md) これにより、レポートとそれに含まれているデータを、Web 上のすべてのユーザーが利用できるようになります。
+
+> [!NOTE]
+> Power BI 管理者は、Web に公開する埋め込みコードの新規作成を許可する必要があります。 組織には既存の埋め込みコードがあることがあります。[埋め込みコード](service-admin-portal.md#embed-codes) ページを使用して、現在公開されているレポートを確認します。
 
 **[Web に公開]** 設定を有効にした場合のレポートの **[ファイル]** メニューを次の図に示します。
 
-![Web に公開設定](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![[ファイル] メニューの [Web に公開]](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+**[Web に公開]** 設定には、埋め込みコードを作成できるユーザーに関するオプションが用意されています。
+
+![Web に公開設定](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+
+**[埋め込みコードの動作を選択する]** オプションが **[Allow only existing embed codes]\(既存の埋め込みコードのみを許可\)** に設定されていて、 **[Web に公開]** が **[有効]** である場合、ユーザーは、埋め込みコードの作成を許可してもらうために、Power BI 管理者に連絡するように求められます。
+
+![[Web に公開] のプロンプト](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
 
 **[Web に公開]** の設定に基づき、UI にさまざまなオプションが表示されます。
 
@@ -449,7 +462,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 ## <a name="embed-codes"></a>埋め込みコード
 
-管理者は、テナントに対して生成されている埋め込みコードを表示することができます。 コードを取り消したり削除したりすることもできます。 [詳細情報](service-publish-to-web.md)
+管理者は、テナントに対して生成されている埋め込みコードを表示して、レポートをパブリックに共有することができます。 コードを取り消したり削除したりすることもできます。 [詳細情報](service-publish-to-web.md)
 
 ![Power BI 管理ポータル内の埋め込みコード](media/service-admin-portal/embed-codes.png)
 

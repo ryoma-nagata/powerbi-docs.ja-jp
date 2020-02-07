@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08a58bd725b8a8da3ff54b5bb670eb70af458dc7
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537603"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819263"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 
@@ -45,7 +45,7 @@ ms.locfileid: "76537603"
 ## <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource からアプリを取得する
 アプリを Microsoft AppSource から検索してインストールすることもできます。 アクセスできる (つまり、アプリの作成者があなたまたはすべてのユーザーにアクセス許可を与えた) アプリのみが表示されます。
 
-1. **[アプリ]**  > **[アプリの取得]** を選択します。 
+1. **[アプリ]**   >  **[アプリの取得]** を選択します。 
    
     ![[アプリの取得] アイコン](./media/end-user-app-view/power-bi-get-app2.png)    
 2. [AppSource] の **[My organization]\(自分の組織\)** で、結果を絞り込むための検索を行って、探しているアプリを見つけます。
@@ -57,12 +57,12 @@ ms.locfileid: "76537603"
 
 この例では、Microsoft のサンプル アプリの 1 つを開きます。 AppSource では、ビジネスに使用する多くのサービス向けアプリが見つかります。  Salesforce、Microsoft Dynamics、Google Analytics、GitHub、Zendesk、Marketo などのサービスです。 詳細については、[Power BI で使用するサービス向けアプリ](../service-connect-to-services.md)に関するページを参照してください。 
 
-1. ブラウザーで https://appsource.microsoft.com を開き、**[Power BI アプリ]** を選択します。
+1. ブラウザーで [https://appsource.microsoft.com](https://appsource.microsoft.com) を開き、 **[Power BI アプリ]** を選択します。
 
     ![Power BI アプリが選択されている AppSource Web サイト  ](./media/end-user-apps/power-bi-appsource.png)
 
 
-2. 現在、AppSource で利用可能なすべての Power BI アプリの一覧を表示するには、**[すべて表示]** を選択します。 **Microsoft サンプル - 営業とマーケティング**という名前のアプリまでスクロールするか、検索します。
+2. 現在、AppSource で利用可能なすべての Power BI アプリの一覧を表示するには、 **[すべて表示]** を選択します。 **Microsoft サンプル - 営業とマーケティング**という名前のアプリまでスクロールするか、検索します。
 
     ![Power BI 営業とマーケティング アプリが強調表示されている AppSource Web サイト  ](./media/end-user-apps/power-bi-appsource-samples.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "76537603"
 
     ![アプリが正常にインストールされました ](./media/end-user-apps/power-bi-app-ready.png)
 
-    **[アプリ]** を選択し、**[営業とマーケティング]** を選択することで、アプリのコンテンツ リストからアプリを直接開くこともできます。
+    **[アプリ]** を選択し、 **[営業とマーケティング]** を選択することで、アプリのコンテンツ リストからアプリを直接開くこともできます。
 
     ![Power BI のアプリ](./media/end-user-apps/power-bi-apps.png)
 
@@ -94,7 +94,7 @@ ms.locfileid: "76537603"
 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>アプリのダッシュボードとレポートを操作する
-時間をかけてアプリを構成するダッシュボードとレポートのデータを調べます。 フィルター処理、強調表示、並べ替え、ドリルダウンなど、標準の Power BI の相互作用のすべてにアクセスできます。  ダッシュボードとレポートの違いでまだ少し混乱していますか?   [ダッシュボードに関する記事](end-user-dashboards.md)と[レポートに関する記事](end-user-reports.md)を参照してください。  
+時間をかけてアプリを構成するダッシュボードとレポートのデータを調べます。 フィルター処理、強調表示、並べ替え、ドリルダウンなど、標準の Power BI の相互作用のすべてにアクセスできます。  ダッシュボードとレポートの違いでまだ少し混乱していますか?  [ダッシュボードに関する記事](end-user-dashboards.md)と[レポートに関する記事](end-user-reports.md)を参照してください。  
 
 ## <a name="update-an-app"></a>アプリの更新 
 
@@ -104,11 +104,11 @@ ms.locfileid: "76537603"
 
 * AppSource からアプリを取得した場合、次回アプリを開いたときに通知バナーが表示されます。 この通知により、新しいバージョンが利用可能であることを確認できます。 
 
-    1. 更新するには、**[Get it]\(取得\)** を選択します。  
+    1. 更新するには、 **[Get it]\(取得\)** を選択します。  
 
         <!--![App update notification](./media/end-user-app-view/power-bi-new-app-version-notification.png) -->
 
-    2. 更新されたアプリのインストールを求めるメッセージが表示されたら、**[インストール]** を選択します。 
+    2. 更新されたアプリのインストールを求めるメッセージが表示されたら、 **[インストール]** を選択します。 
 
         ![更新プログラムをインストールする](./media/end-user-app-view/power-bi-install.png) 
 
@@ -120,7 +120,7 @@ ms.locfileid: "76537603"
     > [!NOTE] 
     > 新しいバージョンをインストールすると、レポートとダッシュボードに加えた変更はいずれも上書きされます。 変更したレポートおよびダッシュボードを維持するには、インストールする前に、それらを別の名前で保存するか、別の場所に保存します。 
 
-    4. 更新されたバージョンをインストールしたら、**[アプリを更新]** を選択して更新プロセスを完了します。 
+    4. 更新されたバージョンをインストールしたら、 **[アプリを更新]** を選択して更新プロセスを完了します。 
 
     <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 

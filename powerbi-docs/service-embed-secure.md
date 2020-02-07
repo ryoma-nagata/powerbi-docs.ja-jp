@@ -1,20 +1,20 @@
 ---
 title: セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 description: Power BI の埋め込み機能を使うと、ユーザーは簡単かつ安全に内部 Web ポータルにレポートを埋め込むことができます。
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565753"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913604"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 
@@ -129,7 +129,11 @@ report.src = newUrl;
 
 * 一部のブラウザーでは、サインイン後にページを更新する必要があります (特に InPrivate または Incognito モードを使っている場合)。
 
-* シングル サインオンを実現するために、[SharePoint Online に埋め込む] オプションを使用するか、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)という埋め込み方法でカスタムの統合を構築します。 
+* サポートされていないブラウザー バージョンを使用すると、問題が発生する可能性があります。 Power BI は、[次の一覧のブラウザー](power-bi-browsers.md)をサポートしています。
+
+* クラシック SharePoint Server はサポートされていません。11 より前の Internet Explorer バージョンが必要か、互換表示モードを有効にする必要があるためです。
+
+* シングル サインオンを実現するために、[[SharePoint Online に埋め込む]](service-embed-report-spo.md) オプションを使用するか、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)という埋め込み方法でカスタムの統合を構築します。 
 
 * **[埋め込む]** オプションを使って提供される自動認証機能は、Power BI JavaScript API では動作しません。 Power BI JavaScript API の場合、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)という埋め込み方法を使用します。 
 

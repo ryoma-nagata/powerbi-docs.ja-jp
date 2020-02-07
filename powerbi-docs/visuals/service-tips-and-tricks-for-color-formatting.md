@@ -6,30 +6,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 006288cd380a56ba57697ed285b04b38985b69db
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831638"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76895014"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI における色の書式設定に関するヒントとコツ
 Power BI は、ダッシュボードとレポートをカスタマイズするためのさまざまな方法を提供しています。 この記事では、Power BI の視覚化を、説得力のある興味をひくものにして、お客様のニーズに合わせてカスタマイズできる各種ヒントについて詳しく説明しています。
 
-ヒントには次のものがあります。 優れた別のヒントをお持ちですか。 それは素晴らしいことです。 そのヒントを是非マイクロソフトまでお送りください。この一覧への追加を検討させていただきます。
+ヒントには次のものがあります。 優れた別のヒントをお持ちですか。 成功しました。 そのヒントを是非マイクロソフトまでお送りください。この一覧への追加を検討させていただきます。
 
 * レポート全体にテーマを適用する
 * 1 つのデータ ポイントの色を変更する
+* 条件付き書式
 * グラフの色を 1 つの数値に基づいて決める
 * データ ポイントの色を 1 つのフィールドの値に基づいて決める
 * カラー スケールで使用する色をカスタマイズする
 * 左右逆方向のカラー スケールを使用する
+* テーブルの行に色を追加する
 * Power BI で元に戻す方法
 
-変更を行うには、レポートを編集している必要があります。 レポートを開き、次の図のようにメニュー バーの **[レポートの編集]** を選択します。
+変更を加えるには、レポートに対する編集アクセス許可が必要です。 Power BI Desktop の **[レポート]** ビューでレポートを開きます。 Power BI サービスでは、次の図に示すように、レポートを開いてメニュー バーから **[編集]** を選択することを意味します。
 
 ![[編集] メニューの場所](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
 
@@ -55,7 +57,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 ここで、**Convenience** 区分を取り出して、この新しい区分のパフォーマンスを色を使用して示すものとします。 この手順を以下に示します。
 
-**[データの色]** セクションを展開し、 **[すべて表示]** のスライダーをオンにします。 これにより、視覚化内の各データ要素の色が表示されます。 任意のデータ ポイントを変更します。
+**[データの色]** カードを展開し、 **[すべて表示]** のスライダーをオンにします。 これにより、視覚化内の各データ要素の色が表示されます。 これで、任意のデータ ポイントを変更できるようになります。
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
@@ -71,7 +73,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 ![緑、黄、青の棒グラフ](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
-色を使用すると、さまざまなことを行えます。 次のセクションでは、グラデーションを確認してみましょう。
+色を使用すると、さまざまなことを行えます。 次のセクションでは、条件付き書式を見ていきます。
 
 ## <a name="conditional-formatting-for-visualizations"></a>視覚化の条件付き書式
 フィールドの数値に基づいて視覚化の色が動的に設定されるようにするとよい場合がよくあります。 このようにすると、1 つのバーのサイズに使用された値とは異なる値を示して、1 つのグラフに 2 つの値を表示できます。 また、このような設定を使用して、特定の値の上 (または下) のデータ ポイントを強調表示することもできます (低い収益性の領域を強調表示するような場合)。
@@ -79,7 +81,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 次のセクションでは、ある数値に基づいて色を決めるためのさまざまな方法を示します。
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>データ ポイントの色を 1 つの値に基づいて決める
-値に基づいて色を変更するには、アクティブにする視覚化を選択します。 ペイント ローラーのアイコンを選んで、[書式設定] ウィンドウを開き、 **[データの色]** カードを展開します。 カードの上にマウス ポインターを置き、表示されている 3 つの縦向きドットを選択して、 **[条件付き書式設定]** を選択します。  
+値に基づいて色を変更するには、アクティブにする視覚化を選択します。 ペイント ローラーのアイコンを選んで、[書式設定] ペインを開き、 **[データの色]** カードを開きます。 カードの上にマウス ポインターを置き、表示されている 3 つの縦向きドットを選択して、 **[条件付き書式設定]** を選択します。  
 
 ![3 つの縦向きドットをクリックして、条件付き書式オプションを選択する](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
 
@@ -103,9 +105,9 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
-ここで、 **[最小]** と **[最大]** の値のボックスに数値を指定した場合にどうなるかを見てみましょう。 **[最小]** と **[最大]** の両ドロップダウン ボックスで **[数値]** を選択し、 **[最小]** を 3,500 に設定して、 **[最大]** を 6,000 に設定します。
+ここで、 **[最小]** と **[最大]** の値のボックスに数値を指定した場合にどうなるかを見てみましょう。 **[最小]** と **[最大]** の両ドロップダウン ボックスで **[カスタム]** を選択し、 **[最小]** を 3,500 に設定して、 **[最大]** を 6,000 に設定します。
 
-![数値で条件付き書式を設定する](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-number.png)
+![数値で条件付き書式を設定する](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-numbers.png)
 
 これらの値を設定すると、 **[最小]** よりも低いか、または **[最大]** よりも高いグラフの値には、グラデーションが適用されなくなります。つまり、 **[最大]** 値よりも高い値を持つすべての縦棒には緑、 **[最小]** 値よりも低い値を持つすべての縦棒には赤が設定されます。
 
@@ -116,22 +118,36 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 左右逆方向のカラー スケールを使用するには、 **[左右逆方向]** のチェックボックスをオンにします。 **[左右逆方向]** がオンの場合、次の図に示すように、追加のカラー セレクター ( **[中央]** という) が表示されます。
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging2.png)
+![[カラー スケール] が選択された [既定の色] ダイアログ](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging-colors.png)
 
 **[左右逆方向]** スライダーがオンの場合、 **[最小]** 、 **[最大]** 、および **[中央]** の色を別々に設定することができます。 次の図では、 **[中央]** が **[市場シェア供給年度累計 %]** に対して 0.2 に設定されているため、値が 0.2 を上回る縦棒は緑のグラデーションの網かけ、0.2 を下回る縦棒は赤の網かけになります。
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
+![赤と緑の棒の縦棒グラフ](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
+
+## <a name="add-color-to-table-rows"></a>テーブルの行に色を追加する
+テーブルとマトリックスには、色の書式設定に関する多くのオプションが用意されています。 
+
+![既定のテーブル](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+
+テーブルまたはマトリックスに色を適用する最も簡単な方法の 1 つは、[書式設定] タブを開き、 **[スタイル]** を選択することです。  次の図では、 **[太字ヘッダーの目立つ色の行]** を選択しています。
+
+![既定のテーブル](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+
+他の色の書式設定オプションを試してみてください。 この図では、 **[列ヘッダー]** の背景色を変更し、 **[値]** (行) の **[背景色]** と **[代替の背景色]** の両方を変更しました。
+
+![既定のテーブル](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Power BI で元に戻す方法
 他の多くの Microsoft のサービスやソフトウェアと同様に、Power BI には、最後のコマンドを元に戻すための簡単な方法が備わっています。 たとえば、データ ポイントの色または一連のデータ ポイントを変更した場合に、それらが視覚化に表示されるときの色が好みでない場合があります。 そして、前にどの色だったか正確には思い出せないけれども、その色に戻したいことがあります。
 
 ご自身の直前の操作は、単に CTRL + Z と入力し**元に戻す**ことができます。
 
+[書式設定] カードに対して行ったすべての変更を破棄するには、 **[既定値に戻す]** を選択します。
+
+![下部に [既定値に戻す] が表示されている [書式設定] カード](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
+
 ## <a name="feedback"></a>フィードバック
 共有したいヒントがありますか? そのヒントを是非マイクロソフトまでお送りください。このページに記載することを検討させていただきます。
-
->[!NOTE]
->上記の色、軸、関連するカスタマイズは、 **[書式]** アイコンが選ばれている場合に使用できます。また、Power BI Desktop でも使用できます。
 
 ## <a name="next-steps"></a>次の手順
 [色の書式設定と軸のプロパティの概要](service-getting-started-with-color-formatting-and-axis-properties.md)

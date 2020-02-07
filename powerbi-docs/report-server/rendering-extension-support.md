@@ -1,6 +1,6 @@
 ---
-title: ISO 14289-1 への PDF 表示拡張機能の準拠 - Power BI Report Server
-description: このドキュメントでは、ISO 14289-1 (PDF/UA) 仕様への Power BI Report Server および SQL Reporting Services PDF 表示拡張機能の準拠について説明します。
+title: ISO 14289-1 への PDF 表示拡張機能の準拠 - Power BI Report Server & SSRS
+description: このドキュメントでは、Power BI Report Server および SQL Server Reporting Services の PDF 表示拡張機能の ISO 14289-1 (PDF/UA) 仕様への準拠について説明します。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
-ms.openlocfilehash: c800ee995bc3c03b3cbcda91503e6dea9495f6b5
-ms.sourcegitcommit: 721cf375627b010e8ad12c4c668295f38d450a17
+ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73638082"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819516"
 ---
-# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server"></a>ISO 14289-1 への PDF 表示拡張機能の準拠 - Power BI Report Server 
+# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>ISO 14289-1 への PDF 表示拡張機能の準拠 - Power BI Report Server & SSRS
 
-適用対象:Power BI Report Server と SQL Reporting Services
+適用対象:Power BI Report Server と SQL Server Reporting Services (SSRS)
 
-このドキュメントでは、[ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) 仕様への Power BI Report Server および SQL Reporting Services PDF 表示拡張機能の準拠について説明します。
+このドキュメントでは、Power BI Report Server および SQL Server Reporting Services の PDF 表示拡張機能の [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) 仕様への準拠について説明します。
 
 > [!NOTE]
 > ブラウザーで **[印刷]** を選択して **[PDF として保存]** を選択することで、このホワイト ペーパーを保存または印刷できます。
@@ -106,7 +106,7 @@ PDF 表示拡張機能では、このドキュメントで説明されている�
 
 Customization of the product voids this conformance statement from Microsoft. Please consult with Assistive Technology (AT) vendors for compatibility specifications of specific AT products.
 
-このドキュメントは、情報提供のみを目的としています。 このドキュメントにおいて、Microsoft は明示的、黙示的を問わず、一切の保証を行わないものとします。
+This document is for informational purposes only. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, IN THIS DOCUMENT.
 
 
 ## <a name="next-steps"></a>次の手順

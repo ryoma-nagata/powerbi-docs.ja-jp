@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ce8644decb758775c0bbff87df7975a64692a2
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75886115"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889238"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services レポートを Power BI に移行する
 
@@ -104,6 +104,8 @@ SSRS サーバーから Power BI に移行できるのは、RDL レポートの�
 
 [Power BI のページ分割されたレポートでまだサポートされてい機能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)が RDL レポートで利用されている場合は、[Power BI レポート](../consumer/end-user-reports.md)として開発し直すことができます。 移行できる RDL レポートの場合でも、合理的な理由があれば、Power BI レポートとして最新化することをお勧めします。
 
+RDL レポートで "_オンプレミスのデータ ソース_" からデータを取得する必要がある場合は、シングル サインオン (SSO) を使用できません。 現在のところ、これらのソースからのすべてのデータ取得は、"_ゲートウェイ データ ソース ユーザー アカウント_" のセキュリティ コンテキストを使用して行われています。 SQL Server Analysis Services (SSAS) でユーザーごとに行レベルのセキュリティ (RLS) を適用することはできません。
+
 通常、Power BI のページ分割されたレポートは、**印刷**または **PDF 生成**に対して最適化されています。 Power BI レポートは、**探索と対話性**に最適化されています。 詳細については、「[どのようなときに Power BI のページ分割されたレポートを使用するか](report-paginated-or-power-bi.md)」を参照してください。
 
 ### <a name="prepare"></a>準備
@@ -116,6 +118,8 @@ SSRS サーバーから Power BI に移行できるのは、RDL レポートの�
 1. Power BI の共有についての理解を深め、[Power BI アプリ](../service-create-distribute-apps.md)を発行してコンテンツを配布する方法を計画します。
 1. SSRS 共有データ ソースの代わりに、[共有 Power BI データセット](../service-datasets-build-permissions.md)を使用することを検討します。
 1. [Power BI Desktop](../desktop-what-is-desktop.md) を使用して、モバイルに最適化されたレポートを開発します。場合によっては、SSRS モバイル レポートと KPI の代わりに、[Power KPI カスタム ビジュアル](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)を使用します。
+1. レポートの **UserID** 組み込みフィールドの使用を再評価します。 レポート データをセキュリティで保護するために **UserID** を利用している場合は、ページ分割されたレポート (Power BI サービスでホストされている場合) では、ユーザー プリンシパル名 (UPN) が返されることに注意してください。 そのため、組み込みフィールドでは、_AW\mblythe_ などの NT アカウント名が返されず、_m.blythe&commat;adventureworks.com_ のような値が返されます。 データセット定義と、場合によってはソース データを修正する必要があります。 修正して発行したら、データ アクセス許可が期待どおりに動作することを確認するためにレポートを徹底的にテストすることをお勧めします。
+1. レポートの **ExecutionTime** 組み込みフィールドの使用を再評価します。 ページ分割されたレポート (Power BI サービスでホストされている場合) では、組み込みフィールドから "_協定世界時 (UTC)_ " で日時が返されます。 これは、レポート パラメーターの既定値と、レポート実行時間ラベル (通常はレポート フッターに追加されます) に影響する可能性があります。
 1. レポート作成者が [Power BI Report Builder](../report-builder-power-bi.md) をインストールしていること、および以降のリリースを組織全体に簡単に配布できることを確認します。
 
 ## <a name="migration-stage"></a>移行ステージ

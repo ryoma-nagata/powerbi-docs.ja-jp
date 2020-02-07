@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cfde935b2cec6e86b56b4f70865ff2d02b5ce27a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759201"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889284"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 *Power BI Desktop* では、データ ソースに接続するときに、常にデータのコピーを Power BI Desktop にインポートすることができます。 データ ソースによっては、代替手法を利用できます。DirectQuery を使用して、データ ソースに直接接続します。
@@ -55,9 +55,9 @@ DirectQuery を使用する利点をいくつか以下に示します。
 
 - 基になるデータ ソースに送信されるクエリが許容範囲のパフォーマンスを確実に発揮できるよう、メジャー内で許可される DAX 式には制約があります。
 
-- DirectQuery を使用した場合に返されるデータには、100 万行の制限があります。 この制限は、DirectQuery を使用して返されるデータセットの作成に使用される集計や計算には影響しません。 返される行にのみ影響します。
+- Premium 容量を使用しない限り、DirectQuery の使用時に返されるデータには 100 万行の制限があります。 この制限は、DirectQuery を使用して返されるデータセットの作成に使用される集計や計算には影響しません。 返される行にのみ影響します。 Premium 容量の場合、[こちらの投稿](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/)で説明されているように、最大行数の制限を設定できます。 
 
-    たとえば、データ ソースで実行されるクエリを使用して、1,000 万行を集計できます。 返された Power BI データが 100 万行未満の場合、クエリでは、DirectQuery を使用して Power BI にその集計の結果が正確に返されます。 DirectQuery から 100 万行を超える行が返された場合、Power BI によってエラーが返されます。
+    たとえば、データ ソースで実行されるクエリを使用して、1,000 万行を集計できます。 返された Power BI データが 100 万行未満の場合、クエリでは、DirectQuery を使用して Power BI にその集計の結果が正確に返されます。 DirectQuery から 100 万を超える行が返された場合、(Premium 容量で、行数が管理者が設定した上限を下回る場合を除き) Power BI からはエラーが返されます。
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery を使用する場合の重要な考慮事項
 DirectQuery を使用する場合は、次の 3 つの点を考慮してください。
