@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 22328ddd6be697f658301516d05971cdcee0d260
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 2a17e4963d4607b67279f65205579e115df2e550
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223889"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026648"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -24,9 +24,12 @@ Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統
 
 ## <a name="enable-access"></a>アクセスを有効にする
 
-ゲスト ユーザーを招待する前に、Power BI 管理ポータル内で [[外部ユーザーとコンテンツを共有する]](service-admin-portal.md#export-and-sharing-settings) 機能を有効にします。
+ゲスト ユーザーを招待する前に、Power BI 管理ポータル内で [[外部ユーザーとコンテンツを共有する]](service-admin-portal.md#export-and-sharing-settings) 機能を有効にします。 このオプションが有効な場合でも、ユーザーは Azure Active Directory 内にゲスト ユーザーを招待するアクセス許可 (ゲスト招待元ロールを介して付与できます) を持っている必要があります。 
 
 [[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 機能を使用することもできます。 これにより、組織の Power BI の参照など、ワークスペース内のコンテンツを参照および作成できるゲスト ユーザーを選択できます。
+
+> [!NOTE]
+> [[外部ユーザーとコンテンツを共有する]](service-admin-portal.md#export-and-sharing-settings) 設定を使用すると、Power BI を介して外部ユーザーを組織に招待できるかどうかを制御できます。 外部ユーザーが招待を受け入れると、組織内の Azure AD B2B ゲスト ユーザーになります。 これらは、Power BI のエクスペリエンス全体でユーザー ピッカーに表示されます。 この設定が無効な場合、組織内の既存のゲスト ユーザーは、アクセス権を持っていたすべてのアイテムに引き続きアクセスできます。また、ユーザー ピッカー エクスペリエンスに引き続き表示されます。 さらに、計画的な招待方法を介してゲストを追加した場合は、ユーザー ピッカーにも表示されます。 ゲスト ユーザーが Power BI にアクセスできないようにするには、Azure AD の条件付きアクセス ポリシーを使用できます。
 
 ## <a name="who-can-you-invite"></a>招待できるユーザー
 
@@ -37,6 +40,12 @@ Power BI と Azure Active Directory Business-to-Business(Azure AD B2B) との統
 ## <a name="invite-guest-users"></a>ゲスト ユーザーを招待する
 
 ゲスト ユーザーの招待が必要なのは、初めて自分の組織に招待するときだけです。 ユーザーを招待する方法には、計画的な招待とアドホック招待の 2 種類があります。
+
+Power BI の次の機能を使用して、ゲスト ユーザーを招待できます。
+* レポートとダッシュボードの共有
+* [アプリのアクセス] 一覧
+
+まだ Azure AD のゲストではない外部ユーザーをワークスペースに追加する必要がある場合は、以下に示す計画的な招待方法を使用できます。 
 
 ### <a name="planned-invites"></a>計画的な招待
 
@@ -73,6 +82,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 ![ゲスト ユーザーと共有されたアプリに関する電子メールのスクリーンショット](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
 ゲスト ユーザーは、自分の所属する組織の電子メール アドレスでサインインする必要があります。 サインイン後、招待を受け入れるよう求められます。 サインイン後、アプリがゲスト ユーザーに対して開かれます。 アプリに戻るには、リンクをブックマークするか、メールを保存します。
+
 
 ## <a name="licensing"></a>ライセンス
 
@@ -141,7 +151,10 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 * Active Directory には、全体的な組織内で外部ゲスト ユーザーが実行できる内容を制限できる設定が存在します。 これは Power BI 環境にも適用されます。 これらの設定については、次のドキュメントで説明されています。
     * [外部コラボレーションの設定を管理する](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-    * [特定の組織からの B2B ユーザーへの招待を許可またはブロックする](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)  
+    * [特定の組織からの B2B ユーザーへの招待を許可またはブロックする](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+    * [ゲスト ユーザーの Power BI サービスへのアクセスを許可または禁止する](/azure/active-directory/conditional-access/overview)
+    
+* 組織外での共有は、各国のクラウドではサポートされていません。 代わりに、外部ユーザーがコンテンツにアクセスするために使用できるユーザー アカウントを組織内に作成してください。 
 
 ## <a name="next-steps"></a>次の手順
 

@@ -7,19 +7,44 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/25/2019
-ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/27/2020
+ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874272"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819539"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
 この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
 
 新機能の詳細については、「[Power BI レポート サーバーの新機能](whats-new.md)」を参照してください。 
+
+
+## <a name="january-2020"></a>2020 年 1 月
+- **Power BI Report Server**
+    - *バージョン:1.6.7327.3007 (ビルド 15.0.1102.759)、リリース日:2020 年 1 月 23 日*
+         - 機能
+            -  Power BI レポートから Excel へのエクスポート。
+           -  ページ分割されたレポートでの Power BI Premium データセットのサポート。
+           -  ページ分割されたレポート要素での AltText (代替テキスト) のサポート。
+           -  カスタム ヘッダーのサポート。
+           -  カタログとしての Azure SQL Managed Instance のサポート。
+           -  カタログの Transparent Database Encryption。
+        - セキュリティ更新プログラム
+        - バグの修正
+            - スクリーン リーダー、レポート表示、およびキーボード ナビゲーションに関するアクセシビリティの修正。
+            - 複数バイトのレポート タイトルの保存に関する修正。
+            - レポート サーバーの信頼性に影響を与える詳細ログの修正。
+          - モバイル上の Power BI レポートのライブ データを保証するための修正。
+          - Power BI レポートのフィルター処理されたエクスポートで、ビジュアル全体にわたるクロスビジュアル強調表示を適用するための修正。
+          - ページ分割されたレポートの表示用の式を使用して Word にエクスポートするときにフッターを書き込むための修正。 
+     
+- **Power BI Desktop (Power BI Report Server 用に最適化)**
+    - *バージョン:2.76.5678.1521 (2020 年 1 月)、リリース日:2020 年 1 月 23日* (新しいビルドと新しいバージョン)
+        - Power BI Report Server との接続に必要な変更が含まれます (2020 年 1 月)        
+
 
 ## <a name="september-2019"></a>2019 年 9 月
 - **Power BI Report Server**

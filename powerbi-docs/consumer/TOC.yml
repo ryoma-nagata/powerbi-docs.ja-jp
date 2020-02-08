@@ -13,7 +13,7 @@
         - name: '"新しい外観" に移動する'
           href: ../service-new-look.md
         - name: '"新しい外観": アクションはどこにありますか。'
-          href: ../service-new-look.md
+          href: ../service-new-look-where-actions.md
     - name: クイックスタート
       items:
         - name: Power BI 内の移動
