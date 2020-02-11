@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819562"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026717"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
@@ -160,7 +160,7 @@ Azure Active Directory アプリケーション プロキシによって、Web �
 
 #### <a name="custom-headers"></a>カスタム ヘッダー
 
-指定した正規表現パターンに一致するすべての URL のヘッダー値を設定します。 ユーザーは、有効な XML でカスタム ヘッダー値を更新し、選択された要求 URL のヘッダー値を設定できます。 管理者は、この XML に任意の数のヘッダーを追加できます。 詳細については、Reporting Services の **[サーバーのプロパティ] の [詳細設定] ページ**に関する記事に記載されている[カスタム ヘッダー](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers)を参照してください。
+指定した正規表現パターンに一致するすべての URL のヘッダー値を設定します。 ユーザーは、有効な XML でカスタム ヘッダー値を更新し、選択された要求 URL のヘッダー値を設定できます。 管理者は、この XML に任意の数のヘッダーを追加できます。 詳細については、Reporting Services の **[サーバーのプロパティ] の [詳細設定] ページ**に関する記事の「[CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders)」を参照してください。
 
 #### <a name="transparent-database-encryption"></a>Transparent Database Encryption
 
