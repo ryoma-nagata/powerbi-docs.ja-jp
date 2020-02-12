@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: 17d5661cf68b3a79598dc370ecff17c1c438fc8e
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 57d1c0673594a6fa3ddadba48299f610f8f08338
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895099"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076562"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI のページ分割されたレポートでサポートされるデータ ソース
 
@@ -23,11 +23,11 @@ ms.locfileid: "76895099"
 
 ページ分割されたレポートでは、次のデータ ソースの一覧をネイティブでサポートします。
 
-| データ ソース | 認証 | ノート |
+| Data Source | 認証 | Notes |
 | --- | --- | --- |
-| Azure SQL Database <br>Azure SQL Data Warehouse | 基本、シングル サインオン (SSO)、OAuth2 |   |
-| Azure SQL Managed Instance | 基本 | Azure SQL Database 拡張機能を使用したパブリック エンドポイント経由  |
-| Azure Analysis Services | SSO、OAuth2 | AAS ファイアウォールを無効にするか、すべての IP 範囲を許可するように構成する必要があります。  |
+| Azure SQL データベース <br>Azure SQL Data Warehouse | 基本、シングル サインオン (SSO)、OAuth2 |   |
+| Azure SQL Managed Instance | Basic | Azure SQL Database 拡張機能を使用したパブリック エンドポイント経由  |
+| Azure Analysis Services | SSO、OAuth2 | AAS ファイアウォールを無効にするか、すべての IP 範囲を許可するように構成する必要があります。  エイリアスの使用はサポートされていません  |
 | Power BI データセット | SSO | Premium と Premium 以外の Power BI データセット。 読み取りのアクセス許可が必要 |
 | Premium Power BI データセット (XMLA) | SSO |   |
 | データの入力 | 該当なし | データはレポートに埋め込まれます。 |
@@ -36,12 +36,12 @@ Azure SQL Database を除き、データ ソースはすべて、Power BI サー
 
 Azure SQL Database データ ソースについては、「[Azure SQL Database Authentication](#azure-sql-database-authentication)」(Azure SQL Database 認証) セクションで説明されているように、詳細情報を指定する必要があります。
 
-## <a name="other-data-sources"></a>その他のデータ ソース
+## <a name="other-data-sources"></a>他のデータ ソース
 
 上記のネイティブでサポートされているデータ ソースに加えて、[Power BI データ ゲートウェイ](service-gateway-onprem.md)を介して次のデータ ソースにアクセスできます。
 
 - SQL Server
-- SQL Server Analysis Services
+- SQL Server Analysis Services (SQL Server Analysis Services)
 - Oracle
 - Teradata
 
@@ -69,8 +69,8 @@ Azure SQL Database データ ソースの場合、サポートされている認
 
 SSO と OAuth2 を正常に機能させるには、データ ソースが接続している Azure SQL Database サーバーで [AAD 認証サポートを有効にする](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure)必要があります。 OAuth2 認証方法では、AAD によってトークンが生成され、今後のデータ ソース アクセスのために格納されます。 代わりに [SSO 認証方法](https://docs.microsoft.com/power-bi/service-azure-sql-database-with-direct-connect#single-sign-on)を使用するには、そのすぐ下の SSO オプション **[エンド ユーザーは、このデータ ソースに DirectQuery 経由でアクセスするときに、独自の OAuth2 資格情報を使用します。]** を選択します。
   
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [ページ分割されたレポートを Power BI サービスで表示する](consumer/paginated-reports-view-power-bi-service.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

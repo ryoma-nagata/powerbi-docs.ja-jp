@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/06/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76913620"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076704"
 ---
-# <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
+# <a name="publish-to-web-from-power-bi"></a>Power BI から Web に発行する
 
-Power BI の **[Web に公開]** オプションを使用すると、Power BI の対話型の視覚エフェクトを、ブログ投稿記事、Web サイト、メールやソーシャル メディアなどに、任意のデバイスからオンラインで簡単に埋め込むことができます。 また、発行したビジュアルを簡単に編集、更新、共有解除することもできます。
+Power BI の **[Web に公開]** オプションを使用すると、Power BI の対話型の視覚エフェクトを、ブログ投稿記事、Web サイト、メールやソーシャル メディアなどに、任意のデバイスからオンラインで簡単に埋め込むことができます。 また、発行したビジュアルを簡単に編集、更新、共有停止することもできます。
 
 > [!WARNING]
 > **[Web に公開]** を使用すると、ご自身が公開したレポートまたはビジュアルをインターネット上のすべてのユーザーが表示できます。 これには認証は不要で、レポートに集計されている詳細レベルのデータも表示されます。 レポートを公開する前に、データや視覚エフェクトを公開しても問題がないかご確認ください。 秘密情報や機密情報を公開しないでください。 不確かな場合は、発行する前に組織のポリシーを確認します。
@@ -40,9 +40,11 @@ Power BI の **[Web に公開]** オプションを使用すると、Power BI �
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
    
-2. 埋め込みコードの作成が許可されていない場合は、Power BI 管理者に連絡してください
+2. 埋め込みコードの作成が許可されていない場合は、[Power BI 管理者](service-admin-role.md)に連絡してください
 
    ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+   
+   組織内で [Web に公開] を有効にできるユーザーを見つける方法については、[こちらのヒントをご覧ください](#how-to-find-your-power-bi-administrator)。
 
 3. ダイアログの内容を確認し、 **[埋め込みコードの作成]** を選択します。
 
@@ -71,9 +73,9 @@ Power BI の **[Web に公開]** オプションを使用すると、Power BI �
 
 | 表示モード | 埋め込まれた場合の表示方法 |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**[ページに合わせる]** では、レポートのページの高さと幅が使用されます。 ページを 16:9 や 4:3 などの "*動的な*" 比率に設定した場合、コンテンツは iFrame に収まるよう拡大縮小されます。 **[ページに合わせる]** を使用して iFrame に埋め込んだ場合、*レターボックス処理*が行われ、iFrame に合わせてコンテンツが拡大縮小された後、iFrame の領域にグレーの背景が表示されることがあります。 できるだけレターボックス処理が行われないようにするには、iFrame の高さと幅を適切に設定します。 |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**[ページに合わせる]** では、レポートのページの高さと幅が使用されます。 ページを 16:9 や 4:3 などの "*動的な*" 比率に設定した場合、コンテンツは iFrame に収まるよう拡大縮小されます。 **[ページに合わせる]** を使用して iFrame に埋め込んだ場合、*レターボックス処理*が行われ、iFrame に合わせてコンテンツが拡大縮小された後、iFrame の領域にグレーの背景が表示されることがあります。 レターボックス処理を最小限に抑えるには、iFrame の高さと幅を適切に設定します。 |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**[実際のサイズ]** では、レポートのサイズはレポート ページで設定したサイズに保たれます。 その結果、iFrame にスクロール バーが表示される場合があります。 スクロール バーが表示されないように iFrame の高さと幅を設定します。 |
-| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**[幅に合わせる]** では、iFrame の水平方向の領域に収まるようにコンテンツが調整されます。 この場合にも境界線は表示されますが、水平方向の表示スペース全体が使用されるよう、コンテンツは拡大縮小されます。 |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**[幅に合わせる]** では、コンテンツが iFrame の水平方向の領域全体に表示されることが保証されます。 この場合にも境界線は表示されますが、水平方向の表示スペース全体が使用されるよう、コンテンツは拡大縮小されます。 |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame の高さと幅に関するヒントとテクニック
 
@@ -85,14 +87,14 @@ Power BI の **[Web に公開]** オプションを使用すると、Power BI �
 
 より完全に収めるには、iFrame の高さに 56 ピクセルを追加してみて、現在のサイズの下部バーが収まるようにできます。 レポート ページで動的なサイズを使用している場合、レターボックス処理なしで完全に収めることができるサイズを次の表にいくつか示します。
 
-| 比率 | サイズ | ディメンション (幅 x 高さ) |
+| 比率 | Size | ディメンション (幅 x 高さ) |
 | --- | --- | --- |
-| 16:9 |小 |640 x 416 ピクセル |
-| 16:9 |中 |800 x 506 ピクセル |
-| 16:9 |大 |960 x 596 ピクセル |
-| 4:3 |小 |640 x 536 ピクセル |
-| 4:3 |中 |800 x 656 ピクセル |
-| 4:3 |大 |960 x 776 ピクセル |
+| 16:9 |Small |640 x 416 ピクセル |
+| 16:9 |Medium |800 x 506 ピクセル |
+| 16:9 |Large |960 x 596 ピクセル |
+| 4:3 |Small |640 x 536 ピクセル |
+| 4:3 |Medium |800 x 656 ピクセル |
+| 4:3 |Large |960 x 776 ピクセル |
 
 ## <a name="manage-embed-codes"></a>埋め込みコードの管理
 
@@ -155,7 +157,7 @@ Power BI の **[Web に公開]** オプションを使用すると、Power BI �
 
 Power BI 管理者は、 **[Web に公開]** 機能を有効または無効にすることができます。 また、特定のグループへのアクセスを制限することもできます。これにより、埋め込みコードを作成する機能に影響を与える可能性があります。 **[Web に公開]** の設定に基づき、UI にさまざまなオプションが表示されます。
 
-|特徴 |組織全体に対して有効にする |組織全体に対して無効にする |特定のセキュリティ グループ   |
+|機能 |組織全体に対して有効にする |組織全体に対して無効にする |特定のセキュリティ グループ   |
 |---------|---------|---------|---------|
 |**[ファイル]** メニューの下の **[Web に公開]**|すべてのユーザーに対して有効|すべてのユーザーに対して非表示|承認されたユーザーまたはグループに対してのみ表示されます。|
 |**[設定]** の下の **[埋め込みコードの管理]**|すべてのユーザーに対して有効|すべてのユーザーに対して有効|すべてのユーザーに対して有効。<br><br>*  **[削除]** オプションは、承認されたユーザーまたはグループの場合にのみ使用可能です。<br>*  **[コードを取得]** は、すべてのユーザーに対して有効になります。|
@@ -169,7 +171,7 @@ Power BI 管理者は、 **[Web に公開]** 機能を有効または無効に�
 
 **[埋め込みコードの管理]** ページには、状態列があります。 埋め込みコードは、既定で**アクティブ**ですが、以下に示す状態のいずれかである場合もあります。
 
-| 状態 | 説明 |
+| Status | 説明 |
 | --- | --- |
 | **アクティブ** |レポートは、インターネット ユーザーが表示および対話的に操作できます。 |
 | **ブロック** |レポートの内容が [Power BI サービス条項](https://powerbi.microsoft.com/terms-of-service)に違反しています。 Microsoft によってブロックされています。 内容が間違ってブロックされたと思われる場合は、サポートにお問い合わせください。 |
@@ -195,10 +197,25 @@ Web サイトまたはブログに埋め込まれた **[Web に公開]** コン�
 
 キャッシュは長期間存在します。そのため、レポート定義を更新する (たとえば、その表示モードを変更する場合)、またはレポート データを更新する場合、ユーザーが表示するレポートのバージョンに変更が反映されるまで、約 1 時間かかる場合があります。 したがって、作業を前もって計画的に行い、設定に問題がないことを十分に確認してから、**Web に公開**される埋め込みコードを作成するようお勧めします。
 
-## <a name="next-steps"></a>次の手順
+## <a name="how-to-find-your-power-bi-administrator"></a>Power BI 管理者を見つける方法
+
+[テナントの [Web に公開] 設定](#tenant-setting)を変更するには、組織の [Power BI 管理者](service-admin-role.md)と連携する必要があります。
+
+Power BI にサインアップしたより小規模の組織または個人の場合は、まだ Power BI 管理者が存在しない可能性があります。 [テナント管理者の引き継ぎプロセス](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)に従う必要があります。 Power BI 管理者が設定されたら、埋め込みコードの作成を有効にすることができます。
+
+通常、確立された組織には、既に Power BI 管理者が存在します。 次のいずれかのロールを持つユーザーは、Power BI 管理者として操作を行うことができます。
+
+- Office 365 管理者
+- Azure Active Directory 管理者
+- Azure Active Directory で Power BI サービス管理者ロールを持つユーザー
+
+組織内で[このようなユーザーを 1 人見つける](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)必要があります。そのユーザーが設定を更新できます。
+
+
+## <a name="next-steps"></a>次のステップ
 
 - [SharePoint Online レポート Web パーツ](service-embed-report-spo.md) 
 
 - [セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む](service-embed-secure.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 3063d75123069e93baa8159cddf7c551922aa2b2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75837584"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076688"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -36,6 +36,10 @@ ms.locfileid: "75837584"
 **Microsoft が BI データ保護をどのように変化させているか**
 <br>講師: Anton Fritz および Adi Regev
 <br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**分析情報主導のビジネスを実現する方法**
+<br>講師: Amir Netz (Microsoft)、Boris Evelson (Forrester)
+<br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html?lcid=en-us)
 
 **AI によって BI が変更される 3 つの方法**
 <br>作成者: Justyna Lucznik
@@ -95,7 +99,7 @@ ms.locfileid: "75837584"
 
 録画されたセッションをいつでもご覧ください
 
-### <a name="getting-started"></a>はじめに
+### <a name="getting-started"></a>作業の開始
 
 **Power BI、PowerApps、および Power Automate を使用して、日常のビジネス プロセスを自動化する**
 <br>作成者: Wim Coorevits および Enrique Plaza Garcia
@@ -246,7 +250,7 @@ ms.locfileid: "75837584"
 <br>作成者: Kirkland Barrett
 <br>[登録して今すぐ見る](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
 
-## <a name="see-also"></a>関連項目
+## <a name="see-also"></a>参照
 
 - [Power BI のホワイト ペーパー](whitepapers.md)
 
@@ -258,4 +262,4 @@ ms.locfileid: "75837584"
 
 - [YouTube ビデオ チャネル](https://www.youtube.com/mspowerbi)を登録する
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953503"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076590"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop の新機能
 
@@ -31,9 +31,9 @@ ms.locfileid: "75953503"
 
 Power BI Desktop 更新プログラムの一覧にある各機能の横のリンクは、次のように解釈されます。
 
-* [blog]: Most features are explained in a section in the monthly update blog post.
-* [video]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
-* [article]: Some features have an article that provides more detail.
+* \[ブログ\]:ほとんどの機能は、毎月更新されるブログ記事内のセクションで説明されています。
+* \[ビデオ\]:一部の機能には、機能について説明するビデオの抜粋が用意されています。これは新しいブラウザー タブで再生されます。
+* \[記事\]:一部の機能には、詳細を記載する記事が用意されています。
 * 残りの機能は説明を必要としないため、記事やビデオは用意されていません。
 
 [Power BI Desktop の毎月の更新プログラムのビデオ](#power-bi-desktop-monthly-update-video)全体を視聴することもできます。
@@ -41,7 +41,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 以下の更新は、今月の Power BI Desktop の新しい機能です。
 
 
-### <a name="reporting"></a>レポート
+### <a name="reporting"></a>レポーティング
 * 現在のテーマのカスタマイズ (プレビュー) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=10) [[記事]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
 * 現在のテーマのエクスポート (プレビュー) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=242) [[記事]](desktop-report-themes.md#export-report-themes-preview) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
 * テーブル列またはマトリックス値をカスタム URL として設定 [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=277) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
@@ -51,7 +51,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 * ページの自動更新クエリの詳細 [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=717) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
 
 
-### <a name="analytics"></a>分析
+### <a name="analytics"></a>Analytics
 * 分析情報のためにさらに読み込む [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=831) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
 * 新しい DAX 関数:Quarter [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=855) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
 
@@ -71,7 +71,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 * Zucchetti HR Infinity コネクタ [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2345) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
 
 
-### <a name="data-preparation"></a>データ準備
+### <a name="data-preparation"></a>データの準備
 * AI Insights 関数の更新 (プレビュー) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2366) [[記事]](desktop-ai-insights.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
 
 

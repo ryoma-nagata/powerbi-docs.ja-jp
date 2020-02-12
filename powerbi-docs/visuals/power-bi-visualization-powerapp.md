@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/16/2020
-ms.author: mblythe
+ms.date: 02/03/2020
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539902"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "77036678"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>チュートリアル:Power BI レポートに Power Apps ビジュアルを埋め込む
 
@@ -23,7 +23,7 @@ ms.locfileid: "76539902"
 
 Power Apps サブスクリプションをお持ちでない場合は、開始する前に[無料アカウントを作成](https://web.powerapps.com/signup?redirect=marketing&email=)してください。
 
-このチュートリアルで学習する内容は次のとおりです。
+このチュートリアルでは、以下の内容を学習します。
 > [!div class="checklist"]
 > * Power BI レポートに Power Apps ビジュアルを追加する
 > * Power Apps で、Power BI レポートのデータを使用する新しいアプリを作成する操作を行う
@@ -57,7 +57,7 @@ Power Apps ビジュアルをレポートに追加すると、Power Apps と Pow
 
 4. Power Apps ビジュアルで、アプリを作成する Power Apps 環境を選択し、 **[新規作成]** を選択します。
 
-    ![新しいアプリの作成](media/power-bi-visualization-powerapp/power-bi-create-new-powerapp.png)
+    ![新しいアプリを作成する](media/power-bi-visualization-powerapp/power-bi-create-new-powerapp.png)
 
     Power Apps Studio では、基本的なアプリが作成され、Power BI で選択したフィールドの 1 つが "*ギャラリー*" に表示されます。
 
@@ -105,5 +105,5 @@ Power BI レポートのスライサーで **[1 月]** を選択します。こ�
 営業案件の分析のサンプルをもう使用しない場合は、ダッシュボード、レポート、およびデータセットを削除できます。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Q&A ビジュアル](power-bi-visualization-types-for-reports-and-q-and-a.md)
