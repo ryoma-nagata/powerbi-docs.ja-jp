@@ -66,6 +66,8 @@
               href: migrate-ssrs-reports-to-power-bi.md
         - name: 管理者とデプロイ
           items:
+            - name: テナントの管理者設定
+              href: admin-tenant-settings.md
             - name: オンプレミス データ ゲートウェイのサイズ設定
               href: gateway-onprem-sizing.md
     - name: ホワイトペーパー
