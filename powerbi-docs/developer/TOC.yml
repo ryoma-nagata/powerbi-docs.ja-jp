@@ -134,6 +134,8 @@
               href: embed-sample-for-customers-national-clouds.md
         - name: 概念
           items:
+            - name: Power BI Embedded の分析の容量と SKU
+              href: embedded-capacity.md
             - name: のパフォーマンスのベスト プラクティス
               href: embedded-performance-best-practices.md
             - name: サービス プリンシパル
