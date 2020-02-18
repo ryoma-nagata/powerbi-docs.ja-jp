@@ -61,7 +61,7 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
 ### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>Power BI サービスに閲覧者とデータ アクセス ロールを付与する
 
-次に、作成したストレージ アカウントで、Power BI サービスに閲覧者ロールとデータ アクセス ロールを付与する必要があります。 これらは両方とも組み込みロールであるため、手順は簡単です。 
+次に、作成したストレージ アカウントで、Power BI サービスに閲覧者とデータ アクセス ロールを付与する必要があります。 これらは両方とも組み込みロールであるため、手順は簡単です。 
 
 [組み込み RBAC ロールの割り当て](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)に関する記事の手順に従います。
 
