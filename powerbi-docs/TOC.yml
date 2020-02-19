@@ -429,6 +429,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: '管理者:Power BI Desktop のサインイン フォームを管理する'
           href: desktop-admin-sign-in-form.md
+        - name: Power BI Desktop のサインインに関するトラブルシューティング
+          href: desktop-troubleshooting-sign-in.md
         - name: アクセシビリティ
           items:
             - name: Power BI のアクセシビリティについて
@@ -827,6 +829,8 @@
                   href: service-connect-to-xero.md
                 - name: Zendesk
                   href: service-connect-to-zendesk.md
+                - name: Snowflake データ ウェアハウス
+                  href: service-connect-snowflake.md
             - name: 組織のコンテンツ パック
               items:
                 - name: 組織のコンテンツ パックの概要
