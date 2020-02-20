@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 16bfba0b4ed83be55604d2a12e5b86edae2d58bc
-  ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+  ms.openlocfilehash: 8d7ddeffd4394d5fea4770ab0739133b68e04a18
+  ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "77154191"
+  ms.lasthandoff: 02/19/2020
+  ms.locfileid: "77465016"
 landingContent:
 - title: Power BI ガイダンス
   linkLists:
@@ -75,7 +75,7 @@ landingContent:
       url: dax-column-measure-references.md
     - text: フィルター引数として FILTER を使用しない
       url: dax-avoid-avoid-filter-as-filter-argument.md
-- title: レポートの作成
+- title: Power BI レポート
   linkLists:
   - linkListType: concept
     links:
@@ -83,11 +83,17 @@ landingContent:
       url: report-page-tooltips.md
     - text: レポート ページのドリルスルーの使用
       url: report-drillthrough.md
-    - text: どのようなときに Power BI のページ分割されたレポートを使用するか
+- title: Power BI のページ分割されたレポート
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: レポート ページのドリルスルーの使用
+      url: report-drillthrough.md
+    - text: どのようなときにページ分割されたレポートを使用するか
       url: report-paginated-or-power-bi.md
-    - text: ページ分割されたレポートでカスケード型パラメーターを使用する
+    - text: カスケード パラメーターを使用する
       url: paginated-report-cascading-parameter.md
-    - text: ページ分割されたレポートを印刷するときに空白のページを表示しない
+    - text: 印刷時に空白のページを回避する
       url: report-paginated-blank-page.md
     - text: SSRS レポートを Power BI に移行する
       url: migrate-ssrs-reports-to-power-bi.md

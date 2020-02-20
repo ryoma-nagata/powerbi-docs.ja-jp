@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895496"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154413"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI でマトリックスの視覚エフェクトを作成する
 
@@ -136,17 +136,32 @@ ms.locfileid: "76895496"
 
 [階段状レイアウト] をオフにすると、サブカテゴリは親カテゴリの下にインデントされず、別の列に表示されます。
 
-## <a name="subtotals-with-matrix-visuals"></a>マトリックス ビジュアルと小計
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>マトリックス ビジュアルでの小計と総計
 
-マトリックス ビジュアルでは、行と列両方の小計をオンまたはオフにできます。 次の図では、行の小計が**オン**に設定されています。
+マトリックス ビジュアルでは、行と列両方の小計をオンまたはオフにできます。 次の図では、行の小計が**オン**に設定され、下部に表示するように設定されていることがわかります。
 
-![合計と小計が表示されているマトリックス](media/desktop-matrix-visual/matrix-visual_20.png)
+![合計と小計が表示されているマトリックス](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-[視覚化] ウィンドウの [書式] セクションで、 **[小計]** カードを展開し、[行の小計] スライダーを **[オフ]** にします。 このようにすると、小計が表示されません。
+**[小計]** をオンにしてラベルを追加すると、Power BI では総計の値に対する行も同じラベルで追加されます。 総計を書式設定するには、 **[総計]** の書式オプションを選択します。 
 
-![小計がオフになっているマトリックス](media/desktop-matrix-visual/matrix-visual_21.png)
+![総計カードが表示されているマトリックス](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+小計と総計をオフにするには、[視覚化] ペインの [書式] セクションで、 **[小計]** カードを展開します。 [行の小計] スライダーを **[オフ]** にします。 このようにすると、小計が表示されません。
+
+![小計がオフになっているマトリックス](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 列の小計も同じ方法で変更できます。
+
+## <a name="add-conditional-icons"></a>条件付きアイコンを追加する
+*条件付きアイコン*を使用して、テーブルまたはマトリックスに視覚的な合図を追加します。 
+
+[視覚化] ウィンドウの [書式] セクションで、 **[条件付き書式]** カードを展開します。 **[アイコン]** スライダーを **[オン]** にして、 **[詳細コントロール]** を選択します。
+
+![アイコン画面が表示されているマトリックス](media/desktop-matrix-visual/power-bi-icons.png)
+
+マトリックスの条件、アイコン、および色を調整し、 **[OK]** を選択します。 この例では、低い値には赤いフラグ、高い値には紫の円、中間の値すべてについては黄色の三角形を使用しています。 
+
+![アイコンが表示されているマトリックス](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>マトリックス ビジュアルでのクロス強調表示
 

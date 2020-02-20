@@ -52,15 +52,19 @@
               href: dax-column-measure-references.md
             - name: フィルター引数として FILTER を使用しない
               href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Power BI レポート
+          items:
             - name: レポート ページのヒントによるビジュアルの拡張
               href: report-page-tooltips.md
             - name: レポート ページのドリルスルーの使用
               href: report-drillthrough.md
-            - name: どのようなときに Power BI のページ分割されたレポートを使用するか
+        - name: Power BI のページ分割されたレポート
+          items:
+            - name: どのようなときにページ分割されたレポートを使用するか
               href: report-paginated-or-power-bi.md
-            - name: ページ分割されたレポートでカスケード型パラメーターを使用する
+            - name: カスケード パラメーターを使用する
               href: paginated-report-cascading-parameter.md
-            - name: ページ分割されたレポートを印刷するときに空白のページを表示しない
+            - name: 印刷時に空白のページを回避する
               href: report-paginated-blank-page.md
             - name: SSRS レポートを Power BI に移行する
               href: migrate-ssrs-reports-to-power-bi.md

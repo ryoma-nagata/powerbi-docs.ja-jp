@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852223"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77260131"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI サービスのコンシューマーの基本的な概念
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-この記事は、[Power BI の概要](../fundamentals/power-bi-overview.md)に関する記事を既に読んでいて、ご自分を [Power BI ***コンシューマー***](end-user-consumer.md)と認識していることを前提としています。 コンシューマーは、仕事仲間からダッシュボードやレポートなどの Power BI のコンテンツを受け取ります。 コンシューマーは、Power BI の Web サイト ベースのバージョンである Power BI サービスを使用します。
+この記事は、[Power BI の概要](../fundamentals/power-bi-overview.md)に関する記事を既に読んでいて、ご自分を [Power BI **_コンシューマー_** ](end-user-consumer.md)と認識していることを前提としています。 コンシューマーは、仕事仲間からダッシュボードやレポートなどの Power BI のコンテンツを受け取ります。 コンシューマーは、Power BI の Web サイト ベースのバージョンである Power BI サービスを使用します。
 
 "Power BI Desktop" あるいは単に "Desktop" という用語をご存知かと思います。 これは、ダッシュボードおよびレポートをビルドしてお客様と共有する "*デザイナー*" によって使用されるスタンドアロン ツールです。 その他の Power BI ツールが存在することを知っておくことは重要です。 お客様がコンシューマーである限り、Power BI サービスのみを操作します。 この記事は Power BI サービスにのみ適用されます。
 
@@ -54,13 +54,13 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>文書パーツの概要
 
-Power BI コンシューマーの場合、文書パーツは 5 つあります。***視覚化***、***ダッシュボード***、***レポート***、***アプリ***、および***データセット***です。 これらは *Power BI* の***コンテンツ***と呼ばれる場合があります。 "*コンテンツ*" は、***ワークスペース***内に存在します。 一般的なワークフローには、これらすべての文書パーツが含まれます。Power BI "*デザイナー*" (以下の図の黄色) は、"*データセット*" からデータを収集し、分析のために Power BI に移動し、関心のある事実や分析情報を強調表示する完全な "*視覚化*" の "*レポート*" を作成し、レポートからダッシュボードに視覚化をピン留めし、ご自身のような "*コンシューマー*" (以下の図の黒色) とレポートやダッシュボードを共有します。 "*デザイナー*" は、"*アプリ*" の形式またはその他の種類の共有コンテンツでそれらを共有します。
+Power BI コンシューマーの場合、文書パーツは 5 つあります。 **_視覚化_** 、 **_ダッシュボード_** 、 **_レポート_** 、 **_アプリ_** 、 **_データセット_** です。 これらは *Power BI* の **_コンテンツ_** と呼ばれる場合があります。 "*コンテンツ*" は、 **_ワークスペース_** 内に存在します。 一般的なワークフローには、これらすべての文書パーツが含まれます。Power BI "*デザイナー*" (以下の図の黄色) は、"*データセット*" からデータを収集し、分析のために Power BI に移動し、関心のある事実や分析情報を強調表示する完全な "*視覚化*" の "*レポート*" を作成し、レポートからダッシュボードに視覚化をピン留めし、ご自身のような "*コンシューマー*" (以下の図の黒色) とレポートやダッシュボードを共有します。 "*デザイナー*" は、"*アプリ*" の形式またはその他の種類の共有コンテンツでそれらを共有します。
 
 ![基本的な Power BI のワークフロー チャート。](media/end-user-basic-concepts/power-bi-workflow.png)
 
 最も基本的な要素は次のとおりです。
 
-- ![視覚化 アイコンのスクリーンショット。](media/end-user-basic-concepts/visual.png) ***視覚化*** (または "*ビジュアル*") は、Power BI の "*デザイナー*" によって作成されたグラフの種類です。 ビジュアルは、"*レポート*" と "*データセット*" からのデータを表示します。 通常、*デザイナー*は Power BI Desktop でビジュアルをビルドします。
+- ![視覚化 アイコンのスクリーンショット。](media/end-user-basic-concepts/visual.png) **_視覚化_** (または "*ビジュアル*") は、Power BI の "*デザイナー*" によって作成されたグラグの種類です。 ビジュアルは、"*レポート*" と "*データセット*" からのデータを表示します。 通常、*デザイナー*は Power BI Desktop でビジュアルをビルドします。
 
     詳しくは、「[レポート、ダッシュボード、アプリでビジュアルを操作する](end-user-visualizations.md)」をご覧ください。
 

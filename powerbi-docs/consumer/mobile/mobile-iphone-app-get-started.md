@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220347"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259745"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS デバイスでの Power BI モバイル アプリの概要
 iPhone または iPad 上の Microsoft Power BI for iOS アプリは、Power BI、Power BI Report Server、Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
@@ -40,12 +40,12 @@ Power BI for iOS アプリは、iOS 11 以降を実行している任意のデ�
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI アプリの概要
 1. iOS デバイスで Power BI アプリを開きます。
-2. Power BI ダッシュボードを表示するには、 **[Power BI]** をタップします。  
-   Reporting Services のモバイル レポートと KPI を表示するには、 **[レポート サーバー]** をタップします。
+2. Power BI にサインインするには、 **[Power BI]** タブをタップし、サインインの詳細を入力します。  
+   Reporting Services のモバイル レポートと KPI にサインインするには、 **[レポート サーバー]** タブをタップし、サインインの詳細を入力します。
    
    ![Power BI モバイル アプリにサインインする](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   アプリにサインインしたら、画面の左上隅にあるアカウント プロファイル画像をタップすると、2 つの間で切り替えられます。 
+   アプリにサインインしたら、画面の左上隅にあるアカウント プロファイル画像をタップすると、Power BI とレポート サーバーの間で切り替えられます。 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Power BI と Reporting Services のサンプルをお試しください。
 サインアップしなくても、Power BI と Reporting Services のサンプルを表示したり、操作したりできます。

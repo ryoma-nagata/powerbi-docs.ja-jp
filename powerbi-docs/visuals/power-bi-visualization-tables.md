@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830883"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154285"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードのテーブル
 
@@ -50,7 +50,7 @@ ms.locfileid: "74830883"
 1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
 
-## <a name="create-a-table"></a>テーブルを作成する
+## <a name="create-a-table"></a>テーブルの作成
 
 この記事の最初に示したテーブルを作成して、売上高の値を品目カテゴリ別に表示します。
 
@@ -98,22 +98,19 @@ ms.locfileid: "74830883"
 
 ### <a name="conditional-formatting"></a>条件付き書式
 
-"*条件付き書式*" は書式設定の一種です。 Power BI では、 **[視覚化]** ウィンドウ **[値]** ウェル のフィールドに条件付き書式設定が適用されます。
+"*条件付き書式*" は書式設定の一種です。 Power BI では、 **[視覚化]** ペインの **[値]** ウェルに追加したいずれのフィールドにも、条件付き書式設定を適用できます。
 
-テーブルで条件付き書式を使用すると、グラデーション カラーの使用など、セルの値に基づいてカスタマイズされたセルの背景色とフォントの色を指定できます。
+![[視覚化] ウィンドウ](media/power-bi-visualization-tables/power-bi-table-values.png)
 
-1. **[視覚化]** ウィンドウで **[フィールド]** アイコン ![フィールド アイコン](media/power-bi-visualization-tables/power-bi-fields-icon.png) を選択します。
+テーブルで条件付き書式を使用すると、グラデーション カラーの使用など、セルの値に基づいてアイコン、URL、セルの背景色とフォントの色を指定できます。
 
-1. 書式を設定する **[値]** ウェルの値の横にある下向きの矢印を選択します (または、フィールドを右クリックします)。
+1. **[書式]** ペインで、 **[条件付き書式]** カードを開きます。
 
-    > [!NOTE]
-    > 条件付き書式を管理できるのは、 **[フィールド]** ウェルの **[値]** 領域のフィールドだけです。
+    ![[条件付き書式] カード](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-    ![[バックグラウンドのカラー スケール] へのパス](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+1. 書式設定するフィールドを選択し、 **[背景色]** のスライダーを [オン] にします。 Power BI により、列の値に基づいてグラデーションが適用されます。 既定の色を変更するには、 **[詳細コントロール]** を選択します。
 
-1. **[背景色]** を選択します。
-
-1. 表示されるダイアログ ボックスで、色や **最小**値、**最大**値を構成できます。 **[左右逆方向]** オプションをオンにした場合は、オプションの**中央**値も構成できます。
+    **[左右逆方向]** オプションをオンにした場合は、オプションの**中央**値も構成できます。
 
     ![[バックグラウンドのカラー スケール] 画面](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
@@ -124,11 +121,11 @@ ms.locfileid: "74830883"
 
     ![右端に新しいフィールドが示されている](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
-1. **[Total Sales Variance]** の横にある下向きの矢印を選択して、データ バーの条件付き書式を追加し、 **[条件付き書式]、[データ バー]** の順に選択します。
+1. **[データ バー]** スライダーを [オン] にして、データ バーの条件付き書式を追加します。  
 
-    ![[データ バー] を選択するパス](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![データ バーがオンにされた条件付き書式カード](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. 表示されるダイアログで **[正のバー]** と **[負のバー]** の色を設定し、 **[バーのみを表示]** オプションを選択します。また、必要に応じて他の変更を行います。
+1. データ バーをカスタマイズするには、 **[詳細コントロール]** を選択します。 表示されるダイアログで **[正のバー]** と **[負のバー]** の色を設定し、 **[バーのみを表示]** オプションを選択します。また、必要に応じて他の変更を行います。
 
     ![[バーのみを表示] のチェックマーク](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
@@ -138,10 +135,10 @@ ms.locfileid: "74830883"
 
     ![テーブルは同じだが、最後の列にバーが示されている](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-視覚化から条件付き書式を削除するには、再度フィールドを右クリックし、 **[条件付き書式の削除]** を選択します。
+1. *条件付きアイコン*を使用して、テーブルに視覚的な合図を追加します。  **[条件付き書式]** カードで、ドロップダウンから **[This Year Sales]\(今年の売上\)** を選択します。 **[アイコン]** スライダーを **[オン]** にします。  アイコンをカスタマイズするには、 **[詳細コントロール]** を選択します。
 
-> [!TIP]
-> 条件付き書式は、 **[形式]** ウィンドウからも使用できます。 値を選択して書式を設定し、 **[カラー スケール]** または **[データ バー]** を **[オン]** に設定して既定の設定を適用するか、設定をカスタマイズして **[詳細コントロール]** を選択します。
+    ![アイコンが追加されたテーブル](media/power-bi-visualization-tables/power-bi-table-icons.png)
+
 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Power BI のテーブルから値をコピーして他のアプリケーションで使用する
 
@@ -175,12 +172,13 @@ Power BI では、レポートまたはダッシュボードの列見出しが�
 
 ![列のサイズ変更をクローズアップするビデオ](media/power-bi-visualization-tables/resizetable.gif)
 
+
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 
 列の書式設定を適用する場合、選択できる配置オプションは 1 列あたり 1 つのみです:**自動**、**左**、**中央**、**右**。 通常、列に含まれるのはテキストのみか、数値のみであり、混在することはありません。 列に数値とテキストの両方が含まれる場合、 **[自動]** ではテキストは左に、数値は右に配置されます。 この動作は、左から右に読む言語をサポートします。
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI のツリーマップ](power-bi-visualization-treemaps.md)
+* [Power BI のツリー マップ](power-bi-visualization-treemaps.md)
 
 * [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)

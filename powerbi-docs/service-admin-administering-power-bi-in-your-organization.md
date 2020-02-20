@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548587"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115264"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 管理とは
 
@@ -80,10 +80,9 @@ Power BI 管理に関連するいくつかのツールがあります。それ�
 
 この記事では、Power BI 管理者の仕事と、関連する特定のロール、タスク、およびツールの概要を説明しました。 次の記事のトピックを参照して、理解を深めることをお勧めします。
 
-[Power BI 管理ポータルを使用する](service-admin-portal.md)
-
-[PowerShell コマンドレットを使用する](/powershell/power-bi/overview)
-
-[Power BI 管理のよく寄せられる質問](service-admin-faq.md)
-
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- [Power BI 管理ポータルを使用する](service-admin-portal.md)
+- [テナントの管理者設定のガイダンス](guidance/admin-tenant-settings.md)
+- [PowerShell コマンドレットを使用する](/powershell/power-bi/overview)
+- [Power BI 管理のよく寄せられる質問](service-admin-faq.md)
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

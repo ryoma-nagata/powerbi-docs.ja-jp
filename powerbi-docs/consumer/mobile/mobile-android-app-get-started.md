@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220224"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259764"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android デバイスでの Power BI モバイル アプリの概要
 Microsoft Power BI 用 Android アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 
@@ -52,11 +52,11 @@ Android デバイスでアプリを開くと、サインアップやサインイ
 1. Android デバイスで、スタート画面から Power BI for Android アプリを開きます。
    
    ![Power BI アイコン](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. Power BI ダッシュボードとレポートを表示するには、 **[Power BI]** をタップします。  
-   
-   Power BI にサインインできないというメッセージが表示される場合の問題解決方法について詳しくは、["お使いの企業 SSL 証明書が信頼されていないため、認証できませんでした"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) をご覧ください。
+2. Power BI にサインインするには、 **[Power BI]** タブをタップし、サインインの詳細を入力します。
 
-   Power BI レポート サーバーや Reporting Services のレポートおよび KPI を表示するには、 **[レポート サーバー]** をタップします。
+    Power BI にサインインできないというメッセージが表示される場合の問題解決方法について詳しくは、["お使いの企業 SSL 証明書が信頼されていないため、認証できませんでした"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) をご覧ください。
+
+   Reporting Services のモバイル レポートと KPI にサインインするには、 **[レポート サーバー]** タブをタップし、サインインの詳細を入力します。
    
    ![Power BI へのサインイン](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 
