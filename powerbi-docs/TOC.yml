@@ -579,6 +579,8 @@
           items:
             - name: スケジュールされた更新の構成
               href: refresh-scheduled-refresh.md
+            - name: 増分更新を構成する
+              href: service-premium-incremental-refresh.md
             - name: ローカル Power BI Desktop ファイルからのデータセットを更新する
               href: refresh-desktop-file-local-drive.md
             - name: クラウド Power BI Desktop ファイルからのデータセットを更新する
@@ -701,6 +703,8 @@
               href: service-url-filters.md
             - name: 自分や他のユーザーをサブスクライブする
               href: service-report-subscribe.md
+            - name: Microsoft Teams にレポートを埋め込む
+              href: service-embed-report-microsoft-teams.md
             - name: SharePoint Online にレポートを埋め込む
               href: service-embed-report-spo.md
             - name: セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
@@ -885,8 +889,6 @@
           href: service-premium-metrics-app.md
         - name: 管理ポータルで容量を監視する
           href: service-admin-premium-monitor-portal.md
-        - name: 増分更新を構成する
-          href: service-premium-incremental-refresh.md
         - name: 大規模なモデルを構成する (プレビュー)
           href: service-premium-large-models.md
         - name: Multi-Geo の構成

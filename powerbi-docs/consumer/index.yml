@@ -1,0 +1,101 @@
+### YamlMime:Landing
+title: コンシューマー向けの Power BI のドキュメント
+summary: コンシューマーは、同僚からダッシュボードとレポートを受け取ります。 Power BI を使用して、このコンテンツを確認および操作し、ビジネス上の意思決定を行います。
+metadata:
+  title: 利用者向けの Power BI
+  description: Power BI を初めて使いますか? Power BI サービスの機能を理解し、Power BI のコンシューマーまたはエンド ユーザーとしてそれらを利用してできることを確認してください。
+  ms.service: powerbi
+  ms.subservice: powerbi-consumer
+  ms.topic: landing-page
+  author: mihart
+  ms.author: mihart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
+  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 02/20/2020
+  ms.locfileid: "77497795"
+landingContent:
+- title: コンシューマー向けの Power BI について
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI コンシューマーとは
+      url: end-user-consumer.md
+    - text: Power BI サービスのツアーを開始する
+      url: end-user-reading-view.md
+    - text: 概念とコンテンツを確認する
+      url: end-user-basic-concepts.md
+- title: 作業の開始
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: サインイン
+      url: end-user-sign-in.md
+  - linkListType: concept
+    links:
+    - text: レポートについて
+      url: end-user-reports.md
+    - text: ダッシュボードについて
+      url: end-user-dashboards.md
+    - text: アプリについて
+      url: end-user-apps.md
+- title: コンテンツの表示
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: レポートの表示
+      url: end-user-report-view.md
+    - text: コンテンツを拡大するか、単独で表示する
+      url: end-user-focus.md
+    - text: ビジュアルの作成に使用されたデータを表示する
+      url: end-user-show-data.md
+    - text: Excel にデータをエクスポートする
+      url: end-user-export.md
+- title: 対話と分析
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI での回避
+      url: end-user-experience.md
+    - text: ビジュアルをドリルダウンする
+      url: end-user-drill.md
+    - text: ビジュアルの並べ替え方法を変更する
+      url: end-user-change-sort.md
+    - text: レポート フィルターの使用
+      url: end-user-report-filter.md
+    - text: 自然言語を使用して質問する
+      url: end-user-q-and-a.md
+- title: コラボレーションと共有
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: レポートを PowerPoint に発行する
+      url: end-user-powerpoint.md
+    - text: レポートを PDF にエクスポートする
+      url: end-user-pdf.md
+    - text: コンテンツをサブスクライブする
+      url: end-user-subscribe.md
+- title: 高度なトピック
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: ブックマークを作成して使用する
+      url: end-user-bookmarks.md
+    - text: 自動インサイトを表示する
+      url: end-user-insights.md
+    - text: ページ分割されたレポートを表示する
+      url: paginated-reports-view-power-bi-service.md
+- title: リソース
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: 用語集
+      url: end-user-glossary.md
+    - text: FAQ
+      url: end-user-faq.md
+    - text: インサイトの種類
+      url: end-user-insight-types.md
+    - text: ビジュアルの種類
+      url: end-user-visual-type.md

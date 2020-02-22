@@ -62,6 +62,10 @@
           items:
             - name: どのようなときにページ分割されたレポートを使用するか
               href: report-paginated-or-power-bi.md
+            - name: データの取得に関するガイダンス
+              href: report-paginated-data-retrieval.md
+            - name: イメージの使用に関するガイダンス
+              href: report-paginated-image.md
             - name: カスケード パラメーターを使用する
               href: paginated-report-cascading-parameter.md
             - name: 印刷時に空白のページを回避する

@@ -8,24 +8,24 @@
           href: end-user-consumer.md
         - name: Power BI コンシューマーの基本的な概念と用語
           href: end-user-basic-concepts.md
+        - name: Power BI サービスのツアーを開始する
+          href: end-user-reading-view.md
+    - name: 作業の開始
+      items:
+        - name: Power BI 内の移動
+          href: end-user-experience.md
         - name: ホーム ランディング ページを使用してコンテンツを検索する
           href: end-user-home.md
+        - name: 自然言語を使用して質問する方法
+          href: end-user-q-and-a.md
+        - name: 初めてサインインする
+          href: end-user-sign-in.md
+        - name: ライセンスの種類を参照する
+          href: end-user-license.md
         - name: '"新しい外観" に移動する'
           href: ../service-new-look.md
         - name: '"新しい外観": アクションはどこにありますか。'
           href: ../service-new-look-where-actions.md
-    - name: クイックスタート
-      items:
-        - name: Power BI 内の移動
-          href: end-user-experience.md
-        - name: Power BI の機能
-          href: end-user-reading-view.md
-        - name: 初めてのサインイン
-          href: end-user-sign-in.md
-    - name: チュートリアル
-      items:
-        - name: ダッシュボードのアラートの作成
-          href: end-user-alerts.md
     - name: 操作方法
       items:
         - name: ダッシュボード
@@ -40,6 +40,10 @@
               href: end-user-tiles.md
             - name: コメントを追加またはメッセージ交換の開始
               href: end-user-comment.md
+            - name: ダッシュ ボード タイルの自動分析情報の表示
+              href: end-user-insights.md
+            - name: ダッシュボードのアラートの作成
+              href: end-user-alerts.md
         - name: レポート
           items:
             - name: レポート
@@ -78,7 +82,7 @@
               href: end-user-visual-type.md
             - name: ビジュアルの作成に使用されたデータを表示する
               href: end-user-show-data.md
-            - name: Power BI での視覚化のドリルダウン
+            - name: 視覚化をドリルダウンする
               href: end-user-drill.md
             - name: ArcGIS マップとの対話
               href: ../power-bi-visualizations-arcgis.md
@@ -104,8 +108,6 @@
               href: end-user-subscribe.md
             - name: Power BI でのコンテンツの検索と並べ替え
               href: end-user-search-sort.md
-            - name: ダッシュ ボード タイルの自動分析情報の表示
-              href: end-user-insights.md
             - name: プレビュー機能をオンにする
               href: end-user-preview-features.md
             - name: Power BI サービスで通知を受け取る
@@ -134,7 +136,7 @@
           href: end-user-faq.md
         - name: サポートされているブラウザー
           href: end-user-browsers.md
-        - name: Power BI でサポートされているクイック インサイトの種類
+        - name: クイック分析情報の種類
           href: end-user-insight-types.md
 - name: Power BI モバイル アプリ
   items:
