@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b90357aa6d8f66612857e8247a8b48dc2c2c369
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539621"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427371"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services 表形式モデルに行レベル セキュリティを実装する
 
@@ -82,7 +82,7 @@ ms.locfileid: "76539621"
 
 1. `LOOKUPVALUE` 関数は、Windows ユーザー名が、`USERNAME` 関数で返された名前と一致する列の値を返します。 これで、`LOOKUPVALUE` で返された値が、同じテーブルまたは関連テーブルの値と一致する列にクエリを制限することができます。 **[DAX フィルター]** 列に、次の数式を入力します。
 
-    ```sql
+    ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ```
 
@@ -95,7 +95,7 @@ ms.locfileid: "76539621"
 
 1. `DimUserSecurity` テーブルでは、 **[DAX フィルター]** 列に、次の数式を追加します。
 
-    ```sql
+    ```dax
         =FALSE()
     ```
 
@@ -175,7 +175,7 @@ Rita が Power BI サービスにログインして、Grace が作成した共�
 
 また、レポートのデータを取り込むために以下のような DAX クエリが実行されることがわかります。
    
-   ```sql
+   ```dax
    EVALUATE
      ROW(
        "SumEmployeeKey", CALCULATE(SUM(Employee[EmployeeKey]))

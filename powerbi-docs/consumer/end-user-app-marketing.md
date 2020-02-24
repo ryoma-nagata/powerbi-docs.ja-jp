@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/02/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e15c19402c032d84c77f1e6e61e7afb6b49856fb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 65584772a60be1a784828226fbac48458ded7be8
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851154"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496864"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>サンプルの Sales & Marketing アプリをインストールして Power BI サービスで使用する
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [Power BI コンテンツを取得する方法の基本について理解](end-user-app-view.md)したら、次は Microsoft AppSource (appsource.com) から Sales & Marketing アプリを取得してみましょう。 
 
 

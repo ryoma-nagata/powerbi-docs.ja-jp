@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/10/2019
+ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a97f30f75b8bf720d735944589e671392c47237
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75223913"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427739"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium の購入方法
 
 この記事では、組織に Power BI Premium の容量を購入する方法について説明します。 この記事では、次の 2 つのシナリオについて説明します。
 
-- P SKU を一般的な運用シナリオで使用する。 P SKU には月単位または年単位のコミットメントが必要で、課金は月単位で行われます。 P SKU は、[Microsoft 365 管理センター](https://admmin.microsoft.com)で購入します。
+- P SKU を一般的な運用シナリオで使用する。 P SKU には月単位または年単位のコミットメントが必要で、課金は月単位で行われます。
 
 - A SKU をテスト シナリオで使用する。または、P SKU の購入に必要な (Microsoft 365 グローバル管理者ロールまたは課金管理者ロール) のアクセス許可がない場合。 A SKU には時間のコミットメントは不要であり、課金は時間単位で行われます。 A SKU は [Azure portal](https://portal.azure.com) で購入します。
 
