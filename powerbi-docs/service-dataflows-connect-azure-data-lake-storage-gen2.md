@@ -65,7 +65,7 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 
 [組み込み RBAC ロールの割り当て](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)に関する記事の手順に従います。
 
-**[ロール割り当ての追加]** ウィンドウで、 **[閲覧者とデータ アクセス]** ロールを選択して Power BI サービスに割り当てます。 次に、検索を利用して、 **[Power BI サービス]** を探します。 
+**[ロール割り当ての追加]** ウィンドウで、 **[閲覧者]** ロールと **[データ アクセス]** ロールを選択して Power BI サービスに割り当てます。 次に、検索を利用して、 **[Power BI サービス]** を探します。 
 
 > [!NOTE]
 > アクセス許可がポータルから Power BI に反映されるまでに、少なくとも 30 分は見込んでください。 ポータルでアクセス許可を変更した場合は、そのアクセス許可が Power BI に反映されるまでに 30 分は見込んでください。 
