@@ -7,6 +7,8 @@
       items:
         - name: 概要
           href: overview.md
+        - name: Power BI の最適化ガイド
+          href: power-bi-optimization.md
     - name: 概念
       expanded: true
       items:
@@ -78,6 +80,8 @@
               href: admin-tenant-settings.md
             - name: オンプレミス データ ゲートウェイのサイズ設定
               href: gateway-onprem-sizing.md
+            - name: レポートのパフォーマンスを監視する
+              href: monitor-report-performance.md
     - name: ホワイトペーパー
       items:
         - name: ホワイトペーパーの概要
