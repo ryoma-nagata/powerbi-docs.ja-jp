@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410841"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527524"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>スター スキーマと Power BI での重要性を理解する
 
@@ -71,9 +71,10 @@ Power BI モデルでは集計を実現するための 2 つ目の方法がサ�
 
 ![フィールド リストのアイコンの例](media/star-schema/field-list-example.png)
 
-ただし、シンプルな列レベルの集計の場合でも、メジャーを作成する説得力のある 2 つの理由があります。
+ただし、シンプルな列レベルの集計の場合でも、メジャーを作成する説得力のある 3 つの理由があります。
 
-- レポート作成者が[多次元式 (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) を使用してモデルに対してクエリを実行することがわかっている場合は、モデルに_明示的メジャー_を含める必要があります。 暗黙のメジャーは DAX 式で定義されます。 この設計手法は、MDX を使用し、Power BI データセットにクエリが実行されるときに大いに関連します。MDX では、列の値を合計できないからです。 特に、MDX は [Excel で分析](https://docs.microsoft.com/power-bi/service-analyze-in-excel)を実行するときに使用されます (ピボットテーブルから MDX クエリを出す)。
+- ご自分のレポート作成者が[多次元式 (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) を使用してモデルに対してクエリを実行することがわかっている場合は、モデルに_明示的メジャー_を含める必要があります。 暗黙のメジャーは DAX 式で定義されます。 この設計手法は、MDX を使用し、Power BI データセットにクエリが実行されるときに大いに関連します。MDX では、列の値を合計できないからです。 特に、MDX は [Excel で分析](https://docs.microsoft.com/power-bi/service-analyze-in-excel)を実行するときに使用されます (ピボットテーブルから MDX クエリを出す)。
+- レポート作成者が MDX クエリ デザイナーを使用して Power BI ページ分割されたレポートを作成することがわかっている場合は、モデルに明示的なメジャーを含める必要があります。 [サーバー集計](/sql/reporting-services/report-design/report-builder-functions-aggregate-function)をサポートするのは、MDX クエリ デザイナーのみです。 そのため、レポート作成者が (ページ分割されたレポート エンジンではなく) Power BI によって評価されるメジャーが必要な場合には、MDX クエリ デザイナーを使用する必要があります。
 - レポート作成者が特定の方法でのみ列を集計できるようにする必要がある場合。 たとえば、再販業者の販売の **[単価]** 列 (単位あたりのレートを表す) を集計できますが、それは特定の集計関数を使用する場合のみです。 これは、合計することはできませんが、他の集計関数 (min、max、average など) を使用して集計するには適しています。 この場合、モデラーは **[単価]** 列を非表示にして、適切なすべての集計関数のメジャーを作成できます。
 
 この設計手法は、Power BI サービスで作成されたレポートと、Q&A に適していることに注意してください。 ただし、Power BI Desktop のライブ接続を使用すれば、レポート作成者は **[フィールド]** ウィンドウで非表示フィールドを表示できます。これにより、この設計手法が回避される可能性があります。

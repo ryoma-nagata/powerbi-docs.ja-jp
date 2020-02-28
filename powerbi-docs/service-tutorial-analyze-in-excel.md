@@ -1,31 +1,31 @@
 ---
-title: チュートリアル:Excel で分析を使用する
-description: このチュートリアルでは、[Power BI データセット] ページを使用して、Excel にデータセットをインポートします。
+title: チュートリアル:Excel から開始して Power BI の [Excel で分析] を使用する
+description: このチュートリアルでは、Excel から開始して [Power BI データセット] ページに接続し、Excel にデータセットをインポートします。
 author: tejaskulkarni
 ms.reviewer: davidiseminger
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 01/27/2020
+ms.date: 02/13/2020
 ms.author: tekulkar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a68adccec019e64e554d199d23d7dddd782f56a2
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76921487"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426543"
 ---
-# <a name="tutorial-use-analyze-in-excel"></a>チュートリアル:Excel で分析を使用する
+# <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>チュートリアル:Excel から開始して Power BI の [Excel で分析] を使用する
 
-あなたの組織では、Power BI を利用してデータへのアクセスを共有しています。 ピボットテーブルとピボットグラフを作成して分析にコンテキストを追加する場合や、関連するデータセットを見つけてインポートするためにかかる時間を短縮する場合は、[Excel で分析] 機能を使用してください。
+あなたの組織では、Power BI を利用してデータへのアクセスを共有しています。 Excel から Power BI の [Excel で分析] 機能を開始して、Excel でピボットテーブルとピボットグラフを作成します。 これにより、自分の分析にコンテキストが追加されたり、関連するデータセットを見つけてインポートする時間を短縮したりすることができます。
 
-データセットの選択を始めるには、[Excel で分析] を選択します。 データを使用するピボットテーブルを作成する方法について説明します。  
+Power BI データセットの使用を開始するには、Excel 内で [Excel で分析] を選択します。 データを使用するピボットテーブルを作成する方法について説明します。  
 
 組織によって共有されている追加のデータセットを見つけるには、[データセット] ページに戻ります。
 
-いずれかの時点で問題が発生した場合は、以下のフローの適切な手順で [いいえ] を選択し、リンクされたフォームでフィードバックを提供してください。  
+いずれかの時点で問題が発生した場合は、以下のフローの適切な手順で **[いいえ]** を選択し、リンクされたフォームでフィードバックを提供してください。  
 
 このチュートリアルで学習する内容は次のとおりです。
 

@@ -8,21 +8,25 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77260131"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496893"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI サービスのコンシューマーの基本的な概念
+
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 この記事は、[Power BI の概要](../fundamentals/power-bi-overview.md)に関する記事を既に読んでいて、ご自分を [Power BI **_コンシューマー_** ](end-user-consumer.md)と認識していることを前提としています。 コンシューマーは、仕事仲間からダッシュボードやレポートなどの Power BI のコンテンツを受け取ります。 コンシューマーは、Power BI の Web サイト ベースのバージョンである Power BI サービスを使用します。
+
+他のユーザーからコンテンツを受け取るには、Power BI Pro ユーザー ライセンスまたは Power BI Premium 容量ライセンスが必要です。 [お使いのライセンスの種類を調べる](end-user-license.md)
 
 "Power BI Desktop" あるいは単に "Desktop" という用語をご存知かと思います。 これは、ダッシュボードおよびレポートをビルドしてお客様と共有する "*デザイナー*" によって使用されるスタンドアロン ツールです。 その他の Power BI ツールが存在することを知っておくことは重要です。 お客様がコンシューマーである限り、Power BI サービスのみを操作します。 この記事は Power BI サービスにのみ適用されます。
 
@@ -38,7 +42,7 @@ Power BI コンシューマーのほとんどは Power BI サービスを入手�
 
 ![Power BI サービスのようこそ画面のスクリーンショット。](media/end-user-basic-concepts/power-bi-home.png)
 
-Power BI を使用するときに、Web サイトを開くたびに表示する内容をカスタマイズします。 たとえば、Power BI で**ホーム** ページを開きたい人もいれば、最初に表示したいお気に入りのダッシュボードがある人もいます。 ご安心ください。この記事で、エクスペリエンスの個人設定の方法を説明します。
+Power BI を使用するときに、Web サイトを開くたびに表示する内容をカスタマイズします。 たとえば、Power BI で**ホーム**を開きたい人もいれば、お気に入りのダッシュボードを最初に表示したい人もいます。 ご安心ください。この記事で、エクスペリエンスの個人設定の方法を説明します。
 
 - [Power BI ホームとグローバル検索の紹介](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)
 
@@ -179,6 +183,9 @@ _______________________________________________________
 ## <a name="apps"></a>アプリ
 
 これらのダッシュボードとレポートのコレクションは、関連するコンテンツが 1 つのパッケージにまとめて整理されます。 Power BI *Designers* は、これらをビルドし、個人、グループ、組織全体、またはパブリックと共有します。 コンシューマーとして、お客様と仕事仲間が同じデータ (真実の唯一の信頼できるバージョン) を使用していることを確信できます。
+
+> [!NOTE]
+> アプリを使用するには、Power BI Pro または Premium ライセンスが必要です。 
 
 ![Power BI の左側のウィンドウで選択されたアプリのスクリーンショット。](media/end-user-basic-concepts/power-bi-apps.png)
 

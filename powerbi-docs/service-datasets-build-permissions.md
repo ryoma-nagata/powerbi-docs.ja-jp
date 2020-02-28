@@ -1,26 +1,32 @@
 ---
 title: 共有データセットのビルド アクセス許可 (プレビュー)
-description: ビルド アクセス許可を使用して、データにアクセスできるユーザーを制御する方法について説明します。
+description: ビルド アクセス許可を使用して、データに対するアクセスを制御する方法について学習します。
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872553"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426612"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>共有データセットのビルド アクセス許可 (プレビュー)
 
-Power BI Desktop の*データ モデル*の作成者であれば、それらを Power BI サービスの*データセット*として共有できます。 これで、レポート作成者は共有したデータセットを簡単に見つけて再利用できるようになります。 ビルド アクセス許可を使用して、データにアクセスできるユーザーを制御する方法について説明します。
+Power BI Desktop でレポートを作成する場合、そのレポート内のデータは "*データ モデル*" に格納されます。 Power BI サービスにレポートをパブリッシュすると、データを "*データセット*" としてもパブリッシュすることになります。 他のユーザーにそのレポートに対する "*ビルド アクセス許可*" を付与すると、共有したデータセットを検出して再利用できるようにすることができます。 この記事では、ビルド アクセス許可を使用して、データに対するアクセスを制御する方法について説明します。
 
-ビルド アクセス許可は、データセットにのみ関連します。 ユーザーにビルド アクセス許可を付与すると、レポート、ダッシュボード、Q&A のピン留めされたタイル、Insights Discovery などの新しいコンテンツをデータセット上に構築できます。 また、Excel で分析、XMLA、基になるデータのエクスポートを利用した Excel シートなど、Power BI 外部のデータセット上で新しいコンテンツを構築することもできます。
+ビルド アクセス許可はデータセットに適用されます。 ユーザーにビルド アクセス許可を付与すると、レポート、ダッシュボード、Q&A のピン留めされたタイル、Insights Discovery などの新しいコンテンツをデータセット上に構築できます。 
+
+また、Power BI "*外*" のデータを操作するには、ユーザーはビルド アクセス許可も必要になります。
+
+- 基になるデータをエクスポートする
+- [[Excel で分析]](service-analyze-in-excel.md) などを使用して、データセットに新しいコンテンツを構築する
+- XMLA エンドポイント経由でデータにアクセスする
 
 ## <a name="ways-to-give-build-permission"></a>ビルド アクセス許可を付与する方法
 

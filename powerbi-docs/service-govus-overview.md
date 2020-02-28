@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160767"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496945"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 この記事は、Office 365 Government プランの一部として Power BI をデプロイする米国政府機関のお客様を対象としています。 Government プランは、米国のコンプライアンスとセキュリティ標準を満たする必要がある組織の固有のニーズに合うように設計されています。 米国政府機関のお客様向けに設計された Power BI サービスは、Power BI サービスの商用バージョンとは異なります。 これらの機能の相違点と能力について、以下のセクションで説明します。
@@ -37,7 +37,7 @@ Office 365 には、政府機関のさまざまなコンプライアンス要件
 
 * [Office 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) は、連邦政府、州政府、および地方自治体向けに設計されています。
 
-* [Office 365 Government Community Cloud High (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) は、連邦政府機関、軍需産業、航空宇宙産業、および管理された未分類の情報を保持している他の組織向けに設計されています。 この環境は、国際武器取引規則 (ITAR) のデータまたは国防省調達規則 (DFARS) に関する要件がある、国家安全保障に関わる組織と企業に適しています。
+* [Office 365 Government Community Cloud High (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) は、連邦政府機関、軍需産業、航空宇宙産業、および機密扱いではないが統制している情報を保持しているその他の組織向けに設計されています。 この環境は、国際武器取引規則 (ITAR) のデータまたは国防省調達規則 (DFARS) に関する要件がある、国家安全保障に関わる組織と企業に適しています。
 
 * [Office 365 DoD 環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)は、米国国防総省専用に設計されています。 
 
@@ -64,10 +64,10 @@ Office 365 のデプロイ後に、Power BI サブスクリプションを追加
 
 Azure は複数のクラウドに分散されています。 既定では、クラウド固有のインスタンスへの接続を開くファイアウォール規則を有効にすることができますが、クラウド間ネットワークはこれとは異なります。  パブリック クラウド内のサービスと Government Community Cloud 内のサービスの間で通信を行うには、固有のファイアウォール規則を構成する必要があります。 たとえば、Power BI の政府機関向けクラウドのデプロイから SQL のパブリック クラウド インスタンスにアクセスする場合は、SQL のファイアウォール規則が必要です。 次のデータセンターの Azure Government クラウドへの接続を許可するには、SQL の固有のファイアウォール規則を構成します。
 
-* 米国政府アイオワ
-* 米国政府バージニア州
-* 米国政府テキサス
-* 米国政府アリゾナ
+* USGov アイオワ州
+* USGov バージニア州
+* USGov テキサス
+* USGov アリゾナ
 
 パブリック クラウドでは、IP 範囲を使用できます。 US Government クラウドの IP 範囲を取得するには、[Azure IP Ranges and Service Tags – US Government Cloud ](https://www.microsoft.com/download/details.aspx?id=57063) (Azure IP 範囲とサービス タグ ｰ US Government クラウド) ファイルをダウンロードしてください。 
 
@@ -89,12 +89,12 @@ Government クラウドのお客様の要件に対応するため、Government �
 |レポートの作成|ダッシュボードとレポートの作成と表示|利用可能|利用可能|利用可能|
 |  |スケジュールされたデータ更新|利用可能|利用可能|利用可能|
 |  |更新可能なチーム ダッシュボード|利用可能|利用可能|利用可能|
-|  |ページ分割されたレポート|USGov Texas および USGov Virginia でのみ利用可能 |利用可能|ロードマップ上で|
+|  |ページ分割されたレポート|利用可能|利用可能|ロードマップ上で|
 |  |テンプレート アプリ|利用不可|利用不可|利用不可|
 |データに接続する|Excel からのデータとレポートのインポート|利用可能|利用可能|利用可能|
 |  |CSV ファイルからのデータのインポート|利用可能|利用可能|利用可能|
 |  |Power BI Desktop ファイルからのデータのインポート|利用可能|利用可能|利用可能|
-|  |CDS への接続|利用不可|利用不可|利用不可|
+|  |CDS への接続|利用可能|利用不可|利用不可|
 |  |Azure Data Lake Storage Gen2 コネクタ|利用不可|利用不可|利用不可|
 |データ管理|データ管理ゲートウェイ|利用可能|利用可能|利用可能|
 |  |Azure SQL でのデータの暗号化|利用可能|利用可能|利用可能|
@@ -103,7 +103,7 @@ Government クラウドのお客様の要件に対応するため、Government �
 |  |埋め込み Web パーツを使用した SharePoint Online への埋め込み|利用可能|利用可能|利用可能|
 |  |データフロー関数と AI 関数|利用不可|利用不可|利用不可|
 |  |データドリブン アラートのための Power Automate との接続|利用不可|利用不可|利用不可|
-|  |チームでの [Power BI] タブ|利用不可|利用不可|利用不可|
+|  |チームでの [Power BI] タブ|利用可能|利用不可|利用不可|
 |  |自動化された機械学習|利用不可|利用不可|利用不可|
 |  |Cognitive Services|利用不可|利用不可|利用不可|
 |  |Azure ML|利用不可|利用不可|利用不可|
@@ -111,7 +111,6 @@ Government クラウドのお客様の要件に対応するため、Government �
 ## <a name="next-steps"></a>次の手順
 
 * [米国政府向け Power BI へのサインアップ](service-govus-signup.md)
+* [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
+* [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">米国政府向け Power BI のデモ</a>
-* [Power BI サービスの概要](service-get-started.md)
-* [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
-

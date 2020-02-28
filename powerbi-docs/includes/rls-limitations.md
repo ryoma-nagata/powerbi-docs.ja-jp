@@ -2,18 +2,18 @@
 author: davidiseminger
 ms.service: powerbi
 ms.topic: include
-ms.date: 09/13/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: 6d1a239954a64da1c92cc68b56912e6f4ab67228
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b67025de5e2a70876a31fd42e22c9572403288fa
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74882790"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464429"
 ---
 ## <a name="limitations"></a>制限事項
 
-クラウド モデルの行レベル セキュリティにおける現在の制限事項を次に示します。
+クラウド モデルの行レベル セキュリティにおける現在の制限事項は次のようになります。
 
 * Power BI サービスでロールおよびルールを以前に定義している場合、Power BI Desktop 内で再作成する必要があります。
 

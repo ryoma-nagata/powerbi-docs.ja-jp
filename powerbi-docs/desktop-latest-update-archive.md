@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 02/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3a2b06071986b6994c68bde06e87c5ae7f5e7360
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f22b235ddb1918bda5284f72759485d01c4ceab9
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953734"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496724"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -34,6 +34,89 @@ ms.locfileid: "75953734"
 次のセクションでは、**Power BI Desktop** の以前の月の更新について説明します。
 
 
+## <a name="december-2019-update-2765678661"></a>2019 年 12 月の更新 (2.76.5678.661)
+
+12 月の更新プログラムは、雪山をボブスレーで滑り降りるくらい楽しいものでした。 
+
+> [!IMPORTANT]
+> 2019 年 9 月のリリース以降、Power BI Desktop は、サポートされているすべての言語を含む 1 つの .exe ファイルとしてのみリリースされています。 .msi バージョンはリリースされなくなります。
+
+Power BI Desktop 更新プログラムの一覧にある各機能の横のリンクは、次のように解釈されます。
+
+* [ブログ]: Most features are explained in a section in the monthly update blog post.
+* [ビデオ]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [記事]: Some features have an article that provides more detail.
+* 残りの機能は説明を必要としないため、記事やビデオは用意されていません。
+
+以下の更新は、今月の Power BI Desktop の新しい機能です。
+
+### <a name="reporting"></a>レポート
+* テーマの更新 (プレビュー) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=10) [[記事]](desktop-report-themes.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* 現在のテーマのエクスポート (プレビュー) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=242) [[記事]](desktop-report-themes.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* テーブル列またはマトリックス値をカスタム URL として設定 [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=277) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
+* KPI ビジュアル フォーマット設定 [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=354) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
+* 新しい分解ツリーのフォーマット [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=442) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
+* 新しいリボンのフィルター ウィンドウ切り替えボタン [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=599) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#filterToggle) 
+* ページの自動更新クエリの詳細 [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=717) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
+
+
+### <a name="analytics"></a>分析
+* 分析情報のためにさらに読み込む [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=831) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
+* 新しい DAX 関数:Quarter [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=855) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
+
+
+### <a name="visuals"></a>ビジュアル
+* [ビジュアル] ウィンドウのカスタマイズ (一般提供開始) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=865) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
+* 新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=886) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
+
+
+### <a name="data-connectivity"></a>データ接続
+* Azure Data Lake Storage Gen2 コネクタ (一般提供開始) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2151) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) 
+* Power Platform Dataflows コネクタ (一般提供開始) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2180) [[記事]](service-edit-sap-variables.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ADLS) 
+* PostgreSQL コネクタに Npgsql プロバイダーが追加 [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2220) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#PostgreSQL) 
+* AtScale コネクタ (一般提供開始) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2245) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AtScale) 
+* Azure Time Series Insights コネクタ [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2261) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ATS) 
+* Data Virtuality コネクタ [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2294) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#DataVirt) 
+* Zucchetti HR Infinity コネクタ [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2345) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
+
+
+### <a name="data-preparation"></a>データ準備
+* AI Insights 関数の更新 (プレビュー) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2366) [[記事]](desktop-ai-insights.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
+
+
+### <a name="template-apps"></a>テンプレート アプリ
+* Dynamics 365 のオムニチャネル分析情報 [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2416) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Omni) 
+* Dynamics 365 のカスタマー サービス分析 [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2500) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#CS)
+* カスタマー サービスの Microsoft Forms Pro [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=2525) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Forms) 
+
+
+これらの新機能の詳細については、「[2019 年 12 月の Power BI Desktop 機能の概要](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/)」を参照してください。
+
+「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」をご確認ください。
+
+> [!NOTE]
+> [Power BI Desktop で利用できるデータ ソース](desktop-data-sources.md)をご覧ください。 リストは増え続けていますので、頻繁にご確認ください。
+
+
+## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop の毎月の更新プログラムのビデオ
+次のビデオでは、それぞれの更新について説明しています。 ブログの投稿からこのビデオを視聴することもできます。
+
+> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
+
+ご自身の組織で必要な場合は、以前のバージョンの Power BI Desktop をダウンロードすることもできます。 以前のバージョンではなく、最新バージョンの Power BI Desktop を常に使うことをお勧めします。 以前のバージョンはすべて次の制限を持っています。
+
+* 以前のリリースの Power BI Desktop はサービス提供されていません - 最新の機能と更新プログラムのためには常に最新のリリースを使う必要があります。
+* より新しいリリースの Power BI Desktop で作成されたファイルは、以前のバージョンの Power BI Desktop では開けない場合があります。 
+* 新しいリリースの Power BI Desktop で保存したレポートを読み込むときに警告が発生する場合は、以前のバージョンでそのレポートを保存します。新機能に関連する情報はすべて失われます。
+* アーカイブされるのは英語版の Power BI Desktop のみです。
+
+次のリンクを選択して、この以前のバージョンをダウンロードします。 
+
+* [2019 年 12 月バージョンの Power BI Desktop - 32 ビット](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-12.exe)
+* [2019 年 12 月バージョンの Power BI Desktop - 64 ビット](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-12_x64.exe)
+
+
+
 ## <a name="november-2019-update-2755649341"></a>2019 年 11 月の更新 (2.75.5649.341)
 
 11 月の更新プログラムは、幸せな家族の集まりのように歓迎されました。 
@@ -44,7 +127,7 @@ ms.locfileid: "75953734"
 Power BI Desktop 更新プログラムの一覧にある各機能の横のリンクは、次のように解釈されます。
 
 * [ブログ]: Most features are explained in a section in the monthly update blog post.
-* [ビデオ]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [video]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
 * [記事]: Some features have an article that provides more detail.
 * 残りの機能は説明を必要としないため、記事やビデオは用意されていません。
 

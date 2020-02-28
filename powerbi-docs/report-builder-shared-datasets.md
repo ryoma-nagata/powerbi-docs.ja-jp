@@ -1,18 +1,18 @@
 ---
 title: Power BI 共有データセットを使用して改ページ調整されたレポートを作成する - Power BI Report Builder
 description: Power BI 共有データセットに基づいて、Power BI Report Builder で改ページ調整されたレポートを作成します。
-ms.date: 01/03/2020
+ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 4a46f0aae642b42cd797940e0b0991cfa77a077e
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691461"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427844"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI 共有データセットを基づいて改ページ調整されたレポートを作成する
 
@@ -27,6 +27,7 @@ Power BI Desktop で作成したデータセットは、Power BI レポート �
 Power BI レポート ビルダーで共有データセットを使用するうえで必要なものと、必要のないものを以下に示します。
 
 - Power BI レポート ビルダー。 [Power BI レポート ビルダーをダウンロードおよびインストール](https://go.microsoft.com/fwlink/?linkid=2086513)してください。
+- Power BI Desktop。 [Power BI Desktop のダウンロードおよびインストール](https://powerbi.microsoft.com/desktop/)。
 - Power BI データセットにアクセスするには、そのデータセットについてビルドのアクセス許可が必要です。 [ビルドのアクセス許可](service-datasets-build-permissions.md)に関する記事を参照してください。
 - レポート ビルダーで改ページ調整されたレポートを作成する操作には、Power BI Pro のライセンスは必要ありません。 
 - 改ページ調整されたレポートの発行には、Power BI Pro のライセンスが必要です。 また、ワークスペースが Premium 容量にある場合には、最低限その共同作成者ロールが必要です。 
@@ -57,12 +58,26 @@ Power BI レポート ビルダーで共有データセットを使用するう�
     複数の Power BI データセットに接続したり、同じ改ページ調整されたレポート内の別のデータ ソースに接続したりすることもできます。
 
 
-## <a name="get-the-query-for-the-dataset"></a>データセットのクエリを取得する
+## <a name="get-the-dax-query-for-the-dataset"></a>データセットの DAX クエリを取得する
 
 Power BI レポート内とレポート ビルダー内とでデータを同じにする必要がある場合には、データセットに接続するだけでは十分ではありません。 ほかに、そのデータセットに基づいて作成されたクエリが必要になります。
 
+### <a name="video-get-the-dax-query"></a>ビデオ:DAX クエリを取得する
+
+次のビデオでは、ページ分割されたレポートに必要な DAX を取得する方法を Chris Finlan が実演します。
+
+<iframe width="400" height="450" src="https://www.youtube.com/embed/NfoOK4QRkhI" frameborder="0" allowfullscreen></iframe>
+
+### <a name="steps-to-get-the-dax-query"></a>DAX クエリを取得する手順
+
+クエリを取得する手順を次に示します。
+
 1. Power BI Desktop で Power BI レポート (.pbix) を開きます。
-1. レポート内のテーブルに、改ページ調整されたレポートで必要なデータがすべて含まれていることを確認してください。
+1. レポート内のテーブルに、改ページ調整されたレポートで必要なデータがすべて含まれていることを確認してください。 このテーブルでは、次の 2 つの要件を満たす必要があります。
+    - マトリックスやその他のビジュアルではなく、フラット テーブルにする必要があります。 テーブルではない場合、ここでテーブルに変換し、それに続くパフォーマンス アナライザーの手順を完了し、再度変換して必要なビジュアルに戻します。
+    - 数値フィールドについては、"*定義済みのメジャー*" を使用する必要があります。 電卓シンボルが横に付いています。 メジャーの作成方法については[こちら](desktop-measures.md)をご覧ください。 
+
+        ![[メジャー] アイコン](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
 1. **[表示]** リボンで、 **[パフォーマンス アナライザー]** を選択します。
 
@@ -204,6 +219,7 @@ Power BI レポート内とレポート ビルダー内とでデータを同じ�
 
 - Analysis Services に対するライブ接続を使用しているデータセットには、共有データセットではなく基になる Analysis Services 接続を使用すると、直接接続できます。
 - 推奨度が [昇格しました] または [認定済み] のデータセットは、使用可能なデータセットの一覧に表示されるものの、そのような推奨度を示すマークは付きません。 
+- "アプリ所有データ" シナリオでは、Power BI 共有データセットを基盤とし、ページ分割されたレポートを埋め込むことはできません。
 
 ## <a name="next-steps"></a>次の手順
 

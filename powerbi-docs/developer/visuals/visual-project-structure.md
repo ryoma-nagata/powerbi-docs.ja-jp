@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925531"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427072"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI ビジュアル プロジェクトの構造
 
@@ -115,7 +115,7 @@ Power BI ビジュアル ツールでは、このファイルが Power BI ビジ
 `pbiviz.json` ファイルの次のコード キャプションのコメントは、メタデータ エントリを説明するものです。
 
 > [!NOTE]
-> * **pbiciz** ツールのバージョン 3.x.x から、`externalJS` はサポートされません。
+> * **pbiviz** ツールのバージョン 3.x.x から、`externalJS` はサポートされません。
 > * ローカライズをサポートするには、[ビジュアルに Power BI ロケールを追加します](./localization.md)。
 
 ```json

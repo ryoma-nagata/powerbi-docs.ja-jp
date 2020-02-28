@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016137"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527449"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Power BI Desktop で更新されたリボンを使用する (プレビュー)
 
@@ -51,7 +51,18 @@ Power BI の更新されたリボンはプレビュー機能であり、有効�
 
 * **折りたたむと単一行になるリボンによるスペースの節約** - 更新されたリボンの別の利点は、リボン自体を単一行に折りたたんで、コンテキストに基づいてリボン項目を動的に表示できることです。 
 
-    ![より優れたテーマ](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![折りたたまれたリボン](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **Keytip でのボタンの移動および選択** - **Alt + Windows キー**を押すと、Keytip をアクティブにしてリボン内を移動することができます。 アクティブになったら、表示されているキーをお使いのキーボードで押して移動できます。
+
+    ![Keytips](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **カスタム書式設定文字列** - カスタム書式設定文字列は、 *[プロパティ]* ペインで設定するだけでなく、リボンで設定することもできます。 カスタマイズするメジャーまたは列を選択すると、ご自分の選択に応じて **[メジャー ツール]** または **[列ツール]** コンテキスト タブが表示されます。 そのタブの [書式設定] セクションのドロップダウン ボックスに、ご自分のカスタム書式指定文字列を直接入力します。
+
+    ![カスタム書式設定文字列](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **アクセシビリティ** - タイトル バー、リボン、およびファイル メニューは完全にアクセスできます。 Ctrl + F6 キーを押して、リボン セクションに移動します。 そこに移動したら、**Tab** キーを使用して上部と下部のバーを移動したり、矢印キーを使用した要素間を移動することができます。
+
 
 これらの目に見える変更に加えて、更新されたリボンによって、今後、以下のような Power BI Desktop とリボンに対する更新を行うことができます。
 

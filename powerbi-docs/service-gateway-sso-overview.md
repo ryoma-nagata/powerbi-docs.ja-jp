@@ -9,16 +9,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699201"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527593"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI のゲートウェイ用シングル サインオン (SSO) の概要
 
-オンプレミスのデータ ゲートウェイを構成することにより、シームレスなシングル サインオン接続を確立して、Power BI のレポートとダッシュボードをオンプレミスのデータでリアルタイムに更新することができます。 ゲートウェイの構成には、[Kerberos](service-gateway-sso-kerberos.md) 制約付き委任を使用する方法と SAML ([Security Assertion Markup Language](service-gateway-sso-saml.md)) を使用する方法とがあります。 オンプレミス データ ゲートウェイは、[DirectQuery](desktop-directquery-about.md) を使用してオンプレミスのデータ ソースに接続することで SSO をサポートします。
+オンプレミスのデータ ゲートウェイを構成することにより、シームレスなシングル サインオン接続を確立して、Power BI のレポートとダッシュボードをオンプレミスのデータでリアルタイムに更新することができます。 ゲートウェイの構成には、[Kerberos](service-gateway-sso-kerberos.md) 制約付き委任を使用する方法と SAML ([Security Assertion Markup Language](service-gateway-sso-saml.md)) を使用する方法とがあります。 オンプレミス データ ゲートウェイは、[DirectQuery](desktop-directquery-about.md) を使用して、または更新用にオンプレミスのデータ ソースに接続することで SSO をサポートします。 
 
 Power BI では、次のデータ ソースがサポートされています。
 
@@ -33,7 +33,9 @@ Power BI では、次のデータ ソースがサポートされています。
 
 現在、[M-extensions](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md) の SSO はサポートされていません。
 
-ユーザーが Power BI サービスで DirectQuery レポートを操作すると、クロスフィルター、スライス、並べ替え、レポート編集の各操作で、基になるオンプレミス データ ソースに対してクエリがライブ実行される場合があります。 データ ソースへの SSO を構成すると、Power BI を操作しているユーザーの ID でクエリが実行されます (つまり、Web エクスペリエンスまたは Power BI モバイル アプリで)。 そのため、各ユーザーには、そのユーザーが基になるデータ ソースでアクセス許可を持っているデータだけが表示されます。 シングル サインオンを構成すると、異なるユーザー間で共有されるデータ キャッシュはありません。
+ユーザーが Power BI サービスで DirectQuery レポートを操作すると、クロスフィルター、スライス、並べ替え、レポート編集の各操作で、基になるオンプレミス データ ソースに対してクエリがライブ実行される場合があります。 データ ソースへの SSO を構成すると、Power BI を操作しているユーザーの ID でクエリが実行されます (つまり、Web エクスペリエンスまたは Power BI モバイル アプリで)。 そのため、各ユーザーには、そのユーザーが基になるデータ ソースでアクセス許可を持っているデータだけが表示されます。 
+
+また、Power BI サービスで更新が設定されているレポートに SSO を使用するよう設定することもできます。 このデータ ソースに SSO を構成すると、クエリは Power BI 内のデータセットの所有者の ID で実行されます。 そのため、基になるデータ ソースに対するデータセットの所有者の権限に基づいて更新が実行されます。 SSO を使用した更新は、現在 [Kerberos](service-gateway-sso-kerberos.md) の制約付き委任を使用するデータ ソースに対してのみ有効になっています。 
 
 ## <a name="query-steps-when-running-sso"></a>SSO を実行するときのクエリ ステップ
 

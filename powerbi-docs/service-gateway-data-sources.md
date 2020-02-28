@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 02/21/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2665e33d5f268bf8037634406aca819c23f3513c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698189"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558678"
 ---
 # <a name="manage-data-sources"></a>データ ソースを管理する
 
@@ -45,11 +45,24 @@ Power BI は、多数の[オンプレミス データ ソース](power-bi-data-s
 
 5. SQL Server では、 **[認証方法]** で **[Windows]** または **[基本]** (SQL 認証) を選択します。 **[基本]** を選択した場合は、データ ソースの資格情報を入力します。
 
-6. **[詳細設定]** で、必要に応じてご利用のデータ ソースに対して[プライバシー レベル](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)を構成します ([DirectQuery](desktop-directquery-about.md) には適用されません)。
+6. **[詳細設定]** で、データ ソースの [シングル サインオン (SSO)](service-gateway-sso-overview.md) を構成できます。 
+
+    ![[詳細設定]](media/service-gateway-data-sources/advanced-settings-02.png)
+
+DirectQuery ベースのレポートには、 **[DirectQuery クエリには Kerberos 経由で SSO を使用します]** または **[Kerberos を使用した SSO を DirectQuery とインポート クエリに使用する]** のいずれかを構成できます。また、更新ベースのレポートには、 **[Kerberos を使用した SSO を DirectQuery とインポート クエリに使用する]** を構成できます。
+
+DirectQuery ベースのレポートに **[DirectQuery クエリには Kerberos 経由で SSO を使用します]** を使用し、このデータ ソースを使用する場合、Power BI サービスにサインインする (Azure) Active Directory ユーザーにマップされているユーザーが使用されます。 更新ベースのレポートの場合、 **[ユーザー名]** フィールドと **[パスワード]** フィールドに入力する資格情報が使用されます。
+
+**[Kerberos を使用した SSO を DirectQuery とインポート クエリに使用する]** を使用する場合、資格情報を入力する必要はありません。 このデータ ソースを DirectQuery ベースのレポートに使用する場合、Power BI サービスにサインインする (Azure) Active Directory ユーザーにマップされているユーザーが使用されます。  更新ベースのレポートの場合、データ セット所有者のセキュリティ コンテキストが使用されます。
+
+> [!NOTE]
+>インポート クエリの SSO は、[Kerberos の制約付き委任](service-gateway-sso-kerberos.md)を使用する SSO データ ソースの一覧に対してのみ使用できます。
+
+7. **[詳細設定]** で、必要に応じてご利用のデータ ソースに対して[プライバシー レベル](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)を構成します ([DirectQuery](desktop-directquery-about.md) には適用されません)。
 
     ![詳細設定](media/service-gateway-data-sources/advanced-settings.png)
 
-7. **[追加]** を選択します。 接続に成功すると、「"*接続成功*"」というメッセージが表示されます。
+8. **[追加]** を選択します。 接続に成功すると、「"*接続成功*"」というメッセージが表示されます。
 
     ![接続成功](media/service-gateway-data-sources/connection-successful.png)
 

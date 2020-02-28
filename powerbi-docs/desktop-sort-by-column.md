@@ -1,110 +1,115 @@
 ---
 title: Power BI Desktop での列による並べ替え
-description: Power BI Desktop での列による並べ替え
+description: Power BI では、さまざまなデータ フィールドを並べ替えることで視覚効果を変更できます。
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 01/30/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 0cbba86bd77debda9ab2162b8f9b190e1846b99c
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223437"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464707"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop での列による並べ替え
-**Power BI Desktop** と **Power BI サービス**では、さまざまなデータ フィールドを並べ替えることで視覚効果を変更できます。 並べ替えで視覚化を変更することで、伝えたい情報を強調でき、その傾向 (あるいは強調したい点) を視覚化に反映させることができます。
+Power BI Desktop と Power BI サービスでは、さまざまなデータ フィールドを並べ替えることで視覚効果を変更できます。 並べ替えで視覚化を変更することで、伝えたい情報を強調でき、その傾向 (あるいは強調したい点) を視覚化に反映させることができます。
 
-数値データ (売り上げ高など) を使用している場合でも、テキスト データ (州名など) を使用している場合でも、必要に合わせて視覚エフェクトを並べ替え、目的に応じたスタイルで表示できます。  **Power BI** は柔軟な並べ替え機能とクイック メニューを備えています。 視覚効果画面で省略記号 (...) を選択し、並べ替えるフィールドを選択します。下の画像をご覧ください。
+数値データ (売り上げ高など) を使用している場合でも、テキスト データ (州名など) を使用している場合でも、ご利用の視覚エフェクトを並べ替え、目的に応じたスタイルで表示できます。 Power BI では非常に柔軟に並べ替えを行うことができ、クイック メニューが用意されています。 ビジュアルを並べ替えるには、その **[その他のオプション]** (...) メニューを選択し、 **[並べ替え]** を選択してから、並べ替えの基準にするフィールドを選択します。
 
 ![[その他のオプション] メニュー](media/desktop-sort-by-column/sortbycolumn_2.png)
 
-## <a name="more-depth-and-an-example"></a>詳細と例
-もっと詳しい例を見て、**Power BI Desktop** のしくみを確認しましょう。
+## <a name="sorting-example"></a>並べ替えの例
+もっと詳しい例を使用して、Power BI Desktop のしくみを確認しましょう。
 
 次の視覚エフェクトでは、製造元の名前別に費用、数量、金額が示されています。 並べ替えを行う前は、ここに表示されているとおりの視覚エフェクトです。
 
 ![最初の視覚エフェクト](media/desktop-sort-by-column/sortbycolumn_1.png)
 
-この図では、**SalesQuantity** が並べ替えの基準になっています。昇順になっている縦棒の色と凡例を照合すると、そのことがわかります。しかし、並べ替えの基準になっている列を判断するにはもっと良い方法があります。図の右上隅にある省略記号のメニュー (...) を使用することです。 省略記号を選ぶと、次のように表示されます。
+現在、ビジュアルは **SalesQuantity** 列で並べ替えられています。 昇順のバーの色を凡例に一致させることで並べ替え列を決定できますが、より便利な方法として **[その他のオプション]** メニューがあります。これにアクセスするには、省略記号 (...) を選択します。
 
 ![[その他のオプション] メニュー](media/desktop-sort-by-column/sortbycolumn_2.png)
 
-* 現在の並べ替えフィールドは **SalesQuantity** です。**SalesQuantity で並べ替え**が太字で、黄色の棒が付いていることからわかります。 
+並べ替えの選択項目は次のとおりです。
 
-* 現在の並べ替えの方向は、最小値から最大値の順です。**A が Z より上になっている**ことと下向きの矢印でそれがわかります。
+* 現在の並べ替えフィールドは **SalesQuantity** です ( **[SalesQuantity]** が太字で示され、黄色の棒が前に付いています)。 
 
-並べ替えフィールドと方向については、次の 2 つのセクションで別々に確認します。
+* 現在の並べ替え方向は昇順です ( **[昇順で並べ替え]** が太字で示され、黄色の棒が前に付いています)。
 
-## <a name="selecting-which-column-to-use-for-sorting"></a>並べ替えに使用する列を選ぶ
-**[その他のオプション]** メニューの **SalesQuantity で並べ替え**の横に黄色の棒がありました。これは、視覚化が **SalesQuantity** 列を基準に並べ替えられていることを示します。 別の列を基準にして並べ替えるのは簡単です。省略記号 (...) を選んでメニューを表示させ、別の列を選ぶだけです。
+並べ替えフィールドと並べ替え方向については、次の 2 つのセクションで確認します。
 
-次の図では、並べ替える条件列として *DiscountAmount* を選択しました。 図ではその列は、棒の 1 つで表示されるのではなく、線の 1 つで表示されています。 **[DiscountAmount で並べ替え]** を選択すると、このような表示になります。
+## <a name="select-which-column-to-use-for-sorting"></a>並べ替えに使用する列を選択
+**[その他のオプション]** メニューの **[SalesQuantity]** の前に黄色の棒がありました。これは、ビジュアルが **SalesQuantity** 列を基準に並べ替えられていることを示します。 別の列によって並べ替えを行うのは簡単です。省略記号 (...) を選択して **[その他のオプション]** メニューを表示し、 **[並べ替え]** を選択して、別の列を選択します。
 
-![DiscoutAmount で並べ替え](media/desktop-sort-by-column/sortbycolumn_3.png)
+次の図では、並べ替えの基準にする列として **[DiscountAmount]** を選択しました。 その列は、ビジュアル上では棒の 1 つとしてではなく、線の 1 つとして表示されます。 
 
-図がどのように変更されたかに注目してください。 これで、このビジュアルでは、DiscountAmount 値が最も高い Fabrikam Inc. から最も低い Northwind Traders へと並べ替えられました。 
+![DiscountAmount で並べ替える](media/desktop-sort-by-column/sortbycolumn_3.png)
 
-降順ではなく、昇順に並べ替える必要がある場合は、どうしたらよいでしょうか。 次のセクションで、それを簡単に行う方法をご紹介します。
+図がどのように変更されたかに注目してください。 この値は今、最高の **DiscountAmount** 値を示す Fabrikam Inc. から最低の Northwind Traders まで降順で並べられています。 
 
-## <a name="selecting-the-sort-order---smallest-to-largest-largest-to-smallest"></a>最小値から最大値へ、最大値から最小値へ、並べ替え順序を選ぶ
-上の図の **[オプション]** メニューをよく見ると、 **[DiscountAmount で並べ替え]** の隣のアイコンで **Z が A よりも上になっている**ことがわかります。 どうぞ、ご覧ください。
+降順ではなく、昇順に並べ替える必要がある場合は、どうしたらよいでしょうか。 次のセクションでは、それがいかに簡単かを示します。
+
+## <a name="select-the-sort-order"></a>並べ替え順序を選択
+前の図の **[その他のオプション]** メニューを詳しく見てみると、 **[降順で並べ替え]** が太字で表示され、前に棒が付いているのがわかります。
 
 ![大きい順に並べ替え](media/desktop-sort-by-column/sortbycolumn_4.png)
 
-**Z/A** と表示されている場合、その図では選ばれた列を最大値から最小値の順序で並べたという意味です。 変更する必要がありますか。 簡単です。 **[Z/A]** アイコンをタップまたはクリックするだけで、並べ替え順序は **A/Z** に変更されます。図 (選ばれた列に基づく図) は最小値から最大値に向かう順序に並び替えられます。
+**[降順で並べ替え]** が選択されている場合、ビジュアルが選択された列によって最大値から最小値へと降順で並べ替えられていることを意味します。 変更する必要がありますか。 ご心配なく。 **[昇順で並べ替え]** を選択するだけで、選択した列の並べ替え順序が最も小さい値から最も大きい値への昇順に変更されます。
 
-以下に示すのは上と同じ図ですが、 **[DiscountAmount で並べ替え]** メニューの **[Z/A]** アイコンをタップした後のものであり、順序が変更されています。 今度は製造元として Northwind Traders が最初に、Fabrikam Inc. が最後に表示されてます。前の図とは逆の順序です。
+同じビジュアルにおいて、**DiscountAmount** の順序付けを変更すると、次のようになります。 今度は製造元として Northwind Traders が最初に、Fabrikam Inc. が最後に表示されてます。前とは逆の順序になっています。
 
 ![小さい順に並べ替え](media/desktop-sort-by-column/sortbycolumn_5.png)
 
-図に含まれる任意の列を基準にして並べ替えることができます。たとえば、並べ替えの基準列として SalesQuantity を選択できます。**SalesQuantity で並べ替え**を選択するだけで、売り上げが最も大きい製造元が最初に表示されます。図のその他の列は、それがどのようにその製造元に適用されるとしても、そのまま保持されます。 これは、それらの設定で表示された図です。
+ビジュアルに含まれる任意の列を基準にして並べ替えることができます。並べ替えの基準列として **SalesQuantity** を選択すると、それだけで、売り上げが最も大きい製造元が最初に表示されるようになり、ビジュアル内のその他の列はそのまま保持され、それらはその製造元に適用されます。 それらの設定で表示されたビジュアルは次のとおりです。
 
 ![SalesQuantity で並べ替え](media/desktop-sort-by-column/sortbycolumn_6.png)
 
 ## <a name="sort-using-the-sort-by-column-button"></a>[列で並べ替え] ボタンを使用して並び替える
-データの並べ替えには別の方法があります。それは **[モデリング]** リボンの **[列で並べ替え]** ボタンを使用するというものです。
+ご利用のデータの並べ替えには別の方法があります。 **[モデリング]** リボンの **[列で並べ替え]** ボタンを使用するというものです。
 
 ![[列で並べ替え] ボタン](media/desktop-sort-by-column/sortbycolumn_8.png)
 
-この並べ替えのアプローチでは、 **[フィールド]** ウィンドウで列を選択し、さらに **[列で並べ替え]** ボタンを選択してビジュアルの並べ替え方法 (列に基づく) をクリックする必要があります。 **[列で並べ替え]** ボタンをアクティブにするために、 **[フィールド]** ウィンドウで、並び替える列 (フィールド) を選択する必要があります。そうしないと、このボタンは非アクティブのままです。
+この並べ替えのアプローチでは、 **[フィールド]** ペインから、並べ替える列 (フィールド) をまず選択し、次に **[モデリング]**  >  **[列で並べ替え]** の順に選択することで、ご利用のビジュアルを並べ替える必要があります。 列を選択しない場合、 **[列で並べ替え]** ボタンは非アクティブになります。
 
-一般的な例を見てみましょう。年の各月のデータがあり、このデータを時系列に基づいて並べ替えるとします。 その手順を次に示します。
+一般的な例を見てみましょう。 年の各月のデータがあり、このデータを時系列に基づいて並べ替えるとします。 次の手順は、その方法を示しています。
 
-1. まず、ビジュアルは選択されているが、 **[フィールド]** ウィンドウで列が選択されていない場合、 **[列で並べ替え]** ボタンが非アクティブ (灰色表示) になっていることに注目してください。
+1. ビジュアルは選択されているが、 **[フィールド]** ペインで列が選択されていない場合、 **[列で並べ替え]** ボタンが非アクティブ (灰色表示) になっていることに注目してください。
    
    ![[列で並べ替え] ボタンが無効](media/desktop-sort-by-column/sortbycolumn_9.png)
 
 2. **[フィールド]** ウィンドウで、並べ替える列を選択すると、 **[列で並べ替え]** ボタンがアクティブになります。
    
    ![[列で並べ替え] ボタンが有効](media/desktop-sort-by-column/sortbycolumn_10.png)
-3. 次に、ビジュアルが選択された状態で、既定値 (*MonthName*) の代わりに *MonthOfYear* を選択します。これにより、ビジュアルは目的の順序 (月順) に並べ替えられます。
+3. 次に、ビジュアルが選択された状態で、既定値の **[MonthName]** ではなく、 **[MonthOfYear]** を選択します。これにより、ビジュアルは目的の順序 (年の月順) に並べ替えられます。
    
    ![[列で並べ替え] メニュー](media/desktop-sort-by-column/sortbycolumn_11.png)
 
-これで完了です。 **[列で並べ替え]** ボタンをアクティブにするために、 **[フィールド]** ウィンドウで列を選択する必要があることに注意してください。
 
-## <a name="getting-back-to-default-column-for-sorting"></a>並べ替えを既定の列に戻す
-任意の列を基準にして並べ替えることができますが、既定の並べ替えの基準の列に戻して、図を表示したい場合もあります。 問題はありません。 並べ替えの基準となる列を選んだ視覚化 (既に学習したように、省略記号 (...) メニューで、並べ替えの基準として選ばれた列には黄色の棒が付いています)、 **[その他のオプション]** メニューを開いて、その列をもう一度選ぶだけで、視覚エフェクトが既定の並べ替え列に戻ります。
+<!---
+This functionality is no longer active. Jan 2020
 
-たとえば、前のグラフを次に示します。
+## Getting back to default column for sorting
+You can sort by any column you'd like, but there may be times when you want the visual to return to its default sorting column. No problem. For a visual that has a sort column selected, open the **More options** menu and select that column again, and the visualization returns to its default sort column.
 
-![最初の視覚エフェクト](media/desktop-sort-by-column/sortbycolumn_6.png)
+For example, here's our previous chart:
 
-メニューに戻り、**SalesQuantity** をもう一度選択すると、次の画像のように、アルファベット順の **[製造元]** で並べられた既定の図になります。
+![Initial visualization](media/desktop-sort-by-column/sortbycolumn_6.png)
 
-![既定の並べ替え順序](media/desktop-sort-by-column/sortbycolumn_7.png)
+When we go back to the menu and select **SalesQuantity** again, the visual defaults to being ordered alphabetically by **Manufacturer**, as shown in the following image.
 
-これほどたくさんの図の並べ替えのオプションがあるため、望みどおりのグラフやイメージを簡単に作成できます。
+![Default sort order](media/desktop-sort-by-column/sortbycolumn_7.png)
+
+With so many options for sorting your visuals, creating just the chart or image you want is easy.
+--->
 
 ## <a name="next-steps"></a>次の手順
 
 次の記事にも興味をもたれるかもしれません。
 
 * [Power BI Desktop でレポート間のドリルスルーを使用する](desktop-cross-report-drill-through.md)
-* [Power BI Desktop でスライサーを使用する](visuals/power-bi-visualization-slicers.md)
+* [Power BI のスライサー](visuals/power-bi-visualization-slicers.md)
 

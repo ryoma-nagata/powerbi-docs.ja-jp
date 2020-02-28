@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538269"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496744"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>モバイル デバイス管理 (MDM) ツールを使用して Power BI アプリをリモートで構成する
 
@@ -51,7 +51,7 @@ Android 用 Power BI アプリでは、組織内のユーザー グループ全�
 | キー | 種類 | 値 | 説明 |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | 文字列 |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | ビジュアル上でタップすることでデータ ポイントの選択も行うかどうかを構成します。 |
-| ccom.microsoft.powerbi.mobile.RefreshAction | 文字列 |  <nobr>pull-to-refresh</nobr><br>選択します。 | ユーザーがレポートを更新するためにボタンを使用するか、引っ張って更新を使用する必要があるかを構成します。 |
+| com.microsoft.powerbi.mobile.RefreshAction | 文字列 |  <nobr>pull-to-refresh</nobr><br>選択します。 | ユーザーがレポートを更新するためにボタンを使用するか、引っ張って更新を使用する必要があるかを構成します。 |
 | com.microsoft.powerbi.mobile.FooterAppearance | 文字列 |  docked<br>動的 | レポートのフッターをレポートの下部にドッキングするか、自動的に非表示にするかを構成します。 |
 
 ## <a name="deploying-app-configuration-settings"></a>アプリ構成設定を配置する

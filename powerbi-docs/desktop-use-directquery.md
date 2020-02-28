@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: d8432ae10afab6cbf12c017a8f315fd55825212d
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889284"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427233"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 *Power BI Desktop* では、データ ソースに接続するときに、常にデータのコピーを Power BI Desktop にインポートすることができます。 データ ソースによっては、代替手法を利用できます。DirectQuery を使用して、データ ソースに直接接続します。
@@ -46,8 +46,6 @@ DirectQuery を使用する利点をいくつか以下に示します。
 
 ## <a name="limitations-of-directquery"></a>DirectQuery の制限
 現在、DirectQuery の使用には、いくつかの制限があります。
-
-- [複合モデル](desktop-composite-models.md)を使用しない限り、すべてのテーブルを 1 つのデータベースから取得する必要があります。
 
 - **クエリ エディター**のクエリが複雑すぎると、エラーが発生します。 エラーを解決するには、問題となるステップを**クエリ エディター**で削除するか、DirectQuery を使用する代わりにデータを "*インポート*" します。 SAP Business Warehouse のような多次元ソースの場合、**クエリ エディター**はありません。
 
@@ -94,7 +92,7 @@ DirectQuery を使用して作成されたレポートを、Power BI サービ�
 
 4. 資格情報を追加します。 そうしないと、発行されたレポートを開いたとき、または DirectQuery 接続で作成されたデータセットを探索したときにエラーが発生します。
 
-DirectQuery を使用する **Azure SQL Database**、**Azure SQL Data Warehouse** および **Redshift** 以外のデータ ソースのデータ接続を行うには、**オンプレミス データ ゲートウェイ**をインストールし、データ ソースを登録します。 詳細については、「[オンプレミス データ ゲートウェイとは](service-gateway-onprem.md)」を参照してください
+DirectQuery を使用する **Azure SQL Database**、**Azure SQL Data Warehouse**、**Redshift**、または **Snowflake Data Warehouse** 以外のデータ ソースのデータ接続を行うには、**オンプレミス データ ゲートウェイ**をインストールし、データ ソースを登録します。 詳細については、「[オンプレミス データ ゲートウェイとは](service-gateway-onprem.md)」を参照してください
 
 ## <a name="next-steps"></a>次の手順
 DirectQuery の詳細については、次のリソースを参照してください。

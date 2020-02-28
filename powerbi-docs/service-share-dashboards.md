@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e6e66a4459abefbc66ec4e70b882cddc4771facf
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 96f78ff87dc4f955e134815e6237e4fb5a1ca1e7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565651"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426681"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>同僚や他のユーザーと Power BI ダッシュボードやレポートを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の異なる方法でダッシュボードでの共同作業を行ったり、ダッシュボードやレポートを配布](service-how-to-collaborate-distribute-dashboards-reports.md)したりできます。
@@ -37,7 +37,7 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
 
 ## <a name="share-a-dashboard-or-report"></a>ダッシュボードまたはレポートを共有する
 
-1. ダッシュボードかレポートの一覧、または開いているダッシュボードかレポート内で、 **[共有]** ![共有アイコン](media/service-share-dashboards/power-bi-share-icon.png)を選択します。
+1. ダッシュボードかレポートの一覧、または開いているダッシュボードかレポート内で、 **[共有]** ![共有アイコン](media/service-share-dashboards/power-bi-share-icon.png) を選択します。
 
 2. 上部のボックスに、個々のユーザーの完全なメール アドレス、配布グループ、またはセキュリティ グループを入力します。 動的配布リストと共有することはできません。 
    
@@ -90,6 +90,8 @@ Amanda が社内および社外の同僚とダッシュボードを共有する�
 
 オンプレミスの Analysis Services の表形式モデルでロール レベルまたは行レベルのセキュリティが実装されている場合、組織外のユーザーにデータは何も表示されません。
 
+配布グループではなく、セキュリティ グループを使用して、外部の電子メール アドレスを持つユーザーを含むグループと共有します。 配布グループの外部の電子メールを持っているユーザーは、Azure Active Directory (Azure AD) B2B ゲスト ユーザーでない限り、共有するコンテンツを表示することはできません。 [Azure AD B2B ゲスト ユーザー](service-admin-azure-ad-b2b.md)の詳細をご確認ください。
+
 Power BI モバイル アプリから組織外のユーザーにリンクを送信した場合、そのリンクをクリックすると、ダッシュボードは Power BI モバイル アプリではなくブラウザーで開きます。
 
 ### <a name="allow-external-users-to-edit-content"></a>外部ユーザーにコンテンツの編集を許可する
@@ -127,7 +129,7 @@ Power BI 管理者は、組織内のコンテンツを編集および管理す�
 * [データの更新](refresh-data.md)はだれでも手動で行えます。
 * 電子メールに Office 365 を使用している場合は、配布グループに関連付けられた電子メール アドレスを入力することにより、配布グループのメンバーと共有できます。
 * メール ドメインを共有している同僚と、ドメインが異なっていても同じテナント内に登録されている同僚は、他のユーザーとダッシュボードを共有できます。 たとえば、ドメイン contoso.com と contoso2.com が同じテナント内に登録されていて、ご自分の電子メール アドレスが konrads@contoso.com であるとします。 ravali@contoso.com と gustav@contoso2.com は両方とも、共有するためのアクセス許可が付与されていれば、ダッシュボードを共有できます。
-* 同僚が既に特定のダッシュボードまたはレポートにアクセスできる場合は、ダッシュボードまたはレポートを使用しているときに URL をコピーすることで、直接リンクを送信できます。 たとえば、 `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx` です。
+* 同僚が既に特定のダッシュボードまたはレポートにアクセスできる場合は、ダッシュボードまたはレポートを使用しているときに URL をコピーすることで、直接リンクを送信できます。 たとえば、`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx` です。
 * 同様に、同僚が特定のダッシュボードに既にアクセスできる場合は、[基になるレポートへの直接リンクを送信する](service-share-reports.md)ことができます。 
 
 ### <a name="share-with-more-than-100-separate-users"></a>100 を超える個別のユーザーと共有する

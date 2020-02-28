@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889238"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527294"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services レポートを Power BI に移行する
 
@@ -41,16 +41,16 @@ Power BI にレポートを移行する準備では、まず、組織に [Power 
 
 ### <a name="supported-versions"></a>サポートされているバージョン
 
-オンプレミスで実行されている SSRS インスタンス、または Azure などのクラウド プロバイダーによってホストされている仮想マシン上の SSRS インスタンスを、移行できます。 
+オンプレミスで実行されている SSRS インスタンス、または Azure などのクラウド プロバイダーによってホストされている仮想マシン上の SSRS インスタンスを、移行できます。
 
 次の一覧は、Power BI への移行をサポートされている SQL Server のバージョンです。
 
 > [!div class="checklist"]
-> * SQL Server 2012
-> * SQL Server 2014
-> * SQL Server 2016
-> * SQL Server 2017
-> * SQL Server 2019
+> - SQL Server 2012
+> - SQL Server 2014
+> - SQL Server 2016
+> - SQL Server 2017
+> - SQL Server 2019
 
 Power BI Report Server から移行することもできます。
 
@@ -60,11 +60,11 @@ Power BI Report Server から移行することもできます。
 
 そのツールを使うと、次のタスクを自動化できます。
 
-* [サポートされていないデータ ソース](../paginated-reports-data-sources.md)および[サポートされていないレポート機能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)をチェックする
-* "_共有_" リソースを "_埋め込み_" リソースに変換する
-  * 共有**データ ソース**は埋め込みデータ ソースになります
-  * 共有**データセット**は埋め込みデータセットになります
-* (チェックに合格した) レポートを、ページ分割されたレポートとして、指定した Power BI ワークスペース (Premium 容量上) に発行する
+- [サポートされていないデータ ソース](../paginated-reports-data-sources.md)および[サポートされていないレポート機能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)をチェックする
+- "_共有_" リソースを "_埋め込み_" リソースに変換する
+  - 共有**データ ソース**は埋め込みデータ ソースになります
+  - 共有**データセット**は埋め込みデータセットになります
+- (チェックに合格した) レポートを、ページ分割されたレポートとして、指定した Power BI ワークスペース (Premium 容量上) に発行する
 
 既存のレポートが変更または削除されることはありません。 ツールが完了すると、完了したすべてのアクションの概要 (成功または失敗) が出力されます。
 
@@ -92,13 +92,13 @@ SSRS サーバーから Power BI に移行できるのは、RDL レポートの�
 
 ただし、次の SSRS 項目の種類を Power BI に移行することはできません。
 
-* 共有データ ソース<sup>1</sup>
-* 共有データセット<sup>1</sup>
-* リソース (画像ファイルなど)
-* KPI (SSRS 2016 以降 — Enterprise Edition のみ)
-* モバイル レポート (SSRS 2016 以降 — Enterprise Edition のみ)
-* レポート モデル (非推奨)
-* レポート パーツ (非推奨)
+- 共有データ ソース<sup>1</sup>
+- 共有データセット<sup>1</sup>
+- リソース (画像ファイルなど)
+- KPI (SSRS 2016 以降 — Enterprise Edition のみ)
+- モバイル レポート (SSRS 2016 以降 — Enterprise Edition のみ)
+- レポート モデル (非推奨)
+- レポート パーツ (非推奨)
 
 <sup>1</sup> [RDL 移行ツール](https://github.com/microsoft/RdlMigration)では、使われているデータ ソースがサポートされているものであれば、共有データ ソースと共有データセットが自動的に変換されます。
 
@@ -120,6 +120,7 @@ RDL レポートで "_オンプレミスのデータ ソース_" からデータ
 1. [Power BI Desktop](../desktop-what-is-desktop.md) を使用して、モバイルに最適化されたレポートを開発します。場合によっては、SSRS モバイル レポートと KPI の代わりに、[Power KPI カスタム ビジュアル](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)を使用します。
 1. レポートの **UserID** 組み込みフィールドの使用を再評価します。 レポート データをセキュリティで保護するために **UserID** を利用している場合は、ページ分割されたレポート (Power BI サービスでホストされている場合) では、ユーザー プリンシパル名 (UPN) が返されることに注意してください。 そのため、組み込みフィールドでは、_AW\mblythe_ などの NT アカウント名が返されず、_m.blythe&commat;adventureworks.com_ のような値が返されます。 データセット定義と、場合によってはソース データを修正する必要があります。 修正して発行したら、データ アクセス許可が期待どおりに動作することを確認するためにレポートを徹底的にテストすることをお勧めします。
 1. レポートの **ExecutionTime** 組み込みフィールドの使用を再評価します。 ページ分割されたレポート (Power BI サービスでホストされている場合) では、組み込みフィールドから "_協定世界時 (UTC)_ " で日時が返されます。 これは、レポート パラメーターの既定値と、レポート実行時間ラベル (通常はレポート フッターに追加されます) に影響する可能性があります。
+1. お使いのデータソースが SQL Server (オンプレミス) の場合は、レポートでマップの視覚化が使用されていないことを確認します。 マップの視覚化は SQL Server の空間データ型に依存し、これらはゲートウェイではサポートされません。 詳細については、[ページ分割されたレポートでのデータ取得のガイダンス (SQL Server の複合データ型)](report-paginated-data-retrieval.md#sql-server-complex-data-types) に関するページを参照してください。
 1. レポート作成者が [Power BI Report Builder](../report-builder-power-bi.md) をインストールしていること、および以降のリリースを組織全体に簡単に配布できることを確認します。
 
 ## <a name="migration-stage"></a>移行ステージ
@@ -146,8 +147,8 @@ SSRS インスタンスおよび Power BI ワークスペースへのアクセ�
 
 自動移行には次の 2 つのオプションがあります。 使用できるもの:
 
-* RDL 移行ツール
-* SSRS および Power BI 用に公開されている API
+- RDL 移行ツール
+- SSRS および Power BI 用に公開されている API
 
 [RDL 移行ツール](#migration-tool)については、この記事で既に説明しました。
 
@@ -155,8 +156,8 @@ SSRS インスタンスおよび Power BI ワークスペースへのアクセ�
 
 API の詳細については、以下を参照してください。
 
-* [Power BI REST API リファレンス](../developer/rest-api-reference.md)
-* [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
+- [Power BI REST API リファレンス](../developer/rest-api-reference.md)
+- [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>移行後ステージ
 
@@ -182,20 +183,21 @@ API の詳細については、以下を参照してください。
 
 問題を理解して軽減するための具体的な手順など、これらの問題の詳細については、次の記事を参照してください。
 
-* [Premium 容量を最適化する](../service-premium-capacity-optimize.md)
-* [アプリで Premium 容量を監視する](../service-admin-premium-monitor-capacity.md)
+- [Premium 容量を最適化する](../service-premium-capacity-optimize.md)
+- [アプリで Premium 容量を監視する](../service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>次の手順
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-* [Power BI Premium のページ分割されたレポートとは](../paginated-reports-report-builder-power-bi.md)
-* Guy in a Cube 動画:[Power BI でのページ分割されたレポートの概要](https://www.youtube.com/watch?v=wfqn45XNK3M)
-* [どのようなときに Power BI のページ分割されたレポートを使用するか](report-paginated-or-power-bi.md)
-* [Power BI のページ分割されたレポート: FAQ](../paginated-reports-faq.md)
-* [Power BI Premium のよく寄せられる質問](../service-premium-faq.md)
-* [RDL 移行ツール](https://github.com/microsoft/RdlMigration)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-* Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)
+- [Power BI Premium のページ分割されたレポートとは](../paginated-reports-report-builder-power-bi.md)
+- [ページ分割されたレポートでのデータ取得のガイダンス](report-paginated-data-retrieval.md)
+- Guy in a Cube 動画:[Power BI でのページ分割されたレポートの概要](https://www.youtube.com/watch?v=wfqn45XNK3M)
+- [どのようなときに Power BI のページ分割されたレポートを使用するか](report-paginated-or-power-bi.md)
+- [Power BI のページ分割されたレポート: FAQ](../paginated-reports-faq.md)
+- [Power BI Premium のよく寄せられる質問](../service-premium-faq.md)
+- [RDL 移行ツール](https://github.com/microsoft/RdlMigration)
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)
 
 Power BI パートナーを利用して、組織の移行プロセスを成功させることができます。 Power BI パートナーを手配するには、[Power BI パートナー ポータル](https://powerbi.microsoft.com/partners/)にアクセスしてください。

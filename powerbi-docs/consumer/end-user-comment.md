@@ -7,23 +7,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852035"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496510"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>ダッシュボードまたはレポートにコメントを追加する
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 個人のコメントを追加するか、同僚とダッシュボードまたはレポートに関する会話を開始します。 **コメント**機能は、*コンシューマー*が共同作業するための方法の 1 つにすぎません。 
 
 ![コメントのビデオ](media/end-user-comment/comment.gif)
+
+> [!NOTE]
+> 共有レポートにコメントを追加するなど、他のユーザーと共同作業するには、Power BI Pro または Premium ライセンスが必要です。 [私のライセンスの種類は何ですか?](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>コメント機能を使用する方法
 コメントは、ダッシュボード全体、ダッシュボード上の個々のビジュアル、レポート ページ、ページ分割されたレポート、レポート ページ上の個々のビジュアルに追加することができます。 一般的なコメント、または特定の同僚に宛てたコメントを追加します。  
@@ -34,7 +39,7 @@ ms.locfileid: "73852035"
 
 これが重要である理由 たとえば、同僚が、チームと共有したい興味深い分析情報を示すフィルターを適用したとします。 そのフィルターが選択されていないと、コメントに意味がない場合があります。
 
-ページ分割されたレポートを使用している場合、レポートに関する一般的なコメントのみを残しておくことができます。  個々のレポート ビジュアルにコメントを残すことはできません。
+ページ分割されたレポートを使用している場合、レポートに関する一般的なコメントのみを残しておくことができます。  ページ番号が付けられた個々のレポート ビジュアルにコメントを残すことはできません。
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>ダッシュボードまたはレポートに一般的なコメントを追加する
 ダッシュボードまたはレポートにコメントを追加するプロセスは似ています。  この例では、ダッシュボードを使用しています。 

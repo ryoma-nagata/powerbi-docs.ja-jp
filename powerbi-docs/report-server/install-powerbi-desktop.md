@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/03/2019
-ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/13/2020
+ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874114"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426658"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
 
@@ -93,11 +93,15 @@ Power BI レポート サーバーのレポートは、Power BI モバイル ア
 * 階層リンク
 * geo フィルタリングまたはバー コード
 
+### <a name="custom-security"></a>カスタム セキュリティ
+
+Power BI Report Server 向けに最適化された Power BI Desktop では、カスタム セキュリティはサポートされません。 Power BI Report Server がカスタム セキュリティ拡張機能を使用して構成されている場合、Power BI レポートを (Power BI Report Server 用に最適化された) Power BI Desktop から Power BI Report Server インスタンスに保存することはできません。 Power BI Desktop から .pbix レポート ファイルを保存し、Power BI Report Server ポータル サイトにアップロードする必要があります。
+
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>以前のバージョンの Power BI Report Server の Power BI Desktop
 
 ご利用のレポート サーバーが以前のバージョンである場合、対応するバージョンの Power BI Desktop が必要です。 このリンクから前のバージョンをダウンロードできます。
 
-- Microsoft Power BI Desktop ([Power BI Report Server (2019 年 1 月) 向けに最適化](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop ([Power BI Report Server (2019 年 9 月) 向けに最適化](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>次の手順
 

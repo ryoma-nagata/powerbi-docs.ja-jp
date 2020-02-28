@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
-ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/20/2020
+ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540569"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558571"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件
 
@@ -23,7 +23,7 @@ ms.locfileid: "76540569"
 
 | コンポーネント | 要件 |
 | --- | --- |
-| .NET Framework |4.6<br><br>.NET Framework は、「[Microsoft .NET Framework 4.6 (Web Installer) for Windows](https://support.microsoft.com/kb/3045560)」(Windows 用 Microsoft.NET Framework 4.6 (Web インストーラー)) から手動でインストールできます。<br/><br/> .NET Framework 4.6 の詳細情報、推奨事項、およびガイダンスについては、「[.NET Framework 配置ガイド (開発者向け)](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)」をご覧ください。<br/><br/>Windows 8.1 および Windows Server 2012 R2 では、.NET Framework 4.6 をインストールする前に、[KB2919355](https://support.microsoft.com/kb/2919355) をインストールする必要があります。 |
+| .NET Framework |4.7<br><br>.NET Framework は、[Windows 用 Microsoft.NET Framework 4.7 (Web インストーラー)](https://support.microsoft.com/en-us/kb/3186500) から手動でインストールできます。<br/><br/> .NET Framework 4.7 の詳細情報、推奨事項、およびガイダンスについては、「[.NET Framework 配置ガイド (開発者向け)](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers)」を参照してください。<br/><br/>Windows 8.1 および Windows Server 2012 R2 では、.NET Framework 4.7 をインストールする前に、[KB2919355](https://support.microsoft.com/kb/2919355) をインストールする必要があります。 |
 | ハード ディスク |Power BI レポート サーバーには、最低 1 GB の使用可能なハード ディスク空き領域が必要です。<br><br>レポート サーバーのデータベースをホストしているデータベース サーバーには、追加の領域が必要です。 |
 | メモリ |**最小:** 1 GB<br/><br/> **推奨:** 4 GB 以上 |
 | プロセッサ速度 |**最低:** x64 プロセッサ:1.4 GHz<br/><br/> **推奨:** 2.0 GHz 以上 |
@@ -38,6 +38,7 @@ ms.locfileid: "76540569"
 
 SQL Server は、レポート サーバー データベースをホストするために使用します。 SQL Server データベース エンジンのインスタンスは、ローカルにもリモートにも指定できます。 レポート サーバー データベースをホストするために使用できる SQL Server データベース エンジンのサポートされているバージョンを次に示します。
 
+* Azure SQL Managed Instance (2020 年 1 月以降のバージョンの Power BI Report Server)
 * SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 02/20/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699063"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527340"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ
 
@@ -53,7 +53,10 @@ Power BI のサポート ページ ([https://powerbi.microsoft.com/support/](htt
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Power BI でのフェールオーバーにはどれくらいかかりますか。
 
-フェールオーバーすることが決定した後、フェールオーバー インスタンスが利用できるようになるまで、最長 60 分かかる場合があります。
+フェールオーバーが必要であると判断されてから、Power BI が再度運用可能になるには約 15 分かかります。 フェールオーバーが必要であることの判断の時間は、破損のシナリオによって異なります。 
+
+フェールオーバーが実行されると、Power BI は Azure Storage の GEO レプリケーションを使用してフェールオーバーを実行します。 このようなレプリケーションのリターン ポイントは通常 15 分ですが、SLA で [Azure Storage のこの時間が保証されていない](https://docs.microsoft.com/azure/storage/common/storage-redundancy)ため、Power BI でも時間の保証はありません。 
+
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>自分の Power BI インスタンスはいつ元のリージョンに戻りますか。
 

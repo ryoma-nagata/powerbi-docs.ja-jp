@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925665"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426566"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI の新しいワークスペースで作業を整理する
 
@@ -68,15 +68,16 @@ Power BI 管理ポータルで[ワークスペース リストを使用できま
 | 他の管理者を含む、ユーザーの追加と削除。  | X  |   |   |   |
 | メンバーやその他の下位のアクセス許可を持つユーザーの追加。  |  X | X  |   |   |
 | アプリの発行と更新。 |  X | X  |   |   |
-| アイテムの共有やアプリの共有。 |  X | X  |   |   |
-| 他のユーザーに対するアイテムの再共有の許可。 |  X | X  |   |   |
+| アイテムの共有やアプリの共有。<sup>1</sup> |  X | X  |   |   |
+| 他のユーザーに対するアイテムの再共有の許可。<sup>1</sup> |  X | X  |   |   |
 | ワークスペースでのコンテンツの作成、編集、削除。  |  X | X  | X  |   |
 | ワークスペースへのレポートの公開と、コンテンツの削除。  |  X | X  | X  |   |
 | このワークスペース内のデータセットに基づいた、別のワークスペースでのレポートの作成。<sup>1</sup> |  X | X  | X  |   |
-| レポートのコピー。<sup>1</sup> | X | X | X |  |
-| 項目を表示して操作する。<sup>2</sup> |  X | X  | X  | X  |
+| レポートのコピー。<sup>2</sup> | X | X | X |  |
+| アイテムの表示とやりとり。<sup>3</sup> |  X | X  | X  | X  |
 
-1. レポートをコピーする場合、およびこのワークスペース内のデータセットに基づいて別のワークスペースでレポートを作成する場合、お客様は次の追加条件を満たす必要があります。
+1. 共同作成者とビューアーが再共有アクセス許可を持っている場合、ワークスペース内のアイテムを共有できます。
+2. レポートをコピーする場合、およびこのワークスペース内のデータセットに基づいて別のワークスペースでレポートを作成する場合、お客様は次の追加条件を満たす必要があります。
     - Power BI Pro ライセンスが必要です。 詳細については、次のセクションの「[ライセンス](#licensing)」を参照してください。
     - データセットのビルド アクセス許可が必要です。 このワークスペース内のデータセットについては、管理者、メンバー、共同作成者のロールを持つユーザーに対して、そのワークスペース ロールを通じてビルドのアクセス許可が付与されます。
 2. Power BI Pro ライセンスを持っていない場合でも、項目が Premium 容量内のワークスペースにあれば、Power BI サービスで項目を表示および操作することができます。

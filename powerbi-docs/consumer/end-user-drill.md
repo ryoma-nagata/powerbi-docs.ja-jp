@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851455"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496411"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI でのビジュアルのドリル モード
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ ms.locfileid: "73851455"
 どの Power BI ビジュアルに階層が含まれるかわからない場合は、 ビジュアルをポイントします。 これらのドリル コントロールの組み合わせが上部に表示される場合、ビジュアルには階層があります。
 
 ![ドリル アイコンのスクリーンショット。](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>ドリルダウンおよびドリルアップの方法
 
@@ -141,7 +144,9 @@ ms.locfileid: "73851455"
 
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
-既定では、ドリルによってレポートの他のビジュアルはフィルター処理されません。 ただし、レポート デザイナーは、この既定の動作を変更できます。 ドリルしながら、ページの他のビジュアルがクロスフィルター処理またはクロス強調表示されるかどうかを確認します。
+- 既定では、ドリルによってレポートの他のビジュアルはフィルター処理されません。 ただし、レポート デザイナーは、この既定の動作を変更できます。 ドリルしながら、ページの他のビジュアルがクロスフィルター処理またはクロス強調表示されるかどうかを確認します。
+
+- 共有してもらったレポートを表示するには、Power BI Pro または Premium ライセンスが必要です。 [お使いのライセンスの種類について](end-user-license.md)
 
 
 ## <a name="next-steps"></a>次の手順

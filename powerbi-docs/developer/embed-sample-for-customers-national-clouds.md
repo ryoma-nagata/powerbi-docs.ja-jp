@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 53432a0b3e6f09a558a189ef152c9d10645db546
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 9998604bf3f0211490dee87596e2a0692072807c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259682"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427279"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>チュートリアル:Power BI コンテンツを国内クラウド向けアプリケーションに埋め込む
 
@@ -54,7 +54,7 @@ Power BI では[国内クラウド](https://docs.microsoft.com/azure/active-dire
 * Government Community Cloud (GCC):
 
     > [!NOTE]
-    > Government Community Cloud (GCC) からの Power BI コンテンツの埋め込みは、Office 356 SKU でのみ行うことができます。 その他の国内クラウドのお客様は、[Office 356 または Azure SKU](embedded-capacity.md) を使用できます。
+    > Government Community Cloud (GCC) からの Power BI コンテンツの埋め込みは、Office 365 SKU でのみ行うことができます。 その他の国内クラウドのお客様は、[Office 365 または Azure SKU](embedded-faq.md) を使用できます。
 
 1. Cloud.config ファイルを GCCCloud.config コンテンツで上書きします。
 

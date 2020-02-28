@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/03/2019
+ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: aacab1541f336ed12c36dab8243d0096c9a6ed19
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000114"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558628"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI サービスからオンプレミス データ ソースへの Kerberos ベースの SSO を構成する
 
@@ -246,11 +246,17 @@ SAP HANA と SAP BW には、これらのデータ ソースへのゲートウ�
 
 ## <a name="run-a-power-bi-report"></a>Power BI レポートを実行する
 
-すべての構成手順が完了したら、Power BI の **[Manage Gateway]\(ゲートウェイの管理\)** ページを使って、SSO に使用するデータ ソースを構成します。 複数のゲートウェイがある場合は、Kerberos SSO 用に構成したゲートウェイを選択してください。 その後、データ ソースの **[詳細設定]** で、 **[DirectQuery クエリには Kerberos 経由で SSO を使用します]** チェック ボックスを確実にオンにします。
+すべての構成手順が完了したら、Power BI の **[Manage Gateway]\(ゲートウェイの管理\)** ページを使って、SSO に使用するデータ ソースを構成します。 複数のゲートウェイがある場合は、Kerberos SSO 用に構成したゲートウェイを選択してください。 データ ソースの **[詳細設定]** で、DirectQuery ベースのレポートの場合は、 **[DirectQuery クエリには Kerberos 経由で SSO を使用します]** チェックボックスまたは **[Kerberos を使用した SSO を DirectQuery とインポート クエリに使用する]** チェックボックスのいずれかをオンにし、更新ベースのレポートの場合は、 **[Kerberos を使用した SSO を DirectQuery とインポート クエリに使用する]** チェックボックスをオンにします。
 
-![[詳細設定] のオプション](media/service-gateway-sso-kerberos/advanced-settings.png)
+![[詳細設定] のオプション](media/service-gateway-sso-kerberos/advanced-settings-02.png)
 
- Power BI Desktop から DirectQuery ベースのレポートを発行します。 このレポートでは、Power BI サービスにサインインする (Azure) Active Directory ユーザーにマップされているユーザーがアクセスできるデータを使用する必要があります。 更新がどのように動作するかによっては、インポートの代わりに DirectQuery を使用する必要があります。 ゲートウェイでインポートベースのレポートが更新されるときに、データ ソースの作成時に **[ユーザー名]** および **[パスワード]** フィールドに入力した資格情報が使用されます。 言い換えると、Kerberos SSO は使用*されません*。 複数のゲートウェイがある場合は、発行時に、SSO 用に構成したゲートウェイを選択してください。 これで、Power BI サービスで、発行したデータ セットに基づいて、レポートを更新したり新しいレポートを作成したりできるようになりました。
+DirectQuery ベースのレポートを Power BI Desktop から発行し、それを、 **[DirectQuery クエリには Kerberos 経由で SSO を使用します]** チェックボックスまたは **[Kerberos を使用した SSO を DirectQuery とインポート クエリに使用する]** チェックボックスをオンにしたデータ ソースにマップすると、そのレポートでは、Power BI サービスにサインインする (Azure) Active Directory ユーザーにマップされるユーザーがアクセス可能なデータが使用されます。
+
+同様に、更新ベースのレポートを Power BI Desktop から発行し、それを、 **[Kerberos を使用した SSO を DirectQuery とインポート クエリに使用する]** チェックボックスをオンにしたデータ ソースにマップする場合、資格情報を入力する必要はありません。 更新は、データセット所有者の Active Directory コンテキストに基づいて実行されます。
+
+ただし、 **[Kerberos を使用した SSO を DirectQuery とインポート クエリに使用する]** チェックボックスがオンになっていないデータ ソースにレポートをマップする場合は、データ ソースの作成時に **[ユーザー名]** フィールドと **[パスワード]** フィールドに入力した資格情報が使用されます。 言い換えると、Kerberos SSO は使用*されません*。 
+
+ 複数のゲートウェイがある場合は、発行時に、SSO 用に構成したゲートウェイを選択してください。 
 
 この構成は、ほとんどの場合に機能します。 ただし、Kerberos については、環境に応じて構成が異なる可能性があります。 レポートが読み込まれない場合は、ドメイン管理者に連絡してさらに詳しく調査してください。 データ ソースが SAP BW の場合は、選択した SNC ライブラリに応じて、[CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) および [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting) のデータ ソース固有の構成ページのトラブルシューティング セクションを参照してください。
 

@@ -6,20 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcfc695d0371cce21a827ddfe71b3b4b05863935
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 882cddf7728a27e78056a35c14fde20f00678e33
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762418"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527704"
 ---
 # <a name="use-the-facebook-connector-for-power-bi-desktop"></a>Power BI Desktop の Facebook コネクタを使用する
 **Power BI Desktop** の Facebook コネクタは、Facebook Graph API に依存します。 そのため、今後機能や可用性が変更になることがあります。
 
 「[Power BI Desktop の Facebook コネクタに関するチュートリアル](desktop-tutorial-facebook-analytics.md)」を参照してください。
+
+> [!IMPORTANT]
+> **Facebook データ コネクタの廃止に関する通知:** 2020 年 4 月以降、Excel に Facebook からデータをインポートして更新する機能が正常に機能しなくなります。 それまでは、Facebook *取得と変換 (Power Query)* コネクタを使用できます。 それ以降は Facebook に接続できなくなり、エラー メッセージが表示されるようになります。 予期せぬ結果を防ぐには、Facebook コネクタを使用する既存の*取得と変換 (Power Query)* クエリをできるだけ早く修正または削除することをお勧めします。
+
 
 Facebook では 2015 年 4 月 30 日に Graph API v1.0 の有効期限が切れました。 Power BI は Facebook コネクタのバックグラウンドで Graph API を使用し、これによりデータに接続でき、分析できます。
 

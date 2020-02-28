@@ -3,20 +3,21 @@ title: Power BI "コンシューマー" とは
 description: コンシューマー (エンド ユーザーまたはビジネス ユーザーとも呼ばれます) 向けの Power BI の概要。
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863800"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496218"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>コンシューマー向けの Power BI サービス
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 現代のデータ カルチャでは、ビジネス上の意思決定は意見ではなく事実に基づいて行われます。 これらの決定を行うにはデータが必要であり、同僚に失望することはありません。     
  
@@ -43,6 +44,8 @@ Power BI をどのように操作するかは、ご自分の仕事上の役割�
 コンシューマーとして、Power BI の全機能にアクセスできるわけではありませんが、これは問題ありません。お客様の仕事は、ダッシュボードやレポートの作成ではないからです。 分析、監視、探索、意思決定のために Power BI サービスを使用します。 
 
 "Power BI Desktop" または "Desktop" という用語を聞いたことが間違いなくあるでしょう。これは、ダッシュボードおよびレポートをビルドし、お客様と共有する "*デザイナー*" によって使用されるスタンドアロン ツールです。  他の Power BI ツールがあるということを理解することは重要ですが、お客様がコンシューマーの場合、Power BI サービスのみでの作業となります。 
+
+また、"*共有*" コンテンツを使用しているため、Power BI Pro または Premium ライセンスが必要になります。 [お使いのライセンスの種類について](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>コンテンツを安全に操作する 

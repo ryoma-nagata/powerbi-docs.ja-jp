@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b17ed5458a6245ab5796edcf15f6dee5f885358
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871383"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77497160"
 ---
 # <a name="update-delete-and-extract-template-app"></a>テンプレート アプリの更新、削除、および抽出
 
@@ -36,15 +36,21 @@ Power BI Desktop で変更を加えた場合は、ステップ (1) から開始�
 
    これで実稼働のバージョンとテスト中の新しいバージョンという 2 つのバージョンが表示されます。
 
-    ![テンプレート アプリの 2 つのバージョン](media/service-template-apps-update-extract-delete/power-bi-template-app-update.png)
+    ![テンプレート アプリの 2 つのバージョン](media/service-template-apps-update-extract-delete/power-bi-template-app-update1.png)
 
-5. アプリを実稼働前ステージに昇格させ、テナントの外でテストする準備ができたら、[リリース管理] ウィンドウに戻り、 **[テスト]** の隣にある **[アプリの昇格]** を選択します。
-6. これでリンクはライブになります。 [Power BI アプリ オファーの更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)に関する記事の手順に従って、Cloud パートナー ポータル (CPP) にそれを再度送信します。
-7. Cloud パートナー ポータルで、オファーをもう一度**公開**し、再度検証する必要があります。
+1. アプリを実稼働前ステージに昇格させ、テナントの外でテストする準備ができたら、[リリース管理] ウィンドウに戻り、 **[テスト]** の隣にある **[アプリの昇格]** を選択します。
 
-   >[!NOTE]
-   >アプリを実稼働ステージに昇格させるのは、アプリが Cloud パートナー ポータルで承認され、それを公開した後のみです。
+   これで実稼働にバージョンが 1 つ、実稼働前にバージョンが 1 つ用意されました。
 
+   ![テンプレート アプリの 2 つのバージョン。[アプリの昇格] が淡色表示になっています](media/service-template-apps-update-extract-delete/power-bi-template-app-update2.png)
+
+   これでリンクはライブになります。 **実稼働前ステージの [アプリの昇格] ボタンが淡色表示になっていることにご注目ください**。これには、Cloud Partner Portal で新しいアプリ バージョンを検証し、承認する前に、現在のアプリ バージョンへの有効な実稼働リンクを誤って上書きすることを防ぐ目的があります。
+
+1. [Power BI アプリ オファーの更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)に関する記事の手順に従って、Cloud パートナー ポータル (CPP) にリンクを再度送信します。 Cloud パートナー ポータルで、オファーをもう一度**公開**し、検証し、承認する必要があります。
+
+   オファーが承認されると、[アプリの昇格] ボタンが再び有効になります。 
+1. 実稼働ステージにアプリを昇格させます。
+   
 ### <a name="update-behavior"></a>動作を更新する
 
 1. アプリを更新すると、テンプレート アプリのインストーラーは、接続の構成を失うことなく、既にインストールされているワークスペースの[テンプレート アプリを更新する](service-template-apps-install-distribute.md#update-a-template-app)ことができるようになります。

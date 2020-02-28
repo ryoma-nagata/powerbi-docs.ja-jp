@@ -1,5 +1,5 @@
 ---
-title: Power BI 用の独自の暗号化キーを使用する (プレビュー)
+title: Power BI で独自の暗号化キーを使用する
 description: Power BI Premium で独自の暗号化キーを使用する方法を学習します。
 author: davidiseminger
 ms.author: davidi
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 02/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 133d807d26ba6571eeb614852f3f651a749a369f
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762119"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527773"
 ---
-# <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI 用の独自の暗号化キーを使用する (プレビュー)
+# <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI で独自の暗号化キーを使用する
 
 Power BI では、"_保存_" データと "_処理中_" のデータが暗号化されます。 既定では、Power BI で Microsoft マネージド キーを使用してデータを暗号化します。 Power BI Premium では、データセットにインポートされる、保存データに対して独自のキーを使用することもできます (詳細については、「[データ ソースとストレージに関する考慮事項](#data-source-and-storage-considerations)」を参照)。 このアプローチは多くの場合、_Bring Your Own Key_ (BYOK) と説明されます。
 
 ## <a name="why-use-byok"></a>BYOK を使用する理由
 
-BYOK によって、クラウド サービス プロバイダー (この場合、Microsoft) でキー配置を指定するコンプライアンス要件を満たすことがより簡単になります。 BYOK では、アプリケーション レベルで Power BI の保存データ用の暗号化キーを提供し、制御します。 その結果、組織のキーを制御でき、サービスを終了することにした場合は、それを取り消すことができます。 キーを取り消すことで、データはサービスで読み取れなくなります。
+BYOK によって、クラウド サービス プロバイダー (この場合、Microsoft) でキー配置を指定するコンプライアンス要件を満たすことがより簡単になります。 BYOK では、アプリケーション レベルで Power BI の保存データ用の暗号化キーを提供し、制御します。 その結果、組織のキーを制御でき、サービスを終了することにした場合は、それを取り消すことができます。 キーを取り消すと、データは 30 分以内にサービスで読み取れなくなります。
 
 ## <a name="data-source-and-storage-considerations"></a>データ ソースとストレージに関する考慮事項
 
@@ -34,7 +34,12 @@ BYOK を使用するには、Power BI Desktop (PBIX) ファイルから Power BI
 - [ストリーミング データセット](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [大規模なモデル](service-premium-large-models.md)
 
-BYOK は PBIX ファイルに関連付けられたデータセットにのみ適用され、タイルやビジュアル用のクエリ結果キャッシュには適用されません。
+BYOK はデータセットのみに該当します。 ユーザーがサービスにアップロードできる、プッシュ データセット、Excel ファイルおよび CSV ファイルはご自分のキーでは暗号化できません。 ご自分のワークスペースにどの成果物が格納されているかを識別するには、次の PowerShell コマンドを使用します。
+
+```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
+
+> [!NOTE]
+> このコマンドレットでは、Power BI 管理モジュール v1.0.840 が必要です。 Get-InstalledModule -Name MicrosoftPowerBIMgmt を実行すると、どのバージョンを所持しているかを確認することができます。 最新バージョンをインストールするには、Install-Module -Name MicrosoftPowerBIMgmt を実行します。 Power BI のコマンドレットおよびそのパラメーターの詳細については、[Power BI PowerShell コマンドレット モジュール](https://docs.microsoft.com/powershell/power-bi/overview)に関するページを参照してください。
 
 ## <a name="configure-azure-key-vault"></a>Azure Key Vault を構成する
 
@@ -53,7 +58,7 @@ Azure Key Vault は、暗号化キーなどのシークレットを安全に格�
 
 ### <a name="add-the-service-principal"></a>サービス プリンシパルを追加する
 
-1. Azure portal のキー コンテナーで、 **[アクセス ポリシー]** の  **[新規追加]** を選択します。
+1. Azure portal のお使いのキー コンテナーで、 **[アクセス ポリシー]** の **[新規追加]** を選択します。
 
 1. **[プリンシパルの選択]** で、Microsoft.Azure.AnalysisServices を検索して選択します。
 
@@ -64,14 +69,14 @@ Azure Key Vault は、暗号化キーなどのシークレットを安全に格�
 
     ![PBIX ファイル コンポーネント](media/service-encryption-byok/service-principal.png)
 
-1. **[OK]** 、 **[保存]** の順に選択します。
+1. **[OK]** を選択し、 **[保存]** を選択します。
 
 > [!NOTE]
 > 将来、Power BI によるデータへのアクセスを取り消す場合、Azure Key Vault からこのサービス プリンシパルへのアクセス権限を削除します。
 
 ### <a name="create-an-rsa-key"></a>RSA キーを作成する
 
-1. キー コンテナーの **[キー]** で、 **[生成/インポート]** を選択します。
+1. お使いのキー コンテナーの **[キー]** で、 **[生成/インポート]** を選択します。
 
 1. **[キーの種類]** では RSA を、 **[RSA キー サイズ]** では 4096 を選択します。
 
@@ -183,3 +188,17 @@ Power BI では、テナントでの BYOK の管理に役立つ追加のコマ�
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
     ```
+
+
+
+## <a name="next-steps"></a>次の手順
+
+* [Power BI PowerShell コマンドレット モジュール](https://docs.microsoft.com/powershell/power-bi/overview) 
+
+* [Power BI で作業を共有する方法](service-how-to-collaborate-distribute-dashboards-reports.md)
+
+* [URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する](service-url-filters.md)
+
+* [SharePoint Online にレポート Web パーツを埋め込む](service-embed-report-spo.md)
+
+* [Power BI から Web への公開](service-publish-to-web.md)

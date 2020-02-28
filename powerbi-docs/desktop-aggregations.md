@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76538742"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427660"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop で集計を使用する
 
@@ -185,6 +185,10 @@ AVERAGE 関数は集計を利用できます。 AVERAGE が COUNT で除算さ�
 場合によっては、DISTINCTCOUNT 関数は集計を利用できます。 集計テーブルで **CustomerKey** の差異を維持する **CustomerKey** 用の GroupBy エントリがあるため、次のクエリでは集計がヒットします。 この手法でも、200 万から 500 万を超える個別値がクエリのパフォーマンスに影響する可能性がある、パフォーマンスしきい値に達する場合があります。 しかし、これは、詳細テーブルに数十億の行があるものの、列に 200 万から 500 万の個別値があるシナリオで役立ちます。 このケースでは、テーブルがメモリにキャッシュされている場合でも、数十億の行を含むものをスキャンするよりも、DISTINCTCOUNT の方が高速で実行できます。
 
 ![DISTINCTCOUNT 集計クエリ](media/desktop-aggregations/aggregations-code_07.jpg)
+
+DAX タイムインテリジェンス関数は集計に対応しています。 次のクエリでは集計が行われます。これは、DATESYTD 関数によって **CalendarDay** 値のテーブルが生成され、集計テーブルの粒度が **Date** テーブルの GroupBy 列でカバーされるためです。 これは、集計で利用できる、CALCULATE 関数のテーブル値フィルターの例です。
+
+![SUMMARIZECOLUMNS 集計クエリ](media/desktop-aggregations/aggregations-code-07b.jpg)
 
 ## <a name="aggregation-based-on-groupby-columns"></a>GroupBy 列に基づく集計 
 

@@ -5,21 +5,23 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852261"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496621"
 ---
 # <a name="what-are-bookmarks"></a>ブックマークとは?
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-ブックマークは、フィルター、スライサー、ビジュアルの状態など、レポート ページで現在構成されているビューをキャプチャします。 ブックマークを選択すると、Power BI はそのビューに戻ります。 ブックマークには、自分で作成したものとレポート *デザイナー*が作成したものの 2 種類があります。
+ブックマークは、フィルター、スライサー、ビジュアルの状態など、レポート ページで現在構成されているビューをキャプチャします。 ブックマークを選択すると、Power BI はそのビューに戻ります。 ブックマークには、自分で作成したものとレポート *デザイナー*が作成したものの 2 種類があります。 Power BI ユーザーであれば、誰でも個人用のブックマークを作成できます。 しかしながら、他のユーザーが作成したブックマークを使用するには、Power BI Pro または Premium ライセンスが必要です。 [お使いのライセンスの種類について](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI でブックマークを使用して詳細情報を共有し、ストーリーを作成する 
 ブックマークには多くの用途があります。 たとえば、興味深い分析情報を見つけたとき、それを保存したいと思ったら、ブックマークを作成すると後で戻ることができます。 帰宅するとき、現在の作業を保存したければブックマークを作成します。 ブックマークをレポートの既定のビューにすることもできます。そうすれば、戻るたびに、レポート ページのそのビューが最初に開きます。 
@@ -33,6 +35,9 @@ ms.locfileid: "73852261"
 
 ### <a name="report-bookmarks"></a>レポートのブックマーク
 レポート *デザイナー*にレポート ブックマークが含まれていた場合、 **[レポート ブックマーク]** という見出しの下で見つかります。 このレポートページには、B1 と B2 という 2 つのブックマークがあります。 
+
+> [!NOTE]
+> 共有レポートを表示するには、Power BI Pro または Premium が必要です。 
 
 ![レポート ブックマークを表示します。](media/end-user-bookmarks/power-bi-report.png)
 
