@@ -655,8 +655,6 @@
               href: service-export-to-pbix.md
             - name: SAP 変数の編集
               href: service-edit-sap-variables.md
-            - name: 高速で信頼性の高いレポートを作成するためのベスト プラクティス
-              href: power-bi-reports-performance.md
         - name: データに関する質問
           items:
             - name: Q&A を使用し、データを探索する
