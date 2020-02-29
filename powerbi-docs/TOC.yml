@@ -757,8 +757,8 @@
               href: admin/service-security-data-protection-overview.md
             - name: 機密ラベルの適用
               href: designer/service-security-apply-data-sensitivity-labels.md
-        - name: データ系列
-          href: service-data-lineage.md
+        - name: データ系列の表示
+          href: designer/service-data-lineage.md
         - name: テンプレート アプリ
           items:
             - name: テンプレート アプリの概要
