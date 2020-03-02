@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8604ed2c737b7d2a75b3af052878ecb157ffacf1
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538614"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609850"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI でのユーザー補助の概要
 
@@ -30,7 +30,7 @@ Power BI を使用する場合は、レポートを操作する可能性のあ�
 
 ## <a name="accessibility-standards"></a>アクセシビリティ標準
 
-Power BI では、次のアクセシビリティ標準に準拠しています。 この標準は、Power BI の実際のエクスペリエンスをできるだけ多くのユーザーが確実に利用できるようにする際に役立ちます。 Power BI Mobile アプリは、アクセシビリティのグレード c に認定されています。 アクセシビリティ対応のレポートまたはダッシュボードを構築すると、Power BI Mobile を使用して表示するすべてのユーザーがそのコンテンツにアクセスできるようになります。
+Power BI では、次のアクセシビリティ標準に準拠しています。 この標準は、Power BI の実際のエクスペリエンスをできるだけ多くのユーザーが確実に利用できるようにする際に役立ちます。 アクセシビリティ対応のレポートまたはダッシュボードを構築すると、Power BI Mobile を使用して表示するすべてのユーザーがそのコンテンツにアクセスできるようになります。
 
 ### <a name="wcag-21"></a>WCAG 2.1
 

@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 02/27/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ec93e1575ec5429a3ca4c790150973a23224d97b
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 927e882e9b0cd7195aec6cffd7305d887d1c306e
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427785"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782390"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI のサポートされているブラウザー
 Power BI は、次のブラウザーで実行されます。
 
 - Microsoft エッジ
-- Internet Explorer 11。 系列ビューなどの一部の高度な機能は、Internet Explorer ではサポートされていません。 詳細については、「[Data lineage (Preview)](service-data-lineage.md)」 (データ系列 (プレビュー)) を参照してください。
+- Internet Explorer 11。 系列ビューなどの一部の高度な機能は、Internet Explorer ではサポートされていません。 詳細については、「[Data lineage (Preview)](designer/service-data-lineage.md)」 (データ系列 (プレビュー)) を参照してください。
 - Chrome デスクトップの最新バージョン
 - Safari Mac の最新バージョン
 - Firefox デスクトップの最新バージョン。 Firefox では、Power BI で使用されるフォントが変更される場合があります。 
