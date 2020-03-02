@@ -22,14 +22,14 @@ ms.locfileid: "77427808"
 
 ![ハイパーリンク付きのテーブル](media/power-bi-hyperlinks-in-tables/power-bi-url-link-text.png)
 
-[レポートのテキスト ボックス](service-add-hyperlink-to-text-box.md)内のハイパーリンクは、Power BI サービスと Power BI Desktop を使用して作成することもできます。 また、Power BI サービスでは、[ダッシュボード上のタイル](service-dashboard-edit-tile.md)と[ダッシュボード上のテキスト ボックス](service-dashboard-add-widget.md)にハイパーリンクを追加できます。 
+Power BI サービスと Power BI Desktop を使用して、[レポート内のテキスト ボックス](service-add-hyperlink-to-text-box.md)にハイパーリンクを作成することもできます。 また、Power BI サービスでは、[ダッシュボード上のタイル](service-dashboard-edit-tile.md)と[ダッシュボード上のテキスト ボックス](service-dashboard-add-widget.md)にハイパーリンクを追加できます。 
 
 
 ## <a name="format-a-url-as-a-hyperlink-in-power-bi-desktop"></a>Power BI Desktop で URL をハイパーリンクとして書式を設定する
 
 URL を含むフィールドは、Power BI Desktop ではハイパーリンクとして書式を設定できますが、Power BI サービスではできません。 Power BI にブックをインポートする前に、[Excel Power Pivot でハイパーリンクの書式を設定する](#create-a-table-or-matrix-hyperlink-in-excel-power-pivot)こともできます。
 
-1. Power BI Desktop で、ハイパーリンクを含むフィールドがデータセットにまだ存在しない場合は、[カスタム列](desktop-common-query-tasks.md)として追加します。
+1. データセットにハイパーリンクを含むフィールドがない場合は、Power BI Desktop を使用して、[カスタム列](desktop-common-query-tasks.md)として追加します。
 
     > [!NOTE]
     > DirectQuery モードでは列を作成できません。  ただし、データに URL が既に含まれている場合は、それらの URL をハイパーリンクに変えることができます。

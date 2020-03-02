@@ -20,7 +20,7 @@ ms.locfileid: "77496724"
 
 この記事では、**Power BI Desktop** の以前の更新について説明します。 最新月のリリースについては、[**Power BI Desktop** の最新の更新](desktop-latest-update.md)を確認してください。
 
-[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=58494)から最新バージョンの Power BI Desktop を取得します。 Windows 10 を実行している場合、Windows 10 の Microsoft Store から Power BI Desktop を取得することもできます。 Power BI Desktop のインストール方法に関係なくバージョン番号が異なる場合でも、月次バージョン番号は同じです。 Power BI Desktop のダウンロードとインストールの詳細については、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」を参照してください。 
+[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=58494)から最新バージョンの Power BI Desktop を取得してください。 Windows 10 を実行している場合、Windows 10 の Microsoft Store から Power BI Desktop を取得することもできます。 Power BI Desktop のインストール方法に関係なくバージョン番号が異なる場合でも、月次バージョン番号は同じです。 Power BI Desktop のダウンロードとインストールの詳細については、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」を参照してください。 
 
 各更新の横にあるリンクには、次の意味があります。
 

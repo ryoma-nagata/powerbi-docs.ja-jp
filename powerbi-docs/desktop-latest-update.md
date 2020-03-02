@@ -22,7 +22,7 @@ ms.locfileid: "77496681"
 
 素晴らしい新機能を含む、2 月の更新プログラムをご利用いただけます。 
 
-[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=58494)から最新バージョンの Power BI Desktop を取得します。 Windows 10 を実行している場合、[Microsoft Store](https://aka.ms/pbidesktopstore) から Power BI Desktop を取得することもできます。 Power BI Desktop のインストール方法に関係なくバージョン番号が異なる場合でも、月次バージョン番号は同じです。 Power BI Desktop のダウンロードとインストールの詳細については、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」を参照してください。 
+[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=58494)から最新バージョンの Power BI Desktop を取得してください。 Windows 10 を実行している場合、[Microsoft Store](https://aka.ms/pbidesktopstore) から Power BI Desktop を取得することもできます。 Power BI Desktop のインストール方法に関係なくバージョン番号が異なる場合でも、月次バージョン番号は同じです。 Power BI Desktop のダウンロードとインストールの詳細については、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」を参照してください。 
 
 > [!IMPORTANT]
 > 2019 年 9 月のリリース以降、Power BI Desktop は、サポートされているすべての言語を含む 1 つの .exe ファイルとしてのみリリースされています。 .msi バージョンはリリースされなくなります。
