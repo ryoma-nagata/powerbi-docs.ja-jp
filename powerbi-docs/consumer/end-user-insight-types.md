@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537913"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576764"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI でサポートされているインサイトの種類
 
@@ -55,7 +55,7 @@ Power BI では統計的アルゴリズムを使用して分析情報が明ら�
 ![相関関係の例](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ### <a name="low-variance"></a>低差異
-データ ポイントが平均から離れていないケースを検出します。
+あるディメンションのデータ ポイントが平均から離れていないため、"分散" が低くなるケースを検出します。 たとえば、"売上" というメジャーと "地域" というディメンションがあるとします。 そして、地域全体を調べると、データ ポイントと (データ ポイントの) 平均の間にほとんど違いがないことがわかります。 すべての地域の売上の分散がしきい値を下回ると、分析情報がトリガーされます。 つまり、売上がすべての地域で非常に類似している場合です。
 
 ![低差異の例](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -75,7 +75,9 @@ Power BI では統計的アルゴリズムを使用して分析情報が明ら�
 ![周期性の例](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>安定した共有
-連続した変数にわたる親の全体の値に関連して、子の値のシェア間に親子の相関関係があるケースを強調表示します。
+連続した変数にわたる親の全体の値に関連して、子の値のシェア間に親子の相関関係があるケースを強調表示します。 安定したシェアの分析情報は、メジャー、ディメンション、および別の日付/時刻のディメンションのコンテキストに適用されます。 この分析情報は、特定のディメンション値 ("北東地域" など) の、その日付/時刻のディメンションにわたる全体的な売上が、安定したパーセンテージを示す場合にトリガーされます。
+
+安定したシェアの分析情報は、低差異の分析情報に似ています。どちらも時間の経過に伴う値の分散の小ささに関連しているためです。 ただし、安定したシェアの分析情報では、時間経過に伴う**全体のパーセンテージ**の分散の小ささが測定されますが、低差異の分析情報では、ディメンション全体のメジャーの絶対値に関する分散の小ささが測定されます。
 
 ![安定した共有の例](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 

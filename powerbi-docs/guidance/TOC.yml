@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: レポート ページのドリルスルーの使用
               href: report-drillthrough.md
+            - name: 軸を管理するためのヒント
+              href: report-design-tips-axes.md
+            - name: グラフのグリッド線を制御するためのヒント
+              href: report-tips-chart-gridlines.md
+            - name: ラベルの使用を最適化するためのヒント
+              href: report-tips-labels.md
+            - name: 凡例を書式設定および実装するためのヒント
+              href: report-tips-legends.md
+            - name: ビジュアルの色を最適化するためのヒント
+              href: report-tips-visual-colors.md
         - name: Power BI のページ分割されたレポート
           items:
             - name: どのようなときにページ分割されたレポートを使用するか

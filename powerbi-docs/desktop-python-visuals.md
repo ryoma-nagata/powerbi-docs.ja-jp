@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9b21b733dd673c1b672a4590032808a174ecda1f
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161595"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609834"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Python を使用して Power BI ビジュアルを作成する
 
@@ -170,7 +170,7 @@ plt.show()
 
 Power BI Desktop での Python ビジュアルには、いくつかの制限があります。
 
-- データ サイズの制限。 Python ビジュアルでプロット作成用に使用するデータは、150,000 行に制限されています。 150,000 を超える行が選択されている場合は、上位の 150,000 の行のみが使用され、メッセージがイメージに表示されます。
+- データ サイズの制限。 Python ビジュアルでプロット作成用に使用するデータは、150,000 行に制限されています。 150,000 を超える行が選択されている場合は、上位の 150,000 の行のみが使用され、メッセージがイメージに表示されます。 また、入力データには 250 MB の制限があります。 
 - 解像度。 Python ビジュアルはすべて 72 DPI で表示されます。
 - 計算時間の制限。 Python ビジュアル計算で実行時間が 5 分を超えると、実行がタイムアウトされ、エラーが発生します。
 - リレーションシップ。 他の Power BI Desktop ビジュアルと同様、定義されたリレーションシップを持たない異なるテーブルからデータ フィールドが選択されている場合、エラーが発生します。

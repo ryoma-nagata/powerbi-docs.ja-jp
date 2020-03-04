@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154413"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576841"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI でマトリックスの視覚エフェクトを作成する
 
@@ -218,6 +218,10 @@ Web サイト URL が含まれる列またはメジャーがある場合は、�
 "*詳細コントロール*" を選択すると、ダイアログが表示されます。このダイアログで調整を行うことができます。 この例は、 **[データ バー]** のダイアログを示しています。
 
 ![[データ バー] ウィンドウ](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
+
+* マトリックスのセルまたはヘッダー内のテキスト データに改行文字が含まれている場合、要素に関連付けられている書式指定ペイン カードで [右端で折り返す] オプションをオンにしない限り、これらの文字は無視されます。 
 
 ## <a name="next-steps"></a>次の手順
 

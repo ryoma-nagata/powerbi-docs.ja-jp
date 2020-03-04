@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864052"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199006"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded のパフォーマンスのベスト プラクティス
 
 この記事では、アプリケーションでレポート、ダッシュボード、タイルを短時間で表示するための推奨事項を紹介しています。
 
 > [!Note]
-> 読み込み時間は主に、レポートおよびデータ自体に関連する要素 (ビジュアル、データのサイズ、クエリと計算されるメジャーの複雑さなど) に依存していることに注意してください。 詳細については、「[Power BI のパフォーマンスのベスト プラクティス](../power-bi-reports-performance.md)」を参照してください。
+> 読み込み時間は主に、レポートおよびデータ自体に関連する要素 (ビジュアル、データのサイズ、クエリと計算されるメジャーの複雑さなど) に依存していることに注意してください。 詳細については、[Power BI の最適化ガイド](../guidance/power-bi-optimization.md)に関する記事をご覧ください。
 
 ## <a name="update-tools-and-sdk-packages"></a>ツールと SDK パッケージを更新する
 
@@ -106,6 +106,6 @@ Power BI Premium 容量または Power BI Embedded 容量を使用する組織�
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI レポートのパフォーマンスのベスト プラクティス](../power-bi-reports-performance.md)
+* [Power BI の最適化ガイド](../guidance/power-bi-optimization.md)
 * [Power BI Embedded の問題を解決する方法](embedded-troubleshoot.md)
 * [Power BI Embedded のよくあるご質問](embedded-faq.md)

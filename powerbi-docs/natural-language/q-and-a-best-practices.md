@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: e18579d654cb2ab17ed0dbff73fba95f5f9a64ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875050"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609944"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI の Q&A を最適化するためのベスト プラクティス
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 さらに効果的な方法は、データから回答を得ることです。これが、Power BI の Q&A の機能です。

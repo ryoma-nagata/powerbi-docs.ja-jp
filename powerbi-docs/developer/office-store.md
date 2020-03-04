@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.date: 02/13/2020
+ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74999908"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576805"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI ビジュアルをパートナー センターに発行する
 
@@ -39,7 +39,7 @@ Power BI ビジュアルを提出する準備ができたら、ビジュアル�
 | スクリーンショット |はい |少なくとも 1 つのスクリーンショットを提供します。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 サイズは、ちょうど 1366 px (幅) × 768 px (高さ) にする必要があります。 ファイルのサイズは、1,024 KB を超えることはできません。<br>使いやすくするために、各スクリーンショットに重要な機能の価値提案がはっきりわかる吹き出しを追加します。 |
 | サポート ダウンロード リンク |はい |顧客向けのサポート URL を提供します。 このリンクは販売者ダッシュボードの一覧の一部として入力され、AppSource 上のビジュアルの一覧にアクセスしたユーザーに表示されます。 http:// または https:// を含む URL の形式を使う必要があります。 |
 | プライバシーに関するドキュメントへのリンク |はい |ビジュアルのプライバシー ポリシーへのリンクを提供します。 このリンクは販売者ダッシュボードの一覧の一部として入力され、AppSource 上のビジュアルの一覧にアクセスしたユーザーに表示されます。 http:// または https:// を含むリンクの形式にする必要があります。 |
-| エンド ユーザー使用許諾契約 (EULA) |はい |EULA ファイルをアップロードする必要があります。 独自の EULA を使うことも、Office ストア内の Power BI ビジュアル用の既定の EULA を使うこともできます。 既定の EULA を使うには、販売者ダッシュボードの "使用許諾契約書" ファイル アップロード ダイアログ ボックスに次の URL を貼り付けます。 [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) の URL を貼り付けます。 |
+| エンド ユーザー使用許諾契約 (EULA) |はい |Power BI ビジュアル用の EULA ファイルを指定する必要があります。 |
 | ビデオへのリンク |いいえ |カスタム ビジュアルに対するユーザーの関心を高めるために、ビジュアルに関するビデオへのリンクを提供します。 http:// または https:// を含む URL の形式を使う必要があります。 |
 | GitHub リポジトリ |いいえ |Power BI ビジュアルのソースとサンプル データが含まれている [GitHub](https://www.github.com) リポジトリへのパブリック リンクを共有します。 これにより、他の開発者がフィードバックを提供し、コードの改善を提案することができます。 |
 

@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/25/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223703"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609912"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium の大規模なモデル (プレビュー)
 
-Power BI データセットでは、クエリ パフォーマンスが最適化されるように、データを圧縮率の高い、メモリ内キャッシュに格納できます。 これにより、大規模なデータセットに対するユーザーの操作が高速化されます。 大規模なモデルの機能を使用すると、Power BI Premium のデータセットのサイズを 10 GB 以上に拡張することができます。 その代わり、データセットのサイズは Power BI Premium の容量サイズによって制限されます。 これは、Azure Analysis Services がモデル サイズの制限において機能するしくみと似ています。 Power BI Premium における容量サイズの詳細については、容量ノードに関するページを参照してください。 すべての Premium P SKU と Embedded A SKU で大規模なモデルを設定できますが、これは[新しいワークスペース](service-create-the-new-workspaces.md)でのみ機能します。
+Power BI データセットでは、クエリ パフォーマンスが最適化されるように、データを圧縮率の高い、メモリ内キャッシュに格納できます。これにより、ユーザーは大規模なデータセットと高速に対話できるようになります。 大規模なモデルの機能を使用すると、Power BI Premium のデータセットのサイズを 10 GB 以上に拡張することができます。 その代わり、データセットのサイズは Power BI Premium 容量のサイズによって制限されます。これは、モデル サイズの制限という点で Azure Analysis Services が動作するしくみと似ています。 Power BI Premium における容量サイズの詳細については、容量ノードに関するページを参照してください。 すべての Premium P SKU と Embedded A SKU で大規模なモデルを設定できますが、これは[新しいワークスペース](service-create-the-new-workspaces.md)でのみ機能します。
 
 大規模なモデルは PBIX のアップロード サイズには影響しません。これは現在も 10 GB に制限されています。 その代わり、データセットは更新時にサービス内で 10 GB を超えてもかまいません。 増分更新を使用して、10 GB を超えるサイズのデータセットを構成できます。
 
@@ -90,7 +90,7 @@ Power BI データセットでは、クエリ パフォーマンスが最適化�
 
 Power BI では、動的メモリ管理を使用して、非アクティブなデータセットをメモリから削除します。 Power BI はデータセットを削除することで、ユーザー クエリに対処するために他のデータセットを読み込むことができます。 動的メモリ管理を使用すると、データセットのサイズの合計をその容量で使用可能なメモリよりも大幅に大きくすることができますが、1 つのデータセットはメモリに収める必要があります。 動的メモリ管理の詳細については、「[容量はどのように機能するのか](service-premium-what-is.md#how-capacities-function)」を参照してください。
 
-削除による大規模なモデルへの影響を考慮する必要があります。 データセットの読み込み時間は比較的短いにもかかわらず、ユーザーは削除された大規模なデータセットの再読み込みを待つ必要がある場合に顕著な遅延が発生する可能性があります。 このため、現在の形では、大規模なモデルの機能は、セルフサービス BI 要件と混在したものではなく、主にエンタープライズ BI 要件専用の容量に対して使用することが推奨されます。 エンタープライズ BI 要件専用の容量では、削除が頻繁にトリガーされる可能性や、データセットの再読み込みが必要になる可能性は低くなります。 その一方、セルフサービス BI 用の容量には、メモリへの読み込みやメモリからの読み込みの頻度が高い小さなデータセットが数多く格納されています。
+削除による大規模なモデルへの影響を考慮する必要があります。 データセットの読み込み時間は比較的短いにもかかわらず、ユーザーは削除された大規模なデータセットの再読み込みを待つ必要がある場合に顕著な遅延が発生する可能性があります。 このため、現在の形では、大規模なモデルの機能は、セルフサービス BI 要件と混在した容量ではなく、主にエンタープライズ BI 要件専用の容量に対して使用することが推奨されます。 エンタープライズ BI 要件専用の容量では、削除が頻繁にトリガーされる可能性や、データセットの再読み込みが必要になる可能性は低くなります。 その一方、セルフサービス BI 用の容量には、メモリへの読み込みやメモリからの読み込みの頻度が高い小さなデータセットが数多く格納されています。
 
 ## <a name="checking-dataset-size"></a>データセット サイズの確認
 
@@ -110,12 +110,54 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
  [DATABASE_NAME] = '<Dataset Name>') //Sum USED_SIZE (bytes)
 ```
 
-## <a name="current-feature-restrictions"></a>現在の機能の制限事項
+## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 
 大規模なモデルを使用する場合は、次の制限事項に留意してください。
 
-- **Bring Your Own Key (BYOK) 暗号化**: Premium ファイルに対して有効化したデータセットは、[BYOK](service-encryption-byok.md) では暗号化されません。
-- **Multi-geo のサポート**: Premium ファイルに対して有効になっているデータセットは、[Multi-geo](service-admin-premium-multi-geo.md) も有効になっている容量で失敗します。
+- **Bring Your Own Key (BYOK) 暗号化**:Premium ファイルに対して有効化したデータセットは、[BYOK](service-encryption-byok.md) では暗号化されません。
+- **Multi-geo のサポート**:Premium ファイルに対して有効になっているデータセットは、[Multi-geo](service-admin-premium-multi-geo.md) も有効になっている容量で失敗します。
 
-- **Power BI Desktop へのダウンロード**: データセットが Premium ファイルに格納されている場合、[.pbix ファイルとしてのダウンロード](service-export-to-pbix.md)は失敗します。
-- **サポートされているリージョン**: 大規模なモデルは、Premium ファイル ストレージをサポートするすべての Azure リージョンでサポートされています。 詳細については、「[リージョン別の利用可能な製品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)」を参照してください。
+- **Power BI Desktop へのダウンロード**:データセットが Premium ファイルに格納されている場合、[.pbix ファイルとしてのダウンロード](service-export-to-pbix.md)は失敗します。
+- **サポートされているリージョン**:大規模なモデルは、Premium ファイル ストレージをサポートするすべての Azure リージョンでサポートされています。 詳細については、「[リージョン別の利用可能な製品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)」を確認し、次のセクションに記載されている表を参照してください。
+
+
+## <a name="availability-in-regions"></a>リージョンで使用できるかどうか
+
+大規模なモデルは、Power BI が提供されているすべてのリージョンで使用できるわけではありません。 Power BI の大規模なモデルは、[Azure Premium ファイル ストレージ](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)がサポートされている Azure リージョンでのみ使用できます。
+
+次の一覧は、Power BI の大規模なモデルを使用できるリージョンを示しています。 次の一覧に含まれていないリージョンでは、大規模なモデルがサポートされていません。
+
+
+|Azure リージョン  |Azure リージョンの省略形  |
+|---------|---------|
+|オーストラリア東部     | australiaeast        |
+|オーストラリア南東部     | australiasoutheast        |
+|米国中部     | centralus        |
+|東アジア     | eastasia        |
+|米国東部     | eastus        |
+|米国東部 2     | eastus2        |
+|東日本     | japaneast        |
+|西日本     | japanwest        |
+|韓国中部     | koreacentral        |
+|韓国南部     | koreasouth        |
+|米国中北部     | northcentralus        |
+|北ヨーロッパ     | northeurope        |
+|米国中南部     | southcentralus        |
+|東南アジア     | southeastasia        |
+|英国南部     | uksouth        |
+|英国西部     | ukwest        |
+|西ヨーロッパ     | westeurope        |
+|米国西部     | westus        |
+|米国西部 2     | westus2        |
+
+
+
+## <a name="next-steps"></a>次の手順
+
+次のリンクには、大規模なモデルを使用する際に役立つ情報が用意されています。
+
+* [Azure Premium ファイル ストレージ](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Power BI Premium の Multi-Geo のサポートを構成する](service-admin-premium-multi-geo.md)
+* [Power BI で独自の暗号化キーを使用する](service-encryption-byok.md)
+* [容量はどのように機能するのか](service-premium-what-is.md#how-capacities-function)
+* [増分更新](service-premium-incremental-refresh.md)。

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429351"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576854"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Power BI サービスでの Snowflake への接続
 
@@ -49,7 +49,7 @@ Power BI の動作上の理由により、SSO は、オンプレミス データ
 
 * ご自身のデータ モデルで Snowflake ソースのみを使用している場合は、オンプレミス データ ゲートウェイを使用しないように選択すると、SSO を使用できます。
 * Snowflake ソースを別のソースと共に使用している場合は、どのソースでも、オンプレミス データ ゲートウェイを使用していなければ SSO を使用できます。
-* オンプレミス データ ゲートウェイを介して Snowflake ソースを使用している場合、AAD 資格情報は使用できますが、SSO は使用できません。 Power BI の IP 範囲全体ではなく、ゲートウェイがインストールされている単一の IP から VNet にアクセスしようとしている場合は、これが関係している可能性があります。
+* オンプレミス データ ゲートウェイを介して Snowflake ソースを使用している場合、AAD 資格情報は現在サポートされていません。 Power BI の IP 範囲全体ではなく、ゲートウェイがインストールされている単一の IP から VNet にアクセスしようとしている場合は、これが関係している可能性があります。
 * ゲートウェイを必要とする別のソースと共に Snowflake ソースを使用している場合は、オンプレミス データ ゲートウェイでも Snowflake を使用する必要があり、SSO を使用することはできません。
 
 オンプレミス データ ゲートウェイの使用方法の詳細については、「[オンプレミス データ ゲートウェイとは](https://docs.microsoft.com/power-bi/service-gateway-onprem)」の記事を参照してください。

@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026671"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782429"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>認定済みの Power BI ビジュアルを取得する
 
@@ -43,11 +43,13 @@ Power BI ビジュアルを提出する場合は、コンパイルされたパ�
 
 GitHub でコードをパブリックに共有する必要はありませんが、コード リポジトリは Power BI チームがレビューのために使用できる必要があります。 これを行う最適な方法は、GitHub でソース コード (JavaScript または TypeScript) を提供することです。
 
-リポジトリには、1 つの Power BI ビジュアルのみのコードを含める必要があります。 複数の Power BI ビジュアルのコード、または関連のないコードを含めることはできません。
-
-リポジトリには、**certification** (必ず小文字) という名前のブランチを含める必要があります。 このブランチのソース コードは、提出されたパッケージと一致している必要があります。 このコードは、次回の提出プロセス中に、Power BI ビジュアルを再提出する場合にのみ、更新できます。
+リポジトリには、次のものが含まれている必要があります。
+* 1 つだけの Power BI ビジュアルのコード。 複数の Power BI ビジュアルのコード、または関連のないコードを含めることはできません。
+* **certification** (必ず小文字) という名前のブランチ。 このブランチのソース コードは、提出されたパッケージと一致している必要があります。 このコードは、次回の提出プロセス中に、Power BI ビジュアルを再提出する場合にのみ、更新できます。
 
 Power BI ビジュアルにプライベート npm パッケージまたは git サブ モジュールを使用している場合は、そのコードを含む追加のリポジトリへのアクセスを提供する必要があります。
+
+Power BI ビジュアルのリポジトリの外観を把握するには、GitHub リポジトリで[Power BI ビジュアルのサンプル横棒グラフ](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi)を確認してください。
 
 ### <a name="file-requirements"></a>ファイルの要件
 
@@ -113,6 +115,18 @@ Power BI 認定を要求するには:
 
 >[!NOTE]
 > Power BI ビジュアル提出プロセスの途中であり、[販売者ダッシュボード](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (旧管理ツール) を使用する必要がある場合は、「[販売者ダッシュボードでの提出プロセス](seller-dashboard.md#seller-dashboard-certification-submission-process)」の手順を確認してください。
+
+### <a name="private-repository-submission-process"></a>プライベート リポジトリの提出プロセス
+
+GitHub などのプライベート リポジトリを使用して、認定を受けるために Power BI ビジュアルを送信する場合は、このセクションの手順に従ってください。
+1. 検証チーム用の新しいアカウントを作成します。
+2. アカウントに対して [2 要素認証](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa)を構成します。
+3. [新しい回復用コードのセットを生成します](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes)。
+4. Power BI ビジュアルを提出する際に、以下を指定します。
+    * リポジトリへのリンク
+    * ログイン資格情報 (パスワードを含む)
+    * 回復用コード
+    * アカウントに対する読み取り専用アクセス許可 ([pbicvsupport](https://github.com/pbicvsupport))
 
 ## <a name="certified-power-bi-visuals"></a>認定済み Power BI ビジュアル
 

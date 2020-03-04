@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 28fc951ecdfdf31b7319047caae2b5807aadf704
-  ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+  ms.openlocfilehash: 9bb2835003d774bcc878114dbcc669a0bff7ff89
+  ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/26/2020
-  ms.locfileid: "77609740"
+  ms.lasthandoff: 03/03/2020
+  ms.locfileid: "78237778"
 landingContent:
 - title: Power BI ガイダンス
   linkLists:
@@ -85,6 +85,16 @@ landingContent:
       url: report-page-tooltips.md
     - text: レポート ページのドリルスルーの使用
       url: report-drillthrough.md
+    - text: 軸を管理するためのヒント
+      url: report-design-tips-axes.md
+    - text: グラフのグリッド線を制御するためのヒント
+      url: report-tips-chart-gridlines.md
+    - text: ラベルの使用を最適化するためのヒント
+      url: report-tips-labels.md
+    - text: 凡例を書式設定および実装するためのヒント
+      url: report-tips-legends.md
+    - text: ビジュアルの色を最適化するためのヒント
+      url: report-tips-visual-colors.md
 - title: Power BI のページ分割されたレポート
   linkLists:
   - linkListType: concept
