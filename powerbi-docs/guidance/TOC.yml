@@ -30,8 +30,16 @@
               href: import-modeling-data-reduction.md
             - name: 自動の日付/時刻ガイダンス
               href: auto-date-time.md
-            - name: 多対多のリレーションシップのガイダンス
+            - name: 一対一のリレーションシップ
+              href: relationships-one-to-one.md
+            - name: 多対多のリレーションシップ
               href: relationships-many-to-many.md
+            - name: アクティブなリレーションシップと非アクティブなリレーションシップ
+              href: relationships-active-inactive.md
+            - name: 双方向のリレーションシップ
+              href: relationships-bidirectional-filtering.md
+            - name: リレーションシップのトラブルシューティング
+              href: relationships-troubleshoot.md
             - name: DirectQuery モデルのガイダンス
               href: directquery-model-guidance.md
             - name: 複合モデルのガイダンス
