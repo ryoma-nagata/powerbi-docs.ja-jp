@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040359"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290615"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>レポート ページのヒントによるビジュアルの拡張
 
@@ -88,5 +88,5 @@ ms.locfileid: "76040359"
 - [Power BI Desktop のレポート ページを基にしてヒントを作成する](../desktop-tooltips.md)
 - [Power BI Desktop でのヒントのカスタマイズ](../desktop-custom-tooltips.md)
 - [ビジュアル要素を使用して Power BI レポートを強化する](../desktop-visual-elements-for-reports.md)
-- Guy in a Cube 動画:[Power BI レポート ページ ツールヒント - Power BI Desktop での作成方法](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527294"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290638"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services レポートを Power BI に移行する
 
@@ -192,7 +192,6 @@ API の詳細については、以下を参照してください。
 
 - [Power BI Premium のページ分割されたレポートとは](../paginated-reports-report-builder-power-bi.md)
 - [ページ分割されたレポートでのデータ取得のガイダンス](report-paginated-data-retrieval.md)
-- Guy in a Cube 動画:[Power BI でのページ分割されたレポートの概要](https://www.youtube.com/watch?v=wfqn45XNK3M)
 - [どのようなときに Power BI のページ分割されたレポートを使用するか](report-paginated-or-power-bi.md)
 - [Power BI のページ分割されたレポート: FAQ](../paginated-reports-faq.md)
 - [Power BI Premium のよく寄せられる質問](../service-premium-faq.md)
