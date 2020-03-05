@@ -27,7 +27,7 @@ Power BI iOS アプリでは、追加 ID を構成することによって、ご
 
 ## <a name="turn-on-face-id-touch-id-or-passcode-in-app-setting"></a>アプリ設定で Face ID、Touch ID、またはパスコードをオンにする
 
-Power BI で追加 ID を使用するには、**[プライバシーとセキュリティ]** の下でアプリ設定に移動します。 ご利用のデバイスの機能に基づいて、Face ID、Touch ID、またはパスコードをオンにするオプションが表示されます。
+Power BI で追加 ID を使用するには、 **[プライバシーとセキュリティ]** の下でアプリ設定に移動します。 ご利用のデバイスの機能に基づいて、Face ID、Touch ID、またはパスコードをオンにするオプションが表示されます。
 
 ![Power BI iOS のアプリ設定ページ](./media/mobile-ios-native-secure-access/mobile-ios-native-secured-setting.png)
 

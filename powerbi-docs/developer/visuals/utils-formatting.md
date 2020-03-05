@@ -127,7 +127,7 @@ textMeasurementService.measureSvgTextHeight(textProperties);
 function estimateSvgTextBaselineDelta(textProperties: TextProperties): number;
 ```
 
-例: 
+例:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";

@@ -23,7 +23,7 @@ ms.locfileid: "77036678"
 
 Power Apps サブスクリプションをお持ちでない場合は、開始する前に[無料アカウントを作成](https://web.powerapps.com/signup?redirect=marketing&email=)してください。
 
-このチュートリアルでは、以下の内容を学習します。
+このチュートリアルで学習する内容は次のとおりです。
 > [!div class="checklist"]
 > * Power BI レポートに Power Apps ビジュアルを追加する
 > * Power Apps で、Power BI レポートのデータを使用する新しいアプリを作成する操作を行う
@@ -57,7 +57,7 @@ Power Apps ビジュアルをレポートに追加すると、Power Apps と Pow
 
 4. Power Apps ビジュアルで、アプリを作成する Power Apps 環境を選択し、 **[新規作成]** を選択します。
 
-    ![新しいアプリを作成する](media/power-bi-visualization-powerapp/power-bi-create-new-powerapp.png)
+    ![新しいアプリの作成](media/power-bi-visualization-powerapp/power-bi-create-new-powerapp.png)
 
     Power Apps Studio では、基本的なアプリが作成され、Power BI で選択したフィールドの 1 つが "*ギャラリー*" に表示されます。
 
@@ -105,5 +105,5 @@ Power BI レポートのスライサーで **[1 月]** を選択します。こ�
 営業案件の分析のサンプルをもう使用しない場合は、ダッシュボード、レポート、およびデータセットを削除できます。
 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [Q&A ビジュアル](power-bi-visualization-types-for-reports-and-q-and-a.md)

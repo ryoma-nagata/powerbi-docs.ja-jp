@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/02/2020
 ms.author: maggies
-ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540592"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237525"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。
@@ -41,7 +41,7 @@ Power BI レポートは、複数のデータ ソースに接続できます。 
 | Azure Blob Storage |はい |はい |いいえ |
 | Azure Data Lake Store |はい |いいえ |いいえ |
 | Azure HDInsight (HDFS) |はい |いいえ |いいえ |
-| Azure HDInsight (Spark) |はい |はい |いいえ |
+| Azure HDInsight (Spark) |はい |いいえ |いいえ |
 | Azure Table Storage |はい |はい |いいえ |
 | Dynamics 365 (オンライン) |はい |いいえ |いいえ |
 | Facebook |はい |いいえ |いいえ |
@@ -128,7 +128,7 @@ Power BI Report Server では、モデル更新のための認証方法として
 | Azure Blob Storage |はい |はい |いいえ |いいえ |
 | Azure Data Lake Store |いいえ |いいえ |いいえ |いいえ |
 | Azure HDInsight (HDFS) |いいえ |いいえ |いいえ |いいえ |
-| Azure HDInsight (Spark) |はい |はい |いいえ |いいえ |
+| Azure HDInsight (Spark) |いいえ |いいえ |いいえ |いいえ |
 | Azure Table Storage |いいえ |はい |いいえ |いいえ |
 | Dynamics 365 (オンライン) |いいえ |いいえ |いいえ |いいえ |
 | Facebook |いいえ |いいえ |いいえ |いいえ |
