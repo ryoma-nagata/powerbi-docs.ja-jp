@@ -45,7 +45,7 @@ ms.locfileid: "75218571"
    
     Power BI のダッシュボードの外観は、モバイル デバイスと Power BI サービスとで少し異なります。 すべてのタイルは同じ幅で表示され、上から下に 1 つずつ配置されます。
 
-5. 下部のツールバーにある星形アイコン ![お気に入りの星形アイコン](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) をタップし、お気に入りのダッシュボードにします。 モバイル アプリでお気に入りにすると Power BI サービスでもお気に入りになり、逆の場合も同じです。
+5. タイトル バーの星形アイコン ![お気に入りの星形アイコン](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) をタップし、お気に入りのダッシュボードにします。 モバイル アプリでお気に入りにすると Power BI サービスでもお気に入りになり、逆の場合も同じです。
 
 6. 下にスクロールし、"This Year's Sales, Last Year's Sales" 塗りつぶし折れ線グラフをタップします。
 
@@ -57,7 +57,7 @@ ms.locfileid: "75218571"
 
     ![フォーカス モードのタイル](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tile-focus.png)
 
-8. 画面の下部にある [レポート] アイコン ![[レポート] アイコン](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report-icon.png) をタップします (Android デバイスの場合は、画面の上部に表示される場合があります)。 このタイルに関連するレポートが、横モードで開きます。
+8. 右上隅の [レポート] アイコン ![[レポート] アイコン](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report-icon.png) をタップします (Android デバイスの場合は、画面の上部に表示される場合があります)。 このタイルに関連するレポートが、横モードで開きます。
 
     ![横向きモードで開いているレポート](././media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report.png)
 

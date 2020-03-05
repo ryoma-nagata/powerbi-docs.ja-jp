@@ -102,7 +102,7 @@ Will が単一のメトリック ビジュアル (ゲージ、カード、KPI) �
    > [!NOTE]
    > 対象値も手動で入力できます。 「[手動の書式オプションを使用して、最小値、最大値、目標値を設定する](#use-manual-format-options-to-set-minimum-maximum-and-target-values)」セクションを参照してください。
 
-### <a name="step-4-set-a-maximum-value"></a>手順 4:最大値を設定する
+### <a name="step-4-set-a-maximum-value"></a>手順 4.最大値を設定する
 
 手順 2 では、Power BI は **[値]** フィールドを使用して、自動的に最小値と最大値を設定しました。 独自の最大値を設定するには、どうすればよいのでしょうか。 可能な最大値として、現在の 2 倍の値を使用するのではなく、データセット内で最大の総売上額を設定することにしましょう。
 
@@ -116,7 +116,7 @@ Will が単一のメトリック ビジュアル (ゲージ、カード、KPI) �
 
    ![完成したゲージ グラフのスクリーン ショット。](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>手順 5:レポートの保存
+### <a name="step-5-save-your-report"></a>手順 5.レポートの保存
 
 1. [レポートを保存](../service-report-save.md)します。
 
@@ -146,7 +146,7 @@ Will が単一のメトリック ビジュアル (ゲージ、カード、KPI) �
 
 ![完成したゲージ グラフのスクリーンショット。](media/power-bi-visualization-radial-gauge-charts/power-bi-final.png)
 
-## <a name="next-step"></a>次の手順
+## <a name="next-step"></a>次のステップ
 
 * [主要業績評価指標 (KPI) ビジュアル](power-bi-visualization-kpi.md)
 

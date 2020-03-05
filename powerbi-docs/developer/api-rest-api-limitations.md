@@ -30,7 +30,7 @@ ms.locfileid: "74265645"
 * 「保持ポリシーなし」のデータセット内の 1 テーブルごとに保存される最大行数は 5,000,000 行  
 * 行の POST 操作における文字列型の列の値 1 つあたりの最大文字数は 4,000 文字
   
-## <a name="see-also"></a>参照
+## <a name="see-also"></a>関連項目
 
 [Azure AD サービスの制限と制約](https://docs.microsoft.com/azure/active-directory/active-directory-service-limits-restrictions)   
 [Power BI REST API の概要](https://docs.microsoft.com/rest/api/power-bi/)

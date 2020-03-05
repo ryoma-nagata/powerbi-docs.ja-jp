@@ -84,7 +84,7 @@ Power BI ビジュアル ツールでは、このファイルが Power BI ビジ
 
 ### <a name="package-lockjson"></a>package-lock.json
 
-*npm* の操作により、`node_modules` ツリーまたは `package.json` ファイルが変更される場合、このファイルが自動的に生成されます。
+このファイルは、*npm* によって `node_modules` ツリーまたは `package.json` ファイルのいずれかが変更されるすべての操作に対して、自動的に生成されます。
 
 このファイルの詳細については、公式の [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) のドキュメントを参照してください。
 

@@ -38,5 +38,5 @@ Power BI データ モデルなど、OData サービスによって公開され�
   
 OData データ モデル標準について詳しくは、「[OData Version 4.0 Part 1:Protocol Plus Errata 02 (OData バージョン 4.0 パート 1: プロトコルと改訂 02)](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)」をご覧ください。  
   
-## <a name="see-also"></a>参照
+## <a name="see-also"></a>関連項目
 [Power BI REST API の概要](https://docs.microsoft.com/rest/api/power-bi/)  
