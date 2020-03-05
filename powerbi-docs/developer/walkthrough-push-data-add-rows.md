@@ -15,7 +15,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 11/21/2019
 ms.locfileid: "74265147"
 ---
-# <a name="step-5-add-rows-to-a-power-bi-table"></a>手順 5:Power BI テーブルに行を追加する
+# <a name="step-5-add-rows-to-a-power-bi-table"></a>手順 5.Power BI テーブルに行を追加する
 
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 

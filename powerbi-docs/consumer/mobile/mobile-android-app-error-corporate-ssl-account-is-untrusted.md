@@ -37,7 +37,7 @@ System Webview がデバイスにインストールされていない場合:
 ## <a name="time-zone-settings"></a>タイム ゾーンの設定
 デバイスのタイム ゾーンの設定が正しくない可能性があります。 
 
-**[設定]** > **[システム]** > **[日付と時刻]** で確認します。
+**[設定]**  >  **[システム]**  >  **[日付と時刻]** で確認します。
 
 ## <a name="custom-authentication-server"></a>カスタム認証サーバー
 カスタム認証サーバーを使っている場合、会社の認証サーバーの SSL 証明書が有効ではない可能性があります。 組織の IT と協力し、[こちらの記事](https://support.microsoft.com/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce)のガイダンスに従って、会社の認証サーバーの構成をテストします。

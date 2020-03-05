@@ -44,7 +44,7 @@ Power BI Embedded では、テナント間の分離を維持するための基�
 
 **Power BI 成果物** – ダッシュボード、レポート、データセット、データフローなど、Power BI ワークスペース内にはいくつかの Power BI 成果物があります。
 
-**[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)**  -Power BI のコンテンツを管理して Power BI の要素を埋め込むアプリケーションを開発者が構築できるようにするパブリック API のセット。
+**[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)** -Power BI のコンテンツを管理して Power BI の要素を埋め込むアプリケーションを開発者が構築できるようにするパブリック API のセット。
 
 **[行レベルのセキュリティ (RLS)](embedded-row-level-security.md)** - テーブル内の各行のデータへのユーザー アクセスを制御する機能を提供します。 データ ソース レベルまたは Power BI のセマンティック モデルで、行レベルのセキュリティを実装することができます。
 

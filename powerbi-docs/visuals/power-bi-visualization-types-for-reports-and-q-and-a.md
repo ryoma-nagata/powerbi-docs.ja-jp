@@ -146,7 +146,7 @@ ms.locfileid: "76040483"
 >[!TIP]
 >円グラフでは、全体に対する部分の関係が示されます。 
 
-### <a name="power-apps-visual"></a>Power Apps ビジュアル
+### <a name="power-apps-visual"></a>Power Apps のビジュアル
 ![Power Apps ビジュアル](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
 
 レポート デザイナーでは、パワー アプリを作成し、それをビジュアルとして Power BI レポートに埋め込むことができます。 コンシューマーは、Power BI レポート内でそのビジュアルを操作できます。 

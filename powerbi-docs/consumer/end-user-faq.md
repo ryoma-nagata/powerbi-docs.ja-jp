@@ -43,7 +43,7 @@ Power BI Desktop は無償のアプリケーションで、各自のコンピュ
 
 Web ブラウザーと勤務先の電子メール アドレスだけです。 *.gov* および *.mil* のメール アドレスでサインアップすることもできます。 詳しくは、「[Power BI サービスに米国政府組織を登録する](../service-govus-signup.md)」をご覧ください。
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>勤務先の電子メール アドレスでサインアップしなければならないのはなぜですか?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>勤務先のメール アドレスでサインアップする必要がある理由を教えてください。
 
 Power BI では、コンシューマー向けメール サービスまたは通信プロバイダーが提供しているメール アドレスはサポートされません。 [Power BI のセルフサービス サインアップのプロセス](../service-self-service-signup-for-power-bi.md)の詳細をご覧ください。
 

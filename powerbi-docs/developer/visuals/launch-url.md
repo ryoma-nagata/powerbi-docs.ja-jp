@@ -43,7 +43,7 @@ export class Visual implements IVisual {
 }
 ```
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>使用
 
 `host.launchUrl()` API 呼び出しを使用して、送信先 URL を文字列引数として渡します。
 
