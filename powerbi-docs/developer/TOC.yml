@@ -140,6 +140,8 @@
           items:
             - name: Power BI Embedded の分析の容量と SKU
               href: embedded-capacity.md
+            - name: キャパシティ プランニング
+              href: embedded-capacity-planning.md
             - name: のパフォーマンスのベスト プラクティス
               href: embedded-performance-best-practices.md
             - name: サービス プリンシパル
