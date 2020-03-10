@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Power BI モバイル アプリ ドキュメント
+summary: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+metadata:
+  title: Power BI モバイル アプリ ドキュメント
+  description: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/11/2020
+  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78923910"
+landingContent:
+- title: Power BI モバイル アプリについて
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: モバイル アプリとは
+      url: mobile-apps-for-mobile-devices.md
+    - text: モバイル アプリの新機能
+      url: mobile-whats-new-in-the-mobile-apps.md
+    - text: モバイル アプリのホーム ページ
+      url: mobile-apps-home-page.md
+- title: 作業の開始
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Android の概要
+      url: mobile-android-app-get-started.md
+    - text: iOS の概要
+      url: mobile-iphone-app-get-started.md
+    - text: Windows 10 の概要
+      url: mobile-windows-10-phone-app-get-started.md
+  - linkListType: quickstart
+    links:
+    - text: ダッシュボードとレポートを探索する
+      url: mobile-apps-quickstart-view-dashboard-report.md
+- title: 探索
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: データに関するご質問をする
+      url: tutorial-mobile-apps-ios-qna.md
+  - linkListType: how-to-guide
+    links:
+    - text: オフラインでデータを表示する
+      url: mobile-apps-offline-data.md
+    - text: ダッシュボードまたはレポートを共有する
+      url: mobile-share-dashboard-from-the-mobile-apps.md
+    - text: データ アラートの設定
+      url: mobile-set-data-alerts-in-the-mobile-apps.md
+- title: オンプレミスのレポート
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: オンプレミスのレポートと KPI を表示する
+      url: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+    - text: OAuth を使用してオンプレミス レポートに接続する
+      url: mobile-oauth-ssrs.md

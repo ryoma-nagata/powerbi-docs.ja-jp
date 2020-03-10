@@ -1,8 +1,9 @@
-- name: 利用者向けの Power BI
-  href: power-bi-consumer-landing.md
 - name: コンシューマー向けの Power BI サービス
+  href: index.yml
+  expanded: true
   items:
     - name: 概要
+      expanded: true
       items:
         - name: Power BI コンシューマーとは
           href: end-user-consumer.md
@@ -11,6 +12,7 @@
         - name: Power BI サービスのツアーを開始する
           href: end-user-reading-view.md
     - name: 作業の開始
+      expanded: true
       items:
         - name: Power BI 内の移動
           href: end-user-experience.md
@@ -20,7 +22,7 @@
           href: end-user-q-and-a.md
         - name: 初めてサインインする
           href: end-user-sign-in.md
-        - name: ライセンスの種類を参照する
+        - name: Power BI ライセンスの種類
           href: end-user-license.md
         - name: '"新しい外観" に移動する'
           href: ../service-new-look.md
@@ -138,109 +140,3 @@
           href: end-user-browsers.md
         - name: クイック分析情報の種類
           href: end-user-insight-types.md
-- name: Power BI モバイル アプリ
-  items:
-    - name: 概要
-      items:
-        - name: モバイル アプリとは
-          href: mobile/mobile-apps-for-mobile-devices.md
-        - name: ホーム ページを開く
-          href: mobile/mobile-apps-home-page.md
-    - name: クイックスタート
-      items:
-        - name: ダッシュボードとレポートの探索
-          href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-    - name: チュートリアル
-      items:
-        - name: iOS モバイル アプリで質問する
-          href: mobile/tutorial-mobile-apps-ios-qna.md
-    - name: 概念
-      items:
-        - name: モバイル アプリの新機能
-          href: mobile/mobile-whats-new-in-the-mobile-apps.md
-        - name: モバイル アプリで現実世界のデータを取得する
-          href: mobile/mobile-apps-data-in-real-world-context.md
-        - name: モバイル アプリでデータをオフライン表示する
-          href: mobile/mobile-apps-offline-data.md
-        - name: Power BI for Mixed Reality アプリ (プレビュー)
-          href: mobile/mobile-mixed-reality-app.md
-    - name: 操作方法
-      items:
-        - name: すべてのモバイル アプリ
-          items:
-            - name: モバイル Power BI 用のダッシュボード
-              href: mobile/mobile-apps-view-dashboard.md
-            - name: モバイル アプリでのレポート
-              href: mobile/mobile-reports-in-the-mobile-apps.md
-            - name: モバイル アプリのタイルを操作する
-              href: mobile/mobile-tiles-in-the-mobile-apps.md
-            - name: Power BI モバイル アプリからダッシュボードを共有する
-              href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-            - name: モバイル アプリでのお気に入り
-              href: mobile/mobile-apps-favorites.md
-            - name: 対話設定を構成する (電話のみ)
-              href: mobile/mobile-app-interaction-settings.md
-            - name: Power BI モバイル アプリでデータ アラートを設定する
-              href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: Power BI モバイル アプリで通知を受け取る
-              href: mobile/mobile-apps-notification-center.md
-            - name: 特定の場所に移動するディープ リンクを作成する
-              href: mobile/mobile-apps-deep-link-specific-location.md
-            - name: Power BI モバイル アプリで場所によるレポートをフィルターする
-              href: mobile/mobile-apps-geographic-filtering.md
-            - name: OAuth を使って Reporting Services に接続する
-              href: mobile/mobile-oauth-ssrs.md
-        - name: iOS と Android
-          items:
-            - name: 電話用に最適化されたレポートを表示する
-              href: mobile/mobile-apps-view-phone-report.md
-            - name: モバイル アプリでのオンプレミス レポートの表示
-              href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: 外部組織からコンテンツにアクセスする (B2B)
-              href: mobile/mobile-apps-b2b.md
-            - name: 電話からの Power BI QR コードのスキャン
-              href: mobile/mobile-apps-qr-code.md
-            - name: 注釈とモバイル アプリでの共有
-              href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: Power BI モバイル アプリでバーコードをスキャンする
-              href: mobile/mobile-apps-scan-barcode-iphone.md
-            - name: モバイル デバイス管理を使用して構成する
-              href: mobile/mobile-app-configuration.md
-        - name: iOS
-          items:
-            - name: iOS アプリを使ってみる
-              href: mobile/mobile-iphone-app-get-started.md
-            - name: Face ID、Touch ID、またはパスコードで保護する
-              href: mobile/mobile-ios-native-secure-access.md
-            - name: iOS モバイル アプリでの Q&A 仮想アナリスト
-              href: mobile/mobile-apps-ios-qna.md
-            - name: Siri のショートカットを使用しての Power BI モバイル アプリの統合
-              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
-            - name: iOS デバイスの検索の統合
-              href: mobile/mobile-apps-iOS-search-integration.md
-            - name: Power BI Apple Watch アプリ
-              href: mobile/mobile-apple-watch.md
-        - name: Android デバイス
-          items:
-            - name: Android アプリの概要
-              href: mobile/mobile-android-app-get-started.md
-            - name: '"お使いの企業 SSL 証明書が信頼されていません" を修正する'
-              href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-            - name: '"Android System Webview の更新が必要である" を修正する'
-              href: mobile/mobile-android-error-update-android-system-webview.md
-        - name: Windows 10 デバイス用の Power BI アプリ
-          items:
-            - name: Windows 10 アプリを使ってみる
-              href: mobile/mobile-windows-10-phone-app-get-started.md
-            - name: スタート画面にダッシュ ボードをピン留めする
-              href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Reporting Services モバイル レポートと KPI の表示
-              href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Surface Hub での Power BI の表示
-              href: mobile/mobile-windows-10-app-presentation-mode.md
-            - name: Windows アプリでのシングル サインオン
-              href: mobile/mobile-windows-10-app-single-sign-on-sso.md
-    - name: リソース
-      items:
-        - name: モバイル アプリでサポートされる言語
-          href: mobile/mobile-apps-supported-languages.md

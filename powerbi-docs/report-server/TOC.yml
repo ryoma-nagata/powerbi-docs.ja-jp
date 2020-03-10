@@ -1,0 +1,124 @@
+- name: Power BI Report Server
+  expanded: true
+  items:
+    - name: 概要
+      expanded: true
+      items:
+        - name: Power BI Report Server とは
+          href: get-started.md
+        - name: Power BI Report Server とサービスとの比較
+          href: compare-report-server-service.md
+    - name: チュートリアル
+      expanded: true
+      items:
+        - name: VM での Power BI Report Server の探索
+          href: tutorial-explore-report-server-web-portal.md
+    - name: 概念
+      expanded: true
+      items:
+        - name: 新機能
+          href: whats-new.md
+        - name: 管理者の概要
+          href: admin-handbook-overview.md
+        - name: ログの変更
+          href: changelog.md
+        - name: サポートのタイムライン
+          href: support-timeline.md
+        - name: Always Encrypted のサポート
+          href: always-encrypted-support.md
+        - name: ハードウェアとソフトウェアの要件
+          href: system-requirements.md
+        - name: ブラウザーのサポート
+          href: browser-support.md
+        - name: レポート サーバーの基礎
+          items:
+            - name: Power BI レポートのスケジュールされた更新
+              href: scheduled-refresh.md
+            - name: Power BI レポート データ ソース
+              href: data-sources.md
+            - name: ページ分割されたレポート データ ソース
+              href: connect-data-sources.md
+            - name: サブスクリプション
+              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: モバイル アプリの使用
+              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+            - name: スケジュールされた更新のトラブルシューティング
+              href: scheduled-refresh-troubleshoot.md
+        - name: 開発者向けレポート サーバー
+          items:
+            - name: 開発者向けレポート サーバー
+              href: developer-handbook-overview.md
+            - name: レポート ビューアー コントロール
+              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+            - name: 拡張機能の開発
+              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+            - name: レポートの埋め込み
+              href: quickstart-embed.md
+    - name: 方法
+      items:
+        - name: Power BI Desktop をインストールする
+          href: install-powerbi-desktop.md
+        - name: レポート ビルダーをインストールする
+          href: install-report-builder.md
+        - name: レポート サーバーの基礎
+          items:
+            - name: レポート サーバー用の Power BI レポートの作成
+              href: quickstart-create-powerbi-report.md
+            - name: レポート サーバーでのコンテンツの管理
+              href: getting-around.md
+            - name: レポート サーバーでの行レベルのセキュリティ (RLS)
+              href: row-level-security-report-server.md
+            - name: レポート サーバー用のページ分割されたレポートの作成
+              href: quickstart-create-paginated-report.md
+            - name: ページ分割されたレポートに直接データを入力する
+              href: ../paginated-reports/paginated-reports-enter-data.md
+            - name: KPI の操作
+              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+            - name: OData フィードとして共有データセットにアクセスする
+              href: access-dataset-odata.md
+            - name: PowerShell を使用してデータ ソース接続文字列を変更する
+              href: connect-data-source-apis.md
+            - name: スケジュールされた更新を構成する
+              href: configure-scheduled-refresh.md
+            - name: レポートにコメントを追加する
+              href: add-comments.md
+        - name: 管理者向けレポート サーバー
+          items:
+            - name: レポート サーバーのインストール
+              href: install-report-server.md
+            - name: プロダクト キーを見つける
+              href: find-product-key.md
+            - name: レポート サーバーのアップグレード
+              href: upgrade.md
+            - name: レポート サーバーの移行
+              href: migrate-report-server.md
+            - name: Power BI レポートを使用するために Kerberos を構成する
+              href: configure-kerberos-powerbi-reports.md
+            - name: リモートでモバイル アプリへのアクセスを構成する
+              href: configure-powerbi-mobile-apps-remote.md
+            - name: WAP と AD FS の構成
+              href: connect-adfs-wap-report-server.md
+            - name: Azure アプリケーション プロキシを使用してレポート サーバーを構成する
+              href: azure-application-proxy.md
+            - name: Azure AD を使用したリモート モバイル アクセス
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+            - name: Excel ブックをホストする
+              href: excel-oos.md
+    - name: リファレンス
+      items:
+        - name: REST API
+          href: rest-api.md
+        - name: WMI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+        - name: SOAP API
+          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+        - name: URL アクセス
+          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+        - name: 拡張機能
+          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+    - name: リソース
+      items:
+        - name: キャパシティ プランニングに関するホワイト ペーパー
+          href: capacity-planning.md
+        - name: PDF 表示拡張機能の準拠
+          href: rendering-extension-support.md

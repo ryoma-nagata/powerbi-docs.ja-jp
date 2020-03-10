@@ -1,0 +1,121 @@
+### YamlMime:Landing
+title: Power BI でのレポートとダッシュボードの作成 ‐ ドキュメント
+summary: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+metadata:
+  title: Power BI でのレポートとダッシュボードの作成 ‐ ドキュメント
+  description: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 592a7bff1f511158de929ce0a225f26558a1997b
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924186"
+landingContent:
+- title: 作業の開始
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: 更新されたリボンを使用する
+      url: ../desktop-ribbon.md
+    - text: アクセシビリティの概要
+      url: ../desktop-accessibility-overview.md
+    - text: サンプル データを入手する
+      url: ../sample-datasets.md
+  - linkListType: tutorial
+    links:
+    - text: サンプル パックをインポートして開く
+      url: ../sample-tutorial-connect-to-the-samples.md
+  - linkListType: concept
+    links:
+    - text: レポート ビュー
+      url: ../desktop-report-view.md
+- title: 視覚化
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 視覚化の概要
+      url: ../visuals/power-bi-report-visualizations.md
+    - text: 視覚化の種類
+      url: ../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+  - linkListType: how-to-guide
+    links:
+    - text: マップに関するヒントとテクニック
+      url: ../visuals/power-bi-map-tips-and-tricks.md
+    - text: ビジュアルからデータをエクスポートする
+      url: ../visuals/power-bi-visualization-export-data.md
+    - text: スライサー
+      url: ../visuals/power-bi-visualization-slicers.md
+- title: レポートのデザイン
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: レポートのテーマ
+      url: ../desktop-report-themes.md
+    - text: テキスト ボックスと図形
+      url: ../power-bi-reports-add-text-and-shapes.md
+  - linkListType: how-to-guide
+    links:
+    - text: テーブルの条件付き書式設定
+      url: ../desktop-conditional-table-formatting.md
+    - text: グループ化とビン分割を使用する
+      url: ../desktop-grouping-and-binning.md
+    - text: レポートにブックマークを追加する
+      url: ../desktop-bookmarks.md
+- title: レポートの操作をデザインする
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI Desktop のレポート ビュー
+      url: ../desktop-report-view.md
+  - linkListType: how-to-guide
+    links:
+    - text: Q&A でデータを探索する
+      url: ../power-bi-tutorial-q-and-a.md
+    - text: レポートでドリルスルーを使用する
+      url: ../desktop-drillthrough.md
+    - text: レポートにブックマークを追加する
+      url: ../desktop-bookmarks.md
+    - text: レポートにフィルターを追加する
+      url: ../power-bi-report-filter.md
+- title: Power BI のページ分割されたレポート
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI のページ分割されたレポートとは
+      url: ../paginated-reports/paginated-reports-report-builder-power-bi.md
+    - text: Power BI でのレポート ビルダー
+      url: ../paginated-reports/report-builder-power-bi.md
+  - linkListType: concept
+    links:
+    - text: 式の例
+      url: ../paginated-reports/report-builder-expression-examples.md
+    - text: テーブル、マトリックス、および一覧
+      url: ../paginated-reports/report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: 共有データセットでレポートを作成する
+      url: ../paginated-reports/report-builder-shared-datasets.md
+    - text: パラメーターを作成する
+      url: ../paginated-reports/paginated-reports-parameters.md
+- title: ダッシュボード
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: ダッシュボードの概要
+      url: ../service-dashboards.md
+  - linkListType: how-to-guide
+    links:
+    - text: ダッシュボードを作成する
+      url: ../service-dashboard-create.md
+    - text: ダッシュボードにタイルをピン留め
+      url: ../service-share-dashboards.md
+    - text: ダッシュボードに画像または動画を追加する
+      url: ../service-dashboard-add-widget.md

@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Power BI でデータに接続する ‐ ドキュメント
+summary: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+metadata:
+  title: Power BI でデータに接続する ‐ ドキュメント
+  description: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924140"
+landingContent:
+- title: Power BI におけるデータへの接続
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: データ ソース
+      url: ../desktop-data-sources.md
+    - text: Power BI Desktop のデータ ビュー
+      url: ../desktop-data-view.md
+  - linkListType: tutorial
+    links:
+    - text: Web ページからデータをインポートする
+      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+- title: ゲートウェイ
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: オンプレミス データ ゲートウェイ
+      url: ../service-gateway-onprem.md
+  - linkListType: tutorial
+    links:
+    - text: オンプレミスの SQL Server データに接続する
+      url: ../service-gateway-sql-tutorial.md
+  - linkListType: how-to-guide
+    links:
+    - text: 個人用ゲートウェイを使用する
+      url: ../service-gateway-personal-mode.md
+- title: テンプレート アプリ
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: テンプレート アプリとは
+      url: ../service-template-apps-overview.md
+  - linkListType: concept
+    links:
+    - text: テンプレート アプリの作成
+      url: ../service-template-apps-create.md
+    - text: 組織でテンプレート アプリを配布する
+      url: ../service-template-apps-install-distribute.md
+- title: データの更新
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: データ更新
+      url: ../refresh-data.md
+    - text: Power BI Premium での増分更新
+      url: ../service-premium-incremental-refresh.md
+  - linkListType: how-to-guide
+    links:
+    - text: スケジュールされた更新の構成
+      url: ../refresh-scheduled-refresh.md

@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Power BI でのデータの変換、整形およびモデル化 ‐ Power BI
+summary: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+metadata:
+  title: Power BI でのデータの変換、整形およびモデル化 ‐ Power BI
+  description: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: 738bc26097120b0075f3ca1ffb0787f241aec982
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924531"
+landingContent:
+- title: データの変換と整形
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: クエリ エディターの概要
+      url: ../desktop-query-overview.md
+  - linkListType: tutorial
+    links:
+    - text: データの整形と結合
+      url: ../desktop-shape-and-combine-data.md
+  - linkListType: concept
+    links:
+    - text: 一般的なクエリ タスク
+      url: ../desktop-common-query-tasks.md
+  - linkListType: how-to-guide
+    links:
+    - text: ファイルの結合 (バイナリ)
+      url: ../desktop-combine-binaries.md
+- title: モデル データ
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: モデリング ビュー
+      url: ../desktop-modeling-view.md
+    - text: 多対多リレーションシップ
+      url: ../desktop-many-to-many-relationships.md
+  - linkListType: how-to-guide
+    links:
+    - text: リレーションシップの作成と管理
+      url: ../desktop-create-and-manage-relationships.md
+    - text: データ分類の適用
+      url: ../desktop-data-categorization.md
+- title: '[新しい名前付きセット]'
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: DAX の基本を学習する
+      url: ../desktop-quickstart-learn-dax-basics.md
+    - text: 計算列の作成
+      url: ../desktop-tutorial-create-calculated-columns.md
+  - linkListType: concept
+    links:
+    - text: 計算テーブル
+      url: ../desktop-calculated-tables.md
+  - linkListType: how-to-guide
+    links:
+    - text: クイック メジャーの使用
+      url: ../desktop-quick-measures.md
+- title: セルフサービスのデータ作成
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI でのセルフサービスのデータ準備
+      url: ../desktop-quickstart-connect-to-data.md
+  - linkListType: concept
+    links:
+    - text: データフロー:セルフサービスのデータ作成
+      url: ../service-dataflows-overview.md
+    - text: データフローの作成と使用
+      url: ../service-dataflows-create-use.md

@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Power BI の概要のドキュメント
+summary: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+metadata:
+  title: Power BI の概要のドキュメント
+  description: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/05/2020
+  ms.openlocfilehash: ec79ce7ca7d7e50f5a3a806ad14de50b786483f5
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924370"
+landingContent:
+- title: Power BI とは?
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI とは?
+      url: ../power-bi-overview.md
+    - text: Power BI Desktop とは何ですか?
+      url: ../desktop-what-is-desktop.md
+    - text: Power BI サービスとは何ですか?
+      url: ../power-bi-service-overview.md
+    - text: Power BI Desktop とサービスの比較
+      url: ../service-service-vs-desktop.md
+- title: 新機能
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI Desktop の新機能
+      url: ../desktop-latest-update.md
+    - text: サービスの新機能
+      url: ../service-whats-new.md
+- title: ご利用ガイドの使用を開始する
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 分析レポートを作成して使用する
+      url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
+    - text: Power BI Desktop でデータを取得する
+      url: https://docs.microsoft.com/power-bi/guided-learning/gettingdata?tutorial-step=1
+- title: ライセンス
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI にサインアップする
+      url: ../service-self-service-signup-for-power-bi.md
+    - text: ライセンスの種類別の機能
+      url: ../service-features-license-type.md
+- title: リソース
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI のビデオ
+      url: ../videos.md
+    - text: Power BI Desktop のビデオ
+      url: ../desktop-videos.md
+    - text: ウェビナー
+      url: ../webinars.md

@@ -1,0 +1,87 @@
+### YamlMime:Landing
+title: Power BI Report Server ドキュメント
+summary: Power BI Report Server ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+metadata:
+  title: Power BI Report Server ドキュメント
+  description: Power BI Report Server ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: f727b8832c29c4bfca448a03898620c183eb13a2
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924623"
+landingContent:
+- title: Power BI Report Server について
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI Report Server とは
+      url: get-started.md
+  - linkListType: concept
+    links:
+    - text: レポート サーバーとそのサービスの比較
+      url: compare-report-server-service.md
+    - text: Power BI レポート サーバーの新機能
+      url: whats-new.md
+- title: はじめに
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: VM での Power BI Report Server の探索
+      url: tutorial-explore-report-server-web-portal.md
+  - linkListType: concept
+    links:
+    - text: 管理者の概要
+      url: admin-handbook-overview.md
+    - text: 開発者向け概要
+      url: developer-handbook-overview.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI Desktop をインストールする
+      url: install-powerbi-desktop.md
+    - text: レポート ビルダーをインストールする
+      url: install-report-builder.md
+- title: 管理者向けレポート サーバー
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: ハードウェアとソフトウェアの要件
+      url: system-requirements.md
+  - linkListType: how-to-guide
+    links:
+    - text: レポート サーバーのインストール
+      url: install-report-server.md
+    - text: レポート サーバーのプロダクト キーを検索する
+      url: find-product-key.md
+    - text: レポート サーバー インストールの移行
+      url: migrate-report-server.md
+    - text: Kerberos を構成する
+      url: configure-kerberos-powerbi-reports.md
+- title: レポート作成者向けのレポート サーバー
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI レポートのスケジュールされた更新
+      url: scheduled-refresh.md
+    - text: Power BI レポート データ ソース
+      url: data-sources.md
+    - text: ページ分割されたレポート データ ソース
+      url: connect-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI レポートを作成する
+      url: quickstart-create-powerbi-report.md
+    - text: Web ポータルでコンテンツを管理する
+      url: getting-around.md
+    - text: OData フィードとして共有データセットにアクセスする
+      url: access-dataset-odata.md
+    - text: 行レベルのセキュリティ
+      url: row-level-security-report-server.md

@@ -41,7 +41,7 @@
               href: visuals/objects-properties.md
             - name: 高度な編集モード
               href: visuals/advanced-edit-mode.md
-        - name: 操作方法
+        - name: 方法
           items:
             - name: 認定済みの Power BI ビジュアルを取得する
               href: power-bi-custom-visuals-certified.md
@@ -89,16 +89,22 @@
               href: visuals/event-service.md
             - name: 並べ替え
               href: visuals/sort-options.md
-            - name: ローカライズ
+            - name: ローカリゼーション
               href: visuals/localization.md
             - name: Power BI のビジュアル ユーティリティ
               items:
+                - name: 外部ライブラリを追加する
+                  href: visuals/adding-external-libraries.md
                 - name: インタラクティビティ ユーティリティ
                   href: visuals/utils-interactivity-selections.md
                 - name: ユーティリティの書式設定
                   href: visuals/utils-formatting.md
+                - name: データ ビュー ユーティリティ
+                  href: visuals/utils-dataview.md
                 - name: グラフ ユーティリティ
                   href: visuals/utils-chart.md
+                - name: カラー ユーティリティ
+                  href: visuals/utils-color.md
                 - name: SVG ユーティリティ
                   href: visuals/utils-svg.md
                 - name: タイプ ユーティリティ
@@ -140,9 +146,9 @@
           items:
             - name: Power BI Embedded の分析の容量と SKU
               href: embedded-capacity.md
-            - name: キャパシティ プランニング
+            - name: 容量計画
               href: embedded-capacity-planning.md
-            - name: のパフォーマンスのベスト プラクティス
+            - name: パフォーマンスのベスト プラクティス
               href: embedded-performance-best-practices.md
             - name: サービス プリンシパル
               href: embed-service-principal.md
@@ -158,7 +164,7 @@
               href: embedded-faq.md
             - name: Power BI のアクセス許可
               href: power-bi-permissions.md
-        - name: 操作方法
+        - name: 方法
           items:
             - name: アプリからの埋め込み
               href: embed-from-apps.md
@@ -176,15 +182,15 @@
               href: embed-dynamic-binding.md
             - name: 埋め込みに関する Q&A
               href: qanda.md
-            - name: 埋め込みアプリケーションのトラブルシューティング
+            - name: 埋め込みアプリケーションをトラブルシューティングする
               href: embedded-troubleshoot.md
-            - name: Azure で容量を管理する
+            - name: Azure での容量の管理
               items:
-                - name: Azure で容量を作成する
+                - name: Azure での容量の作成
                   href: azure-pbie-create-capacity.md
                 - name: Azure で Multi-Geo を使用して容量を作成する
                   href: embedded-multi-geo.md
-                - name: Azure で容量をスケールする
+                - name: Azure での容量のスケーリング
                   href: azure-pbie-scale-capacity.md
                 - name: Azure で容量を一時停止し、開始する
                   href: azure-pbie-pause-start.md
@@ -216,7 +222,7 @@
               href: 'https://powerbi.microsoft.com/en-us/developers/'
             - name: 埋め込みセットアップ ツール
               href: 'https://aka.ms/embedsetup'
-            - name: JavaScript のプレイグラウンド サンプル
+            - name: JavaScript プレイグラウンド サンプル
               href: 'https://go.microsoft.com/fwlink/?linkid=848279'
             - name: Power BI JavaScript Wiki
               href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
@@ -230,7 +236,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: スタック オーバーフロー
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: オートメーション
+    - name: Automation
       expanded: true
       items:
         - name: 概要
@@ -243,7 +249,7 @@
               href: walkthrough-push-data.md
             - name: 認証アクセス トークンを取得する
               href: walkthrough-push-data-get-token.md
-            - name: データセットの作成
+            - name: データセットを作成する
               href: walkthrough-push-data-create-dataset.md
             - name: 行を追加するためにデータセットを取得する
               href: walkthrough-push-data-get-datasets.md
@@ -261,9 +267,9 @@
                   href: api-dataset-properties.md
                 - name: データ モデルのバージョン管理
                   href: api-data-model-versioning.md
-        - name: 操作方法
+        - name: 方法
           items:
-            - name: 資格情報を構成する
+            - name: 資格情報の構成
               href: configure-credentials.md
         - name: リファレンス
           items:

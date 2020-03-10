@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Power BI 管理者向けドキュメント
-summary: Power BI 管理者向けドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+title: Power BI の管理者とエンタープライズ向けドキュメント
+summary: Power BI の管理者とエンタープライズ向けドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
 metadata:
-  title: Power BI 管理者向けドキュメント
-  description: Power BI 管理者向けドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  title: Power BI の管理者とエンタープライズ向けドキュメント
+  description: Power BI の管理者とエンタープライズ向けドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,15 +11,15 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
-  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
+  ms.date: 03/03/2020
+  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 10/26/2019
-  ms.locfileid: "72959516"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919451"
 landingContent:
-- title: 管理者の Power BI について
+- title: 管理者とエンタープライズにおける Power BI
   linkLists:
   - linkListType: overview
     links:
@@ -29,7 +29,7 @@ landingContent:
     links:
     - text: Office 365 の管理ロール
       url: ../service-admin-role.md
-- title: 作業の開始
+- title: はじめに
   linkLists:
   - linkListType: concept
     links:
@@ -49,13 +49,27 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: 自分のテナントの場所はどこにありますか?
+    - text: テナントの場所がわからない
       url: ../service-admin-where-is-my-tenant-located.md
-    - text: サインインしたユーザーを見つける
+    - text: サインインしたユーザーを検索する
       url: ../service-admin-access-usage.md
-    - text: Power BI の監査
+    - text: Power BI を監査する
       url: ../service-admin-auditing.md
-    - text: サービスの正常性の追跡
+    - text: サービス正常性を追跡する
+      url: ../service-admin-health.md
+    - text: Power BI アカウントを削除する
+      url: ../service-admin-closing-your-account.md
+- title: Power BI Premium
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: テナントの場所がわからない
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: サインインしたユーザーを検索する
+      url: ../service-admin-access-usage.md
+    - text: Power BI を監査する
+      url: ../service-admin-auditing.md
+    - text: サービス正常性を追跡する
       url: ../service-admin-health.md
     - text: Power BI アカウントを削除する
       url: ../service-admin-closing-your-account.md

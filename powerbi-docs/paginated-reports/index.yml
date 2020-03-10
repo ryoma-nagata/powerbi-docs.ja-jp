@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Power BI のページ分割されたレポートのドキュメント
+summary: Power BI のページ分割されたレポートのドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+metadata:
+  title: Power BI のページ分割されたレポートのドキュメント
+  description: Power BI のページ分割されたレポートのドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 47a77e156c6b59440e0de500a3f2ab9dede01c85
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924600"
+landingContent:
+- title: Power BI のページ分割されたレポートについて
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI のページ分割されたレポートとは
+      url: paginated-reports-report-builder-power-bi.md
+    - text: Power BI でのレポート ビルダー
+      url: report-builder-power-bi.md
+- title: はじめに
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: ページ分割されたレポートの作成とアップロード
+      url: paginated-reports-quickstart-aw.md
+  - linkListType: concept
+    links:
+    - text: レポート デザイン ビュー内を移動する
+      url: paginated-reports-report-design-view.md
+    - text: ページ分割されたレポートの計画
+      url: report-builder-planning-report.md
+- title: データに接続する
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Report Builder 内のデータ
+      url: report-builder-data.md
+    - text: サポートされるデータ ソース
+      url: paginated-reports-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: 埋め込みデータ ソースを作成する
+      url: paginated-reports-embedded-data-source.md
+    - text: 埋め込みデータセットを作成する
+      url: paginated-reports-create-embedded-dataset.md
+- title: レポートを作成します
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: テーブル、マトリックス、および一覧
+      url: report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: 共有データセットでレポートを作成する
+      url: report-builder-shared-datasets.md
+    - text: パラメーターの作成
+      url: paginated-reports-parameters.md
+- title: レポートの絞り込みと発行
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 式の例
+      url: report-builder-expression-examples.md
+    - text: レポートの改ページ
+      url: paginated-reports-pagination.md
+  - linkListType: how-to-guide
+    links:
+    - text: URL でレポート パラメーターを渡す
+      url: report-builder-url-pass-parameters.md
+    - text: ページ分割されたレポートを発行する
+      url: paginated-reports-save-to-power-bi-service.md

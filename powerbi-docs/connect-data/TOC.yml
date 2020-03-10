@@ -1,0 +1,334 @@
+- name: Power BI におけるデータへの接続
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概要
+      expanded: true
+      items:
+        - name: Power BI のデータ ソース
+          href: ../service-get-data.md
+        - name: オンプレミス データ ゲートウェイとは
+          href: ../service-gateway-onprem.md
+    - name: クイックスタート
+      expanded: true
+      items:
+        - name: Power BI Desktop におけるデータへの接続
+          href: ../desktop-quickstart-connect-to-data.md
+    - name: チュートリアル
+      items:
+        - name: 複数のデータ ソースの整形と結合
+          href: ../desktop-shape-and-combine-data.md
+        - name: Web ページのデータをインポートおよび分析する
+          href: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: Excel と OData フィードの売上データを分析する
+          href: ../desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Facebook データを分析する
+          href: ../desktop-tutorial-facebook-analytics.md
+        - name: Analysis Services 表形式モデルに行レベル セキュリティを実装する
+          href: ../desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+        - name: Power BI の概要
+          href: ../service-get-started.md
+        - name: GitHub サンプルへの接続
+          href: ../service-tutorial-connect-to-github.md
+        - name: Excel で分析を使用する
+          href: ../service-tutorial-analyze-in-excel.md
+        - name: Cognitive Services の使用
+          href: ../service-tutorial-use-cognitive-services.md
+        - name: Machine Learning 統合
+          href: ../service-tutorial-invoke-machine-learning-model.md
+        - name: 機械学習モデルの構築
+          href: ../service-tutorial-build-machine-learning-model.md
+        - name: SQL Server からのデータを更新する
+          href: ../service-gateway-sql-tutorial.md
+    - name: 概念
+      items:
+        - name: Power BI データ ソース
+          href: ../power-bi-data-sources.md
+        - name: Power BI データ ソースの前提条件
+          href: ../desktop-data-source-prerequisites.md
+        - name: Power BI で多次元モデルを操作する
+          href: ../desktop-default-member-multidimensional-models.md
+        - name: Power BI での DirectQuery の使用について
+          href: ../desktop-directquery-about.md
+        - name: ゲートウェイ
+          items:
+            - name: データ ゲートウェイの展開に関するガイダンス
+              href: ../service-gateway-deployment-guidance.md
+            - name: オンプレミス データ ゲートウェイに関する FAQ
+              href: ../service-gateway-power-bi-faq.md
+    - name: 操作方法ガイド
+      items:
+        - name: データ ソースに接続する
+          href: ../desktop-connect-to-data.md
+        - name: データに接続する
+          items:
+            - name: データ ソースに接続する
+              href: ../desktop-data-sources.md
+            - name: SharePoint リスト上にレポートを作成する
+              href: ../desktop-sharepoint-online-list.md
+            - name: LinkedIn Sales Navigator に接続する
+              href: ../desktop-connect-linkedin-sales-navigator.md
+            - name: 例を提供して Web ページ データを取得する
+              href: ../desktop-connect-to-web-by-example.md
+            - name: Power BI サービスのデータセットに接続する
+              href: ../desktop-report-lifecycle-datasets.md
+            - name: Excel ブックをインポートする
+              href: ../desktop-import-excel-workbooks.md
+            - name: Power BI Desktop のジェネリック インターフェイスを使用してデータに接続する
+              href: ../desktop-connect-using-generic-interfaces.md
+            - name: PDF ファイルに接続する
+              href: ../desktop-connect-pdf.md
+            - name: Adobe Analytics への接続
+              href: ../desktop-connect-adobe-analytics.md
+            - name: Oracle データベースへの接続
+              href: ../desktop-connect-oracle-database.md
+            - name: Python
+              items:
+                - name: Python スクリプトを実行する
+                  href: ../desktop-python-scripts.md
+                - name: クエリ エディターで Python を使用する
+                  href: ../desktop-python-in-query-editor.md
+                - name: 外部の Python IDE を使用する
+                  href: ../desktop-python-ide.md
+                - name: Python を使用して視覚エフェクトを作成する
+                  href: ../desktop-python-visuals.md
+            - name: R スクリプトの実行
+              href: ../desktop-r-scripts.md
+            - name: クエリ エディターで R を使用する
+              href: ../desktop-r-in-query-editor.md
+            - name: 外部の R IDE を使用する
+              href: ../desktop-r-ide.md
+            - name: R パッケージを使用して視覚エフェクトを作成する
+              href: ../service-r-packages-support.md
+            - name: Power BI Desktop にデータを直接入力する
+              href: ../desktop-enter-data-directly-into-desktop.md
+            - name: Excel ブックに接続する
+              href: ../desktop-connect-excel.md
+            - name: SSAS 多次元モデルに接続する
+              href: ../desktop-ssas-multidimensional.md
+            - name: CSV ファイルに接続する
+              href: ../desktop-connect-csv.md
+            - name: Google BigQuery データベースに接続する
+              href: ../desktop-connect-bigquery.md
+            - name: Impala データベースに接続する
+              href: ../desktop-connect-impala.md
+            - name: OData フィードに接続する
+              href: ../desktop-connect-odata.md
+            - name: Amazon Redshift データベースに接続する
+              href: ../desktop-connect-redshift.md
+            - name: Web ページに接続する
+              href: ../desktop-connect-to-web.md
+            - name: Snowflake Computing ウェアハウスに接続する
+              href: ../desktop-connect-snowflake.md
+            - name: Azure Cost Management コネクタを使用して視覚エフェクトを作成する
+              href: ../desktop-connect-azure-cost-management.md
+            - name: Azure Consumption Insights データに接続する
+              href: ../desktop-connect-azure-consumption-insights.md
+            - name: SAP HANA データベースに接続する
+              href: ../desktop-sap-hana.md
+            - name: SAP HANA の暗号化を有効にする
+              href: ../desktop-sap-hana-encryption.md
+            - name: Analysis Services 表形式データに接続する
+              href: ../desktop-analysis-services-tabular-data.md
+            - name: DirectQuery を使用してデータ ソースに接続する
+              href: ../desktop-use-directquery.md
+            - name: DirectQuery を使用して SAP Business Warehouse に接続する
+              href: ../desktop-directquery-sap-bw.md
+            - name: DirectQuery を使用して SAP HANA データ ソースに接続する
+              href: ../desktop-directquery-sap-hana.md
+            - name: '[参照整合性を想定] 設定を適用する'
+              href: ../desktop-assume-referential-integrity.md
+            - name: SAP BW コネクタを使用して SAP BW データにアクセスする
+              href: ../desktop-sap-bw-connector.md
+            - name: OneDrive for Business のリンクを使用する
+              href: ../desktop-use-onedrive-business-links.md
+            - name: 'サード パーティのサービス:Facebook コネクタを使用する'
+              href: ../service-facebook-connector.md
+            - name: 'サード パーティのサービス:Google アナリティクス コネクタを使用する'
+              href: ../service-google-analytics-connector.md
+            - name: Power BI Desktop 経由で Project Online データに接続する
+              href: ../desktop-project-online-connect-to-data.md
+        - name: ファイルからのデータの取得
+          items:
+            - name: ファイルからデータを取得
+              href: ../service-get-data-from-files.md
+            - name: Excel での魅力的なレポート作成
+              href: ../service-from-excel-to-stunning-report.md
+            - name: Excel ブック ファイルをからデータを取得する
+              href: ../service-excel-workbook-files.md
+            - name: Power BI Desktop ファイルからデータを取得する
+              href: ../service-desktop-files.md
+            - name: パラメーターの編集
+              href: ../service-parameters.md
+            - name: コンマ区切り値 (.csv) ファイルからデータを取得する
+              href: ../service-comma-separated-value-files.md
+            - name: Power BI のリアルタイム ストリーミング
+              href: ../service-real-time-streaming.md
+            - name: Excel から Power BI へ発行する
+              href: ../service-publish-from-excel.md
+            - name: Excel ブックのサイズを減らす
+              href: ../reduce-the-size-of-an-excel-workbook.md
+        - name: 共有データセットからデータを取得する
+          items:
+            - name: ワークスペースをまたいでデータセットを使用
+              href: ../service-datasets-across-workspaces.md
+            - name: データセットの共有 (プレビュー)
+              href: ../service-datasets-share.md
+            - name: 共有データセットのビルド アクセス許可
+              href: ../service-datasets-build-permissions.md
+            - name: データセットに基づいてレポートを作成する
+              href: ../service-datasets-discover-across-workspaces.md
+            - name: データセットに基づいてレポートをコピーする
+              href: ../service-datasets-copy-reports.md
+            - name: データセットの使用を制御する
+              href: ../service-datasets-admin-across-workspaces.md
+        - name: データセットを推奨する
+          items:
+            - name: データセットを昇格させる
+              href: ../service-datasets-promote.md
+            - name: データセットを認定する
+              href: ../service-datasets-certify.md
+        - name: データベースからデータを取得
+          items:
+            - name: Azure と Power BI
+              href: ../service-azure-and-power-bi.md
+            - name: Power BI と Azure エグレス
+              href: ../service-azure-egress-power-bi.md
+            - name: Azure SQL Data Warehouse と DirectQuery
+              href: ../service-azure-sql-data-warehouse-with-direct-connect.md
+            - name: Azure SQL Database と DirectQuery
+              href: ../service-azure-sql-database-with-direct-connect.md
+            - name: Power BI の SQL Server Analysis Services ライブ データ
+              href: ../sql-server-analysis-services-tabular-data.md
+        - name: データの更新
+          items:
+            - name: Power BI でのデータ更新
+              href: ../refresh-data.md
+            - name: スケジュールされた更新を構成する
+              href: ../refresh-scheduled-refresh.md
+            - name: 増分更新を構成する
+              href: ../service-premium-incremental-refresh.md
+            - name: ローカル Power BI Desktop ファイルからのデータセットを更新する
+              href: ../refresh-desktop-file-local-drive.md
+            - name: クラウド Power BI Desktop ファイルからのデータセットを更新する
+              href: ../refresh-desktop-file-onedrive.md
+            - name: ローカル Excel ブックからのデータセットを更新する
+              href: ../refresh-excel-file-local-drive.md
+            - name: クラウド Excel ブックからのデータセットを更新する
+              href: ../refresh-excel-file-onedrive.md
+            - name: OneDrive の .csv ファイルからデータセットを更新する
+              href: ../refresh-csv-file-onedrive.md
+            - name: Power BI Premium でのクエリのキャッシュ
+              href: ../power-bi-query-caching.md
+        - name: テンプレート アプリ
+          items:
+            - name: テンプレート アプリの概要
+              href: ../service-template-apps-overview.md
+            - name: テンプレート アプリの作成
+              href: ../service-template-apps-create.md
+            - name: テンプレート アプリの作成に関するヒント
+              href: ../service-template-apps-tips.md
+            - name: テンプレート アプリのインストールと発行
+              href: ../service-template-apps-install-distribute.md
+            - name: Power BI テンプレート アプリの更新、削除、および抽出
+              href: ../service-template-update-delete-extract.md
+            - name: テンプレート アプリのサンプル
+              href: ../service-template-apps-samples.md
+        - name: トラブルシューティング
+          items:
+            - name: 更新のシナリオに関するトラブルシューティング
+              href: ../refresh-troubleshooting-refresh-scenarios.md
+            - name: 更新がサポートされていないデータ ソースのトラブルシューティング
+              href: ../service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+            - name: Azure SQL Database のスケジュール設定された更新に関するトラブルシューティング
+              href: ../service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+            - name: ”Excel で分析” に関するトラブルシューティング
+              href: ../desktop-troubleshooting-analyze-in-excel.md
+            - name: 'エラー:Excel ブックにデータが見つかりませんでした'
+              href: ../service-admin-troubleshoot-excel-workbook-data.md
+            - name: 更新が失敗した場合に Xero コンテンツ パックの資格情報を更新する方法
+              href: ../service-refresh-xero-credentials.md
+        - name: サービスへの接続
+          items:
+            - name: アプリでサービスに接続する
+              href: ../service-connect-to-services.md
+            - name: GitHub
+              href: ../service-connect-to-github.md
+            - name: Microsoft 持続可能性計算ツール
+              href: ../service-connect-to-microsoft-sustainability-calculator.md
+            - name: Office365Mon
+              href: ../service-connect-to-office365mon.md
+            - name: Project Online
+              href: ../service-connect-to-project-online.md
+            - name: QuickBooks Online
+              href: ../service-connect-to-quickbooks-online.md
+            - name: Salesforce
+              href: ../service-connect-to-salesforce.md
+            - name: Smartsheet
+              href: ../service-connect-to-smartsheet.md
+            - name: Xero
+              href: ../service-connect-to-xero.md
+            - name: Zendesk
+              href: ../service-connect-to-zendesk.md
+        - name: ゲートウェイ
+          items:
+            - name: オンプレミス データ ゲートウェイの詳細
+              href: ../service-gateway-onprem-indepth.md
+            - name: オンプレミス データ ゲートウェイ (個人用モード)
+              href: ../service-gateway-personal-mode.md
+            - name: ゲートウェイのデータ ソースの管理
+              items:
+                - name: データ ソースを管理する
+                  href: ../service-gateway-data-sources.md
+                - name: エンタープライズ データ ソースの管理 - Analysis Services
+                  href: ../service-gateway-enterprise-manage-ssas.md
+                - name: エンタープライズ データ ソースの管理 - SAP HANA
+                  href: ../service-gateway-enterprise-manage-sap.md
+                - name: エンタープライズ データ ソースの管理 - SQL
+                  href: ../service-gateway-enterprise-manage-sql.md
+                - name: データ ソースの管理 - Oracle
+                  href: ../service-gateway-onprem-manage-oracle.md
+                - name: エンタープライズ データ ソースの管理 - インポート/スケジュールされた更新
+                  href: ../service-gateway-enterprise-manage-scheduled-refresh.md
+                - name: オンプレミスとクラウド データ ソースの統合
+                  href: ../service-gateway-mashup-on-premises-cloud.md
+            - name: シングル サインオン (SSO) を有効にする
+              items:
+                - name: SSO の概要
+                  href: ../service-gateway-sso-overview.md
+                - name: Kerberos ベースの SSO
+                  items:
+                    - name: Kerberos ベースの SSO を構成する
+                      href: ../service-gateway-sso-kerberos.md
+                    - name: データソース固有の構成
+                      items:
+                        - name: SAP HANA
+                          href: ../service-gateway-sso-kerberos-sap-hana.md
+                        - name: SAP BW - sapcrypto.dll (共通暗号化ライブラリ)
+                          href: ../service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                        - name: SAP BW - gx64krb5.dll
+                          href: ../service-gateway-sso-kerberos-sap-bw-gx64krb.md
+                - name: SAML ベースの SSO
+                  href: ../service-gateway-sso-saml.md
+            - name: ゲートウェイをトラブルシューティングする
+              href: ../service-gateway-onprem-tshoot.md
+            - name: ゲートウェイ (個人用モード) をトラブルシューティングする
+              href: ../service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: カスタム コネクタを使用する
+              href: ../service-gateway-custom-connectors.md
+        - name: トラブルシューティング
+          items:
+            - name: Access と Excel の .xls ファイルのインポートに関するトラブルシューティング
+              href: ../desktop-access-database-errors.md
+            - name: Power BI Desktop の起動に関するトラブルシューティング
+              href: ../desktop-error-launching-desktop.md
+            - name: DirectQuery モデルの開発に関するトラブルシューティング
+              href: ../desktop-directquery-troubleshoot.md
+    - name: リファレンス
+      items:
+        - name: Power BI Desktop でのデータ型
+          href: ../desktop-data-types.md
+        - name: コネクタの機能拡張
+          href: ../desktop-connector-extensibility.md
+        - name: 信頼されたサードパーティ製コネクタ
+          href: ../desktop-trusted-third-party-connectors.md

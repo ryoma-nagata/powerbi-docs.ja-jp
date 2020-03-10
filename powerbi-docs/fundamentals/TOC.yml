@@ -1,0 +1,55 @@
+- name: Power BI の概要 ‐ ドキュメント
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概要
+      expanded: true
+      items:
+        - name: Power BI とは?
+          href: ../power-bi-overview.md
+        - name: Power BI Desktop とは何ですか?
+          href: ../desktop-what-is-desktop.md
+        - name: Power BI サービスとは何ですか?
+          href: ../power-bi-service-overview.md
+        - name: Power BI Desktop とサービスの比較
+          href: ../service-service-vs-desktop.md
+    - name: 概念
+      items:
+        - name: Power BI Desktop の最新の更新プログラムの新機能
+          href: ../desktop-latest-update.md
+        - name: Power BI サービスの新機能
+          href: ../service-whats-new.md
+        - name: Power BI サービスについて理解する
+          href: ../service-basic-concepts.md
+        - name: ヘルプを得るための 10 のヒント
+          href: ../service-tips-for-finding-help.md
+        - name: ライセンス
+          items:
+            - name: Power BI にサインアップする
+              href: ../service-self-service-signup-for-power-bi.md
+            - name: ライセンスの種類別の機能
+              href: ../service-features-license-type.md
+    - name: 操作方法ガイド
+      items:
+        - name: Power BI Desktop を取得する
+          href: ../desktop-get-the-desktop.md
+        - name: Power BI Desktop の概要
+          href: ../desktop-getting-started.md
+    - name: リファレンス
+      items:
+        - name: サポートされる言語と国/地域
+          href: ../supported-languages-countries-regions.md
+        - name: サポートされているブラウザー
+          href: ../power-bi-browsers.md
+    - name: リソース
+      items:
+        - name: ビデオ
+          href: ../videos.md
+        - name: ウェビナー
+          href: ../webinars.md
+        - name: Power BI Desktop のビデオ
+          href: ../desktop-videos.md
+        - name: Power BI Desktop の更新プログラムのアーカイブ
+          href: ../desktop-latest-update-archive.md
+        - name: Power BI Desktop "気に入った機能の報告" のプライバシーに関する声明
+          href: ../desktop-send-smile-privacy-statement.md
