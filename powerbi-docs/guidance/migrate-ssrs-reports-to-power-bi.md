@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: cf11b98d7eacd7b1e245fb0aed62d0f14e7f4c4c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290638"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041324"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services レポートを Power BI に移行する
 
@@ -60,11 +60,11 @@ Power BI Report Server から移行することもできます。
 
 そのツールを使うと、次のタスクを自動化できます。
 
-- [サポートされていないデータ ソース](../paginated-reports-data-sources.md)および[サポートされていないレポート機能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)をチェックする
-- "_共有_" リソースを "_埋め込み_" リソースに変換する
-  - 共有**データ ソース**は埋め込みデータ ソースになります
-  - 共有**データセット**は埋め込みデータセットになります
-- (チェックに合格した) レポートを、ページ分割されたレポートとして、指定した Power BI ワークスペース (Premium 容量上) に発行する
+* [サポートされていないデータ ソース](../paginated-reports/paginated-reports-data-sources.md)および[サポートされていないレポート機能](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)をチェックする
+* "_共有_" リソースを "_埋め込み_" リソースに変換する
+  * 共有**データ ソース**は埋め込みデータ ソースになります
+  * 共有**データセット**は埋め込みデータセットになります
+* (チェックに合格した) レポートを、ページ分割されたレポートとして、指定した Power BI ワークスペース (Premium 容量上) に発行する
 
 既存のレポートが変更または削除されることはありません。 ツールが完了すると、完了したすべてのアクションの概要 (成功または失敗) が出力されます。
 
@@ -102,7 +102,7 @@ SSRS サーバーから Power BI に移行できるのは、RDL レポートの�
 
 <sup>1</sup> [RDL 移行ツール](https://github.com/microsoft/RdlMigration)では、使われているデータ ソースがサポートされているものであれば、共有データ ソースと共有データセットが自動的に変換されます。
 
-[Power BI のページ分割されたレポートでまだサポートされてい機能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)が RDL レポートで利用されている場合は、[Power BI レポート](../consumer/end-user-reports.md)として開発し直すことができます。 移行できる RDL レポートの場合でも、合理的な理由があれば、Power BI レポートとして最新化することをお勧めします。
+[Power BI のページ分割されたレポートでまだサポートされてい機能](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)が RDL レポートで利用されている場合は、[Power BI レポート](../consumer/end-user-reports.md)として開発し直すことができます。 移行できる RDL レポートの場合でも、合理的な理由があれば、Power BI レポートとして最新化することをお勧めします。
 
 RDL レポートで "_オンプレミスのデータ ソース_" からデータを取得する必要がある場合は、シングル サインオン (SSO) を使用できません。 現在のところ、これらのソースからのすべてのデータ取得は、"_ゲートウェイ データ ソース ユーザー アカウント_" のセキュリティ コンテキストを使用して行われています。 SQL Server Analysis Services (SSAS) でユーザーごとに行レベルのセキュリティ (RLS) を適用することはできません。
 
@@ -113,7 +113,7 @@ RDL レポートで "_オンプレミスのデータ ソース_" からデータ
 "_準備_" フェーズの目的は、すべての準備を完了することです。 Power BI 環境の設定、レポートをセキュリティで保護して発行する方法の計画、移行されない SSRS 項目の再開発の構想が含まれます。
 
 1. Power BI Premium 容量で[ページ分割されたレポート ワークロード](../service-admin-premium-workloads.md#paginated-reports)が有効になっていること、および十分なメモリがあることを確認します。
-1. レポートの[データ ソース](../paginated-reports-data-sources.md)のサポートを確認し、オンプレミスのデータ ソースとの接続を許可するように [Power BI Gateway](../service-gateway-onprem.md) を設定します。
+1. レポートの[データ ソース](../paginated-reports/paginated-reports-data-sources.md)のサポートを確認し、オンプレミスのデータ ソースとの接続を許可するように [Power BI Gateway](../service-gateway-onprem.md) を設定します。
 1. Power BI のセキュリティについてよく理解し、[Power BI のワークスペースとワークスペース ロール](../service-new-workspaces.md)で [SSRS のフォルダーとアクセス許可を再現する方法](/sql/reporting-services/security/secure-folders)を計画します。
 1. Power BI の共有についての理解を深め、[Power BI アプリ](../service-create-distribute-apps.md)を発行してコンテンツを配布する方法を計画します。
 1. SSRS 共有データ ソースの代わりに、[共有 Power BI データセット](../service-datasets-build-permissions.md)を使用することを検討します。
@@ -121,7 +121,7 @@ RDL レポートで "_オンプレミスのデータ ソース_" からデータ
 1. レポートの **UserID** 組み込みフィールドの使用を再評価します。 レポート データをセキュリティで保護するために **UserID** を利用している場合は、ページ分割されたレポート (Power BI サービスでホストされている場合) では、ユーザー プリンシパル名 (UPN) が返されることに注意してください。 そのため、組み込みフィールドでは、_AW\mblythe_ などの NT アカウント名が返されず、_m.blythe&commat;adventureworks.com_ のような値が返されます。 データセット定義と、場合によってはソース データを修正する必要があります。 修正して発行したら、データ アクセス許可が期待どおりに動作することを確認するためにレポートを徹底的にテストすることをお勧めします。
 1. レポートの **ExecutionTime** 組み込みフィールドの使用を再評価します。 ページ分割されたレポート (Power BI サービスでホストされている場合) では、組み込みフィールドから "_協定世界時 (UTC)_ " で日時が返されます。 これは、レポート パラメーターの既定値と、レポート実行時間ラベル (通常はレポート フッターに追加されます) に影響する可能性があります。
 1. お使いのデータソースが SQL Server (オンプレミス) の場合は、レポートでマップの視覚化が使用されていないことを確認します。 マップの視覚化は SQL Server の空間データ型に依存し、これらはゲートウェイではサポートされません。 詳細については、[ページ分割されたレポートでのデータ取得のガイダンス (SQL Server の複合データ型)](report-paginated-data-retrieval.md#sql-server-complex-data-types) に関するページを参照してください。
-1. レポート作成者が [Power BI Report Builder](../report-builder-power-bi.md) をインストールしていること、および以降のリリースを組織全体に簡単に配布できることを確認します。
+1. レポート作成者が [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md) をインストールしていること、および以降のリリースを組織全体に簡単に配布できることを確認します。
 
 ## <a name="migration-stage"></a>移行ステージ
 
@@ -137,7 +137,7 @@ SSRS インスタンスおよび Power BI ワークスペースへのアクセ�
 1. 各レポート定義をダウンロードし、.rdl ファイルをローカル環境に保存します。
 1. "_最新バージョン_" の Power BI Report Builder を開き、Azure AD の資格情報を使って Power BI サービスに接続します。
 1. Power BI Report Builder で各レポートを開き、次のようにします。
-   1. すべてのデータ ソースとデータセットがレポート定義に埋め込まれていること、およびそれらが[サポートされているデータ ソース](../paginated-reports-data-sources.md)であることを確認します。
+   1. すべてのデータ ソースとデータセットがレポート定義に埋め込まれていること、およびそれらが[サポートされているデータ ソース](../paginated-reports/paginated-reports-data-sources.md)であることを確認します。
    1. レポートをプレビューし、正しく表示されることを確認します。
    1. _[名前を付けて保存]_ オプションを選択し、 _[Power BI サービス]_ を選択します。
    1. レポートを格納するワークスペースを選択します。
@@ -156,7 +156,7 @@ SSRS インスタンスおよび Power BI ワークスペースへのアクセ�
 
 API の詳細については、以下を参照してください。
 
-- [Power BI REST API リファレンス](../developer/rest-api-reference.md)
+- [Power BI REST API リファレンス](../developer/automation/rest-api-reference.md)
 - [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>移行後ステージ
@@ -165,7 +165,7 @@ API の詳細については、以下を参照してください。
 
 ### <a name="configure-data-sources"></a>データ ソースの構成
 
-レポートが Power BI に移行されたら、そのデータ ソースが正しく設定されていることを確認する必要があります。 それには、ゲートウェイ データ ソースへの割り当てと、[データ ソースの資格情報の安全な保管](../paginated-reports-data-sources.md#azure-sql-database-authentication)が含まれます。 これらの作業は、RDL 移行ツールでは行われません。
+レポートが Power BI に移行されたら、そのデータ ソースが正しく設定されていることを確認する必要があります。 それには、ゲートウェイ データ ソースへの割り当てと、[データ ソースの資格情報の安全な保管](../paginated-reports/paginated-reports-data-sources.md#azure-sql-database-authentication)が含まれます。 これらの作業は、RDL 移行ツールでは行われません。
 
 ### <a name="review-report-performance"></a>レポートのパフォーマンスを確認する
 
@@ -190,13 +190,13 @@ API の詳細については、以下を参照してください。
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Premium のページ分割されたレポートとは](../paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium のページ分割されたレポートとは](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [ページ分割されたレポートでのデータ取得のガイダンス](report-paginated-data-retrieval.md)
 - [どのようなときに Power BI のページ分割されたレポートを使用するか](report-paginated-or-power-bi.md)
-- [Power BI のページ分割されたレポート: FAQ](../paginated-reports-faq.md)
+- [Power BI のページ分割されたレポート: FAQ](../paginated-reports/paginated-reports-faq.md)
 - [Power BI Premium のよく寄せられる質問](../service-premium-faq.md)
 - [RDL 移行ツール](https://github.com/microsoft/RdlMigration)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-- Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)
+- Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)
 
 Power BI パートナーを利用して、組織の移行プロセスを成功させることができます。 Power BI パートナーを手配するには、[Power BI パートナー ポータル](https://powerbi.microsoft.com/partners/)にアクセスしてください。

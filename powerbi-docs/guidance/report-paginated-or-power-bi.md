@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3838c0b487be7faace2e58dd706aa7d172841215
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290500"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920735"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>どのようなときに Power BI のページ分割されたレポートを使用するか
 
-この記事の対象者は、Power BI 用のレポートをデザインするレポート作成者です。 どのような場合に [Power BI のページ分割されたレポート](../paginated-reports-report-builder-power-bi.md)を開発すればよいかを判断するときに役立つ推奨事項を示します。
+この記事の対象者は、Power BI 用のレポートをデザインするレポート作成者です。 どのような場合に [Power BI のページ分割されたレポート](../paginated-reports/paginated-reports-report-builder-power-bi.md)を開発すればよいかを判断するときに役立つ推奨事項を示します。
 
 > [!NOTE]
 > Power BI のページ分割されたレポートを発行するには、Power BI Premium サブスクリプションが必要です。 レポートは、[ページ分割されたレポートのワークロードが有効になっている](../service-admin-premium-workloads.md#paginated-reports)専用容量のワークスペースにある場合にのみ表示されます。
@@ -49,7 +49,7 @@ Power BI のページ分割されたレポートを開発せざるを得ない�
 - **高精度のレイアウト**: 高度に書式設定されたピクセル単位で完璧なレイアウトを、インチまたはセンチメートルの単位で構成した正確なサイズと位置でデザインできます。
 - **動的レイアウト**: 多くのレポート プロパティを設定して VB.NET の式を使用することにより、応答性の高いレイアウトを作成できます。 式では、多くのコア .NET Framework ライブラリにアクセスできます。
 - **レンダリング固有のレイアウト**: 式を使用して、レポートのレイアウトを適用されたレンダリング形式に基づいて変更できます。 たとえば、PDF などの非対話形式を使用して表示されたときは、表示の切り替え (ドリルダウンとドリルアップの実現) を無効にするように、レポートをデザインできます。
-- **ネイティブ クエリ**: Power BI データセットを最初に開発する必要はありません。 任意の[サポートされているデータ ソース](../paginated-reports-data-sources.md)に対して、ネイティブ クエリを作成 (またはストアド プロシージャを使用) することができます。 クエリにはパラメーター化を含めることができます。
+- **ネイティブ クエリ**: Power BI データセットを最初に開発する必要はありません。 任意の[サポートされているデータ ソース](../paginated-reports/paginated-reports-data-sources.md)に対して、ネイティブ クエリを作成 (またはストアド プロシージャを使用) することができます。 クエリにはパラメーター化を含めることができます。
 - **グラフィック クエリ デザイナー**: Power BI Report Builder には、データセットのクエリの作成とテストに役立つグラフィック クエリ デザイナーが用意されています。
 - **静的データセット**: データセットを定義し、レポート定義にデータを直接入力することができます。 この機能は、デモをサポートしたり、概念実証 (POC) を提供したりする場合に、特に役立ちます。
 - **データ統合**: 異なるデータ ソースのデータを組み合わせたり、静的データセットのデータと組み合わせることができます。 これを行うには、VB.NET の式を使用してカスタム フィールドを作成します。
@@ -70,7 +70,7 @@ Power BI のページ分割されたレポートを開発せざるを得ない�
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Premium のページ分割されたレポートとは](../paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium のページ分割されたレポートとは](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [SQL Server Reporting Services レポートを Power BI に移行する](migrate-ssrs-reports-to-power-bi.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

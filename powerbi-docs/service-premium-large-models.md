@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260878"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401936"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium の大規模なモデル (プレビュー)
 
@@ -123,7 +123,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>リージョンで使用できるかどうか
 
-Power BI の大規模なモデルは、[Azure Premium ファイル ストレージ](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)がサポートされている特定の Azure リージョンでのみ使用できます。
+Power BI の大規模なモデルは、[Azure Premium ファイル ストレージ](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)がサポートされている特定の Azure リージョンでのみ使用できます。
 
 次の一覧は、Power BI の大規模なモデルを使用できるリージョンを示しています。 次の一覧に含まれていないリージョンでは、大規模なモデルがサポートされていません。
 
@@ -156,7 +156,7 @@ Power BI の大規模なモデルは、[Azure Premium ファイル ストレー�
 
 次のリンクには、大規模なモデルを使用する際に役立つ情報が用意されています。
 
-* [Azure Premium ファイル ストレージ](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Azure Premium ファイル ストレージ](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
 * [Power BI Premium の Multi-Geo のサポートを構成する](service-admin-premium-multi-geo.md)
 * [Power BI で独自の暗号化キーを使用する](service-encryption-byok.md)
 * [容量はどのように機能するのか](service-premium-what-is.md#how-capacities-function)

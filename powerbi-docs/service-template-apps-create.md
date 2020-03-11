@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871492"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041725"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI でテンプレート アプリを作成する
 
@@ -58,7 +58,7 @@ Power BI テナント管理者は、組織においてテンプレート アプ�
 
 通常の Power BI ワークスペースと同様に、次の手順はワークスペースでコンテンツを作成することです。  
 
-- ワークスペースで [Power BI コンテンツを作成します](power-bi-creator-landing.md)。
+- ワークスペースで [Power BI コンテンツを作成します](index.yml)。
 
 Power Query でパラメーターを使用している場合、型を明確に定義します (Text など)。 Any 型と Binary 型はサポートされていません。
 
@@ -95,7 +95,7 @@ Power Query でパラメーターを使用している場合、型を明確に�
 
     アプリケーションのユーザーに対するアプリケーションのコンテンツの制限や制約を設定します。 このコントロールを使用し、アプリに含まれる知的財産を保護できます。
 
-    ![コントロール](media/service-template-apps-create/power-bi-create-control.png)
+    ![制御](media/service-template-apps-create/power-bi-create-control.png)
 
     >[!NOTE]
     >.pbix 形式へのエクスポートは常に、アプリをインストールするユーザーに対してはブロックされます。

@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 09fd2197cca31e083c0242b187d7e242244235eb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530374"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920706"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>ページ分割されたレポートでの画像の使用に関するガイダンス
 
-この記事の対象読者は、Power BI の[ページ分割されたレポート](../paginated-reports-report-builder-power-bi.md)をデザインするレポート作成者です。 ここでは、画像を使用する場合の提案を行います。 一般にレポート レイアウトの画像には、会社のロゴや写真などのグラフィックが使用されます。
+この記事の対象読者は、Power BI の[ページ分割されたレポート](../paginated-reports/paginated-reports-report-builder-power-bi.md)をデザインするレポート作成者です。 ここでは、画像を使用する場合の提案を行います。 一般にレポート レイアウトの画像には、会社のロゴや写真などのグラフィックが使用されます。
 
 画像は、次の 3 つの異なる場所に格納できます。
 
@@ -53,6 +53,6 @@ ms.locfileid: "77530374"
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Premium のページ分割されたレポートとは](../paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium のページ分割されたレポートとは](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

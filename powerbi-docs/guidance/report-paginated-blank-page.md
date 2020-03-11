@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041867"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920830"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>ページ分割されたレポートを印刷するときに空白のページを表示しない
 
-この記事の対象読者は、Power BI の[ページ分割されたレポート](../paginated-reports-report-builder-power-bi.md)をデザインするレポート作成者です。 PDF や Microsoft Word などのハードページ形式にレポートをエクスポートするとき、または印刷するときに、空白のページが発生しないようにするための推奨事項が示されています。
+この記事の対象読者は、Power BI の[ページ分割されたレポート](../paginated-reports/paginated-reports-report-builder-power-bi.md)をデザインするレポート作成者です。 PDF や Microsoft Word などのハードページ形式にレポートをエクスポートするとき、または印刷するときに、空白のページが発生しないようにするための推奨事項が示されています。
 
 ## <a name="page-setup"></a>ページ設定
 
 ページの向き、サイズ、および余白は、レポートの [ページ サイズ] のプロパティによって決まります。 これらのレポートのプロパティには、次の方法でアクセスします。
 
 - レポートの**プロパティ ページ**を使用する。レポート キャンバスの外側にある暗い灰色の領域を右クリックし、 _[レポートのプロパティ]_ を選択します。
-- [ **[プロパティ]** ペイン](../paginated-reports-report-design-view.md#4-properties-pane)を使用する。レポート キャンバスの外側にある暗い灰色の領域をクリックし、レポート オブジェクトを選択します。 **[プロパティ]** ペインが開くことを確認します。
+- [ **[プロパティ]** ペイン](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane)を使用する。レポート キャンバスの外側にある暗い灰色の領域をクリックし、レポート オブジェクトを選択します。 **[プロパティ]** ペインが開くことを確認します。
 
 レポートの**プロパティ ページ**の **[ページの設定]** ページには、ページ設定のプロパティを表示して更新するためのわかりやすいインターフェイスが表示されます。
 
@@ -91,7 +91,7 @@ ms.locfileid: "76041867"
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Premium のページ分割されたレポートとは](../paginated-reports-report-builder-power-bi.md)
-- [Power BI のページ分割されたレポートでの改ページ](../paginated-reports-pagination.md)
+- [Power BI Premium のページ分割されたレポートとは](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [Power BI のページ分割されたレポートでの改ページ](../paginated-reports/paginated-reports-pagination.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

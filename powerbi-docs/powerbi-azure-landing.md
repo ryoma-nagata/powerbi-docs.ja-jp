@@ -9,18 +9,18 @@ ms.author: willthom
 author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: c2eeca81cb3c43c04ef649fb1228be7e25073069
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.openlocfilehash: f5b2de4f7da2ac7af368d969b2f2fef2d9ae7678
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75523006"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041702"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Microsoft Azure ユーザー向けの Power BI 
 
 Microsoft Azure で、データの操作、インフラストラクチャの管理、アプリケーションの構築をしていますか? Power BI を使用して、データまたはアプリケーションから値を取得したいですか? このリソースが迅速化に役立つはずです。 ようこそ!
 
-あなたは Power BI をご利用の上級者ですか? もちろん、大歓迎です。 まずは、[利用者向けの Power BI](consumer/power-bi-consumer-landing.md) をご覧になることをお勧めします。
+あなたは Power BI をご利用の上級者ですか? もちろん、大歓迎です。 まずは、[利用者向けの Power BI](consumer/index.yml) をご覧になることをお勧めします。
 
 <ul class="panelContent cardsF"> 
             <li> 

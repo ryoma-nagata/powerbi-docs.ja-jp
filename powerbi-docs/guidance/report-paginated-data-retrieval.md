@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1da75b14f628c8c765ea89a34dd2a2665cdf9a4b
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530443"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920753"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>ページ分割されたレポートでのデータ取得のガイダンス
 
-この記事の対象読者は、Power BI の[ページ分割されたレポート](../paginated-reports-report-builder-power-bi.md)をデザインするレポート作成者です。 効果的かつ効率的なデータ取得をデザインするのに役立つ推奨事項を提供します。
+この記事の対象読者は、Power BI の[ページ分割されたレポート](../paginated-reports/paginated-reports-report-builder-power-bi.md)をデザインするレポート作成者です。 効果的かつ効率的なデータ取得をデザインするのに役立つ推奨事項を提供します。
 
 ## <a name="data-source-types"></a>データ ソースの種類
 
@@ -101,13 +101,13 @@ MDX クエリ デザイナーでは、モデルにメジャーを含める必要
 
 ## <a name="non-native-data-sources"></a>ネイティブ以外のデータ ソース
 
-[ページ分割されたレポートでネイティブにサポートされていない](../paginated-reports-data-sources.md)データ ソースに基づいて、ページ分割されたレポートを作成する必要がある場合は、まず Power BI Desktop データ モデルを開発できます。 この方法で、100 を超える [Power BI データ ソース](../power-bi-data-sources.md)に接続できます。 Power BI サービスに発行されると、Power BI データセットに接続するページ分割されたレポートを作成できます。
+[ページ分割されたレポートでネイティブにサポートされていない](../paginated-reports/paginated-reports-data-sources.md)データ ソースに基づいて、ページ分割されたレポートを作成する必要がある場合は、まず Power BI Desktop データ モデルを開発できます。 この方法で、100 を超える [Power BI データ ソース](../power-bi-data-sources.md)に接続できます。 Power BI サービスに発行されると、Power BI データセットに接続するページ分割されたレポートを作成できます。
 
 ## <a name="data-integration"></a>データ統合
 
 複数のデータ ソースからのデータを結合する必要がある場合は、次の 2 つの選択肢があります。
 
-- **レポート データセットを結合する**:データ ソースが[ページ分割されたレポートでネイティブにサポートされている](../paginated-reports-data-sources.md)場合は、Report Builder 関数 [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) や [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) を使用する計算フィールドを作成することを検討できます。
+- **レポート データセットを結合する**:データ ソースが[ページ分割されたレポートでネイティブにサポートされている](../paginated-reports/paginated-reports-data-sources.md)場合は、Report Builder 関数 [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) や [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) を使用する計算フィールドを作成することを検討できます。
 - **Power BI Desktop モデルを開発する**:ただし、Power BI Desktop でデータ モデルを開発する方が効率的である可能性があります。 Power Query を使用して、[サポートされている任意のデータ ソース](../power-bi-data-sources.md)に基づいてクエリを組み合わせることができます。 Power BI サービスに発行されると、Power BI データセットに接続するページ分割されたレポートを作成できます。
 
 ## <a name="sql-server-complex-data-types"></a>SQL Server の複合データ型
@@ -143,6 +143,6 @@ SQL Server はオンプレミスのデータ ソースであるため、Power BI
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI のページ分割されたレポートでサポートされるデータ ソース](../paginated-reports-data-sources.md)
+- [Power BI のページ分割されたレポートでサポートされるデータ ソース](../paginated-reports/paginated-reports-data-sources.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

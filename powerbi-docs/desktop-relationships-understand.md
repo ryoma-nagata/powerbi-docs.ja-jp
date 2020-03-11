@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 991f8b47337ba563ecfd223d69d687269a44ed78
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290684"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041610"
 ---
-# <a name="create-model-relationships-in-power-bi-desktop"></a>Power BI Desktop でモデル リレーションシップを作成する
+# <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop でのモデル リレーションシップ
 
 この記事は、Power BI Desktop を使用するインポート データのモデラーを対象としています。 これはモデル設計に関する重要なトピックであり、直感的で、正確かつ最適なモデルを提供するために不可欠です。
 

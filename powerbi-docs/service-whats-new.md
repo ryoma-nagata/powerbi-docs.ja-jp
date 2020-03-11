@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265333"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920961"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -41,11 +41,11 @@ ms.locfileid: "74265333"
 * Power BI Premium の新しい容量設定。
 * 組織向けの[カスタム ブランディング](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/)。
 * ビルド アクセス許可を使用した集約されたデータのエクスポート。
-* [ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)用の URL パラメーターのサポート。
+* [ページ分割されたレポート](paginated-reports/paginated-reports-report-builder-power-bi.md)用の URL パラメーターのサポート。
 * 毎月の電子メール サブスクリプションのサポート。 
 
 ### <a name="july-2019"></a>2019 年 7 月
-* [ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)用の非プレミアム データセットのサポート。
+* [ページ分割されたレポート](paginated-reports/paginated-reports-report-builder-power-bi.md)用の非プレミアム データセットのサポート。
 * Power BI [集計](desktop-aggregations.md)の一般提供。
 * 他ユーザーへの更新通知の送信。
 * Power BI Premium 容量向けの[テスト ツール](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)。
@@ -57,7 +57,7 @@ ms.locfileid: "74265333"
 * [共有データセットと認定済みデータセット](service-datasets-across-workspaces.md)のパブリック プレビュー。
 * [Premium 容量メトリック アプリ](service-admin-premium-monitor-capacity.md)で利用可能な AI メトリック。
 * Power BI [テンプレート アプリ](service-template-apps-overview.md)の一般提供。
-* Power BI での[ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)の一般提供。
+* Power BI での[ページ分割されたレポート](paginated-reports/paginated-reports-report-builder-power-bi.md)の一般提供。
 * Power BI Premium の Bring Your Own Key ([BYOK](service-encryption-byok.md)) のパブリック プレビュー。
 * [新しいワークスペース エクスペリエンス](service-new-workspaces.md)のビューアー ロール。
 
@@ -71,7 +71,7 @@ ms.locfileid: "74265333"
 * 新しいワークスペース エクスペリエンスの一般提供。
 * フランスと韓国の新しい Power BI リージョン。
 * ダッシュボードでの Q&A エクスペリエンスの更新。
-* [ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)内の Azure Analysis Services のサポート。
+* [ページ分割されたレポート](paginated-reports/paginated-reports-report-builder-power-bi.md)内の Azure Analysis Services のサポート。
 * Power BI アプリでサポートされるページ分割されたレポート。
 * ページ分割されたレポートに PDF 添付ファイルを使用した[電子メール サブスクリプション](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)。
 * 管理ポータルでサポートされている Power BI Premium 集計とワークロード メトリック
@@ -108,7 +108,7 @@ ms.locfileid: "74265333"
 
 ### <a name="november-2018"></a>2018 年 11 月
 * [データフロー](service-dataflows-overview.md)で使用可能な Power BI のデータ準備のパブリック プレビュー。
-* Power BI Premium での[ページ分割されたレポート](paginated-reports-report-builder-power-bi.md)のパブリック プレビュー。
+* Power BI Premium での[ページ分割されたレポート](paginated-reports/paginated-reports-report-builder-power-bi.md)のパブリック プレビュー。
 * [容量監視アプリ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)でのメモリ内のデータ サイズとデータセット数。
 
 ### <a name="october-2018"></a>2018 年 10 月

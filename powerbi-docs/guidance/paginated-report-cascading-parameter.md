@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162413"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920783"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>ページ分割されたレポートでカスケード型パラメーターを使用する
 
-この記事の対象読者は、Power BI の[ページ分割されたレポート](../paginated-reports-report-builder-power-bi.md)をデザインするレポート作成者です。 カスケード型パラメーターを設計するためのシナリオが示されています。 カスケード型パラメーターは、依存関係があるレポート パラメーターです。 レポート ユーザーが 1 つのパラメーター値 (または複数の値) を選択すると、それを使用して別のパラメーターで使用可能な値が設定されます。
+この記事の対象読者は、Power BI の[ページ分割されたレポート](../paginated-reports/paginated-reports-report-builder-power-bi.md)をデザインするレポート作成者です。 カスケード型パラメーターを設計するためのシナリオが示されています。 カスケード型パラメーターは、依存関係があるレポート パラメーターです。 レポート ユーザーが 1 つのパラメーター値 (または複数の値) を選択すると、それを使用して別のパラメーターで使用可能な値が設定されます。
 
 > [!NOTE]
 > カスケード型パラメーターの概要とその構成方法については、この記事では説明しません。 カスケード型パラメーターについて完全には理解していない場合は、まず「[レポートにカスケード型パラメーターを追加する (Report Builder とSSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)」を確認することをお勧めします。
@@ -281,7 +281,7 @@ WHERE
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Report Builder でのレポート パラメーター](../report-builder-parameters.md)
+- [Power BI Report Builder でのレポート パラメーター](../paginated-reports/report-builder-parameters.md)
 - [カスケード型パラメーターをレポートに追加する (Report Builder および SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

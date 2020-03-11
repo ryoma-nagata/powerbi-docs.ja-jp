@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539785"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946853"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>視覚エフェクトの作成に使用されたデータをエクスポートする
 
@@ -166,7 +166,7 @@ Power BI 管理者および設計者が専用データを保護するために�
 
 - データセット所有者は、行レベルのセキュリティ (RLS) を設定できます。 RLS は、アクセスを読み取り専用のユーザーに制限します。 ただし、アプリのワークスペースを構成し、メンバーに編集アクセス許可を付与している場合、RLS ロールはメンバーに適用されません。 詳細については、[行レベルのセキュリティ](../service-admin-rls.md)に関するページを参照してください。
 
-- レポート デザイナーは、列が **[フィールド]** リストに表示されないように、非表示にすることができます。 詳細については、「[データセットのプロパティ](../developer/api-dataset-properties.md)」を参照してください。
+- レポート デザイナーは、列が **[フィールド]** リストに表示されないように、非表示にすることができます。 詳細については、「[データセットのプロパティ](../developer/automation/api-dataset-properties.md)」を参照してください。
 
 - Power BI 管理者は、ダッシュボード、レポート、データセット、データフローに[機密ラベル](../admin/service-security-data-protection-overview.md)を追加できます。 この後、データをエクスポートするときに、暗号化や透かしなどの保護設定を適用できます。 
 

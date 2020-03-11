@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: bdad4a068a5463bd683bc0dbfd20e68873599ace
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: c1944f80616b748d1120d28b1ba91e1f0f2ab6e8
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265133"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041449"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI で使用する Azure Active Directory テナントを作成する
 
-[Power BI REST API](rest-api-reference.md) を呼び出すカスタム アプリケーション用に新しい Azure Active Directory (Azure AD) テナントを作成する方法を説明します。
+[Power BI REST API](automation/rest-api-reference.md) を呼び出すカスタム アプリケーション用に新しい Azure Active Directory (Azure AD) テナントを作成する方法を説明します。
 
 テナントは、Azure Active Directory 内の組織を表します。 これは、組織が Azure、Microsoft Intune、Office 365 などの Microsoft のクラウド サービスにサインアップする際に、受け取って所有する Azure AD サービスの専用インスタンスです。 各 Azure AD テナントは独立しており、他の Azure AD テナントとは切り離されています。
 
-Azure AD テナントを作成すると、アプリケーションを定義して、それにアクセス許可を割り当てて、[Power BI REST API](rest-api-reference.md) を呼び出せるようにすることができます。
+Azure AD テナントを作成すると、アプリケーションを定義して、それにアクセス許可を割り当てて、[Power BI REST API](automation/rest-api-reference.md) を呼び出せるようにすることができます。
 
 組織にはアプリケーションに使用できる Azure AD テナントが既にある場合があります。 アプリケーション専用の新しいテナントを作成することもできます。 この記事では、新しいテナントを作成する方法を説明します。
 
