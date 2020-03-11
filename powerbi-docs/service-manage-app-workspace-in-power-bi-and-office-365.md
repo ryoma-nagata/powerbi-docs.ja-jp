@@ -6,15 +6,15 @@ ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4be5aa246b6e58b9a6234f30754e16a39341abe
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 72694ea771950b4a12427e0a0696e221fbe993bf
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160583"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237847"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Power BI と Office 365 でワークスペースを管理する
 
@@ -27,7 +27,7 @@ Office 365 または [Power BI でのワークスペース](service-create-distr
 
 * ワークスペース メンバーを追加または削除します (ワークスペース メンバーを管理者にすることもできます)。
 * ワークスペース名を編集します。
-* ワークスペースを削除します。
+* ワークスペースを削除します。これにより、Office 365 グループも削除されます。
 
 **Office 365** では、次のことができます。
 

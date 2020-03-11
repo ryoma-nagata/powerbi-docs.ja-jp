@@ -27,7 +27,7 @@ ms.locfileid: "74099095"
 
 ![各ビジュアルの種類のアイコンがあるペイン](media/power-bi-report-visualizations/power-bi-icons.png)
 
-さらに多くの選択肢については、[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)にアクセスし、Microsoft およびコミュニティによって提供されている[カスタム ビジュアル](../developer/visuals/custom-visual-develop-tutorial.md)を見つけて[ダウンロード](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)してください。
+この他にも多くの選択肢があります。[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)にアクセスし、Microsoft およびコミュニティによって提供されている[カスタム ビジュアル](../developer/visuals/custom-visual-develop-tutorial.md)を見つけて、[ダウンロード](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

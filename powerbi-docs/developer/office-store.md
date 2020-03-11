@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 02/13/2020
-ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 3f27c32442ecf3c70c3dc3e7d070fcc8bf14d7b1
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576805"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237870"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI ビジュアルをパートナー センターに発行する
 
@@ -37,8 +37,8 @@ Power BI ビジュアルを提出する準備ができたら、ビジュアル�
 | サンプルの .pbix レポート ファイル |はい |ビジュアルを紹介するには、ユーザーがビジュアルをよく理解できるようにする必要があります。 ユーザーにとってのビジュアルの価値を強調し、使用例や書式設定オプションを示します。 ヒントと秘訣や避けるべきことを説明した "*ヒント*" ページを最後に追加することもできます。<br>サンプルの .pbix レポート ファイルは、外部に接続していないオフラインの状態で動作する必要があります。 |
 | アイコン |はい |ストアの先頭に表示されるカスタム ビジュアルのロゴを含める必要があります。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 大きさはちょうど 300 (幅) x 300 (高さ) ピクセルにする必要があります。<BR>**重要!** アイコンを提出する前に、[AppSource ストア画像ガイド](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images)をよくお読みください。 |
 | スクリーンショット |はい |少なくとも 1 つのスクリーンショットを提供します。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 サイズは、ちょうど 1366 px (幅) × 768 px (高さ) にする必要があります。 ファイルのサイズは、1,024 KB を超えることはできません。<br>使いやすくするために、各スクリーンショットに重要な機能の価値提案がはっきりわかる吹き出しを追加します。 |
-| サポート ダウンロード リンク |はい |顧客向けのサポート URL を提供します。 このリンクは販売者ダッシュボードの一覧の一部として入力され、AppSource 上のビジュアルの一覧にアクセスしたユーザーに表示されます。 http:// または https:// を含む URL の形式を使う必要があります。 |
-| プライバシーに関するドキュメントへのリンク |はい |ビジュアルのプライバシー ポリシーへのリンクを提供します。 このリンクは販売者ダッシュボードの一覧の一部として入力され、AppSource 上のビジュアルの一覧にアクセスしたユーザーに表示されます。 http:// または https:// を含むリンクの形式にする必要があります。 |
+| サポート ダウンロード リンク |はい |顧客向けのサポート URL を提供します。 このリンクはパートナー センター リストの一部として入力され、AppSource 上のビジュアルのリストにアクセスしたユーザーに表示されます。 http:// または https:// を含む URL の形式を使う必要があります。 |
+| プライバシーに関するドキュメントへのリンク |はい |ビジュアルのプライバシー ポリシーへのリンクを提供します。 このリンクはパートナー センター リストの一部として入力され、AppSource 上のビジュアルのリストにアクセスしたユーザーに表示されます。 http:// または https:// を含むリンクの形式にする必要があります。 |
 | エンド ユーザー使用許諾契約 (EULA) |はい |Power BI ビジュアル用の EULA ファイルを指定する必要があります。 |
 | ビデオへのリンク |いいえ |カスタム ビジュアルに対するユーザーの関心を高めるために、ビジュアルに関するビデオへのリンクを提供します。 http:// または https:// を含む URL の形式を使う必要があります。 |
 | GitHub リポジトリ |いいえ |Power BI ビジュアルのソースとサンプル データが含まれている [GitHub](https://www.github.com) リポジトリへのパブリック リンクを共有します。 これにより、他の開発者がフィードバックを提供し、コードの改善を提案することができます。 |
@@ -74,9 +74,6 @@ AppSource に提出する前に、**pbiviz** ファイルと **pbix** ファイ�
 自分の Power BI ビジュアルをパートナー センターに提出するには、パートナー センターに登録されている必要があります。 まだ登録されていない場合は、[パートナー センター内に開発者アカウントを開きます](https://docs.microsoft.com/office/dev/store/open-a-developer-account)。
 
 次の手順に従って、自分の Power BI ビジュアルをパートナー センターに提出します。 提出プロセスの詳細については、「[パートナー センターから AppSource に Office ソリューションを提出する](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource)」を参照してください。
-
->[!NOTE]
-> Power BI ビジュアル提出プロセスの途中であり、[販売者ダッシュボード](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (旧管理ツール) を使用する必要がある場合は、「[販売者ダッシュボードを使用して AppSource に Power BI ビジュアルを提出する](seller-dashboard.md)」の手順を確認してください。
 
 1. **パートナー センター**にログインします。
 

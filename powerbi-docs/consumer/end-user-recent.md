@@ -40,7 +40,7 @@ Amanda による Power BI サービスの **[最近]** コンテンツの一覧�
 
 ## <a name="actions-available-from-the-recent-content-list"></a>**[最近]** コンテンツ リストから使用できるアクション
 使用できるアクションは、コンテンツの*デザイナー*によって割り当てられた設定によって異なります。 オプションには次のようなものがあります。
-* 星のアイコンを選択して[ダッシュボード、レポート、またはアプリをお気に入り](end-user-favorite.md)にします ![星のアイコン](./media/end-user-shared-with-me/power-bi-star-icon.png)。
+* 星のアイコンを選択して、[ダッシュボード、レポート、またはアプリをお気に入りに追加します](end-user-favorite.md) ![星のアイコン](./media/end-user-shared-with-me/power-bi-star-icon.png)。
 * 一部のダッシュボードとレポートを再共有することができます。  ![共有アイコン](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
 * [レポートを Excel で開きます](end-user-export.md) ![Excel にエクスポート アイコン](./media/end-user-shared-with-me/power-bi-excel.png) 
 * Power BI によるデータの[分析情報を表示](end-user-insights.md)します ![分析情報アイコン](./media/end-user-shared-with-me/power-bi-insights.png)。

@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 02/13/2020
-ms.openlocfilehash: c760450319f5ca32856520bce9c9f9b67a8616d6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.date: 03/04/2020
+ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427762"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290661"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
@@ -24,11 +24,11 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 
 | 機能 | Power BI Report Server | Power BI サービス | ノート |
 |---------|---------|---------|---------|
-| デプロイ | オンプレミスまたはクラウドでホスト | クラウド | Power BI Report Server は、Power BI Premium を通じてライセンス供与された場合は、Azure VM にデプロイできます (クラウドでホストされます) |
+| デプロイ | オンプレミスまたはクラウドでホスト | クラウド | Power BI Premium またはソフトウェア アシュアランスによる SQL Server Enterprise を通じてライセンス供与された場合は、Power BI Report Server を Azure VM にデプロイできます (クラウドでホストされます)|
 | ソース データ | クラウドとオンプレミスの両方またはいずれか | クラウドとオンプレミスの両方またはいずれか |  |
 | ライセンス | Power BI Premium またはソフトウェア アシュアランス (SA) 付きの SQL Server EE | Power BI Pro と Power BI Premium の両方またはいずれか | |  
 | ライフサイクル | 最新のライフサイクル ポリシー | フル マネージドのサービス |  |
-| リリース サイクル | 年に 3 回 (1 月、5 月、9 月) | 月に 1 回 | 最新の機能と修正プログラムは、Power BI サービスに先に提供されます。 ほとんどのコア機能は、数回後のリリースで Power BI Report Server に提供されます。一部の機能は Power BI サービスのみが対象です。 |
+| リリース サイクル | 年に 3 回 (1 月、5 月、9 月) | 月に 1 回 | 最新の機能と修正プログラムは、Power BI サービスに先に提供されます。 サービスに対する Power BI Desktop リリースからの機能のロールアップは、各リリースで Power BI Report Server に提供されます。他のほとんどの機能は、Power BI サービスのみを対象としています。 |
 | Power BI Desktop での Power BI レポートの作成 | はい | はい |  |
 | ブラウザーでの Power BI レポートの作成 | いいえ | はい |  |
 | Power BI 共有データセットをホストして接続する | いいえ | はい | [ワークスペース全体のデータセットの概要](../service-datasets-across-workspaces.md) |

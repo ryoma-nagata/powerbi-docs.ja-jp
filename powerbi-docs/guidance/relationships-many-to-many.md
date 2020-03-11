@@ -6,25 +6,22 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/25/2019
+ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161296"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260454"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多対多のリレーションシップのガイダンス
 
 この記事は、Power BI Desktop を操作するデータ モデラーを対象としています。 3 つの異なる多対多モデリング シナリオについて説明します。 また、モデルで正しく設計する方法についてのガイダンスも提供します。
 
-> [!NOTE]
-> この記事には、モデル リレーションシップの概要は含まれません。 リレーションシップやそのプロパティ、あるいはその構成方法に完全には慣れていない場合は、まず、[Power BI Desktop でのモデル リレーションシップ](../desktop-relationships-understand.md)に関する記事をお読みになることをお勧めします。
->
-> スター スキーマの設計について理解していることも重要です。 詳細については、「[スター スキーマと Power BI での重要性を理解する](star-schema.md)」を参照してください。
+[!INCLUDE [relationships-prerequisite-reading](includes/relationships-prerequisite-reading.md)]
 
-実際には、多対多のシナリオは 3 つあります。 これらは、次のことが必要な場合に発生する可能性があります。
+実際には、3 つの多対多のシナリオがあります。 これらは、次のことが必要な場合に発生する可能性があります。
 
 - [2 つのディメンションの種類のテーブルを関連付ける](#relate-many-to-many-dimensions)
 - [2 つのファクトの種類のテーブルを関連付ける](#relate-many-to-many-facts)
@@ -164,7 +161,7 @@ ms.locfileid: "76161296"
 
 ### <a name="relate-many-to-many-facts-guidance"></a>多対多ファクトの関連付けに関するガイダンス
 
-一般には、多対多カーディナリティを使用して、2 つのファクトの種類のテーブルを直接関連付けることはお勧めしません。 主な理由は、モデルでは、ビジュアル フィルターやグループをレポートする方法に柔軟性がないためです。 この例では、ビジュアルでフィルター処理またはグループ化できるのは、**Order** テーブルの **OrderID** 列でのみとなります。 他の理由は、データの品質に関連します。 データに整合性の問題がある場合、"_弱いリレーションシップ_" の性質により、一部の行がクエリの実行中に省略される可能性があります。 詳細については、「[リレーションシップの評価](../desktop-relationships-understand.md#relationship-evaluation)」を参照してください。
+一般には、多対多カーディナリティを使用して、2 つのファクトの種類のテーブルを直接関連付けることはお勧めしません。 主な理由は、モデルでは、ビジュアル フィルターやグループをレポートする方法に柔軟性がないためです。 この例では、ビジュアルでフィルター処理またはグループ化できるのは、**Order** テーブルの **OrderID** 列でのみとなります。 他の理由は、データの品質に関連します。 データに整合性の問題がある場合、"_弱いリレーションシップ_" の性質により、一部の行がクエリの実行中に省略される可能性があります。 詳細については、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
 
 ファクトの種類のテーブルを直接関連付けるのではなく、[スター スキーマ](star-schema.md)設計原則を採用することをお勧めします。 これを行うには、ディメンションの種類のテーブルを追加します。 一対多リレーションシップを使用して、ディメンションの種類のテーブルをファクトの種類のテーブルに関連付けます。 この設計手法は、柔軟なレポート オプションが提供されるため、堅牢です。 これにより、ディメンションの種類の列のいずれかを使用して、フィルター処理またはグループ化を行い、関連するファクトの種類のテーブルを集計することができます。
 
@@ -187,7 +184,7 @@ ms.locfileid: "76161296"
 - レポート ビジュアルでは、ディメンションの種類のテーブルの任意の表示列で、"_フィルター処理またはグループ化_" することができます
 - レポート ビジュアルでは、ファクトの種類のテーブルの任意の表示列を "_集計_" できます
 - **OrderLine**、**OrderDate**、または **Product** テーブルに適用されたフィルターは、両方のファクトの種類のテーブルに伝達されます
-- すべてのリレーションシップは一対多であり、各リレーションシップは "_強いリレーションシップ_" となります。 データ整合性の問題はマスクされません。 詳細については、「[リレーションシップの評価](../desktop-relationships-understand.md#relationship-evaluation)」を参照してください。
+- すべてのリレーションシップは一対多であり、各リレーションシップは "_強いリレーションシップ_" となります。 データ整合性の問題はマスクされません。 詳細については、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
 
 ## <a name="relate-higher-grain-facts"></a>より高い粒度のファクトを関連付ける
 
@@ -300,4 +297,6 @@ IF(
 
 - [Power BI Desktop でのモデル リレーションシップ](../desktop-relationships-understand.md)
 - [Power BI のスター スキーマおよび重要性について](star-schema.md)
+- [リレーションシップのトラブルシューティング ガイダンス](relationships-troubleshoot.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

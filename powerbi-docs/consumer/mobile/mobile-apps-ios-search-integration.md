@@ -44,7 +44,7 @@ Siri を利用したデバイスの検索では、Power BI アプリで頻繁に
 
 >[!NOTE]
 >
->デバイスの検索と Siri の提案を無効にするには、 **[Device settings]\(デバイス設定\)** > **[Power BI settings]\(Power BI の設定\)** > **[Siri & Search]\(Siri と検索\)** に移動し、 **[Siri & suggestions]\(Siri と提案\)** の設定を無効にします。
+>デバイスの検索と Siri の提案を無効にするには、 **[デバイスの設定]** > **[Power BI の設定]** > **[Siri と検索]** に移動し、 **[Siri & suggestions]\(Siri と提案\)** の設定を無効にします。
 >
 
 ## <a name="next-steps"></a>次の手順

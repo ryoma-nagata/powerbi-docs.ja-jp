@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/27/2020
-ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.date: 03/02/2020
+ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819539"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237962"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -24,6 +24,14 @@ ms.locfileid: "76819539"
 
 ## <a name="january-2020"></a>2020 年 1 月
 - **Power BI Report Server**
+    - *バージョン:1.6.7364.4075 (ビルド 15.0.1102.777)、リリース日:2020 年 3 月 2 日*
+         - バグの修正
+           -  特定のデータ ソースのアップロードに失敗する Power BI レポートの修正
+           -  Power BI Report Server デスクトップ リンクのポータルからのダウンロード場所の修正
+           -  Excel レンダリング用の DynamicImageDPI の修正
+           -  特定のマルチユーザー シナリオで間違ったスレッド カルチャを使用する Oracle 接続の修正
+           -  レポートの埋め込みで失敗の原因となる CustomHeaders の既定値の修正
+           -  特定のケースで間違って生成される SQL パラメーター名の修正
     - *バージョン:1.6.7327.3007 (ビルド 15.0.1102.759)、リリース日:2020 年 1 月 23 日*
          - 機能
             -  Power BI レポートから Excel へのエクスポート。

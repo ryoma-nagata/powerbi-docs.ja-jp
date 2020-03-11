@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609926"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237985"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -134,6 +134,7 @@ Power BI の **[Web に公開]** オプションを使用すると、Power BI �
 
 - 行レベルのセキュリティを使用するレポート
 - ライブ接続データ ソースを使うレポート (Analysis Services 表形式でホストされたオンプレミスの Analysis Service 多次元、Azure Analysis Services など)。
+- レポートとは別のワークスペースに格納されている、[共有データセット](service-datasets-across-workspaces.md)を使用するレポート。
 - 直接共有されているか、組織のコンテンツ パックを経由して共有されているレポート
 - 編集メンバーではないグループ内のレポート
 - 現時点では、 **[Web に公開]** レポートで "R" ビジュアルはサポートされていません。

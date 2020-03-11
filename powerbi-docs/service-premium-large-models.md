@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/25/2020
+ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609912"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260878"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium の大規模なモデル (プレビュー)
 
@@ -123,7 +123,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>リージョンで使用できるかどうか
 
-大規模なモデルは、Power BI が提供されているすべてのリージョンで使用できるわけではありません。 Power BI の大規模なモデルは、[Azure Premium ファイル ストレージ](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)がサポートされている Azure リージョンでのみ使用できます。
+Power BI の大規模なモデルは、[Azure Premium ファイル ストレージ](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)がサポートされている特定の Azure リージョンでのみ使用できます。
 
 次の一覧は、Power BI の大規模なモデルを使用できるリージョンを示しています。 次の一覧に含まれていないリージョンでは、大規模なモデルがサポートされていません。
 
