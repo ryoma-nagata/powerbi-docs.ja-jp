@@ -1,19 +1,19 @@
 ---
 title: Windows 10 のスタート画面にダッシュボードをピン留めする - Power BI モバイル アプリ
 description: 重要なメトリックをひとめで把握できるように、Power BI モバイル アプリから Windows 10 のスタート画面に Power BI のダッシュボードをピン留めする方法について説明します。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 556ca293458c6874097a4733aaed453130778848
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 6abeb9244b4ced7cf0b56d4f01686f570c474989
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869860"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114935"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Power BI モバイル アプリから Windows 10 のスタート画面にダッシュボードをピン留めする
 Windows 10 用の Power BI モバイル アプリから Power BI のダッシュボードを Windows のスタート画面にピン留めすることができます。 これが*ライブ タイル*になります。 スタート画面でタイルをタップすると、Windows 10 用の Power BI モバイル アプリでダッシュボードが開きます。

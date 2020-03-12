@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: レポートにブックマークを追加する
               href: end-user-bookmarks.md
+            - name: レポートにスポットライトを追加する
+              href: end-user-spotlight.md
             - name: Power BI のページ分割されたレポート
               items:
                 - name: ページ分割されたレポート
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: データを取得
           items:
+            - name: Power BI でのワークスペース
+              href: end-user-workspaces.md
             - name: Power BI のアプリ
               href: end-user-apps.md
             - name: アプリをインストールして使用する

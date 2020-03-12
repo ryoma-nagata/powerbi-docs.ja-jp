@@ -2,26 +2,41 @@
   href: /
   topicHref: /
   items:
-    - name: Power BI
-      tocHref: /power-bi/
-      topicHref: /power-bi/
+    - name: Power Platform
+      href: /power-platform/
+      topicHref: /power-platform/
       items:
-        - name: コンシューマー
-          tocHref: /power-bi/consumer/
-          topicHref: /power-bi/consumer/power-bi-consumer-landing
-        - name: 開発者
-          tocHref: /power-bi/developer/
-          topicHref: /power-bi/developer/index
+        - name: Power BI
+          tocHref: /power-bi/
+          topicHref: /power-bi/
           items:
-            - name: Power BI で R を利用した Power BI ビジュアルを使用する
+            - name: コンシューマー
+              tocHref: /power-bi/consumer/
+              topicHref: /power-bi/consumer/index
+            - name: 開発者
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-        - name: ガイド付き学習
-          tocHref: /power-bi/guided-learning/
-          topicHref: /power-bi/guided-learning/
-        - name: レポート サーバー
-          tocHref: /power-bi/report-server/
-          topicHref: /power-bi/report-server/get-started
-        - name: ガイダンス
-          tocHref: /power-bi/guidance/
-          topicHref: /power-bi/guidance/index
+            - name: ガイド付き学習
+              tocHref: /power-bi/guided-learning/
+              topicHref: /power-bi/guided-learning/
+            - name: レポート サーバー
+              tocHref: /power-bi/report-server/
+              topicHref: /power-bi/report-server/index
+            - name: ガイダンス
+              tocHref: /power-bi/guidance/
+              topicHref: /power-bi/guidance/index
+            - name: 共同作業、共有、統合
+              tocHref: /power-bi/collaborate-share/
+              topicHref: /power-bi/collaborate-share/index
+            - name: レポートとダッシュボードの作成
+              tocHref: /power-bi/create-reports/
+              topicHref: /power-bi/create-reports/index
+            - name: データに接続する
+              tocHref: /power-bi/connect-data/
+              topicHref: /power-bi/connect-data/index
+            - name: 作業の開始
+              tocHref: /power-bi/fundamentals/
+              topicHref: /power-bi/fundamentals/index
+            - name: データの変換、成形、モデリング
+              tocHref: /power-bi/transform-model/
+              topicHref: /power-bi/transform-model/index

@@ -19,7 +19,7 @@
     - name: 概念
       expanded: true
       items:
-        - name: モデル リレーションシップを作成する
+        - name: モデル リレーションシップについて
           href: ../desktop-relationships-understand.md
         - name: モデリング ビューを操作する
           href: ../desktop-modeling-view.md

@@ -7,6 +7,8 @@
       items:
         - name: モバイル アプリとは
           href: mobile-apps-for-mobile-devices.md
+        - name: モバイル アプリの新機能
+          href: mobile-whats-new-in-the-mobile-apps.md
         - name: ホーム ページを開く
           href: mobile-apps-home-page.md
     - name: クイックスタート
@@ -22,8 +24,6 @@
     - name: 概念
       expanded: true
       items:
-        - name: モバイル アプリの新機能
-          href: mobile-whats-new-in-the-mobile-apps.md
         - name: モバイル アプリで現実世界のデータを取得する
           href: mobile-apps-data-in-real-world-context.md
         - name: モバイル アプリでデータをオフライン表示する
@@ -44,8 +44,6 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: モバイル アプリでのお気に入り
               href: mobile-apps-favorites.md
-            - name: 対話設定を構成する (電話のみ)
-              href: mobile-app-interaction-settings.md
             - name: Power BI モバイル アプリでデータ アラートを設定する
               href: mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Power BI モバイル アプリで通知を受け取る
@@ -70,6 +68,8 @@
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: Power BI モバイル アプリでバーコードをスキャンする
               href: mobile-apps-scan-barcode-iphone.md
+            - name: 対話設定を構成する
+              href: mobile-app-interaction-settings.md
             - name: モバイル デバイス管理を使用して構成する
               href: mobile-app-configuration.md
         - name: iOS
@@ -100,7 +100,7 @@
               href: mobile-windows-10-phone-app-get-started.md
             - name: スタート画面にダッシュ ボードをピン留めする
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Reporting Services モバイル レポートと KPI の表示
+            - name: オンプレミスのレポートと KPI を表示する
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Surface Hub での Power BI の表示
               href: mobile-windows-10-app-presentation-mode.md
