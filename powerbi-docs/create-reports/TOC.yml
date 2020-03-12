@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop のキーボード ショートカット
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: データ系列
-          href: ../service-data-lineage.md
         - name: ページ分割されたレポート
           items:
             - name: ページ分割されたレポートに直接データを入力する

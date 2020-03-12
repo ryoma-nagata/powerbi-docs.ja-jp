@@ -16,7 +16,7 @@
           href: ../service-usage-metrics.md
         - name: 新しいワークスペースで使用状況を監視する
           href: ../service-modern-usage-metrics.md
-    - name: 操作方法ガイド
+    - name: 攻略ガイド
       expanded: true
       items:
         - name: Power BI での共同作業
@@ -31,6 +31,8 @@
               href: ../service-create-distribute-apps.md
             - name: ワークスペースでデータ ストレージを管理する
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: データ系列
+              href: service-data-lineage.md
             - name: グループの OneDrive に保存されているファイルへの接続
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: クラシック ワークスペースで共同作業する
@@ -61,11 +63,11 @@
               href: ../publisher-for-excel.md
         - name: Power BI をさらにパワーアップ
           items:
-            - name: '[Excel で分析]'
+            - name: Excel で分析
               href: ../service-analyze-in-excel.md
             - name: ”Excel で分析” に関するトラブルシューティング
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: 'エラー:Excel ブックにデータが見つかりませんでした'
+            - name: 'エラー: Excel ブックにデータが見つかりませんでした'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate と Power BI
               href: ../service-flow-integration.md
