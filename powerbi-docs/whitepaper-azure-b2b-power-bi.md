@@ -10,11 +10,11 @@ ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
 ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870889"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79213605"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B を使用して外部のゲストユーザーに Power BI コンテンツを配布する
 
@@ -38,7 +38,7 @@ Power BI は[Azure Active Directory 企業間 (AZURE AD B2B)](https://docs.micro
 > [!NOTE]
 > このホワイトペーパーでは、Azure AD として Azure Active Directory と、Azure AD B2B としての企業とビジネスの Azure Active Directory について説明します。
 
-## <a name="scenarios"></a>モデル
+## <a name="scenarios"></a>シナリオ
 
 Contoso は自動車メーカーであり、製造工程の実行に必要なすべてのコンポーネント、マテリアル、およびサービスを提供するさまざまなサプライヤーと連携しています。 Contoso は、サプライチェーンの物流を合理化し、Power BI を使用してサプライチェーンの主要なパフォーマンスメトリックを監視する計画を立てています。 Contoso は、安全で管理しやすい方法で外部サプライチェーンパートナーと共有したいと考えています。
 
@@ -283,7 +283,7 @@ Power BI の Azure AD B2B との統合により、Contoso はシームレスで�
     > 招待は、外部ユーザーが初めて組織に招待されたときにのみ必要です。
 
 
-3. コンテンツを配布する
+3. コンテンツの配布
 
     Contoso の BI チームが BI ポータルと招待されたゲストユーザーを作成したので、ゲストユーザーにアプリへのアクセスを許可して発行することによって、ポータルをエンドユーザーに配布することができます。 Power BI、Contoso テナントに既に追加されているゲストユーザーの名前をオートコンプリートします。 この時点で、他のゲストユーザーへのアドホック招待を追加することもできます。
 
@@ -297,7 +297,7 @@ Power BI の Azure AD B2B との統合により、Contoso はシームレスで�
 
     このリンクをクリックすると、ゲストユーザーは自身の組織の id で認証するように求められます。
 
-    ![サインインページ](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_20.png)
+    ![[サインイン] ページ](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_20.png)
 
 
     正常に認証されると、Contoso の BI アプリにリダイレクトされます。
@@ -336,7 +336,7 @@ Azure AD アカウントが外部パーティの Azure AD で使用または作�
 Contoso は、サプライヤーおよびパートナー組織からのゲストユーザーのライセンスを取得して、Power BI コンテンツにアクセスできるようにする3つの方法のいずれかを選択できます。
 
 > [!NOTE]
-> _Azure AD B2B's free レベルでは、AZURE AD B2B で Power BI を使用するのに十分です。動的グループなどの高度な Azure AD B2B 機能では、追加のライセンスが必要になります。詳細については、Azure AD B2B のドキュメントを参照してください:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Azure AD B2B's free レベルでは、AZURE AD B2B で Power BI を使用するのに十分です。動的グループなどの高度な Azure AD B2B 機能では、追加のライセンスが必要になります。詳細については、Azure AD B2B のドキュメントを参照してください:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>方法 1: Contoso を使用する Power BI Premium
 
@@ -491,7 +491,7 @@ Power BI 管理ポータルでは、次の図に設定が表示されます。
 これらのユーザーが Power BI にログインできるようにするには、テナントの URL を指定します。 テナントの URL を見つけるには、次の手順に従います。
 
 1. Power BI サービスの上部のメニューで、[ヘルプ (?] を選択し**ます。** ) をクリックし、 **Power BI について説明**します。
-2. **[テナント URL]** の横にある値を探します。 これは、ゲストユーザーと共有できるテナント URL です。
+2. [**テナント URL**] の横にある値を探します。 これは、ゲストユーザーと共有できるテナント URL です。
 
     ![テナントの URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
@@ -586,7 +586,7 @@ Contoso のもう1つのオプションは、カスタム認証 (["アプリ所�
 
 Web アプリ内では、Power BI レポートは Power BI Embedded 配置から埋め込まれます。 この web アプリは、サプライヤーと Contoso との対話を容易にすることを目的とした、統合されたエクスペリエンスでレポートと関連サービスへのアクセスを効率化します。 このポータル環境は、サプライヤーがこれらのリソースにアクセスできないようにするために、Contoso internal AAD と Contoso の内部 Power BI 環境から分離されています。 通常、データの分離を確保するために、データは別のパートナーデータウェアハウスに格納されます。 この分離には、組織のデータへの直接アクセスを許可する外部ユーザーの数を制限し、外部ユーザーが使用できる可能性があるデータを制限し、外部ユーザーとの偶発的な共有を制限するための利点があります。
 
-Power BI Embedded を使用すると、ポータルでは、アプリトークンまたはマスターユーザーと Azure モデルで購入した premium 容量を使用して、ライセンスを利用し、エンドユーザーにライセンスを割り当てることに関する問題を簡略化し、予想に基づいてスケールアップ/スケールダウンすることができます。ユーセジリンク. パートナーは、パートナーのすべてのニーズを念頭に置いて設計された単一のポータルにアクセスするため、全体的な品質と一貫したエクスペリエンスを提供できます。 最後に、Power BI Embedded ベースのソリューションは、通常はマルチテナントとして設計されているため、パートナー組織間の分離を容易にすることができます。
+Power BI Embedded を使用すると、ポータルは、アプリトークンまたはマスターユーザーと Azure モデルで購入した premium 容量を使用して、有益なライセンスを活用できます。これにより、エンドユーザーへのライセンスの割り当てに関する問題が簡単になり、予想される使用量に基づいてスケールアップ/スケールダウンすることができます。 パートナーは、パートナーのすべてのニーズを念頭に置いて設計された単一のポータルにアクセスするため、全体的な品質と一貫したエクスペリエンスを提供できます。 最後に、Power BI Embedded ベースのソリューションは、通常はマルチテナントとして設計されているため、パートナー組織間の分離を容易にすることができます。
 
 この代替手段を選択する理由:
 
@@ -606,7 +606,7 @@ Power BI Embedded を使用すると、ポータルでは、アプリトーク�
 
 
 
-## <a name="faq"></a>よく寄せられる質問
+## <a name="faq"></a>FAQ
 
 **Contoso は、自動的に引き換えされる招待を送信して、ユーザーが "準備完了" になるようにすることができます。または、ユーザーは常に引き換え URL をクリックする必要がありますか。**
 
@@ -616,7 +616,7 @@ Power BI Embedded を使用すると、ポータルでは、アプリトーク�
 
 **パートナーが多要素認証を使用していない場合、Contoso がゲストユーザーに対して multi-factor authentication を強制することはできますか。**
 
-はい。 詳細については、「 [B2B コラボレーションユーザーの条件付きアクセス](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)」を参照してください。
+可能。 詳細については、「 [B2B コラボレーションユーザーの条件付きアクセス](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)」を参照してください。
 
 **招待されたパートナーがフェデレーションを使用して独自のオンプレミス認証を追加している場合、B2B コラボレーションはどのように動作しますか。**
 
