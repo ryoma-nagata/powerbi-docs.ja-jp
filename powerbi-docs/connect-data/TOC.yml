@@ -46,6 +46,8 @@
           href: ../power-bi-data-sources.md
         - name: Power BI データ ソースの前提条件
           href: ../desktop-data-source-prerequisites.md
+        - name: Power BI Desktop での拡張データセット メタデータの使用 (プレビュー)
+          href: ../desktop-enhanced-dataset-metadata.md
         - name: Power BI で多次元モデルを操作する
           href: ../desktop-default-member-multidimensional-models.md
         - name: Power BI での DirectQuery の使用について
@@ -54,9 +56,9 @@
           items:
             - name: データ ゲートウェイの展開に関するガイダンス
               href: ../service-gateway-deployment-guidance.md
-            - name: オンプレミス データ ゲートウェイに関する FAQ
+            - name: オンプレミス データ ゲートウェイに関してよく寄せられる質問 (FAQ)
               href: ../service-gateway-power-bi-faq.md
-    - name: 操作方法ガイド
+    - name: 攻略ガイド
       items:
         - name: データ ソースに接続する
           href: ../desktop-connect-to-data.md
@@ -92,7 +94,7 @@
                   href: ../desktop-python-ide.md
                 - name: Python を使用して視覚エフェクトを作成する
                   href: ../desktop-python-visuals.md
-            - name: R スクリプトの実行
+            - name: R スクリプトを実行する
               href: ../desktop-r-scripts.md
             - name: クエリ エディターで R を使用する
               href: ../desktop-r-in-query-editor.md
@@ -154,7 +156,7 @@
               href: ../service-get-data-from-files.md
             - name: Excel での魅力的なレポート作成
               href: ../service-from-excel-to-stunning-report.md
-            - name: Excel ブック ファイルをからデータを取得する
+            - name: Excel ブック ファイルからデータを取得する
               href: ../service-excel-workbook-files.md
             - name: Power BI Desktop ファイルからデータを取得する
               href: ../service-desktop-files.md
@@ -202,9 +204,9 @@
               href: ../sql-server-analysis-services-tabular-data.md
         - name: データの更新
           items:
-            - name: Power BI でのデータ更新
+            - name: Power BI でのデータの更新
               href: ../refresh-data.md
-            - name: スケジュールされた更新を構成する
+            - name: スケジュールされた更新の構成
               href: ../refresh-scheduled-refresh.md
             - name: 増分更新を構成する
               href: ../service-premium-incremental-refresh.md
@@ -244,7 +246,7 @@
               href: ../service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: ”Excel で分析” に関するトラブルシューティング
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: 'エラー:Excel ブックにデータが見つかりませんでした'
+            - name: 'エラー: Excel ブックにデータが見つかりませんでした'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: 更新が失敗した場合に Xero コンテンツ パックの資格情報を更新する方法
               href: ../service-refresh-xero-credentials.md
