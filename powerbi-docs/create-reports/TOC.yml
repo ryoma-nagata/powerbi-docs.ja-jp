@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: ボタンを作成する
               href: ../desktop-buttons.md
+            - name: ドリル スルー ボタンを作成する
+              href: ../desktop-drill-through-buttons.md
             - name: ブックマークを作成して分析情報を保存および共有する
               href: ../desktop-bookmarks.md
             - name: レポートのテーマを操作する
