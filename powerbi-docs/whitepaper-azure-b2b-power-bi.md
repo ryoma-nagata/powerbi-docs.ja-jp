@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79213605"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488593"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B を使用して外部のゲストユーザーに Power BI コンテンツを配布する
 
@@ -27,7 +27,7 @@ ms.locfileid: "79213605"
 > [!NOTE]
 > ブラウザーで **[印刷]** を選択して **[PDF として保存]** を選択することで、このホワイト ペーパーを保存または印刷できます。
 
-## <a name="introduction"></a>概要
+## <a name="introduction"></a>はじめに
 
 Power BI によって、組織はビジネスの360度のビューを提供し、これらの組織のすべてのユーザーがデータを使用してインテリジェントな意思決定を行えるようにします。 これらの組織の多くは、外部のパートナー、クライアント、および請負業者との信頼関係が強固で信頼されています。 これらの組織は、これらの外部パートナーのユーザーに Power BI のダッシュボードやレポートへのセキュリティで保護されたアクセスを提供する必要があります。
 
@@ -306,7 +306,7 @@ Power BI の Azure AD B2B との統合により、Contoso はシームレスで�
 
     その後、ゲストユーザーは、電子メールのリンクをクリックするかリンクをブックマークすることで、Contoso のアプリにアクセスできます。 Contoso では、ゲストユーザーが既に使用している既存のエクストラネットポータルにこのリンクを追加することで、ゲストユーザーの作業を容易にすることもできます。
 
-4. 次の手順
+4. 次のステップ:
 
     Contoso は、Power BI アプリと Azure AD B2B を使用して、コードなしでサプライヤーの BI ポータルをすばやく作成できました。 これにより、標準化された分析を必要なすべてのサプライヤーに配布することが大幅に簡素化されました。
 
@@ -336,7 +336,7 @@ Azure AD アカウントが外部パーティの Azure AD で使用または作�
 Contoso は、サプライヤーおよびパートナー組織からのゲストユーザーのライセンスを取得して、Power BI コンテンツにアクセスできるようにする3つの方法のいずれかを選択できます。
 
 > [!NOTE]
-> _Azure AD B2B's free レベルでは、AZURE AD B2B で Power BI を使用するのに十分です。動的グループなどの高度な Azure AD B2B 機能では、追加のライセンスが必要になります。詳細については、Azure AD B2B のドキュメントを参照してください:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Azure AD B2B's free レベルでは、AZURE AD B2B で Power BI を使用するのに十分です。動的グループなどの高度な Azure AD B2B 機能では、追加のライセンスが必要になります。詳細については、Azure AD B2B のドキュメントを参照してください:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>方法 1: Contoso を使用する Power BI Premium
 
@@ -491,7 +491,7 @@ Power BI 管理ポータルでは、次の図に設定が表示されます。
 これらのユーザーが Power BI にログインできるようにするには、テナントの URL を指定します。 テナントの URL を見つけるには、次の手順に従います。
 
 1. Power BI サービスの上部のメニューで、[ヘルプ (?] を選択し**ます。** ) をクリックし、 **Power BI について説明**します。
-2. [**テナント URL**] の横にある値を探します。 これは、ゲストユーザーと共有できるテナント URL です。
+2. **[テナント URL]** の横にある値を探します。 これは、ゲストユーザーと共有できるテナント URL です。
 
     ![テナントの URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
@@ -576,7 +576,7 @@ B2B Azure AD 組織間でのデータとレポートの共有が容易になり�
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>代替オプション 2: カスタム認証を使用してカスタム Power BI Embedded アプリケーションを作成する
 
-Contoso のもう1つのオプションは、カスタム認証 (["アプリ所有データ"](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers)) を使用して、独自のカスタム埋め込み Power BI アプリケーションを作成することです。 多くの組織には、Power BI コンテンツを外部パートナーに配布するためのカスタムアプリケーションを作成するための時間やリソースがありませんが、組織によっては、これが最善の方法であり、非常に深刻な考慮事項です。
+Contoso のもう1つのオプションは、カスタム認証 (["アプリ所有データ"](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)) を使用して、独自のカスタム埋め込み Power BI アプリケーションを作成することです。 多くの組織には、Power BI コンテンツを外部パートナーに配布するためのカスタムアプリケーションを作成するための時間やリソースがありませんが、組織によっては、これが最善の方法であり、非常に深刻な考慮事項です。
 
 多くの場合、組織は既存のパートナーポータルを使用して、パートナーのすべての組織リソースへのアクセスを一元化し、組織の内部リソースから分離し、パートナーが多数のパートナーをサポートするための合理化されたエクスペリエンスを提供します。個々のユーザー。
 
@@ -606,7 +606,7 @@ Power BI Embedded を使用すると、ポータルは、アプリトークン�
 
 
 
-## <a name="faq"></a>FAQ
+## <a name="faq"></a>よく寄せられる質問
 
 **Contoso は、自動的に引き換えされる招待を送信して、ユーザーが "準備完了" になるようにすることができます。または、ユーザーは常に引き換え URL をクリックする必要がありますか。**
 
@@ -616,7 +616,7 @@ Power BI Embedded を使用すると、ポータルは、アプリトークン�
 
 **パートナーが多要素認証を使用していない場合、Contoso がゲストユーザーに対して multi-factor authentication を強制することはできますか。**
 
-可能。 詳細については、「 [B2B コラボレーションユーザーの条件付きアクセス](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)」を参照してください。
+はい。 詳細については、「 [B2B コラボレーションユーザーの条件付きアクセス](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)」を参照してください。
 
 **招待されたパートナーがフェデレーションを使用して独自のオンプレミス認証を追加している場合、B2B コラボレーションはどのように動作しますか。**
 
