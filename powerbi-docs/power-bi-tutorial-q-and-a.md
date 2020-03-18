@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875083"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488869"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI Q&A を使用してデータを探索しビジュアルを作成する
 
 自然言語を使用して質問するのが、データから回答を得る最も速い方法である場合があります。 Power BI の Q&A 機能では、自分の言葉でご利用のデータを探索することができます。  この記事の最初の部分では、Power BI サービスのダッシュボードで Q&A を使用する方法について説明します。 2 番目の部分は、Power BI サービスまたは Power BI Desktop でレポートを作成するときに Q&A でできることを示しています。 背景情報については、[コンシューマー向けの Q&A](consumer/end-user-q-and-a.md) に関する記事を参照してください。 
 
-[Power BI モバイル アプリの Q&A](consumer/mobile/mobile-apps-ios-qna.md) および [Power BI Embedded の Q&A ](developer/qanda.md) については、別の記事で説明します。 
+[Power BI モバイル アプリの Q&A](consumer/mobile/mobile-apps-ios-qna.md) および [Power BI Embedded の Q&A ](developer/embedded/qanda.md) については、別の記事で説明します。 
 
 Q&A は対話型で、楽しく行えます。 視覚化によってさらに調べるべき点が見つかるため、多くの場合は 1 つの質問が他の質問につながります。 Q&A を使って視覚エフェクトを作成し、それを詳しく調べて、ダッシュボードに表示する、Amanda のデモンストレーションをご覧ください。
 

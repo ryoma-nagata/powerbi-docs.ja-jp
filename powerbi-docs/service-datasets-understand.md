@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: eaa4354ed7355c0e01d9f75675cb7fed4bdc9d96
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6170217119e443a2eb24aac056623dce5070303e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74133729"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79208013"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Power BI サービスのデータセット
 
@@ -26,7 +26,7 @@ Power BI データセットは、レポート作成と視覚化の準備がで�
 - Power BI 容量でホストされていない既存のデータ モデルへの接続
 - モデルを含む Power BI Desktop ファイルのアップロード
 - (1 つ以上の Excel テーブル、ブックのデータ モデル、またはその両方を含む) Excel ブックのアップロード、または CSV (コンマ区切り値) ファイルのアップロード
-- Power BI サービスを使用した[プッシュ データセット](developer/walkthrough-push-data.md)の作成
+- Power BI サービスを使用した[プッシュ データセット](developer/automation/walkthrough-push-data.md)の作成
 - Power BI サービスを使用した[ストリーミング データセットまたはハイブリッド ストリーミング データセット](service-real-time-streaming.md)の作成
 
 ストリーミング データセットを除き、データセットはデータ モデルを表し、[Analysis Services](/analysis-services/analysis-services-overview) の成熟したモデリング テクノロジが活用されます。

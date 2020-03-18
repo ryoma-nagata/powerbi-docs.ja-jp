@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 021040706ff34f43c6a7772849f2e27181041bc9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 56ebfeb8c1c52b83f5be0ca9e9db6f312986dd57
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880048"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380149"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Power BI ビジュアルでのハイコントラスト モードのサポート
 
@@ -82,9 +82,9 @@ Power BI のネイティブ ビジュアルは、次のガイドラインに従�
 
 たとえば、次のサンプルの棒グラフでは、すべてのバーが太さ 2 ピクセルの前景の枠線および背景の塗りつぶしで描画されています。 既定の色と、2 つのハイコントラスト テーマを使用した場合の外観を比較してください。
 
-![標準色を使用したサンプルの棒グラフ](./media/hc-samplebarchart-standard.png)
-![*黒 #2* の色テーマを使用したサンプルの棒グラフ](./media/hc-samplebarchart-dark2.png)
-![*白* の色テーマを使用したサンプルの棒グラフ](./media/hc-samplebarchart-white.png)
+![標準色を使用したサンプルの棒グラフ](media/high-contrast-support/hc-samplebarchart-standard.png)
+![*黒 #2* の色テーマを使用したサンプルの棒グラフ](media/high-contrast-support/hc-samplebarchart-dark2.png)
+![*白* の色テーマを使用したサンプルの棒グラフ](media/high-contrast-support/hc-samplebarchart-white.png)
 
 次のセクションでは、ハイコントラストをサポートするために変更された `visualTransform` 関数の 1 つの場所を示します。 それは、更新の間にレンダリングの一部として呼び出されます。
 

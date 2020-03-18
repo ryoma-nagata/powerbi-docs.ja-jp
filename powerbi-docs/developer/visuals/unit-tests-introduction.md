@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879957"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379569"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>チュートリアル:Power BI のビジュアル プロジェクトの単体テストを追加する
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js` では、Chrome ブラウザーでテスト ケースが実行されます。
 
-![Chrome で開かれた Karma JavaScript](./media/karmajs-chrome.png)
+![Chrome で開かれた Karma JavaScript](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > Google Chrome をローカル環境にインストールする必要があります。
@@ -453,7 +453,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 データをデータ フィールド バケットに入れると、Power BI により、そのデータに基づくカテゴリの `dataview` オブジェクトが生成されます。
 
-![データ フィールド バケット](./media/fields-buckets.png)
+![データ フィールド バケット](media/unit-tests-introduction/fields-buckets.png)
 
 単体テストでは、データを再生成するための Power BI コア機能はありません。 ただし、静的データをカテゴリの `dataview` にマップする必要があります。 `TestDataViewBuilder` クラスがそれをマップするのに役立ちます。
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 次のように、Chrome ブラウザーでビジュアルが開きます。
 
-![Chrome で UT が起動したところ](./media/karmajs-chrome-ut-runned.png)
+![Chrome で UT が起動したところ](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 概要では、カバレッジが増加したことが示されます。 現在のコード カバレッジに関する詳細を確認するには、`coverage\index.html` を開きます。
 
-![UT のカバレッジ インデックス](./media/code-coverage-index.png)
+![UT のカバレッジ インデックス](media/unit-tests-introduction/code-coverage-index.png)
 
 または、`src` フォルダーのスコープを確認します。
 
-![src フォルダーのカバレッジ](./media/code-coverage-src-folder.png)
+![src フォルダーのカバレッジ](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 ファイルのスコープでは、ソース コードを確認できます。 単体テストの間に特定のコードが実行されない場合、`Coverage` ユーティリティではその行が赤で強調表示されます。
 
-![visual.ts ファイルのコード カバレッジ](./media/code-coverage-visual-src.png)
+![visual.ts ファイルのコード カバレッジ](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > コード カバレッジはビジュアルの機能のカバレッジが十分であることを意味するものではありません。 1 つの簡単な単体テストで、`src\visual.ts` の 96% 以上のカバレッジが提供されています。
 
 ## <a name="next-steps"></a>次の手順
 
-ビジュアルの準備ができたら、発行用に送信できます。 詳細については、「[Power BI ビジュアルを AppSource に発行する](../office-store.md)」をご覧ください。
+ビジュアルの準備ができたら、発行用に送信できます。 詳細については、「[Power BI ビジュアルを AppSource に発行する](office-store.md)」をご覧ください。

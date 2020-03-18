@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 1f1d88e2484d48e1f479523dddf6bb0cb63e5d0f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bf9248b29c71f42de9fed53ee0148847a8f60d30
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875190"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488639"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Power BI Premium/Embedded でのクエリのキャッシュ
 
@@ -41,4 +41,4 @@ Power BI Premium または Power BI Embedded を使用する組織は、"*クエ
 ## <a name="next-steps"></a>次の手順
 
 * [Power BI Premium とは何ですか?](service-premium-what-is.md)
-* [Azure の Power BI Embedded とは何か](developer/azure-pbie-what-is-power-bi-embedded.md)
+* [Azure の Power BI Embedded とは何か](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)

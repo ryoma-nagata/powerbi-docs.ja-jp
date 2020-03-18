@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696650"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380852"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Power BI ビジュアルでのデータ ビューのマッピングについて理解する
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 結果として、ビジュアルには Power BI の 1 つの値が表示されます。
 
-![単一の dataview マッピング ビジュアルの例](./media/visual-simple-dataview-mapping.png)
+![単一の dataview マッピング ビジュアルの例](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>カテゴリ別のデータ マッピング
 
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 ビジュアルの結果:
 
-![カテゴリ データ ビューのマッピングがあるビジュアル](./media/categorical-data-view-mapping-visual.png)
+![カテゴリ データ ビューのマッピングがあるビジュアル](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>テーブルのデータ マッピング
 
@@ -508,7 +508,7 @@ export class Visual implements IVisual {
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -557,7 +557,7 @@ export class Visual implements IVisual {
 
 データ バインド:
 
-![テーブル データ ビューのマッピングのデータ バインド](./media/table-dataview-mapping-data.png)
+![テーブル データ ビューのマッピングのデータ バインド](media/dataview-mappings/table-dataview-mapping-data.png)
 
 Power BI では、ご利用のデータはテーブル データ ビューとして表示されます。 データが順序付けられていると想定しないでください。
 
@@ -603,7 +603,7 @@ Power BI では、ご利用のデータはテーブル データ ビューとし
 
 目的のフィールドを選択してから、[合計] を選択することで、データを集計できます。  
 
-![データの集計](./media/data-aggregation.png)
+![データの集計](media/dataview-mappings/data-aggregation.png)
 
 テーブル データ ビューのマッピングを処理するコード サンプルです。
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![テーブル データ ビューのマッピングがあるビジュアル](./media/table-dataview-mapping-visual.png)
+![テーブル データ ビューのマッピングがあるビジュアル](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>マトリックスのデータ マッピング
 
@@ -767,7 +767,7 @@ Power BI によって階層データ構造が作成されます。 ツリー階�
 
 Power BI のコア マトリックス ビジュアルでは、データがテーブルとしてレンダリングされます。
 
-![マトリックス ビジュアル](./media/matrix-visual-smaple.png)
+![マトリックス ビジュアル](media/dataview-mappings/matrix-visual-smaple.png)
 
 このビジュアルでは、次のコードに記述されているようにそのデータ構造が取得されます (ここでは、最初の 2 つのテーブル行のみを表示しています)。
 

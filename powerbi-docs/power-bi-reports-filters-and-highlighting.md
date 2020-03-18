@@ -10,11 +10,11 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877610"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207070"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI レポートのフィルターと強調表示
  この記事では、Power BI サービスでのフィルター処理と強調表示の概要を示します。 操作は Power BI Desktop の場合とほぼ同じです。 *フィルター処理*を実行すると、絞り込んだデータ以外のすべてのデータが削除されます。 "*強調表示*" はフィルター処理ではありません。 データが削除されることはなく、表示されるデータのサブセットが強調表示されます。強調表示対象外のデータは表示されますが、淡色になります。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757855"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436067"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI で塗り分け地図 (コロプレス地図) を作成して使用する
 
@@ -63,7 +63,7 @@ Bing に送信されているデータの詳細、およびジオコーディン
    > 
    > 
 
-[動画 https://www.youtube.com/embed/ajTPGNpthcg ]
+> [動画 https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>塗り分け地図を作成する
 1. [フィールド] ペインから、 **[Geo]** \> **[State]** フィールドを選択します。    
@@ -130,7 +130,7 @@ Power BI では、塗り分け地図の外観に対する数多くのコント�
 
 Power BI Desktop でデータセットを編集するアクセス許可がある場合は、このビデオでマップのあいまいさに対処する方法をご覧ください。
 
-[動画 https://www.youtube.com/embed/Co2z9b-s_yM ]
+> [動画 https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 緯度と経度のデータにはアクセスできないけれども、データセットへの編集アクセス権はある場合は、[この手順に従ってデータセットを更新](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7)してください。
 

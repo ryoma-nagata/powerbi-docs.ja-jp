@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427716"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207967"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium 容量でワークロードを構成する
 
-この記事では、Power BI Premium 容量に対するワークロードの構成と有効化について説明します。 既定では、容量は、Power BI のクエリの実行に関連付けられているワークロードのみをサポートします。 **[AI (Cognitive Services)](service-cognitive-services.md)** 、 **[データフロー](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** 、および **[ページ分割されたレポート](paginated-reports-save-to-power-bi-service.md)** に対する追加のワークロードの有効化と構成を行うこともできます。
+この記事では、Power BI Premium 容量に対するワークロードの構成と有効化について説明します。 既定では、容量は、Power BI のクエリの実行に関連付けられているワークロードのみをサポートします。 **[AI (Cognitive Services)](service-cognitive-services.md)** 、 **[データフロー](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** 、および **[ページ分割されたレポート](paginated-reports/paginated-reports-save-to-power-bi-service.md)** に対する追加のワークロードの有効化と構成を行うこともできます。
 
 ## <a name="default-memory-settings"></a>既定のメモリ設定
 
@@ -67,7 +67,7 @@ AI ワークロードを使用すると、Power BI で cognitive services と自
 | **Max Intermediate Row Set Count (中間行セットの最大数)** | DirectQuery によって返される中間行の最大数。 既定値は 1,000,000 に設定されており、許容範囲は 100,000 - 2,147,483,647 です。 |
 | **オフライン データセットの最大サイズ (GB)** | メモリ内のオフライン データセットの最大サイズ。 これはディスク上の圧縮サイズです。 既定値は SKU によって設定され、許容範囲は 0.1 - 10 GB です。 |
 | **Max Result Row Set Count (結果行セットの最大数)** | DAX クエリで返される行の最大数。 既定値は -1 (無制限) に設定されており、許容範囲は 100,000 - 2,147,483,647 です。 |
-| **クエリのメモリ制限 (%)** | ワークロード内で、MDX または DAX クエリの実行に使用できる空きメモリの最大の割合。 |
+| **クエリのメモリ制限 (%)** | ワークロード内で、MDX または DAX クエリの実行に使用できる空きメモリの最大の割合。 既定値は 0 です。この場合、SKU に固有の自動的なクエリのメモリの制限が適用されます。 |
 | **クエリのタイムアウト (秒)** | クエリがタイムアウトするまでの最大時間。既定値は 3,600 秒 (1 時間) です。 値 0 は、クエリがタイムアウトしないことを指定します。 |
 | **Automatic page refresh (preview) (ページの自動更新 (プレビュー))** | Premium ワークスペースでページの自動更新を含むレポートを作成する機能のオン/オフを切り替えます。 |
 | **Minimum refresh interval (最小更新間隔)** | ページの自動更新がオンの場合に、ページ更新間隔に許容される最小間隔。 既定値は 5 分であり、許容される最小値は 1 秒です。 |
@@ -102,6 +102,14 @@ AI ワークロードを使用すると、Power BI で cognitive services と自
 Power BI レポート、Excel で分析レポートだけでなく、XMLA エンドポイントを介して接続できる他のツールによって実行されるすべての DAX および MDX クエリに、この設定が適用されます。
 
 データ更新操作によって、データセット内のデータが更新された後のダッシュボード タイルとビジュアル キャッシュの更新処理の一環して、DAX クエリも実行される可能性があることに注意してください。 このようなクエリは、この設定が原因で失敗することもあります。また、これが原因で、データセット内のデータが正常に更新された場合でも、データ更新操作が失敗状態と表示されることがあります。
+
+既定の設定は 0 です。この場合、次の SKU に固有の自動的なクエリのメモリの制限が適用されます。
+
+|                              | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
+|------------------------------|----------|----------|----------|---------|---------|---------|
+| 自動的なクエリのメモリの制限 | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
+|                              |          |          |          |         |         |         |
+
 
 #### <a name="query-timeout"></a>クエリのタイムアウト
 
@@ -200,7 +208,7 @@ Power BI のレポートでは、容量に対するクエリごとに、この�
 
 [Power BI Premium の容量の最適化](service-premium-capacity-optimize.md)     
 [データフローを使用した Power BI でのセルフサービスのデータ準備](service-dataflows-overview.md)   
-[Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)   
+[Power BI Premium のページ分割されたレポートとは](paginated-reports/paginated-reports-report-builder-power-bi.md)   
 [Power BI Desktop でのページの自動更新 (プレビュー)](desktop-automatic-page-refresh.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティに質問する](https://community.powerbi.com/)

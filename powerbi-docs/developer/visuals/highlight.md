@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819171"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380046"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI ビジュアルでデータ ポイントを強調表示する
 
 既定では、要素が選択されるたびに、`dataView` オブジェクト内の `values` 配列は、選択された値のみを示すようにフィルター処理されます。 これにより、ページ上の他のすべてのビジュアルには、選択したデータのみが表示されます。
 
-![`dataview` の強調表示の既定の動作](./media/highlight-dataview.png)
+![`dataview` の強調表示の既定の動作](media/highlight/highlight-dataview.png)
 
 `capabilities.json` の `supportsHighlight` プロパティを `true` に設定すると、フィルター処理されていない完全な `values` 配列が `highlights` 配列とともに返されます。 `highlights` 配列は values 配列と同じ長さになり、選択されていない values はすべて `null` に設定されます。 このプロパティを有効にすると、`values` 配列と `highlights` 配列を比較することによって適切なデータを強調表示する動作がビジュアル側で実行されます。
 
-![`dataview` でサポートされている強調表示](./media/highlight-dataview-supports.png)
+![`dataview` でサポートされている強調表示](media/highlight/highlight-dataview-supports.png)
 
 この例では、1 つの縦棒が選択されていることがわかります。 これは highlights 配列の唯一の値です。 また、複数選択されたり部分的な強調表示が存在したりする場合もあることに注意してください。 強調表示された値は、データ ビューに表示されます。
 
-> [!Note]
+> [!NOTE]
 > テーブル データ ビューのマッピングでは、強調表示機能がサポートされていません。
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>カテゴリ別のデータ ビューのマッピングを持つデータ ポイントを強調表示する
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 ここで、`categoryValues` はカテゴリ値の配列であり、`measureValues` はメジャーの配列であり、`measureHighlights` は値の強調表示部分です。
 
-> [!Note]
+> [!NOTE]
 > `measureHighlights` プロパティの値は、`categoryValues` プロパティの値より小さい場合があります。
 > これは、値が部分的に強調表示されたことを意味します。
 
@@ -271,7 +271,7 @@ div.value {
 
 その結果、ビジュアルの次のビューが表示されます。
 
-![カテゴリ別のデータ ビューのマッピングと強調表示を持つビジュアル](./media/dev-categorical-visual-highlight-demo.gif)
+![カテゴリ別のデータ ビューのマッピングと強調表示を持つビジュアル](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>マトリックスのデータ ビューのマッピングを持つデータ ポイントを強調表示する
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 `value` プロパティは、他のビジュアルによる選択を適用せずにノードの値を表し、highlight プロパティはデータのどの部分が強調表示されたかを示します。
 
-> [!Note]
+> [!NOTE]
 > `highlight` プロパティの値は、`value` プロパティの値より小さい場合があります。
 > これは、値が部分的に強調表示されたことを意味します。
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 結果として、ボタンと値 `highlighted value/default value` を持つビジュアルを取得します
 
-![マトリックスのデータ ビューのマッピングと強調表示を持つビジュアル](./media/dev-matrix-visual-highlight-demo.gif)
+![マトリックスのデータ ビューのマッピングと強調表示を持つビジュアル](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>次の手順
 

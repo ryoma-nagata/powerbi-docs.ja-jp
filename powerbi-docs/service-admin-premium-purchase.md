@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427739"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488616"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium の購入方法
 
@@ -112,7 +112,7 @@ Premium サブスクリプションをキャンセルした場合、または容
 
 A SKU は Azure Power BI Embedded サービスを通じて利用できます。 A SKU は、次の方法で使用できます。
 
-- サード パーティ アプリケーションに Power BI を埋め込むことができるようにします。 詳細については、[Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md) に関する記事を参照してください。
+- サード パーティ アプリケーションに Power BI を埋め込むことができるようにします。 詳細については、[Power BI Embedded](developer/embedded/azure-pbie-what-is-power-bi-embedded.md) に関する記事を参照してください。
 
 - P SKU を購入する前に、Premium 機能をテストします。
 

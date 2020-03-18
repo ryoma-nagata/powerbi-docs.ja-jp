@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079119"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488271"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>手順 2:認証アクセス トークンを取得する
 
 この記事は、シリーズ「[Power BI データセットにデータをプッシュする](walkthrough-push-data.md)」の 2 番目の手順です。
 
-手順 1 では、[Azure AD でクライアント アプリを登録しました](../register-app.md)。 この手順では、認証アクセス トークンを取得します。 Power BI アプリは、Azure Active Directory と統合されることで、アプリにセキュリティで保護されたサインインと認証を提供します。 アプリでは、トークンを使って Azure AD に対して認証を行い、Power BI リソースにアクセスします。
+手順 1 では、[Azure AD でクライアント アプリを登録しました](../embedded/register-app.md)。 この手順では、認証アクセス トークンを取得します。 Power BI アプリは、Azure Active Directory と統合されることで、アプリにセキュリティで保護されたサインインと認証を提供します。 アプリでは、トークンを使って Azure AD に対して認証を行い、Power BI リソースにアクセスします。
 
 ## <a name="get-an-authentication-access-token"></a>認証アクセス トークンを取得する
 
-開始する前に、「[Power BI データセットにデータをプッシュする](walkthrough-push-data.md)」シリーズの[前の手順](../register-app.md)を完了していることを確認してください。 
+開始する前に、「[Power BI データセットにデータをプッシュする](walkthrough-push-data.md)」シリーズの[前の手順](../embedded/register-app.md)を完了していることを確認してください。 
 
 この手順では、Visual Studio 2015 以降が必要です。
 
@@ -39,7 +39,7 @@ ms.locfileid: "79079119"
 
 3. 次の手順の後に一覧表示されているサンプル コードを Program.cs に追加します。
 
-4. "{ClientID}" を、[前のシリーズの記事](../register-app.md)で、アプリを登録したときに取得した**クライアント ID** で置き換えます。
+4. "{ClientID}" を、[前のシリーズの記事](../embedded/register-app.md)で、アプリを登録したときに取得した**クライアント ID** で置き換えます。
 
 5. コンソール アプリを実行し、Power BI アカウントにサインインします。 
 

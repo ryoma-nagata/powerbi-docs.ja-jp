@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7fe802c2dbc225c07f3cf53481f078ff1399004e
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 7e398354ab069bb02554c94312909c0ed835d027
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060424"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379780"
 ---
 # <a name="create-a-launch-url"></a>起動 URL を作成する
 
@@ -145,7 +145,7 @@ private createHelpLinkElement(): Element {
     }
 ```
 
-![Launch URL の切り替え](./media/launchurl-toggle.png)
+![Launch URL の切り替え](media/launch-url/launchurl-toggle.png)
 
 また、ビジュアルの `update` 関数に次の行が追加されました。
 

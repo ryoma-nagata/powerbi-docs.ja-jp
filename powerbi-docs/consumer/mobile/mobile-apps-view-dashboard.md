@@ -1,19 +1,19 @@
 ---
 title: Power BI モバイル アプリにおけるダッシュボードとレポートの表示
 description: Power BI サービス内でダッシュボードとレポートを作成するか、ダッシュボードとレポートに接続します。 次に、Power BI モバイル アプリでダッシュボードを表示します。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218370"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205529"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリにおけるダッシュボードとレポートの表示
 適用対象:
@@ -70,11 +70,11 @@ ms.locfileid: "75218370"
    ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>iPhone で横モードでダッシュボードを表示する
-また、電話を横向きにするだけで、ダッシュボードを横モードで表示することができます。 ダッシュボードのレイアウトは、一連のタイルのビューから、ダッシュボード全体のビューに切り替わります。&#151;ダッシュボードのタイルは、Power BI サービスで表示されるのとまったく同じように表示されます。
+また、電話を横向きにするだけで、ダッシュボードを横モードで表示することができます。 ダッシュボードのレイアウトは、一連のタイルから、ダッシュボード全体のビューに切り替わります。すべてのダッシュボードのタイルは、Power BI サービスで表示されるのとまったく同じように表示されます。
 
 ![ダッシュ ボードの横向きビュー](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 
-"ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域をズームン/ズームアウトしたり、表示する領域を移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
+"ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域を拡大縮小したり、パンして移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
 
 ## <a name="view-dashboards-on-your-ipad"></a>iPad でダッシュボードを表示する
 1. Power BI アプリを開きます。
@@ -138,12 +138,12 @@ ms.locfileid: "75218370"
    ![省略記号メニュー](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. [ダッシュボードのタイル](mobile-tiles-in-the-mobile-apps.md)をすべて参照するには、上下にスワイプします。 
    
-   "ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域をズームン/ズームアウトしたり、表示する領域を移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
+   "ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域を拡大縮小したり、パンして移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
 5. ダッシュボードのホーム ページに戻って、ダッシュボードの名前をタップして階層リンクの軌跡を開き、 **[マイ ワークスペース]** をタップします。
    
     ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
-    "ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域をズームン/ズームアウトしたり、表示する領域を移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
+    "ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域を拡大縮小したり、パンして移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Power BI サービスでダッシュボードの Phone ビューを作成する
 ダッシュボードの所有者である場合は、*Power BI サービスで*、スマートフォン独自の縦モードのダッシュボード ビューを作成できます。 

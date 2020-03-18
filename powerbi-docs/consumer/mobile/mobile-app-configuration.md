@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496744"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205552"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>モバイル デバイス管理 (MDM) ツールを使用して Power BI アプリをリモートで構成する
 
@@ -22,8 +22,8 @@ iOS および Android 用 Power BI Mobile アプリでは、モバイル デバ�
 Power BI Mobile アプリでは、次の構成シナリオがサポートされています。
 
 * レポート サーバーの構成 (iOS および Android)
-* データ保護の設定 (iOS および Android)
-* 対話式操作の設定 (Android)
+* データ保護の設定 (iOS)
+* 対話式操作の設定 (iOS および Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>レポート サーバーの構成 (iOS および Android)
 
@@ -38,19 +38,23 @@ Power BI Mobile アプリでは、次の構成シナリオがサポートされ�
 
 ## <a name="data-protection-settings-ios"></a>データ保護の設定 (iOS)
 
-管理者は、iOS および Android 用 Power BI アプリを使用して、セキュリティとプライバシーの設定に対する既定の構成をカスタマイズすることができます。 Power BI アプリにアクセスするときに、ユーザーに自分の Face ID、Touch ID、またはパスコードを入力するように強制できます。
+管理者は、iOS 用 Power BI アプリを使用して、セキュリティとプライバシーの設定に対する既定の構成をカスタマイズすることができます。 Power BI アプリにアクセスするときに、ユーザーに自分の Face ID、Touch ID、またはパスコードを入力するように強制できます。
 
 | キー | 種類 | 説明 |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | ブール値 | 既定値は False です。 <br><br>デバイス上のアプリにアクセスするために、ユーザーに TouchID や FaceID などの生体測定を要求することができます。 必要に応じて、認証に加えて生体測定が使用されます。<br><br>アプリ保護ポリシーを使用している場合、Microsoft ではデュアル アクセスのプロンプトを防ぐために、この設定を無効にすることをお勧めします。 |
 
-## <a name="interaction-settings-android"></a>対話式操作の設定 (Android)
+## <a name="interaction-settings-ios-and-android"></a>対話式操作の設定 (iOS および Android)
 
-Android 用 Power BI アプリでは、組織内のユーザー グループ全体で既定の対話式操作の設定を変更する必要があると判断された場合に、管理者が対話式操作の設定を構成することができます。 
+iOS および Android 用 Power BI アプリでは、組織内のユーザー グループ全体で既定の対話式操作の設定を変更する必要があると判断された場合に、管理者が対話式操作の設定を構成することができます。
+
+>[!NOTE]
+>すべてのデバイス上ですべての対話式操作が現在サポートされているわけではありません。 デバイス全体での現在の利用可能状況を示したグラフについては、「[レポートの対話式操作の設定を構成する](mobile-app-interaction-settings.md)」をご覧ください。
 
 | キー | 種類 | 値 | 説明 |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | 文字列 |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | ビジュアル上でタップすることでデータ ポイントの選択も行うかどうかを構成します。 |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | ブール値 |  <nobr>True</nobr><br><nobr>False</nobr> | データ ポイント上でタップすることで、現在の選択内容を置き換えるか、または現在の選択内容に追加するかを構成します。 |
 | com.microsoft.powerbi.mobile.RefreshAction | 文字列 |  <nobr>pull-to-refresh</nobr><br>選択します。 | ユーザーがレポートを更新するためにボタンを使用するか、引っ張って更新を使用する必要があるかを構成します。 |
 | com.microsoft.powerbi.mobile.FooterAppearance | 文字列 |  docked<br>動的 | レポートのフッターをレポートの下部にドッキングするか、自動的に非表示にするかを構成します。 |
 

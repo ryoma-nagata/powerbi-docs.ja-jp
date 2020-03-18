@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 1b927bcca087e832138e4ac02c555e34915febd9
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079326"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488294"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>データセットにデータをプッシュする処理の完全なコード リスト
 
@@ -225,7 +225,7 @@ ms.locfileid: "79079326"
 ## <a name="next-steps"></a>次の手順
 
 * [Power BI データセットにデータをプッシュする](walkthrough-push-data.md)
-* [アプリを Azure AD に登録する](../register-app.md)  
+* [アプリを Azure AD に登録する](../embedded/register-app.md)  
 * [認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)  
 * [Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)  
 * [Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)  

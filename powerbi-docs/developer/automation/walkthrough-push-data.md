@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: c39c7234ec4bc1b632355f92bdfdec9dc2b21ae4
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079280"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488202"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
 
 Power BI API を使うと、Power BI データセットにデータをプッシュできます。 この記事では、Product テーブルを含んだ Sales Marketing データセットを、既存のデータセットにプッシュする方法について説明します。
 
-作業を開始する前に、Azure Active Directory (Azure AD) と [Power BI アカウント](../create-an-azure-active-directory-tenant.md)が必要です。
+作業を開始する前に、Azure Active Directory (Azure AD) と [Power BI アカウント](../embedded/create-an-azure-active-directory-tenant.md)が必要です。
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>データセットにデータをプッシュする手順
 
-* 手順 1:[アプリを Azure AD に登録する](../register-app.md)
+* 手順 1:[アプリを Azure AD に登録する](../embedded/register-app.md)
 * 手順 2:[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)
 * 手順 3:[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)
 * 手順 4.[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)
@@ -111,11 +111,11 @@ Power BI のテーブル スキーマでは、次のデータ型を使うこと�
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI へのデータのプッシュに関する詳細
 
-データセットへのデータのプッシュを始める方法については、「[手順 1:ナビ ペインで Azure AD](../register-app.md) にアプリを登録します。
+データセットへのデータのプッシュを始める方法については、「[手順 1:ナビ ペインで Azure AD](../embedded/register-app.md) にアプリを登録します。
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI にサインアップする](../create-an-azure-active-directory-tenant.md)  
+* [Power BI にサインアップする](../embedded/create-an-azure-active-directory-tenant.md)  
 * [JSON の紹介](https://json.org/)  
 * [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
 

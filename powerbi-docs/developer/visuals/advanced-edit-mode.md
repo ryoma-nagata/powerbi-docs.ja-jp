@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 19714db2d1307ac9d7eb8861955870ba9988539e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880325"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380562"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Power BI ビジュアルの高度な編集モード
 
@@ -39,7 +39,7 @@ Power BI ビジュアルに高度な UI コントロールが必要な場合は�
 
 `advancedEditModeSupport` プロパティが *capabilities.json* ファイルにない場合、または `NotSupported` に設定されている場合、 **[編集]** ボタンは表示されません。
 
-![編集モードを開始する](./media/edit-mode.png)
+![編集モードを開始する](media/advanced-edit-mode/edit-mode.png)
 
 **[編集]** を選択すると、ビジュアルでは、EditMode が `Advanced` に設定された update() 呼び出しを取得します。 *capabilities.json* ファイルに設定されている値に応じて、次のアクションが実行されます。
 

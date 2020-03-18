@@ -10,11 +10,11 @@ ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877512"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207829"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI で新しいワークスペースを作成する
 
@@ -59,7 +59,7 @@ Power BI では、新しいワークスペース エクスペリエンスが導�
 
     **専用の容量**にワークスペースを割り当てるには、 **[Premium]** タブで **[専用の容量]** を選択します。
      
-    ![専用の容量](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
+    ![専用容量](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
 
 1. **[保存]** を選択します。
 

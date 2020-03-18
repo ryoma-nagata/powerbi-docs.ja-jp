@@ -10,26 +10,26 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427808"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381263"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>テーブルまたはマトリックスにハイパーリンク (URL) を追加する
 このトピックでは、テーブルにハイパーリンク (URL) を追加する方法について説明します。 Power BI Desktop を使用して、データセットにハイパーリンク (URL) を追加します。 Power BI Desktop または Power BI サービスでレポートのテーブルとマトリックスにそのハイパーリンクを追加できます。 これで、URL またはリンク アイコンを表示することや、別の列をリンク テキストとして書式を設定できるようになります。
 
 ![ハイパーリンク付きのテーブル](media/power-bi-hyperlinks-in-tables/power-bi-url-link-text.png)
 
-Power BI サービスと Power BI Desktop を使用して、[レポート内のテキスト ボックス](service-add-hyperlink-to-text-box.md)にハイパーリンクを作成することもできます。 また、Power BI サービスでは、[ダッシュボード上のタイル](service-dashboard-edit-tile.md)と[ダッシュボード上のテキスト ボックス](service-dashboard-add-widget.md)にハイパーリンクを追加できます。 
+[レポートのテキスト ボックス](service-add-hyperlink-to-text-box.md)内のハイパーリンクは、Power BI サービスと Power BI Desktop を使用して作成することもできます。 また、Power BI サービスでは、[ダッシュボード上のタイル](service-dashboard-edit-tile.md)と[ダッシュボード上のテキスト ボックス](service-dashboard-add-widget.md)にハイパーリンクを追加できます。 
 
 
 ## <a name="format-a-url-as-a-hyperlink-in-power-bi-desktop"></a>Power BI Desktop で URL をハイパーリンクとして書式を設定する
 
 URL を含むフィールドは、Power BI Desktop ではハイパーリンクとして書式を設定できますが、Power BI サービスではできません。 Power BI にブックをインポートする前に、[Excel Power Pivot でハイパーリンクの書式を設定する](#create-a-table-or-matrix-hyperlink-in-excel-power-pivot)こともできます。
 
-1. データセットにハイパーリンクを含むフィールドがない場合は、Power BI Desktop を使用して、[カスタム列](desktop-common-query-tasks.md)として追加します。
+1. Power BI Desktop で、ハイパーリンクを含むフィールドがデータセットにまだ存在しない場合は、[カスタム列](desktop-common-query-tasks.md)として追加します。
 
     > [!NOTE]
     > DirectQuery モードでは列を作成できません。  ただし、データに URL が既に含まれている場合は、それらの URL をハイパーリンクに変えることができます。

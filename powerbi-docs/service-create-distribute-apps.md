@@ -9,11 +9,11 @@ ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853635"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207875"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI でアプリを発行する
 
@@ -37,7 +37,7 @@ Power BI で公式のパッケージ化コンテンツを作成し、*アプリ*
 * **オプション 1** このアプリのワークスペースは Power BI Premium 容量には含まれ "*ません*"。すべてのビジネス ユーザーに、アプリを表示するための Power BI Pro ライセンスが必要です。 
 * **オプション 2** このアプリのワークスペースは Power BI Premium 容量に含まれ "*ます*"。組織内の Power BI Pro ライセンスがないビジネス ユーザーは、アプリ コンテンツを表示できます。 ただし、レポートのコピー、基になるデータセットに基づいたレポートの作成はできません。 詳しくは、[Power BI Premium](service-premium.md) に関するページをご覧ください。
 
-## <a name="publish-your-app"></a>アプリの発行
+## <a name="publish-your-app"></a>アプリを発行する
 ワークスペース内のダッシュボードとレポートの準備ができたら、発行するダッシュボードとレポートを選択し、アプリとして発行します。 
 
 1. ワークスペースの一覧表示で、**アプリに含める**ダッシュボードとレポートを決定します。

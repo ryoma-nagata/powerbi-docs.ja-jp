@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 978a8622d9af7aee6d1314ac18ee4d1dbea51cbc
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 7739967443a8c6dc75cdaa3fbd0e472dcc090b9a
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114393"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488547"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI コンシューマーのための Q&A
 
@@ -43,7 +43,7 @@ Power BI サービスのダッシュボードと、Power BI モバイルのダ�
 
 ## <a name="qa-on-dashboards"></a>ダッシュボード上の Q&A
 
-**Power BI Q&A** は Pro または Premium ライセンスで利用できます。  [Power BI モバイル アプリの Q&A](mobile/mobile-apps-ios-qna.md) および [Power BI Embedded の Q&A ](../developer/qanda.md) については、別の記事で説明します。 現在のところ、**Power BI Q & A** では、英語で寄せられた自然言語クエリの回答のみがサポートされます。ただし、スペイン語についてはプレビューがあり、ご自身の Power BI 管理者が有効にできます。
+**Power BI Q&A** は Pro または Premium ライセンスで利用できます。  [Power BI モバイル アプリの Q&A](mobile/mobile-apps-ios-qna.md) および [Power BI Embedded の Q&A ](../developer/embedded/qanda.md) については、別の記事で説明します。 現在のところ、**Power BI Q & A** では、英語で寄せられた自然言語クエリの回答のみがサポートされます。ただし、スペイン語についてはプレビューがあり、ご自身の Power BI 管理者が有効にできます。
 
 
 ![Q&A で作成されたツリーマップ](media/end-user-q-and-a/power-bi-treemap.png)

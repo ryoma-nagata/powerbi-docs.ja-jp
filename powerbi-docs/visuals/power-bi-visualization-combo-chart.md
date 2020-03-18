@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758085"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436090"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI で複合グラフを作成して使用する
 
@@ -98,8 +98,7 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
    ![集合の複合グラフの例](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>タイトルを各軸に追加する
-1. ペイント ローラー アイコン 
-1. ![ペイント ローラー アイコン](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) を選択して、[書式設定] ウィンドウを開きます。
+1. ペイント ローラー アイコン ![ペイント ローラー アイコン](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) を選択して、[書式設定] ウィンドウを開きます。
 1. 下矢印を選んで、 **Y 軸** のオプションを展開します。
 1. **[Y 軸 (棒)]** で、 **[位置]** を **[左]** に、 **[タイトル]** を **[オン]** に、 **[スタイル]** を **[タイトルのみを表示]** に、 **[表示単位]** を **[百万]** に、それぞれ設定します。
 

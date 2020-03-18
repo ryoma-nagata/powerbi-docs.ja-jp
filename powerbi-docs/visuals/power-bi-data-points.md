@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885252"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381447"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>視覚エフェクトの種類別のデータ ポイントの制限と戦略を適用する
 
@@ -74,7 +74,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 ### <a name="combo-chart"></a>複合グラフ
  縦棒グラフと同じ戦略を使用します。 **複合グラフ**の線では**折れ線グラフ**で使用される高密度アルゴリズムは使用されないことに注意してください。
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 最大で 30,000、ただし使用する戦略を指定するのはそのビジュアルの作成者です。 既定の制限は 1,000 ですが、ビジュアルの作成者は最大 30,000 まで変更できます。
 
 ### <a name="doughnut"></a>ドーナツ

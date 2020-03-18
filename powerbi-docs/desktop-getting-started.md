@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b32eee568ba560e95899cf0965a11f3bb037aed6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 719c07abdcdb42916db8a01a7fab28d3f6c98fba
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222457"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133313"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop の概要
 Power BI Desktop の使用開始ガイドへようこそ。 このツアーでは、Power BI Desktop のしくみ、Power BI Desktop でできること、堅牢なデータ モデルと優れたレポートを作成してビジネス インテリジェンスを強化する方法について説明します。
 
 Power BI Desktop のしくみとその使用方法の概要をすばやく知りたい場合は、このガイドを見ればほんの数分で画面を確認できます。 より詳しく理解したい場合は、各セクションを通して読み、手順を実行し、独自の Power BI Desktop ファイルを作成して [Power BI サービス](https://app.powerbi.com/)に投稿し、他のユーザーと共有することができます。
 
-![Power BI Desktop レポート](media/desktop-getting-started/hero.png)
+![Power BI Desktop レポート](media/desktop-getting-started/hero-02.png)
 
 また、「[Power BI Desktop の概要](https://www.youtube.com/watch?v=Qgam9M8I0xA)」ビデオを視聴したり、[財務サンプル](https://go.microsoft.com/fwlink/?LinkID=521962)の Excel ブックをダウンロードしてビデオを見ながら操作したりすることもできます。
 

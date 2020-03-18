@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818895"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379701"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI ビジュアルの選択によってビジュアルに対話機能を追加する
 
@@ -179,11 +179,11 @@ export interface ISelectionIdBuilder {
 | Nissan | **Import Car** | 5485 |
 | Toyota | **Import Car** | 20799 |
 
-![カテゴリと系列に対する選択を備えたビジュアル](media/visual-selections-sample.png)
+![カテゴリと系列に対する選択を備えたビジュアル](media/selection-api/visual-selections-sample.png)
 
 ビジュアルのデータ バスケットにデータを入力する必要があります。
 
-![選択を備えたビジュアルのデータ バスケット](media/visual-selections-databuckets.png)
+![選択を備えたビジュアルのデータ バスケット](media/selection-api/visual-selections-databuckets.png)
 
 カテゴリ (列) として `Manufacturer` が、系列 (行) として `Type` が、系列の `Values` として `Value` があります。
 
