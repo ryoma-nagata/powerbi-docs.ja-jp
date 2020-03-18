@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427095"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041679"
 ---
 # <a name="power-bi-data-sources"></a>Power BI データ ソース
 
@@ -43,7 +43,7 @@ ms.locfileid: "77427095"
 | Azure HDInsight (HDFS) | はい | はい | いいえ | いいえ | いいえ |
 | Azure HDInsight Spark | はい | はい | はい | いいえ | いいえ |
 | Azure SQL Database | はい | はい | はい | はい <sup>2</sup> | いいえ |
-| Azure SQL Data Warehouse | はい | はい | はい | いいえ | いいえ |
+| Azure SQL Data Warehouse | はい | はい | はい | はい <sup>2</sup> | いいえ |
 | Azure Table Storage | はい | はい | いいえ | はい | いいえ |
 | BI コネクタ | はい | はい | はい | はい | はい |
 | BI360 - Budgeting & Financial Reporting | はい | はい | いいえ | いいえ | いいえ |
@@ -134,7 +134,7 @@ ms.locfileid: "77427095"
 | Twilio | はい | はい | いいえ | いいえ | いいえ |
 | tyGraph | はい | はい | いいえ | いいえ | いいえ |
 | Vertica | はい | はい | はい | はい | はい |
-| Web | はい | はい | いいえ | はい | はい |
+| Web | はい | はい | いいえ | はい | はい <sup>6</sup> |
 | Webtrends | はい | はい | いいえ | いいえ | いいえ |
 | Workforce Dimensions | はい | はい | いいえ | はい | いいえ |
 | XML | はい | はい | いいえ | はい | いいえ <sup>4</sup> |
@@ -143,13 +143,15 @@ ms.locfileid: "77427095"
 
 <sup>1</sup>[ACE OLEDB プロバイダー](https://www.microsoft.com/download/details.aspx?id=54920)でサポートされ、ゲートウェイと同じコンピューターにインストールされます。
 
-<sup>2</sup> オンプレミス バージョンと同じ M 関数でサポートされます。
+<sup>2</sup> オンプレミスのバージョンと同じ M 関数でサポートされているため、認証オプション (ゲートウェイは OAuth をサポートしていません) が制限されます。
 
 <sup>3</sup> Excel 1997-2003 ファイル (.xls) には [ACE OLEDB プロバイダー](https://www.microsoft.com/download/details.aspx?id=54920)が必要です。
 
 <sup>4</sup> オンプレミス バージョンのテクノロジに必須です。
 
 <sup>5</sup>[個人ゲートウェイ](service-gateway-personal-mode.md)でのみサポートされます。
+
+<sup>6</sup> .html、.xls、Access データベースに必要です
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery ソースのシングル サインオン (SSO)
 

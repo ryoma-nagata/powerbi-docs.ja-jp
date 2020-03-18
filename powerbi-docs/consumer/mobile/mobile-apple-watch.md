@@ -1,19 +1,19 @@
 ---
 title: Apple Watch のモバイル アプリで Power BI のデータを探索する
 description: Power BI Apple Watch アプリ
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: 31db6725c027ed09e900dac7036778004e9e3ff3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73870734"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114520"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch の Power BI モバイル アプリでデータを探索する
 Power BI Apple Watch アプリを使用すると、ウォッチ上で Power BI ダッシュボードから KPI とカード タイルを表示できます。 KPI とカード タイルは、小さな画面でハートビートを測定するのに最適です。 iPhone から、または Watch 自体から、ダッシュボードを更新できます。

@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975150"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040149"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>クイック スタート - Power BI サービス内の移動
 
@@ -72,7 +72,7 @@ Power BI の基本を理解したので、**Power BI サービス**の操作に�
 
 ![マイ ワークスペース ](./media/end-user-experience/power-bi-workspaces.png)
 
-**マイ ワークスペース**には、ユーザーが所有および作成するすべてのコンテンツが格納されます。 これは、個人用サンドボックスまたはユーザーのコンテンツの作業領域と考えることができます。 Power BI を使用する多くの*コンシューマー*の場合、**マイ ワークスペース**は空のままです。これは、ジョブに新しいコンテンツの作成が含まれていないためです。  定義上、*コンシューマー*は、他のユーザーが作成したデータを利用し、そのデータを使用してビジネス上の意思決定を行います。 コンテンツを作成することがわかっている場合は、代わりに、[*デザイナー*向けの Power BI に関する記事](../power-bi-creator-landing.md)を参照することを検討してください。
+**マイ ワークスペース**には、ユーザーが所有および作成するすべてのコンテンツが格納されます。 これは、個人用サンドボックスまたはユーザーのコンテンツの作業領域と考えることができます。 Power BI を使用する多くの*コンシューマー*の場合、**マイ ワークスペース**は空のままです。これは、ジョブに新しいコンテンツの作成が含まれていないためです。  定義上、*コンシューマー*は、他のユーザーが作成したデータを利用し、そのデータを使用してビジネス上の意思決定を行います。 コンテンツを作成することがわかっている場合は、代わりに、["*レポート作成者*" 向けの Power BI に関する記事](../index.yml)を参照することを検討してください。
 
 **アプリ ワークスペース**には、特定のアプリのすべてのコンテンツが含まれます。  *デザイナー*は、アプリを作成するときに、そのアプリを利用するために必要なすべてのコンテンツをアプリにバンドルします。  [Sales & Marketing] ワークスペースを選択すると、*デザイナー*がアプリにバンドルしたコンテンツが表示されます。 
 

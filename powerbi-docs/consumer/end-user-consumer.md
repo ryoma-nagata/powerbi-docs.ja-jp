@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/18/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496218"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79039954"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>コンシューマー向けの Power BI サービス
 
@@ -45,7 +45,7 @@ Power BI をどのように操作するかは、ご自分の仕事上の役割�
 
 "Power BI Desktop" または "Desktop" という用語を聞いたことが間違いなくあるでしょう。これは、ダッシュボードおよびレポートをビルドし、お客様と共有する "*デザイナー*" によって使用されるスタンドアロン ツールです。  他の Power BI ツールがあるということを理解することは重要ですが、お客様がコンシューマーの場合、Power BI サービスのみでの作業となります。 
 
-また、"*共有*" コンテンツを使用しているため、Power BI Pro または Premium ライセンスが必要になります。 [お使いのライセンスの種類について](end-user-license.md)
+また、"*共有*" コンテンツを使用しているため、**Premium** 容量を使用している組織で作業する場合、お客様は標準の **Free** ライセンスが必要になります。 [お使いのライセンスの種類について](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>コンテンツを安全に操作する 

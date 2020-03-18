@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/24/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576764"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113150"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI でサポートされているインサイトの種類
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 データを検索して興味深い傾向やパターンを見つけるように、Power BI に要求することができます。 これらの傾向とパターンは、"*分析情報*" と呼ばれるビジュアルの形式で表示されます。 
 

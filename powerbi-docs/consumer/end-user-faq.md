@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852507"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79039990"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
+
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 * 他の質問がある場合は、[Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。
@@ -25,11 +27,18 @@ ms.locfileid: "73852507"
 
 Power BI サービスはクラウド ベースのビジネス分析サービスで、これを使えばだれでもデータの視覚化と分析の速度と効率を向上させ、理解を深めることができます。 使いやすいダッシュボード、対話形式のレポート、説得力のある視覚エフェクトによってデータを生き生きしたものにし、ユーザーがクラウド ベースまたはオンプレミスの広範囲にわたるデータを活用できるようにします。 [Power BI](../fundamentals/power-bi-overview.md) について、詳細を確認してください。
 
+## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>"*コンシューマー*" 向けの Microsoft Power BI サービスとはどのようなものですか?
+
+Power BI をどのように操作するかは、ご自分の仕事上の役割により異なります。 エンドユーザーまたは "*コンシューマー*" の場合、同僚からコンテンツ (ダッシュボード、レポート、アプリ) を受け取ります。 Power BI のオンラインまたはモバイル バージョン (Power BI サービスと呼ばれます) で作業し、このコンテンツをレビューおよび操作してビジネス上の決定を行います。  詳細については、[コンシューマー向けの Power BI](index.yml) に関するページを参照してください。
+
+
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro と Power BI Premium の違いは何ですか?
 
-Power BI Pro は、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可する個別のライセンスです。 他の Pro ユーザーとコンテンツを共有して、共同作業することもできます。 Pro ユーザーだけが、ワークスペースへのコンテンツの発行、ダッシュボードの共有、ダッシュボードとレポートのサブスクライブを行うことができます。
+Power BI Pro は、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可する個別のユーザー ライセンスです。 他の Pro ユーザーとコンテンツを共有して、共同作業することもできます。 Pro ユーザーだけが、ワークスペースへのコンテンツの発行、ダッシュボードの共有、ダッシュボードとレポートのサブスクライブを行うことができます。 この種類のライセンスは、通常、Power BI レポートの "*デザイナー*"、開発者、および管理者に割り当てられます。 
 
-Power BI Premium では、専用の容量を提供して、より一貫したパフォーマンスを実現します。 また、Power BI でより大規模なデータ ボリュームもサポートします。 個々のユーザーについては、Premium では Pro ユーザーがコンテンツを広範囲に配布できます。コンテンツを表示する受信者にユーザーごとのライセンスは必要ありません。
+Power BI Premium では、専用の容量を提供して、より一貫したパフォーマンスを実現します。 また、Power BI でより大規模なデータ ボリュームもサポートします。 個々のユーザーについては、Premium では Pro ユーザーがコンテンツを広範囲に配布できます。コンテンツを表示する受信者にユーザーごとの Pro ライセンスは必要ありません。 つまり、"*コンシューマー*" は、同僚と共同作業すること、および彼らと共有されているダッシュボード、レポート、およびアプリを表示したり、操作したりすることができます。 
+
+詳細については、[自分が所有するライセンスの種類](end-user-license.md)に関するページを参照してください。
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI Premium について質問がある場合はどうすればよいですか?
 
@@ -37,19 +46,17 @@ Power BI Premium に関連する質問については、「[Power BI Premium FAQ
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop とは何ですか?
 
-Power BI Desktop は無償のアプリケーションで、各自のコンピューターに直接インストールできます。 Power BI Desktop は、Power BI サービスと連携して動作します。  データ サイエンティスト、管理者、および開発者は、Power BI Desktop でレポートを作成し、お客様のような Power BI サービスの*コンシューマー*が利用できるようにします。 [Power BI Desktop](../desktop-what-is-desktop.md) について、詳細を確認してください。
+Power BI Desktop は無償のアプリケーションで、各自のコンピューターに直接インストールできます。 Power BI Desktop は、Power BI サービスと連携して動作します。  データ サイエンティスト、レポート デザイナー、管理者、および開発者は、Power BI Desktop を操作してレポートを作成し、お客様のような Power BI サービスの "*コンシューマー*" が利用できるようにします。 [Power BI Desktop](../desktop-what-is-desktop.md) について、詳細を確認してください。
 
-## <a name="what-do-i-need-to-use-the-power-bi-service"></a>Power BI サービスを使用するには何が必要ですか?
+## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>"*コンシューマー*" として Power BI サービスを使用するには何が必要ですか?
 
-Web ブラウザーと勤務先の電子メール アドレスだけです。 *.gov* および *.mil* のメール アドレスでサインアップすることもできます。 詳しくは、「[Power BI サービスに米国政府組織を登録する](../service-govus-signup.md)」をご覧ください。
+お客様の会社が Power BI ライセンスまたは Premium 容量アカウントを購入している場合、お客様が必要とするのは Web ブラウザーと資格情報だけです。 ログインするには、職場の電子メール アドレスと、パスワード (Power BI 管理者によって設定されます) を使用します。  
+
+また、個人として Power BI サービスにサインアップすることもできます。 [Power BI のセルフサービス サインアップのプロセス](../service-self-service-signup-for-power-bi.md)に関するページを参照してください。
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>勤務先のメール アドレスでサインアップする必要がある理由を教えてください。
 
 Power BI では、コンシューマー向けメール サービスまたは通信プロバイダーが提供しているメール アドレスはサポートされません。 [Power BI のセルフサービス サインアップのプロセス](../service-self-service-signup-for-power-bi.md)の詳細をご覧ください。
-
-## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI には行政機関、教育機関、および非営利団体向け価格もありますか?
-
-はい。マイクロソフトから直接購入する場合に、非営利団体向け価格で購入できます。 [Microsoft Nonprofits](https://www.microsoft.com/nonprofits/power-bi) サイトで詳細を確認することや、サインアップすることができます。 Microsoft では、行政機関向けおよび教育機関向けの価格設定を MOSP/Direct、EA、オープン ライセンス プログラムを通じて提供しています。 行政機関向け価格は Syndication でも提供されます。
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI はモバイル デバイスをサポートしていますか?
 
@@ -76,7 +83,7 @@ Power BI モバイル アプリはそれぞれ該当するストアから無料�
 * [Power BI ブログ](https://blogs.msdn.com/b/powerbi/)
 * [Web セミナー](../webinars.md)
 * [YouTube チャンネル](https://www.youtube.com/user/mspowerbi)の概要ビデオ
-* [*コンシューマー*としての Power BI の使用開始](power-bi-consumer-landing.md)に関する記事
+* [*コンシューマー*としての Power BI の使用開始](index.yml)に関する記事
 * [コミュニティに参加](https://community.powerbi.com/)して質問する
 * 他の推奨事項については、「[ヘルプを取得するための 10 のヒント](../service-tips-for-finding-help.md)」をご覧ください。
 
@@ -87,16 +94,6 @@ Power BI モバイル アプリはそれぞれ該当するストアから無料�
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Power BI はどの地域と言語をサポートしていますか?
 
 [Power BI でサポートされている地域と言語](../supported-languages-countries-regions.md)の完全なリストをご覧ください。
-
-## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>国内では Power BI Pro をどこで購入できますか?
-
-Power BI Pro のライセンスを直接購入する場合も、担当者とチャットする場合も、[www.powerbi.com](https://www.powerbi.com) にアクセスしてください。
-
-[Microsoft パートナー](https://partner.microsoft.com/)を探して、Power BI の実装を任せることもできます。
-
-## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI は、国、地域、および業界固有のコンプライアンス要件を満たしていますか。
-
-Power BI のコンプライアンスの詳細については、[Microsoft セキュリティ センター](https://go.microsoft.com/fwlink/?LinkId=785324)を参照してください。
 
 ## <a name="where-can-i-learn-more-about-security"></a>どこでセキュリティについてさらに学習できますか?
 

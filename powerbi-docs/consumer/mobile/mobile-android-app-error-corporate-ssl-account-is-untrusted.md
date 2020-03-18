@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/28/2019
-ms.author: mshenhav
-ms.openlocfilehash: cde8a4bbaed9ef10940b7a102d40a8bc6009e9b9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879478"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114606"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>"企業 SSL 証明書が信頼されていません" を修正する
 Microsoft Power BI 用の Android モバイル アプリにサインインするとき、"お使いの企業 SSL 証明書がこのデバイスによって信頼されていないため、認証できませんでした。 会社の IT 管理者にお問い合わせください。" というメッセージが表示されることがあります。 

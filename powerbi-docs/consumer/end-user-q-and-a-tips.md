@@ -6,17 +6,20 @@ ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099008"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114294"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A で質問するためのヒント
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A で認識される語句と用語
 このページにある一覧に含まれていないキーワードもあります。  Power BI でキーワードが認識されるかどうかを確認する最良の方法は、質問ボックスに入力して試してみることです。  語句または用語が灰色で表示されている場合、それは Power BI で認識されていません。
 
@@ -39,7 +42,7 @@ ms.locfileid: "74099008"
 |     |         |         |
 |**接続詞**     |  and、or、each of、with、versus、&、and、but、nor、along with、in addition to       |         
 |          |         |
-|**短縮系**     |  Q&A ではほぼあらゆる短縮形が認識されます。試してみてください。例: didn’t、haven’t、he’d、he’s、isn’t、it’s、she’ll、they’d、weren’t、who’s、won’t、wouldn’t          |
+|**短縮系**     |  Q&A ではほぼあらゆる短縮形が認識されます。試してみてください。例: didn't、haven't、he'd、he's、isn't、it's、she'll、they'd、weren't、who's、won't、wouldn't          |
 |        |         |
 |**日付**     |       Power BI では、ほとんどの日付の用語 (day、week、month、year、quarter、decade など) と、さまざまな形式 (下記参照) で記述された日付が認識されます。 Power BI では、次のキーワードも認識されます:MonthName、Days 1-31、decade 例:January 3rd of 1995、January 3rd 1995、jan 03 1995、3 Jan 1995、the 3rd of January、January 1995、1995 January、1995-01、01/1995、月の名前         |
 |        |         |

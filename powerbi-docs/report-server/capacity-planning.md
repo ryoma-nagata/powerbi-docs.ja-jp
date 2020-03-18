@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
-ms.author: pashah
-ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.author: parshah
+ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565728"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78402014"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server のキャパシティ プランニング ガイダンス
 Power BI Report Server はセルフ サービスの BI およびエンタープライズ レポート ソリューションであり、ユーザーはファイアウォールの内側のオンプレミスに展開できます。 Power BI Desktop の対話型レポート機能と、SQL Server Reporting Services のオンプレミスのサーバー プラットフォームが組み合わされています。 企業では分析とレポートが大量に使用され、さらに増え続けており、エンタープライズ ユーザー ベースへの拡張に必要なハードウェア インフラストラクチャやソフトウェア ライセンスの予算が問題になる場合があります。 このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 レポート、クエリ、使用のパターンは組織によって大きく異なりますが、ここで示す結果と、実際に使われたテストおよび実行方法の詳細な説明は、Power BI Report Server の展開の早期計画プロセスで参考になります。
@@ -56,7 +56,7 @@ Power BI Report Server の展開は、次の仮想マシンで構成されてい
 * 大小のページ分割されたレポートの表示をシミュレートするテスト 
 * さまざまな種類の Web ポータル操作の実行をシミュレートするテスト 
 
-すべてのテストは、エンド ツー エンドの操作 (レポートの表示、新しいデータ ソースの作成など) を実行するように作成されました。 操作は、(API によって) レポート サーバーに 1 つまたは複数の Web 要求を行うことによって実現します。 実際には、これらのエンド ツー エンド操作を行うためにユーザーはいくつかの中間操作を実行することが必要な場合があります。 たとえば、レポートを表示するには、ユーザーは Web ポータルにアクセスしてレポートがあるフォルダーに移動し、レポートをクリックして表示する必要があります。 テストではエンド ツー エンドのタスクの完了に必要なすべての操作は実行されませんが、それでも、Power BI Report Server で発生する負荷はだいたいわかります。 GitHub プロジェクトを調べることで、使われているさまざまな種類のレポートおよび実行されているさまざまな操作について詳しく知ることができます。  
+すべてのテストは、エンド ツー エンドの操作 (レポートの表示、新しいデータ ソースの作成など) を実行するように作成されました。 操作は、(API によって) レポート サーバーに 1 つまたは複数の Web 要求を行うことによって実現します。 実際には、これらのエンド ツー エンド操作を行うためにユーザーはいくつかの中間操作を実行することが必要な場合があります。 たとえば、レポートを表示するには、ユーザーは Web ポータルにアクセスしてレポートがあるフォルダーに移動し、レポートをクリックして表示する必要があります。 テストではエンドツーエンドのタスクの完了に必要なすべての操作は実行されませんが、それでも、Power BI Report Server で発生する負荷はだいたいわかります。 GitHub プロジェクトを調べることで、使われているさまざまな種類のレポートおよび実行されているさまざまな操作について詳しく知ることができます。  
 
 > [!NOTE]
 > このツールは Microsoft によって正式にサポートされていませんが、製品チームはプロジェクトに協力し、他の共同作成者によって提起された問題に回答します。
@@ -110,7 +110,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 ## <a name="summary"></a>概要
 各ロード テストの実行で、Power BI Report Server マシンのピーク負荷時に最も負荷がかかるリソースは CPU でした。 このため、最初に増やす必要があるリソースはコアの数です。 または、トポロジに Power BI Report Server をホストするサーバーを追加することによるスケールアウトも検討できます。
 
-このホワイト ペーパーで示した結果は、特定のデータ セットを使う特定のレポート セットを特定の方法で繰り返すことにより得られたものです。 参考としては役に立ちますが、実際の使用状況は Power BI Report Server の実際のレポート、クエリ、使用パターン、および展開に依存することに留意してください。
+このホワイト ペーパーで示した結果は、特定のデータ セットを使う特定のレポート セットを特定の方法で繰り返すことにより得られたものです。 参考としては役に立ちますが、実際の使用状況は Power BI Report Server のご利用のレポート、クエリ、使用パターン、展開に依存することに留意してください。
 
 ## <a name="appendix"></a>付録
 ### <a name="1-topology"></a>1 トポロジ
@@ -134,7 +134,7 @@ Power BI Report Server をホストする仮想マシンには、異なる構成
 | **Power BI Report Server (大)** |16 コア |64 GB |vStandard_D16S_v3 |
 
 ### <a name="2-run-the-loadtest-tool"></a>2 LoadTest ツールの実行
-Power BI Report Server のオンプレミスの展開または Microsoft Azure の展開に対して Reporting Services LoadTest ツールを実行する場合は、以下の手順のようにします。
+Power BI Report Server の独自の展開または Microsoft Azure の展開に対して Reporting Services LoadTest ツールを実行する場合は、次の手順に従います。
 
 1. GitHub から Reporting Services LoadTest プロジェクトを複製します (https://github.com/Microsoft/Reporting-Services-LoadTest) 。  
 2. プロジェクト ディレクトリで、RSLoadTests.sln という名前のソリューション ファイルを探します。 Visual Studio 2015 以降でこのファイルを開きます。
@@ -143,4 +143,3 @@ Power BI Report Server のオンプレミスの展開または Microsoft Azure �
 5. 環境のデプロイが完了したら、 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution の指示に従って、テストを実行します。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

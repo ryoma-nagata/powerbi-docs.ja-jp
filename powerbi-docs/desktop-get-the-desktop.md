@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1d61723b08c26197d94b53188b741fd01d47a620
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888364"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401208"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 Power BI Desktop では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 Power BI Desktop を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。 Power BI Desktop は無料でダウンロードできます。
@@ -158,6 +158,7 @@ Windows インストーラー ファイル (.msi ファイル) を必要とす�
 
     出力フォルダーに含まれる *AttachedContainer* という名前のフォルダーに .msi ファイルがあります。
 
+.exe からのインストールを .exe から抽出した .msi にアップグレードすることは、サポートされていません。   このアップグレードを行うには、まず古いバージョンの Power BI Desktop をアンインストールする必要があります。
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop の以前のリリースを使用しているときの問題
 

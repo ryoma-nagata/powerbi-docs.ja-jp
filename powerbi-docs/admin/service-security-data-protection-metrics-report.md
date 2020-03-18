@@ -3,19 +3,18 @@ title: データ保護メトリック レポート
 description: データ保護メトリック レポートについて説明します
 author: paulinbar
 manager: rkarlin
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 952f47f60e14932ce4b22dbd01bf60d9d7243c62
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76542153"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79112503"
 ---
 # <a name="data-protection-metrics-report-preview"></a>データ保護メトリック レポート (プレビュー)
 
@@ -51,7 +50,8 @@ ms.locfileid: "76542153"
 * データ保護メトリック レポートが正常に生成されるようにするには、テナントで[情報保護](./service-security-enable-data-sensitivity-labels.md)が有効になっていて、[秘密度ラベルが適用されている](../designer/service-security-apply-data-sensitivity-labels.md)必要があります。 
 * Cloud App Security 情報にアクセスするには、組織に適切な [Cloud App Security ライセンス](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing)が必要です。
 * データ保護メトリック レポートから Power BI 管理者以外のユーザーと情報を共有する場合、このレポートには組織に関する機密情報が含まれていることに注意してください。
-* データ保護メトリック レポートは特殊なレポートであり、"自分と共有"、"最近使用"、"お気に入り" の一覧には表示されません。
+* データ保護メトリック レポートは特殊なレポートであり、[自分と共有]、[最近使用]、[お気に入り] の一覧には表示されません。
+* データ保護メトリック レポートは、[外部ユーザー (Azure Active Directory B2B ゲスト ユーザー) は使用できません](../service-admin-azure-ad-b2b.md)。
 ## <a name="next-steps"></a>次の手順
 * [Power BI におけるデータ保護 (プレビュー)](./service-security-data-protection-overview.md)
 * [Power BI で Microsoft Cloud App Security の制御を使用する (プレビュー)](./service-security-using-microsoft-cloud-app-security-controls.md)

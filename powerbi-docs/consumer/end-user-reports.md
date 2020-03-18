@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851224"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114231"
 ---
 # <a name="reports-in-power-bi"></a>Power BI のレポート
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -78,7 +80,7 @@ Power BI では、1 つのデータセットに基づいてレポートが作成
 * レポートで使用されているデータセット、およびレポートのビジュアルが表示されているダッシュボード ("[ピン留め](end-user-related.md)") を確認するには、「*Power BI サービスで関連するコンテンツを表示する*」を参照してください。
 
 > [!TIP]
-> 知りたいことがここで見つからない場合は、左側の目次を使用して、*レポート*に関するすべての記事から探してください。
+> 探していることがここで見つからない場合は、左側の目次を使用して、"*レポート*" に関するすべての記事を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 

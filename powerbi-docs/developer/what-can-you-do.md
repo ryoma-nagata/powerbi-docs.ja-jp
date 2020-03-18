@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265021"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041357"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Power BI の開発者向け機能
 
@@ -37,7 +37,7 @@ Power BI での埋め込みの詳細については、「[Embedding with Power B
 
 ## <a name="developing-custom-visuals"></a>カスタム ビジュアルの開発
 
-Power BI でカスタム ビジュアルを使用し、自分や所属企業に合った独自のビジュアルを作成することができます。 多くの場合、これらのカスタム ビジュアルは開発者によって作成されます。 これらは、Power BI に含まれている多くのビジュアルがまだニーズを満たしていない場合に構築されます。
+Power BI では、カスタム ビジュアルを使用して、自分や所属企業に合った独自のビジュアルを作成することができます。 多くの場合、これらのカスタム ビジュアルは開発者によって作成されます。 Power BI には数多くのビジュアルが付属していますが、ニーズを満たしているとまではいかない場合にこれらを構築します。
 
 カスタム ビジュアルを利用すれば、Power BI レポート内で使用する自分のビジュアルを作成できます。 カスタム ビジュアルは、JavaScript のスーパーセットである、TypeScript で記述されています。 TypeScript は、いくつかの高度な機能と ES6/ES7 機能への早期アクセスをサポートしています。 ビジュアルのスタイル設定は、カスケード スタイル シート (CSS) を使用して処理されます。 便宜上、いくつかの高度な機能 (入れ子、変数、条件、ループ、およびその他の機能など) をサポートする Less プリコンパイラが使用されています。 これらの機能のいずれも使用しない場合は、less ファイル内にプレーンな CSS を記述できます。
 
@@ -53,7 +53,7 @@ Power BI には、対話型で、さまざまなデータ ソースからリア�
 
 ![サンプル データ をプッシュする](media/what-can-you-do/powerbi-push-data.png)
 
-Power BI API でできることをいくつか確認する場合は、「[Power BI API の開発者向け機能](overview-of-power-bi-rest-api.md)」を参照してください。
+Power BI API でできることをいくつか確認する場合は、「[Power BI API の開発者向け機能](automation/overview-of-power-bi-rest-api.md)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 
@@ -61,6 +61,6 @@ Power BI API でできることをいくつか確認する場合は、「[Power 
 
 [Power BI カスタム ビジュアルの開発](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 
-[Power BI API の開発者向け機能](overview-of-power-bi-rest-api.md)
+[Power BI API の開発者向け機能](automation/overview-of-power-bi-rest-api.md)
 
 [Power BI デベロッパー センター](https://powerbi.microsoft.com/developers/)

@@ -7,21 +7,24 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537511"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040151"
 ---
 # <a name="export-data-from-a-visual"></a>ビジュアルからデータをエクスポートする
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-ビジュアルの作成に使用されているデータを確認したい場合は、[Power BI でそのデータを表示する](end-user-show-data.md)か、またはそのデータを Excel にエクスポートすることができます。 データをエクスポートするオプションを使用するには、特定の種類のライセンスと、コンテンツの編集アクセス許可が必要です。 エクスポートできない場合は、Power BI 管理者に問い合わせてください。 
+ビジュアルの作成に使用されているデータを確認したい場合は、[Power BI でそのデータを表示する](end-user-show-data.md)か、またはそのデータを Excel にエクスポートすることができます。 データをエクスポートするオプションを使用するには、特定の種類のライセンスと、コンテンツの編集アクセス許可が必要です。 エクスポートできない場合は、Power BI 管理者に問い合わせてください。 データをエクスポートするには、ユーザー単位の Pro ライセンス、または Premium 容量ライセンスを持つ組織内のユーザー単位の Pro ライセンスのいずれかの Power BI Pro ライセンスが必要です。 通常、この種類のライセンスは、"*コンシューマー*" ではなく、レポート "*デザイナー*" が使用します。 詳細については、「[Power BI ライセンスの種類](end-user-license.md)」を参照してください。
+
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Power BI ダッシュボード上のビジュアルから
 

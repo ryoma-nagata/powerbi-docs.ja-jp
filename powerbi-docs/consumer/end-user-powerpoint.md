@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25422b2503caed78e6e6518a855f6b23a0571a8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830511"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113760"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Power BI から PowerPoint にレポートをエクスポートする
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -75,8 +77,9 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 "**PowerPoint へのエクスポート**" 機能を使用する場合は、留意すべき注意事項と制限事項がいくつかあります。
 
-* 現在、R ビジュアルはサポートされていません。 このようなビジュアルは空の画像として PowerPoint にエクスポートされ、サポートされていないビジュアルであるというエラー メッセージが表示されます。
+* 現在、R と Python ビジュアルはサポートされていません。 このようなビジュアルは空の画像として PowerPoint にエクスポートされ、サポートされていないビジュアルであるというエラー メッセージが表示されます。
 * 認定を受けたカスタム ビジュアルはサポートされます。 カスタム ビジュアルの認定を受ける方法など、認定を受けたカスタム ビジュアルの詳細については、[カスタム ビジュアルの認定](../developer/power-bi-custom-visuals-certified.md)に関する記事を参照してください。 認定を受けていないカスタム ビジュアルはサポートされません。 これらは空の画像として PowerPoint にエクスポートされ、サポートされていないビジュアルであるというエラー メッセージが表示されます。
+* ESRI ビジュアルはサポートされていません
 * 現在、レポート ページが 30 ページを超えるレポートはエクスポートできません。
 * スクロール バーがあるビジュアルは、既定の状態でエクスポートされます。 PowerPoint では、ビジュアルはデータの上部のみが表示されます。 PowerPoint の各スライドは画像であるため、スクロールはできません。 
 * レポートを PowerPoint にエクスポートする処理が完了するまで数分かかる場合がありますので、しばらくお待ちください。 必要な時間に影響する要因としては、レポートの構造や、Power BI サービスの現在の負荷などがあります。
@@ -89,6 +92,7 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 * 前述のように、各レポート ページは、PowerPoint ファイルに単一のイメージとしてエクスポートされます。
 * Power BI サービスでは、Power BI の言語設定を PowerPoint のエクスポート用の言語として使用します。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](media/end-user-powerpoint/power-bi-settings-icon.png) >  **[設定]**  >  **[全般]**  >  **[言語]** の順に選択します。
 * エクスポートした PowerPoint ファイルの、表紙スライドの **[Downloaded at]\(ダウンロードした時刻\)** は、お使いのコンピューターのタイム ゾーンにおけるエクスポート時の時刻に設定されます。
+* PPTX にエクスポートする場合、カスタム フォントのテーマを使用したレポートでは、カスタム フォントが既定のフォントに置き換えられます。
 * 現在、エクスポートに **[現在の値]** を選択した場合、URL フィルターは適用されません。
 
 ## <a name="next-steps"></a>次の手順

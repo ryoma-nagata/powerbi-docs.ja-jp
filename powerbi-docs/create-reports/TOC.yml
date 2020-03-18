@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: R を使用して Power BI 視覚エフェクトを作成する
               href: ../desktop-r-visuals.md
-            - name: R を利用したカスタム視覚エフェクトをダウンロードして使用する
+            - name: R を利用した Power BI ビジュアルのダウンロードと使用
               href: ../desktop-r-powered-custom-visuals.md
             - name: グリッド線と "グリッドにスナップ" を適用する
               href: ../desktop-gridlines-snap-to-grid.md

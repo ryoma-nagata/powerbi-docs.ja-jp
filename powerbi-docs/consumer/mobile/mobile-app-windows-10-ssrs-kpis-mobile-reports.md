@@ -1,29 +1,28 @@
 ---
-title: Windows 10 モバイル アプリで SSRS のモバイル レポートと KPI を表示する - Power BI
+title: Power BI Windows アプリでオンプレミス レポートと KPI を表示する
 description: Windows 10 用 Power BI モバイル アプリにより、タッチ対応のモバイルからオンプレミスの重要なビジネス情報に簡単にアクセスできるようになります。
-author: mshenhav
-ms.reviewer: ''
+author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/09/2020
+ms.author: painbar
+ms.openlocfilehash: 010513ec8ca908167bbc99255a6fd207ca0ccfba
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879349"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040929"
 ---
-# <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 の Power BI モバイル アプリで Reporting Services (SSRS) のモバイル レポートと KPI を表示する
-Windows 10 用 Power BI モバイル アプリを使って、タッチ対応のモバイルから、SQL Server 2016 Reporting Services のオンプレミスの重要なビジネス情報に簡単にアクセスできます。 
+# <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Power BI Windows アプリでオンプレミス レポートと KPI を表示する
+Windows 10 用 Power BI アプリを使って、タッチ対応のモバイルから、SQL Server 2016 Reporting Services のオンプレミスの重要なビジネス情報に簡単にアクセスできます。 
 
 ![Reporting Services のモバイル レポート](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>最初に行うこと
 SQL Server 2016 Enterprise Edition Mobile Report Publisher で [Reporting Services のモバイル レポートを作成](https://msdn.microsoft.com/library/mt652547.aspx)し、[Reporting Services の Web ポータル](https://msdn.microsoft.com/library/mt637133.aspx)にそのレポートを公開します。 KPI は Web ポータルで作成します。 作成したレポートと KPI を簡単に探せるように、フォルダーで整理したりお気に入りに追加したりします。 
 
-Windows 10 用 Power BI モバイル アプリで、フォルダーやお気に入りに追加したモバイル レポートや KPI を表示します。 
+Windows 10 用 Power BI アプリで、フォルダーやお気に入りに追加した KPS、モバイル レポート、Power BI レポートを表示します。 
 
 > [!NOTE]
 > デバイスで Windows 10 を実行している必要があります。 このアプリは、最低 1 GB RAM と 8 GB の内部記憶域を持つデバイスに適しています。
@@ -68,7 +67,7 @@ Reporting Services の Web ポータルへのアクセス権がない場合で�
    > 
 
 ## <a name="view-reporting-services-kpis-and-mobile-reports-in-the-power-bi-app"></a>Power BI アプリで Reporting Services の KPI とモバイル レポートを表示する
-Reporting Services の KPI とモバイル レポートは、Reporting Services の Web ポータルと同じフォルダーに表示されます。
+Reporting Services KPI、モバイル レポート、Power BI レポート (プレビュー) は、Reporting Services Web ポータル上で同じフォルダー内に表示されます。
 
 ![レポート フォルダー](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
@@ -80,7 +79,7 @@ Reporting Services の KPI とモバイル レポートは、Reporting Services 
     ![Reporting Services のモバイル レポート](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>お気に入りの KPI とレポートを表示する
-Reporting Services Web ポータルで KPI とモバイル レポートをお気に入りに設定し、Power BI のお気に入りのダッシュボードやレポートと共に、Windows 10 デバイスの便利なフォルダーで表示できます。
+Reporting Services Web ポータルで KPI、モバイル レポート、Power BI レポートをお気に入りに設定し、Power BI のお気に入りのダッシュボードやレポートと共に、Windows 10 デバイスの 1 つの便利なフォルダー内に表示できます。
 
 * **[お気に入り]** をタップします。
   
@@ -88,8 +87,6 @@ Reporting Services Web ポータルで KPI とモバイル レポートをお気
   
    Web ポータルでお気に入りに追加したアイテムは、すべてこのページに表示されます。
   
-   ![[お気に入り] ページ](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-favorites.png)
-
 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 
 ## <a name="remove-a-connection-to-a-report-server"></a>レポート サーバーへの接続を削除する

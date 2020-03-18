@@ -7,24 +7,27 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/22/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863402"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113089"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI を使用してダッシュボード タイルに関するデータの分析情報を表示する
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 ダッシュボード上の各ビジュアル [タイル](end-user-tiles.md)からデータの探索を開始できます。 タイルを選択すると、レポートまたは [Q&A](end-user-q-and-a.md) が開き、レポートの背後でデータセットをフィルター処理し、並べ替えて掘り下げることができます。 また、インサイトを実行すると、Power BI でデータの探索が自動的に実行されます。
 
 ![省略記号メニュー モード](./media/end-user-insights/power-bi-insight.png)
 
 分析を実行して、データに基づいて、興味を引く対話型のビジュアルを生成します。 特定のダッシュボード タイルで分析を実行することができます。分析情報に対して分析を実行することもできます。
 
-インサイトの基となっているのは、Microsoft Research と共同開発して拡大を続けている[高度な分析アルゴリズムのセット](end-user-insight-types.md)です。引き続きこれを使って、より多くの人が新しい直感的な方法でデータから詳細情報を見つけられるようにしていきます。
+分析機能の基となっているのは、Microsoft Research と共同開発して拡大を続けている[高度な分析アルゴリズムのセット](end-user-insight-types.md)です。引き続きこれを使って、より多くの人が新しい直感的な方法でデータから分析情報を見つけられるようにしていきます。
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>ダッシュボード タイルへのインサイトの実行
 ダッシュボード タイルでインサイトを実行すると、Power BI ではその 1 つのダッシュボード タイルを作成するために使用されたデータのみが検索されます。 

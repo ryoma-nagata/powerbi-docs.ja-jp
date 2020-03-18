@@ -1,19 +1,19 @@
 ---
 title: Power BI モバイル アプリの特定の場所へのリンクを作成する
 description: URI (Uniform Resource Identifier) で Power BI モバイル アプリの特定のダッシュボード、タイル、またはレポートへのディープ リンクを作成する方法について説明します。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/24/2019
-ms.author: mshenhav
-ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879287"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114498"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの特定の場所へのリンクを作成する
 Power BI では、リンクを使用し、レポート、ダッシュボード、タイルといった特定の項目に直接アクセスできます。

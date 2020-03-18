@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9da9465bea8512b541d3f1af3983df70d184ac26
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875648"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114975"
 ---
 # <a name="what-is-power-bi"></a>Power BI とは?
 **Power BI** はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型洞察を得ることができます。 Excel スプレッドシートや、クラウド ベースとオンプレミスのハイブリッド データ ウェアハウスのコレクションなど、さまざまなデータを使えます。 Power BI を使うと、ご利用のデータ ソースへの接続、重要事項の視覚化と検出、必要に応じた任意のユーザーまたはすべてのユーザーとの共有を、簡単に実行できます。
@@ -51,9 +51,9 @@ Power BI の使用方法は、Power BI のどの機能またはサービスが�
 Power BI での一般的な作業の流れは、データ ソースに接続し、Power BI Desktop でレポートを作成することから始まります。 次に、そのレポートを Power BI Desktop から Power BI サービスに発行し、それを共有することで、Power BI サービスとモバイル デバイスのエンド ユーザーがレポートを表示して操作できるようにします。
 このワークフローは一般的で、Power BI の 3 つの主な要素がお互いを補完するしくみを示しています。
 
-こちらに詳細な [Power BI Desktop と Power BI サービスの比較](../designer/service-service-vs-desktop.md)があります。
+こちらに詳細な [Power BI Desktop と Power BI サービスの比較](../fundamentals/service-service-vs-desktop.md)があります。
 
-## <a name="on-premises-reporting-with-power-bi-report-server"></a>Power BI Report Server によるオンプレミスでのレポート作成
+## <a name="on-premises-reporting-with-power-bi-report-server"></a>Power BI Report Server を使用したオンプレミスのレポート
 
 しかし、クラウドに移行する準備が整っていないため、企業のファイアウォールの背後にレポートを保持する必要がある場合はどうすればよいでしょうか。  読み続けてください。
 
@@ -61,11 +61,11 @@ Power BI Report Server が提供するすぐに使用できるさまざまなツ
 
 ![オンプレミス用の図](media/power-bi-overview/power-bi-report-server2.png)
 
-Power BI Report Server は、ファイアウォールの背後に展開するソリューションであり、適切なユーザーにさまざまな方法でレポートを配信します。レポートは、Web ブラウザーでもモバイル デバイスでも表示でき、電子メールとして送信することもできます。 Power BI Report Server は、クラウドの Power BI に対応するため、準備ができたらクラウドに移行することができます。 
+Power BI Report Server は、ファイアウォールの背後に展開するソリューションであり、適切なユーザーにさまざまな方法でレポートを配信します。これは、Web ブラウザーでもモバイル デバイスでも表示でき、電子メールとして送信することもできます。 Power BI Report Server は、クラウドの Power BI に対応するため、準備ができたらクラウドに移行することができます。 
 
 [Power BI レポート サーバー](../report-server/get-started.md)の詳細をお読みください。
 
 ## <a name="next-steps"></a>次の手順
 - [クイック スタート:Power BI サービスの使用方法を学ぶ](../service-the-new-power-bi-experience.md)   
-- [チュートリアル:Power BI サービスの概要](../service-get-started.md)
+- [チュートリアル: Power BI サービスの概要](../service-get-started.md)
 - [クイック スタート:Power BI Desktop でデータに接続する](../desktop-quickstart-connect-to-data.md)

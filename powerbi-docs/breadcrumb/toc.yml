@@ -13,6 +13,9 @@
             - name: コンシューマー
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
+            - name: モバイル
+              tocHref: /power-bi/consumer/mobile/
+              topicHref: /power-bi/consumer/mobile/index
             - name: 開発者
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index

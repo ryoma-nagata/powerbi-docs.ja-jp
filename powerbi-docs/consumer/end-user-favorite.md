@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852649"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040506"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Power BI サービスでのお気に入りのダッシュボード、レポート、アプリ
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 コンテンツを "*お気に入り*" にすると、 **[お気に入り]** コンテンツ リストから、および Power BI の **[ホーム]**  >  **[お気に入り+ 頻繁に使用]** から、簡単にアクセスできるようになります。 お気に入りは通常、最も頻繁にアクセスするコンテンツであり、識別子として黄色い星が付きます。
 
    ![[お気に入り] アイコン](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![[お気に入り + 頻繁に使用] アイコン](./media/end-user-favorite/power-bi-home.png)
-
-Power BI サービスの[おすすめのダッシュボード](end-user-featured.md)として、1 つのダッシュボードを選択することもできます。
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>お気に入りとしてダッシュボードまたはレポートを追加する
 
@@ -67,7 +68,7 @@ Power BI サービスの[おすすめのダッシュボード](end-user-featured
 2. お気に入りから外すコンテンツの横にある黄色の星を選びます。
 
 > [!NOTE]
-> ダッシュボード、レポート、アプリをお気に入りから外すこともできます。 対象を開き、黄色のアイコンの選択を解除するだけです。 
+> ダッシュボード、レポート、アプリをお気に入りから外すこともできます。 対象を開いて黄色の星を選択すると、白色の星に戻ります。 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項

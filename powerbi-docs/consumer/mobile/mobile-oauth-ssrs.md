@@ -1,19 +1,19 @@
 ---
 title: OAuth を使用し、Power BI Report Server と SSRS に接続する
 description: SQL Server Reporting Services 2016 以降に接続する目的で、Power BI モバイル アプリで OAuth 認証をサポートするように環境を構成する方法について説明します。
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220610"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114944"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth を使用し、Power BI Report Server と SSRS に接続する
 
@@ -54,7 +54,7 @@ WAP アプリケーションと ADFS サーバー両方の証明書を構成す�
 
 ## <a name="reporting-services-configuration"></a>Reporting Services の構成
 
-Reporting Services についての構成はあまりありません。 適切な Kerberos 認証を実行できる有効なサービス プリンシパル名 (SPN) があること、および Reporting Services サーバーがネゴシエート認証に対して有効であることだけを、確認する必要があります。
+Reporting Services 側での構成はあまりありません。 適切な Kerberos 認証を実行できる有効なサービス プリンシパル名 (SPN) があること、および Reporting Services サーバーがネゴシエート認証に対して有効であることだけを、確認する必要があります。
 
 ### <a name="service-principal-name-spn"></a>サービス プリンシパル名 (SPN)
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 WAP アプリケーションを追加した後は、IntegratedWindowsAuthentication を使うように BackendServerAuthenticationMode を設定する必要があります。 それを設定するには、WAP アプリケーションからの ID が必要です。
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![アプリケーション グループの追加](media/mobile-oauth-ssrs/wap-application-id.png)

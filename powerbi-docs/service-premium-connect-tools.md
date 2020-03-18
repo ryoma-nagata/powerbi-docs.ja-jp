@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 0364fae1648e6155cc5e5a92850861c3bedbabdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: aaafaa5b2822e3e17fdc92b43bf7b745330a547b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871901"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946839"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>クライアント アプリケーションとツールでデータセットに接続する (プレビュー)
 
@@ -104,17 +104,13 @@ SQL Server Profiler などの一部のツールでは、*初期カタログ*の�
 
 現時点では、モデルのロールとロールのメンバーシップは、XMLA エンドポイントを使用して検出も表示もされません。
 
-## <a name="disable-connectivity"></a>接続を無効にする
-
-既定では、XMLA エンドポイント接続はデータセット ワークロードに対して有効になっています。 [ワークロードの設定](service-admin-premium-workloads.md#workload-settings)で接続を無効にすることができます。
-
 ## <a name="audit-logs"></a>監査ログ 
 
 クライアント アプリケーションとツールでワークスペースに接続する場合、XMLA エンドポイントからのアクセスは **GetWorkspaces** 操作で Power BI 監査ログに記録されます。 詳細については、[Power BI の監査](service-admin-auditing.md)に関するページを参照してください。
 
-## <a name="see-also"></a>参照
+## <a name="see-also"></a>関連項目
 
-[Analysis Services リファレンス](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
+[Analysis Services リファレンス](https://docs.microsoft.com/bi-reference/?pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
 [SQL Server Analysis Services 表形式のプロトコル](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [動的管理ビュー (DMV)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   

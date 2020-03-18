@@ -8,16 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/30/2020
-rLocalizationGroup: Common tasks
-ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.date: 03/09/2020
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888609"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114043"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI サービスでレポートまたはダッシュボードをサブスクライブする 
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -63,7 +65,7 @@ ms.locfileid: "76888609"
 
 3. 何も問題がなければ、 **[保存して閉じる]** を選択してサブスクリプションを保存します。 設定したスケジュールで、メールとレポートまたはダッシュボードのスナップショットを受け取ります。 頻度が **[データ更新後]** に設定されているすべてのサブスクリプションについては、その日にスケジュールされている最初の更新の後でのみメールが送信されます。
    
-   ![ダッシュボードのメール スナップショット](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![ダッシュボードのメール スナップショット](media/end-user-subscribe/power-bi-email.png)
    
     レポート ページを更新しても、データセットは更新されません。 データセットの所有者のみが、データセットを手動で更新できます。 基になるデータセットの所有者の名前を検索するには、メニュー バーからドロップダウンを選択するか、元のサブスクリプション メールを検索します。
    
@@ -73,11 +75,12 @@ ms.locfileid: "76888609"
 ## <a name="manage-your-subscriptions"></a>サブスクリプションを管理する
 自分で作成したサブスクリプションのみを管理できます。 再び **[受信登録する]** を選択し、左下隅の **[すべてのサブスクリプションを管理]** を選択します (上のスクリーンショットを参照)。 
 
-![マイ ワークスペース内のすべてのサブスクリプションの表示](./media/end-user-subscribe/power-bi-manage.png)
+![マイ ワークスペース内のすべてのサブスクリプションの表示](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
 Pro ライセンスの有効期限が切れた場合、所有者がダッシュボードまたはレポートを削除した場合、またはサブスクリプションの作成に使われたユーザー アカウントが削除された場合、サブスクリプションは終了します。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
+* サブスクリプション メールが迷惑メール フォルダーに移動されないようにするには、Power Platform の電子メール エイリアス (PowerPlat-noreply@microsoft.com) を自分の連絡先に追加します。 Microsoft Outlook を使用している場合は、エイリアスを右クリックし、 **[Outlook の連絡先に追加]** を選択します。 
 * ダッシュボードに含まれるピン留めされたタイルが 25 個より多い場合、またはピン留めされたライブ レポート ページが 4 個より多い場合は、ユーザーに送信されたサブスクリプション電子メールで完全にレンダリングされない可能性があります。 確実に電子メールが正しくレンダリングされるように、ダッシュボードのデザイナーに連絡し、ピン留めされたタイルを 25 個未満、ピン留めされたライブ レポート ページを 4 個未満にするように依頼することをお勧めします。  
 * ダッシュボード メールのサブスクリプションについては、行レベルのセキュリティ (RLS) が適用されているタイルがある場合、そのタイルは表示されません。  レポート メールのサブスクリプションについては、データセットで RLS を使用する場合、サブスクリプションを作成することはできません。
 * メール内の (コンテンツへの) リンクが機能しなくなった場合は、コンテンツが削除された可能性があります。 メール内のスクリーンショットの下で、自分自身をサブスクライブしたかどうか、または他の人が自分をサブスクライブしたかどうかを確認できます。 他の人の場合は、同僚に電子メールをキャンセルするか、再度自分をサブスクライブするよう依頼してください。

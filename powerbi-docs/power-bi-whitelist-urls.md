@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 6844d09c04759f0cdb780b3c1805698f1b1b519f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894662"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401921"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>ホワイトリスト登録用の Power BI の URL
 
@@ -85,13 +85,13 @@ Power BI は、ダッシュボードとレポートをサポートするため�
 | 1 | **必須:** Excel との連携 | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) については、Office 365 ドキュメントを参照 | 該当なし |
 | | | |
 
-## <a name="custom-visuals"></a>カスタム ビジュアル
+## <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-Power BI は、カスタム ビジュアルの表示とアクセスのために、特定のエンドポイントに依存します。 次の表内とリンク先のサイトのエンドポイントに接続できる必要があります。
+Power BI は、Power BI ビジュアルの表示とアクセスのために、特定のエンドポイントに依存します。 次の表内とリンク先のサイトのエンドポイントに接続できる必要があります。
 
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |
-| 1 | **必須:** Marketplace インターフェイスまたはファイルからカスタム ビジュアルをインポートする | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 1 | **必須:** Marketplace インターフェイスまたはファイルからカスタム ビジュアルをインポートする | *.azureedge.net <br> *.blob.core.windows.net <br> *.osi.office.net <br> *.msecnd.net <br> store.office.com <br> web.vortex.data.microsoft.com <br> store-images.s-microsoft.com | TCP 443 |
 | 2 | **オプション:** Bing マップ | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **オプション:** PowerApps | PowerApps のシステム要件のサイトの「[必要なサービス](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)」セクションを参照 | 該当なし |
 | 4 | **オプション:** Visio | [Office Online および共通の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)、[SharePoint Online と OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) に関する Office 365 ドキュメントを参照 | 該当なし |

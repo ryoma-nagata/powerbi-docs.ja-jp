@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537809"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040090"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -22,7 +22,9 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 ## <a name="a"></a>A
 
-**account (アカウント)** さまざまな種類の Power BI アカウントがあります。  Power BI Pro アカウントは、月単位の有料サブスクリプションです。  Power BI の無料アカウントでは、Power BI Premium 容量でホストされているコンテンツを表示できます。  
+**アカウント** さまざまな種類の Power BI アカウント ("*ライセンス*" とも呼ばれる) があります。  アカウントは、ユーザーごとのアカウント、または組織アカウントのいずれかとなります。 ユーザーごとのアカウントは *Free* または *Pro* として提供されます。  Power BI  *Free* ユーザーは、スタンドアロン Power BI Desktop を使用しているか、Premium 組織アカウント内で Power BI サービスを使用しています。 Power BI のユーザーごとの *Pro* アカウントは、他の *Pro* ユーザーとの共同作業やコンテンツの共有を可能にする月単位の有料サブスクリプションです。 
+
+組織用の *Premium* ("*Premium 容量*" とも呼ばれる) アカウントでは、ユーザーごとのライセンスの上に機能の層が追加されます。 たとえば、*Premium* ライセンスを所有する組織内の *Free* ユーザーごとアカウントの所有者は、*Premium* を使用しない *Free* ユーザーよりも Power BI ではるかに多くのことを行うことができます。 たとえば、*Premium* 組織アカウント内の *Free* ユーザーは、同僚と共同作業をしたり、Power BI Premium 容量でホストされているコンテンツを表示したりすることができます。  
 
 **admin portal (管理ポータル)** Power BI 管理者が所属組織内の Power BI のユーザー、機能、および、設定を管理する場所 (注:Office 365、Azure、および PowerApps では管理センターが使用されます)。
 
@@ -170,6 +172,8 @@ Power BI サービスの左端に沿って示されるコントロール。
 
 初出: ナビゲーション ペイン、以降の言及またはスペースに余裕がない場合: ナビ ペイン
 
+**ライセンス** "*アカウント*" を参照してください。
+
 **list page (リスト ページ)** または**コンテンツ リスト** ナビ ペイン内の要素のセクション ページのいずれか。 たとえば、お気に入り、最近使った項目、マイ ワークスペースなど。
 
 ## <a name="m"></a>M
@@ -226,15 +230,17 @@ Power BI サービスの左端に沿って示されるコントロール。
 
 **Power BI Embedded** 開発者が自分のアプリ、サイト、およびツールに Power BI ダッシュボードやレポートを埋め込むために使用される製品。
 
-**Power BI Premium** 組織が専用ハードウェアの購入を通じて、予想どおりに BI ソリューションをスケーリングできるようにする Power BI Pro ライセンスへのアドオン。
+**Power BI Premium** 組織が専用ハードウェアの購入を通じて、予想どおりに BI ソリューションをスケーリングできるようにする Power BI Pro ライセンスへのアドオン。 "*アカウント*" を参照してください。
 
-**Power BI Pro license (Power BI Pro ライセンス)** 月単位のユーザー ライセンス。ダッシュボードの構築、共有データでの共同作業、自動的にデータを最新の状態に保持、データのアクセスと使用方法の監査と管理のための機能が提供されます。また、配布するコンテンツをパッケージ化する機能が提供されます (Power BI アプリ)。
+**Power BI Pro** 月単位のユーザーごとのライセンス。レポートおよびダッシュボードの構築、共有データでの共同作業、自動的にデータを最新の状態に保持、データのアクセスと使用方法の監査と管理のための機能が提供されます。また、配布するコンテンツをパッケージ化する機能が提供されます (Power BI アプリ)。 "*アカウント*" を参照してください。
 
 **Power BI Report Server** 組織が分散型ハイブリッド BI システム (クラウドとオンプレミス デプロイの組み合わせ) を構築できるようにするために、Power BI Premium で起動される SSRS の新しいブランド サービス。 Embedded は Power BI のレポートを格納して管理するためのローカライズされた方法を提供します。
 
 **Power BI service (Power BI サービス)** オンラインの SaaS (サービスとしてのソフトウェア) サービス。 詳しくは、「[Power BI とは](../fundamentals/power-bi-overview.md)」をご覧ください。
 
 **Premium workspace (Premium ワークスペース)** ひし形アイコンで顧客に示される、専用の容量で実行されるワークスペース。  
+
+**Pro** ライセンスまたは **Pro** アカウント "*アカウント*" を参照してください。
 
 **publish(発行)** Power BI サービスのレポート "*デザイナー*" は、Power BI ワークスペースのコンテンツをまとめて、Power BI アプリとして他のユーザーが使用できるようにします。 Power BI Desktop のレポート "*デザイナー*" の場合は、Power BI Desktop レポートを .pbix 形式で Power BI サービスに送信し、それからダッシュボードを作成したり、他のユーザーと簡単に共有できるようにしたりすることを発行と呼びます。 
 
