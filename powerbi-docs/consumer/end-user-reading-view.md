@@ -10,22 +10,25 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2019
+ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862687"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206035"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>クイック スタート: *コンシューマー*向けの Power BI の機能について学習する
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+
 このクイック スタートでは、Power BI と対話してデータ駆動型のビジネスの分析情報を発見する方法について説明します。 この記事の意図は、詳細な情報を提供することではなく、Power BI の**コンシューマー**が使用できるアクションの多くを簡単に説明することです。
 
 Power BI にサインアップしていない場合は、[無料の試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
 
 ## <a name="what-is-power-bi"></a>Power BI とは? 
-Power BI はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型の分析情報を得ることができます。 簡単な Excel スプレッドシートのデータでも、さまざまなデータ ソースのデータのコレクションでも、Power BI を使用すると、データ ソースに簡単に接続し、重要なことを視覚化 (検出) して、それを必要に応じて特定のユーザーまたはすべてのユーザーと共有することができます。 
+Power BI はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型の分析情報を得ることができます。 簡単な Excel スプレッドシートのデータでも、さまざまなデータ ソースのデータのコレクションでも、Power BI を使用すると、データ ソースに簡単に接続し、重要なことを視覚化 (または検出) して、それを必要に応じて特定のユーザーまたはすべてのユーザーと共有することができます。 
 
 ![[アプリの取得] アイコン](./media/end-user-reading-view/power-bi-conceptual.png)
 
@@ -34,7 +37,7 @@ Power BI サービスでは、レポートの "*コンシューマー*" 用に�
 
 ブラウザーまたはモバイル デバイスで Power BI サービスを開くだけです。 自分も同僚も、自動的に更新されて最新の情報が表示される、信頼済みの同じアプリ、ダッシュボード、レポートから作業を行うため、常に最新のコンテンツで作業できます。   
 
-コンテンツは静的ではないため、傾向、分析情報、およびその他のビジネス インテリジェンスを調べることができます。 コンテンツを細かく分けます。自分の言葉を使って質問することもできます。 または、自分から何もしなくても、データによって興味深い分析情報が見つかります。データが変更されるとアラートが送信され、設定したスケジュールに基づいてメールでレポートが送信されます。 任意のデバイスから、クラウドまたはオンプレミスのすべてのデータをいつでも使用できます。 
+コンテンツは静的ではないため、傾向、分析情報、およびその他のビジネス インテリジェンスを探して、より詳しく調べることができます。 コンテンツを細かく分けます。自分の言葉を使って質問することもできます。 または、自分から何もしなくても、データによって興味深い分析情報が見つかります。データが変更されるとアラートが送信され、設定したスケジュールに基づいてメールでレポートが送信されます。 任意のデバイスから、クラウドまたはオンプレミスのすべてのデータをいつでも使用できます。 
 
 さらに読み進めて、詳しく学習しましょう。
 
@@ -186,7 +189,7 @@ Power BI のビジュアルは、基礎データセットからのデータを�
 
 ![Excel にエクスポートされたデータ](./media/end-user-reading-view/power-bi-export-powerpoint.png)
 
-<!-- Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
+<!-- Exporting isn't limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 
