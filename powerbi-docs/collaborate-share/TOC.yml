@@ -51,6 +51,8 @@
               href: ../service-url-filters.md
             - name: 自分や他のユーザーをサブスクライブする
               href: ../service-report-subscribe.md
+            - name: ホームの機能コンテンツ
+              href: service-featured-content.md
             - name: Microsoft Teams にレポートを埋め込む
               href: ../service-embed-report-microsoft-teams.md
             - name: SharePoint Online にレポートを埋め込む

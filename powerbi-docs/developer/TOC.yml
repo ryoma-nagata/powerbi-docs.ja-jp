@@ -129,79 +129,79 @@
         - name: 概要
           items:
             - name: Power BI での埋め込みとは
-              href: embedding.md
+              href: embedded/embedding.md
             - name: Azure での Power BI Embedded とは
-              href: azure-pbie-what-is-power-bi-embedded.md
+              href: embedded/azure-pbie-what-is-power-bi-embedded.md
         - name: チュートリアル
           items:
             - name: 顧客向けにコンテンツを埋め込む
-              href: embed-sample-for-customers.md
+              href: embedded/embed-sample-for-customers.md
             - name: 組織向けにコンテンツを埋め込む
-              href: embed-sample-for-your-organization.md
+              href: embedded/embed-sample-for-your-organization.md
             - name: 顧客向けにページ分割されたレポートを埋め込む
-              href: embed-paginated-reports-customers.md
+              href: embedded/embed-paginated-reports-customers.md
             - name: 国内クラウド向けにコンテンツを埋め込む
-              href: embed-sample-for-customers-national-clouds.md
+              href: embedded/embed-sample-for-customers-national-clouds.md
         - name: 概念
           items:
             - name: Power BI Embedded の分析の容量と SKU
-              href: embedded-capacity.md
+              href: embedded/embedded-capacity.md
             - name: キャパシティ プランニング
-              href: embedded-capacity-planning.md
+              href: embedded/embedded-capacity-planning.md
             - name: のパフォーマンスのベスト プラクティス
-              href: embedded-performance-best-practices.md
+              href: embedded/embedded-performance-best-practices.md
             - name: サービス プリンシパル
-              href: embed-service-principal.md
+              href: embedded/embed-service-principal.md
             - name: 行レベルのセキュリティ
-              href: embedded-row-level-security.md
+              href: embedded/embedded-row-level-security.md
             - name: ページ分割されたレポートの行レベルのセキュリティ
-              href: paginated-reports-row-level-security.md
+              href: embedded/paginated-reports-row-level-security.md
             - name: マルチテナントを管理する
-              href: embed-multi-tenancy.md
+              href: embedded/embed-multi-tenancy.md
             - name: Azure の Power BI Embedded の診断ログ
-              href: azure-pbie-diag-logs.md
+              href: embedded/azure-pbie-diag-logs.md
             - name: 埋め込みに関するよくあるご質問
-              href: embedded-faq.md
+              href: embedded/embedded-faq.md
             - name: Power BI のアクセス許可
-              href: power-bi-permissions.md
+              href: embedded/power-bi-permissions.md
         - name: 操作方法
           items:
             - name: アプリからの埋め込み
-              href: embed-from-apps.md
+              href: embedded/embed-from-apps.md
             - name: レポートをファイルにエクスポートする
-              href: export-to.md
+              href: embedded/export-to.md
             - name: アプリの自動インストール
-              href: embed-auto-install-app.md
+              href: embedded/embed-auto-install-app.md
             - name: Azure Active Directory テナントを作成する
-              href: create-an-azure-active-directory-tenant.md
+              href: embedded/create-an-azure-active-directory-tenant.md
             - name: アプリケーションを登録する
-              href: register-app.md
+              href: embedded/register-app.md
             - name: Azure AD アクセス トークンを取得する
-              href: get-azuread-access-token.md
+              href: embedded/get-azuread-access-token.md
             - name: 動的バインドを使用してレポートを接続する
-              href: embed-dynamic-binding.md
+              href: embedded/embed-dynamic-binding.md
             - name: 埋め込みに関する Q&A
-              href: qanda.md
+              href: embedded/qanda.md
             - name: 埋め込みアプリケーションのトラブルシューティング
-              href: embedded-troubleshoot.md
+              href: embedded/embedded-troubleshoot.md
             - name: Azure で容量を管理する
               items:
                 - name: Azure で容量を作成する
-                  href: azure-pbie-create-capacity.md
+                  href: embedded/azure-pbie-create-capacity.md
                 - name: Azure で Multi-Geo を使用して容量を作成する
-                  href: embedded-multi-geo.md
+                  href: embedded/embedded-multi-geo.md
                 - name: Azure で容量をスケールする
-                  href: azure-pbie-scale-capacity.md
+                  href: embedded/azure-pbie-scale-capacity.md
                 - name: Azure で容量を一時停止し、開始する
-                  href: azure-pbie-pause-start.md
+                  href: embedded/azure-pbie-pause-start.md
             - name: ワークスペース コレクションから移行する
               items:
                 - name: Power BI ワークスペース コレクションから移行する方法
-                  href: migrate-from-powerbi-embedded.md
+                  href: embedded/migrate-from-powerbi-embedded.md
                 - name: 移行ツール
-                  href: migrate-tool.md
+                  href: embedded/migrate-tool.md
                 - name: 移行コード スニペット
-                  href: migrate-code-snippets.md
+                  href: embedded/migrate-code-snippets.md
         - name: リファレンス
           items:
             - name: API
@@ -215,7 +215,7 @@
             - name: .NET SDK のダウンロード
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: カスタム レイアウトをアプリに埋め込む
-              href: embedded-custom-layout.md
+              href: embedded/embedded-custom-layout.md
         - name: リソース
           items:
             - name: デベロッパー センター

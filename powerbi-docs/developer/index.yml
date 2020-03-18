@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: 94800e2b5996b9b9fc6bf60c4c95dd72b0725b81
-  ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
+  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/14/2020
-  ms.locfileid: "79378250"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79487765"
 landingContent:
 - title: 開発者向け Power BI について
   linkLists:
@@ -26,9 +26,9 @@ landingContent:
     - text: 開発者向け機能
       url: what-can-you-do.md
     - text: Power BI のビジュアル
-      url: power-bi-custom-visuals.md
+      url: visuals/power-bi-custom-visuals.md
     - text: 埋め込みとは
-      url: embedding.md
+      url: embedded/embedding.md
     - text: Power BI API とは
       url: automation/overview-of-power-bi-rest-api.md
   - linkListType: reference
@@ -52,42 +52,42 @@ landingContent:
   - linkListType: concept
     links:
     - text: ビジュアルに関する FAQ
-      url: power-bi-custom-visuals-faq.md
+      url: visuals/power-bi-custom-visuals-faq.md
     - text: ビジュアルのガイドライン
-      url: guidelines-powerbi-visuals.md
+      url: visuals/guidelines-powerbi-visuals.md
     - text: ビジュアルの高度な編集モード
       url: visuals/advanced-edit-mode.md
   - linkListType: how-to-guide
     links:
     - text: ビジュアルの認定を受ける
-      url: power-bi-custom-visuals-certified.md
+      url: visuals/power-bi-custom-visuals-certified.md
     - text: Power BI ビジュアルを AppSource に発行する
-      url: office-store.md
+      url: visuals/office-store.md
 - title: 埋め込み分析
   linkLists:
   - linkListType: tutorial
     links:
     - text: 顧客向けにコンテンツを埋め込む
-      url: embed-sample-for-customers.md
+      url: embedded/embed-sample-for-customers.md
     - text: 組織向けにコンテンツを埋め込む
-      url: embed-sample-for-your-organization.md
+      url: embedded/embed-sample-for-your-organization.md
   - linkListType: concept
     links:
     - text: 行レベルのセキュリティ
-      url: embedded-row-level-security.md
+      url: embedded/embedded-row-level-security.md
     - text: マルチテナントの管理
-      url: embed-multi-tenancy.md
+      url: embedded/embed-multi-tenancy.md
     - text: 埋め込みに関する FAQ
-      url: embedded-faq.md
+      url: embedded/embedded-faq.md
     - text: アクセス許可
-      url: power-bi-permissions.md
+      url: embedded/power-bi-permissions.md
   - linkListType: how-to-guide
     links:
     - text: アプリからの埋め込み
-      url: embed-from-apps.md
+      url: embedded/embed-from-apps.md
     - text: Azure Active Directory テナントを作成する
-      url: create-an-azure-active-directory-tenant.md
+      url: embedded/create-an-azure-active-directory-tenant.md
     - text: Azure AD アクセス トークンを取得する
-      url: get-azuread-access-token.md
+      url: embedded/get-azuread-access-token.md
     - text: Power BI Embedded の Q&A 機能
-      url: qanda.md
+      url: embedded/qanda.md
