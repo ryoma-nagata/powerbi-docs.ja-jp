@@ -12,7 +12,9 @@
     - name: チュートリアル
       expanded: true
       items:
-        - name: 'ハンズオン ラボ: ページ分割されたレポートの作成'
+        - name: オンライン コース
+          href: paginated-reports-online-course.md
+        - name: 'ハンズオン ラボ: ページ分割されたレポートを作成する'
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: ページ分割されたレポートの作成とアップロード
           href: paginated-reports-quickstart-aw.md
@@ -27,7 +29,7 @@
           href: report-builder-data.md
         - name: サポートされるデータ ソース
           href: paginated-reports-data-sources.md
-        - name: 設計のヒント
+        - name: デザインに関するヒント
           href: report-builder-design-tips.md
         - name: テーブル、マトリックス、リスト
           href: report-builder-tables-matrices-lists.md
@@ -43,7 +45,7 @@
           href: report-builder-previewing-reports.md
         - name: ページ分割されたレポートに関する FAQ
           href: paginated-reports-faq.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: ページ分割されたレポートに直接データを入力する
           href: paginated-reports-enter-data.md
@@ -53,7 +55,7 @@
           href: paginated-reports-create-embedded-dataset.md
         - name: Power BI 共有データセットを使用したレポートを作成する
           href: report-builder-shared-datasets.md
-        - name: パラメーターの作成
+        - name: パラメーターを作成する
           href: paginated-reports-parameters.md
         - name: URL でレポート パラメーターを渡す
           href: report-builder-url-pass-parameters.md

@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/25/2020
-  ms.openlocfilehash: 47a77e156c6b59440e0de500a3f2ab9dede01c85
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.openlocfilehash: 35b32cbaa5b5835b12bf83f9c14034aae715f7d6
+  ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78924600"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79525846"
 landingContent:
 - title: Power BI のページ分割されたレポートについて
   linkLists:
@@ -27,10 +27,12 @@ landingContent:
       url: paginated-reports-report-builder-power-bi.md
     - text: Power BI でのレポート ビルダー
       url: report-builder-power-bi.md
-- title: はじめに
+- title: 作業の開始
   linkLists:
   - linkListType: tutorial
     links:
+    - text: オンライン コース
+      url: paginated-reports-online-course.md
     - text: ページ分割されたレポートの作成とアップロード
       url: paginated-reports-quickstart-aw.md
   - linkListType: concept
@@ -53,7 +55,7 @@ landingContent:
       url: paginated-reports-embedded-data-source.md
     - text: 埋め込みデータセットを作成する
       url: paginated-reports-create-embedded-dataset.md
-- title: レポートを作成します
+- title: レポートの作成
   linkLists:
   - linkListType: concept
     links:
@@ -63,7 +65,7 @@ landingContent:
     links:
     - text: 共有データセットでレポートを作成する
       url: report-builder-shared-datasets.md
-    - text: パラメーターの作成
+    - text: パラメーターを作成する
       url: paginated-reports-parameters.md
 - title: レポートの絞り込みと発行
   linkLists:
