@@ -75,6 +75,8 @@
               href: ../desktop-measures.md
             - name: KPI のインポートと表示
               href: ../desktop-import-and-display-kpis.md
+            - name: 自動の日付/時刻を適用する
+              href: ../desktop-auto-date-time.md
         - name: セルフサービスのデータ作成
           items:
             - name: データフローの作成と使用
