@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3af0470e29b4f71cf8948bff4c1b317304533ac8
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114654"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435814"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータ アラートを設定する
 適用対象:
@@ -103,6 +103,10 @@ Power BI モバイル アプリでは個別のアラートを管理でき、[Pow
 5. アラートをすべて削除するには、ゴミ箱アイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png) をタップします。
 
 ## <a name="data-alerts-on-a-windows-device"></a>Windows デバイスでのデータ アラート
+
+>[!NOTE]
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 ### <a name="set-data-alerts-on-a-windows-device"></a>Windows デバイスでデータ アラートを設定する
 1. ダッシュボード内の数値タイルまたはゲージ タイルをタップして開きます。  
 2. ベルのアイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) をタップして、アラートを追加します。  

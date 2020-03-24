@@ -204,11 +204,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Centre-Val de Loire (サントル=ヴァル ド ロワール) |Centre-Val de Loire |Centre-Val de Loire (サントル=ヴァル ド ロワール) |
 | Corse |Corse |Corse (コルシカ島) |
 | Grand Est |  |  |
-| グアドループ | |   |
+| Guadeloupe | |   |
 | Hauts-de-France |  |  |
 | Ile-de-France (イル ド フランス) |Île-de-France |Ile-de-France (イル ド フランス) |
 | La Reunion |  |  |
-| マヨット  |  |  |
+| Mayotte  |  |  |
 | Normandie (ノルマンディー) |Normandie (ノルマンディー) |  |
 | Nouvelle-Aquitaine |  |  |
 | Occitanie  |  |  |
