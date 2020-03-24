@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 2c7ae8180f51592319c9aaca85272553480cd283
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "75498516"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435561"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでお気に入りを作成し、表示する
 適用対象:
@@ -21,6 +21,9 @@ ms.locfileid: "75498516"
 | ![iPhone](./media/mobile-apps-favorites/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-favorites/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-favorites/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-favorites/android-tablet-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-favorites/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
+
+>[!NOTE]
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 モバイル アプリで、お気に入りの Power BI ダッシュボード、レポート、アプリ、お気に入りのオンプレミスの Microsoft Power BI Report Server および Reporting Services の KPI とモバイル レポートを作成し、表示する方法について説明します。
 

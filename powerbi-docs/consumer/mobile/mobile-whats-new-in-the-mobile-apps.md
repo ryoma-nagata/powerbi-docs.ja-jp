@@ -8,19 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041567"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435975"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
 
 * [モバイル アプリ向けの Power BI チームのブログ](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop の新機能](../../desktop-latest-update.md)  
-* [Power BI サービスの新機能](../../service-whats-new.md)  
+* [Power BI サービスの新機能](../../service-whats-new.md)
+
+>[!NOTE]
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="february-2020"></a>2020 年 2 月
 
@@ -396,7 +399,7 @@ iPad アプリの Power BI レポートに更新ボタンが追加されまし�
 
 #### <a name="improved-hyperlink-support"></a>ハイパーリンク サポートの改善
 
-カスタム ビジュアルのリンクをタップし、モバイル ブラウザーで開くことができるようになりました。
+Power BI ビジュアルのリンクをタップし、モバイル ブラウザーで開くことができるようになりました。
 
 #### <a name="intune-integration-android"></a>Intune 統合 (Android)
 
@@ -470,7 +473,7 @@ Power BI コンテンツの編成については[ここ](mobile-apps-quickstart-
 #### <a name="all-devices"></a>すべてのデバイス
 **電話レポートの背景色** Power BI Desktop でレポートの背景色を定義すると、電話レポートの背景色が同じになります。 電話のレポート ページの最適化については[ここ](../../desktop-create-phone-report.md)をご覧ください。
 
-**モバイルに最適なカスタム ビジュアルの作成** この[開発者ガイド](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)には、モバイル デバイスできれいに表示され、問題なく動作するカスタム ビジュアルの作成に関するヒントがあります。
+**モバイルに最適な Power BI ビジュアルの作成** この[開発者ガイド](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)には、モバイル デバイスできれいに表示され、問題なく動作する Power BI ビジュアルの作成に関するヒントがあります。
 
 #### <a name="ios-devices"></a>iOS デバイス
 **データに話しかける: 音声認識で質問する** 文字を入力する代わりに音声を認識させる方法で[データに問い合わせ](mobile-apps-ios-qna.md)できるようになりました。 

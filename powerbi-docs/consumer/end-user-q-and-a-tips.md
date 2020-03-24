@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114294"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376824"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A で質問するためのヒント
 
@@ -67,7 +67,7 @@ ms.locfileid: "79114294"
 |  |  |
 |**上位 N**     |     (順序、順位付け): top、bottom、highest、lowest、first、last、next、earliest、newest、oldest、latest、most recent、next            |
 |        |         |
-|**ビジュアルの種類**     |  すべてのビジュアルの種類は Power BI に固有です。  [視覚化] ウィンドウのオプションである場合は質問に含めることができます。  このルールの例外は、[視覚化] ウィンドウに手動で追加した[カスタム ビジュアル](../developer/power-bi-custom-visuals.md)です。  |
+|**ビジュアルの種類**     |  すべてのビジュアルの種類は Power BI に固有です。  [視覚化] ウィンドウのオプションである場合は質問に含めることができます。  このルールの例外は、[視覚化] ウィンドウに手動で追加した [Power BI ビジュアル](../developer/visuals/power-bi-custom-visuals.md)です。  |
 |  |  例: show districts by month and sales total as bar chart (地区を月別および売上合計別に棒グラフとして示す)               |
 |        |         |
 |**Wh (関係、限定)**  | when、where、which、who、whom、how many、how much、how many times、how often、how frequently、amount、number、quantity、how long、what                |

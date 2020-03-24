@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/12/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889399"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381171"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium とは
 
@@ -88,7 +88,7 @@ Power BI Premium では、"*専用の容量*" が提供されます。 他の顧
 
 ### <a name="capacity-workloads"></a>容量のワークロード
 
-容量のワークロードは、ユーザーが利用できるようにされているサービスです。 既定で、Premium 容量および Azure 容量によってサポートされるのは、Power BI クエリの実行に関連付けられるデータセット ワークロードのみです。 データセット ワークロードを無効にすることはできません。 [AI (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[データフロー](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)、および[ページ分割されたレポート](paginated-reports-save-to-power-bi-service.md)に対する追加のワークロードを有効にすることができます。 これらのワークロードは、Premium のサブスクリプションのみでサポートされます。 
+容量のワークロードは、ユーザーが利用できるようにされているサービスです。 既定で、Premium 容量および Azure 容量によってサポートされるのは、Power BI クエリの実行に関連付けられるデータセット ワークロードのみです。 データセット ワークロードを無効にすることはできません。 [AI (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[データフロー](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)、および[ページ分割されたレポート](paginated-reports/paginated-reports-save-to-power-bi-service.md)に対する追加のワークロードを有効にすることができます。 これらのワークロードは、Premium のサブスクリプションのみでサポートされます。 
 
 各追加のワークロードでは、ワークロードで使用できる最大メモリを (使用可能な合計メモリの割合として) 構成できます。 最大メモリの既定値は、SKU によって決定されます。 使用する場合にのみそれらの追加のワークロードを有効にすることで、ご利用の容量の使用可能なリソースを最大限に活用することができます。 そして、メモリ設定を変更するのは、既定の設定では容量のリソース要件が満たされないことが判明した場合のみにしてください。 [管理ポータル](service-admin-portal.md)の **[容量の設定]** を使用するか、または [Capacities REST APIs](https://docs.microsoft.com/rest/api/power-bi/capacities) を使用して、容量管理者は容量に対してワークロードを有効にしたり構成したりすることができます。  
 
@@ -209,7 +209,7 @@ P1 から P3 の SKU および A4 から A6 の SKU でサポートされてい�
 
 Power BI Premium では、ページ分割されたレポートは管理ポータルを使用して容量に対して有効にする必要があるワークロードです。 容量管理者は、有効にしてから、容量のメモリ リソース全体に対するパーセンテージとしてメモリ量を指定することができます。 他の種類のワークロードとは異なり、ページ分割されたレポートは容量内に含まれる領域で Premium によって実行されます。 ワークロードがアクティブかどうかに関係なく、この領域に指定した最大メモリが使用されます。 既定値は 20% です。 
 
-詳細については、[Power BI Premium のページ分割されたレポート](paginated-reports-report-builder-power-bi.md)に関するページを参照してください。 ページ分割されたレポート ワークロードを有効にする方法の詳細については、[ワークロードの構成](service-admin-premium-workloads.md)に関するページを参照してください。
+詳細については、[Power BI Premium のページ分割されたレポート](paginated-reports/paginated-reports-report-builder-power-bi.md)に関するページを参照してください。 ページ分割されたレポート ワークロードを有効にする方法の詳細については、[ワークロードの構成](service-admin-premium-workloads.md)に関するページを参照してください。
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
  
@@ -227,7 +227,7 @@ Premium では、コンテンツを表示する受信者に Pro ライセンス�
 
 詳細については、[Power BI ライセンス](service-admin-licensing-organization.md)に関するページを参照してください。
 
-## <a name="tool-connectivity-preview"></a>ツールの接続 (プレビュー)
+## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium での Analysis Services (プレビュー)
 
 内部では、企業で実証済みの Microsoft  **Analysis Services Vertipaq エンジン**によって Power BI データセットが強化されます。 Analysis Services では、オープンスタンダードの XMLA プロトコルをサポートするクライアント ライブラリと API を介して、プログラミング機能やクライアント アプリケーションおよびツールがサポートされます。 現在、Power BI Premium データセットでは、Microsoft およびサードパーティのクライアント アプリケーションおよびツールから **XMLA エンドポイント**を経由して行う*読み取り専用*操作がサポートされています。 
 

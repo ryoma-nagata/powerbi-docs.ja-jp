@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の [Power BI] タブを使用してレポートを埋め込む
+title: Microsoft Teams の Power BI タブを使用してレポートを埋め込む
 description: Microsoft Teams の [Power BI] タブを使用すると、対話形式のレポートをチャンネルまたはチャットに簡単に埋め込むことができます。
 author: LukaszPawlowski-MS
 ms.author: lukaszp
@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530489"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381218"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>Microsoft Teams の [Power BI] タブを使用してレポートを埋め込む
 
@@ -69,10 +69,22 @@ Microsoft Teams にレポートを埋め込んだだけで、レポートを表�
 
 埋め込みのレポートにチーム内のすべてのユーザーがアクセスできるようにする方法の 1 つとして、Power BI の 1 つのワークスペースにレポートを配置し、チームがワークスペースにアクセスできるように Office 365 グループを設定します。
 
+## <a name="start-a-conversation"></a>会話の開始
+
+Power BI レポート タブを Teams に追加すると、レポートに付随するタブの会話が Teams によって自動的に作成されます。 
+
+- 右上隅にある **[[会話] タブを表示します]** を選択します。
+
+    ![[[会話] タブを表示します] アイコン](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    最初のコメントは、レポートへのリンクです。 その Teams チャネル内のすべてのユーザーが、会話でレポートを表示してディスカッションできます。
+
+    ![タブの会話](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
+
 ## <a name="known-issues-and-limitations"></a>既知の問題と制限事項
 
 - Power BI では、Microsoft Teams と同じローカライズされた言語はサポートされていません。 そのため、埋め込みのレポートが適切にローカライズされていない可能性があります。
-- Power BI ダッシュボードを Microsoft Teams の [Power BI] タブに埋め込むことはできません。
+- Power BI ダッシュボードを Microsoft Teams の Power BI タブに埋め込むことはできません。
 - Power BI のライセンスまたはレポートへのアクセス許可を持たないユーザーには、"コンテンツは利用できません" というメッセージが表示されます。
 - この問題は Internet Explorer 10 を使用する場合に発生する可能性があります。 <!--You can look at the [browsers support for Power BI](consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - [URL フィルター](service-url-filters.md)は、Microsoft Teams の [Power BI] タブではサポートされていません。

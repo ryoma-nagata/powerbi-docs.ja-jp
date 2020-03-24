@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927116"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488685"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics アプリ
 
@@ -262,7 +262,7 @@ ms.locfileid: "75927116"
 
 シナリオ 1 を診断するには、まず調整がメモリ不足によって行われているかどうかを判断します。 これを行うには、次の手順を実行します。
 
-1.  **テーブル A** から目的のデータセットをクリックして選択します。 
+1.    **テーブル A** から目的のデータセットをクリックして選択します。 
 
     ![テーブル A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ ms.locfileid: "75927116"
 
 シナリオ 2 を診断するには、まず更新の最大同時実行数に達したことによる調整かどうかを判断します。 これを行うには、次の手順を実行します。
 
-1.  **テーブル A** から目的のデータセットをクリックして選択します。 
+1.    **テーブル A** から目的のデータセットをクリックして選択します。 
 
     ![テーブル A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ ms.locfileid: "75927116"
 * [Microsoft Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)
 * [Power BI のエンタープライズ展開の計画に関するホワイト ペーパー](https://aka.ms/pbienterprisedeploy)
 * [Extended Pro Trial のアクティブ化](service-extended-pro-trial.md)
-* [Power BI Embedded のよくあるご質問](developer/embedded-faq.md)
+* [Power BI Embedded のよくあるご質問](developer/embedded/embedded-faq.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819240"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380491"
 ---
 # <a name="add-drill-down-support"></a>ドリルダウン サポートの追加
 
-カスタム ビジュアルでは Power BI のドリルダウンを使用できます。
+Power BI ビジュアルでは Power BI のドリルダウンを使用できます。
 
 Power BI のドリルダウンの詳細については、[こちら](./../../consumer/end-user-drill.md)をご覧ください。
 
@@ -205,38 +205,38 @@ button {
 
 ビジュアルをテストするためのサンプル データを準備します。
 
-|   H1  |   H2    | H3  |   値  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 Power BI Desktop に階層を作成します。
 
-![新しい階層を作成する](./media/create-new-hierarchy.png)
+![新しい階層を作成する](media/drill-down-support/create-new-hierarchy.png)
 
 新しい階層にすべてのカテゴリ列 (H1、H2、H3) を含めます。
 
-![新しい階層を作成する](./media/new-hierarchy.png)
+![新しい階層を作成する](media/drill-down-support/new-hierarchy.png)
 
 これらの手順が完了すると、次のビジュアルが表示されます。
 
-![ボタンを使用した開発用ビジュアル](./media/dev-visual-drilldown1.png)
+![ボタンを使用した開発用ビジュアル](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>ビジュアル要素にコンテキスト メニューを追加する
 
 この手順では、ビジュアルのボタンにコンテキスト メニューを追加します。
 
-![ビジュアルのコンテキスト メニュー](./media/dev-visual-drilldown-context-menu.png)
+![ビジュアルのコンテキスト メニュー](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 コンテキスト メニューを作成するには、ビジュアルのプロパティに `host` オブジェクトを保存し、選択項目の作成マネージャーに `createSelectionManager` メソッドを呼び出して、Power BI ビジュアル API を使用してコンテキスト メニューを表示します。
 
@@ -305,11 +305,11 @@ export class Visual implements IVisual {
 
 ビジュアルにデータを適用します。
 
-![データが適用されたビジュアル](./media/dev-visual-drilldown-data.png)
+![データが適用されたビジュアル](media/drill-down-support/dev-visual-drilldown-data.png)
 
 最後の手順では、選択項目とコンテキスト メニューを使用したビジュアルが表示されます。
 
-![ドリルダウン サポートを使用したビジュアル](./media/dev-visual-drilldown-demo.gif)
+![ドリルダウン サポートを使用したビジュアル](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>マトリックス データ ビュー マッピングにドリルダウン サポートを追加する
 
@@ -389,7 +389,7 @@ export class Visual implements IVisual {
 
 ビジュアルにデータを適用します。
 
-![データが適用されたビジュアル](./media/dev-matrix-visual-drilldown-data.png)
+![データが適用されたビジュアル](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 マトリックス データ ビュー マッピングを処理するために必要なインターフェイスをインポートします。
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 最後の手順では、コンテキスト メニューを使用したビジュアルが表示されます。
 
-![ドリルダウン サポートを使用したビジュアル](./media/dev-matrix-visual-drilldown-demo.gif)
+![ドリルダウン サポートを使用したビジュアル](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>次の手順
 

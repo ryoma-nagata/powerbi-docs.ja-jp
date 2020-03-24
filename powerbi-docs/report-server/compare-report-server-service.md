@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920932"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381056"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
@@ -52,7 +52,7 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | Office 365 の高度な共同作業 | いいえ | はい | Office 365 を使用した[ワークスペースでの共同作業](../service-collaborate-power-bi-workspace.md) |
 | R ビジュアル | いいえ | はい | Power BI Desktop で [R ビジュアルを作成](../desktop-r-visuals.md)し、それらを Power BI サービスに発行する。 R ビジュアルがある Power BI レポートは、Power BI Report Server に保存できる。  |
 | プレビュー機能 | いいえ | はい | [Power BI サービスのプレビュー機能のオプトイン](../consumer/end-user-preview-features.md) |
-| カスタム ビジュアル | はい | はい | [Power BI でのカスタム ビジュアル](../developer/power-bi-custom-visuals.md) |
+| Power BI ビジュアル | はい | はい | [Power BI ビジュアル](../developer/visuals/power-bi-custom-visuals.md) |
 | 複合モデル | いいえ | はい |
 | Power BI Desktop | Report Server 用に最適化されたバージョン。Report Server と一緒にダウンロード可能 | Power BI サービス用に最適化されたバージョン。Windows ストアから入手可能 | [Report Server 用の Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI サービス用の Power BI Desktop](https://aka.ms/pbidesktopstore) |
 

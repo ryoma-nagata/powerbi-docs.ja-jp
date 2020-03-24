@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114165"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377192"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI でのビジュアルの種類
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-レポート、ダッシュボード、Q&A でビジュアルを見つけることができます。 これらのビジュアルの種類には、Power BI でパッケージ化されているものと、"*カスタム ビジュアル*" として作成されているものがあります。 カスタム ビジュアルは、Power BI の外部で作成され、レポート "*デザイナー*" でそれを Power BI のレポートとダッシュボードに追加できるようになっています。 
+レポート、ダッシュボード、Q&A でビジュアルを見つけることができます。 これらのビジュアルの種類には、Power BI でパッケージ化されているものと、"*Power BI ビジュアル*" のものがあります。 カスタム ビジュアルは、Power BI の外部で作成され、レポート "*デザイナー*" でそれを Power BI のレポートとダッシュボードに追加できるようになっています。 
 
 この記事は、Power BI サービスにパッケージ化されているビジュアルの概要です。  これらは、最もよく目にするビジュアルです。 これらのビジュアルについてのより詳しい情報については、[ビジュアル型に関する Power BI レポート *デザイナー*のドキュメント](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)を参照してください。
 
 > [!NOTE]
-> カスタム ビジュアルについては、[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) の **[Power BI visuals]** セクションで探してください。 ビジュアルごとに、説明、作成者の情報、スクリーンショットまたはビデオを確認できます。 
+> カスタム ビジュアルについては、[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) の **[Power BI ビジュアル]** セクションで探してください。 ビジュアルごとに、説明、作成者の情報、スクリーンショットまたはビデオを確認できます。 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI で利用可能なビジュアルの一覧
 これらのビジュアルはすべて、Power BI のダッシュボードとレポートで見つけることができ、[Q&A で指定する](end-user-q-and-a.md)ことができます。 ビジュアルを操作する方法については、「[レポート、ダッシュボード、アプリでビジュアルを操作する](end-user-visualizations.md)」を参照してください。
@@ -237,7 +237,7 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 - 会社のある年の年始と年末の社員数をグラフに示す場合
 - 毎月の収入と支出、および口座の現在の残高を視覚化する場合
 
-## <a name="qna"></a>使用するビジュアルを Q&A で指定する
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>使用するビジュアルを Q&A で指定する
 Power BI の Q&A で自然言語クエリを入力するときに、クエリ内でビジュアルの種類を指定できます。  例:
 
 

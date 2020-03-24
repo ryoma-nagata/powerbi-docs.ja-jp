@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237962"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381102"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -200,7 +200,7 @@ ms.locfileid: "78237962"
         - 機能
             - Kerberos での SAP HANA SSO 直接クエリのサポートが Power BI レポートで利用できるようになりました。
             - リリースに付属するカスタム ビジュアル API - バージョン 1.13.0
-            - カスタム ビジュアルは、サーバー API の現在のバージョン (利用可能な場合) と互換性のある以前のバージョンにフォールバックされます。
+            - Power BI ビジュアルは、サーバー API の現在のバージョン (利用可能な場合) と互換性のある以前のバージョンにフォールバックされます
 
 - **Power BI Desktop (Power BI Report Server 用に最適化)**
     - *バージョン:2.61.5192.641 (2018 年 8 月)、リリース日:2018 年 8 月 15 日*
@@ -322,7 +322,7 @@ ms.locfileid: "78237962"
             - `{{UserId}}` タグが、Power BI レポートでレポートを実行しているユーザーではなく、保存されている資格情報に解決されます
             - 一部の画像を Power BI レポート サーバー レポートでレンダリングできません
             - Power BI レポート サーバーで Power BI レポートの名前を変更できません
-            - Power BI モバイル アプリケーションでカスタム ビジュアルを読み込むことができません (モバイル アプリを再インストールしてローカル キャッシュをクリアする必要があります)
+            - Power BI モバイル アプリケーションで Power BI ビジュアルを読み込むことができません (モバイル アプリを再インストールしてローカル キャッシュをクリアする必要があります)
 
     - *ビルド 14.0.600.271、リリース日:2017 年 6 月 12 日*
         - Power BI レポート サーバーの初回リリース

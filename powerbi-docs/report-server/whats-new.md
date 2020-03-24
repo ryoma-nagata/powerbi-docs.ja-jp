@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782453"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381309"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
@@ -317,7 +317,7 @@ Power BI レポートでは、次の機能がサポートされています。
 
 **アクセシビリティ機能**一覧されるアクセシビリティ機能が多すぎます: たとえば、[フィールド一覧ペインのアクセシビリティ サポート](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 フィールド一覧ペインには、完全にアクセスできます。 キーボードとスクリーン リーダーを使用するだけで、ウィンドウ内を移動することができ、さらにコンテキスト メニューを使用することで、ご利用のレポート ページにフィールドを追加できます。
 
-#### <a name="custom-visuals"></a>カスタム ビジュアル
+#### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
 - このリリースに付属する API バージョンは 2.3 です。
 
@@ -381,11 +381,11 @@ Kerberos での SAP HANA SSO 直接クエリのサポートが Power BI レポ�
 >[!Note]
 >Power BI Desktop で作成されたレポートでリレーショナル データ ソースとして SAP HANA が扱われる場合にのみ、このシナリオがサポートされます。  Power BI Desktop でこれを有効にするには、[オプション] の下にある DirectQuery メニューで、[SAP HANA をリレーショナル ソースとして扱う] チェック ボックスをオンにして [OK] をクリックします。
 
-#### <a name="custom-visuals"></a>カスタム ビジュアル
+#### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
 - このリリースに付属する API バージョンは 1.13.0 です。
 
-- 現在、カスタム ビジュアルは、サーバー API の現在のバージョン (利用可能な場合) と互換性のある以前のバージョンにフォールバックできます。
+- 現在、Power BI ビジュアルは、サーバー API の現在のバージョン (利用可能な場合) と互換性のある以前のバージョンにフォールバックできます。
 
 ### <a name="reporting"></a>レポート 
 
@@ -613,7 +613,7 @@ Power BI Report Server は、Power BI の新しいテーブル ビジュアル�
 
 * Power BI レポート サーバー プレビューが利用可能
 * Power BI レポートをオンプレミスで公開する機能
-  * カスタム ビジュアルのサポート
+  * Power BI ビジュアルのサポート
   * サポートされるのは **Analysis Services のライブ接続**のみです。今後、さらに多くのデータ ソースがサポートされる予定です。
   * Power BI レポート サーバーでホストされている Power BI レポートを表示するように Power BI モバイル アプリを更新
 * レポートにコメントを含めてコラボレーションを強化

@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699546"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381148"
 ---
 # <a name="troubleshooting-tile-errors"></a>タイルのエラーのトラブルシューティング
 次に、タイルで発生する可能性がある一般的なエラーとその説明を示します。
@@ -35,9 +35,10 @@ ms.locfileid: "74699546"
 
 ダッシュボードの所有者に問い合わせて、データ ソースとモデルが存在し、アカウントにアクセスできることを確認してください。
 
-**カスタムのビジュアルは、管理者によって無効にされました。**
+**Power BI ビジュアルは、管理者によって無効にされました。**
 
-Power BI 管理者は、組織またはセキュリティ グループのカスタム ビジュアルの使用を無効にしています。 [Microsoft マーケットプレース](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)からカスタム ビジュアルを使用したり、ファイルからプライベート ビジュアルをインポートしたりすることはできません。 パック済みのビジュアル セットのみを使用できます。
+Power BI 管理者は、組織またはセキュリティ グループの Power BI ビジュアルの使用を無効にしています。
+[Microsoft マーケットプレース](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)から Power BI ビジュアルを使用したり、ファイルからプライベート ビジュアルをインポートしたりすることはできません。 パック済みのビジュアル セットのみを使用できます。
 
 
 **データ シェイプには少なくとも 1 つのグループかデータを出力する計算が必要です。ダッシュボードの所有者にお問い合わせください。**

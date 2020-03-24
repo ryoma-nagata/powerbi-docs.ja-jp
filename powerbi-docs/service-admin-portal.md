@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427877"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488708"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -277,6 +277,14 @@ Azure AD B2B ゲスト ユーザーは、組織内のコンテンツを編集お
 
 ![電子メール サブスクリプションを有効にする](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 
+### <a name="featured-content"></a>おすすめコンテンツ
+
+組織内の一部またはすべてのレポート作成者が、Power BI ホームのおすすめセクションに自分のコンテンツを表示できます。 新しいユーザーに対しては、おすすめのコンテンツが Power BI ホーム ページの先頭に表示されます。 ユーザーが **[お気に入り]** 、 **[頻繁に使用]** 、 **[最近使用]** を追加すると、おすすめコンテンツはホーム ページの下に移動します。 
+
+最初は少数の推奨者から始めることをお勧めします。 組織全体がホームでコンテンツをお勧めできるようにすると、推奨されたすべてのコンテンツを追跡することが困難になる場合があります。 
+
+おすすめコンテンツを有効にした後は、管理ポータルでそれを管理することもできます。 ドメインのおすすめコンテンツの制御については、この記事の「[おすすめコンテンツを管理する](#manage-featured-content)」を参照してください。
+
 ## <a name="content-pack-and-app-settings"></a>コンテンツ パックとアプリの設定
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>コンテンツ パックとアプリを組織全体に発行する
@@ -312,17 +320,16 @@ Azure AD B2B ゲスト ユーザーは、組織内のコンテンツを編集お
 
 組織のユーザーには、Azure Search に依存する外部の検索機能を使用できます。
 
-## <a name="custom-visuals-settings"></a>カスタム ビジュアルの設定
+## <a name="power-bi-visuals-settings"></a>Power BI ビジュアルの設定
 
-### <a name="add-and-use-custom-visuals"></a>カスタム視覚化の追加と使用
+### <a name="add-and-use-power-bi-visuals"></a>Power BI ビジュアルを追加して使用する
 
-組織内のユーザーは、カスタム ビジュアルを操作して共有することができます。 [詳細情報](developer/power-bi-custom-visuals.md)
+組織内のユーザーは、Power BI ビジュアルを操作して共有することができます。 [詳細情報](developer/visuals/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > この設定は組織全体に適用するか、特定のグループに限定することができます。
 
-
-Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポリシー**を使用して、組織内に配置されているコンピューター間でカスタム ビジュアルの使用を無効にすることができます。
+Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポリシー**を使用して、組織内に配置されているコンピューター間で Power BI ビジュアルの使用を無効にすることができます。
 
 <table>
 <tr><th>属性</th><th>値</th>
@@ -335,16 +342,16 @@ Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポ�
 </tr>
 </table>
 
-値が 1 (10 進数) の場合は、Power BI でカスタム ビジュアルの使用が有効になります (既定)。
+値が 1 (10 進数) の場合は、Power BI で Power BI ビジュアルの使用が有効になります (既定)。
 
-値が 0 (10 進数) の場合は、Power BI でカスタム ビジュアルの使用が無効になります。
+値が 0 (10 進数) の場合は、Power BI で Power BI ビジュアルの使用が無効になります。
 
 ### <a name="allow-only-certified-visuals"></a>認定済みビジュアルのみを許可する
 
-カスタム ビジュアルを追加し、使用する許可が与えられた組織のユーザー ([カスタム視覚化の追加と使用] 設定に示されています) は、[認定済みのカスタム ビジュアル](https://go.microsoft.com/fwlink/?linkid=2002010)のみを使用できます (認定のないビジュアルはブロックされ、使用すると、エラー メッセージが表示されます)。 
+Power BI ビジュアルを追加し、使用する許可が与えられた組織のユーザー ([カスタム視覚化の追加と使用] 設定に示されています) は、[認定済みの Power BI ビジュアル](https://go.microsoft.com/fwlink/?linkid=2002010)のみを使用できます (認定のないビジュアルはブロックされ、使用すると、エラー メッセージが表示されます)。 
 
 
-Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポリシー**を使用して、組織内に配置されているコンピューター間で未認定のカスタム ビジュアルの使用を無効にすることができます。
+Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポリシー**を使用して、組織内に配置されているコンピューター間で未認定の Power BI ビジュアルの使用を無効にすることができます。
 
 <table>
 <tr><th>属性</th><th>値</th>
@@ -357,9 +364,9 @@ Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポ�
 </tr>
 </table>
 
-値が 1 (10 進数) の場合は、Power BI で未認定のカスタム ビジュアルの使用が有効になります (既定)。
+値が 1 (10 進数) の場合は、Power BI で未認定の Power BI ビジュアルの使用が有効になります (既定)。
 
-値が 0 (10 進数) の場合は、Power BI で未認定のカスタム ビジュアルの使用が無効になります (このオプションでは、[認定済みのカスタム ビジュアル](https://go.microsoft.com/fwlink/?linkid=2002010)の使用のみが有効になります)。
+値が 0 (10 進数) の場合は、Power BI で未認定の Power BI ビジュアルの使用が無効になります (このオプションでは、[認定済みの Power BI ビジュアル](https://go.microsoft.com/fwlink/?linkid=2002010)の使用のみが有効になります)。
 
 ## <a name="r-visuals-settings"></a>R ビジュアルの設定
 
@@ -404,11 +411,11 @@ Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポ�
 
 ### <a name="embed-content-in-apps"></a>アプリにコンテンツを埋め込む
 
-組織内のユーザーが、Power BI のダッシュボードとレポートを、サービスとしてのソフトウェア (SaaS) アプリケーションに埋め込むことができます。 この設定を無効にすると、ユーザーが REST API を使用して、Power BI コンテンツをアプリケーションに埋め込むことができなくなります。 [詳細情報](developer/embedding.md)
+組織内のユーザーが、Power BI のダッシュボードとレポートを、サービスとしてのソフトウェア (SaaS) アプリケーションに埋め込むことができます。 この設定を無効にすると、ユーザーが REST API を使用して、Power BI コンテンツをアプリケーションに埋め込むことができなくなります。 [詳細情報](developer/embedded/embedding.md)
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>Power BI API の使用をサービス プリンシパルに許可
 
-Azure Active Directory (Azure AD) に登録されている Web アプリは、サインインしているユーザーなしで Power BI API にアクセスするために、割り当て済みのサービス プリンシパルを使用します。 アプリによるサービス プリンシパル認証の使用を許可するには、許可されているセキュリティ グループにそのサービス プリンシパルを含める必要があります。 [詳細情報](developer/embed-service-principal.md)
+Azure Active Directory (Azure AD) に登録されている Web アプリは、サインインしているユーザーなしで Power BI API にアクセスするために、割り当て済みのサービス プリンシパルを使用します。 アプリによるサービス プリンシパル認証の使用を許可するには、許可されているセキュリティ グループにそのサービス プリンシパルを含める必要があります。 [詳細情報](developer/embedded/embed-service-principal.md)
 
 > [!NOTE]
 > サービス プリンシパルは、対象セキュリティ グループの Power BI テナントのすべての設定のアクセス許可を継承します。 アクセス許可を制限するには、サービス プリンシパル専用のセキュリティ グループを作成し、関連する有効な Power BI 設定の [特定のセキュリティ グループを除く] リストに追加します。
@@ -456,9 +463,9 @@ Azure Active Directory (Azure AD) に登録されている Web アプリは、�
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-**[Power BI Embedded]** タブを使用すると、顧客用に購入した Power BI Embedded (A SKU) の容量を表示できます。 Azure からは A SKU の購入のみ可能であるため、**Azure portal** から [Azure の埋め込み容量を管理](developer/azure-pbie-create-capacity.md)します。
+**[Power BI Embedded]** タブを使用すると、顧客用に購入した Power BI Embedded (A SKU) の容量を表示できます。 Azure からは A SKU の購入のみ可能であるため、**Azure portal** から [Azure の埋め込み容量を管理](developer/embedded/azure-pbie-create-capacity.md)します。
 
-Power BI Embedded (A SKU) の設定を管理する方法について詳しくは、「[Azure の Power BI Embedded とは何か](developer/azure-pbie-what-is-power-bi-embedded.md)」をご覧ください。
+Power BI Embedded (A SKU) の設定を管理する方法について詳しくは、「[Azure の Power BI Embedded とは何か](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)」をご覧ください。
 
 ## <a name="embed-codes"></a>埋め込みコード
 
@@ -466,14 +473,14 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 ![Power BI 管理ポータル内の埋め込みコード](media/service-admin-portal/embed-codes.png)
 
- ## <a name="organizational-visuals">組織のビジュアル</a> 
+ ## <a name=""></a><a name="organizational-visuals">組織のビジュアル</a> 
 
-**[組織のビジュアル]** タブでは、組織内にカスタム ビジュアルを展開して管理できます。 組織のビジュアルを使用すると、組織に独自のビジュアルを簡単に展開でき、レポート作成者はそれを検出して、Power BI Desktop からレポートにインポートできます。 [詳細情報](developer/power-bi-custom-visuals-organization.md)
+**[組織のビジュアル]** タブでは、組織内に Power BI ビジュアルを展開して管理できます。 組織のビジュアルを使用すると、組織に独自のビジュアルを簡単に展開でき、レポート作成者はそれを検出して、Power BI Desktop からレポートにインポートできます。 [詳細情報](developer/visuals/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > カスタム ビジュアルには、セキュリティやプライバシー上のリスクを伴うコードが含まれている可能性があります。組織のリポジトリに展開する前に、カスタム ビジュアルの作成者とソースが信頼できることを確認してください。
 
-次の図では、組織のリポジトリに現在展開されているすべてのカスタム ビジュアルを示します。
+次の図では、組織のリポジトリに現在展開されているすべての Power BI ビジュアルを示します。
 
 ![組織の管理のビジュアル](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
@@ -483,11 +490,11 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 1. 右側のウィンドウで、 **[カスタム ビジュアルの追加]** を選択します。
 
-    ![カスタム ビジュアル フォーム](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+    ![Power BI ビジュアルのフォーム](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
 1. **[カスタム ビジュアルを追加します]** フォームに入力します。
 
-    * **[.pbiviz ファイルの選択]** (必須): アップロードするカスタム ビジュアル ファイルを選択します。 バージョン管理されている API カスタム ビジュアルのみをサポートしています (詳細はここをお読みください)。
+    * **[.pbiviz ファイルの選択]** (必須): アップロードするカスタム ビジュアル ファイルを選択します。 バージョン管理されている API Power BI ビジュアルのみをサポートしています (詳細はここをお読みください)。
 
     カスタム ビジュアルをアップロードする前に、そのビジュアルのセキュリティとプライバシーを調べ、組織の基準に適合することを確認してください。
 
@@ -524,9 +531,9 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 ビジュアル ID が変わらないことを確認します。 新しいファイルで、組織全体のすべてのレポートの以前のファイルが置き換えられます。 ただし、ビジュアルの新しいバージョンのためにビジュアルの以前のバージョンを使用できなくなったり、データ構造が破損されたりする可能性がある場合は、以前のバージョンを置き換えないでください。 代わりに、新しいバージョンのビジュアル用に新しく登録することをお勧めします。 たとえば、新しいバージョン番号 (バージョン X.X) を新しく登録されたビジュアルのタイトルに追加します。 こうすると、バージョン番号が更新されているだけで同じビジュアルであることがわかるので、既存のレポートの機能は中断されません。 この場合も、ビジュアル ID が変わらないことを確認します。 次回ユーザーが Power BI Desktop から組織のリポジトリに入ると、新しいバージョンをインポートできます。レポートに入っている現在のバージョンを置換するように求められます。
 
-詳細については、[組織のカスタム ビジュアルに関してよく寄せられる質問](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals)のページにアクセスしてください。
+詳細については、[組織の Power BI ビジュアルに関してよく寄せられる質問](developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)のページを参照してください
 
-## <a name="dataflowStorage">データフロー ストレージ (プレビュー)</a>
+## <a name=""></a><a name="dataflowStorage">データフロー ストレージ (プレビュー)</a>
 
 既定では、Power BI で使用されるデータは、Power BI で利用可能な内部ストレージに保存されます。 データフローと Azure Data Lake Storage Gen2 (ADLS Gen2) を統合すると、組織の Azure Data Lake Storage Gen2 アカウントにデータフローを保存できます。 詳細については、「[データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)」を参照してください。
 
@@ -542,7 +549,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 |---------|---------|
 | アクティブ | 通常のワークスペース。 使用状況や内部の状況について示すものではなく、単にワークスペース自体が "通常" であることを示します。 |
 | 無所属 | 管理者ユーザーのないワークスペース。 |
-| 削除済み | 削除されたワークスペース。 Microsoft では、必要に応じて、ワークスペースを復元するために十分なメタデータを保持しています。 |
+| 削除済み | 削除されたワークスペース。 Microsoft では、最大 90 日間、必要に応じてワークスペースを復元するために十分なメタデータが保持されます。 |
 | 削除中 | 削除中であるが、まだ完全に削除されていないワークスペース。 ユーザーは自分のワークスペースを削除できますが、そのとき、ワークスペースはまず "削除中" になり、最終的に "削除済み" になります。 |
 
 ## <a name="custom-branding"></a>カスタム ブランド
@@ -561,6 +568,17 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 詳細については、[組織向けのカスタム ブランド](https://aka.ms/orgBranding)に関する記事をご覧ください。
 
 ![ワークスペース リスト](media/service-admin-portal/workspaces-list.png)
+
+## <a name="manage-featured-content"></a>おすすめコンテンツを管理する
+
+テナント管理者は、組織全体により Power BI ホームのおすすめセクションで推奨されたすべてのレポート、ダッシュボード、アプリを管理できます。
+
+- 管理ポータルで **[おすすめコンテンツ]** を選択します。
+
+ここには、コンテンツを勧めたユーザーの概要、いつ勧めたか、すべての関連メタデータが表示されます。 問題があると思われる場合、またはおすすめセクションをクリーンアップしたい場合は、必要に応じて推奨されているコンテンツを削除できます。
+
+おすすめコンテンツを有効にする方法については、この記事の「[おすすめコンテンツ](#featured-content)」を参照してください。
+
 ## <a name="next-steps"></a>次の手順
 
 [組織内の Power BI を管理する](service-admin-administering-power-bi-in-your-organization.md)  

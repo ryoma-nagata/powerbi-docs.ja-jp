@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548556"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488524"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop でのページの自動更新 (プレビュー)
 
@@ -35,9 +35,9 @@ Power BI のページの自動更新 (APR) 機能を使用すると、アクテ�
 
 ![[ページの更新] カード](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
 
-1.  [Automatic Page Refresh]\(ページの自動更新\) スライダー - ページの更新のオン/オフを切り替えます
-2.  ページ更新間隔の値 - 更新間隔の数値
-3.  ページ更新間隔の単位 - ページを更新する間隔の単位
+1.    [Automatic Page Refresh]\(ページの自動更新\) スライダー - ページの更新のオン/オフを切り替えます
+2.    ページ更新間隔の値 - 更新間隔の数値
+3.    ページ更新間隔の単位 - ページを更新する間隔の単位
 
 ここでは、ページの更新を有効にし、更新期間を選択できます。 既定値は 30 分です。最小更新間隔は 1 秒です。 設定した間隔でレポートの更新が開始されます。 
 
@@ -62,10 +62,10 @@ Power BI のページの自動更新 (APR) 機能を使用すると、アクテ�
 
 このデータ ソースについて他の特性を考えてみましょう。 
 
-1.  データは 2 秒の速度で到着します。 
-2.  パフォーマンス アナライザーは、最大クエリ + 表示時間が約 4.9 秒 (4688 ミリ秒) で表示されます。 
-3.  データ ソースは、1 秒あたり約 1,000 個の同時クエリを処理するように構成されています。 
-4.  約 10 人のユーザーが同時にレポートを表示すると想定しています。
+1.    データは 2 秒の速度で到着します。 
+2.    パフォーマンス アナライザーは、最大クエリ + 表示時間が約 4.9 秒 (4688 ミリ秒) で表示されます。 
+3.    データ ソースは、1 秒あたり約 1,000 個の同時クエリを処理するように構成されています。 
+4.    約 10 人のユーザーが同時にレポートを表示すると想定しています。
 
 その結果、次のようになります。
 
@@ -83,13 +83,13 @@ Power BI のページの自動更新 (APR) 機能を使用すると、アクテ�
 
 Power BI Desktop で作成され、Power BI サービスに発行されたレポートのページの自動更新間隔を設定することもできます。 
 
-Power BI サービスのレポートに対するページの自動更新は、Power BI Desktop の構成と同様の手順で構成されます。 Power BI サービスで構成した場合、ページの自動更新では[埋め込み Power BI](developer/embedding.md) コンテンツもサポートされます。 次の図は、Power BI サービスの **[ページの更新]** の構成を示しています。
+Power BI サービスのレポートに対するページの自動更新は、Power BI Desktop の構成と同様の手順で構成されます。 Power BI サービスで構成した場合、ページの自動更新では[埋め込み Power BI](developer/embedded/embedding.md) コンテンツもサポートされます。 次の図は、Power BI サービスの **[ページの更新]** の構成を示しています。
 
 ![Power BI サービスでのページの自動更新](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
-1.  [Automatic Page Refresh]\(ページの自動更新\) スライダー - ページの更新のオン/オフを切り替えます
-2.  ページ更新間隔の値 - 更新間隔の数値 (整数にする必要があります)
-3.  ページ更新間隔の単位 - ページを更新する間隔の単位
+1.    [Automatic Page Refresh]\(ページの自動更新\) スライダー - ページの更新のオン/オフを切り替えます
+2.    ページ更新間隔の値 - 更新間隔の数値 (整数にする必要があります)
+3.    ページ更新間隔の単位 - ページを更新する間隔の単位
 
 ### <a name="page-refresh-intervals"></a>ページの更新間隔
 
@@ -208,7 +208,7 @@ Power BI Desktop または Power BI サービスでページの自動更新を�
 
 ## <a name="next-steps"></a>次の手順
 
-詳しくは、次の各記事をご覧ください。
+詳細については、次の記事を参照してください。
 
 * [Power BI で DirectQuery を使用する](desktop-directquery-about.md)
 * [パフォーマンス アナライザーを使用してレポート要素のパフォーマンスを確認する](desktop-performance-analyzer.md)

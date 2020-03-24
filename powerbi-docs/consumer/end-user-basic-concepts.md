@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496893"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377148"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI サービスのコンシューマーの基本的な概念
 
@@ -118,7 +118,7 @@ Power BI で目にする視覚化の一部には、ウォーターフォール�
 
 [Power BI に含まれる視覚エフェクトの完全な一覧](../power-bi-visualization-types-for-reports-and-q-and-a.md)に関するページを参照してください。
 
-"*カスタム ビジュアル*" と呼ばれる視覚化は、コミュニティからも利用できます。 理解できないビジュアルでレポートを受信した場合、カスタム ビジュアルである可能性が高いです。 カスタム ビジュアルの解釈でサポートが必要な場合は、レポートまたはダッシュボードの "*デザイナー*" の名前を参照して、その人にお問い合わせください。
+"*Power BI ビジュアル*" と呼ばれる視覚化は、コミュニティからも利用できます。 理解できないビジュアルでレポートを受信した場合、カスタム ビジュアルである可能性が高いです。 カスタム ビジュアルの解釈でサポートが必要な場合は、レポートまたはダッシュボードの "*デザイナー*" の名前を参照して、その人にお問い合わせください。
 
 レポート内の 1 つの視覚化を...
 

@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920961"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488846"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
 
-- Microsoft ビジネス アプリケーション グループからの[ビジネス インテリジェンスの新機能 (2018 年 10 月)](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) に関するリリース ノート: Microsoft のビジネス アプリケーションに対する最新の更新プログラム。
+- Microsoft Business Applications グループからの[ビジネス インテリジェンスの新機能 (2018 年 10 月)](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) に関するリリース ノート: Microsoft のビジネス アプリケーションに対する最新の更新プログラム。
 - [Power BI Desktop の新機能](desktop-latest-update.md)  
 - [Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI チーム ブログ](https://powerbi.microsoft.com/blog/)
@@ -91,7 +91,7 @@ ms.locfileid: "78920961"
 * PPT および PDF 用のフィルター処理済みエクスポート。
 * 管理ポータルでの[ヘルプとサポートの設定](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/)。
 * [データフロー](service-dataflows-overview.md)向けデータ系列エクスペリエンス。
-* 管理ポータルでの認定済みカスタム ビジュアル設定。
+* 管理ポータルでの認定済み Power BI ビジュアル設定。
 
 ### <a name="january-2019"></a>2019 年 1 月
 * 内部ポータルまたは Web サイトでの[セキュリティ保護された Power BI レポートの埋め込み](service-embed-secure.md)。
@@ -126,7 +126,7 @@ ms.locfileid: "78920961"
 * Power BI の[レポート URL フィルター](service-url-filters.md)の機能強化。
 
 ### <a name="july-2018"></a>2018 年 7 月
-* [永続的フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)のカスタム ビジュアルのサポート。
+* [永続的フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)の Power BI ビジュアルのサポート。
 * Power BI 管理者用の [API および PowerShell コマンドレット](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)。
 * Power BI Premium の [Multi-Geo のサポート](service-admin-premium-multi-geo.md)。
 
@@ -153,20 +153,20 @@ ms.locfileid: "78920961"
 ### <a name="february-2018"></a>2018 年 2 月
 * エンド ユーザーに対する [Power BI Apps](service-create-distribute-apps.md) の自動インストール。
 * Power BI Premium での P4 および P5 の容量
-* [組織のカスタム ビジュアル](developer/power-bi-custom-visuals-organization.md)のプレビュー。
+* [組織の Power BI ビジュアル](developer/visuals/power-bi-custom-visuals-organization.md)のプレビュー。
 
 ### <a name="january-2018"></a>2018 年 1 月
-*   Power BI レポートを共有し、お気に入りに追加する。
-*   Azure SQL Database と Data Warehouse で OAuth2 と DirectQuery シングル サインオン (SSO) サポート。
-*   領域内監査: 監査ログがテナントと同じ Office 365 領域に保存されるようになりました。
-*   SharePoint Online [Power BI レポート Web パーツ](https://go.microsoft.com/fwlink/p/?LinkId=825698) の GA。
-*   あるテナントのすべてのユーザーに対して、カスタム ビジュアルの表示をオフにする管理者制御。
-*   Azure Analysis Services (AAS) でスケジュールされた更新をサポート。
+*    Power BI レポートを共有し、お気に入りに追加する。
+*    Azure SQL Database と Data Warehouse で OAuth2 と DirectQuery シングル サインオン (SSO) サポート。
+*    領域内監査: 監査ログがテナントと同じ Office 365 領域に保存されるようになりました。
+*    SharePoint Online [Power BI レポート Web パーツ](https://go.microsoft.com/fwlink/p/?LinkId=825698) の GA。
+*    あるテナントのすべてのユーザーに対して、Power BI ビジュアルの表示をオフにする管理者制御。
+*    Azure Analysis Services (AAS) でスケジュールされた更新をサポート。
 
 ## <a name="previous-months-2017"></a>先月 (2017)
 ### <a name="october-and-november-2017"></a>2017 年 10 月と 11 月
-*   [Power BI アプリ](service-create-distribute-apps.md)でコンテンツを選択して公開。
-*   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) による外部ユーザー ディストリビューション。
+*    [Power BI アプリ](service-create-distribute-apps.md)でコンテンツを選択して公開。
+*    [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) による外部ユーザー ディストリビューション。
 * AI を活用したアプリ推奨。
 * ダッシュボード オンタイル UI 更新。
 * アプリの電子メール サブスクリプション サポート。 
@@ -183,8 +183,8 @@ ms.locfileid: "78920961"
 * [ユーザーごとの利用状況の指標](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)で対象者を把握します。
 * オンライン サービス用の [Power BI サービス](service-connect-to-services.md) アプリが始まります。
 * インポートと DirectQuery 接続モードの両方により、オンプレミス データ ゲートウェイで IBM Netezza に接続します。
-* [動的 RLS](developer/embedded-row-level-security.md) が Power BI Embedded でサポートされるようになりました。
-* 高度な[フィルタリング API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) が、カスタム ビジュアル API の 1.7 リリースに追加されました。
+* [動的 RLS](developer/embedded/embedded-row-level-security.md) が Power BI Embedded でサポートされるようになりました。
+* 高度な[フィルタリング API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) が、Power BI ビジュアル API の 1.7 リリースに追加されました。
 
 ### <a name="july-2017"></a>2017 年 7 月
 * ダッシュボードでの[電子メール サブスクリプション](consumer/end-user-subscribe.md)のサポート。
@@ -197,7 +197,7 @@ ms.locfileid: "78920961"
 * [スケジュールされた更新の自動化](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)、[レポートの複製と再バインド](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)、[ゲートウェイ バインドの更新](https://msdn.microsoft.com/library/mt784650.aspx)、その他多くの機能に関する複数の API の機能強化
 * Power BI アプリでのダッシュボードのタイルから他のダッシュボードやレポートへの相対リンク。
 * Power BI Desktop で一般に使用できるようになった [Impala コネクタ](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)。
-* [インタラクティブ R カスタム ビジュアル](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)での Power BI のビジュアルの機能拡張。
+* [インタラクティブ R Power BI ビジュアル](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)での Power BI のビジュアルの機能拡張。
 
 ### <a name="april-and-may-2017"></a>2017 年 4 月および 5 月
 * [ダッシュボードやレポートの利用状況指標](service-usage-metrics.md)を測定し、効果的なコンテンツを作成します。
@@ -213,7 +213,7 @@ ms.locfileid: "78920961"
 * [DAX クエリのトラブルシューティング メッセージ](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting)が向上しました。
 * [カスタム キャッシュ更新スケジュール](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/)により、データセットをより細かく制御します。
 * [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/) に接続します。
-* [Office ストアの Power BI カスタム視覚エフェクト](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)を参照します。
+* [Office ストアの Power BI 視覚エフェクト](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)を参照します。
 * プレビュー:[レポート ページをサブスクライブ](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)して、データを完全に掌握します。
 * Azure AD のコンテンツ パックを使用して、従業員やパートナーが Azure AD をどのように使用しているかを詳細に把握します。
 
@@ -225,7 +225,7 @@ ms.locfileid: "78920961"
 ### <a name="january-2017"></a>2017 年 1 月
 * [Power BI 管理者ロール](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)を使用して、Power BI を管理します。
 * Office 365 監査ポータルの [Power BI 監査ログ](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)をグローバルに利用できます。
-* [開発ツールおよびカスタム ビジュアル API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) バージョン 1.4 がリリースされました。
+* [開発ツールおよび Power BI ビジュアル API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) バージョン 1.4 がリリースされました。
 * [リアルタイム ストリーミング機能セット](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)の一般公開が開始されました。
 * コード行を記述せずに、[Power Automate を使用して Power BI にデータをプッシュ](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)します。
 * プレビュー:[レポート ページをサブスクライブ](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)して、データを完全に掌握します。
@@ -606,7 +606,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 * Power BI Q&A を使用すると、簡単で直感的な質問を使用してデータを調べ、対話形式の図やグラフの形式で答えを受け取ることができます。 今回のリリースでは、データに関する知識がまったくない場合でも、Power BI Q&A を初めて使用するときに役立つ機能を追加しました。 この機能を使用するには、[任意のダッシュボードを開き、Q&A 質問ボックスの近くにある [質問方法] リンクをクリックします](power-bi-tutorial-q-and-a.md)。 Power BI には、データに基づいて複数の提案が表示されます。
 * 2 週間前のリリースでは、Power BI Desktop のレポート キャンバスに図形を挿入できるようになりました。 今週のリリースでは、Power BI Web アプリでレポートを作成または編集するときに、レポート キャンバスに図形を追加できるようになりました。
-* ダッシュボードを共有するときに電子メール通知を無効にするオプションを追加しました。 Power BI 共有ダイアログの [電子メール通知を受信者に送信する] チェック ボックスをオフにするだけの操作です。 URL が表示されます。その URL をコピーして同僚と共有すると、同僚はダッシュボードにアクセスできます。
+* ダッシュボードを共有するときに電子メール通知を無効にするオプションを追加しました。 Power BI 共有ダイアログの [受信者に電子メールの通知を送信する] チェック ボックスをオフにするだけの操作です。 URL が表示されます。その URL をコピーして同僚と共有すると、同僚はダッシュボードにアクセスできます。
 * Microsoft Dynamics NAV は、小規模から中規模の組織向けビジネス管理ソリューションです。 財務プロセスや業務プロセスを詳細に管理できるようになります。 Dynamics NAV ユーザーは、売上や収益、営業案件のパイプライン、収益性など、Power BI コンテンツ パックのレポートをすぐに利用できます。 これらのメトリックをダッシュボードに表示し、詳細にカスタマイズすることができます。また、データに簡単に接続して、すぐに調べることができます。
 
 詳細については、[ブログ](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx)と[オンライン ドキュメント](service-get-started.md)をご覧ください。

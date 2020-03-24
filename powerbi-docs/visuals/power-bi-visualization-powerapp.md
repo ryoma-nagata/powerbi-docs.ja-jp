@@ -3,19 +3,19 @@ title: Power BI レポートに新しいパワー アプリを埋め込む
 description: 同じデータ ソースを使用し、他のレポート項目のようにフィルター処理できるアプリを埋め込みます
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "77036678"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525938"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>チュートリアル:Power BI レポートに Power Apps ビジュアルを埋め込む
 
@@ -106,4 +106,5 @@ Power BI レポートのスライサーで **[1 月]** を選択します。こ�
 
 
 ## <a name="next-steps"></a>次の手順
-[Q&A ビジュアル](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Q&A ビジュアル](power-bi-visualization-types-for-reports-and-q-and-a.md)    
+[チュートリアル: Power BI レポートに Power Apps ビジュアルを埋め込む](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)

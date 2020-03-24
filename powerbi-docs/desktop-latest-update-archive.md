@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a15b309cd2e50eb47242895c808eaa4386c53a4b
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 360461a009187df5fdf2769e7c9a03e7d194b5ad
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401312"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378503"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -34,6 +34,81 @@ ms.locfileid: "78401312"
 次のセクションでは、**Power BI Desktop** の以前の月の更新について説明します。
 
 
+## <a name="february-2020-update-2785740642"></a>2020 年 2 月の更新 (2.78.5740.642)
+
+素晴らしい新機能を含む、2 月の更新プログラムをご利用いただけます。 
+
+> [!IMPORTANT]
+> 2019 年 9 月のリリース以降、Power BI Desktop は、サポートされているすべての言語を含む 1 つの .exe ファイルとしてのみリリースされています。 .msi バージョンはリリースされなくなります。
+
+Power BI Desktop 更新プログラムの一覧にある各機能の横のリンクは、次のように解釈されます。
+
+* [ブログ]: Most features are explained in a section in the monthly update blog post.
+* [ビデオ]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [記事]: Some features have an article that provides more detail.
+* 残りの機能は説明を必要としないため、記事やビデオは用意されていません。
+
+以下の更新は、今月の Power BI Desktop の新しい機能です。
+
+
+### <a name="data-management"></a>データ管理
+* 増分更新の一般提供開始 [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=16) [[記事]](service-premium-incremental-refresh.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Incremental_refresh) 
+
+### <a name="reporting"></a>レポート
+* 階層スライサー (プレビュー) [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=207) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Hierarchical_slicer) 
+* 新しいリボンに更新 (プレビュー) [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=424) [[記事]](desktop-ribbon.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Ribbon) 
+
+
+### <a name="modeling"></a>モデリング
+* 新しい DAX 関数:FirstNonBlankValue, LastNonBlankValue [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=716) [[記事]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
+
+### <a name="visuals"></a>ビジュアル
+* 新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=835) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
+
+
+### <a name="template-apps"></a>テンプレート アプリ
+* Microsoft 365 利用状況分析 [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=910) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Microsoft_365_usage) 
+* P3 による NFL 分析 [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=928) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_NFL)
+* Acterys for Quickbooks、Zero、WorkflowMax [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=932) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Acterys) 
+
+
+### <a name="data-preparation"></a>データ準備
+* クエリ診断 - 管理者ではないユーザーのサポート [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=938) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_non_admin_support) 
+
+
+### <a name="data-connectivity"></a>データ接続
+* MicroStrategy コネクタ (一般提供開始) [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=962) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_MicroStrategy_connector) 
+* FHIR コネクタ (一般提供開始) [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=962) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_FHIR) 
+* 追加コネクタ:Factset、TIBCO、Jamf Pro、Asana [[ビデオ]](https://youtu.be/TN61JvbUAxk?t=978) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Factset_connector) 
+
+
+
+これらの新機能の詳細については、[Power BI Desktop 機能の概要](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/)に関するブログ投稿を参照してください。
+
+「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」をご確認ください。
+
+> [!NOTE]
+> [Power BI Desktop で利用できるデータ ソース](desktop-data-sources.md)をご覧ください。 リストは増え続けていますので、頻繁にご確認ください。
+
+
+## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop の毎月の更新プログラムのビデオ
+次のビデオでは、それぞれの更新について説明しています。 ブログの投稿からこのビデオを視聴することもできます。
+
+> [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
+
+ご自身の組織で必要な場合は、以前のバージョンの Power BI Desktop をダウンロードすることもできます。 以前のバージョンではなく、最新バージョンの Power BI Desktop を常に使うことをお勧めします。 以前のバージョンはすべて次の制限を持っています。
+
+* 以前のリリースの Power BI Desktop はサービス提供されていません - 最新の機能と更新プログラムのためには常に最新のリリースを使う必要があります。
+* より新しいリリースの Power BI Desktop で作成されたファイルは、以前のバージョンの Power BI Desktop では開けない場合があります。 
+* 新しいリリースの Power BI Desktop で保存したレポートを読み込むときに警告が発生する場合は、以前のバージョンでそのレポートを保存します。新機能に関連する情報はすべて失われます。
+* アーカイブされるのは英語版の Power BI Desktop のみです。
+
+次のリンクを選択して、この以前のバージョンをダウンロードします。 
+
+* [2020 年 2 月バージョンの Power BI Desktop - 32 ビット](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02.exe)
+* [2020 年 2 月バージョンの Power BI Desktop - 64 ビット](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02_x64.exe)
+
+
 ## <a name="december-2019-update-2765678661"></a>2019 年 12 月の更新 (2.76.5678.661)
 
 12 月の更新プログラムは、雪山をボブスレーで滑り降りるくらい楽しいものでした。 
@@ -44,7 +119,7 @@ ms.locfileid: "78401312"
 Power BI Desktop 更新プログラムの一覧にある各機能の横のリンクは、次のように解釈されます。
 
 * [ブログ]: Most features are explained in a section in the monthly update blog post.
-* [ビデオ]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [video]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
 * [記事]: Some features have an article that provides more detail.
 * 残りの機能は説明を必要としないため、記事やビデオは用意されていません。
 
@@ -67,7 +142,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 
 ### <a name="visuals"></a>ビジュアル
 * [ビジュアル] ウィンドウのカスタマイズ (一般提供開始) [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=865) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
-* 新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=886) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
+* 新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/eCEwgZsVUOs?t=886) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
 
 
 ### <a name="data-connectivity"></a>データ接続
@@ -391,7 +466,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 
 
 ### <a name="visuals"></a>ビジュアル
-* 新しいカスタム ビジュアルと更新 [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=956) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
+* 新しい Power BI ビジュアルと更新 [[ビデオ]](https://youtu.be/sf4n7VXoQHY?t=956) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
 
 
 ### <a name="data-connectivity"></a>データ接続
@@ -457,7 +532,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 
 ### <a name="visuals"></a>ビジュアル
 * PowerApps ビジュアルが認定されました [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=894) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
-* 3 つの新しいカスタム ビジュアルと更新 [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=932) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
+* 3 つの新しい Power BI ビジュアルと更新 [[ビデオ]](https://youtu.be/l7OMRUF9UYg?t=932) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
 
 
 ### <a name="data-connectivity"></a>データ接続
@@ -531,7 +606,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 
 ### <a name="visuals"></a>ビジュアル
 * 個人設定された視覚化ウィンドウ (プレビュー) [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1349) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
-* 3 つの新しいカスタム ビジュアルと更新 [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1391) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+* 3 つの新しい Power BI ビジュアルと更新 [[ビデオ]](https://youtu.be/7k-nP38uHyQ?t=1391) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
 
 
 ### <a name="data-connectivity"></a>データ接続
@@ -600,7 +675,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 
 ### <a name="visuals"></a>ビジュアル
 * ArcGIS Maps for Power BI の更新 [[ビデオ]](https://youtu.be/O8GlHDz8xUQ?t=1093) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
-* 6 つの新しいカスタム ビジュアルと更新 [[ビデオ]](https://youtu.be/O8GlHDz8xUQ?t=1199) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
+* 6 つの新しい Power BI ビジュアルと更新 [[ビデオ]](https://youtu.be/O8GlHDz8xUQ?t=1199) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
 
 
 ### <a name="data-connectivity"></a>データ接続
@@ -659,7 +734,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 ### <a name="modeling"></a>モデリング
 * 新しい DAX 関数 - ALLCROSSFILTERED [[ビデオ]](https://youtu.be/vih35kSrEHU?t=970) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 * 1 つの新しいカスタム ビジュアル  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
 
 
@@ -737,9 +812,9 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 * 新しいモデリング ビューの一般提供開始 [[ビデオ]](https://youtu.be/rBPGH6eYlT0?t=417) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * 新しい DAX 関数 [[ビデオ]](https://youtu.be/rBPGH6eYlT0?t=560) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
-* 管理ポータルでの新しい認定済みカスタム ビジュアル設定 [[ビデオ]](https://youtu.be/rBPGH6eYlT0?t=624) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
-* 2 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/rBPGH6eYlT0?t=693) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
+* 管理ポータルでの新しい認定済み Power BI ビジュアル設定 [[ビデオ]](https://youtu.be/rBPGH6eYlT0?t=624) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
+* 2 つの新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/rBPGH6eYlT0?t=693) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
 
 
 ### <a name="data-connectivity"></a>データ接続
@@ -797,8 +872,8 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 * Q&A エクスプローラーの質問提案を自動生成する [[ビデオ]](https://youtu.be/dMD25wfElLg?t=1121) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
 * Python スクリプト エディターと R スクリプト エディターの改善 [[ビデオ]](https://youtu.be/dMD25wfElLg?t=1282) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#scriptEditor) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
-* 10 個の新しいカスタム ビジュアル、新しいカスタム ビジュアル機能 [[ビデオ]](https://youtu.be/dMD25wfElLg?t=1324) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
+* 10 個の新しい Power BI ビジュアル、新しい Power BI ビジュアル機能 [[ビデオ]](https://youtu.be/dMD25wfElLg?t=1324) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>データ接続
 
@@ -873,7 +948,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 * データ ビュー アクセシビリティ サポート [[ビデオ]](https://youtu.be/AHNlkjRFdYI?t=1253) [[記事]](desktop-composite-models.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
 * 1 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/AHNlkjRFdYI?t=1370) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
 
@@ -934,9 +1009,9 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 * モデリングのアクセシビリティの機能強化 [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=2023) [[記事]](desktop-accessibility.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
 * 新しい DAX 関数 [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=2066) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-* 5 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=2108) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+* 5 つの新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/1xsXXoyTxfk?t=2108) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
 
 ### <a name="data-connectivity"></a>データ接続
 
@@ -981,9 +1056,9 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 * Power BI サービスでの複合モデルと集計のサポート (プレビュー) [[ビデオ]](https://youtu.be/8E6UokaDtc0) [[記事 - 集計]](desktop-aggregations.md) [[記事 - 複合モデル]](desktop-composite-models.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23compositeModels) 
 * 加算的手段以外の増分の説明 [[ビデオ]](https://youtu.be/8E6UokaDtc0?t=107) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23Insights) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-* 5 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/ZfJSSG17SEY) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
+* 5 つの新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/ZfJSSG17SEY) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
 
 ### <a name="data-connectivity"></a>データ接続
 
@@ -1036,9 +1111,9 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 
 * 集計 (プレビュー) [[ビデオ]](https://youtu.be/Rzw2WyI09kY?t=11m37s) [[記事]](desktop-aggregations.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-* 5 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/Rzw2WyI09kY?t=23m8s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
+* 5 つの新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/Rzw2WyI09kY?t=23m8s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>データ接続
 
@@ -1091,9 +1166,9 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 * Python 統合 [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=11m14s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
 * Q&A の改善 [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=13m1s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-* 5 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=19m48s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+* 5 つの新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/dgv5HhHxxe8?t=19m48s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>データ接続
 
@@ -1145,11 +1220,11 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 
 * 分布要因の洞察 [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=37m) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
 * Power BI 認定カテゴリ [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=41m13s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
 * 特定の組織のビジュアルを無効にする [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=42m32s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
-* 4 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=44m) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+* 4 つの新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/Mtig3rmIUe0?t=44m) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
 
 ### <a name="data-connectivity"></a>データ接続
 
@@ -1187,9 +1262,9 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 * 複合グラフのメジャーごとの各データ ラベルの書式設定 [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
 * より長い電話レポート [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=11m26s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-* 2 つの新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
+* 2 つの新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
 ### <a name="modeling"></a>モデリング
 * データ ビューでのフィルター処理と並べ替え [[ビデオ]](https://youtu.be/4VpGtWSrssE?t=13m11s) [[記事]](desktop-data-view.md#filtering-in-data-view) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
@@ -1236,15 +1311,15 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 
 ### <a name="analytics"></a>分析
 
-* ドリルスルーの測定 [[ビデオ]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[記事]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
+* ドリルスルーの測定 [[ビデオ]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[記事]](desktop-drillthrough.md#pass-all-filters-in-drill-through) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
 * 増分更新 (プレビュー) [[ビデオ]](https://youtu.be/-_GMCE1TLvQ?t=7m42s) [[記事]](service-premium-incremental-refresh.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-* さまざまな新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/-_GMCE1TLvQ?t=9m44s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
+* 複数の新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/-_GMCE1TLvQ?t=9m44s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>データ接続
 
@@ -1291,13 +1366,13 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 
 ### <a name="analytics"></a>分析
 
-* 言語スキーマの更新 [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=22m) [[記事]](developer/power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
+* 言語スキーマの更新 [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=22m) [[記事]](developer/visuals/power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * 新しい DAX 関数:COMBINEVALUES() [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-* 組織のビジュアルの一般提供開始 [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=26m11s) [[記事]](developer/power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
-* さまざまな新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=28m8s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
+* 組織のビジュアルの一般提供開始 [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=26m11s) [[記事]](developer/visuals/power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
+* 複数の新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/W_Nb73Od_AI?t=28m8s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
 
 ### <a name="data-connectivity"></a>データ接続
 
@@ -1334,9 +1409,9 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 * レポートの読み取りモードでビジュアル ヘッダーをオフにする [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
 * 既定のビジュアル配置の改善 [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-* さまざまな新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[記事]](developer/power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+* 複数の新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[記事]](developer/visuals/power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>データ接続
 
@@ -1393,9 +1468,9 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 * [書式設定] ウィンドウと [分析] ウィンドウで検索する [[ビデオ]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[記事]](desktop-analytics-pane.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
 
 
-### <a name="custom-visuals"></a>カスタム ビジュアル
+### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-* 組織のカスタム ビジュアル (プレビュー) [[ビデオ]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[記事]](developer/power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+* 組織の Power BI ビジュアル (プレビュー) [[ビデオ]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[記事]](developer/visuals/power-bi-custom-visuals-organization.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
 ### <a name="analytics"></a>分析
@@ -1455,7 +1530,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 -   日付を階層で表示する (プレビュー) [[ビデオ]](https://youtu.be/W8Pp5wuCXJw?t=7m41s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
 -   相対日付スライサーのアンカー日付を追加する [[ビデオ]](https://youtu.be/W8Pp5wuCXJw?t=9m22s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
 -   Q&A の上位 N [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
--   さまざまな新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
+-   複数の新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
 ### <a name="analytics"></a>分析
 
@@ -1505,7 +1580,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 -   X 軸と Y 軸のグループ化からの散布ビジュアル [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=15m12s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
 -   緯度と経度に基づくマップの高密度サンプリング [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=17m3s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
 -   レスポンシブ スライサー [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
--   最近リリースされたカスタム ビジュアル [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+-   最近リリースされた Power BI ビジュアル [[ビデオ]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>分析
@@ -1560,7 +1635,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 -   Esri Plus サブスクリプションが ArcGIS Maps for Power BI で利用可能 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=10m31s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
 -   低速なデータ ソース向けのレポート オプション [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=16m11s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
 -   フィルター処理のパフォーマンスの向上 [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
--   最近リリースされたカスタム ビジュアル [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+-   最近リリースされた Power BI ビジュアル [[ビデオ]](https://youtu.be/sI3yRjdnJ7w?t=20m50s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>分析
@@ -1665,7 +1740,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
     -   キーボード ショートカット ヘルプ ダイアログ [[ビデオ]](https://youtu.be/moTQJlnClJw?t=28m50s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#shortcuts) [[記事]](desktop-accessibility.md)
 -   高密度の散布図サンプリング [[ビデオ]](https://youtu.be/moTQJlnClJw?t=30m22s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#highDensityScatter) [[記事]](desktop-high-density-scatter-charts.md)
 -   グリッド線スタイルのコントロール [[ビデオ]](https://youtu.be/moTQJlnClJw?t=33m53s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#gridlines) [[記事]](desktop-gridlines-snap-to-grid.md)
--   新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/moTQJlnClJw?t=36m4s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#communityVisuals)
+-   新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/moTQJlnClJw?t=36m4s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#communityVisuals)
     -   Tallan のカレンダー [[ビデオ]](https://youtu.be/moTQJlnClJw?t=36m26s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#calendarByTallan)
     -   Enlighten Aquarium [[ビデオ]](https://youtu.be/moTQJlnClJw?t=38m11s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#enlightenAquarium)
     -   Visio ビジュアル (プレビュー) [[ビデオ]](https://youtu.be/moTQJlnClJw?t=40m15s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#visio)
@@ -1701,7 +1776,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 -   マトリックスのレベルごとのカスタム小計設定 [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=4m29s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customSubtotal)
 -   線のスタイルと凡例のオプション [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=6m54s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#lineStyles)
 -   散布図のパフォーマンスの向上 [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=13m59s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#scatterChartPerformance)
--   新しいカスタム ビジュアル [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=14m32s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customVisuals)
+-   新しい Power BI ビジュアル [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=14m32s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customVisuals)
     -   MAQ ソフトウェアによるドット プロット [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=14m45s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#dotPlot)
     -   Power KPI [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=19m11s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#powerKPI)
     -   じょうごプロット [[ビデオ]](https://youtu.be/ND8U0yXroaQ?t=21m55s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#funnelPlot)
@@ -1743,7 +1818,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 
 -   新しいテーブル ビジュアルとマトリックス ビジュアルの一般提供開始 [[ビデオ]](https://youtu.be/4X96ow7FnSY?t=1m27s) [ [ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#tableAndMatrix)
 -   ビジュアルのフィールドの名前を変更する [[ビデオ]](https://youtu.be/4X96ow7FnSY?t=6m3s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#rename)
--   カスタム ビジュアル ストアの統合 [[ビデオ]](https://youtu.be/4X96ow7FnSY?t=8m7s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
+-   Power BI ビジュアル ストアの統合 [[ビデオ]](https://youtu.be/4X96ow7FnSY?t=8m7s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
 -   相対的な日付フィルター [[ビデオ]](https://youtu.be/4X96ow7FnSY?t=10m46s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#relativeDateFilter)
 -   ビジュアルのレスポンシブ レイアウト (プレビュー) [[ビデオ]](https://youtu.be/4X96ow7FnSY?t=12m14s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
 -   新しいウォーターフォール図オプション - 詳細 [[ビデオ]](https://youtu.be/4X96ow7FnSY?t=14m29s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
@@ -1751,7 +1826,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
     -   Drill down Choropleth [[ビデオ]](https://youtu.be/4X96ow7FnSY?t=18m11s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
     -   Drill down Cartogram [[ビデオ]](https://youtu.be/4X96ow7FnSY?t=19m14s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
     -   Drill down Player [[ビデオ]](https://youtu.be/4X96ow7FnSY?t=20m17s) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
-    -   認定済みカスタム ビジュアル [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
+    -   認定済み Power BI ビジュアル [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
 
 
 ### <a name="analytics--modeling"></a>分析およびモデリング:
@@ -2123,7 +2198,7 @@ Microsoft の 9 月の更新プログラムは新しい使い方に慣れるた�
 -   ビン分割 [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#binning) [[ビデオ]](https://youtu.be/UXEYSvgvMaQ?t=12m17s)
 -   上位 N フィルター [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#topN) [[ビデオ]](https://youtu.be/UXEYSvgvMaQ?t=13m55s)
 -   データ ポイントの包含または除外 [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#includeExclude) [[ビデオ]](https://youtu.be/UXEYSvgvMaQ?t=15m36s)
--   R を使用したカスタム ビジュアル [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#rCustomVisuals)
+-   R を利用した Power BI ビジュアル [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#rCustomVisuals)
 
 
 ### <a name="data-connectors"></a>データ コネクタ:

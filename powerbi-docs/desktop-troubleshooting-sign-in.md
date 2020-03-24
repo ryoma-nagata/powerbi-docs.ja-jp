@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401175"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133185"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop のサインインに関するトラブルシューティング
 **Power BI Desktop** にサインインしようとして、エラーになる場合があります。 サインインの問題には 2 つの主な理由があります。**プロキシ認証エラー**と**非 HTTPS URL リダイレクト エラー**です。 
@@ -75,4 +75,37 @@ ms.locfileid: "78401175"
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 
 このフォルダーには多くのトレース ファイルが存在する可能性があります。 エラーの迅速な識別が容易なように、管理者には最近のファイルだけを送るようにしてください。 
+
+
+## <a name="using-default-system-credentials-for-web-proxy"></a>Web プロキシに既定のシステム資格情報を使用する
+
+Power BI Desktop によって発行された Web 要求では、Web プロキシの資格情報は使用されません。 プロキシ サーバーを使用するネットワークでは、Power BI Desktop で Web 要求を正常に作成できない場合があります。 
+
+2020 年 3 月の Power BI Desktop リリース以降、システム管理者またはネットワーク管理者は、Web プロキシ認証に既定のシステム資格情報を使用できるようになります。 Web プロキシ認証に既定のシステム資格情報を使用できるようにするには、管理者は **UseDefaultCredentialsForProxy** というレジストリ エントリを作成し、値を 1 に設定します。
+
+レジストリ エントリは、次のいずれかの場所に配置できます。
+
+`[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop]`
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop]`
+
+レジストリ エントリを両方の場所に配置する必要はありません。
+
+![既定のシステム資格情報を使用するためのレジストリ キー](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in-03.png)
+
+レジストリ エントリが作成されると (再起動が必要になる場合があります)、Power BI Desktop によって Web 要求が行われるときに、Internet Explorer で定義されているプロキシ設定が使用されます。 
+
+プロキシまたは資格情報の設定を変更した場合と同様に、このレジストリ エントリの作成はセキュリティ上の影響を受けます。そのため、管理者は、この機能を有効にする前に、Internet Explorer プロキシを正しく構成していることを確認する必要があります。         
+
+### <a name="limitations-and-considerations-for-using-default-system-credentials"></a>既定のシステム資格情報を使用する場合の制限事項と考慮事項
+
+この機能を有効にする前に、管理者は、セキュリティに対する一連の影響を考慮する必要があります。 
+
+クライアントに対してこの機能を有効にするときは、常に次の推奨事項に従う必要があります。
+
+* Active Directory ネットワークに参加しているプロキシ サーバーのみがクライアントによって使用されるように、プロキシ サーバーの認証方式として**ネゴシエーション**のみを使用します。 
+* この機能を使用するクライアントでは **NTLM フォールバック**を使用しないでください。
+* この機能が有効になっていて、このセクションで推奨されているとおりに構成されている場合に、ユーザーがプロキシによるネットワークを使用していなければ、プロキシ サーバーに接続して既定のシステム資格情報を使用しようとするプロセスは使用されません。
+
+
+[Web プロキシに既定のシステム資格情報を使用する](#using-default-system-credentials-for-web-proxy)
 

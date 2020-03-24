@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496945"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376726"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 この記事は、Office 365 Government プランの一部として Power BI をデプロイする米国政府機関のお客様を対象としています。 Government プランは、米国のコンプライアンスとセキュリティ標準を満たする必要がある組織の固有のニーズに合うように設計されています。 米国政府機関のお客様向けに設計された Power BI サービスは、Power BI サービスの商用バージョンとは異なります。 これらの機能の相違点と能力について、以下のセクションで説明します。
@@ -46,7 +46,7 @@ Office 365 には、政府機関のさまざまなコンプライアンス要件
 Office 365 のデプロイ後に、Power BI サブスクリプションを追加できます。 [米国政府組織の登録](service-govus-signup.md#existing-office-government-cloud-customers)に関するページの詳細なガイダンスに従って、Power BI Pro Government サービスを購入します。 Power BI を使用する必要があるすべてのユーザーに割り当てできる数のライセンスを購入した後、それらのライセンスを個々のユーザー アカウントに割り当てます。
 
 > [!IMPORTANT]
-> Power BI US Government は、無料ライセンスとして利用することはできません。 Government Community Cloud にアクセスするには、各ユーザーに Pro ライセンスが割り当てられている必要があります。 無料ライセンスが割り当てられているユーザー アカウントには、商用クラウドへのアクセスのみが許可され、認証とアクセスの問題が発生します。 ライセンスの種類の違いを確認するには、「[Power BI サービスのライセンスの種類別機能](service-features-license-type.md)」を参照してください。
+> Power BI US Government は、無料ライセンスとして利用することはできません。 Government Community Cloud にアクセスするには、各ユーザーに Pro ライセンスが割り当てられている必要があります。 無料ライセンスが割り当てられているユーザー アカウントには、商用クラウドへのアクセスのみが許可され、認証とアクセスの問題が発生します。 Power BI Premium を購入している場合は、ユーザー アクセスを有効にするために Pro ライセンスを割り当てる必要はありません。  レポートが Premium 容量に発行されている限り、組織内のすべてのユーザーが共有されているレポートにアクセスできます。 ライセンスの種類の違いを確認するには、「[Power BI サービスのライセンスの種類別機能](service-features-license-type.md)」を参照してください。
 >
 >
 

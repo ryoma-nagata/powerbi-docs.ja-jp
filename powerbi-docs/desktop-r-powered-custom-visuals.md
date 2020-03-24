@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128230"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378687"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI で R を利用した Power BI ビジュアルを使用する
 
@@ -129,7 +129,7 @@ Power BI チームはこれらの問題の軽減に懸命に取り組んでお�
 
    b.  R コンソールから、次の手順を実行します。
 
-       source(“C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R”)
+       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
 
    標準的な既定のインストール場所は次のとおりです。
 
@@ -149,7 +149,7 @@ Power BI チームはこれらの問題の軽減に懸命に取り組んでお�
 
 Power BI での R については、次の追加情報を参照してください。
 
-* [Power BI の Power BI ビジュアル ギャラリー](https://app.powerbi.com/visuals/)
+* [Power BI ビジュアル ギャラリー](https://app.powerbi.com/visuals/)
 * [Power BI Desktop での R スクリプトの実行](desktop-r-scripts.md)
 * [Power BI Desktop で R ビジュアルを作成する](desktop-r-visuals.md)
 * [Power BI で外部 R IDE を使用する](desktop-r-ide.md)

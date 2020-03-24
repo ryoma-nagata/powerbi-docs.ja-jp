@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3e23f56da424ae18565b6cbec591c9d855f23139
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: e45d3e109d072984d6c01b2cbdfdd9b53e936a3b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113128"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377215"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Power BI から PDF にレポートをエクスポートする
 
@@ -53,7 +53,7 @@ Power BI サービスで、レポートを選択してそれをキャンバス�
 "**PDF へのエクスポート**" 機能を使用する場合は、留意すべき注意事項と制限事項がいくつかあります。
 
 * 現在、R と Python ビジュアルはサポートされていません。 PDF では、これらのビジュアルは空白となり、エラー メッセージが表示されます。 
-* 認定を受けたカスタム ビジュアルはサポートされます。 カスタム ビジュアルの認定を受ける方法など、認定を受けたカスタム ビジュアルの詳細については、[カスタム ビジュアルの認定](../developer/power-bi-custom-visuals-certified.md)に関する記事を参照してください。 認定を受けていないカスタム ビジュアルはサポートされません。 PDF では、それらはエラー メッセージを伴って表示されます。
+* 認定を受けた Power BI ビジュアルはサポートされます。 Power BI ビジュアルの認定を受ける方法など、認定を受けた Power BI ビジュアルの詳細については、「[認定済みの Power BI ビジュアルを取得する](../developer/visuals/power-bi-custom-visuals-certified.md)」を参照してください。 認定を受けていない Power BI ビジュアルはサポートされません。 PDF では、それらはエラー メッセージを伴って表示されます。
 * ESRI ビジュアルはサポートされていません
 * 現在、レポート ページが 30 ページを超えるレポートはエクスポートできません。
 * レポートを PDF にエクスポートする処理が完了するまで数分かかる場合がありますので、しばらくお待ちください。 必要な時間に影響する要因としては、レポートの構造や、Power BI サービスの現在の負荷などがあります。

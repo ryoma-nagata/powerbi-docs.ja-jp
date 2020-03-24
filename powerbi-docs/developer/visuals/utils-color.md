@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: d688e54607283a6bcb67f895a89ca991f68bc01b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922484"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379354"
 ---
 # <a name="color-utils"></a>カラー ユーティリティ
 この記事は、カラー ユーティリティのインストール、インポート、使用に役立ちます。 この記事では、Power BI ビジュアルでカラー ユーティリティを使用して、ビジュアルのデータ ポイントにテーマとパレットを簡単に適用する方法について説明します。
@@ -40,7 +40,7 @@ npm install powerbi-visuals-utils-colorutils --save
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
 ```
 
-カスタム ビジュアルに ColorUtils をインストールして使用する方法について学習します。
+Power BI ビジュアルに ColorUtils をインストールして使用する方法について学習します。
 
 * [使用ガイド] 使用ガイドでは、パッケージのパブリック API について説明されています。 パッケージの各パブリック インターフェイスについての説明といくつかの例が提供されています。
 

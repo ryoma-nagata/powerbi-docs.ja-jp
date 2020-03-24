@@ -6,30 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527449"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133231"
 ---
-# <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Power BI Desktop で更新されたリボンを使用する (プレビュー)
+# <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Power BI Desktop で更新されたリボンを使用する
 
-2019年 11 月の更新プログラム以降、Power BI Desktop のリボンは、Microsoft Office などの他の Microsoft 製品と外観とエクスペリエンスを合わせるように改良されています。
+2020 年 3 月の更新プログラム以降、Power BI Desktop のリボンは、Microsoft Office などの他の Microsoft 製品と外観およびエクスペリエンスを合わせるように改良されています。 更新されたリボンは、2019 年 11 月以降の月次更新でプレビュー機能として表示され、2020 年 3 月の更新プログラム以降、新しいリボンが既定のエクスペリエンスになります。
 
 ![Power BI Desktop の新しいリボン](media/desktop-ribbon/desktop-ribbon-02.png)
 
-更新されたリボンはプレビュー段階であるため、ユーザーとお客様からのフィードバックを収集することで、このエクスペリエンスを優れたものにすることができます。 数か月間のプレビュー、フィードバック、および改善の後で、更新された Power BI Desktop リボンを一般提供することが予定されています。 
-
 ## <a name="how-to-enable-the-updated-ribbon"></a>更新されたリボンを有効にする方法
 
-Power BI の更新されたリボンはプレビュー機能であり、有効にする必要があります。 有効にするには、 **[ファイル]、[オプションと設定]、[オプション]** の順に選択し、左側の列から **[プレビュー機能]** を選択します。 右ペインに、 **[更新されたリボン]** 選択項目が表示されます。 **[更新されたリボン]** の横にあるチェックボックスをオンにして、プレビュー機能を有効にします。 プレビュー機能の変更を有効にするには、Power BI Desktop を再起動する必要があります。
+2020 年 3 月の更新プログラム以降、更新されたリボンは既定でオンになっています。 それより前のバージョンの Power BI Desktop (2019 年 11 月の更新プログラム以降) では、Power BI の更新されたリボンはプレビュー機能であり、有効にする必要があります。 こうした以前の更新プログラムでこの機能を有効にするには、 **[ファイル]、[オプションと設定]、[オプション]** の順に選択し、左側の列から **[プレビュー機能]** を選択します。 右ペインに、 **[更新されたリボン]** 選択項目が表示されます。 **[更新されたリボン]** の横にあるチェックボックスをオンにして、プレビュー機能を有効にします。 プレビュー機能の変更を有効にするには、Power BI Desktop を再起動する必要があります。
 
 ![Power BI Desktop の [更新されたリボン] オプション](media/desktop-ribbon/desktop-ribbon-01.png)
 
+> [!NOTE]
+> 2020 年 3 月以降のバージョンの Power BI Desktop では、更新されたリボンを有効にする必要はありません。これは、2020 年 3 月以降、新しいリボンが既定のエクスペリエンスになったためです。
 
 ## <a name="features-of-the-new-ribbon"></a>新しいリボンの機能
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237985"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488777"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -124,9 +124,9 @@ Power BI の **[Web に公開]** オプションを使用すると、Power BI �
 
 データ更新は、埋め込まれたレポートまたはビジュアルに自動的に反映されます。 更新されたデータが埋め込みコードから表示できるようになるまで、約 1 時間かかることがあります。 自動更新を無効にするには、レポートが使用しているデータセットのスケジュールの **[更新しない]** を選択します。  
 
-## <a name="custom-visuals"></a>カスタム ビジュアル
+## <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-**[Web に公開]** では、カスタム ビジュアルがサポートされています。 **[Web に公開]** を使用した場合、公開済みのビジュアルを共有しているユーザーは、カスタム ビジュアルを有効にせずにレポートを表示できます。
+**[Web に公開]** では、Power BI ビジュアルがサポートされています。 **[Web に公開]** を使用した場合、公開済みのビジュアルを共有しているユーザーは、Power BI ビジュアルを有効にせずにレポートを表示できます。
 
 ## <a name="limitations"></a>制限事項
 
@@ -144,7 +144,7 @@ Power BI の **[Web に公開]** オプションを使用すると、Power BI �
 - シングル サインオン データ クエリ モデル
 - セキュリティで保護された秘密または機密情報
 - [共有データセットと認定済みデータセット](service-datasets-share.md)。
-- **[埋め込む]** オプションを使って提供される自動認証機能は、Power BI JavaScript API では動作しません。 Power BI JavaScript API の場合は、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)の方法を使って埋め込みを行います。
+- **[埋め込む]** オプションを使って提供される自動認証機能は、Power BI JavaScript API では動作しません。 Power BI JavaScript API の場合は、[ユーザー所有データ](developer/embedded/embed-sample-for-your-organization.md)の方法を使って埋め込みを行います。
 
 ## <a name="tenant-setting"></a>テナントの設定
 

@@ -7,14 +7,14 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: e87235232860897765ef95bf0ec865410adf8fd1
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: 531da1ede8b83af9fb8093a3178c945f374b835c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819493"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379392"
 ---
 # <a name="chart-utils"></a>グラフ ユーティリティ
 
@@ -681,7 +681,7 @@ let formattedValue = formatter.format(value);
 
 ## <a name="legend-service"></a>凡例サービス
 
-`Legend` サービスには、カスタム ビジュアルの PBI 凡例を作成および管理するためのヘルパー インターフェイスが用意されています。
+`Legend` サービスには、Power BI ビジュアルの PBI 凡例を作成および管理するためのヘルパー インターフェイスが用意されています。
 
 このモジュールには、次の関数とインターフェイスが用意されています。
 

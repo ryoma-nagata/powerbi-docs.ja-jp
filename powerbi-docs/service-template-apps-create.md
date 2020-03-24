@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041725"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436021"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI でテンプレート アプリを作成する
 
@@ -30,7 +30,7 @@ Power BI テナント管理者は、組織においてテンプレート アプ�
 - [Power BI Pro ライセンス](service-self-service-signup-for-power-bi.md)
 - [Power BI Desktop をインストールしておくこと](desktop-get-the-desktop.md) (任意)
 - [Power BI の基本的概念](service-basic-concepts.md)に関する知識
-- テンプレート アプリをパブリックに共有するための権限。 詳細については、Power BI [管理ポータルのテンプレート アプリの設定](service-admin-portal.md#template-apps-settings)に関するセクションを参照してください。
+- テンプレート アプリをパブリックに共有するためのアクセス許可 (詳細については、Power BI [管理ポータルの [テンプレート アプリの設定]](service-admin-portal.md#template-apps-settings) を参照)
 
 ## <a name="create-the-template-workspace"></a>テンプレート ワークスペースを作成する
 
@@ -87,7 +87,7 @@ Power Query でパラメーターを使用している場合、型を明確に�
 
     **[新しいナビゲーション ビルダー]** をオンにすると、アプリのナビ ペインを定義できます (詳細については、「[ナビゲーション エクスペリエンスを設計する](service-create-distribute-apps.md#design-the-navigation-experience)」を参照してください)。
 
-   ![アプリのランディング ページを設定する](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+   ![アプリのランディング ページを設定する](media/service-template-apps-create/power-bi-install-app-content.png)
     
     **アプリのランディング ページ:** ナビゲーション ビルダーをオフにすることを選択した場合は、アプリのランディング ページを選択するオプションがあります。 アプリのランディング ページにするレポートまたはダッシュボードを定義します。 適切な印象を与えるランディング ページを使用します。
 
@@ -109,7 +109,7 @@ Power Query でパラメーターを使用している場合、型を明確に�
     - **必須**: インストールする人にユーザー固有のパラメーターの入力を求める場合に、これを使用します。
     - **ロック**: ロックすると、インストールする人はパラメーターを更新できません。
 
-    **アクセス** テストの段階で、アプリをインストールし、テストできる組織内の他のユーザーを決定します。 心配はありません。この設定は後でいつでも変更できます (設定が配布済みのテンプレート アプリのアクセスに影響することはありません)。
+    **アクセス** テストの段階で、アプリをインストールし、テストできる組織内の他のユーザーを決定します。 心配はありません。この設定は後でいつでも変更できます。 この設定は、分散テンプレート アプリへのアクセスには影響しません。
 
 2. **[アプリの作成]** を選択します。
 

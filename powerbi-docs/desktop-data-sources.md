@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2020
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427555"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207254"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 
@@ -90,7 +90,8 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Snowflake
 * Essbase
 * AtScale キューブ
-* BI Connector Data Virtuality LDW (ベータ)
+* BI コネクタ 
+* Data Virtuality LDW (ベータ)
 * Denodo
 * Dremio
 * Exasol
@@ -124,9 +125,10 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 **[Azure]** カテゴリには、次のデータ接続があります。
 
-* Azure SQL データベース
+* Azure SQL Database
 * Azure SQL Data Warehouse
 * Azure Analysis Services データベース
+* Azure Database for PostgreSQL
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
@@ -154,8 +156,8 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (オンプレミス)
 * Microsoft Azure Consumption Insights (ベータ)
-* Azure DevOps (ベータ)
-* Azure DevOps Server (ベータ)
+* Azure DevOps (Boards のみ)
+* Azure DevOps Server (Boards のみ)
 * Salesforce オブジェクト
 * Salesforce レポート
 * Google Analytics
@@ -164,8 +166,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Data.World - データセットの取得 (ベータ)
 * GitHub (Beta)
 * LinkedIn Sales Navigator (ベータ)
-* MailChimp (ベータ)
-* Marketo (Beta)
+* Marketo (ベータ)
 * Mixpanel (ベータ)
 * Planview Enterprise One - PRM (ベータ)
 * Planview Projectplace (ベータ)
@@ -178,6 +179,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (ベータ)
+* Asana (ベータ)
 * Dynamics 365 Customer Insights (ベータ版)
 * Emigo Data Source
 * Entersoft Business Suite (ベータ)
@@ -205,6 +207,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Microsoft Exchange
 * Hadoop ファイル (HDFS)
 * Spark
+* Hive LLAP (ベータ)
 * R スクリプト
 * Python スクリプト
 * ODBC
@@ -220,6 +223,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Siteimprove (ベータ)
 * SurveyMonkey (ベータ)
 * Tenforce (Smart)List (ベータ)
+* TIBCO(R) Data Virtualization (ベータ)
 * Vena (ベータ)
 * Workforce Dimensions (ベータ)
 * Zucchetti HR Infinity (ベータ)

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538132"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435768"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -21,6 +21,9 @@ ms.locfileid: "76538132"
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android フォン](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android タブレット](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10 デバイス](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
+
+>[!NOTE]
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Power BI レポートは、データの対話型表示で、データから得られるさまざまな発見と洞察を表す視覚化が付いています。 Power BI モバイル アプリでは、3 段階のプロセスの 3 つ目の手順でレポートを表示できます。
 
@@ -59,6 +62,14 @@ Power BI モバイル アプリをダウンロードすると、そのアプリ�
 必要に応じて、ダブルタップ操作に切り替えることができます。 ダブルタップ操作では、最初にビジュアルをタップして選択してから、ビジュアル内をもう一度タップして目的のアクションを実行します。
 
 ダブルタップ操作に切り替えるには、またはシングルタップ操作に戻すには、[アプリの対話式操作の設定](./mobile-app-interaction-settings.md)に移動します。
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>データ ポイントの選択の単一選択モードと複数選択モード
+
+レポートでは、データ ポイントをタップして選択します。 単一選択モードと複数選択モードのどちらを使用するかを選択できます。 単一選択モードでは、データ ポイントをタップして選択すると、その選択によってそれ以前にした選択がすべて置き換えられます。 複数選択モードでは、データ ポイントをタップして選択すると、その選択が現在の選択内容に "*追加*" され、すべての選択をまとめた結果がレポートのビジュアル全体で強調表示されます。
+
+選択したデータ ポイントの選択を解除するには、単純にそれをもう一度タップします。
+
+単一選択モードと複数選択モードを切り替えるには、[アプリの操作設定](./mobile-app-interaction-settings.md)に移動します。
 
 ### <a name="using-tap-and-long-tap"></a>タップとロング タップの使用
 タップは、マウス クリックと同じです。 したがって、データ ポイントに基づいてレポートをクロス強調表示したい場合は、そのデータ ポイントをタップします。

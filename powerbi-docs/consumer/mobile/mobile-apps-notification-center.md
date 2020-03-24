@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d37e9530b56d577ae4f4a32780a46ba00ede8107
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114827"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435584"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリで通知を受け取る
 適用対象:
@@ -21,6 +21,9 @@ ms.locfileid: "79114827"
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
+
+>[!NOTE]
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 通知は、Power BI サービスまたはモバイル デバイスのユーザーに合わせた Power BI エクスペリエンスに関連する情報を提示します。 通知を開くと、[自分で設定したアラート](mobile-set-data-alerts-in-the-mobile-apps.md)、共有されている新しいダッシュボードに関する一連のメッセージ フィード、グループ ワークスペースの変更、Power BI イベントや会議などに関する情報が表示されます。
 

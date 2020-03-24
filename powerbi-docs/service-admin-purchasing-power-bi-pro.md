@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76753193"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525639"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro のユーザー ライセンスを購入して割り当てる
 
@@ -28,7 +28,7 @@ Power BI Pro は、他のユーザーが Power BI サービスに発行したレ
 この記事では、Microsoft 365 管理センターで Power BI Pro ユーザー ライセンスを購入する方法について説明します。 ライセンスを購入した後、Microsoft 365 管理センターまたは Azure portal でユーザーに割り当てることができます。
 
 > [!NOTE]
-> 2020 年 1 月 14 日以降、米国の商用クラウドのお客様は、Power Platform 製品 (Power BI、Power Apps、および Power Automate) のセルフサービス購入、サブスクリプション、およびライセンス管理機能を利用できます。 組織でセルフサービス購入を有効または無効にする手順などの詳細については、「[セルフサービス購入に関する FAQ](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)」を参照してください。
+> 2020 年 1 月 14 日以降、商用クラウドのお客様は、Power Platform 製品 (Power BI、Power Apps、および Power Automate) のセルフサービス購入、サブスクリプション、およびライセンス管理機能を利用できます。 組織でセルフサービス購入を有効または無効にする手順などの詳細については、「[セルフサービス購入に関する FAQ](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)」を参照してください。
 
 ### <a name="prerequisites"></a>前提条件
 

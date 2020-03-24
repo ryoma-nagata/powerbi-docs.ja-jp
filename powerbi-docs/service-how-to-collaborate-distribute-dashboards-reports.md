@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881340"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376755"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI で作業を共有する方法
 
@@ -23,10 +23,12 @@ ms.locfileid: "73881340"
 * 同僚と共同作業を行い、*ワークスペース*で意味のあるレポートやダッシュボードを作成します。
 * こうしたダッシュボードとレポートを*アプリ*にバンドルし、より大きいグループや組織全体に配布します。
 * 同僚が自分のレポートの基礎として自分のワークスペース内で使用できる*共有データセット*を作成します。
-* Microsoft AppSource を介して外部の Power BI ユーザーに配布することができる*テンプレート アプリ*を作成します。
 * サービスまたは Power BI モバイル アプリから、数人のユーザーでダッシュボードまたはレポートを共有します。
+* Power BI モバイル アプリから注釈を付けて共有します。
+* Microsoft Teams にレポートを埋め込みます。
 * レポートを印刷します。
 * セキュリティで保護されたポータルまたはパブリック Web サイトにレポートを*埋め込みます*。
+* Microsoft AppSource を介して外部の Power BI ユーザーに配布することができる*テンプレート アプリ*を作成します。
 
 どのオプションでも、コンテンツを共有するには [Power BI Pro のライセンス](service-features-license-type.md)が必要です。あるいは、コンテンツを [Premium 容量](service-premium-what-is.md)に格納する必要があります。 ライセンスの要件は、コンテンツを表示する同僚については、選んだオプションに応じて異なります。 次のセクションでは、詳細を説明します。 
 
@@ -44,7 +46,7 @@ ms.locfileid: "73881340"
 
 当然ながら、自分のマイ ワークスペースにコンテンツを配置し、そこから共有することもできます。 しかしワークスペースにはコンテンツの共同所有機能があるため、共同作業の点でマイ ワークスペースよりも優れています。 チームの管理者とチーム全体が更新を加え、他のユーザーにアクセス権を付与する操作も簡単です。 マイ ワークスペースは、1 人のユーザーが 1 回限りのコンテンツや個人用のコンテンツに使用する場合に適しています。
 
-たとえば、ダッシュボードが完成し、同僚と共有する必要があるとします。 同僚にダッシュボードへのアクセス権を付与するために最適な方法は何でしょうか。 さまざまな要因でその答えは変わります。 
+同僚と共有する必要がある完成したダッシュボードがあるとします。 同僚にダッシュボードへのアクセス権を付与するために最適な方法は何でしょうか。 さまざまな要因でその答えは変わります。 
 
 - 同僚がダッシュボードを最新の状態に保つ必要がある場合、またはワークスペース内のすべてのコンテンツにアクセスする必要がある場合は、その同僚をワークスペースに追加することを検討します。 
 - 同僚に必要な操作がそのダッシュボードの閲覧だけで、ワークスペース内のすべてのコンテンツを閲覧する必要がない場合は、やはり他の選択肢があります。 数人のユーザーで 1 つのダッシュボードのみが必要な場合は、ダッシュボードの共有が最適なソリューションと考えられます。
@@ -64,7 +66,7 @@ Power BI のワークスペース エクスペリエンスが新しくなりま�
 
 ユーザーがアプリを表示するには、ユーザーに Power BI Pro ライセンスが付与されているか、アプリを Power BI Premium 容量に格納する必要があります。 詳しくは、[Power BI Premium](service-premium-what-is.md) に関するページをご覧ください。
 
-組織外の人向けにアプリを発行することもできます。 組織外のユーザーは、アプリのコンテンツを表示し、操作することはできますが、他のユーザーと共有することはできません。 これで、*テンプレート アプリ*を作成して、Power BI の顧客に配布できます。
+組織外の人向けにアプリを発行することもできます。 それらのユーザーは、アプリのコンテンツを表示し、やりとりすることはできますが、他のユーザーと共有することはできません。 これで、*テンプレート アプリ*を作成して、Power BI の顧客に配布できます。
 
 ## <a name="share-a-dataset"></a>データセットを共有する
 
@@ -97,6 +99,10 @@ iOS および Android デバイス用 Power BI モバイル アプリでは、�
 iOS および Android モバイル アプリからの、[タイル、レポート、およびビジュアルの共有および注釈付け](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)の詳細を確認してください。
 
 Windows 10 デバイス用 Power BI アプリから、[タイルのスナップショットを共有する](consumer/mobile/mobile-windows-10-phone-app-get-started.md)こともできます。
+
+## <a name="embed-a-report-in-microsoft-teams"></a>Microsoft Teams にレポートを埋め込む
+
+Power BI レポートと Power BI によってページ分割されたレポートを Microsoft Teams に埋め込むことで、組織内のデータ ドリブン コラボレーションを強化します。 個々のレポートごとに個別の Power BI タブを追加し、各タブにレポートの名前またはその他の名前を付けることができます。 仕事仲間は、Teams の [Power BI] タブでレポートを表示できます。 また、Teams で直接、[会話] ウィンドウとレポートのコメントを開くこともできます。 詳細については、[Microsoft Teams でのレポートの埋め込み](service-embed-report-microsoft-teams.md)に関するページを参照してください。
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>PDF または他の静的ファイルとして印刷または保存する
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "78946853"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381378"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>視覚エフェクトの作成に使用されたデータをエクスポートする
 
@@ -252,7 +252,7 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
 
 - 視覚化で複数のデータ テーブルからのデータが使用されるとき、データ モデルでそれらのテーブルに対してリレーションシップが存在しない場合、Power BI でエクスポートされるのは最初のテーブルのデータのみです。
 
-- 現在、カスタム ビジュアルと R ビジュアルはサポートされていません。
+- 現在、Power BI ビジュアルと R ビジュアルはサポートされていません。
 
 - Power BI でフィールド (列) の名前を変更するには、そのフィールドをダブルクリックし、新しい名前を入力します。 この新しい名前は、Power BI では "*エイリアス*" と呼ばれます。 Power BI レポートのフィールド名に重複が発生することがありますが、Excel では重複は許可されていません。 そこで、Power BI によってデータが Excel にエクスポートされるとき、フィールドのエイリアスは元のフィールド (列) 名に戻ります。  
 

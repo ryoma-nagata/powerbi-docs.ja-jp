@@ -1,20 +1,20 @@
 ---
 title: Power BI レポートの新しいフィルター エクスペリエンス
-description: Power BI のフィルターに、新しい機能と新しいデザインが追加されます。
+description: Power BI のフィルターに、新しい機能と新しいデザインが追加されました。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762533"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201957"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Power BI レポートでフィルターを操作する
 
@@ -52,8 +52,11 @@ Power BI サービスで **[新しい外観]** がオンになっている場合
 
 新しい外観をオンにしていない場合でも、次の手順に従って新しいフィルター エクスペリエンスを確認できます。
 
-1. Power BI サービスで、ワークスペースのコンテンツ リストで **[レポート]** タブを選択します。
-2. 有効にするレポートを見つけて、そのレポートの **[設定]** アイコン ![レポートの設定アイコン](media/power-bi-report-filter/power-bi-settings-icon.png) を選択します。
+1. Power BI サービスで、ワークスペースのコンテンツ リストを開きます。
+2. 有効にするレポートを探し、 **[その他のオプションを表示 (...)]** を選択し、そのレポートの **[設定]** を選択します。
+
+    ![レポート設定](media/power-bi-report-filter/power-bi-filter-options.png)
+
 3. **[エクスペリエンスのフィルター処理]** の下で、 **[このレポートに関して、更新されたフィルター ウィンドウを有効にし、ビジュアル ヘッダーにフィルターを表示する]** を選択します。
 
     ![更新されたフィルター ウィンドウを有効にする](media/power-bi-report-filter/power-bi-service-filter-enable.png)
@@ -82,11 +85,21 @@ Power BI サービスで **[新しい外観]** がオンになっている場合
 
 1. 既定では、レポート コンシューマーは [フィルター] ウィンドウを表示できます。 表示されないようにするには、 **[フィルター]** の横にある目のアイコンを選択します。
 
-    ![Power BI フィルターの目のアイコン](media/power-bi-report-filter/power-bi-filter-eye.png)
+    ![Power BI フィルターの目のアイコン](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
 2. 新しい [フィルター] ウィンドウを構築し始めるには、目的のフィールドを、ビジュアル、ページ、レポートのいずれかのレベルのフィルターとして、新しい [フィルター] ウィンドウにドラッグします。
 
 レポート キャンバスにビジュアルを追加すると、Power BI によって、ビジュアル内の各フィールドの [フィルター] ウィンドウにフィルターが自動的に追加されます。 
+
+## <a name="hide-the-filters-pane-while-editing"></a>編集中に [フィルター] ウィンドウを非表示にする
+
+Power BI Desktop には、プレビュー中の新しいリボンがあります。 **[表示]** タブで、 **[フィルター]** トグル ボタンを使用して、[フィルター] ウィンドウの表示と非表示を切り替えることができます。 この機能は、[フィルター] ウィンドウを使用せず、画面に余分なスペースが必要な場合に便利です。 この追加により、[ブックマーク] ウィンドウや [選択] ウィンドウなど、開いたり閉じたりできる他のウィンドウに [フィルター] ウィンドウが配置されます。 
+
+![編集中に [フィルター] ウィンドウの表示と非表示を切り替える](media/power-bi-report-filter/power-bi-filter-hide.png)
+
+この設定では、Power BI Desktop の [フィルター] ウィンドウのみ非表示になります。 エンド ユーザーの [フィルター] ウィンドウを非表示にするには、代わりに、 **[フィルター]** の横にある、**目**のアイコンを選択します。
+
+![目のアイコン](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
 ## <a name="lock-or-hide-filters"></a>フィルターのロックまたは非表示
 
@@ -124,15 +137,15 @@ Power BI サービスで **[新しい外観]** がオンになっている場合
 1. レポート内で、レポート自体か背景 ("*壁紙*") をクリックしてから、 **[視覚化]** ウィンドウ内で **[書式]** を選択します。 
     レポート ページや壁紙、また [フィルター] ウィンドウやフィルター カードを書式設定するためのオプションが表示されます。
 
-1. **[フィルター ウィンドウ]** を展開して背景、アイコン、左の境界線の色を設定し、レポート ページを補完します。
+1. **[フィルター] ウィンドウ**を展開して背景、アイコン、左の境界線の色を設定し、レポート ページを完成させます。
 
-    ![フィルター ウィンドウを展開する](media/power-bi-report-filter/power-bi-format-filter-pane.png)
+    ![[フィルター] ウィンドウを展開する](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. **[フィルター カード]** を展開して、色と境界線の **[使用可能]** と **[適用済み]** を設定します。 カードのさまざまな色を使用可能にして適用すれば、どのフィルターが適用されているか明確になります。 
   
     ![フィルター カードを展開する](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
-## <a name="theming-for-filter-pane"></a>[フィルター] ウィンドウのテーマ
+## <a name="theming-for-filters-pane"></a>[フィルター] ウィンドウのテーマ
 テーマ ファイルを使用して、[フィルター] ウィンドウの既定の設定を変更できるようになりました。 作業を開始するためのサンプル テーマのスニペットを次に示します。
 
  
@@ -204,9 +217,9 @@ Power BI サービスで **[新しい外観]** がオンになっている場合
 }] 
 ```
 
-## <a name="sort-the-filter-pane"></a>フィルター ウィンドウを並べ替える
+## <a name="sort-the-filters-pane"></a>[フィルター] ウィンドウを並べ替える
 
-カスタムの並べ替え機能は、新しいフィルター ウィンドウのエクスペリエンスの一部です。 レポート作成者は、フィルターをドラッグ アンド ドロップして、任意の順序で並べ替えることができます。
+カスタムの並べ替え機能は、新しい [フィルター] ウィンドウのエクスペリエンスの一部です。 レポート作成者は、フィルターをドラッグ アンド ドロップして、任意の順序で並べ替えることができます。
 
 ![フィルターの並べ替え順序を変更する](media/power-bi-report-filter/power-bi-filter-sort.gif)
 
@@ -223,11 +236,25 @@ Power BI サービスで **[新しい外観]** がオンになっている場合
 
 ![フィルターの名前を変更する](media/power-bi-report-filter/power-bi-filter-rename.png)
 
+## <a name="filters-pane-search"></a>[フィルター] ウィンドウの検索
+
+[フィルター] ウィンドウの検索機能を使用すると、フィルター カード全体をタイトルで検索できます。 この機能は、[フィルター] ウィンドウにいくつかの異なるフィルター カードがあり、その中で関心のあるものを見つける場合に役立ちます。
+
+![フィルターを検索する](media/power-bi-report-filter/power-bi-filter-search.png)
+
+また、[フィルター] ウィンドウの他の要素を書式設定できるのと同じように、検索ボックスの書式も設定できます。
+
+![検索ボックスの書式を設定する](media/power-bi-report-filter/power-bi-filter-format-search.png)
+
+この [フィルター] ウィンドウ検索機能は、既定ではオンになりますが、[オプション] ダイアログのレポート設定で **[Enable search for Filters pane]\(フィルター ウィンドウの検索を有効にする\)** を選択することで、オンとオフを切り替えることができます。
+
+![検索をオンまたはオフにする](media/power-bi-report-filter/power-bi-enable-search-filter.png)
+
 ## <a name="restrict-changes-to-filter-type"></a>フィルターの種類への変更を制限する
 
 レポート設定の [エクスペリエンスのフィルター処理] セクションには、ユーザーがフィルターの種類を変更できるかどうかを制御するオプションがあります。
 
-![フィルターの種類の変更を制限する](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
+![フィルターの種類の変更を制限する](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
 ## <a name="next-steps"></a>次の手順
 

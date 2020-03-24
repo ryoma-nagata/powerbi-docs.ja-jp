@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880360"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380643"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Power BI ビジュアルのヒント
 
@@ -27,7 +27,7 @@ ms.locfileid: "73880360"
 
 次の画像は、サンプルの棒グラフのヒントを示しています。
 
-![サンプルの棒グラフのヒント](./media/tooltips-in-samplebarchart.png)
+![サンプルの棒グラフのヒント](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 前のヒントの画像は、1 つのバー カテゴリと値を示しています。 1 つのヒントを拡張して、複数の値を表示できます。
 
@@ -209,7 +209,7 @@ BarChart クラスは、データ ポイントの `category`、`value`、`color`
 
 **書式**ウィンドウでは、レポート ページのヒントを定義できます。
 
-![レポート ページのヒント](media/report-page-tooltip.png)
+![レポート ページのヒント](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`:ビジュアルでサポートされるヒントの構成であり、フィールドでも反映されます。 
    * `default`:データ フィールドを介した "自動" ヒント バインドがサポートされるかどうかを示します。 

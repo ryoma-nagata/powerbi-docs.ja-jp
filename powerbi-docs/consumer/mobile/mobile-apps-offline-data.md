@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75219081"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435446"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータをオフライン表示する
 適用対象:
@@ -21,6 +21,9 @@ ms.locfileid: "75219081"
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
+
+>[!NOTE]
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 モバイル ブラウザーでなくモバイル アプリで Power BI を表示する 1 つの利点は、ネットワークに接続していなくてもデータを表示できることです。 
 
@@ -34,7 +37,7 @@ ms.locfileid: "75219081"
 モバイル アプリから以前にアクセスした Power BI レポートへの読み取り専用アクセスも可能です。 完全なレポートを表示できますが、フィルター処理、クロス フィルター処理、並べ替え、スライサーは使用できません。
 
 ## <a name="background-data-refresh"></a>バックグラウンドでのデータ更新
-バックグラウンド更新では、お気に入りのダッシュ ボードに加えて、過去 2 週間に見たダッシュボードとレポートおよび (データ ソースではなく) Power BI サービス上のデータが更新されます。 Wi-Fi に接続している場合は、2 時間ごとにバックグラウンド更新が行われます。 Wi-Fi ではなく 3G ネットワークに接続している場合は、Power BI はコンテンツを 24 時間ごとに更新します。
+バックグラウンド更新では、お気に入りのダッシュ ボードに加えて、過去 2 週間に見たダッシュボードとレポートおよび (データ ソースではなく) Power BI サービス上のデータが更新されます。 Wi-Fi に接続している場合は、2 時間ごとにバックグラウンド更新が行われます。 Wi-Fi ではなく 3G ネットワークに接続している場合、コンテンツは Power BI によって 24 時間ごとに更新されます。
 
 ネットワークの使用を回避するなどの場合には、バックグラウンド更新をオフにすることができます。 デバイスの設定を確認してください。
 

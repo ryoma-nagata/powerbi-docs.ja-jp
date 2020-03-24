@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260418"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133257"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>スター スキーマと Power BI での重要性を理解する
 
 この記事は、Power BI Desktop データ モデラーを対象としています。 スター スキーマの設計と、パフォーマンスおよび使いやすさのために最適化された Power BI データ モデルの開発とのその関連性について説明します。
 
-この記事は、スター スキーマの設計に関する完全な説明を提供するためのものではありません。 詳細については、次のような出版されているコンテンツを直接参照してください: **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling** (データ ウェアハウス ツールキット: ディメンション モデリングに関する詳細なガイド) (2002 年第 2 版) (著者: Ralph Kimball 他)。
+この記事は、スター スキーマの設計に関する完全な説明を提供するためのものではありません。 詳細については、次のような出版されているコンテンツを直接参照してください: **The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling** (データ ウェアハウス ツールキット: ディメンション モデリングに関する決定的なガイド) (2013 年第 3 版) (著者: Ralph Kimball 他)。
 
 ## <a name="star-schema-overview"></a>スター スキーマの概要
 

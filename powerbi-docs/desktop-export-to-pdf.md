@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867698"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378733"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Power BI Desktop からレポートを PDF にエクスポートする
 **Power BI Desktop** または Power BI サービスでは、レポートを PDF ファイルにエクスポートすることができます。これにより、ご利用のレポートをその PDF で容易に共有したり印刷したりできます。
@@ -34,7 +34,7 @@ ms.locfileid: "73867698"
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 **[PDF にエクスポート]** 機能にはいくつかの考慮事項があるので注意してください。
 
-* この機能では、カスタム ビジュアルはエクスポートされますが、レポートに壁紙が適用されている場合、それはエクスポートされ*ません*。
+* この機能では、Power BI ビジュアルはエクスポートされますが、レポートに適用されている壁紙はエクスポートされ*ません*。
 
 壁紙は PDF にエクスポートされないので、濃色の壁紙を使用しているレポートには特に注意してください。 濃色の壁紙を背景にしてテキストを目立たせるために、ご利用のレポート内のテキストが明るい色または白色になっている場合、壁紙はレポートの残りの部分と一緒にエクスポートされないので、PDF へのエクスポート処理によってテキストは読みづらくなるか、判読不可能になります。 
 

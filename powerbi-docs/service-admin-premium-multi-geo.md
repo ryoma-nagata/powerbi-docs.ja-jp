@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 27e4bbd1437f59b7cf213333d9df27019aaadcd4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698856"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488570"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium の Multi-Geo のサポートを構成する
 
@@ -33,7 +33,7 @@ Multi-Geo は、多国籍企業のお客様が、リージョン、業界固有�
 
 Multi-Geo は、Power BI Germany、21Vianet が運営する Power BI China、または米国政府向け Power BI では使用できません。
 
-Multi-Geo は、Power BI Embedded でも使用できるようになりました。 詳細については、「[Power BI Embedded の Multi-Geo のサポート](developer/embedded-multi-geo.md)」をご覧ください。
+Multi-Geo は、Power BI Embedded でも使用できるようになりました。 詳細については、「[Power BI Embedded の Multi-Geo のサポート](developer/embedded/embedded-multi-geo.md)」をご覧ください。
 
 ## <a name="enable-and-configure"></a>有効化と構成
 
@@ -99,6 +99,6 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 ## <a name="next-steps"></a>次の手順
 
 - [Power BI Premium とは何ですか?](service-premium-what-is.md)
-- [Power BI Embedded の容量に対する Multi-Geo](developer/embedded-multi-geo.md)
+- [Power BI Embedded の容量に対する Multi-Geo](developer/embedded/embedded-multi-geo.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

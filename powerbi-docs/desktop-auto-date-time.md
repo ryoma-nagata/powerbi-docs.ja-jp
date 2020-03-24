@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6ec4e5afe63fbdf754fcb20ec8cd12379740d33d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154214"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201541"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop で自動の日付/時刻を適用する
 
@@ -33,7 +33,7 @@ ms.locfileid: "77154214"
 各自動の日付/時刻テーブルは、実際には、DAX の [CALENDAR](/dax/calendar-function-dax) 関数を使用してデータ行が生成される[計算テーブル](desktop-calculated-tables.md)です。 各テーブルには、次の 6 つの計算列も含まれます: **Day**、**MonthNo**、**Month**、**QuarterNo**、**Quarter**、**Year**。
 
 > [!NOTE]
-> Power BI を使うと、[モデルの言語](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop)に従って、列の名前と値の変換と書式設定を行いことができます。
+> Power BI では、[モデルの言語](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop)に従って、列名と値が変換および書式設定されます。 たとえば、モデルが英語で作成された場合、韓国語のクライアントで表示される場合でも、月名などは英語で表示されます。
 
 また、Power BI Desktop を使うと、自動の日付/時刻テーブルの **[日付]** 列とモデルのデータ列の間にリレーションシップも作成されます。
 

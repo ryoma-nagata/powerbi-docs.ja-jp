@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 0f29b70a42375be945d206672116219b7d5a3b48
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609997"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378871"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI の最適化ガイド
 
@@ -69,7 +69,7 @@ Power BI レポートのデザインを最適化するには、いくつかの�
 
 #### <a name="evaluate-custom-visual-performance"></a>カスタム ビジュアルのパフォーマンスを評価する
 
-高パフォーマンスを得るため、必ず各カスタム ビジュアルの性能を試します。 適切に最適化されていないカスタム ビジュアルは、レポート全体のパフォーマンスに悪影響を及ぼす場合があります。
+高パフォーマンスを得るため、必ず各カスタム ビジュアルの性能を試します。 適切に最適化されていない Power BI ビジュアルは、レポート全体のパフォーマンスに悪影響を及ぼす場合があります。
 
 ### <a name="power-bi-paginated-reports"></a>Power BI のページ分割されたレポート
 

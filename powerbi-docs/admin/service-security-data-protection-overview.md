@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/12/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537211"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205276"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI におけるデータ保護 (プレビュー)
 
@@ -35,7 +35,7 @@ Power BI のデータ保護を使用すると、次のことが可能です。
 
 秘密度ラベルは、[Microsoft 365 セキュリティ センター](https://security.microsoft.com/)または [Microsoft 365 コンプライアンス センター](https://compliance.microsoft.com/)内で作成および管理します。
 
-これらのセンターのどちらかで秘密度ラベルにアクセスするには、**[分類] > [秘密度ラベル]** に移動します。 これらの秘密度ラベルは、Azure Information Protection、Office アプリ、Office 365 サービスなど、複数の Microsoft サービスで使用できます。
+これらのセンターのどちらかで秘密度ラベルにアクセスするには、 **[分類] > [秘密度ラベル]** に移動します。 これらの秘密度ラベルは、Azure Information Protection、Office アプリ、Office 365 サービスなど、複数の Microsoft サービスで使用できます。
 
 > [!IMPORTANT]
 > Azure Information Protection のユーザーが Power BI 内で秘密度ラベルを使用するには、ラベルを前述のサービスのいずれかに移行する必要があります。 また、秘密度ラベルはパブリック クラウド内でのみサポートされており、ソブリン クラウドなどのクラウド内のテナントではサポートされていません。
@@ -105,9 +105,6 @@ Microsoft Cloud App Security を使用して、Power BI のコンテンツを意
 * Power BI 内で適用されているラベルでは、[HYOK 保護](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)はサポートされていません。
 * Office アプリ内でラベルを表示および適用するには、[ライセンス要件](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)があります。
 * 秘密度ラベルは、グローバル (パブリック) クラウド内のテナントに対してのみサポートされています。 秘密度ラベルは、他のクラウド内のテナントではサポートされません。
-* [外部ユーザー (Azure Active Directory B2B ゲスト ユーザー)](../service-admin-azure-ad-b2b.md) については、秘密度ラベルはサポートされていません。 これは、外部ユーザーはラベルを表示できず、Excel、PDF、および PPTX ファイルへのデータのエクスポートがブロックされることを意味します。 外部ユーザーがこれらのファイルの種類にデータをエクスポートできるようにするには、[ラベルを削除](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels)します。
-
-
 
 ## <a name="next-steps"></a>次の手順
 

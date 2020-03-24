@@ -2,19 +2,19 @@
 title: Power BI Desktop で図形マップを使用する (プレビュー)
 description: Power BI Desktop で図形マップを使用して領域間の相対比較を作成する
 author: mihart
-ms.reviewer: amanda, justyna, sujata
+ms.reviewer: justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/14/2019
+ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762326"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525662"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Power BI Desktop で図形マップのビジュアルを作成する (プレビュー)
 
@@ -22,7 +22,7 @@ ms.locfileid: "75762326"
 
 色を使用して、マップで領域を比較するために **[図形マップ]** ビジュアルを作成します。 **[マップ]** ビジュアルとは異なり、 **[図形マップ]** ではマップ上の地理的な場所を正確には表示できません。 代わりに、これの主な用途は、違う色を適用することにより、マップ上の領域を相対的に比較できます。
 
-**[図形マップ]** のビジュアルは ESRI/TopoJSON マップをベースにしています。このマップの強みは、ユーザー作成のカスタム マップを使用できることです。 地理、座席配置、フロア プランなどがカスタム マップの例です。 カスタム マップを利用する機能は、このプレビュー リリースの**マップのシェイプ**では使用できません。
+**[図形マップ]** のビジュアルは TopoJSON マップをベースにしています。このマップの強みは、ユーザー作成のカスタム マップを使用できることです。 地理、座席配置、フロア プランなどがカスタム マップの例です。 カスタム マップを利用する機能は、このプレビュー リリースの**マップのシェイプ**では使用できません。
 
 ## <a name="creating-shape-maps"></a>図形マップを作成する
 このプレビュー リリースに付属するマップで**マップのシェイプ** コントロールをテストできます。あるいは、次のセクション (**カスタム マップの使用**) にある要件を満たす限り、独自のカスタム マップを使用できます。
@@ -204,11 +204,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Centre-Val de Loire (サントル=ヴァル ド ロワール) |Centre-Val de Loire |Centre-Val de Loire (サントル=ヴァル ド ロワール) |
 | Corse |Corse |Corse (コルシカ島) |
 | Grand Est |  |  |
-| Guadeloupe | |   |
+| グアドループ | |   |
 | Hauts-de-France |  |  |
 | Ile-de-France (イル ド フランス) |Île-de-France |Ile-de-France (イル ド フランス) |
 | La Reunion |  |  |
-| Mayotte  |  |  |
+| マヨット  |  |  |
 | Normandie (ノルマンディー) |Normandie (ノルマンディー) |  |
 | Nouvelle-Aquitaine |  |  |
 | Occitanie  |  |  |
@@ -400,7 +400,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |または |
+| us-or |Oregon |OR |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |

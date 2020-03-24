@@ -1,134 +1,130 @@
 ---
-title: 組織でテンプレート アプリを配布する - Power BI
+title: 組織でテンプレート アプリをインストールし、配布する - Power BI
 description: Power BI を利用し、組織内でテンプレート アプリをインストールし、カスタマイズし、配布する方法について説明します。
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 09/14/2019
-ms.author: tebercov
-ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.topic: how-to
+ms.date: 03/15/2020
+ms.author: painbar
+ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73871416"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436113"
 ---
-# <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>組織でテンプレート アプリをインストールし、配布する - Power BI
+# <a name="install-and-distribute-template-apps-in-your-organization"></a>組織でテンプレート アプリをインストールして配布する
 
-あなたは Power BI のアナリストですか? そうであれば、この記事では*テンプレート アプリ*をインストールし、Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用するさまざまなサービスに接続する方法について説明します。 組織のニーズに合わせてダッシュボードとレポートを変更し、その後*アプリ*として同僚に配布できます。 
+あなたは Power BI のアナリストですか? そうであれば、この記事では[テンプレート アプリ](service-template-apps-overview.md)をインストールし、Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用するさまざまなサービスに接続する方法について説明します。 その後、テンプレート アプリの既に作成されているダッシュボードやレポートを組織のニーズに合わせて変更したり、それらを[アプリ](consumer/end-user-apps.md)として同僚に配布したりできます。 
 
 ![インストールされた Power BI アプリ](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-自分で配布するテンプレート アプリを作成する場合、「[Create a template app in Power BI](service-template-apps-create.md)」 (Power BI でテンプレート アプリを作成する) を参照してください。 Power BI パートナーは、ほとんどまたはまったくコーディングせずに Power BI アプリを作成し、Power BI ユーザーに展開することができます。 
+組織外に配布するテンプレート アプリを自分で作成する場合は、「[Power BI でテンプレート アプリを作成する](service-template-apps-create.md)」を参照してください。 Power BI パートナーは、ほとんどまたはまったくコーディングせずに Power BI アプリを作成し、Power BI ユーザーがそれを利用できるようにすることができます。 
 
 ## <a name="prerequisites"></a>前提条件  
 
-テンプレート アプリをインストールし、カスタマイズし、配布するための要件: 
+テンプレート アプリをインストール、カスタマイズ、配布するには、次のものが必要です。 
 
-- [Power BI Pro ライセンス](service-self-service-signup-for-power-bi.md)
-- [Power BI の基本的概念](service-basic-concepts.md)に関する知識
-- テンプレート アプリの作成者または AppSource から受け取った有効なインストールのリンク 
-- テンプレート アプリをインストールする許可 
+* [Power BI Pro ライセンス](service-self-service-signup-for-power-bi.md)。
+* テナントにテンプレート アプリをインストールするためのアクセス許可。
+* アプリの有効なインストール リンク。AppSource またはアプリの作成者から取得します。
+* [Power BI の基本的概念](service-basic-concepts.md)に関する深い知識。
 
 ## <a name="install-a-template-app"></a>テンプレート アプリをインストールする
-
-テンプレート アプリのリンクは送られてくることがあります。 そうでない場合、興味のあるテンプレート アプリを AppSource で探すことができます。 いずれの方法でも、インストール後、変更し、自分の組織に配布できます。
-
-### <a name="search-appsource-from-a-browser"></a>ブラウザーから AppSource を検索する
-
-ブラウザーで下のリンクを選択し、AppSource を開きます。Power BI アプリに絞り込まれています。
-
-- https://appsource.microsoft.com/marketplace/apps?product=power-bi
-
-### <a name="search-appsource-from-the-power-bi-service"></a>Power BI サービスから AppSource を検索する
 
 1. Power BI サービスのナビ ペインで、 **[アプリ]**  >  **[アプリの取得]** の順に選択します。
 
     ![アプリの取得](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-2. AppSource で **[アプリ]** を選択します。
+1. 表示される AppSource ウィンドウで、 **[アプリ]** を選択します。 必要なアプリを参照するか、検索し、 **[今すぐ入手する]** を選択します。
 
     ![AppSource で検索する](media/service-template-apps-install-distribute/power-bi-appsource.png)
 
-3. アプリを参照するか、検索し、 **[今すぐ入手する]** を選択します。
+1. 表示されるダイアログ ボックスで、 **[インストール]** を選択します。
 
-4. ダイアログ ボックスで **[インストール]** を選択します。
+    ![アプリをインストールする](media/service-template-apps-install-distribute/power-install-dialog.png)
+    
+    アプリが、関連付けられたワークスペースと共にインストールされます。 **アプリをカスタマイズする場合は、この関連付けられているワークスペースで行います**。
 
-    ![アプリをインストールする](media/service-template-apps-install-distribute/power-install-dialog.png) Power BI Pro ライセンスを持っている場合、アプリとそれに関連するワークスペースがインストールされます。 関連ワークスペースでアプリをカスタマイズします。
+    > [!NOTE]
+    > AppSource の一覧に表示されていないアプリのインストール リンクを使用する場合は、選択の確認を求める検証ダイアログ ボックスが表示されます。
+    >
+    >AppSource の一覧にないテンプレート アプリをインストールできるようにするには、関連するアクセス許可を管理者に要求する必要があります。詳細については、Power BI 管理ポータルの「[テンプレート アプリの設定](service-admin-portal.md#template-apps-settings)」を参照してください。
 
-    インストールが正常に完了すると、新しいアプリの準備ができたことが通知されます。
-4. **[アプリに移動]** を選択します。
-5. **[新しいアプリを開始する]** で 3 つの選択肢のいずれかを選択します。
+    インストールが正常に完了すると、新しいアプリの準備ができたことを示す通知が表示されます。
 
-    ![アプリを開始する](media/service-template-apps-create/power-bi-template-app-get-started.png)
+    ![アプリへ移動](media/service-template-apps-install-distribute/power-bi-go-to-app.png)
 
-    - **アプリを探索**:基本的なサンプル データの探索。 アプリのルックアンドフィールはここから取得します。 
-    - **データに接続**:データ ソースをサンプル データから独自のデータ ソースに変更します。 データセット パラメーターとデータ ソースの資格情報を再定義できます。 テンプレート アプリのヒント記事で「[既知の制限事項](service-template-apps-tips.md#known-limitations)」をご覧ください。 
-    - **ワークスペースに移動** (最も細かく設定する場合): アプリ ビルダーが許可しているあらゆる変更を実行できます。
+## <a name="connect-to-data"></a>データに接続する
 
-    あるいは、このダイアログ ボックスをスキップし、ナビ ペインにある **[ワークスペース]** から直接、関連ワークスペースにアクセスします。
-    >[!NOTE]
-    >テンプレート アプリをインストールすると、"*組織アプリ*" と "*ワークスペース*" の両方がインストールされました。 詳細については、[Power BI でのアプリの配布](service-create-distribute-apps.md)に関するページをご覧ください。
- 
-6. 同僚と共有する前に、独自のデータに接続することをお勧めします。 また、組織に合わせてレポートやダッシュボードを修正することもお勧めします。 この段階で他のレポートやダッシュボードも追加できます。
+1. **[アプリに移動]** を選択します。 **[新しいアプリを開始する]** ウィンドウが表示されます。
 
-   AppSource にリストされていないアプリのインストール リンクを選択した場合は、ご自分の選択内容を確認するように求める検証ダイアログボックスが表示されます。
+   ![アプリを開始する](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
-   ![アプリをインストールする](media/service-template-apps-install-distribute/power-install-unvalidated-dialog.png)
+1. **[接続]** をクリックします。
+    
+    これにより表示される 1 つまたは複数のダイアログで、データ ソースをサンプル データから独自のデータ ソースに変更します。 これは一般に、データセット パラメーターとデータ ソースの資格情報の再定義を意味します。 「[既知の制限事項](service-template-apps-tips.md#known-limitations)」を参照してください。
+    
+    次の例では、2 のダイアログを使用してデータに接続します。
 
-   >[!NOTE]
-   >AppSource にリストされていないテンプレート アプリをインストールするには、ご自分の管理者アクセス許可から要求する必要があります。 詳細については、Power BI [管理ポータルのテンプレート アプリの設定](service-admin-portal.md#template-apps-settings)に関するセクションを参照してください。
+   ![データへの接続ダイアログ](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-## <a name="customize-and-publish-the-app"></a>アプリをカスタマイズして公開する
+    接続ダイアログの入力が済むと、接続プロセスが開始されます。 サンプル データが表示されていることがバナーで示されます。
 
-組織に合わせてアプリを調整したら、それを公開できます。 手順は、他のアプリを公開する場合と同じです。
+    ![サンプル データの表示](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-1. カスタマイズが終わったら、ワークスペース リスト ビューの右上隅にある **[アプリを更新]** を選択します。  
+    データの接続と更新が終了するまで待ちます。 このプロセスが完了したことを知るには、データセット行 (新しい表示) またはタブ (古い表示) の進行状況インジケーターを確認します。
 
-    ![アプリのインストールを開始する](media/service-template-apps-install-distribute/power-bi-start-install-app.png)
+   接続とデータ更新が完了したら、ブラウザーを最新の情報に更新します。アプリに対する変更を適用してそれを共有するには、アプリを更新する必要があることが、バナーで示されるようになります。
 
-2. **[詳細]** では、説明や背景色を変更できます。
+    ![アプリをカスタマイズして共有する](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
 
-   ![アプリの説明と色を設定する](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
+## <a name="customize-and-share-the-app"></a>アプリをカスタマイズして共有する
 
-3. **[ナビゲーション]** で、アプリ用の新しいナビゲーション ビルダーを使用するか、ランディング ページ用のダッシュボードまたはレポートを選択できます。 「[ナビゲーション エクスペリエンスを設計する](service-create-distribute-apps.md#design-the-navigation-experience)」を参照してください。
+データへの接続とデータの更新の後でブラウザーを最新の情報に更新すると、アプリに関連付けられているワークスペースが表示されるようになります。 この時点で、他のワークスペースと同様に、そこにある任意の成果物を編集できます。 ただし、変更した項目を別の名前で保存しない限り、アプリを新しいバージョンに更新すると、変更は上書きされることに注意してください。 [上書きに関する詳細を参照してください](#overwrite-behavior)。
 
-   ![アプリのランディング ページを設定する](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+ワークスペースでの成果物の編集については、以下を参照してください。
+* [Power BI でのレポート エディターのツアー](service-the-report-editor-take-a-tour.md)
+* [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 
-4. **[アクセス]** では、選んだユーザーか組織全体にアクセスを与えます。  
-
-   ![アプリ アクセスを設定する](media/service-template-apps-install-distribute/power-bi-install-access.png)
-
-5. **[アプリを更新]** を選択します。 
-
-6. 正常に公開されたら、リンクをコピーし、アクセスを与えている人と共有できます。 共有すると、共有相手にも、AppSource の **[組織]** タブでそのアプリが表示されます。
+ワークスペースで成果物に必要な変更を行った後は、アプリを発行して共有することができます。 これを行う方法については、「[アプリを発行する](service-create-distribute-apps.md#publish-your-app)」を参照してください。
 
 ## <a name="update-a-template-app"></a>テンプレート アプリを更新する
 
-テンプレート アプリの作成者が、AppSource または直接リンクを使用して、テンプレート アプリの新しいバージョンをリリースする場合があります。 その場合、同じバージョンまたはそれ以降のバージョンでアプリを再インストールして、そのテンプレート アプリを更新できます。
+テンプレート アプリの作成者が、AppSource か直接リンクまたはその両方を使用して、テンプレート アプリの新しい改良バージョンをリリースすることがあります。
 
-  >[!NOTE]
-  >新しいバージョンをインストールすると、レポートとダッシュボードに加えたすべての変更が上書きされます。 更新したレポートとダッシュボードを維持するには、インストールする前に、それらを別の名前または場所に保存する必要があります。
+最初に AppSource からアプリをダウンロードした場合、新しいバージョンのテンプレート アプリが利用可能になると、新しいバージョンのアプリが使用可能であることを知らせる更新バナーが Power BI サービスに表示されます。
 
-- **既存のバージョンを上書きする:** テンプレート アプリの更新されたバージョンを使用して、既存のワークスペースを上書きします。
+  ![テンプレート アプリの更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
 
-   ![テンプレート アプリを更新する](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+>[!NOTE]
+>最初に AppSource ではなく直接リンクを使用してアプリを入手した場合、新しいバージョンが利用可能になったことを知る唯一の方法は、テンプレート アプリの作成者に問い合わせることです。
 
-- **新しいワークスペースにインストールする:** 再構成する必要があるワークスペースとアプリの新しいバージョンをインストールします。
+  更新をインストールするには、通知バナーの **[今すぐ入手]** をクリックするか、AppSource でもう一度アプリを探して **[今すぐ入手する]** を選択します。 テンプレート アプリの作成者から更新への直接リンクを受け取った場合は、単にリンクをクリックします。
+  
+  現在のバージョンを上書きするか、新しいワークスペースに新しいバージョンをインストールするかを確認するメッセージが表示されます。 既定では、"上書き" が選択されています。
+
+  ![テンプレート アプリを更新する](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **既存のバージョンを上書きする:** テンプレート アプリの更新されたバージョンを使用して、既存のワークスペースを上書きします。 [上書きに関する詳細を参照してください](#overwrite-behavior)。
+
+- **新しいワークスペースにインストールする:** 再構成する必要があるワークスペースとアプリの新しいバージョンをインストールします (つまり、データに接続し、ナビゲーションとアクセス許可を定義します)。
 
 ### <a name="overwrite-behavior"></a>上書きの動作
 
-* 更新を上書きすると、アプリではなく、*ワークスペース*内のレポート、ダッシュボード、およびデータセットが更新されます。 アプリのナビゲーション、設定、アクセス許可は上書きしても変更されません。
-* ワークスペースを更新したら、*アプリを更新して*、ワークスペースに対する変更を組織のアプリに適用する必要があります。
-* 上書きでは、構成済みのパラメーターと認証は保持されます。 更新後、データセットの自動更新が開始されます。 その間、組織のアプリ、レポート、およびダッシュボードには、*サンプル データ*のエクスペリエンスが表示されます。
+* 更新を上書きすると、アプリではなく、ワークスペース内のレポート、ダッシュボード、データセットが更新されます。 アプリのナビゲーション、設定、アクセス許可は上書きしても変更されません。
+* ワークスペースを更新したら、**アプリを更新して、ワークスペースからアプリに変更を適用する必要があります**。
+* 上書きでは、構成済みのパラメーターと認証は保持されます。 更新後、データセットの自動更新が開始されます。 **この更新の間、アプリ、レポート、ダッシュボードにはサンプル データが表示されます**。
+
   ![サンプル データ](media/service-template-apps-install-distribute/power-bi-sample-data.png)
-* 上書き中は、更新が完了するまで常にサンプル データが表示されます。 テンプレート アプリの作成者がデータセットまたはパラメーターに変更を加えた場合、ワークスペースとアプリのユーザーには、引き続き*サンプル データ*のエクスペリエンスが表示されます。
-* 上書きでは、ワークスペースに追加した*新しい*レポートやダッシュボードが削除されることはありません。 これでは、元の作成者が行った変更で、元のレポートとダッシュボードが上書きされます。
+
+* 上書き中は、更新が完了するまで常にサンプル データが表示されます。 テンプレート アプリの作成者がデータセットまたはパラメーターを変更した場合、ワークスペースとアプリのユーザーには、更新が完了するまで新しいデータは表示されません。 代わりに、この期間中は引き続きサンプル データが表示されます。
+* 上書きしても、ワークスペースに追加した新しいレポートやダッシュボードが削除されることはありません。 元のレポートとダッシュボードが、元の作成者による変更で上書きされるだけです。
 
 >[!IMPORTANT]
->上書き後は、組織のアプリ ユーザーのために、レポートとダッシュボードに変更を適用するために[アプリを更新](#customize-and-publish-the-app)するようにしてください。
+>上書き後は、組織のアプリ ユーザーのために、レポートとダッシュボードに変更を適用するために[アプリを更新](#customize-and-share-the-app)するようにしてください。
 
 ## <a name="next-steps"></a>次の手順
 

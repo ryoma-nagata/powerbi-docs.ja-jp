@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426658"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381125"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール
 
@@ -70,7 +70,7 @@ Power BI Report Server 用に最適化された Power BI Desktop について、
 
 ### <a name="report-visuals-in-a-browser"></a>ブラウザーのレポートのビジュアル
 
-Power BI Report Server のレポートでは、カスタムのビジュアルなど、ほぼすべての視覚化がサポートされます。 Power BI レポート サーバーのレポートは、次をサポートしません。
+Power BI Report Server のレポートでは、Power BI ビジュアルなど、ほぼすべての視覚化がサポートされます。 Power BI レポート サーバーのレポートは、次をサポートしません。
 
 * R ビジュアル
 * ArcGIS マップ
@@ -89,7 +89,7 @@ Power BI レポート サーバーのレポートは、Power BI モバイル ア
 
 * R ビジュアル
 * ArcGIS マップ
-* カスタム ビジュアル
+* Power BI ビジュアル
 * 階層リンク
 * geo フィルタリングまたはバー コード
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040090"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377238"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -188,7 +188,7 @@ Power BI サービスの左端に沿って示されるコントロール。
 
 ## <a name="n"></a>N
 
-**native (ネイティブ)** 製品に付属しているもの。 たとえば、Power BI には、一連の*ネイティブ*の視覚エフェクトの種類が付属しています。 しかし、カスタム ビジュアルなどの他の種類をインポートすることもできます。
+**native (ネイティブ)** 製品に付属しているもの。 たとえば、Power BI には、一連の*ネイティブ*の視覚エフェクトの種類が付属しています。 しかし、Power BI ビジュアルなどの他の種類をインポートすることもできます。
 
 **navigation pane (ナビゲーション ペイン)** または **nav pane (ナビ ペイン)** Power BI サービスの左端に沿って示されるコントロール。
 

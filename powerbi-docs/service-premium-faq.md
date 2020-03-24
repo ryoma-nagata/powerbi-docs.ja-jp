@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ff2f22620cf062dcc342323e71dc7401b5991cd7
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6b2876ca78e07cf7c3c2b778ef9c571745baa1e5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697039"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488662"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium のよく寄せられる質問
 
@@ -75,7 +75,7 @@ Power BI Premium は、Power BI Pro のアドオンとして使用できます�
 
 **Power BI レポート サーバーとは何ですか?オンプレミスで Power BI を使用できるということですか?**
 
-Power BI レポート サーバーはオンプレミス サーバーです。完全に組織のファイアウォールの境界内で、対話型の Power BI レポートとページ分割されたレポートを展開し、配布することができます。 Power BI Report Server は Power BI Premium で使用できます。または、SQL Server Enterprise Edition とソフトウェア アシュアランスを持つお客様の特典として利用できます。 ライセンスの詳細については、「[Power BI Report Server のライセンス](report-server/get-started.md#licensing-power-bi-report-server)」を参照してください。 詳細については、Microsoft の担当者にお問い合わせください。
+Power BI Report Server はオンプレミス サーバーです。完全に組織のファイアウォールの境界内で、対話型の Power BI レポートとページ分割されたレポートを展開し、配布することができます。 Power BI Report Server は Power BI Premium で使用できます。または、SQL Server Enterprise Edition とソフトウェア アシュアランスを持つお客様の特典として利用できます。 ライセンスの詳細については、「[Power BI Report Server のライセンス](report-server/get-started.md#licensing-power-bi-report-server)」を参照してください。 詳細については、Microsoft の担当者にお問い合わせください。
 
 Power BI Premium では、組織がクラウド内にプロビジョニングした同数の仮想コアを Power BI Report Server 経由でオンプレミスに展開することもできます。 容量を分割する必要はありません。 組織は、クラウド内の Power BI または Power BI レポート サーバーを選択して、Power BI レポート サーバーと共にオンプレミスにレポートを保存し、自分のペースでクラウドに移行することができます。
 
@@ -88,6 +88,6 @@ Power BI Premium では、組織がクラウド内にプロビジョニングし
 [Microsoft Power BI Premium のホワイトペーパー](https://aka.ms/pbipremiumwhitepaper)
 [Power BI のエンタープライズ展開の計画に関するホワイト ペーパー](https://aka.ms/pbienterprisedeploy)
 [Extended Pro Trial のアクティブ化](service-extended-pro-trial.md)
-[Power BI Embedded のよく寄せられる質問](developer/embedded-faq.md)
+[Power BI Embedded のよく寄せられる質問](developer/embedded/embedded-faq.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

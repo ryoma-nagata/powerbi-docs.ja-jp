@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919791"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488823"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -133,9 +133,9 @@ report.src = newUrl;
 
 * クラシック SharePoint Server はサポートされていません。11 より前の Internet Explorer バージョンが必要か、互換表示モードを有効にする必要があるためです。
 
-* シングル サインオンを実現するために、[[SharePoint Online に埋め込む]](service-embed-report-spo.md) オプションを使用するか、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)という埋め込み方法でカスタムの統合を構築します。 
+* シングル サインオンを実現するために、[[SharePoint Online に埋め込む]](service-embed-report-spo.md) オプションを使用するか、[ユーザー所有データ](developer/embedded/embed-sample-for-your-organization.md)という埋め込み方法でカスタムの統合を構築します。 
 
-* **[埋め込む]** オプションを使って提供される自動認証機能は、Power BI JavaScript API では動作しません。 Power BI JavaScript API の場合、[ユーザー所有データ](developer/embed-sample-for-your-organization.md)という埋め込み方法を使用します。 
+* **[埋め込む]** オプションを使って提供される自動認証機能は、Power BI JavaScript API では動作しません。 Power BI JavaScript API の場合、[ユーザー所有データ](developer/embedded/embed-sample-for-your-organization.md)という埋め込み方法を使用します。 
 
 * 認証トークンの有効期間は AAD 設定に基づいて制御されます。 認証トークンの有効期限が切れると、ユーザーはブラウザーを更新し、更新された認証トークンを取得する必要があります。 既定の有効期間は 1 時間ですが、組織によってはこれより短くなることも、長くなることもあります。
 

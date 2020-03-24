@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3063d75123069e93baa8159cddf7c551922aa2b2
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 83c0020549fd2bad939aa0876b82e58abcc88295
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076688"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381332"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 
@@ -99,7 +99,7 @@ ms.locfileid: "77076688"
 
 録画されたセッションをいつでもご覧ください
 
-### <a name="getting-started"></a>作業の開始
+### <a name="getting-started"></a>はじめに
 
 **Power BI、PowerApps、および Power Automate を使用して、日常のビジネス プロセスを自動化する**
 <br>作成者: Wim Coorevits および Enrique Plaza Garcia
@@ -206,7 +206,7 @@ ms.locfileid: "77076688"
 <br>作成者: Kasper de Jonge
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**パートナーに聞く:Power BI 用カスタム ビジュアルの開発**
+**パートナーに聞く:Power BI 用 Power BI ビジュアルの開発**
 <br>作成者: Ted Pattison
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
@@ -250,7 +250,7 @@ ms.locfileid: "77076688"
 <br>作成者: Kirkland Barrett
 <br>[登録して今すぐ見る](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
 
-## <a name="see-also"></a>参照
+## <a name="see-also"></a>関連項目
 
 - [Power BI のホワイト ペーパー](whitepapers.md)
 
@@ -262,4 +262,4 @@ ms.locfileid: "77076688"
 
 - [YouTube ビデオ チャネル](https://www.youtube.com/mspowerbi)を登録する
 
-その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

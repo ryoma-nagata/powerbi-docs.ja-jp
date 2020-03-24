@@ -7,16 +7,16 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819125"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379879"
 ---
-# <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>Power BI でカスタム ビジュアルにロケールを追加する
+# <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Power BI で Power BI ビジュアルにロケールを追加する
 
 ビジュアルでは、Power BI ロケールを取得して、関連する言語にコンテンツをローカライズできます。
 
@@ -24,7 +24,7 @@ ms.locfileid: "76819125"
 
 たとえば、サンプルの横棒グラフ ビジュアルでロケールを取得するとします。
 
-![サンプルの横棒グラフ ビジュアルのローカライズ](media/locale-in-samplebarchart.png)
+![サンプルの横棒グラフ ビジュアルのローカライズ](media/localization/locale-in-samplebarchart.png)
 
 これらの横棒グラフはそれぞれ異なるロケール (英語、バスク語、ヒンディー語) で作成されており、ツールヒントに表示されます。
 
@@ -95,13 +95,13 @@ zh-TW | 中國 (繁体中国語)
 > [!NOTE]
 > PowerBI Desktop のロケール プロパティには、インストールされている PowerBI Desktop の言語が含まれます。
 
-## <a name="localizing-the-property-pane-for-custom-visuals"></a>カスタム ビジュアルのプロパティ ペインのローカライズ
+## <a name="localizing-the-property-pane-for-power-bi-visuals"></a>Power BI ビジュアルのプロパティ ペインのローカライズ
 
 プロパティ ペインのフィールドは、より統合され、一貫したエクスペリエンスを提供するようにローカライズできます。 これにより、カスタム ビジュアルは他の Power BI コア ビジュアルと同様に動作します。
 
 たとえば、`pbiviz new` コマンドを使用して作成したローカライズされていないカスタム ビジュアルでは、プロパティ ペインに次のフィールドが表示されます。
 
-![プロパティ ペイン内のローカライズ](media/property-pane.png)
+![プロパティ ペイン内のローカライズ](media/localization/property-pane.png)
 
 カテゴリ データとメジャー データは両方とも、capabilities.json ファイル内に `displayName` として定義します。
 
@@ -132,7 +132,7 @@ zh-TW | 中國 (繁体中国語)
 
 この例では、アラビア語とヘブライ語をサポートするとします。 次の方法で 2 つの JSON ファイルを追加する必要があります。
 
-![文字列リソース フォルダー内のローカライズ文字列](media/stringresources-files.png)
+![文字列リソース フォルダー内のローカライズ文字列](media/localization/stringresources-files.png)
 
 JSON ファイルごとに、1 つのロケールを定義し (このファイルは上記のサポートされているリストのロケールの 1 つである必要があります)、対象の表示名キーの文字列値を含めます。 この例では、ヘブライ語の文字列リソース ファイルは次のようになります。
 
@@ -161,13 +161,13 @@ JSON ファイルごとに、1 つのロケールを定義し (このファイ�
 
 サービスで Web クライアント (ブラウザー) を使用する場合は、[設定] で言語を変更します。
 
-![Web サービスでのローカライズ](media/webservice-settings.png)
+![Web サービスでのローカライズ](media/localization/webservice-settings.png)
 
 ## <a name="resource-file"></a>リソース ファイル
 
-stringResources フォルダー内で、使用するロケールとして指定したフォルダーに resources.resjson ファイルを追加します。 この例では、en-US と ru-RU です。
+stringResources フォルダー内の使用するロケールの名前を付けたフォルダーに、resources.resjson ファイルを追加します。 この例では、en-US と ru-RU です。
 
-![新しい resjson ファイル](media/new-resjson.png)
+![新しい resjson ファイル](media/localization/new-resjson.png)
 
 その後、使用するすべてのローカライズ文字列を、前の手順で追加した resources.resjson ファイルに追加します。
 
@@ -195,7 +195,7 @@ stringResources フォルダー内で、使用するロケールとして指定�
 }
 ```
 
-新しい localizationManager インスタンスでは、次のようにビジュアルのコードに localizationManager のインスタンスを作成します
+新しい localizationManager インスタンスでは、次のようにビジュアルのコードで localizationManager のインスタンスを作成します
 
 ```typescript
 private localizationManager: ILocalizationManager;

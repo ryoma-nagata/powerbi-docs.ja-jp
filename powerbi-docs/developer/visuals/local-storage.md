@@ -6,18 +6,18 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 01/21/2019
-ms.openlocfilehash: 7665f0c8e3c909263f194a0fd54a54ed2a752c8c
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: e2cb11ea9be85916e6b5557e7933f6a6b5a7159a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819102"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380596"
 ---
 # <a name="local-storage-api"></a>ローカル ストレージ API
 
-ローカル ストレージ API は、デバイス ストレージのデータの保存または読み込みをホストに要求するために、カスタム ビジュアルが使用できる API です。 ビジュアルの種類ごとにストレージ アクセスが分けられているという意味で、分離されています。
+ローカル ストレージ API は、デバイスのストレージにおけるデータの保存または読み込みをホストに要求するために、カスタム ビジュアルで使用できる API です。 ビジュアルの種類ごとにストレージ アクセスが分けられているという意味で、分離されています。
 
 ## <a name="sample"></a>サンプル
 
@@ -59,5 +59,5 @@ export class Visual implements IVisual {
 
 ## <a name="known-limitations-and-issues"></a>既知の制限事項と問題
 
-既定では、ローカル ストレージ API はカスタム ビジュアルに対してアクティブにされません。 カスタム ビジュアルに対してアクティブにする場合は、要求を Power BI カスタム ビジュアル サポート (`pbicvsupport@microsoft.com`) に送信してください。  
+既定では、ローカル ストレージ API は Power BI ビジュアルに対してアクティブにされません。 Power BI ビジュアルに対してアクティブにする場合は、要求を Power BI ビジュアル サポート (`pbicvsupport@microsoft.com`) に送信します。  
 **ビジュアルが [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) で利用可能であり、[認定されている](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/)必要があることに注意してください。**
