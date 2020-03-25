@@ -4,16 +4,16 @@ description: 組織向けの埋め込みのときに Power BI アプリを自動
 ms.subservice: powerbi-developer
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: how-to
+ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 2c77e9dd79abb2d6070b9ba6a2467500ac8b17f7
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0adfb72c408f96749afc8a3d7a6884e10e52fadb
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79494724"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114683"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>組織向けの埋め込みのときに Power BI アプリを自動インストールする
 

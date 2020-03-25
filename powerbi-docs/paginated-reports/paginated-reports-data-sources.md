@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: 1f27d05f2de5cdc8e04b6fabb48b7625fc45ce2a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921909"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113740"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI のページ分割されたレポートでサポートされるデータ ソース
 
@@ -27,7 +27,7 @@ ms.locfileid: "78921909"
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL Data Warehouse | 基本、シングル サインオン (SSO)、OAuth2 |   |
 | Azure SQL Managed Instance | 基本 | Azure SQL Database 拡張機能を使用したパブリック エンドポイント経由  |
-| Azure Analysis Services | SSO、OAuth2 | AAS ファイアウォールを無効にするか、すべての IP 範囲を許可するように構成する必要があります。  エイリアスの使用はサポートされていません  |
+| Azure Analysis Services | SSO、OAuth2 | AAS ファイアウォールを無効にするか、すべての IP 範囲を許可するように構成する必要があります。|
 | Power BI データセット | SSO | Premium と Premium 以外の Power BI データセット。 読み取りのアクセス許可が必要 |
 | Premium Power BI データセット (XMLA) | SSO |   |
 | データの入力 | 該当なし | データはレポートに埋め込まれます。 |

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376726"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114890"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 この記事は、Office 365 Government プランの一部として Power BI をデプロイする米国政府機関のお客様を対象としています。 Government プランは、米国のコンプライアンスとセキュリティ標準を満たする必要がある組織の固有のニーズに合うように設計されています。 米国政府機関のお客様向けに設計された Power BI サービスは、Power BI サービスの商用バージョンとは異なります。 これらの機能の相違点と能力について、以下のセクションで説明します。
@@ -95,7 +95,7 @@ Government クラウドのお客様の要件に対応するため、Government �
 |  |CSV ファイルからのデータのインポート|利用可能|利用可能|利用可能|
 |  |Power BI Desktop ファイルからのデータのインポート|利用可能|利用可能|利用可能|
 |  |CDS への接続|利用可能|利用不可|利用不可|
-|  |Azure Data Lake Storage Gen2 コネクタ|利用不可|利用不可|利用不可|
+|  |Azure Data Lake Storage Gen2 コネクタ|利用可能|利用不可|利用不可|
 |データ管理|データ管理ゲートウェイ|利用可能|利用可能|利用可能|
 |  |Azure SQL でのデータの暗号化|利用可能|利用可能|利用可能|
 |  |Power BI 用 Blob Storage でのデータの暗号化|利用可能|利用可能|利用可能|

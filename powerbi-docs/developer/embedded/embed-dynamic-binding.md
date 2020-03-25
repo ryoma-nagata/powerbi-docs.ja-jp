@@ -3,16 +3,16 @@ title: 動的バインドを使用してレポートをデータセットに接�
 description: 動的バインドを使用して、レポートを埋め込む方法について学習します。
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: how-to
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: f8adb739e2744039f6633910df921622a0706d5d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: e2c59ba84700aaf83c4cc9d16d009696c42dfc54
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79494609"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114591"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>動的バインドを使用してレポートをデータセットに接続する 
 
