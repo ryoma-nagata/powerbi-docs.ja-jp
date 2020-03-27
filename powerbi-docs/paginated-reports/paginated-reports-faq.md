@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205253"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113614"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI のページ分割されたレポート:FAQ 
 
@@ -68,13 +68,17 @@ Pro ライセンスがなくても、お使いのマイ ワークスペースが
 
 エラー メッセージが表示され、ワークロードをオンに戻すまでレポートを表示することはできません。 それでも、ワークスペースからレポートを削除することはできます。
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>ページ分割されたレポートに対してサポートされる各 Premium SKU の既定のメモリは何ですか。
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>ページ分割されたレポートに対してサポートされる各 Premium SKU の既定のメモリは何ですか。
 
 ページ分割されたレポートに対する各 Premium SKU の既定のメモリは次のとおりです。
 
 - **P1/A4**:20% (既定値)、10% (最小値)
 - **P2/A5**:20% (既定値)、5% (最小値)
 - **P3/A6**:20% (既定値)、2.5% (最小値)
+
+Power BI テナント管理者は、管理ポータルで既定の最大メモリの割合を変更できます。 **[容量の設定]** タブの **[Power BI Premium]** の下にある **[ページ分割されたレポート]** ワークロード セクションを参照してください。
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="[ページ分割されたレポート] の [容量の設定] タブ":::
 
 ## <a name="general"></a>全般
 

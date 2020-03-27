@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/26/2020
+ms.date: 03/17/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201957"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114055"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Power BI レポートでフィルターを操作する
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Power BI のフィルターに、新しい機能と新しいデザインが追加されました。 新しいフィルター エクスペリエンスを利用するとき、レポートの他の部分に合わせて [フィルター] ウィンドウを書式設定できます。 フィルターをロックし、非表示にすることも可能です。 レポートをデザインするとき、[視覚化] ウィンドウには、以前の [フィルター] ウィンドウは表示されません。 フィルターの編集と書式設定のすべての操作を、1 つの [フィルター] ウィンドウで行います。 
 
@@ -28,7 +30,7 @@ Power BI のフィルターに、新しい機能と新しいデザインが追�
 - フィルターの状態を変更する。
 - レポートの一部と感じられるように [フィルター] ウィンドウを書式設定およびカスタマイズする。
 - コンシューマーがレポートを開くときに、フィルター ウィンドウは既定で開いているのか、折りたたまれているのかを定義する。
-- [フィルター] ウィンドウ全体、またはレポートのコンシューマーに表示させたくない特定のフィルターを非表示にする。
+- [フィルター] ペイン全体、またはレポートのコンシューマーに表示させたくない特定のフィルターを非表示にする。
 - 新しい [フィルター] ウィンドウの表示、開く、折りたたむなどの状態を制御し、ブックマークする。
 - コンシューマーに編集させたくないフィルターをロックする。
 
@@ -111,7 +113,7 @@ Power BI Desktop には、プレビュー中の新しいリボンがあります
 
 新しい [フィルター] ウィンドウでこれらの設定のオンとオフを切り替えると、レポートに変更が反映されるのを確認できます。 非表示のフィルターは、ビジュアルに対するポップアップ フィルター リストには表示されません。
 
-また、新しい [フィルター] ウィンドウの状態を構成して、レポートのブックマークで満たすことも可能です。 ウィンドウを開いた状態、閉じた状態、および表示の状態は、すべてブックマーク可能です。
+また、新しい [フィルター] ウィンドウの状態を構成して、レポートのブックマークで満たすことも可能です。 ペインを開いた状態、閉じた状態、および表示の状態は、すべてブックマーク可能です。
  
 ## <a name="format-the-new-filters-pane"></a>新しいフィルター ウィンドウを書式設定する
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69295657702f995786379b18d3ad1ed3641bcbb8
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729812"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114867"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R を使用した Power BI ビジュアルの作成
 Power BI Desktop では、*R* を使用してデータを視覚化できます。 [R](https://mran.revolutionanalytics.com/documents/what-is-r) は、統計コンピューティングおよびグラフィックス用の言語であり環境です。
@@ -130,6 +130,8 @@ Power BI Desktop での R ビジュアルには、以下の制限があります
 * データ サイズ: プロット作成で R ビジュアルが使用するデータは、150,000 行に制限されています。 150,000 を超える行が選択されている場合は、上位の 150,000 の行のみが使用され、メッセージがイメージに表示されます。
 
 * 解決方法: R ビジュアルはすべて 72 DPI で表示されます。
+
+* デバイスのプロット:既定のデバイスへのプロットのみがサポートされています。 
 
 * 計算時間: R ビジュアルの計算が 5 分を超えると、タイムアウト エラーが発生します。
 

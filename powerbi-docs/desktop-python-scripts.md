@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5693e75ff186c3edb95eeaa92d26823e0e0d3a60
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039072"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273342"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop で Python スクリプトを実行する
 
@@ -109,6 +109,14 @@ Power BI Desktop で Python スクリプトを実行するには
 Python がインストールされていない、または特定されていない場合は、警告が表示されます。 複数のローカル コンピューターがインストールされている場合は、警告が表示されることもあります。 前の「Python をインストールする」セクションおよび「Python スクリプトを有効にする」セクションに戻って、確認してください。
 
 ![Python がインストールされていないことを示す警告](media/desktop-python-scripts/python-scripts-3.png)
+
+#### <a name="using-custom-python-distributions"></a>カスタムの Python ディストリビューションの使用
+
+Power BI では、ユーザーが指定した (設定ページで指定した) ディレクトリから python.exe 実行可能ファイルを使用して、スクリプトが直接実行されます。 環境 (Conda など) を準備するために追加の手順が必要なディストリビューションでは、実行が失敗する問題が発生する可能性があります。
+
+関連する問題を回避するために、 https://www.python.org/ の公式の Python ディストリビューションを使用することをお勧めします。
+
+カスタムの Python 環境プロンプトから Power BI Desktop を起動するという解決策も考えられます。
 
 ### <a name="refresh"></a>更新
 

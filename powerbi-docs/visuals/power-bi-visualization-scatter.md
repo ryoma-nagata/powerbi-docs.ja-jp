@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311566"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273319"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI での散布図、バブル チャート、およびドット プロット グラフ
 
@@ -184,8 +184,10 @@ ms.locfileid: "74311566"
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI 散布図の高密度サンプリング](desktop-high-density-scatter-charts.md)
+次の記事にも興味をもたれるかもしれません。
 
+* [Power BI 散布図の高密度サンプリング](desktop-high-density-scatter-charts.md)
 * [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI レポートでデータ プロットを並べ替えて分布するためのヒント](../guidance/report-tips-sort-distribute-data-plots.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

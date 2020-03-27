@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207875"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147379"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI でアプリを発行する
 
@@ -28,6 +28,7 @@ Power BI で公式のパッケージ化コンテンツを作成し、*アプリ*
 - Microsoft AppSource からアプリを検索してインストールできます。
 - これらのユーザーに直接リンクを送信できます。
 - Power BI 管理者からアクセス許可が与えられている場合は、同僚の Power BI アカウントにアプリを自動的にインストールすることができます。
+- アプリを配布または更新しても、Power BI から内部ユーザーにメールは送信されません。 それを外部ユーザーに配布すると、それらのユーザーには直接リンクを含むメールが送信されます。 
 
 独自の組み込みのナビゲーションを使用するアプリを作成すると、ユーザーはコンテンツの利用方法を簡単に確認できます。 ユーザーがアプリのコンテンツを変更することはできません。 これらのユーザーは、Power BI サービスまたはモバイル アプリのいずれかを使用してこれとやりとりし、データ自体のフィルター処理、強調表示、ソートを行うことができます。 更新プログラムは自動的に取得されます。データの更新頻度は制御することができます。 また、基になるデータセットに接続するためのビルド アクセス許可を付与したり、アプリでレポートのコピーを作成したりすることもできます。 ビルド アクセス許可の詳細は[こちら](service-datasets-build-permissions.md)をお読みください。
 

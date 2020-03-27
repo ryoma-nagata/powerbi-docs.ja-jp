@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762464"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273204"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Power BI レポートにテキスト ボックスと図形を追加する
 Power BI サービスと Power BI Desktop を使用すると、レポートにテキスト ボックスや図形を追加できます。 どちらの場合もレポートの編集アクセス許可が必要です。 Power BI サービスでレポートが自分と共有されている場合、編集アクセス許可はありません。 
@@ -63,8 +63,10 @@ Will が Power BI Desktop を使用して[静的な画像をレポートに追�
    > 
 
 ## <a name="next-steps"></a>次の手順
-[テキスト ボックスへのハイパーリンクの追加](service-add-hyperlink-to-text-box.md)
 
-[Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
+次の記事にも興味をもたれるかもしれません。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+* [テキスト ボックスへのハイパーリンクの追加](service-add-hyperlink-to-text-box.md)
+* [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
+* [Power BI レポートの図形、画像、およびアイコンを使用した分析を改善するためのヒント](guidance/report-tips-shapes-images-icons.md)
+* 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

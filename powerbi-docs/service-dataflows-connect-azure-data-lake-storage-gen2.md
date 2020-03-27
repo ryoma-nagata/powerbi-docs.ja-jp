@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 8297d5e16c15baac058f82b75634eb4f31b3c630
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710175"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113165"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 を接続する
 
@@ -42,12 +42,10 @@ ms.locfileid: "76710175"
 
 Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成する前に、ストレージ アカウントを作成して構成しておく必要があります。 次に示す Power BI の要件を確認しましょう。
 
-1. ストレージ アカウントは、ご利用の Power BI テナントと同じ AAD テナントに作成する必要がある。
-2. ストレージ アカウントは、ご利用の Power BI テナントと同じリージョンに作成する必要がある。 Power BI テナントが配置されている場所を特定するには、「[Power BI テナントの場所](service-admin-where-is-my-tenant-located.md)」を参照してください。
-3. ストレージ アカウントでは、*階層的名前空間*の機能が有効になっている必要がある。
-4. Power BI サービスには、ストレージ アカウントで *閲覧者*ロールと*データ アクセス* ロールが付与されている必要がある。
-5. **powerbi** という名前のファイルシステムが作成されている必要がある。
-6. 作成する **powerbi** ファイルシステムに対して、Power BI サービスが承認されている必要がある。
+1. ADLS ストレージ アカウントの所有者である必要があります。 これは、サブスクリプション レベルからの継承ではなく、リソース レベルで割り当てる必要があります。
+2. ストレージ アカウントは、ご利用の Power BI テナントと同じ AAD テナントに作成する必要がある。
+3. ストレージ アカウントは、ご利用の Power BI テナントと同じリージョンに作成する必要がある。 Power BI テナントが配置されている場所を特定するには、「[Power BI テナントの場所](service-admin-where-is-my-tenant-located.md)」を参照してください。
+4. ストレージ アカウントでは、*階層的名前空間*の機能が有効になっている必要がある。
 
 以降のセクションでは、Azure Data Lake Storage Gen2 アカウントを構成するために必要な手順の詳細を確認します。
 
@@ -59,73 +57,17 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 2. 必ず、階層型名前空間の機能を有効にします。
 3. レプリケーション設定を **[読み取りアクセス地理冗長ストレージ (RA-GRS)]** に設定することが推奨されています。
 
-### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>Power BI サービスに閲覧者とデータ アクセス ロールを付与する
+### <a name="grant-permissions-to-power-bi-services"></a>Power BI サービスにアクセス許可を付与する
 
-次に、作成したストレージ アカウントで、Power BI サービスに閲覧者とデータ アクセス ロールを付与する必要があります。 これらは両方とも組み込みロールであるため、手順は簡単です。 
+次に、作成したストレージ アカウントで、Power BI サービスに閲覧者ロールとデータ アクセス ロールを付与する必要があります。 これらは両方とも組み込みロールであるため、手順は簡単です。 
 
 [組み込み RBAC ロールの割り当て](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)に関する記事の手順に従います。
 
-**[ロール割り当ての追加]** ウィンドウで、 **[閲覧者]** ロールと **[データ アクセス]** ロールを選択して Power BI サービスに割り当てます。 次に、検索を利用して、 **[Power BI サービス]** を探します。 
+**[ロールの割り当ての追加]** ウィンドウで、 **[閲覧者とデータ アクセス]** ロールを選択します。 次に、検索を使用して **Power BI サービス** アプリケーションを見つけます。
+**ストレージ BLOB データ所有者**ロールについても同じ手順を繰り返し、そのロールを **Power BI Service** と **Power BI Premium** アプリケーションの両方に割り当てます。
 
 > [!NOTE]
 > アクセス許可がポータルから Power BI に反映されるまでに、少なくとも 30 分は見込んでください。 ポータルでアクセス許可を変更した場合は、そのアクセス許可が Power BI に反映されるまでに 30 分は見込んでください。 
-
-
-### <a name="create-a-file-system-for-power-bi"></a>Power BI 用のファイル システムの作成
-
-ご利用のストレージ アカウントを Power BI に追加するには、事前に *powerbi* という名前のファイル システムを作成しておく必要があります。 このようなファイル システムを作成するには、Azure Databricks、HDInsight、AZCopy、または Azure Storage Explorer を使用するなど、多数の方法があります。 このセクションでは、Azure Storage Explorer を使用してファイル システムを作成する簡単な方法を示します。
-
-この手順を実行するには、Azure Storage Explorer バージョン 1.6.2 以降をインストールする必要があります。 Windows、Macintosh、または Linux 用の Azure Storage Explorer をインストールするには、「[Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)」を参照してください。
-
-1. Azure Storage Explorer のインストールに成功すると、初回の起動時に [Microsoft Azure Storage Explorer - 接続] ウィンドウが表示されます。 Storage Explorer では、ストレージ アカウントに接続する複数の方法を提供していますが、必須の設定で現在サポートされているのは 1 つの方法だけです。 
-
-2. 左側のウィンドウで、上記で作成したストレージ アカウントを探して展開します。
-
-3. [Blob Containers]\(BLOB コンテナー\) を右クリックして、コンテキスト メニューから [Create Blob Container]\(BLOB コンテナーの作成\) を選択します。
-
-   ![[Blob Containers]\(BLOB コンテナー\) を右クリックする](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05a.jpg)
-
-4. [Blob Containers]\(BLOB コンテナー\) フォルダーの下にテキスト ボックスが表示されます。 *powerbi* という名前を入力します。 
-
-   ![名前 "powerbi" を入力する](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05b.jpg)
-
-5. BLOB コンテナーの作成が終了したら、Enter キーを押します。
-
-   ![Enter キーを押して BLOB コンテナーを作成する](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05c.jpg)
-
-次のセクションでは、作成したファイル システムに、Power BI ファミリのサービスへのフル アクセスを付与します。 
-
-### <a name="grant-power-bi-permissions-to-the-file-system"></a>ファイル システムに Power BI のアクセス許可を付与する
-
-ファイル システムにアクセス許可を付与するには、Power BI サービスへのアクセスを付与するアクセス制御リスト (ACL) 設定を適用します。 これを行うための最初の手順は、ご利用のテナントで Power BI サービス ID を取得することです。 Azure portal の **[Enterprise apps]\(エンタープライズ アプリ\)** セクションに、ご利用の Azure Active Directory (AAD) アプリケーションを表示できます。
-
-ご利用のテナント アプリケーションを検索するには、次の手順に従います。
-
-1. [Azure portal](https://portal.azure.com/) で、ナビ ペインから **[Azure Active Directory]** を選択します。
-2. Azure の **[Active Directory]** ブレードで、 **[エンタープライズ アプリケーション ]** を選択します。
-3. **[アプリケーションの種類]** ドロップダウン メニューから **[すべてのアプリケーション]** を選択して **[適用]** を選びます。 次の画像とほぼ同じように、ご利用のテナント アプリケーションのサンプルが表示されます。
-
-    ![AAD エンタープライズ アプリケーション](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
-
-4. 検索バーに「*Power*」と入力すると、Power BI および Power Query アプリケーションのオブジェクト ID のコレクションが表示されます。 3 つの値はすべて、後続の手順で必要になります。  
-
-    ![Power アプリケーションを検索する](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
-
-5. 検索結果から、Power BI Premium サービスと Power Query Online のオブジェクト ID を両方選択してコピーします。 以降の手順でこの 2 つの値を貼り付けられるように準備しておきます。
-
-6. 次に、**Azure Storage Explorer** を使用して、前のセクションで作成した *powerbi* ファイル システムに移動します。 「[Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)」(Azure Storage Explorer を使用したファイルとディレクトリ レベルのアクセス許可の設定) の記事にある「[Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)」(アクセスの管理) セクションの手順に従います。
-
-7. 手順 5 で収集した 2 つの各 Power BI Premium オブジェクト ID では、 **[読み取り]** 、 **[書き込み]** 、 **[実行]** のアクセスと既定の ACL を *powerbi* ファイル システムに割り当てます。
-
-   ![両方に対して、3 つすべてを割り当てる](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
-
-8. 手順 4 で収集した Power Query Online のオブジェクト ID では、 **[書き込み]** 、 **[実行]** のアクセスと既定の ACL を *powerbi* ファイル システムに割り当てます。
-
-   ![次に、書き込みと実行を割り当てる](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
-
-9. さらに、 **[その他]** にも、 **[実行]** のアクセスと既定の ACL を割り当てます。
-
-    ![最後に、[その他] に対して実行を割り当てる](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>Azure Data Lake Storage Gen2 を Power BI に接続する
 

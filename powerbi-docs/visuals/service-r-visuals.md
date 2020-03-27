@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04fa40f5f73199ed5050870b49cd432f62cf362c
-ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
+ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "78199075"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114844"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI で R ビジュアルを作成して使用する
 R ビジュアルは現在、**Power BI Desktop** でのみ作成でき、その後 Power BI サービスに発行できます。 R ビジュアルの作成の詳細については、「[R を使用した Power BI ビジュアルの作成](../desktop-r-visuals.md)」を参照してください。
@@ -88,6 +88,7 @@ Power BI サービスの R ビジュアルには、一定の制限がありま�
 * R ビジュアルのサポートは、[サポート対象の R パッケージの確認](../service-r-packages-support.md)に関するページで特定されているパッケージに限定されます。 現在のところ、カスタム パッケージはサポートされていません。
 * データ サイズの制限 – プロット作成で R ビジュアルが使用するデータは、150,000 行に制限されています。 150,000 を超える行が選択されている場合は、上位の 150,000 の行のみが使用され、メッセージがイメージに表示されます。 また、入力データには 250 MB の制限があります。
 * 解像度 - R ビジュアルはすべて 72 DPI で表示されます。
+* デバイスのプロット - 既定のデバイスへのプロットのみがサポートされています。 
 * 計算時間の制限 – R ビジュアル計算で実行時間が 60 秒を超えると、エラーが発生します。
 * R ビジュアルは、データ更新、フィルター処理、および強調表示の際に更新されます。 ただし、イメージ自体は対話に対応しておらず、ツール ヒントはサポートされていません。
 * R ビジュアルは他のビジュアルの強調表示に応答しますが、他の要素をクロス フィルター処理するために R ビジュアルの要素をクリックすることはできません。

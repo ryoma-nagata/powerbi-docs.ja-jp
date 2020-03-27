@@ -10,12 +10,12 @@ ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488708"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114456"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -233,7 +233,12 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 ### <a name="export-data"></a>データのエクスポート
 
-組織内のユーザーは、タイルまたはビジュアル化からデータをエクスポートできます。 タイルまたはビジュアルからデータをエクスポートする方法については[こちら](visuals/power-bi-visualization-export-data.md)をご覧ください。
+組織内のユーザーは、タイルまたはビジュアル化からデータをエクスポートできます。 これにより、Excel での分析、.csv へのエクスポート、データセットのダウンロード (.pbix)、Power BI サービスのライブ接続機能を制御します。 タイルまたはビジュアルからデータをエクスポートする方法については[こちら](visuals/power-bi-visualization-export-data.md)をご覧ください。
+
+>[!NOTE]
+> [Excel にエクスポート] 設定が導入される前は、この設定により、Excel ファイルへのデータのエクスポートも制御されていました。 詳細については、[「Excel にエクスポート」の注](#export-to-excel)を参照してください。
+
+![データ設定のエクスポート](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
 
 タイルからデータをエクスポートするためのオプションを次の図に示します。
 
@@ -241,6 +246,15 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 > [!NOTE]
 > また、 **[データのエクスポート]** を無効にして、ユーザーが [[Excel で分析]](service-analyze-in-excel.md) 機能と、Power BI サービスのライブ接続を使用できないように設定することもできます。
+
+### <a name="export-to-excel"></a>Excel にエクスポート
+
+組織内のユーザーは、視覚エフェクトのデータを Excel ファイルにエクスポートできます。
+
+![[Excel にエクスポート] 設定](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+
+>[!IMPORTANT]
+> [Excel にエクスポート] 設定が導入される前は、Excel ファイルへのデータのエクスポートはデータ設定のエクスポートで制御されていました。 このため、[Excel にエクスポート] 設定の導入前に存在していたテナントでは、テナント管理者が [Excel にエクスポート] 設定を確認すると、 *[未適用の変更]* があることがわかります。 新しい設定を有効にするには、これらの変更を適用する必要があります。 それ以外の場合、Excel ファイルへのエクスポートは、[データ設定のエクスポート] によって引き続き制御されます。
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>PowerPoint プレゼンテーションまたは PDF ドキュメントとしてレポートをエクスポート
 

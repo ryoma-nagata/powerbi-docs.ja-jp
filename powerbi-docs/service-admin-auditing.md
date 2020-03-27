@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75657192"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113786"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI でユーザー アクティビティを追跡する
 
@@ -49,7 +49,7 @@ Power BI REST API に基づく管理アプリケーションを使用すると�
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
 ```
 
-エントリの数が多いと、**ActivityEvents** API では、約 5,000 ‐ 10,000 のエントリと継続トークンのみが返されます。 その後、継続トークンを使用して **ActivityEvents** API を再度呼び出してエントリの次のバッチを取得し、すべてのエントリを取得して継続トークンを受け取らなくなるまでこれを続ける必要があります。 次の例は、継続トークンの使用方法を示しています。
+エントリの数が多いと、**ActivityEvents** API では、約 5,000 ‐ 10,000 のエントリと継続トークンのみが返されます。 継続トークンを使用して **ActivityEvents** API を再度呼び出してエントリの次のバッチを取得し、すべてのエントリを取得して継続トークンを受け取らなくなるまでこれを続けます。 次の例は、継続トークンの使用方法を示しています。
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
@@ -68,12 +68,15 @@ while(response.ContinuationToken != null)
 }
 completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 ```
-
+> [!NOTE]
+> すべてのイベントが表示されるまでに最大 24 時間かかる場合がありますが、通常は、完全なデータをはるかに早く使用できるようになります。
+>
+>
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent コマンドレット
 
-PowerShell に Power BI 管理コマンドレットを使用すると、アクティビティ イベントを簡単にダウンロードできます。これには、継続トークンを自動的に処理する **Get-PowerBIActivityEvent** コマンドレットが含まれています。 **Get-PowerBIActivityEvent** コマンドレットでは、**ActivityEvents** REST API と同じ制限がある StartDateTime と EndDateTime パラメーターを受け取ります。 つまり、一度に取得できるアクティビティ データは 1 日分だけなので、開始日と終了日で同じ日付値を参照する必要があります。
+PowerShell の Power BI 管理コマンドレットを使用して、アクティビティ イベントをダウンロードします。 **Get-PowerBIActivityEvent** コマンドレットを使用すると、継続トークンが自動的に処理されます。 **Get-PowerBIActivityEvent** コマンドレットでは、**ActivityEvents** REST API と同じ制限がある StartDateTime と EndDateTime パラメーターを受け取ります。 つまり、一度に取得できるアクティビティ データは 1 日分だけなので、開始日と終了日で同じ日付値を参照する必要があります。
 
-次のスクリプトでは、すべての Power BI アクティビティをダウンロードする方法を示しています。 このコマンドでは、個々のアクティビティのプロパティに簡単にアクセスできるように、JSON の結果が .NET オブジェクトに変換されます。
+次のスクリプトでは、すべての Power BI アクティビティをダウンロードする方法を示しています。 このコマンドでは、個々のアクティビティのプロパティに簡単にアクセスできるように、JSON の結果が .NET オブジェクトに変換されます。 これらの例は、イベントを見逃さないようにするための、1 日で可能な最小および最大のタイムスタンプを示しています。
 
 ```powershell
 Login-PowerBI
@@ -111,11 +114,11 @@ $activities[0]
 
 - 監査ログにアクセスするには、グローバル管理者であるか、Exchange Online で Audit Logs (監査ログ) または View-Only Audit Logs (表示専用監査ログ) ロールが割り当てられている必要があります。 既定では、これらのロールは、Exchange 管理センター内の **[アクセス許可]** ページで Compliance Management (コンプライアンス管理) および Organization Management (組織管理) ロール グループに割り当てられています。
 
-    管理者以外のアカウントに監査ログへのアクセス許可を与えるには、これらのロール グループのいずれかのメンバーとしてそのユーザーを追加する必要があります。 別の方法でそれを行いたい場合は、Exchange 管理センターでカスタム ロール グループを作成し、Audit Logs (監査ログ) または View-Only Audit Logs (表示専用監査ログ) ロールをこのグループに割り当ててから、管理者以外のアカウントをこの新しいロール グループに追加することができます。 詳細については、「[Manage role groups in Exchange Online (Exchange Online でロール グループを管理する)](/Exchange/permissions-exo/role-groups)」をご覧ください。
+    管理者以外のアカウントに監査ログへのアクセス許可を与えるには、これらのロール グループのいずれかのメンバーとしてそのユーザーを追加します。 別の方法でそれを行いたい場合は、Exchange 管理センターでカスタム ロール グループを作成し、Audit Logs (監査ログ) または View-Only Audit Logs (表示専用監査ログ) ロールをこのグループに割り当ててから、管理者以外のアカウントをこの新しいロール グループに追加することができます。 詳細については、「[Manage role groups in Exchange Online (Exchange Online でロール グループを管理する)](/Exchange/permissions-exo/role-groups)」をご覧ください。
 
     Microsoft 365 管理センターから Exchange 管理センターにアクセスできない場合は、 https://outlook.office365.com/ecp に移動し、ご自分の資格情報を使ってサインインします。
 
-- 監査ログへのアクセス権はあっても、グローバル管理者または Power BI サービスの管理者ではない場合は、Power BI 管理ポータルにアクセスできません。 この場合、[Office 365 セキュリティ/コンプライアンス センター](https://sip.protection.office.com/#/unifiedauditlog)への直接リンクを使う必要があります。
+- 監査ログへのアクセス権はあっても、グローバル管理者または Power BI サービスの管理者ではない場合は、Power BI 管理ポータルにアクセスできません。 この場合、[Office 365 セキュリティ/コンプライアンス センター](https://sip.protection.office.com/#/unifiedauditlog)への直接リンクを使用します。
 
 ### <a name="access-your-audit-logs"></a>監査ログにアクセスする
 
@@ -258,7 +261,7 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI フォルダーを作成しました                           | CreateFolder                                |                                          |
 | Power BI Gateway の作成                          | CreateGateway                               |                                          |
 | Power BI グループを作成しました                            | CreateGroup                                 |                                          |
-| Power BI レポートを作成しました                           | CreateReport                                |                                          |
+| Power BI レポートを作成しました                           | CreateReport <sup>1</sup>                                |                                          |
 | 外部ストレージ アカウントにデータフローを移行しました     | DataflowMigratedToExternalStorageAccount    | 現在使用されていません                       |
 | データフローのアクセス許可を追加しました                        | DataflowPermissionsAdded                    | 現在使用されていません                       |
 | データフローのアクセス許可を削除しました                      | DataflowPermissionsRemoved                  | 現在使用されていません                       |
@@ -294,7 +297,7 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI コメントを投稿しました                           | PostComment                                 |                                          |
 | Power BI ダッシュボードを出力しました                        | PrintDashboard                              |                                          |
 | Power BI レポート ページを出力しました                      | PrintReport                                 |                                          |
-| Power BI レポートを Web に発行しました                  | PublishToWebReport                          |                                          |
+| Power BI レポートを Web に発行しました                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Key Vault からの Power BI データフロー シークレットを受信しました  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Power BI Gateway からのデータ ソースの削除         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI グループ メンバーを削除しました                    | DeleteGroupMembers                          |                                          |
@@ -333,6 +336,10 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI タイルを参照しました                              | ViewTile                                    |                                          |
 | Power BI の使用状況メトリックを参照しました                     | ViewUsageMetrics                            |                                          |
 |                                                   |                                             |                                          |
+
+<sup>1</sup> Power BI Desktop からサービスへの発行は、サービスの CreateReport イベントです。
+
+<sup>2</sup> PublishtoWebReport は、[Web に公開](service-publish-to-web.md)機能を参照します。
 
 ## <a name="next-steps"></a>次の手順
 

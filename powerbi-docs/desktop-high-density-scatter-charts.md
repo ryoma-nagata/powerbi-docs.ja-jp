@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867444"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273365"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散布図の高密度サンプリング
 **Power BI Desktop** の 2017 年 9 月リリースおよび **Power BI サービス**の更新以降、新しいサンプリング アルゴリズムが使用可能です。これにより、散布図で高密度データを表す方法が改善されます。
@@ -85,7 +85,8 @@ ms.locfileid: "73867444"
 * **高密度サンプリング** アルゴリズムは、Power BI サービスに基づくモデル、インポートしたモデル、または DirectQuery へのライブ接続でのみ動作します。
 
 ## <a name="next-steps"></a>次の手順
-他の図の高密度サンプリングの詳細については、次の記事をご覧ください。
+
+高密度サンプリングの詳細については、次の記事を参照してください。
 
 * [Power BI の高密度線サンプリング](desktop-high-density-sampling.md)
-
+* [Power BI レポートでデータ プロットを並べ替えて分布するためのヒント](guidance/report-tips-sort-distribute-data-plots.md)

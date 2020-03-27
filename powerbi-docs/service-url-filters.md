@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 03/25/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076643"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273250"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -110,14 +110,14 @@ URL にパラメーターを追加し、複数のフィールドでフィルタ�
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
 
-## <a name="operators"></a>オペレーター
+## <a name="operators"></a>演算子
 
 Power BI では、'**and**' に加え、多くの演算子がサポートされています。 次の表に、その演算子とサポートされるコンテンツの種類を一覧表示します。
 
-|operator  | 定義 | 文字列  | number | Date |  例|
+|演算子  | 定義 | 文字列  | 数値 | Date |  例|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | and |  はい      | はい |  はい|  product/price le 200 and price gt 3.5 |
-|**eq**     | equals |  はい      | はい   |  はい       | Address/City eq 'Redmond' |
+|**and**     | と |  はい      | はい |  はい|  product/price le 200 and price gt 3.5 |
+|**eq**     | 次の値に等しい |  はい      | はい   |  はい       | Address/City eq 'Redmond' |
 |**ne**     | 等しくない |   はい      | はい  | はい        |  Address/City ne 'London' |
 |**ge**     |  以上       | いいえ | はい |はい |  product/price ge 10
 |**gt**     | より大きい        |いいえ | はい | はい  | product/price gt 20
@@ -193,15 +193,21 @@ TerritoryChain = [Territory] & " - " & [Chain]
 クエリ文字列パラメーターを使う場合に注意すべき点が 2 つあります。
 
 * *in* 演算子を使用する場合は、*in* の右側の値をかっこで囲んだコンマ区切りのリストにする必要があります。    
-* また、Power BI Report Server では、"filter" URL パラメーターを使用して追加のフィルターを指定する機能もサポートされています。  たとえば、Power BI Report Server では、URL は次のようになります。 https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
-* クエリ文字列のフィルター処理は、[Web に公開](service-publish-to-web.md)や [PDF にエクスポート](consumer/end-user-pdf.md)では機能しません。
-* 「[SharePoint Online にレポート Web パーツを埋め込む](service-embed-report-spo.md)」では、URL のフィルター処理はサポートされていません。
-* JavaScript の制限により、long データ型は (2^53-1) となります。
+* また、Power BI Report Server では、"filter" URL パラメーターを使用して追加のフィルターを指定する機能もサポートされています。 Power BI Report Server の URL は次の例のようになります。`https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * レポート URL フィルターには、10 個の式 (AND によって連結された 10 個のフィルター) の制限があります。
+* JavaScript の制限により、long データ型は (2^53-1) となります。
 
-## <a name="next-steps"></a>次のステップ
+URL フィルターは、一部の埋め込みシナリオではサポートされており、他のシナリオではサポートされていません。
+
+- [セキュリティで保護されたポータルまたは Web サイトへのレポートの埋め込み](service-embed-secure.md)はサポートされています。
+- URL フィルターは Power BI Embedded でサポートされています。 詳細については、「[Power BI Embedded の高度な URL フィルター機能](https://azure.microsoft.com/updates/power-bi-embedded-advanced-url-filtering-capabilities)」を参照してください。
+- クエリ文字列のフィルター処理は、[Web に公開](service-publish-to-web.md)や [PDF にエクスポート](consumer/end-user-pdf.md)では機能しません。
+- 「[SharePoint Online にレポート Web パーツを埋め込む](service-embed-report-spo.md)」では、URL のフィルター処理はサポートされていません。
+- Teams では、URL の指定は許可されていません。
+
+## <a name="next-steps"></a>次の手順
 
 [視覚化をダッシュボードにピン留めする](service-dashboard-pin-tile-from-report.md)  
 [無料試用版にサインアップ](https://powerbi.microsoft.com/get-started/)
 
-その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

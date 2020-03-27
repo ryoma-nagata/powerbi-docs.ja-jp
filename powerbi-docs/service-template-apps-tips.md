@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: dcb7ba5dabbbb0387b92908f7e299d61f2145d44
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376594"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273227"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI でのテンプレート アプリの作成に関するヒント
 
@@ -150,7 +150,7 @@ AppSource でテンプレート アプリを発行した後、Web サイトか�
 
 | 特徴 | 既知の制限事項 |
 |---------|---------|
-|コンテンツ:データセット   | 厳密に 1 つのデータセットが存在する必要があります。 Power BI Desktop で作成されたデータセット (.pbix ファイル) だけが許可されます。 <br>非サポート:他のテンプレート アプリからのデータセット、クロス ワークスペース データセット、改ページ調整されたレポート (.rdl ファイル)、Excel ブック |
+|コンテンツ:データセット   | 厳密に 1 つのデータセットが存在する必要があります。 Power BI Desktop で作成されたデータセット (.pbix ファイル) だけが許可されます。 <br>非サポート:他のテンプレート アプリからのデータセット、クロス ワークスペース データセット、改ページ調整されたレポート (.rdl ファイル)、Excel ブック、強化されたデータセット メタデータ |
 |コンテンツ:ダッシュボード | リアルタイム タイルは許可されません (つまり、プッシュ データセットまたはストリーミング データセットはサポートされていません) |
 |コンテンツ:データフロー | 非サポート:データフロー |
 |ファイルからのコンテンツ | PBIX ファイルのみが許可されます。 <br>非サポート: .rdl ファイル (改ページ調整されたレポート)、Excel ブック   |

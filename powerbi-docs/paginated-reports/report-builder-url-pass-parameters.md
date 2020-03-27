@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7a5ec7ef1f66a4a5b6ec80c80e9fd37e19bb2813
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922530"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113556"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Power BI のページ分割されたレポートの URL 内でレポート パラメーターを渡す 
 
@@ -64,8 +64,8 @@ rp:SalesOrderNumber:isnull=true
 
 > [!NOTE]
 > 既定値を持つレポート パラメーターがレポートに含まれ、 **[プロンプト]** プロパティの値が **false** (つまり、 **[ユーザーにメッセージを表示]** プロパティがレポート マネージャーで選択されていない場合)、URL 内のそのレポート パラメーターの値を渡すことはできません。 これにより、管理者は、エンド ユーザーが特定のレポート パラメーターの値を追加または変更できないようにすることができます。
-
-> Power BI では、900 文字を超えるクエリ文字列はサポートしていません。  この値は、ご自分のページ分割されたレポートを参照するために url パラメーターを使用している場合に超過することがあります。  これは、特に値が複数あるパラメーターを使用するときに当てはまります。
+> 
+> Power BI では、2,000 文字を超えるクエリ文字列はサポートしていません。  この値は、ご自分のページ分割されたレポートを参照するために url パラメーターを使用している場合に超過することがあります。  これは、特に値が複数あるパラメーターを使用するときに当てはまります。
 
 ## <a name="additional-examples"></a>追加の例 
 
