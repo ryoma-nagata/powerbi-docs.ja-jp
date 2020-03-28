@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: ダッシュボードの印刷、ダッシュボード タイルの印刷、レポートの印刷
               href: end-user-print.md
+            - name: 自分と共有しているコンテンツを表示する
+              href: end-user-shared-with-me.md
             - name: 関連するコンテンツの表示
               href: end-user-related.md
             - name: 最近のコンテンツの表示
               href: end-user-recent.md
-            - name: 自分と共有コンテナーでのコンテンツの表示
-              href: end-user-shared-with-me.md
             - name: レポートまたはダッシュボードをサブスクライブする
               href: end-user-subscribe.md
             - name: Power BI でのコンテンツの検索と並べ替え

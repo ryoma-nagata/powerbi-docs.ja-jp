@@ -34,7 +34,7 @@
               href: ../service-premium-capacity-scenarios.md
             - name: Power BI Premium のよく寄せられる質問
               href: ../service-premium-faq.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: ライセンスとサインアップ
           items:
@@ -56,7 +56,7 @@
           href: ../service-admin-access-usage.md
         - name: ユーザー アクティビティの追跡
           href: ../service-admin-auditing.md
-        - name: サービス正常性を追跡する
+        - name: サービスの正常性の追跡
           href: ../service-admin-health.md
         - name: アカウントを削除しています
           href: ../service-admin-closing-your-account.md
@@ -100,7 +100,7 @@
               href: ../service-encryption-byok.md
             - name: Premium 容量の再起動
               href: ../service-admin-premium-restart.md
-            - name: クライアント アプリケーションとツールをデータセットに接続する
+            - name: XMLA エンドポイントを使用したデータセット接続 (プレビュー)
               href: ../service-premium-connect-tools.md
     - name: リファレンス
       items:
