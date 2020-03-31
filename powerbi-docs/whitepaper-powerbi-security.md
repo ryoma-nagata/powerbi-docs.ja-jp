@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381401"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404574"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI のセキュリティに関するホワイトペーパー
 
@@ -135,7 +135,7 @@ Power BI サービスに対するユーザーの認証は、ユーザーのブ�
 
 Power BI サービスでのユーザー認証シーケンスは、以下の手順で説明するように行われます。次の図はそれを示したものです。
 
-1. ユーザーは、ブラウザーでアドレス バーに Power BI のアドレスを入力することによって (例: https://app.powerbi.com)、または Power BI のランディング ページ (_で_[サインイン]https://powerbi.microsoft.com) を選択することによって、Power BI サービスへの接続を始めます。 接続は TLS 1.2 と HTTPS を使用して確立され、それ以降にブラウザーと Power BI サービスの間で行われるすべての通信には HTTPS が使用されます。 要求は **Azure Traffic Manager** に送信されます。
+1. ユーザーがブラウザーから Power BI サービスへの接続を開始するには、アドレスバーに Power BI アドレスを入力するか (`https://app.powerbi.com`など)、または Power BI のランディングページ (https://powerbi.microsoft.com)で [_サインイン_] を選択します。 接続は TLS 1.2 と HTTPS を使用して確立され、それ以降にブラウザーと Power BI サービスの間で行われるすべての通信には HTTPS が使用されます。 要求は **Azure Traffic Manager** に送信されます。
 
 2. **Azure Traffic Manager** では、ユーザーの DNS レコードを調べて Power BI がデプロイされている最も近いデータセンターを決定し、ユーザーを送信する必要がある WFE クラスターの IP アドレスで DNS に応答します。
 
@@ -204,13 +204,13 @@ CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定
 
 1. メタデータ (テーブル、列、メジャー、計算、接続文字列など)
 
-    A. オンプレミスの Analysis Services では、暗号化されて Azure SQL に格納されるデータベースへの参照を除き、サービスには何も格納されません。
+    a. オンプレミスの Analysis Services では、暗号化されて Azure SQL に格納されるデータベースへの参照を除き、サービスには何も格納されません。
 
     b. ETL、DirectQuery、およびプッシュ データに対する他のすべてのメタデータは、暗号化されて Azure Blob Storage に格納されます。
 
 1. 元のデータ ソースに対する資格情報
   
-      A. オンプレミスの Analysis Services – 資格情報は必要なく、そのため、資格情報は保存されません。
+      a. オンプレミスの Analysis Services – 資格情報は必要なく、そのため、資格情報は保存されません。
 
       b. DirectQuery - これはモデルがサービス内で直接作成されるかどうかによって異なります。直接作成される場合、それは接続文字列内に格納され Azure Blob で暗号化されます。モデルが Power BI Desktop からインポートされる場合、資格情報はデータ移動の Azure SQL Database で暗号化されて格納されます。 暗号化キーは、顧客のインフラストラクチャ上でゲートウェイを実行しているコンピューターに格納されます。
 
@@ -219,13 +219,13 @@ CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定
       d. ETL
 
       - **Salesforce** または **OneDrive** の場合 – 更新トークンは、Power BI サービスの Azure SQL Database で暗号化されて格納されます。
-      - または次の手順を実行してください。
+      - それ以外の場合:
         - データセットが更新の対象として設定されている場合、資格情報はデータ移動の Azure SQL Database で暗号化されて格納されます。 暗号化キーは、顧客のインフラストラクチャ上でゲートウェイを実行しているコンピューターに格納されます。
         - データセットが更新の対象として設定されていない場合は、データ ソースの資格情報は格納されません。
 
 1. Data
 
-    A. オンプレミスの Analysis Services と、DirectQuery – Power BI サービスでは何も格納されません。
+    a. オンプレミスの Analysis Services と、DirectQuery – Power BI サービスでは何も格納されません。
 
     b. ETL – Azure Blob ストレージで暗号化されます。しかし、Power BI サービスの Azure Blob ストレージに現在あるすべてのデータに [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) (サーバー側の暗号化とも呼ばれる) が使用されます。 Multi-Geo でも SSE が使用されます。
 
@@ -245,7 +245,7 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
 1. メタデータ (レポートの定義)
 
-   A. レポートは、Excel for Office 365 レポートまたは Power BI レポートのいずれかとすることができます。 レポートの種類に基づいて、メタデータには次が適用されます。
+   a. レポートは、Excel for Office 365 レポートまたは Power BI レポートのいずれかとすることができます。 レポートの種類に基づいて、メタデータには次が適用されます。
         
     &ensp; を &ensp; します。 Excel レポートのメタデータは、SQL Azure に暗号化されて格納されます。 メタデータは、Office 365 にも格納されます。
 
@@ -290,7 +290,7 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
 3. 元のデータ ソースに対する資格情報
 
-    A. オンプレミスの Analysis Services - 何も格納されません
+    a. オンプレミスの Analysis Services - 何も格納されません
 
     b. DirectQuery - これはモデルがサービス内で直接作成されるかどうかによって異なります。直接作成される場合、それは、(暗号化された情報と共に) 同じ場所にクリア テキストで格納された暗号化キーを使用する暗号化形式で、接続文字列内に格納されます。モデルが Power BI Desktop からインポートされる場合、資格情報は非揮発性デバイス上に格納されません。
 
@@ -348,7 +348,7 @@ Power BI Mobile は、Android、iOS、Windows Mobile という3つの主要な�
 | **CBA サポート** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
 | **Power BI** (サービスにサインイン) | サポート済み | サポート済み | サポートされていません |
-| **SSRS ADFS** (SSRS サーバーに接続) | サポートされていません | Supported | サポートされていません |
+| **SSRS ADFS** (SSRS サーバーに接続) | サポートされていません | サポート対象 | サポートされていません |
 
 Power BI Mobile アプリは、積極的に Power BI サービスと通信します。 利用統計情報はモバイル アプリの利用統計情報や類似のデータの収集に使用され、利用状況とアクティビティを監視するために使用するサービスに転送されます。個人データが利用統計情報とともに送信されることは一切ありません。
 
@@ -476,7 +476,7 @@ Power BI でのデータ ストレージとデータの処理は、データが 
 
 Power BI に関する詳細については、次のリソースを参照してください。
 
-- [Power BI 内のグループ](https://support.powerbi.com/knowledgebase/articles/654247)
+- [Power BI のグループ](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Power BI Desktop の概要](https://support.powerbi.com/knowledgebase/articles/471664)
 - [Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)
