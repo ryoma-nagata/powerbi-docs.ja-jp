@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dcf8f3ca104e4caf749070b45cd47b0ca03f0dbd
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 62159b9dec4f82cfad3eecbc13b1d3a2c3b68f17
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699592"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404863"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>更新に関するトラブルシューティング シナリオ
 
@@ -79,11 +79,11 @@ Microsoft は、データの読み込みプロセスでトークンが更新さ�
 
 ## <a name="access-to-the-resource-is-forbidden"></a>リソースへのアクセスが禁止されています  
 
-このエラーは、キャッシュされた資格情報の有効期限が切れていることが原因で発生する可能性があります。 Power BI にサインインし、 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。
+このエラーは、キャッシュされた資格情報の有効期限が切れていることが原因で発生する可能性があります。 Power BI にサインインし、 `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true` に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。
 
 ## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>パスワードが変更されたか、資格情報の有効期限が切れているため、データを更新できない
 
-キャッシュされた資格情報の有効期限が切れているため、データを更新できない可能性もあります。 Power BI にサインインし、 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。
+キャッシュされた資格情報の有効期限が切れているため、データを更新できない可能性もあります。 Power BI にサインインし、 `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true` に移動して、インターネット ブラウザーのキャッシュをクリアしてください。 これで、資格情報が強制的に更新されます。
 
 ## <a name="next-steps"></a>次の手順
 

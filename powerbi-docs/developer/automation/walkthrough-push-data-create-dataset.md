@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: a013053e3a7948f340b8c27e154cc7578cdea672
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079142"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403637"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>手順 3:Power BI でデータセットを作成する
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
 チュートリアル「データセットにデータをプッシュする」の**手順 2**「[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)」では、**Azure AD** に対する認証トークンを取得しました。 この手順では、そのトークンを使って [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 操作を呼び出します。
 
-REST リソースを呼び出すには、リソースを指定する URL を使って、Power BI サービス リソースに JavaScript Object Notation (JSON) 文字列 (データセットを記述したもの) を送信します。 REST リソースは、Power BI サービスのうち操作する部分を識別します。 データセットにデータをプッシュする場合、対象のリソースは**データセット**です。 データセットを識別する URL は、 https://api.PowerBI.com/v1.0/myorg/datasets です。 グループ内にデータをプッシュする場合の URL は、 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets です。
+REST リソースを呼び出すには、リソースを指定する URL を使って、Power BI サービス リソースに JavaScript Object Notation (JSON) 文字列 (データセットを記述したもの) を送信します。 REST リソースは、Power BI サービスのうち操作する部分を識別します。 データセットにデータをプッシュする場合、対象のリソースは**データセット**です。 データセットを識別する URL は、 `https://api.PowerBI.com/v1.0/myorg/datasets` です。 グループ内にデータをプッシュする場合の URL は、 `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets` です。
 
 Power BI REST 操作を認証するには、[認証アクセス トークンを取得する](walkthrough-push-data-get-token.md)手順で入手したトークンを要求ヘッダーに追加します。
 

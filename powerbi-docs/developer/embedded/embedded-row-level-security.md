@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 80b97757ab0ab8fefa23f4481abb2d8bc02de78d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492493"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403702"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded での行レベルのセキュリティ
 
@@ -217,7 +217,7 @@ Power BI Embedded アプリケーションで CustomData() 機能の設定を開
 
 7. Power BI API を使って、アプリケーション内で CustomData 機能を使います。  カスタム データ機能を使ってトークンを生成するときは、ユーザー名が必要です。 ユーザー名は、マスター ユーザーの UPN と同じである必要があります。 マスター ユーザーは、作成したロールのメンバーである必要があります。 ロールが指定されていない場合、マスター ユーザーがそのメンバーになっているすべてのロールが RLS の評価に使用されます。
 
-    [サービス プリンシパル](embed-service-principal.md)を使用する場合、マスター アカウントを使用する代わりに、上記の手順も実行する必要があります。 埋め込みトークンを生成する場合、ユーザー名として[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) を使用します。
+    [サービス プリンシパル](embed-service-principal.md)を使用する場合、マスター アカウントを使用する代わりに、上記の手順も実行する必要があります。 埋め込みトークンを生成する場合、ユーザー名として[サービス プリンシパル オブジェクト ID](embed-service-principal.md) を使用します。
 
     > [!Note]
     > 運用環境にアプリケーションをデプロイする準備ができたら、マスター ユーザーのアカウント フィールドまたはオプションは、エンド ユーザーに対して非表示である必要があります。

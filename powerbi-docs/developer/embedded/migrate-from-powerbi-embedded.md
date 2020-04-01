@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 20546e0c9251f39ca49f6d713d5db48401937505
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114407"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404047"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法
 
@@ -126,13 +126,13 @@ Power BI ワークスペース コレクションから Power BI Embedded にコ
 
 **フロー**
 
-1. GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources を呼び出し、受信した接続文字列を保存します。
+1. GET `https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources` を呼び出し、受信した接続文字列を保存します。
 2. PaaS ワークスペースからの .pbix のダウンロード API の呼び出しを行います。
 3. PBIX を保存します。
 4. SaaS ワークスペースへの .pbix のインポートの呼び出しを行います。
-5. POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections を呼び出して接続文字列を更新します
-6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources を呼び出して GW とデータソースの識別子を取得します
-7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} を呼び出してユーザーの資格情報を更新します
+5. POST  `https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections` を呼び出して接続文字列を更新します
+6. GET `https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources` を呼び出して GW とデータソースの識別子を取得します
+7. PATCH `https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}` を呼び出してユーザーの資格情報を更新します
 
 #### <a name="old-dataset--reports"></a>古いデータセットとレポート
 

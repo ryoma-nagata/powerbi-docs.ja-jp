@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492792"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403667"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -96,7 +96,7 @@ PRO ライセンスでの埋め込みトークンは、開発テストを意図�
 
 PBI ポータルを使って、PBI テナント リージョンを確認できます。
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Power BI について
+[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Power BI について
 
 ![Power BI について](media/embedded-faq/about-01.png)
 ![テナント リージョン](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ Power BI で[サービス プリンシパル](embed-service-principal.md)を使�
 
 **[アプリケーション ID](embed-sample-for-customers.md#application-id)** は、認証のためにアプリケーション ID を渡すときに、アクセス トークンを作成する目的で使用されます。
 
-ワークスペースに管理者としてサービス プリンシパルを適用するなど、サービス プリンシパルを各種操作または変更のために参照するには、 **[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)** を使用します。
+ワークスペースに管理者としてサービス プリンシパルを適用するなど、サービス プリンシパルを各種操作または変更のために参照するには、 **[サービス プリンシパル オブジェクト ID](embed-service-principal.md)** を使用します。
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>サービス プリンシパルでオンプレミス データ ゲートウェイを管理できますか?
 

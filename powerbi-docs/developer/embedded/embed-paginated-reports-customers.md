@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 2280c29869ad072136ffe1bf068a6e37119ac905
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79495138"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403770"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>チュートリアル:顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む (プレビュー)
 
@@ -70,7 +70,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 専用の容量を作成すると、アプリ ワークスペースをその専用の容量に割り当てることができます。
 
-[サービス プリンシパル](embed-service-principal.md)を使用して専用の容量をワークスペースに割り当てるには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) を使用します。 Power BI REST API の使用時は必ず[サービス プリンシパル オブジェクト ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) を使用してください。
+[サービス プリンシパル](embed-service-principal.md)を使用して専用の容量をワークスペースに割り当てるには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) を使用します。 Power BI REST API の使用時は必ず[サービス プリンシパル オブジェクト ID](embed-service-principal.md) を使用してください。
 
 ### <a name="create-and-upload-your-paginated-reports"></a>ページ分割されたレポートを作成してアップロードする
 
