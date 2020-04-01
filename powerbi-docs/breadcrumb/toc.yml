@@ -19,6 +19,16 @@
             - name: 開発者
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
+              items:
+                - name: 埋め込み分析
+                  tocHref: /power-bi/developer/embedded/
+                  topicHref: /power-bi/developer/embedded/
+                - name: Power BI ビジュアル
+                  tocHref: /power-bi/developer/visuals/
+                  topicHref: /power-bi/developer/visuals/
+                - name: オートメーション
+                  tocHref: /power-bi/developer/automation/
+                  topicHref: /power-bi/developer/automation/
             - name: ガイド付き学習
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
