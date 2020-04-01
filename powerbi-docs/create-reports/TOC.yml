@@ -18,10 +18,8 @@
     - name: サンプル
       expanded: true
       items:
-        - name: Power BI のサンプル データを取得する
+        - name: Power BI のサンプルを入手する
           href: ../sample-datasets.md
-        - name: サンプル パックをインポートして開く
-          href: ../sample-tutorial-connect-to-the-samples.md
         - name: お客様の収益性のサンプル
           href: ../sample-customer-profitability.md
         - name: IT 支払い分析のサンプル
@@ -34,6 +32,8 @@
           href: ../sample-procurement.md
         - name: 小売りの分析のサンプル
           href: ../sample-retail-analysis.md
+        - name: 小売りの分析のサンプルの探索
+          href: ../sample-tutorial-connect-to-the-samples.md
         - name: 売上およびマーケティングのサンプル
           href: ../sample-sales-and-marketing.md
         - name: サプライヤー クオリティ分析のサンプル
