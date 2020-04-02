@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 360461a009187df5fdf2769e7c9a03e7d194b5ad
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 26b49e1b94db0d6c46639118e3e7cc3218bb4e1e
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79378503"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551051"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -423,18 +423,6 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 
 > [!NOTE]
 > 「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」も参考に是非ご覧ください。
-
-ご自身の組織で必要な場合は、以前のバージョンの Power BI Desktop をダウンロードすることもできます。 以前のバージョンではなく、最新バージョンの Power BI Desktop を常に使うことをお勧めします。 以前のバージョンはすべて次の制限を持っています。
-
-* 以前のリリースの Power BI Desktop はサービス提供されていません - 最新の機能と更新プログラムのためには常に最新のリリースを使う必要があります。
-* より新しいリリースの Power BI Desktop で作成されたファイルは、以前のバージョンの Power BI Desktop では開けない場合があります。 
-* 新しいリリースの Power BI Desktop で保存したレポートを読み込むときに警告が発生する場合は、以前のバージョンでそのレポートを保存します。新機能に関連する情報はすべて失われます。
-* アーカイブされるのは英語版の Power BI Desktop のみです。
-
-次のリンクを選択して、この以前のバージョンをダウンロードします。 
-
-* [2019 年 9 月バージョンの Power BI Desktop - 32 ビット](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
-* [2019 年 9 月バージョンの Power BI Desktop - 64 ビット](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>2019 年 8 月更新 (2.72.5556.801)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: dc429e4147016df07d339468090ad50bb6f14842
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 52f840d5806c10de088838cf64187b953f36aa54
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493896"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550940"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>チュートリアル:Power BI コンテンツを国内クラウド向けアプリケーションに埋め込む
 
@@ -116,7 +116,7 @@ Power BI では[国内クラウド](https://docs.microsoft.com/azure/active-dire
 
 * China Cloud 向け Power BI のパラメーター
 
-1. Cloud.config ファイルを [China Cloud 向け Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) コンテンツで上書きします。
+1. Cloud.config ファイルを [China Cloud 向け Power BI](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) コンテンツで上書きします。
 
 2. Web.config ファイルの applicationId (ネイティブ アプリ applicationId)、workspaceId、user (マスター ユーザー)、password を更新します。
 
@@ -143,7 +143,7 @@ Power BI では[国内クラウド](https://docs.microsoft.com/azure/active-dire
 
 * China Cloud 向け Power BI - ```https://app.powerbi.cn/apps```
 
-[顧客向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をダウンロードした場合、サンプルが Azure AD に対して認証を実行できるように、取得する **applicationId** を使います。 サンプルを構成するには、*web.config* ファイルの **applicationId** を変更します。
+[顧客向けの埋め込みのサンプル](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)をダウンロードした場合、サンプルが Azure AD に対して認証を実行できるように、取得する **applicationId** を使います。 サンプルを構成するには、*web.config* ファイルの **applicationId** を変更します。
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>ステップ 2 - Azure AD からアクセス トークンを取得する
 
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 Power BI クライアント オブジェクトを使って、埋め込むアイテムへの参照を取得します。 ダッシュボード、タイル、またはレポートを埋め込むことができます。 指定したワークスペースから最初のダッシュボード、タイル、またはレポートを取得する方法の例を次に示します。
 
-サンプルは、「[App Owns Data sample](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)」(アプリ所有データ サンプル) の **Controllers\HomeController.cs** にあります。
+サンプルは、「[App Owns Data sample](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)」(アプリ所有データ サンプル) の **Controllers\HomeController.cs** にあります。
 
 #### <a name="reports"></a>レポート
 
@@ -243,7 +243,7 @@ JavaScript API を使用して、埋め込みトークンを生成できます�
 > [!IMPORTANT]
 > 埋め込みトークンは開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。
 
-サンプルは、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)の **Controllers\HomeController.cs** にあります。
+サンプルは、[組織向けの埋め込みのサンプル](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)の **Controllers\HomeController.cs** にあります。
 
 **EmbedConfig** および **TileEmbedConfig** のクラスが作成されます。 サンプルは、**Models\EmbedConfig.cs** および **Models\TileEmbedConfig.cs** にあります。
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 JavaScript を使用して、Web ページの div 要素にダッシュ ボードを読み込むことができます。 このサンプルでは、EmbedConfig/TileEmbedConfig モデルと、ダッシュボード、タイル、またはレポートのビューを使います。 JavaScript API の使用に関する完全なサンプルについては、「[Microsoft Power BI Embedded Sample](https://microsoft.github.io/PowerBI-JavaScript/demo)」(Microsoft Power BI Embedded のサンプル) をご覧ください。
 
-アプリケーションのサンプルは、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)にあります。
+アプリケーションのサンプルは、[組織向けの埋め込みのサンプル](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)にあります。
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 
 ## <a name="next-steps"></a>次の手順
 
-* GitHub でサンプル アプリケーションを入手して確認できます。 上の例はそのサンプルに基づいています。 詳細については、[組織向けの埋め込みのサンプル](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)をご覧ください。
+* GitHub でサンプル アプリケーションを入手して確認できます。 上の例はそのサンプルに基づいています。 詳細については、[組織向けの埋め込みのサンプル](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)をご覧ください。
 
 * JavaScript API の詳細については、[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) のページを参照してください。
 

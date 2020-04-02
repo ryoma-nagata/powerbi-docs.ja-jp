@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 26b2cbfc8e57009b836b5ca650e16977de425f3a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 22c367dbc6160928541570bf2de37c51edcbfc14
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383484"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550883"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI のビジュアル
 
@@ -41,7 +41,7 @@ Microsoft とコミュニティのメンバーは公共の利益のために Pow
 
 ### <a name="what-is-appsource"></a>AppSource とは
 
-[AppSource](office-store.md) は Microsoft のソフトウェアのアプリ、アドイン、拡張機能のための場所です。 AppSource は、Office 365、Azure、Dynamics 365、Cortana、Power BI などの製品の何百万人ものユーザーを、これまでより効率よく、洞察力のある方法で仕事をするのに役立つソリューションに結び付けます。
+[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) は Microsoft のソフトウェアのアプリ、アドイン、拡張機能のための場所です。 AppSource は、Office 365、Azure、Dynamics 365、Cortana、Power BI などの製品の何百万人ものユーザーを、これまでより効率よく、洞察力のある方法で仕事をするのに役立つソリューションに結び付けます。
 
 ### <a name="certified-power-bi-visuals"></a>認定済み Power BI ビジュアル
 
