@@ -20,6 +20,8 @@
       items:
         - name: Power BI のサンプルを入手する
           href: ../sample-datasets.md
+        - name: COVID-19 US サンプル
+          href: sample-covid-19-us.md
         - name: お客様の収益性のサンプル
           href: ../sample-customer-profitability.md
         - name: IT 支払い分析のサンプル

@@ -1,93 +1,110 @@
-### YamlMime:Landing
+### YamlMime:Hub
 title: Power BI 開発者向けドキュメント
-summary: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+summary: Power BI 開発者は、Power BI コンテンツを埋め込んだり、Power BI ビジュアルを作成したり、Power BI プロセスを自動化したりできます。
+brand: power-bi
 metadata:
   title: Power BI 開発者向けドキュメント
-  description: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  description: Power BI 開発者は、Power BI コンテンツを埋め込んだり、Power BI ビジュアルを作成したり、Power BI プロセスを自動化したりできます。
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-developer
-  ms.topic: landing-page
+  ms.topic: hub-page
   ms.collection: collection
-  author: maggiesMSFT
-  ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
-  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/18/2020
-  ms.locfileid: "79487765"
-landingContent:
-- title: 開発者向け Power BI について
-  linkLists:
-  - linkListType: overview
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80487797"
+highlightedContent:
+  items:
+  - title: Power BI を使用した埋め込み分析
+    itemType: overview
+    url: embedded/embedding.md
+  - title: Azure の Power BI Embedded とは何か
+    itemType: overview
+    url: embedded/azure-pbie-what-is-power-bi-embedded.md
+  - title: Power BI のビジュアル
+    itemType: overview
+    url: visuals/power-bi-custom-visuals.md
+  - title: Power BI API の開発者向け機能
+    itemType: overview
+    url: automation/overview-of-power-bi-rest-api.md
+conceptualContent:
+  items:
+  - title: 埋め込み分析
     links:
-    - text: 開発者向け機能
-      url: what-can-you-do.md
-    - text: Power BI のビジュアル
-      url: visuals/power-bi-custom-visuals.md
-    - text: 埋め込みとは
-      url: embedded/embedding.md
-    - text: Power BI API とは
-      url: automation/overview-of-power-bi-rest-api.md
-  - linkListType: reference
+    - url: embedded/embedding.md
+      itemType: overview
+      text: Power BI を使用した埋め込み分析
+    - url: embedded/azure-pbie-what-is-power-bi-embedded.md
+      itemType: overview
+      text: Azure の Power BI Embedded とは何か
+    - url: embedded/embedded-capacity.md
+      itemType: concept
+      text: 容量と SKU
+    footerLink:
+      url: embedded/index.yml
+      text: 詳細情報
+  - title: Power BI ビジュアル
     links:
-    - text: デベロッパー センター
-      url: https://powerbi.microsoft.com/developers/
-    - text: 開発者向けのサンプル
-      url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: JavaScript Wiki
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: REST API
+    - url: visuals/power-bi-custom-visuals.md
+      itemType: overview
+      text: Power BI のビジュアル
+    - url: visuals/custom-visual-develop-tutorial.md
+      itemType: tutorial
+      text: Power BI のビジュアルを開発する
+    - url: visuals/office-store.md
+      itemType: how-to-guide
+      text: Power BI ビジュアルをパートナー センターに発行する
+    footerLink:
+      url: visuals/index.yml
+      text: 詳細情報
+  - title: オートメーション
+    links:
+    - url: automation/overview-of-power-bi-rest-api.md
+      itemType: overview
+      text: Power BI API の開発者向け機能
+    - url: automation/walkthrough-push-data.md
+      itemType: tutorial
+      text: Power BI データセットにデータをプッシュする
+    - url: automation/configure-credentials.md
+      itemType: how-to-guide
+      text: 資格情報を構成する
+    footerLink:
+      url: automation/index.yml
+      text: 詳細情報
+additionalContent:
+  sections:
+  - title: 関連するツール
+  - items:
+    - title: Power BI REST API
+      summary: Power BI の REST API には、埋め込み、管理およびユーザー リソース用のサービス エンドポイントがあります。
       url: https://docs.microsoft.com/rest/api/power-bi/
-    - text: Azure Resource Manager REST API
+    - title: Azure Resource Manager REST API
+      summary: Power BI 専用の容量を作成、取得、更新、削除できるようにする、RESTful Web サービスを提供する API。
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: ビジュアル
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: ビジュアルを開発する
-      url: visuals/custom-visual-develop-tutorial.md
-  - linkListType: concept
-    links:
-    - text: ビジュアルに関する FAQ
-      url: visuals/power-bi-custom-visuals-faq.md
-    - text: ビジュアルのガイドライン
-      url: visuals/guidelines-powerbi-visuals.md
-    - text: ビジュアルの高度な編集モード
-      url: visuals/advanced-edit-mode.md
-  - linkListType: how-to-guide
-    links:
-    - text: ビジュアルの認定を受ける
-      url: visuals/power-bi-custom-visuals-certified.md
-    - text: Power BI ビジュアルを AppSource に発行する
-      url: visuals/office-store.md
-- title: 埋め込み分析
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: 顧客向けにコンテンツを埋め込む
-      url: embedded/embed-sample-for-customers.md
-    - text: 組織向けにコンテンツを埋め込む
-      url: embedded/embed-sample-for-your-organization.md
-  - linkListType: concept
-    links:
-    - text: 行レベルのセキュリティ
-      url: embedded/embedded-row-level-security.md
-    - text: マルチテナントの管理
-      url: embedded/embed-multi-tenancy.md
-    - text: 埋め込みに関する FAQ
-      url: embedded/embedded-faq.md
-    - text: アクセス許可
-      url: embedded/power-bi-permissions.md
-  - linkListType: how-to-guide
-    links:
-    - text: アプリからの埋め込み
-      url: embedded/embed-from-apps.md
-    - text: Azure Active Directory テナントを作成する
-      url: embedded/create-an-azure-active-directory-tenant.md
-    - text: Azure AD アクセス トークンを取得する
-      url: embedded/get-azuread-access-token.md
-    - text: Power BI Embedded の Q&A 機能
-      url: embedded/qanda.md
+    - title: Power Platform ドキュメント
+      summary: Power BI、Power Apps、Power Automate、および Power Virtual Agents を連携させることによる機能強化について説明します。
+      url: https://docs.microsoft.com/power-platform/
+    - title: Power BI デベロッパー センター
+      summary: Power BI で構築します。
+      url: https://powerbi.microsoft.com/developers/
+    - title: Power BI ビジュアルのサンプル
+      summary: Power BI サンプルとそのコード ライブラリのコレクション。
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - title: Power BI ライブラリ
+      summary: Power BI ライブラリ (NuGet)。
+      url: https://www.nuget.org/profiles/powerbi
+    - title: 埋め込みセットアップ ツール
+      summary: Power BI 埋め込み環境を設定します。
+      url: https://app.powerbi.com/embedsetup
+    - title: プレイグラウンド
+      summary: 機能を試し、API を探索します。
+      url: https://aka.ms/pbieplayground
+    - title: JavaScript Wiki
+      summary: JavaScript ナレッジ ベースを探索します。
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

@@ -1,0 +1,120 @@
+- name: Power BI ビジュアルのドキュメント
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概要
+      expanded: true
+      items:
+        - name: Power BI のビジュアル
+          href: power-bi-custom-visuals.md
+    - name: チュートリアル
+      expanded: true
+      items:
+        - name: Power BI のビジュアルを開発する
+          href: custom-visual-develop-tutorial.md
+        - name: 書式設定オプションを追加する
+          href: custom-visual-develop-tutorial-format-options.md
+        - name: ビジュアル プロジェクトの単体テストを追加する
+          href: unit-tests-introduction.md
+    - name: 概念
+      items:
+        - name: Power BI ビジュアル プロジェクトの構造
+          href: visual-project-structure.md
+        - name: ビジュアルの概念
+          href: power-bi-visuals-concept.md
+        - name: Power BI での組織のビジュアル
+          href: power-bi-custom-visuals-organization.md
+        - name: Power BI ビジュアルのガイドライン
+          href: guidelines-powerbi-visuals.md
+        - name: ビジュアルに関する FAQ
+          href: power-bi-custom-visuals-faq.md
+        - name: 機能を使用する
+          href: capabilities.md
+        - name: データ ビューのマッピング
+          href: dataview-mappings.md
+        - name: オブジェクトとプロパティ
+          href: objects-properties.md
+        - name: 高度な編集モード
+          href: advanced-edit-mode.md
+    - name: 操作方法
+      items:
+        - name: 認定済みの Power BI ビジュアルを取得する
+          href: power-bi-custom-visuals-certified.md
+        - name: Power BI ビジュアルを AppSource に発行する
+          href: office-store.md
+        - name: Power BI で R を利用した Power BI ビジュアルを使用する
+          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+        - name: ビジュアル対話
+          href: visuals-interactions.md
+        - name: 選択範囲を追加する
+          href: selection-api.md
+        - name: ビジュアルのツールヒントを追加する
+          href: add-tooltips.md
+        - name: 分析ウィンドウを追加する
+          href: analytics-pane.md
+        - name: ビジュアルのフィルター処理
+          href: filter-api.md
+        - name: より多くのデータをフェッチする
+          href: fetch-more-data.md
+        - name: ブックマーク サポートを追加する
+          href: bookmarks-support.md
+        - name: コンテキスト メニュー サポートを追加する
+          href: context-menu.md
+        - name: ドリルダウン サポートの追加
+          href: drill-down-support.md
+        - name: ビジュアル内のデータを強調表示する
+          href: highlight.md
+        - name: ハイコントラスト モードのサポートを追加する
+          href: high-contrast-support.md
+        - name: スライサーの同期を有効にする
+          href: enable-sync-slicers.md
+        - name: ビジュアルのデバッグ
+          href: visuals-how-to-debug.md
+        - name: Power BI ビジュアルのトラブルシューティング
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: リファレンス
+      items:
+        - name: ランディング ページ
+          href: landing-page.md
+        - name: URL の起動
+          href: launch-url.md
+        - name: ローカル ストレージ API
+          href: local-storage.md
+        - name: イベントのレンダリング
+          href: event-service.md
+        - name: 並べ替え
+          href: sort-options.md
+        - name: ローカライズ
+          href: localization.md
+        - name: Power BI のビジュアル ユーティリティ
+          items:
+            - name: 外部ライブラリを追加する
+              href: adding-external-libraries.md
+            - name: インタラクティビティ ユーティリティ
+              href: utils-interactivity-selections.md
+            - name: ユーティリティの書式設定
+              href: utils-formatting.md
+            - name: データ ビュー ユーティリティ
+              href: utils-dataview.md
+            - name: グラフ ユーティリティ
+              href: utils-chart.md
+            - name: カラー ユーティリティ
+              href: utils-color.md
+            - name: SVG ユーティリティ
+              href: utils-svg.md
+            - name: タイプ ユーティリティ
+              href: utils-type.md
+            - name: ツールヒント ユーティリティ
+              href: utils-tooltip.md
+            - name: データ ビュー ユーティリティ
+              href: utils-dataview.md
+    - name: リソース
+      items:
+        - name: デベロッパー センター
+          href: 'https://powerbi.microsoft.com/developers/'
+        - name: Power BI ビジュアルのサンプル
+          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+        - name: Power BI ビジュアル Git リポジトリ
+          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+        - name: SSL 証明書を作成する
+          href: create-ssl-certificate.md

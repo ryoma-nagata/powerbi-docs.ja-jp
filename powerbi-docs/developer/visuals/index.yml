@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: Power BI ビジュアルのドキュメント
+summary: 独自の Power BI ビジュアルを開発することができます。これは、ユーザー、ユーザーの組織、または Power BI コミュニティ全体で使用できます。 Microsoft のドキュメントは、必要な情報を提供しています。
+metadata:
+  title: Power BI ビジュアルのドキュメント
+  description: 独自の Power BI ビジュアルを開発することができます。これは、ユーザー、ユーザーの組織、または Power BI コミュニティ全体で使用できます。 Microsoft のドキュメントは、必要な情報を提供しています。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516240"
+landingContent:
+- title: 作業の開始
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI のビジュアル
+      url: power-bi-custom-visuals.md
+    - text: Power BI ビジュアル プロジェクトの構造
+      url: visual-project-structure.md
+    - text: よく寄せられる質問
+      url: power-bi-custom-visuals-faq.md
+- title: Power BI のビジュアルを開発する
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: チュートリアル:Power BI のビジュアルを開発する
+      url: custom-visual-develop-tutorial.md
+    - text: チュートリアル:Power BI ビジュアルへの書式設定オプションの追加
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: Power BI ビジュアルのガイドライン
+      url: guidelines-powerbi-visuals.md
+- title: Power BI ビジュアルを発行する
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI ビジュアルをパートナー センターに発行する
+      url: office-store.md
+    - text: 認定済みの Power BI ビジュアルを取得する
+      url: power-bi-custom-visuals-certified.md
+- title: 参照とリソース
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI ビジュアルのサンプル
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: Git リポジトリ
+      url: https://github.com/Microsoft/PowerBI-visuals

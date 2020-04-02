@@ -1,0 +1,65 @@
+### YamlMime:Landing
+title: Power BI のオートメーションのドキュメント
+summary: Power BI のオートメーションを使用すると、レポート、データセット、ワークスペースなどの Power BI オブジェクトで管理タスクを実行できます。
+metadata:
+  title: Power BI のオートメーションのドキュメント
+  description: Power BI のオートメーションを使用すると、レポート、データセット、ワークスペースなどの Power BI オブジェクトで管理タスクを実行できます。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516401"
+landingContent:
+- title: 作業の開始
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI API でできることを理解する
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: tutorial
+    links:
+    - text: チュートリアル:データセットにデータをプッシュする
+      url: walkthrough-push-data.md
+    - text: チュートリアル:認証アクセス トークンを取得する
+      url: walkthrough-push-data-get-token.md
+    - text: チュートリアル:データセットの作成
+      url: walkthrough-push-data-create-dataset.md
+    - text: 行を追加するためにデータセットを取得する
+      url: walkthrough-push-data-get-datasets.md
+    - text: Power BI テーブルに行を追加する
+      url: walkthrough-push-data-add-rows.md
+- title: データの処理
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: リアルタイム データの自動保持ポリシー
+      url: api-automatic-retention-policy-for-real-time-data.md
+    - text: Power BI REST API の制限事項
+      url: api-rest-api-limitations.md
+    - text: データセットのプロパティ
+      url: api-dataset-properties.md
+  - linkListType: how-to-guide
+    links:
+    - text: 資格情報を構成する
+      url: configure-credentials.md
+- title: 参照とリソース
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST API
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Power BI REST API リファレンス
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: デベロッパー センター
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI ライブラリ
+      url: https://www.nuget.org/profiles/powerbi

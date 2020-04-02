@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: Power BI Embedded の分析ドキュメント
+summary: 2 つの埋め込み分析ソリューションの使用、Power BI Embedded、および Power BI Premium を使用した埋め込みについて説明します。
+metadata:
+  title: Power BI Embedded の分析ドキュメント
+  description: 2 つの埋め込み分析ソリューションの使用、Power BI Embedded、および Power BI Premium を使用した埋め込みについて説明します。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516263"
+landingContent:
+- title: 作業の開始
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI での埋め込みとは
+      url: embedding.md
+    - text: Azure の Power BI Embedded とは何か
+      url: azure-pbie-what-is-power-bi-embedded.md
+    - text: よく寄せられる質問
+      url: embedded-faq.md
+- title: レポートやダッシュボードを埋め込む
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: チュートリアル:顧客向けのアプリケーションに Power BI コンテンツを埋め込む
+      url: embed-sample-for-customers.md
+    - text: チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
+      url: embed-sample-for-your-organization.md
+    - text: チュートリアル:顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む
+      url: embed-paginated-reports-customers.md
+    - text: チュートリアル:Power BI コンテンツを国内クラウド向けアプリケーションに埋め込む
+      url: embed-sample-for-customers-national-clouds.md
+  - linkListType: reference
+    links:
+    - text: 埋め込みセットアップ ツール
+      url: https://app.powerbi.com/embedsetup
+    - text: 開発者向けのサンプルとスクリプト
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+- title: 運用を計画する
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: 容量と SKU
+      url: embedded-capacity.md
+    - text: キャパシティ プランニング
+      url: embedded-capacity-planning.md
+  - linkListType: concept
+    links:
+    - text: のパフォーマンスのベスト プラクティス
+      url: embedded-performance-best-practices.md
+    - text: Power BI のアクセス許可
+      url: power-bi-permissions.md
+    - text: 質問と回答
+      url: qanda.md
+    - text: 埋め込みアプリケーションのトラブルシューティング
+      url: embedded-troubleshoot.md
+- title: 参照とリソース
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST API
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Power BI REST API リファレンス
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: デベロッパー センター
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI ライブラリ
+      url: https://www.nuget.org/profiles/powerbi
+    - text: プレイグラウンド
+      url: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
+    - text: JavaScript Wiki
+      url: https://github.com/Microsoft/powerbi-javascript/wiki
