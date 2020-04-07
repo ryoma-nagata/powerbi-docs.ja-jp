@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 0804650149f98d7f63315025ffe3f8a1771ac2ef
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381033"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302748"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI サービスのレポートとダッシュボードを自分および他のユーザーがサブスクライブする
 
@@ -96,7 +96,7 @@ Pro ライセンスの有効期限が切れた場合、所有者がダッシュ�
 * レポート ページのサブスクリプションは、レポート ページの名前に関連付けられています。 レポート ページにサブスクライブしてから、名前を変更する場合は、サブスクリプションを再作成する必要があります。
 * 所属組織が Azure Active Directory 内の特定の設定を構成することで、Power BI でメール サブスクリプションを使用するための機能が制限される場合があります。  これらの制限には、リソースにアクセスするときの多要素認証や IP 範囲の制限が含まれますが、その限りではありません。
 * 現在のところ、セキュリティ コンテキストを利用して他のユーザーにサブスクリプションを送信できる、ページ分割されたレポートを使用していない限り、自分以外のユーザーをサブスクライブするとき、ライブ接続データセットを利用したレポート/ダッシュボードの電子メール サブスクリプションはサポートされません。
-* メール サブスクリプションでは、ほとんどの [Power BI ビジュアル](developer/visuals/power-bi-custom-visuals.md)がサポートされていません。  1 つの例外は、[認定](developer/visuals/power-bi-custom-visuals-certified.md)されている Power BI ビジュアルです。  
+* 電子メール サブスクリプションでサポートされているのは、既定および[認定された Power BI ビジュアル](developer/visuals/power-bi-custom-visuals.md)だけです。  
 * メール サブスクリプションでは、この時点では、R を利用した Power BI ビジュアルはサポートされていません。  
 * メール サブスクリプションは、レポートの既定のフィルターとスライサーの状態で送信されます。 サブスクライブした後に既定値を変更しても、メールには反映されません。  ページ分割されたレポートではこの機能がサポートされており、サブスクリプションごとに特定のパラメーター値を設定できます。
 * ダッシュボードのサブスクリプションに限り、特定の種類のタイルはまだサポートされていません。  ストリーミング タイル、ビデオ タイル、カスタム Web コンテンツ タイルなどです。     

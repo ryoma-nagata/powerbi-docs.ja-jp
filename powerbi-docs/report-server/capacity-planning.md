@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: parshah
-ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 8b30089fe04c832734bd418cc58fabb7b574a082
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78402014"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361780"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server のキャパシティ プランニング ガイダンス
 Power BI Report Server はセルフ サービスの BI およびエンタープライズ レポート ソリューションであり、ユーザーはファイアウォールの内側のオンプレミスに展開できます。 Power BI Desktop の対話型レポート機能と、SQL Server Reporting Services のオンプレミスのサーバー プラットフォームが組み合わされています。 企業では分析とレポートが大量に使用され、さらに増え続けており、エンタープライズ ユーザー ベースへの拡張に必要なハードウェア インフラストラクチャやソフトウェア ライセンスの予算が問題になる場合があります。 このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 レポート、クエリ、使用のパターンは組織によって大きく異なりますが、ここで示す結果と、実際に使われたテストおよび実行方法の詳細な説明は、Power BI Report Server の展開の早期計画プロセスで参考になります。
@@ -116,7 +116,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 ### <a name="1-topology"></a>1 トポロジ
 **1.1 Power BI Report Server のトポロジ**
 
-異なる構成での Power BI Report Server の動作にのみ注目するため、各マシンの種類 (Power BI Report Server をホストしているマシンを除きます) の VM の構成は固定にしました。 各マシンを、Premium Storage ディスクを使う第 2 世代 (v2) D シリーズ マシンに従ってプロビジョニングしました。 各 VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/ ) を参照してください。
+異なる構成での Power BI Report Server の動作にのみ注目するため、各マシンの種類 (Power BI Report Server をホストしているマシンを除きます) の VM の構成は固定にしました。 各マシンを、Premium Storage ディスクを使う第 2 世代 (v2) D シリーズ マシンに従ってプロビジョニングしました。 各 VM サイズについて詳しくは、[「汎用」セクション](https://azure.microsoft.com/pricing/details/virtual-machines/windows/)を参照してください。
 
 | 仮想マシンの種類 | プロセッサ | メモリ | Azure VM のサイズ |
 | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 
 **1.2 Power BI Report Server の仮想マシンの構成** 
 
-Power BI Report Server をホストする仮想マシンには、異なる構成のプロセッサとメモリを使いました。 他の VM とは異なり、このマシンは、Premium Storage ディスクを使う第 3 世代 (v3) D シリーズ マシンに従ってプロビジョニングしました。 この VM サイズについて詳しくは、「汎用」セクション (https://azure.microsoft.com/pricing/details/virtual-machines/windows/ ) を参照してください。
+Power BI Report Server をホストする仮想マシンには、異なる構成のプロセッサとメモリを使いました。 他の VM とは異なり、このマシンは、Premium Storage ディスクを使う第 3 世代 (v3) D シリーズ マシンに従ってプロビジョニングしました。 この VM サイズについて詳しくは、[「汎用」セクション](https://azure.microsoft.com/pricing/details/virtual-machines/windows/.)を参照してください。
 
 | 仮想マシン | プロセッサ | メモリ | Azure VM のサイズ |
 | --- | --- | --- | --- |

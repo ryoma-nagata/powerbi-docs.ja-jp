@@ -254,8 +254,14 @@
           items:
             - name: アプリでサービスに接続する
               href: ../service-connect-to-services.md
+            - name: COVID-19 US トラッキング レポート
+              href: service-connect-to-covid-19-tracking.md
+            - name: 危機管理コミュニケーション プレゼンス レポート
+              href: service-connect-to-crisis-communication-presence-report.md
             - name: GitHub
               href: ../service-connect-to-github.md
+            - name: 病院の緊急時対応の意思決定支援ダッシュボード
+              href: service-connect-to-health-emergency-response.md
             - name: Microsoft 持続可能性計算ツール
               href: ../service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon

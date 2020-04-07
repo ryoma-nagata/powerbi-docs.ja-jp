@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 03/26/2020
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 63275e882d71cd5c47a9a10baf4f0975abc2a845
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488800"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302476"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 
@@ -92,7 +92,7 @@ Power BI の更新操作は、データ更新、OneDrive の更新、クエリ �
 
 #### <a name="data-refresh"></a>データ更新
 
-Power BI ユーザーにとって、データ更新とは通常、更新スケジュールに基づくか、またはオンデマンドで、元のデータ ソースからデータセットへデータをインポートすることを意味します。 データセットの更新は 1 日に複数回実行でき、基になるソース データが頻繁に変更される場合には、その必要が生じる可能性があります。 Power BI では、共有された容量にあるデータセットに対して、1 日の更新を 8 回までに制限しています。 データセットが Premium 容量にある場合は、データセットの設定で、1 日に最大 48 回まで更新をスケジュールできます。 詳しくは、この記事で後述する「[スケジュールされた更新の構成](#configure-scheduled-refresh)」をご覧ください。
+Power BI ユーザーにとって、データ更新とは通常、更新スケジュールに基づくか、またはオンデマンドで、元のデータ ソースからデータセットへデータをインポートすることを意味します。 データセットの更新は 1 日に複数回実行でき、基になるソース データが頻繁に変更される場合には、その必要が生じる可能性があります。 Power BI では、共有された容量にあるデータセットに対して、1 日の更新を 8 回までに制限しています。 データセットが Premium 容量にある場合は、データセットの設定で、1 日に最大 48 回まで更新をスケジュールできます。 詳しくは、この記事で後述する「[スケジュールされた更新の構成](#configure-scheduled-refresh)」をご覧ください。 [XMLA エンドポイント](service-premium-connect-tools.md)で読み取り/書き込みが有効になっている Premium 容量のデータセットでは、TMSL または PowerShell を使用してプログラムによって構成した場合、無制限の更新操作がサポートされます。
 
 1 日あたりの更新に関する共有容量の制限は、スケジュールされた更新と API による更新の両方に適用されることを周知することも重要です。 次のスクリーンショットに示すように、データセット メニューにある **[今すぐ更新]** を選択して、オンデマンドの更新をトリガーすることもできます。 オンデマンドの更新は、更新の制限の対象外です。 また、Premium 容量上のデータセットには、API による更新の制限は課されません。 Power BI REST API を使用して独自の更新ソリューションを作成したい場合は、「[データセット - データセットの更新](/rest/api/power-bi/datasets/refreshdataset)」を参照してください。
 

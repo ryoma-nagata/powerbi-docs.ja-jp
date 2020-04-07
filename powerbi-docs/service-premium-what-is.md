@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381171"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329662"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium とは
 
-Power BI Premium では、お客様の組織を対象にして Power BI サービスを実行するための専用の拡張リソースが提供されます。 例:
+Power BI Premium を使用すると、組織の専用リソースと拡張されたリソースを取得できるため、組織内のユーザーはより優れたパフォーマンスと応答性を持つ Power BI サービスを使用できます。 たとえば、Power BI Premium サブスクリプションでは、お客様とお客様の組織のユーザーは以下を手に入れることができます。
 
 > [!div class="checklist"]
 > * より大きなスケールとパフォーマンス
@@ -29,13 +29,16 @@ Power BI Premium では、お客様の組織を対象にして Power BI サー�
 > * 地域別にデータの所在地をサポート (Multi-geo)
 > * ユーザー別ライセンスを購入することなくどのユーザーともデータを共有できる
 
+
+![管理ポータル](media/service-premium-what-is/premium-admin-portal.png) 
+
 この記事では、Power BI Premium の主要な機能を紹介します。 必要に応じて、より詳細な情報が記載されているその他の記事へのリンクが提供されています。 Power BI Pro と Power BI Premium の詳細については、「[Power BI の価格](https://powerbi.microsoft.com/pricing/)」の「_Power BI 機能の比較_」セクションを参照してください。
 
 ## <a name="subscriptions-and-licensing"></a>サブスクリプションとライセンス
 
 Power BI Premium は、2 つの SKU (Stock Keeping Unit) ファミリで利用可能なテナントレベルの Office 365 サブスクリプションです。
 
-- **P** SKU (P1 から P3) - 埋め込みおよびエンタープライズ機能、月間契約または年間契約が必要、1 か月単位での課金。オンプレミスの Power BI Report Server をインストールするライセンスも含まれている。
+- **P** SKU (P1 から P5) - 埋め込みおよびエンタープライズ機能、月間契約または年間契約が必要、1 か月単位での課金。オンプレミスの Power BI Report Server をインストールするライセンスも含まれている。
 
 - **EM** SKU (EM1 から EM3) - "_組織的な_" 埋め込み、年間契約が必要、1 か月単位での課金。 EM1 および EM2 SKU は、ボリューム ライセンス プランを通してのみ利用できます。 直接購入することはできません。
 
@@ -81,6 +84,8 @@ Power BI Premium では、"*専用の容量*" が提供されます。 他の顧
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 > [!NOTE]
@@ -219,7 +224,7 @@ Power BI Premium に含まれている Power BI Report Server は Web ポータ�
 
 ## <a name="unlimited-content-sharing"></a>無制限のコンテンツの共有
 
-Premium を使用すれば、組織内外いずれのユーザーも、個別ライセンスを購入することなく、ページ分割されたレポートや対話式のレポートなど、ご利用の Power BI コンテンツを表示できます。 
+Premium を使用すれば、組織内外いずれのユーザーも、個別ライセンスを購入することなく、ページ分割されたレポートや対話式のレポートなど、お客様の Power BI コンテンツを表示できます。 
 
 ![コンテンツの共有](media/service-premium-what-is/premium-sharing.png)
 
@@ -229,13 +234,14 @@ Premium では、コンテンツを表示する受信者に Pro ライセンス�
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium での Analysis Services (プレビュー)
 
-内部では、企業で実証済みの Microsoft  **Analysis Services Vertipaq エンジン**によって Power BI データセットが強化されます。 Analysis Services では、オープンスタンダードの XMLA プロトコルをサポートするクライアント ライブラリと API を介して、プログラミング機能やクライアント アプリケーションおよびツールがサポートされます。 現在、Power BI Premium データセットでは、Microsoft およびサードパーティのクライアント アプリケーションおよびツールから **XMLA エンドポイント**を経由して行う*読み取り専用*操作がサポートされています。 
+内部では、企業で実証済みの Microsoft **Analysis Services Vertipaq エンジン**によって Power BI Premium ワークスペースとデータセットが強化されます。 Analysis Services では、オープンスタンダードの XMLA プロトコルをサポートするクライアント ライブラリと API を介して、プログラミング機能やクライアント アプリケーションおよびツールがサポートされます。 既定では、Power BI Premium 容量データセット ワークロードでは、Microsoft およびサードパーティのクライアント アプリケーションおよびツールから **XMLA エンドポイント**を経由して行う "*読み取り専用*" 操作がサポートされています。 また、容量管理者は、エンドポイントを経由した "*読み取り/書き込み*" 操作を無効にすることも、許可することもできます。
 
-SQL Server Management Studio や SQL Server Profiler などの Microsoft のツール、および DAX Studio やデータ視覚化アプリケーションなどのサードパーティ アプリでは、XMLA、DAX、MDX、DMV、および Trace イベントを使用して Premium データセットに接続し、それに対してクエリを実行することができます。 
+読み取り専用アクセスの場合、SQL Server Management Studio (SSMS) や SQL Server Profiler などの Microsoft のツール、および DAX Studio やデータ視覚化アプリケーションなどのサードパーティ アプリでは、XMLA、DAX、MDX、DMV、および Trace イベントを使用して Premium データセットに接続し、それに対してクエリを実行することができます。 読み取り/書き込みアクセスの場合、Visual Studio と Analysis Services プロジェクト拡張機能や、オープン ソースの表形式エディターなどのエンタープライズ データ モデリング ツールで、表形式モデルをデータセットとして Premium ワークスペースに配置できます。 また、SSMS などのツールを使用すると、管理者は表形式モデルのスクリプト言語 (TMSL) を使用して、メタデータの変更や高度なデータ更新のシナリオをスクリプト化することができます。 
+
+詳細については、[XMLA エンドポイントを使用したデータセット接続](service-premium-connect-tools.md)に関するページを参照してください。
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-詳細については、[クライアント アプリケーションとツールを使用してデータセットに接続](service-premium-connect-tools.md)に関するページを参照してください。
 
 ## <a name="next-steps"></a>次の手順
 

@@ -6,22 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/05/2020
+ms.date: 03/10/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 0f0957962a761623262268f8c84c338000ba56f2
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6886bc628add44f94c91b77cada97abf81635e78
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79078981"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302295"
 ---
 # <a name="collaborate-in-workspaces"></a>ワークスペースで共同作業する
 
  "*ワークスペース*" は、特定のコンテンツで同僚と共同作業を行う場所です。 ワークスペースは、ダッシュボード、レポート、およびアプリのコレクションを保持するために Power BI "*デザイナー*" が作成します。 
 
+## <a name="types-of-workspaces"></a>ワークスペースの種類
+**マイ ワークスペース**には、ユーザーが所有および作成するすべてのコンテンツが格納されます。 これは、個人用サンドボックスまたはユーザーのコンテンツの作業領域と考えることができます。 Power BI を使用する多くのコンシューマーの場合、**マイ ワークスペース**は空のままです。これは、ジョブに新しいコンテンツの作成が含まれていないためです。 定義上、コンシューマーは、他のユーザーが作成したデータを利用し、そのデータを使用してビジネス上の意思決定を行います。 コンテンツを作成することがわかっている場合は、代わりに、[デザイナー向けの Power BI に関する記事](../create-reports/index.yml)を参照することを検討してください。
 
-<art showing different wss>
+**アプリ ワークスペース**には、特定のアプリのすべてのコンテンツが含まれます。 *デザイナー*は、アプリを作成するときに、そのアプリを利用するために必要なすべてのコンテンツをアプリにバンドルします。 コンテンツには、ダッシュボード、レポート、アプリ、データセットが含まれる場合があります。 すべてのアプリに、これらの 4 種類のコンテンツが含まれているとは限りません。 1 つのダッシュボードのみを含むアプリや、各コンテンツの種類を 3 つずつ含むアプリもあります。また、20 個以上ものレポートを含むアプリもあります。 これはすべて、*デザイナー*がアプリにどんなコンテンツを含めるかによって異なります。 一般的には、"*コンシューマー*" のアプリ ワークスペースにデータセットは含まれません。
+
+<!--<art showing different wss> -->
 
 ## <a name="roles-in-the-workspaces"></a>ワークスペース内のロール
 
@@ -42,3 +46,16 @@ Power BI "*コンシューマー*" として、**ビューアー** ロールを�
 ## <a name="next-steps"></a>次の手順
 * [Power BI のアプリ](end-user-apps.md)    
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+
+
+
+
+
+
+
+
+
+
+
+
+
