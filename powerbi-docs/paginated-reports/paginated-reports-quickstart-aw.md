@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aa916afbf439beb7019bd6f0af30cc56ad903704
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207231"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404883"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>チュートリアル:ページ分割されたレポートを作成して Power BI サービスにアップロードする
 
@@ -286,7 +286,7 @@ Power BI サービスにレポートを発行する前に、もう 1 つの書�
 
 このページ分割されたレポートの作成は済んだので、次に Power BI サービスにレポートをアップロードします。
 
-1. Power BI サービス (https://app.powerbi.com) のナビ ペイン) で、 **[ワークスペース]**  >  **[ワークスペースの作成]** の順に選択します。
+1. Power BI サービス (`https://app.powerbi.com`) のナビ ペインで、 **[ワークスペース]**  >  **[ワークスペースの作成]** の順に選択します。
 
 2. ワークスペースに、「**Azure AW**」または他の一意名を付けます。 今のところ、メンバーはまだ自分だけです。 
 

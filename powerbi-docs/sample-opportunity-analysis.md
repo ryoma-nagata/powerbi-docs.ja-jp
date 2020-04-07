@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d871fa15c999e5b6c83b0334d6c978b2ba3c9870
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4863bfe3d99a63fbf4ad49834e66ecb8fcaf5525
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858706"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404143"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の営業案件の分析のサンプル:ツアーを開始する
 
@@ -66,7 +66,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529782) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
+このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529782) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View および Power Pivot のアドインを有効にするための詳細については、[Excel での Excel のサンプルの確認](sample-datasets.md#explore-excel-samples-inside-excel)に関するセクションを参照してください。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>ダッシュボードからわかること
 セールス マネージャーは、自分にとって最も重要なメトリックを追跡するためにダッシュボードを作成しました。 何か興味深いものがある場合は、タイルを選んで詳しいデータを確認できます。

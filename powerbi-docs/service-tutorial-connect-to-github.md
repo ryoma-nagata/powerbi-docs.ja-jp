@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871266"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403406"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>チュートリアル:Power BI を使用して GitHub リポジトリに接続する
 このチュートリアルでは、Power BI で GitHub サービスの実際のデータに接続します。Power BI でダッシュボードとレポートが自動的に作成されます。 Power BI のコンテンツ パブリック リポジトリ (単に "*リポジトリ*" とも呼ばれます) に接続すると、次のような質問に対する回答が表示されます。Power BI のパブリック コンテンツに寄稿しているユーザーの数、 最も寄稿が多いユーザーは誰か、 最も寄稿が多いのは何曜日か、 その他の質問もあります。 
@@ -43,7 +43,7 @@ GitHub アカウントをまだ持っていない場合、このチュートリ�
 
 
 ## <a name="how-to-connect"></a>接続する方法
-1. Power BI サービスにサインインします (https://app.powerbi.com) 。 
+1. Power BI サービスにサインインします (`https://app.powerbi.com`)。 
 2. ナビ ペインで **[アプリ]** を選んでから、 **[アプリの取得]** を選びます。
    
    ![Power BI のアプリの取得](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
@@ -64,7 +64,7 @@ GitHub アカウントをまだ持っていない場合、このチュートリ�
 
 5. 作成した GitHub の資格情報を入力します。 お使いのブラウザーで GitHub に既にサインインしている場合、Power BI はこのステップを省略することがあります。 
 
-6. **[認証方法]** に **[oAuth2]** が選択されている状態で **[サインイン]** をクリックします。
+6. **[認証方法]** に **[oAuth2]** が選択されている状態で \> **[サインイン]** をクリックします。
 
 7. GitHub の認証画面に従います。 GitHub データへのアクセス許可を Power BI に付与します。
    
@@ -101,9 +101,9 @@ GitHub アカウントをまだ持っていない場合、このチュートリ�
 
 13. **[how many]** と **[users are there]** の間に「**pull requests per**」と入力します。 
 
-     Power BI によって、ユーザーあたりのプル要求数を示す棒グラフが作成されます。
+     Power BI によって、ユーザーあたりの pull request 数を示す棒グラフが作成されます。
 
-    ![ユーザーあたりのプル要求数](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
+    ![ユーザーあたりの pull request 数](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
 
 
 13. ピンを選択してダッシュボードにそれをピン留めし、 **[Q&A の終了]** をクリックします。

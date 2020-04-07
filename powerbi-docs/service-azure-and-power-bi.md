@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873214"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487777"
 ---
 # <a name="azure-and-power-bi"></a>Azure と Power BI
 
@@ -58,7 +58,7 @@ Azure と Power BI を使用して必要な限りの拡張を行えます。 複
 
 [Power BI デベロッパー ポータル](https://dev.powerbi.com)には、Power BI API に関する詳細が示されています。
 
-詳細については、「[開発者が Power BI でできること](developer/what-can-you-do.md)」を参照してください。
+詳細については、「[Azure の Power BI Embedded とは何か](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)」を参照してください。
 
 ## <a name="embed-your-power-bi-data-within-your-app"></a>アプリ内に Power BI データを埋め込む
 

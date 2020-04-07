@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205299"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404164"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI のお客様の収益性のサンプル:ツアーを開始する
 
@@ -56,7 +56,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529781) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
+このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529781) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View および Power Pivot のアドインを有効にするための詳細については、[Excel での Excel のサンプルの確認](sample-datasets.md#explore-excel-samples-inside-excel)に関するセクションを参照してください。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>ダッシュボードからわかること
 
@@ -133,7 +133,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 ### <a name="team-scorecard-page"></a>「チーム スコアカード」ページ
 ![チーム スコアカード レポート ページ](media/sample-customer-profitability/customer2.png)
 
-2 人のチーム メンバーを詳しく考察し、どのような洞察が得られるかを確認してみましょう。 
+2 人のチーム メンバーを詳しく考察し、どのような分析情報が得られるかを確認してみましょう。 
 
 1. 左側の **[Executive]** スライサーで Andrew の名前を選んで、Andrew のデータのみが表示されるようにレポート ページをフィルター処理します。
 
@@ -148,7 +148,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
    * **[Revenue Status (Total Year)]\(収益の状態 (年合計)\)** の赤色の KPI に注意してください。 この項目は、明らかにさらなる調査が必要です。
    * Valery の収益差異は、設定された収益マージンを Valery が満たしていないという懸念点も示しています。
    * Valery の顧客はわずか 9 社で、2 製品のみを扱い、取引先はほぼ北部地域の顧客のみに限られています。 この特殊性は、メトリックにおける変動幅が大きいことの説明になる可能性があります。
-   * ツリーマップ内の **[North]\(北部\)** の四角形を選ぶと、北部地域での Valery の粗利益が全体的な利益と一貫性があることがわかります。
+   * ツリー マップ内の **[North]\(北部\)** の四角形を選ぶと、北部地域での Valery の粗利益が全体的な利益と一貫性があることがわかります。
    * **[Total Revenue by Region]\(地域別合計収益\)** の他の四角形をそれぞれ選択すると、興味深いことがわかります。その GM% は 23% から 79% の範囲にあるのです。 Valery の収益の数値は、北部地域を除くすべての地域で、非常に季節性があります。
 
 3. なぜ Valery の領域で業績が良くないかを知るためにデータの詳しい調査を続けます。 複数の地域、他の事業部、レポートの次のページ **[Industry Margin Analysis]\(業界の利益分析\)** を調べます。
@@ -173,7 +173,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 このページには、カスタム ページ サイズ フォーマットがあります。
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Q&A で質問をすることによるデータの詳しい考察
-どの業界が Valery の最大の収益を生み出すかを判別することは分析に役立つ場合があります。 Q&A を利用してみましょう
+どの業界が Valery の最大の収益を生み出すかを判別することは分析に役立つ場合があります。 Q&A を利用してみましょう。
 
 1. **[レポートの編集]** を選んで、編集ビューでレポートを開きます。 編集ビューは、自分がレポートを所有している場合にのみ使用できます。 このビューは、*作成者*モードと呼ばれることがあります。 自分がレポートを共有しているだけの場合は、編集ビューで開くことはできません。
 

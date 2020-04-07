@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/27/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1208a598c08b87d0e479e4d8901f880a5dfa6900
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527628"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361812"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI での増分更新
 
@@ -136,7 +136,7 @@ Power BI サービスの最初の更新では、丸 5 年間のすべてをイ�
 >
 > 更新頻度の要件で許容されるレベルに有効桁数を減らします。
 >
-> データ変更検出のカスタム クエリを後で定義できるようにする予定です。 これを使うと、列の値をすべて永続化しなくても済みます。
+> XMLA エンドポイントを使用してデータの変更を検出するためのカスタム クエリを定義し、列の値の全体的な永続化を回避します。 詳細については、後述する「データ変更の検出のためのカスタム クエリ」を参照してください。
 
 #### <a name="only-refresh-complete-periods"></a>完了期間のみを更新
 
@@ -155,7 +155,7 @@ Power BI サービスの最初の更新では、丸 5 年間のすべてをイ�
 
 ## <a name="query-timeouts"></a>クエリのタイムアウト
 
-[更新のトラブルシューティング](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios)に関する記事では、Power BI サービスでの更新操作がタイムアウトの対象になることが説明されています。 クエリは、データ ソースの既定のタイムアウトによっても制限できます。 ほとんどのリレーショナル ソースでは、M 式でタイムアウトをオーバーライドできます。 たとえば、次の例では、[SQL Server のデータ アクセス関数](https://msdn.microsoft.com/query-bi/m/sql-database)を使って 2 時間に設定しています。 ポリシーの範囲によって定義されている各期間が、コマンド タイムアウトの設定に従ってクエリを送信します。
+[更新のトラブルシューティング](refresh-troubleshooting-refresh-scenarios.md)に関する記事では、Power BI サービスでの更新操作がタイムアウトの対象になることが説明されています。 クエリは、データ ソースの既定のタイムアウトによっても制限できます。 ほとんどのリレーショナル ソースでは、M 式でタイムアウトをオーバーライドできます。 たとえば、次の例では、[SQL Server のデータ アクセス関数](https://docs.microsoft.com/powerquery-m/sql-database)を使って 2 時間に設定しています。 ポリシーの範囲によって定義されている各期間が、コマンド タイムアウトの設定に従ってクエリを送信します。
 
 ```powerquery-m
 let
@@ -166,7 +166,89 @@ in
     #"Filtered Rows"
 ```
 
-## <a name="limitations"></a>制限事項
+## <a name="xmla-endpoint-benefits-for-incremental-refresh"></a>増分更新に関する XMLA エンドポイントの利点
 
-現在のところ、[複合モデル](desktop-composite-models.md)の場合、増分更新は SQL Server、Azure SQL Database、SQL Data Warehouse、Oracle、Teradata データ ソースでのみサポートされています。
+Premium 容量でのデータセットに対する [XMLA エンドポイント](service-premium-connect-tools.md)を、読み取り、書き込み操作に対して有効にすることができます。これは、増分更新において大きな利点となります。 XMLA エンドポイントを介した更新操作は、[1 日 48 回の更新](refresh-data.md#data-refresh)に制限されるものではなく、さらに[スケジュールされた更新のタイムアウト](refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout)も適用されません。このことは、増分更新のシナリオで役に立ちます。
 
+### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>SQL Server Management Studio (SSMS) を使用した更新管理
+
+XMLA エンドポイントの読み取り、書き込みが有効になっていると、増分更新ポリシーの適用によって生成されたパーティションを、SSMS を使用して表示および管理することができます。
+
+![SSMS でのパーティション](media/service-premium-incremental-refresh/ssms-partitions.png)
+
+#### <a name="refresh-historical-partitions"></a>履歴パーティションを最新の情報に更新する
+
+これにより、たとえば、増分範囲内にない特定の履歴パーティションを更新することで、日付を遡って更新を実行することができます。すべての履歴データを最新の情報に更新する必要はありません。
+
+#### <a name="override-incremental-refresh-behavior"></a>増分更新の動作をオーバーライドする
+
+SSMS では、[テーブル モデルのスクリプト言語 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) と[表形式オブジェクト モデル (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) を使用して、増分更新を呼び出す方法をより細かく制御することもできます。 たとえば、SSMS では、オブジェクト エクスプローラーでテーブルを右クリックしてから、 **[テーブルの処理]** メニュー オプションを選択します。 次に、 **[スクリプト]** ボタンをクリックして、TMSL 更新コマンドを生成します。
+
+![[テーブルの処理] ダイアログの [スクリプト] ボタン](media/service-premium-incremental-refresh/ssms-process-table.png)
+
+次のパラメーターを TMSL 更新コマンドに挿入すれば、既定の増分更新動作をオーバーライドできます。
+
+- **applyRefreshPolicy** – テーブルで増分更新ポリシーが定義されている場合、そのポリシーを適用するかどうかは applyRefreshPolicy で決定されます。 ポリシーが適用されていない場合、完全処理操作では、パーティション定義は変わらないままで、テーブル内のすべてのパーティションは完全に更新されます。 既定値は true です。
+
+- **effectiveDate** – 増分更新ポリシーが適用されている場合は、履歴範囲と増分範囲に対するローリング ウィンドウ範囲を決定するために現在の日付を把握しておく必要があります。 effectiveDate パラメーターを使用すると、現在の日付をオーバーライドすることができます。 これは、データを過去または将来の日付まで増分更新するテスト、デモ、およびビジネスのシナリオにおいて役立ちます (たとえば、将来の予算)。 既定値は[現在の日付](#current-date)です。
+
+```json
+{ 
+  "refresh": {
+    "type": "full",
+
+    "applyRefreshPolicy": true,
+    "effectiveDate": "12/31/2013",
+
+    "objects": [
+      {
+        "database": "IR_AdventureWorks", 
+        "table": "FactInternetSales" 
+      }
+    ]
+  }
+}
+```
+
+### <a name="custom-queries-for-detect-data-changes"></a>データ変更の検出のためのカスタム クエリ
+
+TMSL または TOM を使用して、検出されたデータ変更動作をオーバーライドできます。 これを使用すれば、メモリ内キャッシュでの最終更新列の永続化を回避できるだけでなく、更新が必要なパーティションのみにフラグを付ける目的で ETL プロセスによって構成または命令テーブルが準備されるというシナリオを有効にすることができます。 これにより、データ更新がどれほど前に行われたかに関係なく、必要な期間についてのみ更新されるという、より効率的な増分更新プロセスを作成できます。
+
+pollingExpression は、他の M クエリの簡易な M 式または名前とすることを目的としています。 スカラー値が返される必要があり、パーティションごとに実行されます。 返された値が、増分更新を最後に実行したときとは異なる場合、パーティションには完全処理のフラグが設定されます。
+
+次の例では、日付を遡った変更について履歴の範囲内の 120 か月すべてが対象とされています。 10 年ではなく 120 か月を指定した場合、データ圧縮はそれほど効率的ではないかもしれませんが、履歴年の 1 年全体を最新の情報に更新する必要はなくなります (それを行うとしたら、日付を遡った変更には 1 か月で十分である場合によりコストがかかります)。
+
+```json
+"refreshPolicy": {
+    "policyType": "basic",
+    "rollingWindowGranularity": "month",
+    "rollingWindowPeriods": 120,
+    "incrementalGranularity": "month",
+    "incrementalPeriods": 120,
+    "pollingExpression": "<M expression or name of custom polling query>",
+    "sourceExpression": [
+    "let ..."
+    ]
+}
+```
+
+## <a name="metadata-only-deployment"></a>メタデータのみの配置
+
+新しいバージョンの PBIX ファイルを Power BI Desktop から Power BI サービス内のワークスペースに発行すると、同じ名前を持つデータセットが既に存在している場合、既存のデータセットを置き換えるように求められます。
+
+![データセットの置換を求めるプロンプト](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
+
+場合によっては、データセットを置換したくないこともあります (特に増分更新で)。 Power BI Desktop 内のデータセットは、サービス内のものより大幅に小さくなる可能性があります。 サービス内のデータセットに増分更新ポリシーが適用されている場合、データセットが置換されると、数年分の履歴データが失われる可能性があります。 すべての履歴データを最新の情報に更新すると、時間がかかり、ユーザーに対してシステムのダウンタイムが発生する可能性があります。
+
+代わりに、メタデータのみの展開を実行することをお勧めします。 そうすれば、履歴データを失うことなく新しいオブジェクトを展開することができます。 たとえば、いくつかのメジャーを追加した場合、データを最新の情報に更新する必要なく新しいメジャーのみを展開できるので、時間を大幅に節約できます。
+
+読み取り、書き込みに対して構成した場合、XMLA エンドポイントは、それを行うツールとの互換性を提供します。 たとえば、ALM Toolkit は Power BI データセット用のスキーマ差分ツールであり、これを使用すればメタデータの展開のみを実行することができます。
+
+[Analysis Services の Git リポジトリ](https://github.com/microsoft/Analysis-Services/releases)から最新バージョンの ALM Toolkit をダウンロードしてインストールします。 ドキュメントのリンクと、サポートの可否に関する情報には、[ヘルプ] リボンからアクセスできます。 メタデータのみの展開を実行するには、比較を実行し、実行中の Power BI Desktop インスタンスをソースとして、サービス内の既存のデータセットをターゲットとして選択します。 表示される相違点を検討し、テーブルと増分更新パーティションの更新をスキップするか、[オプション] ダイアログを使用してテーブルの更新のためにパーティションを維持します。 選択内容を検証してターゲット モデルの整合性を確保してから、更新を行います。
+
+![ALM Toolkit](media/service-premium-incremental-refresh/alm-toolkit.png)
+
+## <a name="see-also"></a>関連項目
+
+[XMLA エンドポイントを使用したデータセット接続](service-premium-connect-tools.md)   
+[更新に関するトラブルシューティング シナリオ](refresh-troubleshooting-refresh-scenarios.md)   

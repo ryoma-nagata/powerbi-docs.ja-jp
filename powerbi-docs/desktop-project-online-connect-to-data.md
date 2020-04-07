@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 281d5b616b58fce4326e6d719502e443c249372a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403165"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550915"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop 経由で Project Online データに接続する
 Power BI Desktop を経由して Project Online のデータに接続することができます。
@@ -31,7 +31,10 @@ Power BI Desktop を経由して Project Online のデータに接続するこ�
    
    Project Web App サイトのアドレスが *https://\<tenantname\>.sharepoint.com/sites/pwa* である場合、OData フィードに入力するアドレスは *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata* になります。
    
-   この例では、`https://contoso.sharepoint.com/sites/pwa/default.aspx` を使用します。
+   この例では、次のコードを使用します。
+
+    `https://contoso.sharepoint.com/sites/pwa/default.aspx`
+
 5. Power BI Desktop により、Office 365 アカウントを使用して認証するよう求められます。 組織アカウントを選択し、資格情報を入力します。
    
    ![](media/desktop-project-online-connect-to-data/image.png)

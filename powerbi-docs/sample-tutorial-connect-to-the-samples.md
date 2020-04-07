@@ -1,37 +1,37 @@
 ---
-title: Power BI サービス内のサンプルに接続する
-description: Power BI サービスにサンプルをインストールして探索する方法について説明します。
+title: 小売りの分析のサンプルを探索する
+description: Power BI サービスと Power BI Desktop に小売りの分析のサンプルをインストールして探索する方法について説明します。
 author: maggiesMSFT
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f18ec650167b7872cb332bc9ccd606f7ea1f7500
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762165"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404610"
 ---
-#  <a name="import-and-open-sample-packs-for-power-bi"></a>Power BI のサンプル パックをインポートして開く
+# <a name="explore-the-retail-analysis-sample"></a>小売りの分析のサンプルを探索する
 
 このチュートリアルでは、次の方法を紹介します。 
-- サンプル コンテンツ パックをインポートして Power BI サービスに追加し、コンテンツを開く。 *コンテンツ パック*は、データセットにダッシュボードやレポートがバンドルされているタイプのサンプルです。 
-- Power BI Desktop でサンプルの .pbix ファイルを開く。
+- 小売りの分析のサンプル コンテンツ パックをインポートして Power BI サービスに追加し、コンテンツを開きます。 *コンテンツ パック*は、データセットにダッシュボードやレポートがバンドルされているタイプのサンプルです。 
+- 小売りの分析のサンプルの .pbix ファイルを Power BI Desktop で開きます。
 
 背景情報の詳細については、「[Power BI 用のサンプル データセット](sample-datasets.md)」を参照してください。 その記事では、入手方法、保存場所、使用方法、各サンプルのストーリーなど、サンプルに関するすべてがわかります。 
 
 ## <a name="prerequisites"></a>前提条件
-このサンプルは、Power BI サービスでも Power BI Desktop でも利用できます。 作業を進めるには、小売りの分析のサンプルを開きます。
+このサンプルは、Power BI サービスでも Power BI Desktop でも利用できます。 手順に沿って作業を進める場合は、小売りの分析のサンプルを使用します。
 
 このチュートリアルで使う *小売の分析* のサンプル コンテンツ パックは、ダッシュボード、レポート、データセットで構成されています。
 このコンテンツ パックとそのシナリオに慣れるには、始める前に「[Retail Analysis sample for Power BI:take a tour](sample-retail-analysis.md)」 (Power BI の小売りの分析サンプル: ツアーを開始する) をご覧ください。
 
-## <a name="samples-in-the-power-bi-service"></a>Power BI サービスのサンプル
+## <a name="import-the-sample-in-the-power-bi-service"></a>Power BI サービスにサンプルをインポートする
 
 1. Power BI サービス (app.powerbi.com) を開いてサインインし、サンプルを保存するワークスペースを開きます。 
 
@@ -94,7 +94,7 @@ ms.locfileid: "75762165"
      
     ![分析情報のレポート](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-in-power-bi-desktop"></a>Power BI Desktop のサンプル 
+## <a name="download-the-sample-in-power-bi-desktop"></a>Power BI Desktop にサンプルをダウンロードする 
 Power BI Desktop でサンプルの .pbix ファイルを初めて開くと、ファイルがレポート ビューで表示され、レポートの任意のページを視覚エフェクトを利用して検索、作成、変更できます。 [レポート] ビューには、Power BI サービスのレポートの編集ビューとほとんど同じデザイン機能が用意されています。 視覚化の移動、コピーと貼り付け、マージなどを行うことができます。 
 
 Power BI サービスでレポートを編集する場合とは異なり、Power BI Desktop では、データのクエリとモデルを操作し、レポートでの最適な分析情報をサポートするデータが確実に得られます。 その後、Power BI Desktop のファイルは、ローカルのドライブまたはクラウドに関係なく、任意の場所に保存できます。

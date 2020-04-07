@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201403"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464631"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>拡張データセット メタデータの使用 (プレビュー)
 
@@ -24,6 +24,8 @@ Power BI Desktop によってレポートが作成されると、対応する PB
 
 
 **拡張データセット メタデータ**機能は、将来の Power BI 機能がそのメタデータに基づいて構築されるため、戦略的かつ基本的な機能です。 拡張データセット メタデータを活用するための追加機能としては、Power BI データセットを管理するための [XMLA 読み取り/書き込み](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite)や、次世代機能を活用するための Power BI への Analysis Services ワークロードの移行などがあります。
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>拡張データセット メタデータを有効にする
 
@@ -36,6 +38,9 @@ Power BI Desktop を再起動するように求められます。
 ![再起動のプロンプト](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 プレビュー機能を有効にすると、Power BI Desktop によって、以前のメタデータ形式を使用する PBIX ファイルと PBIT ファイルのアップグレードが試行されます。 
+
+> [!IMPORTANT]
+> **拡張データセット メタデータ**機能を有効にすると、レポートへのアップグレードを元に戻すことができなくなります。 **拡張データセット メタデータ**を有効にすると、Power BI Desktop で読み込まれた、または作成された Power BI レポートは、拡張データセット メタデータ形式に不可逆的に変換されます。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 

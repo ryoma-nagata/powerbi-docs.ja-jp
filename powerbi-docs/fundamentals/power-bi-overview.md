@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114975"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487753"
 ---
 # <a name="what-is-power-bi"></a>Power BI とは?
 **Power BI** はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型洞察を得ることができます。 Excel スプレッドシートや、クラウド ベースとオンプレミスのハイブリッド データ ウェアハウスのコレクションなど、さまざまなデータを使えます。 Power BI を使うと、ご利用のデータ ソースへの接続、重要事項の視覚化と検出、必要に応じた任意のユーザーまたはすべてのユーザーとの共有を、簡単に実行できます。
@@ -44,8 +44,12 @@ Power BI の使用方法は、Power BI のどの機能またはサービスが�
 ご自身のロールに関連するドキュメントについては、次をご覧ください。
 - [*デザイナー*](../desktop-what-is-desktop.md)向け Power BI Desktop
 - [*利用者*](../consumer/end-user-consumer.md)向け Power BI
-- [*開発者*](../developer/what-can-you-do.md)向け Power BI
 - [*管理者*](../service-admin-administering-power-bi-in-your-organization.md)向け Power BI
+- "*開発者向け*" Power BI
+    * [Power BI を使用した埋め込み分析](../developer/embedded/embedding.md)
+    * [Azure の Power BI Embedded とは何か](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [Power BI のビジュアル](../developer/visuals/power-bi-custom-visuals.md)
+    * [Power BI API の開発者向け機能](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI のワークフロー
 Power BI での一般的な作業の流れは、データ ソースに接続し、Power BI Desktop でレポートを作成することから始まります。 次に、そのレポートを Power BI Desktop から Power BI サービスに発行し、それを共有することで、Power BI サービスとモバイル デバイスのエンド ユーザーがレポートを表示して操作できるようにします。

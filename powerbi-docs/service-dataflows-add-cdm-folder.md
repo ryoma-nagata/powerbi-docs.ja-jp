@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872685"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404764"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
 
@@ -24,6 +24,7 @@ Power BI では、組織の Azure Data Lake Store Gen2 にデータフローと�
 
 次の一覧に示すように、CDM フォルダーからデータフローを作成するための要件がいくつかあります。
 
+* ADLS Gen2 ストレージ アカウントを使用するには、管理者が事前に Power BI 内部にそれをリンクする必要があります。 ADLS Gen2 アカウントを Power BI にリンクする方法については、「[データフロー ストレージ用の Azure Data Lake Storage Gen2 を接続する](service-dataflows-connect-azure-data-lake-storage-gen2.md)」を参照してください。
 * CDM フォルダーからのデータフローの作成は、[新しいワークスペース エクスペリエンス](service-create-the-new-workspaces.md) "*のみ*" で使用できます。 
 * Power BI に CDM フォルダーを追加するには、フォルダーを追加するユーザーが、[CDM フォルダーとその中のファイルに対して承認](https://go.microsoft.com/fwlink/?linkid=2029121)されている必要があります。
 * CDM フォルダー内にあるすべてのファイルとフォルダーを Power BI に追加するには、それらに対する読み取りと実行のアクセス許可が付与される必要があります。
@@ -73,11 +74,11 @@ Power BI Desktop:
 
 **Power BI Desktop** の顧客は、データフローの所有者である場合か、データフローの CDM フォルダーに対して明示的に承認済みになっている場合を除いて、Azure Data Lake Storage Gen2 アカウント内に格納されているデータフローにはアクセスできません。 次の状況を検討します。
 
-1.  アンナは新しいワークスペースを作成して、CDM フォルダーからのデータフローを格納するように構成しました。
-2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得することを考えています。
-3.  ベンは Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受け取ります。
+1.    アンナは新しいワークスペースを作成して、CDM フォルダーからのデータフローを格納するように構成しました。
+2.    ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得することを考えています。
+3.    ベンは Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受け取ります。
 
-    ![データフローの使用を試行した際のエラー](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+  ![データフローの使用を試行した際のエラー](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 この問題を解決するには、ベンに CDM フォルダーとその中のファイルに対する閲覧者のアクセス許可を付与する必要があります。 CDM フォルダーへのアクセス権を付与する方法については、[こちらの記事](https://go.microsoft.com/fwlink/?linkid=2029121)を参照してください。
 

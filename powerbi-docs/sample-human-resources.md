@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8124a80f471e33ebbd140a30d6a49e2a762206ee
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858859"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404105"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI の人事のサンプル:ツアーを開始する
 
@@ -61,7 +61,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>このサンプルの Excel ブックを取得する
 
-このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529780) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View アドインと Power Pivot アドインの有効化の詳細については、[Excel 自体での Excel のサンプルの表示](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)に関する記事を参照してください。
+このサンプルのデータ ソースを確認する場合は、[Excel ブック](https://go.microsoft.com/fwlink/?LinkId=529780) として入手することもできます。 ブックには、表示および変更可能な Power View シートが含まれています。 生データを表示するには、データ分析アドインを有効にし、 **[PowerPivot] > [管理]** を選択します。 Power View および Power Pivot のアドインを有効にするための詳細については、[Excel での Excel のサンプルの確認](sample-datasets.md#explore-excel-samples-inside-excel)に関するセクションを参照してください。
 
 ## <a name="new-hires"></a>新規採用者
 まず、新規採用者を調べてみましょう。
@@ -132,7 +132,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 
 8. **[Active Employee Count by Gender]** 円グラフについても同じ手順に従い、在職者ではなく離職者に変更できます。 性別ごとに自主的な退職のデータを見て、他の洞察が得られるかどうかご確認ください。
 
-9. 上部のナビ ペインで **[Human Resource Sample]** を選んでダッシュボードに戻ります。 レポートに行った変更は保存することもできます。
+9. 上部のナビ ペインで **[Human Resource Sample]** を選んでダッシュボードに戻ります。 レポートに加えた変更は保存することもできます。
 
 ## <a name="bad-hires"></a>不適切な人材採用
 調査する最後の領域は、不適切な人材採用です。 不適切な人材採用は、雇用期間が 60 日以下の従業員として定義されます。 急速な採用を実施していますが、適切な候補を採用しているでしょうか。

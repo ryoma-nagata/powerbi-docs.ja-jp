@@ -1,167 +1,191 @@
 ---
 title: Power BI でのサービス プリンシパル
-description: 埋め込み Power BI コンテンツで使用するために、サービス プリンシパルを使用して Azure Active Directory 内でアプリケーションを登録する方法を説明します。
+description: 埋め込み Power BI コンテンツで使用するために、サービス プリンシパルとアプリケーション シークレットを使用して Azure Active Directory 内でアプリケーションを登録する方法を説明します。
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/12/2019
-ms.openlocfilehash: ce72abc3f3b60423344c2b28f39d9bdbfbcee7cd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.date: 03/30/2020
+ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493505"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403555"
 ---
-# <a name="service-principal-with-power-bi"></a>Power BI でのサービス プリンシパル
+# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>サービス プリンシパルとアプリケーション シークレットを使用した Power BI コンテンツの埋め込み
 
-**サービス プリンシパル**を使用して、アプリケーションに Power BI コンテンツを埋め込み、**アプリ専用**トークンを使用して Power BI でオートメーションを使用することができます。 サービス プリンシパルは、**Power BI Embedded** を使用するとき、または **Power BI のタスクとプロセスを自動化する**ときに役に立ちます。
+サービス プリンシパルとは、Azure AD アプリケーションが Power BI サービスのコンテンツと API にアクセスできるようにするための認証方法です。
 
-Power BI Embedded を使用するときは、サービス プリンシパルを使用するとメリットがあります。 主なメリットは、アプリケーションに対する認証を行うときに、マスター アカウント (サインインするためだけのユーザー名とパスワードである Power BI Pro ライセンス) が必要ないことです。 サービス プリンシパルでは、アプリケーションの認証にアプリケーション ID とアプリケーション シークレットが使用されます。
+Azure Active Directory (Azure AD) アプリを作成すると、[サービス プリンシパル オブジェクト](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)が作成されます。 サービス プリンシパル オブジェクト (単に "*サービス プリンシパル*" とも呼ばれる) を使用することで、Azure AD はご利用のアプリの認証を行うことができます。 認証が完了すると、アプリは Azure AD テナント リソースにアクセスできるようになります。
 
-Power BI タスクを自動化する場合は、サービス プリンシパルのスケーリングを処理および管理する方法をスクリプトにすることもできます。
+認証を行うために、サービス プリンシパルでは、Azure AD アプリの "*アプリケーション ID*" と次のいずれかが使用されます。
+* アプリケーション シークレット
+* 証明書
 
-## <a name="application-and-service-principal-relationship"></a>アプリケーションとサービス プリンシパルの関係
+この記事では、"*アプリケーション ID*" と "*アプリケーション シークレット*" を使用したサービス プリンシパル認証について説明します。 サービス プリンシパルと証明書を使用して認証を行う方法については、[Power BI の証明書ベースの認証]()に関するページを参照してください。
 
-Azure AD テナントをセキュリティ保護するリソースにアクセスするには、アクセスが必要なエンティティはセキュリティ プリンシパルを表します。 これは、ユーザー (ユーザー プリンシパル) とアプリケーション (サービス プリンシパル) の両方に当てはまります。
+## <a name="method"></a>メソッド
 
-セキュリティ プリンシパルでは、Azure AD テナントでのユーザーとアプリケーションに対するアクセス ポリシーとアクセス許可が定義されています。 このアクセス ポリシーにより、サインイン時のユーザーやアプリケーションの認証や、リソース アクセス時の認証などのコア機能が有効になります。 詳細については、[Azure Active Directory (AAD) でのアプリケーションとサービス プリンシパル](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)に関する記事をご覧ください。
+埋め込み分析でサービス プリンシパルとアプリケーション ID を使用するには、次の手順を行います。
 
-Azure portal で Azure AD アプリケーションを登録すると、次の 2 つのオブジェクトが Azure AD テナントに作成されます。
+1. [Azure AD アプリ](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management)を作成します。
 
-* [アプリケーション オブジェクト](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#application-object)
-* [サービス プリンシパル オブジェクト](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
+    1. Azure AD アプリのシークレットを作成します。
+    
+    2. アプリの "*アプリケーション ID*" と "*アプリケーション シークレット*" を取得します。
 
-アプリケーション オブジェクトはすべてのテナントで使用するためのアプリケーションの "*グローバル*" な表現として、サービス プリンシパル オブジェクトは特定のテナントで使用するための "*ローカル*" な表現として考えてください。
+    >[!NOTE]
+    >これらの手順については**手順 1** で説明します。 Azure AD アプリの作成の詳細については、[Azure AD アプリの作成](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)に関するページを参照してください。
 
-アプリケーション オブジェクトは、対応するサービス プリンシパル オブジェクトの作成に使用される共通で既定のプロパティが "*派生される*" 元のテンプレートとして機能します。
+2. Azure AD セキュリティ グループを作成します。
 
-サービス プリンシパルは、アプリケーションが使用されるテナントごとに必要であり、テナントによってセキュリティ保護されているリソースにサインインしてアクセスするための ID を確立できるようにします。 シングルテナント アプリケーションのサービス プリンシパルは 1 つだけで (ホーム テナント内)、アプリケーションの登録時に作成されて、使用を承認されます。
+3. Power BI サービス管理者設定を有効にします。
 
-## <a name="service-principal-with-power-bi-embedded"></a>Power BI Embedded でのサービス プリンシパル
+4. サービス プリンシパルを、ご利用のワークスペースに追加します。
 
-サービス プリンシパルでは、アプリケーション ID とアプリケーション シークレットを使用することによって、アプリケーション内のマスター アカウント情報をマスクすることができます。 認証のためにアプリケーション内にマスター アカウントをハードコーディングする必要はなくなります。
+5. 自分のコンテンツを埋め込みます。
 
-**Power BI API** と **Power BI .NET SDK** でサービス プリンシパルを使用した呼び出しがサポートされるようになったため、サービス プリンシパルで [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) を使用できます。 たとえば、ワークスペースの作成、ワークスペースのユーザーの追加または削除、ワークスペースへのコンテンツのインポートなど、ワークスペースに対する変更を行うことができます。
+> [!IMPORTANT]
+> Power BI でサービス プリンシパルを使用できるようにすると、アプリケーションの AD アクセス許可は無効になります。 アプリケーションのアクセス許可はその後、Power BI 管理ポータルを介して管理されます。
 
-Power BI の成果物とリソースが[新しい Power BI ワークスペース](../../service-create-the-new-workspaces.md)に格納されている場合は、サービス プリンシパルのみを使用できます。
+## <a name="step-1---create-an-azure-ad-app"></a>手順 1 - Azure AD アプリを作成する
 
-## <a name="service-principal-vs-master-account"></a>サービス プリンシパルとマスター アカウント
+次のいずれかの方法を使用して、Azure AD アプリを作成します。
+* [Microsoft Azure portal でアプリを作成する](https://ms.portal.azure.com/#allservices)
+* [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) を使用してアプリを作成する
 
-認証に対するサービス プリンシパルと標準のマスター アカウント (Power BI Pro ライセンス) の使用には違いがあります。 次の表では、いくつかの重要な違いを示します。
+### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Microsoft Azure portal での Azure AD アプリの作成
 
-| 関数 | マスター ユーザー アカウント <br> (Power BI Pro ライセンス) | サービス プリンシパル <br> (アプリ専用トークン) |
-|------------------------------------------------------|---------------------|-------------------|
-| Power BI サービスにサインインできる  | はい | いいえ |
-| Power BI 管理ポータルで有効にする | いいえ | はい |
-| [ワークスペース (v1) で動作する](../../service-create-workspaces.md) | はい | いいえ |
-| [新しいワークスペース (v2) で動作する](../../service-create-the-new-workspaces.md) | はい | はい |
-| Power BI Embedded で使用する場合は、ワークスペース管理者である必要がある | はい | はい |
-| Power BI REST API を使用できる | はい | はい |
-| 作成するにはグローバル管理者である必要がある | はい | いいえ |
-| オンプレミス データ ゲートウェイをインストールして管理できる | はい | いいえ |
+1. [Microsoft Azure](https://ms.portal.azure.com/#allservices) にログインします。
 
-## <a name="get-started-with-a-service-principal"></a>サービス プリンシパルの使用を始める
+2. **[アプリの登録]** を検索し、 **[アプリの登録]** リンクをクリックします。
 
-従来のマスター アカウントを使用する場合とは異なり、サービス プリンシパル (アプリ専用トークン) を使用する場合は、いくつか異なる部分を設定する必要があります。 サービス プリンシパル (アプリ専用トークン) を使い始めるには、適切な環境を設定する必要があります。
+    ![Azure アプリの登録](media/embed-service-principal/azure-app-registration.png)
 
-1. Power BI で使用するために、Azure Active Directory (AAD) に[サーバー側 Web アプリケーションを登録](register-app.md)します。 アプリケーションを登録した後は、Power BI のコンテンツにアクセスするためのアプリケーション ID、アプリケーション シークレット、サービス プリンシパル オブジェクト ID を取得できます。 サービス プリンシパルは [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) で作成することができます。
+3. **[新規登録]** をクリックします。
 
-    新しい Azure Active Directory アプリケーションを作成するためのスクリプトのサンプルを次に示します。
+    ![新しい登録](media/embed-service-principal/new-registration.png)
 
-    ```powershell
-    # The app id - $app.appid
-    # The service principal object id - $sp.objectId
-    # The app key - $key.value
+4. 必要な情報を入力します。
+    * **名前** - 自分のアプリケーションの名前を入力します
+    * **サポートされているアカウントの種類** - サポートされているアカウントの種類を選択します
+    * (省略可能) **リダイレクト URI** - 必要に応じて URI を入力します
 
-    # Sign in as a user that is allowed to create an app.
-    Connect-AzureAD
+5. **[登録]** をクリックします。
 
-    # Create a new AAD web application
-    $app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+6. 登録した後、 **[概要]** タブで "*アプリケーション ID*" を使用できます。後で使用できるように、"*アプリケーション ID*" をコピーして保存します。
 
-    # Creates a service principal
-    $sp = New-AzureADServicePrincipal -AppId $app.AppId
+    ![アプリケーション ID](media/embed-service-principal/application-id.png)
 
-    # Get the service principal key.
-    $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
-    ```
+7. **[証明書とシークレット]** タブをクリックします。
 
-   > [!Important]
-   > Power BI でサービス プリンシパルを使用できるようにすると、アプリケーションの AD アクセス許可は無効になります。 アプリケーションのアクセス許可はその後、Power BI 管理ポータルを介して管理されます。
+     ![アプリケーション ID](media/embed-service-principal/certificates-and-secrets.png)
 
-2.  **推奨** - [Azure Active Directory (AAD) にセキュリティ グループ](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)を作成し、作成したアプリケーションをそのセキュリティ グループに追加します。 AAD セキュリティ グループは [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) で作成できます。
+8. **[新しいクライアント シークレット]** をクリックします
 
-    新しいセキュリティ グループを作成し、そのセキュリティ グループにアプリケーションを追加するためのスクリプトのサンプルを次に示します。
+    ![新しいクライアント シークレット](media/embed-service-principal/new-client-secret.png)
 
-    ```powershell
-    # Required to sign in as a tenant admin
-    Connect-AzureAD
+9. *[クライアント シークレットの追加]* ウィンドウで、説明を入力し、クライアント シークレットの有効期限を指定し、 **[追加]** をクリックします。
 
-    # Create an AAD security group
-    $group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
+10. "*クライアント シークレット*" 値をコピーして保存します。
 
-    # Add the service principal to the group
-    Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-    ```
+    ![クライアント シークレットの値](media/embed-service-principal/client-secret-value.png)
 
-3. Power BI 管理者は、Power BI 管理ポータルの **[開発者向け設定]** でサービス プリンシパルを有効にする必要があります。 Azure AD で作成したセキュリティ グループを、 **[開発者向け設定]** の特定のセキュリティ グループのセクションに追加します。 また、組織全体に対するサービス プリンシパルのアクセスを有効にすることもできます。 その場合は、ステップ 2 は必要ありません。
+    >[!NOTE]
+    >このウィンドウから離れると、クライアント シークレットの値は非表示となり、再度表示することもコピーすることもできません。
 
-   > [!Important]
-   > サービス プリンシパルには、組織全体に対して有効化されるか、またはグループの一部としてサービス プリンシパルを有するセキュリティ グループに対して有効化される、すべてのテナント設定へのアクセス権があります。 サービス プリンシパルによる特定のテナント設定へのアクセスを制限するには、特定のセキュリティ グループへのアクセスのみを許可するか、またはサービス プリンシパルの専用のセキュリティ グループを作成して除外します。
+### <a name="creating-an-azure-ad-app-using-powershell"></a>PowerShell を使用した Azure AD アプリの作成
 
-    ![管理ポータル](media/embed-service-principal/admin-portal.png)
+このセクションには、[PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) を使用して新しい Azure AD アプリを作成するためのサンプル スクリプトが含まれています。
 
-4. [Power BI 環境](embed-sample-for-customers.md#set-up-your-power-bi-environment)を設定します。
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
 
-5. 作成した新しいワークスペースに、**管理者**としてサービス プリンシパルを追加します。 このタスクは [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) または Power BI サービスを使用して管理できます。
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
 
-    ![ワークスペースにサービス プリンシパルを管理者として追加する](media/embed-service-principal/add-service-principal-in-the-UI.png)
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
 
-6. ここで、サンプル アプリケーション内または独自のアプリケーション内のどちらにコンテンツを埋め込むかを選択します。
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
 
-    * [サンプル アプリケーションを使用してコンテンツを埋め込む](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-    * [自分のアプリケーション内にコンテンツを埋め込む](embed-sample-for-customers.md#embed-content-within-your-application)
+# Get the service principal key
+$key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
+```
 
-7. これで、[運用環境に移行する](embed-sample-for-customers.md#move-to-production)準備ができました。
+## <a name="step-2---create-an-azure-ad-security-group"></a>手順 2 - Azure AD セキュリティ グループを作成する
 
-## <a name="migrate-to-service-principal"></a>サービス プリンシパルに移行する
+ご利用のサービス プリンシパルには、Power BI コンテンツおよび API のいずれに対してもアクセス権がありません。 サービス プリンシパルにアクセス権を付与するには、Azure AD でセキュリティ グループを作成し、作成済みのサービス プリンシパルをそのセキュリティ グループに追加します。
 
-現在、Power BI または Power BI Embedded でマスター アカウントを使用している場合は、サービス プリンシパルの使用に移行できます。
+Azure AD セキュリティ グループを作成するには、次の 2 つの方法があります。
+* 手動 (Azure で)
+* PowerShell の使用
 
-[サービス プリンシパルの使用の開始](#get-started-with-a-service-principal)に関するセクションの最初の 3 つのステップを完了した後、以下のようにします。
+### <a name="create-a-security-group-manually"></a>セキュリティ グループを手動で作成する
 
-既に Power BI で[新しいワークスペース](../../service-create-the-new-workspaces.md)を使用している場合は、Power BI 成果物が含まれるワークスペースに**管理者**としてサービス プリンシパルを追加します。 一方、[従来のワークスペース](../../service-create-workspaces.md)を使用している場合は、Power BI の成果物とリソースを新しいワークスペースにコピーまたは移動してから、そのワークスペースにサービス プリンシパルを**管理者**として追加します。
+Azure セキュリティ グループを手動で作成するには、「[Azure Active Directory を使用して基本グループを作成してメンバーを追加する](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)」に記載の手順に従ってください。 
 
-Power BI の成果物とリソースをワークスペース間で移動するための UI 機能はないので、このタスクを実行するには [API](https://powerbi.microsoft.com/pt-br/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/) を使用する必要があります。 サービス プリンシパルで API を使用するときは、サービス プリンシパル オブジェクト ID が必要です。
+### <a name="create-a-security-group-using-powershell"></a>PowerShell を使用してセキュリティ グループを作成する
 
-### <a name="how-to-get-the-service-principal-object-id"></a>サービス プリンシパル オブジェクト ID を取得する方法
+新しいセキュリティ グループを作成し、そのセキュリティ グループにアプリを追加するためのサンプル スクリプトを以下に示します。
 
-新しいワークスペースにサービス プリンシパルを割り当てるには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) シリーズを使用します。 ワークスペースに管理者としてサービス プリンシパルを適用するなど、サービス プリンシパルを各種操作または変更のために参照するには、**サービス プリンシパル オブジェクト ID** を使用します。
+>[!NOTE]
+>組織全体に対してサービス プリンシパル アクセスを有効にする場合、この手順をスキップします。
 
-Azure portal からサービス プリンシパル オブジェクト ID を取得する手順を次に示します。
+```powershell
+# Required to sign in as a tenant admin
+Connect-AzureAD
 
-1. Azure portal で新しいアプリの登録を作成します。  
+# Create an Azure AD security group
+$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
 
-2. 次に、 **[ローカル ディレクトリでのマネージド アプリケーション]** の下で、作成したアプリケーションの名前を選択します。
+# Add the service principal to the group
+Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
+```
 
-   ![ローカル ディレクトリでのマネージド アプリケーション](media/embed-service-principal/managed-application-in-local-directory.png)
+## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>手順 3 - Power BI サービス管理者設定を有効にする
 
-    > [!NOTE]
-    > 上の図のオブジェクト ID は、サービス プリンシパルで使用されているものではありません。
+Azure AD アプリから Power BI コンテンツおよび API にアクセスできるようにするには、Power BI 管理者が Power BI 管理ポータルでサービス プリンシパル アクセスを有効にする必要があります。
 
-3. **[プロパティ]** を選択してオブジェクト ID を表示します。
+Azure AD で作成したセキュリティ グループを、 **[開発者向け設定]** の特定のセキュリティ グループのセクションに追加します。
 
-    ![サービス プリンシパル オブジェクト ID プロパティ](media/embed-service-principal/service-principal-object-id-properties.png)
+>[!IMPORTANT]
+>サービス プリンシパルには、それが有効にされたテナント設定へのアクセス権があります。 これには、ご利用の管理者設定に応じて、特定のセキュリティ グループまたは組織全体が含まれます。
+>
+>サービス プリンシパル アクセスを特定のテナント設定に限定するには、特定のセキュリティ グループへのアクセスのみを許可します。 あるいは、サービス プリンシパル専用のセキュリティ グループを作成し、それを目的のテナント設定から除外することもできます。
 
-PowerShell でサービス プリンシパル オブジェクト ID を取得するスクリプトのサンプルを次に示します。
+![管理ポータル](media/embed-service-principal/admin-portal.png)
 
-   ```powershell
-   Get-AzureADServicePrincipal -Filter "DisplayName eq '<application name>'"
-   ```
+## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>手順 4 - 管理者としてのサービス プリンシパルをワークスペースに追加する
+
+Power BI サービス内でレポート、ダッシュボード、データセットなどの Azure AD アプリのアクセス成果物を有効にするには、メンバーまたは管理者としてのサービス プリンシパル エンティティをご利用のワークスペースに追加します。
+
+>[!NOTE]
+>このセクションでは、UI の手順について説明します。 また、[グループ - グループ ユーザー API の追加](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)に関するページを参照して、サービス プリンシパルをワークスペースに追加することもできます。
+
+1. アクセスを有効にするワークスペースまでスクロールし、 **[その他]** メニューで、 **[ワークスペース アクセス]** を選択します。
+
+    ![ワークスペースの設定](media/embed-service-principal/workspace-access.png)
+
+2. **管理者**または**メンバー**としてのサービス プリンシパルをワークスペースに追加します。
+
+    ![ワークスペース管理者](media/embed-service-principal/add-service-principal-in-the-UI.png)
+
+## <a name="step-5---embed-your-content"></a>手順 5 - コンテンツを埋め込む
+
+サンプル アプリケーション内にも、独自のアプリケーション内にも使用するコンテンツを埋め込むことができます。
+
+* [サンプル アプリケーションを使用してコンテンツを埋め込む](embed-sample-for-customers.md#embed-content-using-the-sample-application)
+* [自分のアプリケーション内にコンテンツを埋め込む](embed-sample-for-customers.md#embed-content-within-your-application)
+
+使用するコンテンツが埋め込まれると、[運用開始](embed-sample-for-customers.md#move-to-production)の準備が整います。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
@@ -178,7 +202,8 @@ PowerShell でサービス プリンシパル オブジェクト ID を取得す
 
 ## <a name="next-steps"></a>次の手順
 
-* [アプリを登録する](register-app.md)
 * [顧客向けの Power BI Embedded](embed-sample-for-customers.md)
-* [Azure Active Directory でのアプリケーション オブジェクトとサービス プリンシパル オブジェクト](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
 * [サービス プリンシパルを使用するオンプレミス データ ゲートウェイを使用した行レベルのセキュリティ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+* [サービス プリンシパルと証明書を使用した Power BI コンテンツの埋め込み]()

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383507"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464580"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI の組織のビジュアル
 
@@ -35,7 +35,7 @@ Power BI ビジュアルが重要視される組織もあります。その組�
 組織の Power BI ビジュアルを管理し、展開する方法の詳細については、[組織の Power BI ビジュアルの展開と管理](https://go.microsoft.com/fwlink/?linkid=866790)に関する記事を参照してください。
 
 > [!WARNING]
-> カスタム ビジュアルには、セキュリティやプライバシーのリスクがあるコードが含まれる場合があります。 組織のリポジトリに展開する前に、カスタム ビジュアルの作成者とソースを信頼できることを確認してください。
+> ファイルからインストールされた Power BI ビジュアルには、セキュリティやプライバシーのリスクがあるコードが含まれている場合があります。 組織のリポジトリに展開する前に、Power BI ビジュアル ファイルの作成者とソースを信頼できることを確認してください。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
@@ -45,7 +45,9 @@ Power BI ビジュアルが重要視される組織もあります。その組�
 
 * レガシ Power BI ビジュアル (新しいバージョンの API に基づいて構築されていない Power BI ビジュアルなど) はサポートされません
 
-* カスタム ビジュアルがリポジトリから削除されると、削除されたそのビジュアルを利用している既存のレポートでレンダリングが停止します。 リポジトリからの削除は元に戻せません。 カスタム ビジュアルを一時的に無効にするには、[無効にする] 機能を使用します。
+* ApSource またはファイルからの Power BI ビジュアルがリポジトリから削除された場合、削除されたそのビジュアルを使用しているすべての既存のレポートでレンダリングが停止します。 リポジトリからの削除は元に戻せません。 ApSource またはファイルからの Power BI ビジュアルを一時的に無効にするには、"無効化" 機能を使用します。
+
+* 組織の Power BI ビジュアルは、Power BI レポート サーバーではサポートされていません。
 
 エンド ユーザー:
 

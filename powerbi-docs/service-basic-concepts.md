@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207921"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404063"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI サービスのデザイナー向けの基本的な概念
 
 この記事の目的は、Power BI サービスに対するご自分の位置を確認することです。さまざまな要素とそれらが連動するしくみ、およびその操作方法について説明します。 既に [Power BI サービスにサインアップ](service-self-service-signup-for-power-bi.md)して[いくつかデータを追加](service-get-data.md)している場合は、より役に立つかもしれません。 デザイナーの一般的なワークフローは、Power BI Desktop でレポートを作成することから始まります。 次に、それらを Power BI サービスに公開します。ここで引き続きそれを変更できます。 また、Power BI サービスでは、レポートに基づくダッシュボードを作成することもできます。 
 
-この記事では、ご自分のレポートがまだない場合、[Power BI サンプル コンテンツ パック](sample-datasets.md#the-power-bi-samples-as-content-packs)をインストールしてみてください。
+この記事では、独自のレポートがまだない場合、[Power BI サンプル](sample-datasets.md)のいずれかをインストールしてみてください。
 
 ![ブラウザーの Power BI サービス ホーム画面](media/service-basic-concepts/power-bi-home-screen.png)
 

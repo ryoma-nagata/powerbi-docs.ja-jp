@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040451"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404731"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI でのデータフローの作成と使用
 
@@ -32,7 +32,7 @@ ms.locfileid: "76040451"
 2. データフローに取り込むデータの更新頻度をスケジュールします
 3. Power BI Desktop を使用して、データフローからデータセットを構築します 
 
-以下のセクションでは、これらの各手順について説明し、各手順を完了するために提供されているツールに慣れます。 開始しましょう。
+以下のセクションでは、これらの各手順について説明し、各手順を完了するために提供されているツールに慣れます。 それでは、始めましょう。
 
 ## <a name="creating-a-dataflow"></a>データフローの作成
 データフローを作成するには、ブラウザーで Power BI サービスを起動し、次の画面のように、左側のナビ ペインから**ワークスペース**を選択します (データフローは、Power BI サービスの "*マイ ワークスペース*" では使用できません)。 新しいデータフローを作成するワークスペースを新しく作成することもできます。 
@@ -150,9 +150,9 @@ Power BI のデータフローでは、Power BI のデータ更新プロセス�
 
 * **Salesforce コネクタ** - データフローで Salesforce の試用版アカウントを使用すると、情報が提供されずに接続エラーになります。 これを解決するには、運用環境の Salesforce アカウントまたはテスト用の開発者アカウントを使用します。
 
-* **SharePoint コネクタ** - サブフォルダーまたはドキュメントを含めずに、SharePoint サイトのルート アドレスを指定していることを確認します。 たとえば、 https://microsoft.sharepoint.com/teams/ObjectModel/ のようなリンクを使用します。 
+* **SharePoint コネクタ** - サブフォルダーまたはドキュメントを含めずに、SharePoint サイトのルート アドレスを指定していることを確認します。 たとえば、`https://microsoft.sharepoint.com/teams/ObjectModel/` のようなリンクを使用します。 
 
-* **JSON ファイル コネクタ** - 現在、JSON ファイルに接続する方法は基本認証のみです。  URL (たとえば https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg...) 内での資格情報の入力による JSON ファイルへの接続は、現在サポートされて**いません**。  
+* **JSON ファイル コネクタ** - 現在、JSON ファイルに接続する方法は基本認証のみです。  URL (たとえば `https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg`...) 内での資格情報の入力による JSON ファイルへの接続は、現在サポートされて**いません**。  
 
 * **Azure SQL Data Warehouse** - データフローは現在、Azure SQL Data Warehouse での Azure Active Directory (AAD) 認証をサポートしていません。 このシナリオでは、基本認証を使用します。
 
