@@ -9,18 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78923013"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621520"
 ---
 # <a name="power-bi-report-builder"></a>Power BI レポート ビルダー
 
  Power BI Report Builder は、ページ分割されたレポートを作成するためのツールです。  ページ分割されたレポートをデザインするときは、どのようなデータをどこから取得し、どのように表示するかの定義を作成します。 レポートを実行すると、指定したレポート定義がレポート プロセッサによって読み取られ、データが取得され、レポートのレイアウトと組み合わせることでレポートが生成されます。 レポート ビルダーでレポートをプレビューします。 その後、Power BI サービスにレポートを発行します。
-
-「[ハンズオン ラボ: Microsoft Power BI のページ分割されたレポートを作成する](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)」をお試しください。
 
 ビデオで学習する方がいいですか。 YouTube で、Power BI プリンシパル プログラム マネージャーの Chris Finlan による、Power BI のページ分割されたレポートに関するビデオ シリーズをご覧ください。
 
@@ -30,13 +28,13 @@ ms.locfileid: "78923013"
 
 ![Power BI サービスにおけるページ分割されたレポート](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-##  <a name="JumpStartReptCreation"></a> レポート作成のジャンプスタート  
+##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> レポート作成のジャンプスタート  
  
 -   **テーブル、マトリックス、またはグラフ ウィザードから開始します**。 データ ソース接続を作成し、フィールドをドラッグ アンド ドロップしてデータセット クエリを作成し、レイアウトとスタイルを選択して、レポートをカスタマイズします。  
   
 -   **マップ ウィザードを使用して開始します**。地図や幾何図形を背景として集計データを表示するレポートを作成します。 マップ データには、Transact-SQL クエリまたは Environmental Systems Research Institute, Inc.(ESRI) シェープファイルの空間データを使用できます。 Microsoft Bing マップ タイルの背景を追加することもできます。  
 
-##  <a name="DesignRept"></a> レポートをデザインする  
+##  <a name="design-your-report"></a><a name="DesignRept"></a> レポートをデザインする  
   
 -   **自由形式でレイアウトされたテーブル、マトリックス、グラフがあるページ分割されたレポートを作成する。** 列ベースのデータ向けのテーブル レポート、概要データ向けのマトリックス レポート (クロス集計レポートやピボットテーブル レポートなど)、グラフィカル データ向けのグラフ レポート、およびそれ以外のすべて向けの自由形式レポートを作成します。 他のレポートやグラフを、リスト、グラフィック、および動的な Web ベースのアプリケーション用のコントロールと共に、レポートに埋め込むことができます。  
   
@@ -52,7 +50,7 @@ ms.locfileid: "78923013"
   
 -   画像や外部コンテンツなどの他のリソースを**埋め込んだり参照したりします。**  
   
-##  <a name="ManageRpt"></a> レポートを管理する  
+##  <a name="manage-your-report"></a><a name="ManageRpt"></a> レポートを管理する  
   
 -   コンピューターまたはレポート サーバーに**レポートの定義を保存**して、レポートの管理と他のユーザーとの共有を実行できます。  
   
@@ -63,5 +61,4 @@ ms.locfileid: "78923013"
 ## <a name="next-steps"></a>次の手順
 
 - [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
-- 「[ハンズオン ラボ: Microsoft Power BI のページ分割されたレポートを作成する](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)」をお試しください。
 - YouTube で、Power BI プリンシパル プログラム マネージャーの Chris Finlan による、[Power BI のページ分割されたレポートに関するビデオ シリーズ](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ)をご覧ください

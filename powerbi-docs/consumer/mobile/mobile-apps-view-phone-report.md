@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114882"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802132"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
 
@@ -39,10 +39,11 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 ## <a name="filter-the-report-page-on-a-phone"></a>電話でレポート ページをフィルター処理する
 電話用に最適化されたレポートにフィルターが定義されている場合、電話でレポートを表示するときに、これらのフィルターを使うことができます。 レポートは、Web 上のレポートに適用されているフィルターでフィルター処理されてからスマートフォン上で開きます。 ページにアクティブなフィルターがあることを示すメッセージが表示されます。 スマートフォンでフィルターを変更できます。
 
-1. ページの下部にあるフィルター アイコン ![電話のフィルター アイコン](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) をタップします。 
+1. ページの下部にあるフィルター アイコン ![電話のフィルター アイコン](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) をタップします。
+
 2. 基本的または詳細なフィルター処理を使って、関心がある結果を表示します。
    
-    ![Power BI 電話レポートの詳細フィルター](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![Power BI 電話レポートの詳細フィルター](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>ビジュアルをクロス強調表示する
 縦表示のビジュアルのクロス強調表示は、Power BI サービスや横長ビューのスマートフォンの場合と同じように機能します。1 つのビジュアルでデータを選択すると、そのページの他のビジュアルの関連するデータが強調表示されます。
