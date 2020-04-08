@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: モバイル アプリでのオンプレミス レポートの表示
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 顔 ID、タッチ ID、パスコード、または指紋 ID で保護する
+              href: mobile-native-secure-access.md
             - name: 外部組織からコンテンツにアクセスする (B2B)
               href: mobile-apps-b2b.md
             - name: 電話からの Power BI QR コードのスキャン
@@ -76,8 +78,6 @@
           items:
             - name: iOS アプリを使ってみる
               href: mobile-iphone-app-get-started.md
-            - name: Face ID、Touch ID、またはパスコードで保護する
-              href: mobile-ios-native-secure-access.md
             - name: iOS モバイル アプリでの Q&A 仮想アナリスト
               href: mobile-apps-ios-qna.md
             - name: Siri のショートカットを使用しての Power BI モバイル アプリの統合
@@ -90,6 +90,10 @@
           items:
             - name: Android アプリの概要
               href: mobile-android-app-get-started.md
+            - name: Android アプリのショートカットを使用する
+              href: mobile-app-quick-access-shortcuts.md
+            - name: Google Search でコンテンツを検索してアクセスする
+              href: mobile-app-find-access-google-search.md
             - name: '"お使いの企業 SSL 証明書が信頼されていません" を修正する'
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: '"Android System Webview の更新が必要である" を修正する'
