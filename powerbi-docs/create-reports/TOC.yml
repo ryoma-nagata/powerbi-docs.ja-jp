@@ -49,15 +49,15 @@
           items:
             - name: レポート ビューを操作する
               href: ../desktop-report-view.md
-            - name: Power BI レポート内のフィルターの種類
+            - name: レポート内のフィルターの種類
               href: ../power-bi-report-filter-types.md
             - name: レポート内のフィルターと強調表示
               href: ../power-bi-reports-filters-and-highlighting.md
             - name: 高密度線サンプリング
               href: ../desktop-high-density-sampling.md
-            - name: Power BI Q&A ビジュアルについて
+            - name: Q&A ビジュアルについて
               href: ../visuals/power-bi-visualization-q-and-a.md
-            - name: Power BI のアクセシビリティについて
+            - name: アクセシビリティについて
               href: ../desktop-accessibility-overview.md
             - name: 自然言語での Q&A
               items:
@@ -125,7 +125,7 @@
               href: ../desktop-bookmarks.md
             - name: レポートのテーマを操作する
               href: ../desktop-report-themes.md
-            - name: Power BI レポートでフィルターを操作する
+            - name: レポートでフィルターを操作する
               href: ../power-bi-report-filter.md
             - name: ドリルスルー機能を使用する
               href: ../desktop-drillthrough.md
@@ -139,7 +139,7 @@
               href: ../desktop-r-powered-custom-visuals.md
             - name: グリッド線と "グリッドにスナップ" を適用する
               href: ../desktop-gridlines-snap-to-grid.md
-            - name: Power BI レポートにページ表示設定を適用する
+            - name: レポートにページ表示設定を適用する
               href: ../power-bi-report-display-settings.md
             - name: 例から列を追加する
               href: ../desktop-add-column-from-example.md
@@ -147,12 +147,16 @@
               href: ../desktop-add-custom-column.md
             - name: インライン階層ラベルを使用する
               href: ../desktop-inline-hierarchy-labels.md
-            - name: 数値範囲スライサーを使用する
+            - name: スライサー
+              href: ../visuals/power-bi-visualization-slicers.md
+            - name: 数値範囲スライサー
               href: ../desktop-slicer-numeric-range.md
-            - name: 相対日付のスライサーおよびフィルターを使用する
-              href: ../desktop-slicer-filter-date-range.md
+            - name: 相対日付スライサーとフィルター
+              href: ../visuals/desktop-slicer-filter-date-range.md
             - name: サイズを変更できるスライサーを作成する
               href: ../power-bi-slicer-filter-responsive.md
+            - name: スライサーに複数のフィールドを追加する
+              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: 行レベルのセキュリティを使用してデータ アクセスを制限する
               href: ../desktop-rls.md
             - name: ヒントをカスタマイズする
@@ -205,17 +209,17 @@
               href: ../desktop-upload-desktop-files.md
         - name: 視覚化
           items:
-            - name: Power BI レポートにビジュアルを追加する (パート 1)
+            - name: レポートにビジュアルを追加する (パート 1)
               href: ../visuals/power-bi-report-add-visualizations-i.md
-            - name: Power BI レポートにビジュアルを追加する (パート 2)
+            - name: レポートにビジュアルを追加する (パート 2)
               href: ../visuals/power-bi-report-add-visualizations-ii.md
-            - name: Power BI レポートにビジュアルを追加する
+            - name: レポートにビジュアルを追加する
               href: ../visuals/power-bi-report-visualizations.md
-            - name: Power BI レポートのビジュアルを変更する
+            - name: レポートのビジュアルを変更する
               href: ../visuals/power-bi-report-change-visualization-type.md
             - name: ビジュアル タイトル、背景、凡例をカスタマイズする
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-            - name: Power BI でデータのない項目を表示する
+            - name: データのない項目を表示する
               href: ../desktop-show-items-no-data.md
             - name: 視覚エフェクトの種類別のデータ ポイントの制限と戦略を適用する
               href: ../visuals/power-bi-data-points.md
@@ -233,7 +237,7 @@
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: レポート内のビジュアルの相互作用を変更します。
               href: ../service-reports-visual-interactions.md
-            - name: Power BI マップの視覚エフェクトに関するヒントとテクニック
+            - name: マップの視覚エフェクトに関するヒントとテクニック
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: X 軸と Y 軸のプロパティをカスタマイズする
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
@@ -241,47 +245,45 @@
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: ArcGIS Maps for Power BI の視覚エフェクトを作成する
               href: ../visuals/power-bi-visualization-arcgis.md
-            - name: 基本的な面グラフの作成と使用
+            - name: 基本的な面グラフ
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: カード ビジュアル (大きな数字のタイル) を作成する
               href: ../visuals/power-bi-visualization-card.md
-            - name: 複合グラフの作成と使用
+            - name: 複合グラフ
               href: ../visuals/power-bi-visualization-combo-chart.md
-            - name: 分解ツリーの視覚エフェクトを作成して使用する (プレビュー)
+            - name: 分解ツリー ビジュアル (プレビュー)
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: ドーナツ グラフの作成と使用
+            - name: ドーナツ グラフ
               href: ../visuals/power-bi-visualization-doughnut-charts.md
-            - name: 塗り分け地図 (階級区分) の作成と使用
+            - name: 塗り分け地図 (コロプレス)
               href: ../visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: じょうごグラフの作成と使用
+            - name: じょうごグラフ
               href: ../visuals/power-bi-visualization-funnel-charts.md
-            - name: 主要なインフルエンサーの視覚エフェクトを作成して使用する
+            - name: 主要なインフルエンサーのビジュアル
               href: ../visuals/power-bi-visualization-influencers.md
-            - name: KPI の視覚エフェクトを作成して使用する
+            - name: KPI ビジュアル
               href: ../visuals/power-bi-visualization-kpi.md
-            - name: マトリックスの視覚エフェクトを作成して使用する
+            - name: マトリックスのビジュアル
               href: ../visuals/desktop-matrix-visual.md
-            - name: Power Apps ビジュアルを作成して使用する
+            - name: Power Apps のビジュアル
               href: ../visuals/power-bi-visualization-powerapp.md
-            - name: R の視覚エフェクトを作成して使用する
+            - name: R ビジュアル
               href: ../visuals/service-r-visuals.md
-            - name: 放射状ゲージ グラフの作成と使用
+            - name: 放射状ゲージ グラフ
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: リボン グラフの作成と使用
+            - name: リボン グラフ
               href: ../visuals/desktop-ribbon-charts.md
-            - name: 散布図、バブル チャート、ドット プロット グラフの作成と使用
+            - name: 散布図、バブル チャート、ドット プロット グラフ
               href: ../visuals/power-bi-visualization-scatter.md
             - name: 高密度な散布図を使用する
               href: ../visuals/desktop-high-density-scatter-charts.md
-            - name: 図形マップ ビジュアルの作成と使用 (プレビュー)
+            - name: 図形マップのビジュアル (プレビュー)
               href: ../visuals/desktop-shape-map.md
-            - name: スライサーの作成と使用
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: Power BI のレポートとダッシュボードでのテーブルの作成と使用
+            - name: レポートとダッシュボードのテーブル
               href: ../visuals/power-bi-visualization-tables.md
-            - name: ツリーマップの作成と使用
+            - name: ツリーマップ
               href: ../visuals/power-bi-visualization-treemaps.md
-            - name: ウォーターフォール図の作成と使用
+            - name: ウォーターフォール グラフ
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: 自然言語での Q&A
           items:
@@ -301,17 +303,17 @@
               href: ../service-q-and-a-create-featured-questions.md
             - name: ライブ接続で Q&A を使用する
               href: ../service-q-and-a-direct-query.md
-            - name: Power BI のクイック インサイト
+            - name: クイック分析情報
               href: ../service-insights.md
             - name: クイック分析情報用のデータを最適化する
               href: ../service-insights-optimize.md
         - name: アクセシビリティ
           items:
-            - name: アクセシビリティ対応の Power BI レポートを設計する
+            - name: アクセシビリティ対応レポートの設計
               href: ../desktop-accessibility-creating-reports.md
-            - name: アクセシビリティ ツールを使用して Power BI レポートを作成する
+            - name: アクセシビリティ ツールを使用してレポートを作成する
               href: ../desktop-accessibility-creating-tools.md
-            - name: アクセシビリティ機能を使用して Power BI レポートを使用する
+            - name: アクセシビリティ機能を使用してレポートを使用する
               href: ../desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop のキーボード ショートカット
               href: ../desktop-accessibility-keyboard-shortcuts.md
@@ -351,7 +353,7 @@
               href: ../service-dashboard-pin-tile-from-q-and-a.md
             - name: レポート ページ全体をダッシュボードにピン留めする
               href: ../service-dashboard-pin-live-tile-from-report.md
-            - name: Power BI サービスでのデータ アラート
+            - name: サービスのデータ アラート
               href: ../service-set-data-alerts.md
             - name: イメージ、テキスト ボックス、ビデオ、コードをダッシュボードに追加する
               href: ../service-dashboard-add-widget.md
@@ -369,9 +371,9 @@
               href: ../service-dashboard-themes.md
         - name: その他のタスク
           items:
-            - name: Power BI 内のコンテンツの名前を変更する
+            - name: コンテンツ名の変更
               href: ../service-rename.md
             - name: 項目の連絡先の設定
               href: ../service-item-contact.md
-            - name: Power BI のほとんどすべてのものを削除する
+            - name: ほとんどすべてのものを削除する
               href: ../service-delete.md
