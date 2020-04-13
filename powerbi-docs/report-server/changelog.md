@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
-ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.date: 04/08/2020
+ms.openlocfilehash: ff63e38e52a3c8970edfa5b6d9e2ccabeff2e16a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381102"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979801"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -29,7 +29,7 @@ ms.locfileid: "79381102"
            -  特定のデータ ソースのアップロードに失敗する Power BI レポートの修正
            -  Power BI Report Server デスクトップ リンクのポータルからのダウンロード場所の修正
            -  Excel レンダリング用の DynamicImageDPI の修正
-           -  特定のマルチユーザー シナリオで間違ったスレッド カルチャを使用する Oracle 接続の修正
+           -  特定のマルチユーザー シナリオで間違ったスレッド カルチャを使用する Oracle 接続の修正 (詳細については、[UseInstalledUICulture に関するドキュメント] (https://docs.microsoft.com/power-bi/report-server/connect-data-sources) を参照)
            -  レポートの埋め込みで失敗の原因となる CustomHeaders の既定値の修正
            -  特定のケースで間違って生成される SQL パラメーター名の修正
     - *バージョン:1.6.7327.3007 (ビルド 15.0.1102.759)、リリース日:2020 年 1 月 23 日*

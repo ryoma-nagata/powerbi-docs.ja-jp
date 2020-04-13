@@ -7,20 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a61288c9792d562e9a5efecd43d879d6df6d1782
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698879"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813077"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>アプリで Premium 容量を監視する
 
 Premium 容量リソースを最適に利用するにはどうすればよいかを十分な情報に基づいて判断するには、ご利用の容量を監視することが不可欠です。 管理ポータルまたは **Power BI Premium 容量メトリック** アプリで容量を監視できます。 この記事では、Premium 容量メトリック アプリの使い方について説明します。 このアプリを使用すると、自分の容量がどのように活用されているかについて非常に詳細な情報を得ることができます。 過去 7 日間の平均使用量のメトリックに関する大まかな概要は、管理ポータルを使用して確認できます。 このポータルでの監視の詳細については、[管理ポータルでの Premium 容量の管理](service-admin-premium-monitor-portal.md)に関するページを参照してください。
 
 アプリは定期的に新しい機能によって更新されます。 最新のバージョンが実行されていることを確認してください。 アプリの以前のバージョンが既にインストールされている場合は、それをご利用のアプリの中から削除し、Ctrl + F5 キーを押して更新することをお勧めします。
+
+> [!IMPORTANT]
+> Power BI Premium 容量のリソース使用率が高いために、パフォーマンスや信頼性の問題が発生している場合は、通知メールを受信して問題を特定し、解決することができます。 これは、過負荷容量のトラブルシューティングを行うための合理的な方法である可能性があります。 詳細については、「[容量と信頼性に関する通知](service-interruption-notifications.md#capacity-and-reliability-notifications)」を参照してください。
 
 ## <a name="install-the-app"></a>アプリをインストールする
 

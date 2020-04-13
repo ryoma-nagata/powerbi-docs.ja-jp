@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609834"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979870"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Python を使用して Power BI ビジュアルを作成する
 
@@ -155,9 +155,9 @@ plt.show()
 > **Python スクリプトのセキュリティ:** Python ビジュアルは Python スクリプトから作成されますが、Python スクリプトにはセキュリティやプライバシーのリスクがあるコードが含まれる場合があります。 初めて Python ビジュアルを表示または Python ビジュアルと対話しようとすると、ユーザーにセキュリティ警告メッセージが表示されます。 作成者とソースを信頼する場合、または Python スクリプトを確認して理解した場合にのみ、Python ビジュアルを有効にします。
 >  
 
-## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Matprolib、Pandas、Python でのプロットに関する詳細情報
+## <a name="more-information-about-plotting-with-matplotlib-pandas-and-python"></a>Matplotlib、Pandas、Python でのプロットに関する詳細情報
 
-このチュートリアルは、Power BI Desktop で Python を使用したビジュアルの作成を開始する際に役立つように設計されています。 Python、Pandas、Matprolib ライブラリを使用してビジュアル レポートを作成する多くのオプションと機能に関しては、ごく一部のみを紹介しています。 外部にはもっと多くの情報がありますが、ここでは作業を開始するためのリンクをいくつか示します。
+このチュートリアルは、Power BI Desktop で Python を使用したビジュアルの作成を開始する際に役立つように設計されています。 Python、Pandas、Matplotlib ライブラリを使用してビジュアル レポートを作成するための多くのオプションと機能に関しては、ごく一部のみを紹介しています。 外部にはもっと多くの情報がありますが、ここでは作業を開始するためのリンクをいくつか示します。
 
 - [Matplotlib](https://matplotlib.org/) Web サイトのドキュメント 
 - [Matplotlib チュートリアル: Python で Matplotlib を使用するための基本ガイド](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
@@ -177,6 +177,7 @@ Power BI Desktop での Python ビジュアルには、いくつかの制限が�
 - Python ビジュアルは、データ更新、フィルター処理、および強調表示の際に更新されます。 しかし、イメージ自体は対話型ではなく、クロス フィルター処理のソースにすることはできません。
 - Python ビジュアルは他のビジュアルの強調表示に応答しますが、他の要素をクロス フィルター処理するために、Python ビジュアルの要素をクリックすることはできません。
 - Python の既定のディスプレイ デバイスにプロットされるプロットだけが、キャンバス上に正しく表示されます。 異なる Python ディスプレイ デバイスを明示的に使用することは避けてください。
+- Python ビジュアルでは、入力列の名前変更はサポートされていません。 列は、スクリプトの実行時に元の名前で参照されます。
 
 ## <a name="next-steps"></a>次の手順
 

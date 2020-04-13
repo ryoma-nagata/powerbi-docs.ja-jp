@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 9bbb289c3fc87587d78de40d375ee71e20c16032
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493551"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621643"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -172,7 +172,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 組織のテナントに埋め込む場合は、URL - *https://login.microsoftonline.com/common/oauth2/authorize* を使用します。
 
-ゲストに埋め込む場合は、URL - *https://login.microsoftonline.com/report-owner-tenant-id* を使用します。ここで、*report-owner-tenant-id* に置き換えてレポート所有者のテナント ID を追加します。
+ゲストに埋め込む場合は、URL - `https://login.microsoftonline.com/report-owner-tenant-id` を使用します。ここで、*report-owner-tenant-id* に置き換えて、レポート所有者のテナント ID を追加します。
 
 ### <a name="run-the-application"></a>アプリケーションの実行
 

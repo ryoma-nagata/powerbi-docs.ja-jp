@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435975"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802097"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -24,6 +24,20 @@ ms.locfileid: "79435975"
 
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="march-2020"></a>2020 年 3 月
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>ショートカットと Google Search を使用してコンテンツを起動する (Android)
+ショートカットと Google Search の両方を Power BI アプリに統合することで、データの検索と起動がより簡単になりました。 デバイスのホーム画面から直接、お気に入りのレポートやダッシュボードに簡単にアクセスするためのショートカットを作成します。 その後、Google Search を使用して、Power BI コンテンツをすばやく検索して開きます。 詳細については、[Android アプリのショートカット](mobile-app-quick-access-shortcuts.md)および [Google Search](mobile-app-find-access-google-search.md) に関するページを参照してください。
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>デバイスの保護を使用したセキュリティ強化 (プレビュー) (Android)
+デバイスの組み込みの保護機能を使用して、Power BI アプリをセキュリティで保護し、必要なプライバシーを確保します。 Power BI アプリへのアクセスに生体認証 (指紋 ID) を求めることで、確実にデータを非公開にし、自分だけに表示されるようにします。 [詳細については、ネイティブのセキュリティで保護されたアクセスに関するページを参照してください](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>iPad でスキャンを利用できるようになりました
+iPad から直接、バーコードをスキャンしてレポートをフィルター処理したり、QR コードを使用してレポートをすばやく開いたりできるようになりました。  
+
+### <a name="updated-filtering-experience"></a>フィルター処理のエクスペリエンスの更新
+Power BI アプリのフィルターに、新機能と新しいデザインが追加されました。 これには、レポートのビジュアルに影響を与える適用されたフィルターの可視性の強化と、フィルターをロックしたり、非表示にしたりする機能が含まれます。 これらの変更により、Power BI サービスでのフィルター処理との互換性も向上します。
 
 ## <a name="february-2020"></a>2020 年 2 月
 

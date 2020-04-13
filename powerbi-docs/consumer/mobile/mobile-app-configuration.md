@@ -2,18 +2,17 @@
 title: Power BI アプリの構成設定
 description: MDM ツールを使用して Power BI の動作をカスタマイズする方法
 author: paulinbar
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 04/05/2020
 ms.author: painbar
-ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205552"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802028"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>モバイル デバイス管理 (MDM) ツールを使用して Power BI アプリをリモートで構成する
 
@@ -22,7 +21,7 @@ iOS および Android 用 Power BI Mobile アプリでは、モバイル デバ�
 Power BI Mobile アプリでは、次の構成シナリオがサポートされています。
 
 * レポート サーバーの構成 (iOS および Android)
-* データ保護の設定 (iOS)
+* データ保護の設定 (iOS および Android)
 * 対話式操作の設定 (iOS および Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>レポート サーバーの構成 (iOS および Android)
@@ -36,13 +35,16 @@ Power BI Mobile アプリでは、次の構成シナリオがサポートされ�
 | com.microsoft.powerbi.mobile.ServerDisplayName | 文字列 | (省略可能)<br><br>既定値は "Report server" です<br><br>サーバーを表すためにアプリで使用されるフレンドリ名。 |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | ブール値 | (省略可能)<br><br>既定値は True です。 True に設定されている場合、モバイル デバイスに既にあるレポート サーバーのすべての定義がオーバーライドされます。 既に構成されているサーバーは、削除されます。 また、オーバーライドを True に設定すると、ユーザーはその構成を削除できなくなります。<br><br>False に設定すると、既存の設定はそのままで、プッシュされた値が追加されます。 同じサーバー URL がモバイル アプリに既に構成されている場合、アプリはその構成をそのままにします。 アプリで同じサーバーへの再認証をユーザーに求めることはありません。 |
 
-## <a name="data-protection-settings-ios"></a>データ保護の設定 (iOS)
+## <a name="data-protection-settings-ios-and-android"></a>データ保護の設定 (iOS および Android)
 
-管理者は、iOS 用 Power BI アプリを使用して、セキュリティとプライバシーの設定に対する既定の構成をカスタマイズすることができます。 Power BI アプリにアクセスするときに、ユーザーに自分の Face ID、Touch ID、またはパスコードを入力するように強制できます。
+管理者は、iOS および Android 用 Power BI モバイル アプリを使用して、セキュリティとプライバシーの設定に対する既定の構成をカスタマイズすることができます。 iOS の場合、Power BI モバイル アプリにアクセスするときに、ユーザーに自分の Face ID、Touch ID、またはパスコードを入力するように強制できます。 Android の場合、ユーザーに生体認証 (指紋 ID) を使用するように強制できます。
 
 | キー | 種類 | 説明 |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | ブール値 | 既定値は False です。 <br><br>デバイス上のアプリにアクセスするために、ユーザーに TouchID や FaceID などの生体測定を要求することができます。 必要に応じて、認証に加えて生体測定が使用されます。<br><br>アプリ保護ポリシーを使用している場合、Microsoft ではデュアル アクセスのプロンプトを防ぐために、この設定を無効にすることをお勧めします。 |
+| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | ブール値 | 既定値は False です。 <br><br>デバイス上のアプリにアクセスするために、ユーザーに TouchID、FaceID (iOS)、指紋 ID (Android) などの生体認証を要求することができます。 必要に応じて、認証に加えて生体測定が使用されます。<br><br>アプリ保護ポリシーを使用している場合、Microsoft ではデュアル アクセスのプロンプトを防ぐために、この設定を無効にすることをお勧めします。 |
+
+>[!NOTE]
+>データ保護設定は、生体認証をサポートする Android デバイスにのみ適用されます。
 
 ## <a name="interaction-settings-ios-and-android"></a>対話式操作の設定 (iOS および Android)
 

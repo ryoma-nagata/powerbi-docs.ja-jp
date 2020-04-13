@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/24/2020
+ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: d468ab70f47edcd5487b548596f4aea4080cd994
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80329645"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979916"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium 容量でワークロードを構成する
 
@@ -65,7 +65,7 @@ AI ワークロードを使用すると、Power BI で cognitive services と自
 | **最大メモリ (%)** | 容量のうち、データセットが使用できるメモリの最大割合。 |
 | **XMLA エンドポイント** | クライアント アプリケーションからの接続で、ワークスペース レベルとアプリ レベルで設定されたセキュリティ グループ メンバーシップが優先されることを指定します。 詳細については、「[クライアント アプリケーションとツールでデータセットに接続する](service-premium-connect-tools.md)」を参照してください。 |
 | **Max Intermediate Row Set Count (中間行セットの最大数)** | DirectQuery によって返される中間行の最大数。 既定値は 1,000,000 に設定されており、許容範囲は 100,000 - 2,147,483,647 です。 |
-| **オフライン データセットの最大サイズ (GB)** | メモリ内のオフライン データセットの最大サイズ。 これはディスク上の圧縮サイズです。 既定値は SKU によって設定され、許容範囲は 0.1 - 10 GB です。 |
+| **オフライン データセットの最大サイズ (GB)** | メモリ内のオフライン データセットの最大サイズ。 これはディスク上の圧縮サイズです。 既定値は 0 です。これは SKU によって定義されている最高制限です。 許容範囲は 0 から容量サイズの制限までです。 |
 | **Max Result Row Set Count (結果行セットの最大数)** | DAX クエリで返される行の最大数。 既定値は -1 (無制限) に設定されており、許容範囲は 100,000 - 2,147,483,647 です。 |
 | **クエリのメモリ制限 (%)** | ワークロード内で、MDX または DAX クエリの実行に使用できる空きメモリの最大の割合。 既定値は 0 です。この場合、SKU に固有の自動的なクエリのメモリの制限が適用されます。 |
 | **クエリのタイムアウト (秒)** | クエリがタイムアウトするまでの最大時間。既定値は 3,600 秒 (1 時間) です。 値 0 は、クエリがタイムアウトしないことを指定します。 |
@@ -203,6 +203,9 @@ Power BI のレポートでは、容量に対するクエリごとに、この�
 ## <a name="monitoring-workloads"></a>ワークロードの監視
 
 [Power BI Premium 容量メトリック アプリ](service-admin-premium-monitor-capacity.md)のデータセット、データフロー、およびページ分割されたレポートのメトリックにより、容量に対して使用可能なワークロードを監視できます。 
+
+> [!IMPORTANT]
+> Power BI Premium 容量のリソース使用率が高いために、パフォーマンスや信頼性の問題が発生している場合は、通知メールを受信して問題を特定し、解決することができます。 詳細については、「[容量と信頼性に関する通知](service-interruption-notifications.md#capacity-and-reliability-notifications)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 

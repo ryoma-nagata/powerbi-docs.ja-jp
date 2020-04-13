@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/19/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: c15576ac6ab9b20a3492341c05d2f9d8eb42e107
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488685"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813054"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics アプリ
 
@@ -27,6 +27,9 @@ ms.locfileid: "79488685"
 ![Power BI Premium Metrics アプリ](media/service-premium-metrics-app/premium-metrics-app-00.png)
 
 以下のセクションでは、ランディング ページと 3 つのメトリック レポート ページについて詳しく説明します。 
+
+> [!IMPORTANT]
+> Power BI Premium 容量のリソース使用率が高いために、パフォーマンスや信頼性の問題が発生している場合は、通知メールを受信して問題を特定し、解決することができます。 詳細については、「[容量と信頼性に関する通知](service-interruption-notifications.md#capacity-and-reliability-notifications)」を参照してください。
 
 ## <a name="premium-capacity-health-center"></a>Premium の [Capacity health center]\(容量正常性センター\)
 

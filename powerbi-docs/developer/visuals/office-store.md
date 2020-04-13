@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: bfdac85b50851f840db04d2b3d8e88d434ab7b7e
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80550909"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621454"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI ビジュアルをパートナー センターに発行する
 
@@ -100,6 +100,8 @@ AppSource に提出する前に、**pbiviz** ファイルと **pbix** ファイ�
 10. **[製品のセットアップ]** を選択し、 **[レビューと発行]** をクリックします。
 
 ## <a name="tracking-submission-status-and-usage"></a>送信の状態と使用状況の追跡
+
+[検証ポリシー](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)を確認することができます。
 
 送信後は、[アプリ ダッシュボード](https://sellerdashboard.microsoft.com/Application/Summary/)で送信の状態を見ることができます。
 

@@ -7,19 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 04/06/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 432312b5ceb7632e0249d1d7dda6158bf97d0224
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80472062"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979778"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>米国の州政府および地方自治体向けの COVID-19 の追跡サンプル
 
-Power BI チームは COVID-19 の追跡サンプルを作成しました。これにより、米国の州政府および地方自治体が、COVID-19 に関する対話型レポートを発行したりカスタマイズしたりすることができます。 Power BI Desktop を使用すると、COVID-19 データを分析して視覚化し、都市、郡、州、および国の各レベルでコミュニティに絶えず情報を提供することができます。 次に Power BI Publish to Web を使用して、レポートを一般に共有し、市民に情報を提供することができます。 この記事では、独自のパブリック ストーリー、ブログ、または Web サイトで Power BI の対話型の視覚化を使用するための 3 つのオプションを提供します。
+Power BI チームは COVID-19 の追跡サンプルを作成しました。これにより、米国の州政府および地方自治体が、COVID-19 に関する対話型レポートを発行したりカスタマイズしたりすることができます。 Power BI Desktop を使用すると、COVID-19 データを分析して視覚化し、都市、郡、州、および国の各レベルでコミュニティに絶えず情報を提供することができます。 次に Power BI Publish to Web を使用して、レポートを一般に共有し、市民に情報を提供することができます。 この記事では、独自のパブリック ストーリー、ブログ、または Web サイトで Power BI の対話型の視覚化を使用するためのさまざまなオプションを提供します。
 
 :::image type="content" source="media/sample-covid-19-us/covid-19-us-tracking-sample.png" alt-text="米国のデータを使用した COVID-19 のサンプル":::
 
@@ -45,10 +45,10 @@ Microsoft では、サンプル レポートを公開し、Web に公開する�
 対話型グラフィックをご自分のサイトに追加するには、次の埋め込みコードをコピーして、Web ページ上のグラフィックを表示したい場所に貼り付けます。  
 
 ```
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-埋め込みコードは HTML iFrame 要素で、任意の HTML ページに挿入できます。 ご自分のサイト内に収まるように、提供された iFrame の幅と高さを調整します。 サンプル レポートは、16:9 の比率で作成されているため、この大きさを保持するサイズを選択します。 正しく実装されている場合、余分な灰色の枠なしでグラフィックが表示されます。 これらの変更を行う場合は、[iFrame のサイズ変更のヒントとテクニックを確認](https://docs.microsoft.com/power-bi/service-publish-to-web#tips-and-tricks-for-iframe-height-and-width)すると役立ちます。
+埋め込みコードは HTML iFrame 要素で、任意の HTML ページに挿入できます。 ご自分のサイト内に収まるように、提供された iFrame の幅と高さを調整します。 サンプル レポートは、16:9 の比率で作成されているため、この大きさを保持するサイズを選択します。 正しく実装されている場合、余分な灰色の枠なしでグラフィックが表示されます。 これらの変更を行う場合は、[iFrame のサイズ変更のヒントとテクニックを確認](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width)すると役立ちます。
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>オプション 2:サンプル Power BI ファイルのカスタマイズ
 
@@ -104,9 +104,9 @@ USAFacts データは、帰属を必要とする Creative Commons ライセン�
 1. データ ソース資格情報の認証方法:匿名
 2. このデータ ソースのプライバシー レベルの設定:パブリック
 
-更新設定をテストするには、[データセット項目で使用できる [今すぐ更新] オプション](../refresh-data.md#data-refresh)を選択します。
+更新設定をテストするには、データセット項目で使用できる、[[今すぐ更新]](../refresh-data.md#data-refresh) オプションを選択します。
 
-更新されたデータは、スケジュールが実行されるたびに読み込まれます。 基になるデータは USAFacts によって提供され、更新スケジュールと同じ頻度で更新されない場合があることに注意してください。 基になるデータが最後に更新された日時を知るには、[USAFacts の Web サイト](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)で確認してください。 
+更新されたデータは、スケジュールが実行されるたびに読み込まれます。 基になるデータは USAFacts によって提供され、更新スケジュールと同じ頻度で更新されない場合があります。 基になるデータが最後に更新された日時を知るには、[USAFacts の Web サイト](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)で確認してください。 
 
 カスタマイズしたレポートを Web サイトに公開することを予定している場合は、スケジュールされた更新を、少なくとも USAFacts データ更新プログラムと同じ頻度で実行するように構成することをお勧めします。 USAFacts は毎日異なる時刻にデータを更新する可能性があるため、毎日数回の更新を構成することをお勧めします。 
 
@@ -147,6 +147,11 @@ Power BI Desktop でレポートに変更を加えた場合は、Power BI サー
     
 次に、Power BI Desktop を使用してデータを視覚化できます。 最後に、「**オプション 2:** [Power BI サービスにレポートを発行する](#publish-your-report-to-the-power-bi-service)」の手順を使用して、レポートを発行し、カスタムの埋め込みコードを作成します。 
 
+## <a name="option-4-use-the-covid-19-us-tracking-template-app"></a>オプション 4:COVID-19 US トラッキング テンプレートアプリを使用する
+
+もう 1 つのオプションとして、Power BI チームでは、すぐに作業を開始するために COVID-19 US トラッキング "*テンプレート アプリ*" を作成しました。 テンプレート アプリは、特定のデータ ソースのレポート、ダッシュボード、データセットのバンドルです。 AppSource からダウンロードして使用するか、ニーズに合わせて変更し、同僚に配布します。 
+
+この COVID-19 US トラッキング テンプレート アプリには、COVID-19 メトリックの事前に構築されたレポートが含まれています。これは、そのまま使用することも、Power BI サービスで直接、個人用に設定することも、必要に応じてダウンロードして他のデータ ソースを追加することもできます。 [COVID-19 US トラッキング テンプレート アプリ](../connect-data/service-connect-to-covid-19-tracking.md)をインストールし、すぐに使い始める方法について学習してください。
 
 ## <a name="about-the-data-source-for-this-report"></a>このレポートのデータ ソースについて
 この対話型のレポートでは、アメリカ疾病管理予防センター (CDC) と、州および地方自治体レベルの公的な保健機関からのデータが集計されます。 郡レベルのデータは、州および地方自治体を直接参照 (リンク) することによって確認されます。
@@ -157,7 +162,7 @@ Power BI Desktop でレポートに変更を加えた場合は、Power BI サー
 
 このレポートとデータは、"現状有姿" かつ "瑕疵を問わない" 条件で提供され、いかなる保証も与えられないものとします。 Microsoft は、明示的な瑕疵担保責任または保証責任を一切負いません。また、商品性、特定目的に対する適合性、非侵害性に関するいかなる黙示的保証も明示的に放棄します。
 
-USAFacts データは、Creative Commons ライセンスの下で利用できます。 これを使用するには、データ プロバイダーとして USAFacts を明記し、USAFacts にリンクします。 正確な帰属の手順については、USAFacts ページ「[Coronavirus in the United States:Mapping the COVID-19 outbreak in the states and counties](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)」 (米国におけるコロナウイルス: COVID-19 のアウトブレイクの州都郡へのマッピング) の「 **#MadewithUSAFacts**」セクションを参照してください。
+USAFacts データは、Creative Commons ライセンスの下で利用できます。 これを使用するには、データ プロバイダーとして USAFacts を明記し、USAFacts にリンクします。 正確な帰属の手順については、「 **#MadewithUSAFacts**」セクション (USAFacts ページ「[Coronavirus in the United States: Mapping the COVID-19 outbreak in the states and counties](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)」 (米国におけるコロナウイルス: COVID-19 のアウトブレイクの州都郡へのマッピング)) を参照してください。
 
 ジョンズ ホプキンス大学のデータの著作権: 2020 Johns Hopkins University, all rights reserved. これは、教育および学術研究目的でのみ、公に提供されています。 マッシュアップの例に示されているデータの完全な使用条件は、[こちら](https://github.com/CSSEGISandData/COVID-19/blob/master/README.md)をご覧ください。 詳細については、[ジョンズ ホプキンス大学の Web サイト](https://coronavirus.jhu.edu/map-faq.html)をご覧ください。
 

@@ -9,24 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403555"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751638"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>サービス プリンシパルとアプリケーション シークレットを使用した Power BI コンテンツの埋め込み
 
-サービス プリンシパルとは、Azure AD アプリケーションが Power BI サービスのコンテンツと API にアクセスできるようにするための認証方法です。
+[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-Azure Active Directory (Azure AD) アプリを作成すると、[サービス プリンシパル オブジェクト](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)が作成されます。 サービス プリンシパル オブジェクト (単に "*サービス プリンシパル*" とも呼ばれる) を使用することで、Azure AD はご利用のアプリの認証を行うことができます。 認証が完了すると、アプリは Azure AD テナント リソースにアクセスできるようになります。
-
-認証を行うために、サービス プリンシパルでは、Azure AD アプリの "*アプリケーション ID*" と次のいずれかが使用されます。
-* アプリケーション シークレット
-* 証明書
-
-この記事では、"*アプリケーション ID*" と "*アプリケーション シークレット*" を使用したサービス プリンシパル認証について説明します。 サービス プリンシパルと証明書を使用して認証を行う方法については、[Power BI の証明書ベースの認証]()に関するページを参照してください。
+この記事では、"*アプリケーション ID*" と "*アプリケーション シークレット*" を使用したサービス プリンシパル認証について説明します。
 
 ## <a name="method"></a>メソッド
 
@@ -55,12 +49,12 @@ Azure Active Directory (Azure AD) アプリを作成すると、[サービス �
 ## <a name="step-1---create-an-azure-ad-app"></a>手順 1 - Azure AD アプリを作成する
 
 次のいずれかの方法を使用して、Azure AD アプリを作成します。
-* [Microsoft Azure portal でアプリを作成する](https://ms.portal.azure.com/#allservices)
+* [Microsoft Azure portal でアプリを作成する](https://portal.azure.com/#allservices)
 * [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) を使用してアプリを作成する
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Microsoft Azure portal での Azure AD アプリの作成
 
-1. [Microsoft Azure](https://ms.portal.azure.com/#allservices) にログインします。
+1. [Microsoft Azure](https://portal.azure.com/#allservices) にログインします。
 
 2. **[アプリの登録]** を検索し、 **[アプリの登録]** リンクをクリックします。
 
@@ -72,7 +66,7 @@ Azure Active Directory (Azure AD) アプリを作成すると、[サービス �
 
 4. 必要な情報を入力します。
     * **名前** - 自分のアプリケーションの名前を入力します
-    * **サポートされているアカウントの種類** - サポートされているアカウントの種類を選択します
+    * **サポートされているアカウントの種類** - 必要な Azure AD アカウントを選択します
     * (省略可能) **リダイレクト URI** - 必要に応じて URI を入力します
 
 5. **[登録]** をクリックします。
@@ -205,5 +199,3 @@ Power BI サービス内でレポート、ダッシュボード、データセ�
 * [顧客向けの Power BI Embedded](embed-sample-for-customers.md)
 
 * [サービス プリンシパルを使用するオンプレミス データ ゲートウェイを使用した行レベルのセキュリティ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
-* [サービス プリンシパルと証明書を使用した Power BI コンテンツの埋め込み]()

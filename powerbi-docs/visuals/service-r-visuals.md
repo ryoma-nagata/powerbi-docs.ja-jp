@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114844"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979824"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI で R ビジュアルを作成して使用する
 R ビジュアルは現在、**Power BI Desktop** でのみ作成でき、その後 Power BI サービスに発行できます。 R ビジュアルの作成の詳細については、「[R を使用した Power BI ビジュアルの作成](../desktop-r-visuals.md)」を参照してください。
@@ -93,7 +93,8 @@ Power BI サービスの R ビジュアルには、一定の制限がありま�
 * R ビジュアルは、データ更新、フィルター処理、および強調表示の際に更新されます。 ただし、イメージ自体は対話に対応しておらず、ツール ヒントはサポートされていません。
 * R ビジュアルは他のビジュアルの強調表示に応答しますが、他の要素をクロス フィルター処理するために R ビジュアルの要素をクリックすることはできません。
 * 現在のところ、R ビジュアルで *Time* データ型はサポートされていません。 代わりに Date/Time を使用してください。
-* **[Web に公開]** を使用するとき、R ビジュアルは表示されません。
+* **[Web に公開]** を使用する場合、R ビジュアルは表示されません。
+* R ビジュアルでは、入力列の名前変更はサポートされていません。 列は、スクリプトの実行時に元の名前で参照されます。
 * 現在のところ、R ビジュアルはダッシュボードとレポートの印刷機能では印刷されません。
 * 現在のところ、R ビジュアルは Analysis Services の DirectQuery モードでサポートされていません。
 * R ビジュアルには、テキスト ラベルをグラフィック要素に変換する機能があります。 Power BI サービスでこれを行うには、次の手順を実行する必要があります。

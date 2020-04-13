@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237525"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979847"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。
@@ -156,7 +156,7 @@ Power BI Report Server では、モデル更新のための認証方法として
 | SharePoint Online リスト |いいえ |いいえ |いいえ |いいえ |
 | Snowflake |いいえ |いいえ |いいえ |いいえ |
 | Sybase データベース |いいえ |いいえ |はい |はい |
-| Teradata |いいえ |いいえ |はい |はい |
+| Teradata |いいえ |いいえ |はい |はい** |
 | appFigures (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Azure Analysis Services データベース (ベータ版) |いいえ |いいえ |いいえ |いいえ |
 | Azure Cosmos DB (ベータ版) |いいえ |いいえ |いいえ |いいえ |
@@ -189,6 +189,8 @@ Power BI Report Server では、モデル更新のための認証方法として
 | Visual Studio Team Services (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Webtrends (ベータ) |いいえ |いいえ |いいえ |いいえ |
 | Zendesk (ベータ) |いいえ |いいえ |いいえ |いいえ |
+
+** Teradata での LDAP 認証の使用 (コマンド プロンプト コマンド 'setx PBI_EnableTeradataLdap true' を使用することで、Power BI Desktop で有効になる) は、モデルの更新ではサポートされていません。
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>DirectQuery でサポートされている認証方法の一覧
 

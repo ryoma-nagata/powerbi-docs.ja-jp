@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 061a2a99ad4cc812aac0d66ec4993001187179a0
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114867"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979893"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R を使用した Power BI ビジュアルの作成
 Power BI Desktop では、*R* を使用してデータを視覚化できます。 [R](https://mran.revolutionanalytics.com/documents/what-is-r) は、統計コンピューティングおよびグラフィックス用の言語であり環境です。
@@ -142,6 +142,8 @@ Power BI Desktop での R ビジュアルには、以下の制限があります
 * 特長: 他のビジュアルを強調表示した場合、R ビジュアルからの応答はありますが、他の要素をクロス フィルター処理するために、R ビジュアル内の要素を選択することはできません。
 
 * ディスプレイ デバイス: R の既定のディスプレイ デバイスにプロットされるプロットだけが、キャンバス上に正しく表示されます。 異なる R ディスプレイ デバイスを明示的に使用することは避けてください。
+
+* 列の名前変更: R ビジュアルでは、入力列の名前変更はサポートされていません。 列は、スクリプトの実行時に元の名前で参照されます。
 
 * RRO インストール: このリリースでは、32 ビット版の Power BI Desktop によって RRO インストールが自動的に識別されません。 **[オプションと設定]**  >  **[オプション]**  >  **[R スクリプト]** の順に選択して、R インストール ディレクトリへのパスを手動で入力する必要があります。
 
