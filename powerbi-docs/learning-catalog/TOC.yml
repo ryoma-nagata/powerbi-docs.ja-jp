@@ -1,0 +1,21 @@
+- name: ラーニング カタログ
+  href: index.yml
+  items:
+    - name: ビジネスの意思決定者
+      href: learning-catalog-bdm.md
+    - name: コンシューマー
+      href: learning-catalog-consumer.md
+    - name: レポートの作成者
+      href: learning-catalog-report-creator.md
+    - name: データ アナリスト
+      href: learning-catalog-data-analyst.md
+    - name: 管理者
+      href: learning-catalog-administrator.md
+    - name: 開発者
+      href: learning-catalog-developer.md
+    - name: パートナーの販売前ロール
+      href: learning-catalog-presales.md
+    - name: 機能コンサルタント
+      href: learning-catalog-functional-consultant.md
+    - name: ソリューション アーキテクト
+      href: learning-catalog-solution-architect.md

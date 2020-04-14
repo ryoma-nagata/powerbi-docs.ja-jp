@@ -48,6 +48,8 @@
           href: embed-from-apps.md
         - name: レポートをファイルにエクスポートする
           href: export-to.md
+        - name: ページ分割されたレポートをファイルにエクスポートする
+          href: export-paginated-report.md
         - name: アプリの自動インストール
           href: embed-auto-install-app.md
         - name: Azure Active Directory テナントを作成する

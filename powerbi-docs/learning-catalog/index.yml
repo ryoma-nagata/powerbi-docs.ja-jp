@@ -1,0 +1,132 @@
+### YamlMime:Landing
+title: Power BI ラーニング カタログ
+summary: Power BI のすべてのトレーニング オプションを検索する
+metadata:
+  title: Power BI ラーニング カタログ
+  description: 組織内のロールに適した Power BI のトレーニング オプションを見つけます。
+  ms.service: powerbi
+  ms.topic: landing-page
+  author: loreleishannonmsft
+  ms.author: v-lshann
+  ms.date: 04/08/2020
+  ms.openlocfilehash: aff1866616a10e5df124619261d8398bda5c51a3
+  ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 04/13/2020
+  ms.locfileid: "81269043"
+landingContent:
+- title: ビジネスの意思決定者
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ビジネスおよび技術に関する意思決定者向けラーニング カタログ
+      url: learning-catalog-bdm.md#
+- title: コンシューマー
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: コンシューマー ラーニング カタログ
+      url: learning-catalog-consumer.md#
+- title: レポートの作成者
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: レポート作成者ラーニング カタログ
+      url: learning-catalog-report-creator.md#
+    - text: 作業の開始
+      url: learning-catalog-report-creator.md#get-started
+    - text: ダッシュボード
+      url: learning-catalog-report-creator.md#dashboards
+    - text: レポート デザイン
+      url: learning-catalog-report-creator.md#report-design
+    - text: 視覚化
+      url: learning-catalog-report-creator.md#visualization
+    - text: 統合
+      url: learning-catalog-report-creator.md#integration
+- title: データ アナリスト
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: データ アナリストのラーニング カタログ
+      url: learning-catalog-data-analyst.md#
+    - text: 作業の開始
+      url: learning-catalog-data-analyst.md#get-started
+    - text: ベスト プラクティス
+      url: learning-catalog-data-analyst.md#best-practices
+    - text: ケース スタディ
+      url: learning-catalog-data-analyst.md#case-studies
+    - text: ダッシュボード
+      url: learning-catalog-data-analyst.md#dashboards
+    - text: 視覚化
+      url: learning-catalog-data-analyst.md#visualizations
+    - text: ガバナンスと展開
+      url: learning-catalog-data-analyst.md#governance-deployment
+    - text: 統合
+      url: learning-catalog-data-analyst.md#integration
+    - text: セキュリティ
+      url: learning-catalog-data-analyst.md#security
+- title: 管理者
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 管理者向けラーニング カタログ
+      url: learning-catalog-administrator.md
+    - text: 作業の開始
+      url: learning-catalog-administrator.md#get-started
+    - text: 配置
+      url: learning-catalog-administrator.md#deploy
+- title: 開発者
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 開発者向けラーニング カタログ
+      url: learning-catalog-developer.md
+    - text: 作業の開始
+      url: learning-catalog-developer.md#get-started
+    - text: 埋め込み
+      url: learning-catalog-developer.md#embedded
+    - text: DAX
+      url: learning-catalog-developer.md#dax
+    - text: 開発
+      url: learning-catalog-developer.md#development
+- title: パートナーのプリセールスの役割
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: パートナーのプリセールス ラーニング カタログ
+      url: learning-catalog-presales.md#
+- title: 機能コンサルタント
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: アプリケーションの機能コンサルタント向けラーニング カタログ
+      url: learning-catalog-functional-consultant.md
+    - text: 作業の開始
+      url: learning-catalog-functional-consultant.md#get-started
+    - text: ベスト プラクティス
+      url: learning-catalog-functional-consultant.md#best-practices
+    - text: ケース スタディ
+      url: learning-catalog-functional-consultant.md#case-studies
+    - text: ダッシュボード
+      url: learning-catalog-functional-consultant.md#dashboards
+    - text: ガバナンスと展開
+      url: learning-catalog-functional-consultant.md#governance-deployment
+    - text: 統合
+      url: learning-catalog-functional-consultant.md#integration
+    - text: セキュリティ
+      url: learning-catalog-functional-consultant.md#security
+    - text: 視覚化
+      url: learning-catalog-functional-consultant.md#visualizations
+- title: ソリューション アーキテクト
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ソリューション アーキテクト ラーニング カタログ
+      url: learning-catalog-solution-architect.md
+    - text: 作業の開始
+      url: learning-catalog-solution-architect.md#get-started
+    - text: ケース スタディ
+      url: learning-catalog-solution-architect.md#case-studies
+    - text: パフォーマンス
+      url: learning-catalog-solution-architect.md#performance

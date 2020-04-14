@@ -33,6 +33,8 @@
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
             - name: データ系列
               href: service-data-lineage.md
+            - name: データセットの影響分析
+              href: service-dataset-impact-analysis.md
             - name: データの秘密度ラベルを適用する
               href: ../designer/service-security-apply-data-sensitivity-labels.md
             - name: グループの OneDrive に保存されているファイルへの接続

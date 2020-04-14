@@ -18,12 +18,14 @@
           href: end-user-experience.md
         - name: ホーム ランディング ページを使用してコンテンツを検索する
           href: end-user-home.md
-        - name: 自然言語を使用して質問する方法
-          href: end-user-q-and-a.md
+        - name: コンシューマーが使用できる機能の一覧
+          href: end-user-features.md
         - name: 初めてサインインする
           href: end-user-sign-in.md
         - name: Power BI ライセンスの種類
           href: end-user-license.md
+        - name: 自然言語を使用して質問する方法
+          href: end-user-q-and-a.md
         - name: '"新しい外観" に移動する'
           href: ../service-new-look.md
         - name: '"新しい外観": アクションはどこにありますか。'
@@ -60,6 +62,8 @@
               href: end-user-report-filter.md
             - name: レポートのビジュアルが互いにクロス フィルターする方法
               href: end-user-interactions.md
+            - name: レポート スライサーとの対話
+              href: end-user-slicer.md
             - name: レポートを PDF にエクスポートする
               href: end-user-pdf.md
             - name: レポートを PowerPoint にエクスポートする
