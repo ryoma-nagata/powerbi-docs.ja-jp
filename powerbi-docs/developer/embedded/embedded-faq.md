@@ -96,7 +96,7 @@ PRO ライセンスでの埋め込みトークンは、開発テストを意図�
 
 PBI ポータルを使って、PBI テナント リージョンを確認できます。
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Power BI について
+`https://app.powerbi.com/` > ? > Power BI について
 
 ![Power BI について](media/embedded-faq/about-01.png)
 ![テナント リージョン](media/embedded-faq/tenant-location-01.png)

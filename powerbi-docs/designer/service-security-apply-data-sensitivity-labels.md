@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea4e8da2e821483fc567a3038c6133c60992e593
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: ab171f81224c3c6cf90070bf221e6b93285d8caa
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538430"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006413"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>Power BI でデータの秘密度ラベルを適用する (プレビュー)
 
@@ -48,18 +48,18 @@ Power BI で秘密度ラベルを適用するには、ユーザーと組織に�
 
 データセットおよびデータフローで秘密度ラベルを設定することもできます。 次の図では、データセットに対して秘密度ラベルを設定する方法を示します。データフローの手順は似ています。
 
-データセットで秘密度ラベルを設定するには、データセット タブを選択し、ラベルを適用するデータセットの省略記号をクリックして、**[設定]** を選択します。
+データセットで秘密度ラベルを設定するには、データセット タブを選択し、ラベルを適用するデータセットの省略記号をクリックして、 **[設定]** を選択します。
 
 ![データセットの設定を開く](media/service-security-apply-data-sensitivity-labels/apply-data-sensitivity-labels-05.png)
 
-データセットの設定ページで、秘密度ラベル セクションを開き、目的の秘密度ラベルを選択して、**[適用]** をクリックします。
+データセットの設定ページで、秘密度ラベル セクションを開き、目的の秘密度ラベルを選択して、 **[適用]** をクリックします。
 
 ![秘密度ラベルを選択する](media/service-security-apply-data-sensitivity-labels/apply-data-sensitivity-labels-06.png)
 
 データフローでの秘密度ラベルの適用または変更は、データセットの場合と同じプロセスに従います。
 
 ## <a name="removing-sensitivity-labels"></a>秘密度ラベルの削除
-レポート、ダッシュボード、データセット、またはデータフローから秘密度ラベルを削除する場合は、[ラベルの適用で使用するのと同じ手順](#applying-sensitivity-labels)に従いますが、データの秘密度を分類するように求められたら、**(なし)** を選択してください。 
+レポート、ダッシュボード、データセット、またはデータフローから秘密度ラベルを削除する場合は、[ラベルの適用で使用するのと同じ手順](#applying-sensitivity-labels)に従いますが、データの秘密度を分類するように求められたら、 **(なし)** を選択してください。 
 
 ## <a name="data-protection-in-exported-files"></a>エクスポートされたファイルでのデータ保護
 
@@ -79,7 +79,7 @@ Power BI で秘密度ラベルを適用するには、ユーザーと組織に�
 * Power BI 資産の秘密度ラベルは、ワークスペースの一覧と系列ビューでのみ表示されます。現在、お気に入り、自分と共有、最近使用、アプリ ビューでは表示されません。 ただし、Power BI 資産に適用されているラベルは、表示されない場合でも、Excel、PowerPoint、および PDF ファイルにエクスポートされたデータに常に保持されることに注意してください。
 * [Microsoft 365 セキュリティ センター](https://security.microsoft.com/)または [Microsoft 365 コンプライアンス センター](https://compliance.microsoft.com/)内で構成されている秘密度ラベルの "*ファイル暗号化設定*" は Power BI "*からエクスポートされた*" ファイルにのみ適用されます。Power BI "*内*" で適用されることはありません。
 * Power BI 内で適用されているラベルでは、[HYOK 保護](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)はサポートされていません。
-* Office アプリ内でラベルを表示および適用するには、[ライセンス要件](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)があります。
+* Office アプリ内でラベルを表示および適用するには、[ライセンス要件](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)があります。
 * 秘密度ラベルは、グローバル (パブリック) クラウド内のテナントに対してのみサポートされています。 秘密度ラベルは、他のクラウド内のテナントではサポートされません。
 * [外部ユーザー (Azure Active Directory B2B ゲスト ユーザー)](../service-admin-azure-ad-b2b.md) については、秘密度ラベルはサポートされていません。 これは、外部ユーザーはラベルを表示できず、Excel、PDF、および PPTX ファイルへのデータのエクスポートがブロックされることを意味します。 外部ユーザーがこれらのファイルの種類にデータをエクスポートできるようにするには、[ラベルを削除](#removing-sensitivity-labels)します。
 
