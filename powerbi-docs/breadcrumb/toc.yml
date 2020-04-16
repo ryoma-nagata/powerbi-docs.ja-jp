@@ -32,6 +32,9 @@
             - name: ガイド付き学習
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
+            - name: ラーニング カタログ
+              tocHref: /power-bi/learning-catalog/
+              topicHref: /power-bi/learning-catalog/index
             - name: レポート サーバー
               tocHref: /power-bi/report-server/
               topicHref: /power-bi/report-server/index
