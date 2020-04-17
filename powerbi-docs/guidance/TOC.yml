@@ -64,6 +64,8 @@
               href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Power BI レポート
           items:
+            - name: モデルからレポートを分離する
+              href: report-separate-from-model.md
             - name: レポート ページのヒントによるビジュアルの拡張
               href: report-page-tooltips.md
             - name: レポート ページのドリルスルーの使用

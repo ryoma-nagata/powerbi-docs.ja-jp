@@ -16,14 +16,24 @@
       items:
         - name: Microsoft 365 の管理ロール
           href: ../service-admin-role.md
+        - name: 組織向けのライセンス
+          href: ../service-admin-licensing-organization.md
+        - name: 米国政府向け Power BI
+          items:
+            - name: 米国政府向け Power BI
+              href: ../service-govus-overview.md
+            - name: 米国政府組織を登録する
+              href: ../service-govus-signup.md
+        - name: リージョンのクラウドでの Power BI
+          items:
+            - name: ローカルへの移動によりドイツ リージョンに移行する
+              href: service-admin-migrate-data-germany.md
+            - name: ドイツのクラウド ユーザーに関するよく寄せられる質問
+              href: ../service-govde-faq.md
         - name: よく寄せられる質問 (FAQ)
           href: ../service-admin-faq.md
         - name: 高可用性とフェールオーバーの FAQ
           href: ../service-admin-failover.md
-        - name: ローカルへの移動によりドイツ リージョンに移行する
-          href: service-admin-migrate-data-germany.md
-        - name: ドイツのクラウド ユーザーに関するよく寄せられる質問
-          href: ../service-govde-faq.md
         - name: Power BI Premium
           items:
             - name: Premium 容量を管理する
@@ -38,14 +48,14 @@
       items:
         - name: ライセンスとサインアップ
           items:
-            - name: 組織向けのライセンス
-              href: ../service-admin-licensing-organization.md
+            - name: 組織の Power BI を取得する
+              href: service-admin-org-subscription.md
             - name: Power BI Pro を購入する
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: 米国政府向け Power BI
-              href: ../service-govus-overview.md
-            - name: 米国政府組織を登録する
-              href: ../service-govus-signup.md
+            - name: セルフサービス サインアップを無効にする
+              href: service-admin-disable-self-service.md
+            - name: ユーザー ライセンスを表示および管理する
+              href: service-admin-manage-licenses.md
             - name: Microsoft 365 評価版にサインアップする
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Microsoft 365 パートナーと共に Power BI を追加する
