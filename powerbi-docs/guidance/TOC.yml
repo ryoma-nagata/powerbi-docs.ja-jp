@@ -108,6 +108,8 @@
               href: gateway-onprem-sizing.md
             - name: レポートのパフォーマンスを監視する
               href: monitor-report-performance.md
+            - name: レポートのパフォーマンスのトラブルシューティング
+              href: report-performance-troubleshoot.md
     - name: ホワイトペーパー
       items:
         - name: ホワイトペーパーの概要
