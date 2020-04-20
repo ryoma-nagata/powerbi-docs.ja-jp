@@ -23,6 +23,8 @@
           items:
             - name: 新しいワークスペースを作成する
               href: ../service-create-the-new-workspaces.md
+            - name: ワークスペースの新しい外観を選択する
+              href: service-workspaces-new-look.md
             - name: クラシック ワークスペースをアップグレードする
               href: ../designer/service-upgrade-workspaces.md
             - name: ワークスペースを作成する
@@ -65,8 +67,6 @@
               href: ../service-publish-to-web.md
             - name: OneDrive 上の Excel ブックにリンクするダッシュボードを共有する
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Power BI Publisher for Excel
-              href: ../publisher-for-excel.md
         - name: Power BI をさらにパワーアップ
           items:
             - name: Excel で分析
