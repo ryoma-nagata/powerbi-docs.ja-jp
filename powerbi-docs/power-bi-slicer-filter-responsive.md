@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877599"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006505"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成
 
-レスポンシブ スライサーは、レポート上の領域に合わせてサイズが変わります。 レスポンシブ スライサーでは、異なるサイズに変更したり、水平から正方形や垂直などの異なる図形に変更できます。また、スライサー内の値を変更することで、スライサー自体を並べ替えることができます。 Power BI Desktop と Power BI サービスでは、水平スライサーおよび日付/範囲スライサーをレスポンシブにできます。 日付/範囲スライサーのタッチ領域も向上しているため、指を使用してより簡単に変更できるようになりました。 レスポンシブ スライサーは必要に応じて小さくまたは大きくすることができます。また、Power BI サービスと Power BI モバイル アプリのレポートにちょうど収まるように自動的にサイズ変更することもできます。 
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
+
+レスポンシブ スライサーは、レポート上の領域に合わせてサイズが変わります。 レスポンシブ スライサーでは、異なるサイズに変更したり、水平から正方形や垂直などの異なる図形に変更できます。また、スライサー内の値を変更することで、スライサー自体を並べ替えることができます。 Power BI Desktop と Power BI サービスでは、水平スライサーおよび日付/範囲スライサーをレスポンシブにできます。 日付/範囲スライサーのタッチ領域も向上しているため、指先で、より簡単に変更できるようになりました。 レスポンシブ スライサーは必要に応じて小さくまたは大きくすることができます。また、Power BI サービスと Power BI モバイル アプリのレポートにちょうど収まるように自動的にサイズ変更することもできます。 
 
 ![レスポンシブ スライサーは、さまざまな図形にすることができます。](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 
@@ -33,8 +35,8 @@ ms.locfileid: "73877599"
 
 ## <a name="convert-to-a-horizontal-slicer"></a>水平スライサーに変換する
 
-1. スライサーを選択し、**[視覚化]** ウィンドウで **[書式]** タブを選択します。
-2. **[全般]** セクションを展開し、**[方向]** で **[横]** を選択します。
+1. スライサーを選択し、 **[視覚化]** ウィンドウで **[書式]** タブを選択します。
+2. **[全般]** セクションを展開し、 **[方向]** で **[横]** を選択します。
 
     ![スライサーを水平に設定する](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
 
@@ -46,7 +48,7 @@ ms.locfileid: "73877599"
 
 この手順は簡単です。 
 
-1. **[書式]** タブの **[全般]** セクションの **[方向]** の下で、**[レスポンシブ]** を **[オン]** にスライドします。  
+1. **[書式]** タブの **[全般]** セクションの **[方向]** の下で、 **[レスポンシブ]** を **[オン]** にスライドします。  
 
     ![スライサーがレスポンシブになりました](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 

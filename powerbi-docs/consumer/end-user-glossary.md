@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377238"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267229"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -36,8 +36,7 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 **annotate (注釈を付ける)** iOS および Android デバイス用 Power BI Mobile アプリで、タイル、レポート、またはビジュアルのスナップショット コピーに行、テキスト、またはスタンプを書き込むこと。
 
-**app, apps (アプリ)** 
-
+**app, apps (アプリ)** ダッシュボード、レポート、データセットをまとめたものです。 また、コンテンツを使用するためのモバイル アプリ (iOS 用 Power BI アプリなど) も指します。
 
 **AppSource** ダッシュボード、レポート、データセット、およびダウンロードするアプリを参照して見つけることができる集約型のオンライン リポジトリ。
 

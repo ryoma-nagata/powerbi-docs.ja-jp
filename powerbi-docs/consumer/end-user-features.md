@@ -1,0 +1,170 @@
+---
+title: 無料ユーザーが使用できる機能
+description: コンシューマーおよび無料ユーザーが使用できる機能を示す説明とグラフ。
+author: mihart
+ms.reviewer: ''
+ms.custom: ''
+ms.service: powerbi
+ms.subservice: powerbi-consumer
+ms.topic: how-to
+ms.date: 04/05/2020
+ms.author: mihart
+LocalizationGroup: consumers
+ms.openlocfilehash: 60ac58c2d1cb815ca322abf6806d9e866f719660
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81268008"
+---
+# <a name="power-bi-feature-list-for-consumers-and-other-free-users"></a>"*コンシューマー*" およびその他の無料ユーザー向けの Power BI 機能の一覧
+
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+
+"*コンシューマー*" の場合、Power BI サービスを使用して、意思決定を行うためにレポートやダッシュボードを調べます。 これらのレポートとダッシュボードは、Power BI *Pro* ライセンスを持つ "*デザイナー*" によって作成されます。 Pro ユーザーは、同僚とコンテンツを共有したり、同僚がそのコンテンツに対して実行できる操作とできない操作を制御したりすることができます。 場合によっては、デザイナーがリンクを送信してコンテンツを共有したり、コンテンツが自動的にインストールされ、Power BI の **[アプリ]** または **[自分と共有]** の下に表示されたりすることもあります。
+
+デザイナーがコンテンツを共有する方法はたくさんあります。 しかし、この記事は Power BI "*コンシューマー*" を対象としているため、コンシューマーがコンテンツを受信して操作する方法についてのみ説明します。 コンテンツを共有する他の方法の詳細については、「[Power BI で作業を共有する方法](../service-how-to-collaborate-distribute-dashboards-reports.md)」を参照してください。
+
+![Power BI のナビゲーション ウィンドウ](media/end-user-features/power-bi-share.png)
+
+[前の記事](end-user-license.md)では、さまざまな種類の Power BI ライセンス (無料および Pro) とサブスクリプション (Premium) について説明し、使用しているライセンスとサブスクリプションを検索する方法を示しました。 この記事では、ライセンスとサブスクリプションに基づいて、使用できる Power BI の機能を一覧表示します。   
+
+<art>
+
+## <a name="quick-review-of-terminology"></a>用語の簡単な確認
+一覧を表示する前に、Power BI の概念をいくつか確認しましょう。 ここでは簡単に確認するだけであるため、詳細が必要な場合は、[コンシューマー向けのライセンスとサブスクリプション](end-user-license.md)または [Power BI の基本概念](end-user-basic-concepts.md)に関するページを参照してください。
+
+### <a name="workspaces-and-roles"></a>ワークスペースとロール
+2 種類のワークスペース、**マイ ワークスペース**とアプリ ワークスペースがあります。 お客様がアクセスできるのは、**マイ ワークスペース**のみです。 コラボレーションや共有を行う場合、コンテンツ デザイナーはアプリ ワークスペースを使用する必要があります。 
+
+ワークスペース "*ロール*" は、ワークスペースで誰が何を行うことができるかを管理するために Power BI デザイナーによって使用されます。 "*コンシューマー*" には**閲覧者**ロールが割り当てられます。 
+
+### <a name="premium-capacity-subscription"></a>Premium 容量サブスクリプション
+組織が Premium 容量サブスクリプションを持っている場合、管理者と Pro ユーザーは "*Premium 容量*" にワークスペースを割り当てることができます。 Premium 容量内のワークスペースは、Pro ユーザーが無料ユーザーと共有して共同作業を行うことができる場所であり、無料ユーザーが Pro ライセンスを持つ必要はありません。 これらのワークスペース内では、無料ユーザーに管理者特権のアクセス許可が与えられます (下記一覧を参照)。 
+
+### <a name="licenses"></a>ライセンス 
+各 Power BI サービス ユーザーは、Free ライセンスまたは Pro ライセンスのいずれかを持っています。 特定の機能は、Pro ライセンスを持つユーザー用に予約されています。
+
+- **無料ライセンス** - 通常は、組織内の "*コンシューマー*" に割り当てられます。 また、個人として Power BI にサインアップし、[スタンドアロン モードで Power BI サービス](../service-self-service-signup-for-power-bi.md)を試すユーザーに使用されます。  
+- **Pro ライセンス** - 通常は、組織内のデザイナー、アナリスト、開発者に割り当てられます。   
+- **無料ライセンス + Premium 容量** - 無料ユーザー ("*コンシューマー*") が、Premium 容量で Pro ユーザーが作成して共有しているコンテンツを表示および操作できるようにします。 このようにして、Pro ユーザーは、ワークスペース内で、または **[自分と共有]** を使用することで、無料ユーザーと共同作業することができます。
+
+無料ユーザーの場合、Premium 容量サブスクリプションを持つ組織のメンバーになると、非常に大きな権限が与えられます。 Pro の同僚が Premium 容量ワークスペースを使用してコンテンツを共有している限り、無料ユーザーは閲覧したり、これらの Pro の同僚と共同作業を行ったりすることができます。  **このようにして、無料ユーザーは Power BI "*コンシューマー*" になり、ビジネス上の意思決定のためにコンテンツを受信および共有できるようになります。** 
+
+## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>"*コンシューマー*" および無料ユーザー向けの Power BI 機能の一覧
+次の表には、Premium サブスクリプションを持つ組織内の "*コンシューマー*" が実行できるタスクが示されています。    
+
+最初の列は、 **[マイ ワークスペース]** のコンテンツを操作する無料ユーザーを表します。 このユーザーは、ワークスペース内の同僚と共同作業することはできません。 同僚は、このユーザーと直接コンテンツを共有することはできません。また、このユーザーは **[マイ ワークスペース]** から共有することはできません。 
+
+2 番目の列は "*コンシューマー*" を表します。  このコンシューマーは、
+
+- 無料ユーザー ライセンスを持っています
+- Premium 容量サブスクリプションを持つ組織に属しています
+- Premium 容量のアプリ ワークスペースを使用して、コンテンツを共有する Pro ユーザーからコンテンツ (アプリ、ダッシュボード、レポート) を取得します。
+- これらのアプリ ワークスペースに対する**閲覧者**ロールが割り当てられています。 
+
+### <a name="legend"></a>凡例
+![緑のドット](media/end-user-license/power-bi-green-dot.png)の機能は、現在のシナリオで使用できます    
+![オレンジの x](media/end-user-features/orange-x.png) の機能は、現在のシナリオで使用できません    
+ **![緑の mwo](media/end-user-features/green-mwo.png)** の機能の使用は、 **[マイ ワークスペース]** に限定されます。 **[マイ ワークスペース]** のコンテンツは、所有者が個人的に使用するためのものであり、Power BI の他のユーザーが共有したり表示したりすることはできません。    
+ \* が付いている場合、この機能へのアクセスは、Pro ユーザーまたは管理者が有効または無効にすることができます。    
+ <br><br>
+
+### <a name="feature-list"></a>機能の一覧
+
+|機能   | シナリオ 1:Premium 容量でホストされているコンテンツにアクセスできない Power BI 無料ユーザー。    | シナリオ 2: Premium 容量に格納されているコンテンツに対する**閲覧者**権限がある Power BI 無料ユーザー。 このユーザーは Power BI "*コンシューマー*" です。 |
+|---|---|---|
+|**アプリ** 
+|自動的にインストールする | ![オレンジの x](media/end-user-features/orange-x.png) | ![緑のドット](media/end-user-license/power-bi-green-dot.png)*| 
+|開く | ![オレンジの x](media/end-user-features/orange-x.png) | ![緑のドット](media/end-user-license/power-bi-green-dot.png)  | 
+|お気に入り | ![オレンジの x](media/end-user-features/orange-x.png) | ![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
+ |編集、更新、再共有、再発行する |![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png)   |
+ |新しいアプリの作成 |![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png)   |
+ |Appsource: ダウンロードして開く | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) | 
+|組織ストア: ダウンロードして開く|![オレンジの x](media/end-user-features/orange-x.png)  |![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
+ |**アプリ ワークスペース**
+| ワークスペースまたはコンテンツを作成、編集、または削除する  | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) |
+|保証を追加する | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) | 
+|開いて表示する  |  ![オレンジの x](media/end-user-features/orange-x.png) |  ![緑のドット](media/end-user-license/power-bi-green-dot.png)  | 
+| ワークスペース データフローの格納データを読み取る |![オレンジの x](media/end-user-features/orange-x.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png)|
+|**ダッシュボード**
+|同僚からのダッシュボードの受信、表示、操作を行う | ![オレンジの x](media/end-user-features/orange-x.png) |  ![緑のドット](media/end-user-license/power-bi-green-dot.png)  | 
+| タイルにアラートを追加する  |  ![緑の mwo](media/end-user-features/green-mwo.png) |  ![緑のドット](media/end-user-license/power-bi-green-dot.png)  | 
+| 他のユーザーからのコメントを表示して応答する: 独自のコメントを追加する  |  ![オレンジの x](media/end-user-features/orange-x.png) |  ![緑のドット](media/end-user-license/power-bi-green-dot.png)*  | 
+| コピーの保存 | ![緑の mwo](media/end-user-features/green-mwo.png) |![オレンジの x](media/end-user-features/orange-x.png) | 
+|ビジュアルをイメージとしてコピーする? |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png)|
+|作成、編集、更新、削除する | ![緑の mwo](media/end-user-features/green-mwo.png) |![オレンジの x](media/end-user-features/orange-x.png) | 
+|タイルを Excel にエクスポートする |![緑の mwo](media/end-user-features/green-mwo.png) | ![緑のドット](media/end-user-license/power-bi-green-dot.png)|
+|お気に入り |![緑の mwo](media/end-user-features/green-mwo.png)| ![緑のドット](media/end-user-license/power-bi-green-dot.png)|
+|特徴 |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png)|
+|全画面表示とフォーカス モード |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|グローバル検索 |![緑のドット](media/end-user-license/power-bi-green-dot.png)* |![緑のドット](media/end-user-license/power-bi-green-dot.png)* |
+|タイルに関する分析情報 |![緑の mwo](media/end-user-features/green-mwo.png)     | ![緑のドット](media/end-user-license/power-bi-green-dot.png)*|
+|  Q&A: ダッシュボードで使用する  |![緑の mwo](media/end-user-features/green-mwo.png)* |![緑のドット](media/end-user-license/power-bi-green-dot.png)* |
+|Q&A: おすすめおよび保存された質問を追加する | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) |
+|Q&A: 寄せられた質問を確認する | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) |  
+|パフォーマンス検査 |![緑の mwo](media/end-user-features/green-mwo.png)  |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|Q&A またはレポートからタイルをピン留めする | ![緑の mwo](media/end-user-features/green-mwo.png) |![オレンジの x](media/end-user-features/orange-x.png) | 
+|印刷 |![緑の mwo](media/end-user-features/green-mwo.png)* |![緑のドット](media/end-user-license/power-bi-green-dot.png)* |
+|更新 | ![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) | 
+|再共有する | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) | 
+|自分がサブスクライブする |![緑の mwo](media/end-user-features/green-mwo.png)* |![緑のドット](media/end-user-license/power-bi-green-dot.png)*  |
+|他のユーザーがサブスクライブする | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) | 
+|**データセット**
+|  追加、削除、編集する  |  ![緑の mwo](media/end-user-features/green-mwo.png)  |  ![オレンジの x](media/end-user-features/orange-x.png) |   
+| このワークスペース内のデータセットに基づいて、別のワークスペースにレポートを作成する | ![オレンジの x](media/end-user-features/orange-x.png)  |![緑のドット](media/end-user-license/power-bi-green-dot.png) |  
+|  データセットに関する分析情報  | ![緑の mwo](media/end-user-features/green-mwo.png)  |![オレンジの x](media/end-user-features/orange-x.png)| 
+|更新のスケジュール設定 |![緑の mwo](media/end-user-features/green-mwo.png)  |![オレンジの x](media/end-user-features/orange-x.png)| 
+|**レポート**
+|同僚からレポートを受信する | ![オレンジの x](media/end-user-features/orange-x.png) |  ![緑のドット](media/end-user-license/power-bi-green-dot.png)  | 
+| 同じバージョンのレポートで同僚と共同作業する |![オレンジの x](media/end-user-features/orange-x.png) |  ![緑のドット](media/end-user-license/power-bi-green-dot.png)  | 
+| Excel でレポートを分析する  |![緑の mwo](media/end-user-features/green-mwo.png)*  |![緑のドット](media/end-user-license/power-bi-green-dot.png)*  | 
+| 他のユーザーによって作成されたブックマークを表示し、独自のブックマークを追加する  | ![オレンジの x](media/end-user-features/orange-x.png)|![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
+| 他のユーザーからのコメントを表示して応答する: 新しいコメントを追加する  | ![オレンジの x](media/end-user-features/orange-x.png)|![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
+|表示サイズを変更する   | ![緑の mwo](media/end-user-features/green-mwo.png) | ![緑のドット](media/end-user-license/power-bi-green-dot.png)  | 
+| コピーの保存 |![オレンジの x](media/end-user-features/orange-x.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png)*  
+|ビジュアルをイメージとしてコピーする* |
+| レポート ビジュアルをクロス強調表示およびクロスフィルターする   |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
+|  ドリル   |![緑の mwo](media/end-user-features/green-mwo.png)  |![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
+| ドリルスルー |![緑の mwo](media/end-user-features/green-mwo.png)* |![緑のドット](media/end-user-license/power-bi-green-dot.png)* |
+|  埋め込む (Web に公開、パブリック) | ![緑の mwo](media/end-user-features/green-mwo.png)* |![オレンジの x](media/end-user-features/orange-x.png) |  
+|  レポート ビジュアルから集計データをエクスポートする*  |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|レポート ビジュアルから基になるデータをエクスポートする* | ![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png)  | 
+|  レポートをお気に入りに追加する  |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  フィルター: 種類を変更する  |![緑の mwo](media/end-user-features/green-mwo.png)* |![緑のドット](media/end-user-license/power-bi-green-dot.png)* |
+|  フィルター: 対話   |![緑の mwo](media/end-user-features/green-mwo.png)|![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  フィルター: 永続的  |![緑の mwo](media/end-user-features/green-mwo.png)* |![緑のドット](media/end-user-license/power-bi-green-dot.png)* |
+| フィルター ウィンドウで検索する |![緑の mwo](media/end-user-features/green-mwo.png)* |![緑のドット](media/end-user-license/power-bi-green-dot.png)* |
+| 全画面表示とフォーカス モード   |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  レポートに関する分析情報<sup>1</sup>  | ![緑の mwo](media/end-user-features/green-mwo.png)  |![緑のドット](media/end-user-license/power-bi-green-dot.png)| 
+| 系列ビュー  |![緑の mwo](media/end-user-features/green-mwo.png) |![オレンジの x](media/end-user-features/orange-x.png) |
+|PDF: レポート ページから作成する |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
+|パフォーマンス検査 |![緑の mwo](media/end-user-features/green-mwo.png)|![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+| PowerPoint: レポート ページから作成する*   |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  コンテンツをホームに昇格する  | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) | 
+| レポート ページを印刷する* |![緑のドット](media/end-user-license/power-bi-green-dot.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|Q&A ビジュアルを操作する |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|QR コード |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  更新  |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  外部ユーザーとコンテンツを共有する  | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) | 
+| 共有する: 他のユーザーが項目を再共有できるようにする | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) | 
+|テーブルとして表示する (データを表示する)|![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  スライサー: 追加または削除する  |![緑の mwo](media/end-user-features/green-mwo.png) |![オレンジの x](media/end-user-features/orange-x.png) |
+| スライサーを操作する |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  レポート ビジュアルを並べ替える  |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  自分がレポートをサブスクライブする* |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  他のユーザーがレポートをサブスクライブする  | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) | 
+|  関連の表示 |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+|  ビジュアル: レポートで種類を変更する  |![緑の mwo](media/end-user-features/green-mwo.png)* |![緑のドット](media/end-user-license/power-bi-green-dot.png)* |
+|  ビジュアル対話を変更する  |![緑の mwo](media/end-user-features/green-mwo.png)  |![オレンジの x](media/end-user-features/orange-x.png) |
+|  ビジュアル: 新規追加する  |![緑の mwo](media/end-user-features/green-mwo.png)  |![オレンジの x](media/end-user-features/orange-x.png) |
+|  ビジュアル: 新しいフィールドを追加する  |![緑の mwo](media/end-user-features/green-mwo.png)   |![オレンジの x](media/end-user-features/orange-x.png) |
+|ビジュアル: 種類を変更する |![緑の mwo](media/end-user-features/green-mwo.png)  |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+| ビジュアル: カーソルを移動して詳細とヒントを表示する  |![緑の mwo](media/end-user-features/green-mwo.png)  |![緑のドット](media/end-user-license/power-bi-green-dot.png) |
+
+
+1. **[自分と共有]** コンテンツ ビューからのみ使用できます。 
+
+
+## <a name="next-steps"></a>次の手順
+["*コンシューマー*" 向けの Power BI](end-user-consumer.md)    

@@ -1,30 +1,43 @@
 ---
-title: Power BI Desktop で数値範囲スライサーを使用する
-description: Power BI Desktop で数値範囲を制約するためのスライサーを使用する方法について説明します。
+title: Power BI で数値範囲スライサーを使用する
+description: Power BI で数値範囲を制約するためのスライサーを使用する方法について説明します。
 author: davidiseminger
 ms.reviewer: ''
+featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 04/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0fcc666febb4444b5ee83a1646e1e0c3ef9c6d82
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: bd5f937154edf9f8b6a86fb7f53690943a7f3a53
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539304"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006643"
 ---
-# <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop で数値範囲スライサーを使用する
+# <a name="use-the-numeric-range-slicer-in-power-bi"></a>Power BI で数値範囲スライサーを使用する
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 数値範囲スライサーを使用して、データ モデルの数値列にあらゆるフィルターを適用することができます。 数値データのフィルター処理には、数値の間、数値以下、数値以上という 3 つのオプションがあります。 この簡単な手法は、データをフィルター処理するための強力な手段です。
 
 ![数値範囲スライサーがあるビジュアル](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
-## <a name="use-the-numeric-range-slicer"></a>数値範囲スライサーを使用する
+## <a name="video"></a>ビデオ
 
-他のスライサーを使用する場合と同様に、数値範囲スライサーを使用できます。 レポートに**スライサー** ビジュアルを作成し、**[フィールド]** 値に対して数値を選択するだけです。 次の図では、**LineTotal** フィールドを選択しました。
+このビデオでは、で数値範囲スライサーを作成する手順について説明します。
+
+> [!NOTE]
+> このビデオでは、古いバージョンの Power BI Desktop を使用しています。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
+
+
+## <a name="add-a-numeric-range-slicer"></a>数値範囲スライサーの追加
+
+他のスライサーを使用する場合と同様に、数値範囲スライサーを使用できます。 レポートに**スライサー** ビジュアルを作成し、 **[フィールド]** 値に対して数値を選択するだけです。 次の図では、**LineTotal** フィールドを選択しました。
 
 ![数値範囲スライサーの作成](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-1-create.png)
 
@@ -48,7 +61,7 @@ ms.locfileid: "76539304"
 
 ![[次の値以下] を使用した数値範囲スライサー](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-4-less-than.png)
 
-最後に、**[次の値以上]** を選択すると、右側 (高い値) のスライダー バーのハンドルが表示されなくなります。 次の図に示すように、下限値を調整できます。 これで、レポート ページのビジュアルには、**LineTotal** が 4902.99 以上のアイテムのみが表示されます。
+最後に、 **[次の値以上]** を選択すると、右側 (高い値) のスライダー バーのハンドルが表示されなくなります。 次の図に示すように、下限値を調整できます。 これで、レポート ページのビジュアルには、**LineTotal** が 4902.99 以上のアイテムのみが表示されます。
 
 ![[次の値以上] を使用した数値範囲スライサー](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-5-greater-than.png)
 
@@ -68,6 +81,6 @@ ms.locfileid: "76539304"
 
 数値範囲スライサーには、次の制限事項と考慮事項が適用されています。
 
-* 数値範囲スライサーでは、集計値ではなく、データの基になるすべての行がフィルター処理されます。 たとえば、*[Sales Amount]\(売上高\)* フィールドを使用するとします。 次に、スライサーによって、ビジュアルの各データ ポイントの売上高の合計ではなく、売上高に基づいて各トランザクションがフィルター処理されます。
+* 数値範囲スライサーでは、集計値ではなく、データの基になるすべての行がフィルター処理されます。 たとえば、 *[Sales Amount]\(売上高\)* フィールドを使用するとします。 次に、スライサーによって、ビジュアルの各データ ポイントの売上高の合計ではなく、売上高に基づいて各トランザクションがフィルター処理されます。
 * 現在、メジャーでは動作しません。
 * 数値スライサーには、基になっている列の値の範囲から外れるものも含めて、あらゆる数値を入力できます。 今後、データが変わる可能性があることがわかっている場合、このオプションを使用してフィルターを設定できます。

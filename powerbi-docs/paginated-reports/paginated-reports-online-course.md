@@ -9,16 +9,16 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621488"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267597"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>オンライン コース: Power BI のページ分割されたレポート (1 日)
 
-「**Power BI のページ分割されたレポート (1 日)** 」オンライン コースは、Power BI のページ分割されたレポートを作成、公開、および配布するために必要な技術知識を持つレポート作成者になることを目的としています。 約 4 時間 20 分の視聴可能なコンテンツで構成されており、オンデマンドで無料で利用できます。
+「**Power BI のページ分割されたレポート (1 日)** 」オンライン コースは、Power BI のページ分割されたレポートを作成、公開、および配布するために必要な技術知識を持つレポート作成者になることを目的としています。 約 4 時間 20 分の視聴可能なコンテンツで構成されており、オンデマンドで無料で利用できます。 また、[自己学習キット](#self-study-kit) もあります。これをダウンロードして使用すれば、8 つのハンズオン ラボを完成させることができます。
 
 コースの具体的な対象者は次のとおりです。
 
@@ -39,7 +39,7 @@ ms.locfileid: "80621488"
 
 コースを開始するには、概要動画をご覧ください。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DN1t5p9aui0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/DN1t5p9aui0]
 
 ## <a name="course-outline"></a>コースのアウトライン
 
@@ -79,9 +79,32 @@ ms.locfileid: "80621488"
   - 動画 23: [ボーナス コンテンツ: ページ分割されたレポートの進化](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - 動画 24: [ボーナス コンテンツ: 利用開始の壁を低くする](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
-## <a name="additional-content"></a>その他のコンテンツ
+## <a name="self-study-kit"></a>自己学習キット
 
-近日中に、PowerPoint プレゼンテーションとハンズオン ラボを自己学習キットとして公開します。 ダウンロード リンクを見つけるには、この記事に戻ってください。
+自己学習キットをダウンロードして設定することができます。これは、プレゼンテーション コンテンツと 8 つのハンズオン ラボから成ります。
+
+1. [こちらのリンク](https://aka.ms/priad-ilt-student)を使用すると、自己学習キット (.zip) をご利用の PC にローカルにダウンロードできます。
+1. ファイル プロパティを開き、"ブロック解除" をオンにします (Windows によって、信頼されていない可能性があるというフラグがファイルに付けられる場合があります)。
+1. ご利用のファイル システム内のフォルダーにファイルの内容を抽出します。 **トレーニング**という名前を付けるなどして、見つけやすいフォルダーを作成することをお勧めします。 ラボのドキュメントでは、この場所は **&lt;CourseFolder&gt;** と呼ばれています。
+
+抽出されると、**PowerBIPRIAD** フォルダーが作成され、その中に次のフォルダーを確認できます。
+
+- **Lab01A** (およびその他のすべてのラボ フォルダー)。 ラボ フォルダーには、ラボ ドキュメントとラボ リソースが含まれています。これには、アセットとソリューション ファイルが含まれる場合があります。
+- **MySolution**:このフォルダーには、ご利用のソリューション ファイルが格納されます。 これをいつ使用するかは、ラボの説明の指示に従います。
+- **Presentation**:このフォルダーには、コースのプレゼンテーション ファイルが含まれています。これは PDF ドキュメントとして提供されます。
+
+### <a name="getting-started"></a>作業の開始
+
+まずオンライン コースをご覧になることをお勧めします。 プレゼンテーション理論に戻るには、 **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** ファイルを開きます。 プレゼンテーションには 8 つのラボスライドが含まれています。これらにより、理論を実践するタイミングが示されます。 また、関連するコンテンツを検索するのに役立つリソース リンクも多数含まれています。
+
+最初のラボを開始する準備ができたら、 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** ファイルを開きます。 このドキュメントでは、Power BI サービスにサインインし、データセットをアップロードしてから [Power BI レポートビルダー](report-builder-power-bi.md)をインストールする方法について説明します。
+
+> [!NOTE]
+> 独自の Power BI アカウントを用意する必要があります。 まだお持ちでない場合は、「[個人として Power BI にサインアップする](../service-self-service-signup-for-power-bi.md)」を参照してください。
+>
+> Power BI Desktop ファイルをワークスペースに発行するには、Power BI にサインインする必要があります。 この発行により、レポート データソースとして使用されるデータセットが作成されます。 データセットをレポート データソースとして使用する場合は、Power BI Pro ライセンスも Power BI Premium サブスクリプションも必要ありません。
+>
+> ただし、ラボ タスクによっては、自分のページ分割されたレポートをワークスペースに発行する必要があります。 ページ分割されたレポートを開くことができるのは、ページ分割されたレポート ワークロードが有効になっている[専用の容量](../service-premium-what-is.md#dedicated-capacities)内のワークスペースに保存されている場合に限られます。 適切なワークスペースへのアクセス権をお持ちでない場合は、代わりに、レポート発行を実演するビデオを閲覧できるようにリンクが提供されます。
 
 ## <a name="next-steps"></a>次の手順
 

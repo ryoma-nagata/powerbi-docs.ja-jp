@@ -1,22 +1,24 @@
 ---
-title: Power BI Desktop で相対日付のスライサーまたはフィルターを使用する
-description: Power BI Desktop で相対的な日付範囲を制限するスライサーまたはフィルターを使う方法について説明します
+title: Power BI で相対日付のスライサーまたはフィルターを使用する
+description: Power BI で相対的な日付範囲を制限するスライサーまたはフィルターを使う方法について説明します。
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d7173225cc52df5d7221b32a6fad81617afa422
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876800"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006790"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Power BI Desktop で相対日付のスライサーおよびフィルターを使用する
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI で相対日付のスライサーおよびフィルターを使用する
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
 **相対日付スライサー**または**相対日付フィルター**では、データ モデルの任意の日付列に時間ベースのフィルターを適用することができます。 たとえば、**相対日付スライサー**を使って、過去 30 日間 (または 1 か月、カレンダー月など) に発生した販売データのみを表示できます。 データを更新すると、相対期間によって適切な相対日付制約が自動的に適用されます。
 
@@ -98,7 +100,7 @@ ms.locfileid: "73876800"
 
 * **Power BI** のデータ モデルには、タイム ゾーン情報が含まれていません。 モデルは時間を保存できますが、タイム ゾーンの指定はありません。
 
-* スライサーとフィルターは、常に協定世界時 (UTC) に基づいています。 レポートでフィルターを設定して、別のタイム ゾーンにいる同僚に送る場合、双方とも同じデータが表示されます。 UTC タイム ゾーンにいるのでなければ、ご自分と同僚との間の時刻のずれを考慮する必要があります。
+* スライサーとフィルターは、常に協定世界時 (UTC) に基づいています。 レポートでフィルターを設定して、別のタイム ゾーンにいる同僚に送る場合、双方とも同じデータが表示されます。 UTC タイム ゾーンを使用していない場合は、ご自分と同僚との間の時刻のずれを考慮する必要があります。
 
 * **クエリ エディター**を使って、キャプチャされたデータを現地のタイム ゾーンから UTC に変換できます。
 

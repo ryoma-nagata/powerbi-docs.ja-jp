@@ -1,31 +1,35 @@
 ---
 title: Power BI のスライサー
 description: Power BI スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。
-author: v-thepet
+author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
-ms.date: 11/04/2019
-ms.author: mihart
+ms.topic: conceptual
+ms.date: 04/06/2020
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97ad95346715cd5ad38f41d6e7b9df3cc7493f40
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265393"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006798"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI のスライサー
 
-[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-レポートを見る人が売り上げ全体の指標を調べることができるだけでなく、個々の地域マネージャーや異なる期間の実績に注目することもできるようにしたい場合があります。 個別のレポートや比較グラフを作成してもかまいません。 または、スライサーを使用することもできます。 スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。 
-
-このチュートリアルでは、無料の[小売りの分析のサンプル](../sample-retail-analysis.md)を使って、リスト スライサーと日付範囲スライサーを作成、書式設定、使用する手順について説明します。 スライサーを書式設定して使用する方法がわかります。 
+レポートを見る人が売り上げ全体の指標を調べることができるだけでなく、個々の地域マネージャーや異なる期間の実績に注目することもできるようにしたい場合があります。 個別のレポートや比較グラフを作成してもかまいません。 または、"*スライサー*" を使用することもできます。 スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。 
 
 ![スライサーのアニメーション](media/power-bi-visualization-slicers/slicer2.gif)
+
+この記事では、無料の[小売りの分析のサンプル](../sample-retail-analysis.md)を使用して、基本的なスライサーを作成して書式設定する手順を説明します。 また、スライサーによって影響を受けるビジュアルを制御する方法と、他のページのスライサーと同期する方法についても説明します。 ここで、特定の種類のスライサーの作成方法について説明している他の記事をいくつか紹介します。
+
+- [数値範囲スライサー](../desktop-slicer-numeric-range.md)。
+- [相対日付スライサー](desktop-slicer-filter-date-range.md)。
+- レスポンシブで[サイズ変更可能なスライサー](../power-bi-slicer-filter-responsive.md)。
+- 複数のフィールドがある[階層スライサー](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md)。
 
 ## <a name="when-to-use-a-slicer"></a>スライサーを使用する場合
 スライサーは、次のような場合に最適です。
@@ -40,14 +44,11 @@ Power BI スライサーでは次の機能はサポートされていません�
 - 入力フィールド
 - ドリルダウン
 
+## <a name="create-a-slicer"></a>スライサーの作成
 
-## <a name="create-slicers"></a>スライサーを作成する
+このスライサーでは、地区マネージャーによってデータをフィルター処理します。 この手順に従って作業する場合は、[小売りの分析のサンプル PBIX ファイル](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)をダウンロードしてください。
 
-**地区マネージャーがデータをフィルター処理する新しいスライサーを作成する**
-
-1. [小売りの分析のサンプル PBIX ファイル](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)をダウンロードします。
-
-1. Power BI Desktop のメニュー バーで、 **[ファイル]**  >  **[開く]** を選択します。
+1. Power BI Desktop を開き、メニュー バーの **[ファイル]**  >  **[開く]** を選択します。
    
 1. **Retail Analysis sample PBIX.pbix** ファイルを参照し、 **[開く]** を選択します。
 
@@ -73,36 +74,6 @@ Power BI スライサーでは次の機能はサポートされていません�
 
    >[!TIP]
    >スライサーのリスト項目は、既定では昇順に並べられます。 並べ替え順序を逆の降順にするには、スライサーの右上隅にある省略記号 ( **...** ) を選択し、ドロップダウン リストで **[降順で並べ替え]** を選択します。
-
-**日付範囲でデータをフィルター処理する新しいスライサーを作成する**
-
-1. レポートの **Overview** ページを選択します。 レポート キャンバスで何も選択されていない状態で、 **[フィールド]** ペインで **Store** >  **OpenDate** を選択します。
-
-    この操作により、 **[視覚化]** ウィンドウの **[値]** ボックスが設定されて、新しい視覚エフェクトが作成されます。
-
-1. レポートで新しい視覚エフェクトを選択し、 **[視覚化]** ペインの **[スライサー]** アイコンを選択して、新しい視覚エフェクトをスライサーに変換します。 この **OpenDate** スライサーは、日付範囲が設定されたスライダー コントロールです。
-    
-    ![OpenDate 視覚エフェクトを作成する](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
-
-1. キャンバス上のスライサーと他の要素をサイズ変更およびドラッグして、スライサーのスペースを確保します。 スライサーのサイズに合わせてスライダーのサイズも変化しますが、スライサーを小さくしすぎるとスライダーが消えて日付の表示が切れるので注意してください。 
-
-1. 異なる日付範囲を選択するには、スライダーを使うか、日付フィールドを選択して日付を入力するか、カレンダーを表示して正確に選択します。 ページ上の他の視覚化に対する影響を確認してください。
-    
-    >[!NOTE]
-    >データ型が数値および日付/時刻の場合は、既定で範囲スライダーのスライサーが生成されます。 2018年 2 月の Power BI の更新以降、整数データ型の範囲スライダーは整数値にスナップされ、小数点以下は表示されなくなっています。 
-
-1. スライサーの種類を変更するには、スライサーを選択した状態で、スライサーの右上隅の領域をマウスでポイントし、表示されるカレット アイコンを選択して、 **[一覧]** や **[次の値より前]** などのいずれかのオプションを選択します。 スライサーの外観と選択オプションが変化することを確認してください。 
- 
-    ![スライサーの新しい範囲](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
-
-
-日付と数値の範囲スライサーの作成について詳しくは、次のビデオおよび「[Power BI Desktop で数値範囲スライサーを使用する](../desktop-slicer-numeric-range.md)」をご覧ください。
-   > [!NOTE]
-   > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>スライサーによって影響を受けるページ ビジュアルを制御する
 既定では、レポート ページ上のスライサーは、他のスライサーも含めて、そのページ上にある他のすべての視覚エフェクトに影響します。 作成したリスト スライサーと日付スライダーで値を選択して、他の視覚エフェクトへの影響を確認してください。 フィルター選択されるデータは、両方のスライサーで選択した値の積集合です。 
@@ -208,7 +179,7 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 
 ### <a name="title-options"></a>タイトルのオプション
 **[タイトル]** は、既定で **[オン]** になります。 この選択により、スライサーの上部にデータ フィールド名が表示されます。 
-- このチュートリアルでは、タイトルのテキストを次のように書式設定します。 
+- この記事では、タイトルのテキストを次のように書式設定します。 
    - **フォントの色**: 赤
    - **文字のサイズ**:**14 pt**
    - **配置**: **中央**
@@ -216,7 +187,7 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 
 
 ### <a name="items-options-list-slicers-only"></a>[項目] のオプション (リスト スライサーのみ)
-1. このチュートリアルでは、 **[項目]** のオプションを次のように書式設定します。
+1. この記事では、 **[項目]** のオプションを次のように書式設定します。
     - **フォントの色**: 黒
     - **背景**: 明るい赤
     - **文字のサイズ**:**10 pt**

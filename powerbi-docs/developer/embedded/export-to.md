@@ -7,36 +7,36 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 35b5c5f05a9c0ae5a36875671a919df12843e295
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273296"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267505"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI レポートをファイルにエクスポートする (プレビュー)
 
 `exportToFile` API を使用すると、REST の呼び出しを使用して Power BI レポートをエクスポートできます。 次のファイル形式がサポートされています。
-* **PPTX** (PowerPoint)
-* **PDF**
-* **PNG**
-    * PNG にエクスポートすると、複数ページのレポートは zip ファイルに圧縮されます
-    * PNG zip 内の各ファイルは、レポートのページを表します
+* **.pptx** (PowerPoint)
+* **.pdf**
+* **.png**
+    * .png にエクスポートすると、複数ページのレポートは .zip ファイルに圧縮されます
+    * .zip 内の各ファイルは、レポートのページを表します
     * ページ名は、[ページ取得](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) API または[グループ内のページ取得](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) API の戻り値と同じです
 
 ## <a name="usage-examples"></a>使用例
 
 エクスポート機能は、さまざまな方法で使用できます。 いくつかの例を次に示します。
 
-* **印刷に送信ボタン** - アプリケーションで、クリックされたらエクスポート ジョブをトリガーするボタンを作成します。 ジョブでは表示されているレポートを PDF または PPTX としてエクスポートでき、完了したら、ユーザーはファイルをダウンロードとして受け取ることができます。 ブックマークを使用すると、構成済みのフィルター、スライサー、追加の設定など、レポートを特定の状態でエクスポートできます。 API は非同期であるため、ファイルが使用可能になるまでに時間がかかることがあります。
+* **印刷に送信ボタン** - アプリケーションで、クリックされたらエクスポート ジョブをトリガーするボタンを作成します。 ジョブでは表示されているレポートを .pdf または .pptx としてエクスポートでき、完了したら、ユーザーはファイルをダウンロードとして受け取ることができます。 ブックマークを使用すると、構成済みのフィルター、スライサー、追加の設定など、レポートを特定の状態でエクスポートできます。 API は非同期であるため、ファイルが使用可能になるまでに時間がかかることがあります。
 
-* **メールの添付ファイル** - PDF レポートを添付して、設定された間隔で自動的にメールを送信します。 このシナリオは、週単位のレポートを役員に自動的に送信する場合に便利です。
+* **メールの添付ファイル** - .pdf レポートを添付して、設定された間隔で自動的にメールを送信します。 このシナリオは、週単位のレポートを役員に自動的に送信する場合に便利です。
 
 ## <a name="using-the-api"></a>API を使用する
 
 API を使用する前に、次の[管理者テナント設定](../../service-admin-portal.md#tenant-settings)が有効になっていることを確認します。
 * **[PowerPoint プレゼンテーションまたは PDF ドキュメントとしてレポートをエクスポート]** - 既定で有効になります。
-* **[画像ファイルとしてレポートをエクスポート]** - PNG の場合にのみ必要で、既定では無効になります。
+* **[画像ファイルとしてレポートをエクスポート]** - *.png* の場合にのみ必要で、既定では無効になります。
 
 API は非同期です。 [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API を呼び出すと、エクスポート ジョブがトリガーされます。 エクスポート ジョブをトリガーした後は、[ポーリング](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus)を使用して、ジョブが完了するまで追跡します。
 
@@ -73,9 +73,9 @@ RLS を使用してエクスポートするには、次のアクセス許可を�
 
 ### <a name="data-protection"></a>データ保護
 
-PDF 形式と PPTX 形式では、[機密ラベル](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)がサポートされています。 機密ラベルが設定されたレポートを PDF または PPTX にエクスポートすると、エクスポートされたファイルでは、レポートとその機密ラベルが表示されます。
+.pdf と .pptx 形式では、[機密ラベル](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)がサポートされています。 機密ラベルが設定されたレポートを .pdf または .pptx にエクスポートすると、エクスポートされたファイルでは、レポートとその機密ラベルが表示されます。
 
-機密ラベルが設定されたレポートは、[サービス プリンシパル](embed-service-principal.md)を使用して PDF または PPTX にエクスポートできません。
+機密ラベルが設定されたレポートは、[サービス プリンシパル](embed-service-principal.md)を使用して .pdf または .pptx にエクスポートすることはできません。
 
 ### <a name="localization"></a>ローカライズ
 
@@ -102,8 +102,8 @@ PDF 形式と PPTX 形式では、[機密ラベル](../../admin/service-security
 * エクスポートするレポートのデータセットは、Premium または Embedded の容量に存在している必要があります。
 * パブリック プレビューの場合、1 時間あたりのエクスポートされる Power BI レポートのページ数は、容量ごとに 50 に制限されています。
 * エクスポートされたレポートのファイル サイズは 250 MB を超えてはなりません。
-* PNG にエクスポートする場合、機密ラベルはサポートされません。
-* 機密ラベルが設定されたレポートは、[サービス プリンシパル](embed-service-principal.md)を使用して PDF または PPTX にエクスポートできません。
+* .png にエクスポートする場合、機密ラベルはサポートされません。
+* 機密ラベルが設定されたレポートは、[サービス プリンシパル](embed-service-principal.md)を使用して .pdf または .pptx にエクスポートすることはできません。
 * エクスポートされるレポートに含めることができるページ数は 30 です。 レポートに含まれるページがそれより多い場合、API はエラーを返し、エクスポート ジョブは取り消されます。
 * [個人用ブックマーク](../../consumer/end-user-bookmarks.md#personal-bookmarks)と[永続的フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)はサポートされていません。
 * 次に示す Power BI のビジュアルはサポートされていません。 これらのビジュアルを含むレポートをエクスポートすると、これらのビジュアルが含まれるレポートの部分は表示されず、エラー記号が表示されます。
@@ -263,6 +263,9 @@ private async Task<ExportedFile> ExportPowerBIReport(
 ## <a name="next-steps"></a>次の手順
 
 顧客向けおよび自分の組織向けのコンテンツを埋め込む方法を確認します。
+
+> [!div class="nextstepaction"]
+>[ページ分割されたレポートをファイルにエクスポートする](export-paginated-report.md)
 
 > [!div class="nextstepaction"]
 >[顧客向けに埋め込む](embed-sample-for-customers.md)

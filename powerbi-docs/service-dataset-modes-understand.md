@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: be8716cebb091dafcc927b4bd1ecd0942ad88b47
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cd2086facbeb581a4418a3358a79cca0e80140ff
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79208059"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267344"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI サービスのデータセット モード
 
@@ -77,18 +77,9 @@ DirectQuery モデルにはいくつかの長所があります。
 - [ページの自動更新](desktop-automatic-page-refresh.md)機能を使用して、リアルタイムのレポートを作成できます。
 - DirectQuery モデルに基づくダッシュボード タイルを 15 分ごとの頻度で自動的に更新できます。
 
-ただし、DirectQuery モデルには多くの短所と制限があります。
+ただし、DirectQuery モデルに関連したいくつかの制限があります。
 
-- モデルは、サポートされる 1 つのデータ ソースに基づいている必要があります。 そのため、データ ソースでデータ統合があらかじめ達成されている必要があります。 サポートされるデータ ソースは、多くの一般的なデータ ストアをサポートするリレーショナル システムと分析システムです。
-
-    > [!TIP]
-    > Microsoft の多くのデータ ソースがサポートされています。 Microsoft のデータ ソースには、SQL Server、Azure Databricks、Azure HDInsight Spark (ベータ)、Azure SQL Database、および Azure SQL Data Warehouse が含まれます。 詳細については、「[Power BI の DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)」を参照してください。
-
-- パフォーマンスが低下し、Power BI サービスに悪影響が及ぶ可能性があります。 この問題は、Power BI サービスに CPU が集中的に使用されるクエリが原因で発生する可能性があります。 また、Power BI から送信されるクエリ用にデータ ソースが最適化されていないことが原因の場合もあります。
-- Power Query のクエリは、フォールディングが可能である必要があります。 この要件は、Power Query ロジックが過度に複雑にならないことを意味します。 さらに、データ ソースが理解できるネイティブ クエリに置き換え可能な M 式と関数を使用するように、ロジックを制限する必要があります。
-- DAX の数式は、データ ソースが理解できるネイティブ クエリに置き換え可能な関数のみを使用するように制限されています。 また、計算テーブルや DAX タイム インテリジェンス関数はサポートされていません。
-- 100 万を超える行を取得する必要があるモデル クエリは失敗します
-- レポートとダッシュボードに複数のビジュアルがある場合、特にデータ ソースが揮発性の場合は、一貫性のない結果が表示されることがあります
+- DAX の数式は、データ ソースが理解できるネイティブ クエリに置き換え可能な関数のみを使用するように制限されています。 計算テーブルはサポートされません。
 - Q&A およびクイック分析情報の機能はサポートされません
 
 Power BI サービス リソースの観点から見ると、DirectQuery モデルに必要なものは次のとおりです。
