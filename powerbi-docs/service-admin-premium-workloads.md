@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 6350c67835c097de6f065ba61c0b49b555551952
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267482"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637727"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium 容量でワークロードを構成する
 
@@ -202,8 +202,9 @@ Power BI のレポートでは、容量に対するクエリごとに、この�
 
 [Power BI Premium 容量メトリック アプリ](service-admin-premium-monitor-capacity.md)のデータセット、データフロー、およびページ分割されたレポートのメトリックにより、容量に対して使用可能なワークロードを監視できます。 
 
-> [!IMPORTANT]
-> Power BI Premium 容量のリソース使用率が高いために、パフォーマンスや信頼性の問題が発生している場合は、通知メールを受信して問題を特定し、解決することができます。 詳細については、「[容量と信頼性に関する通知](service-interruption-notifications.md#capacity-and-reliability-notifications)」を参照してください。
+
+
+
 
 ## <a name="next-steps"></a>次の手順
 

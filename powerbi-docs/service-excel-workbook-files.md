@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877062"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637893"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel ブック ファイルからデータを取得する
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -63,7 +63,7 @@ Power BI のために Excel ブックを準備する方法を学習するには�
 
 ![](media/service-excel-workbook-files/excel_import_connect.png)
 
-### <a name="import-excel-data-into-power-bi"></a>Power BI への Excel データのインポート
+### <a name="import-excel-data-into-power-bi"></a>Excel のデータを Power BI にインポートする
 **[インポート]** を選択すると、テーブルやデータ モデル内のサポートされているデータがすべて、Power BI の新しいデータセットにインポートされます。 Power View シートがある場合、これらは Power BI でレポートとして再作成されます。
 
 ブックは引き続き編集できます。 変更を保存すると、通常約 1 時間以内に Power BI のデータセットと同期されます。 直ちに同期する必要がある場合は、さらに [発行] をクリックします。これだけで、その場ですぐに変更をエクスポートできます。 レポートとダッシュボードに視覚エフェクトがあれば、それらも更新されます。
@@ -124,8 +124,6 @@ Excel 2016 で **Power BI へ発行する機能**を使うことは、ファイ�
 **更新のスケジュール設定** - Excel ブック ファイルが外部データ ソースに接続されている場合や、ローカル ドライブからインポートを行った場合は、更新スケジュールを設定することによって、データセットまたはレポートを常に最新の状態に保つことができます。 ほとんどの場合、更新スケジュールを設定するのは非常に簡単ですが、詳細な手順についてはこの記事の範囲外です。 詳しくは、「[Power BI でのデータの更新](refresh-data.md)」をご覧ください。
 
 [Excel 2016 から Power BI へ発行する](service-publish-from-excel.md)
-
-[Power BI Publisher for Excel](publisher-for-excel.md)
 
 [Power BI でのデータの更新](refresh-data.md)
 

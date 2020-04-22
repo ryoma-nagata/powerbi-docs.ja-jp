@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2aa62197bc9af359962f25394d4f202a945d97d8
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813100"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637921"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium で容量を構成および管理する
 
@@ -95,8 +95,8 @@ Power BI 管理者と Office 365 全体管理者は、Power BI Premium の容量
 
     P SKU を EM SKU にダウングレードすることはできません。 無効なオプションをポイントすると説明が表示されます。
 
-> [!IMPORTANT]
-> Power BI Premium 容量のリソース使用率が高いために、パフォーマンスや信頼性の問題が発生している場合は、通知メールを受信して問題を特定し、解決することができます。 詳細については、「[容量と信頼性に関する通知](service-interruption-notifications.md#capacity-and-reliability-notifications)」を参照してください。
+
+
 
 
 ### <a name="manage-user-permissions"></a>ユーザーのアクセス許可を管理する
@@ -126,7 +126,7 @@ Power BI 管理者と Office 365 全体管理者は、Power BI Premium の容量
 
     ![ワークスペースの割り当て](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | 選択 | 説明 |
+   | 選択 | Description |
    | --- | --- |
    | **ユーザー別のワークスペース** | ユーザーまたはグループごとのワークスペースを割り当てると、これらのユーザーが所有するすべてのワークスペース (ユーザーの個人用ワークスペースを含む) が Premium 容量に割り当てられます。 これらのユーザーには、ワークスペースの割り当てアクセス許可が自動的に与えられます。<br>これには、別の容量に既に割り当てられているワークスペースが含まれます。 |
    | **特定ワークスペース** | 選択されている容量に割り当てる特定のワークスペースの名前を入力します。 |

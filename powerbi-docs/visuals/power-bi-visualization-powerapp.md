@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 5628a114b872b7c0d92d5079198616a20fe85b87
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525938"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637801"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>チュートリアル:Power BI レポートに Power Apps ビジュアルを埋め込む
 
@@ -53,7 +53,7 @@ Power Apps ビジュアルをレポートに追加すると、Power Apps と Pow
 
 3. **[フィールド]** ウィンドウで、 **[名前]** 、 **[製品コード]** 、 **[営業段階]** を選択します。 
 
-    ![フィールドを選択する](media/power-bi-visualization-powerapp/power-bi-fields.jpg)
+    ![フィールドを選択する](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
 4. Power Apps ビジュアルで、アプリを作成する Power Apps 環境を選択し、 **[新規作成]** を選択します。
 

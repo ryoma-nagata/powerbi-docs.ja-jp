@@ -1,5 +1,5 @@
 ---
-title: データセットの影響分析 (プレビュー)
+title: データセットの影響分析
 description: データセットを変更することによるダウンストリームへの影響を視覚化し、分析します。
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268031"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525332"
 ---
-# <a name="dataset-impact-analysis-preview"></a>データセットの影響分析 (プレビュー)
+# <a name="dataset-impact-analysis"></a>データセットの影響分析
 
 データセットに変更を加える場合や、変更を検討している場合は、そのデータセットに依存するダウンストリームのレポートとダッシュボードへのそれらの変更による影響を評価できるようにすることが重要です。 **データセットの影響分析**では、この評価に役立つ情報が提供されます。
 * 変更による影響を受ける可能性があるワークスペース、レポート、ダッシュボードの数が示され、影響を受けるレポートとダッシュボードが配置されているワークスペースに簡単に移動して、さらに調査することができます。

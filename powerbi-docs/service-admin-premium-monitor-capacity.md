@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 86a3c1ce2bbd678a2030fc4a3bc256424f7c8ad8
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813077"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637704"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>アプリで Premium 容量を監視する
 
@@ -22,8 +22,9 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 アプリは定期的に新しい機能によって更新されます。 最新のバージョンが実行されていることを確認してください。 アプリの以前のバージョンが既にインストールされている場合は、それをご利用のアプリの中から削除し、Ctrl + F5 キーを押して更新することをお勧めします。
 
-> [!IMPORTANT]
-> Power BI Premium 容量のリソース使用率が高いために、パフォーマンスや信頼性の問題が発生している場合は、通知メールを受信して問題を特定し、解決することができます。 これは、過負荷容量のトラブルシューティングを行うための合理的な方法である可能性があります。 詳細については、「[容量と信頼性に関する通知](service-interruption-notifications.md#capacity-and-reliability-notifications)」を参照してください。
+
+
+
 
 ## <a name="install-the-app"></a>アプリをインストールする
 
@@ -63,7 +64,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 #### <a name="top"></a>上
 
-| 指標 | 説明 |
+| 指標 | Description |
 | --- | --- |
 | バージョン | アプリのバージョンです。 | 
 | 容量 | 自分が管理者となる容量の数です。 | 
@@ -72,7 +73,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 #### <a name="system-summary"></a>システムの概要
 
-| 指標 | 説明 |
+| 指標 | Description |
 | --- | --- |
 | CPU の使用率が最も高い容量 | 過去 7 日間で CPU がしきい値の 80% を超えた回数が最大だった容量です。 |
 | CPU の最も高い使用率の数 | 過去 7 日間で CPU の名前付き容量がしきい値の 80% を超えた回数です。 | 
@@ -82,7 +83,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 #### <a name="dataset-summary"></a>データセットの概要
 
-| 指標 | 説明 |
+| 指標 | Description |
 | --- | --- |
 | データセット | ご自分の容量内のすべてのワークスペース全体のデータセットの総数です。|
 | データセットの平均サイズ (MB) | ご自分の容量内のすべてのワークスペース全体のデータセットの平均サイズです。|  
@@ -109,7 +110,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 #### <a name="dataflow-summary"></a>データフローの概要
 
-| 指標 | 説明 |
+| 指標 | Description |
 | --- | --- |
 | データフロー |  ご自分の容量内のすべてのワークスペース全体のデータフローの総数です。|
 | 更新の合計 | 過去 7 日間の更新の合計数です。|  
@@ -123,7 +124,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 #### <a name="paginated-report-summary"></a>ページ分割されたレポートの概要
 
-| 指標 | 説明 |
+| 指標 | Description |
 | --- | --- |
 | ページ分割されたレポート |  ご自分の容量内のすべてのワークスペース全体のページ分割されたレポートの総数です。 |
 | 合計閲覧数 | すべてのレポートがユーザーに閲覧された合計回数です。 | 
@@ -137,7 +138,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 #### <a name="ai-summary"></a>AI の概要
 
-| 指標 | 説明 |
+| 指標 | Description |
 | --- | --- |
 | AI Function Execution\(AI 関数の実行\) | 過去 7 日間の実行の合計数です。 |
 | AI Function Execution Reliability (%)\(AI 関数の実行の信頼性 (%)\) | 過去 7 日間の成功した実行数を実行の合計数で割った数です。 |

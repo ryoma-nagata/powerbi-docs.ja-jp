@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 ms.author: kfollis
-ms.openlocfilehash: 984991d8640df04c19b6461f5f0faaf0a50fe4ed
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 85b26b68c4943e0bc100be7a298730cec34cfc78
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80812974"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637770"
 ---
 # <a name="service-interruption-notifications"></a>サービス中断の通知
 
@@ -32,26 +32,8 @@ ms.locfileid: "80812974"
 > [!NOTE]
 > 現在、この機能は Power BI Premium の専用容量に対してのみ使用できます。 共有や埋め込み容量には使用できません。
 
-## <a name="capacity-and-reliability-notifications"></a>容量と信頼性に関する通知
-
-Power BI Premium 容量が長期にわたって高リソース使用の状態になっており、信頼性に影響する可能性がある場合は、通知メールが送信されます。 このような影響の例として、レポートを開く、データセットを更新する、クエリを実行するなどの操作の遅延が長くなることが挙げられます。 
-
-通知メールでは、次のようなリソース使用率が高い理由に関する情報が示されます。
-
-* 原因であるデータセットのデータセット ID
-* 操作の種類
-* 高リソース使用率に関係がある CPU 時間
-
-Power BI Premium 容量の過負荷が検出された場合にも、Power BI によってメール通知が送信されます。 このメールでは、過負荷の考えられる理由、過去 10 分間に負荷を発生させた操作、および各操作で発生した負荷の量について説明されます。 
-
-Premium 容量が複数ある場合、メールには、過負荷期間中のそれらの容量に関する情報が含まれるため、リソースを集中的に使用する項目を含むワークスペースを、負荷が最も小さい容量に移行することを検討できます。
-
-過負荷に関するメール通知が送信されるのは、過負荷のしきい値がトリガーされた場合のみです。 Premium 容量が非過負荷レベルに戻った場合、2 通目のメールを受信することはありません。
-
-次の図は通知メールの例を示しています。
 
 
-![過負荷容量に関する通知メール](media/service-interruption-notifications/refresh-notification-email-2.png)
 
 
 ## <a name="enable-notifications"></a>通知を有効にする

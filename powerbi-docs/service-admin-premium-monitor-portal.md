@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f300cca6614f638f88886a913b30a93d0f52cfd
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813008"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637682"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>管理ポータルで容量を監視する
 
@@ -24,8 +24,9 @@ ms.locfileid: "80813008"
 
 より包括的なメトリックが必要な場合は、[Power BI Premium 容量メトリック](service-admin-premium-monitor-capacity.md) アプリを使用してください。 このアプリは、ドリルダウンとフィルタリング機能を備えているほか、容量のパフォーマンスに影響するほぼすべての側面について、きわめて詳細なメトリックを提供します。 詳細については、「[アプリで Premium 容量を監視する](service-admin-premium-monitor-capacity.md)」を参照してください。
 
-> [!IMPORTANT]
-> Power BI Premium 容量のリソース使用率が高いために、パフォーマンスや信頼性の問題が発生している場合は、通知メールを受信して問題を特定し、解決することができます。 詳細については、「[容量と信頼性に関する通知](service-interruption-notifications.md#capacity-and-reliability-notifications)」を参照してください。
+
+
+
 
 ## <a name="system-metrics"></a>システム メトリック
 
