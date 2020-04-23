@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a4c1357ba2bcd4e4703a09974ee01a3ee10ad87b
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: f03daf65ab938923906351acef9440fe0de88c5c
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006551"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065572"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Power BI レポートの図形、画像、およびアイコンを使用した分析を改善するためのヒント
 
@@ -37,7 +37,7 @@ Power BI レポートの図形、画像、およびアイコンを使用して�
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [美しいレポートを作成するためのヒント](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [美しいレポートを作成するためのヒント](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine ビデオ:[Power BI での絵文字を使用した分析を改善するための上位 4 つのヒント](https://www.youtube.com/watch?v=-gLwXonWNsI)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

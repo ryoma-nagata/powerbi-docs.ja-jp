@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8f2698d37c306451ccd73f2b1dd3017933077a0c
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 007f91a0f220ce7482600ac284336a3ac1cbfa0f
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006482"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065503"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>Power BI レポートでビジュアルの色を最適化するためのヒント
 
@@ -41,7 +41,7 @@ Power BI レポートでビジュアルの色を最適化するための、上�
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [美しいレポートを作成するためのヒント](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [美しいレポートを作成するためのヒント](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine ビデオ:[Power BI でビジュアルの色を最適化するための上位 8 つのヒント](https://www.youtube.com/watch?v=RhYcEsdPqJg)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

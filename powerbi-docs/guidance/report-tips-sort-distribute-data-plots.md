@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f497060c4e36c648bd2b3ef23ae8914d303adfa6
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: e532c78254dffc9a3f95a165f509f8cc0553f09b
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006528"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065941"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>Power BI レポートでデータ プロットを並べ替えて分布するためのヒント
 
@@ -42,7 +42,7 @@ Power BI レポートでデータ プロットを並べ替えて分布するた�
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [美しいレポートを作成するためのヒント](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [美しいレポートを作成するためのヒント](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine ビデオ:[Power BI でデータ プロットを並べ替えて分布ための上位 9 つのヒント](https://www.youtube.com/watch?v=BnhA4qa-9Jk)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)
