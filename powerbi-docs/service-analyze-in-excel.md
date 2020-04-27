@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: df905c4174c366f64b58d257786f002c607f3edb
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427693"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675657"
 ---
 # <a name="analyze-in-excel"></a>Excel で分析
 Excel を使用して Power BI にあるデータセットを表示したり、データセットと対話したりする必要が生じる場合があります。 **[Excel で分析]** を使用すれば、Power BI に存在するデータセットに応じて、表示や対話だけでなく、Excel 内で PivotTable、グラフ、スライサーの機能を活用できます。
@@ -68,9 +68,7 @@ Power BI で、レポートまたはデータセット名の横の **[その他�
 ### <a name="users-with-multiple-power-bi-accounts"></a>複数の Power BI アカウントを持つユーザー
 複数の Power BI アカウントを持つユーザーがそのうちの 1 つのアカウントを使用して Power BI にログインしているとき、[Excel で分析] で使用されているデータセットへのアクセス権限を持つアカウントが、ログインしているアカウントとは別のアカウントである場合があります。 このような場合、[Excel で分析] ブックで使用されているデータセットにアクセスしようとすると、**Forbidden** エラーやサインインの失敗が生じることがあります。
 
-このようなときは、[Excel で分析] によってアクセスされているデータセットへのアクセス権限を有する Power BI アカウントを使用して再度サインインする機会が提供されます。 Excel の **[Power BI]** リボン タブから **[プロファイル]** を選択すると、ユーザーが現在どのアカウントを使用してログインしているかを特定できるほか、サインアウトをするためのリンクが表示されます (その後、別のアカウントでサインインします)。 Power BI publisher for Excel をまだインストールしていない場合は、[ダウンロード](https://www.microsoft.com/download/details.aspx?id=50729)することができます。この方法で [Power BI] リボンが Excel にインストールされます。
-
-![自分のプロファイルを表示する](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+このようなときは、[Excel で分析] によってアクセスされているデータセットへのアクセス権限を有する Power BI アカウントを使用して再度サインインする機会が提供されます。 また、Excel の上部のリボンで自分の名前を選択して、現在ログインしているアカウントを特定することもできます。 サインアウトして別のアカウントでサインインします。
 
 ### <a name="enable-data-connections"></a>データ接続を有効にする
 Power BI データを Excel で分析するには、.odc ファイルのファイル名とパスを検証するよう求められます。次に **[有効化]** を選択します。

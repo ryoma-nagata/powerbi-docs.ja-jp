@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 278aa4c28db97c348e683b759e8a7f9415f19c3e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 1312e56edfb17c57334af263b9f38c3dd97c1894
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79206840"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525428"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop から Power BI サービスのデータセットに接続する
 
@@ -91,7 +91,7 @@ Anna が Power BI サービス アカウントにサインインしていない�
 
 サインインしていない場合は、Power BI からサインインするように求められます。 サインインすると、メンバーになっているワークスペースが Power BI に表示されます。 Power BI サービスのライブ接続を確立するデータセットを含むワークスペースを選択できます。
 
-リスト内のデータセットはすべて、共有されたデータセットであり、これらに対してはどのワークスペースでもビルド アクセス許可が与えられています。 特定のデータセットを検索すれば、その名前および所有者に加えて、それが存在するワークスペース、それが最後に更新された日時を確認できます。 リストの上部には、認定済みまたは昇格済みのデータセットの**推奨**も表示されます。
+リスト内のデータセットはすべて、共有されたデータセットであり、これらに対してはどのワークスペースでもビルド アクセス許可が与えられています。 特定のデータセットを検索すれば、その名前および所有者に加えて、それが存在するワークスペース、それが最後に更新された日時を確認できます。 一覧の上部には、認定済みまたは昇格済みのデータセットの**推奨**も表示されます。
 
 ![使用可能なデータセットの一覧](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 

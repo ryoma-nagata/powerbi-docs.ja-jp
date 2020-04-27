@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267505"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525470"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI レポートをファイルにエクスポートする (プレビュー)
 
@@ -106,6 +106,7 @@ RLS を使用してエクスポートするには、次のアクセス許可を�
 * 機密ラベルが設定されたレポートは、[サービス プリンシパル](embed-service-principal.md)を使用して .pdf または .pptx にエクスポートすることはできません。
 * エクスポートされるレポートに含めることができるページ数は 30 です。 レポートに含まれるページがそれより多い場合、API はエラーを返し、エクスポート ジョブは取り消されます。
 * [個人用ブックマーク](../../consumer/end-user-bookmarks.md#personal-bookmarks)と[永続的フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)はサポートされていません。
+* ソブリン クラウドはサポートされていません。
 * 次に示す Power BI のビジュアルはサポートされていません。 これらのビジュアルを含むレポートをエクスポートすると、これらのビジュアルが含まれるレポートの部分は表示されず、エラー記号が表示されます。
     * 認められていない Power BI ビジュアル
     * R ビジュアル

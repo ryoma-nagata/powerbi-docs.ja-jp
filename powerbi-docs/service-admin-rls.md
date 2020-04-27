@@ -10,18 +10,18 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bfcb88354d542416268ab145a056644db5042b21
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 831c6f1d2cecfa51b64c8ff77f14ead9f644bcc7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882847"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439988"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI での行レベルのセキュリティ (RLS)
 
 Power BI で行レベル セキュリティ (RLS) を使用すると、特定のユーザーのデータ アクセスを制限できます。 フィルターでは行レベルでデータ アクセスが制限され、ロール内でフィルターを定義することができます。 Power BI サービスでは、ワークスペースのメンバーがそのワークスペース内のデータセットにアクセスできることに注意してください。 RLS では、このデータ アクセスは制限されません。
 
-Power BI Desktop で Power BI にインポートされたデータ モデルの RLS を構成できます。 SQL Server などの DirectQuery を使用しているデータセットに RLS を構成することもできます。 これまで、RLS を実装できるのは、Power BI の外部にあるオンプレミスの Analysis Services モデル内だけでした。 Analysis Services のライブ接続では、オンプレミスのモデルに行レベルのセキュリティを構成します。 このセキュリティ オプションは、ライブ接続データセットには表示されません。
+Power BI Desktop で Power BI にインポートされたデータ モデルの RLS を構成できます。 SQL Server などの DirectQuery を使用しているデータセットに RLS を構成することもできます。 これまで、RLS を実装できるのは、Power BI の外部にあるオンプレミスの Analysis Services モデル内だけでした。 Analysis Services または Azure Analysis Services のライブ接続では、Power BI Desktop 内ではなく、モデル内の行レベルのセキュリティを構成します。 このセキュリティ オプションは、ライブ接続データセットには表示されません。
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 

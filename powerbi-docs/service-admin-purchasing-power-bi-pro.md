@@ -6,33 +6,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 410058cad59fdf134b54b45754ef06c0d382c4ef
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525639"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439942"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro のユーザー ライセンスを購入して割り当てる
 
 >[!IMPORTANT]
->Power BI Pro のライセンスにアップグレードする準備はできていますか? アカウントを設定するには、「[Power BI Pro を使ってみましょう](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro)」に直接移動します。
+>この記事は、管理者を対象としています。 Power BI Pro のライセンスにアップグレードする準備はできていますか? アカウントを設定するには、「[Power BI Pro を使ってみましょう](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro)」に直接移動します。
 
-Power BI Pro は、他のユーザーが Power BI サービスに発行したレポートやダッシュボードの読み取りと操作を行うことができるようにする個別のユーザー ライセンスです。 このライセンスの種類が割り当てられたユーザーは、他の Power BI Pro ユーザーとコンテンツを共有して共同作業を行うことができます。 コンテンツが Power BI Premium 容量でホストされている場合を除き、Power BI Pro ユーザーだけが、コンテンツを発行したり他のユーザーと共有したり、他のユーザーが作成したコンテンツを利用したりできます。 詳細については、「[Power BI の価格](https://powerbi.microsoft.com/pricing/)」の「_Power BI 機能の比較_」セクションを参照してください。
+Power BI Pro は、他のユーザーが Power BI サービスに発行したレポートやダッシュボードの読み取りと操作を行うことができるようにする個別のユーザー ライセンスです。 このライセンスの種類が割り当てられたユーザーは、他の Power BI Pro ユーザーとコンテンツを共有して共同作業を行うことができます。 コンテンツが Power BI Premium 容量でホストされている場合を除き、Power BI Pro ユーザーだけが、コンテンツを発行したり他のユーザーと共有したり、他のユーザーが作成したコンテンツを利用したりできます。 利用可能なライセンスとサブスクリプションの種類に関する詳細については、「[組織での Power BI のライセンス](service-admin-licensing-organization.md)」を参照してください。
 
 ## <a name="purchase-power-bi-pro-user-licenses"></a>Power BI Pro ユーザー ライセンスを購入する
 
 この記事では、Microsoft 365 管理センターで Power BI Pro ユーザー ライセンスを購入する方法について説明します。 ライセンスを購入した後、Microsoft 365 管理センターまたは Azure portal でユーザーに割り当てることができます。
 
 > [!NOTE]
-> 2020 年 1 月 14 日以降、商用クラウドのお客様は、Power Platform 製品 (Power BI、Power Apps、および Power Automate) のセルフサービス購入、サブスクリプション、およびライセンス管理機能を利用できます。 組織でセルフサービス購入を有効または無効にする手順などの詳細については、「[セルフサービス購入に関する FAQ](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)」を参照してください。
+> 2020 年 1 月 14 日以降、商用クラウドのお客様は、Power Platform 製品 (Power BI、Power Apps、および Power Automate) のセルフサービス購入、サブスクリプション、およびライセンス管理機能を利用できます。 詳細については、「[セルフサービス購入についてよく寄せられる質問](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)」を参照してください。 セルフサービス購入機能を有効または無効にするには、「[セルフサービスでのサインアップと購入を有効または無効にする](admin/service-admin-disable-self-service.md)」を参照してください。
 
 ### <a name="prerequisites"></a>前提条件
 
-Microsoft 365 管理センターでライセンスを購入して割り当てるには、Microsoft 365 の **[グローバル管理者または課金管理者](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)** のどちらかのロールのメンバーであることが必要です。
+Microsoft 365 管理センターでライセンスを購入して割り当てるには、Microsoft 365 の[グローバル管理者または課金管理者](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)のどちらかのロールのメンバーであることが必要です。
 
 Azure portal でライセンスの割り当てを行うユーザーは、Power BI が Azure Active Directory 参照で使用する Azure サブスクリプションの所有者である必要があります。
 
@@ -80,10 +80,10 @@ Microsoft 365 管理センターでライセンスを割り当てる方法につ
 
 ## <a name="next-steps"></a>次の手順
 
-ライセンスの割り当てが終わりました。Power BI Pro の詳細を確認してください。
+- [組織での Power BI のライセンス](service-admin-licensing-organization.md)
 
-[組織での Power BI のライセンス](service-admin-licensing-organization.md)
+ - [サインインした Power BI ユーザーを見つける](service-admin-access-usage.md)
 
-[サインインした Power BI ユーザーを見つける](service-admin-access-usage.md)
+ - [個人として Power BI (無料) にサインアップする](service-self-service-signup-for-power-bi.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
