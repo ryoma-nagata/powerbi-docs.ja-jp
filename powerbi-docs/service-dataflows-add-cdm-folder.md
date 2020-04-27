@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404764"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439344"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
 
@@ -30,6 +30,12 @@ Power BI では、組織の Azure Data Lake Store Gen2 にデータフローと�
 * CDM フォルダー内にあるすべてのファイルとフォルダーを Power BI に追加するには、それらに対する読み取りと実行のアクセス許可が付与される必要があります。
 
 以降のセクションでは、CDM フォルダーからデータフローを作成する方法について説明します。
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>データフローを作成するための CDM フォルダーに対してユーザーを承認する
+
+CDM フォルダーからデータフローを作成するには、次のアクセス許可を追加する必要があります。
+* Power BI を介して CDM フォルダーにアクセスするユーザーは、ストレージ アカウントの**ストレージ BLOB データ所有者**ロールに一覧表示されている必要があります。
+* Power BI を介して CDM フォルダーにアクセスするユーザーは、CDM フォルダーそのもの、およびその中にあるファイルまたはフォルダーの両方に対して、**読み取りアクセス権** ACL と**実行アクセス権** ACL を持っている必要があります。 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>CDM フォルダーからのデータフローの作成
 

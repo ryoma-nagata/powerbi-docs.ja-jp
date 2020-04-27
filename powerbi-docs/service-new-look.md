@@ -6,19 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881387"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637820"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI サービスの "新しい外観"
 
-Power BI サービス (app.powerbi.com) には、レポートの表示と操作を容易にする新しい外観が備わっています。 新しい外観はよりシンプルで、他の Microsoft 製品で慣れ親しんでいる外観に基づいています。 Power BI サービス全体で、明るい色のテーマに切り替え、アイコンを更新して、レポート コンテンツが焦点の中心になるようにしました。 新しい外観の変更点の概要を次に示します。 詳細については、番号付きのセクションを参照してください。
+Power BI サービス (app.powerbi.com) には、レポートの表示と操作を容易にする新しい外観が備わっています。 新しい外観はよりシンプルで、他の Microsoft 製品で慣れ親しんでいる外観に基づいています。 Power BI サービス全体で、明るい色のテーマに切り替え、アイコンを更新して、レポート コンテンツが焦点の中心になるようにしました。 
+
+**Power BI Desktop** の新しい外観に関する情報をお探しですか? 「[Power BI Desktop で更新されたリボンを使用する](desktop-ribbon.md)」を参照してください。
+
+新しい外観の変更点の概要を次に示します。 詳細については、番号付きのセクションを参照してください。
 
 ![新しい外観の変更点の概要](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -87,4 +91,6 @@ Power BI サービスのすべてのユーザーは、新しい外観を選択�
 
 ## <a name="next-steps"></a>次の手順
 
-[コンシューマー向けの Power BI](consumer/end-user-consumer.md)
+- [Power BI Desktop で更新されたリボンを使用する](desktop-ribbon.md)
+- [ワークスペースの "新しい外観" を選択する](collaborate-share/service-workspaces-new-look.md)
+- [コンシューマー向けの Power BI](consumer/end-user-consumer.md)

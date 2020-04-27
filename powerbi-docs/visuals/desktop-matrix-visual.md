@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576841"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637845"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI でマトリックスの視覚エフェクトを作成する
 
@@ -57,7 +57,8 @@ ms.locfileid: "77576841"
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> Analysis Services 多次元モデルに基づいてレポートを作成する場合、モデルで既定のメンバー機能が使用されていると、展開と折りたたみに関する特別な考慮事項がいくつか生じます。 詳細については、「[Power BI で多次元モデルを操作する](../desktop-default-member-multidimensional-models.md)」を参照してください。
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>マトリックス ビジュアルでドリルダウンを使用する
 マトリックス ビジュアルを使って、これまで使用できなかった興味深いさまざまなドリルダウン操作を行うことができます。 また、行、列、さらには個々のセクションやセルを使用して、ドリルダウンすることもできます。 これらのそれぞれのしくみを見てましょう。

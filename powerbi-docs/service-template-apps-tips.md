@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273227"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066284"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI でのテンプレート アプリの作成に関するヒント
 
@@ -128,7 +128,7 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 * データ接続に必要な資格情報とパラメーターが含まれる、検証チームを対象とした指示を用意します。
 * アプリケーションでは、Power BI とご自身の CPP プランにアプリ アイコンを含める必要があります。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * ランディング ページを構成します。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 必ず [Power BI アプリ オファー](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)のドキュメントに従ってください。
+* 必ず、[パートナー センター > Power BI アプリ オファー](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)のドキュメントに従ってください。
 * ダッシュボードがご自身のアプリに含まれる場合は、空でないことを確認します。
 * アプリを送信する前に、アプリ リンクを使用してそのアプリをインストールします。データセットに接続できることと、計画したとおりのアプリ エクスペリエンスであることを確認します。
 * pbix をテンプレート ワークスペースにアップロードする前に、不要な接続すべてをアンロードしてください。

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 014e3963c0297adb4b77a71f1267f7f132944094
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488846"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439850"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -29,11 +29,41 @@ ms.locfileid: "79488846"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+### <a name="april-2020"></a>2020 年 4 月
+* Power BI サービス内のワークスペースの "新しい外観" のパブリックプレビュー。
+* [Power BI アプリ](service-create-distribute-apps.md)向けカスタム ナビゲーションの設計の一般提供。
+
+## <a name="previous-months-2020"></a>先月 (2020)
+### <a name="march-2020"></a>2020 年 3 月
+* Power BI REST API を使用して、PDF ファイル、PPTX ファイル、PNG ファイルにレポートをエクスポートします。
+* 新たに改良された Power BI サービスのグローバル検索エクスペリエンス。
+* [Multi-Geo Premium 容量](service-admin-premium-multi-geo.md)のパフォーマンス向上。
+* Power BI Premium での[読み取り/書き込み XMLA エンドポイント](service-premium-connect-tools.md)のパブリック プレビュー。
+
+### <a name="february-2020"></a>2020 年 2 月
+* Power BI ホームのダッシュボード、レポート、アプリの昇格機能。
+* Microsoft Teams でレポートを埋め込むための、新しくなった [Power BI タブ](service-embed-report-microsoft-teams.md)。
+* Power BI Pro ユーザーへのサポート付き[増分更新](service-premium-incremental-refresh.md)の一般提供。
+* 外部のメール アドレスに対する電子メール サブスクリプションのサポート。
+* Power BI Premium の [Bring Your Own Key (BYOK)](service-encryption-byok.md) の一般提供。
+
+### <a name="january-2020"></a>2020 年 1 月
+* Power BI のワークスペース エクスペリエンスに関する、新たに改善された[使用状況メトリック](service-usage-metrics.md)。
+
+## <a name="2019"></a>2019 年
+### <a name="december-2019"></a>2019 年 12 月
+* Power BI サービス管理者がテナント内のユーザーと管理者のアクティビティを追跡できる、新しいアクティビティ ログ API。
+
+### <a name="november-2019"></a>2019 年 11 月
+* [Power BI Premium の大規模なモデル] (service-premium-large-models.md] のパブリック プレビュー。
+* Power BI での Microsoft Cloud App Security の使用のパブリック プレビュー。
+
 ### <a name="october-2019"></a>2019 年 10 月
 * Power BI データセットを更新するための新しい Power Automate アクション。
 * Power BI サービスのレポートとダッシュボードの[連絡先リスト](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
+* [自動機械学習] (service-machine-learning-automated) の一般提供
+* Power BI データ系列ビューのパブリック プレビュー。
 
-## <a name="previous-months-2019"></a>前の月 (2019)
 ### <a name="september-2019"></a>2019 年 9 月
 * [テンプレート アプリ](service-template-apps-overview.md)の接続構成の更新。
 

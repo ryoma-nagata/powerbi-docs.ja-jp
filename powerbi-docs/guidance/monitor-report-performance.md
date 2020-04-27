@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ab74ec7f7f6594450ec2cf95528d06dc45f613
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610020"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525539"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI でレポートのパフォーマンスを監視する
 
@@ -23,7 +23,7 @@ ms.locfileid: "77610020"
 パフォーマンスの監視は、次のような状況に関連しています。
 
 - インポート データ モデルの更新に時間がかかる。
-- DirectQuery または LiveConnection レポートの処理が遅い。
+- DirectQuery またはライブ接続のレポートの処理が遅い。
 - モデルの計算に時間がかかる。
 
 低速なクエリまたはレポート ビジュアルは、継続的な最適化の中心点にする必要があります。
@@ -85,6 +85,7 @@ Power BI Premium 容量では、**Power BI Premium Metrics アプリ**を使用�
 
 - [クエリ診断](/power-query/QueryDiagnostics)
 - [パフォーマンス アナライザー](../desktop-performance-analyzer.md)
+- [Power BI でのレポートのパフォーマンスのトラブルシューティング](report-performance-troubleshoot.md)
 - [Power BI Premium Metrics アプリ](../service-premium-metrics-app.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

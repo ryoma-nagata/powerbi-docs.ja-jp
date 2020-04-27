@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 4062cb8a417ce20f4d6823a3e68d26ad12b9a6c9
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436021"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066350"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI でテンプレート アプリを作成する
 
@@ -78,7 +78,7 @@ Power Query でパラメーターを使用している場合、型を明確に�
 
     ![ブランド](media/service-template-apps-create/power-bi-create-branding.png)
     - アプリ名
-    - 説明
+    - Description
     - サポート サイト (リンクは、テンプレート アプリを組織のアプリとして再配布した後にアプリ情報の下に表示されます)
     - アプリのロゴ (ファイル サイズの上限 45 K、縦横比 1:1、png .jpg .jpeg 形式)
     - アプリのテーマの色
@@ -166,7 +166,7 @@ Power Query でパラメーターを使用している場合、型を明確に�
 
     このオプションが表示されない場合、管理ポータルで[テンプレート アプリ開発の許可](service-admin-portal.md#template-apps-settings)を与えるよう、Power BI 管理者に連絡してください。
 11. **[昇格]** を選択し、選択を確定します。
-12. この新しい URL をコピーし、テスト目的でテナントの外と共有します。 このリンクは、[新しい Cloud パートナー ポータル オファー](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)を作成することで、AppSource 上でアプリを配信するプロセスを始めるときに送信するリンクでもあります。 Cloud パートナー ポータルには実稼働前のリンクのみ送信します。 アプリが承認され、AppSource で公開されたという通知を受け取ってから初めて、このパッケージを Power BI で実稼働として昇格させることができます。
+12. この新しい URL をコピーし、テスト目的でテナントの外と共有します。 このリンクは、[新しいパートナー センター オファー](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)を作成して、AppSource 上でアプリを配信するプロセスを始めるときに送信するリンクでもあります。 パートナー センターには、実稼働前のリンクのみ送信します。 アプリが承認され、AppSource で公開されたという通知を受け取ってから初めて、このパッケージを Power BI で実稼働として昇格させることができます。
 13. アプリを運用する、あるいは AppSource 経由で共有する準備ができたら、 **[リリース管理]** ウィンドウに戻り、 **[実稼働前]** の隣にある **[アプリの昇格]** を選択します。
 14. **[昇格]** を選択し、選択を確定します。
 
@@ -174,10 +174,10 @@ Power Query でパラメーターを使用している場合、型を明確に�
 
     ![実稼働のアプリ](media/service-template-apps-create/power-bi-template-app-production.png)
 
-自分のアプリを世界中に何千人といる Power BI ユーザーに広く利用してもらうために、アプリを AppSource に提出することをお勧めします。 詳細については、「[Power BI アプリケーション プラン](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)」を参照してください。
+自分のアプリを世界中に何千人といる Power BI ユーザーに広く利用してもらうために、アプリを AppSource に提出することをお勧めします。 詳細については、「[Power BI アプリケーション プラン](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 
 顧客がテンプレート アプリを操作するしくみについては、[組織でのアプリのインストールと配布](service-template-apps-install-distribute.md)に関するページをご覧ください。
 
-アプリ配布の詳細については、「[Power BI アプリケーション プラン](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)」をご覧ください。
+アプリ配布の詳細については、「[Power BI アプリケーション プラン](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)」をご覧ください。

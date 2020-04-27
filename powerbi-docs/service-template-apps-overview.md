@@ -6,24 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 04/16/2020
 ms.author: painbar
-ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376686"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066327"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI テンプレート アプリとは
 
 新しい Power BI *テンプレート アプリ*を利用すれば、Power BI パートナーはコードをほとんど、あるいはまったく記述せずに Power BI アプリを作成し、Power BI の顧客に配布できます。  この記事では、Power BI テンプレート アプリ プログラムの概要を説明します。
 
-テンプレート アプリは、現在のサービス コンテンツ パックに代わるものです。 Power BI パートナーは、顧客向けのすぐに使えるコンテンツのセットを作成して自分で公開できます。  
+Power BI パートナーは、顧客向けのすぐに使えるコンテンツのセットを作成して自分で公開できます。  
 
 顧客が自分のアカウントで接続してインスタンス化できるテンプレート アプリを作成します。 ドメインの専門家として、ビジネス ユーザーが簡単に利用できる方法でデータのロックを解除できます。  
 
-テンプレート アプリを Cloud パートナー ポータルに送信します。 その後、アプリは、[Power BI Apps Marketplace](https://app.powerbi.com/getdata/services) と [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi) で一般提供されるようになります。 ここではパブリック テンプレート アプリの作成エクスペリエンスの概要を示します。
+テンプレート アプリをパートナー センターに送信します。 その後、アプリは、[Power BI Apps Marketplace](https://app.powerbi.com/getdata/services) と [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi) で一般提供されるようになります。 ここではパブリック テンプレート アプリの作成エクスペリエンスの概要を示します。
 
 ## <a name="power-bi-apps-marketplace"></a>Power BI Apps Marketplace
 
@@ -38,7 +38,7 @@ Power BI テンプレート アプリを使用すると、Power BI Pro または
 テンプレート アプリを開発し送信する一般的なプロセスには、複数のステージが含まれます。 いくつかのステージには同時に複数のアクティビティが含まれることがあります。
 
 
-| ステージ | Power BI Desktop |  |Power BI サービス  |  |Cloud パートナー ポータル  |
+| ステージ | Power BI Desktop |  |Power BI サービス  |  |パートナー センター  |
 |---|--------|--|---------|---------|---------|
 | **1** | データ モデルとレポートを .pbix ファイルで作成します |  | ワークスペースを作成します。 .pbix ファイルをインポートします。 補完的なダッシュ ボードを作成します  |  | パートナーとして登録します |
 | **2** |  |  | テスト パッケージを作成し、内部的な検証を実行します        |  | |
@@ -49,7 +49,7 @@ Power BI テンプレート アプリを使用すると、Power BI Pro または
 
 テンプレート アプリを作成するには、作成するためのアクセス許可が必要です。 詳細については、Power BI 管理ポータルのテンプレート アプリの設定に関するセクションを参照してください。 
 
-テンプレート アプリを Power BI サービスと AppSource に公開するには、「[クラウド マーケットプレース パブリッシャーになる](https://docs.microsoft.com/azure/marketplace/become-publisher)」の要件を満たす必要があります。
+テンプレート アプリを Power BI サービスと AppSource に公開するには、[クラウド マーケットプレース パブリッシャーになる](https://docs.microsoft.com/azure/marketplace/become-publisher)ための要件を満たす必要があります。
  
 ## <a name="high-level-steps"></a>概要手順
 
@@ -67,7 +67,7 @@ Power BI テンプレート アプリを使用すると、Power BI Pro または
 
 6. AppSource での検証と、テナント外でのテストのために、テスト アプリを運用前環境に昇格させてアプリを送信します。 
 
-7. 公開用に Cloud パートナー プラットフォームにコンテンツを送信します。 
+7. 発行に向けて、コンテンツを[パートナー センター](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)に送信します。 
 
 8. AppSource でプランを "ライブ" にし、アプリを Power BI の運用環境に移動します。
 
@@ -75,11 +75,11 @@ Power BI テンプレート アプリを使用すると、Power BI Pro または
 
 ## <a name="requirements"></a>要件
 
-テンプレート アプリを作成するには、作成するためのアクセス許可が必要です。 詳細については、Power BI [管理ポータルのテンプレート アプリの設定](service-admin-portal.md#template-apps-settings)に関するセクションを参照してください。 
+テンプレート アプリを作成するには、作成するためのアクセス許可が必要です。 詳細については、Power BI [管理ポータルのテンプレート アプリの設定](service-admin-portal.md#template-apps-settings)に関するセクションを参照してください。
 
-テンプレート アプリを Power BI サービスと AppSource に公開するには、「[クラウド マーケットプレース パブリッシャーになる](https://docs.microsoft.com/azure/marketplace/become-publisher)」の要件を満たす必要があります。
+テンプレート アプリを Power BI サービスと AppSource に公開するには、[クラウド マーケットプレース パブリッシャーになる](https://docs.microsoft.com/azure/marketplace/become-publisher)ための要件を満たす必要があります。
  > [!NOTE] 
- > テンプレート アプリの送信は、[Cloud パートナー ポータル](https://cloudpartner.azure.com)で管理されます。 同じ Microsoft デベロッパー センター登録アカウントを使用してサインインします。 ご自分の AppSource オファリング用に所持する Microsoft アカウントは 1 つだけとする必要があります。 アカウントは個々のサービスまたはオファーに固有のものとしないでください。
+ > テンプレート アプリの送信は、[パートナー センター](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)で管理されます。 同じ Microsoft デベロッパー センター登録アカウントを使用してサインインします。 ご自分の AppSource オファリング用に所持する Microsoft アカウントは 1 つだけとする必要があります。 アカウントは個々のサービスまたはオファーに固有のものとしないでください。
 
 ## <a name="tips"></a>ヒント 
 

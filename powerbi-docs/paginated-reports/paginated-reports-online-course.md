@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267597"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675643"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>オンライン コース: Power BI のページ分割されたレポート (1 日)
 
@@ -83,7 +83,7 @@ ms.locfileid: "81267597"
 
 自己学習キットをダウンロードして設定することができます。これは、プレゼンテーション コンテンツと 8 つのハンズオン ラボから成ります。
 
-1. [こちらのリンク](https://aka.ms/priad-ilt-student)を使用すると、自己学習キット (.zip) をご利用の PC にローカルにダウンロードできます。
+1. [こちらのリンク](https://aka.ms/priad-student)を使用すると、自己学習キット (.zip) をご利用の PC にローカルにダウンロードできます。
 1. ファイル プロパティを開き、"ブロック解除" をオンにします (Windows によって、信頼されていない可能性があるというフラグがファイルに付けられる場合があります)。
 1. ご利用のファイル システム内のフォルダーにファイルの内容を抽出します。 **トレーニング**という名前を付けるなどして、見つけやすいフォルダーを作成することをお勧めします。 ラボのドキュメントでは、この場所は **&lt;CourseFolder&gt;** と呼ばれています。
 
@@ -105,6 +105,10 @@ ms.locfileid: "81267597"
 > Power BI Desktop ファイルをワークスペースに発行するには、Power BI にサインインする必要があります。 この発行により、レポート データソースとして使用されるデータセットが作成されます。 データセットをレポート データソースとして使用する場合は、Power BI Pro ライセンスも Power BI Premium サブスクリプションも必要ありません。
 >
 > ただし、ラボ タスクによっては、自分のページ分割されたレポートをワークスペースに発行する必要があります。 ページ分割されたレポートを開くことができるのは、ページ分割されたレポート ワークロードが有効になっている[専用の容量](../service-premium-what-is.md#dedicated-capacities)内のワークスペースに保存されている場合に限られます。 適切なワークスペースへのアクセス権をお持ちでない場合は、代わりに、レポート発行を実演するビデオを閲覧できるようにリンクが提供されます。
+
+## <a name="instructor-kit"></a>インストラクター キット
+
+[こちらのリンク](https://aka.ms/priad-instructor)を使用すると、ご利用の PC にインストラクター キット (.zip) をローカルでダウンロードできます。
 
 ## <a name="next-steps"></a>次の手順
 
