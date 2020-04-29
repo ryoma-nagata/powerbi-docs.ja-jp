@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81436347"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256148"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 この記事は、Office 365 Government プランの一部として Power BI をデプロイする米国政府機関のお客様を対象としています。 Government プランは、米国のコンプライアンスとセキュリティ標準を満たする必要がある組織の固有のニーズに合うように設計されています。 米国政府機関のお客様向けに設計された Power BI サービスは、Power BI サービスの商用バージョンとは異なります。 これらの機能の相違点と能力について、以下のセクションで説明します。
@@ -88,7 +88,7 @@ Government クラウドのお客様の要件に対応するため、Government �
 |レポートの作成|ダッシュボードとレポートの作成と表示|利用可能|利用可能|利用可能|
 |  |スケジュールされたデータ更新|利用可能|利用可能|利用可能|
 |  |更新可能なチーム ダッシュボード|利用可能|利用可能|利用可能|
-|  |ページ分割されたレポート|利用可能|利用可能|ロードマップ上で|
+|  |ページ分割されたレポート|利用可能|ロードマップ上で|ロードマップ上で|
 |  |テンプレート アプリ|利用不可|利用不可|利用不可|
 |データに接続する|Excel からのデータとレポートのインポート|利用可能|利用可能|利用可能|
 |  |CSV ファイルからのデータのインポート|利用可能|利用可能|利用可能|
