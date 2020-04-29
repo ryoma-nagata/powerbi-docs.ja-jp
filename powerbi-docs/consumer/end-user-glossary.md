@@ -225,7 +225,7 @@ Power BI サービスの左端に沿って示されるコントロール。
 
 **Power BI**、**Power BI サービス**、**Power BI Desktop**、**Power BI Mobile**、一部の Power BI サービス。 *Power BI* は一般的な用語です。 多くの場合、*Power BI サービス*や *Power BI Mobile* などの完全な製品名の代わりに、最初の言及の後に使用されます。
 
-**Power BI Desktop***Desktop* ともいいます。 ローカル コンピューターにインストールできる Power BI の無料の Windows アプリケーションで、データへの接続、変換、および視覚化を行うことができます。 レポート デザイナーと管理者によって使用されます。 詳しくは、「[Power BI とは](../fundamentals/power-bi-overview.md)」をご覧ください。
+**Power BI Desktop** *Desktop* ともいいます。 ローカル コンピューターにインストールできる Power BI の無料の Windows アプリケーションで、データへの接続、変換、および視覚化を行うことができます。 レポート デザイナーと管理者によって使用されます。 詳しくは、「[Power BI とは](../fundamentals/power-bi-overview.md)」をご覧ください。
 
 **Power BI Embedded** 開発者が自分のアプリ、サイト、およびツールに Power BI ダッシュボードやレポートを埋め込むために使用される製品。
 
