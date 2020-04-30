@@ -2,20 +2,20 @@
 title: 米国の州政府および地方自治体向けの COVID-19 の追跡サンプル
 description: COVID-19 のパンデミックに対する米国の州および地域のデータを使用したサンプル レポートをダウンロードして変更します。
 author: LukaszPawlowski-MS
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979778"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584928"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>米国の州政府および地方自治体向けの COVID-19 の追跡サンプル
 
@@ -48,7 +48,7 @@ Microsoft では、サンプル レポートを公開し、Web に公開する�
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-埋め込みコードは HTML iFrame 要素で、任意の HTML ページに挿入できます。 ご自分のサイト内に収まるように、提供された iFrame の幅と高さを調整します。 サンプル レポートは、16:9 の比率で作成されているため、この大きさを保持するサイズを選択します。 正しく実装されている場合、余分な灰色の枠なしでグラフィックが表示されます。 これらの変更を行う場合は、[iFrame のサイズ変更のヒントとテクニックを確認](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width)すると役立ちます。
+埋め込みコードは HTML iFrame 要素で、任意の HTML ページに挿入できます。 ご自分のサイト内に収まるように、提供された iFrame の幅と高さを調整します。 サンプル レポートは、16:9 の比率で作成されているため、この大きさを保持するサイズを選択します。 正しく実装されている場合、余分な灰色の枠なしでグラフィックが表示されます。 これらの変更を行う場合は、[iFrame のサイズ変更のヒントとテクニックを確認](../service-publish-to-web.md#tips-for-iframe-height-and-width)すると役立ちます。
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>オプション 2:サンプル Power BI ファイルのカスタマイズ
 
@@ -112,7 +112,7 @@ USAFacts データは、帰属を必要とする Creative Commons ライセン�
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Web に公開する埋め込みコードを作成する 
 
-独自の Web サイトにカスタマイズしたレポートを埋め込むには、[独自の Web に公開する埋め込みコードの作成方法](../service-publish-to-web.md#how-to-use-publish-to-web)の手順に従います。
+独自の Web サイトにカスタマイズしたレポートを埋め込むには、[独自の Web に公開する埋め込みコードの作成方法](../service-publish-to-web.md#create-embed-codes-with-publish-to-web)の手順に従います。
 
 埋め込みコードを公開したら、確認ダイアログの iFrame を使用して、ご自分の Web サイトに埋め込みます。
 
