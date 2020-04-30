@@ -26,6 +26,8 @@
           href: power-bi-custom-visuals-organization.md
         - name: Power BI ビジュアルのガイドライン
           href: guidelines-powerbi-visuals.md
+        - name: パフォーマンスに関するヒント
+          href: performance-tips.md
         - name: ビジュアルに関する FAQ
           href: power-bi-custom-visuals-faq.md
         - name: 機能を使用する
@@ -70,6 +72,8 @@
           href: enable-sync-slicers.md
         - name: ビジュアルのデバッグ
           href: visuals-how-to-debug.md
+        - name: モバイル開発
+          href: mobile-development.md
         - name: Power BI ビジュアルのトラブルシューティング
           href: power-bi-custom-visuals-troubleshoot.md
     - name: リファレンス
@@ -104,6 +108,8 @@
               href: utils-svg.md
             - name: タイプ ユーティリティ
               href: utils-type.md
+            - name: テスト ユーティリティ
+              href: utils-test.md
             - name: ツールヒント ユーティリティ
               href: utils-tooltip.md
             - name: データ ビュー ユーティリティ
