@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42455033a0853cc9a962d3167ed8a69a0f42c4e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496903"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120277"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 
@@ -28,6 +28,11 @@ ms.locfileid: "77496903"
 新しいアプリの入手には、いくつかの方法があります。 レポートのデザイナーである同僚は、あなたの Power BI アカウントにアプリを自動的にインストールするか、アプリの直接リンクを送信することができます。 それから自分で AppSource に進み、社内外両方のアプリ デザイナーから提供されているアプリを検索することができます。 
 
 モバイル デバイスの Power BI では、直接リンクからのみアプリをインストールできます。AppSource からはインストールできません。 アプリのデザイナーが自動的にアプリをインストールした場合は、アプリの一覧に表示されます。
+
+## <a name="apps-and-licenses"></a>アプリとライセンス
+すべての Power BI ユーザーがアプリを表示して操作できるわけではありません。 
+- 無料のライセンスをお持ちの場合は、Premium 容量内のワークスペースに格納された共有のアプリを開くことができます。
+- Pro ライセンスをお持ちの場合は、共有されているアプリを開くことができます。
 
 ## <a name="install-an-app-from-a-direct-link"></a>直接リンクからのアプリをインストールする
 新しいアプリを自分でインストールする最も簡単な方法は、アプリ デザイナーからのメールで直接リンクを入手することです。  
@@ -45,7 +50,10 @@ ms.locfileid: "77496903"
 ![モバイル デバイスのアプリ コンテンツ リスト](./media/end-user-app-view/power-bi-ios.png)
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource からアプリを取得する
-アプリを Microsoft AppSource から検索してインストールすることもできます。 アクセスできる (つまり、アプリの作成者があなたまたはすべてのユーザーにアクセス許可を与えた) アプリのみが表示されます。
+アプリを Microsoft AppSource から検索してインストールすることもできます。 アクセスできる (つまり、アプリの作成者があなたまたはすべてのユーザーにアクセス許可を与えた) アプリのみが表示されます。 
+
+> [!NOTE]
+> 無料ユーザー ライセンスをご使用の場合は、アプリをダウンロードできますが、Power BI Pro アカウントにアップグレードした場合や、アプリが Premium 容量に格納されている場合を除き、アプリを表示することはできません。 詳細については、[コンシューマー向けライセンス](end-user-license.md)に関する記事を参照してください。
 
 1. **[アプリ]**   >  **[アプリの取得]** を選択します。 
    
@@ -79,7 +87,12 @@ ms.locfileid: "77496903"
 
 5. アプリがインストールされると、Power BI サービスに成功のメッセージが表示されます。 **[アプリへ移動]** を選択して、アプリを開きます。 デザイナーでアプリを作成した方法に応じて、アプリのダッシュボードまたはアプリのレポートのいずれかが表示されます。
 
+
+
     ![アプリが正常にインストールされました ](./media/end-user-apps/power-bi-app-ready.png)
+
+    > [!NOTE]
+    > 無料ユーザー ライセンスをご使用の場合はアプリをダウンロードできますが、Power BI Pro アカウントにアップグレードした場合を除き、アプリを表示することはできません。 
 
     **[アプリ]** を選択し、 **[営業とマーケティング]** を選択することで、アプリのコンテンツ リストからアプリを直接開くこともできます。
 
@@ -96,7 +109,7 @@ ms.locfileid: "77496903"
 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>アプリのダッシュボードとレポートを操作する
-時間をかけてアプリを構成するダッシュボードとレポートのデータを調べます。 フィルター処理、強調表示、並べ替え、ドリルダウンなど、標準の Power BI の相互作用のすべてにアクセスできます。  ダッシュボードとレポートの違いでまだ少し混乱していますか?  [ダッシュボードに関する記事](end-user-dashboards.md)と[レポートに関する記事](end-user-reports.md)を参照してください。  
+時間をかけてアプリを構成するダッシュボードとレポートのデータを調べます。 フィルター処理、強調表示、並べ替え、ドリルダウンなど、標準の Power BI の相互作用のすべてにアクセスできます。  ダッシュボードとレポートの違いでまだ少し混乱していますか?   [ダッシュボードに関する記事](end-user-dashboards.md)と[レポートに関する記事](end-user-reports.md)を参照してください。  
 
 ## <a name="update-an-app"></a>アプリの更新 
 
@@ -123,8 +136,6 @@ ms.locfileid: "77496903"
     > 新しいバージョンをインストールすると、レポートとダッシュボードに加えた変更はいずれも上書きされます。 変更したレポートおよびダッシュボードを維持するには、インストールする前に、それらを別の名前で保存するか、別の場所に保存します。 
 
     4. 更新されたバージョンをインストールしたら、 **[アプリを更新]** を選択して更新プロセスを完了します。 
-
-    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>次の手順

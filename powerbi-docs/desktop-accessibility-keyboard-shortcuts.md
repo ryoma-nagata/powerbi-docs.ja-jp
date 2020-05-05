@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869376"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584805"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop のキーボード ショートカット
 
@@ -56,6 +56,7 @@ Microsoft はアクセシビリティを改善する取り組みを続けてい�
 | 複数選択 | **Ctrl + Enter** または **Ctrl + Space** |
 | 右クリック | <ul><li>Windows のキーボード:**Windows コンテキスト キー + F10**。 Windows コンテキスト キーは左側の Alt キーと左側の矢印キーの間にあります</li><li>その他のキーボード:**Shift + F10**</li></ul> |
 | 選択を解除します | **Ctrl + Shift + C** |
+| ツールヒントの表示/非表示 | **Ctrl + H** |
 
 ## <a name="table-and-matrix-navigation"></a>テーブルおよびマトリックス ナビゲーション
 | この操作を行うには          | 押すキー                |

@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 04/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1b23f76425fdf7ceb245b25bcc2b7551dabf0600
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496710"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120250"
 ---
 # <a name="apps-in-power-bi"></a>Power BI のアプリ
 
@@ -29,8 +29,8 @@ ms.locfileid: "77496710"
 
 ![Power BI のアプリ](./media/end-user-apps/power-bi-apps.png)
 
-> [!NOTE]
-> アプリの機能を使うには、Power BI Pro ライセンスが必要です。 [お使いのライセンスの種類を調べる](end-user-license.md)
+
+アプリ機能を使用するには、Power BI Pro ライセンスが必要です。またはアプリを Premium 容量に格納する必要があります。 ライセンスと Premium 容量の詳細については、[コンシューマー向けライセンス](end-user-license.md)に関する記事を参照してください。
 
 ## <a name="app-designers-and-app-consumers"></a>アプリの*デザイナー*とアプリの*コンシューマー*
 自分の役割によっては、自分用または仕事仲間と共有するアプリの作成者 ("*デザイナー*") である場合があります。 または、他のユーザーが作成したアプリを受け取り、ダウンロードするユーザー ("*コンシューマー*") である場合があります。 この記事は、アプリの*コンシューマー*を対象としています。
@@ -44,8 +44,8 @@ ms.locfileid: "77496710"
 ## <a name="get-a-new-app"></a>新しいアプリを取得する
 さまざまな方法でアプリを入手できます。 いくつかの方法を以下に一覧表示します。  アプリを取得して探索する詳細な手順については、[アプリを開いて操作する方法](end-user-app-view.md)に関するページを参照してください。
 
-- アプリ デザイナーによって、アプリが自分の Power BI アカウントに自動的にインストールされ、次回、Power BI を開いたときに、新しいアプリが **[アプリ]** コンテンツ リストに表示されます。 
-- アプリ デザイナーでは、ユーザーにアプリへの直接リンクを送信することができます。 このリンクを選択すると、アプリが Power BI で開きます。
+- アプリ デザイナーによって、アプリが自分の Power BI アカウントに自動的にインストールされ、次回、Power BI サービスを開いたときに、新しいアプリが **[アプリ]** コンテンツ リストに表示されます。 
+- アプリ デザイナーでは、ユーザーにアプリへの直接リンクを送信することができます。 このリンクを選択すると、アプリが Power BI サービスで開きます。
 - モバイル デバイスの Power BI では、直接リンクからのみアプリをインストールできます。AppSource からはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。
 - [AppSource](https://appsource.microsoft.com) でアプリを検索できます。 AppSource には、社内と社外の両方のレポート デザイナーが公開したアプリがあります。 たとえば、AppSource には、Google Analytics、GitHub または Microsoft Dynamics など、既に使用しているサービスのアプリがあります。 また、Power BI の学習に使用できるサンプルのアプリを見つけることもできます。  
 

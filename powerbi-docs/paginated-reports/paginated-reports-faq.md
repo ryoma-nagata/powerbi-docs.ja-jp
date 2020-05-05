@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766294"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584997"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI のページ分割されたレポート:FAQ 
 
@@ -173,6 +173,11 @@ SaaS 埋め込み (Secure Embed のサポートを含む) は既に利用でき�
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>Power BI サービスの新しいホーム エクスペリエンスからページ分割されたレポートを検索できますか。
 
 はい。ホームから、ページ分割されたレポートを検索できるようになりました。  新しいホーム エクスペリエンスの他の部分にも表示されます。
+
+## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
+ここでは、ページ分割されたレポート内の DateTime フィールドを操作する場合に注意すべき事項について説明します。
+
+- 現在、DateTime パラメーターに関連するグローバリゼーションの制限がいくつかあります。 Power BI サービス内のすべての DateTime パラメーターは、Power BI Report Builder での DataTime の設計方法に関係なく、米国形式 (MM/DD/YYYY) でフェッチされます。
 
 ## <a name="next-steps"></a>次の手順
 

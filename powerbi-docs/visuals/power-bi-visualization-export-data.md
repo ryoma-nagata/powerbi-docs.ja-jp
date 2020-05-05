@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381378"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585385"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>視覚エフェクトの作成に使用されたデータをエクスポートする
 
@@ -242,7 +242,7 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
 
 - Power BI によるエクスポート対象の視覚化に対して *[データのない項目を表示する]* オプションが有効になっている場合、"*基になるデータ*" を使用したエクスポートは機能しません。
 
-- DirectQuery を使用している場合、Power BI でエクスポートできるデータの最大量は 16 MB (非圧縮データ) です。 このためエクスポートされた行数が最大行数よりも少なくなることがあります。 これは次の場合に発生する可能性があります。
+- DirectQuery を使用している場合、Power BI でエクスポートできるデータの最大量は 16 MB (非圧縮データ) です。 意図しない結果として、エクスポートされる行数が最大行数である 150,000 行よりも少なくなることがあります。 これは次の場合に発生する可能性があります。
 
     - 列の数が多い。
 

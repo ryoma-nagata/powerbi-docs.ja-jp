@@ -1,21 +1,22 @@
 ---
 title: Power BI ウェビナー
 description: Power BI ウェビナー
-author: v-tatero
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2019
+ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: 08e1303d0f1a5ee9e0e3e4e778e3f81e0a183df5
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267551"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120093"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
+[//]: # "Tatevik Tatero は Chauncy Freels と業務提携するベンダーであり、このウェビナー リストの維持を手伝っています"
 
 今後のウェビナーに登録するか、記録されたオンデマンド セッションをご覧ください。
 
@@ -164,10 +165,6 @@ ms.locfileid: "81267551"
 <br>作成者: Stephen Cracknell/Stuart Macanliss (US Medical IT)
 <br>[登録して今すぐ見る](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**セールスおよびサービスのインテリジェンスを適用する**
-<br>作成者: Ed Bobrin (Avanade)
-<br>[登録して今すぐ見る](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
 **製造業:業界が経験しているデジタル変革 - 分析の活用によるリーダーシップの維持と収益の最大化**
 <br>作成者: Jon Thompson (Blue Margin)/Jim Pastor (Elgin Fastener Group)
 <br>[登録して今すぐ見る](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
@@ -210,14 +207,14 @@ ms.locfileid: "81267551"
 <br>作成者: Ted Pattison
 <br>[今すぐ見る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-### <a name="advanced-topics"></a>高度なトピック ###
+### <a name="advanced-topics"></a>高度なトピック
 
 **Excel と Power BI を使用した高度な分析**
 <br>作成者: Nagasaikiran Kambhampati と Miguel Martinez
 <br>[登録して見る](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Advanced Analytics Starter Kit をダウンロードして使用する](https://aka.ms/pbiaawebinar)
 
-**[Power BI 導入フレームワーク ウェビナー シリーズ](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+**Power BI 導入フレームワーク ウェビナー シリーズ**
 <br>作成者: Manu Kanwarpal と Paul Henwood
 <br>[登録して今すぐ見る - 第 1 部 - 導入:データドリブン カルチャの導入](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
 <br>[登録して今すぐ見る - 第 2 部 - ガバナンス:Power BI 使用量の管理](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
@@ -225,36 +222,13 @@ ms.locfileid: "81267551"
 <br>[登録して今すぐ見る - 第 4 部 - セキュリティ:Power BI を使ってデータをセキュリティで保護する](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
 <br>[今すぐ登録して視聴する - 第 5 部 - ロールアウト:Power BI の上手なロールアウト](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
-**Office 365 金融専門家ウェビナー シリーズ**
-<br>講師: Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky、Miguel Martinez
-<br>使い方、便利な機能、ベスト プラクティスを紹介します。Office 365 を使用する日常業務がさらに効率的になります。
-<br>[登録して今すぐ見る](https://aka.ms/Office365FinanceProsPBI)
-
 **フル スタック Power BI のジェダイになる – Star Wars データを使用した Power BI の最も高度な機能のチュートリアル**
 <br>作成者: Gil Raviv
 <br>[今すぐ見る](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
 
-**組織のセキュリティを強化する適切なデータ ガバナンス戦略の実装方法**
-<br>作成者: Ajay Anandan
-<br>[登録して今すぐ見る](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
-
-**Power BI Premium を使用してより迅速に最新の BI を導入する**
-<br>作成者: Sirui Sun/Miguel Martinez
-<br>[登録して今すぐ見る](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
-**Power BI Report Server の新機能とおすすめの機能**
-<br>作成者: Riccardo Muti/Chris Finlan/Chinmay Joshi
-<br>[登録して今すぐ見る](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
-
-**Microsoft による Power BI のやり方**
-<br>作成者: Kirkland Barrett
-<br>[登録して今すぐ見る](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
-
 ## <a name="see-also"></a>関連項目
 
 - [Power BI のホワイト ペーパー](whitepapers.md)
-
-- [Microsoft Data Insights Summit 2017 オンデマンド セッション](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
 - [Power BI とは?](fundamentals/power-bi-overview.md)
 

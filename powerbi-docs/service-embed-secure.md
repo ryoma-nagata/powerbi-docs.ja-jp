@@ -7,26 +7,28 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488823"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585040"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 
 Power BI レポートの新しい**埋め込み**オプションを使うと、ユーザーは簡単かつ安全に内部 Web ポータルにレポートを埋め込むことができます。 ポータルは**クラウドベース**か、SharePoint 2019 など、**ホステッド オンプレミス**になります。 埋め込まれたレポートでは、[行レベルのセキュリティ (RLS)](service-admin-rls.md) を使ってすべての項目のアクセス許可とデータのセキュリティが守られます。 URL または iFrame の埋め込みを受け取るあらゆるポータルにノーコードで埋め込むことができます。 
 
-**[埋め込む]** オプションは、[URL フィルター](service-url-filters.md)と URL 設定をサポートしています。 HTML と JavaScript の基本的な知識のみを必要とする、コードの少ない手法でポータルと統合できます。
+**[埋め込み]** オプションでは [URL フィルター](service-url-filters.md)と URL 設定がサポートされています。 HTML と JavaScript の基本的な知識のみを必要とする、コードの少ない手法でポータルと統合できます。
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI レポートをポータルに **[埋め込む]** 方法
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI レポートをポータルに埋め込む方法
 
-1. 新しい **[埋め込む]** オプションは、Power BI サービスのレポートの **[ファイル]** メニューで使用できます。
+1. Power BI サービスで、レポートを開きます。
 
-    ![安全な [埋め込む] オプションのドロップダウン オプション](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. **[その他のオプション (...)]** メニューで、 **[埋め込む]**  >   **[Web サイトまたはポータル]** の順に選択します。
+
+    ![[Web サイトまたはポータル] オプション](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. **[埋め込む]** オプションを選択するとダイアログが開きますが、そのダイアログにはレポートを安全に埋め込む目的で利用できる iFrame とリンクがあります。
 
@@ -58,7 +60,7 @@ Power BI サービスでは、アクセスを必要とするユーザーと埋�
 
 埋め込み URL の入力設定を使用し、ユーザー エクスペリエンスをカスタマイズできます。 指定の iFrame では、URL の **src** 設定を更新できます。
 
-| プロパティ  | 説明  |  |  |  |
+| プロパティ  | Description  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
 | pageName  | **pageName** クエリ文字列パラメーターを使用し、開くレポート ページを設定します。 次に示すように、この値は、Power BI サービスでレポートを表示するとき、レポートの URL の終わりにあります。 |  |  |  |
 | URL フィルター  | Power BI UI から受け取った埋め込み URL の [URL フィルター](service-url-filters.md)を使用し、埋め込みコンテンツをフィルター処理できます。 この方法では、基本的な HTML および JavaScript エクスペリエンスのみとのローコードの統合を構築できます。  |  |  |  |

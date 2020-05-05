@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80464631"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584671"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>拡張データセット メタデータの使用 (プレビュー)
 
@@ -46,6 +46,7 @@ Power BI Desktop を再起動するように求められます。
 
 プレビュー バージョンでは、プレビュー機能が有効になっている場合、次の制限事項が適用されます。
 
+### <a name="unsupported-features-and-connectors"></a>サポートされていない機能とコネクタ
 アップグレードされていない既存の PBIX ファイルまたは PBIT ファイルを開いたときに、データセットに次の機能またはコネクタが含まれている場合、アップグレードは失敗します。 このような障害が発生した場合、ユーザー エクスペリエンスへの直接的な影響はなく、Power BI Desktop では引き続き以前のメタデータ形式が使用されます。
 
 * Python スクリプト
@@ -67,6 +68,8 @@ Power BI Desktop を再起動するように求められます。
 
 また、**拡張データセット メタデータ**を使用するために既に正常にアップグレードされている PBIX ファイルと PBIT ファイルでは、現在のバージョンで上記の機能またはコネクタを使用することは*できません*。
 
+### <a name="lineage-view"></a>系列ビュー
+現在、新しいメタデータ形式を使用するデータセットでは、データフローへのリンクが、Power BI サービスの系列ビューに表示されません。
 
 ## <a name="next-steps"></a>次の手順
 

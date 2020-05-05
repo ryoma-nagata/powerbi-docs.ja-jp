@@ -1,23 +1,23 @@
 ---
 title: SharePoint Online にレポート Web パーツを埋め込む
 description: Power BI の新しい SharePoint Online 用レポート Web パーツでは、対話型の Power BI レポートを SharePoint Online のページに簡単に埋め込むことができます。
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221714"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585196"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
 Power BI の新しい SharePoint Online 用レポート Web パーツでは、対話型の Power BI レポートを SharePoint Online のページに簡単に埋め込むことができます。
 
@@ -38,9 +38,9 @@ SharePoint Online にレポートを埋め込むには、レポートの URL を
 
 1. Power BI 内でレポートを表示します。
 
-2. **[ファイル]** ドロップダウン メニューを選び、その後 **[SharePoint Online に埋め込む]** を選びます。
+2. **[その他のオプション (...)]** ドロップダウン メニューで、 **[埋め込む]**  >  **[SharePoint Online]** の順に選択します。
 
-    ![[ファイル] メニュー](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![[その他のオプション] メニュー、SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. ダイアログからレポートの URL をコピーします。
 
@@ -119,7 +119,7 @@ SharePoint Online 用の Power BI Web パーツに対して調整できる設定
 
 ![SP の Web パーツのプロパティ](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
 
-| プロパティ | 説明 |
+| プロパティ | Description |
 | --- | --- |
 | ページ名 |Web パーツの既定のページを設定します。 ドロップダウンから値を選びます。 ドロップダウンにページが表示されない場合は、レポートが 1 ページであるか、または貼り付けた URL にページ名が含まれています。 特定のページを選ぶには、URL からレポート セクションを削除します。 |
 | 表示 |レポートを SharePoint Online のページ内に収める方法を調整します。 |

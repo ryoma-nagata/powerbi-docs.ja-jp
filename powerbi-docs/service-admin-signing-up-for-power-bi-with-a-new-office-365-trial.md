@@ -1,38 +1,62 @@
 ---
-title: 新しい Office 365 試用版で Power BI にサインアップする
-description: 新しい Office 365 試用版で Power BI にサインアップする
+title: 新しい Microsoft 365 試用版で Power BI にサインアップする
+description: 新しい Microsoft 365 試用版で Power BI にサインアップする
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
-ms.author: kfollis
+ms.date: 04/24/2020
+ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: aab3c01abc970261164c5cc225d89db09ce63d12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 667c20c0e904ca9a91aed3c0566f722e54336a9f
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698442"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256191"
 ---
-# <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>新しい Office 365 試用版で Power BI にサインアップする
+# <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>新しい Microsoft 365 試用版で Power BI にサインアップする
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
+この記事では、職場または学校のメール アカウントをまだお持ちでない場合に、Power BI にサインアップする別の方法について説明します。 
 
-この記事では、代わりに Office 365 試用版を使用して Power BI にサインアップする方法について説明します。 仕事用メール アドレスで Power BI にサインアップしようとすると問題が発生する場合は、最初にそれが [Power BI で使用できるメール アドレス](service-self-service-signup-for-power-bi.md#supported-email-addresses)であることを確認します。 それでうまくいかない場合は、まず Office 365 試用版にサインアップしてから、Power BI にサインアップします。 Office 365 試用版の有効期限が切れた後でも Power BI を利用することができます。
+メール アドレスで Power BI にサインアップしようとすると問題が発生する場合は、最初に、それが [Power BI で使用できるメール アドレス](service-self-service-signup-for-power-bi.md#supported-email-addresses)であることを確認します。 それでうまくいかない場合は、Microsoft 365 試用版にサインアップして、職場アカウントを作成します。 次に、その新しい職場アカウントを使用して、Power BI サービスにサインアップします。 Microsoft 365 試用版の有効期限が切れた後でも Power BI を使用することができます。
 
-1. [Office 365 Web サイト](https://go.microsoft.com/fwlink/p/?LinkID=403802)で Office 365 試用版にサインアップします。
+> [!NOTE]
+> Office 365 のブランド名は、最近、Microsoft 365 に変更されました。 Microsoft のすべての記事が更新されるまで、Office 365 という名前が使用されている場合があります。
 
-1. そのサインアップ プロセスが完了すると、you@yourcompany.onmicrosoft.com のような新しいサインイン名が与えられます。 これは、Power BI で使用するサインインです。
+1. [Microsoft 365 の Web サイト](https://www.microsoft.com/en-us/microsoft-365/business/compare-more-office-365-for-business-plans)で Microsoft 365 試用版にサインアップします。
 
-1. [このリンクを使って](https://app.powerbi.com/signupredirect?pbi_source=web) Power BI にサインアップします。 サインイン画面が表示されたら、前のステップで Office 365 用に選んだサインイン名とパスワードを使ってサインインします。
+    ![ウェルカム ページ](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-now.png)
 
-1. これで完了です。 完了すると、Power BI にリダイレクトされます。 新しいアカウントでのサインインに問題がある場合は、プライベート ブラウザー セッションを使ってみてください。
+    ![新しいアカウントにサインアップすることを選択](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-existing.png)
+
+    ![職場または学校アカウントの作成](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-email.png)
+
+    ![新しいアカウントにサインアップすることを選択](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-no-email.png)
+
+    ![連絡先情報の入力](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-welcome-you.png)
+
+    
+
+1. you@yourcompany.onmicrosoft.com のような、新しい職場のサインイン名を作成します。 これは、Power BI で使用するサインインです。
+
+    ![仕事用アドレスの作成](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-address.png)
+
+    ![テキストでコードを取得](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-robot.png)    
+
+1. 新しいテナントが作成されるまでしばらくかかる場合があります。 
+
+これだけです。  以上で、Power BI へのサインアップに使用できるメール アドレスが作成されました。 「[個人として Power BI にサインアップする](service-self-service-signup-for-power-bi.md)」に進んでください。
+
+
+
+
 
 ## <a name="important-considerations"></a>重要な考慮事項
+新しいアカウントでのサインインに問題がある場合は、プライベート ブラウザー セッションを使ってみてください。    
 
-このサインアップ方法を使うことは新しい組織のテナントを作っていることになり、そのテナントの管理者になることを意味します。 詳しくは、「[Power BI 管理とは](service-admin-administering-power-bi-in-your-organization.md)」をご覧ください。 [Office 365 管理ドキュメント](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)で説明されているように、新しいユーザーを自分のテナントに追加してから、それらのユーザーと共有できます。
+このサインアップ方法を使うことは新しい組織のテナントを作っていることになり、そのテナントの管理者になることを意味します。 詳しくは、「[Power BI 管理とは](service-admin-administering-power-bi-in-your-organization.md)」をご覧ください。 [Microsoft 365 管理ドキュメント](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)で説明されているように、新しいユーザーを自分のテナントに追加してから、それらのユーザーと共有できます。
 
 ## <a name="next-steps"></a>次の手順
 

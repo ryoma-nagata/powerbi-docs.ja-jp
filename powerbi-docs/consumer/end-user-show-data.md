@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/08/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3587118d6ee844f611d69666e163f64e4d499475
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 7367c94a0eca86291d3f520cc947fceda06d659a
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267321"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585352"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Power BI レポートでデータを表示する
 
@@ -22,22 +22,22 @@ ms.locfileid: "81267321"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI のビジュアルは、基礎データセットからのデータを使用して作成されます。 バックグラウンドの動作に関心がある場合は、レポートでビジュアルの作成に使用されているデータを Power BI サービスで*表示*することができます。 **[データの表示]** を選択すると、Power BI によりビジュアルの下 (または横に) データが表示されます。
+Power BI のビジュアルは、基礎データセットからのデータを使用して作成されます。 バックグラウンドの動作に関心がある場合は、レポートでビジュアルの作成に使用されているデータを Power BI サービスで*表示*することができます。 **[Show as a table]\(テーブルとして表示\)** を選択すると、Power BI によりビジュアルの下 (または横に) データが表示されます。
 
 ダッシュボードで、基になるデータを表示するには [[Excel にエクスポート]](end-user-export.md) を使用します
 
 ## <a name="show-the-data-being-used-to-create-a-report-visual"></a>レポート ビジュアルの作成に使用されているデータを表示する
 1. Power BI サービスで、[レポートを開き](end-user-report-open.md)、ビジュアルを選択します。  
-2. ビジュアルの背後にあるデータを表示するには、**その他のオプション** (...) を選択し、 **[データの表示]** を選択します。
+2. ビジュアルの背後にあるデータを表示するには、 **[その他のオプション]** (...) を選択し、 **[Show as a table]\(テーブルとして表示\)** を選択します。
    
-   ![[データの表示] を選択する](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
+   ![ドロップダウンから [Show as a table]\(テーブルとして表示\) を選択](./media/end-user-show-data/power-bi-show-data-vertical.png)
 3. 既定では、データはビジュアルの下に表示されます。
    
-   ![ビジュアルとデータの縦表示](./media/end-user-show-data/power-bi-show-data-new.png)
+   ![ビジュアルとデータの縦表示](./media/end-user-show-data/power-bi-show-data-table.png)
 
 4. 方向を変更するには、ビジュアルの右上隅にある縦方向のレイアウト ![レイアウト アイコン](media/end-user-show-data/power-bi-vertical-icon-new.png) を選択します。
    
-   ![ビジュアルとデータの横表示](./media/end-user-show-data/power-bi-show-data-rotate.png)
+   ![ビジュアルとデータの横表示](./media/end-user-show-data/power-bi-horizontal.png)
 
 ## <a name="next-steps"></a>次の手順
 [Power BI レポートのビジュアル](../visuals/power-bi-report-visualizations.md)    

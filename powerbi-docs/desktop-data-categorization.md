@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709594"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584847"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Power BI Desktop でデータ分類を指定する
 Power BI Desktop では、ユーザーが列に対して "*データ カテゴリ*" を指定すれば、Power BI Desktop が視覚化するときにその列の値をどのように扱うべきかを自動的に見極めます。
@@ -33,7 +33,7 @@ Power BI Desktop で、国が強調表示された世界の画像を表示する
 **データ カテゴリを指定するには**
 
 1. **レポート** ビューまたは**データ** ビューの **[フィールド]** 一覧で、異なる分類で並べ替えるフィールドを選択します。
-2. リボンの **[モデリング]** タブの **[プロパティ]** 領域で、 **[データ カテゴリ]** の横にあるドロップダウン矢印を選択します。  この一覧には、列に選択できるデータ カテゴリが表示されます。 列の現在のデータ型には使えない項目は選べなくなっています。  たとえば、列がバイナリ データ型である場合、Power BI Desktop で地理的なデータ カテゴリを選べなくなります。 
+2. リボンの **[モデリング]** タブの **[プロパティ]** 領域で、 **[データ カテゴリ]** の横にあるドロップダウン矢印を選択します。  この一覧には、列に選択できるデータ カテゴリが表示されます。 列の現在のデータ型には使えない項目は選べなくなっています。  たとえば、列が date または time データ型である場合、Power BI Desktop で地理的なデータ カテゴリを選べなくなります。 
 3. 目的のカテゴリを選択します。
 
    ![](media/desktop-data-categorization/desktop-data-categorization.png)

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/30/2020
-ms.openlocfilehash: b4ed632d6106fa552cebf9837ba238bdc7a4d3f1
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.date: 04/24/2020
+ms.openlocfilehash: cbf30e3479629533faea73465362c378d4b73848
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404832"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82255769"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI のページ分割されたレポートでサポートされるデータ ソース
 
@@ -26,7 +26,7 @@ ms.locfileid: "80404832"
 | データ ソース | 認証 | ノート |
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL Data Warehouse | 基本、シングル サインオン (SSO)、OAuth2 |   |
-| Azure SQL Managed Instance | 基本 | Azure SQL Database 拡張機能を使用したパブリック エンドポイント経由  |
+| Azure SQL Managed Instance | 基本 | パブリック エンドポイントまたはプライベート エンドポイント経由 (プライベート エンドポイントは、エンタープライズ ゲートウェイ経由でルーティングする必要があります)  |
 | Azure Analysis Services | SSO、OAuth2 | AAS ファイアウォールを無効にするか、すべての IP 範囲を許可するように構成する必要があります。|
 | Power BI データセット | SSO | Premium と Premium 以外の Power BI データセット。 読み取りのアクセス許可が必要 |
 | Premium Power BI データセット (XMLA) | SSO |   |

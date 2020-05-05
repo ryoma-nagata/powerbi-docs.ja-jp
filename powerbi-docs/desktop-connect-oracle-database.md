@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/20/2019
+ms.date: 04/24/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2290963db54f150eed8176c2820c59f8f138666
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: a118cd0874410e538ca8329e0b8c0ed1bdb430b7
+ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223303"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82149592"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle データベースへの接続
 Power BI Desktop を使用して Oracle データベースに接続するには、Power BI Desktop を実行しているコンピューター上に適切な Oracle クライアント ソフトウェアをインストールする必要があります。 使用する Oracle クライアント ソフトウェアは、インストールした Power BI Desktop のバージョンによって異なります。32 ビットまたは 64 ビット。
@@ -22,6 +22,10 @@ Power BI Desktop を使用して Oracle データベースに接続するには�
 サポートされている Oracle のバージョン: 
 - Oracle 9 以降
 - Oracle クライアント ソフトウェア 8.1.7 以降
+
+> [!NOTE]
+> Power BI Report Server 用に Oracle データベースを構成する場合は、[Oracle の接続の種類](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)に関する記事を参照してください。 
+
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>インストールされている Power BI Desktop バージョンの特定
 どのバージョンの Power BI Desktop がインストールされているかを特定するには、 **[ファイル]**  >  **[ヘルプ]**  >  **[バージョン情報]** の順に選択し、次に **[バージョン]** 行を確認します。 次の図の場合、Power BI Desktop の 64 ビット バージョンがインストールされています。
@@ -65,3 +69,5 @@ Microsoft Store から Power BI Desktop をダウンロードした場合、Orac
 * Microsoft Store から取得したバージョンを使用する場合は、ご利用のローカル コンピューター上で、_12.X.X\client_X_ から _12.X.X\client_X\bin_ に oraons.dll をコピーします。_X_ はバージョンまたはディレクトリ番号を表します。
 
 Oracle データベースへの接続時に Power BI Gateway に "*オブジェクト参照が設定されていません*" というエラー メッセージが表示される場合は、「[データ ソースの管理 - Oracle](service-gateway-onprem-manage-oracle.md)」に記載されている手順に従ってください。
+
+Power BI Report Server を使用している場合は、[Oracle の接続の種類](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)に関する記事のガイダンスを参照してください。

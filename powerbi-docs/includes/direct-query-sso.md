@@ -5,14 +5,14 @@ services: powerbi
 author: davidiseminger
 ms.service: powerbi
 ms.topic: include
-ms.date: 05/31/2019
+ms.date: 04/28/2020
 ms.author: davidi
-ms.openlocfilehash: eec30d11c1bd99271416ab1a3a2dbb581687e315
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: d56988986cfd994bb21c9bc25d024903719472cf
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698316"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82255810"
 ---
 ## <a name="single-sign-on"></a>シングル サインオン
 
@@ -22,9 +22,7 @@ SSO を有効にするには、データセットの設定に移動し、 **[デ
 
 ![Azure SQL DQ の構成ダイアログ ボックス](media/direct-query-sso/sso-dialog.png)
 
-SSO オプションが有効になっている場合、データ ソースを基に作成されたレポートにユーザーがアクセスすると、Power BI によって Azure SQL Database または Data Warehouse へのクエリで、認証済みの Azure AD 資格情報が送信されます。 これにより、Power BI はデータ ソース レベルで構成されているセキュリティ設定を適用できます。
+SSO オプションが有効になっている場合、データ ソースを基に作成されたレポートにユーザーがアクセスすると、Power BI によって Azure SQL Database または Data Warehouse へのクエリで、認証済みの Azure AD 資格情報が送信されます。 このオプションを使用すると、Power BI で、データ ソース レベルで構成されているセキュリティ設定を適用できます。
 
 SSO オプションは、このデータ ソースを使うすべてのデータセットで有効になります。 インポートのシナリオに使われる認証方法には影響しません。
 
-> [!Note]
-> Azure Multi-Factor Authentication (MFA) はサポートされていません。 Azure SQL DirectQuery で SSO の使用を望むユーザーは、MFA から除外する必要があります。

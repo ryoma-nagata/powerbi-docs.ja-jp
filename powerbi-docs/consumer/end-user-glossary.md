@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267229"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120116"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -22,11 +22,11 @@ Power BI サービスでは、使い慣れていない、あるいは混乱を�
 
 ## <a name="a"></a>A
 
-**アカウント** さまざまな種類の Power BI アカウント ("*ライセンス*" とも呼ばれる) があります。  アカウントは、ユーザーごとのアカウント、または組織アカウントのいずれかとなります。 ユーザーごとのアカウントは *Free* または *Pro* として提供されます。  Power BI  *Free* ユーザーは、スタンドアロン Power BI Desktop を使用しているか、Premium 組織アカウント内で Power BI サービスを使用しています。 Power BI のユーザーごとの *Pro* アカウントは、他の *Pro* ユーザーとの共同作業やコンテンツの共有を可能にする月単位の有料サブスクリプションです。 
+**アカウント** さまざまな種類の Power BI アカウント ("*ライセンス*" や "*サブスクリプション*" とも呼ばれる) があります。  アカウントは、ユーザーごとのアカウント、または組織アカウントのいずれかとなります。 ユーザーごとのアカウントは *Free* または *Pro* として提供されます。  Power BI *Free* ユーザーは、スタンドアロン Power BI Desktop を使用しているか、Power BI サービス スタンドアロンを使用しているか、Premium 組織サブスクリプションを所有する組織内で Power BI サービスを使用しています。 Power BI のユーザーごとの *Pro* アカウントは、他の *Pro* ユーザーとの共同作業やコンテンツの共有を可能にする月単位の有料サブスクリプションです。 
 
-組織用の *Premium* ("*Premium 容量*" とも呼ばれる) アカウントでは、ユーザーごとのライセンスの上に機能の層が追加されます。 たとえば、*Premium* ライセンスを所有する組織内の *Free* ユーザーごとアカウントの所有者は、*Premium* を使用しない *Free* ユーザーよりも Power BI ではるかに多くのことを行うことができます。 たとえば、*Premium* 組織アカウント内の *Free* ユーザーは、同僚と共同作業をしたり、Power BI Premium 容量でホストされているコンテンツを表示したりすることができます。  
+組織用の *Premium* ("*Premium 容量*" とも呼ばれる) サブスクリプションでは、ユーザーごとのライセンスの上に機能の層が追加されます。 たとえば、*Premium* サブスクリプションを所有する組織内の *Free* ユーザーごとアカウントの所有者は、*Premium* を使用しない *Free* ユーザーよりも Power BI ではるかに多くのことを行うことができます。 たとえば、*Premium* 組織アカウント内の *Free* ユーザーは、同僚と共同作業をしたり、Power BI Premium 容量でホストされているコンテンツを表示したりすることができます。 
 
-**admin portal (管理ポータル)** Power BI 管理者が所属組織内の Power BI のユーザー、機能、および、設定を管理する場所 (注:Office 365、Azure、および PowerApps では管理センターが使用されます)。
+**admin portal (管理ポータル)** Power BI 管理者が所属組織内の Power BI のユーザー、機能、および、設定を管理する場所  (注:Office 365、Azure、および PowerApps では管理センターが使用されます)。
 
 **aggregates (集約)** 複数行の値を入力または条件としてまとめてグループ化し、より重要な意味や測定の単一の値を形成する場合。
 
