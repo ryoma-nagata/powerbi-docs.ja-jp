@@ -327,6 +327,10 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: パラメーターを作成する
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: サブレポート
+              href: ../paginated-reports/subreports.md
+            - name: サブレポートのトラブルシューティング
+              href: ../paginated-reports/subreports-troubleshoot.md
             - name: URL でレポート パラメーターを渡す
               href: ../paginated-reports/report-builder-url-pass-parameters.md
             - name: ページ分割されたレポートを発行する
