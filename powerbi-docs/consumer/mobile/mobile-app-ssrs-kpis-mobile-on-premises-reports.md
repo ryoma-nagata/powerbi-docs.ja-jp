@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
 ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75220077"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでオンプレミスのレポート サーバーのレポートと KPI を表示する
@@ -23,7 +23,7 @@ Power BI モバイル アプリを使って、タッチ対応のモバイルか�
 
 | ![iPhone](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android フォン |Android タブレット |
+| iPhones |iPad |Android フォン |Android タブレット |
 
 
 ![モバイル アプリのレポート サーバー ホーム](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
@@ -49,7 +49,7 @@ Reporting Services の Web ポータルへのアクセス権がない場合で�
 ## <a name="connect-to-an-on-premises-report-server"></a>オンプレミス レポート サーバーに接続する
 Power BI モバイル アプリでオンプレミスの Power BI レポート、Reporting Services モバイル レポート、KPI を表示することができます。 
 
-1. モバイル デバイスで Power BI アプリを開きます。
+1. モバイル デバイスで Power BI アプリを開きます。 
 2. Power BI にまだサインインしていない場合は、 **[レポート サーバー]** をタップします。
    
    ![レポート サーバーにサインインする](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
@@ -101,7 +101,7 @@ iOS または Android のモバイル アプリで Power BI を表示してい�
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>Power BI アプリで Power BI レポートと KPI を表示する
 Power BI レポート、Reporting Services モバイル レポート、KPI は、Reporting Services の Web ポータルと同じフォルダーに表示されます。 
 
-* Power BI レポートをタップします。 ![Power BI レポート アイコン](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). レポートが横モードで開き、Power BI アプリで対話することができます。
+* Power BI レポートをタップします。 ![Power BI レポート アイコン](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png)。 レポートが横モードで開き、Power BI アプリで対話することができます。
 
     > [!NOTE]
   > Power BI Report Server の Power BI レポートでは現在、ドリルアップとドリルダウンが有効になっていません。
@@ -130,7 +130,7 @@ KPI とレポートを Web ポータルでお気に入りとしてマークし�
 2. 接続を望まないサーバーの名前をタップします。
 3. **[サーバーの削除]** をタップします。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)  
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

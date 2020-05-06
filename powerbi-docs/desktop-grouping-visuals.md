@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: ced98b8290059b3098ce83efdd05bb2a20e2d5ee
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761136"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Power BI Desktop レポートでビジュアルをグループ化する
@@ -65,7 +65,7 @@ Power BI Desktop でビジュアルのグループを作成するには、キャ
 背景色を適用した後、グループ内のビジュアル間の領域をクリックすると、グループが選択されます (比較対象として、グループ内のビジュアル間の空白部分をクリックした場合はグループは選択されません)。 
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 グループ化の詳細については、次のビデオを参照してください。
 
 * [Power BI Desktop でのグループ化- ビデオ](https://youtu.be/sf4n7VXoQHY?t=10)

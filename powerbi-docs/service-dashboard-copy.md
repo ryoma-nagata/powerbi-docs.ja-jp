@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872844"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Power BI サービスでダッシュボードのコピーを作成する
@@ -35,18 +35,18 @@ ms.locfileid: "73872844"
    ![[ダッシュボードの複製] ダイアログ](media/service-dashboard-copy/power-bi-name.png)
 4. 新しいダッシュボードがオリジナルと同じワークスペースに保存されます。 
    
-   ![[ダッシュボード] タブ](media/service-dashboard-copy/power-bi-copied.png)
+   ![ダッシュボード タブ](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    新しいダッシュボードを開き、必要に応じて編集します。 たとえば次の動作として以下のようなことができます。    
     a. [タイルの移動、名前変更、サイズ変更、または削除](service-dashboard-edit-tile.md)を行います。  
     b. タイルの**その他のオプション** (...) を選んで **[詳細の編集]** を選ぶことにより、タイルの詳細とハイパーリンクを編集します。  
     c. [ダッシュボードのメニュー バーから新しいタイルを追加します](service-dashboard-add-widget.md) ( **[タイルの追加]** )。  
-    d. [Q&A](service-dashboard-pin-tile-from-q-and-a.md) または[レポート](service-dashboard-pin-tile-from-report.md)から新しいタイルをピン留めします。  
-    e. ダッシュボードの [設定] ウィンドウから、ダッシュボードの名前の変更、Q&A のオンまたはオフ、タイル フローの設定を行います  (ダッシュボードの**その他のオプション** (...) ドロップダウンを選んで、 **[設定]** を選びます)。  
+    d.グループ メンバーがコンテンツ パックを簡単に見つけられるようにロゴを追加します。 [Q&A](service-dashboard-pin-tile-from-q-and-a.md) または[レポート](service-dashboard-pin-tile-from-report.md)から新しいタイルをピン留めします。  
+    e. ダッシュボードの [設定] ウィンドウから、ダッシュボードの名前の変更、Q&A のオンまたはオフ、タイル フローの設定を行います   (ダッシュボードの**その他のオプション** (...) ドロップダウンを選んで、 **[設定]** を選びます)。  
     f. ダッシュボードを同僚と直接、または Power BI アプリの一部として共有します。 
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [優れたダッシュボードのデザインに関するヒント](service-dashboards-design-tips.md) 
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

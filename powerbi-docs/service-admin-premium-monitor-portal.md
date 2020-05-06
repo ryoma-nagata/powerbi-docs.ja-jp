@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637682"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>管理ポータルで容量を監視する
@@ -87,7 +87,7 @@ ms.locfileid: "81637682"
 | 合計数 | データセットに対して実行されたクエリの合計数です。 |
 | 平均実行時間 (ミリ秒) |データセットの平均クエリ時間 (ミリ秒)|
 | 最大実行時間 (ミリ秒) |データセット内で最も時間のかかったクエリの実行時間です (ミリ秒)。 |
-| 平均待機時間 (ミリ秒) |データセットのクエリの平均待機時間です (ミリ秒)。 |
+| Average Wait Time (ms) |データセットのクエリの平均待機時間です (ミリ秒)。 |
 | 最大待機時間 (ミリ秒) |データセット内のクエリの最も長い待機時間です (ミリ秒)。 |
 
 ##### <a name="eviction"></a>削除
@@ -118,7 +118,7 @@ ms.locfileid: "81637682"
 > [!NOTE]
 > **AI** ワークロードの詳細なメトリックは、まだご利用いただけません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI Premium 容量を監視する方法について学習したので、容量の最適化について学習します。
 

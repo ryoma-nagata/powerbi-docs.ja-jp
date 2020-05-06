@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871184"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI の SQL Server Analysis Services ライブ データ
@@ -44,11 +44,11 @@ Power BI では、ライブ SQL Server Analysis Services サーバーに接続�
 
 5. 接続するモデルを選択します。 表形式または多次元モデルのいずれかを選択できます。
 
-モデルに接続すると、Power BI サイトの **マイ ワークスペース/データセット**に表示されます。 グループ ワークスペースに切り替わると、データセットがグループ内に表示されます。
+モデルに接続すると、Power BI サイトの**マイ ワークスペース/データセット**に表示されます。 グループ ワークスペースに切り替わると、データセットがグループ内に表示されます。
 
 ![データセットへの接続](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
-## <a name="dashboard-tiles"></a>データのプッシュ時の
+## <a name="dashboard-tiles"></a>ダッシュボード タイル
 
 レポートからダッシュ ボードにビジュアルをピンで固定すると、そのピンで固定されたタイルは 10 分間隔で自動的に更新されます。 オンプレミスの Analysis Services サーバー データが更新されると、タイルは 10 分後に自動更新されます。
 
@@ -56,9 +56,9 @@ Power BI では、ライブ SQL Server Analysis Services サーバーに接続�
 
 * "モデル スキーマを読み込めません" エラー - このエラーは、SSAS に接続しているユーザーに、SSAS のデータベース、キューブ、およびモデルへのアクセス権がない場合に発生します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
-* [On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)  
+* [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
 * [Analysis Services データ ソースの管理](service-gateway-enterprise-manage-ssas.md)  
 * [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
 

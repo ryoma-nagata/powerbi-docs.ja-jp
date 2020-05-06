@@ -10,10 +10,10 @@ ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853362"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>モバイル アプリで使用する Power BI のレポートの QR コードを作成する
@@ -39,16 +39,16 @@ Power BI サービスでは、編集できないレポートの場合でも、�
 ## <a name="print-the-qr-code"></a>QR コードを印刷する
 Power BI は QR コードを JPG ファイルとして生成するので、印刷に対応できます。 
 
-1. **[ダウンロード]** を選択し、プリンターに接続されているコンピューターで JPG ファイルを開きます。  
+1. **[ダウンロード]** をクリックしてから、プリンターに接続されているコンピューターで JPG ファイルを開きます。  
    
    JPG ファイルの名前はタイルと同じです。 例: 売上およびマーケティングのサンプル.jpg。
    
 1. ファイルを 100% または「実際のサイズ (原寸大)」で印刷します。  
 2. 縁に沿って QR コードを切り取り、そのレポートに関連する場所に貼り付けます。 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [モバイル アプリで現実世界から Power BI データに接続する](consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [モバイル デバイスから Power BI QR コードをスキャンする](consumer/mobile/mobile-apps-qr-code.md)
 * [タイルの QR コードを作成する](service-create-qr-code-for-tile.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

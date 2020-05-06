@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 31ce44059ec2abd5a2615267311ba651993342ba
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207990"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841896"
 ---
 # <a name="power-bi-security"></a>Power BI のセキュリティ
 
-Power BI のセキュリティについて詳しくは、[Power BI のセキュリティに関するホワイト ペーパーをご覧ください](whitepaper-powerbi-security.md)。
+Power BI のセキュリティについて詳しくは、[Power BI のセキュリティに関するホワイト ペーパーをご覧ください](guidance/whitepaper-powerbi-security.md)。
 
 Power BI サービスは、**Azure** 上に構築されています。これは、Microsoft のクラウド コンピューティングのインフラストラクチャとプラットフォームです。 Power BI サービスのアーキテクチャは、Web フロントエンド (**WFE**) クラスターと**バックエンド** クラスターという 2 つのクラスターに基づいています。 WFE クラスターでは、Power BI サービスへの最初の接続と認証を管理し、認証が完了した後、以降のユーザーとの対話はすべてバックエンドで処理されます。 Power BI では、Azure Active Directory (AAD) を使用してユーザー ID を格納および管理し、データとメタデータの格納については、それぞれ Azure BLOB と Azure SQL Database を使用して管理します。
 
@@ -30,7 +30,7 @@ Power BI のそれぞれのデプロイは、Web フロントエンド (**WFE**)
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
-**バックエンド** クラスターは、認証されたクライアントが Power BI サービスと対話する方法を決定します。 **バックエンド** クラスターでは、視覚エフェクト、ユーザー ダッシュボード、データセット、レポート、データ ストレージ、データ接続、データの更新をはじめ、Power BI サービスと対話するためのさまざまな側面を管理します。 **ゲートウェイ ロール** は、ユーザーの要求と Power BI サービス間のゲートウェイとして機能します。 ユーザーは、 **ゲートウェイ ロール**以外のすべてのロールと直接対話することはありません。 **ゲートウェイ ロール** を最終的に処理するのは、 **Azure API Management**です。
+**バックエンド** クラスターは、認証されたクライアントが Power BI サービスと対話する方法を決定します。 **バックエンド** クラスターでは、視覚エフェクト、ユーザー ダッシュボード、データセット、レポート、データ ストレージ、データ接続、データの更新をはじめ、Power BI サービスと対話するためのさまざまな側面を管理します。 **ゲートウェイ ロール** は、ユーザーの要求と Power BI サービス間のゲートウェイとして機能します。 ユーザーは、 **ゲートウェイ ロール**以外のすべてのロールと直接対話することはありません。 **ゲートウェイ ロール**を最終的に処理するのは、**Azure API Management** です。
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 

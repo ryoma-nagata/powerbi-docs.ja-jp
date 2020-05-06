@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76913532"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Power BI Desktop のレポート テンプレートを作成する
@@ -66,9 +66,9 @@ Power BI レポート テンプレートを使用するには、Power BI Desktop
 
 パラメーターとデータを指定すると、このテンプレートの基になっているレポートの一部であったページ、ビジュアル、データ モデルの成果物、およびクエリをすべて含むレポートが作成されます。 
 
-これで完了です。 Power BI Desktop でレポート テンプレートの作成および使用が簡単にできるため、説得力のあるレイアウトやその他のレポートの要素を簡単に再現し、他のユーザーと共有することができます。
+これで終了です。 Power BI Desktop でレポート テンプレートの作成および使用が簡単にできるため、説得力のあるレイアウトやその他のレポートの要素を簡単に再現し、他のユーザーと共有することができます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 **クエリ パラメーター**の学習についても関心がありますか。
 * [Power BI Desktop でクエリ パラメーターを使用する](https://docs.microsoft.com/power-query/power-query-query-parameters)
 

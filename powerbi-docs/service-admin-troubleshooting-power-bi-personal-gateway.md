@@ -10,10 +10,10 @@ ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 910f52466b4700e4d0cc4168ef80ea5ee0164364
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698396"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI ゲートウェイ (個人用モード) のトラブルシューティング
@@ -22,7 +22,7 @@ ms.locfileid: "74698396"
 
 以下のセクションでは、Power BI オンプレミス データ ゲートウェイ (個人用モード) を使用する場合に発生する可能性のある一般的な問題について説明します。
 
-## <a name="update-to-the-latest-version"></a>最新のバージョンに更新する
+## <a name="update-to-the-latest-version"></a>最新バージョンに更新する
 
 個人用のゲートウェイの現在のバージョンは、オンプレミス データ ゲートウェイ (個人用モード) です。 そのバージョンを使用する場合は、現在インストールしているバージョンを更新してください。
 

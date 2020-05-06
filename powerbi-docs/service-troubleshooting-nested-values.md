@@ -11,10 +11,10 @@ ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
 ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871285"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Power BI サービスでテキストとして返される、入れ子になった値のトラブルシューティング
@@ -35,13 +35,13 @@ Power BI サービスでプライバシー レベルの設定 (またはファ�
 
 これらのエラーは、読み込み/更新中にのみ発生するため、Power Query エディターには表示されません。
 
-### <a name="before"></a>より前
+### <a name="before"></a>適用前
 
 - エラーなく読み込み/更新
 - 読み込まれたテーブルには、"[Table]"、“[Record]” などが含まれている
  
 
-### <a name="after"></a>後
+### <a name="after"></a>より後
 
 - 読み込み/更新でエラー
 - 読み込まれたテーブルに ("[Table]"、“[Record]” などではなく) NULL 値が含まれる

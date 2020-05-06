@@ -11,10 +11,10 @@ ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874483"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>レポートのテーブル、マトリックス、スライサーに画像を表示する
@@ -41,7 +41,7 @@ ms.locfileid: "73874483"
 - URL は、SharePoint などのサインインが必要なサイトのものではなく、匿名でアクセスできる必要があります。 ただし、画像が SharePoint または OneDrive でホストされている場合は、その画像を直接ポイントする埋め込みコードを取得できる場合があります。 
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [ページ レイアウトと書式設定](/learn/modules/visuals-in-power-bi/12-formatting)
 

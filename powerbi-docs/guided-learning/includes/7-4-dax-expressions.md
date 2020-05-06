@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: f22c12ec0ad5bd413f3658704132143c878df1aa
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799967"
 ---
 **変数**の使用は、DAX 式の中でも強力な部分を占めています。

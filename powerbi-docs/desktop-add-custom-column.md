@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878875"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop でカスタム列を追加する
@@ -49,7 +49,7 @@ Power BI Desktop でクエリ エディターを使用して、データの新�
 
 - **[新しい列名]** ボックスに、カスタム列の初期名が表示されます。 この列の名前は、変更できます。
 
-- **[カスタム列の式]** ボックスに、[PowerQuery M 式クエリ](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference)が表示されます。 これらのクエリを作成するには、新しいカスタム列を定義する数式を作成します。 
+- [[カスタム列の式]](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) ボックスに、**PowerQuery M 式クエリ**が表示されます。 これらのクエリを作成するには、新しいカスタム列を定義する数式を作成します。 
 
    ![[カスタム列の追加] ページ](media/desktop-add-custom-column/add-custom-column_03.png)
 
@@ -90,7 +90,7 @@ Power BI Desktop でクエリ エディターを使用して、データの新�
    ![[詳細エディター] ページ](media/desktop-add-custom-column/add-custom-column_07.png)
 
    
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - カスタム列を作成するには、クエリ エディターに提供する例に基づいて列を作成するなど、他の方法もあります。 詳細については、「[Power BI Desktop で例から列を追加する](desktop-add-column-from-example.md)」を参照してください。
 

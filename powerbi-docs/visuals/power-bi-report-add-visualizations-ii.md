@@ -10,10 +10,10 @@ ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758424"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Power BI レポートにビジュアルを追加する (パート 2)
@@ -36,7 +36,7 @@ ms.locfileid: "75758424"
 
 1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
 
-1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+1. Select ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
 ## <a name="add-visualizations-to-the-report"></a>視覚化をレポートに追加する
 
@@ -69,7 +69,7 @@ ms.locfileid: "75758424"
 2. 凡例を追加します。  店舗名別にデータを表示するには、 **[Store]\(店舗\)**  >  **[Chain]\(チェーン\)** を [凡例] 領域までドラッグします。  
    ![[フィールド] リストの [Chain]\(チェーン\) から [凡例] バケットの [Chain]\(チェーン\) を指す矢印が示されたレポート キャンバス](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
-## <a name="next-steps"></a>次の手順
-* 「[Power BI での視覚化](power-bi-report-visualizations.md)」をご覧ください。  
+## <a name="next-steps"></a>次のステップ
+* 「[Power BI レポートでの視覚化](power-bi-report-visualizations.md)」をご覧ください。  
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

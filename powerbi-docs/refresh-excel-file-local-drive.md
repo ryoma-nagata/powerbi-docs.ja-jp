@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698764"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>ローカル ドライブの Excel ブックから作成されたデータセットを更新する
@@ -49,7 +49,7 @@ Power BI では、次のいずれかのデータ ソースに接続してデー�
 **[ナビゲーター]** で **[読み込み先...]** をクリックします。  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-または、ナビゲーターの **[編集]** をクリックすると、クエリ エディターが開きます。 そこで **[閉じて次に読み込む...]** をクリックします。  
+または、ナビゲーターの **[編集]** をクリックすると、クエリ エディターが開きます。 そこで **[閉じて読み込む...]** をクリックします。  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 その後 **[読み込み先]** で **[このデータをデータ モデルに追加する]** を選択します。  
@@ -78,6 +78,6 @@ Power BI では、次のいずれかのデータ ソースに接続してデー�
 
 [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

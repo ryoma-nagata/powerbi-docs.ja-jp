@@ -11,10 +11,10 @@ ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: b70e9611b22f1df20d39cdbd338fd5b6bfe1b43d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73880742"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI のツリーマップ
@@ -88,7 +88,7 @@ ms.locfileid: "73880742"
 
    ![選択されている [Sales]\(売上\) > [Last Tear Sales]\(前年度の売上\) と、結果のビジュアルのスクリーンショット。](media/power-bi-visualization-treemaps/treemapfirstvalue-new.png)
 
-1. ツリーマップ アイコン ![ツリーマップ アイコンのスクリーンショット](media/power-bi-visualization-treemaps/power-bi-treemap-icon.png) を選択して、グラフをツリーマップに変換します。
+1. ツリーマップ アイコン  ![ツリーマップ アイコンのスクリーンショット ](media/power-bi-visualization-treemaps/power-bi-treemap-icon.png) を選択して、グラフをツリーマップに変換します。
 
    ![構成されていないツリーマップのスクリーンショット。](media/power-bi-visualization-treemaps/treemapconvertto-new.png)
 

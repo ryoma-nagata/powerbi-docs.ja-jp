@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: cf08f984e98b1497b04d1e19bd870ebcdda010b3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877224"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Power BI データフロー用の開発者向けリソース
@@ -26,12 +26,12 @@ Power BI サービス内でエンティティを作成するか接続し、そ�
 Power BI データフローに関する作業については、次の開発者向けリソースを利用できます。
 
 
-| データフローのリソース | 説明 |
+| データフローのリソース | Description |
 | --- | --- |
 | [Power BI データフロー REST API リファレンス](https://go.microsoft.com/fwlink/?linkid=2047629)    | データフロー REST API の完全なリファレンス ガイドです。|
 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 この記事では、データフローに関する開発者向けリソースの情報を提供しました。 データフローの詳細については、以下の記事も役に立ちます。
 

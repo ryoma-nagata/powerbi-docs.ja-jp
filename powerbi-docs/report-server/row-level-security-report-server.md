@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
 ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859173"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Report Server での行レベルのセキュリティ (RLS)
@@ -57,7 +57,7 @@ Power BI Report Server にご自分のレポートを保存したら、サーバ
 
 1. テキスト ボックスにユーザー名の形式 (DOMAIN\user) でユーザーまたはグループを入力し、それらに割り当てるロールを選択します。 このメンバーは、組織内に属している必要があります。   
 
-    ![メンバーをロールに追加する](media/row-level-security-report-server/power-bi-report-server-add-members.png)
+    ![ロールへのメンバーの追加](media/row-level-security-report-server/power-bi-report-server-add-members.png)
 
     Active Directory が構成されている方法によっては、ここにユーザー プリンシパル名を入力することも可能です。 その場合は、Report Server によって、対応するユーザー名が一覧に表示されます。
 
@@ -105,7 +105,7 @@ Power BI Desktop にデータをインポートした場合は作成できます
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>RLS を使って、ユーザーがアクセスできる列またはメジャーを制限できますか。 
 
-いいえ。 ユーザーは、特定のデータ行にアクセスできる場合は、その行のすべてのデータ列を見ることができます。 
+できません。 ユーザーは、特定のデータ行にアクセスできる場合は、その行のすべてのデータ列を見ることができます。 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>RLS を使って、詳細なデータは表示されないようにしながら、ビジュアルの集計データにはアクセスできるようにすることができますか。 
 
@@ -116,7 +116,7 @@ Power BI Desktop にデータをインポートした場合は作成できます
 はい。Power BI Report Server 内で既存のロールが定義され、メンバーが割り当てられている場合でも、追加のロールを作成し、現在の割り当てに影響を与えることなくレポートを再発行することができます。 
  
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI Report Server とは](get-started.md) 
 [管理者向けハンドブック](admin-handbook-overview.md)  
