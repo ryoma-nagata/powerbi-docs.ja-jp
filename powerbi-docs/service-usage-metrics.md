@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871206"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポートの利用状況の指標を監視する
@@ -83,7 +83,7 @@ ms.locfileid: "73871206"
 
 ## <a name="which-metrics-are-reported"></a>どの指標が報告されるでしょうか。
 
-| 指標 | ダッシュボード | レポート | 説明 |
+| 指標 | ダッシュボード | レポート | Description |
 | --- | --- | --- | --- |
 | Distribution method slicer (配布メソッド スライサー) |はい |はい |どのようにユーザーがコンテンツにアクセスしたか。 3 つの使用可能な方法があります。ユーザーは[ワークスペース](consumer/end-user-experience.md)のメンバーになることによって、コンテンツを[共有する](service-share-dashboards.md)ことによって、またはコンテンツ パック/アプリをインストールすることによって、ダッシュボードまたはレポートにアクセスすることができます。  アプリを介した表示は、"コンテンツ パック" としてカウントされます。 |
 | Platforms slicer (プラットフォーム スライサー) |はい |はい |ダッシュボードまたはレポートに Power BI サービス (powerbi.com) またはモバイル デバイスを使用してアクセスしましたか。 モバイルには、すべての iOS、Android、および Windows アプリが含まれています。 |

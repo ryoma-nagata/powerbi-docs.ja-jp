@@ -10,20 +10,20 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76895014"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI における色の書式設定に関するヒントとコツ
 Power BI は、ダッシュボードとレポートをカスタマイズするためのさまざまな方法を提供しています。 この記事では、Power BI の視覚化を、説得力のある興味をひくものにして、お客様のニーズに合わせてカスタマイズできる各種ヒントについて詳しく説明しています。
 
-ヒントには次のものがあります。 優れた別のヒントをお持ちですか。 成功しました。 そのヒントを是非マイクロソフトまでお送りください。この一覧への追加を検討させていただきます。
+ヒントには次のものがあります。 優れた別のヒントをお持ちですか。 それは素晴らしいことです。 そのヒントを是非マイクロソフトまでお送りください。この一覧への追加を検討させていただきます。
 
 * レポート全体にテーマを適用する
 * 1 つのデータ ポイントの色を変更する
-* 条件付き書式
+* 条件付き書式設定
 * グラフの色を 1 つの数値に基づいて決める
 * データ ポイントの色を 1 つのフィールドの値に基づいて決める
 * カラー スケールで使用する色をカスタマイズする
@@ -149,6 +149,6 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 ## <a name="feedback"></a>フィードバック
 共有したいヒントがありますか? そのヒントを是非マイクロソフトまでお送りください。このページに記載することを検討させていただきます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [色の書式設定と軸のプロパティの概要](service-getting-started-with-color-formatting-and-axis-properties.md)
 

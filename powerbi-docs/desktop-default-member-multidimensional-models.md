@@ -10,10 +10,10 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ea60400a4522dd496e19d508f13760581c0b2620
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761251"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Power BI で多次元モデルを操作する
@@ -58,11 +58,11 @@ Power BI では、"*既定のメンバー*" がある列でビジュアルをグ
 
 それでは、各列が Power BI で使用されるとどうなるか見てみましょう。 ビジュアルが次の列でグループ化されたときの結果を示します。
 
-* **City** - *City*、*State*、*Country* についてはすべての**既定のメンバー**がクリアされてすべての市が表示されますが、*Population* については**既定のメンバー**が維持されます。*City* に対する ARP 全体がクリアされます。
+* **City** - **City**、*State*、*Country* についてはすべての*既定のメンバー*がクリアされてすべての市が表示されますが、**Population** については*既定のメンバー*が維持されます。*City* に対する ARP 全体がクリアされます。
     > [!NOTE]
     > *Population* は *City* の ARP 内になく、*State* のみに関係するので、クリアされません。
-* **State** - *City*、*State*、*Country*、*Population* のすべての**既定のメンバー**がクリアされて、すべての *States* が表示されます。
-* **Country** - *City*、*State*、*Country* についてはすべての**既定のメンバー**がクリアされてすべての国が表示されますが、*Population* については**既定のメンバー**が維持されます。
+* **State** - *City*、**State**、*Country*、*Population* のすべての*既定のメンバー*がクリアされて、すべての *States* が表示されます。
+* **Country** - **City**、*State*、*Country* についてはすべての*既定のメンバー*がクリアされてすべての国が表示されますが、**Population** については*既定のメンバー*が維持されます。
 * **City、State** - すべての列のすべての**既定のメンバー**がクリアされます。
 
 ビジュアルに表示されるグループでは、ARP パス全体がクリアされます。 
@@ -100,7 +100,7 @@ Power BI では、"*既定のメンバー*" がある列でビジュアルをグ
 * 列が ARP 内で別の列の上位にあり、その別の列に対して既定の状態のフィルター カードがある。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 この記事では、多次元モデルで既定のメンバーを使用するときの Power BI の動作について説明しました。 次の記事にも興味をもたれるかもしれません。 
 

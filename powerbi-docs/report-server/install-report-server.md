@@ -9,13 +9,13 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/16/2020
 ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160606"
 ---
-# <a name="install-power-bi-report-server"></a>Power BI Report Server のインストール
+# <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
 Power BI レポート サーバーのインストール方法について説明します。
 
@@ -65,10 +65,10 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 
 2. **[Install Power BI Report Server]** \(Power BI レポート サーバーのインストール\) を選択します。
 
-    ![Power BI Report Server のインストール](media/install-report-server/pbireportserver-install.png)
+    ![Power BI レポート サーバーのインストール](media/install-report-server/pbireportserver-install.png)
 3. インストールするエディションを選択し、 **[次へ]** を選択します。
 
-    ![エディションを選択する](media/install-report-server/pbireportserver-choose-edition.png)
+    ![エディションの選択](media/install-report-server/pbireportserver-choose-edition.png)
 
     評価エディションまたは開発者エディションのいずれかを選択できます。
 
@@ -105,11 +105,11 @@ Reporting Services の初期構成を完了するには、[レポート サー�
 
 `System.Data.SqlClient.SqlException (0x80131904): Windows NT user or group '(null)' not found. Check the name again.`
 
-エラーを回避するために、ネットワーク サービスまたはドメイン アカウントのいずれかにサービス アカウントを変更できます。 ネットワーク サービスにサービス アカウントを変更すると、レポート サーバーのコンピューター アカウントのコンテキストで権限が適用されます。
+エラーを回避するには、サービス アカウントをネットワーク サービスまたはドメイン アカウントのいずれかに変更できます。 ネットワーク サービスにサービス アカウントを変更すると、レポート サーバーのコンピューター アカウントのコンテキストで権限が適用されます。
 
 ![レポート サーバー サービス アカウントを構成する](media/install-report-server/pbireportserver-configure-account.png)
 
-詳細については、「[Configure the report server service account](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)」 (レポート サーバー サービス アカウントを構成する) を参照してください。
+詳細については、[レポート サーバー サービス アカウントの構成](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)に関するページを参照してください。
 
 ## <a name="windows-service"></a>Windows サービス
 
@@ -123,17 +123,17 @@ Windows サービスは、インストールの一部として作成されます
 
 URL 予約は、プレフィックス、ホスト名、ポート、および仮想ディレクトリから構成されます。
 
-| パーツ | 説明 |
+| パーツ | Description |
 | --- | --- |
-| プレフィックス |既定のプレフィックスは HTTP です。 以前に Secure Sockets Layer (SSL) 証明書をインストールした場合、セットアップは、HTTPS プレフィックスを使用して URL 予約を作成しようとします。 |
-| ホスト名 |既定のホスト名は、厳密なワイルドカード (+) です。 レポート サーバーが `https://<computername>/reportserver`、`https://localhost/reportserver`、`https://<IPAddress>/reportserver.` を含むコンピューターに解決されるすべてのホスト名に対して指定されたポート上ですべての HTTP 要求を受け入れることを指定します。 |
+| プレフィックス |既定のプレフィックスは HTTP です。 以前に SSL (Secure Sockets Layer) 証明書をインストールした場合は、HTTPS プレフィックスを使用する URL 予約がセットアップで作成されます。 |
+| ホスト名 |既定のホスト名は、厳密なワイルドカード (+) です。 これにより、コンピューターに対して解決されるあらゆるホスト名 (`https://<computername>/reportserver`、`https://localhost/reportserver`、`https://<IPAddress>/reportserver.`) の指定のポートで、レポート サーバーが HTTP 要求を受け付けるように指定されます。 |
 | ポート |既定のポートは 80 です。 ポート 80 以外のポートを使用する場合は、ブラウザー ウィンドウで Web ポータルを開くときに、それを URL に明示的に追加する必要があります。 |
 | 仮想ディレクトリ |既定では、仮想ディレクトリは、レポート サーバー Web サービス用に ReportServer の形式で、Web ポータル用に Reports の形式で作成されます。 レポート サーバー Web サービスの場合、既定の仮想ディレクトリは **reportserver** です。 Web ポータルの場合、既定の仮想ディレクトリは **reports** です。 |
 
 完全な URL 文字列の例は次のようになることがあります。
 
 * `https://+:80/reportserver`、レポート サーバーへのアクセスを提供します。
-* `https://+:80/reports`、Web ポータルへのアクセスを提供します。
+* `https://+:80/reports` は、Web ポータルへのアクセスを提供します。
 
 ## <a name="firewall"></a>ファイアウォール
 
@@ -144,11 +144,11 @@ Web サービスの URL と Web ポータルの URL 用に構成した TCP ポ�
 ## <a name="additional-configuration"></a>追加の構成
 
 * Power BI サービスとの統合を構成し、Power BI ダッシュボードにレポート アイテムを固定できるようにするには、「[Integrate with the Power BI service](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager) 」(Power BI サービスとの統合) を参照してください。
-* サブスクリプションの処理用の電子メールを構成するには、「[E-Mail settings](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)」 (電子メール設定) および「[E-Mail Delivery in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)」 (レポート サービスの電子メールの配信) を参照してください。
+* サブスクリプション処理の電子メールを構成するには、「[電子メールの設定 - Reporting Services のネイティブ モード (構成マネージャー)](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)」および[レポート サーバーの電子メール配信](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)に関するページを参照してください。
 * レポート コンピューターで Web ポータルにアクセスしてレポートを表示および管理できるように Web ポータルを構成するには、「[Configure a firewall for report server access](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)」 (レポート サーバーにアクセスするためのファイアウォールを構成する) と「[Configure a Report Server for Remote Administration](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)」 (リモート管理用にレポート サーバーを構成する) を参照してください。
 * SQL Server Management Studio でのレポート サーバー システム プロパティの設定の詳細については、「[サーバーのプロパティの [詳細設定] ページ](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services)」を参照してください。 特に指定しない限り、オプションは Power BI Report Server と SQL Server Reporting Services の両方に適用されます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [管理者の概要](admin-handbook-overview.md)  
 [レポート サーバーのプロダクト キーを検索する方法](find-product-key.md)  

@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 27d6db6cf8ad8ebd7b2c957954ceec34b83681d0
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464454"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Power BI Desktop 内でロールとルールを定義する
@@ -30,7 +30,7 @@ Power BI Desktop 内でロールとルールを定義できます。 Power BI �
    ![[ロールの管理] ウィンドウ](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 
    > [!NOTE]
-   > この式の中では *username()* を使用できます。 Power BI Desktop 内では *username()* の形式は *DOMAIN\username* になることにご注意ください。 Power BI サービスと Power BI Report Server 内では、それはユーザーのユーザー プリンシパル名 (UPN) の形式になります。 また、必ずユーザー プリンシパル名 (*username\@contoso.com*) の形式でユーザーを返す *userprincipalname()* を使用することもできます。
+   > この式の中では *username()* を使用できます。 Power BI Desktop 内では *username()* の形式は *DOMAIN\username* になることにご注意ください。 Power BI サービスと Power BI Report Server 内では、それはユーザーのユーザー プリンシパル名 (UPN) の形式になります。 また、必ずユーザー プリンシパル名 (*username*contoso.com *) の形式でユーザーを返す \@userprincipalname()* を使用することもできます。
    > 
    > 
 

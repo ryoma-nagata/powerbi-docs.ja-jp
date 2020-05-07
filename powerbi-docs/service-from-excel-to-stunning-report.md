@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872511"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Power BI サービスで Excel ブックから魅力的なレポートを作成する
@@ -60,7 +60,7 @@ Power BI サービスは、多くのデータ ソースに接続できます。�
 
 5. **[データの取得]** ページの **[新しいコンテンツの作成]** の **[ファイル]** ボックスで、 **[取得]** を選択します。
 
-   ![ファイルからのデータの取得](media/service-from-excel-to-stunning-report/pbi_get_files.png)
+   ![ファイルからデータを取得](media/service-from-excel-to-stunning-report/pbi_get_files.png)
 
 6. **[ファイル]** ページで、 **[ローカル ファイル]** を選択します。 ご使用のコンピューターで Excel ブック ファイルに移動し、 **[開く]** を選択して Power BI サービスに読み込みます。 
 
@@ -133,7 +133,7 @@ Power BI サービスに Excel ファイルがインポートされたら、レ�
 
    ![[ダッシュボードの共有] ウィンドウ](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [Power BI サービスの概要](service-get-started.md)
 * [Power BI Desktop の概要](desktop-getting-started.md)

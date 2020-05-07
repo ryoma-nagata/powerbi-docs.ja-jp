@@ -10,10 +10,10 @@ ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 960ce09c1392787f2d24e84d26c2f3be9be010f8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876825"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散布図の高密度サンプリング
@@ -84,7 +84,7 @@ ms.locfileid: "73876825"
 
 * **高密度サンプリング** アルゴリズムは、Power BI サービスに基づくモデル、インポートしたモデル、または DirectQuery へのライブ接続でのみ動作します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 他の図の高密度サンプリングの詳細については、次の記事をご覧ください。
 
 * [Power BI の高密度線サンプリング](../desktop-high-density-sampling.md)

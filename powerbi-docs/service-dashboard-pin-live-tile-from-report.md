@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853073"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Power BI ダッシュボードにレポート ページ全体をライブ タイルとしてピン留めする
@@ -37,7 +37,7 @@ ms.locfileid: "73853073"
 2. 視覚化が選択されていない状態で、メニューバーから **[ライブ ページをピン留めする]** を選択します。
    
    ![[ライブ ページをピン留めする] アイコン](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. タイルを既存のダッシュボードまたは新しいダッシュボードにピン留めします。 強調表示されているテキストに注目してください。"*ライブ ページをピン留めすると、ページを更新したときにレポートへの変更がダッシュボード タイルに表示されるようになります。* "
+3. タイルを既存のダッシュボードまたは新しいダッシュボードにピン留めします。 強調表示されているテキストにご注目ください。*ライブ ページをピン留めすると、ページを更新したときにレポートへの変更がダッシュボード タイルに表示されるようになります。*
    
    * 既存のダッシュボード: ドロップダウンから、ダッシュボードの名前を選びます。 共有してもらったダッシュボードはドロップダウンに表示されません。
    * 新しいダッシュボード: 新しいダッシュボードの名前を入力します。
@@ -51,8 +51,8 @@ ms.locfileid: "73853073"
    
     ![ダッシュボードとライブ タイル](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
-## <a name="next-steps"></a>次の手順
-[Power BI のダッシュボード](consumer/end-user-dashboards.md)
+## <a name="next-steps"></a>次のステップ
+[Power BI のダッシュ ボード](consumer/end-user-dashboards.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

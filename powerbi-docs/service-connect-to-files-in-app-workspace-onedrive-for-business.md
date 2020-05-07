@@ -9,10 +9,10 @@ ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73854877"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Power BI ワークスペースの OneDrive に保存されているファイルに接続する
@@ -37,7 +37,7 @@ ms.locfileid: "73854877"
 2. **[ファイル]** を選択し、Office 365 のワークスペースの OneDrive for Business を開きます。
    
    > [!NOTE]
-   > ワークスペース メニューに **[ファイル]** が表示されない場合は、 **[メンバー]** を選択してワークスペースの OneDrive for Business を開きます。 そこで、 **[ファイル]** を選びます。 Office 365 で、アプリのグループ ワークスペース ファイルの OneDrive ストレージの場所が作成されます。 この処理には時間がかかる場合があります。 
+   > ワークスペース メニューに **[ファイル]** が表示されない場合は、 **[メンバー]** を選択してワークスペースの OneDrive for Business を開きます。 そこで、 **[ファイル]** を選びます。 Office 365 で、アプリのグループ ワークスペース ファイルの OneDrive ストレージの場所が作成されます。 このプロセスにはしばらく時間がかかることがあります。 
    > 
    > 
 3. ここで、ワークスペースの OneDrive for Business にファイルをアップロードすることができます。 **[アップロード]** を選び、ファイルに移動します。
@@ -45,7 +45,7 @@ ms.locfileid: "73854877"
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel ファイルをデータセットまたは Excel Online のブックとしてインポートする
-ファイルがワークスペースの OneDrive for Business に保存されたので、選択肢ができました。 次の操作を実行できます。 
+ファイルがワークスペースの OneDrive for Business に保存されたので、選択肢ができました。 次のことが行えます。 
 
 * [Excel ブックからデータセットとしてデータをインポートします](service-get-data-from-files.md)。 次に、そのデータを使用して Web ブラウザーやモバイル デバイスで表示できるレポートとダッシュボードを作成します。
 * または、[Power BI で Excel ブック全体に接続](service-excel-workbook-files.md)し、Excel Online で表示されるのと同じようにブックを表示します。
@@ -75,7 +75,7 @@ ms.locfileid: "73854877"
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI でアプリとワークスペースを作成する](service-create-distribute-apps.md)
 * [Excel ブックからデータをインポートする](service-get-data-from-files.md)
 * [Excel ブック全体に接続する](service-excel-workbook-files.md)

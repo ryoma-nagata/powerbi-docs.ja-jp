@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874457"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Power BI Q&A でビジュアルを作成する
@@ -48,7 +48,7 @@ ms.locfileid: "73874457"
    
    ![Q&A によって作成された面グラフ](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
-4. グラフをダッシュボードにピン留めするには、ピン アイコンを選択します。 ![ピン留めアイコン](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) をタップします。
+4. グラフをダッシュボードにピン留めするには、ピン アイコンを選択します。 ![ピン アイコンをクリックまたはタップします。](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) をタップします。
 
 ## <a name="create-a-visual-in-the-report-editor"></a>レポート エディターでビジュアルを作成する
 
@@ -67,11 +67,11 @@ ms.locfileid: "73874457"
 
     最終的に同じビジュアルになっていることがわかります。 この方法でも、作成にさほど手間はかかりません。 ただし、Q&A を使用した方が簡単に作成できます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [ダッシュボードとレポートで Q&A を使用する](power-bi-tutorial-q-and-a.md)  
 - [コンシューマー向けの Q&A](consumer/end-user-q-and-a.md)
-- [データを Power BI Q&A に適合させる方法](service-prepare-data-for-q-and-a.md)
+- [データを Power BI の Q&A でうまく使う方法](service-prepare-data-for-q-and-a.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

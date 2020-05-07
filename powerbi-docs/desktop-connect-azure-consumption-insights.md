@@ -11,10 +11,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761728"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop で Azure Consumption Insights データに接続する
@@ -64,7 +64,7 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 
 ご利用の "*アクセス キー*" を指定して **[接続]** を選択すると、 **[ナビゲーター]** ウィンドウが開き、使用可能な次の 9 つのテーブルが表示されます。
 
-| テーブル        | 説明 |
+| テーブル        | Description |
 |------------- | -------------------------------------------------------------|
 | **Budgets** | 既存の予算目標に対する実際のコストや使用状況を確認できる予算の詳細。 |
 | **MarketPlace** | 使用状況に基づく Azure Marketplace の料金。 |

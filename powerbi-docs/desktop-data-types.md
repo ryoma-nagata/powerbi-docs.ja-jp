@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: f689ba79f9cce7d6ee815e0712491e7d00647fe8
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82584774"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841666"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop でのデータ型
 この記事では、Power BI Desktop と Data Analysis Expressions (DAX) でサポートされるデータ型について説明します。 
@@ -79,10 +79,11 @@ Power BI Desktop では、クエリ ビューで 5 つの日付/時刻型がサ�
 バイナリ データ型を使用すれば、バイナリ形式のその他のデータを表すことができます。 クエリ エディター内では、バイナリ ファイルを読み込むときにバイナリ データ型を使用でき、バイナリ データ型を Power BI model モデルに読み込む場合はそれを他のデータ型に事前に変換する必要があります。 バイナリ列は、Power BI データ モデルではサポートされていません。 これは、従来版に対応するために [データビュー] メニューと [レポート ビュー] メニューに存在しますが、Power BI モデルにバイナリ列を読み込もうとすると、エラーが発生する可能性があります。
 
 
+
+
 > [!NOTE]
 >  バイナリ列がクエリのステップの出力に含まれている場合、ゲートウェイを介してデータを更新しようとすると、エラーが発生することがあります。 クエリの最後のステップとして、バイナリ列を明示的に削除することをお勧めします。    
 > 
->
 
 ### <a name="table-data-type"></a>テーブル データ型
 DAX では、集計やタイム インテリジェンス計算など、多くの関数でテーブル データ型を使用します。 一部の関数は、テーブルへの参照を必要とします。また、関数からテーブルが返され、そのテーブルを他の関数への入力として使用できる場合もあります。 入力としてテーブルを必要とするいくつかの関数では、テーブルに評価される式を指定できます。また、ベース テーブルへの参照を必要とする関数もあります。 特定の関数の要件については、「[DAX 関数リファレンス](https://msdn.microsoft.com/library/ee634396.aspx)」をご覧ください。
