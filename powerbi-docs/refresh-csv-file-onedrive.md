@@ -11,10 +11,10 @@ ms.date: 09/12/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: d18d3a5b5d85a121f67c5b3109a150a21ab72d1a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699707"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online の .CSV ファイルから作成されたデータセットを更新する
@@ -31,7 +31,7 @@ OneDrive または SharePoint Online 上の .csv ファイルに接続すると�
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive と OneDrive for Business。 違いは何ですか?
 個人用の OneDrive と OneDrive for Business の両方がある場合は、Power BI に接続するすべてのファイルを OneDrive for Business に保存することをおすすめします。 これは、サインインのために 2 種類のアカウントを使用する可能性があるためです。
 
-Power BI へのサインインに使用するアカウントが OneDrive for Business へのサインインに使用するアカウントと同じであることが多いため、Power BI での OneDrive for Business への接続は通常シームレスです。 ただし、個人用の OneDrive では、ほとんどの場合異なる [Microsoft アカウント](https://account.microsoft.com)を使用してサインインします。
+Power BI へのサインインに使用するアカウントが OneDrive for Business へのサインインに使用するアカウントと同じであることが多いため、Power BI での OneDrive for Business への接続は通常シームレスです。 しかし、個人用の OneDrive では、たいていの場合異なる [Microsoft アカウント](https://account.microsoft.com)を使用してサインインします。
 
 Microsoft アカウントにサインインしたら、必ず [サインアウトしない] を選択してください。 これで、Power BI のデータセットと更新が同期されます。
 
@@ -42,7 +42,7 @@ Microsoft アカウントの資格情報が変更されている可能性があ�
 ## <a name="when-things-go-wrong"></a>問題が発生した場合
 OneDrive 上の .csv ファイル内のデータを変更しても、その変更が Power BI に反映されない場合、最も可能性の高い原因は Power BI が OneDrive に接続できないことです。 ファイルに接続し、もう一度インポートしてみてください。 サインインを求められた場合は、必ず **[サインアウトしない]** を選択します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [更新の問題をトラブルシューティングするためのツール](service-gateway-onprem-tshoot.md)
 [更新のシナリオのトラブルシューティング](refresh-troubleshooting-refresh-scenarios.md)
 

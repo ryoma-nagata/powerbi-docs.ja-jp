@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006505"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成
@@ -28,7 +28,7 @@ ms.locfileid: "81006505"
 
 動的スライサーを作成する最初の手順は、基本的なスライサーを作成することです。 
 
-1. **[視覚化]** ウィンドウで **[スライサー]** アイコン ![スライサー アイコン](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) を選択します。
+1. **[視覚化]** ウィンドウで ![[スライサー]](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) アイコン **スライサー アイコン** を選択します。
 2. フィルターを適用するフィールドを **[フィールド]** にドラッグします。
 
     ![スライサーにフィールドを追加する](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
@@ -79,7 +79,7 @@ Power BI Desktop では、レポートのページごとに電話レイアウト
 - スライダーの新しい丸いハンドルバーは、タッチ操作を最適化します。 
 - ビジュアルが小さくなりすぎて役に立たない場合、その場所でビジュアルの種類を表すアイコンになります。 これを操作するには、ダブルタップしてフォーカス モードで開きます。 これにより、機能を失うことなく、レポート ページ上の貴重なスペースを節約できます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [Power BI サービスのスライサー](visuals/power-bi-visualization-slicers.md)
 - 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

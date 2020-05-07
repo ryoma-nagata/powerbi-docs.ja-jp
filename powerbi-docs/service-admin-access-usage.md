@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 32ca01d06f4fc8c3f90f73bf8137349eed0220a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698833"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>サインインした Power BI ユーザーを見つける
@@ -29,7 +29,7 @@ ms.locfileid: "74698833"
 
 * テナントには Azure Active Directory Premium ライセンスが関連付けられている必要があります。
 
-* 次のいずれかのロールである必要があります:全体管理者、セキュリティ管理者、セキュリティ閲覧者。
+* 全体管理者、セキュリティ管理者、セキュリティ閲覧者のいずれかのロールである必要があります。
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Azure portal を使用してサインインを表示する
 
@@ -63,7 +63,7 @@ CSV ファイル形式または JSON ファイル形式で[サインイン レ�
 
 サインイン関連のデータは、最大 30 日間使用できます。 詳しくは、「[Azure Active Directory レポートの保持ポリシー](/azure/active-directory/reports-monitoring/reference-reports-data-retention)」を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [組織内での監査の使用](service-admin-auditing.md)
 
