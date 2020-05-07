@@ -10,10 +10,10 @@ ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 22446936f36074379242bd54af15c9bb2864e4a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874983"
 ---
 # <a name="what-is-the-power-bi-service"></a>Power BI サービスとは何ですか?
@@ -38,5 +38,5 @@ Power BI のその他の主要なコンポーネントは、Windows デスクト
 
 ## <a name="next-steps"></a>次の手順
 - コンシューマー向けクイック スタート:[Power BI サービスの使用方法を学ぶ](consumer/end-user-experience.md)   
-- [チュートリアル:Power BI サービスの概要](service-get-started.md)
+- [チュートリアル: Power BI サービスの概要](service-get-started.md)
 - [クイック スタート:Power BI Desktop でデータに接続する](desktop-quickstart-connect-to-data.md)

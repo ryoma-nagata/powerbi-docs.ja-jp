@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ea6d4186d2f02665201f2161f50e06ad8f0f45a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699408"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
@@ -154,7 +154,7 @@ Active Directory 参照を実行するようにゲートウェイを構成する
 
 マッピング規則を作成するには、 **[元の名前]** と **[新しい名前]** の値を入力し、 **[追加]** を選択します。
 
-| フィールド | 説明 |
+| フィールド | Description |
 | --- | --- |
 | 置換前 (元の名前) |Power BI にサインインするために使用したメール アドレス。 |
 | 置換後 (新しい名前) |元の名前を置き換える値。 ここで置き換えた値が、Analysis Services 接続の EffectiveUserName プロパティに渡されます。 |
@@ -223,7 +223,7 @@ EffectiveUserName は、ドメインに参加していない Analysis Services �
 
 結果はメール アドレスに似ていますが、これはドメイン アカウントの UPN です。 Analysis Services データ ソースをライブ接続に使用している場合に、この UPN が Power BI へのサインインに使用しているメール アドレスと一致しない場合は、[ユーザー名をマップ](#map-user-names-for-analysis-services-data-sources)する方法を参照してください。
 
-## <a name="synchronize-an-on-premises-active-directory-with-azure-ad"></a>オンプレミスの Active Directory を Azure AD と同期する
+## <a name="synchronize-an-on-premises-active-directory-with-azure-ad"></a>オンプレミスの Active Directory と Azure AD を同期する
 
 Analysis Services ライブ接続を使用する場合は、ローカル Active Directory アカウントが Azure AD と一致している必要があります。 UPN はアカウント間で一致する必要があります。
 
@@ -265,9 +265,9 @@ Power BI Desktop とゲートウェイ用に構成されているデータ ソ�
 
 ![ユーザーの表示](media/service-gateway-enterprise-manage-ssas/powerbi-gateway-enterprise-schedule-refresh.png)
 
-### <a name="limitations-of-analysis-services-live-connections"></a>Analysis Services のライブ接続の制限事項
+### <a name="limitations-of-analysis-services-live-connections"></a>Analysis Services ライブ接続の制限事項
 
-表形式または多次元インスタンスに対してライブ接続を使用することはできません。
+表形式または多次元インスタンスに対してライブ接続を使用することができます。
 
 | **サーバーのバージョン** | **必要な SKU** |
 | --- | --- |
@@ -278,7 +278,7 @@ Power BI Desktop とゲートウェイ用に構成されているデータ ソ�
 * セル レベルの書式設定および変換機能はサポートされていません。
 * アクションと名前付きセットが Power BI に公開されることはありません。 アクションまたは名前付きセットを含む多次元キューブに接続し、ビジュアルとレポートを作成することはできます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [オンプレミス データ ゲートウェイのトラブルシューティング](/data-integration/gateway/service-gateway-tshoot)
 * [ゲートウェイのトラブルシューティング - Power BI](service-gateway-onprem-tshoot.md)

@@ -10,10 +10,10 @@ ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871769"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>データセットをインポートして Power BI サービスでレポートを作成する
@@ -31,7 +31,7 @@ ms.locfileid: "73871769"
    ![ワークスペースのリスト](media/service-report-create-new/power-bi-workspaces2.png)
 2. ナビ ペインの下部にある **[データの取得]** を選択します。
    
-   ![データを取得](media/service-report-create-new/power-bi-get-data3.png)
+   ![データの取得](media/service-report-create-new/power-bi-get-data3.png)
 3. **[ファイル]** を選択し、小売りの分析のサンプルを保存した場所に移動します。
    
     ![[ファイル] の選択](media/service-report-create-new/power-bi-select-files.png)
@@ -89,7 +89,7 @@ CMO に対して、その他いくつかの質問に応える必要がありま�
 
 データの調査と視覚エフェクトの追加を続けます。 特に興味深い分析情報が見つかったら、[ダッシュボードにピン留め](service-dashboard-pin-tile-from-report.md)します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [視覚化をダッシュボードにピン留めする](service-dashboard-pin-tile-from-report.md)方法の詳細   
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

@@ -10,10 +10,10 @@ ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74178266"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI の質問のヘルプを得るための 10 のヒント
@@ -67,7 +67,7 @@ Power BI チームは、定期的な [Power BI ブログ投稿](https://powerbi.
 
 たとえば、セキュリティ グループでダッシュ ボードを共有できるのかどうか知りたいとします。 この疑問の答えを見つけるには、共有ダイアログ ボックスに移動し、セキュリティ グループを追加してみてください。 いずれにしても、このテストの後に答えを知ることになります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI とは?](fundamentals/power-bi-overview.md)
 * [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。

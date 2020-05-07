@@ -1,5 +1,5 @@
 ---
-title: オンプレミス データ ゲートウェイ
+title: オンプレミスのデータ ゲートウェイ
 description: この記事は Power BI のオンプレミス データ ゲートウェイの概要です。 このゲートウェイを使用し、DirectQuery データ ソースを操作できます。 また、このゲートウェイを使用し、オンプレミス データでクラウド データセットを更新できます。
 author: arthiriyer
 ms.author: arthii
@@ -10,10 +10,10 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697545"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイとは
@@ -30,7 +30,7 @@ ms.locfileid: "74697545"
 
 ## <a name="types-of-gateways"></a>ゲートウェイの種類
 
-ゲートウェイには次の 2 種類があり、それぞれ異なるシナリオで使用されます。
+ゲートウェイには 2 種類あって、それぞれ異なるシナリオで使用されます。
 
 * **オンプレミス データ ゲートウェイ**の場合、複数のユーザーが複数のオンプレミスのデータ ソースに接続できます。 単一のゲートウェイ インストールで、サポートされているすべてのサービスでオンプレミス データゲートウェイを使用できます。 このゲートウェイは、複数のユーザーが複数のデータ ソースにアクセスする複雑なシナリオに適しています。
 
@@ -40,13 +40,13 @@ ms.locfileid: "74697545"
 
 ゲートウェイを使用するための 4 つの主要な手順があります。
 
-1. ローカル コンピューターに[ゲートウェイをダウンロードしてインストール](/data-integration/gateway/service-gateway-install)します。
+1. [ゲートウェイをダウンロードして、ローカル コンピューターにインストールします](/data-integration/gateway/service-gateway-install)。
 1. ご利用のファイアウォールやその他のネットワーク要件に基づいてゲートウェイを[構成](/data-integration/gateway/service-gateway-app)します。
 1. 他のネットワーク要件も管理および操作できる[ゲートウェイ管理者を追加](/data-integration/gateway/service-gateway-manage)します。
 1. [ゲートウェイを使用](service-gateway-sql-tutorial.md)して、オンプレミスのデータ ソースを更新します。
 1. エラーが発生した場合にゲートウェイの[トラブルシューティング](service-gateway-onprem-tshoot.md)を行います。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [オンプレミス データ ゲートウェイのインストール](/data-integration/gateway/service-gateway-install)
 

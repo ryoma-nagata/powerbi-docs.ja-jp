@@ -10,10 +10,10 @@ ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758625"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>視覚エフェクトの基になるデータを表示する
@@ -71,7 +71,7 @@ Power BI のビジュアルは、データセットからのデータを使用�
 - 計算メジャーがビジュアルで使用されている場合は、[レコードの確認] を使用できません。
 - ライブ多次元 (MD) モデルに接続されている場合は、[レコードの確認] を使用できません。  
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI ビジュアルからデータをエクスポートする](power-bi-visualization-export-data.md)    
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

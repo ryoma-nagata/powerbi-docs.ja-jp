@@ -10,10 +10,10 @@ ms.date: 06/04/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 63d49a439d10acc5d7cda10b76b04a26fcdb085a
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698810"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>ローカル ドライブの Power BI Desktop ファイルから作成されたデータセットを更新する

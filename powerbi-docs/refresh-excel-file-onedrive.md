@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699623"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online の Excel ブックから作成されたデータセットを更新する
@@ -49,7 +49,7 @@ Power BI では、[データの取得]/[クエリ エディター] を使って�
 
 個人用の OneDrive と OneDrive for Business の両方がある場合は、Power BI にインポートするすべてのファイルを OneDrive for Business に保存することをおすすめします。 これは、サインインのために 2 種類のアカウントを使用する可能性があるためです。
 
-Power BI へのサインインに使用するアカウントが OneDrive for Business へのサインインに使用するアカウントと同じであることが多いため、Power BI での OneDrive for Business への接続は通常シームレスです。 ただし、個人用の OneDrive では、ほとんどの場合異なる [Microsoft アカウント](https://account.microsoft.com)を使用してサインインします。
+Power BI へのサインインに使用するアカウントが OneDrive for Business へのサインインに使用するアカウントと同じであることが多いため、Power BI での OneDrive for Business への接続は通常シームレスです。 しかし、個人用の OneDrive では、たいていの場合異なる [Microsoft アカウント](https://account.microsoft.com)を使用してサインインします。
 
 Microsoft アカウントにサインインしたら、必ず **[サインアウトしない]** を選択してください。 これで、Power BI が Power BI Desktop のファイルに行ったすべての変更を Power BI のデータセットに同期できるようになります。  
 
@@ -82,7 +82,7 @@ OneDrive for Business または SharePoint Online 内の Excel ブックに接�
 
 ![[読み込み先] コマンド](media/refresh-excel-file-onedrive/refresh_loadtodm_1.png)
 
-または、 **[ナビゲーター]** の **[編集]** をクリックすると、クエリ エディターが開きます。 そこで **[閉じて次に読み込む...]** をクリックします。  
+または、 **[ナビゲーター]** の **[編集]** をクリックすると、クエリ エディターが開きます。 そこで **[閉じて読み込む...]** をクリックします。  
 
 ![[閉じて次に読み込む] コマンド](media/refresh-excel-file-onedrive/refresh_loadtodm_2.png)
 

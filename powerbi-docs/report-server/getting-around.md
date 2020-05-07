@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859478"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Web ポータルでコンテンツを管理する 
@@ -22,8 +22,8 @@ Power BI レポート サーバー Web ポータルは、Power BI レポート�
 
 どの最新ブラウザーでも Web ポータルを表示できます。 Web ポータルでは、レポートと KPI がフォルダーに整理されて表示され、それらをお気に入りとしてマークすることができます。 ポータルには Excel ブックを格納することもできます。 Web ポータルからレポートを作成するために必要なツールを起動できます。
 
-* Power BI Desktop で作成された **Power BI レポート**:それらを Web ポータルおよび Power BI モバイル アプリで表示します。
-* レポート ビルダーで作成された**ページ分割されたレポート**:印刷用に最適化された現代的な外観の固定レイアウトのドキュメント。
+* Power BI Desktop で作成された **Power BI レポート**: それらを Web ポータルおよび Power BI モバイル アプリで表示します。
+* Report Builder で作成された**ページ分割されたレポート**: 印刷用に最適化された現代的な外観の固定レイアウトのドキュメント。
 * **KPI**: Web ポータルで正常に作成されました。
 
 Web ポータルでは、レポート サーバー フォルダーを参照したり、特定のレポートを検索したりできます。 レポートとその全般的なプロパティを表示し、レポート履歴でキャプチャされているレポートの過去のコピーを表示できます。 アクセス許可に応じて、電子メールの受信トレイ フォルダーまたはファイル システム上の共有フォルダーに配信するためのレポートをサブスクライブできる必要もあります。
@@ -39,7 +39,7 @@ Web ポータル アプリケーションはブラウザーで実行されます
    
     既定の URL は <em>https://<コンピューター名>/reports</em> です。
    
-    レポート サーバーは、特定のポートを使用するように構成される可能性があります。 たとえば、<em>https://<コンピューター名>:80/reports</em>または<em>https://<コンピューター名>:8080/reports</em> のようになります。
+    レポート サーバーは、特定のポートを使用するように構成できます。 たとえば、<em>https://<コンピューター名>:80/reports</em>または<em>https://<コンピューター名>:8080/reports</em> のようになります。
    
     Web ポータル グループ項目が以下のカテゴリに分類されます。
    
@@ -49,7 +49,7 @@ Web ポータル アプリケーションはブラウザーで実行されます
    * Power BI Desktop レポート
    * Excel ブック
    * データセット
-   * データ ソース
+   * [データ ソース]
    * リソース
 
 ## <a name="manage-items-in-the-web-portal"></a>Web ポータルで項目を管理する
@@ -61,11 +61,11 @@ Power BI レポート サーバーでは、Web ポータルに格納する項目
 2. プロパティまたは設定するその他の機能を選択します。
    
     ![[プロパティ] を選択](media/getting-around/report-server-web-portal-manage-properties.png)
-3. **[適用]** を選びます。
+3. **[適用]** を選択します。
 
 [Web ポータルでサブスクリプションの使用](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)の詳細を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI Report Server とは](get-started.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

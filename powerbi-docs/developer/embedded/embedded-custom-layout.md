@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 12/19/2017
 ms.openlocfilehash: e114c208093c9f3401c43e9ea44502e65d6d84fd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493206"
 ---
 # <a name="custom-layouts"></a>カスタム レイアウト
@@ -61,9 +61,9 @@ enum DisplayOption {
 }
 ```
 
-- `pageSize`:キャンバス領域のサイズ (つまり、レポートの空白領域) を制御するには、ページ サイズを使います。
-- `displayOptions`:使用できる値は次のとおりです:FitToWidth、FitToPage、ActualSize。 iframe に収まるようにキャンバスを拡大縮小する方法を制御します。
-- `pagesLayout`:各ビジュアルのレイアウトを制御します。 詳しくは、「ページ レイアウト」をご覧ください。
+- `pageSize`: キャンバス領域のサイズ (つまり、レポートの空白領域) を制御するには、ページ サイズを使います。
+- `displayOptions`: 使用できる値は、FitToWidth、FitToPage、ActualSize です。 iframe に収まるようにキャンバスを拡大縮小する方法を制御します。
+- `pagesLayout`: 各ビジュアルのレイアウトを制御します。 詳しくは、「ページ レイアウト」をご覧ください。
 
 ## <a name="pages-layout"></a>ページ レイアウト
 
@@ -108,9 +108,9 @@ enum VisualContainerDisplayMode {
 }
 ```
 
-- `x,y,z`:ビジュアルの新しい位置を定義します。
-- `width`、height:ビジュアルの新しいサイズを定義します。
-- `displayState`:ビジュアルを表示するかどうかを定義します。
+- `x,y,z`: ビジュアルの新しい位置を定義します。
+- `width`、height: ビジュアルの新しいサイズを定義します。
+- `displayState`: ビジュアルを表示するかどうかを定義します。
 
 ## <a name="update-layout"></a>レイアウトの更新
 
@@ -170,7 +170,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-## <a name="see-also"></a>関連項目
+## <a name="see-also"></a>参照
 
 [Power BI ダッシュボード、レポート、およびタイルを埋め込む](embed-sample-for-customers.md)   
 [Power BI コミュニティに質問する](https://community.powerbi.com/)

@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74791984"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>更新がサポートされていないデータ ソースのトラブルシューティング
@@ -37,10 +37,10 @@ ms.locfileid: "74791984"
    ![データ ソースのプロバイダー](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
 5. プロバイダーを、「[Power BI データ ソース](power-bi-data-sources.md)」に含まれるサポートされているデータ ソースの一覧と比較します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [データ更新](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)  
+[オンプレミス データ ゲートウェイ](service-gateway-onprem.md)  
 [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

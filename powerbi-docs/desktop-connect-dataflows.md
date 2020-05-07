@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f1d782aa7409dce43d960956406e996cc7951a57
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876471"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Power BI Desktop で Power BI データフローによって作成されたデータに接続する (ベータ版)
@@ -28,7 +28,7 @@ ms.locfileid: "73876471"
 このベータ版の **Power BI データフロー コネクタ**を使用するには、最新バージョンの **Power BI Desktop** を実行している必要があります。 最新バージョンを確保するために、いつでも [Power BI Desktop をダウンロード](desktop-get-the-desktop.md)し、コンピューターにインストールできます。  
 
 > [!NOTE]
-> 以前のバージョンの Power BI データフロー コネクタでは、.MEZ ファイルをダウンロードしてフォルダーに配置する必要がありました。 現在のバージョンの **Power BI Desktop** には Power BI データフロー コネクタが含まれているため、このファイルは不要であり、付属のバージョンのコネクタとの競合の原因になる可能性があります。 この .MEZ ファイルをフォルダーに手動で配置した場合は、ダウンロードした .MEZ ファイルを **Documents > Power BI Desktop > カスタム コネクタ** フォルダーから削除して、競合を回避する "*必要があります*"。 
+> 以前のバージョンの Power BI データフロー コネクタでは、.MEZ ファイルをダウンロードしてフォルダーに配置する必要がありました。 現在のバージョンの **Power BI Desktop** には Power BI データフロー コネクタが含まれているため、このファイルは不要であり、付属のバージョンのコネクタとの競合の原因になる可能性があります。 この .MEZ ファイルをフォルダーに手動で配置した場合は、ダウンロードした .MEZ ファイルを *Documents > Power BI Desktop > カスタム コネクタ* フォルダーから削除して、競合を回避する "**必要があります**"。 
 
 ## <a name="desktop-performance"></a>デスクトップのパフォーマンス
 **Power BI Desktop** は、インストールされているコンピューター上でローカルに実行します。 データフローのインジェストのパフォーマンスは、さまざまな要因によって決まります。 これらの要因には、データのサイズ、コンピューターの CPU と RAM、ネットワーク帯域幅、データ センターからの距離などが含まれます。
@@ -40,17 +40,17 @@ ms.locfileid: "73876471"
 ほとんどのデータフローは、Power BI サービスのテナント内にあります。 ただし、**Power BI Desktop** の顧客は、データフローの所有者である場合か、データフローの CDM フォルダーに対して明示的に承認済みになっている場合を除いて、Azure Data Lake Storage Gen2 アカウント内に保管されているデータフローにはアクセスできません。 次の状況を検討します。
 
 1.  Anna は新しいワークスペースを作成して、組織内の Data Lake にデータフローを格納するように構成しました。
-2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得することを考えています。
+2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得したいと考えています。
 3.  Ben は Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されていないため、エラーを受け取ります。
 
     ![データフローの使用を試行した際のエラー](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-この問題を解決するには、ベンに CDM フォルダーとその中のファイルに対する閲覧者のアクセス許可を付与する必要があります。 CDM フォルダーへのアクセス権を付与する方法について詳しくは、[こちらの記事](https://go.microsoft.com/fwlink/?linkid=2029121)をご覧ください。
+この問題を解決するには、ベンに CDM フォルダーとその中のファイルに対する閲覧者のアクセス許可を付与する必要があります。 CDM フォルダーへのアクセス権を付与する方法については、[こちらの記事](https://go.microsoft.com/fwlink/?linkid=2029121)を参照してください。
 
 
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 Power BI データフローを使用して、さまざまな目的の処理を実行できます。 詳細については、次のリソースをご覧ください。
 
 * [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
@@ -63,7 +63,7 @@ Azure Data Lake Storage Gen2 との統合について詳しくは、次の記事
 
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
 * [ワークスペース データ フローの設定の構成 (プレビュー)](service-dataflows-configure-workspace-storage-settings.md)
-* [データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)](service-dataflows-add-cdm-folder.md)
+* [データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)](service-dataflows-add-cdm-folder.md)
 * [データ フロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 **Power BI Desktop** に関する以下の記事が役立つ場合もあります。

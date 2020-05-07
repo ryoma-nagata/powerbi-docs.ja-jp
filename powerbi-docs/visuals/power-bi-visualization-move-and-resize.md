@@ -10,10 +10,10 @@ ms.date: 10/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73880788"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>レポートで視覚化を移動およびサイズ変更する
@@ -36,7 +36,7 @@ Power BI Desktop の場合は、少なくとも 1 つのビジュアルを含む
 * 視覚化をポイントし、フォーカス モード アイコンを選びます。
   ![フォーカス モード アイコン](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [ダッシュボード上の視覚化をサイズ変更する](../service-dashboard-edit-tile.md)  
 
 [フォーカス モード](../consumer/end-user-focus.md)

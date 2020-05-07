@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
 ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873957"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Report Server のアップグレード
@@ -38,7 +38,7 @@ Power BI Report Server および Power BI Report Server 向けに最適化され
 
 * **reportserver** データベースのバックアップには完全復旧モデルを使用します。
 * **reportservertempdb** データベースのバックアップには単純復旧モデルを使用します。
-* 各データベースには別のバックアップ スケジュールを使用することができます。 **reportservertempdb** は、ハードウェア障害が発生した場合にそれを再作成することを防ぐためのみ、バックアップします。 ハードウェア障害が発生した場合、**reportservertempdb** 内のデータを復元する必要はありませんが、テーブル構造は必要です。 **reportservertempdb** を失った場合、レポート サーバー データベースを再作成してのみそれを復元できます。 **reportservertempdb** を再作成する場合、プライマリ レポート サーバー データベースと同じ名前にすることが重要です。
+* 各データベースには別のバックアップ スケジュールを使用することができます。 **reportservertempdb** をバックアップする唯一の理由は、ハードウェア障害が発生した場合にこのデータベースの再作成を回避することです。 ハードウェア障害が発生した場合、**reportservertempdb** 内のデータを復元する必要はありませんが、テーブル構造は必要です。 **reportservertempdb** を失った場合、レポート サーバー データベースを再作成してのみそれを復元できます。 **reportservertempdb** を再作成する場合、プライマリ レポート サーバー データベースと同じ名前にすることが重要です。
 
 SQL Server リレーショナル データベースのバックアップと復旧の詳細については、「[SQL Server データベースのバックアップと復元](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases)」を参照してください。
 
@@ -76,7 +76,7 @@ Power BI Report Server のアップグレードは簡単です。 ファイル�
 
 レポート サーバーをアップグレードしたら、そのサーバーに一致する、Power BI Power BI Report Server に最適化された Power BI Desktop のバージョンに、すべての Power BI のレポート作成者がアップグレードしたかどうかを確認する必要があります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [管理者の概要](admin-handbook-overview.md)  
 * [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860219"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>管理の概要、Power BI Report Server
@@ -25,7 +25,7 @@ Power BI Report Server の使用を開始するには、インストールする
 
 Power BI Report Server のインストール、アップグレードまたは移行を開始する前に、レポート サーバーの[システム要件](system-requirements.md)をご覧ください。
 
-### <a name="installing"></a>インストール中
+### <a name="installing"></a>インストール
 新しい Power BI レポート サーバーを展開する場合は、次のドキュメントが役立ちます。 
 
 [Power BI レポート サーバーのインストール](install-report-server.md)
@@ -43,7 +43,7 @@ SQL Server Reporting Services のインプレース アップグレードはあ�
 ## <a name="security"></a>セキュリティ
 セキュリティと保護は、すべての組織にとって重要です。 認証、承認、役割およびアクセス許可については、[セキュリティ](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)に関するドキュメントで学習することができます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート サーバーのプロダクト キーを検索する](find-product-key.md)  
 [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  

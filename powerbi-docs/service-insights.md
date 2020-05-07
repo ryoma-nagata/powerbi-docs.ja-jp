@@ -12,10 +12,10 @@ ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872246"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI を使用してデータ インサイトを自動的に生成する
@@ -39,7 +39,7 @@ Amanda がクイック インサイトをデータセットに対して実行し
 
 1. **[データセット]** タブから**その他のオプション** (...) を選び、 **[クイック分析情報を取得する]** を選びます。
    
-    ![データセット タブ](media/service-insights/power-bi-ellipses.png)
+    ![[データセット] タブ](media/service-insights/power-bi-ellipses.png)
    
     ![省略記号メニュー](media/service-insights/power-bi-tab.png)
 2. Power BI は[さまざまなアルゴリズム](service-insight-types.md)を使用して、データセット内の傾向を検索します。
@@ -91,7 +91,7 @@ Amanda がクイック インサイトをデータセットに対して実行し
 3. 興味をそそる情報がありましたか? 詳細に確認するには、その分析情報カードを選択します。 選択した分析情報が左側に表示され、右側には、その単一の分析情報に含まれるデータのみに基づく新しい分析情報カードが表示されます。    
 4. 引き続きデータを掘り下げ、興味がある情報が見つかったら、右上隅から **[ビジュアルをピン留めする]** を選んで、それをダッシュボードにピン留めします。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 - データセットを所有している場合は、[クイック分析情報用に最適化します](service-insights-optimize.md)。
 - 使用できるクイック分析情報の種類については[こちら](service-insight-types.md)を参照してください。
 

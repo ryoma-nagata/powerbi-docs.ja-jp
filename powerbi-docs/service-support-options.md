@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
 ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74696535"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro と Power BI Premium のサポート オプション
@@ -23,9 +23,9 @@ ms.locfileid: "74696535"
 | --- | --- | --- | --- | --- | --- |
 | **コミュニティ サポート**: Power BI の専門家と Microsoft の従業員のグローバル コミュニティによって提供される回答を含む、ピアツーピアのサポート、ガイダンス、ベスト プラクティスをユーザーが取得できる Web フォーラム。 | X |   |   | なし。エンゲージメントはベストエフォート方式で提供されます。 | [Power BI コミュニティ](https://community.powerbi.com) |
 | **Power BI Pro エンド ユーザー サポート**: Power BI のコンテンツを作成および使用しているエンド ユーザー向けの基本的なテクニカル サポート。 | X |   |   | 1 営業日。 | [Power BI サポート サイト](https://support.powerbi.com)  |
-| **Power BI Premium 管理サポート**: Power BI Premium 容量を展開および操作している管理者向けのテクニカル サポート。 | X |   |   | ケースの重要度に応じて、1 営業日または 1 時間。\* | [Power BI サポート サイト](https://support.powerbi.com)<br>または<br>[Microsoft 365 管理センター](https://portal.office.com/adminportal)<br>または<br> スマートフォン |
-| **Power BI 管理サポート**: 組織で Power BI 展開の管理者向けのテクニカルと課金のサポート。  このオプションを使用するには、Azure Active Directory の会社の管理者、Office 365 のグローバル管理者、Office 365 のサービス管理者、または Power BI のサービス管理者である必要があります。 | X | X |   | ケースの重要度に応じて、1 営業日または 1 時間。\* | [Microsoft 365 管理センター](https://portal.office.com/adminportal)<br>または<br> スマートフォン |
-| **Microsoft Premier サポート**: アカウント管理、オンサイト サポート向けのオプション、トレーニングとデータ モデル パフォーマンスの最適化などのプロアクティブ サービスを含む、エンタープライズ級のサポート手法。 | X | X | X | オファリングとケースの重要度に応じて、各種。\* | テクニカル アカウント マネージャー <br>または<br> [Microsoft 365 管理センター](https://portal.office.com/adminportal) |
+| **Power BI Premium 管理サポート**: Power BI Premium 容量を展開および操作している管理者向けのテクニカル サポート。 | X |   |   | ケースの重要度に応じて、1 営業日または 1 時間。\* | [Power BI サポート サイト](https://support.powerbi.com)<br>OR<br>[Microsoft 365 管理センター](https://portal.office.com/adminportal)<br>OR<br> スマートフォン |
+| **Power BI 管理サポート**: 組織で Power BI 展開の管理者向けのテクニカルと課金のサポート。  このオプションを使用するには、Azure Active Directory の会社の管理者、Office 365 のグローバル管理者、Office 365 のサービス管理者、または Power BI のサービス管理者である必要があります。 | X | X |   | ケースの重要度に応じて、1 営業日または 1 時間。\* | [Microsoft 365 管理センター](https://portal.office.com/adminportal)<br>OR<br> スマートフォン |
+| **Microsoft Premier サポート**: アカウント管理、オンサイト サポート向けのオプション、トレーニングとデータ モデル パフォーマンスの最適化などのプロアクティブ サービスを含む、エンタープライズ級のサポート手法。 | X | X | X | オファリングとケースの重要度に応じて、各種。\* | テクニカル アカウント マネージャー <br>OR<br> [Microsoft 365 管理センター](https://portal.office.com/adminportal) |
 | | | | | | |
 
 \*1 時間の SLA は_重大度 A のケース_のみに利用できます。これは、既存の生産レポートで作業の中断によりビジネスへの直接的な影響があり、即時の正当性の理由が必要なケースです。

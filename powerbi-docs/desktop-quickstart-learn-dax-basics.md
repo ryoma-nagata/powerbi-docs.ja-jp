@@ -10,10 +10,10 @@ ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760637"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>Power BI Desktop で DAX の基本事項を適用する
@@ -113,7 +113,7 @@ DAX 式を解釈するときは、式の各要素を分割し、日常会話の�
     
    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
     
-10. 数式バーのチェックマーク ![チェックマーク アイコン](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) をクリックするか、Enter キーを押して、数式を検証し、それをモデルに追加します。
+10. 数式バーのチェックマーク  ![チェックマーク アイコン](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png)  をクリックするか、Enter キーを押して、数式を検証し、それをモデルに追加します。
 
 これで完成です。 DAX を使用して、複雑なメジャーを 1 つ作成できました。 この式で実行する内容は、レポートに適用するフィルターに応じて、前の四半期の売上合計を計算することです。 たとえば、"SalesAmount" と、新しい "Previous Quarter Sales" メジャーをグラフに配置し、スライサーとして "Year" と "QuarterOfYear" を追加すると、次のようになります。
 

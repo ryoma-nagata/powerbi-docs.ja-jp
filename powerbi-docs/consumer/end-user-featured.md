@@ -10,10 +10,10 @@ ms.date: 03/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4e9bd94a044d88c4f0a767738d07b97ddc989f7e
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82065618"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI サービスのおすすめのダッシュボード
@@ -59,7 +59,7 @@ ms.locfileid: "82065618"
 
     ![おすすめのダッシュボードをオフにする操作を選択](./media/end-user-featured/power-bi-unfeature.png)
    
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 - [ダッシュボードをお気に入りにする](end-user-favorite.md)    
 - 他にわからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)を利用してください。
 

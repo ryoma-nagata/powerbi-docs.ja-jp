@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 3f825c3c7247cba41d574dccde2fc5eda49e70a2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876428"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Power BI Desktop で OData フィードに接続する
@@ -38,7 +38,7 @@ Power BI Desktop にデータをインポートする前に、 **[編集]** ボ�
 
 ![](media/desktop-connect-odata/connect-to-odata_4.png)
 
-完了すると、Power BI Desktop の *[レポート]* ビューの右側の **[フィールド]** ウィンドウで、選択したテーブルと他のデータ要素が使用できるようになります。
+完了すると、Power BI Desktop の **[レポート]** ビューの右側の *[フィールド]* ウィンドウで、選択したテーブルと他のデータ要素が使用できるようになります。
 
 ![](media/desktop-connect-odata/connect-to-odata_5.png)
 
@@ -46,7 +46,7 @@ Power BI Desktop にデータをインポートする前に、 **[編集]** ボ�
 
 Power BI Desktop で OData フィードからインポートしたデータを使用して、表示やレポートを作成したり、他の Excel ブック、データベース、他のデータ ソースなどの他のデータに接続してインポートしたりできます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)

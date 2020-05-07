@@ -7,10 +7,10 @@ metadata:
   ms.author: davidiseminger
   ms.date: 09/20/2019
   ms.openlocfilehash: bd094c8a4568c7fb05ca49996fb0c8f409c668d3
-  ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 01/06/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "74178331"
 title: Microsoft Power BI のガイド付き学習
 summary: この順番に並んだ一連のコースを使って、Microsoft Power BI についての学習をはじめ、その幅広い強力な機能を理解しましょう。
@@ -23,13 +23,13 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/1-why-power-bi
     - text: Power BI サービスでコンテンツを表示する - 10 分
       url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/2-find-content
-    - text: Power BI のダッシュボード、レポート、アプリについて調べる - 15 分
+    - text: Power BI のダッシュボード、レポート、アプリを探索する - 15 分
       url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/3-navigate-content
     - text: Power BI で共同作業し、共有する - 15 分
       url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/4-collaborate-and-share
-    - text: ダッシュボードとレポートを検索して表示する - 7 分
+    - text: ダッシュボードとレポートの検索と表示 - 7 分
       url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/5-lab-1
-- title: Power BI を使用してデータを分析する
+- title: Power BI を使用したデータ分析
   linkLists:
   - linkListType: learn
     links:
@@ -37,7 +37,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/1-filtering-data
     - text: データを表示する - 5 分
       url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/2-exploring-with-numbers
-    - text: データに関して質問する - 5 分
+    - text: データに関する質問 - 5 分
       url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/3-asking-questions-data
     - text: レポートにフィルターを適用する - 25 分
       url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/4-lab-2
@@ -45,7 +45,7 @@ landingContent:
   linkLists:
   - linkListType: learn
     links:
-    - text: はじめに - 6 分
+    - text: 概要 - 6 分
       url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/1-introduction
     - text: Power BI を使用する - 2 分
       url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/2-using-power-bi
@@ -89,23 +89,23 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables
     - text: 時間ベースのデータを探索する - 5 分
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/6-explore-time-based-data
-- title: Power BI で視覚エフェクトを使用する
+- title: Power BI でビジュアルを使用する
   linkLists:
   - linkListType: learn
     links:
-    - text: Power BI の視覚エフェクトの概要 - 3 分
+    - text: Power BI のビジュアルの概要 - 3 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/1-intro-visuals
-    - text: シンプルな視覚エフェクトの作成とカスタマイズ - 9 分
+    - text: 単純な視覚エフェクトの作成とカスタマイズ - 9 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/2-create-simple-visuals
     - text: スライサーを作成する - 9 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/4-create-slicers
-    - text: 視覚エフェクトをマップする - 5 分
+    - text: 視覚エフェクトのマップ - 5 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/5-map-visualizations
     - text: マトリックスとテーブル - 8 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/6-create-matrixes-tables
     - text: 散布図、ウォーターフォール図、じょうごグラフを作成する - 9 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/7-create-scatter-charts
-    - text: グラフと視覚エフェクトの色を変更する - 6 分
+    - text: グラフとビジュアルの色を変更する - 6 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/10-modify-colors
     - text: ページ レイアウトと書式設定 - 12 分
       url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/12-formatting
@@ -113,23 +113,23 @@ landingContent:
   linkLists:
   - linkListType: learn
     links:
-    - text: Power BI サービスについて - 6 分
+    - text: Power BI サービスの概要 - 6 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/1-introduction-power-bi-service
     - text: Power BI のクイック分析情報 - 7 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/2-quick-insights
-    - text: ダッシュボードを作成して構成する - 5 分
+    - text: ダッシュボードの作成と構成 - 5 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/3-create-configure-dashboard
-    - text: 自然言語でデータについて質問する - 5 分
+    - text: 自然言語を使用してデータに関する質問をする - 5 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/4-ask-questions
-    - text: カスタムの Q&A 候補を作成する - 4 分
+    - text: カスタム Q&A 候補を作成する - 4 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/5-custom-qa
     - text: ダッシュボードを組織で共有する - 5 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/6-share-dashboards
-    - text: 視覚エフェクトとタイルを全画面で表示する - 3 分
+    - text: ビジュアルとタイルを全画面で表示する - 3 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/7-display-full-screen
-    - text: タイルの詳細を編集し、ウィジェットを追加する - 5 分
+    - text: タイルの詳細を編集してウィジェットを追加する - 5 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/8-edit-tile-details
-    - text: ダッシュボード上の領域を増やす - 3 分
+    - text: ダッシュボードに空きスペースを作る - 3 分
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/9-get-more-space-on-dashboard
 - title: Power BI で発行および共有する
   linkLists:
@@ -139,9 +139,9 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/1-introduction-content-packs
     - text: Power BI Desktop レポートを発行する - 6 分
       url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/2-publish-reports
-    - text: ダッシュボードやレポートを印刷およびエクスポートする - 7 分
+    - text: ダッシュボードやレポートの印刷とエクスポート - 7 分
       url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/3-print-export-reports
-    - text: Power BI Mobile の概要 - 5 分
+    - text: Power BI Mobile の紹介 - 5 分
       url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/5-power-bi-mobile
     - text: Power BI でワークスペースを作成する - 6 分
       url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/6-create-groups

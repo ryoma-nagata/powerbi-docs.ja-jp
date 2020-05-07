@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874241"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI レポートを使用するために Kerberos を構成する
@@ -134,10 +134,10 @@ Analysis Services の場合は、MSOLAPSvc.3 のサービスを使います。 S
 
 Analysis Services の SPN の例は次のようになります。
 
-| タイプ | 書式 |
+| 種類 | 形式 |
 | --- | --- |
 | 既定のインスタンス |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
-| 名前付きインスタンス |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
+| [名前付きインスタンス] |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
 
 SPN の配置も、Power BI レポート サーバーの場合と似ています。 サービス アカウントに基づきます。  ローカル システムまたはネットワーク サービスを使っている場合は、コンピューター アカウントのコンテキストになります。 Analysis Services インスタンスのドメイン ユーザー アカウントを使っている場合は、ドメイン ユーザー アカウントに SPN を配置します。
 
@@ -189,7 +189,7 @@ SetSPN ツールを使って SPN を追加できます。 この例では、コ�
 1. レポート サーバー サービス アカウントを右クリックし、 **[プロパティ]** を選択します。
 2. **[委任]** タブを選びます。
 3. **[指定されたサービスへの委任でのみこのコンピューターを信頼する]** をオンにします。
-4. **[任意の認証プロトコルを使う]** をオンにします。
+4. **[任意の認証プロトコルを使う]** を選択します。
 5. **[このアカウントが委任された資格情報を提示できるサービス]** で **[追加]** を選択します。
 6. 新しいダイアログで、 **[ユーザーまたはコンピューター]** を選択します。
 7. Analysis Services サービスのサービス アカウントを入力し、 **[OK]** を選択します。
@@ -213,7 +213,7 @@ SetSPN ツールを使って SPN を追加できます。 この例では、コ�
 
 この構成は Kerberos を使用するほとんどの場合に動作しますが、環境によっては構成が異なる場合があります。 レポートがまだ読み込まれない場合は、ドメイン管理者に連絡してさらに詳しく調査するか、サポートにお問い合わせください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 

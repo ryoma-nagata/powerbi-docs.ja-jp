@@ -10,10 +10,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877396"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>優れた Power BI ダッシュボードのデザインに関するヒント
@@ -79,7 +79,7 @@ ms.locfileid: "73877396"
 * *Envisioning Information* Edward Tufte 著  
 * *Advanced Presentations* by Design Andrew Abela 著   
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [レポートからダッシュボードを作成する](service-dashboard-create.md)  
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

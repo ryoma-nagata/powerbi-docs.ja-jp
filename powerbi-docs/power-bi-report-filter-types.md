@@ -10,10 +10,10 @@ ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c96b4ebae574a3b6a6fa54c5f5dc99b5bc948a90
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874425"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Power BI レポート内のフィルターの種類
@@ -76,7 +76,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 この表では、作成者がさまざまな種類のフィルターを使って行える操作を比較します。
 
-| フィルターの種類 | 編集 | クリア | 削除 | 非表示 | ロック | 並べ替え | 名前の変更 |
+| フィルターの種類 | [編集] | Clear | 削除 | 非表示 | ロック | 並べ替え | 名前の変更 |
 |----|----|----|----|----|----|----|----|
 | 手動フィルター | Y | Y | Y | Y | Y | Y | Y |
 | 自動フィルター | Y | Y | N | Y | Y | Y | Y |
@@ -90,7 +90,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [フィルターをレポートに追加する](power-bi-report-add-filter.md)
 

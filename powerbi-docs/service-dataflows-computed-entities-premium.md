@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a655c55520d76bfaeb51318d09244ea663ccc192
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872652"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Power BI Premium での計算されたエンティティの使用
@@ -87,7 +87,7 @@ Common Data Model (CDM) フォルダーから作成されたデータフロー�
 * [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
 * [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 * [ワークスペース データ フローの設定の構成 (プレビュー)](service-dataflows-configure-workspace-storage-settings.md)
-* [データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)](service-dataflows-add-cdm-folder.md)
+* [データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)](service-dataflows-add-cdm-folder.md)
 * [データ フロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Power Query とスケジュールされた更新について詳しくは、次の記事をご覧ください。

@@ -1,6 +1,6 @@
 ---
-title: Power BI のウォーターフォール図
-description: Power BI のウォーターフォール図
+title: Power BI でのウォーターフォール図
+description: Power BI でのウォーターフォール図
 author: mihart
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
@@ -11,19 +11,19 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74907666"
 ---
-# <a name="waterfall-charts-in-power-bi"></a>Power BI のウォーターフォール図
+# <a name="waterfall-charts-in-power-bi"></a>Power BI でのウォーターフォール図
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 ウォーターフォール図は、Power BI で値が加算または減算されるときの累計を示します。 一連の加算と減算の変化によって、初期値 (純利益など) が、どのように影響を受けるかを理解するために役立ちます。
 
-各縦棒が色分けされるため、ひと目で増減を識別できます。 最初と最後の値の縦棒は、通常は[横軸を起点](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "横軸を起点とする")としますが、中間値の縦棒は浮動縦棒です。 この形式から、ウォーターフォール図はブリッジ図と呼ばれることもあります。
+各縦棒が色分けされるため、ひと目で増減を識別できます。 最初と最後の値の縦棒は、通常[横軸を起点としますが](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "横軸を起点とする")、中間値の縦棒は浮動縦棒です。 この形式から、ウォーターフォール図はブリッジ図と呼ばれることもあります。
 
    > [!NOTE]
    > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
@@ -42,7 +42,7 @@ ms.locfileid: "74907666"
 
 * 収益のさまざまな要因を示すことによって、会社の年間利益をプロットして、総利益 (または損) に到達するよう表示する場合。
 
-* 会社のある年の年始と年末の社員数をグラフに示す場合。
+* 1 年間を通して会社の社員数の移り変わりを示す場合
 
 * 毎月の収入と支出、および口座の現在の残高を視覚化する場合。
 
@@ -56,7 +56,7 @@ ms.locfileid: "74907666"
 
 1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
 
-1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+1. Select ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
 
 ## <a name="create-a-waterfall-chart"></a>ウォーターフォール図の作成
@@ -73,7 +73,7 @@ ms.locfileid: "74907666"
 
     ![視覚エフェクトのテンプレート](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. **[Time]**  >  **[FiscalMonth]** を選択して、 **[カテゴリ]** に追加します。
+1. **[時刻]**  >  **[FiscalMonth]** を選択して、[Total Sales Variance] を **[カテゴリ]** に追加します。
 
     ![ウォーターフォール](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
@@ -115,7 +115,7 @@ ms.locfileid: "74907666"
 
     ![ウォーターフォール グラフ](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [Power BI レポート内でのビジュアルの相互作用を変更する](../service-reports-visual-interactions.md)
 

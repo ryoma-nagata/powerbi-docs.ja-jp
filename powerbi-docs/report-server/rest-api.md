@@ -9,17 +9,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874074"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Report Server 用の REST API を使って開発する
 
 Power BI Report Server は、Representational State Transfer (REST) API をサポートします。 REST API は、一連の HTTP 操作 (メソッド) をサポートするサービス エンドポイントであり、レポート サーバー内のリソースに対する作成、取得、更新、削除アクセスを提供します。
 
-REST API を使うと、Power BI Report Server カタログ内のオブジェクトにプログラムでアクセスできます。 オブジェクトの例としては、フォルダー、レポート、KPI、データ ソース、データセット、更新計画、サブスクリプションなどがあります。 REST API を使うと、たとえば、フォルダー階層内の移動、フォルダーの内容の検出、レポート定義のダウンロードなどを行うことができます。 オブジェクトを作成、更新、削除することもできます。 オブジェクトの操作の例は、レポートのアップロード、更新計画の実行、フォルダーの削除などです。
+REST API を使うと、Power BI Report Server カタログ内のオブジェクトにプログラムでアクセスできます。 オブジェクトの例としては、フォルダー、レポート、KPI、データ ソース、データセット、更新計画、サブスクリプションなどがあります。 REST API を使うと、たとえば、フォルダー階層内の移動、フォルダーの内容の検出、レポート定義のダウンロードなどを行うことができます。 また、オブジェクトの作成、更新、および削除を行うこともできます。 オブジェクトの操作の例は、レポートのアップロード、更新計画の実行、フォルダーの削除などです。
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
@@ -29,13 +29,13 @@ REST API の要求/応答ペアは、5 つのコンポーネントに分ける�
 
 * **要求 URI**。`{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}` で構成されます。 要求 URI は要求メッセージ ヘッダーに含まれていますが、ほとんどの言語やフレームワークでは要求メッセージとは別に渡す必要があるため、ここでは独立した項目にしてあります。
   
-  * URI スキーム:要求の送信に使われるプロトコルを示します。 たとえば、`http` や `https` などです。
-  * URI ホスト:REST サービス エンドポイントがホストされているサーバーのドメイン名または IP アドレスを指定します。たとえば、`myserver.contoso.com` などです。
-  * リソース パス:リソースまたはリソース コレクションを指定します。リソースの選択を決定するときにサービスによって使われる複数のセグメントを含むことができます。 たとえば、`CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` を使って、CatalogItem の指定したプロパティを取得できます。
-  * クエリ文字列 (省略可能):API のバージョンやリソースの選択条件など、簡単な追加パラメーターを提供します。
+  * URI スキーム: 要求の送信に使われるプロトコルを示します。 たとえば、`http` や `https` などです。
+  * URI ホスト: REST サービス エンドポイントがホストされているサーバーのドメイン名または IP アドレスを指定します。たとえば、`myserver.contoso.com` などです。
+  * リソース パス: リソースまたはリソース コレクションを指定します。リソースの選択を決定するときにサービスによって使われる複数のセグメントを含むことができます。 たとえば、`CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` を使って、CatalogItem の指定したプロパティを取得できます。
+  * クエリ文字列 (省略可能): API のバージョンやリソースの選択条件など、簡単な追加パラメーターを提供します。
 * HTTP 要求メッセージ ヘッダーのフィールド:
   
-  * 必須の [HTTP メソッド](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) (操作または動詞とも呼ばれます)。要求する操作の種類をサービスに通知します。 Reporting Services REST API は、DELETE、GET、HEAD、PUT、POST、PATCH の各メソッドをサポートします。
+  * 必須の [HTTP メソッド](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) (操作または動詞とも呼ばれます)。要求する操作の種類をサービスに通知します。 Reporting Services REST API では、DELETE、GET、HEAD、PUT、POST、および PATCH の各メソッドがサポートされます。
   * 省略可能な追加ヘッダー フィールド。指定されている URI および HTTP メソッドで必要な場合があります。
 * 省略可能な HTTP **要求メッセージ本文**のフィールド。URI および HTTP 操作をサポートするためのフィールドです。 たとえば、POST 操作には、複雑なパラメーターとして渡される、MIME でエンコードされたオブジェクトが含まれます。 POST または PUT 操作の場合、本文の MIME エンコードの種類を、`Content-type` 要求ヘッダーでも指定する必要があります。 一部のサービスでは、`application/json` などの特定の MIME の種類を使う必要があります。
 * HTTP **応答メッセージ ヘッダー**のフィールド:
@@ -54,9 +54,9 @@ REST API の要求/応答ペアは、5 つのコンポーネントに分ける�
 
 HTTP 要求/応答メッセージをテストするためのツールは [Fiddler](https://www.telerik.com/fiddler) です。 Fiddler は、REST 要求をインターセプトできる無料の Web デバッグ プロキシであり、HTTP 要求/応答メッセージの診断が容易になります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
-[SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0) で利用可能な API を確認してください。
+[SwaggerHub](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0) で利用可能な API を確認します。
 
 サンプルは [GitHub](https://github.com/Microsoft/Reporting-Services) で入手できます。 このサンプルには、TypeScript、React、webpack で構築された HTML5 アプリと、PowerShell の例が含まれます。
 
