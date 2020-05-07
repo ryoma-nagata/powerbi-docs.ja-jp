@@ -10,10 +10,10 @@ ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565641"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Power BI Desktop で LinkedIn Sales Navigator に接続する
@@ -79,7 +79,7 @@ PBIX ファイルに加えて、LinkedIn Sales Navigator には、ダウンロ�
 
 このテンプレート アプリには、情報の分析と共有に役立つ 4 つのタブが用意されています。
 
-* Usage
+* 使用法
 * 検索
 * InMail
 * SSI
@@ -106,7 +106,7 @@ PBIX ファイルに加えて、LinkedIn Sales Navigator には、ダウンロ�
 
 そこから自分のデータを接続し、読み込むデータの日数を選択できます。 最大 365 日分のデータを読み込むことができます。 サインインする必要があります。ここでも、Web サイトから LinkedIn Sales Navigator にサインインするために使用するのと同じ電子メール アドレスを使用します。 
 
-![サインイン](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
+![Sign in](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
 
 テンプレート アプリで、アプリ内のデータが自分のデータに更新されます。 スケジュールされた更新を設定することもできるため、アプリ内のデータは、更新頻度によって指定された最新の状態になります。 
 
@@ -116,7 +116,7 @@ PBIX ファイルに加えて、LinkedIn Sales Navigator には、ダウンロ�
 
 ご利用のデータに接続する際に問題が発生した場合は、LinkedIn Sales Navigator サポート (https://www.linkedin.com/help/sales-navigator ) にご連絡ください。 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)

@@ -10,10 +10,10 @@ ms.date: 12/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c79a8ddd68fa64b0a16663500a3f02e9a991835b
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75730524"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>テーブルでの条件付き書式の使用 
@@ -173,7 +173,7 @@ Web サイト URL が含まれる列またはメジャーがある場合は、�
 - データに *NaN* 値が含まれている場合は、自動最大値/最小値、または割合ルールを使用したルールベースの書式設定を使用してグラデーションの書式設定を適用することはできません。 NaN は "Not a number" (数値ではない) を意味し、通常は、ゼロ除算エラーで発生します。 このようなエラーを回避するには、[DIVIDE() DAX 関数](https://docs.microsoft.com/dax/divide-function-dax)を使用できます。
 - 条件付き書式を使用するには、集計またはメジャーを値に適用する必要があります。 そのため、 **[値によって色分け]** の例に "第 1" または "最後" が表示されます。 Analysis Services 多次元キューブに対してレポートを作成する場合、キューブ所有者が値を提供するメジャーを構築していない限り、条件付き書式の属性を使用することはできません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 色の書式設定の詳細については、「[Power BI における色の書式設定に関するヒントとコツ](visuals/service-tips-and-tricks-for-color-formatting.md)」をご覧ください  
 

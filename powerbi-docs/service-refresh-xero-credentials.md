@@ -10,10 +10,10 @@ ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871656"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>更新が失敗した場合に Xero コンテンツ パックの資格情報を更新する方法
@@ -48,6 +48,6 @@ Xero Power BI コンテンツ パックを使用している場合は、最近�
 
 Power BI 用 Xero コンテンツ パックの詳細については、[Xero コンテンツ パックのヘルプ ページ](service-connect-to-xero.md)を参照してください。
 
-### <a name="next-steps"></a>次の手順
+### <a name="next-steps"></a>次のステップ
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

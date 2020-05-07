@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637921"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium で容量を構成および管理する
@@ -56,7 +56,7 @@ Office 365 で容量ノードを購入したら、Power BI 管理ポータルで
 
     ![利用可能な Premium 容量のサイズ](media/service-admin-premium-manage/premium-capacity-size.png)
 
-1. **[セットアップ]** を選択します。
+1. **[Set up]\(セットアップ\)** を選択します。
 
     ![新しい容量の設定](media/service-admin-premium-manage/set-up-capacity.png)
 
@@ -133,7 +133,7 @@ Power BI 管理者と Office 365 全体管理者は、Power BI Premium の容量
    | **組織全体のワークスペース** | 組織全体のワークスペースを Premium 容量に割り当てると、組織内のすべてのワークスペースとマイ ワークスペースがこの Premium 容量に割り当てられます。 さらに、現在および将来のすべてのユーザーに、この容量に再割り当てされた個々のワークスペースに対するアクセス許可が与えられます。 |
    | | |
 
-1. **[適用]** を選びます。
+1. **[適用]** を選択します。
 
 ### <a name="assign-from-workspace-settings"></a>ワークスペースの設定から割り当てる
 
@@ -165,7 +165,7 @@ Power BI 管理者ポータルの **[容量の設定]** タブでは、Power BI 
 
 詳細については、「[Power BI Report Server のインストール](report-server/install-report-server.md)」を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Premium 容量を管理する](service-premium-capacity-manage.md)
 

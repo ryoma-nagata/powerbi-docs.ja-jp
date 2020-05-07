@@ -9,17 +9,17 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: f47083c55bfaa3bc72340202ba82ada2df80fbae
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74834611"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service"></a>ページ分割されたレポートを Power BI サービスで表示する
 
 この記事では、ページ分割されたレポートを Power BI サービスに対して表示する方法について説明します。 ページ分割されたレポートは、レポート ビルダーで作成され、Premium 容量内のワークスペースにアップロードされるレポートです。 ワークスペース名の横にあるダイヤモンド形のアイコン ![Power BI Premium 容量のダイヤモンド形のアイコン](media/paginated-reports-view-power-bi-service/premium-diamond.png) を探します。 
 
-ページ分割されたレポートには固有のアイコンがあります。 ![ページ分割されたレポートのアイコン](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-icon.png).
+ページ分割されたレポートには固有のアイコンがあります。 ![ページ分割されたレポートのアイコン](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-icon.png)。
 
 次に示す複数の形式でページ分割されたレポートをエクスポートすることもできます。 
 
@@ -52,6 +52,6 @@ ms.locfileid: "74834611"
     ![エクスポート形式の選択](media/paginated-reports-view-power-bi-service/power-bi-paginated-export.png)
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI サービスでのページ分割されたレポート](end-user-paginated-report.md)

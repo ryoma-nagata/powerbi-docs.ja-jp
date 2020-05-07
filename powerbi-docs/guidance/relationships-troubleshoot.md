@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: e2854d82d858bb1963b691d32d561c7b3bbfc11a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263647"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>リレーションシップのトラブルシューティング ガイダンス
@@ -52,10 +52,10 @@ ms.locfileid: "78263647"
 |行レベルのセキュリティが正しく適用されていない|- リレーションシップがテーブル間で反映されていない。"_上記のチェックリストに従ってください_"<br />- 行レベルのセキュリティが適用されているが、双方向のリレーションシップの反映が有効になっていない。[Power BI Desktop での行レベルのセキュリティ (RLS)](../desktop-rls.md) に関する記事を参照|
 |||
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 この記事に関する詳細については、次のリソースを参照してください。
 
 - [Power BI Desktop でのモデル リレーションシップ](../desktop-relationships-understand.md)
-- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

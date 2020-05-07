@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859700"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>How to find your report server product key (レポート サーバーのプロダクト キーを検索する方法)
@@ -43,7 +43,7 @@ SQL Server Enterprise SA 契約がある場合は、[ボリューム ライセ�
 
 ![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  
 [レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  

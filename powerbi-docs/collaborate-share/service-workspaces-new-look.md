@@ -10,17 +10,17 @@ ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81638527"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>ワークスペースの "新しい外観" を選択する (プレビュー)
 
 ワークスペースには、Power BI サービスの[新しい外観](../service-new-look.md)と一致する新しい外観があります。 Power BI サービス (app.powerbi.com) を使用するユーザーなら、だれでも選択できます。 黒のヘッダー バーで **[新しい外観]** をオンにすると、レポートとワークスペースに対して新しい外観を選択できます。 クラシック ワークスペースと新しいワークスペースの両方ともすべて、新しい外観を活用できます。
 
-**Power BI Desktop** の新しい外観に関する情報をお探しですか? 「[Power BI Desktop で更新されたリボンを使用する](../desktop-ribbon.md)」を参照してください。
+**Power BI Desktop** の新しい外観に関する情報をお探しですか?  「[Power BI Desktop で更新されたリボンを使用する](../desktop-ribbon.md)」を参照してください。
 
 ## <a name="features-of-the-new-look"></a>新しい外観の機能
 

@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: db86fee2303759d30b2ff64dc59b56314f220474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867356"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Power BI Desktop でのインライン階層ラベルの使用
@@ -32,7 +32,7 @@ ms.locfileid: "73867356"
 > [!NOTE]
 > 代わりに、バーを右クリックして、視覚化の左上で *[展開]* ボタンを選択することもできます。
 
-  ![[展開] ボタン](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
+  ![展開ボタン](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
 
 
 いったん **[次のレベルに展開]** を選ぶと、次の図に示すように、ビジュアルで日付階層が *[年]* から *[四半期]* に展開されます。
@@ -46,7 +46,7 @@ ms.locfileid: "73867356"
 組み込みの*日付*階層は以上のように動作します。この階層は、*日付/時刻*データ型のフィールドに関連付けられています。 次のセクションに進み、新しいインライン階層ラベル機能の相違点を確認しましょう。
 
 ### <a name="using-inline-hierarchy-labels"></a>インライン階層ラベルの使用法
-次に、非公式な階層のあるデータを使用した、別のグラフを調べてみましょう。 次のビジュアルには、*ProductName* を軸として使用した **Quantity** (数量) の棒グラフが示されています。 このデータでは、*ProductName* と *ShipCountry* が非公式の階層を形成しています。 ここから、もう一度 *[次のレベルに展開]* を選んで階層をドリルダウンします。
+次に、非公式な階層のあるデータを使用した、別のグラフを調べてみましょう。 次のビジュアルには、**ProductName** を軸として使用した *Quantity* (数量) の棒グラフが示されています。 このデータでは、*ProductName* と *ShipCountry* が非公式の階層を形成しています。 ここから、もう一度 *[次のレベルに展開]* を選んで階層をドリルダウンします。
 
 ![非公式の階層を持つグラフ](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "73867356"
 1. **インライン階層ラベル**機能を有効にします。
 2. 階層のあるビジュアルを作成します。
 3. その後、 **[すべて展開]** してファイルを保存します。
-4. その後、**インライン階層ラベル**機能を*無効にして*、Power BI Desktop を再起動します。
+4. その後、*インライン階層ラベル*機能を**無効にして**、Power BI Desktop を再起動します。
 5. その後、ファイルを再び開きます。
 
 以上の手順を実行して、展開されたモードでビジュアルが固定されたら、以下の手順に従ってトラブルシューティングできます。

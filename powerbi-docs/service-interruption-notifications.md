@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: kfollis
 ms.openlocfilehash: 85b26b68c4943e0bc100be7a298730cec34cfc78
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637770"
 ---
 # <a name="service-interruption-notifications"></a>サービス中断の通知
@@ -51,7 +51,7 @@ Power BI テナント管理者は、管理ポータルで通知を有効にし�
 > [!NOTE]
 > Power BI では、アカウント no-reply-powerbi@microsoft.com から通知が送信されます。 通知は迷惑メール フォルダーに入らないように、確実にこのアカウントをホワイトリストに登録してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI Pro と Power BI Premium のサポート オプション](service-support-options.md)
 

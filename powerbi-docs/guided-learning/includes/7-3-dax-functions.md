@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799965"
 ---
 DAX では、データの整形、形成、あるいは分析に使用できる多くの関数が用意されています。 これらの関数は、次に示すいくつかのカテゴリに分類することができます。
@@ -52,8 +52,8 @@ DAX には、さまざまな**集計**関数があります。通常、次の関
 ## <a name="logical-functions"></a>論理関数
 DAX の**論理**関数には、次のものがあります。
 
-* AND
-* OR
+* および
+* または
 * NOT
 * IF
 * IFERROR
@@ -73,7 +73,7 @@ DAX の**情報** 関数には、次のものがあります。
 
 これらの関数は状況によっては便利な場合もありますが、データ型を指定するには、これらの関数に依存するのでなく、事前に列のデータ型を把握してくことが重要です。
 
-DAX では、値の*集計*と*比較*の両方に、**MAX** 関数と **MIN** 関数を使用します。
+DAX では、値の**集計**と**比較**の両方に、*MAX* 関数と *MIN* 関数を使用します。
 
 ## <a name="text-functions"></a>テキスト関数
 DAX の**テキスト**関数には、次のものがあります。

@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c277c21ffd3546307f9c38dfc06364324702986f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699385"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>オンプレミス データ ゲートウェイの詳細
@@ -67,7 +67,7 @@ ms.locfileid: "74699385"
 データソースに関する記事をご覧ください。
 
 [データ ソースの管理](service-gateway-data-sources.md)
- [データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
+[データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [データ ソースの管理 - SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [データ ソースの管理 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [データ ソースの管理 - Oracle](service-gateway-onprem-manage-oracle.md)  

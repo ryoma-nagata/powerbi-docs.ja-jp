@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
 ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874101"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) を利用し、Excel ブックをホストするようにレポート サーバーを構成する
@@ -181,7 +181,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 * ブックの閲覧のみが許可されます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  

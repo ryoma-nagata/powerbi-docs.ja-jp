@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c0dc3b9eeb7932ca0cb6784fd6a46857821d1b12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698120"
 ---
 # <a name="manage-your-data-source---sql-server"></a>データ ソースの管理 - SQL Server
@@ -73,7 +73,7 @@ Power BI Desktop とゲートウェイ用に構成されているデータ ソ�
 
 ![ユーザーの表示](media/service-gateway-enterprise-manage-sql/powerbi-gateway-enterprise-schedule-refresh.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [SQL Server でオンプレミス データに接続する](service-gateway-sql-tutorial.md)
 * [オンプレミス データ ゲートウェイのトラブルシューティング](/data-integration/gateway/service-gateway-tshoot)

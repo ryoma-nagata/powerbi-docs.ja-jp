@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74415281"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>クイック メジャーを使用して一般的な計算を実行する
@@ -60,13 +60,13 @@ Power BI Desktop でクイック メジャーを作成するには、 **[フィ�
   * カテゴリの合計 (フィルター適用)
   * カテゴリの合計 (フィルター非適用)
 * **数学演算**
-  * 加算
+  * 追加
   * 減算
   * 乗算
   * 除算
   * 差の割合
   * 相関係数
-* **テキスト**
+* **[Text (テキスト)]**
   * 星評価
   * 値の連結リスト
 
@@ -134,5 +134,5 @@ Power BI Desktop でクイック メジャーを作成するには、 **[フィ�
 タイム インテリジェンス クイック メジャーで独自の日付テーブルを使用できます。 外部の表形式モデルを使用している場合は、[タイムインテリジェンスで使用する目的で [日付テーブルとしてマーク] を指定する](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)方法に関するページで説明されているように、モデルを作成するときに、そのテーブルのプライマリ日付列が日付テーブルとしてマークされたことを確認します。 独自の日付テーブルをインポートしている場合は、「[Power BI Desktop で日付テーブルを設定し、使用する](desktop-date-tables.md)」で説明されているように、日付テーブルとしてマークします。
 
 ### <a name="additional-information-and-examples"></a>その他の情報と例
-まだ提供されていないクイック メジャーについてのアイデアがありますか。 成功しました。 [Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906) ページを見て、Power BI Desktop にあれば便利だと思うクイック メジャーに関するあなたのアイデアや DAX 数式を投稿してください。 Microsoft は、今後のリリースでクイック メジャー リストに追加するか検討します。
+まだ提供されていないクイック メジャーについてのアイデアがありますか。 それは素晴らしいことです。 [Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906) ページを見て、Power BI Desktop にあれば便利だと思うクイック メジャーに関するあなたのアイデアや DAX 数式を投稿してください。 Microsoft は、今後のリリースでクイック メジャー リストに追加するか検討します。
 

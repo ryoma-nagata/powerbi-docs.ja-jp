@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 46072ca4c21857476dea6308a891f261109a2388
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878048"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>Power BI Desktop ビジュアルでデータ要素を複数選択する
@@ -28,7 +28,7 @@ Power BI Desktop では、ビジュアルのデータ ポイントをクリッ�
 
 これは単純な機能のように思われますが、レポートを作成、共有、操作するとき、さまざまな可能性が生まれます。 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 次の記事にも興味をもたれるかもしれません。
 

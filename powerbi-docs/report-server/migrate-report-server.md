@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
 ms.openlocfilehash: bc3b196313266be64e7a63a66f33ef4020574d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73858896"
 ---
 # <a name="migrate-a-report-server-installation"></a>レポート サーバー インストールの移行
@@ -93,7 +93,7 @@ Power BI Report Server 間での移行手順は、SSRS (ネイティブ モー�
 * レポート サーバーの構成マネージャーを使用してレポート サーバーを構成し、複製されたデータベースに接続します。
 * 以前の Power BI レポート サーバーのインストールに必要なクリーンアップを実行します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  

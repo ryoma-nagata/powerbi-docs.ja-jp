@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 292f80b4fec7da9ff6ce42e3611bf4d6353bae2d
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74791955"
 ---
 # <a name="troubleshooting-scheduled-refresh-for-azure-sql-databases-in-power-bi"></a>Power BI における Azure SQL Database のスケジュール設定された更新に関するトラブルシューティング
@@ -23,7 +23,7 @@ ms.locfileid: "74791955"
 
 Azure SQL データベースのスケジュール設定された更新を設定していて、資格情報の編集中にエラー コード 400 が発生した場合は、次の操作を試して適切なファイアウォール規則を設定します。
 
-1. [Azure portal](https://portal.azure.com) にサインインします。
+1. [Azure portal](https://portal.azure.com) にサインインする
 
 1. 更新を構成している Azure SQL データベースにアクセスします。
 

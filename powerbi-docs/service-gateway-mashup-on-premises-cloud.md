@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697890"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>オンプレミスとクラウド データ ソースのマージまたはアペンド
@@ -35,7 +35,7 @@ ms.locfileid: "74697890"
 
 1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) >  **[ゲートウェイの管理]** の順に選択します。
 
-    ![ゲートウェイの管理](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
+    ![ゲートウェイを管理する](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
 
 2. 構成するゲートウェイを選択します。
 
@@ -58,6 +58,6 @@ ms.locfileid: "74697890"
 
 7. クラウドの資格情報が設定されたので、 **[今すぐ更新]** オプションを利用してデータセットを更新できるようになりました。 または、定期的に更新するようにスケジュールを設定できます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 ゲートウェイのデータ更新の詳細については、「[スケジュールされた更新でデータ ソースを使用する](service-gateway-enterprise-manage-scheduled-refresh.md#use-the-data-source-for-scheduled-refresh)」を参照してください。

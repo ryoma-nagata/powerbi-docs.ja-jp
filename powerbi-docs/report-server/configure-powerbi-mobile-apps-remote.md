@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
 ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73925885"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>リモートでレポート サーバーへの Power BI モバイル アプリのアクセスを構成する
@@ -38,12 +38,12 @@ ms.locfileid: "73925885"
 
 次の表でペアについて詳しく説明します。
 
-|キー  |種類  |説明  |
+|キー  |種類  |Description  |
 |---------|---------|---------|
-| com.microsoft.powerbi.mobile.ServerURL | 文字列 | レポート サーバー URL <br> 先頭は http/https である必要があります |
-| com.microsoft.powerbi.mobile.ServerUsername | 文字列 | (省略可能) <br> サーバーの接続に使用するユーザー名。 <br> 存在しない場合、アプリで、ユーザーに接続用のユーザー名の入力を求めるメッセージが表示されます。| 
-| com.microsoft.powerbi.mobile.ServerDisplayName | 文字列 | (省略可能) <br> 既定値は "Report server" です <br> サーバーを表すためにアプリで使用されるフレンドリ名 | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | ブール値 | 既定値は True です <br>“True” に設定されている場合、モバイル デバイスに既にあるレポート サーバーのすべての定義がオーバーライドされます。 既に構成されているサーバーは、削除されます。 <br> また、オーバーライドを True に設定すると、ユーザーはその構成を削除できなくなります。 <br> "False" に設定すると、既存の設定はそのままで、プッシュされた値が追加されます。 <br> 同じサーバー URL がモバイル アプリに既に構成されている場合、アプリはその構成をそのままにします。 アプリは、同じサーバーへの再認証をユーザーに求めません。 |
+| com.microsoft.powerbi.mobile.ServerURL | String | レポート サーバー URL <br> 先頭は http/https である必要があります |
+| com.microsoft.powerbi.mobile.ServerUsername | String | (省略可能) <br> サーバーの接続に使用するユーザー名。 <br> 存在しない場合、アプリで、ユーザーに接続用のユーザー名の入力を求めるメッセージが表示されます。| 
+| com.microsoft.powerbi.mobile.ServerDisplayName | String | (省略可能) <br> 既定値は "Report server" です <br> サーバーを表すためにアプリで使用されるフレンドリ名 | 
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | 既定値は True です <br>“True” に設定されている場合、モバイル デバイスに既にあるレポート サーバーのすべての定義がオーバーライドされます。 既に構成されているサーバーは、削除されます。 <br> また、オーバーライドを True に設定すると、ユーザーはその構成を削除できなくなります。 <br> "False" に設定すると、既存の設定はそのままで、プッシュされた値が追加されます。 <br> 同じサーバー URL がモバイル アプリに既に構成されている場合、アプリはその構成をそのままにします。 アプリは、同じサーバーへの再認証をユーザーに求めません。 |
 
 Intune を使用して構成ポリシーを設定する例を以下に示します。
 
@@ -67,7 +67,7 @@ Intune を使用して構成ポリシーを設定する例を以下に示しま�
 
 これで、レポート サーバーに格納されている KPI および Power BI レポートを表示して操作できるようになりました。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [Azure AD アプリケーション プロキシを使用して Power BI Mobile へのリモート アクセスを有効にする](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 - [管理者の概要](admin-handbook-overview.md)  

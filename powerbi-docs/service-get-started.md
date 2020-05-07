@@ -10,10 +10,10 @@ ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872326"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>チュートリアル:Power BI サービスの概要
@@ -161,7 +161,7 @@ Power BI レポートを作成するときには、多くの場合、Power BI De
 
    グラフを折れ線グラフに変更した場合でも、タイルは横棒グラフのままになっています。これは、ピン留めしたときにそうなっていたためです。 
 
-## <a name="step-4-reposition-tiles"></a>手順 4:タイルの位置変更
+## <a name="step-4-reposition-tiles"></a>手順 4.タイルの位置変更
 
 ダッシュボードは幅広です。 ダッシュボード領域をより効果的に使用できるように、タイルを再配置できます。
 
@@ -179,7 +179,7 @@ Power BI レポートを作成するときには、多くの場合、Power BI De
 
     ![再配置されたダッシュボード](media/service-get-started/power-bi-service-rearranged-dashboard.png)
 
-## <a name="step-5-interact-with-tiles"></a>手順 5:タイルを操作する
+## <a name="step-5-interact-with-tiles"></a>手順 5.タイルを操作する
 
 独自のダッシュボードとレポートを作成する前に、観察する最後の操作があります。 異なるタイルを選択すると、異なる結果が得られます。 
 

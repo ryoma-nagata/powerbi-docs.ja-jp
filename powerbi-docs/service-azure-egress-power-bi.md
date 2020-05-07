@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 17175e1accb5013b960c5e1a71ae036b3dda72f3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73855562"
 ---
 # <a name="power-bi-and-azure-egress"></a>Power BI と Azure エグレス
@@ -28,14 +28,14 @@ Power BI テナントの場所を見つける方法については、「[Power B
 
 Power BI Premium Multi-Geo のお客様については、Power BI テナントが一部の Azure ベース データ ソースにとって最適な場所にない場合、目的の Azure リージョンに Power BI Premium Multi-Geo をデプロイし、Power BI テナントと Azure データ ソースを同じ Azure リージョンに置くことの利点を得ることができます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI Premium または Multi-Geo に関する詳細については、次のリソースをご覧ください。
 
 * [Microsoft Power BI Premium とは何ですか?](service-premium-what-is.md)
 * [Power BI Premium の購入方法](service-admin-premium-purchase.md)
 * [Power BI Premium の Multi-Geo のサポート (プレビュー)](service-admin-premium-multi-geo.md)
-* [Power BI テナントの場所](service-admin-where-is-my-tenant-located.md)
+* [Power BI テナントの場所がわからない](service-admin-where-is-my-tenant-located.md)
 * [Power BI Premium のよく寄せられる質問](service-premium-faq.md)
 
 

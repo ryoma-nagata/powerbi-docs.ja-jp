@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 16d58090a9a7c6e64fbf2ace23fdf342d1768a30
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881082"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Excel データを Power BI の Q&A に適合させる
@@ -38,11 +38,11 @@ Q&A はテーブル、列、および計算フィールドの名前に依存し�
   
   たとえば、売上データを含むテーブルがある場合は、そのテーブルに「Sales」(売上) という名前を付けます。 「Year」(年)、「Product」(製品)、「Sales Rep」(営業担当者)、「Amount」(量) などの列名も、Q&A でうまく機能する名前です。
 
-* ブックに Power Pivot データ モデルが含まれている場合は、さらに強力な最適化を実行できます。 社内の自然言語専門家チームが提供する「[Demystifying Power BI Q&A part 2 (Power BI Q&A の詳しい解説、パート2)](https://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx)」を参照してください。
+* ブックに Power Pivot データ モデルが含まれている場合は、さらに強力な最適化を実行できます。 社内の自然言語専門家チームが提供する [Demystifying Power BI Q&A part 2](https://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx) (Power BI Q&A の詳しい解説、パート2) を参照してください。
 
 * Power BI Desktop でデータセットを開き、新しい列の作成、計算メジャーの作成、複数フィールドの連結による一意値の作成、種類 (日付、文字列、地理、画像、URL など) によるデータの分類などを行います。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [コンシューマー向けの Q&A](consumer/end-user-q-and-a.md)  
 - [ダッシュボードとレポートで Q&A を使用する](power-bi-tutorial-q-and-a.md)

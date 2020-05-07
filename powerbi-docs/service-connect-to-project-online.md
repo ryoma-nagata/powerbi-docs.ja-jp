@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565676"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI で Project Web App に接続する
@@ -40,7 +40,7 @@ Power BI 用 [Project Web App テンプレート アプリ](https://appsource.mi
    ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. **[新しいアプリを開始する]** で **[データに接続]** を選択します。
    
-   ![データに接続する](media/service-connect-to-project-online/mproject.png)
+   ![データへの接続](media/service-connect-to-project-online/mproject.png)
 7. **[Project Web App の URL]** テキスト ボックスに、接続する Project Web App (PWA) の URL を入力します。  カスタム ドメインを使用している場合は例と異なる場合があることに注意してください。 **[PWA Site Language]\(PWA サイトの言語\)** テキスト ボックスに、PWA サイト言語に対応する番号を入力します。 英語には '1' を、フランス語には '2' を、ドイツ語には '3' を、ブラジルのポルトガル語には '4' を、ポルトガルのポルトガル語には '5' を、スペイン語には '6' を入力します。 
    
    ![Microsoft Project Online への接続](media/service-connect-to-project-online/params.png)
@@ -69,8 +69,8 @@ Power BI 用 [Project Web App テンプレート アプリ](https://appsource.mi
 
 コンテンツ パックをさらにカスタマイズし、更新するには、[GitHub PBIT ファイル](https://github.com/OfficeDev/Project-Power-BI-Content-Packs)をダウンロードします。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI の概要](service-get-started.md)
 
-[Power BI でデータを取得する](service-get-data.md)
+[Power BI におけるデータの取り出し](service-get-data.md)
 

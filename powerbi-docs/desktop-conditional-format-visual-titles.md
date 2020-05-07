@@ -10,10 +10,10 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f3c1f047e3be7520005458294381877d1198ee21
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878625"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Power BI Desktop の式に基づくタイトル
@@ -70,7 +70,7 @@ SWITCH (
 * タイトルに対して作成するフィールドは、文字列データ型である必要があります。 数値や日付/時刻 (またはその他のデータ型) を返すメジャーは、現在、サポートされていません。
 * ビジュアルをダッシュボードにピン留めすると、式に基づくタイトルが引き継がれません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 この記事では、ユーザーがレポートを操作するときに変更される可能性がある動的フィールドにビジュアルのタイトルを変換する DAX 式を作成する方法について説明しました。 次の記事も役立つ場合があります。
 

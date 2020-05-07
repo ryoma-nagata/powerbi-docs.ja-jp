@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f36b0a92d09330b4efec078ae5bc767fed434393
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867616"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Power BI Desktop の数式エディター
@@ -56,11 +56,11 @@ ms.locfileid: "73867616"
 |Alt キーを押しながらクリック  |カーソルの挿入  |
 |Home / End  |行の先頭/末尾に移動  |
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 次の記事では、Power BI Desktop の数式と DAX について詳しく説明します。
 
-* [Power BI Desktop における DAX の基本事項](desktop-quickstart-learn-dax-basics.md)
+* [Power BI Desktop での DAX の基本](desktop-quickstart-learn-dax-basics.md)
 * [Power BI の DAX について](https://docs.microsoft.com/power-bi/guided-learning/introductiontodax?tutorial-step=1)
 * [DAX リファレンス](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)
 

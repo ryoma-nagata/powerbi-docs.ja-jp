@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 5b13fdc1f65fe2650ea0fb4fee1be20611ac3e8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877316"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>データフローと Azure Data Lake の統合 (プレビュー)
@@ -70,15 +70,15 @@ Power BI の外部のユーザーやサービスは、代替形式の許可を�
 )」 (Azure Data Lake Storage Gen2 でのアクセス制御に関する記事) をご覧ください。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
-この記事では、Power BI データフロー、CDM フォルダー、および Azure Data Lake Storage Gen2 の統合の概要について説明しました。 詳細については、以下の記事をご覧ください。
+この記事では、Power BI データフロー、CDM フォルダー、および Azure Data Lake Storage Gen2 の統合の概要について説明しました。 詳細については、以下の記事を参照してください。
 
-データフロー、CDM、および Azure Data Lake Storage Gen2 の詳細については、次の記事をご覧ください。
+データフロー、CDM、および Azure Data Lake Storage Gen2 について詳しくは、次の記事をご覧ください。
 
 * [ワークスペース データ フローの設定の構成 (プレビュー)](service-dataflows-configure-workspace-storage-settings.md)
-* [データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)](service-dataflows-add-cdm-folder.md)
-* [データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
+* [データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)](service-dataflows-add-cdm-folder.md)
+* [データ フロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 データフロー全般については、次の記事をご覧ください。
 
@@ -89,7 +89,7 @@ Power BI の外部のユーザーやサービスは、代替形式の許可を�
 
 Azure Storage の詳細については、次の記事をご覧ください。
 * [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
-* [Azure Data Services からの github サンプルの開始](https://aka.ms/cdmadstutorial)
+* [Azure Data Services から GitHub サンプルを開始する](https://aka.ms/cdmadstutorial)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
 * [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)

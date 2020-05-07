@@ -1,5 +1,5 @@
 ---
-title: チュートリアル:SQL Server でオンプレミス データに接続する
+title: 'チュートリアル: SQL Server でオンプレミス データに接続する'
 description: データを更新する方法など、SQL Server をゲートウェイ データ ソースとして使用する方法について説明します。
 author: arthiriyer
 ms.reviewer: kayu
@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958440"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>オンプレミス SQL Server データベースからのデータを更新する
@@ -114,7 +114,7 @@ Power BI Desktop では、オンプレミス SQL Server データベースに直
 
 5. **[ゲートウェイ]** 管理ページの **[データ ソース設定]** タブで以下の情報を入力して確認し、 **[追加]** を選択します。
 
-    | オプション | 値 |
+    | オプション | 価値 |
     | --- | --- |
     | データ ソース名 | AdventureWorksProducts |
     | データ ソースの種類 | SQL Server |
@@ -122,7 +122,7 @@ Power BI Desktop では、オンプレミス SQL Server データベースに直
     | データベース | AdventureWorksDW などの SQL Server データベースの名前 (Power BI Desktop で指定した名前と同じにする必要があります)。 |
     | 認証方法 | Windows または Basic (通常は Windows です)。 |
     | ユーザー名 | SQL Server への接続に使用するユーザー アカウント。 |
-    | パスワード | SQL Server への接続に使用するアカウントのパスワード。 |
+    | Password | SQL Server への接続に使用するアカウントのパスワード。 |
 
     ![データ ソース設定](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
@@ -152,7 +152,7 @@ Power BI Desktop では、オンプレミス SQL Server データベースに直
 
 ## <a name="perform-an-on-demand-refresh"></a>オンデマンド更新を実行する
 
-これで更新スケジュールを構成したので、Power BI により次のスケジュールされた時間 (15 分の幅あり) にデータセットが更新されます。 ゲートウェイとデータ ソースの構成をテストする場合など、データの更新をより早く行いたい場合には、ナビゲーション ペイン内のデータセット メニューにある **[今すぐ更新]** オプションを使用して、オンデマンド更新を実行します。 オンデマンド更新は、スケジュールされた次回の更新時刻には影響を及ぼしません。ただし、前のセクションで述べたように、1 日の更新上限に対してはカウントされます。
+これで更新スケジュールを構成したので、Power BI により次のスケジュールされた時間 (15 分の幅あり) にデータセットが更新されます。 ゲートウェイとデータ ソースの構成をテストする場合など、データの更新をより早く行いたい場合には、ナビ ペイン内のデータセット メニューにある **[今すぐ更新]** オプションを使用して、オンデマンド更新を実行します。 オンデマンド更新は、スケジュールされた次回の更新時刻には影響を及ぼしません。ただし、前のセクションで述べたように、1 日の更新上限に対してはカウントされます。
 
 説明するために、SQL Server Management Studio (SSMS) を使用して AdventureWorksDW データベースの DimProduct テーブルを更新することで、サンプル データの変更をシミュレートします。
 
@@ -166,7 +166,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 今度は次の手順を行い、更新されたデータがゲートウェイ接続を経由して Power BI のデータセットとレポートに反映されるようにします。
 
-1. Power BI Service のナビゲーション ペインで、 **[マイ ワークスペース]** を選択して展開します。
+1. Power BI Service のナビ ペインで、 **[マイ ワークスペース]** を選択して展開します。
 
 2. **[データセット]** の下の **[AdventureWorksProducts]** データセットの省略記号 ( **. . .** ) を選択し、 **[今すぐ更新]** を選択します。
 
@@ -197,11 +197,11 @@ WHERE EnglishProductName ='Road-250 Red, 58'
     > [!NOTE]
     > [OneDrive] タブは、OneDrive または SharePoint Online 上の Power BI Desktop ファイル、Excel ブック、CSV ファイルに接続されているデータセットにのみ関連するものです。詳細については、「[Power BI でのデータの更新](refresh-data.md)」で説明しています。
 
-## <a name="clean-up-resources"></a>リソースをクリーンアップする
+## <a name="clean-up-resources"></a>リソースのクリーンアップ
 
 今後はサンプル データを使用しない場合は、そのデータベースを SQL Server Management Studio (SSMS) で削除します。 SQL Server データ ソースを使用しない場合は、そのデータ ソースをデータ ゲートウェイから削除します。 データ ゲートウェイをこのチュートリアルを完了する目的でのみインストールした場合は、アンインストールすることも検討してください。 また、AdventureWorksProducts.pbix ファイルをアップロードしたときに Power BI により作成された AdventureWorksProducts データセットと AdventureWorksProducts レポートを削除する必要があります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 このチュートリアルでは、オンプレミスの SQL Server データベースからデータを Power BI データセットにインポートする方法と、このデータセットを使用するレポートとダッシュボードが Power BI で更新されるよう、このデータセットをスケジュールおよびオンデマンド ベースで更新する方法について説明してきました。 これで、Power BI でのデータ ゲートウェイとデータ ソースの管理についてさらに詳しく学習することができます。 Power BI でデータ更新の概念に関する記事を参照することもお勧めします。
 
