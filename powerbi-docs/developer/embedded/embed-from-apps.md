@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 11/27/2018
 ms.openlocfilehash: 2298350051db947c037c5e2e73f5dc963aa049bc
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114614"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>アプリからレポートやダッシュボードを埋め込む
@@ -39,7 +39,7 @@ Power BI では、関連のあるダッシュボードやレポートをまと�
 
 3. JavaScript SDK で、手順 2 で取得した embedURL を使用します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 サードパーティの顧客と組織向けのワークスペースから埋め込む方法を確認します。
 

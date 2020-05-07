@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207070"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI レポートのフィルターと強調表示
@@ -52,7 +52,7 @@ Power BI ではさまざまな方法でレポートをフィルター処理お�
 フィルターに**すべて**と表示されている場合は、フィールドのすべての値がフィルターに含まれることを意味します。  たとえば、次のスクリーンショットの **[Chain(All)]\(Chain は (すべて) です\)** は、このレポート ページにすべてのストア チェーンに関するデータが含まれることを意味します。  一方、レポート レベル フィルターの **[FiscalYear is 2013 or 2014]\(FiscalYear が 2013 または 2014 である\)** は、レポートに 2013 年および 2014 年の会計年度のデータのみが含まれることを示します。
 
 ## <a name="filters-in-reading-or-editing-view"></a>読み取りビューまたは編集ビューでのフィルター
-レポートとの対話には次の 2 つのモードがあります:[読み取りビュー](consumer/end-user-reading-view.md)と編集ビュー。 使用できるフィルター処理機能は、どのモードを使用しているかによって異なります。
+レポートとの対話には、[読み取りビュー](consumer/end-user-reading-view.md)と編集ビューの 2 つのモードがあります。 使用できるフィルター処理機能は、どのモードを使用しているかによって異なります。
 
 * 編集ビューでは、レポート、ページ、ドリルスルー、ビジュアルの各フィルターを追加できます。 モバイル アプリで開く場合でも、レポートを保存すると、フィルターはレポートと共に保存されます。 読み取りビューでレポートを表示しているユーザーは、追加したフィルターと対話できますが、新しいフィルターを追加することはできません。
 * 読み取りビューでは、レポートに既に存在するすべてのフィルターと対話して、行った選択の内容を保存することができます。 新しいフィルターを追加することはできません。
@@ -89,7 +89,7 @@ Power BI ではさまざまな方法でレポートをフィルター処理お�
 ![クロス強調表示](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI レポートの新しいフィルター エクスペリエンス](power-bi-report-filter.md)
 

@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877781"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Power BI Desktop のデータの確認とレコードの確認を使用する
@@ -32,7 +32,7 @@ ms.locfileid: "73877781"
 >  - じょうごグラフ
 >  - マップ
 >  - 円グラフ
->  - ツリーマップ
+>  - Treemap
 
 ## <a name="use-see-data-in-power-bi-desktop"></a>Power BI Desktop での [データの確認] の使用
 
@@ -86,7 +86,7 @@ ms.locfileid: "73877781"
 > - 計算されるメジャーがビジュアルで使われている場合は、 **[レコードの確認]** を使用できません。
 > - ライブ多次元 (MD) モデルに接続されている場合は、 **[レコードの確認]** を使用できません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 **Power BI Desktop** には、あらゆる種類のレポートの書式指定とデータ管理機能があります。 例については、次のリソースをご覧ください。
 
 * [Power BI Desktop でグループ化とビン分割を使用する](desktop-grouping-and-binning.md)

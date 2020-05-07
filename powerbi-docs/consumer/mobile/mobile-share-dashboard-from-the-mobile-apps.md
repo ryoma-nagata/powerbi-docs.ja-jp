@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435791"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI モバイル アプリからダッシュボードまたはレポートを共有する
@@ -20,7 +20,7 @@ ms.locfileid: "79435791"
 
 | ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
+| iPhones |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -99,8 +99,8 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    詳細については、[同僚との共有に関する注意事項](../../service-share-dashboards.md)のページをご覧ください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [モバイル アプリにおけるタイル、レポート、または視覚エフェクトのスナップショットの注釈付けと共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Power BI でダッシュボードまたはレポートを共有する](../../service-share-dashboards.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

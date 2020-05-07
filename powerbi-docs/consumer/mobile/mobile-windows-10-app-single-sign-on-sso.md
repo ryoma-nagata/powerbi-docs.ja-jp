@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e9156e539ee9f1a344b89f7814c148829498e5fc
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435929"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI モバイルの Windows アプリでのシングル サインオン
@@ -34,8 +34,8 @@ SSO は、Windows Azure Active Directory で管理されている Windows デバ
 
 Power BI にサインインする現在の Windows アクティブ セッションの資格情報を使用する必要がない場合、単に **[設定]** に移動し、サインアウトして異なる資格情報でサインインします。 
  
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [Windows 10 用の Power BI モバイル アプリの概要](mobile-windows-10-phone-app-get-started.md)
-- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

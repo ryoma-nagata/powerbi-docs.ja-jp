@@ -10,10 +10,10 @@ ms.date: 05/31/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872583"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces-preview"></a>ワークスペース全体でデータセットの使用を制御する (プレビュー)
@@ -36,7 +36,7 @@ ms.locfileid: "73872583"
 
 ![データセットの認定の詳細情報](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
-- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

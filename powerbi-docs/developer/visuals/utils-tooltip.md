@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
 ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379170"
 ---
 # <a name="tooltip-utils"></a>ツールヒント ユーティリティ
@@ -33,7 +33,7 @@ npm install powerbi-visuals-utils-colorutils --save
 ```
 このコマンドを実行すると、パッケージがインストールされ、依存関係としてパッケージが ```package.json``` に追加されます
 
-## <a name="usage"></a>使用
+## <a name="usage"></a>使用法
 
 > 使用ガイドでは、パッケージのパブリック API について説明されています。 パッケージの各パブリック インターフェイスについての説明といくつかの例が提供されています。
 

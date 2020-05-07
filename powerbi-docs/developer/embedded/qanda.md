@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.openlocfilehash: 5a3a7b91b0c97a75923876caff205ffb9abfce70
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114384"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded での Q&A
@@ -98,7 +98,7 @@ qna.on("visualRendered", function(event) {
 
 Q&A パーツを開始するためのデータセットの埋め込みトークンを作成します。 詳細については、[トークンの生成](https://docs.microsoft.com/rest/api/power-bi/embedtoken)に関するページをご覧ください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Q&A の埋め込みを試してみるなら、[JavaScript の埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)をご覧ください。
 

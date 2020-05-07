@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488616"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium の購入方法
@@ -35,7 +35,7 @@ Power BI Premium の詳細については、「[Microsoft Power BI Premium と�
 
 ### <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Power BI Premium P1 で新しいテナントを作成する
 
-既存のテナントをお持ちでない場合は、テナントの作成と同時に Power BI Premium も購入することができます。 次のリンクをクリックすると、新しいテナントを作成するプロセスが案内され、Power BI Premium を購入することができます:[Power BI Premium P1 オファー](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。 テナントを作成すると、そのテナントの Microsoft 365 の全体管理者ロールに自動的に割り当てられます。
+既存のテナントをお持ちでない場合は、テナントの作成と同時に Power BI Premium も購入することができます。 次のリンクをクリックすると、新しいテナントを作成するプロセスが案内され、Power BI Premium を購入することができます: [Power BI Premium P1 プラン](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。 テナントを作成すると、そのテナントの Microsoft 365 の全体管理者ロールに自動的に割り当てられます。
 
 容量の購入後は、[容量の管理](service-admin-premium-manage.md#manage-capacity)方法と、容量への[ワークスペースの割り当て](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)方法を学習してください。
 
@@ -169,7 +169,7 @@ Azure portal で A SKU を購入するには、次の手順に従います。
 
 容量の購入後は、[容量の管理](service-admin-premium-manage.md#manage-capacity)方法と、容量への[ワークスペースの割り当て](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)方法を学習してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI Premium で容量を構成および管理する](service-admin-premium-manage.md)\
 [Power BI の料金ページ](https://powerbi.microsoft.com/pricing/)\
