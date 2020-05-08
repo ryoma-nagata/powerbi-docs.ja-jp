@@ -11,10 +11,10 @@ ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
 ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80329662"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium とは
@@ -121,7 +121,7 @@ Power BI サービスでは常に、容量に課されている制限を超え�
 
 クエリ値と同様に更新でも、モデルをメモリに読み込む必要があります。 メモリが不足している場合、Power BI サービスでは非アクティブ モデルの削除が試みられ、これが不可能な場合は (すべてのモデルがアクティブであるため)、更新ジョブがキューに入れられます。 更新では、通常、CPU が集中的に使用されます。それはクエリの場合よりもさらに高くなります。 このため、同時更新の数に対して容量の制限があり、1.5 × バックエンド仮想コア数 (切り上げ) に設定されています。 同時更新の数が多すぎる場合は、スケジュールされた更新がキューに入れられます。 このような状況が発生すると、更新が完了するまでの時間がより長くなります。 ユーザー要求または API 呼び出しによってトリガーされる更新などのオンデマンド更新は、3 回再試行されます \[[1](#endnote-1)\]。 それでも十分なリソースがない場合、更新は失敗します。
 
-セクションに関する注意事項:   
+セクションに関する注意事項:    
 <a name="endnote-1"></a>\[1\] 変更される可能性があります。
 
 ### <a name="regional-support"></a>地域のサポート

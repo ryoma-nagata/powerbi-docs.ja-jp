@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435584"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリで通知を受け取る
@@ -20,7 +20,7 @@ ms.locfileid: "79435584"
 
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
+| iPhones |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -41,7 +41,7 @@ ms.locfileid: "79435584"
    [Power BI からの通知を表示する方法は変更](mobile-apps-notification-center.md#change-or-turn-off-notifications-on-your-mobile-device)できます。
 2. 通知を受け取った場合、モバイル デバイスで Power BI にサインインすると、黄色のドットが通知ベルのアイコン ![通知ベル](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS と Android) またはグローバル ナビゲーション ボタン ![通知ドット](./media/mobile-apps-notification-center/power-bi-iphone-alert-global-nav-button.png) (Windows 10 デバイス) に表示されます。 
 
-3. 通知センターに通知を表示するには、通知ベル ![通知ベル](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS と Android) または通知センター アイコン ![[通知] アイコン](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10 デバイス) をタップします。
+3. 通知センターに通知を表示するには、通知ベル ![通知ベル](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS と Android) または通知センター アイコン ![[通知] アイコン](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10 デバイス) に表示されます。
    
     最新の通知から先に表示され、未読のメッセージは強調表示されます。 通知は、削除するか、100 件の上限に達するまで 90 日間保持されます。
    
@@ -71,7 +71,7 @@ Power BI からの通知を表示する方法は変更できます。
 
     ![通知を選択する](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI サービスでのデータ アラート](../../service-set-data-alerts.md)
 * [iPhone アプリでデータ アラートを設定する (Power BI for iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10 用の Power BI モバイル アプリでデータ アラートを設定する](mobile-set-data-alerts-in-the-mobile-apps.md)

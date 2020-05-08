@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273204"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Power BI レポートにテキスト ボックスと図形を追加する
@@ -44,7 +44,7 @@ Will が Power BI Desktop を使用して[静的な画像をレポートに追�
 
 6. テキスト ボックスを閉じるには、レポート キャンバス上の任意の空白領域を選びます。 
 
-7. ピン留めアイコン  ![ピン留めアイコン](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) を選んで、テキスト ボックスをダッシュボードにピン留めします。 
+7. ピン留めアイコン  ![ピン アイコンをクリックまたはタップします。](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) を選んで、テキスト ボックスをダッシュボードにピン留めします。 
 
 ## <a name="add-a-shape-to-a-report"></a>レポートに図形を追加する
 1. レポート キャンバス内の任意の位置にカーソルを置いて、 **[図形]** を選びます。
@@ -62,7 +62,7 @@ Will が Power BI Desktop を使用して[静的な画像をレポートに追�
    > 
    > 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 次の記事にも興味をもたれるかもしれません。
 

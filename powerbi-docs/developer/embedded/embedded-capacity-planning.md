@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493252"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI 埋め込み分析の容量計画
@@ -51,7 +51,7 @@ Power BI 埋め込み分析の展開に必要な容量の種類を計算する�
 
 テストの実行後に、メトリック アプリでロード テストの結果を確認するには、次の手順に従います。 負荷がメトリックに表示されるまで、テストが負荷の生成を開始した時間から最大 15 分の遅延が発生します。
 
-1. [Metrics アプリ](../../service-admin-premium-monitor-capacity.md)のランディングページの **[データセット]** タブを展開します。
+1. **Metrics アプリ**のランディングページの [[データセット]](../../service-admin-premium-monitor-capacity.md) タブを展開します。
 2. **[今すぐ更新]** をクリックして、オンデマンド更新を開始ます。 管理者が行う必要があります。
 
     ![Power BI Premium Capacity Metrics](media/embedded-capacity-planning/embedded-capacity-planning.png)
@@ -62,7 +62,7 @@ Power BI 埋め込み分析の展開に必要な容量の種類を計算する�
 
 リポジトリはオープン ソースであり、ユーザーは投稿し、Power BI Premium と Embedded の容量に関連するツールを追加して、既存のものを改善することが推奨されます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 > [!div class="nextstepaction"]
 >[Power BI Embedded の分析の容量と SKU](embedded-capacity.md)

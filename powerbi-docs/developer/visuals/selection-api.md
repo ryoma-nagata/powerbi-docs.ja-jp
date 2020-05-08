@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113694"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI ビジュアルの選択によってビジュアルに対話機能を追加する
@@ -81,7 +81,7 @@ export interface ISelectionIdBuilder {
 
 サンプル データセットのカテゴリ別のデータ ビュー マッピングについて、選択がどのように表されるかを確認しましょう。
 
-| 製造元 | 種類 | 値 |
+| Manufacturer | 種類 | 価値 |
 | - | - | - |
 | Chrysler | Domestic Car | 28883 |
 | Chrysler | Domestic Truck | 117131 |
@@ -159,18 +159,18 @@ export interface ISelectionIdBuilder {
 
 また、ビジュアルでは、`Manufacturer` と `Type` によってデータをスライスすることもできます。
 
-たとえば、ユーザーが `Manufacturer` で `Chrysler` を選択すると、他のビジュアルには次のデータが表示されます。
+たとえば、ユーザーが `Chrysler` で `Manufacturer` を選択すると、他のビジュアルには次のデータが表示されます。
 
-| 製造元 | 種類 | 値 |
+| Manufacturer | 種類 | 価値 |
 | - | - | - |
 | **Chrysler** | Domestic Car | 28883 |
 | **Chrysler** | Domestic Truck | 117131 |
 | **Chrysler** | Import Car | 0 |
 | **Chrysler** | Import Truck | 6362 |
 
-ユーザーが `Type` で `Import Car` を選択 (系列でデータを選択) すると、他のビジュアルには次のデータが表示されます。
+ユーザーが `Import Car` で `Type` を選択 (系列でデータを選択) すると、他のビジュアルには次のデータが表示されます。
 
-| 製造元 | 種類 | 値 |
+| Manufacturer | 種類 | 価値 |
 | - | - | - |
 | Chrysler | **Import Car** | 0 |
 | Ford | **Import Car** | 0 |
@@ -185,7 +185,7 @@ export interface ISelectionIdBuilder {
 
 ![選択を備えたビジュアルのデータ バスケット](media/selection-api/visual-selections-databuckets.png)
 
-カテゴリ (列) として `Manufacturer` が、系列 (行) として `Type` が、系列の `Values` として `Value` があります。
+カテゴリ (列) として `Manufacturer` が、系列 (行) として `Type` が、系列の `Value` として `Values` があります。
 
 > [!NOTE]
 > 系列に対して `Values` が必要です。データ ビュー マッピングに応じて、ビジュアルでは `Values` が `Rows` データによってグループ化されることが想定されるためです。
@@ -372,7 +372,7 @@ button.addEventListener("click", (mouseEvent) => {
 });
 ```
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [データ ポイントに対してビジュアル プロパティをバインドするために選択を使用する方法を確認する](objects-properties.md#objects-selector)
 

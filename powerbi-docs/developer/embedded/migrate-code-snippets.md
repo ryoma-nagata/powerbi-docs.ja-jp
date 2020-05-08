@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114486"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI ワークスペース コレクションからコンテンツを移行するためのコード スニペット
@@ -23,7 +23,7 @@ Power BI Embedded (PaaS) から Power BI サービス (SaaS) にコンテンツ�
 
 以下のコードは、C# と [Power BI .NET SDK](https://www.nuget.org/profiles/powerbi) を使用している例です。
 
-以下のコード スニペットを実行するには、次の名前空間を使用してください。
+以下のコード スニペットを実行する際には、必ず次の名前空間を使用してください。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -227,7 +227,7 @@ SaaS に移行した後に PBIX を更新する場合の例です。
     }
 ```
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI Embedded 移行ツール](migrate-tool.md)  
 [Power BI で埋め込み](embedding.md)  

@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
 ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379354"
 ---
 # <a name="color-utils"></a>カラー ユーティリティ
@@ -33,7 +33,7 @@ npm install powerbi-visuals-utils-colorutils --save
 ```
 このコマンドを実行すると、パッケージがインストールされ、依存関係としてパッケージが ```package.json``` に追加されます
 
-## <a name="usage"></a>使用
+## <a name="usage"></a>使用法
 
 インタラクティビティ ユーティリティを使用するには、ビジュアルのソース コードに必要なコンポーネントをインポートする必要があります。
 ```typescript
@@ -175,7 +175,7 @@ let selector = ColorHelper.normalizeSelector(selectionId.getSelector(), false);
 ```typescript
 getHighContrastColor(themeColorName?: ThemeColorName, defaultColor?: string): string;
 ```
-#### <a name="example-related-to-high-contrast-mode-usage"></a>ハイ コントラスト モードの使用に関連する例:
+#### <a name="example-related-to-high-contrast-mode-usage"></a>ハイ コントラスト モードの使用に関連する例: 
 ```typescript
 
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";

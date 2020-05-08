@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
 ms.openlocfilehash: 43fcc0873006cfd42c97a287c7bff66f5995bfef
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380953"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI ビジュアルの分析ウィンドウ
@@ -25,7 +25,7 @@ ms.locfileid: "79380953"
 
 ## <a name="manage-the-analytics-pane"></a>分析ウィンドウを管理する
 
-[**書式**ウィンドウ](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options)でプロパティを管理するように、ビジュアルの *capabilities.json* ファイルでオブジェクトを定義することで、**分析**ウィンドウを管理します。
+[**書式**ウィンドウ](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options)でプロパティを管理するように、ビジュアルの **capabilities.json** ファイルでオブジェクトを定義することで、*分析*ウィンドウを管理します。
 
 **分析**ウィンドウでは、次のような違いがあります。
 
@@ -37,8 +37,8 @@ ms.locfileid: "79380953"
     > 値が指定されていない場合、`objectCategory` は既定で "書式設定" になります。
 
 * オブジェクトには、次の 2 つのプロパティが必要です。
-    * `bool` 型の `show`。既定値は `false` です。
-    * `text` 型の `displayName`。 選択する既定値が、インスタンスの最初の表示名になります。
+    * `show` 型の `bool`。既定値は `false` です。
+    * `displayName` 型の `text`。 選択する既定値が、インスタンスの最初の表示名になります。
 
 ```json
 {

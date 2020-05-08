@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
 ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380491"
 ---
 # <a name="add-drill-down-support"></a>ドリルダウン サポートの追加
@@ -80,7 +80,7 @@ drill-down にロールを追加すると、ユーザーはデータ ロール�
 
 ## <a name="create-the-visual-with-drill-down-support"></a>ドリルダウン サポートを使用したビジュアルを作成する
 
-Run
+実行
 
 ```cmd
 pbiviz new testDrillDown -t default
@@ -211,7 +211,7 @@ button {
 |   A    |    A1    |    A12    |    2    |
 |   A    |    A2    |    A21    |    3    |
 |   A    |    A2    |    A22    |    4    |
-|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A31    |    8    |
 |   A    |    A3    |    A32    |    6    |
 |   B    |    B1    |    B11    |    7    |
 |   B    |    B1    |    B12    |    8    |
@@ -321,7 +321,7 @@ export class Visual implements IVisual {
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |
 |   R1   |   R11   |   R113   |   C1   |   C11   |   C113   |   3   |
 |   R1   |   R12   |   R121   |   C1   |   C12   |   C121   |   4   |
-|   R1   |   R12   |   R122   |   C1   |   C12   |   C122   |   5   |
+|   R1   |   R12   |   R122   |   C1   |   C12   |   C122   |   8   |
 |   R1   |   R12   |   R123   |   C1   |   C12   |   C123   |   6   |
 |   R1   |   R13   |   R131   |   C1   |   C13   |   C131   |   7   |
 |   R1   |   R13   |   R132   |   C1   |   C13   |   C132   |   8   |
@@ -616,6 +616,6 @@ public update(options: VisualUpdateOptions) {
 
 ![ドリルダウン サポートを使用したビジュアル](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 詳細については、「[Power BI ビジュアルでのデータ ビューのマッピングについて理解する](dataview-mappings.md)」を参照してください。

@@ -10,10 +10,10 @@ ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2492996c8bbc6ea7a8d359b4b1015de67bb17430
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378710"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop のレポート ページを基にしてヒントを作成する
@@ -26,7 +26,7 @@ ms.locfileid: "79378710"
 レポート ヒントではさまざまなことができます。 以下では、ヒントを作成する方法と、それを構成するために行う必要があることを説明します。
 
 ## <a name="create-a-report-tooltip-page"></a>レポート ヒント ページを作成する
-最初に、**Power BI Desktop** キャンバス下端のページ タブ領域にある **[+]** ボタンをクリックして、新しいレポート ページを作成します。 ボタンはレポートの最後のページにあります。 
+最初に、**Power BI Desktop+ キャンバス下端のページ タブ領域にある** [ **]** ボタンをクリックして、新しいレポート ページを作成します。 ボタンはレポートの最後のページにあります。 
 
 ![ヒント用の新しいレポート ページを作成する](media/desktop-tooltips/desktop-tooltips_02.png)
 
@@ -84,7 +84,7 @@ ms.locfileid: "79378710"
 
 ## <a name="reverting-to-default-tooltips"></a>既定のヒントに戻す
 
-ビジュアルに手動ヒントを作成した後で既定のヒントを使うことにした場合は、いつでも Power BI が提供する既定のヒントに戻すことができます。 そのためには、ビジュアルを選んで **[ヒント]** カードを展開し、 **[ページ]** ドロップダウンから *[自動]* を選びます。
+ビジュアルに手動ヒントを作成した後で既定のヒントを使うことにした場合は、いつでも Power BI が提供する既定のヒントに戻すことができます。 そのためには、ビジュアルを選んで **[ヒント]** カードを展開し、 *[ページ]* ドロップダウンから **[自動]** を選びます。
 
 ![ビジュアルの既定のヒントに戻す](media/desktop-tooltips/desktop-tooltips_11.png)
 
@@ -118,7 +118,7 @@ ms.locfileid: "79378710"
 
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 レポート ヒントと似た機能またはレポート ヒントと相互作用する機能の詳細については、次の記事をご覧ください。
 
 * [Power BI Desktop でドリルスルーを使用する](desktop-drillthrough.md)

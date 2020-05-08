@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376755"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI で作業を共有する方法
@@ -42,7 +42,7 @@ ms.locfileid: "79376755"
 
 ワークスペースには、同僚に付与するアクセス許可を指定するロールも用意されています。 このようなロールを使用して、ワークスペース全体を管理できるユーザー、コンテンツを編集できるユーザー、コンテンツを配布できるユーザーを指定することができます。
 
-![ワークスペース](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
+![Workspaces](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 当然ながら、自分のマイ ワークスペースにコンテンツを配置し、そこから共有することもできます。 しかしワークスペースにはコンテンツの共同所有機能があるため、共同作業の点でマイ ワークスペースよりも優れています。 チームの管理者とチーム全体が更新を加え、他のユーザーにアクセス権を付与する操作も簡単です。 マイ ワークスペースは、1 人のユーザーが 1 回限りのコンテンツや個人用のコンテンツに使用する場合に適しています。
 
@@ -132,7 +132,7 @@ Power BI サービスの **[SharePoint Online に埋め込む]** および **[�
 *テンプレート アプリ*は、特に Microsoft AppSource で、一般に配布するように設計されています。 アプリを作成し、ほとんどまたはまったくコーディングせずに Power BI の顧客すべてに展開することができます。 顧客は自分のデータに接続して自分のアカウントをインスタンス化します。 詳細については、[Power BI テンプレート アプリ](service-template-apps-overview.md)に関する記事を参照してください。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [同僚や他のユーザーとダッシュボードを共有する](service-share-dashboards.md)
 * [Power BI でのアプリの作成および発行](service-create-distribute-apps.md)

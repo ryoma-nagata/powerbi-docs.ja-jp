@@ -10,10 +10,10 @@ ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273342"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop で Python スクリプトを実行する
@@ -122,7 +122,7 @@ Power BI では、ユーザーが指定した (設定ページで指定した) �
 
 Power BI Desktop で Python スクリプトを更新できます。 最新の情報に更新するには、 **[ホーム]** リボンに移動し、 **[更新]** を選択します。 Python スクリプトを更新するとき、Power BI Desktop で Python スクリプトをもう一度実行します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI での Python については、次の追加情報を参照してください。
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
 ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79487811"
 ---
 # <a name="tenant-admin-settings-guidance"></a>テナントの管理者設定のガイダンス
@@ -29,7 +29,7 @@ Power BI エクスペリエンスの向上に役立つ特定のテナント設�
 
 [Microsoft Teams](/microsoftteams)、またはその他のコラボレーション プラットフォームを使用して、内部の Power BI 関連サイトを設定することをお勧めします。 これらのサイトを使用して、トレーニング ドキュメントの保存、ディスカッションのホスト、ライセンス要求の作成、ヘルプへの応答を行うことができます。
 
-これを行う場合は、"_組織全体で_" **["ヘルプの取得" に関する情報の発行]** 設定を有効にすることをお勧めします。 これは、 **[ヘルプとサポートの設定]** にあります。 次のものに URL を設定することができます。
+これを行う場合は、"**組織全体で**" _["ヘルプの取得" に関する情報の発行]_ 設定を有効にすることをお勧めします。 これは、 **[ヘルプとサポートの設定]** にあります。 次のものに URL を設定することができます。
 
 - トレーニング ドキュメント
 - ディスカッション フォーラム
@@ -137,11 +137,11 @@ Information Protection に関連するテナント設定は 2 つあります。
 
 ![開発者の設定が表示されています。](media/admin-tenant-settings/developer-settings.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 この記事に関する詳細については、次のリソースを参照してください。
 
 - [Power BI 管理とは](../service-admin-administering-power-bi-in-your-organization.md)
 - [管理ポータルでの Power BI の管理](../service-admin-portal.md)
-- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)
