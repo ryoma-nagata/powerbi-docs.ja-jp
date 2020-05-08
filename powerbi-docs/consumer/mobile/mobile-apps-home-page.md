@@ -9,10 +9,10 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205667"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>モバイル アプリのホーム ページのクイック ツアー
@@ -84,7 +84,7 @@ Power BI Mobile アプリを開くと、ホーム ページが表示されます
 
     ![検索ページ](./media/mobile-apps-home-page/powerbi-mobile-app-search-page.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 このツアーでは、Power BI モバイル アプリのホーム ページについて説明しました。 Power BI モバイル アプリの使用に関する詳細については、次をご覧ください。 
 * [ダッシュボードとレポートを調べる](../../mobile-apps-quickstart-view-dashboard-report.md)
 * [Power BI モバイル アプリでレポートを確認する](../../mobile-reports-in-the-mobile-apps.md)

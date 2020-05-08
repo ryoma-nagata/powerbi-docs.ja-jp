@@ -12,10 +12,10 @@ ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040149"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>クイック スタート - Power BI サービス内の移動
@@ -127,12 +127,12 @@ Sales & Marketing アプリのワークスペースには、1 つのダッシュ
 詳しくは、「[Power BI サービスの [最近] のコンテンツ](end-user-recent.md)」をご覧ください。
 
 ### <a name="search-and-sort-content"></a>コンテンツの検索と並べ替え
-Power BI サービスを初めて使用する場合は、いくつかのコンテンツのみが表示されます。 しかし、使用を開始してから、同僚があなたとコンテンツを共有したり、あなたがアプリをダウンロードしたりするに従って、コンテンツの一覧は長くなってしまう可能性があります。 検索と並べ替えが非常に役立つのは、このような場合です。
+Power BI サービスを初めて使用する場合は、いくつかのコンテンツのみが表示されます。 ただし、同僚があなたとコンテンツの共有を始めて、あなたがアプリのダウンロードを始めると、コンテンツの一覧が長くなる可能性があります。 このような場合は、検索と並べ替えが非常に役に立ちます。
 
-検索は、Power BI サービスのほぼすべての部分で使用できます。 検索ボックスを探すか、拡大鏡アイコンを見つけます。    
+検索は、Power BI サービスのほぼすべての部分から使用できます。 検索ボックスを探すか、拡大鏡アイコンを見つけます。    
 ![拡大鏡アイコン](./media/end-user-experience/power-bi-search-icon.png)
 
-検索フィールドに、ダッシュボード、レポート、ブック、アプリ、または所有者の名前の全部または一部を入力します。 Power BI によってすべてのコンテンツが検索されます。
+検索フィールドに、ダッシュボード、レポート、ブック、アプリ、または所有者の名前のすべてまたは一部を入力します。 Power BI によってすべてのコンテンツが検索されます。
 
 ![レポートの検索](./media/end-user-experience/power-bi-search-field.png)
 
@@ -156,7 +156,7 @@ Power BI サービスを初めて使用する場合は、いくつかのコン�
 
 詳細については「[Power BI ホーム](end-user-home.md)」を参照してください。
 
-## <a name="clean-up-resources"></a>リソースをクリーンアップする
+## <a name="clean-up-resources"></a>リソースのクリーンアップ
 このクイックスタートが完了した後、不要であれば、サンプルのダッシュ ボード、レポート、データセットを削除することができます。
 
 1. Power BI サービス (app.powerbi.com) を開いてサインインします。    
@@ -168,7 +168,7 @@ Power BI サービスを初めて使用する場合は、いくつかのコン�
 
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 > [!div class="nextstepaction"]
 > [Power BI サービスの読み取りビュー](end-user-reading-view.md)

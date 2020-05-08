@@ -10,15 +10,15 @@ ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77576854"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Power BI サービスでの Snowflake への接続
 
-## <a name="introduction"></a>概要
+## <a name="introduction"></a>はじめに
 
 Power BI サービスでの Snowflake への接続は、1 つの点でのみ他のコネクタと異なります。それは、AAD に対して追加の機能が (SSO のオプションと共に) 提供されることです。 統合のさまざまな部分で、Snowflake、Power BI、Azure の異なる管理者ロールが必要です。 また、SSO を使用せずに AAD 認証を有効にすることもできます。 基本認証は、サービス内の他のコネクタと同様に機能します。
 

@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113150"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI でサポートされているインサイトの種類
@@ -51,7 +51,7 @@ Power BI では統計的アルゴリズムを使用して分析情報が明ら�
 
 ![時系列の変更点の例](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
-### <a name="correlation"></a>相関関係
+### <a name="correlation"></a>Correlation
 データセット内のカテゴリまたは値に対してプロットされたときに、複数のメジャーが、類似したパターンまたは傾向を示すケースを検出します。
 
 ![相関関係の例](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
@@ -88,7 +88,7 @@ Power BI では統計的アルゴリズムを使用して分析情報が明ら�
 
 ![時系列外れ値の例](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI のインサイト](end-user-insights.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

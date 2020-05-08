@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496411"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI でのビジュアルのドリル モード
@@ -66,7 +66,7 @@ ms.locfileid: "77496411"
 
 ![ドリルの経路を示す図](./media/end-user-drill/power-bi-drill-path.png)
 
-[販売区域別の今年の合計ユニット数] に戻るまで ![ドリルアップ アイコン](./media/end-user-drill/power-bi-drill-icon5.png) ドリルアップ アイコンを選択します。
+[販売区域別の今年の合計ユニット数] に戻るまで ![ドリルアップ アイコン ](./media/end-user-drill/power-bi-drill-icon5.png) ドリルアップ アイコンを選択します。
 
 ### <a name="expand-all-fields-at-once"></a>すべてのフィールドを一度に展開する
 ![展開アイコン](./media/end-user-drill/power-bi-drill-icon6.png)
@@ -81,7 +81,7 @@ ms.locfileid: "77496411"
 ### <a name="drill-down-one-field-at-a-time"></a>一度に 1 つのフィールドをドリルダウンする
 
 
-1. ドリルダウン アイコンを選択して、オンにします ![ドリルダウンの "オン/オフ" をオンにしたアイコンのスクリーンショット。](./media/end-user-drill/power-bi-drill-icon2.png).
+1. ドリルダウン アイコンを選択して、オンにします ![ドリルダウンの "オン/オフ" をオンにしたアイコンのスクリーンショット。](./media/end-user-drill/power-bi-drill-icon2.png)。
 
     ビジュアル要素を選択することで**一度に 1 つのフィールド**をドリルダウンするオプションを使用できるようになりました。 ビジュアル要素 (横棒、バブル、リーフ) の例。
 
@@ -149,7 +149,7 @@ ms.locfileid: "77496411"
 - 共有してもらったレポートを表示するには、Power BI Pro または Premium ライセンスが必要です。 [お使いのライセンスの種類について](end-user-license.md)
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI レポートのビジュアル](../visuals/power-bi-report-visualizations.md)
 

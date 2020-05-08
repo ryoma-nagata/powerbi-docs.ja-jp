@@ -10,10 +10,10 @@ ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133185"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop のサインインに関するトラブルシューティング
@@ -33,7 +33,7 @@ ms.locfileid: "79133185"
 このエラーには、*Power BI Desktop* トレース ファイルの次の例外が関連します。
 
 * *Microsoft.PowerBI.Client.Windows.Services.PowerBIWebException*
-* *HttpStatusCode:ProxyAuthenticationRequired*
+* *HttpStatusCode: ProxyAuthenticationRequired*
 
 このエラーが発生した場合に最も可能性が高い原因は、ネットワーク上のプロキシ認証サーバーが、**Power BI Desktop** によって発行された Web 要求をブロックしていることです。 
 
@@ -55,7 +55,7 @@ ms.locfileid: "79133185"
 
 このエラーには、*Power BI Desktop* トレース ファイルの次の例外が関連します。
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException:Non-HTTPS url redirect is not supported in webview* (webview では HTTPS 以外の URL リダイレクトはサポートされていません)
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: Non-HTTPS url redirect is not supported in webview* (webview では HTTPS 以外の URL リダイレクトはサポートされていません)
 * *ErrorCode: non_https_redirect_failed*
 
 *ErrorCode: non_https_redirect_failed* が発生する場合は、リダイレクト チェーン内の 1 つ以上のリダイレクト ページまたはプロバイダーが HTTPS で保護されたエンドポイントではないこと、または 1 つ以上のリダイレクトの証明書発行者がデバイスの信頼されたルートに含まれないことを意味します。 サインイン リダイレクト チェーンのすべてのプロバイダーは、HTTPS URL を使用している必要があります。 この問題を解決するには、管理者に連絡し、その認証サイトにセキュリティで保護された URL を使用するよう要求してください。 

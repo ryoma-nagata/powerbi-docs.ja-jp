@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 42b9057ccfaa918593e1be8a182c7b0ee57f9760
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920989"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポートのパラメーターを作成する
@@ -67,7 +67,7 @@ ms.locfileid: "78920989"
 - データ ソースとして Power BI データセットまたは Analysis Services モデルを使用している場合、DAX の制限により、1 つの要求で 1,000 を超えるパラメーター値を渡すことはできません。 
 
  
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI サービスにおけるパラメーターの表示方法を確認するには、「[View parameters for paginated reports](../consumer/paginated-reports-view-parameters.md)」(ページ分割されたレポートのパラメーターを表示する) を参照してください。
 

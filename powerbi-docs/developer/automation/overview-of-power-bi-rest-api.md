@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
 ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488434"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Power BI API の開発者向け機能
@@ -35,7 +35,7 @@ Power BI API を使って行うことのできる例は以下のとおりです�
 
 ## <a name="api-developer-tools"></a>API 開発者ツール
 
-| ツール | 説明 |  |  |
+| ツール | Description |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
 | [プレイグラウンド ツール](https://microsoft.github.io/PowerBI-JavaScript/demo) | Power BI JavaScript API を使用した完全なサンプルを体験できます。 このツールを使うと、さまざまな種類の Power BI Embedded のサンプルを簡単に再生することもできます。 |  |  |
 | [Power BI JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Power BI JavaScript API の詳細情報が得られます。 |  |  |
@@ -53,7 +53,7 @@ Power BI API を使って、[データセットにデータをプッシュ](walk
 * [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
 * [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [データセットにデータをプッシュする](walkthrough-push-data.md)
 * [Power BI のビジュアルを開発する](../visuals/custom-visual-develop-tutorial.md)

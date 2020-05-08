@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114132"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Power BI コンシューマー向けのナビゲーション: グローバル検索
@@ -27,7 +27,7 @@ ms.locfileid: "79114132"
 Power BI サービスを初めて使用する場合は、いくつかのコンテンツ (ダッシュボード、レポート、アプリ) のみが表示されます。 ただし、同僚があなたとコンテンツの共有を始めて、あなたがアプリのダウンロードを始めると、コンテンツの一覧が長くなる可能性があります。 このような場合は、検索と並べ替えが非常に役に立ちます。
 
 ## <a name="searching-for-content"></a>コンテンツの検索
- 検索は、Power BI サービスのほぼすべての部分から使用できます。 検索ボックスまたは検索アイコンを見てください ![拡大鏡アイコン](./media/end-user-search-sort/power-bi-search-icon.png).
+ 検索は、Power BI サービスのほぼすべての部分から使用できます。 検索ボックスまたは検索アイコンを見てください ![拡大鏡アイコン](./media/end-user-search-sort/power-bi-search-icon.png)。
 
  検索フィールドに、ダッシュボード、レポート、ブック、アプリ、または所有者の名前のすべてまたは一部を入力します。 Power BI によってすべてのコンテンツが検索されます。 
 
@@ -58,7 +58,7 @@ Power BI サービスを初めて使用する場合は、いくつかのコン�
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 * データセットでは、所有者は **[並べ替え]** を使用できません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [レポートでビジュアルを並べ替える](end-user-change-sort.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

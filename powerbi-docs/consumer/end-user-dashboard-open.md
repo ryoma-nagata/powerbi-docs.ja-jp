@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496290"
 ---
 # <a name="view-a-dashboard"></a>ダッシュボードの表示
@@ -53,6 +53,6 @@ Power BI Pro または Premium ライセンスは、ダッシュボードの共�
 
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [サンプル ダッシュボード](../sample-tutorial-connect-to-the-samples.md)のツアーを利用してダッシュボードに慣れます。    
 * [ダッシュボードのタイル](end-user-tiles.md)およびタイルを選んだときの結果について学習します。

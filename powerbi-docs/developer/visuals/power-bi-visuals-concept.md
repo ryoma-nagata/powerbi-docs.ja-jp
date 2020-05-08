@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378147"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI のビジュアル
@@ -90,7 +90,7 @@ Power BI ビジュアルのアクションとそれに続く更新は、次の 3
 
     詳細については、「[Power BI ビジュアルのヒント](add-tooltips.md)」を参照してください。
 
-* ユーザーがビジュアル プロパティを変更します (たとえば、ユーザーがツリーを展開し、ビジュアルの状態がビジュアル プロパティに保存されます)。
+* ユーザーがビジュアル プロパティを変更します  (たとえば、ユーザーがツリーを展開し、ビジュアルの状態がビジュアル プロパティに保存されます)。
 
     Power BI API を使用してビジュアルにプロパティ値を保存できます。 たとえば、ユーザーがビジュアルを操作し、ビジュアルのプロパティ値を保存または更新する必要がある場合、ビジュアルから `presistProperties` メソッドを呼び出すことができます。
 
@@ -128,7 +128,7 @@ Power BI ビジュアルのアクションとそれに続く更新は、次の 3
 
 ## <a name="next-steps"></a>次の手順
 
-視覚化の作成と Microsoft AppSource への追加に興味がある場合は 次の記事を参照してください。
+視覚化の作成と Microsoft AppSource への追加に興味がある場合は  次の記事を参照してください。
 
 * [Power BI のビジュアルを開発する](./custom-visual-develop-tutorial.md)
 * [Power BI ビジュアルをパートナー センターに発行する](office-store.md)

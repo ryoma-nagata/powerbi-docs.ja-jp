@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207599"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>ダッシュボードのタイルを編集または削除する
@@ -117,7 +117,7 @@ ms.locfileid: "79207599"
 
     ![機能ダイアログ](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
-3. **[適用]** を選びます。
+3. **[適用]** を選択します。
 
 4. 新しいタイトルがタイルに表示されます。  また、そのタイルを選択すると、Power BI によって人事ダッシュボードが開かれます。 
 
@@ -140,10 +140,10 @@ ms.locfileid: "79207599"
 2. タイルを削除しても、基になっている視覚化は削除されません。 基になっているレポートを開くには、"金額" タイルを選択します。 レポートの最後のページを開き、元の視覚化がレポートから削除されていないことを確認します。 
 
 - - -
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI のダッシュボードのタイル](consumer/end-user-tiles.md)
 
-[Power BI のダッシュボード](consumer/end-user-dashboards.md)
+[Power BI のダッシュ ボード](consumer/end-user-dashboards.md)
 
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)
 

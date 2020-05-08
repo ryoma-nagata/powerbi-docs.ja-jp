@@ -11,10 +11,10 @@ ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e97d2301a77bb3fe4a7a8f4e50f6da73a68842d0
-ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77652544"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop で ArcGIS マップを作成する
@@ -138,7 +138,7 @@ ArcGIS Maps for Power BI では、マップにデータを表示する最適な�
 ![Esri のマップのテーマの例](media/power-bi-visualization-arcgis/power-bi-esri-map-theme-new.png)
 
 <table>
-<tr><th>切り替え</th><th>説明</th>
+<tr><th>切り替え</th><th>Description</th>
 <tr>
 <td>場所のみ</td>
 <td>[場所] バケットに追加したフィールドに基づいて、マップにデータ ポイントまたは塗りつぶされた境界がプロットされます。</td>
@@ -334,7 +334,7 @@ ArcGIS Maps for Power BI は Esri (https://www.esri.com) によって提供さ�
 
 Esri の ArcGIS Maps for Power BI の仕組みの技術的な詳細については、サポート サイトから Esri に問い合わせてください。
 
-**Esri にはどんなデータが送信されますか?**
+**Esri にはどんなデータが送信されますか?** 
 Esri に転送されるデータについては、Esri の[ドキュメント サイト](https://doc.arcgis.com/en/maps-for-powerbi/get-started/data-transfer.htm)を参照してください。
 
 **Power BI の ArcGIS マップを使用する場合、料金はかかりますか。**

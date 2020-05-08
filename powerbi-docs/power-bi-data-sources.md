@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
 ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041679"
 ---
 # <a name="power-bi-data-sources"></a>Power BI データ ソース
@@ -32,7 +32,7 @@ ms.locfileid: "79041679"
 | appFigures | はい | はい | いいえ | いいえ | いいえ |
 | AtScale キューブ | はい | はい | はい | はい | いいえ |
 | Azure Analysis Services | はい | はい | はい | はい <sup>2</sup> | いいえ |
-| Azure Blob Storage | はい | はい | いいえ | はい | いいえ |
+| Azure BLOB Storage | はい | はい | いいえ | はい | いいえ |
 | Azure Cosmos DB | はい | はい | いいえ | いいえ | いいえ |
 | Azure Cost Management | はい | はい | いいえ | いいえ | いいえ |
 | Azure Data Explorer (Kusto) | はい | はい | はい | いいえ | いいえ |
@@ -44,7 +44,7 @@ ms.locfileid: "79041679"
 | Azure HDInsight Spark | はい | はい | はい | いいえ | いいえ |
 | Azure SQL Database | はい | はい | はい | はい <sup>2</sup> | いいえ |
 | Azure SQL Data Warehouse | はい | はい | はい | はい <sup>2</sup> | いいえ |
-| Azure Table Storage | はい | はい | いいえ | はい | いいえ |
+| Azure テーブル ストレージ | はい | はい | いいえ | はい | いいえ |
 | BI コネクタ | はい | はい | はい | はい | はい |
 | BI360 - Budgeting & Financial Reporting | はい | はい | いいえ | いいえ | いいえ |
 | Common Data Service | はい | はい | いいえ | いいえ | いいえ |
@@ -62,10 +62,10 @@ ms.locfileid: "79041679"
 | Exasol | はい | はい | はい | はい | はい |
 | Excel | はい <sup>3</sup> | はい <sup>3</sup> | いいえ | はい <sup>3</sup> | いいえ <sup>4</sup> |
 | Facebook | はい | はい | いいえ | いいえ | いいえ |
-| ファイル | はい | はい | いいえ | はい | はい |
+| から | はい | はい | いいえ | はい | はい |
 | フォルダー | はい | はい | いいえ | はい | はい |
 | GitHub | はい | はい | いいえ | いいえ | いいえ |
-| Google Analytics | はい | はい | いいえ | いいえ | いいえ |
+| Google アナリティクス | はい | はい | いいえ | いいえ | いいえ |
 | Google BigQuery | はい | はい | いいえ | いいえ | いいえ |
 | Hadoop ファイル (HDFS) | はい | いいえ | いいえ | いいえ | いいえ |
 | HDInsight 対話型クエリ | はい | はい | はい | いいえ | いいえ |
@@ -101,7 +101,7 @@ ms.locfileid: "79041679"
 | Planview Projectplace | はい | はい | いいえ | いいえ | いいえ |
 | PostgreSQL | はい | はい | はい | はい | いいえ |
 | Power BI データフロー | はい | はい | いいえ | いいえ | いいえ |
-| Power BI データセット | はい | はい | はい | いいえ | いいえ |
+| Power BI データ セット | はい | はい | はい | いいえ | いいえ |
 | Power Platform データフロー | はい | はい | いいえ | いいえ | いいえ |
 | Python スクリプト | はい | はい <sup>5</sup> | いいえ | はい <sup>5</sup> | はい |
 | QubolePresto | はい | はい | はい | はい | はい |
@@ -172,7 +172,7 @@ SSO オプションは、このデータ ソースを使うすべてのデータ
 > [!Note]
 > Azure Multi-Factor Authentication (MFA) はサポートされていません。 DirectQuery で SSO を使用する必要があるユーザーは、MFA から除外する必要があります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI Desktop でデータに接続する](desktop-quickstart-connect-to-data.md)  
 [Power BI で DirectQuery を使用する](desktop-directquery-about.md)  

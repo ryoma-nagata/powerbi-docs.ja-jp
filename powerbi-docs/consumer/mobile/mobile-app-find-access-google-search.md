@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 ms.openlocfilehash: 177f029073320c8db68b532fdb282b745c69a408
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802642"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>Google Search でコンテンツを検索してアクセスする
@@ -35,7 +35,7 @@ Google 検索ボックスでは、***search for &lt;検索項目&gt; in power bi
 
 ![Android 用 Power BI モバイル アプリでの Google Search の結果](media/mobile-app-find-access-google-search/mobile-google-search.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI Android アプリで Android アプリのショートカットを使用する](mobile-app-quick-access-shortcuts.md)
 * [iOS デバイスの検索 (Spotlight) と Power BI Mobile iOS アプリとの統合](mobile-apps-ios-search-integration.md)
 * [Power BI モバイル アプリのお気に入り](mobile-apps-favorites.md)

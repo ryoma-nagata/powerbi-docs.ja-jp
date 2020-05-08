@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/07/2020
 ms.author: maggies
 ms.openlocfilehash: 33c4f7b208916c2d920591acfc444f52c7655e47
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78919539"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server のページ分割されたレポートを作成する
 この記事では、いくつかの簡単な手順で、Power BI Report Server のページ分割されたレポートを作成します。
 
-Power BI サービスのレポート ビルダーでのページ分割されたレポートの作成に関するヘルプをお探しですか? この場合は「[Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)」を参照してください。
+Power BI サービスのレポート ビルダーでのページ分割されたレポートの作成に関するヘルプをお探しですか?  この場合は「[Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)」を参照してください。
 
 名前からわかるように、ページ分割されたレポートは多数のページに対して実行できます。 固定形式でレイアウトされた、正確なカスタマイズを提供します。 ページ分割されたレポートは .rdl ファイルです。
 

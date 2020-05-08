@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205529"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリにおけるダッシュボードとレポートの表示
@@ -30,7 +30,7 @@ ms.locfileid: "79205529"
 モバイル デバイスでダッシュボードとレポートを表示するには、Web ブラウザーでこれらを作成するか、これらに接続する必要があります。 
 
 1. Power BI サービス ([https://www.powerbi.com](https://www.powerbi.com)) に移動し、[アカウントにサインアップします](../../service-self-service-signup-for-power-bi.md)。
-2. [独自の Power BI ダッシュボードやレポートを作成する](../../service-get-started.md)か、[Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) など、さまざまなサービス向けの既存の [Power BI アプリ](../../service-connect-to-services.md)に接続します。
+2. [独自の Power BI ダッシュボードやレポートを作成する](../../service-get-started.md)か、[Microsoft Dynamics CRM](../../service-connect-to-services.md) など、さまざまなサービス向けの既存の [Power BI アプリ](../../service-connect-to-microsoft-dynamics-crm.md)に接続します。
 
 ここで Power BI サービスでの Power BI ダッシュボードを示します。
 
@@ -59,7 +59,7 @@ ms.locfileid: "79205529"
     または、電話を横向きに変えるだけで、電話のダッシュボードは横モードで表示されます。
    
     ![ダッシュ ボードの横向きビュー](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
-3. ダッシュボードのすべてのタイルを参照するには、上下にスワイプします。 次の操作を実行できます。
+3. ダッシュボードのすべてのタイルを参照するには、上下にスワイプします。 次のことが行えます。
    
    * [タイルをタップ](mobile-tiles-in-the-mobile-apps.md)してフォーカス モードで開き、操作します。
    * 星 ![お気に入りの星](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) をタップして[お気に入りに追加](mobile-apps-favorites.md)します。
@@ -102,7 +102,7 @@ ms.locfileid: "79205529"
 ## <a name="view-dashboards-on-your-android-phone"></a>Android フォンでダッシュボードを表示する
 1. Android フォンで Power BI アプリを開き、サインインします。
    
-   必要なら、最初に [Android アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)します。
+   最初に [Android アプリをダウンロードする](https://go.microsoft.com/fwlink/?LinkID=544867)必要がありますか。
 2. ダッシュボードをタップして開きます。   
    
    ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -126,7 +126,7 @@ ms.locfileid: "79205529"
 ## <a name="view-dashboards-on-your-android-tablet"></a>Android タブレットでダッシュボードを表示する
 1. Android タブレットで Power BI アプリを開き、サインインします。
    
-   必要なら、最初に [Android アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)します。
+   最初に [Android アプリをダウンロードする](https://go.microsoft.com/fwlink/?LinkID=544867)必要がありますか。
 2. ダッシュボードをタップして開きます。   
    
    ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -152,9 +152,9 @@ ms.locfileid: "79205529"
 
 ダッシュボードの Phone ビューの作成の詳細については、[こちら](../../service-create-dashboard-mobile-phone-view.md)を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * Google プレイから [Android アプリをダウンロードする](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI 用 Android アプリの概要](mobile-android-app-get-started.md)  
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

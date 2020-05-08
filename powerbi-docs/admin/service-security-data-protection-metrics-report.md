@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79112503"
 ---
 # <a name="data-protection-metrics-report-preview"></a>データ保護メトリック レポート (プレビュー)
@@ -52,7 +52,7 @@ ms.locfileid: "79112503"
 * データ保護メトリック レポートから Power BI 管理者以外のユーザーと情報を共有する場合、このレポートには組織に関する機密情報が含まれていることに注意してください。
 * データ保護メトリック レポートは特殊なレポートであり、[自分と共有]、[最近使用]、[お気に入り] の一覧には表示されません。
 * データ保護メトリック レポートは、[外部ユーザー (Azure Active Directory B2B ゲスト ユーザー) は使用できません](../service-admin-azure-ad-b2b.md)。
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI におけるデータ保護 (プレビュー)](./service-security-data-protection-overview.md)
 * [Power BI で Microsoft Cloud App Security の制御を使用する (プレビュー)](./service-security-using-microsoft-cloud-app-security-controls.md)
 * [Power BI サービス管理者の役割について](../service-admin-role.md)

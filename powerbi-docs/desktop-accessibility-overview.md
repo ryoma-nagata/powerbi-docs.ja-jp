@@ -10,10 +10,10 @@ ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609850"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI でのユーザー補助の概要
@@ -48,7 +48,7 @@ Web Content Accessibility Guidelines (WCAG) は、障碍のある方が Web コ�
 
 EN 301 549 は、ICT 製品とサービスのアクセシビリティ要件に関する欧州整合規格です。  
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI のアクセシビリティの詳細については、次のリソースを参照してください。
 

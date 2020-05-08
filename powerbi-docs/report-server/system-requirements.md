@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/20/2020
 ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77558571"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI レポート サーバーをインストールするためのハードウェアとソフトウェアの要件
@@ -25,9 +25,9 @@ ms.locfileid: "77558571"
 | --- | --- |
 | .NET Framework |4.7<br><br>.NET Framework は、[Windows 用 Microsoft.NET Framework 4.7 (Web インストーラー)](https://support.microsoft.com/en-us/kb/3186500) から手動でインストールできます。<br/><br/> .NET Framework 4.7 の詳細情報、推奨事項、およびガイダンスについては、「[.NET Framework 配置ガイド (開発者向け)](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers)」を参照してください。<br/><br/>Windows 8.1 および Windows Server 2012 R2 では、.NET Framework 4.7 をインストールする前に、[KB2919355](https://support.microsoft.com/kb/2919355) をインストールする必要があります。 |
 | ハード ディスク |Power BI レポート サーバーには、最低 1 GB の使用可能なハード ディスク空き領域が必要です。<br><br>レポート サーバーのデータベースをホストしているデータベース サーバーには、追加の領域が必要です。 |
-| メモリ |**最小:** 1 GB<br/><br/> **推奨:** 4 GB 以上 |
-| プロセッサ速度 |**最低:** x64 プロセッサ:1.4 GHz<br/><br/> **推奨:** 2.0 GHz 以上 |
-| プロセッサの種類 |x64 プロセッサ:AMD Opteron、AMD Athlon 64、Intel Xeon (Intel EM64T サポート付き)、Intel Pentium IV (EM64T サポート付き) |
+| メモリ |**最低:** 1 GB<br/><br/> **推奨:** 4 GB 以上 |
+| プロセッサ速度 |**最低:** x64 プロセッサ: 1.4 GHz<br/><br/> **推奨:** 2.0 GHz 以上 |
+| プロセッサの種類 |x64 プロセッサ: AMD Opteron、AMD Athlon 64、Intel Xeon (Intel EM64T サポート付き)、Intel Pentium IV (EM64T サポート付き) |
 | オペレーティング システム |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
 > [!NOTE]
@@ -49,7 +49,7 @@ SQL Server は、レポート サーバー データベースをホストする�
 
 ## <a name="considerations"></a>考慮事項
 
-Power BI レポート サーバーは、既定値をインストールして、レポート サーバーの動作に必要なコア設定を構成します。 次の要件があります。
+Power BI レポート サーバーは、既定値をインストールして、レポート サーバーの動作に必要なコア設定を構成します。 これには次の要件があります。
 
 * Power BI Report Server でサポートされている言語は、英語、ドイツ語、スペイン語、日本語、イタリア語、フランス語、ロシア語、簡体中国語、繁体中国語、ポルトガル語 (ブラジル)、韓国語です
 * セットアップが終了した後、レポート サーバー用にデータベースを構成する前に、SQL Server データベース エンジンを使用できる状態にする必要があります。 データベース エンジンのインスタンスは、Reporting Services Configuration Manager が作成するレポート サーバー データベースをホストします。 データベース エンジンは、実際のセットアップ エクスペリエンスには必要ありません。
@@ -60,7 +60,7 @@ Power BI レポート サーバーは、既定値をインストールして、�
 
 ## <a name="read-only-domain-controller-rodc"></a>読み取り専用ドメイン コントローラー (RODC)
 
- 読み取り専用ドメイン コント ローラー (RODC) が存在する環境に、レポート サーバーをインストールできます。 ただし、Reporting Services が正常に機能するには、読み取り/書き込み可能なドメイン コントローラーへのアクセスが必要です。 Reporting Services が RODC にしかアクセスできない場合は、サービスを管理しようとするとエラーが発生する可能性があります。
+ 読み取り専用ドメイン コント ローラー (RODC) が存在する環境に、レポート サーバーをインストールできます。 ただし、Reporting Services が正常に機能するには、読み取り/書き込み可能なドメイン コントローラーへのアクセスが必要です。 Reporting Services が、RODC にのみアクセスできる場合、サービスを管理しようとするときにエラーが発生する可能性があります。
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI レポートおよび Analysis Services のライブ接続
 
@@ -72,7 +72,7 @@ Power BI レポート サーバーは、既定値をインストールして、�
 | 2014 |Business Intelligence と Enterprise SKU |
 | 2016 以降 |Standard SKU 以上 |
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI Report Server とは](get-started.md)  
 [管理者の概要](admin-handbook-overview.md)  

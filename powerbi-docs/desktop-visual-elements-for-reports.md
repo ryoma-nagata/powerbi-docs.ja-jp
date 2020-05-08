@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 86728adbad8a96875fc21bb9fe5c5267a2ce6651
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206357"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>ビジュアル要素を使用して Power BI レポートを強化する
@@ -57,10 +57,10 @@ ms.locfileid: "79206357"
 
 ![50% を超える透明度を設定すると、点線の境界線が表示されます](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
-レポートの編集中に*のみ*点線の境界線が表示され、**Power BI サービス**で表示する場合など、発行されたレポートを表示するユーザーには表示*されない*点に注意してください。
+レポートの編集中に*のみ*点線の境界線が表示され、*Power BI サービス*で表示する場合など、発行されたレポートを表示するユーザーには表示**されない**点に注意してください。
 
 > [!NOTE]
-> 壁紙に濃色の背景を使用して、テキストの色に白または非常に明るい色を設定した場合は、 **[PDF にエクスポート]** 機能には壁紙が含まれません。そのため、白のフォントでエクスポートしたものは、エクスポートされた PDF ファイルでほぼ表示されないことに注意してください。 **[PDF にエクスポート]** の詳細については、[PDF へのエクスポート](desktop-export-to-pdf.md)に関するページを参照してください。
+> 壁紙に濃色の背景を使用して、テキストの色に白または非常に明るい色を設定した場合は、 **[PDF にエクスポート]** 機能には壁紙が含まれません。そのため、白のフォントでエクスポートしたものは、エクスポートされた PDF ファイルでほぼ表示されないことに注意してください。 [[PDF にエクスポート]](desktop-export-to-pdf.md) の詳細については、**PDF へのエクスポート**に関するページを参照してください。
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Power BI レポートで改善されたビジュアル ヘッダーを使用する
@@ -97,7 +97,7 @@ ms.locfileid: "79206357"
 ![既存のレポートで改善されたビジュアル ヘッダーを使用するには、[オプション] チェック ボックスをオンにする必要があります](media/desktop-visual-elements-for-reports/visual-elements-for-reports_06.png)
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 **Power BI Desktop** と作業の開始方法の詳細については、次の記事を確認してください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)

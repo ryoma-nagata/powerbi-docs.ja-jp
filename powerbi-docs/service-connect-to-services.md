@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975035"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI で使用するサービスに接続する
@@ -29,7 +29,7 @@ Power BI にサインインし、[接続できるすべてのサービス](https
 
 ![Power BI モバイル アプリの Google アナリティクス アプリ](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
-## <a name="get-started"></a>作業の開始
+## <a name="get-started"></a>はじめに
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="edit-the-dashboard-and-reports"></a>ダッシュ ボードとレポートを編集する
@@ -55,7 +55,7 @@ Power BI にサインインし、[接続できるすべてのサービス](https
 **タイルが空になっている**  
 Power BI が初めてサービスに接続するとき、ダッシュボードに空のタイル セットが表示されることがあります。 2 時間後、空のダッシュボードが依然として表示される場合、接続に失敗した可能性があります。 問題の修正の関する情報を含むエラー メッセージが表示されなかった場合、サポート チケットを利用してください。
 
-* 右上隅にある疑問符アイコン (**?**) を選択し、**[ヘルプを取得]** を選択します。
+* 右上隅にある疑問符アイコン ( **?** ) を選択し、 **[ヘルプを取得]** を選択します。
   
     ![[ヘルプを取得] アイコン](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -67,8 +67,8 @@ Power BI アプリにしてほしいサービスがある場合は、 [[Power BI
 
 自分で配布するテンプレート アプリを作成する場合、「[Create a template app in Power BI](service-template-apps-create.md)」 (Power BI でテンプレート アプリを作成する) を参照してください。 Power BI パートナーは、ほとんどまたはまったくコーディングせずに Power BI アプリを作成し、Power BI ユーザーに展開することができます。 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [同僚にアプリを配布する](service-create-distribute-apps.md)
 * [Power BI で新しいワークスペースを作成する](service-create-the-new-workspaces.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

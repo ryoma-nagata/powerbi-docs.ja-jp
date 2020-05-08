@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376824"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A で質問するためのヒント
@@ -50,10 +50,10 @@ ms.locfileid: "79376824"
 |    |  例: count of orders in the past 6 days (過去 6 日間の注文数)  |            |
 |        |         |
 |**等しさ (範囲)**     |   in、equal to、=、after、is more than、in、between、before  |
-|  |例:Order year is before 2012? (注文した年が 2012 年より前であるか?) Price equals between 10 and 20? (価格が 10 と 20 の間に等しいか?) Is the age of John greater than 40? (John の年齢は 40 より上か?) Total sales in 200-300? (売上合計が 200-300 の範囲か?)              |
+|  |例:Order year is before 2012? (注文した年が 2012 年より前であるか?) Price equals between 10 and 20? (価格が 10 と 20 の間に等しいか?)  Is the age of John greater than 40? (John の年齢は 40 より上か?)  Total sales in 200-300? (売上合計が 200-300 の範囲か?)              |
 |        |         |
 |**等しさ (値)**     |   is、equal、equal to、in、of、for、within、is in、is on |
-|   | 例:Which products are green? (どの商品が緑ですか?) Order date equals 2012. (注文日が 2012 に等しい) Is the age of John 40? (John の年齢は 40 か?) Total sales that aren't equal to 200? (200 に等しくない売上合計は?) Order date of 1/1/2016. (注文日が 1/1/2016) 10 in price? (価格が 10?) Green for color? (色は緑?) 10 in price? (価格が 10?)              |
+|   | 例:Which products are green? (どの商品が緑ですか?) Order date equals 2012. (注文日が 2012 に等しい) Is the age of John 40? (John の年齢は 40 か?)  Total sales that aren't equal to 200? (200 に等しくない売上合計は?) Order date of 1/1/2016. (注文日が 1/1/2016)  10 in price? (価格が 10?) Green for color? (色は緑?) 10 in price? (価格が 10?)              |
 |        |         |
 |**名前**     |       データセット内の列に "name" (名) という語が含まれている場合 (EmployeeName (社員名) など)、Q&A ではその列の値が名前であると理解されます。 "which employees are named robert" (robert という名前の社員はどれか) のような質問をすることができます。          |
 |        |         |

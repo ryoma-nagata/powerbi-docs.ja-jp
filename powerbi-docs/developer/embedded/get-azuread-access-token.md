@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
 ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114522"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI アプリケーション用の Azure AD アクセス トークンを取得する
@@ -172,7 +172,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 ### <a name="access-token-with-service-principal"></a>アクセス トークンとサービス プリンシパル
 
-この手法では、**アプリ専用**トークンである[サービス プリンシパル](embed-service-principal.md)を使用します。 アプリケーションは、サービス プリンシパルを使用して Azure AD に対する認証を行います。 次に示すコード例は、[アプリ所有データ サンプル](https://github.com/guyinacube/PowerBI-Developer-Samples)のものです
+この手法では、[アプリ専用](embed-service-principal.md)トークンである**サービス プリンシパル**を使用します。 アプリケーションは、サービス プリンシパルを使用して Azure AD に対する認証を行います。 次に示すコード例は、[アプリ所有データ サンプル](https://github.com/guyinacube/PowerBI-Developer-Samples)のものです
 
 #### <a name="embedservicecs"></a>EmbedService.cs
 
@@ -202,7 +202,7 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
    このエラーが表示された場合、[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) のダウンロードをお試しください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 アクセス トークンを入手したので、Power BI REST API を呼び出してコンテンツを埋め込むことができます。 詳細については、[Power BI コンテンツを埋め込む方法](embed-sample-for-customers.md#embed-content-within-your-application)に関するページをご覧ください。
 

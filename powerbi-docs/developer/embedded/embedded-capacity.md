@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
 ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79492838"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI Embedded の分析の容量と SKU
@@ -112,8 +112,8 @@ Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されて
 <td style="text-align: center">✔</td>
 </tr>
 <tr>
-<td rowspan="3">Power BI コンテンツ<br>(無料の Power BI ライセンスを使用)</td>
-<td>Power BI サービス</td>
+<td rowspan="3">Power BI content<br>(無料の Power BI ライセンスを使用)</td>
+<td>ダッシュボード</td>
 <td style="text-align: center">✖</td>
 <td style="text-align: center">✖</td>
 <td style="text-align: center">✔</td>
@@ -147,7 +147,7 @@ Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されて
 </tr>
 <tr>
 <td><p><strong>プラン</strong></p></td>
-<td style="text-align: center;"><p>Azure</p></td>
+<td style="text-align: center;"><p>アジュール</p></td>
 <td style="text-align: center;" colspan="2"><p>Office</p></td>
 </tr>
 <tr>
@@ -158,7 +158,7 @@ Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されて
 </tr>
 <tr>
 <td><p><strong>Billing</strong></td>
-<td style="text-align: center;">1 時間ごと</td>
+<td style="text-align: center;">時間単位</td>
 <td style="text-align: center;">月単位</td>
 <td style="text-align: center;">月単位</td>
 </tr>
@@ -185,7 +185,7 @@ Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されて
 | 容量ノード | 合計 v コア数 | バックエンド v コア数 | RAM (GB) | フロントエンド v コア数 | DirectQuery/ライブ接続 (秒あたり) | モデル更新並列処理 |
 | --- | --- | --- | --- | --- | --- | --- |
 | EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
-| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
+| EM2/A2 | 2 | 1 | 8 | 1 | 7.5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
@@ -194,7 +194,7 @@ Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されて
 | P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 > [!div class="nextstepaction"]
 >[顧客向けに埋め込む](embed-sample-for-customers.md)

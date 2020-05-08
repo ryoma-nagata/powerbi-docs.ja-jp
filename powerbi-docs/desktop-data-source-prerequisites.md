@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 498636d61f61764cfaef29db32454f55f1328243
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78401218"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI データ ソースの前提条件
@@ -25,7 +25,7 @@ Power BI は、データ プロバイダーごとにオブジェクトの特定�
 | アクセス |Microsoft Access データベース (ACE) |ACE 2010 SP1 |制限なし |テーブル/ビュー |[ダウンロード リンク](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Excel (.xls ファイルのみ) (注 1 を参照) |Microsoft Access データベース (ACE) |ACE 2010 SP1 |制限なし |テーブル、シート |[ダウンロード リンク](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Oracle (注 2 を参照) |ODP.NET |ODAC 11.2 リリース 5 (11.2.0.3.20) |9.x 以降 |テーブル/ビュー |[ダウンロード リンク](https://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
-| | System.Data.OracleClient (.Net Framework に組み込み) |.NET Framework 3.5 |9.x 以降 |テーブル/ビュー |.NET Framework 3.5 以降に含まれる |
+| | System.Data.OracleClient (.Net Framework に組み込み) |.NET Framework 3.5 |9.x 以降 |テーブル/ビュー |.NET framework 3.5 以降に含まれる |
 | IBM DB2 |IBM の ADO.Net クライアント (IBM データ サーバー ドライバー パッケージの一部) |10.1 |9.1+ |テーブル/ビュー |[ダウンロード リンク](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |コネクタ/Net |6.6.5 |5.1 |テーブル/ビュー、スカラー関数 |[ダウンロード リンク](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
 | PostgreSQL |NPGSQL ADO.NET プロバイダー (Power BI Desktop に付属) |4.0.10 |9.4 |テーブル/ビュー |[ダウンロード リンク](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
