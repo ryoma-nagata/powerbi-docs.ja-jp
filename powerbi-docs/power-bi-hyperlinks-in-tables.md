@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381263"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>テーブルまたはマトリックスにハイパーリンク (URL) を追加する
@@ -92,7 +92,7 @@ URL を含むフィールドは、Power BI Desktop ではハイパーリンク�
     ![Web URL の条件付き書式](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
 
     > [!NOTE]
-    > **[Web URL]** オプションが表示されていない場合、ハイパーリンクが含まれる列が **[データ カテゴリ]** ドロップダウン ボックスで **[Web URL]** として書式設定されて "*いない*" ことを確認してください。
+    > **[Web URL]** オプションが表示されていない場合、ハイパーリンクが含まれる列が *[データ カテゴリ]* ドロップダウン ボックスで **[Web URL]** として書式設定されて "**いない**" ことを確認してください。
 
 5. **[Web URL]** ダイアログ ボックスで、 **[フィールドに基づく]** ボックスで URL を含むフィールドを選択し、 **[OK]** を選択します。
 
@@ -141,11 +141,11 @@ URL は、次のいずれかで始まる必要があります。
 - news
 - telnet
 
-Q:カスタム URL を、テーブルまたはマトリックス内のハイパーリンクとして使用できますか。    
-回答:いいえ。 リンク アイコンを使用できます。 ハイパーリンク用のカスタム テキストが必要で、URL の一覧が短い場合には、代わりにテキスト ボックスを使うことができます。
+Q: カスタム URL を、テーブルまたはマトリックス内のハイパーリンクとして使用できますか。    
+A: いいえ。 リンク アイコンを使用できます。 ハイパーリンク用のカスタム テキストが必要で、URL の一覧が短い場合には、代わりにテキスト ボックスを使うことができます。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI レポートでの視覚化](visuals/power-bi-report-visualizations.md)
 
 [Power BI サービスのデザイナー向けの基本的な概念](service-basic-concepts.md)

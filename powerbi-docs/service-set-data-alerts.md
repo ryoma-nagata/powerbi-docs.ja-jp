@@ -11,10 +11,10 @@ ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621626"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI サービスのデータ アラート
@@ -89,7 +89,7 @@ Amanda がダッシュボードのタイルにいくつかのアラートを追�
 
 ### <a name="from-the-dashboard-tile"></a>ダッシュボード タイルから
 
-1. タイルのアラートを変更または削除する必要がある場合は、ベルのアイコン ![アラート アイコン](media/service-set-data-alerts/power-bi-bell-icon.png) を選択して **[アラートの管理]** ウィンドウを再び開きます。
+1. タイルのアラートを変更または削除する必要がある場合は、ベルのアイコン **アラート アイコン** を選択して ![[アラートの管理]](media/service-set-data-alerts/power-bi-bell-icon.png) ウィンドウを再び開きます。
 
     Power BI によりこのタイルに設定したアラートが表示されます。
 
@@ -107,7 +107,7 @@ Amanda がダッシュボードのタイルにいくつかのアラートを追�
 
 1. Power BI のメニュー バーから歯車アイコンを選択し、 **[設定]** を選択します。
 
-    ![歯車アイコン](media/service-set-data-alerts/powerbi-gear-icon.png).
+    ![歯車アイコン](media/service-set-data-alerts/powerbi-gear-icon.png)。
 
 1. **[設定]** の **[アラート]** を選択します。
 
@@ -123,7 +123,7 @@ Amanda がダッシュボードのタイルにいくつかのアラートを追�
 * KPI、カード、またはゲージ レポート ビジュアルを作成し、そのビジュアルをダッシュボードにピン留めした場合、アラートはストリーミング データセットでのみ動作します。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [データ アラートを含む Power Automate を作成する](service-flow-integration.md)。
 

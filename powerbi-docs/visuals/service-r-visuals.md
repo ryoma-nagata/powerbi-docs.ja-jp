@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979824"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI で R ビジュアルを作成して使用する
@@ -75,10 +75,10 @@ Power BI 無料版のユーザーは、Premium ワークスペースで共有さ
 
 |  |Power BI Desktop で R ビジュアルを作成する  | R ビジュアルを使って PBI サービス レポートを作成する |レポートで R ビジュアルを表示する  | ダッシュボードで R タイルを表示する |
 |---------|---------|---------|---------|--------|
-|**ゲスト** (Power BI embedded)     |  サポートされている|  サポートされていません      | Premium/Azure 容量のみでサポートされている  | Premium/Azure 容量のみでサポートされている |
-|**アンマネージド テナント** (未確認のドメイン) | サポートされている | サポートされていません |  サポートされていません |サポートされている (B2B のシナリオ) |
-|無料ライセンスの**マネージド テナント**    |  サポートされている       |  サポートされていません       |    Premium 容量のみでサポートされている    | サポートされている |
-Pro ライセンスを持つ**マネージド テナント**     |   サポートされている      | サポートされている      | サポートされている    |サポートされている|
+|**ゲスト** (Power BI embedded)     |  サポートされています|  サポートされていません      | Premium/Azure 容量のみでサポートされている  | Premium/Azure 容量のみでサポートされている |
+|**アンマネージド テナント** (未確認のドメイン) | サポートされています | サポートされていません |  サポートされていません |サポートされている (B2B のシナリオ) |
+|無料ライセンスの**マネージド テナント**    |  サポートされています       |  サポートされていません       |    Premium 容量のみでサポートされている    | サポートされています |
+Pro ライセンスを持つ**マネージド テナント**     |   サポートされています      | サポートされています      | サポートされています    |サポートされています|
 
 
 
@@ -116,7 +116,7 @@ R パッケージは、適切に定義された形式で結合された R 関数
 
 **Power BI Desktop** では、どのような種類の R パッケージでも制限なく使うことができます。 **Power BI Desktop** で使う R パッケージをユーザー自身がインストールできます (たとえば、[RStudio IDE](https://www.rstudio.com/) を使って)。
 
-**Power BI サービス**の R ビジュアルは、[この記事](../service-r-packages-support.md)の「**サポートされるパッケージ**」セクションで示されているパッケージによってサポートされます。 サポートされるパッケージの一覧に目的のパッケージがない場合は、パッケージのサポートを要求できます。 サポートを要求する方法については、「[Power BI サービスの R パッケージ](../service-r-packages-support.md)」を参照してください。
+**Power BI サービス**の R ビジュアルは、**この記事**の「[サポートされるパッケージ](../service-r-packages-support.md)」セクションで示されているパッケージによってサポートされます。 サポートされるパッケージの一覧に目的のパッケージがない場合は、パッケージのサポートを要求できます。 サポートを要求する方法については、「[Power BI サービスの R パッケージ](../service-r-packages-support.md)」を参照してください。
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>R パッケージの要件と制限事項
 R パッケージにはいくつかの要件と制限があります。

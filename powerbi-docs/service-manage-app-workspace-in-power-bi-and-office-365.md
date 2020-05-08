@@ -10,10 +10,10 @@ ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 72694ea771950b4a12427e0a0696e221fbe993bf
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78237847"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Power BI と Office 365 でワークスペースを管理する
@@ -71,7 +71,7 @@ Outlook for Office 365 でワークスペースの側面を直接編集するこ
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>イメージを追加してその他のワークスペースのプロパティを設定する
 
-ワークスペースからアプリを配布するときに、ここで追加したイメージがアプリのイメージになります。 **新しいワークスペースの作成**に関する記事の「[Office 365 ワークスペースにイメージを追加する](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional)」を参照してください。
+ワークスペースからアプリを配布するときに、ここで追加したイメージがアプリのイメージになります。 [新しいワークスペースの作成](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional)に関する記事の「**Office 365 ワークスペースにイメージを追加する**」を参照してください。
 
 1. ワークスペースの Outlook for Office 365 で、 **[バージョン情報]** タブにアクセスし、 **[編集]** を選択します。
 
@@ -82,7 +82,7 @@ Outlook for Office 365 でワークスペースの側面を直接編集するこ
 
 1. **[保存]** または **[破棄]** を選択します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [Power BI でアプリを発行する](service-create-distribute-apps.md)
 

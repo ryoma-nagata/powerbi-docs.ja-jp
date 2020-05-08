@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381470"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI レポートでの視覚エフェクト
@@ -27,7 +27,7 @@ ms.locfileid: "79381470"
 
 ![各ビジュアルの種類のアイコンがあるペイン](media/power-bi-report-visualizations/power-bi-icons.png)
 
-この他にも多くの選択肢があります。[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)にアクセスし、Microsoft およびコミュニティによって提供されている [Power BI ビジュアル](../developer/visuals/custom-visual-develop-tutorial.md)を見つけて、[ダウンロード](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)してください。
+この他にも多くの選択肢があります。[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)にアクセスし、Microsoft およびコミュニティによって提供されている [Power BI ビジュアル](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)を見つけて、[ダウンロード](../developer/visuals/custom-visual-develop-tutorial.md)してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -36,11 +36,11 @@ Power BI を初めて使用する場合や、復習したい場合は、以下�
 
 ## <a name="add-a-visualization-in-power-bi"></a>Power BI での視覚化の追加
 
-レポートのページに[視覚エフェクトを作成](power-bi-report-add-visualizations-i.md)します。 [使用できる視覚エフェクトと使用できる視覚エフェクトのチュートリアルの一覧を参照](power-bi-visualization-types-for-reports-and-q-and-a.md)します。 
+レポートのページに[視覚エフェクトを作成](power-bi-report-add-visualizations-i.md)します。 [使用できる視覚化と使用できる視覚化のチュートリアルの一覧](power-bi-visualization-types-for-reports-and-q-and-a.md)を参照します。 
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>カスタムの視覚化をアップロードして Power BI で使用する
 
-自分で作成した、または [Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)で見つけたカスタムの視覚エフェクトを追加します。 自分でカスタマイズする場合は、 ソース コードを調べ、[開発者ツール](../developer/visuals/custom-visual-develop-tutorial.md)を使用して新しい視覚化の種類を作成して、[コミュニティと共有](../developer/visuals/office-store.md)してください。 カスタム ビジュアルの開発について詳しくは、「[Power BI カスタム ビジュアルを開発する](../developer/visuals/custom-visual-develop-tutorial.md)」をご覧ください。
+自分で作成した、または [Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)で見つけたカスタムの視覚エフェクトを追加します。 このサイトには、カスタムの視覚化が追加されており、ダウンロードしてダッシュボードやレポートに使用することができます。 ソース コードを調べ、[開発者ツール](../developer/visuals/custom-visual-develop-tutorial.md)を使用して新しい視覚化の種類を作成して、[コミュニティと共有](../developer/visuals/office-store.md)してください。 カスタム ビジュアルの開発について詳しくは、「[Power BI カスタム ビジュアルを開発する](../developer/visuals/custom-visual-develop-tutorial.md)」をご覧ください。
 
 ## <a name="personalize-your-visualization-pane-preview"></a>個人設定された [視覚化] ウィンドウ (プレビュー)
 
@@ -67,7 +67,7 @@ Power BI サービスでは、希望する視覚エフェクトができたら�
 
 - ビジュアルの上限は、フィールド 100 個です (メジャーまたは列)。 ビジュアルの読み込みに失敗した場合は、フィールド数を減らします。   
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Power BI ビジュアル](../developer/visuals/power-bi-custom-visuals.md)
