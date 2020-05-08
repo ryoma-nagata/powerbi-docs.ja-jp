@@ -1,16 +1,16 @@
 ---
 title: パートナーのプリセールス ラーニング カタログ
-description: Power Apps のすべてのトレーニング オプションを検索する
+description: Power Apps のすべてのトレーニング オプションを示します
 author: loreleishannonmsft
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: 04a6589b4adb769caf2a7901d112db7c054a5764
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268399"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>パートナーのプリセールス ラーニング カタログ
@@ -20,9 +20,9 @@ ms.locfileid: "81268399"
 次のカタログは、コア知識から特定のドメインへと、また最も基本的なものから最も高度なものへと分類されています。 コンテンツが複数の形式で存在する場合は、お客様のニーズに最も合ったトレーニング形式を選択できるように、お知らせいたします。
 
 ## <a name="get-started"></a>はじめに<a name="get-started"></a>
-| コンテンツ  | Description | 書式  | 長さ   |
+| Content  | Description | 形式  | 長さ   |
 |-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------|
 | [Microsoft Power Platform の基礎](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/)   | Power Platform のビジネス価値と製品機能について説明します。 シンプルな PowerApp を作成し、CDS を使用してデータに接続し、Power BI ダッシュボードを構築し、Microsoft Flow を使用してプロセスを自動化します。   | 無料、マイペースで進められるオンライン ラーニング パス | 2 時間 42 分   |
-| [Microsoft Power BI YouTube チャネル](https://www.youtube.com/user/mspowerbi/videos)                                                 | Microsoft の Power BI 製品チームのコンテンツを含む YouTube チャンネル  | ビデオ |             |
+| [Microsoft Power BI の YouTube チャンネル](https://www.youtube.com/user/mspowerbi/videos)                                                 | Microsoft の Power BI 製品チームのコンテンツを含む YouTube チャンネル  | ビデオ |             |
 | [Star Wars データを使用した Power BI の最も高度な機能のチュートリアル - Gil Raviv](https://www.youtube.com/watch?v=r0Qk5V8dvgg) | フル スタック Power BI のジェダイになる – Star Wars データを使用した Power BI の最も高度な機能のチュートリアル - Gil Raviv  | YouTube ビデオ   | 58 分 51 秒 |
 | [Power BI Report Server の新機能とおすすめの機能](https://info.microsoft.com/whats-new-powerbi-report-server-ondemand.html)       | Power BI が大好きですが、現在オンプレミスのソリューションは必要ですか? セルフサービス分析とエンタープライズ レポート用のオールインワンのオンプレミス ソリューションである Power BI Report Server の詳細について学習します。Power BI Desktop で美しい対話型レポートをデザインし、Power BI Report Server に発行し、ご利用のスマートフォンの Web ブラウザーまたは Power BI アプリで表示してやりとりします。 さらに、Power BI Report Server には SQL Server Reporting Services の実証済みのエンタープライズ レポート機能が含まれているため、既存の Reporting Services レポートを実行することもできます。 | ウェビナー   |             |

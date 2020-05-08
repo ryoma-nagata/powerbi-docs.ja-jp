@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762280"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI Q&A のビジュアル化の概要
@@ -39,13 +39,13 @@ Q&A ビジュアルは、4 つのコア コンポーネントで構成されて�
 
 1. このチュートリアルでは、[売上およびマーケティングのサンプル PBIX ファイル](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)を使います。 
 
-1. Power BI Desktop メニュー バーの左上のセクションで、 **[ファイル]**  >  **[開く]** の順に選択します
+1. Power BI Desktop メニュー バーの左上のセクションで、 **[ファイル]**  >  **[開く]** を選択します
    
 2. **売上およびマーケティングのサンプル PBIX ファイル**のコピーを見つけます
 
-1. レポート ビューでファイルを開きます ![レポート ビューのアイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. レポート ビューでファイルを開きます ![レポート ビューのアイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+1. Select ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
 
 Q&A ビジュアルの作成時にエラーが表示される場合は、[制限事項](../natural-language/q-and-a-limitations.md)に関するセクションを参照して、データソース構成がサポートされているかどうかを確認してください。
@@ -146,7 +146,7 @@ Q&A ビジュアル、質問フィールド、候補の表示方法を書式設�
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 Q&A ビジュアルは Office および Bing と統合され、認識されない一般的な単語とデータセット内のフィールドとの照合を試行します。  
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 自然言語を統合するには、さまざまな方法があります。 詳細については、次の記事を参照してください。
 

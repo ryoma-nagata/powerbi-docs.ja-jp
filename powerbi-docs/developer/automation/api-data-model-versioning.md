@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 76947b1e311bbd1a21e09ce39461a70bed61d926
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079602"
 ---
 # <a name="data-model-versioning"></a>データ モデルのバージョン管理
@@ -36,7 +36,7 @@ Power BI データ モデルなど、OData サービスによって公開され�
   
 サービスでは、認証されたユーザーに応じてそのデータ モデルを変更する "***べきではありません***"。 データ モデルがユーザーやユーザー グループに依存する場合は、認証が制限されているユーザーに表示されるモデルと完全なモデルを比較するときに、このセクションで定義されているように、すべての変更は安全な変更である必要があります。  
   
-OData データ モデル標準について詳しくは、「[OData Version 4.0 Part 1:Protocol Plus Errata 02 (OData バージョン 4.0 パート 1: プロトコルと改訂 02)](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)」をご覧ください。  
+OData データ モデル標準の詳細については、[「OData バージョン 4.0 パート 1: Protocol Plus Errata 02」](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html) をご覧ください。  
   
-## <a name="see-also"></a>関連項目
+## <a name="see-also"></a>参照
 [Power BI REST API の概要](https://docs.microsoft.com/rest/api/power-bi/)

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: ccc14cb041c5131d2cb06a8ad362b7054bcde857
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80464691"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium 容量を再起動する
@@ -56,7 +56,7 @@ Power BI では、Premium 容量の利用者をこのような問題から守る
 
 また、定期的に[容量を監視](service-admin-premium-monitor-capacity.md)し、根本的な問題を示す傾向を探すことをお勧めします。 Microsoft は、ユーザーが容量を一層効果的に監視し、管理できるよう、監視アプリやその他のツールを定期的にリリースする予定です。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI Premium とは何ですか?](service-premium-what-is.md)
 

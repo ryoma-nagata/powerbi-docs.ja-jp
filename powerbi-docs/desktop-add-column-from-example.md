@@ -10,10 +10,10 @@ ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: b10bbaa4158e6c5392cb6ed937c54bdbb5d555d2
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76538529"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Power BI Desktop で例から列を追加する
@@ -31,28 +31,28 @@ Power Query エディターの "*例から列を追加する*" で、新しい�
 
 ## <a name="add-a-new-column-from-examples"></a>例から新しい列を追加する
 
-Wikipedia からサンプル データを取得するには、Power BI Desktop リボンの **[ホーム]** タブから **[データを取得]** > **[Web]** を選択します。 
+Wikipedia からサンプル データを取得するには、Power BI Desktop リボンの **[ホーム]** タブから **[データを取得]**  >  **[Web]** を選択します。 
 
 ![Web からデータを取得する](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-表示されるダイアログに次の URL を貼り付け、**[OK]** を選択します。 
+表示されるダイアログに次の URL を貼り付け、 **[OK]** を選択します。 
 
 *https:\//wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States*
 
-**[ナビゲーター]** ダイアログ ボックスで、**[States of the United States of America]** のテーブルを選択し、**[データの変換]** を選択します。 テーブルが Power Query エディターで開きます。
+**[ナビゲーター]** ダイアログ ボックスで、 **[States of the United States of America]** のテーブルを選択し、 **[データの変換]** を選択します。 テーブルが Power Query エディターで開きます。
 
 または、Power BI Desktop から既に読み込まれているデータを開くには、リボンの **[ホーム]** タブで **[クエリを編集]** を選択します。 データが Power Query エディターで開きます。 
 
 ![Power BI Desktop で [クエリを編集] を選択する](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-Power Query エディターでサンプル データが開いたら、リボンで **[列の追加]** を選択し、**[例からの列]** を選択します。 **[例からの列]** アイコン自体を選択して、既存のすべての列から列を作成するか、ドロップダウンの矢印で **[すべての列から]** または **[選択範囲から]** のどちらかを選択します。 このチュートリアルでは、**[すべての列から]** を使用します。
+Power Query エディターでサンプル データが開いたら、リボンで **[列の追加]** を選択し、 **[例からの列]** を選択します。 **[例からの列]** アイコン自体を選択して、既存のすべての列から列を作成するか、ドロップダウンの矢印で **[すべての列から]** または **[選択範囲から]** のどちらかを選択します。 このチュートリアルでは、 **[すべての列から]** を使用します。
 
 ![例からの列の追加を選択する](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="add-column-from-examples-pane"></a>[例から列を追加する] ペイン
-**[列の追加]** > **[例からの列]** を選択すると、**[例から列を追加する]** ペインがテーブルの上部に表示されます。 新しい **[列 1]** が既存の列の右側に表示されます (すべてを表示するにはスクロールする必要がある場合があります)。 **[列 1]** の空白セルに例の値を入力すると、Power BI が例に合ったルールと変換を作成し、それらを使用して列の残りの部分を塗りつぶします。
+**[列の追加]**  >  **[例からの列]** を選択すると、 **[例から列を追加する]** ペインがテーブルの上部に表示されます。 新しい **[列 1]** が既存の列の右側に表示されます (すべてを表示するにはスクロールする必要がある場合があります)。 **[列 1]** の空白セルに例の値を入力すると、Power BI が例に合ったルールと変換を作成し、それらを使用して列の残りの部分を塗りつぶします。
 
-**[例からの列]** は、**[クエリの設定]** ペインの **[Applied Step]\(適用されたステップ\)** としても表示されます。 Power Query エディターは通常どおり変換ステップを記録し、それを順番にクエリに適用します。
+**[例からの列]** は、 **[クエリの設定]** ペインの **[Applied Step]\(適用されたステップ\)** としても表示されます。 Power Query エディターは通常どおり変換ステップを記録し、それを順番にクエリに適用します。
 
 ![[例から列を追加する] ペイン](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
@@ -62,7 +62,7 @@ Power Query エディターでサンプル データが開いたら、リボン�
 
 ![例から変換された列](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
-Power Query エディターは、入力された例を変換に追加します。 問題がなければ、**[OK]** を選んで変更をコミットします。 
+Power Query エディターは、入力された例を変換に追加します。 問題がなければ、 **[OK]** を選んで変更をコミットします。 
 
 列見出しをダブルクリックするか、右クリックして **[名前の変更]** を選択すると、新しい列を任意の名前に変更することができます。 
 

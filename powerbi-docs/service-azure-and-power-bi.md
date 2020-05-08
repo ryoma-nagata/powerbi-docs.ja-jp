@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
-ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80487777"
 ---
 # <a name="azure-and-power-bi"></a>Azure と Power BI
 
-**Azure** サービスと **Power BI**を併用すると、データ処理の労力を、ビジネスにリアルタイムの洞察を与える分析やレポートに変えることができます。 データ処理がクラウド ベースかオンプレミスか、簡単か複雑か、ソースが 1 つか膨大なスケールか、あるいはウェアハウスに保存されたデータかリアルタイムのデータかに関わらず、Azure と Power BI には相互接続が組み込まれていて統合されているので、ビジネス インテリジェンス作業の効率が高まります。
+**Azure** サービスと **Power BI** を併用すると、データ処理の労力を、ビジネスにリアルタイムの洞察を与える分析やレポートに変えることができます。 データ処理がクラウド ベースかオンプレミスか、簡単か複雑か、ソースが 1 つか膨大なスケールか、あるいはウェアハウスに保存されたデータかリアルタイムのデータかに関わらず、Azure と Power BI には相互接続が組み込まれていて統合されているので、ビジネス インテリジェンス作業の効率が高まります。
 
-![Azure](media/service-azure-and-power-bi/azure_1.png)
+![アジュール](media/service-azure-and-power-bi/azure_1.png)
 
 Power BI では多数の Azure との接続を利用でき、それらのサービスを使用してユーザーのビジネスにとって一意なビジネス インテリジェンス ソリューションを作成できます。 1 つまたは少数の Azure データ ソースに接続し、そのデータを成形して調整することによって、カスタマイズ レポートを作成できます。
 
@@ -34,7 +34,7 @@ Power BI では多数の Azure との接続を利用でき、それらのサー�
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>クラウド データの変換、成形、マージ
 
-複雑なデータや、各種ソースのデータがありますか。 問題はありません。 **Power BI Desktop** と Azure サービスを併用すると、 **[データ取り出し]** ダイアログをタップするだけで接続できます。 同じクエリ内で、 **Azure SQL Database**、 **Azure HDInsight** データ ソース、 **Azure BLOB ストレージ** (または **Azure テーブル ストレージ**) に接続してから、必要なそれぞれのサブセットのみを選択し調整していくことができます。
+複雑なデータや、各種ソースのデータがありますか。 問題はありません。 **Power BI Desktop** と Azure サービスを併用すると、 **[データ取り出し]** ダイアログをタップするだけで接続できます。 同じクエリ内で、**Azure SQL Database**、**Azure HDInsight** データ ソース、**Azure BLOB ストレージ** (または **Azure テーブル ストレージ**) に接続してから、必要なそれぞれのサブセットのみを選択し調整していくことができます。
 
 同じデータ接続を使用して、さらには同じクエリを使用しても、異なる対象ユーザーに別個のレポートを作成できます。 新しいレポート ページを作成し、それぞれの対象ユーザー向けに視覚エフェクトを調整し、ビジネスが情報に通じているように監視するだけです。
 

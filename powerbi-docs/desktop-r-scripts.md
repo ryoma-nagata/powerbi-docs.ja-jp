@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 358a61c13418bd29a9e83ed7029e8b90f9a5988e
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76161541"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Power BI Desktop での R スクリプトの実行
@@ -65,7 +65,7 @@ R スクリプトを実行して Power BI Desktop にデータをインポート
 
 Power BI Desktop で R スクリプトを更新できます。 R スクリプトを更新するとき、Power BI Desktop は Power BI Desktop 環境で R スクリプトをもう一度実行します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI での R については、次の追加情報を参照してください。
 

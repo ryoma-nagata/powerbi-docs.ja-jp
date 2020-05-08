@@ -13,10 +13,10 @@ metadata:
   ms.author: maggies
   ms.date: 03/03/2020
   ms.openlocfilehash: d4099c6ad1a5ed6396d8c4a777e3a0aa13a6d570
-  ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/11/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "79112770"
 landingContent:
 - title: 共同作業と共有の概要
@@ -41,7 +41,7 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: アプリを公開します。
+    - text: アプリの発行
       url: ../service-create-distribute-apps.md
     - text: 使用状況メトリックを監視する
       url: ../service-modern-usage-metrics.md
@@ -59,7 +59,7 @@ landingContent:
     links:
     - text: Azure と Power BI
       url: ../service-azure-and-power-bi.md
-    - text: Excel で分析
+    - text: '[Excel で分析]'
       url: ../service-analyze-in-excel.md
   - linkListType: how-to-guide
     links:

@@ -10,13 +10,13 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889353"
 ---
-# <a name="configure-workspace-dataflow-settings-preview"></a>ワークスペース データフローの設定の構成 (プレビュー)
+# <a name="configure-workspace-dataflow-settings-preview"></a>ワークスペースのデータフロー設定を構成する (プレビュー)
 
 Power BI とデータフローを使用すると、ワークスペースのデータフロー定義ファイルとデータ ファイルをお使いの Azure Data Lake Storage Gen2 アカウントに格納できます。 ワークスペース管理者はそのために、Power BI を構成できます。この記事では、これを行うために必要な手順について説明します。 
 
@@ -58,7 +58,7 @@ Power BI サービスに新しいワークスペースを作成するには、 *
 
 ワークスペースを編集するには、省略記号 **(...)** を選択して、 **[ワークスペースの編集]** を選択します。 
 
-![ワークスペースの編集](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
+![ワークスペースを編集する](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
 表示された **[ワークスペースの編集]** ウィンドウで、 **[詳細設定]** を展開して、 **[データフロー ストレージ (プレビュー)]** 設定を **[オン]** にします。 
 
@@ -103,13 +103,13 @@ Power BI Pro、Premium、および埋め込みのワークスペース:
 **Power BI Desktop** の顧客は、データフローの所有者である場合を除いて、Azure Data Lake Storage Gen2 アカウント内に格納されているデータフローにはアクセスできません。 次の状況を検討します。
 
 1.  Anna は新しいワークスペースを作成して、組織内の Data Lake にデータフローを格納するように構成しました。
-2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得することを考えています。
+2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得したいと考えています。
 3.  ベンは Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されなかったので、エラーを受け取ります。
 
     ![データフローの使用を試行した際のエラー](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 この記事では、データフロー用にワークスペース ストレージを構成する方法のガイダンスを示しました。 詳細については、以下の記事を参照してください。
 
@@ -117,7 +117,7 @@ Power BI Pro、Premium、および埋め込みのワークスペース:
 
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
 * [データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)](service-dataflows-add-cdm-folder.md)
-* [データフロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
+* [データ フロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 データフロー全般については、次の記事をご覧ください。
 
@@ -129,7 +129,7 @@ Power BI Pro、Premium、および埋め込みのワークスペース:
 Azure Storage の詳細については、次の記事をご覧ください。
 
 * [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
-* [Azure Data Services からの github サンプルの開始](https://aka.ms/cdmadstutorial)
+* [Azure Data Services から GitHub サンプルを開始する](https://aka.ms/cdmadstutorial)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
 
