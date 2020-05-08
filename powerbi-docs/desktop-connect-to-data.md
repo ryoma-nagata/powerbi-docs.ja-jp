@@ -11,17 +11,17 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 751a53e2bfe0c9743a71cc41aa349afa23fd013a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539190"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソースへの接続
 
 Power BI Desktop を使用すれば、拡大し続けるデータの世界に簡単につながることができます。 Power BI Desktop をお持ちでない場合は、[ダウンロード](https://go.microsoft.com/fwlink/?LinkID=521662)してインストールできます。
 
-Power BI Desktop では、 *あらゆる種類* のデータ ソースを使用できます。 次の図では、**[データを取得]** > **[その他]** > **[Web]** を選択することによってデータに接続する方法を示します。
+Power BI Desktop では、 *あらゆる種類* のデータ ソースを使用できます。 次の図では、 **[データを取得]**  >  **[その他]**  >  **[Web]** を選択することによってデータに接続する方法を示します。
 
 ![Web からデータを取得する](media/desktop-connect-to-data/get-data-from-the-web.png)
 
@@ -35,29 +35,29 @@ Power BI Desktop では、 *あらゆる種類* のデータ ソースを使用�
 
 [https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
-**[データを取得]** > **[その他]** > **[Web]** を選択します。 **[Web から]** で、アドレスを入力します。
+**[データを取得]**  >  **[その他]**  >  **[Web]** を選択します。 **[Web から]** で、アドレスを入力します。
 
 ![Web ソース アドレスを入力する](media/desktop-connect-to-data/connecttodata_3.png)
 
-**[OK]** をクリックすると、Power BI Desktop の *クエリ* 機能が動作します。 Power BI Desktop は Web リソースにアクセスし、 **[ナビゲーター]** ウィンドウにその Web ページで検出した結果が返されます。 この場合は、テーブルと Document 全体が検出されました。 テーブルに興味があるので、一覧からテーブルを選択します。 **[ナビゲーター]** ウィンドウにプレビューが表示されます。
+**[OK]** をクリックすると、Power BI Desktop の*クエリ*機能が動作します。 Power BI Desktop は Web リソースにアクセスし、 **[ナビゲーター]** ウィンドウにその Web ページで検出した結果が返されます。 この場合は、テーブルと Document 全体が検出されました。 テーブルに興味があるので、一覧からテーブルを選択します。 **[ナビゲーター]** ウィンドウにプレビューが表示されます。
 
 ![ナビゲーターでのデータのプレビュー](media/desktop-connect-to-data/datasources_fromnavigatordialog.png)
 
 この時点で、ウィンドウの下部にある **[データの変換]** を選択して、テーブルを読み込む前にクエリを編集することも、テーブルを単に読み込むこともできます。
 
-**[データの変換]** を選択して、テーブルを読み込み、Power Query エディターを起動します。 **[クエリの設定]** ペインが表示されます。 表示されない場合は、リボンから **[表示]** を選択し、**[クエリの設定]** を選択して、**[クエリの設定]** ペインを表示します。 表示は次のようになります。
+**[データの変換]** を選択して、テーブルを読み込み、Power Query エディターを起動します。 **[クエリの設定]** ペインが表示されます。 表示されない場合は、リボンから **[表示]** を選択し、 **[クエリの設定]** を選択して、 **[クエリの設定]** ペインを表示します。 表示は次のようになります。
 
 ![Power Query エディターとクエリの設定](media/desktop-connect-to-data/designer_gsg_editquery.png)
 
-これらのスコアはすべて数値ではなくテキストになっています。ですが、必要なのは数値です。 問題はありません。 列ヘッダーを右クリックし、**[型の変更]** > **[整数]** を選択して変更します。 複数の列を選ぶには、まず 1 つの列を選んでから、Shift キーを押したまま追加の隣接する列を選びます。その後、列ヘッダーを右クリックして選んだ列をすべて変更します。 隣接していない列を選択するには、Ctrl キーを使用します。
+これらのスコアはすべて数値ではなくテキストになっています。ですが、必要なのは数値です。 問題はありません。 列ヘッダーを右クリックし、 **[型の変更]**  >  **[整数]** を選択して変更します。 複数の列を選ぶには、まず 1 つの列を選んでから、Shift キーを押したまま追加の隣接する列を選びます。その後、列ヘッダーを右クリックして選んだ列をすべて変更します。 隣接していない列を選択するには、Ctrl キーを使用します。
 
 ![データ型を整数に変更する](media/desktop-connect-to-data/designer_gsg_changedatatype.png)
 
 **[クエリの設定]** の **[適用したステップ]** に、行ったすべての変更が反映されます。 データをさらに変更すると、Power Query エディターにより、それらの変更が **[適用したステップ]** セクションに記録されます。必要に応じて、その調整、再アクセス、再配置、削除を行うことができます。
 
-![適用したステップ](media/desktop-connect-to-data/designer_gsg_appliedsteps_changedtype.png)
+![適用されたステップ](media/desktop-connect-to-data/designer_gsg_appliedsteps_changedtype.png)
 
-読み込んだ後でテーブルをさらに変更することもできますが、今のところはこれで十分です。 終わったら、**[ホーム]** リボンの **[閉じて適用]** を選択し、Power BI Desktop により変更が適用され、Power Query エディターが閉じられます。
+読み込んだ後でテーブルをさらに変更することもできますが、今のところはこれで十分です。 終わったら、 **[ホーム]** リボンの **[閉じて適用]** を選択し、Power BI Desktop により変更が適用され、Power Query エディターが閉じられます。
 
 ![閉じて適用する](media/desktop-connect-to-data/connecttodata_closenload.png)
 
@@ -67,7 +67,7 @@ Power BI Desktop では、 *あらゆる種類* のデータ ソースを使用�
 
 もちろん、このモデルはデータ接続が 1 つだけのシンプルなものです。 Power BI Desktop のほとんどのレポートには、充実したデータ モデルが生成されるリレーションシップを含む、ニーズに合わせて整形された、さまざまなデータ ソースへの接続があります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
@@ -76,7 +76,7 @@ Power BI Desktop を使用すると、さまざまなことを行えます。 �
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop で一般的なクエリ タスクを実行する](desktop-common-query-tasks.md)   
 
-弊社に対するフィードバックを歓迎いたします。 成功しました。 Power BI Desktop の **[アイデアを送信する]** を使うか、[Community Feedback](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) にアクセスしてください。 皆さまからのご意見をお待ちしています。
+弊社に対するフィードバックを歓迎いたします。 それは素晴らしいことです。 Power BI Desktop の **[アイデアを送信する]** を使うか、[Community Feedback](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) にアクセスしてください。 皆さまからのご意見をお待ちしています。
 
-![アイデアを送信する](media/desktop-connect-to-data/sendfeedback.png)
+![コメントを送信する](media/desktop-connect-to-data/sendfeedback.png)
 

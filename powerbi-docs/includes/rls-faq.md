@@ -1,12 +1,12 @@
 ---
 ms.openlocfilehash: cd0696b44e285119193059304c89cfa04c755771
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "71409371"
 ---
-## <a name="faq"></a>よく寄せられる質問
+## <a name="faq"></a>FAQ
 **質問:** 以前に、Power BI サービスでデータセットのロールおよびルールを作成している場合はどうなりますか。 何もしなくても動作しますか。  
 **回答:** いいえ。ビジュアルは正しく表示されません。 Power BI Desktop 内でロールおよびルールを再作成し、Power BI サービスに発行する必要があります。
 

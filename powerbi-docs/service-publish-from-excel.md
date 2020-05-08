@@ -10,10 +10,10 @@ ms.date: 03/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80329606"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Microsoft Excel から Power BI へ発行する
@@ -61,7 +61,7 @@ OneDrive for Business にブックを保存してから **[発行]** を選択�
 
 ![Power BI 用オプション](media/service-publish-from-excel/pbi_uploadexport2.png)
 
-#### <a name="upload-your-workbook-to-power-bi"></a>Power BI にブックをアップロード
+#### <a name="upload-your-workbook-to-power-bi"></a>Upload your workbook to Power BI (ブックを Power BI にアップロードする)
 **[アップロード]** オプションを選択すると、ブックは、Excel Online を使用しているときと同じように Power BI に表示されます。 ただし、Excel Online とは異なり、ワークシートの要素をダッシュボードにピン留めするのに役立ついくつかのオプションを利用できます。
 
 Power BI ではブックを編集できません。 変更を加える必要がある場合は、 **[編集]** を選択して、Excel Online でブックを編集するかまたは自分のコンピューターの Excel で開くかを選択できます。 ブックに加えたすべての変更は、OneDrive for Business 上のブックに保存されます。
@@ -72,7 +72,7 @@ Power BI ではブックを編集できません。 変更を加える必要が�
 
 Excel の [Power BI への発行] から [アップロード] を使用することは、ブラウザーの Power BI から **[データの取得] > [ファイル] > [OneDrive for Business] > [Power BI で Excel に接続し、管理し、表示する]** を選択するのと同様のエクスペリエンスです。
 
-#### <a name="export-workbook-data-to-power-bi"></a>Power BI にブックのデータをエクスポートする
+#### <a name="export-workbook-data-to-power-bi"></a>Export workbook data to Power BI (ブックのデータを Power BI にエクスポートする)
 **[エクスポート]** オプションを選択すると、テーブルやデータ モデル内のサポートされているデータがすべて、Power BI の新しいデータセットにエクスポートされます。 ブック内に Power View シートがある場合は、Power BI でレポートとして再作成されます。
 
 ブックは引き続き編集できます。 変更を保存すると、通常約 1 時間以内に Power BI のデータセットと同期されます。 より迅速に更新する必要がある場合は、Excel からもう一度 **[発行]** を選択すると、変更が直ちにエクスポートされます。 レポートとダッシュボードの視覚エフェクトも更新されます。
@@ -90,7 +90,7 @@ Excel の [Power BI への発行] から [アップロード] を使用するこ
 
 ![Power BI に移動](media/service-publish-from-excel/pbi_gotopbi.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI の Excel データ](service-excel-workbook-files.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

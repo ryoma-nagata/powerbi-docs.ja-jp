@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
 ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80647666"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server のキャパシティ プランニング ガイダンス
@@ -41,7 +41,7 @@ Power BI Report Server の展開は、次の仮想マシンで構成されてい
 
 * Active Directory ドメイン コントローラー: これは、SQL Server データベース エンジン、SQL Server Analysis Services、および Power BI Report Server が安全にすべての要求を認証するために必要でした。
 * SQL Server データベース エンジンと SQL Server Analysis Services: ここには、レポートが表示されるときに使われるすべてのデータベースが格納されました。
-* Power BI Report Server
+* Power BI レポート
 * Power BI Report Server データベース。 Report Server データベースは、SQL Server データベース エンジンとメモリ、CPU、ネットワーク、およびディスク リソースを競合することがないように、Power BI Report Server とは別のマシンでホストされていました。
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -62,9 +62,9 @@ Power BI Report Server の展開は、次の仮想マシンで構成されてい
 > このツールは Microsoft によって正式にサポートされていませんが、製品チームはプロジェクトに協力し、他の共同作成者によって提起された問題に回答します。
 
 ### <a name="workloads"></a>ワークロード
-テストで使われているワークロード プロファイルには、次の 2 種類があります。Power BI レポートの処理量が多いものと、ページ分割されたレポートの処理量が多いものです。 次の表では、Report Server に対して実行される要求の分布について説明します。
+テストで使われているワークロード プロファイルには、Power BI レポートの処理量が多いものとページ分割されたレポートの処理量が多いものの 2 種類があります。 次の表では、Report Server に対して実行される要求の分布について説明します。
 
-| アクティビティ | Power BI レポートの処理量が多い、実行の頻度 | ページ分割されたレポートの処理量が多い、実行の頻度 |
+| Activity | Power BI レポートの処理量が多い、実行の頻度 | ページ分割されたレポートの処理量が多い、実行の頻度 |
 | --- | --- | --- |
 | **Power BI レポートの表示** |60% |10% |
 | **ページ分割された (RDL) レポートの表示** |30% |60% |
@@ -91,7 +91,7 @@ Microsoft の運用環境には Power BI Report Server が展開されており�
 | **Power BI レポートの処理量が多い** |1,000 ユーザー |3,000 ユーザー |
 | **ページ分割されたレポートの処理量が多い** |2,000 ユーザー |3,200 ユーザー |
 
-## <a name="summary"></a>概要
+## <a name="summary"></a>まとめ
 各ロード テストの実行で、Power BI Report Server マシンのピーク負荷時に最も負荷がかかるリソースは CPU でした。 このため、最初に増やす必要があるリソースはコアの数です。 または、トポロジに Power BI Report Server をホストするサーバーを追加することによるスケールアウトも検討できます。
 
 このホワイト ペーパーで示した結果は、特定のデータ セットを使う特定のレポート セットを特定の方法で繰り返すことにより得られたものです。 参考としては役に立ちますが、実際の使用状況は Power BI Report Server のご利用のレポート、クエリ、使用パターン、展開に依存することに留意してください。
@@ -123,7 +123,7 @@ Power BI Report Server の独自の展開または Microsoft Azure の展開に�
 1. GitHub から Reporting Services LoadTest プロジェクトを複製します (https://github.com/Microsoft/Reporting-Services-LoadTest) 。  
 2. プロジェクト ディレクトリで、RSLoadTests.sln という名前のソリューション ファイルを探します。 Visual Studio 2015 以降でこのファイルを開きます。
 3. Power BI Report Server のオンプレミスの展開または Microsoft Azure での展開のどちらに対してこのツールを実行するかを決定します。 独自の展開に対して実行する場合は、手順 5 に進みます。
-4. [https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure](https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure ) の指示に従って、Azure に Power BI Report Server 環境を作成します。
+4. https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure の指示に従って、Azure に Power BI Report Server 環境を作成します。
 5. 環境のデプロイが完了したら、 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution の指示に従って、テストを実行します。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

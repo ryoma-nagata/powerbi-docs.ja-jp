@@ -10,10 +10,10 @@ ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 26b49e1b94db0d6c46639118e3e7cc3218bb4e1e
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80551051"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
@@ -2878,7 +2878,7 @@ Power BI Desktop の新機能を完全に利用できます。
     - テーブルと列の名前変更と削除
 - データ ビュー:
     - テーブルの内容をクリップボードにコピーします。
-- フィールドの概要作成:
+- フィールドの概要作成: 
     - [フィールド] ウィンドウでの追加の操作のサポート: 中央値、標準偏差、分散
     - 既定の概要作成: ユーザーが、モデル内の指定されたすべてのフィールドの既定の概要作成の操作をカスタマイズできるようになりました
 

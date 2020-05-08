@@ -35,7 +35,7 @@
           href: ../desktop-bidirectional-filtering.md
         - name: Power BI で多次元モデルを操作する
           href: ../desktop-default-member-multidimensional-models.md
-    - name: 攻略ガイド
+    - name: 操作方法ガイド
       items:
         - name: 一般的なクエリ タスクを実行する
           href: ../desktop-common-query-tasks.md
@@ -55,7 +55,7 @@
               href: ../desktop-combine-binaries.md
             - name: AI 分析情報を使用する (プレビュー)
               href: ../desktop-ai-insights.md
-        - name: データのモデル化
+        - name: データをモデル化する
           items:
             - name: クイック メジャーを作成して一般的な計算を実行する
               href: ../desktop-quick-measures.md
@@ -103,7 +103,7 @@
               href: ../service-dataflows-azure-data-lake-integration.md
             - name: データフロー ストレージ用の Azure Data Lake Storage Gen2 を接続する
               href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: ワークスペース データフローの設定の構成 (プレビュー)
+            - name: ワークスペースのデータフロー設定を構成する (プレビュー)
               href: ../service-dataflows-configure-workspace-storage-settings.md
             - name: データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
               href: ../service-dataflows-add-cdm-folder.md

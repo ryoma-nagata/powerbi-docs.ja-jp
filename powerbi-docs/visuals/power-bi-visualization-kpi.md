@@ -11,10 +11,10 @@ ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76974989"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>主要業績評価指標 (KPI) ビジュアルを作成する
@@ -97,9 +97,9 @@ KPI は Power BI サービスとモバイル デバイスでも使用できま�
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 
-KPI が上記のようにならない場合、**FiscalMonth** で並べ替えられていない可能性があります。 KPI には並べ替えオプションはありません。 お使いのビジュアルを KPI に変換する*前*に、最初から **FiscalMonth** で並べ替える必要があります。
+KPI が上記のようにならない場合、**FiscalMonth** で並べ替えられていない可能性があります。 KPI には並べ替えオプションはありません。 お使いのビジュアルを KPI に変換する**前**に、最初から *FiscalMonth* で並べ替える必要があります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [Power BI マップの視覚エフェクトに関するヒントとテクニック](power-bi-map-tips-and-tricks.md)
 

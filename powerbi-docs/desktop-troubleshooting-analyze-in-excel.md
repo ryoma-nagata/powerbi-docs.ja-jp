@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889307"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>”Excel で分析” に関するトラブルシューティング
@@ -94,7 +94,7 @@ Excel OLE DB プロバイダーのクライアント ライブラリが最新の
 
 Power BI サービスでモデルに定義したメジャーを、Excel ピボットテーブルの **[値]** 領域で使用できます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Excel で分析](service-analyze-in-excel.md)
 
 [チュートリアル: Power BI Desktop で独自のメジャーを作成する](desktop-tutorial-create-measures.md)

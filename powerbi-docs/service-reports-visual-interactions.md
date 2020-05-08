@@ -11,10 +11,10 @@ ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 1d723f3dd67eb5e096622c882b5f538a77666d9e
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77036701"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Power BI レポート内でのビジュアルの相互作用を変更する
@@ -65,7 +65,7 @@ ms.locfileid: "77036701"
 
 選択した視覚化が次の条件の場合:
    
-   * ページ上の他の視覚化のいずれかをフィルター処理するために使う場合、その視覚化 ![フィルター アイコン](media/service-reports-visual-interactions/power-bi-filter-icon.png) の右上隅にある **フィルター** アイコンを選択します。
+   * ページ上の他の視覚化のいずれかをフィルター処理するために使う場合、その視覚化 **フィルター アイコン** の右上隅にある ![フィルター](media/service-reports-visual-interactions/power-bi-filter-icon.png) アイコンを選択します。
    * ページ上の他の視覚化のいずれかをクロス強調表示するために使う場合、**強調表示**アイコン ![強調表示アイコン](media/service-reports-visual-interactions/power-bi-highlight-icon.png) を選択します。
    * ページ上の他の視覚化のいずれにも影響しない場合、**影響なし**アイコン ![影響なしアイコン](media/service-reports-visual-interactions/power-bi-no-impact.png) を選択します。
 

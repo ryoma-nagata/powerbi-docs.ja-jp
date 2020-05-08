@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 51d03582ec91b926526a075a356323eb4f95a84b
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609889"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイでカスタム データ コネクタを使用する
@@ -48,7 +48,7 @@ Power BI Desktop でカスタム データ コネクタを使用するレポー�
 * オンプレミス データ ゲートウェイで使用するカスタム コネクタには、カスタム コネクタのコードで "TestConnection" セクションを実装する必要があります。 Power BI Desktop でカスタム コネクタを使用する場合、このセクションは必要ありません。 このため、Power BI Desktop で動作するコネクタを使用できますが、ゲートウェイでは使用できません。 TestConnection セクションの実装方法の詳細については、[こちらのドキュメント](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)を参照してください。
 * 現在、ゲートウェイを使用したカスタム コネクタの OAuth はゲートウェイ管理者に対してのみサポートされています。他のデータ ソース ユーザーはサポートされていません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 * [データ ソースの管理 - SAP HANA](service-gateway-enterprise-manage-sap.md)  

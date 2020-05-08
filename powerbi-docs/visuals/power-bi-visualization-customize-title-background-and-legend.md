@@ -11,10 +11,10 @@ ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78893423"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>視覚エフェクトのタイトル、背景、および凡例をカスタマイズする
@@ -49,7 +49,7 @@ ms.locfileid: "78893423"
 
 1. **[タイトル]** スライダーを **[オン]** にします。
 
-1. タイトルを変更するには、 **[タイトル テキスト]** フィールドに「*月別の開店した店舗数*」と入力します。
+1. タイトルを変更するには、 *[タイトル テキスト]* フィールドに「**月別の開店した店舗数**」と入力します。
 
     ![タイトル テキストが入力された [形式] ウィンドウのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
@@ -72,7 +72,7 @@ ms.locfileid: "78893423"
 
     ![新しく構成された集合縦棒グラフのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-table.png)
 
-変更を保存して、次のセクションに移動します。
+行った変更を保存して、次のセクションに移動します。
 
 すべての変更を既定値に戻す必要がある場合は、 **[タイトル]** カスタマイズ ウィンドウの下部にある **[既定値に戻す]** を選択します。
 
@@ -133,9 +133,9 @@ ms.locfileid: "78893423"
 
 視覚化と、各視覚化で使用できるカスタマイズ オプションの一覧を次に示します。
 
-| 視覚化 | タイトル | 背景 | 凡例 |
+| 視覚エフェクト | Title | バックグラウンド | 凡例 |
 |:--- |:--- |:--- |:--- |
-| 領域 | はい | はい |はい |
+| 面 | はい | はい |はい |
 | 横棒 | はい | はい |はい |
 | カード | はい | はい |該当なし |
 | 複数行カード | はい | はい | 該当なし |
@@ -147,20 +147,20 @@ ms.locfileid: "78893423"
 | ゲージ | はい | はい | 該当なし |
 | Key Influencer\(主要なインフルエンサー\) | はい | はい | 該当なし |
 | KPI | はい | はい | 該当なし |
-| 折れ線 | はい | はい | はい |
+| 線 | はい | はい | はい |
 | マップ | はい | はい | はい |
-| Matrix | はい | はい | 該当なし |
+| マトリックス | はい | はい | 該当なし |
 | 円 | はい | はい | はい |
-| Q&A | はい | はい | 該当なし |
+| 質疑応答 | はい | はい | 該当なし |
 | 散布 | はい | はい | はい |
 | 図形 | はい | はい | はい |
 | スライサー | はい | はい | 該当なし |
-| テーブル | はい | はい | 該当なし |
-| テキストボックス | いいえ | はい | 該当なし |
-| ツリーマップ | はい | はい | はい |
+| Table | はい | はい | 該当なし |
+| テキスト ボックス | いいえ | はい | 該当なし |
+| Treemap | はい | はい | はい |
 | ウォーターフォール | はい | はい | はい |
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [X 軸と Y 軸のプロパティのカスタマイズ](power-bi-visualization-customize-x-axis-and-y-axis.md)
 
