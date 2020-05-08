@@ -14,17 +14,17 @@ metadata:
   ms.author: kesharab
   ms.date: 31/03/2020
   ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 04/01/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80487797"
 highlightedContent:
   items:
   - title: Power BI を使用した埋め込み分析
     itemType: overview
     url: embedded/embedding.md
-  - title: Azure の Power BI Embedded とは何か
+  - title: Azure の Power BI Embedded とは
     itemType: overview
     url: embedded/azure-pbie-what-is-power-bi-embedded.md
   - title: Power BI のビジュアル
@@ -42,7 +42,7 @@ conceptualContent:
       text: Power BI を使用した埋め込み分析
     - url: embedded/azure-pbie-what-is-power-bi-embedded.md
       itemType: overview
-      text: Azure の Power BI Embedded とは何か
+      text: Azure の Power BI Embedded とは
     - url: embedded/embedded-capacity.md
       itemType: concept
       text: 容量と SKU
@@ -63,7 +63,7 @@ conceptualContent:
     footerLink:
       url: visuals/index.yml
       text: 詳細情報
-  - title: オートメーション
+  - title: Automation
     links:
     - url: automation/overview-of-power-bi-rest-api.md
       itemType: overview
@@ -73,7 +73,7 @@ conceptualContent:
       text: Power BI データセットにデータをプッシュする
     - url: automation/configure-credentials.md
       itemType: how-to-guide
-      text: 資格情報を構成する
+      text: 資格情報の構成
     footerLink:
       url: automation/index.yml
       text: 詳細情報
