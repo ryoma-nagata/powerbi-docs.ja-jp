@@ -10,10 +10,10 @@ ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79208128"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Power BI でのセルフサービスのデータ準備
@@ -75,7 +75,7 @@ Azure Data Lake Storage Gen2 とデータフローの統合の詳細について
 
 |データフローの機能 | Power BI Pro |   Power BI Premium |
 |---------|---------|---------|
-|スケジュールされている更新| 8 回/日|  48|
+|スケジュールされた更新| 8 回/日|  48|
 |合計ストレージ| 10 GB/ユーザー  |100 TB/ノード|
 |Power Query Online でのデータフローの作成|    +   |+|
 |Power BI 内でのデータフローの管理|   +|  +|
@@ -102,7 +102,7 @@ Premium 容量でデータフロー ワークロードを有効にする方法�
 * 開発者向けのデータフローの開始
 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 この記事では、Power BI でのビッグ データ用のセルフサービスのデータ準備の概要と、それを使用するさまざまな方法を説明しました。 以下の記事では、データフローの一般的な使用シナリオについてさらに詳しく説明します。 
 

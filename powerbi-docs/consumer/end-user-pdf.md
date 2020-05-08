@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: e45d3e109d072984d6c01b2cbdfdd9b53e936a3b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377215"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Power BI から PDF にレポートをエクスポートする
@@ -68,5 +68,5 @@ Power BI サービスで、レポートを選択してそれをキャンバス�
 * PDF にエクスポートする場合、カスタム フォントのテーマを使用したレポートでは、カスタム フォントが既定のフォントに置き換えられます。
 * 一貫したエクスペリエンスを提供することを目指していますが、Power BI サービスからエクスポートされた PDF が常にローカルの Power BI Desktop ファイルからエクスポートされた PDF と一致することを保証することはできません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [レポートの印刷](end-user-print.md)

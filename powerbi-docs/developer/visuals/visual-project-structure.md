@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
 ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550759"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI ビジュアル プロジェクトの構造
@@ -102,7 +102,7 @@ Power BI ビジュアル ツールでは、このファイルが Power BI ビジ
 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) の構成ファイルです。
 
-このファイルには、`pbiviz.json` ファイルの `visualClassName` プロパティに指定されているように、ビジュアルのメイン クラスが配置されている **\*.ts** ファイルのパスが含まれている必要があります。
+このファイルには、**ファイルの \* プロパティに指定されているように、ビジュアルのメイン クラスが配置されている**`visualClassName`.ts`pbiviz.json` ファイルのパスが含まれている必要があります。
 
 ### <a name="tslintjson"></a>tslint.json
 
@@ -170,7 +170,7 @@ Power BI ビジュアル ツールでは、このファイルが Power BI ビジ
 }
 ```
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * ビジュアル、ユーザー、および Power BI 間の相互作用を理解するには、「[Power BI ビジュアルの概念](./power-bi-visuals-concept.md)」を参照してください。
 

@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006790"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI で相対日付のスライサーおよびフィルターを使用する
@@ -42,27 +42,27 @@ ms.locfileid: "81006790"
 
 ![最初の設定が呼び出されている相対構成オプションのスクリーンショット。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* 最後
+* 前回
 
-* 次へ
+* 次回
 
-* この
+* This
 
 "*相対日付スライサー*" の 2 番目 (真ん中) の設定では、数字を入力して、相対的な日付範囲を定義できます。
 
 ![2 番目の設定が呼び出されている相対構成オプションのスクリーンショット。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04a.png)
 
-3 番目の設定では、日付の測定値を選択できます。 次の選択肢があります。
+3 番目の設定では、日付の測定値を選択できます。 選択肢には次の 2 つがあります。
 
 ![3 番目の設定が呼び出されている相対構成オプションのスクリーンショット。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
-* 日
+* 日数
 
 * 週
 
 * 週 (暦)
 
-* Months
+* 月
 
 * 月 (暦)
 
@@ -104,6 +104,6 @@ ms.locfileid: "81006790"
 
 * **クエリ エディター**を使って、キャプチャされたデータを現地のタイム ゾーンから UTC に変換できます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI Desktop でグループ化とビン分割を使用する](../desktop-grouping-and-binning.md)方法を学ぶ。

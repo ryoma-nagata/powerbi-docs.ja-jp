@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79039990"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
@@ -54,7 +54,7 @@ Power BI Desktop は無償のアプリケーションで、各自のコンピュ
 
 また、個人として Power BI サービスにサインアップすることもできます。 [Power BI のセルフサービス サインアップのプロセス](../service-self-service-signup-for-power-bi.md)に関するページを参照してください。
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>勤務先のメール アドレスでサインアップする必要がある理由を教えてください。
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>勤務先の電子メール アドレスでサインアップしなければならないのはなぜですか?
 
 Power BI では、コンシューマー向けメール サービスまたは通信プロバイダーが提供しているメール アドレスはサポートされません。 [Power BI のセルフサービス サインアップのプロセス](../service-self-service-signup-for-power-bi.md)の詳細をご覧ください。
 
@@ -109,7 +109,7 @@ Power BI セキュリティ、プライバシー、およびコンプライア�
 
 * 直前の操作または最近のいくつか操作を **元に戻す** には、CTRL キーを押しながら Z キーを押します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [Power BI コンシューマーとは何ですか? ](end-user-consumer.md)
 * [コンシューマーが Power BI を使用するにはどうすればよいですか? ](end-user-reading-view.md)

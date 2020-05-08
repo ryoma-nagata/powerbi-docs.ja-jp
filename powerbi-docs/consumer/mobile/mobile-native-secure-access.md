@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: painbar
 ms.openlocfilehash: ce7b3c3bc667023ef36650d8c551caaceab04c02
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802803"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>Face ID、Touch ID、パスコード、または生体認証データで Power BI アプリを保護する 
@@ -24,7 +24,7 @@ iOS や Android 用の Power BI アプリでは、追加 ID を構成するこ�
 
 | ![iPhone](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![iPad](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![Android フォン](././media/mobile-native-secure-access/android-logo-40-px.png) | ![Android タブレット](././media/mobile-native-secure-access/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-|iPhone |iPad |Android フォン |Android タブレット |
+|iPhones |iPad |Android フォン |Android タブレット |
 
 ## <a name="turn-on-face-id-touch-id-or-passcode-on-ios"></a>iOS で Face ID、Touch ID、またはパスコードをオンにする
 
@@ -61,5 +61,5 @@ Android 用 Power BI モバイル アプリで追加 ID を使用するには、
 
 これをサポートする場合、Power BI モバイル アプリを使用すると、管理者は Microsoft Intune やその他のモバイル デバイス管理 (MDM) ソリューションからアプリ構成設定をプッシュすることで、モバイル アプリのセキュリティで保護されたアクセス設定を制御できます。 管理者はアプリ保護ポリシーを使用して、すべてのユーザーまたはユーザーのグループに対してこの設定をオンにすることができます。 詳細については、[MDM を使用する Power BI モバイル アプリのリモートでの構成](mobile-app-configuration.md#data-protection-settings-ios-and-android)に関する記述を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [MDM を使用してリモートで Power BI モバイル アプリを構成する](mobile-app-configuration.md)

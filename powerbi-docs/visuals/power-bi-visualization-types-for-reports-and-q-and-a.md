@@ -10,22 +10,22 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381424"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
 新しい視覚化が追加されます。お待ちください。
 
-また、[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) を参照してください。このサイトには、[Power BI ビジュアル](../developer/visuals/power-bi-custom-visuals.md)が追加されており、ダウンロードしてダッシュボードやレポートに使用することができます。 自分でカスタマイズする場合は、 [独自の視覚エフェクトを作成する方法を学習し、このコミュニティ サイトに追加してみてください](../developer/visuals/office-store.md)。  
+また、[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) を参照してください。このサイトには、[Power BI ビジュアル](../developer/visuals/power-bi-custom-visuals.md)が追加されており、ダウンロードしてダッシュボードやレポートに使用することができます。 このサイトには、カスタムの視覚化が追加されており、ダウンロードしてダッシュボードやレポートに使用することができます。 [独自の視覚エフェクトを作成する方法を学習し、このコミュニティ サイトに追加してみてください](../developer/visuals/office-store.md)。  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI で利用可能な視覚化の一覧
 これらすべての視覚化は、Power BI レポートに追加し、Q&A で指定し、ダッシュボードにピン留めできます。
 
-### <a name="area-charts-basic-layered-and-stacked"></a>面グラフ:基本 (階層) と積み上げ
+### <a name="area-charts-basic-layered-and-stacked"></a>面グラフ: 基本 (階層) と積み上げ
 ![面グラフ](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
@@ -41,10 +41,10 @@ ms.locfileid: "79381424"
 >[!TIP]
 >横棒グラフは、異なるカテゴリの特定の値を調べるときの標準的なグラフです。
 
-### <a name="cards-multi-row"></a>カード:複数行
+### <a name="cards-multi-row"></a>カード: 複数行
 ![複数の行カード](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
-### <a name="cards-single-number"></a>カード:単一数値
+### <a name="cards-single-number"></a>カード: 単一数値
 ![数値カード](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 詳しくは、[カードの作成 (大きな数字のタイル)](power-bi-visualization-card.md) に関するトピックをご覧ください。
@@ -102,7 +102,7 @@ ms.locfileid: "79381424"
 >[!TIP]
 >通常、時間の経過に伴う一連の値すべての全体的な形を強調します。
 
-### <a name="maps-basic-maps"></a>マップ:基本マップ
+### <a name="maps-basic-maps"></a>マップ: 基本マップ
 ![基本マップ](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -110,12 +110,12 @@ ms.locfileid: "79381424"
 
 詳しくは、「[Power BI マップの視覚エフェクトに関するヒントとテクニック](power-bi-map-tips-and-tricks.md)」をご覧ください。
 
-### <a name="maps-arcgis-maps"></a>マップ:ArcGIS マップ
+### <a name="maps-arcgis-maps"></a>マップ: ArcGIS マップ
 ![ArcGIS マップ](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 詳しくは、[Power BI の ArcGIS マップ](power-bi-visualization-arcgis.md)に関するページを参照してください。
 
-### <a name="maps-filled-maps-choropleth"></a>マップ:塗り分け地図 (コロプレス)
+### <a name="maps-filled-maps-choropleth"></a>マップ: 塗り分け地図 (コロプレス)
 ![塗り分け地図](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -123,7 +123,7 @@ ms.locfileid: "79381424"
 
 詳しくは、[Power BI の塗り分け地図](power-bi-visualization-filled-maps-choropleths.md)に関するページを参照してください。
 
-### <a name="maps-shape-maps"></a>マップ:図形マップ
+### <a name="maps-shape-maps"></a>マップ: 図形マップ
 ![テキサス州の図形マップ](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
@@ -132,7 +132,7 @@ ms.locfileid: "79381424"
 詳しくは、[Power BI の図形マップ](desktop-shape-map.md)に関するページを参照してください。
 
 
-### <a name="matrix"></a>Matrix
+### <a name="matrix"></a>マトリックス
 ![マトリックス](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
@@ -147,9 +147,9 @@ ms.locfileid: "79381424"
 >円グラフでは、全体に対する部分の関係が示されます。 
 
 ### <a name="power-apps-visual"></a>Power Apps のビジュアル
-![Power Apps ビジュアル](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
+![Power Apps のビジュアル](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
 
-レポート デザイナーでは、パワー アプリを作成し、それをビジュアルとして Power BI レポートに埋め込むことができます。 コンシューマーは、Power BI レポート内でそのビジュアルを操作できます。 
+レポート デザイナーでは、パワー アプリを作成し、それをビジュアルとして Power BI レポートに埋め込むことができます。 ユーザーは、Power BI レポート内でそのビジュアルを操作できます。 
 
 詳細については、[レポートへの Power Apps ビジュアルの追加](power-bi-visualization-powerapp.md)に関する記事を参照してください。
 
@@ -228,12 +228,12 @@ ms.locfileid: "79381424"
 詳しくは、「[Waterfall charts in Power BI](power-bi-visualization-waterfall-charts.md)」 (Power BI のウォーターフォール グラフ) をご覧ください。
 
 ## <a name="tell-qa-which-visualization-to-use"></a>使用する視覚化を Q&A で指定する
-Power BI Q&A で自然言語クエリを入力するときに、クエリ内で視覚化の種類を指定できます。  例:
+Power BI Q&A で自然言語クエリを入力するときに、クエリ内で視覚化の種類を指定できます。  次に例を示します。
 
 ***ツリー マップでの都市ごとの売り上げ***
 
 ![指定されたビジュアルの種類を示す Q&A 質問ボックス](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI レポートでの視覚化](power-bi-report-visualizations.md)    
 [sqlbi.com の正しい視覚エフェクト参照](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

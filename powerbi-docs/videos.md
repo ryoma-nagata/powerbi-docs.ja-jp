@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
 ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260855"
 ---
 # <a name="power-bi-videos"></a>Power BI のビデオ
@@ -44,7 +44,7 @@ Power BI 用の YouTube チャンネルがあります。 [弊社のチャネル
 
 * [Power BI のガイド付き学習](https://powerbi.microsoft.com/guided-learning/) - Power BI の学習ツアー (短編のシリーズ構成)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI とは?](fundamentals/power-bi-overview.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

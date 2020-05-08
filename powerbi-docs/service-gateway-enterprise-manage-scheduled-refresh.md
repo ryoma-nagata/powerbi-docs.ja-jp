@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207415"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>データ ソースの管理 - インポート/スケジュールされた更新
@@ -69,7 +69,7 @@ ms.locfileid: "79207415"
 
 OAuth は、オンプレミスのデータ ゲートウェイでサポートされる認証方式ではありません。 OAuth を必要とするデータ ソースを追加することはできません。 データセットに OAuth を必要とするデータ ソースが含まれる場合、スケジュールされた更新にゲートウェイを使用できません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [オンプレミス データ ゲートウェイのトラブルシューティング](/data-integration/gateway/service-gateway-tshoot)
 * [ゲートウェイのトラブルシューティング - Power BI](service-gateway-onprem-tshoot.md)

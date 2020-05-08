@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874970"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867785"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI Q&A の概要
 
@@ -66,8 +66,8 @@ Q&A では、下線付きの単語が表示されるので、システムが認�
 
 - 折れ線グラフ
 - 横棒グラフ
-- Matrix
-- テーブル
+- マトリックス
+- Table
 - カード
 - 面
 - 円グラフ
@@ -97,7 +97,7 @@ Q&A ビジュアルをレポートに追加するには、新しい **Q&A** ア�
 
 ![Q&A ダッシュボード](media/qna-dashboard.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 自然言語は、自分のレポートにさまざまな方法で統合できます。 詳細については、次の記事を参照してください。
 

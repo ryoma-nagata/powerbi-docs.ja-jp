@@ -1,19 +1,19 @@
 ---
 title: Power BI でのテンプレート アプリの作成に関するヒント
 description: テンプレート アプリをよくするためのクエリ、データ モデル、レポート、およびダッシュボードの作成に関するヒントです
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 03/24/2020
-ms.author: tebercov
-ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 266e44b5e5ecff2f86bcd3d43ce91368cc57b9e1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066284"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781296"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI でのテンプレート アプリの作成に関するヒント
 
@@ -142,22 +142,8 @@ AppSource でテンプレート アプリを発行した後、Web サイトか�
 * Power BI - Power BI ユーザーが表示できます。
 
 ユーザーを Power BI 内のアプリのダウンロード リンクにリダイレクトするには、[GitHub リポジトリ](https://github.com/microsoft/Template-apps-examples/tree/master/src)のコード例を参照してください。
+
 [![アプリのダウンロード リンク](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
-
-
-
-## <a name="known-limitations"></a>既知の制限事項
-
-| 特徴 | 既知の制限事項 |
-|---------|---------|
-|コンテンツ:データセット   | 厳密に 1 つのデータセットが存在する必要があります。 Power BI Desktop で作成されたデータセット (.pbix ファイル) だけが許可されます。 <br>非サポート:他のテンプレート アプリからのデータセット、クロス ワークスペース データセット、改ページ調整されたレポート (.rdl ファイル)、Excel ブック、強化されたデータセット メタデータ |
-|コンテンツ:ダッシュボード | リアルタイム タイルは許可されません (つまり、プッシュ データセットまたはストリーミング データセットはサポートされていません) |
-|コンテンツ:データフロー | 非サポート:データフロー |
-|ファイルからのコンテンツ | PBIX ファイルのみが許可されます。 <br>非サポート: .rdl ファイル (改ページ調整されたレポート)、Excel ブック   |
-| データ ソース | クラウドのスケジュールされたデータ更新がサポートされているデータ ソースは許可されます。 <br>非サポート: <li> DirectQuery</li><li>ライブ接続 (Azure AS なし)</li> <li>オンプレミスのデータ ソース (パーソナル ゲートウェイとエンタープライズ ゲートウェイはサポートされていません)</li> <li>リアルタイム (プッシュ データセットはサポートされていません)</li> <li>複合モデル</li></ul> |
-| データセット: クロスワークスペース | クロスワークスペースのデータセットは許可されません  |
-| クエリ パラメーター | 非サポート:"Any" 型のパラメーターまたはデータセットの "Binary" 型のブロック更新操作 |
-| Power BI ビジュアル | パブリックに使用可能な Power BI ビジュアルのみがサポートされます。 [組織の Power BI ビジュアル](developer/visuals/power-bi-custom-visuals-organization.md)はサポートされません |
 
 ## <a name="next-steps"></a>次の手順
 

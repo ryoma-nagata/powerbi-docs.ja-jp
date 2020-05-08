@@ -32,7 +32,7 @@
               href: auto-date-time.md
             - name: 一対一のリレーションシップ
               href: relationships-one-to-one.md
-            - name: 多対多のリレーションシップ
+            - name: 多対多リレーションシップ
               href: relationships-many-to-many.md
             - name: アクティブなリレーションシップと非アクティブなリレーションシップ
               href: relationships-active-inactive.md
@@ -113,10 +113,10 @@
     - name: ホワイトペーパー
       items:
         - name: ホワイトペーパーの概要
-          href: ../whitepapers.md
+          href: whitepapers.md
         - name: Power BI のセキュリティに関するホワイトペーパー
-          href: ../whitepaper-powerbi-security.md
+          href: whitepaper-powerbi-security.md
         - name: Power BI Premium のデプロイ
-          href: ../whitepaper-powerbi-premium-deployment.md
+          href: whitepaper-powerbi-premium-deployment.md
         - name: Azure Active Directory B2B を使用して外部に Power BI を配布する
-          href: ../whitepaper-azure-b2b-power-bi.md
+          href: whitepaper-azure-b2b-power-bi.md

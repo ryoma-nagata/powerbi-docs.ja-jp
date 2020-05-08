@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: 0ab5e48449c42865b44b2cf5ab3d56c35d3fa2c6
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268560"
 ---
 # <a name="data-analyst-learning-catalog"></a>データ アナリストのラーニング カタログ
@@ -60,8 +60,8 @@ ms.locfileid: "81268560"
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [DAX を使用した Power BI のシナリオ分析パターン - 無料のトレーニング ワークショップ](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Scenario-Analysis-Patterns-in-Power-BI-using-DAX-Free-Training/td-p/238664) | ここでは、特に Power BI でのシナリオ分析を中心としたさまざまな手法について確認します。 Power BI を単なる視覚化ツールと考えないでください。これは、生データでカスタム シナリオを実行するなど、すばらしい分析情報を生成することができる強力な分析エンジンです。  | ウェビナー | 42 分 34 秒 |
 | [Power BI 導入フレームワークのウェビナー パート 1:導入: データドリブン カルチャの導入](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)  | 組織の考え方をデータ ドリブン カルチャにシフトし、Microsoft から Power BI の導入フレームワークを提供するウェビナー シリーズに登録します。 セルフサービス ビジネス インテリジェンス (BI) の導入は困難で、ツールの入手はその手始めに過ぎません。 導入の成功には、人、プロセス、テクノロジの変革が必要です。 このウェビナーは、組織の Power BI の潜在力を解放する 5 部構成シリーズの最初のものです。 パート 1 では、Power BI の導入を推進し、データドリブン モデルに移行するため、組織に対して構造化されたアプローチを構築する方法について学習します。 | ウェビナー |             |
-| [Power BI 導入フレームワークのウェビナー パート 2:ガバナンス](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) | Microsoft Power BI のセルフサービス ビジネス インテリジェンス (BI) の導入を正常にロールアウトします。 Power BI 導入におけるガバナンスの役割について説明しているウェビナーに参加してください。 BI ソリューションの種類によって異なるガバナンス アプローチと、効果的なセルフサービス BI プラクティスに必要な役割と責任について学習します。 | ウェビナー |             |
-| [Power BI 導入フレームワークのウェビナー パート 3:サービス管理](https://info.microsoft.com/ww-ondemand-pbi-adoption-framework-part3.html)  | 組織に有効な Power BI のロールアウトを計画し、効果的なサービスとしてのソフトウェア (SaaS) の意味を探ります。 このウェビナーは、組織の Power BI の潜在力を解放する 5 部構成シリーズの 3 番目です。 パート 3 では、テナント管理とゲートウェイ管理の要素を管理し、Power BI のスムーズで正常なロールアウトを計画する方法について学習します。  | ウェビナー |             |
+| [Power BI 導入フレームワークのウェビナー パート 2: ガバナンス](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) | Microsoft Power BI のセルフサービス ビジネス インテリジェンス (BI) の導入を正常にロールアウトします。 Power BI 導入におけるガバナンスの役割について説明しているウェビナーに参加してください。 BI ソリューションの種類によって異なるガバナンス アプローチと、効果的なセルフサービス BI プラクティスに必要な役割と責任について学習します。 | ウェビナー |             |
+| [Power BI 導入フレームワークのウェビナー パート 3: サービス管理](https://info.microsoft.com/ww-ondemand-pbi-adoption-framework-part3.html)  | 組織に有効な Power BI のロールアウトを計画し、効果的なサービスとしてのソフトウェア (SaaS) の意味を探ります。 このウェビナーは、組織の Power BI の潜在力を解放する 5 部構成シリーズの 3 番目です。 パート 3 では、テナント管理とゲートウェイ管理の要素を管理し、Power BI のスムーズで正常なロールアウトを計画する方法について学習します。  | ウェビナー |             |
 | [Power BI データ フローを使用した高度なデータ準備](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/11-13-18-Webinar-Advanced-data-prep-with-Power-BI-data-flows/td-p/534100) | パブリック プレビューが間近な Power BI データ フローについて説明する、Charles Sterling と Anton Fritz のウェビナーに参加してください。 このセッションでは、製品チームが Power BI でのデータ準備のための新機能と高度な機能について紹介します。  | ウェビナー | 56 分 2 秒  |
 ## <a name="integration"></a>統合<a name="integration"></a>
 | コンテンツ  | Description   | 書式  | 長さ |

@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040115"
 ---
 # <a name="your-content-is-up-to-date"></a>コンテンツが最新の状態に維持される
@@ -55,7 +55,7 @@ ms.locfileid: "79040115"
     ![2 つのアプリの内、1 つが選択されています](media/end-user-fresh/power-bi-app.png)
 
 
-### <a name="shared-with-me"></a>自分と共有
+### <a name="shared-with-me"></a>共有アイテム
 **[共有アイテム]** 画面には、コンテンツ所有者の名前とコンテンツが最後に共有された日付が表示されます。
 
 ![共有アイテム画面に変更日付と所有者が表示されています](media/end-user-fresh/power-bi-share.png) 
@@ -64,7 +64,7 @@ ms.locfileid: "79040115"
 ## <a name="how-to-look-up-the-last-refresh-date"></a>最終更新日を調べる方法
 最終更新日に興味があれば、ほとんどのコンテンツでそれを調べることができます。 
 
-### <a name="dashboard-tiles"></a>データのプッシュ時の
+### <a name="dashboard-tiles"></a>ダッシュボード タイル
 ダッシュボード タイルの場合、タイルをフォーカス モードで表示すると、最終更新日のタイムスタンプが表示されます。
 
 1. ダッシュボード タイルで**その他のオプション** (...) を選択し、 **[フォーカス モードで開く]** を選択します。
@@ -95,7 +95,7 @@ ms.locfileid: "79040115"
 ## <a name="set-data-alerts"></a>データ アラートの設定
 設定した上限を超えてデータが変化した場合、通知を受けますか。 [データ アラートを作成します](end-user-alerts.md)。  データ アラートを使用すれば、最新の状態を維持することが簡単になります。 データ アラートを使用して、レポート内の値が特定のしきい値を超えた場合、電子メールを送信するように Power BI に指示します。  たとえば、在庫が 25 ユニットを下回った場合や売上が目標を超えた場合にメールを受信します。  
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [データ アラートを作成する](end-user-alerts.md)    
 [ダッシュボードとレポートにサブスクライブする](end-user-subscribe.md)    
 [関連するコンテンツを表示する](end-user-related.md)    

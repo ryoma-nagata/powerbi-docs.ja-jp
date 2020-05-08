@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
 ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435377"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Power BI Windows アプリでオンプレミス レポートと KPI を表示する
@@ -75,7 +75,7 @@ Reporting Services KPI、モバイル レポート、Power BI レポート (プ�
 * [KPI] をタップすると、フォーカス モードで表示されます。
   
     ![フォーカス モードの KPI](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
-* モバイル レポートをタップして開き、Power BI アプリで操作します。
+* モバイル レポートをタップし、Power BI アプリを開いて対話します。
   
     ![Reporting Services のモバイル レポート](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
@@ -97,7 +97,7 @@ Power BI モバイル アプリから一度に接続できるのは、1 つの�
 2. 接続を望まないサーバー名をタップしてそのまま押さえます。
 3. **[サーバーの削除]** をタップします。
    
-    ![サーバーの削除](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
+    ![[サーバーの削除]](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
 
 ## <a name="create-reporting-services-mobile-reports-and-kpis"></a>Reporting Services のモバイル レポートと KPI を作成する
 Power BI モバイル アプリでは、Reporting Services KPI とモバイル レポートを作成できません。 作成するには、SQL Server Mobile Report Publisher と SQL Server 2016 Reporting Services Web ポータルを使用します。
@@ -105,8 +105,8 @@ Power BI モバイル アプリでは、Reporting Services KPI とモバイル �
 * [Reporting Services のモバイル レポートを作成](https://msdn.microsoft.com/library/mt652547.aspx)し、Reporting Services の Web ポータルに公開します。
 * [Reporting Services の Web ポータルで KPI を作成](https://msdn.microsoft.com/library/mt683632.aspx)します
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Windows 10 用の Power BI モバイル アプリの概要](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)  
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

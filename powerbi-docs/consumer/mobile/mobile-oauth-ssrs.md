@@ -9,10 +9,10 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114944"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth を使用し、Power BI Report Server と SSRS に接続する
@@ -58,7 +58,7 @@ Reporting Services 側での構成はあまりありません。 適切な Kerbe
 
 ### <a name="service-principal-name-spn"></a>サービス プリンシパル名 (SPN)
 
-SPN は、Kerberos 認証を使うサービスの一意の識別子です。 レポート サーバーに対して適切な HTTP SPN があることを確認する必要があります。
+SPN は、Kerberos 認証を使用するサービスの一意の識別子です。 レポート サーバーに対して適切な HTTP SPN があることを確認する必要があります。
 
 レポート サーバーの適切なサービス プリンシパル名 (SPN) の構成方法については、「[レポート サーバーのサービス プリンシパル名 (SPN) の登録](https://msdn.microsoft.com/library/cc281382.aspx)」をご覧ください。
 
@@ -94,7 +94,7 @@ AD FS 管理画面内で、Power BI Mobile アプリの情報を含む Reporting
 
    ![ADFS のアプリケーション グループ ウィザード 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. **[次へ]** を選択します。
+3. **[次へ]** を選びます。
 
 4. 追加するアプリケーションの**名前**を指定します。 
 
@@ -112,7 +112,7 @@ AD FS 管理画面内で、Power BI Mobile アプリの情報を含む Reporting
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS のアプリケーション グループ ウィザード 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. **[次へ]** を選択します。
+7. **[次へ]** を選びます。
 
 8. レポート サーバーの URL を指定します。 これは、Web アプリケーション プロキシにアクセスする外部 URL です。 次の形式でなければなりません。
 
@@ -122,19 +122,19 @@ AD FS 管理画面内で、Power BI Mobile アプリの情報を含む Reporting
    *https://<レポート サーバー URL>/*
 
    ![ADFS のアプリケーション グループ ウィザード 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. **[次へ]** を選択します。
+9. **[次へ]** を選びます。
 
 10. 組織のニーズに合った **[アクセス制御ポリシー]** を選びます。
 
     ![ADFS のアプリケーション グループ ウィザード 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. **[次へ]** を選択します。
+11. **[次へ]** を選びます。
 
 12. **[次へ]** を選びます。
 
-13. **[次へ]** を選択します。
+13. **[次へ]** を選びます。
 
-14. **[閉じる]** を選びます。
+14. **[閉じる]** を選択します。
 
 完了すると、次のようなアプリケーション グループのプロパティが表示されます。
 
@@ -246,7 +246,7 @@ Power BI モバイル アプリ内で、Reporting Services インスタンスに
 
 Fiddler を使うとサインインが正常に行われる場合は、WAP アプリケーションまたは ADFS サーバーでの証明書の問題である可能性があります。 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [レポート サーバーのサービス プリンシパル名 (SPN) の登録](https://msdn.microsoft.com/library/cc281382.aspx)  
 [Reporting Services 構成ファイルを変更する](https://msdn.microsoft.com/library/bb630448.aspx)  
@@ -254,5 +254,5 @@ Fiddler を使うとサインインが正常に行われる場合は、WAP ア�
 [Active Directoryフェデレーション サービス](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Windows Server 2016 での Web アプリケーション プロキシ](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [AD FS の事前認証を使用したアプリケーションの公開](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[AD FS 2016 と Azure MFA を構成する](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[AD FS 2016 と Azure MFA の構成](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

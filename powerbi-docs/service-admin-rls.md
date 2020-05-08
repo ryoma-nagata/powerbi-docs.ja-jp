@@ -10,12 +10,12 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 831c6f1d2cecfa51b64c8ff77f14ead9f644bcc7
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: 70f10620932708dd178b635f966a55f8139cde65
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81439988"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841160"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI での行レベルのセキュリティ (RLS)
 
@@ -51,7 +51,7 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 
 ### <a name="add-members"></a>メンバーの追加
 
-役割にメンバーを追加するには、追加するユーザー、セキュリティ グループ、または配布リストのメール アドレスまたは名前を入力します。 Power BI 内に作成したグループは追加できません。 [組織外部の](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners)メンバーを追加できます。
+役割にメンバーを追加するには、追加するユーザー、セキュリティ グループ、または配布リストのメール アドレスまたは名前を入力します。 Power BI 内に作成したグループは追加できません。 [組織外部の](guidance/whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners)メンバーを追加できます。
 
 ![メンバーの追加](media/service-admin-rls/rls-add-member.png)
 

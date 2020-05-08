@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205506"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI モバイル アプリでタイル、レポート、ビジュアルに注釈を付けて共有する
@@ -20,7 +20,7 @@ ms.locfileid: "79205506"
 
 | ![iPhone](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android フォン |Android タブレット |
+| iPhones |iPad |Android フォン |Android タブレット |
 
 iOS および Android デバイス用 Power BI モバイル アプリから、タイル、レポート、または視覚エフェクトのスナップショットの注釈付けおよび共有を行うことができます。 受信者には、メールを送信したときとまったく同じ状態のこれらの項目に加えて、リンクが表示されます。 同じメール ドメインの仕事仲間だけでなく、すべてのユーザーにタイルのスナップショットを送信することができます。 スナップショットを共有する前に、線、テキスト、またはスタンプの注釈を追加できます。
 
@@ -34,19 +34,19 @@ iOS および Android デバイス用 Power BI モバイル アプリから、�
 
 ## <a name="open-a-tile-for-annotating"></a>注釈を付けるためにタイルを開く
 1. タイルをタップして、フォーカス モードで開きます。
-2. 視覚エフェクトの右上隅にある注釈アイコン ![注釈アイコン](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) をタップします。
+2. レポートの右上隅にある注釈アイコン ![注釈アイコン](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) をタップします。
 3. [タイルに注釈を付けて共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)できる状態になります。
 
 ## <a name="open-a-report-for-annotating"></a>注釈を付けるためにレポートを開く
 1. レポートを開きます。 
-2. 視覚エフェクトの右上隅にある注釈アイコン ![注釈アイコン](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) をタップします。
+2. レポートの右上隅にある注釈アイコン ![注釈アイコン](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) をタップします。
 3. [レポートに注釈を付けて共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)できる状態になります。
 
 ## <a name="open-a-visual-for-annotating"></a>注釈を付けるために視覚エフェクトを開く
 1. レポートで視覚エフェクトをタップし、展開アイコンをタップしてフォーカス モードで開きます。 
    
     ![フォーカス モード アイコン](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-visual-focus-mode.png)
-2. 視覚エフェクトの右上隅にある注釈アイコン ![注釈アイコン](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) をタップします。
+2. レポートの右上隅にある注釈アイコン ![注釈アイコン](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) をタップします。
 3. [視覚エフェクトに注釈を付けて共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)できる状態になります。
 
 ## <a name="annotate-and-share-the-tile-report-or-visual"></a>タイル、レポート、または視覚エフェクトに注釈を付けて共有する
@@ -71,7 +71,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、�
    メールにはイメージと、特定のタイル、レポート、または視覚エフェクトへのリンクが含まれています。 
 4. **[送信]** をタップします。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI モバイル アプリからダッシュボードを共有する](mobile-share-dashboard-from-the-mobile-apps.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 
