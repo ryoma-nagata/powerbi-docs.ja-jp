@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637873"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードのタイルの概要
@@ -41,7 +41,7 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 * [レポート](service-dashboard-pin-tile-from-report.md)
 * [別のダッシュボード](service-pin-tile-to-another-dashboard.md)
 * [OneDrive for Business 上の Excel ブック](service-dashboard-pin-tile-from-excel.md)
-* [Quick Insights (クイック分析情報)](service-insights.md)
+* [クイック分析情報](service-insights.md)
 * [Power BI Report Server または SQL Server Reporting Services のページ分割されたオンプレミス レポート](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 [[タイルの追加]](service-dashboard-add-widget.md) コントロールを使用することで、画像、テキスト ボックス、ビデオ、ストリーミング データ、Web コンテンツ用のスタンドアロン タイルをダッシュボードで直接作成します。
@@ -92,7 +92,7 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 * Power BI Report Server または SQL Server Reporting Services のページ分割されたオンプレミス レポートから作成されたタイルを選択するとします。 レポート サーバーが置かれているネットワークにアクセスする権限がない場合、そのページ分割されたレポートから作成されたタイルを選択すると、サーバーが見つからないことを示すページに移動します (HTTP 404)。 レポートを表示するには、デバイスにレポート サーバーへのネットワーク アクセスが必要です。
 * タイルの作成に使った元の視覚エフェクトが変更された場合、タイルは変更されません。 たとえば、レポートからの折れ線グラフをピン留めし、折れ線グラフを横棒グラフに変更した場合でも、ダッシュボード タイルは引き続き折れ線グラフを表示します。 データは更新されますが、視覚化の種類は変更されません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 - [ダッシュボードのカード (大きな数字のタイル) を作成する](power-bi-visualization-card.md)
 - [Power BI デザイナーのダッシュボードの概要](service-dashboards.md)  
 - [Power BI でのデータの更新](refresh-data.md)

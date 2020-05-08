@@ -1,6 +1,6 @@
 ---
-title: Power BI の IT 支出分析のサンプル:ツアーを開始する
-description: Power BI の IT 支出分析のサンプル:ツアーを開始する
+title: 'Power BI の IT 支出分析のサンプル: 使ってみる'
+description: 'Power BI の IT 支出分析のサンプル: 使ってみる'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404702"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の IT 支出分析のサンプル:ツアーを開始する
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の IT 支出分析のサンプル: 使ってみる
 
 IT 支出分析のサンプル コンテンツ パックには、IT 部門の予定コストと実績コストを比較分析するダッシュボード、レポート、データセットが含まれます。 比較することで当年度における予算が適切に組まれたかどうかを把握し、当初の計画から大きく乖離している分野を調べることができます。 この例の会社では年間予算が組まれ、四半期ごとに最新予測 (LE) が出されて当該会計年度における IT 支出の変化を分析しています。
 
@@ -126,7 +126,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 * 各グラフの視覚エフェクトの種類を変更します。
 * 関心のあるグラフをダッシュボードにピン留めします。
 
-## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
+## <a name="next-steps-connect-to-your-data"></a>次の手順: データへの接続
 変更内容を保存しないことを選択できるため、この環境で試してみるのは安全です。 一方、それらを保存した場合は、 **[データを取得]** を選択して、常にこのサンプルの新しいコピーを取得できます。
 
 この記事から、Power BI ダッシュボード、Q&A、レポートからサンプル データの分析情報をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータに接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、[Power BI サービスの概要](service-get-started.md)に関するページを参照してください。

@@ -1,6 +1,6 @@
 ---
-title: '調達の分析のサンプル: ツアーを開始する'
-description: Power BI の調達の分析のサンプル:ツアーを開始する
+title: '調達の分析のサンプル: 使ってみる'
+description: 'Power BI の調達の分析のサンプル: 使ってみる'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404661"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の調達の分析のサンプル:ツアーを開始する
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI の調達の分析のサンプル: 使ってみる
 
 調達の分析のサンプル コンテンツ パックには、製造会社のベンダー支出をカテゴリと場所ごとに分析するダッシュボード、レポート、データセットが含まれています。 このサンプルでは、次の領域を調べます。
 
@@ -138,7 +138,7 @@ Power BI Desktop 内でサンプルを調べるために Power BI ライセン�
 * グラフの視覚化の種類を変更します。たとえば、ツリーマップをドーナツ グラフに変更します。
 * グラフをダッシュボードにピン留めします。
 
-## <a name="next-steps-connect-to-your-data"></a>次の手順:データへの接続
+## <a name="next-steps-connect-to-your-data"></a>次の手順: データへの接続
 変更内容を保存しないことを選択できるため、この環境で試してみるのは安全です。 一方、それらを保存した場合は、 **[データを取得]** を選択して、常にこのサンプルの新しいコピーを取得できます。
 
 この記事から、Power BI ダッシュボード、Q&A、レポートからサンプル データの分析情報をどのように得られるかがご理解いただけたでしょうか。 次はあなたの番です。ご自分のデータに接続してみてください。 Power BI を使用すると、広範なデータ ソースに接続することができます。 詳細については、[Power BI サービスの概要](service-get-started.md)に関するページを参照してください。
