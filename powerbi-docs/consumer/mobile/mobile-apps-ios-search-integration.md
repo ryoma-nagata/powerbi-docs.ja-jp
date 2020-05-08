@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 7d61a57a928df95bd2210bf58cc44e37d14c393d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114462"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>iOS デバイスの検索 (Spotlight) と Power BI Mobile iOS アプリの統合 (プレビュー)
@@ -30,10 +30,10 @@ iOS デバイスの検索 (Spotlight) を使用して特定のコンテンツを
  
    検索結果には、次の種類の Power BI 項目が含まれます。
 
-    * ダッシュボード
+    * Dashboards
     * レポート
     * アプリ
-    * ワークスペース
+    * Workspaces
     * 検索している連絡先によって共有されている項目
 
     ![iOS デバイスの検索での Power BI 検索の結果を示すスクリーンショット](./media/mobile-apps-ios-siri-search/power-bi-spotlight-search.png)
@@ -47,7 +47,7 @@ Siri を利用したデバイスの検索では、Power BI アプリで頻繁に
 >デバイスの検索と Siri の提案を無効にするには、 **[デバイスの設定]** > **[Power BI の設定]** > **[Siri と検索]** に移動し、 **[Siri & suggestions]\(Siri と提案\)** の設定を無効にします。
 >
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 次の手順に従って、Power BI Mobile アプリの詳細を確認します。 
 
 * [Power BI iPhone モバイル アプリ](https://go.microsoft.com/fwlink/?LinkId=522062)をダウンロードする

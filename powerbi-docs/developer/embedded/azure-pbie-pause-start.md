@@ -10,10 +10,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
 ms.openlocfilehash: 07c9c12366b100936e03fe07358ee180e026dfc5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114752"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal での Power BI Embedded 容量の一時停止と開始
@@ -43,7 +43,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
     ![容量を一時停止する](media/azure-pbie-pause-start/azure-portal-pause-capacity.png)
 
-5. **[はい]** を選択すると容量の一時停止が確定します。
+5. **[はい]** を選択し、容量を一時停止することを確認します。
 
     ![一時停止を確定する](media/azure-pbie-pause-start/azure-portal-confirm-pause.png)
 
@@ -65,13 +65,13 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
     ![容量を開始する](media/azure-pbie-pause-start/azure-portal-start-capacity.png)
 
-5. **[はい]** を選択すると容量の開始が確定します。
+5. **[はい]** を選択し、容量を開始することを確認します。
 
-    ![開始を確定する](media/azure-pbie-pause-start/azure-portal-confirm-start.png)
+    ![開始の確認](media/azure-pbie-pause-start/azure-portal-confirm-start.png)
 
 この容量にコンテンツが割り当てられている場合、開始後、利用可能になります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 容量を拡大または縮小する場合、[Power BI Embedded 容量のスケーリング](azure-pbie-scale-capacity.md)に関するページを参照してください。
 

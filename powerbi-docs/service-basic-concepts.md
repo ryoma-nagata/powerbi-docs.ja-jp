@@ -12,10 +12,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404063"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI サービスのデザイナー向けの基本的な概念
@@ -185,7 +185,7 @@ Power BI ではブックを編集できません。 しかし、変更を加え�
   ![ナビ ペイン](media/service-basic-concepts/power-bi-navigation.png)
 
 * [データセット、レポート、ダッシュボードを Power BI に追加する](service-get-data.md)には、 **[データの取得]** を選びます。
-* ナビ ペインを展開したり折りたたんだりするには、次のアイコンを使用します: ![ナビ ペイン アイコン](media/service-basic-concepts/expand-icon.png).
+* ナビ ペインを展開したり折りたたんだりするには、次のアイコンを使用します:  ![ナビ ペイン アイコン](media/service-basic-concepts/expand-icon.png).
 * お気に入りのコンテンツを開いたり管理したりするには、 **[お気に入り]** を選びます。
 * 最近アクセスしたコンテンツを表示して開くには、 **[最近]** を選びます。
 * アプリを表示したり、開いたり、削除したりするには、 **[アプリ]** を選びます。

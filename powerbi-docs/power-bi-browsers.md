@@ -10,10 +10,10 @@ ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: abe556231978d762dab652263aa2c55cf3c8a955
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273273"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI のサポートされているブラウザー
@@ -22,7 +22,7 @@ Power BI はこれらのサポートされているすべてのブラウザー�
 
 Power BI では、使用できるすべてのプラットフォームでこれらのブラウザーがサポートされます。
 
-- Microsoft エッジ
+- Microsoft Edge
 - Internet Explorer 11。 系列ビューなどの一部の高度な機能は、Internet Explorer ではサポートされていません。 詳細については、「[データ系列 (プレビュー)](collaborate-share/service-data-lineage.md)」を参照してください。
 - Chrome デスクトップの最新バージョン
 - Safari Mac の最新バージョン
@@ -31,7 +31,7 @@ Power BI では、使用できるすべてのプラットフォームでこれ�
 > [!NOTE]
 > Power BI は、iOS10 以前のバージョンのブラウザーでは動作しません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI とは?](power-bi-overview.md)
 * [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください

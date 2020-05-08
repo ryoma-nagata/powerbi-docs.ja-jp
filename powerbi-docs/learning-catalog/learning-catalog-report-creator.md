@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268813"
 ---
 # <a name="report-creator-learning-catalog"></a>レポート作成者ラーニング カタログ
@@ -25,7 +25,7 @@ Power BI レポート デザイナーですか?
 | [Power BI で分析レポートを作成して使用する](https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/)  | このラーニング パスは、Power BI を紹介し、ビジネス インテリジェンス レポートを使用および作成する方法について説明します。  | 無料、マイペースで進められるオンライン ラーニング パス | 6 時間 22 分      |
 | [Power BI 用にデータを準備する](https://youtu.be/l2wy4XgQIu0)  | Power BI 用に Excel データを準備するためのいくつかの簡単なヒントをご覧ください。 | 1 分 20 秒      |
 | [Microsoft Power BI の YouTube チャンネル](https://www.youtube.com/user/mspowerbi/videos) | Microsoft の Power BI 製品チームのコンテンツを含む YouTube チャンネル  | ビデオ   |                |
-| [Power BI の概要](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)  | どのように Power BI を始めたらよいのかを知りたいと思いますか? 初めてデータに接続して視覚化するにはどうすればよいでしょうか? Power BI の使用をすばやく開始し、すぐにビジネス データから分析情報を得る方法について学習します。  | ウェビナー   |                |
+| [Power BI の概要](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)  | どのように Power BI を始めたらよいのかを知りたいと思いますか? 初めてデータに接続して視覚化するにはどうすればよいでしょうか?  Power BI の使用をすばやく開始し、すぐにビジネス データから分析情報を得る方法について学習します。  | ウェビナー   |                |
 | [Power BI Mobile アプリの使用を開始する](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html) | モバイル デバイスを使用してデータを常に最新の状態に維持する方法について学習するには、このウェビナーをご覧ください。 モバイルに最適化されたレイアウトを使用してエクスペリエンスを向上させる方法、外出先でデータを操作する方法、データに注意が必要なときにプッシュ通知を受け取る方法、モバイル デバイスから同僚と共有して共同作業を行う方法について説明します。 | ウェビナー    |                |
 | [PowerBI.Tips の所有者による Power のテクニック、ヒント、ツール](https://www.youtube.com/watch?v=fnj1_e3HXow) | この非常に特別なユーザー グループ ミーティングでは、PowerBI.Tips の所有者で Power BI MVP である Seth Baur と Mike Carlo が、過去 18 か月間に http://PowerBI.Tips に公開した Power のさまざまなテクニック、ヒント、ツールを共有します。  | YouTube ビデオ  | 1 時間 7 分 40 秒 |
 | [SQL Server BI に関する Paul Turley のブログ](https://sqlserverbi.blog/) | 2009 年以降の Microsoft のデータ プラットフォーム、SQL Server BI、データ モデリング、SSAS の設計、Power Pivot、Power BI、SSRS の高度な設計、Power BI、ダッシュボードおよび視覚化に関する Paul Turley 氏の経験を共有します。   | ブログ                                  |                |
@@ -44,7 +44,7 @@ Power BI レポート デザイナーですか?
 | [2018 年 9 月 11 日のウェビナー: 新しいツールと新しいテンプレート (色の変更点に関するチュートリアル)](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/9-11-18-Webinar-New-tools-and-new-templates-including-a/td-p/480220) | Charles Sterling、PowerBI.Tips の所有者で Power BI MVP である Seth Baur と Mike Carlo が、過去 6 か月間に https://PowerBI.Tips に公開した Power の増え続けるさまざまなテクニック、ヒント、ツールを共有するウェビナーに参加してください。 デモには、最新のテーマ ジェネレーター、ヒント、テクニック、最新の Power BI レイアウトが含まれます。  | ウェビナー       | 53 分 34 秒    |
 | [Power BI:適切に行われる分析](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_02OnDemandRegistration-ForminBody.html)  | すべての分析および Excel のビジョナリーへ: 人々が利用したい思う美しいレポートを作成し、わかりやすく魅力的な分析情報を共有し、複雑なデータのサイロの壁を安全に取り払ってアクセス可能にする方法について説明します。 私達は製品の新しい革新技術と、最新のエンタープライズ BI およびセルフサービス BI に関するビジョンを共有することになります。これにより、お客様の組織ではデータドリブン カルチャを構築できるようになります。  | ウェビナー       |                |
 | [Power BI データを視覚化:中心となるグラフの種類とその利用方法](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-OnDemandRegistration.html)  | グラフの種類は、ビジュアル分析の最も基本的な構成要素の 1 つです。 グラフを適切に使用することで、適切なパターンと明確さを作成し、ユーザーに適切な回答を提供します。  | ウェビナー       |                |
-| [ビジュアル的にアピールする Power BI レポートをデザインする方法](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)   | わかりやすく機能的で、分析情報が豊富な見栄えのよいダッシュボードを設計する方法について詳しく知りたいですか? このマーケティングに焦点を絞ったセッションでは、時間を節約しながら、魅力的で一貫性のあるレポートやダッシュボードを設計するために役立つ設計のベスト プラクティスなど、Power Design について説明します。  | ウェビナー       | 36 分 54 秒  |
+| [ビジュアル的にアピールする Power BI レポートをデザインする方法](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)   | わかりやすく機能的で、分析情報が豊富な見栄えのよいダッシュボードを設計する方法について詳しく知りたいですか?  このマーケティングに焦点を絞ったセッションでは、時間を節約しながら、魅力的で一貫性のあるレポートやダッシュボードを設計するために役立つ設計のベスト プラクティスなど、Power Design について説明します。  | ウェビナー       | 36 分 54 秒  |
 | [より優れたレポートに変換する](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)  | 適切にデザインされた Power BI レポートを提供できないことは、レポートの最も一般的な落とし穴でしょう。 質の高いデータが、意味のある、または簡単に理解できる方法で提示されなければ、意味がありません。 予備知識を持たない人が、説明なしでレポートをすばやく理解でき、自分が見てもらいたい重要な要素にその人の注意をすばやく引き付けられるようにする必要があります。  このウェビナーでは、データを活用するための習得が容易な手法を使用して、Power BI におけるレポートでの一般的なすべきこととしてはいけないことについて説明します。 | ウェビナー       |     |
 ## <a name="visualization"></a>視覚化<a name="visualization"></a>
 | コンテンツ | Description  | 書式 | 長さ   |
