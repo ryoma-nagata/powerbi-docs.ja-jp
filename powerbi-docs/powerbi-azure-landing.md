@@ -1,6 +1,6 @@
 ---
 title: Azure ユーザー向けの Power BI
-description: Microsoft Azure で、データの操作、インフラストラクチャの管理、アプリケーションの構築をしていますか?
+description: 'Microsoft Azure で、データの操作、インフラストラクチャの管理、アプリケーションの構築をしていますか? '
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
@@ -10,15 +10,15 @@ author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
 ms.openlocfilehash: 1452c77fc6386f3f4d4a4f949fd2c74e1919b0c0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488754"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Microsoft Azure ユーザー向けの Power BI 
 
-Microsoft Azure で、データの操作、インフラストラクチャの管理、アプリケーションの構築をしていますか? Power BI を使用して、データまたはアプリケーションから値を取得したいですか? このリソースが迅速化に役立つはずです。 ようこそ!
+Microsoft Azure で、データの操作、インフラストラクチャの管理、アプリケーションの構築をしていますか?  Power BI を使用して、データまたはアプリケーションから値を取得したいですか?  このリソースが迅速化に役立つはずです。 ようこそ!
 
 あなたは Power BI をご利用の上級者ですか? もちろん、大歓迎です。 まずは、[利用者向けの Power BI](consumer/index.yml) をご覧になることをお勧めします。
 

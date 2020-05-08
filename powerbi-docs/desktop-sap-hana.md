@@ -11,10 +11,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 9b205a0ae9b58acf054a9afe43196e77ee404c84
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76753113"
 ---
 # <a name="connect-to-sap-hana-databases-in-power-bi-desktop"></a>Power BI Desktop で SAP HANA データベースに接続する
@@ -47,7 +47,7 @@ SAP HANA データベースに接続する場合、サーバー名を指定し�
 
 * Power BI は、HDI コンテナー ベースの計算ビューをサポートします。
 
-  * Power BI Desktop の 2019 年 8 月のリリースでは、HDI コンテナー ベースの計算ビューのサポートは、パブリック プレビュー段階にあります。 Power BI で HDI コンテナー ベースの計算ビューにアクセスするには、Power BI で使用する HANA データベース ユーザーが、アクセスするビューを格納する HDI ランタイム コンテナーにアクセスするためのアクセス許可を持っていることを確認します。 このアクセス権を付与するには、HDI コンテナーへのアクセスを許可するロールを作成します。 次に、Power BI で使用する HANA データベース ユーザーにそのロールを割り当てます (このユーザーには、通常どおり、\_SYS\_BI スキーマでシステム テーブルから読み取るためのアクセス許可も必要です)。データベース ロールを作成して割り当てる方法の詳細な手順については、SAP の公式ドキュメントを参照してください。 [この SAP のブログ記事](https://blogs.sap.com/2018/01/24/the-easy-way-to-make-your-hdi-container-accessible-to-a-classic-database-user/)から始めることも可能です。
+  * Power BI Desktop の 2019 年 8 月のリリースでは、HDI コンテナー ベースの計算ビューのサポートは、パブリック プレビュー段階にあります。 Power BI で HDI コンテナー ベースの計算ビューにアクセスするには、Power BI で使用する HANA データベース ユーザーが、アクセスするビューを格納する HDI ランタイム コンテナーにアクセスするためのアクセス許可を持っていることを確認します。 このアクセス権を付与するには、HDI コンテナーへのアクセスを許可するロールを作成します。 次に、Power BI で使用する HANA データベース ユーザーにそのロールを割り当てます  (このユーザーには、通常どおり、\_SYS\_BI スキーマでシステム テーブルから読み取るためのアクセス許可も必要です)。データベース ロールを作成して割り当てる方法の詳細な手順については、SAP の公式ドキュメントを参照してください。 [この SAP のブログ記事](https://blogs.sap.com/2018/01/24/the-easy-way-to-make-your-hdi-container-accessible-to-a-classic-database-user/)から始めることも可能です。
 
   * 現在、HDI ベースの計算ビューに関連付けられている HANA 変数には、いくつかの制限があります。 これらの制限は、HANA 側のエラーによるものです。
   

@@ -11,10 +11,10 @@ ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273319"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI での散布図、バブル チャート、およびドット プロット グラフ
@@ -168,7 +168,7 @@ ms.locfileid: "80273319"
 
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>散布図グラフにデータ ポイントが 1 つだけ表示される
 
-散布図に、X 軸上と Y 軸上のすべての値を集計した 1 つのデータ ポイントのみが表示されていますか?  あるいは、1 本の横線または縦線に沿ってすべての値が集計されていますか?
+散布図に、X 軸上と Y 軸上のすべての値を集計した 1 つのデータ ポイントのみが表示されていますか?   あるいは、1 本の横線または縦線に沿ってすべての値が集計されていますか?
 
 ![散布図と 1 つのデータ ポイントのスクリーンショット。](media/power-bi-visualization-scatter/pbi-scatter-tshoot1.png)
 

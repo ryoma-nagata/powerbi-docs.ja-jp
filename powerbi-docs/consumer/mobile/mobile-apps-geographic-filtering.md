@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435331"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリで地理的な場所によりレポートをフィルターする
@@ -19,7 +19,7 @@ ms.locfileid: "79435331"
 
 | ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows スマートフォン](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android フォン |Android タブレット |Windows 10 スマートフォン |
+| iPhones |iPad |Android フォン |Android タブレット |Windows 10 スマートフォン |
 
 モバイル デバイスで Power BI レポートを開くと、右上に小さなプッシュピン アイコンが表示されることがあります。 プッシュピンが表示される場合、場所に基づいてそのレポートをフィルターできます。
 
@@ -32,7 +32,7 @@ ms.locfileid: "79435331"
 ## <a name="filter-your-report-by-your-geographic-location"></a>地理的な場所でレポートをフィルターする
 1. モバイル デバイスの Power BI モバイル アプリでレポートを開きます。
 2. レポートに地理的なデータが含まれている場合、Power BI に位置情報へのアクセスを許可するように求めるメッセージが表示されます。 **[許可]** をクリックし、もう一度 **[許可]** をタップします。
-3. 押しピン ![押しピン アイコンをタップします。](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png). レポート内のデータに応じて、市、都道府県、または国/地域でフィルター処理できます。 フィルターを使用すると、現在地に一致する選択肢のみが一覧表示されます。
+3. 押しピン ![押しピン アイコンをタップします。](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png)。 レポート内のデータに応じて、市、都道府県、または国/地域でフィルター処理できます。 フィルターを使用すると、現在地に一致する選択肢のみが一覧表示されます。
    
     ![押しピン フィルター](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-map-set-filter.png)
 
@@ -48,8 +48,8 @@ ms.locfileid: "79435331"
 
 Power BI Desktop での[地理的なフィルターの設定](../../desktop-mobile-geofiltering.md)の詳細を参照してください。
 
-### <a name="next-steps"></a>次の手順
+### <a name="next-steps"></a>次のステップ
 * [モバイル アプリで現実世界から Power BI データに接続する](mobile-apps-data-in-real-world-context.md)
 * [Power BI Desktop でのデータ分類](../../desktop-data-categorization.md) 
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

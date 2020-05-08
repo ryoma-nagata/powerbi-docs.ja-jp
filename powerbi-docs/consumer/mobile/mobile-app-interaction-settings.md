@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
 ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377377"
 ---
 # <a name="configure-report-interaction-settings"></a>レポートの対話式操作の設定を構成する
 
-## <a name="overview"></a>概要
+## <a name="overview"></a>Overview
 
 Power BI モバイル アプリには、多くの構成可能な "対話式操作" の設定があります。この設定を使用すると、データの操作方法を制御したり、Power BI モバイル アプリの一部の要素の動作を定義したりすることができます。 次の表は、現在使用可能な対話式操作の設定と、それらを備えているデバイスを示しています。
 
@@ -76,6 +76,6 @@ Android フォンでは、更新ボタンが既定で追加されます。
 対話式操作は、管理者がアプリ構成ファイルで MDM ツールを使用して、リモートで構成することもできます。 この方法では、組織全体または組織内の特定のユーザー グループに対して、レポートの対話式操作エクスペリエンスを標準化できます。 詳細については、[モバイル デバイス管理を使用した対話式操作の構成](./mobile-app-configuration.md)に関するページを参照してください。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [レポートを操作する](./mobile-reports-in-the-mobile-apps.md#interact-with-reports)
 * [モバイル デバイス管理を使用して対話式操作を構成する](./mobile-app-configuration.md)

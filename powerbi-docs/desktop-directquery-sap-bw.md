@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761182"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Power BI で DirectQuery を使用して SAP Business Warehouse に接続する
@@ -35,7 +35,7 @@ Power BI で DirectQuery を使用して SAP BW に接続する場合のモデ�
 * **メジャーのその他の制限:** メジャーで使用できる、SAP BW のサポート レベルを反映する DAX 式の制限がこの他にもあります。
 * **リレーションシップの定義のサポートがない:** リレーションシップは外部 SAP ソースに内在しており、モデルではリレーションシップを追加定義できません。
 * **データ ビューがない:** **[データ ビュー]** は、通常詳細レベル データをテーブルに表示します。 SAP BW などの OLAP のソースの性質から、このビューは SAP BW では使用できません。
-* **列とメジャーの詳細が固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりすることはできません (ただし、名前変更は可能です)。
+* **列とメジャーの詳細は固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりすることはできません (ただし、名前変更は可能です)。
 * **DAX のその他の制限:** メジャーの定義で使用できる DAX には、ソースの制限と一致する制限がこの他にもあります。 たとえば、テーブルに集計関数は使用できません。
 
 ## <a name="additional-visualization-restrictions"></a>視覚エフェクトのその他の制限
@@ -48,7 +48,7 @@ Power BI で DirectQuery を使用して SAP BW に接続する場合の視覚�
 ## <a name="support-for-sap-bw-features"></a>SAP BW の機能のサポート
 次の表では、完全にはサポートされていない、または Power BI を使用した場合に異なる動作をする SAP BW のすべての機能を示します。   
 
-| おすすめ | 説明 |
+| 機能 | Description |
 | --- | --- |
 | ローカル計算 |BEx クエリで定義されているローカル計算は、BEx アナライザーなどのツールによって表示されるよう数値を変更します。 ただし、これはパブリックの MDX インターフェイスを介して返される、SAP から返される数値には反映されません。 <br/> <br/> **そのため、Power BI のビジュアルに表示される数値は、SAP ツールの対応するビジュアルのものとは必ずしも一致しません。**<br/> <br/>  たとえば、集計が累積される (集計の実行などの) クエリ キューブに BEx クエリから接続する場合、Power BI はこの設定を無視して底の数値を返します。  もちろんアナリストは Power BI でローカルで実行中の合計の計算を適用できますが、これが行われていない場合は、数値がどのように解釈されるか、注意する必要があります。 |
 | 集計 |場合によっては (特に複数の通貨を扱う場合)、SAP パブリック インターフェイスによって返される集計数が SAP ツールで表示されるものと異なる場合があります。 <br/> <br/> **そのため、Power BI のビジュアルに表示される数値は、SAP ツールの対応するビジュアルのものとは必ずしも一致しません。** <br/> <br/> たとえば、BEx アナライザーではさまざまな通貨の合計は "*" と表示されますが、SAP パブリック インターフェイスでは、そのような集計数には意味がないという情報は表示しないまま、合計数が返されます。 つまり、($、EUR、および AUD などの集計) 数値が Power BI で表示されます。 |
@@ -71,10 +71,10 @@ Power BI で DirectQuery を使用して SAP BW に接続する場合の視覚�
 | エンドユーザーの言語設定 |SAP BW への接続に使用されるロケールは、接続の詳細の一部として設定されるもので、レポートの最終コンシューマーのロケールとは一致しません。 |
 | テキストの変数 |SAP BW では、("$YEAR$ Actuals" など) 変数のプレースホルダーをフィールド名に含めることができます。これは、その後、選択した値で置き換えられます。 たとえば、変数に 2016 年を選択した場合、BEx ツールでは、フィールドに "2016 Actuals" と表示されます。 <br/> <br/> Power BI の列名は、変数の値によっては変わらず、したがって "$YEAR$ Actuals" と表示されます。  ただし、Power BI で列名を変更することはできます。 |
 | Customer Exit 変数 | Customer Exit 変数はパブリック API では公開されず、Power BI では使用できません。 |
-| 特性構造 | 基礎となる SAP BW ソースの特性構造の結果として、Power BI にはメジャーの ‘エクスプロージョン’ が公開されます。 たとえば、Sales と Costs という 2 つのメジャーと、Budget と Actual を含む 1 つの特性構造がある場合、次の 4 つのメジャーが公開されます:Sales.Budget、Sales.Actual、Costs.Budget、Costs.Actual。 |
+| 特性構造 | 基礎となる SAP BW ソースの特性構造の結果として、Power BI にはメジャーの ‘エクスプロージョン’ が公開されます。 たとえば、Sales と Costs という 2 つのメジャーと、Budget と Actual を含む 1 つの特性構造がある場合、Sales.Budget、Sales.Actual、Costs.Budget、Costs.Actual という 4 つのメジャーが公開されます。 |
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 DirectQuery の詳細については、次のリソースを参照してください。
 
 * [Power BI の DirectQuery](desktop-directquery-about.md)

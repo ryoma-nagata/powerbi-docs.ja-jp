@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379879"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Power BI で Power BI ビジュアルにロケールを追加する
@@ -45,7 +45,7 @@ this.locale = options.host.locale;
 
 サポートされているロケール:
 
-ロケール文字列 | 言語
+ロケール文字列 | Language
 --------------|----------------------
 ar-SA | العربية (アラビア語)
 bg-BG | български (ブルガリア語)
@@ -215,6 +215,6 @@ let legend: string = this.localization.getDisplayName("Role_Legend");
 
 en-US の場合は "Legend"、ru-RU の場合は "Обозначения" が返されます
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [書式設定ユーティリティを使用してローカライズされた形式を指定する方法について説明します](utils-formatting.md)

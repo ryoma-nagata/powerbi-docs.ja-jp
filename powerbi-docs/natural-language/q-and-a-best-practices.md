@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609944"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841919"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI の Q&A を最適化するためのベスト プラクティス
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 さらに効果的な方法は、データから回答を得ることです。これが、Power BI の Q&A の機能です。
@@ -194,6 +194,8 @@ Power BI は、既定で積極的に数値列を集計するため、"年ごと�
 この手順は、特に Q&A に適用され、Power BI レポートには通常適用されません。 たとえば、総売上高、正味売上高、正味総売上高のように、同じものを指すのにさまざまな用語を使用することがよくあります。 これらのシノニムを Power BI モデルのテーブルおよび列に追加できます。 
 
 この手順は重要である場合があります。 テーブル名や列名が単純であっても、Q&A のユーザーは、最初に思いついたボキャブラリを使用して質問をします。 ユーザーは、定義済みの列の一覧から選択することはありません。 より実際的なシノニムを追加するほど、レポートでのユーザーのエクスペリエンスが向上します。 シノニムを追加するには、Power BI Desktop で [モデル] ビューに移動して、[モデリング] タブを選択し、フィールドまたはテーブルを選択します。 [プロパティ] ペインに **[シノニム]** ボックスが表示されます。このボックスでシノニムを追加できます。
+
+
 
 ![Q&A の [プロパティ] ペインの [シノニム] ボックス](media/qna-modelling-pane-synonyms.png)
 

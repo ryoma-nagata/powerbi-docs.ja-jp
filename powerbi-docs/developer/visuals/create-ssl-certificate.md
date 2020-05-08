@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: fab40863d7beae4892a56975aa5e92c4fe5486ac
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380274"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL 証明書を作成する
@@ -35,14 +35,14 @@ OpenSSL をインストールするには、[OpenSSL](https://www.openssl.org) �
 
 次のいずれかのコマンドを実行して、ユーティリティをインストールすることもできます。
 
-* *Brew* パッケージ マネージャーからの場合:
+* *Brew* パッケージ マネージャーからの場合: 
 
     ```cmd
     brew install openssl
     brew link openssl --force
     ```
 
-* *MacPorts* を使用する場合:
+* *MacPorts* を使用する場合: 
 
     ```cmd
     sudo port install openssl
@@ -96,13 +96,13 @@ openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -
 
 通常は、次のいずれか 1 つを実行することで、PowerBI-visuals-tools Web サーバー証明書を見つけることができます。
 
-* ツールのグローバル インスタンスの場合:
+* ツールのグローバル インスタンスの場合: 
 
     ```cmd
     %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
     ```
 
-* ツールのローカル インスタンスの場合:
+* ツールのローカル インスタンスの場合: 
 
     ```cmd
     <custom visual project root>\node_modules\PowerBI-visuals-tools\certs

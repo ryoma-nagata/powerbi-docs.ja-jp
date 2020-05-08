@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710208"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Power BI Report Server の Always Encrypted
@@ -27,7 +27,7 @@ ms.locfileid: "76710208"
 
 ### <a name="key-storage-strategies"></a>キーの格納戦略
 
-|記憶域  |サポートされている  |
+|ストレージ  |サポートされています  |
 |---------|---------|
 |Windows 証明書ストア | はい |
 |Azure Key Vault | いいえ |
@@ -69,7 +69,7 @@ Power BI Report Server では、列暗号化戦略として、*決定論的*暗�
 
 ## <a name="datatype-support"></a>データ型のサポート
 
-| SQL データ型 | フィールドの読み取りをサポート | Group By 要素としての使用をサポート | サポートされる集計 (COUNT、DISTINCT、MAX、MIN、SUM など) | パラメーターを使用した等値によるフィルター処理をサポート | ノート |
+| SQL データ型 | フィールドの読み取りをサポート | Group By 要素としての使用をサポート | サポートされる集計 (COUNT、DISTINCT、MAX、MIN、SUM など) | パラメーターを使用した等値によるフィルター処理をサポート | メモ |
 | --- | --- | --- | --- | --- | --- |
 | int | はい | はい | COUNT、DISTINCT | はい (Integer として) |   |
 | float | はい | はい | COUNT、DISTINCT | はい (Float として) |   |
@@ -88,7 +88,7 @@ Power BI Report Server では、列暗号化戦略として、*決定論的*暗�
 
 SQL Server データ ソースの接続文字列で Always Encrypted を有効にする必要があります。 有効化の詳細については、「[アプリケーション クエリで Always Encrypted を有効にする](https://docs.microsoft.com/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries)」を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 SQL Server および Azure SQL Database での [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)
 

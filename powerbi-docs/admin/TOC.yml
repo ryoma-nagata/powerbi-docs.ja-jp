@@ -44,7 +44,7 @@
               href: ../service-premium-capacity-scenarios.md
             - name: Power BI Premium のよく寄せられる質問
               href: ../service-premium-faq.md
-    - name: 操作方法
+    - name: 方法
       items:
         - name: ライセンスとサインアップ
           items:
@@ -66,7 +66,7 @@
           href: ../service-admin-access-usage.md
         - name: ユーザー アクティビティの追跡
           href: ../service-admin-auditing.md
-        - name: サービスの正常性の追跡
+        - name: サービス正常性を追跡する
           href: ../service-admin-health.md
         - name: アカウントを削除しています
           href: ../service-admin-closing-your-account.md
@@ -131,7 +131,7 @@
           href: ../service-admin-power-bi-security.md
         - name: プライバシーのレベル
           href: ../desktop-privacy-levels.md
-    - name: トラブルシューティング
+    - name: '[トラブルシューティング]'
       items:
         - name: サインインに問題がありますか?
           href: ../power-bi-cannot-sign-in.md
@@ -147,5 +147,3 @@
           href: ../service-admin-alternate-email-address-for-power-bi.md
         - name: Power BI と Azure で同じアカウントのログインを使用する方法
           href: ../service-admin-how-to-use-the-same-account-as-azure.md
-        - name: Office 365 Dedicated - 既知の問題
-          href: ../service-admin-office-365-dedicated-known-issues.md

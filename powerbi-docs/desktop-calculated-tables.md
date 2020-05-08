@@ -10,10 +10,10 @@ ms.date: 01/02/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: c72387d40ddf4b193481a37dbcb40695668eab66
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837338"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop で計算テーブルを作成する
@@ -55,7 +55,7 @@ Western Region Employees = UNION('Northwest Employees', 'Southwest Employees')
 
 ## <a name="functions-for-calculated-tables"></a>計算テーブル用の関数
 
-計算テーブルは、テーブルを返す任意の DAX 式を使って定義できます。別のテーブルを単に参照するだけでも構いません。 例:
+計算テーブルは、テーブルを返す任意の DAX 式を使って定義できます。別のテーブルを単に参照するだけでも構いません。 次に例を示します。
 
 ```dax
 New Western Region Employees = 'Western Region Employees'
@@ -64,7 +64,7 @@ New Western Region Employees = 'Western Region Employees'
 この記事では、計算テーブルについて簡単に紹介するだけにします。 DAX による計算テーブルを使うと、分析上の多くの課題を解決できます。 使用する可能性のある一般的な DAX テーブル関数をいくつか次に示します。
 
 * DISTINCT
-* 値
+* VALUES
 * CROSSJOIN
 * UNION
 * NATURALINNERJOIN

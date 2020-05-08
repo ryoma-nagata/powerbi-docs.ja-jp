@@ -10,10 +10,10 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76537395"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Power BI で Microsoft Cloud App Security の制御を使用する (プレビュー)
@@ -95,19 +95,19 @@ Power BI での Cloud App Security の使用は、ユーザー セッション�
 
 ![新しいセッション ポリシーの作成](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-02.png)
 
-表示されるウィンドウで、**[ポリシーの作成]** ドロップダウンを選択します。
+表示されるウィンドウで、 **[ポリシーの作成]** ドロップダウンを選択します。
 
 ![[ポリシーの作成] の選択](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-03.png)
 
-ドロップダウンのオプションの一覧から、**[セッション ポリシー]** を選択します。
+ドロップダウンのオプションの一覧から、 **[セッション ポリシー]** を選択します。
 
 ![[セッション ポリシー] の選択](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-04.png)
 
 表示されるウィンドウで、セッション ポリシーを作成します。 番号付きの手順は、次の画像の設定を示しています。
 
-  1. **[ポリシー テンプレート]** ドロップダウンで、*[テンプレートなし]* を選択します。
+  1. **[ポリシー テンプレート]** ドロップダウンで、 *[テンプレートなし]* を選択します。
   2. **[ポリシー名]** ボックスで、セッション ポリシーに関連する名前を指定します。
-  3. **[セッション制御の種類]** で、*[ファイル ダウンロードの制御 (DLP 使用)]* を選択します。
+  3. **[セッション制御の種類]** で、 *[ファイル ダウンロードの制御 (DLP 使用)]* を選択します。
 
       **[アクティビティ ソース]** セクションで、関連するブロック ポリシーを選択します。 アンマネージド デバイスと非準拠デバイスをブロックすることをお勧めします。 セッションが Power BI のときにダウンロードをブロックすることを選択します。
 
@@ -115,7 +115,7 @@ Power BI での Cloud App Security の使用は、ユーザー セッション�
 
         下にスクロールすると、他のオプションが表示されます。 次の図は、これらのオプションと追加の例を示しています。 
 
-  4. "*[機密性ラベル]*" を "*[highly confidential]\(極秘\)*" または組織に最適なものに設定します。
+  4. " *[機密性ラベル]* " を " *[highly confidential]\(極秘\)* " または組織に最適なものに設定します。
   5. **[検査方法]** を *[なし]* に変更します。
   6. ご自分のニーズに合った **[ブロック]** オプションを選択します。
   7. このようなアクションに対するアラートを作成していることを確認します。
@@ -124,7 +124,7 @@ Power BI での Cloud App Security の使用は、ユーザー セッション�
 
         
 
-  8. 最後に、**[作成]** ボタンを選択して、セッション ポリシーを作成します。
+  8. 最後に、 **[作成]** ボタンを選択して、セッション ポリシーを作成します。
 
         ![セッション ポリシーの作成](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
 

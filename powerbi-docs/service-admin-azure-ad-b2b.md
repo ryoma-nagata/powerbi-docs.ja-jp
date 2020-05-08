@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 828736dac528a8ba8c77b90162309236f5bc7018
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.openlocfilehash: d17c6bbe5ddf6cd39626ac0038595543cd2fecfb
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "77558601"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841068"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
 Power BI を使用すると、Azure Active Directory Business-to-Business (Azure AD B2B) を介して外部のゲスト ユーザーとコンテンツを共有できます。
 Azure AD B2B を使用することにより、組織では、中央の場所で外部ユーザーとの共有を可能にし、管理することができます。 既定では、外部のゲストには使用のみのエクスペリエンスが提供されます。 さらに、組織内のコンテンツの編集と管理を組織外のゲスト ユーザーに許可できます。
 
-この記事では、Power BI での B2B Azure AD の基本的な概要を示します。 詳細については、「[Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](whitepaper-azure-b2b-power-bi.md)」を参照してください。
+この記事では、Power BI での B2B Azure AD の基本的な概要を示します。 詳細については、「[Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](guidance/whitepaper-azure-b2b-power-bi.md)」を参照してください。
 
 ## <a name="enable-access"></a>アクセスを有効にする
 
@@ -130,7 +130,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 * [組織内のコンテンツを編集および管理できるゲスト ユーザー](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)は、一部のエクスペリエンスを利用できません。 これらのユーザーがレポートを更新または発行するには、[データの取得] などの Power BI サービスの Web UI を使用して、Power BI Desktop ファイルをアップロードする必要があります。  次のエクスペリエンスはサポートされていません。
     * Power BI Desktop から Power BI サービスに直接発行することはできません。
     * ゲスト ユーザーは、Power BI Desktop を使用して Power BI サービス内のサービス データセットに接続することができません
-    * Office 365 グループに関連付けられた従来のワークスペース:
+    * Office 365 グループに関連付けられた従来のワークスペース: 
         * ゲスト ユーザーは、これらのワークスペースを作成したり、その管理者になったりすることはできません
         * ゲスト ユーザーはメンバーであってもかまいません
     * ワークスペース アクセス リストに対して、アドホック招待の送信はサポートされていません

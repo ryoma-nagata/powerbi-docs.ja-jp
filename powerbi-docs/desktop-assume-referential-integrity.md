@@ -10,10 +10,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4d478396f88a1443c0d23d64199d84f0b615b1da
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761820"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Power BI Desktop で [参照整合性を想定] 設定を適用する
@@ -37,7 +37,7 @@ ms.locfileid: "75761820"
 1. 次の画像では、**Orders** テーブルと **Products** テーブルを確認できます。**Orders[ProductID]** と **Products[ProductID]** の間に参照整合性が存在することを確認してください。 **Orders** テーブルの **[ProductID]** 列が *Null* になることはありません。すべての値は **Products** テーブルにも表示されます。 そのため、 **[参照整合性を想定]** は、より効率的なクエリを得るために設定してください (この設定を使用してビジュアルに表示される値が変わることはありません)。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. 次の画像では、**Orders[DepotID]** と **Depots[DepotID]** の間に参照整合性がないことに注意してください。一部の *Orders* に関して、**DepotID** が *Null* になっているためです。 そのため、 **[参照整合性を想定]** を *設定しない* でください。
+2. 次の画像では、**Orders[DepotID]** と **Depots[DepotID]** の間に参照整合性がないことに注意してください。一部の **Orders** に関して、*DepotID* が *Null* になっているためです。 そのため、 **[参照整合性を想定]** を *設定しない* でください。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. 最後になりますが、次のテーブルの **Orders[CustomerID]** と **Customers[CustID]** の間には参照整合性がありません。**CustomerID** には、*Customers* テーブルにはない値がいくつか含まれています (この例では *CustX*)。 そのため、 **[参照整合性を想定]** を *設定しない* でください。
@@ -59,7 +59,7 @@ ms.locfileid: "75761820"
 * 合計 *Order Qty* を示すビジュアルが値として 40 を示す。
 * 合計 *Order Qty by Depot City* を示すビジュアルの合計値がたった *30* を示す。**DepotID** が *Null* の Order ID 1 が含まれていないためです。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [DirectQuery](desktop-use-directquery.md) の詳細
 
 [Power BI リレーションシップ](desktop-create-and-manage-relationships.md)の詳細

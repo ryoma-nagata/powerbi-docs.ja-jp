@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404047"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法
@@ -25,7 +25,7 @@ Power BI Embedded では、1 つの API サーフェスで一貫性のある一�
 現在の Power BI ワークスペース コレクションは、期間限定で引き続き利用できます。 マイクロソフト エンタープライズ契約を結ばれたお客様は、現在の契約が満了するまでご利用いただけます。ダイレクト チャネルまたは CSP チャネル経由で Power BI ワークスペース コレクションを入手されたお客様は、Power BI Embedded が一般提供されてから 1 年間ご利用いただけます。  この記事では、Power BI ワークスペース コレクションから新しい Power BI Embedded エクスペリエンスに移行するためのいくつかのガイダンスと、アプリケーションの変更について予想されることを説明します。
 
 > [!IMPORTANT]
-> 移行作業は Power BI Embedded に依存しますが、アプリケーションのユーザーが**埋め込みトークン**を使うときに Power BI に依存することはありません。 ユーザーは、アプリケーションに埋め込まれたコンテンツを表示するために Power BI にサインアップする必要はありません。 この埋め込み方法を使って、Power BI 以外の Embedded ユーザーにサービスを提供することができます。
+> 移行作業は Power BI Embedded に依存しますが、アプリケーションのユーザーが**埋め込みトークン**を使うときに Power BI に依存することはありません。 アプリケーションに埋め込まれたコンテンツを表示するために、Power BI にサインアップする必要はありません。 この埋め込み方法を使って、Power BI 以外の Embedded ユーザーにサービスを提供することができます。
 
 ![フローを埋め込む](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
@@ -40,12 +40,12 @@ Power BI Embedded では、1 つの API サーフェスで一貫性のある一�
 
 Power BI ワークスペース コレクションから Power BI Embedded への移行の準備として、いくつかの作業を行う必要があります。 使用可能なテナントと、Power BI Pro ライセンスを持つユーザーが必要になります。
 
-1. Azure Active Directory (Azure AD) テナントにアクセスできることを確認します。
+1. Azure Active Directory (Azure AD) テナントにアクセスできることを確認してください。
 
     使うテナントのセットアップを決める必要があります。
 
    * 既存の企業の Power BI テナントを使用しますか。
-   * アプリケーションで個別のテナントを使用しますか。
+   * アプリケーションごとに個別のテナントを使用しますか。
    * 顧客ごとに個別のテナントを使用しますか。
 
      アプリケーション、または顧客ごとに新しいテナントを作成することにした場合は、「[Azure Active Directory テナントを作成する](create-an-azure-active-directory-tenant.md)」または「[Azure Active Directory テナントを取得する方法](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)」を参照してください。
@@ -140,7 +140,7 @@ Power BI ワークスペース コレクションから Power BI Embedded にコ
 
 **フロー**
 
-1. 開発環境 (内部ソース管理) から PBIX を取得します。
+1. 開発環境 (内部のソース管理) から PBIX を取得します。
 2. SaaS ワークスペースへの .pbix のインポートの呼び出しを行います。
 
 #### <a name="push-dataset--report"></a>プッシュ データセットとレポート
@@ -168,7 +168,7 @@ Power BI ワークスペース コレクションから移行したコンテン�
 ## <a name="rebuild-your-application"></a>アプリケーションを再構築する
 
 1. powerbi.com 内のレポートの場所と Power BI REST API を使用するには、アプリケーションを変更する必要があります。
-2. アプリケーションの*マスター* アカウントを使用して、AuthN/AuthZ 認証を再構築します。 このユーザーが他のユーザーの代わりに動作できるようにするには、[埋め込みトークン](https://docs.microsoft.com/rest/api/power-bi/embedtoken)を利用します。
+2. アプリケーションの*マスター* アカウントを使用して、AuthN/AuthZ 認証を再構築します。 [埋め込みトークン](https://docs.microsoft.com/rest/api/power-bi/embedtoken)を使用することで、このユーザーを他のユーザーの代理として機能させることができます。
 3. Powerbi.com からレポートをアプリケーションに埋め込みます。
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>ユーザーを Power BI ユーザーにマップする
@@ -194,7 +194,7 @@ Azure 内でいくつかのクリーンアップを行う必要があります�
 * Power BI ワークスペース コレクションの Azure Embedded 内にデプロイ済みのソリューションからすべてのワークスペースを除去します。
 * Azure 内に存在するすべてのワークスペース コレクションを削除します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI で埋め込み](embedding.md)  
 [Power BI ワークスペース コレクション移行ツール](migrate-tool.md)  
