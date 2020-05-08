@@ -45,7 +45,7 @@
       items:
         - name: ビデオ
           href: ../videos.md
-        - name: ウェビナー
+        - name: Web セミナー
           href: ../webinars.md
         - name: Power BI Desktop のビデオ
           href: ../desktop-videos.md

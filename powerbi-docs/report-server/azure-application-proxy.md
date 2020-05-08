@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/06/2020
 ms.author: maggies
 ms.openlocfilehash: 548e66685c7b460829e171d097d18640cd5b0f57
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922599"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Azure アプリケーション プロキシを使用して Power BI Report Server を構成する
@@ -248,7 +248,7 @@ KCD を構成するには、コネクタ コンピューターごとに以下の
 
     ![Power BI Report Server ポータル](media/azure-application-proxy/azure-ad-portal.png)
 
-    Kerberos を認証として使用してデータ ソースへのテスト接続に成功した場合:
+    Kerberos を認証として使用してデータ ソースへのテスト接続に成功した場合: 
 
     ![正常に接続された Power BI Report Server ポータル](media/azure-application-proxy/azure-ad-datasource-success.png)
 

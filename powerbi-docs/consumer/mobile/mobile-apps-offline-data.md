@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
 ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435446"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータをオフライン表示する
@@ -20,7 +20,7 @@ ms.locfileid: "79435446"
 
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
+| iPhones |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -61,10 +61,10 @@ Power BI には、オフライン モードの切り替えを明確に示すイ�
 * Power BI モバイル アプリでは、Power BI Report Server に保存された Power BI Desktop (.pbix) ファイルを表示することはできません。 
 * ネットワークがオフラインの間は、ページ分割されたレポート (RDL) を使用することはできません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 Power BI モバイル アプリで使用したいその他の機能にぜひ投票してください。お客様からのフィードバックは、将来実装する機能を決めるのに役立ちます。 
 
-* [モバイル デバイス用の Power BI アプリ](mobile-apps-for-mobile-devices.md)
+* [モバイル デバイス用 Power BI アプリ](mobile-apps-for-mobile-devices.md)
 * Twitter で @MSPowerBI をフォローする
 * [Power BI コミュニティの会話](https://community.powerbi.com/)に参加する
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)

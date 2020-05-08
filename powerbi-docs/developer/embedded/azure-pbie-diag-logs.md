@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495805"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure の Power BI Embedded の診断ログ
@@ -41,7 +41,7 @@ ms.locfileid: "79495805"
     * **Log Analytics への送信** - このオプションを使用するには、既存のワークスペースを使用するか、ポータルで[新しいワークスペースを作成する](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)ための手順に従って、新しいLog Analytics ワークスペースを作成します。 これは、組み込みの分析、ダッシュボード、通知の機能を備えている [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview) を活用します。 Log Analytics を使用して、他のリソースからのより多くのデータに接続し、アプリケーションのリソースすべてにわたるデータを 1 つの完全なビューにまとめます。 また、[1 回のクリックで Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi) に接続することもできます。
     Log Analytics でのログの表示について詳しくは、[Log Analytics でのログの表示](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity)に関するページをご覧ください。
     * **エンジン** - このオプションを選択して、以下で一覧表示されている一連の[エンジンのイベント](#whats-logged)をログに記録します。
-    * **AllMetrics** - このオプションを選択して、詳細データを[メトリック](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)に保存します。 ストレージ アカウントにアーカイブする場合は、診断ログの保有期間を選択できます。 保有期間を過ぎると、ログは自動的に削除されます。
+    * **AllMetrics** - このオプションを選択して、詳細データを[メトリック](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)に保存します。 ストレージ アカウントにアーカイブする場合、診断ログのリテンション期間を選択できます。 リテンション期間が過ぎると、ログは自動的に削除されます。
 
 3. **[保存]** を選択します。
 
@@ -53,7 +53,7 @@ ms.locfileid: "79495805"
 
 PowerShell を使用してメトリックと診断ログを有効にするには、次のコマンドを使用します。
 
-* ストレージ アカウントで診断ログのストレージを有効にするには、次のコマンドを使用します。
+* ストレージ アカウントへの診断ログの保存を有効にするには、次のコマンドを使用します。
 
     ```powershell
     Set-AzureRmDiagnosticSetting -ResourceId [your resource id] -StorageAccountId [your storage account id] -Enabled $true
@@ -93,7 +93,7 @@ PowerShell を使用してメトリックと診断ログを有効にするには
 
 [Resource Manager テンプレートを使用してリソースの作成時に診断設定を有効にする](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template)方法を学習します。
 
-## <a name="whats-logged"></a>ログの記録対象
+## <a name="whats-logged"></a>ログに記録されるもの
 
 **[エンジン]** と **[AllMetrics]** カテゴリを選択できます。
 
@@ -110,34 +110,34 @@ PowerShell を使用してメトリックと診断ログを有効にするには
 |    クエリの終了    |    追跡開始以降のクエリの終了イベントを、すべて記録します。    |
 |    Vertipaq クエリの終了    |    追跡開始以降の VertiPaq SE クエリの終了イベントを、すべて記録します。    |
 |    監査ログアウト    |    追跡開始以降のエンジン イベントからの切断を、すべて記録します。    |
-|    Error    |    追跡開始以降のエンジン エラーのイベントを、すべて記録します。    |
+|    エラー    |    追跡開始以降のエンジン エラーのイベントを、すべて記録します。    |
 
 <br>
 <br>
 
-| プロパティ名 | Vertipaq クエリの終了の例 | プロパティの説明 |
+| プロパティ名 | Vertipaq クエリの終了の例 | [プロパティの説明] |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | イベント クラスを使用してイベントを分類します。 |
-| EventSubclass | 0 | イベントのサブクラスは、各イベント クラスに関する追加情報を提供します。 (たとえば、0:VertiPaq Scan) |
+| EventSubclass | 0 | イベントのサブクラスは、各イベント クラスに関する追加情報を提供します。 (たとえば、0: VertiPaq スキャン) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | ルート アクティビティの ID です。 |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | イベントが開始された時刻です (使用可能な場合)。 |
 | StartTime | 2018-04-06T18:30:11.9137358Z | イベントが開始された時刻です (使用可能な場合)。 |
 | JobID | 0 | 進行状況に対応するジョブ ID です。 |
 | ObjectID | 464 | オブジェクト ID |
 | ObjectType | 802012 | ObjectType |
-| EndTime | 2018-04-06T18:30:11.9137358Z | イベントが終了した時刻です。 |
+| EndTime | 2018-04-06T18:30:11.9137358Z | イベントの終了時刻。 |
 | 期間 | 0 | イベントの実行にかかった時間です (ミリ秒)。 |
-| SessionType | ユーザー | セッションの種類です (操作の原因となったエンティティ)。 |
+| SessionType | User | セッションの種類です (操作の原因となったエンティティ)。 |
 | ProgressTotal | 0 | 進行状況の合計です。 |
-| IntegerData | 0 | 整数データです。 |
-| 重大度 | 0 | 例外の重要度レベルです。 |
+| IntegerData | 0 | 整数データ。 |
+| Severity | 0 | 例外の重要度レベルです。 |
 | Success | 1 | 1 = 成功。 0 = 失敗 (たとえば、1 は権限チェックの成功を表し、0 は失敗を表します)。 |
-| Error | 0 | 指定されたイベントのエラー番号です。 |
+| エラー | 0 | 指定されたイベントのエラー番号です。 |
 | ConnectionID | 3 | 一意な接続 ID です。 |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | ユーザーのステートメントが実行されているデータセットの ID です。 |
-| SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | セッション GUID です。 |
+| SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | セッション GUID。 |
 | SPID | 180 | サーバー プロセス ID です。 これにより、ユーザー セッションを一意に識別します。 これは、XML/A によって使用されるセッション GUID と直接対応します。 |
-| ClientProcessID | null | クライアント アプリケーションのプロセス ID です。 |
+| ClientProcessID | null | クライアント アプリケーションのプロセス ID。 |
 | ApplicationName | null | サーバーへの接続を作成したクライアント アプリケーションの名前です。 |
 | CapacityName | pbi641fb41260f84aa2b778a85891ae2d97 | Power BI Embedded 容量のリソースの名前です。 |
 
@@ -168,7 +168,7 @@ Log Analytics で診断データを表示するには、次のように、左側
 
 ![収集されたすべてのデータ](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-all-collected-data.png)
 
-**[タイプ]** で **[AzureDiagnostics]** を選択した後、 **[適用]** を選択します。 AzureDiagnostics にはエンジンのイベントが含まれます。 Log Analytics クエリがその場で作成されることに注意してください。
+**[タイプ]** で **[AzureDiagnostics]** を選択した後、 **[適用]** を選択します。 AzureDiagnostics にはエンジンのイベントが含まれます。 Log Analytics クエリが即座に作成されることに注目してください。
 
 ![Azure Diagnostics](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 
@@ -176,7 +176,7 @@ Log Analytics で診断データを表示するには、次のように、左側
 
 強化されたクエリ、ダッシュ ボード、収集したデータに対するアラート機能を備えた Web サイトを提供する [Log Analytics](https://docs.microsoft.com/azure/log-analytics/) をご覧ください。
 
-### <a name="queries"></a>クエリ
+### <a name="queries"></a>編集
 
 使用できるクエリは数百個あります。 作業開始するためのクエリを次にいくつか示します。 新しいログ検索クエリ言語の使用について詳しくは、「[Log Analytics でのログ検索について](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search)」をご覧ください。
 
@@ -201,7 +201,7 @@ Log Analytics で診断データを表示するには、次のように、左側
 
     ![容量の名前のクエリの結果](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-capacity-name-query.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Azure リソースの診断ログについて、さらに詳しく学習することができます。
 

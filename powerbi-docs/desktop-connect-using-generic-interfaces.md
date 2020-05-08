@@ -10,15 +10,15 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: eaf2e7fed056653f2ee44e25b493e6b5e170a8dd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761458"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Power BI Desktop のジェネリック インターフェイスを使用してデータに接続する 
 
-**Power BI Desktop** では、 **[データの取得]** ウィンドウに表示されるように、**Access データベース**から **Zendesk** まで広範にカバーする組み込みデータ接続を使用して、さまざまな異なるデータ ソースに接続できます。 また、**Power BI Desktop** に組み込まれているジェネリック インターフェイス (**ODBC** や **REST API** など) を使うことで、"*その他*" のあらゆる種類のデータ ソースに接続でき、接続オプションの範囲が大きく広がります。
+**Power BI Desktop** では、 **[データの取得]** ウィンドウに表示されるように、**Access データベース**から **Zendesk** まで広範にカバーする組み込みデータ接続を使用して、さまざまな異なるデータ ソースに接続できます。 また、*Power BI Desktop* に組み込まれているジェネリック インターフェイス (**ODBC** や **REST API** など) を使うことで、"**その他**" のあらゆる種類のデータ ソースに接続でき、接続オプションの範囲が大きく広がります。
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
@@ -106,7 +106,7 @@ ms.locfileid: "75761458"
 | R スクリプト |SPSS ファイル |[CRAN からの R スクリプトのガイダンス](https://cran.r-project.org/doc/manuals/R-data.html) |
 | R スクリプト |R 統計ファイル |[CRAN からの R スクリプトのガイダンス](https://cran.r-project.org/doc/manuals/R-data.html) |
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 **Power BI Desktop** を使用して接続できるデータ ソースの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)

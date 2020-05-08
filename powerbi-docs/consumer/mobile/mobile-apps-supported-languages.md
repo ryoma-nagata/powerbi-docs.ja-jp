@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4f135a411d69835e925cf97b418bda6ae80adc1a
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113187"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでサポートされる言語
@@ -53,12 +53,12 @@ ms.locfileid: "79113187"
 * ウクライナ語 - українська
 * ベトナム語 - Tiếng Việt
 
-## <a name="notes"></a>ノート
+## <a name="notes"></a>メモ
 * Power BI は、モバイル デバイスのロケールに対応する言語を使います。 別の言語を設定することはできません。
 * 通知は英語のみで表示されます。 たとえば、他のユーザーからダッシュボードを共有された場合、受け取る通知は英語になります。 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI でサポートされる言語と国/地域](../../supported-languages-countries-regions.md)
-* わからないことがある場合は、 [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
+* ご質問 [Power BI コミュニティ](https://community.powerbi.com/)で質問してみてください。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください。
 

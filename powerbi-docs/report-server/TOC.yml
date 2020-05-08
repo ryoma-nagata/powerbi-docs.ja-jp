@@ -17,11 +17,11 @@
     - name: 概念
       expanded: true
       items:
-        - name: 新着情報
+        - name: 新機能
           href: whats-new.md
         - name: 管理者の概要
           href: admin-handbook-overview.md
-        - name: 変更ログ
+        - name: ログの変更
           href: changelog.md
         - name: サポートのタイムライン
           href: support-timeline.md
@@ -55,7 +55,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848723'
             - name: レポートの埋め込み
               href: quickstart-embed.md
-    - name: 操作方法
+    - name: 方法
       items:
         - name: Power BI Desktop をインストールする
           href: install-powerbi-desktop.md
@@ -79,7 +79,7 @@
               href: access-dataset-odata.md
             - name: PowerShell を使用してデータ ソース接続文字列を変更する
               href: connect-data-source-apis.md
-            - name: スケジュールされた更新の構成
+            - name: スケジュールされた更新を構成する
               href: configure-scheduled-refresh.md
             - name: レポートにコメントを追加する
               href: add-comments.md

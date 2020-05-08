@@ -10,10 +10,10 @@ ms.date: 08/10/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75925732"
 ---
 # <a name="dashboard-data-classification"></a>ダッシュボードのデータの分類
@@ -62,7 +62,7 @@ ms.locfileid: "75925732"
 1. [設定] の歯車を選択し、 **[管理ポータル]** を選択します。
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. **[テナント設定]** タブで、 **[ダッシュボードとレポート用のデータ分類]** を *[オン]* に切り替えます。
+2. **[テナント設定]** タブで、 *[ダッシュボードとレポート用のデータ分類]* を **[オン]** に切り替えます。
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
 ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74882875"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI のサインインに関する問題のトラブルシューティング
@@ -47,6 +47,6 @@ Microsoft サポートにヘルプを依頼するもう 1 つの選択肢とし�
 
 Power BI コミュニティ フォーラムで投稿を作成できない場合、フォーラムでもサインインが要求されることが原因です。 さらに詳しい情報については、[コミュニティ サポート](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport)を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [Power BI Pro と Power BI Premium のサポート オプション](service-support-options.md)

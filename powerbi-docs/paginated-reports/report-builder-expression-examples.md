@@ -9,10 +9,10 @@ ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921150"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI レポート ビルダーでの式の例
@@ -35,10 +35,10 @@ ms.locfileid: "78921150"
 単純な式と複雑な式、式を使用できる場所、および式に含めることができる参照の種類について詳しくは、「[Expressions in Power BI Report Builder](report-builder-expressions.md)」(Power BI レポート ビルダーでの式) のトピックをご覧ください。 
   
 ## <a name="functions"></a>関数  
- レポート内の多くの式には、関数が含まれます。 これらの関数を使って、データの書式設定、ロジックの適用、レポートのメタデータへのアクセスを行うことができます。 Microsoft Visual Basic ランタイム ライブラリの関数や、`xref:System.Convert` および `xref:System.Math` 名前空間の関数を使って、式を記述することができます。 カスタム コード内の関数への参照を追加できます。 また、`xref:System.Text.RegularExpressions` などの Microsoft .NET Framework のクラスを使うこともできます。  
+ レポート内の多くの式には、関数が含まれます。 これらの関数を使用して、データの書式を設定し、ロジックを適用し、レポートのメタデータにアクセスできます。 Microsoft Visual Basic ランタイム ライブラリの関数や、`xref:System.Convert` および `xref:System.Math` 名前空間の関数を使って、式を記述することができます。 カスタム コード内の関数への参照を追加できます。 また、`xref:System.Text.RegularExpressions` などの Microsoft .NET Framework のクラスを使うこともできます。  
   
-##  <a name="VisualBasicFunctions"></a> Visual Basic の関数  
- Visual Basic の関数を使って、テキスト ボックスに表示されるデータや、パラメーター、プロパティ、またはレポートの他の領域に使われるデータを、操作することができます。 このセクションでは、これらの関数の使い方を示す例を提供します。 詳しくは、MSDN の「[Visual Basic ランタイム ライブラリのメンバー](https://go.microsoft.com/fwlink/?LinkId=198941)」をご覧ください。  
+##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic の関数  
+ Visual Basic の関数を使って、テキスト ボックスに表示されるデータや、パラメーター、プロパティ、またはレポートの他の領域に使われるデータを、操作することができます。 このセクションでは、これらの関数の使い方を示す例を提供します。 各関数の詳細については、MSDN の「 [Visual Basic ランタイム ライブラリのメンバー](https://go.microsoft.com/fwlink/?LinkId=198941) 」を参照してください。  
   
  .NET Framework では、特定の日付形式など、さまざまなカスタム書式オプションが提供されています。 詳しくは、「[型の書式設定](/dotnet/standard/base-types/formatting-types)」をご覧ください。  
   
@@ -56,9 +56,9 @@ ms.locfileid: "78921150"
     = Round(1.3*5)/5  
     ```  
   
-###  <a name="DateFunctions"></a> 日付関数  
+###  <a name="date-functions"></a><a name="DateFunctions"></a> 日付関数  
   
--   **Today** 関数では、現在の日付が提供されます。 この式をテキスト ボックスで使ってレポートに日付を表示したり、パラメーターで使って現在の日付に基づいてデータをフィルター処理したりすることができます。  
+-   **Today** 関数では、現在の日付が提供されます。 この式は、レポートに日付を表示するテキスト ボックス、または現在の日付に基づいてデータをフィルター処理するパラメーターに使用できます。  
   
     ```  
     =Today()  
@@ -89,7 +89,7 @@ ms.locfileid: "78921150"
     =DateAdd(DateInterval.Month, 6, Parameters!StartDate.Value)  
     ```  
   
--   **Year** 関数では、特定の日付の年が示されます。 これを使って、日付をグループ化したり、一連の日付に対するラベルとして年を表示したりすることができます。 次の式では、販売注文日の特定のグループに対する年が提供されます。 **Month** 関数および他の関数を使って、日付を操作することもできます。 詳しくは、Visual Basic のドキュメントをご覧ください。  
+-   **Year** 関数は、特定の日付の年を表示します。 これを使って、日付をグループ化したり、一連の日付に対するラベルとして年を表示したりすることができます。 次の式では、指定した販売注文日グループの年が返されます。 **Month** 関数および他の関数を使って、日付を操作することもできます。 詳しくは、Visual Basic のドキュメントをご覧ください。  
   
     ```  
     =Year(Fields!OrderDate.Value)  
@@ -117,7 +117,7 @@ ms.locfileid: "78921150"
     =FORMAT(Fields!SellStartDate.Value, "dd/MM/yyyy")  
     ```  
   
--   **CDate** 関数では、値が日付に変換されます。 **Now** 関数では、システムに従った現在日時を含む日付値が返されます。 **DateDiff** では、2 つの Date 値の間に含まれる時間間隔数を示す Long 値が返されます。  
+-   **CDate** 関数では、値が日付に変換されます。 **Now** 関数は、使用中のシステムに応じて、現在の日付と時刻を含む日付値を返します。 **DateDiff** では、2 つの Date 値の間に含まれる時間間隔数を示す Long 値が返されます。  
   
      次の例では、現在の年の開始日が表示されます  
   
@@ -161,9 +161,9 @@ ms.locfileid: "78921150"
 |1 年前|`=DateSerial(Year(Parameters!TodaysDate.Value)-1,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
 |2 年前|`=DateSerial(Year(Parameters!TodaysDate.Value)-2,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
   
-###  <a name="StringFunctions"></a> 文字列関数  
+###  <a name="string-functions"></a><a name="StringFunctions"></a> 文字列関数  
   
--   連結演算子と Visual Basic の定数を使って、複数のフィールドを結合します。 次の式では、2 つのフィールドが返され、同じテキスト ボックスの異なる行に表示されます。  
+-   連結演算子と Visual Basic の定数を使って、複数のフィールドを結合します。 次の式では、2 つのフィールドが、同じテキスト ボックス内の別々の行に返されます。  
   
     ```  
     =Fields!FirstName.Value & vbCrLf & Fields!LastName.Value   
@@ -177,7 +177,7 @@ ms.locfileid: "78921150"
   
      テキスト ボックスに日付または数値のみが含まれる場合は、テキスト ボックス内で **Format** 関数を使う代わりに、テキスト ボックスの Format プロパティを使って書式設定を適用する必要があります。  
   
--   **Right**、**Len**、および **InStr** 関数は、部分文字列を返す場合に便利です。たとえば、*DOMAIN*\\*username* をトリミングしてユーザー名だけにします。 次の式では、*User* という名前のパラメーターからバックスラッシュ (\\) 文字の右側にある文字列の部分が返されます。  
+-   **Right**、**Len**、および **InStr** 関数は、部分文字列を返す場合に便利です。たとえば、*DOMAIN*\\*username* をトリミングしてユーザー名だけにします。 次の式では、\\User *という名前のパラメーターからバックスラッシュ (* ) 文字の右側にある文字列の部分が返されます。  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -189,20 +189,20 @@ ms.locfileid: "78921150"
     =Parameters!User.Value.Substring(Parameters!User.Value.IndexOf("\")+1, Parameters!User.Value.Length-Parameters!User.Value.IndexOf("\")-1)  
     ```  
   
--   複数値パラメーターから選択した値を表示します。 次の例では、**Join** 関数を使って、*MySelection* パラメーターの選択した値を 1 つの文字列に連結しています。これを、レポート アイテム内のテキスト ボックスの値に対する式として設定できます。  
+-   複数の値を持つパラメーターから選択した値を表示します。 次の例では、**Join** 関数を使って、*MySelection* パラメーターの選択した値を 1 つの文字列に連結しています。これを、レポート アイテム内のテキスト ボックスの値に対する式として設定できます。  
   
     ```  
     = Join(Parameters!MySelection.Value)  
     ```  
   
-     次の例では、上の例と同じことを行うだけでなく、選択した値の一覧の前にテキスト文字列を表示しています。  
+     次の例では、前の例と同じ処理を行うだけでなく、選択した値のリストの前にテキスト文字列を表示します。  
   
     ```  
     ="Report for " & JOIN(Parameters!MySelection.Value, " & ")  
   
     ```  
   
--   .NET Framework の `xref:System.Text.RegularExpressions` の **Regex** 関数は、既存の文字列の形式を変更するのに便利です (たとえば、電話番号の書式設定)。 次の式では、**Replace** 関数を使って、フィールド内の 10 桁の電話番号の形式を、"*nnn*-*nnn*-*nnnn*" から "(*nnn*) *nnn*-*nnnn*" に変更しています。  
+-   .NET Framework の **の**Regex`xref:System.Text.RegularExpressions` 関数は、既存の文字列の形式を変更するのに便利です (たとえば、電話番号の書式設定)。 次の式では、**Replace** 関数を使って、フィールド内の 10 桁の電話番号の形式を、"*nnn*-*nnn*-*nnnn*" から "(*nnn*) *nnn*-*nnnn*" に変更しています。  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -211,7 +211,7 @@ ms.locfileid: "78921150"
     > [!NOTE]  
     >  Fields!Phone.Value の値に余分なスペースがないこと、および `xref:System.String` 型であることを確認します。  
   
-### <a name="lookup"></a>Lookup  
+### <a name="lookup"></a>参照  
   
 -   キー フィールドを指定することにより、**Lookup** 関数を使ってデータセットから一対一のリレーションシップに対する値を取得できます (たとえば、キー/値ペア)。 次の式では、データセット ("Product") から、指定した製品 ID に一致する製品名が表示されます。  
   
@@ -221,13 +221,13 @@ ms.locfileid: "78921150"
   
 ### <a name="lookupset"></a>LookupSet  
   
--   キー フィールドを指定することにより、**LookupSet** 関数を使って、データセットから一対多のリレーションシップに対する値のセットを取得できます。 たとえば、1 人の人が複数の電話番号を持つ場合があります。 次の例では、PhoneList データセットの各行には、個人識別子と電話番号が含まれているものとします。 **LookupSet** では、値の配列が返されます。 次の式では、戻り値を 1 つの文字列に結合し、ContactID で指定されたユーザーの電話番号の一覧を表示しています。  
+-   キー フィールドを指定することにより、**LookupSet** 関数を使って、データセットから一対多のリレーションシップに対する値のセットを取得できます。 たとえば、1 人の人が複数の電話番号を持つ場合があります。 次の例では、PhoneList データセットの各行には、個人識別子と電話番号が含まれているものとします。 **LookupSet** では、値の配列が返されます。 次の例では、返された値を 1 つの文字列として結合し、ContactID で指定される個人の電話番号の一覧を表示します。  
   
     ```  
     =Join(LookupSet(Fields!ContactID.Value, Fields!PersonID.Value, Fields!PhoneNumber.Value, "PhoneList"),",")  
     ```  
   
-###  <a name="ConversionFunctions"></a> 変換関数  
+###  <a name="conversion-functions"></a><a name="ConversionFunctions"></a> 変換関数  
  Visual Basic の関数を使って、フィールドをあるデータ型から別のデータ型に変換できます。 変換関数を使うと、フィールドの既定のデータ型を計算に必要なデータ型に変換したり、テキストを結合したりできます。  
   
 -   次の式では、定数 500 を、フィルター式の Value フィールドで Transact-SQL の通貨データ型と比較するために Decimal 型に変換しています。  
@@ -242,15 +242,15 @@ ms.locfileid: "78921150"
     =CStr(Parameters!MySelection.Count)  
     ```  
   
-###  <a name="DecisionFunctions"></a> 決定関数  
+###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> 決定関数  
   
--   **Iif** 関数では、式が true かどうかに応じて、2 つの値のいずれかが返されます。 次の式では、**Iif** 関数を使って、`LineTotal` の値が 100 を超えている場合は、ブール値 **True** を返します。 それ以外の場合は、**False** を返します。  
+-   **Iif** 関数では、式が true かどうかに応じて、2 つの値のいずれかが返されます。 次の式では、**Iif** 関数を使って、**の値が 100 を超えている場合は、ブール値**True`LineTotal` を返します。 それ以外の場合は、**False** を返します。  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
     ```  
   
--   `PctComplete` の値に応じて 3 つの値のいずれかを返すには、複数の **IIF** 関数 ("入れ子になった IIF" とも呼ばれます) を使います。 テキスト ボックスの塗りつぶし色に次の式を配置して、テキスト ボックスの値に応じて背景色を変更できます。  
+-   **の値に応じて 3 つの値のいずれかを返すには、複数の**IIF`PctComplete` 関数 ("入れ子になった IIF" とも呼ばれます) を使います。 テキスト ボックスの塗りつぶし色に次の式を配置して、テキスト ボックスの値に応じて背景色を変更できます。  
   
     ```  
     =IIF(Fields!PctComplete.Value >= 10, "Green", IIF(Fields!PctComplete.Value >= 1, "Blue", "Red"))  
@@ -258,13 +258,13 @@ ms.locfileid: "78921150"
   
      値が 10 以上の場合は緑の背景、1 から 9 の場合は青の背景、1 未満の場合は赤の背景が表示されます。  
   
--   同じ機能を別の方法で実現するには、**Switch** 関数を使います。 **Switch** 関数は、テストする条件が 3 つ以上ある場合に便利です。 **Switch** 関数では、一連の式の中で true と評価された最初の式に関連付けられている値が返されます。  
+-   同じ機能を実現するには、 **Switch** 関数を使用するという方法もあります。 **Switch** 関数は、検証する条件が 3 つ以上ある場合に役立ちます。 **Switch** 関数では、一連の式の中で true と評価された最初の式に関連付けられている値が返されます。  
   
     ```  
     =Switch(Fields!PctComplete.Value >= 10, "Green", Fields!PctComplete.Value >= 1, "Blue", Fields!PctComplete.Value = 1, "Yellow", Fields!PctComplete.Value <= 0, "Red")  
     ```  
   
-     値が 10 以上の場合は緑の背景、1 から 9 の場合は青の背景、1 の場合は黄の背景、0 以下の場合は赤の背景が表示されます。  
+     背景は、値が 10 以上の場合は緑色、1 ～ 9 の場合は青色、1 の場合は黄色、0 以下の場合は赤色になります。  
   
 -   `ImportantDate` フィールドの値を調べて、1 週間より古い場合は "Red" を返し、それ以外の場合は "Blue" を返します。 この式を使って、レポート アイテム内のテキスト ボックスの Color プロパティを制御できます。  
   
@@ -272,7 +272,7 @@ ms.locfileid: "78921150"
     =IIF(DateDiff("d",Fields!ImportantDate.Value, Now())>7,"Red","Blue")  
     ```  
   
--   `PhoneNumber` フィールドの値を調べて、**null** (Visual Basic では **Nothing**) の場合は "No Value" を返し、それ以外の場合は電話番号の値を返します。 この式を使って、レポート アイテム内のテキスト ボックスの値を制御できます。  
+-   `PhoneNumber` フィールドの値を調べて、**null** (Visual Basic では **Nothing**) の場合は "No Value" を返し、それ以外の場合は電話番号の値を返します。 この式を使用して、レポート アイテムに含まれるテキスト ボックスの値を制御できます。  
   
     ```  
     =IIF(Fields!PhoneNumber.Value Is Nothing,"No Value",Fields!PhoneNumber.Value)  
@@ -284,7 +284,7 @@ ms.locfileid: "78921150"
     =IIF(Fields!Department.Value = "Development", "EmployeeReport", Nothing)  
     ```  
   
--   フィールドの値が null かどうかを調べます。 この式を使って、画像レポート アイテム内の **Hidden** プロパティを制御できます。 次の例では、フィールドの値が null ではない場合にのみ、LargePhoto フィールドで指定される画像が表示されます。  
+-   フィールド値が NULL かどうかを検証します。 この式を使って、画像レポート アイテム内の **Hidden** プロパティを制御できます。 次の例では、フィールドの値が null ではない場合にのみ、LargePhoto フィールドで指定される画像が表示されます。  
   
     ```  
     =IIF(IsNothing(Fields!LargePhoto.Value),True,False)  
@@ -297,40 +297,40 @@ ms.locfileid: "78921150"
   
     ```  
   
-##  <a name="ReportFunctions"></a> レポート関数  
+##  <a name="report-functions"></a><a name="ReportFunctions"></a> レポート関数  
  式では、レポート内のデータを操作する他のレポート関数への参照を追加できます。 このセクションでは、これらの関数のうち 2 つについての例を示します。 
   
-###  <a name="Sum"></a> Sum  
+###  <a name="sum"></a><a name="Sum"></a> Sum  
   
--   **Sum** 関数では、グループ内またはデータ領域内の値の合計を計算できます。 この関数は、グループのヘッダーまたはフッターで役に立ちます。 次の式では、Order グループまたはデータ領域のデータの合計が表示されます。  
+-   **Sum** 関数では、グループ内またはデータ領域内の値の合計を計算できます。 この関数は、グループのヘッダーまたはフッターで役立ちます。 次の式では、Order グループまたはデータ領域のデータの合計が表示されます。  
   
     ```  
     =Sum(Fields!LineTotal.Value, "Order")  
     ```  
   
--   条件付き集計計算に **Sum** 関数を使うこともできます。 たとえば、データセットに State という名前で取り得る値が Not Started、Started、Finished であるフィールドがある場合、次の式をグループ ヘッダーに配置すると、値 Finished の合計だけが計算されます。  
+-   条件付き集計計算に **Sum** 関数を使うこともできます。 たとえば、データセットに State という名前のフィールドが存在し、Not Started、Started、Finished という値を設定できる場合、次の式をグループ ヘッダーで使用すると、値 Finished の合計のみが計算されます。  
   
     ```  
     =Sum(IIF(Fields!State.Value = "Finished", 1, 0))  
     ```  
   
-###  <a name="RowNumber"></a> RowNumber  
+###  <a name="rownumber"></a><a name="RowNumber"></a> RowNumber  
   
 -   **RowNumber** 関数をデータ領域内のテキスト ボックスで使うと、式が含まれるテキスト ボックスの各インスタンスの行番号が表示されます。 この関数は、テーブルの行に番号を付けるときに便利な場合があります。 また、行数に基づいて改ページするなど、より複雑なタスクにも役に立つことがあります。 詳しくは、このトピックの「[改ページ](#PageBreaks)」をご覧ください。  
   
-     **RowNumber** に対して指定するスコープにより、番号の付け直しを始めるタイミングを制御します。 **Nothing** キーワードは、最も外側のデータ領域の最初の行からカウントを始めることを示します。 入れ子になったデータ領域内でカウントを始めるには、データ領域の名前を使います。 グループ内でカウントを始めるには、グループの名前を使います。  
+     **RowNumber** に指定したスコープによって、どの時点で番号の再設定を開始するかが制御されます。 **Nothing** キーワードは、最も外側のデータ領域の最初の行からカウントを始めることを示します。 入れ子になったデータ領域内でカウントを始めるには、データ領域の名前を使います。 グループ内でカウントを始めるには、グループの名前を使います。  
   
     ```  
     =RowNumber(Nothing)  
     ```  
   
-##  <a name="AppearanceofReportData"></a> レポート データの表示方法  
+##  <a name="appearance-of-report-data"></a><a name="AppearanceofReportData"></a> レポート データの表示方法  
  式を使って、レポートでのデータの表示方法を操作できます。 たとえば、2 つのフィールドの値を 1 つのテキスト ボックスに表示したり、レポートに関する情報を表示したり、レポートに改ページを挿入する方法を制御したりすることができます。  
   
-###  <a name="PageHeadersandFooters"></a> ページのヘッダーとフッター  
+###  <a name="page-headers-and-footers"></a><a name="PageHeadersandFooters"></a> ページのヘッダーとフッター  
  レポートを設計するとき、レポートの名前とページ番号をレポート フッターに表示したい場合があります。 これは、次の式を使って行うことができます。  
   
--   次の式では、レポートの名前とそれが実行された時刻が提供されます。 レポートのフッターまたはレポートの本体のテキスト ボックスに配置できます。 時刻の書式は、.NET Framework の短い日付用の書式文字列で設定されてます。  
+-   次の式では、レポートの名前とそれが実行された時刻が提供されます。 この式は、レポート フッターまたはレポート本文のテキスト ボックスで使用できます。 時刻の書式は、.NET Framework の短い日付用の書式文字列で設定されてます。  
   
     ```  
     =Globals.ReportName & ", dated " & Format(Globals.ExecutionTime, "d")  
@@ -367,7 +367,7 @@ ms.locfileid: "78921150"
 > [!NOTE]  
 >  ページのヘッダーまたはフッターの 1 つの式で参照できるレポート アイテムは 1 つだけです。 また、ページのヘッダーおよびフッターの式では、テキスト ボックスの名前を参照することはできますが、テキスト ボックス内の実際のデータ式は参照できません。  
   
-###  <a name="PageBreaks"></a> 改ページ  
+###  <a name="page-breaks"></a><a name="PageBreaks"></a> 改ページ  
  レポートによっては、グループやレポート アイテムの代わりに、またはグループやレポート アイテムに加えて、指定した行数の最後に改ページを配置する場合があります。 これを行うには、目的のグループまたは詳細レコードを含むグループを作成し、グループに改ページを追加して、指定した行数でグループにグループ式を追加します。  
   
 -   次の式をグループ式に配置すると、25 行ごとに値が割り当てられます。 グループに対して改ページを定義すると、この式により 25 行ごとに改ページが挿入されます。  
@@ -376,18 +376,18 @@ ms.locfileid: "78921150"
     =Ceiling(RowNumber(Nothing)/25)  
     ```  
   
-     1 ページの行数をユーザーが設定できるようにするには、次の式で示すように、`RowsPerPage` という名前のパラメーターを作成し、グループ式をそのパラメーターに基づくようにします。  
+     ユーザーが 1 ページあたりの行数の値を設定できるようにするには、 `RowsPerPage` という名前のパラメーターを作成し、次の式で示すように、そのパラメーターに基づいてグループ式を作成します。  
   
     ```  
     =Ceiling(RowNumber(Nothing)/Parameters!RowsPerPage.Value)  
     ```  
   
-##  <a name="Properties"></a> プロパティ  
+##  <a name="properties"></a><a name="Properties"></a> プロパティ  
  式は、テキスト ボックスにデータを表示するためだけに使われるのではありません。 レポート アイテムにプロパティを適用する方法を変更するためにも使用できます。 レポート アイテムのスタイル情報や、その表示状態を変更できます。  
   
-###  <a name="Formatting"></a> 書式設定  
+###  <a name="formatting"></a><a name="Formatting"></a> 書式設定  
   
--   次の式をテキスト ボックスの Color プロパティで使うと、`Profit` フィールドの値に応じてテキストの色が変更されます。  
+-   テキスト ボックスの Color プロパティで次の式を使用すると、 `Profit` フィールドの値に応じてテキストの色が変更されます。  
   
     ```  
     =Iif(Fields!Profit.Value < 0, "Red", "Black")  
@@ -415,8 +415,8 @@ ms.locfileid: "78921150"
 ### <a name="chart-colors"></a>グラフの色  
  図形グラフの色を指定するには、データ ポイント値に色がマップされる順序を制御するカスタム コードを使用できます。 これは、同じカテゴリ グループを使う複数のグラフに対して一貫した色を使うのに役立ちます。 
   
-###  <a name="Visibility"></a> 表示状態  
- レポート アイテムの表示状態プロパティを使って、レポート内のアイテムを表示または非表示にすることができます。 テーブルなどのデータ領域では、式の値に基づいて詳細行を最初は非表示にしておくことができます。  
+###  <a name="visibility"></a><a name="Visibility"></a> 表示状態  
+ レポート アイテムの表示プロパティを使用して、レポート内のアイテムの表示/非表示を切り替えることができます。 テーブルなどのデータ領域では、式の値に基づいて詳細行を最初は非表示にしておくことができます。  
   
 -   次の式をグループ内の詳細行の初期表示状態に対して使うと、`PctQuota` フィールドが 90% を超えるすべての売上の詳細行が表示されます。  
   
@@ -424,7 +424,7 @@ ms.locfileid: "78921150"
     =Iif(Fields!PctQuota.Value>.9, False, True)  
     ```  
   
--   次の式をテーブルの Hidden プロパティに設定すると、12 行より多い場合にのみテーブルが表示されます。  
+-   テーブルの Hidden プロパティに次の式を設定すると、テーブルの行数が 12 行を超えた場合にのみテーブルが表示されます。  
   
     ```  
     =IIF(CountRows()>12,false,true)  
@@ -436,26 +436,26 @@ ms.locfileid: "78921150"
     =IIF(Fields!Column_1.IsMissing, true, false)  
     ```  
   
-###  <a name="Hyperlinks"></a> URL  
+###  <a name="urls"></a><a name="Hyperlinks"></a> URL  
  レポート データを使って URL をカスタマイズでき、テキスト ボックスに対するアクションとして URL を追加するかどうかを条件付きで制御することもできます。  
   
--   次の式をテキスト ボックスのアクションとして使うと、URL パラメーターとしてデータセット フィールド `EmployeeID` を指定するカスタマイズされた URL が生成されます。  
+-   次の式をテキスト ボックスに対するアクションとして使用すると、URL パラメーターとしてデータセット フィールド `EmployeeID` を指定する、カスタマイズされた URL が生成されます。  
   
     ```  
     ="https://adventure-works/MyInfo?ID=" & Fields!EmployeeID.Value  
     ```  
   
--   次の式では、テキスト ボックスに URL を追加するかどうかが、条件付きで制御されます。 この式は `IncludeURLs` という名前のパラメーターに依存し、レポートにアクティブな URL を含めるかどうかをユーザーが決定できます。 この式は、テキスト ボックスにアクションとして設定されます。 パラメーターを False に設定してからレポートを表示すると、ハイパーリンクなしで Microsoft Excel にレポートをエクスポートできます。  
+-   次の式では、テキスト ボックス内に URL を追加するかどうかを、条件付きで制御します。 この式は `IncludeURLs` という名前のパラメーターに依存し、レポートにアクティブな URL を含めるかどうかをユーザーが決定できます。 この式は、テキスト ボックスにアクションとして設定されます。 パラメーターを False に設定してからレポートを表示すると、ハイパーリンクなしでレポートを Microsoft Excel にエクスポートできます。  
   
     ```  
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
-##  <a name="ReportData"></a> レポート データ  
- 式を使って、レポートで使われるデータを操作できます。 パラメーターおよび他のレポート情報を参照することができます。 レポートのデータを取得するために使われるクエリを変更することもできます。  
+##  <a name="report-data"></a><a name="ReportData"></a> レポート データ  
+ 式を使って、レポートで使われるデータを操作できます。 パラメーターおよび他のレポート情報を参照することができます。 レポートのデータを取得するために使用されるクエリを変更することもできます。  
   
-###  <a name="Parameters"></a> パラメーター  
- パラメーターで式を使って、パラメーターの既定値を変更することができます。 たとえば、レポートの実行に使われたユーザー ID に基づき、パラメーターを使って、特定のユーザー向けにデータをフィルター処理できます。  
+###  <a name="parameters"></a><a name="Parameters"></a> パラメーター  
+ パラメーターの式を使用して、パラメーターの既定値を変更できます。 たとえば、レポートの実行に使われたユーザー ID に基づき、パラメーターを使って、特定のユーザー向けにデータをフィルター処理できます。  
   
 -   次の式をパラメーターの既定値として使うと、レポートを実行しているユーザーのユーザー ID が収集されます。  
   
@@ -463,26 +463,26 @@ ms.locfileid: "78921150"
     =User!UserID  
     ```  
   
--   クエリ パラメーター、フィルター式、テキスト ボックス、またはレポートの他の領域でパラメーターを参照するには、**Parameters** グローバル コレクションを使います。 次の例では、パラメーターの名前が *Department* であるものとします。  
+-   クエリ パラメーター、フィルター式、テキスト ボックス、またはレポートの他の領域でパラメーターを参照するには、**Parameters** グローバル コレクションを使います。 この例では、パラメーターの名前が *Department*であることを想定しています。  
   
     ```  
     =Parameters!Department.Value  
     ```  
   
--   Parameters をレポートで作成しても、非表示に設定することができます。 レポートがレポート サーバーで実行されても、パラメーターはツール バーに表示されず、レポートのユーザーは既定値を変更できません。 既定値に設定された非表示パラメーターを、カスタム定数として使うことができます。 フィールド式などの任意の式で、この値を使うことができます。 次の式では、*ParameterField* という名前のパラメーターに対する既定のパラメーター値によって指定されたフィールドを識別します。  
+-   パラメーターはレポート内に作成できますが、非表示に設定されます。 レポートがレポート サーバーで実行されても、パラメーターはツール バーに表示されず、レポートのユーザーは既定値を変更できません。 既定値に設定された非表示パラメーターを、カスタム定数として使うことができます。 フィールド式などの任意の式で、この値を使うことができます。 次の式では、*ParameterField* という名前のパラメーターに対する既定のパラメーター値によって指定されたフィールドを識別します。  
   
     ```  
     =Fields(Parameters!ParameterField.Value).Value  
     ```  
   
-##  <a name="CustomCode"></a> カスタム コード  
+##  <a name="custom-code"></a><a name="CustomCode"></a> カスタム コード  
  レポートに埋め込まれたカスタム コードを使用できます。 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>カスタム集計に対するグループ変数の使用  
  特定のグループ スコープのローカルなグループ変数に対する値を初期化した後、その変数への参照を式に含めることができます。 カスタム コードでグループ変数を使用できる方法の 1 つは、カスタム集計を実装することです。 
   
 ## <a name="suppressing-null-or-zero-values-at-run-time"></a>実行時に null 値またはゼロ値を表示しない  
- レポートの処理時に、式の一部の値が null または未定義と評価されることがあります。 これにより、評価された式ではなく **#Error** がテキスト ボックスに表示される実行時エラーが発生する可能性があります。 **IIF** 関数は、If-Then-Else ステートメントとは異なり、**true** または **false** をテストするルーチンに渡される前に、**IIF** ステートメントの各部分が評価されるため (関数の呼び出しを含めて)、この動作の影響を特に受けやすくなります。 ステートメント `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` は、`Fields!Sales.Value` が NOTHING の場合、レンダリングされるレポートで **#Error** になります。  
+ レポートの処理時に、式の一部の値が null または未定義と評価されることがあります。 これにより、評価された式ではなく **#Error** がテキスト ボックスに表示される実行時エラーが発生する可能性があります。 **IIF** 関数は特にこの動作の影響を受けます。これは、If-Then-Else ステートメントとは異なり、 **IIF** ステートメントの各部分 (関数呼び出しを含む) が、 **true** であるか **false**であるかを検証するルーチンに渡される前に評価されるためです。 ステートメント `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` は、**が NOTHING の場合、レンダリングされるレポートで**#Error`Fields!Sales.Value` になります。  
   
  この状況を回避するには、次の方法のいずれかを使います。  
   
@@ -514,7 +514,7 @@ ms.locfileid: "78921150"
   
      これは、実行時の例外を回避するのに役立ちます。 これにより、`=IIF(Me.Value < 0, "red", "black")` のような式をテキスト ボックスの **Color** プロパティで使い、値が 0 より大きいか、または小さいかどうかに基づいて、条件付きでテキストを表示することができます。  
   
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
   

@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205920"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality アプリ (プレビュー)
 仮想世界に専念した状態で Power BI for Mixed Reality アプリ (プレビュー) でダッシュボードとレポートを表示するか、使用環境のコンテキストで特定の場所にダッシュボードとレポートを配置します。 
 
-Windows ストアから [Power BI for Mixed Reality アプリをダウンロード](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab)します:Windows ストアでは "Power BI Mobile" と呼ばれています。 仮想世界のダッシュボードとレポートで対話してから、配置するものを選択します。 
+Windows ストアから [Power BI for Mixed Reality アプリをダウンロード](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab)します: Windows ストアでは "Power BI Mobile" と呼ばれています。 仮想世界のダッシュボードとレポートで対話してから、配置するものを選択します。 
 
-## <a name="two-views-windows-classic-and-holographic"></a>2 つのビュー:Windows クラシックとホログラフィック
+## <a name="two-views-windows-classic-and-holographic"></a>2 つのビュー: Windows クラシックとホログラフィック
 
 Power BI for Mixed Reality は、複合現実に固有の機能が追加された Power BI Windows モバイル アプリに基づいています。 Power BI for Mixed Reality を起動すると、Power BI の "クラシック" Windows ビューが開きます。 このビューでは、アクセス権があるダッシュボードとレポート間を移動することができます。 必要なものを検索する際に、クラシック Windows ビューからホログラフィック操作に切り替えることができます。 
 
@@ -96,7 +96,7 @@ iPhone や Android の [Power BI モバイル アプリで QR コードをスキ
 - ダッシュボードとレポートは、データの変更に応じて 45 秒ごとに更新されます。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [Power BI モバイル アプリで現実世界からデータを取得する](mobile-apps-data-in-real-world-context.md)
 

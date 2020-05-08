@@ -11,10 +11,10 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207461"
 ---
 # <a name="manage-data-sources"></a>データ ソースを管理する
@@ -29,11 +29,11 @@ Power BI は、多数の[オンプレミス データ ソース](power-bi-data-s
 
 1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-data-sources/icon-gear.png) >  **[ゲートウェイの管理]** の順に選択します。
 
-    ![ゲートウェイの管理](media/service-gateway-data-sources/manage-gateways.png)
+    ![ゲートウェイを管理する](media/service-gateway-data-sources/manage-gateways.png)
 
 2. ゲートウェイを選択し、 **[データ ソースの追加]** を選択します。 または、 **[ゲートウェイ]**  >  **[データ ソースの追加]** の順に進みます。
 
-    ![データ ソースの追加](media/service-gateway-data-sources/add-data-source.png)
+    ![データ ソースを追加する](media/service-gateway-data-sources/add-data-source.png)
 
 3. **データ ソースの種類**を選択します。
 
@@ -132,7 +132,7 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 
 オンプレミス データ ゲートウェイでサポートされているデータ ソースに関する詳細については、「[Power BI データ ソース](power-bi-data-sources.md)」を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)
 * [データ ソースの管理 - SAP HANA](service-gateway-enterprise-manage-sap.md)

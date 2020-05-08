@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
 ms.openlocfilehash: d70d1357af3309ddd9584b11ccf79115cde095c8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79383300"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI ビジュアルに関する FAQ
@@ -72,7 +72,7 @@ ms.locfileid: "79383300"
 
 Microsoft は、サードパーティの Power BI ビジュアルの作成者ではありません。 サードパーティのビジュアルの機能については、作成者に直接お問い合わせいただくことをお客様にお勧めしています。
 
-### <a name="what-tests-are-done-during-the-certification-process"></a>認定プロセス中はどのようなテストが行われますか?
+### <a name="what-tests-are-done-during-the-certification-process"></a>認定プロセス中はどのようなテストが行われますか? 
 
 認定プロセスのテストには、次のようなものがあります (ただし、これらに限定されません)。 
 * コード レビュー
@@ -105,7 +105,7 @@ Power BI ビジュアルのコードを確認できるように読み取りア�
 
 はい。 プライベート ビジュアルは認定されません。
  
-### <a name="how-long-does-it-take-to-certify-my-visual"></a>ビジュアルの認定にはどれくらいの時間がかかりますか?
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>ビジュアルの認定にはどれくらいの時間がかかりますか? 
 
 新しい Power BI ビジュアル (初回認証) の認定には、最長で 4 週間かかることがあります。 
 

@@ -10,10 +10,10 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761228"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Power BI で DirectQuery を使用して SAP HANA データ ソースに接続する
@@ -67,7 +67,7 @@ DirectQuery を使用して SAP HANA に接続する (多次元ソースとし�
 * **メジャーのその他の制限:** メジャーで使用できる、SAP HANA のサポート レベルを反映する DAX 式の制限がこの他にもあります。
 * **リレーションシップ定義のサポートがない:** 1 つのレポート内では、1 つのビューにのみクエリを実行できます。そのため、リレーションシップ定義はサポートされていません。
 * **データ ビューがない:** **[データ ビュー]** は、通常詳細レベル データをテーブルに表示します。 SAP HANA などの OLAP ソースの性質から、このビューは SAP HANA では使用できません。
-* **列とメジャーの詳細が固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりできません (ただし、名前変更は可能です)。
+* **列とメジャーの詳細は固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりできません (ただし、名前変更は可能です)。
 * **DAX のその他の制限:** メジャーの定義で使用できる DAX には、ソースの制限と一致する制限がこの他にもあります。 たとえば、テーブルに集計関数は使用できません。
 
 ### <a name="additional-visualization-restrictions"></a>視覚エフェクトのその他の制限
@@ -141,12 +141,12 @@ SAP HANA に接続するためのいずれの手法でも、DirectQuery の使�
 
 * **1 つの SAP HANA 列から複数の Power BI 列** - 一部の計算ビューで、複数の階層で 1 つの SAP HANA 列が使用されるとき、SAP HANA はこれを 2 つの別々の属性として表示します。 結果的に、Power BI で 2 つの列が生成されます。  ただし、このような列は既定で非表示になります。階層を伴うか、列を直接伴うクエリはすべて正しく動作します。 
  
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 DirectQuery の詳細については、次のリソースを参照してください。
 
 * [Power BI の DirectQuery](desktop-directquery-about.md)
 * [DirectQuery でサポートされるデータ ソース](desktop-directquery-data-sources.md)
 * [DirectQuery と SAP BW](desktop-directquery-sap-bw.md)
-* [On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)
+* [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)
 

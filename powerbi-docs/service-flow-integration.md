@@ -11,10 +11,10 @@ ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609700"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate と Power BI
@@ -47,7 +47,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
     ![検索結果](media/service-flow-integration/power-bi-flow-alert.png)
 
 
-### <a name="build-the-flow"></a>フローの作成
+### <a name="build-the-flow"></a>フローを構築する
 このテンプレートには、1 つのトリガー (アイルランドが新しいオリンピック メダルを獲得するとトリガーされる Power BI データ アラート) と、1 つのアクション (メールを送信する) が含まれています。 Power Automate でフィールドを選択すると、含めることができる動的なコンテンツが表示されます。  この例では、メッセージの本文にタイル値とタイル URL を含めます。
 
 ![フロー テンプレート](media/service-flow-integration/power-bi-template1.png)
@@ -86,7 +86,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
    ![Power Automate の上部メニュー バー](media/service-flow-integration/power-bi-my-flows.png)
 3. [検索] ボックスを使用して Power BI トリガーを検索し、 **[Power BI - When a data driven alert is triggered]\(Power BI - データ ドリブン アラートがトリガーされた場合\)** を選択します。
 
-### <a name="build-your-flow"></a>フローを作成する
+### <a name="build-your-flow"></a>フローを構築する
 1. ドロップダウンからアラート名を選択します。  アラートの作成方法については、「[Data alerts in Power BI](service-set-data-alerts.md)」(Power BI のデータ アラート) を参照してください。
    
     ![アラートの名前の選択](media/service-flow-integration/power-bi-totalstores2.png)
@@ -106,7 +106,7 @@ Power BI のアラートがトリガーされたときに詳細なメールを�
    
     ![Power Automate による Outlook 通知のトリガー](media/service-flow-integration/power-bi-flow-notice.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power Automate の概要](https://docs.microsoft.com/power-automate/getting-started/)
 * [Power BI サービスでのデータ アラートの設定](service-set-data-alerts.md)
 * [iPhone でデータ アラートを設定する](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

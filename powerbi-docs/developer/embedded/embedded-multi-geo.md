@@ -9,17 +9,17 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114660"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded の Multi-Geo のサポート
 
 **Power BI Embedded の Multi-Geo のサポート**により、Power BI Embedded を使用して分析をアプリに組み込むアプリケーションをビルドする ISV や組織が、データを世界中の異なるリージョンにデプロイできるようになりました。
 
-これにより、**Power BI Embedded** を使用しているユーザーは、[Power BI Premium による Multi-Geo の使用のサポート](../../service-admin-premium-Multi-Geo.md)と同じ機能や制限事項に基づいて、**Multi-Geo** のオプションを使用して**容量**をセットアップできます。
+これにより、**Power BI Embedded** を使用しているユーザーは、**Power BI Premium による Multi-Geo の使用のサポート**と同じ機能や制限事項に基づいて、**Multi-Geo** のオプションを使用して[容量](../../service-admin-premium-Multi-Geo.md)をセットアップできます。
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>Multi-Geo を使用して新しい Power BI Embedded の容量リソースを作成する
 
@@ -81,7 +81,7 @@ Multi-Geo で API を使用して容量を管理できるように、既存の A
 
 * 一般的に、Multi-Geo でパフォーマンスが向上することはありません。 レポートとダッシュボードの読み込み処理の場合、ホーム リージョンに対してメタデータを要求する必要があります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 以下のリンクを参照して、Power BI Embedded 容量や、すべての容量の Multi-Geo オプションの詳細を確認してください。
 
