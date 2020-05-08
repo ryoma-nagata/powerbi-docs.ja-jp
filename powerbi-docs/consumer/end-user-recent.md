@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: f59d83823ee14648cb8c3d3fe740074d057d3425
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114362"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI サービスの "**最近**" のコンテンツ
@@ -44,7 +44,7 @@ Amanda による Power BI サービスの **[最近]** コンテンツの一覧�
 ## <a name="actions-available-from-the-recent-content-list"></a>**[最近]** コンテンツ リストから使用できるアクション
 使用できるアクションは、コンテンツの*デザイナー*によって割り当てられた設定によって異なります。 オプションには次のようなものがあります。
 * 星のアイコンを選択して、[ダッシュボード、レポート、またはアプリをお気に入りに追加します](end-user-favorite.md) ![星のアイコン](./media/end-user-shared-with-me/power-bi-star-icon.png)。
-* 一部のダッシュボードとレポートを再共有することができます。  ![共有アイコン](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
+* 一部のダッシュボードとレポートを再共有することができます。  ![共有アイコン](./media/end-user-shared-with-me/power-bi-share-icon-new.png)。
 * [レポートを Excel で開きます](end-user-export.md) ![Excel にエクスポート アイコン](./media/end-user-shared-with-me/power-bi-excel.png) 
 * Power BI によるデータの[分析情報を表示](end-user-insights.md)します ![分析情報アイコン](./media/end-user-shared-with-me/power-bi-insights.png)。
 * また、多数ある場合、[検索フィールドと並べ替えを使用して検索することも](end-user-search-sort.md)できます。 列を並べ替えることができるかどうかを調べるには、ポイントして矢印が表示されるかどうかを確認します。 この例では、 **[最終アクセス日時]** をポイントすると、矢印が表示されます。最近のコンテンツはアクセス日時で並べ替えることができます。 
@@ -52,7 +52,7 @@ Amanda による Power BI サービスの **[最近]** コンテンツの一覧�
     ![最近のコンテンツをすべて並べ替える](./media/end-user-recent/power-bi-recent-sort.png)
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [Power BI サービス アプリ](end-user-apps.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

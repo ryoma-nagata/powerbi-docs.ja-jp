@@ -14,7 +14,7 @@
           href: walkthrough-push-data.md
         - name: 認証アクセス トークンを取得する
           href: walkthrough-push-data-get-token.md
-        - name: データセットの作成
+        - name: データセットを作成する
           href: walkthrough-push-data-create-dataset.md
         - name: 行を追加するためにデータセットを取得する
           href: walkthrough-push-data-get-datasets.md
@@ -32,9 +32,9 @@
               href: api-dataset-properties.md
             - name: データ モデルのバージョン管理
               href: api-data-model-versioning.md
-    - name: 操作方法
+    - name: 方法
       items:
-        - name: 資格情報を構成する
+        - name: 資格情報の構成
           href: configure-credentials.md
     - name: リファレンス
       items:

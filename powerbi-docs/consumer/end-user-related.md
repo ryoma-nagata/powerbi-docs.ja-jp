@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114390"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI サービスで関連するコンテンツを表示する
@@ -52,7 +52,7 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 
 
 ## <a name="view-related-content-for-a-dataset"></a>データセットの関連するコンテンツを表示する
-**[関連するコンテンツ]** ペインを開くには、データセットに対する "*表示*" アクセス許可が少なくとも必要です。 この例では、[調達の分析のサンプル](../sample-procurement.md)を使います。
+*[関連するコンテンツ]* ペインを開くには、データセットに対する "**表示**" アクセス許可が少なくとも必要です。 この例では、[調達の分析のサンプル](../sample-procurement.md)を使います。
 
 ナビ ペインで **[ワークスペース]** の見出しを探し、一覧からワークスペースを選択します。 ワークスペースにコンテンツがある場合は、右側のキャンバスに表示されます。 
 
@@ -61,7 +61,7 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 
 ワークスペースで **[データセット]** タブを選び、 **[関連の表示]** アイコン ![[関連の表示] アイコン](./media/end-user-related/power-bi-view-related-icon-new.png) を探します。
 
-![データセット タブ](./media/end-user-related/power-bi-related-dataset.png)
+![[データセット] タブ](./media/end-user-related/power-bi-related-dataset.png)
 
 アイコンを選び、 **[関連するコンテンツ]** ペインを開きます。
 
@@ -74,7 +74,7 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 * レポートの関連するコンテンツを開くには、[[読み取りビュー]](end-user-reading-view.md) を表示している必要があります。
 * 関連するコンテンツの機能は、ストリーミング データセットには機能しません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI サービスの概要](../service-get-started.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

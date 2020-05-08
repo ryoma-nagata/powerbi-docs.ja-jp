@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: painbar
 ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256795"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>Power BI サービスのマイ ワークスペースにサンプルをダウンロードする
@@ -28,7 +28,7 @@ ms.locfileid: "75256795"
 
 2. ナビゲーション ウィンドウの左下隅にある **[データの取得]** を選択します。 ナビゲーション ウィンドウが非表示になっていて、[データの取得] リンクが見えない場合、ナビゲーション ウィンドウの表示/非表示アイコン ![グローバル ナビゲーション ボタン](./media/mobile-apps-download-samples/power-bi-iphone-global-nav-button.png) をクリックして、ウィンドウを表示します。  
    
-    ![データを取得](./media/mobile-apps-download-samples/power-bi-get-data.png)
+    ![データの取得](./media/mobile-apps-download-samples/power-bi-get-data.png)
 
 3. [データの取得] ページで、 **[サンプル]** リンクを選びます。
    
@@ -44,6 +44,6 @@ ms.locfileid: "75256795"
   
 これで、お使いのモバイル デバイスでサンプルを表示する準備ができました。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [クイックスタート](mobile-apps-quickstart-view-dashboard-report.md)
-* わからないことがある場合は、 [Power BI コミュニティのモバイル アプリ セクション](https://go.microsoft.com/fwlink/?linkid=839277)をご覧ください
+* ご質問 [Power BI コミュニティのモバイル アプリ セクション](https://go.microsoft.com/fwlink/?linkid=839277)をご覧ください

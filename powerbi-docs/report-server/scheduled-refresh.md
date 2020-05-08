@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
 ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837610"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server での Power BI のスケジュールされた更新
@@ -24,11 +24,11 @@ Power BI レポートのスケジュールされた更新は、レポートの�
 
 スケジュールされた更新は、レポートの管理セクションで構成します。 スケジュールされた更新を構成する方法については、「[Power BI レポートのスケジュールされた更新を構成する方法](configure-scheduled-refresh.md)」をご覧ください。
 
-## <a name="how-this-works"></a>動作のしくみ
+## <a name="how-this-works"></a>処理のしくみ
 Power BI レポートのスケジュールされた更新を使うときは、複数のコンポーネントが関係します。
 
 * スケジュールされたイベントを生成するタイマーとしての SQL Server エージェント。
-* スケジュールされたジョブは、レポート サーバー データベースのイベントと通知のキューに追加されます。 スケールアウト配置では、キューはデプロイ内のすべてのレポート サーバー間で共有されます。
+* スケジュールされたジョブは、レポート サーバー データベースのイベントと通知のキューに追加されます。 スケールアウト配置では、キューは配置しているすべてのレポート サーバーで共有されます。
 * スケジュール イベントの結果として発生するすべてのレポート処理は、バックグラウンド プロセスとして実行されます。
 * データ モデルは、Analysis Services インスタンス内に読み込まれます。
 * 一部のデータ ソースでは、データ ソースに接続してデータを変換するために、Power Query マッシュアップ エンジンが使われます。 他のデータ ソースは、Power BI Report Server のデータ モデルをホストする Analysis Services サービスから直接接続できます。
@@ -36,7 +36,7 @@ Power BI レポートのスケジュールされた更新を使うときは、�
 * スケールアウト構成では、データ モデルを複数のノードにレプリケートできます。
 * Analysis Services がデータを処理し、必要な計算をすべて実行します。
 
-Power BI Report Server は、すべてのスケジュールされた操作のイベント キューを保持します。 定期的にキューをポーリングして、新しいイベントを確認します。 既定では、キューは 10 秒ごとにスキャンされます。 RSReportServer.config ファイルの構成設定 **PollingInterval**、**IsNotificationService**、**IsEventService** を変更することで、間隔を変えることができます。 **IsDataModelRefreshService** を使うと、レポート サーバーがスケジュールされたイベントを処理するかどうかも設定できます。
+Power BI Report Server は、すべてのスケジュールされた操作のイベント キューを保持します。 定期的にキューをポーリングし、新しいイベントがないかどうかを確認します。 既定では、キューは 10 秒ごとにスキャンされます。 RSReportServer.config ファイルの構成設定 **PollingInterval**、**IsNotificationService**、**IsEventService** を変更することで、間隔を変えることができます。 **IsDataModelRefreshService** を使うと、レポート サーバーがスケジュールされたイベントを処理するかどうかも設定できます。
 
 ### <a name="analysis-services"></a>Analysis Services
 Power BI レポートのレンダリングと、スケジュールされた更新の実行には、Power BI レポートのデータ モデルを Analysis Services に読み込む必要があります。 Analysis Services プロセスは、Power BI Report Server で実行されます。
@@ -64,7 +64,7 @@ Analysis Services 内のメモリ設定については、「[Memory Properties](
 ### <a name="data-model-size-limit"></a>データ モデル サイズの制限
 スケジュールされた更新中に内部の Analysis Services エンジンに読み込まれるデータ モデルの最大サイズは 2,000 MB (2 GB) です。 この最大サイズは構成できません。 データ モデルのサイズが 2 GB を超えると、"結果の長さが、対象となる大きな型の長さの制限 (2 GB) を超えています" という更新エラーが発生します。 その場合は、Analysis Services インスタンスでモデルをホストし、レポート内のモデルへのライブ接続を使用することをお勧めします。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 Power BI レポートに[スケジュールされた更新](configure-scheduled-refresh.md)を構成します。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

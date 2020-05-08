@@ -11,19 +11,19 @@ ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550915"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop 経由で Project Online データに接続する
 Power BI Desktop を経由して Project Online のデータに接続することができます。
 
-## <a name="step-1-download-power-bi-desktop"></a>手順 1:Power BI Desktop をダウンロードする
+## <a name="step-1-download-power-bi-desktop"></a>手順 1: Power BI Desktop をダウンロードする
 1. [Power BI Desktop をダウンロード](https://go.microsoft.com/fwlink/?LinkID=521662)し、インストーラーを実行して **Power BI Desktop** をコンピューターにインストールします。
 
-## <a name="step-2-connect-to-project-online-with-odata"></a>手順 2:OData を使用して Project Online に接続する
+## <a name="step-2-connect-to-project-online-with-odata"></a>手順 2: OData を使用して Project Online に接続する
 1. **Power BI Desktop** を開きます。
 2. *[ようこそ]* 画面で、 **[データの取得]** を選択します。
 3. **[OData フィード]** を選択し、 **[接続]** を選択します。

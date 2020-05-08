@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d92d7a3095ff2f252a09834becf90d5efc1811a0
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113065"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI 通知を表示する
@@ -44,7 +44,7 @@ Amanda が通知をレビューし、管理し、また、通知に応答する�
    ![通知センター](./media/end-user-notification-center/power-bi-notification-center.png)
 4. 通知を破棄するには、[X] アイコンを選択します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI サービスでのデータ アラート](end-user-alerts.md)
 * [iPhone アプリでデータ アラートを設定する (Power BI for iOS)](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10 用の Power BI モバイル アプリでデータ アラートを設定する](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
