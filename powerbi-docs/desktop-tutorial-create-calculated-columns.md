@@ -1,6 +1,6 @@
 ---
-title: チュートリアル:Power BI Desktop での計算列の作成
-description: チュートリアル:Power BI Desktop での計算列の作成
+title: 'チュートリアル: Power BI Desktop で計算列を作成する'
+description: 'チュートリアル: Power BI Desktop で計算列を作成する'
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: cdd4f4f5058b57cbf59a3a0b35286243bd8c8f37
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75731721"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>チュートリアル:Power BI Desktop での計算列の作成
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>チュートリアル: Power BI Desktop で計算列を作成する
 
 分析しているデータに、必要とする結果の取得に必要な特定のフィールドが含まれていない場合があります。 ここで、"*計算列*" が登場します。 計算列では、Data Analysis Expressions (DAX) 式を使用して列の値を定義して、異なる 2 つの列のテキスト値をまとめたり、他の値から数値を計算したりできます。 たとえば、データに **[都道府県]** フィールドと **[市区町村]** フィールドがあるときに、その両方 (例: "東京都新宿区") を含む **[場所]** フィールドが必要であるとします。 これこそまさに計算列の目的です。
 
@@ -26,7 +26,7 @@ ms.locfileid: "75731721"
 
 ## <a name="prerequisites"></a>前提条件
 
-- このチュートリアルは、Power BI Desktop を使用して高度なモデルを作成することに既に慣れている Power BI ユーザー向けに書かれています。 データの取得方法と、Power Query エディターでのデータのインポート、複数の関連テーブルの操作、およびレポート キャンバスへのフィールドの追加方法を既に理解している必要があります。 Power BI Desktop を新しく使い始めたユーザーの場合は、まず「[Power BI Desktop の概要](desktop-getting-started.md)」をお読みください。
+- このチュートリアルは、Power BI Desktop を使用して高度なモデルを作成することに既に慣れている Power BI ユーザー向けに書かれています。 データの取得方法と、Power Query エディターでのデータのインポート、複数の関連テーブルの操作、およびレポート キャンバスへのフィールドの追加方法を既に理解している必要があります。 Power BI Desktop を新しく使い始めたユーザーの場合は、まず「[ Power BI Desktop の概要](desktop-getting-started.md)」をお読みください。
   
 - このチュートリアルでは、[Contoso Sales Sample for Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) を使用します。これは、「[チュートリアル: Power BI Desktop で独自のメジャーを作成する](desktop-tutorial-create-measures.md)」で使用されるのと同じサンプルです。 この Contoso, inc. という架空の会社の売上データはデータベースからインポートされたため、データ ソースに接続したり、Power Query エディターで表示したりすることはできません。 このファイルをコンピューターにダウンロードした後、Power BI Desktop で開いてください。
 
@@ -129,7 +129,7 @@ Contoso Sales のサンプルには、アクティブな店舗と非アクティ
 
 計算列によって、データを充実させ、より簡単に分析情報が得ることができます。 計算列を **[フィールド]** ペインと数式バーで作成する方法、候補リストとツールヒントを使用して数式を作成する方法、RELATED や IF などの DAX 関数を適切な引数を指定して呼び出す方法、およびレポートの視覚エフェクトで計算列を使用する方法について学習しました。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 DAX の数式についてさらに詳しく知りたい場合や、さらに高度な DAX の数式で計算列を作成する場合は、「[Power BI Desktop における DAX の基本事項](desktop-quickstart-learn-dax-basics.md)」をご覧ください。 この記事では、構文、関数、およびコンテキストの詳しい理解など、DAX の基本的な概念について説明します。
 

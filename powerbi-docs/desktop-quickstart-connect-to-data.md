@@ -10,13 +10,13 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885235"
 ---
-# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>クイック スタート: Power BI Desktop におけるデータへの接続
+# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>クイック スタート: Power BI Desktop でデータに接続する
 
 このクイックスタートでは、Power BI Desktop を使用してデータに接続します。これは、データ モデルの作成とレポートの作成における最初の手順です。
 
@@ -38,7 +38,7 @@ Power BI Desktop をインストールしたら、アプリケーションを起
 
 ![Power BI Desktop と空のキャンバス](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 
-## <a name="connect-to-data"></a>データに接続する
+## <a name="connect-to-data"></a>データへの接続
 
 Power BI Desktop では、さまざまな種類のデータに接続できます。 これらのソースには、Microsoft Excel ファイルなどの基本的なデータ ソースが含まれます。 Salesforce、Microsoft Dynamics、Azure Blob Storage など、さまざまな種類のデータを含むオンライン サービスに接続できます。
 
@@ -66,11 +66,11 @@ Power BI Desktop によってブックが読み込まれ、その内容が読み
 
 テーブルが読み込まれると、 **[フィールド]** ウィンドウにデータが表示されます。 テーブル名の横にある矢印を選択することで、各テーブルを展開できます。 次の図では、*financials* テーブルが展開され、各フィールドが表示されています。
 
-![データを取得](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
+![データの取得](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 
 これで完了です。 Power BI Desktop でデータに接続し、そのデータを読み込んで、それらのテーブル内のすべての利用可能なフィールドを表示しました。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 データに接続したら、さまざまな操作を Power BI Desktop で行うことができます。 ビジュアルとレポートを作成できます。 操作を開始するには、次のリソースを参照してください。
 

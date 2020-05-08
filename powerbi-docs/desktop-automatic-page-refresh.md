@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 95ccee8e2c711c272d6114339161cbf1d1c883a9
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488524"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841689"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop でのページの自動更新 (プレビュー)
 
@@ -212,7 +212,7 @@ Power BI Desktop または Power BI サービスでページの自動更新を�
 
 * [Power BI で DirectQuery を使用する](desktop-directquery-about.md)
 * [パフォーマンス アナライザーを使用してレポート要素のパフォーマンスを確認する](desktop-performance-analyzer.md)
-* [Power BI Premium 容量の展開と管理](whitepaper-powerbi-premium-deployment.md)
+* [Power BI Premium 容量の展開と管理](guidance/whitepaper-powerbi-premium-deployment.md)
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop で Excel ブックに接続する](desktop-connect-excel.md)   

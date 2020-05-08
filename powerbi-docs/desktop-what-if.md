@@ -11,10 +11,10 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8a72bc43bcceae6e676728934ceec81c8cb27d04
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539427"
 ---
 # <a name="create-and-use-what-if-parameters-to-visualize-variables-in-power-bi-desktop"></a>Power BI Desktop で変数を視覚化する what-if パラメーターを作成して使用する
@@ -32,11 +32,11 @@ what-if パラメーターを作成するには、Power BI Desktop の **[モデ
 ![what-if パラメーターの値](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> 10 進数の場合、単に .50 ではなく 0.50 のように先頭のゼロが必要です。 このようにしないと、値が妥当と見なされず、**[OK]** ボタンを選択できません。
+> 10 進数の場合、単に .50 ではなく 0.50 のように先頭のゼロが必要です。 このようにしないと、値が妥当と見なされず、 **[OK]** ボタンを選択できません。
 > 
 > 
 
-使いやすいように、**[このページにスライサーを追加する]** チェック ボックスをオンにすると、現在のレポート ページに what-if パラメーターを含むスライサーが自動的に追加されます。
+使いやすいように、 **[このページにスライサーを追加する]** チェック ボックスをオンにすると、現在のレポート ページに what-if パラメーターを含むスライサーが自動的に追加されます。
 
 ![現在のレポート ページの新しいスライサー](media/desktop-what-if/what-if_03.png)
 
@@ -44,7 +44,7 @@ what-if パラメーターを作成すると、パラメーターだけでなく
 
 ![what-if パラメーターに対して作成されたメジャー](media/desktop-what-if/what-if_04.png)
 
-what-if パラメーターを作成すると、パラメーターとメジャーの両方がモデルの一部になるということは重要であり、覚えておくと役に立ちます。 したがって、これらをレポート全体および他のレポート ページで使うことができます。 また、モデルの一部であるため、レポート ページからスライサーを削除できます。 戻す必要がある場合は、**[フィールド]** 一覧で what-if パラメーターを選択し、キャンバスにドラッグして、ビジュアルをスライサーに変更するだけです。
+what-if パラメーターを作成すると、パラメーターとメジャーの両方がモデルの一部になるということは重要であり、覚えておくと役に立ちます。 したがって、これらをレポート全体および他のレポート ページで使うことができます。 また、モデルの一部であるため、レポート ページからスライサーを削除できます。 戻す必要がある場合は、 **[フィールド]** 一覧で what-if パラメーターを選択し、キャンバスにドラッグして、ビジュアルをスライサーに変更するだけです。
 
 ## <a name="using-a-what-if-parameter"></a>what-if パラメーターの使用
 

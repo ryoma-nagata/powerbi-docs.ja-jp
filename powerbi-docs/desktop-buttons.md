@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439827"
 ---
 # <a name="use-buttons-in-power-bi"></a>Power BI でボタンを使用する
@@ -71,7 +71,7 @@ Power BI のボタンには 3 つの状態があります: 既定 (マウスで�
 - **[ページ ナビゲーション]** では、レポート内の別のページに、この場合もブックマークを使用せずに、ユーザーを移動できます。 詳細については、この記事の「[ページ ナビゲーションの作成](#create-page-navigation)」を参照してください。
 - **[Q&A]** では、 **[Q&A Explorer]** \(Q&A エクスプローラー\) ウィンドウが開きます。 
 
-特定のボタンには、既定のアクションが自動的に選択されます。 たとえば、 **[Q&A]** ボタンの種類では、既定のアクションとして **[Q&A]** を自動的に選択します。 [このブログの投稿](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer)を確認すると、**Q&A Explorer** の詳細を確認できます。
+特定のボタンには、既定のアクションが自動的に選択されます。 たとえば、 **[Q&A]** ボタンの種類では、既定のアクションとして **[Q&A]** を自動的に選択します。 **このブログの投稿**を確認すると、[Q&A Explorer](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer) の詳細を確認できます。
 
 使用するボタン上で *Ctrl キーを押しながらクリック*して、レポートを作成するボタンを試したり、テストしたりすることができます。 
 
@@ -89,7 +89,7 @@ Power BI のボタンには 3 つの状態があります: 既定 (マウスで�
 
 また、他の種類のボタンで行えるのと同様に、ヒントを条件付きで書式設定することもできます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 ボタンと似た機能またはボタンと相互作用する機能の詳細については、次の記事をご覧ください。
 
 * [Power BI レポートでドリルスルーを使用する](desktop-drillthrough.md)

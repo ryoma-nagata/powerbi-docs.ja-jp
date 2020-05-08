@@ -9,19 +9,19 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
 ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114154"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI ビジュアルでデータ ポイントを強調表示する
 
-既定では、要素が選択されるたびに、`dataView` オブジェクト内の `values` 配列は、選択された値のみを示すようにフィルター処理されます。 これにより、ページ上の他のすべてのビジュアルには、選択したデータのみが表示されます。
+既定では、要素が選択されるたびに、`values` オブジェクト内の `dataView` 配列は、選択された値のみを示すようにフィルター処理されます。 これにより、ページ上の他のすべてのビジュアルには、選択したデータのみが表示されます。
 
 ![`dataview` の強調表示の既定の動作](media/highlight/highlight-dataview.png)
 
-`capabilities.json` の `supportsHighlight` プロパティを `true` に設定すると、フィルター処理されていない完全な `values` 配列が `highlights` 配列とともに返されます。 `highlights` 配列は values 配列と同じ長さになり、選択されていない values はすべて `null` に設定されます。 このプロパティを有効にすると、`values` 配列と `highlights` 配列を比較することによって適切なデータを強調表示する動作がビジュアル側で実行されます。
+`supportsHighlight` の `capabilities.json` プロパティを `true` に設定すると、フィルター処理されていない完全な `values` 配列が `highlights` 配列とともに返されます。 `highlights` 配列は values 配列と同じ長さになり、選択されていない values はすべて `null` に設定されます。 このプロパティを有効にすると、`values` 配列と `highlights` 配列を比較することによって適切なデータを強調表示する動作がビジュアル側で実行されます。
 
 ![`dataview` でサポートされている強調表示](media/highlight/highlight-dataview-supports.png)
 
@@ -32,7 +32,7 @@ ms.locfileid: "80114154"
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>カテゴリ別のデータ ビューのマッピングを持つデータ ポイントを強調表示する
 
-カテゴリ別のデータ ビューのマッピングを持つビジュアルには、`"supportsHighlight": true` パラメーターを持つ `capabilities.json` があります。 例:
+カテゴリ別のデータ ビューのマッピングを持つビジュアルには、`capabilities.json` パラメーターを持つ `"supportsHighlight": true` があります。 次に例を示します。
 
 ```json
 {
@@ -275,7 +275,7 @@ div.value {
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>マトリックスのデータ ビューのマッピングを持つデータ ポイントを強調表示する
 
-マトリックスのデータ ビューのマッピングを持つビジュアルには、`"supportsHighlight": true` パラメーターを持つ `capabilities.json` があります。 例:
+マトリックスのデータ ビューのマッピングを持つビジュアルには、`capabilities.json` パラメーターを持つ `"supportsHighlight": true` があります。 次に例を示します。
 
 ```json
 {
@@ -329,7 +329,7 @@ div.value {
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |
 |   R1   |   R11   |   R113   |   C1   |   C11   |   C113   |   3   |
 |   R1   |   R12   |   R121   |   C1   |   C12   |   C121   |   4   |
-|   R1   |   R12   |   R122   |   C1   |   C12   |   C122   |   5   |
+|   R1   |   R12   |   R122   |   C1   |   C12   |   C122   |   8   |
 |   R1   |   R12   |   R123   |   C1   |   C12   |   C123   |   6   |
 |   R1   |   R13   |   R131   |   C1   |   C13   |   C131   |   7   |
 |   R1   |   R13   |   R132   |   C1   |   C13   |   C132   |   8   |
@@ -645,7 +645,7 @@ public update(options: VisualUpdateOptions) {
 
 ![マトリックスのデータ ビューのマッピングと強調表示を持つビジュアル](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [マトリックスのデータ ビューのマッピングについて読む](dataview-mappings.md#matrix-data-mapping)
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e7d3d19bdef1b19d397ac7db13cdec2317f8ab42
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114562"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Power BI モバイル アプリで現実世界からデータを取得する
@@ -49,7 +49,7 @@ Power BI Desktop でレポート内の地理的なデータを分類します。
 
 [場所によるフィルター処理](mobile-apps-geographic-filtering.md)に関する詳細。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI でタイルの QR コードを作成する](../../service-create-qr-code-for-tile.md)
 * [Power BI でレポートの QR コードを作成する](../../service-create-qr-code-for-report.md)
 
