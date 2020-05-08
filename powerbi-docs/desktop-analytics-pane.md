@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4ad843078e452502a94aa7d60b3304528fd25496
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038839"
 ---
 # <a name="use-the-analytics-pane-in-power-bi-desktop"></a>Power BI Desktop の [分析] ウィンドウを使用する
@@ -106,7 +106,7 @@ Power BI Desktop の 2018 年 2 月リリースより (バージョン 2.55.5010
 * 折れ線グラフ
 * 散布図
 
-次のビジュアルでは、 **[分析]** ウィンドウの *定数線* のみを使用できます。
+次のビジュアルでは、 *[分析]* ウィンドウの **定数線** のみを使用できます。
 
 * 積み上げ面グラフ
 * 積み上げ横棒グラフ
@@ -132,12 +132,12 @@ Power BI Desktop の 2018 年 2 月リリースより (バージョン 2.55.5010
 
 百分位線を使用できるのは、*Power BI Desktop* でインポートされたデータを使用している場合、または **Analysis Services 2016** 以降を実行しているサーバー上のモデル、**Azure Analysis Services**、または Power BI サービス上のデータセットにライブ接続している場合のみです。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI Desktop では、あらゆる種類の操作を実行できます。 そのような機能について詳しくは、次のリソースをご覧ください。
 
 * [Power BI Desktop の新機能](desktop-latest-update.md)
-* [Power BI Desktop を取得する](desktop-get-the-desktop.md)
+* [Power BI Desktop の取得](desktop-get-the-desktop.md)
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 * [Power BI Desktop でのクエリの概要](desktop-query-overview.md)
 * [Power BI Desktop でのデータ型](desktop-data-types.md)

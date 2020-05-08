@@ -10,10 +10,10 @@ ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 3e6de89f66d6f6282fcde25a1d2be445e2721817
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762188"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Power BI のデータフロー間でエンティティをリンクする
@@ -84,7 +84,7 @@ Power BI サービスの **[エンティティの追加]** メニュー項目か
 * データフローで別のクエリ (クエリ B) の計算に (たとえばクエリ A などの) クエリが使用されている場合、クエリ B が計算エンティティになります。 計算エンティティは、オンプレミスのソースを参照できません。
 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 データフローを作成または使用するときは、次の記事も役に立ちます。 
 

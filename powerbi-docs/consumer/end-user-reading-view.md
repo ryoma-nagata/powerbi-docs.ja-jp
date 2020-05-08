@@ -13,10 +13,10 @@ ms.workload: powerbi
 ms.date: 03/11/2020
 ms.author: mihart
 ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206035"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>クイック スタート: *コンシューマー*向けの Power BI の機能について学習する
@@ -48,7 +48,7 @@ Power BI で "コンテンツ" という用語を使用するときは、レポ�
 > [!NOTE]
 > ダッシュボード、レポート、アプリは、モバイル デバイス上で表示および共有することもできます。
 
-###  <a name="apps"></a>アプリ
+###  <a name="apps"></a>Apps
 
 *アプリ*とは、関連するダッシュ ボードとレポートがすべて 1 か所にまとめられた Power BI のコンテンツの種類です。 アプリでは、1 つ以上のダッシュ ボードと 1 つ以上のレポートをすべてまとめることができます。 アプリは、あなたのような*コンシューマー*に、アプリを配布するおよび共有する Power BI *デザイナー*によって作成されます。 
 

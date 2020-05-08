@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76268861"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>他のワークスペースからレポートをコピーする (プレビュー)
@@ -104,7 +104,7 @@ ms.locfileid: "76268861"
     > このワークスペース内の共有データセットを削除しても、データセットは削除されません。 それに対する参照が削除されるだけです。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
-- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
 ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79494954"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI の埋め込み分析でマルチテナントを管理する
@@ -104,7 +104,7 @@ Power BI Embedded では、Multi-Geo のデプロイ (プレビュー機能) が
 
 ### <a name="cost"></a>コスト
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) の購入モデルは **Power BI Premium** のようなリソース ベースです。 固定のコンピューティング能力とメモリで 1 つまたは複数の容量を購入します。 この容量は、**Power BI Embedded** を使用するときの主なコスト項目です。 容量を使用するユーザーの数に制限はありません。 唯一の制限は、容量のパフォーマンスです。 *マスター* ユーザーごと、または Power BI ポータルにアクセスする必要がある特定のユーザーごとに、[Power BI Pro ライセンス](../../service-admin-licensing-organization.md)が必要です。
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) の購入モデルは **Power BI Premium** のようなリソース ベースです。 固定のコンピューティング能力とメモリで 1 つまたは複数の容量を購入します。 この容量は、**Power BI Embedded** を使用するときの主なコスト項目です。 容量を使用するユーザーの数に制限はありません。 唯一の制限は、容量のパフォーマンスです。 [マスター](../../service-admin-licensing-organization.md) ユーザーごと、または Power BI ポータルにアクセスする必要がある特定のユーザーごとに、*Power BI Pro ライセンス*が必要です。
 
 ライブ環境と使用状況をシミュレートし、容量に対してロード テストを実行して、容量で予想される負荷をテストおよび測定することをお勧めします。 Azure 容量または [Premium 容量メトリック アプリ](../../service-admin-premium-monitor-capacity.md)で使用できるさまざまなメトリックで、負荷とパフォーマンスを測定できます。
 
@@ -252,7 +252,7 @@ Power BI には、RLS のロールやルールを変更または作成するた�
 * 容量に対して同時に実行できる更新の数については、[リソースの管理と最適化](../../service-premium-what-is.md#capacity-nodes)に関する記事をご覧ください。
 * 容量のスケーリングの平均時間は、1 ～ 2 分です。 その間、容量は使用できません。 [ダウンタイムを回避する](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script)ため、スケールアウト アプローチを使用することをお勧めします。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [Power BI を使用した埋め込み分析](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)

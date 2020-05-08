@@ -10,10 +10,10 @@ ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 8921737fac842d040d014244e2ce80e9bc158b23
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76040131"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop で一般的なクエリ タスクを実行する
@@ -85,7 +85,7 @@ Power Query エディターでは、複数行の値を 1 つの値にグルー�
 
 この例では、教育登録データ セット内の複数の行をグループ化します。 データは、Excel ブックのものです。 Power Query エディターでは、必要な列のみを取得し、テーブルの名前を変更し、他のいくつかの変換を行うように整形されます。
 
-各州の機関の数を調べてみましょう (機関には、学区や他の教育機関 (地域のサービス地区など) が含まれる可能性があります)。 **[Agency ID - NCES Assigned \[District\] Latest available year]\(機関 ID - NCES によって割り当てられた <地区> の最新の使用可能な年\)** 列を選択し、リボンの **[変換]** タブまたは **[ホーム]** タブの **[グループ化]** ボタンを選択します ( **[グループ化]** は両方のタブで使用できます)。
+各州の機関の数を調べてみましょう  (機関には、学区や他の教育機関 (地域のサービス地区など) が含まれる可能性があります)。 **[Agency ID - NCES Assigned \[District\] Latest available year]\(機関 ID - NCES によって割り当てられた <地区> の最新の使用可能な年\)** 列を選択し、リボンの **[変換]** タブまたは **[ホーム]** タブの **[グループ化]** ボタンを選択します  ( **[グループ化]** は両方のタブで使用できます)。
 
 ![[グループ化] ダイアログ ボックス、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
@@ -114,7 +114,7 @@ Power Query エディターを使うと、最後の整形操作をいつでも�
 
 ![[列のピボット] コマンド、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
 
-**[列のピボット]** ダイアログ ボックスが表示され、新しい列 (1) の作成に使用される列の値がわかります (**CategoryName** の目的の列名が表示されない場合は、ドロップダウン リストから選択します)。 **[詳細] オプション** (2) を展開すると、集計値 (3) に適用される関数を選択できます。
+**[列のピボット]** ダイアログ ボックスが表示され、新しい列 (1) の作成に使用される列の値がわかります  (**CategoryName** の目的の列名が表示されない場合は、ドロップダウン リストから選択します)。 **[詳細] オプション** (2) を展開すると、集計値 (3) に適用される関数を選択できます。
 
 ![[列のピボット] ダイアログ ボックス、Power Query エディター、Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 

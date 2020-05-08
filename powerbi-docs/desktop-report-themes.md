@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378963"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポート テーマを使用する
@@ -312,10 +312,10 @@ Power BI Desktop の 2019 年 12 月リリース以降、現在適用されて�
 |---------|---------|
 | **firstLevelElements** <br> **foreground**    (非推奨) | ラベルの背景色 (外部データ ポイントの場合) <br> 傾向線の色 <br>  テキスト ボックスの既定の色 <br> テーブルとマトリックスの値および合計のフォントの色、データ バーの軸の色 <br> カードのデータ ラベル <br> ゲージ コールアウトの値の色 <br> KPI 目標の色 <br>  KPI テキストの色 <br> スライサー項目の色 (フォーカス モードの場合)  <br> スライサー ドロップダウン項目のフォントの色 <br> スライサー数値入力のフォントの色 <br> スライサー ヘッダーのフォントの色 <br> 散布図の比率の線の色 <br> 折れ線グラフの予測線の色 <br> マップの引き出し線の色 <br> フィルター ウィンドウとカードのテキストの色|
 | **secondLevelElements** <br> **foregroundNeutralSecondary** (非推奨) | "light" [セカンダリ テキスト クラス](#setting-formatted-text-defaults) <br> ラベルの色  <br> 凡例ラベルの色 <br> 軸ラベルの色 <br> テーブルとマトリックスのヘッダーのフォントの色 <br> ゲージ ターゲットとターゲットの引き出し線の色 <br>  KPI の傾向軸の色 <br> スライサーのスライダーの色 <br> スライサー項目のフォントの色 <br> スライサーの枠線の色 <br> 折れ線のグラフポイント時の色 <br> 複数行カードのタイトルの色 <br> リボン グラフの線の色 <br> 図形マップの境界線の色 <br> ボタン テキストのフォントの色 <br> ボタン アイコンの線の色 <br> ボタンの枠線の色 |
-| **thirdLevelElements** <br >**backgroundLight** (非推奨) | 軸のグリッド線の色 <br> テーブルとマトリックスのグリッドの色 <br> スライサー ヘッダーの背景色 (フォーカス モードの場合)  <br> 複数行カードの枠線の色  <br> 図形の塗りつぶしの色 <br> ゲージの円弧の背景色 <br> 適用されたフィルター カードの背景色 <br> 背景 = FFFFFF の場合: <br> ボタンの塗りつぶしの色は無効 <br> ボタンの枠線の色は無効 <br> |
+| **thirdLevelElements** <br >**backgroundLight** (非推奨) | 軸のグリッド線の色 <br> テーブルとマトリックスのグリッドの色 <br> スライサー ヘッダーの背景色 (フォーカス モードの場合)  <br> 複数行カードの枠線の色  <br> 図形の塗りつぶしの色 <br> ゲージの円弧の背景色 <br> 適用されたフィルター カードの背景色 <br> 背景 = FFFFFF の場合:  <br> ボタンの塗りつぶしの色は無効 <br> ボタンの枠線の色は無効 <br> |
 | **fourthLevelElements** <br> **foregroundNeutralTertiary** (非推奨) | 凡例の淡色表示の色 <br> カードのカテゴリ ラベルの色 <br> 複数行カードのカテゴリ ラベルの色 <br> 複数行カードのバーの色 <br> じょうごグラフの変換率の線の色 <br> ボタン テキストのフォントの色は無効 <br> ボタン アイコンの線の色は無効 <br> |
 | **background** | ラベルの背景色 (内部データ ポイントの場合) <br> スライサーのドロップダウン項目の背景色  <br> ドーナツ グラフの線の色 <br> ツリーマップの線の色 <br> 複合グラフの背景色 <br> ボタンの塗りつぶしの色 <br> フィルター ウィンドウと使用可能なフィルター カードの背景色 |
-| **secondaryBackground** <br> **backgroundNeutral** (非推奨) | テーブルとマトリックスのグリッドの枠線の色 <br> 図形マップの既定の色 <br> リボン グラフのリボンの塗りつぶしの色 (系列一致オプションがオフになっている場合) <br> 背景 != FFFFFF の場合: <br> ボタンの塗りつぶしの色は無効 <br> ボタンの枠線の色は無効 <br> |
+| **secondaryBackground** <br> **backgroundNeutral** (非推奨) | テーブルとマトリックスのグリッドの枠線の色 <br> 図形マップの既定の色 <br> リボン グラフのリボンの塗りつぶしの色 (系列一致オプションがオフになっている場合) <br> 背景 != FFFFFF の場合:  <br> ボタンの塗りつぶしの色は無効 <br> ボタンの枠線の色は無効 <br> |
 | **tableAccent** | テーブルとマトリックスのグリッドの枠線の色をオーバーライドする (存在する場合) |
 
 色クラスを設定するサンプル テーマを次に示します。

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
 ms.openlocfilehash: e2b1c90c6a4ee237af0d800dd7d1c6e1dc8dc3ba
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760907"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-use-in-the-mobile-app"></a>モバイル アプリで使用するために Power BI Desktop でバーコードにタグ付けする
@@ -21,7 +21,7 @@ Power BI Desktop で列の[データを分類](desktop-data-categorization.md)�
 
 1. Power BI Desktop でデータ ビューに切り替えます。
 2. バーコード データがある列を選択します。 後の「[サポートされるバーコード形式](#supported-barcode-formats)」の一覧を参照してください。
-3. **[モデリング]** タブで、 **[データ カテゴリ]**  > の **[バーコード]** を選択します。
+3. **[モデリング]** タブで、 **[データ カテゴリ]**  >  **[バーコード]** を選択します。
    
     ![データ カテゴリの一覧](media/desktop-mobile-barcodes/power-bi-desktop-barcode.png)
 4. レポート ビューで、バーコードによってフィルター処理する表示にこのフィールドを追加します。
@@ -43,9 +43,9 @@ Power BI レポートでタグを付けることができる場合、Power BI �
 * Interleaved2of5Code 
 * ITF14Code 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [iPhone の Power BI アプリからバーコードをスキャンする](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [iPhone でのバーコードのスキャンに関する問題](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Power BI Desktop でのデータ分類](desktop-data-categorization.md)  
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

@@ -10,10 +10,10 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 2c09f21565cdf9987aad2027a148823fb32e2e55
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76538988"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>例を提供して Web ページ データを取得する
@@ -28,7 +28,7 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 ## <a name="using-get-data-from-web-by-example"></a>[Get Data from Web by example]\(例を指定して Web からデータを取得する\) の使用
 
-**[ホーム]** リボン メニューで **[データを取得]** を選択します。 表示されるダイアログ ボックスで、左のペインのカテゴリから **[その他]** を選択し、**[Web]** を選択します。 **[接続]** を選択して続行します。
+**[ホーム]** リボン メニューで **[データを取得]** を選択します。 表示されるダイアログ ボックスで、左のペインのカテゴリから **[その他]** を選択し、 **[Web]** を選択します。 **[接続]** を選択して続行します。
 
 ![[データを取得] から [Web] を選択する](media/desktop-connect-to-web-by-example/web-by-example_03.png)
 
@@ -40,7 +40,7 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 ![Web ダイアログ](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
-**[OK]** を選択すると、**[ナビゲーター]** ダイアログ ボックスが表示され、Web ページから自動検出されたテーブルが表示されます。 次の図に示されているケースでは、テーブルが見つかりませんでした。 例を提供するには、**[例を使用してテーブルを追加]** を選択します。
+**[OK]** を選択すると、 **[ナビゲーター]** ダイアログ ボックスが表示され、Web ページから自動検出されたテーブルが表示されます。 次の図に示されているケースでは、テーブルが見つかりませんでした。 例を提供するには、 **[例を使用してテーブルを追加]** を選択します。
 
 ![[ナビゲーター] ウィンドウ](media/desktop-connect-to-web-by-example/web-by-example_05.png)
 
@@ -53,13 +53,13 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 > [!NOTE]
 > 値の候補に含まれるのは、長さが 128 文字以下の値のみです。
 
-Web ページから抽出されたデータに問題がなければ、**[OK]** を選択して Power Query エディターに移動します。 さらに変換を適用したり、このデータを他のデータと結合するといった、データの整形を行ったりすることができます。
+Web ページから抽出されたデータに問題がなければ、 **[OK]** を選択して Power Query エディターに移動します。 さらに変換を適用したり、このデータを他のデータと結合するといった、データの整形を行ったりすることができます。
 
 ![例を指定したデータ](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
 そこからは、ビジュアルを作成したり、Power BI Desktop レポートを作成するときに Web ページのデータを使用したりすることができます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 

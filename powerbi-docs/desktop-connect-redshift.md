@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c303bbd3fe229ea48dbad3da9d003851f7441956
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761636"
 ---
 # <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Power BI Desktop で Amazon Redshift データベースに接続する
@@ -24,7 +24,7 @@ ms.locfileid: "75761636"
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-表示された **[Amazon Redshift]** ウィンドウ内のボックスに、**Amazon Redshift** サーバーとデータベースの名前を入力するか、貼り付けます。 *[サーバー]* フィールドの一部として、ユーザーは次の形式でポートを指定できます:*ServerURL:Port*
+表示された **[Amazon Redshift]** ウィンドウ内のボックスに、**Amazon Redshift** サーバーとデータベースの名前を入力するか、貼り付けます。 *[サーバー]* フィールドの一部として、ユーザーは *ServerURL:Port* の形式でポートを指定できます。
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "75761636"
 * データの**読み込み**を選択した場合は、*インポート* モードまたは *DirectQuery* モードを使用してデータを読み込むように促されます。 詳細については、DirectQuery を説明している[こちらの記事](desktop-use-directquery.md)を参照してください。
 * データの**編集**を選択した場合は、**クエリ エディター**が表示され、あらゆる種類の変換およびフィルターをデータに適用することができます。その多くは、基となる **Amazon Redshift** データベース自体 (サポートされている場合) に適用されます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
 * [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)

@@ -10,10 +10,10 @@ ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761481"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>モバイル アプリ用に Power BI レポートを最適化する
@@ -105,7 +105,7 @@ ms.locfileid: "75761481"
 
 レポート閲覧者は、スマートフォンまたはタブレットを横向きにして、横長モードでページを表示できます。 詳しくは、[縦モード用に最適化された Power BI レポートとの対話](consumer/mobile/mobile-apps-view-phone-report.md)に関するページを参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [Power BI でダッシュボードの Phone ビューを作成する](service-create-dashboard-mobile-phone-view.md)。
 * [電話用に最適化された Power BI レポートを表示する](consumer/mobile/mobile-apps-view-phone-report.md)。
 * [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](visuals/desktop-create-responsive-visuals.md)。

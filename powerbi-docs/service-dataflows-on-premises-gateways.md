@@ -10,10 +10,10 @@ ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762579"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>オンプレミス データ ソースでのデータフローの使用
@@ -71,7 +71,7 @@ ms.locfileid: "75762579"
 * データフローは、エンタープライズ ゲートウェイを使用した場合にのみサポートされます。 個人用ゲートウェイは、ドロップダウン リストおよび設定画面で選択できません。
 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 この記事では、データフロー用にオンプレミス データ ソースを使用すること、およびそのようなデータにアクセスするためにゲートウェイを使用および構成する方法について説明しました。 次の記事も役に立ちます
 

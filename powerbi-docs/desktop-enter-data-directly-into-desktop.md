@@ -11,10 +11,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 3c6cd3feb15001cd170d48e306ee1f8a5ba8b2dc
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160954"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Power BI Desktop にデータを直接入力する
@@ -39,7 +39,7 @@ Power BI Desktop では、データを直接入力して、レポートや表示
 
 これで、Power BI Desktop でデータを使用する準備ができました。 ビジュアルやレポートを作成したり、Excel ブック、データベース、または他のデータ ソースなど、接続してインポートする必要がある他の任意のデータを操作したりできます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
