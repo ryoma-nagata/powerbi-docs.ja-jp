@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: ページ分割されたレポートに関する FAQ
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: デプロイ パイプライン
+          items:
+            - name: デプロイ パイプラインの概要
+              href: deployment-pipelines-overview.md
+            - name: デプロイ プロセスを理解する
+              href: deployment-pipelines-process.md
+            - name: ベスト プラクティス
+              href: deployment-pipelines-best-practices.md
     - name: 攻略ガイド
       items:
         - name: Power BI レポート
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: ドリル スルー ボタンを作成する
               href: ../desktop-drill-through-buttons.md
+            - name: ドリルスルー機能を使用する
+              href: ../desktop-drillthrough.md
+            - name: クロス レポートのドリルスルー機能を使用する
+              href: ../desktop-cross-report-drill-through.md
             - name: ブックマークを作成して分析情報を保存および共有する
               href: ../desktop-bookmarks.md
             - name: レポートのテーマを操作する
               href: ../desktop-report-themes.md
             - name: レポートでフィルターを操作する
               href: ../power-bi-report-filter.md
-            - name: ドリルスルー機能を使用する
-              href: ../desktop-drillthrough.md
-            - name: クロス レポートのドリルスルー機能を使用する
-              href: ../desktop-cross-report-drill-through.md
+            - name: レポートにフィルターを追加する
+              href: ../power-bi-report-add-filter.md
             - name: グループ化とビン分割を適用する
               href: ../desktop-grouping-and-binning.md
-            - name: R を使用して Power BI 視覚エフェクトを作成する
-              href: ../desktop-r-visuals.md
-            - name: R を利用した Power BI ビジュアルのダウンロードと使用
-              href: ../desktop-r-powered-custom-visuals.md
             - name: グリッド線と "グリッドにスナップ" を適用する
               href: ../desktop-gridlines-snap-to-grid.md
             - name: レポートにページ表示設定を適用する
@@ -153,6 +159,8 @@
               href: ../desktop-slicer-numeric-range.md
             - name: 相対日付スライサーとフィルター
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: 相対時間スライサーとフィルター
+              href: slicer-filter-relative-time.md
             - name: サイズを変更できるスライサーを作成する
               href: ../power-bi-slicer-filter-responsive.md
             - name: スライサーに複数のフィールドを追加する
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: データセットからレポートを作成する
               href: ../service-report-create-new.md
-            - name: レポートにフィルターを追加する
-              href: ../power-bi-report-add-filter.md
             - name: レポートの保存
               href: ../service-report-save.md
             - name: 編集ビューでレポートと対話する
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: レポートの QR コードを作成する
               href: ../service-create-qr-code-for-report.md
+            - name: コンシューマーがビジュアルをカスタマイズできるようにする (プレビュー)
+              href: power-bi-personalize-visuals.md
             - name: レポートを Power BI Desktop にエクスポートする (プレビュー)
               href: ../service-export-to-pbix.md
             - name: データセットとレポートを発行する
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: R ビジュアル
               href: ../visuals/service-r-visuals.md
+            - name: R を使用して Power BI 視覚エフェクトを作成する
+              href: ../desktop-r-visuals.md
+            - name: R を利用した Power BI ビジュアルのダウンロードと使用
+              href: ../desktop-r-powered-custom-visuals.md
             - name: 放射状ゲージ グラフ
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: リボン グラフ
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: ダッシュボード テーマ
               href: ../service-dashboard-themes.md
+        - name: デプロイ パイプライン
+          items:
+            - name: 作業の開始
+              href: deployment-pipelines-get-started.md
+            - name: トラブルシューティング
+              href: deployment-pipelines-troubleshooting.md
         - name: その他のタスク
           items:
             - name: コンテンツ名の変更
