@@ -3,32 +3,27 @@ title: Power BI での散布図、バブル チャート、およびドット �
 description: Power BI での散布図、ドット プロット グラフ、およびバブル チャート
 author: mihart
 ms.reviewer: amac
-featuredvideoid: PVcfPoVE3Ys
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/21/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80273319"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866911"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI での散布図、バブル チャート、およびドット プロット グラフ
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 散布図には、必ず 2 つの値軸があり、横軸に沿って数値データの 1 つのセットが表示され、縦軸に沿って数値データのもう 1 つのセットが表示されます。 このグラフには x と y の数値が交差する位置に点が表示され、この 2 つの値が 1 つのデータ ポイントに結合されます。 Power BI では、これらのデータ ポイントが横軸に沿って均等または不均等に分布されます。 これはグラフで表されるデータによって異なります。
-
-このビデオで散布図の作成方法を確認した後、以下の手順に従って自分で作成してみてください。
-   > [!NOTE]
-   > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 データ ポイント数を最大 10,000 まで設定することができます。  
 
@@ -87,6 +82,8 @@ ms.locfileid: "80273319"
 
 1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。    
 
 ## <a name="create-a-scatter-chart"></a>散布図を作成する
 
@@ -168,7 +165,7 @@ ms.locfileid: "80273319"
 
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>散布図グラフにデータ ポイントが 1 つだけ表示される
 
-散布図に、X 軸上と Y 軸上のすべての値を集計した 1 つのデータ ポイントのみが表示されていますか?   あるいは、1 本の横線または縦線に沿ってすべての値が集計されていますか?
+散布図に、X 軸上と Y 軸上のすべての値を集計した 1 つのデータ ポイントのみが表示されていますか?  あるいは、1 本の横線または縦線に沿ってすべての値が集計されていますか?
 
 ![散布図と 1 つのデータ ポイントのスクリーンショット。](media/power-bi-visualization-scatter/pbi-scatter-tshoot1.png)
 

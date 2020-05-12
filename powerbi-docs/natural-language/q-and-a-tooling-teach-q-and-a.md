@@ -1,19 +1,19 @@
 ---
 title: Power BI Q&A 内で質問と用語を理解できるように Q&A を学習させる
 description: Power BI Q&A を使用し、実際のデータを探索する方法
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
+ms.date: 04/21/2020
+ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e5b870201943b93bfdaec2881005785c2f3c470b
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874916"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865810"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Power BI Q&A 内で質問と用語を理解できるように Q&A を学習させる
 
@@ -26,7 +26,7 @@ ms.locfileid: "73874916"
 
 1. Power BI Desktop の **[モデリング]** リボンで、 **[Q&A の設定]**  >  **[Q&A の学習]** の順に選択します。
 
-    ![[Q&A の学習]、シノニム、赤](media/qna-tooling-teach-synonym-red.png)
+    ![[Q&A の学習]、シノニム、赤](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-synonym-red.png)
 
 2. Q&A が認識しない用語を含む文を入力し、 **[送信]** を選択します。
 
@@ -36,7 +36,7 @@ ms.locfileid: "73874916"
     
 3. **[Q&A で認識されない用語を定義します]** の下に、定義を指定します。
 
-    ![[Q&A の学習]、シノニム、プレビュー](media/qna-tooling-teach-fixpreview.png)
+    ![[Q&A の学習]、シノニム、プレビュー](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-fixpreview.png)
 
 4. **[保存]** を選択します。更新されたビジュアルのプレビューが表示されます。
 
@@ -61,7 +61,7 @@ Q&A は、Microsoft Office のナレッジを使用して、認識できない�
 
 実際のデータに含まれている用語をボックスに入力します。
 
-![[Q&A の学習]、シノニム、プロンプト](media/qna-tooling-synonym-prompt.png)
+![[Q&A の学習]、シノニム、プロンプト](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 データ モデルのフィールド以外のものを指定すると、望ましくない結果が生じる可能性があります。
 
@@ -73,17 +73,26 @@ Q&A は、Microsoft Office のナレッジを使用して、認識できない�
 
 条件をボックスに入力します。
 
-![[Q&A の学習]、シノニム、プロンプト](media/qna-tooling-adjectives.png)
+![[Q&A の学習]、シノニム、プロンプト](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 定義できる条件の例を次に示します。
 
-- "Country" which is "USA"
-- "Country" which is not "USA"
-- "Weight" > 2000
-- "Weight" = 2000
-- "Weight" < 2000
+- Country which is USA
+- Country which is not USA
+- Products > 100
+- Products greater than 100
+- Products = 100
+- Products is 100
+- Products < 100
+- Products smaller than 100
 
-ツール内で定義できる条件は1つだけです。 より複雑な条件を定義するには、DAX を使用して計算列を作成した後、ツール セクションを使用して、その計算列に対して 1 つの条件を作成します。 メジャーはサポートされていません。 代わりに計算列を使用してください。
+これらの例では、"Products" は列名またはメジャーのいずれかになります。 
+
+Q&A 式自体に集計を指定することもできます。 たとえば ‘popular products’ が 100 単位以上販売された製品である場合は、‘sum of units sold > 100’ の製品を人気製品として定義できます。  
+
+:::image type="content" source="media/q-and-a-tooling-teach-q-and-a/power-bi-qna-popular-products.png" alt-text="'popular products' を定義する":::
+
+ツール内で定義できる条件は1つだけです。 より複雑な条件を定義するには、DAX を使用して計算列またはメジャーを作成した後、ツール セクションを使用して、その列またはメジャーに対して 1 つの条件を作成します。
 
 ## <a name="manage-terms"></a>用語の管理
 
@@ -93,10 +102,8 @@ Q&A は、Microsoft Office のナレッジを使用して、認識できない�
 
 2. 不要になった用語をすべて削除します。 現在、用語を編集することはできません。 用語を再定義するには、用語を削除してから定義します。
 
-    ![Q&A の [用語の管理]](media/qna-manage-terms.png)
+    ![Q&A の [用語の管理]](media/q-and-a-tooling-teach-q-and-a/qna-manage-terms.png)
 
 ## <a name="next-steps"></a>次の手順
 
-自然言語エンジンを強化するためのベスト プラクティスがいくつかあります。 詳しくは、次の資料を参照してください。
-
-* [Q&A ベスト プラクティス](q-and-a-best-practices.md)
+自然言語エンジンを強化するためのベスト プラクティスがいくつかあります。 詳細については、「[Q&A ベスト プラクティス](q-and-a-best-practices.md)」を参照してください。

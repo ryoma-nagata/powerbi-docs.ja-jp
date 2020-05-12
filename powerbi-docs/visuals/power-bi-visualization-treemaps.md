@@ -3,21 +3,22 @@ title: Power BI のツリーマップ
 description: Power BI のツリーマップ
 author: mihart
 ms.reviewer: ''
-featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b70e9611b22f1df20d39cdbd338fd5b6bfe1b43d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880742"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866888"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI のツリーマップ
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -39,14 +40,6 @@ ms.locfileid: "73880742"
 
 各リーフ ノードのサイズと網掛けの比較によって、その他の衣料カテゴリ全体の売上品目数を比較することができます。つまり、四角形が大きく網掛けが濃いほど、値は大きいことになります。
 
-ツリーマップの作成例を見たい方は、 このビデオの 2:10 にスキップし、Amanda がツリーマップを作成するところをご覧ください。
-
-   > [!NOTE]
-   > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>ツリーマップを使用すべきケース
 
@@ -76,6 +69,10 @@ ms.locfileid: "73880742"
 
 1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。    
+
+
 
 **小売りの分析のサンプル** データセットを取得したら、作業を開始できます。
 
@@ -88,7 +85,7 @@ ms.locfileid: "73880742"
 
    ![選択されている [Sales]\(売上\) > [Last Tear Sales]\(前年度の売上\) と、結果のビジュアルのスクリーンショット。](media/power-bi-visualization-treemaps/treemapfirstvalue-new.png)
 
-1. ツリーマップ アイコン  ![ツリーマップ アイコンのスクリーンショット ](media/power-bi-visualization-treemaps/power-bi-treemap-icon.png) を選択して、グラフをツリーマップに変換します。
+1. ツリーマップ アイコン ![ツリーマップ アイコンのスクリーンショット](media/power-bi-visualization-treemaps/power-bi-treemap-icon.png) を選択して、グラフをツリーマップに変換します。
 
    ![構成されていないツリーマップのスクリーンショット。](media/power-bi-visualization-treemaps/treemapconvertto-new.png)
 

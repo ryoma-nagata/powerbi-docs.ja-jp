@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435768"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841735"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -45,7 +45,7 @@ Power BI モバイル アプリのレポートには、次の 2 つのアイコ�
 * ![電話レポート アイコン](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 電話に最適化されたページが少なくとも 1 つ含まれる、縦向きに表示されるレポートを示します。
 
 > [!NOTE]
-> 電話を横向きに持つと、レポート ページが電話レイアウトの場合でも、常に横レイアウトが表示されます。
+> 電話を横向きに持つと、レポート ページがモバイル レイアウトの場合でも、常に横レイアウトが表示されます。
 
 ダッシュボードからレポートを表示するには、タイルの右上にある**その他のオプション** (...) をタップして、 **[レポートを開く]** をタップします。
   

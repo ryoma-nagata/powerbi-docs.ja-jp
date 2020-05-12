@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5247b2c990c8c0cfd29da0e8a30cdc8691000106
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207254"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866819"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 
@@ -139,7 +139,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * HDInsight 対話型クエリ
 * Azure Data Explorer (Kusto)
 * Azure Cost Management
-* Azure Time Series Insights (ベータ)
+
 
 次の図は、 **[Azure]** の **[データの取得]** ウィンドウを示しています。
 
@@ -191,6 +191,9 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Quick Base
 * TeamDesk (Beta)
 * Workplace Analytics (ベータ)
+* Power BI 用 Projectplace (ベータ)
+* Webtrends Analytics (ベータ)
+* Zoho Creator (ベータ)
 
 次の図は、 **[オンライン サービス]** の **[データの取得]** ウィンドウを示しています。
 
@@ -213,6 +216,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (ベータ)
+* Cognite Data Fusion (ベータ)
 * FHIR
 * Information Grid (ベータ)
 * Jamf Pro (ベータ)
@@ -220,13 +224,15 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Paxata
 * QubolePresto (ベータ)
 * Roamler (ベータ)
-* Siteimprove (ベータ)
+* Siteimprove
 * SurveyMonkey (ベータ)
-* Tenforce (Smart)List (ベータ)
 * TIBCO(R) Data Virtualization (ベータ)
 * Vena (ベータ)
 * Workforce Dimensions (ベータ)
 * Zucchetti HR Infinity (ベータ)
+* Tenforce (Smart)List
+* Shortcuts Business Insights (ベータ)
+* Vessel Insight (ベータ)
 * 空のクエリ
 
 次の図は、 **[その他]** の **[データの取得]** ウィンドウを示しています。

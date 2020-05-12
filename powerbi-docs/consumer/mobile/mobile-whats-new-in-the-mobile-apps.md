@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802097"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841712"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -24,6 +24,14 @@ ms.locfileid: "80802097"
 
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>2020 年 4 月
+
+### <a name="sharing-from-workspaces-is-now-available"></a>ワークスペースからの共有が利用可能
+ワークスペースからレポートとダッシュボードを共有する機能が追加されました。 Power BI サービスの場合と同様に、"マイ ワークスペース" からのコンテンツや、ワークスペースの所有者が許可している場合は他のワークスペースからのコンテンツを共有できるようになりました。 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>ダッシュボードで全画面表示モードがサポートされるようになりました (iOS および Android)
+ダッシュボードを全画面表示モードで表示できるようになり、ダッシュボード コンテンツを表示するためのスペースが増えました。 
 
 ## <a name="march-2020"></a>2020 年 3 月
 
@@ -871,4 +879,4 @@ Power BI モバイル アプリの向上 -- Android、iOS (iPhone と iPad)、Wi
 * インフォーカス モードでのマップ タイルのレンダリングを改善することによる画面スペースの最大化。
 * ロールベースのセキュリティを使用してダッシュボードにアクセスする場合のユーザー エクスペリエンスの向上。 
 * 新機能によりダッシュボード タイル間を行き来することができ、ダッシュボードに戻って次のタイルを選択せずに、直接インフォーカス モードで探索できます。
-* その他の安定性とパフォーマンスの向上。 
+* その他の安定性とパフォーマンスの向上。

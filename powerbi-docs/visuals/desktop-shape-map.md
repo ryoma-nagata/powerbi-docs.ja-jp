@@ -7,22 +7,27 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5717d543d5c70bbbe7c25ed3e55778639d777170
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525662"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866543"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Power BI Desktop で図形マップのビジュアルを作成する (プレビュー)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 色を使用して、マップで領域を比較するために **[図形マップ]** ビジュアルを作成します。 **[マップ]** ビジュアルとは異なり、 **[図形マップ]** ではマップ上の地理的な場所を正確には表示できません。 代わりに、これの主な用途は、違う色を適用することにより、マップ上の領域を相対的に比較できます。
 
 **[図形マップ]** のビジュアルは TopoJSON マップをベースにしています。このマップの強みは、ユーザー作成のカスタム マップを使用できることです。 地理、座席配置、フロア プランなどがカスタム マップの例です。 カスタム マップを利用する機能は、このプレビュー リリースの**マップのシェイプ**では使用できません。
+
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。
 
 ## <a name="creating-shape-maps"></a>図形マップを作成する
 このプレビュー リリースに付属するマップで**マップのシェイプ** コントロールをテストできます。あるいは、次のセクション (**カスタム マップの使用**) にある要件を満たす限り、独自のカスタム マップを使用できます。
@@ -113,34 +118,34 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 このプレビュー リリースでは、次の**地域キー**を使用して、 **[マップのシェイプ]** をテストしてください。
 
-### <a name="australia-states"></a>オーストラリア: 州
+### <a name="australia-states"></a>オーストラリア:州
 
-| ID | 省略形 | ISO | 名前 | 郵便 |
+| ID | 省略形 | ISO | name | 郵便 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
 | au-tas |Tas |AU-TAS |Tasmania |TAS |
 | au-sa |SA |AU-SA |South Australia |SA |
-| au-qld |Qld |AU-QLD |クイーンズランド |QLD |
+| au-qld |Qld |AU-QLD |Queensland |QLD |
 | au-nt |NT |AU-NT |Northern Territory |NT |
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>オーストリア: 州
+### <a name="austria-states"></a>オーストリア:州
 
-| ID | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | ISO | name | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna (ウィーン) |WI |
-| at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
+| at-vo |AT-8 |Vorarlberg |Vorarlberg (フォアアールベルク) |VO |
 | at-tr |AT-7 |Tirol |Tyrol (チロル) |TR |
 | at-st |AT-6 |Steiermark |Styria (シュタイアーマルク) |ST |
-| at-sz |AT-5 |Salzburg |Salzburg |SZ |
+| at-sz |AT-5 |Salzburg |Salzburg (ザルツブルク) |SZ |
 | at-oo |AT-4 |Oberösterreich |Upper Austria (オーバーエスターライヒ) |OO |
-| at-no |AT-3 |Niederösterreich |Lower Austria (ニーダーエスターライヒ) |いいえ |
+| at-no |AT-3 |Niederösterreich |Lower Austria (ニーダーエスターライヒ) |NO |
 | at-ka |AT-2 |Kärnten |Carinthia (ケルンテン) |KA |
-| at-bu |AT-1 |Burgenland |Burgenland |BU |
+| at-bu |AT-1 |Burgenland |Burgenland (ブルゲンラント) |BU |
 
-### <a name="brazil-states"></a>ブラジル: 州
+### <a name="brazil-states"></a>ブラジル:州
 
 | ID |
 | --- |
@@ -148,7 +153,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Pernambuco |
 | Goias |
 | Sergipe |
-| サンパウロ |
+| Sao Paulo |
 | Santa Catarina |
 | Roraima |
 | Rondonia |
@@ -176,35 +181,35 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>カナダ: 州
+### <a name="canada-provinces"></a>カナダ:州
 
-| ID | ISO | 名前 | 郵便 |
+| ID | ISO | name | 郵便 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
 | ca-yt |CA-YT |Yukon |YT |
 | ca-sk |CA-SK |Saskatchewan |SK |
-| ca-qc |CA-QC |ケベック |QC |
+| ca-qc |CA-QC |Quebec |QC |
 | ca-pe |CA-PE |Prince Edward Island |PE |
-| ca-on |CA-ON |Ontario |オン |
+| ca-on |CA-ON |Ontario |ON |
 | ca-ns |CA-NS |Nova Scotia |NS |
 | ca-nl |CA-NL |Newfoundland and Labrador |NL |
 | ca-nb |CA-NB |New Brunswick |NB |
-| ca-mb |CA-MB |マニトバ |MB |
+| ca-mb |CA-MB |Manitoba |MB |
 | ca-bc |CA-BC |British Columbia |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>フランス: 地域圏
+### <a name="france-regions"></a>フランス:Regions
 
-| ID | 名前 | 名前 (英語) |
+| ID | name | 名前 (英語) |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
 | Bretagne |Bretagne |Brittany (ブルターニュ) |
-| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
+| Centre-Val de Loire (サントル=ヴァル ド ロワール) |Centre-Val de Loire |Centre-Val de Loire (サントル=ヴァル ド ロワール) |
 | Corse |Corse |Corse (コルシカ島) |
 | Grand Est |  |  |
-| グアドループ | |   |
+| Guadeloupe | |   |
 | Hauts-de-France |  |  |
 | Ile-de-France (イル ド フランス) |Île-de-France |Ile-de-France (イル ド フランス) |
 | La Reunion |  |  |
@@ -216,28 +221,28 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
 |  |  |  |
 
-### <a name="germany-states"></a>ドイツ: 州
+### <a name="germany-states"></a>ドイツ:州
 
-| ID | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | ISO | name | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
-| de-be |DE-BE |Berlin (ベルリン) |Berlin (ベルリン) |BE |
+| de-be |DE-BE |Berlin |Berlin (ベルリン) |BE |
 | de-th |DE-TH |Thüringen |Thuringia (チューリンゲン) |TH |
 | de-st |DE-ST |Sachsen-Anhalt |Saxony-Anhalt (ザクセン=アンハルト) |ST |
 | de-sn |DE-SN |Sachsen |Saxony (サクソニー) |SN |
-| de-mv |DE-MV |Mecklenburg-Vorpommern |Mecklenburg-Vorpommern |MV |
-| de-bb |DE-BB |Brandenburg |Brandenburg |BB |
-| de-sh |DE-SH |Schleswig-Holstein |Schleswig-Holstein |SH |
-| de-sl |DE-SL |Saarland |Saarland |SL |
+| de-mv |DE-MV |Mecklenburg-Vorpommern |Mecklenburg-Vorpommern (メクレンブルク=フォアポンメルン) |MV |
+| de-bb |DE-BB |Brandenburg |Brandenburg (ブランデンブルク) |BB |
+| de-sh |DE-SH |Schleswig-Holstein |Schleswig-Holstein (シュレスウィヒ=ホルシュタイン) |SH |
+| de-sl |DE-SL |Saarland |Saarland (ザールラント) |SL |
 | de-rp |DE-RP |Rheinland-Pfalz |Rhineland-Palatinate (ラインラント=プファルツ) |RP |
 | de-nw |DE-NW |Nordrhein-Westfalen |North Rhine-Westphalia (ノルトライン=ウェストファーレン) |NW |
 | de-ni |DE-NI |Niedersachsen |Lower Saxony (ニーダーザクセン) |NI |
 | de-he |DE-HE |Hessen |Hesse (ヘッセン) |HE |
-| de-hh |DE-HH |Hamburg |Hamburg |HH |
-| de-hb |DE-HB |Bremen (ブレーメン) |Bremen (ブレーメン) |HB |
-| de-by |DE-BY |Bayern |Bavaria (バイエルン) |別 |
+| de-hh |DE-HH |Hamburg |Hamburg (ハンブルク) |HH |
+| de-hb |DE-HB |Bremen |Bremen (ブレーメン) |HB |
+| de-by |DE-BY |Bayern |Bavaria (バイエルン) |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg (バーデン=ウュルテンベルク) |BW |
 
-### <a name="ireland-counties"></a>アイルランド: 州
+### <a name="ireland-counties"></a>アイルランド:郡
 
 | ID |
 | --- |
@@ -268,124 +273,124 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>イタリア: 州
+### <a name="italy-regions"></a>イタリア:Regions
 
-| ID | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | ISO | name | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- |
-| it-vn |IT-34 |Veneto (ベネト) |Veneto (ベネト) |VN |
+| it-vn |IT-34 |Veneto |Veneto (ベネト) |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley (ヴァッレ ダオスタ) |VD |
-| it-um |IT-55 |Umbria (ウンブリア) |Umbria (ウンブリア) |UM |
+| it-um |IT-55 |Umbria |Umbria (ウンブリア) |UM |
 | it-tt |IT-32 |Trentino-Alto Adige |Trentino-South Tyrol (トレンティーノ=アルト アディジェ) |TT |
 | it-tc |IT-52 |Toscana |Tuscany (トスカナ) |TC |
 | it-sc |IT-82 |Sicilia |Sicily (シチリア島) |SC |
 | it-sd |IT-88 |Sardegna |Sardinia (サルディニア) |SD |
-| it-pm |IT-21 |Piemonte |Piedmont (ピエモンテ) |午後 |
-| it-ml |IT-67 |Molise |Molise |ML |
-| it-mh |IT-57 |Marche (マルケ) |Marche (マルケ) |MH |
+| it-pm |IT-21 |Piemonte |Piedmont (ピエモンテ) |PM |
+| it-ml |IT-67 |Molise |Molise (モリーゼ) |ML |
+| it-mh |IT-57 |Marche |Marche (マルケ) |MH |
 | it-lm |IT-25 |Lombardia |Lombardy (ロンバルディア) |LM |
-| it-lg |IT-42 |Liguria |Liguria |LG |
-| it-lz |IT-62 |Lazio |Lazio |LZ |
-| it-fv |IT-36 |Friuli-Venezia Giulia |Friuli-Venezia Giulia |FV |
-| it-er |IT-45 |Emilia-Romagna |Emilia-Romagna |ER |
-| it-cm |IT-72 |Campania (カンパニア) |Campania (カンパニア) |CM |
-| it-lb |IT-78 |Calabria |Calabria |LB |
-| it-bc |IT-77 |Basilicata (バシリカータ) |Basilicata (バシリカータ) |BC |
+| it-lg |IT-42 |Liguria |Liguria (リグリア) |LG |
+| it-lz |IT-62 |Lazio |Lazio (ラツィオ) |LZ |
+| it-fv |IT-36 |Friuli-Venezia Giulia |Friuli-Venezia Giulia (フリウリ=ベネチア･ジュリア) |FV |
+| it-er |IT-45 |Emilia-Romagna |Emilia-Romagna (エミリア=ロマーニャ) |ER |
+| it-cm |IT-72 |Campania |Campania (カンパニア) |CM |
+| it-lb |IT-78 |Calabria |Calabria (カラブリア) |LB |
+| it-bc |IT-77 |Basilicata |Basilicata (バシリカータ) |BC |
 | it-pu |IT-75 |Apulia |Puglia (プーリア) |PU |
-| it-ab |IT-65 |Abruzzo |Abruzzo |AB |
+| it-ab |IT-65 |Abruzzo |Abruzzo (アブルッツィ) |AB |
 
-### <a name="mexico-states"></a>メキシコ: 州
+### <a name="mexico-states"></a>メキシコ:州
 
-| ID | 省略形 | ISO | 名前 | 名前 (英語) | 郵便 |
+| ID | 省略形 | ISO | name | 名前 (英語) | 郵便 |
 | --- | --- | --- | --- | --- | --- |
-| mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
+| mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas (サカテカス) |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan (ユカタン) |YU |
-| mx-ver |Ver. |MX-VER |Veracruz |Veracruz |VE |
-| mx-tla |Tlax. |MX-TLA |Tlaxcala (トラスカラ) |Tlaxcala (トラスカラ) |TL |
-| mx-tam |Tamps. |MX-TAM |Tamaulipas (タマウリパス) |Tamaulipas (タマウリパス) |TM |
-| mx-tab |Tab. |MX-TAB |Tabasco (タバスコ) |Tabasco (タバスコ) |TB |
-| mx-son |Son. |MX-SON |Sonora |Sonora |SO |
-| mx-sin |Sin. |MX-SIN |Sinaloa (シナロア) |Sinaloa (シナロア) |SI |
+| mx-ver |Ver. |MX-VER |Veracruz |Veracruz (ベラクルス) |VE |
+| mx-tla |Tlax. |MX-TLA |Tlaxcala |Tlaxcala (トラスカラ) |TL |
+| mx-tam |Tamps. |MX-TAM |Tamaulipas |Tamaulipas (タマウリパス) |TM |
+| mx-tab |Tab. |MX-TAB |Tabasco |Tabasco (タバスコ) |TB |
+| mx-son |Son. |MX-SON |Sonora |Sonora (ソノラ) |SO |
+| mx-sin |Sin. |MX-SIN |Sinaloa |Sinaloa (シナロア) |SI |
 | mx-slp |S.L.P. |MX-SLP |San Luis Potosí |San Luis Potosi (サン ルイス ポトシ) |SL |
-| mx-roo |Q.R. |MX-ROO |Quintana Roo |Quintana Roo |QR |
+| mx-roo |Q.R. |MX-ROO |Quintana Roo |Quintana Roo (キンタナロー) |QR |
 | mx-que |Qro. |MX-QUE |Querétaro |Queretaro (ケレタロ) |QE |
-| mx-pue |Pue. |MX-PUE |Puebla (プエブラ) |Puebla (プエブラ) |PU |
-| mx-oax |Oax. |MX-OAX |Oaxaca (オアハカ) |Oaxaca (オアハカ) |OA |
+| mx-pue |Pue. |MX-PUE |Puebla |Puebla (プエブラ) |PU |
+| mx-oax |Oax. |MX-OAX |Oaxaca |Oaxaca (オアハカ) |OA |
 | mx-nle |N.L. |MX-NLE |Nuevo León |Nuevo Leon (ヌエボレオン) |NL |
-| mx-nay |Nay. |MX-NAY |Nayarit (ナヤリト) |Nayarit (ナヤリト) |NA |
-| mx-mor |Mor. |MX-MOR |Morelos (モレロス) |Morelos (モレロス) |MR |
+| mx-nay |Nay. |MX-NAY |Nayarit |Nayarit (ナヤリト) |NA |
+| mx-mor |Mor. |MX-MOR |Morelos |Morelos (モレロス) |MR |
 | mx-mic |Mich. |MX-MIC |Michoacán |Michoacan (ミチョアカン) |MC |
 | mx-mex |Méx. |MX-MEX |Estado de México |Mexico State (メヒコ) |MX |
-| mx-jal |Jal. |MX-JAL |Jalisco (ハリスコ) |Jalisco (ハリスコ) |JA |
-| mx-hid |Hgo. |MX-HID |Hidalgo (イダルゴ) |Hidalgo (イダルゴ) |HI |
-| mx-gro |Gro. |MX-GRO |Guerrero |Guerrero |GR |
-| mx-gua |Gto. |MX-GUA |Guanajuato (グアナフアト) |Guanajuato (グアナフアト) |GT |
-| mx-dur |Dgo. |MX-DUR |Durango (ドゥランゴ) |Durango (ドゥランゴ) |DU |
+| mx-jal |Jal. |MX-JAL |Jalisco |Jalisco (ハリスコ) |JA |
+| mx-hid |Hgo. |MX-HID |Hidalgo |Hidalgo (イダルゴ) |HI |
+| mx-gro |Gro. |MX-GRO |Guerrero |Guerrero (ゲレロ) |GR |
+| mx-gua |Gto. |MX-GUA |Guanajuato |Guanajuato (グアナフアト) |GT |
+| mx-dur |Dgo. |MX-DUR |Durango |Durango (ドゥランゴ) |DU |
 | mx-dif |CDMX. |MX-DIF |Ciudad de México |Mexico City (メキシコシティー) |DF |
-| mx-col |Col. |MX-COL |Colima (コリマ) |Colima (コリマ) |CL |
-| mx-coa |Coah. |MX-COA |Coahuila (コアウイラ) |Coahuila (コアウイラ) |CA |
-| mx-chh |Chih. |MX-CHH |Chihuahua (チワワ) |Chihuahua (チワワ) |CH |
-| mx-chp |Chis. |MX-CHP |Chiapas (チャパス) |Chiapas (チャパス) |CP |
-| mx-cam |Camp. |MX-CAM |Campeche |Campeche |CM |
-| mx-bcs |B.C.S. |MX-BCS |Baja California Sur (バハ カリフォルニア スル) |Baja California Sur (バハ カリフォルニア スル) |BS |
-| mx-bcn |B.C. |MX-BCN |Baja California (バハ カリフォルニア) |Baja California (バハ カリフォルニア) |BN |
-| mx-agu |Ags. |MX-AGU |Aguascalientes (アグアスカリエンテス) |Aguascalientes (アグアスカリエンテス) |AG |
+| mx-col |Col. |MX-COL |Colima |Colima (コリマ) |CL |
+| mx-coa |Coah. |MX-COA |Coahuila |Coahuila (コアウイラ) |CA |
+| mx-chh |Chih. |MX-CHH |Chihuahua |Chihuahua (チワワ) |CH |
+| mx-chp |Chis. |MX-CHP |Chiapas |Chiapas (チャパス) |CP |
+| mx-cam |Camp. |MX-CAM |Campeche |Campeche (カンペチェ) |CM |
+| mx-bcs |B.C.S. |MX-BCS |Baja California Sur |Baja California Sur (バハ カリフォルニア スル) |BS |
+| mx-bcn |B.C. |MX-BCN |Baja California |Baja California (バハ カリフォルニア) |BN |
+| mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes (アグアスカリエンテス) |AG |
 
-### <a name="netherlands-provinces"></a>オランダ: 州
+### <a name="netherlands-provinces"></a>オランダ:州
 
-| ID | ISO | 名前 | 名前 (英語) |
+| ID | ISO | name | 名前 (英語) |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland (南ホラント) |
-| nl-ze |NL-ZE |Zeeland (ゼーラント) |Zeeland (ゼーラント) |
-| nl-ut |NL-UT |Utrecht (ユトレヒト) |Utrecht (ユトレヒト) |
-| nl-ov |NL-OV |Overijssel (オーバーアイセル) |Overijssel (オーバーアイセル) |
+| nl-ze |NL-ZE |Zeeland |Zeeland (ゼーラント) |
+| nl-ut |NL-UT |Utrecht |Utrecht (ユトレヒト) |
+| nl-ov |NL-OV |Overijssel |Overijssel (オーバーアイセル) |
 | nl-nh |NL-NH |Noord-Holland |North Holland (北ホラント) |
 | nl-nb |NL-NB |Noord-Brabant |North Brabant (北ブラバント) |
-| nl-li |NL-LI |Limburg (リンブルフ) |Limburg (リンブルフ) |
-| nl-gr |NL-GR |Groningen |Groningen |
-| nl-ge |NL-GE |Gelderland (ヘルデルラント) |Gelderland (ヘルデルラント) |
+| nl-li |NL-LI |Limburg |Limburg (リンブルフ) |
+| nl-gr |NL-GR |Groningen |Groningen (フローニンゲン) |
+| nl-ge |NL-GE |Gelderland |Gelderland (ヘルデルラント) |
 | nl-fr |NL-FR |Fryslân |Friesland (フリースラント) |
-| nl-fl |NL-FL |Flevoland (フレヴォラント) |Flevoland (フレヴォラント) |
-| nl-dr |NL-DR |Drenthe |Drenthe |
+| nl-fl |NL-FL |Flevoland |Flevoland (フレヴォラント) |
+| nl-dr |NL-DR |Drenthe |Drenthe (ドレンテ) |
 
-### <a name="uk-countries"></a>英国: 地方
+### <a name="uk-countries"></a>英国:国
 
-| ID | ISO | 名前 |
+| ID | ISO | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
 | gb-nir |GB-NIR |Northern Ireland |
 | gb-eng |GB-ENG |England |
 
-### <a name="usa-states"></a>米国: 州
+### <a name="usa-states"></a>米国:州
 
-| ID | 名前 | 郵便 |
+| ID | name | 郵便 |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
-| us-ak |アラスカ |AK |
+| us-ak |Alaska |AK |
 | us-hi |Hawaii |HI |
 | us-fl |Florida |FL |
-| us-la |ルイジアナ |LA |
-| us-ar |アーカンソー |AR |
+| us-la |Louisiana |LA |
+| us-ar |Arkansas |AR |
 | us-sc |South Carolina |SC |
-| us-ga |ジョージア |GA |
+| us-ga |Georgia |GA |
 | us-ms |Mississippi |MS |
 | us-al |Alabama |AL |
 | us-nm |New Mexico |NM |
 | us-tx |Texas |TX |
 | us-tn |Tennessee |TN |
-| us-nc |ノースカロライナ |NC |
-| us-ok |オクラホマ |OK |
-| us-az |アリゾナ |AZ |
+| us-nc |North Carolina |NC |
+| us-ok |Oklahoma |OK |
+| us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
-| us-va |バージニア州 |VA |
-| us-ks |カンサス |KS |
+| us-va |Virginia |VA |
+| us-ks |Kansas |KS |
 | us-ky |Kentucky |KY |
 | us-co |Colorado |CO |
-| us-md |メリーランド |MD |
+| us-md |Maryland |MD |
 | us-wv |West Virginia |WV |
-| us-de |デラウェア |DE |
+| us-de |Delaware |DE |
 | us-dc |District of Columbia |DC |
-| us-il |イリノイ州 |IL |
+| us-il |Illinois |IL |
 | us-oh |Ohio |OH |
 | us-ca |California |CA |
 | us-ut |Utah |UT |
@@ -394,25 +399,25 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-nj |New Jersey |NJ |
 | us-ri |Rhode Island |RI |
 | us-ct |Connecticut |CT |
-| us-pa |ペンシルベニア |PA |
+| us-pa |Pennsylvania |PA |
 | us-ny |New York |NY |
 | us-ne |Nebraska |NE |
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
-| us-nh |ニューハンプシャー |NH |
-| us-or |オレゴン |または |
+| us-nh |New Hampshire |NH |
+| us-or |Oregon |OR |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
-| us-id |アイダホ |ID |
-| us-wi |ウィスコンシン |WI |
+| us-id |Idaho |ID |
+| us-wi |Wisconsin |WI |
 | us-wy |Wyoming |WY |
 | us-sd |South Dakota |SD |
 | us-nd |North Dakota |ND |
 | us-me |Maine |ME |
-| us-mt |Montana |MT |
+| us-mt |モンタナ |MT |
 | us-wa |ワシントン |WA |
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [Power BI のマトリックス ビジュアル](desktop-matrix-visual.md)
 

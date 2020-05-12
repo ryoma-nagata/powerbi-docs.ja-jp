@@ -8,20 +8,25 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/29/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e97d2301a77bb3fe4a7a8f4e50f6da73a68842d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c296e202dccf814fcb9e1a4c6ee0620185723248
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77652544"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865692"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop で ArcGIS マップを作成する
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 このチュートリアルは、ArcGIS Maps for Power BI を作成するユーザーの視点で書かれています。 "*デザイナー*" が同僚と ArcGIS Maps for Power BI マップを共有すると、その同僚はマップを表示および操作できますが、変更を保存することはできません。 ArcGIS マップの表示方法の詳細については、「[ArcGIS Maps for Power BI の操作](power-bi-visualizations-arcgis.md)」を参照してください。
+
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。
 
 ArcGIS マップと Power BI を組み合わせると、マッピングをマップ上のポイントの表現を越える、まったく新しいレベルに引き上げることができます。 基本マップ、場所の種類、テーマ、記号のスタイル、および参照レイヤーから選択して、すばらしい有益なマップの視覚エフェクトを作成します。 空間分析を使用してマップ上で権限のあるデータのレイヤーを組み合わせることで、より深く理解できる視覚化されたデータを伝達します。
 
@@ -334,7 +339,7 @@ ArcGIS Maps for Power BI は Esri (https://www.esri.com) によって提供さ�
 
 Esri の ArcGIS Maps for Power BI の仕組みの技術的な詳細については、サポート サイトから Esri に問い合わせてください。
 
-**Esri にはどんなデータが送信されますか?** 
+**Esri にはどんなデータが送信されますか?**
 Esri に転送されるデータについては、Esri の[ドキュメント サイト](https://doc.arcgis.com/en/maps-for-powerbi/get-started/data-transfer.htm)を参照してください。
 
 **Power BI の ArcGIS マップを使用する場合、料金はかかりますか。**

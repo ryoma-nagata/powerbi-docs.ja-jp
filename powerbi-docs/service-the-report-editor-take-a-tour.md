@@ -11,10 +11,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871359"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI でのレポート エディターのツアー
@@ -62,9 +62,9 @@ Power BI のレポート エディターは、次のいくつかのメイン セ
 
 ![視覚化のフィールド](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png) **フィールド**では、ビジュアルのフィールドが表示されます。 詳細をすべて表示するには、下にスクロールする必要がある場合があります。 このグラフでは、StoreNumberName と "今年の売上" を使用しています。
 
-![ペイント ローラー アイコン](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png) **書式** 選択した視覚化の書式ウィンドウを表示するには、ペイント ローラーのアイコンを選択します。
+![ペイント ローラー アイコン](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png) **書式** 選択した視覚化の書式ペインを表示するには、ペイント ローラーのアイコンを選択します。
 
-![拡大鏡アイコン](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) **分析** 分析ウィンドウを表示するには、拡大鏡アイコンを選択します。
+![拡大鏡アイコン](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) **分析** 分析ペインを表示するには、拡大鏡アイコンを選択します。
 
 **フィールド ウィンドウ**には、データ モデルで利用できるすべてのテーブルが一覧表示されます。 テーブルを展開すると、そのテーブル内のフィールドが表示されます。 黄色のチェック マークは、そのテーブルの少なくとも 1 つのフィールドが視覚化にあることを示します。
 

@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841919"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866854"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI の Q&A を最適化するためのベスト プラクティス
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 さらに効果的な方法は、データから回答を得ることです。これが、Power BI の Q&A の機能です。
@@ -195,8 +195,10 @@ Power BI は、既定で積極的に数値列を集計するため、"年ごと�
 
 この手順は重要である場合があります。 テーブル名や列名が単純であっても、Q&A のユーザーは、最初に思いついたボキャブラリを使用して質問をします。 ユーザーは、定義済みの列の一覧から選択することはありません。 より実際的なシノニムを追加するほど、レポートでのユーザーのエクスペリエンスが向上します。 シノニムを追加するには、Power BI Desktop で [モデル] ビューに移動して、[モデリング] タブを選択し、フィールドまたはテーブルを選択します。 [プロパティ] ペインに **[シノニム]** ボックスが表示されます。このボックスでシノニムを追加できます。
 
-
-
-![Q&A の [プロパティ] ペインの [シノニム] ボックス](media/qna-modelling-pane-synonyms.png)
+![Q&A の [プロパティ] ペインの [シノニム] ボックス](media/q-and-a-best-practices/qna-modelling-pane-synonyms.png)
 
  シノニムを追加する場合は注意が必要です。 同じシノニムを複数の列またはテーブルに追加すると、あいまいさが生じます。 Q&A は、あいまいなシノニムの中から選択できる場合はコンテキストを使用しますが、すべての質問に十分なコンテキストがあるとは限りません。 たとえば、ユーザーが "count the customers" (顧客をカウントする) と質問した場合、モデル内に "customer" (顧客) のシノニムが 3 つある場合、ユーザーが探している回答を取得できない可能性があります。 このような場合、プライマリ シノニムが一意になっていることを確認します。それがテキスト表示で使用されます。 これにより、ユーザーにあいまいさを警告して、別の言い方 (たとえば、"アーカイブされた顧客レコードの数を表示する" といった言い換え) で質問できる可能性を示唆することができます。
+
+## <a name="next-steps"></a>次の手順
+
+[Power BI Q&A の概要](q-and-a-intro.md)

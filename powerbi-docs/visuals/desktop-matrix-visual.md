@@ -1,5 +1,5 @@
 ---
-title: Power BI でのマトリックス ビジュアルの使用
+title: Power BI でのマトリックス ビジュアルの作成
 description: Power BI でマトリックス ビジュアルを使用して、ステップのレイアウトと詳細の強調表示を有効にする方法について説明します。
 author: mihart
 ms.reviewer: ''
@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637845"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866589"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI でマトリックスの視覚エフェクトを作成する
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,6 +30,8 @@ ms.locfileid: "81637845"
 
 マトリックスに関連付けられている機能は多数あります。この記事の以下のセクションでそれらの機能について説明します。
 
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Power BI の合計計算方法を理解する
 

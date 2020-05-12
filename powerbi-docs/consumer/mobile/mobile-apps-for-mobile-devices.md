@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 3eb8aafca2257bff12d3b248d4f3c1d43708e563
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 8e24258d7431996bcdcc1c049daa2a6cbd4f60b5
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435401"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841758"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI モバイル アプリとは
 Power BI では、iOS、Android、および Windows 10 モバイル デバイス用のモバイル アプリを提供しています。 モバイル アプリを使用して、クラウドとオンプレミスのデータに接続して操作します。 
@@ -31,7 +31,7 @@ Power BI Desktop でレポートを作成します。 Power BI レポート サ�
 
 | **デバイス** | **特長** |
 | --- | --- |
-| [![iPhone](./media/mobile-apps-for-mobile-devices/iphone-logo-50-px.png)](mobile-iphone-app-get-started.md) |**iPhones** はどこにでも携帯できます。[iPhone 用 Power BI モバイル アプリ](mobile-iphone-app-get-started.md)も同じです。 Power BI [レポートを特別な電話レイアウト ビューで](mobile-apps-view-phone-report.md)表示するだけでなく、[Apple Watch に Power BI を追加](mobile-apple-watch.md)したり、[Q&A 仮想アナリストで質問](mobile-apps-ios-qna.md)したりできます。 <br/>iOS 用 Power BI モバイル アプリの使用を開始するには、[こちら](mobile-iphone-app-get-started.md)を参照してください。 |
+| [![iPhone](./media/mobile-apps-for-mobile-devices/iphone-logo-50-px.png)](mobile-iphone-app-get-started.md) |**iPhones** はどこにでも携帯できます。[iPhone 用 Power BI モバイル アプリ](mobile-iphone-app-get-started.md)も同じです。 Power BI [レポートを特別なモバイル レイアウト ビューで](mobile-apps-view-phone-report.md)表示するだけでなく、[Apple Watch に Power BI を追加](mobile-apple-watch.md)したり、[Q&A 仮想アナリストで質問](mobile-apps-ios-qna.md)したりできます。 <br/>iOS 用 Power BI モバイル アプリの使用を開始するには、[こちら](mobile-iphone-app-get-started.md)を参照してください。 |
 | [![iPad](./media/mobile-apps-for-mobile-devices/ipad-logo-50-px.png)](mobile-iphone-app-get-started.md) |**iPad** 上で、Power BI モバイル アプリは、Power BI サービス用に設定された形式でダッシュボードとレポートを表示します。 また、iPad で直接 [Power BI Report Server と Reporting Services の KPI とレポート](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)を表示することもできます。 ユーザーが設定した制限を超えてダッシュボードのデータが変化したときにユーザーに通知するように、[Power BI モバイル アプリでデータのアラートを設定](mobile-set-data-alerts-in-the-mobile-apps.md)できます。 <br/>iOS 用 Power BI モバイル アプリの使用を開始するには、[こちら](mobile-iphone-app-get-started.md)を参照してください。 |
 | [![Android フォン](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |**Android フォン**用の Power BI モバイル アプリにより、タッチ対応のモバイルから最新のビジネス情報に、簡単にアクセスできるようになります。 [地域別にレポートをフィルター処理](mobile-apps-geographic-filtering.md)することができます。 [Android フォンで QR コードをスキャン](mobile-apps-qr-code.md)し、Power BI ダッシュボードまたはレポートに直接移動できます。 <br/>Android 用 Power BI モバイル アプリの使用を開始するには、[こちら](mobile-android-app-get-started.md)を参照してください。 |
 | [![Android タブレット](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |さまざまな **Android タブレット**上で動作するモバイル アプリを導入すると、タッチ対応のモバイルから最新のビジネス情報にアクセスできるようになります。 Android タブレット上で、Power BI モバイル アプリは、Power BI サービス用に設定された形式でダッシュボードとレポートを表示します。 [お気に入りのダッシュボードとレポートにマークを付ける](mobile-apps-favorites.md)ことにより、それらや、お気に入りの Power BI レポート サーバーと Reporting Services の KPI とレポートに迅速にアクセスできるようになります。 <br/>Android 用 Power BI モバイル アプリの使用を開始するには、[こちら](mobile-android-app-get-started.md)を参照してください。 |

@@ -10,10 +10,10 @@ ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881118"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Q&A のおすすめの質問を作成する
@@ -31,7 +31,7 @@ ms.locfileid: "73881118"
 1. ダッシュボードで Q&A 質問ボックスを選びます。   Q&A には、データセットに出現する用語の一覧が表示されるので、既定のままでも便利です。
 2. この一覧に追加するには、Power BI の右上にある歯車アイコンを選択します。  
    ![歯車アイコン](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
-3. **[設定]** &gt; **[データセット]** &gt; **[小売りの分析のサンプル]** &gt; **[おすすめの Q&A 質問]** を選びます。  
+3. **[設定]** &gt; **[データセット]** &gt; **[小売の分析サンプル]** &gt; **[おすすめの Q&amp;A の質問]** の順に選択します。  
 4. **[質問の追加]** を選択します。
    
    ![[設定] メニュー](media/service-q-and-a-create-featured-questions/power-bi-settings.png)

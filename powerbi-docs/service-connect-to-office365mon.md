@@ -10,10 +10,10 @@ ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/26/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74548588"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI で Office365Mon に接続する
@@ -31,10 +31,10 @@ Power BI 用 [Office365Mon テンプレート アプリ](https://msit.powerbi.co
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
    ![](media/service-connect-to-office365mon/pbi_getservices.png) 
-3. **[Office365Mon]** \> **[接続]** を選択します。
+3. **[Office365Mon]** \> **[取得]** を選択します。
    
    ![](media/service-connect-to-office365mon/o365mon.png)
-4. [認証方法] として **[oAuth2]** を選択し、 **[サイン イン]** をクリックします。
+4. 認証方式として、 **[oAuth2]** \> **[サインイン]** を選択します。
    
    プロンプトが表示されたら、Office365Mon の管理者資格情報を入力し、認証プロセスに従います。
    

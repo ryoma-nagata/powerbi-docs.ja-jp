@@ -3,21 +3,23 @@ title: Power BI の放射状ゲージ グラフ
 description: Power BI の放射状ゲージ グラフ
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6Epqa
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880904"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866934"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI の放射状ゲージ グラフ
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -27,12 +29,8 @@ ms.locfileid: "73880904"
 
 この例は、自動車販売店を想定したもので、営業部門の月平均売上の推移を追跡記録しています。 指針には、140 台の売上目標が示されています。 考えられる最小の平均売上は 0 であり、最大売上は 200 です。  青色の網掛けは、現時点でチームの今月の平均売上が約 120 に達していることを示しています。 幸いなことに、目標に到達するまでに、まだ 1 週間の猶予があります。
 
-Will が単一のメトリック ビジュアル (ゲージ、カード、KPI) を作成するのをご覧ください。
-   > [!NOTE]
-   > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。
 
 ## <a name="when-to-use-a-radial-gauge"></a>放射状ゲージを使用すべきケース
 

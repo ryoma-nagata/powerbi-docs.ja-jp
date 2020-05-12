@@ -6,19 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1fee95bbfb790a1c61d82131579c8fb43980ca05
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206955"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866727"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Power BI Desktop でデータ ビューを使用する
 
 "*データ ビュー*" は、*Power BI Desktop* モデル内のデータを検査、調査、理解するのに役立ちます。 "*Power Query エディター*" でテーブル、列、データを表示する方法とは異なります。 データ ビューには、モデルに読み込まれた "*後の*" データが表示されます。
+
+> [!NOTE]
+> データ ビューでは、データがモデルに読み込まれた後にデータが表示されるため、すべてのデータソースが DirectQuery に基づいている場合、[データ ビュー] アイコンは表示されません。 
 
 データをモデル化しているときに、レポート キャンバスにビジュアルを作成することなく、実際のテーブルまたは列の内容を確認したい場合があります。 行レベルまで確認することができます。 この機能は、メジャーと計算列を作成している場合や、データ型またはデータのカテゴリを識別する必要がある場合に特に便利です。
 
@@ -48,3 +51,14 @@ ms.locfileid: "79206955"
 
 > [!NOTE]
 > 現在のユーザー インターフェイスとは異なるカルチャで Power BI モデルが作成されている場合、テキスト フィールド以外のあらゆるものに関して、データ ビュー ユーザー インターフェイスの検索ボックスが表示されません。 たとえば、これは米国英語で作成されたモデルをスペイン語で表示する場合に適用されます。
+
+
+## <a name="next-steps"></a>次の手順
+
+Power BI Desktop では、あらゆる種類の操作を実行できます。 そのような機能について詳しくは、次のリソースをご覧ください。
+
+* [Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
+* [Power BI Desktop でのクエリの概要](desktop-query-overview.md)
+* [Power BI Desktop でのデータ型](desktop-data-types.md)
+* [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
+* [Power BI Desktop での一般的なクエリ タスク](desktop-common-query-tasks.md)

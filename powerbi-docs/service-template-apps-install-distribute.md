@@ -4,16 +4,16 @@ description: Power BI を利用し、組織内でテンプレート アプリを
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436113"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781688"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>組織でテンプレート アプリをインストールして配布する
 
@@ -65,9 +65,9 @@ ms.locfileid: "79436113"
 
 1. **[接続]** をクリックします。
     
-    これにより表示される 1 つまたは複数のダイアログで、データ ソースをサンプル データから独自のデータ ソースに変更します。 これは一般に、データセット パラメーターとデータ ソースの資格情報の再定義を意味します。 「[既知の制限事項](service-template-apps-tips.md#known-limitations)」を参照してください。
+    これにより表示される 1 つまたは複数のダイアログで、データ ソースをサンプル データから独自のデータ ソースに変更します。 これは一般に、データセット パラメーターとデータ ソースの資格情報の再定義を意味します。 「[既知の制限事項](service-template-apps-overview.md#known-limitations)」を参照してください。
     
-    次の例では、2 のダイアログを使用してデータに接続します。
+    次の例では、2 つのダイアログを使用してデータに接続します。
 
    ![データへの接続ダイアログ](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
@@ -95,14 +95,18 @@ ms.locfileid: "79436113"
 
 テンプレート アプリの作成者が、AppSource か直接リンクまたはその両方を使用して、テンプレート アプリの新しい改良バージョンをリリースすることがあります。
 
-最初に AppSource からアプリをダウンロードした場合、新しいバージョンのテンプレート アプリが利用可能になると、新しいバージョンのアプリが使用可能であることを知らせる更新バナーが Power BI サービスに表示されます。
+アプリを最初に AppSource からダウンロードした場合、テンプレート アプリの新しいバージョンが利用可能になると、ユーザーは次の 2 つの方法で通知を受け取ります。
+* 新しいアプリ バージョンが使用可能であることを通知する更新プログラムのバナーが Power BI サービスに表示されます。
+  ![テンプレート アプリの更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* Power BI の通知ペインに通知を受け取ります。
 
-  ![テンプレート アプリの更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![テンプレート アプリの更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >最初に AppSource ではなく直接リンクを使用してアプリを入手した場合、新しいバージョンが利用可能になったことを知る唯一の方法は、テンプレート アプリの作成者に問い合わせることです。
 
-  更新をインストールするには、通知バナーの **[今すぐ入手]** をクリックするか、AppSource でもう一度アプリを探して **[今すぐ入手する]** を選択します。 テンプレート アプリの作成者から更新への直接リンクを受け取った場合は、単にリンクをクリックします。
+  更新をインストールするには、通知バナーまたは通知センターの **[今すぐ入手]** をクリックするか、AppSource でもう一度アプリを探して **[今すぐ入手する]** を選択します。 テンプレート アプリの作成者から更新への直接リンクを受け取った場合は、単にリンクをクリックします。
   
   現在のバージョンを上書きするか、新しいワークスペースに新しいバージョンをインストールするかを確認するメッセージが表示されます。 既定では、"上書き" が選択されています。
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710095"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866336"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop でのリレーションシップの作成と管理
 複数のテーブルをインポートするとき、それらのすべてのテーブルからデータを使用して分析を実行する可能性が高くなります。 結果を正確に計算し、レポートに正しい情報を表示するためには、これらのテーブル間のリレーションシップが必要です。 Power BI Desktop を使用すると、これらのリレーションシップを簡単に作成できます。 実際、ほとんどの場合、自動検出機能が実行してくれるため、何もすることはありません。 ただし、場合によっては、自分でリレーションシップを作成したり、リレーションシップを変更したりすることが必要な場合があります。 いずれの場合も、Power BI Desktop におけるリレーションシップおよびその作成方法と編集方法を理解することが重要です。
@@ -271,7 +271,7 @@ Power BI によってこのような設定が行われる理由は、Power BI De
 
  ![クロス フィルターの方向](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-フィルターの指定では、**CompanyProject** から **CompanyEmployee** へは流れますが (次の図に示すように)、**CompanyEmployee** に向かっては流れません。 
+フィルターの指定では、**CompanyProject** から **ProjectHours** へは流れますが (次の図に示すように)、**CompanyEmployee** に向かっては流れません。 
 
  ![クロス フィルターの例](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 

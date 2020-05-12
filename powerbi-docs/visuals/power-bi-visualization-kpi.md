@@ -3,32 +3,28 @@ title: 主要業績評価指標 (KPI) ビジュアル
 description: Power BI で主要業績評価指標 (KPI) ビジュアルを作成します
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6EpqaO0
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76974989"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865176"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>主要業績評価指標 (KPI) ビジュアルを作成する
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 KPI の詳細については、「[PowerPivot の主要業績評価指標 (KPI)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))」を参照してください。
 
-Will が単一のメトリック ビジュアル (ゲージ、カード、KPI) を作成するのをご覧ください。
-   > [!NOTE]
-   > このビデオでは、古いバージョンの Power BI Desktop を使用しています。
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>KPI を使用する場合
 
@@ -55,6 +51,9 @@ KPI データセットには KPI の目標値が含まれている必要があ�
 1. **小売りの分析のサンプルの .PBIX ファイル**をレポート ビューで開きます。 ![レポート ビューのアイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. 新しいページを追加するには **+** を選択します。 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。    
 
 ## <a name="how-to-create-a-kpi"></a>KPI を作成する方法
 
@@ -97,9 +96,9 @@ KPI は Power BI サービスとモバイル デバイスでも使用できま�
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 
-KPI が上記のようにならない場合、**FiscalMonth** で並べ替えられていない可能性があります。 KPI には並べ替えオプションはありません。 お使いのビジュアルを KPI に変換する**前**に、最初から *FiscalMonth* で並べ替える必要があります。
+KPI が上記のようにならない場合、**FiscalMonth** で並べ替えられていない可能性があります。 KPI には並べ替えオプションはありません。 お使いのビジュアルを KPI に変換する*前*に、最初から **FiscalMonth** で並べ替える必要があります。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [Power BI マップの視覚エフェクトに関するヒントとテクニック](power-bi-map-tips-and-tricks.md)
 

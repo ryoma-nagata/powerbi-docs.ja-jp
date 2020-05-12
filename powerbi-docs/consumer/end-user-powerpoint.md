@@ -3,18 +3,19 @@ title: Power BI から PowerPoint にレポートをエクスポートする
 description: Power BI レポートを PowerPoint にエクスポートする方法について説明します。
 author: mihart
 ms.reviewer: ''
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/21/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 4a93bbc0d5d8014e11fb59129b22b5493def0ac2
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377169"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841116"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Power BI から PowerPoint にレポートをエクスポートする
 
@@ -22,7 +23,9 @@ ms.locfileid: "79377169"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI では、レポートを Microsoft PowerPoint に発行して、Power BI レポートに基づくスライド デッキを簡単に作成できます。 PowerPoint にエクスポートすると、次のようになります。
+![Power BI ロゴと PowerPoint ロゴを示すアート](media/end-user-powerpoint/logos.png)
+
+Power BI サービス (app.powerbi.com) では、レポートを Microsoft PowerPoint に発行して、Power BI レポートに基づくスライド デッキを簡単に作成できます。 PowerPoint にエクスポートすると、次のようになります。
 
 * Power BI レポートの各ページは、PowerPoint の個々のスライドになります。
 * Power BI レポートの各ページは、単一の高解像度のイメージとして PowerPoint にエクスポートされます。
@@ -30,6 +33,10 @@ Power BI では、レポートを Microsoft PowerPoint に発行して、Power B
 * PowerPoint に、Power BI レポートへのリンクが作成されます。
 
 **Power BI レポート**は、**PowerPoint** に短時間でエクスポートできます。 次のセクションで説明する手順に従います。
+
+また、特定のビジュアルを Power BI サービスからコピーして、PowerPoint に貼り付けることもできます。 **[イメージとしてコピー]** アイコンを選択して、ビジュアルをクリップボードにコピーします。 次に、PowerPoint を開き、ビジュアルを貼り付けます。
+
+![[イメージとしてコピー] アイコンを選択する](media/end-user-powerpoint/power-bi-copy.png)
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Power BI レポートを PowerPoint にエクスポートする
 **Power BI サービス**で、キャンバスに表示するレポートを選択します。 レポートは、 **[ホーム]** 、 **[アプリ]** 、またはナビゲーション ウィンドウの他の任意のコンテナーから選択することもできます。
@@ -77,12 +84,13 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 "**PowerPoint へのエクスポート**" 機能を使用する場合は、留意すべき注意事項と制限事項がいくつかあります。
 
-* 現在、R と Python ビジュアルはサポートされていません。 このようなビジュアルは空の画像として PowerPoint にエクスポートされ、サポートされていないビジュアルであるというエラー メッセージが表示されます。
+
+* レポートを PowerPoint にエクスポートする処理が完了するまで数分かかる場合がありますので、しばらくお待ちください。 必要な時間に影響する要因としては、レポートの構造や、Power BI サービスの現在の負荷などがあります。
 * 認定を受けた Power BI ビジュアルはサポートされます。 カスタム ビジュアルの認定を受ける方法など、認定を受けたカスタム ビジュアルの詳細については、[カスタム ビジュアルの認定](../developer/power-bi-custom-visuals-certified.md)に関する記事を参照してください。 認定を受けていないカスタム ビジュアルはサポートされません。 これらは空の画像として PowerPoint にエクスポートされ、サポートされていないビジュアルであるというエラー メッセージが表示されます。
-* ESRI ビジュアルはサポートされていません
+* 現在、エクスポートに **[現在の値]** を選択した場合、URL フィルターは適用されません。
+* [ESRI ArcGIS ビジュアル](../visuals/power-bi-visualizations-arcgis.md)はサポートされていません
 * 現在、レポート ページが 30 ページを超えるレポートはエクスポートできません。
 * スクロール バーがあるビジュアルは、既定の状態でエクスポートされます。 PowerPoint では、ビジュアルはデータの上部のみが表示されます。 PowerPoint の各スライドは画像であるため、スクロールはできません。 
-* レポートを PowerPoint にエクスポートする処理が完了するまで数分かかる場合がありますので、しばらくお待ちください。 必要な時間に影響する要因としては、レポートの構造や、Power BI サービスの現在の負荷などがあります。
 * Power BI サービスで **[PowerPoint へのエクスポート]** メニュー項目を使用できない場合は、テナント管理者が機能を無効にしている可能性があります。 詳細については、テナント管理者に問い合わせてください。
 * 背景画像はグラフの境界領域でトリミングされます。 PowerPoint にエクスポートする前に背景画像を削除することをお勧めします。
 * PowerPoint のページは、Power BI レポートの元のページのサイズまたは寸法に関係なく、常に標準の 9:16 サイズで作成されます。
@@ -93,7 +101,10 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 * Power BI サービスでは、Power BI の言語設定を PowerPoint のエクスポート用の言語として使用します。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](media/end-user-powerpoint/power-bi-settings-icon.png) >  **[設定]**  >  **[全般]**  >  **[言語]** の順に選択します。
 * エクスポートした PowerPoint ファイルの、表紙スライドの **[Downloaded at]\(ダウンロードした時刻\)** は、お使いのコンピューターのタイム ゾーンにおけるエクスポート時の時刻に設定されます。
 * PPTX にエクスポートする場合、カスタム フォントのテーマを使用したレポートでは、カスタム フォントが既定のフォントに置き換えられます。
-* 現在、エクスポートに **[現在の値]** を選択した場合、URL フィルターは適用されません。
+* R と Python を使用して作成されたビジュアルは、現在サポートされていません。 このようなビジュアルは空の画像として PowerPoint にエクスポートされ、サポートされていないビジュアルであるというエラー メッセージが表示されます。
+
+
 
 ## <a name="next-steps"></a>次の手順
+[ビジュアルを静的イメージとしてコピー](../power-bi-visualization-copy-paste.md)    
 [レポートの印刷](end-user-print.md)

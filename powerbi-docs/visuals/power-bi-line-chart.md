@@ -2,27 +2,35 @@
 title: Power BI の折れ線グラフ
 description: Power BI の折れ線グラフ
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871078"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867026"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI の折れ線グラフ
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 折れ線グラフでは、ドットで表された一連のデータ ポイントが直線で接続されています。 折れ線グラフには 1 つまたは複数の線を含めることができ、 X と Y 軸があります。 
 
 ![シンプルな折れ線グラフ](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>折れ線グラフを作成する
 以下の手順では、売上およびマーケティングのサンプル アプリを使って、今年の売上をカテゴリ別に表示する折れ線グラフを作成します。 作業を進めるために、appsource.com からサンプル アプリを取得します。
+
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。
 
 1. 空のレポート ページで開始します。 Power BI サービスを使っている場合は、[編集ビュー](../service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
 

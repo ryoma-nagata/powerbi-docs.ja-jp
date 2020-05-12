@@ -10,10 +10,10 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 8c58c85ea46f9884586e1ff73f1ef9f7b1db9cdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860568"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Power BI で表示する Excel ブックのサイズを減らす
@@ -47,10 +47,10 @@ ms.locfileid: "73860568"
 
 データを Excel にインポートするときには、次の手順に従います。
 
-* **Power Query で**:**[ワークシートへの読み込み]** ボックスをオフにします。
+* **Power Query で**: **[ワークシートへの読み込み]** ボックスをオフにします。
   
   データはデータ モデルにのみインポートされ、Excel ワークシートにデータは入りません。
-* **[Excel データ] タブから**、以前にインポート ウィザードで **[テーブル]** をオンにした場合:**[既存の接続]** に移動し、接続をクリックして、**[接続の作成のみ]** をクリックします。 元のテーブルまたは最初のインポート中に作成されたテーブルを削除します。
+* **[Excel データ] タブから**、以前にインポート ウィザードで **[テーブル]** をオンにした場合: **[既存の接続]** に移動し、\>接続をクリックして、\> **[接続の作成のみ]** をクリックします。 元のテーブルまたは最初のインポート中に作成されたテーブルを削除します。
 * **[Excel データ] タブから**、 **[Import Data]** (データのインポート) ボックスの **[Table]** (テーブル) をチェックしないでください。
 
 ## <a name="workbook-size-optimizer"></a>ブック サイズ オプティマイザー

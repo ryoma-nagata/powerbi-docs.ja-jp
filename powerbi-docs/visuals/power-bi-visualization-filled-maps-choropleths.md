@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436067"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865462"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI で塗り分け地図 (コロプレス地図) を作成して使用する
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -55,15 +57,8 @@ Bing に送信されているデータの詳細、およびジオコーディン
 
 1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
-
-## <a name="create-a-basic-filled-map"></a>基本的な塗り分け地図を作成する
-このビデオでは、基本的な地図マップを作成し、塗り分け地図に変換する様子をご覧いただけます。
-   > [!NOTE]
-   > このビデオでは、以前のバージョンの Power BI Desktop を使用します。
-   > 
-   > 
-
-> [動画 https://www.youtube.com/embed/ajTPGNpthcg ]
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。    
 
 ### <a name="create-a-filled-map"></a>塗り分け地図を作成する
 1. [フィールド] ペインから、 **[Geo]** \> **[State]** フィールドを選択します。    

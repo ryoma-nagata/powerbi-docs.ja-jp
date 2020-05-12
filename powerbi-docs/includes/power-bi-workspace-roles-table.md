@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 04/23/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 9a6ca5abf3c26af876666ef45fe7ae192e69f2a3
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.openlocfilehash: 5ed3a65f1ef65640c76ada765931a85714aad3af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82120355"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781354"
 ---
 管理者、メンバー、共同作成者、ビューアーの 4 つのロールの機能を以下に示します。 表示と操作を除く、これらの機能すべてに、Power BI Pro ライセンスが必要です。
 
@@ -31,10 +31,13 @@ ms.locfileid: "82120355"
 | ワークスペースへのレポートの公開と、コンテンツの削除。  |  X | X  | X  |   |
 | このワークスペース内のデータセットに基づいた、別のワークスペースでのレポートの作成。<sup>1</sup> |  X | X  | X  |   |
 | レポートのコピー。<sup>2</sup> | X | X | X |  |
-| アイテムの表示とやりとり。<sup>3</sup> |  X | X  | X  | X  |
+| オンプレミス ゲートウェイを介したデータ更新のスケジュール。<sup>3</sup> | X | X | X |  |
+| ゲートウェイ接続設定の変更。<sup>3</sup> | X | X | X |  |
+| アイテムの表示とやりとり。<sup>4</sup> |  X | X  | X  | X  |
 | ワークスペース データフローの格納データを読み取る | X | X | X | X |
 
 1. 共同作成者とビューアーが再共有アクセス許可を持っている場合、ワークスペース内のアイテムを共有できます。
 2. レポートをコピーする場合、およびこのワークスペース内のデータセットに基づいて別のワークスペースでレポートを作成する場合は、そのデータセットに対するビルドのアクセス許可が必要です。 このワークスペース内のデータセットについては、管理者、メンバー、共同作成者のロールを持つユーザーに対して、そのワークスペース ロールを通じてビルドのアクセス許可が付与されます。
-3. Power BI Pro ライセンスを持っていない場合でも、項目が Premium 容量内のワークスペースにあれば、Power BI サービスで項目を表示および操作することができます。
+3. ゲートウェイに対するアクセス許可も必要であることに注意してください。 これらのアクセス許可は、ワークスペースの役割とアクセス許可に関係なく、他の場所で管理されます。 詳細については、[オンプレミス ゲートウェイの管理](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage)に関するページを参照してください。
+4. Power BI Pro ライセンスを持っていない場合でも、項目が Premium 容量内のワークスペースにあれば、Power BI サービスで項目を表示および操作することができます。
 

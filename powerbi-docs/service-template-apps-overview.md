@@ -4,16 +4,16 @@ description: この記事では、Power BI テンプレート アプリ プロ�
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.openlocfilehash: 466e7cb842244104b004c4f65f82dafe13dc9725
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066327"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781319"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI テンプレート アプリとは
 
@@ -103,6 +103,7 @@ Power BI テンプレート アプリを使用すると、Power BI Pro または
 | データセット: クロスワークスペース | クロスワークスペースのデータセットは許可されません  |
 | クエリ パラメーター | 非サポート:"Any" 型のパラメーターまたはデータセットの "Binary" 型のブロック更新操作 |
 | Power BI ビジュアル | パブリックに使用可能な Power BI ビジュアルのみがサポートされます。 [組織の Power BI ビジュアル](developer/visuals/power-bi-custom-visuals-organization.md)はサポートされません |
+| ソブリン クラウド | テンプレート アプリはソブリン クラウドでは使用できません |
 
 ## <a name="support"></a>サポート
 開発中のサポートのために、[https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) を使用してください。 私たちは、このサイトを常に見守り、管理しています。 顧客のインシデントは、すみやかに該当するチームに伝わります。

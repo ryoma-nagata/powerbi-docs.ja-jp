@@ -1,30 +1,32 @@
 ---
 title: Power BI で相対日付のスライサーまたはフィルターを使用する
 description: Power BI で相対的な日付範囲を制限するスライサーまたはフィルターを使う方法について説明します。
-author: mihart
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/06/2020
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f63a56ea350d089b82eb7a18470e1bcc439d1151
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006790"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866520"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI で相対日付のスライサーおよびフィルターを使用する
+# <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI での相対日付のスライサーおよびフィルターの作成
 
-[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 **相対日付スライサー**または**相対日付フィルター**では、データ モデルの任意の日付列に時間ベースのフィルターを適用することができます。 たとえば、**相対日付スライサー**を使って、過去 30 日間 (または 1 か月、カレンダー月など) に発生した販売データのみを表示できます。 データを更新すると、相対期間によって適切な相対日付制約が自動的に適用されます。
 
 ![相対日付スライサーを指す矢印を示すレポートのスクリーンショット。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
-## <a name="use-the-relative-date-range-slicer"></a>相対日付範囲スライサーの使用
+Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。
+
+## <a name="create-the-relative-date-range-slicer"></a>相対日付範囲スライサーを作成する
 
 他のスライサーと同じように相対日付スライサーを使用できます。 レポートの**スライサー** ビジュアルを作成し、 **[フィールド]** 値の日付値を選択します。 次の図では、"*OrderDate*" フィールドが選択されています。
 
@@ -42,27 +44,27 @@ ms.locfileid: "81006790"
 
 ![最初の設定が呼び出されている相対構成オプションのスクリーンショット。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* 前回
+* 最後
 
-* 次回
+* 次へ
 
-* This
+* この
 
 "*相対日付スライサー*" の 2 番目 (真ん中) の設定では、数字を入力して、相対的な日付範囲を定義できます。
 
 ![2 番目の設定が呼び出されている相対構成オプションのスクリーンショット。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04a.png)
 
-3 番目の設定では、日付の測定値を選択できます。 選択肢には次の 2 つがあります。
+3 番目の設定では、日付の測定値を選択できます。 次の選択肢があります。
 
 ![3 番目の設定が呼び出されている相対構成オプションのスクリーンショット。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
-* 日数
+* 日
 
 * 週
 
 * 週 (暦)
 
-* 月
+* Months
 
 * 月 (暦)
 
@@ -80,7 +82,7 @@ ms.locfileid: "81006790"
 
 一方、"*月 (暦)* " を選択すると、制約されたビジュアルに、5 月 1 日から 6 月 30 日 (過去 2 カレンダー月) までのデータが表示されます。
 
-## <a name="using-the-relative-date-range-filter"></a>相対日付範囲フィルターの使用
+## <a name="create-the-relative-date-range-filter"></a>相対日付範囲フィルターを作成する
 
 レポート ページまたはレポート全体の相対日付範囲フィルターを作成することもできます。 そのためには、日付フィールドを **[フィールド]** ウィンドウの **[ページ レベル フィルター]** または **[レポート レベル フィルター]** にドラッグします。
 
@@ -104,6 +106,7 @@ ms.locfileid: "81006790"
 
 * **クエリ エディター**を使って、キャプチャされたデータを現地のタイム ゾーンから UTC に変換できます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
-[Power BI Desktop でグループ化とビン分割を使用する](../desktop-grouping-and-binning.md)方法を学ぶ。
+- [Power BI で相対日付のスライサーおよびフィルターを使用する](desktop-slicer-filter-date-range.md)
+- [Power BI のスライサー](power-bi-visualization-slicers.md)

@@ -10,10 +10,10 @@ ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 73e2c923500a2d78072a711bc7662a5923811bba
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699339"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>ゲートウェイのトラブルシューティング - Power BI
@@ -24,13 +24,13 @@ ms.locfileid: "74699339"
 
 ## <a name="configuration"></a>構成
 
-### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>エラー:Power BI サービスからローカル ゲートウェイが到達不可という報告がありました。 ゲートウェイを再起動してからもう一度お試しください
+### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>エラー: Power BI サービスからローカル ゲートウェイが到達不可という報告がありました。 ゲートウェイを再起動してからもう一度お試しください
 
 構成の最後に、Power BI サービスがもう一度呼び出されてゲートウェイが検証されます。 Power BI サービスでは、ゲートウェイがライブ状態として報告されません。 Windows サービスを再起動すると、通信が成功する場合があります。 「[Collect logs from the on-premises data gateway app](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app)」 (オンプレミス データ ゲートウェイ アプリからログを収集する) の説明に従ってログを収集して確認し、詳細な情報を取得できます。
 
 ## <a name="data-sources"></a>データ ソース
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>エラー:接続できません。 詳細:"接続の資格情報が正しくありません"
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>エラー: 接続できません。 詳細:"接続の資格情報が正しくありません"
 
 **[詳細を表示する]** には、データ ソースから受信したエラー メッセージが表示されます。 SQL Server の場合、次のように表示されます。
 
@@ -38,7 +38,7 @@ ms.locfileid: "74699339"
 
 ユーザー名とパスワードが正しいことを確認します。 また、これらの資格情報を使用してデータ ソースに正常に接続できることを確認します。 使用されているアカウントが認証方法と一致していることを確認してください。
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>エラー:接続できません。 詳細:"データベースに接続できません"
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>エラー: 接続できません。 詳細:"データベースに接続できません"
 
 サーバーには接続できましたが、指定されたデータベースには接続できませんでした。 データベースの名前を確認し、そのデータベースにアクセスできる適切なアクセス許可がユーザー資格情報に付与されていることを確認します。
 
@@ -46,7 +46,7 @@ ms.locfileid: "74699339"
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>エラー:接続できません。 詳細:"Unknown error in data gateway" (データ ゲートウェイでの不明なエラー)
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>エラー: 接続できません。 詳細:"Unknown error in data gateway" (データ ゲートウェイでの不明なエラー)
 
 このエラーは、さまざまな理由で発生する可能性があります。 ゲートウェイをホストしているコンピューターからデータ ソースに接続できることを必ず確認してください。 サーバーにアクセスできない場合も、この状況が発生することがあります。
 
@@ -54,7 +54,7 @@ ms.locfileid: "74699339"
 
 また、 **[イベント ログ]**  >  **[アプリケーションとサービス ログ]**  >  **[オンプレミス データ ゲートウェイ サービス]** の順に選択し、詳細を確認できます。
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>エラー:\<サーバー\> に接続しようとしているときにエラーが発生しました。 詳細:"data gateway に到達しましたが、ゲートウェイがオンプレミスのデータ ソースにアクセスできません。"
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>エラー: \<サーバー\> に接続しようとしているときにエラーが発生しました。 詳細:"data gateway に到達しましたが、ゲートウェイがオンプレミスのデータ ソースにアクセスできません。"
 
 指定したデータ ソースに接続できませんでした。 そのデータ ソースについて提供された情報を検証してください。
 
@@ -95,21 +95,21 @@ Analysis Services サーバーがユーザーとは異なるドメインにあ�
 
 ゲートウェイ構成内のデータ ソースの **[ユーザー]** タブに、自分のアカウントが表示されていることを確認します。 ゲートウェイへのアクセス権がない場合は、ゲートウェイの管理者に連絡して確認を依頼してください。 **[ユーザー]** の一覧にあるアカウントのみが、Analysis Services の一覧にあるデータ ソースを参照できます。
 
-### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>エラー:このデータセットのデータ ソースに対してゲートウェイをインストールまたは構成していません。
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>エラー: このデータセットのデータ ソースに対してゲートウェイをインストールまたは構成していません。
 
 ゲートウェイに 1 つ以上のデータ ソースを追加していることを確認してください。詳細は「[データ ソースの追加](service-gateway-data-sources.md#add-a-data-source)」にあります。 ゲートウェイが管理者ポータルの **[ゲートウェイの管理]** に表示されない場合、ブラウザーのキャッシュを消去するか、サービスからサインアウトし、もう一度サインインしてください。
 
 ## <a name="datasets"></a>データセット
 
-### <a name="error-there-is-not-enough-space-for-this-row"></a>エラー:この行には十分な領域がありません。
+### <a name="error-there-is-not-enough-space-for-this-row"></a>エラー: この行には十分な領域がありません。
 
 これは、1 つのサイズが 4 MB を超える行がある場合に発生します。 データ ソースから行を特定し、その行をフィルターで除外するか、その行のサイズを減らしてください。
 
-### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>エラー:指定されたサーバー名が、SQL Server SSL 証明書のサーバー名と一致しません
+### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>エラー: 指定されたサーバー名が、SQL Server SSL 証明書のサーバー名と一致しません
 
 これは、証明書共通名がサーバーの完全修飾ドメイン名 (FQDN) に対するものであるときに、サーバーの NetBIOS 名だけを指定すると発生します。 この状況により、証明書の不一致が発生します。 この問題を解決するには、ゲートウェイのデータ ソースと PBIX ファイルのサーバー名でサーバーの FQDN を使用します。
 
-### <a name="error-you-dont-see-the-on-premises-data-gateway-present-when-you-configure-scheduled-refresh"></a>エラー:スケジュールされた更新を構成するときに、オンプレミス データ ゲートウェイが表示されません。
+### <a name="error-you-dont-see-the-on-premises-data-gateway-present-when-you-configure-scheduled-refresh"></a>エラー: スケジュールされた更新を構成するときに、オンプレミス データ ゲートウェイが表示されません。
 
 このエラーの原因として、次のようないくつかのシナリオが考えられます。
 
@@ -117,20 +117,20 @@ Analysis Services サーバーがユーザーとは異なるドメインにあ�
 - ゲートウェイ構成内のデータ ソースの **[ユーザー]** タブに、自分のアカウントが表示されていません。 ゲートウェイの管理者に依頼し、そのリストに追加してもらう必要があります。
 - Power BI Desktop ファイルに複数のデータ ソースがあり、それらのデータ ソースのすべてがゲートウェイで構成されているわけではありません。 スケジュールされている更新にゲートウェイを表示させるには、ゲートウェイで各データ ソースを定義する必要があります。
 
-### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>エラー:ゲートウェイ クライアントで受信した非圧縮データが制限を超えています。
+### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>エラー: ゲートウェイ クライアントで受信した非圧縮データが制限を超えています。
 
 テーブルごとの非圧縮データの上限は 10 GB です。 この問題か発生した場合、最適化して問題を回避できる適切な選択肢があります。 具体的には、不変性が高く、長い文字列値の使用を減らし、代わりに、正規化されたキーを使用します。 あるいは、使用されていない列を削除すると問題が解消されることがあります。
 
 ## <a name="reports"></a>レポート
 
-### <a name="error-report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>エラー:レポートからデータ ソースにアクセスできませんでした。オンプレミス データ ゲートウェイ経由でデータ ソースにアクセスできません。
+### <a name="error-report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>エラー: レポートからデータ ソースにアクセスできませんでした。オンプレミス データ ゲートウェイ経由でデータ ソースにアクセスできません。
 
 このエラーは通常、次のいずれかの原因によって発生します。
 
 - データ ソースの情報が、基になるデータセットの情報と一致しません。 オンプレミス データ ゲートウェイ用に定義されているデータ ソースと Power BI Desktop で指定するものとの間では、サーバーとデータベース名が一致している必要があります。 Power BI Desktop で IP アドレスを使用する場合は、オンプレミス データ ゲートウェイ用のデータ ソースでも IP アドレスを使用する必要があります。
 - 組織内のゲートウェイには、使用可能なデータ ソースがありません。 新規または既存のオンプレミス データ ゲートウェイでデータ ソースを構成できます。
 
-### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>エラー:データ ソースのアクセス エラー。 ゲートウェイの管理者にお問い合わせください。
+### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>エラー: データ ソースのアクセス エラー。 ゲートウェイの管理者にお問い合わせください。
 
 このレポートで Analysis Services ライブ接続を使用している場合、EffectiveUserName に渡される値が有効でないか、Analysis Services コンピューターへのアクセス許可のないという問題が発生する場合があります。 通常、認証の問題は、EffectiveUserName に渡される値がローカルのユーザー プリンシパル名 (UPN) と一致していない場合に発生します。
 
@@ -240,7 +240,7 @@ Active Directory で委任が正しく構成されていない場合は、"-1070
 
 ## <a name="fiddler-trace"></a>Fiddler のトレース
 
-[Fiddler](https://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。 クライアント コンピューターから Power BI サービスによるやり取りを確認できます。 このトラフィックの一覧では、エラーとその他の関連する情報が表示される場合があります。
+[Fiddler](https://www.telerik.com/fiddler) は、HTTP トラフィックを監視する Telerik 提供の無償ツールです。 クライアント マシンから、Power BI サービスとのやりとりを確認できます。 このトラフィックの一覧では、エラーとその他の関連する情報が表示される場合があります。
 
 ![Fiddler トレースの使用](media/service-gateway-onprem-tshoot/fiddler.png)
 

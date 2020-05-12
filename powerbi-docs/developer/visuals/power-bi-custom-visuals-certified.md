@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113902"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613536"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>認定済みの Power BI ビジュアルを取得する
 
@@ -82,8 +82,6 @@ Power BI ビジュアルを作成するには、最新バージョンの [powerb
 
 `pbiviz package` を使用して Power BI ビジュアルをコンパイルする必要があります。 独自のビルド スクリプトを使用している場合は、`npm run package` カスタム ビルド コマンドを用意します。
 
-
-
 ### <a name="source-code-requirements"></a>ソース コードの要件
 
 [Power BI ビジュアルの追加の認定](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification)ポリシー一覧に従っていることを確認します。 提出がこれらのガイドラインに従っていない場合、パートナー センターからの却下メールには、このリンクに記載されているポリシー番号が記載されます。
@@ -150,6 +148,25 @@ Power BI ビジュアルは、認定されると、認定を受けたことを�
     ![Power BI インターフェイス認定済み Power BI ビジュアル](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * 認定済み Power BI ビジュアルのみを表示するには、" *[Power BI 認定]* " フィルター オプションを選択します。
+
+## <a name="publication-timeline"></a>パブリケーション タイムライン
+
+AppSource への配置は、時間がかかる可能性のあるプロセスです。 このプロセスが完了すると、Power BI ビジュアルが AppSource からダウンロードできるようになります。
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>ユーザーはいつビジュアルをダウンロードできますか。
+
+* 初めて Power BI ビジュアルを送信した場合、AppSource から電子メールを受信してから数時間後にユーザーがダウンロードできるようになります。
+
+* 既存の Power BI ビジュアルに更新を送信した場合、ユーザーは送信から 1 か月以内にダウンロードできるようになります。
+
+    >[!NOTE]
+    > AppSource の *[バージョン]* フィールドは、Power BI が AppSource によって承認された日に更新されます。これは、ビジュアルの送信後約 1 週間です。 ユーザーは更新されたビジュアルをダウンロードできますが、更新された機能は有効になりません。 ビジュアルの新機能は、約 1 か月後にユーザーのレポートに影響を与えます。 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>Power BI ビジュアルに証明書バッジが表示されるのはいつですか。
+
+* Power BI ビジュアルを初めて送信した場合は、AppSource から承認メールを受け取った日から 1 日以内に証明書バッジが表示されます。
+
+* 既存の Power BI ビジュアルの認定を要求している場合、証明書バッジは送信から 1 か月以内に表示されます。
 
 ## <a name="next-steps"></a>次の手順
 

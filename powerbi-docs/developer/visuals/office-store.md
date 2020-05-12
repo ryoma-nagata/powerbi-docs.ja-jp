@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621454"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613559"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI ビジュアルをパートナー センターに発行する
 
@@ -31,9 +31,9 @@ Power BI ビジュアルを AppSource に提出する前に、「[Power BI ビ�
 
 Power BI ビジュアルを提出する準備ができたら、ビジュアルが次に示すすべての要件を満たしていることを確認します。
 
-| 項目 | 必須 | 説明 |
+| 項目 | 必須 | Description |
 | --- | --- | --- |
-| Pbiviz パッケージ |はい |Power BI ビジュアルを、必要なすべてのメタデータが含まれている Pbiviz パッケージにパックします。<br>ビジュアル名<br>表示名<br>GUID<br>バージョン<br>説明<br>作成者名とメール アドレス |
+| Pbiviz パッケージ |はい |Power BI ビジュアルを、必要なすべてのメタデータが含まれている Pbiviz パッケージにパックします。<br>ビジュアル名<br>表示名<br>GUID<br>バージョン<br>Description<br>作成者名とメール アドレス |
 | サンプルの .pbix レポート ファイル |はい |ビジュアルを紹介するには、ユーザーがビジュアルをよく理解できるようにする必要があります。 ユーザーにとってのビジュアルの価値を強調し、使用例や書式設定オプションを示します。 ヒントと秘訣や避けるべきことを説明した "*ヒント*" ページを最後に追加することもできます。<br>サンプルの .pbix レポート ファイルは、外部に接続していないオフラインの状態で動作する必要があります。 |
 | アイコン |はい |ストアの先頭に表示されるカスタム ビジュアルのロゴを含める必要があります。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 大きさはちょうど 300 (幅) x 300 (高さ) ピクセルにする必要があります。<BR>**重要!** アイコンを提出する前に、[AppSource ストア画像ガイド](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images)をよくお読みください。 |
 | スクリーンショット |はい |少なくとも 1 つのスクリーンショットを提供します。 使用できる形式は、.png、.jpg、.jpeg、.gif です。 サイズは、ちょうど 1366 px (幅) × 768 px (高さ) にする必要があります。 ファイルのサイズは、1,024 KB を超えることはできません。<br>使いやすくするために、各スクリーンショットに重要な機能の価値提案がはっきりわかる吹き出しを追加します。 |
@@ -101,9 +101,11 @@ AppSource に提出する前に、**pbiviz** ファイルと **pbix** ファイ�
 
 ## <a name="tracking-submission-status-and-usage"></a>送信の状態と使用状況の追跡
 
-[検証ポリシー](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)を確認することができます。
+* [検証ポリシー](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)を確認することができます。
 
-送信後は、[アプリ ダッシュボード](https://sellerdashboard.microsoft.com/Application/Summary/)で送信の状態を見ることができます。
+* 送信後は、[アプリ ダッシュボード](https://sellerdashboard.microsoft.com/Application/Summary/)で送信の状態を見ることができます。
+
+* Power BI ビジュアルを AppSource からいつダウンロードできるようにするかを理解するには、Power BI ビジュアルの[パブリケーション タイムライン](power-bi-custom-visuals-certified.md#publication-timeline)を確認してください。
 
 ## <a name="certify-your-visual"></a>視覚エフェクトの認定
 

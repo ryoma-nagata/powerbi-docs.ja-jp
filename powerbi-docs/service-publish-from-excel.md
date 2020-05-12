@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80329606"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866796"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Microsoft Excel から Power BI へ発行する
 Microsoft Excel 2016 以降では、Excel ブックのデータに基づいて対話性の高いレポートやダッシュボードを作成できる [Power BI](https://powerbi.microsoft.com) ワークスペースに Excel ブックを直接発行できます。 これにより、分析情報を組織内のユーザーと共有できます。
@@ -42,7 +42,7 @@ Excel では、ローカルの Excel ファイルを発行することがサポ�
 > ローカル ファイルを発行できるのは、Office 365 サブスクリプションで Excel 2016 (またはそれ以降) を使用している場合のみです。 Excel 2016 スタンドアロンのインストールで Power BI に発行できますが、ブックが OneDrive for Business または SharePoint Online に保存されている場合に限ります。
 > 
 
-**[発行]** を選択する際に、発行先のワークスペースを選択できます。 ワークスペースは、次の図に示すように、個人用ワークスペースとすることも、アクセスできるグループ ワークスペースとすることもできます。
+**[発行]** を選択する際に、発行先のワークスペースを選択できます。 Excel ファイルが OneDrive for Business に存在する場合は、*マイ ワークスペース*にのみ発行できます。 Excel ファイルがローカル ドライブにある場合は、*マイ ワークスペース*またはアクセス権のある共有ワークスペースに発行できます。
 
 ![Power BI へ発行](media/service-publish-from-excel/pbi_choose_workspace.png)
 
@@ -61,7 +61,7 @@ OneDrive for Business にブックを保存してから **[発行]** を選択�
 
 ![Power BI 用オプション](media/service-publish-from-excel/pbi_uploadexport2.png)
 
-#### <a name="upload-your-workbook-to-power-bi"></a>Upload your workbook to Power BI (ブックを Power BI にアップロードする)
+#### <a name="upload-your-workbook-to-power-bi"></a>Power BI にブックをアップロード
 **[アップロード]** オプションを選択すると、ブックは、Excel Online を使用しているときと同じように Power BI に表示されます。 ただし、Excel Online とは異なり、ワークシートの要素をダッシュボードにピン留めするのに役立ついくつかのオプションを利用できます。
 
 Power BI ではブックを編集できません。 変更を加える必要がある場合は、 **[編集]** を選択して、Excel Online でブックを編集するかまたは自分のコンピューターの Excel で開くかを選択できます。 ブックに加えたすべての変更は、OneDrive for Business 上のブックに保存されます。
@@ -72,7 +72,7 @@ Power BI ではブックを編集できません。 変更を加える必要が�
 
 Excel の [Power BI への発行] から [アップロード] を使用することは、ブラウザーの Power BI から **[データの取得] > [ファイル] > [OneDrive for Business] > [Power BI で Excel に接続し、管理し、表示する]** を選択するのと同様のエクスペリエンスです。
 
-#### <a name="export-workbook-data-to-power-bi"></a>Export workbook data to Power BI (ブックのデータを Power BI にエクスポートする)
+#### <a name="export-workbook-data-to-power-bi"></a>Power BI にブックのデータをエクスポートする
 **[エクスポート]** オプションを選択すると、テーブルやデータ モデル内のサポートされているデータがすべて、Power BI の新しいデータセットにエクスポートされます。 ブック内に Power View シートがある場合は、Power BI でレポートとして再作成されます。
 
 ブックは引き続き編集できます。 変更を保存すると、通常約 1 時間以内に Power BI のデータセットと同期されます。 より迅速に更新する必要がある場合は、Excel からもう一度 **[発行]** を選択すると、変更が直ちにエクスポートされます。 レポートとダッシュボードの視覚エフェクトも更新されます。
@@ -90,7 +90,7 @@ Excel の [Power BI への発行] から [アップロード] を使用するこ
 
 ![Power BI に移動](media/service-publish-from-excel/pbi_gotopbi.png)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [Power BI の Excel データ](service-excel-workbook-files.md)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82585385"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781733"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>視覚エフェクトの作成に使用されたデータをエクスポートする
 
@@ -265,6 +265,8 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
   1. **[外部データの取り込み]**  >  **[テキストから]** の順に選択します。
   
   1. ファイルが保存されているローカル フォルダーに移動し、 *.csv* を選択します。
+
+- *.csv* にエクスポートすると、特定の文字が先頭の **'** でエスケープされます。
 
 - Power BI 管理者は、データのエクスポートを無効にできます。
 

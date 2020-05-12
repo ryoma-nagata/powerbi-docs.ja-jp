@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802132"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841781"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
 
@@ -131,7 +131,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI 電話アプリ用に最適化したレポートを作成する](../../desktop-create-phone-report.md)
+* [Power BI モバイル アプリ向けに最適化されたレポートを作成する](../../desktop-create-phone-report.md)
 * [Power BI でダッシュボードの Phone ビューを作成する](../../service-create-dashboard-mobile-phone-view.md)
 * [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](../../visuals/desktop-create-responsive-visuals.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
