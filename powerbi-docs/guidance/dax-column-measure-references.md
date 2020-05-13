@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75498739"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279620"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX:列参照とメジャー参照
 
@@ -43,7 +43,7 @@ Profit = Orders[Sales] - Orders[Cost]
 
 ## <a name="measures"></a>メジャー
 
-メジャーは、モデルレベル オブジェクトです。 このため、メジャー名はモデル内で一意である必要があります。 ただし、 **[フィールド]** ウィンドウでは、1 つのモデル テーブルに関連付けられている各メジャーがレポート作成者に表示されます。 この関連付けは、見栄えの理由から設定されており、メジャーの**ホーム テーブル** プロパティを設定することで構成できます。 詳細については、[Power BI Desktop のメジャー (メジャーを整理する)](../desktop-measures.md#organizing-your-measures) に関するページを参照してください。
+メジャーは、モデルレベル オブジェクトです。 このため、メジャー名はモデル内で一意である必要があります。 ただし、 **[フィールド]** ウィンドウでは、1 つのモデル テーブルに関連付けられている各メジャーがレポート作成者に表示されます。 この関連付けは、見栄えの理由から設定されており、メジャーの**ホーム テーブル** プロパティを設定することで構成できます。 詳細については、[Power BI Desktop のメジャー (メジャーを整理する)](../transform-model/desktop-measures.md#organizing-your-measures) に関するページを参照してください。
 
 式で完全修飾メジャーを使用することは可能です。 DAX intellisense であっても、提案が提供されます。 ただし、これは必須ではなく、推奨される方法でもありません。 メジャーのホーム テーブルを変更する場合は、それに対する完全修飾メジャー参照を使用するすべての式が中断されます。 次に、分割された各数式を編集して、メジャー参照を削除 (または更新) する必要があります。
 
@@ -68,3 +68,4 @@ Profit = Orders[Sales] - Orders[Cost]
 
 - [Data Analysis Expressions (DAX) リファレンス](/dax/)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+

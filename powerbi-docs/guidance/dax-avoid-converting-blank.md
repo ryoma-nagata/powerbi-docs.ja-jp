@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700388"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279643"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX:BLANK を値に変換しない
 
@@ -66,7 +66,7 @@ DIVIDE([Profit], [Sales])
 ![同じテーブル ビジュアルに 4 行のデータが表示されるようになりました。 各行は、売上の値があり、Profit Margin の値がゼロ以外の顧客の行です。](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
-> 必要に応じて、[[データのない項目を表示する]](../desktop-show-items-no-data.md) オプションを有効にすることで、フィルター コンテキスト内の (値または BLANK を返す) すべてのグループを表示するようにビジュアルを構成できます。
+> 必要に応じて、[[データのない項目を表示する]](../create-reports/desktop-show-items-no-data.md) オプションを有効にすることで、フィルター コンテキスト内の (値または BLANK を返す) すべてのグループを表示するようにビジュアルを構成できます。
 
 ## <a name="recommendation"></a>推奨事項
 
@@ -80,3 +80,4 @@ DIVIDE([Profit], [Sales])
 
 - [Data Analysis Expressions (DAX) リファレンス](/dax/)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+

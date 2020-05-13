@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b792c7d9f6200544188e9f9fe711cd1394e8b921
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75304184"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279574"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX:DIVIDE 関数と除算演算子 (/)
 
@@ -58,7 +58,7 @@ DIVIDE([Profit], [Sales])
 
 分母が定数値の場合は、除算演算子を使用することをお勧めします。 この場合、除算は成功することが保証され、不要なテストを回避するため、式のパフォーマンスが向上します。
 
-DIVIDE 関数で代替値を返す必要があるかどうかを慎重に検討してください。 メジャーの場合は通常、空白を返すため、より優れたデザインとなります。 空白を返すことが良いのは、集計が空白の場合、既定ではレポートのビジュアルでグループ化が削除されるためです。 これにより、データが存在するグループにビジュアルを集中させることができます。 必要に応じて、[[データのない項目を表示する]](../desktop-show-items-no-data.md) オプションを有効にすることで、フィルター コンテキスト内の (値または空白を返す) すべてのグループを表示するようにビジュアルを構成できます。
+DIVIDE 関数で代替値を返す必要があるかどうかを慎重に検討してください。 メジャーの場合は通常、空白を返すため、より優れたデザインとなります。 空白を返すことが良いのは、集計が空白の場合、既定ではレポートのビジュアルでグループ化が削除されるためです。 これにより、データが存在するグループにビジュアルを集中させることができます。 必要に応じて、[[データのない項目を表示する]](../create-reports/desktop-show-items-no-data.md) オプションを有効にすることで、フィルター コンテキスト内の (値または空白を返す) すべてのグループを表示するようにビジュアルを構成できます。
 
 ## <a name="next-steps"></a>次の手順
 
@@ -66,3 +66,4 @@ DIVIDE 関数で代替値を返す必要があるかどうかを慎重に検討�
 
 - [Data Analysis Expressions (DAX) リファレンス](/dax/)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+

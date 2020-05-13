@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 811e0513c1b4a16a731e6d9bd90cbc0689ca76e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496471"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279781"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI レポートでのグラフの並べ替え方法の変更
 
@@ -22,7 +22,7 @@ ms.locfileid: "77496471"
 
 
 > [!IMPORTANT]
-> **この記事は、レポートまたはデータセットに対する編集アクセス許可を持たず、Power BI のオンライン バージョン (Power BI サービス) のみを使用する Power BI ユーザーを対象としています。レポート "*デザイナー*"、"*管理者*"、または "*所有者*" の場合は、必要な情報がこの記事に記載されていない可能性があります。代わりに、「[Power BI Desktop での列による並べ替え](../desktop-sort-by-column.md)** 」を参照してください。
+> **この記事は、レポートまたはデータセットに対する編集アクセス許可を持たず、Power BI のオンライン バージョン (Power BI サービス) のみを使用する Power BI ユーザーを対象としています。レポート "*デザイナー*"、"*管理者*"、または "*所有者*" の場合は、必要な情報がこの記事に記載されていない可能性があります。代わりに、「[Power BI Desktop での列による並べ替え](../create-reports/desktop-sort-by-column.md)** 」を参照してください。
 
 Power BI サービスでは、さまざまなデータ フィールドを並べ替えることで視覚効果を変更できます。 ビジュアルをどのように並べるかで、伝えたい情報を強調表示できます。 数値データ (売り上げ高など) を使用している場合でも、テキスト データ (州名など) を使用している場合でも、希望どおりにお使いの視覚化を並べ替えることができます。 Power BI は柔軟な並べ替え機能とクイック メニューを備えています。 
 
@@ -69,7 +69,7 @@ Power BI サービスでは、さまざまなデータ フィールドを並べ�
 
 ![連絡先情報を示すドロップダウン](media/end-user-change-sort/power-bi-contact.png)
 
-ご自分が "*デザイナー*" であり、コンテンツに対して編集アクセス許可を持っている場合は、「[Power BI Desktop での列による並べ替え](../desktop-sort-by-column.md)」を読み、データセットを更新して、この種類の並べ替えを有効にする方法を確認してください。
+ご自分が "*デザイナー*" であり、コンテンツに対して編集アクセス許可を持っている場合は、「[Power BI Desktop での列による並べ替え](../create-reports/desktop-sort-by-column.md)」を読み、データセットを更新して、この種類の並べ替えを有効にする方法を確認してください。
 
 ## <a name="next-steps"></a>次の手順
 「[Power BI での視覚化](end-user-visualizations.md)」をご覧ください。

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487811"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279758"
 ---
 # <a name="tenant-admin-settings-guidance"></a>テナントの管理者設定のガイダンス
 
@@ -21,7 +21,7 @@ ms.locfileid: "79487811"
 
 Power BI エクスペリエンスの向上に役立つ特定のテナント設定に関するガイダンスを提供しますが、組織が危険にさらされる可能性もあります。 テナントは、常に組織のポリシーとプロセスに合わせて構成することをお勧めします。
 
-[テナント設定](../service-admin-portal.md#tenant-settings)は[管理ポータル](https://app.powerbi.com/admin-portal/tenantSettings)で管理され、[Power BI サービス管理者](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)によって構成できます。 多くのテナント設定では、限られたユーザーに機能を制限できます。 そのため、まず、必要なセキュリティ グループを計画するための設定について理解しておくことをお勧めします。 同じセキュリティ グループを複数の設定に適用できることがわかるでしょう。
+[テナント設定](../admin/service-admin-portal.md#tenant-settings)は[管理ポータル](https://app.powerbi.com/admin-portal/tenantSettings)で管理され、[Power BI サービス管理者](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)によって構成できます。 多くのテナント設定では、限られたユーザーに機能を制限できます。 そのため、まず、必要なセキュリティ グループを計画するための設定について理解しておくことをお勧めします。 同じセキュリティ グループを複数の設定に適用できることがわかるでしょう。
 
 ## <a name="improve-power-bi-experience"></a>Power BI のエクスペリエンスを向上させる
 
@@ -88,7 +88,7 @@ Information Protection に関連するテナント設定は 2 つあります。
 
 ### <a name="publish-to-web"></a>Web に公開
 
-[[Web に公開]](../service-publish-to-web.md) 機能を使用すると、Web 上でパブリック レポートを公開できます。 不適切に使用した場合、機密情報が Web 上で公開される危険性があります。
+[[Web に公開]](../collaborate-share/service-publish-to-web.md) 機能を使用すると、Web 上でパブリック レポートを公開できます。 不適切に使用した場合、機密情報が Web 上で公開される危険性があります。
 
 既定では、 **[Web に公開]** 設定が組織全体で有効になっていますが、管理者ユーザー以外が埋め込みコードを作成する機能は制限されています。 これは、 **[エクスポートと共有の設定]** にあります。
 
@@ -109,7 +109,7 @@ Information Protection に関連するテナント設定は 2 つあります。
 1 つまたは複数のセキュリティ グループを割り当てることをお勧めします。 これらのグループに、レポートを公開するための権限を付与する、"_または拒否する_" ことができます。
 
 > [!IMPORTANT]
-> この設定を無効にすると、[[Excel で分析]](../service-analyze-in-excel.md) および Power BI サービスの[ライブ接続](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management)機能の使用も制限されます。
+> この設定を無効にすると、[[Excel で分析]](../collaborate-share/service-analyze-in-excel.md) および Power BI サービスの[ライブ接続](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management)機能の使用も制限されます。
 
 ![[データのエクスポート] 設定が表示されています。](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ Information Protection に関連するテナント設定は 2 つあります。
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する
 
-外部のゲスト ユーザーが Power BI コンテンツを編集および管理することができます。 詳細については、「[Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する](../service-admin-azure-ad-b2b.md)」を参照してください。
+外部のゲスト ユーザーが Power BI コンテンツを編集および管理することができます。 詳細については、「[Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する](../admin/service-admin-azure-ad-b2b.md)」を参照してください。
 
 既定では、組織全体に対して **[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する]** 設定が無効になっています。 これは、 **[エクスポートと共有の設定]** にあります。
 
@@ -141,7 +141,8 @@ Information Protection に関連するテナント設定は 2 つあります。
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI 管理とは](../service-admin-administering-power-bi-in-your-organization.md)
-- [管理ポータルでの Power BI の管理](../service-admin-portal.md)
+- [Power BI 管理とは](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [管理ポータルでの Power BI の管理](../admin/service-admin-portal.md)
 - ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)
+

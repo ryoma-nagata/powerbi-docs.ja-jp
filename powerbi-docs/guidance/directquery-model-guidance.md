@@ -8,26 +8,26 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75223634"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279597"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery モデルのガイダンス
 
 この記事の対象読者は、Power BI DirectQuery モデル (Power BI Desktop または Power BI サービスを使用して開発されるもの) を開発するデータ モデラーです。 DirectQuery のユース ケース、制限事項、およびガイダンスについて説明します。 具体的には、このガイダンスは、DirectQuery がモデルに適したモードであるかどうかを判断し、DirectQuery モデルに基づいてレポートのパフォーマンスを向上させるのに役立つように作られています。 この記事は、Power BI サービスまたは Power BI Report Server でホストされている DirectQuery モデルに適用されます。
 
-この記事は、DirectQuery モデルの設計に関する完全な説明を提供するためのものではありません。 概要については、「[Power BI Desktop での DirectQuery モデル](../desktop-directquery-about.md)」をご覧ください。 詳細については、「[SQL Server 2016 Analysis Services での DirectQuery](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)」ホワイトペーパーをご覧ください。 このホワイトペーパーでは、SQL Server Analysis Services での DirectQuery の使用について説明されていることに注意してください。 ただし、内容の多くは、Power BI DirectQuery モデルにも当てはまります。
+この記事は、DirectQuery モデルの設計に関する完全な説明を提供するためのものではありません。 概要については、「[Power BI Desktop での DirectQuery モデル](../connect-data/desktop-directquery-about.md)」をご覧ください。 詳細については、「[SQL Server 2016 Analysis Services での DirectQuery](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)」ホワイトペーパーをご覧ください。 このホワイトペーパーでは、SQL Server Analysis Services での DirectQuery の使用について説明されていることに注意してください。 ただし、内容の多くは、Power BI DirectQuery モデルにも当てはまります。
 
-この記事では、複合モデルに関しては直接説明していません。 複合モデルは、少なくとも 1 つ、場合によってはさらに多くの DirectQuery ソースで構成されます。 この記事で説明されているガイダンスは、少なくとも部分的に、複合モデルの設計に関連しています。 ただし、インポート テーブルと DirectQuery テーブルを組み合わせることによる影響については、この記事では説明されていません。 詳細については、「[Power BI Desktop で複合モデルを使用する](../desktop-composite-models.md)」を参照してください。
+この記事では、複合モデルに関しては直接説明していません。 複合モデルは、少なくとも 1 つ、場合によってはさらに多くの DirectQuery ソースで構成されます。 この記事で説明されているガイダンスは、少なくとも部分的に、複合モデルの設計に関連しています。 ただし、インポート テーブルと DirectQuery テーブルを組み合わせることによる影響については、この記事では説明されていません。 詳細については、「[Power BI Desktop で複合モデルを使用する](../transform-model/desktop-composite-models.md)」を参照してください。
 
 DirectQuery モデルでは、Power BI 環境 (Power BI サービスまたは Power BI Report Server) および基になるデータ ソースに対して、異なるワークロードが適用されることを理解しておくことが重要です。 DirectQuery が適切な設計方法であると判断した場合は、適切なユーザーをプロジェクトに参加させることをお勧めします。 多くの場合、DirectQuery モデルのデプロイが成功するのは、IT プロフェッショナルのチームが緊密に連携しているためです。 通常、チームは、モデル開発者とソース データベース管理者で構成されます。 また、データ アーキテクトや、データ ウェアハウスおよび ETL の開発者が加わることもあります。 多くの場合、パフォーマンスをよくするには、データソースに最適化を直接適用する必要があります。
 
 ## <a name="design-in-power-bi-desktop"></a>Power BI Desktop で設計する
 
-Azure SQL Data Warehouse と Azure HDInsight Spark データ ソースはどちらも、Power BI Desktop を使用する必要なく直接接続できます。 これは、Power BI サービスの [データを取得] で [データベース] タイルを選択することによって行います。 詳しくは、「[Azure SQL Data Warehouse と DirectQuery](../service-azure-sql-data-warehouse-with-direct-connect.md)」をご覧ください。
+Azure SQL Data Warehouse と Azure HDInsight Spark データ ソースはどちらも、Power BI Desktop を使用する必要なく直接接続できます。 これは、Power BI サービスの [データを取得] で [データベース] タイルを選択することによって行います。 詳しくは、「[Azure SQL Data Warehouse と DirectQuery](../connect-data/service-azure-sql-data-warehouse-with-direct-connect.md)」をご覧ください。
 
 直接接続は便利ですが、この方法を使用することはお勧めしません。 その主な理由は、基になるデータ ソース スキーマが変更された場合にモデル構造を更新できないことです。
 
@@ -77,8 +77,8 @@ Power BI Desktop を使用して、すべての DirectQuery モデルを作成�
     このガイダンスには例外が 1 つあり、その場合は [COMBINEVALUES](/dax/combinevalues-function-dax) DAX 関数を使用することを考えます。 この関数の目的は、複数列モデルのリレーションシップをサポートすることです。 リレーションシップで使用する式を生成するのではなく、複数列の SQL 結合述語が生成されます。
 - **"一意識別子" 列ではリレーションシップを使用しない:** Power BI では、一意識別子 (GUID) データ型はネイティブにはサポートされていません。 この型の列の間でリレーションシップを定義すると、Power BI ではキャストを含む結合を使用するソース クエリが生成されます。 このクエリ時のデータ変換では、一般に、パフォーマンスが低下します。 このケースが最適化されるまでの唯一の回避策は、基になるデータベースで代替データ型の列を具現化することです。
 - **リレーションシップの "一" の側の列を非表示にする:** リレーションシップの "一" の側の列は、非表示にする必要があります。 (これは通常、ディメンション型テーブルの主キー列です。)非表示にすると、 **[フィールド]** ペインで使用できなくなるため、ビジュアルの構成に使用できません。 "多" の側の列は、列の値によってレポートをグループ化したりフィルター処理したりするのに役立つ場合は、表示のままにしてかまいません。 たとえば、**Sales** テーブルと **Product** テーブルの間にリレーションシップが存在するモデルについて考えてみます。 リレーションシップ列には、製品の SKU (最小在庫管理単位) の値が含まれます。 製品の SKU をビジュアルに追加する必要がある場合は、**Sales** テーブルでのみ表示される必要があります。 この列を使用してビジュアルのフィルター処理またはグループ化を行うと、Power BI により、**Sales** テーブルと **Product** テーブルを結合するために必要のないクエリが生成されます。
-- **整合性が適用されるようにリレーションシップを設定する:** DirectQuery のリレーションシップの **[参照整合性を想定]** プロパティにより、Power BI で外部結合ではなく内部結合を使用するソース クエリが生成されるかどうかが決まります。 一般に、これによりクエリのパフォーマンスが向上しますが、リレーショナル データベース ソースの仕様に依存します。 詳しくは、「[Power BI Desktop で参照整合性設定を想定する](../desktop-assume-referential-integrity.md)」の記事をご覧ください。
-- **双方向のリレーションシップ フィルター処理を使用しない:** 双方向のリレーションシップ フィルター処理を使用すると、クエリ ステートメントが正常に実行されない可能性があります。 このリレーションシップ機能は、必要な場合にのみ使用してください。通常は、ブリッジ テーブル間で多対多リレーションシップを実装する場合に使用します。 詳細については、「[Power BI Desktop での多対多カーディナリティのリレーションシップ](../desktop-many-to-many-relationships.md)」を参照してください。
+- **整合性が適用されるようにリレーションシップを設定する:** DirectQuery のリレーションシップの **[参照整合性を想定]** プロパティにより、Power BI で外部結合ではなく内部結合を使用するソース クエリが生成されるかどうかが決まります。 一般に、これによりクエリのパフォーマンスが向上しますが、リレーショナル データベース ソースの仕様に依存します。 詳しくは、「[Power BI Desktop で参照整合性設定を想定する](../connect-data/desktop-assume-referential-integrity.md)」の記事をご覧ください。
+- **双方向のリレーションシップ フィルター処理を使用しない:** 双方向のリレーションシップ フィルター処理を使用すると、クエリ ステートメントが正常に実行されない可能性があります。 このリレーションシップ機能は、必要な場合にのみ使用してください。通常は、ブリッジ テーブル間で多対多リレーションシップを実装する場合に使用します。 詳細については、「[Power BI Desktop での多対多カーディナリティのリレーションシップ](../transform-model/desktop-many-to-many-relationships.md)」を参照してください。
 - **並列クエリを制限する:** 基になる各データ ソースに対して DirectQuery で開かれる最大接続数を設定できます。 これにより、データ ソースに同時に送信されるクエリの数を制御します。
 
     ![Power BI Desktop ウィンドウが開かれ、[現在のファイル] の [DirectQuery] ページが選択されています。 [データ ソースあたりの最大接続数] プロパティが強調して示されています。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
@@ -121,9 +121,9 @@ Power BI Desktop を使用して、すべての DirectQuery モデルを作成�
 
 ## <a name="convert-to-a-composite-model"></a>複合モデルに変換する
 
-インポート モデルと DirectQuery モデルの利点を、モデル テーブルのストレージ モードを構成することによって、1 つのモデルに組み合わせることができます。 テーブル ストレージ モードは、インポートか DirectQuery のどちらか、または両方 (デュアルと呼ばれます) にすることができます。 モデルに異なるストレージ モードのテーブルが含まれる場合は、複合モデルと呼ばれます。 詳細については、「[Power BI Desktop で複合モデルを使用する](../desktop-composite-models.md)」を参照してください。
+インポート モデルと DirectQuery モデルの利点を、モデル テーブルのストレージ モードを構成することによって、1 つのモデルに組み合わせることができます。 テーブル ストレージ モードは、インポートか DirectQuery のどちらか、または両方 (デュアルと呼ばれます) にすることができます。 モデルに異なるストレージ モードのテーブルが含まれる場合は、複合モデルと呼ばれます。 詳細については、「[Power BI Desktop で複合モデルを使用する](../transform-model/desktop-composite-models.md)」を参照してください。
 
-DirectQuery モデルを複合モデルに変換することで実現できる機能とパフォーマンスの向上が多数あります。 複合モデルでは、複数の DirectQuery ソースを統合でき、集計を含めることもできます。 集計テーブルを DirectQuery テーブルに追加して、テーブルの要約表現をインポートできます。 それにより、ビジュアルで上位レベルの集計をクエリするときに、パフォーマンスを大幅に向上させることができます。 詳しくは、「[Power BI Desktop での集計](../desktop-aggregations.md)」をご覧ください。
+DirectQuery モデルを複合モデルに変換することで実現できる機能とパフォーマンスの向上が多数あります。 複合モデルでは、複数の DirectQuery ソースを統合でき、集計を含めることもできます。 集計テーブルを DirectQuery テーブルに追加して、テーブルの要約表現をインポートできます。 それにより、ビジュアルで上位レベルの集計をクエリするときに、パフォーマンスを大幅に向上させることができます。 詳しくは、「[Power BI Desktop での集計](../transform-model/desktop-aggregations.md)」をご覧ください。
 
 ## <a name="educate-users"></a>ユーザーを教育する
 
@@ -137,7 +137,7 @@ DirectQuery データセットに基づくレポートについて、レポー�
 
 DirectQuery の詳細については、次のリソースを参照してください。
 
-- [Power BI Desktop での DirectQuery モデル](../desktop-directquery-about.md)
-- [Power BI Desktop で DirectQuery を使用する](../desktop-use-directquery.md)
-- [Power BI Desktop での DirectQuery モデルのトラブルシューティング](../desktop-directquery-troubleshoot.md)
+- [Power BI Desktop での DirectQuery モデル](../connect-data/desktop-directquery-about.md)
+- [Power BI Desktop で DirectQuery を使用する](../connect-data/desktop-use-directquery.md)
+- [Power BI Desktop での DirectQuery モデルのトラブルシューティング](../connect-data/desktop-directquery-troubleshoot.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
