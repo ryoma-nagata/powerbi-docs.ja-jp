@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621643"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349795"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -31,7 +31,7 @@ ms.locfileid: "80621643"
 
 始めるにあたり、必要なもの:
 
-* [Power BI Pro アカウント](../../service-self-service-signup-for-power-bi.md)。
+* [Power BI Pro アカウント](../../fundamentals/service-self-service-signup-for-power-bi.md)。
 * [Microsoft Azure](https://azure.microsoft.com/) サブスクリプション。
 * 独自の [Azure Active Directory テナント](create-an-azure-active-directory-tenant.md)のセットアップが必要です。
 * ページ分割された SharePoint レポートを埋め込むためには、少なくとも P1 容量が必要です。「[ページ分割されたレポートに必要な Premium 容量のサイズはどれくらいですか。](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)」を参照してください。
@@ -60,7 +60,7 @@ Azure でアプリケーションを作成した後、Azure でアプリケー�
 
 ### <a name="create-a-workspace"></a>ワークスペースの作成
 
-顧客向けのレポート、ダッシュボード、またはタイルを埋め込む場合は、コンテンツをワークスペース内に配置する必要があります。 設定可能なワークスペースには、[従来のワークスペース](../../service-create-workspaces.md)と[新しいワークスペース](../../service-create-the-new-workspaces.md)があります。
+顧客向けのレポート、ダッシュボード、またはタイルを埋め込む場合は、コンテンツをワークスペース内に配置する必要があります。 設定可能なワークスペースには、[従来のワークスペース](../../collaborate-share/service-create-workspaces.md)と[新しいワークスペース](../../collaborate-share/service-create-the-new-workspaces.md)があります。
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Power BI レポートを作成して発行する
 
@@ -381,9 +381,9 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
 
-専用の容量を作成することで、ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 ページ分割されたレポートの場合は、少なくとも P1 容量を使用してワークスペースをバックアップする必要があります。 [Power BI Premium](../../service-premium-what-is.md) を使用して、専用の容量を作成できます。
+専用の容量を作成することで、ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 ページ分割されたレポートの場合は、少なくとも P1 容量を使用してワークスペースをバックアップする必要があります。 [Power BI Premium](../../admin/service-premium-what-is.md) を使用して、専用の容量を作成できます。
 
-次の表は、[Microsoft Office 365](../../service-admin-premium-purchase.md) で利用可能な Power BI Premium SKU の一覧です。
+次の表は、[Microsoft Office 365](../../admin/service-admin-premium-purchase.md) で利用可能な Power BI Premium SKU の一覧です。
 
 | 容量ノード | 仮想コアの合計<br/>(バックエンド + フロント エンド) | バックエンドの仮想コア | フロント エンドの仮想コア | DirectQuery/ライブ接続の制限 |
 | --- | --- | --- | --- | --- | --- |
@@ -418,7 +418,7 @@ function updateEmbedReport() {
 
 ## <a name="admin-settings"></a>管理者設定
 
-グローバル管理者または Power BI サービス管理者は、テナントに対して REST API を使う機能を有効または無効にできます。 Power BI 管理者は、組織全体または個々のセキュリティ グループに対してこれを設定できます。 既定では組織全体に対して有効になります。 [Power BI 管理ポータル](../../service-admin-portal.md)でこれらの変更を行うことができます。
+グローバル管理者または Power BI サービス管理者は、テナントに対して REST API を使う機能を有効または無効にできます。 Power BI 管理者は、組織全体または個々のセキュリティ グループに対してこれを設定できます。 既定では組織全体に対して有効になります。 [Power BI 管理ポータル](../../admin/service-admin-portal.md)でこれらの変更を行うことができます。
 
 ## <a name="next-steps"></a>次の手順
 

@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379879"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349289"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Power BI で Power BI ビジュアルにロケールを追加する
 
 ビジュアルでは、Power BI ロケールを取得して、関連する言語にコンテンツをローカライズできます。
 
-詳細については、[Power BI でサポートされる言語と国または地域](./../../supported-languages-countries-regions.md)に関する記事をご覧ください
+詳細については、[Power BI でサポートされる言語と国または地域](./../../fundamentals/supported-languages-countries-regions.md)に関する記事をご覧ください
 
 たとえば、サンプルの横棒グラフ ビジュアルでロケールを取得するとします。
 
@@ -45,7 +45,7 @@ this.locale = options.host.locale;
 
 サポートされているロケール:
 
-ロケール文字列 | Language
+ロケール文字列 | 言語
 --------------|----------------------
 ar-SA | العربية (アラビア語)
 bg-BG | български (ブルガリア語)
@@ -215,6 +215,6 @@ let legend: string = this.localization.getDisplayName("Role_Legend");
 
 en-US の場合は "Legend"、ru-RU の場合は "Обозначения" が返されます
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [書式設定ユーティリティを使用してローカライズされた形式を指定する方法について説明します](utils-formatting.md)

@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: eee7b67fcfaed987170baa8cb5a0b3c8cba86350
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: a7de3dfbbd378ea96f56c1d6d37d273434f5c2f9
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866417"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349818"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI で R ビジュアルを作成して使用する
 
 [!INCLUDE[consumer-appliesto-nnyn](../includes/consumer-appliesto-nnyn.md)]
 
-R ビジュアルは現在、**Power BI Desktop** でのみ作成でき、その後 Power BI サービスに発行できます。 R ビジュアルの作成の詳細については、「[R を使用した Power BI ビジュアルの作成](../desktop-r-visuals.md)」を参照してください。
+R ビジュアルは現在、**Power BI Desktop** でのみ作成でき、その後 Power BI サービスに発行できます。 R ビジュアルの作成の詳細については、「[R を使用した Power BI ビジュアルの作成](../create-reports/desktop-r-visuals.md)」を参照してください。
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Power BI サービスでの R ビジュアルの表示
 Power BI サービスでは、R スクリプトで作成したビジュアルの表示と操作がサポートされています。 R スクリプトで作成したビジュアルは一般的に *R ビジュアル*と呼ばれ、R の豊富な分析と視覚化の機能を使用した高度なデータ整形と予測などの分析に使用できます。
@@ -34,7 +34,7 @@ Power BI サービスでは、R スクリプトで作成したビジュアルの
 
 ![Power BI サービスのレポート キャンバスのスクリーンショット](media/service-r-visuals/power-bi-r-visuals.png)
 
-R ビジュアルは、次の図に示すレポートのような [Power BI Desktop レポート](../desktop-get-the-desktop.md)内に作成します。
+R ビジュアルは、次の図に示すレポートのような [Power BI Desktop レポート](../fundamentals/desktop-get-the-desktop.md)内に作成します。
 
 ![2 つのビジュアルがある Desktop レポート](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
@@ -44,7 +44,7 @@ R ビジュアルは、次の図に示すレポートのような [Power BI Desk
 
 [Power BI Desktop サンプル ファイル](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix ファイル) をダウンロードして、いくつかの R ビジュアルの動作を確認し、さまざまな使い方を試すことができます。
 
-**Power BI Desktop** で作成し、Power BI サービスに発行した R ビジュアルは、ほとんどの部分で Power BI サービスの他のビジュアルと同様に動作し、対話的な操作、フィルター処理、スライス、ダッシュボードへの固定、他のユーザーとの共有ができます。 ダッシュボードとビジュアルの共有の詳細については、「[同僚や他のユーザーとのダッシュボードの共有](../service-share-dashboards.md)」を参照してください。 他のビジュアルとの違いとして、R ビジュアルにはツール ヒントを表示できません。また、R ビジュアルを使って他のビジュアルをフィルター処理することはできません。
+**Power BI Desktop** で作成し、Power BI サービスに発行した R ビジュアルは、ほとんどの部分で Power BI サービスの他のビジュアルと同様に動作し、対話的な操作、フィルター処理、スライス、ダッシュボードへの固定、他のユーザーとの共有ができます。 ダッシュボードとビジュアルの共有の詳細については、「[同僚や他のユーザーとのダッシュボードの共有](../collaborate-share/service-share-dashboards.md)」を参照してください。 他のビジュアルとの違いとして、R ビジュアルにはツール ヒントを表示できません。また、R ビジュアルを使って他のビジュアルをフィルター処理することはできません。
 
 次の図に示すように、Power BI サービスの R ビジュアルは、ダッシュボードとレポートのどちらに表示されるかにかかわらず、ほとんど他のビジュアルと同様に表示され、動作します。ユーザーは基になる R スクリプトを意識する必要がありません。
 
@@ -69,9 +69,9 @@ R スクリプトでエラーが発生した場合、R ビジュアルはプロ�
 ![ランタイム エラーを示すスクリーンショット](media/service-r-visuals/r-visuals-service-5.png)
 
 ## <a name="licensing"></a>ライセンス
-R ビジュアルでは、レポートでの表示、更新、フィルター処理、およびクロスフィルター処理を行う場合、[Power BI Pro](../service-self-service-signup-for-power-bi.md) のライセンスが必要です。 Power BI Pro のライセンスの詳細および無料ライセンスとの違いについては、「[Power BI Pro コンテンツとは](../service-admin-purchasing-power-bi-pro.md)」を参照してください。
+R ビジュアルでは、レポートでの表示、更新、フィルター処理、およびクロスフィルター処理を行う場合、[Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) のライセンスが必要です。 Power BI Pro のライセンスの詳細および無料ライセンスとの違いについては、「[Power BI Pro コンテンツとは](../admin/service-admin-purchasing-power-bi-pro.md)」を参照してください。
 
-Power BI 無料版のユーザーは、Premium ワークスペースで共有されたタイルのみを使用できます。 詳細については、「[Power BI Pro を購入する](../service-admin-purchasing-power-bi-pro.md)」を参照してください。
+Power BI 無料版のユーザーは、Premium ワークスペースで共有されたタイルのみを使用できます。 詳細については、「[Power BI Pro を購入する](../admin/service-admin-purchasing-power-bi-pro.md)」を参照してください。
 
 次の表に、R ビジュアルの機能をライセンス別に示します。
 
@@ -88,7 +88,7 @@ Pro ライセンスを持つ**マネージド テナント**     |   サポー�
 ## <a name="known-limitations"></a>既知の制限事項
 Power BI サービスの R ビジュアルには、一定の制限があります。
 
-* R ビジュアルのサポートは、[サポート対象の R パッケージの確認](../service-r-packages-support.md)に関するページで特定されているパッケージに限定されます。 現在のところ、カスタム パッケージはサポートされていません。
+* R ビジュアルのサポートは、[サポート対象の R パッケージの確認](../connect-data/service-r-packages-support.md)に関するページで特定されているパッケージに限定されます。 現在のところ、カスタム パッケージはサポートされていません。
 * データ サイズの制限 – プロット作成で R ビジュアルが使用するデータは、150,000 行に制限されています。 150,000 を超える行が選択されている場合は、上位の 150,000 の行のみが使用され、メッセージがイメージに表示されます。 また、入力データには 250 MB の制限があります。
 * 解像度 - R ビジュアルはすべて 72 DPI で表示されます。
 * デバイスのプロット - 既定のデバイスへのプロットのみがサポートされています。 
@@ -119,7 +119,7 @@ R パッケージは、適切に定義された形式で結合された R 関数
 
 **Power BI Desktop** では、どのような種類の R パッケージでも制限なく使うことができます。 **Power BI Desktop** で使う R パッケージをユーザー自身がインストールできます (たとえば、[RStudio IDE](https://www.rstudio.com/) を使って)。
 
-**Power BI サービス**の R ビジュアルは、**この記事**の「[サポートされるパッケージ](../service-r-packages-support.md)」セクションで示されているパッケージによってサポートされます。 サポートされるパッケージの一覧に目的のパッケージがない場合は、パッケージのサポートを要求できます。 サポートを要求する方法については、「[Power BI サービスの R パッケージ](../service-r-packages-support.md)」を参照してください。
+**Power BI サービス**の R ビジュアルは、**この記事**の「[サポートされるパッケージ](../connect-data/service-r-packages-support.md)」セクションで示されているパッケージによってサポートされます。 サポートされるパッケージの一覧に目的のパッケージがない場合は、パッケージのサポートを要求できます。 サポートを要求する方法については、「[Power BI サービスの R パッケージ](../connect-data/service-r-packages-support.md)」を参照してください。
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>R パッケージの要件と制限事項
 R パッケージにはいくつかの要件と制限があります。
@@ -130,11 +130,10 @@ R パッケージにはいくつかの要件と制限があります。
   
   * R ビジュアルの場合は、カスタム R パッケージを含むすべてのパッケージをインストールできます。
   * カスタム R ビジュアルの場合は、パブリック CRAN パッケージのみがパッケージの自動インストールに対してサポートされます。
-* セキュリティおよびプライバシー上の理由から、World Wide Web 経由でクライアント サーバー クエリを提供する R パッケージ (RgoogleMaps など) は、現在はサービスでサポートされていません。 このような試みに対してはネットワークがブロックされます。 サポート対象およびサポート非対象の R パッケージの一覧は、「[Power BI サービスの R パッケージ](../service-r-packages-support.md)」を参照してください。
+* セキュリティおよびプライバシー上の理由から、World Wide Web 経由でクライアント サーバー クエリを提供する R パッケージ (RgoogleMaps など) は、現在はサービスでサポートされていません。 このような試みに対してはネットワークがブロックされます。 サポート対象およびサポート非対象の R パッケージの一覧は、「[Power BI サービスの R パッケージ](../connect-data/service-r-packages-support.md)」を参照してください。
 * 新しい R パッケージの組み込みに関する承認プロセスには、依存関係のツリーがあります。サービスにインストールするために必要な一部の依存関係はサポートできません。
 
 ### <a name="supported-packages"></a>サポートされているパッケージ:
 サポート対象の R パッケージの長い一覧 (およびサポート非対象のパッケージの短い一覧) は、次の記事を参照してください。
 
-* [Power BI サービスの R パッケージ](../service-r-packages-support.md)
-
+* [Power BI サービスの R パッケージ](../connect-data/service-r-packages-support.md)

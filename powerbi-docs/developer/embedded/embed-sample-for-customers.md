@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403827"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349841"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>チュートリアル:顧客向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -31,7 +31,7 @@ ms.locfileid: "80403827"
 
 始めるにあたり、必要なもの:
 
-* [Power BI Pro アカウント](../../service-self-service-signup-for-power-bi.md) (Power BI Pro アカウントにサインインするためのユーザー名とパスワードとなるマスター アカウント) または[サービス プリンシパル (アプリ専用トークン)](embed-service-principal.md)。
+* [Power BI Pro アカウント](../../fundamentals/service-self-service-signup-for-power-bi.md) (Power BI Pro アカウントにサインインするためのユーザー名とパスワードとなるマスター アカウント) または[サービス プリンシパル (アプリ専用トークン)](embed-service-principal.md)。
 * 独自の [Azure Active Directory テナント](create-an-azure-active-directory-tenant.md)のセットアップが必要です。
 
 **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/pricing/)してください。
@@ -58,7 +58,7 @@ Azure Active Directory に[アプリケーションを登録する](register-app
 
 ### <a name="create-a-workspace"></a>ワークスペースの作成
 
-顧客向けのレポート、ダッシュボード、またはタイルを埋め込む場合は、コンテンツをワークスペース内に配置する必要があります。 設定可能なワークスペースには、[従来のワークスペース](../../service-create-workspaces.md)と[新しいワークスペース](../../service-create-the-new-workspaces.md)があります。 *マスター* アカウントを使用する場合、いずれのワークスペースを使用してもかまいません。 一方、" *[サービス プリンシパル](embed-service-principal.md)* " を使用してアプリケーションにサインインする場合、新しいワークスペースを使用する必要があります。 いずれの場合でも、"*マスター*" アカウントも "*サービス プリンシパル*" もアプリケーションに関連するワークスペースの管理者でなければなりません。
+顧客向けのレポート、ダッシュボード、またはタイルを埋め込む場合は、コンテンツをワークスペース内に配置する必要があります。 設定可能なワークスペースには、[従来のワークスペース](../../collaborate-share/service-create-workspaces.md)と[新しいワークスペース](../../collaborate-share/service-create-the-new-workspaces.md)があります。 *マスター* アカウントを使用する場合、いずれのワークスペースを使用してもかまいません。 一方、" *[サービス プリンシパル](embed-service-principal.md)* " を使用してアプリケーションにサインインする場合、新しいワークスペースを使用する必要があります。 いずれの場合でも、"*マスター*" アカウントも "*サービス プリンシパル*" もアプリケーションに関連するワークスペースの管理者でなければなりません。
 
 ### <a name="create-and-publish-your-reports"></a>レポートを作成して発行する
 
@@ -409,7 +409,7 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 ### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
 
 専用の容量を作成することで、顧客専用のリソースを所有する利点が得られます。 選択できる容量には、次の 2 種類があります。
-* **Power BI Premium** - 2 つの SKU ファミリ (*EM* および *P*) で利用可能なテナントレベルの Office 365 サブスクリプションです。Power BI コンテンツを埋め込む場合、このソリューションは "*Power BI 埋め込み*" と呼ばれます。 このサブスクリプションの詳細については、「[Power BI Premium とは](../../service-premium-what-is.md)」を参照してください。
+* **Power BI Premium** - 2 つの SKU ファミリ (*EM* および *P*) で利用可能なテナントレベルの Office 365 サブスクリプションです。Power BI コンテンツを埋め込む場合、このソリューションは "*Power BI 埋め込み*" と呼ばれます。 このサブスクリプションの詳細については、「[Power BI Premium とは](../../admin/service-premium-what-is.md)」を参照してください。
 * **Azure Power BI Embedded** - [Microsoft Azure portal](https://portal.azure.com) で専用の容量を購入できます。 このサブスクリプションは、*A* SKU を使用します。 Power BI Embedded 容量の作成方法の詳細については、「[Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md)」 (Azure Portal で Power BI Embedded 容量を作成する) をご覧ください。
 > [!NOTE]
 > A SKU の場合、無料 Power BI ライセンスでは Power BI コンテンツにアクセスできません。

@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487753"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349611"
 ---
 # <a name="what-is-power-bi"></a>Power BI とは?
 **Power BI** はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型洞察を得ることができます。 Excel スプレッドシートや、クラウド ベースとオンプレミスのハイブリッド データ ウェアハウスのコレクションなど、さまざまなデータを使えます。 Power BI を使うと、ご利用のデータ ソースへの接続、重要事項の視覚化と検出、必要に応じた任意のユーザーまたはすべてのユーザーとの共有を、簡単に実行できます。
@@ -42,9 +42,9 @@ Power BI の使用方法は、プロジェクトまたはチームにおける�
 Power BI の使用方法は、Power BI のどの機能またはサービスがご自分の状況に対して最適なツールとなるかに基づいています。 たとえば、Power BI Desktop を使用して、顧客契約統計に関するレポートを自分のチーム用に作成したり、Power BI サービスのリアルタイム ダッシュボードで在庫や製造の進行状況を確認したりすることができます。 Power BI の各部分を利用できることが、その柔軟性と魅力の理由です。
 
 ご自身のロールに関連するドキュメントについては、次をご覧ください。
-- [*デザイナー*](../desktop-what-is-desktop.md)向け Power BI Desktop
+- [*デザイナー*](desktop-what-is-desktop.md)向け Power BI Desktop
 - [*利用者*](../consumer/end-user-consumer.md)向け Power BI
-- [*管理者*](../service-admin-administering-power-bi-in-your-organization.md)向け Power BI
+- [*管理者*](../admin/service-admin-administering-power-bi-in-your-organization.md)向け Power BI
 - "*開発者向け*" Power BI
     * [Power BI を使用した埋め込み分析](../developer/embedded/embedding.md)
     * [Azure の Power BI Embedded とは何か](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
@@ -71,5 +71,5 @@ Power BI Report Server は、ファイアウォールの背後に展開するソ
 
 ## <a name="next-steps"></a>次の手順
 - [クイック スタート:Power BI サービスの使用方法を学ぶ](../service-the-new-power-bi-experience.md)   
-- [チュートリアル: Power BI サービスの概要](../service-get-started.md)
-- [クイック スタート:Power BI Desktop でデータに接続する](../desktop-quickstart-connect-to-data.md)
+- [チュートリアル: Power BI サービスの概要](service-get-started.md)
+- [クイック スタート:Power BI Desktop でデータに接続する](../connect-data/desktop-quickstart-connect-to-data.md)
