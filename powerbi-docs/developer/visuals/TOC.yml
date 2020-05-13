@@ -12,6 +12,10 @@
       items:
         - name: Power BI のビジュアルを開発する
           href: custom-visual-develop-tutorial.md
+        - name: 反応ベースのビジュアルを作成する
+          href: create-react-visual.md
+        - name: 横棒グラフを作成する
+          href: create-bar-chart.md
         - name: 書式設定オプションを追加する
           href: custom-visual-develop-tutorial-format-options.md
         - name: ビジュアル プロジェクトの単体テストを追加する
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: 高度な編集モード
           href: advanced-edit-mode.md
+        - name: supportsKeyboardFocus 機能
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: 操作方法
       items:
         - name: 認定済みの Power BI ビジュアルを取得する
           href: power-bi-custom-visuals-certified.md
         - name: Power BI ビジュアルを AppSource に発行する
           href: office-store.md
+        - name: Power BI のビジュアルをテストする
+          href: submission-testing.md
         - name: Power BI で R を利用した Power BI ビジュアルを使用する
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: ビジュアル対話
           href: visuals-interactions.md
         - name: 選択範囲を追加する
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: ドリルダウン サポートの追加
           href: drill-down-support.md
+        - name: ビジュアルに色を追加する
+          href: add-colors-power-bi-visual.md
         - name: ビジュアル内のデータを強調表示する
           href: highlight.md
         - name: ハイコントラスト モードのサポートを追加する
@@ -78,10 +90,14 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: リファレンス
       items:
+        - name: 変更ログ
+          href: changelog.md
         - name: ランディング ページ
           href: landing-page.md
         - name: URL の起動
           href: launch-url.md
+        - name: ビジュアル API
+          href: visual-api.md
         - name: ローカル ストレージ API
           href: local-storage.md
         - name: イベントのレンダリング
@@ -119,8 +135,8 @@
         - name: デベロッパー センター
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Power BI ビジュアルのサンプル
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Power BI ビジュアル Git リポジトリ
+          href: samples.md
+        - name: カスタム ビジュアル Git リポジトリ
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: SSL 証明書を作成する
           href: create-ssl-certificate.md

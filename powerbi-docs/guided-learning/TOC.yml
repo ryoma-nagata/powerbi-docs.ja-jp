@@ -1,12 +1,12 @@
-- name: Power BI の探索 (コンシューマー)
+- name: Power BI の探索 (../consumer)
   href: 'https://docs.microsoft.com/learn/modules/explore-power-bi-service'
-- name: Power BI でデータを分析する (コンシューマー)
+- name: Power BI でデータを分析する (../consumer)
   href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
 - name: Power BI を使用してビルドを開始する
   href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
-- name: データを取得する
+- name: データを取得
   href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
-- name: モデル データ
+- name: モデルのデータ
   href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
 - name: ビジュアルの使用
   href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
