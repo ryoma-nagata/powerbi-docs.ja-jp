@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a22bba65b44446e7027627a24ebcf316f8f073d4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79039990"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348392"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 
@@ -42,21 +42,21 @@ Power BI Premium では、専用の容量を提供して、より一貫したパ
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI Premium について質問がある場合はどうすればよいですか?
 
-Power BI Premium に関連する質問については、「[Power BI Premium FAQ](../service-premium-faq.md)」 (Power BI Premium のよく寄せられる質問) をご覧ください。
+Power BI Premium に関連する質問については、「[Power BI Premium FAQ](../admin/service-premium-faq.md)」 (Power BI Premium のよく寄せられる質問) をご覧ください。
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop とは何ですか?
 
-Power BI Desktop は無償のアプリケーションで、各自のコンピューターに直接インストールできます。 Power BI Desktop は、Power BI サービスと連携して動作します。  データ サイエンティスト、レポート デザイナー、管理者、および開発者は、Power BI Desktop を操作してレポートを作成し、お客様のような Power BI サービスの "*コンシューマー*" が利用できるようにします。 [Power BI Desktop](../desktop-what-is-desktop.md) について、詳細を確認してください。
+Power BI Desktop は無償のアプリケーションで、各自のコンピューターに直接インストールできます。 Power BI Desktop は、Power BI サービスと連携して動作します。  データ サイエンティスト、レポート デザイナー、管理者、および開発者は、Power BI Desktop を操作してレポートを作成し、お客様のような Power BI サービスの "*コンシューマー*" が利用できるようにします。 [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) について、詳細を確認してください。
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>"*コンシューマー*" として Power BI サービスを使用するには何が必要ですか?
 
 お客様の会社が Power BI ライセンスまたは Premium 容量アカウントを購入している場合、お客様が必要とするのは Web ブラウザーと資格情報だけです。 ログインするには、職場の電子メール アドレスと、パスワード (Power BI 管理者によって設定されます) を使用します。  
 
-また、個人として Power BI サービスにサインアップすることもできます。 [Power BI のセルフサービス サインアップのプロセス](../service-self-service-signup-for-power-bi.md)に関するページを参照してください。
+また、個人として Power BI サービスにサインアップすることもできます。 [Power BI のセルフサービス サインアップのプロセス](../fundamentals/service-self-service-signup-for-power-bi.md)に関するページを参照してください。
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>勤務先の電子メール アドレスでサインアップしなければならないのはなぜですか?
 
-Power BI では、コンシューマー向けメール サービスまたは通信プロバイダーが提供しているメール アドレスはサポートされません。 [Power BI のセルフサービス サインアップのプロセス](../service-self-service-signup-for-power-bi.md)の詳細をご覧ください。
+Power BI では、コンシューマー向けメール サービスまたは通信プロバイダーが提供しているメール アドレスはサポートされません。 [Power BI のセルフサービス サインアップのプロセス](../fundamentals/service-self-service-signup-for-power-bi.md)の詳細をご覧ください。
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI はモバイル デバイスをサポートしていますか?
 
@@ -80,12 +80,12 @@ Power BI モバイル アプリはそれぞれ該当するストアから無料�
 
 使い始めるときに役立つリソースを次に示します。
 
-* [Power BI ブログ](https://blogs.msdn.com/b/powerbi/)
-* [Web セミナー](../webinars.md)
+* [Power BI ブログ](https://powerbi.microsoft.com/blog/)
+* [Web セミナー](../fundamentals/webinars.md)
 * [YouTube チャンネル](https://www.youtube.com/user/mspowerbi)の概要ビデオ
 * [*コンシューマー*としての Power BI の使用開始](index.yml)に関する記事
 * [コミュニティに参加](https://community.powerbi.com/)して質問する
-* 他の推奨事項については、「[ヘルプを取得するための 10 のヒント](../service-tips-for-finding-help.md)」をご覧ください。
+* 他の推奨事項については、「[ヘルプを取得するための 10 のヒント](../fundamentals/service-tips-for-finding-help.md)」をご覧ください。
 
 ## <a name="what-browsers-does-power-bi-support"></a>Power BI はどのブラウザーをサポートしていますか?
 
@@ -93,7 +93,7 @@ Power BI モバイル アプリはそれぞれ該当するストアから無料�
 
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Power BI はどの地域と言語をサポートしていますか?
 
-[Power BI でサポートされている地域と言語](../supported-languages-countries-regions.md)の完全なリストをご覧ください。
+[Power BI でサポートされている地域と言語](../fundamentals/supported-languages-countries-regions.md)の完全なリストをご覧ください。
 
 ## <a name="where-can-i-learn-more-about-security"></a>どこでセキュリティについてさらに学習できますか?
 
@@ -101,7 +101,7 @@ Power BI セキュリティ、プライバシー、およびコンプライア�
 
 * こちらの [Power BI のセキュリティ](https://go.microsoft.com/fwlink/?LinkId=829185)に関するホワイトペーパー
 
-* こちらの [Power BI のセキュリティ のサポート](../service-admin-power-bi-security.md)に関する記事
+* こちらの [Power BI のセキュリティ のサポート](../admin/service-admin-power-bi-security.md)に関する記事
 
 ## <a name="how-do-i-undo-in-power-bi"></a>Power BI で元に戻す方法
 

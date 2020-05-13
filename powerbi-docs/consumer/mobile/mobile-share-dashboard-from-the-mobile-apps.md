@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31d3ee405f77acaa47bb158ddde97778a8af9ff0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435791"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349335"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI モバイル アプリからダッシュボードまたはレポートを共有する
 適用対象:
@@ -25,7 +25,7 @@ ms.locfileid: "79435791"
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
 
-[Power BI Pro ライセンス](../../service-features-license-type.md)があると、Power BI モバイル アプリからリンクを共有することにより、ダッシュボードやレポートを見るよう他のユーザーを招待できます。 同じ組織に属しているかどうか、会社のメール アカウントを持っているかどうかに関係なく、どのようなユーザーとでも共有できます。 ただし、他のユーザーも Power BI Pro ライセンスを持っているか、またはコンテンツを [Premium 容量](../../service-premium-what-is.md)に格納する必要があります。
+[Power BI Pro ライセンス](../../fundamentals/service-features-license-type.md)があると、Power BI モバイル アプリからリンクを共有することにより、ダッシュボードやレポートを見るよう他のユーザーを招待できます。 同じ組織に属しているかどうか、会社のメール アカウントを持っているかどうかに関係なく、どのようなユーザーとでも共有できます。 ただし、他のユーザーも Power BI Pro ライセンスを持っているか、またはコンテンツを [Premium 容量](../../admin/service-premium-what-is.md)に格納する必要があります。
 
 iOS および Android デバイス用 Power BI モバイル アプリから、[タイル、レポート、または視覚エフェクトのスナップショットに注釈を付けて、だれかと共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)することもできます。 
 
@@ -42,7 +42,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    * Power BI モバイル アプリの場合、ナビゲーション バーの **[その他のオプション]** (...) をタップし、![[自分と共有]](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **[自分と共有]** を選択します。
    * Power BI サービスの場合、左側ナビゲーション ウィンドウにある ![[自分と共有]](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **[自分と共有]** をクリックします。
    
-   詳細については、[同僚との共有に関する注意事項](../../service-share-dashboards.md)のページをご覧ください。
+   詳細については、[同僚との共有に関する注意事項](../../collaborate-share/service-share-dashboards.md)のページをご覧ください。
 
 ### <a name="unshare-from-your-iphone-or-ipad"></a>iPhone または iPad からの共有を解除する
 共有を解除することができるのは所有者のみです。
@@ -67,7 +67,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    * Power BI モバイル アプリの場合、ナビゲーション バーの **[その他のオプション]** (...) をタップし、![[自分と共有]](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **[自分と共有]** を選択します。
    * Power BI サービスの場合、左側ナビゲーション ウィンドウにある ![[自分と共有]](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **[自分と共有]** をクリックします。
    
-   詳細については、[同僚との共有に関する注意事項](../../service-share-dashboards.md)のページをご覧ください。
+   詳細については、[同僚との共有に関する注意事項](../../collaborate-share/service-share-dashboards.md)のページをご覧ください。
 
 
 ### <a name="unshare-from-your-android-device"></a>Android デバイスから共有を解除する
@@ -97,10 +97,9 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    * Power BI モバイル アプリの場合、ナビゲーション バーの **[その他のオプション]** (...) をタップし、![[自分と共有]](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **[自分と共有]** を選択します。
    * Power BI サービスの場合、左側ナビゲーション ウィンドウにある ![[自分と共有]](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **[自分と共有]** をクリックします。
    
-   詳細については、[同僚との共有に関する注意事項](../../service-share-dashboards.md)のページをご覧ください。
+   詳細については、[同僚との共有に関する注意事項](../../collaborate-share/service-share-dashboards.md)のページをご覧ください。
 
 ## <a name="next-steps"></a>次のステップ
 * [モバイル アプリにおけるタイル、レポート、または視覚エフェクトのスナップショットの注釈付けと共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
-* [Power BI でダッシュボードまたはレポートを共有する](../../service-share-dashboards.md)
+* [Power BI でダッシュボードまたはレポートを共有する](../../collaborate-share/service-share-dashboards.md)
 * ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

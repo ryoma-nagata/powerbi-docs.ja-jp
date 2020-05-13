@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3dcd968d00d98106a8b717e635b8a7fdf958dc70
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114390"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347334"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI サービスで関連するコンテンツを表示する
 
@@ -47,12 +47,12 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 
 ![[関連するコンテンツ] ウィンドウ](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-ここからは、関連するコンテンツに対する操作を直接実行できます。  たとえば、レポートまたはダッシュボード名を選択して開きます。  表示されたレポートで、[Excel で分析](../service-analyze-in-excel.md)や[詳細情報の取得](end-user-insights.md)などのアイコンを選択します。 データセットの場合は、最後に更新された日時を確認し、[Excel で分析](../service-analyze-in-excel.md)し、[詳細情報を取得する](end-user-insights.md)ことができます。  
+ここからは、関連するコンテンツに対する操作を直接実行できます。  たとえば、レポートまたはダッシュボード名を選択して開きます。  表示されたレポートで、[Excel で分析](../collaborate-share/service-analyze-in-excel.md)や[詳細情報の取得](end-user-insights.md)などのアイコンを選択します。 データセットの場合は、最後に更新された日時を確認し、[Excel で分析](../collaborate-share/service-analyze-in-excel.md)し、[詳細情報を取得する](end-user-insights.md)ことができます。  
 
 
 
 ## <a name="view-related-content-for-a-dataset"></a>データセットの関連するコンテンツを表示する
-*[関連するコンテンツ]* ペインを開くには、データセットに対する "**表示**" アクセス許可が少なくとも必要です。 この例では、[調達の分析のサンプル](../sample-procurement.md)を使います。
+*[関連するコンテンツ]* ペインを開くには、データセットに対する "**表示**" アクセス許可が少なくとも必要です。 この例では、[調達の分析のサンプル](../create-reports/sample-procurement.md)を使います。
 
 ナビ ペインで **[ワークスペース]** の見出しを探し、一覧からワークスペースを選択します。 ワークスペースにコンテンツがある場合は、右側のキャンバスに表示されます。 
 
@@ -67,7 +67,7 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 
 ![Power BI のコンテンツ ビューの上部にある [関連するコンテンツ] ペイン](media/end-user-related/power-bi-dataset.png)
 
-ここからは、関連するコンテンツに対する操作を直接実行できます。 たとえば、ダッシュボード名またはレポート名を選んで開きます。  一覧のダッシュボードで、[ダッシュボードを他のユーザーと共有する](../service-share-dashboards.md)アイコンや、ダッシュボードの **[設定]** ウィンドウを開くアイコンを選びます。 レポートで、[Excel での分析](../service-analyze-in-excel.md)、[名前の変更](../service-rename.md)、[詳細情報の取得](end-user-insights.md)などのアイコンを選びます。  
+ここからは、関連するコンテンツに対する操作を直接実行できます。 たとえば、ダッシュボード名またはレポート名を選んで開きます。  一覧のダッシュボードで、[ダッシュボードを他のユーザーと共有する](../collaborate-share/service-share-dashboards.md)アイコンや、ダッシュボードの **[設定]** ウィンドウを開くアイコンを選びます。 レポートで、[Excel での分析](../collaborate-share/service-analyze-in-excel.md)、[名前の変更](../create-reports/service-rename.md)、[詳細情報の取得](end-user-insights.md)などのアイコンを選びます。  
 
 ## <a name="limitations-and-troubleshooting"></a>制限事項とトラブルシューティング
 * "関連の表示" が表示されない場合は、代わりにそのアイコンを探します ![[関連の表示] アイコン](./media/end-user-related/power-bi-view-related-icon-new.png)。 アイコンを選び、 **[関連するコンテンツ]** ペインを開きます。
@@ -75,6 +75,5 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 * 関連するコンテンツの機能は、ストリーミング データセットには機能しません。
 
 ## <a name="next-steps"></a>次のステップ
-* [Power BI サービスの概要](../service-get-started.md)
+* [Power BI サービスの概要](../fundamentals/service-get-started.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
-

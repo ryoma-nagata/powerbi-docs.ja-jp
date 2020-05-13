@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79126261"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349220"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop と Power BI サービスの比較
 
@@ -23,7 +23,7 @@ Power BI Desktop と Power BI サービスを比較したベン図では、中�
 
 ![Power BI Desktop と Power BI サービスのベン図](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop** は、ローカル コンピューターに無料でアプリケーションをインストールする完全なデータ分析とレポート作成ツールです。 これには、さまざまなデータ ソースに接続し、それらを 1 つのデータ モデルに結合できる (これはモデリングと呼ばれることがあります) クエリ エディターが含まれています。 その後、そのデータ モデルに基づいてレポートを設計します。 「[Power BI Desktop 概要ガイド](../desktop-getting-started.md)」でこのプロセスが説明されています。
+**Power BI Desktop** は、ローカル コンピューターに無料でアプリケーションをインストールする完全なデータ分析とレポート作成ツールです。 これには、さまざまなデータ ソースに接続し、それらを 1 つのデータ モデルに結合できる (これはモデリングと呼ばれることがあります) クエリ エディターが含まれています。 その後、そのデータ モデルに基づいてレポートを設計します。 「[Power BI Desktop 概要ガイド](desktop-getting-started.md)」でこのプロセスが説明されています。
 
 **Power BI サービス**はクラウドベースのサービスです。 チームや組織のための簡単なレポート編集や共同作業をサポートします。 Power BI サービスでもデータ ソースに接続できますが、モデリングに制限があります。 
 
@@ -50,19 +50,18 @@ Power BI Desktop と Power BI サービスのレポート エディターは同�
 ### <a name="collaborating"></a>共同作業
 
 
-レポートを作成したら、それを *Power BI サービス*の**ワークスペース**に保存し、そこで同僚と共同作業できます。 このレポートの上に*ダッシュボード*を構築します。 その後、組織内外のレポート利用者とダッシュボードやレポートを共有します。 レポート利用者は Power BI サービスの編集ビューではなく、"*読み取りビュー*" でダッシュボードやレポートを閲覧します。 レポート作成者が利用できる機能をすべて利用することはできません。  また、データセットを共有し、他のユーザーが独自のレポートを作成できるようにすることもできます。 Power BI サービスでの共同作業の詳細については、[こちら](../service-new-workspaces.md)をご覧ください。
+レポートを作成したら、それを *Power BI サービス*の**ワークスペース**に保存し、そこで同僚と共同作業できます。 このレポートの上に*ダッシュボード*を構築します。 その後、組織内外のレポート利用者とダッシュボードやレポートを共有します。 レポート利用者は Power BI サービスの編集ビューではなく、"*読み取りビュー*" でダッシュボードやレポートを閲覧します。 レポート作成者が利用できる機能をすべて利用することはできません。  また、データセットを共有し、他のユーザーが独自のレポートを作成できるようにすることもできます。 Power BI サービスでの共同作業の詳細については、[こちら](../collaborate-share/service-new-workspaces.md)をご覧ください。
 
 ### <a name="self-service-data-prep-with-dataflows"></a>データフローを使用したセルフサービスのデータ準備
 
-データフローは、組織がばらばらのソースからデータを取りまとめてモデリング用に準備するのに役立ちます。 アナリストは、使い慣れたセルフサービス ツールを使用して簡単にデータフローを作成できます。 アナリストは、データフローを使用して、データ ソース接続、ETL ロジック、更新スケジュールなどを定義することにより、ビッグ データの取り込み、変換、統合、補強を行います。 データフローを使用したセルフサービスのデータ準備の詳細については、[こちら](../service-dataflows-overview.md)をご覧ください。
+データフローは、組織がばらばらのソースからデータを取りまとめてモデリング用に準備するのに役立ちます。 アナリストは、使い慣れたセルフサービス ツールを使用して簡単にデータフローを作成できます。 アナリストは、データフローを使用して、データ ソース接続、ETL ロジック、更新スケジュールなどを定義することにより、ビッグ データの取り込み、変換、統合、補強を行います。 データフローを使用したセルフサービスのデータ準備の詳細については、[こちら](../transform-model/service-dataflows-overview.md)をご覧ください。
 
 ## <a name="next-steps"></a>次のステップ
 
-[Power BI Desktop とは何ですか?](../desktop-what-is-desktop.md)
+[Power BI Desktop とは何ですか?](desktop-what-is-desktop.md)
 
-Power BI サービスで[レポートを作成する](../service-report-create-new.md)
+Power BI サービスで[レポートを作成する](../create-reports/service-report-create-new.md)
 
-[レポート デザイナーの基本的な概念](../service-basic-concepts.md)
+[レポート デザイナーの基本的な概念](service-basic-concepts.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
-

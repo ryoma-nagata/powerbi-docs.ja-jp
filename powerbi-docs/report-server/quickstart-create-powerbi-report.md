@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: efc316e93bea9cfc1b3f429657ac2810e13f4e63
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76975012"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349473"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server の Power BI レポートの作成
 Power BI サービス (https://powerbi.com) ) のクラウドで Power BI レポートを格納する場合と同じように、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで格納して管理することができます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
@@ -79,7 +79,7 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
 2. カウントするフィールドを **[値]** にドラッグします。 それが数値フィールドでない場合、Power BI Desktop はそれを自動的に値の*カウント*にします。
 3. フィールドを **[グループ]** のグループにドラッグします。
 
-詳細については、[Power BI レポートのデザイン](../desktop-report-view.md)に関する記事を参照してください。
+詳細については、[Power BI レポートのデザイン](../create-reports/desktop-report-view.md)に関する記事を参照してください。
 
 ## <a name="step-4-save-your-report-to-the-report-server"></a>手順 4.レポート サーバーにレポートを保存する
 レポートの準備ができたら、それを手順 2 で選択した Power BI Report Server に保存します。
@@ -98,7 +98,7 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 Power BI Desktop でのレポートを作成するために役立つ多くの優れたリソースがあります。 このリンクを出発点にすることをお勧めします。
 
-* [Power BI Desktop の概要](../desktop-getting-started.md)
+* [Power BI Desktop の概要](../fundamentals/desktop-getting-started.md)
 * ガイド付き学習:[Power BI Desktop を調べる](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server

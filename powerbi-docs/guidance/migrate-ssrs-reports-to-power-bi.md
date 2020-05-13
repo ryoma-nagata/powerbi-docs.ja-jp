@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525616"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348185"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services レポートを Power BI に移行する
 
@@ -37,7 +37,7 @@ SSRS サーバーのダウンタイムや、レポート ユーザーの混乱�
 
 ### <a name="preparing-for-migration"></a>移行の準備
 
-Power BI にレポートを移行する準備では、まず、組織に [Power BI Premium](../service-premium-what-is.md) サブスクリプションがあることを確認します。 Power BI のページ分割されたレポートをホストして実行するには、このサブスクリプションが必要です。
+Power BI にレポートを移行する準備では、まず、組織に [Power BI Premium](../admin/service-premium-what-is.md) サブスクリプションがあることを確認します。 Power BI のページ分割されたレポートをホストして実行するには、このサブスクリプションが必要です。
 
 ### <a name="supported-versions"></a>サポートされているバージョン
 
@@ -112,12 +112,12 @@ RDL レポートで "_オンプレミスのデータ ソース_" からデータ
 
 "_準備_" フェーズの目的は、すべての準備を完了することです。 Power BI 環境の設定、レポートをセキュリティで保護して発行する方法の計画、移行されない SSRS 項目の再開発の構想が含まれます。
 
-1. Power BI Premium 容量で[ページ分割されたレポート ワークロード](../service-admin-premium-workloads.md#paginated-reports)が有効になっていること、および十分なメモリがあることを確認します。
-1. レポートの[データ ソース](../paginated-reports/paginated-reports-data-sources.md)のサポートを確認し、オンプレミスのデータ ソースとの接続を許可するように [Power BI Gateway](../service-gateway-onprem.md) を設定します。
-1. Power BI のセキュリティについてよく理解し、[Power BI のワークスペースとワークスペース ロール](../service-new-workspaces.md)で [SSRS のフォルダーとアクセス許可を再現する方法](/sql/reporting-services/security/secure-folders)を計画します。
-1. Power BI の共有についての理解を深め、[Power BI アプリ](../service-create-distribute-apps.md)を発行してコンテンツを配布する方法を計画します。
-1. SSRS 共有データ ソースの代わりに、[共有 Power BI データセット](../service-datasets-build-permissions.md)を使用することを検討します。
-1. [Power BI Desktop](../desktop-what-is-desktop.md) を使用して、モバイルに最適化されたレポートを開発します。場合によっては、SSRS モバイル レポートと KPI の代わりに、[Power KPI カスタム ビジュアル](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)を使用します。
+1. Power BI Premium 容量で[ページ分割されたレポート ワークロード](../admin/service-admin-premium-workloads.md#paginated-reports)が有効になっていること、および十分なメモリがあることを確認します。
+1. レポートの[データ ソース](../paginated-reports/paginated-reports-data-sources.md)のサポートを確認し、オンプレミスのデータ ソースとの接続を許可するように [Power BI Gateway](../connect-data/service-gateway-onprem.md) を設定します。
+1. Power BI のセキュリティについてよく理解し、[Power BI のワークスペースとワークスペース ロール](../collaborate-share/service-new-workspaces.md)で [SSRS のフォルダーとアクセス許可を再現する方法](/sql/reporting-services/security/secure-folders)を計画します。
+1. Power BI の共有についての理解を深め、[Power BI アプリ](../collaborate-share/service-create-distribute-apps.md)を発行してコンテンツを配布する方法を計画します。
+1. SSRS 共有データ ソースの代わりに、[共有 Power BI データセット](../connect-data/service-datasets-build-permissions.md)を使用することを検討します。
+1. [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) を使用して、モバイルに最適化されたレポートを開発します。場合によっては、SSRS モバイル レポートと KPI の代わりに、[Power KPI カスタム ビジュアル](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)を使用します。
 1. レポートの **UserID** 組み込みフィールドの使用を再評価します。 レポート データをセキュリティで保護するために **UserID** を利用している場合は、ページ分割されたレポート (Power BI サービスでホストされている場合) では、ユーザー プリンシパル名 (UPN) が返されることに注意してください。 そのため、組み込みフィールドでは、_AW\mblythe_ などの NT アカウント名が返されず、_m.blythe&commat;adventureworks.com_ のような値が返されます。 データセット定義と、場合によってはソース データを修正する必要があります。 修正して発行したら、データ アクセス許可が期待どおりに動作することを確認するためにレポートを徹底的にテストすることをお勧めします。
 1. レポートの **ExecutionTime** 組み込みフィールドの使用を再評価します。 ページ分割されたレポート (Power BI サービスでホストされている場合) では、組み込みフィールドから "_協定世界時 (UTC)_ " で日時が返されます。 これは、レポート パラメーターの既定値と、レポート実行時間ラベル (通常はレポート フッターに追加されます) に影響する可能性があります。
 1. お使いのデータソースが SQL Server (オンプレミス) の場合は、レポートでマップの視覚化が使用されていないことを確認します。 マップの視覚化は SQL Server の空間データ型に依存し、これらはゲートウェイではサポートされません。 詳細については、[ページ分割されたレポートでのデータ取得のガイダンス (SQL Server の複合データ型)](report-paginated-data-retrieval.md#sql-server-complex-data-types) に関するページを参照してください。
@@ -171,9 +171,9 @@ API の詳細については、以下を参照してください。
 
 次のことを行って、レポートのユーザー エクスペリエンスを可能な限り快適にすることを強くお勧めします。
 
-1. [Power BI でサポートされている各ブラウザー](../power-bi-browsers.md)でレポートをテストし、レポートが正しく表示されることを確認します。
+1. [Power BI でサポートされている各ブラウザー](../fundamentals/power-bi-browsers.md)でレポートをテストし、レポートが正しく表示されることを確認します。
 1. テストを実行し、SSRS と Power BI でのレポートの表示時間を比較します。 Power BI のレポートが、許容できる時間内に表示されることを確認します。
-1. メモリ不足のために Power BI レポートが表示されない場合は、[Power BI Premium 容量に追加のリソース](../service-admin-premium-workloads.md#paginated-reports)を割り当てます。
+1. メモリ不足のために Power BI レポートが表示されない場合は、[Power BI Premium 容量に追加のリソース](../admin/service-admin-premium-workloads.md#paginated-reports)を割り当てます。
 1. 表示時間の長いレポートの場合は、[レポートが添付された電子メール サブスクリプション](../consumer/paginated-reports-subscriptions.md)としてレポートをユーザーに配信するよう Power BI を設定することを検討します。
 1. Power BI データセットに基づく Power BI レポートの場合は、モデルの設計を見直して、完全に最適化されていることを確認します。
 
@@ -183,8 +183,8 @@ API の詳細については、以下を参照してください。
 
 問題を理解して軽減するための具体的な手順など、これらの問題の詳細については、次の記事を参照してください。
 
-- [Premium 容量を最適化する](../service-premium-capacity-optimize.md)
-- [アプリで Premium 容量を監視する](../service-admin-premium-monitor-capacity.md)
+- [Premium 容量を最適化する](../admin/service-premium-capacity-optimize.md)
+- [アプリで Premium 容量を監視する](../admin/service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>次の手順
 
@@ -195,7 +195,7 @@ API の詳細については、以下を参照してください。
 - [どのようなときに Power BI のページ分割されたレポートを使用するか](report-paginated-or-power-bi.md)
 - [Power BI のページ分割されたレポート: FAQ](../paginated-reports/paginated-reports-faq.md)
 - [オンライン コース: ページ分割されたレポート (1 日)](../paginated-reports/paginated-reports-online-course.md)
-- [Power BI Premium のよく寄せられる質問](../service-premium-faq.md)
+- [Power BI Premium のよく寄せられる質問](../admin/service-premium-faq.md)
 - [RDL 移行ツール](https://github.com/microsoft/RdlMigration)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

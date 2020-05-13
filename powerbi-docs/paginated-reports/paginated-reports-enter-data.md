@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922093"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348668"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>レポート ビルダーでページ分割されたレポートにデータを直接入力する - Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "78922093"
 ## <a name="prerequisites"></a>前提条件
 
 - ページ分割されたレポートにデータを直接入力するには、[Microsoft ダウンロード センターからレポート ビルダー](https://www.microsoft.com/download/details.aspx?id=53613)の新しいバージョンをインストールします。 
-- ページ分割されたレポートを Power BI サービスに保存するには、[Power BI Pro アカウント](../service-self-service-signup-for-power-bi.md)と [Power BI Premium 容量](../service-premium-what-is.md)のワークスペースへの書き込み許可が必要です。
+- ページ分割されたレポートを Power BI サービスに保存するには、[Power BI Pro アカウント](../fundamentals/service-self-service-signup-for-power-bi.md)と [Power BI Premium 容量](../admin/service-premium-what-is.md)のワークスペースへの書き込み許可が必要です。
 - ページ分割されたレポートをレポート サーバーに保存するには、[RsReportServer.config ファイルを編集する](#upload-the-paginated-report-to-a-report-server)アクセス許可が必要です。
 
 ## <a name="get-started"></a>はじめに

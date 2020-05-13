@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 088844ccf52a67cfd67590e62a2dd8cab83add66
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065759"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348415"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>"*コンシューマー*" および無料ライセンスを持つその他のユーザー向けの Power BI 機能の一覧
 
@@ -23,7 +23,7 @@ ms.locfileid: "82065759"
 
 "*コンシューマー*" の場合、Power BI サービスを使用して、意思決定を行うためにレポートやダッシュボードを調べます。 これらのレポートとダッシュボードは、Power BI *Pro* ライセンスを持つ "*デザイナー*" によって作成されます。 Pro ユーザーは、同僚とコンテンツを共有したり、同僚がそのコンテンツに対して実行できる操作とできない操作を制御したりすることができます。 場合によっては、デザイナーがリンクを送信してコンテンツを共有したり、コンテンツが自動的にインストールされ、Power BI の **[アプリ]** または **[自分と共有]** の下に表示されたりすることもあります。
 
-デザイナーがコンテンツを共有する方法はたくさんあります。 しかし、この記事は Power BI "*コンシューマー*" を対象としているため、コンシューマーがコンテンツを受信して操作する方法についてのみ説明します。 コンテンツを共有する他の方法の詳細については、「[Power BI で作業を共有する方法](../service-how-to-collaborate-distribute-dashboards-reports.md)」を参照してください。
+デザイナーがコンテンツを共有する方法はたくさんあります。 しかし、この記事は Power BI "*コンシューマー*" を対象としているため、コンシューマーがコンテンツを受信して操作する方法についてのみ説明します。 コンテンツを共有する他の方法の詳細については、「[Power BI で作業を共有する方法](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)」を参照してください。
 
 ![Power BI のナビゲーション ウィンドウ](media/end-user-features/power-bi-share.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "82065759"
 ### <a name="licenses"></a>ライセンス 
 各 Power BI サービス ユーザーは、Free ライセンスまたは Pro ライセンスのいずれかを持っています。 "*コンシューマー*" は、無料ライセンスを持っています。
 
-- **無料ライセンス** - 通常は、組織内の "*コンシューマー*" に割り当てられます (下の 1 つめの画像を参照)。 また、個人として Power BI サービスにサインアップし、[スタンドアロン モードの Power BI サービス](../service-self-service-signup-for-power-bi.md)を試すユーザーに割り当てられます (下の 2 つめの画像を参照)。 
+- **無料ライセンス** - 通常は、組織内の "*コンシューマー*" に割り当てられます (下の 1 つめの画像を参照)。 また、個人として Power BI サービスにサインアップし、[スタンドアロン モードの Power BI サービス](../fundamentals/service-self-service-signup-for-power-bi.md)を試すユーザーに割り当てられます (下の 2 つめの画像を参照)。 
 
     ![無料ユーザーを示す画面](media/end-user-features/power-bi-free-organization.png)
 

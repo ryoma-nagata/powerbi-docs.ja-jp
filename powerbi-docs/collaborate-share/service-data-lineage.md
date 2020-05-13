@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525401"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348208"
 ---
 # <a name="data-lineage"></a>データ系列
 最新のビジネス インテリジェンス (BI) プロジェクトでは、データ ソースから宛先へのデータ フローを理解することが課題となる可能性があります。 複数のデータ ソース、成果物、および依存関係にまたがる高度な分析プロジェクトを構築した場合、この課題はさらに大きくなります。 "このデータを変更すると、どうなりますか?"  または、"このレポートが最新の状態ではないのはなぜですか" などの質問に 答えるのは難しい場合があります。 そのような質問を理解するには、専門家のチームまたは詳細な調査が必要な場合があります。 私たちは、そのような質問への回答に役立つデータ系列ビューを設計しました。
@@ -88,9 +88,9 @@ Power BI には、ダッシュボード、レポート、データセット、�
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
-- 系列ビューは、Internet Explorer で使用することはできません。 詳細については、「[Supported browsers for Power BI](../power-bi-browsers.md)」 (Power BI 用にサポートされているブラウザー) を参照してください。
+- 系列ビューは、Internet Explorer で使用することはできません。 詳細については、「[Supported browsers for Power BI](../fundamentals/power-bi-browsers.md)」 (Power BI 用にサポートされているブラウザー) を参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 
-* [ワークスペース全体のデータセットの概要 (プレビュー)](../service-datasets-across-workspaces.md)
+* [ワークスペース全体のデータセットの概要 (プレビュー)](../connect-data/service-datasets-across-workspaces.md)
 * [データセットの影響分析](service-dataset-impact-analysis.md)

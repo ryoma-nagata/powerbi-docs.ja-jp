@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638527"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347932"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>ワークスペースの "新しい外観" を選択する (プレビュー)
 
-ワークスペースには、Power BI サービスの[新しい外観](../service-new-look.md)と一致する新しい外観があります。 Power BI サービス (app.powerbi.com) を使用するユーザーなら、だれでも選択できます。 黒のヘッダー バーで **[新しい外観]** をオンにすると、レポートとワークスペースに対して新しい外観を選択できます。 クラシック ワークスペースと新しいワークスペースの両方ともすべて、新しい外観を活用できます。
+ワークスペースには、Power BI サービスの[新しい外観](../consumer/service-new-look.md)と一致する新しい外観があります。 Power BI サービス (app.powerbi.com) を使用するユーザーなら、だれでも選択できます。 黒のヘッダー バーで **[新しい外観]** をオンにすると、レポートとワークスペースに対して新しい外観を選択できます。 クラシック ワークスペースと新しいワークスペースの両方ともすべて、新しい外観を活用できます。
 
-**Power BI Desktop** の新しい外観に関する情報をお探しですか?  「[Power BI Desktop で更新されたリボンを使用する](../desktop-ribbon.md)」を参照してください。
+**Power BI Desktop** の新しい外観に関する情報をお探しですか?  「[Power BI Desktop で更新されたリボンを使用する](../create-reports/desktop-ribbon.md)」を参照してください。
 
 ## <a name="features-of-the-new-look"></a>新しい外観の機能
 
@@ -50,7 +50,6 @@ Power BI サービスのすべてのユーザーは、新しい外観を選択�
 
 ## <a name="next-steps"></a>次の手順
 
-- [Power BI Desktop で更新されたリボンを使用する](../desktop-ribbon.md)
-- [Power BI サービスの "新しい外観"](../service-new-look.md)
+- [Power BI Desktop で更新されたリボンを使用する](../create-reports/desktop-ribbon.md)
+- [Power BI サービスの "新しい外観"](../consumer/service-new-look.md)
 - わからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
-

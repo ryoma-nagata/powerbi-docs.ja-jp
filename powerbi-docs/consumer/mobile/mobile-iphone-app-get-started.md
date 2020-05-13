@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 56b3a4f67f5bc6dda777ea7c94b92c65abb4f3b0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77426635"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349404"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS デバイスでの Power BI モバイル アプリの概要
 iPhone または iPad 上の Microsoft Power BI for iOS アプリは、Power BI、Power BI Report Server、Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
@@ -22,7 +22,7 @@ iPhone または iPad 上の Microsoft Power BI for iOS アプリは、Power BI�
 
 Power BI Desktop で Power BI レポートを作成して、それらを公開します。
 
-* [それらを Power BI サービスに公開し](../../service-get-started.md)、ダッシュボードを作成します。
+* [それらを Power BI サービスに公開し](../../fundamentals/service-get-started.md)、ダッシュボードを作成します。
 * [それらをオンプレミスから Power BI Report Server に公開します](../../report-server/quickstart-create-powerbi-report.md)。
 
 iOS の Power BI モバイル アプリで、オンプレミスまたはクラウドのダッシュボードやレポートを操作します。
@@ -79,11 +79,9 @@ Microsoft Intune では、アクセスに暗証番号 (PIN) を必要とする�
 > iOS デバイスで Power BI モバイル アプリを使用しているとき、組織が Microsoft Intune MAM を構成している場合、バックグラウンド データ更新がオフになります。 次にアプリを起動したときは、Web 上の Power BI サービスからデータが更新されます。
 > 
 
-詳細については、「[Power BI モバイル アプリを Microsoft Intune で構成する](../../service-admin-mobile-intune.md)」をご覧ください。 
+詳細については、「[Power BI モバイル アプリを Microsoft Intune で構成する](../../admin/service-admin-mobile-intune.md)」をご覧ください。 
 
 ## <a name="next-steps"></a>次の手順
 
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a3a80ea7bb318944961a57ac6fdac695aa46253
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205529"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349450"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリにおけるダッシュボードとレポートの表示
 適用対象:
@@ -29,8 +29,8 @@ ms.locfileid: "79205529"
 
 モバイル デバイスでダッシュボードとレポートを表示するには、Web ブラウザーでこれらを作成するか、これらに接続する必要があります。 
 
-1. Power BI サービス ([https://www.powerbi.com](https://www.powerbi.com)) に移動し、[アカウントにサインアップします](../../service-self-service-signup-for-power-bi.md)。
-2. [独自の Power BI ダッシュボードやレポートを作成する](../../service-get-started.md)か、[Microsoft Dynamics CRM](../../service-connect-to-services.md) など、さまざまなサービス向けの既存の [Power BI アプリ](../../service-connect-to-microsoft-dynamics-crm.md)に接続します。
+1. Power BI サービス ([https://www.powerbi.com](https://www.powerbi.com)) に移動し、[アカウントにサインアップします](../../fundamentals/service-self-service-signup-for-power-bi.md)。
+2. [独自の Power BI ダッシュボードやレポートを作成する](../../fundamentals/service-get-started.md)か、[Microsoft Dynamics CRM](../../connect-data/service-connect-to-services.md) など、さまざまなサービス向けの既存の [Power BI アプリ](../../connect-data/service-connect-to-services.md)に接続します。
 
 ここで Power BI サービスでの Power BI ダッシュボードを示します。
 
@@ -45,14 +45,14 @@ ms.locfileid: "79205529"
     ![ダッシュ ボードをタップする](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * 黄色の星 ![お気に入りの星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
-   * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../service-data-classification.md)に関するページを参照してください。
+   * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
    
    既定の Power BI ダッシュボードは、iPhone では少し異なる外観です。 すべてのタイルは同じサイズで表示され、上から下に 1 つずつ配置されます。
    
     ![ダッシュ ボードの縦向きビュー](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
-   > ダッシュボードの所有者である場合は、Power BI サービスで、縦モードの[スマートフォン独自のダッシュボード ビューを作成](../../service-create-dashboard-mobile-phone-view.md)できます。 
+   > ダッシュボードの所有者である場合は、Power BI サービスで、縦モードの[スマートフォン独自のダッシュボード ビューを作成](../../create-reports/service-create-dashboard-mobile-phone-view.md)できます。 
    > 
    > 
    
@@ -85,7 +85,7 @@ ms.locfileid: "79205529"
    ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * 黄色の星 ![お気に入りの星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
-   * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../service-data-classification.md)に関するページを参照してください。
+   * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
 3. ワークスペースからダッシュ ボードを共有することができます。 ダッシュ ボード タイルの右下隅にある省略記号 ( **...** ) をタップし、 **[他の人を招待]** をタップします。
    
    ![[招待] アイコン](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
@@ -109,13 +109,13 @@ ms.locfileid: "79205529"
 
     黄色い星 ![お気に入りの星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
 
-    各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../service-data-classification.md)に関するページを参照してください。
+    各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
 
     Power BI ダッシュボードは、Android フォンでは少し異なる外観です。 すべてのタイルは同じ幅で表示され、上から下に 1 つずつ配置されます。
 
     ![ダッシュ ボードの縦向きビュー](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-    ダッシュボードの所有者である場合は、Power BI サービスで、縦モードの[スマートフォン独自のダッシュボード ビューを作成](../../service-create-dashboard-mobile-phone-view.md)できます。 
+    ダッシュボードの所有者である場合は、Power BI サービスで、縦モードの[スマートフォン独自のダッシュボード ビューを作成](../../create-reports/service-create-dashboard-mobile-phone-view.md)できます。 
 
 1. ダッシュボードでは、名前の隣にある垂直線の**その他のオプション** (...) ボタンをタップして仕事仲間の招待、更新、またはダッシュボードに関する情報を取得できます。
    
@@ -132,7 +132,7 @@ ms.locfileid: "79205529"
    ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * 黄色の星 ![お気に入りの星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
-   * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../service-data-classification.md)に関するページを参照してください。
+   * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
 3. ダッシュボードでは、名前の隣にある垂直線の**その他のオプション** (...) ボタンをタップして仕事仲間の招待、更新、またはダッシュボードに関する情報を取得できます。
    
    ![省略記号メニュー](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -150,11 +150,10 @@ ms.locfileid: "79205529"
 
 ![ダッシュボードの Phone ビュー](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
-ダッシュボードの Phone ビューの作成の詳細については、[こちら](../../service-create-dashboard-mobile-phone-view.md)を参照してください。
+ダッシュボードの Phone ビューの作成の詳細については、[こちら](../../create-reports/service-create-dashboard-mobile-phone-view.md)を参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 * Google プレイから [Android アプリをダウンロードする](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI 用 Android アプリの概要](mobile-android-app-get-started.md)  
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
 * ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

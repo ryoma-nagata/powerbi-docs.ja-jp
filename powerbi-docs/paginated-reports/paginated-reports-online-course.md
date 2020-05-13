@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ada695b2a568358f96010feb320226437beeb075
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81675643"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349174"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>オンライン コース: Power BI のページ分割されたレポート (1 日)
 
@@ -100,11 +100,11 @@ ms.locfileid: "81675643"
 最初のラボを開始する準備ができたら、 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** ファイルを開きます。 このドキュメントでは、Power BI サービスにサインインし、データセットをアップロードしてから [Power BI レポートビルダー](report-builder-power-bi.md)をインストールする方法について説明します。
 
 > [!NOTE]
-> 独自の Power BI アカウントを用意する必要があります。 まだお持ちでない場合は、「[個人として Power BI にサインアップする](../service-self-service-signup-for-power-bi.md)」を参照してください。
+> 独自の Power BI アカウントを用意する必要があります。 まだお持ちでない場合は、「[個人として Power BI にサインアップする](../fundamentals/service-self-service-signup-for-power-bi.md)」を参照してください。
 >
 > Power BI Desktop ファイルをワークスペースに発行するには、Power BI にサインインする必要があります。 この発行により、レポート データソースとして使用されるデータセットが作成されます。 データセットをレポート データソースとして使用する場合は、Power BI Pro ライセンスも Power BI Premium サブスクリプションも必要ありません。
 >
-> ただし、ラボ タスクによっては、自分のページ分割されたレポートをワークスペースに発行する必要があります。 ページ分割されたレポートを開くことができるのは、ページ分割されたレポート ワークロードが有効になっている[専用の容量](../service-premium-what-is.md#dedicated-capacities)内のワークスペースに保存されている場合に限られます。 適切なワークスペースへのアクセス権をお持ちでない場合は、代わりに、レポート発行を実演するビデオを閲覧できるようにリンクが提供されます。
+> ただし、ラボ タスクによっては、自分のページ分割されたレポートをワークスペースに発行する必要があります。 ページ分割されたレポートを開くことができるのは、ページ分割されたレポート ワークロードが有効になっている[専用の容量](../admin/service-premium-what-is.md#dedicated-capacities)内のワークスペースに保存されている場合に限られます。 適切なワークスペースへのアクセス権をお持ちでない場合は、代わりに、レポート発行を実演するビデオを閲覧できるようにリンクが提供されます。
 
 ## <a name="instructor-kit"></a>インストラクター キット
 
