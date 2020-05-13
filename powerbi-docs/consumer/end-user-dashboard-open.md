@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f71eab47aba9621805891b10874ea9e501ed0bf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496290"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277918"
 ---
 # <a name="view-a-dashboard"></a>ダッシュボードの表示
 
@@ -49,10 +49,10 @@ Power BI Pro または Premium ライセンスは、ダッシュボードの共�
 - **[最近]** : ダッシュボードに最近アクセスした場合
 - **[アプリ]** : ほとんどのアプリにはダッシュボードとレポートの両方が含まれています
 - **[自分と共有]** : 同僚が[自分とダッシュボードを共有した場合](end-user-shared-with-me.md)
-- **[マイ ワークスペース]** : [Power BI サンプル](../sample-datasets.md)のいずれかをダウンロードした場合
+- **[マイ ワークスペース]** : [Power BI サンプル](../create-reports/sample-datasets.md)のいずれかをダウンロードした場合
 
 
 
 ## <a name="next-steps"></a>次のステップ
-* [サンプル ダッシュボード](../sample-tutorial-connect-to-the-samples.md)のツアーを利用してダッシュボードに慣れます。    
+* [サンプル ダッシュボード](../create-reports/sample-tutorial-connect-to-the-samples.md)のツアーを利用してダッシュボードに慣れます。    
 * [ダッシュボードのタイル](end-user-tiles.md)およびタイルを選んだときの結果について学習します。

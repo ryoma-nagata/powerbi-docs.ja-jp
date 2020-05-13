@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435906"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273088"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのタイルを調べる
 適用対象:
@@ -52,7 +52,7 @@ ms.locfileid: "79435906"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    リンクにより、他の Power BI ダッシュボードや外部の URL に移動できます。 [リンクをタップ](../../service-dashboard-edit-tile.md#hyperlink)して、Power BI アプリ内で開くことができます。 外部サイトの場合、Power BI に許可するよう求められます。
+    リンクにより、他の Power BI ダッシュボードや外部の URL に移動できます。 [リンクをタップ](../../create-reports/service-dashboard-edit-tile.md#hyperlink)して、Power BI アプリ内で開くことができます。 外部サイトの場合、Power BI に許可するよう求められます。
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ ms.locfileid: "79435906"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    リンクにより、他の Power BI ダッシュボードや外部の URL に移動できます。 [リンクをタップ](../../service-dashboard-edit-tile.md#hyperlink)して、Power BI アプリ内で開くことができます。 外部サイトの場合、Power BI に許可するよう求められます。
+    リンクにより、他の Power BI ダッシュボードや外部の URL に移動できます。 [リンクをタップ](../../create-reports/service-dashboard-edit-tile.md#hyperlink)して、Power BI アプリ内で開くことができます。 外部サイトの場合、Power BI に許可するよう求められます。
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ ms.locfileid: "79435906"
    
     **[レポートを開く]** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) をタップして、[基になっているレポートを表示](mobile-reports-in-the-mobile-apps.md)できます。
    
-    リンクがある場合は、[リンクを開きます](../../service-dashboard-edit-tile.md#hyperlink)。 リンクにより、Power BI ダッシュボードや外部の URL に移動できます。
+    リンクがある場合は、[リンクを開きます](../../create-reports/service-dashboard-edit-tile.md#hyperlink)。 リンクにより、Power BI ダッシュボードや外部の URL に移動できます。
 3. **[タイルを展開]** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png) をタップします。 タイルがフォーカス モードで開きます。このモードでは、タイルのデータを簡単に表示および調査できます。 このモードでは、次のことができます。
    
    円グラフを回転させて円の上部にスライスの値を表示します。  
@@ -130,4 +130,3 @@ ms.locfileid: "79435906"
 ## <a name="next-steps"></a>次の手順
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

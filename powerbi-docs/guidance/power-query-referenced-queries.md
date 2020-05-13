@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290574"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278677"
 ---
 # <a name="referencing-power-query-queries"></a>Power Query クエリの参照
 
@@ -42,7 +42,7 @@ ms.locfileid: "78290574"
 
 通常は、クエリ間でのロジックの重複を回避するようにクエリを参照することが推奨されています。 ただし、この記事で説明したように、この設計方法では、データ更新の速度が低下し、データ ソースに過度の負荷がかかる可能性があります。
 
-代わりに、[データフロー](../service-dataflows-overview.md)を作成することをお勧めします。 データフローを使用すると、データ更新時間が短縮され、データ ソースへの影響が軽減されます。
+代わりに、[データフロー](../transform-model/service-dataflows-overview.md)を作成することをお勧めします。 データフローを使用すると、データ更新時間が短縮され、データ ソースへの影響が軽減されます。
 
 ソース データと変換をカプセル化するようにデータフローを設計できます。 データフローは Power BI サービス内に保持されるデータ ストアであるため、データは高速で取得されます。 そのため、クエリの参照でデータフローに対する要求が複数回発生した場合でも、データ更新時間を短縮することができます。
 
@@ -52,7 +52,7 @@ ms.locfileid: "78290574"
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI でのセルフサービスのデータ準備](../service-dataflows-overview.md)
-- [Power BI でのデータフローの作成と使用](../service-dataflows-create-use.md)
+- [Power BI でのセルフサービスのデータ準備](../transform-model/service-dataflows-overview.md)
+- [Power BI でのデータフローの作成と使用](../transform-model/service-dataflows-create-use.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866934"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276354"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI の放射状ゲージ グラフ
 
@@ -116,7 +116,7 @@ ms.locfileid: "82866934"
 
 ### <a name="step-5-save-your-report"></a>手順 5.レポートの保存
 
-1. [レポートを保存](../service-report-save.md)します。
+1. [レポートを保存](../create-reports/service-report-save.md)します。
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>手動の書式オプションを使用して、最小値、最大値、目標値を設定する
 
@@ -151,3 +151,4 @@ ms.locfileid: "82866934"
 * [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+

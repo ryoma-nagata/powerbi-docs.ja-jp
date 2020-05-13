@@ -6,21 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/31/2018
+ms.date: 12/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: eeb02715fa205d7fb9f6a3107998feb3d87a9d7b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880788"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83271961"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>レポートで視覚化を移動およびサイズ変更する
 
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-レポートのデザイナーと所有者は、ビジュアルの移動やサイズ変更ができます。 Power BI サービス (app.powerbi.com) で作業している場合は、レポートを[編集ビュー](../service-interact-with-a-report-in-editing-view.md)で開く必要があります。 
+レポートのデザイナーと所有者は、ビジュアルの移動やサイズ変更ができます。 Power BI サービス (app.powerbi.com) で作業している場合は、レポートを[編集ビュー](../create-reports/service-interact-with-a-report-in-editing-view.md)で開く必要があります。 
 
 ## <a name="open-the-report"></a>レポートを開く
 Power BI Desktop の場合は、少なくとも 1 つのビジュアルを含むレポートを開くか、[新しいビジュアルを作成](power-bi-report-add-visualizations-i.md)します。 
@@ -37,8 +39,9 @@ Power BI Desktop の場合は、少なくとも 1 つのビジュアルを含む
   ![フォーカス モード アイコン](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
 ## <a name="next-steps"></a>次のステップ
-[ダッシュボード上の視覚化をサイズ変更する](../service-dashboard-edit-tile.md)  
+[ダッシュボード上の視覚化をサイズ変更する](../create-reports/service-dashboard-edit-tile.md)  
 
 [フォーカス モード](../consumer/end-user-focus.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+

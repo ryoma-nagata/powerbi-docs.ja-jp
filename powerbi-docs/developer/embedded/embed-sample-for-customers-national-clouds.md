@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d30dfaa36bc55e8da769d4eaf0f7c2d1b9be0724
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525378"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145210"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>チュートリアル:Power BI コンテンツを国内クラウド向けアプリケーションに埋め込む
 
@@ -38,7 +38,7 @@ Power BI では[国内クラウド](https://docs.microsoft.com/azure/active-dire
 
 ![埋め込まれたダッシュボード](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-このチュートリアルを開始するには、**Power BI** アカウントが必要です。 アカウントを設定していない場合、政府や国の種類に基づき、適切な国内クラウドを選択できます。 [U. S. Government Power BI アカウント](../../service-govus-signup.md)、[Germany Cloud 向け Power BI アカウント](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)、または [China Cloud 向け Power BI アカウント](https://www.21vbluecloud.com/powerbi/)にサインアップできます。
+このチュートリアルを開始するには、**Power BI** アカウントが必要です。 アカウントを設定していない場合、政府や国の種類に基づき、適切な国内クラウドを選択できます。 [U. S. Government Power BI アカウント](../../admin/service-govus-signup.md)、[Germany Cloud 向け Power BI アカウント](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)、または [China Cloud 向け Power BI アカウント](https://www.21vbluecloud.com/powerbi/)にサインアップできます。
 
 > [!NOTE]
 > 代わりに組織向けのダッシュボードを埋め込む場合は、 「[ダッシュボードを組織のアプリに統合する](embed-sample-for-your-organization.md)」をご覧ください。

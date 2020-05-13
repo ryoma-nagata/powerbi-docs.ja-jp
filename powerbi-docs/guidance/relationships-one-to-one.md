@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263808"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278263"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一対一のリレーションシップのガイダンス
 
@@ -99,7 +99,7 @@ ms.locfileid: "78263808"
 - 階層を作成する機能が制限される (そのレベルは "_同じテーブル_" の列に基づいている必要があるため)
 - テーブル間で完全に一致する行が存在しない場合に、予期しない結果が生成される
 
-具体的な推奨事項は、一対一のリレーションシップが "_アイランド内_" であるか、または "_アイランド間_" であるかによって異なります。 リレーションシップの評価について詳しくは、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
+具体的な推奨事項は、一対一のリレーションシップが "_アイランド内_" であるか、または "_アイランド間_" であるかによって異なります。 リレーションシップの評価について詳しくは、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
 
 ### <a name="intra-island-one-to-one-relationship"></a>アイランド内の一対一のリレーションシップ
 
@@ -107,7 +107,7 @@ ms.locfileid: "78263808"
 
 一対一で関連付けられたデータを統合してモデル化する方法を、以下の手順に示します。
 
-1. **クエリをマージする**:[2 つのクエリを組み合わせる](../desktop-shape-and-combine-data.md#combine-queries)場合は、各クエリのデータの完全性を考慮してください。 1 つのクエリに行の完全なセット (マスター リストなど) が含まれている場合は、もう 1 つのクエリをそれとマージします。 既定の結合の種類である "_左外部結合_" を使用するように、マージ変換を構成します。 この結合の種類を使用すると、最初のクエリの行がすべて維持され、2 番目のクエリの一致する行でそれらが補完されます。 2 番目のクエリの必要なすべての列を、最初のクエリに展開します。
+1. **クエリをマージする**:[2 つのクエリを組み合わせる](../connect-data/desktop-shape-and-combine-data.md#combine-queries)場合は、各クエリのデータの完全性を考慮してください。 1 つのクエリに行の完全なセット (マスター リストなど) が含まれている場合は、もう 1 つのクエリをそれとマージします。 既定の結合の種類である "_左外部結合_" を使用するように、マージ変換を構成します。 この結合の種類を使用すると、最初のクエリの行がすべて維持され、2 番目のクエリの一致する行でそれらが補完されます。 2 番目のクエリの必要なすべての列を、最初のクエリに展開します。
 2. **クエリの読み込みの無効化**:必ず 2 番目のクエリの[読み込みの無効化](import-modeling-data-reduction.md#disable-power-query-query-load)を行います。 これにより、その結果がモデル テーブルとして読み込まれなくなります。 この構成により、データ モデルのストレージ サイズが削減され、 **[フィールド]** ペインの乱雑さを減らすことができます。
 
     この例では、レポート作成者は、 **[フィールド]** ペインで **Product** という名前の 1 つのテーブルを確認できるようになりました。 これには、すべての製品関連フィールドが含まれます。
@@ -131,11 +131,11 @@ ms.locfileid: "78263808"
 
 ![[フィールド] ペインで、Marketing という名前の表示フォルダー内に Category フィールドが表示されています。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-引き続きモデル内で一対一のアイランド内のリレーションシップを定義する必要がある場合は、可能であれば、関連テーブルに一致する行が存在していることを確認してください。 一対一のアイランド内のリレーションシップは[強いリレーションシップ](../desktop-relationships-understand.md#strong-relationships)として評価されるため、レポートのビジュアルにおいて、データ整合性の問題が空白として発生する可能性があります。 (この記事に記載されている最初のテーブル ビジュアルでは、空白のグループ化の例を確認できます。)
+引き続きモデル内で一対一のアイランド内のリレーションシップを定義する必要がある場合は、可能であれば、関連テーブルに一致する行が存在していることを確認してください。 一対一のアイランド内のリレーションシップは[強いリレーションシップ](../transform-model/desktop-relationships-understand.md#strong-relationships)として評価されるため、レポートのビジュアルにおいて、データ整合性の問題が空白として発生する可能性があります。 (この記事に記載されている最初のテーブル ビジュアルでは、空白のグループ化の例を確認できます。)
 
 ### <a name="inter-island-one-to-one-relationship"></a>アイランド間の一対一のリレーションシップ
 
-テーブル間に一対一の "_アイランド間_" のリレーションシップが存在する場合は、データ ソースのデータを事前に統合しない限り、代替となるモデル設計は存在しません。 Power BI では、一対一のモデル リレーションシップは[弱いリレーションシップ](../desktop-relationships-understand.md#weak-relationships)として評価されます。 そのため、関連テーブル内に一致する行が存在するように注意してください。一致しない行はクエリ結果から削除されます。
+テーブル間に一対一の "_アイランド間_" のリレーションシップが存在する場合は、データ ソースのデータを事前に統合しない限り、代替となるモデル設計は存在しません。 Power BI では、一対一のモデル リレーションシップは[弱いリレーションシップ](../transform-model/desktop-relationships-understand.md#weak-relationships)として評価されます。 そのため、関連テーブル内に一致する行が存在するように注意してください。一致しない行はクエリ結果から削除されます。
 
 両方のテーブルのフィールドをテーブル ビジュアルに追加するときに、テーブル間に弱いリレーションシップが存在するとどうなるかを見てみましょう。
 
@@ -147,7 +147,7 @@ ms.locfileid: "78263808"
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Desktop でのモデル リレーションシップ](../desktop-relationships-understand.md)
+- [Power BI Desktop でのモデル リレーションシップ](../transform-model/desktop-relationships-understand.md)
 - [Power BI のスター スキーマおよび重要性について](star-schema.md)
 - [リレーションシップのトラブルシューティング ガイダンス](relationships-troubleshoot.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

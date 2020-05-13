@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867026"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274192"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI の折れ線グラフ
 
@@ -32,7 +32,7 @@ ms.locfileid: "82867026"
 > [!NOTE]
 > Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。
 
-1. 空のレポート ページで開始します。 Power BI サービスを使っている場合は、[編集ビュー](../service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
+1. 空のレポート ページで開始します。 Power BI サービスを使っている場合は、[編集ビュー](../create-reports/service-interact-with-a-report-in-editing-view.md)でレポートを開いていることを確認します。
 
 2. [フィールド] ペインで、 **[SalesFact]** \> **[合計単位]** を選択し、 **[日付]**  >  **[月]** を選択します。  お使いのレポート キャンバスに縦棒グラフが作成されます。
 
@@ -74,7 +74,7 @@ ms.locfileid: "82867026"
    ![値の差が大きい](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
-[フィルター] ウィンドウの使用方法については、「[Power BI でのレポートへのフィルターの追加](../power-bi-report-add-filter.md)」をご覧ください。
+[フィルター] ウィンドウの使用方法については、「[Power BI でのレポートへのフィルターの追加](../create-reports/power-bi-report-add-filter.md)」をご覧ください。
 
 折れ線グラフでデータ ポイントを選択すると、レポート ページ上の他の視覚化がクロス強調表示およびクロス フィルター処理されます。逆の場合も同様です。 作業を進めるには、 **[マーケット シェア]** タブを開きます。  
 
@@ -86,7 +86,7 @@ ms.locfileid: "82867026"
 
 縦棒グラフがどのようにクロス強調表示され、ゲージがクロス フィルター処理されているかを確認してください。
 
-グラフ相互間のクロスフィルター処理とクロス強調表示を管理するには、「[Power BI レポートでの視覚エフェクトの相互作用](../service-reports-visual-interactions.md)」を参照してください。
+グラフ相互間のクロスフィルター処理とクロス強調表示を管理するには、「[Power BI レポートでの視覚エフェクトの相互作用](../create-reports/service-reports-visual-interactions.md)」を参照してください。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 * 1 つの折れ線グラフで 2 つの Y 軸を使用することはできません。  代わりに複合グラフを使用する必要があります。
@@ -95,5 +95,8 @@ ms.locfileid: "82867026"
 ## <a name="next-steps"></a>次の手順
 
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 

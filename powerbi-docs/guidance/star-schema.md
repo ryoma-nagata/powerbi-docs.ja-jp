@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751607"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273456"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>スター スキーマと Power BI での重要性を理解する
 
@@ -42,7 +42,7 @@ ms.locfileid: "80751607"
 - ディメンション テーブルでは、"_フィルター処理_" と "_グループ化_" がサポートされます
 - ファクト テーブルでは "_集計_" がサポートされます
 
-テーブルの種類をディメンションまたはファクトとして構成するためにモデラーによって設定されるテーブル プロパティはありません。 実際には、これはモデル リレーションシップによって決定されます。 モデル リレーションシップによって、2 つのテーブル間のフィルター伝達パスが確立されます。これは、テーブルの種類を決定するリレーションシップの**カーディナリティ** プロパティです。 一般的なリレーションシップのカーディナリティは、"_一対多_" またはその逆の "_多対一_" です。 "一" 側は常にディメンションの種類のテーブルであり、一方、"多" 側は常にファクトの種類のテーブルとなります。 リレーションシップについて詳しくは、[Power BI Desktop でのモデル リレーションシップ](../desktop-relationships-understand.md)に関する記事をご覧ください。
+テーブルの種類をディメンションまたはファクトとして構成するためにモデラーによって設定されるテーブル プロパティはありません。 実際には、これはモデル リレーションシップによって決定されます。 モデル リレーションシップによって、2 つのテーブル間のフィルター伝達パスが確立されます。これは、テーブルの種類を決定するリレーションシップの**カーディナリティ** プロパティです。 一般的なリレーションシップのカーディナリティは、"_一対多_" またはその逆の "_多対一_" です。 "一" 側は常にディメンションの種類のテーブルであり、一方、"多" 側は常にファクトの種類のテーブルとなります。 リレーションシップについて詳しくは、[Power BI Desktop でのモデル リレーションシップ](../transform-model/desktop-relationships-understand.md)に関する記事をご覧ください。
 
 ![スター スキーマの概念](media/star-schema/star-schema-example2.png)
 
@@ -209,10 +209,12 @@ Power BI モデルでは、販売注文番号列をファクトの種類のテ�
 スター スキーマ設計または Power BI モデル設計の詳細については、次の記事を参照してください。
 
 - [ディメンション モデリングに関する Wikipedia の記事](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Power BI Desktop でのリレーションシップの作成と管理](../desktop-create-and-manage-relationships.md)
+- [Power BI Desktop でのリレーションシップの作成と管理](../transform-model/desktop-create-and-manage-relationships.md)
 - [一対一のリレーションシップのガイダンス](relationships-one-to-one.md)
 - [多対多のリレーションシップのガイダンス](relationships-many-to-many.md)
 - [双方向のリレーションシップのガイダンス](relationships-bidirectional-filtering.md)
 - [アクティブなリレーションシップと非アクティブなリレーションシップのガイダンス](relationships-active-inactive.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)
+
+

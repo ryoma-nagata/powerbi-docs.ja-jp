@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c72863407fea0cf550643e5193a8b514b2bb51bd
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585071"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276331"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI のスライサー
 
@@ -24,11 +24,11 @@ ms.locfileid: "82585071"
 
 ![スライサーのアニメーション](media/power-bi-visualization-slicers/slicer2.gif)
 
-この記事では、無料の[小売りの分析のサンプル](../sample-retail-analysis.md)を使用して、基本的なスライサーを作成して書式設定する手順を説明します。 また、スライサーによって影響を受けるビジュアルを制御する方法と、他のページのスライサーと同期する方法についても説明します。 ここで、特定の種類のスライサーの作成方法について説明している他の記事をいくつか紹介します。
+この記事では、無料の[小売りの分析のサンプル](../create-reports/sample-retail-analysis.md)を使用して、基本的なスライサーを作成して書式設定する手順を説明します。 また、スライサーによって影響を受けるビジュアルを制御する方法と、他のページのスライサーと同期する方法についても説明します。 ここで、特定の種類のスライサーの作成方法について説明している他の記事をいくつか紹介します。
 
-- [数値範囲スライサー](../desktop-slicer-numeric-range.md)。
+- [数値範囲スライサー](../create-reports/desktop-slicer-numeric-range.md)。
 - [相対日付スライサー](desktop-slicer-filter-date-range.md)。
-- レスポンシブで[サイズ変更可能なスライサー](../power-bi-slicer-filter-responsive.md)。
+- レスポンシブで[サイズ変更可能なスライサー](../create-reports/power-bi-slicer-filter-responsive.md)。
 - 複数のフィールドがある[階層スライサー](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md)。
 
 ## <a name="when-to-use-a-slicer"></a>スライサーを使用する場合
@@ -92,7 +92,7 @@ Power BI スライサーでは次の機能はサポートされていません�
 
    これで、スライサーで名前や日付範囲を選択しても、**Total Sales Variance by FiscalMonth and District Manager** グラフは変更されません。
 
-相互作用の編集について詳しくは、「[Power BI レポート内でのビジュアルの相互作用を変更する](../service-reports-visual-interactions.md)」をご覧ください。
+相互作用の編集について詳しくは、「[Power BI レポート内でのビジュアルの相互作用を変更する](../create-reports/service-reports-visual-interactions.md)」をご覧ください。
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>他のページでスライサーを同期して使用する
 Power BI の 2018 年 2 月更新以降では、スライサーを同期し、レポートの任意のページまたはすべてのページで使用できます。 
@@ -134,7 +134,7 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 ## <a name="filtering-slicers"></a>スライサーのフィルター処理
 ビジュアル レベルのフィルターをスライサーに適用すれば、スライサーに一覧表示される値の数を減らすことができます。 たとえば、リスト スライサーから空白値をフィルターで除外したり、範囲スライサーから特定の日付をフィルターで除外したりすることができます。 これを行う場合、影響を受けるのは "*スライサーに表示される値*" のみであり、選択時に "*スライサーによって他のビジュアルに適用されるフィルター*" は影響を受けません。 たとえば、特定の日付のみを表示するように、範囲スライサーにフィルターを適用するとします。 スライサー上の選択では、その範囲の最初と最後の日付しか表示されませんが、ご利用の他のビジュアルには引き続き他の日付が表示されます。 スライサーで選択範囲を変更すると、他のビジュアルが更新されるのがわかります。 スライサーをクリアすると、すべての日付が再度表示されます。
 
-ビジュアル レベルのフィルターの詳細については、[フィルターの種類](../power-bi-report-filter-types.md)に関するページを参照してください。
+ビジュアル レベルのフィルターの詳細については、[フィルターの種類](../create-reports/power-bi-report-filter-types.md)に関するページを参照してください。
 
 ## <a name="format-slicers"></a>スライサーの書式設定
 スライサーの種類に応じて、異なる書式設定オプションを使用できます。 **横**方向、**レスポンシブ** レイアウト、および**項目**の色分けを使用して、標準の一覧項目ではなくボタンやタイルを生成し、異なる画面サイズやレイアウトに合わせてスライサー項目のサイズが変化するようにできます。  
@@ -169,7 +169,7 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 
     ![横方向のオプション](media/power-bi-visualization-slicers/6-buttons.png)
 
-横方向およびレスポンシブ レイアウトについて詳しくは、「[Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成](../power-bi-slicer-filter-responsive.md)」をご覧ください。
+横方向およびレスポンシブ レイアウトについて詳しくは、「[Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成](../create-reports/power-bi-slicer-filter-responsive.md)」をご覧ください。
 
 ### <a name="selection-controls-options-list-slicers-only"></a>[選択範囲のコントロール] のオプション (リスト スライサーのみ)
 1. **[選択範囲のコントロール]** で、 **[[すべて選択] オプションを表示する]** を **[オン]** にして、スライサーに **[すべて選択]** 項目を追加します。 
@@ -222,4 +222,3 @@ Power BI の 2018 年 2 月更新以降では、スライサーを同期し、�
 - [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 - [Power BI のテーブル](power-bi-visualization-tables.md)
-

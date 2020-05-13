@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c4d1ce3a4a15c2d79951865e03131e001260e2c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802074"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276078"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>モバイル デバイスから Power BI QR コードをスキャンする
 適用対象:
@@ -24,7 +24,7 @@ ms.locfileid: "80802074"
 
 Power BI の QR コードは、実際の任意の項目を、関連する BI 情報に直接接続できます。ナビゲーションや検索の必要はありません。
 
-たとえば、ダッシュボードまたはレポートを共有している仕事仲間がダッシュボード内のレポートまたはタイルに向けて [Power BI サービスで QR コードを作成](../../service-create-qr-code-for-tile.md)し、その QR コードを電子メールや特定の項目のような重要な場所に配置したとします。 
+たとえば、ダッシュボードまたはレポートを共有している仕事仲間がダッシュボード内のレポートまたはタイルに向けて [Power BI サービスで QR コードを作成](../../create-reports/service-create-qr-code-for-tile.md)し、その QR コードを電子メールや特定の項目のような重要な場所に配置したとします。 
 
 Power BI アプリのスキャナーや電話にインストールされている他の任意の QR スキャナーを使用して、または電話にインストールされているその他のスキャナーをスキャンして、関連タイルまたはレポートにただちにアクセスできます。 
 
@@ -75,8 +75,7 @@ Power BI アプリのスキャナーや電話にインストールされてい�
 
 ## <a name="next-steps"></a>次のステップ
 * [モバイル アプリで現実世界から Power BI データに接続する](mobile-apps-data-in-real-world-context.md)
-* [Power BI サービスでタイルの QR コードを作成する](../../service-create-qr-code-for-tile.md)
-* [Power BI サービスでレポートの QR コードを作成する](../../service-create-qr-code-for-report.md)
+* [Power BI サービスでタイルの QR コードを作成する](../../create-reports/service-create-qr-code-for-tile.md)
+* [Power BI サービスでレポートの QR コードを作成する](../../create-reports/service-create-qr-code-for-report.md)
 * [Power BI for Mixed Reality アプリで QR コードをスキャンする](mobile-mixed-reality-app.md)こともできます。
 * ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fe1eb36a63d504497f15bef8316e96d120439793
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403667"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145111"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -67,7 +67,7 @@ PRO ライセンスでの埋め込みトークンは、開発テストを意図�
 
 ### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Power BI Embedded の容量の消費はどのように監視できますか?
 
-* [Power BI 管理ポータル](../../service-admin-portal.md#power-bi-embedded)を使用します。
+* [Power BI 管理ポータル](../../admin/service-admin-portal.md#power-bi-embedded)を使用します。
 
 * Power BI で [metric app](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) をダウンロードします。
 

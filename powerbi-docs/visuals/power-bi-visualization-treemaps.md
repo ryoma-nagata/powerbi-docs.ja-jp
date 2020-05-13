@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: afc18fa33ec1612900cecc0a34eb50851804fb62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866888"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276699"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI のツリーマップ
 
@@ -120,10 +120,11 @@ ms.locfileid: "82866888"
 1. **[Last Year Sales by Chain]\(チェーン別の前年売上高\)** 円グラフで、 **[Fashions Direct]** スライスを選択し、ツリーマップをクロス フィルター処理します。
    ![クロス フィルター処理機能を示す GIF。](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
-1. グラフ相互間のクロスフィルター処理とクロス強調表示を管理するには、「[Power BI レポート内でのビジュアルの相互作用を変更する](../service-reports-visual-interactions.md)」を参照してください。
+1. グラフ相互間のクロスフィルター処理とクロス強調表示を管理するには、「[Power BI レポート内でのビジュアルの相互作用を変更する](../create-reports/service-reports-visual-interactions.md)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 
 * [Power BI のウォーターフォール図](power-bi-visualization-waterfall-charts.md)
 
 * [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
+

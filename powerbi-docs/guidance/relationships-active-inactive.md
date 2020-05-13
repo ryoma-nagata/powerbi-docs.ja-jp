@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a8c8c50369911e76376ccbda3a95743813fde6bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263670"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273226"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>アクティブなリレーションシップと非アクティブなリレーションシップのガイダンス
 
@@ -114,7 +114,7 @@ CALCULATE(
 
 このレポート ページは、2019 Q4 の四半期でフィルター処理されています。 テーブル ビジュアルは月別にグループ化され、さまざまな売上の統計情報が表示されています。 **Orders** メジャーと **Orders Shipped** メジャーでは、異なる結果が生成されます。 これらでは、それぞれ同じ要約ロジック (**Sales** テーブルの行数をカウントする) が使用されていますが、**Date** テーブルのフィルターの伝達が異なります。
 
-四半期のスライサーには、空白の項目が含まれていることがわかります。 このスライサー項目は、[テーブルの展開](../desktop-relationships-understand.md#strong-relationships)の結果として表示されています。 **Sales** テーブルの各行には注文日が含まれていますが、一部の行は出荷日が空白になっています。これらの注文はまだ出荷されていません。 テーブルの展開においても、非アクティブなリレーションシップが考慮されます。そのため、リレーションシップの "多" 側の空白が原因で、またはデータの整合性の問題によって、空白が表示されることがあります。
+四半期のスライサーには、空白の項目が含まれていることがわかります。 このスライサー項目は、[テーブルの展開](../transform-model/desktop-relationships-understand.md#strong-relationships)の結果として表示されています。 **Sales** テーブルの各行には注文日が含まれていますが、一部の行は出荷日が空白になっています。これらの注文はまだ出荷されていません。 テーブルの展開においても、非アクティブなリレーションシップが考慮されます。そのため、リレーションシップの "多" 側の空白が原因で、またはデータの整合性の問題によって、空白が表示されることがあります。
 
 ## <a name="recommendations"></a>推奨事項
 
@@ -129,7 +129,7 @@ CALCULATE(
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Desktop でのモデル リレーションシップ](../desktop-relationships-understand.md)
+- [Power BI Desktop でのモデル リレーションシップ](../transform-model/desktop-relationships-understand.md)
 - [Power BI のスター スキーマおよび重要性について](star-schema.md)
 - [リレーションシップのトラブルシューティング ガイダンス](relationships-troubleshoot.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

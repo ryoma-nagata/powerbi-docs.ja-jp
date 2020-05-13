@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ee8887752f6a5161e0046e4aac1711f2ce64922
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435331"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276216"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリで地理的な場所によりレポートをフィルターする
 適用対象:
@@ -39,17 +39,16 @@ ms.locfileid: "79435331"
 ## <a name="why-dont-i-see-location-tags-on-a-report"></a>レポートに場所タグが表示されない場合
 場所タグを表示するには、下の 3 つの条件をすべて満たす必要があります。 
 
-* Power BI Desktop でレポートを作成したユーザーは、少なくとも 1 つの列に対して[地理データを分類](../../desktop-mobile-geofiltering.md)している必要があります (市区町村、都道府県、国/地域など)。
+* Power BI Desktop でレポートを作成したユーザーは、少なくとも 1 つの列に対して[地理データを分類](../../transform-model/desktop-mobile-geofiltering.md)している必要があります (市区町村、都道府県、国/地域など)。
 * レポートを表示するユーザーが、列内にデータがある場所のいずれかにいること。
 * レポートを表示するユーザーが、次のモバイル デバイスのいずれかを使っていること。
   * iOS (iPad、iPhone、iPod)。
   * Android (スマートフォン、タブレット)。
   * Windows 10 スマートフォン (PC やタブレットなどの他の Windows 10 デバイスは、地理的フィルタリングをサポートしません)。
 
-Power BI Desktop での[地理的なフィルターの設定](../../desktop-mobile-geofiltering.md)の詳細を参照してください。
+Power BI Desktop での[地理的なフィルターの設定](../../transform-model/desktop-mobile-geofiltering.md)の詳細を参照してください。
 
 ### <a name="next-steps"></a>次のステップ
 * [モバイル アプリで現実世界から Power BI データに接続する](mobile-apps-data-in-real-world-context.md)
-* [Power BI Desktop でのデータ分類](../../desktop-data-categorization.md) 
+* [Power BI Desktop でのデータ分類](../../transform-model/desktop-data-categorization.md) 
 * ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

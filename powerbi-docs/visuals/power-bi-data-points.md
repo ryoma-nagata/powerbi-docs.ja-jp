@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381447"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274169"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>視覚エフェクトの種類別のデータ ポイントの制限と戦略を適用する
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 Power BI でビジュアルをレンダリングするときは、視覚エフェクトが迅速かつ正確である必要があります。 それには視覚化タイプ別に構成された、基になるアルゴリズムが必要です。 Power BI のビジュアルは、異なるサイズのデータセットを処理するために十分な柔軟性が必要です。 一部のデータセットのデータ ポイントは少数である一方、他のデータセットにはペタバイト単位のデータ ポイントがあります。 この記事では、Power BI で視覚エフェクトをレンダリングするために使用される戦略について説明します。
 
@@ -57,7 +59,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>視覚化タイプ別の戦略とデータ ポイントの制限
 
 ### <a name="area-chart"></a>面グラフ
-[行サンプリングの仕組み](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)に関するセクションをご覧ください
+[行サンプリングの仕組み](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)に関するセクションをご覧ください
 
 ### <a name="barcolumn-chart"></a>横棒/縦棒グラフ
 - カテゴリ別モードのとき
@@ -97,10 +99,10 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 - 下位 3,500
 
 ### <a name="line-chart"></a>折れ線グラフ
-[行サンプリングの仕組み](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)に関するセクションをご覧ください
+[行サンプリングの仕組み](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)に関するセクションをご覧ください
 
 ### <a name="line-chart-high-density"></a>折れ線グラフ、高密度
-[高密度サンプリング](../desktop-high-density-sampling.md)に関するページをご覧ください
+[高密度サンプリング](../create-reports/desktop-high-density-sampling.md)に関するページをご覧ください
 
 ### <a name="map"></a>マップ 
 - 最大ポイント数:3,500
@@ -109,9 +111,9 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 - 場所:上位 3,500
 - 場所、サイズ:上位 3,500
 - 場所、緯度、および経度の集計 (+ および - サイズ):上位 3,500
-- 緯度、経度: [高密度散布図](desktop-high-density-scatter-charts.md)に関する記事をご覧ください
+- 緯度、経度: [高密度散布図](../create-reports/desktop-high-density-scatter-charts.md)に関する記事をご覧ください
 - 緯度、経度、サイズ:上位 3,500
-- 凡例、緯度、経度: [高密度散布図](desktop-high-density-scatter-charts.md)に関する記事をご覧ください
+- 凡例、緯度、経度: [高密度散布図](../create-reports/desktop-high-density-scatter-charts.md)に関する記事をご覧ください
 - 凡例、緯度、経度、サイズ:上位 233 の凡例、上位 15 の緯度および経度 (統計情報または動的制限を使用できる場合あり)
 - 場所、凡例、緯度、および経度の集計 (+ および - サイズ):上位 233 の場所、上位 15 の凡例 (統計情報または動的制限を使用できる場合あり)
 

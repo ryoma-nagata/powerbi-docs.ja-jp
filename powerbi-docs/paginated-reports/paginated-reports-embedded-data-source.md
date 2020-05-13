@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921771"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276906"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI サービスでページ分割されたレポート用の埋め込みデータ ソースを作成する
 
@@ -27,11 +27,11 @@ ms.locfileid: "78921771"
 - Oracle 
 - Teradata 
 
-次のデータ ソースの場合は、[SQL Server Analysis Services 接続](../service-premium-connect-tools.md)オプションを使用します。
+次のデータ ソースの場合は、[SQL Server Analysis Services 接続](../admin/service-premium-connect-tools.md)オプションを使用します。
 
 - Power BI Premium データセット
 
-ページ分割されたレポートは、[Power BI ゲートウェイ](../service-gateway-onprem.md)を使用してオンプレミスのデータ ソースに接続します。 ゲートウェイの設定は、Power BI サービスにレポートを発行した後で行います。
+ページ分割されたレポートは、[Power BI ゲートウェイ](../connect-data/service-gateway-onprem.md)を使用してオンプレミスのデータ ソースに接続します。 ゲートウェイの設定は、Power BI サービスにレポートを発行した後で行います。
 
 詳細については、「[Report Data in Power BI Report Builder](report-builder-data.md)」 (Power BI レポート ビルダーでのレポート データ) を参照してください。
 
@@ -93,3 +93,4 @@ ms.locfileid: "78921771"
 
 - [Power BI サービスのページ分割されたレポート用の埋め込みデータセットを作成する](paginated-reports-create-embedded-dataset.md)
 - [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
+

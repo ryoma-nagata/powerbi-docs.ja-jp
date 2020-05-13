@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fc33b48613335f4fba97921e3d528175eb2a47f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ae47c6ea0c7b9bf629f55701ba4242a195dc164d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81267847"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274399"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>データセットとデータフローの認定を設定する (プレビュー)
 
@@ -24,7 +24,7 @@ Power BI テナント管理者は、自分が所属する組織の認定プロ�
 * データセットとデータフローを認定する権限を持つグループとユーザーのリストを定義する。
 * データセットの場合は、組織のデータセット認定ポリシーの URL を指定する (存在する場合)。
 
-データセットとデータフローの認定は、データセットとデータフローの "*承認*" の一部となっています。 詳細については、[データセットの承認](../service-datasets-promote.md)および[データフローの承認](../transform-model/service-dataflows-promote-certify.md)に関するページを参照してください。
+データセットとデータフローの認定は、データセットとデータフローの "*承認*" の一部となっています。 詳細については、[データセットの承認](../connect-data/service-datasets-promote.md)および[データフローの承認](../transform-model/service-dataflows-promote-certify.md)に関するページを参照してください。
 
 
 ## <a name="set-up-certification"></a>認定を設定する
@@ -35,13 +35,13 @@ Power BI テナント管理者は、自分が所属する組織の認定プロ�
    ![データセットとデータフローの認定を設定する](media/service-admin-setup-certification/service-admin-certification-setup-dialog.png)
 
 1. トグルを **[有効]** に設定します。
-1. データセットの認定については、組織に発行済みの認定ポリシーがある場合は、ここでその URL を指定できます。 これは、**データフロー承認設定のダイアログ**の認定セクションでは[[詳細情報]](../service-datasets-promote.md#request-dataset-certification) リンクとなります。 
-1. データセットとデータフローを認定する権限が与えられているユーザーまたはグループを指定します。 このような承認された認定者は、[データセット](../service-datasets-promote.md#request-dataset-certification)または[データフロー](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)承認設定ダイアログの認定セクションにある [認定] ボタンを使用できるようになります。
+1. データセットの認定については、組織に発行済みの認定ポリシーがある場合は、ここでその URL を指定できます。 これは、**データフロー承認設定のダイアログ**の認定セクションでは[[詳細情報]](../connect-data/service-datasets-promote.md#request-dataset-certification) リンクとなります。 
+1. データセットとデータフローを認定する権限が与えられているユーザーまたはグループを指定します。 このような承認された認定者は、[データセット](../connect-data/service-datasets-promote.md#request-dataset-certification)または[データフロー](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)承認設定ダイアログの認定セクションにある [認定] ボタンを使用できるようになります。
 1. **[適用]** をクリックします。
 
 ## <a name="next-steps"></a>次のステップ
-* [データセットを推奨する](../service-datasets-promote.md)
-* [データセットを認定する](../service-datasets-certify.md)
+* [データセットを推奨する](../connect-data/service-datasets-promote.md)
+* [データセットを認定する](../connect-data/service-datasets-certify.md)
 * [データフローを昇格させる](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [データフローを認定する](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
 * ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

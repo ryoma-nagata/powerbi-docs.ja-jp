@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525539"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279022"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI でレポートのパフォーマンスを監視する
 
-[Power BI Premium Metrics アプリ](../service-premium-metrics-app.md)を使用して Power BI Desktop でレポートのパフォーマンスを監視し、ボトルネックがどこにあるかを確認して、レポートのパフォーマンスを向上させる方法を学習します。
+[Power BI Premium Metrics アプリ](../admin/service-premium-metrics-app.md)を使用して Power BI Desktop でレポートのパフォーマンスを監視し、ボトルネックがどこにあるかを確認して、レポートのパフォーマンスを向上させる方法を学習します。
 
 パフォーマンスの監視は、次のような状況に関連しています。
 
@@ -39,7 +39,7 @@ Power BI Desktop で[クエリ診断](/power-query/QueryDiagnostics)を使用し
 
 ## <a name="use-performance-analyzer"></a>パフォーマンス アナライザーを使用する
 
-Power BI Desktop で[パフォーマンス アナライザー](../desktop-performance-analyzer.md)を使用して、レポートの各要素 (ビジュアルや DAX の数式など) がどのように動作しているかを確認できます。 これは、パフォーマンス上の問題に影響しているのが、クエリ、またはビジュアルのレンダリングのどちらであるかを判断する場合に特に役に立ちます。
+Power BI Desktop で[パフォーマンス アナライザー](../create-reports/desktop-performance-analyzer.md)を使用して、レポートの各要素 (ビジュアルや DAX の数式など) がどのように動作しているかを確認できます。 これは、パフォーマンス上の問題に影響しているのが、クエリ、またはビジュアルのレンダリングのどちらであるかを判断する場合に特に役に立ちます。
 
 ## <a name="use-sql-server-profiler"></a>SQL Server プロファイラーを使用する
 
@@ -77,15 +77,15 @@ SQL Server プロファイラーを使用する利点は、SQL Server (リレー
 
 ## <a name="monitor-premium-metrics"></a>Premium Metrics を監視する
 
-Power BI Premium 容量では、**Power BI Premium Metrics アプリ**を使用して、Power BI Premium サブスクリプションの正常性と容量を監視することができます。 詳細については、「[Power BI Premium Metrics アプリ](../service-premium-metrics-app.md)」をご覧ください。
+Power BI Premium 容量では、**Power BI Premium Metrics アプリ**を使用して、Power BI Premium サブスクリプションの正常性と容量を監視することができます。 詳細については、「[Power BI Premium Metrics アプリ](../admin/service-premium-metrics-app.md)」をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 
 この記事に関する詳細については、次のリソースを参照してください。
 
 - [クエリ診断](/power-query/QueryDiagnostics)
-- [パフォーマンス アナライザー](../desktop-performance-analyzer.md)
+- [パフォーマンス アナライザー](../create-reports/desktop-performance-analyzer.md)
 - [Power BI でのレポートのパフォーマンスのトラブルシューティング](report-performance-troubleshoot.md)
-- [Power BI Premium Metrics アプリ](../service-premium-metrics-app.md)
+- [Power BI Premium Metrics アプリ](../admin/service-premium-metrics-app.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

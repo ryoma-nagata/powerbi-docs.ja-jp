@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c40d93cc06204ee7a935727c3b38494fdeb71256
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1a8dba63b0832886ce550cb2ed02249317e7240e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065527"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272766"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>Power BI レポートのグラフのグリッド線を制御するためのヒント
 
@@ -36,7 +36,8 @@ Power BI レポートでグリッド線を制御するための、上位 3 つ�
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [美しいレポートを作成するためのヒント](../desktop-tips-and-tricks-for-creating-reports.md)
+- [美しいレポートを作成するためのヒント](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine ビデオ:[Power BI でグラフのグリッド線を制御するための上位 3 つのヒント](https://www.youtube.com/watch?v=Y-igshes2LI)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)
+

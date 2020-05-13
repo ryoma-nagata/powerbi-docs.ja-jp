@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114333"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277619"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*コンシューマー*向け Power BI サービスでレポートを表示する
 
@@ -99,14 +99,14 @@ Power BI "*デザイナー*" では、メールのリンクを介して、また
     ![読み取りビューで開かれたレポート](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> 一部のタイルはレポートに関連付けられていません。 [Q&A を使用して作成](end-user-q-and-a.md)されたタイルを選択すると、Q&A 画面が開きます。 [ダッシュボードの **[タイルの追加]** ウィジェットを使用して作成](../service-dashboard-add-widget.md)されたタイルを選択すると、ビデオが再生されたり、Web サイトが開いたりなど、さまざまなことが起こる場合があります。  
+> 一部のタイルはレポートに関連付けられていません。 [Q&A を使用して作成](end-user-q-and-a.md)されたタイルを選択すると、Q&A 画面が開きます。 [ダッシュボードの **[タイルの追加]** ウィジェットを使用して作成](../create-reports/service-dashboard-add-widget.md)されたタイルを選択すると、ビデオが再生されたり、Web サイトが開いたりなど、さまざまなことが起こる場合があります。  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>レポートを開く他の方法
 Power BI サービスのナビゲーションに慣れてくると、最適なワークフローを見つけ出すことができます。 レポートにアクセスする他の方法をいくつか以下に示します。
 - ナビ ペインで [[お気に入り]](end-user-favorite.md) と [[最近]](end-user-recent.md) を使用する    
 - [[関連の表示]](end-user-related.md) を使用する    
-- メールで (他のユーザーに[共有してもらう](../service-share-reports.md)場合、または自分で[アラートを設定する](end-user-alerts.md)場合)    
+- メールで (他のユーザーに[共有してもらう](../collaborate-share/service-share-reports.md)場合、または自分で[アラートを設定する](end-user-alerts.md)場合)    
 - [通知センター](end-user-notification-center.md)から    
 - ワークスペースから
 - その他

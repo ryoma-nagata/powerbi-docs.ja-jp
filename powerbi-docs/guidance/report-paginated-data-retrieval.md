@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 511dc42a3090f838654cda84f596d34f02bb3439
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377652"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275089"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>ページ分割されたレポートでのデータ取得のガイダンス
 
@@ -101,14 +101,14 @@ MDX クエリ デザイナーでは、モデルにメジャーを含める必要
 
 ## <a name="non-native-data-sources"></a>ネイティブ以外のデータ ソース
 
-[ページ分割されたレポートでネイティブにサポートされていない](../paginated-reports/paginated-reports-data-sources.md)データ ソースに基づいて、ページ分割されたレポートを作成する必要がある場合は、まず Power BI Desktop データ モデルを開発できます。 この方法で、100 を超える [Power BI データ ソース](../power-bi-data-sources.md)に接続できます。 Power BI サービスに発行されると、Power BI データセットに接続するページ分割されたレポートを作成できます。
+[ページ分割されたレポートでネイティブにサポートされていない](../paginated-reports/paginated-reports-data-sources.md)データ ソースに基づいて、ページ分割されたレポートを作成する必要がある場合は、まず Power BI Desktop データ モデルを開発できます。 この方法で、100 を超える [Power BI データ ソース](../connect-data/power-bi-data-sources.md)に接続できます。 Power BI サービスに発行されると、Power BI データセットに接続するページ分割されたレポートを作成できます。
 
 ## <a name="data-integration"></a>データ統合
 
 複数のデータ ソースからのデータを結合する必要がある場合は、次の 2 つの選択肢があります。
 
 - **レポート データセットを結合する**:データ ソースが[ページ分割されたレポートでネイティブにサポートされている](../paginated-reports/paginated-reports-data-sources.md)場合は、Report Builder 関数 [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) や [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) を使用する計算フィールドを作成することを検討できます。
-- **Power BI Desktop モデルを開発する**:ただし、Power BI Desktop でデータ モデルを開発する方が効率的である可能性があります。 Power Query を使用して、[サポートされている任意のデータ ソース](../power-bi-data-sources.md)に基づいてクエリを組み合わせることができます。 Power BI サービスに発行されると、Power BI データセットに接続するページ分割されたレポートを作成できます。
+- **Power BI Desktop モデルを開発する**:ただし、Power BI Desktop でデータ モデルを開発する方が効率的である可能性があります。 Power Query を使用して、[サポートされている任意のデータ ソース](../connect-data/power-bi-data-sources.md)に基づいてクエリを組み合わせることができます。 Power BI サービスに発行されると、Power BI データセットに接続するページ分割されたレポートを作成できます。
 
 ## <a name="sql-server-complex-data-types"></a>SQL Server の複合データ型
 

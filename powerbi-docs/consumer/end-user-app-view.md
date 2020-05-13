@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120277"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275526"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 
@@ -65,7 +65,7 @@ ms.locfileid: "82120277"
 
 ## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Microsoft AppSource Web サイトからアプリを取得する 
 
-この例では、Microsoft のサンプル アプリの 1 つを開きます。 AppSource では、ビジネスに使用する多くのサービス向けアプリが見つかります。  Salesforce、Microsoft Dynamics、Google Analytics、GitHub、Zendesk、Marketo などのサービスです。 詳細については、[Power BI で使用するサービス向けアプリ](../service-connect-to-services.md)に関するページを参照してください。 
+この例では、Microsoft のサンプル アプリの 1 つを開きます。 AppSource では、ビジネスに使用する多くのサービス向けアプリが見つかります。  Salesforce、Microsoft Dynamics、Google Analytics、GitHub、Zendesk、Marketo などのサービスです。 詳細については、[Power BI で使用するサービス向けアプリ](../connect-data/service-connect-to-services.md)に関するページを参照してください。 
 
 1. ブラウザーで [https://appsource.microsoft.com](https://appsource.microsoft.com) を開き、 **[Power BI アプリ]** を選択します。
 
@@ -142,3 +142,4 @@ ms.locfileid: "82120277"
 * [アプリの概要に戻る](end-user-apps.md)
 * [Power BI レポートを表示する](end-user-report-open.md)
 * [コンテンツを自分と共有するその他の方法](end-user-shared-with-me.md)
+

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260454"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278332"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多対多のリレーションシップのガイダンス
 
@@ -161,7 +161,7 @@ ms.locfileid: "78260454"
 
 ### <a name="relate-many-to-many-facts-guidance"></a>多対多ファクトの関連付けに関するガイダンス
 
-一般には、多対多カーディナリティを使用して、2 つのファクトの種類のテーブルを直接関連付けることはお勧めしません。 主な理由は、モデルでは、ビジュアル フィルターやグループをレポートする方法に柔軟性がないためです。 この例では、ビジュアルでフィルター処理またはグループ化できるのは、**Order** テーブルの **OrderID** 列でのみとなります。 他の理由は、データの品質に関連します。 データに整合性の問題がある場合、"_弱いリレーションシップ_" の性質により、一部の行がクエリの実行中に省略される可能性があります。 詳細については、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
+一般には、多対多カーディナリティを使用して、2 つのファクトの種類のテーブルを直接関連付けることはお勧めしません。 主な理由は、モデルでは、ビジュアル フィルターやグループをレポートする方法に柔軟性がないためです。 この例では、ビジュアルでフィルター処理またはグループ化できるのは、**Order** テーブルの **OrderID** 列でのみとなります。 他の理由は、データの品質に関連します。 データに整合性の問題がある場合、"_弱いリレーションシップ_" の性質により、一部の行がクエリの実行中に省略される可能性があります。 詳細については、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
 
 ファクトの種類のテーブルを直接関連付けるのではなく、[スター スキーマ](star-schema.md)設計原則を採用することをお勧めします。 これを行うには、ディメンションの種類のテーブルを追加します。 一対多リレーションシップを使用して、ディメンションの種類のテーブルをファクトの種類のテーブルに関連付けます。 この設計手法は、柔軟なレポート オプションが提供されるため、堅牢です。 これにより、ディメンションの種類の列のいずれかを使用して、フィルター処理またはグループ化を行い、関連するファクトの種類のテーブルを集計することができます。
 
@@ -184,7 +184,7 @@ ms.locfileid: "78260454"
 - レポート ビジュアルでは、ディメンションの種類のテーブルの任意の表示列で、"_フィルター処理またはグループ化_" することができます
 - レポート ビジュアルでは、ファクトの種類のテーブルの任意の表示列を "_集計_" できます
 - **OrderLine**、**OrderDate**、または **Product** テーブルに適用されたフィルターは、両方のファクトの種類のテーブルに伝達されます
-- すべてのリレーションシップは一対多であり、各リレーションシップは "_強いリレーションシップ_" となります。 データ整合性の問題はマスクされません。 詳細については、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
+- すべてのリレーションシップは一対多であり、各リレーションシップは "_強いリレーションシップ_" となります。 データ整合性の問題はマスクされません。 詳細については、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
 
 ## <a name="relate-higher-grain-facts"></a>より高い粒度のファクトを関連付ける
 
@@ -209,7 +209,7 @@ ms.locfileid: "78260454"
 
 しかし、月または日付レベルのフィルターで確実に意味のある結果を得るには、注意が必要です。 特別な計算ロジックを使用しないと、レポート ビジュアルで、ターゲットの日付が文字どおり、各年の最初の日であると報告される可能性があります。 それ以外のすべての日 (1 月を除くすべての月) では、ターゲット数量が空白として集計されます。
 
-次のマトリックス ビジュアルでは、レポート ユーザーがある年からその月にドリルダウンしたときの動作が示されています。 このビジュアルでは、**TargetQuantity** 列が集計されています  (マトリックス行に対して [[データのない項目を表示する]](../desktop-show-items-no-data.md) オプションが有効になっている)。
+次のマトリックス ビジュアルでは、レポート ユーザーがある年からその月にドリルダウンしたときの動作が示されています。 このビジュアルでは、**TargetQuantity** 列が集計されています  (マトリックス行に対して [[データのない項目を表示する]](../create-reports/desktop-show-items-no-data.md) オプションが有効になっている)。
 
 ![マトリックス ビジュアルでは、2020 年のターゲット数量が 270 として示されています。 2020 年の月を表示するために展開すると、1 月は 270 となっており、その他の各月レベルのターゲット数量は空白になっています。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ IF(
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Desktop でのモデル リレーションシップ](../desktop-relationships-understand.md)
+- [Power BI Desktop でのモデル リレーションシップ](../transform-model/desktop-relationships-understand.md)
 - [Power BI のスター スキーマおよび重要性について](star-schema.md)
 - [リレーションシップのトラブルシューティング ガイダンス](relationships-troubleshoot.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

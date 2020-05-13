@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584928"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277895"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>米国の州政府および地方自治体向けの COVID-19 の追跡サンプル
 
@@ -48,7 +48,7 @@ Microsoft では、サンプル レポートを公開し、Web に公開する�
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-埋め込みコードは HTML iFrame 要素で、任意の HTML ページに挿入できます。 ご自分のサイト内に収まるように、提供された iFrame の幅と高さを調整します。 サンプル レポートは、16:9 の比率で作成されているため、この大きさを保持するサイズを選択します。 正しく実装されている場合、余分な灰色の枠なしでグラフィックが表示されます。 これらの変更を行う場合は、[iFrame のサイズ変更のヒントとテクニックを確認](../service-publish-to-web.md#tips-for-iframe-height-and-width)すると役立ちます。
+埋め込みコードは HTML iFrame 要素で、任意の HTML ページに挿入できます。 ご自分のサイト内に収まるように、提供された iFrame の幅と高さを調整します。 サンプル レポートは、16:9 の比率で作成されているため、この大きさを保持するサイズを選択します。 正しく実装されている場合、余分な灰色の枠なしでグラフィックが表示されます。 これらの変更を行う場合は、[iFrame のサイズ変更のヒントとテクニックを確認](../collaborate-share/service-publish-to-web.md#tips-for-iframe-height-and-width)すると役立ちます。
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>オプション 2:サンプル Power BI ファイルのカスタマイズ
 
@@ -93,18 +93,18 @@ USAFacts データは、帰属を必要とする Creative Commons ライセン�
 
 ### <a name="publish-your-report-to-the-power-bi-service"></a>Power BI サービスにレポートを発行する
 
-必要に応じてレポートをカスタマイズしたら、[こちら](../desktop-upload-desktop-files.md)に記載されている手順に従って、レポートを Power BI サービスに発行します。
+必要に応じてレポートをカスタマイズしたら、[こちら](../create-reports/desktop-upload-desktop-files.md)に記載されている手順に従って、レポートを Power BI サービスに発行します。
 
 ### <a name="configure-scheduled-refresh"></a>スケジュールされた更新の構成
 
-レポートのデータを最新の状態に保つために、レポートを発行した後で、[スケジュールされた更新を構成](../refresh-scheduled-refresh.md)することができます。
+レポートのデータを最新の状態に保つために、レポートを発行した後で、[スケジュールされた更新を構成](../connect-data/refresh-scheduled-refresh.md)することができます。
 
 手順に従って、次のオプションを選択します。
 
 1. データ ソース資格情報の認証方法:匿名
 2. このデータ ソースのプライバシー レベルの設定:パブリック
 
-更新設定をテストするには、データセット項目で使用できる、[[今すぐ更新]](../refresh-data.md#data-refresh) オプションを選択します。
+更新設定をテストするには、データセット項目で使用できる、[[今すぐ更新]](../connect-data/refresh-data.md#data-refresh) オプションを選択します。
 
 更新されたデータは、スケジュールが実行されるたびに読み込まれます。 基になるデータは USAFacts によって提供され、更新スケジュールと同じ頻度で更新されない場合があります。 基になるデータが最後に更新された日時を知るには、[USAFacts の Web サイト](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)で確認してください。 
 
@@ -112,7 +112,7 @@ USAFacts データは、帰属を必要とする Creative Commons ライセン�
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Web に公開する埋め込みコードを作成する 
 
-独自の Web サイトにカスタマイズしたレポートを埋め込むには、[独自の Web に公開する埋め込みコードの作成方法](../service-publish-to-web.md#create-embed-codes-with-publish-to-web)の手順に従います。
+独自の Web サイトにカスタマイズしたレポートを埋め込むには、[独自の Web に公開する埋め込みコードの作成方法](../collaborate-share/service-publish-to-web.md#create-embed-codes-with-publish-to-web)の手順に従います。
 
 埋め込みコードを公開したら、確認ダイアログの iFrame を使用して、ご自分の Web サイトに埋め込みます。
 
@@ -143,7 +143,7 @@ Power BI Desktop でレポートに変更を加えた場合は、Power BI サー
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-load-data.png" alt-text="Web からデータを読み込む":::
 
-    「[Power BI Desktop から Web ページに接続する](../desktop-connect-to-web.md)」の記事では、Web からデータを読み込む方法についてより詳しく説明されています。
+    「[Power BI Desktop から Web ページに接続する](../connect-data/desktop-connect-to-web.md)」の記事では、Web からデータを読み込む方法についてより詳しく説明されています。
     
 次に、Power BI Desktop を使用してデータを視覚化できます。 最後に、「**オプション 2:** [Power BI サービスにレポートを発行する](#publish-your-report-to-the-power-bi-service)」の手順を使用して、レポートを発行し、カスタムの埋め込みコードを作成します。 
 
@@ -168,4 +168,8 @@ USAFacts データは、Creative Commons ライセンスの下で利用できま
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI のサンプルを入手する](../sample-datasets.md)
+[Power BI のサンプルを入手する](../create-reports/sample-datasets.md)
+
+
+
+

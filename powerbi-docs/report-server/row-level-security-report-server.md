@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d94e9696ee41e8bd76f7d11aab794ccd2dc701b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859173"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277987"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Report Server での行レベルのセキュリティ (RLS)
 
@@ -33,7 +33,7 @@ Power BI Desktop を使用して Power BI にインポートされるレポー�
 
 ユーザー名またはログイン ID に基づく[動的な行レベルのセキュリティ](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)を実装する場合は、このチェック ボックスをオンにします。 
 
-詳細については、「[Power BI Desktop での DirectQuery を使用する双方向のクロス フィルタリング](../desktop-bidirectional-filtering.md)」と「[表形式の BI セマンティック モデルの保護](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)」の技術的なホワイトペーパーを参照してください。
+詳細については、「[Power BI Desktop での DirectQuery を使用する双方向のクロス フィルタリング](../transform-model/desktop-bidirectional-filtering.md)」と「[表形式の BI セマンティック モデルの保護](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)」の技術的なホワイトペーパーを参照してください。
 
 [!INCLUDE [rls-desktop-view-as-roles](../includes/rls-desktop-view-as-roles.md)]
 
@@ -84,7 +84,7 @@ Power BI モデルの行レベルのセキュリティにおける現在の制�
 
 DAX 関数である username() を使用してレポートを保持していたユーザーの場合は、関数の動作が変わりユーザー プリンシパル名 (UPN) が返されるようになります。ただし、DirectQuery を統合セキュリティで使用する場合は例外です。  そのシナリオでは RLS が適切に扱われないので、動作は変更されないためです。
 
-RLS は、Power BI Desktop を使用して作成されたデータセットにのみ定義できます。 Excel を使用して作成されたデータセットに対して RLS を有効にするには、最初にご利用のファイルを Power BI Desktop (PBIX) ファイルに変換する必要があります。 詳細については、[Excel ファイルの変換](../desktop-import-excel-workbooks.md)に関するページを参照してください。
+RLS は、Power BI Desktop を使用して作成されたデータセットにのみ定義できます。 Excel を使用して作成されたデータセットに対して RLS を有効にするには、最初にご利用のファイルを Power BI Desktop (PBIX) ファイルに変換する必要があります。 詳細については、[Excel ファイルの変換](../connect-data/desktop-import-excel-workbooks.md)に関するページを参照してください。
 
 変換、読み込み (ETL)、DirectQuery の接続については、保存された資格情報を使用する場合のみがサポートされています。 Analysis Services へのライブ接続および統合認証を使用した DirectQuery 接続は、基になるデータ ソース内でのみ処理されます。 
 
@@ -122,3 +122,4 @@ Power BI Desktop にデータをインポートした場合は作成できます
 [管理者向けハンドブック](admin-handbook-overview.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+

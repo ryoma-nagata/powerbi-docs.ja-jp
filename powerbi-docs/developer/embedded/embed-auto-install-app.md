@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 0adfb72c408f96749afc8a3d7a6884e10e52fadb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 10939c23a5c25a2ff4233f6b74f9efd99d8e10fd
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114683"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148072"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>組織向けの埋め込みのときに Power BI アプリを自動インストールする
 
-アプリからコンテンツを埋め込むには、埋め込みを行うユーザーが[そのアプリにアクセス](../../service-create-distribute-apps.md)できる必要があります。 そのユーザー向けにアプリがインストールされている場合、埋め込みはスムーズに行われます。 詳細については、「[アプリからレポートやダッシュボードを埋め込む](embed-from-apps.md)」を参照してください。 すべてのアプリが[自動的にインストール](https://powerbi.microsoft.com/blog/automatically-install-apps/)されるように PowerBI.com で定義することはできます。 ただし、このアクションはテナント レベルで行われ、すべてのアプリに適用されます。
+アプリからコンテンツを埋め込むには、埋め込みを行うユーザーが[そのアプリにアクセス](../../collaborate-share/service-create-distribute-apps.md)できる必要があります。 そのユーザー向けにアプリがインストールされている場合、埋め込みはスムーズに行われます。 詳細については、「[アプリからレポートやダッシュボードを埋め込む](embed-from-apps.md)」を参照してください。 すべてのアプリが[自動的にインストール](https://powerbi.microsoft.com/blog/automatically-install-apps/)されるように PowerBI.com で定義することはできます。 ただし、このアクションはテナント レベルで行われ、すべてのアプリに適用されます。
 
 ## <a name="auto-install-app-on-embedding"></a>埋め込み時にアプリを自動インストールする
 

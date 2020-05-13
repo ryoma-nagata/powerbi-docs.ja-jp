@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 711c920f5b0b7feeeeb2297e0f93714e1e89f1a2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75219887"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148184"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>外部組織から共有されている Power BI コンテンツを表示する
 
@@ -28,7 +28,7 @@ Power BI と Azure Active Directory Business-to-Business (Azure AD B2B) との�
 
 ## <a name="accessing-shared-content"></a>共有コンテンツにアクセスする
 
-**まず、外部組織の人に項目を共有してもらう必要があります。** 同じ組織または外部組織から、他の人が[あなたと項目を共有](../../service-share-dashboards.md)すると、その共有項目へのリンクを含む電子メールが送られてきます。 モバイル デバイスでこのリンクに従うと、Power BI モバイル アプリが開きます。 アプリで項目が外部組織から共有されていることが認識されると、アプリはあなたの ID を使用してその組織に再接続します。 その後、その組織からあなたに共有されたすべての項目がアプリによって読み込まれます。
+**まず、外部組織の人に項目を共有してもらう必要があります。** 同じ組織または外部組織から、他の人が[あなたと項目を共有](../../collaborate-share/service-share-dashboards.md)すると、その共有項目へのリンクを含む電子メールが送られてきます。 モバイル デバイスでこのリンクに従うと、Power BI モバイル アプリが開きます。 アプリで項目が外部組織から共有されていることが認識されると、アプリはあなたの ID を使用してその組織に再接続します。 その後、その組織からあなたに共有されたすべての項目がアプリによって読み込まれます。
 
 ![Power BI が電子メールから共有項目を開く ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 

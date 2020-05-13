@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114231"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277458"
 ---
 # <a name="reports-in-power-bi"></a>Power BI のレポート
 
@@ -76,7 +76,7 @@ Power BI は、1 つのデータセットに基づいてレポートを作成し
 
 * まず、[Power BI サービスのツアー](end-user-basic-concepts.md)を利用して、レポートとレポート ツールをどこで探せばよいかを理解します。
 * [レポートを開く](end-user-report-open.md)方法と、[コンシューマーが使用できるすべての対話的操作](end-user-reading-view.md)について学習します。
-* いずれかの[サンプル](../sample-tutorial-connect-to-the-samples.md)のツアーを利用してレポートに慣れます。  
+* いずれかの[サンプル](../create-reports/sample-tutorial-connect-to-the-samples.md)のツアーを利用してレポートに慣れます。  
 * レポートで使用されているデータセット、およびレポートのビジュアルが表示されているダッシュボード ("*ピン留め*") を確認するには、「[Power BI サービスで関連するコンテンツを表示する](end-user-related.md)」を参照してください。
 
 > [!TIP]
@@ -86,3 +86,4 @@ Power BI は、1 つのデータセットに基づいてレポートを作成し
 
 [レポートを開いて表示する](end-user-report-open.md)    
 [Power BI サービスのダッシュボード](end-user-dashboards.md)
+

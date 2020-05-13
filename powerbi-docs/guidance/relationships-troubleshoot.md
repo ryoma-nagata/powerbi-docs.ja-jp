@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e2854d82d858bb1963b691d32d561c7b3bbfc11a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ccff80391ed0625aac063af3bf7a86b83cd7e85
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263647"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278125"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>リレーションシップのトラブルシューティング ガイダンス
 
@@ -44,18 +44,18 @@ ms.locfileid: "78263647"
 
 |問題|考えられる理由|
 |---------|---------|
-|ビジュアルに結果が表示されない|- モデルにまだデータが読み込まれていない<br />- フィルター コンテキスト内にデータが存在しない<br />- 行レベルのセキュリティが適用されている<br />- リレーションシップがテーブル間で反映されていない。"_上記のチェックリストに従ってください_"<br />- 行レベルのセキュリティが適用されているが、双方向のリレーションシップの反映が有効になっていない。[Power BI Desktop での行レベルのセキュリティ (RLS)](../desktop-rls.md) に関する記事を参照|
+|ビジュアルに結果が表示されない|- モデルにまだデータが読み込まれていない<br />- フィルター コンテキスト内にデータが存在しない<br />- 行レベルのセキュリティが適用されている<br />- リレーションシップがテーブル間で反映されていない。"_上記のチェックリストに従ってください_"<br />- 行レベルのセキュリティが適用されているが、双方向のリレーションシップの反映が有効になっていない。[Power BI Desktop での行レベルのセキュリティ (RLS)](../create-reports/desktop-rls.md) に関する記事を参照|
 |各グループ化に対してビジュアルに同じ値が表示される |- リレーションシップが存在しない<br />- リレーションシップがテーブル間で反映されていない。"_上記のチェックリストに従ってください_"|
 |ビジュアルに結果が表示されるが、間違っている|- ビジュアルが正しく構成されていない<br />- メジャーのロジックが正しくない<br />- モデル データを更新する必要がある<br />- ソース データが正しくない<br />- リレーションシップ列が誤って関連付けられている (例: **ProductID** 列が **CustomerID** にマップされている)<br />- 2 つの DirectQuery テーブル間のリレーションシップで、リレーションシップの "一" 側の列に重複する値が含まれている|
-|空白のグループ化またはスライサー/フィルター項目が表示され、ソース列に空白が含まれていない|- 強いリレーションシップであり、"多" 側の列に "一" 側の列に格納されていない値が含まれている。[Power BI Desktop でのモデル リレーションシップ (強いリレーションシップ)](../desktop-relationships-understand.md#strong-relationships) に関する記事を参照<br />- 強い一対一のリレーションシップであり、関連列に空白が含まれている。[Power BI Desktop でのモデル リレーションシップ (強いリレーションシップ)](../desktop-relationships-understand.md#strong-relationships) に関する記事を参照<br />- 非アクティブなリレーションシップの "多" 側の列に空白が格納されているか、"一" 側に格納されていない値が含まれている|
-|ビジュアルにデータが不足している|- 間違った、または予期しないフィルターが適用されている<br />- 行レベルのセキュリティが適用されている<br />- 弱いリレーションシップであり、関連列に空白が含まれているか、データの整合性に問題がある。[Power BI Desktop でのモデル リレーションシップ (弱いリレーションシップ)](../desktop-relationships-understand.md#weak-relationships) に関する記事を参照<br />- 2 つの DirectQuery テーブル間のリレーションシップであり、[参照整合性を想定](../desktop-relationships-understand.md#assume-referential-integrity)するようにリレーションシップが構成されているが、データの整合性に問題がある (関連列での一致しない値)|
-|行レベルのセキュリティが正しく適用されていない|- リレーションシップがテーブル間で反映されていない。"_上記のチェックリストに従ってください_"<br />- 行レベルのセキュリティが適用されているが、双方向のリレーションシップの反映が有効になっていない。[Power BI Desktop での行レベルのセキュリティ (RLS)](../desktop-rls.md) に関する記事を参照|
+|空白のグループ化またはスライサー/フィルター項目が表示され、ソース列に空白が含まれていない|- 強いリレーションシップであり、"多" 側の列に "一" 側の列に格納されていない値が含まれている。[Power BI Desktop でのモデル リレーションシップ (強いリレーションシップ)](../transform-model/desktop-relationships-understand.md#strong-relationships) に関する記事を参照<br />- 強い一対一のリレーションシップであり、関連列に空白が含まれている。[Power BI Desktop でのモデル リレーションシップ (強いリレーションシップ)](../transform-model/desktop-relationships-understand.md#strong-relationships) に関する記事を参照<br />- 非アクティブなリレーションシップの "多" 側の列に空白が格納されているか、"一" 側に格納されていない値が含まれている|
+|ビジュアルにデータが不足している|- 間違った、または予期しないフィルターが適用されている<br />- 行レベルのセキュリティが適用されている<br />- 弱いリレーションシップであり、関連列に空白が含まれているか、データの整合性に問題がある。[Power BI Desktop でのモデル リレーションシップ (弱いリレーションシップ)](../transform-model/desktop-relationships-understand.md#weak-relationships) に関する記事を参照<br />- 2 つの DirectQuery テーブル間のリレーションシップであり、[参照整合性を想定](../transform-model/desktop-relationships-understand.md#assume-referential-integrity)するようにリレーションシップが構成されているが、データの整合性に問題がある (関連列での一致しない値)|
+|行レベルのセキュリティが正しく適用されていない|- リレーションシップがテーブル間で反映されていない。"_上記のチェックリストに従ってください_"<br />- 行レベルのセキュリティが適用されているが、双方向のリレーションシップの反映が有効になっていない。[Power BI Desktop での行レベルのセキュリティ (RLS)](../create-reports/desktop-rls.md) に関する記事を参照|
 |||
 
 ## <a name="next-steps"></a>次のステップ
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Desktop でのモデル リレーションシップ](../desktop-relationships-understand.md)
+- [Power BI Desktop でのモデル リレーションシップ](../transform-model/desktop-relationships-understand.md)
 - ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

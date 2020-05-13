@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841781"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273525"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
 
@@ -48,7 +48,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 ## <a name="cross-highlight-visuals"></a>ビジュアルをクロス強調表示する
 縦表示のビジュアルのクロス強調表示は、Power BI サービスや横長ビューのスマートフォンの場合と同じように機能します。1 つのビジュアルでデータを選択すると、そのページの他のビジュアルの関連するデータが強調表示されます。
 
-詳しくは、[Power BI のフィルターと強調表示について](../../power-bi-reports-filters-and-highlighting.md)のページを参照してください。
+詳しくは、[Power BI のフィルターと強調表示について](../../create-reports/power-bi-reports-filters-and-highlighting.md)のページを参照してください。
 
 ## <a name="select-visuals"></a>ビジュアルを選択する
 電話レポートで、ビジュアルを選択すると、そのビジュアルが強調表示され、フォーカスされて、キャンバスのジェスチャが無効になります。
@@ -131,8 +131,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI モバイル アプリ向けに最適化されたレポートを作成する](../../desktop-create-phone-report.md)
-* [Power BI でダッシュボードの Phone ビューを作成する](../../service-create-dashboard-mobile-phone-view.md)
+* [Power BI モバイル アプリ向けに最適化されたレポートを作成する](../../create-reports/desktop-create-phone-report.md)
+* [Power BI でダッシュボードの Phone ビューを作成する](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](../../visuals/desktop-create-responsive-visuals.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

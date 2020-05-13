@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492838"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148648"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI Embedded の分析の容量と SKU
 
@@ -38,7 +38,7 @@ Power BI Embedded を使用するアプリケーションでは、ユーザー�
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-[Power BI Premium](../../service-premium-what-is.md) は、組織、パートナー、顧客、サプライヤーを 1 つのビューで見ることができる完全 BI ソリューションを望む企業向けです。
+[Power BI Premium](../../admin/service-premium-what-is.md) は、組織、パートナー、顧客、サプライヤーを 1 つのビューで見ることができる完全 BI ソリューションを望む企業向けです。
 
 Power BI Premium は SaaS 製品であり、ユーザーはモバイル アプリ、社内で開発したアプリを使用して、または Power BI ポータル (Power BI サービス) でコンテンツを利用できます。 これにより、Power BI Premium は、内部および外部の顧客向けアプリケーションの両方に対してソリューションが提供可能となります。
 
@@ -46,21 +46,21 @@ Power BI Premium は SaaS 製品であり、ユーザーはモバイル アプ�
 
 各容量には SKU の選択肢が用意されており、各 SKU ではメモリとコンピューティング能力に対して異なるリソース階層が提供されます。 必要な SKU の種類は、デプロイするソリューションの種類によって異なります。
 
-各階層でサポートされているワークロードを確認するには、「[Premium 容量でワークロードを構成する](../../service-admin-premium-workloads.md)」の記事を参照してください
+各階層でサポートされているワークロードを確認するには、「[Premium 容量でワークロードを構成する](../../admin/service-admin-premium-workloads.md)」の記事を参照してください
 
 容量の計画とテストを行うには、次のリンクを使用します。
 * [容量計画](embedded-capacity-planning.md)
-* [テスト方法](../../service-premium-capacity-optimize.md#testing-approaches)
+* [テスト方法](../../admin/service-premium-capacity-optimize.md#testing-approaches)
 
 ### <a name="power-bi-embedded-skus"></a>Power BI Embedded の SKU
 
-Power BI Embedded には、[*A* SKU](../../service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) が付属しています。
+Power BI Embedded には、[*A* SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) が付属しています。
 
 ### <a name="power-bi-premium-skus"></a>Power BI Premium の SKU
 
 Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されています。
-* [*P* および *EM* SKU の違いを理解する](../../service-premium-what-is.md#subscriptions-and-licensing)
-* [Premium SKU を購入する](../../service-admin-premium-purchase.md)
+* [*P* および *EM* SKU の違いを理解する](../../admin/service-premium-what-is.md#subscriptions-and-licensing)
+* [Premium SKU を購入する](../../admin/service-admin-premium-purchase.md)
 
 ### <a name="which-sku-should-i-use"></a>どの SKU を使用すべきか
 

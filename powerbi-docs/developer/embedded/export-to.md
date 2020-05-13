@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1d51c16502d3217e0158add2126d0b5726d87ff1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525470"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144709"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI レポートをファイルにエクスポートする (プレビュー)
 
@@ -34,7 +34,7 @@ ms.locfileid: "81525470"
 
 ## <a name="using-the-api"></a>API を使用する
 
-API を使用する前に、次の[管理者テナント設定](../../service-admin-portal.md#tenant-settings)が有効になっていることを確認します。
+API を使用する前に、次の[管理者テナント設定](../../admin/service-admin-portal.md#tenant-settings)が有効になっていることを確認します。
 * **[PowerPoint プレゼンテーションまたは PDF ドキュメントとしてレポートをエクスポート]** - 既定で有効になります。
 * **[画像ファイルとしてレポートをエクスポート]** - *.png* の場合にのみ必要で、既定では無効になります。
 

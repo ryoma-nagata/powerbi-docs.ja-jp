@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378871"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278609"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI の最適化ガイド
 
@@ -26,7 +26,7 @@ ms.locfileid: "79378871"
 
 ## <a name="optimizing-the-data-model"></a>データ モデルの最適化
 
-データ モデルでは、視覚化エクスペリエンス全体がサポートされています。 データ モデルは、外部でホストされるか内部でホストされるかのいずれかであり、Power BI では "_データセット_" と呼ばれます。 選択肢を理解し、ご自分のソリューションに適したデータセットの種類を選択することが重要です。 次の 3 つのデータセット モードがあります:インポート、DirectQuery、複合。 詳細については、「[Power BI サービスのデータセット](../service-datasets-understand.md)」と「[Power BI サービスのデータセット モード](../service-dataset-modes-understand.md)」をご覧ください。
+データ モデルでは、視覚化エクスペリエンス全体がサポートされています。 データ モデルは、外部でホストされるか内部でホストされるかのいずれかであり、Power BI では "_データセット_" と呼ばれます。 選択肢を理解し、ご自分のソリューションに適したデータセットの種類を選択することが重要です。 次の 3 つのデータセット モードがあります:インポート、DirectQuery、複合。 詳細については、「[Power BI サービスのデータセット](../connect-data/service-datasets-understand.md)」と「[Power BI サービスのデータセット モード](../connect-data/service-dataset-modes-understand.md)」をご覧ください。
 
 特定のデータセット モードのガイダンスについては、以下を参照してください。
 
@@ -40,7 +40,7 @@ Power BI の視覚化には、ダッシュボード、Power BI レポート、�
 
 ### <a name="dashboards"></a>ダッシュボード
 
-Power BI では、ダッシュボードのタイルのキャッシュが保持されることを理解しておくことが重要です。ただし、ライブ レポート タイルとストリーミング タイルは除きます。 詳細については、[Power BI でのデータ更新 (タイルの更新)](../refresh-data.md#tile-refresh) に関する記事をご覧ください。 お使いのデータセットで動的な[行レベルのセキュリティ (RLS)](../service-admin-rls.md) が適用される場合は、タイルがユーザー単位でキャッシュされるため、パフォーマンスへの影響があることを理解しておく必要があります。
+Power BI では、ダッシュボードのタイルのキャッシュが保持されることを理解しておくことが重要です。ただし、ライブ レポート タイルとストリーミング タイルは除きます。 詳細については、[Power BI でのデータ更新 (タイルの更新)](../connect-data/refresh-data.md#tile-refresh) に関する記事をご覧ください。 お使いのデータセットで動的な[行レベルのセキュリティ (RLS)](../admin/service-admin-rls.md) が適用される場合は、タイルがユーザー単位でキャッシュされるため、パフォーマンスへの影響があることを理解しておく必要があります。
 
 ライブ レポート タイルをダッシュボードにピン留めしても、それらがクエリ キャッシュから提供されることはありません。 代わりに、それらはレポートのように動作し、バックエンド コアに対してすぐにクエリを実行します。
 
@@ -75,7 +75,7 @@ Power BI レポートのデザインを最適化するには、いくつかの�
 
 Power BI のページ分割されたレポートのデザインを最適化するには、レポートのデータ取得に対してベスト プラクティスのデザインを適用します。 詳細については、「[ページ分割されたレポートでのデータ取得のガイダンス](report-paginated-data-retrieval.md)」をご覧ください。
 
-また、ご使用の容量で、[ページ分割されたレポート ワークロード](../service-admin-premium-workloads.md#paginated-reports)に十分なメモリが割り当てられていることを確認してください。
+また、ご使用の容量で、[ページ分割されたレポート ワークロード](../admin/service-admin-premium-workloads.md#paginated-reports)に十分なメモリが割り当てられていることを確認してください。
 
 ## <a name="optimizing-the-environment"></a>環境の最適化
 
@@ -83,11 +83,11 @@ Power BI のページ分割されたレポートのデザインを最適化す�
 
 ### <a name="capacity-settings"></a>容量の設定
 
-専用容量 (Power BI Premium (P SKU) または Power BI Embedded (A SKU、A4-A6) で利用可能) を使用する場合は、容量の設定を管理できます。 詳細については、「[Premium 容量を管理する](../service-premium-capacity-manage.md)」を参照してください。 容量を最適化する方法のガイダンスについては、「[Premium 容量を最適化する](../service-premium-capacity-optimize.md)」をご覧ください。
+専用容量 (Power BI Premium (P SKU) または Power BI Embedded (A SKU、A4-A6) で利用可能) を使用する場合は、容量の設定を管理できます。 詳細については、「[Premium 容量を管理する](../admin/service-premium-capacity-manage.md)」を参照してください。 容量を最適化する方法のガイダンスについては、「[Premium 容量を最適化する](../admin/service-premium-capacity-optimize.md)」をご覧ください。
 
 ### <a name="gateway-sizing"></a>ゲートウェイのサイズ設定
 
-インターネット経由で直接アクセスできないデータに Power BI がアクセスする必要がある場合は、常にゲートウェイが必要です。 オンプレミスのサーバー、または VM でホストされるサービスとしてのインフラストラクチャ (IaaS) に、[オンプレミス データ ゲートウェイ](../service-gateway-onprem.md)をインストールすることができます。
+インターネット経由で直接アクセスできないデータに Power BI がアクセスする必要がある場合は、常にゲートウェイが必要です。 オンプレミスのサーバー、または VM でホストされるサービスとしてのインフラストラクチャ (IaaS) に、[オンプレミス データ ゲートウェイ](../connect-data/service-gateway-onprem.md)をインストールすることができます。
 
 ゲートウェイのワークロードとサイズ設定の推奨事項について理解するには、「[オンプレミス データ ゲートウェイのサイズ設定](gateway-onprem-sizing.md)」をご覧ください。
 
@@ -96,7 +96,7 @@ Power BI のページ分割されたレポートのデザインを最適化す�
 ネットワーク待機時間は、要求が Power BI サービスに到達するまでに要する時間と、応答の配信に要する時間が増えることで、レポートのパフォーマンスに影響を及ぼす可能性があります。 Power BI のテナントは、特定のリージョンに割り当てられています。
 
 > [!TIP]
-> ご自身のテナントが配置されている場所を特定するには、「[Power BI テナントの場所](../service-admin-where-is-my-tenant-located.md)」をご覧ください。
+> ご自身のテナントが配置されている場所を特定するには、「[Power BI テナントの場所](../admin/service-admin-where-is-my-tenant-located.md)」をご覧ください。
 
 テナントのユーザーが Power BI サービスにアクセスすると、要求は常にこのリージョンにルーティングされます。 要求が Power BI サービスに到達すると、サービスからさらに要求が送信されることがあります (たとえば、基になるデータ ソースやデータ ゲートウェイに対して)。これもネットワーク待機時間の影響を受けます。
 
@@ -115,3 +115,7 @@ Power BI のページ分割されたレポートのデザインを最適化す�
 - ホワイト ペーパー:[Power BI のエンタープライズ展開の計画](https://go.microsoft.com/fwlink/?linkid=2057861)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)
+
+
+
+

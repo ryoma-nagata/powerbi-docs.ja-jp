@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404883"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145221"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>チュートリアル:ページ分割されたレポートを作成して Power BI サービスにアップロードする
 
@@ -43,7 +43,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 ページ分割されたレポートを Power BI サービスにアップロードするための前提条件を次に示します。
 
 - [Power BI Pro ライセンス](../service-admin-power-bi-pro-in-your-organization.md)が必要です。
-- [Power BI Premium 容量](../service-premium-what-is.md)内のサービス上のワークスペースが必要です。 ワークスペース名の横にダイヤモンド形のアイコン ![Premium のダイヤモンド形アイコン](media/paginated-reports-quickstart-aw/premium-diamond.png) が表示されます。
+- [Power BI Premium 容量](../admin/service-premium-what-is.md)内のサービス上のワークスペースが必要です。 ワークスペース名の横にダイヤモンド形のアイコン ![Premium のダイヤモンド形アイコン](media/paginated-reports-quickstart-aw/premium-diamond.png) が表示されます。
 
 ## <a name="create-the-matrix-with-a-wizard"></a>ウィザードでマトリックスを作成する
   
@@ -329,4 +329,3 @@ Power BI サービスにレポートを発行する前に、もう 1 つの書�
 ## <a name="next-steps"></a>次の手順
 
 [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
-

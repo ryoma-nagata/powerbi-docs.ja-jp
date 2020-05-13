@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 85cecc300ac3586c3702e8a7fa5e5c4a4dc6a65c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066109"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278953"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Power BI レポートで凡例を書式設定および実装するためのヒント
 
@@ -39,7 +39,8 @@ Power BI レポートで凡例を書式設定および実装するための、�
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [美しいレポートを作成するためのヒント](../desktop-tips-and-tricks-for-creating-reports.md)
+- [美しいレポートを作成するためのヒント](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine ビデオ:[Power BI での凡例の書式設定と実装に関する上位 6 つのヒント](https://www.youtube.com/watch?v=r9XnHmuWkZQ)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)
+

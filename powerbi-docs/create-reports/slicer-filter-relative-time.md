@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867601"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279206"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Power BI で相対時間のスライサーおよびフィルターを使用する
 
@@ -24,7 +24,7 @@ ms.locfileid: "82867601"
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="相対時間の例":::
 
-この機能は、[ページの自動更新](../desktop-automatic-page-refresh.md)機能と一緒に使用する必要はありません。 ただし、多くの相対時間シナリオは、ページの自動更新機能と組み合わせてうまく使用できます。  
+この機能は、[ページの自動更新](../create-reports/desktop-automatic-page-refresh.md)機能と一緒に使用する必要はありません。 ただし、多くの相対時間シナリオは、ページの自動更新機能と組み合わせてうまく使用できます。  
 
 > [!NOTE]
 > 相対時間のフィルターまたはスライサーをページ レベルまたはレポート レベルで適用するとき、共有*アンカー*日時を使用すると、そのページまたはレポートのすべてのビジュアルがまったく同じ時間範囲にフィルターされます。 ビジュアルの実行時間は多少異なる場合があるため、この共有アンカー日時によって、ページ全体またはレポート全体でビジュアルが確実に同期されます。 アンカー日時の詳細については、[こちらの](#understanding-anchor-time)記事を参照してください。
@@ -107,4 +107,3 @@ ms.locfileid: "82867601"
 
 - [Power BI で相対日付のスライサーおよびフィルターを使用する](../visuals/desktop-slicer-filter-date-range.md)
 - [Power BI のスライサー](../visuals/power-bi-visualization-slicers.md)
-

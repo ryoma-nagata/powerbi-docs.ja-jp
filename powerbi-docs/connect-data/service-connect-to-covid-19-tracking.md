@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97e0a4f6e522997e6f132d1c3dbc493188ba66ba
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752673"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275480"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>COVID-19 US トラッキング レポートに接続する
 この記事では、COVID-19 トラッキング レポート用のテンプレート アプリをインストールする方法と、データ ソースに接続する方法について説明します。
@@ -54,14 +54,14 @@ ms.locfileid: "80752673"
 
 ## <a name="schedule-report-refresh"></a>レポート更新のスケジュールを設定する
 
-データ更新が完了すると、アプリに関連付けられているワークスペースが表示されます。 レポート データを最新の状態に保つために、[更新スケジュールを設定](../refresh-scheduled-refresh.md)します。
+データ更新が完了すると、アプリに関連付けられているワークスペースが表示されます。 レポート データを最新の状態に保つために、[更新スケジュールを設定](../connect-data/refresh-scheduled-refresh.md)します。
 
 ## <a name="customize-and-share"></a>カスタマイズと共有
 
-詳細については、「[アプリをカスタマイズして共有する](../service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。 アプリを公開または配布する前に、必ず、[レポートの免責事項](../create-reports/sample-covid-19-us.md#disclaimers)を確認してください。
+詳細については、「[アプリをカスタマイズして共有する](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。 アプリを公開または配布する前に、必ず、[レポートの免責事項](../create-reports/sample-covid-19-us.md#disclaimers)を確認してください。
 
 ## <a name="next-steps"></a>次の手順
 * [米国の州政府および地方自治体向けの COVID-19 の追跡サンプル](../create-reports/sample-covid-19-us.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-* [Power BI テンプレート アプリとは](../service-template-apps-overview.md)
-* [組織でテンプレート アプリをインストールして配布する](../service-template-apps-install-distribute.md)
+* [Power BI テンプレート アプリとは](../connect-data/service-template-apps-overview.md)
+* [組織でテンプレート アプリをインストールして配布する](../connect-data/service-template-apps-install-distribute.md)

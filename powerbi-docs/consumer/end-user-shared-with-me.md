@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e54fbf7c521d057b6cc9fe1dde6c66358a9c349d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80302480"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277527"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>自分と共有されているダッシュボードとレポートを表示する
 
@@ -26,7 +26,7 @@ ms.locfileid: "80302480"
 
 ![[共有] アイコン](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Amanda による**自分と共有**コンテンツの一覧の説明と、一覧を移動およびフィルター処理する方法のデモンストレーションをご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。 共有されたダッシュボードを表示するには、Power BI Pro ライセンスが必要です。 詳しくは、[Power BI Premium](../service-premium-what-is.md) に関するページをご覧ください。
+Amanda による**自分と共有**コンテンツの一覧の説明と、一覧を移動およびフィルター処理する方法のデモンストレーションをご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。 共有されたダッシュボードを表示するには、Power BI Pro ライセンスが必要です。 詳しくは、[Power BI Premium](../admin/service-premium-what-is.md) に関するページをご覧ください。
     
 
 > [!NOTE]
@@ -50,7 +50,7 @@ Amanda による**自分と共有**コンテンツの一覧の説明と、一覧
 * Power BI によるデータの[分析情報を表示](end-user-insights.md)します ![分析情報アイコン](./media/end-user-shared-with-me/power-bi-insights.png)。
   
   > [!NOTE]
-  > EGRC の分類の詳細については、 **[分類]** ボタンを選択するか、「[ダッシュボードのデータの分類](../service-data-classification.md)」を参照してください。
+  > EGRC の分類の詳細については、 **[分類]** ボタンを選択するか、「[ダッシュボードのデータの分類](../create-reports/service-data-classification.md)」を参照してください。
   > 
 
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 502e37cda5533fe6d9b1ce45faa67f809dbeec78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263693"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273193"
 ---
 # <a name="bi-directional-relationship-guidance"></a>双方向のリレーションシップのガイダンス
 
@@ -134,10 +134,11 @@ CALCULATE(
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Desktop でのモデル リレーションシップ](../desktop-relationships-understand.md)
+- [Power BI Desktop でのモデル リレーションシップ](../transform-model/desktop-relationships-understand.md)
 - [Power BI のスター スキーマおよび重要性について](star-schema.md)
 - [一対一のリレーションシップのガイダンス](relationships-one-to-one.md)
 - [多対多のリレーションシップのガイダンス](relationships-many-to-many.md)
 - [リレーションシップのトラブルシューティング ガイダンス](relationships-troubleshoot.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)
+

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: cb3947ec7aaf6d67a22eb1d7543a57e66e87f5f3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 029970885070fad34e38697aa4c81fce316b7410
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114443"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277665"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>レポート フィルター ウィンドウの使用方法
 
@@ -25,7 +25,7 @@ ms.locfileid: "79114443"
 
 この記事では、Power BI サービスのレポートの **[フィルター]** ウィンドウについて説明します。 このフィルターを使用すると、お使いのデータの新しい分析情報を得ることができます。
 
-Power BI でデータをフィルター処理方法は多数あります。 フィルターの詳細については、[Power BI レポートでのフィルターと強調表示](../power-bi-reports-filters-and-highlighting.md)に関するページをご覧ください。
+Power BI でデータをフィルター処理方法は多数あります。 フィルターの詳細については、[Power BI レポートでのフィルターと強調表示](../create-reports/power-bi-reports-filters-and-highlighting.md)に関するページをご覧ください。
 
 ![矢印が [フィルター] オプションを指しているブラウザー上のレポートのスクリーンショット。](media/end-user-report-filter/power-bi-report.png)
 

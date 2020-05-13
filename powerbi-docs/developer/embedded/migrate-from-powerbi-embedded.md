@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d4145e1fdfdd6c1e9409dc305a5767eec8ace53
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404047"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148544"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法
 
@@ -200,7 +200,7 @@ Azure 内でいくつかのクリーンアップを行う必要があります�
 [Power BI ワークスペース コレクション移行ツール](migrate-tool.md)  
 [Power BI ワークスペース コレクションからコンテンツを移行するためのコード スニペット](migrate-code-snippets.md)  
 [Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embed-sample-for-your-organization.md)  
-[Power BI Premium とは](../../service-premium-what-is.md)  
+[Power BI Premium とは](../../admin/service-premium-what-is.md)  
 [JavaScript API Git リポジトリ](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git リポジトリ](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

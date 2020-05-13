@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79494954"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276009"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI の埋め込み分析でマルチテナントを管理する
 
@@ -40,7 +40,7 @@ Power BI Embedded では、テナント間の分離を維持するための基�
 
 **Power BI テナント** - 単一の AAD テナントに関連付けられている Power BI リソースのセット。
 
-**[Power BI ワークスペース](../../service-create-workspaces.md)** - Power BI のコンテンツ用のコンテナー。
+**[Power BI ワークスペース](../../collaborate-share/service-create-workspaces.md)** - Power BI のコンテンツ用のコンテナー。
 
 **Power BI 成果物** – ダッシュボード、レポート、データセット、データフローなど、Power BI ワークスペース内にはいくつかの Power BI 成果物があります。
 
@@ -52,11 +52,11 @@ Power BI Embedded では、テナント間の分離を維持するための基�
 
 **AAD アプリケーション ユーザー (サービス プリンシパル)** - Power BI 内の SaaS アプリケーションを表す ID であり、SaaS アプリケーションで Power BI API を呼び出すときに使用されます。 AAD Web アプリケーションである必要があります。 Power BI での認証のために、"*マスター*" ユーザーの代わりに使用できます。
 
-**容量** - Power BI サービス実行専用のリソースのセット。 [Power BI Premium 容量](../../service-premium-what-is.md)は Power BI を社内で使用する企業を対象としたものですが、[Power BI Embedded 容量](azure-pbie-create-capacity.md)はサード パーティ向けの SaaS アプリケーションを開発するアプリケーション開発者を対象としています。
+**容量** - Power BI サービス実行専用のリソースのセット。 [Power BI Premium 容量](../../admin/service-premium-what-is.md)は Power BI を社内で使用する企業を対象としたものですが、[Power BI Embedded 容量](azure-pbie-create-capacity.md)はサード パーティ向けの SaaS アプリケーションを開発するアプリケーション開発者を対象としています。
 
-**[Power BI Pro ライセンス](../../service-admin-purchasing-power-bi-pro.md)** - ユーザーベースのライセンスであり、ワークスペースへのコンテンツの発行、Premium 容量なしでのアプリの利用、ダッシュボードの共有、ダッシュボードおよびレポートのサブスクライブを行う権限が付与されます。
+**[Power BI Pro ライセンス](../../admin/service-admin-purchasing-power-bi-pro.md)** - ユーザーベースのライセンスであり、ワークスペースへのコンテンツの発行、Premium 容量なしでのアプリの利用、ダッシュボードの共有、ダッシュボードおよびレポートのサブスクライブを行う権限が付与されます。
 
-**[データ接続モード](../../desktop-directquery-about.md)** - 異なるモードで Power BI にデータ ソースを接続できます。
+**[データ接続モード](../../connect-data/desktop-directquery-about.md)** - 異なるモードで Power BI にデータ ソースを接続できます。
 
    * インポート - データを取得する最も一般的な方法です。
    * DirectQuery - ソース リポジトリ内のデータに直接接続します。
@@ -104,9 +104,9 @@ Power BI Embedded では、Multi-Geo のデプロイ (プレビュー機能) が
 
 ### <a name="cost"></a>コスト
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) の購入モデルは **Power BI Premium** のようなリソース ベースです。 固定のコンピューティング能力とメモリで 1 つまたは複数の容量を購入します。 この容量は、**Power BI Embedded** を使用するときの主なコスト項目です。 容量を使用するユーザーの数に制限はありません。 唯一の制限は、容量のパフォーマンスです。 [マスター](../../service-admin-licensing-organization.md) ユーザーごと、または Power BI ポータルにアクセスする必要がある特定のユーザーごとに、*Power BI Pro ライセンス*が必要です。
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) の購入モデルは **Power BI Premium** のようなリソース ベースです。 固定のコンピューティング能力とメモリで 1 つまたは複数の容量を購入します。 この容量は、**Power BI Embedded** を使用するときの主なコスト項目です。 容量を使用するユーザーの数に制限はありません。 唯一の制限は、容量のパフォーマンスです。 [マスター](../../admin/service-admin-licensing-organization.md) ユーザーごと、または Power BI ポータルにアクセスする必要がある特定のユーザーごとに、*Power BI Pro ライセンス*が必要です。
 
-ライブ環境と使用状況をシミュレートし、容量に対してロード テストを実行して、容量で予想される負荷をテストおよび測定することをお勧めします。 Azure 容量または [Premium 容量メトリック アプリ](../../service-admin-premium-monitor-capacity.md)で使用できるさまざまなメトリックで、負荷とパフォーマンスを測定できます。
+ライブ環境と使用状況をシミュレートし、容量に対してロード テストを実行して、容量で予想される負荷をテストおよび測定することをお勧めします。 Azure 容量または [Premium 容量メトリック アプリ](../../admin/service-admin-premium-monitor-capacity.md)で使用できるさまざまなメトリックで、負荷とパフォーマンスを測定できます。
 
 ### <a name="content-customization-and-authoring"></a>コンテンツのカスタマイズと作成
 
@@ -131,7 +131,7 @@ Power BI ワークスペースに基づく分離では、1 つの Power BI テ�
 
 SaaS アプリケーションのストレージでテナントごとに個別のデータベースが保持されている場合の、Power BI での自然な選択は、シングルテナント データセットと、データセットごとに対応するデータベースを指す接続文字列を使用することです。
 
-SaaS アプリケーションのストレージで、すべてのテナントについてマルチテナント データベースが使用されている場合は、ワークスペースによってテナントを簡単に分離できます。 関連するテナントのデータのみを取得するパラメーター化されたデータベース クエリを使用して、Power BI のデータセットに対するデータベース接続を構成できます。 [Power BI Desktop](../../desktop-query-overview.md) を使用するか、またはクエリで [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) と[パラメーター](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)を使用して、接続を更新できます。
+SaaS アプリケーションのストレージで、すべてのテナントについてマルチテナント データベースが使用されている場合は、ワークスペースによってテナントを簡単に分離できます。 関連するテナントのデータのみを取得するパラメーター化されたデータベース クエリを使用して、Power BI のデータセットに対するデータベース接続を構成できます。 [Power BI Desktop](../../transform-model/desktop-query-overview.md) を使用するか、またはクエリで [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) と[パラメーター](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)を使用して、接続を更新できます。
 
 ### <a name="data-isolation"></a>データの分離
 
@@ -193,7 +193,7 @@ Power BI Embedded を使用するアプリケーション開発者は、[運用�
 
 ### <a name="scalability"></a>スケーラビリティ
 
-行レベルのセキュリティに基づく分離では、データがデータセットのサイズ制限 (現在は 10 GB) に収まる必要があります。 [増分更新](../../service-premium-incremental-refresh.md)の導入と、予定されている Power BI データセット向け XMLA エンドポイントのリリースにより、データセットのサイズの制限は大幅に増える予定です。 ただし、その場合でも、データは、データ更新を実行するのに十分なメモリを残して、容量のメモリに収まる必要があります。 大規模なデプロイでは、現在の容量の制限をメモリが超過することでユーザーに対する問題が発生しないように、大きい容量を使用する必要があります。 スケールを処理する別の方法としては、Power BI の容量にすべてのデータをキャッシュするのではなく、[集計](../../desktop-aggregations.md)を使用したり、DirectQuery やライブ接続を使用してデータ ソースに直接接続したりすることができます。
+行レベルのセキュリティに基づく分離では、データがデータセットのサイズ制限 (現在は 10 GB) に収まる必要があります。 [増分更新](../../admin/service-premium-incremental-refresh.md)の導入と、予定されている Power BI データセット向け XMLA エンドポイントのリリースにより、データセットのサイズの制限は大幅に増える予定です。 ただし、その場合でも、データは、データ更新を実行するのに十分なメモリを残して、容量のメモリに収まる必要があります。 大規模なデプロイでは、現在の容量の制限をメモリが超過することでユーザーに対する問題が発生しないように、大きい容量を使用する必要があります。 スケールを処理する別の方法としては、Power BI の容量にすべてのデータをキャッシュするのではなく、[集計](../../transform-model/desktop-aggregations.md)を使用したり、DirectQuery やライブ接続を使用してデータ ソースに直接接続したりすることができます。
 
 ### <a name="automation--operational-complexity"></a>自動化と運用の複雑さ
 
@@ -244,17 +244,17 @@ Power BI には、RLS のロールやルールを変更または作成するた�
 
 **Power BI の容量に関する考慮事項と制限事項:**
 
-* 各容量では、[購入した SKU](../../service-premium-what-is.md) に従って、割り当てられているメモリと仮想コアのみを使用できます。
-* 各 SKU に対して推奨されるデータセットのサイズについては、[Premium の大規模なデータセット](../../service-premium-what-is.md#large-datasets)に関する記事をご覧ください。
+* 各容量では、[購入した SKU](../../admin/service-premium-what-is.md) に従って、割り当てられているメモリと仮想コアのみを使用できます。
+* 各 SKU に対して推奨されるデータセットのサイズについては、[Premium の大規模なデータセット](../../admin/service-premium-what-is.md#large-datasets)に関する記事をご覧ください。
 * 専用容量でのデータセットの最大サイズは、10 GB です。
 * "*インポート モード*" のデータセットで 1 日にスケジュールできる更新の数は、48 です。
 * "*インポート モード*" のデータセットでスケジュールされた更新の間隔は、30 分です。
-* 容量に対して同時に実行できる更新の数については、[リソースの管理と最適化](../../service-premium-what-is.md#capacity-nodes)に関する記事をご覧ください。
+* 容量に対して同時に実行できる更新の数については、[リソースの管理と最適化](../../admin/service-premium-what-is.md#capacity-nodes)に関する記事をご覧ください。
 * 容量のスケーリングの平均時間は、1 ～ 2 分です。 その間、容量は使用できません。 [ダウンタイムを回避する](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script)ため、スケールアウト アプローチを使用することをお勧めします。
 
 ## <a name="next-steps"></a>次のステップ
 
 * [Power BI を使用した埋め込み分析](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../../service-premium-what-is.md)
+* [Power BI Premium](../../admin/service-premium-what-is.md)
 * [行レベルのセキュリティ](embedded-row-level-security.md)

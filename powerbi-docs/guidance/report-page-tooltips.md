@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377744"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277849"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>レポート ページのヒントによるビジュアルの拡張
 
-この記事の対象読者は、Power BI レポートをデザインするレポート作成者です。 [レポート ページのツールヒント](../desktop-tooltips.md)を作成するときの提案や推奨事項を提供します。
+この記事の対象読者は、Power BI レポートをデザインするレポート作成者です。 [レポート ページのツールヒント](../create-reports/desktop-tooltips.md)を作成するときの提案や推奨事項を提供します。
 
 ## <a name="suggestions"></a>候補
 
@@ -29,7 +29,7 @@ ms.locfileid: "79377744"
 > [!NOTE]
 > レポート ビジュアルでは、ツールヒントのページ フィルターとビジュアルのデザインに互換性がある場合にのみ、ページのツールヒントを表示できます。 たとえば、_製品_別にグループ化されているビジュアルは、_製品_でフィルター処理されるツールヒント ページと互換性があります。
 >
-> ページのツールヒントでは対話機能がサポートされていません。 レポート ユーザーに対話機能を与える場合、代わりに[ドリルスルー ページ](../desktop-drillthrough.md)を作成します。
+> ページのツールヒントでは対話機能がサポートされていません。 レポート ユーザーに対話機能を与える場合、代わりに[ドリルスルー ページ](../create-reports/desktop-drillthrough.md)を作成します。
 >
 > Power BI ビジュアルでは、ページのヒントがサポートされていません。
 
@@ -65,7 +65,7 @@ ms.locfileid: "79377744"
 
 興味深いことに、ボタン、画像、テキスト ボックス、図形でもビジュアル ヘッダーのページのツールヒントを表示できます。
 
-次の例では、レポート ユーザーが[ビジュアル ヘッダー アイコン](../desktop-visual-elements-for-reports.md)の上にカーソルを置いたときの様子を示しています。
+次の例では、レポート ユーザーが[ビジュアル ヘッダー アイコン](../create-reports/desktop-visual-elements-for-reports.md)の上にカーソルを置いたときの様子を示しています。
 
 ![レポート ユーザーがビジュアル ヘッダー アイコン (疑問符アイコン) の上にカーソルを置きました。 多彩な書式付きのツールヒントが表示されました。](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ ms.locfileid: "79377744"
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Desktop のレポート ページを基にしてヒントを作成する](../desktop-tooltips.md)
-- [Power BI Desktop でのヒントのカスタマイズ](../desktop-custom-tooltips.md)
-- [ビジュアル要素を使用して Power BI レポートを強化する](../desktop-visual-elements-for-reports.md)
+- [Power BI Desktop のレポート ページを基にしてヒントを作成する](../create-reports/desktop-tooltips.md)
+- [Power BI Desktop でのヒントのカスタマイズ](../create-reports/desktop-custom-tooltips.md)
+- [ビジュアル要素を使用して Power BI レポートを強化する](../create-reports/desktop-visual-elements-for-reports.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6af8568dc39544ce064643c8dfb80fa2932cf13a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82149672"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279229"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>地域的緊急応答ダッシュボードに接続する
 地域的緊急応答ダッシュボードは、[Microsoft Power Platform 地域的緊急応答ソリューション](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview)のレポート コンポーネントです。 地域組織の管理者は、Power BI テナントのダッシュボードを表示して、効率的な意思決定を行うのに役立つ重要なデータとメトリックをすばやく確認することができます。
@@ -82,21 +82,21 @@ ms.locfileid: "82149672"
 
 ## <a name="schedule-report-refresh"></a>レポート更新のスケジュールを設定する
 
-データ更新が完了したら、レポート データを最新の状態に保つために、[更新スケジュールを設定](../refresh-scheduled-refresh.md)します。
+データ更新が完了したら、レポート データを最新の状態に保つために、[更新スケジュールを設定](../connect-data/refresh-scheduled-refresh.md)します。
 
 1. 上部のヘッダー バーで、 **[Power BI]** を選択します。
 
    ![Power BI の階層リンク](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-powerbi-breadcrumb.png)
 
-1. 左側のナビゲーション ペインの **[ワークスペース]** の下で、地域的緊急応答ダッシュボード ワークスペースを見つけ、「[スケジュールされた更新の構成](../refresh-scheduled-refresh.md)」記事に記載されている手順に従います。
+1. 左側のナビゲーション ペインの **[ワークスペース]** の下で、地域的緊急応答ダッシュボード ワークスペースを見つけ、「[スケジュールされた更新の構成](../connect-data/refresh-scheduled-refresh.md)」記事に記載されている手順に従います。
 
 ## <a name="customize-and-share"></a>カスタマイズと共有
 
-詳細については、「[アプリをカスタマイズして共有する](../service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。 アプリを公開または配布する前に、必ず、[レポートの免責事項](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)を確認してください。
+詳細については、「[アプリをカスタマイズして共有する](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。 アプリを公開または配布する前に、必ず、[レポートの免責事項](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)を確認してください。
 
 ## <a name="next-steps"></a>次の手順
 * [地域的緊急応答ダッシュボードについて](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
 * [Power Apps での危機通信のサンプル テンプレートのセットアップと学習](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-* [Power BI テンプレート アプリとは](../service-template-apps-overview.md)
-* [組織でテンプレート アプリをインストールして配布する](../service-template-apps-install-distribute.md)
+* [Power BI テンプレート アプリとは](../connect-data/service-template-apps-overview.md)
+* [組織でテンプレート アプリをインストールして配布する](../connect-data/service-template-apps-install-distribute.md)

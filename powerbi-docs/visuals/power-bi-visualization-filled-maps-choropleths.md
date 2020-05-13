@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ae73f2e32d34c3e1b37991358545997c4b4bb961
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865462"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272904"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI で塗り分け地図 (コロプレス地図) を作成して使用する
 
@@ -92,12 +92,12 @@ Bing に送信されているデータの詳細、およびジオコーディン
 7. 塗り分け地図は緑色と赤色で網掛け表示されます。赤色はセンチメント数が低いことを表し、緑色はより多くの肯定的なセンチメントを表します。  追加の詳細を表示するには、フィールドをツールヒントにドラッグします。  ここに **[SalesFact]**  >  **[Sentiment gap]** を追加しました。 アイダホ州 (ID) を強調表示すると、センチメント ギャップが低く、6 であることがわかります。
    ![アイダホのツールヒントを表示している塗り分け地図](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
-10. [レポートを保存](../service-report-save.md)します。
+10. [レポートを保存](../create-reports/service-report-save.md)します。
 
 Power BI では、塗り分け地図の外観に対する数多くのコントロールが提供されます。 希望する外観になるまで、これらのデータ カラー コントロールでいろいろ試してみます。 
 
 ## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
-[フィルター] ウィンドウの使用方法については、「[Power BI でのレポートへのフィルターの追加](../power-bi-report-add-filter.md)」をご覧ください。
+[フィルター] ウィンドウの使用方法については、「[Power BI でのレポートへのフィルターの追加](../create-reports/power-bi-report-add-filter.md)」をご覧ください。
 
 塗り分け地図で 1 つの場所を強調表示にすると、レポート ページにある他の視覚エフェクトがクロスフィルター処理されます。逆の場合も同様です。
 
@@ -136,3 +136,5 @@ Power BI Desktop でデータセットを編集するアクセス許可がある
 [図形マップ](desktop-shape-map.md)
 
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

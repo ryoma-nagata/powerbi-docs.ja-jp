@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781733"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273019"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>視覚エフェクトの作成に使用されたデータをエクスポートする
 
@@ -54,7 +54,7 @@ Watch では、レポート内の視覚化の 1 つからデータをエクス�
 
 ## <a name="export-data-from-a-report"></a>レポートからデータをエクスポートする
 
-先に進む前に、Power BI サービスの編集ビューで[調達の分析サンプル レポート](../sample-procurement.md)を開いてください。 新しい空のレポート ページを追加します。 その後、次の手順に従って、集計、階層、視覚化レベルのフィルターを追加します。
+先に進む前に、Power BI サービスの編集ビューで[調達の分析サンプル レポート](../create-reports/sample-procurement.md)を開いてください。 新しい空のレポート ページを追加します。 その後、次の手順に従って、集計、階層、視覚化レベルのフィルターを追加します。
 
 ### <a name="create-a-stacked-column-chart"></a>積み上げ縦棒グラフを作成する
 
@@ -94,7 +94,7 @@ Watch では、レポート内の視覚化の 1 つからデータをエクス�
 
     - **基になるデータ**
 
-    集計について理解するには、「[Power BI での集計](../service-aggregates.md)」を参照してください。
+    集計について理解するには、「[Power BI での集計](../create-reports/service-aggregates.md)」を参照してください。
 
 
     > [!NOTE]
@@ -133,7 +133,7 @@ Watch では、レポート内の視覚化の 1 つからデータをエクス�
 
     - **基になるデータ**
 
-    集計について理解するには、「[Power BI での集計](../service-aggregates.md)」を参照してください。
+    集計について理解するには、「[Power BI での集計](../create-reports/service-aggregates.md)」を参照してください。
 
 
     > [!NOTE]
@@ -164,7 +164,7 @@ Power BI 管理者および設計者が専用データを保護するために�
 
 - Power BI 管理者は、組織のデータのエクスポートを無効にできます。 
 
-- データセット所有者は、行レベルのセキュリティ (RLS) を設定できます。 RLS は、アクセスを読み取り専用のユーザーに制限します。 ただし、アプリのワークスペースを構成し、メンバーに編集アクセス許可を付与している場合、RLS ロールはメンバーに適用されません。 詳細については、[行レベルのセキュリティ](../service-admin-rls.md)に関するページを参照してください。
+- データセット所有者は、行レベルのセキュリティ (RLS) を設定できます。 RLS は、アクセスを読み取り専用のユーザーに制限します。 ただし、アプリのワークスペースを構成し、メンバーに編集アクセス許可を付与している場合、RLS ロールはメンバーに適用されません。 詳細については、[行レベルのセキュリティ](../admin/service-admin-rls.md)に関するページを参照してください。
 
 - レポート デザイナーは、列が **[フィールド]** リストに表示されないように、非表示にすることができます。 詳細については、「[データセットのプロパティ](../developer/automation/api-dataset-properties.md)」を参照してください。
 

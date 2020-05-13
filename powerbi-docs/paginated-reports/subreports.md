@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 65d1401a66f8e670df1af3097f0e99fb6b647022
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82615705"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272812"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI のページ分割された レポートでのサブレポート
 
@@ -74,7 +74,7 @@ Power BI レポート ビルダーは、コンピューター上のページ分�
   
  サブレポートは、レポート本文内またはデータ領域内に配置できます。 データ領域にサブレポートを配置する場合、同じサブレポートがグループのインスタンスまたはデータ領域の行ごとに配置されます。 グループまたは行からサブレポートに値を渡すことができます。 サブレポートの値のプロパティで、サブレポート パラメーターに渡す値を含むフィールド用のフィールド式を使用します。  
   
- パラメーターおよびサブレポートの操作の詳細については、SQL Server Reporting Services のドキュメントの[サブレポートおよびパラメーターを追加する](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs.md)方法に関する記事を参照してください。  
+ パラメーターおよびサブレポートの操作の詳細については、SQL Server Reporting Services のドキュメントの[サブレポートおよびパラメーターを追加する](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs)方法に関する記事を参照してください。  
 
 ## <a name="preview-paginated-reports-in-report-builder"></a>ページ分割されたレポートをレポート ビルダーでプレビューする
 

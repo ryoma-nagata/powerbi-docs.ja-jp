@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866589"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279183"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI でマトリックスの視覚エフェクトを作成する
 
@@ -62,7 +62,7 @@ ms.locfileid: "82866589"
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> Analysis Services 多次元モデルに基づいてレポートを作成する場合、モデルで既定のメンバー機能が使用されていると、展開と折りたたみに関する特別な考慮事項がいくつか生じます。 詳細については、「[Power BI で多次元モデルを操作する](../desktop-default-member-multidimensional-models.md)」を参照してください。
+> Analysis Services 多次元モデルに基づいてレポートを作成する場合、モデルで既定のメンバー機能が使用されていると、展開と折りたたみに関する特別な考慮事項がいくつか生じます。 詳細については、「[Power BI で多次元モデルを操作する](../connect-data/desktop-default-member-multidimensional-models.md)」を参照してください。
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>マトリックス ビジュアルでドリルダウンを使用する
 マトリックス ビジュアルを使って、これまで使用できなかった興味深いさまざまなドリルダウン操作を行うことができます。 また、行、列、さらには個々のセクションやセルを使用して、ドリルダウンすることもできます。 これらのそれぞれのしくみを見てましょう。
@@ -211,7 +211,7 @@ Web サイト URL が含まれる列またはメジャーがある場合は、�
 
 **[Web URL]** を [オン] にし、列の URL として使用するフィールドを選択します。 適用されると、そのフィールド (列) の値はアクティブなリンクになります。 マウス ポインターを移動してリンクを表示し、選択してそのページに移動します。 
 
-詳細については、[テーブルの条件付き書式設定](../desktop-conditional-table-formatting.md)に関する記事を参照してください。
+詳細については、[テーブルの条件付き書式設定](../create-reports/desktop-conditional-table-formatting.md)に関する記事を参照してください。
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>マトリックス ビジュアルでの網掛けとフォントの色
 マトリックス ビジュアルでは、条件付き書式 (色、網掛け、データ バー) をマトリックス内のセルの背景に適用したり、テキストや値自体に条件付き書式を適用したりできます。
@@ -233,3 +233,5 @@ Web サイト URL が含まれる列またはメジャーがある場合は、�
 [Power BI 用の Power Apps ビジュアル](power-bi-visualization-powerapp.md)
 
 [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f637bb10ed7ec27dcb3da07fc04cae39328ffebe
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fef6bc5c396ccaf89ff4cd0e5a449cb9d01ce75b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752259"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275503"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>危機管理コミュニケーション プレゼンス レポートに接続する
 
@@ -89,20 +89,20 @@ ms.locfileid: "80752259"
 
 ## <a name="schedule-report-refresh"></a>レポート更新のスケジュールを設定する
 
-データ更新が完了したら、レポート データを最新の状態に保つために、[更新スケジュールを設定](../refresh-scheduled-refresh.md)します。
+データ更新が完了したら、レポート データを最新の状態に保つために、[更新スケジュールを設定](../connect-data/refresh-scheduled-refresh.md)します。
 
 1. 上部のヘッダー バーで、 **[Power BI]** を選択します。
 
    ![Power BI の階層リンク](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-powerbi-breadcrumb.png)
 
-1. 左側のナビゲーション ペインの **[ワークスペース]** の下で、病院の緊急時対応の意思決定支援ダッシュボード ワークスペースを見つけ、「[スケジュールされた更新の構成](../refresh-scheduled-refresh.md)」記事に記載されている手順に従います。
+1. 左側のナビゲーション ペインの **[ワークスペース]** の下で、病院の緊急時対応の意思決定支援ダッシュボード ワークスペースを見つけ、「[スケジュールされた更新の構成](../connect-data/refresh-scheduled-refresh.md)」記事に記載されている手順に従います。
 
 ## <a name="customize-and-share"></a>カスタマイズと共有
 
-詳細については、「[アプリをカスタマイズして共有する](../service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。 アプリを公開または配布する前に、必ず、[レポートの免責事項](../create-reports/sample-covid-19-us.md#disclaimers)を確認してください。
+詳細については、「[アプリをカスタマイズして共有する](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。 アプリを公開または配布する前に、必ず、[レポートの免責事項](../create-reports/sample-covid-19-us.md#disclaimers)を確認してください。
 
 ## <a name="next-steps"></a>次の手順
 * [Power Apps での危機通信のサンプル テンプレートのセットアップと学習](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-* [Power BI テンプレート アプリとは](../service-template-apps-overview.md)
-* [組織でテンプレート アプリをインストールして配布する](../service-template-apps-install-distribute.md)
+* [Power BI テンプレート アプリとは](../connect-data/service-template-apps-overview.md)
+* [組織でテンプレート アプリをインストールして配布する](../connect-data/service-template-apps-install-distribute.md)
