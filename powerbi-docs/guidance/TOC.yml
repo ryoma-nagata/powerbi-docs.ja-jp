@@ -21,7 +21,7 @@
             - name: Power Query のバックグラウンド更新を無効にする
               href: power-query-background-refresh.md
             - name: データフローのベスト プラクティス
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: データ モデリング
           items:
             - name: スター スキーマとは
@@ -32,7 +32,7 @@
               href: auto-date-time.md
             - name: 一対一のリレーションシップ
               href: relationships-one-to-one.md
-            - name: 多対多リレーションシップ
+            - name: 多対多のリレーションシップ
               href: relationships-many-to-many.md
             - name: アクティブなリレーションシップと非アクティブなリレーションシップ
               href: relationships-active-inactive.md

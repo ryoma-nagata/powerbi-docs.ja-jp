@@ -6,74 +6,74 @@
       expanded: true
       items:
         - name: Power BI 管理とは
-          href: ../service-admin-administering-power-bi-in-your-organization.md
+          href: service-admin-administering-power-bi-in-your-organization.md
         - name: テナントの場所がわからない
-          href: ../service-admin-where-is-my-tenant-located.md
+          href: service-admin-where-is-my-tenant-located.md
         - name: Power BI Premium とは
-          href: ../service-premium-what-is.md
+          href: service-premium-what-is.md
     - name: 概念
       expanded: true
       items:
         - name: Microsoft 365 の管理ロール
-          href: ../service-admin-role.md
+          href: service-admin-role.md
         - name: 組織向けのライセンス
-          href: ../service-admin-licensing-organization.md
+          href: service-admin-licensing-organization.md
         - name: 米国政府向け Power BI
           items:
             - name: 米国政府向け Power BI
-              href: ../service-govus-overview.md
+              href: service-govus-overview.md
             - name: 米国政府組織を登録する
-              href: ../service-govus-signup.md
+              href: service-govus-signup.md
         - name: リージョンのクラウドでの Power BI
           items:
             - name: ローカルへの移動によりドイツ リージョンに移行する
               href: service-admin-migrate-data-germany.md
             - name: ドイツのクラウド ユーザーに関するよく寄せられる質問
-              href: ../service-govde-faq.md
+              href: service-govde-faq.md
         - name: よく寄せられる質問 (FAQ)
-          href: ../service-admin-faq.md
+          href: service-admin-faq.md
         - name: 高可用性とフェールオーバーの FAQ
-          href: ../service-admin-failover.md
+          href: service-admin-failover.md
         - name: Power BI Premium
           items:
             - name: Premium 容量を管理する
-              href: ../service-premium-capacity-manage.md
+              href: service-premium-capacity-manage.md
             - name: Premium 容量を最適化する
-              href: ../service-premium-capacity-optimize.md
+              href: service-premium-capacity-optimize.md
             - name: Premium 容量のシナリオ
-              href: ../service-premium-capacity-scenarios.md
+              href: service-premium-capacity-scenarios.md
             - name: Power BI Premium のよく寄せられる質問
-              href: ../service-premium-faq.md
-    - name: 方法
+              href: service-premium-faq.md
+    - name: 操作方法
       items:
         - name: ライセンスとサインアップ
           items:
             - name: 組織の Power BI を取得する
               href: service-admin-org-subscription.md
             - name: Power BI Pro を購入する
-              href: ../service-admin-purchasing-power-bi-pro.md
+              href: service-admin-purchasing-power-bi-pro.md
             - name: セルフサービス サインアップを無効にする
               href: service-admin-disable-self-service.md
             - name: ユーザー ライセンスを表示および管理する
               href: service-admin-manage-licenses.md
             - name: Microsoft 365 評価版にサインアップする
-              href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+              href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Microsoft 365 パートナーと共に Power BI を追加する
-              href: ../service-admin-syndication-partner.md
+              href: service-admin-syndication-partner.md
         - name: 管理ポータルの使用
-          href: ../service-admin-portal.md
+          href: service-admin-portal.md
         - name: サインインしたユーザーを検索する
-          href: ../service-admin-access-usage.md
+          href: service-admin-access-usage.md
         - name: ユーザー アクティビティの追跡
-          href: ../service-admin-auditing.md
-        - name: サービス正常性を追跡する
-          href: ../service-admin-health.md
+          href: service-admin-auditing.md
+        - name: サービスの正常性の追跡
+          href: service-admin-health.md
         - name: アカウントを削除しています
-          href: ../service-admin-closing-your-account.md
+          href: service-admin-closing-your-account.md
         - name: Azure AD B2B を使用する
-          href: ../service-admin-azure-ad-b2b.md
+          href: service-admin-azure-ad-b2b.md
         - name: Power BI Desktop のサインイン フォームを管理する
-          href: ../desktop-admin-sign-in-form.md
+          href: desktop-admin-sign-in-form.md
         - name: データ保護
           items:
             - name: データ保護の概要
@@ -85,65 +85,65 @@
             - name: データ保護メトリック レポート
               href: service-security-data-protection-metrics-report.md
         - name: 行レベルのセキュリティ
-          href: ../service-admin-rls.md
+          href: service-admin-rls.md
         - name: データセットとデータフローの認定を設定する
           href: service-admin-setup-certification.md
         - name: Intune でモバイル アプリを構成する
-          href: ../service-admin-mobile-intune.md
+          href: service-admin-mobile-intune.md
         - name: Power BI Premium
           items:
             - name: Power BI Premium を購入する
-              href: ../service-admin-premium-purchase.md
+              href: service-admin-premium-purchase.md
             - name: 容量の構成と管理
-              href: ../service-admin-premium-manage.md
+              href: service-admin-premium-manage.md
             - name: ワークロードを構成する
-              href: ../service-admin-premium-workloads.md
+              href: service-admin-premium-workloads.md
             - name: アプリで容量を監視する
-              href: ../service-admin-premium-monitor-capacity.md
+              href: service-admin-premium-monitor-capacity.md
             - name: Premium ワークロードのメトリックを監視する
-              href: ../service-premium-metrics-app.md
+              href: service-premium-metrics-app.md
             - name: 管理ポータルで容量を監視する
-              href: ../service-admin-premium-monitor-portal.md
+              href: service-admin-premium-monitor-portal.md
             - name: 大規模なモデルを構成する (プレビュー)
-              href: ../service-premium-large-models.md
+              href: service-premium-large-models.md
             - name: Multi-Geo の構成
-              href: ../service-admin-premium-multi-geo.md
+              href: service-admin-premium-multi-geo.md
             - name: 独自の暗号化キーを表示する
-              href: ../service-encryption-byok.md
+              href: service-encryption-byok.md
             - name: Premium 容量の再起動
-              href: ../service-admin-premium-restart.md
+              href: service-admin-premium-restart.md
             - name: XMLA エンドポイントを使用したデータセット接続 (プレビュー)
-              href: ../service-premium-connect-tools.md
+              href: service-premium-connect-tools.md
     - name: リファレンス
       items:
         - name: PowerShell、REST API、および .NET SDK
-          href: ../service-admin-reference.md
+          href: service-admin-reference.md
         - name: PowerShell 用の Power BI のコマンドレット
           href: 'https://docs.microsoft.com/powershell/power-bi/'
           maintainContext: true
         - name: サービス URL リファレンス
-          href: ../power-bi-whitelist-urls.md
+          href: power-bi-whitelist-urls.md
     - name: リソース
       items:
         - name: Power BI の管理と展開のアプローチ
-          href: ../service-admin-governance.md
+          href: service-admin-governance.md
         - name: Power BI のセキュリティ
-          href: ../service-admin-power-bi-security.md
+          href: service-admin-power-bi-security.md
         - name: プライバシーのレベル
-          href: ../desktop-privacy-levels.md
-    - name: '[トラブルシューティング]'
+          href: desktop-privacy-levels.md
+    - name: トラブルシューティング
       items:
         - name: サインインに問題がありますか?
-          href: ../power-bi-cannot-sign-in.md
+          href: power-bi-cannot-sign-in.md
         - name: Power BI のサポート オプション
-          href: ../service-support-options.md
+          href: service-support-options.md
         - name: サービス中断の通知
-          href: ../service-interruption-notifications.md
+          href: service-interruption-notifications.md
         - name: Power BI のパスワードを忘れた場合
-          href: ../service-admin-forgot-your-password.md
+          href: service-admin-forgot-your-password.md
         - name: Power BI 用に追加の診断情報をキャプチャする
-          href: ../service-admin-capturing-additional-diagnostic-information-for-power-bi.md
+          href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
         - name: Power BI の代替メール アドレス
-          href: ../service-admin-alternate-email-address-for-power-bi.md
+          href: service-admin-alternate-email-address-for-power-bi.md
         - name: Power BI と Azure で同じアカウントのログインを使用する方法
-          href: ../service-admin-how-to-use-the-same-account-as-azure.md
+          href: service-admin-how-to-use-the-same-account-as-azure.md
