@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 60b7c858a98a105454efe0233484120ad4319f62
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537234"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131908"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Power BI 内でデータの秘密度ラベルを有効にする (プレビュー)
 
 Power BI 内で [Microsoft Information Protection のデータの秘密度ラベル](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)を有効にすると、次が適用されます。
 
-* 組織内の特定のユーザーおよびセキュリティ グループは、Power BI のダッシュボード、レポート、データセット、データフロー (以降は "[資産](../designer/service-security-apply-data-sensitivity-labels.md)" と呼びます) を分類して*秘密度ラベルを適用*することができます。
+* 組織内の特定のユーザーおよびセキュリティ グループは、Power BI のダッシュボード、レポート、データセット、データフロー (以降は "[資産](../collaborate-share/service-security-apply-data-sensitivity-labels.md)" と呼びます) を分類して*秘密度ラベルを適用*することができます。
 * 組織のすべてのメンバーは、それらのラベルを表示できます。
 
 データの秘密度ラベルは、Power BI の作成者とコンシューマーにデータの機密性を認識させ、その分類の意味や、その分類におけるデータの取り扱い方に関する情報を提供することによって、データ保護を促進します。
@@ -71,6 +71,6 @@ Power BI では、Microsoft Information Protection 秘密度ラベルを使用�
 この記事では、Power BI 内でデータの秘密度ラベルを有効にする方法を説明しました。 次の記事では、Power BI におけるデータ保護の詳細について説明しています。 
 
 * [Power BI におけるデータ保護の概要](service-security-data-protection-overview.md)
-* [Power BI 内でデータの秘密度ラベルを適用する](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Power BI 内でデータの秘密度ラベルを適用する](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Power BI 内で Microsoft Cloud App Security の制御を使用する](service-security-using-microsoft-cloud-app-security-controls.md)
 * [データ保護メトリック レポート](service-security-data-protection-metrics-report.md)

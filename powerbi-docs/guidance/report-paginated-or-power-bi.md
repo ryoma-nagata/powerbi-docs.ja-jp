@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920735"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127806"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>どのようなときに Power BI のページ分割されたレポートを使用するか
 
 この記事の対象者は、Power BI 用のレポートをデザインするレポート作成者です。 どのような場合に [Power BI のページ分割されたレポート](../paginated-reports/paginated-reports-report-builder-power-bi.md)を開発すればよいかを判断するときに役立つ推奨事項を示します。
 
 > [!NOTE]
-> Power BI のページ分割されたレポートを発行するには、Power BI Premium サブスクリプションが必要です。 レポートは、[ページ分割されたレポートのワークロードが有効になっている](../service-admin-premium-workloads.md#paginated-reports)専用容量のワークスペースにある場合にのみ表示されます。
+> Power BI のページ分割されたレポートを発行するには、Power BI Premium サブスクリプションが必要です。 レポートは、[ページ分割されたレポートのワークロードが有効になっている](../admin/service-admin-premium-workloads.md#paginated-reports)専用容量のワークスペースにある場合にのみ表示されます。
 
 Power BI のページ分割されたレポートは、**印刷**または **PDF 生成**に対して最適化されています。 また、高度に書式設定されたピクセル単位で完璧なレイアウトを作成する機能も提供されます。 したがって、ページ分割されたレポートは、販売請求書などの運用レポートに最適です。
 
@@ -36,7 +36,7 @@ Power BI のページ分割されたレポートは、**印刷**または **PDF 
 
 SQL Server Reporting Services (SSRS) の[レポート定義言語 (RDL)](/sql/reporting-services/reports/report-definition-language-ssrs) レポートが既にある場合は、それらを [Power BI レポート](../consumer/end-user-reports.md)として開発し直すか、ページ分割されたレポートとして Power BI に移行するかを選択できます。 詳細については、「[SQL Server Reporting Services レポートを Power BI に移行する](migrate-ssrs-reports-to-power-bi.md)」を参照してください。
 
-Power BI ワークスペースに発行すると、ページ分割されたレポートと Power BI レポートを並用できるようになります。 その後、[Power BI アプリ](../service-create-distribute-apps.md)を使用して簡単に配布できます。
+Power BI ワークスペースに発行すると、ページ分割されたレポートと Power BI レポートを並用できるようになります。 その後、[Power BI アプリ](../collaborate-share/service-create-distribute-apps.md)を使用して簡単に配布できます。
 
 移行するのではなく、SSRS レポートの再開発を検討することがあります。 特に、分析エクスペリエンスの提供を目的としたレポートに当てはまります。 このような場合、Power BI レポートの方が優れたレポート ユーザー エクスペリエンスを提供する可能性があります。
 

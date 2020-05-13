@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: dad451da460abed65a69990394522f268d7f21cd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525265"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277435"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Power BI Desktop のモデルからレポートを分離する
 
 新しい Power BI Desktop ソリューションを作成する場合に、最初に行う必要がある作業の 1 つが "データの取得" です。 データを取得すると、2 つのまったく異なる結果が得られる可能性があります。 次のとおりです。
 
-- 既に発行されているモデル (Power BI のデータセットまたはリモートでホストされる Analysis Services のモデルである可能性があります) への[ライブ接続](../desktop-report-lifecycle-datasets.md) が作成されます。
+- 既に発行されているモデル (Power BI のデータセットまたはリモートでホストされる Analysis Services のモデルである可能性があります) への[ライブ接続](../connect-data/desktop-report-lifecycle-datasets.md) が作成されます。
 - 新しいモデルの開発が開始されます。これは、インポート、DirectQuery、複合モデルのいずれかになります。
 
 この記事では、2 番目のシナリオについて説明します。 レポートとモデルを 1 つの Power BI Desktop ファイルに結合する必要があるかどうかについてのガイダンスを提供します。
@@ -67,7 +67,7 @@ ms.locfileid: "81525265"
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI Desktop から Power BI サービスのデータセットに接続する](../desktop-report-lifecycle-datasets.md)
+- [Power BI Desktop から Power BI サービスのデータセットに接続する](../connect-data/desktop-report-lifecycle-datasets.md)
 - [Power BI サービスで関連するコンテンツを表示する](../consumer/end-user-related.md)
 - [Data lineage (データ系列)](../collaborate-share/service-data-lineage.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

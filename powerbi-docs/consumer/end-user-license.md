@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 14e3b0f2956252e0b09abcf314d6e14b9a9709ad
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066042"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83129501"
 ---
 # <a name="using-the-power-bi-service-as-a-consumer"></a>"*コンシューマー*" として Power BI サービスを使用する
 
@@ -47,7 +47,7 @@ Premium では、コンテンツを表示する受信者に Pro ライセンス�
 
 それらのワークスペース内では、デザイナーによって、**ビューアー**、**共同作成者**、**メンバー**、**管理者**などのロールが割り当てられ、これにより、同僚がコンテンツを操作できる範囲が決まります。 詳細については、[ワークスペースのアクセス許可とロール](end-user-workspaces.md)に関する記事をご覧ください。 
 
-Premium 容量の詳細については、「[Power BI Premium とは](../service-premium-what-is.md)」をご覧ください。
+Premium 容量の詳細については、「[Power BI Premium とは](../admin/service-premium-what-is.md)」をご覧ください。
 
 
 ## <a name="find-out-which-licenses-you-have"></a>使用しているライセンスを確認する

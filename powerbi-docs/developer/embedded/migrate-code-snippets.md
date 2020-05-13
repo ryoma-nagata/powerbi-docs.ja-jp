@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2976511577dc6e83aa17c83c6c6c560f0755d15
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114486"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141195"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI ワークスペース コレクションからコンテンツを移行するためのコード スニペット
 
@@ -233,7 +233,7 @@ SaaS に移行した後に PBIX を更新する場合の例です。
 [Power BI で埋め込み](embedding.md)  
 [Power BI に Power BI Embedded ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md)  
 [Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](embed-sample-for-your-organization.md)  
-[Power BI Premium とは](../../service-premium-what-is.md)  
+[Power BI Premium とは](../../admin/service-premium-what-is.md)  
 [JavaScript API Git リポジトリ](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git リポジトリ](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

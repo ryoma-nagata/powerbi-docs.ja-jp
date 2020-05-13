@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637600"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83132055"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI におけるデータ保護 (プレビュー)
 
@@ -113,6 +113,6 @@ Microsoft Cloud App Security を使用して、Power BI のコンテンツを意
 この記事では、Power BI におけるデータ保護の概要について説明しました。 次の記事では、Power BI におけるデータ保護の詳細について説明しています。 
 
 * [Power BI 内でデータの秘密度ラベルを有効にする](service-security-enable-data-sensitivity-labels.md)
-* [Power BI 内でデータの秘密度ラベルを適用する](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Power BI 内でデータの秘密度ラベルを適用する](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Power BI 内で Microsoft Cloud App Security の制御を使用する](service-security-using-microsoft-cloud-app-security-controls.md)
 * [データ保護メトリック レポート](service-security-data-protection-metrics-report.md)

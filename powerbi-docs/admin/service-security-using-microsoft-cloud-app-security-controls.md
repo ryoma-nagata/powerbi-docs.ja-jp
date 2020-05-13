@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9e3527d4e32143a3bc261226a5f10c371bcaaef4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537395"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131964"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Power BI で Microsoft Cloud App Security の制御を使用する (プレビュー)
 
@@ -60,7 +60,7 @@ Cloud App Security には、Power BI 専用の 2 つの組み込み検出もあ�
 
 秘密度ラベルを使用すると、機密性の高いコンテンツを分類して保護することができるため、組織内のユーザーは組織外のパートナーと共同作業を行いながら、機密性の高いコンテンツやデータを慎重に認識できます。 
 
-Power BI の秘密度ラベルを使用するプロセスについて詳しく説明されている、[Power BI の秘密度ラベル](../designer/service-security-apply-data-sensitivity-labels.md)に関する記事を参照してください。 [秘密度ラベルに基づいた Power BI ポリシーの例](#example)については、以下を参照してください。
+Power BI の秘密度ラベルを使用するプロセスについて詳しく説明されている、[Power BI の秘密度ラベル](../collaborate-share/service-security-apply-data-sensitivity-labels.md)に関する記事を参照してください。 [秘密度ラベルに基づいた Power BI ポリシーの例](#example)については、以下を参照してください。
 
 ## <a name="built-in-microsoft-cloud-app-security-detections-for-power-bi"></a>Power BI の組み込みの Microsoft Cloud App Security 検出
 
@@ -136,7 +136,7 @@ Power BI での Cloud App Security の使用は、ユーザー セッション�
 
 * [Power BI におけるデータ保護の概要](service-security-data-protection-overview.md)
 * [Power BI でデータの秘密度ラベルを有効にする](service-security-enable-data-sensitivity-labels.md)
-* [Power BI でデータの秘密度ラベルを適用する](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Power BI でデータの秘密度ラベルを適用する](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 
 次の Azure およびセキュリティについての記事にも関心をもたれるかもしれません。
 
