@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613559"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148325"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI ビジュアルをパートナー センターに発行する
 
@@ -27,7 +27,7 @@ Power BI ビジュアルを作成した後、それを AppSource に発行する
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Power BI ビジュアルを提出するための準備
 
-Power BI ビジュアルを AppSource に提出する前に、「[Power BI ビジュアルのガイドライン](guidelines-powerbi-visuals.md)」を読んでいること、および[カスタム ビジュアルのテストが終了している](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)ことを確認してください。
+Power BI ビジュアルを AppSource に提出する前に、「[Power BI ビジュアルのガイドライン](guidelines-powerbi-visuals.md)」を読んでいること、および[カスタム ビジュアルのテストが終了している](./submission-testing.md)ことを確認してください。
 
 Power BI ビジュアルを提出する準備ができたら、ビジュアルが次に示すすべての要件を満たしていることを確認します。
 
@@ -99,9 +99,10 @@ AppSource に提出する前に、**pbiviz** ファイルと **pbix** ファイ�
 
 10. **[製品のセットアップ]** を選択し、 **[レビューと発行]** をクリックします。
 
+
 ## <a name="tracking-submission-status-and-usage"></a>送信の状態と使用状況の追跡
 
-* [検証ポリシー](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)を確認することができます。
+[検証ポリシー](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)を確認できます。
 
 * 送信後は、[アプリ ダッシュボード](https://sellerdashboard.microsoft.com/Application/Summary/)で送信の状態を見ることができます。
 

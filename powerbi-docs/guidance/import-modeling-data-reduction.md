@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205782"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279482"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>インポート モデリングのデータ削減手法
 
@@ -23,8 +23,8 @@ ms.locfileid: "79205782"
 
 VertiPaq ストレージ エンジンによって実現される効率性だけでなく、モデルに読み込まれるデータを最小限に抑えるように努力することが重要です。 これは特に、大規模なモデルや、時間の経過と共に大規模になると予測されるモデルに当てはまります。 説得力のある 4 つの理由があります。
 
-- モデル サイズが大きくなるほど、お持ちの容量でサポートできくなる可能性があります。 共有容量では最大 1 GB のモデルをホストできますが、Premium 容量では最大 13 GB のモデルをホストできます。 詳細については、[大規模なデータセットに対する Power BI Premium のサポート](../service-premium-large-datasets.md)に関する記事を参照してください。
-- モデル サイズが小さくなるほど、容量リソース (特にメモリ) の競合が減少します。 これにより、より長時間、より多くのモデルを同時に読み込むことができるため、削除率が低くなります。 詳細については、「[Premium 容量を管理する](../service-premium-capacity-manage.md)」を参照してください。
+- モデル サイズが大きくなるほど、お持ちの容量でサポートできくなる可能性があります。 共有容量では最大 1 GB のモデルをホストできますが、Premium 容量では最大 13 GB のモデルをホストできます。 詳細については、[大規模なデータセットに対する Power BI Premium のサポート](../admin/service-premium-what-is.md)に関する記事を参照してください。
+- モデル サイズが小さくなるほど、容量リソース (特にメモリ) の競合が減少します。 これにより、より長時間、より多くのモデルを同時に読み込むことができるため、削除率が低くなります。 詳細については、「[Premium 容量を管理する](../admin/service-premium-capacity-manage.md)」を参照してください。
 - モデルが小さいほどデータ更新が高速になるため、レポート作成の待機時間が短くなり、データセットの更新スループットが向上し、ソース システムと容量リソースの負荷が軽減されます。
 - テーブルの行数が少ないほど、評価計算が高速になるため、クエリの全体的なパフォーマンスを向上させることができます。
 
@@ -88,7 +88,7 @@ VertiPaq ストレージ エンジンでは、通常の Power Query ソース列
 
 ## <a name="disable-auto-datetime"></a>自動の日付/時刻を無効にする
 
-Power BI Desktop には、"_自動の日付/時刻_" と呼ばれるオプションが含まれています。 有効にすると、カレンダー期間のフィルター、グループ化、ドリルダウンの構成時にレポート作成者をサポートするために、日付列に対して非表示の自動の日付/時刻テーブルが作成されます。 非表示のテーブルは、実際には計算テーブルであり、これによってモデルのサイズが大きくなります。 このオプションの使用に関するガイダンスについては、[Power BI Desktop の自動の日付/時刻のガイダンス](../desktop-auto-date-time.md)の記事を参照してください。
+Power BI Desktop には、"_自動の日付/時刻_" と呼ばれるオプションが含まれています。 有効にすると、カレンダー期間のフィルター、グループ化、ドリルダウンの構成時にレポート作成者をサポートするために、日付列に対して非表示の自動の日付/時刻テーブルが作成されます。 非表示のテーブルは、実際には計算テーブルであり、これによってモデルのサイズが大きくなります。 このオプションの使用に関するガイダンスについては、[Power BI Desktop の自動の日付/時刻のガイダンス](../transform-model/desktop-auto-date-time.md)の記事を参照してください。
 
 ## <a name="switch-to-mixed-mode"></a>混合モードに切り替える
 
@@ -96,12 +96,13 @@ Power BI Desktop では、混合モードの設計によって複合モデルが
 
 モデル サイズを小さくする効果的な方法は、大規模なファクト型テーブルの [ストレージ モード] プロパティを [DirectQuery] に設定することです。 この設計アプローチは、前述の「[グループ化と集計](#group-by-and-summarize)」の手法と組み合わせて使用することを考慮してください。 たとえば、集計された売上データを使用して、ハイ パフォーマンスの "概要" レポートを作成することができます。 ドリルスルー ページでは、すべてのコンテキスト内の販売注文を表示する、特定の (および絞り込んだ) フィルター コンテキストの詳細な売上を表示できます。 この例では、ドリルスルー ページには、販売注文データを取得するための DirectQuery テーブルに基づくビジュアルが含まれています。
 
-ただし、複合モデルに関連する多くのセキュリティとパフォーマンスへの影響があります。 詳細については、「[Power BI Desktop で複合モデルを使用する](../desktop-composite-models.md)」の記事を参照してください。
+ただし、複合モデルに関連する多くのセキュリティとパフォーマンスへの影響があります。 詳細については、「[Power BI Desktop で複合モデルを使用する](../transform-model/desktop-composite-models.md)」の記事を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 
 Power BI インポート モデル設計の詳細については、次の記事を参照してください。
 
-- [Power BI Desktop で複合モデルを使用する](../desktop-composite-models.md)
-- [Power BI Desktop のストレージ モード](../desktop-storage-mode.md)
+- [Power BI Desktop で複合モデルを使用する](../transform-model/desktop-composite-models.md)
+- [Power BI Desktop のストレージ モード](../transform-model/desktop-storage-mode.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+

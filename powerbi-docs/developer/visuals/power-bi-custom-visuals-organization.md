@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464580"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278815"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI の組織のビジュアル
 
@@ -42,8 +42,6 @@ Power BI ビジュアルが重要視される組織もあります。その組�
 注意する必要がある考慮事項と制限事項がいくつかあります。
 
 管理者:
-
-* レガシ Power BI ビジュアル (新しいバージョンの API に基づいて構築されていない Power BI ビジュアルなど) はサポートされません
 
 * ApSource またはファイルからの Power BI ビジュアルがリポジトリから削除された場合、削除されたそのビジュアルを使用しているすべての既存のレポートでレンダリングが停止します。 リポジトリからの削除は元に戻せません。 ApSource またはファイルからの Power BI ビジュアルを一時的に無効にするには、"無効化" 機能を使用します。
 

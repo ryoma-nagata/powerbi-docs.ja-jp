@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492608"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279390"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded のパフォーマンスのベスト プラクティス
 
@@ -59,7 +59,7 @@ ms.locfileid: "79492608"
 
 Power BI Premium 容量または Power BI Embedded 容量を使用する組織では、クエリ キャッシュを利用して、データセットに関連付けられたレポートを高速化できます。
 
-[Power BI でのクエリ キャッシュの詳細について参照してください](../../power-bi-query-caching.md)。
+[Power BI でのクエリ キャッシュの詳細について参照してください](../../connect-data/power-bi-query-caching.md)。
 
 ## <a name="preload"></a>事前読み込み
 
@@ -99,7 +99,7 @@ Power BI Premium 容量または Power BI Embedded 容量を使用する組織�
 レポート要素のパフォーマンスを調べるには、Power BI Desktop でパフォーマンス アナライザーを使用することができます。
 パフォーマンス アナライザーを使用すると、各レポート要素のパフォーマンスを測定するログを表示および記録できます。
 
-[パフォーマンス アナライザーの詳細を参照してください](../../desktop-performance-analyzer.md)。
+[パフォーマンス アナライザーの詳細を参照してください](../../create-reports/desktop-performance-analyzer.md)。
 
 > [!NOTE]
 > 常に、埋め込まれたレポートのパフォーマンスと、powerbi.com でのパフォーマンスを比較してください。 これは、パフォーマンスの問題の原因を理解するのに役立つ可能性があります。

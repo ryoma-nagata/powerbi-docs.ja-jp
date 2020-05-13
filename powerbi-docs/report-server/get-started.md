@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 3e01bd0d7314cba1eb46dacff01b350c6685a6e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 39ccb9120b7dd61d7f160c296d2de799b7f3fe23
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613594"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141104"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server とは
 
@@ -26,7 +26,7 @@ Power BI Report Server は Web ポータルのあるオンプレミス レポー
 Power BI Report Server は、SQL Server Reporting Services と Power BI オンライン サービスの両方に似ていますが、さまざまな相違点があります。 Power BI サービスと同様に、Power BI Report Server には Power BI レポート (.pbix)、Excel ファイル、ページ分割されたレポート (.rdl) がホストされます。 Reporting Services と同様に、Power BI Report Server はオンプレミスです。 Power BI Report Server 機能は、Reporting Services のスーパーセットです。つまり、Reporting Services でできることはすべて Power BI Report Server でできる上に Power BI Report Server では Power BI レポートもサポートされています。 詳細については、「[Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md)」(Power BI Report Server と Power BI サービスの比較) を参照してください。
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Report Server のライセンス
-Power BI Report Server は、次の 2 種類のライセンスによって利用できます:[Power BI Premium](../service-premium-what-is.md) とソフトウェア アシュアランス付きの [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)。 Power BI Premium ライセンスがあれば、クラウドとオンプレミスを混在させたハイブリッド デプロイを作成できます。  
+Power BI Report Server は、次の 2 種類のライセンスによって利用できます:[Power BI Premium](../admin/service-premium-what-is.md) とソフトウェア アシュアランス付きの [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)。 Power BI Premium ライセンスがあれば、クラウドとオンプレミスを混在させたハイブリッド デプロイを作成できます。  
 
 > [!NOTE]
 > Power BI Premium の場合、Power BI Report Server は P SKU のみに含まれます。 EM SKU には含まれません。
@@ -71,5 +71,3 @@ Power BI Report Server のプログラミング機能を利用すると、レポ
 [レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-
-

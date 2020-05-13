@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435814"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279551"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータ アラートを設定する
 適用対象:
@@ -29,7 +29,7 @@ Power BI Pro のライセンスがある場合、または共有ダッシュボ�
 > [!WARNING]
 > データ ドリブン アラート通知は、データに関する情報を提供します。 デバイスが盗まれた場合、Power BI サービスに移動し、すべてのデータ ドリブン アラート ルールをオフにすることをお勧めします。 
 > 
-> 詳しくは、[Power BI サービスのデータ アラートの管理](../../service-set-data-alerts.md)に関するページを参照してください。
+> 詳しくは、[Power BI サービスのデータ アラートの管理](../../create-reports/service-set-data-alerts.md)に関するページを参照してください。
 > 
 > 
 
@@ -58,7 +58,7 @@ Power BI Pro のライセンスがある場合、または共有ダッシュボ�
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>iPhone または iPad でアラートを管理する
-モバイル デバイスでは個別のアラートを管理できますが、[Power BI サービスではすべてのアラートを管理](../../service-set-data-alerts.md)できます。
+モバイル デバイスでは個別のアラートを管理できますが、[Power BI サービスではすべてのアラートを管理](../../create-reports/service-set-data-alerts.md)できます。
 
 1. ダッシュボードで、アラートのある数値タイルまたはゲージ タイルをタップします。  
    
@@ -92,7 +92,7 @@ Power BI Pro のライセンスがある場合、または共有ダッシュボ�
 8. **[保存]** をタップします。
 
 ### <a name="manage-alerts-on-an-android-device"></a>Android デバイスでアラートを管理する
-Power BI モバイル アプリでは個別のアラートを管理でき、[Power BI サービスではすべてのアラートを管理](../../service-set-data-alerts.md)できます。
+Power BI モバイル アプリでは個別のアラートを管理でき、[Power BI サービスではすべてのアラートを管理](../../create-reports/service-set-data-alerts.md)できます。
 
 1. ダッシュボードで、アラートのあるカード タイルまたはゲージ タイルをタップします。  
 2. 塗りつぶされたベルのアイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png) をタップします。  
@@ -131,7 +131,7 @@ Power BI モバイル アプリでは個別のアラートを管理でき、[Pow
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Windows デバイスでアラートを管理する
-Power BI モバイル アプリでは個別のアラートを管理でき、[Power BI サービスではすべてのアラートを管理](../../service-set-data-alerts.md)できます。
+Power BI モバイル アプリでは個別のアラートを管理でき、[Power BI サービスではすべてのアラートを管理](../../create-reports/service-set-data-alerts.md)できます。
 
 1. ダッシュボードで、アラートのあるカード タイルまたはゲージ タイルをタップします。  
 2. ベルのアイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png) をタップします。  
@@ -172,7 +172,6 @@ Power BI モバイル アプリでは個別のアラートを管理でき、[Pow
 * アラートは、ストリーミング データを含むタイルでは機能しません。
 
 ## <a name="next-steps"></a>次の手順
-* [Power BI サービスでアラートを管理する](../../service-set-data-alerts.md)
+* [Power BI サービスでアラートを管理する](../../create-reports/service-set-data-alerts.md)
 * [Power BI モバイル通知センター](mobile-apps-notification-center.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

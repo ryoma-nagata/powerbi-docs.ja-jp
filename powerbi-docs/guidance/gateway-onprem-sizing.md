@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76829054"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279528"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>オンプレミス データ ゲートウェイのサイズ設定
 
-この記事は、[オンプレミス データ ゲートウェイ](../service-gateway-onprem.md)をインストールおよび管理する必要がある Power BI 管理者を対象としています。
+この記事は、[オンプレミス データ ゲートウェイ](../connect-data/service-gateway-onprem.md)をインストールおよび管理する必要がある Power BI 管理者を対象としています。
 
 インターネット経由で直接アクセスできないデータに Power BI がアクセスする必要がある場合は常に、ゲートウェイが必要です。 オンプレミスのサーバー、または VM でホストされるサービスとしてのインフラストラクチャ (IaaS) にインストールできます。
 
@@ -39,8 +39,8 @@ ms.locfileid: "76829054"
 
 "_ライブ接続および DirectQuery_" ワークロードは、主にパススルー モードで動作します。 Power BI サービスからクエリが送信され、ゲートウェイからクエリの結果が返されます。 一般に、クエリ結果のサイズは軽量です。
 
-- ライブ接続の詳細については、「[Power BI サービスのデータセット (外部でホストされるモデル)](../service-datasets-understand.md#external-hosted-models)」を参照してください。
-- DirectQuery の詳細については、「[Power BI サービスのデータセット (DirectQuery モード)](../service-dataset-modes-understand.md#directquery-mode)」を参照してください。
+- ライブ接続の詳細については、「[Power BI サービスのデータセット (外部でホストされるモデル)](../connect-data/service-datasets-understand.md#external-hosted-models)」を参照してください。
+- DirectQuery の詳細については、「[Power BI サービスのデータセット (DirectQuery モード)](../connect-data/service-dataset-modes-understand.md#directquery-mode)」を参照してください。
 
 このワークロードには、クエリとクエリ結果をルーティングするために CPU リソースが必要です。 通常、キャッシュ データ ワークロードに必要な CPU よりも、CPU の必要量ははるかに少なくなります。キャッシュのためにデータを変換する必要がある場合は特にそうです。
 
@@ -62,13 +62,13 @@ ms.locfileid: "76829054"
   - 同時実行レポート ユーザーの数
   - レポート ページ上のビジュアルの数 (各ビジュアルから少なくとも 1 つのクエリが送信されます)
   - Power BI ダッシュボードのクエリ キャッシュの更新頻度
-  - [[ページの自動更新]](../desktop-automatic-page-refresh.md) 機能を使用するリアルタイム レポートの数
-  - データセットで[行レベルのセキュリティ (RLS)](../desktop-rls.md) が適用されるかどうか
+  - [[ページの自動更新]](../create-reports/desktop-automatic-page-refresh.md) 機能を使用するリアルタイム レポートの数
+  - データセットで[行レベルのセキュリティ (RLS)](../create-reports/desktop-rls.md) が適用されるかどうか
 
 一般に、ライブ接続および DirectQuery ワークロードには十分な CPU が必要ですが、キャッシュ データ ワークロードにはさらに多くの CPU とメモリが必要です。 どちらのワークロードも、Power BI サービスとの良好な接続とデータ ソースに左右されます。
 
 > [!NOTE]
-> Power BI の容量によって、モデル更新並列処理と、ライブ接続および DirectQuery のスループットに制限が課せられます。 ゲートウェイのサイズを Power BI サービスがサポートする値よりも高く設定しても意味がありません。 Premium SKU (および同等のサイズの SKU) の場合の制限は異なります。 詳細については、「[Power BI Premium とは (容量ノード)](../service-premium-what-is.md#capacity-nodes)」を参照してください。
+> Power BI の容量によって、モデル更新並列処理と、ライブ接続および DirectQuery のスループットに制限が課せられます。 ゲートウェイのサイズを Power BI サービスがサポートする値よりも高く設定しても意味がありません。 Premium SKU (および同等のサイズの SKU) の場合の制限は異なります。 詳細については、「[Power BI Premium とは (容量ノード)](../admin/service-premium-what-is.md#capacity-nodes)」を参照してください。
 
 ## <a name="recommendations"></a>推奨事項
 
@@ -84,9 +84,9 @@ Power BI サービスとゲートウェイ間と、ゲートウェイとデー�
 
 - 信頼性、高速、短く一貫した待機時間を目指します
 - ゲートウェイとデータ ソース間のマシンのホップをなくすか減らします
-- ファイアウォール プロキシ レイヤーによって課される帯域幅調整をなくします。 Power BI エンドポイントの詳細については、「[ホワイトリスト登録用の Power BI の URL](../power-bi-whitelist-urls.md)」を参照してください。
+- ファイアウォール プロキシ レイヤーによって課される帯域幅調整をなくします。 Power BI エンドポイントの詳細については、「[ホワイトリスト登録用の Power BI の URL](../admin/power-bi-whitelist-urls.md)」を参照してください。
 - [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) を構成して、Power BI に対して非公開の管理された接続を確立します
-- Azure VM のデータ ソースの場合、必ず VM を [Power BI サービスと同じ場所に配置します](../service-admin-where-is-my-tenant-located.md)
+- Azure VM のデータ ソースの場合、必ず VM を [Power BI サービスと同じ場所に配置します](../admin/service-admin-where-is-my-tenant-located.md)
 - 動的 RLS を含む SQL Server Analysis Services (SSAS) へのライブ接続ワークロードの場合、ゲートウェイ マシンとオンプレミスの Active Directory 間に良好な接続を確保します
 
 ### <a name="clustering"></a>クラスタリング
@@ -105,17 +105,17 @@ Power BI サービスとゲートウェイ間と、ゲートウェイとデー�
 インポート データセットの場合:
 
 - データの更新頻度を低くします
-- 転送するデータの量を最小限に抑えるように[増分更新](../service-premium-incremental-refresh.md)を構成します
+- 転送するデータの量を最小限に抑えるように[増分更新](../admin/service-premium-incremental-refresh.md)を構成します
 - 可能な場合は常に[クエリ フォールディング](power-query-folding.md)を実行します
-- 特に、大量のデータの場合や待機時間を短くする必要がある場合は、設計を DirectQuery または[複合](../service-dataset-modes-understand.md#composite-mode)モデルに変換します
+- 特に、大量のデータの場合や待機時間を短くする必要がある場合は、設計を DirectQuery または[複合](../connect-data/service-dataset-modes-understand.md#composite-mode)モデルに変換します
 
 DirectQuery データセットの場合:
 
 - データソース、モデル、レポートのデザインを最適化します。詳細については、「[Power BI Desktop の DirectQuery モデルのガイダンス](directquery-model-guidance.md)」を参照してください
-- [集計](../desktop-aggregations.md)を作成して高レベルの結果をキャッシュし、DirectQuery 要求の数を減らします
-- レポートのデザインと容量設定で、[ページの自動更新](../desktop-automatic-page-refresh.md)間隔を制限します
+- [集計](../transform-model/desktop-aggregations.md)を作成して高レベルの結果をキャッシュし、DirectQuery 要求の数を減らします
+- レポートのデザインと容量設定で、[ページの自動更新](../create-reports/desktop-automatic-page-refresh.md)間隔を制限します
 - 特に動的 RLS が適用される場合、ダッシュボードのキャッシュの更新頻度を制限します
-- 特にデータ ボリュームが少ない場合、または非揮発性データの場合は、設計をインポートまたは[複合](../service-dataset-modes-understand.md#composite-mode)モデルに変換します
+- 特にデータ ボリュームが少ない場合、または非揮発性データの場合は、設計をインポートまたは[複合](../connect-data/service-dataset-modes-understand.md#composite-mode)モデルに変換します
 
 ライブ接続データセットの場合:
 
@@ -125,10 +125,10 @@ DirectQuery データセットの場合:
 
 この記事に関する詳細については、次のリソースを参照してください。
 
-- [Power BI 用のデータ ゲートウェイのデプロイに関するガイダンス](../service-gateway-deployment-guidance.md)
+- [Power BI 用のデータ ゲートウェイのデプロイに関するガイダンス](../connect-data/service-gateway-deployment-guidance.md)
 - [オンプレミス データ ゲートウェイのプロキシ設定を構成する](/data-integration/gateway/service-gateway-proxy)
 - [オンプレミス データ ゲートウェイのパフォーマンスの監視と最適化](/data-integration/gateway/service-gateway-performance)
-- [ゲートウェイのトラブルシューティング - Power BI](../service-gateway-onprem-tshoot.md)
+- [ゲートウェイのトラブルシューティング - Power BI](../connect-data/service-gateway-onprem-tshoot.md)
 - [オンプレミス データ ゲートウェイのトラブルシューティング](/data-integration/gateway/service-gateway-tshoot)
 - [クエリ フォールディングの重要性](power-query-folding.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
