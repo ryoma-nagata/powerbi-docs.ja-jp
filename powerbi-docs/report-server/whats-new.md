@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381309"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348162"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
@@ -23,8 +23,8 @@ Power BI Report Server と Power BI Report Server 向けに最適化された Po
 
 関連するPower BI の最新情報については、以下を参照してください。
 
-* [Power BI サービスの新機能](../service-whats-new.md)
-* [Power BI Desktop の新機能](../desktop-latest-update.md)
+* [Power BI サービスの新機能](../fundamentals/service-whats-new.md)
+* [Power BI Desktop の新機能](../fundamentals/desktop-latest-update.md)
 * [Power BI 用モバイル アプリの新機能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="january-2020"></a>2020 年 1 月
@@ -128,7 +128,7 @@ Power BI Report Server と Power BI Report Server 向けに最適化された Po
 
 レポート作成者が .pbids ファイルを開くと、Power BI Desktop により、ファイル内で指定されたデータ ソースに接続するための認証が求められます。 次に、ユーザーはモデルに読み込むテーブルを選択します。 ファイル内でデータベースが指定されていなかった場合は、データベースの選択が必要になる場合もあります。 レポート作成者は、そこから視覚化の作成を開始できます。
 
-詳細と例については、記事「Power BI Desktop のデータ ソース」の「[.pbids ファイルを使用したデータの取得](../desktop-data-sources.md#using-pbids-files-to-get-data)」セクションを参照してください。
+詳細と例については、記事「Power BI Desktop のデータ ソース」の「[.pbids ファイルを使用したデータの取得](../connect-data/desktop-data-sources.md#using-pbids-files-to-get-data)」セクションを参照してください。
 
 "*モデリング操作のパフォーマンスの向上*"
 
@@ -239,11 +239,11 @@ Power BI Report Server の 2019 年 9 月の更新には、多くの Power BI �
 
 #### <a name="performance-analyzer"></a>パフォーマンス アナライザー 
 
-レポートの実行速度が予想よりも遅い場合、Power BI Desktop でパフォーマンス アナライザーをお試しください。 これを開始すると、レポート内で行うあらゆるアクションに関する情報が含まれるログ ファイルが作成されます。 パフォーマンス アナライザーの詳細は[こちら](../desktop-performance-analyzer.md)で参照してください。
+レポートの実行速度が予想よりも遅い場合、Power BI Desktop でパフォーマンス アナライザーをお試しください。 これを開始すると、レポート内で行うあらゆるアクションに関する情報が含まれるログ ファイルが作成されます。 パフォーマンス アナライザーの詳細は[こちら](../create-reports/desktop-performance-analyzer.md)で参照してください。
 
 #### <a name="new-modeling-view"></a>新しいモデリング ビュー
 
-Power BI Desktop の新しいモデルリング ビューでは、多くのテーブルを含む複雑なデータセットを表示し、操作できます。 特に重要な機能には、複数の図からなるレイアウトと列、メジャー、テーブルの一括編集があります。 モデリング ビューの詳細は[こちら](../desktop-modeling-view.md)で参照してください。
+Power BI Desktop の新しいモデルリング ビューでは、多くのテーブルを含む複雑なデータセットを表示し、操作できます。 特に重要な機能には、複数の図からなるレイアウトと列、メジャー、テーブルの一括編集があります。 モデリング ビューの詳細は[こちら](../transform-model/desktop-modeling-view.md)で参照してください。
 
 #### <a name="accessible-visual-interaction"></a>アクセス可能なビジュアルの相互作用
 
@@ -251,11 +251,11 @@ Power BI Desktop の新しいモデルリング ビューでは、多くのテ�
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>条件付き書式設定タイトルと Web URL アクション
 
-Power BI レポートは対話式です。 レポートの現在の状態が反映されるよう、レポートのタイトルが動的に変化すれば理にかないます。 同じ式バインドの書式設定を利用し、ボタン、図形、画像の URL を動的に変化させることができます。 式ベースのタイトルの詳細は[こちら](../desktop-conditional-format-visual-titles.md)で参照してください。
+Power BI レポートは対話式です。 レポートの現在の状態が反映されるよう、レポートのタイトルが動的に変化すれば理にかないます。 同じ式バインドの書式設定を利用し、ボタン、図形、画像の URL を動的に変化させることができます。 式ベースのタイトルの詳細は[こちら](../create-reports/desktop-conditional-format-visual-titles.md)で参照してください。
 
 #### <a name="cross-highlight-by-axis-labels"></a>軸ラベルによるクロス強調表示
 
-ビジュアル内で軸カテゴリ ラベルを選択すると、ビジュアル内でデータ ポイントを選択する場合と同じように、ページ上の他の要素が強調表示されます。 クロス強調表示の詳細は[こちら](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)で参照してください。
+ビジュアル内で軸カテゴリ ラベルを選択すると、ビジュアル内でデータ ポイントを選択する場合と同じように、ページ上の他の要素が強調表示されます。 クロス強調表示の詳細は[こちら](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)で参照してください。
 
 #### <a name="all-the-new-features"></a>すべての新機能
 
