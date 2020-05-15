@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279091"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407532"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI のセキュリティに関するホワイトペーパー
 
@@ -174,9 +174,9 @@ Power BI サービスによるデータの管理方法は、データが **Direc
 
 |  |[インポート]  |DirectQuery  |ライブ接続  |
 |---------|---------|---------|---------|
-|スキーマ     |     X    |    X     |         |
-|行データ     |    X     |         |         |
-|ビジュアルのデータ キャッシュ     |    X     |     X    |    X     |
+|スキーマ     |     x    |    x     |         |
+|行データ     |    x     |         |         |
+|ビジュアルのデータ キャッシュ     |    x     |     x    |    x     |
 
 DirectQuery と他のクエリの違いによって、Power BI サービスによる保存データの処理方法と、クエリ自体が暗号化されるかどうかが決まります。 以下のセクションでは、保存データと移動中のデータ、および暗号化、場所、データを処理するプロセスについて説明します。
 
@@ -204,13 +204,13 @@ CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定
 
 1. メタデータ (テーブル、列、メジャー、計算、接続文字列など)
 
-    a. オンプレミスの Analysis Services では、暗号化されて Azure SQL に格納されるデータベースへの参照を除き、サービスには何も格納されません。
+    a。 オンプレミスの Analysis Services では、暗号化されて Azure SQL に格納されるデータベースへの参照を除き、サービスには何も格納されません。
 
     b. ETL、DirectQuery、およびプッシュ データに対する他のすべてのメタデータは、暗号化されて Azure Blob Storage に格納されます。
 
 1. 元のデータ ソースに対する資格情報
   
-      a. オンプレミスの Analysis Services – 資格情報は必要なく、そのため、資格情報は保存されません。
+      a。 オンプレミスの Analysis Services – 資格情報は必要なく、そのため、資格情報は保存されません。
 
       b. DirectQuery - これはモデルがサービス内で直接作成されるかどうかによって異なります。直接作成される場合、それは接続文字列内に格納され Azure Blob で暗号化されます。モデルが Power BI Desktop からインポートされる場合、資格情報はデータ移動の Azure SQL Database で暗号化されて格納されます。 暗号化キーは、顧客のインフラストラクチャ上でゲートウェイを実行しているコンピューターに格納されます。
 
@@ -225,7 +225,7 @@ CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定
 
 1. Data
 
-    a. オンプレミスの Analysis Services と、DirectQuery – Power BI サービスでは何も格納されません。
+    a。 オンプレミスの Analysis Services と、DirectQuery – Power BI サービスでは何も格納されません。
 
     b. ETL – Azure Blob ストレージで暗号化されます。しかし、Power BI サービスの Azure Blob ストレージに現在あるすべてのデータに [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) (サーバー側の暗号化とも呼ばれる) が使用されます。 Multi-Geo でも SSE が使用されます。
 
@@ -241,11 +241,11 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
 * Azure Blob ストレージの保存データの場合、Power BI では、クライアント側の暗号化と、ストレージにデータを転送するための HTTPS が使用されます。これにはデータの取得中の整合性チェックが含まれます。 Azure Blob ストレージのセキュリティの詳細については、[こちら](https://azure.microsoft.com/documentation/articles/storage-security-guide/)を参照してください。
 
-#### <a name="reports"></a>レポート
+#### <a name="reports"></a>Reports
 
 1. メタデータ (レポートの定義)
 
-   a. レポートは、Excel for Office 365 レポートまたは Power BI レポートのいずれかとすることができます。 レポートの種類に基づいて、メタデータには次が適用されます。
+   a。 レポートは、Excel for Office 365 レポートまたは Power BI レポートのいずれかとすることができます。 レポートの種類に基づいて、メタデータには次が適用されます。
         
     &ensp;&ensp;。 Excel レポートのメタデータは、SQL Azure に暗号化されて格納されます。 メタデータは、Office 365 にも格納されます。
 
@@ -263,7 +263,7 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
     &ensp;&ensp;。 Excel for Office 365 で作成されたレポートの場合は、何もキャッシュされません。
 
-    &ensp;&ensp;b。 Power BI レポートの場合、表示されるビジュアルのデータは Azure SQL Database で暗号化されてキャッシュされます。
+    &ensp;&ensp;b。 Power BI レポートの場合、表示されるレポートのビジュアルのデータはキャッシュされ、次のセクションで説明するビジュアルデータキャッシュに格納されます。
  
 
 4. Power BI に発行される元の Power BI Desktop (.pbix) または Excel (.xlsx) ファイル
@@ -272,11 +272,20 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
 #### <a name="dashboards-and-dashboard-tiles"></a>ダッシュボードおよびダッシュボード タイル
 
-1. キャッシュ – ダッシュ ボード上のビジュアルによって必要とされるデータは、通常、Azure SQL Database で暗号化されてキャッシュおよび格納されます。 Excel または SQL Server Reporting Services (SSRS) からのピン留めされたビジュアルなど、他のタイルは、イメージとして Azure Blob に格納され、暗号化も行われます。
+1. キャッシュ: ダッシュボード上のビジュアルに必要なデータは、通常はキャッシュされ、次のセクションで説明するビジュアルデータキャッシュに格納されます。 Excel または SQL Server Reporting Services (SSRS) からのピン留めされたビジュアルなど、他のタイルは、イメージとして Azure Blob に格納され、暗号化も行われます。
 
 2. 静的なデータ– Azure Blob storage に格納されている、保存されているバックグラウンドイメージや Power BI ビジュアルなどの成果物が含まれます。
 
-使用されている暗号化の方法に関係なく、Microsoft はシークレット ストアまたは Azure Key Vault のいずれかによってキーの暗号化をお客様に代わって管理します。
+使用する暗号化方法に関係なく、Microsoft はお客様の代理としてキーの暗号化を管理します。
+
+#### <a name="visual-data-cache"></a>ビジュアルデータキャッシュ
+
+ビジュアルデータは、データセットが Power BI Premium の容量でホストされているかどうかに応じて、異なる場所にキャッシュされます。 容量でホストされていないデータセットの場合、ビジュアルデータはキャッシュされ、暗号化されて Azure SQL Database に格納されます。 容量でホストされているデータセットの場合、ビジュアルデータは次のいずれかの場所にキャッシュできます。
+
+* Azure Blob Storage
+* Azure Premium ファイル
+* Power BI Premium 容量ノード
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>非揮発性デバイスに一時的に格納されたデータ
 
@@ -290,7 +299,7 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
 3. 元のデータ ソースに対する資格情報
 
-    a. オンプレミスの Analysis Services - 何も格納されません
+    a。 オンプレミスの Analysis Services - 何も格納されません
 
     b. DirectQuery - これはモデルがサービス内で直接作成されるかどうかによって異なります。直接作成される場合、それは、(暗号化された情報と共に) 同じ場所にクリア テキストで格納された暗号化キーを使用する暗号化形式で、接続文字列内に格納されます。モデルが Power BI Desktop からインポートされる場合、資格情報は非揮発性デバイス上に格納されません。
 
@@ -347,8 +356,8 @@ Power BI Mobile は、Android、iOS、Windows Mobile という3つの主要な�
 
 | **CBA サポート** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (サービスにサインイン) | サポート対象 | サポート対象 | サポートされていません |
-| **SSRS ADFS** (SSRS サーバーに接続) | サポートされていません | サポートされています | サポートされていません |
+| **Power BI** (サービスにサインイン) | サポート対象 | サポート対象 | サポートなし |
+| **SSRS ADFS** (SSRS サーバーに接続) | サポートなし | サポートされています | サポートなし |
 
 Power BI Mobile アプリは、積極的に Power BI サービスと通信します。 利用統計情報はモバイル アプリの利用統計情報や類似のデータの収集に使用され、利用状況とアクティビティを監視するために使用するサービスに転送されます。個人データが利用統計情報とともに送信されることは一切ありません。
 
