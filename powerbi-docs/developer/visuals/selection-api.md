@@ -159,7 +159,7 @@ export interface ISelectionIdBuilder {
 
 また、ビジュアルでは、`Manufacturer` と `Type` によってデータをスライスすることもできます。
 
-たとえば、ユーザーが `Chrysler` で `Manufacturer` を選択すると、他のビジュアルには次のデータが表示されます。
+たとえば、ユーザーが `Manufacturer` で `Chrysler` を選択すると、他のビジュアルには次のデータが表示されます。
 
 | Manufacturer | 種類 | 価値 |
 | - | - | - |
@@ -168,7 +168,7 @@ export interface ISelectionIdBuilder {
 | **Chrysler** | Import Car | 0 |
 | **Chrysler** | Import Truck | 6362 |
 
-ユーザーが `Import Car` で `Type` を選択 (系列でデータを選択) すると、他のビジュアルには次のデータが表示されます。
+ユーザーが `Type` で `Import Car` を選択 (系列でデータを選択) すると、他のビジュアルには次のデータが表示されます。
 
 | Manufacturer | 種類 | 価値 |
 | - | - | - |
@@ -185,7 +185,7 @@ export interface ISelectionIdBuilder {
 
 ![選択を備えたビジュアルのデータ バスケット](media/selection-api/visual-selections-databuckets.png)
 
-カテゴリ (列) として `Manufacturer` が、系列 (行) として `Type` が、系列の `Value` として `Values` があります。
+カテゴリ (列) として `Manufacturer` が、系列 (行) として `Type` が、系列の `Values` として `Value` があります。
 
 > [!NOTE]
 > 系列に対して `Values` が必要です。データ ビュー マッピングに応じて、ビジュアルでは `Values` が `Rows` データによってグループ化されることが想定されるためです。

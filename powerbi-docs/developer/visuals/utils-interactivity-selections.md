@@ -203,7 +203,7 @@ Power BI ビジュアルのツールによって外部 CSS ルールがラップ
     }
     ```
 
-6. 選択マネージャーの `contextmenu` メソッドを呼び出すには、`showContextMenu` イベント用に同様のハンドラーを追加します。
+6. 選択マネージャーの `showContextMenu` メソッドを呼び出すには、`contextmenu` イベント用に同様のハンドラーを追加します。
 
     ```typescript
     protected bindContextMenu() {

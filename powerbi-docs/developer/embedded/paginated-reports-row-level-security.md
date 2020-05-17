@@ -26,13 +26,13 @@ ms.locfileid: "79491734"
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>データセットをフィルター処理するためのパラメーターを構成する
 
-Power BI のページ分割されたレポートに行レベルのセキュリティを適用する場合は、[UserID 属性](../../paginated-reports/report-builder-parameters.md)に**パラメーター**を割り当てる必要があります。 このパラメーターは、レポートが埋め込まれる前に、データセットからプルされるデータを制限します。
+Power BI のページ分割されたレポートに行レベルのセキュリティを適用する場合は、**UserID 属性**に[パラメーター](../../paginated-reports/report-builder-parameters.md)を割り当てる必要があります。 このパラメーターは、レポートが埋め込まれる前に、データセットからプルされるデータを制限します。
 
 パラメーターを **UserID** に割り当てた後、[Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API を使用して、埋め込みトークンを取得します。
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>レポートまたはクエリのレベルで UserID をフィルターとして使用する
 
-**UserId** は、"*フィルター*" として使用することや、*Power BI Report Builder* で、データソースに対する "[クエリ](../../paginated-reports/report-builder-power-bi.md)" に使用することができます。
+**UserId** は、"*フィルター*" として使用することや、[Power BI Report Builder](../../paginated-reports/report-builder-power-bi.md) で、データソースに対する "*クエリ*" に使用することができます。
 
 ### <a name="using-the-filter"></a>フィルターの使用
 
@@ -80,7 +80,7 @@ Power BI のページ分割されたレポートに行レベルのセキュリ�
 
 顧客向けのページ分割されたレポートを埋め込むときに、[Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API を使用して、埋め込みトークンが取得されます。 このトークンを使用して、ページ分割されたレポートからプルされるデータの一部をフィルター処理することもできます。
 
-データの一部のみを公開するには、表示する情報を `username` フィールドに割り当てます。 たとえば、color パラメーターを持つページ分割されたレポートで、 *フィールドに「* green`username`」と入力すると、埋め込みトークンによって埋め込みデータが制限され、color 列の値が *green* であるデータのみが表示されます。
+データの一部のみを公開するには、表示する情報を `username` フィールドに割り当てます。 たとえば、color パラメーターを持つページ分割されたレポートで、`username` フィールドに「*green*」と入力すると、埋め込みトークンによって埋め込みデータが制限され、color 列の値が *green* であるデータのみが表示されます。
 
 ```JSON
 {

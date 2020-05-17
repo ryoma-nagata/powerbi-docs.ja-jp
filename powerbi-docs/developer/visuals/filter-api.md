@@ -19,7 +19,7 @@ ms.locfileid: "80114108"
 
 Visual Filters API を使用すると、Power BI ビジュアルでデータをフィルター処理できます。 他の選択肢との主な違いは、他のビジュアルでの強調表示のサポートに関係なく、他のビジュアルが任意の方法でフィルター処理されることです。
 
-ビジュアルのフィルター処理を有効にするには、`filter`capabilities.json`general` のコードの *セクションに* オブジェクトが含まれている必要があります。
+ビジュアルのフィルター処理を有効にするには、*capabilities.json* のコードの `general` セクションに `filter` オブジェクトが含まれている必要があります。
 
 ```json
 "objects": {
@@ -120,7 +120,7 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 
 このフィルターは、ビジュアル API 1.7.0 で導入されました。
 
-Advanced Filter API には、`target` および `table` の名前を指定した `column` も必要です。 ただし、Advanced Filter API の演算子は *And* と *Or* です。 
+Advanced Filter API には、`table` および `column` の名前を指定した `target` も必要です。 ただし、Advanced Filter API の演算子は *And* と *Or* です。 
 
 さらに、フィルターでは、インターフェイスでの値ではなく条件が使用されます。
 

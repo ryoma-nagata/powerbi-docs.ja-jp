@@ -177,7 +177,7 @@ ms.locfileid: "78921150"
   
      テキスト ボックスに日付または数値のみが含まれる場合は、テキスト ボックス内で **Format** 関数を使う代わりに、テキスト ボックスの Format プロパティを使って書式設定を適用する必要があります。  
   
--   **Right**、**Len**、および **InStr** 関数は、部分文字列を返す場合に便利です。たとえば、*DOMAIN*\\*username* をトリミングしてユーザー名だけにします。 次の式では、\\User *という名前のパラメーターからバックスラッシュ (* ) 文字の右側にある文字列の部分が返されます。  
+-   **Right**、**Len**、および **InStr** 関数は、部分文字列を返す場合に便利です。たとえば、*DOMAIN*\\*username* をトリミングしてユーザー名だけにします。 次の式では、*User* という名前のパラメーターからバックスラッシュ (\\) 文字の右側にある文字列の部分が返されます。  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -202,7 +202,7 @@ ms.locfileid: "78921150"
   
     ```  
   
--   .NET Framework の **の**Regex`xref:System.Text.RegularExpressions` 関数は、既存の文字列の形式を変更するのに便利です (たとえば、電話番号の書式設定)。 次の式では、**Replace** 関数を使って、フィールド内の 10 桁の電話番号の形式を、"*nnn*-*nnn*-*nnnn*" から "(*nnn*) *nnn*-*nnnn*" に変更しています。  
+-   .NET Framework の `xref:System.Text.RegularExpressions` の **Regex** 関数は、既存の文字列の形式を変更するのに便利です (たとえば、電話番号の書式設定)。 次の式では、**Replace** 関数を使って、フィールド内の 10 桁の電話番号の形式を、"*nnn*-*nnn*-*nnnn*" から "(*nnn*) *nnn*-*nnnn*" に変更しています。  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -244,13 +244,13 @@ ms.locfileid: "78921150"
   
 ###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> 決定関数  
   
--   **Iif** 関数では、式が true かどうかに応じて、2 つの値のいずれかが返されます。 次の式では、**Iif** 関数を使って、**の値が 100 を超えている場合は、ブール値**True`LineTotal` を返します。 それ以外の場合は、**False** を返します。  
+-   **Iif** 関数では、式が true かどうかに応じて、2 つの値のいずれかが返されます。 次の式では、**Iif** 関数を使って、`LineTotal` の値が 100 を超えている場合は、ブール値 **True** を返します。 それ以外の場合は、**False** を返します。  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
     ```  
   
--   **の値に応じて 3 つの値のいずれかを返すには、複数の**IIF`PctComplete` 関数 ("入れ子になった IIF" とも呼ばれます) を使います。 テキスト ボックスの塗りつぶし色に次の式を配置して、テキスト ボックスの値に応じて背景色を変更できます。  
+-   `PctComplete` の値に応じて 3 つの値のいずれかを返すには、複数の **IIF** 関数 ("入れ子になった IIF" とも呼ばれます) を使います。 テキスト ボックスの塗りつぶし色に次の式を配置して、テキスト ボックスの値に応じて背景色を変更できます。  
   
     ```  
     =IIF(Fields!PctComplete.Value >= 10, "Green", IIF(Fields!PctComplete.Value >= 1, "Blue", "Red"))  
@@ -482,7 +482,7 @@ ms.locfileid: "78921150"
  特定のグループ スコープのローカルなグループ変数に対する値を初期化した後、その変数への参照を式に含めることができます。 カスタム コードでグループ変数を使用できる方法の 1 つは、カスタム集計を実装することです。 
   
 ## <a name="suppressing-null-or-zero-values-at-run-time"></a>実行時に null 値またはゼロ値を表示しない  
- レポートの処理時に、式の一部の値が null または未定義と評価されることがあります。 これにより、評価された式ではなく **#Error** がテキスト ボックスに表示される実行時エラーが発生する可能性があります。 **IIF** 関数は特にこの動作の影響を受けます。これは、If-Then-Else ステートメントとは異なり、 **IIF** ステートメントの各部分 (関数呼び出しを含む) が、 **true** であるか **false**であるかを検証するルーチンに渡される前に評価されるためです。 ステートメント `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` は、**が NOTHING の場合、レンダリングされるレポートで**#Error`Fields!Sales.Value` になります。  
+ レポートの処理時に、式の一部の値が null または未定義と評価されることがあります。 これにより、評価された式ではなく **#Error** がテキスト ボックスに表示される実行時エラーが発生する可能性があります。 **IIF** 関数は、If-Then-Else ステートメントとは異なり、**true** または **false** をテストするルーチンに渡される前に、**IIF** ステートメントの各部分が評価されるため (関数の呼び出しを含めて)、この動作の影響を特に受けやすくなります。 ステートメント `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` は、`Fields!Sales.Value` が NOTHING の場合、レンダリングされるレポートで **#Error** になります。  
   
  この状況を回避するには、次の方法のいずれかを使います。  
   

@@ -115,7 +115,7 @@ ms.locfileid: "80114775"
     var gateway = gateways.First();
     ```
 
-3. [手順 2](#update-credentials-flow-for-data-sources) で取得したゲートウェイの公開キーを使用して、「**データ ソースの資格情報フローを更新する**」で説明されているのと同じ方法で資格情報の詳細を作成します。
+3. **手順 2** で取得したゲートウェイの公開キーを使用して、「[データ ソースの資格情報フローを更新する](#update-credentials-flow-for-data-sources)」で説明されているのと同じ方法で資格情報の詳細を作成します。
 
 4. 要求本文を作成します。
 
@@ -135,7 +135,7 @@ ms.locfileid: "80114775"
 
 ## <a name="credential-types"></a>資格情報の種類
 
-[Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) を使用して[エンタープライズ オンプレミス ゲートウェイ](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)で**データソースの作成**または[データソースの更新](https://docs.microsoft.com/rest/api/power-bi/)を呼び出すときは、ゲートウェイの公開キーを使用して資格情報の値を暗号化する必要があります。
+[Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) を使用して**エンタープライズ オンプレミス ゲートウェイ**で[データソースの作成](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource)または[データソースの更新](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)を呼び出すときは、ゲートウェイの公開キーを使用して資格情報の値を暗号化する必要があります。
 
 >[!NOTE]
 >.NET SDK v3 では、以下に示す .NET SDK v2 の例も実行できます。

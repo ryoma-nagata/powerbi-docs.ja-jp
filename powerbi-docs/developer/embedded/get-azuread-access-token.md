@@ -172,7 +172,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 ### <a name="access-token-with-service-principal"></a>アクセス トークンとサービス プリンシパル
 
-この手法では、[アプリ専用](embed-service-principal.md)トークンである**サービス プリンシパル**を使用します。 アプリケーションは、サービス プリンシパルを使用して Azure AD に対する認証を行います。 次に示すコード例は、[アプリ所有データ サンプル](https://github.com/guyinacube/PowerBI-Developer-Samples)のものです
+この手法では、**アプリ専用**トークンである[サービス プリンシパル](embed-service-principal.md)を使用します。 アプリケーションは、サービス プリンシパルを使用して Azure AD に対する認証を行います。 次に示すコード例は、[アプリ所有データ サンプル](https://github.com/guyinacube/PowerBI-Developer-Samples)のものです
 
 #### <a name="embedservicecs"></a>EmbedService.cs
 

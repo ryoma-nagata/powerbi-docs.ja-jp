@@ -17,11 +17,11 @@ ms.locfileid: "80114154"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI ビジュアルでデータ ポイントを強調表示する
 
-既定では、要素が選択されるたびに、`values` オブジェクト内の `dataView` 配列は、選択された値のみを示すようにフィルター処理されます。 これにより、ページ上の他のすべてのビジュアルには、選択したデータのみが表示されます。
+既定では、要素が選択されるたびに、`dataView` オブジェクト内の `values` 配列は、選択された値のみを示すようにフィルター処理されます。 これにより、ページ上の他のすべてのビジュアルには、選択したデータのみが表示されます。
 
 ![`dataview` の強調表示の既定の動作](media/highlight/highlight-dataview.png)
 
-`supportsHighlight` の `capabilities.json` プロパティを `true` に設定すると、フィルター処理されていない完全な `values` 配列が `highlights` 配列とともに返されます。 `highlights` 配列は values 配列と同じ長さになり、選択されていない values はすべて `null` に設定されます。 このプロパティを有効にすると、`values` 配列と `highlights` 配列を比較することによって適切なデータを強調表示する動作がビジュアル側で実行されます。
+`capabilities.json` の `supportsHighlight` プロパティを `true` に設定すると、フィルター処理されていない完全な `values` 配列が `highlights` 配列とともに返されます。 `highlights` 配列は values 配列と同じ長さになり、選択されていない values はすべて `null` に設定されます。 このプロパティを有効にすると、`values` 配列と `highlights` 配列を比較することによって適切なデータを強調表示する動作がビジュアル側で実行されます。
 
 ![`dataview` でサポートされている強調表示](media/highlight/highlight-dataview-supports.png)
 
@@ -32,7 +32,7 @@ ms.locfileid: "80114154"
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>カテゴリ別のデータ ビューのマッピングを持つデータ ポイントを強調表示する
 
-カテゴリ別のデータ ビューのマッピングを持つビジュアルには、`capabilities.json` パラメーターを持つ `"supportsHighlight": true` があります。 次に例を示します。
+カテゴリ別のデータ ビューのマッピングを持つビジュアルには、`"supportsHighlight": true` パラメーターを持つ `capabilities.json` があります。 次に例を示します。
 
 ```json
 {
@@ -275,7 +275,7 @@ div.value {
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>マトリックスのデータ ビューのマッピングを持つデータ ポイントを強調表示する
 
-マトリックスのデータ ビューのマッピングを持つビジュアルには、`capabilities.json` パラメーターを持つ `"supportsHighlight": true` があります。 次に例を示します。
+マトリックスのデータ ビューのマッピングを持つビジュアルには、`"supportsHighlight": true` パラメーターを持つ `capabilities.json` があります。 次に例を示します。
 
 ```json
 {

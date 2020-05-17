@@ -102,7 +102,7 @@ Power BI ビジュアル ツールでは、このファイルが Power BI ビジ
 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) の構成ファイルです。
 
-このファイルには、**ファイルの \* プロパティに指定されているように、ビジュアルのメイン クラスが配置されている**`visualClassName`.ts`pbiviz.json` ファイルのパスが含まれている必要があります。
+このファイルには、`pbiviz.json` ファイルの `visualClassName` プロパティに指定されているように、ビジュアルのメイン クラスが配置されている **\*.ts** ファイルのパスが含まれている必要があります。
 
 ### <a name="tslintjson"></a>tslint.json
 

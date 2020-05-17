@@ -19,13 +19,13 @@ ms.locfileid: "78919846"
 
 レポート ビルダーはスタンドアロン アプリです。ユーザーまたは管理者によってコンピューターにインストールされます。 Microsoft ダウンロード センターまたは Power BI Report Server からインストールできます。  
 
-Power BI サービスのレポート ビルダーのインストールに関するヘルプをお探しですか?  この場合は「[Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)」を参照してください。
+Power BI サービスのレポート ビルダーのインストールに関するヘルプをお探しですか? この場合は「[Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)」を参照してください。
   
 管理者は通常、Power BI Report Server のインストールと構成、Web ポータルからレポート ビルダーをダウンロードするための権限の許可、フォルダーの管理とレポート サーバーに保存されたレポート、および共有データセットに対する権限の管理を行います。 Power BI Report Server の管理の詳細については、「[管理の概要、Power BI Report Server](admin-handbook-overview.md)」を参照してください。  
   
 ## <a name="system-requirements"></a>システム要件
   
- Microsoft ダウンロード センターの**レポート ビルダーのダウンロード ページ**で、「[システム要件](https://go.microsoft.com/fwlink/?LinkID=734968)」セクションを参照してください。
+ Microsoft ダウンロード センターの[レポート ビルダーのダウンロード ページ](https://go.microsoft.com/fwlink/?LinkID=734968)で、「**システム要件**」セクションを参照してください。
  
 ## <a name="install-report-builder-from-a-web-portal"></a>Web ポータルからレポート ビルダーをインストールする
   

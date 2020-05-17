@@ -23,7 +23,7 @@ ms.locfileid: "79488271"
 
 ## <a name="get-an-authentication-access-token"></a>認証アクセス トークンを取得する
 
-開始する前に、「[Power BI データセットにデータをプッシュする](../embedded/register-app.md)」シリーズの[前の手順](walkthrough-push-data.md)を完了していることを確認してください。 
+開始する前に、「[Power BI データセットにデータをプッシュする](walkthrough-push-data.md)」シリーズの[前の手順](../embedded/register-app.md)を完了していることを確認してください。 
 
 この手順では、Visual Studio 2015 以降が必要です。
 
@@ -39,7 +39,7 @@ ms.locfileid: "79488271"
 
 3. 次の手順の後に一覧表示されているサンプル コードを Program.cs に追加します。
 
-4. "{ClientID}" を、**前のシリーズの記事**で、アプリを登録したときに取得した[クライアント ID](../embedded/register-app.md) で置き換えます。
+4. "{ClientID}" を、[前のシリーズの記事](../embedded/register-app.md)で、アプリを登録したときに取得した**クライアント ID** で置き換えます。
 
 5. コンソール アプリを実行し、Power BI アカウントにサインインします。 
 

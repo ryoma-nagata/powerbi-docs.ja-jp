@@ -29,7 +29,7 @@ Power BI レポートのブックマークを使用すると、レポート ペ�
 
 1. 必要なユーティリティである [powerbi-visuals-utils-interactivityutils](https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) バージョン 3.0.0 以降をインストール (または更新) します。 これには、状態の選択またはフィルターで操作するための追加のクラスが含まれています。 これは、フィルター ビジュアルと `InteractivityService` を使用する任意のビジュアルに必要です。
 
-2. `registerOnSelectCallback` のインスタンス内で `SelectionManager` 使用するように、ビジュアルの API をバージョン 1.11.0 に更新します。 これは、`SelectionManager` ではなく、プレーンの `InteractivityService` を使用する非フィルター ビジュアルに必要です。
+2. `SelectionManager` のインスタンス内で `registerOnSelectCallback` 使用するように、ビジュアルの API をバージョン 1.11.0 に更新します。 これは、`InteractivityService` ではなく、プレーンの `SelectionManager` を使用する非フィルター ビジュアルに必要です。
 
 ### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>レポート ブックマークで Power BI ビジュアルと Power BI がやりとりする方法
 
@@ -51,7 +51,7 @@ Power BI レポートのブックマークを使用すると、レポート ペ�
 
 * [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) がビジュアルでまだ使用されていない場合は、`FilterManager.restoreSelectionIds` メソッドを使用できます。
 
-* 選択を管理するために [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) がビジュアルで既に使用されている場合は、`applySelectionFromFilter` のインスタンス内で `InteractivityService` メソッドを使用する必要があります。
+* 選択を管理するために [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) がビジュアルで既に使用されている場合は、`InteractivityService` のインスタンス内で `applySelectionFromFilter` メソッドを使用する必要があります。
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>ISelectionManager.registerOnSelectCallback を使用する
 
@@ -187,7 +187,7 @@ if (jsonFilters
 
 `filterState` プロパティでは、プロパティがフィルター処理の一部と見なされます。 ビジュアルでは、さまざまな値をブックマークに格納できます。
 
-プロパティ値をフィルター状態として保存するには、`"filterState": true`capabilities.json*ファイル内でオブジェクト プロパティを* としてマークします。
+プロパティ値をフィルター状態として保存するには、*capabilities.json* ファイル内でオブジェクト プロパティを `"filterState": true` としてマークします。
 
 たとえば、タイムライン スライサーでは、`Granularity` プロパティの値がフィルターに格納されます。 これにより、ブックマークを変更するときに、現在の粒度を変更できます。
 
