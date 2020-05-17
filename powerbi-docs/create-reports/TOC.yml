@@ -339,6 +339,8 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: パラメーターを作成する
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: レポートの表示回数を設定する
+              href: ../paginated-reports/page-view.md
             - name: サブレポート
               href: ../paginated-reports/subreports.md
             - name: サブレポートのトラブルシューティング
