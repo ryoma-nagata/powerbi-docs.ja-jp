@@ -24,9 +24,9 @@
       items:
         - name: Power BI Embedded の分析の容量と SKU
           href: embedded-capacity.md
-        - name: 容量計画
+        - name: キャパシティ プランニング
           href: embedded-capacity-planning.md
-        - name: パフォーマンスのベスト プラクティス
+        - name: のパフォーマンスのベスト プラクティス
           href: embedded-performance-best-practices.md
         - name: サービス プリンシパル
           href: embed-service-principal.md
@@ -42,7 +42,7 @@
           href: embedded-faq.md
         - name: Power BI のアクセス許可
           href: power-bi-permissions.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: アプリからの埋め込み
           href: embed-from-apps.md
@@ -62,19 +62,19 @@
           href: embed-dynamic-binding.md
         - name: 埋め込みに関する Q&A
           href: qanda.md
-        - name: 埋め込みアプリケーションをトラブルシューティングする
+        - name: 埋め込みアプリケーションのトラブルシューティング
           href: embedded-troubleshoot.md
-        - name: Azure での容量の管理
+        - name: Azure で容量を管理する
           items:
-            - name: Azure での容量の作成
+            - name: Azure で容量を作成する
               href: azure-pbie-create-capacity.md
             - name: Azure で Multi-Geo を使用して容量を作成する
               href: embedded-multi-geo.md
-            - name: Azure での容量のスケーリング
+            - name: Azure で容量をスケールする
               href: azure-pbie-scale-capacity.md
-            - name: Azure での容量の一時停止と開始
+            - name: Azure で容量を一時停止し、開始する
               href: azure-pbie-pause-start.md
-        - name: ワークスペース コレクションからの移行
+        - name: ワークスペース コレクションから移行する
           items:
             - name: Power BI ワークスペース コレクションから移行する方法
               href: migrate-from-powerbi-embedded.md
@@ -89,7 +89,7 @@
             - name: Azure リソース管理 REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
             - name: Power BI REST API
-              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+              href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: Power BI ライブラリ
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: カスタム レイアウトをアプリに埋め込む
@@ -100,7 +100,7 @@
           href: 'https://powerbi.microsoft.com/en-us/developers/'
         - name: 埋め込みセットアップ ツール
           href: 'https://aka.ms/embedsetup'
-        - name: JavaScript プレイグラウンド サンプル
+        - name: JavaScript のプレイグラウンド サンプル
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Power BI JavaScript Wiki
           href: 'https://github.com/Microsoft/powerbi-javascript/wiki'

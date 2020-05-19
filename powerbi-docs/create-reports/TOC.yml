@@ -12,7 +12,7 @@
       expanded: true
       items:
         - name: 'オンライン コース: ページ分割されたレポート'
-          href: ../paginated-reports/paginated-reports-online-course.md
+          href: ../learning-catalog/paginated-reports-online-course.md
         - name: ページ分割されたレポートの作成とアップロード
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: サンプル
