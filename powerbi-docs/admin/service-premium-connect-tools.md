@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7bb3dc401fedbb55f5ed81fa5e859cbfee5a1a26
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274445"
+ms.locfileid: "83382740"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>XMLA エンドポイントを使用したデータセット接続 (プレビュー)
 
@@ -29,6 +29,9 @@ ms.locfileid: "83274445"
 Power BI Premium では、クライアント アプリケーションと、ワークスペースおよびデータセットを管理するエンジンとの間の通信に、[XML for Analysis](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) (XMLA) プロトコルが使用されます。 これらの接続は、一般的に XMLA エンドポイントとして参照されるものを介しています。 XMLA は、内部にある Microsoft Analysis Services エンジンによって使用されるのと同じ通信プロトコルであり、Power BI のセマンティック モデル、ガバナンス、ライフサイクル、データ管理を実行します。
 
 既定では、エンドポイントを使用した "*読み取り専用*" の接続が、容量のうち**データセット ワークロード**に対して有効になります。 読み取り専用のデータ可視化アプリケーションとツールでは、データセット モデルのデータ、メタデータ、イベント、スキーマに対してクエリを実行できます。 エンドポイントを使用した "*読み取り/書き込み*" 操作を有効にすると、追加のデータセット管理、ガバナンス、高度なセマンティック モデリング、デバッグ、監視を実現できます。 読み取り/書き込みを有効にすると、Power BI Premium データセットでは、Azure Analysis Services と SQL Server Analysis Services のエンタープライズ レベルの表形式モデリング ツールおよびプロセスとのパリティが向上します。
+
+> [!NOTE]
+> 特に XMLA エンドポイントを使用してデータセットに接続する場合は、最新のワークスペース エクスペリエンスを使用することをお勧めします。 データセットの作成や削除などの操作は、クラシック ワークスペースではサポートされていません。 クラシック ワークスペースを最新のエクスペリエンスにアップグレードする方法については、[Power BI でのクラシック ワークスペースのアップグレード](../collaborate-share/service-upgrade-workspaces.md)に関するページをご覧ください。
 
 ## <a name="data-modeling-and-management-tools"></a>データ モデリングと管理のツール
 

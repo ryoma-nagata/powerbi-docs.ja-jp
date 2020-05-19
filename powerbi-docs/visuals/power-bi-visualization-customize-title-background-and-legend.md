@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5a55fca07e4a0e5f9c027bcd17c3fba66a09958e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78893423"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277136"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>視覚エフェクトのタイトル、背景、および凡例をカスタマイズする
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 
 このチュートリアルでは、視覚化をカスタマイズする、さまざまな方法について説明します。 視覚化をカスタマイズするオプションは多数あります。 そのすべてを学習するには、 **[形式]** ウィンドウ (ペイント ローラー アイコンを選択) を調べることをお勧めします。 その手始めとして、この記事では視覚化のタイトル、凡例、背景をカスタマイズする方法とテーマを追加する方法を説明します。
 
@@ -30,12 +33,15 @@ ms.locfileid: "78893423"
 
 - 小売りの分析のサンプル レポート
 
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。 [レポートの共有](../collaborate-share/service-share-reports.md)に関するページをご覧ください。
+
 ## <a name="customize-visualization-titles-in-reports"></a>レポートの視覚エフェクトのタイトルをカスタマイズする
 
-まず、Power BI Desktop にサインインし、[小売りの分析のサンプル](../sample-datasets.md) レポートを開きます。
+まず、Power BI Desktop にサインインし、[小売りの分析のサンプル](../create-reports/sample-datasets.md) レポートを開きます。
 
 > [!NOTE]
-> 視覚エフェクトをダッシュボードにピン留めすると、その視覚エフェクトはダッシュボード タイルになります。 タイル自体も、[新しいタイトルとサブタイトル、ハイパーリンク、およびサイズの変更](../service-dashboard-edit-tile.md)でカスタマイズできます。
+> 視覚エフェクトをダッシュボードにピン留めすると、その視覚エフェクトはダッシュボード タイルになります。 タイル自体も、[新しいタイトルとサブタイトル、ハイパーリンク、およびサイズの変更](../create-reports/service-dashboard-edit-tile.md)でカスタマイズできます。
 
 1. **小売りの分析のサンプル** レポートの **[新しいストア]** ページに移動します。
 
@@ -49,7 +55,7 @@ ms.locfileid: "78893423"
 
 1. **[タイトル]** スライダーを **[オン]** にします。
 
-1. タイトルを変更するには、 *[タイトル テキスト]* フィールドに「**月別の開店した店舗数**」と入力します。
+1. タイトルを変更するには、 **[タイトル テキスト]** フィールドに「*月別の開店した店舗数*」と入力します。
 
     ![タイトル テキストが入力された [形式] ウィンドウのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
@@ -72,7 +78,7 @@ ms.locfileid: "78893423"
 
     ![新しく構成された集合縦棒グラフのスクリーンショット。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-table.png)
 
-行った変更を保存して、次のセクションに移動します。
+変更を保存して、次のセクションに移動します。
 
 すべての変更を既定値に戻す必要がある場合は、 **[タイトル]** カスタマイズ ウィンドウの下部にある **[既定値に戻す]** を選択します。
 
@@ -133,9 +139,9 @@ ms.locfileid: "78893423"
 
 視覚化と、各視覚化で使用できるカスタマイズ オプションの一覧を次に示します。
 
-| 視覚エフェクト | Title | バックグラウンド | 凡例 |
+| 視覚化 | タイトル | 背景 | 凡例 |
 |:--- |:--- |:--- |:--- |
-| 面 | はい | はい |はい |
+| 領域 | はい | はい |はい |
 | 横棒 | はい | はい |はい |
 | カード | はい | はい |該当なし |
 | 複数行カード | はい | はい | 該当なし |
@@ -147,23 +153,25 @@ ms.locfileid: "78893423"
 | ゲージ | はい | はい | 該当なし |
 | Key Influencer\(主要なインフルエンサー\) | はい | はい | 該当なし |
 | KPI | はい | はい | 該当なし |
-| 線 | はい | はい | はい |
+| 折れ線 | はい | はい | はい |
 | マップ | はい | はい | はい |
-| マトリックス | はい | はい | 該当なし |
+| Matrix | はい | はい | 該当なし |
 | 円 | はい | はい | はい |
-| 質疑応答 | はい | はい | 該当なし |
+| Q&A | はい | はい | 該当なし |
 | 散布 | はい | はい | はい |
 | 図形 | はい | はい | はい |
 | スライサー | はい | はい | 該当なし |
-| Table | はい | はい | 該当なし |
-| テキスト ボックス | いいえ | はい | 該当なし |
-| Treemap | はい | はい | はい |
+| テーブル | はい | はい | 該当なし |
+| テキストボックス | いいえ | はい | 該当なし |
+| ツリーマップ | はい | はい | はい |
 | ウォーターフォール | はい | はい | はい |
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 - [X 軸と Y 軸のプロパティのカスタマイズ](power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 - [色の書式設定と軸のプロパティの概要](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+
+

@@ -1,20 +1,23 @@
 ---
 title: Power BI Q&A ビジュアルを使用する
 description: Power BI Q&A ビジュアルを設定する方法
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762280"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148341"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI Q&A のビジュアル化の概要
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -39,16 +42,18 @@ Q&A ビジュアルは、4 つのコア コンポーネントで構成されて�
 
 1. このチュートリアルでは、[売上およびマーケティングのサンプル PBIX ファイル](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)を使います。 
 
-1. Power BI Desktop メニュー バーの左上のセクションで、 **[ファイル]**  >  **[開く]** を選択します
+1. Power BI Desktop メニュー バーの左上のセクションで、 **[ファイル]**  >  **[開く]** の順に選択します
    
 2. **売上およびマーケティングのサンプル PBIX ファイル**のコピーを見つけます
 
-1. レポート ビューでファイルを開きます ![レポート ビューのアイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. レポート ビューでファイルを開きます ![レポート ビューのアイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
+Q&A ビジュアルの作成時にエラーが表示される場合は、[制限事項](../natural-language/q-and-a-limitations.md)に関するセクションを参照して、データソース構成がサポートされているかどうかを確認してください。    
 
-Q&A ビジュアルの作成時にエラーが表示される場合は、[制限事項](../natural-language/q-and-a-limitations.md)に関するセクションを参照して、データソース構成がサポートされているかどうかを確認してください。
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。 [レポートの共有](../collaborate-share/service-share-reports.md)に関するページをご覧ください。
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>提案された質問を使用して Q&A ビジュアルを作成する
 この演習では、提案された質問の 1 つを選択して、Q&A ビジュアルを作成します。 
@@ -146,7 +151,7 @@ Q&A ビジュアル、質問フィールド、候補の表示方法を書式設�
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 Q&A ビジュアルは Office および Bing と統合され、認識されない一般的な単語とデータセット内のフィールドとの照合を試行します。  
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 自然言語を統合するには、さまざまな方法があります。 詳細については、次の記事を参照してください。
 

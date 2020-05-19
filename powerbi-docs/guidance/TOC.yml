@@ -110,6 +110,8 @@
               href: monitor-report-performance.md
             - name: レポートのパフォーマンスのトラブルシューティング
               href: report-performance-troubleshoot.md
+            - name: デプロイ パイプラインのベスト プラクティス
+              href: ../create-reports/deployment-pipelines-best-practices.md
     - name: ホワイトペーパー
       items:
         - name: ホワイトペーパーの概要

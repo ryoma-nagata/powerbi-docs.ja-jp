@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2018
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8b0012224d145f40cb6b9784da1a40957efce50
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758424"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277780"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Power BI レポートにビジュアルを追加する (パート 2)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -36,7 +38,7 @@ ms.locfileid: "75758424"
 
 1. **小売の分析のサンプル PBIX ファイル**をレポート ビュー ![レポート ビュー アイコンのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-report-view.png) で開きます。
 
-1. Select ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
+1. 選択 ![黄色のタブのスクリーンショット。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) を選択して、新しいページを追加します。
 
 ## <a name="add-visualizations-to-the-report"></a>視覚化をレポートに追加する
 
@@ -59,7 +61,7 @@ ms.locfileid: "75758424"
 5. [視覚化のサイズを変更](power-bi-visualization-move-and-resize.md)するため、視覚化を選び、輪郭の円の 1 つをグラブしてドラッグします。 幅を広げればスクロール バーが不要になり、小さくすれば別の視覚化を追加する領域を確保できます。
    
    ![面グラフのビジュアルのスクリーンショット](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
-6. [レポートを保存](../service-report-save.md)します。
+6. [レポートを保存](../create-reports/service-report-save.md)します。
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>場所別の売上を示すマップ視覚化を追加
 
@@ -69,7 +71,10 @@ ms.locfileid: "75758424"
 2. 凡例を追加します。  店舗名別にデータを表示するには、 **[Store]\(店舗\)**  >  **[Chain]\(チェーン\)** を [凡例] 領域までドラッグします。  
    ![[フィールド] リストの [Chain]\(チェーン\) から [凡例] バケットの [Chain]\(チェーン\) を指す矢印が示されたレポート キャンバス](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
-## <a name="next-steps"></a>次のステップ
-* 「[Power BI レポートでの視覚化](power-bi-report-visualizations.md)」をご覧ください。  
+> [!NOTE]
+> Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。 [レポートの共有](../collaborate-share/service-share-reports.md)に関するページをご覧ください。
+
+## <a name="next-steps"></a>次の手順
+* 「[Power BI での視覚化](power-bi-report-visualizations.md)」をご覧ください。  
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

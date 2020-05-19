@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403770"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276055"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>チュートリアル:顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む (プレビュー)
 
@@ -34,14 +34,14 @@ ms.locfileid: "80403770"
 * [サービス プリンシパル (アプリ専用トークン)](embed-service-principal.md)
 * [Microsoft Azure](https://azure.microsoft.com/) サブスクリプション
 * 独自に設定された [Azure Active Directory テナント](create-an-azure-active-directory-tenant.md)
-* [ページ分割されたレポート](../../service-admin-premium-workloads.md#paginated-reports)のワークロードが有効になっている、少なくとも A4 または P1 の[容量](#create-a-dedicated-capacity)
+* [ページ分割されたレポート](../../admin/service-admin-premium-workloads.md#paginated-reports)のワークロードが有効になっている、少なくとも A4 または P1 の[容量](#create-a-dedicated-capacity)
 
 Azure サブスクリプションをお持ちでない場合は、始める前に[無料アカウントを作成](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)してください。
 
 > [!IMPORTANT]
 > * **サービス プリンシパル**を使用する必要があります。 マスター ユーザーはサポートされていません。
 > * シングル サインオン (SSO) を必要とするデータソースは、サポートされていません。
-> * Power BI データセットは、[データソース](../../service-get-data.md)としてサポートされていません。
+> * Power BI データセットは、[データソース](../../connect-data/service-get-data.md)としてサポートされていません。
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 環境を設定する
 
@@ -49,12 +49,12 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 ### <a name="create-an-app-workspace"></a>アプリ ワークスペースを作成する
 
-[サービス プリンシパル](embed-service-principal.md)を使用してアプリケーションにサインインしている場合は、[新しいワークスペース](../../service-create-the-new-workspaces.md)を使用する必要があります。 "*サービス プリンシパル*" として、アプリケーションに関連するアプリ ワークスペースの管理者またはメンバーである必要もあります。
+[サービス プリンシパル](embed-service-principal.md)を使用してアプリケーションにサインインしている場合は、[新しいワークスペース](../../collaborate-share/service-create-the-new-workspaces.md)を使用する必要があります。 "*サービス プリンシパル*" として、アプリケーションに関連するアプリ ワークスペースの管理者またはメンバーである必要もあります。
 
 ### <a name="create-a-dedicated-capacity"></a>専用の容量を作成する
 
 ページ分割されたレポートを埋め込むためにインポートまたはアップロードする前に、レポートを含むワークスペースを、少なくとも A4 または P1 の容量に割り当てる必要があります。 選択できる容量には、次の 2 種類があります。
-* **Power BI Premium** - ページ分割されたレポートを埋め込むには、*P* SKU の容量が必要です。 Power BI コンテンツを埋め込む場合、このソリューションは "*Power BI 埋め込み*" と呼ばれます。 このサブスクリプションの詳細については、「[Power BI Premium とは](../../service-premium-what-is.md)」を参照してください。
+* **Power BI Premium** - ページ分割されたレポートを埋め込むには、*P* SKU の容量が必要です。 Power BI コンテンツを埋め込む場合、このソリューションは "*Power BI 埋め込み*" と呼ばれます。 このサブスクリプションの詳細については、「[Power BI Premium とは](../../admin/service-premium-what-is.md)」を参照してください。
 * **Azure Power BI Embedded** - [Microsoft Azure portal](https://portal.azure.com) で専用の容量を購入できます。 このサブスクリプションは、*A* SKU を使用します。 ページ分割されたレポートを埋め込むには、少なくとも *A4* サブスクリプションが必要です。 Power BI Embedded 容量の作成方法の詳細については、「[Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md)」 (Azure Portal で Power BI Embedded 容量を作成する) をご覧ください。
 
 次の表は、各 SKU のリソースと制限を示しています。 ニーズに最適な容量を判断するには、[シナリオに応じてどの SKU を購入すればよいか](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose)をまとめた表を参照してください。
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>埋め込みトークンを作成する
 
-JavaScript API から使うことができる埋め込みトークンを生成します。 Power BI のページ分割されたレポートを埋め込むための埋め込みトークンを作成するには、[Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API を使用します。
+JavaScript API から使うことができる埋め込みトークンを生成します。 Power BI のページ分割されたレポートを埋め込むための埋め込みトークンを作成するには、[Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API を使用します。
 
 埋め込みトークンを作成するサンプルは、[サンプル アプリケーション](https://github.com/Microsoft/PowerBI-Developer-Samples)内の *Services\EmbedService.cs* ファイルにあります。
 

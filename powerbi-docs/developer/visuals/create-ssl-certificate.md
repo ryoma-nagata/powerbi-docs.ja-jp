@@ -1,134 +1,204 @@
 ---
-title: SSL 証明書を作成する
-description: 開発者向けサーバー用に手動で証明書を作成する場合の対処方法
+title: Power BI ビジュアル用の SSL 証明書を作成する
+description: Windows、Mac、Linux で Power BI Visual Tools を使用して、または手動で、SSL 証明書を生成する方法について説明します。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
-ms.date: 06/18/2019
-ms.openlocfilehash: fab40863d7beae4892a56975aa5e92c4fe5486ac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/08/2020
+ms.openlocfilehash: 37bd8f15dcf17cd0f967e819338a719edf2a3054
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380274"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276377"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL 証明書を作成する
 
-この記事では、SSL 証明書を作成する方法について説明します。
+この記事では Power BI ビジュアル用の Secure Sockets Layer (SSL) 証明書を生成してインストールする方法について説明します。
 
-Windows 8 以降で PowerShell `New-SelfSignedCertificate` コマンドレットを使用して証明書を作成するには、次のコマンドを実行します。
+Windows、macOS X、Linux の各手順を実行するには、Power BI Visual Tools **pbiviz** パッケージがインストールされている必要があります。 詳細については、[開発者環境の設定](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#setting-up-the-developer-environment)に関するページをご覧ください。 
+
+## <a name="create-a-certificate-on-windows"></a>Windows で証明書を作成する
+
+Windows 8 以降で PowerShell コマンドレット `New-SelfSignedCertificate` を使用して証明書を作成するには、次のコマンドを実行します。
+
+```powershell
+pbiviz --install-cert
+```
+
+Windows 7 の場合、`pbiviz` ツールを使用するには、コマンド ラインから OpenSSL ユーティリティを使用できるようにする必要があります。 OpenSSL をインストールするには、[OpenSSL](https://www.openssl.org) または [OpenSSL バイナリ](https://wiki.openssl.org/index.php/Binaries)にアクセスします。
+
+証明書をインストールする方法の詳細と手順については、[Windows 用の証明書の作成およびインストール](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#windows)に関するページをご覧ください。
+
+## <a name="create-a-certificate-on-macos-x"></a>macOS で証明書を作成する
+
+OpenSSL ユーティリティは通常、macOS X オペレーティング システムで使用できます。
+
+また、次のコマンドのどちらかを実行して、OpenSSL ユーティリティをインストールすることができます。
+
+- *Brew* パッケージ マネージャーからの場合:
+  
+  ```cmd
+  brew install openssl
+  brew link openssl --force
+  ```
+
+- *MacPorts* を使用する場合:
+  
+  ```cmd
+  sudo port install openssl
+  ```
+
+OpenSSL ユーティリティをインストールしたら、次のコマンドを実行して新しい証明書を生成します。
 
 ```cmd
 pbiviz --install-cert
 ```
 
-ツールを使用するには、Windows 7 用の OpenSSL をインストールする必要があります。 OpenSSL ユーティリティはコマンド ラインから使用できる必要があります。
+詳細と手順については、[OS X 用の証明書の作成およびインストール](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#osx)に関するページをご覧ください。
 
-OpenSSL をインストールするには、[OpenSSL](https://www.openssl.org) サイトまたは [OpenSSL バイナリ](https://wiki.openssl.org/index.php/Binaries) サイトにアクセスします。
+## <a name="create-a-certificate-on-linux"></a>Linux で証明書を作成する
 
-## <a name="create-a-certificate-mac-os-x"></a>証明書を作成する (Mac OS X)
+OpenSSL ユーティリティは通常、Linux オペレーティング システムで使用できます。
 
-通常、OpenSSL ユーティリティは、Linux または Mac OS X オペレーティング システムで使用できます。
+開始する前に、次のコマンドを実行して `openssl` および `certutil` がインストールされていることを確認してください。
 
-次のいずれかのコマンドを実行して、ユーティリティをインストールすることもできます。
-
-* *Brew* パッケージ マネージャーからの場合: 
-
-    ```cmd
-    brew install openssl
-    brew link openssl --force
-    ```
-
-* *MacPorts* を使用する場合: 
-
-    ```cmd
-    sudo port install openssl
-    ```
-
-新しい証明書を生成するための OpenSSL ユーティリティをインストールしたら、次のコマンドを実行します。
-
-```cmd
-pbiviz --install-cert
+```sh
+which openssl
+which certutil
 ```
 
-## <a name="create-a-certificate-linux"></a>証明書を作成する (Linux)
+`openssl` と `certutil` がインストールされていない場合は、`openssl` および `libnss3` ユーティリティをインストールします。
 
-ご利用の Linux オペレーティング システムで OpenSSL ユーティリティを使用できない場合は、次のコマンドのいずれか 1 つを使用してインストールできます。
+### <a name="create-the-ssl-configuration-file"></a>SSL 構成ファイルを作成する
 
-* *APT* パッケージ マネージャーの場合:
+次のテキストを含む */tmp/openssl.cnf* という名前のファイルを作成します。
 
-    ```cmd
-    sudo apt-get install openssl
-    ```
+```
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
 
-* *Yellowdog アップデーター* の場合:
-
-    ```cmd
-    yum install openssl
-    ```
-
-* *Redhat パッケージ マネージャー* の場合:
-
-    ```cmd
-    rpm install openssl
-    ```
-
-ご利用のオペレーティング システムで OpenSSL ユーティリティが既に使用できるようになっている場合は、次のコマンドを実行して新しい証明書を作成します。
-
-```cmd
-pbiviz --install-cert
+[ alt_names ]
+DNS.1=localhost
 ```
 
-あるいは、[OpenSSL](https://www.openssl.org) サイトまたは [OpenSSL バイナリ](https://wiki.openssl.org/index.php/Binaries) サイトにアクセスすることで、OpenSSL ユーティリティを取得することもできます。
+### <a name="generate-root-certificate-authority"></a>ルート証明機関を生成する
 
-## <a name="generate-the-certificate-manually"></a>証明書を手動で作成する
+ローカル証明書に署名するためのルート証明機関 (CA) を生成するには、次のコマンドを実行します。
 
-任意のツールで証明書が生成されるように指定することができます。
-
-ご利用のシステムに OpenSSL ユーティリティが既にインストールされている場合は、次のコマンドを実行して新しい証明書を作成します。
-
-```cmd
-openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -out PowerBICustomVisualTest_public.crt -days 365
+```sh
+touch $HOME/.rnd
+openssl req -x509 -nodes -new -sha256 -days 1024 -newkey rsa:2048 -keyout /tmp/local-root-ca.key -out /tmp/local-root-ca.pem -subj "/C=US/CN=Local Root CA/O=Local Root CA"
+openssl x509 -outform pem -in /tmp/local-root-ca.pem -out /tmp/local-root-ca.crt
 ```
 
-通常は、次のいずれか 1 つを実行することで、PowerBI-visuals-tools Web サーバー証明書を見つけることができます。
+### <a name="generate-a-certificate-for-localhost"></a>localhost の証明書を生成する 
 
-* ツールのグローバル インスタンスの場合: 
+生成された CA および *openssl.cnf* を使用して `localhost` の証明書を生成するには、次のコマンドを実行します。
 
-    ```cmd
-    %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
-    ```
+```sh
+PBIVIZ=`which pbiviz`
+PBIVIZ=`dirname $PBIVIZ`
+PBIVIZ="$PBIVIZ/../lib/node_modules/powerbi-visuals-tools/certs"
+# Make sure that $PBIVIZ contains the correct certificate directory path. ls $PBIVIZ should list 'blank' file.
+openssl req -new -nodes -newkey rsa:2048 -keyout $PBIVIZ/PowerBIVisualTest_private.key -out $PBIVIZ/PowerBIVisualTest.csr -subj "/C=US/O=PowerBI Visuals/CN=localhost"
+openssl x509 -req -sha256 -days 1024 -in $PBIVIZ/PowerBIVisualTest.csr -CA /tmp/local-root-ca.pem -CAkey /tmp/local-root-ca.key -CAcreateserial -extfile /tmp/openssl.cnf -out $PBIVIZ/PowerBIVisualTest_public.crt
+```
 
-* ツールのローカル インスタンスの場合: 
+### <a name="add-root-certificates"></a>ルート証明書を追加する
 
-    ```cmd
-    <custom visual project root>\node_modules\PowerBI-visuals-tools\certs
-    ```
+Chrome ブラウザーのデータベースにルート証明書を追加するには、次のコマンドを実行します。
 
-PEM 形式を使用する場合は、証明書ファイルを *PowerBICustomVisualTest_public.crt* として保存し、privateKey を *PowerBICustomVisualTest_public.key* として保存します。
+```sh
+certutil -A -n "Local Root CA" -t "CT,C,C" -i /tmp/local-root-ca.pem -d sql:$HOME/.pki/nssdb
+```
 
-PFX 形式を使用する場合は、証明書ファイルを *PowerBICustomVisualTest_public.pfx* として保存します。
+Mozilla Firefox ブラウザーのデータベースにルート証明書を追加するには、次のコマンドを実行します。
 
-PFX 証明書ファイルにパスフレーズが必要な場合は、次の手順を行います。
+```sh
+for certDB in $(find $HOME/.mozilla* -name "cert*.db")
+do
+certDir=$(dirname ${certDB});
+certutil -A -n "Local Root CA" -t "CT,C,C" -i /tmp/local-root-ca.pem -d sql:${certDir}
+done
+```
+
+システム全体のルート証明書を追加するには、次のコマンドを実行します。
+
+```sh
+sudo cp /tmp/local-root-ca.pem /usr/local/share/ca-certificates/
+sudo update-ca-certificates
+```
+
+### <a name="remove-root-certificates"></a>ルート証明書を削除する
+
+ルート証明書を削除するには、次のコマンドを実行します。
+
+```sh
+sudo rm /usr/local/share/ca-certificates/local-root-ca.pem
+sudo update-ca-certificates --fresh
+```
+
+## <a name="generate-a-certificate-manually"></a>証明書を手動で生成する
+
+OpenSSL を使用して、手動で SSL 証明書を生成することもできます。 証明書を生成する任意のツールを指定できます。
+
+OpenSSL ユーティリティが既にインストールされている場合は、次のコマンドを実行して新しい証明書を作成します。
+
+```cmd
+openssl req -x509 -newkey rsa:4096 -keyout PowerBIVisualTest_private.key -out PowerBIVisualTest_public.crt -days 365
+```
+
+通常は、次のコマンドのどちらかを実行することで、`PowerBI-visuals-tools` Web サーバー証明書を見つけることができます。
+
+- ツールのグローバル インスタンスの場合:
+  
+  ```cmd
+  %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
+  ```
+
+- ツールのローカル インスタンスの場合:
+  
+  ```cmd
+  <Power BI visual project root>\node_modules\PowerBI-visuals-tools\certs
+  ```
+
+### <a name="pem-format"></a>PEM 形式
+
+Privacy Enhanced Mail (PEM) 証明書形式を使用する場合は、証明書ファイルを *PowerBIVisualTest_public.crt* として保存し、秘密キーを *PowerBIVisualTest_private.key* として保存します。
+
+### <a name="pfx-format"></a>PFX 形式
+
+Personal Information Exchange (PFX) 証明書形式を使用する場合は、証明書ファイルを *PowerBIVisualTest_public.pfx* として保存します。
+
+PFX 証明書ファイルにパスフレーズが必要な場合は、次のようにします。
+
 1. 構成ファイルで、次のように指定します。
-
-    ```cmd
-    \PowerBI-visuals-tools\config.json
-    ```
-
-1. `server` セクションで、"*YOUR PASSPHRASE*" プレースホルダーを置き換えることで、パスフレーズを指定します。
+   
+   ```cmd
+   \PowerBI-visuals-tools\config.json
+   ```
+   
+1. `server` セクションで、\<YOUR PASSPHRASE> プレースホルダーを置き換えることで、パスフレーズを指定します。
 
     ```cmd
     "server":{
         "root":"webRoot",
         "assetsRoute":"/assets",
-        "privateKey":"certs/PowerBICustomVisualTest_private.key",
-        "certificate":"certs/PowerBICustomVisualTest_public.crt",
-        "pfx":"certs/PowerBICustomVisualTest_public.pfx",
+        "privateKey":"certs/PowerBIVisualTest_private.key",
+        "certificate":"certs/PowerBIVisualTest_public.crt",
+        "pfx":"certs/PowerBIVisualTest_public.pfx",
         "port":"8080",
-        "passphrase":"YOUR PASSPHRASE"
+        "passphrase":"<YOUR PASSPHRASE>"
     }
     ```
+
+## <a name="next-steps"></a>次の手順
+- [Power BI のビジュアルを開発する](custom-visual-develop-tutorial.md)
+- [Power BI ビジュアルのサンプル](samples.md)
+- [Power BI ビジュアルを AppSource に発行する](office-store.md)

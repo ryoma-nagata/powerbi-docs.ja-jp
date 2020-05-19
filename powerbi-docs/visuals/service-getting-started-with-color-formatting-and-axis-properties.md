@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895233"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276584"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>書式設定ウィンドウの概要
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 レポートに対する編集権限を持っている場合は、さまざまな書式設定オプションを使用できます。 Power BI レポートでは、データ系列、データ ポイント、そして視覚化の背景の色も変更できます。 X 軸と Y 軸の表示方法を変更できます。 視覚化、図形、およびタイトルのフォント プロパティの書式を設定することもできます。 Power BI では、レポートの表示方法を完全に制御できます。
 
 開始するには、Power BI Desktop または Power BI サービスでレポートを開きます。 どちらも、ほぼ同じ書式設定オプションが提供されています。 Power BI サービスでレポートを開くときは、必ずメニュー バーから **[編集]** を選択してください。 
@@ -154,8 +157,10 @@ X 軸ラベルを完全に削除するには、 **[X 軸]** または **[Y 軸]*
 これらは、使用できる書式設定タスクのほんの一部です。 編集モードでレポートを開き、[書式設定] ペインを操作して、見栄えのよい視覚化を作成してみてください。
 
 ## <a name="next-steps"></a>次の手順
-詳しくは、次の資料を参照してください。  
+詳しくは、次の資料を参照してください。 
+
+* [レポートの共有](../collaborate-share/service-share-reports.md)
 
 * [Power BI における色の書式設定に関するヒントとコツ](service-tips-and-tricks-for-color-formatting.md)  
-* [テーブルでの条件付き書式設定](../desktop-conditional-table-formatting.md)
+* [テーブルでの条件付き書式設定](../create-reports/desktop-conditional-table-formatting.md)
 

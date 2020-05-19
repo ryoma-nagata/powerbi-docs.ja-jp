@@ -7,17 +7,19 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/3/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6504e49c67d3c2344033f0cad53394ec5ae87e21
+ms.sourcegitcommit: 52177142c3e1f49147dff08fe48600a85a814a2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758108"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82944822"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X 軸と Y 軸のプロパティをカスタマイズする
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -216,13 +218,12 @@ Y 軸のタイトルが **[オン]** になっている場合、Y 軸のタイ�
 
 1. タイトルの書式を設定します。 この例では、タイトルの 1 つを短くし、両方のフォント サイズを縮小しています。 
     - フォント サイズ: **9**
-    - 最初の Y 軸 (縦棒グラフ) の **[軸のタイトル]** を次のように短縮しましました: Sales last year & this year
+    - 最初の Y 軸 (縦棒グラフ) の **[軸のタイトル]** を次のように短縮しましました: Sales last year & this year。 
+    
+     ![タイトル全体が表示されている複合グラフのスクリーンショット。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-    ![タイトル全体が表示されている複合グラフのスクリーンショット。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
-
-
-
-詳細については、「[Power BI における色の書式設定に関するヒントとコツ](service-tips-and-tricks-for-color-formatting.md)」および「[視覚化のタイトル、凡例、および背景をカスタマイズする](power-bi-visualization-customize-title-background-and-legend.md)」を参照してください。 また、タイトルの書式設定に関する新しい更新プログラムが近日中に公開される予定です。 
+    詳細については、「[Power BI における色の書式設定に関するヒントとコツ](service-tips-and-tricks-for-color-formatting.md)」および「[視覚エフェクトのタイトル、背景、および凡例をカスタマイズする](power-bi-visualization-customize-title-background-and-legend.md)」を参照してください。 
+    
 
 ## <a name="next-steps"></a>次の手順
 

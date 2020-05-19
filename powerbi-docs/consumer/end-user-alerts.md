@@ -7,23 +7,26 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4cad37b9d4a7bf9e74a29312786a02b26fce5463
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496533"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83382763"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>チュートリアル:Power BI ダッシュボードでアラートを設定する
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-ダッシュボード内のデータが設定した制限を上回って、または下回って変更された場合に通知されるように、アラートを設定します。 アラートは、ゲージ、KPI、カードに対して動作します。 この機能は進化し続けているため、[次の「ヒントとトラブルシューティング」セクション](#tips-and-troubleshooting)を参照してください。
+ダッシュボード内のデータが設定した制限を上回って、または下回って変更された場合に通知されるように、アラートを設定します。 アラートは、レポートのビジュアルからピン留めされたタイルでのみ、ゲージ、KPI、カードに対してだけ設定できます。 
+
+"*コンシューマー*" は**マイ ワークスペース**で作成したダッシュボード上のタイルにアラートを追加できます。 また、"*コンシューマー*" は、[Premium 容量](end-user-license.md)で共有されているダッシュボード上のタイルにアラートを追加することもできます。 Power BI Pro ライセンスをお持ちの場合は、他のワークスペースのタイルにもアラートを設定することができます。
+この機能は進化し続けているため、[次の「ヒントとトラブルシューティング」セクション](#tips-and-troubleshooting)を参照してください。
 
 ![タイル、カード、KPI](media/end-user-alerts/card-gauge-kpi.png)
 
@@ -44,12 +47,12 @@ ms.locfileid: "77496533"
 
 Power BI にサインアップしていない場合は、[無料の試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
 
-この例では、営業とマーケティングのサンプル アプリのダッシュボード カード タイルを使用しています。 このアプリは、[Microsoft AppSource](https://appsource.microsoft.com) から入手できます。 アプリの入手方法については、[Power BI でのアプリのインストールと使用](end-user-app-view.md)に関する説明を参照してください。
+この例では、営業とマーケティングのサンプル アプリのダッシュボード カード タイルを使用しています。 このアプリは、[Microsoft AppSource](https://appsource.microsoft.com) から入手できます。 アプリの入手方法については、[Sales & Marketing アプリのインストールと使用](end-user-app-marketing.md)に関するページをご覧ください。
 
 1. ダッシュボードのゲージ、KPI、またはカード タイルで、省略記号を選びます。
    
    ![カード タイル](media/end-user-alerts/power-bi-cards.png)
-2. ベルのアイコン ![アラート アイコン](media/end-user-alerts/power-bi-bell-icon.png)、または **[アラートの管理]** を選択して、 **[総店舗数]** に 1 つまたは複数のアラートを追加します。
+2. ベルのアイコン ![アラート アイコン](media/end-user-alerts/power-bi-bell-icon.png)、または **[アラートの管理]** を選択して、 **[ユニット数マーケット シェア %]** に 1 つまたは複数のアラートを追加します。
 
    ![省略記号が選択されているカード タイル](media/end-user-alerts/power-bi-ellipses.png)
 
@@ -111,10 +114,10 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 
 ## <a name="tips-and-troubleshooting"></a>ヒントとトラブルシューティング 
 
-* アラートは、ゲージ、KPI、カードに対してのみ設定できます。
-* ゲージ、KPI、またはカードに対してアラートを設定できない場合、システム管理者に問い合わせてください。 ダッシュボードまたは特定の種類のダッシュボード タイルでは、アラートがオフになっているか、使用できないことがあります。
+* ゲージ、KPI、またはカードに対してアラートを設定できない場合、テナント管理者に問い合わせてください。 ダッシュボードまたは特定の種類のダッシュボード タイルでは、アラートがオフになっているか、使用できないことがあります。
 * アラートは更新されたデータでのみ動作します。 静的データでは動作しません。 Microsoft が提供する多くのサンプルは、静的なものです。 
-* "*コンシューマー*" は自分のダッシュボードを作成しません。"*デザイナー*" がダッシュボードを作成し、コンシューマーに分け与えます。 共有コンテンツを受け取ったり、表示したりするには、Power BI Pro または Premium ライセンスが必要です。 詳細については、[お使いのライセンスの種類](end-user-license.md)に関するページを参照してください。 
+* 共有コンテンツを受け取ったり、表示したりするには、Power BI Pro または Premium ライセンスが必要です。 詳細については、[お使いのライセンスの種類](end-user-license.md)に関するページを参照してください。
+* アラートは、レポートからダッシュボードにピン留めされたストリーミング データセットから作成されたビジュアルに対して設定できます。 **[タイルの追加]**  >  **[カスタム ストリーミング データ]** を使用して、ダッシュボード上に直接作成されたストリーミング タイルにアラートを設定することはできません。
 
 
 ## <a name="clean-up-resources"></a>リソースをクリーンアップする

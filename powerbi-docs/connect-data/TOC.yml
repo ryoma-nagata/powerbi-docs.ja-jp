@@ -208,6 +208,8 @@
               href: refresh-data.md
             - name: スケジュールされた更新の構成
               href: refresh-scheduled-refresh.md
+            - name: センターの更新
+              href: refresh-center.md
             - name: 増分更新を構成する
               href: ../admin/service-premium-incremental-refresh.md
             - name: ローカル Power BI Desktop ファイルからのデータセットを更新する
@@ -266,6 +268,8 @@
               href: service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
               href: service-connect-to-office365mon.md
+            - name: Power BI Premium 容量のメトリック
+              href: service-connect-to-pbi-premium-capacity-metrics.md
             - name: Project Online
               href: service-connect-to-project-online.md
             - name: QuickBooks Online

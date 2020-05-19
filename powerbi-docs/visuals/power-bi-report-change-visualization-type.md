@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 12/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33511dd5a61882de77d6089a5f77e70361f3cbed
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871040"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277596"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Power BI レポートでの視覚化の種類の変更
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,14 +30,16 @@ Power BI サービスおよび Power BI Desktop では、さまざまな種類�
 2. 視覚化を選んでアクティブにします。 アクティブな視覚エフェクトには、ハンドルと罫線があります。    
 3. [視覚化] ウィンドウで、新しい視覚化の種類を選びます。 
    
-   ![縦棒グラフから折れ線グラフへの変更を示すビデオ](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif)。
-4. (オプション) ダッシュボードにタイルとして[視覚エフェクトをピン留め](../service-dashboard-pin-tile-from-report.md)します。 
+   ![縦棒グラフから折れ線グラフへの変更を示すビデオ](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif).
+4. (オプション) ダッシュボードにタイルとして[視覚エフェクトをピン留め](../create-reports/service-dashboard-pin-tile-from-report.md)します。 
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 ダッシュボードにピン留めした後で、レポート内で視覚エフェクトの種類を変更した場合、ダッシュボードのタイルは自動的に更新されません。 そのため、Power BI サービスを使用し、折れ線グラフとして視覚化をピン留めした場合、これをレポート内で横棒グラフに変更しても、既にピン留めされているバージョンの同じデータは折れ線グラフのままです。 横棒グラフをピン留めすると、ダッシュボードでも表示されます。
 
-## <a name="next-steps"></a>次のステップ
-次を参照してください。「[Power BI レポートでの視覚化](power-bi-report-visualizations.md)」
+Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。 [レポートの共有](../collaborate-share/service-share-reports.md)に関するページをご覧ください。
+
+## <a name="next-steps"></a>次の手順
+[Power BI レポートでの視覚化](power-bi-report-visualizations.md)についての詳細を参照する
 
 [Power BI - 基本的な概念](../consumer/end-user-basic-concepts.md)
 
