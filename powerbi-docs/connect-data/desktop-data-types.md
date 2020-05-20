@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 27509d42b09b9524b204da5ab0ce76f3d180a057
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293170"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561572"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop でのデータ型
 この記事では、Power BI Desktop と Data Analysis Expressions (DAX) でサポートされるデータ型について説明します。 
@@ -72,7 +72,7 @@ Power BI Desktop では、クエリ ビューで 5 つの日付/時刻型がサ�
 **True/False** – True または False のどちらかの値を示すブール値。
 
 ### <a name="blanksnulls-type"></a>空白または null 値型
-**Blank** - SQL の null を表し、null と置き換わる DAX データ型です。 [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 関数を使用すると、空白を作成できます。空白かどうかをテストするには、[ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 論理関数を使用します。
+**Blank** - SQL の null を表し、null と置き換わる DAX データ型です。 [BLANK](/dax/blank-function-dax) 関数を使用すると、空白を作成できます。空白かどうかをテストするには、[ISBLANK](/dax/isblank-function-dax) 論理関数を使用します。
 
 ### <a name="binary-data-type"></a>バイナリ データ型
 
@@ -86,7 +86,7 @@ Power BI Desktop では、クエリ ビューで 5 つの日付/時刻型がサ�
 > 
 
 ### <a name="table-data-type"></a>テーブル データ型
-DAX では、集計やタイム インテリジェンス計算など、多くの関数でテーブル データ型を使用します。 一部の関数は、テーブルへの参照を必要とします。また、関数からテーブルが返され、そのテーブルを他の関数への入力として使用できる場合もあります。 入力としてテーブルを必要とするいくつかの関数では、テーブルに評価される式を指定できます。また、ベース テーブルへの参照を必要とする関数もあります。 特定の関数の要件については、「[DAX 関数リファレンス](https://msdn.microsoft.com/library/ee634396.aspx)」をご覧ください。
+DAX では、集計やタイム インテリジェンス計算など、多くの関数でテーブル データ型を使用します。 一部の関数は、テーブルへの参照を必要とします。また、関数からテーブルが返され、そのテーブルを他の関数への入力として使用できる場合もあります。 入力としてテーブルを必要とするいくつかの関数では、テーブルに評価される式を指定できます。また、ベース テーブルへの参照を必要とする関数もあります。 特定の関数の要件については、「[DAX 関数リファレンス](/dax/dax-function-reference)」をご覧ください。
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>DAX 数式で暗黙的および明示的なデータ型の変換
 各 DAX 関数には、入力と出力として使用するデータの型について特定の要件があります。 たとえば、引数としていつかの整数といくつかの日付を必要とする関数があります。テキストやテーブルを必要とする関数もあります。
@@ -197,4 +197,3 @@ DAX では、null、空白値、空のセル、または欠落値はすべて、
 | TRUE AND BLANK |FALSE |TRUE |
 | BLANK OR BLANK |BLANK |Error |
 | BLANK AND BLANK |BLANK |Error |
-

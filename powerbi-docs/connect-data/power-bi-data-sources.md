@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: a29dcd8c89d064678e558d5ebfee7ccb3cc8a8e0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa12ec3d55e491535d12107fc70709f9d41c3f0
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330108"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438087"
 ---
 # <a name="power-bi-data-sources"></a>Power BI データ ソース
 
@@ -66,7 +66,7 @@ ms.locfileid: "83330108"
 | フォルダー | はい | はい | いいえ | はい | はい |
 | GitHub | はい | はい | いいえ | いいえ | いいえ |
 | Google アナリティクス | はい | はい | いいえ | いいえ | いいえ |
-| Google BigQuery | はい | はい | いいえ | いいえ | いいえ |
+| Google BigQuery | はい | はい | はい | いいえ | いいえ |
 | Hadoop ファイル (HDFS) | はい | いいえ | いいえ | いいえ | いいえ |
 | HDInsight 対話型クエリ | はい | はい | はい | いいえ | いいえ |
 | IBM DB2 | はい | はい | はい | はい | いいえ |

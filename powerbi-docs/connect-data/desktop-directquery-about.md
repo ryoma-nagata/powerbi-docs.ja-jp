@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cf937ea36727ec036e3799cb0ac48dfbb5740325
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292917"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563289"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI での DirectQuery の使用について
 
@@ -371,7 +371,7 @@ DirectQuery によって開かれるコンカレント接続の既定最大数�
 
 このフォルダー内には、 *\\Data* フォルダーがあります。 これには、現在の Power BI セッション用のトレース ファイル *FlightRecorderCurrent.trc* が含まれます。 関連する Power BI Desktop セッションが終了すると、対応するワークスペース フォルダーは削除されます。
 
-トレース ファイルを読み取るには、*SQL Server Profiler* ツールを使用します。 無料ダウンロード [SQL Server Management Studio](https://msdn.microsoft.com/library/mt238290.aspx) の一部として入手できます。
+トレース ファイルを読み取るには、*SQL Server Profiler* ツールを使用します。 無料ダウンロード [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) の一部として入手できます。
 
 SQL Server Management Studio をダウンロードしてインストールした後、SQL Server Profiler を実行します。
 

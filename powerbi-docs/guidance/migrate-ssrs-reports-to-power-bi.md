@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 06bff0a199db9955f11487a05ba78268bb8a942d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348185"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561595"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services レポートを Power BI に移行する
 
@@ -194,7 +194,7 @@ API の詳細については、以下を参照してください。
 - [ページ分割されたレポートでのデータ取得のガイダンス](report-paginated-data-retrieval.md)
 - [どのようなときに Power BI のページ分割されたレポートを使用するか](report-paginated-or-power-bi.md)
 - [Power BI のページ分割されたレポート: FAQ](../paginated-reports/paginated-reports-faq.md)
-- [オンライン コース: ページ分割されたレポート (1 日)](../paginated-reports/paginated-reports-online-course.md)
+- [オンライン コース: ページ分割されたレポート (1 日)](../learning-catalog/paginated-reports-online-course.md)
 - [Power BI Premium のよく寄せられる質問](../admin/service-premium-faq.md)
 - [RDL 移行ツール](https://github.com/microsoft/RdlMigration)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
