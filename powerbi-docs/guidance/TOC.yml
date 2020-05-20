@@ -118,7 +118,9 @@
           href: whitepapers.md
         - name: Power BI のセキュリティに関するホワイトペーパー
           href: whitepaper-powerbi-security.md
-        - name: Power BI Premium のデプロイ
+        - name: Power BI のエンタープライズ展開に関するホワイトペーパー
+          href: whitepaper-powerbi-enterprise-deployment.md
+        - name: Power BI Premium の展開
           href: whitepaper-powerbi-premium-deployment.md
         - name: Azure Active Directory B2B を使用して外部に Power BI を配布する
           href: whitepaper-azure-b2b-power-bi.md

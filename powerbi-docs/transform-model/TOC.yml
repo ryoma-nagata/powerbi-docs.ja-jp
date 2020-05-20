@@ -83,6 +83,8 @@
               href: service-dataflows-create-use.md
             - name: データフローの昇格または認定
               href: service-dataflows-promote-certify.md
+            - name: Power BI で DirectQuery とデータフローを使用する (プレビュー)
+              href: service-dataflows-directquery.md
             - name: データフローで強化されたコンピューティング エンジンを使用する
               href: service-dataflows-enhanced-compute-engine.md
             - name: Power BI Premium での計算されたエンティティ

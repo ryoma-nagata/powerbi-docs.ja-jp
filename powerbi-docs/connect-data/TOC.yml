@@ -208,8 +208,8 @@
               href: refresh-data.md
             - name: スケジュールされた更新の構成
               href: refresh-scheduled-refresh.md
-            - name: センターの更新
-              href: refresh-center.md
+            - name: 概要の更新
+              href: refresh-summaries.md
             - name: 増分更新を構成する
               href: ../admin/service-premium-incremental-refresh.md
             - name: ローカル Power BI Desktop ファイルからのデータセットを更新する
