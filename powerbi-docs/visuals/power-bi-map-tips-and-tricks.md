@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8a7b5785712aeac318b3d8a2bbd14ab7170a435f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277826"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565904"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI マップの視覚エフェクトに関するヒントとテクニック
 
@@ -55,7 +55,7 @@ Power BI Desktop では、データ フィールドに *データ カテゴリ* 
 **2.複数の場所列を使用します。**     
  マッピングのデータ カテゴリを設定するだけでは、Bing がユーザーの意図を正しく推測するためには不十分な場合もあります。 複数の国や地域に同じ名前の場所が存在するため、指定があいまいになることがあります。 たとえば、 ***サウサンプトン*** は、イングランド、ペンシルバニア、ニューヨークに存在します。
 
-Power BI は Bing の[非構造化 URL テンプレート サービス](https://msdn.microsoft.com/library/ff701714.aspx)を利用し、国の住所値セットに基づいて緯度と経度の座標を取得します。 データに十分な場所データが含まれない場合、列を追加し、適切に分類します。
+Power BI は Bing の[非構造化 URL テンプレート サービス](/bingmaps/rest-services/locations/find-a-location-by-address)を利用し、国の住所値セットに基づいて緯度と経度の座標を取得します。 データに十分な場所データが含まれない場合、列を追加し、適切に分類します。
 
  たとえば、[市区町村] 列しかない場合は、Bing のジオコーディングが困難になる可能性があります。 追加の地理列を追加して、場所が明確になるようにします。  場合によっては、場所列をもう 1 つデータセットに追加するだけで済みます。この例では都道府県です。 また、前述の 1. のように、適切に分類してください。
 
@@ -97,5 +97,3 @@ Power BI では、使っているデータセットに経度と緯度のフィ�
 [Power BI のビジュアル](power-bi-report-visualizations.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
-
-

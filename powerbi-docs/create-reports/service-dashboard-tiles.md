@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348921"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561664"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードのタイルの概要
 
@@ -23,7 +23,7 @@ ms.locfileid: "83348921"
 
 ![Power BI ダッシュボード](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-ダッシュボードおよびダッシュボード タイルは、Power BI Desktop ではなく、Power BI サービスの機能です。 モバイル デバイスでダッシュボードを作成することはできませんが、そこで[参照し共有する](../consumer/mobile/mobile-apps-view-dashboard.md)ことはできます。
+ダッシュボードおよびダッシュボード タイルは、Power BI Desktop ではなく、Power BI サービスの機能です。 ダッシュボードはモバイル デバイスで作成できますが、そこで[参照し共有する](../consumer/mobile/mobile-apps-view-dashboard.md)ことができます。
 
 タイルをピン留めするだけでなく、[[タイルの追加]](service-dashboard-add-widget.md) コントロールを使用することでダッシュボードで直接、スタンドアロンのタイルを作成できます。 スタンドアロン タイルには、テキスト ボックス、画像、ビデオ、ストリーミング データ、Web コンテンツが含まれます。
 
@@ -98,6 +98,6 @@ Power BI を構成する要素を理解するうえで助けが必要ですか? 
 - [Power BI でのデータの更新](../connect-data/refresh-data.md)
 - [Power BI サービスのデザイナー向けの基本的な概念](../fundamentals/service-basic-concepts.md)
 - [Power BI タイルを Office ドキュメントに統合する](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/)
-- [Reporting Services のアイテムを Power BI ダッシュボードにピン留めする](https://msdn.microsoft.com/library/mt604784.aspx)
+- [Reporting Services のアイテムを Power BI ダッシュボードにピン留めする](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

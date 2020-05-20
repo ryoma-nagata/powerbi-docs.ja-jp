@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 05/04/2020
-ms.openlocfilehash: a634844093f103c942b70cd81d93822ca240cf0a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 39609d0bf3681de2b01f433143556ac102ee0662
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272030"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565485"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>ページ分割されたレポートを Power BI サービスに発行する
 
@@ -113,6 +113,4 @@ Power BI サービスから開始し、ページ分割されたレポートを�
 
 - [ページ分割されたレポートを Power BI サービスで表示する](../consumer/paginated-reports-view-power-bi-service.md)
 - [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
-- [チュートリアル: 顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む](../developer/embed-paginated-reports-customers.md)
-
-
+- [チュートリアル: 顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む](../developer/embedded/embed-paginated-reports-customers.md)

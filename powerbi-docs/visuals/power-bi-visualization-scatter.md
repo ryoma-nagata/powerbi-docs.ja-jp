@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a6ba7f171f462fe6fe0d386305c82b486db5ed4
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276837"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565028"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI での散布図、バブル チャート、およびドット プロット グラフ
 
@@ -128,7 +128,7 @@ ms.locfileid: "83276837"
     > [!NOTE]
     > データ ポイントが多いほど読み込み時間が長くなります。 スケールの上限に制限のあるレポートを発行する場合は、Web とモバイルでレポートをテストし、 グラフでユーザーが望むパフォーマンスが得られることを確認する必要があります。
 
-1. 視覚化の色、ラベル、タイトル、背景などの書式設定を続行します。 [アクセシビリティを向上させる](../desktop-accessibility.md)には、行ごとにマーカー図形を追加することを検討します。 マーカーの形状を選択するには、 **[図形]** を展開し、 **[マーカーの図形]** を選択して図形を選択します。
+1. 視覚化の色、ラベル、タイトル、背景などの書式設定を続行します。 [アクセシビリティを向上させる](../create-reports/desktop-accessibility-overview.md)には、行ごとにマーカー図形を追加することを検討します。 マーカーの形状を選択するには、 **[図形]** を展開し、 **[マーカーの図形]** を選択して図形を選択します。
 
     ![[図形] ドロップダウンと [マーカーの図形] オプションのスクリーンショット。](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/30/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: c125f1cdd30a717ae7f4cdb93cbf8ea5ed858e79
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865176"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564725"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>主要業績評価指標 (KPI) ビジュアルを作成する
 
@@ -23,7 +23,7 @@ ms.locfileid: "82865176"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 KPI の詳細については、「[PowerPivot の主要業績評価指標 (KPI)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))」を参照してください。
+主要業績評価指標 (KPI) は、測定可能な目標に対する進捗状況を視覚的に伝える方法の 1 つです。 KPI の詳細については、「[PowerPivot の主要業績評価指標 (KPI)](https://support.office.com/en-us/article/Key-Performance-Indicators-KPIs-in-Power-Pivot-E653EDEF-8A21-40E4-9ECE-83A6C8C306AA)」を参照してください。
 
 
 ## <a name="when-to-use-a-kpi"></a>KPI を使用する場合

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1dbb35ab45a1172044cedb7fbe484ed4da6c43db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348369"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565743"
 ---
 # <a name="export-reports-to-powerpoint"></a>レポートを PowerPoint にエクスポートする
 
@@ -31,7 +31,7 @@ Power BI サービス (app.powerbi.com) では、レポートを Microsoft Power
 
 **Power BI レポート**は、**PowerPoint** に短時間でエクスポートできます。 次のセクションで説明する手順に従います。
 
-Power BI サービスから一度に 1 つのビジュアルをコピーし、PowerPoint (または貼り付けをサポートする他の任意のプログラム) に貼り付けることもできます。 **[イメージとしてコピー]** アイコンを選択して、ビジュアルをクリップボードにコピーします。 次に、PowerPoint を開き、ビジュアルを貼り付けます。 詳細については、[静的画像としてのビジュアルのコピー](../power-bi-visualization-copy-paste.md)に関するページをご覧ください。
+Power BI サービスから一度に 1 つのビジュアルをコピーし、PowerPoint (または貼り付けをサポートする他の任意のプログラム) に貼り付けることもできます。 **[イメージとしてコピー]** アイコンを選択して、ビジュアルをクリップボードにコピーします。 次に、PowerPoint を開き、ビジュアルを貼り付けます。 詳細については、[静的画像としてのビジュアルのコピー](../visuals/power-bi-visualization-copy-paste.md)に関するページをご覧ください。
 
 ![[イメージとしてコピー] アイコンを選択する](media/end-user-powerpoint/power-bi-copy.png)
 
@@ -87,12 +87,12 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 "**PowerPoint へのエクスポート**" 機能を使用する場合は、留意すべき注意事項と制限事項がいくつかあります。
  
 
-* 現在、エクスポートに **[現在の値]** を選択した場合、[URL フィルター](../service-url-filters.md)は適用されません。
+* 現在、エクスポートに **[現在の値]** を選択した場合、[URL フィルター](../collaborate-share/service-url-filters.md)は適用されません。
 
 * カスタム フォントが使用されているレポートを PowerPoint にエクスポートすると、そのフォントは既定のフォントで置き換えられます。
 
 * 次のビジュアルの種類はサポートされていないため、PowerPoint にエクスポートされません。
-   - [認定を受けていないカスタム ビジュアル](../developer/power-bi-custom-visuals-certified.md)はサポートされていません。 
+   - [認定を受けていないカスタム ビジュアル](../developer/visuals/power-bi-custom-visuals-certified.md)はサポートされていません。 
    - [ESRI ArcGIS ビジュアル](../visuals/power-bi-visualizations-arcgis.md)はサポートされていません
    - R および Python のビジュアルはサポートされていません。
    - 背景画像はグラフの境界領域でトリミングされます。 PowerPoint にエクスポートする前に背景画像を削除することをお勧めします。
@@ -109,5 +109,5 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 
 
 ## <a name="next-steps"></a>次の手順
-[ビジュアルを静的イメージとしてコピー](../power-bi-visualization-copy-paste.md)    
+[ビジュアルを静的イメージとしてコピー](../visuals/power-bi-visualization-copy-paste.md)    
 [レポートの印刷](end-user-print.md)

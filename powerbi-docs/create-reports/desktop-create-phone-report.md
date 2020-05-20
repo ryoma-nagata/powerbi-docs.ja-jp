@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 593847d229dcd4e2081843523a0a988415a9ef81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cab4accfa11a4c92c1672314e2157659ef68f21a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297977"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564748"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>モバイル アプリ用に Power BI レポートを最適化する
 縦レイアウトを作成して、モバイル アプリでレポートを表示するエクスペリエンスを向上させることができます。 Power BI Desktop と Power BI サービスでは、レポートのビジュアルを再配置やサイズ変更を行って縦モードで最適なエクスペリエンスを実現することができます。  
@@ -58,7 +58,7 @@ ms.locfileid: "83297977"
 
 ![レスポンシブ ビジュアルのサイズ変更](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-ビジュアルごとに応答性を有効にするかどうかを選択します。 詳細については、[ビジュアルの最適化](../visuals/desktop-create-responsive-visuals.md)に関するページをご覧ください。
+ビジュアルごとに応答性を有効にするかどうかを選択します。 詳細については、[ビジュアルの最適化](../visuals/power-bi-report-visualizations.md)に関するページをご覧ください。
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>電話レイアウトまたはレポート レイアウトを作成する場合の注意事項
 * 複数ページのレポートの場合、すべてのページまたは数ページだけを最適化できます。 
@@ -108,5 +108,5 @@ ms.locfileid: "83297977"
 ## <a name="next-steps"></a>次のステップ
 * [Power BI でダッシュボードの Phone ビューを作成する](service-create-dashboard-mobile-phone-view.md)。
 * [電話用に最適化された Power BI レポートを表示する](../consumer/mobile/mobile-apps-view-phone-report.md)。
-* [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](../visuals/desktop-create-responsive-visuals.md)。
+* [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](../visuals/power-bi-report-visualizations.md)。
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a22bba65b44446e7027627a24ebcf316f8f073d4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348392"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564988"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 
@@ -89,7 +89,7 @@ Power BI モバイル アプリはそれぞれ該当するストアから無料�
 
 ## <a name="what-browsers-does-power-bi-support"></a>Power BI はどのブラウザーをサポートしていますか?
 
-[Power BI のサポートされているブラウザー](../service-browser-support.md)の完全なリストをご覧ください。
+[Power BI のサポートされているブラウザー](../fundamentals/power-bi-browsers.md)の完全なリストをご覧ください。
 
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Power BI はどの地域と言語をサポートしていますか?
 

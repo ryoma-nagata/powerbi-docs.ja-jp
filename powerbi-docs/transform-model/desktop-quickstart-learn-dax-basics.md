@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 783a9bdce34345afd87be379aff7e073ff8c548d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313387"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565858"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>Power BI Desktop で DAX の基本事項を適用する
 この記事は、Power BI Desktop を初めて使用するユーザー向けです。 さまざまな基本的な計算とデータ分析の問題を解決するために Data Analysis Expressions (DAX) を使用する方法を、手早く簡単に説明します。 いくつかの概念について説明した後、一連のタスクを実行します。学んだ内容をテストする知識チェックも含まれています。 この記事を完了すると、DAX で最も重要な基本概念をよく理解できるようになります。
@@ -66,7 +66,7 @@ DAX 式を解釈するときは、式の各要素を分割し、日常会話の�
 
 ここで、このような疑問が浮かぶかもしれません。"このメジャーは、前に別の記事でレポートに SalesAmount フィールドを追加しただけで実行できたのと同じものではないか"。 確かに、そうです。 しかし、"SalesAmount" フィールドからの値を合計する独自のメジャーを作成することには十分な理由があります。他の数式で引数として使用できるからです。 これは少し紛らわしいかもしれませんが、DAX 式のスキルが上がると、このメジャーを使用することで式やモデルの効率が上がることを理解できるはずです。 実際、この後で登場する Total Sales メジャーは、他の数式の引数として使用されています。
 
-次に、この数式に関して、詳細な点をいくつか説明します。 まず、[SUM](https://msdn.microsoft.com/library/ee634387.aspx) という関数に注目します。 関数は、数値、日付、時刻、テキストなどを使用した複雑な計算や操作を容易に実行できるようにする、事前に記述された数式です。 関数については、後で詳しく説明します。
+次に、この数式に関して、詳細な点をいくつか説明します。 まず、[SUM](/dax/sum-function-dax) という関数に注目します。 関数は、数値、日付、時刻、テキストなどを使用した複雑な計算や操作を容易に実行できるようにする、事前に記述された数式です。 関数については、後で詳しく説明します。
 
 別の点として、列名 [SalesAmount] の前に、その列が属する Sales テーブルが指定されていることに注目します。 この名前は、完全修飾列名というもので、テーブル名を列名の前に指定します。 同じテーブルで参照されている列では、式にテーブル名を含める必要はありません。これにより、多数の列が参照されている長い式をできるだけ短く、また読みやすく書くことができます。 ただし、同じテーブルにある場合でも、メジャーの式にはテーブル名を含めることをお勧めします。
 
@@ -121,7 +121,7 @@ DAX 式を解釈するときは、式の各要素を分割し、日常会話の�
 
 ここまで、DAX 式のいくつかの重要な側面を紹介しました。 
 
-- この式には 2 つの関数が含まれています。 [PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx) タイム インテリジェンス関数が、[CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx) フィルター関数に渡される引数として入れ子になっています。 
+- この式には 2 つの関数が含まれています。 [PREVIOUSQUARTER](/dax/previousquarter-function-dax) タイム インテリジェンス関数が、[CALCULATE](/dax/calculate-function-dax) フィルター関数に渡される引数として入れ子になっています。 
 
    DAX 数式には、最大 64 個の入れ子になった関数を含めることができます。 もっとも、そこまで多くの入れ子にした関数を含む数式はほとんど使われないはずです。 実際、そのような式を作成し、デバッグするのは困難ですし、おそらく計算時間も長くなるでしょう。
 
@@ -142,7 +142,7 @@ DAX 式を解釈するときは、式の各要素を分割し、日常会話の�
 ### <a name="functions"></a>関数
 関数は、特定の順序または構造で並んだ特定の値 (引数と呼びます) を使用して計算を実行する、定義済みの数式です。 引数として指定できるのは、別の関数、別の数式、式、列参照、数値、テキスト、TRUE または FALSE などの論理値、または定数です。
 
-DAX に含まれる関数のカテゴリは次のとおりです:[日付と時刻](https://msdn.microsoft.com/library/ee634786.aspx)、[タイム インテリジェンス](https://msdn.microsoft.com/library/ee634763.aspx)、[情報](https://msdn.microsoft.com/library/ee634552.aspx)、[論理](https://msdn.microsoft.com/library/ee634365.aspx)、[数学](https://msdn.microsoft.com/library/ee634241.aspx)、[統計](https://msdn.microsoft.com/library/ee634822.aspx)、[テキスト](https://msdn.microsoft.com/library/ee634938.aspx)、[親子](https://msdn.microsoft.com/library/mt150102.aspx)、および[その他](https://msdn.microsoft.com/library/mt150101.aspx)の関数。 Excel の数式の関数に慣れている読者は、DAX 関数の多くが Excel 関数に似ていると感じるかもしれません。ただし、DAX 関数は、次のような点が特有です。
+DAX に含まれる関数のカテゴリは次のとおりです:[日付と時刻](/dax/date-and-time-functions-dax)、[タイム インテリジェンス](/dax/time-intelligence-functions-dax)、[情報](/dax/information-functions-dax)、[論理](/dax/logical-functions-dax)、[数学](/dax/math-and-trig-functions-dax)、[統計](/dax/statistical-functions-dax)、[テキスト](/dax/text-functions-dax)、[親子](/dax/parent-and-child-functions-dax)、および[その他](/dax/other-functions-dax)の関数。 Excel の数式の関数に慣れている読者は、DAX 関数の多くが Excel 関数に似ていると感じるかもしれません。ただし、DAX 関数は、次のような点が特有です。
 
 * DAX 関数は、常に、列全体またはテーブルを参照します。 テーブルまたは列の特定の値だけを使用する場合は、数式にフィルターを追加します。
 * 行ごとに計算をカスタマイズする必要がある場合、DAX は、現在の行の値または関連する値を一種の引数として使用し、コンテキストによって異なる計算を実行する機能を提供しています。 コンテキストについては、後で詳しく説明します。
@@ -150,7 +150,7 @@ DAX に含まれる関数のカテゴリは次のとおりです:[日付と時�
 * DAX には、さまざまなタイム インテリジェンス関数が含まれています。 これらの関数では、日付範囲を定義または選択し、それに基づいて動的な計算を実行できます。 たとえば、対応する期間ごとに合計を比較できます。
 * Excel には、VLOOKUP というよく使用される関数があります。 DAX 関数では、Excel での VLOOKUP のようには、セルまたはセル範囲を参照することがありません。 DAX 関数では、列またはテーブルを参照として受け取ります。 また、Power BI Desktop ではリレーショナル データ モデルを取り扱うという点に注意してください。 別のテーブル内の値を検索することは簡単な操作で、ほとんどの場合、数式を作成する必要はまったくありません。
   
-  ご覧のとおり、DAX の関数を使用すると強力な数式を作成できます。 ここでは、関数のごく基礎的な部分だけを紹介しました。 DAX のスキルが増すにつれて、多くの異なる関数を使用して数式を作成できるようになります。 各 DAX 関数の詳細について学ぶ最適な資料の 1 つは、「[DAX 関数リファレンス](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)」です。
+  ご覧のとおり、DAX の関数を使用すると強力な数式を作成できます。 ここでは、関数のごく基礎的な部分だけを紹介しました。 DAX のスキルが増すにつれて、多くの異なる関数を使用して数式を作成できるようになります。 各 DAX 関数の詳細について学ぶ最適な資料の 1 つは、「[DAX 関数リファレンス](/dax/)」です。
 
 ### <a name="functions-quickquiz"></a>関数クイズ
 1. 関数が常に参照するものは何ですか?
@@ -210,7 +210,7 @@ DAX でフィルター コンテキストが非常に重要なのはなぜでし
 答えは、この記事の最後に記載します。
 
 ## <a name="summary"></a>概要
-ここまでで、DAX の最も重要な概念の基礎を理解できましたので、さっそく、独自のメジャーの DAX 数式を作成できます。 DAX には確かに理解しにくい部分がありますが、多くの参考資料を入手できます。 この記事を読みながら、独自の数式を実際に作成してみると、ビジネス上の実際の課題を解決するために役立つその他の DAX の概念や数式についても理解できるようになります。 入手可能な DAX リソースは多数ありますが、最も重要なものは「[Data Analysis Expressions (DAX) リファレンス](https://msdn.microsoft.com/library/gg413422.aspx)」です。
+ここまでで、DAX の最も重要な概念の基礎を理解できましたので、さっそく、独自のメジャーの DAX 数式を作成できます。 DAX には確かに理解しにくい部分がありますが、多くの参考資料を入手できます。 この記事を読みながら、独自の数式を実際に作成してみると、ビジネス上の実際の課題を解決するために役立つその他の DAX の概念や数式についても理解できるようになります。 入手可能な DAX リソースは多数ありますが、最も重要なものは「[Data Analysis Expressions (DAX) リファレンス](/dax/)」です。
 
 Power Pivot や Analysis Services 表形式モデルなどの Microsoft BI ツールで DAX が利用されるようになって数年が経ち、多くの情報が入手可能になりました。 また、Microsoft や指導的な BI プロフェッショナルが執筆した書籍、ホワイトペーパー、およびブログからも、さらに詳細な情報を知ることができます。 さらに、[TechNet の DAX リソース センター Wiki](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) から開始するのもよいでしょう。
 
@@ -224,11 +224,10 @@ Power Pivot や Analysis Services 表形式モデルなどの Microsoft BI ツ�
 
 1. テーブルと列です。
 2. はい。 数式には最大 64 個の入れ子になった関数を含めることができます。
-3. [テキスト関数](https://msdn.microsoft.com/library/ee634938.aspx)。
+3. [テキスト関数](/dax/text-functions-dax)。
 
 コンテキスト:
 
 1. 行コンテキストとフィルター コンテキストです。
 2. 単一の値を決定するための計算に含まれる 1 つ以上のフィルターのことです。
 3. 現在の行のことです。
-

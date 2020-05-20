@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349611"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564451"
 ---
 # <a name="what-is-power-bi"></a>Power BI とは?
 **Power BI** はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型洞察を得ることができます。 Excel スプレッドシートや、クラウド ベースとオンプレミスのハイブリッド データ ウェアハウスのコレクションなど、さまざまなデータを使えます。 Power BI を使うと、ご利用のデータ ソースへの接続、重要事項の視覚化と検出、必要に応じた任意のユーザーまたはすべてのユーザーとの共有を、簡単に実行できます。
@@ -70,6 +70,6 @@ Power BI Report Server は、ファイアウォールの背後に展開するソ
 [Power BI レポート サーバー](../report-server/get-started.md)の詳細をお読みください。
 
 ## <a name="next-steps"></a>次の手順
-- [クイック スタート:Power BI サービスの使用方法を学ぶ](../service-the-new-power-bi-experience.md)   
+- [クイック スタート:Power BI サービスの使用方法を学ぶ](../consumer/end-user-experience.md)   
 - [チュートリアル: Power BI サービスの概要](service-get-started.md)
 - [クイック スタート:Power BI Desktop でデータに接続する](../connect-data/desktop-quickstart-connect-to-data.md)

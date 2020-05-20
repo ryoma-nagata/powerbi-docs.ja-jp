@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348852"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564554"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI デザイナーのダッシュボードの概要
 
@@ -22,7 +22,7 @@ Power BI の*ダッシュボード*は、ストーリーをしばしばキャン
 
 ![ダッシュボード](media/service-dashboards/power-bi-dashboard2.png)
 
-ダッシュボードは、Power BI サービス専用の機能です。 これは Power BI Desktop では利用できません。 モバイル デバイスでダッシュボードを作成することはできませんが、そこで[参照し共有する](../consumer/mobile/mobile-apps-view-dashboard.md)ことはできます。
+ダッシュボードは、Power BI サービス専用の機能です。 これは Power BI Desktop では利用できません。 ダッシュボードはモバイル デバイスで作成することはできませんが、そこで[参照および共有する](../consumer/mobile/mobile-apps-view-dashboard.md)ことができます。
 
 ## <a name="dashboard-basics"></a>ダッシュボードの基礎 
 

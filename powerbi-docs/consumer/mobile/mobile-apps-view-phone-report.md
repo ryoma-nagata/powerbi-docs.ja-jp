@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273525"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565125"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
 
@@ -60,7 +60,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 
 * 電話レポートで、ビジュアルの右上隅にある省略記号 **[...]** をタップし、 **[フォーカス モードに展開]** をタップします。
   
-    ![フォーカス モードに展開](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![フォーカス モードに展開](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 フォーカス モードでの実行内容は、レポート キャンバスに持ち込まれます。その逆も可能です。 たとえば、ビジュアルの値を強調表示してから、レポート全体に戻ると、ビジュアルで強調表示した値にレポートがフィルター処理されます。
 
@@ -72,7 +72,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
   
     ビジュアルからすべての探索をクリアするには、省略記号 **[...]** **[元に戻す]** の順にタップします。
   
-    ![元に戻す](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![元に戻す](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     レポート レベルで元に戻すことができます。試しに実行したことがすべてのビジュアルから消去されます。ビジュアル レベルで元に戻す場合、選択したビジュアルから試しに実行したことが消去されます。   
 
@@ -86,14 +86,14 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 2. ツールヒントが表示されます。階層が定義されている場合、ツールヒント フッターにドリルダウンと上矢印が表示されます。
 3. 下矢印をタップしてドリルダウンします。
 
-    ![タップしてドリルダウン](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![タップしてドリルダウン](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. 上矢印をタップしてドリルアップします。
 
 ### <a name="drill-to-next-level"></a>次のレベルにドリル
 1. 電話のレポートでは、右上隅にある省略記号 **[...]** 、 **[フォーカス モードに展開]** の順にタップします。
    
-    ![フォーカス モードに展開](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![フォーカス モードに展開](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     この例では、バーには州の値が表示されています。
 2. 左下の [探索] アイコン ![探索アイコン](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) をタップします。これは左下にあります。
@@ -111,7 +111,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
     ![下位レベルの値がまだ展開された状態](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. 上位の元のレベルに戻るには、省略記号 **[...]** を再びタップし、 **[元に戻す]** をタップします。
    
-    ![元に戻す](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![元に戻す](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>値からドリルスルーする
 ドリルスルーでは、あるレポートページ内の値が他のレポートページと接続されます。 データ ポイントから別のレポートページにドリルスルーすると、データ ポイント値を使用し、ドリルスルーしたページにフィルターが適用されます。あるいは、選択したデータのコンテキストで表示されます。
@@ -121,11 +121,11 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 2. ツールヒントが表示されます。ドリルスルーが定義されている場合、ツールヒント フッターにドリルスルー矢印が表示されます。
 3. 矢印をタップしてドリルスルーします。
 
-    ![タップしてドリルスルー](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![タップしてドリルスルー](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. ドリルスルーするレポート ページを選択します。
 
-    ![レポート ページの選択](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![レポート ページの選択](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. アプリのヘッダーにある [戻る] ボタンを使用すると、開始したページに戻ります。
 
@@ -133,5 +133,5 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 ## <a name="next-steps"></a>次の手順
 * [Power BI モバイル アプリ向けに最適化されたレポートを作成する](../../create-reports/desktop-create-phone-report.md)
 * [Power BI でダッシュボードの Phone ビューを作成する](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](../../visuals/desktop-create-responsive-visuals.md)
+* [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](../../visuals/power-bi-report-visualizations.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

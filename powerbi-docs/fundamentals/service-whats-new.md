@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b89c64caa7a4f8fe846cca488164758550a4869a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361200"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566065"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -224,7 +224,7 @@ ms.locfileid: "83361200"
 
 ### <a name="june-2017"></a>2017 年 6 月
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) が一般公開されました。
-* [スケジュールされた更新の自動化](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)、[レポートの複製と再バインド](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)、[ゲートウェイ バインドの更新](https://msdn.microsoft.com/library/mt784650.aspx)、その他多くの機能に関する複数の API の機能強化
+* [スケジュールされた更新の自動化](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)、[レポートの複製と再バインド](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)、[ゲートウェイ バインドの更新](/rest/api/power-bi/)、その他多くの機能に関する複数の API の機能強化
 * Power BI アプリでのダッシュボードのタイルから他のダッシュボードやレポートへの相対リンク。
 * Power BI Desktop で一般に使用できるようになった [Impala コネクタ](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)。
 * [インタラクティブ R Power BI ビジュアル](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)での Power BI のビジュアルの機能拡張。

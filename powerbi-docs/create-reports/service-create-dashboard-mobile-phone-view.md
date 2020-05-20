@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93d94aadb8e7606fd6d55c463a2be88f87e48047
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314859"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565812"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>携帯電話用にダッシュボードを最適化する - Power BI 
 スマートフォンの縦モードでダッシュボードを開くと、ダッシュボードのタイルがすべて同じサイズで並んで表示されることに気付くでしょう。 Power BI サービスでは、ダッシュボードのカスタマイズされたビュー (特にスマートフォンの縦モード用) を作成できます。 スマートフォンのビューを作成した場合でも、電話を横向きにすると、サービスにレイアウトされているダッシュボードが表示されます。
@@ -57,5 +57,5 @@ ms.locfileid: "83314859"
 
 ## <a name="next-steps"></a>次のステップ
 * [Power BI 電話アプリ用に最適化したレポートを作成する](desktop-create-phone-report.md)
-* [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](../visuals/desktop-create-responsive-visuals.md)
+* [任意のサイズに最適化されるレスポンシブ ビジュアルを作成する](../visuals/power-bi-report-visualizations.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: deb72b1b66d4cbc87c2e317bb1fe1428c079cfea
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c71f26949f19ed1beb29a162c18dc36ed689c21
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83308948"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565348"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
 
@@ -54,9 +54,9 @@ Analysis Services へのライブ接続を設定する方法の詳細につい�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
-Analysis Services に接続されているレポートをユーザーが操作するたびに、有効なユーザー名がゲートウェイに渡され、次にオンプレミスの Analysis Services サーバーに渡されます。 Power BI にサインインするときに使用するメール アドレスが、有効なユーザーとして Analysis Services に渡されます。 これは、接続プロパティ [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth) に渡されます。 
+Analysis Services に接続されているレポートをユーザーが操作するたびに、有効なユーザー名がゲートウェイに渡され、次にオンプレミスの Analysis Services サーバーに渡されます。 Power BI にサインインするときに使用するメール アドレスが、有効なユーザーとして Analysis Services に渡されます。 これは、接続プロパティ [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services#bkmk_auth) に渡されます。 
 
-このメール アドレスは、ローカルの Active Directory ドメイン内で定義されているユーザー プリンシパル名 (UPN) と一致する必要があります。 UPN は、Active Directory アカウントのプロパティです。 その Windows アカウントは、Analysis Services ロールに存在している必要があります。 Active Directory で一致が見つからない場合は、サインインは成功しません。 Active Directory とユーザーの名前付けの詳細については、[ユーザーの名前付け属性](https://msdn.microsoft.com/library/ms677605.aspx)に関する記事を参照してください。
+このメール アドレスは、ローカルの Active Directory ドメイン内で定義されているユーザー プリンシパル名 (UPN) と一致する必要があります。 UPN は、Active Directory アカウントのプロパティです。 その Windows アカウントは、Analysis Services ロールに存在している必要があります。 Active Directory で一致が見つからない場合は、サインインは成功しません。 Active Directory とユーザーの名前付けの詳細については、[ユーザーの名前付け属性](/windows/win32/ad/naming-properties)に関する記事を参照してください。
 
 [Power BI のサインイン名をローカル ディレクトリの UPN にマップする](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)こともできます。
 
@@ -203,7 +203,7 @@ Analysis Services は、このアカウントに基づいて、フィルター�
 - Windows ユーザー アカウントがメンバーとして属しているロール。
 - 動的な行レベルのセキュリティ (構成されている場合)。
 
-モデルでのロールと動的な行レベル セキュリティの実装については、この記事では説明しません。 詳細については、MSDN の[ロール (SSAS 表形式)](https://msdn.microsoft.com/library/hh213165.aspx)、および[セキュリティ ロール (Analysis Services - 多次元データ)、](https://msdn.microsoft.com/library/ms174840.aspx)に関する記事を参照してください。 表形式モデルのセキュリティに関するさらに詳細な情報については、[表形式 BI セマンティック モデルをセキュリティで保護するホワイトペーパー](https://msdn.microsoft.com/library/jj127437.aspx)をダウンロードしてお読みください。
+モデルでのロールと動的な行レベル セキュリティの実装については、この記事では説明しません。 詳細については、MSDN の[ロール (SSAS 表形式)](/analysis-services/tabular-models/roles-ssas-tabular)、および[セキュリティ ロール (Analysis Services - 多次元データ)、](/analysis-services/multidimensional-models/olap-logical/security-roles-analysis-services-multidimensional-data)に関する記事を参照してください。 表形式モデルのセキュリティに関するさらに詳細な情報については、[表形式 BI セマンティック モデルをセキュリティで保護するホワイトペーパー](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)をダウンロードしてお読みください。
 
 ## <a name="what-about-azure-ad"></a>Azure AD とは
 

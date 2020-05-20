@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114944"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565720"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth を使用し、Power BI Report Server と SSRS に接続する
 
@@ -60,7 +60,7 @@ Reporting Services 側での構成はあまりありません。 適切な Kerbe
 
 SPN は、Kerberos 認証を使用するサービスの一意の識別子です。 レポート サーバーに対して適切な HTTP SPN があることを確認する必要があります。
 
-レポート サーバーの適切なサービス プリンシパル名 (SPN) の構成方法については、「[レポート サーバーのサービス プリンシパル名 (SPN) の登録](https://msdn.microsoft.com/library/cc281382.aspx)」をご覧ください。
+レポート サーバーの適切なサービス プリンシパル名 (SPN) の構成方法については、「[レポート サーバーのサービス プリンシパル名 (SPN) の登録](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)」をご覧ください。
 
 ### <a name="enabling-negotiate-authentication"></a>ネゴシエート認証を有効にする
 
@@ -74,7 +74,7 @@ SPN は、Kerberos 認証を使用するサービスの一意の識別子です�
 </AuthenticationTypes>
 ```
 
-詳しくは、「[Modify a Reporting Services Configuration File](https://msdn.microsoft.com/library/bb630448.aspx)」 (Reporting Services 構成ファイルを変更する) および「[レポート サーバーで Windows 認証を構成する](https://msdn.microsoft.com/library/cc281253.aspx)」をご覧ください。
+詳しくは、「[Modify a Reporting Services Configuration File](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)」 (Reporting Services 構成ファイルを変更する) および「[レポート サーバーで Windows 認証を構成する](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)」をご覧ください。
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Active Directory フェデレーション サービス (ADFS) の構成
 
@@ -248,9 +248,9 @@ Fiddler を使うとサインインが正常に行われる場合は、WAP ア�
 
 ## <a name="next-steps"></a>次のステップ
 
-[レポート サーバーのサービス プリンシパル名 (SPN) の登録](https://msdn.microsoft.com/library/cc281382.aspx)  
-[Reporting Services 構成ファイルを変更する](https://msdn.microsoft.com/library/bb630448.aspx)  
-[レポート サーバーで Windows 認証を構成する](https://msdn.microsoft.com/library/cc281253.aspx)  
+[レポート サーバーのサービス プリンシパル名 (SPN) の登録](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
+[Reporting Services 構成ファイルを変更する](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
+[レポート サーバーで Windows 認証を構成する](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
 [Active Directoryフェデレーション サービス](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Windows Server 2016 での Web アプリケーション プロキシ](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [AD FS の事前認証を使用したアプリケーションの公開](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  

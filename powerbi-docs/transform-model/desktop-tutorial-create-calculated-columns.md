@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 858ecc07deabf5b91295220c2b92791b998ecf3a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349243"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565835"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>チュートリアル: Power BI Desktop で計算列を作成する
 
@@ -46,7 +46,7 @@ ms.locfileid: "83349243"
 
 2. 既定では、新しい計算列の名前は **Column** となっています。 名前を変更しない場合、追加される新しい列には、**Column 2**、**Column 3** のように名前が付けられます。 列を識別しやすくします。**Column** という名前は既に数式バーに強調表示されているため、「**ProductFullCategory**」と入力して名前を変更してから、等号 ( **=** ) を入力します。
 
-3. 新しい列の値は、 **[ProductCategory]** フィールドの名前で始まるようにします。 この列は異なる (しかし関連する) テーブルにあるため、[RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 関数を使用して取得できます。
+3. 新しい列の値は、 **[ProductCategory]** フィールドの名前で始まるようにします。 この列は異なる (しかし関連する) テーブルにあるため、[RELATED](/dax/related-function-dax) 関数を使用して取得できます。
 
    等号の後ろに、「**r**」と入力します。 ドロップダウン表示される候補リストには、R で始まるすべての DAX 関数が含まれています。各関数を選択すると、その効果の説明が表示されます。 入力を続けると、候補リストが絞られ、必要な関数が表示されます。 **RELATED** を選択し、**Enter** キーを押します。
 
@@ -97,7 +97,7 @@ ms.locfileid: "83349243"
 
 Contoso Sales のサンプルには、アクティブな店舗と非アクティブな店舗の両方の販売データが含まれています。 レポート内でアクティブな店舗の売上と非アクティブな店舗の売上を明確に区別するために、**Active StoreName** フィールドを作成します。 新しい **Active StoreName** 計算列では、アクティブな店舗はそれぞれ店舗の完全名で表示されますが、非アクティブな店舗の売上は **Inactive** という 1 つの品目にまとめてグループ化されます。
 
-さいわい、**Stores** テーブルには **Status** という名前の列があり、値としてアクティブな店舗には "On" が、非アクティブな店舗には "Off" が設定されています。これを使用して、新しい **Active StoreName** 列の値を作成できます。 DAX 式では、論理関数 [IF](https://msdn.microsoft.com/library/ee634824.aspx) を使用して、各店舗の **Staus** をテストし、結果に応じて特定の値を返します。 店舗の **Status** が "On" の場合は、数式で店舗の名前が返されます。 "Off" の場合、数式では、**Active StoreName** に "Inactive" が割り当てられます。
+さいわい、**Stores** テーブルには **Status** という名前の列があり、値としてアクティブな店舗には "On" が、非アクティブな店舗には "Off" が設定されています。これを使用して、新しい **Active StoreName** 列の値を作成できます。 DAX 式では、論理関数 [IF](/dax/if-function-dax) を使用して、各店舗の **Staus** をテストし、結果に応じて特定の値を返します。 店舗の **Status** が "On" の場合は、数式で店舗の名前が返されます。 "Off" の場合、数式では、**Active StoreName** に "Inactive" が割り当てられます。
 
 1. **Stores** テーブルに新しい計算列を作成し、数式バーで **Active StoreName** という名前を付けます。
 
@@ -133,4 +133,4 @@ Contoso Sales のサンプルには、アクティブな店舗と非アクティ
 
 DAX の数式についてさらに詳しく知りたい場合や、さらに高度な DAX の数式で計算列を作成する場合は、「[Power BI Desktop における DAX の基本事項](desktop-quickstart-learn-dax-basics.md)」をご覧ください。 この記事では、構文、関数、およびコンテキストの詳しい理解など、DAX の基本的な概念について説明します。
 
-また、「[Data Analysis Expressions (DAX) リファレンス](https://msdn.microsoft.com/library/gg413422.aspx)」を、ぜひお気に入りに追加してください。 ここには、DAX の構文、演算子、および 200 種類を超える DAX 関数に関する詳細情報があります。
+また、「[Data Analysis Expressions (DAX) リファレンス](/dax/)」を、ぜひお気に入りに追加してください。 ここには、DAX の構文、演算子、および 200 種類を超える DAX 関数に関する詳細情報があります。
