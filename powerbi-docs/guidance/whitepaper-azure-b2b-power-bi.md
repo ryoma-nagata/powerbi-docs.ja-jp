@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82843643"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565439"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -306,7 +306,7 @@ Power BI の Azure AD B2B との統合により、Contoso はシームレスで�
 
     その後、ゲストユーザーは、電子メールのリンクをクリックするかリンクをブックマークすることで、Contoso のアプリにアクセスできます。 Contoso では、ゲストユーザーが既に使用している既存のエクストラネットポータルにこのリンクを追加することで、ゲストユーザーの作業を容易にすることもできます。
 
-4. 次のステップ
+4. 次の手順
 
     Contoso は、Power BI アプリと Azure AD B2B を使用して、コードなしでサプライヤーの BI ポータルをすばやく作成できました。 これにより、標準化された分析を必要なすべてのサプライヤーに配布することが大幅に簡素化されました。
 
@@ -415,7 +415,7 @@ Azure AD によって解決されると、Contoso は、追加の準備が整っ
 
 もう1つの興味深いトピックは、動的な行レベルセキュリティ (RLS) が Azure AD B2B でどのように機能するかを確認することです。
 
-つまり、動的な行レベルのセキュリティは、Power BI に接続しているユーザーのユーザー名に基づいてモデル内のデータをフィルター処理することによって機能します。 ユーザーのグループに複数のロールを追加するのではなく、モデル内のユーザーを定義します。 ここでは、パターンについて詳しく説明しません。 Kasper de Jong では、[このホワイトペーパー](https://msdn.microsoft.com/library/jj127437.aspx)に記載されている動的な[セキュリティ](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)情報のすべての種類の行レベル Power BI Desktop セキュリティについて詳細に説明しています。
+つまり、動的な行レベルのセキュリティは、Power BI に接続しているユーザーのユーザー名に基づいてモデル内のデータをフィルター処理することによって機能します。 ユーザーのグループに複数のロールを追加するのではなく、モデル内のユーザーを定義します。 ここでは、パターンについて詳しく説明しません。 Kasper de Jong では、[このホワイトペーパー](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)に記載されている動的な[セキュリティ](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)情報のすべての種類の行レベル Power BI Desktop セキュリティについて詳細に説明しています。
 
 例を見てみましょう。 Contoso には、グループ別の売上に関する単純なレポートがあります。
 
@@ -504,7 +504,7 @@ Power BI 管理ポータルでは、次の図に設定が表示されます。
 
 - Power BI Desktop から Power BI サービスに直接発行することはできません。
 - ゲスト ユーザーは、Power BI Desktop を使用して Power BI サービス内のサービス データセットに接続することができません。
-- Office 365 グループに関連付けられているクラシックワークスペース: Guest ユーザーは、これらのワークスペースを作成したり、管理者にすることはできません。 メンバーになることは可能です。
+- Microsoft 365 グループに関連付けられているクラシックワークスペース: Guest ユーザーは、これらのワークスペースを作成したり、管理者にすることはできません。 メンバーになることは可能です。
 - ワークスペース アクセス リストに対して、アドホック招待の送信はサポートされていません。
 - ゲスト ユーザーに対して、Power BI Publisher for Excel はサポートされていません。
 - ゲスト ユーザーは、Power BI Gateway をインストールして組織に接続することができません。

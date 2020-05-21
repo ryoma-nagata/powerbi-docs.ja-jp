@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407532"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565279"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI のセキュリティに関するホワイトペーパー
 
@@ -33,7 +33,7 @@ ms.locfileid: "83407532"
 
 **Power BI**は、セルフサービスビジネスインテリジェンスダッシュボード、レポート、データセット、および視覚エフェクトを簡単かつ迅速に作成できる Microsoft のオンラインソフトウェアサービス (_SaaS_またはサービスとしてのソフトウェア) です。 Power BI では、多くの異なるデータ ソースに接続し、それらの接続からのデータを組み合わせて整形した後、他のユーザーと共有できるレポートやダッシュボードを作成することができます。
 
-Power BI サービスは、[Microsoft Online Services の使用条件](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)および [Microsoft Enterprise のプライバシーに関する声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)によって管理されます。 データ処理の場所で、Microsoft Online Services の使用条件のデータ処理の場所の使用条件を参照してください。 コンプライアンスについては、[Microsoft セキュリティ センター](https://www.microsoft.com/trustcenter)が Power BI に関する主要なリソースです。 Power BI チームは、お客様に最新の技術革新と生産性を届けようと懸命に取り組んでいます。 Power BI は、現在、 [Office 365 準拠フレームワーク](https://www.microsoft.com/trust-center/compliance/compliance-overview)の階層 D にあります。
+Power BI サービスは、[Microsoft Online Services の使用条件](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)および [Microsoft Enterprise のプライバシーに関する声明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)によって管理されます。 データ処理の場所で、Microsoft Online Services の使用条件のデータ処理の場所の使用条件を参照してください。 コンプライアンスについては、[Microsoft セキュリティ センター](https://www.microsoft.com/trustcenter)が Power BI に関する主要なリソースです。 Power BI チームは、お客様に最新の技術革新と生産性を届けようと懸命に取り組んでいます。 Power BI は、現在、Microsoft 365 準拠フレームワークの階層 D にあります。 コンプライアンスの詳細については、 [Microsoft セキュリティセンター](https://www.microsoft.com/trust-center/compliance/compliance-overview)を参照してください。
 
 この記事では、Power BI のセキュリティについて、Power BI のアーキテクチャ、ユーザーが Power BI に対して認証を行う方法とデータ接続が確立される方法、Power BI でサービスによりデータが格納および移される方法の順に説明します。 最後のセクションでは、セキュリティに関する質問にお答えします。
 
@@ -87,13 +87,13 @@ Power BI では、データの格納と管理に 2 つの主要なリポジト�
 
 たとえば、ユーザーが Excel ブックを Power BI サービスにインポートすると、メモリ内に Analysis Services の表形式データベースが作成され、最大 1 時間 (または、システムでメモリ不足が発生するまで)、データはメモリ内に格納されます。 データは、**Azure Blob** Storage にも送信されます。
 
-ダッシュボード、レポート、最近使用したデータ ソース、ワークスペース、組織の情報、テナントの情報、システムに関するその他のメタデータなど、ユーザーの Power BI サブスクリプションについてのメタデータは、**Azure SQL Database** に格納されて更新されます。 Azure SQL Database に格納されるすべての情報は、[Azure SQL の Transparent Data Encryption](https://msdn.microsoft.com/library/dn948096.aspx) (TDE) テクノロジを使用して完全に暗号化されます。 Azure Blob Storage に格納されるすべてのデータも暗号化されます。 データの読み込み、格納、移動のプロセスについて詳しくは、「**データ ストレージと移動**」セクションで説明されています。
+ダッシュボード、レポート、最近使用したデータ ソース、ワークスペース、組織の情報、テナントの情報、システムに関するその他のメタデータなど、ユーザーの Power BI サブスクリプションについてのメタデータは、**Azure SQL Database** に格納されて更新されます。 Azure SQL Database に格納されるすべての情報は、[Azure SQL の Transparent Data Encryption](/azure/sql-database/transparent-data-encryption-azure-sql) (TDE) テクノロジを使用して完全に暗号化されます。 Azure Blob Storage に格納されるすべてのデータも暗号化されます。 データの読み込み、格納、移動のプロセスについて詳しくは、「**データ ストレージと移動**」セクションで説明されています。
 
 ## <a name="tenant-creation"></a>テナントの作成
 
 テナントは、組織が Azure、Microsoft Intune、Power BI、Office 365 などの Microsoft クラウド サービスにサインアップすると受け取って所有する、Azure AD サービスの専用インスタンスです。 各 Azure AD テナントは、他の Azure AD テナントと区別され分離されています。
 
-テナントは、企業内のユーザーおよびパスワード、ユーザー プロファイル データ、アクセス許可などのユーザーに関する情報を保持しています。 また、グループ、アプリケーション、および組織とそのセキュリティに関するその他の情報も含まれます。 詳細については、「 [Azure AD テナントとは](https://msdn.microsoft.com/library/azure/jj573650.aspx#BKMK_WhatIsAnAzureADTenant)」を参照してください。
+テナントは、企業内のユーザーおよびパスワード、ユーザー プロファイル データ、アクセス許可などのユーザーに関する情報を保持しています。 また、グループ、アプリケーション、および組織とそのセキュリティに関するその他の情報も含まれます。 詳細については、「 [Azure AD テナントとは](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)」を参照してください。
 
 Power BI テナントは、Office 365 または Power BI サービスが最初にプロビジョニングされるときに Azure Active Directory のテナントに対して提供された、国 (または地域) および州や都道府県などの情報に最も近いと見なされるデータセンターに作成されます。 現在、Power BI テナントはそのデータセンターの場所からは移動されません。
 
@@ -172,7 +172,7 @@ Power BI サービスによるデータの管理方法は、データが **Direc
 次の表は、使用されているクエリの種類に基づいて Power BI データを説明したものです。 **X** は、関連するクエリの種類を使用する際に Power BI データが存在することを示しています。
 
 
-|  |[インポート]  |DirectQuery  |ライブ接続  |
+|  |インポート  |DirectQuery  |ライブ接続  |
 |---------|---------|---------|---------|
 |スキーマ     |     x    |    x     |         |
 |行データ     |    x     |         |         |
@@ -198,19 +198,19 @@ CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定
 
 復旧キーに基づくゲートウェイ暗号化キーは、オンプレミスのインフラストラクチャから外に出ることはありません。 Power BI では、暗号化されたオンプレミスの資格情報の値にアクセスできず、これらの資格情報をインターセプトすることはできません。Web クライアントでは、通信相手の特定のゲートウェイに関連付けられた公開キーで資格情報が暗号化されます。
 
-クラウドベースのデータ ソースでは、データ移動ロールによって [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx) のメソッドを使用して暗号化キーが暗号化されます。 [Always Encrypted データベースの機能](https://msdn.microsoft.com/library/mt163865.aspx)の詳細をご覧ください。
+クラウドベースのデータ ソースでは、データ移動ロールによって [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) のメソッドを使用して暗号化キーが暗号化されます。 [Always Encrypted データベースの機能](/sql/relational-databases/security/encryption/always-encrypted-database-engine)の詳細をご覧ください。
 
 #### <a name="datasets"></a>データセット
 
 1. メタデータ (テーブル、列、メジャー、計算、接続文字列など)
 
-    a。 オンプレミスの Analysis Services では、暗号化されて Azure SQL に格納されるデータベースへの参照を除き、サービスには何も格納されません。
+    a. オンプレミスの Analysis Services では、暗号化されて Azure SQL に格納されるデータベースへの参照を除き、サービスには何も格納されません。
 
     b. ETL、DirectQuery、およびプッシュ データに対する他のすべてのメタデータは、暗号化されて Azure Blob Storage に格納されます。
 
 1. 元のデータ ソースに対する資格情報
   
-      a。 オンプレミスの Analysis Services – 資格情報は必要なく、そのため、資格情報は保存されません。
+      a. オンプレミスの Analysis Services – 資格情報は必要なく、そのため、資格情報は保存されません。
 
       b. DirectQuery - これはモデルがサービス内で直接作成されるかどうかによって異なります。直接作成される場合、それは接続文字列内に格納され Azure Blob で暗号化されます。モデルが Power BI Desktop からインポートされる場合、資格情報はデータ移動の Azure SQL Database で暗号化されて格納されます。 暗号化キーは、顧客のインフラストラクチャ上でゲートウェイを実行しているコンピューターに格納されます。
 
@@ -225,7 +225,7 @@ CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定
 
 1. Data
 
-    a。 オンプレミスの Analysis Services と、DirectQuery – Power BI サービスでは何も格納されません。
+    a. オンプレミスの Analysis Services と、DirectQuery – Power BI サービスでは何も格納されません。
 
     b. ETL – Azure Blob ストレージで暗号化されます。しかし、Power BI サービスの Azure Blob ストレージに現在あるすべてのデータに [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) (サーバー側の暗号化とも呼ばれる) が使用されます。 Multi-Geo でも SSE が使用されます。
 
@@ -241,11 +241,11 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
 * Azure Blob ストレージの保存データの場合、Power BI では、クライアント側の暗号化と、ストレージにデータを転送するための HTTPS が使用されます。これにはデータの取得中の整合性チェックが含まれます。 Azure Blob ストレージのセキュリティの詳細については、[こちら](https://azure.microsoft.com/documentation/articles/storage-security-guide/)を参照してください。
 
-#### <a name="reports"></a>Reports
+#### <a name="reports"></a>レポート
 
 1. メタデータ (レポートの定義)
 
-   a。 レポートは、Excel for Office 365 レポートまたは Power BI レポートのいずれかとすることができます。 レポートの種類に基づいて、メタデータには次が適用されます。
+   a. レポートは、Excel for Office 365 レポートまたは Power BI レポートのいずれかとすることができます。 レポートの種類に基づいて、メタデータには次が適用されます。
         
     &ensp;&ensp;。 Excel レポートのメタデータは、SQL Azure に暗号化されて格納されます。 メタデータは、Office 365 にも格納されます。
 
@@ -299,7 +299,7 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
 3. 元のデータ ソースに対する資格情報
 
-    a。 オンプレミスの Analysis Services - 何も格納されません
+    a. オンプレミスの Analysis Services - 何も格納されません
 
     b. DirectQuery - これはモデルがサービス内で直接作成されるかどうかによって異なります。直接作成される場合、それは、(暗号化された情報と共に) 同じ場所にクリア テキストで格納された暗号化キーを使用する暗号化形式で、接続文字列内に格納されます。モデルが Power BI Desktop からインポートされる場合、資格情報は非揮発性デバイス上に格納されません。
 
@@ -356,8 +356,8 @@ Power BI Mobile は、Android、iOS、Windows Mobile という3つの主要な�
 
 | **CBA サポート** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (サービスにサインイン) | サポート対象 | サポート対象 | サポートなし |
-| **SSRS ADFS** (SSRS サーバーに接続) | サポートなし | サポートされています | サポートなし |
+| **Power BI** (サービスにサインイン) | サポート対象 | サポート対象 | サポートされていません。 |
+| **SSRS ADFS** (SSRS サーバーに接続) | サポートされていません | サポートされています | サポートされていません |
 
 Power BI Mobile アプリは、積極的に Power BI サービスと通信します。 利用統計情報はモバイル アプリの利用統計情報や類似のデータの収集に使用され、利用状況とアクティビティを監視するために使用するサービスに転送されます。個人データが利用統計情報とともに送信されることは一切ありません。
 
@@ -381,7 +381,7 @@ Power BI Mobile が使用可能な 3 つのプラットフォームすべてで�
 
 **ユーザーが Power BI を使用しているとき、データ ソースにどのように接続、アクセスするのですか?**
 
-* **Power BI 資格情報とドメイン資格情報:** ユーザーは、電子メールアドレスを使用して Power BI にサインインします。ユーザーがデータリソースに接続しようとすると、Power BI Power BI ログインの電子メールアドレスが資格情報として渡されます。 ドメイン接続されたリソース (オンプレミスまたはクラウドベース) の場合、ディレクトリ サービスによって、ログインに使用したメール アドレスが_ユーザー プリンシパル名_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) とマッチングされます。 仕事用の電子メールアドレスを使用して Power BI (などの作業リソースへのログインに使用する電子メール) にサインインする組織では、 _david@contoso.com_ マッピングがシームレスに行われる可能性があります。職場ベースの電子メールアドレス (など) を使用していない組織では _david@contoso.onmicrosoft.com_ 、Power BI のログイン資格情報でオンプレミスのリソースにアクセスできるように、ディレクトリ
+* **Power BI 資格情報とドメイン資格情報:** ユーザーは、電子メールアドレスを使用して Power BI にサインインします。ユーザーがデータリソースに接続しようとすると、Power BI Power BI ログインの電子メールアドレスが資格情報として渡されます。 ドメイン接続されたリソース (オンプレミスまたはクラウドベース) の場合、ディレクトリ サービスによって、ログインに使用したメール アドレスが_ユーザー プリンシパル名_ ([UPN](/windows/win32/secauthn/user-name-formats)) とマッチングされます。 仕事用の電子メールアドレスを使用して Power BI (などの作業リソースへのログインに使用する電子メール) にサインインする組織では、 _david@contoso.com_ マッピングがシームレスに行われる可能性があります。職場ベースの電子メールアドレス (など) を使用していない組織では _david@contoso.onmicrosoft.com_ 、Power BI のログイン資格情報でオンプレミスのリソースにアクセスできるように、ディレクトリ
 
 * **SQL Server Analysis Services と Power BI:** オンプレミスの SQL Server Analysis Services を使用する組織の場合、Power BI には Power BI オンプレミスデータゲートウェイ (前のセクションで参照した**ゲートウェイ**) が用意されています。  Power BI オンプレミス データ ゲートウェイは、データ ソースに対してロールレベルのセキュリティ (RLS) を適用できます。 RLS の詳細については、この文書の前半にある「**データ ソースに対するユーザー認証**」を参照してください。 ゲートウェイの詳細については、「[オンプレミスデータゲートウェイ](../connect-data/service-gateway-onprem.md)」を参照してください。
 
@@ -471,7 +471,7 @@ Power BI Mobile が使用可能な 3 つのプラットフォームすべてで�
 
 * Power BI Premium のサブスクリプションをお持ちのお客様に対して確立された接続は、アクセス制御と承認を有効にする Azure Active Directory (AD) を使用して、[Azure 企業間取引 (B2B)](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) 承認プロセスを実装します。 Power BI は、その他の Azure AD ユーザーの場合と同様に、Power BI Premium のサブスクライバーから Power BI Premium のリソースへの接続を処理します。
 
-## <a name="conclusion"></a>まとめ
+## <a name="conclusion"></a>結論
 
 Power BI サービスのアーキテクチャは、Web フロントエンド (WFE) クラスターとバックエンド クラスターという 2 つのクラスターに基づいています。 WFE クラスターは、Power BI サービスへの最初の接続と認証を担当します。認証が完了した後は、その後のユーザーとの対話をすべてバックエンドが処理します。 Power BI では、Azure Active Directory (AAD) を使用してユーザー ID を格納および管理し、データとメタデータの格納については、それぞれ Azure BLOB と Azure SQL Database を使用して管理します。
 
@@ -481,15 +481,15 @@ Power BI でのデータ ストレージとデータの処理は、データが 
 
 お客様からのご意見をお待ちしております。 このホワイトペーパーに関する改善点、追加点、不明点に関する提案、そして Power BI に関するその他のコンテンツに関する提案を是非お聞かせください。 提案をに送信 [pbidocfeedback@microsoft.com](mailto:pbidocfeedback@microsoft.com) します。
 
-## <a name="additional-resources"></a>その他のリソース
+## <a name="additional-resources"></a>その他の情報
 
 Power BI に関する詳細については、次のリソースを参照してください。
 
 - [Power BI のグループ](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Power BI Desktop の概要](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI REST API の概要](https://msdn.microsoft.com/library/dn877544.aspx)
-- [Power BI API リファレンス](https://msdn.microsoft.com/library/mt147898.aspx)
-- [オンプレミスのデータ ゲートウェイ](../connect-data/service-gateway-onprem.md)
+- [Power BI REST API の概要](/rest/api/power-bi/)
+- [Power BI API リファレンス](/rest/api/power-bi/)
+- [On-premises data gateway (オンプレミス データ ゲートウェイ)](../connect-data/service-gateway-onprem.md)
 - [Power BI 国内クラウド](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Power BI からオンプレミス データ ソースへの SSO での Kerberos の使用](../connect-data/service-gateway-sso-overview.md)

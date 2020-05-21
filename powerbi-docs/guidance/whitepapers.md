@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2019
+ms.date: 05/19/2020
 ms.author: maggies
-ms.openlocfilehash: 8b103902f7a151dcbfee9fa6ff54830129a65c14
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 98b5323efa8b6c6c0e1d6f1dbab640fe5f4cae4c
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279068"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693977"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
 ホワイト ペーパーを読めば、Power BI のトピックの詳細がわかります。 Power BI について読むことができるホワイト ペーパーの一覧を次に示します。
 
-| ホワイト ペーパー | 説明 | Date |
+| ホワイト ペーパー | Description | Date |
 | --- | --- | --- |
-| [Power BI のエンタープライズ展開の計画](https://go.microsoft.com/fwlink/?linkid=2057861) |これは、組織で効果的かつ安全に Power BI を展開するための考慮事項をまとめた技術白書です。 | 2018 年 7 月 |
+| [Power BI のエンタープライズ展開の計画](https://aka.ms/PBIEnterpriseDeploymentWP) |この更新された技術ホワイトペーパーでは、適切に実行され、セキュリティで保護された組織 Power BI 展開の考慮事項とベストプラクティスについて説明します。 | 2020 年 5 月 |
 | [Power BI and Dataflows (Power BI とデータフロー)](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| このホワイト ペーパーでは、データフローの技術的な詳細およびデータフロー機能の背後にある機能とイニシアティブについて説明します。 | 2018 年 11 月 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Power BI Premium の起動時の状態と展開方法について説明します。 | 2017 年 10 月 |
 | [Power BI Premium の計画と展開](whitepaper-powerbi-premium-deployment.md)| このホワイト ペーパーでは、適切に定義されたワークロードの Premium 容量を計画して展開するためのガイダンスとベスト プラクティスを提供します。| 2019 年 3 月 |
@@ -38,4 +38,4 @@ ms.locfileid: "83279068"
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
-その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
