@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565279"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792904"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI のセキュリティに関するホワイトペーパー
 
@@ -91,11 +91,11 @@ Power BI では、データの格納と管理に 2 つの主要なリポジト�
 
 ## <a name="tenant-creation"></a>テナントの作成
 
-テナントは、組織が Azure、Microsoft Intune、Power BI、Office 365 などの Microsoft クラウド サービスにサインアップすると受け取って所有する、Azure AD サービスの専用インスタンスです。 各 Azure AD テナントは、他の Azure AD テナントと区別され分離されています。
+テナントは、組織が Azure、Microsoft Intune、Power BI、Microsoft 365 などの Microsoft クラウドサービスにサインアップするときに受信および所有する Azure AD サービスの専用インスタンスです。 各 Azure AD テナントは、他の Azure AD テナントと区別され分離されています。
 
 テナントは、企業内のユーザーおよびパスワード、ユーザー プロファイル データ、アクセス許可などのユーザーに関する情報を保持しています。 また、グループ、アプリケーション、および組織とそのセキュリティに関するその他の情報も含まれます。 詳細については、「 [Azure AD テナントとは](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)」を参照してください。
 
-Power BI テナントは、Office 365 または Power BI サービスが最初にプロビジョニングされるときに Azure Active Directory のテナントに対して提供された、国 (または地域) および州や都道府県などの情報に最も近いと見なされるデータセンターに作成されます。 現在、Power BI テナントはそのデータセンターの場所からは移動されません。
+Power BI テナントは、Azure Active Directory のテナントに対して指定された国 (または地域) と状態情報に最も近いデータセンターに作成されます。これは Microsoft 365 または Power BI サービスが最初にプロビジョニングされたときに提供されます。 現在、Power BI テナントはそのデータセンターの場所からは移動されません。
 
 ### <a name="multiple-geographies-multi-geo"></a>複数の地域 (Multi-Geo)
 
@@ -129,7 +129,7 @@ Power BI は、リージョンのデータセンターで Power BI クラスタ�
 
 ## <a name="user-authentication"></a>ユーザー認証
 
-Power BI サービスに対するユーザーの認証は、ユーザーのブラウザーと Power BI サービスまたは Power BI で使用される Azure サービスの間で行われる、一連の要求、応答、リダイレクトで構成されます。 そのシーケンスでは、Power BI でのユーザー認証のプロセスが示されています。 組織のユーザー認証モデル (サインイン モデル) のオプションについて詳しくは、「[Choosing a sign-in model for Office 365 (Office 365 のサインイン モデルの選択)](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)」をご覧ください。
+Power BI サービスに対するユーザーの認証は、ユーザーのブラウザーと Power BI サービスまたは Power BI で使用される Azure サービスの間で行われる、一連の要求、応答、リダイレクトで構成されます。 そのシーケンスでは、Power BI でのユーザー認証のプロセスが示されています。 組織のユーザー認証モデル (サインインモデル) のオプションの詳細については、「 [Microsoft 365 のサインインモデルの選択](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)」を参照してください。
 
 ### <a name="authentication-sequence"></a>認証シーケンス
 
@@ -241,13 +241,13 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
 * Azure Blob ストレージの保存データの場合、Power BI では、クライアント側の暗号化と、ストレージにデータを転送するための HTTPS が使用されます。これにはデータの取得中の整合性チェックが含まれます。 Azure Blob ストレージのセキュリティの詳細については、[こちら](https://azure.microsoft.com/documentation/articles/storage-security-guide/)を参照してください。
 
-#### <a name="reports"></a>レポート
+#### <a name="reports"></a>Reports
 
 1. メタデータ (レポートの定義)
 
-   a. レポートは、Excel for Office 365 レポートまたは Power BI レポートのいずれかとすることができます。 レポートの種類に基づいて、メタデータには次が適用されます。
+   a. レポートは、Microsoft 365 レポートの場合は Excel、レポートの場合は Power BI のいずれかになります。 レポートの種類に基づいて、メタデータには次が適用されます。
         
-    &ensp;&ensp;。 Excel レポートのメタデータは、SQL Azure に暗号化されて格納されます。 メタデータは、Office 365 にも格納されます。
+    &ensp;&ensp;。 Excel レポートのメタデータは、SQL Azure に暗号化されて格納されます。 メタデータも Microsoft 365 に格納されます。
 
     &ensp;&ensp;b。 Power BI のレポートは、Azure SQL database に暗号化されて格納されます。
 
@@ -255,13 +255,13 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
 
    静的データには、背景画像や Power BI ビジュアルなどの成果物が含まれます。
 
-    &ensp;&ensp;。 Excel for Office 365 で作成されたレポートの場合は、何も格納されません。
+    &ensp;&ensp;。 Microsoft 365 のために Excel で作成されたレポートの場合、何も保存されません。
 
     &ensp;&ensp;b。 Power BI レポートの場合、静的データは Azure Blob ストレージで暗号化されて格納されます。
 
 3. キャッシュ
 
-    &ensp;&ensp;。 Excel for Office 365 で作成されたレポートの場合は、何もキャッシュされません。
+    &ensp;&ensp;。 Microsoft 365 のために Excel で作成されたレポートの場合、何もキャッシュされません。
 
     &ensp;&ensp;b。 Power BI レポートの場合、表示されるレポートのビジュアルのデータはキャッシュされ、次のセクションで説明するビジュアルデータキャッシュに格納されます。
  
