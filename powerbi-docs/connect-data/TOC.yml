@@ -174,7 +174,7 @@
           items:
             - name: ワークスペースをまたいでデータセットを使用
               href: service-datasets-across-workspaces.md
-            - name: データセットの共有 (プレビュー)
+            - name: データセットの共有
               href: service-datasets-share.md
             - name: 共有データセットのビルド アクセス許可
               href: service-datasets-build-permissions.md
