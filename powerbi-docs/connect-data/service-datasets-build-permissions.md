@@ -1,22 +1,22 @@
 ---
-title: 共有データセットのビルド アクセス許可 (プレビュー)
+title: 共有データセットのビルド アクセス許可
 description: ビルド アクセス許可を使用して、データに対するアクセスを制御する方法について学習します。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af2e4c865609846d8fcfc792eee4f483afef2160
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 84f6a9d152151c6d6f44bcbad9e0a4d54fc0c293
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285350"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793007"
 ---
-# <a name="build-permission-for-shared-datasets-preview"></a>共有データセットのビルド アクセス許可 (プレビュー)
+# <a name="build-permission-for-shared-datasets"></a>共有データセットのビルド アクセス許可
 
 Power BI Desktop でレポートを作成する場合、そのレポート内のデータは "*データ モデル*" に格納されます。 Power BI サービスにレポートをパブリッシュすると、データを "*データセット*" としてもパブリッシュすることになります。 他のユーザーにそのレポートに対する "*ビルド アクセス許可*" を付与すると、共有したデータセットを検出して再利用できるようにすることができます。 この記事では、ビルド アクセス許可を使用して、データに対するアクセスを制御する方法について説明します。
 
@@ -105,7 +105,7 @@ Power BI では、既存のアクセス許可である読み取りと再共有�
 
 ビルド アクセス許可を削除できます。 この場合、アクセス許可を取り消したユーザーは、引き続きレポートを表示できますが、レポートを編集したり、基になるデータをエクスポートしたりすることはできなくなります。 読み取りアクセス許可のみを持つユーザーは、集計データを引き続きエクスポートできます。 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
-- [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
-- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- [ワークスペースをまたいでデータセットを使用](service-datasets-across-workspaces.md)
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
