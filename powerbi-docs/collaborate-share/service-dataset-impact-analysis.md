@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dd7387bcb008d10ec8887ac777431b5423d43f4c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274859"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120321"
 ---
 # <a name="dataset-impact-analysis"></a>データセットの影響分析
 
@@ -54,7 +54,7 @@ ms.locfileid: "83274859"
 
 ## <a name="notify-contacts"></a>連絡先に通知
 
-データセットに変更を加えた場合、または変更を検討している場合は、関連するユーザーに連絡し、それについて通知することができます。 連絡先に通知すると、影響を受けるすべてのワークスペースの[連絡先一覧](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)にメールが送信されます。 メールには送信元の名前が表示されるので、連絡先でそれを確認し、新しいメール スレッドで返信することができます。 
+データセットに変更を加えた場合、または変更を検討している場合は、関連するユーザーに連絡し、それについて通知することができます。 連絡先に通知すると、影響を受けるすべてのワークスペースの[連絡先一覧](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list)にメールが送信されます。 メールには送信元の名前が表示されるので、連絡先でそれを確認し、新しいメール スレッドで返信することができます。 
 
 1. 影響分析作業ウィンドウの **[Notify contacts]\(連絡先に通知\)** をクリックします。 [Notify contacts]\(連絡先に通知\) ダイアログが表示されます。
 
