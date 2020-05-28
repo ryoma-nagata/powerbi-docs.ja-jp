@@ -52,6 +52,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: Power BI ビジュアルを AppSource に発行する
           href: office-store.md
+        - name: R を利用したビジュアルを作成する
+          href: create-r-based-power-bi-desktop.md
         - name: Power BI のビジュアルをテストする
           href: submission-testing.md
         - name: Power BI で R を利用した Power BI ビジュアルを使用する
