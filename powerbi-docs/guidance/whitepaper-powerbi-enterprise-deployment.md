@@ -29,7 +29,7 @@ ms.locfileid: "83694269"
 
 * [**Power BI のエンタープライズ展開の計画に関するホワイト ペーパー**](https://aka.ms/PBIEnterpriseDeploymentWP)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI の詳細については、次のリソースを参照してください。
 
