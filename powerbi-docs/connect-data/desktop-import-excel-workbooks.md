@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a9880eea0511b942c3c7310a059caf5cd9415e1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 68dce4919dcc15cfcdd6a7c6776d569e43f9666b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292066"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561744"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Power BI Desktop に Excel ブックをインポートする
 Power BI Desktop を使用すると、Power Query のクエリ、Power Pivot のモデル、Power View のワークシートが格納されている Excel ブックを Power BI Desktop に簡単にインポートできます。 Power BI Desktop では、Excel ブックに基づいて自動的にレポートが作成され、データが可視化されます。 インポート後も引き続き、作成されたレポートを Power BI Desktop で改良したり、能率化したりできます。その際、既存の機能や毎月の Power BI Desktop 更新でリリースされる新しい機能をご利用いただけます。
@@ -30,7 +30,7 @@ Power BI Desktop を使用すると、Power Query のクエリ、Power Pivot の
    現在のところ、ブック内のオブジェクトのサイズや数に制限はありませんが、ブックが大きくなればなるほど、Power BI Desktop で分析とインポートに要する時間がそれだけ増加します。
 
    > [!NOTE]
-   > [OneDrive for Business の共有] フォルダーまたは [Office 365 グループ] フォルダーから Excel ファイルを読み込むかインポートするには、Excel ファイルの URL を使用し、それを Power BI Desktop の Web データ ソースに入力します。 OneDrive for Business URL を適切にフォーマットするには、いくつかの手順に従う必要があります。詳細と一連の適切な手順については、「[Power BI Desktop で OneDrive for Business リンクを使用する](desktop-use-onedrive-business-links.md)」を参照してください。
+   > OneDrive for Business の共有フォルダーまたは Microsoft 365 グループ フォルダーから Excel ファイルを読み込むかインポートするには、Excel ファイルの URL を使用し、それを Power BI Desktop の Web データ ソースに入力します。 OneDrive for Business URL を適切にフォーマットするには、いくつかの手順に従う必要があります。詳細と一連の適切な手順については、「[Power BI Desktop で OneDrive for Business リンクを使用する](desktop-use-onedrive-business-links.md)」を参照してください。
    > 
    > 
 
