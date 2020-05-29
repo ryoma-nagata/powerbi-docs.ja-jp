@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 4524e7c6cb8297f3c9bf71284140ddc31b38e33f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275411"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564388"
 ---
 # <a name="power-bi-security"></a>Power BI のセキュリティ
 
@@ -30,7 +30,7 @@ Power BI のそれぞれのデプロイは、Web フロントエンド (**WFE**)
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
-**バックエンド** クラスターは、認証されたクライアントが Power BI サービスと対話する方法を決定します。 **バックエンド** クラスターでは、視覚エフェクト、ユーザー ダッシュボード、データセット、レポート、データ ストレージ、データ接続、データの更新をはじめ、Power BI サービスと対話するためのさまざまな側面を管理します。 **ゲートウェイ ロール** は、ユーザーの要求と Power BI サービス間のゲートウェイとして機能します。 ユーザーは、 **ゲートウェイ ロール**以外のすべてのロールと直接対話することはありません。 **ゲートウェイ ロール**を最終的に処理するのは、**Azure API Management** です。
+**バックエンド** クラスターは、認証されたクライアントが Power BI サービスと対話する方法を決定します。 **バックエンド** クラスターでは、視覚エフェクト、ユーザー ダッシュボード、データセット、レポート、データ ストレージ、データ接続、データの更新をはじめ、Power BI サービスと対話するためのさまざまな側面を管理します。 **ゲートウェイ ロール** は、ユーザーの要求と Power BI サービス間のゲートウェイとして機能します。 ユーザーは、 **ゲートウェイ ロール**以外のすべてのロールと直接対話することはありません。 **ゲートウェイ ロール** を最終的に処理するのは、 **Azure API Management**です。
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
@@ -45,9 +45,9 @@ Power BI では、データの格納と管理に 2 つの主要なリポジト�
 
 ## <a name="user-authentication"></a>ユーザーの認証
 
-Power BI では、Power BI サービスにサインインするユーザーを Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) を使用して認証します。その後、認証が必要なリソースにユーザーがアクセスしようとするたびに、Power BI ログイン資格情報が使用されます。 ユーザーは、Power BI アカウントを確立するために使用されたメール アドレスを使って、Power BI サービスにサインインします。Power BI ではそのログイン メールを*有効なユーザー名*として使用します。このユーザー名は、ユーザーがデータに接続しようとするたびにリソースに渡されます。 その後、*有効なユーザー名*は*ユーザー プリンシパル名* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) にマップされ、認証の適用対象となる、関連付けられた Windows ドメイン アカウントに解決されます。
+Power BI では、Power BI サービスにサインインするユーザーを Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) を使用して認証します。その後、認証が必要なリソースにユーザーがアクセスしようとするたびに、Power BI ログイン資格情報が使用されます。 ユーザーは、Power BI アカウントを確立するために使用されたメール アドレスを使って、Power BI サービスにサインインします。Power BI ではそのログイン メールを*有効なユーザー名*として使用します。このユーザー名は、ユーザーがデータに接続しようとするたびにリソースに渡されます。 その後、"*有効なユーザー名*" は[ "*ユーザー プリンシパル名*" (UPN)](/windows/win32/secauthn/user-name-formats) にマップされ、認証の適用対象となる、関連付けられた Windows ドメイン アカウントに解決されます。
 
-Power BI のログインに職場の電子メール (<em>david@contoso.com</em> など) を使用する組織では、"*有効なユーザー名*" から UPN へのマッピングは簡単です。 Power BI のログインに職場の電子メール (<em>david@contoso.onmicrosoft.com</em> など) を使用しない組織では、AAD とオンプレミスの資格情報との間のマッピングが適切に機能するために、[ディレクトリ同期](https://technet.microsoft.com/library/jj573653.aspx)が必要になります。
+Power BI のログインに職場の電子メール (<em>david@contoso.com</em> など) を使用する組織では、"*有効なユーザー名*" から UPN へのマッピングは簡単です。 Power BI のログインに職場の電子メール (<em>david@contoso.onmicrosoft.com</em> など) を使用しない組織では、AAD とオンプレミスの資格情報との間のマッピングが適切に機能するために、[ディレクトリ同期](/azure/active-directory-domain-services/synchronization)が必要になります。
 
 また、Power BI のプラットフォーム セキュリティには、マルチテナント環境のセキュリティ、ネットワーク セキュリティ、その他の AAD ベースのセキュリティ対策を追加する機能も含まれています。
 
@@ -68,4 +68,3 @@ Power BI のログインに職場の電子メール (<em>david@contoso.com</em> 
 **Power BI Desktop** では、これらの記事で説明されているレジストリ キー設定が優先され、また、存在する場合はこれらのレジストリ キー設定に基づいて許可される TLS のバージョンを使用して作成された接続のみが優先されます。
 
 これらのレジストリ キーの設定については詳しくは、[TLS レジストリ設定](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)に関する記事を参照してください。
-

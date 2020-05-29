@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291928"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563054"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop 経由で Project Online データに接続する
 Power BI Desktop を経由して Project Online のデータに接続することができます。
 
-## <a name="step-1-download-power-bi-desktop"></a>手順 1: Power BI Desktop をダウンロードする
+## <a name="step-1-download-power-bi-desktop"></a>手順 1:Power BI Desktop をダウンロードする
 1. [Power BI Desktop をダウンロード](https://go.microsoft.com/fwlink/?LinkID=521662)し、インストーラーを実行して **Power BI Desktop** をコンピューターにインストールします。
 
-## <a name="step-2-connect-to-project-online-with-odata"></a>手順 2: OData を使用して Project Online に接続する
+## <a name="step-2-connect-to-project-online-with-odata"></a>手順 2:OData を使用して Project Online に接続する
 1. **Power BI Desktop** を開きます。
 2. *[ようこそ]* 画面で、 **[データの取得]** を選択します。
 3. **[OData フィード]** を選択し、 **[接続]** を選択します。
@@ -35,7 +35,7 @@ Power BI Desktop を経由して Project Online のデータに接続するこ�
 
     `https://contoso.sharepoint.com/sites/pwa/default.aspx`
 
-5. Power BI Desktop により、Office 365 アカウントを使用して認証するよう求められます。 組織アカウントを選択し、資格情報を入力します。
+5. Power BI Desktop により、職場または学校のアカウントを使用して認証するように求められます。 組織アカウントを選択し、資格情報を入力します。
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 

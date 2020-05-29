@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e621deb2cc2db74d8836900aa65105a075d4cd3c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c7d1c9a29c95cb039c90fd339f6e6a38de111916
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139639"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563692"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune でモバイル アプリを構成する
 
@@ -24,12 +24,12 @@ Microsoft Intune を使うと、組織でデバイスとアプリケーション
 
 この記事では、Intune が適切に構成されていることと、Intune に登録したデバイスがあることを想定しています。 この記事は、Microsoft Intune の構成に関する完全なガイドではありません。 Intune について詳しくは、「[Intune とは何か](/intune/introduction-intune/)」をご覧ください。
 
-Microsoft Intune は、Office 365 内でモバイル デバイス管理 (MDM) と共存できます。 MDM を使用している場合、デバイスは MDM に登録されているように表示されますが、Intune でも管理できます。
+Microsoft Intune は、Microsoft 365 内でモバイル デバイス管理 (MDM) と共存できます。 MDM を使用している場合、デバイスは MDM に登録されているように表示されますが、Intune でも管理できます。
 
 > [!NOTE]
 > Intune を構成した後は、iOS または Android デバイス上の Power BI モバイル アプリに対するバックグラウンド データ更新はオフになります。 アプリに移動すると、Web 上の Power BI サービスからデータが更新されます。
 
-## <a name="step-1-get-the-url-for-the-application"></a>手順 1: アプリケーションの URL を取得する
+## <a name="step-1-get-the-url-for-the-application"></a>手順 1:アプリケーションの URL を取得する
 
 Intune 内でアプリケーションを作成する前に、アプリの URL を取得する必要があります。 iOS の場合は、iTunes から取得します。 Android の場合は、Power BI モバイル ページから取得します。
 
@@ -55,7 +55,7 @@ iOS 用のアプリ URL は、iTunes から取得する必要があります。
 
 Google Play への URL は、[Power BI モバイル ページ](https://powerbi.microsoft.com/mobile/)から取得できます。 **[ダウンロード元 Google Play]** を選択すると、アプリのページに移動します。 ブラウザーのアドレス バーから URL をコピーすることができます。 次に表示例を示します。 *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*
 
-## <a name="step-2-create-a-mobile-application-management-policy"></a>手順 2: モバイル アプリケーション管理ポリシーを作成する
+## <a name="step-2-create-a-mobile-application-management-policy"></a>手順 2:モバイル アプリケーション管理ポリシーを作成する
 
 モバイル アプリケーション管理ポリシーを利用すると、アクセスの暗証番号 (PIN) のようなアイテムを施行できます。 これは、Intune ポータル内で作成することができます。
 
@@ -71,7 +71,7 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
 1. ポリシーを編集して、アプリケーションに必要な制限を設定します。
 
-## <a name="step-3-create-the-application"></a>手順 3: アプリケーションを作成する
+## <a name="step-3-create-the-application"></a>手順 3:アプリケーションを作成する
 
 アプリケーションは、展開のために Intune に保存される参照、またはパッケージです。 アプリケーションを作成し、先ほど Google Play または iTunes から入手したアプリの URL を参照する必要があります。
 
@@ -91,7 +91,7 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
 1. **[発行元]** 、 **[名前]** 、 **[説明]** を入力します。 必要に応じて **[アイコン]** を提供することもできます。 **[カテゴリ]** は、"ポータル サイト アプリ" にします。 完了したら、 **[次へ]** を選びます。
 
-1. アプリの発行の種類を、 **[任意]** (既定値)、 **[iPad]** 、または **[iPhone]** の中から選びます。 既定では **[任意]** が表示され、どちらの種類のデバイスでも機能するようになります。 Power BI アプリの URL は、iPhone と iPad のどちらでも同じです。 **[次へ]** を選びます。
+1. アプリの発行の種類を、 **[任意]** (既定値)、 **[iPad]** 、または **[iPhone]** の中から選びます。 既定では **[任意]** が表示され、どちらの種類のデバイスでも機能するようになります。 Power BI アプリの URL は、iPhone と iPad のどちらでも同じです。 **[次へ]** を選択します。
 
 1. **[アップロード]** を選択します。
 
@@ -105,7 +105,7 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
 1. [手順 1](#step-1-get-the-url-for-the-application) で取得したアプリの URL を入力し、 **[次へ]** を選択します。
 
-    ![ソフトウェア セットアップ: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
+    ![ソフトウェア セットアップ:Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
 1. **[発行元]** 、 **[名前]** 、 **[説明]** を入力します。 必要に応じて **[アイコン]** を提供することもできます。 **[カテゴリ]** は、"ポータル サイト アプリ" にします。 完了したら、 **[次へ]** を選びます。
 
@@ -115,7 +115,7 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
     ![[アプリ] タブ](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
-## <a name="step-4-deploy-the-application"></a>手順 4: アプリケーションを展開する
+## <a name="step-4-deploy-the-application"></a>手順 4:アプリケーションを展開する
 
 アプリケーションを追加した後は、それを展開して、エンドユーザーが入手できるようにする必要があります。 この手順で、先ほど作成したポリシーをアプリにバインドします。
 
@@ -125,19 +125,19 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
     ![展開の管理](media/service-admin-mobile-intune/intune-deploy-ios1.png)
 
-1. **[グループの選択]** 画面で、このアプリの展開先にするグループを選びます。 **[次へ]** を選びます。
+1. **[グループの選択]** 画面で、このアプリの展開先にするグループを選びます。 **[次へ]** を選択します。
 
 1. **[展開アクション]** 画面で、このアプリを展開する方法を選びます。 **[利用可能なインストール]** または **[必須のインストール]** を選ぶと、ポータル サイトからユーザーが必要に応じてアプリをインストールできるようになります。 選び終えたら、 **[次へ]** を選びます。
 
     ![展開アクション](media/service-admin-mobile-intune/intune-deploy-ios2.png)
 
-1. **[モバイル アプリの管理]** 画面で、先ほど[手順 2](#step-2-create-a-mobile-application-management-policy) で作成したモバイル アプリの管理ポリシーを選びます。 作成したものが使用可能な唯一の iOS ポリシーの場合は、そのポリシーが既定値になります。 **[次へ]** を選びます。
+1. **[モバイル アプリの管理]** 画面で、先ほど[手順 2](#step-2-create-a-mobile-application-management-policy) で作成したモバイル アプリの管理ポリシーを選びます。 作成したものが使用可能な唯一の iOS ポリシーの場合は、そのポリシーが既定値になります。 **[次へ]** を選択します。
 
     ![モバイル アプリの展開](media/service-admin-mobile-intune/intune-deploy-ios3.png)
 
-1. **[VPN プロファイル]** 画面で、組織にポリシーがある場合は、1 つ選択できます。 既定値は **[なし]** です。 **[次へ]** を選びます。
+1. **[VPN プロファイル]** 画面で、組織にポリシーがある場合は、1 つ選択できます。 既定値は **[なし]** です。 **[次へ]** を選択します。
 
-1. **[モバイル アプリの構成]** 画面で、 **[アプリの構成ポリシー]** を選びます (作成してある場合)。 既定値は **[なし]** です。 これは必須ではありません。 **[完了]** を選びます。
+1. **[モバイル アプリの構成]** 画面で、 **[アプリの構成ポリシー]** を選びます (作成してある場合)。 既定値は **[なし]** です。 これは必須ではありません。 **[完了]** を選択します。
 
 アプリを展開した後は、アプリのページで展開済みが **[はい]** と表示されるはずです。
 
@@ -146,19 +146,19 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 1. [アプリ] 画面で、作成したアプリを選びます。 次に、 **[展開の管理...]** リンクを選びます。
 
     ![展開の管理](media/service-admin-mobile-intune/intune-deploy-android1.png)
-1. **[グループの選択]** 画面で、このアプリの展開先にするグループを選びます。 **[次へ]** を選びます。
+1. **[グループの選択]** 画面で、このアプリの展開先にするグループを選びます。 **[次へ]** を選択します。
 
 1. **[展開アクション]** 画面で、このアプリを展開する方法を選びます。 **[利用可能なインストール]** または **[必須のインストール]** を選ぶと、ポータル サイトからユーザーが必要に応じてアプリをインストールできるようになります。 選び終えたら、 **[次へ]** を選びます。
 
     ![展開アクション](media/service-admin-mobile-intune/intune-deploy-android2.png)
 
-1. **[モバイル アプリの管理]** 画面で、先ほど[手順 2](#step-2-create-a-mobile-application-management-policy) で作成したモバイル アプリの管理ポリシーを選びます。 作成したものが使用可能な唯一の Android ポリシーの場合は、そのポリシーが既定値になります。 **[完了]** を選びます。
+1. **[モバイル アプリの管理]** 画面で、先ほど[手順 2](#step-2-create-a-mobile-application-management-policy) で作成したモバイル アプリの管理ポリシーを選びます。 作成したものが使用可能な唯一の Android ポリシーの場合は、そのポリシーが既定値になります。 **[完了]** を選択します。
 
     ![モバイル アプリの展開](media/service-admin-mobile-intune/intune-deploy-android3.png)
 
 アプリを展開した後は、アプリのページで展開済みが **[はい]** と表示されるはずです。
 
-## <a name="step-5-install-the-application-on-a-device"></a>手順 5: アプリケーションをデバイスにインストールする
+## <a name="step-5-install-the-application-on-a-device"></a>手順 5:アプリケーションをデバイスにインストールする
 
 アプリケーションは、*Intune ポータル サイト* アプリを使用してインストールします。 ポータル サイト アプリをまだインストールしていない場合は、iOS プラットフォームまたは Android プラットフォームのどちらかでアプリケーション ストアを介して入手できます。 ポータル サイトには、組織のログインを使ってサインインします。
 
@@ -172,7 +172,7 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
     ![Power BI アプリ](media/service-admin-mobile-intune/intune-companyportal2.png)
 
-1. **[インストール]** を選びます。
+1. **[インストール]** を選択します。
 
     ![アプリをインストールする](media/service-admin-mobile-intune/intune-companyportal3.png)
 
@@ -190,4 +190,4 @@ Google Play への URL は、[Power BI モバイル ページ](https://powerbi.m
 
 [モバイル デバイス用 Power BI アプリ](../consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。  
+その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。  

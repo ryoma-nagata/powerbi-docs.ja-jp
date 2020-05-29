@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3fdb969888d023ca9683c2460086f2fb8157c3c3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a48d83223ab02d2f9f043dde2facebd6ad73c27a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304555"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565674"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI サービスのほとんどすべてのものを削除する
 この記事では、Power BI サービスでダッシュボード、レポート、ブック、データセット、アプリ、視覚化、ワークスペースを削除する方法について説明します。
@@ -82,7 +82,7 @@ ms.locfileid: "83304555"
 
 ## <a name="delete-a-workspace"></a>ワークスペースの削除
 > [!WARNING]
-> ワークスペースを作成するときは、Office 365 グループを作成します。 そして、ワークスペースを削除するときは、その Office 365 グループを削除します。 つまり、SharePoint や Microsoft Teams などの他の O365 製品からもグループが削除されます。
+> ワークスペースを作成するときは、Microsoft 365 グループを作成します。 そして、ワークスペースを削除するときは、その Microsoft 365 グループを削除します。 つまり、SharePoint や Microsoft Teams などの他の Microsoft 365 製品からもグループが削除されます。
 >
 >
 

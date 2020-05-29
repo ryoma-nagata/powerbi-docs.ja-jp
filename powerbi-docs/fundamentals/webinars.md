@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 05/18/2020
 ms.author: kfollis
-ms.openlocfilehash: 7ed9f22f262e03885681cf2fdc36867533837cdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360924"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566042"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 [//]: # "Tatevik Tatero は Chauncy Freels と業務提携するベンダーであり、このウェビナー リストの維持を手伝っています"
@@ -22,13 +22,20 @@ ms.locfileid: "83360924"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-まだウェビナーの予定はありません。 今後のイベントについては、またそのうちにご確認ください。
+**Analytics と BI の違いは何か**
+<br>講師: Nate Findley および Charles Feddersen (Microsoft)
+<br>[2020 年 6 月 3 日、午前 10 時 00 分から午前 11 時 00 分まで (太平洋夏時間) に視聴できるように登録する]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
+
 
 >[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>おすすめのウェビナー
 
 最初に、次の人気のオンデマンド ウェビナーをご覧ください。
+
+**Microsoft Power BI がもたらす総合的な経済効果を調べる**
+<br>講師: Megan Tomlin (Microsoft)、Jonathan Lipsitz (Forrester Consulting)
+<br>[今すぐ見る]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **Azure 仮想イベントの分析: Azure Synapse Analytics を使用して分析情報の取得時間の短縮**
 <br>講師: Gayle Sheppard および John Macintyre
@@ -86,7 +93,7 @@ ms.locfileid: "83360924"
 <br>作成者: Nimrod Shalit
 <br>[登録して今すぐ見る](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI、Excel、Office 365:企業データを最適化する**
+**Power BI、Excel、Microsoft 365:企業データを最適化する**
 <br>作成者: Olaf Hubel と Miguel Martinez
 <br>[登録して今すぐ見る](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 

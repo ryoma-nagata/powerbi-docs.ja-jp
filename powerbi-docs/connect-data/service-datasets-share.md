@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba0e04ff4cd56566f7d33445fafa7c8cfcc6b7ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284798"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565462"
 ---
 # <a name="share-a-dataset-preview"></a>データセットを共有する (プレビュー)
 
@@ -24,7 +24,7 @@ Power BI Desktop の "*データ モデル*" の作成者であれば、Power BI
 
 1. まず、Power BI Desktop でデータ モデルを使用して .pbix ファイルを作成します。 他のユーザーがレポートを作成できるようにこのデータセットを提供する予定の場合、.pbix ファイルではレポートをデザインすることもできない可能性があります。
 
-    ベスト プラクティスは、.pbix ファイルを Office 365 グループに保存することです。
+    ベスト プラクティスは、.pbix ファイルを Microsoft 365 グループに保存することです。
 
 1. Power BI サービスの[新しいエクスペリエンス ワークスペース](../collaborate-share/service-create-the-new-workspaces.md)に .pbix ファイルを発行します。
     
@@ -51,7 +51,7 @@ Power BI Desktop の "*データ モデル*" の作成者であれば、Power BI
  
     ![[関連コンテンツ] ダイアログ ボックス](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 - [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
-- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 09b2f8afd78eda244a6862459a85558efa0fa1c2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129329"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564497"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -130,7 +130,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 * [組織内のコンテンツを編集および管理できるゲスト ユーザー](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)は、一部のエクスペリエンスを利用できません。 これらのユーザーがレポートを更新または発行するには、[データの取得] などの Power BI サービスの Web UI を使用して、Power BI Desktop ファイルをアップロードする必要があります。  次のエクスペリエンスはサポートされていません。
     * Power BI Desktop から Power BI サービスに直接発行することはできません。
     * ゲスト ユーザーは、Power BI Desktop を使用して Power BI サービス内のサービス データセットに接続することができません
-    * Office 365 グループに関連付けられた従来のワークスペース: 
+    * Microsoft 365 グループに関連付けられた従来のワークスペース:
         * ゲスト ユーザーは、これらのワークスペースを作成したり、その管理者になったりすることはできません
         * ゲスト ユーザーはメンバーであってもかまいません
     * ワークスペース アクセス リストに対して、アドホック招待の送信はサポートされていません

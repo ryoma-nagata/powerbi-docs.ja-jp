@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f4bf863d7d87bd908165976940b868be55e367f9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6155453f00ae64eee2cf74db7426b36248def796
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138483"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564411"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium で容量を構成および管理する
 
@@ -24,11 +24,11 @@ Power BI Premium および Power BI Embedded の容量を管理する方法に�
 
 ![Power BI の容量設定画面](media/service-admin-premium-manage/premium-capacity-management.png)
 
-*容量*は Power BI Premium および Power BI Embedded サービスの中核となるものです。 これは、組織専用に予約されたリソースのセットです。 専用の容量を持つことで、組織全体のユーザー用にユーザーごとのライセンスを購入しなくても、これらのユーザーに対してダッシュボード、レポート、データセットを公開できます。 また、それによって、容量内でホストされているコンテンツに対して信頼性の高い、一貫性のあるパフォーマンスも提供されます。 詳しくは、「[Power BI Premium - what is it?](../service-premium.md)」 (Power BI Premium とは) を参照してください。
+*容量*は Power BI Premium および Power BI Embedded サービスの中核となるものです。 これは、組織専用に予約されたリソースのセットです。 専用の容量を持つことで、組織全体のユーザー用にユーザーごとのライセンスを購入しなくても、これらのユーザーに対してダッシュボード、レポート、データセットを公開できます。 また、それによって、容量内でホストされているコンテンツに対して信頼性の高い、一貫性のあるパフォーマンスも提供されます。 詳しくは、「[Power BI Premium - what is it?](service-premium-what-is.md)」 (Power BI Premium とは) を参照してください。
 
 ## <a name="manage-capacity"></a>容量の管理
 
-Office 365 で容量ノードを購入したら、Power BI 管理ポータルで容量を設定します。 ポータルの **[容量の設定]** セクションで、Power BI Premium 容量を管理します。
+Microsoft 365 で容量ノードを購入したら、Power BI 管理ポータルで容量を設定します。 ポータルの **[容量の設定]** セクションで、Power BI Premium 容量を管理します。
 
 ![管理ポータルでの容量の設定](media/service-admin-premium-manage/admin-portal-premium.png)
 
@@ -60,7 +60,7 @@ Office 365 で容量ノードを購入したら、Power BI 管理ポータルで
 
     ![新しい容量の設定](media/service-admin-premium-manage/set-up-capacity.png)
 
-容量管理者、および Power BI 管理者と Office 365 全体管理者は、管理ポータル内に一覧表示される容量を確認できます。
+容量管理者、および Power BI 管理者とグローバル管理者は、管理ポータル内に一覧表示される容量を確認できます。
 
 ### <a name="capacity-settings"></a>容量の設定
 
@@ -81,7 +81,7 @@ Office 365 で容量ノードを購入したら、Power BI 管理ポータルで
 
 ### <a name="change-capacity-size"></a>容量サイズの変更
 
-Power BI 管理者と Office 365 全体管理者は、Power BI Premium の容量を変更できます。 Power BI 管理者または Office 365 全体管理者ではない容量管理者は、これを行うことはできません。
+Power BI 管理者とグローバル管理者は、Power BI Premium の容量を変更できます。 Power BI 管理者またはグローバル管理者ではない容量管理者がこれを行うことはできません。
 
 1. **[容量サイズを変更します]** を選択します。
 
@@ -118,7 +118,7 @@ Power BI 管理者と Office 365 全体管理者は、Power BI Premium の容量
 
 ### <a name="assign-from-the-admin-portal"></a>管理ポータルで割り当てる
 
-容量管理者と、Power BI 管理者および Office 365 全体管理者は、管理ポータルの Premium 容量管理セクション内でワークスペースを一括で割り当てることができます。 容量を管理するときに、 **[ワークスペース]** セクションが表示され、ここでワークスペースを割り当てることができます。
+容量管理者と、Power BI 管理者およびグローバル管理者は、管理ポータルの Premium 容量管理セクション内でワークスペースを一括で割り当てることができます。 容量を管理するときに、 **[ワークスペース]** セクションが表示され、ここでワークスペースを割り当てることができます。
 
 ![容量管理のワークスペース割り当て領域](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 

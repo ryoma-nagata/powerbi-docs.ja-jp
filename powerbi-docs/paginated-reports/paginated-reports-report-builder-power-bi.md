@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/27/2019
-ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/14/2020
+ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144750"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565508"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium のページ分割されたレポートとは
 
@@ -76,7 +76,7 @@ Power BI サービスのページ分割されたレポートに対して自分�
 
 - レポート ページまたはビジュアルの Power BI ダッシュボードへのピン留め。 Power BI Report Server または Reporting Services のレポート サーバー上のオンプレミスのページ分割されたレポートから視覚エフェクトを Power BI ダッシュボードにピン留めすることは引き続き可能です。 詳しくは、[Reporting Services のアイテムの Power BI ダッシュボードへのピン留め](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)に関するページをご覧ください。
 - ドキュメント マップ。
-- サブレポートとドリルスルー レポート。  ただし、ドリルスルー シナリオを実現する目的で、URL パラメーターとページ分割されたレポートを使用することを検討できます。
+- ドリルスルー レポート。  ドリルスルーのシナリオには、ページ分割されたレポートでの URL パラメーターの使用を検討してください。
 - 共有データ ソースと共有データセット。
 
  
@@ -85,4 +85,4 @@ Power BI サービスのページ分割されたレポートに対して自分�
 - [Microsoft ダウンロード センターから Power BI レポート ビルダーをインストールする](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [チュートリアル: ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)
 - [ページ分割されたレポートに直接データを入力する](paginated-reports-enter-data.md)
-- [チュートリアル: 顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む](../developer/embed-paginated-reports-customers.md)
+- [チュートリアル: 顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む](../developer/embedded/embed-paginated-reports-customers.md)

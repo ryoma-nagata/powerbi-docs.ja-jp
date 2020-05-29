@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129976"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438018"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI のサインインに関する問題のトラブルシューティング
 
@@ -26,7 +26,7 @@ ms.locfileid: "83129976"
 
 まず、[Power BI のサポート ページ](https://powerbi.microsoft.com/support/)でサポート チケットを作成してみます。
 
-Power BI のサポート ページで操作できない場合は、[Office 365 のサポート ページ](https://support.office.com/home/contact)でチケットを作成してみます。
+Power BI のサポート ページでうまくいかない場合は、[Office サポート](https://support.office.com/home/contact)でチケットを作成してみてください。
 
 いずれのページでもチケットを作成できない場合、電話でサポートにお問い合わせください。
 
@@ -34,7 +34,7 @@ Power BI のサポート ページで操作できない場合は、[Office 365 �
 * ヨーロッパ、中東、アジア (EMEA) のお客様: +44-844-800-2400
 * インドのお客様: + 1-800-419-5666
 
-Microsoft サポートにヘルプを依頼するもう 1 つの選択肢としては、[Microsoft Premier サポート](https://support.microsoft.com/premier)を購入します。 お客様の組織が Microsoft Premier サポートを購入しているにもかかわらず、Power BI と Office 365 のどちらのチャネルからもケースを作成できない場合は、Premier サポートに電話でお問い合わせください。
+Microsoft サポートにヘルプを依頼するもう 1 つの選択肢としては、[Microsoft Premier サポート](https://support.microsoft.com/premier)を購入します。 お客様の組織が Microsoft Premier サポートを購入しているにもかかわらず、Power BI チャネルからも Office サポートからもケースを作成できない場合は、Premier サポートに電話でお問い合わせください。
 
 * 米国 (US) およびその他の南北アメリカのお客様: +1-800-936-3100
 * ヨーロッパ、中東、アジア (EMEA) のお客様: +44-844-800-8338
@@ -47,6 +47,6 @@ Microsoft サポートにヘルプを依頼するもう 1 つの選択肢とし�
 
 Power BI コミュニティ フォーラムで投稿を作成できない場合、フォーラムでもサインインが要求されることが原因です。 さらに詳しい情報については、[コミュニティ サポート](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport)を参照してください。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 [Power BI Pro と Power BI Premium のサポート オプション](service-support-options.md)

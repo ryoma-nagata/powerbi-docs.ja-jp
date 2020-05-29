@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c9f9c0f24ad40fadb7d0bd61cd6a6ce7d318e74
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178ad340a9a3ccd9d6427dc6bad03b6d8d08ce90
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297839"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694052"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Power BI でレポート間のドリルスルーを使用する
 
@@ -31,7 +31,7 @@ Power BI の "*レポート間のドリルスルー*" 機能を使用すると�
 この記事では、Power BI レポートでレポート間ドリルスルーを設定して使用する方法について説明します。
 
 > [!NOTE]
-> [[マイ ワークスペース]](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) 内で個別に共有されている**自分と共有レポート**でレポート間ドリルスルーを使用することはできません。 レポート間ドリルスルーを使用するには、共有元のワークスペースのレポートにアクセスする必要があります。
+> 個別に共有されている[自分と共有レポート](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report)でレポート間ドリルスルーを使用することはできません。 レポート間ドリルスルーを使用するには、自分がメンバーであるワークスペースのレポートにアクセスする必要があります。
 
 ## <a name="enable-cross-report-drillthrough"></a>レポート間のドリルスルーを有効にする
 
@@ -70,7 +70,7 @@ Power BI サービスからレポート間ドリルスルーを有効にする�
 1. ページをレポート間ドリルスルー用にのみ使用する場合は、キャンバスに自動的に追加される **[戻る]** ボタンを削除します。 **[戻る]** ボタンは、レポート内のナビゲーションに対してのみ機能します。 
 1. ターゲット ページを構成した後、Power BI サービスを使用している場合はレポートを保存し、Power BI Desktop を使用している場合はレポートを保存して発行します。
 
-これで終了です。 レポートでレポート間ドリルスルーを使用できるようになりました。 
+これで完了です。 レポートでレポート間ドリルスルーを使用できるようになりました。 
 
 ## <a name="use-cross-report-drillthrough"></a>クロス レポートのドリルスルーの使用
 
@@ -100,7 +100,7 @@ Power BI では、ターゲット レポートの固定フィルターは適用�
 
 レポート間のドリルスルー操作の後でソース レポートに戻る場合は、ブラウザーの **[戻る]** ボタンを使用します。 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 次の記事にも興味をもたれるかもしれません。
 

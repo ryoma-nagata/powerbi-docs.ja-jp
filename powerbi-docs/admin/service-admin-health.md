@@ -1,5 +1,5 @@
 ---
-title: Office 365 で Power BI のサービス正常性を追跡する
+title: Microsoft 365 で Power BI サービスの正常性を追跡する
 description: Microsoft 365 管理センターでサービスの現在および過去の正常性を表示する方法を説明します。
 author: kfollis
 ms.reviewer: ''
@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3498b893d7916c37d21e66908cbea4e6a919f978
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139742"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563708"
 ---
-# <a name="track-power-bi-service-health-in-office-365"></a>Office 365 で Power BI のサービス正常性を追跡する
+# <a name="track-power-bi-service-health-in-microsoft-365"></a>Microsoft 365 で Power BI サービスの正常性を追跡する
 
 Microsoft 365 管理センターでは、Power BI 管理者向けの重要なツールが提供されています。 そのツールには、サービスの正常性に関する最新の情報と履歴情報が含まれています。 サービス正常性情報にアクセスするには、次のどちらかのロールを割り当てられている必要があります。
 
 * Power BI サービス管理者
 
-* Office 365 全体管理者
+* グローバル管理者
 
 ロールについて詳しくは、「[Power BI に関連する管理者ロール](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)」をご覧ください。
 

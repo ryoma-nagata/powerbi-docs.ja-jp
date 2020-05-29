@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348277"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693577"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI でアプリを発行する
 
@@ -64,7 +64,7 @@ Power BI で公式のパッケージ化コンテンツを作成し、*アプリ*
 5. **[アクセス許可]** で、アプリへのアクセス許可を持っているユーザーと、そのアクセス許可で実行できる操作を決定します。 
 
     - [従来のワークスペース](service-create-workspaces.md): 組織内のすべてのユーザー、特定のユーザー、または Azure Active Directory (Azure AD) セキュリティ グループ。
-    - [新しいエクスペリエンス ワークスペース](service-create-the-new-workspaces.md): 特定のユーザー、Azure AD セキュリティ グループと配布リスト、および Office 365 グループ。 すべてのワークスペース ユーザーには、アプリのワークスペースへのアクセス許可が自動的に付与されます。
+    - [新しいエクスペリエンス ワークスペース](service-create-the-new-workspaces.md): 特定のユーザー、Azure AD セキュリティ グループと配布リスト、および Microsoft 365 グループ。 すべてのワークスペース ユーザーには、アプリのワークスペースへのアクセス許可が自動的に付与されます。
     - アプリ ユーザーに対して、ビルド アクセス許可を付与すると、アプリの基になっているデータセットへの接続を許可できます。 これらのデータセットは、共有データセットを検索しているときに表示されます。 詳細については、この記事内の「[ユーザーにデータセットへの接続を許可する](#allow-users-to-connect-to-datasets)」を参照してください。
     - ビルド アクセス許可を持つユーザーは、このアプリから別のワークスペースにレポートをコピーするアクセス許可を持つこともできます。 詳細については、この記事内の「[ユーザーにレポートのコピーを許可する](#allow-users-to-copy-reports)」を参照してください。
     

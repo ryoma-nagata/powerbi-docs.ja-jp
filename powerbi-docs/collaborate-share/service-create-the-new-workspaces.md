@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a362861aecda7fc9f7cac4820d4826d640a9dd6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 700b9a5dffc3abff00fb2ea738d0517a676a689b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144035"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693764"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI で新しいワークスペースを作成する
 
@@ -22,8 +22,8 @@ Power BI では、新しいワークスペース エクスペリエンスが導�
 
 ここでは、違いについて説明します。 新しいワークスペースでは、次の作業を行うことができます。
 
-- ワークスペース ロールをユーザー グループのセキュリティ グループ、配布リスト、Office 365 グループ、個人に割り当てる。
-- Office 365 グループを作成せずに、Power BI でワークスペースを作成する。
+- ワークスペース ロールをユーザー グループのセキュリティ グループ、配布リスト、Microsoft 365 グループ、個人に割り当てる。
+- Microsoft 365 グループを作成せずに、Power BI でワークスペースを作成する。
 - ワークスペースでより柔軟なアクセス許可の管理を行うために、より細分化されたワークスペース ロールを使用する。
 
 クラシック ワークスペースを移行する場合、 詳細については、「[Power BI でクラシック ワークスペースを新しいワークスペースにアップグレードする](service-upgrade-workspaces.md)」を参照してください。
@@ -43,7 +43,7 @@ Power BI では、新しいワークスペース エクスペリエンスが導�
    
      ![新しいワークスペース エクスペリエンス](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     **[クラシックに戻す]** を選択した場合は、[Office 365 グループに基づいてワークスペース](service-create-workspaces.md)を作成します。 
+     **[クラシックに戻す]** を選択した場合は、[Microsoft 365 グループに基づいてワークスペース](service-create-workspaces.md)を作成します。 
 
 2. ワークスペースの名前を付けます。 名前が使用できない場合は、一意の名前になるように編集します。
    
@@ -55,7 +55,7 @@ Power BI では、新しいワークスペース エクスペリエンスが導�
     
     [**連絡先リスト**を追加します](#workspace-contact-list)。 既定では、ワークスペース管理者が連絡先になります。 
     
-    URL ではなく、既存の Office 365 グループの名前だけを入力して、[**ワークスペース OneDrive** を指定します](#workspace-onedrive)。 このワークスペースでは、その Office 365 グループのファイル ストレージの場所を使用できます。 
+    URL ではなく、既存の Microsoft 365 グループの名前だけを入力して、[**ワークスペース OneDrive** を指定します](#workspace-onedrive)。 これで、このワークスペースでその Microsoft 365 グループのファイル ストレージの場所を使用できるようになりました。
 
     ![OneDrive の場所を指定する](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -87,9 +87,9 @@ Power BI では、新しいワークスペース エクスペリエンスが導�
 
 ## <a name="workspace-onedrive"></a>ワークスペース OneDrive
 
-ワークスペース OneDrive 機能を使用すると、ワークスペース ユーザーが使用できる SharePoint ドキュメント ライブラリ ファイル ストレージの Office 365 グループを構成できます。 最初に Power BI の外部にグループを作成します。 
+ワークスペース OneDrive 機能を使用すると、ワークスペース ユーザーが使用できる SharePoint ドキュメント ライブラリ ファイル ストレージを持つ Microsoft 365 グループを構成できます。 最初に Power BI の外部にグループを作成します。
 
-Office 365 グループ メンバーシップを使用して、ワークスペース アクセスが付与されるように構成されたユーザーまたはグループのアクセス許可は、Power BI では同期されません。 ベスト プラクティスは、ファイル ストレージをこの設定で構成する同じ Office 365 グループに、[ワークスペースへのアクセス権](#give-access-to-your-workspace)を付与することです。 次に、Office 365 グループのメンバーシップを管理して、ワークスペースへのアクセスを管理します。 
+Microsoft 365 グループ メンバーシップを使用してワークスペースにアクセスできるように構成されたユーザーまたはグループのアクセス許可は、Power BI では同期されません。 ベスト プラクティスは、この Microsoft 365 グループ設定で構成するファイル ストレージの Microsoft 365 グループと同じグループに、[ワークスペースへのアクセス権](#give-access-to-your-workspace)を付与することです。 次に、Microsoft 365 グループのメンバーシップを管理して、ワークスペースへのアクセスを管理します。
 
 1. 新しい**ワークスペース OneDrive** の設定には、次の 2 つの方法のいずれかでアクセスします。
 
@@ -99,7 +99,7 @@ Office 365 グループ メンバーシップを使用して、ワークスペ�
 
     ![ワークスペースの設定](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. **[詳細設定]**  >  **[ワークスペース OneDrive]** で、前に作成した Office 365 グループの名前を入力します。 Power BI によって、グループの OneDrive が自動的に取得されます。
+2. **[詳細設定]**  >  **[ワークスペース OneDrive]** で、前に作成した Microsoft 365 グループの名前を入力します。 Power BI によって、グループの OneDrive が自動的に取得されます。
 
     ![OneDrive の場所を指定する](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -129,7 +129,7 @@ OneDrive の場所を構成した後、Power BI サービスの他のデータ �
 
     ![ワークスペースのコンテンツ一覧](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. セキュリティ グループ、配布リスト、Office 365 グループ、または個人を閲覧者、メンバー、共同作成者、または管理者として、これらのワークスペースに追加します。 さまざまなロールの説明については、「[新しいワークスペースのロール](service-new-workspaces.md#roles-in-the-new-workspaces)」を参照してください。
+1. セキュリティ グループ、配布リスト、Microsoft 365 グループ、または個人を、これらのワークスペースに閲覧者、メンバー、共同作成者、または管理者として追加します。 さまざまなロールの説明については、「[新しいワークスペースのロール](service-new-workspaces.md#roles-in-the-new-workspaces)」を参照してください。
 
     ![ワークスペースでのメンバー、管理者、共同作成者の追加](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

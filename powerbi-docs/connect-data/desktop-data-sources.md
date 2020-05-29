@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5fb1b96f46761bf0c724abb8e36de8bb93634fdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f84fcc4b32468ab8ffddbb593ae97ea8fb20442a
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347656"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693632"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 
@@ -99,6 +99,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * InterSystems IRIS (ベータ)
 * Jethro (ベータ)
 * Kyligence
+* Linkar PICK スタイル / MultiValue Databases (ベータ)
 * MarkLogic
 
 > [!NOTE]
@@ -139,6 +140,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * HDInsight 対話型クエリ
 * Azure Data Explorer (Kusto)
 * Azure Cost Management
+* Azure Time Series Insights (ベータ)
 
 
 次の図は、 **[Azure]** の **[データの取得]** ウィンドウを示しています。
@@ -187,12 +189,13 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Industrial App Store
 * Intune データ ウェアハウス (ベータ)
 * Microsoft Graph Security (ベータ)
+* Power BI 用 Projectplace (ベータ)
 * Product Insights (ベータ)
 * Quick Base
 * TeamDesk (Beta)
-* Workplace Analytics (ベータ)
-* Power BI 用 Projectplace (ベータ)
 * Webtrends Analytics (ベータ)
+* Witivio (ベータ)
+* Workplace Analytics (ベータ)
 * Zoho Creator (ベータ)
 
 次の図は、 **[オンライン サービス]** の **[データの取得]** ウィンドウを示しています。
@@ -215,7 +218,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Python スクリプト
 * ODBC
 * OLE DB
-* BI360 - Budgeting & Financial Reporting (ベータ)
+* Solver
 * Cognite Data Fusion (ベータ)
 * FHIR
 * Information Grid (ベータ)
@@ -224,15 +227,14 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Paxata
 * QubolePresto (ベータ)
 * Roamler (ベータ)
+* Shortcuts Business Insights (ベータ)
 * Siteimprove
 * SurveyMonkey (ベータ)
+* Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (ベータ)
 * Vena (ベータ)
 * Workforce Dimensions (ベータ)
 * Zucchetti HR Infinity (ベータ)
-* Tenforce (Smart)List
-* Shortcuts Business Insights (ベータ)
-* Vessel Insight (ベータ)
 * 空のクエリ
 
 次の図は、 **[その他]** の **[データの取得]** ウィンドウを示しています。

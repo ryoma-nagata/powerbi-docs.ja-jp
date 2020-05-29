@@ -6,42 +6,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/08/2020
+ms.date: 05/13/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c0f4e8fd72f3808633cde64a880130798fabb173
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138297"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438146"
 ---
 # <a name="get-a-power-bi-subscription-for-your-organization"></a>組織に合った Power BI サブスクリプションを利用する
 
-Power BI には、管理者として [Power BI Web サイト](https://powerbi.microsoft.com)からサインアップすることができます。 Microsoft 365 管理センターの [サービスを購入する] ページからサインアップすることもできます。 管理者が Power BI にサインアップした場合は、アクセスする必要があるユーザーにライセンスを割り当てることができます。
+管理者は、Microsoft 365 管理センターの **[サービスを購入する]** ページから Power BI にサインアップすることができます。 管理者が Power BI にサインアップした場合は、アクセスする必要があるユーザーにライセンスを割り当てることができます。
 
-さらに、組織内の個々のユーザーは、Power BI Web サイトから Power BI にサインアップすることができます。 組織内のユーザーが Power BI にサインアップすると、そのユーザーに Power BI ライセンスが自動的に割り当てられます。 この機能を無効にする場合は、「[セルフサービスでのサインアップと購入を有効または無効にする](service-admin-disable-self-service.md)」の手順に従ってください。
-
-## <a name="sign-up-through-power-bi"></a>Power BI でサインアップする
-
-Power BI サブスクリプションにサインアップするには、職場または学校のアカウントが必要です。 コンシューマー電子メール サービスまたは通信プロバイダーが提供するメール アドレスはサポートされません。
-
-サインアップするには、次の手順に従います。
-
-1. [Power BI の Web サイト](https://powerbi.microsoft.com)に移動します。 **[無料試用版]** を選択します。
-2. 仕事用メール アドレスを入力して、 **[サインアップ]** を選択します。
-
-   ![Power BI の概要](media/service-admin-org-subscription/signup-get-started.png)
-
-3. 本人確認をします。 使用する確認コードを電話または SMS メッセージで送信します。
-4. **[はい]** を選択して、会社で取得した電子メール アドレスを使用していることを確認します。
-5. アカウントを作成します。 サインアップを完了させるために、電子メール アドレスに確認コードを送信します。
-
-   ![Power BI でのアカウントの作成](media/service-admin-org-subscription/org-signup.png)
+組織内のユーザーは、Power BI Web サイトから Power BI にサインアップできます。 組織内のユーザーが Power BI にサインアップすると、自動的に Power BI ライセンスが割り当てられます。 セルフサービス機能を無効にする場合は、「[セルフサービスでのサインアップと購入を有効または無効にする](service-admin-disable-self-service.md)」の手順に従ってください。
 
 ## <a name="sign-up-through-microsoft-365"></a>Microsoft 365 でサインアップする
 
-Microsoft 365 のグローバル管理者または課金管理者の場合は、組織に向けて Power BI サブスクリプションを取得できます。 詳細については、「[ライセンスの購入と割り当てが可能なユーザー](service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses)」を参照してください。
+グローバル管理者または課金管理者である場合は、組織に向けて Power BI サブスクリプションを取得できます。 詳細については、「[ライセンスの購入と割り当てが可能なユーザー](service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses)」を参照してください。
 
 > [!NOTE]
 >
@@ -71,7 +54,44 @@ Microsoft 365 管理センターで Power BI Pro ライセンスを購入する�
 
 8. 購入を確認するには、 **[課金]**  >  **[製品とサービス]** を参照し、 **[Power BI Pro]** を探します。
 
-組織で Power BI サービスを取得する方法に関する詳細については、「[組織内の Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)」を参照してください。
+組織で Power BI サービスを制御および取得する方法の詳細については、「[組織内の Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)」を参照してください。
+
+## <a name="more-ways-to-get-power-bi-for-your-organization"></a>組織向けの Power BI を取得するためのその他の方法
+
+まだ Microsoft 365 のサブスクライバーでない場合は、以下の手順を使用して、組織向けの Power BI Pro 試用版を取得します。 または、[新しい Microsoft 365 試用版にサインアップ](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)してから、前のセクションの手順に従って Power BI を追加することもできます。
+
+Power BI サブスクリプションにサインアップするには、職場または学校のアカウントが必要です。 コンシューマー電子メール サービスまたは通信プロバイダーが提供するメール アドレスはサポートされません。 職場または学校のアカウントをお持ちでない場合は、サインアップ中に作成できます。
+
+サインアップするには、次の手順に従います。
+
+1. [Power BI Pro のサインアップ](https://signup.microsoft.com/create-account/signup?OfferId=d59682f3-3e3b-4686-9c00-7c7c1c736085&ali=1&products=d59682f3-3e3b-4686-9c00-7c7c1c736085)にアクセスします。 
+
+2. 職場または学校のメール アドレスを入力し、 **[次へ]** を選択します。 職場または学校のメール アドレスと見なされていないメール アドレスを入力してもかまいません。 ビジネス ID を作成すると、新しいアカウントが自動で設定されます。
+
+   ![Power BI Pro のサインアップ](media/service-admin-org-subscription/power-bi-pro-admins.png)
+
+3. 新しいアカウントを作成する必要があるかどうかを確認するために、簡単なチェックが行われます。 サインアップ プロセスを続行するには、 **[アカウントの設定]** を選択します。
+
+   > [!NOTE]
+   >指定したメール アドレスが別の Microsoft サービスで既に使用されている場合は、 **[サインイン]** するか **[代わりに新しいアカウントを作成]** することができます。 新しいアカウントの作成を選択する場合は、以下の手順に従って設定を続行してください。
+>
+>
+ 
+4. フォームに入力して、お客様に関する情報を送信してください。 正しい国または地域を選択するようにしてください。 「[Power BI テナントの場所を確認する方法](service-admin-where-is-my-tenant-located.md#how-to-determine-where-your-power-bi-tenant-is-located)」で説明されているように、選択した国によってデータの格納場所が決まります。
+
+   ![お客様に関する情報の入力](media/service-admin-org-subscription/tell-about-yourself.png)
+
+5. **[次へ]** を選択します。 Microsoft では、お客様の本人確認のために確認コードを送信する必要があります。 Microsoft からテキストを送信したり、電話をかけたりすることが可能な電話番号を指定してください。 次に、 **[確認コードの送信]** を選択します。
+
+6. 確認コードを入力し、 **[仕事用の ID の作成]** を続行します。
+
+   ![ビジネス ID を作成する](media/service-admin-org-subscription/business-identity.png)
+
+    ビジネス用の短い名前を入力してください。Microsoft によってそれが利用可能かどうかが確認されます。 この短い名前を使用して、onmicrosoft.com のサブドメインとしてデータセンターに組織名が作成されます。 お客様は、後で独自のビジネス ドメインを追加することができます。 目的の短い名前が使用されていても、心配はいりません。 似たようなビジネス名を持つユーザーが同じ短い名前を選択した可能性があります。別のバリエーションを試してみてください。 **[次へ]** を選択します。
+    
+7. ユーザー ID とパスワードを作成して、ご自分のアカウントにサインインします。 **[サインアップ]** を選択すると、すべての設定が完了します。
+
+これで、作成したアカウントは新しい Power BI Pro 試用版テナントのグローバル管理者になりました。 [Microsoft 365 管理センター](https://admin.microsoft.com)にサインインして、さらにユーザーを追加したり、カスタム ドメインを設定したり、さらにサービスを購入したり、Power BI サブスクリプションを管理したりできます。
 
 ## <a name="next-steps"></a>次の手順
 

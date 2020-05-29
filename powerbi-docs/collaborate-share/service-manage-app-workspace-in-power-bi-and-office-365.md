@@ -1,6 +1,6 @@
 ---
-title: Power BI と Office 365 でワークスペースを管理する
-description: Power BI のワークスペースは、Office 365 グループ上に構築されたコラボレーション エクスペリエンスです。 Power BI および Office 365 でワークスペースを管理します。
+title: Power BI と Microsoft 365 でワークスペースを管理する
+description: Power BI のワークスペースは、Microsoft 365 グループに基づいて構築されたコラボレーション エクスペリエンスです。 Power BI および Microsoft 365 でワークスペースを管理します。
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27f3c88607f57be8b5abffdbec71ecfe80beea23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1365eba697538255ea8c23b03f0b5db71a7ba1cd
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348070"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693815"
 ---
-# <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Power BI と Office 365 でワークスペースを管理する
+# <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Power BI と Microsoft 365 でワークスペースを管理する
 
-Office 365 または [Power BI でのワークスペース](service-create-distribute-apps.md)の作成者または管理者として、Power BI でワークスペースの一部の側面を管理します。 その他の側面は、Office 365 で管理します。
+Microsoft 365 または [Power BI でのワークスペース](service-create-distribute-apps.md)の作成者または管理者は、Power BI でワークスペースの一部の側面を管理します。 その他の側面は、Microsoft 365 で管理します。
 
 > [!NOTE]
-> 新しいワークスペース エクスペリエンスでは、Power BI ワークスペースと Office 365 グループ間の関係が変わります。 新しいワークスペースのいずれかを作成するたびに、Office 365 グループが自動的に作成されることはありません。 新しいワークスペースの作成については、[こちら](service-create-the-new-workspaces.md)を参照してください。
+> 新しいワークスペース エクスペリエンスでは、Power BI ワークスペースと Microsoft 365 グループ間の関係が変わります。 新しいワークスペースのいずれかを作成するたびに、Microsoft 365 グループが自動的に作成されることはありません。 新しいワークスペースの作成については、[こちら](service-create-the-new-workspaces.md)を参照してください。
 
 **Power BI** では、次のことができます。
 
 * ワークスペース メンバーを追加または削除します (ワークスペース メンバーを管理者にすることもできます)。
 * ワークスペース名を編集します。
-* ワークスペースを削除します。これにより、Office 365 グループも削除されます。
+* ワークスペースを削除します。これにより、Microsoft 365 グループも削除されます。
 
-**Office 365** では、次のことができます。
+**Microsoft 365** では、次の操作を実行できます。
 
 * ワークスペースのグループ メンバーを追加または削除します (メンバーを所有者にする操作も含まれます)。
 * グループ名、画像、説明、およびその他の設定を編集します。
@@ -53,9 +53,9 @@ Office 365 または [Power BI でのワークスペース](service-create-distr
 
 1. **[保存]** または **[キャンセル]** を選びます。
 
-## <a name="edit-power-bi-workspace-properties-in-office-365"></a>Office 365 で Power BI ワークスペースのプロパティを編集する
+## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>Microsoft 365 で Power BI ワークスペースのプロパティを編集する
 
-Outlook for Office 365 でワークスペースの側面を直接編集することもできます。
+Microsoft 365 の Outlook でワークスペースの側面を直接編集することもできます。
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>ワークスペース グループのメンバーを編集する
 
@@ -63,17 +63,17 @@ Outlook for Office 365 でワークスペースの側面を直接編集するこ
 
    ![Power BI でのワークスペースの編集](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
-   サインインすると、ワークスペースの Outlook for Office 365 グループ ビューが開きます。 会社のアカウントにサインインする必要があります。
+   これにより、Microsoft 365 の Outlook でワークスペースのグループ ビューが開きます。 会社のアカウントにサインインする必要があります。
 
 1. チームメイト名の横にあるロールを選択して、その人を**メンバー**または**所有者**にします。 **[X]** を選択して、グループからその人を削除します。
 
-   ![Office 365 でのグループの編集](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Microsoft 365 でのグループの編集](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>イメージを追加してその他のワークスペースのプロパティを設定する
 
-ワークスペースからアプリを配布するときに、ここで追加したイメージがアプリのイメージになります。 [新しいワークスペースの作成](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional)に関する記事の「**Office 365 ワークスペースにイメージを追加する**」を参照してください。
+ワークスペースからアプリを配布するときに、ここで追加したイメージがアプリのイメージになります。 **新しいワークスペースの作成**に関する記事の [Microsoft 365 ワークスペースへの画像の追加](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional)に関するセクションをご覧ください。
 
-1. ワークスペースの Outlook for Office 365 で、 **[バージョン情報]** タブにアクセスし、 **[編集]** を選択します。
+1. Microsoft 365 の Outlook のワークスペース ビューで、 **[バージョン情報]** タブにアクセスし、 **[編集]** を選択します。
 
     ![[グループの編集] アイコン](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. グループ関連の通知の名前、説明、および言語を編集できます。 ここでは、画像を追加したり、その他のプロパティを設定することもできます。
@@ -82,7 +82,7 @@ Outlook for Office 365 でワークスペースの側面を直接編集するこ
 
 1. **[保存]** または **[破棄]** を選択します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [Power BI でアプリを発行する](service-create-distribute-apps.md)
 

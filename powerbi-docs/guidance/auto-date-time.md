@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a143a9b158d8a00fc129953a601f9e4c8f19875f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279712"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565996"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Power BI Desktop の日付と時刻の自動ガイダンス
 
@@ -34,7 +34,10 @@ _[自動の日付/時刻]_ オプションによって、便利かつ高速で�
     フィルターやグループ化を **Year** 列で行う必要があるのは、これが理由です。 階層を使用してドリルダウンする場合、**Year** レベルが意図的に削除されていない限り、年がフィルター処理の対象になります。 年によるフィルターやグループがない場合は、たとえば月ごとにグループ化すると、その月のすべての年にわたる値が集計されます。
 - **単一テーブルでの日付のフィルター処理:** 日付列ごとに専用 (非表示) の 自動日付/時刻テーブルが生成されるため、1 つのテーブルに時間フィルターを適用し、それを複数のモデル テーブルに反映することはできません。 この方法でのフィルター処理は、売上や販売予算などの複数の対象 (ファクト型テーブル) に関するレポートを作成するときの一般的なモデリング要件です。 自動の日付/時刻を使用するとき、レポート作成者は、異なる各日付列にフィルターを適用する必要があります。
 - **モデル サイズ:** 非表示の自動日付/時刻テーブルが生成される各日付列では、モデル サイズが増加し、データ更新時間も長くなります。
-- **その他のレポート作成ツール:** [[Excel で分析]](../collaborate-share/service-analyze-in-excel.md) を使用する場合、または Power BI 以外のレポート デザイナーを使用してモデルに接続する場合は、自動日付/時刻テーブルを使用することはできません。
+- **その他のレポート作成ツール:** 次の場合に、自動の日付/時刻テーブルを使用することはできません。
+  - [[Excel で分析]](../collaborate-share/service-analyze-in-excel.md) を使用する。
+  - Power BI のページ分割されたレポートの Analysis Services クエリ デザイナーを使用する。
+  - Power BI 以外のレポート デザイナーを使用してモデルに接続する。
 
 ## <a name="recommendations"></a>推奨事項
 

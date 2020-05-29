@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 05/19/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 562e011bf280930fdcaf19cc87edc97b2bec131b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301519"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694034"
 ---
-# <a name="create-a-drill-through-button-in-power-bi-preview"></a>Power BI でドリルスルー ボタンを作成する (プレビュー)
+# <a name="create-a-drill-through-button-in-power-bi"></a>Power BI でドリルスルー ボタンを作成する
 
-Power BI でボタンを作成するときに、 **[ドリルスルー (プレビュー)]** アクションを選択できます。 このアクションの種類では、特定のコンテキストに対してフィルター処理された詳細情報を取得するためにフォーカスされたページにドリルスルーするボタンが作成されます。
+Power BI でボタンを作成するときに、 **[ドリルスルー]** アクションを選択できます。 このアクションの種類では、特定のコンテキストに対してフィルター処理された詳細情報を取得するためにフォーカスされたページにドリルスルーするボタンが作成されます。
 
 ドリルスルー ボタンを使用すると、レポート内の重要なドリルスルー シナリオが見つけやすくなります。
 
@@ -107,7 +107,7 @@ String_for_button = If(SELECTEDVALUE('Product'[Product], 0) == 0), "See product 
 - ボタンの無効状態の書式設定は、レポートのテーマの色クラスに関連付けられています。 色クラスに関する詳細は[こちら](desktop-report-themes.md#setting-structural-colors)を参照してください。
 - ドリルスルー アクションは、組み込みのすべてのビジュアルに対して機能し、AppSource からインポートされた "*一部の*" ビジュアルと連携します。 ただし、AppSource からインポートされた "*すべての*" ビジュアルで動作することは保証されていません。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 ボタンと似た機能またはボタンと相互作用する機能の詳細については、次の記事をご覧ください。
 
 * [ボタンを作成する](desktop-buttons.md)

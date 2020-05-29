@@ -10,29 +10,30 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: c424572cf222e4b2f65354e7b9a0959b60a56fca
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143841"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693891"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>Microsoft Teams の [Power BI] タブを使用してレポートを埋め込む
 
 Microsoft Teams の更新済みの [Power BI] タブを使用すると、対話形式のレポートを Microsoft Teams のチャンネルまたはチャットに簡単に埋め込むことができます。 Microsoft Teams の [Power BI] タブを使用すると、チームが使用するデータを検索したり、チームのチャネル内のデータについて話し合うことができます。  お客様のレポート、ダッシュボード、およびアプリへのリンクを Microsoft Teams のメッセージ ボックスに貼り付けると、それらの情報がリンクのプレビューに表示されます。 お客様のユーザーは、リンクがどの項目につながっているかをより簡単に理解できます。
 
-## <a name="requirements"></a>要件
+## <a name="requirements"></a>必要条件
 
 **Microsoft Teams の [Power BI] タブ**を機能させるには、次のことを確認してください。
 
 - お客様のユーザーが Power BI Pro ライセンスを所有している。または、Power BI ライセンスのある [Power BI Premium 容量 (EM または P SKU)](../admin/service-premium-what-is.md) にレポートが含まれている。
 - Microsoft Teams に [Power BI] タブがある。
 - ユーザーが Power BI サービスにサインインし、レポートを使用できるように自分の Power BI ライセンスをアクティブ化している。
-- ユーザーにはデータを表示するためのアクセス許可を持つ必要がある。
+- Microsoft Teams で [Power BI] タブを使用してレポートを追加するには、レポートをホストしているワークスペースで少なくともビューアー ロールを持っている必要があります。 さまざまなロールの詳細については、「[新しいワークスペースのロール](service-new-workspaces.md#roles-in-the-new-workspaces)」をご覧ください。
+- Microsoft Teams の [Power BI] タブでレポートを表示するには、ユーザーがそのレポートを表示するためのアクセス許可を持っている必要があります。
 
 また、**リンク プレビュー**を機能させるには、次のことを確認してください。
 - Microsoft Teams の [Power BI] タブを使用するための要件をユーザーが満たしている。
-- ユーザーが Power BI Bot サービスにサインイン済みである。 
+- ユーザーが Power BI サービスにサインイン済みである。 
 
 
 ## <a name="embed-your-report"></a>レポートを埋め込む
@@ -90,19 +91,19 @@ Power BI サービスのコンテンツのリンク プレビューを取得す�
 
 ## <a name="grant-access-to-reports"></a>レポートへのアクセスを許可する
 
-Microsoft Teams にレポートを埋め込んだり、項目へのリンクを送信しても、レポートを表示するためのアクセス許可が自動的にユーザーに与えられることはありません。[Power BI でユーザーにレポートの表示を許可する](service-share-dashboards.md)必要があります。 チームに Office 365 グループを使用すると、作業を容易にすることができます。 
+Microsoft Teams にレポートを埋め込んだり、項目へのリンクを送信しても、レポートを表示するためのアクセス許可が自動的にユーザーに与えられることはありません。[Power BI でユーザーにレポートの表示を許可する](service-share-dashboards.md)必要があります。 チーム用に Microsoft 365 グループを使用すると、作業を容易にすることができます。
 
 > [!IMPORTANT]
 > Power BI サービスでレポートを表示できるユーザーを確認し、一覧に含まれないユーザーにアクセスを許可します。
 
-チーム内のすべてのユーザーがレポートに確実にアクセスできるようにする方法の 1 つとして、Power BI の 1 つのワークスペースにレポートを配置し、チームがそのワークスペースにアクセスできるように Office 365 グループを設定します。
+チーム内のすべてのユーザーがレポートに確実にアクセスできるようにする方法の 1 つは、Power BI の 1 つのワークスペースにレポートを配置し、チームの Microsoft 365 グループにそのワークスペースへのアクセス権を付与することです。
 
 ## <a name="link-previews"></a>リンク プレビュー 
 
 リンク プレビューは、Power BI の次の項目に対して提供されます。
-- レポート
+- Reports
 - ダッシュボード
-- Apps
+- アプリケーション
 
 リンク プレビュー サービスでは、ユーザーのサインインが必要です。 サインアウトするには、メッセージ ボックスの下部にある [Power BI] アイコンを選択して、[サインアウト] を選択します。
 
@@ -123,16 +124,16 @@ Power BI レポート タブを Teams に追加すると、レポートに関す
 - Power BI では、Microsoft Teams と同じローカライズされた言語はサポートされていません。 そのため、埋め込みのレポートが適切にローカライズされていない可能性があります。
 - Power BI ダッシュボードを Microsoft Teams の Power BI タブに埋め込むことはできません。
 - Power BI のライセンスまたはレポートへのアクセス許可を持たないユーザーには、"コンテンツは利用できません" というメッセージが表示されます。
-- Internet Explorer 10 を使用する場合、問題が発生する可能性があります。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- Internet Explorer 10 を使用する場合、問題が発生する可能性があります。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - [URL フィルター](service-url-filters.md)は、Microsoft Teams の [Power BI] タブではサポートされていません。
 - 国内のクラウドでは、この新しい [Power BI] タブは使用できません。 Power BI アプリの新しいワークスペース エクスペリエンスのワークスペースやレポートをサポートしていない古いバージョンを使用できる可能性があります。 
 - タブを保存したら、タブの設定からタブ名を変更することはできません。 変更するには、名前変更オプションを使用します。
 - リンク プレビュー サービスでは、シングル サインオンはサポートされていません。
 - リンク プレビューは、チャットまたはプライベート チャネルでは機能しません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 - [同僚や他のユーザーとダッシュボードやレポートを共有する](service-share-dashboards.md)  
 - [Power BI でのアプリの作成および配布](service-create-distribute-apps.md)  
-- [Power BI Premium とは何ですか?](../admin/service-premium-what-is.md)
+- [Power BI Premium とは](../admin/service-premium-what-is.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

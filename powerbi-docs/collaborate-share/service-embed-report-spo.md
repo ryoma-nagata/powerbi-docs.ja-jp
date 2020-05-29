@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143758"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693879"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
@@ -79,7 +79,7 @@ SharePoint Online にレポートを埋め込んだだけで、レポートを�
 > [!IMPORTANT]
 > Power BI サービスでレポートを表示できるユーザーを確認し、一覧に含まれないユーザーにアクセスを許可します。
 
-Power BI でレポートへのアクセスを許可するには 2 つの方法があります。 1 番目の方法は、Office 365 グループを使用して SharePoint Online のチーム サイトを構築している場合、**Power BI サービス内のワークスペース**および **SharePoint ページ**のメンバーとしてユーザーをリストすることです。 詳細については、[ワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)方法に関するページを参照してください。
+Power BI でレポートへのアクセスを許可するには 2 つの方法があります。 1 番目の方法は、Microsoft 365 グループを使用して SharePoint Online のチーム サイトを構築している場合、**Power BI サービス内のワークスペース**および **SharePoint ページ**のメンバーとしてユーザーを指定することです。 詳細については、[ワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)方法に関するページを参照してください。
 
 2 番目の方法は、アプリ内にレポートを埋め込んでユーザーと直接に共有することです。  
 
@@ -157,7 +157,7 @@ SharePoint Online 用の Power BI Web パーツに対して調整できる設定
 
 * Power BI は、SharePoint Online と同じローカライズされた言語をサポートしていません。 そのため、埋め込みのレポートが適切にローカライズされていない可能性があります。
 
-* この問題は Internet Explorer 10 を使用する場合に発生する可能性があります。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* この問題は Internet Explorer 10 を使用する場合に発生する可能性があります。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * Power BI Web パーツは、[国内クラウド](https://powerbi.microsoft.com/clouds/)では利用できません。
 

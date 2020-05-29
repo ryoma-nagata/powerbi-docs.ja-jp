@@ -10,22 +10,22 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8fc1f2a668a0dfff4418749e7f3de7e0379b603f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129092"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564617"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI でユーザー アクティビティを追跡する
 
-Power BI テナント内で、だれがどの項目にどのようなアクションを実行しているかを把握することは、組織が法令順守やレコード管理などの要件を満たすうえで非常に重要です。 Power BI では、ユーザー アクティビティを追跡する 2 つのオプションがあります。[Power BI アクティビティ ログ](#use-the-activity-log)と [Office 365 統合監査ログ](#use-the-audit-log)です。 どちらのログにも、[Power BI 監査データ](#operations-available-in-the-audit-and-activity-logs)の完全なコピーが含まれていますが、次の表に示すように、いくつかの重要な違いがあります。
+Power BI テナント内で、だれがどの項目にどのようなアクションを実行しているかを把握することは、組織が法令順守やレコード管理などの要件を満たすうえで非常に重要です。 Power BI では、ユーザー アクティビティを追跡する 2 つのオプションがあります。[Power BI アクティビティ ログ](#use-the-activity-log)と[統合監査ログ](#use-the-audit-log)です。 どちらのログにも、[Power BI 監査データ](#operations-available-in-the-audit-and-activity-logs)の完全なコピーが含まれていますが、次の表に示すように、いくつかの重要な違いがあります。
 
-| **Office 365 統合監査ログ** | **Power BI アクティビティ ログ** |
+| **統合監査ログ** | **Power BI アクティビティ ログ** |
 | --- | --- |
 | Power BI 監査イベントに加えて、SharePoint Online、Exchange Online、Dynamics 365、およびその他のサービスからのイベントが含まれます。 | Power BI 監査イベントのみが含まれます。 |
 | View-Only Audit Logs (表示専用監査ログ) または監査ログのアクセス許可を持つユーザー (グローバル管理者や監査人など) のみがアクセス権を持ちます。 | グローバル管理者と Power BI サービス管理者がアクセス権を持ちます。 |
-| グローバル管理者と監査者は、Office 365 セキュリティ/コンプライアンス センター、Microsoft 365 Security Center、および Microsoft 365 コンプライアンス センターを使用して、統合された監査ログを検索できます。 | アクティビティ ログを検索するためのユーザー インターフェイスはまだありません。 |
+| グローバル管理者と監査者は、Microsoft 365 Security Center、および Microsoft 365 コンプライアンス センターを使用して、統合監査ログを検索できます。 | アクティビティ ログを検索するためのユーザー インターフェイスはまだありません。 |
 | グローバル管理者と監査者は、Office 365 Management API とコマンドレットを使用して、監査ログ エントリをダウンロードできます。 | グローバル管理者と Power BI サービス管理者は、Power BI REST API および管理コマンドレットを使用して、アクティビティ ログ エントリをダウンロードできます。 |
 | 監査データは 90 日間保持されます。 | アクティビティ データは 30 日間保持されます (パブリック プレビュー)。 |
 | テナントが別の Azure リージョンに移動された場合でも、監査データは保持されます。 | テナントが別の Azure リージョンに移動された場合、アクティビティ データは保持されません。 |
@@ -105,7 +105,7 @@ $activities[0]
 
 ## <a name="use-the-audit-log"></a>監査ログの使用
 
-タスクで Power BI と Office 365 をまたぐユーザー アクティビティを追跡する場合は、Office 365 セキュリティ/コンプライアンス センターで監査を使用するか、PowerShell を使用します。 監査は Exchange Online の機能に依存しています。これは Power BI をサポートするために自動的にプロビジョニングされます。
+タスクで Power BI と Microsoft 365 をまたぐユーザー アクティビティを追跡する場合は、Office 365 セキュリティ/コンプライアンス センターで監査を使用するか、PowerShell を使用します。 監査は Exchange Online の機能に依存しています。これは Power BI をサポートするために自動的にプロビジョニングされます。
 
 監査データは、日付範囲、ユーザー、ダッシュボード、レポート、データセット、アクティビティの種類によってフィルター処理できます。 アクティビティを csv (コンマ区切り値) ファイルとしてダウンロードし、オフラインで分析することもできます。
 
@@ -184,7 +184,7 @@ Power BI 監査ログは、[Office 365 セキュリティ/コンプアライア�
 
 #### <a name="view-the-details-for-an-event"></a>イベントの詳細を表示する
 
-イベントの詳細を表示するには、検索結果の一覧でイベント レコードを選択します。 イベント レコードの詳しいプロパティを示す **[詳細]** ページが表示されます。 **[詳細]** ページに表示されるプロパティは、イベントが発生した Office 365 サービスによって異なります。
+イベントの詳細を表示するには、検索結果の一覧でイベント レコードを選択します。 イベント レコードの詳しいプロパティを示す **[詳細]** ページが表示されます。 **[詳細]** ページに表示されるプロパティは、イベントが発生した Microsoft 365 サービスによって異なります。
 
 これらの詳細を表示するには、 **[詳細情報]** を選択します。 Power BI エントリの RecordType プロパティの値は、すべて 20 です。 その他のプロパティについて詳しくは、[監査ログのプロパティの詳細](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/)に関する記事をご覧ください。
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584997"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565628"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI のページ分割されたレポート:FAQ 
 
@@ -41,7 +41,7 @@ ms.locfileid: "82584997"
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>テナントでのページ分割されたレポートの利用状況はどのようにして監視できますか。
 
-Office 365 の監査では、次のイベントでこのレポートの種類の詳細な使用状況が記録されます。 
+監査では、次のイベントでこのレポートの種類の詳細な使用状況がログに記録されます。
 
 - Power BI レポートの表示
 - Power BI レポートの削除
@@ -152,7 +152,7 @@ Microsoft Excel、Microsoft Word、Microsoft PowerPoint、PDF、.CSV、XML、MHT
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Power BI Embedded を使用して、自分がホストしているアプリにページ分割されたレポートを埋め込むことはできますか。
 
-SaaS 埋め込み (Secure Embed のサポートを含む) は既に利用できます。 PaaS 埋め込みについては、「[顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む](../developer/embed-paginated-reports-customers.md)」チュートリアルを参照してください。
+SaaS 埋め込み (Secure Embed のサポートを含む) は既に利用できます。 PaaS 埋め込みについては、「[顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む](../developer/embedded/embed-paginated-reports-customers.md)」チュートリアルを参照してください。
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Power BI レポートからページ分割されたレポートにドリルスルーできますか。
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 706703985242284725fb4fc2d42bf46e54c605c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285810"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564144"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop で OneDrive for Business リンクを使用する
 多くの人は、Power BI Desktop と相性の良い OneDrive for Business に Excel ブックを格納しています。 Power BI Desktop を使用すると、OneDrive for Business に格納されている Excel ファイルのオンライン リンクを使用して、レポートやビジュアルを作成できます。 OneDrive for Business のグループ アカウントか、個人の OneDrive for Business アカウントを使用できます。
@@ -44,7 +44,7 @@ OneDrive for Business からオンライン リンクを取得するには、い
 3. Power BI Desktop でファイルに適切に移動できるように、リンクの末尾にある *?web=1* という文字列を削除し、 **[OK]** を選択します。
    
     ![](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
-4. Power BI Desktop で資格情報の入力を求められた場合は、 **[Windows]** (オンプレミスの SharePoint サイトの場合) または **[組織アカウント]** (Office 365 または OneDrive for Business のサイトの場合) のいずれかを選びます。
+4. Power BI Desktop で資格情報の入力を求められた場合は、 **[Windows]** (オンプレミスの SharePoint サイトの場合) または **[組織アカウント]** (Microsoft 365 または OneDrive for Business のサイトの場合) のいずれかを選択します。
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
 

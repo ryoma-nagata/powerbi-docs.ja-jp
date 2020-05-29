@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
-ms.openlocfilehash: 0a0964f82c80017b53feb668cca8399b18a72cfc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d7642dfbac40b3a31190bc02835a4132ee12e11
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268514"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564065"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>アプリケーションの機能コンサルタント向けラーニング カタログ
 
@@ -25,7 +25,7 @@ ms.locfileid: "81268514"
 | コンテンツ   | Description  | 書式   | 長さ   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------|
 | [Star Wars データを使用した Power BI の最も高度な機能のチュートリアル - Gil Raviv](https://www.youtube.com/watch?v=r0Qk5V8dvgg)  | フル スタック Power BI のジェダイになる – Star Wars データを使用した Power BI の最も高度な機能のチュートリアル - Gil Raviv   | YouTube ビデオ | 58 分 51 秒       |
-| [Power BI の概要](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)  | どのように Power BI を始めたらよいのかを知りたいと思いますか? 初めてデータに接続して視覚化するにはどうすればよいでしょうか?  Power BI の使用をすばやく開始し、すぐにビジネス データから分析情報を得る方法について学習します。  | ウェビナー       |                   |
+| [Power BI の概要](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)  | どのように Power BI を始めたらよいのかを知りたいと思いますか? 初めてデータに接続して視覚化するにはどうすればよいでしょうか? Power BI の使用をすばやく開始し、すぐにビジネス データから分析情報を得る方法について学習します。  | ウェビナー       |                   |
 | [分析情報主導のビジネスを実現する方法](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html) | 企業や大規模な組織では、そのデータを分析し、それを使用して実行可能な分析情報を作成することが重要です。 Forrester Research によれば、これらの能力が分析情報主導のビジネスを実現するための鍵です。 ビジネスの成果が分析情報によって主導されるべき理由について学習するには、このウェビナーをご覧ください。  | ウェビナー |                   |
 | [20 分で学ぶ Power BI ダッシュボードの使い方](https://info.microsoft.com/powerbi-dashboard-in-20-min-ondemand.html)  | 今までに Power BI ダッシュボードを開いたことはありますか?  自分にとって重要なデータを見つけるにはどのようにダッシュボードを使えばいいでしょうか? '何かが壊れる' ことを恐れてフィルターやスライサーの使用を制限していますか?  恐れることはありません。一緒に Power BI ダッシュボードの使い方を学びましょう。 | ウェビナー       |                   |
 | [Microsoft Power BI の YouTube チャンネル](https://www.youtube.com/user/mspowerbi/videos)  | Microsoft の Power BI 製品チームのコンテンツを含む YouTube チャンネル  | ビデオ        |                   |
@@ -82,7 +82,7 @@ ms.locfileid: "81268514"
 | [組み合わせて、もっと便利に:Excel ユーザーが Power BI を使用することで得られる 5 つのメリット](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html)  | Excel は、世界で最も人気のあるプログラムの 1 つです。 何百万もの個人や企業が、単純なデータ入力や会計処理から、より高度な統計やデータ分析まで、あらゆる作業に使用しています。 しかし、多くのユーザーが、次の別の Microsoft プログラムと組み合わせることで、Excel の機能を大幅に拡張できるだけでなく、時間を節約し、効率を向上させることができることに気づいていません: Power BI。 ここでは、Excel と Power BI を組み合わせて使用することにより、ユーザーとそのビジネスに利点をもたらす 5 つの理由について説明します。 最終的に、組織がデータを分析し、解釈して、十分に活用するための能力を活性化させるために必要なすべての知識が得られます。 | ウェビナー |   |
 | [スプレッドシートを超える](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html)  | すべての Excel ユーザーとアナリストへの提唱: よりスマートに働き、より多くの価値を提供し、重要なことに焦点を当てましょう。 使いたいと思わせる美しいレポートを作成する方法、説明がなくても同僚が理解できる方法でデータを視覚的に共有する方法、情報の意味を理解する必要があるすべての人が、どこにいても分析情報にアクセスできるようにする方法を学習します。 このオンライン セッションで、Microsoft Power BI の実際の動作をご覧ください。  | ウェビナー |   |
 | [Power BI と Visio で適切な分析情報を得る](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html) | このウェビナーでは、Power BI のダッシュボードと Microsoft Visio の図を結合して、強力なビジュアル分析情報を作成する方法について説明します。 Visio と Power BI はビジュアル性が高く、自然に補完し合います。 Visio では、相互接続されたワークフローや実際のレイアウトなど、わかりやすい図を作成することができます。 Power BI は、グラフとマップを使って直感的なダッシュボードを作成し、主要業績評価指標を測定して目標を追跡するのに役立ちます。| ウェビナー |   |
-| [Power BI、Excel、Office 365:企業データを最適化する](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | このデモを多用したセッションでは、Power BI で Microsoft Excel の固有の長所を使用して、ビジネス分析と分析情報を向上させる方法について学習します。  | ウェビナー |   |
+| [Power BI、Excel、Microsoft 365:企業データを最適化する](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | このデモを多用したセッションでは、Power BI で Microsoft Excel の固有の長所を使用して、ビジネス分析と分析情報を向上させる方法について学習します。  | ウェビナー |   |
 | [Dynamics 365 Finance and Operations での Power BI の使用](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations-OnDemand.html)   | Azure Data Lake を使用して Power BI レポート ソリューションを Dynamics 365 Finance and Operations に埋め込んで管理する方法について学習するには、このウェビナーに登録してください。 サービスを中断せずに、アクションにつながる分析情報を迅速に提供し、Power BI を使用して分析ソリューションを企業に共有する方法を説明します。  | ウェビナー |   |
 ## <a name="security"></a>セキュリティ<a name="security"></a>
 | コンテンツ   | Description  | 書式   | 長さ   |

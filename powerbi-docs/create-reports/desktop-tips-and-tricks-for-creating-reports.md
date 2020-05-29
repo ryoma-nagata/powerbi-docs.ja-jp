@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: f66e564091c30e11604d0ab3fe58ba1f93addb28
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349105"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564577"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop におけるレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop でレポートを作成する場合、*および* Power Pivot のアドインを有効にし、なおかつ Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションでレポートを作成する場合に役立つヒントとテクニックをまとめました。 
@@ -92,7 +92,7 @@ Power BI Desktop ではヒストグラムを複数の方法で作成できます
 >[!NOTE]
 >ビジュアルを作成する前に並べ替え順序を考えておくことをお勧めします。 
 
-プロセスの次の手順では、バケットの列で "Buckets" クエリと "Details" クエリのリレーションシップを定義します。 Power BI Desktop のリボンで **[リレーションシップ管理]** をクリックします。 "Buckets" が左側のテーブル、"Details" が右側のテーブルに表示されるリレーションシップを作成し、ヒストグラムに使用するフィールドを選択します。 
+プロセスの次の手順では、バケットの列で "Buckets" クエリと "Details" クエリのリレーションシップを定義します。 Power BI Desktop のリボンで **[リレーションシップ管理]** をクリックします。 Buckets が左側のテーブル、Details が右側のテーブルに表示されるリレーションシップを作成し、ヒストグラムに使用するフィールドを選択します。 
 
 最後の手順は、ヒストグラムの作成です。 "Buckets" テーブルから [バケット] フィールドをドラッグします。 結果として得られる縦棒グラフから、既定のフィールドを削除します。 その後、"Details" テーブルのヒストグラム フィールドを同じビジュアルまでドラッグします。 このフィールドで、既定の集計を [カウント] に変更します。 これでヒストグラムの完成です。 ツリーマップのようなビジュアルを "Details" テーブルから作成する場合は、ツリーマップのデータ ポイントを選択して、ヒストグラムの強調表示を確認し、データ シート全体の傾向に関連する選択済みデータ ポイントのヒストグラムを表示します。
 
@@ -112,7 +112,7 @@ Power BI Desktop では、計算フィールドを使ってヒストグラムを
 
 アクティブなカスタマー サポート要求からデータ セットを読み込み、スキーマを含む作業項目の別のデータ セットをさらに読み込む場合は、次のようになります。
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
 > 
 > 
 
@@ -158,7 +158,7 @@ DAX は、Power BI Desktop で使用される計算式言語です。 それは 
 
 [Power BI Desktop における DAX の基本事項を学習する](../transform-model/desktop-quickstart-learn-dax-basics.md)
 
-[Data Analysis Expressions (DAX) リファレンス](https://msdn.microsoft.com/library/gg413422.aspx)
+[Data Analysis Expressions (DAX) リファレンス](/dax/)
 
 [DAX リソース センター](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 

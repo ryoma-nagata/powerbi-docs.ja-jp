@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349266"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565302"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -274,7 +274,7 @@ Surface Hub および Windows 10 デバイスのプレゼンテーション モ�
 
 ### <a name="shared-credentials-now-in-android"></a>資格情報の共有 (Android)
 
-モバイル アプリからの Power BI へのサインインが、これまでより容易になりました。 共有資格情報により、デバイスで他の Office 365 アプリの資格情報を使用して Power BI サービスでの認証を行うことで、サインイン プロセスが簡素化されました。
+モバイル アプリからの Power BI へのサインインが、これまでより容易になりました。 共有資格情報により、デバイスで他の Microsoft 365 アプリの資格情報を使用して Power BI サービスでの認証を行うことで、サインイン プロセスが簡素化されました。
 
 ### <a name="in-app-urls-now-in-android"></a>アプリ内の URL (Android) 
 
@@ -294,7 +294,7 @@ Power BI の[モバイルでのページ分割されたレポートに関する�
 
 ### <a name="shared-credentials-ios"></a>共有資格情報 (iOS)
 
-モバイル アプリからの Power BI へのサインインが、これまでより容易になりました。 共有資格情報により、デバイスで他の Office 365 アプリの資格情報を使用して Power BI サービスでの認証を行うことで、サインイン プロセスが簡素化されました。
+モバイル アプリからの Power BI へのサインインが、これまでより容易になりました。 共有資格情報により、デバイスで他の Microsoft 365 アプリの資格情報を使用して Power BI サービスでの認証を行うことで、サインイン プロセスが簡素化されました。
 
 ### <a name="in-app-urls-ios"></a>アプリ内 URL (iOS) 
 

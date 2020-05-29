@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: e2c59ba84700aaf83c4cc9d16d009696c42dfc54
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 26823061a6c0b92b1a6159a75e26f79232bf3ebc
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114591"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407611"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>動的バインドを使用してレポートをデータセットに接続する 
 
@@ -30,7 +30,7 @@ ms.locfileid: "80114591"
 
 動的バインドは、"*組織向けの埋め込み*" と "*顧客向けの埋め込み*" の両方のシナリオでサポートされます。 次の表では、各シナリオの考慮事項について説明します。
 
-|シナリオ  |データ所有権  |トークン  |要件  |
+|シナリオ  |データ所有権  |トークン  |必要条件  |
 |---------|---------|---------|---------|
 |*組織向けの埋め込み*    |ユーザー所有データ         |Power BI ユーザーのアクセス トークン         |使用する Azure AD トークンを所有するユーザーには、すべての成果物に対する適切なアクセス許可があることが必要です。         |
 |*顧客向けの埋め込み*     |アプリ所有データ         |Power BI ユーザーではないユーザーのアクセス トークン         |レポートと動的にバインドされたデータセットの両方に対するアクセス許可を含んでいることが必要です。 複数の成果物をサポートする埋め込みトークンを生成するには、[複数の項目の埋め込みトークンを生成するための API](embed-sample-for-customers.md#multiEmbedToken) を使用します。         |
@@ -61,8 +61,8 @@ var embedContainer = $('#embedContainer')[0];
 var report = powerbi.embed(embedContainer, config);
 ```
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 Power BI での埋め込みに馴染みのない方は、Power BI のコンテンツを埋め込む方法を次のチュートリアルでご覧いただけます。
-* [チュートリアル: 顧客向けのアプリケーションに Power BI コンテンツを埋め込む](embed-sample-for-customers.md)
-* [チュートリアル: 組織向けのアプリケーションに Power BI コンテンツを埋め込む](embed-sample-for-your-organization.md)
+* [チュートリアル:顧客向けのアプリケーションに Power BI コンテンツを埋め込む](embed-sample-for-customers.md)
+* [チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む](embed-sample-for-your-organization.md)

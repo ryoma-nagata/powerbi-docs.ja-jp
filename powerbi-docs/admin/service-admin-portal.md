@@ -10,22 +10,22 @@ ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ff022c09fc58f5ebeadbb869039c00c6dd28533
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275595"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564474"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
 管理ポータルを使用すると、組織の Power BI "*テナント*" を管理できます。 ポータルには、利用状況の指標、Microsoft 365 管理センターへのアクセス、設定などの項目が含まれています。
 
-完全な管理ポータルには、Office 365 のグローバル管理者であるか、Power BI サービス管理者の役割が割り当てられているすべてのユーザーがアクセスできます。 これらの役割のいずれも割り当てられていない場合、表示できるのはポータルの **[容量の設定]** のみです。 Power BI サービス管理者の役割の詳細については、「[Power BI 管理者の役割について](service-admin-role.md)」を参照してください。
+完全な管理ポータルには、グローバル管理者であるか、Power BI サービス管理者の役割が割り当てられているすべてのユーザーがアクセスできます。 これらの役割のいずれも割り当てられていない場合、表示できるのはポータルの **[容量の設定]** のみです。 Power BI サービス管理者の役割の詳細については、「[Power BI 管理者の役割について](service-admin-role.md)」を参照してください。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>管理ポータルにアクセスする方法
 
-Power BI の管理ポータルにアクセスするには、アカウントが Office 365 または Azure Active Directory (Azure AD) 内で **[グローバル管理者]** とマークされているか、Power BI サービス管理者の役割が割り当てられている必要があります。 Power BI サービス管理者の役割の詳細については、「[Power BI 管理者の役割について](service-admin-role.md)」を参照してください。 Power BI 管理ポータルにアクセスするには、次のように操作します。
+Power BI の管理ポータルにアクセスするには、アカウントが Microsoft 365 または Azure Active Directory (Azure AD) 内で **[グローバル管理者]** とマークされているか、Power BI サービス管理者の役割が割り当てられている必要があります。 Power BI サービス管理者の役割の詳細については、「[Power BI 管理者の役割について](service-admin-role.md)」を参照してください。 Power BI 管理ポータルにアクセスするには、次のように操作します。
 
 1. Power BI サービスの右上にある設定アイコン (歯車) を選択します。
 
@@ -85,7 +85,7 @@ Power BI の管理ポータルにアクセスするには、アカウントが O
 
 ## <a name="control-usage-metrics"></a>利用状況の指標の制御
 
-利用状況の指標レポートは、Power BI または Office 365 の管理者が、オンまたはオフにすることができる機能です。 管理者は、どのユーザーが利用状況の指標にアクセスできるかを細く制御できます。 これらは、組織内のすべてのユーザーに対して既定で**オン**になります。
+利用状況の指標レポートは、Power BI または Microsoft 365 の管理者が、オンまたはオフにすることができる機能です。 管理者は、どのユーザーが利用状況の指標にアクセスできるかを細く制御できます。 これらは、組織内のすべてのユーザーに対して既定で**オン**になります。
 
 管理者は、コンテンツ作成者が利用状況の指標内のユーザーごとのデータを参照できるかどうかも決定できます。 
 
@@ -189,10 +189,10 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="新しいワークスペース エクスペリエンスを作成する":::
 
-Office 365 グループを基にした従来のワークスペースについては、引き続き Office 365 管理ポータルおよび Azure Active Directory で管理されます。
+Microsoft 365 グループに基づく従来のワークスペースについては、引き続き管理ポータルおよび Azure Active Directory で管理されます。
 
 > [!NOTE]
-> **[ワークスペースの作成 (新しいワークスペース エクスペリエンス)]** の既定の設定では、Office 365 グループを作成できるユーザーのみが、新しい Power BI ワークスペースを作成できます。 適切なユーザーが作成できるように、Power BI 管理ポータルで値を設定してください。
+> **[ワークスペースの作成 (新しいワークスペース エクスペリエンス)]** の既定の設定では、Microsoft 365 グループを作成できるユーザーのみが、新しい Power BI ワークスペースを作成できます。 適切なユーザーが作成できるように、Power BI 管理ポータルで値を設定してください。
 
 **ワークスペースの一覧**
 
@@ -334,7 +334,7 @@ Azure AD B2B ゲスト ユーザーは、組織内のコンテンツを編集お
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>テンプレート アプリと組織のコンテンツ パックを作成する
 
-組織内のユーザーは、Power BI Desktop 内の 1 つのデータ ソース上に構築されたデータセットを使用する、テンプレート アプリと組織のコンテンツ パックを作成できます。 テンプレート アプリの詳細は[こちら](../template-content-pack-authoring.md)をご覧ください。
+組織内のユーザーは、Power BI Desktop 内の 1 つのデータ ソース上に構築されたデータセットを使用する、テンプレート アプリと組織のコンテンツ パックを作成できます。 テンプレート アプリの詳細は[こちら](../connect-data/service-template-apps-create.md)をご覧ください。
 
 ### <a name="push-apps-to-end-users"></a>アプリをエンド ユーザーにプッシュする
 
@@ -625,7 +625,3 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 [組織内の Power BI を監査する](service-admin-auditing.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-
-
-
-

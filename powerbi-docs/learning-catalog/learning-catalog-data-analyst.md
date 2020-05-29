@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
-ms.openlocfilehash: 0ab5e48449c42865b44b2cf5ab3d56c35d3fa2c6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97ecff0abf13ff72d7794b06085be077efbe9027
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268560"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565766"
 ---
 # <a name="data-analyst-learning-catalog"></a>データ アナリストのラーニング カタログ
 
@@ -68,7 +68,7 @@ ms.locfileid: "81268560"
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | [Power BI、PowerApps、および Microsoft Flow を使用して、日常のビジネス プロセスを自動化する](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html) | Power BI を使用すると、何百万もの人が、データを貴重なビジネスの分析情報に数分で変換できるようになります。 さらに多くのことができるように、Power BI が PowerApps と Microsoft Flow (Microsoft Power プラットフォームのその他のコンポーネント) を組み合わせる方法について学習するには、このウェビナーに登録してください。 独自のビジネス アプリを作成し、日常業務プロセスを自動化してビジネスを合理化し、イノベーションを促進する方法を紹介します。  | ウェビナー |   |
 | [Dynamics 365 Finance and Operations での Power BI の使用](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations-OnDemand.html)  | Azure Data Lake を使用して Power BI レポート ソリューションを Dynamics 365 Finance and Operations に埋め込んで管理する方法について学習するには、このウェビナーに登録してください。 サービスを中断せずに、アクションにつながる分析情報を迅速に提供し、Power BI を使用して分析ソリューションを企業に共有する方法を説明します。  | ウェビナー |   |
-| [Power BI、Excel、Office 365:企業データを最適化する](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | このデモを多用したセッションでは、Power BI で Microsoft Excel の固有の長所を使用して、ビジネス分析と分析情報を向上させる方法について学習します。  | ウェビナー |   |
+| [Power BI、Excel、Microsoft 365:企業データを最適化する](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | このデモを多用したセッションでは、Power BI で Microsoft Excel の固有の長所を使用して、ビジネス分析と分析情報を向上させる方法について学習します。  | ウェビナー |   |
 | [組み合わせて、もっと便利に:Excel ユーザーが Power BI を使用することで得られる 5 つのメリット](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html)  | Excel は、世界で最も人気のあるプログラムの 1 つです。 何百万もの個人や企業が、単純なデータ入力や会計処理から、より高度な統計やデータ分析まで、あらゆる作業に使用しています。 しかし、多くのユーザーが、次の別の Microsoft プログラムと組み合わせることで、Excel の機能を大幅に拡張できるだけでなく、時間を節約し、効率を向上させることができることに気づいていません: Power BI。 ここでは、Excel と Power BI を組み合わせて使用することにより、ユーザーとそのビジネスに利点をもたらす 5 つの理由について説明します。 最終的に、組織がデータを分析し、解釈して、十分に活用するための能力を活性化させるために必要なすべての知識が得られます。 | ウェビナー |   |
 | [スプレッドシートを超える](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html)   | すべての Excel ユーザーとアナリストへの提唱: よりスマートに働き、より多くの価値を提供し、重要なことに焦点を当てましょう。 使いたいと思わせる美しいレポートを作成する方法、説明がなくても同僚が理解できる方法でデータを視覚的に共有する方法、情報の意味を理解する必要があるすべての人が、どこにいても分析情報にアクセスできるようにする方法を学習します。 このオンライン セッションで、Microsoft Power BI の実際の動作をご覧ください。  | ウェビナー |   |
 | [Power BI と Visio で適切な分析情報を得る](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html)  | このウェビナーでは、Power BI のダッシュボードと Microsoft Visio の図を結合して、強力なビジュアル分析情報を作成する方法について説明します。 Visio と Power BI はビジュアル性が高く、自然に補完し合います。 Visio では、相互接続されたワークフローや実際のレイアウトなど、わかりやすい図を作成することができます。 Power BI は、グラフとマップを使って直感的なダッシュボードを作成し、主要業績評価指標を測定して目標を追跡するのに役立ちます。  | ウェビナー |   |

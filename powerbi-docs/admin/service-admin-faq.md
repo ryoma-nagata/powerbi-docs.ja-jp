@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 459eaf6ba8b4f6e09b2df5f55956dc77adee9667
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344391"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563764"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -81,7 +81,7 @@ Microsoft 365 管理者は、[Power BI Web サイト](https://powerbi.microsoft.
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant"></a>既存の Microsoft 365 テナントにユーザーが参加できないようにするにはどうすればよいですか。
 
-既存の Microsoft 365 テナントにユーザーが参加できないようにするために、Microsoft 365 全体管理者として実行できる手順があります。 アクセスをブロックした場合、ユーザーのサインアップ試行は失敗し、ユーザーに組織の管理者に連絡するように指示するメッセージが表示されます。ライセンスの自動配布 (学生、教職員、およびスタッフ向けの Office 365 for Education など) を既に無効にしている場合は、このプロセスを繰り返す必要はありません。
+既存の Microsoft 365 テナントにユーザーが参加できないようにするために、グローバル管理者が実行できる手順があります。 アクセスをブロックした場合、ユーザーのサインアップ試行は失敗し、ユーザーに組織の管理者に連絡するように指示するメッセージが表示されます。ライセンスの自動配布 (学生、教職員、およびスタッフ向けの Office 365 for Education など) を既に無効にしている場合は、このプロセスを繰り返す必要はありません。
 
 新しいユーザーがマネージド テナントに参加できないようにするには、次の PowerShell スクリプトを使用します。 ([PowerShell の詳細を確認する][1]。)
 
@@ -184,7 +184,7 @@ Power BI には、Microsoft 365 全体管理者ロールのユーザーと Power
 何もしなければ、各ユーザーの電子メール ドメインとサブドメイン用のテナントがサービスによって作成されます。 すべてのユーザーを、その電子メール アドレスの拡張子に関係なく同じテナントに含める場合は、次の操作を行ってください。事前に対象テナントを作成するか、既存のテナントを使用します。 次に、そのテナントに含める既存のドメインとサブドメインをすべて追加します。 電子メール アドレスの末尾がこれらのドメインとサブドメインに該当するすべてのユーザーは、サインアップ時に自動的に対象テナントに追加されます。
 
 > [!IMPORTANT]
-> ユーザーを作成した後、テナント間でユーザーを自動的に移動するメカニズムはサポートされていません。 1 つの Microsoft 365 テナントにドメインを追加する方法については、[Office 365 へのユーザーとドメインの追加](/office365/admin/setup/add-domain/)に関するページを参照してください。
+> ユーザーを作成した後、テナント間でユーザーを自動的に移動するメカニズムはサポートされていません。 1 つの Microsoft 365 テナントにドメインを追加する方法については、[Microsoft 365 へのユーザーとドメインの追加](/office365/admin/setup/add-domain/)に関するページを参照してください。
 
 ### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>Power BI に既にサインアップしているユーザーを削除するにはどうすればよいですか。
 
@@ -259,9 +259,9 @@ Microsoft は Power BI を Microsoft 365 上に構築しており、Azure Active
 [Power BI Premium とは何ですか?](service-premium-what-is.md)  
 [Power BI Premium の購入方法](service-admin-premium-purchase.md)  
 [Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)  
-[Power BI および Office 365 でのグループ管理](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
-[Office 365 のユーザー アカウント管理](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
-[Office 365 グループ管理](/office365/admin/email/create-edit-or-delete-a-security-group/)  
+[Power BI および Microsoft 365 でのグループ管理](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
+[職場または学校のアカウントの管理](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
+[Microsoft 365 グループの管理](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

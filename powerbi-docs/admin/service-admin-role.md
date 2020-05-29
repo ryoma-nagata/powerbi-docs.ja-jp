@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a5a956f65943f557d21a942bde4be1de40a84692
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136430"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438202"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>Power BI サービス管理者ロールについて
 
-Power BI テナントを管理するには、次のいずれかのロールである必要があります。Power BI 管理者、Power Platform 管理者、または Microsoft 365 のグローバル管理者。Microsoft 365 ユーザー管理管理者が、Microsoft 365 管理センターで、または PowerShell スクリプトを使用して、ユーザーを Power BI 管理者ロールまたは Power Platform 管理者ロールに割り当てます。 詳細については、「[Office 365 PowerShell を使用してユーザー アカウントにロールを割り当てる](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)」を参照してください。
+Power BI テナントを管理するには、次のいずれかのロールである必要があります。Power BI 管理者、Power Platform 管理者、または Microsoft 365 のグローバル管理者。Microsoft 365 ユーザー管理管理者が、Microsoft 365 管理センターで、または PowerShell スクリプトを使用して、ユーザーを Power BI 管理者ロールまたは Power Platform 管理者ロールに割り当てます。 詳細については、[PowerShell を使用してユーザー アカウントにロールを割り当てる方法](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)に関する記事をご覧ください。
 
 Power BI 管理者ロールと Power Platform 管理者ロールのユーザーは、Power BI テナントとその管理機能を完全に制御できます (ライセンス以外)。 割り当てられたユーザーは、[Power BI 管理ポータル](service-admin-portal.md)にアクセスできます。 そこで、テナント全体の利用状況の指標にアクセスでき、Power BI 機能のテナント全体の利用状況を制御できます。 これらの監理者ロールは、Microsoft 365 の完全な管理アクセス権を付与することなく、Power BI 管理ポータルにアクセスできるようにする必要があるユーザーに最適です。
 

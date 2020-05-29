@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 05/04/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 762d88789bb68777886a126589802b9e8d854879
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347449"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693072"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>組織でテンプレート アプリをインストールして配布する
 
@@ -59,11 +59,19 @@ ms.locfileid: "83347449"
 
 ## <a name="connect-to-data"></a>データに接続する
 
-1. **[アプリに移動]** を選択します。 **[新しいアプリを開始する]** ウィンドウが表示されます。
+1. **[アプリに移動]** を選択します。
 
-   ![アプリを開始する](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+1. **[新しいアプリを開始する]** ウィンドウで、**探索**を選択します。
 
-1. **[接続]** をクリックします。
+   ![テンプレート アプリのスプラッシュ スクリーン](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+
+   アプリが開き、サンプル データが表示されます。
+
+1. ページの上部にあるバナーの **[データを接続]** リンクを選択します。
+
+   ![GitHub アプリの [データを接続] リンク](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
+
+
     
     これにより表示される 1 つまたは複数のダイアログで、データ ソースをサンプル データから独自のデータ ソースに変更します。 これは一般に、データセット パラメーターとデータ ソースの資格情報の再定義を意味します。 「[既知の制限事項](service-template-apps-overview.md#known-limitations)」を参照してください。
     
@@ -71,19 +79,20 @@ ms.locfileid: "83347449"
 
    ![データへの接続ダイアログ](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-    接続ダイアログの入力が済むと、接続プロセスが開始されます。 サンプル データが表示されていることがバナーで示されます。
+    接続ダイアログの入力が済むと、接続プロセスが開始されます。 バナーによってデータが更新中であることと、その間サンプル データが表示されていることが示されます。
 
     ![サンプル データの表示](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-    データの接続と更新が終了するまで待ちます。 このプロセスが完了したことを知るには、データセット行 (新しい表示) またはタブ (古い表示) の進行状況インジケーターを確認します。
-
-   接続とデータ更新が完了したら、ブラウザーを最新の情報に更新します。アプリに対する変更を適用してそれを共有するには、アプリを更新する必要があることが、バナーで示されるようになります。
-
-    ![アプリをカスタマイズして共有する](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
+   レポート データは 1 日に 1 回自動的に更新されます (サインイン プロセス中にこれを無効にしていない限り)。 また、[独自の更新スケジュールを設定](./refresh-scheduled-refresh.md)し、必要に応じてレポート データを最新の状態に保つこともできます。
 
 ## <a name="customize-and-share-the-app"></a>アプリをカスタマイズして共有する
 
-データへの接続とデータの更新の後でブラウザーを最新の情報に更新すると、アプリに関連付けられているワークスペースが表示されるようになります。 この時点で、他のワークスペースと同様に、そこにある任意の成果物を編集できます。 ただし、変更した項目を別の名前で保存しない限り、アプリを新しいバージョンに更新すると、変更は上書きされることに注意してください。 [上書きに関する詳細を参照してください](#overwrite-behavior)。
+データへの接続とデータの更新が完了したら、アプリに含まれる任意のレポートやダッシュボードをカスタマイズしたり、アプリを同僚と共有したりできます。 ただし、変更した項目を別の名前で保存しない限り、アプリを新しいバージョンに更新すると変更が上書きされることを覚えておいてください。 [上書きに関する詳細を参照してください](#overwrite-behavior)。
+
+アプリをカスタマイズしたり共有したりするには、ページの右上隅にある鉛筆アイコンを選択します。
+
+![アプリの編集](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
 
 ワークスペースでの成果物の編集については、以下を参照してください。
 * [Power BI でのレポート エディターのツアー](../create-reports/service-the-report-editor-take-a-tour.md)
@@ -132,4 +141,4 @@ ms.locfileid: "83347449"
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI で同僚と一緒にワークスペースを作成する](../collaborate-share/service-create-workspaces.md)
+[Power BI で同僚と一緒にワークスペースを作成する](../collaborate-share/service-create-the-new-workspaces.md)

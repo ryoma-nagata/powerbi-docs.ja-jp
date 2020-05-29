@@ -7,47 +7,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 05/18/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 84ce61c98048690c1560a2c49aed07591a22119f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8bea8c2fc59deeb6aec4817f27d10371518f523e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83137652"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564334"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>アプリで Premium 容量を監視する
 
 Premium 容量リソースを最適に利用するにはどうすればよいかを十分な情報に基づいて判断するには、ご利用の容量を監視することが不可欠です。 管理ポータルまたは **Power BI Premium 容量メトリック** アプリで容量を監視できます。 この記事では、Premium 容量メトリック アプリの使い方について説明します。 このアプリを使用すると、自分の容量がどのように活用されているかについて非常に詳細な情報を得ることができます。 過去 7 日間の平均使用量のメトリックに関する大まかな概要は、管理ポータルを使用して確認できます。 このポータルでの監視の詳細については、[管理ポータルでの Premium 容量の管理](service-admin-premium-monitor-portal.md)に関するページを参照してください。
 
-アプリは定期的に新しい機能によって更新されます。 最新のバージョンが実行されていることを確認してください。 アプリの以前のバージョンが既にインストールされている場合は、それをご利用のアプリの中から削除し、Ctrl + F5 キーを押して更新することをお勧めします。
+アプリは定期的に新しい機能によって更新されます。 最新のバージョンが実行されていることを確認してください。 新しいバージョンが利用可能になると、[通知](../connect-data/service-template-apps-install-distribute.md#update-a-template-app)を受け取ります。
 
 > [!IMPORTANT]
 > Power BI Premium 容量のリソース使用率が高いために、パフォーマンスや信頼性の問題が発生している場合は、通知メールを受信して問題を特定し、解決することができます。 これは、過負荷容量のトラブルシューティングを行うための合理的な方法である可能性があります。 詳細については、「[容量と信頼性に関する通知](service-interruption-notifications.md#capacity-and-reliability-notifications)」を参照してください。
 
 ## <a name="install-the-app"></a>アプリをインストールする
 
-[Premium 容量メトリック アプリ](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)に直接移動するか、Power BI の他のアプリと同じようにインストールします。
-
-1. Power BI で **[アプリ]** をクリックします。
-
-    ![アプリに移動する](media/service-admin-premium-monitor-capacity/apps.png)
-
-2. 右側にある **[アプリの取得]** をクリックします。
-3. **[アプリ]** カテゴリで、 **[Power BI Premium Capacity Metrics app]\(Power BI Premium 容量メトリック アプリ\)** を検索します。
-4. サブスクライブして、アプリをインストールします。
-
-しばらくお待ちください。 インストールおよびメトリックの更新には数分かかります。 アプリに空のメトリックスが表示される場合は、F5 キーを押してブラウザーを更新します。
+アプリをインストールしてデータに接続する方法については、「[Power BI Premium Capacity Metrics に接続する](../connect-data/service-connect-to-pbi-premium-capacity-metrics.md)」を参照してください。 または、[アプリに直接アクセスする](https://go.microsoft.com/fwlink/?linkid=2114036)こともできます。
 
 ## <a name="get-app-refresh-history"></a>アプリの更新履歴を取得する
 
-ご使用の Premium 容量メトリック アプリが最後に更新された時刻を確認するには、 **[設定]**  >  **[データセット]**  >  **[Power BI Premium Capacity Metrics app]\(Power BI Premium 容量メトリック アプリ\)**  >  **[更新履歴]** の順にクリックします。 
+Premium Capacity Metrics アプリが最後に更新された日時を確認するには、次の操作を実行します。
 
-![[設定] での更新履歴](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
+1. アプリと共にインストールされたワークスペースにアクセスします。
 
-最終更新日時が表示されます。スケジュールされた更新またはオンデマンドの更新を参照するには **[更新履歴]** をクリックしてください。
+   ![アプリ ワークスペースにアクセスする](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
-![最終更新日時](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
+1. データセットの行の **[更新のスケジュール設定]** ボタンをクリックします。
+
+   ![[更新のスケジュール設定] ボタン](media/service-admin-premium-monitor-capacity/schedule-refresh.png)
+
+   最終更新日時が表示されます。 スケジュールされた更新またはオンデマンドの更新を確認するには、 **[更新履歴]** をクリックします。
+
+   ![最終更新日時](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
 
 ## <a name="monitor-capacities-with-the-app"></a>アプリで容量を監視する
 

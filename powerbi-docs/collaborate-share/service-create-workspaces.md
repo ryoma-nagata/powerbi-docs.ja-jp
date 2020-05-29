@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d70b291b4ff2b157c15967d602cfbee8e12965a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1d37225e1de1ffdf0617a84c3b0514d32494c563
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144330"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693937"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI でクラシック ワークスペースを作成する
 
@@ -22,30 +22,30 @@ Power BI では、"*ワークスペース*" を作成することができます
 
 **ご存知でしたか?** Power BI で新しいワークスペース エクスペリエンスが提供されるようになりました。これは既定値となります。 新しいワークスペースの詳細については、「[Power BI の新しいワークスペースで作業を整理する](service-new-workspaces.md)」を参照してください。 クラシック ワークスペースを移行する場合、 詳細については、「[Power BI でクラシック ワークスペースを新しいワークスペースにアップグレードする](service-upgrade-workspaces.md)」を参照してください。
 
-クラシック ワークスペースを作成するときは、基になる、関連する Office 365 グループを作成します。 ワークスペースの管理はすべて Office 365 で行われます。 こうしたワークスペースには、メンバーまたは管理者として、同僚を追加することができます。 ワークスペースでは、より広範な対象ユーザーに発行する予定のダッシュボード、レポート、およびその他の記事で、全員が共同作業を行うことできます。 ワークスペースに追加するすべてのユーザーに、Power BI Pro のライセンスが必要となります。 
+クラシック ワークスペースを作成するときは、基になる、関連付けられている Microsoft 365 グループを作成します。 ワークスペースの管理はすべて Microsoft 365 で行われます。 こうしたワークスペースには、メンバーまたは管理者として、同僚を追加することができます。 ワークスペースでは、より広範な対象ユーザーに発行する予定のダッシュボード、レポート、およびその他の記事で、全員が共同作業を行うことできます。 ワークスペースに追加するすべてのユーザーに、Power BI Pro のライセンスが必要となります。
 
 ## <a name="video-apps-and-workspaces"></a>ビデオ:アプリとワークスペース
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>Office 365 グループに基づいてクラシック ワークスペースを作成する
+## <a name="create-a-classic-workspace-based-on-a-microsoft-365-group"></a>Microsoft 365 グループに基づいてクラシック ワークスペースを作成する
 
-ワークスペースは Office 365 グループを基に作成します。
+ワークスペースは Microsoft 365 グループに基づいて作成します。
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
-最初に作成するとき、場合によっては、ワークスペースが Office 365 に反映されるまで 1 時間程度待つ必要があります。 
+最初に作成するとき、場合によっては、ワークスペースが Microsoft 365 に反映されるまで 1 時間程度待つ必要があります。
 
-### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Office 365 ワークスペースにイメージを追加する (省略可能)
+### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Microsoft 365 ワークスペースに画像を追加する (省略可能)
 既定では、Power BI は、アプリの頭文字を使用した色付きの小さな丸をアプリに作成します。 しかし、画像でカスタマイズする必要があるかもしれません。 画像を追加するには、Exchange Online ライセンスが必要です。
 
 1. **[ワークスペース]** を選択し、ワークスペースの名前の横にある**その他のオプション** (...) を選択して、 **[メンバー]** を選択します。 
    
      ![ワークスペースのメンバーを選択する](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
-    ワークスペースの Office 365 Outlook アカウントが、新しいブラウザー ウィンドウで開きます。
+    ワークスペースの Microsoft 365 Outlook アカウントが、新しいブラウザー ウィンドウで開きます。
 2. **[編集]** 鉛筆を選択します。
    
-     ![Office 365 の鉛筆アイコン](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+     ![Microsoft 365 の鉛筆アイコン](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
 3. カメラ画像を選択し、使用する画像を検索します。
    
      ![カメラ画像を選択する](media/service-create-workspaces/power-bi-workspace-old-camera.png)
@@ -54,7 +54,7 @@ Power BI では、"*ワークスペース*" を作成することができます
 
 4. **[OK]** を選択し、 **[保存]** を選択します。
    
-    Office 365 Outlook のウィンドウで、色付きの丸がその画像に置き換えられます。 
+    Microsoft 365 Outlook のウィンドウで、色付きの丸がその画像に置き換えられます。
    
      ![カスタマイズされた画像](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    

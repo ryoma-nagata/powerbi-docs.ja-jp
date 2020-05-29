@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4995671fe5a3a4af0e74ce97d3227f73f005dc3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348530"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564087"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Power BI ワークスペースの OneDrive に保存されているファイルに接続する
 [Power BI にワークスペースを作成](../collaborate-share/service-create-distribute-apps.md)した後、Excel、CSV、Power BI Desktop などのファイルを Power BI ワークスペースの OneDrive for Business に保存できるようになりました。 OneDrive に保存したファイルは引き続き更新できます。 これらの更新プログラムは、ファイルに基づいて Power BI レポートとダッシュボードに自動的に反映されます。 
 
 > [!NOTE]
-> 新しいワークスペース エクスペリエンスでは、Power BI ワークスペースと Office 365 グループ間の関係が変わります。 新しいワークスペースの 1 つを作成するたびに Office 365 グループは自動的に作成されません。 新しいワークスペースの作成については、[こちら](../collaborate-share/service-create-the-new-workspaces.md)を参照してください
+> 新しいワークスペース エクスペリエンスでは、Power BI ワークスペースと Microsoft 365 グループ間の関係が変わります。 新しいワークスペースのいずれかを作成するたびに Microsoft 365 グループが自動的に作成されることはありません。 新しいワークスペースの作成については、[こちら](../collaborate-share/service-create-the-new-workspaces.md)を参照してください
 
 ワークスペースへのファイルの追加は、次の 2 つの手順で行います。 
 
@@ -34,10 +34,10 @@ ms.locfileid: "83348530"
 1. Power BI サービスで、[ワークスペース] の横にある矢印を選択し、目的のワークスペース名の隣にある省略記号 ( **…** ) を選択します。 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
-2. **[ファイル]** を選択し、Office 365 のワークスペースの OneDrive for Business を開きます。
+2. **[ファイル]** を選択し、Microsoft 365 のワークスペースの OneDrive for Business を開きます。
    
    > [!NOTE]
-   > ワークスペース メニューに **[ファイル]** が表示されない場合は、 **[メンバー]** を選択してワークスペースの OneDrive for Business を開きます。 そこで、 **[ファイル]** を選びます。 Office 365 で、アプリのグループ ワークスペース ファイルの OneDrive ストレージの場所が作成されます。 このプロセスにはしばらく時間がかかることがあります。 
+   > ワークスペース メニューに **[ファイル]** が表示されない場合は、 **[メンバー]** を選択してワークスペースの OneDrive for Business を開きます。 そこで、 **[ファイル]** を選びます。 Microsoft 365 により、アプリのグループ ワークスペース ファイル用の OneDrive ストレージの場所が設定されます。 この処理には時間がかかる場合があります。
    > 
    > 
 3. ここで、ワークスペースの OneDrive for Business にファイルをアップロードすることができます。 **[アップロード]** を選び、ファイルに移動します。
@@ -45,7 +45,7 @@ ms.locfileid: "83348530"
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel ファイルをデータセットまたは Excel Online のブックとしてインポートする
-ファイルがワークスペースの OneDrive for Business に保存されたので、選択肢ができました。 次のことが行えます。 
+ファイルがワークスペースの OneDrive for Business に保存されたので、選択肢ができました。 次の操作を実行できます。 
 
 * [Excel ブックからデータセットとしてデータをインポートします](service-get-data-from-files.md)。 次に、そのデータを使用して Web ブラウザーやモバイル デバイスで表示できるレポートとダッシュボードを作成します。
 * または、[Power BI で Excel ブック全体に接続](service-excel-workbook-files.md)し、Excel Online で表示されるのと同じようにブックを表示します。
@@ -75,7 +75,7 @@ ms.locfileid: "83348530"
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [Power BI でアプリとワークスペースを作成する](../collaborate-share/service-create-distribute-apps.md)
 * [Excel ブックからデータをインポートする](service-get-data-from-files.md)
 * [Excel ブック全体に接続する](service-excel-workbook-files.md)

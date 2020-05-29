@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2b7c442ef39bba58b7ac7f8224928d29ea56d9c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348139"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693839"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 
@@ -50,7 +50,7 @@ Power BI レポートの新しい**埋め込み**オプションを使うと、�
 
 **[埋め込む]** オプションによって、ユーザーがレポートを表示することが自動的に許可されるわけではありません。 表示権限は Power BI サービスで設定されます。
 
-Power BI サービスでは、アクセスを必要とするユーザーと埋め込みレポートを共有できます。 Office 365 グループを使用している場合、ワークスペースのメンバーとしてユーザーを記載できます。 詳細については、「[Power BI と Office 365 でワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)」を参照してください。
+Power BI サービスでは、アクセスを必要とするユーザーと埋め込みレポートを共有できます。 Microsoft 365 グループを使用している場合、ワークスペースのメンバーとしてユーザーを指定できます。 詳細については、「[Power BI と Microsoft 365 でワークスペースを管理する](service-manage-app-workspace-in-power-bi-and-office-365.md)」をご覧ください。
 
 ## <a name="licensing"></a>ライセンス
 
@@ -60,7 +60,7 @@ Power BI サービスでは、アクセスを必要とするユーザーと埋�
 
 埋め込み URL の入力設定を使用し、ユーザー エクスペリエンスをカスタマイズできます。 指定の iFrame では、URL の **src** 設定を更新できます。
 
-| プロパティ  | Description  |  |  |  |
+| プロパティ  | 説明  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
 | pageName  | **pageName** クエリ文字列パラメーターを使用し、開くレポート ページを設定します。 次に示すように、この値は、Power BI サービスでレポートを表示するとき、レポートの URL の終わりにあります。 |  |  |  |
 | URL フィルター  | Power BI UI から受け取った埋め込み URL の [URL フィルター](service-url-filters.md)を使用し、埋め込みコンテンツをフィルター処理できます。 この方法では、基本的な HTML および JavaScript エクスペリエンスのみとのローコードの統合を構築できます。  |  |  |  |
@@ -115,7 +115,7 @@ report.src = newUrl;
 }
 ```
 
-![フィルター](media/service-embed-secure/secure-embed-filter.png)
+![Assert](media/service-embed-secure/secure-embed-filter.png)
 
 ボタンを好きなだけ追加して、ローコードのカスタム エクスペリエンスを作成できます。 
 
@@ -141,7 +141,7 @@ report.src = newUrl;
 
 * 認証トークンの有効期間は AAD 設定に基づいて制御されます。 認証トークンの有効期限が切れると、ユーザーはブラウザーを更新し、更新された認証トークンを取得する必要があります。 既定の有効期間は 1 時間ですが、組織によってはこれより短くなることも、長くなることもあります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [Power BI で作業を共有する方法](service-how-to-collaborate-distribute-dashboards-reports.md)
 

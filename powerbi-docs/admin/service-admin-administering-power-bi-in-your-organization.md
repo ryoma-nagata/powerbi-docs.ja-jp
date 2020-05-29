@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e9ed930cc557250a9e1702d6010536ed069cd7b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: afa8513267be4ec2de18a9adda7995c88f4f2aa8
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129514"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438041"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 管理とは
 
@@ -36,17 +36,17 @@ Power BI 管理に関連するいくつかのロールがあります。それ�
 
 | **管理者の種類** | **管理者のスコープ** | **Power BI のスコープ** |
 | --- | --- | --- |
-| Office 365 全体管理者 | Office 365 | Power BI テナントとその他のサービスのすべての側面を管理できます。 |
-| Office 365 課金管理者 | Office 365 | Office 365 サブスクリプションを通して Power BI ライセンスを取得できます。 |
+| グローバル管理者 | Microsoft 365 | Power BI テナントとその他のサービスのすべての側面を管理できます。 |
+| 課金管理者 | Microsoft 365 | Office 365 サブスクリプションを通して Power BI ライセンスを取得できます。 |
 | Power BI サービス管理者 | Power BI テナント | Power BI テナントとその管理機能を完全に制御できます (ライセンス以外)。 |
 | Power BI Premium 容量管理者 | 単一の Premium 容量 | Premium 容量とその管理機能を完全に制御できます。 |
 | Power BI Embedded 容量管理者 | 単一の Embedded 容量 | Embedded 容量とその管理機能を完全に制御できます。 |
 
-Office 365 または Azure Active Directory の全体管理者は、Power BI の管理者権限を持っています。 Office 365 の全体管理者は、他のユーザーを Power BI サービス管理者ロールに割り当てることができます。この割り当てでは、Power BI の機能に対する管理権限のみが付与されます。
+Microsoft 365 または Azure Active Directory のグローバル管理者は、Power BI の管理者権限を持っています。 グローバル管理者は、他のユーザーを Power BI サービス管理者ロールに割り当てることができます。この割り当てでは、Power BI の機能に対する管理権限のみが付与されます。
 
 Power BI サービス管理者は、機能、セキュリティ、および監視に関するさまざまなテナント レベルの設定を含む Power BI 管理ポータルにアクセスできます。 サービス管理者は、Power BI テナントのすべてのリソースにフル アクセスできます。 ほとんどの場合、サービス管理者は、問題を識別した後、リソースの所有者とともにフォローアップを行って是正措置を取ります。
 
-Power BI サービス管理者ロールは、Office 365 でのユーザーへのライセンスの割り当てや監査ログの表示機能は付与しません。 そのため、Power BI 管理タスクは、現時点では、Power BI サービス管理者ロールのメンバーのみであるユーザーは実行できません。
+Power BI サービス管理者ロールでは、Microsoft 365 でユーザーにライセンスを割り当てたり、監査ログを表示したりする権限は付与されません。 そのため、Power BI 管理タスクは、現時点では、Power BI サービス管理者ロールのメンバーのみであるユーザーは実行できません。
 
 ## <a name="administrative-tasks"></a>管理タスク
 
