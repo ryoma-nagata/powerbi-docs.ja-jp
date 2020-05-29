@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275963"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121205"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>サービス プリンシパルとアプリケーション シークレットを使用した Power BI コンテンツの埋め込み
 
@@ -22,7 +22,7 @@ ms.locfileid: "83275963"
 
 この記事では、"*アプリケーション ID*" と "*アプリケーション シークレット*" を使用したサービス プリンシパル認証について説明します。
 
-## <a name="method"></a>メソッド
+## <a name="method"></a>Method
 
 埋め込み分析でサービス プリンシパルとアプリケーション ID を使用するには、次の手順を行います。
 
@@ -188,13 +188,12 @@ Power BI サービス内でレポート、ダッシュボード、データセ�
 * 運用環境に移行するときは、専用の容量が必要です。
 * サービス プリンシパルを使用して Power BI ポータルにサインインすることはできません。
 * Power BI 管理ポータル内の開発者向け設定でサービス プリンシパルを有効にするには、Power BI 管理者権限が必要です。
-* サービス プリンシパルを使用して、オンプレミス データ ゲートウェイをインストールまたは管理することはできません。
 * [組織のアプリケーションへの埋め込み](embed-sample-for-your-organization.md)では、サービス プリンシパルを使用することはできません。
 * [データフロー](../../transform-model/service-dataflows-overview.md)管理はサポートされていません。
 * サービス プリンシパルでは現在、管理 API は一切サポートされていません。
 * サービス プリンシパルを [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) データ ソースと共に使用する場合、サービス プリンシパル自体に Azure Analysis Services インスタンスのアクセス許可が含まれている必要があります。 この目的のためのサービス プリンシパルを含むセキュリティ グループを使用することはできません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [顧客向けの Power BI Embedded](embed-sample-for-customers.md)
 
