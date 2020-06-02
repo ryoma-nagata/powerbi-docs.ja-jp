@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Power BI の管理者とエンタープライズ向けドキュメント
-summary: Power BI の管理者とエンタープライズ向けドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+summary: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
 metadata:
   title: Power BI の管理者とエンタープライズ向けドキュメント
-  description: Power BI の管理者とエンタープライズ向けドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
+  description: Power BI ドキュメントは、Power BI の使用方法に関係なく、ニーズに対応する上級者向け情報と回答を提供します。
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/17/2020
-  ms.openlocfilehash: 2256fbfed7410aea069638a773b83156096ab855
-  ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+  ms.openlocfilehash: 583a42a230b869f2692cc35202dbd496a4f2b602
+  ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 05/16/2020
-  ms.locfileid: "83437984"
+  ms.lasthandoff: 06/02/2020
+  ms.locfileid: "84272473"
 landingContent:
 - title: 管理者とエンタープライズにおける Power BI
   linkLists:
@@ -45,7 +45,7 @@ landingContent:
       url: service-admin-purchasing-power-bi-pro.md
     - text: Microsoft 365 評価版にサインアップする
       url: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-    - text: Office 365 パートナーによる Power BI の追加
+    - text: Microsoft 365 パートナーと共に Power BI を追加する
       url: service-admin-syndication-partner.md
 - title: 組織を管理する
   linkLists:
