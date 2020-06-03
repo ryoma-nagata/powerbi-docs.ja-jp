@@ -28,8 +28,6 @@
           href: embedded-capacity-planning.md
         - name: のパフォーマンスのベスト プラクティス
           href: embedded-performance-best-practices.md
-        - name: サービス プリンシパル
-          href: embed-service-principal.md
         - name: 行レベルのセキュリティ
           href: embedded-row-level-security.md
         - name: ページ分割されたレポートの行レベルのセキュリティ
@@ -44,6 +42,10 @@
           href: power-bi-permissions.md
     - name: 操作方法
       items:
+        - name: サービス プリンシパルを使用して証明書を埋め込む
+          href: embed-service-principal-certificate.md
+        - name: サービス プリンシパルとアプリ シークレットを使用して埋め込む
+          href: embed-service-principal.md
         - name: アプリからの埋め込み
           href: embed-from-apps.md
         - name: レポートをファイルにエクスポートする

@@ -20,6 +20,8 @@
           href: custom-visual-develop-tutorial-format-options.md
         - name: ビジュアル プロジェクトの単体テストを追加する
           href: unit-tests-introduction.md
+        - name: R スクリプトから R ビジュアルにフィルター プロットを作成する
+          href: funnel-plot-from-r.md
     - name: 概念
       items:
         - name: Power BI ビジュアル プロジェクトの構造
