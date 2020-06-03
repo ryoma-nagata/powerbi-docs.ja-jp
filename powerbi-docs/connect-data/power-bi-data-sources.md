@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/10/2020
+ms.date: 06/01/2020
 ms.author: kfollis
-ms.openlocfilehash: 2aa12ec3d55e491535d12107fc70709f9d41c3f0
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438087"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273393"
 ---
 # <a name="power-bi-data-sources"></a>Power BI データ ソース
 
@@ -31,7 +31,7 @@ ms.locfileid: "83438087"
 | Amazon Redshift | はい | はい | はい | はい | いいえ |
 | appFigures | はい | はい | いいえ | いいえ | いいえ |
 | AtScale キューブ | はい | はい | はい | はい | いいえ |
-| Azure Analysis Services | はい | はい | はい | はい <sup>2</sup> | いいえ |
+| Azure Analysis Services | はい | はい | はい | いいえ | いいえ |
 | Azure BLOB Storage | はい | はい | いいえ | はい | いいえ |
 | Azure Cosmos DB | はい | はい | いいえ | いいえ | いいえ |
 | Azure Cost Management | はい | はい | いいえ | いいえ | いいえ |
