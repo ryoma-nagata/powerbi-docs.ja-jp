@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564617"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812429"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI でユーザー アクティビティを追跡する
 
@@ -26,7 +26,7 @@ Power BI テナント内で、だれがどの項目にどのようなアクシ�
 | Power BI 監査イベントに加えて、SharePoint Online、Exchange Online、Dynamics 365、およびその他のサービスからのイベントが含まれます。 | Power BI 監査イベントのみが含まれます。 |
 | View-Only Audit Logs (表示専用監査ログ) または監査ログのアクセス許可を持つユーザー (グローバル管理者や監査人など) のみがアクセス権を持ちます。 | グローバル管理者と Power BI サービス管理者がアクセス権を持ちます。 |
 | グローバル管理者と監査者は、Microsoft 365 Security Center、および Microsoft 365 コンプライアンス センターを使用して、統合監査ログを検索できます。 | アクティビティ ログを検索するためのユーザー インターフェイスはまだありません。 |
-| グローバル管理者と監査者は、Office 365 Management API とコマンドレットを使用して、監査ログ エントリをダウンロードできます。 | グローバル管理者と Power BI サービス管理者は、Power BI REST API および管理コマンドレットを使用して、アクティビティ ログ エントリをダウンロードできます。 |
+| グローバル管理者と監査者は、Microsoft 365 Management API とコマンドレットを使用して、監査ログ エントリをダウンロードできます。 | グローバル管理者と Power BI サービス管理者は、Power BI REST API および管理コマンドレットを使用して、アクティビティ ログ エントリをダウンロードできます。 |
 | 監査データは 90 日間保持されます。 | アクティビティ データは 30 日間保持されます (パブリック プレビュー)。 |
 | テナントが別の Azure リージョンに移動された場合でも、監査データは保持されます。 | テナントが別の Azure リージョンに移動された場合、アクティビティ データは保持されません。 |
 
@@ -239,6 +239,7 @@ Exchange Online に接続する方法の詳細については、「[リモート
 
 | フレンドリ名                                     | 操作名                              | ノート                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Excel で Power BI のおすすめのテーブルにアクセスしました | AnalyzedByExternalApplication |    |
 | Power BI Gateway にデータ ソースを追加しました             | AddDatasourceToGateway                      |                                          |
 | Power BI フォルダーへのアクセスを追加しました                      | AddFolderAccess                             | 現在使用されていません                       |
 | Power BI グループ メンバーを追加しました                      | AddGroupMembers                             |                                          |
@@ -299,6 +300,7 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI ダッシュボードを出力しました                        | PrintDashboard                              |                                          |
 | Power BI レポート ページを出力しました                      | PrintReport                                 |                                          |
 | Power BI レポートを Web に発行しました                  | PublishToWebReport <sup>2</sup>                         |                                          |
+| おすすめのテーブルを発行または更新しました | UpdateFeaturedTables <sup>3</sup>   | |
 | Key Vault からの Power BI データフロー シークレットを受信しました  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Power BI Gateway からのデータ ソースの削除         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI グループ メンバーを削除しました                    | DeleteGroupMembers                          |                                          |
@@ -341,6 +343,8 @@ Exchange Online に接続する方法の詳細については、「[リモート
 <sup>1</sup> Power BI Desktop からサービスへの発行は、サービスの CreateReport イベントです。
 
 <sup>2</sup> PublishtoWebReport は、[Web に公開](../collaborate-share/service-publish-to-web.md)機能を参照します。
+
+<sup>3</sup> UpdateFeaturedTables は、[Excel での Power BI のおすすめのテーブル](../collaborate-share/service-excel-featured-tables.md)のことです。
 
 ## <a name="next-steps"></a>次の手順
 

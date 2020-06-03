@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2bb54bf7340e89b86bfbfd56390b79a7051dd709
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564497"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812280"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -153,7 +153,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 * Active Directory には、全体的な組織内で外部ゲスト ユーザーが実行できる内容を制限できる設定が存在します。 これは Power BI 環境にも適用されます。 これらの設定については、次のドキュメントで説明されています。
     * [外部コラボレーションの設定を管理する](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
     * [特定の組織からの B2B ユーザーへの招待を許可またはブロックする](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
-    * [ゲスト ユーザーの Power BI サービスへのアクセスを許可または禁止する](/azure/active-directory/conditional-access/overview)
+    * [条件付きアクセスを使用してアクセスを許可またはブロックする](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
     
 * 組織外での共有は、国内のクラウドではサポートされていません。 代わりに、外部ユーザーがコンテンツにアクセスするために使用できるユーザー アカウントを組織内に作成してください。 
 

@@ -4,26 +4,39 @@ description: ページ分割されたレポート (SQL Server Reporting Services
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/14/2020
-ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/19/2020
+ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565508"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733418"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium のページ分割されたレポートとは
 
-ページ分割されたレポート (SQL Server Reporting Services での標準レポート形式) を、Power BI サービスで使用できるようになりました。 これらのレポートは印刷または共有できます。 これらは、1 ページにちょうど収まるように設定されているため "ページ分割された" と呼ばれます。 テーブルが複数のページにまたがる場合でも、テーブルのすべてのデータが表示されます。 レポート ページのレイアウトを厳密に制御できるため、"ピクセル単位で完璧" と呼ばれることもあります。 ページ分割されたレポートは、SQL Server Reporting Services の RDL レポート テクノロジに基づいています。 レポート ビルダーは、ページ分割されたレポートを作成するためのスタンドアロン ツールです。 
+"*ページ分割されたレポート*" は、印刷または共有することを想定してデザインされています。 これらは、1 ページにちょうど収まるように設定されているため "*ページ分割された*" と呼ばれます。 テーブルが複数のページにまたがる場合でも、テーブルのすべてのデータが表示されます。 レポート ページのレイアウトを厳密に制御できるため、"*ピクセル単位で完璧*" と呼ばれることもあります。 Power BI レポート ビルダーは、ページ分割されたレポートを作成するためのスタンドアロン ツールです。 ページ分割されたレポートは、SQL Server Reporting Services の標準レポート形式である RDL レポート テクノロジに基づいています。 
 
-ページ分割されたレポートは、多くのページを含むことができます。 たとえば、このレポートは 563 ページです。 請求書ごとに 1 ページが使用されて、ヘッダーとフッターが繰り返されるように、各ページが正確にレイアウトされています。
+ページ分割されたレポートには、多くのページが含まれる場合があります。 たとえば、このレポートは 563 ページです。 請求書ごとに 1 ページが使用されて、ヘッダーとフッターが繰り返されるように、各ページが正確にレイアウトされています。
 
 ![ページ分割された](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 レポート ビルダーでレポートをプレビューした後、Power BI サービス (`https://app.powerbi.com`) に発行することができます。 サービスにレポートを発行するには、Power BI Pro ライセンスが必要です。 ワークスペースが Power BI Premium 容量に存在する限り、マイ ワークスペースまたはワークスペースにページ分割されたレポートを発行して共有できます。 また、Power BI 管理者は、Power BI 管理ポータルの [Premium 容量セクション](../admin/service-admin-premium-workloads.md#paginated-reports)で、ページ分割されたレポートを有効にする必要があります。 
+
+## <a name="compare-power-bi-reports-and-paginated-reports"></a>Power BI レポートとページ分割されたレポートを比較する
+
+ページ分割されたレポートの主な利点は、長さに関係なく、テーブル内のすべてのデータを印刷できることです。 Power BI レポートにテーブルを配置する画像。 ページのテーブルには行の一部が表示され、残りの部分を表示するにはスクロールバーを使用します。 そのページを印刷、または PDF にエクスポートすると、ページに表示されている行だけが出力されます。 
+
+ここで、ページ分割されたレポートに同じテーブルを配置するとします。 これを印刷、または PDF にエクスポートすると、ページ分割されたレポートには、そのテーブル内のすべての行を印刷するために必要な数のページが含まれます。 
+
+次のビデオでは、Microsoft Most Valued Professional である、Peter Myers (データ プラットフォーム) と、Chris Finlan (プリンシパル プログラム マネージャー) が、2 つのレポート形式で同様のテーブルを印刷する方法を紹介しています。 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jXTiYJKw1Rs?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT" frameborder="0" allowfullscreen></iframe>
+
+このビデオは、8 つのモジュールで構成されるビデオベースのコース、「[Power BI Paginated Reports in a Day](../learning-catalog/paginated-reports-online-course.md)」(一日で学ぶ Power BI のページ分割されたレポート) の一部です。 このコースは、Power BI のページ分割されたレポートを作成、公開、および配布するために必要な技術知識を持つレポート作成者になれるよう支援することを目的としています。
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Power BI レポート ビルダーでレポートを作成する
 

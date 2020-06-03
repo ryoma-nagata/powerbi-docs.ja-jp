@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/12/2020
+ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1a6cf5cad4fe4b76d44dcfaecd81324003687b10
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407888"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120948"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>サービス プリンシパルを使用して Premium ワークスペースとデータセットのタスクを自動化する
 
@@ -29,7 +29,7 @@ Power BI Premium では、Power BI Embedded と同じサービス プリンシ�
 - Azure Logic Apps
 - カスタム クライアント アプリケーション
 
-サービス プリンシパルは、XMLA エンドポイントで[新しいワークスペース](../collaborate-share/service-new-workspaces.md)に対してのみ使用できます。 従来のワークスペースはサポートされていません。 サービス プリンシパルには、割り当てられたワークスペースのタスクを実行するために必要なアクセス許可のみが与えられます。 アクセス許可は、通常の UPN アカウントと同様に、ワークスペース アクセスを通じて割り当てられます。
+サービス プリンシパルを使用した XMLA エンドポイント接続がサポートされるのは、[新しいワークスペース](../collaborate-share/service-new-workspaces.md)のみです。 従来のワークスペースはサポートされていません。 サービス プリンシパルには、割り当てられたワークスペースのタスクを実行するために必要なアクセス許可のみが与えられます。 アクセス許可は、通常の UPN アカウントと同様に、ワークスペース アクセスを通じて割り当てられます。
 
 書き込み操作を実行するには、容量の**データセット ワークロード**で[読み取りと書き込みに対して XMLA エンドポイントが有効になっている](service-premium-connect-tools.md#enable-xmla-read-write)必要があります。 Power BI Desktop から発行されたデータセットでは、[拡張メタデータ形式](../connect-data/desktop-enhanced-dataset-metadata.md)機能が有効になっている必要があります。
 
@@ -91,7 +91,7 @@ $PWord = ConvertTo-SecureString -String $AppSecret -AsPlainText -Force
 
 $Credential = New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $AppId, $PWord
 
-Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -Database "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
+Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -DatabaseName "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
 ```
 
 ### <a name="amo-and-adomd"></a>AMO と ADOMD

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438248"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812452"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium とは
 
@@ -50,7 +50,7 @@ Power BI Premium は、2 つの SKU (Stock Keeping Unit) ファミリで利用�
 
 ### <a name="purchasing"></a>購入
 
-Power BI Premium サブスクリプションは、Microsoft 365 管理センター内の管理者によって購入されます。 具体的には、Office 365 グローバル管理者または課金管理者のみが SKU を購入できます。 購入すると、"*仮想コア プール*" と呼ばれる容量に割り当てられる対応した数の仮想コアがテナントに届きます。 たとえば、P3 SKU を購入すると、32 個の仮想コアがテナントに提供されます。 詳細については、「[How to purchase Power BI Premium](service-admin-premium-purchase.md)」(Power BI Premium の購入方法) を参照してください。
+Power BI Premium サブスクリプションは、Microsoft 365 管理センター内の管理者によって購入されます。 具体的には、グローバル管理者または課金管理者のみが SKU を購入できます。 購入すると、"*仮想コア プール*" と呼ばれる容量に割り当てられる対応した数の仮想コアがテナントに届きます。 たとえば、P3 SKU を購入すると、32 個の仮想コアがテナントに提供されます。 詳細については、「[How to purchase Power BI Premium](service-admin-premium-purchase.md)」(Power BI Premium の購入方法) を参照してください。
 
 ## <a name="dedicated-capacities"></a>専用の容量
 
@@ -127,13 +127,13 @@ Power BI サービスでは常に、容量に課されている制限を超え�
 
 ### <a name="regional-support"></a>地域のサポート
 
-新しい容量を作成するとき、Office 365 グローバル管理者と Power BI サービス管理者は、容量に割り当てられたワークスペースを置く地域を指定することができます。 これは、**Multi-Geo** と呼ばれています。 Multi-Geo を使用することで、組織は Office 365 サブスクリプションが存在する地域とは異なる場合でも、特定の地域にあるデータセンターにコンテンツを配置することで、データの所在地要件を満たすことができます。 詳細については、「[Multi-Geo support for Power BI Premium](service-admin-premium-multi-geo.md)」 (Power BI Premium の Multi-Geo のサポート) を参照してください。
+新しい容量を作成するときに、グローバル管理者と Power BI サービス管理者は、容量に割り当てられたワークスペースを置く地域を指定することができます。 これは、**Multi-Geo** と呼ばれています。 Multi-Geo を使用することで、組織は Office 365 サブスクリプションが存在する地域とは異なる場合でも、特定の地域にあるデータセンターにコンテンツを配置することで、データの所在地要件を満たすことができます。 詳細については、「[Multi-Geo support for Power BI Premium](service-admin-premium-multi-geo.md)」 (Power BI Premium の Multi-Geo のサポート) を参照してください。
 
 ### <a name="capacity-management"></a>容量管理
 
 Premium 容量の管理では、容量の作成または削除、管理者の割り当て、ワークスペースの割り当て、ワークロードの構成、監視、容量パフォーマンスを最適化するための調整を行う必要があります。 
 
-Office 365 グローバル管理者および Power BI サービス管理者は、利用可能な仮想コアから Premium 容量を作成することも、既存の Premium 容量を変更することもできます。 容量を作成するときには、容量のサイズと地理的な地域を指定し、少なくとも 1 人の容量管理者を割り当てます。 
+グローバル管理者および Power BI サービス管理者は、利用可能な仮想コアから Premium 容量を作成することも、既存の Premium 容量を変更することもできます。 容量を作成するときには、容量のサイズと地理的な地域を指定し、少なくとも 1 人の容量管理者を割り当てます。 
 
 容量が作成されると、[管理ポータル](service-admin-portal.md)での管理タスクの大部分は完了します。
 

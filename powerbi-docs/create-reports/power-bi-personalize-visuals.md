@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 27f71da8a8396de30254c1a02307aa48281db5a8
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407585"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793597"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>ユーザーがレポート内のビジュアルをカスタマイズできるようにする
 
@@ -91,7 +91,7 @@ Power BI Desktop でこの機能を有効にするには、 **[ファイル]**  
 
 - この機能は、Web に公開などの組み込みシナリオではサポートされていません。
 - ユーザー探索は自動的に保持されません。 変更をキャプチャするには、個人用ブックマークとしてビューを保存する必要があります。
-- Power BI モバイル アプリの使用中にビジュアルを変更することはできません。 ただし、Power BI サービスの使用中に個人用ブックマークに保存したビジュアルの変更は、モバイル アプリに適用されます。
+- この機能は、iOS と Android タブレット用の Power BI モバイルアプリ、および Power BI Windows アプリでサポートされています。スマートフォン用の Power BI モバイル アプリではサポートされていません。 ただし、Power BI サービスの使用中に個人用ブックマークに保存したビジュアルの変更は、すべての Power BI モバイル アプリに適用されます。
 
 また、現在対処中のいくつかの既知の問題もあります。
 
@@ -99,10 +99,10 @@ Power BI Desktop でこの機能を有効にするには、 **[ファイル]**  
 - 日付の階層を日付に変更したり、その逆を行ったりすることはできません。 
 - 個人用ブックマークを使用すると、選択した順序によって、得られる結果が多少異なる場合があります。 不一致が発生する場合があるのは、レポートの完全な状態をキャプチャするのではなく、加えた変更のみキャプチャするためです。 回避策として、 **[既定値にリセット]** を選択した後、表示するブックマークを選択します。 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 [レポート内のビジュアルをカスタマイズする](../consumer/end-user-personalize-visuals.md)。     
 
 新しいビジュアルの個人用設定のエクスペリエンスを試してみてください。 この機能のフィードバックや、機能改善を続けていくための方法に関するご意見については、[Power BI のアイデア サイト](https://ideas.powerbi.com/forums/265200-power-bi)からお寄せください。 
 
-その他の質問 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

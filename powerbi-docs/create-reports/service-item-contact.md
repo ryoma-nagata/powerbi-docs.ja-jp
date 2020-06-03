@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5330b4c42794f0fa3110cef57f6d62ead0381e52
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 08a05a266dd505dd991d90738b81a2e7d413f090
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561790"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119861"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Power BI サービスでレポートとダッシュボードの連絡先情報を設定する
 この記事では、Power BI サービスでダッシュボードまたはレポートに連絡先情報を設定する方法について説明します。
@@ -28,7 +28,7 @@ ms.locfileid: "83561790"
 * 電子メールが有効なセキュリティ グループ
 * 配布リスト
 
-既定では、新しいレポートまたはダッシュボードを作成した人がその連絡先になります。 値を設定すると、既定値よりも優先されます。 もちろん、連絡先リストからすべてのユーザーまたはグループを削除することもできます。 その場合、従来のワークスペースには、ワークスペースの Microsoft 365 グループが表示されます。 新しいワークスペースには、[ワークスペースの連絡先リスト](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)が使用されます。 ワークスペースの連絡先リストが設定されていない場合は、ワークスペース管理者が表示されます。
+既定では、新しいレポートまたはダッシュボードを作成した人がその連絡先になります。 値を設定すると、既定値よりも優先されます。 もちろん、連絡先リストからすべてのユーザーまたはグループを削除することもできます。 その場合、クラシック ワークスペースには、そのワークスペースの Microsoft 365 グループが表示されます。 新しいワークスペースには、[ワークスペースの連絡先リスト](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list)が使用されます。 ワークスペースの連絡先リストが設定されていない場合は、ワークスペース管理者が表示されます。
 
 連絡先情報は、項目を参照すると表示されます。 
 

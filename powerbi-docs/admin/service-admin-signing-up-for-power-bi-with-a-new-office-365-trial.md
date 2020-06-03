@@ -9,21 +9,18 @@ ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: 9db228253e0e88105108a1b3a5eaf725c73e0abb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563585"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812222"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>新しい Microsoft 365 試用版で Power BI にサインアップする
 
 この記事では、職場または学校のメール アカウントをまだお持ちでない場合に、Power BI にサインアップする別の方法について説明します。
 
 メール アドレスで Power BI にサインアップしようとすると問題が発生する場合は、最初に、それが [Power BI で使用できるメール アドレス](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses)であることを確認します。 それでうまくいかない場合は、Microsoft 365 試用版にサインアップして、職場アカウントを作成します。 次に、その新しい職場アカウントを使用して、Power BI サービスにサインアップします。 Microsoft 365 試用版の有効期限が切れた後でも Power BI を使用することができます。
-
-> [!NOTE]
-> Office 365 のブランド名は、最近、Microsoft 365 に変更されました。 Microsoft のすべての記事が更新されるまで、Office 365 という名前が使用されている場合があります。
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Office の Microsoft 365 試用版にサインアップする
 [Microsoft 365 の Web サイト](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)で Microsoft 365 試用版にサインアップします。 まだアカウントをお持ちでない場合は、Microsoft によってアカウントを作成する手順が提示されます。 Microsoft 365 では商用の電子メール アカウント (Hotmail や Gmail など) を利用できないため、利用できる新しいアカウントを作成します。  その電子メール アカウントは *zalan@onmicrosoft.com* のようなものになります。
@@ -42,7 +39,7 @@ ms.locfileid: "83563585"
 
     ![職場または学校アカウントの作成](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-enter-info.png)
 
-3. 新しいメール アドレスとパスワードを作成します。 you@yourcompany.onmicrosoft.com のような、新しいサインイン名を作成します。 これが、新しい Office 365 アカウントと Power BI で使用するサインインになります。
+3. 新しいメール アドレスとパスワードを作成します。 you@yourcompany.onmicrosoft.com のような、新しいサインイン名を作成します。 これが、新しい職場または学校アカウントと Power BI で使用するサインインになります。
 
     ![新しいアカウントにサインアップすることを選択](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 

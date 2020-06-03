@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 71acc85ecd74b2606d00c4e3b63b6f7532c9487c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564144"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120029"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop で OneDrive for Business リンクを使用する
 多くの人は、Power BI Desktop と相性の良い OneDrive for Business に Excel ブックを格納しています。 Power BI Desktop を使用すると、OneDrive for Business に格納されている Excel ファイルのオンライン リンクを使用して、レポートやビジュアルを作成できます。 OneDrive for Business のグループ アカウントか、個人の OneDrive for Business アカウントを使用できます。
@@ -26,11 +26,10 @@ OneDrive for Business からオンライン リンクを取得するには、い
    
    > [!NOTE]
    > ブラウザーのインターフェイスは、次の画像のとおりではない場合もあります。 OneDrive for Business ブラウザー インターフェイスで、ファイルに対して **[Excel で開く]** を選択する方法はたくさんあります。 Excel でファイルを開くためのどのオプションでも使用することができます。
-   > 
-   > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. Excel で、 **[ファイル]**  >  **[情報]** を選択し、 **[ブックの保護]** の上にある **[パスのコピー]** を選択します。
+
+2. Excel で、次の図に示すように、 **[ファイル]**  >  **[情報]** の順に選択し、 **[パスのコピー]** ボタンを選びます。
    
    ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 

@@ -1,22 +1,22 @@
 ---
-title: データセットを共有する (プレビュー)
+title: データセットを共有する
 description: データセットの所有者として、データセットを作成し、他のユーザーが使用できるように共有することができます。 共有方法について説明します。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565462"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794085"
 ---
-# <a name="share-a-dataset-preview"></a>データセットを共有する (プレビュー)
+# <a name="share-a-dataset"></a>データセットを共有する
 
 Power BI Desktop の "*データ モデル*" の作成者であれば、Power BI サービスで配布できる "*データセット*" を作成します。 そのデータセットは、他のレポート作成者が自分のレポートの基礎として使用できます。 この記事では、データセットを共有する方法について説明します。 共有データセットへのアクセス権を付与したり、削除したりする方法については、「[データセットを共有する (プレビュー)](service-datasets-build-permissions.md)」を参照してください。
 
@@ -26,7 +26,7 @@ Power BI Desktop の "*データ モデル*" の作成者であれば、Power BI
 
     ベスト プラクティスは、.pbix ファイルを Microsoft 365 グループに保存することです。
 
-1. Power BI サービスの[新しいエクスペリエンス ワークスペース](../collaborate-share/service-create-the-new-workspaces.md)に .pbix ファイルを発行します。
+1. Power BI サービスの[新しいワークスペース エクスペリエンス](../collaborate-share/service-create-the-new-workspaces.md)に .pbix ファイルを発行します。
     
     既に、このワークスペースの他のメンバーは、このデータセットに基づいて他のワークスペースにレポートを作成できます。
 
@@ -53,5 +53,5 @@ Power BI Desktop の "*データ モデル*" の作成者であれば、Power BI
 
 ## <a name="next-steps"></a>次の手順
 
-- [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
+- [ワークスペースをまたいでデータセットを使用](service-datasets-across-workspaces.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
