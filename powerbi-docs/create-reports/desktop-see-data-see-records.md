@@ -1,30 +1,30 @@
 ---
-title: Power BI Desktop ビジュアルでのデータの確認とレコードの確認
-description: Power BI Desktop のデータの確認機能とレコードの確認機能を使用して、詳細情報にドリルダウンします
+title: Power BI Desktop の視覚化での視覚エフェクト テーブルとレコード
+description: Power BI Desktop の視覚エフェクト テーブルとデータ ポイント テーブルの機能を使用して、詳細を掘り下げます
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334363"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793909"
 ---
-# <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Power BI Desktop のデータの確認とレコードの確認を使用する
+# <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Power BI Desktop の視覚エフェクト テーブルとデータ ポイント テーブルを使用する
 **Power BI Desktop** では、視覚エフェクトの詳細にドリルダウンして、基になるデータのテキスト表現または選択したビジュアルの個々のデータ レコードを見ることができます。 これらの機能は、"*クリックスルー*"、"*ドリルスルー*"、"*詳細情報へのドリルスルー*" などとも呼ばれます。
 
-**[データの確認]** を使うと選択した視覚エフェクトで使われている値のテキスト版を表示でき、 **[レコードの確認]** を使うと選択した 1 つのレコードまたはデータ ポイントのすべてのデータを表示できます。 
+**[視覚エフェクト テーブル]** を使用して視覚エフェクト内のデータをテーブルとして表示したり、 **[データ ポイント テーブル]** を使用して 1 つのデータ ポイントの計算に使用されるデータのテーブルを表示したりできます。 
 
-![[データの確認] と [レコードの確認]](media/desktop-see-data-see-records/see-data-record.png)
+![視覚エフェクト テーブルとデータ ポイント テーブル](media/desktop-see-data-see-records/see-data-record.png)
 
 >[!IMPORTANT]
->**[データの確認]**  と **[レコードの確認]** では、次の視覚エフェクトの種類のみがサポートされます。
+>**[視覚エフェクト テーブル]** と **[データ ポイント テーブル]** では、次の視覚化の種類のみがサポートされています。
 >  - 横棒グラフ
 >  - 縦棒グラフ
 >  - ドーナツ グラフ
@@ -32,61 +32,60 @@ ms.locfileid: "83334363"
 >  - じょうごグラフ
 >  - マップ
 >  - 円グラフ
->  - Treemap
+>  - ツリーマップ
 
-## <a name="use-see-data-in-power-bi-desktop"></a>Power BI Desktop での [データの確認] の使用
+## <a name="use-visual-table-in-power-bi-desktop"></a>Power BI Desktop の視覚エフェクト テーブルを使用する
 
-**[データの確認]** では、視覚エフェクトの基になるデータが表示されます。 **[データの確認]** は、視覚エフェクトを選択したときにリボンの **[ビジュアル ツール]** セクションの **[データ/ドリル]** タブに表示されます。
+**[視覚エフェクト テーブル]** では、視覚エフェクトの基になるデータが表示されます。 **[視覚エフェクト テーブル]** は、視覚エフェクトを選択したときにリボンの **[表示]** セクションの **[データ/ドリル]** タブに表示されます。
 
-![リボンの [データの確認]](media/desktop-see-data-see-records/see-data1.png)
+![リボンの視覚エフェクト テーブル](media/desktop-see-data-see-records/visual-table-01.png)
 
-データは、ビジュアルを右クリックし、表示されるメニューから **[データの表示]** を選択するか、ビジュアルの右上隅で**その他のオプション** (...) を選択し、 **[データの表示]** を選択することでも表示できます。
+データは、視覚化を右クリックし、表示されるメニューから **[データの表示]** を選択するか、視覚化の右上隅で**その他のオプション** (...) を選択し、 **[テーブルとして表示]** を選択することでも表示できます。
 
-![右クリックの [データの表示]](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![その他のオプションの [データの表示]](media/desktop-see-data-see-records/see-data3.png)
+![右クリックの [データの表示]](media/desktop-see-data-see-records/visual-table-02.png)&nbsp;&nbsp;![その他のオプションの [データの表示]](media/desktop-see-data-see-records/visual-table-03.png)
 
 > [!NOTE]
 > 右クリック メニューを使うには、ビジュアル内のデータ ポイントの上にマウス ポインターを移動する必要があります。
 
-**[データの確認]** または **[データの表示]** を選択すると、Power BI Desktop キャンバスに、データのビジュアル表現とテキスト表現の両方が表示されます。 "*横表示*" では、ビジュアルがキャンバスの上部に表示され、データが下部に表示されます。 
+**[視覚エフェクト テーブル]** または **[データ ポイント テーブル]** を選択すると、Power BI Desktop キャンバスに、データの視覚化表現とテキスト表現の両方が表示されます。 "*横表示*" では、ビジュアルがキャンバスの上部に表示され、データが下部に表示されます。 
 
-![横表示](media/desktop-see-data-see-records/see-data4a.png)
+![横表示](media/desktop-see-data-see-records/visual-table-04.png)
 
 キャンバスの右上隅のアイコンを選ぶことで、横表示と "*縦表示*" の間を切り替えることができます。
 
-![縦表示の切り替え](media/desktop-see-data-see-records/see-data4.png)
+![縦表示の切り替え](media/desktop-see-data-see-records/visual-table-05.png)
 
 レポートに戻るには、キャンバスの左上隅にある **[< レポートに戻る]** を選びます。
 
-![レポートに戻る](media/desktop-see-data-see-records/see-data5.png)
+![レポートに戻る](media/desktop-see-data-see-records/visual-table-06.png)
 
-## <a name="use-see-records-in-power-bi-desktop"></a>Power BI Desktop での [レコードの確認] の使用
+## <a name="use-data-point-table-in-power-bi-desktop"></a>Power BI Desktop のデータ ポイント テーブルを使用する
 
-視覚エフェクト内の 1 つのデータ レコードに注目して、その背後にあるデータにドリルダウンできます。 **[レコードの確認]** を使用するには、視覚エフェクトを選択し、リボンの **[ビジュアル ツール]** セクションの **[データ/ドリル]** タブで **[レコードの確認]** を選択し、視覚エフェクト上のデータ ポイントまたは行を選択します。 
+視覚エフェクト内の 1 つのデータ レコードに注目して、その背後にあるデータにドリルダウンできます。 **[データ ポイント テーブル]** を使用するには、視覚化を選択し、リボンの **[ビジュアル ツール]** セクションの **[データ/ドリル]** タブで **[データ ポイント テーブル]** を選択し、その視覚化上のデータ ポイントまたは行を選択します。 
 
-![リボンの [レコードの確認]](media/desktop-see-data-see-records/see-record1.png)
+![リボンのデータ ポイント テーブル](media/desktop-see-data-see-records/visual-table-07.png)
 
 > [!NOTE]
-> リボンで **[レコードの確認]** が無効になってグレー表示されている場合は、選択した視覚エフェクトで **[レコードの確認]** がサポートされていないことを意味します。
+> リボンの **[データ ポイント テーブル]** ボタンが無効になって淡色表示されている場合は、選択したビジュアルで **[データ ポイント テーブル]** がサポートされていないことを意味します。
 
-データ要素を右クリックし、表示されるメニューから **[レコードの確認]** を選択することもできます。
+データ要素を右クリックし、表示されるメニューから **[データ ポイント テーブル]** を選択することもできます。
 
-![右クリックによる [レコードの確認]](media/desktop-see-data-see-records/see-record2.png)
+![右クリックによるデータ ポイント テーブル](media/desktop-see-data-see-records/visual-table-08.png)
 
-データ要素に対して **[レコードの確認]** を選択すると、Power BI Desktop キャンバスに、選択した要素に関連付けられているすべてのデータが表示されます。 
+データ要素に対して **[データ ポイント テーブル]** を選択すると、Power BI Desktop キャンバスに、選択した要素に関連付けられているすべてのデータが表示されます。 
 
-![](media/desktop-see-data-see-records/see-record3.png)
+![](media/desktop-see-data-see-records/visual-table-09.png)
 
 レポートに戻るには、キャンバスの左上隅にある **[< レポートに戻る]** を選びます。
 
-![](media/desktop-see-data-see-records/see-record4.png)
 
 > [!NOTE]
->**[レコードの確認]** には次の制限事項があります。
-> - **[レコードの確認]** ビュー内のデータを変更してレポートに保存することはできません。
-> - 計算されるメジャーがビジュアルで使われている場合は、 **[レコードの確認]** を使用できません。
-> - ライブ多次元 (MD) モデルに接続されている場合は、 **[レコードの確認]** を使用できません。
+>**[データ ポイント テーブル]** には次の制限事項があります。
+> - **[データ ポイント テーブル]** ビューでデータを変更してレポートに保存することはできません。
+> - 視覚エフェクトで計算メジャーが使用されている場合は、 **[データ ポイント テーブル]** を使用できません。
+> - ライブ多次元 (MD) モデルに接続されている場合は、 **[データ ポイント テーブル]** を使用できません。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 **Power BI Desktop** には、あらゆる種類のレポートの書式指定とデータ管理機能があります。 例については、次のリソースをご覧ください。
 
 * [Power BI Desktop でグループ化とビン分割を使用する](desktop-grouping-and-binning.md)

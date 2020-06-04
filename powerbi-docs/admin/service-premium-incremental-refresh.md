@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 73aade0ee10fe47ff669ccd6bd8c8ab0482f1f78
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274491"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121018"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI での増分更新
 
@@ -172,13 +172,9 @@ Premium 容量でのデータセットに対する [XMLA エンドポイント](
 
 ### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>SQL Server Management Studio (SSMS) を使用した更新管理
 
-XMLA エンドポイントの読み取り、書き込みが有効になっていると、増分更新ポリシーの適用によって生成されたパーティションを、SSMS を使用して表示および管理することができます。
+XMLA エンドポイントの読み取り、書き込みが有効になっていると、増分更新ポリシーの適用によって生成されたパーティションを、SSMS を使用して表示および管理することができます。 これにより、たとえば、増分範囲内にない特定の履歴パーティションを更新することで、日付を遡って更新を実行することができます。すべての履歴データを最新の情報に更新する必要はありません。 また、SSMS を使用すると、履歴パーティションを一括で増分追加または更新することで、非常に大規模なデータセットの履歴データを読み込むこともできます。
 
 ![SSMS でのパーティション](media/service-premium-incremental-refresh/ssms-partitions.png)
-
-#### <a name="refresh-historical-partitions"></a>履歴パーティションを最新の情報に更新する
-
-これにより、たとえば、増分範囲内にない特定の履歴パーティションを更新することで、日付を遡って更新を実行することができます。すべての履歴データを最新の情報に更新する必要はありません。
 
 #### <a name="override-incremental-refresh-behavior"></a>増分更新の動作をオーバーライドする
 

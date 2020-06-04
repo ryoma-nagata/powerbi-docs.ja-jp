@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83f040fd021a3d3e1cd6ce344c84051c7ff58bb0
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 9599d9b96b98feed4a8751c6bd028ca8b3f77ed3
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83383159"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793581"
 ---
 # <a name="personalize-visuals-in-a-report"></a>レポート内のビジュアルをカスタマイズする
 
@@ -117,7 +117,7 @@ ms.locfileid: "83383159"
 
 - **[Personalize this visual]\(このビジュアルのカスタマイズ\)** は、レポート全体または特定のビジュアルに対して無効にできます。 ビジュアルをカスタマイズするオプションが表示されない場合は、テナント管理者またはレポート所有者に確認してください。 レポートの所有者の連絡先情報を表示するには、Power BI のメニュー バーでレポートの名前を選択します。
 - ユーザー探索は自動的に保持されません。 変更をキャプチャするには、個人用ブックマークとしてビューを保存する必要があります。
-- Power BI モバイル アプリの使用中にビジュアルを変更することはできません。 ただし、Power BI サービスの使用中に個人用ブックマークに保存したビジュアルの変更は、モバイル アプリに適用されます。
+- この機能は、iOS と Android タブレット用の Power BI モバイルアプリ、および Power BI Windows アプリでサポートされています。スマートフォン用の Power BI モバイル アプリではサポートされていません。 ただし、Power BI サービスの使用中に個人用ブックマークに保存した視覚エフェクトの変更は、すべての Power BI モバイル アプリに適用されます。
 
 また、現在対処中のいくつかの既知の問題もあります。
 

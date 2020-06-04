@@ -1,22 +1,22 @@
 ---
-title: 他のアプリまたはワークスペースからレポートをコピーする (プレビュー) - Power BI
+title: 他のアプリまたはワークスペースからレポートをコピーする - Power BI
 description: レポートのコピーを作成して自分のワークスペースに保存する方法について説明します。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d70f029568dca578bb76350a42b5146ecc335759
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83312628"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793109"
 ---
-# <a name="copy-reports-from-other-workspaces-preview"></a>他のワークスペースからレポートをコピーする (プレビュー)
+# <a name="copy-reports-from-other-workspaces"></a>他のワークスペースからレポートをコピーする
 
 ワークスペースまたはアプリで気に入ったレポートを見つけたら、それをコピーし、別のワークスペースに保存できます。 これで、そのレポートのコピーを変更し、ビジュアルや他の要素を追加または削除することができるようになります。 データ モデルを作成する必要はありません。 既に作成されています。 また、一から始めるより、既存のレポートを変更するほうがずっと簡単です。 ただし、ワークスペースからアプリを作成する場合、レポートのコピーをアプリに発行できないことがあります。 詳細については、記事「ワークスペース全体でデータセットを使用する」の「[考慮事項と制限事項](service-datasets-across-workspaces.md#considerations-and-limitations)」を参照してください。
 
@@ -104,7 +104,7 @@ ms.locfileid: "83312628"
     > このワークスペース内の共有データセットを削除しても、データセットは削除されません。 それに対する参照が削除されるだけです。
 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
-- [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
-- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- [ワークスペースをまたいでデータセットを使用](service-datasets-across-workspaces.md)
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

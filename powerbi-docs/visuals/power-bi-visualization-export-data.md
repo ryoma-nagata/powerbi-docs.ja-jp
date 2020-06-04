@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/28/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273019"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813602"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>視覚エフェクトの作成に使用されたデータをエクスポートする
 
@@ -30,7 +30,7 @@ ms.locfileid: "83273019"
 
 ## <a name="viewing-and-exporting-data"></a>データの表示とエクスポート
 
-Power BI での視覚化の作成に使用されるデータを確認したい場合は、[Power BI でデータを表示できます](service-reports-show-data.md)。 そのデータを *.xlsx* または *.csv* ファイルとして Excel にエクスポートすることもできます。 データをエクスポートするオプションを使用するには、Pro ライセンスまたは Premium ライセンスに加えて、データセットとレポートへの編集アクセス許可が必要です。 <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
+Power BI での視覚化の作成に使用されるデータを確認したい場合は、[Power BI でデータを表示できます](service-reports-show-data.md)。 そのデータを *.xlsx* または *.csv* ファイルとして Excel にエクスポートすることもできます。 データをエクスポートするオプションを使用するには、Pro ライセンスまたは Premium ライセンスに加えて、データセットとレポートへの編集アクセス許可が必要です。 ダッシュボードまたはレポートに対するアクセス権を持っていても、データが "*極秘*" に分類されている場合は、Power BI でデータをエクスポートすることはできません。
 
 Watch では、レポート内の視覚化の 1 つからデータをエクスポートし、 *.xlsx* ファイルとして保存して、Excel で開くことができます。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。 このビデオでは、古いバージョンの Power BI を使用していることに注意してください。
 
@@ -244,7 +244,7 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
 
 - DirectQuery を使用している場合、Power BI でエクスポートできるデータの最大量は 16 MB (非圧縮データ) です。 意図しない結果として、エクスポートされる行数が最大行数である 150,000 行よりも少なくなることがあります。 これは次の場合に発生する可能性があります。
 
-    - 列の数が多い。
+    - 列が多すぎる。 列の数を減らしてから、もう一度エクスポートしてみてください。
 
     - 圧縮が困難なデータがある。
 

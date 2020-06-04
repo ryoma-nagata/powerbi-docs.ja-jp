@@ -1,5 +1,5 @@
 ---
-title: Power BI テナントの場所がわからない
+title: Power BI テナントの場所
 description: Power BI テナントが配置される場所およびその場所を選択する方法について説明します。 サービスを使用するときに影響する可能性があるので、これを理解しておくことが重要です。
 author: kfollis
 ms.reviewer: ''
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136046"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793285"
 ---
-# <a name="where-is-my-power-bi-tenant-located"></a>Power BI テナントの場所がわからない
+# <a name="where-is-my-power-bi-tenant-located"></a>Power BI テナントの場所
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fOxaHJPvdM?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -34,7 +34,7 @@ Power BI テナントが配置される場所およびその場所を選択す�
 
 ## <a name="how-the-data-region-is-selected"></a>データ領域を選択する方法
 
-データ リージョンは、テナントを作成するときに選択した国に基づきます。 この情報は共有されるので、その選択は Office 365 と Power BI の両方のサインアップに適用されます。 新しいテナントの場合は、サインアップするときに、一覧から適切な国を選択します。
+データ リージョンは、テナントを作成するときに選択した国に基づきます。 この情報は共有されるので、その選択は Microsoft 365 と Power BI の両方のサインアップに適用されます。 新しいテナントの場合は、サインアップするときに、一覧から適切な国を選択します。
 
 ![国の選択](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 

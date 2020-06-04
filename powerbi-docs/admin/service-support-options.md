@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
-ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3ec6e3f060b495efd6b961a7a16d8e1cf68f44c9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131610"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120618"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro と Power BI Premium のサポート オプション
 
@@ -24,7 +24,7 @@ ms.locfileid: "83131610"
 | **コミュニティ サポート**: Power BI の専門家と Microsoft の従業員のグローバル コミュニティによって提供される回答を含む、ピアツーピアのサポート、ガイダンス、ベスト プラクティスをユーザーが取得できる Web フォーラム。 | X |   |   | なし。エンゲージメントはベストエフォート方式で提供されます。 | [Power BI コミュニティ](https://community.powerbi.com) |
 | **Power BI Pro エンド ユーザー サポート**: Power BI のコンテンツを作成および使用しているエンド ユーザー向けの基本的なテクニカル サポート。 | X |   |   | 1 営業日。 | [Power BI サポート サイト](https://support.powerbi.com)  |
 | **Power BI Premium 管理サポート**: Power BI Premium 容量を展開および操作している管理者向けのテクニカル サポート。 | X |   |   | ケースの重要度に応じて、1 営業日または 1 時間。\* | [Power BI サポート サイト](https://support.powerbi.com)<br>OR<br>[Microsoft 365 管理センター](https://portal.office.com/adminportal)<br>OR<br> スマートフォン |
-| **Power BI 管理サポート**: 組織で Power BI 展開の管理者向けのテクニカルと課金のサポート。  このオプションを使用するには、Azure Active Directory の会社の管理者、Office 365 のグローバル管理者、Office 365 のサービス管理者、または Power BI のサービス管理者である必要があります。 | X | X |   | ケースの重要度に応じて、1 営業日または 1 時間。\* | [Microsoft 365 管理センター](https://portal.office.com/adminportal)<br>OR<br> スマートフォン |
+| **Power BI 管理サポート**: 組織で Power BI 展開の管理者向けのテクニカルと課金のサポート。  このオプションを使用するには、社内管理者、グローバル管理者、サービス管理者、または Power BI サービス管理者である必要があります。 | X | X |   | ケースの重要度に応じて、1 営業日または 1 時間。\* | [Microsoft 365 管理センター](https://portal.office.com/adminportal)<br>OR<br> スマートフォン |
 | **Microsoft Premier サポート**: アカウント管理、オンサイト サポート向けのオプション、トレーニングとデータ モデル パフォーマンスの最適化などのプロアクティブ サービスを含む、エンタープライズ級のサポート手法。 | X | X | X | オファリングとケースの重要度に応じて、各種。\* | テクニカル アカウント マネージャー <br>OR<br> [Microsoft 365 管理センター](https://portal.office.com/adminportal) |
 | | | | | | |
 

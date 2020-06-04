@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5368370cc25e12fdeab333b42a064ec4db66c301
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8db571d3635ad224c293a4d2ab86f4bcb9197fe0
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347380"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120073"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop ファイルからデータを取得する
 ![](media/service-desktop-files/pbid_file_icon.png)
@@ -47,7 +47,9 @@ ms.locfileid: "83347380"
    ![](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Power BI Desktop から Power BI サイトへのファイルの発行
-Power BI Desktop の発行機能を使用することは、Power BI でデータの取得機能を使用してローカル ドライブからファイルをインポートしたり、OneDrive 上のファイルに接続したりすることと事実上同じです。  以下では、その手順を簡単に紹介します。詳しくは、「[Power BI Desktop からの発行](../create-reports/desktop-upload-desktop-files.md)」をご覧ください。
+Power BI Desktop の発行機能を使用することは、最初にローカル ドライブからファイル データをインポートしたり、OneDrive 上のデータに接続したりするという点で、Power BI でデータの取得機能を使用することに似ています。 ただし、次のような違いがあります。ローカル ドライブからアップロードする場合は、データのオンライン コピーとローカル コピーが相互に最新の状態であることを確認するために、そのデータを頻繁に更新することをお勧めします。 
+
+以下では、その手順を簡単に紹介します。詳しくは、「[Power BI Desktop からの発行](../create-reports/desktop-upload-desktop-files.md)」をご覧ください。
 
 1. Power BI Desktop で **[ファイル]**  >  **[発行]**  >  **[Power BI へ発行]** を選択するか、リボンの **[発行]** をクリックします。
    
@@ -58,7 +60,7 @@ Power BI Desktop の発行機能を使用することは、Power BI でデータ
    
    ![](media/service-desktop-files/pbid_publishing.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 **データの探索** - ファイルのデータとレポートを Power BI に取得したら、次は探索です。 ファイルに既にレポートがある場合は、[ナビゲーター] ウィンドウの **[レポート]** に表示されます。 ファイルにデータのみが含まれる場合は、新しいレポートを作成できます。そのためには、新しいデータセットを右クリックし、 **[探索]** をクリックします。
 
 **外部データ ソースの更新** - Power BI Desktop ファイルが外部データ ソースに接続する場合は、データセットが常に最新の状態に保たれるように、更新スケジュールを設定できます。 ほとんどの場合、更新スケジュールを設定するのは非常に簡単ですが、詳細な手順についてはこの記事の範囲外です。 詳しくは、「[Power BI でのデータの更新](refresh-data.md)」をご覧ください。

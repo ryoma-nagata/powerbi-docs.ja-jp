@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b0ee72fdfdf504537073b0de22e5c386ca2572ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8e991a8696ac35ed0a7d4b448bb4dd83d9a19c42
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327946"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793432"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI のリアルタイム ストリーミング
 Power BI のリアルタイム ストリーミングでは、データをストリームし、リアルタイムでダッシュボードを更新できます。 Power BI で作成可能なビジュアルやダッシュボードは、リアルタイムのデータやビジュアルを表示し、更新するためにも作成できます。 工場のセンサー、ソーシャル メディア ソース、サービス利用指標、および時間依存データの回収元または転送元となるあらゆるものがストリーミング データのデバイスとソースになります。
@@ -52,7 +52,7 @@ Power BI のリアルタイム ストリーミングでは、データをスト�
 実際には、ストリーミング データセットとそれに付随するストリーミング ビジュアルは、データのプッシュからデータの視覚化までの待機時間を最小限に抑えることが重要な状況で使用するのが最適です。 また、追加の集計を行うことなく、そのまま視覚化することができる形式でデータをプッシュすることをお勧めします。 そのままで視覚化できるデータの例としては、温度や事前に計算された平均値などがあります。
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub ストリーミング データセット
-**PubNub** ストリーミング データセットの場合は、Power BI Web クライアントが PubNub SDK を使用して既存の PubNub データ ストリームを読み取ります。Power BI サービスによるデータの保存は行われません。 この呼び出しは Web クライアントから直接行われるため、ネットワークからの、ホワイトリスト登録済みアウトバウンド トラフィックのみを許可する場合は、PubNub へのトラフィックをホワイトリストに登録する必要があります。 [PubNub へのアウトバウンド トラフィックのホワイトリスト登録](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)に関するサポート記事の手順を参照してください。
+**PubNub** ストリーミング データセットの場合は、Power BI Web クライアントが PubNub SDK を使用して既存の PubNub データ ストリームを読み取ります。Power BI サービスによるデータの保存は行われません。 この呼び出しは Web クライアントから直接行われるため、ネットワークからのホワイトリスト登録済みアウトバウンド トラフィックのみを許可する場合は、許可するリストに PubNub へのトラフィックを登録する必要があります。 [PubNub へのアウトバウンド トラフィックのホワイトリスト登録](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)に関するサポート記事の手順を参照してください。
 
 **ストリーミング データセット**と同様に、**PubNub ストリーミング データセット**の場合も、Power BI に基になるデータベースはありません。そのため、流れ込んだデータに対してレポートのビジュアルを作成したり、フィルター処理や Power BI ビジュアルなどのレポート機能を利用したりすることはできません。 そのため、**PubNub ストリーミング データセット**を視覚化するには、ダッシュボードにタイルを追加し、PubNub データ ストリームをソースとして構成するしかありません。
 
@@ -215,7 +215,7 @@ Power BI におけるリアルタイム ストリーミングの動作は、簡�
 プッシュ データセットの場合、スキーマ内にタイムスタンプがあると仮定すると、最後の N フィルターを使用してレポート ビジュアルの作成を試してみることができます。
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>Power BI Desktop でプッシュ データセットまたはストリーミング データセットに接続できますか?
-残念ながら、現時点では接続できません。
+プッシュ データセットとハイブリッド データセットは Power BI Desktop でライブ接続できますが、その他のストリーミング データセットを Power BI Desktop で接続することはできません。
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>前の質問を考慮の上、リアルタイム データセットに対してモデリングを行うにはどうすればよいですか?
 データが永続的に保存されないため、ストリーミング データセットに対するモデリングは行えません。 プッシュ データセットの場合、[データセット/テーブルの更新] REST API を使用してメジャーとリレーションシップを追加することができます。 

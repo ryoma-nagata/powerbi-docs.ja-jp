@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 1004549c37f4bff92e4a8b1d31b3844b7cdd0f2d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5562271eebc10789e27f7e65c7ff96b72de43aae
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330407"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121057"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Azure Machine Learning の Power BI への統合
 
@@ -29,11 +29,14 @@ ms.locfileid: "83330407"
 Azure Machine Learning の詳細については、以下を参照してください。
 
 - 概要:[Azure Machine Learning とは](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Azure Machine Learning のクイック スタートおよびチュートリアル:「[Azure Machine Learning のドキュメント](https://docs.microsoft.com/azure/machine-learning/)」
+- Azure Machine Learning のクイック スタートおよびチュートリアル:[Azure Machine Learning のドキュメント](https://docs.microsoft.com/azure/machine-learning/)
+
+> [!NOTE]
+> Azure Machine Learning 統合を使用するには、Power BI Premium サブスクリプションが必要です。
 
 ## <a name="granting-access-to-the-azure-ml-model-to-a-power-bi-user"></a>Power BI ユーザーに Azure ML モデルへのアクセス権を付与する
 
-Power BI から Azure ML モデルにアクセスするには、Azure サブスクリプションへの**読み取り**アクセス権が必要です。  このほか、以下のアクセス権も必要です。
+Power BI から Azure ML モデルにアクセスするには、Azure サブスクリプションへの**読み取り**アクセス権が必要です。  さらに:
 
 - Machine Learning Studio (クラシック) モデルの場合は、Machine Learning Studio (クラシック) Web サービスへの**読み取り**アクセス権
 - Machine Learning モデルの場合は、Machine Learning ワークスペースへの**読み取り**アクセス権
@@ -102,12 +105,12 @@ Azure ML モデルを呼び出すには、選択したエンティティのい�
 
 データフローを保存すると、データフローの更新時に (エンティティ テーブルの行の新規作成や更新に対して) モデルが自動的に呼び出されます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 この記事では、Machine Learning を Power BI サービスに統合する手順を概説しました。 以下の記事も興味深い内容で、役立つかもしれません。 
 
-* [チュートリアル: Power BI での Machine Learning Studio (クラシック) モデルの呼び出し](../connect-data/service-tutorial-invoke-machine-learning-model.md)
-* [チュートリアル: Power BI での Cognitive Services の使用](../connect-data/service-tutorial-use-cognitive-services.md)
+* [チュートリアル:Power BI での Machine Learning Studio (クラシック) モデルの呼び出し](../connect-data/service-tutorial-invoke-machine-learning-model.md)
+* [チュートリアル:Power BI での Cognitive Services の使用](../connect-data/service-tutorial-use-cognitive-services.md)
 * [Power BI の Cognitive Services](service-cognitive-services.md)
 
 データフローの詳細については、以下の記事をご覧ください。

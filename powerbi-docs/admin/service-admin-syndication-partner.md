@@ -1,6 +1,6 @@
 ---
 title: Power BI を O365 パートナーに追加できない
-description: Power BI を Office 365 シンジケート パートナーに追加できない シンジケート モデルは Office 365 で使用される購入モデルです。
+description: Power BI を Microsoft 365 シンジケート パートナーに追加できません。 シンジケート モデルは Microsoft 365 で使用される購入モデルです。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5907f23bb5bf1bcdc5a4ca3412e5331a09d145c9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344942"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812337"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI を Office 365 パートナー サブスクリプションに追加できない
 
-Office 365 では、企業が独自のソリューションとバンドルおよび統合した Office 365 を再販することが可能です。購入、請求、サポートを一本化したサービスをエンド カスタマーに提供できます。
+Microsoft 365 では、企業が独自のソリューションとバンドルおよび統合した Microsoft 365 を再販することが可能です。購入、請求、サポートを一本化したサービスをエンド カスタマーに提供できます。
 
 Office 365 サブスクリプションに加えて Power BI のご利用に関心をお持ちの場合は、お客様のパートナーにお問い合わせください。 現在パートナーで Power BI が提供されていない場合は、他のオプションを利用できます。
 
@@ -52,13 +52,13 @@ Power BI の無料試用版にサインアップできます。 試用期間の�
 
 ### <a name="enable-ad-hoc-subscriptions"></a>アドホック サブスクリプションを有効にする
 
-既定では、個別のサインアップ (アドホック サブスクリプションとも呼ばれます) は無効になっています。 この場合、サインアップしようとすると、"*IT 部門により Microsoft Power BI のサインアップはオフにされています*" というメッセージが表示されます。
+既定では、個別のサインアップ (アドホック サブスクリプションとも呼ばれます) は無効になっています。 この場合、サインアップしようとすると次のメッセージが表示されます。*Your IT department has turned off signup for Microsoft Power BI. (あなたの所属する組織の IT 部門により、Microsoft Power BI のサインアップが無効にされています。)*
 
 ![サインアップ不可画像](media/service-admin-syndication-partner/sorry.png)
 
 アドホック サブスクリプションを有効にするには、パートナーに連絡して、有効にするよう依頼することができます。 テナント管理者の場合、Azure Active Directory PowerShell コマンドを使用する方法がわかっていれば、自分でアドホック サブスクリプションを有効にできます。 [Graph 用 Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2/)
 
-1. Office 365 の資格情報を使用して Azure Active Directory にサインインします。 次のスクリプトの 1 行目では、ユーザーに資格証明が要求されます。 2 行目で、Azure Active Directory に接続します。
+1. Microsoft 365 の資格情報を使用して Azure Active Directory にサインインします。 次のスクリプトの 1 行目では、ユーザーに資格証明が要求されます。 2 行目で、Azure Active Directory に接続します。
 
     ```powershell
     $msolcred = get-credential
@@ -79,7 +79,7 @@ Power BI の無料試用版にサインアップできます。 試用期間の�
     Set-MsolCompanySettings -AllowAdHocSubscriptions $true
     ```
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 [組織での Power BI のライセンス](service-admin-licensing-organization.md)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 4e1fd6a3f6db4ec58fc5eafa1033175edebd82fa
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141859"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733510"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>チュートリアル:Power BI の組織のコンテンツ パックを作成して発行する
 
@@ -47,7 +47,7 @@ ms.locfileid: "83141859"
 
     1. **[特定のグループ]** を選択します。
 
-    1. 個々のユーザーの完全なメール アドレス、[Office 365 グループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)、配布グループ、またはセキュリティ グループを入力します。 例: salesmgrs@contoso.com、sales@contoso.com
+    1. 個々のユーザーの完全なメール アドレス、[Microsoft 365 グループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)、配布グループ、またはセキュリティ グループを入力します。 例: salesmgrs@contoso.com、sales@contoso.com
 
         このチュートリアルでは、あなたのグループのメール アドレスを使用してみてください。
 

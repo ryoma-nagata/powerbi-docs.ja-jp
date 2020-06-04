@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b117bb1825e4b50e64b2af5212ed5b3a28bf6e6f
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 6e6974df9ea6ddfc2402ed4d58e2a994355d0f0b
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812245"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120137"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI レポートでの視覚エフェクト
 
@@ -29,29 +29,45 @@ ms.locfileid: "83812245"
 
 ![各ビジュアルの種類のアイコンがあるペイン](media/power-bi-report-visualizations/power-bi-icons.png)
 
-この他にも多くの選択肢があります。[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)にアクセスし、Microsoft およびコミュニティによって提供されている [Power BI ビジュアル](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)を見つけて、[ダウンロード](../developer/visuals/custom-visual-develop-tutorial.md)してください。
+その他の Power BI の視覚エフェクトは、[Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com)から入手できます。 AppSource では、Microsoft およびコミュニティによって提供される [Power BI の視覚エフェクト](../developer/visuals/custom-visual-develop-tutorial.md)を参照して[ダウンロード](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)できます。
 
 Power BI を初めて使用する場合や、復習したい場合は、以下のリンクを使用して、Power BI 視覚エフェクトの基本を確認してください。  または、目次 (この記事の左側) を使用して役に立つ情報を見つけます。
 
 ## <a name="add-a-visualization-in-power-bi"></a>Power BI での視覚化の追加
 
-レポートのページに[視覚エフェクトを作成](power-bi-report-add-visualizations-i.md)します。 [使用できる視覚化と使用できる視覚化のチュートリアルの一覧](power-bi-visualization-types-for-reports-and-q-and-a.md)を参照します。 
+レポートのページに[視覚エフェクトを作成](power-bi-report-add-visualizations-i.md)します。 [使用できる視覚エフェクトと使用できる視覚エフェクトのチュートリアルの一覧を参照](power-bi-visualization-types-for-reports-and-q-and-a.md)します。 
 
-## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>カスタムの視覚化をアップロードして Power BI で使用する
+## <a name="upload-a-visualization-from-a-file-or-from-appsource"></a>ファイルまたは AppSource から視覚化をアップロードする
 
-自分で作成した、または [Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)で見つけたカスタムの視覚エフェクトを追加します。 このサイトには、カスタムの視覚化が追加されており、ダウンロードしてダッシュボードやレポートに使用することができます。 ソース コードを調べ、[開発者ツール](../developer/visuals/custom-visual-develop-tutorial.md)を使用して新しい視覚化の種類を作成して、[コミュニティと共有](../developer/visuals/office-store.md)してください。 カスタム ビジュアルの開発について詳しくは、「[Power BI カスタム ビジュアルを開発する](../developer/visuals/custom-visual-develop-tutorial.md)」をご覧ください。
+自分で作成した視覚化、または [Microsoft AppSource コミュニティ サイト](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)で見つけた視覚化を追加します。 自分でカスタマイズする場合は、 ソース コードを調べ、[開発者ツール](../developer/visuals/custom-visual-develop-tutorial.md)を使用して新しい視覚化の種類を作成して、[コミュニティと共有](../developer/visuals/office-store.md)してください。 Power BI の視覚エフェクトの開発について詳しくは、[Power BI の視覚エフェクトの開発](../developer/visuals/custom-visual-develop-tutorial.md)に関する記事をご覧ください。
 
-## <a name="personalize-your-visualization-pane-preview"></a>個人設定された [視覚化] ウィンドウ (プレビュー)
+## <a name="personalize-your-visualization-pane"></a>[視覚化] ペインをカスタマイズする
 
-多数のレポート間で同じカスタム ビジュアルを使用している場合、[視覚化] ウィンドウにカスタム視覚エフェクトをピン留めできます。 視覚化をピン止めするには、ビジュアル上で右クリックしてウィンドウにピン留めします。
+[視覚化] ペインをカスタマイズするには、それに対して Power BI の視覚エフェクトを追加および削除します。 [視覚化] ペインから既定の視覚エフェクトを削除した場合は、ペインを既定の状態に復元して、既定の視覚エフェクトをすべて元に戻すことができます。
+
+### <a name="add-a-visual-to-the-visualization-pane"></a>[視覚化] ペインに視覚エフェクトを追加する
+
+多数のレポート間で同じ視覚エフェクトを使用している場合は、その視覚エフェクトを [視覚化] ペインに追加できます。 視覚エフェクトの追加は、AppSource の視覚エフェクト、組織の視覚エフェクト、およびファイルからの視覚エフェクトに適用されます。 視覚エフェクトを追加するには、視覚エフェクトを右クリックします。
 
 ![[視覚化] ウィンドウへのピン留め](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
 
-ビジュアルがピン留めされると上に移動し、他の組み込みのビジュアルとともにライブになります。 このビジュアルは、サインインしているアカウントに関連付けられます。そのため、ビルドするすべての新しいレポートで、サインインしているという想定で、このビジュアルが自動的に含められます。 これにより、特定のビジュアルを 1 つ 1 つのレポートに追加することなく標準化するのが非常に簡単になります。
+視覚エフェクトがピン留めされると、上に移動し、他の既定の視覚エフェクトとともにライブになります。 このビジュアルは、サインインしているアカウントに関連付けられます。そのため、ビルドするすべての新しいレポートで、サインインしているという想定で、このビジュアルが自動的に含められます。 あらゆるレポートに対して、定期的に使用する特定の視覚エフェクトを追加する必要がなくなりました。
 
 ![個人設定された [視覚化] ウィンドウ](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 
-この機能のプレビュー期間中は、ピン留めされたビジュアルのみが Power BI Desktop に表示されます。 さらに、この機能を利用するには、サインインが必要です。
+### <a name="remove-a-visual-from-the-visualization-pane"></a>[視覚化] ペインから視覚エフェクトを削除する
+
+視覚エフェクトを定期的に使用しなくなった場合は、それを右クリックして [視覚化] ペインから削除することができます。 すべての種類の視覚エフェクトを [視覚化] ペインから削除できます。これには、既定、ファイル、組織、および AppSource の視覚エフェクトが含まれます。
+
+![[視覚化] ペインへのピン留めを外す](media/power-bi-report-visualizations/unpin-visual.png)
+
+### <a name="restore-the-visualization-pane"></a>[視覚化] ペインを復元する
+
+[視覚化] ペインの復元は、既定の視覚エフェクトにのみ適用されます。 [視覚化] ペインに追加された視覚エフェクトは影響を受けず、引き続き [視覚化] ペインから使用できます。 [視覚化] ペインから AppSource またはファイルの視覚エフェクトを削除する場合は、手動で行う必要があります。
+
+[視覚化] ペインを既定値に戻すには、その他のオプションをクリックして **[既定の視覚化の復元]** を選択します。
+
+![[視覚化] ペインを既定値に復元する](media/power-bi-report-visualizations/restore-default.png)
 
 ## <a name="change-the-visualization-type"></a>視覚化の種類の変更
 
@@ -59,14 +75,14 @@ Power BI を初めて使用する場合や、復習したい場合は、以下�
 
 ## <a name="pin-the-visualization"></a>視覚化のピン留め
 
-Power BI サービスでは、希望する視覚エフェクトができたら、タイルとしてその[視覚エフェクトをダッシュボードにピン留め](../create-reports/service-dashboard-pin-tile-from-report.md)します。 ピン留めした後、レポートで使用されている視覚エフェクトを変更しても、ダッシュボードのタイルは変更されません。つまり、レポート内の視覚エフェクトが折れ線グラフである場合、それをドーナツ グラフに変更しても、視覚エフェクトは折れ線グラフのままです。
+Power BI サービスでは、希望する視覚エフェクトができたら、タイルとしてその[視覚エフェクトをダッシュボードにピン留め](../create-reports/service-dashboard-pin-tile-from-report.md)します。 ピン留めした後でレポートで使用されている視覚化を変更しても、ダッシュボード上のタイルは変更されません。 折れ線グラフの場合、それをレポートでドーナツ グラフに変更しても、折れ線グラフのままになります。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 - データ ソースやフィールド数 (メジャーまたは列) によっては、ビジュアルの読み込みが遅い場合があります。  読みやすさとパフォーマンス上の理由により、ビジュアルを合計 10 から 20 個のフィールドに制限することをお勧めします。 
 
-- ビジュアルの上限は、フィールド 100 個です (メジャーまたは列)。 ビジュアルの読み込みに失敗した場合は、フィールド数を減らします。   
+- ビジュアルの上限は、フィールド 100 個です (メジャーまたは列)。 ビジュアルの読み込みに失敗した場合は、フィールド数を減らします。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [Power BI での視覚化の種類](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Power BI ビジュアル](../developer/visuals/power-bi-custom-visuals.md)

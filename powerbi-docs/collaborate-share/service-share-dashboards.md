@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 119571e49b69ad6e3c6cfa0a7d3758912ebec0dc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348116"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733556"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>同僚や他のユーザーと Power BI ダッシュボードやレポートを共有する
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 Power BI では、[複数の異なる方法でダッシュボードでの共同作業を行ったり、ダッシュボードやレポートを配布](service-how-to-collaborate-distribute-dashboards-reports.md)したりできます。
@@ -127,7 +127,7 @@ Power BI 管理者は、組織内のコンテンツを編集および管理す�
 * ダッシュボードのすべての共有相手は、[読み取りビュー](../consumer/end-user-reading-view.md#reading-view)で表示し、関連するレポートを操作できます。 一般に、同僚はレポートを作成したり、既存のレポートへの変更を保存したりすることはできません。 ただし、 **[基になるデータセットからの新しいコンテンツのビルドをユーザーに許可します]** を選択すると、このダッシュボードまたはレポートのデータセットに基づいて、他のワークスペースに独自のレポートを作成できます。
 * データセットを表示またはダウンロードすることはできませんが、Excel で分析機能を使ってデータセットに直接アクセスすることはできます。 管理者は、グループ内の全員に対して、Excel で分析を使う機能を制限できます。 ただし、これはそのグループ内の全員に対して、およびそのグループが属しているすべてのワークスペースに対して制限されます。
 * [データの更新](../connect-data/refresh-data.md)はだれでも手動で行えます。
-* 電子メールに Office 365 を使用している場合は、配布グループに関連付けられた電子メール アドレスを入力することにより、配布グループのメンバーと共有できます。
+* メール用に Microsoft 365 を使用している場合は、配布グループに関連付けられたメール アドレスを入力することにより、配布グループのメンバーと共有できます。
 * メール ドメインを共有している同僚と、ドメインが異なっていても同じテナント内に登録されている同僚は、他のユーザーとダッシュボードを共有できます。 たとえば、ドメイン contoso.com と contoso2.com が同じテナント内に登録されていて、ご自分の電子メール アドレスが konrads@contoso.com であるとします。 ravali@contoso.com と gustav@contoso2.com は両方とも、共有するためのアクセス許可が付与されていれば、ダッシュボードを共有できます。
 * 同僚が既に特定のダッシュボードまたはレポートにアクセスできる場合は、ダッシュボードまたはレポートを使用しているときに URL をコピーすることで、直接リンクを送信できます。 たとえば、`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx` です。
 * 同様に、同僚が特定のダッシュボードに既にアクセスできる場合は、[基になるレポートへの直接リンクを送信する](service-share-reports.md)ことができます。 

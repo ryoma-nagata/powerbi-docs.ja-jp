@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 530b1dd757f8fe0bfdb120601ae8ea28d95ed835
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564988"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793697"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 
@@ -27,14 +27,14 @@ ms.locfileid: "83564988"
 
 Power BI サービスはクラウド ベースのビジネス分析サービスで、これを使えばだれでもデータの視覚化と分析の速度と効率を向上させ、理解を深めることができます。 使いやすいダッシュボード、対話形式のレポート、説得力のある視覚エフェクトによってデータを生き生きしたものにし、ユーザーがクラウド ベースまたはオンプレミスの広範囲にわたるデータを活用できるようにします。 [Power BI](../fundamentals/power-bi-overview.md) について、詳細を確認してください。
 
-## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>"*コンシューマー*" 向けの Microsoft Power BI サービスとはどのようなものですか?
+## <a name="what-is-a-power-bi-consumers"></a>Power BI "*コンシューマー*" とは何ですか?
 
 Power BI をどのように操作するかは、ご自分の仕事上の役割により異なります。 エンドユーザーまたは "*コンシューマー*" の場合、同僚からコンテンツ (ダッシュボード、レポート、アプリ) を受け取ります。 Power BI のオンラインまたはモバイル バージョン (Power BI サービスと呼ばれます) で作業し、このコンテンツをレビューおよび操作してビジネス上の決定を行います。  詳細については、[コンシューマー向けの Power BI](index.yml) に関するページを参照してください。
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro と Power BI Premium の違いは何ですか?
 
-Power BI Pro は、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可する個別のユーザー ライセンスです。 他の Pro ユーザーとコンテンツを共有して、共同作業することもできます。 Pro ユーザーだけが、ワークスペースへのコンテンツの発行、ダッシュボードの共有、ダッシュボードとレポートのサブスクライブを行うことができます。 この種類のライセンスは、通常、Power BI レポートの "*デザイナー*"、開発者、および管理者に割り当てられます。 
+Power BI Pro は、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可する個別のユーザー ライセンスです。 他の Pro ユーザーとコンテンツを共有して、共同作業することもできます。 Pro ユーザーだけが、ワークスペースへのコンテンツの発行、ダッシュボードの共有、ダッシュボードとレポートのサブスクライブを行うことができます。 
 
 Power BI Premium では、専用の容量を提供して、より一貫したパフォーマンスを実現します。 また、Power BI でより大規模なデータ ボリュームもサポートします。 個々のユーザーについては、Premium では Pro ユーザーがコンテンツを広範囲に配布できます。コンテンツを表示する受信者にユーザーごとの Pro ライセンスは必要ありません。 つまり、"*コンシューマー*" は、同僚と共同作業すること、および彼らと共有されているダッシュボード、レポート、およびアプリを表示したり、操作したりすることができます。 
 
@@ -54,7 +54,7 @@ Power BI Desktop は無償のアプリケーションで、各自のコンピュ
 
 また、個人として Power BI サービスにサインアップすることもできます。 [Power BI のセルフサービス サインアップのプロセス](../fundamentals/service-self-service-signup-for-power-bi.md)に関するページを参照してください。
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>勤務先の電子メール アドレスでサインアップしなければならないのはなぜですか?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>勤務先のメール アドレスでサインアップする必要がある理由を教えてください。
 
 Power BI では、コンシューマー向けメール サービスまたは通信プロバイダーが提供しているメール アドレスはサポートされません。 [Power BI のセルフサービス サインアップのプロセス](../fundamentals/service-self-service-signup-for-power-bi.md)の詳細をご覧ください。
 
@@ -109,7 +109,7 @@ Power BI セキュリティ、プライバシー、およびコンプライア�
 
 * 直前の操作または最近のいくつか操作を **元に戻す** には、CTRL キーを押しながら Z キーを押します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [Power BI コンシューマーとは何ですか? ](end-user-consumer.md)
 * [コンシューマーが Power BI を使用するにはどうすればよいですか? ](end-user-reading-view.md)

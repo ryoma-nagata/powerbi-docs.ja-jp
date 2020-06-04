@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 50d0cb1d31a6ec20db69c1b06aaf64f3eed727a2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9bc8f7c100acc3805fbe6ab949e3584cb5fd26e1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83310006"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121041"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 
@@ -107,10 +107,12 @@ OneDrive または SharePoint Online 上の Power BI Desktop ファイル、Exce
 
 OneDrive の更新では、データセットの更新中に Power BI がデータ ソースからデータセットへデータをインポートするのではなく、データセットとレポートをソース ファイルと同期します。 Power BI では既定で、OneDrive または SharePoint Online 上のファイルに接続されているデータセットを同期する必要があるかどうかを、約 1 時間ごとにチェックします。
 
-> [!IMPORTANT]
-> OneDrive でのファイルの取り扱いに注意してください。 OneDrive ファイルをデータ ソースとして設定すると、Power BI では、更新時、ファイルの項目 ID が参照されます。そのことが一部のシナリオにおいて問題を起こすことがあります。 マスター ファイルの _A_ とそのファイルの運用コピー _B_ があるとき、ファイル B に対して OneDrive の更新を構成するいうシナリオを考えてみます。ファイル B の上にファイル A を_コピー_すると、古いファイル B が削除され、新しいファイル B が異なる項目 ID で作成され、それが原因で OneDrive の更新が中断されます。 代わりに、ファイル B をアップロードして置換すると、同じ項目 ID が維持されます。
+Power BI では OneDrive の項目 ID に基づいて更新が実行されるため、更新と置き換えを検討する際は慎重になる必要があります。 OneDrive ファイルをデータ ソースとして設定すると、Power BI では、更新を実行するときにファイルの項目 ID が参照されます。 次のシナリオを考えてみます。マスター ファイルの _A_ とそのファイルの運用コピー _B_ があるとき、ファイル B に対して OneDrive の更新を構成するとします。ファイル B の上にファイル A を_コピー_すると、コピー操作によって古いファイル B が削除され、新しいファイル B が異なる項目 ID で作成され、これにより OneDrive の更新が中断されます。 このような状況を回避するには、代わりにファイル B をアップロードして置き換えることができます。これによってその同じ項目 ID が保持されます。
 
-(ドラッグ アンド ドロップなどを利用し) ファイルを別の場所に移動すると、更新は引き続き動作します。PBI で引き続き、ファイル ID が認識されるためです。 ただし、そのファイルを別の場所にコピーすると、ファイルの新しいインスタンスと新しいファイル ID が作成されます。 そのため、Power BI ファイル参照は無効になり、更新は失敗します。
+(ドラッグ アンド ドロップなどを利用して) ファイルを別の場所に移動すると、更新は引き続き動作します。Power BI で引き続きファイル ID が認識されるためです。 ただし、そのファイルを別の場所にコピーすると、ファイルの新しいインスタンスと新しいファイル ID が作成されます。 そのため、Power BI ファイル参照は無効になり、更新は失敗します。
+
+> [!NOTE]
+> ローカル コンピューターで同期が完了していて、Power BI サービスで *[今すぐ更新]* を使用した後でも、Power BI でデータセットを更新するまでに最大 10 分かかることがあります。
 
 過去の同期サイクルを確認するには、更新履歴にある [OneDrive] タブをチェックします。 次のスクリーンショットは、サンプル データセットに対する完了済みの同期サイクルを示しています。
 

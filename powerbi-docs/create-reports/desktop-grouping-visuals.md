@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3a7d7b0afa4a1eb3d6af81d3e6ba1315e291c4b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324726"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119935"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Power BI Desktop レポートでビジュアルをグループ化する
 **Power BI Desktop** で**グループ化**を使用すると、PowerPoint で項目をグループ化するのと同じように、レポート内でビジュアルをグループ化できます。これには、ボタン、テキストボックス、図形の画像、その他作成したあらゆるビジュアルが含まれます。 レポート内のビジュアルをグループ化すると、グループを 1 つのオブジェクトのように扱い、レポート内での移動、サイズ変更、およびレイヤーの操作をより簡単かつ迅速に、直感的に行うことができます。
@@ -33,6 +33,8 @@ Power BI Desktop でビジュアルのグループを作成するには、キャ
 ![グループを入れ子にする](media/desktop-grouping-visuals/grouping-visuals-03.png)
 
 **[選択項目]** ウィンドウでは、個々のビジュアルをドラッグ アンド ドロップしてグループに含めたり、グループから削除したり、グループを入れ子にしたり、入れ子からグループや個別のビジュアルを削除したりすることもできます。 調整する視覚化をドラッグし、必要な場所に配置するだけです。 重なりがある場合、ビジュアルのレイヤー化は、 *[レイヤーの順序]* 一覧での順序によって決まります。
+
+グループ名の変更は簡単です。 **[選択]** ペインでグループ名をダブルクリックし、グループの新しい名前を入力するだけです。
 
 ![グループをドラッグ アンド ドロップする](media/desktop-grouping-visuals/grouping-visuals-04.png)
 
@@ -65,7 +67,7 @@ Power BI Desktop でビジュアルのグループを作成するには、キャ
 背景色を適用した後、グループ内のビジュアル間の領域をクリックすると、グループが選択されます (比較対象として、グループ内のビジュアル間の空白部分をクリックした場合はグループは選択されません)。 
 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 グループ化の詳細については、次のビデオを参照してください。
 
 * [Power BI Desktop でのグループ化- ビデオ](https://youtu.be/sf4n7VXoQHY?t=10)

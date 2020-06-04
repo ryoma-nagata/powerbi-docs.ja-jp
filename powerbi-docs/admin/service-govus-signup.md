@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 3f001c91c89b18b43c953669272b4d5be37dd154
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2701765ce9d9a059016265049ddecf444a0640ea
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135515"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792959"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI サービスに米国政府機関を登録する
 
-Power BI サービスには、[Office 365 Government プラン](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1)に含まれるバージョンがあります。 この記事は米国政府顧客向けに設計されており、ここで説明する登録プロセスは Power BI サービスの商用バージョンとは異なります。
+Power BI サービスには、[Microsoft 365 Government プラン](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1)に含まれるバージョンがあります。 この記事は米国政府顧客向けに設計されており、ここで説明する登録プロセスは Power BI サービスの商用バージョンとは異なります。
 
 米国政府向け Power BI サービスについて詳しくは、[米国政府顧客向け Power BI に関するページの「概要」](service-govus-overview.md)を参照してください。
 
@@ -29,19 +29,19 @@ Power BI サービスには、[Office 365 Government プラン](https://www.micr
 
 ## <a name="select-the-right-sign-up-process-for-your-us-government-organization"></a>米国政府機関に適したサインアップ プロセスを選択する
 
-米国政府機関は、政府向けクラウド コミュニティを初めて使用する場合と、既にサブスクリプションを持っている場合があります。 以下のセクションでは、Office 365 Government プランと Power BI の使用状況に基づくサインアップ手順について詳しく説明します。 手順は現在の登録によって異なります。
+米国政府機関は、政府向けクラウド コミュニティを初めて使用する場合と、既にサブスクリプションを持っている場合があります。 以下のセクションでは、Microsoft 365 Government プランと Power BI の使用状況に基づくサインアップ手順について詳しく説明します。 手順は現在の登録によって異なります。
 
 米国政府向け Power BI にサインアップした後、アカウント チームと協力して、この記事で説明されている ["*ホワイトリスト登録*" プロセス](#additional-signup-information)を開始します。 この手順は、政府向けコミュニティ クラウドで組織を完全に有効にするために必要です。
 
-## <a name="sign-up-for-a-new-office-365-government-plan"></a>新しい Office 365 Government プランにサインアップする
+## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>新しい Microsoft 365 Government プランにサインアップする
 
-組織で政府向けクラウド コミュニティを初めて利用する場合は、これらの手順に従って Office 365 Government プランを取得します。
+組織で政府向けクラウド コミュニティを初めて利用する場合は、これらの手順に従って Microsoft 365 Government プランを取得します。
 
 > [!NOTE]
 > これらの手順は、グローバル管理者が行う必要があります。
 >
 
-1. 「[Office 365 Government のプラン](https://products.office.com/government/office-365-web-services-for-government)」に移動します。
+1. [Microsoft 365 Government プラン](https://products.office.com/government/office-365-web-services-for-government)にアクセスします。
 2. **[試用版の使用を開始する]** を選択します。
 3. フォームに入力して、お客様の組織についてお知らせください。 ドロップダウンを使用して、組織の種類を選択します。
 
@@ -49,11 +49,11 @@ Power BI サービスには、[Office 365 Government プラン](https://www.micr
 
 4. フォームを送信して、オンボード プロセスを開始します。 ご質問がある場合は、Microsoft の担当者またはパートナーにお問い合わせください。
 
-このプロセスが完了した後、既存の Office 365 Government のお客様向けの手順に従って、Power BI サブスクリプションを追加します。
+このプロセスが完了した後、既存の Microsoft 365 Government のお客様向けの手順に従って、Power BI サブスクリプションを追加します。
 
-## <a name="add-power-bi-to-an-office-365-government-plan"></a>Office 365 Government プランに Power BI を追加する
+## <a name="add-power-bi-to-a-microsoft-365-government-plan"></a>Microsoft 365 Government プランに Power BI を追加する
 
-組織に既に Office 365 Government プランがある場合は、これらの手順に従って Power BI サブスクリプションを追加します。
+組織に既に Microsoft 365 Government プランがある場合は、これらの手順に従って Power BI サブスクリプションを追加します。
 
 > [!NOTE]
 > これらの手順は、グローバル管理者が行う必要があります。

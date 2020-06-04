@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9e3527d4e32143a3bc261226a5f10c371bcaaef4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 004c62c6f99460a9f54a7b055dffe2c8b1adb340
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131964"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120976"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Power BI で Microsoft Cloud App Security の制御を使用する (プレビュー)
 
@@ -34,7 +34,7 @@ Power BI で Microsoft Cloud App Security を使用するには、関連する M
 テナント内に Microsoft Cloud App Security を含めるには、次のいずれかのライセンスが必要です。
 * MCAS:EMS E5 および M365 E5 スイートの一部である、サポートされるすべてのアプリに対して OCAS 機能が提供されます。
 * CAS-D:MCAS 検出のみが提供されます。
-* OCAS:Office E5 スイートの一部である Office 365 に対してのみ MCAS 機能が提供されます。
+* OCAS:Office 365 E5 スイートの一部である Office 365 に対してのみ MCAS 機能が提供されます。
 * 任意:Microsoft Cloud App Security の主要な機能を活用するための AAD P1 と AIP P1。
 
 以降のセクションでは、Power BI で Microsoft Cloud App Security を使用する手順について説明します。

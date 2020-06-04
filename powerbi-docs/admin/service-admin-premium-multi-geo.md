@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 05/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 45229edbc6ed2c9e9c4618d44b4b74e42d0037b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9df00079488b248f2e5bab52395a637e37045a24
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274606"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119986"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium の Multi-Geo のサポートを構成する
 
 Multi-Geo は、多国籍企業のお客様が、リージョン、業界固有、または組織のデータの配置場所に関する要件に対応するために役立つ Power BI Premium の機能です。 Power BI Premium をご利用の場合、Power BI テナントのホーム リージョン以外のリージョンにあるデータセンターにコンテンツを展開できます。 geo (地域) には、複数のリージョンが含まれる可能性があります。 たとえば、米国は geo であり、米国中西部と米国中南部は米国のリージョンです。 次のいずれかのリージョンにコンテンツを展開することができます。
 
-- 米国
+- United States
 - Canada
 - イギリス
 - ブラジル
@@ -43,7 +43,7 @@ Multi-Geo は、Power BI Embedded でも使用できるようになりました�
 
 容量を作成すると、そのリージョン内に残り、作成されるすべてのワークスペースのコンテンツはそのリージョンに保存されます。 ワークスペースの設定画面のドロップダウンから、ワークスペースを別のリージョンに移行することができます。
 
-![ワークスペースの編集: 利用可能な容量を選択します。 Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
+![ワークスペースの編集:利用可能な容量を選択します。 Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
 変更を確認するこのメッセージが表示されます。
 
@@ -68,6 +68,8 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 - アクセス許可
 - データセットの資格情報
 
+
+
 ## <a name="view-capacity-regions"></a>容量のリージョンを表示する
 
 管理ポータルでは、Power BI テナントのすべての容量とその現在のリージョンを確認できます。
@@ -88,18 +90,19 @@ Multi-Geo を有効にすると、次の項目は Premium リージョンに格�
 - ワークスペースが存在する現在の容量を削除します。  その結果、ワークスペースはホーム リージョンの共有容量に戻されます。
 - 個々のワークスペースを、ホーム テナントにある Premium 容量に戻します。
 
-## <a name="limitations-and-considerations"></a>制限事項と考慮事項
+## <a name="limitations-and-considerations"></a>制限と考慮事項
 
 - データ転送を開始する前に、リージョン間で開始されるすべての動作が、会社と政府のコンプライアンス要件をすべて満たしていることを確認してください。
 - リモート リージョンに格納されているキャッシュ クエリは、保存時はそのリージョン内に残ります。 ただし、転送中の他のデータは、複数の地域間を行き来する可能性があります。
 - Multi-Geo 環境でデータを別のリージョンに移行する場合、ソース データは、データが移行された元のリージョンに最大 30 日間残る可能性があります。 その間、エンド ユーザーはそのデータにアクセスできません。 30 日の期間中に、そのデータはこのリージョンから削除され、破棄されます。
+- インポートされたデータ モデルのクエリ テキストとクエリ結果のトラフィックは、ホーム リージョンを通過しません。 レポートのメタデータは引き続きリモート リージョンからのものであり、特定の DNS ルーティングの状態ではリージョンからトラフィックを受け取る可能性があります。 
 
 - [データフロー](../transform-model/service-dataflows-overview.md)の機能は、この時点では Multi-GEO でサポートされていません。
 
 ## <a name="next-steps"></a>次のステップ
 
-- [Power BI Premium とは何ですか?](service-premium-what-is.md)
+- [Power BI Premium とは](service-premium-what-is.md)
 - [Power BI Embedded の容量に対する Multi-Geo](../developer/embedded/embedded-multi-geo.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 

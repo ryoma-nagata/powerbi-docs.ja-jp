@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1cd90c4348c33726cdf171f4948b617498c63a1f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3fcf15d7179c86b2c6859fe3c5704ac2cf1b9ce5
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348047"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733073"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive の Excel ファイルにリンクする Power BI ダッシュボードを共有する
 Power BI では、[OneDrive for Business 上にある Excel ブックに接続](../connect-data/service-excel-workbook-files.md)し、そのブックからダッシュボードにタイルをピン留めできます。 そのダッシュボードを共有した場合か、そのダッシュボードを含むコンテンツ パックを作成した場合、次のようになります。
@@ -46,14 +46,14 @@ OneDrive for Business 上の Excel ブックにリンク バックしている�
     ![コンテンツ パック内の Excel ブック](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. **[OneDrive for Business に移動してブックのアクセス許可を設定する]** を選びます。
 4. OneDrive 上で、必要に応じて[アクセス許可を変更します](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)。
-5. **[発行]** を選択します。
+5. **[公開]** を選びます。
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Power BI ワークスペースからダッシュボードを共有する
-Power BI のワークスペースからのダッシュボードの共有は個人のワークスペースからのダッシュボードの共有と似ていますが、ファイルの保存場所が個人の OneDrive for Business ではなく Office 365 のワークスペース サイトになる点が異なります。 ダッシュボードをワークスペース外のユーザーと共有する場合は、事前に Excel ブックのアクセス許可を変更してください。
+Power BI のワークスペースからのダッシュボードの共有は個人のワークスペースからのダッシュボードの共有と似ていますが、ファイルの保存場所が個人の OneDrive for Business ではなく Microsoft 365 のワークスペース サイトになる点が異なります。 ダッシュボードをワークスペース外のユーザーと共有する場合は、事前に Excel ブックのアクセス許可を変更してください。
 
 ![OneDrive から共有する](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_onedriveshare.png)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [Excel から Power BI ダッシュボードにタイルをピン留めする](../create-reports/service-dashboard-pin-tile-from-excel.md)
 * [Power BI サービスのデザイナー向けの基本的な概念](../fundamentals/service-basic-concepts.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

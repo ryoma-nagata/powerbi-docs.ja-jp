@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad60e65406ee69bed4e544486c955765203ddc5c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a2c4925e03a0e356ca44556fa7e545459c487dac
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348001"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733395"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI での組織のコンテンツ パックの概要
 > [!NOTE]
 > 新しいワークスペース エクスペリエンスでは、組織のコンテンツ パックを作成したり、インストールしたりすることはできません。 コンテンツ パックをアプリにまだアップグレードしていない場合は、今がそのよい機会です。 新しいワークスペース エクスペリエンスの詳細については、[こちら](service-create-the-new-workspaces.md)を参照してください。
 > 
 
-チームのメンバーにメールで定期的にレポートを配布する場合は、 自分のダッシュボード、レポート、Excel ブック、およびデータセットをパッケージ化し、 *組織のコンテンツ パック* としてチームに公開してください。 すべてのコンテンツ パックは AppSource にあるので、チームは簡単に見つけることができます。 ライブラリは Power BI に含まれているので、インタラクティブなデータ探索、新しいビジュアル、Q&A、他のデータ ソースとの統合、データ更新、その他 Power BI の機能のすべてを活用できます。
+チームのメンバーにメールで定期的にレポートを配布する場合は、 代わりに次のことを試してください。自分のダッシュボード、レポート、Excel ブック、およびデータセットをパッケージ化し、"*組織のコンテンツ パック*" としてチームに公開します。 すべてのコンテンツ パックは AppSource にあるので、チームは簡単に見つけることができます。 ライブラリは Power BI に含まれているので、インタラクティブなデータ探索、新しいビジュアル、Q&A、他のデータ ソースとの統合、データ更新、その他 Power BI の機能のすべてを活用できます。
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 コンテンツ パックの作成は、ダッシュ ボードを共有することや、ワークスペース内でダッシュボードで共同作業を行うこととは異なります。 状況に応じた最適なオプションを決定するには、「[How should I collaborate on and share dashboards and reports?](service-how-to-collaborate-distribute-dashboards-reports.md)」(ダッシュボードとレポートで共同作業と共有を行う方法) を参照してください。 
 
-組織全体、配布グループ、セキュリティ グループ、および[所属する Office 365 グループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)に対して発行されたコンテンツ パックは、AppSource で参照または検索することができます。 特定のグループのメンバーではないユーザーには、そのグループで共有されるコンテンツ パックは表示されません。 同じグループのすべてのメンバーは、コンテンツ パック データ、レポート、ブック、ダッシュボードに対して同じ読み取り専用アクセス権が与えられます (ただし、SQL Server Analysis Services (SSAS) データ ソースは除きます。この場合、ユーザーの権限がデータ ソースと共に継承されます)。
+組織全体、配布グループ、セキュリティ グループ、および[所属する Microsoft 365 グループ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)に対して発行されたコンテンツ パックは、AppSource で参照または検索することができます。 特定のグループのメンバーではないユーザーには、そのグループで共有されるコンテンツ パックは表示されません。 同じグループのすべてのメンバーは、コンテンツ パック データ、レポート、ブック、ダッシュボードに対して同じ読み取り専用アクセス権が与えられます (ただし、SQL Server Analysis Services (SSAS) データ ソースは除きます。この場合、ユーザーの権限がデータ ソースと共に継承されます)。
 
 ダッシュボード、レポート、Excel ブックは読み取り専用ですが、自分のカスタマイズされたバージョンのコンテンツ パックを作成するために、カスタマイズの起点としてダッシュボードとレポートをコピーおよび使用することができます。
 
@@ -37,7 +37,7 @@ ms.locfileid: "83348001"
 > 
 
 ## <a name="what-is-appsource"></a>*AppSource* とは
-組織のコンテンツ パックを発行すると、そのコンテンツ パックは AppSource に追加されます。  これは一元的なリポジトリで、メンバーは自分に対して発行されたダッシュボード、レポート、データセットを簡単を参照して、見つけることができます。  
+組織のコンテンツ パックを発行すると、そのコンテンツ パックは AppSource に追加されます。  これは一元的なリポジトリで、メンバーは自分に対して発行されたダッシュボード、レポート、データセットを簡単に参照して、見つけることができます。  
 
 * AppSource を表示するには、 **[データの取得]**  >  **[自分の所属組織]**  >  **[取得]** の順に選びます。
 
@@ -71,7 +71,7 @@ Power BI Pro のすべてのユーザーは、組織のコンテンツ パック
 ## <a name="data-security"></a>データのセキュリティ
 データに対して配布グループ メンバー全員にコンテンツ パック作成者と同じアクセス許可が与えられます。 1 つの例外は、SQL Server Analysis Services (SSAS) オンプレミス表形式データセットです。 レポートとダッシュボードはオンプレミス SSAS モデルにライブ接続しているので、個々の配布グループ メンバーがアクセスできるデータは、そのメンバーの資格情報を使用して決定されます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [組織のコンテンツ パックの作成と発行](service-organizational-content-pack-create-and-publish.md)
 * [Power BI でのアプリの作成および配布](service-create-distribute-apps.md) 
 * [Power BI サービスのデザイナー向けの基本的な概念](../fundamentals/service-basic-concepts.md)

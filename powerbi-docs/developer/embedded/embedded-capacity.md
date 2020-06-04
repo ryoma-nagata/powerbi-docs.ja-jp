@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/17/2020
+ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148648"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813625"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI Embedded の分析の容量と SKU
 
@@ -64,74 +64,22 @@ Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されて
 
 ### <a name="which-sku-should-i-use"></a>どの SKU を使用すべきか
 
-次の表に、機能の概要、必要な容量、それぞれに必要な特定の SKU を示します。 
+下の表に、機能の概要、必要な容量、それぞれに必要な特定の SKU を示します。
 
-</br>
-<table>
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<tbody>
-<tr>
-<td style="text-align: center"; colspan="2"><p><b>機能</b></p></td>
-<td style="text-align: center">
-<p><b>Power BI Embedded</b></p>
-</td>
-<td style="text-align: center"; colspan="2">
-<p><b>Power BI Premium</b></p>
-</td>
-</tr>
-<tr>
-<td><p><em>使用対象</em><p></td>
-<td><p><em>使用元</em><p></td>
-<td style="text-align: center"><p><em>A SKU</br>(Azure)</em></p></td>
-<td style="text-align: center"><p><em>EM SKU</br>(Office)</em></p></td>
-<td style="text-align: center"><p><em>P SKU</br>(Office)</em></p></td>
-</tr>
-<tr>
-<td>Power BI ワークスペースからアーティファクトを埋め込む</td>
-<td>
-</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="2">Power BI レポート</td>
-<td>組織向けの埋め込みアプリケーション</br>(ユーザー所有データ)</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>顧客向けの埋め込みアプリケーション</br>(アプリ所有データ)</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="3">Power BI content<br>(無料の Power BI ライセンスを使用)</td>
-<td>ダッシュボード</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Power BI モバイル</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>MS Office アプリ</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-</tbody>
-</table>
+この表では、カスタム アプリは、埋め込み分析を使用して作成された Web アプリを指します。 (JavaScript、.NET SDK、または REST API を使用して) カスタム Web アプリに開発者として埋め込む場合、UX を制御およびカスタマイズすることができます。 この機能は、Power BI サービスや Power BI モバイルなどの他の埋め込みオプションを使用する場合は使用できません。
+
+
+|         |         |         |
+|---------|---------|---------|
+|**シナリオ**</br><p></p>|**Azure**</br>(A SKU)|**Office**</br>(P および EM SKU)|
+|[顧客向けに埋め込む](embed-sample-for-customers.md)</br>(アプリ所有データ)     |✔        |✔        |
+|[組織向けの埋め込み](embed-sample-for-your-organization.md)</br>(ユーザー所有データ)     |✖        |✔         |
+|Microsoft 365 アプリ</br>(旧称 Office 365 アプリ)<ul><li>[Teams への埋め込み](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[SharePoint への埋め込み](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |
+|[セキュリティで保護された URL の埋め込み](../../collaborate-share/service-embed-secure.md)</br>(Power BI サービスからの埋め込み)     |✖        |✔        |
+
+>[!NOTE]
+>* コンテンツを Power BI アプリ ワークスペースに発行するには、[Power BI Pro ライセンス](../../admin/service-admin-purchasing-power-bi-pro.md)が必要です。
+>* **P SKU** の場合のみ、無料の Power BI ユーザーが Power BI アプリと共有コンテンツを Power BI サービスで使用できます。
 
 ### <a name="capacity-considerations"></a>容量に関する考慮事項
 
@@ -147,33 +95,33 @@ Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されて
 </tr>
 <tr>
 <td><p><strong>プラン</strong></p></td>
-<td style="text-align: center;"><p>アジュール</p></td>
-<td style="text-align: center;" colspan="2"><p>Office</p></td>
+<td style="text-align: center"><p>Azure</p></td>
+<td style="text-align: center" colspan="2"><p>Office</p></td>
 </tr>
 <tr>
 <td><p><strong>SKU</strong></p></td>
-<td style="text-align: center;"><p>A</p></td>
-<td style="text-align: center;"><p>EM</p></td>
-<td style="text-align: center;"><p>P</p></td>
+<td style="text-align: center"><p>A</p></td>
+<td style="text-align: center"><p>EM</p></td>
+<td style="text-align: center"><p>P</p></td>
 </tr>
 <tr>
 <td><p><strong>Billing</strong></td>
-<td style="text-align: center;">時間単位</td>
-<td style="text-align: center;">月単位</td>
-<td style="text-align: center;">月単位</td>
+<td style="text-align: center">1 時間ごと</td>
+<td style="text-align: center">月単位</td>
+<td style="text-align: center">月単位</td>
 </tr>
 <tr>
 <td><p><strong>コミットメント</strong></td>
-<td style="text-align: center;">なし</td>
-<td style="text-align: center;">年単位</td>
-<td style="text-align: center;">月単位または年単位</td>
+<td style="text-align: center">なし</td>
+<td style="text-align: center">年単位</td>
+<td style="text-align: center">月単位または年単位</td>
 </tr>
 <tr>
 <td valign="top"><p><strong>使用方法</strong></td>
-<td style="text-align: center;">Azure リソースは以下が可能です:</br>- <a href="azure-pbie-scale-capacity.md">スケールアップまたはダウン</a></br>- <a href="azure-pbie-pause-start.md">一時停止と再開</a>
-</td>
-<td style="text-align: center;">埋め込み先: アプリ、</br> Microsoft アプリケーション</td>
-<td style="text-align: center;">埋め込み先: アプリ、</br> Power BI サービス</td>
+<td style="text-align: center">Azure リソースは以下が可能です:<li><a href="azure-pbie-scale-capacity.md">スケールアップまたはダウン</a></li><li><a href="azure-pbie-pause-start.md">一時停止と再開</a>
+</td></li>
+<td style="text-align: center">埋め込み先: アプリ、</br> Microsoft アプリケーション</td>
+<td style="text-align: center">埋め込み先: アプリ、</br> Power BI サービス</td>
 </tr>
 </tbody>
 </table>
@@ -185,7 +133,7 @@ Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されて
 | 容量ノード | 合計 v コア数 | バックエンド v コア数 | RAM (GB) | フロントエンド v コア数 | DirectQuery/ライブ接続 (秒あたり) | モデル更新並列処理 |
 | --- | --- | --- | --- | --- | --- | --- |
 | EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
-| EM2/A2 | 2 | 1 | 8 | 1 | 7.5 | 2 |
+| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
@@ -194,7 +142,7 @@ Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されて
 | P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 > [!div class="nextstepaction"]
 >[顧客向けに埋め込む](embed-sample-for-customers.md)

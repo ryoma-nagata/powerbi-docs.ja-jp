@@ -1,22 +1,22 @@
 ---
-title: 異なるワークスペースのデータセットに基づいてレポートを作成する (プレビュー) - Power BI
+title: 異なるワークスペースのデータセットに基づいてレポートを作成する - Power BI
 description: 組織全体でユーザーとデータセットを共有する方法について説明します。 これで、各自のワークスペースのデータセットに基づいてレポートを作成できます。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af8cab7403a0ee34505ff395248aec188fd54666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0e7574f9f1d3b4d6c818115af1f2cb4dcd7b8374
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284729"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793024"
 ---
-# <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>異なるワークスペースのデータセットに基づいてレポートを作成する (プレビュー)
+# <a name="create-reports-based-on-datasets-from-different-workspaces"></a>異なるワークスペースのデータセットに基づいてレポートを作成する
 
 他のワークスペース内のデータセットに基づいて、各自のワークスペースにレポートを作成する方法について説明します。 既存のデータセットの上にレポートを作成するには、Power BI Desktop または Power BI サービスの [マイ ワークスペース] または[新しいワークスペース エクスペリエンス](../collaborate-share/service-create-the-new-workspaces.md)を起動します。
 
@@ -61,5 +61,5 @@ Power BI サービスの現在のワークスペースにレポートを保存�
 
 ## <a name="next-steps"></a>次の手順
 
-- [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
+- [ワークスペースをまたいでデータセットを使用](service-datasets-across-workspaces.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

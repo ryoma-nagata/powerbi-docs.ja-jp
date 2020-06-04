@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 721479910a430bb04dc6404936b37fbb00a2c5a8
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cbc89e5f428e13cce35a1d293752091958d82496
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361982"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813832"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>個人として Power BI にサインアップする
 
-Power BI は、個人用データ分析および視覚エフェクト ツールのほか、グループ プロジェクト、部門、または会社全体の背後にある分析および意思決定エンジンとしても使用できます。 この記事では、個人として Power BI にサインアップする方法について説明します。 Power BI 管理者またはグローバル管理者であれば、「[Azure Active Directory での管理者ロールのアクセス許可](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)」を参照してください。
+Power BI は、個人用データ分析および視覚エフェクト ツールのほか、グループ プロジェクト、部門、または会社全体の背後にある分析および意思決定エンジンとしても使用できます。 この記事では、個人として Power BI にサインアップする方法について説明します。 全体管理者または課金管理者である場合は、[組織向けの Power BI ライセンス](../admin/service-admin-licensing-organization.md)に関する記事をご覧ください。
 
 ## <a name="what-is-power-bi"></a>Power BI とは?
 Power BI は、統合されたセルフサービスおよびエンタープライズ ビジネス インテリジェンス プラットフォームであり、直感的なユーザー エクスペリエンスとインテリジェントなデータ視覚化を組み合わせて、データをより深く理解できる分析情報を提供します。 レポートは、Teams、SharePoint、PowerPoint などの Microsoft ツール内、またはその他の生産性向上製品内で共有できます。 これはオンライン SaaS (サービスとしてのソフトウェア) として提供され、2 つのアプリケーションが付属しています。レポートを作成するための Power BI Desktop と呼ばれる Microsoft Windows デスクトップ アプリケーションと、iOS および Android デバイスでレポートを使用するためのネイティブのモバイル BI アプリです。 
@@ -74,7 +74,7 @@ Power BI アカウントには、以下の手順でサインアップします�
 
        ![作業の開始](media/service-self-service-signup-for-power-bi/power-bi-did-you.png)
    
-    - 次のようなメッセージが表示された場合は、使用条件に同意します。
+    - 次のようなメッセージが表示された場合は、使用条件をご確認ください。 同意する場合は、 **[開始]** を選択します。 
 
         ![作業の開始](media/service-self-service-signup-for-power-bi/power-bi-almost.png)
 
@@ -91,7 +91,7 @@ Power BI アカウントには、以下の手順でサインアップします�
 
 ![Power BI 試用版のダイアログ](media/service-self-service-signup-for-power-bi/power-bi-start-trial.png)    
 
-<sup>2</sup>一部の組織では、既定の Power BI アカウントが Power BI **Pro** ライセンスである場合があります。 たとえば、Office 365 の一部のバージョンには、Power BI Pro ライセンスが含まれています。 ご使用のユーザー ライセンスを調べる方法については、[使用しているライセンスの確認](../consumer/end-user-license.md)に関するページを参照してください。
+<sup>2</sup>一部の組織では、既定の Power BI アカウントが Power BI **Pro** ライセンスである場合があります。 たとえば、Microsoft 365 の一部のバージョンには、Power BI Pro ライセンスが含まれています。 ご使用のユーザー ライセンスを調べる方法については、[使用しているライセンスの確認](../consumer/end-user-license.md)に関するページを参照してください。
 
 
 
@@ -112,13 +112,13 @@ Power BI Free ライセンスで十分な場合、他に何もする必要はあ
 | 症状/エラー メッセージ | 原因と回避策 |
 | ----------------------- | -------------------- |
 | <strong>個人のメール アドレス (例: nancy@gmail.com)</strong> サインアップ時に次のようなメッセージが表示されます。 <br /><br /> *You entered a personal email address:Please enter your work email address so we can securely store your company's data.* (個人のメール アドレスが入力されました: 会社のデータに安全に保存できるように、職場の電子メール アドレスを入力してください。) <br /><br /> または <br /><br /> "*That looks like a personal email address. (個人の電子メール アドレスが指定された可能性があります。)Enter your work address so we can connect you with others in your company. (勤務先の他のユーザーと接続できるよう、勤務先のメール アドレスをご入力ください。)And don't worry. (心配しないでください。)We won't share your address with anyone. (Microsoft では、あなたのメール アドレスを他のだれかと共有することは一切ありません。)* " | Power BI では、コンシューマー向けメール サービスまたは通信プロバイダーが提供しているメール アドレスはサポートされません。 <br /><br /> サインアップを完了させるには、勤務先または学校から割り当てられているメール アドレスを使用して、もう一度お試しください。 <br /><br /> それでもサインアップできず、より高度なセットアップ プロセスを実行する場合は、[新しい Office 365 試用版サブスクリプションに登録して、そのメール アドレスを使用してサインアップしてください](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 既存ユーザーに[自分をゲストとして招待](../admin/service-admin-azure-ad-b2b.md)してもらうこともできます。 |
-| **セルフサービス サインアップが無効になっている**: サインアップ時に次のようなメッセージが表示されます。 <br /><br /> "*We can't finish signing you up. (サインアップを完了できません。)Your IT department has turned off signup for Microsoft Power BI. (あなたの勤務先の IT 部門が、Microsoft Power BI のサインアップを無効にしています。)Contact them to complete signup. (IT 部門に連絡して、サインアップを完了させてください。)* " <br /><br /> | 組織の[グローバル管理者](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md)によって、Power BI のセルフサービス サインアップが無効にされています。 <br /><br /> サインアップを完了するには、グローバル管理者に連絡して、[手順に従ってサインアップを有効にする](../admin/service-admin-disable-self-service.md)ように依頼します。 <br/><br/> パートナーを通じて Office 365 にサインアップする場合に、この問題が発生する可能性があります。 その場合は、Office 365 を提供する責任のある組織にお問い合わせください。 |
-| **メール アドレスが Office 365 の ID ではない**サインアップ時に次のようなメッセージが表示されます:  <br /><br /> "*We can't find you at contoso.com. (contoso.com であなたを見つけることができません。)Do you use a different ID at work or school? (勤務先または学校の別の ID を使用しますか?)<br /><br />Try signing in with that, and if it doesn't work, contact your IT department. (その ID を使用してサインインしてみてください。その ID が機能しない場合は、IT 部門にお問い合わせください。)* " | お客様の組織では、Office 365 と他の Microsoft サービスにサインインするために、メール アドレスと異なる ID を使用しています。  たとえば、メール アドレスが Nancy.Smith@contoso.com で、ID が nancys@contoso.com の場合です。 <br /><br /> サインアップを完了するには、Office 365 やその他の Microsoft サービスにサインインするために組織が割り当てた ID を使用します。  この ID がわからない場合は、グローバル管理者にお問い合わせください。 <br /><br /> それでもサインアップできず、より高度なセットアップ プロセスを実行する場合は、[新しい Office 365 試用版サブスクリプションに登録して、そのメール アドレスを使用してサインアップしてください](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
+| **セルフサービス サインアップが無効になっている**: サインアップ時に次のようなメッセージが表示されます。 <br /><br /> "*We can't finish signing you up. (サインアップを完了できません。)Your IT department has turned off signup for Microsoft Power BI. (あなたの勤務先の IT 部門が、Microsoft Power BI のサインアップを無効にしています。)Contact them to complete signup. (IT 部門に連絡して、サインアップを完了させてください。)* " <br /><br /> | 組織の[グローバル管理者](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md)によって、Power BI のセルフサービス サインアップが無効にされています。 <br /><br /> サインアップを完了するには、グローバル管理者に連絡して、[手順に従ってサインアップを有効にする](../admin/service-admin-disable-self-service.md)ように依頼します。 <br/><br/> パートナーを通じて Microsoft 365 にサインアップした場合にも、この問題が発生する可能性があります。 その場合は、ご自分への Microsoft 365 の提供を担当する組織にお問い合わせください。 |
+| **メール アドレスが Microsoft 365 の ID ではない** サインアップ時に次のようなメッセージが表示されます: <br /><br /> "*We can't find you at contoso.com. (contoso.com であなたを見つけることができません。)Do you use a different ID at work or school? (勤務先または学校の別の ID を使用しますか?)<br /><br />Try signing in with that, and if it doesn't work, contact your IT department. (その ID を使用してサインインしてみてください。その ID が機能しない場合は、IT 部門にお問い合わせください。)* " | お客様の組織では、Microsoft 365 と他の Microsoft サービスにサインインするために、メール アドレスと異なる ID を使用しています。  たとえば、メール アドレスが Nancy.Smith@contoso.com で、ID が nancys@contoso.com の場合です。 <br /><br /> サインアップを完了するには、Microsoft 365 やその他の Microsoft サービスにサインインするために組織が割り当てた ID を使用します。  この ID がわからない場合は、グローバル管理者にお問い合わせください。 <br /><br /> それでもサインアップできず、より高度なセットアップ プロセスを実行する場合は、[新しい Office 365 試用版サブスクリプションに登録して、そのメール アドレスを使用してサインアップしてください](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
 Power BI へのサインインで、パスワードが認識されない  |  数回試すことが必要な場合があります。 パスワードを数回試してもログインできない場合は、ブラウザーを Incognito (Chrome) モードまたは InPrivate (Edge) モードで実行してみてください。
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI Pro を購入する](../admin/service-admin-purchasing-power-bi-pro.md)  
-[個々のユーザーに対する Power BI サービス契約](https://powerbi.microsoft.com/terms-of-service/)  
+[ライセンスの種類別の Power BI 機能](../consumer/end-user-features.md)    
+[ヘルプを検索するためのヒント](../fundamentals/service-tips-for-finding-help.md)    
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

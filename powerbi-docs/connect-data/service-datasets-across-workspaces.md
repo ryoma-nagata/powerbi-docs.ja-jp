@@ -1,22 +1,22 @@
 ---
-title: ワークスペース全体のデータセットの概要 (プレビュー)
+title: ワークスペース全体のデータセットの概要
 description: 組織全体でユーザーとデータセットを共有する方法について説明します。 これで、各自のワークスペースのデータセットに基づいてレポートを作成できます。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fe0478a7fa570b4d88f4493c4b27fec083041ae
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0458498b5677f20bac3a2e50f884d820ef1c3648
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285465"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793627"
 ---
-# <a name="intro-to-datasets-across-workspaces-preview"></a>ワークスペース全体のデータセットの概要 (プレビュー)
+# <a name="intro-to-datasets-across-workspaces"></a>ワークスペース全体のデータセットの概要
 
 ビジネス インテリジェンスは共同作業です。 "1 つの正しい情報源" になれる標準化されたデータセットを確立することが重要です。 その後、そのような標準化されたデータセットを検出し、再利用することが鍵となります。 組織のデータ モデリングの専門家が最適化されたデータセットを作成し、共有するとき、レポートの作成者はそのようなデータセットから始め、正確なレポートを構築できます。 そうすれば、組織は整合性のあるデータで意思決定できるほか、そのデータ文化が健全になります。
 
@@ -33,9 +33,9 @@ Power BI では、データセットの作成者は、[ビルド アクセス許
 - Power BI Desktop では、データセットが新しいエクスペリエンスのワークスペースにある限り、さまざまなワークスペースに Live Connect レポートを発行できます。
 - ワークスペース間でレポートをコピーするとき、コピー先のワークスペースを新しいエクスペリエンスのワークスペースにする必要があります。
 
-## <a name="discover-datasets-preview"></a>データセットを検出する (プレビュー)
+## <a name="discover-datasets"></a>データセットを検出する
 
-既存のデータセットに基づいてレポートを構築するとき、最初の手順は、Power BI サービスまたは Power BI Desktop でデータセットに接続することです。 [さまざまなワークスペースからデータセットを検出する (プレビュー)](service-datasets-discover-across-workspaces.md)方法に関するページをお読みください。
+既存のデータセットに基づいてレポートを構築するとき、最初の手順は、Power BI サービスまたは Power BI Desktop でデータセットに接続することです。 [さまざまなワークスペースからデータセットを検出する](service-datasets-discover-across-workspaces.md)方法に関するページをお読みください
 
 ## <a name="copy-a-report"></a>レポートをコピーする
 

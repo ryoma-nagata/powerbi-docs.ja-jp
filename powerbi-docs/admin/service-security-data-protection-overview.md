@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d70262908df5568066533d1b638c7a1495a3f30b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132055"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733234"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI におけるデータ保護 (プレビュー)
 
@@ -23,7 +23,7 @@ ms.locfileid: "83132055"
 
 Power BI のデータ保護を使用すると、次のことが可能です。
 
-* Microsoft の秘密度ラベルを使用して Power BI サービス (ダッシュボード、レポート、データセット、データフロー) のコンテンツの分類およびラベル付けを行う。Office 365 内でファイルの分類と保護に使用する分類と同じものを使用します。 
+* Microsoft の秘密度ラベルを使用して Power BI サービス (ダッシュボード、レポート、データセット、データフロー) のコンテンツの分類およびラベル付けを行う。Microsoft 365 内でファイルの分類と保護に使用する分類と同じものを使用します。
 
 * コンテンツの秘密度ラベルと保護を適用することで、Power BI サービスからファイルにデータをエクスポートしたときに、暗号化や透かしなどの保護設定を適用する (Excel、PowerPoint、PDF)。 
 
@@ -35,7 +35,7 @@ Power BI のデータ保護を使用すると、次のことが可能です。
 
 秘密度ラベルは、[Microsoft 365 セキュリティ センター](https://security.microsoft.com/)または [Microsoft 365 コンプライアンス センター](https://compliance.microsoft.com/)内で作成および管理します。
 
-これらのセンターのどちらかで秘密度ラベルにアクセスするには、 **[分類] > [秘密度ラベル]** に移動します。 これらの秘密度ラベルは、Azure Information Protection、Office アプリ、Office 365 サービスなど、複数の Microsoft サービスで使用できます。
+これらのセンターのどちらかで秘密度ラベルにアクセスするには、 **[分類]**  >  **[秘密度ラベル]** に移動します。 これらの秘密度ラベルは、Azure Information Protection、Office アプリ、Microsoft 365 サービスなど、複数の Microsoft サービスで使用できます。
 
 > [!IMPORTANT]
 > Azure Information Protection のユーザーが Power BI 内で秘密度ラベルを使用するには、ラベルを前述のサービスのいずれかに移行する必要があります。 また、秘密度ラベルはパブリック クラウド内でのみサポートされており、ソブリン クラウドなどのクラウド内のテナントではサポートされていません。

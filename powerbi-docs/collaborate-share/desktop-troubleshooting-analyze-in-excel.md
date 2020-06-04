@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 01/29/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 555d203cfa8bd00e745c0dcff5de7f7e8d48f06c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e6e18677d3ad9f9f0cf29db03b6e489416354411
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563186"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120661"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>”Excel で分析” に関するトラブルシューティング
 
@@ -84,7 +84,7 @@ Excel OLE DB プロバイダーのクライアント ライブラリが最新の
 オンプレミスの Analysis Services データに接続するデータセットにアクセスしようとする場合、エラー メッセージが表示されることがあります。 **[Excel で分析]** では、使用しているコンピューターが **Analysis Services** サーバーと同じドメインにあり、アカウントがその **Analysis Services** サーバーへのアクセス権を持つ限り、接続文字列によるオンプレミス **Analysis Services** 上のデータセットおよびレポートへの接続をサポートしています。
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>ピボットテーブルの値領域 (メジャーなし) にドラッグできない
-**Excel で分析**から外部 OLAP モデルに接続する場合 (Excel から Power BI に接続する方法)、"*ピボットテーブル*" には[外部モデルで定義される**メジャー**が必要](https://support.microsoft.com/kb/234700)です。これは、すべての計算がサーバーで実行されるためです。 ローカル データ ソースを操作する場合 (Excel のテーブルを操作する場合や、**Power BI Desktop** または**Power BI サービス** でデータセットを操作する場合) は、これとは異なります。つまり、テーブル モデルをローカルに利用でき、[暗黙的なメジャーを使用できます](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)。暗黙的なメジャーとは、動的に生成され、データ モデルに格納されないメジャーです。 このような場合、Excel での動作は **Power BI Desktop** や **Power BI サービス**とは異なります。つまり、データの中に、Power BI でメジャーとして扱うことができても、Excel で値 (メジャー) として使用できない列が存在する可能性があります。
+**[Excel で分析]** から外部 OLAP モデルに接続する場合 (Excel から Power BI に接続する方法)、"*ピボットテーブル*" には外部モデルで定義される**メジャー**が必要です。これは、すべての計算がサーバーで実行されるためです。 ローカル データ ソースを操作する場合 (Excel のテーブルを操作する場合や、**Power BI Desktop** または**Power BI サービス** でデータセットを操作する場合) は、これとは異なります。つまり、テーブル モデルをローカルに利用でき、[暗黙的なメジャーを使用できます](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)。暗黙的なメジャーとは、動的に生成され、データ モデルに格納されないメジャーです。 このような場合、Excel での動作は **Power BI Desktop** や **Power BI サービス**とは異なります。つまり、データの中に、Power BI でメジャーとして扱うことができても、Excel で値 (メジャー) として使用できない列が存在する可能性があります。
 
 この問題に対処するには、いくつかの選択肢があります。
 
@@ -94,7 +94,7 @@ Excel OLE DB プロバイダーのクライアント ライブラリが最新の
 
 Power BI サービスでモデルに定義したメジャーを、Excel ピボットテーブルの **[値]** 領域で使用できます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [Excel で分析](service-analyze-in-excel.md)
 
 [チュートリアル: Power BI Desktop で独自のメジャーを作成する](../transform-model/desktop-tutorial-create-measures.md)

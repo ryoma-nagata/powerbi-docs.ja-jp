@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0620ca7373f247cf5475f43ddaceb69ded60bc59
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: bcd5713b2ee7f053448718bc5dd93c24b0d53de6
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83358440"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813878"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI サービスのデザイナー向けの基本的な概念
 
@@ -29,7 +29,7 @@ ms.locfileid: "83358440"
 ブラウザーで Power BI サービスを開くと、最初にホーム画面が表示されます。 表示される可能性がある要素は次のとおりです。
 
 1. ナビゲーション ウィンドウ
-2. Office 365 アプリ起動ツール
+2. Microsoft 365 アプリ起動ツール
 3. Power BI ホーム ボタン
 4. アイコン ボタン (設定、ヘルプ、フィードバックを含む)
 5. 検索ボックス
@@ -185,7 +185,7 @@ Power BI ではブックを編集できません。 しかし、変更を加え�
   ![ナビ ペイン](media/service-basic-concepts/power-bi-navigation.png)
 
 * [データセット、レポート、ダッシュボードを Power BI に追加する](../connect-data/service-get-data.md)には、 **[データの取得]** を選びます。
-* ナビ ペインを展開したり折りたたんだりするには、次のアイコンを使用します:  ![ナビ ペイン アイコン](media/service-basic-concepts/expand-icon.png).
+* ナビ ペインを展開したり折りたたんだりするには、次のアイコンを使用します: ![ナビ ペイン アイコン](media/service-basic-concepts/expand-icon.png).
 * お気に入りのコンテンツを開いたり管理したりするには、 **[お気に入り]** を選びます。
 * 最近アクセスしたコンテンツを表示して開くには、 **[最近]** を選びます。
 * アプリを表示したり、開いたり、削除したりするには、 **[アプリ]** を選びます。
@@ -228,8 +228,8 @@ Q&A では、質問の入力を開始するとすぐに Q&A ページが表示�
 
 ![データ分類タグ アイコン](media/service-basic-concepts/power-bi-title.png)
 
-### <a name="6-office-365-app-launcher"></a>6.**Office 365 アプリ起動ツール**
-アプリ起動ツールを使うと、すべての Office 365 アプリを 1 回のクリックで簡単に利用できます。 ここからは、メール、ドキュメント、予定表などをすばやく起動できます。
+### <a name="6-microsoft-365-app-launcher"></a>6.**Microsoft 365 アプリ起動ツール**
+アプリ起動ツールを使うと、すべての Microsoft 365 アプリを 1 回のクリックで簡単に利用できます。 ここからは、メール、ドキュメント、予定表などをすばやく起動できます。
 
 ![Office アプリ起動ツール](media/service-basic-concepts/power-bi-waffle.png)
 

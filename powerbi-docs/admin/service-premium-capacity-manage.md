@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 2e32a61891cee2fb5e2a80167d5283962dc164bb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdb3db1db1fe82743658f6a6073386701e7fe961
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134748"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120989"
 ---
 # <a name="managing-premium-capacities"></a>Premium 容量を管理する
 
@@ -23,7 +23,7 @@ Power BI Premium の管理には、Premium 容量の作成、管理、監視が�
 
 ## <a name="creating-and-managing-capacities"></a>容量の作成と管理
 
-Power BI 管理ポータルの **[容量の設定]** ページには、購入されている仮想コアの数と使用可能な Premium 容量が表示されます。 そのページでは、Office 365 グローバル管理者または Power BI サービス管理者は、利用可能な仮想コアから Premium 容量を作成したり、既存の Premium 容量を変更したりできます。
+Power BI 管理ポータルの **[容量の設定]** ページには、購入されている仮想コアの数と使用可能な Premium 容量が表示されます。 そのページでは、グローバル管理者または Power BI サービス管理者が、利用可能な仮想コアから Premium 容量を作成したり、既存の Premium 容量を変更したりできます。
 
 Premium 容量を作成するとき、管理者は以下を定義する必要があります。
 
@@ -47,7 +47,7 @@ Premium 容量を作成するとき、管理者は以下を定義する必要が
 
 Power BI テナントのホーム リージョン以外のリージョンに、Premium 容量を割り当てることができます。これは、Multi-Geo と呼ばれます。 Multi-Geo を使用すると、定義されている地理的地域内のどのデータセンターに Power BI コンテンツを置くかを管理できます。 Multi-Geo のデプロイを使用する理由は、通常、パフォーマンスやスケールではなく、企業または政府のコンプライアンスのためです。 レポートとダッシュボードの読み込みではやはり、ホーム リージョンに対してメタデータを要求する必要があります。 詳細については、「[Multi-Geo support for Power BI Premium](service-admin-premium-multi-geo.md)」 (Power BI Premium の Multi-Geo のサポート) を参照してください。
 
-Power BI サービス管理者と Office 365 グローバル管理者は、Premium 容量を変更できます。 具体的には、次のことが可能です。
+Power BI サービス管理者とグローバル管理者は、Premium 容量を変更できます。 具体的には、次のことが可能です。
 
 - 容量のサイズを変更して、リソースをスケールアップまたはスケールダウンする。
 - 容量管理者を追加または削除する。
@@ -67,7 +67,7 @@ Premium 容量を削除することができ、そのワークスペースやコ
 
 ワークスペースは Power BI 管理ポータルで Premium 容量に割り当てることができ、1 つのワークスペースの場合は **[ワークスペース]** ペインで割り当てることができます。
 
-容量管理者、および Office 365 グローバル管理者または Power BI サービス管理者は、Power BI 管理ポータルでワークスペースを一括で割り当てることができます。 一括割り当ては次の対象に適用できます。
+容量管理者、およびグローバル管理者または Power BI サービス管理者は、Power BI 管理ポータルでワークスペースを一括で割り当てることができます。 一括割り当ては次の対象に適用できます。
 
 - **ユーザーごとのワークスペース** - 個人用ワークスペースを含む、これらのユーザーが所有するすべてのワークスペースが、Premium 容量に割り当てられます。 これには、既に別の Premium 容量に割り当てられているワークスペースの再割り当てが含まれます。 さらに、ユーザーにはワークスペース割り当てアクセス許可も割り当てられます。
 

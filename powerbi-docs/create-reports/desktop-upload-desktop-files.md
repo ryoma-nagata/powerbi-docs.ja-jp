@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/20/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a67c36b2594696e1c576693cc5808eb0227c1c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83333489"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733476"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Power BI Desktop からデータセットとレポートを発行する
 Power BI Desktop ファイルを Power BI サービスに発行すると、モデル内のデータが Power BI ワークスペースに発行されます。 **レポート** ビューで作成したレポートの場合も同様です。 ワークスペース ナビゲーターに、同じ名前の新しいデータセットおよびレポートが表示されます。
@@ -49,5 +49,9 @@ Power BI Desktop ファイルを発行すると、Power BI Desktop で作成し�
 * 列またはメジャーの名前を変更するか、これらを削除すると、Power BI でそのフィールドを使用している既存の視覚化が壊れる可能性があります。 
 * Power BI は、既存列の形式変更の一部を無視します。 たとえば、列の形式を 0.25% から 25% に変更した場合などです。
 * Power BI の既存のデータセット用に構成された更新スケジュールがあるとします。 ファイルに新しいデータ ソースを追加してから再発行する場合は、次にスケジュールされている更新の前に、それらにサインインしておく必要があります。
-* Power BI Desktop から発行されたデータセットを再発行し、定義された更新スケジュールがある場合、再発行後すぐにデータセットの更新が開始されます。 
+* Power BI Desktop から発行されたデータセットを再発行し、定義された更新スケジュールがある場合、再発行後すぐにデータセットの更新が開始されます。
+* データセットに変更を加えてから再発行すると、その変更の影響を受ける可能性があるワークスペース、レポート、ダッシュボードの数がメッセージに表示され、現在発行されているデータセットを、変更したものに置き換えるかどうかを確認するよう求められます。 また、メッセージでは、Power BI サービスの完全なデータセットの影響分析へのリンクも提供され、そこで、詳細を確認し、変更のリスクを軽減するための措置を取ることができます。
 
+   ![データセットの再発行による影響に関する警告](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
+
+   [データセットによる影響の分析の詳細を参照してください](../collaborate-share/service-dataset-impact-analysis.md)。

@@ -1,22 +1,22 @@
 ---
-title: ワークスペース全体でデータセットの使用を制御する (プレビュー) - Power BI
+title: ワークスペース全体でデータセットの使用を制御する - Power BI
 description: Power BI テナント内の情報のフローを制限する方法について説明します。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4599b5aa8961c5a6526f5de6a07815355e6e41db
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285442"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793550"
 ---
-# <a name="control-the-use-of-datasets-across-workspaces-preview"></a>ワークスペース全体でデータセットの使用を制御する (プレビュー)
+# <a name="control-the-use-of-datasets-across-workspaces"></a>ワークスペース全体でデータセットの使用を制御する
 
 ワークスペース全体でデータセットを使用することは、組織内でデータのカルチャとデータの民主化を推進するための強力な方法です。 それでも、Power BI の管理者であれば、Power BI テナント内の情報のフローを制限することがあります。 テナント設定の **[ワークスペース全体でデータセットを使用する]** を使用すると、セキュリティ グループごとにデータセットの再利用を完全にまたは部分的に制限できます。
 
@@ -36,7 +36,7 @@ ms.locfileid: "83285442"
 
 ![データセットの認定の詳細情報](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
-- [ワークスペース全体でデータセットを使用する (プレビュー)](service-datasets-across-workspaces.md)
-- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- [ワークスペースをまたいでデータセットを使用](service-datasets-across-workspaces.md)
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

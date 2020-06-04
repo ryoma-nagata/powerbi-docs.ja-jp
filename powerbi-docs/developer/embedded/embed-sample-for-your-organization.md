@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49465556d7b11b911e24df06ab6598bb2dbe9707
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349795"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794137"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -383,7 +383,7 @@ function updateEmbedReport() {
 
 専用の容量を作成することで、ワークスペースでコンテンツ専用のリソースを所有する利点が得られます。 ページ分割されたレポートの場合は、少なくとも P1 容量を使用してワークスペースをバックアップする必要があります。 [Power BI Premium](../../admin/service-premium-what-is.md) を使用して、専用の容量を作成できます。
 
-次の表は、[Microsoft Office 365](../../admin/service-admin-premium-purchase.md) で利用可能な Power BI Premium SKU の一覧です。
+次の表は、[Microsoft 365](../../admin/service-admin-premium-purchase.md) で利用可能な Power BI Premium SKU の一覧です。
 
 | 容量ノード | 仮想コアの合計<br/>(バックエンド + フロント エンド) | バックエンドの仮想コア | フロント エンドの仮想コア | DirectQuery/ライブ接続の制限 |
 | --- | --- | --- | --- | --- | --- |

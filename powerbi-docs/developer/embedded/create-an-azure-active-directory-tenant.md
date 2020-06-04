@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: 67a9725e55f82e325466789064f5738222919ac8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114729"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794110"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI で使用する Azure Active Directory テナントを作成する
 
 [Power BI REST API](../automation/rest-api-reference.md) を呼び出すカスタム アプリケーション用に新しい Azure Active Directory (Azure AD) テナントを作成する方法を説明します。
 
-テナントは、Azure Active Directory 内の組織を表します。 これは、組織が Azure、Microsoft Intune、Office 365 などの Microsoft のクラウド サービスにサインアップする際に、受け取って所有する Azure AD サービスの専用インスタンスです。 各 Azure AD テナントは独立しており、他の Azure AD テナントとは切り離されています。
+テナントは、Azure Active Directory 内の組織を表します。 これは、組織が Azure、Microsoft Intune、Microsoft 365 などの Microsoft のクラウド サービスにサインアップする際に、受け取って所有する Azure AD サービスの専用インスタンスです。 各 Azure AD テナントは独立しており、他の Azure AD テナントとは切り離されています。
 
 Azure AD テナントを作成すると、アプリケーションを定義して、それにアクセス許可を割り当てて、[Power BI REST API](../automation/rest-api-reference.md) を呼び出せるようにすることができます。
 
@@ -27,7 +27,7 @@ Azure AD テナントを作成すると、アプリケーションを定義し�
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory テナントを作成する
 
-カスタム アプリケーションに Power BI を統合するには、Azure AD 内で、Azure AD ディレクトリを必要とするアプリケーションを定義する必要があります。 このディレクトリが、*テナント*です。 組織で Power BI または Office 365 を使用していないためにまだテナントがない場合は、[開発環境を設定する必要があります](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。 また、アプリケーションを組織のテナントと混在させたくない場合にも、テナントを作成して、分離させる必要があります。 または、テスト目的でテナントを作成することもできます。
+カスタム アプリケーションに Power BI を統合するには、Azure AD 内で、Azure AD ディレクトリを必要とするアプリケーションを定義する必要があります。 このディレクトリが、*テナント*です。 組織で Power BI または Microsoft 365 を使用していないためにまだテナントがない場合は、[開発環境を設定する必要があります](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。 また、アプリケーションを組織のテナントと混在させたくない場合にも、テナントを作成して、分離させる必要があります。 または、テスト目的でテナントを作成することもできます。
 
 新しい Azure AD テナントを作成するには:
 

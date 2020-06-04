@@ -7,47 +7,53 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 753458b4db621fff5a4bba4aebb96543284013ff
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cd919c622ecb1e7906a8e352936c6b4d549ca691
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114109"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812811"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI サービスにサインインする
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 ## <a name="power-bi-accounts"></a>Power BI アカウント
-Power BI にサインインするには、アカウントが必要です。 Power BI アカウントを入手するには 2 つの方法があります。 1 つ目は、会社で従業員向けに Power BI ライセンスを購入する方法です。 2 つ目は、個人で無料試用版または個人ライセンスにサインアップする方法です。 この記事では 1 つ目のシナリオについて説明します。
+Power BI にサインインするには、アカウントが必要です。 Power BI アカウントを入手するには 2 つの方法があります。 1 つ目は、組織が従業員向けに Power BI ライセンスを購入する方法です。 2 つ目は、[個人で無料試用版または個人ライセンスにサインアップする](../fundamentals/service-self-service-signup-for-power-bi.md)方法です。 この記事では 1 つ目のシナリオについて説明します。
 
 ## <a name="sign-in-for-the-first-time"></a>初めてサインインする
 
-### <a name="step-1-open-a-browser"></a>手順 1: ブラウザーを開く
-Power BI サービスがブラウザーで実行されます。  そのため、まず最初に、お好きなブラウザーを開き、「**app.powerbi.com**」と入力します。
+### <a name="step-1-open-the-power-bi-service"></a>手順 1: Power BI サービスを開く
+Power BI サービスがブラウザーで実行されます。 
 
-![ブラウザーのフィールドへの入力](media/end-user-sign-in/power-bi-sign-in.png)
+- 同僚から、ダッシュボードまたはレポートへのリンクを含む電子メールを受信した場合は、 **[Open this report]\(このレポートを開く\)** または **[Open this dashboard]\(このダッシュボードを開く\)** のリンクを選択します。
+
+    ![ブラウザーのフィールドへの入力](media/end-user-sign-in/power-bi-share.png)    
+
+- それ以外の場合は、お気に入りのブラウザーを開き、「**app.powerbi.com**」と入力します。
+
+    ![ブラウザーのフィールドへの入力](media/end-user-sign-in/power-bi-sign-in.png)    
+
 
 ### <a name="step-2-type-your-email-address"></a>手順 2: メール アドレスを入力する
-初めてサインインするときは、メール アドレスの入力を求められます。  このメール アドレスは、Power BI にサインアップするために使用された職場または学校アカウントです。  
+初めてサインインするときに、Microsoft によって、Microsoft 365 アカウントを既にお持ちであるかどうかが確認されます。 次の例では、Pradtanna は他の Microsoft サービスのライセンスを既に持っています。 
 
-Power BI 管理者からのメールを受信トレイで確認します。 ほとんどの管理者は、一時パスワードを含むウェルカム メールを送信します。 このメール アカウントをサインインに使用します。 
+![サインイン画面](media/end-user-sign-in/power-bi-already.png)
 
-![ブラウザーのフィールドへの入力](media/end-user-sign-in/power-bi-password.png)
+パスワードを入力します。 これはご自分の Microsoft 365 アカウントのパスワードです。 これは、Outlook や Office などの他の Microsoft 製品で使用するのと同じ電子メールとパスワードです。  アカウントの設定方法によっては、電子メールまたはモバイル デバイスに送信されたコードを入力するように求められる場合もあります。   
 
+![サインイン画面](media/end-user-sign-in/power-bi-pass.png)
 
+場合によっては、全体管理者がお客様にライセンスを割り当て、この情報を含む電子メールを送信することがあります。 ご自分の受信トレイでウェルカム メールを探し、その指示に従って最初のサインインを行ってください。 サインインにはこの同じ電子メール アカウントを使用します。 
  
-### <a name="step-3-create-a-new-password"></a>手順 3: 新しいパスワードを作成する
-Power BI 管理者から一時パスワードが送られてきた場合は、それを **[現在のパスワード]** フィールドに入力します。 メールでパスワードを受け取っていない場合は、Power BI 管理者に問い合わせてください。
+### <a name="step-3-review-the-terms-and-conditions"></a>手順 3:使用条件を確認する
+使用条件を確認し、同意する場合はチェックボックスをオンにして **[開始]** を選択します。
 
-![[サインイン] フィールドに入力されたメール アドレス](media/end-user-sign-in/power-bi-login.png)
+![使用条件の画面](media/end-user-sign-in/power-bi-term.png)
 
-Power BI で資格情報を記憶する場合は、 **[はい]** を選択します。 
-
-![Power BI で資格情報を記憶するかどうかを決定する](media/end-user-sign-in/power-bi-stay-signed-in.png)
 
 
 ### <a name="step-4-review-your-home-landing-page"></a>手順 4: ホーム ランディング ページを確認する
@@ -55,9 +61,9 @@ Power BI で資格情報を記憶する場合は、 **[はい]** を選択しま
 
 ![選択された [ホーム] を示すスクリーンショット](media/end-user-sign-in/power-bi-home-selected.png)
 
-[ホーム] には、自分が使用するアクセス許可を持っているすべてのコンテンツが表示されます。 最初はあまりコンテンツが表示されないかもしれませんが、心配しないでください。同僚と Power BI を使い始めれば変わります。 
+[ホーム] には、自分が使用するアクセス許可を持っているすべてのコンテンツが表示されます。 最初はあまりコンテンツが表示されないかもしれませんが、心配しないでください。同僚と Power BI を使い始めれば変わります。 同僚が自分に電子メールで共有したレポートがあるでしょうか? それは、ホーム ランディング ページの見出し **[自分と共有]** の下に表示されます。
 
-![ホーム ランディング ページ](media/end-user-sign-in/power-bi-home-landing.png)
+![ホーム ランディング ページ](media/end-user-sign-in/power-bi-home.png)
 
 Power BI でホームを開きたくない場合は、代わりに[**おすすめ**ダッシュボードまたはレポートを設定](end-user-featured.md)して開くことができます。 
 
@@ -66,14 +72,14 @@ Power BI でホームを開きたくない場合は、代わりに[**おすす�
 
 ![[既定値にリセット] ボタン](media/end-user-sign-in/power-bi-reset.png)
 
-## <a name="sign-out-of-power-bi-service"></a>Power BI サービスからサインアウトする
+## <a name="sign-out-of-the-power-bi-service"></a>Power BI サービスからサインアウトする
 Power BI を閉じたりサインアウトしたりするときに変更が保存されるので、中断したところから作業を再開できます。
 
 Power BI を閉じるには、作業しているブラウザー タブを閉じます。 
 
 ![[x] を選択してタブを閉じる](media/end-user-sign-in/power-bi-close.png) 
 
-コンピューターを共有している場合は、Power BI を閉じるたびにサインアウトすることをお勧めします。  サインアウトするには、右上隅にあるプロファイルの画像を選択して、 **[サインアウト]** を選択します。それ以外の場合は、完了したらブラウザーのタブを閉じます。
+コンピューターを共有している場合は、Power BI を閉じるたびにサインアウトすることをお勧めします。  サインアウトするには、右上隅にあるプロファイルの画像を選択して、 **[サインアウト]** を選択します。  
 
 ![プロファイルの選択](media/end-user-sign-in/power-bi-sign-out.png) 
 

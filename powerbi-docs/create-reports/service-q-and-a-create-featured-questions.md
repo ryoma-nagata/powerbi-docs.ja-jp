@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4b80d329c89299cbe87fb29aa340733f0031192a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348990"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121118"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Q&A のおすすめの質問を作成する
 データセットがある場合、そのデータセットにおすすめの質問を追加できます。 Power BI Q&A には、そのデータセットに基づくレポートを使用する同僚におすすめの質問が表示されます。  同僚は、データセットについて確認できる質問の種類についておすすめの質問をヒントにすることができます。 任意のおすすめの質問を追加できます。よくある質問、興味深い結果が表示される質問、表現しづらい質問などを追加してください。
@@ -40,7 +40,7 @@ ms.locfileid: "83348990"
 6. Power BI ダッシュボードに戻って小売りの分析のサンプルを表示し、Q&A の質問ボックスにカーソルを置きます。   
    ![Q&A 質問ボックスとおすすめの質問](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
 7. 追加したおすすめの質問の **[Sales by territory as a map]** (担当地域別の売上の地図) が一覧の最初に表示されます。 その質問を選択します。  
-8. 塗り分け地図の視覚化として答えが表示されます。  
+8. Power BI によって回答が作成され、塗り分け地図の視覚化として表示されます。  
    ![Q&A おすすめの質問の回答: マップの視覚エフェクト](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 
 ## <a name="next-steps"></a>次の手順
