@@ -84,7 +84,7 @@ ms.locfileid: "83279137"
 
 * **高密度サンプリング** アルゴリズムは、Power BI サービスに基づくモデル、インポートしたモデル、または DirectQuery へのライブ接続でのみ動作します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 他の図の高密度サンプリングの詳細については、次の記事をご覧ください。
 
 * [Power BI の高密度線サンプリング](../create-reports/desktop-high-density-sampling.md)

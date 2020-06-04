@@ -20,7 +20,7 @@ ms.locfileid: "83349335"
 
 | ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
+| iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -99,7 +99,7 @@ iOS および Android デバイス用 Power BI モバイル アプリから、[�
    
    詳細については、[同僚との共有に関する注意事項](../../collaborate-share/service-share-dashboards.md)のページをご覧ください。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [モバイル アプリにおけるタイル、レポート、または視覚エフェクトのスナップショットの注釈付けと共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Power BI でダッシュボードまたはレポートを共有する](../../collaborate-share/service-share-dashboards.md)
-* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

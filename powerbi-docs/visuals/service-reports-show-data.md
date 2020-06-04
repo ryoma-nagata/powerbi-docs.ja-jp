@@ -73,7 +73,7 @@ Power BI のビジュアルは、データセットからのデータを使用�
 - 計算メジャーがビジュアルで使用されている場合は、[レコードの確認] を使用できません。
 - ライブ多次元 (MD) モデルに接続されている場合は、[レコードの確認] を使用できません。  
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [Power BI ビジュアルからデータをエクスポートする](power-bi-visualization-export-data.md)    
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

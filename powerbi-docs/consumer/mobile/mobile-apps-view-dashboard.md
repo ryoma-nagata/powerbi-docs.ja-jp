@@ -59,7 +59,7 @@ ms.locfileid: "83349450"
     または、電話を横向きに変えるだけで、電話のダッシュボードは横モードで表示されます。
    
     ![ダッシュ ボードの横向きビュー](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
-3. ダッシュボードのすべてのタイルを参照するには、上下にスワイプします。 次のことが行えます。
+3. ダッシュボードのすべてのタイルを参照するには、上下にスワイプします。 次の操作を実行できます。
    
    * [タイルをタップ](mobile-tiles-in-the-mobile-apps.md)してフォーカス モードで開き、操作します。
    * 星 ![お気に入りの星](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) をタップして[お気に入りに追加](mobile-apps-favorites.md)します。
@@ -102,7 +102,7 @@ ms.locfileid: "83349450"
 ## <a name="view-dashboards-on-your-android-phone"></a>Android フォンでダッシュボードを表示する
 1. Android フォンで Power BI アプリを開き、サインインします。
    
-   最初に [Android アプリをダウンロードする](https://go.microsoft.com/fwlink/?LinkID=544867)必要がありますか。
+   必要なら、最初に [Android アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)します。
 2. ダッシュボードをタップして開きます。   
    
    ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -126,7 +126,7 @@ ms.locfileid: "83349450"
 ## <a name="view-dashboards-on-your-android-tablet"></a>Android タブレットでダッシュボードを表示する
 1. Android タブレットで Power BI アプリを開き、サインインします。
    
-   最初に [Android アプリをダウンロードする](https://go.microsoft.com/fwlink/?LinkID=544867)必要がありますか。
+   必要なら、最初に [Android アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)します。
 2. ダッシュボードをタップして開きます。   
    
    ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -152,8 +152,8 @@ ms.locfileid: "83349450"
 
 ダッシュボードの Phone ビューの作成の詳細については、[こちら](../../create-reports/service-create-dashboard-mobile-phone-view.md)を参照してください。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * Google プレイから [Android アプリをダウンロードする](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI 用 Android アプリの概要](mobile-android-app-get-started.md)  
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
-* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

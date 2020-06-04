@@ -57,7 +57,7 @@ Power BI Report Server にご自分のレポートを保存したら、サーバ
 
 1. テキスト ボックスにユーザー名の形式 (DOMAIN\user) でユーザーまたはグループを入力し、それらに割り当てるロールを選択します。 このメンバーは、組織内に属している必要があります。   
 
-    ![ロールへのメンバーの追加](media/row-level-security-report-server/power-bi-report-server-add-members.png)
+    ![メンバーをロールに追加する](media/row-level-security-report-server/power-bi-report-server-add-members.png)
 
     Active Directory が構成されている方法によっては、ここにユーザー プリンシパル名を入力することも可能です。 その場合は、Report Server によって、対応するユーザー名が一覧に表示されます。
 
@@ -97,7 +97,7 @@ DirectQuery に対して統合セキュリティを使用している場合、�
 
  
 
-## <a name="faq"></a>よく寄せられる質問 
+## <a name="faq"></a>FAQ 
 
 ### <a name="can-i-create-these-roles-for-analysis-services-data-sources"></a>Analysis Services データ ソースにこれらのロールを作成できますか。 
 
@@ -105,7 +105,7 @@ Power BI Desktop にデータをインポートした場合は作成できます
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>RLS を使って、ユーザーがアクセスできる列またはメジャーを制限できますか。 
 
-できません。 ユーザーは、特定のデータ行にアクセスできる場合は、その行のすべてのデータ列を見ることができます。 
+いいえ。 ユーザーは、特定のデータ行にアクセスできる場合は、その行のすべてのデータ列を見ることができます。 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>RLS を使って、詳細なデータは表示されないようにしながら、ビジュアルの集計データにはアクセスできるようにすることができますか。 
 
@@ -116,7 +116,7 @@ Power BI Desktop にデータをインポートした場合は作成できます
 はい。Power BI Report Server 内で既存のロールが定義され、メンバーが割り当てられている場合でも、追加のロールを作成し、現在の割り当てに影響を与えることなくレポートを再発行することができます。 
  
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 [Power BI Report Server とは](get-started.md) 
 [管理者向けハンドブック](admin-handbook-overview.md)  

@@ -38,8 +38,6 @@
           href: azure-pbie-diag-logs.md
         - name: 埋め込みに関するよくあるご質問
           href: embedded-faq.md
-        - name: Power BI のアクセス許可
-          href: power-bi-permissions.md
     - name: 操作方法
       items:
         - name: サービス プリンシパルを使用して証明書を埋め込む

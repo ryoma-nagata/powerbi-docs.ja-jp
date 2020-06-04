@@ -52,7 +52,7 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 
 
 ## <a name="view-related-content-for-a-dataset"></a>データセットの関連するコンテンツを表示する
-*[関連するコンテンツ]* ペインを開くには、データセットに対する "**表示**" アクセス許可が少なくとも必要です。 この例では、[調達の分析のサンプル](../create-reports/sample-procurement.md)を使います。
+**[関連するコンテンツ]** ペインを開くには、データセットに対する "*表示*" アクセス許可が少なくとも必要です。 この例では、[調達の分析のサンプル](../create-reports/sample-procurement.md)を使います。
 
 ナビ ペインで **[ワークスペース]** の見出しを探し、一覧からワークスペースを選択します。 ワークスペースにコンテンツがある場合は、右側のキャンバスに表示されます。 
 
@@ -61,7 +61,7 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 
 ワークスペースで **[データセット]** タブを選び、 **[関連の表示]** アイコン ![[関連の表示] アイコン](./media/end-user-related/power-bi-view-related-icon-new.png) を探します。
 
-![[データセット] タブ](./media/end-user-related/power-bi-related-dataset.png)
+![データセット タブ](./media/end-user-related/power-bi-related-dataset.png)
 
 アイコンを選び、 **[関連するコンテンツ]** ペインを開きます。
 
@@ -74,6 +74,6 @@ Watch ではダッシュボードの関連するコンテンツが表示され�
 * レポートの関連するコンテンツを開くには、[[読み取りビュー]](end-user-reading-view.md) を表示している必要があります。
 * 関連するコンテンツの機能は、ストリーミング データセットには機能しません。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [Power BI サービスの概要](../fundamentals/service-get-started.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

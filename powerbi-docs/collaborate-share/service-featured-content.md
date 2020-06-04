@@ -56,8 +56,8 @@ ms.locfileid: "83142302"
 
 これで、このアプリへのアクセス権を持つ誰もが、 **[ホーム]** の **[おすすめ]** セクションでやはり見ることができるようになります。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [ダッシュボードとレポートを共有する方法](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 * [管理ポータルでおすすめコンテンツを管理する](../admin/service-admin-portal.md#manage-featured-content)
-* ご質問 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

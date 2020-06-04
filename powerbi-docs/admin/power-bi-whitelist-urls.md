@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: f74bfb92508564a01422729eefc251acc124baea
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692733"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315927"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>ホワイトリスト登録用の Power BI の URL
 [//]: # "suparnap、miwehnia はこのリストを維持するための連絡先です"
@@ -46,14 +46,15 @@ Power BI の一般的な使用では、次の表内とリンク先のサイト�
 
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |
-| 1 | **必須:** バックエンド API | *.analysis.windows.net | TCP 443 |
-| 2 | **必須:** バックエンド API | *.pbidedicated.windows.net | TCP 443 |
-| 3 | **必須:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
-| 4 | **必須:** Microsoft 365 の統合 | [Microsoft 365 Common と Office Online の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) に関するドキュメントを参照 | 該当なし |
-| 5 | **必須:** ポータル | app.powerbi.com | TCP 443 |
-| 6 | **必須:** サービスの利用統計情報 | dc.services.visualstudio.com | TCP 443 |
-| 7 | **オプション:** 情報メッセージ | dynmsg.modpim.com | TCP 443 |
-| 8 | **オプション:** NPS 調査 | nps.onyx.azure.net | TCP 443 |
+| 1 | **必須:** バックエンド API | api.powerbi.com | TCP 443 |
+| 2 | **必須:** バックエンド API | *.analysis.windows.net | TCP 443 |
+| 3 | **必須:** バックエンド API | *.pbidedicated.windows.net | TCP 443 |
+| 4 | **必須:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
+| 5 | **必須:** Microsoft 365 の統合 | [Microsoft 365 Common と Office Online の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) に関するドキュメントを参照 | 該当なし |
+| 6 | **必須:** ポータル | app.powerbi.com | TCP 443 |
+| 7 | **必須:** サービスの利用統計情報 | dc.services.visualstudio.com | TCP 443 |
+| 8 | **オプション:** 情報メッセージ | dynmsg.modpim.com | TCP 443 |
+| 9 | **オプション:** NPS 調査 | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Administration
