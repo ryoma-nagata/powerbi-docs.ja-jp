@@ -6,15 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/07/2020
+ms.date: 06/02/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 9f94d6a1b99bce40d3f901dd71877da3f6b236af
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792899"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336546"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 この記事は、Microsoft 365 Government プランの一部として Power BI をデプロイする米国政府機関のお客様を対象としています。 Government プランは、米国のコンプライアンスとセキュリティ標準を満たする必要がある組織の固有のニーズに合うように設計されています。 米国政府機関のお客様向けに設計された Power BI サービスは、Power BI サービスの商用バージョンとは異なります。 これらの機能の相違点と能力について、以下のセクションで説明します。
@@ -82,12 +83,12 @@ Government クラウドのお客様の要件に対応するため、Government �
 |  |共有とアクセス制御のための Active Directory グループの使用|利用可能|利用可能|利用可能|
 |  |Office 365 セキュリティ/コンプライアンス管理センターを使用した監査|利用可能|利用可能|利用可能|
 |  |外部ユーザーの共有|利用可能|利用可能|利用可能|
-|  |レポートとダッシュボードの使用状況メトリック|利用不可|利用不可|利用不可|
+|  |レポートとダッシュボードの使用状況メトリック|利用可能|利用可能|利用可能|
 |  |GCC と商用クラウド間の Azure B2B|利用不可|利用不可|利用不可|
 |レポートの作成|ダッシュボードとレポートの作成と表示|利用可能|利用可能|利用可能|
 |  |スケジュールされたデータ更新|利用可能|利用可能|利用可能|
 |  |更新可能なチーム ダッシュボード|利用可能|利用可能|利用可能|
-|  |ページ分割されたレポート|利用可能|ロードマップ上で|ロードマップ上で|
+|  |ページ分割されたレポート|利用可能|利用可能|利用可能|
 |  |テンプレート アプリ|利用不可|利用不可|利用不可|
 |データに接続する|Excel からのデータとレポートのインポート|利用可能|利用可能|利用可能|
 |  |CSV ファイルからのデータのインポート|利用可能|利用可能|利用可能|
@@ -97,7 +98,7 @@ Government クラウドのお客様の要件に対応するため、Government �
 |データ管理|データ管理ゲートウェイ|利用可能|利用可能|利用可能|
 |  |Azure SQL Database でのデータの暗号化|利用可能|利用可能|利用可能|
 |  |Power BI 用 Blob Storage でのデータの暗号化|利用可能|利用可能|利用可能|
-|製品間の統合|Power BI Web パーツを使用した SharePoint Online への埋め込み|利用不可|利用不可|利用不可|
+|製品間の統合|Power BI Web パーツを使用した SharePoint Online への埋め込み|利用可能|利用不可|利用不可|
 |  |埋め込み Web パーツを使用した SharePoint Online への埋め込み|利用可能|利用可能|利用可能|
 |  |データフロー関数と AI 関数|利用不可|利用不可|利用不可|
 |  |データドリブン アラートのための Power Automate との接続|利用不可|利用不可|利用不可|
