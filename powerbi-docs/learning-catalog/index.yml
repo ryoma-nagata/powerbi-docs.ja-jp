@@ -9,12 +9,12 @@ metadata:
   author: loreleishannonmsft
   ms.author: v-lshann
   ms.date: 04/08/2020
-  ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: c53b6e74933557937f4a9449925199d6325f78e3
+  ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439298"
+  ms.lasthandoff: 06/04/2020
+  ms.locfileid: "84427813"
 landingContent:
 - title: ビジネスの意思決定者
   linkLists:
@@ -34,13 +34,13 @@ landingContent:
     links:
     - text: レポート作成者ラーニング カタログ
       url: learning-catalog-report-creator.md#
-    - text: はじめに
+    - text: 作業の開始
       url: learning-catalog-report-creator.md#get-started
     - text: ダッシュボード
       url: learning-catalog-report-creator.md#dashboards
-    - text: レポートのデザイン
+    - text: レポート デザイン
       url: learning-catalog-report-creator.md#report-design
-    - text: グラフ
+    - text: 視覚化
       url: learning-catalog-report-creator.md#visualization
     - text: 統合
       url: learning-catalog-report-creator.md#integration
@@ -50,7 +50,7 @@ landingContent:
     links:
     - text: データ アナリストのラーニング カタログ
       url: learning-catalog-data-analyst.md#
-    - text: はじめに
+    - text: 作業の開始
       url: learning-catalog-data-analyst.md#get-started
     - text: ベスト プラクティス
       url: learning-catalog-data-analyst.md#best-practices
@@ -60,11 +60,13 @@ landingContent:
       url: learning-catalog-data-analyst.md#dashboards
     - text: 視覚化
       url: learning-catalog-data-analyst.md#visualizations
+    - text: DAX
+      url: learning-catalog-data-analyst.md#dax
     - text: ガバナンスと展開
       url: learning-catalog-data-analyst.md#governance-deployment
     - text: 統合
       url: learning-catalog-data-analyst.md#integration
-    - text: Security
+    - text: セキュリティ
       url: learning-catalog-data-analyst.md#security
 - title: 管理者
   linkLists:
@@ -72,7 +74,7 @@ landingContent:
     links:
     - text: 管理者向けラーニング カタログ
       url: learning-catalog-administrator.md
-    - text: はじめに
+    - text: 作業の開始
       url: learning-catalog-administrator.md#get-started
     - text: 配置
       url: learning-catalog-administrator.md#deploy
@@ -82,12 +84,10 @@ landingContent:
     links:
     - text: 開発者向けラーニング カタログ
       url: learning-catalog-developer.md
-    - text: はじめに
+    - text: 作業の開始
       url: learning-catalog-developer.md#get-started
     - text: 埋め込み
       url: learning-catalog-developer.md#embedded
-    - text: DAX
-      url: learning-catalog-developer.md#dax
     - text: 開発
       url: learning-catalog-developer.md#development
 - title: パートナーのプリセールスの役割
@@ -102,7 +102,7 @@ landingContent:
     links:
     - text: アプリケーションの機能コンサルタント向けラーニング カタログ
       url: learning-catalog-functional-consultant.md
-    - text: はじめに
+    - text: 作業の開始
       url: learning-catalog-functional-consultant.md#get-started
     - text: ベスト プラクティス
       url: learning-catalog-functional-consultant.md#best-practices
@@ -114,7 +114,7 @@ landingContent:
       url: learning-catalog-functional-consultant.md#governance-deployment
     - text: 統合
       url: learning-catalog-functional-consultant.md#integration
-    - text: Security
+    - text: セキュリティ
       url: learning-catalog-functional-consultant.md#security
     - text: 視覚化
       url: learning-catalog-functional-consultant.md#visualizations
@@ -124,7 +124,7 @@ landingContent:
     links:
     - text: ソリューション アーキテクト ラーニング カタログ
       url: learning-catalog-solution-architect.md
-    - text: はじめに
+    - text: 作業の開始
       url: learning-catalog-solution-architect.md#get-started
     - text: ケース スタディ
       url: learning-catalog-solution-architect.md#case-studies
