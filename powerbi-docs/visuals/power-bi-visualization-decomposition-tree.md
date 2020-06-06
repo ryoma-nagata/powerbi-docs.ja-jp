@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 7e93e8a08b6dd662f3ada089c5ee8745bb24b3e2
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865570"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337052"
 ---
-# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Power BI で分解ツリー ビジュアルを作成して表示する (プレビュー)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Power BI で分解ツリー ビジュアルを作成して表示する
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
@@ -32,6 +32,9 @@ Power BI の分解ツリー ビジュアルを使用して、複数のディメ�
 - 企業が受注残 (在庫切れ) として持っている製品の割合を分析するサプライ チェーン シナリオ。  
 - ゲームのジャンルや発行元などのさまざまな要因によってビデオ ゲームの売上を分類する販売シナリオ。
 
+サプライチェーンのシナリオで使用されている pbix は、以下にあります: [Supply Chain Sample.pbix](
+https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Reports/Supply%20Chain%20Sample.pbix)。
+
 > [!NOTE]
 > Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。    
 
@@ -39,17 +42,21 @@ Power BI の分解ツリー ビジュアルを使用して、複数のディメ�
 [視覚化] ペインから [分解ツリー] アイコンを選択します。
 ![分解ツリー ウォーターマーク](media/power-bi-visualization-decomposition-tree/tree-watermark.png)
 
-視覚化には 2 種類の入力が必要です。
+視覚化には次の 2 種類の入力が必要です。
 
-**分析** – 分析するメトリック。 これは、メジャーまたは集計である必要があります。  
-**説明** - ドリルダウンする 1 つ以上のディメンション。
+ - **分析** – 分析するメトリック。 これは、メジャーまたは集計である必要があります。  
+ - **説明** - ドリルダウンする 1 つ以上のディメンション。
 
-メジャーをフィールド ウェルにドラッグすると、ビジュアルが集計メジャーの表示によって更新されます。 次の例では、製品の受注残の平均%(5.07%) が視覚化されています。![分解ツリーのルート ノード](media/power-bi-visualization-decomposition-tree/tree-root.png)
+メジャーをフィールド ウェルにドラッグすると、ビジュアルが集計メジャーの表示によって更新されます。 次の例では、製品の受注残の平均% (5.07%) が視覚化されています。
+
+![分解ツリーのルート ノード](media/power-bi-visualization-decomposition-tree/tree-root.png)
 
 次の手順は、ドリルダウンする 1 つ以上のディメンションを指定することです。 これらのフィールドを **[説明]** バケットに追加します。 ルート ノードの横にプラス記号が表示されることに注意してください。 [+] を選択すると、ドリルダウンするフィールドを選択できます (任意の順序でフィールドをドリルダウンできます)。
+
 ![分解ツリー メニュー](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 **[予測バイアス]** を選択すると、ツリーが展開され、列の値によってメジャーが分割されます。 ドリルダウンする別のノードを選択することで、このプロセスを繰り返すことができます。
+
 ![分解ツリーの展開](media/power-bi-visualization-decomposition-tree/tree-expansion.png)
 
 最後のレベルのノードを選択すると、データがクロスフィルター処理されます。 前のレベルのノードを選択すると、パスが変更されます。
@@ -72,10 +79,12 @@ Power BI の分解ツリー ビジュアルを使用して、複数のディメ�
 
 分析は、基本設定に応じて 2 つの方法で機能できます。 既定の動作は次のとおりです。
 
-**高値**:使用可能なすべてのフィールドが考慮され、分析対象のメジャーの最大値を取得するためにドリルインするものが決定されます。  
-**低値**:使用可能なすべてのフィールドが考慮され、分析対象のメジャーの最小値を取得するためにドリルインするものが決定されます。  
+ - **高値**:使用可能なすべてのフィールドが考慮され、分析対象のメジャーの最大値を取得するためにドリルインするものが決定されます。  
+ - **低値**:使用可能なすべてのフィールドが考慮され、分析対象のメジャーの最小値を取得するためにドリルインするものが決定されます。  
 
-受注残の例で **[高値]** を選択すると、結果は次のようになります。![分解ツリーの AI 分割](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
+受注残の例で **[高値]** を選択すると、結果は次のようになります。
+
+![分解ツリーの AI 分割](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
 
 **[Product Type]\(製品の種類\)** の横に電球が表示され、これが "AI 分割" であることが示されます。 受注残の最大値 (9.2%) が **[Patient Monitoring]\(患者の監視\)** であるため、このノードを推奨する点線もツリーに表示されます。 
 
@@ -83,7 +92,9 @@ Power BI の分解ツリー ビジュアルを使用して、複数のディメ�
 
 **絶対的**ではなく**相対的**な AI 分割を検出するようにビジュアルを構成できます。 
 
-相対モードでは、(列内の他のデータと比較したときに) 目立つ値が検索されます。 これを説明するために、例を見てみましょう。![分解ツリーの絶対分割](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
+相対モードでは、(列内の他のデータと比較したときに) 目立つ値が検索されます。 これを説明するために、例を見てみましょう。
+
+![分解ツリーの絶対分割](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
 上のスクリーンショットでは、ビデ オゲームの [North America sales]\(北米での売上\) を調べています。 まず、ツリーを **[Publisher Name]\(発行元の名前\)** で分割し、次に [Nintendo] でドリルダウンします。 **[高値]** を選択すると、ツリーが展開され、 **[プラットフォーム] は [Nintendo] である**ことが表示されます。 Nintendo (発行元) は Nintendo コンソールのみを対象としているため、値は 1 つしか存在しません。したがって、それが高値であるのは当然です。
 
@@ -111,9 +122,13 @@ Power BI の分解ツリー ビジュアルを使用して、複数のディメ�
 
 ## <a name="tree-interactions-with-ai-splits"></a>AI 分割でのツリーの相互作用
 
-複数の AI レベルが表示されることがあります。 さらに、異なる種類の AI レベルが混在することがあります ([高値] から [低値] に移動し、[高値] に戻る)。![分解ツリーの複数の AI パス](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+複数の AI レベルが表示されることがあります。 さらに、異なる種類の AI レベルが混在することがあります ([高値] から [低値] に移動し、[高値] に戻る)。
 
-ツリー内で別のノードを選択すると、AI 分割は最初から再計算されます。 次の例では、 **[予測バイアス]** レベルで選択したノードを変更しました。 後続のレベルは、正しい高値と低値を生成するように変更されます。![分解ツリーでの AI の相互作用](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
+![分解ツリーの複数の AI パス](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+
+ツリー内で別のノードを選択すると、AI 分割は最初から再計算されます。 次の例では、 **[予測バイアス]** レベルで選択したノードを変更しました。 後続のレベルは、正しい高値と低値を生成するように変更されます。
+
+![分解ツリーでの AI の相互作用](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
 
 AI レベルは、別のビジュアルで分解ツリーをクロスフィルター処理した場合も再計算されます。 下の例では、受注残の割合が最も高いのは [Plant]\(プラント\) #0477 であることがわかります。
 
@@ -144,15 +159,11 @@ Ai レベルを非 AI レベルのように動作させる場合は、電球を�
 
 AI 分割は、次のシナリオではサポートされていません。  
 -   Azure Analysis Services
--   直接クエリ
 -   Power BI Report Server
 -   Web に公開
 -   [分析] の拡張スキーマからの複雑なメジャーとメジャー
 
-その他のプレビューの制限事項:
-- Power BI Mobile  
-- ダッシュボードへのピン留め
-- データ機能の表示
+その他の制限事項:
 - Q & A 内でのサポート
 
 ## <a name="next-steps"></a>次の手順

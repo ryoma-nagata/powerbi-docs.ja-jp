@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693577"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336822"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI でアプリを発行する
 
@@ -209,6 +209,7 @@ Power BI で公式のパッケージ化コンテンツを作成し、*アプリ*
 * 新しいワークスペース エクスペリエンスでは、アプリのアクセス リストに追加されたユーザーにワークスペース経由でアプリへのアクセス権が既に与えられている場合、そのユーザーはアプリのアクセス リストに表示されません。  
 * Power BI サービスの新しい外観を使用すると、サポート サイトの URL がアイテム情報カードに表示されます。 詳細については、[Power BI の新しい外観](../consumer/service-new-look.md)に関する記事を参照してください。
 * アプリには、ユーザーが共有のアクセス許可を使用して、アプリとアプリの基になるデータセットを共有することを許可するオプションがあります。 新しいアプリでは、このオプションは既定ではオフになっています。 既存のアプリに対してこのオプションをオフにし、基になるデータセットに対するアクセス許可を更新することをお勧めします。 このオプションは、既存のアプリでは有効になっていました。これは、アプリが当初、このように動作するコンテンツ パックを置き換えるように設計されていたためです。
+* アプリには、最大 200 のダッシュボードを含めることができます。 
 
 ## <a name="next-steps"></a>次の手順
 * [ワークスペースの作成](service-create-workspaces.md)

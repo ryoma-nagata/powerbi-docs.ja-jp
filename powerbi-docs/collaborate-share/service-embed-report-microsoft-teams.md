@@ -10,18 +10,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 5d0c9fcfbd35b8b42e8196f6f014c96803f6ffc5
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693891"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159538"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>Microsoft Teams の [Power BI] タブを使用してレポートを埋め込む
 
 Microsoft Teams の更新済みの [Power BI] タブを使用すると、対話形式のレポートを Microsoft Teams のチャンネルまたはチャットに簡単に埋め込むことができます。 Microsoft Teams の [Power BI] タブを使用すると、チームが使用するデータを検索したり、チームのチャネル内のデータについて話し合うことができます。  お客様のレポート、ダッシュボード、およびアプリへのリンクを Microsoft Teams のメッセージ ボックスに貼り付けると、それらの情報がリンクのプレビューに表示されます。 お客様のユーザーは、リンクがどの項目につながっているかをより簡単に理解できます。
 
-## <a name="requirements"></a>必要条件
+## <a name="requirements"></a>要件
 
 **Microsoft Teams の [Power BI] タブ**を機能させるには、次のことを確認してください。
 
@@ -48,7 +48,7 @@ Microsoft Teams チャンネルまたはチャットにご利用のレポート�
 
     ![[Power BI] が選択された Microsoft Teams のタブ リスト](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab.png)
 
-3. 提供されているオプションを使用して、ワークスペース、[自分と共有]、または Power BI アプリからレポートを選択します。
+3. 提供されているオプションを使用して、ワークスペースまたは Power BI アプリからレポートを選択します。
 
     ![Microsoft Teams の設定の [Power BI] タブ](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab-settings.png)
 
@@ -101,9 +101,9 @@ Microsoft Teams にレポートを埋め込んだり、項目へのリンクを�
 ## <a name="link-previews"></a>リンク プレビュー 
 
 リンク プレビューは、Power BI の次の項目に対して提供されます。
-- Reports
+- レポート
 - ダッシュボード
-- アプリケーション
+- Apps
 
 リンク プレビュー サービスでは、ユーザーのサインインが必要です。 サインアウトするには、メッセージ ボックスの下部にある [Power BI] アイコンを選択して、[サインアウト] を選択します。
 
@@ -131,9 +131,9 @@ Power BI レポート タブを Teams に追加すると、レポートに関す
 - リンク プレビュー サービスでは、シングル サインオンはサポートされていません。
 - リンク プレビューは、チャットまたはプライベート チャネルでは機能しません。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 - [同僚や他のユーザーとダッシュボードやレポートを共有する](service-share-dashboards.md)  
 - [Power BI でのアプリの作成および配布](service-create-distribute-apps.md)  
-- [Power BI Premium とは](../admin/service-premium-what-is.md)
+- [Power BI Premium とは何ですか?](../admin/service-premium-what-is.md)
 
-その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

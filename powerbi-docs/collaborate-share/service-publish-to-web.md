@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28e19c750819b883adc2319c171ef1cb7b3125f1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273893"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272979"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -169,8 +169,7 @@ Power BI にサインアップしたより小規模の組織または個人の�
 
 通常、確立された組織には、既に Power BI 管理者が存在します。 次のいずれかのロールを持つユーザーは、Power BI 管理者として操作を行うことができます。
 
-- Office 365 管理者
-- Azure Active Directory 管理者
+- グローバル管理者
 - Azure Active Directory で Power BI サービス管理者ロールを持つユーザー
 
 組織内の[これらの担当者のいずれかを見つけて](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)、管理ポータルで[テナントの [Web に公開] 設定](../admin/service-admin-portal.md#publish-to-web)を更新するよう依頼する必要があります。

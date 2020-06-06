@@ -6,34 +6,34 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/23/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e16acffd683b14eb48a6e21ddc456caeac25efc3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdc246d1edb487ce7280ceee8a3727d2faeb0252
+ms.sourcegitcommit: 12f26ae9a2615cb287fee9046b0dc713af764c04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131993"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "84229043"
 ---
-# <a name="data-protection-metrics-report-preview"></a>データ保護メトリック レポート (プレビュー)
+# <a name="data-protection-metrics-report"></a>データ保護メトリック レポート
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>データ保護メトリック レポートとは
-データ保護メトリック レポートは、[Power BI 管理者](../admin/service-admin-role.md)が、テナントでのデータ秘密度ラベルの使用と導入を監視および追跡するために使用できる、専用のレポートです。
+データ保護メトリック レポートは、[Power BI 管理者](../service-admin-role.md)が、テナントでのデータ秘密度ラベルの使用と導入を監視および追跡するために使用できる、専用のレポートです。
 
 ![データ保護メトリック レポート](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
 レポート機能:
 * 過去 7 日間、30 日間、または 90 日間の、テナントにおける 1 日の秘密度ラベルの使用状況を示す 100% 積み上げ縦棒グラフ。 このグラフにより、時間の経過に伴うさまざまなラベルの種類の相対的な使用状況を簡単に追跡できます。
 * テナントにおけるダッシュボード、レポート、データセット、およびデータフローの秘密度ラベルの使用状況の現在の状態を示すドーナツ グラフ。
-* Cloud App Security ポータルへのリンク。ここから Power BI アラート、危険な状態のユーザー、アクティビティ ログ、およびその他の情報が入手できます。 詳細については、「[Power BI で Microsoft Cloud App Security の制御を使用する (プレビュー)](./service-security-using-microsoft-cloud-app-security-controls.md)」を参照してください。
+* Cloud App Security ポータルへのリンク。ここから Power BI アラート、危険な状態のユーザー、アクティビティ ログ、およびその他の情報が入手できます。 詳細については、「[Power BI で Microsoft Cloud App Security の制御を使用する](./service-security-using-microsoft-cloud-app-security-controls.md)」を参照してください。
 
 レポートは 24 時間ごとに更新されます。
 
 ## <a name="viewing-the-data-protection-metrics-report"></a>データ保護メトリック レポートを表示する
 
-レポートを開いて表示するには、[Power BI 管理者の役割](../admin/service-admin-role.md)が必要です。
-レポートを表示するには、 **[設定]、[管理ポータル]** の順にアクセスし、 **[保護メトリック (プレビュー)]** を選択します。
+レポートを開いて表示するには、[Power BI 管理者の役割](../service-admin-role.md)が必要です。
+レポートを表示するには、 **[設定]、[管理ポータル]** の順にアクセスし、 **[保護メトリック]** を選択します。
 
 ![保護メトリックの管理ポータル](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
  
@@ -51,9 +51,9 @@ ms.locfileid: "83131993"
 * Cloud App Security 情報にアクセスするには、組織に適切な [Cloud App Security ライセンス](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing)が必要です。
 * データ保護メトリック レポートから Power BI 管理者以外のユーザーと情報を共有する場合、このレポートには組織に関する機密情報が含まれていることに注意してください。
 * データ保護メトリック レポートは特殊なレポートであり、[自分と共有]、[最近使用]、[お気に入り] の一覧には表示されません。
-* データ保護メトリック レポートは、[外部ユーザー (Azure Active Directory B2B ゲスト ユーザー) は使用できません](../admin/service-admin-azure-ad-b2b.md)。
-## <a name="next-steps"></a>次のステップ
-* [Power BI におけるデータ保護 (プレビュー)](./service-security-data-protection-overview.md)
-* [Power BI で Microsoft Cloud App Security の制御を使用する (プレビュー)](./service-security-using-microsoft-cloud-app-security-controls.md)
-* [Power BI サービス管理者の役割について](../admin/service-admin-role.md)
-* [Power BI 内でデータの秘密度ラベルを有効にする](./service-security-enable-data-sensitivity-labels.md)
+* データ保護メトリック レポートは、[外部ユーザー (Azure Active Directory B2B ゲスト ユーザー) は使用できません](../service-admin-azure-ad-b2b.md)。
+## <a name="next-steps"></a>次の手順
+* [Power BI におけるデータ保護](./service-security-data-protection-overview.md)
+* [Power BI 内で Microsoft Cloud App Security の制御を使用する](service-security-using-microsoft-cloud-app-security-controls.md)
+* [Power BI サービス管理者の役割について](service-admin-role.md)
+* [Power BI 内でデータの秘密度ラベルを有効にする](service-security-enable-data-sensitivity-labels.md)

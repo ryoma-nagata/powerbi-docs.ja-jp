@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 636aaf59a3a949b5b3571012d12cecc234e9763b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e91698413df11a2f593128a616948935b65c0c4e
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347955"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272910"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Power BI レポートのフィルター処理と共有
 "*共有*" は、自分のダッシュボードおよびレポートに他のユーザーがアクセスできるようにするのによい方法です。 フィルター処理されたバージョンのレポートを共有したい場合は、どうすればよいでしょうか。 特定の都市または営業担当者または年のデータのみをレポートに表示したい場合があります。 この記事では、レポートをフィルター処理し、フィルター処理されたバージョンのレポートを共有する方法について説明します。 フィルター処理されたレポートを共有するには、[レポートの URL にクエリ パラメーターを追加する](service-url-filters.md)方法もあります。 いずれの場合でも、受信者が最初にレポートを開くときにレポートがフィルター処理されます。 レポートのフィルター選択は、クリアすることができます。
@@ -77,8 +77,12 @@ Power BI では、[レポートの共同作業や配布を行う他の方法](se
 
 7. このリンクを共有すると、受信者にはフィルター処理されたレポートが表示されます。 
 
+## <a name="limitations-and-considerations"></a>制限事項と考慮事項
+レポートの共有について留意すべき事項:
 
-## <a name="next-steps"></a>次のステップ
+* アクセス許可を管理する、レポートまたはダッシュボードを共有する、またはアプリを発行するという方法でデータセットを共有すると、[行レベルのセキュリティ (RLS)](../admin/service-admin-rls.md) によってアクセスが制限されない限り、データセット全体へのアクセスが付与されます。 レポートの作成者は、列を非表示にする、ビジュアル上のアクションを制限するなど、レポートを表示したり、操作したりするときのユーザー エクスペリエンスをカスタマイズする機能を使用できます。 そのようなカスタマイズされたユーザー エクスペリエンスによって、データ ユーザーがデータセットでアクセスできる対象が制限されることはありません。 個人の資格情報によってアクセスできるデータが決定されるよう、データセットの[行レベルセキュリティ (RLS)](../admin/service-admin-rls.md) を使用します。
+
+## <a name="next-steps"></a>次の手順
 * [Power BI で作業を共有する方法](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [ダッシュボードの共有](service-share-dashboards.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

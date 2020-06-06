@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e126451bf016bf4e9dcce7b7a4df51db9ed20386
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320517"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315904"
 ---
 # <a name="the-enhanced-compute-engine"></a>拡張コンピューティング エンジン
 
@@ -31,6 +31,9 @@ Power BI の拡張コンピューティング エンジンにより、Power BI P
 拡張コンピューティング エンジンは、Power BI サービスの **[容量の設定]** ページの **[データフロー]** セクションで有効にします。 既定では、拡張コンピューティング エンジンは **[オフ]** になっています。 このオプションをオンにするには、次の図に示すように、トグルを **[オン]** に切り替えて、設定を保存します。 
 
 ![拡張コンピューティング エンジンをオンにする](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
+
+> [!IMPORTANT]
+> 強化されたコンピューティング エンジンは、A3 以上の Power BI 容量に対してのみ機能します。
 
 拡張コンピューティング エンジンをオンにしたら、データフローに戻ります。同じ容量の既存のリンクされたエンティティから作成されたデータフローに対して、複雑な演算 (*joins* や *group by* などの演算) を実行する計算対象エンティティのパフォーマンスが向上しているはずです。 
 

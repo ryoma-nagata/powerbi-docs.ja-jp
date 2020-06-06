@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: b6e45113662117d5c6c793211644c4895f666a40
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794085"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273347"
 ---
 # <a name="share-a-dataset"></a>データセットを共有する
 
@@ -28,7 +28,7 @@ Power BI Desktop の "*データ モデル*" の作成者であれば、Power BI
 
 1. Power BI サービスの[新しいワークスペース エクスペリエンス](../collaborate-share/service-create-the-new-workspaces.md)に .pbix ファイルを発行します。
     
-    既に、このワークスペースの他のメンバーは、このデータセットに基づいて他のワークスペースにレポートを作成できます。
+    既に、このワークスペースの他のメンバーは、このデータセットに基づいて他のワークスペースにレポートを作成できます。 ワークスペース コンテンツの一覧のデータセットで [権限の管理] オプションを使用すると、データセットへのアクセス権限が追加のユーザーに与えられます。 
 
 1. このワークスペースから[アプリを発行](../collaborate-share/service-create-distribute-apps.md)することもできます。 このとき、 **[アクセス許可]** ページで、アクセス許可を持つユーザーと、実行できる内容を指定します。
 
@@ -50,6 +50,11 @@ Power BI Desktop の "*データ モデル*" の作成者であれば、Power BI
 1. **[関連コンテンツ]** ダイアログ ボックスには、すべての関連項目が表示されます。 このリストには、このワークスペースと **[その他のワークスペース]** の関連項目が表示されます。
  
     ![[関連コンテンツ] ダイアログ ボックス](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
+
+## <a name="limitations-and-considerations"></a>制限事項と考慮事項
+データセットの共有について留意すべき事項:
+
+* アクセス許可を管理する、レポートまたはダッシュボードを共有する、またはアプリを発行するという方法でデータセットを共有すると、[行レベルのセキュリティ (RLS)](../admin/service-admin-rls.md) によってアクセスが制限されない限り、データセット全体へのアクセスが付与されます。 レポートの作成者は、列を非表示にする、ビジュアル上のアクションを制限するなど、レポートを表示したり、操作したりするときのユーザー エクスペリエンスをカスタマイズする機能を使用できます。 そのようなカスタマイズされたユーザー エクスペリエンスによって、データ ユーザーがデータセットでアクセスできる対象が制限されることはありません。 個人の資格情報によってアクセスできるデータが決定されるよう、データセットの[行レベルセキュリティ (RLS)](../admin/service-admin-rls.md) を使用します。
 
 ## <a name="next-steps"></a>次の手順
 

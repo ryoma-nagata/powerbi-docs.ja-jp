@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: cce546b489e0f49ff87af22f4955af1922f628e5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fc0bfea05449b3169e7a5f73a4c096d28579b35c
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344965"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159676"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro のユーザー ライセンスを購入して割り当てる
 
@@ -38,6 +39,9 @@ Azure portal でライセンスの割り当てを行うユーザーは、Power B
 
 ### <a name="purchase-licenses-in-microsoft-365"></a>Microsoft 365 でライセンスを購入する
 
+> [!NOTE]
+> 普段、Enterprise Agreement など、ボリューム ライセンス契約でライセンスを購入しているとき、クレジット カードまたは銀行口座による購入の代わりに請求書を受け取る場合、別の方法で注文を提出する必要があります。 Microsoft のリセラーに協力を求めるか、ボリューム ライセンス サービス センターでライセンスを追加または削除してください。 詳細については、「[サブスクリプション ライセンスを管理する](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide)」を参照してください。
+
 Microsoft 365 管理センターで Power BI Pro ライセンスを購入するには、次の手順に従います。
 
 1. [Microsoft 365 管理センター](https://admin.microsoft.com)にサインインします。
@@ -57,6 +61,7 @@ Microsoft 365 管理センターで Power BI Pro ライセンスを購入する�
 8. 購入を確認するには、 **[課金]**  >  **[製品とサービス]** を参照し、 **[Power BI Pro]** を探します。
 
 9. 後でライセンスを追加するには、 **[製品とサービス]** ページで **[Power BI Pro]** を見つけ、 **[ライセンスの追加/削除]** を選択します。
+
 
 ## <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターでライセンスを割り当てる
 

@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 09/13/2019
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 38f3b9e40001b5cc3d90d35ed56e768237345e5d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: f28182b8ecfcadae92f64a725622493ebd7a6c61
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119800"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160251"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>更新に関するトラブルシューティング シナリオ
 
@@ -23,7 +23,14 @@ ms.locfileid: "84119800"
 > [!NOTE]
 > 以下に記載されていないシナリオが発生し、問題を引き起こしている場合は、[コミュニティ サイト](https://community.powerbi.com/)でさらに支援を求めることや、[サポート チケット](https://powerbi.microsoft.com/support/)を作成することができます。
 >
->
+
+更新の基本要件が満たされ、検証されていることを常に確認してください。 これらの基本要件の内容は次のとおりです。
+
+* ゲートウェイのバージョンが最新であることを確認する
+* レポートでゲートウェイが選択されていることを確認する - 選択されていない場合、データソースが変更されているか、失われている可能性があります
+
+それらの要件が満たされていることを確認したら、後続のセクションで詳しいトラブルシューティング方法をご覧ください。 
+
 
 ## <a name="email-notifications"></a>電子メールによる通知
 

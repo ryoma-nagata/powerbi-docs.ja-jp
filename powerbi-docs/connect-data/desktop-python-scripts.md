@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 06/02/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2792c5b35d68dd38554209fe8fe065710c339381
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291422"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336845"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop で Python スクリプトを実行する
 
@@ -122,7 +122,11 @@ Power BI では、ユーザーが指定した (設定ページで指定した) �
 
 Power BI Desktop で Python スクリプトを更新できます。 最新の情報に更新するには、 **[ホーム]** リボンに移動し、 **[更新]** を選択します。 Python スクリプトを更新するとき、Power BI Desktop で Python スクリプトをもう一度実行します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="known-limitations"></a>既知の制限事項
+
+現在、**拡張メタデータ (プレビュー)** 機能を有効にして作成されたレポートで Python スクリプトを使用することはできません。 既存のレポートは引き続き機能します。 詳細については、「[拡張データセット メタデータの使用 (プレビュー)](desktop-enhanced-dataset-metadata.md)」を参照してください。 
+
+## <a name="next-steps"></a>次の手順
 
 Power BI での Python については、次の追加情報を参照してください。
 

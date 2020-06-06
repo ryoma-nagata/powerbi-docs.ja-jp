@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c71467a279ed3a2304d6af82f7493dac97425c4f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 68ead14063c290c8ec9db5cb24814b93e493ea6b
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348093"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272956"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI で作業を共有する方法
 
@@ -42,7 +42,7 @@ ms.locfileid: "83348093"
 
 ワークスペースには、同僚に付与するアクセス許可を指定するロールも用意されています。 このようなロールを使用して、ワークスペース全体を管理できるユーザー、コンテンツを編集できるユーザー、コンテンツを配布できるユーザーを指定することができます。
 
-![Workspaces](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
+![ワークスペース](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 当然ながら、自分のマイ ワークスペースにコンテンツを配置し、そこから共有することもできます。 しかしワークスペースにはコンテンツの共同所有機能があるため、共同作業の点でマイ ワークスペースよりも優れています。 チームの管理者とチーム全体が更新を加え、他のユーザーにアクセス権を付与する操作も簡単です。 マイ ワークスペースは、1 人のユーザーが 1 回限りのコンテンツや個人用のコンテンツに使用する場合に適しています。
 
@@ -82,7 +82,7 @@ Power BI のワークスペース エクスペリエンスが新しくなりま�
 
 ![レポートの共有](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-コンテンツを共有するには Power BI Pro ライセンスが必要です。また、共有先の人にも同様のライセンスが必要です。または、コンテンツを [Premium 容量](../admin/service-premium-what-is.md)のワークスペースに格納する必要があります。 ダッシュボードまたはレポートを共有すると、共有相手は、ダッシュボードを表示し、対話操作を行うことができますが、編集はできません。 行レベルのセキュリティ (RLS) が内部のデータセットに適用されない限り、自分のダッシュボードおよびレポートに表示されるものと同じデータが同僚にも表示されます。 共有元のユーザーが許可した場合、共有先のユーザーはそれを同僚と共有できます。 
+コンテンツを共有するには Power BI Pro ライセンスが必要です。また、共有先の人にも同様のライセンスが必要です。または、コンテンツを [Premium 容量](../admin/service-premium-what-is.md)のワークスペースに格納する必要があります。 ダッシュボードまたはレポートを共有すると、共有相手は、ダッシュボードを表示し、対話操作を行うことができますが、編集はできません。 [行レベルのセキュリティ (RLS)](../admin/service-admin-rls.md) が適用されない限り、自分のダッシュボードおよびレポートに表示されるものと同じデータが同僚にも表示されます。また、同僚は基礎となるデータセットのすべてのデータにアクセスできます。 共有元のユーザーが許可した場合、共有先のユーザーはそれを同僚と共有できます。 
 
 組織外のユーザーと共有することもできます。 組織外のユーザーは、ダッシュボードまたはレポートを表示し、対話操作を行うことはできますが、共有することはできません。 
 
@@ -132,7 +132,7 @@ Power BI サービスの **[SharePoint Online に埋め込む]** および **[�
 *テンプレート アプリ*は、特に Microsoft AppSource で、一般に配布するように設計されています。 アプリを作成し、ほとんどまたはまったくコーディングせずに Power BI の顧客すべてに展開することができます。 顧客は自分のデータに接続して自分のアカウントをインスタンス化します。 詳細については、[Power BI テンプレート アプリ](../connect-data/service-template-apps-overview.md)に関する記事を参照してください。
 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [同僚や他のユーザーとダッシュボードを共有する](service-share-dashboards.md)
 * [Power BI でのアプリの作成および発行](service-create-distribute-apps.md)

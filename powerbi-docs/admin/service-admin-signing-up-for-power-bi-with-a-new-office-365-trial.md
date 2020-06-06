@@ -8,21 +8,23 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bab0eba6e2ae3d0ec8ede57f9875385dbb26a60a
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812222"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159860"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>新しい Microsoft 365 試用版で Power BI にサインアップする
 
-この記事では、職場または学校のメール アカウントをまだお持ちでない場合に、Power BI にサインアップする別の方法について説明します。
+この記事では、職場または学校のメール アカウントをまだお持ちでない場合に、Power BI サービスにサインアップする別の方法について説明します。
 
 メール アドレスで Power BI にサインアップしようとすると問題が発生する場合は、最初に、それが [Power BI で使用できるメール アドレス](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses)であることを確認します。 それでうまくいかない場合は、Microsoft 365 試用版にサインアップして、職場アカウントを作成します。 次に、その新しい職場アカウントを使用して、Power BI サービスにサインアップします。 Microsoft 365 試用版の有効期限が切れた後でも Power BI を使用することができます。
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Office の Microsoft 365 試用版にサインアップする
+
 [Microsoft 365 の Web サイト](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)で Microsoft 365 試用版にサインアップします。 まだアカウントをお持ちでない場合は、Microsoft によってアカウントを作成する手順が提示されます。 Microsoft 365 では商用の電子メール アカウント (Hotmail や Gmail など) を利用できないため、利用できる新しいアカウントを作成します。  その電子メール アカウントは *zalan@onmicrosoft.com* のようなものになります。
 
 ![[無料で試す] を選択する](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)

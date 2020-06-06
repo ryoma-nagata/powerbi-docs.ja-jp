@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e8c45145695d61bcd7173e2202db98ec306c4b4d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404024"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336868"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Azure AD アプリケーションを登録して Power BI とともに使用する
 
@@ -54,7 +54,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 
 5. アプリケーションの種類として **[Server-side web application]\(サーバー側 Web アプリケーション\)** を選択した場合は、次に **[ホーム ページ URL]** と **[リダイレクト URL]** に値を入力します。 **[リダイレクト URL]** は任意の有効な URL で機能します。また、作成したアプリケーションと対応している必要があります。 **[ネイティブ]** を選択した場合は、手順 6 に進みます。
 
-6. アプリケーションに必要な Power BI API を選択します。 Power BI アクセス許可の詳細については、「[Power BI のアクセス許可](power-bi-permissions.md)」を参照してください。 次に、 **[登録]** を選択します。
+6. アプリケーションに必要な Power BI API を選択します。 Power BI アクセス許可の詳細については、「[Microsoft ID プラットフォーム エンドポイントでのアクセス許可と同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)」を参照してください。 次に **[登録]** を選択します。
 
     ![登録する API を選択する](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -84,7 +84,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
 
 4. 左側のナビ ペインで、 **[すべてのサービス]** に移動し、 **[アプリの登録]** を選択して、 **[New registration]\(新規登録\)** を選択します。
 
-5. 画面の指示に従い、新しいアプリケーションを作成します。
+5. 画面の指示に従って、新しいアプリケーションを作成します。
 
    Azure Active Directory でアプリケーションを登録する方法の詳細については、「[アプリを Azure Active Directory に登録する](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)」を参照してください。
 
@@ -194,7 +194,7 @@ Power BI アプリ登録ツールでアプリケーションを登録する方�
    }
    ```
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 Azure AD でアプリケーションを登録したので、アプリケーションでユーザーを認証する必要があります。 詳細については、「[ユーザーを認証し、Power BI アプリ用の Azure AD アクセス トークンを取得する](get-azuread-access-token.md)」をご覧ください。
 

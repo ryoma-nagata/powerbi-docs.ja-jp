@@ -7,94 +7,115 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f29d59d3b10f8dc963d8ba1965638bc01bae0c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a145814938b15b55476f4cc0536290cd009cfe
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335697"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273233"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポート テーマを使用する
 
 Power BI Desktop の "*レポート テーマ*" を使うと、コーポレート カラーを使用したり、アイコンのセットを変更したり、新しい既定のビジュアルの書式設定を適用したりなど、デザインの変更をお使いのレポート全体に適用できます。 レポート テーマを適用すると、お使いのレポートのすべてのビジュアルで、選択されたテーマの色と書式設定が既定値として使用されます。 いくつかの例外が適用されますが、それについてはこの記事の後半で説明します。
 
-![レポートのテーマ](media/desktop-report-themes/report-themes-1a.png)
+レポート テーマは **[表示]** リボンに移動し、リボンの **[テーマ]** セクションでドロップダウンの矢印ボタンを選択し、任意のテーマを選択するという方法で選択できます。 利用できるテーマは、Microsoft PowerPoint など、他の Microsoft 製品で見られるテーマに似ています。
+
+![レポートのテーマ](media/desktop-report-themes/report-themes-01.png)
 
 2 種類のレポート テーマがあります。組み込みのレポート テーマとカスタムのレポート テーマ ファイルです。
 
-- 組み込みのレポート テーマには、Power BI Desktop と共にインストールされる、さまざまな種類の定義済みの配色が用意されています。 組み込みのレポート テーマは、Power BI Desktop のメニューから直接選択できます。
+- **組み込み**のレポート テーマには、Power BI Desktop と共にインストールされる、さまざまな種類の定義済みの配色が用意されています。 組み込みのレポート テーマは、Power BI Desktop のメニューから直接選択できます。
 
-- カスタムのレポート テーマ ファイルは、その基本構造を定義した JSON ファイルで作成されるレポート テーマです。 カスタムのレポート テーマを適用するには、その JSON ファイルを Power BI Desktop にインポートし、お使いのレポートに適用します。
+- **カスタム** レポート テーマは、現在のテーマを調整し、それをカスタム テーマとして保存するか、JSON ファイルを利用して独自のカスタマイズ テーマを作成するという方法で作成されます。 JSON ファイルでは、この記事の後半で説明しますが、レポート テーマのさまざまな面を細かく制御します。 
 
-  Power BI Desktop 内から、[ **[テーマのカスタマイズ]** ダイアログ ボックス](#create-and-customize-a-theme-in-power-bi-desktop)を使用して、既存のレポート テーマをカスタマイズすることもできます。
+それでは、レポート テーマのしくみとカスタマイズ レポート テーマの作成方法を見てみましょう。
 
-Power BI Desktop 内で直接カスタマイズを行うか、またはレポート テーマの JSON ファイルを使用することで、 **[視覚化]** ペインの **[書式]** セクションに一覧表示されるほぼすべての要素をカスタマイズおよび標準化できます。 目標は、レポートの既定の外観を、詳細なレベルで完全に制御できるようになることです。
 
 ## <a name="how-report-themes-work"></a>レポート テーマのしくみ
 
-Power BI Desktop レポートにレポート テーマを適用するには、[使用可能な組み込みのレポート テーマ](#built-in-report-themes)の中から選択するか、[カスタム テーマの JSON ファイルをインポートする](#import-custom-report-theme-files)か、[ **[テーマのカスタマイズ]** ダイアログ ボックスを使用する](#create-and-customize-a-theme-in-power-bi-desktop)ことができます。
+レポート テーマを Power BI Desktop レポートに適用するには、次のいずれかのオプションから選択します。
 
-カスタマイズできる既定値の詳細については、以下の[レポート テーマの JSON 形式](#report-theme-json-file-format)に関するセクションを確認してください。
+* Power BI Desktop に組み込まれている[利用可能な組み込みレポート テーマ](#built-in-report-themes)から選択する
+* **[テーマのカスタマイズ]** ダイアログを使用してテーマをカスタマイズする
+* [カスタム テーマの JSON ファイルをインポートする](#import-custom-report-theme-files)
+
+それでは、これらのオプションについてそれぞれ詳しく見ていきます。
 
 ### <a name="built-in-report-themes"></a>組み込みのレポート テーマ
 
 使用可能な組み込みのレポート テーマから選択するには:
 
-1. **[ホーム]** リボンから **[テーマの切り替え]** を選択します。
+1. **[表示]** リボンから **[テーマ]** ドロップダウン矢印ボタン **[テーマの切り替え]** を選択します。
 
-   ![レポート テーマの選択](media/desktop-report-themes/report-themes-2a.png)
+   ![レポート テーマの選択](media/desktop-report-themes/report-themes-02.png)
 
-2. ドロップダウン メニューに含まれているテーマのいずれかを選択します。
+2. ドロップダウン メニューが表示されたら、付属のテーマの中から選択します。
+
+   ![レポート テーマの選択](media/desktop-report-themes/report-themes-03.png)
 
    これで、そのレポート テーマがレポートに適用されます。
 
-次の表に、使用可能な組み込みのレポート テーマを示します。
+    次の表に、使用可能な組み込みのレポート テーマを示します。
+    
+    | 組み込みのレポート テーマ | 既定の色順序 |
+    |------ |---------- |
+    | 既定値 | ![既定値](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+    | Highrise (ハイライズ) | ![Highrise (ハイライズ)](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+    | 役員 | ![役員](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+    | Frontier (フロンティア)| ![Frontier (フロンティア)](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+    | イノベーション | ![イノベーション](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+    | Bloom (ブルーム) | ![Bloom (ブルーム)](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+    | Tidal (タイダル)| ![Tidal (タイダル)](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+    | Temperature (温度) | ![Temperature (温度)](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+    | Solar (太陽)| ![Solar (太陽)](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+    | Divergent (ダイバージェント) | ![Divergent (ダイバージェント)](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+    | Storm (ストーム) | ![Storm (ストーム)](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+    | Classic (クラシック) | ![Classic (クラシック)](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+    | 公園 | ![公園](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+    | 教室 | ![教室](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+    | 色の識別が困難な障碍を抱えるユーザーにとって安全 | ![色の識別が困難な障碍を抱えるユーザーにとって安全](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+    | エレクトリック | ![エレクトリック](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+    | ハイ コントラスト | ![ハイ コントラスト](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+    | 夕日 | ![夕日](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+    | トワイライト | ![トワイライト](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+    
+3. Power BI コミュニティのメンバーが作成したテーマのコレクションを、テーマ ドロップダウンから **[テーマのギャラリー]** を選択するという方法で閲覧することもできます。
 
-| 組み込みのレポート テーマ | 既定の色順序 |
-|------ |---------- |
-| 既定値 | ![既定値](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise (ハイライズ) | ![Highrise (ハイライズ)](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| 役員 | ![役員](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| Frontier (フロンティア)| ![Frontier (フロンティア)](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| イノベーション | ![イノベーション](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| Bloom (ブルーム) | ![Bloom (ブルーム)](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| Tidal (タイダル)| ![Tidal (タイダル)](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| Temperature (温度) | ![Temperature (温度)](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| Solar (太陽)| ![Solar (太陽)](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| Divergent (ダイバージェント) | ![Divergent (ダイバージェント)](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Storm (ストーム) | ![Storm (ストーム)](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Classic (クラシック) | ![Classic (クラシック)](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| 公園 | ![公園](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| 教室 | ![教室](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| 色の識別が困難な障碍を抱えるユーザーにとって安全 | ![色の識別が困難な障碍を抱えるユーザーにとって安全](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| エレクトリック | ![エレクトリック](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| ハイ コントラスト | ![ハイ コントラスト](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| 夕日 | ![夕日](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| トワイライト | ![トワイライト](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+   ![テーマのギャラリー](media/desktop-report-themes/report-themes-04.png)
+
+    ギャラリーから、気に入ったテーマを選択し、関連付けられている JSON ファイルをダウンロードできます。 
+
+    ダウンロードしたファイルをインストールするには、 **[テーマ]** ドロップダウンから **[テーマを参照]** を選択し、JSON ファイルをダウンロードした場所に移動し、それを選択して Power BI Desktop に新しいテーマとしてテーマをインポートします。
+
+    成功すると、Power BI には、インポートの成功ダイアログが表示されます。
+
+   ![テーマのインポート成功](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="customize-report-themes"></a>レポート テーマをカスタマイズする
 
-Power BI Desktop の 2019 年 12 月リリースより、レポート テーマをカスタマイズする方法が 2 つ用意されています。
+Power BI Desktop 内で直接カスタマイズを行うか、またはレポート テーマの JSON ファイルを使用することで、 **[視覚化]** ペインの **[書式]** セクションに一覧表示されるほぼすべての要素をカスタマイズおよび標準化できます。 目標は、レポートの既定の外観を、詳細なレベルで完全に制御できるようになることです。
+
+レポート テーマは次の 2 つの方法でカスタマイズできます。
 
 - [Power BI Desktop でテーマを作成およびカスタマイズする](#create-and-customize-a-theme-in-power-bi-desktop)
 - [カスタムのレポート テーマの JSON ファイルを作成およびカスタマイズする](#introduction-to-report-theme-json-files)
 
+後続のセクションでこれらの手法を交互に見ていきましょう。
+
 ### <a name="create-and-customize-a-theme-in-power-bi-desktop"></a>Power BI Desktop でテーマを作成およびカスタマイズする
 
-Power BI Desktop 内でテーマを直接カスタマイズするには:
+Power BI Desktop でテーマを直接カスタマイズするには、目的のテーマに近いものを選択し、いくつかの調整を行います。 まず、目的のテーマに近いものを選択し、次の手順を行います (あるいは、どれでも良いので 1 つ選択し、大幅なカスタマイズを加えます)。
 
-1. **[ホーム]** リボンから、 **[テーマの切り替え]**  >  **[現在のテーマのカスタマイズ]** の順に選択します。
+1. **[表示]** リボンから **[テーマ]** ドロップダウン ボタンを選択し、 **[現在のテーマのカスタマイズ]** を選択します。
 
-   ダイアログ ボックスが表示され、レポートに現在適用されているレポート テーマをカスタマイズする方法が示されます。
+   ![テーマをカスタマイズする](media/desktop-report-themes/report-themes-06.png)
 
-   ![テーマをカスタマイズする](media/desktop-report-themes/report-themes_5b.png)
+2. ダイアログが表示されたら、そこで現在のテーマにあらゆる種類の変更を行い、設定を新しいテーマとして保存できます。
 
-2. 既存のテーマを使用して、いくつかの調整を行いたい場合は、そのテーマを選択 (またはインポート) してから **[現在のテーマのカスタマイズ]** を選びます。
-
-   ![現在のテーマをカスタマイズする](media/desktop-report-themes/report-themes_5c.png)
+   ![現在のテーマをカスタマイズする](media/desktop-report-themes/report-themes-07.png)
 
 次のカテゴリに該当するテーマ設定をカスタマイズできます。これは **[テーマのカスタマイズ]** ウィンドウに反映されています。
 
@@ -113,11 +134,11 @@ Power BI Desktop 内でテーマを直接カスタマイズするには:
 
 ### <a name="import-custom-report-theme-files"></a>カスタムのレポート テーマ ファイルをインポートする
 
-カスタムのレポート テーマ ファイルをインポートするには:
+カスタム レポート テーマ ファイルを次の手順でインポートすることもできます。
 
-1. **[ホーム]** リボンから **[テーマの切り替え]** を選択し、ドロップダウン メニューから **[テーマのインポート]** を選択します。
+1. **[表示]** リボンを選択し、 **[テーマ]** ドロップダウン ボタンから **[テーマを参照]** を選択します。
 
-   ![テーマのインポート](media/desktop-report-themes/report-themes-3a.png)
+   ![テーマのインポート](media/desktop-report-themes/report-themes-08.png)
 
    表示されたウィンドウで、JSON テーマ ファイルがある場所を参照できます。
 
@@ -127,7 +148,7 @@ Power BI Desktop 内でテーマを直接カスタマイズするには:
 
    テーマ ファイルが正常に読み込まれると、Power BI Desktop に成功メッセージが表示されます。
 
-   ![テーマが正常にインポートされた](media/desktop-report-themes/report-themes_5.png)
+   ![テーマのインポート成功](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="introduction-to-report-theme-json-files"></a>レポート テーマの JSON ファイルの概要
 
@@ -172,7 +193,7 @@ Power BI サービスにレポートを発行するとき、お使いのレポ�
 
 3. 項目のドロップダウンを選択し、レポート テーマの **[テーマの色]** 情報を表示します。
 
-   ![テーマの色](media/desktop-report-themes/report-themes_8.png)
+   ![テーマの色](media/desktop-report-themes/report-themes-09.png)
 
 この例では、St. Patrick's Day レポート テーマから多数の緑色と茶色を適用した後、テーマの色を表示します。 すべて緑色になっているのは、 これらの色が、インポートして適用したレポート テーマの一部であるためです。
 
@@ -184,7 +205,7 @@ Power BI サービスにレポートを発行するとき、お使いのレポ�
 
 または、 **[テーマの色]** セクションを使用して、データ ポイントの色を手動で設定する必要があるとします。 新しいレポート テーマを適用しても、それらの色は更新 "*されません*"。 既定の色に戻し、新しいレポート テーマを適用するとそれらが更新されるようにするには、カラー ピッカーで **[既定値に戻す]** を選択するか、 **[テーマの色]** パレットから色を選択します。
 
-![既定値に戻す](media/desktop-report-themes/report-themes_9.png)
+![既定値に戻す](media/desktop-report-themes/report-themes-10.png)
 
 多くの Power BI ビジュアルでは、レポート テーマが適用されません。
 
@@ -230,9 +251,9 @@ Power BI サービスにレポートを発行するとき、お使いのレポ�
 
 レポート テーマを使用すると、お使いの Power BI Desktop レポートに、ご自身や組織、さらには現在の季節や休暇などを色鮮やかに反映させることができます。
 
-## <a name="export-report-themes-preview"></a>レポート テーマをエクスポートする (プレビュー)
+## <a name="export-report-themes"></a>レポート テーマをエクスポートする
 
-Power BI Desktop の 2019 年 12 月リリース以降、現在適用されているレポート テーマを Power BI Desktop から JSON ファイルに直接エクスポートすることができるようになりました。 レポート テーマをエクスポートした後、他のレポートでそれを再利用できます。 このオプションを使用すると、ほとんどの組み込みテーマの JSON ファイルをエクスポートできます。 唯一の例外は基本テーマ (Classic および Default) です。インポートされた他のテーマは、これらを基礎とします。
+現在適用されているレポート テーマを直接、Power BI Desktop から JSON ファイルにエクスポートできます。 レポート テーマをエクスポートした後、他のレポートでそれを再利用できます。 このオプションを使用すると、ほとんどの組み込みテーマの JSON ファイルをエクスポートできます。 唯一の例外は基本テーマ (Classic および Default) です。インポートされた他のテーマは、これらを基礎とします。
 
 現在適用されているテーマを Power BI Desktop からエクスポートするには:
 

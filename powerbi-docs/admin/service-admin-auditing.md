@@ -8,14 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812429"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272680"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI でユーザー アクティビティを追跡する
 
@@ -133,9 +133,9 @@ Power BI 監査ログは、[Office 365 セキュリティ/コンプアライア�
 
 1. **[監査ログ]** を選びます。
 
-1. **[O365 管理センターに移動]** を選択します。
+1. **[Microsoft 365 管理センターに移動]** を選択します。
 
-   ![[監査ログ] オプションと [O365 管理センターに移動] オプションが強調して示されている管理ポータルのスクリーンショット。](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![[監査ログ] オプションと [365 管理センターに移動] オプションが強調して示されている管理ポータルのスクリーンショット。](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ### <a name="search-only-power-bi-activities"></a>Power BI のアクティビティのみを検索する
 

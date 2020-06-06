@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: 83de843ba640bc165e9a56450bc5539e8e433e78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d7e11b40c3a0257e090812ff15f31916cea509f9
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692863"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336776"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI のページ分割されたレポートの URL パラメーター
 
@@ -163,6 +163,8 @@ XML:
 - rdl:Encoding=string
 - rdl:FileExtension=string
 - rdl:Schema=true/false
+
+**同じブラウザー ウィンドウでハイパーリンクを開く** レポートのハイパーリンク URL に 'rdl:targetSameWindow=true' を追加すると、Power BI ではこのハイパーリンクを同じブラウザー ウィンドウで開くようにすることができます。 レポートにハイパーリンクを追加する方法の詳細については、SQL Server Reporting Services のドキュメント内の [URL へのハイパーリンクの追加](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs)に関するページを参照してください。
 
 ## <a name="next-steps"></a>次の手順
 

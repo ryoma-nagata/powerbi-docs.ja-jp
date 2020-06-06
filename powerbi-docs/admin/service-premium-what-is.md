@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812452"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272749"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium とは
 
@@ -36,7 +36,7 @@ Power BI Premium を使用すると、組織の専用リソースと拡張され
 
 ## <a name="subscriptions-and-licensing"></a>サブスクリプションとライセンス
 
-Power BI Premium は、2 つの SKU (Stock Keeping Unit) ファミリで利用可能なテナントレベルの Office 365 サブスクリプションです。
+Power BI Premium は、2 つの SKU (Stock Keeping Unit) ファミリで利用可能なテナントレベルの Microsoft 365 サブスクリプションです。
 
 - **P** SKU (P1 から P5) - 埋め込みおよびエンタープライズ機能、月間契約または年間契約が必要、1 か月単位での課金。オンプレミスの Power BI Report Server をインストールするライセンスも含まれている。
 
@@ -127,7 +127,7 @@ Power BI サービスでは常に、容量に課されている制限を超え�
 
 ### <a name="regional-support"></a>地域のサポート
 
-新しい容量を作成するときに、グローバル管理者と Power BI サービス管理者は、容量に割り当てられたワークスペースを置く地域を指定することができます。 これは、**Multi-Geo** と呼ばれています。 Multi-Geo を使用することで、組織は Office 365 サブスクリプションが存在する地域とは異なる場合でも、特定の地域にあるデータセンターにコンテンツを配置することで、データの所在地要件を満たすことができます。 詳細については、「[Multi-Geo support for Power BI Premium](service-admin-premium-multi-geo.md)」 (Power BI Premium の Multi-Geo のサポート) を参照してください。
+新しい容量を作成するときに、グローバル管理者と Power BI サービス管理者は、容量に割り当てられたワークスペースを置く地域を指定することができます。 これは、**Multi-Geo** と呼ばれています。 Multi-Geo を使用することで、組織は Microsoft 365 サブスクリプションが存在する地域とは異なる場合でも、特定の地域にあるデータセンターにコンテンツを配置することで、データの所在地要件を満たすことができます。 詳細については、「[Multi-Geo support for Power BI Premium](service-admin-premium-multi-geo.md)」 (Power BI Premium の Multi-Geo のサポート) を参照してください。
 
 ### <a name="capacity-management"></a>容量管理
 

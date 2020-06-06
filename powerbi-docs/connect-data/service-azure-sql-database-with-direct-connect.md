@@ -10,18 +10,21 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aa1ae57d928633ce61ab66a8e0e905118c3a7877
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: aa4f07e32d66e7f9bdb2da7d210b2cc8c178b172
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302163"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316042"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database と DirectQuery
 
 Azure SQL Database に直接接続し、ライブ データを使用するレポートを作成する方法について説明します。 Power BI ではなくソースにデータを保持できます。
 
 DirectQuery を使用すると、レポート ビューでデータを調べる際にクエリが Azure SQL Database に送り返されます。 この操作は、接続先のデータベースとエンティティに精通しているユーザーにお勧めします。
+
+> [!Important]
+> この説明は、Azure SQL データベースが VNET の背後にないこと、またはプライベート リンク エンドポイントが有効にされていることを前提としています。
 
 **注:**
 
@@ -51,7 +54,7 @@ DirectQuery を使用して Azure SQL Database に接続するには、Power BI 
 
 [!INCLUDE [direct-query-sso](../includes/direct-query-sso.md)]
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [Power BI Desktop で DirectQuery を使用する](desktop-use-directquery.md)  
 * [Power BI とは?](../fundamentals/power-bi-overview.md)  

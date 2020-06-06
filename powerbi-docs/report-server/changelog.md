@@ -7,19 +7,48 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/08/2020
-ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/31/2020
+ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006459"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272657"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
 この変更ログは Power BI Report Server 用です。リリースされた各ビルドの新しい項目とバグの修正が一覧表示されます。
 
 新機能の詳細については、「[Power BI レポート サーバーの新機能](whats-new.md)」を参照してください。 
+
+
+## <a name="may-2020"></a>2020 年 5 月
+- **Power BI Report Server**
+    - *バージョン:1.8.7450.37410 (ビルド 15.0.1103.227)、リリース日:2020 年 5 月 27 日*
+         - 機能
+            -  カスタマイズ可能なカタログ接続プール サイズのサポートを追加しました (詳細については、「[MaxCatalogConnectionPoolSizePerProcess 設定](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service)」を参照してください)。
+            -  更新操作中にレポートを表示するときの動作が改善されました。
+        - セキュリティ更新プログラム
+        - バグの修正
+            - フォルダー名とレポート名の一重引用符に関連する 2 つの問題を解決しました。
+            - 特定のブラウザーの横スクロールとレコード表示機能に関連する問題を解決しました。
+            - レポートを開いているとき、定期更新を行うと、基礎をなすモデルでスキーマ エラーが発生することがある問題を解決しました。
+            - 複数バイト文字の場合、PDF エクスポートの代替テキストが正しくエンコードされない問題を解決しました。
+            - カスタム アプリケーションで LoadReport を実行すると、間違って TrustedHeader エラーが届く問題を解決しました。
+            - 定期更新の重い負荷が原因で更新に失敗することがある問題を解決しました。
+            - レポート名とフォルダー名が一致するとき、レポートが間違った場所に保存される問題を解決しました。
+            - ドキュメント マップのタブ移動の問題を解決しました。
+            - DAX クエリを使用したときにデータドリブン サブスクリプションに失敗する問題を解決しました。
+            - FindString で一致を見つけられない URL アクセスの問題を解決しました。
+            - レポートを削除すると埋め込みデータ ソースが壊れる問題を解決しました。
+            - 特定のデータ ソースで定期更新に失敗する問題を解決しました。
+            - 無効な要求の機会を減らす目的で、レポートの日程計画に検証を追加しました。
+
+
+- **Power BI Desktop (Power BI Report Server 用に最適化)**
+    - *バージョン:2.81.5831.941 (2020 年 5 月)、リリース日:2020 年 5 月 27 日* (新しいビルドと新しいバージョン)
+        - Power BI Report Server (2020 年 5 月) との接続に必要な変更が含まれます。        
+
 
 
 ## <a name="january-2020"></a>2020 年 1 月

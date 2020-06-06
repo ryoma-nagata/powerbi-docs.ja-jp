@@ -6,19 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/29/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3544a5330a21036e0ddecb351fd67b424ca6ebc7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cceeb3c874bf3320b7c826790c46b4cafd6d45a2
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348875"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219482"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI で Q&A のライブ接続を有効にする
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>オンプレミス データ ゲートウェイとは  ライブ接続とは
-Power BI のデータセットを Power BI にインポートするか、データセットへのライブ接続を作成することができます。 多くの場合、ライブ接続データセットは、"オンプレミス" と呼ばれます。 ライブ接続は[ゲートウェイ](../connect-data/service-gateway-onprem.md)を使用して管理され、データとクエリはライブ クエリを使用して送受信されます。
+
+データセットを Power BI にインポートしたり、データセットへの*ライブ接続*を作成したりできます。 ライブ接続のデータセットは多くの場合、オンプレミスです。 その場合、[ゲートウェイ](../connect-data/service-gateway-onprem.md)を利用してライブ接続を管理します。 データと問い合わせがライブ クエリを利用して送受信されます。
+
+> [!NOTE]
+> ライブ接続では、ゲートウェイを必要としない、Azure Analysis Services データセットもサポートされています。
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>オンプレミス データ ゲートウェイ データセットの Q&A
 ゲートウェイ経由でアクセスするデータセットで Q&A を使用する場合は、まずデータセットを有効にしておく必要があります。
@@ -58,9 +61,9 @@ Power BI Q&A は、データ ソースのテキスト値とスキーマ値を使
 * オブジェクト レベルのセキュリティ (OLS) はサポートされていません。 Q&A はオブジェクト レベルのセキュリティを優先しませんが、テーブルまたは列名へのアクセス権がないユーザーにそれらを表示することができます。 また、データ値が適切にセキュリティで保護されるようにするには、RLS を有効にする必要があります。 
 * ライブ接続は、オンプレミス データ ゲートウェイでのみサポートされています。 結果として、この機能をパーソナル ゲートウェイで使用することはできません。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
-- [オンプレミス データ ゲートウェイ](../connect-data/service-gateway-onprem.md)  
+- [On-premises data gateway (オンプレミス データ ゲートウェイ)](../connect-data/service-gateway-onprem.md)  
 - [データ ソースの管理 - Analysis Services](../connect-data/service-gateway-enterprise-manage-ssas.md)  
 - [Power BI サービスのデザイナー向けの基本的な概念](../fundamentals/service-basic-concepts.md)  
 - [Power BI Q&A の概要](../consumer/end-user-q-and-a.md)  

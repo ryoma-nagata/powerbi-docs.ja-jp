@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279758"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273901"
 ---
 # <a name="tenant-admin-settings-guidance"></a>テナントの管理者設定のガイダンス
 
@@ -29,7 +29,7 @@ Power BI エクスペリエンスの向上に役立つ特定のテナント設�
 
 [Microsoft Teams](/microsoftteams)、またはその他のコラボレーション プラットフォームを使用して、内部の Power BI 関連サイトを設定することをお勧めします。 これらのサイトを使用して、トレーニング ドキュメントの保存、ディスカッションのホスト、ライセンス要求の作成、ヘルプへの応答を行うことができます。
 
-これを行う場合は、"**組織全体で**" _["ヘルプの取得" に関する情報の発行]_ 設定を有効にすることをお勧めします。 これは、 **[ヘルプとサポートの設定]** にあります。 次のものに URL を設定することができます。
+これを行う場合は、"_組織全体で_" **["ヘルプの取得" に関する情報の発行]** 設定を有効にすることをお勧めします。 これは、 **[ヘルプとサポートの設定]** にあります。 次のものに URL を設定することができます。
 
 - トレーニング ドキュメント
 - ディスカッション フォーラム
@@ -44,7 +44,7 @@ Power BI エクスペリエンスの向上に役立つ特定のテナント設�
 ![["ヘルプの取得" に関する情報の発行] が表示されています。](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>リスクの管理
-
+リスクを管理するための設定は、Power BI テナントのガバナンス ポリシーを確立に役立ちます。 ただし、ガバナンス設定はセキュリティ対策ではないことにご留意ください。 たとえば、 **[データのエクスポート]** 設定を無効にすると、Power BI ユーザー インターフェイスからこの機能が削除され、組織のガバナンス ポリシーに沿って仕事をする Power BI ユーザーを支援しますが、他の選択肢を利用してデータをエクスポートすることにしたユーザーを止めるものではありません。 セキュリティの観点からは、データセットに読み取りアクセスできる Power BI ユーザーにはこのデータセットを照会するアクセス許可が与えられ、Power BI ユーザー インターフェイスに利用できる機能に関係なく、結果を保持できます。
 ### <a name="receive-email-notification-service-outages-or-incidents"></a>サービスの停止またはインシデントに関するメール通知を受け取る
 
 ご利用のテナントがサービスの停止やインシデントの影響を受けた場合に、電子メールで通知を受け取ることができます。 こうすることで、インシデントに事前に対応できます。
@@ -137,12 +137,12 @@ Information Protection に関連するテナント設定は 2 つあります。
 
 ![開発者の設定が表示されています。](media/admin-tenant-settings/developer-settings.png)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 この記事に関する詳細については、次のリソースを参照してください。
 
 - [Power BI 管理とは](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - [管理ポータルでの Power BI の管理](../admin/service-admin-portal.md)
-- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)
 

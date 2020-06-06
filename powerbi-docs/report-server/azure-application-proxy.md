@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/06/2020
+ms.date: 05/27/2020
 ms.author: maggies
-ms.openlocfilehash: 548e66685c7b460829e171d097d18640cd5b0f57
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3bd792c585f42add6652205a6e4a99fe116ad20f
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922599"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159837"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Azure アプリケーション プロキシを使用して Power BI Report Server を構成する
 
@@ -168,6 +168,9 @@ KCD を構成するには、コネクタ コンピューターごとに以下の
 
 **[追加設定]** セクションでは何も変更を行っていません。 既定のオプションを使用するように構成されています。
 
+> [!IMPORTANT]
+> アプリケーション プロキシを構成するとき、 **[バックエンド アプリケーションのタイムアウト]** が **[既定値]** (85 秒) に設定されていることにご留意ください。 レポートの実行に 85 秒より長い時間がかかる場合、このプロパティを **[長]** (180 秒) に設定してください。これはタイムアウト値として最も長い値です。 **[長]** が設定されていると、すべてのレポートを 180 秒以内に完了する必要があります。完了できないとタイムアウトとなり、エラーが表示されます。
+
 ![追加設定](media/azure-application-proxy/report-server-application-proxy-1.png)
 
 ### <a name="configure-single-sign-on"></a>Configure single sign-on
@@ -248,7 +251,7 @@ KCD を構成するには、コネクタ コンピューターごとに以下の
 
     ![Power BI Report Server ポータル](media/azure-application-proxy/azure-ad-portal.png)
 
-    Kerberos を認証として使用してデータ ソースへのテスト接続に成功した場合: 
+    Kerberos を認証として使用してデータ ソースへのテスト接続に成功した場合:
 
     ![正常に接続された Power BI Report Server ポータル](media/azure-application-proxy/azure-ad-datasource-success.png)
 

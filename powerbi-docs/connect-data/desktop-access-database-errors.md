@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1d0dcc80c358fa4c6f0768d515c399a3f381bfe7
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301335"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273370"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Power BI Desktop での Access と Excel の .xls ファイルのインポートに関するトラブルシューティング
 
@@ -30,7 +30,7 @@ Power BI Desktop のエラー メッセージで Access データベース エ�
 
 ## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>状況 2:Access データベース エンジンのビット版 (32 ビットまたは 64 ビット) がお使いの Power BI Desktop のビット版と異なる
 
-この状況は、多くの場合、インストールした Microsoft Office のバージョンが 32 ビットで、Power BI Desktop のバージョンが 64 ビットのときに発生します。 また、反対の場合もあります。ビット版の不一致はいずれの場合にも発生します。 Office 365 サブスクリプションを使用している場合は、「[状況 3](#situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription)」で別の問題と解決策を参照してください。 次のどの解決策でも、このビット版不一致エラーを解決できます。
+この状況は、多くの場合、インストールした Microsoft Office のバージョンが 32 ビットで、Power BI Desktop のバージョンが 64 ビットのときに発生します。 また、反対の場合もあります。ビット版の不一致はいずれの場合にも発生します。 Microsoft 365 サブスクリプションを使用している場合は、「[状況 3](#situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription)」で別の問題と解決策を参照してください。 次のどの解決策でも、このビット版不一致エラーを解決できます。
 
 ### <a name="solution-1"></a>解決策 1
 
@@ -79,9 +79,9 @@ Power BI Desktop のエラー メッセージで Access データベース エ�
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>状況 3:Office 365 サブスクリプションで Access または .XLS ファイルを使うことによる問題
+## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>状況 3:Microsoft 365 サブスクリプションで Access または .XLS ファイルを使うことによる問題
 
-Office 365 サブスクリプション (**Office 2013** または **Office 2016**) を使用している場合、Access データベース エンジン プロバイダーは、Microsoft Office プロセス "*だけ*" がアクセスできる仮想レジストリの場所に登録されます。 その結果、Office プロセスではない Mashup エンジン (Office 365 ではない Excel および Power BI Desktop を実行します) は、Access データベース エンジン プロバイダーを使うことができません。
+Microsoft 365 サブスクリプション (**Office 2013** または **Office 2016**) を使用している場合、Access データベース エンジン プロバイダーは、Microsoft Office プロセス "*だけ*" がアクセスできる仮想レジストリの場所に登録されます。 その結果、Office プロセスではない Mashup エンジン (Office 365 ではない Excel および Power BI Desktop を実行します) は、Access データベース エンジン プロバイダーを使うことができません。
 
 このような状況を解決するには、Power BI Desktop のインストールのビット版と一致する [Access データベース エンジン再頒布可能パッケージをダウンロードしてインストール](https://www.microsoft.com/download/details.aspx?id=13255)します。 ビット版の詳細については、この記事の前の方のセクションを参照してください。
 

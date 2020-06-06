@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693851"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316065"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>新しいワークスペース エクスペリエンスで利用状況の指標を監視する
 
@@ -132,7 +132,7 @@ ms.locfileid: "83693851"
 
 ## <a name="disable-usage-metrics-reports"></a>利用状況の指標に関するレポートを無効にする
 
-利用状況の指標レポートは、Power BI または Microsoft 365 の管理者が、オンまたはオフにすることができる機能です。 管理者は、使用状況指標にアクセスできるユーザーを細かく制御できます。既定では、組織内のすべてのユーザーに対してオンになっています。 これらの設定の詳細については、管理ポータル記事内の[利用状況の指標の制御](../admin/service-admin-portal.md#control-usage-metrics)に関するページを参照してください。
+使用状況メトリック レポートは、Power BI または全体管理者が、オンまたはオフにすることができる機能です。 管理者は、使用状況指標にアクセスできるユーザーを細かく制御できます。既定では、組織内のすべてのユーザーに対してオンになっています。 これらの設定の詳細については、管理ポータル記事内の[利用状況の指標の制御](../admin/service-admin-portal.md#control-usage-metrics)に関するページを参照してください。
 
 > [!NOTE]
 > Power BI テナントの管理者だけが、管理ポータルを参照し、設定を編集することができます。

@@ -1,5 +1,5 @@
 ---
-title: 組織に合った Power BI サブスクリプションを利用する
+title: 組織に合った Power BI サービス サブスクリプションを利用する
 description: 管理者として Power BI サービス サブスクリプションにサインアップし、一括でライセンスを購入する方法。
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438146"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160044"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>組織に合った Power BI サブスクリプションを利用する
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>組織に合った Power BI サービス サブスクリプションを利用する
 
-管理者は、Microsoft 365 管理センターの **[サービスを購入する]** ページから Power BI にサインアップすることができます。 管理者が Power BI にサインアップした場合は、アクセスする必要があるユーザーにライセンスを割り当てることができます。
+管理者は、Microsoft 365 管理センターの **[サービスを購入する]** ページから Power BI サービスにサインアップすることができます。 管理者が Power BI にサインアップした場合は、アクセスする必要があるユーザーにライセンスを割り当てることができます。
 
 組織内のユーザーは、Power BI Web サイトから Power BI にサインアップできます。 組織内のユーザーが Power BI にサインアップすると、自動的に Power BI ライセンスが割り当てられます。 セルフサービス機能を無効にする場合は、「[セルフサービスでのサインアップと購入を有効または無効にする](service-admin-disable-self-service.md)」の手順に従ってください。
 

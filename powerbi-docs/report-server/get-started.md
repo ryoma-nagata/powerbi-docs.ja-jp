@@ -4,17 +4,17 @@ description: Power BI Report Server の概要を読み、SQL Server Reporting Se
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/14/2020
+ms.date: 05/28/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 55a3614c5da2ea8b5ea1a8cbb6ee87b20c542df4
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: a1d62ad9cd8475e217a0ae051919792970dbb34d
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438294"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219595"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server とは
 
@@ -26,7 +26,9 @@ Power BI Report Server は Web ポータルのあるオンプレミス レポー
 Power BI Report Server は、SQL Server Reporting Services と Power BI オンライン サービスの両方に似ていますが、さまざまな相違点があります。 Power BI サービスと同様に、Power BI Report Server には Power BI レポート (.pbix)、Excel ファイル、ページ分割されたレポート (.rdl) がホストされます。 Reporting Services と同様に、Power BI Report Server はオンプレミスです。 Power BI Report Server 機能は、Reporting Services のスーパーセットです。つまり、Reporting Services でできることはすべて Power BI Report Server でできる上に Power BI Report Server では Power BI レポートもサポートされています。 詳細については、「[Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md)」(Power BI Report Server と Power BI サービスの比較) を参照してください。
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Report Server のライセンス
-Power BI Report Server は、次の 2 種類のライセンスによって利用できます:[Power BI Premium](../admin/service-premium-what-is.md) とソフトウェア アシュアランス付きの SQL Server Enterprise Edition。 詳細については、[Microsoft ボリューム ライセンス](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True)をご覧ください。 Power BI Premium ライセンスがあれば、クラウドとオンプレミスを混在させたハイブリッド デプロイを作成できます。  
+Power BI Report Server は、次の 2 種類のライセンスによって利用できます:[Power BI Premium](../admin/service-premium-what-is.md) とソフトウェア アシュアランス付きの SQL Server Enterprise Edition。 詳細については、[Microsoft ボリューム ライセンス](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True)をご覧ください。 Power BI Premium ライセンスがあれば、クラウドとオンプレミスを混在させたハイブリッド デプロイを作成できます。
+
+Power BI Report Server に Power BI レポートを発行する場合、Power BI Pro ライセンスも必要です。 Power BI Report Server で Power BI レポートを表示したり、操作したりする場合、Power BI Pro ライセンスは必要ありません。
 
 > [!NOTE]
 > Power BI Premium の場合、Power BI Report Server は P SKU のみに含まれます。 EM SKU には含まれません。

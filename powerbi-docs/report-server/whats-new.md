@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 02/27/2020
-ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/27/2020
+ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
+ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565148"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84126298"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
@@ -23,9 +23,56 @@ Power BI Report Server と Power BI Report Server 向けに最適化された Po
 
 関連するPower BI の最新情報については、以下を参照してください。
 
-* [Power BI サービスの新機能](../fundamentals/service-whats-new.md)
-* [Power BI Desktop の新機能](../fundamentals/desktop-latest-update.md)
-* [Power BI 用モバイル アプリの新機能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+- [Power BI サービスの新機能](../fundamentals/service-whats-new.md)
+- [Power BI Desktop の新機能](../fundamentals/desktop-latest-update.md)
+
+## <a name="may-2020"></a>2020 年 5 月
+
+今回の更新プログラムの目玉として、階層スライサー、分割ツリー ビジュアル、クエリ診断があります。 新機能と更新された機能の完全一覧を以下に示します。 詳細については、[Power BI Report Server の 2020 年 5 月のブログ記事](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/)を参照してください。 
+
+### <a name="reporting"></a>レポート
+
+- 階層スライサー
+- ボタン用の新しいアクションの種類:
+
+    - ページの移動
+    - ドリルスルー
+
+- ボタンでの画像の塗りつぶしのサポート開始
+- テーブルの複数列の並べ替え
+- 折れ線グラフのデュアル軸
+- ビジュアルの四角形の選択
+- テーブルとマトリックスでの合計と小計の条件付き書式
+- [テーマのカスタマイズ] ダイアログ
+- 条件付き書式の検出可能性
+- 分解ツリー
+- フィルター ウィンドウの更新:
+
+    - 新しいフィルター ウィンドウ エクスペリエンス
+    - [フィルター] ウィンドウの検索
+    
+### <a name="modeling"></a>モデリング
+
+- 新しい DAX 関数:
+
+    - FirstNonBlankValue
+    - LastNonBlankValue
+    - Coalesce
+
+- 標準 DAX 区切り記号
+
+### <a name="visualizations"></a>視覚化
+
+- 新しい視覚化アイコン
+- ビジュアル ドロップ シャドウ
+
+### <a name="data-preparation"></a>データの準備
+
+- クエリ診断
+
+### <a name="other"></a>その他
+
+- Web プロキシに既定のシステム資格情報を使用する
 
 ## <a name="january-2020"></a>2020 年 1 月
 
@@ -561,13 +608,13 @@ OData フィードを使って Power BI Desktop から共有データセット�
 
 管理者は、サーバー ファームの SSMS 詳細プロパティで、次のプロパティを設定できます。
 
-* EnableCustomVisuals:True/False
-* EnablePowerBIReportEmbeddedModels:True/False
-* EnablePowerBIReportExportData:True/False
-* MaxFileSizeMb:既定値が 1000 になりました
-* ModelCleanupCycleMinutes:メモリからのモデルの削除をチェックする頻度
-* ModelExpirationMinutes:最終使用時刻に基づく、モデルの有効期限が切れて削除されるまでの時間
-* ScheduleRefreshTimeoutMinutes:モデルのデータ更新にかけられる時間。 既定値は 2 時間です。  ハード上限はありません。
+- EnableCustomVisuals:True/False
+- EnablePowerBIReportEmbeddedModels:True/False
+- EnablePowerBIReportExportData:True/False
+- MaxFileSizeMb:既定値が 1000 になりました
+- ModelCleanupCycleMinutes:メモリからのモデルの削除をチェックする頻度
+- ModelExpirationMinutes:最終使用時刻に基づく、モデルの有効期限が切れて削除されるまでの時間
+- ScheduleRefreshTimeoutMinutes:モデルのデータ更新にかけられる時間。 既定値は 2 時間です。  ハード上限はありません。
 
 **構成ファイル rsreportserver.config**
 
@@ -597,9 +644,9 @@ Excel と Power BI には、業界で他に類を見ないツール ポートフ
 
 [Power BI Report Server のプレビュー環境に Office Online Server (OOS) を追加する方法を紹介したチュートリアル](excel-oos.md)を公開しています。 ボリューム ライセンス アカウントのお客様は Volume License Servicing Center から閲覧専用機能を持つ OOS を無料でダウンロードできます。 構成後、次のような Excel ブックを表示し、操作できます。
 
-* 外部データ ソースとの依存関係がない
-* 外部 SQL Server Analysis Services データ ソースにライブ接続している
-* PowerPivot データ モデルがある
+- 外部データ ソースとの依存関係がない
+- 外部 SQL Server Analysis Services データ ソースにライブ接続している
+- PowerPivot データ モデルがある
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>新しいテーブルとマトリックス ビジュアルのサポート
 
@@ -607,22 +654,21 @@ Power BI Report Server は、Power BI の新しいテーブル ビジュアル�
 
 ## <a name="june-2017"></a>2017 年 6 月
 
-* Power BI Report Server が一般公開 (GA) されました。
+- Power BI Report Server が一般公開 (GA) されました。
 
 ## <a name="may-2017"></a>2017 年 5 月
 
-* Power BI レポート サーバー プレビューが利用可能
-* Power BI レポートをオンプレミスで公開する機能
-  * Power BI ビジュアルのサポート
-  * サポートされるのは **Analysis Services のライブ接続**のみです。今後、さらに多くのデータ ソースがサポートされる予定です。
-  * Power BI レポート サーバーでホストされている Power BI レポートを表示するように Power BI モバイル アプリを更新
-* レポートにコメントを含めてコラボレーションを強化
+- Power BI レポート サーバー プレビューが利用可能
+- Power BI レポートをオンプレミスで公開する機能
+  - Power BI ビジュアルのサポート
+  - サポートされるのは **Analysis Services のライブ接続*のみです。今後、さらに多くのデータ ソースがサポートされる予定です。
+  - Power BI レポート サーバーでホストされている Power BI レポートを表示するように Power BI モバイル アプリを更新
+- レポートにコメントを含めてコラボレーションを強化
 
 ## <a name="next-steps"></a>次の手順
 
 次のソースをチェックして、Power BI Report Server の新機能に関する最新情報を常に把握してください。
 
-* [Microsoft Power BI ブログ](https://powerbi.microsoft.com/blog/)
-* [Guy in a Cube の YouTube チャネル](https://aka.ms/guyinacube)
+- [Microsoft Power BI ブログ](https://powerbi.microsoft.com/blog/)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
