@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121018"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159883"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI での増分更新
 
@@ -230,7 +230,7 @@ pollingExpression は、他の M クエリの簡易な M 式または名前と�
 
 ## <a name="metadata-only-deployment"></a>メタデータのみの配置
 
-新しいバージョンの PBIX ファイルを Power BI Desktop から Power BI サービス内のワークスペースに発行すると、同じ名前を持つデータセットが既に存在している場合、既存のデータセットを置き換えるように求められます。
+新しいバージョンの PBIX ファイルを Power BI Desktop から Power BI Premium 内のワークスペースに発行すると、同じ名前を持つデータセットが既に存在している場合、既存のデータセットを置き換えるように求められます。
 
 ![データセットの置換を求めるプロンプト](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813602"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337029"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>視覚エフェクトの作成に使用されたデータをエクスポートする
 
@@ -154,24 +154,26 @@ Watch では、レポート内の視覚化の 1 つからデータをエクス�
 
     - 視覚エフェクトにフィルターを適用したため、エクスポートされるデータは、フィルターが適用された状態でエクスポートされます。 最初の行には、「**適用されたフィルター: 市区町村が次の値と等しくない Atlanta, GA**」と表示されることに注意してください。 
 
-## <a name="protecting-proprietary-data"></a>専用データの保護
+## <a name="customize-the-export-data-user-experience"></a>データのエクスポートのユーザー エクスペリエンスをカスタマイズする
 
-データセットには、すべてのユーザーが表示できない内容が含まれている場合があります。 注意を怠ると、ユーザーが基になるデータをエクスポートすることで、そのビジュアルのすべての詳細データ (データ内のすべての列とすべての行) が表示されてしまう可能性があります。 
+レポートへのアクセスが許可されているユーザーには、[行レベル セキュリティ (RLS)(../admin/service-admin-rls.md) によってアクセスが制限されない限り、**基になるデータセット全体へのアクセスが許可されます**。 レポート作成者と Power BI 管理者は、以下で説明する機能を使用してユーザー エクスペリエンスをカスタマイズできます。
 
-Power BI 管理者および設計者が専用データを保護するために使用する必要がある戦略がいくつかあります。 
+- レポート作成者は、ユーザーが使用できる ["*エクスポート オプション*" を決定します](#set-the-export-options)。  
 
-- 設計者は、ユーザーが使用できる "[*エクスポート オプション*" を決定](#set-the-export-options)します。  
-
-- Power BI 管理者は、組織のデータのエクスポートを無効にできます。 
+- Power BI 管理者は、組織のデータ エクスポートに関するオプションの一部またはすべてを無効にできます。  
 
 - データセット所有者は、行レベルのセキュリティ (RLS) を設定できます。 RLS は、アクセスを読み取り専用のユーザーに制限します。 ただし、アプリのワークスペースを構成し、メンバーに編集アクセス許可を付与している場合、RLS ロールはメンバーに適用されません。 詳細については、[行レベルのセキュリティ](../admin/service-admin-rls.md)に関するページを参照してください。
 
-- レポート デザイナーは、列が **[フィールド]** リストに表示されないように、非表示にすることができます。 詳細については、「[データセットのプロパティ](../developer/automation/api-dataset-properties.md)」を参照してください。
+- レポート作成者は、列が **[フィールド]** リストに表示されないように、非表示にすることができます。 詳細については、「[データセットのプロパティ](../developer/automation/api-dataset-properties.md)」を参照してください。
 
-- Power BI 管理者は、ダッシュボード、レポート、データセット、データフローに[機密ラベル](../admin/service-security-data-protection-overview.md)を追加できます。 この後、データをエクスポートするときに、暗号化や透かしなどの保護設定を適用できます。 
 
-- Power BI 管理者は、[Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md)を使用して、ユーザーのアクセスとアクティビティの監視、リアルタイムのリスク分析の実行、ラベル固有の制御の設定を行うことができます。 たとえば、組織では Microsoft Cloud App Security を使用して、ユーザーが Power BI から管理されていないデバイスに機密データをダウンロードできないようにするポリシーを構成できます。 
+**このようなカスタマイズされたユーザー エクスペリエンスによって、ユーザーがアクセスできるデータセットのデータが制限されることはありません。個人の資格情報によってアクセスできるデータが決定されるように、データセットの[行レベルセキュリティ (RLS)](../admin/service-admin-rls.md) を使用します。**
 
+## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>Power BI の外部にエクスポートされたデータを保護する
+
+- レポート作成者は、レポートに対して[秘密度ラベル](../admin/service-security-data-protection-overview.md)を適用できます。  これらのラベルによって、そのレポートのデータにアクセスできるユーザーと、そのデータを Excel、PowerPoint、および PDF にエクスポートする方法が決定されます。 一部の秘密度レベルには、データのエクスポート時に適用される保護設定 (例: アクセス許可、暗号化など) が含まれます。 秘密度レベルに保護設定が含まれている場合は、データを Excel、PowerPoint、および PDF にエクスポートするときにこれらの設定が適用されます。 適切なアクセス許可を持つユーザーだけが、レポート データのエクスポート、表示、保存、および共有を行うことができます。 
+
+- セキュリティ および Power BI 管理者は、[Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) を使用して、ユーザーのアクセスとアクティビティの監視、リアルタイムのリスク分析の実行、ラベル固有の制御の設定を行うことができます。 たとえば、組織では Microsoft Cloud App Security を使用して、ユーザーが Power BI から管理されていないデバイスに機密データをダウンロードできないようにするポリシーを構成できます。
 
 ## <a name="export-underlying-data-details"></a>基になるデータの詳細をエクスポートする
 

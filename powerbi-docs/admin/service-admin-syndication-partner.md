@@ -1,26 +1,27 @@
 ---
-title: Power BI を O365 パートナーに追加できない
-description: Power BI を Microsoft 365 シンジケート パートナーに追加できません。 シンジケート モデルは Microsoft 365 で使用される購入モデルです。
+title: Microsoft 365 パートナーを通じて Power BI を購入する
+description: パートナーを通じて購入した Microsoft 365 サブスクリプションに Power BI を追加する方法について説明します。 シンジケート モデルは Microsoft 365 で使用される購入モデルです。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bc00c69869ea58aee8b4d0a79fce6b24489bde18
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812337"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159747"
 ---
-# <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI を Office 365 パートナー サブスクリプションに追加できない
+# <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>Microsoft 365 パートナー サブスクリプションに Power BI を追加する
 
-Microsoft 365 では、企業が独自のソリューションとバンドルおよび統合した Microsoft 365 を再販することが可能です。購入、請求、サポートを一本化したサービスをエンド カスタマーに提供できます。
+Microsoft 365 では、企業が独自のソリューションとバンドルおよび統合した Microsoft 365 を再販することが可能です。購入、請求、サポートを一本化したサービスを顧客に提供できます。
 
-Office 365 サブスクリプションに加えて Power BI のご利用に関心をお持ちの場合は、お客様のパートナーにお問い合わせください。 現在パートナーで Power BI が提供されていない場合は、他のオプションを利用できます。
+Microsoft 365 サブスクリプションに Power BI を追加することに関心をお持ちの場合は、お客様のパートナーにお問い合わせください。 パートナーが現在 Power BI を提供していない場合は、以下で説明するオプションを使用できます。
 
 ## <a name="work-with-your-partner-to-purchase-power-bi"></a>パートナーから Power BI を購入する
 
@@ -36,13 +37,15 @@ Power BI Pro または Power BI Premium へのサブスクリプションを購�
 
 1. [Microsoft 365 管理センター](https://admin.microsoft.com/AdminPortal/Home#/homepage)に移動します。
 
-1. 左側のメニューで **[課金]** を開きます。
+1. 左側のメニューで、 **[課金]** を開き、 **[お使いの製品]** を選択します。
 
-    * **[サブスクリプション]** が表示される場合、Microsoft からサービスを直接取得することや、Power BI を提供する別のパートナーに問い合わせることができます。
+   ![Microsoft 365 管理センターの [課金] メニュー](media/service-admin-syndication-partner/365-my-products.png)
 
-        ![[課金] の [サブスクリプション]](media/service-admin-syndication-partner/billingsub.png)
+ 1. 次の図に示すように、 **[サブスクリプション]** を探します。 **[サブスクリプション]** が表示される場合、Microsoft からサービスを直接取得することや、Power BI を提供する別のパートナーに問い合わせることができます。
 
-    * **[サブスクリプション]** が表示されない場合は、直接 Microsoft から、または別のパートナーから購入することはできません。
+    ![[サブスクリプション] が表示された [お使いの製品]](media\service-admin-syndication-partner\365-subscriptions.png)
+
+    **[サブスクリプション]** が表示されない場合は、直接 Microsoft から、または別のパートナーから購入することはできません。
 
 パートナーが Power BI を提供しておらず、直接 Microsoft から、または別のパートナーから購入できない場合は、無料試用版へのサインアップを検討してください。
 
@@ -56,31 +59,11 @@ Power BI の無料試用版にサインアップできます。 試用期間の�
 
 ![サインアップ不可画像](media/service-admin-syndication-partner/sorry.png)
 
-アドホック サブスクリプションを有効にするには、パートナーに連絡して、有効にするよう依頼することができます。 テナント管理者の場合、Azure Active Directory PowerShell コマンドを使用する方法がわかっていれば、自分でアドホック サブスクリプションを有効にできます。 [Graph 用 Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2/)
-
-1. Microsoft 365 の資格情報を使用して Azure Active Directory にサインインします。 次のスクリプトの 1 行目では、ユーザーに資格証明が要求されます。 2 行目で、Azure Active Directory に接続します。
-
-    ```powershell
-    $msolcred = get-credential
-    connect-msolservice -credential $msolcred
-    ```
-
-    ![資格情報を入力する](media/service-admin-syndication-partner/aad-signin.png)
-
-1. サインインした後、次のコマンドを実行して、`AllowAdHocSubscriptions` の現在の設定を確認します。
-
-    ```powershell
-    Get-MsolCompanyInformation
-    ```
-
-1. 次のコマンドを実行して、無料サインアップを有効にします。
-
-    ```powershell
-    Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-    ```
+アドホック サブスクリプションを有効にするには、パートナーに連絡して、有効にするよう依頼することができます。 テナント管理者の場合、Azure Active Directory PowerShell コマンドを使用する方法がわかっていれば、自分でアドホック サブスクリプションを有効にできます。 詳細については、[セルフサービスでの購入を有効または無効にする方法](service-admin-disable-self-service.md)に関する記事に記載されている手順に従ってください。
 
 ## <a name="next-steps"></a>次の手順
 
-[組織での Power BI のライセンス](service-admin-licensing-organization.md)
+* [組織での Power BI のライセンス](service-admin-licensing-organization.md)
+* [Power BI Pro のライセンスを購入して割り当てる](service-admin-purchasing-power-bi-pro.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

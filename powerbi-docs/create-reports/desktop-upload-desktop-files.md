@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 417d5a03ed45897896db15f2fd31d3badae837c5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733476"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273462"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Power BI Desktop からデータセットとレポートを発行する
 Power BI Desktop ファイルを Power BI サービスに発行すると、モデル内のデータが Power BI ワークスペースに発行されます。 **レポート** ビューで作成したレポートの場合も同様です。 ワークスペース ナビゲーターに、同じ名前の新しいデータセットおよびレポートが表示されます。
@@ -23,13 +23,12 @@ Power BI Desktop から発行すると、Power BI で **[データの取得]** �
 
 > [!NOTE]
 > Power BI でどのような変更をレポートに加えても、元の Power BI Desktop ファイルには保存されません。 これには、レポートで視覚化を追加、削除、または変更した場合が含まれます。
-> 
-> 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Power BI Desktop データセットおよびレポートを発行するには
 1. Power BI Desktop で、 **[ファイル]** \> **[発行]** \> **[Power BI へ発行]** を選択するか、リボンの **[発行]** を選択します。  
 
    ![[発行] ボタン](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
 
 2. Power BI にサインインします。
 3. 発行先を選択します。
@@ -55,3 +54,7 @@ Power BI Desktop ファイルを発行すると、Power BI Desktop で作成し�
    ![データセットの再発行による影響に関する警告](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
 
    [データセットによる影響の分析の詳細を参照してください](../collaborate-share/service-dataset-impact-analysis.md)。
+
+> [!NOTE]
+> Power BI レポートの一部のデータ接続には、Power BI サービスにインポートされたデータセットのデータが含まれるのではなく、データへのリンクが含まれる場合があります。 たとえば、DirectQuery 接続では、データ自体をインポートするのではなく、更新または相互作用が発生するとデータにリンクされます。 レポート内のリンクされたデータ ソースがオンプレミスの場合、Power BI からそれらにアクセスするためのゲートウェイが必要になる場合があります。 詳細については、「[オンプレミス データ ゲートウェイとは](../connect-data/service-gateway-onprem.md)」を参照してください。
+> 

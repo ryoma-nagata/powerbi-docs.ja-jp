@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 49465556d7b11b911e24df06ab6598bb2dbe9707
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 38db00f51a333b754267d52aaf3e3eabccc3e6b6
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794137"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273025"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -387,8 +387,8 @@ function updateEmbedReport() {
 
 | 容量ノード | 仮想コアの合計<br/>(バックエンド + フロント エンド) | バックエンドの仮想コア | フロント エンドの仮想コア | DirectQuery/ライブ接続の制限 |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |1 仮想コア |0.5 仮想コア、10 GB の RAM |0.5 仮想コア |1 秒あたり 3.75 |
-| EM2 |2 仮想コア |1 仮想コア、10 GB の RAM |1 仮想コア |1 秒あたり 7.5 |
+| EM1 |1 仮想コア |0.5 仮想コア、3 GB の RAM |0.5 仮想コア |1 秒あたり 3.75 |
+| EM2 |2 仮想コア |1 仮想コア、5 GB の RAM |1 仮想コア |1 秒あたり 7.5 |
 | EM3 |4 仮想コア |2 仮想コア、10 GB の RAM |2 仮想コア |1 秒あたり 15 |
 | P1 |8 仮想コア |4 仮想コア、25 GB の RAM |4 仮想コア |1 秒あたり 30 |
 | P2 |16 仮想コア |8 仮想コア、50 GB の RAM |8 仮想コア |1 秒あたり 60 |

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813349"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273071"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -646,7 +646,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * 今週のサービス更新では、新しいレポートを作成するときに、複数のページ サイズから選択し、ページ サイズを定義できるようになりました。 この機能では、レポートの各ページのサイズと縦横比を制御します。
 * 画像とバブル チャートについて、視覚的な書式を追加しました。 縦横比をロックしながら画像のサイズを変更することで、画像のゆがみを回避できます。また、散布図のバブルを塗りつぶすかどうかを構成できます。
 * Power BI から、予備の電子メール アドレスに共有の招待を送信できるようになりました。 ダッシュボードを共有すると、元の電子メール アドレスと予備の電子メール アドレス (構成している場合) の両方に共有の招待のリンクが送信されます。
-* Power BI は、Dedicated on Multitenant (DonMT) O365 アーキテクチャのユーザーを含め、すべてのユーザーが使用できます。 マルチテナント モードの共有サービスとして Power BI を使用することになります。 ほとんどの場合、単純な[セルフサービスサインアップ プロセス](https://powerbi.microsoft.com/)を実行するだけで Power BI に登録できます。職場の電子メール アドレスを入力し、名前とパスワードを入力するだけで始めることができます。 テナント管理者の場合、[この手順](https://go.microsoft.com/fwlink/?LinkId=627174)に従ってユーザーにライセンスを割り当てることができます。
+* Power BI は、Dedicated on Multitenant (DonMT) Microsoft 365 アーキテクチャのユーザーを含め、すべてのユーザーが使用できます。 マルチテナント モードの共有サービスとして Power BI を使用することになります。 ほとんどの場合、単純な[セルフサービスサインアップ プロセス](https://powerbi.microsoft.com/)を実行するだけで Power BI に登録できます。職場の電子メール アドレスを入力し、名前とパスワードを入力するだけで始めることができます。 テナント管理者の場合、[この手順](https://go.microsoft.com/fwlink/?LinkId=627174)に従ってユーザーにライセンスを割り当てることができます。
 * Azure 監査ログでは、Azure サブスクリプションの制御プレーン操作ログを確認できます。 Power BI Azure 監査ログ コンテンツ パックを使用すると、ログに含まれる豊富な情報を簡単に分析し、視覚化することができます。 コンテンツ パックからデータに接続し、すぐに使用できるダッシュボードとレポートでデータを分析できます。 詳細については、[ブログ](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/)と[オンライン ドキュメント](../connect-data/service-connect-to-services.md)をご覧ください。
 
 [私たちのブログをご覧ください](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/)。
