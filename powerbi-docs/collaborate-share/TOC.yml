@@ -49,8 +49,12 @@
           items:
             - name: ダッシュボードとレポートを共有する
               href: service-share-dashboards.md
+            - name: レポートまたはダッシュボードへのアクセスの要求
+              href: service-request-access.md
             - name: レポートのフィルター処理と共有
               href: service-share-reports.md
+            - name: レポートまたはダッシュボードの共有に関するトラブルシューティング
+              href: service-troubleshoot-sharing.md
             - name: URL のパラメーターを使用してレポートをフィルター処理する
               href: service-url-filters.md
             - name: 自分や他のユーザーをサブスクライブする

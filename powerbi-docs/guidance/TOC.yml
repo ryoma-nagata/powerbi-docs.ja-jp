@@ -28,6 +28,8 @@
               href: star-schema.md
             - name: データ モデル サイズの縮小
               href: import-modeling-data-reduction.md
+            - name: 日付テーブルの作成
+              href: model-date-tables.md
             - name: 自動の日付/時刻ガイダンス
               href: auto-date-time.md
             - name: 一対一のリレーションシップ
@@ -44,6 +46,8 @@
               href: directquery-model-guidance.md
             - name: 複合モデルのガイダンス
               href: composite-model-guidance.md
+            - name: 行レベルのセキュリティ (RLS) のガイダンス
+              href: rls-guidance.md
         - name: DAX
           items:
             - name: DIVIDE 関数と除算演算子 (/)

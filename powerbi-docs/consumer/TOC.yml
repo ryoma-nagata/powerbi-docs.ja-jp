@@ -74,6 +74,8 @@
               href: end-user-spotlight.md
             - name: ビジュアルを個人用に設定する
               href: end-user-personalize-visuals.md
+            - name: ビジュアルの変動分析
+              href: end-user-analyze-visuals.md
             - name: Power BI のページ分割されたレポート
               items:
                 - name: ページ分割されたレポート
@@ -92,6 +94,8 @@
               href: end-user-visual-type.md
             - name: ビジュアルの作成に使用されたデータを表示する
               href: end-user-show-data.md
+            - name: ビジュアルをコピーし、他の場所に貼り付ける
+              href: end-user-copy-paste.md
             - name: 視覚化をドリルダウンする
               href: end-user-drill.md
             - name: ArcGIS マップとの対話

@@ -24,7 +24,7 @@
               href: service-govus-overview.md
             - name: 米国政府組織を登録する
               href: service-govus-signup.md
-        - name: リージョンのクラウドでの Power BI
+        - name: 各国のクラウドでの Power BI
           items:
             - name: ローカルへの移動によりドイツ リージョンに移行する
               href: service-admin-migrate-data-germany.md
@@ -116,6 +116,8 @@
               href: service-premium-connect-tools.md
             - name: サービス プリンシパルによる自動化
               href: service-premium-service-principal.md
+            - name: XMLA エンドポイント接続のトラブルシューティング
+              href: troubleshoot-xmla-endpoint.md
     - name: リファレンス
       items:
         - name: PowerShell、REST API、および .NET SDK

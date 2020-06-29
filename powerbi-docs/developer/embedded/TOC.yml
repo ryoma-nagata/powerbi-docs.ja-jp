@@ -18,6 +18,8 @@
           href: embed-sample-for-your-organization.md
         - name: 顧客向けにページ分割されたレポートを埋め込む
           href: embed-paginated-reports-customers.md
+        - name: 組織向けにページ分割されたレポートを埋め込む
+          href: embed-paginated-reports-organization.md
         - name: 国内クラウド向けにコンテンツを埋め込む
           href: embed-sample-for-customers-national-clouds.md
     - name: 概念

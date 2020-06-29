@@ -122,6 +122,8 @@
               href: desktop-connect-to-web.md
             - name: Snowflake Computing ウェアハウスに接続する
               href: desktop-connect-snowflake.md
+            - name: Power BI サービスで Snowflake に接続する
+              href: service-connect-snowflake.md
             - name: Azure Cost Management コネクタを使用して視覚エフェクトを作成する
               href: desktop-connect-azure-cost-management.md
             - name: Azure Consumption Insights データに接続する

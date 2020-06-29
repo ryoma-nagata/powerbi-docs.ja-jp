@@ -30,7 +30,7 @@
           href: mobile-apps-offline-data.md
         - name: Power BI for Mixed Reality アプリ (プレビュー)
           href: mobile-mixed-reality-app.md
-    - name: 方法
+    - name: 操作方法
       items:
         - name: すべてのモバイル アプリ
           items:
@@ -64,7 +64,7 @@
               href: mobile-native-secure-access.md
             - name: 外部組織からコンテンツにアクセスする (B2B)
               href: mobile-apps-b2b.md
-            - name: スマートフォンからの Power BI QR コードのスキャン
+            - name: 電話からの Power BI QR コードのスキャン
               href: mobile-apps-qr-code.md
             - name: 注釈とモバイル アプリでの共有
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
@@ -84,6 +84,8 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: iOS デバイスの検索の統合
               href: mobile-apps-iOS-search-integration.md
+            - name: ダーク モード
+              href: mobile-apps-dark-mode.md
             - name: Power BI Apple Watch アプリ
               href: mobile-apple-watch.md
         - name: Android デバイス
@@ -106,7 +108,7 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: オンプレミスのレポートと KPI を表示する
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Surface Hub での Power BI の表示
+            - name: Surface Hub と Windows 10 デバイスでのプレゼンテーション モード
               href: mobile-windows-10-app-presentation-mode.md
             - name: Windows アプリでのシングル サインオン
               href: mobile-windows-10-app-single-sign-on-sso.md
