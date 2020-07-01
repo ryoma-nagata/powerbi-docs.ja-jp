@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f92ce45cd739072dcb7056eb0be6696b4cab32e4
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 7597d135bc05783d0d43bb481e24fc197abd9d4b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813534"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222403"
 ---
 # <a name="use-buttons-in-power-bi"></a>Power BI でボタンを使用する
 Power BI で**ボタン**を使用したレポートを作成すると、ユーザーが Power BI コンテンツにマウス ポインターを重ねたり、クリックや対話操作を行うことができる、アプリのように動作する魅力的な環境を作成できます。 ボタンは、**Power BI Desktop** と **Power BI サービス**のレポートに追加できます。 ご自分のレポートを Power BI サービスで共有すると、それらはあなたのユーザーに対してアプリのように動作します。
