@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 723869023824f7841eaaa895ab551b719a69c0e2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325853"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236299"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Power BI Desktop でデータ分類を指定する
 Power BI Desktop では、ユーザーが列に対して "*データ カテゴリ*" を指定すれば、Power BI Desktop が視覚化するときにその列の値をどのように扱うべきかを自動的に見極めます。

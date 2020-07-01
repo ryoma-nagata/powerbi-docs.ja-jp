@@ -4,16 +4,16 @@ description: Salesforce、Microsoft Dynamics CRM、Google Analytics など、ビ
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7465d2f94fcddd37e20b1c1e5a2679810d1a135c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325163"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236240"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI で使用するサービスに接続する
 Power BI では、Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用する数多くのサービスに接続できます。 Power BI は、資格情報を使用してサービスに接続することで開始します。 これは、データを自動表示し、ビジネスに関する分析を視覚的に示すダッシュボードと一連の Power BI レポートで Power BI "*ワークスペース*" を作成します。

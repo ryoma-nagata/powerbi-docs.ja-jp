@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 698765cd71873de3badfce45ef546ed61220b323
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565325"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236214"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>ゲートウェイのトラブルシューティング - Power BI
 
@@ -54,7 +54,7 @@ ms.locfileid: "83565325"
 
 また、 **[イベント ログ]**  >  **[アプリケーションとサービス ログ]**  >  **[オンプレミス データ ゲートウェイ サービス]** の順に選択し、詳細を確認できます。
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>エラー: \<サーバー\> に接続しようとしているときにエラーが発生しました。 詳細:"data gateway に到達しましたが、ゲートウェイがオンプレミスのデータ ソースにアクセスできません。"
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>エラー: \<server\> に接続しようとしているときにエラーが発生しました。 詳細:"data gateway に到達しましたが、ゲートウェイがオンプレミスのデータ ソースにアクセスできません。"
 
 指定したデータ ソースに接続できませんでした。 そのデータ ソースについて提供された情報を検証してください。
 

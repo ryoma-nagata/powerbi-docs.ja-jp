@@ -5,16 +5,16 @@ author: SarinaJoan
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3559b330cef803b5bc9bf2c3d22313ba59acf4cc
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327739"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235752"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>更新が失敗した場合に Xero コンテンツ パックの資格情報を更新する方法
 Xero Power BI コンテンツ パックを使用している場合は、最近の Power BI サービス インシデントによって、コンテンツ パックの毎日の更新で問題が発生する可能性があります。

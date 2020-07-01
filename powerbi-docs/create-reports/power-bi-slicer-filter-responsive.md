@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f4e70bdcd877c29063a73cc24111d4dc04aa39b9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 94d55f92a6be47d6a53cbdaad4d9ff657d572957
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83280980"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235886"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI でサイズを変更することが可能なレスポンシブ スライサーの作成
 
@@ -28,7 +28,7 @@ ms.locfileid: "83280980"
 
 動的スライサーを作成する最初の手順は、基本的なスライサーを作成することです。 
 
-1. **[視覚化]** ウィンドウで ![[スライサー]](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) アイコン **スライサー アイコン** を選択します。
+1. **[視覚化]** ウィンドウで **[スライサー]** アイコン ![スライサー アイコン](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) を選択します。
 2. フィルターを適用するフィールドを **[フィールド]** にドラッグします。
 
     ![スライサーにフィールドを追加する](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
@@ -48,7 +48,7 @@ ms.locfileid: "83280980"
 
 この手順は簡単です。 
 
-1. **[書式]** タブの **[全般]** セクションの **[方向]** の下で、 **[レスポンシブ]** を **[オン]** にスライドします。  
+1. **[書式]** タブの **[全般]** セクションの **[方向]** の下で、**[レスポンシブ]** を **[オン]** にスライドします。  
 
     ![スライサーがレスポンシブになりました](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 

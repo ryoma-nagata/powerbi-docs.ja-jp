@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9758f706b90f74c7c7f9d1feff2b00516e6c324c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dc9f8fd66360377e7ed166bf5cfa5c8ddec2c4d6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347495"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236711"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Power BI サービスで Excel ブックから魅力的なレポートを作成する
 最新の売上データを直前のキャンペーンの感触と組み合わせて、上司にレポートを今日中に提出しなければなりません。 しかし、最新のデータはさまざまなサードパーティ システムと、自分のノート PC 内のファイルに散在しています。 以前なら、ビジュアルとレポート書式を作成するのに何時間もかかって、次第に不安になったことでしょう。
