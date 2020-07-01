@@ -5,15 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: davidi
-ms.openlocfilehash: 934827311e089e34e56fbcffe4d4c58a056df4ad
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49b7d1129f73e146db1e34b1ec7d39a176cb37ed
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83130227"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228904"
 ---
 # <a name="administrators-manage-the-power-bi-desktop-sign-in-form"></a>管理者:Power BI Desktop のサインイン フォームを管理する
 Power BI Desktop を初めて起動したときは、サインイン フォームが表示されます。 情報を入力するか、Power BI にサインインして続行できます。 管理者は、レジストリ キーを使ってこのフォームを管理します。 

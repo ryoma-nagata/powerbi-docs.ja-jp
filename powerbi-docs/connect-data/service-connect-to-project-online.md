@@ -5,16 +5,16 @@ author: SarinaJoan
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5f5c161448c2522da3521dd1888443e558fd383e
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 25a0ddaaf72e185d795d819e8c2cb990d2823ed2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348461"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229796"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI で Project Web App に接続する
 Microsoft Project Web App は、プロジェクト ポートフォリオ管理 (PPM) および日常の作業用の柔軟なオンライン ソリューションです。 Project Web App を使用すると、プロジェクト ポートフォリオの投資を開始して優先順位を設定し、意図したとおりのビジネス価値を提供できます。 Power BI 用 Project Web App テンプレート アプリでは、Project Web App から分析情報をロック解除し、プロジェクト、ポートフォリオ、リソースの管理に役立てることができます。
