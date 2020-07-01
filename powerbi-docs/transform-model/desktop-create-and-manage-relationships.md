@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a0000d2e0da3613bb74e8d3d0aed2dd7fa3e3dcc
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: f241315eecdbb600a798630167913aa1be0079a3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160274"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239049"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop でのリレーションシップの作成と管理
 複数のテーブルをインポートするとき、それらのすべてのテーブルからデータを使用して分析を実行する可能性が高くなります。 結果を正確に計算し、レポートに正しい情報を表示するためには、これらのテーブル間のリレーションシップが必要です。 Power BI Desktop を使用すると、これらのリレーションシップを簡単に作成できます。 実際、ほとんどの場合、自動検出機能が実行してくれるため、何もすることはありません。 ただし、場合によっては、自分でリレーションシップを作成したり、リレーションシップを変更したりすることが必要な場合があります。 いずれの場合も、Power BI Desktop におけるリレーションシップおよびその作成方法と編集方法を理解することが重要です。

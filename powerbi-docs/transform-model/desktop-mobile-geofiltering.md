@@ -4,16 +4,16 @@ description: Power BI Desktop でモデルに地理的フィルタリングを�
 author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: 27c59fb550b608a7ae33cfcef1849f480d599b93
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 361a5c6537c3ae1a149b67851b01776c880bf257
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324358"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237135"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>モバイル アプリで使用するために Power BI Desktop で地理的フィルターを設定する
 Power BI Desktop で列の[地理的データを分類](desktop-data-categorization.md)し、Power BI Desktop がレポートの表示での値の処理方法を認識できるようにすることができます。 追加された特典として、お客様や仕事仲間が Power BI モバイル アプリでそのレポートを表示すると、Power BI では現在地に一致する地理的フィルターが自動的に適用されます。 

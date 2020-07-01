@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/10/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4179244dde8f5ebf2cc78bb84c4141e3bb3a6364
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322725"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238356"
 ---
 # <a name="dashboard-data-classification"></a>ダッシュボードのデータの分類
 すべてのダッシュボードは異なっており、接続先のデータ ソースによっては、共有を設定した人や共有する同僚がデータの機密性に応じてさまざまな予防措置を講じる必要があります。 社外の人と共有したり印刷したりしてはならないダッシュボードもあれば、自由に共有できるダッシュボードもあります。 ダッシュボードのデータの分類を使用すると、ダッシュボードを見るユーザーの、使用する必要があるセキュリティ レベルについての認識を高めることができます。 会社の IT 部門によって定義された分類でダッシュボードにタグを付けると、コンテンツを見るすべてのユーザーにデータの機密性を同じレベルで理解させることができます。
@@ -62,7 +62,7 @@ ms.locfileid: "83322725"
 1. [設定] の歯車を選択し、 **[管理ポータル]** を選択します。
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. **[テナント設定]** タブで、 *[ダッシュボードとレポート用のデータ分類]* を **[オン]** に切り替えます。
+2. **[テナント設定]** タブで、 **[ダッシュボードとレポート用のデータ分類]** を *[オン]* に切り替えます。
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 

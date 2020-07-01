@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9f017a4e93e76d91949b3cc3e12ef0c652664a91
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281440"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239173"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Power BI レポートでドリルスルーを設定する
 Power BI レポートの*ドリルスルー*を利用すると、サプライヤー、顧客、メーカーなど、特定のエンティティに焦点を置いたページをあなたのレポートに作成できます。 ドリルスルーを使用するあなたのレポートの読者は、他のレポート ページのデータ ポイントを右クリックします。すると、ドリルスルーして、そのコンテキストでフィルター処理されたそれに焦点を置いたページで詳細を取得できます。 ユーザーがクリックしたときに詳細に[ドリルスルーするボタンを作成](desktop-drill-through-buttons.md)することもできます。

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2ccf0d7566cb1ffd2b3b12295c0667885bf30ef0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b8fddd6b88effac3375840dd6034ca93cec52f12
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349588"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238309"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI サービスから Power BI Desktop にレポートをダウンロードする (プレビュー)
 Power BI Desktop では、ローカル コンピューターから Power BI サービスにレポート ( *.pbix* ファイル) を発行できます。 Power BI レポートは反対の方向に発行することもできます。Power BI サービスから Power BI Desktop にレポートをダウンロードできます。 いずれの場合も、Power BI レポートの拡張子は .pbix です。

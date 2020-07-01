@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/30/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: db5bc2566e4711873629522d08a2d0c818071b81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d8aea8cf850a2f44ed9786701c33fbf35e8e6e6f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334041"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238548"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop での列による並べ替え
 Power BI Desktop と Power BI サービスでは、さまざまなデータ フィールドを並べ替えることで視覚効果を変更できます。 並べ替えで視覚化を変更することで、伝えたい情報を強調でき、その傾向 (あるいは強調したい点) を視覚化に反映させることができます。

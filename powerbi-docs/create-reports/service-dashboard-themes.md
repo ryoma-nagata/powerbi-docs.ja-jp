@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2793fe56df462fd5f1bd1c266b75ad14fd9b375
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 57331a49d5020308ebc39fbcb42a1728e6167593
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311386"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236977"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI サービスのダッシュボード テーマを使用する
 **ダッシュボード テーマ**では、企業の色、季節の色、または適用する可能性がある他の色のテーマなど、色のテーマをダッシュボード全体に適用することができます。 **ダッシュボード テーマ**を適用すると、ダッシュボードのすべてのビジュアルで、選択したテーマの色が使用されます (例外がいくつか適用されます。それについては、この記事の後半で説明します)。

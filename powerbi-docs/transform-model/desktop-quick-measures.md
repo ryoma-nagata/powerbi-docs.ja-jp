@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2bb48ad44c1f1d440fb5741fc55cc4a83f315dc8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83306234"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237157"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>クイック メジャーを使用して一般的な計算を実行する
 *クイック メジャー*を使用し、一般的で強力な計算を簡単に実行できます。 クイック メジャーでは、一連の Data Analysis Expressions (DAX) コマンドがバックグラウンドで実行され、レポートで使用できるように結果が提供されます。 DAX を記述する必要はありません。ダイアログ ボックスで指定した入力に基づいて自動的に作成されます。 計算のカテゴリ、およびニーズに合わせた各計算の変更方法が、数多くあります。 一番の利点はおそらく、クイック メジャーで実行された DAX を参照することで DAX がすぐに始められること、DAX に関する自分の知識を広められることです。
