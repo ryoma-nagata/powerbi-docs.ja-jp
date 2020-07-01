@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 7d0977ffc9adad64923535df47cb8e9cac1bef23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c57c768e64171acd5c8246aad9faad304a355e2b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349703"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218587"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI サービスおよび Power BI Desktop でレポートを保存する
 Power BI でレポートを変更した後、そのレポートを保存したり、新しい名前を付けて保存したり、変更を保存せずに閉じたりできます。 たとえば、レポートを開き、視覚化を作成し、それをダッシュボードにピン留めしたとします。 変更を保存せずにレポートをすぐに閉じた場合、タイルはダッシュボードに残りますが、視覚化はレポートに保存されていません。 ダッシュボードでそのタイルをクリックすると、レポートが開きますが、視覚エフェクトはレポートに存在しなくなっています。

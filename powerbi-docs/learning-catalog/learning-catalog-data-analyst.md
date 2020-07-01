@@ -1,17 +1,17 @@
 ---
 title: データ アナリストのラーニング カタログ
 description: Power BI のすべてのトレーニング オプションを検索する
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 97ecff0abf13ff72d7794b06085be077efbe9027
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.author: margoc
+ms.openlocfilehash: 4664966098089d564e82207eb7aac923bc626b77
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565766"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532191"
 ---
 # <a name="data-analyst-learning-catalog"></a>データ アナリストのラーニング カタログ
 
@@ -55,6 +55,11 @@ ms.locfileid: "83565766"
 | [Power BI データを視覚化:中心となるグラフの種類とその利用方法](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-OnDemandRegistration.html)  | グラフの種類は、ビジュアル分析の最も基本的な構成要素の 1 つです。 グラフを適切に使用することで、適切なパターンと明確さを作成し、ユーザーに適切な回答を提供します。  | ウェビナー |             |
 | [新しい Power BI と data.world コネクタでパブリックまたはプライベートのデータセットを視覚化する](https://info.microsoft.com/data-world-connector-powerbi-ondemand.html)  | data.world との共同事業で、Microsoft は新しいデータ コネクタを発表しました。このコネクタを利用すると、data.world データセットを Power BI Desktop にインポートできます。 データ ファンがより簡単にデータを収集、管理、探索、視覚化し、分析情報を他の人と共有できるよう、data.world と共に支援できることを楽しみにしています。  | ウェビナー |             |
 | [Power BI ダッシュボードで実際の視覚化を使用して、アクションにつながる分析情報を得る](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/8-10-18-Webinar-Get-actionable-insights-using-real-world/td-p/480242) | Power BI ダッシュボードで実際の視覚化を使用しながら説明する、Charles Sterling と Shakun Grover のウェビナーに参加してください。  Microsoft Visio では、視覚的にデータを説明し、プロセス フローを表現するための最適なキャンバスを提供しています。 Power BI 向けの新しい Visio ビジュアルを使用すると、Power BI ダッシュボード内で Visio の強力な視覚化機能を簡単に活用して、分析情報とアクションを促すことができます。                              | ウェビナー | 34 分 19 秒 |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| コンテンツ | Description | 書式  | 長さ      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [Power BI の実践的な DAX - Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs)  | Phil Seamark が、自分の新しい著書と関連付けて、Power BI での実用的な DAX のベスト プラクティスをいくつか紹介します。   | YouTube ビデオ | 59 分 41 秒 |
+| [クリエイティブな DAX ソリューション - Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | DAX 言語には、単に列に対して SUM を実行したり、テーブル内の行をカウントしたりすること以上に非常に優れた能力があることをご存じでしたか。 DAX は、最も高速なデータベースのいずれかを基盤にしています。 実現不可能と思われていた通常とは異なるクリエイティブなシナリオをいくつか説明する、Charles Sterling と Philip Seamark のウェビナーに参加してください。 | ウェビナー       | 58 分 12 秒 |
 ## <a name="governance-and-deployment"></a>ガバナンスと展開<a name="governance-deployment"></a>
 | コンテンツ  | Description   | 書式  | 長さ |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|

@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f14a9222021a38616b872679a2d8798c15b4c666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83321253"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218725"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI サービスのデータ アラート
 
@@ -89,7 +89,7 @@ Amanda がダッシュボードのタイルにいくつかのアラートを追�
 
 ### <a name="from-the-dashboard-tile"></a>ダッシュボード タイルから
 
-1. タイルのアラートを変更または削除する必要がある場合は、ベルのアイコン **アラート アイコン** を選択して ![[アラートの管理]](media/service-set-data-alerts/power-bi-bell-icon.png) ウィンドウを再び開きます。
+1. タイルのアラートを変更または削除する必要がある場合は、ベルのアイコン ![アラート アイコン](media/service-set-data-alerts/power-bi-bell-icon.png) を選択して **[アラートの管理]** ウィンドウを再び開きます。
 
     Power BI によりこのタイルに設定したアラートが表示されます。
 

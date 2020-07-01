@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 66a690f9ee786747e59a55d498dfd206ecbcb992
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 74a0238d39d778641d1906271fd478463ee4a95a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349749"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218946"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>データセットをインポートして Power BI サービスでレポートを作成する
 [Power BI のレポート](../consumer/end-user-reports.md)を読んで、次は自分のレポートを作成しようと思われるでしょう。 レポートを作成するには、さまざまな方法があります。 この記事では、まず、Excel データセットから Power BI サービスに基本的なレポートを作成します。 レポートの作成の基本を理解したら、最後の「[次の手順](#next-steps)」でより高度なレポートに関するトピックを確認してください。  

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 65ed1806491f281bcc4d8adc365e5d286b6204ec
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121118"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218840"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Q&A のおすすめの質問を作成する
 データセットがある場合、そのデータセットにおすすめの質問を追加できます。 Power BI Q&A には、そのデータセットに基づくレポートを使用する同僚におすすめの質問が表示されます。  同僚は、データセットについて確認できる質問の種類についておすすめの質問をヒントにすることができます。 任意のおすすめの質問を追加できます。よくある質問、興味深い結果が表示される質問、表現しづらい質問などを追加してください。

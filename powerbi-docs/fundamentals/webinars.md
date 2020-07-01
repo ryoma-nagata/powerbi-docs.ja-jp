@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2020
+ms.date: 06/16/2020
 ms.author: kfollis
-ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 872c847f25c15b46338127dd4a5a15cc536e5ee2
+ms.sourcegitcommit: 3e7e3cb2c2e398cffe8733d99e3ac832ee056dc9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566042"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "84973409"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 [//]: # "Tatevik Tatero は Chauncy Freels と業務提携するベンダーであり、このウェビナー リストの維持を手伝っています"
@@ -22,12 +22,7 @@ ms.locfileid: "83566042"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
-**Analytics と BI の違いは何か**
-<br>講師: Nate Findley および Charles Feddersen (Microsoft)
-<br>[2020 年 6 月 3 日、午前 10 時 00 分から午前 11 時 00 分まで (太平洋夏時間) に視聴できるように登録する]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
-
-
->[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
+[Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>おすすめのウェビナー
 

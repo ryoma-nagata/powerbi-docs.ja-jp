@@ -10,14 +10,15 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336546"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427126"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
+
 この記事は、Microsoft 365 Government プランの一部として Power BI をデプロイする米国政府機関のお客様を対象としています。 Government プランは、米国のコンプライアンスとセキュリティ標準を満たする必要がある組織の固有のニーズに合うように設計されています。 米国政府機関のお客様向けに設計された Power BI サービスは、Power BI サービスの商用バージョンとは異なります。 これらの機能の相違点と能力について、以下のセクションで説明します。
 
 ## <a name="add-power-bi-to-your-microsoft-365-government-plan"></a>Microsoft 365 Government プランに Power BI を追加する
@@ -33,13 +34,14 @@ Power BI US Government サブスクリプションを取得してユーザーに
 >
 >
 ## <a name="government-cloud-instances"></a>Government クラウドのインスタンス
+
 Microsoft 365 には、政府機関のさまざまなコンプライアンス要件を満たすための複数の環境が用意されています。 各環境の詳細については、以下を参照してください。
 
 * [Microsoft 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) は、連邦政府、州政府、および地方自治体向けに設計されています。
 
 * [Microsoft 365 Government Community Cloud High (GCC High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) は、連邦政府機関、軍需産業、航空宇宙産業、および機密扱いではないが統制している情報を保持しているその他の組織向けに設計されています。 この環境は、国際武器取引規則 (ITAR) のデータまたは国防省調達規則 (DFARS) に関する要件がある、国家安全保障に関わる組織と企業に適しています。
 
-* [Microsoft 365 DoD 環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)は、米国国防総省専用に設計されています。 
+* [Microsoft 365 DoD 環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)は、米国国防総省専用に設計されています。
 
 ## <a name="connect-to-power-bi-for-us-government"></a>米国政府向け Power BI に接続する
 
@@ -68,7 +70,7 @@ Azure は複数のクラウドに分散されています。 既定では、ク�
 * USGov テキサス
 * USGov アリゾナ
 
-パブリック クラウドでは、IP 範囲を使用できます。 US Government クラウドの IP 範囲を取得するには、「[Azure IP 範囲とサービス タグ - US Government クラウド](https://www.microsoft.com/download/details.aspx?id=57063)」でファイルをダウンロードしてください。 
+パブリック クラウドでは、IP 範囲を使用できます。 US Government クラウドの IP 範囲を取得するには、「[Azure IP 範囲とサービス タグ - US Government クラウド](https://www.microsoft.com/download/details.aspx?id=57063)」でファイルをダウンロードしてください。
 
 SQL データベースのファイアウォールを設定するには、「[IP ファイアウォール規則の作成および管理](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)」を参照してください。
 
@@ -84,7 +86,7 @@ Government クラウドのお客様の要件に対応するため、Government �
 |  |Office 365 セキュリティ/コンプライアンス管理センターを使用した監査|利用可能|利用可能|利用可能|
 |  |外部ユーザーの共有|利用可能|利用可能|利用可能|
 |  |レポートとダッシュボードの使用状況メトリック|利用可能|利用可能|利用可能|
-|  |GCC と商用クラウド間の Azure B2B|利用不可|利用不可|利用不可|
+|  |GCC と商用クラウド間の Azure B2B|利用可能|利用可能|利用可能|
 |レポートの作成|ダッシュボードとレポートの作成と表示|利用可能|利用可能|利用可能|
 |  |スケジュールされたデータ更新|利用可能|利用可能|利用可能|
 |  |更新可能なチーム ダッシュボード|利用可能|利用可能|利用可能|
@@ -112,4 +114,4 @@ Government クラウドのお客様の要件に対応するため、Government �
 * [米国政府向け Power BI へのサインアップ](service-govus-signup.md)
 * [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
 * [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
-* <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">米国政府向け Power BI のデモ</a>
+* [米国政府向け Power BI のデモ](https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government)

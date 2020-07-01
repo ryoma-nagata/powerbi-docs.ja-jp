@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f50b7fb9cc63322ea488ab6f2adddfd29f763d14
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3646518cdf9575d73ccfc39a859b9c7211db8678
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83321046"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218679"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Power BI レポート内でのビジュアルの相互作用を変更する
 レポートの編集アクセス許可が与えられている場合、 **[ビジュアル対話]** を使い、レポート ページの視覚エフェクトの相互作用を変更できます。 
@@ -65,7 +65,7 @@ ms.locfileid: "83321046"
 
 選択した視覚化が次の条件の場合:
    
-   * ページ上の他の視覚化のいずれかをフィルター処理するために使う場合、その視覚化 **フィルター アイコン** の右上隅にある ![フィルター](media/service-reports-visual-interactions/power-bi-filter-icon.png) アイコンを選択します。
+   * ページ上の他の視覚化のいずれかをフィルター処理するために使う場合、その視覚化 ![フィルター アイコン](media/service-reports-visual-interactions/power-bi-filter-icon.png) の右上隅にある **フィルター** アイコンを選択します。
    * ページ上の他の視覚化のいずれかをクロス強調表示するために使う場合、**強調表示**アイコン ![強調表示アイコン](media/service-reports-visual-interactions/power-bi-highlight-icon.png) を選択します。
    * ページ上の他の視覚化のいずれにも影響しない場合、**影響なし**アイコン ![影響なしアイコン](media/service-reports-visual-interactions/power-bi-no-impact.png) を選択します。
 
