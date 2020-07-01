@@ -3,18 +3,18 @@ title: ページ分割されたレポートの URL 内でレポート パラメ�
 description: このトピックでは、レポート パラメーターをページ分割されたレポートの URL に含めることでレポートに渡す方法について説明します。
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: e6e4187f89bb0ae6e6772f29b19782ee7fbfad25
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c26f9c8f219517e3039b62cdbc89af24ba1af288
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692841"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239553"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Power BI のページ分割されたレポートの URL 内でレポート パラメーターを渡す 
 

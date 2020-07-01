@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 06/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 64fa13f3e95f43813c657eb9be195fb03e57a06b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496312"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354917"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI サービスの利用者向けのダッシュボード
 
@@ -32,7 +32,6 @@ Power BI の "***ダッシュボード***" は、視覚化を使ってストー�
 > ダッシュボードは、[モバイル デバイス上で表示および共有する](mobile/mobile-apps-view-dashboard.md)ことができます。
 >
 > 自分と共有されているダッシュボードを表示するためには、Power BI Pro が必要です。
-> 
 
 ダッシュボード上の視覚化はレポートから取得され、各レポートは 1 つのデータセットが基になっています。 実際、ダッシュボードは基になっているレポートとデータセットへの入り口と考えることもできます。 視覚化を選ぶと、その作成に使われたレポート (およびデータセット) に行き着きます。
 

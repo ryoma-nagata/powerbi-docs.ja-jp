@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 783a9bdce34345afd87be379aff7e073ff8c548d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 96c80fbbf943ad1d03e9a2172a0711f6fd2e60ad
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565858"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239886"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>Power BI Desktop で DAX の基本事項を適用する
 この記事は、Power BI Desktop を初めて使用するユーザー向けです。 さまざまな基本的な計算とデータ分析の問題を解決するために Data Analysis Expressions (DAX) を使用する方法を、手早く簡単に説明します。 いくつかの概念について説明した後、一連のタスクを実行します。学んだ内容をテストする知識チェックも含まれています。 この記事を完了すると、DAX で最も重要な基本概念をよく理解できるようになります。

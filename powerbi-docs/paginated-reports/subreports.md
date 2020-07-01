@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9ced88289b2170d503a8394d5b83175659178e85
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272812"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239596"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI のページ分割された レポートでのサブレポート
 
@@ -23,7 +23,7 @@ ms.locfileid: "83272812"
   
  この図の Sales Order メイン レポートに表示されている連絡先情報は、実際には Contacts サブレポートから取得されたものです。  
   
-Power BI レポート ビルダーで、ページ分割されたレポート定義 (.rdl) ファイルを作成および変更します。 SQL Server Reporting Services に格納されているサブレポートは、Power BI サービスの Premium ワークスペースにアップロードできます。 メイン レポートとサブレポートは、同じワークスペースにパブリッシュする必要があります。 [Power BI レポート ビルダー](https://go.microsoft.com/fwlink/?linkid=2086513)をインストールしてください。
+Power BI レポート ビルダーで、ページ分割されたレポート定義 (.rdl) ファイルを作成および変更します。 SQL Server Reporting Services に格納されているサブレポートは、Power BI サービスの Premium ワークスペースにアップロードできます。 メイン レポートとサブレポートは、同じワークスペースにパブリッシュする必要があります。 [Power BI レポート ビルダー](https://aka.ms/pbireportbuilder)をインストールしてください。
   
 ## <a name="work-with-report-builder-and-the-power-bi-service"></a>レポート ビルダーと Power BI サービスを操作する
 

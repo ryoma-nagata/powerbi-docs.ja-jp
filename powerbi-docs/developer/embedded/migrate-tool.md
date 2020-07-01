@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 60e80311ff12da2bc79b7f844c81c7b5c8f4c3ac
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564170"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354871"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移行ツール
 
@@ -151,7 +151,7 @@ Power BI サービス内で作成されるワークスペースに使用する�
 
 **[ダウンロード]** タブには、レポートとそれに関連するメタデータの一覧が表示されます。 エクスポート状態が前のエクスポート状態と共に表示されます。
 
-![](media/migrate-tool/migrate-tool-download-tab.png)
+![ダウンロード](media/migrate-tool/migrate-tool-download-tab.png)
 
 2 つのオプションがあります。
 

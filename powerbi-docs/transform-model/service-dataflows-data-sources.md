@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c86467d821a93853a82920c5b85eab60578c42e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b4d1b969e82ef4f6a911f7adc79bf0d9308e7560
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311685"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240104"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI データフロー用のデータ リソースに接続する
 
@@ -84,7 +84,7 @@ Power BI データフローを利用すると、さまざまなデータ ソー�
 **[Azure]** カテゴリには、次のデータフロー用データ接続が含まれています。
 
 * Azure BLOB
-*  Azure Data Explorer
+* Azure Data Explorer
 * Azure SQL Data Warehouse
 * Azure SQL Database
 * Azure テーブル

@@ -4,15 +4,15 @@ description: Power BI 共有データセットに基づいて、Power BI Report 
 ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276630"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239785"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI 共有データセットを基づいて改ページ調整されたレポートを作成する
 
@@ -26,7 +26,7 @@ Power BI Desktop で作成したデータセットは、Power BI レポート �
 
 Power BI レポート ビルダーで共有データセットを使用するうえで必要なものと、必要のないものを以下に示します。
 
-- Power BI レポート ビルダー。 [Power BI レポート ビルダーをダウンロードおよびインストール](https://go.microsoft.com/fwlink/?linkid=2086513)してください。
+- Power BI レポート ビルダー。 [Power BI レポート ビルダーをダウンロードおよびインストール](https://aka.ms/pbireportbuilder)してください。
 - Power BI データセットにアクセスするには、そのデータセットについてビルドのアクセス許可が必要です。 [ビルドのアクセス許可](../connect-data/service-datasets-build-permissions.md)に関する記事を参照してください。
 - レポート ビルダーで改ページ調整されたレポートを作成する操作には、Power BI Pro のライセンスは必要ありません。 
 - 改ページ調整されたレポートの発行には、Power BI Pro のライセンスが必要です。 また、ワークスペースが Premium 容量にある場合には、最低限その共同作成者ロールが必要です。 
