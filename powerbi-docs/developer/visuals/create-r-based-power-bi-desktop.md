@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: tutorial
+ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 5ef0c4fa150baa972487fd5aa27ab016ae75848e
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: a3cb8d6ae8d8b872d00b3b4ce1aad13105f3b1e4
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84122548"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85232812"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>チュートリアル:R を利用した Power BI 視覚エフェクトを作成する
 

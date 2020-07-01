@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b2094b2438966bd2da88de032fd7b7979065746b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a043e230ba74432254248ee70db495bc75a3d28b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83359383"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85232510"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 Power BI Desktop では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 Power BI Desktop を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。 Power BI Desktop は無料でダウンロードできます。

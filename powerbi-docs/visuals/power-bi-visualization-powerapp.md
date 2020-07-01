@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
+ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aead027780ad1e7887b172cba328c0c4e97675b5
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 079689fe9c068f433eb39d5363e253fecfc39968
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273439"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233213"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>チュートリアル:Power BI レポートに Power Apps ビジュアルを埋め込む
 
@@ -105,7 +105,7 @@ Power BI レポートのスライサーで **[1 月]** を選択します。こ�
 営業案件の分析のサンプルをもう使用しない場合は、ダッシュボード、レポート、およびデータセットを削除できます。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
-トラブルシューティングの詳細については、「[Power BI 用の Power Apps ビジュアル](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visualbranch=pr-en-us-2943#limitations-of-the-power-apps-visual)」を参照してください。
+トラブルシューティングの詳細については、「[Power BI 用の Power Apps ビジュアル](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 [Q&A ビジュアル](power-bi-visualization-types-for-reports-and-q-and-a.md)    

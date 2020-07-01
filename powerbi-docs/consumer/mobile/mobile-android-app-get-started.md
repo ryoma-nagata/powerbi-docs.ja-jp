@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
-ms.date: 02/10/2020
+ms.topic: how-to
+ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: 105cef5b9df49d076491057d73f6929d46216a8b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a12f4d81e2cae913ddddd26ca3bd9c820ad716ca
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564862"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233025"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android デバイスでの Power BI モバイル アプリの概要
 Microsoft Power BI 用 Android アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 

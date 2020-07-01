@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 067a9cfc63b36f97716d61580f2e191756dbf0e6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119935"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233849"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Power BI Desktop レポートでビジュアルをグループ化する
 **Power BI Desktop** で**グループ化**を使用すると、PowerPoint で項目をグループ化するのと同じように、レポート内でビジュアルをグループ化できます。これには、ボタン、テキストボックス、図形の画像、その他作成したあらゆるビジュアルが含まれます。 レポート内のビジュアルをグループ化すると、グループを 1 つのオブジェクトのように扱い、レポート内での移動、サイズ変更、およびレイヤーの操作をより簡単かつ迅速に、直感的に行うことができます。
