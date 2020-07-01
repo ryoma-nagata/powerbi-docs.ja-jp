@@ -66,6 +66,8 @@
               href: dax-column-measure-references.md
             - name: フィルター引数として FILTER を使用しない
               href: dax-avoid-avoid-filter-as-filter-argument.md
+            - name: サンプル モデル
+              href: dax-sample-model.md
         - name: Power BI レポート
           items:
             - name: モデルからレポートを分離する

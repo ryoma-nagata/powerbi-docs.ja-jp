@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 722516004a454f970b7a88e2bf4c48d1d0176b6b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237351"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782820"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI で R ビジュアルを作成して使用する
 
@@ -104,15 +104,19 @@ Power BI サービスの R ビジュアルには、一定の制限がありま�
   
   * R スクリプトの先頭に次の行を追加します。
     
-        powerbi_rEnableShowText =  1
+```powerbi_rEnableShowText =  1```
+
 * 中国語、日本語、および韓国語のフォントでは、Power BI サービスで正しく機能させるために、以下のすべての追加手順が必要になります。
   
   * 最初に、R パッケージ *showtext* とそのすべての依存関係をインストールします。 このインストールは、次のスクリプトで実行できます。
     
-        *install.packages("showtext")*
+```install.packages("showtext")```
+
   * 次に、R スクリプトの先頭に次の行を追加します。
     
-        powerbi_rEnableShowTextForCJKLanguages =  1
+```R script
+powerbi_rEnableShowTextForCJKLanguages =  1
+```
 
 ## <a name="overview-of-r-packages"></a>R パッケージの概要
 R パッケージは、適切に定義された形式で結合された R 関数、データ、およびコンパイル済みコードのコレクションです。 R のインストールには標準のパッケージ セットが付属しており、他のパッケージはダウンロードしてインストールできます。 インストールしたら、使用するセッションに R パッケージを読み込む必要があります。 無料の R パッケージの主要なソースは、CRAN ([Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html)) です。
