@@ -1,18 +1,18 @@
 ### YamlMime:Landing
 metadata:
-  title: Microsoft Power BI のガイド付き学習
+  title: Microsoft Power BI の自習学習
   description: この順番に並んだ一連のコースを使って、Microsoft Power BI についての学習をはじめ、その幅広い強力な機能を理解しましょう。
   layout: LandingPage
   ms.service: powerbi
   ms.author: davidiseminger
-  ms.date: 09/20/2019
-  ms.openlocfilehash: e358b7b78b4c87b500e6d749bee39fcdc9b2fd02
-  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+  ms.date: 06/23/2020
+  ms.openlocfilehash: 05fa98c9c2c2aa242f8068ee1792eef87638aec0
+  ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 06/08/2020
-  ms.locfileid: "84532605"
-title: Microsoft Power BI のガイド付き学習
+  ms.lasthandoff: 07/02/2020
+  ms.locfileid: "85836926"
+title: Microsoft Power BI の自習学習
 summary: この順番に並んだ一連のコースを使って、Microsoft Power BI についての学習をはじめ、その幅広い強力な機能を理解しましょう。
 landingContent:
 - title: Power BI で何ができるかを調べる
