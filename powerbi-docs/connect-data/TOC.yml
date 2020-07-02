@@ -94,6 +94,8 @@
                   href: desktop-python-ide.md
                 - name: Python を使用して視覚エフェクトを作成する
                   href: desktop-python-visuals.md
+                - name: サポート対象の Python パッケージを確認する
+                  href: service-python-packages-support.md
             - name: R スクリプトを実行する
               href: desktop-r-scripts.md
             - name: クエリ エディターで R を使用する
