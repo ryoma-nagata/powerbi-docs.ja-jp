@@ -13,6 +13,10 @@
           href: power-bi-service-overview.md
         - name: Power BI Desktop とサービスの比較
           href: service-service-vs-desktop.md
+    - name: チュートリアル
+      items:
+        - name: Power BI サービスの概要
+          href: service-get-started.md
     - name: 概念
       items:
         - name: Power BI Desktop の最新の更新プログラムの新機能

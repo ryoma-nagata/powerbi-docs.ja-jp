@@ -26,8 +26,6 @@
           href: desktop-tutorial-facebook-analytics.md
         - name: Analysis Services 表形式モデルに行レベル セキュリティを実装する
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: Power BI の概要
-          href: ../fundamentals/service-get-started.md
         - name: GitHub サンプルへの接続
           href: service-tutorial-connect-to-github.md
         - name: Excel で分析を使用する
