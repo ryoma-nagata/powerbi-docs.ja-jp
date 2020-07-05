@@ -118,6 +118,14 @@
               href: report-performance-troubleshoot.md
             - name: デプロイ パイプラインのベスト プラクティス
               href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: センター オブ エクセレンス (COE)
+      items:
+        - name: Microsoft の BI 変換
+          href: center-of-excellence-microsoft-business-intelligence-transformation.md
+        - name: COE を確立する
+          href: center-of-excellence-establish.md
+        - name: COE での BI ソリューション アーキテクチャ
+          href: center-of-excellence-business-intelligence-solution-architecture.md
     - name: ホワイトペーパー
       items:
         - name: ホワイトペーパーの概要
