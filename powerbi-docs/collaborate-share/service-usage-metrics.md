@@ -10,12 +10,11 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: af095964846cad264d1ac0ffd82e0c2ac6988a0e
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: b5f4d615c04583e59b618b415c8c239c9295c8a8
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273416"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299597"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポートの利用状況の指標を監視する
 
@@ -158,6 +157,7 @@ Power BI は別個の国内クラウドで利用できます。 これらのク�
 * 一貫性のないネットワーク接続やアド ブロッカー、またはクライアントからのイベントの送信を妨害する可能性があるその他の問題が原因で、利用状況の指標がアクティビティを少なくカウントする場合があります。
 * この記事で前述したように、特定の種類のビューは利用状況の指標に含まれません。
 * Power BI サービスに要求を送り返すことなくクライアントが更新を行う状況では、利用状況の指標がアクティビティを多くカウントする場合があります。
+* 使用状況メトリック レポートの共有は無効になっています。 ユーザーにレポートへの読み取りアクセス権を付与するには、まずワークスペースへのアクセス権を付与する必要があります。
 
 ### <a name="other-considerations"></a>その他の注意事項
 

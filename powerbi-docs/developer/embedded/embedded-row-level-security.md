@@ -1,6 +1,6 @@
 ---
 title: Power BI の埋め込みコンテンツで行レベルのセキュリティを使用する
-description: ここでは、アプリケーション内に Power BI コンテンツを埋め込むために必要な手順について説明します。
+description: アプリケーション内に Power BI コンテンツを埋め込むために行う必要がある手順について説明します
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
+ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277021"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84795141"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded での行レベルのセキュリティ
 
@@ -88,16 +87,19 @@ Power BI Desktop でロールを構成したので、アプリケーションで
 
 **PowerBIClient.Reports** で **GenerateTokenInGroup** メソッドを使って、埋め込みトークンを作成できます。
 
-たとえば、[PowerBIEmbedded_AppOwnsData](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) サンプルを変更できます。 "*Services\EmbedService.cs の 76 および 77 行目*" は次のように更新されます。
+たとえば、 *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > [.NET Framework] > [Embed for your customers]\(顧客向けに埋め込む\) > **[PowerBIEmbedded_AppOwnsData]*** のサンプルを変更できます。
+
+**変更前**
 
 ```csharp
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+// Generate Embed Token with effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view", identities: new List<EffectiveIdentity> { rls });
 
-var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
+// Generate Embed Token for reports without effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
 ```
 
-to
+**変更後**
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -144,6 +146,9 @@ REST API を呼び出すと、更新された API は、ユーザー名、ロー
 ### <a name="using-the-customdata-feature"></a>CustomData 機能の使用
 
 CustomData 機能は、**Azure Analysis Services** にあるモデルに対してのみ動作し、またこれは **[ライブ接続]** モードでのみ動作します。 ユーザーおよびロールとは異なり、カスタム データ機能は .pbix ファイル内では設定できません。 カスタム データ機能を使ってトークンを生成するときは、ユーザー名が必要です。
+
+>[!NOTE]
+>CustomData ユーザー名の長さは、256 文字までに制限されています。
 
 CustomData 機能を使うと、**Azure Analysis Services** をデータ ソースとして使い、ご自身のアプリケーション内で Power BI データを表示する (アプリケーションの Azure Analysis Services に接続されている Power BI データを表示する) ときに、行フィルターを追加できます。
 

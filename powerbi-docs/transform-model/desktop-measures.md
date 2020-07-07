@@ -5,22 +5,21 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 809f0ec23dd0b7c1ef4cd41dde27fd0c8fdefd33
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 752e43fa3471419a76338f9db81f08a6180b6aba
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324496"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238238"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Power BI Desktop でデータ分析用のメジャーを作成する
 
 Power BI Desktop では、わずか数クリックで、データに対する洞察を作成できます。 しかし、場合によっては、最も重要な質問に答えるために必要なものが、データに含まれていないことがあります。 メジャーは、それを入手するために役立ちます。
 
-メジャーは、最も一般的なデータ分析のいくつかに使用します。 合計、平均、最小値、最大値、カウントなどのシンプルな集計は、 **[フィールド]** ウェルで設定できます。 メジャーの計算結果は、ユーザーがレポートを操作するたびに変化するため、アドホック データ探索を高速で、また動的に実行できます。 詳しく見てみましょう。 詳細については、「[計算メジャーを作成する](/learn/modules/model-data-power-bi/4b-create-calculated-measures)」を参照してください。
+メジャーは、最も一般的なデータ分析のいくつかに使用します。 合計、平均、最小値、最大値、カウントなどのシンプルな集計は、 **[フィールド]** ウェルで設定できます。 メジャーの計算結果は、ユーザーがレポートを操作するたびに変化するため、アドホック データ探索を高速で、また動的に実行できます。 詳しく見てみましょう。 詳細については、[メジャーの作成](/learn/modules/model-data-power-bi/4b-create-calculated-measures)に関するページを参照してください。
 
 ## <a name="understanding-measures"></a>メジャーについて
 

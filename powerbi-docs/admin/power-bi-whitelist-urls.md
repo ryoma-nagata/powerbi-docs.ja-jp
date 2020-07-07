@@ -1,36 +1,35 @@
 ---
-title: ホワイトリスト登録用の Power BI の URL
-description: この記事では、Power BI への接続のセーフリストに URL エンドポイントとポートの一覧を示します。
+title: Power BI URL を許可リストに追加する
+description: この記事では、Power BI への接続の許可リストに追加する URL エンドポイントとポートの一覧を示します。
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: 38e6668c0fb15d1279923b77042cdedebe6dd139
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315927"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485072"
 ---
-# <a name="power-bi-urls-for-whitelisting"></a>ホワイトリスト登録用の Power BI の URL
-[//]: # "suparnap、miwehnia はこのリストを維持するための連絡先です"
+# <a name="add-power-bi-urls-to-your-allow-list"></a>Power BI URL を許可リストに追加する
+[//]: # "suparnap、miwehnia、natham はこのリストを維持するための連絡先です"
 
-**Power BI のオンライン サービス** (Power BI の SaaS (サービスとしてのソフトウェア) アプリケーションとも呼ばれます) には、インターネットへの接続が必要です。 顧客が Power BI のオンライン サービスを使用して到達できる必要があるエンドポイントは、次のとおりです。
+Power BI サービスではインターネットへの接続が必要です。 Power BI サービスを使用するお客様は、この記事の表に記載されているエンドポイントに接続できる必要があります。
 
-Power BI のオンライン サービスを使用するには、次の表で**必須**とマークされているエンドポイントと、リンク先のサイトで**必須**とマークされているすべてのエンドポイントに接続できる必要があります。 外部サイトへのリンクが特定のセクションを参照している場合は、そのセクション内のエンドポイントを確認するだけでかまいません。
+Power BI のサービスを使用するには、次の表で**必須**とマークされているエンドポイントと、リンク先のサイトで**必須**とマークされているすべてのエンドポイントに接続できる必要があります。 外部サイトへのリンクが特定のセクションを参照している場合は、そのセクション内のエンドポイントを確認するだけでかまいません。
 
-**オプション**とマークされているエンドポイントも、特定の機能が動作するために**ホワイト リストに登録**されている場合があります。
+**オプション**とマークされているエンドポイントも、特定の機能を動作させるために許可リストに登録できます。
 
-Power BI のオンライン サービスで必要なことは、リストに記載されているエンドポイントのために TCP ポート 443 を開いておくことだけです。
+Power BI のサービスで必要なことは、リストに記載されているエンドポイントのために TCP ポート 443 を開いておくことだけです。
 
-ワイルドカード (*) は、ルート ドメインの下のすべてのレベルを表し、情報を利用できない場合には "該当なし" としています。 **ターゲット**列は、FQDN/ドメインと、追加のエンドポイント情報を含む外部サイトへのリンクの一覧です。
+ワイルドカード (*) は、ルート ドメインの下のすべてのレベルを表し、情報を利用できない場合には "該当なし" としています。 **ターゲット**列には、ドメイン名と、追加のエンドポイント情報を含む外部サイトへのリンクが示されます。
 
 >[!Important]
->次の表の情報は、**U. S.Government クラウド**、**Germany クラウド**、または **China クラウド** を表しません。
+>次の表の情報は、Power BI Germany、21Vianet によって運営される Power BI China、または米国政府向け Power BI には適用されません。 クラウド サービス間の通信の詳細については、「[行政機関向け Azure クラウド サービスとグローバルな Azure クラウド サービスに接続する](service-govus-overview.md#connect-government-and-global-azure-cloud-services)」を参照してください。
 
 ## <a name="authentication"></a>認証
 
@@ -51,7 +50,7 @@ Power BI の一般的な使用では、次の表内とリンク先のサイト�
 | 3 | **必須:** バックエンド API | *.pbidedicated.windows.net | TCP 443 |
 | 4 | **必須:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
 | 5 | **必須:** Microsoft 365 の統合 | [Microsoft 365 Common と Office Online の URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) に関するドキュメントを参照 | 該当なし |
-| 6 | **必須:** ポータル | app.powerbi.com | TCP 443 |
+| 6 | **必須:** ポータル | *.powerbi.com | TCP 443 |
 | 7 | **必須:** サービスの利用統計情報 | dc.services.visualstudio.com | TCP 443 |
 | 8 | **オプション:** 情報メッセージ | dynmsg.modpim.com | TCP 443 |
 | 9 | **オプション:** NPS 調査 | nps.onyx.azure.net | TCP 443 |
@@ -102,7 +101,7 @@ Power BI は、Power BI ビジュアルの表示とアクセスのために、�
 
 ## <a name="related-external-sites"></a>関連する外部サイト
 
-その他の関連サイトへの Power BI リンク。 これらのサイトは、ドキュメント、サポート、新しい機能要求などをホストします。 これらのサイトへのアクセスは Power BI の機能に影響しません。そのため、ホワイトリスト登録は省略可能です。
+その他の関連サイトへの Power BI リンク。 これらのサイトは、ドキュメント、サポート、新しい機能要求などをホストします。 これらのサイトへのアクセスは Power BI の機能に影響しません。そのため、許可リストへの追加は省略可能です。
 
 | 行 | 目的 | ターゲット | ポート |
 | --- | --- | --- | --- |

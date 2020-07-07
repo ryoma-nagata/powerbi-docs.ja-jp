@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
-ms.translationtype: HT
+ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793909"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238622"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Power BI Desktop の視覚エフェクト テーブルとデータ ポイント テーブルを使用する
 **Power BI Desktop** では、視覚エフェクトの詳細にドリルダウンして、基になるデータのテキスト表現または選択したビジュアルの個々のデータ レコードを見ることができます。 これらの機能は、"*クリックスルー*"、"*ドリルスルー*"、"*詳細情報へのドリルスルー*" などとも呼ばれます。
@@ -82,7 +81,7 @@ ms.locfileid: "83793909"
 > [!NOTE]
 >**[データ ポイント テーブル]** には次の制限事項があります。
 > - **[データ ポイント テーブル]** ビューでデータを変更してレポートに保存することはできません。
-> - 視覚エフェクトで計算メジャーが使用されている場合は、 **[データ ポイント テーブル]** を使用できません。
+> - 視覚化で、(多次元) メジャー グループの計算されるメジャーが使用される場合、**データ ポイント テーブル**は使用できません。
 > - ライブ多次元 (MD) モデルに接続されている場合は、 **[データ ポイント テーブル]** を使用できません。
 
 ## <a name="next-steps"></a>次の手順

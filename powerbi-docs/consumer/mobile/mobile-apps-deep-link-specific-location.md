@@ -5,15 +5,14 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114498"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393789"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの特定の場所へのリンクを作成する
 Power BI では、リンクを使用し、レポート、ダッシュボード、タイルといった特定の項目に直接アクセスできます。

@@ -5,17 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: edc06d7a46589c999e4bf18613c0c75f6d5bf983
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
-ms.translationtype: HT
+ms.openlocfilehash: c3a625dcdd58f881c9314e821753f66098e073f5
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120592"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354434"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI で新しいワークスペースを作成する
 
@@ -144,6 +143,20 @@ OneDrive の場所を構成した後、Power BI サービスの他のデータ �
 組織内の多くの対象ユーザーに公式コンテンツを配布する場合は、ワークスペースから "*アプリ*" を発行できます。  コンテンツが用意できたら、発行するダッシュボードやレポートを選択し、それをアプリとして発行します。 各ワークスペースから 1 つのアプリを作成できます。
 
 新しいワークスペースからアプリを発行する方法については、[こちら](service-create-distribute-apps.md)を参照してください。
+
+## <a name="security-settings"></a>セキュリティの設定
+
+ワークスペース管理者は、 **[共同作成者にこのワークスペースのアプリの更新を許可する]** 設定を使用して、共同作成者ロールのユーザーにワークスペース用のアプリを更新する機能を委任できます。 既定では、ワークスペース用のアプリの発行と更新を実行できるのは、ワークスペースの管理者とメンバーだけです。 
+
+有効にすると、共同作成者は次のことができます。
+* 名前、アイコン、説明、サポート サイト、色などのアプリのメタデータを更新する
+* アプリに含まれる項目を追加または削除する (レポートやデータセットの追加など)
+* アプリが開いたときのアプリのナビゲーションや既定の項目を変更する
+
+ただし、共同作成者は次のことを行うことはできません。
+* アプリを初めて発行する
+* アプリへのアクセス権を所有するユーザーを変更する
+
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI での新しいワークスペース エクスペリエンスの作業の整理](service-new-workspaces.md)に関する記事を参考してください

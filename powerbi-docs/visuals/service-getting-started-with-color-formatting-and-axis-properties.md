@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 06/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276584"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354595"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>書式設定ウィンドウの概要
 
@@ -28,11 +27,11 @@ ms.locfileid: "83276584"
 
 レポートを編集していて、視覚化が選択されている場合は、 **[視覚化]** ペインが表示されます。 視覚化を変更するには、このペインを使用します。 **[視覚化]** ペインのすぐ下には、 **[フィールド]** アイコン (横並びの縦棒)、 **[書式]** アイコン (ペイント ローラー)、 **[分析]** アイコン (虫眼鏡) という 3 つのアイコンがあります。 次の図では、アイコンの下に黄色のバーによって、 **[フィールド]** アイコンが選択されていることが示されています。
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
+![[フィールド] アイコンが選択されている [視覚化] ペイン](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
 **[書式]** を選択すると、アイコンの下の領域に、現在選択されている視覚化に対して設定できるカスタマイズが表示されます。  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
+![[書式] アイコンが選択されている [視覚化] ペイン](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
 それぞれ視覚化のさまざまな要素をカスタマイズすることができます。 使用できるオプションは、選択したビジュアルによって変わります。 これらのオプションの一部を次に示します。
 
@@ -119,7 +118,7 @@ Power BI の一部の視覚化には、 **[スタイル]** オプションがあ
 ## <a name="changing-axis-properties"></a>軸のプロパティの変更
 
 X 軸または Y 軸を変更すると役立つ場合がよくあります。 色を扱う場合と同様、次のイメージに示されているように、変更対象の軸の左にある下矢印を選択して軸を変更できます。  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
+![Y 軸カードに矢印が表示されている [書式] ペイン](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
 次の例では、Y 軸を次のように書式設定しています。
 - 視覚化の右側にラベルを移動する

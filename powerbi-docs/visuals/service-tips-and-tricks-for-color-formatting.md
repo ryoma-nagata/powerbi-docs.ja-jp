@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/29/2020
+ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276607"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354618"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI における色の書式設定に関するヒントとコツ
 
@@ -62,11 +61,11 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 **[データの色]** カードを展開し、 **[すべて表示]** のスライダーをオンにします。 これにより、視覚化内の各データ要素の色が表示されます。 これで、任意のデータ ポイントを変更できるようになります。
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![[すべて表示] がオンになっている [書式] ペイン](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
 **Convenience** をオレンジ色に設定します。 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
+![1 つの列がオレンジ色になっている縦棒グラフ](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
 
 選択すると、**Convenience** のデータ ポイントがオレンジの網掛けになり、確実に目立ちます。
 
@@ -96,7 +95,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 視覚化の一部ではないフィールドを使用して、視覚化の色の書式を設定することもできます。 次の図では、 **[市場シェア供給年度累計 %]** が使用されています。 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
+![青色の複数の網掛けが含まれている縦棒グラフ](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
 
 
 ご覧のように、販売されたユニット数では**生産性**と**エクストリーム**の方が多くなっていますが (棒が高い)、 **[市場シェア供給年度累計 %]** では**モデレーション**の方が多くなっています (色が濃い)。
@@ -106,7 +105,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 この最初の図で、横棒に示されたグラデーションがどのようにグラフの縦棒に反映されているかにご注目ください。つまり、最大値が緑、最小値がオレンジ色で、それらの間の各縦棒は、緑とオレンジ色の間のスペクトルの網掛けで色が設定されています。
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
+![緑色からオレンジ色の範囲のグラデーションを示している縦棒グラフ](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
 ここで、 **[最小]** と **[最大]** の値のボックスに数値を指定した場合にどうなるかを見てみましょう。 **[最小]** と **[最大]** の両ドロップダウン ボックスで **[カスタム]** を選択し、 **[最小]** を 3,500 に設定して、 **[最大]** を 6,000 に設定します。
 

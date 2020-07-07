@@ -8,19 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279390"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299574"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded のパフォーマンスのベスト プラクティス
 
 この記事では、アプリケーションでレポート、ダッシュボード、タイルを短時間で表示するための推奨事項を紹介しています。
 
 > [!Note]
-> 読み込み時間は主に、レポートおよびデータ自体に関連する要素 (ビジュアル、データのサイズ、クエリと計算されるメジャーの複雑さなど) に依存していることに注意してください。 詳細については、[Power BI の最適化ガイド](../../guidance/power-bi-optimization.md)に関する記事をご覧ください。
+> 読み込み時間は主に、レポートおよびデータ自体に関連する要素 (視覚化、データのサイズ、クエリとメジャーの複雑さなど) に依存していることに注意してください。 詳細については、[Power BI の最適化ガイド](../../guidance/power-bi-optimization.md)に関する記事をご覧ください。
 
 ## <a name="update-tools-and-sdk-packages"></a>ツールと SDK パッケージを更新する
 
@@ -53,7 +52,7 @@ ms.locfileid: "83279390"
 複数のレポートを同じ iframe に埋め込む場合は、レポートごとに新しい iframe を生成しないようにします。 代わりに、異なる構成の `powerbi.embed(element, config)` を使用して、新しいレポートを埋め込みます。
 
 > [!NOTE]
-> "アプリ所有データ" のシナリオでレポートを切り替えることは、新しい埋め込みトークンを生成する必要があるため、あまり効果的ではない可能性があります。
+> 顧客向けの埋め込み時のレポートの切り替え ("アプリ所有データ"シナリオとも呼ばれます) では、すべてのレポートとデータセットにアクセスできる埋め込みトークンを使用する必要があります。 詳細については、[トークン API の生成](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken)に関する記事をご覧ください。
 
 ## <a name="query-caching"></a>クエリ キャッシュ
 
@@ -63,7 +62,7 @@ Power BI Premium 容量または Power BI Embedded 容量を使用する組織�
 
 ## <a name="preload"></a>事前読み込み
 
-`powerbi.preload()` を使用して、エンドユーザーのパフォーマンスを向上させます。 メソッド `powerbi.preload()` によって、後でレポートを埋め込むために使用される javascript、css ファイル、およびその他の成果物がダウンロードされます。
+`powerbi.preload()` を使用して、エンドユーザーのパフォーマンスを向上させます。 `powerbi.preload()` メソッドによって、後でレポートを埋め込むために使用される javascript、css ファイル、およびその他の成果物がダウンロードされます。
 
 レポートをすぐに埋め込まない場合は、`powerbi.preload()` を呼び出します。 たとえば、Power BI の埋め込みコンテンツがホーム ページに表示されない場合は、`powerbi.preload()` を使って、コンテンツを埋め込むために使われる成果物のダウンロードとキャッシュを行います。
 

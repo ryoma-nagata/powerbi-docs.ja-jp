@@ -5,17 +5,16 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6622bff6123ac6985a5275ec72be3a78b13908e6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 94a65a826cce3cdb0821e8127e45a1f983ad7d89
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274642"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227869"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI での行レベルのセキュリティ (RLS)
 
@@ -102,7 +101,10 @@ Power BI サービス内のワークスペースに Power BI Desktop レポー�
 [!INCLUDE [include-short-name](../includes/rls-faq.md)]
 
 ## <a name="next-steps"></a>次の手順
-[Power BI Desktop での行レベルのセキュリティ (RLS)](../create-reports/desktop-rls.md)  
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+この記事に関する詳細については、次のリソースを参照してください。
 
+- [Power BI Desktop の行レベルのセキュリティを使用してデータ アクセスを制限する](../create-reports/desktop-rls.md)
+- [Power BI Desktop での行レベルのセキュリティ (RLS) のガイダンス](../guidance/rls-guidance.md)
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

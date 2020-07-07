@@ -10,12 +10,11 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84316065"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299620"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>新しいワークスペース エクスペリエンスで利用状況の指標を監視する
 
@@ -257,6 +256,7 @@ Power BI は別個の国内クラウドで利用できます。 これらのク�
 - 入れ子になったグループを使用している場合、ユーザー マスクは想定どおりに機能しません。 組織によって Power BI 管理ポータルのテナント設定の [コンテンツ作成者用の使用状況メトリックのユーザーごとのデータ] が無効にされている場合は、最上位レベルのメンバーだけがマスクされています。 サブグループのメンバーは引き続き表示されます。
 - [利用状況の指標に関するレポート] データセットの初期化には数分かかる場合があります。その場合、更新が完了するまで Power BI のユーザー インターフェイスは待機しないため、空白の利用状況の指標に関するレポートが表示されます。 [利用状況の指標に関するレポート] データセットの設定で更新履歴を確認し、更新操作が成功したことを確認してください。
 - [利用状況の指標に関するレポート] データセットの初期化は、更新中に発生したタイムアウトが原因で失敗する場合があります。 この問題を解決するには、以下のトラブルシューティングに関するセクションを参照してください。
+- 使用状況メトリック レポートの共有は無効になっています。 ユーザーにレポートへの読み取りアクセス権を付与するには、まずワークスペースへのアクセス権を付与する必要があります。
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 

@@ -1,6 +1,6 @@
 ---
 title: Power BI のページ分割されたレポートの 1 日コース
-description: このオンライン コースは、Power BI のページ分割されたレポートを作成、公開、および配布するために必要な技術知識を持つレポート作成者になれるよう支援することを目的としています。
+description: このビデオベースのコースは、Power BI のページ分割されたレポートを作成、発行、および配布するために必要な技術知識を持つレポート作成者になれるよう支援することを目的としています。
 author: peter-myers
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
@@ -9,12 +9,11 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3b6c3f79b6695c670b942253ddd2c2b158dc3acc
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693242"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427499"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Power BI のページ分割されたレポートの 1 日コース
 
@@ -93,11 +92,11 @@ ms.locfileid: "83693242"
 - **MySolution**:このフォルダーには、ご利用のソリューション ファイルが格納されます。 これをいつ使用するかは、ラボの説明の指示に従います。
 - **Presentation**:このフォルダーには、コースのプレゼンテーション ファイルが含まれています。これは PDF ドキュメントとして提供されます。
 
-### <a name="getting-started-with-the-kit"></a>キットの使用を開始する
+### <a name="get-started-with-the-kit"></a>キットの使用を開始する
 
 まずはオンライン コースを視聴することをお勧めします。 プレゼンテーション理論に戻るには、 **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** ファイルを開きます。 プレゼンテーションには 8 つのラボスライドが含まれています。これらにより、理論を実践するタイミングが示されます。 また、関連するコンテンツを検索するのに役立つリソース リンクも多数含まれています。
 
-最初のラボを開始する準備ができたら、 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** ファイルを開きます。 このドキュメントでは、Power BI サービスにサインインし、データセットをアップロードしてから [Power BI レポートビルダー](../paginated-reports/report-builder-power-bi.md)をインストールする方法について説明します。
+最初のラボを開始する準備ができたら、 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** ファイルを開きます。 このドキュメントでは、Power BI サービスにサインインし、データセットをアップロードしてから [Power BI レポートビルダー](https://aka.ms/pbireportbuilder)をインストールする方法について説明します。
 
 > [!NOTE]
 > 独自の Power BI アカウントを用意する必要があります。 まだお持ちでない場合は、「[個人として Power BI にサインアップする](../fundamentals/service-self-service-signup-for-power-bi.md)」を参照してください。

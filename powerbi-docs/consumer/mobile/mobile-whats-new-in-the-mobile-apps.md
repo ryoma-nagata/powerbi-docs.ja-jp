@@ -6,14 +6,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/24/2020
 ms.author: painbar
-ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565302"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782594"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -24,6 +23,20 @@ ms.locfileid: "83565302"
 
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="june-2020"></a>2020 年 6 月
+### <a name="show-your-bookmarks-in-slideshows-windows"></a>スライドショーでのブックマークの表示 (Windows)
+データ内の特定の分析情報を強調表示するために、レポートと個人用のブックマークをプレゼンテーションの一部として自動的にスライドショーに含めることができるようになりました。
+[ぜひお試しください。](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
+
+## <a name="may-2020"></a>2020 年 5 月
+### <a name="weve-added-dark-mode-to-power-bi-mobile-ios"></a>Power BI モバイルにダーク モードが追加されました (iOS)
+iOS13 用 Power BI モバイル アプリで、新しいダーク モードをお試しください。 ダーク モードでは、暗い背景に明るいテキストが表示され、画面の明るさが下がり、内容が見やすくなります。 アプリの表示設定でテーマを切り替えることができます。 [詳細情報](mobile-apps-dark-mode.md)
+
+![Power BI モバイル アプリのダーク モード](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode.png)
+
+### <a name="apply-bookmarks-in-presentation-mode-windows"></a>プレゼンテーション モードでのブックマークの適用 (Windows)
+プレゼンテーション モードでレポートを表示するときに、個人用とレポートの両方のブックマークをレポート ページに適用して、データに関するストーリーを表示できるようになりました。 [ぜひお試しください。](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="april-2020"></a>2020 年 4 月
 

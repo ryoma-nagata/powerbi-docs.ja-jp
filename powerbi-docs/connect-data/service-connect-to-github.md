@@ -8,12 +8,11 @@ ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 56e0c3c6dde3a745448092ad118275ed847506fa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
-ms.translationtype: HT
+ms.openlocfilehash: 706e4221c131f1743ff00bb9a7b6c0812394cbb8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230234"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782430"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI で GitHub に接続する
 この記事では、Power BI テンプレート アプリを使用して GitHub アカウントからデータをプルする手順について説明します。 このテンプレート アプリは、ダッシュボード、一連のレポート、およびデータセットを含むワークスペースを生成して、GitHub データの探索を可能にします。 Power BI 用の GitHub アプリは、投稿、問題、pull request、アクティブなユーザーなどに関するデータを含む、GitHub リポジトリ (リポジトリとも呼ばれます) の分析情報を示します。
@@ -31,7 +30,7 @@ ms.locfileid: "85230234"
 >
 >このテンプレート アプリでは、GitHub Enterprise はサポートされていません。
 
-## <a name="install-the-app"></a>アプリのインストール
+## <a name="install-the-app"></a>アプリをインストールする
 
 1. アプリにアクセスするには、次のリンクをクリックします: [GitHub テンプレート アプリ](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
@@ -96,11 +95,11 @@ ms.locfileid: "85230234"
 ## <a name="whats-included-in-the-app"></a>アプリに含まれるもの
 Power BI では、次のデータを GitHub から使用できます。     
 
-| テーブル名 | 説明 |
+| テーブル名 | Description |
 | --- | --- |
 | 貢献 |投稿物のテーブルは、共同作成者によって作成された追加、削除、コミットの合計を週ごとに集計して示します。 上位 100 人の共同作成者が含まれています。 |
 | Issues |選択したリポジトリのすべての問題の一覧を表示します。問題が閉じられるまでの合計時間と平均時間、開かれている問題の合計、閉じられた問題の合計などの計算が含まれます。 リポジトリに問題がない場合、このテーブルは空になります。 |
-| Pull requests |このテーブルには、リポジトリのすべての Pull Requests と、要求をプルした人が含まれています。 また、開かれている pull request、閉じられている pull request、pull request の合計、要求をプルするまでにかかった時間、pull request にかかった平均時間などに関する計算も含まれます。 リポジトリに問題がない場合、このテーブルは空になります。 |
+| Pull requests |このテーブルには、リポジトリのすべての Pull Requests と、要求をプルした人が含まれています。 また、開かれている pull request、閉じられている pull request、pull request の合計、要求をプルするまでにかかった時間、pull request にかかった平均時間などに関する計算も含まれます。 リポジトリに pull request がない場合、このテーブルは空になります。 |
 | ユーザー |このテーブルは、選択されたリポジトリで投稿を行った、問題をファイリングした、または pull request を解決した GitHub ユーザー (共同作成者) の一覧を示します。 |
 | Milestones |これは、選択したリポジトリのすべてのマイルス トーンです。 |
 | DateTable |このテーブルには本日から過去数年間の日付が含まれており、これによって日付ごとに GitHub のデータを分析できます。 |
@@ -134,10 +133,10 @@ GitHub 自体のリポジトリを見ることで、所有者とリポジトリ�
 2. GitHub で、Power BI でアクセスしようとしているリポジトリの URL に移動します。 たとえば、 https://github.com/dotnet/corefx です。  
 3. Power BI に戻って GitHub に接続します。 [GitHub の構成] ダイアログ ボックスで、その同じリポジトリの名前と所有者を使用します。  
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
-* [チュートリアル:Power BI を使用して GitHub リポジトリに接続する](service-tutorial-connect-to-github.md)
+* [チュートリアル: Power BI を使用して GitHub リポジトリに接続する](service-tutorial-connect-to-github.md)
 * [Power BI で新しいワークスペースを作成する](../collaborate-share/service-create-the-new-workspaces.md)
 * [Power BI にアプリをインストールし、使用する](../consumer/end-user-apps.md)
 * [外部サービス用の Power BI アプリに接続する](service-connect-to-services.md)
-* 疑問がある場合 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

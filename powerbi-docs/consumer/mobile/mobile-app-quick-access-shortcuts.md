@@ -4,15 +4,14 @@ description: ショートカットや Google Search を使用して、頻繁に�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
-ms.openlocfilehash: 1aa2e80e7624fb50878c70e464aac7edd943e0a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: ec4763118360ea02362e3f49fe9776224e9c087a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802780"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229397"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>Power BI Android アプリで Android アプリのショートカットを使用する
 
@@ -33,7 +32,7 @@ Android 用 Power BI モバイル アプリでは、必要なレポートまた�
 
 任意のレポートまたはダッシュボードへのショートカットを作成することができます。
 
-1. [操作] メニューで、 **[その他のオプション]** をクリックして、 **[ショートカットの追加]** を選択します。
+1. レポートの [操作] メニューで、 **[その他のオプション]** をタップして、 **[ショートカットの追加]** を選択します。 ダッシュボードから、[操作] メニューの **[ショートカットの追加]** をタップします。
 
    ![[ショートカットの追加] 操作メニュー](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-action-menu.png)
 
@@ -44,7 +43,6 @@ Android 用 Power BI モバイル アプリでは、必要なレポートまた�
    以下に、これら 2 つのエクスペリエンスを示します。
 
    ![[ショートカットの追加] バナー](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-banner.png)
-
 
  1. **[ショートカットの追加]** ダイアログが開き、項目の名前が示されます。 必要に応じて、名前を編集できます。 完了したら、 **[追加]** をタップします。
 
@@ -60,7 +58,7 @@ Android 用 Power BI モバイル アプリでは、必要なレポートまた�
 
 ## <a name="edit-the-shortcut-name"></a>ショートカット名を編集する
 
-ショートカットの名前を編集するには、操作メニューで、 **[その他のオプション]** を選択してから、 **[Edit shortcut name]\(ショートカット名の編集\)** を選びます
+ショートカットの名前を編集するには、レポートの操作メニューで、 **[その他のオプション]** をタップしてから、 **[Edit shortcut name]\(ショートカット名の編集\)** を選択します ダッシュボードから、 **[ショートカットの追加]** をタップします。 **[Edit shortcut name]\(ショートカット名の編集\)** ダイアログが表示されます。
 
  ![[Edit shortcut name]\(ショートカット名の編集\)](media/mobile-app-quick-access-shortcuts/mobile-edit-shortcut.png)
 

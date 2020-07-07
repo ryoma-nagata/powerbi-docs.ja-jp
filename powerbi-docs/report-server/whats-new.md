@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/27/2020
-ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
-ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
-ms.translationtype: HT
+ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84126298"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739232"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
@@ -215,7 +214,7 @@ Power BI Report Server では、Enterprise および Standard エディション
 
 #### <a name="power-bi-visuals-api"></a>Power BI ビジュアル API
 
-このリリースに付属する API バージョンは 2.6 です。
+このリリースに付属する API バージョンは 2.6.0 です。
 
 #### <a name="microsoft-report-builder-update"></a>Microsoft レポート ビルダーの更新プログラム
 
@@ -366,7 +365,7 @@ Power BI レポートでは、次の機能がサポートされています。
 
 #### <a name="power-bi-visuals"></a>Power BI ビジュアル
 
-- このリリースに付属する API バージョンは 2.3 です。
+- このリリースに付属する API バージョンは 2.3.0 です。
 
 ### <a name="administrator-settings"></a>管理者の設定
 

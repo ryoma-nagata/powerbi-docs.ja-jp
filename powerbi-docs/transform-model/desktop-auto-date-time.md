@@ -5,15 +5,14 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ea3d786642d969eb8f0879bd336a49c486b3f95c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349519"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393820"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop で自動の日付/時刻を適用する
 
@@ -24,7 +23,6 @@ ms.locfileid: "83349519"
 このオプションを有効にすると、次の条件がすべて満たされていれば、Power BI Desktop によって各日付列に対して非表示の自動の日付/時刻テーブルが作成されます。
 
 - テーブル ストレージ モードがインポートである
-- 列が計算列ではない
 - 列のデータ型が日付または日付/時刻である
 - 列がモデル リレーションシップの "多" の側ではない
 
@@ -99,6 +97,7 @@ Power BI Desktop で、 _[ファイル] > [オプションと設定] > [オプ�
 この記事に関する詳細については、次のリソースを参照してください。
 
 - [Power BI Desktop での自動の日付/時刻のガイダンス](../guidance/auto-date-time.md)
+- [Power BI Desktop で日付テーブルを作成する](../guidance/model-date-tables.md)
 - [Power BI Desktop で日付テーブルを設定し、使用する](desktop-date-tables.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

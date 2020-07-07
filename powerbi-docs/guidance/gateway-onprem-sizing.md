@@ -8,12 +8,11 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279528"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485946"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>オンプレミス データ ゲートウェイのサイズ設定
 
@@ -84,7 +83,7 @@ Power BI サービスとゲートウェイ間と、ゲートウェイとデー�
 
 - 信頼性、高速、短く一貫した待機時間を目指します
 - ゲートウェイとデータ ソース間のマシンのホップをなくすか減らします
-- ファイアウォール プロキシ レイヤーによって課される帯域幅調整をなくします。 Power BI エンドポイントの詳細については、「[ホワイトリスト登録用の Power BI の URL](../admin/power-bi-whitelist-urls.md)」を参照してください。
+- ファイアウォール プロキシ レイヤーによって課される帯域幅調整をなくします。 Power BI エンドポイントの詳細については、「[Power BI URL を許可リストに追加する](../admin/power-bi-whitelist-urls.md)」をご覧ください。
 - [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) を構成して、Power BI に対して非公開の管理された接続を確立します
 - Azure VM のデータ ソースの場合、必ず VM を [Power BI サービスと同じ場所に配置します](../admin/service-admin-where-is-my-tenant-located.md)
 - 動的 RLS を含む SQL Server Analysis Services (SSAS) へのライブ接続ワークロードの場合、ゲートウェイ マシンとオンプレミスの Active Directory 間に良好な接続を確保します

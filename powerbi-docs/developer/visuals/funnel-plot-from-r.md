@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 42304e60740c215b1300e66f074807aea10ec6f9
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84317054"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354480"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>チュートリアル:R スクリプトから R ビジュアルにフィルター プロットを作成する
 この記事では、R ビジュアルで R スクリプトを使用してじょうごプロットを作成する方法を順を追って説明します。
@@ -89,13 +88,13 @@ ms.locfileid: "84317054"
 
    各入力フィールドの名前、種類、ツールヒント、および最大列数が定義されているセクション `dataRoles` および `dataViewMappings` を更新する必要があります。
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
+   ![前と後](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
    
    詳細については、[機能](./capabilities.md)に関する記事を参照してください。
 
 1. `dataset` ではなく、`Population`、`Number`、および `Tooltips` を入力データフレームとしてサポートするように *script.r* を編集するか、または [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r) をダウンロードします。
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
+   ![スクリプト](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
    > [!TIP]
    > R スクリプト内の変更をたどるには、コメント ブロックを検索します。 
@@ -125,7 +124,7 @@ ms.locfileid: "84317054"
 
    [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json) をダウンロードします。詳細については、[オブジェクトのプロパティ](./objects-properties.md)に関するページを参照してください。
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
+   ![capabilities](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
 1. *src/settings.ts* の編集を行って、[こちらの settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts) をミラーリングします。 このファイルは TypeScript で記述されています。  
 
@@ -133,7 +132,7 @@ ms.locfileid: "84317054"
    - プロパティ値を保持する新しいインターフェイスを宣言する
    - メンバー プロパティと既定値を定義する
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
+   ![設定](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
 1. *script.r* の編集を行って、[こちらの script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r) をミラーリングします。 これにより、ユーザー パラメーターごとに `if.exists` 呼び出しを追加することで、UI のパラメーターのサポートが追加されます。
 
@@ -150,7 +149,7 @@ ms.locfileid: "84317054"
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![スクリプトの前と後](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    パラメーターを UI に公開しないように決定することもできます。  
 

@@ -6,13 +6,12 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: c4a823b0b41def6c10cd8f932bb97e91eb977ecb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.date: 06/25/2020
+ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148594"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782578"
 ---
 # <a name="understand-the-deployment-process-preview"></a>配置プロセスについて理解する (プレビュー)
 
@@ -60,7 +59,7 @@ ms.locfileid: "83148594"
 
 ターゲット データセット内のデータは、可能であれば保持されます。 データセットに変更がない場合、データは配置前と同じままで保持されます。
 
-テーブルまたは計算メジャーの追加などの小さな変更では、Power BI によって元のデータが保持され、必要な部分のみを更新するように、更新が最適化されます。 重大なスキーマ変更や、データ ソース接続の変更では、完全な更新が必要です。
+テーブルまたはメジャーの追加などの小さな変更では、Power BI によって元のデータが保持され、必要な部分のみを更新するように、更新が最適化されます。 重大なスキーマ変更や、データ ソース接続の変更では、完全な更新が必要です。
 
 ### <a name="requirements-for-deploying-to-a-stage-with-an-existing-workspace"></a>既存のワークスペースを持つステージへの配置の要件
 
@@ -152,14 +151,14 @@ ms.locfileid: "83148594"
 
 配置パイプラインのステージごとにアプリを作成し、各アプリの更新部分をエンド ユーザーの観点からテストできるようにします。 配置パイプラインを使用すると、このプロセスを簡単に管理できます。 特定のパイプライン ステージでアプリを発行または表示するには、ワークスペース カードの発行ボタンまたは表示ボタンを使用します。
 
-[![](media/deployment-pipelines-process/publish.png "Publish app")](media/deployment-pipelines-process/publish.png#lightbox)
+[![アプリの発行](media/deployment-pipelines-process/publish.png "アプリの発行")](media/deployment-pipelines-process/publish.png#lightbox)
 
 運用ステージでは、左下隅にあるメイン アクション ボタンをクリックすると、Power BI のアプリの更新ページが開き、アプリ ユーザーがコンテンツを更新できるようになります。
 
-[![](media/deployment-pipelines-process/update-app.png "Update app")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![アプリの更新](media/deployment-pipelines-process/update-app.png "アプリを更新")](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
->配置プロセスには、アプリのコンテンツや設定の更新は含まれません。 コンテンツまたは設定に変更を適用するには、必要なパイプライン ステージでアプリを手動で更新する必要があります。
+>デプロイ プロセスには、アプリのコンテンツや設定の更新は含まれません。 コンテンツまたは設定に変更を適用するには、必要なパイプライン ステージでアプリを手動で更新する必要があります。
 
 ## <a name="permissions"></a>アクセス許可
 
@@ -236,13 +235,23 @@ ms.locfileid: "83148594"
 
 * Power BI の[秘密度ラベル](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)が付いているレポートやダッシュボードなどの Power BI 項目は、配置できません。
 
-* [増分更新](../admin/service-premium-incremental-refresh.md)で構成されたデータセットは、配置できません。
+* 1 回の配置で配置できる Power BI 項目の最大数は、300 個です。
 
 * ワークスペースの制限事項の一覧については、「[ワークスペースの割り当ての制限事項](deployment-pipelines-get-started.md#workspace-assignment-limitations)」を参照してください。
 
-* データセット ルールの制限事項の一覧については、「[データセット ルールの制限事項](deployment-pipelines-get-started.md#dataset-rule-limitations)」を参照してください
-
 * サポートされていない項目の一覧については、「[サポートされていない項目](#unsupported-items)」を参照してください。
+
+### <a name="dataset-limitations"></a>データセットの制限事項
+
+* [増分更新](../admin/service-premium-incremental-refresh.md)で構成されたデータセットは、配置できません。
+
+* リアルタイム データ接続を使用するデータセットを配置することはできません。
+
+* 配置中に、ターゲット データセットで[ライブ接続](../connect-data/desktop-report-lifecycle-datasets.md)が使用される場合は、ソース データセットでもこの接続モードを使用する必要があります。
+
+* 配置後に、(配置されているステージから) データセットをダウンロードすることはサポートされていません。
+
+* データセット ルールの制限事項の一覧については、「[データセット ルールの制限事項](deployment-pipelines-get-started.md#dataset-rule-limitations)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 

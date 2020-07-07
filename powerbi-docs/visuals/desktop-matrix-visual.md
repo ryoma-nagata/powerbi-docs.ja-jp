@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/10/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279183"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354710"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI でマトリックスの視覚エフェクトを作成する
 
@@ -49,17 +48,17 @@ ms.locfileid: "83279183"
 ## <a name="expanding-and-collapsing-row-headers"></a>行ヘッダーの展開と折りたたみ
 行ヘッダーを展開する方法は 2 つあります。 1 つ目は、右クリック メニューを使用する方法です。 選択した特定の行ヘッダー、レベル全体、または階層の最下層までのすべてを展開するオプションが表示されます。 行ヘッダーを折りたたむ場合も同様のオプションがあります。
 
-![](media/desktop-matrix-visual/power-bi-expand1.png)
+![展開と選択を示しているメニュー](media/desktop-matrix-visual/power-bi-expand1.png)
 
 **[行ヘッダー]** カードの下にある書式設定ペインを使用して、行ヘッダーに + または - ボタンを追加することもできます。 既定では、アイコンは行ヘッダーの書式設定と一致しますが、必要に応じてアイコンの色とサイズを個別にカスタマイズできます。
 
 アイコンが有効になると、Excel のピボットテーブル アイコンと似た動作になります。
 
-![](media/desktop-matrix-visual/power-bi-expand2.png)
+![アイコンがオンになっているマトリックス](media/desktop-matrix-visual/power-bi-expand2.png)
 
 マトリックスの展開状態はレポートと共に保存されます。 展開された、または折りたたまれたダッシュボードにマトリックスをピン留めすることができます。 このダッシュボード タイルを選択してレポートを開くと、レポートの展開状態を変更することができます。 
 
-![](media/desktop-matrix-visual/power-bi-expand3.png)
+![拡張状態を示しているマトリックス](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
 > Analysis Services 多次元モデルに基づいてレポートを作成する場合、モデルで既定のメンバー機能が使用されていると、展開と折りたたみに関する特別な考慮事項がいくつか生じます。 詳細については、「[Power BI で多次元モデルを操作する](../connect-data/desktop-default-member-multidimensional-models.md)」を参照してください。

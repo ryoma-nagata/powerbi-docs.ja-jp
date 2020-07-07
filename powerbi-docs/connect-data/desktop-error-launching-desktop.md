@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 67c83f2cc0eb81e90f447961ed178a04e97e050e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292089"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485440"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Power BI Desktop の起動に関するトラブルシューティング
 
@@ -36,7 +35,7 @@ Power BI オンプレミス データ ゲートウェイが不要になった場
 
 代わりに、Power BI Desktop を管理者として正常に起動できます。これにより、Power BI Desktop も正常に開くことができます。 この場合でも、前述のとおり Power BI オンプレミス データ ゲートウェイの最新バージョンをインストールすることを勧めします。
 
-Power BI Desktop はマルチプロセス アーキテクチャとして設計されており、複数のプロセスが Windows 名前付きパイプを使って通信を行っています。 これらの名前付きパイプを干渉する他のプロセスがある可能性があります。 このような干渉の最も一般的な理由はセキュリティであり、ウイルス対策ソフトウェアやファイアウォールによってパイプがブロックされたり、トラフィックが特定のポートにリダイレクトされたりする場合があります。 管理者特権で Power BI Desktop を開くと、その問題が解決する可能性があります。 管理者特権で開くことができない場合は、管理者に連絡して、名前付きパイプが適切に通信できない原因となっているセキュリティ規則を確認してください。 次に、Power BI Desktop とそれぞれのサブプロセスをホワイトリストに登録します。
+Power BI Desktop はマルチプロセス アーキテクチャとして設計されており、複数のプロセスが Windows 名前付きパイプを使って通信を行っています。 これらの名前付きパイプを干渉する他のプロセスがある可能性があります。 このような干渉の最も一般的な理由はセキュリティであり、ウイルス対策ソフトウェアやファイアウォールによってパイプがブロックされたり、トラフィックが特定のポートにリダイレクトされたりする場合があります。 管理者特権で Power BI Desktop を開くと、その問題が解決する可能性があります。 管理者特権で開くことができない場合は、管理者に連絡して、名前付きパイプが適切に通信できない原因となっているセキュリティ規則を確認してください。 次に、Power BI Desktop とそれぞれのサブプロセスを許可リストに追加します。
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>SQL Server に接続するときの問題を解決する
 

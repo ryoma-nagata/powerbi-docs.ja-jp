@@ -5,16 +5,15 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: da21acf2c37136b70bdb7ab70060422655ac879c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323875"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231074"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI ゲートウェイ (個人用モード) のトラブルシューティング
 
@@ -47,7 +46,7 @@ ms.locfileid: "83323875"
 ## <a name="schedule-refresh"></a>更新のスケジュール設定
 **エラー:The credential stored in the cloud is missing. (クラウドに格納されている資格情報がありません。)**
 
-スケジュールされた更新があり、ゲートウェイ (個人用モード) をアンインストールしてから再インストールした場合、\<データセット\> の設定でこのエラーが表示されることがあります。 ゲートウェイ (個人用モード) をアンインストールすると、更新用に構成されたデータセットのデータ ソース資格情報が Power BI サービスから削除されます。
+スケジュールされた更新があり、ゲートウェイ (個人用モード) をアンインストールしてから再インストールした場合、\<dataset\> の設定でこのエラーが表示されることがあります。 ゲートウェイ (個人用モード) をアンインストールすると、更新用に構成されたデータセットのデータ ソース資格情報が Power BI サービスから削除されます。
 
 **解決方法:** Power BI で、データセットの [設定の更新] に移動します。 **[データ ソースの管理]** で、エラーが発生したデータ ソースに対して、 **[資格情報の編集]** を選択します。 その後、データ ソースにもう一度サインインします。
 

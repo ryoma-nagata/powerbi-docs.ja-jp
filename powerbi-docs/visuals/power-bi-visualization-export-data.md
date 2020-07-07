@@ -7,16 +7,15 @@ ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
-ms.translationtype: HT
+ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337029"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238968"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>視覚エフェクトの作成に使用されたデータをエクスポートする
 
@@ -156,7 +155,7 @@ Watch では、レポート内の視覚化の 1 つからデータをエクス�
 
 ## <a name="customize-the-export-data-user-experience"></a>データのエクスポートのユーザー エクスペリエンスをカスタマイズする
 
-レポートへのアクセスが許可されているユーザーには、[行レベル セキュリティ (RLS)(../admin/service-admin-rls.md) によってアクセスが制限されない限り、**基になるデータセット全体へのアクセスが許可されます**。 レポート作成者と Power BI 管理者は、以下で説明する機能を使用してユーザー エクスペリエンスをカスタマイズできます。
+レポートへのアクセスが許可されているユーザーには、[行レベル セキュリティ (RLS)](../admin/service-admin-rls.md) によってアクセスが制限されない限り、**基になるデータセット全体へのアクセスが許可されます**。 レポート作成者と Power BI 管理者は、以下で説明する機能を使用してユーザー エクスペリエンスをカスタマイズできます。
 
 - レポート作成者は、ユーザーが使用できる ["*エクスポート オプション*" を決定します](#set-the-export-options)。  
 
@@ -171,7 +170,7 @@ Watch では、レポート内の視覚化の 1 つからデータをエクス�
 
 ## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>Power BI の外部にエクスポートされたデータを保護する
 
-- レポート作成者は、レポートに対して[秘密度ラベル](../admin/service-security-data-protection-overview.md)を適用できます。  これらのラベルによって、そのレポートのデータにアクセスできるユーザーと、そのデータを Excel、PowerPoint、および PDF にエクスポートする方法が決定されます。 一部の秘密度レベルには、データのエクスポート時に適用される保護設定 (例: アクセス許可、暗号化など) が含まれます。 秘密度レベルに保護設定が含まれている場合は、データを Excel、PowerPoint、および PDF にエクスポートするときにこれらの設定が適用されます。 適切なアクセス許可を持つユーザーだけが、レポート データのエクスポート、表示、保存、および共有を行うことができます。 
+- レポート作成者は、Microsoft Information Protection の[秘密度ラベル](../admin/service-security-data-protection-overview.md)を使用して、レポートの分類とラベル付けを行うことができます。 秘密度ラベルに保護設定が含まれている場合、Power BI では、Excel、PowerPoint、または PDF ファイルにレポート データをエクスポートするときに、これらの保護設定が適用されます。 承認されているユーザーのみが保護されたファイルを開くことができます。
 
 - セキュリティ および Power BI 管理者は、[Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) を使用して、ユーザーのアクセスとアクティビティの監視、リアルタイムのリスク分析の実行、ラベル固有の制御の設定を行うことができます。 たとえば、組織では Microsoft Cloud App Security を使用して、ユーザーが Power BI から管理されていないデバイスに機密データをダウンロードできないようにするポリシーを構成できます。
 

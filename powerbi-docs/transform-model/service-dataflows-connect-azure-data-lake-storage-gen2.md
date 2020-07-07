@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e24888d4be0a527bd7af6a28fd28795b516b2020
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309270"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354756"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 を接続する
 
@@ -42,7 +41,7 @@ ms.locfileid: "83309270"
 
 Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成する前に、ストレージ アカウントを作成して構成しておく必要があります。 次に示す Power BI の要件を確認しましょう。
 
-1. ADLS ストレージ アカウントの所有者である必要があります。 これは、サブスクリプション レベルからの継承ではなく、リソース レベルで割り当てる必要があります。
+1. ADLS ストレージ アカウントの所有者である必要があります。 これは、サブスクリプション レベルから継承するのではなく、リソース レベルで割り当てる必要があります。
 2. ストレージ アカウントは、ご利用の Power BI テナントと同じ AAD テナントに作成する必要がある。
 3. ストレージ アカウントは、ご利用の Power BI テナントと同じリージョンに作成する必要がある。 Power BI テナントが配置されている場所を特定するには、「[Power BI テナントの場所](../admin/service-admin-where-is-my-tenant-located.md)」を参照してください。
 4. ストレージ アカウントでは、*階層的名前空間*の機能が有効になっている必要がある。

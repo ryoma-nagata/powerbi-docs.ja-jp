@@ -6,14 +6,13 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149250"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238771"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded の Multi-Geo のサポート
 
@@ -80,6 +79,8 @@ Multi-Geo で API を使用して容量を管理できるように、既存の A
 * Multi-Geo 環境でデータを別のリージョンに移行する場合、ソース データは、データが移行された元のリージョンに最大 30 日間残る可能性があります。 その間、ユーザーはそのデータにアクセスできません。 30 日の期間中に、そのデータはこのリージョンから削除され、破棄されます。
 
 * 一般的に、Multi-Geo でパフォーマンスが向上することはありません。 レポートとダッシュボードの読み込み処理の場合、ホーム リージョンに対してメタデータを要求する必要があります。
+
+* 顧客向けの埋め込みシナリオでは、クエリ テキストとクエリ結果はホーム テナントを通じて引き続き転送されます。
 
 ## <a name="next-steps"></a>次の手順
 

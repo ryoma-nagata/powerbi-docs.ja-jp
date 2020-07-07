@@ -5,15 +5,14 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 002df4e6c3eec7095258647a0015042efb98257f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292503"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485555"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Power BI Desktop での DirectQuery モデルの開発のトラブルシューティング
 
@@ -42,13 +41,13 @@ ms.locfileid: "83292503"
 - Teradata
 - SAP HANA
 
-トレース ファイルは、現在のユーザーの **AppData** フォルダーにあります。 _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
+トレース ファイルは、現在のユーザーの **AppData** フォルダーにあります ( _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_)。
 
 このフォルダーに簡単にアクセスするには次のようにします。Power BI Desktop で _[ファイル] > [オプションと設定] > [オプション]_ の順に選択し、 **[診断]** ページを選択します。 次のダイアログ ウィンドウが表示されます。
 
 ![Power BI Desktop ウィンドウを開いて [グローバル] の [診断] ページを選択したところ。 [診断オプション] セクションには、[トレースを有効にする] と [ジオコーディング キャッシュのバイパス] の 2 つのプロパティがあります。 [トレースを有効にする] オプションが有効になっています。 [クラッシュ ダンプの収集] セクションには、[今すぐ有効にする] ボタンのほか、クラッシュ ダンプ (またはトレース) フォルダーを開くためのリンクが表示されます。](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-[クラッシュ ダンプの収集] の **[クラッシュ ダンプ/トレース フォルダーを開く]** リンクを選択すると、次のフォルダーが表示されます。 _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+[クラッシュ ダンプの収集] の **[クラッシュ ダンプ/トレース フォルダーを開く]** リンクを選択すると、 _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_ というフォルダーが開きます。
 
 そのフォルダーの親フォルダーに移動すると、_AnalysisServicesWorkspaces_ を含むフォルダーが表示され、これには Power BI Desktop の開いているインスタンスごとに 1 つのワークスペース フォルダーが含まれます。 これらのサブフォルダーは整数のサフィックスが付いた名前になっています (例: _AnalysisServicesWorkspace2058279583_)。
 
@@ -63,7 +62,7 @@ SQL Server Management Studio をダウンロードしてインストールした
 トレース ファイルを開くには、次の手順のようにします。
 
 1. SQL Server Profiler で、 _[ファイル] > [開く] > [トレース]_ ファイルの順に選択します。
-2. 現在開いている Power BI セッションのトレース ファイルへのパスを入力します。次はその例です。 _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
+2. 現在開いている Power BI セッションのトレース ファイルのパスを入力します。たとえば、 _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_ です。
 3. _FlightRecorderCurrent.trc_ を開く
 
 現在のセッションのすべてのイベントが表示されます。 注釈付きの例を以下に示します。イベントのグループが強調表示されています。 各グループには次のものが含まれます。

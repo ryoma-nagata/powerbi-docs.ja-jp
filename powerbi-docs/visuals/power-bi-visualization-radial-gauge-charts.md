@@ -7,15 +7,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276354"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354894"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI の放射状ゲージ グラフ
 
@@ -70,7 +69,7 @@ ms.locfileid: "83276354"
 
 1. **[フィールド]** ウィンドウから、 **[Gross Sales]** を選択します。
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
+   ![財務テーブルが展開され、総売上が選択されている](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
 1. 集計を **[平均]** に変更します。
 

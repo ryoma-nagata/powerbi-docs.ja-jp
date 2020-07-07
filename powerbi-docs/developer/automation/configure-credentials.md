@@ -6,18 +6,21 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
-ms.date: 02/23/2020
-ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.topic: how-to
+ms.date: 06/23/2020
+ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114775"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355009"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Power BI 用の資格情報をプログラムで構成する
 
-以下の手順に従って、Power BI 用の資格情報をプログラムで構成します。
+この記事の手順に従って、Power BI 用の資格情報をプログラムで構成します。
+
+>[!NOTE]
+>* 呼び出し元のユーザーは、データセットの所有者であるかゲートウェイ管理者である必要があります。[サービス プリンシパル](../embedded/embed-service-principal-certificate.md)を使用することもできます。 たとえば、サービス プリンシパルをデータセットの所有者にすることができます。
+>* クラウド データ ソースとそれに対応する資格情報は、ユーザー レベルで管理されます。
 
 ## <a name="update-credentials-flow-for-data-sources"></a>データ ソースの資格情報フローを更新する
 

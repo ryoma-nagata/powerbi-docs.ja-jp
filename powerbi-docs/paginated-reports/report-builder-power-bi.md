@@ -1,7 +1,7 @@
 ---
 title: Power BI レポート ビルダー
 description: Power BI Report Builder は、ページ分割されたレポートを作成するためのツールです。
-ms.date: 11/27/2019
+ms.date: 06/29/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,17 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621520"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782744"
 ---
 # <a name="power-bi-report-builder"></a>Power BI レポート ビルダー
 
- Power BI Report Builder は、ページ分割されたレポートを作成するためのツールです。  ページ分割されたレポートをデザインするときは、どのようなデータをどこから取得し、どのように表示するかの定義を作成します。 レポートを実行すると、指定したレポート定義がレポート プロセッサによって読み取られ、データが取得され、レポートのレイアウトと組み合わせることでレポートが生成されます。 レポート ビルダーでレポートをプレビューします。 その後、Power BI サービスにレポートを発行します。
+ Power BI Report Builder は、Power BI サービスに発行できるページ分割されたレポートを作成するためのツールです。  ページ分割されたレポートをデザインするときは、どのようなデータをどこから取得し、どのように表示するかの定義を作成します。 レポートを実行すると、指定したレポート定義がレポート プロセッサによって読み取られ、データが取得され、レポートのレイアウトと組み合わせることでレポートが生成されます。 レポート ビルダーでレポートをプレビューします。 その後、Power BI サービスにレポートを発行します。
+ 
+作成を開始する準備ができましたか。 Microsoft ダウンロード センターから [Power BI Report Builder をインストールしましょう](https://aka.ms/pbireportbuilder)。
 
 ビデオで学習する方がいいですか。 YouTube で、Power BI プリンシパル プログラム マネージャーの Chris Finlan による、Power BI のページ分割されたレポートに関するビデオ シリーズをご覧ください。
 
@@ -32,15 +33,15 @@ ms.locfileid: "80621520"
  
 -   **テーブル、マトリックス、またはグラフ ウィザードから開始します**。 データ ソース接続を作成し、フィールドをドラッグ アンド ドロップしてデータセット クエリを作成し、レイアウトとスタイルを選択して、レポートをカスタマイズします。  
   
--   **マップ ウィザードを使用して開始します**。地図や幾何図形を背景として集計データを表示するレポートを作成します。 マップ データには、Transact-SQL クエリまたは Environmental Systems Research Institute, Inc. (ESRI) シェープファイルの空間データを使用できます。 Microsoft Bing マップ タイルの背景を追加することもできます。  
+-   **マップ ウィザードを使用して開始します**。地図や幾何図形を背景として集計データを表示するレポートを作成します。 マップ データには、Transact-SQL クエリまたは Environmental Systems Research Institute, Inc.(ESRI) シェープファイルの空間データを使用できます。 Microsoft Bing マップ タイルの背景を追加することもできます。  
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> レポートをデザインする  
   
--   **テーブル、マトリックス、グラフ、および自由形式のレポート レイアウトの改ページ調整されたレポートを作成します。** 列ベースのデータ向けのテーブル レポート、概要データ向けのマトリックス レポート (クロス集計レポートやピボットテーブル レポートなど)、グラフィカル データ向けのグラフ レポート、およびそれ以外のすべて向けの自由形式レポートを作成します。 他のレポートやグラフを、リスト、グラフィック、および動的な Web ベースのアプリケーション用のコントロールと共に、レポートに埋め込むことができます。  
+-   **自由形式でレイアウトされたテーブル、マトリックス、グラフがあるページ分割されたレポートを作成する。** 列ベースのデータ向けのテーブル レポート、概要データ向けのマトリックス レポート (クロス集計レポートやピボットテーブル レポートなど)、グラフィカル データ向けのグラフ レポート、およびそれ以外のすべて向けの自由形式レポートを作成します。 他のレポートやグラフを、リスト、グラフィック、および動的な Web ベースのアプリケーション用のコントロールと共に、レポートに埋め込むことができます。  
   
--   **さまざまなデータ ソースからレポートを作成します。** SQL Server、Analysis Services、Oracle、Power BI データセット、およびその他のデータベースのリレーショナル データと多次元データを使用するレポートを作成できます。  
+-   **さまざまなデータ ソースからのレポート。** SQL Server、Analysis Services、Oracle、Power BI データセット、およびその他のデータベースのリレーショナル データと多次元データを使用するレポートを作成できます。  
   
--   **既存のレポートを変更します。** レポート ビルダーを使用して、SQL Server Data Tools (SSDT) レポート デザイナーで作成されたレポートをカスタマイズして更新できます。  
+-   **既存のレポートを変更する。** レポート ビルダーを使用して、SQL Server Data Tools (SSDT) レポート デザイナーで作成されたレポートをカスタマイズして更新できます。  
   
 -   **データを変更する。** データのフィルター処理、グループ化、並べ替えを行ったり、数式や式を追加したりします。  
 
@@ -58,7 +59,7 @@ ms.locfileid: "80621520"
   
 -   **サブスクリプションを設定します。** Power BI サービスにレポートを発行した後、レポートを特定の時刻に実行し、電子メール サブスクリプションとして送信するように構成できます。  
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 - [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
 - YouTube で、Power BI プリンシパル プログラム マネージャーの Chris Finlan による、[Power BI のページ分割されたレポートに関するビデオ シリーズ](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ)をご覧ください

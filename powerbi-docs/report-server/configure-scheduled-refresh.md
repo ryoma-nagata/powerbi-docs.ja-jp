@@ -5,22 +5,23 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
-ms.date: 11/01/2017
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81439965"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236080"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI レポートのスケジュールされた更新を構成する方法
-Power BI レポートのデータを更新するには、スケジュールされた更新計画を作成する必要があります。 これは、Power BI レポートの *[管理]* 領域で行います。
+Power BI Report Server で Power BI レポートのデータを更新するには、スケジュールされた更新計画を作成する必要があります。 この計画は、Report Server 上の Power BI レポートの *[管理]* 領域で作成します。
 
 ![Power BI レポートの正常なスケジュールされた更新](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>データ ソースの資格情報を構成する
+スケジュールされた更新計画を作成するには、必要なアクセス許可が必要です。 アクセス許可は、Report Server のロール定義で定義されています。 詳細については、SQL Server Reporting Services のドキュメントの「[ロールの定義 - 定義済みロール](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles)」を参照してください。
+
 スケジュールされたデータ更新計画を作成する前に、Power BI レポートで使われている**各データ ソース**の資格情報を設定する必要があります。
 
 1. Web ポータルで、Power BI レポートを右クリックして、 **[管理]** を選びます。
@@ -78,12 +79,12 @@ Web ポータルでスケジュールされた更新計画の状態を表示し�
    | データの更新中 |モデル内のデータを更新しています。 |
    | Removing credentials from the model \(モデルから資格情報を削除中\) |データ ソースへの接続に使われた資格情報をモデルから削除しました。 |
    | Saving model to the catalog \(カタログにモデルを保存中\) |データの更新が完了し、更新されたモデルがレポート サーバーのカタログ データベースに保存されています。 |
-   | 完了: データ更新 |更新は完了しています。 |
+   | 完了:データ更新 |更新は完了しています。 |
    | エラー: |更新中にエラーが発生し、表示されています。 |
 
 現在の状態を表示するには、Web ページを更新する必要があります。 状態は自動的には変更されません。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 スケジュールの作成と変更については、「[Create, modify, and delete schedules](https://docs.microsoft.com/sql/reporting-services/subscriptions/create-modify-and-delete-schedules)」(スケジュールを作成、変更、削除する) をご覧ください。
 
 スケジュールされた更新のトラブルシューティング方法については、「[Power BI Report Server でスケジュールされた更新をトラブルシューティングする](scheduled-refresh-troubleshoot.md)」をご覧ください。

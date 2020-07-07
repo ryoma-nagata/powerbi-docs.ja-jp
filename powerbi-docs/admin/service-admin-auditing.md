@@ -5,17 +5,16 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272680"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782399"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI でユーザー アクティビティを追跡する
 
@@ -244,8 +243,9 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI フォルダーへのアクセスを追加しました                      | AddFolderAccess                             | 現在使用されていません                       |
 | Power BI グループ メンバーを追加しました                      | AddGroupMembers                             |                                          |
 | 管理者がテナントにデータフローのストレージ アカウントをアタッチしました | AdminAttachedDataflowStorageAccountToTenant | 現在使用されていません                       |
-| Power BI データセットの分析                         | AnalyzedByExternalApplication               |                                          |
-| Power BI レポートを分析しました                          | AnalyzeInExcel                              | ユーザーがサービスを操作するときに生成されます。 `*.odc` ファイルをダウンロードしても監査イベントは作成されません                                         |
+| Power BI データセットの分析                         | AnalyzedByExternalApplication               | ユーザーがサービスと対話するときに生成されます                                         |
+| Power BI レポートを分析しました                          | AnalyzeInExcel                              |                                          |
+| 配置パイプラインへのワークスペースの割り当て                          | AssignWorkspaceToPipeline                              |                                          |
 | データフロー ストレージ アカウントの関連付け                 | AttachedDataflowStorageAccount              |                                          |
 | ゲートウェイに対するバインドされた Power BI データセット                | BindToGateway                               |                                          |
 | データフローの更新をキャンセルしました                        | CancelDataflowRefresh                       |                                          |
@@ -254,7 +254,9 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI データセットの接続を変更しました              | SetAllConnections                           |                                          |
 | 変更された Power BI Gateway の管理者                   | ChangeGatewayAdministrators                 |                                          |
 | 変更された Power BI ゲートウェイ データ ソースのユーザー        | ChangeGatewayDatasourceUsers                |                                          |
+| 組織のカスタム ビジュアルの作成                          | InsertOrganizationalGalleryItem                                |                                          |
 | 組織の Power BI コンテンツ パックを作成しました      | CreateOrgApp                                |                                          |
+| 配置パイプラインの作成      | CreateAlmPipeline                                |                                          |
 | Power BI アプリを作成しました                              | CreateApp                                   |                                          |
 | Power BI ダッシュボードを作成しました                        | CreateDashboard                             |                                          |
 | Power BI データフローを作成しました                         | CreateDataflow                              |                                          |
@@ -264,9 +266,13 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI Gateway の作成                          | CreateGateway                               |                                          |
 | Power BI グループを作成しました                            | CreateGroup                                 |                                          |
 | Power BI レポートを作成しました                           | CreateReport <sup>1</sup>                                |                                          |
+| カスタム ビジュアルによる Azure AD アクセス トークンの要求                           | GenerateCustomVisualAADAccessToken                                |                                          |
+| カスタム ビジュアルによる Office Web Apps アクセス トークンの要求                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | 外部ストレージ アカウントにデータフローを移行しました     | DataflowMigratedToExternalStorageAccount    | 現在使用されていません                       |
 | データフローのアクセス許可を追加しました                        | DataflowPermissionsAdded                    | 現在使用されていません                       |
 | データフローのアクセス許可を削除しました                      | DataflowPermissionsRemoved                  | 現在使用されていません                       |
+| 組織のカスタム ビジュアルの削除     | DeleteOrganizationalGalleryItem                                |                                          |
+| 配置パイプラインの削除      | DeleteAlmPipeline                                |                                          |
 | 組織の Power BI コンテンツ パックを削除しました      | DeleteOrgApp                                |                                          |
 | Power BI コメントを削除しました                          | DeleteComment                               |                                          |
 | Power BI ダッシュボードを削除しました                        | DeleteDashboard                             | 現在使用されていません                       |
@@ -278,6 +284,7 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI Gateway の削除                          | DeleteGateway                               |                                          |
 | Power BI グループを削除しました                            | DeleteGroup                                 |                                          |
 | Power BI レポートを削除しました                           | DeleteReport                                |                                          |
+| パイプライン ステージへの配置                           | DeployAlmPipeline                                |                                          |
 | Power BI データセットのデータ ソースを検出しました          | GetDatasources                              |                                          |
 | Power BI レポートのダウンロード                        | DownloadReport                              |                                          |
 | データフローのプロパティを編集しました                        | EditDataflowProperties                      |                                          |
@@ -302,6 +309,7 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI レポートを Web に発行しました                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | おすすめのテーブルを発行または更新しました | UpdateFeaturedTables <sup>3</sup>   | |
 | Key Vault からの Power BI データフロー シークレットを受信しました  | ReceiveDataflowSecretFromKeyVault           |                                          |
+| 配置パイプラインからのワークスペースの削除         | UnassignWorkspaceFromPipeline                 |                                          |
 | Power BI Gateway からのデータ ソースの削除         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI グループ メンバーを削除しました                    | DeleteGroupMembers                          |                                          |
 | 容量からのワークスペースを削除しました                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -321,9 +329,12 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI データフローを引継ぎました                     | TookOverDataflow                             |                                          |
 | 未発行の Power BI アプリ                          | UnpublishApp                                |                                          |
 | 容量リソース管理設定の更新      | UpdateCapacityResourceGovernanceSettings    | 現在 Microsoft 365 管理センターに存在していません |
+| 組織のカスタム ビジュアルの更新                     | UpdateOrganizationalGalleryItem                   |                                          |
 | 容量管理者を更新しました                            | UpdateCapacityAdmins                        |                                          |
 | 容量表示名を更新しました                     | UpdateCapacityDisplayName                   |                                          |
 | データフロー ストレージの割り当てのアクセス許可の更新   | UpdatedDataflowStorageAssignmentPermissions |                                          |
+| 配置パイプラインのアクセスの更新   | UpdateAlmPipelineAccess |                                          |
+| 配置パイプラインの構成の更新   | SetConfigurationAlmPipeline |                                          |
 | 組織の Power BI 設定を更新しました          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI アプリを更新しました                              | UpdateApp                                   |                                          |
 | Power BI データフローを更新しました                         | UpdateDataflow                              |                                          |

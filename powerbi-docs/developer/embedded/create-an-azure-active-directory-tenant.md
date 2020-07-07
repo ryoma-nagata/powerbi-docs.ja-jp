@@ -6,14 +6,13 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
-ms.translationtype: HT
+ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794110"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354940"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI で使用する Azure Active Directory テナントを作成する
 
@@ -60,29 +59,29 @@ Azure AD テナントを作成すると、アプリケーションを定義し�
 
 1. Azure portal で Azure Active Directory のフライアウトが表示されていることを確認します。
 
-    ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
+    ![Azure AD のフライアウト](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
     そうでない場合は、左側のサービス ナビゲーションから Azure Active Directory アイコンを選択します。
 
-    ![](media/create-an-azure-active-directory-tenant/aad-service.png)
+    ![Azure AD アイコン](media/create-an-azure-active-directory-tenant/aad-service.png)
 
 2. **[管理]** で、 **[ユーザー]** を選択します。
 
-    ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+    ![Azure AD のユーザーとグループ](media/create-an-azure-active-directory-tenant/users-and-groups.png)
 
 3. **[すべてのユーザー]** 、 **[+ 新しいユーザー]** の順に選択します。
 
 4. テナントのグローバル管理者の **[名前]** と **[ユーザー名]** を指定します。 **[ディレクトリ ロール]** を **[グローバル管理者]** に変更します。 また、一時パスワードを表示することもできます。 完了したら、 **[作成]** を選択します。
 
-    ![](media/create-an-azure-active-directory-tenant/global-admin.png)
+    ![Azure AD グローバル管理者](media/create-an-azure-active-directory-tenant/global-admin.png)
 
 5. 通常のテナント ユーザーに対して同じ操作を行います。 このアカウントは、マスター埋め込みアカウントに使用できます。 今回は、 **[ディレクトリ ロール]** は **[ユーザー]** のままにします。 パスワードをメモし、 **[作成]** を選択します。
 
-    ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
+    ![Azure AD ユーザー](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
 
 6. 手順 5 で作成したユーザー アカウントで Power BI にサインアップします。 [powerbi.com](https://powerbi.microsoft.com/get-started/) に移動し、 **[Power BI - クラウド コラボレーションおよび共有]** の下で **[無料試用版]** を選択します。
 
-    ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
+    ![テナントの作成](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
     サインアップすると、Power BI Pro の 60 日間の無料体験を勧められます。 それを選択して Pro ユーザーになることができます。それにより、[埋め込みソリューションの開発を開始する](embed-sample-for-customers.md)オプションが表示されます。
 

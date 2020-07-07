@@ -5,16 +5,15 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276561"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239376"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>視覚エフェクトの基になるデータを表示する
 
@@ -70,7 +69,7 @@ Power BI のビジュアルは、データセットからのデータを使用�
 
 - リボンで **[レコードの確認]** ボタンが無効になって淡色表示されている場合は、選択したビジュアルで [レコードの確認] がサポートされていないことを意味します。
 - [レコードの確認] ビューでデータを変更してレポートに保存することはできません。
-- 計算メジャーがビジュアルで使用されている場合は、[レコードの確認] を使用できません。
+- 視覚化で多次元モデルの計算メジャーが使用されている場合、[レコードの確認] を使用することはできません。
 - ライブ多次元 (MD) モデルに接続されている場合は、[レコードの確認] を使用できません。  
 
 ## <a name="next-steps"></a>次の手順

@@ -1,72 +1,87 @@
 ---
 title: Power BI で Snowflake に接続する
-description: Power BI 用の SSO を使用した Snowflake
+description: SSO 認証を使用して Power BI で Snowflake に接続する方法について説明します。
 author: cpopell
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 11/20/2019
+ms.topic: how-to
+ms.date: 06/26/2020
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 3ff8a504a9043c28d9064ad186005200165c232e
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83300323"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485782"
 ---
-#  <a name="connecting-to-snowflake-in-power-bi-service"></a>Power BI サービスでの Snowflake への接続
+# <a name="connect-to-snowflake-in-power-bi-service"></a>Power BI サービスで Snowflake に接続する
 
-## <a name="introduction"></a>はじめに
+## <a name="introduction"></a>概要
 
-Power BI サービスでの Snowflake への接続は、1 つの点でのみ他のコネクタと異なります。それは、AAD に対して追加の機能が (SSO のオプションと共に) 提供されることです。 統合のさまざまな部分で、Snowflake、Power BI、Azure の異なる管理者ロールが必要です。 また、SSO を使用せずに AAD 認証を有効にすることもできます。 基本認証は、サービス内の他のコネクタと同様に機能します。
+Power BI サービスでの Snowflake との接続は、他のコネクタとはただ 1 点で異なります。 Snowflake には Azure Active Directory (AAD) 用の追加機能があり、SSO を選択できます。 統合の一部には、Snowflake、Power BI、Azure にわたって異なる管理者ロールが必要です。 また、SSO を使用せずに AAD 認証を有効にすることもできます。 基本認証は、サービス内の他のコネクタと同様に機能します。
 
-AAD 統合を構成すること、また、オプションで SSO を有効にすることに関心がある場合:
-* Snowflake 管理者の方は、Snowflake のドキュメントで「[Snowflake への Power BI SSO - はじめに](https://docs.snowflake.net/manuals/LIMITEDACCESS/oauth-powerbi.html)」の記事を参照してください。
-* (SSO) Power BI 管理者の方は、「Power BI サービス構成 - 管理ポータル」セクションを参照してください。
-* (SSO) Power BI データセット作成者の方は、「Power BI サービス構成 - データセットの有効化」セクションを参照してください。
+AAD 統合を構成し、必要に応じて SSO を有効にするには、この記事の手順に従います。
+
+* Snowflake 管理者の場合は、Snowflake ドキュメント内の[「Power BI SSO から Snowflake へ」 - 「入門」](https://docs.snowflake.com/en/user-guide/oauth-powerbi.html)の記事をご覧ください。
+* Power BI 管理者の場合は、[「Power BI サービス構成」 - 「管理ポータル」](service-connect-snowflake.md#admin-portal)を参照して、SSO を有効にする方法を確認してください。
+* Power BI データセットの作成者である場合は、[「Power BI サービス構成」 - 「AAD を使用したデータセットの構成」](service-connect-snowflake.md#configuring-a-dataset-with-aad)を参照して、SSO を有効にする方法を確認してください。
 
 ## <a name="power-bi-service-configuration"></a>Power BI サービス構成
 
 ### <a name="admin-portal"></a>管理ポータル
 
-SSO を有効にする場合は、テナント管理者が管理ポータルにアクセスし、Power BI AAD の資格情報を Snowflake に送信することを承認する必要があります。
+SSO を有効にするには、グローバル管理者が Power BI 管理ポータルで設定を有効にする必要があります。 この設定により、組織全体の認証のために AAD 資格情報を Snowflake に送信することが承認されます。 次の手順に従って、SSO を有効にします。
 
-![テナント管理者による Snowflake SSO の設定](media/service-connect-snowflake/snowflakessotenant.png)
+1. グローバル管理者の資格情報を使用して [Power BI にサインイン](https://app.powerbi.com)します。
+1. ページのヘッダー メニューから **[設定]** を選択し、 **[管理ポータル]** を選択します。
+1. **[テナント設定]** を選択し、スクロールして **[統合の設定]** を見つけます。
 
-[管理ポータル] に移動し、サイド バー項目の [テナントの設定] を選択します。[統合の設定] まで下にスクロールすると、[Snowflake SSO] のオプションが表示されます。
+   ![テナント管理者による Snowflake SSO の設定](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
-警告が表示されたら、自身の AAD トークンを Snowflake サーバーに送信することに同意するために、この設定を手動で有効にする必要があります。 有効にするには、[無効] をクリックして切り替え、[適用] をクリックして、設定の変更が有効になるまで待ちます。 構成がサービスに反映されるのに 1 時間ほどかかる場合があります。
+4. **[Snowflake SSO]** を展開し、設定を **[有効]** に切り替えた後、 **[適用]** を選択します。
 
-この処理が完了すると、SSO でレポートを使用できるようになります。
+AAD トークンを Snowflake サーバーに送信することに同意するためには、この手順が必要です。 設定を有効にした後、反映されるまでに最大で 1 時間かかることがあります。
+
+SSO が有効になったら、SSO でレポートを使用できるようになります。
 
 ### <a name="configuring-a-dataset-with-aad"></a>AAD を使用したデータセットの構成
 
-Snowflake コネクタに基づくレポートが Web に発行されたら、データセットの作成者は Power BI Web サービスで適切なワークスペースに移動し、[データセット] を選択して、[設定] を (該当するデータセットの横にある、その他の操作のための [...] メニューで) 選択する必要があります。
+Snowflake コネクタに基づくレポートが Power BI サービスに発行されたら、データセットの作成者は、SSO が使用されるように適切なワークスペースの設定を更新する必要があります。
 
-Power BI の動作上の理由により、SSO は、オンプレミス データ ゲートウェイを介して実行されているデータソースがない場合にのみ機能します。
+Power BI の動作上の理由により、SSO は、オンプレミス データ ゲートウェイを介して実行されているデータソースがない場合にのみ機能します。 制限事項を次に示します。
 
 * ご自身のデータ モデルで Snowflake ソースのみを使用している場合は、オンプレミス データ ゲートウェイを使用しないように選択すると、SSO を使用できます。
-* Snowflake ソースを別のソースと共に使用している場合は、どのソースでも、オンプレミス データ ゲートウェイを使用していなければ SSO を使用できます。
-* オンプレミス データ ゲートウェイを介して Snowflake ソースを使用している場合、AAD 資格情報は現在サポートされていません。 Power BI の IP 範囲全体ではなく、ゲートウェイがインストールされている単一の IP から VNet にアクセスしようとしている場合は、これが関係している可能性があります。
-* ゲートウェイを必要とする別のソースと共に Snowflake ソースを使用している場合は、オンプレミス データ ゲートウェイでも Snowflake を使用する必要があり、SSO を使用することはできません。
+* Snowflake ソースと別のソースを使用している場合は、オンプレミス データ ゲートウェイを使用しているソースがなければ、SSO を使用できます。
+* オンプレミス データ ゲートウェイを介して Snowflake ソースを使用している場合、AAD 資格情報は現在サポートされていません。 Power BI の IP 範囲全体ではなく、ゲートウェイがインストールされている単一の IP から VNet にアクセスしようとしている場合は、この考慮事項が関係する可能性があります。
+* Snowflake ソースとゲートウェイを必要とする別のソースを使用している場合は、オンプレミス データ ゲートウェイでも Snowflake を使用する必要があります。 この場合、SSO を使用することはできません。
 
-オンプレミス データ ゲートウェイの使用方法の詳細については、「[オンプレミス データ ゲートウェイとは](https://docs.microsoft.com/power-bi/service-gateway-onprem)」の記事を参照してください。
+オンプレミス データ ゲートウェイの使用方法の詳細については、「[オンプレミス データ ゲートウェイとは](service-gateway-onprem.md)」をご覧ください。
 
-ゲートウェイを使用していない場合は、準備ができています。 オンプレミス データ ゲートウェイに構成されている Snowflake 資格情報があるものの、そのデータ ソースをご自身のモデルのみで使用している場合は、[データセットの設定] ページの切り替えをクリックして、そのデータ モデルに対してゲートウェイを無効にすることができます。
+ゲートウェイを使用していない場合は、準備完了です。 オンプレミス データ ゲートウェイで Snowflake 資格情報を構成しているものの、そのデータ ソースをご自身のモデルのみで使用している場合は、[データセットの設定] ページの切り替えをクリックして、そのデータ モデルに対してゲートウェイを無効にすることができます。
 
-![ゲートウェイをオフに切り替えるデータセットの設定](media/service-connect-snowflake/snowflake_gateway_toggle_off.png)
+![ゲートウェイをオフに切り替えるデータセットの設定](media/service-connect-snowflake/snowflake-gateway-toggle-off.png)
 
-データセットの作成者は、[データ ソースの資格情報] を選択してサインインする必要があります。 データセットからは、基本資格情報または OAuth2 (AAD) 資格情報で Snowflake にサインインできます。 AAD の使用を選択した場合は、データセットを有効にして SSO を使用できます。 この最初のユーザーがデータセットを取得するために Snowflake にサインインするとき、他のユーザーがデータを取得するために Oauth2 資格情報が使用されるようにするオプションを選択する必要があります。 これにより、AAD SSO が有効になります。 最初のユーザーが基本認証または OAuth2 (AAD) を使用してサインインしているかどうかにかかわらず、SSO 用に送信されるのは AAD の資格情報です。 
+データセットに対して SSO を有効にするには、次の手順に従います。
 
-![Snowflake SSO のデータセット設定](media/service-connect-snowflake/snowflakessocredui.png)
+1. データセットの作成者の資格情報を使用して [Power BI にサインインします](https://app.powerbi.com)。
+1. 適切なワークスペースを選択し、データセット名の横にあるその他のオプション メニューから **[設定]** を選択します。
+  ![カーソルを置くとその他のオプション メニューが表示される](media/service-connect-snowflake/dataset-settings-2.png)
+1. **[データ ソースの資格情報]** を選択してサインインします。 データセットからは、基本資格情報または OAuth2 (AAD) 資格情報で Snowflake にサインインできます。 AAD を使用する場合は、次の手順で SSO を有効にすることができます。
+1. **[エンド ユーザーは、このデータ ソースに DirectQuery 経由でアクセスするときに自分の OAuth2 の資格情報を使用します。]** オプションを選択します。 この設定により、AAD SSO が有効になります。 最初のユーザーがサインインに基本認証を使用するか OAuth2 (AAD) を使用するかにかかわらず、SSO 用に送信されるのは AAD の資格情報です。
 
-これが完了すると、その他のユーザーは自動的に AAD 認証を使用して、その Snowflake データセットのデータに接続するようになります。
+    ![Snowflake SSO のデータセット設定](media/service-connect-snowflake/snowflake-sso-cred-ui.png)
+
+これらの手順が完了すると、ユーザーは自動的に各自の AAD 認証を使用して、その Snowflake データセットのデータに接続するようになります。
 
 SSO を有効にしないことを選択した場合、レポートを更新するユーザーは、他のほとんどの Power BI レポートと同様に、サインインしたユーザーの資格情報を使用することになります。
 
 ### <a name="troubleshooting"></a>トラブルシューティング
 
-統合に関する問題が発生した場合は、Snowflake の[トラブルシューティング ガイド](https://docs.snowflake.net/manuals/LIMITEDACCESS/oauth-powerbi.html#troubleshooting)を参照してください。
+統合に関する問題が発生した場合は、Snowflake の[トラブルシューティング ガイド](https://docs.snowflake.com/en/user-guide/oauth-powerbi.html#troubleshooting)を参照してください。
 
+## <a name="next-steps"></a>次の手順
+
+* [Power BI サービスのデータ ソース](service-get-data.md)
+* [Power BI Desktop から Power BI サービスのデータセットに接続する](desktop-report-lifecycle-datasets.md)
+* [Snowflake コンピューティング ウェアハウスに接続する](desktop-connect-snowflake.md)

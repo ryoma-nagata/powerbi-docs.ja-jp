@@ -6,15 +6,14 @@ ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564577"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238484"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop におけるレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop でレポートを作成する場合、*および* Power Pivot のアドインを有効にし、なおかつ Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションでレポートを作成する場合に役立つヒントとテクニックをまとめました。 
@@ -103,7 +102,7 @@ Power BI Desktop では、計算フィールドを使ってヒストグラムを
 > 
 > 
 
-変更を保存し、レポートに戻ります。 \<Column Name\> と Frequency をテーブルに追加してから、横棒グラフに変換します。 \<Column Name\> は x 軸、計算済みの Frequency フィールドは y 軸です。
+変更を保存し、レポートに戻ります。 \<Column Name\> と Frequency をテーブルに追加してから、横棒グラフに変換します。 \<Column Name\> が x 軸、計算済みの Frequency フィールドが y 軸であることを確認します。
 
 ## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>Power BI Desktop におけるリレーションシップ作成のヒントとテクニック
 複数のソースから詳細なデータ セットを読み込むと、多くの場合、null 値、空白値、または重複する値などが問題となってリレーションシップを作成できません。 

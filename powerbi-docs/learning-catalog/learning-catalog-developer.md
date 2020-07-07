@@ -1,17 +1,16 @@
 ---
 title: 開発者向けラーニング カタログ
 description: Power BI のすべてのトレーニング オプションを検索する
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 6262b7ba0f3d01db6f9f5ff24f411de6ec4f35cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.author: margoc
+ms.openlocfilehash: edc2e40c219a8bbe1d57a5cfda774e7f9f87856d
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268606"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532628"
 ---
 # <a name="developer-learning-catalog"></a>開発者向けラーニング カタログ
 
@@ -27,17 +26,13 @@ ms.locfileid: "81268606"
 ## <a name="embedded"></a>埋め込み<a name="embedded"></a>
 | コンテンツ | Description | 書式  | 長さ      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+|[オンライン コース: Power BI 開発者 (1 日)](developer-online-course.md)|アプリ開発者として、Power BI コンテンツを埋め込むために必要な技術知識を学ぶことができるビデオベースのコースです。 動画は撮影された順に視聴することをお勧めします。動画 1 から始まり、動画 20 で終わります。|YouTube の再生リストと自己学習キット|3 時間 20 分|
 | [マルチテナント デプロイ用に Power BI 埋め込み分析を管理するためのベスト プラクティス](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html) | Power BI Embedded とは、独自のアプリケーションで Power BI にホワイト ラベルを付けるための強力なサービスです。 Power BI Embedded の配置を管理する方法を学習するには、このウェビナーをご覧ください。   | ウェビナー       |                |
 | [Power BI Embedded を 20 分で学習する](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | このウェビナーでは、Power BI Embedded の概要を説明します。 このウェビナーを最後まで見ると、ユーザーは Power BI Embedded の概要、製品を使い始める次の手順、ヘルプ/リソースの場所を理解することができます。 | ウェビナー       |                |
 | [Power BI の埋め込みによる開発 - Ted Pattison – 2018 年 4 月更新](https://www.youtube.com/watch?v=swnGlrRy588)  | この開発者向けのウェビナーでは、Power BI 埋め込みプラットフォームに対する最新の機能強化について、ISV や企業の開発者がそれらをどのように活用できるかについて、Ted Pattison が説明します。 | YouTube ビデオ | 59 分 49 秒  |
 | [Power BI 埋め込みバージョン 2 – 完全なストーリー](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | このウェビナーは、クリティカル パス トレーニングの Power BI MVP Ted Pattison により、2017 年 8 月 10 日に発表されました。 このウェビナーでは、Power BI Premium を介して提供される新しい Power BI 埋め込み機能を使用して開発する方法について説明します。  | ウェビナー       | 1 時間 7 分 23 秒 |
 | [チュートリアル: 顧客向けのアプリケーションに Power BI コンテンツを埋め込む](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | Azure の Power BI Embedded または Office での Power BI の埋め込みを使用すると、アプリ所有データを使用して、レポート、ダッシュボード、またはタイルをアプリケーション内に埋め込むことができます。  | ドキュメント |                |
 | [Power BI Embedded を 20 分で学習する](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | このウェビナーでは、Power BI Embedded の概要を説明します。 このウェビナーを最後まで見ると、ユーザーは Power BI Embedded の概要、製品を使い始める次の手順、ヘルプ/リソースの場所を理解することができます。 | ウェビナー       |                |
-## <a name="dax"></a>DAX<a name="dax"></a>
-| コンテンツ | Description | 書式  | 長さ      |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
-| [Power BI の実践的な DAX - Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs)  | Phil Seamark が、自分の新しい著書と関連付けて、Power BI での実用的な DAX のベスト プラクティスをいくつか紹介します。   | YouTube ビデオ | 59 分 41 秒 |
-| [クリエイティブな DAX ソリューション - Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | DAX 言語には、単に列に対して SUM を実行したり、テーブル内の行をカウントしたりすること以上に非常に優れた能力があることをご存じでしたか。 DAX は、最も高速なデータベースのいずれかを基盤にしています。 実現不可能と思われていた通常とは異なるクリエイティブなシナリオをいくつか説明する、Charles Sterling と Philip Seamark のウェビナーに参加してください。 | ウェビナー       | 58 分 12 秒 |
 ## <a name="development"></a>開発<a name="development"></a>
 | コンテンツ | Description | 書式  | 長さ      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|

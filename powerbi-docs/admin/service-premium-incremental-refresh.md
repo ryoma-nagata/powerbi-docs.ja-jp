@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 05/26/2020
+ms.topic: how-to
+ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159883"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227443"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI での増分更新
 
@@ -114,7 +113,7 @@ Power BI サービスの最初の更新では、丸 5 年間のすべてをイ�
 
 #### <a name="current-date"></a>現在の日付
 
-"*現在の日付*" とは、更新時のシステム日付です。 Power BI サービスのデータセットでスケジュールされている更新が有効になっている場合は、指定したタイム ゾーンが考慮され、現在の日付が決定されます。 手動で呼び出された更新でも、スケジュールされている更新でも、指定されている場合はタイム ゾーンが順守されます。 たとえば、タイム ゾーンが指定された、太平洋標準時の午後 8 時 (米国およびカナダ) に発生する更新では、(それ以外の場合では翌日になる) GMT ではなく、太平洋標準時に基づいて現在の日付が決定されます。
+"*現在の日付*" とは、更新時のシステム日付です。 Power BI サービスのデータセットでスケジュールされている更新が有効になっている場合は、指定したタイム ゾーンが考慮され、現在の日付が決定されます。 Power BI サービスにより手動で呼び出された更新でも、スケジュールされた更新でも、指定されている場合はタイム ゾーンが順守されます。 たとえば、タイム ゾーンが指定された、太平洋標準時の午後 8 時 (米国およびカナダ) に発生する更新では、(それ以外の場合では翌日になる) GMT ではなく、太平洋標準時に基づいて現在の日付が決定されます。 Power BI サービスによって呼び出されていない更新操作 ([TMSL 更新コマンド](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)など) では、スケジュールされた更新タイム ゾーンは考慮されません
 
 ![タイム ゾーン](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -186,7 +185,7 @@ SSMS では、[テーブル モデルのスクリプト言語 (TMSL)](https://do
 
 - **applyRefreshPolicy** – テーブルで増分更新ポリシーが定義されている場合、そのポリシーを適用するかどうかは applyRefreshPolicy で決定されます。 ポリシーが適用されていない場合、完全処理操作では、パーティション定義は変わらないままで、テーブル内のすべてのパーティションは完全に更新されます。 既定値は true です。
 
-- **effectiveDate** – 増分更新ポリシーが適用されている場合は、履歴範囲と増分範囲に対するローリング ウィンドウ範囲を決定するために現在の日付を把握しておく必要があります。 effectiveDate パラメーターを使用すると、現在の日付をオーバーライドすることができます。 これは、データを過去または将来の日付まで増分更新するテスト、デモ、およびビジネスのシナリオにおいて役立ちます (たとえば、将来の予算)。 既定値は[現在の日付](#current-date)です。
+- **effectiveDate** – 増分更新ポリシーが適用されている場合は、履歴範囲と増分範囲に対するローリング ウィンドウ範囲を決定するために現在の日付を把握しておく必要があります。 effectiveDate パラメーターを使用すると、現在の日付をオーバーライドすることができます。 これは、データを過去または将来の日付まで増分更新するテスト、デモ、およびビジネスのシナリオにおいて役立ちます (たとえば、将来の予算)。 既定値は現在の日付です。
 
 ```json
 { 
@@ -205,6 +204,8 @@ SSMS では、[テーブル モデルのスクリプト言語 (TMSL)](https://do
   }
 }
 ```
+
+TMSL での既定の増分更新動作の上書きの詳細については、「[Refresh コマンド](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)」を参照してください。
 
 ### <a name="custom-queries-for-detect-data-changes"></a>データ変更の検出のためのカスタム クエリ
 

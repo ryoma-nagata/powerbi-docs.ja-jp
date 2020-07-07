@@ -9,12 +9,11 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: b95eafbe797dcc28c54aa9781b0422820ccf1f4b
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565996"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393613"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Power BI Desktop の日付と時刻の自動ガイダンス
 
@@ -26,7 +25,7 @@ _[自動の日付/時刻]_ オプションによって、便利かつ高速で�
 
 次の箇条書きリストで、" _[自動の日付/時刻]_ " オプションに関連する考慮事項と考えられる制限事項について説明します。
 
-- **すべてに適用されるか、まったく適用されない:** _[自動の日付/時刻]_ オプションが有効になっている場合は、リレーションシップの &quot;多&quot; 側ではないインポート テーブルのすべての日付列 (計算列を除く) に適用されます。 列ごとに選択的に有効または無効にすることはできません。
+- **すべてに適用されるか、まったく適用されない:** _[自動の日付/時刻]_ オプションが有効になっている場合は、リレーションシップの &quot;多&quot; 側ではないインポート テーブルのすべての日付列に適用されます。 列ごとに選択的に有効または無効にすることはできません。
 - **カレンダー期間のみ:** 年と四半期の列は、カレンダー期間に関連しています。 それは、年が 1 月 1 日に始まり、12 月 31 日に終わることを意味します。 年の開始 (または完了) 日をカスタマイズすることはできません。
 - **カスタマイズ:** 期間を記述するために使用される値をカスタマイズすることはできません。 さらに、他の期間 (週など) を記述するための列を追加することはできません。
 - **年のフィルター処理:**  **Quarter**、**Month**、および **Day** 列の値には、年の値は含まれません。 たとえば、**Month** 列には、月の名前のみ (つまり、1 月、2 月など) が含まれます。 値は完全に自己記述的ではなく、一部のレポート デザインでは、年のフィルター コンテキストと通信しない場合があります。
@@ -51,6 +50,7 @@ _[自動の日付/時刻]_ オプションがプロジェクトに関連しな�
 
 この記事に関する詳細については、次のリソースを参照してください。
 
+- [Power BI Desktop で日付テーブルを作成する](model-date-tables.md)
 - [Power BI Desktop の自動の日付/時刻](../transform-model/desktop-auto-date-time.md)
 - [Power BI Desktop で日付テーブルを設定し、使用する](../transform-model/desktop-date-tables.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

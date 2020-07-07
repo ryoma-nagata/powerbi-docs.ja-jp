@@ -10,12 +10,11 @@ ms.date: 04/07/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f494533c8b79dce250f3f25c706896d542f01f26
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: 885490554acfec10503ba8ce7bc1db6937ec8fce
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159561"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485463"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI サービスに米国政府機関を登録する
 
@@ -32,7 +31,7 @@ Power BI サービスには、[Microsoft 365 Government プラン](https://www.m
 
 米国政府機関は、政府向けクラウド コミュニティを初めて使用する場合と、既にサブスクリプションを持っている場合があります。 以下のセクションでは、Microsoft 365 Government プランと Power BI の使用状況に基づくサインアップ手順について詳しく説明します。 手順は現在の登録によって異なります。
 
-米国政府向け Power BI にサインアップした後、アカウント チームと協力して、この記事で説明されている ["*ホワイトリスト登録*" プロセス](#additional-signup-information)を開始します。 この手順は、政府向けコミュニティ クラウドで組織を完全に有効にするために必要です。
+米国政府向け Power BI にサインアップした後、アカウント チームと協力して、この記事で説明されている[許可リスト プロセス](#additional-signup-information)を開始します。 この手順は、政府向けコミュニティ クラウドで組織を完全に有効にするために必要です。
 
 ## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>新しい Microsoft 365 Government プランにサインアップする
 
@@ -69,9 +68,9 @@ Power BI サービスには、[Microsoft 365 Government プラン](https://www.m
 
 ## <a name="additional-signup-information"></a>サインアップに関する追加情報
 
-米国政府向け Power BI サービスを使用する前に、Microsoft アカウント チームと協力して、お客様の組織の "*ホワイトリスト登録*" を開始する必要があります。 ホワイトリスト登録とは、Power BI のエンジニアリング チームが商用クラウド環境から、セキュリティが強化された政府向けコミュニティ クラウドにお客様を移動するために使用するプロセスです。 この手順により、確実に米国政府向けクラウドで使用可能な機能が期待どおりに動作するようになります。 
+米国政府向け Power BI サービスを使用する前に、Microsoft アカウント チームと協力して、お客様の組織の許可リストへの追加を開始する必要があります。 許可リスト プロセスは、Power BI のエンジニアリング チームが商用クラウド環境から、セキュリティが強化された政府向けコミュニティ クラウドにお客様を移動するために使用します。 この手順により、確実に米国政府向けクラウドで使用可能な機能が期待どおりに動作するようになります。 
 
-ホワイトリスト登録プロセスを開始する場合は、Microsoft アカウント チームにお問い合わせください。 ホワイトリスト登録を依頼できるのは管理者のみです。 このプロセスには約 3 週間かかります。 この間、確実にテナントが米国政府向けクラウドで正しく動作するように、Power BI のエンジニアリング チームが適切な変更を行います。
+許可リスト プロセスを開始する場合は、Microsoft アカウント チームにお問い合わせください。 許可リストへの追加を要求できるのは管理者だけです。 このプロセスには約 3 週間かかります。 この間、確実にテナントが米国政府向けクラウドで正しく動作するように、Power BI のエンジニアリング チームが適切な変更を行います。
 
 
 ## <a name="next-steps"></a>次の手順

@@ -6,15 +6,14 @@ ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693839"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226198"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 
@@ -60,7 +59,7 @@ Power BI サービスでは、アクセスを必要とするユーザーと埋�
 
 埋め込み URL の入力設定を使用し、ユーザー エクスペリエンスをカスタマイズできます。 指定の iFrame では、URL の **src** 設定を更新できます。
 
-| プロパティ  | 説明  |  |  |  |
+| プロパティ  | Description  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
 | pageName  | **pageName** クエリ文字列パラメーターを使用し、開くレポート ページを設定します。 次に示すように、この値は、Power BI サービスでレポートを表示するとき、レポートの URL の終わりにあります。 |  |  |  |
 | URL フィルター  | Power BI UI から受け取った埋め込み URL の [URL フィルター](service-url-filters.md)を使用し、埋め込みコンテンツをフィルター処理できます。 この方法では、基本的な HTML および JavaScript エクスペリエンスのみとのローコードの統合を構築できます。  |  |  |  |
@@ -115,7 +114,7 @@ report.src = newUrl;
 }
 ```
 
-![Assert](media/service-embed-secure/secure-embed-filter.png)
+![フィルター](media/service-embed-secure/secure-embed-filter.png)
 
 ボタンを好きなだけ追加して、ローコードのカスタム エクスペリエンスを作成できます。 
 
@@ -139,9 +138,9 @@ report.src = newUrl;
 
 * **[埋め込む]** オプションを使って提供される自動認証機能は、Power BI JavaScript API では動作しません。 Power BI JavaScript API の場合、[ユーザー所有データ](../developer/embedded/embed-sample-for-your-organization.md)という埋め込み方法を使用します。 
 
-* 認証トークンの有効期間は AAD 設定に基づいて制御されます。 認証トークンの有効期限が切れると、ユーザーはブラウザーを更新し、更新された認証トークンを取得する必要があります。 既定の有効期間は 1 時間ですが、組織によってはこれより短くなることも、長くなることもあります。
+* 認証トークンの有効期間は AAD 設定に基づいて制御されます。 認証トークンの有効期限が切れると、ユーザーはブラウザーを更新し、更新された認証トークンを取得する必要があります。 既定の有効期間は 1 時間ですが、組織によってはこれより短くなることも、長くなることもあります。  このシナリオでは、トークンを自動的に更新することはできません。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [Power BI で作業を共有する方法](service-how-to-collaborate-distribute-dashboards-reports.md)
 

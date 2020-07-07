@@ -7,15 +7,14 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/22/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34d539af94f2bcbe03a2c9d6b870887e371a1a6e
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: 90c721f6c2f555bd632d6c8fff56d05994b1444b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563921"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354779"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI で複合グラフを作成して使用する
 
@@ -78,7 +77,7 @@ Power BI の複合グラフは、折れ線グラフと縦棒グラフを組み�
     ![複合グラフの変換例](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. **[フィールド]** ペインで、 **[Sales]** \> **[Last Year Sales]** を **[線の値]** バケットにドラッグします。
 
-   ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
+   ![昨年の売上を示す行の値領域](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
    複合グラフは次のようになります。
 

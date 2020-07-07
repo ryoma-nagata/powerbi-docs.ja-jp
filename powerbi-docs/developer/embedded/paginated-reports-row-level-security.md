@@ -8,14 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 8d3068453ea2d166b0b55fbba45d8452431de319
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: a929374e3d974606d27defed4a7faa99e5450c87
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79491734"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427861"
 ---
-# <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>埋め込みのページ分割されたレポート (プレビュー) での行レベルのセキュリティの実装
+# <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>埋め込みのページ分割されたレポートでの行レベルのセキュリティの実装
 
 ページ分割されたレポートを埋め込むときに、どのデータが表示されるかを制御できます。 これにより、ユーザーごとに表示される情報を調整できます。 たとえば、グローバルな売上結果を含む、Power BI のページ分割されたレポートがある場合は、特定の地域の売上結果のみを使用できるように埋め込むことができます。
 
@@ -28,7 +27,7 @@ ms.locfileid: "79491734"
 
 Power BI のページ分割されたレポートに行レベルのセキュリティを適用する場合は、**UserID 属性**に[パラメーター](../../paginated-reports/report-builder-parameters.md)を割り当てる必要があります。 このパラメーターは、レポートが埋め込まれる前に、データセットからプルされるデータを制限します。
 
-パラメーターを **UserID** に割り当てた後、[Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API を使用して、埋め込みトークンを取得します。
+パラメーターを **UserID** に割り当てた後、[Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API を使用して、埋め込みトークンを取得します。
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>レポートまたはクエリのレベルで UserID をフィルターとして使用する
 
@@ -78,7 +77,7 @@ Power BI のページ分割されたレポートに行レベルのセキュリ�
 
 ## <a name="passing-the-configured-parameter-using-the-embed-token"></a>埋め込みトークンを使用して構成済みのパラメーターを渡す
 
-顧客向けのページ分割されたレポートを埋め込むときに、[Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API を使用して、埋め込みトークンが取得されます。 このトークンを使用して、ページ分割されたレポートからプルされるデータの一部をフィルター処理することもできます。
+顧客向けのページ分割されたレポートを埋め込むときに、[Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API を使用して、埋め込みトークンが取得されます。 このトークンを使用して、ページ分割されたレポートからプルされるデータの一部をフィルター処理することもできます。
 
 データの一部のみを公開するには、表示する情報を `username` フィールドに割り当てます。 たとえば、color パラメーターを持つページ分割されたレポートで、`username` フィールドに「*green*」と入力すると、埋め込みトークンによって埋め込みデータが制限され、color 列の値が *green* であるデータのみが表示されます。
 

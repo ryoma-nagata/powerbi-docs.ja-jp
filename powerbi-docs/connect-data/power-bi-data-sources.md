@@ -1,19 +1,18 @@
 ---
 title: Power BI データ ソース
 description: この記事では、Power BI でサポートされているデータ ソースをリストアップします。DirectQuery やオンプレミス データ ゲートウェイに関する情報などです。
-author: kfollis
+author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2020
-ms.author: kfollis
-ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.date: 06/10/2020
+ms.author: davidi
+ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
+ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273393"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84681861"
 ---
 # <a name="power-bi-data-sources"></a>Power BI データ ソース
 
@@ -32,7 +31,7 @@ ms.locfileid: "84273393"
 | appFigures | はい | はい | いいえ | いいえ | いいえ |
 | AtScale キューブ | はい | はい | はい | はい | いいえ |
 | Azure Analysis Services | はい | はい | はい | いいえ | いいえ |
-| Azure BLOB Storage | はい | はい | いいえ | はい | いいえ |
+| Azure Blob Storage | はい | はい | いいえ | はい | いいえ |
 | Azure Cosmos DB | はい | はい | いいえ | いいえ | いいえ |
 | Azure Cost Management | はい | はい | いいえ | いいえ | いいえ |
 | Azure Data Explorer (Kusto) | はい | はい | はい | いいえ | いいえ |
@@ -44,7 +43,7 @@ ms.locfileid: "84273393"
 | Azure HDInsight Spark | はい | はい | はい | いいえ | いいえ |
 | Azure SQL Database | はい | はい | はい | はい <sup>2</sup> | いいえ |
 | Azure SQL Data Warehouse | はい | はい | はい | はい <sup>2</sup> | いいえ |
-| Azure テーブル ストレージ | はい | はい | いいえ | はい | いいえ |
+| Azure Table Storage | はい | はい | いいえ | はい | いいえ |
 | BI コネクタ | はい | はい | はい | はい | はい |
 | BI360 - Budgeting & Financial Reporting | はい | はい | いいえ | いいえ | いいえ |
 | Common Data Service | はい | はい | いいえ | いいえ | いいえ |
@@ -62,10 +61,10 @@ ms.locfileid: "84273393"
 | Exasol | はい | はい | はい | はい | はい |
 | Excel | はい <sup>3</sup> | はい <sup>3</sup> | いいえ | はい <sup>3</sup> | いいえ <sup>4</sup> |
 | Facebook | はい | はい | いいえ | いいえ | いいえ |
-| から | はい | はい | いいえ | はい | はい |
+| ファイル | はい | はい | いいえ | はい | はい |
 | フォルダー | はい | はい | いいえ | はい | はい |
 | GitHub | はい | はい | いいえ | いいえ | いいえ |
-| Google アナリティクス | はい | はい | いいえ | いいえ | いいえ |
+| Google Analytics | はい | はい | いいえ | いいえ | いいえ |
 | Google BigQuery | はい | はい | はい | いいえ | いいえ |
 | Hadoop ファイル (HDFS) | はい | いいえ | いいえ | いいえ | いいえ |
 | HDInsight 対話型クエリ | はい | はい | はい | いいえ | いいえ |
@@ -90,7 +89,7 @@ ms.locfileid: "84273393"
 | Microsoft Graph Security | はい | はい | いいえ | はい | いいえ |
 | Mixpanel | はい | はい | いいえ | いいえ | いいえ |
 | MySQL | はい | はい | いいえ | はい | はい |
-| OData | はい | はい | いいえ | はい | いいえ |
+| OData | はい | はい <sup>7</sup> | いいえ | はい | いいえ |
 | ODBC | はい | はい | いいえ | はい | はい |
 | OleDb | はい | はい | いいえ | はい | はい |
 | Oracle | はい | はい | はい | はい | はい |
@@ -101,7 +100,7 @@ ms.locfileid: "84273393"
 | Planview Projectplace | はい | はい | いいえ | いいえ | いいえ |
 | PostgreSQL | はい | はい | はい | はい | いいえ |
 | Power BI データフロー | はい | はい | いいえ | いいえ | いいえ |
-| Power BI データ セット | はい | はい | はい | いいえ | いいえ |
+| Power BI データセット | はい | はい | はい | いいえ | いいえ |
 | Power Platform データフロー | はい | はい | いいえ | いいえ | いいえ |
 | Python スクリプト | はい | はい <sup>5</sup> | いいえ | はい <sup>5</sup> | はい |
 | QubolePresto | はい | はい | はい | はい | はい |
@@ -153,6 +152,8 @@ ms.locfileid: "84273393"
 
 <sup>6</sup> .html、.xls、Access データベースに必要です
 
+<sup>7</sup> Power BI サービスでは、認証を必要とする OData フィードはサポートされていません。
+
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery ソースのシングル サインオン (SSO)
 
 SSO オプションが有効になっている場合、データ ソースを基に作成されたレポートにユーザーがアクセスすると、Power BI によって基になるデータ ソースへのクエリで、認証済みの Azure AD 資格情報が送信されます。 これにより、Power BI はデータ ソース レベルで構成されているセキュリティ設定を適用できます。
@@ -172,7 +173,7 @@ SSO オプションは、このデータ ソースを使うすべてのデータ
 > [!Note]
 > Azure Multi-Factor Authentication (MFA) はサポートされていません。 DirectQuery で SSO を使用する必要があるユーザーは、MFA から除外する必要があります。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 [Power BI Desktop でデータに接続する](desktop-quickstart-connect-to-data.md)  
 [Power BI で DirectQuery を使用する](desktop-directquery-about.md)  

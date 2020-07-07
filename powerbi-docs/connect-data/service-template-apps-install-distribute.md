@@ -5,15 +5,14 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693072"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235698"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>組織でテンプレート アプリをインストールして配布する
 
@@ -38,15 +37,19 @@ ms.locfileid: "83693072"
 
     ![アプリの取得](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. 表示される AppSource ウィンドウで、 **[アプリ]** を選択します。 必要なアプリを参照するか、検索し、 **[今すぐ入手する]** を選択します。
+1. 表示された Power BI アプリ マーケットプレースで、 **[テンプレート アプリ]** を選択します。 AppSource で利用できるすべてのテンプレート アプリが表示されます。 探しているテンプレート アプリを参照するか、検索ボックスを使用して選択項目をフィルター処理します。 テンプレート アプリの名前の一部を入力するか、金融、分析、マーケティングなどのカテゴリを入力すると、探している項目を簡単に見つけることができます。
 
     ![AppSource で検索する](media/service-template-apps-install-distribute/power-bi-appsource.png)
+
+1. 探しているテンプレート アプリが見つかったら、それをクリックします。 テンプレート アプリのオファーが表示されます。 **[GET IT NOW]** をクリックします。
+
+   ![テンプレート アプリのオファー](media/service-template-apps-install-distribute/power-bi-template-app-offer.png)
 
 1. 表示されるダイアログ ボックスで、 **[インストール]** を選択します。
 
     ![アプリをインストールする](media/service-template-apps-install-distribute/power-install-dialog.png)
     
-    アプリが、関連付けられたワークスペースと共にインストールされます。 **アプリをカスタマイズする場合は、この関連付けられているワークスペースで行います**。
+    さらに[カスタマイズする](#customize-and-share-the-app)ために必要なすべての成果物が含まれる同じ名前のワークスペースと共に、アプリがインストールされます。
 
     > [!NOTE]
     > AppSource の一覧に表示されていないアプリのインストール リンクを使用する場合は、選択の確認を求める検証ダイアログ ボックスが表示されます。

@@ -5,17 +5,16 @@ author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/19/2020
 ms.author: mihart
-ms.custom: licensing support
+ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: baa556b1db10827b5979331ddcc22fa1e111a661
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160159"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236553"
 ---
 # <a name="apps-in-power-bi"></a>Power BI のアプリ
 
@@ -43,15 +42,17 @@ ms.locfileid: "84160159"
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>新しいアプリを取得する
-さまざまな方法でアプリを入手できます。 いくつかの方法を以下に一覧表示します。  アプリを取得して探索する詳細な手順については、[アプリを開いて操作する方法](end-user-app-view.md)に関するページを参照してください。
+新しいアプリを取得する最善の方法は、[Power BI アプリ マーケットプレース](https://app.powerbi.com/groups/me/getapps/apps)を利用することです。
 
-- アプリ デザイナーによって、アプリが自分の Power BI アカウントに自動的にインストールされ、次回、Power BI サービスを開いたときに、新しいアプリが **[アプリ]** コンテンツ リストに表示されます。 
-- アプリ デザイナーでは、ユーザーにアプリへの直接リンクを送信することができます。 このリンクを選択すると、アプリが Power BI サービスで開きます。
-- モバイル デバイスの Power BI では、直接リンクからのみアプリをインストールできます。AppSource からはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。
-- [AppSource](https://appsource.microsoft.com) でアプリを検索できます。 AppSource には、社内と社外の両方のレポート デザイナーが公開したアプリがあります。 たとえば、AppSource には、Google Analytics、GitHub または Microsoft Dynamics など、既に使用しているサービスのアプリがあります。 また、Power BI の学習に使用できるサンプルのアプリを見つけることもできます。  
+![Power BI アプリ マーケットプレース](./media/end-user-apps/power-bi-app-marketplace.png)
 
+アプリを入手するには、他にもいくつかの方法があります。 以下では一部の方法を示します。 アプリを取得して探索する詳細な手順については、[アプリを開いて操作する方法](end-user-app-view.md)に関するページを参照してください。
 
-## <a name="next-step"></a>次のステップ
+* アプリ デザイナーによって、アプリが自分の Power BI アカウントに自動的にインストールされ、次回、Power BI サービスを開いたときに、新しいアプリが **[アプリ]** コンテンツ リストに表示されます。 
+* アプリ デザイナーでは、ユーザーにアプリへの直接リンクを送信することができます。 このリンクを選択すると、アプリが Power BI サービスで開きます。
+* モバイル デバイスの Power BI では、直接リンクからのみアプリをインストールできます。AppSource からはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。 
+
+## <a name="next-steps"></a>次の手順
 * [アプリを開いて操作する](end-user-app-view.md)
 * [コンテンツを共有する他の方法](end-user-shared-with-me.md)
 

@@ -7,15 +7,14 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 111b2b5fe0ae4b341816becdb4baf0b96e057cdd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377286"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354503"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI を使用してダッシュボード タイルに関するデータの分析情報を表示する
 
@@ -61,9 +60,11 @@ ms.locfileid: "79377286"
 レポートに戻るには、左上にある **[フォーカス モードの終了]** を選択します。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-- **[分析情報の表示]** を使用できない種類のダッシュボード タイルもあります。 たとえば、Power BI ビジュアルでは使用できません。<!--[Power BI visuals](end-user-custom-visuals.md)-->
+- **[分析情報の表示]** を使用できない種類のダッシュボード タイルもあります。 たとえば、Power BI カスタム視覚化では使用できません。<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
+
+[分析機能を使用](end-user-analyze-visuals.md)してレポートの視覚化に対して分析情報を実行する    
 使用できるクイック分析情報の種類については[こちら](end-user-insight-types.md)を参照してください。
 

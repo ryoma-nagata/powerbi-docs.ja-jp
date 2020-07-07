@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/27/2020
+ms.topic: how-to
+ms.date: 06/16/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9bc8f7c100acc3805fbe6ab949e3584cb5fd26e1
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
-ms.translationtype: HT
+ms.openlocfilehash: ddb5e4d1476025965e6227e9ae443441f2060fcd
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121041"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219737"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI でのデータの更新
 
@@ -112,7 +111,7 @@ Power BI では OneDrive の項目 ID に基づいて更新が実行されるた
 (ドラッグ アンド ドロップなどを利用して) ファイルを別の場所に移動すると、更新は引き続き動作します。Power BI で引き続きファイル ID が認識されるためです。 ただし、そのファイルを別の場所にコピーすると、ファイルの新しいインスタンスと新しいファイル ID が作成されます。 そのため、Power BI ファイル参照は無効になり、更新は失敗します。
 
 > [!NOTE]
-> ローカル コンピューターで同期が完了していて、Power BI サービスで *[今すぐ更新]* を使用した後でも、Power BI でデータセットを更新するまでに最大 10 分かかることがあります。
+> ローカル コンピューターで同期が完了していて、Power BI サービスで *[今すぐ更新]* を使用した後でも、Power BI でデータセットを更新するまでに最大 60 分かかることがあります。
 
 過去の同期サイクルを確認するには、更新履歴にある [OneDrive] タブをチェックします。 次のスクリーンショットは、サンプル データセットに対する完了済みの同期サイクルを示しています。
 
@@ -202,14 +201,15 @@ Microsoft では、個人用ゲートウェイではなくエンタープライ�
 
 ![ゲートウェイ用にデータ ソースの資格情報を構成する](media/refresh-data/configure-data-source-credentials-gateway.png)
 
-> [!NOTE]
-> 個人用データ ゲートウェイでは、DirectQuery/LiveConnect モードのデータセットをサポートしていません。 データセットの設定ページ上でインストールを求められるかもしれませんが、個人用ゲートウェイしか使用していない場合は、ゲートウェイ接続を構成できません。 これらの種類のデータ セットをサポートするには、必ずエンタープライズ データ ゲートウェイを使用するようにしてください。
 
 ### <a name="accessing-cloud-data-sources"></a>クラウド データ ソースへのアクセス
 
 Azure SQL DB などのクラウド データ ソースを使用するデータセットでは、Power BI がソースへの直接ネットワーク接続を確立できる場合、データ ゲートウェイを必要としません。 したがって、データセットの設定にある **[データ ソースの資格情報]** セクションを使用して、これらのデータ ソースの構成を管理できます。 次のスクリーンショットに示すように、ゲートウェイ接続を構成する必要はありません。
 
 ![ゲートウェイなしでデータ ソースの資格情報を構成する](media/refresh-data/configure-data-source-credentials.png)
+
+> [!NOTE]
+> データセットが存在するワークスペースに関係なく、各ユーザーは、所有するすべてのデータセットについて、資格情報のセットをデータソースごとに 1 つだけ持つことができます。 
 
 ### <a name="accessing-on-premises-and-cloud-sources-in-the-same-source-query"></a>同一ソース クエリでのオンプレミスとクラウド ソースへのアクセス
 

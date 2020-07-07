@@ -6,16 +6,15 @@ ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e3a9d6db1b7f51f02f3dbc94da1d6b35eac3222
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348898"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354319"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードにタイルをピン留め
 
@@ -57,6 +56,11 @@ Amanda が Power BI レポートからビジュアルとイメージを固定す
 別のオプションとして、レポート ページ全体をダッシュボードにピン留めすることもできます。これは、一度に複数の視覚エフェクトをピン留めする簡単な方法です。 ページ全体をピン留めすると、タイルは "*ライブ*" になります。 つまり、ダッシュボード上で操作できます。 レポート エディターで視覚エフェクトに加えるすべての変更 (フィルターの追加、チャートで使用されるフィールドの変更など) は、ダッシュボード タイルにも反映されます。  
 
 詳細については、「[レポート ページ全体をピン留めする](service-dashboard-pin-live-tile-from-report.md)」をご覧ください。
+
+> [!NOTE]
+> 視覚化がダッシュボードにピン留めされている場合、一部の書式設定オプションは適用されません。 ピン留めされたタイルでは、罫線、影、および背景の設定は無視されます。 カードの視覚化の場合、値に使用されるテキストは、常に 'DIN' フォント ファミリを使用してダッシュボードに表示されます。 
+> 
+>
 
 ## <a name="next-steps"></a>次の手順
 - [Power BI サービスの利用者向けのダッシュボード](../consumer/end-user-dashboards.md)

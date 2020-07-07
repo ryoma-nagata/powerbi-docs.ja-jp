@@ -1,6 +1,6 @@
 ---
 title: Power BI Premium のページ分割されたレポートとは
-description: ページ分割されたレポート (SQL Server Reporting Services での標準レポート形式) を、Power BI サービスで使用できるようになりました。 これらのレポートは印刷または共有できます。 レポートのレイアウトを正確に制御できます。 たとえばテーブルが複数のページにまたがる場合でも、テーブルのすべてのデータが表示されます。
+description: ページ分割されたレポートを、Power BI サービスで使用できるようになりました。 SQL Server Reporting Services では、長い間、これらが標準のレポート形式でした。 これらのレポートは印刷または共有できます。 レポートのレイアウトを正確に制御できます。 たとえばテーブルが複数のページにまたがる場合でも、テーブルのすべてのデータが表示されます。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,11 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
-ms.translationtype: HT
+ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733418"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393785"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium のページ分割されたレポートとは
 
@@ -95,7 +94,8 @@ Power BI サービスのページ分割されたレポートに対して自分�
  
 ## <a name="next-steps"></a>次の手順
 
-- [Microsoft ダウンロード センターから Power BI レポート ビルダーをインストールする](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Microsoft ダウンロード センターから Power BI レポート ビルダーをインストールする](https://aka.ms/pbireportbuilder)
 - [チュートリアル: ページ分割されたレポートを作成する](paginated-reports-quickstart-aw.md)
+- [オンライン コース: Power BI のページ分割されたレポートの 1 日コース](../learning-catalog/paginated-reports-online-course.md)
 - [ページ分割されたレポートに直接データを入力する](paginated-reports-enter-data.md)
 - [チュートリアル: 顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む](../developer/embedded/embed-paginated-reports-customers.md)

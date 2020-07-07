@@ -6,14 +6,13 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 95e661e81e7753d0a28806cca5d652f8e92666a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 24e8ac32fb89db2fdc0d1f4ad3fbaffdadaf57bb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114108"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237413"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI ビジュアルでの Visual Filters API
 
@@ -261,7 +260,7 @@ SELECT * FROM DataTable WHERE ( Team = "Team1" AND Value = 5 ) OR ( Team = "Team
 
 ## <a name="restore-the-json-filter-from-the-data-view"></a>データ ビューから JSON フィルターを復元する
 
-API バージョン 2.2 以降では、次のコードで示すように、*VisualUpdateOptions* から JSON フィルターを復元できます。
+API バージョン 2.2.0 以降では、次のコードで示すように、*VisualUpdateOptions* から JSON フィルターを復元できます。
 
 ```typescript
 export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {

@@ -38,7 +38,7 @@
             - name: データセットの影響分析
               href: service-dataset-impact-analysis.md
             - name: データの秘密度ラベルを適用する
-              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
+              href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: グループの OneDrive に保存されているファイルへの接続
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: クラシック ワークスペースで共同作業する

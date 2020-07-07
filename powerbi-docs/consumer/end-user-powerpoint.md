@@ -6,16 +6,15 @@ ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565743"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782526"
 ---
 # <a name="export-reports-to-powerpoint"></a>レポートを PowerPoint にエクスポートする
 
@@ -102,6 +101,8 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
     - 組織外の人、つまり、Power BI テナント内にいないユーザーとダッシュボードを共有している場合、そのユーザーは共有されたダッシュ ボードに関連付けられているレポートを PowerPoint にエクスポートできません。 たとえば、ユーザー aaron@contoso.com は david@cohowinery.com と共有することができます。 しかし、david@cohowinery.com は関連付けられたレポートを PowerPoint にエクスポートできません。
     - 30 を超えるレポート ページを含むレポート。 最初の 30 ページのみがエクスポートされます。
     - 以前のバージョンの PowerPoint へのレポートのエクスポート。
+    - 処理に 1 時間以上かかるレポート。 
+    - 読み込みに 6 分以上かかるレポート ページ。 
 
 * Power BI サービスで **[PowerPoint へのエクスポート]** メニュー項目を使用できない場合は、テナント管理者が機能を無効にしている可能性があります。 詳細については、テナント管理者に問い合わせてください。
 * Power BI サービスでは、Power BI の言語設定を PowerPoint のエクスポート用の言語として使用します。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](media/end-user-powerpoint/power-bi-settings-icon.png) >  **[設定]**  >  **[全般]**  >  **[言語]** の順に選択します。

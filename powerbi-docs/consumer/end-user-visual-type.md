@@ -5,27 +5,28 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/24/2020
 ms.author: mihart
+ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 605b3fbc49d9a9dbf60b6963a89487ca15284b29
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279436"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393843"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI でのビジュアルの種類
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-レポート、ダッシュボード、Q&A でビジュアルを見つけることができます。 これらのビジュアルの種類には、Power BI でパッケージ化されているものと、"*Power BI ビジュアル*" のものがあります。 カスタム ビジュアルは、Power BI の外部で作成され、レポート "*デザイナー*" でそれを Power BI のレポートとダッシュボードに追加できるようになっています。 
+視覚化 ("*グラフ*" や "*視覚エフェクト*" とも呼ばれます) は、データを画像で表現したものです。 一般的な例として、縦棒グラフ、マップ、散布図、放射状ゲージがあります。 レポート、ダッシュボード、Q&A でビジュアルを見つけることができます。
 
-この記事は、Power BI サービスにパッケージ化されているビジュアルの概要です。  これらは、最もよく目にするビジュアルです。 これらのビジュアルについてのより詳しい情報については、[ビジュアル型に関する Power BI レポート *デザイナー*のドキュメント](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)を参照してください。
+このページで説明するビジュアルは、Power BI に組み込まれているものです。 これらは、最もよく目にするビジュアルの種類です。 このページでは、これらの組み込まれているビジュアルの概要について説明します。 これらのビジュアルについてのより詳しい情報については、[ビジュアル型に関する Power BI レポート "*デザイナー*" のドキュメント](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)を参照してください。
 
-> [!NOTE]
-> カスタム ビジュアルについては、[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) の **[Power BI ビジュアル]** セクションで探してください。 ビジュアルごとに、説明、作成者の情報、スクリーンショットまたはビデオを確認できます。 
+Power BI に組み込まれていない視覚化は、"*カスタム ビジュアル*" と呼ばれます。 カスタム ビジュアルは、Microsoft AppSource などの外部 Web サイトから、または組織ストアなどの内部ソースから Power BI にインポートできます。 カスタム ビジュアルをインポートするには、レポートに対する編集アクセス許可が必要です。 このようなアドインの視覚化については、「[Power BI のビジュアル](../developer/visuals/power-bi-custom-visuals.md)」を参照してください。
+
+
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI で利用可能なビジュアルの一覧
 これらのビジュアルはすべて、Power BI のダッシュボードとレポートで見つけることができ、[Q&A で指定する](end-user-q-and-a.md)ことができます。 ビジュアルを操作する方法については、「[レポート、ダッシュボード、アプリでビジュアルを操作する](end-user-visualizations.md)」を参照してください。
@@ -64,6 +65,12 @@ ms.locfileid: "83279436"
 - 2 つのメジャーの間の相関関係を 1 つのビジュアルで示す場合
 - あるメジャーが別のメジャーで定義されているターゲットを満たすかどうかを調べる場合
 - キャンバスのスペースを節約する場合
+
+
+### <a name="decomposition-tree"></a>分解ツリー
+![分解ツリー](media/end-user-visual-type/power-bi-decomposition.png)
+
+分解ツリー視覚化を使用すると、複数のディメンションのデータを視覚化できます。 データが自動的に集計され、任意の順序でディメンションをドリルダウンできるようになります。 それは人工知能 (AI) による視覚化でもあるため、特定の条件に基づいて、ドリルダウンする次のディメンションを検出するように要求することができます。 これにより、アドホック探索や根本原因分析に役立つ重要なツールになります。
 
 ### <a name="doughnut-charts"></a>ドーナツ グラフ
 ![ドーナツ グラフ](media/end-user-visual-type/donut-small.png)
@@ -210,12 +217,12 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 - 表形式でデータを表示する場合
 - カテゴリ別に数値データを表示する場合
 
-### <a name="treemaps"></a>ツリーマップ
-![ツリーマップ グラフ](media/end-user-visual-type/pbi-nancy-viz-tree.png)
+### <a name="tree-maps"></a>ツリー マップ
+![ツリー マップ グラフ](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
-ツリーマップは、サイズが値を示す色付きの四角形を使ったグラフです。  メインの四角形内で入れ子になった四角形では階層的になることがあります。 各四角形内の面積は、測定される値に基づいて割り当てられます。 各四角形は大きさの順に左上 (最大) から右下 (最小) に向かって配置されます。
+ツリー マップは、サイズが値を示す色付きの四角形を使ったグラフです。  メインの四角形内で入れ子になった四角形では階層的になることがあります。 各四角形内の面積は、測定される値に基づいて割り当てられます。 各四角形は大きさの順に左上 (最大) から右下 (最小) に向かって配置されます。
 
-ツリーマップは、次のような場合に最適な選択肢です。
+ツリー マップは、次のような場合に最適な選択肢です。
 - 大量の階層データを表示する場合
 - 横棒グラフで多数の値を効果的に処理できない場合
 - 各部分と全体の間の割合を示す場合
@@ -241,7 +248,7 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 Power BI の Q&A で自然言語クエリを入力するときに、クエリ内でビジュアルの種類を指定できます。  例:
 
 
-***ツリー マップでの都市ごとの売り上げ***
+"***ツリー マップでの都市ごとの売り上げ***"
 
 ![Q&A セッション](media/end-user-visual-type/qa-treemap.png)
 

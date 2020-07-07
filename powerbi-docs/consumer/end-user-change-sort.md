@@ -6,19 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a84ebd1374cab596023f55024eb9368a69daab0d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
-ms.translationtype: HT
+ms.openlocfilehash: 10db78c01ea074e2b3fab71715a3df92ae207f8e
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236010"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782486"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI レポートでのグラフの並べ替え方法の変更
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 
 > [!IMPORTANT]
@@ -26,7 +25,7 @@ ms.locfileid: "85236010"
 
 Power BI サービスでは、さまざまなデータ フィールドを並べ替えることで視覚効果を変更できます。 ビジュアルをどのように並べるかで、伝えたい情報を強調表示できます。 数値データ (売り上げ高など) を使用している場合でも、テキスト データ (州名など) を使用している場合でも、希望どおりにお使いの視覚化を並べ替えることができます。 Power BI は柔軟な並べ替え機能とクイック メニューを備えています。 
 
-ダッシュボード上のビジュアルは並べ替えることはできませんが、Power BI レポートでは、ほとんどの視覚化を並べ替えることができます。 
+ダッシュボード上の視覚エフェクトを並べ替えることはできません。 ただし、Power BI レポートでは、ほとんどの視覚エフェクトを一度に 1 フィールド (場合によっては 2 フィールド) ずつ並べ替えることができます。 視覚エフェクトの種類によっては、並べ替えをまったく使用できない場合があります。ツリー マップ、ゲージ、マップなどです。 
 
 ## <a name="get-started"></a>作業の開始
 
@@ -51,6 +50,19 @@ Power BI サービスでは、さまざまなデータ フィールドを並べ�
 
 > [!NOTE]
 > すべてのビジュアルが並べ替え可能なわけではありません。 たとえば、次のビジュアルは並べ替えできません: ツリーマップ、マップ、塗り分け地図、散布図、ゲージ、カード、ウォーターフォール。
+
+## <a name="sorting-by-multiple-columns"></a>複数の列による並べ替え
+次の表のデータは、**Number of Customers** で並べ替えられています。  このことは、*Number* という単語の下にある小さな矢印からわかります。 矢印は下向きです。これは、列が "*降順*" で並べ替えられていることを意味します。
+
+![並べ替えに使用される最初の列を示すスクリーンショット](media/end-user-change-sort/power-bi-sort-first.png)
+
+
+並べ替え順序にさらに列を追加するには、次に並べ替え順序に追加したい列のヘッダーを、Shift キーを押しながらクリックします。 たとえば、**Number of Customers** をクリックしてから、Shift キーを押しながら **Total Revenue** をクリックすると、表はまず顧客で、次に収益で並べ替えられます。 赤色の枠線は、並べ替え順序が変更された領域を示しています。
+
+![並べ替えに使用されている 2 番目の列を示すスクリーンショット](media/end-user-change-sort/power-bi-sort-second.png)
+
+同じ列をもう一度 Shift キーを押しながらクリックすると、その列の並べ替え方向が変わります。 さらに、以前に並べ替え順序に追加した列を Shift キーを押しながらクリックすると、その列は並べ替え順序の後ろに移動します。
+
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>並べ替え順序の変更を保存する
 [読み取りビュー](end-user-reading-view.md)で作業している場合でも、Power BI レポートには、フィルター、スライサー、並べ替え、およびその他のデータ ビューに加えた変更が保持されます。 そのため、レポートを終了し後で戻ったときに、ご自身の並べ替えの変更は保存されています。  レポートの "*デザイナー*" の設定に戻す場合、上のメニュー バーから **[既定値にリセット]** を選択します。 

@@ -6,16 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/14/2020
+ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159998"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85484934"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>組織のユーザーに Power BI サービスのライセンスを与える
 
@@ -39,6 +38,8 @@ Power BI サービスでユーザーが実行できる操作は、そのユー�
 
 ## <a name="get-power-bi-for-your-organization"></a>組織の Power BI を取得する
 
+価格の詳細については、「[価格と製品の比較](https://powerbi.microsoft.com/pricing/)」を参照してください。
+
 グローバル管理者または課金管理者は、Power BI サービスにサインアップし、組織内のユーザーのライセンスを購入できます。 購入する準備ができていない場合は、Power BI Pro 試用版を選択してください。 25 個のライセンスを取得して、1 か月間ご利用いただけます。 サインアップの詳しい手順ついては、「[組織の Power BI サブスクリプションを取得する](service-admin-org-subscription.md)」を参照してください。
 
 ## <a name="about-self-service-sign-up"></a>セルフサービス サインアップについて
@@ -46,6 +47,16 @@ Power BI サービスでユーザーが実行できる操作は、そのユー�
 個々のユーザーは、職場または学校のアカウントでサインアップすることで、自分の Power BI ライセンスを取得できます。 無料ライセンスの場合、ユーザーはマイ ワークスペースを使用して Power BI の個人データの分析と視覚化を試すことができますが、他のユーザーと共有することはできません。 コンテンツを共有するには、Power BI Pro ライセンスが必要です。 ユーザーは、ライセンスの種類を Pro にアップグレードすることができます。また、組織で商用クラウドを使用している場合は、直接 Pro にサインアップすることができます。 Azure Government、Azure Germany、または Azure China 21Vianet クラウドにデプロイされた組織や教育機関では、Pro を直接購入したり、Pro にアップグレードしたりすることはできません。
 
 組織内のユーザーがセルフサービス サインアップを使用できないようにする場合は、[セルフサービス サインアップの有効化または無効化](service-admin-disable-self-service.md)に関する記事を参照し、これをオフにする方法を確認してください。
+
+セルフサービス サインアップを無効にすると、ユーザーはデータの視覚化と分析のために Power BI を探索できなくなります。 個々のサインアップをブロックする場合、組織用に Power BI Free ライセンスを取得して、すべてのユーザーに割り当てることができます。 Power BI Free ライセンスをすべての既存のユーザーに自動的に割り当てるには、次の手順を実行します。
+
+1. グローバル管理者または課金管理者の資格情報を使用して、[Microsoft 365 管理センター](https://admin.microsoft.com)にサインインします。
+1. 左側のサイドバー メニューから、 **[課金]**  >  **[サービスを購入する]** を選択します。
+1. 検索またはスクロールして Power BI Free オファーを見つけます。 オファーを選択し、 **[はじめましょう]** を選択します。
+1. すべてのユーザーに対応するために必要なライセンスの数を入力します。
+1. **[ライセンスを持たないユーザー全員に自動的に割り当てる]** を選択し、チェックアウトします。
+
+  ![Power BI の無料の自動割り当てサブスクリプション](media/service-admin-licensing-organization/m365-auto-assign.png) 
 
 組織内のどのユーザーが既にライセンスを所有している可能性があるかを確認する場合は、「[ユーザー ライセンスを表示および管理する](service-admin-manage-licenses.md)」を参照し、その方法を確認してください。
 

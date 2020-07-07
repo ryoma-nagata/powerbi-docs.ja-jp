@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128549"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782328"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ
 
@@ -38,7 +37,7 @@ Power BI サービスのすべてのコンポーネントでは、そのバッ�
 
 [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location) に示されていない限り、バックアップ インスタンスは、組織が Power BI にサインアップしたときに選択されたのと同じ地理的場所 (geo) 内に存在します。 geo には複数のリージョンを含めることができ、Microsoft では、データの回復性のために特定の geo 内のいずれかのリージョンにデータをレプリケートする場合があります。 Microsoft では、geo 外に顧客データをレプリケートしたり、移動したりすることはありません。 Power BI によって提供される geo とそれに含まれるリージョンとのマッピングについては、[Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location) を参照してください。
 
-## <a name="how-does-microsoft-decide-to-failover"></a>Microsoft ではフェールオーバーすることをどのように決定するのですか。
+## <a name="how-does-microsoft-decide-to-fail-over"></a>Microsoft ではフェールオーバーすることをどのように決定するのですか。
 
 フェールオーバーがいつ必要になる可能性があるかを示す 2 つの異なるシステムがあります。
 
@@ -57,6 +56,9 @@ Power BI のサポート ページ ([https://powerbi.microsoft.com/support/](htt
 
 フェールオーバーが実行されると、Power BI は Azure Storage の GEO レプリケーションを使用してフェールオーバーを実行します。 このようなレプリケーションのリターン ポイントは通常 15 分ですが、SLA で [Azure Storage のこの時間が保証されていない](https://docs.microsoft.com/azure/storage/common/storage-redundancy)ため、Power BI でも時間の保証はありません。 
 
+## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>Premium 容量が使用できなくなった場合、ワークスペースとレポートはどうなりますか。 
+
+Premium 容量が使用できなくなった場合、ワークスペースとレポートは、以前にそれらに対するアクセス権を持っていた Power BI Pro ライセンスを持つすべてのユーザーが引き続きアクセスして表示できます。
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>自分の Power BI インスタンスはいつ元のリージョンに戻りますか。
 

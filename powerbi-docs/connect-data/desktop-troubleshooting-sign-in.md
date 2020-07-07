@@ -9,12 +9,11 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: e1358cb8cbe37e0b44cd6a60069ad9ec707d12d8
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83287535"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485509"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop のサインインに関するトラブルシューティング
 **Power BI Desktop** にサインインしようとして、エラーになる場合があります。 サインインの問題には 2 つの主な理由があります。**プロキシ認証エラー**と**非 HTTPS URL リダイレクト エラー**です。 
@@ -33,17 +32,17 @@ ms.locfileid: "83287535"
 このエラーには、*Power BI Desktop* トレース ファイルの次の例外が関連します。
 
 * *Microsoft.PowerBI.Client.Windows.Services.PowerBIWebException*
-* *HttpStatusCode: ProxyAuthenticationRequired*
+* *HttpStatusCode:ProxyAuthenticationRequired*
 
 このエラーが発生した場合に最も可能性が高い原因は、ネットワーク上のプロキシ認証サーバーが、**Power BI Desktop** によって発行された Web 要求をブロックしていることです。 
 
-ネットワークがプロキシ認証サーバーを使っている場合、管理者はプロキシ認証サーバーで次のドメインをホワイトリストに登録することにより、問題を解決できます。
+ネットワークがプロキシ認証サーバーを使っている場合、管理者はプロキシ認証サーバーで次のドメインを許可リストに追加することにより、問題を解決できます。
 
 * app.powerbi.com
 * api.powerbi.com
 * *.analysis.windows.net 名前空間内のドメイン
 
-政府機関向けクラウドの一部であるお客様の場合は、プロキシ認証サーバーで次のドメインをホワイトリストに登録することにより、この問題を解決できます。
+政府機関向けクラウドの一部であるお客様の場合は、プロキシ認証サーバーで次のドメインを許可リストに追加することにより、この問題を解決できます。
 
 * app.powerbigov.us
 * api.powerbigov.us
@@ -55,7 +54,7 @@ ms.locfileid: "83287535"
 
 このエラーには、*Power BI Desktop* トレース ファイルの次の例外が関連します。
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: Non-HTTPS url redirect is not supported in webview* (webview では HTTPS 以外の URL リダイレクトはサポートされていません)
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException:Non-HTTPS url redirect is not supported in webview* (webview では HTTPS 以外の URL リダイレクトはサポートされていません)
 * *ErrorCode: non_https_redirect_failed*
 
 *ErrorCode: non_https_redirect_failed* が発生する場合は、リダイレクト チェーン内の 1 つ以上のリダイレクト ページまたはプロバイダーが HTTPS で保護されたエンドポイントではないこと、または 1 つ以上のリダイレクトの証明書発行者がデバイスの信頼されたルートに含まれないことを意味します。 サインイン リダイレクト チェーンのすべてのプロバイダーは、HTTPS URL を使用している必要があります。 この問題を解決するには、管理者に連絡し、その認証サイトにセキュリティで保護された URL を使用するよう要求してください。 
