@@ -76,13 +76,15 @@
           href: desktop-admin-sign-in-form.md
         - name: データ保護
           items:
-            - name: データ保護の概要
-              href: service-security-data-protection-overview.md
-            - name: データの機密情報のラベル付けを有効にする
+            - name: Power BI における秘密度ラベル
+              href: service-security-sensitivity-label-overview.md
+            - name: 秘密度ラベルを有効にする
               href: service-security-enable-data-sensitivity-labels.md
+            - name: 秘密度ラベルを適用する方法
+              href: service-security-apply-data-sensitivity-labels.md
             - name: Power BI で Microsoft Cloud App Security を使用する
               href: service-security-using-microsoft-cloud-app-security-controls.md
-            - name: データ保護メトリック レポート
+            - name: 保護メトリック レポート
               href: service-security-data-protection-metrics-report.md
         - name: 行レベルのセキュリティ
           href: service-admin-rls.md
