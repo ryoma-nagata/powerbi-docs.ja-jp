@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 546f712c87e67240fd15ee2563252d8f322212c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221002"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034499"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI レポートをファイルにエクスポートする (プレビュー)
 
@@ -73,7 +73,7 @@ RLS を使用してエクスポートするには、次のアクセス許可を�
 
 ### <a name="data-protection"></a>データ保護
 
-.pdf と .pptx 形式では、[機密ラベル](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)がサポートされています。 機密ラベルが設定されたレポートを .pdf または .pptx にエクスポートすると、エクスポートされたファイルでは、レポートとその機密ラベルが表示されます。
+.pdf と .pptx 形式では、[機密ラベル](../../admin/service-security-sensitivity-label-overview.md)がサポートされています。 機密ラベルが設定されたレポートを .pdf または .pptx にエクスポートすると、エクスポートされたファイルでは、レポートとその機密ラベルが表示されます。
 
 機密ラベルが設定されたレポートは、[サービス プリンシパル](embed-service-principal.md)を使用して .pdf または .pptx にエクスポートすることはできません。
 

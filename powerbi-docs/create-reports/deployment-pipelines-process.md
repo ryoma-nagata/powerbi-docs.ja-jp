@@ -7,11 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782578"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034292"
 ---
 # <a name="understand-the-deployment-process-preview"></a>配置プロセスについて理解する (プレビュー)
 
@@ -233,7 +234,7 @@ ms.locfileid: "85782578"
 
 * ワークスペースは、 [Premium 容量](../admin/service-premium-what-is.md)に存在する必要があります。
 
-* Power BI の[秘密度ラベル](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)が付いているレポートやダッシュボードなどの Power BI 項目は、配置できません。
+* Power BI の[秘密度ラベル](../admin/service-security-sensitivity-label-overview.md)が付いているレポートやダッシュボードなどの Power BI 項目は、配置できません。
 
 * 1 回の配置で配置できる Power BI 項目の最大数は、300 個です。
 
