@@ -1,25 +1,27 @@
 ---
-title: Power BI サービスの概要
+title: チュートリアル:Power BI サービスでの作成の概要
 description: Power BI オンライン サービスの概要 (app.powerbi.com)
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 09/05/2019
+ms.date: 07/02/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 67bb913f582b372d2c9ffcbe72a59aeade143fac
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ee3919be08cfb2af2ad0e82e9f0f35b5d13147c6
+ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83358762"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85943194"
 ---
-# <a name="tutorial-get-started-with-the-power-bi-service"></a>チュートリアル:Power BI サービスの概要
+# <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>チュートリアル:Power BI サービスでの作成の概要
 このチュートリアルでは、*Power BI サービス*の一部の機能について説明します。 ここでは、データに接続し、レポートとダッシュボードを作成して、データに関する質問をします。 Power BI サービスでは、さらに多くのことを行うことができます。このチュートリアルは、単にみなさんの興味をかき立てることを目的としています。 Power BI サービスと他の Power BI 製品の関係を理解するため、「[Power BI とは?](power-bi-overview.md)」を読むことをお勧めします。
 
-![Power BI サービス ホーム](media/service-get-started/power-bi-service-get-started-home.png)
+レポートの作成者ではなく "*閲覧者*" の場合は 出発点として「[Power BI サービス内の移動](../consumer/end-user-experience.md)」をお勧めします。
+
+:::image type="content" source="media/service-get-started/power-bi-service-rearranged-dashboard.png" alt-text="財務サンプル ダッシュボードのスクリーンショット。":::
 
 このチュートリアルでは、以下の手順を実行します。
 
@@ -30,180 +32,193 @@ ms.locfileid: "83358762"
 > * そのデータを使用して視覚化を作成し、レポートとして保存します。
 > * レポートからタイルをピン留めし、ダッシュボードを作成します。
 > * Q&A 自然言語ツールを利用して、他の視覚エフェクトをダッシュボードに追加します。
-> * ダッシュボード上のタイルのサイズ変更、再配置、および操作を行います。
+> * ダッシュボード上でタイルのサイズ変更、再配置、編集を行います。
 > * データセット、レポート、ダッシュボードを削除してリソースをクリーンアップします。
 
-> [!TIP]
-> 自分のペースで進められる無料のトレーニング コースを代わりに選択しますか? [EdX の Analyzing and Visualizing Data (データの分析と視覚化) コースに登録](https://aka.ms/edxpbi)してください。
-
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI サービスにサインアップする
-Power BI アカウントがない場合は、始める前に[無料の Power BI Pro 試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
-
-アカウントを作成した後、ブラウザーに「*app.powerbi.com*」と入力して Power BI サービスを開きます。 
+Power BI でコンテンツを作成するには、Power BI Pro ライセンスが必要です。 Power BI アカウントがない場合は、始める前に[無料の Power BI Pro 試用版にサインアップ](https://app.powerbi.com/signupredirect?pbi_source=web)してください。
 
 ## <a name="step-1-get-data"></a>手順 1:データを取得
 
-Power BI レポートを作成するときには、多くの場合、Power BI Desktop から開始します。 今回は、Power BI サービスでレポートの作成を最初から開始します。
+Power BI レポートを作成するときには、多くの場合、Power BI Desktop から開始します。 Power BI Desktop にはさらに高度な機能があります。 レポートのデザインを開始する前に、データを変換、整形、およびモデル化することができます。 今回は、Power BI サービスでレポートの作成を最初から開始します。
 
-このチュートリアルでは、CSV ファイルからデータを取得します。 どうしたらよいでしょうか? [財務サンプル CSV ファイルのダウンロード](https://go.microsoft.com/fwlink/?LinkID=521962)
+このチュートリアルでは、単純な Microsoft Excel ファイルからデータを取得します。 どうしたらよいでしょうか? [財務サンプル ファイルをダウンロードします](https://go.microsoft.com/fwlink/?LinkID=521962)。
 
-1. [Power BI にサインイン](https://www.powerbi.com/)します。 アカウントをお持ちではありませんか。 心配はご無用です。無料の試用版にご登録いただけます。
-2. Power BI がブラウザーで開きます。 ナビ ペインの下部にある **[データの取得]** を選択します。
+1. まずブラウザーで Power BI サービス (app.powerbi.com) を開きます。 
+
+    アカウントをお持ちではありませんか。 心配はいりません。[無料の Power BI Pro 無料試用版にサインアップできます](https://app.powerbi.com/signupredirect?pbi_source=web)
+
+1. ナビゲーション ペインで **[マイ ワークスペース]** を選択します。
+
+1. **[マイ ワークスペース]** で、 **[新規]**  >  **[ファイルのアップロード]** を選択します。
 
     **[データの取得]** ページが開きます。   
 
-3. **[新しいコンテンツの作成]** セクションで、 **[ファイル]** を選択します。 
+3. **[新しいコンテンツの作成]** セクションで **[ファイル]** が選択されていることを確認し、Excel ファイルを保存した場所を選択します。
    
-   ![ファイルの取得](media/service-get-started/gs1.png)
-4.  **[ローカル ファイル]** を選択します。
-   
-    ![[データの取得] > [ファイル] 画面](media/service-get-started/power-bi-service-get-data-local-file.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-get-data-local-file.png" alt-text="[新しいコンテンツの作成] > [ファイル] のスクリーンショット。":::
 
 5. コンピューター上のファイルに移動し、 **[開く]** を選びます。
 
 5. このチュートリアルでは、 **[インポート]** を選択し、レポートおよびダッシュボードの作成に使用できるデータセットとして、Excel ファイルを追加します。 **[アップロード]** を選択した場合は、Excel ブック全体が Power BI にアップロードされるので、それを Excel Online で開いて編集できます。
    
-   ![[インポート] を選択する](media/service-get-started/power-bi-import.png)
-6. データセットの準備ができたら、 **[データセット]** を選択し、データセット**財務サンプル**の横にある **[レポートの作成]** を選択して、レポート エディターを開きます。 
+   :::image type="content" source="media/service-get-started/power-bi-import.png" alt-text="[インポート] の選択のスクリーンショット。":::
+6. データセットの準備ができたら、財務サンプル データセットの横にある **[その他のオプション (...)]** を選択し、 **[レポートの作成]** を選択します。
+1. レポート エディターを開きます。 
 
-    ![データセット リスト](media/service-get-started/power-bi-service-datasets.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-datasets.png" alt-text="[すべてのコンテンツ] > [レポートの作成] のスクリーンショット。":::
 
     レポート キャンバスは空白です。 右側に **[フィルター]** 、 **[視覚化]** 、 **[フィールド]** の各ウィンドウが表示されています。
 
-    ![空のレポート キャンバス](media/service-get-started/power-bi-service-blank-report.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-blank-report.png" alt-text="空のレポート キャンバスのスクリーンショット。":::
 
-7. 上部のナビ ペインに **[読み取りビュー]** のオプションがあることに注意してください。 このオプションがあるということは、現在編集ビューになっていることを意味します。 レポート エディターについて詳しく理解するには、[用意されているツアー](../create-reports/service-the-report-editor-take-a-tour.md)をご覧ください。
+    > [!TIP]
+    > 左上隅のグローバル ナビゲーション ボタンを選択して、ナビゲーション ペインを折りたたみます。 これで、キャンバスの空き領域が増えます。
+    >
+    >:::image type="content" source="media/service-get-started/power-bi-global-nav-button.png" alt-text="グローバル ナビゲーション ボタン。":::
+    >
 
-    ![[読み取りビュー] オプション](media/service-get-started/power-bi-service-reading-view.png)
+7. 現在開かれているのは編集ビューです。 メニュー バーの **[読み取りビュー]** オプションに注目してください。 
 
-    編集ビューが表示されるユーザーはレポートの "*所有者*" なのでレポートを編集できます。 つまり、ユーザーは "*作成者*" です。 同僚とレポートを共有している場合、同僚は読み取りビューでレポートを操作することだけができます。同僚は "*コンシューマー*" です。 詳しくは、[読み取りビューと編集ビュー](../consumer/end-user-reading-view.md)に関するトピックをご覧ください。
+    :::image type="content" source="media/service-get-started/power-bi-service-reading-view.png" alt-text="[読み取りビュー] オプションのスクリーンショット。":::
 
+    編集ビューでは、レポートを変更できます。これは、あなたがレポートの "*所有者*" であり、"*作成者*" であるためです。 同僚とレポートを共有すると、多くの場合、その相手は読み取りビューでのみレポートを操作できます。 このようなユーザーは、**マイ ワークスペース**のレポートの "*コンシューマー*" です。 
 
 ## <a name="step-2-create-a-chart-in-a-report"></a>手順 2:レポートにグラフを作成する
-データに接続したので、探索を開始します。  何か興味深いものを発見したときは、ダッシュボードを作成し、時間経過によってどのように変化するかを監視できます。 そのしくみを見てみましょう。
+データに接続したので、探索を開始します。 興味深いものが見つかったら、それをレポート キャンバスに保存できます。 次に、それをダッシュボードに固定して監視し、時間の経過と共にどのように変化するかを確認できます。 ただし、最初に行うことがあります。
     
-1. レポート エディターで、ページの右側にある **[フィールド]** ウィンドウで視覚エフェクトの作成を開始します。 **Gross Sales** と **Date** のチェック ボックスをオンにします。
+1. レポート エディターで、ページの右側にある **[フィールド]** ペインで視覚化の作成を開始します。 **[総売上]** フィールドを選択し、 **[日付]** フィールドを選択します。
    
-   ![フィールド一覧](media/service-get-started/power-bi-service-fields-pane-selected.png)
+   :::image type="content" source="media/service-get-started/power-bi-service-fields-pane-selected.png" alt-text="フィールド一覧のスクリーンショット。":::
 
-    Power BI は、データを分析して視覚エフェクトを作成します。 最初に **Date** を選択した場合は、テーブルが表示されます。 最初に **[Gross Sales]\(総売上\)** を選択した場合は、縦棒グラフが表示されます。 
+    Power BI によってデータが分析され、縦棒グラフの視覚化が作成されます。 
 
-2. 別のデータ表示方法に切り替えます。 このデータを折れ線グラフにしてみます。 **[視覚化]** ウィンドウで折れ線グラフ アイコンを選択します。
-   
-   ![折れ線グラフが選択されたレポート エディター](media/service-get-started/power-bi-service-select-line-chart.png)
+    > [!NOTE]
+    > 最初に **[総売上]** ではなく **[日付]** フィールドを選択した場合は、テーブルが表示されます。 ご心配なく。 次の手順で視覚化を変更します。
 
-3. 役に立ちそうなので、グラフをダッシュボードに "*ピン留め*" します。 視覚エフェクトをポイントし、ピン留めアイコンを選択します。 この視覚エフェクトをピン留めすると、最新の値がひとめでわかるようにダッシュボードに保存されて最新の様態に維持されます。
-   
-   ![ピン留めアイコン](media/service-get-started/power-bi-service-pin-visual.png)
+    Power BI で数値が含まれていることが検出されたため、一部のフィールドの横にシグマ記号が表示されています。
 
-4. これは新しいレポートであるため、視覚エフェクトをダッシュボードにピン留めする前に、レポートを保存するよう要求されます。 レポートに名前を付け (たとえば、"*一定期間内の売上*" など)、 **[保存]** を選択します。 
+    :::image type="content" source="media/service-get-started/power-bi-sigma-fields.png" alt-text="シグマ記号が表示されたフィールド。":::
 
-5. **[新しいダッシュボード]** を選択し、"*チュートリアル用の財務サンプル*" という名前を付けます。 
+2. このデータを表示する方法を切り替えましょう。 折れ線グラフは、値を時間の経過と共に表示する場合に適したビジュアルです。 **[視覚化]** ペインで**折れ線グラフ** アイコンを選択します。
    
-   ![レポート名の設定](media/service-get-started/power-bi-pin.png)
+   :::image type="content" source="media/service-get-started/power-bi-service-select-line-chart.png" alt-text="折れ線グラフが選択されているレポート エディターのスクリーンショット。":::
+
+3. 役に立ちそうなので、グラフをダッシュボードに "*ピン留め*" します。 視覚エフェクトをポイントし、ピン留めアイコンを選択します。
    
-6. **[Pin]** (ピン留め) を選択します。
+   :::image type="content" source="media/service-get-started/power-bi-service-pin-visual.png" alt-text="ピン留めアイコンのスクリーンショット。":::
+
+4. これは新しいレポートであるため、視覚エフェクトをダッシュボードにピン留めする前に、レポートを保存するよう要求されます。 レポートに名前を付け (たとえば、「*財務サンプル レポート*」)、 **[保存]** します。 
+
+    これで、読み取りビューでレポートが表示されるようになります。 
+
+6. **ピン留め**アイコンをもう一度選択します。
+ 
+5. たとえば、 **[新しいダッシュボード]** を選択し、「*財務サンプル ダッシュボード*」という名前を付けます。 
    
+   :::image type="content" source="media/service-get-started/power-bi-pin.png" alt-text="ダッシュボードの [名前] のスクリーンショット。":::
+  
     右上隅の近くに成功メッセージが表示されたら、視覚エフェクトがダッシュボードにタイルとして追加されたことがわかります。
    
-    ![ダッシュボードにピン留めダイアログ](media/service-get-started/power-bi-pin-success.png)
+    :::image type="content" source="media/service-get-started/power-bi-pin-success.png" alt-text="ダッシュボード ダイアログにピン留めされたスクリーンショット。":::
+
+    この視覚化をピン留めしたので、ダッシュボードに保存されます。 データは最新の状態に保たれるため、最新の値をひとめで追跡できます。 ただし、レポートの視覚化の種類を変更しても、ダッシュボードの視覚化は変更されません。
 
 7. **[ダッシュボードへ移動]** を選択すると、タイルとしてピン留めした折れ線グラフが表示された新しいダッシュボードが表示されます。 
    
-   ![視覚エフェクトがピン留めされたダッシュボード](media/service-get-started/power-bi-service-dashboard-tile.png)
+   :::image type="content" source="media/service-get-started/power-bi-service-dashboard-tile.png" alt-text="視覚化がピン留めされたダッシュボードのスクリーンショット。":::
    
-8. ダッシュボード上の新しいタイルを選択すると、レポートに戻ることができます。 Power BI の表示が閲覧表示のレポートに戻ります。 
+8. ダッシュボードで新しいタイルを選択します。 Power BI の表示が閲覧表示のレポートに戻ります。
 
-1. 編集表示に戻るには、上部のナビ ペインにある**その他のオプション** (...) を選択し、 **[編集]** を選択します。 編集表示に戻ると、タイルの探索とピン留めを続けることができます。
+1. 編集表示に戻るには、メニュー バーにある **[その他のオプション]** (...) を選択し、 **[編集]** を選択します。
 
-    ![[編集] を選択してレポートを編集する](media/service-get-started/power-bi-service-edit-report.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-edit-report.png" alt-text="[編集] を選択してレポートを編集するスクリーンショット。":::
+
+    編集表示に戻ると、タイルの探索とピン留めを続けることができます。
 
 ## <a name="step-3-explore-with-qa"></a>手順 3:Q&A で探索する
 
-データのクイック探索については、Q&A の質問ボックスで質問してください。 Q&A により、データに関する自然言語のクエリが作成されます。 Q&A ボックスは、ダッシュボードでは一番上にあります (**データについて質問する**)。 レポートでは、上部のナビ ペインにあります (**質問する**)。
+データのクイック探索については、Q&A の質問ボックスで質問してください。 Q&A を使用すると、データに関する自然言語のクエリを行うことができます。 Q&A ボックスは、ダッシュボードではメニュー バーの一番上にあります (**データについて質問する**)。 レポートでは、上部のメニュー バーに表示されます (**質問する**)。
 
-1. ダッシュボードに戻るには、黒い **Power BI** バーで **[マイ ワークスペース]** を選択します。
+1. ダッシュボードに戻るには、黒い **Power BI** ヘッダー バーで **[マイ ワークスペース]** を選択します。
 
-    ![マイ ワークスペースに戻る](media/service-get-started/power-bi-service-go-my-workspace.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-go-my-workspace.png" alt-text="マイ ワークスペースに戻るスクリーンショット。":::
 
-1. **[ダッシュボード]** タブで、ダッシュボードを選択します。
+1. **[マイ ワークスペース]** でダッシュボードを選択します。
 
-    ![自分のダッシュボードを選択](media/service-get-started/power-bi-service-dashboard-tab.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-dashboard-tab.png" alt-text="ダッシュボードの選択のスクリーンショット。":::
 
-1. **[データについて質問する]** を選択します。 Q&A によっていくつかの提案が自動的に提供されます。
+1. **[データについて質問する]** を選択します。 Q&A によっていくつかの提案が自動的に提供されます。 
 
-    ![Q&A キャンバス](media/service-get-started/power-bi-service-new-qanda.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-new-qanda.png" alt-text="Q&A キャンバスのスクリーンショット。":::
 
     > [!NOTE]
     > 提案が表示されない場合は、**新しい Q&A エクスペリエンス**をオンにします。
 
-2. 提案によっては 1 つの値が返されます。 たとえば、 **[maximum sale]\(最大売上\)** を選択します。
+    :::image type="content" source="media/service-get-started/power-bi-new-qna-experience.png" alt-text="新しい Q&A エクスペリエンスを有効にするスクリーンショット。":::
+
+1. 提案によっては 1 つの値が返されます。 たとえば、 **[what is the average cog]\(平均売上原価はいくらですか\)** を選択します。
 
     Q&A によって回答が検索され、*カード*視覚エフェクトの形式で表示されます。
 
-    ![[maximum sale]\(最大売上\) カード](media/service-get-started/power-bi-service-qanda-maximum-sale.png)
+3. **[ビジュアルをピン留めする]** を選択し、その視覚化を財務サンプル ダッシュボードにピン留めします。
 
-3. ピン留めアイコン ![ピン留めアイコン](media/service-get-started/pbi_pinicon.png) を選択して、チュートリアル用の財務サンプル ダッシュボードにこの視覚エフェクトを表示します。
+    :::image type="content" source="media/service-get-started/power-bi-qna-pin-tile.png" alt-text="ビジュアルのピン留めのスクリーンショット。":::
 
-1. **[作業を開始するための質問]** リストを下にスクロールして、 **[average cog for each month]\(各月の平均売上原価\)** を選択します。 
+1. Q&A に戻り、 **[すべての候補を表示する]** を選択します。
+1. **[total profit by country]\(国別の総利益\)** を選択します。 
 
-    ![average cog for each month (各月の平均売上原価)](media/service-get-started/power-bi-service-qanda-average-cog.png)
+    :::image type="content" source="media/service-get-started/power-bi-qna-total-profit-country.png" alt-text="国別の総利益のスクリーンショット。":::
 
-1. 横棒グラフも、**チュートリアル用の財務サンプル** ダッシュボードにピン留めします。
+1. 財務サンプル ダッシュボードにもマップをピン留めします。
 
-1. [Q&A] ボックス内の「*by month*」の後にカーソルを置き、「*as line*」と入力します。 **[line (Visualization Type)]\(折れ線 (視覚エフェクトの種類)\)** を選択します。 
+1. ダッシュボードで、ピン留めしたマップを選択します。 これで Q&A がもう一度開きます。 
+1. [Q&A] ボックス内の「*by month*」の後にカーソルを置き、「*as bar*」と入力します。 Power BI で結果を使用して横棒グラフが作成されます。
 
-    ![折れ線視覚エフェクトのグラフ](media/service-get-started/power-bi-service-qanda-as-line.png)
+    :::image type="content" source="media/service-get-started/power-bi-qna-profit-country-bar.png" alt-text="横棒グラフの視覚化のスクリーンショット。":::
+
+1. 財務サンプル ダッシュボードにも横棒グラフをピン留めします。
 
 4. **[Q&A の終了]** を選択してダッシュボードに戻ると、作成した新しいタイルが表示されます。 
 
-   ![グラフがピン留めされたダッシュボード](media/service-get-started/power-bi-service-dashboard-qna.png)
+   :::image type="content" source="media/service-get-started/power-bi-service-dashboard-qna.png" alt-text="Q&A ビジュアルがピン留めされたダッシュボードのスクリーンショット。":::
 
-   グラフを折れ線グラフに変更した場合でも、タイルは横棒グラフのままになっています。これは、ピン留めしたときにそうなっていたためです。 
+   Q&A でマップを横棒グラフに変更しても、ピン留めしたときにマップだったため、タイルはマップのままでした。 
 
 ## <a name="step-4-reposition-tiles"></a>手順 4.タイルの位置変更
 
-ダッシュボードは幅広です。 ダッシュボード領域をより効果的に使用できるように、タイルを再配置できます。
+ダッシュボード領域をより効果的に使用できるように、タイルを再配置できます。
 
 1. *Gross Sales (総売上)* 折れ線グラフ タイルの右下隅を上にドラッグして、売上タイルと同じ高さにスナップしたら、放します。
 
-    ![タイルのサイズ変更](media/service-get-started/power-bi-service-resize-tile.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-resize-tile.png" alt-text="タイルのサイズ変更のスクリーンショット。":::
 
     これで、2 つのタイルの高さが同じになりました。
 
-    ![サイズ変更されたタイル](media/service-get-started/power-bi-service-resized-tile.png)
+1. [Average of COGS]\(平均売上原価\) タイルの **[その他のオプション (…)]** タイル > **[詳細の編集]** を選択します。 
 
-1. *Average of COGS (平均売上原価)* 横棒グラフ タイルを、*Gross Sales (総売上)* 折れ線グラフの下に収まるまでドラッグします。
+    :::image type="content" source="media/service-get-started/power-bi-tile-edit-details.png" alt-text="タイルの [その他のオプション] メニューのスクリーンショット。":::
+
+1. **[タイトル]** ボックスに「*平均売上原価*」と入力し  >  **[適用]** を選択します。
+
+    :::image type="content" source="media/service-get-started/power-bi-tile-details-dialog.png" alt-text="[詳細の編集] ダイアログボックスのスクリーンショット。":::
+
+1. 他のビジュアルを合わせて配置します。
 
     よくなりましたね。
 
-    ![再配置されたダッシュボード](media/service-get-started/power-bi-service-rearranged-dashboard.png)
-
-## <a name="step-5-interact-with-tiles"></a>手順 5.タイルを操作する
-
-独自のダッシュボードとレポートを作成する前に、観察する最後の操作があります。 異なるタイルを選択すると、異なる結果が得られます。 
-
-1. まず、レポートからピン留めした *Gross Sales (総売上)* 折れ線グラフ タイルを選択します。 
-
-    Power BI でレポートが閲覧表示で開かれます。 
-
-2. ブラウザーの戻るボタンを選択します。 
-
-1. ここで、Q&A で作成した *Average of COGS (平均売上原価)* 横棒グラフ タイルを選択します。 
-
-    Power BI ではレポートが開かれません。 このグラフは Q&A で作成したため、代わりに Q&A が開かれます。
+    :::image type="content" source="media/service-get-started/power-bi-service-rearranged-dashboard.png" alt-text="再配置されたダッシュボードのスクリーンショット。":::
 
 
 ## <a name="clean-up-resources"></a>リソースをクリーンアップする
 チュートリアルはこれで完了です。データセット、レポート、ダッシュボードは削除してかまいません。 
 
-1. ナビ ペインで、 **[マイ ワークスペース]** が選択されていることを確認します。
-2. **[データセット]** タブを選択し、このチュートリアルのためにインポートしたデータセットを検索します。  
-3. **その他のオプション** (...) を選択し、 **[削除]** を選択します。
+1. 黒い **Power BI** ヘッダー バーにある **[マイ ワークスペース]** を選択します。
+2. 財務サンプル データセットの横にある **[その他のオプション (...)]** 、 **[削除]** の順に選択します。
 
-    ![データセットを削除する](media/service-get-started/power-bi-service-delete-dataset.png)
+    :::image type="content" source="media/service-get-started/power-bi-service-delete-dataset.png" alt-text="データセットの削除のスクリーンショット。":::
 
-    データセットを削除すると、"**このデータセットのデータを含むレポートとダッシュボード タイルもすべて削除されます**" という警告が表示されます。
+    "**このデータセットのデータを含むレポートとダッシュボード タイルもすべて削除されます**" という警告が表示されます。
 
 4. **[削除]** を選択します。
 

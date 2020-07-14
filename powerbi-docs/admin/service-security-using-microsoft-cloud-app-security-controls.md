@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: b41d15329b7ce617803056d2d2b912a0afb7850c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cecb78ec986ddf672a9560598ccf68c95fa5d659
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227094"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034223"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Power BI で Microsoft Cloud App Security の制御を使用する
 
@@ -59,7 +59,7 @@ Cloud App Security には、Power BI 専用の 2 つの組み込み検出もあ�
 
 秘密度ラベルを使用すると、機密性の高いコンテンツを分類して保護することができるため、組織内のユーザーは組織外のパートナーと共同作業を行いながら、機密性の高いコンテンツやデータを慎重に認識できます。 
 
-Power BI の秘密度ラベルを使用するプロセスについて詳しく説明されている、[Power BI の秘密度ラベル](../collaborate-share/service-security-apply-data-sensitivity-labels.md)に関する記事を参照してください。 [秘密度ラベルに基づいた Power BI ポリシーの例](#example)については、以下を参照してください。
+Power BI の秘密度ラベルを使用するプロセスについて詳しく説明されている、[Power BI の秘密度ラベル](service-security-sensitivity-label-overview.md)に関する記事を参照してください。 [秘密度ラベルに基づいた Power BI ポリシーの例](#example)については、以下を参照してください。
 
 ## <a name="built-in-cloud-app-security-detections-for-power-bi"></a>Power BI の組み込みの Cloud App Security 検出
 
@@ -133,9 +133,9 @@ Power BI での Cloud App Security の使用は、ユーザー セッション�
 ## <a name="next-steps"></a>次の手順
 この記事では、Cloud App Security で Power BI に対してデータとコンテンツの保護をどのように提供できるかについて説明しました。 次の記事にも関心をもたれるかもしれません。これらの記事では、Power BI のデータ保護と、それを有効にする Azure サービスのサポート コンテンツについて説明しています。
 
-* [Power BI におけるデータ保護の概要](service-security-data-protection-overview.md)
-* [Power BI でデータの秘密度ラベルを有効にする](service-security-enable-data-sensitivity-labels.md)
-* [Power BI でデータの秘密度ラベルを適用する](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Power BI の秘密度ラベルの概要](service-security-sensitivity-label-overview.md)
+* [Power BI で秘密度ラベルを有効にする](service-security-enable-data-sensitivity-labels.md)
+* [Power BI で秘密度ラベルを適用する方法](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 
 次の Azure およびセキュリティについての記事にも関心をもたれるかもしれません。
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e499f6894890c379b76bfe0a11428715add30dfb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224898"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034430"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop で Azure Consumption Insights データに接続する
 
@@ -42,25 +42,25 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 
 1. **[接続]** を選択します。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
+   ![[Microsoft Azure Consumption Insights] ダイアログ ボックスのスクリーンショット。 [接続] を選択します。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
    表示されるダイアログで、ご自分の **Azure の登録番号**を入力します。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
+   ![Azure 登録番号を入力するダイアログのスクリーンショット。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
    * 登録番号は、次の画像に示されている場所で、[Azure Enterprise Portal](https://ea.azure.com) から取得できます。
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
+  ![登録番号を取得するための Azure Enterprise Portal のスクリーンショット。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
 
    このコネクタ バージョンでサポートされるのは、 https://ea.azure.com からのエンタープライズ登録のみです。 現在、中国での登録はサポートされていません。
 
    次に、接続するための*アクセス キー*を指定します。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
+   ![アクセス キーを入力し、Microsoft Azure Consumption Insights に接続するためのダイアログのスクリーンショット。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
    * 登録用のアクセス キーは [Azure Enterprise Portal](https://ea.azure.com) で確認できます。
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
+  ![Azure Enterprise Portal のスクリーンショット。登録アクセス キーが表示されています。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 ご利用の "*アクセス キー*" を指定して **[接続]** を選択すると、 **[ナビゲーター]** ウィンドウが開き、使用可能な次の 9 つのテーブルが表示されます。
 
@@ -78,7 +78,7 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 
 テーブルの横にあるチェック ボックスをオンにすれば、プレビューを表示できます。 1 つ以上のテーブルを選択するには、名前の横のチェック ボックスをオンにしてから **[読み込み]** を選択します。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
+![[ナビゲーター] ダイアログのスクリーンショット。利用できるすべてのテーブルが表示されています。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > *Summary* と *PriceSheet* テーブルを使用できるのは、登録レベルの API キーの場合のみです。 また、これらのテーブル内のデータには、既定で *Usage* と *PriceSheet* の現在の月のデータが含まれます。 *Summary* と *MarketPlace* テーブルは現在の月に制限されません。
@@ -87,11 +87,11 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 
 **[読み込み]** を選択すると、**Power BI Desktop** にデータが読み込まれます。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+![データが読み込まれたときに表示されるダイアログのスクリーンショット。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
 選択したデータが読み込まれると、選択したテーブルとフィールドが **[フィールド]** ウィンドウに表示されます。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
+![[ナビゲーター] ウィンドウからテーブルを読み込んだ後の [フィールド] ウィンドウのスクリーンショット。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>Azure Consumption Insights の使用
 **Azure Consumption Insights** コネクタを使用するには、Azure portal のエンタープライズ機能にアクセスします。
@@ -116,7 +116,7 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 
 次の図は、表示されるサンプル コレクションを示しています。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
+![サンプル コレクションのスクリーンショット。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 レポートを操作する場合やクエリを作成する場合は、次の操作を行うことができます。
 
@@ -148,7 +148,7 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
     in     
         data
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
+![詳細エディターでクエリを作成するためのダイアログのスクリーンショット。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 
 "*EnrollmentNumber*" の値を登録番号に置き換える必要があります。 ご利用の番号は、[Azure Enterprise Portal](https://ea.azure.com) から取得できます。 "*numberOfMonth*" パラメーターは、現在の日付を起点とした過去のデータの月数を示します。 現在の月にはゼロ (0) を使用します。
 
@@ -160,7 +160,7 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 1. メモ帳 (または他のテキスト エディター) を開きます。
 2. 移動するメジャーを選択し、 *[数値]* フィールドからテキストをコピーして、メモ帳に配置します。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
+   ![列とメジャーからなる [数値] フィールドが表示されているスクリーンショット。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. *Query1* を元の詳細テーブルの名前に変更します。
 4. 新しいテーブル メジャーとカスタム列を作成するには、ご利用のテーブルを右クリックし、 **[新しいメジャー]** を選択します。 次に、格納されているご自分のメジャーと列を最後まですべて、切り取って貼り付けます。
 
@@ -169,7 +169,7 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 
 - **Power BI Desktop** の **[モデリング]** タブで、 **[リレーションシップの管理]** を選択し、モデル内のリレーションシップを管理できるウィンドウを表示します。 必要に応じて、テーブルを再リンクします。
 
-    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
+    ![[リレーションシップの作成] ダイアログのスクリーンショット。 [リレーションシップの管理] を選択します。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>手順 5.ビジュアルを確認し、必要に応じてフィールドの書式設定を調整する
 この時点で、元のビジュアル、テーブル、およびドリルダウンのほとんどは予期したとおりに動作するはずです。 ただし、外観を正確に書式設定するには、若干の調整が必要になる場合があります。 ダッシュボードとビジュアルをそれぞれ調べて、予期したとおりに確実に表示されるようにするには少し時間がかかります。

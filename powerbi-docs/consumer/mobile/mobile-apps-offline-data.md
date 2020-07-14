@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148411"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034246"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータをオフライン表示する
 適用対象:
 
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android フォン](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android タブレット](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
+| iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -35,6 +35,9 @@ ms.locfileid: "83148411"
 オフライン中は、モバイル アプリから以前にアクセスしたダッシュボードにアクセスして操作を実行できます。
 
 モバイル アプリから以前にアクセスした Power BI レポートへの読み取り専用アクセスも可能です。 完全なレポートを表示できますが、フィルター処理、クロス フィルター処理、並べ替え、スライサーは使用できません。
+
+>[!NOTE]
+> DirectQuery に基づくレポートはキャッシュされず、オフラインで利用できません。
 
 ## <a name="background-data-refresh"></a>バックグラウンドでのデータ更新
 バックグラウンド更新では、お気に入りのダッシュ ボードに加えて、過去 2 週間に見たダッシュボードとレポートおよび (データ ソースではなく) Power BI サービス上のデータが更新されます。 Wi-Fi に接続している場合は、2 時間ごとにバックグラウンド更新が行われます。 Wi-Fi ではなく 3G ネットワークに接続している場合、コンテンツは Power BI によって 24 時間ごとに更新されます。
@@ -61,10 +64,10 @@ Power BI には、オフライン モードの切り替えを明確に示すイ�
 * Power BI モバイル アプリでは、Power BI Report Server に保存された Power BI Desktop (.pbix) ファイルを表示することはできません。 
 * ネットワークがオフラインの間は、ページ分割されたレポート (RDL) を使用することはできません。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 Power BI モバイル アプリで使用したいその他の機能にぜひ投票してください。お客様からのフィードバックは、将来実装する機能を決めるのに役立ちます。 
 
-* [モバイル デバイス用 Power BI アプリ](mobile-apps-for-mobile-devices.md)
+* [モバイル デバイス用の Power BI アプリ](mobile-apps-for-mobile-devices.md)
 * Twitter で @MSPowerBI をフォローする
 * [Power BI コミュニティの会話](https://community.powerbi.com/)に参加する
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)

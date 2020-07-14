@@ -10,35 +10,35 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06e5ec77a084755379d81be93c9455e8bd7af304
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6d7d22ba9aad24ed9f1ac60314d18d16f22d7994
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224635"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033809"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Power BI Desktop で CSV に接続する
 Power BI Desktop からコンマ区切り値 (*CSV*) ファイルへの接続は、Excel ブックへの接続とよく似ています。 どちらも簡単です。この記事では、アクセス権がある CSV ファイルに接続する手順を説明します。
 
 最初に、Power BI Desktop の **[ホーム]** リボンで **[データの取得]、[CSV]** の順に選択します。
 
-![](media/desktop-connect-csv/connect-to-csv_1.png)
+![[データの取得] メニューのスクリーンショット。](media/desktop-connect-csv/connect-to-csv_1.png)
 
 表示される **[開く]** ダイアログで CSV ファイルを選択します。
 
-![](media/desktop-connect-csv/connect-to-csv_2.png)
+![[開く] ダイアログのスクリーンショット。](media/desktop-connect-csv/connect-to-csv_2.png)
 
 **[開く]** を選択すると、Power BI Desktop はファイルにアクセスして、ファイルの作成元、区切り記号の種類、ファイルのデータの種類の特定に使用する必要がある行数などの特定のファイル属性を決定します。
 
 これらのファイル属性とオプションは、次に示すように、 **[CSV のインポート]** ダイアログ ウィンドウの上部にあるドロップダウン選択に表示されます。 検出されたこれらの設定は、ドロップダウンの選択肢から別のオプションを選択することにより手動で変更できます。
 
-![](media/desktop-connect-csv/connect-to-csv_3.png)
+![[CSV のインポート] ダイアログ ウィンドウのスクリーンショット。](media/desktop-connect-csv/connect-to-csv_3.png)
 
 選択が済んだら、 **[読み込み]** を選択して Power BI Desktop にファイルをインポートするか、または **[編集]** を選択して **[クエリ エディター]** を開き、インポートする前にデータをさらに調整または変換できます。
 
 Power BI Desktop にデータを読み込むと、Power BI Desktop のレポート ビューの右側の **[フィールド]** ウィンドウにテーブルとその列 (Power BI Desktop ではフィールドとして表示されます) が表示されます。
 
-![](media/desktop-connect-csv/connect-to-csv_4.png)
+![Power BI Desktop ウィンドウのスクリーンショット。[フィールド] ウィンドウが表示されています。](media/desktop-connect-csv/connect-to-csv_4.png)
 
 CSV ファイルのデータを Power BI Desktop に取り込む手順は以上です。
 
@@ -48,7 +48,7 @@ Power BI Desktop でそのデータを使用して、表示やレポートを作
 > CSV ファイルをインポートすると、Power BI Desktop によって、Power Query エディターの 1 つの手順として、"*列 = x*" ("*x*" は最初のインポート時の CSV ファイル内の列の数) が生成されます。 後で列を追加し、データソースが更新されるように設定されている場合、最初の列の数 *x* を超える列は更新されません。 
 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 Power BI Desktop を使用して接続できるデータの種類は他にもあります。 データ ソースの詳細については、次のリソースを参照してください。
 
 * [Power BI Desktop とは何ですか?](../fundamentals/desktop-what-is-desktop.md)

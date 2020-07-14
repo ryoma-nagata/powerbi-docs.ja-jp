@@ -9,19 +9,19 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 19189529637fe5511ebd6f736c17b8a10a1d2ef9
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83130288"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033786"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop のプライバシー レベル
 **Power BI Desktop** では、プライバシー レベルにより、あるデータ ソースが他のデータ ソースから分離している程度を定義する分離レベルを指定します。 制限の厳しい分離レベルは、データ ソース間で交換される情報を妨げますが、機能性とパフォーマンスに与える影響を軽減できます。
 
 **[ファイル] > [オプションと設定] > [オプション]** の **[現在のファイル] > [プライバシー]** にある **[プライバシー レベル]** の設定で、Power BI Desktop がデータの結合時にプライバシー レベルの設定を使うかどうかを指定します。 このダイアログには、プライバシー レベルに関する Power BI Desktop ドキュメント (この記事) へのリンクが含まれています。
 
-![](media/desktop-privacy-levels/desktop_privacylevels1.png)
+![[オプション] ダイアログのスクリーンショット。](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
 ## <a name="configure-a-privacy-level"></a>プライバシー レベルの構成
 プライバシー レベルの設定では、あるデータ ソースが他のデータ ソースから分離していなければならない程度を定義する分離レベルを指定します。
@@ -37,7 +37,7 @@ ms.locfileid: "83130288"
 
 データ ソースのプライバシー レベルを構成するには、データ ソースを選び、 **[編集]** を選びます。 **[データ ソース設定]** ダイアログが表示されます。このダイアログの下部にあるドロップダウン メニューから、適切なプライバシー レベルを選べます (下の画像をご覧ください)。
 
-![](media/desktop-privacy-levels/desktop_privacylevels2.png)
+![[データ ソース設定] ダイアログのスクリーンショット。](media/desktop-privacy-levels/desktop_privacylevels2.png)
 
 > [!CAUTION]
 > 機密データや内密データの入っているデータ ソースは、必ず **[プライベート]** に設定してください。

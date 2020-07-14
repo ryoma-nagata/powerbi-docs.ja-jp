@@ -7,12 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.date: 07/06/2020
+ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739232"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034039"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
@@ -27,9 +28,11 @@ Power BI Report Server と Power BI Report Server 向けに最適化された Po
 
 ## <a name="may-2020"></a>2020 年 5 月
 
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server 用に最適化された Power BI Desktop
+
 今回の更新プログラムの目玉として、階層スライサー、分割ツリー ビジュアル、クエリ診断があります。 新機能と更新された機能の完全一覧を以下に示します。 詳細については、[Power BI Report Server の 2020 年 5 月のブログ記事](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/)を参照してください。 
 
-### <a name="reporting"></a>レポート
+#### <a name="reporting"></a>レポート
 
 - 階層スライサー
 - ボタン用の新しいアクションの種類:
@@ -50,7 +53,7 @@ Power BI Report Server と Power BI Report Server 向けに最適化された Po
     - 新しいフィルター ウィンドウ エクスペリエンス
     - [フィルター] ウィンドウの検索
     
-### <a name="modeling"></a>モデリング
+#### <a name="modeling"></a>モデリング
 
 - 新しい DAX 関数:
 
@@ -60,18 +63,24 @@ Power BI Report Server と Power BI Report Server 向けに最適化された Po
 
 - 標準 DAX 区切り記号
 
-### <a name="visualizations"></a>視覚化
+#### <a name="visualizations"></a>視覚化
 
 - 新しい視覚化アイコン
 - ビジュアル ドロップ シャドウ
 
-### <a name="data-preparation"></a>データの準備
+#### <a name="data-preparation"></a>データの準備
 
 - クエリ診断
 
-### <a name="other"></a>その他
+#### <a name="other"></a>その他
 
 - Web プロキシに既定のシステム資格情報を使用する
+
+### <a name="power-bi-report-server"></a>Power BI Report Server
+
+#### <a name="power-bi-visuals-api"></a>Power BI ビジュアル API
+
+このリリースに付属する API バージョンは 3.2 です。
 
 ## <a name="january-2020"></a>2020 年 1 月
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d741a489c5655e5a08f49f7197389a67c5d016ed
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225697"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034407"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>組織のコンテンツ パックを管理、更新、削除する
 > [!NOTE]
@@ -40,12 +40,12 @@ ms.locfileid: "85225697"
 
 1. メッセージ内の **[コンテンツ パックの表示]** を選びます。
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
-2. または、右上隅にある歯車アイコン ![](media/service-organizational-content-pack-manage-update-delete/cog.png) を選び、 **[コンテンツ パックの表示]** を選びます。
+   ![[コンテンツ パックの表示] を選択するためのメッセージ ダイアログのスクリーンショット。](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
+2. あるいは、右上隅にある歯車 ![歯車アイコンのスクリーンショット](media/service-organizational-content-pack-manage-update-delete/cog.png) を選択します。 それから **[コンテンツ パックの表示]** を選択します。
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
+   ![右上隅の歯車アイコンのスクリーンショット。](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
-   警告アイコン ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png) にご注目ください。  これは、何らかの方法でコンテンツ パックを変更し、発行されたものと一致しなくなったことを知らせます。
+   警告アイコンにご注目ください。 ![警告アイコンのスクリーンショット。](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  これは、何らかの方法でコンテンツ パックを変更し、発行されたものと一致しなくなったことを知らせます。
 3. **[編集]** をクリックします。  
 4. **[コンテンツ パックの更新]** ウィンドウで任意の必要な変更を加え、 **[更新]** をクリックします。 **成功** メッセージが表示されます。
    
@@ -55,7 +55,7 @@ ms.locfileid: "85225697"
 ## <a name="update-the-audience-expand-or-restrict-access"></a>対象ユーザーの更新: アクセスの拡張または制限
 コンテンツ パックの作成者が行うことのできる別の変更は、コンテンツ パックへのアクセスの拡張と制限です。  コンテンツ パックを大勢の対象ユーザーに対して発行し、より小さいグループにアクセスを制限することができます。  
 
-1. 歯車アイコン ![](media/service-organizational-content-pack-manage-update-delete/cog.png) を選び、 **[コンテンツ パックの表示]** を選びます。
+1. 歯車アイコン ![歯車アイコンのスクリーンショット](media/service-organizational-content-pack-manage-update-delete/cog.png) を選択します。 それから **[コンテンツ パックの表示]** を選択します。
 2. **[編集]** をクリックします。 
 3. **[コンテンツ パックの更新]** ウィンドウで任意の必要な変更を加え、 **[更新]** をクリックします。 たとえば、 **[特定のグループ]** フィールドで元の配布グループを削除し、より少ないメンバーを持つ別の配布グループに置き換えます。
    
@@ -77,7 +77,7 @@ ms.locfileid: "85225697"
 > 
 > 
 
-1. AppSource からコンテンツ パックを削除するには、コンテンツ パックを作成したワークスペースに移動し、歯車アイコン ![](media/service-organizational-content-pack-manage-update-delete/cog.png) を選択してから、 **[コンテンツ パックの表示]** を選択します。
+1. AppSource からコンテンツ パックを削除するには、コンテンツ パックを作成したワークスペースに移動し、歯車アイコン ![歯車アイコンのスクリーンショット](media/service-organizational-content-pack-manage-update-delete/cog.png) を選択します。 それから **[コンテンツ パックの表示]** を選択します。
 2. **[削除] \> [削除]** の順に選びます。 
    
    * コンテンツ パックをカスタマイズしていないグループ メンバーの場合、そのコンテンツ パックに関連付けられているダッシュボードとレポートは自動的に削除されます。 それらは利用できなくなり、コンテンツ パックはナビ ペインに表示されません。

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
+ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337075"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "86092241"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>チュートリアル:顧客向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -428,9 +428,12 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 
 ### <a name="development-testing"></a>開発テスト
 
-埋め込みトークンと Pro ライセンスを一緒に使用するのは、開発テストのためのものです。そのため、Power BI マスター アカウントまたはサービス プリンシパルで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込むには、専用の容量が必要です。 専用の容量があると、生成できる埋め込みトークンの数に制限がなくなります。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、[使用可能な機能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)に関するページに移動します。 使用量はマスター アカウント別となっています。
+開発テストでは、Pro ライセンスで埋め込み試用版トークンを使用できます。 運用環境に埋め込むには、専用の容量を使用します。
 
-詳細については、「[Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper)」 (埋め込み分析の容量計画に関するホワイト ペーパー) をご覧ください。
+Power BI サービス プリンシパルまたはマスター アカウントで生成できる埋め込み試用版トークンの数は制限されています。 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) API を使用して、現在の埋め込みの使用率を確認します。 使用量は、サービス プリンシパルまたはマスター アカウントごとに表示されます。
+
+テスト中に埋め込みトークンが不足した場合は、Power BI Embedded または Premium の[容量](embedded-capacity.md)を購入する必要があります。 専用の容量で生成できる埋め込みトークンの数に制限はありません。
+
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>専用の容量にワークスペースを割り当てる
 

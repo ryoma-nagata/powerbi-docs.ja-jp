@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1162ecfb9eee7d1a0bfaf5a7ef25244ec8935c0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c36a2725748e2c701c65f1737c39f4d56128962
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226824"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034384"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>”Excel で分析” に関するトラブルシューティング
 
@@ -45,22 +45,22 @@ Excel ライブラリは、ビット レベルが Windows のバージョンと�
 
 最新版の Excel ライブラリをダウンロードするには、Power BI にアクセスし、Power BI サービスの右上隅で**下向きの矢印**を選択し、 **[Excel 更新プログラムで分析]** を選択します。
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
+![右上隅にある、[Excel 更新プログラムで分析] を選択するための下向き矢印メニュー オプションのスクリーンショット。](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
 表示されるダイアログで、 **[ダウンロード (プレビュー)]** を選択します。
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
+![[Excel 更新プログラムで分析] ダイアログで [ダウンロード (プレビュー)] ボタンを選択するスクリーンショット。](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
 ## <a name="determining-whether-you-need-to-update-your-excel-libraries"></a>Excel ライブラリを更新する必要があるかどうかを判別する
 最新バージョンの Excel OLE DB プロバイダー ライブラリは、前のセクションにあるリンクからダウンロードできます。 適切な OLE DB プロバイダー ライブラリをダウンロードしてインストールを開始すると、現在インストールされているバージョンに対する確認が実行されます。
 
 Excel OLE DB プロバイダーのクライアント ライブラリが最新のものである場合は、次のようなダイアログが表示されます。
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
+![最新版の Excel OLE DB プロバイダー クライアント ライブラリが利用できる場合に更新を求めるダイアログのスクリーンショット。](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
 
 また、インストール中の新しいバージョンがコンピューター上のバージョンよりも新しい場合は、次のダイアログが表示されます。
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
+![Excel OLE DB プロバイダー クライアント ライブラリのインストール中、アップグレードを確認するダイアログのスクリーンショット。](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
 
 アップグレードを求めるダイアログが表示される場合は、インストールを続けて、コンピューターにインストールされている OLE DB プロバイダーの最新バージョンを取得する必要があります。
 

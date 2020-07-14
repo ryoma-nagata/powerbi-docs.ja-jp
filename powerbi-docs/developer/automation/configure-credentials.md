@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355009"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034062"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Power BI 用の資格情報をプログラムで構成する
 
@@ -48,13 +49,16 @@ ms.locfileid: "85355009"
 
     ---
 
-2. [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) を呼び出して、ゲートウェイの公開キーを取得します。
+    >[!NOTE]
+    >クラウド データ ソースを使用している場合、このセクションの後続手順には従わないでください。 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) を呼び出し、手順 1 で取得したゲートウェイ ID とデータ ソース ID を利用して資格情報を設定します。 
+
+3. [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) を呼び出して、ゲートウェイの公開キーを取得します。
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. 資格情報を暗号化します。
+4. 資格情報を暗号化します。
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -72,7 +76,7 @@ ms.locfileid: "85355009"
 
     ---  
 
-4. 暗号化された資格情報を使用して資格情報の詳細を作成します。
+5. 暗号化された資格情報を使用して資格情報の詳細を作成します。
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -100,7 +104,7 @@ ms.locfileid: "85355009"
 
     ---
 
-5. [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) を呼び出して資格情報を設定します。
+6. [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) を呼び出して資格情報を設定します。
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);

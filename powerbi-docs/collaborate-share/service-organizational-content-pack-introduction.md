@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace3b89051ee5f7b082979f2739cef71ceb05440
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84ecbb51663629b663373b884af86329f49e974f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225737"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034476"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI での組織のコンテンツ パックの概要
 > [!NOTE]
@@ -23,7 +23,7 @@ ms.locfileid: "85225737"
 
 チームのメンバーにメールで定期的にレポートを配布する場合は、 代わりに次のことを試してください。自分のダッシュボード、レポート、Excel ブック、およびデータセットをパッケージ化し、"*組織のコンテンツ パック*" としてチームに公開します。 すべてのコンテンツ パックは AppSource にあるので、チームは簡単に見つけることができます。 ライブラリは Power BI に含まれているので、インタラクティブなデータ探索、新しいビジュアル、Q&A、他のデータ ソースとの統合、データ更新、その他 Power BI の機能のすべてを活用できます。
 
-![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
+![組織のコンテンツ パックを表示するダッシュボードのスクリーンショット。](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 コンテンツ パックの作成は、ダッシュ ボードを共有することや、ワークスペース内でダッシュボードで共同作業を行うこととは異なります。 状況に応じた最適なオプションを決定するには、「[How should I collaborate on and share dashboards and reports?](service-how-to-collaborate-distribute-dashboards-reports.md)」(ダッシュボードとレポートで共同作業と共有を行う方法) を参照してください。 
 

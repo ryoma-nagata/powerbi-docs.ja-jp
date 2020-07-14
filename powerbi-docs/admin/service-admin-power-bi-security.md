@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564388"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034162"
 ---
 # <a name="power-bi-security"></a>Power BI のセキュリティ
 
@@ -28,11 +28,11 @@ Power BI のそれぞれのデプロイは、Web フロントエンド (**WFE**)
 
 **WFE** クラスターは、Power BI への最初の接続と認証のプロセスを管理します。AAD を使用してクライアントを認証し、Power BI サービスへのそれ以降のクライアント接続に対してトークンを提供します。 また、Power BI は、認証プロセスと静的コンテンツやファイルのダウンロードのために最も近いデータセンターにユーザー トラフィックを送信するために **Azure Traffic Manager** (ATM) も使用します。この送信先は、接続しようとしているクライアントの DNS レコードに基づいて決定されます。 Power BI は、**Azure Content Delivery Network** (CDN) を使用して、必要な静的コンテンツとファイルを地理的なロケールに基づいてユーザーに効率的に配布します。
 
-![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
+![Web フロント エンド クラスターの Power BI アーキテクチャを示す図。](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
 **バックエンド** クラスターは、認証されたクライアントが Power BI サービスと対話する方法を決定します。 **バックエンド** クラスターでは、視覚エフェクト、ユーザー ダッシュボード、データセット、レポート、データ ストレージ、データ接続、データの更新をはじめ、Power BI サービスと対話するためのさまざまな側面を管理します。 **ゲートウェイ ロール** は、ユーザーの要求と Power BI サービス間のゲートウェイとして機能します。 ユーザーは、 **ゲートウェイ ロール**以外のすべてのロールと直接対話することはありません。 **ゲートウェイ ロール** を最終的に処理するのは、 **Azure API Management**です。
 
-![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
+![Web バック エンド クラスターの Power BI アーキテクチャを示す図。](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
 > [!IMPORTANT]
 > **Azure API Management** (APIM) ロールと**ゲートウェイ** (GW) ロールのみが、パブリック インターネットを使用してアクセスされることに注意してください。 これらのロールは、認証、承認、DDoS に対する保護、スロットル、負荷分散、ルーティングなどの機能を提供します。

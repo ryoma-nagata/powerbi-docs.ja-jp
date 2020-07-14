@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cac39407cac3af833656a4e94edf9a3c80bbc26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e32824a58faa3a6a98e4d38f7362c62ab13b069e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231628"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034453"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Power BI で Zendesk に接続する
 
@@ -28,6 +28,9 @@ ms.locfileid: "85231628"
 
 >[!NOTE]
 >接続するには、Zendesk 管理者アカウントが必要です。 [要件](#system-requirements)の詳細については、このあと説明します。
+
+>[!WARNING]
+>2019 年 10 月 15 日より前の Zendesk Support Search API では、大規模クエリの改ページを利用して合計 200,000 件の結果を受け取ることができました。 検索使用をその意図された範囲に合わせるため、Zendesk では、返される結果の最大数を合計 1,000 件に制限するようになりました。ページごとの結果最大数は 100 件です。 ただし、現行の Power BI Zendesk コネクタでは引き続き、これらの新しい制限を超えて API を呼び出しできるため、紛らわしい結果が導かれる可能性があります。
 
 ## <a name="how-to-connect"></a>接続する方法
 
