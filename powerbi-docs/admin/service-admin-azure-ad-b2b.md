@@ -6,14 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 06/02/2020
+ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2782d639109b4901012e40ddb3d7c748bf063524
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393544"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939464"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -97,7 +98,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>ゲスト ユーザーに Power BI Pro ライセンスを割り当てる
 
-組織からゲスト ユーザーに Power BI Pro ライセンスを割り当てると、そのゲスト ユーザーは共有されているコンテンツを表示できるようになります。 ライセンスの割り当ての詳細については、「[[ライセンス] ページでユーザーにライセンスを割り当てる](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)」を参照してください。 ゲスト ユーザーに Pro ライセンスを割り当てる前に、Microsoft アカウントの担当者に連絡して、Microsoft との契約条件に準拠していることを確認してください。
+組織からゲスト ユーザーに Power BI Pro ライセンスを割り当てると、そのゲスト ユーザーは共有されているコンテンツを表示できるようになります。 ライセンスの割り当ての詳細については、「[[ライセンス] ページでユーザーにライセンスを割り当てる](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)」を参照してください。 Pro ライセンスをゲスト ユーザーに割り当てる前に、[製品条項サイト](https://www.microsoft.com/licensing/terms)に関するページをご覧いただき、Microsoft のライセンス契約の条項に確実に準拠するようにしてください。
 
 ![テナントから Pro ライセンスを割り当てるゲスト ユーザー エクスペリエンスのダイアグラム。](media/service-admin-azure-ad-b2b/license-approach-2.png)
 

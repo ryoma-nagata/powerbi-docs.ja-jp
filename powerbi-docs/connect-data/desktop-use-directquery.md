@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 07/02/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcf774af00fe65c5f9708f85f6270cda8405896f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222576"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939509"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 *Power BI Desktop* では、データ ソースに接続するときに、常にデータのコピーを Power BI Desktop にインポートすることができます。 データ ソースによっては、代替手法を利用できます。DirectQuery を使用して、データ ソースに直接接続します。
@@ -53,7 +53,7 @@ DirectQuery を使用する利点をいくつか以下に示します。
 
 - 基になるデータ ソースに送信されるクエリが許容範囲のパフォーマンスを確実に発揮できるよう、メジャー内で許可される DAX 式には制約があります。
 
-- Premium 容量を使用しない限り、DirectQuery の使用時に返されるデータには 100 万行の制限があります。 この制限は、DirectQuery を使用して返されるデータセットの作成に使用される集計や計算には影響しません。 返される行にのみ影響します。 Premium 容量の場合、[こちらの投稿](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/)で説明されているように、最大行数の制限を設定できます。 
+- クラウド ソースには 100 万行の制限があり、オンプレミス ソースでは、定義されているペイロードが 1 行あたり約 4 MB (独自の圧縮アルゴリズムに依存)、またはビジュアル全体に対して 16MB データ サイズに制限されています。 Premium 容量を使用するとき、特定の制限が発生する場合があります。 この制限は、DirectQuery を使用して返されるデータセットの作成に使用される集計や計算には影響しません。 返される行にのみ影響します。 Premium 容量の場合、[こちらの投稿](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/)で説明されているように、最大行数の制限を設定できます。 
 
     たとえば、データ ソースで実行されるクエリを使用して、1,000 万行を集計できます。 返された Power BI データが 100 万行未満の場合、クエリでは、DirectQuery を使用して Power BI にその集計の結果が正確に返されます。 DirectQuery から 100 万を超える行が返された場合、(Premium 容量で、行数が管理者が設定した上限を下回る場合を除き) Power BI からはエラーが返されます。
 

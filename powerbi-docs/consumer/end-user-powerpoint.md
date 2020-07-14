@@ -7,18 +7,19 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782526"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85837041"
 ---
 # <a name="export-reports-to-powerpoint"></a>レポートを PowerPoint にエクスポートする
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 
 Power BI サービス (app.powerbi.com) では、レポートを Microsoft PowerPoint に発行して、Power BI レポートに基づくスライド デッキを簡単に作成できます。 PowerPoint にエクスポートすると、次のようになります。
@@ -39,7 +40,7 @@ Power BI サービスから一度に 1 つのビジュアルをコピーし、Po
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-PowerPoint にエクスポートするレポートがキャンバスに表示されている場合は、メニュー バーから **[エクスポート]**  >  **[PowerPoint]** の順に選択します。
+PowerPoint にエクスポートするレポートがキャンバスに表示されているとき、メニュー バーから **[ファイル]** 、 **[PowerPoint へのエクスポート]** の順に選択します。
 
 ![メニュー バーから [エクスポート] を選択する](media/end-user-powerpoint/power-bi-export.png)
 
@@ -85,6 +86,10 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 "**PowerPoint へのエクスポート**" 機能を使用する場合は、留意すべき注意事項と制限事項がいくつかあります。
  
+
+* **[エクスポート]** オプションが表示されない場合、確実に "新しい外観" をオンにし、(ダッシュボードではなく) レポートを表示してください。
+
+    ![[新しい外観] トグルのスクリーンショット](media/end-user-powerpoint/power-bi-new-look.png)
 
 * 現在、エクスポートに **[現在の値]** を選択した場合、[URL フィルター](../collaborate-share/service-url-filters.md)は適用されません。
 

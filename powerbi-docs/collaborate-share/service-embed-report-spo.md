@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 04/27/2020
-ms.openlocfilehash: 6448fd85f281024aaaf03973496eaa0c4350c13b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 06/28/2020
+ms.openlocfilehash: 94419bb25aa00645b22a1dad1f97fcc792c3d63d
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226259"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939534"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
 Power BI の新しい SharePoint Online 用レポート Web パーツでは、対話型の Power BI レポートを SharePoint Online のページに簡単に埋め込むことができます。
 
-新しい **[SharePoint Online に埋め込む]** オプションを使うと、埋め込まれたレポートは完全に安全なので、簡単にセキュリティで保護された内部ポータルを作成できます。
+新しい **[SharePoint Online に埋め込む]** オプションを使用するとき、埋め込みレポートでは、[行レベル セキュリティ (RLS)](../admin/service-admin-rls.md) を介してあらゆる項目のアクセス許可とデータ セキュリティが順守されます。そのため、安全な内部ポータルを簡単に作成できます。
 
 ## <a name="requirements"></a>要件
 

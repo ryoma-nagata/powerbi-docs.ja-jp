@@ -5,20 +5,20 @@ author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867785"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939671"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI Q&A の概要
 
 場合によって、自分のデータから回答を得る最も速い方法は、自然言語を使用してデータを検索することです。 Power BI の Q&A 機能では、自然言語を使用して自分の言葉で自分のデータを探索することができます。 Q&A は対話型で、楽しく行えます。 視覚化によってさらに調べるべき点が見つかるため、多くの場合は 1 つの質問が他の質問につながります。 質問をすることは、始まりにすぎません。 自分のデータを探索する場合は、質問を調整または拡張したり、新しい情報を明らかにしたり、詳しい情報に的を絞ったり、ズームアウトしてより広い視野を得たりすることができます。 エクスペリエンスは対話型で高速であり、メモリ内ストレージが利用されています。 
 
-Power BI Q&A は無料で、すべてのユーザーが利用できます。 Power BI Desktop では、レポート デザイナーは Q&A を使用してデータを探索し、視覚エフェクトを作成できます。 Power BI サービスでは、すべてのユーザーが Q&A を使用して自分のデータを探索できます。 ダッシュボードまたはレポートを編集するためのアクセス許可を持っている場合は、自分の Q&A の結果をピン留めすることもできます。
+Power BI Q&A は無料で、すべてのユーザーが利用できます。 Power BI Desktop では、レポート デザイナーは Q&A を使用してデータを探索し、視覚エフェクトを作成できます。 Power BI サービスでは、すべてのユーザーが Q&A を使用して自分のデータを探索できます。 Microsoft のモバイル アプリでは Q&A もサポートされています。iOS デバイスには Q&A 仮想アシスタントがあり、Android デバイスには Q&A ビジュアルがあります。 ダッシュボードまたはレポートを編集するためのアクセス許可を持っている場合は、自分の Q&A の結果をピン留めすることもできます。
 
 ## <a name="how-to-use-qa"></a>Q&A の使用法
 
@@ -66,10 +66,10 @@ Q&A では、下線付きの単語が表示されるので、システムが認�
 
 - 折れ線グラフ
 - 横棒グラフ
-- マトリックス
-- Table
+- Matrix
+- テーブル
 - カード
-- 面
+- 領域
 - 円グラフ
 - 散布図/バブル チャート
  
@@ -97,7 +97,7 @@ Q&A ビジュアルをレポートに追加するには、新しい **Q&A** ア�
 
 ![Q&A ダッシュボード](media/qna-dashboard.png)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 自然言語は、自分のレポートにさまざまな方法で統合できます。 詳細については、次の記事を参照してください。
 
