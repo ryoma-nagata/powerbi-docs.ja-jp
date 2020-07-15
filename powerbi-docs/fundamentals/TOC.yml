@@ -33,6 +33,10 @@
               href: service-self-service-signup-for-power-bi.md
             - name: ライセンスの種類別の機能
               href: service-features-license-type.md
+            - name: Power BI Pro の購入に関するヘルプを表示する
+              href: service-self-service-purchase-help.md
+            - name: Power BI のサインアップに関するヘルプを表示する
+              href: service-self-service-sign-up-help.md
     - name: 攻略ガイド
       items:
         - name: Power BI Desktop の取得
