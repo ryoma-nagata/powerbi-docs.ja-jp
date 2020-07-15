@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225660"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216562"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -28,10 +29,6 @@ Power BI の **[Web に公開]** オプションを使用して、対話型の P
 ## <a name="create-embed-codes-with-publish-to-web"></a>[Web に公開] を使用して埋め込みコードを作成する
 
 **[Web に公開]** は個人用またはグループ用ワークスペースで編集可能なレポートで使用できます。  共有しているレポート、またはデータをセキュリティで保護するために行レベルでセキュリティ保護されているレポートでは使用できません。 **[Web に公開]** がサポートされないケースの全一覧については、以下の「[**制限事項**](#limitations)」のセクションを参照してください。 **[Web に公開]** を使用する前に、前述の「**警告**」をご確認ください。
-
-以下の短いビデオでは、この機能がどのように動作するかを確認することができます。 次に、次の手順をご自分でお試しください。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
 次の手順では、 **Publish to Web**を使用する方法について説明します。
 

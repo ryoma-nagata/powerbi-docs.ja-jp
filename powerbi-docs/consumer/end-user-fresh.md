@@ -3,18 +3,19 @@ title: Power BI でコンテンツが最新の状態に維持されるしくみ
 description: Power BI では、常に最新のデータ、レポート、ダッシュボード、アプリが使用されるようになっています。そのしくみについて説明します。
 author: mihart
 ms.service: powerbi
+ms.reviewer: mihart
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f03493ad6aef1b9ed8393ef684d4c18143085964
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 73affb07b137ee60fe00f7d344759ec2de1bcb85
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235017"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215920"
 ---
 # <a name="your-content-is-up-to-date"></a>コンテンツが最新の状態に維持される
 

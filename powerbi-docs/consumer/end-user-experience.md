@@ -2,7 +2,7 @@
 title: Power BI サービス内の移動
 description: Power BI のナビゲーション環境の概要です
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49ed6bd0ae8021936c327aede83d0e6a8539179a
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040149"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216150"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>クイック スタート - Power BI サービス内の移動
 
