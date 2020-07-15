@@ -2,18 +2,19 @@
 title: Sales & Marketing アプリをインストールして Power BI サービスで使用する
 description: Power BI では、アプリが関連のあるダッシュボードやレポートをまとめて 1 つの場所に表示します。 Power BI アプリ マーケットプレースから Sales および Marketing アプリをインストールします。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 06/09/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: df22baeae8acb09ac9b7f071c16ec8697203f8fa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f2e97a5b1ba8fc62581244cf26cd069ce5c2586
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236570"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162254"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>サンプルの Sales & Marketing アプリをインストールして Power BI サービスで使用する
 

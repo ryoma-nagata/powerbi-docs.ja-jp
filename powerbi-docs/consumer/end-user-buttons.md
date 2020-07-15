@@ -2,19 +2,19 @@
 title: Power BI サービスのボタンのしくみについて説明します
 description: レポート内での移動、ドリルスルー、レポート間ドリルスルーなど、さまざまなアクションを起動する目的でボタンを利用できます。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 14024a9c28da93cbe9e6e586ee66f634b63a70b8
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940129"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161792"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI サービスのボタン
 同僚から受け取ったレポートでボタンに気付き、その使い方を知りたいと思うことがあります。 単語が含まれているものもあれば、矢印やグラフィックスが含まれているものもあります。ドロップダウン メニューまで含まれているものもあります。 この記事では、ボタンを見分け、その使い方を理解する方法について説明します。

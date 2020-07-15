@@ -2,7 +2,7 @@
 title: Power BI サービス - コンシューマーの基本的な概念
 description: Power BI サービスのアプリ、ワークスペース、ダッシュボード、レポート、データセット、およびブック。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.custom: seodec18
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: edbadb8d5e366e4f62e14f4df3922d80cdbb35cb
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561991"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162229"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI サービスのコンシューマーの基本的な概念
 
