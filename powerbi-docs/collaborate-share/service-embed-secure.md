@@ -9,11 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
+ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226198"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86301001"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 
@@ -121,8 +122,6 @@ report.src = newUrl;
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 
 * ページ分割されたレポートはセキュリティで保護された埋め込みシナリオでサポートされています。URL パラメーターを使用したページ分割されたレポートもサポートされています。 詳細については、[ページ分割されたレポートの URL でレポート パラメーターを渡す方法](../paginated-reports/report-builder-url-pass-parameters.md)に関するページを参照してください。
-
-* Azure の企業間 (B2B) 機能を使った外部ゲスト ユーザーはサポートされません。
 
 * セキュリティで保護された埋め込みは Power BI サービスに公開されたレポートに対して機能します。
 
