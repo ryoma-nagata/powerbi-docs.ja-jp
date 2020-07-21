@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3247e718e5e98536ddce3a253f8e78e5ff615614
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ec290ce53155f24a9213a4849ecb82abd6cfc592
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234467"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263664"
 ---
 # <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop で Google アナリティクス コネクタを使用する
 > [!NOTE]
@@ -27,21 +27,21 @@ Google アナリティクス データへの接続には、**Google アナリテ
 2. **[データの取得]** ウィンドウで、左側のウィンドウのカテゴリから **[Online Services]** を選択します。
 3. 右側のウィンドウに表示されている選択肢から、 **[Google アナリティクス]** を選択します。
 4. ウィンドウの下部にある **[接続]** を選択します。  
-   ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)
+   ![[ホーム] タブのスクリーンショット。[Google アナリティクス] が選択された状態の [データの取得] リボンと [接続] ボタンが表示されています。](media/service-google-analytics-connector/tps_googleanalytics_1.png)
 
 コネクタがサード パーティ サービスであることを説明するダイアログが表示され、機能と可用性が時間の経過と共に変わる場合があるという警告やその他の説明が表示されます。  
-![](media/service-google-analytics-connector/tps_googleanalytics_2.png)
+![接続ダイアログのスクリーンショット。コネクタがサードパーティ サービスに依存しているという警告が表示されています。](media/service-google-analytics-connector/tps_googleanalytics_2.png)
 
 **[続行]** を選択すると、Google アナリティクスにサインインするように求められます。  
-![](media/service-google-analytics-connector/tps_googleanalytics_3.png)
+![Google アナリティクスのプロンプトのスクリーンショット。接続するにはログインする必要があることが表示されています。](media/service-google-analytics-connector/tps_googleanalytics_3.png)
 
 資格情報を入力すると、Power BI がオフライン アクセスを求めていることが示されます。 これが、**Power BI Desktop** を使用して、Google アナリティクスのデータにアクセスする方法です。  
 
 同意すると、**Power BI Desktop** に、現在サインインしていることを示すメッセージが表示されます。  
-![](media/service-google-analytics-connector/tps_googleanalytics_5.png)
+![Google アナリティクスのプロンプトのスクリーンショット。サインインしていることが表示されています。](media/service-google-analytics-connector/tps_googleanalytics_5.png)
 
 **[接続]** を選択すると、Google アナリティクス データが **Power BI Desktop** に接続され、データが読み込まれます。  
-![](media/service-google-analytics-connector/tps_googleanalytics_6.png)
+![[読み込み] ダイアログのスクリーンショット。Google アナリティクス データが接続されて読み込まれていることが表示されています。](media/service-google-analytics-connector/tps_googleanalytics_6.png)
 
 ## <a name="changes-to-the-api"></a>API への変更
 すべての変更に調和するように更新プログラムをリリースすることを試みていますが、API は、生成するクエリの結果に影響を与えるように変更される可能性があります。 特定のクエリがサポートされなくなる可能性もあります。 このような依存関係があることから、このコネクタの使用中にはクエリの結果は保証できません。

@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238622"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264739"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Power BI Desktop の視覚エフェクト テーブルとデータ ポイント テーブルを使用する
 **Power BI Desktop** では、視覚エフェクトの詳細にドリルダウンして、基になるデータのテキスト表現または選択したビジュアルの個々のデータ レコードを見ることができます。 これらの機能は、"*クリックスルー*"、"*ドリルスルー*"、"*詳細情報へのドリルスルー*" などとも呼ばれます。
@@ -73,7 +74,7 @@ ms.locfileid: "85238622"
 
 データ要素に対して **[データ ポイント テーブル]** を選択すると、Power BI Desktop キャンバスに、選択した要素に関連付けられているすべてのデータが表示されます。 
 
-![](media/desktop-see-data-see-records/visual-table-09.png)
+![キャンバスのスクリーンショット。データ ポイント テーブルを選択すると、選択した要素に関連付けられているすべてのデータが表示されます。](media/desktop-see-data-see-records/visual-table-09.png)
 
 レポートに戻るには、キャンバスの左上隅にある **[< レポートに戻る]** を選びます。
 

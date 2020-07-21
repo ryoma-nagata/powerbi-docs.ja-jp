@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c40ba6827e788a51402b3aa22497b5ddde1bcdc2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9ebc5857248b2d8c764262e2f27559c1960e1884
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240403"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263320"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 用の Power BI モバイル アプリの概要
 Windows 10 用の Power BI モバイル アプリでは、タブレットまたは携帯電話で Power BI を使用できます。 タッチ対応の最新のモバイルからビジネス情報にアクセスできるようになります。 どこにいても、[Windows のスタート画面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)から会社のダッシュボードを表示して操作できます。
@@ -67,12 +67,12 @@ Power BI ダッシュボードのサンプルを表示し、操作できます�
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services のモバイル レポートのサンプル
 1. 左上隅にあるグローバル ナビゲーション ボタン ![グローバル ナビゲーション ボタン](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) をタップします。
-2. **[設定]** アイコン ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) をタップし、 **[サーバーに接続]** を右クリックするかタップして保持した後、 **[サンプルを表示]** をタップします。
+2. **[設定]** アイコン ![[設定] アイコン](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) をタップし、 **[サーバーに接続]** を右クリックするかタップして長押しした後、 **[サンプルを表示]** をタップします。
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
+   ![[設定] 画面のスクリーンショット。[設定] アイコンから出たポインターが [サーバーに接続する] を指しています。](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. Retail Reports または Sales Reports フォルダーを開き、その KPI やモバイル レポートを調べます。
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
+   ![KPI とモバイル レポートを示しているレポートのスクリーンショット。](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
 
 ## <a name="search-for-dashboards-reports-and-apps"></a>ダッシュボード、レポート、アプリを検索する
 常にアプリの上部にある検索ボックスに入力して、ダッシュ ボード、レポート、アプリをすばやく検索できます。

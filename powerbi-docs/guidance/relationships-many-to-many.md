@@ -8,11 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c2351fe5032ba91fa6c0f964bd844ef479b05
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532421"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216696"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多対多のリレーションシップのガイダンス
 
@@ -34,20 +35,20 @@ ms.locfileid: "84532421"
 
 3 つのテーブルのシンプルなモデル図を以下に示します。
 
-![モデル図には 3 つのテーブルが含まれています。 設計については、次の段落で説明します。](media/relationships-many-to-many/bank-account-customer-model-example.png)
+![3 つのテーブルを含むモデルを示す図。 設計については、次の段落で説明します。](media/relationships-many-to-many/bank-account-customer-model-example.png)
 
 最初のテーブルには **Account** という名前が付けられ、次の 2 つの列が含まれています: **AccountID** と **Account**。 2 番目のテーブルには **AccountCustomer** という名前が付けられ、次の 2 つの列が含まれています: **AccountID** と **CustomerID**。 3 番目のテーブルには **Customer** という名前が付けられ、次の 2 つの列が含まれています: **CustomerID** と **Customer**。 どのテーブル間にもリレーションシップは存在しません。
 
 テーブルを関連付けるために、2 つの一対多リレーションシップが追加されます。 関連テーブルの更新されたモデル図を以下に示します。 **Transaction** という名前のファクトの種類のテーブルが追加されました。 これには口座取引が記録されています。 ブリッジング テーブルとすべての ID 列が非表示になりました。
 
-![これで、モデル図に 4 つのテーブルが含まれるようになりました。 すべてのテーブルを関連付けるために、一対多リレーションシップが追加されました。](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
+![モデルに含まれるテーブルが 4 つになったことを示す図。 すべてのテーブルを関連付けるために、一対多リレーションシップが追加されました。](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
 
 リレーションシップ フィルターの伝達のしくみを説明するのに役立つように、モデル図が変更されてテーブル行が表示されました。
 
 > [!NOTE]
 > Power BI Desktop モデル図にテーブル行を表示することはできません。 この記事では、わかりやすい例による説明をサポートするためにこのようにしています。
 
-![これで、モデル図にテーブル行が示されるようになりました。 行の詳細については、次の段落で説明します。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![モデルでテーブル行が表示されるようになったことを示す図。 行の詳細については、次の段落で説明します。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 4 つのテーブルの行の詳細については、次の箇条書きで説明します。
 
@@ -70,7 +71,7 @@ ms.locfileid: "84532421"
 
 **Transaction** テーブルから **Amount** 列を集計する 2 つのビジュアルを以下に示します。 最初のビジュアルでは口座別にグループ化されているため、**Amount** 列の合計は "_口座残高_" を表します。 2 番目のビジュアルでは顧客別にグループ化されているため、**Amount** 列の合計は "_顧客残高_" を表します。
 
-![2 つのレポート ビジュアルは左右に並べて表示されています。 ビジュアルについては、次の段落で説明します。](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
+![2 つのレポート ビジュアルが左右に並べて表示されている図。 ビジュアルについては、次の段落で説明します。](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
 
 最初のビジュアルには **Account Balance** というタイトルが付いており、次の 2 つの列があります: **Account** と **Amount**。 これには次の結果が表示されています。
 
@@ -90,9 +91,9 @@ ms.locfileid: "84532421"
 
 **Customer** テーブルから **Transaction** テーブルへのリレーションシップのフィルター方向をたどってください。 **Account** と **AccountCustomer** テーブル間のリレーションシップが間違った方向に伝達されているのは明らかです。 このリレーションシップのフィルター方向は、**両方**に設定する必要があります。
 
-![モデル図が更新されました。 Account と AccountCustomer テーブル間のリレーションシップに対して、1 つの変更が加えられました。 これで、両方向にフィルター処理されるようになりました。](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
+![モデルが更新されたことを示す図。 これで、両方向にフィルター処理されるようになりました。](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
 
-![2 つの同じレポート ビジュアルは左右に並べて表示されています。 最初のビジュアルは変更されていません。 2 番目のビジュアルでは異なる結果が示されています。これについては、以下の段落で説明されています。](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
+![同じ 2 つのレポート ビジュアルが左右に並べて表示されている図。 1 番目のビジュアルは変更されていませんが、2 番目のビジュアルは変更されています。](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
 
 予想どおり、**Account Balance** ビジュアルに変更はありませんでした。
 
@@ -130,13 +131,13 @@ ms.locfileid: "84532421"
 
 次の 2 つのファクトの種類のテーブルを含む例を考えてみましょう: **Order** と **Fulfillment**。 **Order** テーブルには注文明細行ごとに 1 行が含まれており、**Fulfillment** テーブルには、注文明細行ごとに 0 個以上の行を含めることができます。 **Order** テーブル内の行は、販売注文を表します。 **Fulfillment** テーブル内の行は、出荷された注文品目を表します。 多対多リレーションシップでは、2 つの **OrderID** 列が関連付けられ、フィルターは **Order** テーブルからのみ伝達されます (**Order** で **Fulfillment** をフィルター処理)。
 
-![モデル図には、次の 2 つのテーブルが含まれています: Order と Fulfillment。 多対多リレーションシップでは、2 つの OrderID 列が関連付けられ、Order から Fulfillment のフィルター処理が行われます。](media/relationships-many-to-many/order-fulfillment-model-example.png)
+![2 つのテーブルを含むモデルを示す図: Order と Fulfillment。](media/relationships-many-to-many/order-fulfillment-model-example.png)
 
 両方のテーブルでの重複する **OrderID** 値の格納をサポートするために、リレーションシップ カーディナリティが多対多に設定されています。 **Order** テーブルでは、重複する **OrderID** 値が存在できます。これは、1 つの注文に複数の行を含めることができるためです。 **Fulfillment** テーブルでは、重複する **OrderID** 値が存在できます。これは、注文に複数の行が含まれる可能性があり、注文明細行が多数の出荷で満たせるためです。
 
 次は、テーブル行を見てみましょう。 **Fulfillment** テーブルでは、注文明細行を複数の出荷で満たせることに注目してください (注文明細行がない場合は、注文がまだ満たされていないことを意味します)。
 
-![これで、モデル図にテーブル行が示されるようになりました。 行の詳細については、次の段落で説明します。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![モデルでテーブル行が表示されるようになったことを示す図。 行の詳細については、次の段落で説明します。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 2 つのテーブルの行の詳細については、次の箇条書きで説明します。
 
@@ -154,7 +155,7 @@ ms.locfileid: "84532421"
 
 モデルにクエリを実行するとどうなるかを見てみましょう。 次の表では、注文と調達の数量を **Order** テーブルの **OrderID** 列で比較しています。
 
-![あるテーブル ビジュアルに、OrderID、OrderQuantity、および FulfillmentQuantity という 3 つの列があります。 注文ごとに 1 つずつ、3 つの行があります。 OrderID 2 と 3 は完全には満たされていません。](media/relationships-many-to-many/order-fulfillment-model-queried.png)
+![次の 3 つの列を含むテーブル ビジュアルを示す図。OrderID、OrderQuantity、および FulfillmentQuantity という 3 つの列があります。](media/relationships-many-to-many/order-fulfillment-model-queried.png)
 
 ビジュアルには正確な結果が示されています。 しかし、モデルの有用性は限られています。フィルター処理またはグループ化できるのは、**Order** テーブルの **OrderID** 列でのみとなります。
 
@@ -166,7 +167,7 @@ ms.locfileid: "84532421"
 
 より優れたソリューションについて考えてみましょう。
 
-![モデル図には、次の 6 つのテーブルが含まれています: OrderLine、OrderDate、Order、Fulfillment、Product、および FulfillmentDate。 すべてのテーブルが関連付けられています。 設計については、次の段落で説明します。](media/relationships-many-to-many/order-fulfillment-model-improved.png)
+![モデルを示す図には、次の 6 つのテーブルが含まれます。OrderLine、OrderDate、Order、Fulfillment、Product、および FulfillmentDate。](media/relationships-many-to-many/order-fulfillment-model-improved.png)
 
 次の設計変更に注目してください。
 
@@ -191,11 +192,11 @@ ms.locfileid: "84532421"
 
 次の 4 つのテーブルを含む例を考えてみましょう: **Date**、**Sales**、**Product**、および **Target**。 **Date** と **Product** はディメンションの種類のテーブルであり、一対多リレーションシップでは、それぞれが **Sales** というファクトの種類のテーブルに関連付けられます。 今のところ、適切なスター スキーマ設計が示されています。 しかし、**Target** テーブルは、まだ他のテーブルに関連付けられていません。
 
-![モデル図には、次の 4 つのテーブルが含まれています: Date、Sales、Product、および Target。 Target テーブルは、他のどのテーブルにも関連付けられていません。 設計については、次の段落で説明します。](media/relationships-many-to-many/sales-targets-model-example.png)
+![次の 4 つのテーブルを含むモデルを示す図: Date、Sales、Product、および Target。](media/relationships-many-to-many/sales-targets-model-example.png)
 
 **Target** テーブルには、次の 3 つの列が含まれています: **Category**、**TargetQuantity**、および **TargetYear**。 テーブル行では、年と製品カテゴリの粒度が示されています。 つまり、販売実績を測定するために使用されるターゲットは、各製品カテゴリに対して毎年設定されます。
 
-![Target テーブルには、次の 3 つの列があります: TargetYear、Category、および TargetQuantity。 6 つの行には、2019 と 2020 のターゲットが記録され、それぞれ 3 つのカテゴリに対するものです。](media/relationships-many-to-many/sales-targets-model-target-rows.png)
+![Target テーブルに次の 3 つの列が含まれていることを示す図: TargetYear、Category、および TargetQuantity。](media/relationships-many-to-many/sales-targets-model-target-rows.png)
 
 **Target** テーブルでは、ディメンションの種類のテーブルよりも高いレベルのデータが格納されるため、一対多リレーションシップを作成することはできません。 しかし、これはリレーションシップの 1 つにのみ当てはまることです。 ここでは、**Target** テーブルをディメンションの種類のテーブルにどのように関連付けられるかを説明します。
 
@@ -210,7 +211,7 @@ ms.locfileid: "84532421"
 
 次のマトリックス ビジュアルでは、レポート ユーザーがある年からその月にドリルダウンしたときの動作が示されています。 このビジュアルでは、**TargetQuantity** 列が集計されています (マトリックス行に対して [[データのない項目を表示する]](../create-reports/desktop-show-items-no-data.md) オプションが有効になっている)。
 
-![マトリックス ビジュアルでは、2020 年のターゲット数量が 270 として示されています。 2020 年の月を表示するために展開すると、1 月は 270 となっており、その他の各月レベルのターゲット数量は空白になっています。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
+![マトリックス ビジュアルで、2020 年のターゲット数量が 270 として表示されていることを示す図。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
 この動作を回避するために、メジャーを使用して、ファクト データの集計を制御することをお勧めします。 集計を制御する方法の 1 つは、下位レベルの期間に対してクエリが実行されたときに空白を返すことです。 いくつかの高度な DAX で定義されているもう 1 つの方法は、下位レベルの期間にわたって値を分配することです。
 
@@ -227,7 +228,7 @@ IF(
 
 これで、次のマトリックス ビジュアルで、**Target Quantity** メジャーが使用されるようになりました。 これは、毎月のターゲット数量がすべて空白であることを示しています。
 
-![マトリックス ビジュアルでは、2020 年のターゲット数量が 270 として示されています。 2020 年の月を表示するために展開すると、各月レベルのターゲット数量は空白になります。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![マトリックス ビジュアルで、2020 年のターゲット数量が 270 として表示されていることを示す図。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>より高い粒度を関連付ける (日付以外)
 
@@ -235,21 +236,21 @@ IF(
 
 **Category** 列 (**Product** と **Target** テーブルの両方のもの) には、重複値が含まれています。 そのため、一対多リレーションシップの "一" はありません。 この場合は、多対多リレーションシップを作成する必要があります。 リレーションシップでは、ディメンションの種類のテーブルからファクトの種類のテーブルへの、一方向でフィルターを伝達する必要があります。
 
-![モデル図のフラグメントは、Target および Product テーブルを示しています。 多対多リレーションシップでは、2 つのテーブルが関連付けられます。 フィルター方向は、Product から Target となります。](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
+![Target テーブルと Product テーブルのモデルを示す図。 多対多リレーションシップでは、2 つのテーブルが関連付けられます。](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
 
 次は、テーブル行を見てみましょう。
 
-![モデル図には、次の 2 つのテーブルが含まれています: Target と Product。 多対多リレーションシップでは、2 つの Category 列が関連付けられます。 行の詳細については、次の段落で説明します。](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
+![2 つのテーブルを含むモデルを示す図: Target と Product。 多対多リレーションシップでは、2 つの Category 列が関連付けられます。](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
 
 **Target** テーブルには、4 つの行、つまり、ターゲット年 (2019 と 2020) ごとに 2 行と、2 つのカテゴリ (Clothing と Accessories) があります。 **Product** テーブルには、3 つの製品があります。 2 つは衣料カテゴリに属し、1 つはアクセサリ カテゴリに属しています。 衣料の色の 1 つは緑で、残りの 2 つは青です。
 
 **Product** テーブルの **Category** 列でグループ化するテーブル ビジュアルでは、次の結果が得られました。
 
-![テーブルのビジュアルには、次の 2 つの列があります: Category と TargetQuantity。 Accessories は 60、Clothing は 40 で、合計は 100 です。](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
+![次の 2 つの列を持つテーブル ビジュアルを示す図: Category と TargetQuantity。 Accessories は 60、Clothing は 40 で、合計は 100 です。](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
 
 このビジュアルでは、正しい結果が得られました。 次は、**Product** テーブルの **Color** 列を使用して、ターゲット数量をグループ化するとどうなるかを考えてみましょう。
 
-![テーブルのビジュアルには、次の 2 つの列があります: Color と TargetQuantity。 Blue は 100、Green は 40 で、合計は 100 です。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
+![次の 2 つの列を持つテーブル ビジュアルを示す図: Color と TargetQuantity。 Blue は 100、Green は 40 で、合計は 100 です。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
 
 このビジュアルでは、データが誤った表示になっています。 ここで何が起きているのでしょうか。
 
@@ -271,11 +272,11 @@ IF(
 
 これで、次のテーブル ビジュアルで、**Target Quantity** メジャーが使用されるようになりました。 これは、すべての色のターゲット数量が空白であることを示しています。
 
-![テーブルのビジュアルには、次の 2 つの列があります: Color と TargetQuantity。 Blue は空白、Green は空白で、合計は 100 です。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
+![次の 2 つの列を持つテーブル ビジュアルを示す図: Color と TargetQuantity。 Blue は空白、Green は空白で、合計は 100 です。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
 
 最終的なモデル設計は次のようになります。
 
-![モデル図には、Date および Target テーブルが、一対多リレーションシップで関連付けられていることが示されています。 Product および Target テーブルは多対多リレーションシップで関連付けられており、Product から Target のフィルター処理が行われています。](media/relationships-many-to-many/sales-targets-model-example-final.png)
+![Date および Target テーブルが一対多リレーションシップで関連付けられていることを示す図。](media/relationships-many-to-many/sales-targets-model-example-final.png)
 
 ### <a name="relate-higher-grain-facts-guidance"></a>より高い粒度のファクトの関連付けに関するガイダンス
 

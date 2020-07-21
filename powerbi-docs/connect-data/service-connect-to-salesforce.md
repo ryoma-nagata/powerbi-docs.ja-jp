@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 41d5350bf2986f9b8f0f01acf97e96eafc3b4db8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9fcf67a52bde69e62816af09a8fed69c8383927d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229501"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216184"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI で Salesforce に接続する
 Power BI を使用すると、簡単に Salesforce.com アカウントに接続できます。 この接続により、Salesforce データを取得し、ダッシュボードとレポートを自動的に提供できます。
@@ -24,37 +24,37 @@ Power BI と Salesforce の統合については[こちら](https://powerbi.micr
 ## <a name="how-to-connect"></a>接続する方法
 1. Power BI で、ナビ ペインの下部にある **[データの取得]** を選択します。
    
-   ![](media/service-connect-to-salesforce/pbi_getdata.png) 
+   ![[データの取得] ボタンのスクリーンショット。ナビゲーション ウィンドウに表示されています。](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
-   ![](media/service-connect-to-salesforce/pbi_getservices.png) 
+   ![[サービス] ダイアログのスクリーンショット。[取得] ボタンが表示されます。](media/service-connect-to-salesforce/pbi_getservices.png) 
 3. **[Analytics for Salesforce]\(Salesforce 用の分析\)** を選択し、 **[取得]** を選択します。  
    
-   ![](media/service-connect-to-salesforce/salesforce.png)
+   ![[Analytics for Salesforce]\(Salesforce 用の分析\) ダイアログのスクリーンショット。[今すぐ入手] リンクが表示されています。](media/service-connect-to-salesforce/salesforce.png)
 4. **[サインイン]** を選択し、サインイン フローを開始します。
    
-    ![](media/service-connect-to-salesforce/dialog.png)
+    ![[Connect to Salesforce]\(Salesforce に接続する\) ダイアログのスクリーンショット。[サインイン] ボタンが表示されています。](media/service-connect-to-salesforce/dialog.png)
 5. メッセージが表示されたら、Salesforce の資格情報を入力します。 **[許可]** を選択し、Power BI が Salesforce の基本的な情報やデータにアクセスできるようにします。
    
-   ![](media/service-connect-to-salesforce/sf_authorize.png)
+   ![Salesforce 資格情報のスクリーンショット。情報へのアクセス許可が Power BI から要求されています。](media/service-connect-to-salesforce/sf_authorize.png)
 6. ドロップダウン リストのオプションを使用して、Power BI に何をインポートするかを構成します。
    
    * **ダッシュボード**
      
      ペルソナに基づく定義済みのダッシュボードを選択します ( **営業マネージャー**など)。 これらのダッシュボードでは、Salesforce の標準データ セットが取得され、カスタム フィールドは含まれません。
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
+     ![Salesforce ダッシュボードのスクリーンショット。ペルソナに基づく定義済みのダッシュボードを選択するオプションが表示されています。](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
    * **レポート**
      
      Salesforce アカウントから 1 つ以上のカスタム レポートを選択します。 これらのレポートは Salesforce のビューと一致し、カスタム フィールドまたはカスタム オブジェクトのデータを含めることができます。
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcereports.png)
+     ![Salesforce レポートのスクリーンショット。カスタム レポートの一覧が表示されています。](media/service-connect-to-salesforce/pbi_salesforcereports.png)
      
      レポートが表示されない場合、Salesforce にレポートを追加または作成し、接続を再試行してください。
 
 7. **[接続]** を選択してインポート プロセスを開始します。 インポート中、インポートが進行中であることを示す通知が表示されます。 インポートが完了すると、Salesforce データのダッシュボード、レポート、データ セットがナビ ペインに一覧表示されます。
    
-   ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
+   ![営業マネージャーのダッシュボードのスクリーンショット。ダッシュボード、レポート、データセットを示しています。](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
 ダッシュボードを変更し、自分で選択した方法でデータを表示できます。 Q&A で質問したり、[タイルを選択する](../consumer/end-user-tiles.md)ことにより基になるレポートを開いたり、[ダッシュボード タイルを変更または削除](../create-reports/service-dashboard-edit-tile.md)したりできます。
 

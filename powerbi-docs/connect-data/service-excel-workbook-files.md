@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e86aeaf8f7254e2b28b266135ccc4a0005e927b6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 870e3dbdc4b18422b0565834764b996d3f096ebf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236669"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264428"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel ブック ファイルからデータを取得する
-![](media/service-excel-workbook-files/excel_icon.png)
+![Excel アイコン](media/service-excel-workbook-files/excel_icon.png)
 
 Microsoft Excel は、世界中で最も広く使用されているビジネス アプリケーションの 1 つです。 Excel は、データを Power BI に取り込むための最も一般的な手段の 1 つでもあります。
 
@@ -61,7 +61,7 @@ Power BI のために Excel ブックを準備する方法を学習するには�
 ## <a name="one-excel-workbook--two-ways-to-use-it"></a>1 つの Excel ブック – 2 つの使用方法
 ブック ファイルを **OneDrive** に保存した場合、Power BI でデータを探索する方法は 2 つあります。
 
-![](media/service-excel-workbook-files/excel_import_connect.png)
+![OneDrive for Business のスクリーンショット。Excel データをインポートまたは接続するオプションが示されています。](media/service-excel-workbook-files/excel_import_connect.png)
 
 ### <a name="import-excel-data-into-power-bi"></a>Excel のデータを Power BI にインポートする
 **[インポート]** を選択すると、テーブルやデータ モデル内のサポートされているデータがすべて、Power BI の新しいデータセットにインポートされます。 Power View シートがある場合、これらは Power BI でレポートとして再作成されます。
@@ -84,31 +84,31 @@ Excel 2016 では、[発行] を選択して [アップロード] すること�
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>Power BI から Excel ブックへのインポートまたは接続
 1. Power BI のナビ ペインで、 **[データの取得]** をクリックします。
    
-   ![](media/service-excel-workbook-files/excel_get_data_button.png)
+   ![[データの取得] のスクリーンショット。ナビゲーション ウィンドウにボタンが表示されています。](media/service-excel-workbook-files/excel_get_data_button.png)
 2. [ファイル]、 **[取得]** の順にクリックします。
    
-   ![](media/service-excel-workbook-files/excel_files_get.png)
+   ![[ファイル] ダイアログのスクリーンショット。[取得] ボタンが表示されています。](media/service-excel-workbook-files/excel_files_get.png)
 3. 目的のファイルを見つけます。
    
-   ![](media/service-excel-workbook-files/excel_find_your_file.png)
+   ![ファイルを見つけるための 4 つのタイルのスクリーンショット。ローカル ファイル、OneDrive Business、OneDrive Personal、SharePoint の各タイルがあります。](media/service-excel-workbook-files/excel_find_your_file.png)
 4. 目的のブック ファイルが OneDrive 上または SharePoint - チーム サイト上にある場合、 **[インポート]** または **[接続]** を選択します。
 
 ## <a name="local-excel-workbooks"></a>ローカルな Excel ブック
 ローカルな Excel ファイルを使用し、それを Power BI にアップロードすることもできます。 前のメニューから **[ローカル ファイル]** を選択した後、Excel ブックが保存されている場所に移動します。
 
-![](media/service-excel-workbook-files/excel_import_6.png)
+![[ローカル ファイル] タイルのスクリーンショット。Excel ブックの選択に移動する方法を示しています。](media/service-excel-workbook-files/excel_import_6.png)
 
 ファイルを選択したら、[アップロード] を選択して Power BI にアップロードします。
 
-![](media/service-excel-workbook-files/excel_import_7.png)
+![[ローカル ファイル] ダイアログのスクリーンショット。[Excel ファイルを Power BI にアップロードします] が表示されています。](media/service-excel-workbook-files/excel_import_7.png)
 
 ブックがアップロードされると、ブックの準備ができたことを示す通知を受け取ります。
 
-![](media/service-excel-workbook-files/excel_import_8.png)
+![ブックの準備ができたことを示す通知のスクリーンショット。](media/service-excel-workbook-files/excel_import_8.png)
 
 ブックの準備ができると、Power BI の **[レポート]** セクションに表示されます。
 
-![](media/service-excel-workbook-files/excel_import_9.png)
+![[レポート] セクションのスクリーンショット。選択したレポートと Excel データが表示されています。](media/service-excel-workbook-files/excel_import_9.png)
 
 ## <a name="publish-from-excel-2016-to-your-power-bi-site"></a>Excel 2016 から Power BI サイトへの発行
 Excel 2016 で **Power BI へ発行する機能**を使うことは、ファイルのインポートと接続に Power BI で **[データの取得]** を使用するのと事実上同じことです。 ここでは詳しく説明しません。詳しくは「[Excel 2016 から Power BI へ発行する](service-publish-from-excel.md)」をご覧ください。

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3d1c1919b5a940bc4ed6c5b0de9bd0af6444af00
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6cddfd820da45de6141b698b8cb6e3c2bfc68069
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220059"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264894"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータ アラートを設定する
 適用対象:
@@ -37,14 +37,14 @@ Power BI Pro のライセンスがある場合、または共有ダッシュボ�
 ### <a name="set-an-alert-on-an-iphone-or-ipad"></a>iPhone または iPad でアラートを設定する
 1. ダッシュボード内の数値タイルまたはゲージ タイルをタップしてフォーカス モードで開きます。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. ベルのアイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) をタップして、アラートを追加します。  
+   ![フォーカス モードのゲージ タイルを示すダッシュボードのスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+2. ベルのアイコン ![ベル アイコン](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) をタップしてアラートを追加します。  
 3. **[アラート ルールの追加]** をタップします。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
+   ![アラートが設定されていないことを示す、アラート ルールのスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
 4. 上限値または下限値のどちらでアラートを受け取るかを選択し、値を設定します。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-set-alert-threshold.png)
+   ![アラートのタイトルと設定する値を示す、アラート設定のスクリーンショット](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-set-alert-threshold.png)
 5. アラートの受け取りを 1 時間単位または 1 日単位のどちらにするか、およびアラートと共に電子メールも受信するかどうかを決定します。
    
    > [!NOTE]
@@ -55,32 +55,32 @@ Power BI Pro のライセンスがある場合、または共有ダッシュボ�
 7. **[保存]** をタップします。
 8. 1 つのタイルに、上限と下限両方のしきい値のアラートを設定できます。 **[アラートの管理]** で **[アラート ルールの追加]** をタップします。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
+   ![アラート ルールを追加するためのポインターを示す、[アラートの管理] のスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>iPhone または iPad でアラートを管理する
 モバイル デバイスでは個別のアラートを管理できますが、[Power BI サービスではすべてのアラートを管理](../../create-reports/service-set-data-alerts.md)できます。
 
 1. ダッシュボードで、アラートのある数値タイルまたはゲージ タイルをタップします。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+   ![アラートが表示されている数値タイルを示すダッシュボードのスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
 
-2. ベルのアイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png) をタップします。  
+2. ベルのアイコンをタップします ![ベル アイコン](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
 3. アラートの名前をタップして編集するか、スライダーをタップして電子メール アラートをオフにするか、ごみ箱をタップしてアラートを削除します。
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
+    ![アラート名、アラートを削除するためのゴミ箱、アラートをオフにするためのスライドを指している、アラートのスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
 
 ## <a name="data-alerts-on-an-android-device"></a>Android デバイスでのデータ アラート
 ### <a name="set-an-alert-on-an-android-device"></a>Android デバイスでアラートを設定する
 1. Power BI ダッシュボードで、数値タイルまたはゲージ タイルをタップして開きます。  
-2. ベルのアイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) をタップして、アラートを追加します。  
+2. ベルのアイコン ![ベル アイコン](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) をタップしてアラートを追加します。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
+   ![アラートが表示されている数値タイルを示すダッシュボードのスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. プラスのアイコン [+] をタップします。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
+   ![プラス記号アイコンを指すポインターが示されている、[アラートの管理] のスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
 4. 上限値または下限値のどちらでアラートを受け取るかを選択し、値を入力します。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
+   ![[保存] と [完了] を指すポインターが示されている、アラート設定のスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
 5. **[完了]** をタップします。
 6. アラートの受け取りを 1 時間単位または 1 日単位のどちらにするか、およびアラートと共に電子メールも受信するかどうかを決定します。
    
@@ -95,12 +95,12 @@ Power BI Pro のライセンスがある場合、または共有ダッシュボ�
 Power BI モバイル アプリでは個別のアラートを管理でき、[Power BI サービスではすべてのアラートを管理](../../create-reports/service-set-data-alerts.md)できます。
 
 1. ダッシュボードで、アラートのあるカード タイルまたはゲージ タイルをタップします。  
-2. 塗りつぶされたベルのアイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png) をタップします。  
+2. 塗りつぶされたベルのアイコンをタップします。 ![ベル アイコン](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
 3. アラートをタップして、値を変更したり、オフにしたりします。
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
+    ![アラートを追加するためのプラス記号アイコンを示す、[アラートの管理] タイルのスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
 4. 同じタイルに別のアラートを追加するには、プラス記号アイコン (+) をタップします。
-5. アラートをすべて削除するには、ゴミ箱アイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png) をタップします。
+5. アラートをすべて削除するには、ゴミ箱アイコンをタップします ![ゴミ箱アイコン](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png).
 
 ## <a name="data-alerts-on-a-windows-device"></a>Windows デバイスでのデータ アラート
 
@@ -109,15 +109,15 @@ Power BI モバイル アプリでは個別のアラートを管理でき、[Pow
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>Windows デバイスでデータ アラートを設定する
 1. ダッシュボード内の数値タイルまたはゲージ タイルをタップして開きます。  
-2. ベルのアイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) をタップして、アラートを追加します。  
+2. ベルのアイコン ![ベル アイコン](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) をタップしてアラートを追加します。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
+   ![アラートが表示されている数値タイルを示すダッシュボードのスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. プラスのアイコン [+] をタップします。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
+   ![アラートが設定されていないことを示す、[アラートの管理] のスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
 4. 上限値または下限値のどちらでアラートを受け取るかを選択し、値を入力します。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-set-alert.png)
+   ![アラートを編集するためのエントリを示す、アラート設定のスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-set-alert.png)
 5. アラートの受け取りを 1 時間単位または 1 日単位のどちらにするか、およびアラートと共に電子メールも受信するかどうかを決定します。
    
    > [!NOTE]
@@ -128,18 +128,18 @@ Power BI モバイル アプリでは個別のアラートを管理でき、[Pow
 7. チェック マークをタップします。
 8. 1 つのタイルに、上限と下限両方のしきい値のアラートを設定できます。 **[アラートの管理]** でプラス記号 [+] をタップします。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
+   ![アラートを追加するためのプラス記号を示す、[アラートの管理] のスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Windows デバイスでアラートを管理する
 Power BI モバイル アプリでは個別のアラートを管理でき、[Power BI サービスではすべてのアラートを管理](../../create-reports/service-set-data-alerts.md)できます。
 
 1. ダッシュボードで、アラートのあるカード タイルまたはゲージ タイルをタップします。  
-2. ベルのアイコン ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png) をタップします。  
+2. ベルのアイコンをタップします。 ![ベル アイコン](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
+   ![アラートが表示されている数値タイルを示すダッシュボードのスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
 3. アラートをタップして、値を変更したり、オフにしたりします。
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
+    ![アラートを追加するためのプラス記号を示す、[アラートの管理] のスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 4. アラートをまとめて削除するには、右クリックまたは長押しして、 **[削除]** をタップします。
 
 ## <a name="receiving-alerts"></a>アラートの受信
@@ -152,7 +152,7 @@ Power BI モバイル アプリでは個別のアラートを管理でき、[Pow
    データがしきい値を超えている場合に限り、1 時間ごと、または 24 時間ごとに、アラートを受け取ります。
 2. 電子メールを送信するようにアラートを設定した場合は、次のようなメールを受信します。
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
+   ![アラートを示す電子メール通知のスクリーンショット。](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
 3. Power BI では、ご利用の[通知センター](mobile-apps-notification-center.md)にメッセージが追加され、タイトル バーのベルのアイコン ![ベルのアイコン](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) (iOS と Android の場合) か、![グローバル ナビゲーション ボタン](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (Windows 10 デバイスの場合) に黄色い点が追加されます。
 
 

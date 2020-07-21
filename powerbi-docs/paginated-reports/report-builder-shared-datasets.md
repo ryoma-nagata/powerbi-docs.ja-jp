@@ -1,18 +1,18 @@
 ---
 title: Power BI 共有データセットを使用して改ページ調整されたレポートを作成する - Power BI Report Builder
 description: Power BI 共有データセットに基づいて、Power BI Report Builder で改ページ調整されたレポートを作成します。
-ms.date: 02/12/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239785"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216775"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI 共有データセットを基づいて改ページ調整されたレポートを作成する
 
@@ -104,6 +104,9 @@ Power BI レポート内とレポート ビルダー内とでデータを同じ�
     ![レポート ビルダーのクエリ デザイナー](media/report-builder-shared-datasets/power-bi-report-builder-query-designer.png)
 
 1. 上部のボックスに、Power BI Desktop からコピーしたクエリを貼り付けます。
+
+    > [!NOTE]
+    > クエリに TOPN 関数が含まれている場合は、それをクエリから削除します。
 
 1. **[クエリの実行]** (赤い感嘆符) を選択して、クエリが機能することを確認します。 
 

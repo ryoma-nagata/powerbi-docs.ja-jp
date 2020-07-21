@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 6a21288a8f2946bd1e1a874d0810dd9241b1ffe2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83564451"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216770"
 ---
 # <a name="what-is-power-bi"></a>Power BI とは?
 **Power BI** はソフトウェア サービス、アプリ、コネクタのコレクションで、これらを組み合わせることで、関連性のないデータ ソースから、まとまりがあり、実体験的な対話型洞察を得ることができます。 Excel スプレッドシートや、クラウド ベースとオンプレミスのハイブリッド データ ウェアハウスのコレクションなど、さまざまなデータを使えます。 Power BI を使うと、ご利用のデータ ソースへの接続、重要事項の視覚化と検出、必要に応じた任意のユーザーまたはすべてのユーザーとの共有を、簡単に実行できます。
@@ -24,7 +24,7 @@ Power BI は次のもので構成されます。
 - **Power BI サービス**と呼ばれるオンラインの SaaS (*サービスとしてのソフトウェア*) サービス 
 - Windows、iOS、Android デバイス向けの Power BI **モバイル アプリ**
 
-![Power BI Desktop、サービス、モバイル](media/power-bi-overview/power-bi-overview-blocks.png)
+![Power BI Desktop、サービス、および Mobile の統合を示す図。](media/power-bi-overview/power-bi-overview-blocks.png)
 
 この 3 つの要素 (Power BI Desktop、サービス、モバイル アプリ) は、ユーザーおよびそのロールに対して最も効果的な方法で、ビジネス上の分析情報を作成、共有、使用できるように設計されています。
 
@@ -63,7 +63,7 @@ Power BI での一般的な作業の流れは、データ ソースに接続し�
 
 Power BI Report Server が提供するすぐに使用できるさまざまなツールとサービスを使用して、Power BI モバイル レポートおよびページ分割されたレポートをオンプレミスで作成、展開、管理できます。
 
-![オンプレミス用の図](media/power-bi-overview/power-bi-report-server2.png)
+![Power BI Desktop、サービス、および Mobile の統合を示す図。](media/power-bi-overview/power-bi-report-server2.png)
 
 Power BI Report Server は、ファイアウォールの背後に展開するソリューションであり、適切なユーザーにさまざまな方法でレポートを配信します。これは、Web ブラウザーでもモバイル デバイスでも表示でき、電子メールとして送信することもできます。 Power BI Report Server は、クラウドの Power BI に対応するため、準備ができたらクラウドに移行することができます。 
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: aee58d27eb75bbe14629235591065e236502588a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236119"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216504"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI レポートを使用するために Kerberos を構成する
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -31,14 +31,14 @@ Power BI レポート サーバー、SQL Server、Analysis Services を 1 台の
 
     Something went wrong.
 
-    We couldn’t run the report because we couldn’t connect to its data source. The report or data source might not be configured correctly. 
+    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
 
 技術的な詳細には、次のメッセージが表示されます。
 
-    We couldn’t connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
-
+![Power BI レポートのスクリーンショット。Analysis Services サーバーに接続できない問題に関連してエラー メッセージが表示されています。](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
+ 
 ## <a name="configuring-kerberos-constrained-delegation"></a>Kerberos の制約付き委任を構成する
 Kerberos の制約付き委任が機能するために、構成する必要のある項目がいくつかあります。 これには、サービス アカウントでのサービス プリンシパル名 (SPN) と委任の設定が含まれます。
 
@@ -134,10 +134,10 @@ Analysis Services の場合は、MSOLAPSvc.3 のサービスを使います。 S
 
 Analysis Services の SPN の例は次のようになります。
 
-| 種類 | 形式 |
+| 種類 | 書式 |
 | --- | --- |
 | 既定のインスタンス |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
-| [名前付きインスタンス] |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
+| 名前付きインスタンス |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
 
 SPN の配置も、Power BI レポート サーバーの場合と似ています。 サービス アカウントに基づきます。  ローカル システムまたはネットワーク サービスを使っている場合は、コンピューター アカウントのコンテキストになります。 Analysis Services インスタンスのドメイン ユーザー アカウントを使っている場合は、ドメイン ユーザー アカウントに SPN を配置します。
 
@@ -189,7 +189,7 @@ SetSPN ツールを使って SPN を追加できます。 この例では、コ�
 1. レポート サーバー サービス アカウントを右クリックし、 **[プロパティ]** を選択します。
 2. **[委任]** タブを選びます。
 3. **[指定されたサービスへの委任でのみこのコンピューターを信頼する]** をオンにします。
-4. **[任意の認証プロトコルを使う]** を選択します。
+4. **[任意の認証プロトコルを使う]** をオンにします。
 5. **[このアカウントが委任された資格情報を提示できるサービス]** で **[追加]** を選択します。
 6. 新しいダイアログで、 **[ユーザーまたはコンピューター]** を選択します。
 7. Analysis Services サービスのサービス アカウントを入力し、 **[OK]** を選択します。
@@ -202,18 +202,18 @@ SetSPN ツールを使って SPN を追加できます。 この例では、コ�
 14. 作成した SPN を選択します。 `MSOLAPDisco.3` で始まるものです。 FQDN と NetBIOS 両方の SPN を追加した場合は、両方とも選択します。 1 つだけしか表示されない場合があります。
 15. **[OK]** を選択します。 **[展開済み]** をオンにした場合、ダイアログの表示は次のようになります。
     
-    ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
+    ![[プロパティ] ウィンドウの [委任] タブを示す、Power BI レポートのスクリーンショット。](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
 16. **[OK]** を選択します。
 17. Power BI レポート サーバーを再起動します。
 
 ## <a name="running-a-power-bi-report"></a>Power BI レポートの実行
 以上の構成をすべて行うと、レポートが正しく表示されるはずです。 
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report.png)
+![サンプルのダッシュボード ビューを示す、Power BI レポートのスクリーンショット。](media/configure-kerberos-powerbi-reports/powerbi-report.png)
 
 この構成は Kerberos を使用するほとんどの場合に動作しますが、環境によっては構成が異なる場合があります。 レポートがまだ読み込まれない場合は、ドメイン管理者に連絡してさらに詳しく調査するか、サポートにお問い合わせください。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273901"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216704"
 ---
 # <a name="tenant-admin-settings-guidance"></a>テナントの管理者設定のガイダンス
 
@@ -41,7 +41,7 @@ Power BI エクスペリエンスの向上に役立つ特定のテナント設�
 > [!NOTE]
 > **ライセンス要求**の URL を指定すると、個別のユーザーが Power BI Pro の 60 日間無料試用版にサインアップできなくなります。 代わりに、無料または Pro ライセンスの取得方法についての情報が含まれた内部サイトにリダイレクトされます。
 
-![["ヘルプの取得" に関する情報の発行] が表示されています。](media/admin-tenant-settings/publish-get-help-information.png)
+![[ヘルプとサポートの設定] を表示している Power BI Desktop のスクリーンショット。](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>リスクの管理
 リスクを管理するための設定は、Power BI テナントのガバナンス ポリシーを確立に役立ちます。 ただし、ガバナンス設定はセキュリティ対策ではないことにご留意ください。 たとえば、 **[データのエクスポート]** 設定を無効にすると、Power BI ユーザー インターフェイスからこの機能が削除され、組織のガバナンス ポリシーに沿って仕事をする Power BI ユーザーを支援しますが、他の選択肢を利用してデータをエクスポートすることにしたユーザーを止めるものではありません。 セキュリティの観点からは、データセットに読み取りアクセスできる Power BI ユーザーにはこのデータセットを照会するアクセス許可が与えられ、Power BI ユーザー インターフェイスに利用できる機能に関係なく、結果を保持できます。
@@ -51,7 +51,7 @@ Power BI エクスペリエンスの向上に役立つ特定のテナント設�
 
 **[Receive email notification service outages or incidents]\(サービスの停止またはインシデントに関するメール通知を受け取る\)** 設定を有効にすることをお勧めします。 これは、 **[ヘルプとサポートの設定]** にあります。 "_メールが有効な_" セキュリティ グループを 1 つ以上割り当てます。
 
-![[Receive email notification service outages or incidents]\(サービスの停止またはインシデントに関するメール通知を受け取る\) 設定が表示されています。](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
+![[サービスの停止またはインシデントに関するメール通知を受け取る] 設定を表示している Power BI Desktop のスクリーンショット。](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
 ### <a name="information-protection"></a>情報の保護
 
@@ -74,7 +74,7 @@ Information Protection に関連するテナント設定は 2 つあります。
 
 ユーザー (ワークスペースの作成権限を持っていないユーザー) に新しいワークスペースを要求する手順をドキュメントに記載してお知らせください。
 
-![[ワークスペースの作成] 設定が表示されています。](media/admin-tenant-settings/create-workspaces.png)
+![[ワークスペースの作成] 設定を表示している Power BI Desktop のスクリーンショット。](media/admin-tenant-settings/create-workspaces.png)
 
 ### <a name="share-content-with-external-users"></a>外部ユーザーとコンテンツを共有する
 
@@ -84,7 +84,7 @@ Information Protection に関連するテナント設定は 2 つあります。
 
 1 つまたは複数のセキュリティ グループを割り当てることをお勧めします。 これらのグループに、外部ユーザーとコンテンツを共有するための権限を付与する、"_または拒否する_" ことができます。
 
-![[外部ユーザーとコンテンツを共有する] が表示されています。](media/admin-tenant-settings/share-content-with-external-users.png)
+![[外部ユーザーとコンテンツを共有する] 設定を表示している Power BI Desktop のスクリーンショット。](media/admin-tenant-settings/share-content-with-external-users.png)
 
 ### <a name="publish-to-web"></a>Web に公開
 
@@ -96,7 +96,7 @@ Information Protection に関連するテナント設定は 2 つあります。
 
 さらに、埋め込みコードの動作を選択するオプションもあります。 既定では、 **[既存のコードのみを許可する]** に設定されています。 これは、ユーザーが埋め込みコードを作成するには Power BI 管理者に連絡しなければならないことを意味します。
 
-![[Web に公開] 設定が表示されています。](media/admin-tenant-settings/publish-to-web.png)
+![[Web に公開] 設定を表示している Power BI Desktop のスクリーンショット。](media/admin-tenant-settings/publish-to-web.png)
 
 定期的に [[Web に公開] の埋め込みコード](https://app.powerbi.com/admin-portal/embedCodes)を確認することもお勧めします。 個人情報や機密情報が公開される場合は、コードを削除します。
 
@@ -111,7 +111,7 @@ Information Protection に関連するテナント設定は 2 つあります。
 > [!IMPORTANT]
 > この設定を無効にすると、[[Excel で分析]](../collaborate-share/service-analyze-in-excel.md) および Power BI サービスの[ライブ接続](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management)機能の使用も制限されます。
 
-![[データのエクスポート] 設定が表示されています。](media/admin-tenant-settings/export-data.png)
+![[データのエクスポート] 設定を表示している Power BI Desktop のスクリーンショット。](media/admin-tenant-settings/export-data.png)
 
 > [!NOTE]
 > ユーザーがデータをエクスポートできるようにする場合は、[データ保護](../admin/service-security-data-protection-overview.md)を適用することにより、保護レイヤーを追加できます。 構成すると、承認されていないユーザーは、機密ラベルを含むコンテンツをエクスポートできなくなります。
@@ -124,7 +124,7 @@ Information Protection に関連するテナント設定は 2 つあります。
 
 外部ユーザーによるコンテンツの編集と管理を承認する必要がある場合は、1 つまたは複数のセキュリティ グループを割り当てることをお勧めします。 これらのグループに、レポートを公開するための権限を付与する、"_または拒否する_" ことができます。
 
-![[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する] 設定が表示されています。](media/admin-tenant-settings/allow-external-guest-users.png)
+![[外部のゲスト ユーザーによる組織内のコンテンツの編集および管理を許可する] 設定を表示している Power BI Desktop のスクリーンショット。](media/admin-tenant-settings/allow-external-guest-users.png)
 
 ### <a name="developer-settings"></a>開発者の設定
 
@@ -135,7 +135,7 @@ Information Protection に関連するテナント設定は 2 つあります。
 
 開発者用 API を使用してコンテンツを埋め込む予定がない場合は、これらを無効にすることをお勧めします。 または、この作業を実行する特定のセキュリティ グループのみを構成します。
 
-![開発者の設定が表示されています。](media/admin-tenant-settings/developer-settings.png)
+![[開発者の設定] を表示している Power BI Desktop のスクリーンショット。](media/admin-tenant-settings/developer-settings.png)
 
 ## <a name="next-steps"></a>次の手順
 
@@ -145,4 +145,3 @@ Information Protection に関連するテナント設定は 2 つあります。
 - [管理ポータルでの Power BI の管理](../admin/service-admin-portal.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)
-

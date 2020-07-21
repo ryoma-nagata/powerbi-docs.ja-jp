@@ -10,17 +10,17 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3b7afbe1a94520238899bc984596c9c4cfddd847
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 58e23ecca37b9019ed007c60fe7aaa7e6b4d4515
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223098"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216413"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Power BI で外部 R IDE を使用する
 **Power BI Desktop** では、外部の R IDE (統合開発環境) を使用して R スクリプトを作成および調整した後、Power BI でそのスクリプトを使用できます。
 
-![](media/desktop-r-ide/r-ide_1a.png)
+![[Detected R IDEs]\(R IDE が検出されました\) フィールドに [R Studio] が入力されていることを示す、[オプション] ダイアログのスクリーンショット。](media/desktop-r-ide/r-ide_1a.png)
 
 ## <a name="enable-an-external-r-ide"></a>外部の R IDE を有効にする
 これまで、R スクリプトを作成して実行するには、**Power BI Desktop** の R スクリプト エディターを使用する必要がありました。 このリリースでは、外部の R IDE を **Power BI Desktop** から起動し、R IDE にデータを自動的にインポートして表示できます。 その後は、その外部 R IDE でスクリプトを修正してから、**Power BI Desktop** にスクリプトを貼り付けて、Power BI のビジュアルとレポートを作成できます。
@@ -37,7 +37,7 @@ ms.locfileid: "85223098"
   * **.R** ファイルを、**Power BI Desktop** で起動させる外部 IDE に関連付けることができます。
   * **[オプション]** ダイアログの **[R スクリプトのオプション]** セクションから *[その他]* を選択して、**Power BI Desktop** で起動する必要がある .exe を指定できます。 **[オプション]** ダイアログを表示するには、 **[ファイル]、[オプションと設定]、[オプション]** の順に移動します。
     
-    ![](media/desktop-r-ide/r-ide_1b.png)
+    ![優先 R IDE を入力するための [Detected R IDEs]\(R IDE が検出されました\) フィールドに [その他] が入力されていることを示す、[オプション] ダイアログのスクリーンショット。](media/desktop-r-ide/r-ide_1b.png)
 
 複数の R IDE がインストールされている場合は、 **[オプション]** ダイアログの *[検出された R IDE]* ドロップダウンから選択して、起動する R IDE を指定できます。
 
@@ -51,13 +51,13 @@ ms.locfileid: "85223098"
 1. **Power BI Desktop** にデータを読み込みます。
 2. **[フィールド]** ウィンドウで使用するフィールドをいくつか選択します。 スクリプトのビジュアルをまだ有効にしていない場合は、有効にするように促されます。
    
-   ![](media/desktop-r-ide/r-ide_3.png)
+   ![スクリプトのビジュアルを有効にするように促す、[スクリプト ビジュアルを有効にする] ダイアログのスクリーンショット。](media/desktop-r-ide/r-ide_3.png)
 3. スクリプトのビジュアルを有効にすると、 **[視覚化]** ウィンドウで R のビジュアルを選択できます。選択すると、スクリプトの結果を表示できる空白の R のビジュアルが作成されます。 **[R スクリプト エディター]** ウィンドウも表示されます。
    
-   ![](media/desktop-r-ide/r-ide_4.png)
+   ![空の R ビジュアル示す、[視覚化] ウィンドウのスクリーンショット。](media/desktop-r-ide/r-ide_4.png)
 4. R スクリプトで使用するフィールドを選択できるようになります。 フィールドを選択すると、選択したフィールドに基づいて **[R スクリプト エディター]** フィールドにスクリプト コードが自動的に作成されます。 **[R スクリプト エディター]** ウィンドウで R スクリプトを直接作成する (または貼り付ける) ことも、ウィンドウを空白のままにすることもできます。
    
-   ![](media/desktop-r-ide/r-ide_5.png)
+   ![R スクリプト エディターにスクリプトがある空の R ビジュアルを示す、[視覚化] ウィンドウのスクリーンショット。](media/desktop-r-ide/r-ide_5.png)
    
    > [!NOTE]
    > R ビジュアルの既定の集計タイプは、 *[集計しない]* です。
@@ -65,10 +65,10 @@ ms.locfileid: "85223098"
    > 
 5. **Power BI Desktop** から R IDE を直接起動できるようになります。 **[R スクリプト エディター]** のタイトル バーの右側にある **[Launch R IDE]** (R IDE を起動) ボタンを選択します (次の図を参照)。
    
-   ![](media/desktop-r-ide/r-ide_6.png)
+   ![R IDE ボタンから起動する方法を示す、[R IDE] ウィンドウのスクリーンショット。](media/desktop-r-ide/r-ide_6.png)
 6. 次の図のように、指定した R IDE が Power BI Desktop によって起動されます (この図では、**RStudio** が既定の R IDE です)。
    
-   ![](media/desktop-r-ide/r-ide_7.png)
+   ![Power BI Desktop で起動した R IDE のスクリーンショット。R Studio に表示されています。](media/desktop-r-ide/r-ide_7.png)
    
    > [!NOTE]
    > スクリプトを実行した後で **Power BI Desktop** からデータをインポートするために、**Power BI Desktop** はスクリプトの最初の 3 行を追加します。

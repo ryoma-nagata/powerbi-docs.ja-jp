@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 40f85c40abd543e4f90a1f571ce648bfc4af7d9e
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561572"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216468"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop でのデータ型
 この記事では、Power BI Desktop と Data Analysis Expressions (DAX) でサポートされるデータ型について説明します。 
@@ -28,11 +28,11 @@ Power BI Desktop では、列のデータ型を、クエリ エディターで�
 
 **クエリ エディターのデータ型**
 
-![](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
+![[データ型] リボンのスクリーンショット。クエリ エディターに表示されています。](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
 
 **データ ビューまたはレポート ビューのデータ型**
 
-![](media/desktop-data-types/pbiddatatypesindatareportview.png)
+![[データ型] リボンのスクリーンショット。データ ビューに表示されています。](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 クエリ エディターの [データ型] ドロップダウンには、現時点でデータ ビューまたはレポート ビューに存在しない次の 2 つのデータ型が含まれています:**日付/時刻/タイムゾーン**、**期間**。 これらのデータ型の列をモデルに読み込んでデータ ビューまたはレポート ビューで表示すると、日付/時刻/タイムゾーンデータ型の列は日付/時刻に変換され、期間データ型の列は 10 進数に変換されます。
 

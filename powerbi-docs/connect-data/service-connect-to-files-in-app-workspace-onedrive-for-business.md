@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0016c5af8d8e9e154abf3c9e94dc6330a73d358d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230360"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216245"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Power BI ワークスペースの OneDrive に保存されているファイルに接続する
 [Power BI にワークスペースを作成](../collaborate-share/service-create-distribute-apps.md)した後、Excel、CSV、Power BI Desktop などのファイルを Power BI ワークスペースの OneDrive for Business に保存できるようになりました。 OneDrive に保存したファイルは引き続き更新できます。 これらの更新プログラムは、ファイルに基づいて Power BI レポートとダッシュボードに自動的に反映されます。 
@@ -33,7 +33,7 @@ ms.locfileid: "85230360"
 ## <a name="1-upload-files-to-the-onedrive-for-business-for-your-workspace"></a>1 ワークスペースの OneDrive for Business にファイルをアップロードする
 1. Power BI サービスで、[ワークスペース] の横にある矢印を選択し、目的のワークスペース名の隣にある省略記号 ( **…** ) を選択します。 
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
+   ![Power BI ワークスペースのスクリーンショット。選択したワークスペース名が表示されています。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
 2. **[ファイル]** を選択し、Microsoft 365 のワークスペースの OneDrive for Business を開きます。
    
    > [!NOTE]
@@ -42,7 +42,7 @@ ms.locfileid: "85230360"
    > 
 3. ここで、ワークスペースの OneDrive for Business にファイルをアップロードすることができます。 **[アップロード]** を選び、ファイルに移動します。
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
+   ![OneDrive for Business のスクリーンショット。ファイルのアップロードに移動する方法を示しています。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel ファイルをデータセットまたは Excel Online のブックとしてインポートする
 ファイルがワークスペースの OneDrive for Business に保存されたので、選択肢ができました。 次の操作を実行できます。 
@@ -54,26 +54,26 @@ ms.locfileid: "85230360"
 1. Power BI で、ワークスペースに切り替えると、ワークスペース名が左上に表示されます。 
 2. ナビ ペインの下部にある **[データの取得]** を選択します。 
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
+   ![[データの取得] ボタンのスクリーンショット。ナビゲーション ウィンドウに表示されています。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. **[ファイル]** ボックスで、 **[取得]** を選択します。
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
+   ![[ファイル] ダイアログのスクリーンショット。[取得] ボタンが表示されています。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
 4. **[OneDrive]**  -  *[<ワークスペース名>]* を選択します。
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
+    ![ワークスペースを選択するための 3 つのタイルのスクリーンショット。ローカル ファイル、OneDrive、SharePoint が表示されています。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. 必要なファイルを選び、**接続**します。
    
     この時点で、[Excel ブックからデータをインポートする](service-get-data-from-files.md)か、[Excel ブック全体に接続する](service-excel-workbook-files.md)かどうかを決定します。
 6. **[インポート]** または **[接続]** を選びます。
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
+    ![[OneDrive for Business] ダイアログのスクリーンショット。Excel からインポートしたり、Excel に接続したりできます。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
 7. **[インポート]** を選択した場合、 **[データセット]** タブにブックが表示されます。 
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
+    ![[データセット] タブが表示されている、Power BI のワークスペースのスクリーンショット。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
    
     **[接続]** を選択した場合、 **[ブック]** タブにブックが表示されます。
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
+    ![[ブック] タブが表示されている、Power BI のワークスペースのスクリーンショット。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI でアプリとワークスペースを作成する](../collaborate-share/service-create-distribute-apps.md)

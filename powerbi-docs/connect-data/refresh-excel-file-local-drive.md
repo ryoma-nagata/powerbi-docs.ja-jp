@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 806fb9fffccaffee62d8cafb00dc94b5ad7b0def
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220887"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216337"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>ローカル ドライブの Excel ブックから作成されたデータセットを更新する
 ## <a name="whats-supported"></a>サポートされている機能
@@ -47,13 +47,13 @@ Power BI では、次のいずれかのデータ ソースに接続してデー�
 > 
 
 **[ナビゲーター]** で **[読み込み先...]** をクリックします。  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
+    ![[ナビゲーター] の [読み込み先] のスクリーンショット。読み込み先を選択できます。](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-または、ナビゲーターの **[編集]** をクリックすると、クエリ エディターが開きます。 そこで **[閉じて読み込む...]** をクリックします。  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
+または、ナビゲーターの **[編集]** をクリックすると、クエリ エディターが開きます。 そこで **[閉じて次に読み込む...]** をクリックします。  
+    ![[ナビゲーター] の [ホーム] タブのスクリーンショット。[閉じて次に読み込む] を選択できます。](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 その後 **[読み込み先]** で **[このデータをデータ モデルに追加する]** を選択します。  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
+    ![[読み込み先] ダイアログのスクリーンショット。[このデータをデータ モデルに追加する] チェックボックスがオンになっています。](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Power Pivot での [外部データの取り込み] の使用
 問題はありません。 Power Pivot を使用してオンプレミスまたはオンライン データ ソースに接続し、データを問い合わせる場合、データは自動的にデータ モデルに読み込まれます。
@@ -78,5 +78,5 @@ Power BI では、次のいずれかのデータ ソースに接続してデー�
 
 [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

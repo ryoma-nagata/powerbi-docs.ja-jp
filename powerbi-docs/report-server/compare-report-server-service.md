@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 03/04/2020
-ms.openlocfilehash: a6cb8575ef5265264cf0c15c4cfcfc4207726a07
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 07/08/2020
+ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565582"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216534"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
@@ -50,7 +50,8 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | 行レベルのセキュリティ (RLS) | はい | はい | DirectQuery (データ ソース) とインポート モードの両方で利用可能 <br><br>[Power BI サービス](../admin/service-admin-rls.md)での行レベル セキュリティ <br><br>[Power BI Report Server](row-level-security-report-server.md) での行レベル セキュリティ |
 | 全画面表示モード | いいえ | はい | Power BI サービスでの[全画面表示モード](../consumer/end-user-focus.md) |
 | Microsoft 365 の高度なコラボレーション | いいえ | はい | Microsoft 365 を使用した[ワークスペースでの共同作業](../collaborate-share/service-collaborate-power-bi-workspace.md) |
-| R ビジュアル | いいえ | はい | Power BI Desktop で [R ビジュアルを作成](../create-reports/desktop-r-visuals.md)し、それらを Power BI サービスに発行する。 R ビジュアルがある Power BI レポートは、Power BI Report Server に保存できる。  |
+| R スクリプトおよびビジュアル | いいえ | はい | Power BI Desktop で [R ビジュアルの作成](../create-reports/desktop-r-visuals.md)および R スクリプトの実行を行って、それらを Power BI サービスに発行する。 R スクリプトまたはビジュアルを含む Power BI レポートを Power BI Report Server に保存することはできません。  |
+| Python スクリプトおよびビジュアル | いいえ | はい | Power BI Desktop で [Python スクリプトおよびビジュアルを作成](../connect-data/desktop-python-scripts.md)して、それらを Power BI サービスに発行する。 Python スクリプトまたはビジュアルを含む Power BI レポートを Power BI Report Server に保存することはできません。 |
 | プレビュー機能 | いいえ | はい | [Power BI サービスのプレビュー機能のオプトイン](../consumer/end-user-preview-features.md) |
 | Power BI ビジュアル | はい | はい | [Power BI ビジュアル](../developer/visuals/power-bi-custom-visuals.md) |
 | 複合モデル | いいえ | はい |

@@ -1,7 +1,7 @@
 ---
 title: Power BI レポート ビルダー
 description: Power BI Report Builder は、ページ分割されたレポートを作成するためのツールです。
-ms.date: 06/29/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782744"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216739"
 ---
 # <a name="power-bi-report-builder"></a>Power BI レポート ビルダー
 
@@ -21,9 +22,7 @@ ms.locfileid: "85782744"
  
 作成を開始する準備ができましたか。 Microsoft ダウンロード センターから [Power BI Report Builder をインストールしましょう](https://aka.ms/pbireportbuilder)。
 
-ビデオで学習する方がいいですか。 YouTube で、Power BI プリンシパル プログラム マネージャーの Chris Finlan による、Power BI のページ分割されたレポートに関するビデオ シリーズをご覧ください。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+ビデオで学習する方がいいですか。 次のページを確認してください: [ビデオベースのコース: Power BI のページ分割されたレポートの 1 日コース](../learning-catalog/paginated-reports-online-course.md)
 
 以下のページ分割されたレポートは、行と列のグループ、スパークライン、インジケーター、およびコーナーのセル内の概要円グラフがあるマトリックスと、色と円のサイズによって表現された 2 つの地理データ セットを示すマップで構成されています。  
 
@@ -62,4 +61,4 @@ ms.locfileid: "85782744"
 ## <a name="next-steps"></a>次の手順
 
 - [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
-- YouTube で、Power BI プリンシパル プログラム マネージャーの Chris Finlan による、[Power BI のページ分割されたレポートに関するビデオ シリーズ](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ)をご覧ください
+- [ビデオベースのコース: Power BI のページ分割されたレポートの 1 日コース](../learning-catalog/paginated-reports-online-course.md)

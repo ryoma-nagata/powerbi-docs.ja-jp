@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5a363a951e9c8f6cc04f825c64dce811d0a954e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ce25bb448d698f8c1ce4b77e8823e96220a1792
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219323"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264469"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>モバイル アプリで使用する Power BI のタイルの QR コードを作成する
 Power BI で QR コードを使用すると、実世界の任意のものを、関連する BI 情報に直接接続することができます。ナビゲーションや検索の必要がなくなります。
@@ -26,13 +26,13 @@ Power BI サービスでは、自分では編集できないダッシュボー�
 
 ## <a name="create-a-qr-code-for-a-tile"></a>タイルの QR コードを作成する
 1. Power BI サービスで、ダッシュボードを開きます。
-2. タイルの右上隅にある**その他のオプション** (...) を選び、 **[フォーカス モード]** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg) を選びます。
+2. タイルの右上隅にある **[その他のオプション]** (...) を選択し、 **[フォーカス モード]** ![全画面表示アイコン](media/service-create-qr-code-for-tile/fullscreen-icon.jpg) を選択します。
 3. 右上隅にある**その他のオプション** (...) を選び、 **[QR コードの生成]** を選びます。 
    
-    ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
+    ![タイルのスクリーンショット。[...] から出たポインターが [QR コードの生成] を指しています。](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. QR コードを含むダイアログ ボックスが表示されます。 
    
-    ![](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
+    ![ダイアログのスクリーンショット。QR コードをダウンロードまたは保存する準備ができています。](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
 5. この画面から QR コードをスキャンするか、ダウンロードして保存すると、次のことを行えます。 
    
    * メールやその他のドキュメントに QR コードを追加する。 

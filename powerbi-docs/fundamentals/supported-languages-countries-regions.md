@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3b0a330793abf4242d43c1546dd0362b75683f2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: da1ec0ec3a10adbd9771e13a97bcb17dcdf73273
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361131"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216909"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI でサポートされる言語と国または地域
 
@@ -82,7 +82,7 @@ Power BI では、メニュー、ボタン、メッセージ、その他の UI �
 追加の機能も他の言語に順次翻訳されています。時折ご確認ください。 
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>Power BI サービスでの言語の選択
-1. Power BI サービスで、 **[設定]** アイコン ![[設定] アイコン](media/supported-languages-countries-regions/pbi_settings_icon.png) >  **[設定]** の順に選びます。
+1. Power BI サービスで、 **[設定]** アイコン![[設定] アイコンを表示している Power BI サービスのスクリーンショット](media/supported-languages-countries-regions/pbi_settings_icon.png) >  **[設定]** の順に選択します。
 2. **[全般]** タブ > **[言語]** で、。
 3. 言語を選択し、 **[適用]** をクリックします。
 
@@ -92,25 +92,25 @@ Power BI では、コンピューターの言語設定を基に言語を検出�
 #### <a name="internet-explorer-version-11"></a>Internet Explorer (バージョン 11)
 1. ブラウザー ウィンドウの右上隅にある **[ツール]** ボタンをクリックします。
    
-   ![Internet Explorer の [ツール] ボタン](media/supported-languages-countries-regions/languages1.png)
+   ![[ツール] ボタンを表示している Internet Explorer のスクリーンショット。](media/supported-languages-countries-regions/languages1.png)
 2. **インターネット オプション**をクリックします。
 3. [インターネット オプション] ダイアログの [全般] タブの [デザイン] の下の、 **[言語]** ボタンをクリックします。
 
 #### <a name="google-chrome-version-42"></a>Google Chrome (バージョン 42)
 1. ブラウザー ウィンドウの右上隅にある [メニュー] ボタンをクリックします。
    
-   ![Chrome のメニュー ボタン](media/supported-languages-countries-regions/languages2.png)
+   ![メニュー ボタンを表示している Google Chrome のスクリーンショット。](media/supported-languages-countries-regions/languages2.png)
 2. **[設定]** をクリックします。
 3. **[詳細設定を表示]** をクリックします。
 4. [言語] の下の、 **[言語と入力の設定]** ボタンをクリックします。
 5. **[追加]** をクリックし、言語を選択して **[OK]** をクリックします。
    
-   ![Chrome の言語一覧](media/supported-languages-countries-regions/pbi_langs_enus.png)
+   ![言語の一覧を表示している Google Chrome のスクリーンショット。](media/supported-languages-countries-regions/pbi_langs_enus.png)
    
    新しい言語が一覧の末尾に表示されます。 
 6. 新しい言語を一覧の最上部にドラッグし、 **[Google Chrome をこの言語で表示]** をクリックします。
    
-   ![Display Google Chrome in this language](media/supported-languages-countries-regions/pbi_langs_eses.png)
+   ![表示言語を表示している Google Chrome のスクリーンショット。](media/supported-languages-countries-regions/pbi_langs_eses.png)
    
    変更内容を表示するには、ブラウザーを閉じて再度開かなければならない場合があります。
 
@@ -130,10 +130,10 @@ Power BI Desktop を入手するには2 つがあります。スタンドアロ�
 
 3. **[Windows の設定]** で、 **[時刻と言語]** を選択します。
    
-     ![[Windows の設定] ダイアログ ボックス](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
+     ![[Windows の設定] ダイアログ ボックスを表示している Power BI Desktop のスクリーンショット。](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
 4. **[言語]** を選択し、言語を選択します。 必要に応じて、 **[Add a Windows display language in Microsoft Store]\(Microsoft Store に Windows 表示言語を追加する\)** を選択します。
    
-     ![Windows の言語の設定ダイアログ ボックス](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
+     ![Windows の言語設定ダイアログ ボックスを表示している Power BI Desktop のスクリーンショット。](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
    
      次に Power BI Desktop を起動すると、既定値として設定した言語が使用されます。 
 
@@ -152,7 +152,7 @@ Power BI Desktop は、Windows の地域設定から既定の数値と日付の�
 
 2. **[Windows の設定]** で、 **[時刻と言語]** を選択します。
    
-     ![[Windows の設定] ダイアログ ボックス](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
+     ![[Windows の設定] ダイアログ ボックスを表示している Power BI Desktop のスクリーンショット。](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
 
 3. **[地域]**  >  **[日付、時刻、地域の追加設定]** を選択します。
 
@@ -173,7 +173,7 @@ Power BI Desktop をダウンロードした場合でも Windows ストアから
 2. **[現在のファイル]** の下にある **[地域の設定]** を選択します。
 3. **[インポート用のロケール]** ボックスで、別のロケールを選びます。 
    
-   ![Power BI Desktop の [オプション] ダイアログ ボックス](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
+   ![[オプション] ダイアログ ボックスを表示している Power BI Desktop のスクリーンショット。](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
 4. **[OK]** を選択します。
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Power BI Desktop のモデルの言語を選択する
@@ -184,7 +184,7 @@ Power BI Desktop アプリケーション用の言語を設定するだけでな
 - 日付フィールドから非表示の日付テーブルを作成するときに Power BI Desktop が使う言語。 たとえば、フィールドは Month/Monat/Mois などという名前になります。
 
 > [!NOTE]
-> Power BI モデルでは、現在、大文字と小文字を区別しない (またはひらがなとカタカナを区別しない) ロケールが使用されているため、"ABC" と "abc" は同等に扱われます。 ABC が最初にデータベースに読み込まれた場合、"Abc" のように大文字と小文字だけが異なる他の文字列は、別の値として読み込まれません。
+> Power BI モデルでは、現在、大文字と小文字を区別しない (またはひらがなとカタカナを区別しない) ロケールが使用されているため、"ABC" と "abc" は同等に扱われます。 "ABC" が最初にデータベースに読み込まれた場合、"Abc" のように大文字と小文字だけが異なる他の文字列は、別の値として読み込まれません。
 > 
 >
 
@@ -194,7 +194,7 @@ Power BI Desktop アプリケーション用の言語を設定するだけでな
 2. **[グローバル]** で **[地域の設定]** を選びます。
 3. **[モデルの言語]** ボックスで、別の言語を選びます。 
 
-    ![Power BI Desktop でモデルの言語を設定する](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
+    ![モデルの言語を設定する方法を示している Power BI Desktop のスクリーンショット。](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
 > [!NOTE]
 > Power BI モデルの作成後に言語を変更することはできません。

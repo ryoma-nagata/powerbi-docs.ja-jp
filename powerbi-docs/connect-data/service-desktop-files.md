@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b649b3694eab5a573f814efd707155154d54b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236693"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263044"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop ファイルからデータを取得する
-![](media/service-desktop-files/pbid_file_icon.png)
+![Power BI Desktop ファイル アイコン](media/service-desktop-files/pbid_file_icon.png)
 
 **Power BI Desktop** には、ビジネス インテリジェンスやレポートを容易にする機能があります。 多くの異なるデータ ソースへの接続、データのクエリと変換、データのモデル化、強力で動的なレポートの作成など、どのようなビジネス インテリジェンス タスクであっても、**Power BI Desktop** を利用すれば直感的にすばやく実行できます。 **Power BI Desktop** にまだ慣れていないユーザーは、まず「[Power BI Desktop の概要](../fundamentals/desktop-getting-started.md)」をお読みください。
 
@@ -38,13 +38,13 @@ ms.locfileid: "85236693"
 
 1. Power BI の [ナビゲーター] ウィンドウで、**[データの取得]** をクリックします。
    
-   ![](media/service-desktop-files/pbid_get_data_button.png)
+   ![[データの取得] のスクリーンショット。ナビゲーション ウィンドウにボタンが表示されています。](media/service-desktop-files/pbid_get_data_button.png)
 2. **[ファイル]** 、 **[取得]** の順にクリックします。
    
-   ![](media/service-desktop-files/pbid_files_get.png)
+   ![[ファイル] ダイアログのスクリーンショット。[取得] ボタンが表示されています。](media/service-desktop-files/pbid_files_get.png)
 3. 目的のファイルを見つけます。 Power BI Desktop ファイルには、.PBIX という拡張子が付いています。
    
-   ![](media/service-desktop-files/pbid_find_your_file.png)
+   ![ファイルを見つけるための 4 つのタイルのスクリーンショット。ローカル ファイル、OneDrive Business、OneDrive Personal、SharePoint の各タイルがあります。](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Power BI Desktop から Power BI サイトへのファイルの発行
 Power BI Desktop の発行機能を使用することは、最初にローカル ドライブからファイル データをインポートしたり、OneDrive 上のデータに接続したりするという点で、Power BI でデータの取得機能を使用することに似ています。 ただし、次のような違いがあります。ローカル ドライブからアップロードする場合は、データのオンライン コピーとローカル コピーが相互に最新の状態であることを確認するために、そのデータを頻繁に更新することをお勧めします。 
@@ -53,14 +53,14 @@ Power BI Desktop の発行機能を使用することは、最初にローカル
 
 1. Power BI Desktop で **[ファイル]**  >  **[発行]**  >  **[Power BI へ発行]** を選択するか、リボンの **[発行]** をクリックします。
    
-   ![](media/service-desktop-files/pbid_publish.png)
+   ![リボン上の [発行] のスクリーンショット。Power BI Desktop から発行する方法を示しています。](media/service-desktop-files/pbid_publish.png)
 2. Power BI にサインインします。 この操作は、最初に 1 回だけ行う必要があります。
    
    完了すると、Power BI サイトでレポートを開くためのリンクが表示されます。
    
-   ![](media/service-desktop-files/pbid_publishing.png)
+   ![サインイン確認ダイアログのスクリーンショット。正常にサインインしていることが示されています。レポートを開くためのリンクがあります。](media/service-desktop-files/pbid_publishing.png)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 **データの探索** - ファイルのデータとレポートを Power BI に取得したら、次は探索です。 ファイルに既にレポートがある場合は、[ナビゲーター] ウィンドウの **[レポート]** に表示されます。 ファイルにデータのみが含まれる場合は、新しいレポートを作成できます。そのためには、新しいデータセットを右クリックし、 **[探索]** をクリックします。
 
 **外部データ ソースの更新** - Power BI Desktop ファイルが外部データ ソースに接続する場合は、データセットが常に最新の状態に保たれるように、更新スケジュールを設定できます。 ほとんどの場合、更新スケジュールを設定するのは非常に簡単ですが、詳細な手順についてはこの記事の範囲外です。 詳しくは、「[Power BI でのデータの更新](refresh-data.md)」をご覧ください。

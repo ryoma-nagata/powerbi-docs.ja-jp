@@ -6,13 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/24/2020
+ms.date: 07/08/2020
 ms.author: painbar
-ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 2a8186f24e7a82604ab941e25c2a5aa471efe614
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782594"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86386000"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -23,6 +24,13 @@ ms.locfileid: "85782594"
 
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="july-2020"></a>2020 年 7 月
+### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>Windows 用 Power BI モバイル アプリで組織のブランド化がサポートされるようになりました
+これで、組織のブランド化のテーマと一致するように、Power BI のルック アンド フィールに管理者が行ったすべての変更が、Power BI モバイル アプリにも表示されます。 このような変更には、上部のナビゲーション バーの新しい配色、組織のロゴ、およびバナー画像が含まれる場合があります。  
+
+### <a name="disable-single-sign-on-via-remote-configuration-ios-and-android"></a>リモート構成を使用してシングル サインオンを無効にする (iOS および Android)
+IT 管理者は、Power BI モバイル アプリへのシングル サインオンをリモートで無効にして、マルチユーザー デバイスのセキュリティとアクセス許可のコンプライアンスを強化できるようになりました。 [詳細情報](mobile-app-configuration.md#disable-single-sign-on-ios-and-android)
 
 ## <a name="june-2020"></a>2020 年 6 月
 ### <a name="show-your-bookmarks-in-slideshows-windows"></a>スライドショーでのブックマークの表示 (Windows)
@@ -859,15 +867,15 @@ Power BI アプリの SQL Server モバイル レポートを iOS デバイス (
 * 比率ベースの Y 軸を持つ折れ線グラフは、実際のデータに基づいて視覚化の範囲を計算できるようになりました。 グラフは、既定値からではなく、グラフ内の最下位データ ポイントから始まるようになりました。
 * 折れ線グラフ、縦棒グラフ、および横棒グラフに、データ ラベルを付けることができるようになりました。 
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
+    ![データ ラベルを使用して月ごとの V T B の割合を示す折れ線グラフのスクリーンショット。 ](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
 
 #### <a name="iphone"></a>iPhone
 * グループの最新のダッシュボードに関する最新情報を確認できます。チーム メンバーがグループのいずれかにダッシュボードを追加するたびに iPhone に通知が送信されてきます。
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
+    ![iPhone での通知を表示しているダッシュボードのスクリーンショット。](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
 * 携帯電話の向きを変えるだけで、ダッシュボードを水平に表示できるようになりました。 詳しくは、[iPhone アプリの横モード](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/)に関する記事をご覧ください。
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
+    ![iPhone で横モードを表示しているダッシュボードのスクリーンショット。](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>2015 年 9 月
 Power BI モバイル アプリの向上 -- Android、iOS (iPhone と iPad)、Windows。 [Power BI モバイルに関するブログの 9 月中旬の投稿](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/)をお読みください。

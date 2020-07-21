@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 021b5f0856ef4ff3730102efda88fd089a36dfcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320080"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264422"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI サービスのデータ ソース
 データは Power BI の中核です。 たとえば、データを探索しているとしましょう。 グラフとダッシュボードを作成するか、**Q&A** で質問をすることでこれを行えます。 表示される視覚化と回答は、データセットから基になるデータを取得しています。 しかし、そのデータセットはどこから得られるでしょうか。 それはデータ ソースから得られます。
@@ -23,14 +23,14 @@ ms.locfileid: "83320080"
 
 ページの左下隅で **[データの取得]** を選択すると、Power BI 内の任意のデータ ソースからデータを取得できます。
 
-![](media/service-get-data/pbi-getdata-navigation-link.png) 
+![Power BI のサービス画面の左下に表示される [データの取得] のスクリーンショット。](media/service-get-data/pbi-getdata-navigation-link.png) 
 
 **[データの取得]** を選択すると、アクセスしたいデータを選択できます。
 
-![](media/service-get-data/pbi-getdata-startscreen.png)
+![[データの取得] の選択肢のスクリーンショット。アクセスするデータを選択するオプションが表示されています。](media/service-get-data/pbi-getdata-startscreen.png)
 
 ## <a name="discover-content"></a>コンテンツの検出
-![](media/service-get-data/pbi-getdata-discovercontent.png)
+![「コンテンツの検出」セクションのスクリーンショット。パートナーのロゴが示されています。](media/service-get-data/pbi-getdata-discovercontent.png)
 
 **[コンテンツの検出]** セクションには、必要なすべてのデータとレポートが既に含まれています。 Power BI には、次の 2 種類のコンテンツ パックがあります。組織とサービスです。 
 
@@ -43,7 +43,7 @@ ms.locfileid: "83320080"
 **[新しいコンテンツの作成]** セクションには、自分でコンテンツを作成してインポートするためのオプションが含まれています。 Power BI で、独自のコンテンツを作成またはインポートするには、次の 2 つの方法があります。ファイルとデータベースです。 
 
 ### <a name="files"></a>ファイル
-![](media/service-get-data/pbi_getdata_files.png)
+![Excel、Power B I Desktop、および CSV アイコン](media/service-get-data/pbi_getdata_files.png)
 
 **Excel** ( *.xlsx*、 *.xlsm*) - Excel では、ブックにさまざまなデータの種類を含めることができます。 たとえば、ワークシートに自分で入力したデータを含めることができます。 Power Query を使用して外部データ ソースからクエリして読み込んだデータを含めることもできます。 Power Query は、Excel 2016 または Power Pivot の **[取得と変換]** から使用できます。 データは、ワークシート内のテーブルからインポートすることも、データ モデルからインポートすることもできます。 詳しくは、「[ファイルから Power BI 用のデータを取得する](service-get-data-from-files.md)」をご覧ください。
 
@@ -56,7 +56,7 @@ XML テーブル ( *.xml*) やテキスト ( *.txt*) ファイルなど、その
 ファイルの保存先にも大きな違いがあります。 OneDrive for Business は優れた柔軟性と Power BI との統合を提供します。 ファイルをローカル ドライに保持することは問題ありません。 ただし、データを更新する必要がある場合は、いくつか追加の手順があります。 詳しくは、次の記事のリンクを参照してください。
 
 ### <a name="databases"></a>データベース
-![](media/service-get-data/pbi_getdata_databases.png)
+![データベースのスクリーンショット。クラウド ロゴにデータベースが示されています。](media/service-get-data/pbi_getdata_databases.png)
 
 **クラウド内のデータベース** - Power BI サービスから、次にライブ接続できます。
 

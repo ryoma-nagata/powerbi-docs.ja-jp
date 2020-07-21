@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 471522e0f66fe4bf03a8c1616d1a24221149f2e0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 422782c3036f94c1ea764f46135200116092d70c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229913"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216230"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI で Office365Mon に接続する
 Office 365 の障害および正常性のパフォーマンス データの分析は、Power BI や Office365Mon テンプレート アプリを使用すると簡単です。 Power BI は、障害および正常性 プローブを含むデータを取得してから、そのデータに基づいてすぐに使えるダッシュボードおよびレポートを作成します。
@@ -27,23 +27,23 @@ Power BI 用 [Office365Mon テンプレート アプリ](https://msit.powerbi.co
 ## <a name="how-to-connect"></a>接続する方法
 1. ナビ ペインの下部にある **[データの取得]** を選択します。
    
-   ![](media/service-connect-to-office365mon/pbi_getdata.png)
+   ![[データの取得] ボタンのスクリーンショット。ナビゲーション ウィンドウに表示されています。](media/service-connect-to-office365mon/pbi_getdata.png)
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
-   ![](media/service-connect-to-office365mon/pbi_getservices.png) 
+   ![[サービス] ダイアログのスクリーンショット。[取得] ボタンが表示されます。](media/service-connect-to-office365mon/pbi_getservices.png) 
 3. **[Office365Mon]** \> **[取得]** を選択します。
    
-   ![](media/service-connect-to-office365mon/o365mon.png)
+   ![[Office365Mon] ダイアログのスクリーンショット。[取得] リンクが表示されます。](media/service-connect-to-office365mon/o365mon.png)
 4. 認証方式として、 **[oAuth2]** \> **[サインイン]** を選択します。
    
    プロンプトが表示されたら、Office365Mon の管理者資格情報を入力し、認証プロセスに従います。
    
-   ![](media/service-connect-to-office365mon/creds.png)
+   ![[Connect to Office365Mon]\(Office365Mon に接続する\) ダイアログのスクリーンショット。[認証方法] フィールドに [Auth2] が入力されています。](media/service-connect-to-office365mon/creds.png)
    
-   ![](media/service-connect-to-office365mon/creds2.png)
+   ![Office365Mon サインインのスクリーンショット。資格情報の入力が求められます。](media/service-connect-to-office365mon/creds2.png)
 5. Power BI によるデータのインポート後、新しいダッシュ ボード、レポート、データセットがナビ ペインに表示されます。 新しい項目は、黄色のアスタリスク (\*) でマークされます。Office365Mon エントリを選択します。
    
-   ![](media/service-connect-to-office365mon/dashboard4.png)
+   ![Power BI のナビゲーション ウィンドウのスクリーンショット。ダッシュボード、レポート、データセットが表示されています。](media/service-connect-to-office365mon/dashboard4.png)
 
 **実行できる操作**
 

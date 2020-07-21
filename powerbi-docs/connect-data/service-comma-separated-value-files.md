@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4827049ee8eff86b2ce71ee9befd3d01760c0840
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 20c289648dc6e9b9784335c0d92f6725328dfffc
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230480"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216324"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>コンマ区切り値 (.csv) ファイルからデータを取得する
-![](media/service-comma-separated-value-files/csv_icon.png)
+![CSV アイコン](media/service-comma-separated-value-files/csv_icon.png)
 
 コンマ区切り値ファイルは、.csv とも呼ばれるシンプルなテキスト ファイルです。データは各行に配置され、各データのそれぞれの値がコンマで区切られた形となっています。 この種のファイルでは、ファイルのサイズを比較的小さく抑えつつ非常に多くのデータを入れておくことができるため、Power BI にとって理想的なデータ ソースの 1 つとなっています。 サンプルの .csv ファイルは[こちら](https://go.microsoft.com/fwlink/?LinkID=619356)からダウンロードできます。
 
@@ -41,13 +41,13 @@ ms.locfileid: "85230480"
 
 1. Power BI の [ナビゲーター] ウィンドウで、 **[データの取得]** をクリックします。
    
-   ![](media/service-comma-separated-value-files/csv_get_data_button.png)
+   ![ナビ ペインのボタンを示す、Power B I Desktop の [データの取得] のスクリーンショット。](media/service-comma-separated-value-files/csv_get_data_button.png)
 2. **[ファイル]** 、 **[取得]** の順にクリックします。
    
-   ![](media/service-comma-separated-value-files/csv_files_get.png)
+   ![[ファイル] ダイアログのスクリーンショット。[取得] ボタンが表示されています。](media/service-comma-separated-value-files/csv_files_get.png)
 3. 目的のファイルを見つけます。
    
-   ![](media/service-comma-separated-value-files/csv_find_your_file.png)
+   ![ファイルを見つけるための 4 つのタイルのスクリーンショット。ローカル ファイル、OneDrive Business、OneDrive Personal、SharePoint から選択できます。](media/service-comma-separated-value-files/csv_find_your_file.png)
 
 ## <a name="next-steps"></a>次の手順
 **データの探索** - ファイルのデータを Power BI に取得したら、次は探索です。 新しいデータセットを右クリックして **[探索]** をクリックします。

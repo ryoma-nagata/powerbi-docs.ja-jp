@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354756"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385954"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>データフロー ストレージ用の Azure Data Lake Storage Gen2 を接続する
 
@@ -45,6 +46,7 @@ Azure Data Lake Storage Gen2 アカウントを使って Power BI を構成す�
 2. ストレージ アカウントは、ご利用の Power BI テナントと同じ AAD テナントに作成する必要がある。
 3. ストレージ アカウントは、ご利用の Power BI テナントと同じリージョンに作成する必要がある。 Power BI テナントが配置されている場所を特定するには、「[Power BI テナントの場所](../admin/service-admin-where-is-my-tenant-located.md)」を参照してください。
 4. ストレージ アカウントでは、*階層的名前空間*の機能が有効になっている必要がある。
+5. ストレージ アカウントが現在のユーザーによって作成されていない場合は、現在のユーザーに[ストレージ BLOB データ所有者](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner)と[所有者](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner)のアクセス許可が割り当てられていることを確認してください。 (所有者にはデータ レベルのアクセス許可が含まれていないため、BLOB データ所有者が必要です)。
 
 以降のセクションでは、Azure Data Lake Storage Gen2 アカウントを構成するために必要な手順の詳細を確認します。
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 88b5c6c377588003a02f571c29ef8baef5540ae3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9265cc94aceb53b1b088f2393ca607c83f94b978
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220220"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264795"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>デバイスで Power BI モバイル アプリからバーコードをスキャンする
 現実世界でバーコードをスキャンし、Power BI モバイル アプリでフィルターされた BI 情報に直接アクセスできます。
@@ -27,14 +27,14 @@ ms.locfileid: "85220220"
 
 たとえば、同僚が [Power BI Desktop のレポートのバーコード フィールドにタグを付け](../../transform-model/desktop-mobile-barcodes.md)、そのレポートを自分と共有したとします。 
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+![製品バーコード スキャンのスクリーンショット。色の付いた飲料のバーコードにスキャナーがあてられています。](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
 デバイスの Power BI アプリのスキャナーで製品バーコードをスキャンすると、そのバーコードのレポート (またはレポートの一覧) が表示されます。 そのバーコードにフィルター処理されたレポートを開くことができます。
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Power BI スキャナーでバーコードをスキャンする
 1. ナビゲーション バーの **[その他のオプション]** (...) をタップし、 **[スキャナー]** をタップします。
 
-    ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
+    ![ナビゲーション ウィンドウの [その他のオプション] のスクリーンショット。スキャナー選択があります。](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
 2. カメラが有効になっていない場合は、Power BI アプリでカメラを使用することを承認する必要があります。 これは、1 回限りの承認です。 
 4. 製品のバーコードをスキャナーでポイントします。 そのバーコードに関連付けられたレポートの一覧が表示されます。
@@ -43,8 +43,8 @@ ms.locfileid: "85220220"
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>レポートを開いているときに他のバーコードでフィルターする
 あるバーコードでフィルター処理されたレポートをデバイスで表示しているときに、そのレポートを別のバーコードでフィルター処理したい場合があります。
 
-* バーコード アイコンにフィルター ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png) がある場合、フィルターがアクティブになり、レポートをバーコードでフィルターすることができます。 
-* アイコンにフィルター ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png) が含まれていない場合、フィルターはアクティブにならず、レポートはバーコードでフィルターされません。 
+* バーコード アイコンにフィルター ![フィルター適用アイコン](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png)がある場合、フィルターがアクティブになり、レポートをバーコードでフィルターすることができます。 
+* アイコンにフィルター ![フィルター適用なしアイコン](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)が含まれていない場合、フィルターはアクティブにならず、レポートはバーコードでフィルターされません。 
 
 いずれの方法でも、アイコンをタップすると浮動スキャナーがある小さなメニューが開きます。
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f74b90b944f40b5d5ff046f60bd67ca4c3c7eb83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff31548801f372fa1e20949e5c109cc9214f55e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238406"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264482"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI サービスのほとんどすべてのものを削除する
 この記事では、Power BI サービスでダッシュボード、レポート、ブック、データセット、アプリ、視覚化、ワークスペースを削除する方法について説明します。
@@ -125,7 +125,7 @@ ms.locfileid: "85238406"
 アプリ リスト ページからアプリを削除しても、他のメンバーのアプリは削除されません。
 
 1. ナビ ペインで、 **[アプリ]** を選択してアプリ リスト ページを開きます。
-2. 削除するアプリにカーソルを合わせ、削除アイコン ![](media/service-delete/power-bi-delete-report2.png) を選択します。
+2. 削除するアプリにカーソルを合わせ、[削除] ![ゴミ箱アイコン](media/service-delete/power-bi-delete-report2.png)  アイコンをクリックします。
 
    ![アプリの選択](media/service-delete/power-bi-delete-app.png)
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: a12f4d81e2cae913ddddd26ca3bd9c820ad716ca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 725890e3650ff05e0b90e7678bb83e0bc5d01050
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233025"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263015"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android デバイスでの Power BI モバイル アプリの概要
 Microsoft Power BI 用 Android アプリは、Power BI、Power BI レポート サーバー、および Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 
@@ -80,7 +80,7 @@ Android デバイスでアプリを開くと、サインアップやサインイ
 Power BI コンテンツの検索を始めるにはヘッダーの虫眼鏡をタップします。
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>お気に入りのダッシュボードとレポートを表示する
-ナビゲーション バーの **[お気に入り]** (![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) をタップし、[お気に入り] ページを表示します。 
+ナビゲーション バーの **[お気に入り]** (![[お気に入り] アイコン](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) をタップし、[お気に入り] ページを表示します。 
 
 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 

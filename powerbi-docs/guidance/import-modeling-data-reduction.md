@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2c92fb47f576b750aa4815b56fabece2b5bc1de5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 396c760a97911a35d7fdc0c608fc35de1cf6586d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565973"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216805"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>インポート モデリングのデータ削減手法
 
@@ -84,7 +84,7 @@ VertiPaq ストレージ エンジンでは、通常の Power Query ソース列
 
 他のクエリとのデータ統合のサポートを意図した Power Query クエリは、モデルに読み込むことはできません。 クエリがモデルに読み込まれないようにするには、これらのインスタンスでクエリの読み込みを確実に無効にするようにしてください。
 
-![Power Query クエリの読み込みを無効にする](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+![[読み込みを有効にする] オプションを表示している Power Query のスクリーンショット。](media/import-modeling-data-reduction/power-query-disable-query-load.png)
 
 ## <a name="disable-auto-datetime"></a>自動の日付/時刻を無効にする
 

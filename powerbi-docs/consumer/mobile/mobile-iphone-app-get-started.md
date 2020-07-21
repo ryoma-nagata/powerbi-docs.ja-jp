@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 1f71c2c835c729f3a0afe824835deaee719568c2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 989e77eeaa559ac74579c1d981f77f2bca374f01
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219990"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264770"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS デバイスでの Power BI モバイル アプリの概要
 iPhone または iPad 上の Microsoft Power BI for iOS アプリは、Power BI、Power BI Report Server、Reporting Services のモバイル BI エクスペリエンスを提供します。 タッチ入力対応のモバイル アクセスでどこからでもオンプレミスやクラウド内の自社のダッシュボードを簡単に表示したり、そこでやり取りしたりできます。 ダッシュボードでデータを探索し、電子メールやテキスト メッセージで同僚と共有できます。 [Apple Watch](mobile-apple-watch.md) で最新データを常に把握できます。  
@@ -66,7 +66,7 @@ iOS 用の Power BI モバイル アプリは、iOS 11 以降を実行してい�
 Power BI コンテンツの検索を始めるにはヘッダーの虫眼鏡をタップします。
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>お気に入りのダッシュボードとレポートを表示する
-ナビゲーション バーの **[お気に入り]** (![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) をタップし、[お気に入り] ページを表示します。 
+ナビゲーション バーの **[お気に入り]** (![[お気に入り] アイコン](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) をタップし、[お気に入り] ページを表示します。 
 
 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 

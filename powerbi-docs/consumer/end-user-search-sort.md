@@ -7,14 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 07/09/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1ff7332bc71935cd6b679fa546dc2f1d37551436
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782543"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215739"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Power BI コンシューマー向けのナビゲーション: グローバル検索
 
@@ -28,7 +29,7 @@ Power BI サービスを初めて使用する場合は、いくつかのコン�
 ## <a name="searching-for-content"></a>コンテンツの検索
  検索は、Power BI サービスのほぼすべての部分から使用できます。 検索ボックスまたは検索アイコンを見てください ![拡大鏡アイコン](./media/end-user-search-sort/power-bi-search-icon.png).
 
- 検索フィールドに、ダッシュボード、レポート、ブック、アプリ、または所有者の名前のすべてまたは一部を入力します。 Power BI によってすべてのコンテンツが検索されます。 
+ 検索フィールドに、ダッシュボード、レポート、ブック、ワークスペース、アプリ、または所有者の名前の全部または一部を入力します。 Power BI によってすべてのコンテンツが検索されます。 
 
  ![レポートの検索](./media/end-user-search-sort/power-bi-search-field.png) 
 

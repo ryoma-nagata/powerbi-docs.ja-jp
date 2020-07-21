@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: bcd5713b2ee7f053448718bc5dd93c24b0d53de6
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: ca6ce7bde592c1153b0a553a906391c3a2c7d5be
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813878"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216652"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI サービスのデザイナー向けの基本的な概念
 
@@ -24,7 +24,7 @@ ms.locfileid: "83813878"
 
 この記事では、独自のレポートがまだない場合、[Power BI サンプル](../create-reports/sample-datasets.md)のいずれかをインストールしてみてください。
 
-![ブラウザーの Power BI サービス ホーム画面](media/service-basic-concepts/power-bi-home-screen.png)
+![ブラウザー内の Power BI サービスのホーム画面のスクリーンショットを示す図であり、番号が付けられた領域が以下にリストされている。](media/service-basic-concepts/power-bi-home-screen.png)
 
 ブラウザーで Power BI サービスを開くと、最初にホーム画面が表示されます。 表示される可能性がある要素は次のとおりです。
 
@@ -57,7 +57,8 @@ Power BI の 5 つの主要な構成要素は、"*ダッシュボード*"、"*�
 
 2 種類のワークスペース、"*マイ ワークスペース*" と "*ワークスペース*" があります。
 
-- "*マイ ワークスペース*" は、自分のコンテンツを使う Power BI ユーザー向けの個人用ワークスペースです。 ユーザーは自分のマイ ワークスペースにのみアクセスできます。 マイ ワークスペースからダッシュボードとレポートを共有できます。 ダッシュボードとレポートで共同作業する場合や、アプリを作成する場合は、ワークスペースで作業できます。      
+- "*マイ ワークスペース*" は、自分のコンテンツを使う Power BI ユーザー向けの個人用ワークスペースです。 ユーザーは自分のマイ ワークスペースにのみアクセスできます。 マイ ワークスペースからダッシュボードとレポートを共有できます。 ダッシュボードとレポートで共同作業する場合や、アプリを作成する場合は、ワークスペースで作業できます。
+
 -  "*ワークスペース*" は、同僚とコンテンツの共同作業および共有を行うために使われます。 ワークスペースに同僚を追加して、ダッシュボード、レポート、ブック、データセットの共同作業を行うことができます。 1 つの例外として、ワークスペース メンバーにはすべて Power BI Pro ライセンスが必要です。 新しいワークスペースの詳細については、[こちら](../collaborate-share/service-create-the-new-workspaces.md)を参照してください。 
 
     ワークスペースは、組織向け "*アプリ*" を作成、公開、管理する場所でもあります。 ワークスペースは、Power BI アプリを構成するコンテンツ用のステージング領域およびコンテナーと考えることができます。 ところで、"*アプリ*" とは何でしょうか。 組織の Power BI のコンシューマーに主要なメトリックを提供するために作成された、ダッシュボードとレポートのコレクションです。 アプリは対話型ですが、コンシューマーがそれを編集することはできません。 アプリの使用者 (アプリへのアクセス権を持つ同僚) には必ずしも Pro ライセンスは必要ありません。  
@@ -80,7 +81,7 @@ Power BI の 5 つの主要な構成要素は、"*ダッシュボード*"、"*�
 
 次の例は、"Sales and marketing" ワークスペースを選んで、 **[データセット]** タブをクリックしたものです。
 
-![データセットの選択](media/service-basic-concepts/power-bi-datasets.png)
+![[データセット] が選択された状態のサンプル ワークスペースを示す Power BI のスクリーンショット。](media/service-basic-concepts/power-bi-datasets.png)
 
 **1 つの** データセットを...
 
@@ -88,7 +89,7 @@ Power BI の 5 つの主要な構成要素は、"*ダッシュボード*"、"*�
 * 多くのさまざまなレポートで使用できます。
 * その 1 つのデータセットからの視覚エフェクトを、多くのさまざまなダッシュボードで表示できます。
 
-  ![データセットの図](media/service-basic-concepts/drawing2.png)
+  ![レポートおよびダッシュボードに対するデータセットのリレーションシップを示す図](media/service-basic-concepts/drawing2.png)
 
 [データセットに接続したりデータセットをインポートしたり](../connect-data/service-get-data.md)するには、ナビ ペインの下部にある **[データの取得]** を選択します。 手順に従って、特定のソースに接続するかソースをインポートして、アクティブなワークスペースにデータセットを追加します。 新しいデータセットは、黄色のアスタリスクで示されます。 Power BI 内で行う作業によって、基になるデータセットが変更されることはありません。
 
@@ -108,7 +109,7 @@ Power BI の 5 つの主要な構成要素は、"*ダッシュボード*"、"*�
 ## <a name="reports"></a>レポート
 Power BI レポートは、1 ページまたは複数ページの視覚エフェクト (チャート、グラフ、ツリーマップ) からなります。 視覚エフェクトは **_ビジュアル_** とも呼ばれます。 レポートのすべての視覚エフェクトは 1 つのデータセットから取得されます。 レポートは、Power BI 内で最初から作成すること、ダッシュボードを使用して同僚が共有しているものをインポートすること、Excel、Power BI Desktop、データベース、SaaS アプリケーションからデータセットに接続するときに Power BI で作成することができます。  たとえば、Power View シートを含む Excel ブックに接続するとき、Power BI はそのシートに基づくレポートを作成します。 SaaS アプリケーションに接続すると、Power BI は構築済みのレポートをインポートします。
 
-レポートを表示して操作するモードは 2 つ、"*読み取りビュー*" と "*編集ビュー*" です。 レポートを開くと、読み取りビューで開きます。 編集アクセス許可を持っている場合は、左上隅の **[レポートの編集]** が表示され、編集ビューでレポートを表示できます。  レポートがワークスペース内にある場合は、"*管理者*"、"*メンバー*"、または "*共同作成者*" のロールを持つすべてのユーザーが編集できます。 これらのユーザーは、そのレポートの編集ビューのすべての探索、設計、構築、および共有機能にアクセスできます。 それらのユーザーがレポートを共有した相手のみが、読み取りビューでレポートを閲覧できます。   
+レポートを表示して操作するモードは 2 つ、"*読み取りビュー*" と "*編集ビュー*" です。 レポートを開くと、読み取りビューで開きます。 編集アクセス許可を持っている場合は、左上隅の **[レポートの編集]** が表示され、編集ビューでレポートを表示できます。  レポートがワークスペース内にある場合は、"*管理者*"、"*メンバー*"、または "*共同作成者*" のロールを持つすべてのユーザーが編集できます。 これらのユーザーは、そのレポートの編集ビューのすべての探索、設計、構築、および共有機能にアクセスできます。 それらのユーザーがレポートを共有した相手のみが、読み取りビューでレポートを閲覧できます。
 
 ワークスペースを開くと、関連付けられているレポートが **[レポート]** タブに一覧表示されます。リストされている各レポートは、基になるただ 1 つのデータセットに基づく、視覚エフェクトの 1 つ以上のページを表します。 レポートを開くには、それを選択します。
 
@@ -118,7 +119,7 @@ Power BI レポートは、1 ページまたは複数ページの視覚エフェ
 
 次の例は、"Sales and marketing" ワークスペースを選んで、 **[レポート]** タブをクリックしたものです。
 
-![レポートの選択](media/service-basic-concepts/power-bi-reports.png)
+![[レポート] が選択された状態のサンプル ワークスペースを示す Power BI のスクリーンショット。](media/service-basic-concepts/power-bi-reports.png)
 
 **1 つの** レポートを...
 
@@ -126,7 +127,7 @@ Power BI レポートは、1 ページまたは複数ページの視覚エフェ
 * そのワークスペース内の複数のダッシュボードに関連付けることができます。 1 つのレポートからピン留めされたタイルは、複数のダッシュボードに表示できます。
 * 1 つのデータセットのデータを使用して作成できます。 Power BI Desktop を使用すると、複数のデータ ソースをレポート内の 1 つのデータセットに結合し、そのレポートを Power BI にインポートできます。
 
-  ![レポートの図](media/service-basic-concepts/drawing3new.png)
+  ![データ セットおよびダッシュボードに対するレポートのリレーションシップを示す図](media/service-basic-concepts/drawing3new.png)
 
 ### <a name="dig-deeper"></a>詳細情報
 - [データセットをインポートして Power BI サービスでレポートを作成する](../create-reports/service-report-create-new.md)
@@ -154,7 +155,7 @@ Power BI レポートは、1 ページまたは複数ページの視覚エフェ
 * 多くの異なるレポートの視覚エフェクトを表示できます。
 * 他のツール (Excel など) からピン留めされた視覚エフェクトを表示できます。
 
-  ![ダッシュボードの選択](media/service-basic-concepts/drawing1.png)
+  ![データセットおよびレポートに対するダッシュボードのリレーションシップを示す図](media/service-basic-concepts/drawing1.png)
 
 ### <a name="dig-deeper"></a>詳細情報
 * [空のダッシュボードを作成して、データを取得する](../create-reports/service-dashboard-create.md)。
@@ -177,15 +178,15 @@ Power BI ではブックを編集できません。 しかし、変更を加え�
 ## <a name="a-dashboard-in-my-workspace"></a>[マイ ワークスペース] のダッシュボード
 ここまで、ワークスペースと構成要素について説明してきました。 ここで一度振り返り、Power BI サービスのダッシュボードを構成する要素をもう一度確認しましょう。
 
-![ブラウザーでの Power BI サービス](media/service-basic-concepts/completenewest.png)
+![ブラウザー内の Power BI サービスのスクリーンショットであり、番号が付けられた機能が以下にリストされている。](media/service-basic-concepts/completenewest.png)
 
 ### <a name="1-navigation-pane"></a>1.**ナビゲーション ペイン**
 ワークスペースを探したり、Power BI の構成要素 (ダッシュボード、レポート、ブック、データセット) の間を移動したりするには、ナビ ペインを使います。  
 
-  ![ナビ ペイン](media/service-basic-concepts/power-bi-navigation.png)
+  ![[ナビゲーション] ウィンドウを表示している Power BI サービスのスクリーンショット。](media/service-basic-concepts/power-bi-navigation.png)
 
 * [データセット、レポート、ダッシュボードを Power BI に追加する](../connect-data/service-get-data.md)には、 **[データの取得]** を選びます。
-* ナビ ペインを展開したり折りたたんだりするには、次のアイコンを使用します: ![ナビ ペイン アイコン](media/service-basic-concepts/expand-icon.png).
+* ナビ ペインを展開したり折りたたんだりするには、次のアイコンを使用します: ![[ナビゲーション] ウィンドウのアイコンを表示している Power BI サービスのスクリーンショット。](media/service-basic-concepts/expand-icon.png).
 * お気に入りのコンテンツを開いたり管理したりするには、 **[お気に入り]** を選びます。
 * 最近アクセスしたコンテンツを表示して開くには、 **[最近]** を選びます。
 * アプリを表示したり、開いたり、削除したりするには、 **[アプリ]** を選びます。
@@ -203,7 +204,7 @@ Power BI ではブックを編集できません。 しかし、変更を加え�
 
 ダッシュボードは、[タイル](../create-reports/service-dashboard-tiles.md)で構成されます。  タイルは、レポートの編集ビュー、Q&A、他のダッシュボードで作成され、Excel、SSRS などからピン留めできます。 [ウィジェット](../create-reports/service-dashboard-add-widget.md)と呼ばれる特別な種類のタイルがダッシュボードに直接追加されます。 ダッシュボードに表示されるタイルは、レポートの作成者/所有者によってそこに配置されています。  ダッシュボードにタイルを追加する動作は、 *ピン留め*と呼ばれます。
 
-![Power BI ダッシュボードのキャンバス](media/service-basic-concepts/canvas.png)
+![ダッシュボード キャンバスを表示している Power BI サービスのスクリーンショット。](media/service-basic-concepts/canvas.png)
 
 詳しくは、前の「[ダッシュボード](#dashboards)」をご覧ください。
 
@@ -212,36 +213,36 @@ Power BI ではブックを編集できません。 しかし、変更を加え�
 
 Q&A は、ダッシュボードに接続されたデータセットで回答を検索します。  接続されたデータセットとは、ダッシュボードに 1 つ以上のタイルが固定されているものです。
 
-![Q&A 質問ボックス](media/service-basic-concepts/power-bi-qna.png)
+![Q&A 質問ボックスを表示している Power BI サービスのスクリーンショット。](media/service-basic-concepts/power-bi-qna.png)
 
 Q&A では、質問の入力を開始するとすぐに Q&A ページが表示されます。 入力中に Q&A は言い直し、オートコンプリート、候補表示などの方法により、正しく質問して最適な回答を得られるように支援します。 求めている視覚エフェクト (回答) を得ることができたら、それをダッシュボードにピン留めします。 詳しくは、「[Power BI での Q&A](../consumer/end-user-q-and-a.md)」をご覧ください。
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4.**黒いヘッダー バーのアイコン**
 右上隅のアイコンは、設定、通知、ダウンロード、ヘルプの表示、 **[新しい外観]** のオン/オフ、Power BI チームへのフィードバックの送信を行うためのリソースです。  
 
-![アイコンのボタン](media/service-basic-concepts/power-bi-icons.png)
+![複数のアイコン ボタンを表示している Power BI サービスのスクリーンショット。](media/service-basic-concepts/power-bi-icons.png)
 
 ### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5.**ダッシュボード タイトル** (ナビゲーション パス、または階層リンク)
 アクティブになっているワークスペースやダッシュボードがわかりにくい場合があるため、Power BI ではナビゲーション パスが作成されます。  この例では、ワークスペース (マイ ワークスペース) とダッシュボードのタイトル (Retail Analysis Sample) が表示されています。  レポートが開かれている場合は、レポートの名前がナビゲーション パスの末尾に追加されます。  パスの各セクションは、アクティブなハイパーリンクになっています。  
 
 ダッシュボードのタイトルの後にある [C] というアイコンに注意してください。 このダッシュボードには、"confidential (機密)" の[データ分類タグ](../create-reports/service-data-classification.md)が設定されています。 タグは、データの秘密度とセキュリティ レベルを示します。 管理者がデータの分類を有効にしている場合、すべてのダッシュボードに既定のタグが設定されます。 ダッシュボードの所有者は、ダッシュボードの適切なセキュリティ レベルと一致するようにタグを変更する必要があります。
 
-![データ分類タグ アイコン](media/service-basic-concepts/power-bi-title.png)
+![[データ分類] アイコンを表示している Power BI サービスのスクリーンショット。](media/service-basic-concepts/power-bi-title.png)
 
 ### <a name="6-microsoft-365-app-launcher"></a>6.**Microsoft 365 アプリ起動ツール**
 アプリ起動ツールを使うと、すべての Microsoft 365 アプリを 1 回のクリックで簡単に利用できます。 ここからは、メール、ドキュメント、予定表などをすばやく起動できます。
 
-![Office アプリ起動ツール](media/service-basic-concepts/power-bi-waffle.png)
+![Office アプリ起動ツールを表示している Power BI サービスのスクリーンショット。](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7.**Power BI ホーム**
 **[Power BI]** を選ぶと、Power BI のホームに戻ることができます。
 
-   ![サービスの "Power BI"](media/service-basic-concepts/version-new.png)
+   ![Power BI のホームに戻るアイコンを表示している Power BI サービスのスクリーンショット。](media/service-basic-concepts/version-new.png)
 
 ### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8.**灰色のメニュー バーのラベル付きアイコン**
 画面のこの領域には、コンテンツ (この場合はダッシュボード) を操作するための他のオプションが表示されます。  ラベルの付いたアイコン以外にも、 **[その他のオプション (...)]** を選択すると、ダッシュボードの複製、印刷、更新などのオプションが開きます。
 
-   ![ラベルの付いたアイコン ボタン](media/service-basic-concepts/power-bi-labeled-icons.png)
+   ![ラベル付きアイコン ボタンを表示している Power BI サービスのスクリーンショット。](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>次の手順
 - [Power BI とは?](power-bi-overview.md)  

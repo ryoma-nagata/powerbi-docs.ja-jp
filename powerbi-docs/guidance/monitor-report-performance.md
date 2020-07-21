@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279022"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216603"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI でレポートのパフォーマンスを監視する
 
@@ -35,7 +35,7 @@ Power BI Desktop で[クエリ診断](/power-query/QueryDiagnostics)を使用し
 > [!NOTE]
 > 現在、クエリ診断はプレビュー機能であるため、 _[オプションと設定]_ で有効にする必要があります。 有効にすると、そのコマンドを [Power Query エディター] ウィンドウで、 **[ツール]** リボン タブから使用できるようになります。
 
-![[Power Query エディター] の [ツール] リボン タブを示す画像。リボンには、[ステップを診断する] コマンド、[診断の開始] コマンド、および [診断の停止] コマンドが表示されています。](media/monitor-report-performance/power-query-diagnotics.png)
+![[Power Query エディター] の [ツール] リボン タブのスクリーンショット。[ステップを診断する] コマンド、[診断の開始] コマンド、および [診断の停止] コマンドが表示されています。](media/monitor-report-performance/power-query-diagnotics.png)
 
 ## <a name="use-performance-analyzer"></a>パフォーマンス アナライザーを使用する
 

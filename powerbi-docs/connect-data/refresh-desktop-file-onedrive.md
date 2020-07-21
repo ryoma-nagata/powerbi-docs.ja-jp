@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 62beab136dce53c7a3412eb5e2a4ec6470d14ec2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2144cc7460ea2eff84bbcc1e93f02c99d650b35
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220910"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216367"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive または SharePoint Online に格納されているデータセットを更新する
 OneDrive または SharePoint Online から Power BI サービスへのファイルのインポートは、Power BI Desktop での作業と Power BI サービスとの同期を確実に維持するための優れた方法です。
@@ -25,11 +25,11 @@ Power BI Desktop ファイルを OneDrive または SharePoint Online に保存�
 
 **[ホーム]** リボンの **[更新]** を選択して、1 回限りの手動更新を Power BI Desktop で実行することができます。 **[更新]** を選択すると、ファイルのモデルが、元のデータ ソースの更新されたデータで最新に更新されます。 この種の更新は、完全に Power BI Desktop アプリケーション自体から行われます。 Power BI での手動またはスケジュールされた更新とは異なるため、違いを理解することが重要です。
 
-![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
+![Power BI Desktop の [ホーム] リボンのスクリーンショット。ここから更新できます。](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
 OneDrive または SharePoint Online から Power BI Desktop ファイルをインポートすると、データおよびモデルの情報が Power BI のデータセットに読み込まれます。 Power BI サービス内のデータセットは、レポートの基準となるため、最新の情報に更新する必要があります。 データ ソースは外部であるため、 **[今すぐ更新]** を使用してデータセットを手動で更新するか、または **[更新のスケジュール設定]** を使用して更新スケジュールを設定することができます。 
 
-![](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
+![Power BI Desktop のデータセットのスクリーンショット。[更新のスケジュール設定] を選択できます。](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
 
 データセットを更新しても、Power BI は OneDrive または SharePoint Online のファイルに接続して更新されたデータのクエリを実行しません。 データセットの情報を使用してデータ ソースに直接接続し、更新されたデータのクエリを実行します。 次に、そのデータをデータセットに読み込みます。 データセットのこの更新データは、OneDrive または SharePoint Online 上のファイルに再度同期されることはありません。
 
@@ -56,9 +56,9 @@ Power BI では、 **[データの取得]** または **[クエリ エディタ�
 
 Power BI の OneDrive for Business に接続するとき、Power BI アカウントは多くの場合、OneDrive for Business アカウントと同じアカウントであるため、接続は簡単です。 個人用の OneDrive では、通常、異なる [Microsoft アカウント](https://account.microsoft.com)を使用してサインインします。
 
-Microsoft アカウントにサインインしたら、必ず **[サインアウトしない]** を選択してください。 これで、Power BI が Power BI Desktop のファイルに行ったすべての変更を Power BI のデータセットに同期できるようになります。
+Microsoft アカウントにサインインしたら、必ず **[サインアウトしない]** を選択してください。 これで、Power BI Desktop のファイルに行ったすべての変更を、Power BI が Power BI のデータセットに同期できるようになります。
 
-![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
+![[サインイン] ダイアログボックスのスクリーンショット。[サインアウトしない] チェックボックスがオンになっています。](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Microsoft 資格情報を変更した場合は、OneDrive のファイルと Power BI のデータセットの間で変更を同期することはできません。 OneDrive に接続して、そこからファイルを再度インポートする必要があります。
 

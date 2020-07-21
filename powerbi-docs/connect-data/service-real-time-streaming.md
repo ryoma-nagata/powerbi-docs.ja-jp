@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2679e9fa21b193fa4c19384c2bd7d22660cf657a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0472baffa765f1a1e7d39e365e40a1f596472a16
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235800"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264395"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI のリアルタイム ストリーミング
 Power BI のリアルタイム ストリーミングでは、データをストリームし、リアルタイムでダッシュボードを更新できます。 Power BI で作成可能なビジュアルやダッシュボードは、リアルタイムのデータやビジュアルを表示し、更新するためにも作成できます。 工場のセンサー、ソーシャル メディア ソース、サービス利用指標、および時間依存データの回収元または転送元となるあらゆるものがストリーミング データのデバイスとソースになります。
 
-![リアルタイムの環境センサーの結果を示すスクリーンショット。](media/service-real-time-streaming/real-time-streaming-10.png)
+![環境センサー ダッシュボードのスクリーンショット。データの結果がリアルタイムで表示されています。](media/service-real-time-streaming/real-time-streaming-10.png)
 
 この記事では、Power BI でリアルタイム ストリーミング データセットを設定する方法について説明します。 設定方法に入る前に、タイル (およびダッシュボード) に表示されるように設計されたリアルタイム データセットの種類と、それぞれの違いについて理解しておくことが重要です。
 
@@ -61,7 +61,7 @@ Power BI のリアルタイム ストリーミングでは、データをスト�
 ### <a name="streaming-dataset-matrix"></a>ストリーミング データセットのマトリックス
 次の表 (またはマトリックス) は、リアルタイム ストリーミング用の 3 種類のデータセットを示し、それぞれの機能と制限事項について一覧表示したものです。
 
-![](media/service-real-time-streaming/real-time-streaming_11.png)
+![テーブルのスクリーンショット。ストリーミング データセットのマトリックスが表示されています。](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
 > プッシュ可能なデータ量を規定した**プッシュ**制限については、[こちらの記事](../developer/automation/api-rest-api-limitations.md)を参照してください。
@@ -92,11 +92,11 @@ REST API に対する要求はすべて、**Azure AD OAuth** によってセキ�
 ### <a name="using-the-streaming-dataset-ui-to-push-data"></a>ストリーミング データセット UI を使用する
 Power BI サービスでは、次の図に示すように **API** による方法を選択してデータセットを作成できます。
 
-![](media/service-real-time-streaming/real-time-streaming_0b.png)
+![[新しいストリーミング データセット] の選択のスクリーンショット。API の選択肢が表示されています。](media/service-real-time-streaming/real-time-streaming_0b.png)
 
 新しいストリーミング データセットを作成する場合は、下図に示すように **[履歴データの解析]** を有効にするオプションを選択することができます。これは、動作に大きく影響します。
 
-![](media/service-real-time-streaming/real-time-streaming_0c.png)
+![[新しいストリーミング データセット] のスクリーンショット。[履歴データの解析] が有効になっていることが示されています。](media/service-real-time-streaming/real-time-streaming_0c.png)
 
 **[履歴データの解析]** が無効になっている場合 (既定では無効)、この記事で前述したように**ストリーミング データセット**を作成します。 **[履歴データの解析]** が *有効* になっている場合、作成されるデータセットは、 **ストリーミング データセット** と **プッシュ データセット** を併せ持つものとなります。 これは、Power BI REST API で、 *defaultMode* を *pushStreaming* に設定してデータセットを作成する方法 (前記参照) と同じです。
 
@@ -125,19 +125,19 @@ Azure Stream Analytics では、Power BI REST API を使用し、 *defaultMode* 
 
 いずれを選択した場合でも、Power BI で**ストリーミング データ**を設定する必要があります。 これを設定するには、ダッシュボードで (既存のダッシュボードまたは新しいダッシュボード)、 **[タイルを追加]** を選択し、 **[カスタム ストリーミング データ]** を選択します。
 
-![](media/service-real-time-streaming/real-time-streaming_1.png)
+![ダッシュボードのスクリーンショット。[タイルを追加] セクションで [カスタム ストリーミング データ] が選択されています。](media/service-real-time-streaming/real-time-streaming_1.png)
 
 ストリーミング データをまだ設定していなくても問題ありません。 **[データの管理]** を選択して開始できます。
 
-![](media/service-real-time-streaming/real-time-streaming_2.png)
+![ダッシュボードのスクリーンショット。[カスタム ストリーミング データ タイルの追加] タイルの [データの管理] リンクが表示されています。](media/service-real-time-streaming/real-time-streaming_2.png)
 
 このページでは、ストリーミング データを既に作成している場合、(テキスト ボックスに) そのエンドポイントを入力できます。 ストリーミング データセットをまだ用意していない場合、右上隅のプラス記号アイコン ( **+** ) を選択すると、ストリーミング データセットの作成オプションが表示されます。
 
-![](media/service-real-time-streaming/real-time-streaming_3.png)
+![ダッシュボードのスクリーンショット。ストリーミング データセットのエンドポイントを入力する方法とプラス記号アイコンへのポインターが示されています。](media/service-real-time-streaming/real-time-streaming_3.png)
 
 **+** アイコンをクリックすると、2 つのオプションが表示されます。
 
-![](media/service-real-time-streaming/real-time-streaming_4a.png)
+![[新しいストリーミング データセット] の選択肢のスクリーンショット。API と PubNub オプションが表示されています。](media/service-real-time-streaming/real-time-streaming_4a.png)
 
 次のセクションでは、この 2 つのオプション、ストリーミング **タイル**の作成方法、ストリーミング データ ソースから (後にレポートの作成に利用できる) **データセット**を作成する方法について説明します。
 
@@ -152,7 +152,7 @@ Power BI で利用し、視覚化できるリアルタイム ストリーミン�
 ### <a name="using-the-power-bi-rest-api"></a>POWER BI REST API を使用する
 **Power BI REST API** - Power BI REST API は機能強化され、開発者にとってリアルタイム ストリーミングが簡単になりました。 **[新しいストリーミング データセット]** ウィンドウで **[API]** を選択すると、ストリーミング データセットを作成し、Power BI を有効にしてエンドポイントを使用できます。
 
-![](media/service-real-time-streaming/real-time-streaming_5.png)
+![[新しいストリーミング データセット] ダイアログのスクリーンショット。接続用の Power BI REST API のエントリが表示されています。](media/service-real-time-streaming/real-time-streaming_5.png)
 
 このデータ ストリーム経由で送信されるデータを保存するように Power BI を設定するには、 *[履歴データの解析]* を有効にします。集めたデータ ストリームでレポート作成や分析を実行できます。 API に関する説明は[ここ](https://docs.microsoft.com/rest/api/power-bi/)にあります。
 
@@ -163,7 +163,7 @@ Power BI で利用し、視覚化できるリアルタイム ストリーミン�
 ### <a name="using-pubnub"></a>PubNub を使用する
 **PubNub** ストリーミングと Power BI を統合すると、待機時間の短い **PubNub** データ ストリームを使用し (あるいは新規作成し)、それを Power BI で使用できます。 **[PubNub]** を選択し、 **[次へ]** を選択すると、次のウィンドウが表示されます。
 
-![](media/service-real-time-streaming/real-time-streaming_7.png)
+![[新しいストリーミング データセット] ダイアログのスクリーンショット。接続用の PubNub エントリが表示されています。](media/service-real-time-streaming/real-time-streaming_7.png)
 
 > [!WARNING]
 > PubNub Access Manager (PAM) の認証キーを使って、PubNub チャネルを保護することができます。 このキーは、ダッシュボードにアクセスできるすべてのユーザーと共有されます。 [PubNub のアクセス制御の詳細に関するページ](https://www.pubnub.com/docs/web-javascript/pam-security)をご覧ください。
@@ -179,7 +179,7 @@ Power BI におけるリアルタイム ストリーミングの動作は、簡�
 
 1. **[Power BI サービス]** で、ダッシュボードを選択し (または新しく作成し)、 **[タイルを追加]**  >  **[カスタム ストリーミング データ]** を選択し、 **[次へ]** ボタンを選択します。
    
-   ![](media/service-real-time-streaming/real-time-streaming_1.png)
+   ![[タイルを追加] を示すダッシュボードのスクリーンショット。[カスタム ストリーミング データ] が選択されています。](media/service-real-time-streaming/real-time-streaming_1.png)
 2. ストリーミング データ ソースをまだ用意していない場合、 **[データの管理]** リンク ( **[次へ]** ボタンの真上) を選択し、ウィンドウの右上にあるリンクから **[+ Add streaming data]** (+ ストリーミング データの追加) を選択します。 **[PubNub]** を選択し、 **[次へ]** を選択します。
 3. データセットの名前を作成し、表示されたウィンドウに次の値を貼り付け、 **[次へ]** を選択します。
    
@@ -190,13 +190,13 @@ Power BI におけるリアルタイム ストリーミングの動作は、簡�
    
        pubnub-sensor-network
    
-   ![](media/service-real-time-streaming/real-time-streaming_8.png)
+   ![[新しいストリーミング データセット] ダイアログのスクリーンショット。[データセット名] と、[サブキー] と [チャネル名] の各フィールドにエントリを作成する方法が示されています。](media/service-real-time-streaming/real-time-streaming_8.png)
 4. 次のウィンドウでは既定値 (自動的に入力されます) を選択し、 **[作成]** をクリックします。
    
-   ![](media/service-real-time-streaming/real-time-streaming_9.png)
+   ![[新しいストリーミング データセット] ダイアログのスクリーンショット。ストリーム フィールドのデータセット名と値の既定値が表示されています。](media/service-real-time-streaming/real-time-streaming_9.png)
 5. Power BI ワークスペースに戻り、新しいダッシュボードを作成し、タイルを追加します (上記の手順を参照してください)。 タイルを作成し、 **[カスタム ストリーミング データ]** を選択すると、ストリーミング データが与えられます。 いろいろ試してみてください。 線グラフに *数値* フィールドを追加し、他のタイルを追加すると、次のようなリアルタイム ダッシュボードが完成します。
    
-   ![リアルタイムの環境センサーの結果を示すスクリーンショット。](media/service-real-time-streaming/real-time-streaming-10.png)
+   ![環境センサー ダッシュボードのスクリーンショット。結果がリアルタイムで表示されています。](media/service-real-time-streaming/real-time-streaming-10.png)
 
 サンプルのデータセットでいろいろ試してみてください。 その後は独自のデータセットを作成し、ライブ データを Power BI にストリームしてください。
 

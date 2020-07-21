@@ -6,17 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b8fddd6b88effac3375840dd6034ca93cec52f12
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd0dd3b91109e63e5481e2f5e5516fd9ecd245c
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238309"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385977"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI サービスから Power BI Desktop にレポートをダウンロードする (プレビュー)
+      
 Power BI Desktop では、ローカル コンピューターから Power BI サービスにレポート ( *.pbix* ファイル) を発行できます。 Power BI レポートは反対の方向に発行することもできます。Power BI サービスから Power BI Desktop にレポートをダウンロードできます。 いずれの場合も、Power BI レポートの拡張子は .pbix です。
 
 この記事のセクション「[考慮事項とトラブルシューティング](#considerations-and-troubleshooting)」で説明している、いくつかの制限事項に留意してください。
@@ -46,6 +47,7 @@ Power BI Desktop では、ローカル コンピューターから Power BI サ�
     ![Power BI Desktop レポート エディター](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
+
 Power BI サービスから .pbix ファイルをダウンロードすることに関しては、重要な考慮事項と制限事項がいくつかあります。
 
 * ファイルをダウンロードするには、レポートの編集アクセス権限が必要です。
@@ -55,9 +57,12 @@ Power BI サービスから .pbix ファイルをダウンロードすること�
 * ダウンロードしたファイルを開くときは常に最新バージョンの Power BI Desktop を使用してください。 最新バージョンではない Power BI Desktop では、ダウンロードした .pbix ファイルを開くことができない場合があります。
 * データをダウンロードする機能を管理者が無効にしている場合、この機能は Power BI サービスに表示されません。
 * 増分更新を使用しているデータセットは .pbix ファイルにダウンロードできません。
+* [大規模なモデル](../admin/service-premium-large-models.md)に対して有効になっているデータセットは、.pbix ファイルにダウンロードできません。
+* [XMLA エンドポイント](../admin/service-premium-connect-tools.md)を使用して変更されたデータセットは、.pbix ファイルにダウンロードできません。
 * あるワークスペース内のデータセットに基づいて Power BI レポートを作成してから別のワークスペースに発行した場合、お客様とお客様のユーザーはそれをダウンロードできなくなります。 このシナリオでのダウンロード機能は現在サポートされていません。
 
 ## <a name="next-steps"></a>次の手順
+
 この機能に関しては、**Guy in a Cube** の簡単なビデオをご覧ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ymWqU5jiUl0" frameborder="0" allowfullscreen></iframe>

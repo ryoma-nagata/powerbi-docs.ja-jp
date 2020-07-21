@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ce5c57173cb5676a78bb3b77b1baaf2409062cc1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a551df2fb8ec668a9d8d29bdb8cdb37f9bb1652c
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220427"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264860"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>モバイル デバイスから Power BI QR コードをスキャンする
 適用対象:
 
 | ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android フォン](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android タブレット](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-|iPhones |iPad |Android フォン |Android タブレット |
+|iPhone |iPad |Android フォン |Android タブレット |
 
 Power BI の QR コードは、実際の任意の項目を、関連する BI 情報に直接接続できます。ナビゲーションや検索の必要はありません。
 
@@ -37,16 +37,16 @@ Power BI アプリのスキャナーや電話にインストールされてい�
 
 1. ナビゲーション バーの **[その他のオプション]** (...) をタップし、 **[スキャナー]** をタップします。
 
-    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+    ![ナビゲーション ウィンドウの [その他のオプション] のスクリーンショット。スキャナー選択があります。](media/mobile-apps-qr-code/power-bi-scanner.png)
 
 2. カメラが有効になっていない場合は、Power BI アプリでカメラを使用することを承認する必要があります。 これは、1 回限りの承認です。 
  
 3. Power BI QR コードにスキャナーをポイントします。 
    
-    ![](media/mobile-apps-qr-code/power-bi-align-qr-code.png)
+    ![ニュース印刷物のスクリーンショット。スキャナーが Power BI QR コードをとらえています。](media/mobile-apps-qr-code/power-bi-align-qr-code.png)
 4. タイルまたはレポートは、Augmented Reality でバックグラウンド上に表示されるように見えます。
    
-    ![](media/mobile-apps-qr-code/power-bi-ios-qr-ar-scanner.png)
+    ![レポートのスクリーンショット。ニュース印刷物の上にレポートが浮いています。](media/mobile-apps-qr-code/power-bi-ios-qr-ar-scanner.png)
 
 5. レポートまたはタイルをタップしてフォーカス モードで開くか、スキャナーに戻ります。
 
@@ -58,24 +58,24 @@ Power BI アプリのスキャナーや電話にインストールされてい�
 
 1. ナビゲーション バーの **[その他のオプション]** (...) をタップし、 **[スキャナー]** をタップします。
 
-    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+    ![ナビゲーション ウィンドウの [その他のオプション] のスクリーンショット。スキャナー選択があります。](media/mobile-apps-qr-code/power-bi-scanner.png)
 
 2. カメラが有効になっていない場合は、Power BI アプリでカメラを使用することを承認する必要があります。 これは、1 回限りの承認です。 
 
 3. Power BI QR コードにスキャナーをポイントします。 
    
-    ![](media/mobile-apps-qr-code/pbi_iph_qrscan.png)
+    ![QR スキャナーのスクリーンショット。スキャナーが Power BI QR コードをとらえています。](media/mobile-apps-qr-code/pbi_iph_qrscan.png)
 4. タイルまたはレポートは、Power BI で自動的に開きます。
    
-    ![](media/mobile-apps-qr-code/power-bi-android-tile.png)
+    ![営業案件数レポートのスクリーンショット。月と営業ステージに基づく縦棒グラフが表示されています。](media/mobile-apps-qr-code/power-bi-android-tile.png)
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Android デバイスの外部スキャナーからの QR コードのスキャン
 1. Android デバイスにインストールされているスキャナーから、タイルまたはレポートにただちにアクセスするには、関連する Power BI QR コードにスキャナーをポイントします。 
 2. Power BI アプリをインストールしていない場合は [Google Play にリダイレクトされるので、そこでアプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)します。 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [モバイル アプリで現実世界から Power BI データに接続する](mobile-apps-data-in-real-world-context.md)
 * [Power BI サービスでタイルの QR コードを作成する](../../create-reports/service-create-qr-code-for-tile.md)
 * [Power BI サービスでレポートの QR コードを作成する](../../create-reports/service-create-qr-code-for-report.md)
 * [Power BI for Mixed Reality アプリで QR コードをスキャンする](mobile-mixed-reality-app.md)こともできます。
-* ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

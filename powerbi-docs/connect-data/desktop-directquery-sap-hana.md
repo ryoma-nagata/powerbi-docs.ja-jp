@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f121d4fb4e60fc29ef887d27c148aa3063dcee82
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4d2c48f39fff9cd55243848b2ee62d05f9d5db00
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223684"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216382"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Power BI で DirectQuery を使用して SAP HANA データ ソースに接続する
 **SAP HANA** データ ソースへは、**DirectQuery** を使用して直接接続することが可能です。 SAP HANA には 2 つの方法で接続できます。
@@ -25,7 +25,7 @@ ms.locfileid: "85223684"
 
 接続方法はグローバル ツール オプションによって決定されます。これは次の画像のように、 **[ファイル] > [オプションと設定]** 、 **[オプション] > [DirectQuery]** の順に選択し、 **[SAP HANA をリレーショナル ソースとして扱う]** オプションをオンにすることで設定します。 
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_01a.png)
+![[オプション] ダイアログのスクリーンショット。DirectQuery オプションが表示されています。](media/desktop-directquery-sap-hana/directquery-sap-hana_01a.png)
 
 SAP HANA をリレーショナル ソースとして扱うオプションは、SAP HANA を介して DirectQuery を使う "*新しい*" レポートに対して使われる方法を制御します。 現在のレポートの既存の SAP HANA 接続に影響を与えることはありません。開いている他のレポートの接続に影響を与えることもありません。 そのため、このオプションが現在選択されていない場合、 **[データを取得]** を使って SAP HANA に新しい接続を追加すると、その接続では SAP HANA が多次元ソースとして扱われます。 ただし、SAP HANA にも接続する別のレポートが開かれている場合、そのレポートは、"*作成時に*" 設定されたオプションに従って引き続き動作します。つまり、SAP HANA に接続しているすべてのレポートは、2018 年 2 月より前に作成された場合、SAP HANA は引き続きリレーショナル ソースとして扱われます。 
 
@@ -67,7 +67,7 @@ DirectQuery を使用して SAP HANA に接続する (多次元ソースとし�
 * **メジャーのその他の制限:** メジャーで使用できる、SAP HANA のサポート レベルを反映する DAX 式の制限がこの他にもあります。
 * **リレーションシップ定義のサポートがない:** 1 つのレポート内では、1 つのビューにのみクエリを実行できます。そのため、リレーションシップ定義はサポートされていません。
 * **データ ビューがない:** **[データ ビュー]** は、通常詳細レベル データをテーブルに表示します。 SAP HANA などの OLAP ソースの性質から、このビューは SAP HANA では使用できません。
-* **列とメジャーの詳細は固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりできません (ただし、名前変更は可能です)。
+* **列とメジャーの詳細が固定:** フィールド リストにある列とメジャーの一覧は、基になるソースによって固定されており、変更できません。 たとえば、列を削除したり、そのデータ型を変更したりできません (ただし、名前変更は可能です)。
 * **DAX のその他の制限:** メジャーの定義で使用できる DAX には、ソースの制限と一致する制限がこの他にもあります。 たとえば、テーブルに集計関数は使用できません。
 
 ### <a name="additional-visualization-restrictions"></a>視覚エフェクトのその他の制限
@@ -84,7 +84,7 @@ DirectQuery を使用して SAP HANA に接続する (多次元ソースとし�
 
 **[データの取得]** または **[クエリ エディター]** で定義したクエリで集計を実行するとき、SQL Server など、リレーショナル ソースの動作を最初に確認することをお勧めします。 次の例では、 **[クエリ エディター]** で定義したクエリは、*ProductID* での平均価格を返しています。  
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_01.png)
+![ProductID 別に平均価格を返すクエリが [クエリ エディター] で定義されていることを示す図。](media/desktop-directquery-sap-hana/directquery-sap-hana_01.png)
 
 データが (DirectQuery ではなく) Power BI にインポートされる場合、次の結果になります。
 
@@ -112,7 +112,7 @@ DirectQuery を使用して SAP HANA に接続する (多次元ソースとし�
   
 例を見てみましょう。 次の例では、 **[データの取得]** ダイアログ ボックスで 5 つ列 (**CalendarQuarter**、**Color**、**LastName**、**ProductLine**、**SalesOrderNumber**) をメジャー *OrderQuantity* と共に選択した場合、後で作成する Min OrderQuantity を含む単純なビジュアルには、次の SAP HANA への SQL クエリが含まれることを意味します。 灰色の部分は、 **[データの取得]**  /  **[クエリ エディター]** からのクエリを含むサブセレクトです。 このサブセレクトにより結果のカーディナリティが多くなる場合、結果の SAP HANA のパフォーマンスが低下する可能性があります。  
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
+![クエリ例のスクリーンショット。SAP HANA に SQL クエリを実行しています。](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
 
    
 この動作のため、 **[データの取得]** または **[クエリ エディター]** で選択するアイテムは、それが結果として SAP HANA で妥当なクエリとなる、必要なもののみに制限することをお勧めします。  
@@ -141,11 +141,11 @@ SAP HANA に接続するためのいずれの手法でも、DirectQuery の使�
 
 * **1 つの SAP HANA 列から複数の Power BI 列** - 一部の計算ビューで、複数の階層で 1 つの SAP HANA 列が使用されるとき、SAP HANA はこれを 2 つの別々の属性として表示します。 結果的に、Power BI で 2 つの列が生成されます。  ただし、このような列は既定で非表示になります。階層を伴うか、列を直接伴うクエリはすべて正しく動作します。 
  
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 DirectQuery の詳細については、次のリソースを参照してください。
 
 * [Power BI の DirectQuery](desktop-directquery-about.md)
 * [DirectQuery でサポートされるデータ ソース](power-bi-data-sources.md)
 * [DirectQuery と SAP BW](desktop-directquery-sap-bw.md)
-* [オンプレミス データ ゲートウェイ](service-gateway-onprem.md)
+* [On-premises data gateway (オンプレミス データ ゲートウェイ)](service-gateway-onprem.md)

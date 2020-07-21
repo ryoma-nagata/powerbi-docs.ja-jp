@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: de20bc743c582d42d81f2d4c2544e3acf5f1b99c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234499"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264914"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS アプリの Q&A 仮想アナリスト - Power BI
 
@@ -49,40 +49,40 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 3. 「**表示**」と入力し、候補リストから **[sales]\(販売\)** をタップして、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
     ![Show sales (売り上げを表示する)](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. キーワードから **[by]** (グループ化) をタップし、候補リストから **[item]** (アイテム) をタップして、 **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+4. キーワードから **[by]\(グループ化\)** をタップし、候補リストから **[item]\(アイテム\)** をタップして、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
     ![項目別の売上](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. キーワードから **[as]** (として) をタップし、縦棒グラフアイコン ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) をタップして、 **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+5. キーワードから **[as]** (として) をタップし、縦棒グラフ アイコン ![グラフ アイコン](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) をタップして、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 6. 表示されたグラフを長押しし、 **[展開]** をタップします。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
+    ![[展開] を指すポインターが示されている、縦棒グラフのスクリーンショット。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
     アプリでグラフがフォーカス モードで開きます。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
+    ![グラフのフォーカス モードを示す縦棒グラフのスクリーンショット。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 左上隅にある矢印をタップして、Q&A 仮想アナリスト チャット ウィンドウに戻ります。
 8. テキストを削除して最初からやり直す場合は、テキスト ボックスの右側にある [X] をタップします。
-9. 新しい質問をしてみます。キーワードから **[top]\(上位\)** をタップし、 **[sale by avg $/unit ly]\(平均金額/ユニット別売上\)**  >  **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) の順にタップします。
+9. 新しい質問をしてみます。キーワードから **[top]\(上位\)** をタップし、 **[sale by avg $/unit ly]\(平均金額/ユニット別売上\)**  >  **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) の順にタップします。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. キーワードから **[by]** (グループ化) をタップし、候補リストから **[time]** (時間) をタップして、 **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+    ![ユニットあたりの平均金額別に上位売上を表示する質問のスクリーンショット。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
+10. キーワードから **[by]\(グループ化\)** をタップし、候補リストから **[time]\(時間\)** をタップして、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
-     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. 「**as**」 (として) と入力し、候補リストから折れ線グラフ アイコン ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) をタップして、 **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+     ![ユニットあたりの平均金額別に上位売上を時系列で示すグラフのスクリーンショット。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
+11. 「**as**」 (として) と入力し、候補リストから折れ線グラフ アイコン ![グラフ アイコン](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) をタップして、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
+    ![縦棒グラフから折れ線グラフへのポインターが示されている、縦棒と折れ線のグラフのスクリーンショット](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
 ## <a name="try-saying-your-questions"></a>音声で質問してみる
 Power BI モバイル アプリでは、キー入力の代わりに音声を使って、データに関する質問ができるようになりました。
 
 1. Q&A 仮想アナリスト アイコンをタップします。 ![Q&A 仮想アナリスト アイコン](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) をタップします。
-2. マイク アイコン ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png) をタップします。
+2. マイク アイコンをタップします ![マイク アイコン](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
+    ![マイクがアクティブになっていることを示す、質問のスクリーンショット。](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. マイク アイコンがアクティブになったら、音声入力を始めます。 たとえば、"時間ごとの平均単価" と言ってから、 **[送信]** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+1. マイク アイコンがアクティブになったら、音声入力を始めます。 たとえば、"時間ごとの平均単価" と言ってから、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
+    ![音声が完了したことを示す、質問のスクリーンショット。](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
 ### <a name="questions-about-privacy-when-using-speech-to-text"></a>音声テキスト変換を使うときのプライバシーに関する質問
 Apple iOS 開発者ガイドで、「[What's New in iOS](https://go.microsoft.com/fwlink/?linkid=845624)」(iOS の新機能) の音声認識に関するセクションをご覧ください。
@@ -91,7 +91,7 @@ Apple iOS 開発者ガイドで、「[What's New in iOS](https://go.microsoft.co
 * ヘルプが必要な場合は、 "Hi" (ハイ) または "Help" (ヘルプ) と話しかけると、新しい質問の開始に関するアシスタンスが表示されます。
 * 結果についてフィードバックする場合は、 グラフまたは他の結果を長押しし、笑顔またはしかめっ面をタップします。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
+    ![ポインターが笑顔を指しているフィードバックを示す、縦棒グラフのスクリーンショット。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
 
     お客様のフィードバックは匿名です。質問への回答の質を向上させるために利用させていただきます。
 

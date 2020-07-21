@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d74c6583197441d63cb6c7c40ba44a5b21885b28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 76c76cf5ae41c369e3810f3a52ee43816184d8e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219185"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263057"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Q&A からダッシュボードにタイルをピン留めする
 ## <a name="how-to-pin-a-tile-from-qa"></a>Q&A からタイルをピン留めする方法
@@ -32,7 +32,7 @@ Q&A は、Power BI のアドホック レポート作成ツールです。 特�
    ![質問の入力](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    入力と同時に [質問] ボックスに検索候補が表示されます。
-4. ダッシュボードにタイルとしてグラフを追加するには、質問ボックスの右側にあるピン ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) を選択します。 他のユーザーから共有を受けているダッシュボードの場合は、どの視覚エフェクトもピン留めできません。
+4. グラフをタイルとしてダッシュボードに追加するには、キャンバスの右上隅にあるピン ![ピン留めアイコン](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) を選択します。 他のユーザーから共有を受けているダッシュボードの場合は、どの視覚エフェクトもピン留めできません。
 
 5. タイルを既存のダッシュボードまたは新しいダッシュボードにピン留めします。
 
@@ -54,9 +54,9 @@ Q&A は、Power BI のアドホック レポート作成ツールです。 特�
 * 質問を入力し始めると、Q&A はすぐに、現在のダッシュボードに関連付けられているすべてのデータセットから最適な回答の検索を開始します。  "現在のダッシュボード" は、上部のナビ ペインに表示されているダッシュボードです。 たとえば、この質問は、 **[小売りの分析のサンプル]** ダッシュボードで入力しています。このダッシュボードは **mihart** ワークスペースの一部です。
 
   ![階層リンク](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
-* **Q&A が使用するデータセットを認識する方法**:   Q&A は、そのダッシュボードにピン留めされた視覚エフェクトが 1 つでもあるデータセットすべてにアクセスします。
+* **Q&A が使用するデータセットを認識する方法**:  Q&A は、そのダッシュボードにピン留めされた視覚エフェクトが 1 つでもあるデータセットすべてにアクセスします。
 
-* **質問ボックスが表示されない場合**:  Power BI 管理者に問い合わせてください。 管理者は Q&A 機能を無効にすることができます。
+* **質問ボックスが表示されない場合**: Power BI 管理者に問い合わせてください。 管理者は Q&A 機能を無効にすることができます。
 
 
 ## <a name="next-steps"></a>次の手順
