@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bd671e32167837a5b8b96388bb2687616e6cada5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228572"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214253"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI ワークスペースでデータ ストレージを管理する
 
@@ -48,21 +48,19 @@ Premium 容量のワークスペースの場合:
 
 共有ダッシュボードのサイズは、ピン留めされている項目に応じて異なります。 たとえば、2 つの異なるデータセットの一部である 2 つのレポートから項目をピン留めした場合は、2 つのデータセットがサイズに含まれます。
 
-<a name="manage"/>
-
 ## <a name="manage-items-you-own"></a>自分が所有する項目を管理する
 
 Power BI アカウントで使用しているデータ記憶域を確認して、アカウントを管理します。
 
 1. 自分の記憶域を管理するには、ナビゲーション ペインの **[マイ ワークスペース]** に移動します。
    
-    ![マイ ワークスペース](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+    ![[マイワークスペース] が強調表示されているナビゲーション ペインのスクリーンショット。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 
-2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> **[個人の記憶域の管理]** の順に選択します。
+2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)、 **[個人の記憶域の管理]** の順に選択します。
    
     上部のバーに、記憶域の上限のうちの使用量が表示されます。
    
-    ![記憶域の上限を管理する](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![記憶域の使用量が示されている、記憶域の上限を管理するスクリーンショット。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     データセットとレポートは、2 つのタブに分かれています。
    
@@ -74,14 +72,14 @@ Power BI アカウントで使用しているデータ記憶域を確認して�
 データセットが、自分や他のユーザーが作成したレポートやダッシュボードの基になっている可能性があることにご注意ください。 そのデータセットを削除してしまうと、これらのレポートやダッシュボードは機能しなくなります。
 
 ## <a name="manage-your-workspace"></a>自分のワークスペースを管理する
-1. **[ワークスペース]** の横にある矢印 \> ワークスペースの名前の順に選択します。
+1. **[ワークスペース]** の横にある矢印、ワークスペースの名前の順に選択します。
    
-    ![ワークスペースの選択](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> **[グループ ストレージの管理]** の順に選択します。
+    ![Sales グループ ワークスペースを表示しているワークスペースの選択のスクリーンショット。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. 右上隅にある![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)、 **[グループの記憶域の管理]** の順に選択します。
    
     上部のバーに、グループの記憶域の上限のうちの使用量が表示されます。
    
-    ![ワークスペースの記憶域を管理する](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Sales グループの記憶域の上限のうちの使用量が示されている、記憶域の管理のスクリーンショット。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     データセットとレポートは、2 つのタブに分かれています。
    
@@ -104,15 +102,15 @@ Power BI にインポートされるデータセットごとに 1 GB の制限�
 
 歯車アイコン ![歯車アイコン](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)を選択すると、データ容量の上限を超えていることを示す赤いバーが表示されます。
 
-![記憶域の上限に達しました](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![上限に達したことを示すストレージ容量のスクリーンショット。](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 この上限は、 **[パーソナル ストレージの管理]** 内でも表示されます。
 
- ![パーソナル ストレージの管理、記憶域の上限に達しました](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![Jane が上限に達したことを示すパーソナル ストレージ容量のスクリーンショット。](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- データ容量の上限を超えるアクションを実行しようとすると、上限を超えることを示すメッセージが表示されます。 記憶域を[管理](#manage)し、記憶域の量を減らしたり、上限を超えたりできます。
+ データ容量の上限を超えるアクションを実行しようとすると、上限を超えることを示すメッセージが表示されます。 [自分の記憶域を管理](#manage-items-you-own)し、記憶域の量を減らしたり、上限を超えたりできます。
 
- ![ストレージの上限を超えています](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![制限に達したことを示す [ストレージの上限を超えています] ダイアログのスクリーンショット。](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  ## <a name="next-steps"></a>次の手順
 

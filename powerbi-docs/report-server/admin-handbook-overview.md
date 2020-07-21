@@ -8,24 +8,24 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f292b8474c478c178b85f2c015781ead1fa503c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73860219"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86213813"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>管理の概要、Power BI Report Server
 この記事では、Power BI Report Server の管理の概要について説明します。Power BI Report Server は、Power BI レポート、モバイル レポート、およびページ分割されたレポートを格納および管理するためのオンプレミスの場所です。 この記事では、Power BI Report Server の計画、展開、管理の概念について説明します。また、詳細情報へのリンクが用意されています。
 
-![](media/admin-handbook-overview/admin-handbook.png)
-
+![サインイン オプションが表示されている Power BI Report Server のスクリーンショット。](media/admin-handbook-overview/admin-handbook.png)
+ 
 ## <a name="installing-and-migration"></a>インストールと移行
 Power BI Report Server の使用を開始するには、インストールする必要があります。 このタスクの処理方法を説明する記事があります。
 
 Power BI Report Server のインストール、アップグレードまたは移行を開始する前に、レポート サーバーの[システム要件](system-requirements.md)をご覧ください。
 
-### <a name="installing"></a>インストール
+### <a name="installing"></a>インストール中
 新しい Power BI レポート サーバーを展開する場合は、次のドキュメントが役立ちます。 
 
 [Power BI レポート サーバーのインストール](install-report-server.md)
@@ -43,7 +43,7 @@ SQL Server Reporting Services のインプレース アップグレードはあ�
 ## <a name="security"></a>セキュリティ
 セキュリティと保護は、すべての組織にとって重要です。 認証、承認、役割およびアクセス許可については、[セキュリティ](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)に関するドキュメントで学習することができます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート サーバーのプロダクト キーを検索する](find-product-key.md)  
 [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939464"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161378"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -62,7 +62,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 1. **メール アドレス**と**個人的なメッセージ**を入力します。
 
-    ![Azure AD Portal の [新しいゲスト ユーザー] ダイアログのスクリーン ショット。](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
+    ![電子メールとメッセージ フィールドが強調表示されている [新しいゲスト ユーザー] ダイアログのスクリーンショット。](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
 1. **[招待]** を選びます。
 
@@ -70,7 +70,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 ゲスト ユーザーは、受信した招待メール内で **[開始]** を選択する必要があります。 これで、ゲスト ユーザーが組織に追加されます。
 
-![ゲスト ユーザー宛ての招待メールのスクリーンショット。](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
+![[開始] が強調表示されたゲスト ユーザーの招待メールのスクリーンショット。](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
 ### <a name="ad-hoc-invites"></a>アドホック招待
 
@@ -80,7 +80,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 ゲスト ユーザーには、アプリをそのゲスト ユーザーと共有したことを示すメールが届きます。
 
-![ゲスト ユーザーと共有されたアプリに関する電子メールのスクリーンショット](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
+![アプリが共有されたときにゲスト ユーザーが受信する電子メールのスクリーンショット。](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
 ゲスト ユーザーは、自分の所属する組織の電子メール アドレスでサインインする必要があります。 サインイン後、招待を受け入れるよう求められます。 サインイン後、ゲスト ユーザーに対してアプリが開かれます。 アプリに戻るには、リンクをブックマークするか、電子メールを保存する必要があります。
 

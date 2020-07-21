@@ -6,15 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/19/2020
+ms.date: 07/01/2020
 ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 22e044f11b62d3375eabd97545070caaa0bbcfd7
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236553"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162000"
 ---
 # <a name="apps-in-power-bi"></a>Power BI のアプリ
 
@@ -27,10 +28,10 @@ ms.locfileid: "85236553"
 
 ご使用のアプリは、 **[アプリ]** コンテンツ リストにまとめられます。 アプリを表示するには、 **[アプリ]** を選択します。 アプリの上にマウス カーソルを移動すると、最後に更新された日付と所有者が表示されます。 
 
-![Power BI のアプリ](./media/end-user-apps/power-bi-apps.png)
+![Power BI のアプリ](./media/end-user-apps/power-bi-apps-red.png)
 
 
-アプリ機能を使用するには、Power BI Pro ライセンスが必要です。またはアプリを Premium 容量に格納する必要があります。 ライセンスと Premium 容量の詳細については、[コンシューマー向けライセンス](end-user-license.md)に関する記事を参照してください。
+アプリ機能を使用するには、Power BI Pro ライセンスが必要です。またはアプリを Premium 容量に格納して共有する必要があります。 ライセンスと Premium 容量の詳細については、[コンシューマー向けライセンス](end-user-license.md)に関する記事を参照してください。
 
 ## <a name="app-designers-and-app-consumers"></a>アプリの*デザイナー*とアプリの*コンシューマー*
 自分の役割によっては、自分用または仕事仲間と共有するアプリの作成者 ("*デザイナー*") である場合があります。 または、他のユーザーが作成したアプリを受け取り、ダウンロードするユーザー ("*コンシューマー*") である場合があります。 この記事は、アプリの*コンシューマー*を対象としています。
@@ -42,7 +43,14 @@ ms.locfileid: "85236553"
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>新しいアプリを取得する
-新しいアプリを取得する最善の方法は、[Power BI アプリ マーケットプレース](https://app.powerbi.com/groups/me/getapps/apps)を利用することです。
+新しいアプリの入手には、さまざまな方法があります。 アプリを検索し、見つけて、インストールできます。アプリの作成者はアプリを共有できます。 
+
+### <a name="find-and-install-apps-from-the-power-bi-apps-marketplace"></a>Power BI アプリ マーケットプレースでアプリを検索してインストールする
+アプリを検索する方法の 1 つとして、Power BI アプリの画面から **[アプリの取得]** を選択する方法があります。 
+
+![[アプリの取得] アイコンが表示されているアプリの画面のスクリーンショット](./media/end-user-apps/power-bi-get-apps-icon.png)
+
+インストールするアプリが見つかるまで、Power BI Apps Marketplace にあるアプリのリストを参照します。 社内の人だけが使用できる**組織のアプリ**から選択するか、またはすべての Power BI ユーザーがインストールできるように Microsoft およびコミュニティによって発行されている**テンプレート アプリ**を選択します。 
 
 ![Power BI アプリ マーケットプレース](./media/end-user-apps/power-bi-app-marketplace.png)
 
@@ -50,7 +58,7 @@ ms.locfileid: "85236553"
 
 * アプリ デザイナーによって、アプリが自分の Power BI アカウントに自動的にインストールされ、次回、Power BI サービスを開いたときに、新しいアプリが **[アプリ]** コンテンツ リストに表示されます。 
 * アプリ デザイナーでは、ユーザーにアプリへの直接リンクを送信することができます。 このリンクを選択すると、アプリが Power BI サービスで開きます。
-* モバイル デバイスの Power BI では、直接リンクからのみアプリをインストールできます。AppSource からはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。 
+* モバイル デバイスの Power BI では、直接リンクからのみアプリをインストールできます。アプリ マーケットプレースからはインストールできません。 アプリの作成者が自動的にアプリをインストールした場合は、アプリの一覧に表示されます。 
 
 ## <a name="next-steps"></a>次の手順
 * [アプリを開いて操作する](end-user-app-view.md)

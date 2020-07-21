@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5a84d46743522a9070c4cd9b16f7a540e3c103df
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5028e4aaa1bbb864f14c3f3cdb58d136275e5fc
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228627"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161240"
 ---
 # <a name="close-your-power-bi-account"></a>Power BI アカウントを閉じることができるようになりました
 
@@ -34,7 +34,7 @@ Power BI を使用しなくなった場合は、Power BI アカウントを削�
 
 1. アカウントを削除する理由を選択します (1)。 詳細情報も提供できます (2)。 それから、 **[アカウントの使用の停止]** を選択します。
 
-    ![[アカウントの削除] オプションが強調して示されている [アカウントの削除] ダイアログのスクリーンショット。](media/service-admin-closing-your-account/close-account-settings-3.png)
+    ![アカウントを削除するための詳細情報を提供するフィールドが表示されている [アカウントの削除] ダイアログのスクリーンショット。](media/service-admin-closing-your-account/close-account-settings-3.png)
 
 1. アカウントの使用を停止することを確認します。
 
@@ -42,12 +42,12 @@ Power BI を使用しなくなった場合は、Power BI アカウントを削�
 
     Power BI によってアカウントが削除されたことの確認が表示されます。 必要な場合は、ここからアカウントを再度開くことができます。
 
-    ![[アカウントは削除されました] ダイアログのスクリーンショット。](media/service-admin-closing-your-account/close-account-settings-5.png)
+    ![[アカウントは削除されました] 確認ダイアログのスクリーンショット。](media/service-admin-closing-your-account/close-account-settings-5.png)
 
 ## <a name="managed-tenant-users"></a>管理対象テナント ユーザー
 
 組織によって Power BI にサインアップされている場合は、テナント管理者に問い合わせてください。アカウントからのライセンスの割り当て解除を依頼します。
 
-![管理されたアカウントの削除](media/service-admin-closing-your-account/close-account-managed.png)
+![管理対象のアカウントの削除のスクリーンショット。](media/service-admin-closing-your-account/close-account-managed.png)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

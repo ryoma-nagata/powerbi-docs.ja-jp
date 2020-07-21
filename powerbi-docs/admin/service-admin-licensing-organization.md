@@ -10,11 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85484934"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161475"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>組織のユーザーに Power BI サービスのライセンスを与える
 
@@ -56,7 +57,7 @@ Power BI サービスでユーザーが実行できる操作は、そのユー�
 1. すべてのユーザーに対応するために必要なライセンスの数を入力します。
 1. **[ライセンスを持たないユーザー全員に自動的に割り当てる]** を選択し、チェックアウトします。
 
-  ![Power BI の無料の自動割り当てサブスクリプション](media/service-admin-licensing-organization/m365-auto-assign.png) 
+  ![セルフサービス サインアップが表示されている Power BI の無料の自動割り当てサブスクリプションのスクリーンショット。](media/service-admin-licensing-organization/m365-auto-assign.png)
 
 組織内のどのユーザーが既にライセンスを所有している可能性があるかを確認する場合は、「[ユーザー ライセンスを表示および管理する](service-admin-manage-licenses.md)」を参照し、その方法を確認してください。
 

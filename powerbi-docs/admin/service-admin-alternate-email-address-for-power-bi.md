@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6c6bbf8476087532fd3a049a0e4bde3191892325
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564037"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161699"
 ---
 # <a name="use-an-alternate-email-address"></a>代替メール アドレスの使用
 
@@ -37,11 +37,11 @@ Microsoft 365 で代替アドレスを指定するには、次の手順に従い
 
     詳細を編集できない場合は、ご自分のメール アドレスが管理者によって管理されていることを意味します。 管理者に連絡して、メール アドレスを更新してください。
 
-    ![連絡先の詳細](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+    ![連絡用メール アドレスの指定方法を示している [連絡先の詳細] ダイアログのスクリーンショット。](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
 1. **[連絡用メール アドレス]** フィールドに、Microsoft 365 で Power BI の更新用に使用されるメール アドレスを入力します。
 
-## <a name="use-powershell"></a>PowerShell の使用
+## <a name="use-powershell"></a>PowerShell を使用する
 
 PowerShell で代替アドレスを指定するには、[Set-AzureADUser](/powershell/module/azuread/set-azureaduser/) コマンドを使用します。
 
@@ -69,4 +69,4 @@ Power BI では、次の順序で使用するメール アドレスが選択さ�
 
 1. 上記の条件のいずれも存在しない場合、Power BI では UPN アドレスが使用されます。
 
-その他の質問 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

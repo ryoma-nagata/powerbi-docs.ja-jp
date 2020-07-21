@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279643"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215450"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX:BLANK を値に変換しない
 
@@ -47,9 +47,9 @@ DIVIDE([Profit], [Sales], 0)
 
 **Profit Margin** メジャーをテーブル ビジュアルに追加して、顧客別にグループ化するとどうなるかを見てみましょう。
 
-![テーブル ビジュアルには、次の 3 つの列があります: Customer、Sales、Profit Margin。 テーブルには約 10 行のデータが表示されていますが、垂直スクロール バーから、表示できる行が他にも数多くあることがわかります。 Sales 列には値が表示されていません。 Profit Margin 列にはゼロのみが表示されています。](media/dax-avoid-converting-blank/table-visual-poor.png)
+![顧客ごとに 1 行のデータがあるデータ ビジュアルを示す Power BI Desktop のスクリーンショット。 Sales の値は空で、Profit Margin の値は 0% です。 ](media/dax-avoid-converting-blank/table-visual-poor.png)
 
-このテーブル ビジュアルには、膨大な数の行が表示されます  (実際にはモデルに 18,484 名の顧客が存在し、テーブルはそのすべてを表示しようとします)。ビュー内の顧客が売上を達成していないことに注目してください。 それにもかかわらず、**Profit Margin** メジャーから常に値が返るため、表示されています。
+このテーブル ビジュアルには、膨大な数の行が表示されます (実際にはモデルに 18,484 名の顧客が存在し、テーブルはそのすべてを表示しようとします)。ビュー内の顧客が売上を達成していないことに注目してください。 それにもかかわらず、**Profit Margin** メジャーから常に値が返るため、表示されています。
 
 > [!NOTE]
 > ビジュアルに表示するデータ ポイントが多すぎる場合、Power BI ではデータ削減戦略を使用して大きなクエリ結果を削除または集計することがあります。 詳細については、[ビジュアルの種類別のデータ ポイントの制限と戦略](../visuals/power-bi-data-points.md)に関する記事をご覧ください。
@@ -63,7 +63,7 @@ DIVIDE([Profit], [Sales])
 
 テーブル ビジュアルには、現在のフィルター コンテキスト内で販売を行った顧客のみが表示されるようになりました。 メジャーが改善された結果、レポート ユーザーにとってより効率的で実用的なエクスペリエンスが得られます。
 
-![同じテーブル ビジュアルに 4 行のデータが表示されるようになりました。 各行は、売上の値があり、Profit Margin の値がゼロ以外の顧客の行です。](media/dax-avoid-converting-blank/table-visual-good.png)
+![コンテンツがフィルター処理されたデータのテーブル ビジュアルを示す、Power BI Desktop のスクリーンショット。](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
 > 必要に応じて、[[データのない項目を表示する]](../create-reports/desktop-show-items-no-data.md) オプションを有効にすることで、フィルター コンテキスト内の (値または BLANK を返す) すべてのグループを表示するようにビジュアルを構成できます。
@@ -80,4 +80,3 @@ DIVIDE([Profit], [Sales])
 
 - [Data Analysis Expressions (DAX) リファレンス](/dax/)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 39eef27e746e636ddb331d28a930c1cd0dca0a5d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75623063"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214921"
 ---
 # <a name="disable-power-query-background-refresh"></a>Power Query のバックグラウンド更新を無効にする
 
@@ -24,23 +24,23 @@ ms.locfileid: "75623063"
 
 ただし、Power BI Desktop ファイルに多数のクエリが含まれている場合、プレビュー データを取得して保存すると、更新の完了にかかる時間が長くなる可能性があります。
 
-## <a name="recommendation"></a>推奨
+## <a name="recommendation"></a>推奨事項
 
 "_バックグラウンドで_" プレビュー キャッシュを更新するように Power BI Desktop ファイルを設定することで、更新を高速化することができます。 Power BI Desktop では、 _[ファイル]、[オプションと設定]、[オプション]_ の順に選択し、 _[データの読み込み]_ ページを選択することでこれを有効にできます。 次に、 **[バックグランドでのデータ プレビューのダウンロードを許可する]** オプションをオンにします。 このオプションは、現在のファイルに対してのみ設定できることに注意してください。
 
-![Power BI Desktop バックグラウンド データのオプション](media/power-query-background-refresh/power-query-options-background-data.png)
+![バックグラウンド データ オプションを示す Power BI Desktop のスクリーンショット。](media/power-query-background-refresh/power-query-options-background-data.png)
 
 バックグラウンド更新を有効にすると、プレビュー データが期限切れになる可能性があります。 これが発生すると、Power Query エディターから次の警告が通知されます。
 
-![古いプレビュー データに関する Power Query エディターの警告](media/power-query-background-refresh/power-query-preview-data-old.png)
+![古いプレビュー データに関する Power Query エディターの警告を示す Power BI Desktop のスクリーンショット。](media/power-query-background-refresh/power-query-preview-data-old.png)
 
 プレビュー キャッシュはいつでも更新することができます。 1 つのクエリに対して更新することも、 **[プレビューの更新]** コマンドを使用してすべてのクエリに対して更新することもできます。 これは、Power Query エディター ウィンドウの **ホーム** リボンにあります。
 
-![プレビュー データを更新する Power Query エディター コマンド](media/power-query-background-refresh/power-query-refresh-preview-data.png)
+![プレビュー データを更新するための Power Query エディター コマンドを示す Power BI Desktop のスクリーンショット。](media/power-query-background-refresh/power-query-refresh-preview-data.png)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 この記事に関する詳細については、次のリソースを参照してください。
 
 - [Power Query のドキュメント](/power-query/)
-- ご質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

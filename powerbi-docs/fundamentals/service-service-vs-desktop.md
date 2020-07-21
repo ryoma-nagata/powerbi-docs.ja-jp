@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349220"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214026"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop と Power BI サービスの比較
 
 Power BI Desktop と Power BI サービスを比較したベン図では、中央の領域にこの 2 つが重なる部分が示されます。 一部のタスクは Power BI Desktop でも Power BI サービスでも実行できます。 ベン図の右側と左側には、アプリケーションとサービスに固有の機能が示されています。  
 
-![Power BI Desktop と Power BI サービスのベン図](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
+![Power BI Desktop と Power BI サービスの関係を示すベン図。](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
 **Power BI Desktop** は、ローカル コンピューターに無料でアプリケーションをインストールする完全なデータ分析とレポート作成ツールです。 これには、さまざまなデータ ソースに接続し、それらを 1 つのデータ モデルに結合できる (これはモデリングと呼ばれることがあります) クエリ エディターが含まれています。 その後、そのデータ モデルに基づいてレポートを設計します。 「[Power BI Desktop 概要ガイド](desktop-getting-started.md)」でこのプロセスが説明されています。
 
@@ -33,7 +33,7 @@ Business Intelligence プロジェクトに取り組んでいるほとんどの�
 
 アプリケーションとサービスの両方で、*レポート*を構築し、編集します。 レポートには任意の数のページとビジュアルを含めることができます。 レポート内の移動機能を強化する目的で、ブックマーク、ボタン、フィルター、ドリルスルーを追加します。
 
-![Power BI Desktop または Power BI サービスでレポートを編集する](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
+![番号付きセクションがある、Power BI Desktop と Power BI サービスのスクリーンショット。](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
 Power BI Desktop と Power BI サービスのレポート エディターは同じようなものです。 3 つのセクションから構成されています。  
 

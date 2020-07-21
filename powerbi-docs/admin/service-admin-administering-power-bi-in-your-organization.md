@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 05/29/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 7628106c29be75c4eb01bc9d7d52a3c9ededb9e8
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: c3e56df49caac8b5250a4e382cab253a0a9c5210
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272554"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161332"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 管理とは
 
 Power BI 管理とは、Power BI の動作を制御する組織全体設定を管理することです。 管理者ロールに割り当てられたユーザーは、組織のリソースを構成し、監視し、プロビジョニングします。 この記事では、管理を速やかに始められるよう、管理者ロール、管理者タスク、管理者ツールの概要を説明します。
 
-![Power BI 管理ポータル](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
+![組織全体の設定が表示されている、Power BI の管理ポータルのスクリーンショット。](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Power BI に関連する管理者ロール
 

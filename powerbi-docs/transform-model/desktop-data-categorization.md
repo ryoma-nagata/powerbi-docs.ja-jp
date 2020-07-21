@@ -9,22 +9,22 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 723869023824f7841eaaa895ab551b719a69c0e2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 414f58338a53ce9ff24f193acd3cee0da2c30658
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236299"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215344"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Power BI Desktop でデータ分類を指定する
 Power BI Desktop では、ユーザーが列に対して "*データ カテゴリ*" を指定すれば、Power BI Desktop が視覚化するときにその列の値をどのように扱うべきかを自動的に見極めます。
 
 Power BI Desktop を使ってデータをインポートすると、テーブル名、列名、データが主キーかどうかなど、データそのものではない情報が取得されます。 Power BI Desktop はその情報を利用して推測し、視覚化を作成するときの既定のユーザー エクスペリエンスの質を高めます。
-たとえば、列に数値がある場合、ユーザーはおそらく何らかの方法で集計することになるため、Power BI Desktop によって **[視覚化]** ペインの **[値]** 領域に配置されます。 または、折れ線グラフに日時の値が含まれている列の場合、Power BI Desktop では、ユーザーがその列を時間階層軸として使用するだろうと推測されます。
+たとえば、列に数値がある場合、ユーザーはおそらく何らかの方法で集計することになるため、Power BI Desktop によって **[視覚化]** ペインの **[値]** 領域に配置されます。 または、折れ線グラフに日時の値が含まれている列の場合、Power BI Desktop によって、ユーザーがそれを時間階層軸として使用するだろうと推測されます。
 
 しかし、地理的な場所など、判断がもう少し難しい場合があります。 Excel ワークシートにある次の表について考えてみましょう。
 
-![](media/desktop-data-categorization/datacategorizationtable.png)
+![Power BI Desktop にインポートされる表形式データを示す Excel のスクリーンショット。](media/desktop-data-categorization/datacategorizationtable.png)
 
 Power BI Desktop は **GeoCode** 列に含まれるコードを、国の省略形として扱うべきでしょうか? それとも米国の州の省略形でしょうか?  このようなコードはどちらの意味も持つので、明確にはわかりません。 たとえば、AL はアラバマ州とアルバニア、AR はアーカンソー州とアルゼンチン、CA はカリフォルニア州とカナダの意味になり得ます。 これは、地図上に GeoCode フィールドを表示しようとするときに違いが出ます。 
 
@@ -36,7 +36,6 @@ Power BI Desktop で、国が強調表示された世界の画像を表示する
 2. リボンの **[モデリング]** タブの **[プロパティ]** 領域で、 **[データ カテゴリ]** の横にあるドロップダウン矢印を選択します。  この一覧には、列に選択できるデータ カテゴリが表示されます。 列の現在のデータ型には使えない項目は選べなくなっています。  たとえば、列が date または time データ型である場合、Power BI Desktop で地理的なデータ カテゴリを選べなくなります。 
 3. 目的のカテゴリを選択します。
 
-   ![](media/desktop-data-categorization/desktop-data-categorization.png)
+   ![データ カテゴリ フィルターを示す Power BI Desktop のスクリーンショット。](media/desktop-data-categorization/desktop-data-categorization.png)
 
 関心がある場合は、[Power BI モバイル アプリの地理的フィルタリング](desktop-mobile-geofiltering.md)についても参照してください。
-

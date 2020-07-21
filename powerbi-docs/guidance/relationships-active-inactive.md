@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e8ba3203728a72b26d188e96eb1fa66f62f89a55
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273226"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215118"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>アクティブなリレーションシップと非アクティブなリレーションシップのガイダンス
 
@@ -29,7 +29,7 @@ ms.locfileid: "83273226"
 
 2 つのテーブルのモデル図の一部を次に示します。
 
-![モデル図には、次の 2 つのテーブルが含まれています: Flight と Airport。 リレーションシップの設計については、次の段落で説明します。](media/relationships-active-inactive/flight-model-1.png)
+![2 つのテーブルを含むモデルを示す図:Flight と Airport。 リレーションシップの設計については、次の段落で説明します。](media/relationships-active-inactive/flight-model-1.png)
 
 **Flight** テーブルと **Airport** テーブルの間には、2 つのモデル リレーションシップがあります。 **Flight** テーブルでは、**DepartureAirport** 列と **ArrivalAirport** 列が **Airport** テーブルの **Airport** 列に関連付けられています。 スター スキーマ設計では、**Airport** テーブルは[多様ディメンション](star-schema.md#role-playing-dimensions)として説明されます。 このモデルの場合、2 つのロールは "_出発空港_" と "_到着空港_" です。
 
@@ -39,13 +39,13 @@ ms.locfileid: "83273226"
 
 改善されたモデル設計を次に示します。
 
-![モデル図には 4 つのテーブルが含まれるようになりました。Date、Flight、Departure Airport、Arrival Airport です。 リレーションシップの設計については、次の段落で説明します。](media/relationships-active-inactive/flight-model-2.png)
+![4 つのテーブルを含むモデルを示す図: Date、Flight、Departure Airport、Arrival Airport です。](media/relationships-active-inactive/flight-model-2.png)
 
 モデルには、2 つの空港テーブルが含まれるようになりました。**Departure Airport** と **Arrival Airport** です。 これらのテーブルと **Flight** テーブル間のモデル リレーションシップはアクティブです。 また、**Departure Airport** テーブルと **Arrival Airport** テーブルの列名には、先頭に _Departure_ または _Arrival_ という単語が付けられていることがわかります。
 
 改善されたモデル設計では、次のようなレポート デザインの生成がサポートされます。
 
-![レポート ページに 2 つのスライサーとテーブル ビジュアルがあります。 スライサーは Month と Departure Airport です。 テーブル ビジュアルには、Arrival Airport とさまざまな統計情報が表示されています。](media/relationships-active-inactive/flight-report-design.png)
+![レポート ページに 2 つのスライサーと 1 つのテーブル ビジュアルがあることを示す図。 スライサーは Month と Departure Airport です。](media/relationships-active-inactive/flight-report-design.png)
 
 このレポート ページは、出発空港 Melbourne によってフィルター処理され、テーブル ビジュアルは到着空港によってグループ化されています。
 
@@ -86,7 +86,7 @@ ms.locfileid: "83273226"
 
 2 つのテーブルのモデル図の一部を次に示します。
 
-![モデル図には、次の 2 つのテーブルが含まれています: Sales と Date。 Sales テーブルには 6 つのメジャーが含まれています。 リレーションシップの設計については、次の段落で説明します。](media/relationships-active-inactive/sales-model.png)
+![2 つのテーブルを含むモデルを示す図: Sales と Date。 Sales テーブルには 6 つのメジャーが含まれています。](media/relationships-active-inactive/sales-model.png)
 
 **Sales** テーブルと **Date** テーブルの間には、2 つのモデル リレーションシップがあります。 **Sales** テーブルでは、**OrderDate** 列と **ShipDate** 列が **Date** テーブルの **Date** 列に関連付けられています。 このモデルの場合、**Date** テーブルの 2 つのロールは "_注文日_" と "_出荷日_" です。 **OrderDate** 列へのリレーションシップがアクティブです。
 
@@ -110,7 +110,7 @@ CALCULATE(
 
 このモデル設計では、次のようなレポート デザインの生成がサポートされます。
 
-![レポート ページに 1 つのスライサーとテーブル ビジュアルがあります。 スライサーは Quarter で、テーブル ビジュアルには毎月の売上の統計情報が表示されています。](media/relationships-active-inactive/sales-report-design.png)
+![1 つのスライサーとテーブル ビジュアルがあるレポート ページを示す図。 スライサーは Quarter で、テーブル ビジュアルには毎月の売上の統計情報が表示されています。](media/relationships-active-inactive/sales-report-design.png)
 
 このレポート ページは、2019 Q4 の四半期でフィルター処理されています。 テーブル ビジュアルは月別にグループ化され、さまざまな売上の統計情報が表示されています。 **Orders** メジャーと **Orders Shipped** メジャーでは、異なる結果が生成されます。 これらでは、それぞれ同じ要約ロジック (**Sales** テーブルの行数をカウントする) が使用されていますが、**Date** テーブルのフィルターの伝達が異なります。
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8c22b040a1767d616ce1f4d0e4e7fa26e55bfe19
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237868"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214310"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop で計算テーブルを作成する
 ほとんどの場合、外部データ ソースからモデルにデータをインポートしてテーブルを作成します。 しかし、*計算テーブル*を使用すると、モデルに既に読み込まれているデータに基づいて新しいテーブルを追加できます。 値のクエリを実行してデータ ソースから新しいテーブルの列に値を読み込む代わりに、[Data Analysis Expressions (DAX)](/dax/index) 数式を作成してテーブルの値を定義します。
@@ -31,11 +31,11 @@ Power BI Desktop のレポート ビューまたはデータ ビューの **[新
 
 **北西部の従業員**
 
- ![](media/desktop-calculated-tables/calctables_nwempl.png)
+ ![北西部の従業員の表形式データが表示されている Power BI Desktop のスクリーンショット。](media/desktop-calculated-tables/calctables_nwempl.png)
 
 **南西部の従業員**
 
- ![](media/desktop-calculated-tables/calctables_swempl.png)
+ ![南西部の従業員の表形式データが表示されている Power BI Desktop のスクリーンショット。](media/desktop-calculated-tables/calctables_swempl.png)
 
 Power BI Desktop のレポート ビューまたはデータ ビューで、 **[モデリング]** タブの **[計算]** グループで、 **[新しいテーブル]** を選択します。 データ ビューの方が、新しい計算テーブルがすぐに表示されるので、もう少し簡単に行えます。
 

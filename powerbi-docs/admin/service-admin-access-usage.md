@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4f9b69e863b71fda0cece06df7065740bd55463e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228899"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161194"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>サインインした Power BI ユーザーを見つける
 
@@ -29,7 +29,7 @@ ms.locfileid: "85228899"
 
 * テナントには Azure Active Directory Premium ライセンスが関連付けられている必要があります。
 
-* 全体管理者、セキュリティ管理者、セキュリティ閲覧者のいずれかのロールである必要があります。
+* 次のいずれかのロールである必要があります:全体管理者、セキュリティ管理者、セキュリティ閲覧者。
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Azure portal を使用してサインインを表示する
 
@@ -51,7 +51,7 @@ ms.locfileid: "85228899"
 
 CSV ファイル形式または JSON ファイル形式で[サインイン レポートをダウンロード](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report)できます。
 
-![[ダウンロード] ボタンのスクリーンショット。](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![[ダウンロード] オプションが強調表示されているデータ エクスポートのスクリーンショット。](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 **サインイン** レポートの先頭で、 **[ダウンロード]** を選択し、次のオプションのいずれかを選択します。
 
@@ -63,7 +63,7 @@ CSV ファイル形式または JSON ファイル形式で[サインイン レ�
 
 サインイン関連のデータは、最大 30 日間使用できます。 詳しくは、「[Azure Active Directory レポートの保持ポリシー](/azure/active-directory/reports-monitoring/reference-reports-data-retention)」を参照してください。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 [組織内での監査の使用](service-admin-auditing.md)
 

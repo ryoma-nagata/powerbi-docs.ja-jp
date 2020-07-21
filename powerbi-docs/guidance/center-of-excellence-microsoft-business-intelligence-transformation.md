@@ -8,18 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 18dc88404b84e786bfee0a15ac169a6e0c1496e4
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940173"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162369"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft の BI 変換
 
 この記事は、IT プロフェッショナルと IT 管理者を対象としています。 データを資産として継続的に活用することを可能にする、私たちの BI の戦略とビジョンについて説明します。 また、Power BI でビジネス上の意思決定のデータ カルチャをどのようにうまく推進しているかについても説明します。
 
-最初の背景情報: 今日では、データの爆発的な急増によって、消費者やビジネスに急速に影響が出てきています。 このようなデータ量の多い環境では、アナリストと経営陣が、膨大な量のデータから簡潔な分析情報を抽出できる必要があります。 Microsoft の BI ツールにおける変革は、Microsoft 自体がデータを調査し、企業への影響を促進するために必要な適切な分析情報を得る方法に革命をもたらしました。
+最初の背景情報: 今日では、データの爆発的な急増によって、消費者やビジネスに急速に影響が出てきています。 このようなデータ量の多い環境では、アナリストと経営陣が、膨大な量のデータから簡潔な分析情報を抽出できる必要があります。 Microsoft の BI ツールにおける変革は、Microsoft 自体がデータを調査し、企業への影響を促進するために必要な適切な分析情報を得る方法に変化をもたらしました。
 
 では、ご自身の組織でもデータの処理方法を変革するには、どうすればよいでしょうか。 私たちの BI 変換体験ストーリーを共有することで、理解を深めていただくことにしましょう。
 

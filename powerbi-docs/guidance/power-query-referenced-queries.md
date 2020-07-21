@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 21105513bf77a4ede8d788860a99fedaf3a6c48c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278677"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214873"
 ---
 # <a name="referencing-power-query-queries"></a>Power Query クエリの参照
 
@@ -23,17 +23,17 @@ ms.locfileid: "83278677"
 
 いくつかのクエリを検討します。**Query1** のデータ ソースは Web サービスであり、その読み込みは無効にななっています。 **Query2**、**Query3**、**Query4** は、すべて **Query1** を参照しており、それらの出力がデータ モデルに読み込まれます。
 
-![クエリの依存関係ビュー。前の段落で説明したクエリを示しています。](media/power-query-referenced-queries/query-dependencies-web-service.png)
+![前の段落で説明したクエリが表示されている、クエリの依存関係ビューを示す図。](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
 このデータ モデルが更新されるとき、Power Query によって **Query1** の結果が取得され、それを参照しているクエリで再利用されるものと思うことがよくあります。 この考え方は正しくありません。 実際には、Power Query では、**Query2**、**Query3**、および **Query4** は個別に実行されます。
 
 **Query2** には、**Query1** の手順が埋め込まれていると考えることができます。 同じことが、**Query3** と **Query4** にも当てはまります。 次の図は、クエリがどのように実行されるかをより明確に示しています。
 
-![クエリの依存関係ビューの変更バージョン。Query2、Query3、および Query4 を示しています。 3 つのクエリのそれぞれに、Query1 が埋め込まれています。](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
+![Query2、Query3、および Query4 が表示されている、クエリの依存関係ビューの変更バージョンを示す図。](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
 
 **Query1** は 3 回実行されます。 複数の実行によってデータ更新が低速になり、データ ソースに悪影響を及ぼす可能性があります。
 
-**Query1** で [Table.Buffer](/powerquery-m/table-buffer) 関数を使用しても、追加のデータ取得が排除されることはありません。 この関数は、テーブルをメモリにバッファー処理します。 そして、バッファー処理されたテーブルは、同じクエリの実行内でのみ使用できます。 したがって、この例では、**Query2** の実行時に **Query1** がバッファー処理された場合でも、**Query3** と **Query4** の実行時にバッファー処理されたデータを使用することはできません。 各自でバッファー処理が実行されるため、データは、さらに 2 回バッファー処理されます  (テーブルが参照元のクエリによって個別にバッファー処理されるため、パフォーマンスへの悪影響が増加する可能性があります)。
+**Query1** で [Table.Buffer](/powerquery-m/table-buffer) 関数を使用しても、追加のデータ取得が排除されることはありません。 この関数は、テーブルをメモリにバッファー処理します。 そして、バッファー処理されたテーブルは、同じクエリの実行内でのみ使用できます。 したがって、この例では、**Query2** の実行時に **Query1** がバッファー処理された場合でも、**Query3** と **Query4** の実行時にバッファー処理されたデータを使用することはできません。 各自でバッファー処理が実行されるため、データは、さらに 2 回バッファー処理されます (テーブルが参照元のクエリによって個別にバッファー処理されるため、パフォーマンスへの悪影響が増加する可能性があります)。
 
 > [!NOTE]
 > Power Query のキャッシュ アーキテクチャは複雑であり、それはこの記事の焦点ではありません。 Power Query では、データ ソースから取得したデータをキャッシュできます。 ただし、クエリの実行時に、データ ソースからデータを複数回取得する場合があります。

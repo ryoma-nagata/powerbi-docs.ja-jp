@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 610fe7ea2188d40d42ab91a355df68bc07bb0d84
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3b3faab2a01a00e09560d39e850f40d0672a5863
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228526"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161171"
 ---
 # <a name="track-power-bi-service-health-in-microsoft-365"></a>Microsoft 365 で Power BI サービスの正常性を追跡する
 
@@ -38,7 +38,7 @@ Microsoft 365 管理センターでは、Power BI 管理者向けの重要なツ
 
 1. 詳しい情報を見るには、項目の **[詳細の表示]** を選びます。 次のスクリーンショットでは、最新の状態の更新など、追加の詳細が表示されています。
 
-    ![アドバイザリの詳細のスクリーンショット。](media/service-admin-health/advisory-details.png)
+    ![追加情報が表示されているアドバイザリの詳細のスクリーンショット。](media/service-admin-health/advisory-details.png)
 
     下にスクロールして他の情報を確認し、完了したらウィンドウを閉じます。
 

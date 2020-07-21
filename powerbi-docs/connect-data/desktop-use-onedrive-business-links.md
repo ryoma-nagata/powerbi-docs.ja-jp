@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88aa1335433dba38e5f18ca7463077543db2c923
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 20271b1e165fea894404a77bf19bbcc735703907
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222457"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214543"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop で OneDrive for Business リンクを使用する
 多くの人は、Power BI Desktop と相性の良い OneDrive for Business に Excel ブックを格納しています。 Power BI Desktop を使用すると、OneDrive for Business に格納されている Excel ファイルのオンライン リンクを使用して、レポートやビジュアルを作成できます。 OneDrive for Business のグループ アカウントか、個人の OneDrive for Business アカウントを使用できます。
@@ -27,30 +27,28 @@ OneDrive for Business からオンライン リンクを取得するには、い
    > [!NOTE]
    > ブラウザーのインターフェイスは、次の画像のとおりではない場合もあります。 OneDrive for Business ブラウザー インターフェイスで、ファイルに対して **[Excel で開く]** を選択する方法はたくさんあります。 Excel でファイルを開くためのどのオプションでも使用することができます。
    
-   ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
+   ![[Excel で開く] の選択を示す、ブラウザーの OneDrive のスクリーンショット。](media/desktop-use-onedrive-business-links/odb-links_02.png)
 
 2. Excel で、次の図に示すように、 **[ファイル]**  >  **[情報]** の順に選択し、 **[パスのコピー]** ボタンを選びます。
    
-   ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
+   ![[パスのコピー] ボタンの選択を示す、[情報] メニューのスクリーンショット。](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 
 ## <a name="use-the-link-in-power-bi-desktop"></a>Power BI Desktop でリンクを使用する
 直前にクリップボードにコピーしたリンクを Power BI Desktop で使用できます。 次の手順を実行します。
 
 1. Power BI Desktop で、 **[データの取得]**  >  **[Web]** を選択します。
    
-   ![](media/desktop-use-onedrive-business-links/power-bi-web-link-onedrive.png)
+   ![[Web] の選択を示す、Power BI Desktop の [データの取得] リボンのスクリーンショット。](media/desktop-use-onedrive-business-links/power-bi-web-link-onedrive.png)
 2. **[Basic]** オプションを選択した状態で、リンクを **[Web から]** ダイアログ ボックスに貼り付けます。
 3. Power BI Desktop でファイルに適切に移動できるように、リンクの末尾にある *?web=1* という文字列を削除し、 **[OK]** を選択します。
    
-    ![](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
+    ![[URL] フィールドからの文字列の削除方法を示す、[Web から] ダイアログのスクリーンショット。](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
 4. Power BI Desktop で資格情報の入力を求められた場合は、 **[Windows]** (オンプレミスの SharePoint サイトの場合) または **[組織アカウント]** (Microsoft 365 または OneDrive for Business のサイトの場合) のいずれかを選択します。
    
-   ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
+   ![[Windows] または [組織アカウント] の選択を示す、Power BI Desktop の資格情報プロンプトのスクリーンショット。](media/desktop-use-onedrive-business-links/odb-links_06.png)
 
    **[ナビゲーター]** ダイアログ ボックスが表示され、Excel ブックにあるテーブル、シート、範囲を一覧から選ぶことができます。 そこから、他の Excel ファイルと同様に OneDrive for Business ファイルを使用できます。 他のデータ ソースと同様に、レポートを作成してデータセットで使用できます。
 
 > [!NOTE]
 > Power BI サービスのデータ ソースとして OneDrive for Business ファイルを使うには、そのファイルに対して **[Service Refresh]\(サービスの更新\)** を有効にし、更新の設定を構成するときに **[認証方法]** として **[OAuth2]** を選択します。 このようにしないと、接続または更新しようとしたときに、エラー ("*データ ソースの資格情報の更新に失敗しました*" など) が発生する可能性があります。 認証方法として **OAuth2** を選ぶと、資格情報エラーは発生しません。
-> 
-> 
-
+>

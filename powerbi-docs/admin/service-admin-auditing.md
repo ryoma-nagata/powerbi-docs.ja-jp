@@ -10,11 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782399"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161723"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI でユーザー アクティビティを追跡する
 
@@ -144,7 +145,7 @@ Power BI 監査ログは、[Office 365 セキュリティ/コンプアライア�
 
 2. **[Power BI アクティビティ]** を選択します。
 
-   ![[Power BI アクティビティ] が強調して示されている [監査ログの検索] のスクリーンショット。](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![[Power BI アクティビティ] が強調表示されている [監査ログの検索] のスクリーンショット。](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. 選択ボックスの外側の任意の場所を選択して、ボックスを閉じます。
 
@@ -156,13 +157,13 @@ Power BI 監査ログは、[Office 365 セキュリティ/コンプアライア�
 
 選択した日付範囲が 90 日間よりも大きい場合は、エラーが表示されます。 最大の日付範囲である 90 日を使用する場合は、 **[開始日]** として現在の時刻を選択してください。 そうしないと、開始日が終了日より前であるというエラーが表示されます。 過去 90 日間に監査を有効にしている場合、監査を有効にした日付より前から日付範囲を開始することはできません。
 
-![[開始日] および [終了日] オプションが強調して示されている [監査ログの検索] のスクリーンショット。](media/service-admin-auditing/search-audit-log-by-date.png)
+![[開始日] および [終了日] オプションが強調表示されている [監査ログの検索] のスクリーンショット。](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>監査ログをユーザーで検索する
 
 特定のユーザーが実行したアクティビティの監査ログ エントリを検索できます。 **[ユーザー]** フィールドに 1 つまたは複数のユーザー名を入力します。 ユーザー名はメール アドレスのような形式です。 それは、ユーザーが Power BI へのログインに使用するアカウントです。 このボックスを空白のままにすると、組織のすべてのユーザー (およびサービス アカウント) のエントリが返されます。
 
-![ユーザーで検索する](media/service-admin-auditing/search-audit-log-by-user.png)
+![[ユーザー] が強調表示されている [監査ログの検索] のスクリーンショット。](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>検索結果を表示する
 
@@ -197,7 +198,7 @@ Power BI 監査ログを CSV ファイルにエクスポートするには、次
 
 1. **[Save loaded results]** (読み込み済み結果を保存) または **[Download all results]** (すべての結果をダウンロード) のいずれかを選択します。
 
-    ![[結果のエクスポート] オプションのスクリーンショット。](media/service-admin-auditing/export-auditing-results.png)
+    ![[すべての結果をダウンロードする] が強調表示された [結果のエクスポート] オプションのスクリーンショット。](media/service-admin-auditing/export-auditing-results.png)
 
 ### <a name="use-powershell-to-search-audit-logs"></a>PowerShell を使用して監査ログを検索する
 

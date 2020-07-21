@@ -8,11 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485946"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214207"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>オンプレミス データ ゲートウェイのサイズ設定
 
@@ -32,7 +33,7 @@ ms.locfileid: "85485946"
 1. **データの取得と変換**:データが取得され、必要に応じて変換されます。 可能な場合は常に、Power Query マッシュアップ エンジンからデータ ソースに変換ステップがプッシュされます。これは " _[クエリ フォールディング](power-query-folding.md)_ " と呼ばれます。 可能でない場合は、ゲートウェイで変換を処理する必要があります。 この場合、ゲートウェイの CPU とメモリ リソースの消費量が多くなります。
 1. **転送**:データが Power BI サービスに転送されます。特に大規模なデータ ボリュームでは、信頼性が高く、高速なインターネット接続が重要です。
 
-![図には、オンプレミスのソース (リレーショナル データベース、Excel ブック、および CSV ファイル) に接続するオンプレミスのデータ ゲートウェイが示されています。 ゲートウェイでデータの取得と変換が行われます。](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
+![オンプレミスのソースに接続するオンプレミスのデータ ゲートウェイが表示されているキャッシュ データの図。](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>ライブ接続および DirectQuery ワークロード
 
@@ -45,7 +46,7 @@ ms.locfileid: "85485946"
 
 応答性の高いエクスペリエンスをレポート ユーザーに提供するには、信頼性が高く、高速で、一貫性のある接続が重要です。
 
-![図には、オンプレミスのソースに接続するオンプレミスのデータ ゲートウェイが示されています。Analysis Services 表形式データベースとリレーショナル。 ゲートウェイは主にパススルー モードで動作します。](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![オンプレミスのソースに接続するオンプレミスのデータ ゲートウェイが表示されているライブ接続と DirectQuery の図。](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>サイズ設定に関する考慮事項
 

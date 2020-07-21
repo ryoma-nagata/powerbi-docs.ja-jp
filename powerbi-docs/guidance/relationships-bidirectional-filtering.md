@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273193"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215153"
 ---
 # <a name="bi-directional-relationship-guidance"></a>双方向のリレーションシップのガイダンス
 
@@ -40,7 +40,7 @@ ms.locfileid: "83273193"
 
 双方向のリレーションシップにより、データが存在する場所に項目が制限されたスライサーを提供できます。 (Excel のピボットテーブルとスライサーに慣れている場合、これは Power BI データセットまたは Analysis Services モデルをデータのソースにするときの既定の動作です。)その意味を説明するために、まず次のモデル図について考えてみます。
 
-![モデル図には 3 つのテーブルが含まれています。 設計については、次の段落で説明します。](media/relationships-bidirectional-filtering/sales-model-diagram.png)
+![3 つのテーブルを含むモデルを示す図。 設計については、次の段落で説明します。](media/relationships-bidirectional-filtering/sales-model-diagram.png)
 
 最初のテーブルには **Customer** という名前が付けられ、次の 3 つの列が含まれています:**Country-Region**、**Customer**、**CustomerCode**。 2 番目のテーブルには **Product** という名前が付けられ、次の 3 つの列が含まれています:**Color**、**Product**、**SKU**。 3 番目のテーブルには **Sales** という名前が付けられ、次の 4 つの列が含まれています:**CustomerCode**、**OrderDate**、**Quantity**、**SKU**。 **Customer** テーブルと **Product** テーブルはディメンションの種類のテーブルであり、それぞれが **Sales** テーブルに対して一対多のリレーションシップを持っています。 各リレーションシップでは、一方向にフィルター処理されます。
 
@@ -49,7 +49,7 @@ ms.locfileid: "83273193"
 > [!NOTE]
 > Power BI Desktop モデル図にテーブル行を表示することはできません。 この記事では、わかりやすい例による説明をサポートするためにこのようにしています。
 
-![これで、モデル図にテーブル行が示されるようになりました。 行の詳細については、次の段落で説明します。](media/relationships-bidirectional-filtering/sales-model-diagram-rows.png)
+![モデルでテーブル行が表示されるようになったことを示す図。 行の詳細については、次の段落で説明します。](media/relationships-bidirectional-filtering/sales-model-diagram-rows.png)
 
 3 つのテーブルの行の詳細については、次の箇条書きで説明します。
 
@@ -67,17 +67,17 @@ ms.locfileid: "83273193"
 
 ここで、次のレポート ページについて考えてみましょう。
 
-![このレポート ページには 3 つのビジュアルが含まれています。 その詳細については、次の段落で説明します。](media/relationships-bidirectional-filtering/sales-report-no-bi-directional-filter.png)
+![3 つのビジュアルを含むレポート ページを示す図。 その詳細については、次の段落で説明します。](media/relationships-bidirectional-filtering/sales-report-no-bi-directional-filter.png)
 
 このページは、2 つのスライサーとカード ビジュアルで構成されています。 最初のスライサーは **Country-Region** 用です。これには次の 2 つの項目があります:オーストラリア、米国。 現在は、オーストラリアでスライスされています。 2 番目のスライサーは **Product** 用です。これには次の 3 つの項目があります:帽子、ジーンズ、T シャツ。 項目は選択されていません (つまり、フィルター処理されている "_製品はありません_")。 カード ビジュアルには、30 という数量が表示されています。
 
 レポート ユーザーがオーストラリアでスライスするときに、**Product** スライサーを制限して、データがオーストラリアの売上に "_関連している_" 項目を表示するようにすることをお勧めします。 これが、"データあり" のスライサー項目を表示するという意味です。 この動作を実現するには、**Product** テーブルと **Sales** テーブル間のリレーションシップを構成して、双方向のフィルター処理を行います。
 
-![モデル図では、現在 Product テーブルと Sales テーブル間のリレーションシップが双方向であることが示されています。](media/relationships-bidirectional-filtering/sales-model-diagram-rows-bi-directional-filter.png)
+![Product および Sales テーブル間のリレーションシップが双方向になったモデルを示す図。](media/relationships-bidirectional-filtering/sales-model-diagram-rows-bi-directional-filter.png)
 
 **Product** スライサーには、1 つの項目が表示されるようになりました。T シャツです。 この項目は、オーストラリアの顧客に販売された唯一の製品を表しています。
 
-![このレポート ページには 3 つのビジュアルが含まれています。 その詳細については、次の段落で説明します。](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![3 つのビジュアルを含むレポート ページを示す図。 その詳細については、次の段落で説明します。](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 まず、この設計がご自分のレポート ユーザーに適しているかどうかを慎重に検討することをお勧めします。 このエクスペリエンスはわかりにくいと考えるレポート ユーザーもいます。 このようなユーザーは、別のスライサーを操作するとスライサー項目が動的に表示されたり非表示になったりする理由を理解できません。
 
@@ -93,7 +93,7 @@ Total Quantity = SUM(Sales[Quantity])
 
 **Product** の "データあり" のスライサー項目を表示するには、**Total Quantity** メジャーによって、"空白でない" 条件を使用してフィルター処理するだけです。
 
-![Product スライサー用の [フィルター] ペインが、"合計数量が空ではない" によってフィルター処理されるようになりました。](media/relationships-bidirectional-filtering/filter-product-slicer-measure-is-not-blank.png)
+![Product スライサー用の [フィルター] ペインが、"合計数量が空ではない" によってフィルター処理されるようになったことを示す図。](media/relationships-bidirectional-filtering/filter-product-slicer-measure-is-not-blank.png)
 
 ## <a name="dimension-to-dimension-analysis"></a>ディメンション間の分析
 
@@ -128,7 +128,7 @@ CALCULATE(
 
 次のテーブル ビジュアルは、販売された各製品の統計情報を表示しています。 **Quantity** 列は、単純に数量の合計です。 **Different Countries Sold** 列は、その製品を購入したすべての顧客の、国/地域の値の重複しない数を表します。
 
-![テーブル ビジュアルに 2 つの製品が表示されています。 "Different Countries Sold" 列では、ジーンズは 1、T シャツは 2 です。](media/relationships-bidirectional-filtering/country-sales-crossfilter-function.png)
+![テーブル ビジュアルに 2 つの製品が一覧表示されていることを示す図。 "Different Countries Sold" 列では、ジーンズは 1、T シャツは 2 です。](media/relationships-bidirectional-filtering/country-sales-crossfilter-function.png)
 
 ## <a name="next-steps"></a>次の手順
 
@@ -141,4 +141,3 @@ CALCULATE(
 - [リレーションシップのトラブルシューティング ガイダンス](relationships-troubleshoot.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)
-

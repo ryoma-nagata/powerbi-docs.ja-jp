@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: cdb992ba337118c9f7fcfef8335dbc31e6e48032
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393751"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215307"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Power BI Desktop で日付テーブルを設定し、使用する
 
@@ -21,19 +22,19 @@ ms.locfileid: "85393751"
 
 この自動で行われる動作の詳細については、「[Power BI Desktop の自動の日付/時刻](desktop-auto-date-time.md)」の記事を参照してください。
 
-データ アナリストの多くは、独自の日付テーブルを作成することを好みます。それには何の問題もありません。 **Power BI Desktop** では、モデルに**日付テーブル**として使用させるテーブルを指定し、その後、そのテーブルの日付データを利用し、日付関連のビジュアル、テーブル、クイック メジャーなどを作成できます。 独自の日付テーブルを指定すると、モデルで作成した日付階層を制御し、**クイック メジャー**やモデルの日付テーブルを利用するその他の操作で利用できます。 
+データ アナリストの多くは、独自の日付テーブルを作成することを好みます。それには何の問題もありません。 **Power BI Desktop** では、モデルに**日付テーブル**として使用させるテーブルを指定し、その後、そのテーブルの日付データを利用し、日付関連のビジュアル、テーブル、クイック メジャーなどを作成できます。 独自の日付テーブルを指定すると、モデルで作成した日付階層を制御し、**クイック メジャー**やモデルの日付テーブルを利用するその他の操作で利用できます。
 
-![](media/desktop-date-tables/date-tables_01.png)
+![[日付テーブルとしてマーク] ダイアログ ボックスを示す、Power BI Desktop のスクリーンショット。](media/desktop-date-tables/date-tables_01.png)
 
 ## <a name="setting-your-own-date-table"></a>独自の日付テーブルを設定する
 
 **日付テーブル**を設定するには、 **[フィールド]** ウィンドウで日付テーブルとして使用するテーブルを選択し、そのテーブルを右クリックし、メニューが表示されたら、 **[日付テーブルとしてマークする]、[日付テーブルとしてマークする]** の順に選択します。次の画像を参考にしてください。
 
-![](media/desktop-date-tables/date-tables_02.png)
+![[フィールド] ペインの [日付テーブルとしてマーク] フィルター オプションを示す、Power BI Desktop のスクリーンショット。](media/desktop-date-tables/date-tables_02.png)
 
 次の画像のように、テーブルを選択し、 **[モデリング]** リボンから **[日付テーブルとしてマークする]** を選択することもできます。
 
-![](media/desktop-date-tables/date-tables_02b.png)
+![[日付テーブルとしてマークする] ボタンとオプションのフィルターを示す、Power BI Desktop のスクリーンショット。](media/desktop-date-tables/date-tables_02b.png)
 
 独自の**日付テーブル**を指定すると、Power BI Desktop はその列とそのデータに次の検証を実行して次のことを確認します。
 
@@ -50,7 +51,7 @@ ms.locfileid: "85393751"
 
 日付テーブルを指定すると、そのテーブルのどの列が日付列か選択できます。 使用する列を指定するには、 **[フィールド]** ウィンドウでテーブルを選択し、そのテーブルを右クリックし、 **[日付テーブルとしてマークする]、[日付テーブルの設定]** の順に選択します。 次のウィンドウが表示されます。このウィンドウで、ドロップダウン ボックスから日付テーブルとして使用する列を選択できます。
 
-![](media/desktop-date-tables/date-tables_03.png)
+![重要な注意事項を含む [日付テーブルとしてマーク] ダイアログ ボックスを示す、Power BI Desktop のスクリーンショット。](media/desktop-date-tables/date-tables_03.png)
 
 重要なことですが、独自の日付テーブルを指定するとき、**Power BI Desktop** は階層を自動作成しません (指定しなければ自動的にモデルに組み込まれます)。 後で日付テーブルを選択解除した場合 (手動設定の日付テーブルがなくなった場合)、Power BI Desktop は、テーブルの日付列に対して、自動作成の日付テーブルを自動的に再作成します。
 
@@ -62,11 +63,11 @@ ms.locfileid: "85393751"
 
 1. **[フィールド]** ウィンドウから**日付テーブル**を選択し、必要に応じて展開し、日付として使用する列を選択します。
    
-    ![](media/desktop-date-tables/date-tables_04.png) 
+    ![[フィールド] ペインの日付フィルターを示す Power BI Desktop のスクリーンショット。](media/desktop-date-tables/date-tables_04.png) 
 
 2. **[モデリング]** タブで **[データ型]** を選択し、ドロップダウン矢印をクリックして選択できるデータ型を表示します。
 
-    ![](media/desktop-date-tables/date-tables_05.png)
+    ![[データ型] のフィルターが選択された [モデリング] タブを示す、Power BI Desktop のスクリーンショット。](media/desktop-date-tables/date-tables_05.png)
 
 3. 列のデータ型を指定します。 
 

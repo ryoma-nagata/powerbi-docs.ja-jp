@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 90a8cf81c2dd0dae3a31a15197785e64432f1a01
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0d8510e1ef76ba07623e135f51eb0ce21ceac4c4
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237909"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214384"
 ---
 # <a name="create-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop での計算列の作成
 計算列を使うと、既にモデル内に存在するテーブルに新しいデータを追加できます。 しかし、値のクエリを実行してデータ ソースから新しい列に読み込む代わりに、列の値を定義する Data Analysis Expressions (DAX) 数式を作成します。 Power BI Desktop では、 **[レポート]** ビューの新しい列機能を使用して、計算列が作成されます。
@@ -23,8 +23,8 @@ ms.locfileid: "85237909"
 
 作成する計算列は、他のフィールドと同じように **[フィールド]** 一覧に表示されますが、その値が数式の結果であることを示す特別なアイコンが表示されます。 列に好きな名前を付けたり、列を他のフィールドと同じようにレポートのビジュアルに追加したりできます。
 
-![](media/desktop-calculated-columns/calccolinpbid_fields.png)
-
+![[フィールド] ビューの計算列を示す、Power BI Desktop のスクリーンショット。](media/desktop-calculated-columns/calccolinpbid_fields.png)
+ 
 計算列では、DAX を使用して結果を計算します。これは、Power BI Desktop の場合のようなリレーショナル データを操作することを意図した数式言語です。 DAX には 200 を超える関数、演算子、およびコンストラクトから成るライブラリが含まれています。 数式を作成する際の柔軟性が非常に高く、データ分析に必要なほとんどすべての計算結果を得ることができます。 DAX の詳細については、「[Power BI Desktop での DAX の基本事項](desktop-quickstart-learn-dax-basics.md)」をご覧ください。
 
 DAX の数式は Excel の数式と似ています。 実際には、DAX は Excel と同じ機能が多数あります。 ただし、DAX の関数は、Power BI Desktop などのレポートで、データを対話式にスライスしたりフィルターを掛けたりする操作を意図して設計されています。 Excel では、テーブルの行ごとに異なる数式を使用できます。 Power BI では、新しい列に対して DAX 式を作成すると、テーブル内のすべての行に対して結果が計算されます。 列の値は必要に応じて再計算されます。たとえば、基になるデータが更新され、値が変更されたときなどです。
@@ -32,23 +32,23 @@ DAX の数式は Excel の数式と似ています。 実際には、DAX は Exc
 ## <a name="lets-look-at-an-example"></a>例を見てみましょう
 Jeff は Contoso の配送マネージャーであり、さまざまな市区町村への配送の数を表示するレポートを作成したいと考えています。 Jeff は、市区町村と都道府県ごとに異なるフィールドがある **Geography** テーブルを持っています。 しかし、Jeff はレポートで同じ行の単一の値として、市区町村と都道府県の値を表示したいと考えています。 現時点では、Jeff の **Geography** テーブルには必要なフィールドがありません。
 
-![](media/desktop-calculated-columns/calccolinpbid_cityandstatefields.png)
+![[フィールド] ビューの Geography フィルターを示す Power BI Desktop のスクリーンショット。](media/desktop-calculated-columns/calccolinpbid_cityandstatefields.png)
 
 しかし、計算列を使用することで、Jeff は **City** 列の市区町村と、**State** 列の都道府県をまとめることができます。
 
 Jeff は、**Geography** テーブルを右クリックしてから、 **[新しい列]** を選択します。 その後、Jeff は次の DAX 式を数式バーに入力します。
 
-![](media/desktop-calculated-columns/calccolinpbid_formula.png)
+![DAX の数式入力を示す Power BI Desktop のスクリーンショット。](media/desktop-calculated-columns/calccolinpbid_formula.png)
 
 この数式では、単に **CityState** という名前の新しい列が作成されます。 **Geography** テーブルの各行については、**City** 列の値を取り、コンマとスペースを追加して、**State** 列の値を連結します。
 
 これで、Jeff は必要なフィールドを取得しました。
 
-![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
+![[フィールド] ビューの Geography フィルターで CityState がオンになっていることを示す、Power BI Desktop のスクリーンショット。](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
 Jeff はここで、配送数と共にレポート キャンバスにそれを追加することができます。 これで Jeff は、最小限の労力で、ほぼすべての種類の視覚化に追加できる **CityState** フィールドを取得しました。 Jeff が新しいマップを作成するときに、Power BI Desktop では、新しい列の市区町村と都道府県の値を読み取る方法が既に把握されています。
 
-![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
+![マップのビジュアルに表示されているデータを示す Power BI Desktop のスクリーンショット。](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="next-steps"></a>次の手順
 ここでは、計算列に関する概要のみを示しました。 詳細については、次のリソースをご覧ください。

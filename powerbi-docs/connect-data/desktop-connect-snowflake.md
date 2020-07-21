@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b343136acb22d213c0e2ad2dfcf83fbda805e88a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d6de937f4be3c503c146c31a32c56b67ee97a8c4
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224120"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214794"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Power BI Desktop で Snowflake Computing ウェアハウスに接続する
 Power BI Desktop では、**Snowflake** Computing ウェアハウスに接続し、Power BI Desktop の他のデータ ソースの場合と同様に基になっているデータを使用できます。 
@@ -22,15 +22,15 @@ Power BI Desktop では、**Snowflake** Computing ウェアハウスに接続し
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Snowflake Computing ウェアハウスに接続する
 **Snowflake** Computing ウェアハウスに接続するには、Power BI Desktop の **[ホーム]** リボンで **[データの取得]** を選択します。 左側のカテゴリから **[データベース]** を選ぶと、 **[Snowflake]** が表示されます。
 
-![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
+![Snowflake データベースの選択を示す、[データの取得] ダイアログのスクリーンショット。](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
 表示された **[Snowflake]** ウィンドウ内のボックスに Snowflake Computing ウェアハウスの名前を入力するか、貼り付け、 **[OK]** をクリックします。 Power BI にデータを直接**インポート**したり、**DirectQuery** を使用したりできます。 詳しくは、「[Power BI Desktop の DirectQuery](desktop-use-directquery.md)」をご覧ください。 AAD SSO は DirectQuery にのみ対応していることにご注意ください。
 
-![](media/desktop-connect-snowflake/connect-snowflake-3.png)
+![[インポート] ラジオ ボタンが選択されていることを示す、[Snowflake] ダイアログのスクリーンショット。](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 プロンプトが表示されたら、ユーザー名とパスワードを入力します。
 
-![](media/desktop-connect-snowflake/connect-snowflake-4.png)
+![[ユーザー名] と [パスワード] のフィールドを示す、Snowflake の資格情報プロンプトのスクリーンショット。](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
 > 特定の **Snowflake** サーバーのユーザー名とパスワードを入力した場合、Power BI Desktop は以降もその資格情報を使用して接続を試みます。 これらの資格情報を変更するには、 **[ファイル]、[オプションと設定]、[データ ソース設定]** の順に移動します。

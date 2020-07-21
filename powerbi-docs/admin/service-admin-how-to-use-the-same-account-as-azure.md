@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4f1f8947827500ec89d189e17f8ab2189caaff93
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fe93fa3f41cf1c340b31ce3c6f817f842f3039ff
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138977"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161654"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Power BI と Azure で同じアカウントを使用する
 
@@ -32,7 +32,7 @@ Azure と Power BI の両方に同じログインを使用したい場合は、�
 
 1. ナビ ペインで、 **[アクセス制御 (IAM)]** を選択し、 **[追加]** \> **[共同管理者の追加]** を選択します。
 
-    ![Azure portal で共同管理者を追加する](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
+    ![[共同管理者の追加] が強調表示されたアクセス制御のスクリーンショット。](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
 
 1. 組織アカウントに関連付けられているメール アドレスを入力し、 **[追加]** を選択します。
 

@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920783"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214083"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>ページ分割されたレポートでカスケード型パラメーターを使用する
 
@@ -60,7 +60,7 @@ ms.locfileid: "78920783"
 
 この例では、レポート ユーザーは、5 つのレポート パラメーターを操作します。 国/地域、都道府県、市区町村、および郵便番号を選択する必要があります。 最後のパラメーターには、その地理的な場所にあるリセラーの一覧が表示されます。
 
-![5 つのレポート パラメーターを示している図:[国/地域]、[都道府県]、[市区町村]、[郵便番号]、および [リセラー]。 最初の 4 つには値が設定され、リセラーがフィルター処理されて 4 つの項目のみが [リセラー] に一覧表示されます。](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
+![関連する列によるフィルター処理が示されている Power BI のページ分割されたレポート パラメーターのスクリーンショット。](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
 
 カスケード型パラメーターを作成する方法を次に示します。
 
@@ -134,7 +134,7 @@ ms.locfileid: "78920783"
 
 この例では、レポート ユーザーは、リセラーの最初の文字を選択するレポート パラメーターを操作します。 2 番目のパラメーターには、その名前が選択した文字で始まるリセラーの一覧が表示されます。
 
-![次の 2 つのレポート パラメーターを示している図:[グループ] と [リセラー]。 最初のパラメーター値には文字 A が設定され、リセラーがフィルター処理されてその文字で始まる多くの項目が [リセラー] に一覧表示されます。](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
+![グループ化列によるフィルター処理が示されている Power BI のページ分割されたレポート パラメーターのスクリーンショット。](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
 
 カスケード型パラメーターを作成する方法を次に示します。
 
@@ -196,7 +196,7 @@ GO
 
 この例では、レポート ユーザーは、検索パターンを入力するレポート パラメーターを操作します。 2 番目のパラメーターには、その名前にパターンが含まれているリセラーの一覧が表示されます。
 
-![次の 2 つのレポート パラメーターを示している図:[検索] と [リセラー]。 最初のパラメーター値にはテキスト "red" が設定され、リセラーがフィルター処理されてそのテキストが含まれているいくつかの項目が [リセラー] に一覧表示されます。](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
+![検索パターンによるフィルター処理が示されている Power BI のページ分割されたレポート パラメーターのスクリーンショット。](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
 
 カスケード型パラメーターを作成する方法を次に示します。
 
@@ -242,7 +242,7 @@ WHERE
 
 この例では、レポート ユーザーは、3 つのレポート パラメーターを操作します。 最初の 2 つには、販売注文日の日付範囲が設定されます。 3 番目のパラメーターには、その期間中に注文が作成されたリセラーの一覧が表示されます。
 
-![次の 3 つのレポート パラメーターを示している図:[開始注文日]、[終了注文日]、および [リセラー]。 2 つの日付パラメーターには 2020 年 1 月の日付が設定され、リセラーがフィルター処理されて、その月に注文を行ったリセラーを表す多くの項目が [リセラー] に一覧表示されます。](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
+![次の 3 つのレポート パラメーターが示されている Power BI のページ分割されたレポート パラメーターのスクリーンショット。[開始注文日]、[終了注文日]、および [リセラー]。](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
 
 カスケード型パラメーターを作成する方法を次に示します。
 

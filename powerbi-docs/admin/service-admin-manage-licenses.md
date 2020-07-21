@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b110dceb7427e3aeefe8e7ef48e579943a7e6f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228462"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161355"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Power BI ユーザー ライセンスの表示と管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "85228462"
 
 アクティブな Power BI サブスクリプションが、ご利用中のその他のサブスクリプションと共に一覧表示されます。 次に示すように、想定されていない Power BI Free のサブスクリプションが表示される場合があります。
 
-  ![ユーザーがアクティブ化した Power BI (無料) サブスクリプション](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
+  ![無料サブスクリプションが表示されている Power BI サブスクリプションのスクリーンショット。](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
 この種類のサブスクリプションは、ユーザーがセルフサービス サインアップを利用するときに自動的に作成されます。 詳細については、「[組織内の Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)」を参照してください。
 

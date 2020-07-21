@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279597"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214539"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery モデルのガイダンス
 
@@ -54,9 +54,9 @@ Power BI Desktop を使用して、すべての DirectQuery モデルを作成�
 
 - **複雑な Power Query クエリを避ける:** 効率的なモデル設計を実現するには、すべての変換に対して Power Query クエリを適用する必要がないようにします。 これは、各クエリを 1 つのリレーショナル データベース ソースのテーブルまたはビューにマップすることを意味します。 **[ネイティブ クエリを表示]** オプションを選択することで、Power Query が適用されるステップに対する実際の SQL クエリ ステートメントの表現をプレビューできます。
 
-    ![クエリ エディターの適用されたステップに、5 つのステップが表示されています。 "名前が変更された列" という名前の最後のステップを右クリックし、コンテキスト メニューが開かれています。 [ネイティブ クエリを表示] オプションが有効であり、強調して示されています。](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
+    ![[適用したステップ] の [ネイティブ クエリを表示] オプションを示す、Power BI Desktop のスクリーンショット。](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
     
-    ![[ネイティブ クエリ] ウィンドウに、ソース テーブルを結合する T-SQL クエリが表示されています。](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
+    ![[ネイティブ クエリ] ウィンドウを示す Power BI Desktop のスクリーンショット。 クエリ ステートメントによって、2 つのソース テーブルが結合されます。](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
 
 - **計算列とデータ型の変更の使用を調べる:** DirectQuery モデルでは、データ型を変換するための計算と Power Query ステップの追加がサポートされています。 ただし、可能であれば、リレーショナル データベース ソースで変換結果を具体化することにより、多くの場合、パフォーマンスが向上します。
 - **Power Query の相対日付フィルター処理を使用しない:** Power Query のクエリでは、相対日付フィルター処理を定義できます。 たとえば、昨年 (今日の日付を基準に) に作成された販売注文を取得するような場合です。 この種のフィルターは、次のように、非効率的なネイティブ クエリに変換されます。
@@ -81,7 +81,7 @@ Power BI Desktop を使用して、すべての DirectQuery モデルを作成�
 - **双方向のリレーションシップ フィルター処理を使用しない:** 双方向のリレーションシップ フィルター処理を使用すると、クエリ ステートメントが正常に実行されない可能性があります。 このリレーションシップ機能は、必要な場合にのみ使用してください。通常は、ブリッジ テーブル間で多対多リレーションシップを実装する場合に使用します。 詳細については、「[Power BI Desktop での多対多カーディナリティのリレーションシップ](../transform-model/desktop-many-to-many-relationships.md)」を参照してください。
 - **並列クエリを制限する:** 基になる各データ ソースに対して DirectQuery で開かれる最大接続数を設定できます。 これにより、データ ソースに同時に送信されるクエリの数を制御します。
 
-    ![Power BI Desktop ウィンドウが開かれ、[現在のファイル] の [DirectQuery] ページが選択されています。 [データ ソースあたりの最大接続数] プロパティが強調して示されています。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
+    ![[DirectQuery オプション] ウィンドウを示す Power BI Desktop のスクリーンショット。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
     
     この設定は、モデルに DirectQuery ソースが少なくとも 1 つあるときにのみ有効になります。 この値はすべての DirectQuery ソースに適用され、モデルに追加された新しい DirectQuery ソースに適用されます。
 
@@ -95,7 +95,7 @@ Power BI Desktop を使用して、すべての DirectQuery モデルを作成�
 
 - **クエリ削減の手法を有効にする:** Power BI Desktop の [オプションと設定] には [クエリを減らす] ページがあります。 このページには 3 つの便利なオプションがあります。 クロス強調表示とクロス フィルター処理を既定で無効にすることもできますが、これは編集操作によってオーバーライドされる可能性があります。 また、スライサーとフィルターに [適用] ボタンを表示することもできます。 レポート ユーザーがボタンをクリックするまで、スライサーまたはフィルターのオプションは適用されません。 これらのオプションを有効にする場合は、最初にレポートを作成するときに行うことをお勧めします。
 
-    ![Power BI Desktop ウィンドウが開かれ、[現在のファイル] の [クエリを減らす] ページが選択されています。 送信されるクエリの数を減らし、スライサーとフィルターに [適用] ボタンを表示する、3 つのオプションを使用できます。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
+    ![[オプション] ウィンドウの [クエリを減らす] フィルターを示す、Power BI Desktop のスクリーンショット。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
     
 - **フィルターを最初に適用する:** 最初にレポートを設計するときは、フィールドをビジュアルのフィールドにマッピングする前に、レポート、ページ、またはビジュアルのレベルで、適用可能なフィルターを適用することをお勧めします。 たとえば、**Country** メジャーと **Sales** メジャーをドラッグしてから、特定の年でフィルター処理するのではなく、先に **Year** フィールドにフィルターを適用します。 これは、視覚エフェクト作成の各ステップでクエリが送信され、最初のクエリが完了する前に別の変更を加えることができるので、基になるデータ ソースに不要な読み込みが配置される可能性があるためです。 最初にフィルターを適用することで、一般にこれらの中間クエリのコストは低下し、処理が速くなります。 また、フィルターを早期に適用しないと、前述のように 100 万行の制限を超えてしまう可能性があります。
 - **ページ上の視覚エフェクトの数を制限する:** レポート ページが開かれるときに (およびページ フィルターが適用されるとき)、ページ上のすべてのビジュアルが更新されます。 ただし、前に説明したように、同時に送信できるクエリの数には、Power BI 環境と、 **[データ ソースあたりの最大接続数]** モデル設定によって適用される制限があります。 そのため、ページのビジュアルの数が増えるにつれて、更新が順番に行われる可能性が高くなります。 これにより、ページ全体の更新にかかる時間が長くなります。また、ビジュアルに表示される結果に一貫性がなくなる可能性が高くなります (揮発性のデータ ソースの場合)。 このため、ページのビジュアルの数を制限し、代わりに単純なページを多数作成します。 複数のカード ビジュアルを 1 つの複数行カード ビジュアルに置き換えて、似たページ レイアウトを実現できます。
@@ -105,7 +105,7 @@ Power BI Desktop を使用して、すべての DirectQuery モデルを作成�
 
 - **メジャー フィルター:** メジャー (または列の集計) が含まれるビジュアルでは、それらのメジャーにフィルターが適用される場合があります。 たとえば、次のビジュアルでは **Category** 別の **Sales** が示されていますが、売上が 1,500 万ドルを超えるカテゴリのみについてです。
 
-    ![テーブルのビジュアルには、次の 2 つの列があります: Category と Sales。 [フィルター] ペインには、1,500 万ドルを超える値の Sales メジャーに対するフィルターが表示されています。 テーブルには 3 つの行があり、各行には 1,500 万ドルを超える売上の値が含まれます。](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
+    ![フィルターが適用された表形式データを示す Power BI Desktop のスクリーンショット。](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
     
     
     これにより、基になるソースに 2 つのクエリが送信される可能性があります。
