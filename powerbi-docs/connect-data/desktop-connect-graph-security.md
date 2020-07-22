@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c691446d7cc9a976e38cab5aefc385c988cb1552
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9f434d27a11d171509645594a6f7f67e62c16faa
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347771"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409308"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop の Microsoft Graph Security API に接続する
 
@@ -32,6 +32,7 @@ Microsoft Graph Security コネクタを使用するには、Azure Active Direct
 |----------|-------|
 | **アプリケーション名** | `MicrosoftGraphSecurityPowerBIConnector` |
 | **アプリケーション ID** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
+| **リダイレクト URI** | `https://oauth.powerbi.com/views/oauthredirect.html` |
 |||
 
 コネクタに対して同意を付与するために、Azure AD テナント管理者は次のいずれかの方法を使用できます。
@@ -87,7 +88,7 @@ Microsoft Graph Security コネクタにサインインするユーザーが "*�
 
 これで、Microsoft Graph Security コネクタからインポートしたデータを Power BI Desktop で使用する準備ができました。 グラフィックスまたはレポートを作成することができます。 あるいは、Excel ブック、データベース、またはその他のデータ ソースからインポートした他のデータを操作することもできます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * このコネクタを使用する Power BI のサンプルやテンプレートについては、「[Microsoft Graph Security GitHub Power BI samples](https://aka.ms/graphsecuritypowerbiconnectorsamples)」 (Microsoft Graph Security GitHub Power BI のサンプル) を参照してください。
 
 * ユーザー シナリオや追加情報については、[Microsoft Graph Security Power BI コネクタに関するブログ記事](https://aka.ms/graphsecuritypowerbiconnectorblogpost)を参照してください。
