@@ -156,8 +156,6 @@
           items:
             - name: ファイルからデータを取得
               href: service-get-data-from-files.md
-            - name: Excel での魅力的なレポート作成
-              href: service-from-excel-to-stunning-report.md
             - name: Excel ブック ファイルからデータを取得する
               href: service-excel-workbook-files.md
             - name: Power BI Desktop ファイルからデータを取得する
