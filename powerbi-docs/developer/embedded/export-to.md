@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 03/24/2020
-ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/13/2020
+ms.openlocfilehash: 04dae0a59391ba48c7a8b6858c98ed11490ca946
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034499"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557102"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI レポートをファイルにエクスポートする (プレビュー)
 
@@ -117,9 +117,10 @@ RLS を使用してエクスポートするには、次のアクセス許可を�
 
 エクスポート ジョブを作成するときは、3 つのステップに従って行います。
 
-1. エクスポート要求の送信。
-2. ポーリング。
-3. ファイルの取得。
+1. [エクスポート要求の送信](#step-1---sending-an-export-request)。
+2. [ポーリング](#step-2---polling)。
+3. [ファイルの取得](#step-3---getting-the-file)。
+4. [ファイル ストリームの使用](#step-4---using-the-file-stream)。
 
 ここでは、各ステップの例を示します。
 
@@ -231,6 +232,10 @@ public class ExportedFile
     public string FileSuffix;
 }
 ```
+
+### <a name="step-4---using-the-file-stream"></a>ステップ 4 - ファイル ストリームの使用
+
+ファイル ストリームがある場合は、ご自身のニーズに最も合った方法で処理できます。 たとえば、メールで送信したり、エクスポートされたレポートをダウンロードするために使用したりできます。
 
 ### <a name="end-to-end-example"></a>エンド ツー エンドの例
 

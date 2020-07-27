@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/22/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 056d69a866b0b56e83557e77462e03e3e00a2c8d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218541"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409515"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Power BI で相対時間のスライサーおよびフィルターを使用する
 
@@ -22,18 +22,12 @@ ms.locfileid: "85218541"
 
 新しい高速更新シナリオでは、より小さな時間枠をフィルター処理する機能が便利な場合があります。 相対時間スライサーまたは相対時間フィルターを使用して、データ モデルの任意の日付列または時間列に時間ベースのフィルターを適用することができます。 たとえば、相対時間スライサーを使用すると、過去の数分または数時間以内のビデオ ビューのみを表示できます。 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="相対時間の例":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="相対時間の例のスクリーンショット。":::
 
 この機能は、[ページの自動更新](../create-reports/desktop-automatic-page-refresh.md)機能と一緒に使用する必要はありません。 ただし、多くの相対時間シナリオは、ページの自動更新機能と組み合わせてうまく使用できます。  
 
 > [!NOTE]
 > 相対時間のフィルターまたはスライサーをページ レベルまたはレポート レベルで適用するとき、共有*アンカー*日時を使用すると、そのページまたはレポートのすべてのビジュアルがまったく同じ時間範囲にフィルターされます。 ビジュアルの実行時間は多少異なる場合があるため、この共有アンカー日時によって、ページ全体またはレポート全体でビジュアルが確実に同期されます。 アンカー日時の詳細については、[こちらの](#understanding-anchor-time)記事を参照してください。
-
-## <a name="turn-on-relative-time-preview"></a>相対時間のプレビューを有効にする
-
-相対時間フィルターはプレビュー段階であるため、機能スイッチをオンにする必要があります。 **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]** の順に移動します。 **[グローバル設定]**  >  **[プレビュー機能]** で、 **[相対時間フィルター]** が選択されていることを確認します。
-
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-preview.png" alt-text="相対時間のプレビュー オプションを設定する":::
 
 ## <a name="create-a-relative-time-slicer-or-filter"></a>相対時間のスライサーまたはフィルターを作成する
 
@@ -45,7 +39,7 @@ ms.locfileid: "85218541"
 
 2. **[スライサー]** の視覚化の種類を選択します。
 
-    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="時間スライサーを作成する":::
+    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="時間スライサーの作成のスクリーンショット。":::
 
 ### <a name="create-a-filter"></a>フィルターを作成する
  
@@ -55,27 +49,27 @@ ms.locfileid: "85218541"
 
 次に、フィルターの種類を **[相対時間]** に変更します。
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="相対時間に変更する":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="相対時間への変更のスクリーンショット。":::
  
 スライサーでは、次のようになります。
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="スライサーでの相対時間":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="スライサーでの相対時間のスクリーンショット。":::
 
 フィルター カードでは、次のようになります。 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="フィルターでの相対時間":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="フィルターでの相対時間のスクリーンショット。":::
  
-この新しいフィルターの種類を使用すると、 **[Last]\(前回\)** 、 **[Next]\(次回\)** 、または **[This]\(今回\)** の期間に基づいてフィルター処理できます。 
+この新しいフィルターの種類を使用すると、 **[Last]\(前回\)** 、 **[Next]\(次回\)** 、または **[This]\(今回\) の期間**に基づいてフィルター処理できます。 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="[Last]\(前回\)、[Next]\(次回\)、または [This]\(今回\) の期間を選択する":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="[Last]\(前回\)、[Next]\(次回\)、または [This]\(今回\) の期間を選択するスクリーンショット。":::
  
 整数と時間単位を使用して、時間枠を指定します。 **[分]** または **[時間]** を指定します。
  
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="分または時間を選択する":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="分または時間を選択するスクリーンショット。":::
 
 キャンバス上のスペースを節約する必要がある場合は、[フィルター] ペインでフィルター カードとして相対時間フィルターを作成することもできます。
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="代わりにフィルターで相対時間を設定する":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="代わりにフィルターで相対時間を設定するスクリーンショット。":::
  
 ## <a name="understanding-anchor-time"></a>アンカー時間について
 
@@ -91,7 +85,7 @@ ms.locfileid: "85218541"
 - Q&A ビジュアルを使用した相対時間フィルターは、Q&A ビジュアルを標準ビジュアルに変換しない限り、このアンカー時間を基準としません。 ただし、主要なインフルエンサや分解ツリーなどのその他の AI ビジュアルは、アンカー時間と同期されます。 
 - また、相対日付フィルターやスライサーは、相対時間フィルターが存在しなければ、アンカー時間を基準としません。 相対日付フィルターと相対時間フィルターが同じページにある場合、相対日付フィルターはアンカー時間に従います。
 
-## <a name="limitations-and-considerations"></a>制限事項と考慮事項
+## <a name="limitations-and-considerations"></a>制限と考慮事項
 
 現在、相対時間スライサーおよびフィルターには、次の制限事項と考慮事項が適用されています。
 
@@ -101,9 +95,9 @@ ms.locfileid: "85218541"
     - 埋め込み API 経由ではサポートされていません。
     - [Web に公開] ではサポートされていません。
 
-- **クエリ キャッシュ**:クライアント キャッシュを使用します。 したがって、"最後の 1 分"、"最後の 5 分" を指定してから "最後の 1 分" に戻すとします。 その時点で、ページを更新したりページが自動的に更新されたりしない限り、最初に実行したときと同じ結果が表示されます。
+- **クエリ キャッシュ**:クライアント キャッシュが使用されます。 たとえば、"最後の 1 分"、"最後の 5 分" を指定してから "最後の 1 分" に戻すとします。 その時点で、ページを更新したりページが自動的に更新されたりしない限り、最初に実行したときと同じ結果が表示されます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [Power BI で相対日付のスライサーおよびフィルターを使用する](../visuals/desktop-slicer-filter-date-range.md)
 - [Power BI のスライサー](../visuals/power-bi-visualization-slicers.md)

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034292"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557212"
 ---
 # <a name="understand-the-deployment-process-preview"></a>配置プロセスについて理解する (プレビュー)
 
@@ -152,11 +152,11 @@ ms.locfileid: "86034292"
 
 配置パイプラインのステージごとにアプリを作成し、各アプリの更新部分をエンド ユーザーの観点からテストできるようにします。 配置パイプラインを使用すると、このプロセスを簡単に管理できます。 特定のパイプライン ステージでアプリを発行または表示するには、ワークスペース カードの発行ボタンまたは表示ボタンを使用します。
 
-[![アプリの発行](media/deployment-pipelines-process/publish.png "アプリの発行")](media/deployment-pipelines-process/publish.png#lightbox)
+[![運用ステージの右下にあるアプリの発行ボタンが強調表示されたスクリーンショット。](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
 運用ステージでは、左下隅にあるメイン アクション ボタンをクリックすると、Power BI のアプリの更新ページが開き、アプリ ユーザーがコンテンツを更新できるようになります。
 
-[![アプリの更新](media/deployment-pipelines-process/update-app.png "アプリを更新")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![運用ステージの右下にあるアプリの更新ボタンが強調表示されたスクリーンショット。](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >デプロイ プロセスには、アプリのコンテンツや設定の更新は含まれません。 コンテンツまたは設定に変更を適用するには、必要なパイプライン ステージでアプリを手動で更新する必要があります。

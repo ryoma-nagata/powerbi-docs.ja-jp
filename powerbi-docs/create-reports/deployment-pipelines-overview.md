@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: be945d1d9612804a90c14c47d2c468f5ed5a843f
-ms.sourcegitcommit: 008467dc9d4f88f91728c59caeb68b7db94f267c
+ms.openlocfilehash: 5522d84cab235270a2eb368be02cfa0fb4e5eaa9
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82885032"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557143"
 ---
 # <a name="introduction-to-deployment-pipelines-preview"></a>デプロイ パイプラインの概要 (プレビュー)
 
@@ -40,7 +40,7 @@ ms.locfileid: "82885032"
 
     コンテンツのテスト後、運用ステージを使用して、コンテンツの最終バージョンを組織内のビジネス ユーザーと共有します。
 
-![デプロイ パイプライン](media/deployment-pipelines-overview/deployment-pipelines.png)
+![開発、テスト、運用という 3 つのステージすべてが設定された、動作中のデプロイ パイプラインのスクリーンショット。](media/deployment-pipelines-overview/deployment-pipelines.png)
 
 ## <a name="next-steps"></a>次の手順
 

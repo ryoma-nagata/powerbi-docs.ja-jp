@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 02/21/2020
+ms.date: 07/16/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1b127bae83338264ac450438956e03a5ec24cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236631"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459556"
 ---
 # <a name="manage-data-sources"></a>データ ソースを管理する
 
@@ -102,6 +102,9 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 
 ゲートウェイへの管理アクセス権をユーザーとセキュリティ グループに与えることもできます。
 
+> [!NOTE]
+> データ ソースへのアクセス権を持つユーザーは、データ ソースの作成時に選択されたセキュリティ オプション (保存された資格情報またはシングル サインオン) に基づいて、データ ソースにデータセットを関連付け、接続できます。
+
 ### <a name="add-users-to-a-data-source"></a>データ ソースへのユーザーの追加
 
 1. Power BI サービスの右上にある歯車アイコン ![[設定] 歯車アイコン](media/service-gateway-data-sources/icon-gear.png) >  **[ゲートウェイの管理]** の順に選択します。
@@ -132,7 +135,7 @@ OAuth は、オンプレミスのデータ ゲートウェイを使用するカ�
 
 オンプレミス データ ゲートウェイでサポートされているデータ ソースに関する詳細については、「[Power BI データ ソース](power-bi-data-sources.md)」を参照してください。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)
 * [データ ソースの管理 - SAP HANA](service-gateway-enterprise-manage-sap.md)

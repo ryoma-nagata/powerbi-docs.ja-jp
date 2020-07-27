@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/08/2020
-ms.openlocfilehash: 037fbdf3c1e4c01bac91e6089f9fa1c7dd1635d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/14/2020
+ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238979"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437217"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI ビジュアルをパートナー センターに発行する
 
@@ -23,7 +23,7 @@ Power BI ビジュアルを作成した後、それを AppSource に発行する
 
 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) は、Microsoft の製品とサービス向けの SaaS アプリとアドインを見つける場所です。
 
-![Office ストア](media/office-store/appsource-01.png)
+![AppSource の Power BI 視覚化のスクリーンショット。](media/office-store/appsource-01.png)
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Power BI ビジュアルを提出するための準備
 
@@ -61,7 +61,7 @@ Power BI ビジュアルを提出するには、Power BI チームから提供�
 
 ## <a name="submitting-to-appsource"></a>AppSource への送信
 
-Power BI ビジュアルを AppSource に提出するには、Power BI チームからアプリ パッケージを取得した後、それをパートナー センターに提出する必要があります。 
+Power BI ビジュアルを AppSource に提出するには、Power BI チームからアプリ パッケージを取得した後、それをパートナー センターに提出する必要があります。
 
 ### <a name="getting-the-app-package"></a>アプリ パッケージの取得
 
@@ -73,6 +73,11 @@ AppSource に提出する前に、**pbiviz** ファイルと **pbix** ファイ�
 
 自分の Power BI ビジュアルをパートナー センターに提出するには、パートナー センターに登録されている必要があります。 まだ登録されていない場合は、[パートナー センター内に開発者アカウントを開きます](https://docs.microsoft.com/office/dev/store/open-a-developer-account)。
 
+>[!NOTE]
+>**個人の発行元**は、次のいずれかの方法を使用して Power BI 視覚化を提出できます。
+>* 以前の販売者ダッシュボード アカウントをお持ちの場合は、引き続きこのアカウントの資格情報を使用してパートナー センターにサインインできます。
+>* 以前の販売者ダッシュボード アカウントをお持ちでなく、お客様がパートナー センターに登録されていない場合は、仕事用メール アドレスを使用して、[パートナー センターで開発者アカウントを開設する](https://docs.microsoft.com/office/dev/store/open-a-developer-account)必要があります。
+
 次の手順に従って、自分の Power BI ビジュアルをパートナー センターに提出します。 提出プロセスの詳細については、「[パートナー センターから AppSource に Office ソリューションを提出する](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource)」を参照してください。
 
 1. **パートナー センター**にログインします。
@@ -83,7 +88,7 @@ AppSource に提出する前に、**pbiviz** ファイルと **pbix** ファイ�
 
 4. **[新規作成]** を選択し、ドロップダウン メニューから **[Power BI ビジュアル]** を選択します。
 
-    ![Office ストア](media/office-store/power-bi-visual.png)
+    ![パートナー センターの Office ストア タブで新しい Power BI 視覚化を作成するスクリーンショット。](media/office-store/power-bi-visual.png)
 
 5. **[新しい Power BI ビジュアルの作成]** ウィンドウで、自分の Power BI ビジュアルの名前を入力し、 **[作成]** を選択します。
 

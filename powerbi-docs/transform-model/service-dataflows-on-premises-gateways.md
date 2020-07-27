@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 01/08/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237777"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459648"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>オンプレミス データ ソースでのデータフローの使用
 
@@ -69,9 +69,10 @@ ms.locfileid: "85237777"
 * ゲートウェイを変更すると、データフロー全体に影響があります。
 * 複数のゲートウェイが必要な場合の最善の方法は、複数のデータフロー (ゲートウェイごとに 1 つ) を作成し、計算機能またはエンティティ参照機能を使用して、データを統合することです。
 * データフローは、エンタープライズ ゲートウェイを使用した場合にのみサポートされます。 個人用ゲートウェイは、ドロップダウン リストおよび設定画面で選択できません。
+* [[Kerberos を使用した SSO を DirectQuery とインポート クエリに使用する]](../connect-data/service-gateway-sso-kerberos.md#run-a-power-bi-report) オプションを指定して構成されたオンプレミスのデータ ソースは、データフローではサポートされません。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 この記事では、データフロー用にオンプレミス データ ソースを使用すること、およびそのようなデータにアクセスするためにゲートウェイを使用および構成する方法について説明しました。 次の記事も役に立ちます
 

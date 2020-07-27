@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e41a13fac3e0ffea5171d2927cc0f3b9debbeef1
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485877"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557166"
 ---
 # <a name="deployment-pipelines-troubleshooting-preview"></a>配置パイプラインのトラブルシューティング (プレビュー)
 
@@ -110,7 +110,7 @@ Power BI の配置パイプラインがどのようなものであるかを理�
 
 データセット ルールに値がありません。 この問題は、データセットが変更された場合に発生する可能性があります。
 
-![破損したルール](media/deployment-pipelines-troubleshooting/broken-rule.png)
+![破損したリンクのために配置が失敗した場合に表示される、無効なルールに関するエラーのスクリーンショット。](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
 以前は成功した配置が、破損したリンクのために失敗する場合は、警告が表示されます。 **[ルールの構成]** をクリックすると、失敗したデータセットがマークされている配置設定ペインに移動できます。 データセットをクリックすると、破損したルールがマークされます。
 

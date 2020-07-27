@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e76d820e804a19db148e0db4c2702e002ee2c017
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4dd5698f91177733e150577490775eefb7e2f2ef
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275917"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557188"
 ---
 # <a name="deployment-pipelines-best-practices-preview"></a>デプロイ パイプラインのベスト プラクティス (プレビュー)
 
@@ -140,7 +140,7 @@ XMLA の r/w 機能を使用して、外部ワークスペースで[共有デー
 
 テスト時には、運用ステージと同じ容量を使用できます。 ただし、これによって、ロード テスト中に運用が不安定になる可能性があります。 運用が不安定になることを回避するには、テストに運用容量のリソースに似た別の容量を使用します。 余分なコストを回避するには、[Azure A 容量](../developer/embedded/azure-pbie-create-capacity.md)を使用して、テスト時間に対してのみ支払いを行うことができます。
 
-![デプロイ パイプラインのベスト プラクティスの図](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
+![運用環境をシミュレートするテスト環境を備えたデプロイ パイプラインを示す図。](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
 
 ### <a name="use-dataset-rules-with-a-real-life-data-source"></a>データセット ルールを実際のデータ ソースで使用する
 

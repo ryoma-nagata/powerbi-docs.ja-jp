@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1febf93d35500d56f5b3b104487725f33d7b17ad
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a1e42b4901e8659bb5d999294f29a80a0389280
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234181"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557235"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop"></a>Power BI Desktop でのページの自動更新 
 
@@ -146,6 +147,7 @@ Power BI Desktop または Power BI サービスでページの自動更新を�
 * ページの自動更新では、Import、LiveConnect、および Push ストレージ モードはサポートされません。  
 * 少なくとも 1 つの DirectQuery データ ソースを持つ複合モデルがサポートされています。
 * Power BI Desktop には、更新間隔に関する制限はありません。 1 秒ごとの間隔に設定することもできます。 レポートが Power BI サービスに発行されると、この記事で[前](#restrictions-on-refresh-intervals)に説明したように、特定の制限が適用されます。
+* SharePoint Online の埋め込みでは、ページの自動更新はサポートされていません。
 
 ### <a name="performance-diagnostics"></a>パフォーマンス診断
 

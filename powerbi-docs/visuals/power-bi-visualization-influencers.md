@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d5010097eff980bff59bea049684e381ed948514
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 48f094def0576d6e90a71117cc37ac975304e07f
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237834"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557281"
 ---
 # <a name="create-key-influencers-visualizations"></a>主要なインフルエンサーの視覚化を作成する
 
@@ -275,6 +275,7 @@ ID の数を見てみましょう。 各顧客の行には、関連付けられ�
 - Azure Analysis Services および SQL Server Analysis Services へのライブ接続はサポートされていません
 - Web への公開はサポートされていません
 - .NET Framework 4.6 以降が必要です
+- SharePoint Online の埋め込みはサポートされていません
 
 ![数値の質問](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 

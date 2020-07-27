@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: dc71bff7cd27ec369899a02cc9da0f916a043af1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225247"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437264"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
 Power BI サービスでレポートを開くと、レポートの各ページに一意の URL があります。 そのレポート ページをフィルター処理するには、レポート キャンバスの [フィルター] ウィンドウを使うことができます。  または、クエリ文字列パラメーターを URL に追加して、レポートを事前にフィルター処理できます。 同僚に見せるレポートに事前にフィルターを適用したい場合、 これをフィルター処理する方法の 1 つは、レポートの既定の URL にフィルター パラメーターを追加し、新しい URL 全体をメールで同僚に送ることです。
 
-![サービスでの Power BI のレポート](media/service-url-filters/power-bi-report2.png)
+この記事では、小売の分析サンプル レポートを使用します。 記事の内容に従いたい場合は、[サンプル レポートをダウンロード](../create-reports/sample-retail-analysis.md#get-the-sample)できます。
+
+![サービスでの Power BI レポートのスクリーンショット。](media/service-url-filters/power-bi-retail-analysis-sample.png)
 
 ## <a name="uses-for-query-string-parameters"></a>クエリ文字列パラメーターの用途
 
@@ -35,18 +37,10 @@ Power BI Desktop で作業しているとします。 他の Power BI レポー�
 
 *<URL>* ?filter= *<テーブル>* / *<フィールド>* eq ' *<値>* '
 
-![フィルターを含む URL](media/service-url-filters/power-bi-filter-urls7b.png)
+![フィルター付き URL のスクリーンショット。](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **テーブル**と**フィールド**の名前では大文字と小文字が区別されますが、**値**では区別されません。
 * レポート ビューに表示されないフィールドをフィルター処理することもできます。
-
-### <a name="reports-in-apps"></a>アプリ内のレポート
-
-アプリ内のレポートに URL フィルターを追加する場合は、書式設定が少し異なります。 アプリ内のレポートへのリンクには、URL に追加されるクエリ パラメーター (ctid) が含まれます。 クエリ パラメーターはアンパサンド (&) で区切ります。 “?filter=” を保持し、ctid パラメーターを URL の末尾に移動し、その前にアンパサンド (&) を指定します。 
-
-次の例のようにします。
-
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*'&ctid=*ctid*
 
 ### <a name="field-types"></a>フィールドの型
 
@@ -62,27 +56,19 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 次のようなレポートの URL があるものとします。
 
-![URL の開始](media/service-url-filters/power-bi-filter-urls6.png)
+![開始 URL のスクリーンショット。](media/service-url-filters/power-bi-filter-urls6.png)
 
-そして、ノースカロライナ州の店舗に関するマップの視覚化 (上図) を表示します。
+そして、上のマップの視覚化には、ノースカロライナの店舗が表示されています。 *NC* は、**Store** テーブルの **Territory** フィールドに含まれている、ノースカロライナを表す値です。 したがって、"NC" の店舗のデータだけが表示されるようにレポートをフィルター処理するには、次の文字列を URL に追加します。
 
->[!NOTE]
->この例は、[Retail Analysis サンプル](../create-reports/sample-datasets.md)が基になっています。
-> 
-
-"NC" (ノースカロライナ) の店舗のデータだけが表示されるようにレポートをフィルター処理するには、URL に以下を追加します。
-
+```
 ?filter=Store/Territory eq 'NC'
+```
 
-![フィルターを含む URL](media/service-url-filters/power-bi-filter-urls7.png)
+![フィルター付き URL のスクリーンショット。](media/service-url-filters/power-bi-filter-urls7.png)
 
->[!NOTE]
->*NC* は、**Store** テーブルの **Territory** フィールドに格納されている値です。
-> 
+これでレポートがノースカロライナでフィルター処理されました。レポートに含まれるすべての視覚化には、ノースカロライナのデータだけが表示されています。
 
-レポートはノースカロライナでフィルター処理されます。レポート ページのすべての視覚化には、ノースカロライナのデータだけが表示されます。
-
-![ノースカロライナでフィルター処理されたレポート](media/service-url-filters/power-bi-report4.png)
+![ノースカロライナでフィルター処理されたレポートのスクリーンショット。](media/service-url-filters/power-bi-url-filter-nc.png)
 
 ## <a name="filter-on-more-than-one-value-in-a-field"></a>1 つのフィールド内の複数の値をフィルター処理する
 
@@ -92,7 +78,9 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 同じ例を使用して、"NC" (ノースカロライナ) または "TN" (テネシー) の店舗のデータのみを表示するようにレポートをフィルター処理するには、URL に以下を追加します。
 
+```
 ?filter=Store/Territory in ('NC', 'TN')
+```
 
 その他の便利な演算子の一覧については、この記事で後述する「[演算子](#operators)」の表を参照してください。
 
@@ -116,14 +104,14 @@ Power BI では、'**and**' に加え、多くの演算子がサポートされ�
 
 |演算子  | 定義 | 文字列  | 数値 | Date |  例|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | と |  はい      | はい |  はい|  product/price le 200 and price gt 3.5 |
-|**eq**     | 次の値に等しい |  はい      | はい   |  はい       | Address/City eq 'Redmond' |
-|**ne**     | 等しくない |   はい      | はい  | はい        |  Address/City ne 'London' |
-|**ge**     |  以上       | いいえ | はい |はい |  product/price ge 10
-|**gt**     | より大きい        |いいえ | はい | はい  | product/price gt 20
-|**le**     |   以下      | いいえ | はい | はい  | product/price le 100
-|**lt**     |  次の値未満       | いいえ | はい | はい |  product/price lt 20
-|**in\*\***     |  含む       | はい | はい |  はい | Student/Age in (27, 29)
+|**and**     | と |  はい      | ○ |  ○|  product/price le 200 and price gt 3.5 |
+|**eq**     | 次の値に等しい |  はい      | ○   |  はい       | Address/City eq 'Redmond' |
+|**ne**     | 等しくない |   はい      | ○  | はい        |  Address/City ne 'London' |
+|**ge**     |  以上       | no | はい |はい |  product/price ge 10
+|**gt**     | より大きい        |no | はい | ○  | product/price gt 20
+|**le**     |   以下      | no | はい | ○  | product/price le 100
+|**lt**     |  次の値未満       | no | はい | ○ |  product/price lt 20
+|**in\*\***     |  含む       | はい | ○ |  ○ | Student/Age in (27, 29)
 
 
 \*\***in** を使用する場合、**in** の右側の値をかっこで囲んだコンマ区切りのリストにすることができます。または、コレクションを返す単一の式にすることもできます。
@@ -167,10 +155,10 @@ V3 と V4 には他にも違いがあります。 OData V3 では、Dates はサ
 |**[列]**     |  [ is 0x005B ] は 0x005D       |  _x005B_Column_x005D_       |
 |**列+プラス**     | + は 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![ 特殊文字をレンダリングするテーブルのビジュアル](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![ 特殊文字をレンダリングするテーブルの視覚化のスクリーンショット。](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![特殊文字をレンダリングするテーブルのビジュアル](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![特殊文字をレンダリングするテーブルの視覚化のスクリーンショット。](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>値の特殊文字
 
@@ -200,7 +188,9 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 レポートを Power BI サービスに公開した後、URL クエリ文字列を使って、NC の Lindseys 店のデータだけを表示するようにフィルター処理します。
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
+https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>フィルター処理されたレポートのタイルをピン留めする
 
@@ -216,6 +206,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 * また、Power BI Report Server では、"filter" URL パラメーターを使用して追加のフィルターを指定する機能もサポートされています。 Power BI Report Server の URL は次の例のようになります。`https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * レポート URL フィルターには、10 個の式 (AND によって連結された 10 個のフィルター) の制限があります。
 * JavaScript の制限により、long データ型は (2^53-1) となります。
+* Power BI には、URL クエリ文字列に含まれる文字数の制限はありません。 ブラウザーによって長さの制限が異なります。
 
 URL フィルターは、一部の埋め込みシナリオではサポートされており、他のシナリオではサポートされていません。
 

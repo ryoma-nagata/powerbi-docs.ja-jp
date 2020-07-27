@@ -7,11 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354733"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557258"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>デプロイ パイプラインの使用を開始する (プレビュー)
 
@@ -30,7 +31,7 @@ ms.locfileid: "85354733"
 >[!NOTE]
 > また、既にパイプラインを作成している場合や、パイプラインが共有されている場合は、[デプロイ パイプライン] ボタンが表示されます。
 
-![デプロイ パイプラインのランディング ページ](media/deployment-pipelines-get-started/creating-pipeline.png)
+![デプロイ パイプラインのランディング ページのスクリーンショット。](media/deployment-pipelines-get-started/creating-pipeline.png)
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>手順 1 - デプロイ パイプラインの作成
 
@@ -83,7 +84,7 @@ ms.locfileid: "85354733"
 
 デプロイ元のステージを選択し、[デプロイ] ボタンをクリックします。 デプロイ プロセスでは、重複するワークスペースがターゲット ステージに作成されます。 このワークスペースには、現在のステージに存在するすべてのコンテンツが含まれます。
 
-[![デプロイ](media/deployment-pipelines-get-started/deploy.png "すべてのコンテンツをデプロイする")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![デプロイ パイプラインの開発ステージとテスト ステージの [デプロイ] ボタンを示すスクリーンショット。](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>選択的デプロイ
 
@@ -91,7 +92,7 @@ ms.locfileid: "85354733"
 
 ダッシュボード、レポート、およびデータセットは関連付けられており、依存関係があるため、[select related]\(関連アイテムの選択\) ボタンを使用して、これらのアイテムが依存しているすべてのアイテムを確認できます。 たとえば、次のステージにレポートをデプロイする場合は、[select related]\(関連アイテムの選択\) ボタンをクリックすると、レポートが接続されているデータセットにマークが付けられ、両方が一度にデプロイされるため、レポートが中断されません。
 
-[![選択的デプロイ](media/deployment-pipelines-get-started/selective-deploy.png "選択的デプロイ")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![[詳細を表示] オプションを選択した後に使用できる、デプロイ パイプラインの選択的デプロイ オプションを示すスクリーンショット。](media/deployment-pipelines-get-started/selective-deploy.png)](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * レポートまたはダッシュボードが依存しているアイテムがデプロイ先のステージに存在しない場合、そのレポートまたはダッシュボードを次のステージにデプロイすることはできません。
@@ -103,7 +104,7 @@ ms.locfileid: "85354733"
 
 前のステージへのデプロイは、前のステージのコンテンツが空の場合にのみ機能します。 前のステージにデプロイする場合、特定のアイテムを選択することはできません。 ステージ内のすべてのコンテンツがデプロイされます。
 
-[![逆方向のデプロイ](media/deployment-pipelines-get-started/deploy-back.png "逆方向のデプロイ")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![テスト ステージまたは運用ステージのメニューから使用できる、前のステージへのデプロイ ボタンを示すスクリーンショット。](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>手順 4 - データセット ルールを作成する
 
@@ -120,15 +121,15 @@ ms.locfileid: "85354733"
 
 1. データセット ルールを作成するパイプライン ステージで、 **[Deployment settings]\(デプロイの設定\)** をクリックします。
 
-    ![デプロイの設定](media/deployment-pipelines-get-started/deployment-settings.png)
+    ![各デプロイ パイプライン ステージの右上にある、デプロイの設定ボタンのスクリーンショット。](media/deployment-pipelines-get-started/deployment-settings.png)
 
 2. [Deployment settings]\(デプロイの設定\) ウィンドウで、ルールを作成するデータセットを選択します。
 
-    [![データセット ルール](media/deployment-pipelines-get-started/dataset-rules.png "データセットを選択する")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![データセット ルールを作成するデータセットの選択を示すスクリーンショット。](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. 作成するルールの種類を選択し、リストを展開してから **[ルールの追加]** をクリックします。
 
-     [![ルールの追加](media/deployment-pipelines-get-started/add-rule.png "ルールの追加")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![データ ソース ルールの選択と、ルールの追加オプションのクリックを示すスクリーンショット。](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>データセット ルールの種類
 
@@ -151,6 +152,8 @@ ms.locfileid: "85354733"
 * アイテムが削除されると、そのルールも削除されます。 これらのルールを復元することはできません。
 
 * ルールで定義されたデータ ソースまたはパラメーターがソース データセットから変更または削除された場合、ルールは無効になり、デプロイは失敗します。
+
+* *Any* または *Binary* 型のパラメーターには、パラメーター ルールを定義できません。 詳細については、[データセット更新パラメーターの制限事項](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters)に関する記事をご覧ください。
 
 * データ ソース ルールは、次のデータ ソースに対してのみ定義できます。
     * Azure Analysis Services
@@ -179,7 +182,7 @@ ms.locfileid: "85354733"
 
 2 つの連続したステージにコンテンツがある場合、コンテンツはコンテンツ アイテムのメタデータに基づいて比較されます。 この比較内容には、データの比較やステージ間の更新時間は含まれません。
 
- [![デプロイ フロー](media/deployment-pipelines-get-started/deployment-flow.png "ステージの比較")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![デプロイ パイプラインとその比較インジケーターを示すスクリーンショット。](media/deployment-pipelines-get-started/deployment-flow.png)](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 2 つの連続したステージ間の相違点をすばやく視覚的に把握できるようにするため、ステージの間には比較用のアイコン インジケーターが表示されています。 比較インジケーターには、次の 2 つの状態があります。
 
@@ -200,13 +203,13 @@ ms.locfileid: "85354733"
     >[!NOTE]
     >デプロイは、 *[Missing from]\(不足\)* しているアイテムには影響しません。
 
- [![比較](media/deployment-pipelines-get-started/compare.png "比較ビュー")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![比較ビューを展開し、デプロイ パイプラインのステージ間でのアイテムの比較を可能にする比較オプションを示すスクリーンショット。](media/deployment-pipelines-get-started/compare.png)](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>コンテンツのオーバーライド
 
 ソース ステージのコンテンツに変更を加えた後にデプロイすると、ターゲット ステージで変更した内容が上書きされます。 *[デプロイ]* をクリックすると、上書きされるアイテムの数を示す警告が表示されます。
 
-![置換されるコンテンツの警告](media/deployment-pipelines-get-started/replaced-content.png)
+![デプロイしようとしているステージのアイテムに対して、デプロイによる変更が行われる直前に表示される、置き換えられたコンテンツの警告を示すスクリーンショット。](media/deployment-pipelines-get-started/replaced-content.png)
 
 [次のステージにコピーされるアイテム](deployment-pipelines-process.md#deployed-items)、および[コピーされないアイテム](deployment-pipelines-process.md#unsupported-items)の詳細については、[デプロイ プロセスについて理解する](deployment-pipelines-process.md)方法に関する記事を参照してください。
 

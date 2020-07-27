@@ -10,11 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e82dde5022bf0ad28d37e0ed9a8ac9553fbbd75d
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: aa8277a8d0ddea43aff356ced32c9edad8710c93
+ms.sourcegitcommit: a4e06e401abc67dffab52f34e268467def42a97e
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485900"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "86875051"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI サービスでレポートまたはダッシュボードをサブスクライブする 
 
@@ -24,7 +25,7 @@ ms.locfileid: "85485900"
 
 最も重要なダッシュボードとレポートを簡単に最新の状態に維持できます。 最も重要なレポート ページとダッシュボードを購読すると、Power BI はスナップショットを電子メールでユーザーの受信トレイに送信します。 メールを受信する頻度 (毎日、毎週、データ更新時) を Power BI に指示します。 特定の日時に Power BI でメールが送信されるように設定することも、今すぐ実行することもできます。  いずれの場合も、レポートまたはダッシュボードあたり最大 24 個の異なるサブスクリプションを設定できます。
 
-メールとスナップショットでは、Power BI 設定で指定されている言語が使用されます (「[Power BI でサポートされる言語と国/地域](../fundamentals/supported-languages-countries-regions.md)」参照)。 言語が定義されていない場合、Power BI では現在のブラウザーのロケール設定に基づいて言語を使用します。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](./media/end-user-subscribe/power-bi-settings-icon.png) >  **> [設定] > [全般] > [言語]** の順に選択します。 
+メールとスナップショットでは、Power BI 設定で指定されている言語が使用されます (「[Power BI でサポートされる言語と国/地域](../fundamentals/supported-languages-countries-regions.md)」参照)。 言語が定義されていない場合、Power BI ではフォールバックとして英語が使用されます。 言語の優先順位を表示または設定するには、歯車アイコン ![歯車アイコン](./media/end-user-subscribe/power-bi-settings-icon.png) >  **> [設定] > [全般] > [言語]** の順に選択します。 
 
 ![言語ドロップダウン](./media/end-user-subscribe/power-bi-language.png)
 
