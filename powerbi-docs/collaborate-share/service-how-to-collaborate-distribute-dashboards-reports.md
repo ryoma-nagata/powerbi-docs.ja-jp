@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3cf9d59926c1a38d83f386c7ae01fbdcf1a7fc95
-ms.sourcegitcommit: a58d10ca62bc55e83b58cf8e8495ac01a4bd6532
+ms.openlocfilehash: 4af8f9edd3d51214aaa766219e4903eb4b26b813
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "85120429"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252546"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Power BI で共同作業し、共有する方法
 
@@ -72,7 +73,7 @@ Power BI レポート タブを Microsoft Teams に追加すると、レポー�
 
 :::image type="content" source="media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-teams-conversation-tab.png" alt-text="Microsoft Teams の [会話] タブ":::
 
-[Power BI を使用した Microsoft Teams での共同作業](service-embed-report-microsoft-teams.md)の詳細を参照してください。
+[Power BI を使用した Microsoft Teams での共同作業](service-collaborate-microsoft-teams.md)の詳細を参照してください。
 
 ## <a name="share-dashboards-and-reports"></a>ダッシュボードとレポートを共有する
 

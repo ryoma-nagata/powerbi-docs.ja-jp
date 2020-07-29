@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273071"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252776"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
@@ -42,7 +42,7 @@ ms.locfileid: "84273071"
 
 ### <a name="february-2020"></a>2020 年 2 月
 * Power BI ホームのダッシュボード、レポート、アプリの昇格機能。
-* Microsoft Teams でレポートを埋め込むための、新しくなった [Power BI タブ](../collaborate-share/service-embed-report-microsoft-teams.md)。
+* Microsoft Teams でレポートを埋め込むための、新しくなった [Power BI タブ](../collaborate-share/service-collaborate-microsoft-teams.md)。
 * Power BI Pro ユーザーへのサポート付き[増分更新](../admin/service-premium-incremental-refresh.md)の一般提供。
 * 外部のメール アドレスに対する電子メール サブスクリプションのサポート。
 * Power BI Premium の [Bring Your Own Key (BYOK)](../admin/service-encryption-byok.md) の一般提供。

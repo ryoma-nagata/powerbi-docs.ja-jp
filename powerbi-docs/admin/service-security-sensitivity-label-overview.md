@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/05/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: def07ed0ea061c02489d6e92b9648ad1a8d0edad
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ea161af0156aa0bee2fe92ab2f87fb82630f5589
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035124"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252132"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI における秘密度ラベル
 
@@ -83,7 +83,7 @@ Power BI レポート、ダッシュボード、およびビジュアルは、Mi
 
 次の埋め込みシナリオがサポートされています。
 * [組織向けの埋め込み](../developer/embedded/embed-sample-for-your-organization.md)
-* Microsoft 365 アプリ (例: [Teams](../collaborate-share/service-embed-report-microsoft-teams.md)、[SharePoint](../collaborate-share/service-embed-report-spo.md))
+* Microsoft 365 アプリ (例: [Teams](../collaborate-share/service-collaborate-microsoft-teams.md)、[SharePoint](../collaborate-share/service-embed-report-spo.md))
 * [セキュリティで保護された URL の埋め込み](../collaborate-share/service-embed-secure.md) (Power BI サービスからの埋め込み) 
 
 ## <a name="sensitivity-labels-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの秘密度ラベル
