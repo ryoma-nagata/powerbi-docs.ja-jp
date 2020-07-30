@@ -9,12 +9,12 @@ metadata:
   author: margoc
   ms.author: margoc
   ms.date: 04/08/2020
-  ms.openlocfilehash: 60221a8a30c25b7a78fa76f54b9a8617ef7efe4f
-  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+  ms.openlocfilehash: 6cac7836f6079d22f0bcb6b02900636cebaaf008
+  ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 06/08/2020
-  ms.locfileid: "84532812"
+  ms.lasthandoff: 07/29/2020
+  ms.locfileid: "87411844"
 landingContent:
 - title: ビジネスの意思決定者
   linkLists:
@@ -60,8 +60,6 @@ landingContent:
       url: learning-catalog-data-analyst.md#dashboards
     - text: 視覚化
       url: learning-catalog-data-analyst.md#visualizations
-    - text: DAX
-      url: learning-catalog-data-analyst.md#dax
     - text: ガバナンスと展開
       url: learning-catalog-data-analyst.md#governance-deployment
     - text: 統合
@@ -76,8 +74,10 @@ landingContent:
       url: learning-catalog-administrator.md
     - text: 作業の開始
       url: learning-catalog-administrator.md#get-started
-    - text: 配置
-      url: learning-catalog-administrator.md#deploy
+    - text: 管理
+      url: learning-catalog-administrator.md#administer
+    - text: パフォーマンス
+      url: learning-catalog-administrator.md#performance
 - title: 開発者
   linkLists:
   - linkListType: overview
@@ -88,6 +88,8 @@ landingContent:
       url: learning-catalog-developer.md#get-started
     - text: 埋め込み
       url: learning-catalog-developer.md#embedded
+    - text: DAX
+      url: learning-catalog-developer.md#dax
     - text: 開発
       url: learning-catalog-developer.md#development
 - title: パートナーのプリセールスの役割
