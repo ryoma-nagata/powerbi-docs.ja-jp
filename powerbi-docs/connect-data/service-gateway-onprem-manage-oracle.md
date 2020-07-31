@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc9a36b4a4e54d6388625921c98c571859568f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0b617afdeb69f2367b83ad40b2146f5ce78cdc89
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237587"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364010"
 ---
 # <a name="manage-your-data-source---oracle"></a>データ ソースの管理 - Oracle
 
@@ -22,44 +22,22 @@ ms.locfileid: "85237587"
 
 [オンプレミス データ ゲートウェイをインストール](/data-integration/gateway/service-gateway-install)したら、ゲートウェイで使用できる[データ ソースを追加する](service-gateway-data-sources.md#add-a-data-source)必要があります。 この記事では、スケジュールされた更新または DirectQuery でゲートウェイと Oracle データ ソースを使用する方法について説明します。
 
+## <a name="connect-to-an-oracle-database"></a>Oracle データベースへの接続
+オンプレミス データ ゲートウェイを使用して Oracle データベースに接続するには、ゲートウェイを実行しているコンピューター上に適切な Oracle クライアント ソフトウェアをインストールする必要があります。 使用する Oracle クライアント ソフトウェアは、Oracle サーバーのバージョンによって異なりますが、常に 64 ビットのゲートウェイと一致します。
+
+サポートされている Oracle のバージョン: 
+- Oracle Server 9 以降
+- Oracle Data Access Client (ODAC) ソフトウェア 11.2 以降
+
 ## <a name="install-the-oracle-client"></a>Oracle クライアントのインストール
+- [64 ビット Oracle クライアントをダウンロードしてインストールします](https://www.oracle.com/database/technologies/odac-downloads.html)。
 
-ゲートウェイを Oracle サーバーに接続するには、Oracle Data Provider for .NET (ODP.NET) をインストールして構成する必要があります。 ODP.NET は、Oracle Data Access Components (ODAC) の一部です。
-
-Power BI Desktop の 32 ビット バージョンの場合、次のリンクをクリックして 32 ビット Oracle クライアントをダウンロードし、インストールします。
-
-* [32-bit Oracle Data Access Components (ODAC) with Oracle Developer Tools for Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
-
-Power BI Desktop の 64 ビット バージョンまたはオンプレミス データ ゲートウェイの場合は、次のリンクをクリックして 64 ビットの Oracle クライアントをダウンロードしてインストールしてください。
-
-* [64-bit ODAC 12.2c Release 1 (12.2.0.1.0) for Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
-
-クライアントをインストールした後は、データベースの適切な情報で tnsnames.ora ファイルを構成します。 Power BI Desktop とゲートウェイでは、tnsnames.ora ファイルで定義されている net_service_name が使用されます。 net_service_name が構成されていない場合、接続できません。 tnsnames.ora の既定のパスは `[Oracle Home Directory]\Network\Admin\tnsnames.ora` です。 tnsnames.ora ファイルの構成方法の詳細は、「[Oracle:Local naming parameters (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)」 (Oracle: ローカル名パラメーター (tnsnames.ora)) をご覧ください。
-
-### <a name="example-tnsnamesora-file-entry"></a>tnsnames.ora ファイルのエントリの例
-
-tnsname.ora のエントリの基本的な形式は次のとおりです。
-
-```
-net_service_name=
- (DESCRIPTION=
-   (ADDRESS=(protocol_address_information))
-   (CONNECT_DATA=
-     (SERVICE_NAME=service_name)))
-```
-
-サーバーとポートの情報の設定例を次に示します。
-
-```
-CONTOSO =
-  (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = oracleserver.contoso.com)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = CONTOSO)
-    )
-  )
-```
+> [!NOTE]
+> お使いの Oracle サーバーと互換性のある Oracle Data Access Client (ODAC) のバージョンを選択します。 たとえば、ODAC 12.x では、必ずしも Oracle Server バージョン 9 をサポートしていません。
+> Oracle クライアント用の Windows インストーラーを選択します。
+> Oracle クライアントのセットアップ中に、セットアップ ウィザードの該当するチェック ボックスをオンにすることで、*コンピューター全体のレベルで ODP.NET および/または Oracle Providers for ASP.NET の構成*を有効にする必要があります。 Oracle クライアント ウィザードの一部のバージョンでは、既定でチェックボックスがオンになっていますが、他のバージョンではそうなっていません。 Power BI が Oracle データベースに接続できるように、チェックボックスがオンになっていることを確認してください。
+ 
+クライアントがインストールされ、ODAC が適切に構成されたら、PowerBI Desktop またはその他のテスト クライアントを使用して、ゲートウェイ上で正しいインストールと構成を確認することをお勧めします。
 
 ## <a name="add-a-data-source"></a>データ ソースの追加
 
@@ -111,7 +89,7 @@ Power BI Desktop とゲートウェイ用に構成されているデータ ソ�
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-名前付けの構文が正しくない、または適切に構成されていない場合、Oracle でエラーが発生する可能性があります。
+名前付けの構文が正しくない、または適切に構成されていない場合、Oracle で次のエラーが発生する場合があります。
 
 * ORA-12154:TNS:could not resolve the connect identifier specified. (指定された接続識別子を解決できませんでした。)
 * ORA-12514:TNS:listener does not currently know of service requested in connect descriptor. (接続記述子で要求されているサービスが現在、リスナーで認識されていません。)
@@ -121,8 +99,9 @@ Power BI Desktop とゲートウェイ用に構成されているデータ ソ�
 
 このようなエラーは、Oracle クライアントがインストールされていないか、正しく構成されていない場合に発生することがあります。 インストールされている場合は、tnsnames.ora ファイルが正しく構成されていることと正しい net_service_name を使用していることを確認します。 また、Power BI Desktop を使用しているコンピューターとゲートウェイを実行しているコンピューターの間で net_service_name が一致していることも確認する必要があります。 詳細については、「[Oracle クライアントのインストール](#install-the-oracle-client)」をご覧ください。
 
-> [!NOTE]
-> Oracle サーバーのバージョンと Oracle クライアントのバージョンとの間で互換性の問題が発生する場合もあります。 通常、これらのバージョンが一致する必要があります。
+Oracle サーバーのバージョンと Oracle Data Access クライアントのバージョン間で互換性の問題が発生する場合もあります。 一部の組み合わせでは互換性がないため、通常はこれらのバージョンを合わせる必要があります。 たとえば、ODAC 12.x では、Oracle Server バージョン 9 をサポートしていません。
+
+データ ソース サーバーとゲートウェイ マシン間の接続の問題を診断するには、ゲートウェイ マシンにクライアント (Power BI Desktop や Oracle ODBC Test など) をインストールすることをお勧めします。 クライアントを使用して、データ ソース サーバーへの接続を確認できます。
 
 ゲートウェイに関する他のトラブルシューティングの情報については、「[オンプレミス データ ゲートウェイのトラブルシューティング](/data-integration/gateway/service-gateway-tshoot)」をご覧ください。
 

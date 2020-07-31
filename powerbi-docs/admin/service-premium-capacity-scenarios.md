@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9b3e06172d29f218f9234cf1f3d7e1f623495001
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dc5f952aa38e2ab36887ec3f2727e2e253389460
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135150"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952664"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium 容量のシナリオ
 
@@ -67,7 +67,7 @@ Power BI 管理者は、次のようにして、データ更新を開始する�
 
 ## <a name="identifying-slow-responding-datasets"></a>応答の遅いデータセットを識別する
 
-このシナリオでは、ユーザーから特定のレポートを開くのに時間がかかり、ハングすることもあるという苦情があって、調査が開始されました。
+このシナリオでは、ユーザーから特定のレポートを開くのに時間がかかり、応答が停止する場合もあるという苦情があり、調査が開始されました。
 
 Power BI 管理者は、アプリの **[Query Durations]\(クエリ所要時間\)** ビジュアルを使用し、 **[Average Duration]\(平均所要時間\)** の降順にデータセットを並べ替えることによって、パフォーマンスが最も悪いデータセットを確認できます。 また、このビジュアルではデータセットのクエリ数も示されるため、データセットのクエリ頻度を確認できます。
 
@@ -141,7 +141,7 @@ CPU の飽和の影響を確認するには、さらに微妙な違いがあり�
 
 場合によっては、Power BI 管理者は、データセットの所有者に対し、レポートではなく、ダッシュボード (キャッシュされたタイルのデータセットの更新で、定期的にクエリが実行されます) を作成することで、揮発性の低いクエリ ワークロードにするよう要求できます。 これは、ダッシュボードが読み込まれるときのスパイクを防ぐのに役立ちます。 このソリューションは、特定のビジネス要件に対して常に可能であるとは限りませんが、データセットを変更することなく、CPU の飽和を回避する効果的な方法になる可能性があります。
 
-## <a name="acknowledgements"></a>謝辞
+## <a name="acknowledgments"></a>謝辞
 
 この記事は、データ プラットフォーム MVP であり、[Bitwise Solutions](https://www.bitwisesolutions.com.au/) の独立 BI 専門家である Peter Myers によって執筆されました。
 

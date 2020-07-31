@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f2fb659188a5c413ec7a203c6f1a55bb24826c15
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228746"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252503"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -185,6 +185,7 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 - 新しいワークスペース エクスペリエンスを作成します。
 - ワークスペースをまたいでデータセットを使用します。
+- クラシック ワークスペースの作成をブロックします。
 
 ### <a name="create-the-new-workspaces"></a>新しいワークスペースを作成する
 
@@ -213,6 +214,13 @@ Microsoft 365 グループに基づく従来のワークスペースについて
 
 詳細については、[ワークスペースをまたいだデータセットの概要](../connect-data/service-datasets-across-workspaces.md)に関する記事を参照してください。
 
+### <a name="block-classic-workspace-creation"></a>クラシック ワークスペースの作成をブロックする
+
+管理者は、組織がクラシック ワークスペースを作成できるかどうかを制御できます。 この設定を有効にすると、ワークスペースを作成するユーザーは、新しいワークスペース エクスペリエンスのワークスペースのみを作成できます。 
+
+![クラシック ワークスペースの作成をブロックする](media/service-admin-portal/power-bi-admin-block-classic-workspaces.png)
+
+有効にすると、新しく作成された Office 365 グループは Power BI のワークスペースの一覧に表示されません。 既存のクラシック ワークスペースは引き続き一覧に表示されます。 この設定を無効にすると、ユーザーがメンバーになっているすべての Office 365 グループがワークスペースの一覧に表示されます。 新しいワークスペース エクスペリエンスのワークスペースの詳細については、[こちら](../collaborate-share/service-new-workspaces.md)を参照してください。
 
 ## <a name="export-and-sharing-settings"></a>エクスポートと共有の設定
 
@@ -369,6 +377,15 @@ Azure AD B2B ゲスト ユーザーは、組織内のコンテンツを編集お
 **[データのエクスポート]** テナント設定が **[無効]** に設定されている場合は、おすすめのテーブルへの接続も無効になります。
 
 [Excel での Power BI のおすすめのテーブル](../collaborate-share/service-excel-featured-tables.md)について、詳細をご確認ください。
+
+## <a name="share-to-teams-tenant-setting"></a>[Teams で共有] テナント設定
+
+**[Teams で共有]** 設定は、Power BI 管理ポータルの **[テナント設定]** セクションにあります。 その設定を使用すると、組織は Power BI サービスに **[Teams で共有]** ボタンが表示されないようにすることができます。 無効に設定すると、ユーザーが Power BI サービスでレポートやダッシュボードを表示したとき、アクション バーまたはショート カットメニューの **[Teams で共有]** ボタンは表示されません。
+
+![Power BI 管理ポータルにある [Teams で共有] テナント設定のスクリーンショット。](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+Teams での Power BI コンテンツの共有の詳細については、[こちら](../collaborate-share/service-share-report-teams.md)を参照してください。
+
 
 ## <a name="power-bi-visuals-settings"></a>Power BI ビジュアルの設定
 

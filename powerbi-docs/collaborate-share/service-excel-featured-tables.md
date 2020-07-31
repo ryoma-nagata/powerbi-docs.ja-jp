@@ -6,96 +6,94 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 07/24/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a872c0ada80a7168ebc6bb545de1ad474c4561b7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 00fba391a6ad92f1e3edaf0e2af9691452724f6e
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226357"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87251646"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Excel で Power BI のおすすめのテーブルにアクセスする (プレビュー)
 
-Excel のデータ型ギャラリーで、Power BI データセットのおすすめテーブルのデータを検索できます。 おすすめのテーブルを使用すると、Excel シートにエンタープライズ データを簡単に追加できます。 組織は、Power BI の認定および昇格されたデータセット機能を使用することで、関連する更新可能なデータをより多くのユーザーが検索および使用して、より適切な意思決定を行えるようにすることができます。 [Power BI からの Excel のデータ型](https://support.office.com/article/use-excel-data-types-from-power-bi-preview-cd8938ce-f963-444d-b82a-7140848241e9)を使用する方法に関する Excel のドキュメントを参照してください。
+Excel のデータ型ギャラリーでは、Power BI データセットの "*おすすめのテーブル*" からのデータを検索することができます。 おすすめのテーブルを使用すると、Excel シートにエンタープライズ データを簡単に追加できます。 以下は、Power BI データを Excel シートに取り込む手順です。
 
-データ型ギャラリーには、モデル作成者が Power BI データセットにキュレーションしたおすすめのテーブルのみが表示されます。 また、Power BI でアクセスできる Excel のデータセットを参照することもできます。 Excel で、 **[データ]** リボンの **[データの取得]** の下にある **[Power BI データセット]** オプションを選択します。
+- Power BI データ モデラーによって、[Power BI のデータセットが昇格または認定](../connect-data/service-datasets-promote.md)されます。
+- データ モデラーによって、データセット内の[おすすめのテーブルが識別](service-create-excel-featured-tables.md)され、そのデータセットが Power BI サービスに保存されます。
+- 組織の残りの部分は、関連する更新可能なデータのために、Excel でこれらのおすすめのテーブルに接続できます。 Excel では、これらのテーブルは "*データ型*" と呼ばれ、データ型ギャラリーに一覧表示されます。
 
-## <a name="access-power-bi-data-through-the-excel-data-types-gallery"></a>Excel のデータ型ギャラリーを使用して Power BI データにアクセスする
-Power BI データセットのおすすめのテーブルは、[データ] リボンの Excel のデータ型ギャラリーに表示されます。
+> [!NOTE]
+> Excel では、Power BI でアクセスできるデータセットからデータを取得することもできます。 **[データ]** リボンで、 **[データの取得]**  >  **[From Power BI (Microsoft)]\(Power BI から (Microsoft)\)** の順に選択します。
+> :::image type="content" source="media/service-excel-featured-tables/excel-get-data-power-bi.png" alt-text="[データ] リボンの Power BI からの [データの取得] オプションのスクリーンショット。":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="Excel の [データ] リボン":::
+## <a name="the-excel-data-types-gallery"></a>Excel のデータ型ギャラリー
+Power BI データセットのおすすめのテーブルは、Excel の**データ型**ギャラリーでは、 **[データ]** リボンに "*データ型*" として表示されます。
 
-ギャラリーを展開すると、使用可能な上位のデータ型が表示されます。
+:::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="Excel の [データ] リボンのデータ型ギャラリーのスクリーンショット。":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="Excel のデータ型ギャラリー":::
+ギャラリーを展開すると、 **[株式]** や **[地理]** などの一般的なデータ型に加え、Power BI データセットのおすすめのテーブルである、使用可能な上位 10 個の **[組織]** データ型が表示されます。
+
+:::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="Excel のデータ型ギャラリーのスクリーンショット。":::
+
+## <a name="format-a-range-of-cells-as-a-table-optional"></a>セルの範囲をテーブルとして書式設定する (オプション)
+
+ 開始する前に、データを Excel テーブルとして書式設定することをお勧めします。 これにより、1 つの行に加えた変更が、テーブル内の他の行に適用されます。 
+
+1. 列ヘッダーを追加します。 
+2. その後、データ内のセルを選択し、Ctrl + T キーを押します。 
+3. **[先頭行をテーブルの見出しとして使用する]** チェック ボックス  >  **[OK]** の順にクリックします。
+
+    :::image type="content" source="media/service-excel-featured-tables/excel-format-table.png" alt-text="テーブルへの範囲の変換を示すスクリーンショット。":::
+
+## <a name="search-for-power-bi-data-in-the-excel-data-types-gallery"></a>Excel データ型ギャラリーで Power BI データを検索する
+
+Power BI のおすすめのテーブルのデータを検索するには、おすすめのテーブルの値と一致する値を含む、Excel シート内のセルまたは範囲を選択します。 **[組織]** を選択します。 アクセスできるすべてのおすすめのテーブルが Excel によって検索され、一致するものが探されます。
+
+:::image type="content" source="media/service-excel-featured-tables/excel-table-organization.png" alt-text="セルまたはセル範囲の選択のスクリーンショット。":::
  
-Power BI のおすすめのテーブルのデータを検索するには、Excel シート内のセルまたは範囲を選択します。
+お探しのおすすめのテーブルがわかっている場合は、ギャラリーから **[From your organization (preview)]\(組織から (プレビュー)\)** を選択して、それを選びます。
 
-:::image type="content" source="media/service-excel-featured-tables/excel-select-cell.png" alt-text="セルの選択":::
+:::image type="content" source="media/service-excel-featured-tables/excel-organizational-data-table.png" alt-text="Excel の組織データ、サプライヤー データ型テーブルのスクリーンショット。":::
  
-ギャラリーから **[組織データ]** オプションを選択して、アクセス権のある認定済みデータセット内のおすすめのテーブルでデータを検索します。
+検索を行い、Excel によって高い信頼度で一致する行が検出された場合、そのセルは直ちにそれらの行にリンクされます。 リンクされた項目のアイコンにより、セルが Power BI の行にリンクされていることが示されます。
 
-:::image type="content" source="media/service-excel-featured-tables/excel-organizational-data.png" alt-text="Excel の組織データ":::
+:::image type="content" source="media/service-excel-featured-tables/excel-linked-card-icon.png" alt-text="リンクされた項目のアイコンのスクリーンショット。":::
+
+一致する可能性のある行がセルに複数ある場合、そのセルに疑問符アイコンが表示され、 **[データ選択ウィザード]** ウィンドウが開きます。 次の例では、ユーザーは B2:B10 から範囲を選択し、Power BI のおすすめのテーブルを検索しました。 セル B5 の "Ma Maison" を除き、すべての行に一致がありました。 **[データ選択ウィザード]** には、2 つの一致候補が表示されています。
+
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-pane.png" alt-text="Excel の [データ選択ウィザード] ウィンドウのスクリーンショット。":::
  
-検索するデータの種類がわかっている場合、または [組織データ] オプションを使用しても一致する行が見つからない場合は、特定のデータ型を選択します。
+[組織] データ オプションを使用すれば、複数のおすすめのテーブルから行を返すことができます。 Excel では、一致する可能性のある行が、その元のデータ型によってグループ化されます。 Excel により、一致する可能性が最も高い行に基づいてデータ型が並べ替えられます。 シェブロンの矢印を使用して、一致する行のデータ型を折りたたんだり展開したりできます。
 
-:::image type="content" source="media/service-excel-featured-tables/excel-select-data-type.png" alt-text="データ型の選択":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-multiple.png" alt-text="可能性のあるものが複数示されている Excel の [データ選択ウィザード] ウィンドウのスクリーンショット。":::
  
-検索を行い、高い信頼度で一致する行が見つかった場合、そのセルは直ちにその行とリンクされます。 リンクされた項目のアイコンにより、セルが Power BI の行にリンクされていることが示されます。
+各行について、行の名前を選択すると行の詳細が表示され、適切な行を選択するのに役立ちます。 それが見つかったら、 **[選択]** を押して、その行を Excel のセルにリンクします。 
 
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-icon.png" alt-text="リンクされた項目のアイコン":::
-
-セルに一致する可能性のある行が複数ある場合は、データ セレクター ペインが表示されます。 そのセルには疑問符アイコンが表示され、それを使用するとその行のデータ セレクター ペインが開きます。 ユーザーが A2:A7 の範囲を選択し、Power BI のおすすめのテーブルを検索した後の例を次に示します。
-
-:::image type="content" source="media/service-excel-featured-tables/excel-multiple-matches.png" alt-text="一致する可能性のある複数の行":::
-
-**[Data Selector]\(データ セレクター\)** ペインには、一致する可能性のある行が表示されます。
-
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-pane.png" alt-text="Excel の [Data Selector]\(データ セレクター\) ペイン":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-details.png" alt-text="[データ選択ウィザード] の詳細のスクリーンショット。":::
  
-[組織データ] オプションでは、複数のデータ型から行を返すことができます。 Excel では、一致する可能性のある行が、その元のデータ型によってグループ化されます。 Excel により、一致する可能性が最も高い行に基づいてデータ型が並べ替えられます。 シェブロンの矢印を使用して、一致する行のデータ型を折りたたんだり展開したりできます。
-
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-multiple.png" alt-text="Excel の [Data Selector]\(データ セレクター\) ペイン":::
+セルの **[カード]** アイコンを選択すると、おすすめのテーブル内のすべてのフィールドと計算フィールドのデータを含むカードが表示されます。 カードのタイトルには、おすすめのテーブルの [行ラベル] フィールドの値が表示されます。
  
-各行について、行の名前を選択すると行の詳細が表示され、適切な行を選択するのに役立ちます。 行が見つかったら、 **[選択]** をクリックして、その行を Excel のセルにリンクします。 
+:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-details.png" alt-text="リンクされた項目の詳細のスクリーンショット。":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-select.png" alt-text="[Data Selector]\(データ セレクター\) の詳細":::
- 
-行が選択されると、セルはその行にリンクされ、その値では Power BI のおすすめのテーブルの **[行ラベル]** フィールドの値が使用されます。 
+**[データの挿入]** アイコンを選択してから、フィールドの一覧からフィールド名を選んで、その値をグリッドに追加します。  
 
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-icon.png" alt-text="Excel のリンクされた項目":::
- 
-**[リンク セル]** のアイコンを選択すると、おすすめのテーブルに含まれるすべてのフィールドと計算フィールドのデータが記載されたカードが表示されます。 カードのタイトルには、おすすめのテーブルの [行ラベル] フィールドの値が表示されます。
- 
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-details.png" alt-text="リンクされた項目の詳細":::
-
-**[データの挿入]** アイコンを選択して、フィールド値をグリッドに追加します。
-
-:::image type="content" source="media/service-excel-featured-tables/excel-insert-data.png" alt-text="データの挿入"::: 
-
-フィールドの一覧からフィールド名を選択して、その値をグリッドに追加します。  
-
-:::image type="content" source="media/service-excel-featured-tables/excel-select-field.png" alt-text="フィールド名の選択":::
+:::image type="content" source="media/service-excel-featured-tables/excel-select-field.png" alt-text="フィールド名の選択のスクリーンショット。":::
 
 フィールド値は、隣接するセルに配置されます。 セルの数式ではリンクされたセルとフィールド名が参照されるので、Excel 関数内でそのデータを使用できます。
 
-:::image type="content" source="media/service-excel-featured-tables/excel-cell-formula.png" alt-text="Excel のセルの数式":::
- 
-データを Excel テーブルとして書式設定すると、フィールドの追加によってテーブルが拡張され、フィールド名と一致するように列のヘッダーが設定されます。 同じデータ型にリンクされた行にも、それぞれの値が入力されます。
-
-:::image type="content" source="media/service-excel-featured-tables/excel-field-column-name.png" alt-text="フィールドは列名です"::: 
+:::image type="content" source="media/service-excel-featured-tables/excel-cell-formula.png" alt-text="Excel のセルの数式のスクリーンショット。":::
 
 ## <a name="cell-formulas"></a>セルの数式
 
 Excel テーブルを使用する場合は、`.` (ピリオド) 参照を使用して、リンク テーブルの列を参照し、データ フィールドを追加することができます。
 
-:::image type="content" source="media/service-excel-featured-tables/excel-dot-reference.png" alt-text="Excel のピリオド参照":::
+:::image type="content" source="media/service-excel-featured-tables/excel-dot-reference.png" alt-text="Excel のピリオド参照のスクリーンショット。":::
 
 同様に、セルを使用する場合は、セルを参照し、`.` (ピリオド) 参照を使用してフィールドを取得することができます。
 
-:::image type="content" source="media/service-excel-featured-tables/excel-cell-dot-reference.png" alt-text="セルのピリオド参照":::
+:::image type="content" source="media/service-excel-featured-tables/excel-cell-dot-reference.png" alt-text="セルのピリオド参照のスクリーンショット。":::
  
 ## <a name="data-caching-and-refresh"></a>データのキャッシュと更新
 
@@ -103,24 +101,25 @@ Excel によってセルが Power BI のおすすめのテーブルの行にリ�
 
 リンク セルのデータを更新するには、 **[データ]** リボンの **[すべて最新の情報に更新]** ボタンを使用します。 
 
-:::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="すべて最新の情報に更新":::
+:::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="[すべて最新の情報に更新] のスクリーンショット。":::
  
 また、個々のセルを更新することもできます。 セルを右クリックし、 **[データ型]**  >  **[最新の情報に更新]** を選択してください。
 
 ## <a name="show-a-card-change-or-convert-to-text"></a>カードを表示、変更、またはテキストに変換
 
-リンク セルには、右クリック メニュー オプションが追加されています。 セルを右クリックし、次の順に選択します: **[データ型]**  >  
+リンク セルには、右クリック メニュー オプションが追加されています。 セルを右クリックします。 通常のオプションと共に、以下も表示されます。
 
-- **カードを表示**
-- **Refresh\(更新\)**
-- **変更点** 
+- **Show Data Type Card (データ型のカードの表示)** 。
+- **更新する**。
+- **変更**。
 - **テキストに変換**。
 
-:::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="右クリック、テキストに変換":::
+:::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="右クリックして表示された [テキストに変換] のスクリーンショット。":::
  
 **[テキストに変換]** を使用すると、Power BI のおすすめのテーブルの行へのリンクが削除されます。 重要な点として、セル内のテキストはリンク セルの行ラベルの値になります。 意図していなかった行にセルをリンクした場合は、Excel の **[元に戻す]** を選択して、セルの初期値を復元します。
 
 ## <a name="licensing"></a>ライセンス
+
 Excel のデータ型ギャラリーと Power BI のおすすめのテーブルに接続されたエクスペリエンスをご利用いただけるのは、Excel E5 および G5 のお客様のみです。 
 
 ## <a name="security"></a>セキュリティ
@@ -128,39 +127,6 @@ Excel のデータ型ギャラリーと Power BI のおすすめのテーブル�
 Power BI でアクセス許可を持っているデータセットのおすすめのテーブルのみが表示されます。 データを更新するときは、Power BI のデータセットにアクセスして行を取得するためのアクセス許可が必要です。 これには、データセットに対するビルドまたは書き込みのアクセス許可が必要です。 Excel では、行全体の返されるデータがキャッシュされます。 自分が Excel ファイルを共有するすべてのユーザーが、すべてのリンク セルのすべてのフィールドのデータを表示できます。
 
 Power BI データセットに行レベルのセキュリティまたは Microsoft Information Protection の秘密度ラベルが適用されている場合、そのデータセットのおすすめのテーブルは Excel のデータ型ギャラリーに含まれません。 これは、初期プレビューの制限事項です。
-
-## <a name="curate-a-featured-table-in-power-bi-desktop"></a>Power BI Desktop でおすすめのテーブルをキュレーションする
-Excel のデータ型ギャラリーには、Power BI サービスにアップロードされたデータセット内のおすすめのテーブルが表示されます。 Power BI Desktop を使用して、データ モデルでおすすめのテーブルをキュレーションし、Power BI サービスにアップロードします。
-
-### <a name="turn-on-the-featured-table-preview"></a>おすすめのテーブルのプレビューを有効にする
-
-1. Power BI Desktop で、 **[ファイル]**  >  **[オプションと設定]**  >  **[オプション]**  >  **[プレビュー機能]** の順に選択します。
-2. **[Featured tables]\(おすすめのテーブル\)** チェック ボックスをオンにします。
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="おすすめのテーブル オプションをプレビューする":::
-
-### <a name="select-a-table"></a>テーブルを選択する
-
-1. Power BI Desktop でモデル ビューに移動します。
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="モデル ビュー":::
- 
-2. テーブルを選択し、 **[Is featured table]\(おすすめのテーブル\)** を **[はい]** に設定します。
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="[Is featured table]\(おすすめのテーブル\) を [はい] に設定する":::
-
-4. **[Set up this featured table]\(このおすすめのテーブルの設定\)** で、必須フィールドを指定します。
-
-    - **[説明]** 。
-    - **[行ラベル]** フィールド値は、ユーザーが行を簡単に識別できるようにするために Excel で使用されます。 これは、リンク セルのセル値として、また **[Data Selector]\(データ セレクター\)** ペインおよび **[情報]** カード内に表示されます。 
-    - **[キー列]** フィールド値により、行の一意の ID が指定されます。 この値により、Excel でセルをテーブル内の特定の行にリンクすることが可能になります。
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="おすすめのテーブルの設定":::
-
-Power BI サービスに対してデータセットを発行またはインポートすると、Excel のデータ型ギャラリーにおすすめのテーブルが表示されます。
-
-- Excel ではデータ型の一覧がキャッシュされるため、新しく発行されたおすすめのテーブルを表示するには、Excel を再起動する必要があります。
-- 一部のデータセットはプレビュー段階ではサポートされておらず、これらのデータセット内で定義されているおすすめのテーブルは Excel に表示されません。 詳細については、「考慮事項と制限事項」をご覧ください。
 
 ## <a name="administrative-control"></a>管理制御
 
@@ -193,7 +159,7 @@ Power BI 管理者は、Excel のデータ型ギャラリーでおすすめの�
     - おすすめのテーブルで定義されるメジャー。
     - 関連テーブルで定義されるメジャー、およびリレーションシップから計算される暗黙のメジャー。
 
-- Excel には、新しい Power BI ワークスペースに格納されているおすすめのテーブルのみが表示されます。 クラシック ワークスペース、または個人用ワークスペースに格納されているおすすめのテーブルは、Excel ではデータ型として表示されません。 Power BI で[クラシック ワークスペースを新しいワークスペースにアップグレードする](service-upgrade-workspaces.md)ことができます。
+- Excel には、新しい Power BI ワークスペースに格納されているおすすめのテーブル ("*データ型*") のみが表示されます。 クラシック ワークスペース、または個人用ワークスペースに格納されているおすすめのテーブルは、Excel ではデータ型として表示されません。 Power BI で[クラシック ワークスペースを新しいワークスペースにアップグレードする](service-upgrade-workspaces.md)ことができます。
 
 Excel でのデータ型のエクスペリエンスは、lookup 関数に似ています。 Excel シートから提供されるセル値を受け取り、Power BI のおすすめのテーブルで一致する行が検索されます。 検索エクスペリエンスには、次のような動作があります。
 
@@ -213,5 +179,7 @@ Excel でのデータ型のエクスペリエンスは、lookup 関数に似て�
 
 ## <a name="next-steps"></a>次の手順
 
+- [Power BI Desktop でおすすめのテーブルを設定する](service-create-excel-featured-tables.md)
+- [Power BI からの Excel のデータ型の使用](https://support.office.com/article/use-excel-data-types-from-power-bi-preview-cd8938ce-f963-444d-b82a-7140848241e9)について、Excel のドキュメントを参照します。
 - わからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 

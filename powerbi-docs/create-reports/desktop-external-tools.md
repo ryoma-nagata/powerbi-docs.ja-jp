@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/24/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4d752a49587e611c3f42de3f40c68437f36fe3a9
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86411894"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252891"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Power BI Desktop での外部ツールの使用 (プレビュー)
 
@@ -23,6 +23,13 @@ Power BI Desktop の 2020 年 7 月のリリース以降、外部ツールを使
 Power BI Desktop の **[外部ツール]** リボンには、コンピューターにインストールされている外部ツールと、Power BI Desktop に登録されている外部ツール用のボタンが含まれています。 Power BI Desktop から起動した外部ツールは、Power BI Desktop の一部として動作する Analysis Services エンジンに自動的に接続され、シームレスなエクスペリエンスがユーザーに提供されます。
 
 ![Power BI Desktop の外部ツール リボン](media/desktop-external-tools/desktop-external-tools-01.png)
+
+これらのおすすめの外部ツールには次のものが含まれており、そのインストール場所へのリンク付きで示します。 各外部ツールは、それぞれのツール作成者によってサポートされています。
+
+* [Tabular Editor](https://tabulareditor.com/)
+* [DAX Studio](https://daxstudio.org)
+* [ALM Toolkit](http://alm-toolkit.com)
+
 
 以下のセクションでは、外部ツールでサポートされる操作、Power BI Desktop に含まれているおすすめのツールの一覧、および追加のツールを登録する手順について説明します。
 
@@ -43,7 +50,7 @@ Power BI Desktop の **[外部ツール]** リボンには、コンピュータ�
 
 ## <a name="featured-external-tools"></a>おすすめの外部ツール
 
-次のオープンソース コミュニティ ツールは、Power BI Desktop と連動します。 各ツールの個別のインストーラーによって、インストール時にそのツールが Power BI Desktop に登録されます。
+次のオープンソース コミュニティ ツールは、Power BI Desktop と連動します。 これらは、それぞれのツール作成者によってサポートされています。 各ツールの個別のインストーラーによって、インストール時にそのツールが Power BI Desktop に登録されます。
 
 * Tabular Editor
 * DAX Studio
@@ -122,6 +129,18 @@ ALM Toolkit の主要なツール作成者は [Christian Wade](https://www.linke
 * **Program Files (x86)\Common Files\Microsoft Shared\Power BI Desktop\External Tools**
 
 この指定した場所にある **.pbitool.json** 拡張子を持つファイルが、Power BI Desktop によって起動時に読み込まれます。
+
+## <a name="disabling-external-tools-using-the-registry"></a>レジストリを使用して外部ツールを無効にする
+
+外部ツールは、**グループ ポリシー**を使用して、またはレジストリを編集することによって無効にすることができます。これは、**カスタム ビジュアル**を無効にするプロセスと似ています。
+
+    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+
+    Registry value: ```EnableExternalTools```
+
+値が 1 (10 進数) の場合は、Power BI で外部ツールの使用が有効になります。これは既定値です。
+
+値が 0 (10 進数) の場合は、Power BI で外部ツールの使用が無効になります。
 
 
 ## <a name="next-steps"></a>次のステップ

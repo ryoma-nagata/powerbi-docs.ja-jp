@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 02/03/2020
+ms.date: 07/24/2020
 ms.author: maggies
-ms.openlocfilehash: 8e907b87c26dd7f2e764705a1178efc5df432a3e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 73772b96929ffd91dc5a38634ab9a1a2e57286b1
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239009"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87251339"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server の Power BI レポートの作成
 Power BI サービス (https://powerbi.com) ) のクラウドで Power BI レポートを格納する場合と同じように、Power BI Report Server の Web ポータルでも Power BI レポートをオンプレミスで格納して管理することができます。 Power BI Desktop でレポートを作成および編集することができ、レポートを Web ポータルに公開することもできます。 その後、組織内のレポート閲覧者が、ブラウザーや、モバイル デバイスの Power BI モバイル アプリでレポートを表示できるようになります。
@@ -40,13 +40,13 @@ Power BI Desktop で Power BI レポートを既に作成している場合は�
 
     - **PBIDesktopRS_x64.msi** (64 ビット バージョン)
 
-4. インストーラーをダウンロードしたら、Power BI Desktop (2019 年 9 月) のセットアップ ウィザードを実行します。
+4. インストーラーをダウンロードしたら、Power BI Desktop のセットアップ ウィザードを実行します。
 
 2. インストールの最後に、 **[Start Power BI Desktop now]** \(今すぐ Power BI Desktop を起動する\) をオンにします。
    
-    Power BI Desktop が自動的に起動し、すぐに使えます。 適切なバージョンでは、タイトル バーに **Power BI Desktop (2019 年 9 月)** と表示されます。
+    Power BI Desktop が自動的に起動し、すぐに使えます。 適切なバージョンでは、タイトル バーに **Power BI Desktop (2020 年 5 月)** と表示されます。
 
-    ![Power BI Desktop 2019 年 9 月](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
+    ![Power BI Desktop 2020 年 5 月](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
 
 3. Power BI Desktop に慣れていない場合は、[ようこそ] 画面のビデオをご覧になることをお勧めします。
    

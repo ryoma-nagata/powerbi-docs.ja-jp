@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 03/13/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec716f0824ce083b034dc8fd459f00fdb7768ac4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 62f0f6d9bac3b8451f3c5efc70612c2ef067aed4
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215586"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252799"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop の概要
 Power BI Desktop の使用開始ガイドへようこそ。 このツアーでは、Power BI Desktop のしくみ、Power BI Desktop でできること、堅牢なデータ モデルと優れたレポートを作成してビジネス インテリジェンスを強化する方法について説明します。
@@ -24,6 +24,11 @@ Power BI Desktop のしくみとその使用方法の概要をすばやく知り
 ![サンプルの作業項目を示す Power BI Desktop のスクリーンショット。](media/desktop-getting-started/hero-02.png)
 
 また、「[Power BI Desktop の概要](https://www.youtube.com/watch?v=Qgam9M8I0xA)」ビデオを視聴したり、[財務サンプル](https://go.microsoft.com/fwlink/?LinkID=521962)の Excel ブックをダウンロードしてビデオを見ながら操作したりすることもできます。
+
+
+> [!IMPORTANT]
+> Power BI Desktop は、お客様のフィードバックと新機能を組み込み、月単位で更新およびリリースされます。 サポート対象の Power BI Desktop は、最新バージョンのみです。お客様が Power BI Desktop に関してサポートに問い合わせた場合、最新バージョンにアップグレードするように求められます。 最新バージョンの Power BI Desktop は、[Windows ストア](https://aka.ms/pbidesktopstore)から入手するか、またはサポートされているすべての言語を含む 1 つの実行可能ファイルとして[ダウンロード](https://www.microsoft.com/download/details.aspx?id=58494)してお使いのコンピューターにインストールできます。
+
 
 ## <a name="how-power-bi-desktop-works"></a>Power BI Desktop の動作のしくみ
 Power BI Desktop では、次のことができます。

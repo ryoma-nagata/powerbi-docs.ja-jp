@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 12/16/2019
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a67bd6c2a3d757475580d218547be689dbb99d2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216917"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252730"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop とは何ですか?
 
@@ -31,6 +31,11 @@ Power BI Desktop の最も一般的な使い方を次に示します。
 * Power BI サービスを使用して、レポートを他のユーザーと共有する
 
 このようなタスクを最も担当する人物は、多くの場合、"*データ アナリスト*" ("*アナリスト*" と呼ばれることもあります) または Business Intelligence プロフェッショナル (多くの場合 "*レポート作成者*" と呼ばれます) であるとみなされます。 ところが、自身をアナリストでもレポート作成者でもないと考えている多くの人々が、Power BI Desktop を使用すると、説得力のあるレポートを作成したり、さまざまなソースからデータをプルしてデータ モデルを作成したりして、同僚や組織と共有することができます。
+
+
+> [!IMPORTANT]
+> Power BI Desktop は、お客様のフィードバックと新機能を組み込み、月単位で更新およびリリースされます。 サポート対象の Power BI Desktop は、最新バージョンのみです。お客様が Power BI Desktop に関してサポートに問い合わせた場合、最新バージョンにアップグレードするように求められます。 最新バージョンの Power BI Desktop は、[Windows ストア](https://aka.ms/pbidesktopstore)から入手するか、またはサポートされているすべての言語を含む 1 つの実行可能ファイルとして[ダウンロード](https://www.microsoft.com/download/details.aspx?id=58494)してお使いのコンピューターにインストールできます。
+
 
 Power BI Desktop で使用できるビューは 3 つあり、キャンバスの左側で選択します。 ビューは、次の順に表示されます。
 * **[Report]\(レポート\)** : このビューでは、レポートとビジュアルを作成します。作成時間の大半はここで費やされます。
@@ -128,5 +133,5 @@ Power BI Desktop レポートを発行するには:
 Power BI Desktop の使用を開始するには、まず、アプリケーションをダウンロードしてインストールする必要があります。 Power BI Desktop の取得方法は 2 つあります。
 
 * [Windows ストアから Power BI Desktop を取得する](https://aka.ms/pbidesktopstore)
-* [Web から Power BI Desktop をダウンロードする](https://docs.microsoft.com/power-bi/desktop-get-the-desktop#download-power-bi-desktop-directly)
+* [Web から Power BI Desktop をダウンロードする](https://www.microsoft.com/download/details.aspx?id=58494)
 

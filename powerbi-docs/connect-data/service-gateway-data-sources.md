@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/16/2020
+ms.date: 07/22/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 92c3a65b11435403b61a06324f534e6d82e4b7cb
+ms.sourcegitcommit: efe11c819be75887c4242afa64d32bb0698da569
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459556"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "87123490"
 ---
 # <a name="manage-data-sources"></a>データ ソースを管理する
 
@@ -44,6 +44,9 @@ Power BI は、多数の[オンプレミス データ ソース](power-bi-data-s
     ![データ ソース設定](media/service-gateway-data-sources/data-source-settings.png)
 
 5. SQL Server では、 **[認証方法]** で **[Windows]** または **[基本]** (SQL 認証) を選択します。 **[基本]** を選択した場合は、データ ソースの資格情報を入力します。
+
+    > [!NOTE]
+    > 認証方法として OAuth が選択されている場合、OAuth トークンの有効期限ポリシーよりも長く実行されるクエリは失敗する場合があります。
 
 6. **[詳細設定]** で、データ ソースの [シングル サインオン (SSO)](service-gateway-sso-overview.md) を構成できます。 
 

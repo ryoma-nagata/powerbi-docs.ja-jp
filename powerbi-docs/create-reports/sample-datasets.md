@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 305da7339159500a8e6de410bb4bf7f0b06d10e0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349634"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953055"
 ---
 # <a name="get-samples-for-power-bi"></a>Power BI のサンプルを入手する
 Power BI を初めて試してみたくてもデータがない場合や、  または、Power BI の機能の一部を示すレポートを表示したいと思う場合があります。 そのような場合でもご利用いただけます。
@@ -25,7 +25,7 @@ Power BI には、目的ごとにさまざまな種類のサンプルが用意�
 - **[サンプル アプリ](#sample-app-from-appsource)** は、AppSource からダウンロードします。Power BI サービスにもあります。 アプリには、ダッシュボード、レポート、データセットが含まれます。 これらを変更してから、同僚に配布することができます。
 - **[8 つのオリジナルの組み込みサンプル](#eight-original-samples)** は、ダッシュボード、レポート、データセットを含む "*コンテンツ パック*" として Power BI サービス内にあります。 これらは Power BI サービスに直接インストールします。 組み込みのサンプルは、Power BI レポート (.pbix) および Excel ブック (.xlsx) としても使用できます。
 - データ モデルと Power View シートが含まれている組み込みのサンプルの **[Excel ブック](#download-sample-excel-files)** バージョン。 Excel でデータ モデルを調べたり編集したり、Power BI レポートのデータ ソースとして Excel ブックを使用したりできます。 また、ブックを Excel ファイルとしてアップロードし、Power BI レポートに Excel のビジュアルとピボットテーブルを表示することもできます。 
-- また、Excel ファイル内の単純なフラット テーブルである **[財務データ サンプル ブック](sample-financial-download.md)** をダウンロードすることもできます。 これには架空の製品を含む匿名化データが含まれており、売上はセグメントと国で分けられています。 これにより、Power BI レポートに有用な基本データ ソースが作成されます。
+- また、Excel ファイル内の単純なフラット テーブルである **[財務データ サンプル ブック](sample-financial-download.md)** をダウンロードすることもできます。 これには架空の製品の匿名化されたデータが含まれており、売上はセグメントと国/地域で分けられています。 これにより、Power BI レポートに有用な基本データ ソースが作成されます。
 
 オンライン ドキュメントでは、これらの同じサンプルがチュートリアルと例で使用されているため、手順に沿って進めることができます。
 

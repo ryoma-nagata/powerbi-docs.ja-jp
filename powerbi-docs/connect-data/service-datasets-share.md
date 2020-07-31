@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1fd2ee46edd2447e7cf5096307f9d4947168a6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fd31c3b97eef80b0e4457fe6e61c1a8bf101db7b
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236724"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252661"
 ---
 # <a name="share-a-dataset"></a>データセットを共有する
 
@@ -54,7 +54,7 @@ Power BI Desktop の "*データ モデル*" の作成者であれば、Power BI
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 データセットの共有について留意すべき事項:
 
-* アクセス許可を管理する、レポートまたはダッシュボードを共有する、またはアプリを発行するという方法でデータセットを共有すると、[行レベルのセキュリティ (RLS)](../admin/service-admin-rls.md) によってアクセスが制限されない限り、データセット全体へのアクセスが付与されます。 レポートの作成者は、列を非表示にする、ビジュアル上のアクションを制限するなど、レポートを表示したり、操作したりするときのユーザー エクスペリエンスをカスタマイズする機能を使用できます。 そのようなカスタマイズされたユーザー エクスペリエンスによって、データ ユーザーがデータセットでアクセスできる対象が制限されることはありません。 個人の資格情報によってアクセスできるデータが決定されるよう、データセットの[行レベルセキュリティ (RLS)](../admin/service-admin-rls.md) を使用します。
+* アクセス許可の管理、レポートまたはダッシュボードの共有、またはアプリの発行でデータセットを共有する場合、[行レベルのセキュリティ (RLS)](../admin/service-admin-rls.md) によってアクセスが制限されない限り、データセット全体へのアクセスが付与されます。 レポートの作成者は、列を非表示にする、ビジュアル上のアクションを制限するなど、レポートを表示したり、操作したりするときのユーザー エクスペリエンスをカスタマイズする機能を使用できます。 そのようなカスタマイズされたユーザー エクスペリエンスによって、データ ユーザーがデータセットでアクセスできる対象が制限されることはありません。 個人の資格情報によってアクセスできるデータが決定されるよう、データセットの[行レベルセキュリティ (RLS)](../admin/service-admin-rls.md) を使用します。
 
 ## <a name="next-steps"></a>次の手順
 

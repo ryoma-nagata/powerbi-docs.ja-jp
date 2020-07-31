@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d388127ab42c4f60d1e08efea6b3fdbbbf7045b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ca04a5404f0868f85a9c7ed840109efe6d213760
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238829"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952641"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>アクセシビリティ機能を使用して Power BI レポートを使用する
 Power BI には、障碍のある方がより簡単に Power BI レポートを利用および操作できるよう支援するさまざまな機能が組み込まれています。 これらのツールは、支援技術を使用しないユーザーと同じ情報をレポートから入手するのに役立ちます。
@@ -30,7 +30,7 @@ Power BI には、障碍のある方がより簡単に Power BI レポートを�
 
 ## <a name="keyboard-navigation"></a>キーボード ナビゲーション
 
-Power BI Desktop または Power BI サービスを起動している場合、**Tab** キーを押すとすぐに右上隅にツールヒントが表示されます。 **[Power BI でスクリーン リーダーを使用するためのヒントです]** というリンクからは、この記事に移動し、アクセシビリティ ツールを使用したレポートの利用方法についての情報が提供されます。 **[メイン コンテンツにスキップ]** リンクをクリックすると、レポート キャンバスに移動します。
+Power BI Desktop または Power BI サービスを起動し、**Tab** キーを押すと、右上隅にすぐにツールヒントが表示されます。 **[Power BI でスクリーン リーダーを使用するためのヒントです]** というリンクからは、この記事に移動し、アクセシビリティ ツールを使用したレポートの利用方法についての情報が提供されます。 **[メイン コンテンツにスキップ]** リンクをクリックすると、レポート キャンバスに移動します。
 
 ![Tab キーを押すと、アクセシビリティのヒントが表示される](media/desktop-accessibility/accessibility-consuming-tools-02.png)
 
@@ -114,5 +114,3 @@ Power BI のアクセシビリティに関する記事のコレクションは�
 * [アクセシビリティ ツールを使用した Power BI レポートの作成](desktop-accessibility-creating-tools.md)
 * [Power BI レポートのアクセシビリティ キーボード ショートカット](desktop-accessibility-keyboard-shortcuts.md)
 * [レポートのアクセシビリティ チェックリスト](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
-
-

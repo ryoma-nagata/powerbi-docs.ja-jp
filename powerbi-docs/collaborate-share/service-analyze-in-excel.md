@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d4bfb6de39f0a8dee678e8224cca1cb03646abca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226992"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952778"
 ---
 # <a name="analyze-in-excel"></a>[Excel で分析]
 **[Excel で分析]** を使用すると、Power BI データセットを Excel に取り込み、ピボットテーブル、グラフ、スライサー、およびその他の Excel 機能を使用してデータセットを表示および操作できます。 **[Excel で分析]** を使用するには、まず Power BI から機能をダウンロードしてインストールし、Excel で使用する 1 つ以上のデータセットを選択する必要があります。 
@@ -62,36 +62,41 @@ Power BI サービスで提供されるリンクから **[Excel で分析]** を
 
 ## <a name="connect-to-power-bi-data"></a>Power BI データに接続する
 
-Power BI サービスで、Excel で分析したいデータセットまたはレポートに移動し、 **[その他のオプション]** メニュー ([...]) を選択して、 **[Excel で分析]** メニュー オプションを見つけます。 次の画像はレポートの選択を示しています。
-
-![更新プログラムのインストール中](media/service-analyze-in-excel/analyze-excel-06.png)
-
-Power BI サービスから Excel にデータセットを取り込むために、いくつかの手順を実行します。
+Power BI サービスで、Excel で分析するデータセットまたはレポートに移動し、次の操作を行います。
 
 1. **[その他のオプション]** メニューを選択します。
-2. 表示されるメニュー項目から **[Excel で分析]** を選択します。
 
-    そうすると、Power BI サービスによって、 **[Excel で分析]** で使用するために設計 (および構造化) されたデータセットのファイルが作成されます。これは .ODC のファイル拡張子を持ちます。 ファイルが作成されると、ブラウザーで自動的にダウンロード プロセスが開始されます。
+1. 表示されるメニュー項目から **[Excel で分析]** を選択します。
+
+    次の画像はレポートの選択を示しています。
+
+    ![更新プログラムのインストール中](media/service-analyze-in-excel/analyze-excel-06.png)
     
-    ![ODC ファイルのダウンロード](media/service-analyze-in-excel/analyze-excel-07.png)
+    >[!NOTE]
+    >[レポート] メニューから [Excel で分析] を選択すると、Excel に取り込まれるのは、レポートの基になるデータセットです。
+
+    そうすると、Power BI サービスによって、 **[Excel で分析]** で使用するために設計 (および構造化) されたデータセットのファイルが作成され、ブラウザーでのダウンロード プロセスが開始されます。
     
-    ファイル名は、派生元のデータセット (またはレポート、またはその他のデータ ソース) と一致します。 したがって、レポートが *Latest-Sales* という名前だった場合、ダウンロードされたファイルは **Latest-Sales.ODC** になります。
+    ![Excel ファイルのダウンロード](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
-3. .ODC ファイルを起動します
+    ファイル名は、派生元のデータセット (またはレポート、またはその他のデータ ソース) と一致します。 したがって、レポートが "*四半期ごとのレポート*" という名前だった場合、ダウンロードされたファイルは "**四半期ごとのレポート.xlsx**" になります。
 
-ファイルは既に **[Excel で分析]** に関連付けられているため、この .ODC ファイルを選択または起動すると、Excel が起動されて .ODC ファイルの読み込みが自動的に開始されます。 ただし、外部データ ソースの脅威に関する警告が表示される可能性があります。
+3. Excel ファイルを開きます。
 
-![セキュリティの警告](media/service-analyze-in-excel/analyze-excel-08.png)
-
-**[有効化]** を選択して **[Excel で分析]** 用の .ODC ファイルを読み込むと、Excel によってファイルが読み込まれます。 
+    >[!NOTE]
+    >ファイルを初めて開くとき、[保護ビュー](https://support.microsoft.com/en-gb/office/what-is-protected-view-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653?ui=en-us&rs=en-gb&ad=gb)と[信頼済みドキュメント](https://support.microsoft.com/en-us/office/trusted-documents-cf872bd8-47ec-4c02-baa5-1fdba1a11b53)の設定に応じて、**編集を有効にする**こと、さらに**コンテンツを有効にする**ことが必要な場合があります。
+    >
+    >![保護ビューの編集を有効にするバナーのスクリーンショット](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
+    >
+    >![信頼済みドキュメントのコンテンツを有効にするバナーのスクリーンショット](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
 ## <a name="use-excel-to-analyze-the-data"></a>Excel を使用してデータを分析する
 
-セキュリティに関する通知で **[有効化]** を選択することで .ODC ファイルの読み込みを許可すると、Excel に Power BI データセットからの空の**ピボットテーブル**と**フィールド**の一覧が表示され、分析する準備が整います。
+編集とコンテンツを有効にすると、Excel に Power BI データセットから空の**ピボットテーブル**と**フィールド**の一覧が表示され、分析する準備が整います。
 
-![データが接続された Excel](media/service-analyze-in-excel/analyze-excel-09.png)
+![データが接続された Excel](media/service-analyze-in-excel/analyze-in-excel-connected.png)
 
-.ODC ファイルには、Power BI 内のユーザーのデータセットに接続する MSOLAP 接続が含まれています。 データの分析または処理操作を行うと、Excel は Power BI のデータセットをクエリし、結果を Excel に返します データセットが DirectQuery を使用してライブ データ ソースに接続している場合、Power BI はデータ ソースをクエリし、結果を Excel に返します
+Excel ファイルには、Power BI 内のユーザーのデータセットに接続する MSOLAP 接続が含まれています。 データの分析または処理操作を行うと、Excel は Power BI のデータセットをクエリし、結果を Excel に返します データセットが DirectQuery を使用してライブ データ ソースに接続している場合、Power BI はデータ ソースをクエリし、結果を Excel に返します
 
 これで Power BI のデータへの接続が確立されたので、Excel でローカルのデータセットに対して作業する場合と同じように、ピボットテーブルやグラフを作成したり、データセットを分析したりできます。
 
@@ -107,7 +112,7 @@ Power BI サービスから Excel にデータセットを取り込むために�
 
 
 ### <a name="sign-in-to-power-bi"></a>Power BI へのサインイン
-ブラウザーで Power BI にサインインしていても、Excel で初めて .ODC ファイルを開くときには、Power BI アカウントを使用して Power BI にサインインするよう求められる場合があります。 これにより、Excel から Power BI への接続を認証します。
+ブラウザーで Power BI にサインインしていても、Excel で新しい Excel ファイルを初めて開くときには、Power BI アカウントを使用して Power BI にサインインするよう求められる場合があります。 これにより、Excel から Power BI への接続を認証します。
 
 ### <a name="users-with-multiple-power-bi-accounts"></a>複数の Power BI アカウントを持つユーザー
 一部のユーザーは複数の Power BI アカウントを持っています。 そのような場合は、1 つのアカウントを使用して Power BI にサインインしている可能性がありますが、他のアカウントから [Excel で分析] で使用されているデータセットにアクセスすることができます。 このような場合、[Excel で分析] ブックで使用されているデータセットにアクセスしようとすると、**Forbidden** エラーやサインインの失敗が生じることがあります。

@@ -1,5 +1,5 @@
 ---
-title: 新しいワークスペース エクスペリエンスで利用状況の指標を監視する
+title: 新しいワークスペース エクスペリエンスで使用状況メトリックを監視する (プレビュー)
 description: Power BI のダッシュボードとレポート用の新しいワークスペース エクスペリエンスの利用状況の指標を表示、保存、使用する方法。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162045"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953032"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>新しいワークスペース エクスペリエンスで利用状況の指標を監視する
 
@@ -65,6 +65,9 @@ ms.locfileid: "86162045"
 ### <a name="usage-metrics-report-dataset"></a>利用状況の指標に関するレポートのデータセット
 
 強化された利用状況の指標に関するレポートは、[利用状況の指標に関するレポート] データセットに依存します。このデータセットは、強化された利用状況の指標に関するレポートを初めて起動したときに、Power BI によって自動的に作成されます。 その後、このデータセットは Power BI によって毎日更新されます。 更新スケジュールを変更することはできませんが、利用状況の指標データを更新するために Power BI によって使用される資格情報を更新することはできます。 これが必要になる可能性があるのは、資格情報の有効期限が切れたとき、またはこのデータセットが存在するワークスペースから利用状況の指標に関するレポートを最初に起動したユーザーを削除したときに、スケジュールされた更新を再開する場合です。
+
+> [!NOTE]
+> 使用状況メトリックのデータセットはまだプレビュー段階ですが、カスタム レポートに影響するマイナー変更がある場合があります。  
 
 ### <a name="usage-metrics-report-pages"></a>利用状況の指標に関するレポートの各ページ
 

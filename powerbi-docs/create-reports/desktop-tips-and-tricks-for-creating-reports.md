@@ -9,11 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238484"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953009"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop におけるレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop でレポートを作成する場合、*および* Power Pivot のアドインを有効にし、なおかつ Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションでレポートを作成する場合に役立つヒントとテクニックをまとめました。 
@@ -53,7 +54,7 @@ Power BI Desktop の計算列を使って、参照行を定義できます。 �
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Bing にヒントを与えることでより簡単にマップを作成
 Power BI は Bing と統合されており、既定のマップ座標 (ジオコーディングと呼ばれるプロセス) を提供するため、マップを簡単に作成できます。 Bing はいくつかのアルゴリズムとヒントを使用して適切な場所を取得しようとしますが、あくまでも最善の推測に過ぎません。 ジオコーディングの正確性を高めるために、次のヒントを使用してください。
 
-マップを作成するとき、国、都道府県、市区町村をプロットすることがよくあります。 Power BI Desktop では、住所指定の後で列の名前を指定すると、Bing による推測結果の正確性が増します。 たとえば、「カリフォルニア」や「ワシントン」などの米国の州名を入力するフィールドがある場合、Bing は「ワシントン」という語からワシントン州ではなくワシントン DC を返す可能性があります。 この列に「州」という名前を付けておけば、ジオコーディングが改善されます。 同様に、列には "国" や "市区町村" のように名前を付けます。 
+マップを作成するときは、通常、国/地域、都道府県、市区町村をプロットします。 Power BI Desktop では、住所指定の後で列の名前を指定すると、Bing による推測結果の正確性が増します。 たとえば、「カリフォルニア」や「ワシントン」などの米国の州名を入力するフィールドがある場合、Bing は「ワシントン」という語からワシントン州ではなくワシントン DC を返す可能性があります。 この列に「州」という名前を付けておけば、ジオコーディングが改善されます。 同様に、列には "国" や "市区町村" のように名前を付けます。 
 
 この指定は、複数の国や地域のコンテキストではあいまいになることもあります。 国や地域によっては、「州」と呼ばれるものが、「都道府県」や「郡」などと呼ばれる場合があります。 ジオコーディングの正確性を増すには、作成する列に複数のフィールドを追加し、それらのフィールドをデータの場所のプロットに使用します。 たとえば、"Wiltshire" という値のみを渡すのではなく、"Wiltshire, England" という値を渡せば、ジオコーディング結果の正確性が高まります。 
 

@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/08/2020
-ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.date: 07/27/2020
+ms.openlocfilehash: c91642a08642a52b333ccba14078068eaa9ba616
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216534"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252868"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
@@ -48,10 +48,11 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | ページ分割されたレポートの電子メールのサブスクリプション | はい | はい | [Power BI サービスのページ分割されたレポートを自分および他のユーザーがサブスクライブする](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services での電子メール配信](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | データ アラート | いいえ | はい | Power BI サービスで[データ アラート](../create-reports/service-set-data-alerts.md)を設定する
 | 行レベルのセキュリティ (RLS) | はい | はい | DirectQuery (データ ソース) とインポート モードの両方で利用可能 <br><br>[Power BI サービス](../admin/service-admin-rls.md)での行レベル セキュリティ <br><br>[Power BI Report Server](row-level-security-report-server.md) での行レベル セキュリティ |
+| レポート間のドリルスルー | いいえ | はい | [レポート間のドリルスルーの使用](../create-reports/desktop-cross-report-drill-through.md) |
 | 全画面表示モード | いいえ | はい | Power BI サービスでの[全画面表示モード](../consumer/end-user-focus.md) |
 | Microsoft 365 の高度なコラボレーション | いいえ | はい | Microsoft 365 を使用した[ワークスペースでの共同作業](../collaborate-share/service-collaborate-power-bi-workspace.md) |
 | R スクリプトおよびビジュアル | いいえ | はい | Power BI Desktop で [R ビジュアルの作成](../create-reports/desktop-r-visuals.md)および R スクリプトの実行を行って、それらを Power BI サービスに発行する。 R スクリプトまたはビジュアルを含む Power BI レポートを Power BI Report Server に保存することはできません。  |
-| Python スクリプトおよびビジュアル | いいえ | はい | Power BI Desktop で [Python スクリプトおよびビジュアルを作成](../connect-data/desktop-python-scripts.md)して、それらを Power BI サービスに発行する。 Python スクリプトまたはビジュアルを含む Power BI レポートを Power BI Report Server に保存することはできません。 |
+| Python スクリプトおよびビジュアル | いいえ | ○ | Power BI Desktop で [Python スクリプトおよびビジュアルを作成](../connect-data/desktop-python-scripts.md)して、それらを Power BI サービスに発行する。 Python スクリプトまたはビジュアルを含む Power BI レポートを Power BI Report Server に保存することはできません。 |
 | プレビュー機能 | いいえ | はい | [Power BI サービスのプレビュー機能のオプトイン](../consumer/end-user-preview-features.md) |
 | Power BI ビジュアル | はい | はい | [Power BI ビジュアル](../developer/visuals/power-bi-custom-visuals.md) |
 | 複合モデル | いいえ | はい |

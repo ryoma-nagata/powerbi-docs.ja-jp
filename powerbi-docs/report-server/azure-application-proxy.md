@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 05/27/2020
+ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: f4237379ffefeeb7ba9d105f5fbd61ff84959807
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239513"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364079"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Azure アプリケーション プロキシを使用して Power BI Report Server を構成する
 
@@ -110,7 +110,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 3. プロトコル遷移のある制約付き委任を構成します。 制約付き委任では、委任先のサービスを明示的に指定する必要があります。
 4. **[レポート サーバー サービス アカウント]** を右クリックし、 **[プロパティ]** を選択します。
 5. **[委任]** タブを選びます。
-6. **[指定されたサービスへの委任でのみこのコンピューターを信頼する]** をオンにします。
+6. **[指定されたサービスへの委任でのみこのユーザーを信頼する]** を選択します。
 7. **[任意の認証プロトコルを使う]** をオンにします。
 8. **[このアカウントが委任された資格情報を提示できるサービス]** で **[追加]** を選択します。
 9. 新しいダイアログで、 **[ユーザーまたはコンピューター]** を選択します。

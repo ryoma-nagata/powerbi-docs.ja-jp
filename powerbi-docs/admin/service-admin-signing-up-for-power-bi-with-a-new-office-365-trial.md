@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a3df69e52614fba3152f6539b2c4cbcf4f5c87d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227669"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252086"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>新しい Microsoft 365 試用版で Power BI にサインアップする
 
@@ -25,7 +25,7 @@ ms.locfileid: "85227669"
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Office の Microsoft 365 試用版にサインアップする
 
-[Microsoft 365 の Web サイト](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)で Microsoft 365 試用版にサインアップします。 まだアカウントをお持ちでない場合は、Microsoft によってアカウントを作成する手順が提示されます。 Microsoft 365 では商用の電子メール アカウント (Hotmail や Gmail など) を利用できないため、利用できる新しいアカウントを作成します。  その電子メール アカウントは *zalan@onmicrosoft.com* のようなものになります。
+[Microsoft 365 の Web サイト](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)で Microsoft 365 試用版にサインアップします。 まだアカウントをお持ちでない場合は、Microsoft によってアカウントを作成する手順が提示されます。 Microsoft 365 では商用の電子メール アカウント (Hotmail や Gmail など) を利用できないため、利用できる新しいアカウントを作成します。  その電子メール アカウントは、*zalan\@onmicrosoft.com* のようなものです。
 
 ![[無料で試す] を選択する](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)
 
