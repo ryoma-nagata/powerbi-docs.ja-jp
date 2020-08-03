@@ -37,6 +37,8 @@
               href: service-data-lineage.md
             - name: データセットの影響分析
               href: service-dataset-impact-analysis.md
+            - name: データ ソースの影響分析
+              href: service-data-source-impact-analysis.md
             - name: データの秘密度ラベルを適用する
               href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: グループの OneDrive に保存されているファイルへの接続
@@ -45,6 +47,16 @@
               href: service-collaborate-power-bi-workspace.md
             - name: Power BI および Microsoft 365 でのグループ管理
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: Teams での Power BI
+          items:
+            - name: Teams での共同作業
+              href: service-collaborate-microsoft-teams.md
+            - name: Teams へのレポートの埋め込み
+              href: service-embed-report-microsoft-teams.md
+            - name: Teams に直接共有する
+              href: service-share-report-teams.md
+            - name: Teams でリンク プレビューを取得する
+              href: service-teams-link-preview.md
         - name: 作業の公開および共有
           items:
             - name: ダッシュボードとレポートを共有する
@@ -61,8 +73,6 @@
               href: service-report-subscribe.md
             - name: ホームの機能コンテンツ
               href: service-featured-content.md
-            - name: Microsoft Teams にレポートを埋め込む
-              href: service-embed-report-microsoft-teams.md
             - name: SharePoint Online にレポートを埋め込む
               href: service-embed-report-spo.md
             - name: セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
@@ -71,20 +81,22 @@
               href: service-publish-to-web.md
             - name: OneDrive 上の Excel ブックにリンクするダッシュボードを共有する
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-        - name: Power BI をさらにパワーアップ
+        - name: Excel での Power BI
           items:
             - name: Excel で分析
               href: service-analyze-in-excel.md
-            - name: Excel での Power BI のおすすめのテーブル
+            - name: Excel で Power BI のおすすめテーブルを使用する
               href: service-excel-featured-tables.md
+            - name: おすすめテーブルの設定
+              href: service-create-excel-featured-tables.md
             - name: ”Excel で分析” に関するトラブルシューティング
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'エラー: Excel ブックにデータが見つかりませんでした'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-            - name: Power Automate と Power BI
-              href: service-flow-integration.md
-            - name: サード パーティ製アプリを使用する
-              href: service-power-bi-get-started-third-party-apps.md
+        - name: Power Automate と Power BI
+          href: service-flow-integration.md
+        - name: サード パーティ製アプリを使用する
+          href: service-power-bi-get-started-third-party-apps.md
         - name: 組織のコンテンツ パック
           items:
             - name: 組織のコンテンツ パックの概要
