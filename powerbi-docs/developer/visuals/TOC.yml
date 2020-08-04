@@ -26,7 +26,7 @@
       items:
         - name: Power BI ビジュアル プロジェクトの構造
           href: visual-project-structure.md
-        - name: ビジュアルの概念
+        - name: ' Power BI ビジュアルのシステム統合'
           href: power-bi-visuals-concept.md
         - name: Power BI での組織のビジュアル
           href: power-bi-custom-visuals-organization.md
