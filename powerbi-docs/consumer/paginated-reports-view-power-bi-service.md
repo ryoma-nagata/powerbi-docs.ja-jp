@@ -3,17 +3,17 @@ title: ページ分割されたレポートを Power BI サービスで表示す
 description: このチュートリアルでは、ページ分割されたレポートを Power BI サービスで表示する方法について説明します。
 author: maggiesMSFT
 ms.author: maggies
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 12/03/2019
-ms.openlocfilehash: 5d3a281b3ab584fb46094db13c005056e167f942
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 66ca8313af6fb88c23c4aa69e77405b281ea07e3
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240173"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538104"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service"></a>ページ分割されたレポートを Power BI サービスで表示する
 

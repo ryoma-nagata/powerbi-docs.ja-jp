@@ -2,19 +2,19 @@
 title: Power BI サービスでのページ分割されたレポート
 description: ページ分割されたレポートと、Power BI サービスでそれらを表示する方法を説明するドキュメント
 author: mihart
-ms.reviewer: chris finlan
+ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b5c9b36f003d22d4b1fda3ff11227d7f4c77f241
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f0f2d57b1a60307cef2d848854355715dd74a412
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236503"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537989"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI サービスでのページ分割されたレポート
 
