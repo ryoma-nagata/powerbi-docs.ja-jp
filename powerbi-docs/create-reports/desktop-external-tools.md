@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2020
+ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252891"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411959"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Power BI Desktop での外部ツールの使用 (プレビュー)
 
@@ -42,8 +42,6 @@ Power BI Desktop の **[外部ツール]** リボンには、コンピュータ�
 * データセット メタデータの的を絞ったビジネス ドメイン固有ビューを定義するための[パースペクティブ](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular)
 
 外部ツールを使用してメタデータの翻訳を管理することは可能かもしれませんが、現在、このプレビュー バージョンではサポートされていません。 現在のユーザーのロケールが翻訳されたロケールである場合、現在のバージョンの Power BI Desktop を使用してフィールド リスト内のオブジェクトを編集しても、正しく機能しません。 
-
-計算グループが定義されているモデルに対してレポートを作成する場合に、既知の問題があります。 計算グループによって、選択した計算またはメジャーに依存する動的な書式設定が定義されている場合、現時点では、テーブル、マトリックス、およびカードの視覚化でのみこのような書式設定を使用できます。
 
 すべての[表形式オブジェクト モデル](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) データセットのメタデータは読み取り専用でアクセスできますが、[表形式オブジェクト モデル](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)の記事で説明されている一覧に含まれていないオブジェクトは、Power BI Desktop Analysis Services インスタンスでの編集がまだサポートされていません。
 
@@ -134,9 +132,9 @@ ALM Toolkit の主要なツール作成者は [Christian Wade](https://www.linke
 
 外部ツールは、**グループ ポリシー**を使用して、またはレジストリを編集することによって無効にすることができます。これは、**カスタム ビジュアル**を無効にするプロセスと似ています。
 
-    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
 
-    Registry value: ```EnableExternalTools```
+    Registry value: *EnableExternalTools*
 
 値が 1 (10 進数) の場合は、Power BI で外部ツールの使用が有効になります。これは既定値です。
 

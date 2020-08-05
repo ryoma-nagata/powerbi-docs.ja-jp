@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252503"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537506"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -43,8 +43,8 @@ Power BI の管理ポータルにアクセスするには、アカウントが M
 * [テナント設定](#tenant-settings)
 * [容量の設定](#capacity-settings)
 * [埋め込みコード](#embed-codes)
-* [組織のビジュアル](#organizational-visuals)
-* [データフロー ストレージ (プレビュー)](#dataflowStorage)
+* [組織のビジュアル](organizational-visuals.md#organizational-visuals)
+* [データフロー ストレージ (プレビュー)](#dataflow-storage-preview)
 * [ワークスペース](#workspaces)
 * [カスタム ブランド](#custom-branding)
 
@@ -386,55 +386,6 @@ Azure AD B2B ゲスト ユーザーは、組織内のコンテンツを編集お
 
 Teams での Power BI コンテンツの共有の詳細については、[こちら](../collaborate-share/service-share-report-teams.md)を参照してください。
 
-
-## <a name="power-bi-visuals-settings"></a>Power BI ビジュアルの設定
-
-### <a name="add-and-use-power-bi-visuals"></a>Power BI ビジュアルを追加して使用する
-
-組織内のユーザーは、Power BI ビジュアルを操作して共有することができます。 [詳細情報](../developer/visuals/power-bi-custom-visuals.md)
-
-> [!NOTE]
-> この設定は組織全体に適用するか、特定のグループに限定することができます。
-
-Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポリシー**を使用して、組織内に配置されているコンピューター間で Power BI ビジュアルの使用を無効にすることができます。
-
-<table>
-<tr><th>属性</th><th>値</th>
-</tr>
-<td>キー</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableCustomVisuals</td>
-</tr>
-</table>
-
-値が 1 (10 進数) の場合は、Power BI で Power BI ビジュアルの使用が有効になります (既定)。
-
-値が 0 (10 進数) の場合は、Power BI で Power BI ビジュアルの使用が無効になります。
-
-### <a name="allow-only-certified-visuals"></a>認定済みビジュアルのみを許可する
-
-Power BI ビジュアルを追加し、使用する許可が与えられた組織のユーザー ([カスタム視覚化の追加と使用] 設定に示されています) は、[認定済みの Power BI ビジュアル](https://go.microsoft.com/fwlink/?linkid=2002010)のみを使用できます (認定のないビジュアルはブロックされ、使用すると、エラー メッセージが表示されます)。 
-
-
-Power BI Desktop (2019 年 3 月リリース以降) では、**グループ ポリシー**を使用して、組織内に配置されているコンピューター間で未認定の Power BI ビジュアルの使用を無効にすることができます。
-
-<table>
-<tr><th>属性</th><th>値</th>
-</tr>
-<td>キー</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableUncertifiedVisuals</td>
-</tr>
-</table>
-
-値が 1 (10 進数) の場合は、Power BI で未認定の Power BI ビジュアルの使用が有効になります (既定)。
-
-値が 0 (10 進数) の場合は、Power BI で未認定の Power BI ビジュアルの使用が無効になります (このオプションでは、[認定済みの Power BI ビジュアル](https://go.microsoft.com/fwlink/?linkid=2002010)の使用のみが有効になります)。
-
 ## <a name="r-visuals-settings"></a>R ビジュアルの設定
 
 ### <a name="interact-with-and-share-r-visuals"></a>R ビジュアルとの対話と共有
@@ -540,67 +491,7 @@ Power BI Embedded (A SKU) の設定を管理する方法について詳しくは
 
 ![Power BI 管理ポータル内の埋め込みコード](media/service-admin-portal/embed-codes.png)
 
- ## <a name=""></a><a name="organizational-visuals">組織のビジュアル</a> 
-
-**[組織のビジュアル]** タブでは、組織内に Power BI ビジュアルを展開して管理できます。 組織のビジュアルを使用すると、組織に独自のビジュアルを簡単に展開でき、レポート作成者はそれを検出して、Power BI Desktop からレポートにインポートできます。 [詳細情報](../developer/visuals/power-bi-custom-visuals-organization.md)
-
-> [!WARNING]
-> カスタム ビジュアルには、セキュリティやプライバシー上のリスクを伴うコードが含まれている可能性があります。組織のリポジトリに展開する前に、カスタム ビジュアルの作成者とソースが信頼できることを確認してください。
-
-次の図では、組織のリポジトリに現在展開されているすべての Power BI ビジュアルを示します。
-
-![組織の管理のビジュアル](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
-
-### <a name="add-a-new-custom-visual"></a>新しいカスタム ビジュアルの追加
-
-一覧に新しいカスタム ビジュアルを追加するには、次の手順のようにします。 
-
-1. 右側のウィンドウで、 **[カスタム ビジュアルの追加]** を選択します。
-
-    ![Power BI ビジュアルのフォーム](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
-
-1. **[カスタム ビジュアルを追加します]** フォームに入力します。
-
-    * **[.pbiviz ファイルの選択]** (必須): アップロードするカスタム ビジュアル ファイルを選択します。 バージョン管理されている API Power BI ビジュアルのみをサポートしています (詳細はここをお読みください)。
-
-    カスタム ビジュアルをアップロードする前に、そのビジュアルのセキュリティとプライバシーを調べ、組織の基準に適合することを確認してください。
-
-    * **[カスタム ビジュアルに名前を付ける]** (必須): Power BI Desktop ユーザーにとってわかりやすくなるように、ビジュアルに短いタイトルを付けます
-
-    * **アイコン**:Power BI Desktop UI に表示されるアイコン ファイルです。
-
-    * **[説明]** : ユーザーにとってわかりやすくなるようにビジュアルに簡単な説明を与えます
-
-1. **[追加]** を選択して、アップロード要求を開始します。 成功すると、一覧に新しい項目が表示されます。 失敗すると、エラー メッセージが表示されます。
-
-### <a name="delete-a-custom-visual-from-the-list"></a>一覧からカスタム ビジュアルを削除する
-
-ビジュアルを完全削除するには、リポジトリでビジュアルのごみ箱アイコンを選択します。
-
-> [!IMPORTANT]
-> 削除は元に戻すことができません。 削除の直後から、既存のレポートでそのビジュアルのレンダリングが停止します。 同じビジュアルをもう一度アップロードしても、削除された前のビジュアルが置き換わることはありません。 ただし、ユーザーは、新しいビジュアルを再度インポートして、レポート内に作成したインスタンスを置き換えることはできます。
-
-### <a name="disable-a-custom-visual-in-the-list"></a>一覧でカスタム ビジュアルを無効にする
-
-組織のストアからビジュアルを無効にするには、歯車アイコンを選択します。 **[アクセス]** セクションで、カスタム ビジュアルを無効にします。
-
-無効にしたビジュアルは既存のレポートに表示されず、次のエラー メッセージが表示されます。
-
-*This custom visual is no longer available.Please contact your administrator for details. (このカスタム ビジュアルは使用できなくなりました。詳細については管理者に問い合わせてください。)*
-
-ただし、ブックマークが設定されたビジュアルは引き続き機能します。
-
-更新または管理者による変更の後、Power BI Desktop ユーザーはアプリケーションを再起動するか、Power BI サービスでブラウザーを最新の情報に更新して、更新の内容を確認する必要があります。
-
-### <a name="update-a-visual"></a>ビジュアルを更新する
-
-組織のストアからビジュアルを更新するには、歯車アイコンを選択します。 新しいバージョンのビジュアルを参照してアップロードします。
-
-ビジュアル ID が変わらないことを確認します。 新しいファイルで、組織全体のすべてのレポートの以前のファイルが置き換えられます。 ただし、ビジュアルの新しいバージョンのためにビジュアルの以前のバージョンを使用できなくなったり、データ構造が破損されたりする可能性がある場合は、以前のバージョンを置き換えないでください。 代わりに、新しいバージョンのビジュアル用に新しく登録することをお勧めします。 たとえば、新しいバージョン番号 (バージョン X.X) を新しく登録されたビジュアルのタイトルに追加します。 こうすると、バージョン番号が更新されているだけで同じビジュアルであることがわかるので、既存のレポートの機能は中断されません。 この場合も、ビジュアル ID が変わらないことを確認します。 次回ユーザーが Power BI Desktop から組織のリポジトリに入ると、新しいバージョンをインポートできます。レポートに入っている現在のバージョンを置換するように求められます。
-
-詳細については、[組織の Power BI ビジュアルに関してよく寄せられる質問](../developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)のページを参照してください
-
-## <a name=""></a><a name="dataflowStorage">データフロー ストレージ (プレビュー)</a>
+## <a name="dataflow-storage-preview"></a>データフロー ストレージ (プレビュー)
 
 既定では、Power BI で使用されるデータは、Power BI で利用可能な内部ストレージに保存されます。 データフローと Azure Data Lake Storage Gen2 (ADLS Gen2) を統合すると、組織の Azure Data Lake Storage Gen2 アカウントにデータフローを保存できます。 詳細については、「[データフローと Azure Data Lake の統合 (プレビュー)](../transform-model/service-dataflows-azure-data-lake-integration.md)」を参照してください。
 

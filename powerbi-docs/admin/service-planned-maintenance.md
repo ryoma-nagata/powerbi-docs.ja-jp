@@ -11,12 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 099cd750328bed0b23524d6119c4d7ce91548a23
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 13bbf23c075fb1f58c2af71ae0a082d4e539d023
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252040"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537690"
 ---
 # <a name="power-bi-planned-maintenance"></a>Power BI の計画メンテナンス
 
@@ -35,7 +35,7 @@ Power BI サービスの計画メンテナンスは、お客様に信頼性の�
 
 * ユーザーは、開いているブラウザー ウィンドウを更新する必要があります。
 * Power BI Mobile アプリ ユーザーは、最新バージョンを使用していることを確認し、サインアウトしてからアプリにサインインし直す必要があります。 お使いの携帯電話のアプリ ストアを確認するか、[Power BI Mobile](https://powerbi.microsoft.com/mobile/) のページを確認してください。
-* ローカルであれ OneDrive や SharePoint の場所からであれ、組織の視覚化を使用するレポートをアクティブに編集または発行していたお客様は、組織の視覚化ストアを介してその視覚化を再インポートするか、または更新された PBIX をダウンロードしてから、再発行する必要があります。 組織の視覚化の詳細については、「[組織の視覚化](service-admin-portal.md#organization-visuals)」を参照してください。
+* ローカルであれ OneDrive や SharePoint の場所からであれ、組織の視覚化を使用するレポートをアクティブに編集または発行していたお客様は、組織の視覚化ストアを介してその視覚化を再インポートするか、または更新された PBIX をダウンロードしてから、再発行する必要があります。 組織の視覚化の詳細については、「[組織の視覚化](organizational-visuals.md)」を参照してください。
 * [Excel で分析] 機能が使用された Excel ブックが更新されない場合は、接続文字列を更新するか、そのデータセットの ODC 接続を再ダウンロードする必要が生じることがあります。 詳細については、「[Excel で分析](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data)」を参照してください。
 * メンテナンスの完了時には、コンテンツに埋め込まれている Power BI へのリンクが接続されなくなる場合があります。 たとえば、SharePoint または Teams 内の埋め込みのリンクを使用すると、ユーザー エラーが発生する場合があります。 この問題を解決するには、Power BI で埋め込みのリンクを再生成して、それらが使用されている場所を更新する必要があります。 埋め込みのリンクの詳細については、「[SharePoint Online にレポート Web パーツを埋め込む](../collaborate-share/service-embed-report-spo.md)」と [Power BI による Microsoft Teams での共同作業](../collaborate-share/service-collaborate-microsoft-teams.md)に関する記事を参照してください。
 
