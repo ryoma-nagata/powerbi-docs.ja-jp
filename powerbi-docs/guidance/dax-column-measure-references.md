@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a98ee3ff33d21dd599ddfb11166a6870ad30e6e5
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279620"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537575"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX:列参照とメジャー参照
 
@@ -67,5 +67,6 @@ Profit = Orders[Sales] - Orders[Cost]
 この記事に関する詳細については、次のリソースを参照してください。
 
 - [Data Analysis Expressions (DAX) リファレンス](/dax/)
+- ラーニング パス:[Power BI Desktop で DAX を使用する](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-
+- Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

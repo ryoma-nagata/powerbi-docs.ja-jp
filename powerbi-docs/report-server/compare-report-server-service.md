@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/27/2020
-ms.openlocfilehash: c91642a08642a52b333ccba14078068eaa9ba616
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/28/2020
+ms.openlocfilehash: 44cfbeb85f30e2d84dc2c693ab4837606eb899eb
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252868"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87412051"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server と Power BI サービスの比較
 
@@ -48,6 +48,7 @@ Power BI Report Server と Power BI サービスには、多くの類似点と�
 | ページ分割されたレポートの電子メールのサブスクリプション | はい | はい | [Power BI サービスのページ分割されたレポートを自分および他のユーザーがサブスクライブする](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services での電子メール配信](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | データ アラート | いいえ | はい | Power BI サービスで[データ アラート](../create-reports/service-set-data-alerts.md)を設定する
 | 行レベルのセキュリティ (RLS) | はい | はい | DirectQuery (データ ソース) とインポート モードの両方で利用可能 <br><br>[Power BI サービス](../admin/service-admin-rls.md)での行レベル セキュリティ <br><br>[Power BI Report Server](row-level-security-report-server.md) での行レベル セキュリティ |
+| 多対多のリレーションシップ | いいえ | はい | Power BI Desktop で[多対多リレーションシップを適用する](../transform-model/desktop-many-to-many-relationships.md) |
 | レポート間のドリルスルー | いいえ | はい | [レポート間のドリルスルーの使用](../create-reports/desktop-cross-report-drill-through.md) |
 | 全画面表示モード | いいえ | はい | Power BI サービスでの[全画面表示モード](../consumer/end-user-focus.md) |
 | Microsoft 365 の高度なコラボレーション | いいえ | はい | Microsoft 365 を使用した[ワークスペースでの共同作業](../collaborate-share/service-collaborate-power-bi-workspace.md) |

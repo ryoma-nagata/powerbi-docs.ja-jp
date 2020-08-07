@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d49d92261b141a66021bb0809c214e712bd687c8
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 3707399d21d15b16236e0e33da6c264fb6e364b4
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263714"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768974"
 ---
 # <a name="export-reports-to-powerpoint"></a>レポートを PowerPoint にエクスポートする
 
@@ -104,7 +104,7 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
 * 一部のレポートはエクスポートできません。 次のようなものが含まれます。
     - 組織外のユーザーが所有していて、そのユーザーから共有されているレポートなど、Power BI テナント ドメイン外のユーザーによって所有されているレポート。
     - 組織外の人、つまり、Power BI テナント内にいないユーザーとダッシュボードを共有している場合、そのユーザーは共有されたダッシュ ボードに関連付けられているレポートを PowerPoint にエクスポートできません。 たとえば、ユーザー aaron@contoso.com は david@cohowinery.com と共有することができます。 しかし、david@cohowinery.com は関連付けられたレポートを PowerPoint にエクスポートできません。
-    - 30 を超えるレポート ページを含むレポート。 最初の 30 ページのみがエクスポートされます。
+    - 50 を超えるレポート ページを含むレポート。 最初の 50 ページのみがエクスポートされます。
     - 以前のバージョンの PowerPoint へのレポートのエクスポート。
     - 処理に 1 時間以上かかるレポート。 
     - 読み込みに 6 分以上かかるレポート ページ。 

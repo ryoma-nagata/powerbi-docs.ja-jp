@@ -1,6 +1,6 @@
 ---
 title: Power BI のビジュアル
-description: Power BI でのカスタム ビジュアル
+description: この記事では、Power BI のカスタム ビジュアルについて説明します。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 01/03/2019
+ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561641"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538012"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI のビジュアル
 
 Power BI には、すぐに使用できる Power BI ビジュアルが多数用意されています。 それらのビジュアルは、[Power BI Desktop](https://powerbi.microsoft.com/desktop/) と [Power BI サービス](https://app.powerbi.com)の両方の [視覚化] ペインで使用可能であり、Power BI コンテンツの作成と編集に使用できます。
 
-![視覚化](media/power-bi-custom-visuals/power-bi-visualizations.png)
+![Power BI Desktop と Power BI サービスに表示されたときの Power BI の [視覚化] ウィンドウのスクリーンショット。](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 その他多くの Power BI ビジュアルを Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) または Power BI から入手できます。 それらのビジュアルは、Microsoft および Microsoft パートナーによって作成され、AppSource 検証チームによってテストおよび検証されています。
 
@@ -38,6 +38,11 @@ Power BI には、すぐに使用できる Power BI ビジュアルが多数用�
 ## <a name="appsource-power-bi-visuals"></a>AppSource の Power BI ビジュアル
 
 Microsoft とコミュニティのメンバーは公共の利益のために Power BI ビジュアルを作成し、[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) マーケットプレースに公開しています。 このようなビジュアルをダウンロードして、自身の Power BI レポートに追加することができます。 このような Power BI ビジュアルは Microsoft が機能と品質をテストし、承認しています。
+
+>[!NOTE]
+>* SDK で作成された Power BI ビジュアルを使用することで、Power BI テナントの地域、コンプライアンス境界、または各国のクラウド インスタンスの外部にあるサードパーティまたはその他のサービスにデータをインポートしたり、データを送信したりすることができます。
+>* Power BI の認定済みビジュアルとは、ビジュアルが外部のサービスまたはリソースにアクセスしないことを確認するために追加でテストされた AppSource のビジュアルです。
+>* AppSource から Power BI ビジュアルがインポートされると、追加の通知なしにビジュアルが自動的に更新される可能性があります。
 
 ### <a name="what-is-appsource"></a>AppSource とは
 
@@ -74,10 +79,17 @@ Power BI ビジュアルをインポートするには、 *[視覚化]* ペイ�
 
 ## <a name="next-steps"></a>次の手順
 
-* 開発者の方は、「[Power BI のビジュアルを開発する](custom-visual-develop-tutorial.md)」のチュートリアルから開始してください。
+>[!div class="nextstepaction"]
+>[Power BI のビジュアルを開発する](custom-visual-develop-tutorial.md)
 
-* [Power BI ビジュアル プロジェクトの構造](visual-project-structure.md)について学習します。
+>[!div class="nextstepaction"]
+>[Power BI ビジュアル プロジェクトの構造](visual-project-structure.md)
 
-* [Power BI ビジュアルのガイドライン](guidelines-powerbi-visuals.md)を確認します。
+>[!div class="nextstepaction"]
+>[Power BI ビジュアルのガイドライン](guidelines-powerbi-visuals.md)
 
-他にわからないことがある場合は、 [Power BI ビジュアルに関してよく寄せられる質問](power-bi-custom-visuals-faq.md)のページまたは [Power BI コミュニティ](https://community.powerbi.com/)で調べてみてください。
+>[!div class="nextstepaction"]
+>[よく寄せられる質問](power-bi-custom-visuals-faq.md)
+
+>[!div class="nextstepaction"]
+>[Power BI コミュニティ](https://community.powerbi.com/)

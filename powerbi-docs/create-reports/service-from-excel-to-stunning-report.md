@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/23/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: f901dcad1743383b85db3935ede8fddf8a4ed492
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251787"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478132"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>チュートリアル:Excel ブックから Power BI サービスのレポート、Microsoft Teams へ
 あなたの上司は、最新の売上と利益の数値に関するレポートを今日中に見たいと考えています。 しかし、最新のデータはさまざまなサードパーティ システムと、あなたのノート PC 上のファイルにあります。 以前なら、ビジュアルとレポート書式を作成するのに何時間もかかって、次第に不安になったことでしょう。
@@ -204,8 +204,6 @@ Microsoft Teams で仕事仲間とレポートやダッシュボードを直接�
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI サービスの概要](../fundamentals/service-get-started.md)
-* [Power BI Desktop の概要](../fundamentals/desktop-getting-started.md)
-* [Power BI サービスのデザイナー向けの基本的な概念](../fundamentals/service-basic-concepts.md)
+* Power BI サービスに基本的なレポートを作成したので、Power BI Desktop でレポートを作成してみませんか? 「[チュートリアル: Power BI Desktop で Excel ブックから魅力的なレポートを作成する](desktop-excel-stunning-report.md)」をお試しください。
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 17a0879dac416a98d214ed11861947cb2c311487
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254210"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478040"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Microsoft Teams と Power BI で共同作業する
 
-Microsoft Teams のチャネルとチャットで、対話型の Power BI コンテンツを共有および共同作業を行うためのオプションがいくつかあります。 
+従業員が分散されリモートであることが標準になるにつれて、従業員の同期を維持するために Microsoft Teams に依存している組織が増えています。Power BI には、Microsoft Teams のチャネルとチャットで、対話型の Power BI コンテンツの共有および共同作業を行うためのオプションがいくつか用意されています。 
 
 - Microsoft Teams の **[Power BI]** タブを使用すると、[対話形式のレポートを Microsoft Teams のチャネルおよびチャットに埋め込む](service-embed-report-microsoft-teams.md)ことができます。 **[Power BI]** タブを使用すると、仕事仲間があなたのチームのデータを検索し、あなたのチームのチャネル内のデータについて話し合うことができます。 
 - ご自分のレポート、ダッシュボード、およびアプリへのリンクを [Microsoft Teams] メッセージ ボックスに貼り付けるときに、[リンク プレビュー](service-teams-link-preview.md)を作成します。 リンク プレビューには、リンクに関する情報が表示されます。 
@@ -34,17 +34,6 @@ Microsoft Teams のチャネルとチャットで、対話型の Power BI コン
 - お客様のユーザーが Power BI Pro ライセンスを所有している。または、Power BI ライセンスのある [Power BI Premium 容量 (EM または P SKU)](../admin/service-premium-what-is.md) にレポートが含まれている。
 - ユーザーが Power BI サービスにサインインし、自分の Power BI ライセンスをアクティブ化している。
 - Microsoft Teams の **[Power BI]** タブを使用するための要件をユーザーが満たしている。
-
-Microsoft Teams の **[Power BI]** タブを使用するには、次の要素を確認します。
-
-- Microsoft Teams に **[Power BI]** タブがある。
-- Microsoft Teams で **[Power BI]** タブを使用してレポートを追加するには、レポートがホストされているワークスペースで、少なくともビューアー ロールを持っている。 さまざまなロールの詳細については、「[新しいワークスペースのロール](service-new-workspaces.md#roles-in-the-new-workspaces)」をご覧ください。
-- Microsoft Teams の **[Power BI]** タブでレポートを表示するには、ユーザーがそのレポートを表示するためのアクセス許可を持っている必要があります。
-- ユーザーは、チャネルとチャットにアクセスできる Microsoft Teams ユーザーである必要があります。
-
-Power BI で **[Teams で共有]** 機能を使用するには、次の設定を確認します。
-
-- Power BI 管理者が、Power BI 管理ポータルで **[Teams で共有]** テナント設定を無効にしていない。 この設定により、組織は **[Teams で共有]** ボタンに非表示にすることができます。 詳細については、[Power BI 管理ポータル](../admin/service-admin-portal.md#share-to-teams-tenant-setting)に関する記事を参照してください。
 
 ## <a name="grant-access-to-reports"></a>レポートへのアクセスを許可する
 

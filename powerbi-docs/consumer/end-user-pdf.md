@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ff79017bd77dd63ce1aa50b9c5361bf82a060820
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236401"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768805"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Power BI から PDF にレポートをエクスポートする
 
@@ -55,7 +55,7 @@ Power BI サービスで、レポートを選択してそれをキャンバス�
 * 現在、R と Python ビジュアルはサポートされていません。 PDF では、これらのビジュアルは空白となり、エラー メッセージが表示されます。 
 * 認定を受けた Power BI ビジュアルはサポートされます。 Power BI ビジュアルの認定を受ける方法など、認定を受けた Power BI ビジュアルの詳細については、「[認定済みの Power BI ビジュアルを取得する](../developer/visuals/power-bi-custom-visuals-certified.md)」を参照してください。 認定を受けていない Power BI ビジュアルはサポートされません。 PDF では、それらはエラー メッセージを伴って表示されます。
 * ESRI ビジュアルはサポートされていません
-* 現在、レポート ページが 30 ページを超えるレポートはエクスポートできません。
+* 現在、レポート ページが 50 ページを超えるレポートはエクスポートできません。
 * レポートを PDF にエクスポートする処理が完了するまで数分かかる場合がありますので、しばらくお待ちください。 必要な時間に影響する要因としては、レポートの構造や、Power BI サービスの現在の負荷などがあります。
 * Power BI サービスで **[PDF にエクスポート]** メニュー項目を使用できない場合は、テナント管理者が機能を無効にしている可能性があります。 詳細については、テナント管理者に問い合わせてください。
 * 背景画像はグラフの境界領域でトリミングされます。 PDF にエクスポートする前に背景画像を削除することをお勧めします。

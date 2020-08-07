@@ -9,19 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252569"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478017"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Microsoft Teams に Power BI コンテンツを埋め込む
 
 対話形式の Power BI レポートを Microsoft Teams のチャネルまたはチャットに簡単に埋め込むことができます。 
 
-Power BI および Teams がどのように連携するかの背景と満たす必要がある要件については、「[Microsoft Teams での Power BI を使用した共同作業](service-embed-report-microsoft-teams.md)」を参照してください。
+## <a name="requirements"></a>要件
+
+Microsoft Teams の **[Power BI]** タブを使用するには、次の要素を確認します。
+
+- Microsoft Teams に **[Power BI]** タブがある。
+- Microsoft Teams で **[Power BI]** タブを使用してレポートを追加するには、レポートがホストされているワークスペースで、少なくともビューアー ロールを持っている。 さまざまなロールの詳細については、「[新しいワークスペースのロール](service-new-workspaces.md#roles-in-the-new-workspaces)」をご覧ください。
+- Microsoft Teams の **[Power BI]** タブでレポートを表示するには、ユーザーがそのレポートを表示するためのアクセス許可を持っている必要があります。
+- ユーザーは、チャネルとチャットにアクセスできる Microsoft Teams ユーザーである必要があります。
+
+Power BI および Teams がどのように連携するかの背景とその他の要件については、「[Microsoft Teams と Power BI で共同作業する](service-embed-report-microsoft-teams.md)」を参照してください。
 
 ## <a name="embed-a-report-in-teams"></a>Teams へのレポートの埋め込み
 

@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: e4514cae5f083ace75c9703999a177da033a844d
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 11150686d1ff922877081a672290069f85b1afc5
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532329"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411913"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>アプリケーションの機能コンサルタント向けラーニング カタログ
 
@@ -35,6 +35,7 @@ ms.locfileid: "84532329"
 | [AI によって BI が変更される 3 つの方法](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI-OnDemand.html)  | アナリストにとって、データを調査して視覚化し、関係者が分析情報を迅速かつ効率的に見つけることができるようにすることが重要です。 ビジネスの需要は、経営陣が何がいつ起こったかをたずねることから、なぜそれが起こったか、さらに将来何が起きるかをたずねるところまで発展してきました。 AI とビジネス インテリジェンス (BI) を組み合わせた 3 つのデータ分析の機会について学習するには、このウェビナーに登録してください。   | ウェビナー       |                   |
 | [Power BI の力を最大限に活かすためのヒントとテクニック - Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/6-22-2017-Unleash-the-Power-of-Power-BI-tips-and-tricks-by/td-p/161490) | 南半球で最大の Power BI の展開に関する詳細の一部と、それがどのように使用され、彼らの BI のニーズをどのように満たしているかについて説明する、Philip Seamark のウェビナーに参加してください。 このセッションでは、Power BI レポートを強化するのに役立つさまざまなヒントとテクニックについて取り上げます。   | ウェビナー       | 53 分 47 秒       |
 | [Power BI とは?](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview)  | Power BI の概要   | Web サイト       | 読むのにかかる時間: 3 分 |
+| [Power BI Desktop で DAX を使用する](https://docs.microsoft.com/learn/paths/dax-power-bi/) | このラーニング パスでは、Data Analysis Expressions (DAX) について紹介し、計算によってデータ モデルを強化するために必要な基本スキルを提供します。  | 無料、マイペースで進められるオンライン ラーニング パス | 4 時間 30 分 |
 ## <a name="best-practices"></a>ベスト プラクティス<a name="best-practices"></a>
 | コンテンツ   | Description  | 書式   | 長さ   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------|

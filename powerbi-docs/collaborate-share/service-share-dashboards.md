@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485590"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768511"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>同僚や他のユーザーと Power BI ダッシュボードやレポートを共有する
 "*共有*" は、Power BI サービス内の自分のダッシュボードやレポートに他のユーザーがアクセスできるようにする最も簡単な方法です。 組織内外のユーザーと共有できます。
@@ -33,7 +34,7 @@ Power BI Desktop から直接 "*共有*" することはできません。 Power
 
 ## <a name="share-a-dashboard-or-report"></a>ダッシュボードまたはレポートを共有する
 
-1. ダッシュボードかレポートの一覧、または開いているダッシュボードかレポート内で、 **[共有]** ![共有アイコン](media/service-share-dashboards/power-bi-share-icon.png) を選択します。
+1. ダッシュボードかレポートの一覧、または開いているダッシュボードかレポート内で、 **[共有]** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: を選択します。
 
 2. 上部のボックスに、個々のユーザーの完全なメール アドレス、配布グループ、またはセキュリティ グループを入力します。 動的配布リストと共有することはできません。 
    
@@ -66,7 +67,7 @@ Power BI Desktop から直接 "*共有*" することはできません。 Power
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>ダッシュボードまたはレポートへのアクセス権があるユーザーを確認する
 場合によっては、自分が共有している相手や、その相手が再共有しているユーザーを確認する必要があります。
 
-1. ダッシュボードかレポートの一覧、またはダッシュボードかレポート自体で、 **[共有]** ![共有アイコン](media/service-share-dashboards/power-bi-share-icon.png) を選びます。 
+1. ダッシュボードかレポートの一覧、またはダッシュボードかレポート自体で、 **[共有]** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: を選択します。 
 2. **[ダッシュボードの共有]** または **[レポートの共有]** ダイアログ ボックスで、 **[アクセス]** を選びます。
    
     ![[ダッシュボードの共有] ダイアログ ボックスの [アクセス] タブ](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -109,7 +110,7 @@ Power BI 管理者は、組織内のコンテンツを編集および管理す�
 * 招待を送信する前に、招待の下部にある **[受信者がダッシュボードを共有できるようにする] または [受信者がレポートを共有できるようにする]** チェック ボックスをオフにします。
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>ダッシュボードまたはレポートを既に共有している場合
-1. ダッシュボードかレポートの一覧、またはダッシュボードかレポート自体で、 **[共有]** ![共有アイコン](media/service-share-dashboards/power-bi-share-icon.png) を選びます。 
+1. ダッシュボードかレポートの一覧、またはダッシュボードかレポート自体で、 **[共有]** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: を選択します。 
 2. **[ダッシュボードの共有]** または **[レポートの共有]** ダイアログ ボックスで、 **[アクセス]** を選びます。
    
     ![[ダッシュボードの共有] ダイアログ ボックスの [アクセス] タブ](media/service-share-dashboards/power-bi-share-dialog-access.png)

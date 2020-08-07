@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d20f9aa5311d8ee96246ab8b3ed832330742973
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223912"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411982"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 
@@ -116,7 +116,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Power BI データセット
 * Power BI データフロー
 * Common Data Service
-* Power Platform データフロー
+* Power Platform データフロー (ベータ)
 
 次の図は、 **[Power Platform]** の **[データの取得]** ウィンドウを示しています。
 
@@ -133,6 +133,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
+* Azure Data Explorer (Kusto)
 * Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -171,21 +172,19 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Marketo (ベータ)
 * Mixpanel (ベータ)
 * Planview Enterprise One - PRM (ベータ)
-* Planview Projectplace (ベータ)
 * QuickBooks Online (ベータ)
 * Smartsheet
 * SparkPost (ベータ)
 * SweetIQ (ベータ)
 * Planview Enterprise One - CTM (ベータ)
 * Twilio (ベータ)
-* tyGraph (Beta)
-* Webtrends (Beta)
 * Zendesk (ベータ)
 * Asana (ベータ)
 * Dynamics 365 Customer Insights (ベータ版)
 * Emigo Data Source
 * Entersoft Business Suite (ベータ)
-* FactSet Analytics (ベータ)
+* FactSet Analytics
+* Palantir Foundry
 * Industrial App Store
 * Intune データ ウェアハウス (ベータ)
 * Microsoft Graph Security (ベータ)
@@ -218,7 +217,10 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Python スクリプト
 * ODBC
 * OLE DB
+* Acterys: Model Automation & Planning (ベータ)
+* Automation Anywhere (ベータ)
 * Solver
+* Cherwell (ベータ)
 * Cognite Data Fusion (ベータ)
 * FHIR
 * Information Grid (ベータ)
@@ -233,6 +235,7 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (ベータ)
 * Vena (ベータ)
+* Vessel Insight (ベータ)
 * Workforce Dimensions (ベータ)
 * Zucchetti HR Infinity (ベータ)
 * 空のクエリ
