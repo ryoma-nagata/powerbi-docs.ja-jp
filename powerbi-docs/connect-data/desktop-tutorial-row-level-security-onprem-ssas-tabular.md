@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 972241228ca9fc669289d3c0efa0a357094f6f67
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286362"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878313"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services 表形式モデルに行レベル セキュリティを実装する
 
@@ -64,7 +64,7 @@ ms.locfileid: "83286362"
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>タスク 2:ファクト テーブルとディメンション テーブルを持つ表形式モデルを作成する
 
-リレーショナル データ ウェアハウスが準備できたら、表形式モデルを定義する必要があります。 モデルの作成には、[SQL Server Data Tools](/sql/ssdt/sql-server-data-tools) (SSDT) を使用することができます。 詳細については、「[新しいテーブル モデル プロジェクトの作成](/sql/analysis-services/lesson-1-create-a-new-tabular-model-project)」を参照してください。
+リレーショナル データ ウェアハウスが準備できたら、表形式モデルを定義する必要があります。 モデルの作成には、[SQL Server Data Tools](/sql/ssdt/sql-server-data-tools) (SSDT) を使用することができます。 詳細については、「[新しいテーブル モデル プロジェクトの作成](/analysis-services/tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project)」を参照してください。
 
 1. 次に示すように、モデルに必要なすべてのテーブルをインポートします。
 
@@ -101,7 +101,7 @@ ms.locfileid: "83286362"
 
     この数式は、すべての列が `false` に解決することを指定します。これは、`DimUserSecurity` テーブルの列に対してクエリを実行できないことを意味します。
 
-この時点で、モデルを処理してデプロイする必要があります。 詳細については、[デプロイ](/sql/analysis-services/lesson-13-deploy)に関するページを参照してください。
+この時点で、モデルを処理してデプロイする必要があります。 詳細については、[デプロイ](/analysis-services/tutorial-tabular-1200/lesson-13-deploy)に関するページを参照してください。
 
 ## <a name="task-3-add-data-sources-within-your-on-premises-data-gateway"></a>タスク 3:オンプレミス データ ゲートウェイ内のデータ ソースを追加する
 
@@ -164,9 +164,9 @@ Rita が Power BI サービスにログインして、Grace が作成した共�
 このタスクでは、[SQL Server プロファイラー](/sql/tools/sql-server-profiler/sql-server-profiler)を使い慣れていることを前提とします。これは、オンプレミスの SSAS 表形式インスタンスで SQL Server プロファイラー トレースをキャプチャする必要があるためです。
 
 ユーザー (Rita) が Power BI サービスのダッシュボードにアクセスすると、すぐにセッションが初期化されます。 **salesterritoryusers** 役割は、 **<EffectiveUserName>rita@contoso.com</EffectiveUserName>** などの有効なユーザー名ですぐに有効になることがわかります。
-
+```
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>rita@contoso.com</EffectiveUserName></PropertyList>
-
+```
 有効なユーザー名要求に基づいて、Analysis Services では、ローカルの Active Directory のクエリを実行した後、要求を実際の `contoso\rita` 資格情報に変換します。 Analysis Services で資格情報が取得されると、Analysis Services によって、ユーザーが表示とアクセスのアクセス許可を持っているデータが返されます。
 
 ダッシュボードで他のアクティビティが発生すると、SQL プロファイラーで、Analysis Services 表形式モデルに DAX クエリとして戻される特定のクエリが表示されます。 たとえば、Rita がダッシュボードから基になるレポートに移動すると、次のクエリが発生します。

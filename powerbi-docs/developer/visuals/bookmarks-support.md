@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380527"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878584"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Power BI ビジュアルのブックマーク サポートを追加する
 
@@ -49,9 +49,9 @@ Power BI レポートのブックマークを使用すると、レポート ペ�
 
 ご利用のビジュアルが[選択](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md)を使用して他のビジュアルとやりとりする場合は、次の 2 つの方法のいずれかでブックマークを追加できます。
 
-* [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) がビジュアルでまだ使用されていない場合は、`FilterManager.restoreSelectionIds` メソッドを使用できます。
+* [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) がビジュアルでまだ使用されていない場合は、`FilterManager.restoreSelectionIds` メソッドを使用できます。
 
-* 選択を管理するために [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) がビジュアルで既に使用されている場合は、`InteractivityService` のインスタンス内で `applySelectionFromFilter` メソッドを使用する必要があります。
+* 選択を管理するために [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) がビジュアルで既に使用されている場合は、`InteractivityService` のインスタンス内で `applySelectionFromFilter` メソッドを使用する必要があります。
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>ISelectionManager.registerOnSelectCallback を使用する
 

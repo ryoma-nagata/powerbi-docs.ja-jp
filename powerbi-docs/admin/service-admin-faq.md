@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: aed09a9cd26452a03363e8606e45938715595558
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f752544b48a8ba2fdce703475749e1a731089e7d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161677"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878437"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI の管理 - よく寄せられる質問 (FAQ)
 
@@ -55,7 +55,7 @@ ms.locfileid: "86161677"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-このセクションの一部の手順では、Windows PowerShell スクリプトが必要です。 PowerShell に慣れていない場合は、「[Windows PowerShell ファースト ステップ ガイド](https://go.microsoft.com/fwlink/p/?LinkID=286814)」を読むことをお勧めします。 スクリプトを実行するには、最初に [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/) の最新の 64 ビット バージョンをインストールします。
+このセクションの一部の手順では、Windows PowerShell スクリプトが必要です。 PowerShell に慣れていない場合は、「[Windows PowerShell ファースト ステップ ガイド](https://go.microsoft.com/fwlink/p/?LinkID=286814)」を読むことをお勧めします。 スクリプトを実行するには、最初に [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview) の最新の 64 ビット バージョンをインストールします。
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>ユーザーは Power BI にどのような方法でサインアップできますか。
 

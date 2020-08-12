@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354480"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878692"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>チュートリアル:R スクリプトから R ビジュアルにフィルター プロットを作成する
 この記事では、R ビジュアルで R スクリプトを使用してじょうごプロットを作成する方法を順を追って説明します。
@@ -74,7 +75,7 @@ ms.locfileid: "85354480"
 1. `pbiviz package` コマンドを使用してビジュアルを再パッケージ化してから、それを Power BI にインポートしてみてください。
 
 > [!NOTE]
-> ダウンロードについては、[PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3-RCustomVisual/funnelPlot_RCustomVisual.pbix) と[ソースコード](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/)を参照してください。
+> ダウンロードについては、[PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) と[ソースコード](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/)を参照してください。
 
 ## <a name="make-r-based-visual-improvements"></a>R ベースのビジュアルの改善
 
@@ -273,7 +274,7 @@ ms.locfileid: "85354480"
 
 * 各 R ビジュアルでは、その入力テーブルに `unique` 演算子が適用されます。 複数の同一の行が削除されるのを防ぐには、一意の ID を持つ追加の入力フィールドを追加し、R コードでそれを無視することを検討してください。   
 
-* Power BI アカウントを持っている場合は、`pbiviz package` コマンドを使用して再パッケージ化するのではなく、Power BI サービスを使用してビジュアルを[即座に](/PowerBI-visuals/docs/step-by-step-lab/creating-a-custom-visual/#testing-the-custom-visual)開発してください。
+* Power BI アカウントを持っている場合は、`pbiviz package` コマンドを使用して再パッケージ化するのではなく、Power BI サービスを使用してビジュアルを[即座に](/power-bi/developer/visuals/custom-visual-develop-tutorial/)開発してください。
 
 ### <a name="html-widgets-gallery"></a>HTML ウィジェット ギャラリー
 次のビジュアルで使用するために、[ HTML ウィジェット ギャラリー](http://gallery.htmlwidgets.org/)でビジュアルを探索します。 作業を簡単にするために、20 を超える対話型の HTML ビジュアを含む[ビジュアル プロジェクト リポジトリ](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)を作成し、その中から選択できるようにしました。

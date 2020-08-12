@@ -10,12 +10,12 @@ ms.date: 07/08/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7362eb683dae6318dc0e64de68afb8a8b57d62c6
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: bfda795e02ef53188c5125bc2f0674e859ebd450
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162152"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878814"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 
@@ -76,7 +76,7 @@ Power BI アプリ マーケットプレースでアプリを検索してイン�
 
 **コンピューターで** 
 
-電子メールでこのリンクを選択すると、Power BI サービス ([https://powerbi.com](https://app/powerbi.com)) によってブラウザーでアプリが開かれます。 
+電子メールでこのリンクを選択すると、Power BI サービス ([https://app.powerbi.com](https://app.powerbi.com)) によってブラウザーでアプリが開かれます。 
 
 **iOS または Android モバイル デバイスで** 
 

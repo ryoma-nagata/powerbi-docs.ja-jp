@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: bf4a4ba9c816aaca19e04d0061df7316ffcc7a2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2ef73377728703926ac6bc51f847a54451e1321e
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83287305"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878723"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル:Excel と OData フィードの売上データを分析する
 
@@ -273,6 +273,6 @@ Power BI Desktop では、相互に強調表示し、互いにフィルターを
 ## <a name="next-steps"></a>次の手順
 
 * [他の Power BI Desktop のチュートリアルを読む](/power-bi/guided-learning/)
-* [Power BI Desktop のビデオを見る](/power-bi/desktop-videos)
+* [Power BI Desktop のビデオを見る](/power-bi/fundamentals/desktop-videos)
 * [Power BI フォーラムにアクセスする](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI ブログを読む](https://go.microsoft.com/fwlink/?LinkID=519327)
