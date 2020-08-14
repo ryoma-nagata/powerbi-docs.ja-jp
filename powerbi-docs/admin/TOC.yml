@@ -114,6 +114,8 @@
               href: service-admin-premium-multi-geo.md
             - name: 独自の暗号化キーを表示する
               href: service-encryption-byok.md
+            - name: カスタマー マネージド キーを使用する
+              href: service-encryption-customer-managed-keys.md
             - name: Premium 容量の再起動
               href: service-admin-premium-restart.md
             - name: XMLA エンドポイントを使用したデータセット接続
