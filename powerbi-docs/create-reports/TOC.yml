@@ -119,7 +119,7 @@
       items:
         - name: Power BI レポート
           items:
-            - name: ページの自動更新を有効にする (プレビュー)
+            - name: ページの自動更新を有効にする
               href: desktop-automatic-page-refresh.md
             - name: パフォーマンス アナライザーを使用してレポート要素を確認する
               href: desktop-performance-analyzer.md
