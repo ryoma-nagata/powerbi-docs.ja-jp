@@ -12,14 +12,14 @@ ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/17/2020
+ms.date: 08/10/2020
 ms.author: mihart
-ms.openlocfilehash: 7d9d0a3f9aaea77a969f11561a22ab68fbec0264
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0d0d6e935f8405aa063ed90cf5a2f403faeba893
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537253"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049738"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>クイック スタート: *コンシューマー*向けの Power BI の機能について学習する
 
@@ -102,7 +102,7 @@ Power BI のダッシュボードは、視覚エフェクトを使ってスト�
 ![タイル、カード、KPI](media/end-user-alerts/card-gauge-kpi.png)
 
 設定した制限を超えて値が増減すると、Power BI によってメールが送信されます。  
-![アラート メール](media/end-user-alerts/power-bi-alert-email.png)
+![アラート メール](media/end-user-alerts/power-bi-email.png)
 
 詳細については、[Power BI アラート](end-user-alerts.md)に関するページを参照してください
 

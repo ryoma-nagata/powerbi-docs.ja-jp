@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f92d10fdff880049460d24c714201d9a433745d8
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: be2f98341abd581cd2df717d19b3a9110548a2ec
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035146"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049209"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Power BI で秘密度ラベルを適用する方法
 
@@ -21,8 +21,8 @@ Microsoft Information Protection のレポート、ダッシュボード、デ�
 
 Power BI で秘密度ラベルを適用できるようにするには:
 * ユーザーは、Power BI Pro ライセンスと、ラベルを付けるコンテンツに対する編集アクセス許可を持っている必要があります。
-* ユーザーは、秘密度ラベルを適用するためのアクセス許可を持つセキュリティ グループに属している必要があります。詳しくは、[Power BI 内で秘密度ラベルを有効にする方法](./service-security-enable-data-sensitivity-labels.md#enable-sensitivity-labels)に関する記事を参照してください。
-* [前提条件](./service-security-sensitivity-label-overview.md#requirements-for-using-sensitivity-labels-in-power-bi)と[ライセンス要件](./service-security-data-protection-overview.md#licensing)がすべて満たされている必要があります。
+* ユーザーは、秘密度ラベルを適用するためのアクセス許可を持つセキュリティ グループに属している必要があります。詳しくは、[Power BI 内で秘密度ラベルを有効にする方法](./service-security-enable-data-sensitivity-labels.md)に関する記事を参照してください。
+* すべての[ライセンスとその他の要件](./service-security-enable-data-sensitivity-labels.md#licensing-and-requirements)を満たしている必要があります。
 
 秘密度ラベルの詳細については、「[Power BI における秘密度ラベル](service-security-sensitivity-label-overview.md)」を参照してください。
 

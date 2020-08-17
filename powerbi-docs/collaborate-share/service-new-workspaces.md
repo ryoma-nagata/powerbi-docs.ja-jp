@@ -6,20 +6,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/26/2020
+ms.date: 08/07/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 77de9608978379cee83236b0c362bd2d7d57d5c6
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 56dd9e07e7c0647e7f92cc5d701b260483e2fbdf
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120386"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049278"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI の新しいワークスペースで作業を整理する
 
-"*ワークスペース*" は、同僚と共同でダッシュボード、レポート、データセット、およびページ分割されたレポートのコレクションを作成する場所です。 新しいワークスペース エクスペリエンスでは、コンテンツへのアクセスをより適切に管理できます。 この記事では、新しいワークスペースの概要、および新しいワークスペースと従来のワークスペースとの違いについて説明します。  従来のワークスペースと同様、新しいワークスペースでも引き続きアプリを作成し、配布できます。 新しいワークスペースを作成するには、 [新しいワークスペース エクスペリエンスの作成](service-create-the-new-workspaces.md)に関するページを参照してください。
+"*ワークスペース*" は、同僚と共同でダッシュボード、レポート、データセット、およびページ分割されたレポートのコレクションを作成する場所です。 新しいワークスペース エクスペリエンスでは、コンテンツへのアクセスをより適切に管理できます。 この記事では、新しいワークスペースの概要、および新しいワークスペースと従来のワークスペースとの違いについて説明します。  従来のワークスペースと同様、新しいワークスペースでも引き続きアプリを作成し、配布できます。 
+
+新しいワークスペースを作成するには、 [新しいワークスペース エクスペリエンスの作成](service-create-the-new-workspaces.md)に関するページを参照してください。
 
 :::image type="content" source="media/service-new-workspaces/power-bi-workspace-opportunity.png" alt-text="Power BI の新しいワークスペース エクスペリエンス":::
 
@@ -86,8 +88,10 @@ Power BI では、新しいワークスペースへのアクセス権を持つ�
 
 新しいワークスペースが Power BI Premium 容量にある場合、ビューアー ロールを持つユーザーは、Power BI Pro ライセンスがない場合でも、そのワークスペースにアクセスできます。 しかし、これらのユーザーに管理者、メンバー、共同作成者などの上位ロールを割り当てると、そのユーザーがワークスペースにアクセスしようとしたときに Pro 試用版を開始するように求められます。 Pro ライセンスを持っていないユーザーがビューアー ロールを使用できるようにする場合は、そのユーザーが、個人またはユーザー グループの一員として、他のワークスペース ロールも持っていないことを確認してください。
 
+新しいワークスペース エクスペリエンスへのレポートの発行には、既存のライセンス ルールがより厳格に適用されます。 Pro ライセンスなしで Power BI Desktop またはその他のクライアント ツールから発行しようとすると、"Power BI Pro ライセンスを持つユーザーのみがこのワークスペースに発行できます" というエラーが表示されます。
+
 > [!NOTE]
-> 新しいワークスペース エクスペリエンスへのレポートの発行には、既存のライセンス ルールがより厳格に適用されます。 Pro ライセンスなしで Power BI Desktop またはその他のクライアント ツールから発行しようとすると、"Power BI Pro ライセンスを持つユーザーのみがこのワークスペースに発行できます" というエラーが表示されます。
+> Power BI US Government は、"無料" ライセンスとして利用することはできません。 ライセンスの詳細については、「[米国政府顧客向け Power BI](../admin/service-govus-overview.md)」を参照してください。
 
 ### <a name="guest-users"></a>ゲスト ユーザー
 
@@ -95,7 +99,9 @@ Power BI では、新しいワークスペースへのアクセス権を持つ�
 
 ### <a name="administering-new-workspace-experience-workspaces"></a>新しいワークスペース エクスペリエンスのワークスペースの管理
 
-新しいワークスペース エクスペリエンスの管理は、Power BI 管理ポータルにあります。 Power BI 管理者は、ワークスペースの作成およびアプリの配布を行うことができる組織内のユーザーを決定します。 管理者は、組織内のすべてのワークスペースの状態を確認できます。 Power BI 管理者は、ワークスペースを管理し、復旧することもできます。 詳細については、管理者ポータルの記事の[新しいワークスペースの管理](../admin/service-admin-portal.md#create-the-new-workspaces)に関する記述を参照してください。
+新しいワークスペース エクスペリエンスの管理は、Power BI 管理ポータルにあります。 Power BI 管理者は、ワークスペースの作成およびアプリの配布を行うことができる組織内のユーザーを決定します。 "管理者ポータル" の記事で[ユーザーがワークスペースを作成する機能を管理する](../admin/service-admin-portal.md#create-the-new-workspaces)方法をお読みください。 
+
+管理者はまた、組織内のすべてのワークスペースの状態を確認できます。 ワークスペースの管理、復旧、および削除もできます。 "管理者ポータル" の記事で[ワークスペース自体を管理する](../admin/service-admin-portal.md#workspaces)方法をお読みください。
 
 ### <a name="auditing"></a>監査
 

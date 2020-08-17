@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161723"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091620"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI でユーザー アクティビティを追跡する
 
@@ -318,6 +318,9 @@ Exchange Online に接続する方法の詳細については、「[リモート
 | Power BI データフローの更新を要求しました               | RequestDataflowRefresh                      | 現在使用されていません                       |
 | Power BI データセットの更新を要求しました                | RefreshDataset                              |                                          |
 | Power BI ワークスペースを取得しました                     | GetWorkspaces                               |                                          |
+| 秘密度ラベルが適用されています                         | SensitivityLabelApplied                     |                                          |
+| 秘密度ラベルが変更されています                         | SensitivityLabelChanged                     |                                          |
+| 秘密度ラベルが削除されています                         | SensitivityLabelRemoved                     |                                          |
 | ワークスペースに使用されるデータフロー ストレージの場所を選択しました     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Power BI のデータフローへのスケジュールされた更新を設定しました        | SetScheduledRefreshOnDataflow               |                                          |
 | Power BI のデータセットへのスケジュールされた更新を設定しました         | SetScheduledRefresh                         |                                          |

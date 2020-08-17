@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768805"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837499"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Power BI から PDF にレポートをエクスポートする
 
@@ -52,6 +52,7 @@ Power BI サービスで、レポートを選択してそれをキャンバス�
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 "**PDF へのエクスポート**" 機能を使用する場合は、留意すべき注意事項と制限事項がいくつかあります。
 
+* PDF には、Power BI キャンバスに表示されるデータと視覚化が含まれます。 ビジュアルにスクロールバーが含まれる場合、PDF にはビジュアルがスクロールされていない既定の状態で含まれます。  
 * 現在、R と Python ビジュアルはサポートされていません。 PDF では、これらのビジュアルは空白となり、エラー メッセージが表示されます。 
 * 認定を受けた Power BI ビジュアルはサポートされます。 Power BI ビジュアルの認定を受ける方法など、認定を受けた Power BI ビジュアルの詳細については、「[認定済みの Power BI ビジュアルを取得する](../developer/visuals/power-bi-custom-visuals-certified.md)」を参照してください。 認定を受けていない Power BI ビジュアルはサポートされません。 PDF では、それらはエラー メッセージを伴って表示されます。
 * ESRI ビジュアルはサポートされていません

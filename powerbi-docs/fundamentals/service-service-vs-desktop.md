@@ -7,15 +7,15 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 08/07/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 4118e5c009a8d7372d5cb58d1e1b9d033a70494e
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214026"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988727"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop と Power BI サービスの比較
 
@@ -23,15 +23,17 @@ Power BI Desktop と Power BI サービスを比較したベン図では、中�
 
 ![Power BI Desktop と Power BI サービスの関係を示すベン図。](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop** は、ローカル コンピューターに無料でアプリケーションをインストールする完全なデータ分析とレポート作成ツールです。 これには、さまざまなデータ ソースに接続し、それらを 1 つのデータ モデルに結合できる (これはモデリングと呼ばれることがあります) クエリ エディターが含まれています。 その後、そのデータ モデルに基づいてレポートを設計します。 「[Power BI Desktop 概要ガイド](desktop-getting-started.md)」でこのプロセスが説明されています。
+**Power BI Desktop** は、ローカル コンピューターに無料でインストールする完全なデータ分析とレポート作成ツールです。 これには、さまざまなデータ ソースに接続し、それらを 1 つのデータ モデルに結合できる (これはモデリングと呼ばれることがあります) クエリ エディターが含まれています。 その後、そのデータ モデルに基づいてレポートを設計します。 「[Power BI Desktop 概要ガイド](desktop-getting-started.md)」でこのプロセスが説明されています。
 
-**Power BI サービス**はクラウドベースのサービスです。 チームや組織のための簡単なレポート編集や共同作業をサポートします。 Power BI サービスでもデータ ソースに接続できますが、モデリングに制限があります。 
+**Power BI サービス**はクラウドベースのサービスです。 チームや組織のための簡単なレポート編集や共同作業をサポートします。 Power BI サービスでもデータ ソースに接続できますが、モデリングに制限があります。
 
-Business Intelligence プロジェクトに取り組んでいるほとんどのレポート デザイナーは、**Power BI Desktop** を使用してレポートを作成した後、**Power BI サービス**を使用して、レポートを他のユーザーに配布します。
+Business Intelligence プロジェクトに取り組んでいるほとんどの Power BI レポート デザイナーは、**Power BI Desktop** を使用して Power BI レポートを作成した後、**Power BI サービス**を使用してレポートを共同作成し、配布します。
 
-## <a name="report-editing"></a>レポートの編集
+Power BI サービスではまた、Power BI Premium 容量によってサポートされるワークスペースで "*ページ分割されたレポート*" がホストされます。 Power BI レポート ビルダーでページ分割されたレポートを作成します。 「Power BI Premium のページ分割されたレポートとは」という記事の「[Power BI レポートとページ分割されたレポートを比較する](../paginated-reports/paginated-reports-report-builder-power-bi.md#compare-power-bi-reports-and-paginated-reports)」をご覧ください。 ご覧ください。
 
-アプリケーションとサービスの両方で、*レポート*を構築し、編集します。 レポートには任意の数のページとビジュアルを含めることができます。 レポート内の移動機能を強化する目的で、ブックマーク、ボタン、フィルター、ドリルスルーを追加します。
+## <a name="editing-power-bi-reports"></a>Power BI レポートを編集する
+
+アプリケーションとサービスの両方で、Power BI "*レポート*" を構築し、編集します。 レポートには任意の数のページとビジュアルを含めることができます。 レポート内の移動機能を強化する目的で、ブックマーク、ボタン、フィルター、ドリルスルーを追加します。
 
 ![番号付きセクションがある、Power BI Desktop と Power BI サービスのスクリーンショット。](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
@@ -48,7 +50,6 @@ Power BI Desktop と Power BI サービスのレポート エディターは同�
 ## <a name="working-in-the-power-bi-service"></a>Power BI サービスでの作業
 
 ### <a name="collaborating"></a>共同作業
-
 
 レポートを作成したら、それを **Power BI サービス**の*ワークスペース*に保存し、そこで同僚と共同作業できます。 このレポートの上に*ダッシュボード*を構築します。 その後、組織内外のレポート利用者とダッシュボードやレポートを共有します。 レポート利用者は Power BI サービスの編集ビューではなく、"*読み取りビュー*" でダッシュボードやレポートを閲覧します。 レポート作成者が利用できる機能をすべて利用することはできません。  また、データセットを共有し、他のユーザーが独自のレポートを作成できるようにすることもできます。 Power BI サービスでの共同作業の詳細については、[こちら](../collaborate-share/service-new-workspaces.md)をご覧ください。
 

@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/29/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d65b63238009c5a743d83a13d596f36aad4b2a3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9f25c9ffc294a1733a3dba5818dc00bd23124837
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281693"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878851"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>チュートリアル:Power BI で機械学習モデルを構築する
 
@@ -154,6 +154,26 @@ Power Query エディターに、CSV ファイル内のデータのプレビュ�
 データフローの更新が完了したら、**Online Visitors enriched Purchase Intent Prediction** エンティティを選択して結果を確認できます。
 
 ![結果を表示する](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-21.png)
+
+データフローで Power Query エディターから直接、ワークスペース内で任意の AutoML モデルを呼び出すこともできます。 下図に示すように、AutoML モデルにアクセスするには、AutoML モデルからの分析情報で強化するエンティティの [編集] ボタンを選択します。
+
+![エンティティを編集する](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-22.png)
+
+[編集] ボタンを選択すると、データフロー内でエンティティの Power Query エディターが開きます。 リボンの [AI 分析情報] ボタンを選択します。
+
+![AI 分析情報](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-23.png)
+
+ ナビ ペイン メニューから Power BI の [機械学習モデル] フォルダーを選択します。 アクセス権があるすべての AutoML モデルが Power Query 関数としてここに一覧表示されます。 また、AutoML モデルの入力パラメーターは、対応する Power Query 関数のパラメーターとして自動的にマップされます。 パラメーターの名前とデータ型が同じ場合にのみ、パラメーターは自動的にマッピングされることにご注意ください。
+ 
+AutoML モデルを呼び出すには、選択したエンティティのいずれかの列を、ドロップダウン リストからの入力として指定します。 入力ダイアログの左側にある列アイコンを切り替えることにより、入力として使用する定数値を指定することもできます。
+
+![PQO 関数ブラウザー](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-24.png)
+
+[適用] を選択すると、AutoML モデルの出力のプレビューが、エンティティ テーブルの新しい列として表示されます。 また、モデル呼び出しが、クエリに適用された手順として表示されます。
+
+![結果の表示](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-25.png)
+
+データフローを保存すると、データフローの更新時に (エンティティ テーブルの行の新規作成や更新に対して) モデルが自動的に呼び出されます。
 
 ## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>モデルのスコア付けされた出力を Power BI レポートで使用する
 

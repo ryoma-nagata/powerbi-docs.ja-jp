@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/18/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3b4d7eb41e04a173f763dd09caf5fa94bfc444d4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: caccfdede32e91aa6265db0d38e26e96f8a7852c
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232631"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878645"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI での自動化 された機械学習
 
@@ -142,11 +142,15 @@ ML モデルを適用すると、2 つの新しいデータフロー エンテ�
 
 ![クエリ エディター](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
+PQO 関数ブラウザーの AI 分析情報を使用し、あらゆる Power BI AutoML モデルを同じワークスペース内の任意のデータフローにあるエンティティに適用することもできます。 この方法では、モデルを所有するデータフローの所有者でなくても、同じワークスペース内で他者によって作成されたモデルを使用できます。 Power Query によって、ワークスペース内のすべての Power BI ML モデルが検出され、動的な Power Query 関数として公開されます。 これらの関数を呼び出すには、Power Query エディター内のリボンからこれらの関数にアクセスするか、M 関数を直接呼び出します。現在、この機能がサポートされるのは、Power BI データフローと、Power BI サービスの Power Query Online のみです。 これは、AutoML ウィザードを使用し、データフロー内で ML モデルを適用する場合とは非常に異なります。 この方法で説明エンティティが作成されることはありません。データフローの所有者でない限り、モデル トレーニング レポートにアクセスしたり、モデルを再トレーニングしたりできません。 ソース モデルが編集された場合 (入力フィールドの追加または削除)、あるいはモデルまたはソース データフローが削除された場合、この依存データフローが壊れます。
+
+![PQO 関数ブラウザーを使用してモデルを適用する](media/service-machine-learning-automated/automated-machine-learning-power-bi-20.png)
+
 モデルを適用すると、AutoML では、データフローが更新されるとすぐに予測が常に最新の状態に保たれます。
 
 Power BI レポートで ML モデルの分析情報と予測を使用するには、**データフロー** コネクタを使用して Power BI Desktop から出力エンティティに接続します。
 
-## <a name="binary-prediction-models"></a>バイナリの予測モデル
+## <a name="binary-prediction-models"></a>二項予測モデル
 
 バイナリの予測モデル (より正式な呼び方では**二項分類**) は、データセットを 2 つのグループに分類するために使用されます。 これらは、二元の結果を持つ可能性のあるイベントを予測するために使用されます。 たとえば、営業案件が転換されるかどうか、アカウントが解約されるかどうか、請求書が期日どおりに支払われるかどうか、トランザクションが不正かどうかなどです。
 

@@ -6,13 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 08/05/2020
 ms.author: davidi
-ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
-ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
+ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84681861"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837568"
 ---
 # <a name="power-bi-data-sources"></a>Power BI データ ソース
 
@@ -93,7 +94,7 @@ ms.locfileid: "84681861"
 | ODBC | はい | はい | いいえ | はい | はい |
 | OleDb | はい | はい | いいえ | はい | はい |
 | Oracle | はい | はい | はい | はい | はい |
-| Paxata | はい | はい | いいえ | はい | いいえ |
+| Paxata <sup>8</sup> | はい | はい | いいえ | はい | いいえ |
 | PDF | はい | はい | いいえ | はい | いいえ <sup>4</sup> |
 | Planview Enterprise One - CTM | はい | はい | いいえ | いいえ | いいえ |
 | Planview Enterprise One - PRM | はい | はい | いいえ | いいえ | いいえ |
@@ -154,6 +155,8 @@ ms.locfileid: "84681861"
 
 <sup>7</sup> Power BI サービスでは、認証を必要とする OData フィードはサポートされていません。
 
+<sup>8</sup> Paxata は、Power BI Report Server 向けに最適化された Power BI Desktop のバージョンでサポートされています。 Power BI Report Server に発行された Power BI レポートではサポートされていません。 サポートされているデータ ソースの一覧については、「[Power BI Report Server での Power BI レポート データ ソース](../report-server/data-sources.md)」を参照してください。
+
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery ソースのシングル サインオン (SSO)
 
 SSO オプションが有効になっている場合、データ ソースを基に作成されたレポートにユーザーがアクセスすると、Power BI によって基になるデータ ソースへのクエリで、認証済みの Azure AD 資格情報が送信されます。 これにより、Power BI はデータ ソース レベルで構成されているセキュリティ設定を適用できます。
@@ -179,3 +182,4 @@ SSO オプションは、このデータ ソースを使うすべてのデータ
 [Power BI で DirectQuery を使用する](desktop-directquery-about.md)  
 [Power BI の SQL Server Analysis Services ライブ データ](sql-server-analysis-services-tabular-data.md)  
 [オンプレミス データ ゲートウェイとは](service-gateway-onprem.md)  
+[Power BI Report Server での Power BI レポート データ ソース](../report-server/data-sources.md)

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 08/07/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: dea1198519f59a81c49e2f7a95a903c37bd4fb11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c171369cad8a311f91bd4b8542577cbd0c8e4657
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236613"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988703"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイでカスタム データ コネクタを使用する
 
@@ -47,8 +47,9 @@ Power BI Desktop でカスタム データ コネクタを使用するレポー�
 * 作成するフォルダーに、バック グラウンドのゲートウェイ サービスがアクセスできることを確認します。 通常、ユーザーの Windows フォルダー下のフォルダーやシステム フォルダーにはアクセスできません。 フォルダーにアクセスできない場合、オンプレミス データ ゲートウェイ アプリにメッセージが表示されます。 この手順は、オンプレミス データ ゲートウェイ (個人用モード) には適用されません。
 * オンプレミス データ ゲートウェイで使用するカスタム コネクタには、カスタム コネクタのコードで "TestConnection" セクションを実装する必要があります。 Power BI Desktop でカスタム コネクタを使用する場合、このセクションは必要ありません。 このため、Power BI Desktop で動作するコネクタを使用できますが、ゲートウェイでは使用できません。 TestConnection セクションの実装方法の詳細については、[こちらのドキュメント](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)を参照してください。
 * 現在、ゲートウェイを使用したカスタム コネクタの OAuth はゲートウェイ管理者に対してのみサポートされています。他のデータ ソース ユーザーはサポートされていません。
+* カスタム コネクタがネットワーク ドライブ上にある場合、オンプレミス データ ゲートウェイ アプリで完全修飾パスを含めます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [データ ソースの管理 - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 * [データ ソースの管理 - SAP HANA](service-gateway-enterprise-manage-sap.md)  

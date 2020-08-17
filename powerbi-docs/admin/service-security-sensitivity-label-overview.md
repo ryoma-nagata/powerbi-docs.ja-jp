@@ -6,15 +6,15 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/05/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea161af0156aa0bee2fe92ab2f87fb82630f5589
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 4d719d7df5b982341b6377c41e448267197e769b
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252132"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049244"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI における秘密度ラベル
 
@@ -69,11 +69,23 @@ Power BI サービスで新しいレポートとダッシュボードが作成�
 
 Power BI からファイルをエクスポートするユーザーには、秘密度ラベルの設定に従ってそのファイルにアクセスして編集するアクセス許可が付与されます。ファイルの所有者アクセス許可は付与されません。
 
-秘密度ラベルと保護は、データが .csv ファイル、.pbix ファイル、Excel で分析、またはその他のエクスポート パスにエクスポートされるときは適用されません。
+秘密度ラベルと保護は、データが .csv、.pbix ファイル、またはその他のエクスポート パスにエクスポートされるときは適用されません。
 
 エクスポート後のファイルに秘密度ラベルと保護を適用するとき、ファイルにコンテンツのマーキングが追加されることはありません。 ただし、コンテンツのマーキングを適用するようにラベルが構成されている場合は、ファイルを Office デスクトップ アプリで開いたとき、Azure Information Protection 統合ラベル付けクライアントによって自動的にマーキングが適用されます。 デスクトップ、モバイル、または Web アプリに対して組み込みのラベル付けを使用する場合、コンテンツのマーキングが自動的に適用されることはありません。 「[Office アプリがコンテンツのマーキングと暗号化を適用するとき](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption)」を参照してください。
 
 データがファイルにエクスポートされるときにラベルを適用できない場合は、エクスポートに失敗します。 ラベルを適用できなかったためにエクスポートに失敗したかどうかを確認するには、タイトル バーの中央にあるレポートまたはダッシュボードの名前をクリックし、情報ドロップダウンが開いたら、"秘密度ラベルを読み込めません" と表示されているかどうかを確認します。 これは、一時的なシステムの問題の結果、または適用されたラベルが公開されていないか、セキュリティ管理者によって削除された場合に発生する可能性があります。
+
+## <a name="sensitivity-label-inheritance-in-analyze-in-excel"></a>[Excel で分析] の秘密度ラベル継承
+
+Power BI データセットにライブ接続しながら Excel でピボットテーブルを作成するとき (この作業は [[Excel で分析]](../collaborate-share/service-analyze-in-excel.md) または [[Excel]](https://support.microsoft.com/office/create-a-pivottable-from-power-bi-datasets-31444a04-9c38-4dd7-9a45-22848c666884?ui=en-US&rs=en-US&ad=US) を利用し、Power BI から可能です)、関連付けられている保護と共に、データセットの秘密度ラベルが継承され、お使いの Excel ファイルに適用されます。 データセット上のラベルが後に変更され、制限が厳しくなった場合、データ更新時、リンクされている Excel ファイルで適用されているラベルが自動的に更新されます。
+
+![ライブ接続によってデータセットから継承された秘密度ラベルを示す Excel のスクリーンショット。](media/service-security-sensitivity-label-overview/live-connection-inheritance.png)
+ 
+手動で設定された Excel の機密ラベルがデータセットの秘密度ラベルによって自動的に上書きされることはありません。 バナーから、データセットに秘密度ラベルがあることが通知され、それを適用することが推奨されます。
+
+>[!NOTE]
+>データセットの秘密度ラベルの制限が Excel ファイルの秘密度ラベルより制限が緩い場合、ラベルは継承されず、更新もされません。 Excel ファイルで制限の緩い秘密度ラベルが継承されることは決してありません。
+
 
 ## <a name="sensitivity-label-persistence-in-embedded-reports-and-dashboards"></a>埋め込みレポートとダッシュボードでの秘密度ラベルの永続化
 
@@ -83,7 +95,7 @@ Power BI レポート、ダッシュボード、およびビジュアルは、Mi
 
 次の埋め込みシナリオがサポートされています。
 * [組織向けの埋め込み](../developer/embedded/embed-sample-for-your-organization.md)
-* Microsoft 365 アプリ (例: [Teams](../collaborate-share/service-collaborate-microsoft-teams.md)、[SharePoint](../collaborate-share/service-embed-report-spo.md))
+* Microsoft 365 アプリ (例: [Teams](../collaborate-share/service-embed-report-microsoft-teams.md) や [SharePoint](../collaborate-share/service-embed-report-spo.md))
 * [セキュリティで保護された URL の埋め込み](../collaborate-share/service-embed-secure.md) (Power BI サービスからの埋め込み) 
 
 ## <a name="sensitivity-labels-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの秘密度ラベル
@@ -95,18 +107,9 @@ Power BI レポート、ダッシュボード、およびビジュアルは、Mi
 ## <a name="supported-clouds"></a>サポートされているクラウド
 秘密度ラベルはグローバル (パブリック) クラウド内のテナントでのみサポートされており、国内クラウドなどのクラウド内のテナントではサポートされていません。
 
-## <a name="requirements-for-using-sensitivity-labels-in-power-bi"></a>Power BI で秘密度ラベルを使用するための要件
+## <a name="licensing-and-requirements"></a>ライセンスと要件
 
-Power BI 内で秘密度ラベルを有効にして使用する前に、まず次の前提条件を満たす必要があります。
-* 秘密度ラベルが [Microsoft 365 セキュリティ センター](https://security.microsoft.com/)または [Microsoft 365 コンプライアンス センター](https://compliance.microsoft.com/)内で確実に定義されている。
-* Power BI で[秘密度ラベルを有効にする](service-security-enable-data-sensitivity-labels.md)。
-* ユーザーが[適切なライセンス](#licensing)を持っていることを確認する。
-
-## <a name="licensing"></a>ライセンス
-
-* Power BI 内で Microsoft Information Protection の秘密度ラベルを適用および表示するには、Azure Information Protection Premium P1 または Premium P2 ライセンスが必要です。 Microsoft Azure Information Protection は、スタンドアロンとして、またはいずれかの Microsoft ライセンス スイートを介して購入できます。 詳細については、「[Azure Information Protection の価格](https://azure.microsoft.com/pricing/details/information-protection/)」を参照してください。
-* Office アプリ内でラベルを表示および適用するには、[ライセンス要件](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)があります。
-* Power BI コンテンツにラベルを適用するには、ユーザーは前述のいずれかの Azure Information Protection ライセンスに加えて、Power BI Pro ライセンスも持っている必要があります。
+「[ライセンスと要件](service-security-enable-data-sensitivity-labels.md#licensing-and-requirements)」を参照してください。
 
 ## <a name="sensitivity-label-creation-and-management"></a>秘密度ラベルの作成と管理
 

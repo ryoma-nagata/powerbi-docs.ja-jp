@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216704"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049301"
 ---
 # <a name="tenant-admin-settings-guidance"></a>テナントの管理者設定のガイダンス
 
@@ -39,9 +39,13 @@ Power BI エクスペリエンスの向上に役立つ特定のテナント設�
 これらの URL は、Power BI のヘルプ メニューのリンクとして使用できるようになります。
 
 > [!NOTE]
-> **ライセンス要求**の URL を指定すると、個別のユーザーが Power BI Pro の 60 日間無料試用版にサインアップできなくなります。 代わりに、無料または Pro ライセンスの取得方法についての情報が含まれた内部サイトにリダイレクトされます。
+> **ライセンス要求** URL を指定することで、個々のユーザーは Power BI Pro ライセンスを購入できなくなります。 代わりに、ライセンスの取得方法についての情報が含まれた内部サイトにリダイレクトされます。 **[Allow users to try Power BI Pro]\(ユーザーが Power BI Pro を試せるようにする\)** 設定が既定で有効になっており、購入と試用を分離します。 これらの設定が連動するしくみについては、「[ユーザーが Power BI Pro を試せるようにする](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro)」を参照してください。
+>
+>
 
 ![[ヘルプとサポートの設定] を表示している Power BI Desktop のスクリーンショット。](media/admin-tenant-settings/publish-get-help-information.png)
+
+詳細については、「[ヘルプとサポートの設定](../admin/service-admin-portal.md#help-and-support-settings)」を参照してください。
 
 ## <a name="manage-risk"></a>リスクの管理
 リスクを管理するための設定は、Power BI テナントのガバナンス ポリシーを確立に役立ちます。 ただし、ガバナンス設定はセキュリティ対策ではないことにご留意ください。 たとえば、 **[データのエクスポート]** 設定を無効にすると、Power BI ユーザー インターフェイスからこの機能が削除され、組織のガバナンス ポリシーに沿って仕事をする Power BI ユーザーを支援しますが、他の選択肢を利用してデータをエクスポートすることにしたユーザーを止めるものではありません。 セキュリティの観点からは、データセットに読み取りアクセスできる Power BI ユーザーにはこのデータセットを照会するアクセス許可が与えられ、Power BI ユーザー インターフェイスに利用できる機能に関係なく、結果を保持できます。
