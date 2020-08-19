@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/28/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411982"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160397"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 
@@ -217,28 +217,31 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Python スクリプト
 * ODBC
 * OLE DB
-* Acterys: Model Automation & Planning (ベータ)
-* Automation Anywhere (ベータ)
 * Solver
-* Cherwell (ベータ)
-* Cognite Data Fusion (ベータ)
 * FHIR
 * Information Grid (ベータ)
 * Jamf Pro (ベータ)
-* MicroStrategy for Power BI
 * Paxata
 * QubolePresto (ベータ)
 * Roamler (ベータ)
 * Shortcuts Business Insights (ベータ)
 * Siteimprove
-* SurveyMonkey (ベータ)
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (ベータ)
-* Vena (ベータ)
 * Vessel Insight (ベータ)
 * Workforce Dimensions (ベータ)
 * Zucchetti HR Infinity (ベータ)
+* Cognite Data Fusion (ベータ)
+* MicroStrategy for Power BI
+* SurveyMonkey (ベータ)
+* Vena (ベータ)
+* Acterys: Model Automation & Planning (ベータ)
+* Automation Anywhere (ベータ)
+* Cherwell (ベータ)
 * 空のクエリ
+
+
+
 
 次の図は、 **[その他]** の **[データの取得]** ウィンドウを示しています。
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0169eba3e27b4014f9dbf20f88a10575caf903fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227268"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204315"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium の大規模なモデル (プレビュー)
 
@@ -114,7 +114,6 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 大規模なモデルを使用する場合は、次の制限事項に留意してください。
 
-- **Bring Your Own Key (BYOK) 暗号化**:Premium ファイルに対して有効化したデータセットは、[BYOK](service-encryption-byok.md) では暗号化されません。
 - **Multi-geo のサポート**:Premium ファイルに対して有効になっているデータセットは、[Multi-geo](service-admin-premium-multi-geo.md) も有効になっている容量で失敗します。
 
 - **Power BI Desktop へのダウンロード**:データセットが Premium ファイルに格納されている場合、[.pbix ファイルとしてのダウンロード](../create-reports/service-export-to-pbix.md)は失敗します。
@@ -152,7 +151,7 @@ Power BI の大規模なモデルは、[Azure Premium ファイル ストレー�
 
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 次のリンクには、大規模なモデルを使用する際に役立つ情報が用意されています。
 

@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 5a84c67a2efd57376afc289f965da9dc5dafd3c6
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768661"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204823"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal での Power BI Embedded 容量の作成
 
@@ -56,7 +56,7 @@ Power BI Embedded 容量を作成する前に、少なくとも一度、Power BI
 
     * **場所** - お使いのテナントの Power BI がホストされている場所。 既定の場所はホーム領域ですが、[Multi-Geo オプション](embedded-multi-geo.md)を使用して場所を変更できます。
 
-    * **サイズ** - 必要な [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 詳細については、「[SKU のメモリとコンピューティング能力](/embedded/embedded-capacity.md#sku-memory-and-computing-power)」を参照してください。
+    * **サイズ** - 必要な [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 詳細については、「[SKU のメモリとコンピューティング能力](/power-bi/developer/embedded/embedded-capacity)」を参照してください。
 
     * **Power BI 容量管理者** - 容量の管理者。
         >[!NOTE]
@@ -229,9 +229,10 @@ Azure サブスクリプションをお持ちでない場合は、開始する�
 
     * **名前** - 容量名。
 
-    * **場所** - お使いのテナントの Power BI がホストされている場所。 既定の場所はホーム領域ですが、[Multi-Geo オプション](/embedded/embedded-multi-geo.md)を使用して場所を変更できます。
+    * **場所** - お使いのテナントの Power BI がホストされている場所。 既定の場所はホーム領域ですが、[Multi-Geo オプション](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+)を使用して場所を変更できます。
 
-    * **SKU** - 必要な [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 詳細については、「[SKU のメモリとコンピューティング能力](/embedded/embedded-capacity.md#sku-memory-and-computing-power)」を参照してください。
+    * **SKU** - 必要な [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 詳細については、「[SKU のメモリとコンピューティング能力](/power-bi/developer/embedded/embedded-capacity)」を参照してください。
 
     * **管理者** - 容量の管理者。
         >[!NOTE]
