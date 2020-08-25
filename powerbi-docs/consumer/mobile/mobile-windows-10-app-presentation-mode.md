@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 85ba8b893dfa6da7934aff6b7890530e0acb2961
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091681"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204489"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub と Windows 10 デバイスで、プレゼンテーション モードでレポートとダッシュボードを表示する
 Windows 10 デバイスと Surface Hub で、プレゼンテーション モードを使用し、レポートとダッシュボードを全画面表示できます。 プレゼンテーション モードは、会議やカンファレンスで、またはオフィスの専用プロジェクターで Power BI を表示する場合や、小さい画面上の領域を最大化するためだけにも役立ちます。
@@ -64,9 +64,24 @@ Power BI モバイル アプリで **[全画面表示]** アイコンをタッ�
 
  コントローラーには、現在表示されているビュー (ページまたはブックマークとページ) の名前が表示されます。 上の図では、**Sales** という名前のレポート内で、現在 **Sales Performance** ページ上の **Asia Pacific** ブックマークが表示されていることを確認できます。
 
+既定では、スライドショーは 30 秒ごとに 1 回のペースでページのみが切り替わります。 [スライドショーの設定](#slideshow-settings)で既定の動作を変更できます。
+
+
+### <a name="auto-play-a-slideshow-on-startup"></a>スタートアップ時にスライドショーを自動再生する
+
+アプリが起動されるたびにスライドショーの再生を自動的に開始するように、Power BI モバイル アプリを設定できます。 このオプションは、手動で介入せずに、パブリック表示でレポートを実行するキオスクのようなエクスペリエンスを作成する場合に便利です。 自動再生用のレポートの設定に関する詳細については、「[スライドショーの設定](#slideshow-settings)」を参照してください。
+
 ### <a name="slideshow-settings"></a>スライドショーの設定
 
-既定では、スライドショーでは 30 秒ごとに 1 回ページが切り替わります。 これらの既定の設定を変更するには、次に示すように、 **[設定] > [オプション]** の順に移動します。
+既定では、スライドショーは 30 秒ごとに 1 回のペースでページのみが切り替わります。 この既定の動作を変更するには、次に示すように、 **[設定]、[オプション]** の順に移動します。 自動再生をオンにして、再生するレポートを選択することもできます。
+
+1. [設定] アイコンを選択します。
+
+1. [オプション] タブを開きます。
+
+1. 必要に応じて、スライドショーで切り替える内容の既定の設定 (ページ、ブックマーク、またはその両方) と、スライドショーを切り替える頻度を変更します。
+
+1. アプリの起動時にレポートの自動再生を開始する必要がある場合は、切り替えをオンにして、 **[レポートの選択]** を選択します。 アクセス権のあるレポートを検索することができます。
 
 ![スライドショーの設定のスクリーンショット](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

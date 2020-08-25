@@ -71,6 +71,8 @@
               items:
                 - name: Q&A 概要
                   href: ../natural-language/q-and-a-intro.md
+                - name: Q&A データ ソース
+                  href: ../natural-language/q-and-a-data-sources.md
                 - name: Q&A ツールの概要
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Q&A ツールの詳細

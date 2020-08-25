@@ -1,24 +1,24 @@
 ---
 title: 分析機能を使用してレポート視覚化の変動を解釈する
-description: Power BI Desktop では簡単に増減を把握できます
+description: Power BI サービスでは増減に関する分析情報を簡単に得ることができます
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/23/2019
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 36f370adc68c6b6f8fc15261bfa107411043c65d
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162300"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168486"
 ---
-# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals-preview"></a>分析機能を使用してレポート視覚化の変動を解釈する (プレビュー)
+# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>分析機能を使用してレポート視覚化の変動を解釈する
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 レポートの視覚化では、値の大幅な増加や急激な減少を確認し、そのような変動の原因を特定したいことがよくあります。 **Power BI サービス**の **[分析]** を使用すると、数回クリックするだけで原因がわかります。
 
@@ -26,7 +26,7 @@ ms.locfileid: "86162300"
 
 ![増減のあるビジュアル](media/end-user-analyze-visuals/power-bi-line-chart.png)
 
-視覚化の増加、減少、または異常な分布について説明するように Power BI サービスに尋ねて、データについて高速で自動化され、洞察に満ちた分析を得ることができます。 その場合、ユーザーはただデータ ポイントを右クリックし、 **[分析]、[減少について説明してください]** (前の棒が低い場合は [増加について説明してください]) の順に選択するか、 **[分析] を選択し、分布が異なる部分を [検索]** します。これにより、使いやすいウィンドウで洞察が得られます。
+視覚化の増加、減少、または異常な分布について説明するように Power BI サービスに尋ねて、データについて高速で自動化され、洞察に満ちた分析を得ることができます。 データ ポイントを右クリックし、 **[分析]、[減少について説明してください]** (前の棒が低い場合は [増加について説明してください]) の順に選択するか、 **[分析] を選択し、分布が異なる部分を [検索]** します。これにより、使いやすいウィンドウで分析情報が得られます。
 
 ![ビジュアルに示された分析情報](media/end-user-analyze-visuals/power-bi-decrease.png)
 
@@ -37,7 +37,7 @@ ms.locfileid: "86162300"
 
 ### <a name="which-factors-and-categories-are-chosen"></a>選択されている要因とカテゴリ
 
-Power BI では、さまざまな列が調査された後、相対的な貢献度の最大の変化を示す列が選択され、表示されます。 出力された縦棒ごとに、貢献度変化が最も大きい値に吹き出しで説明が付きます。 また、実際の増減が最も大きい値にも吹き出しが付きます。
+Power BI では、さまざまな列が調査された後、相対的な貢献度の最大の変化を示す要因が選択され、表示されます。 出力された縦棒ごとに、貢献度変化が最も大きい値に吹き出しで説明が付きます。 また、実際の増減が最も大きい値にも吹き出しが付きます。
 
 Power BI によって生成されたすべての分析情報を表示するには、スクロールバーを使用します。 順序は、最も重要な要因が最初に表示されるように順位付けされています。 
 
@@ -71,15 +71,19 @@ Power BI によって生成されたすべての分析情報を表示するに�
 
 ### <a name="the-scatter-plot"></a>散布図
 
+![散布図アイコンが選択された小さいスクリーンショット](media/end-user-analyze-visuals/power-bi-scatter-icon.png)
+
 散布図視覚化では、縦棒の各値に対して (ここでは *State* (州))、第 1 期間の指標値 (X 軸) と第 2 期間の指標値 (Y 軸) が比較表示されます。 データ ポイントは、増加した場合は緑の領域に、減少した場合は赤の領域に配置されます。 
 
 点線は最良適合を示すものであり、この線よりも上にあるデータ ポイントは全体的な傾向よりも増加し、下にあるデータ ポイントは減少しています。  
 
 ![点線を含む散布図](media/end-user-analyze-visuals/power-bi-scatter.png)
 
-どちらの期間でも値が空白だったデータ項目は、散布図には表示されないことに注意してください。
+どちらの期間でも値が空白だったデータ項目は、散布図には表示されません。
 
 ### <a name="the-100-stacked-column-chart"></a>100% 積み上げ縦棒グラフ
+
+![縦棒グラフ アイコンが選択されている小さいスクリーンショット](media/end-user-analyze-visuals/power-bi-column-icon.png)
 
 100% 積み上げ縦棒グラフには、選択したデータ ポイントと以前のものとの合計 (100%) への貢献度の値が視覚的に示されます。 これにより、各データ ポイントの貢献度を並べて比較できます。 この例では、選択したテキサス州の値に対する実際の貢献度がヒントに表示されます。 状態の一覧は長いため、ツールヒントを使用すると詳細の確認に役立ちます。 ツールヒントを使用すると、テキサス州の合計ユニットに対する貢献度はほぼ同じ割合 (31% と 32%) ですが、実際の合計ユニット数は 89 から 71 に減少したことがわかります。 Y 軸は合計ではなくパーセンテージであり、各列の帯は値ではなくパーセンテージであることに注意してください。 
 
@@ -87,11 +91,15 @@ Power BI によって生成されたすべての分析情報を表示するに�
 
 ### <a name="the-ribbon-chart"></a>リボン グラフ
 
+![リボン グラフ アイコンが選択されている小さいスクリーンショット](media/end-user-analyze-visuals/power-bi-ribbon-icon.png)
+
 リボン グラフのビジュアルには、前後の指標値が表示されます。 これは、要因の "*順序*" が変わったとき (たとえば、*LA* (ルイジアナ州) が 2 位の要因から 11 位に落ちたとき) の貢献度の変化を示す場合に特に役立ちます。  また、*TX* (テキサス州) は上部の幅の広いリボンで表されています。これが前後で最も重要な要因であることを示していますが、低下は、選択した期間中とその後の両方で貢献度の値が低下したことを示しています。
 
 ![リボン グラフ](media/end-user-analyze-visuals/power-bi-ribbon-tooltip.png)
 
 ### <a name="the-waterfall-chart"></a>ウォーターフォール グラフ
+
+![ウォーターフォール グラフ アイコンが選択されている小さいスクリーンショット](media/end-user-analyze-visuals/power-bi-waterfall-icon.png)
 
 4 番目のビジュアルはウォーターフォール図です。期間の間の増減を実際値で示します。 このビジュアルには、2014 年 6 月の減少の大きな要因 (この例では **State** (州)) の 1 つが明確に示されています。 そして、**State** (州) の合計ユニットへの影響で注目する点は、ルイジアナ州、テキサス州、コロラド州の減少が最も重要な役割を果たしたことです。      
 
@@ -120,6 +128,6 @@ Power BI によって生成されたすべての分析情報を表示するに�
 
 ## <a name="next-steps"></a>次の手順
 [ウォーターフォール図](../visuals/power-bi-visualization-waterfall-charts.md)    
-[散布図](../visuals/power-bi-visualization-scatter.md)
-[縦棒グラフ](../visuals/power-bi-report-visualizations.md)
+[散布図](../visuals/power-bi-visualization-scatter.md)    
+[縦棒グラフ](../visuals/power-bi-report-visualizations.md)    
 [リボン グラフ](../visuals/desktop-ribbon-charts.md)

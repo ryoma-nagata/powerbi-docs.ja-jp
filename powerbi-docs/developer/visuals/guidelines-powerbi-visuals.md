@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 07/16/2019
-ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/12/2020
+ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435883"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204913"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI ビジュアルのガイドライン
 他のユーザーが検出して使用できるようにご自分の Power BI ビジュアルを Microsoft AppSource に[発行](office-store.md)する前に、ユーザー向けに優れたエクスペリエンスを作成するためのガイドラインに従っていることを確認してください。
@@ -59,6 +59,9 @@ Power BI ビジュアルが検証されて承認されたら、IAP Power BI ビ�
 すべての Power BI ビジュアルでは、コンテキスト メニューを使用して、統一されたエクスペリエンスを実現できます。
 コンテキスト メニューを追加する方法については、[こちらの記事](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)をご覧ください。
 
+>[!div class="mx-imgBorder"]
+>![Power BI ビジュアルのコンテキスト メニューのスクリーンショット。](media/guidelines-powerbi-visuals/context-menu.png)
+
 ## <a name="commercial-logo"></a>商用ロゴ
 このセクションでは、Power BI ビジュアルに商用ロゴを追加するための仕様について説明します。 商用ロゴは必須ではありません。 追加する場合、これらのガイドラインに従う必要があります。
 
@@ -74,15 +77,15 @@ Power BI ビジュアルが検証されて承認されたら、IAP Power BI ビ�
 商用ロゴには、次の 3 種類があります。
 * **ロゴ** - ロゴは、アイコンと名前の 2 つの要素で構成されています。
 
-    ![Microsoft ロゴ](media/guidelines-powerbi-visuals/microsoft-logo.png)
+    ![Microsoft ロゴのスクリーンショット。](media/guidelines-powerbi-visuals/microsoft-logo.png)
 
 * **シンボル** - テキストを含まないグラフィック。
 
-    ![Microsoft シンボル](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+    ![Microsoft シンボルのスクリーンショット。](media/guidelines-powerbi-visuals/microsoft-symbol.png)
 
 * **ロゴタイプ** - テキストのみで構成され、アイコンを含まないロゴ。
 
-    ![Microsoft シンボル](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+    ![Microsoft ロゴ (アイコンなし) のスクリーンショット。](media/guidelines-powerbi-visuals/microsoft-logotype.png)
 
 ### <a name="commercial-logo-color"></a>商用ロゴの色
 
@@ -90,15 +93,15 @@ Power BI ビジュアルが検証されて承認されたら、IAP Power BI ビ�
 
 * **ロゴ**
 
-    ![Microsoft シンボル](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+    ![灰色の Microsoft ロゴのスクリーンショット。](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
 
 * **シンボル** - テキストを含まないグラフィック。
 
-    ![Microsoft シンボル](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+    ![灰色の Microsoft シンボルのスクリーンショット。](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
 
 * **ロゴタイプ** - テキストのみで構成され、アイコンを含まないロゴ。
 
-    ![Microsoft シンボル](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+    ![灰色の Microsoft ロゴ (アイコンなし) のスクリーンショット。](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
 
 > [!TIP]
 > * ご利用の Power BI ビジュアルにグラフィックが含まれている場合、ご利用のロゴに対して余白を 10 px に設定した白の背景の追加を検討してください。
@@ -110,13 +113,13 @@ Power BI ビジュアルには、サイズの大きいタイル用と小さい�
 
 次の表では、Power BI ビジュアルのサイズに関する考慮事項について説明します。
 
-|  |小さい Power BI ビジュアル  |大きい Power BI ビジュアル  |
+|設定  |小さい Power BI ビジュアル  |大きい Power BI ビジュアル  |
 |---------|---------|---------|
 |*ロゴの幅*    |最大 240 px         |240 px より大きい         |
 |*ロゴの高さ*     |最大 160 px         |160 px より大きい         |
 |*境界ボックスのサイズ*     |40 x 15 px         |101 x 30 px         |
-|*商用ロゴの例*     |![Microsoft シンボル](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft ロゴ](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|*境界ボックスの例*    |![小さいロゴの例](media/guidelines-powerbi-visuals/small-logo-box.png)         |![大きいロゴの例](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|*商用ロゴの例*     |![小さなバージョンの Microsoft の商用ロゴのスクリーンショット。](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft の商用ロゴのスクリーンショット。](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*境界ボックスの例*    |![小さいロゴ サイズのスクリーンショット。](media/guidelines-powerbi-visuals/small-logo-box.png)         |![大きいロゴ サイズのスクリーンショット。](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>商用ロゴの動作
@@ -140,11 +143,11 @@ Power BI ビジュアルには、サイズの大きいタイル用と小さい�
 
 * カラフルな商用ロゴまたは黒い商用ロゴを避けてください。 商用ロゴは灰色 (16 進カラー コードは #C8C8C8) にする必要があります。
 
-    ![承認されていないカラフルなロゴ](media/guidelines-powerbi-visuals/no-color-logo.png) ![承認されていない黒いロゴ](media/guidelines-powerbi-visuals/black-logo.png)
+    ![許可されていないカラフルな Microsoft ロゴのスクリーンショット。](media/guidelines-powerbi-visuals/no-color-logo.png) ![許可されていない Microsoft の黒いロゴのスクリーンショット](media/guidelines-powerbi-visuals/black-logo.png)
 
 * グラデーションや濃い影などの効果がある商用ロゴ。
 
-    ![承認されていないロゴ スタイル](media/guidelines-powerbi-visuals/no-style-logo.png)
+    ![許可されていない Microsoft ロゴ スタイルの例のスクリーンショット。](media/guidelines-powerbi-visuals/no-style-logo.png)
 
 ## <a name="best-practices"></a>ベスト プラクティス
 
@@ -164,4 +167,7 @@ Power BI ビジュアルの詳細については、[追加購入を含む Power 
 
 ## <a name="next-steps"></a>次のステップ
 
-[Microsoft AppSource](office-store.md) にご利用の Power BI ビジュアルを発行して、他のユーザーが見つけたり使用したりすることができるようにする方法について説明します。
+Microsoft AppSource にご利用の Power BI ビジュアルを発行して、他のユーザーが見つけたり使用したりすることができるようにする方法について説明します。
+
+>[!div class="nextstepaction"]
+>[Power BI ビジュアルを発行する](office-store.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4928d194367c1bb2f38fb520722dd040e8ee1a3f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3df3e29d2f6517fec68bf185bf71d9f4f3c5618a
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83296712"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512864"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop でのモデル リレーションシップ
 
@@ -42,7 +42,7 @@ ms.locfileid: "83296712"
 
 通常は、あるモデル テーブルが別のモデル テーブルに関連付けられていないことはありません。 有効なモデル設計におけるそのようなテーブルは、"_分離されたテーブル_" として説明されます。 分離されたテーブルは、他のモデル テーブルにフィルターを伝達するためのものではありません。 代わりに、これは (おそらくスライサーのビジュアルを使用して) "ユーザー入力" を受け取るために使われます。これによって、モデルの計算で入力値を意味のある方法で使うことができます。 たとえば、通貨為替レートの値の範囲と共に読み込まれる、分離されたテーブルについて考えてみます。 1 つのレート値でフィルター処理するようにフィルターが適用される限り、メジャー式でこの値を使って販売の値を変換できます。
 
-Power BI Desktop の what-if パラメーターは、分離されたテーブルを作成する機能です。 詳細については、「[Power BI Desktop で変数を視覚化する What-if パラメーターを作成して使用する](desktop-what-if.md)」の記事をご覧ください。
+Power BI Desktop の What-If パラメーターは、切断されたテーブルを作成する機能です。 詳細については、「[Power BI Desktop で変数を視覚化する What-if パラメーターを作成して使用する](desktop-what-if.md)」の記事をご覧ください。
 
 ## <a name="relationship-properties"></a>リレーションシップのプロパティ
 

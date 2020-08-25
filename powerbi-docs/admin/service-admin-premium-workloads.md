@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1213d02926db3b1d356e7fefffb44bcc41b8ab96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227694"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204432"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium 容量でワークロードを構成する
 
@@ -59,8 +59,10 @@ AI ワークロードを使用すると、Power BI で cognitive services と自
 | **Max Result Row Set Count (結果行セットの最大数)** | DAX クエリで返される行の最大数。 既定値は -1 (無制限) に設定されており、許容範囲は 100,000 - 2,147,483,647 です。 |
 | **クエリのメモリ制限 (%)** | ワークロード内で、MDX または DAX クエリの実行に使用できる空きメモリの最大の割合。 既定値は 0 です。この場合、SKU に固有の自動的なクエリのメモリの制限が適用されます。 |
 | **クエリのタイムアウト (秒)** | クエリがタイムアウトするまでの最大時間。既定値は 3,600 秒 (1 時間) です。 値 0 は、クエリがタイムアウトしないことを指定します。 |
-| **Automatic page refresh (preview) (ページの自動更新 (プレビュー))** | Premium ワークスペースでページの自動更新を含むレポートを作成する機能のオン/オフを切り替えます。 |
+| **ページの自動更新** | Premium ワークスペースで固定間隔に基づくページの自動更新を含むレポートを作成する機能のオン/オフを切り替えます。 |
 | **Minimum refresh interval (最小更新間隔)** | ページの自動更新がオンの場合に、ページ更新間隔に許容される最小間隔。 既定値は 5 分であり、許容される最小値は 1 秒です。 |
+| **検出メジャーの変更** | Premium ワークスペースで変更の検出に基づくページの自動更新を含むレポートを作成する機能のオン/オフを切り替えます。 |
+| **最小実行間隔** | 変更の検出メジャーがオンになっている場合、データ変更のポーリングに使用できる最小実行間隔です。 既定値は 5 秒であり、許容される最小値は 1 秒です。 |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>Max Intermediate Row Set Count (中間行セットの最大数)
@@ -107,7 +109,7 @@ Power BI レポート、Excel で分析レポートだけでなく、XMLA エン
 | 自動的なクエリのメモリの制限 | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 |                              |          |          |          |         |         |         |
 
-システムのパフォーマンスを保護するために、ユーザーが構成したクエリ メモリの上限に関係なく、Power BI レポートによって実行されるすべてのクエリに対して 10 GB のハード シーリングが適用されます。 このハード シーリングは、Analysis Services プロトコル (XMLA) を使用するツールによって発行されたクエリには適用されません。 クエリがメモリを集中的に消費しすぎる場合は、クエリまたはクエリの計算を簡素化することを検討する必要があります。
+システムのパフォーマンスを保護するために、ユーザーが構成したクエリ メモリの上限に関係なく、Power BI レポートによって実行されるすべてのクエリに対して 10 GB のハード シーリングが適用されます。 このハード シーリングは、Analysis Services プロトコル (XMLA とも呼ばれます) を使用するツールによって発行されたクエリには適用されません。 クエリがメモリを集中的に消費しすぎる場合は、クエリまたはクエリの計算を簡素化することを検討する必要があります。
 
 #### <a name="query-timeout"></a>クエリのタイムアウト
 

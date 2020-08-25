@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: bfda795e02ef53188c5125bc2f0674e859ebd450
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878814"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578062"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 
@@ -35,7 +35,7 @@ Power BI モバイルを使用して、直接リンクからのみアプリを�
 
 ## <a name="apps-and-licenses"></a>アプリとライセンス
 すべての Power BI ユーザーがアプリを表示して操作できるわけではありません。 
-- 無料のライセンスをお持ちの場合は、Premium 容量内のワークスペースに格納された共有のアプリを開くことができます。
+- 無料のライセンスをお持ちの場合は、Premium 容量に格納され、共有されているアプリを開くことができます。  
 - Pro ライセンスをお持ちの場合は、共有されているアプリを開くことができます。
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Power BI アプリ マーケットプレースからアプリを入手する
@@ -47,7 +47,7 @@ Power BI アプリ マーケットプレースでアプリを検索してイン�
 
 1. まだサインインしていなければ、[Power BI サービスにサインイン](./end-user-sign-in.md)します。 
 
-1. Power BI で、 **[アプリ] > [アプリの取得]** を選択します。 
+1. Power BI サービスが開いたら、 **[アプリ]、[アプリの取得]** の順に選択します。 
 
     ![アプリの取得  ](./media/end-user-app-view/power-bi-get-apps.png)
 
@@ -65,11 +65,14 @@ Power BI アプリ マーケットプレースでアプリを検索してイン�
    検索ボックスは、開いているタブの影響を受けます。選択されている種類のアプリのみが返されます。 **[すべてのアプリ]** タブが開いている場合は、組織アプリとテンプレート アプリの両方が返されます。 これは、組織アプリとテンプレート アプリの名前が同じである場合に、混乱を招く可能性があります。 テンプレート アプリのタイルには、右上隅にショッピング バッグ アイコンが付いていることを思い出してください。
 
 目的のアプリが見つかったら、 **[今すぐ入手する]** を選択してインストールします。
+
+   ![[今すぐ入手する] ボタンを示すスクリーンショット](./media/end-user-app-view/power-bi-get-it.png)
+
 * 組織アプリをインストールすると、アプリの一覧にすぐに追加されます。
 * テンプレート アプリをインストールすると、AppSource のテンプレート アプリ オファリングに移動します。 Power BI アプリ マーケットプレースからサンプル テンプレート アプリをダウンロードしてインストールする方法の[例](end-user-app-marketing.md)を参照してください。 同じ名前のワークスペースと共に、アプリがインストールされます。
 
    > [!NOTE]
-   > 無料ユーザー ライセンスをご使用の場合は、アプリをダウンロードできますが、Power BI Pro アカウントにアップグレードした場合や、Premium 共有容量にアプリが格納されている場合を除き、アプリを表示することはできません。 詳細については、[コンシューマー向けライセンス](end-user-license.md)に関する記事を参照してください。
+   > 無料ユーザー ライセンスをご使用の場合は、アプリをダウンロードできますが、Power BI Pro アカウントにアップグレードした場合や、Premium 共有容量にアプリが格納されている場合を除き、アプリを表示することはできません。 詳細については、[ビジネス ユーザーのライセンス](end-user-license.md)に関する記事を参照してください。
 
 ## <a name="install-an-app-from-a-direct-link"></a>直接リンクからのアプリをインストールする
 アプリ デザイナーから受け取った電子メール内の直接リンクから、組織アプリをインストールすることもできます。  
@@ -112,9 +115,9 @@ Power BI アプリ マーケットプレースでアプリを検索してイン�
 1. アプリのナビゲーション ウィンドウ。  アプリの名前の下には、レポート ページの一覧が表示されます。 レポート ページ名を選択すると、そのページが開きます。 ここでは、 *[利益率]* ページが開いています。 
 1. 矢印を選択すると、 **[フィルター]** ウィンドウが展開されます。
 
-また、関連付けられているワークスペースを調べることもできます。 [ワークスペースについて学習する](end-user-workspaces.md)
+また、関連付けられているワークスペースを調べることもできます。 [ワークスペースに関する詳細](end-user-workspaces.md) **[Power BI]** (数字 2) を選択して **[ホーム]** に戻り、 **[ワークスペース]** を選択します。 
 
-![1 つのレポートと 1 つのデータセットを示す Sales and Marketing ワークスペースのスクリーンショット。 ](./media/end-user-app-view/power-bi-new-workspace.png)
+![1 つのレポートと 1 つのデータセットを示す Sales and Marketing ワークスペースのスクリーンショット。 ](./media/end-user-app-view/power-bi-new-workspaces.png)
 
 ## <a name="update-an-app"></a>アプリの更新 
 
@@ -136,8 +139,8 @@ Power BI アプリ マーケットプレースでアプリを検索してイン�
 
         ![古いアプリのバージョンを上書きする](./media/end-user-app-view/power-bi-already-installed.png) 
 
-    > [!NOTE] 
-    > 新しいバージョンをインストールすると、レポートとダッシュボードに加えた変更はいずれも上書きされます。 変更したレポートおよびダッシュボードを維持するには、インストールする前に、それらを別の名前で保存するか、別の場所に保存します。 
+     > [!NOTE] 
+     > 新しいバージョンをインストールすると、レポートとダッシュボードに加えた変更はいずれも上書きされます。 変更したレポートおよびダッシュボードを維持するには、インストールする前に、それらを別の名前で保存するか、別の場所に保存します。 
 
     4. 更新されたバージョンをインストールしたら、 **[アプリを更新]** を選択して更新プロセスを完了します。 
 

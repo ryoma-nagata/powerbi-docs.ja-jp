@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 08/12/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0fdee37f682774e1dac2b1ac6a4fc7a6e8dabe91
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8dd6e64943ea05f2219efa471cd3fcfa4152650b
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238086"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160489"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>ユーザーがレポート内のビジュアルをカスタマイズできるようにする
 
@@ -41,6 +41,59 @@ ms.locfileid: "85238086"
 - レポートのすべての変更をリセットする
 - ビジュアルのすべての変更をリセットする
 - 最近の変更をクリアする
+
+## <a name="use-perspectives-for-a-more-focused-view"></a>パースペクティブを使用してより焦点を絞ったビューにする
+
+ビジュアルをカスタマイズするために、**パースペクティブ**を使用して、より焦点を絞ったビューを提供するモデルのサブセットを選択できます。 サブセットを選択すると、大規模なデータ モデルを使用する場合に便利です。これにより、フィールドの管理可能なサブセットに集中でき、その大規模なモデル内のフィールドの完全なコレクションでレポート閲覧者に過剰な負担をかけることがなくなります。 
+
+![ビジュアルのカスタマイズ](media/power-bi-personalize-visuals/power-bi-personalize-perspective-01.png)
+
+パースペクティブを使用する場合は、次の点に注意してください。
+
+* パースペクティブは、セキュリティ メカニズムとして使用するためのものではなく、エンドユーザー エクスペリエンスをより良いものにするためのツールです。 パースペクティブのセキュリティはすべて、基になるモデルから継承されます。
+
+* 表形式モデルと多次元モデルの両方のパースペクティブがサポートされています。 ただし、多次元モデルのパースペクティブでは、レポートのベース キューブと同じになるようにしかパースペクティブを設定できません。
+
+* モデルからパースペクティブを削除する前に、そのパースペクティブがビジュアルのカスタマイズ エクスペリエンスで使用されていないことを確認してください。 
+
+パースペクティブを使用するには、レポートに対して [ビジュアルのカスタマイズ] を有効にする必要があります。 また、ビジュアルのカスタマイズ エクスペリエンスのために、エンドユーザーに操作させたいパースペクティブ (ディメンションとメジャーを含む) を少なくとも 1 つ作成する必要があります。
+
+パースペクティブを作成するには、[Tabular Editor](https://tabulareditor.com/) を使用します。これは次の場所からダウンロードできます。Tabular Editor のダウンロード
+
+**Tabular Editor** をインストールしたら、**Power BI Desktop** でレポートを開き、次の図に示すように、リボンの **[外部ツール]** タブから **Tabular Editor** を起動します。
+
+![[外部ツール] リボンの Tabular Editor](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
+
+Tabular Editor で、**Perspectives** フォルダーを右クリックして、新しいパースペクティブを作成します。
+
+![Tabular Editor で新しい Perspectives フォルダーを作成する](media/power-bi-personalize-visuals/power-bi-personalize-perspective-03.png)
+
+テキストをダブルクリックして、パースペクティブの名前を変更できます。
+
+![パースペクティブの名前を変更する](media/power-bi-personalize-visuals/power-bi-personalize-perspective-04.png)
+
+次に、パースペクティブにフィールドを追加します。これを行うには、Tabular Editor で **Tables** フォルダーを開き、パースペクティブに表示するフィールドを右クリックします。
+
+![パースペクティブにフィールドを追加する](media/power-bi-personalize-visuals/power-bi-personalize-perspective-05.png)
+
+パースペクティブに追加するフィールドごとに、そのプロセスを繰り返します。 パースペクティブに重複するフィールドを追加することはできないため、既にパースペクティブに追加されているフィールドには、それを追加することを無効にするオプションがあります。
+
+必要なすべてのフィールドを追加したら、Tabular Editor と Power BI Desktop の両方で必ず設定を保存してください。
+
+![Tabular Editor と Power BI Desktop にパースペクティブ設定を保存する](media/power-bi-personalize-visuals/power-bi-personalize-perspective-06.png)
+
+新しいパースペクティブをモデルに保存し、Power BI Desktop レポートを保存したら、そのページの **[形式]** ウィンドウに移動します。ここに、 **[ビジュアルのカスタマイズ]** の新しいセクションが表示されます。
+
+![[形式] ウィンドウの [ビジュアルのカスタマイズ] セクション](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
+
+*[レポート閲覧者パースペクティブ]* の選択は、最初は *[既定のフィールド]* に設定されます。 ドロップダウン矢印を選択すると、作成した他のパースペクティブが表示されます。
+
+![他のパースペクティブを表示するには、ドロップダウン矢印を選択します](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
+
+レポート ページのパースペクティブを設定すると、そのページのビジュアルのカスタマイズ エクスペリエンスが、選択したパースペクティブにフィルター処理されます。 **[Apply to all pages]\(すべてのページに適用\)** を選択すると、レポート内の既存のすべてのページにパースペクティブ設定を適用できます。
+
+![レポート全体に適用するパースペクティブに対して [Apply to all pages]\(すべてのページに適用\) を選択します](media/power-bi-personalize-visuals/power-bi-personalize-perspective-09.png)
+
 
 ## <a name="turn-on-the-preview-feature"></a>プレビュー機能をオンにする
 
@@ -91,7 +144,7 @@ Power BI Desktop でこの機能を有効にするには、 **[ファイル]**  
 
 - この機能は、Web に公開などの組み込みシナリオではサポートされていません。
 - ユーザー探索は自動的に保持されません。 変更をキャプチャするには、個人用ブックマークとしてビューを保存する必要があります。
-- この機能は、iOS と Android タブレット用の Power BI モバイルアプリ、および Power BI Windows アプリでサポートされています。スマートフォン用の Power BI モバイル アプリではサポートされていません。 ただし、Power BI サービスの使用中に個人用ブックマークに保存したビジュアルの変更は、すべての Power BI モバイル アプリに適用されます。
+- この機能は、iOS と Android タブレット用の Power BI モバイルアプリ、および Power BI Windows アプリでサポートされています。スマートフォン用の Power BI モバイル アプリではサポートされていません。 ただし、Power BI サービスの使用中に個人用ブックマークに保存した視覚エフェクトの変更は、すべての Power BI モバイル アプリに適用されます。
 
 また、現在対処中のいくつかの既知の問題もあります。
 
@@ -99,10 +152,10 @@ Power BI Desktop でこの機能を有効にするには、 **[ファイル]**  
 - 日付の階層を日付に変更したり、その逆を行ったりすることはできません。 
 - 個人用ブックマークを使用すると、選択した順序によって、得られる結果が多少異なる場合があります。 不一致が発生する場合があるのは、レポートの完全な状態をキャプチャするのではなく、加えた変更のみキャプチャするためです。 回避策として、 **[既定値にリセット]** を選択した後、表示するブックマークを選択します。 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [レポート内のビジュアルをカスタマイズする](../consumer/end-user-personalize-visuals.md)。     
 
 新しいビジュアルの個人用設定のエクスペリエンスを試してみてください。 この機能のフィードバックや、機能改善を続けていくための方法に関するご意見については、[Power BI のアイデア サイト](https://ideas.powerbi.com/forums/265200-power-bi)からお寄せください。 
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

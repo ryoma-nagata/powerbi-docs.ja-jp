@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: fd30b9df6fce484bffab430888260145bb374ce9
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091574"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160374"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI レポートをファイルにエクスポートする (プレビュー)
 
@@ -103,8 +103,7 @@ RLS を使用してエクスポートするには、次のアクセス許可を�
 * パブリック プレビューの場合、1 時間あたりのエクスポートされる Power BI レポートのページ数は、容量ごとに 50 に制限されています。
 * エクスポートされたレポートのファイル サイズは 250 MB を超えてはなりません。
 * .png にエクスポートする場合、機密ラベルはサポートされません。
-* 機密ラベルが設定されたレポートは、[サービス プリンシパル](embed-service-principal.md)を使用して .pdf または .pptx にエクスポートすることはできません。
-* エクスポートされるレポートに含めることができるページ数は 30 です。 レポートに含まれるページがそれより多い場合、API はエラーを返し、エクスポート ジョブは取り消されます。
+* エクスポートされるレポートに含めることができるページ数は 50 です。 レポートに含まれるページがそれより多い場合、API はエラーを返し、エクスポート ジョブは取り消されます。
 * [個人用ブックマーク](../../consumer/end-user-bookmarks.md#personal-bookmarks)と[永続的フィルター](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)はサポートされていません。
 * 次に示す Power BI のビジュアルはサポートされていません。 これらのビジュアルを含むレポートをエクスポートすると、これらのビジュアルが含まれるレポートの部分は表示されず、エラー記号が表示されます。
     * 認められていない Power BI ビジュアル
@@ -318,7 +317,7 @@ private async Task<ExportedFile> ExportPowerBIReport(
 }
 ```
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 顧客向けおよび自分の組織向けのコンテンツを埋め込む方法を確認します。
 

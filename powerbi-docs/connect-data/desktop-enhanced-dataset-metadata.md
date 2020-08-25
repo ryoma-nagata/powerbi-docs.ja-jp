@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1204b28ae5239bf4080472129b0862862446e5d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 389de5d34b00afbe70a1489dfc61e760530590a9
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878457"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512887"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>拡張データセット メタデータの使用 (プレビュー)
 
@@ -44,7 +44,7 @@ Power BI Desktop を再起動するように求められます。
 
 ## <a name="report-backup-files"></a>レポートのバックアップ ファイル
 
-**拡張データセット メタデータ**機能を使用するようにレポートを更新する操作は、元に戻せません。 ただし、更新中に、レポートのバージョンを元の (更新前の) 形式で保存するために、レポートのバックアップ ファイルが作成されます。 このバックアップ ファイルは 30 日後に削除されます。 
+**拡張データセット メタデータ**機能を使用するようにレポートを更新する操作は、元に戻せません。 しかし、更新中に、レポートのバージョンを元の (更新前の) 形式で保存するために、レポートのバックアップ ファイルが作成されます。 このバックアップ ファイルは 30 日後に削除されます。 
 
 レポートのバックアップ ファイルを見つけるには、次の手順を実行します。
 

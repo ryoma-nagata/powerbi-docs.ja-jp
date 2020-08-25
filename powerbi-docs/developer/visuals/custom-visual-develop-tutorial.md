@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739347"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512933"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>チュートリアル:Power BI のビジュアルを開発する
 
@@ -130,7 +130,7 @@ Power BI Desktop レポートでは、Circle Card になるようにカードが
 4. 開いているブラウザーをすべて閉じます。
 
 > [!NOTE]
-> 証明書が認識されない場合は、コンピューターの再起動が必要である可能性があります。
+> 証明書が認識されない場合は、コンピューターの再起動が必要である可能性があります。 Firefox などの一部のブラウザーでは、自己署名証明書を信頼する必要があります。 これを行うには、webpack サーバー ページ (https://localhost:8080/webpack-dev-server) に移動し、リスクに同意します。
 
 ## <a name="creating-a-custom-visual"></a>カスタム ビジュアルの作成
 
@@ -221,11 +221,11 @@ Power BI Desktop レポートでは、Circle Card になるようにカードが
 
 このセクションでは、Power BI Desktop レポートをアップロードし、カスタム ビジュアルを表示するようにレポートを編集して、CircleCard カスタム ビジュアルをテストします。
 
-1. [[PowerBI.com]](https://powerbi.microsoft.com/) にサインインして **[歯車] アイコン** に移動し、 **[設定]** を選択します。
+1. [[PowerBI.com]](https://powerbi.microsoft.com/) にサインインして **[歯車] アイコン** に移動し、**[設定]** を選択します。
 
       ![Power BI の設定](media/custom-visual-develop-tutorial/power-bi-settings.png)
 
-2. **[開発者]** を選択して、 **[テスト用の開発者向けビジュアルを有効にする]** チェックボックスをオンにします。
+2. **[開発者]** を選択して、**[テスト用の開発者向けビジュアルを有効にする]** チェックボックスをオンにします。
 
     ![開発者ページの設定](media/custom-visual-develop-tutorial/developer-page-settings.png)
 
@@ -365,7 +365,7 @@ PowerShell で実行されるカスタム ビジュアルを停止するため�
     code .
     ```
 
-6. **[エクスプローラー] ウィンドウ**で、 **[node_modules]** フォルダーを展開して **d3 ライブラリ**がインストールされたことを確認します。
+6. **[エクスプローラー] ウィンドウ**で、**[node_modules]** フォルダーを展開して **d3 ライブラリ**がインストールされたことを確認します。
 
     ![Visual Studio Code の D3 ライブラリ](media/custom-visual-develop-tutorial/d3-library.png)
 
@@ -377,7 +377,7 @@ PowerShell で実行されるカスタム ビジュアルを停止するため�
 
 ここでは、円とサンプル テキストを表示するカスタム ビジュアルを開発する方法を見ていきます。
 
-1. **[エクスプローラー] ウィンドウ**で、 **[src]** フォルダーを展開して、 **[visual.ts]** を選択します。
+1. **[エクスプローラー] ウィンドウ**で、**[src]** フォルダーを展開して、**[visual.ts]** を選択します。
 
     > [!Note]
     > **visual.ts** ファイルの最上部のコメントに注目してください。 MIT ライセンス契約の下で、Power BI カスタム ビジュアル パッケージを使用する権限が、無料で付与されます。 契約の一環として、ファイルの最上部に必ずコメントを残す必要があります。
@@ -452,7 +452,7 @@ PowerShell で実行されるカスタム ビジュアルを停止するため�
 
     このコードでは、ビジュアルの中に SVG グループを追加して、そこに円と 2 つのテキスト要素という合計 3 つの図形を追加します。
 
-    ドキュメント内のコードを書式設定するには、**Visual Studio Code ドキュメント**の任意の場所をクリックして、 **[ドキュメントのフォーマット]** を選択します。
+    ドキュメント内のコードを書式設定するには、**Visual Studio Code ドキュメント**の任意の場所をクリックして、**[ドキュメントのフォーマット]** を選択します。
 
       ![ドキュメントのフォーマット](media/custom-visual-develop-tutorial/format-document.png)
 
@@ -511,13 +511,13 @@ PowerShell で実行されるカスタム ビジュアルを停止するため�
 ### <a name="toggle-auto-reload"></a>自動再読み込みの切り替え
 
 1. Power BI レポートに戻ります。
-2. 開発者向けビジュアルの上に表示されるツールバーで、 **[自動再読み込みの切り替え]** を選択します。
+2. 開発者向けビジュアルの上に表示されるツールバーで、**[自動再読み込みの切り替え]** を選択します。
 
     ![自動再読み込みの切り替え](media/custom-visual-develop-tutorial/toggle-auto-reload.png)
 
     このオプションは、プロジェクトの変更を保存するたびに、ビジュアルが自動的に再読み込みされることを保証します。
 
-3. **[フィールド] ウィンドウ**から、 **[数量]** フィールドを開発者向けビジュアルにドラッグします。
+3. **[フィールド] ウィンドウ**から、**[数量]** フィールドを開発者向けビジュアルにドラッグします。
 
 4. ビジュアルが次のようになっていることを確認します。
 
@@ -583,7 +583,7 @@ PowerShell で実行されるカスタム ビジュアルを停止するため�
 
 ### <a name="exploring-the-dataview"></a>データビューの確認
 
-1. ビジュアルの上に表示されるツールバーで、 **[Dataview の表示]** を選択します。
+1. ビジュアルの上に表示されるツールバーで、**[Dataview の表示]** を選択します。
 
     ![Dataview の表示](media/custom-visual-develop-tutorial/show-dataview-toolbar.png)
 
@@ -595,7 +595,7 @@ PowerShell で実行されるカスタム ビジュアルを停止するため�
 
     ![displayName 値](media/custom-visual-develop-tutorial/displayname-and-format-metadata.png)
 
-4. もう一度ビジュアルに切り替えて、ビジュアルの上に表示されるツールバーで、 **[Dataview の表示]** を選択します。
+4. もう一度ビジュアルに切り替えて、ビジュアルの上に表示されるツールバーで、**[Dataview の表示]** を選択します。
 
     ![切り替えて戻る](media/custom-visual-develop-tutorial/show-dataview-toolbar-revert.png)
 
@@ -619,7 +619,7 @@ PowerShell で実行されるカスタム ビジュアルを停止するため�
 
     このステートメントでは、簡単にアクセスできるように *dataView* を 1 つの変数に代入して、*dataView* オブジェクトを参照するようにその変数を宣言します。
 
-2. **update** メソッドで、 **.text("Value")** を次のように置き換えます。
+2. **update** メソッドで、**.text("Value")** を次のように置き換えます。
 
     ```typescript
     .text(<string>dataView.single.value)
@@ -627,7 +627,7 @@ PowerShell で実行されるカスタム ビジュアルを停止するため�
 
     ![textValue の置き換え](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. **update** メソッドで、 **.text("Label")** を次のように置き換えます。
+3. **update** メソッドで、**.text("Label")** を次のように置き換えます。
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)
@@ -647,7 +647,7 @@ PowerShell で実行されるカスタム ビジュアルを停止するため�
 
 カスタム ビジュアルのデバッグに関するヒントについては、[デバッグ ガイド](./visuals-how-to-debug.md#how-to-debug-power-bi-visuals)を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 > [!div class="nextstepaction"]
 > [書式設定オプションの追加](custom-visual-develop-tutorial-format-options.md)

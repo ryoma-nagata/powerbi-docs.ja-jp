@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 5ca205bf2e82269140926ac69ccdead43b0cddd8
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091643"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204975"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -53,7 +53,10 @@ Power BI モバイル アプリのレポートには、次の 2 つのアイコ�
   
   すべてのタイルがレポートとして開けるわけではありありません。 たとえば、Q&A ボックスで質問すると作成されるタイルをタップしてもレポートは開きません。
   
-## <a name="interact-with-reports"></a>レポートを操作する
+## <a name="zoom-in-on-your-data"></a>データを拡大する   
+ピンチ ジェスチャを使用してレポートを拡大し、より詳細に確認します。 ピンチを解除して、再度縮小します。 ピンチ操作によるズームは、Android および iOS の電話とタブレットでサポートされています。
+
+## <a name="interact-with-reports"></a>レポートの操作
 アプリでレポートを開いたら、操作を開始できます。 レポートとそのデータを使用してさまざまなことが行えます。 レポート フッターには、そのレポートに対して実行できるアクションが表示されます。 レポートに表示されるデータをタップおよびロング タップすることにより、データを細分化することもできます。
 
 ### <a name="single-tap-versus-double-tap-interaction"></a>シングルタップ操作とダブルタップ操作
@@ -83,7 +86,7 @@ Power BI モバイル アプリをダウンロードすると、そのアプリ�
 ### <a name="tooltip-and-drill-actions"></a>ツールヒントとドリル操作
 データ ポイントをロング タップ (タップして保持) すると、このデータ ポイントが表す値を示すツールヒントが表示されます。
 
-![ツールヒント](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
+![ヒント](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
 
 レポート作成者がレポート ページのツールヒントを構成していた場合、既定のツールヒントはレポート ページのツールヒントに置き換えられます。
 
@@ -127,11 +130,11 @@ Power BI モバイル アプリをダウンロードすると、そのアプリ�
 ![すべてのレポート操作](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 一部のアクションは、特定のレポート機能に依存しているため、無効になっている場合があります。
-例:
+次に例を示します。
 
 **ブックマーク**はレポートに[ブックマーク](mobile-reports-in-the-mobile-apps.md#bookmarks)が設定されている場合にのみ表示されます。 Power BI サービスで定義できる個人用ブックマークとレポートの作成者によって定義されたブックマークの両方が表示されます。 ブックマークの 1 つが既定のブックマークとして定義されている場合、レポートが読み込まれたとき、そのビューが開きます。
 
-Power BI モバイル アプリからの共有を禁止する [Intune 保護ポリシー](https://docs.microsoft.com/intune/app-protection-policies)が組織で適用されている場合、 **[注釈を付けて共有]** がオフになることがあります。
+Power BI モバイル アプリからの共有を禁止する [Intune 保護ポリシー](https://docs.microsoft.com/intune/app-protection-policies)が組織で適用されている場合、**[注釈を付けて共有]** がオフになることがあります。
 
 **招待**は、ユーザーがレポートを他のユーザーと共有するアクセス許可を持っている場合にのみ有効になります。 レポートの所有者である場合、または所有者から再共有アクセス許可を与えられている場合にのみ、アクセス許可が付与されます。
 
@@ -143,7 +146,7 @@ Power BI モバイル アプリからの共有を禁止する [Intune 保護ポ�
 
 Power BI モバイル アプリでは、レポートの作成者が定義したレポートブックマークと、Power BI サービスで定義できる個人用ブックマークの両方がサポートされています。 ブックマーク メニューは、[レポート アクション ツールバー](mobile-reports-in-the-mobile-apps.md#all-report-actions)の **[その他のオプション]** (...) の下にあります。
 
-既定のブックマークは、特別なアイコンで示されます。 個人用のブックマークの場合、既定の設定を設定、設定解除、または変更するには、変更するブックマークの横にある **[その他のオプション (...)]** をタップし、 **[既定値に設定]** または **[既定値のクリア]** を選択します。
+既定のブックマークは、特別なアイコンで示されます。 個人用のブックマークの場合、既定の設定を設定、設定解除、または変更するには、変更するブックマークの横にある **[その他のオプション (...)]** をタップし、**[既定値に設定]** または **[既定値のクリア]** を選択します。
 
 ![ブックマーク メニュー](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
@@ -162,7 +165,7 @@ Power BI モバイル アプリには、レポート エクスペリエンスを
 これらの設定を変更する方法については、[アプリの対話式操作の設定](./mobile-app-interaction-settings.md)に関するページを参照してください。
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [電話用に最適化された Power BI レポートの表示と対話](mobile-apps-view-phone-report.md)
 * [電話用に最適化されたレポートのバージョンを作成する](../../create-reports/desktop-create-phone-report.md)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

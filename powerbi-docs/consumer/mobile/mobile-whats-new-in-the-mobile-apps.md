@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f580891be69e0c5478474496be6a6414867e662d
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091666"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204900"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -24,6 +24,23 @@ ms.locfileid: "88091666"
 
 >[!NOTE]
 >**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="august-2020"></a>2020 年 8 月
+### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>コンテンツに移動する方法を改善しました (iOS および Android)
+これで、レポート、ダッシュボード、アプリのヘッダー ドロップ ダウンから利用できる**新しいナビゲーション ツリー**を使用して、コンテンツをすばやく簡単に操作できるようになりました。 コンテンツの場所の階層をひとめで確認できます。また、コンテンツ階層内を簡単に移動したり、兄弟コンテンツに移動したり、ホーム ページにすばやく戻ったりすることもできます。 表示している項目がアプリの一部である場合、ツリーには、アプリのコンテンツ全体 (セクション、リンク、すべてのレポートとダッシュボード) が表示されます。 表示している項目がレポートの場合は、表示できるすべてのレポート ページの一覧も表示されます。 ページから別のページへの移動がとても簡単になりました。 ぜひお試しください。 
+
+![Power BI モバイル アプリのナビゲーション ツリーのスクリーンショット。](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-nav-tree1.png)
+
+### <a name="share-from-power-bi-using-your-favorite-apps-ios-and-android"></a>お気に入りのアプリを使用して Power BI から共有する (iOS および Android)
+これで、Power BI コンテンツへのリンクを連絡先と共有できるようになりました。 Microsoft Teams、メール アプリなど、デバイスにある任意のコラボレーション アプリを使用して、ヘッダーの新しい共有アクションを使用してリンクを送信します。リンクによって現在のビューがキャプチャされるので、フィルター処理されたレポート ビューを共有することもできます。
+
+![Power BI モバイル アプリの [共有] アイコンのスクリーンショット。](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-share.png)
+
+### <a name="pinch-and-zoom-is-now-available-in-all-report-views---on-both-phones-and-tablets-ios-and-android"></a>すべてのレポート ビュー (電話とタブレットの両方) でピンチとズームを使用できるようになりました (iOS および Android)   
+すべてのレポート ビューでピンチとズームが有効になったので、電話とタブレットのどちらを使用していても、レポート コンテンツをより簡単に拡大または縮小できます。
+
+### <a name="auto-play-a-slideshow-on-startup-windows"></a>スタートアップ時にスライドショーを自動再生する (Windows)
+Power BI Windows アプリの起動時に、スライドショーで自動再生するレポートを選択できます。 これは、手動で介入せずに、パブリック表示でレポートを実行するキオスクのようなエクスペリエンスを作成する場合に便利です。 [詳細情報](mobile-windows-10-app-presentation-mode.md#auto-play-a-slideshow-on-startup)
 
 ## <a name="july-2020"></a>2020 年 7 月
 ### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>Windows 用 Power BI モバイル アプリで組織のブランド化がサポートされるようになりました
@@ -173,7 +190,7 @@ iOS および Android に加えて、Windows デバイス用のカスタム ア�
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure Active Directory (AD) アプリケーション プロキシを使用したセキュリティで保護されたアクセス (iOS および Android)
 
-Azure Active Directory チームと手を組み、Azure Active Directory (AAD) アプリケーション プロキシに Power BI モバイル アプリケーションを統合しました。 この構成を使用すると、複雑なオンプレミス構成を設定することなく、エンタープライズ境界内でホストされているレポート サーバーに Power BI Mobile アプリから接続できます。 [Power BI モバイルと Azure AD アプリケーション プロキシの統合](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)の詳細を参照してください。 [Azure AD アプリケーション プロキシと Power BI の構成方法](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)を参照してください。
+Azure Active Directory チームと手を組み、Azure Active Directory (Azure AD) アプリケーション プロキシに Power BI モバイル アプリケーションを統合しました。 この構成を使用すると、複雑なオンプレミス構成を設定することなく、エンタープライズ境界内でホストされているレポート サーバーに Power BI Mobile アプリから接続できます。 [Power BI モバイルと Azure AD アプリケーション プロキシの統合](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)の詳細を参照してください。 [Azure AD アプリケーション プロキシと Power BI の構成方法](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)を参照してください。
 
 ## <a name="july-2019"></a>2019 年 7 月
 
@@ -211,7 +228,7 @@ iOS デバイスの検索 (スポットライト) との Power BI の統合。 i
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>強化された条件付きアクセスの保護 (iOS、Android)
 
-アプリ ポリシーが適用される前の Power BI へのアクセスを制限することでセキュリティを強化するために、AAD に[新しいアプリ保護ベースの条件付きアクセス機能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)が統合されました。
+アプリ ポリシーが適用される前の Power BI へのアクセスを制限することでセキュリティを強化するために、Azure AD に[新しいアプリ保護ベースの条件付きアクセス機能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)を統合しました。
 
 ### <a name="device-protection-ios"></a>デバイスの保護 (iOS)
 
@@ -490,7 +507,7 @@ Power BI iOS モバイル アプリでプロキシ設定を使用できるよう
 「[Power BI Service and Mobile July Feature Summary](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)」 (Power BI サービスとモバイル 7 月の機能の概要) をお読みください。
 
 #### <a name="ios-devices"></a>iOS デバイス
-**iOS での新しい Q&A エクスペリエンス (プレビュー)** 自分が問い合わせた質問の回答をただ受け取るのでなく、自然言語を使用して範囲指定したインサイトを取得できるようになりました。 お探しのものがよくわからない場合でも、Q&A が目的のデータに関連するインサイトを事前に抽出します。 モバイル上で動作する新しい Q&A エクスペリエンスは、Microsoft Research チームとの共同開発によるものであり、弊社製品内の強力なテクノロジを紹介します。 チュートリアル「[iOS モバイル アプリでデータについて質問する](mobile-apps-ios-qna.md)」を試してみてください。
+**iOS での新しい Q&A エクスペリエンス (プレビュー)** 自分が問い合わせた質問の回答をただ受け取るのでなく、自然言語を使用して範囲指定したインサイトを取得できるようになりました。 お探しのものがよくわからない場合でも、Q&A によって目的のデータに関連する分析情報が事前に表示されます。 モバイル上で動作する新しい Q&A エクスペリエンスは、Microsoft Research チームとの共同開発によるものであり、弊社製品内の強力なテクノロジを紹介します。 チュートリアル「[iOS モバイル アプリでデータについて質問する](mobile-apps-ios-qna.md)」を試してみてください。
 
 ### <a name="responsive-visuals"></a>レスポンシブ ビジュアル
 **電話レポートおよびダッシュボード用のレスポンシブ ビジュアル** ダッシュ ボードまたはレポート内のビジュアルを*レスポンシブ*に設定することができます。これにより、ビジュアルは画面のサイズに関係なく、最大量のデータとインサイトを表示できるように動的に変化します。 [レスポンシブ ビジュアルに関するブログ](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)を参照してください。
@@ -530,7 +547,7 @@ Power BI コンテンツの編成については[ここ](mobile-apps-quickstart-
 時間スライサーのタッチ操作が向上しました。
 
 #### <a name="ios-devices"></a>iOS デバイス
-**Q&A でデータに質問する - 情報を得る** Q&A でデータについての質問をしてみて、結果を笑顔またはしかめっ面のアイコンでお知らせください。
+**Q&A でデータに質問する - フィードバックの送信** Q&A でデータについての質問をしてみて、結果を笑顔またはしかめっ面を選択し、お知らせください。
 
 **よく使う操作に 3D タッチを利用する** iPhone 6s 以降のホーム画面で Power BI アプリ アイコンを深押しすると、通知、検索、または最近使ったダッシュボードにアクセスできます。
 
