@@ -15,6 +15,8 @@
           href: service-service-vs-desktop.md
     - name: チュートリアル
       items:
+        - name: Power BI Desktop の概要
+          href: desktop-getting-started.md
         - name: Power BI サービスの概要
           href: service-get-started.md
     - name: 概念
@@ -41,8 +43,6 @@
       items:
         - name: Power BI Desktop の取得
           href: desktop-get-the-desktop.md
-        - name: Power BI Desktop の概要
-          href: desktop-getting-started.md
     - name: リファレンス
       items:
         - name: サポートされる言語と国/地域
