@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f42ee7a0b3b1aaf562e3ab087ad9c07501707afc
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878367"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702630"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>ドイツ クラウド顧客向け Power BI のよく寄せられる質問用
 **Power BI サービス**には、欧州連合/European Free Trade Agreement (EU/EFTA) 顧客向けバージョンがあります (別称 Microsoft Cloud Deutschland、MCD)。 この記事で説明する **Power BI サービス**のバージョンは、EU/EFTA 顧客向けであり、**Power BI サービス**の市販バージョンまたは政府顧客向け Power BI サービスとは別の独立したものです。
@@ -53,6 +53,8 @@ ms.locfileid: "87878367"
    * Web に公開
    * Esri による ArcGIS マップ
    * Power BI Embedded (別に測定される ISV ライセンスは、将来 [Microsoft Azure Germany](https://azure.microsoft.com/overview/clouds/germany/) で提供されます)
+   * アクティビティ ログ
+
 7. **アプリケーションでの使用と統合に関する Germany Cloud 向け Power BI サービス固有の構成情報はどこにありますか?**
    
    ドイツおよび他の Power BI クラウド固有の構成情報の [SaaS Embedding 開発者サンプル](https://github.com/Microsoft/PowerBI-Developer-Samples)を更新しました。 クラウド固有の構成エンドポイントについては、サンプルの **Cloud Configs** フォルダーをご覧ください。 次の表は、Germany Cloud 向け Power BI サービスのさまざまな構成エンドポイントです (および相互参照用パブリック クラウド)。

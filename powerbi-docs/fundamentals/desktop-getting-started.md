@@ -3,18 +3,19 @@ title: Power BI Desktop の概要
 description: Power BI Desktop の使用を開始します。
 author: davidiseminger
 ms.reviewer: ''
+ms.custom: contperfq1
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: how-to
-ms.date: 07/23/2020
+ms.topic: tutorial
+ms.date: 08/19/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 62f0f6d9bac3b8451f3c5efc70612c2ef067aed4
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec18bb94d7329d4b918f16465dd839a69c3fd973
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252799"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638844"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop の概要
 Power BI Desktop の使用開始ガイドへようこそ。 このツアーでは、Power BI Desktop のしくみ、Power BI Desktop でできること、堅牢なデータ モデルと優れたレポートを作成してビジネス インテリジェンスを強化する方法について説明します。

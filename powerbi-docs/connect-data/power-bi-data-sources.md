@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/05/2020
+ms.date: 08/21/2020
 ms.author: davidi
-ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
+ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837568"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88764953"
 ---
 # <a name="power-bi-data-sources"></a>Power BI データ ソース
 
@@ -35,7 +35,7 @@ ms.locfileid: "87837568"
 | Azure Blob Storage | はい | はい | いいえ | はい | いいえ |
 | Azure Cosmos DB | はい | はい | いいえ | いいえ | いいえ |
 | Azure Cost Management | はい | はい | いいえ | いいえ | いいえ |
-| Azure Data Explorer (Kusto) | はい | はい | はい | いいえ | いいえ |
+| Azure Data Explorer (Kusto) | はい | はい | はい | はい | いいえ |
 | Azure Data Lake Storage Gen1 | はい | はい | いいえ | いいえ | いいえ |
 | Azure Data Lake Storage Gen2 | はい | はい | いいえ | はい | いいえ |
 | Azure DevOps | はい | はい | いいえ | いいえ | いいえ |
