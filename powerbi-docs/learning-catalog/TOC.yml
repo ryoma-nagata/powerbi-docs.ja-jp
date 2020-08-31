@@ -24,4 +24,4 @@
     - name: ソリューション アーキテクト
       href: learning-catalog-solution-architect.md
     - name: DAX の概要
-      href: ../guided-learning/introductiontodax.yml?tutorial-step=1
+      href: 'https://docs.microsoft.com/learn/paths/dax-power-bi/'
