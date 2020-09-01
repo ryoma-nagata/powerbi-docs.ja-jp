@@ -1,25 +1,26 @@
 ---
-title: Power BI コンシューマー向け用語集
-description: Power BI には、多くの新しい用語と、使い慣れた用語の新しい使い方が導入されています。 用語集を使用して、Power BI の用語に慣れてください。
+title: Power BI ビジネス ユーザー向け用語集
+description: Power BI には、多くの新しい用語と、使い慣れた用語の新しい使い方が導入されています。 用語集を使用すると、Power BI サービスの用語に慣れることができます。
 services: power-bi
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 07/08/2020
+ms.topic: reference
+ms.date: 08/24/2020
+ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: f5ed2252836ecda364ca53904c2cccbae9f9b7e6
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215619"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803045"
 ---
-# <a name="glossary-for-power-bi-service"></a>Power BI サービスの用語集    
+# <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI サービスのビジネス ユーザー向け用語集    
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
 
-この用語集はコミュニティの取り組みの 1 つです。  ここに用語がありませんか? それを追加するように依頼してください (この記事の下部にあるドキュメントのフィードバック ボタンを使用できます)。
+この用語集はコミュニティの取り組みの 1 つです。  ここに用語がありませんか? それを追加するようにご依頼ください (この記事の下部にあるドキュメントのフィードバック ボタンを使用できます)。
 
 ## <a name="a"></a>A
 
