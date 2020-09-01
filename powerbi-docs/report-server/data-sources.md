@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 00c00ca7bbd7ad3f901c98f44a2900f332e3616a
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
+ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837614"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88857794"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
 Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。 一部のデータ ソースは Power BI Report Server 向けに最適化された Power BI Desktop でサポートされていますが、Power BI Report Server に発行されている Power BI レポート向けとしては最適化されていません。 両方でサポートされているデータ ソースについては、次の一覧を参照してください。
@@ -209,6 +209,8 @@ Power BI Report Server では、DirectQuery 用の認証方法として、OAuth 
 
 ## <a name="next-steps"></a>次の手順
 
-Power BI サービスの [Power BI レポートのデータ ソース](../connect-data/power-bi-data-sources.md) データ ソースに接続したので、そのデータ ソースからのデータを使って、[Power BI レポートを作成](quickstart-create-powerbi-report.md)します。
+Power BI サービスでの [Power BI レポート用のデータ ソース](../connect-data/power-bi-data-sources.md)
+
+データ ソースに接続したので、そのデータ ソースからのデータを使って [Power BI レポートを作成](quickstart-create-powerbi-report.md)します。
 
 その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
