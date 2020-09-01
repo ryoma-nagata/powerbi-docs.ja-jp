@@ -10,12 +10,12 @@ ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: e737d8747f7d6d9b69eda2035df06abdddd9569f
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578062"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803091"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI でダッシュボードとレポートを含むアプリをインストールして使用する
 
@@ -27,7 +27,7 @@ ms.locfileid: "88578062"
 
 ## <a name="ways-to-get-a-new-app"></a>新しいアプリの入手方法
 新しいアプリの入手には、いくつかの方法があります。
-* これは、Power BI の Power BI アプリ マーケットプレースから入手できます。
+* これは、Power BI サービスの Power BI アプリ マーケットプレースから入手できます。
 * アプリ デザイナーから受信しているアプリの直接リンクを使用できます。 
 * 組織のアプリ デザイナーは、Power BI アカウントでアプリを自動的にインストールできます。
 
@@ -37,6 +37,8 @@ Power BI モバイルを使用して、直接リンクからのみアプリを�
 すべての Power BI ユーザーがアプリを表示して操作できるわけではありません。 
 - 無料のライセンスをお持ちの場合は、Premium 容量に格納され、共有されているアプリを開くことができます。  
 - Pro ライセンスをお持ちの場合は、共有されているアプリを開くことができます。
+
+そのため、アプリを開けない場合、管理者かヘルプ デスクにお問い合わせください。 ライセンスの詳細については、[Power BI のライセンス](end-user-license.md)に関する記事を参照してください。
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Power BI アプリ マーケットプレースからアプリを入手する
 

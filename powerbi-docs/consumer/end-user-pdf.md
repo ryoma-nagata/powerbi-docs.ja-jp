@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837499"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702676"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Power BI から PDF にレポートをエクスポートする
 
@@ -68,6 +68,7 @@ Power BI サービスで、レポートを選択してそれをキャンバス�
 * カスタム ページのサイズが異常なレポートでは、エクスポート シナリオで問題が発生する可能性があります。 最良の結果を得るには、ご利用のレポートについて標準ページ サイズへの切り替えを検討してください。
 * PDF にエクスポートする場合、カスタム フォントのテーマを使用したレポートでは、カスタム フォントが既定のフォントに置き換えられます。
 * 一貫したエクスペリエンスを提供することを目指していますが、Power BI サービスからエクスポートされた PDF が常にローカルの Power BI Desktop ファイルからエクスポートされた PDF と一致することを保証することはできません。
+* PDF にエクスポートするとき、PBIX レポートにはピクセル単位で正確な忠実度を保証できません。
 
 ## <a name="next-steps"></a>次のステップ
 [レポートの印刷](end-user-print.md)

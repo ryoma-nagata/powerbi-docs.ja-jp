@@ -10,12 +10,12 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427126"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638775"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 
@@ -86,7 +86,7 @@ Government クラウドのお客様の要件に対応するため、Government �
 |  |Office 365 セキュリティ/コンプライアンス管理センターを使用した監査|利用可能|利用可能|利用可能|
 |  |外部ユーザーの共有|利用可能|利用可能|利用可能|
 |  |レポートとダッシュボードの使用状況メトリック|利用可能|利用可能|利用可能|
-|  |GCC と商用クラウド間の Azure B2B|利用可能|利用可能|利用可能|
+|  |GCC と商用クラウド間の Azure B2B コラボレーション<sup>1</sup>|利用可能|利用不可|利用不可|
 |レポートの作成|ダッシュボードとレポートの作成と表示|利用可能|利用可能|利用可能|
 |  |スケジュールされたデータ更新|利用可能|利用可能|利用可能|
 |  |更新可能なチーム ダッシュボード|利用可能|利用可能|利用可能|
@@ -108,6 +108,8 @@ Government クラウドのお客様の要件に対応するため、Government �
 |  |自動化された機械学習|利用不可|利用不可|利用不可|
 |  |Azure Cognitive Services|利用不可|利用不可|利用不可|
 |  |Azure Machine Learning|利用不可|利用不可|利用不可|
+
+<sup>1</sup> B2B コラボレーションは GCC で利用できますが、その環境でのライセンスを外部ユーザーに発行する必要があります。 商用クラウド ライセンスは GCC では無効です。 米国政府機関向け B2B コラボレーションの既知の制限に関する詳細については、[Azure Government とグローバル Azure の比較](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)に関する記事を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 

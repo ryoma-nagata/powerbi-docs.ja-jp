@@ -6,24 +6,31 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 81dda3c2bc3558ba68a16ee3f3070e748f76f15b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940344"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638663"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>Center of Excellence での BI ソリューションのアーキテクチャ
 
 この記事は、IT プロフェッショナルと IT 管理者を対象としています。 COE での BI ソリューション アーキテクチャと、採用されているさまざまなテクノロジについて説明します。 Azure、Power BI、Excel などのテクノロジが含まれます。 これらをまとめて利用して、スケーラブルでデータドリブンのクラウド BI プラットフォームを提供することができます。
 
-堅牢な BI プラットフォームの設計は、橋を造るのに似ています。変換されて強化されたソース データを、データ コンシューマーにつなぐ橋です。 このように複雑な構造を設計するにはエンジニアリング思考が必要ですが、それは設計することができる最もクリエイティブでやりがいのある IT アーキテクチャの 1 つです。
+堅牢な BI プラットフォームの設計は、橋を造るのに似ています。変換されて強化されたソース データを、データ コンシューマーにつなぐ橋です。 このように複雑な構造を設計するにはエンジニアリング思考が必要ですが、それは設計することができる最もクリエイティブでやりがいのある IT アーキテクチャの 1 つです。 大規模な組織では、BI ソリューション アーキテクチャを次のように構成できます。
+
+- データ ソース
+- データ インジェスト
+- ビッグ データとデータの準備
+- データ ウェアハウス
+- BI セマンティック モデル
+- Reports
+
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="データ ソースからデータ インジェスト、ビッグ データ、ストア、データ ウェアハウス、BI セマンティック モデル、レポート作成、機械学習まで、BI プラットフォームのアーキテクチャを示す図。":::
 
 プラットフォームでは、特定の要求をサポートする必要があります。 具体的には、そのスケールとパフォーマンスは、ビジネス サービスとデータ コンシューマーの期待を満たしている必要があります。 同時に、全体が完全にセキュリティで保護されている必要があります。 また、いつかは新しいデータやサブジェクト領域をオンラインにしなければらないのは確実なので、変更に適応するための十分な回復力を備えている必要があります。
-
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="画像では、データ ソースからデータ インジェスト、ビッグ データ、ストア、データ ウェアハウス、レポート作成、機械学習まで、BI プラットフォームのアーキテクチャの図が示されています。":::
 
 ## <a name="frameworks"></a>フレームワーク
 
@@ -40,7 +47,7 @@ Microsoft では、当初からフレームワークの開発に投資するこ�
 BI プラットフォームでは、次の 3 種類のモデルを提供できます。
 
 - エンタープライズ モデル
-- BI モデル
+- BI セマンティック モデル
 - 機械学習 (ML) モデル
 
 ### <a name="enterprise-models"></a>エンタープライズ モデル
@@ -51,17 +58,15 @@ BI プラットフォームでは、次の 3 種類のモデルを提供でき�
 
 クラウド BI プラットフォームでは、[Azure Synapse の Synapse SQL プール](/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is#synapse-sql-pool-in-azure-synapse)にエンタープライズ モデルをデプロイできます。 その後、Synapse SQL プールは、迅速かつ堅牢な分析情報を得るために組織が頼りにできるただ 1 つの真実になります。
 
-### <a name="bi-models"></a>BI モデル
+### <a name="bi-semantic-models"></a>BI セマンティック モデル
 
-**BI モデル**では、エンタープライズ モデルに対するセマンティック レイヤーが表されます。 これらは、BI 開発者やビジネス ユーザーによって構築および保守されます。 BI 開発者は、エンタープライズ モデルからデータを調達するコア BI モデルを作成します。 ビジネス ユーザーは、小規模の独立したモデルを作成したり、部署や外部のソースを使用してコア BI モデルを拡張したりできます。 BI モデルは、一般に、1 つのサブジェクト領域を対象とし、広く共有されています。
+**BI セマンティック モデル**では、エンタープライズ モデルに対するセマンティック レイヤーが表されます。 これらは、BI 開発者やビジネス ユーザーによって構築および保守されます。 BI 開発者は、エンタープライズ モデルからデータを調達するコア BI セマンティック モデルを作成します。 ビジネス ユーザーは、小規模の独立したモデルを作成したり、部署や外部のソースを使用してコア BI セマンティック モデルを拡張したりすることができます。 BI セマンティック モデルは、一般に、1 つのサブジェクト領域を対象とし、広く共有されています。
 
-ビジネス機能は、データだけでなく、概念、リレーションシップ、ルール、標準が記述されている BI モデルでも有効化されます。 このようにして、データのリレーションシップを定義し、ビジネス ルールを計算としてカプセル化する、直感的でわかりやすい構造が表されます。 また、詳細なデータ アクセス許可が適用されて、適切なユーザーが適切なデータにアクセスできることが保証されます。 重要なのは、クエリのパフォーマンスが向上し、テラバイトを超えるデータでも、非常に応答性の高い対話型分析が可能になることです。 エンタープライズ モデルと同様に、BI モデルでは、一貫性を確保する名前付け規則が採用されています。
+ビジネス機能は、データだけでなく、概念、リレーションシップ、ルール、標準が記述されている BI セマンティック モデルでも有効化されます。 このようにして、データのリレーションシップを定義し、ビジネス ルールを計算としてカプセル化する、直感的でわかりやすい構造が表されます。 また、詳細なデータ アクセス許可が適用されて、適切なユーザーが適切なデータにアクセスできることが保証されます。 重要なのは、クエリのパフォーマンスが向上し、テラバイトを超えるデータでも、非常に応答性の高い対話型分析が可能になることです。 エンタープライズ モデルと同様に、BI セマンティック モデルでは、一貫性を確保する名前付け規則が採用されています。
 
-クラウド BI プラットフォームでは、BI 開発者は [Azure Analysis Services](/azure/analysis-services/) または [Power BI Premium 容量](../admin/service-premium-what-is.md#dedicated-capacities)に BI モデルをデプロイできます。 レポート作成と分析のレイヤーとして使用する場合は、Power BI にデプロイすることをお勧めします。 これらの製品では、さまざまなストレージ モードがサポートされており、データ モデル テーブルで、データをキャッシュしたり、[DirectQuery](directquery-model-guidance.md) (これは、基になるデータ ソースにクエリを渡すテクノロジです) を使用したりできます。 DirectQuery は、モデル テーブルで大きなデータ ボリュームが表される場合、またはほぼリアルタイムで結果を提供する必要がある場合に最適なストレージ モードです。 2 つのストレージ モードを組み合わせることができます。[複合モデル](composite-model-guidance.md)では、異なるストレージ モードを使用するテーブルが 1 つのモデルに結合されます。
+クラウド BI プラットフォームでは、BI 開発者は [Azure Analysis Services](/azure/analysis-services/) または [Power BI Premium 容量](../admin/service-premium-what-is.md#dedicated-capacities)に BI セマンティック モデルをデプロイできます。 レポート作成と分析のレイヤーとして使用する場合は、Power BI にデプロイすることをお勧めします。 これらの製品では、さまざまなストレージ モードがサポートされており、データ モデル テーブルで、データをキャッシュしたり、[DirectQuery](directquery-model-guidance.md) (これは、基になるデータ ソースにクエリを渡すテクノロジです) を使用したりできます。 DirectQuery は、モデル テーブルで大きなデータ ボリュームが表される場合、またはほぼリアルタイムで結果を提供する必要がある場合に最適なストレージ モードです。 2 つのストレージ モードを組み合わせることができます。[複合モデル](composite-model-guidance.md)では、異なるストレージ モードを使用するテーブルが 1 つのモデルに結合されます。
 
-クエリが頻繁に実行されるモデルでは、[Azure Load Balancer](/azure/load-balancer/load-balancer-overview) を使用して、モデル レプリカ間にクエリの負荷を均等に分散できます。 また、アプリケーションをスケーリングし、可用性の高い BI モデルを作成することもできます。
-
-<!-- For more information on BI models, see [BI modeling and processing in the COE](https://TODO/).-->
+クエリが頻繁に実行されるモデルでは、[Azure Load Balancer](/azure/load-balancer/load-balancer-overview) を使用して、モデル レプリカ間にクエリの負荷を均等に分散できます。 また、アプリケーションをスケーリングし、可用性の高い BI セマンティック モデルを作成することもできます。
 
 ### <a name="machine-learning-models"></a>機械学習モデル
 
@@ -134,7 +139,7 @@ ADLS Gen2 では、BLOB ストレージと高パフォーマンス ファイル 
 
 レポート層では、データ ウェアハウスから供給されるエンタープライズ データがビジネス サービスによって使用されます。 また、アドホック分析やデータ サイエンス タスクのためには、データ レイク内のデータも直接アクセスされます。
 
-データ レイク、エンタープライズ モデル、BI モデルのすべてのレイヤーで、きめ細かいアクセス許可が適用されます。 アクセス許可により、データ コンシューマーはアクセスする権限を持つデータのみを表示できます。
+データ レイク、エンタープライズ モデル、BI セマンティック モデルのすべてのレイヤーで、きめ細かいアクセス許可が適用されます。 アクセス許可により、データ コンシューマーはアクセスする権限を持つデータのみを表示できます。
 
 Microsoft では、Power BI のレポートとダッシュボード、および [Power BI のページ分割されたレポート](../paginated-reports/paginated-reports-report-builder-power-bi.md)が使用されています。 一部のレポート作成とアドホック分析は、Excel で行われます (特に財務報告の場合)。
 
@@ -142,11 +147,11 @@ Microsoft では、Power BI のレポートとダッシュボード、および 
 
 通常、データ消費パターンは、ロールによって異なります。
 
-- **データ アナリスト**は、コア BI モデルに直接接続します。 コア BI モデルに必要なデータとロジックがすべて含まれている場合は、ライブ接続を使用して Power BI レのポートとダッシュボードを作成します。 部門データでモデルを拡張する必要がある場合は、Power BI の[複合モデル](composite-model-guidance.md)を作成します。 スプレッドシート形式のレポートが必要な場合は、コア BI モデルまたは部門 BI モデルを基にし、Excel を使用してレポートを生成します。
-- **BI 開発者**および運用レポート作成者は、エンタープライズ モデルに直接接続します。 Power BI Desktop を使用してライブ接続分析レポートを作成します。 また、運用タイプの BI レポートを Power BI のページ分割されたレポートとして作成したり、T-SQL を使用して Azure Synapse Analytics エンタープライズ モデルからのデータにアクセスするネイティブ SQL クエリを記述したり、DAX または MDX を使用して Power BI モデルを作成したりすることもできます。
+- **データ アナリスト**は、コア BI セマンティック モデルに直接接続します。 コア BI セマンティック モデルに必要なデータとロジックがすべて含まれている場合は、ライブ接続を使用して Power BI のレポートとダッシュボードを作成します。 部門データでモデルを拡張する必要がある場合は、Power BI の[複合モデル](composite-model-guidance.md)を作成します。 スプレッドシート形式のレポートが必要な場合は、コア BI セマンティック モデルまたは部門 BI セマンティック モデルを基にし、Excel を使用してレポートを生成します。
+- **BI 開発者**および運用レポート作成者は、エンタープライズ モデルに直接接続します。 Power BI Desktop を使用してライブ接続分析レポートを作成します。 また、運用タイプの BI レポートを Power BI のページ分割されたレポートとして作成したり、T-SQL を使用して Azure Synapse Analytics エンタープライズ モデルからのデータにアクセスするネイティブ SQL クエリを記述したり、DAX または MDX を使用して Power BI セマンティック モデルを作成したりすることもできます。
 - **データ サイエンティスト**は、データ レイク内のデータに直接接続します。 Azure Databricks と Python ノートブックを使用して ML モデルを開発します。多くの場合、これは実験的であり、運用環境で使用するには専門的な知識が必要です。
 
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="図では、Power BI と Azure Machine Learning による Azure Synapse Analytics の使用が示されています。":::
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="図では、Power BI、Excel、Azure Machine Learning による Azure Synapse Analytics の使用が示されています。":::
 
 ## <a name="next-steps"></a>次の手順
 
@@ -155,3 +160,9 @@ Microsoft では、Power BI のレポートとダッシュボード、および 
 - [Azure Synapse Analytics を使用した Azure のエンタープライズ BI](/azure/architecture/reference-architectures/data/enterprise-bi-synapse)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)
+
+### <a name="professional-services"></a>プロフェッショナル サービス
+
+認定 Power BI パートナーによる、COE をセットアップする組織に対する支援を活用できます。 コスト効果の高いトレーニングやデータの監査が提供されます。 Power BI パートナーを手配するには、[Power BI パートナー ポータル](https://powerbi.microsoft.com/partners/)にアクセスしてください。
+
+また、経験豊富なコンサルティング パートナーと仕事をすることができます。 Power BI の[査定](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL)、[評価](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL)、[実装](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1)が支援されます。

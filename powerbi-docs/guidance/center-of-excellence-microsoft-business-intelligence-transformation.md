@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b4f86a0e3316cc774b0f1562112f0d6e5b19a4f
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162369"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638706"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft の BI 変換
 
@@ -53,9 +53,9 @@ ms.locfileid: "86162369"
 
 **Starlight** は、財務、営業、マーケティング、エンジニアリングをサポートする社内のデータ統合および分析プラットフォームに私たちが付けた名前です。 その使命は、堅牢で共有のスケーラブルなデータ プラットフォームを実現することです。 このプラットフォームは完全に財務部門によって構築されたもので、現在も最新の Microsoft 製品を使用して現在も運用を継続しています。
 
-**KPI Lake** は Azure Data Lake ではありません。 そうではなく、Microsoft SQL Server Analysis Services を使用して Azure IaaS でホストされている、Starlight を利用したテーブル モデルです。 このテーブル モデルによって、100 を超える内部ソースを提供元とするデータを提供し、多数の階層と KPI を定義します。 その使命は、財務、マーケティング、および営業部門にまたがるビジネス パフォーマンス レポートと分析チームを実現することです。 これにより、関連するソースから統合モデルを通じてタイムリーで正確な優れた分析情報を得ることができます。
+**KPI Lake** は Azure Data Lake ではありません。 むしろ、Microsoft SQL Server Analysis Services を使用して Azure IaaS でホストされている、Starlight を利用したテーブル BI セマンティック モデルです。 この BI セマンティック モデルによって、100 を超える内部ソースを提供元とするデータを提供し、多数の階層と KPI を定義します。 その使命は、財務、マーケティング、および営業部門にまたがるビジネス パフォーマンス レポートと分析チームを実現することです。 これにより、関連するソースから統合 BI セマンティック モデルを通じてタイムリーで正確な優れた分析情報を得ることができます。
 
-テーブル モデルを最初に展開したとき、それはすばらしい時間となりました。なぜなら、即座に測定可能なメリットが得られたからです。 最初のバージョンでは、C+E の財務およびマーケティング BI プラットフォームを一元化しました。 その後、過去 6 年間の拡張によって追加のビジネス分析情報ソリューションを統合しました。 今日では、標準のレポートと SSBI に加えて、世界中の商用ビジネス レビューを強化しながら発展し続けています。 その採用は、リリースから 5 倍と大幅に増加し、最初の期待を大きく超えています。
+テーブル BI セマンティック モデルを最初に展開したとき、それはすばらしい時間となりました。なぜなら、即座に測定可能なメリットが得られたからです。 最初のバージョンでは、C+E の財務およびマーケティング BI プラットフォームを一元化しました。 その後、過去 6 年間の拡張によって追加のビジネス分析情報ソリューションを統合しました。 今日では、標準のレポートと SSBI に加えて、世界中の商用ビジネス レビューを強化しながら発展し続けています。 その採用は、リリースから 5 倍と大幅に増加し、最初の期待を大きく超えています。
 
 主なメリットを次に示します。
 
@@ -71,8 +71,8 @@ ms.locfileid: "86162369"
 Starlight プラットフォームで、データの取得から処理、その後の公開までのすべての処理を管理します。
 
 1. 堅牢でアジャイルなデータ統合は、スケジュールに基づいて実行され、100 を超える異なる生ソースからのデータを統合します。 ソース データ システムには、リレーショナル データベース、Azure Data Lake Storage、Azure Synapse データベースが含まれます。 対象領域には、財務、マーケティング、営業、エンジニアリングが含まれます。
-2. ステージングが完了すると、マスター データとビジネス ロジックを使用してデータの適合と拡充が行われます。 次に、データ ウェアハウス テーブルに読み込まれます。 その後、テーブル モデルが更新されます。
-3. 会社全体のアナリストは、Excel と Power BI を使用して、テーブル モデルから分析情報と分析を提供します。 また、ビジネスのオーナーは自社のビジネスに適したメトリック定義を支持できます。 必要に応じて、負荷分散機能を備えた Azure IaaS を使用してスケーリングを実施します。
+2. ステージングが完了すると、マスター データとビジネス ロジックを使用してデータの適合と拡充が行われます。 次に、データ ウェアハウス テーブルに読み込まれます。 その後、テーブル BI セマンティック モデルが更新されます。
+3. 会社全体のアナリストは、Excel と Power BI を使用して、テーブル BI セマンティック モデルから分析情報と分析を提供します。 また、ビジネスのオーナーは自社のビジネスに適したメトリック定義を支持できます。 必要に応じて、負荷分散機能を備えた Azure IaaS を使用してスケーリングを実施します。
 
 ## <a name="deliver-success"></a>成功の実現
 
@@ -86,10 +86,16 @@ Starlight プラットフォームで、データの取得から処理、その�
 
 ## <a name="next-steps"></a>次の手順
 
-[このシリーズの次の記事](center-of-excellence-establish.md)では、Microsoft がデータから分析情報を引き出すために標準化された分析とデータのプラットフォームを構築するうえで、COE がどのように役立ったかについて説明しています。
-
 この記事に関する詳細については、次のリソースを参照してください。
 
 - [センター オブ エクセレンスの確立](center-of-excellence-establish.md)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)
+
+[このシリーズの次の記事](center-of-excellence-establish.md)では、Microsoft がデータから分析情報を引き出すために標準化された分析とデータのプラットフォームを構築するうえで、COE がどのように役立ったかについて説明しています。
+
+### <a name="professional-services"></a>プロフェッショナル サービス
+
+認定 Power BI パートナーによる、COE をセットアップする組織に対する支援を活用できます。 コスト効果の高いトレーニングやデータの監査が提供されます。 Power BI パートナーを手配するには、[Power BI パートナー ポータル](https://powerbi.microsoft.com/partners/)にアクセスしてください。
+
+また、経験豊富なコンサルティング パートナーと仕事をすることができます。 Power BI の[査定](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL)、[評価](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL)、[実装](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1)が支援されます。
