@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 189710c613c7d48f76ee0bb23a430ac4d9908c74
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 4188a5570dfe15658e13d3358f3e192ac842cbfb
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792859"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937334"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium のよく寄せられる質問
 
@@ -83,11 +83,11 @@ Power BI Premium では、組織がクラウド内にプロビジョニングし
 
 **次の手順**
 
-[Microsoft Power BI Premium とは何ですか?](service-premium-what-is.md)
-[Power BI Premium リリース ノート](../service-premium-release-notes.md)
-[Microsoft Power BI Premium のホワイトペーパー](https://aka.ms/pbipremiumwhitepaper)
-[Power BI のエンタープライズ展開の計画に関するホワイト ペーパー](https://aka.ms/pbienterprisedeploy)
-[Extended Pro Trial のアクティブ化](../service-extended-pro-trial.md)
-[Power BI Embedded のよく寄せられる質問](../developer/embedded/embedded-faq.md)
+* [Power BI Premium とは何ですか?](service-premium-what-is.md)
+* [Power BI Premium リリース ノート](../service-premium-release-notes.md)
+* [Microsoft Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)
+* [Power BI のエンタープライズ展開の計画に関するホワイト ペーパー](https://aka.ms/pbienterprisedeploy)
+* [Extended Pro Trial のアクティブ化](../service-extended-pro-trial.md)
+* [Power BI Embedded のよくあるご質問](../developer/embedded/embedded-faq.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

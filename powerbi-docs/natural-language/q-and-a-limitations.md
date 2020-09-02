@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/21/2020
 ms.author: maggies
-ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866773"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937587"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI Q&A の制限事項
 
@@ -75,10 +75,9 @@ Power BI Q&A では、現在、次の構成はサポートされていません�
 
 ### <a name="statements-not-supported"></a>サポートされないステートメント
 
-- 条件でのメジャーの使用は現在サポートされていません。 代わりに、メジャーを計算列に変換して使用できるようにします。
 - 複数の条件はサポートされていません。 回避策として、複数条件ステートメントのブール値を評価する DAX 計算列を作成し、このフィールドを代わりに使用します。
 - Q&A からデータのサブセットの指定を求められたときにフィルター条件を指定しないと、ステートメント全体に赤色の下線が表示されていない場合でも、定義を保存することはできません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 自然言語エンジンを強化するためのベスト プラクティスがいくつかあります。 詳細については、「[Q&A ベスト プラクティス](q-and-a-best-practices.md)」を参照してください。

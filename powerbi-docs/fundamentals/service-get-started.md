@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 7b9f69607d2fef823ba67d5af035e1e2064a9a72
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: d40bda8ef6469e5dc826d36db3cc21cfe72f0da6
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162392"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092385"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>チュートリアル:Power BI サービスでの作成の概要
 このチュートリアルでは、*Power BI サービス*の一部の機能について説明します。 ここでは、データに接続し、レポートとダッシュボードを作成して、データに関する質問をします。 Power BI サービスでは、さらに多くのことを行うことができます。このチュートリアルは、単にみなさんの興味をかき立てることを目的としています。 Power BI サービスと他の Power BI 製品の関係を理解するため、「[Power BI とは?](power-bi-overview.md)」を読むことをお勧めします。
@@ -226,5 +226,5 @@ Power BI レポートを作成するときには、多くの場合、Power BI De
 
 Power BI の Microsoft Learn コンテンツの次のコレクションを確認します。
 
-- [Power BI の学習](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/r52to235xrjxk)
+- [Power BI の学習](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 - [Power BI データ アナリストになる](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 09/01/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: d144d3893a98c040545b754698b52d3892c49d99
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b24663acf2a3a3fd76953413c298580041afc4ab
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237718"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286845"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Azure Machine Learning の Power BI への統合
 
@@ -70,14 +70,11 @@ Azure ML service 上でホストされているモデルへのアクセス権を
 
 データ サイエンティストは、Machine Learning の機械学習モデルを開発する際、さらにはデプロイする際にも、主に Python を使用しています。  モデルのスキーマ ファイルの作成タスクを自動化する Machine Learning Studio (クラシック) とは異なり、Machine Learning の場合、データ サイエンティストは、Python を使用して、スキーマ ファイルを明示的に生成する必要があります。
 
-Machine Learning モデルでは、デプロイされた Web サービスにこのスキーマ ファイルを含める必要があります。 Web サービスのスキーマを自動的に生成するには、デプロイされたモデルのエントリ スクリプトで入力/出力のサンプルを指定する必要があります。 記事「[Azure Machine Learning を使用してモデルをデプロイする」のサブセクション「(省略可能) Swagger スキーマの自動生成」](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema)を参照してください。 このリンクには、スキーマ生成のステートメントを含む、エントリ スクリプトの例が含まれます。 
+Machine Learning モデルでは、デプロイされた Web サービスにこのスキーマ ファイルを含める必要があります。 Web サービスのスキーマを自動的に生成するには、デプロイされたモデルのエントリ スクリプトで入力/出力のサンプルを指定する必要があります。 記事「[Azure Machine Learning を使用してモデルをデプロイする」のサブセクション「(省略可能) Swagger スキーマの自動生成」](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#power-bi-compatible-endpoint)を参照してください。 このリンクには、スキーマ生成のステートメントを含む、エントリ スクリプトの例が含まれます。 
 
 具体的には、エントリ スクリプト内の *\@input_schema* 関数と *\@output_schema* 関数によって、*input_sample* および *output_sample* 変数の入出力のサンプル形式が参照され、デプロイ時にこれらのサンプルを使用して Web サービス用の OpenAPI (Swagger) 仕様が生成されます。
 
 エントリ スクリプトの更新によるこれらのスキーマ生成は、Azure Machine Learning SDK を使用して自動機械学習エクスペリエンスにより作成されたモデルにも適用する必要があります。
-
-> [!NOTE]
-> Azure Machine Learning ビジュアル インターフェイスを使用して作成されたモデルでは、現在のところスキーマ生成はサポートされていませんが、今後のリリースではサポートされる予定です。 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Power BI で Azure ML モデルを呼び出す
 
@@ -109,8 +106,8 @@ Azure ML モデルを呼び出すには、選択したエンティティのい�
 
 この記事では、Machine Learning を Power BI サービスに統合する手順を概説しました。 以下の記事も興味深い内容で、役立つかもしれません。 
 
-* [チュートリアル:Power BI での Machine Learning Studio (クラシック) モデルの呼び出し](../connect-data/service-tutorial-invoke-machine-learning-model.md)
-* [チュートリアル:Power BI での Cognitive Services の使用](../connect-data/service-tutorial-use-cognitive-services.md)
+* [チュートリアル: Power BI での Machine Learning Studio (クラシック) モデルの呼び出し](../connect-data/service-tutorial-invoke-machine-learning-model.md)
+* [チュートリアル: Power BI での Cognitive Services の使用](../connect-data/service-tutorial-use-cognitive-services.md)
 * [Power BI の Cognitive Services](service-cognitive-services.md)
 
 データフローの詳細については、以下の記事をご覧ください。
