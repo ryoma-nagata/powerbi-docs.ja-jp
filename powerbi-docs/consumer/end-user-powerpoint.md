@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160420"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040311"
 ---
 # <a name="export-reports-to-powerpoint"></a>レポートを PowerPoint にエクスポートする
 
@@ -49,6 +49,8 @@ PowerPoint にエクスポートするレポートがキャンバスに表示さ
 ![エクスポートするものを選択する](media/end-user-powerpoint/power-bi-current-values.png)
  
 さらに、レポートの非表示のタブをエクスポートするかどうかを選択するチェック ボックスがあります。 ブラウザーに表示されるレポートのタブのみをエクスポートしたい場合は、このチェック ボックスをオンにします。 すべての非表示タブをエクスポートに含めたい場合は、このチェック ボックスをオフのままにします。 チェック ボックスがグレー表示になっている場合は、レポートには非表示タブはありません。 非表示のタブの例は、[ツールヒント] タブです。[カスタム ツールヒント](../create-reports/desktop-tooltips.md)は、レポート "*デザイナー*" が作成するもので、"*コンシューマー*" 向けの Power BI サービスにはレポート タブとして表示されません。 
+
+[現在のページのみをエクスポート] オプションをオンにすることで、レポートに表示されている現在のページのみをエクスポートすることもできます。  既定では、これはオフになっており、すべてのページがレポートからエクスポートされます。
 
 選択を行った後、 **[エクスポート]** を選択して続行します。 レポートが PowerPoint にエクスポートされていることを示す通知バナーが、Power BI サービス ブラウザー ウィンドウの右上隅に表示されます。 
 

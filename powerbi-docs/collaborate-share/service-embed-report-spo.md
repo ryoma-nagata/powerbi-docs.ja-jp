@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 06/28/2020
-ms.openlocfilehash: 94419bb25aa00645b22a1dad1f97fcc792c3d63d
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 29aff96cc93de305ce78cb0cfa015954928309ff
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939534"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937518"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online にレポート Web パーツを埋め込む
 
@@ -30,6 +30,9 @@ Power BI の新しい SharePoint Online 用レポート Web パーツでは、�
 * Power BI Pro ライセンス、または Power BI ライセンスがある [Power BI Premium 容量 (EM または P SKU)](../admin/service-premium-what-is.md)。
 * SharePoint Online の Power BI Web パーツには、[最新式のページ](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)が必要です。
 * 埋め込みレポートを使用するには、ユーザーは Power BI サービスにサインインし、自分の Power BI ライセンスをアクティベートする必要があります。
+
+> [!Note]
+> Power BI 国内クラウドの組織については、無料ライセンスはありません。 この環境では、SharePoint の埋め込みレポートにアクセスするすべてのユーザーに、Power BI Pro ライセンスが必要です。
 
 ## <a name="embed-your-report"></a>レポートを埋め込む
 SharePoint Online にレポートを埋め込むには、レポートの URL を取得し、SharePoint Online の Power BI Web パーツでその URL を使う必要があります。

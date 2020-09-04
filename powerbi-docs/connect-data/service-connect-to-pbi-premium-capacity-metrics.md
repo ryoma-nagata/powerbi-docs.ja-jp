@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229937"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937633"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Capacity Metrics に接続する
 Premium 容量リソースを最適に利用するにはどうすればよいかを十分な情報に基づいて判断するには、ご利用の容量を監視することが不可欠です。 Power BI Premium Capacity Metrics アプリからは、ご利用の容量のパフォーマンスに関する非常に詳細な情報が提供されます。
@@ -62,7 +62,8 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 1. 表示されるダイアログ ボックスで、UTC オフセットを設定します。つまり、協定世界時とご自分の場所の時刻との差 (時間単位) です。 そして、 **[Next]** (次へ) をクリックします。
   
-   ![Power BI Premium Capacity Metrics アプリの UTC の設定ダイアログ](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
+   ![Power BI Premium Capacity Metrics アプリの UTC 設定ダイアログ](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
+   **注意: 半時間の形式は、10 進数 (5.5、2.5 など) にする必要があります。**
 
 1. 次に表示されるダイアログでは、何もする必要はありません。 単に **[サインイン]** を選択してください。
 

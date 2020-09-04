@@ -9,15 +9,15 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: 409c8f685b0616177645c7145680d3f795fd0fac
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6bb0039c873dccec318fa9d16c7cf0c96e44b34e
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360947"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092224"
 ---
 # <a name="power-bi-videos"></a>Power BI のビデオ
-Power BI 用の YouTube チャンネルがあります。 [弊社のチャネル](https://www.youtube.com/user/mspowerbi/videos)にアクセスできます。Power BI の初心者の場合は、「[Power BI プレイリストを使用したデータの分析と仮想化](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)」から始めるのがよいでしょう。
+Power BI 用の YouTube チャンネルがあります。 [当社のチャネル](https://www.youtube.com/user/mspowerbi/videos)にアクセスできます。Power BI の初心者の場合は、「[Power BI プレイリストを使用したデータの分析と仮想化](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)」から始めるのがよいでしょう。
 
 そのプレイリストから、作業を開始する上で有効ないくつかのビデオを次に示します。
 
@@ -42,9 +42,9 @@ Power BI 用の YouTube チャンネルがあります。 [弊社のチャネル
 ## <a name="more-videos"></a>他のビデオ
 他のビデオについては、次にまとめてあるソースとコンテンツをご覧ください。
 
-* [Power BI のガイド付き学習](https://powerbi.microsoft.com/guided-learning/) - Power BI の学習ツアー (短編のシリーズ構成)
+* [[Power BI に関する Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [Power BI とは?](power-bi-overview.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

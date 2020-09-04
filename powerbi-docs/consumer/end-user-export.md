@@ -7,15 +7,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/20/2020
+ms.date: 08/28/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: eebe5bcf2a4e75d9ff6ed526fbd8f9d362ff26ee
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: a4b7b866d56852cb4e49cbe09150dcdb694b64c3
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537828"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89287005"
 ---
 # <a name="export-data-from-a-visual"></a>ビジュアルからデータをエクスポートする
 
@@ -23,7 +23,9 @@ ms.locfileid: "87537828"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-ビジュアルの作成に使用されているデータを確認したい場合は、[Power BI でそのデータを表示する](end-user-show-data.md)か、またはそのデータを Excel にエクスポートすることができます。 データをエクスポートするオプションを使用するには、特定の種類のライセンスと、コンテンツの編集アクセス許可が必要です。 エクスポートできない場合は、Power BI 管理者に問い合わせてください。 データをエクスポートするには、ユーザー単位の Pro ライセンス、または Premium 容量ライセンスを持つ組織内のユーザー単位の Pro ライセンスのいずれかの Power BI Pro ライセンスが必要です。 通常、この種類のライセンスは、"*コンシューマー*" ではなく、レポート "*デザイナー*" が使用します。 詳細については、「[Power BI ライセンスの種類](end-user-license.md)」を参照してください。
+ビジュアルの作成に使用されているデータを確認したい場合は、[Power BI でそのデータを表示する](end-user-show-data.md)か、またはそのデータを Excel にエクスポートすることができます。 データをエクスポートするオプションを使用するには、特定の種類のライセンスと、コンテンツの編集アクセス許可が必要です。 エクスポートできない場合は、Power BI 管理者または IT ヘルプ デスクに問い合わせてください。 
+
+データをエクスポートするには Power BI Pro ライセンスが必要であり、ダッシュボードまたはレポートを共有するには Premium 容量を使用する必要があります。 詳細については、「[Power BI ライセンスの種類](end-user-license.md)」を参照してください。
 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Power BI ダッシュボード上のビジュアルから
@@ -31,17 +33,17 @@ ms.locfileid: "87537828"
 1. Power BI ダッシュボードから始めます。 ここでは、"***マーケティングと売上サンプル***" アプリのダッシュボードを使用しています。 [このアプリは AppSource.com からダウンロード](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 )できます。
 
-    ![アプリのダッシュボード](media/end-user-export/power-bi-dashboards.png)
+    ![アプリ ダッシュボード](media/end-user-export/power-bi-dashboards.png)
 
 2. ビジュアルをポイントすると、**その他のオプション** (...) が表示され、クリックするとアクション メニューが表示されます。
 
-    ![省略記号を選択したときに表示されるメニュー](media/end-user-export/power-bi-options-menu.png)
+    ![省略記号を選択したときに表示されるメニュー](media/end-user-export/power-bi-option-menu.png)
 
 3. **[.csv にエクスポート]** を選択します。
 
 4. 次に行われることは、使用しているブラウザーによって異なります。 ファイルを保存するように求められるか、またはブラウザーの下部にエクスポートされたファイルへのリンクが表示される場合があります。 
 
-    ![エクスポートされたファイルへのリンクが示されている Chrome ブラウザー](media/end-user-export/power-bi-dashboard-exports.png)
+    ![エクスポートされたファイルへのリンクが示されている Chrome ブラウザー](media/end-user-export/power-bi-dashboards-export.png)
 
 5. Excel でファイルを開きます。 
 
@@ -56,31 +58,31 @@ ms.locfileid: "87537828"
 
 1. ダッシュボードでタイルを選択して、基になっているレポートを開きます。  この例では、上と同じビジュアル *Total Units YTD Var %* を選択しています。 
 
-    ![強調表示されたダッシュボードのタイル](media/end-user-export/power-bi-export-reports.png)
+    ![強調表示されたダッシュボードのタイル](media/end-user-export/power-bi-export-tile.png)
 
     このタイルは "*売上とマーケティング サンプル*" のレポートから作成されたものであるため、そのレポートが開きます。 また、選択したタイル ビジュアルが含まれるページが開きます。 
 
 2. レポートで、ビジュアルを選択します。 右側の **[フィルター]** ウィンドウに注意してください。 このビジュアルにはフィルターが適用されています。 フィルターの詳細については、[レポートでのフィルターの使用](end-user-report-filter.md)に関する記事を参照してください。
 
-    ![選択された [フィルター] ウィンドウ](media/end-user-export/power-bi-export-filter.png)
+    ![選択された [フィルター] ウィンドウ](media/end-user-export/power-bi-export-filter-pane.png)
 
 
-3. 視覚エフェクトの右上隅にある **[その他のオプション] (...)** を選択します。 **[データのエクスポート]** を選択します。
+3. 視覚エフェクトの右上隅にある **[その他のオプション] (...)** を選択します。 **[データをエクスポート]** を選択します。
 
-    ![ドロップダウンから選択したデータをエクスポートする](media/end-user-export/power-bi-export-report.png)
+    ![ドロップダウンから選択したデータをエクスポートする](media/end-user-export/power-bi-export-reports.png)
 
-4. 概要データまたは基になるデータをエクスポートするオプションが表示されます。 "*売上およびマーケティング サンプル*" アプリを使用している場合、 **[基になるデータ]** は無効になります。 ただし、両方のオプションが有効になるレポートもあります。 ここでは、その違いについて説明します。
+4. 概要データまたは基になるデータをエクスポートするオプションが表示されます。 "*売上およびマーケティング サンプル*" アプリを使用している場合、**[基になるデータ]** は無効になります。 ただし、両方のオプションが有効になるレポートもあります。 ここでは、その違いについて説明します。
 
-    **[概要データ]** : 現在ビジュアルで表示されている内容のデータをエクスポートする場合、このオプションを選択します。  この種類のエクスポートでは、ビジュアルの現在の状態を作成するのに使用されたデータのみが表示されます。 ビジュアルにフィルターが適用されている場合は、エクスポートしたデータもフィルター処理されています。 たとえば、このビジュアルの場合、エクスポートには 2014 年と中央地域のみのデータ、そして次の 4 つの製造元のデータのみが含まれます: VanArsdel、Natura、Aliqui、Pirum。 ご利用のビジュアルに集計 (合計、平均など) がある場合は、エクスポートも集計されます。 
+    **[概要データ]**: 現在ビジュアルで表示されている内容のデータをエクスポートする場合、このオプションを選択します。  この種類のエクスポートでは、ビジュアルの現在の状態を作成するのに使用されたデータのみが表示されます。 ビジュアルにフィルターが適用されている場合は、エクスポートしたデータもフィルター処理されています。 たとえば、このビジュアルの場合、エクスポートには 2014 年と中央地域のみのデータ、そして次の 4 つの製造元のデータのみが含まれます: VanArsdel、Natura、Aliqui、Pirum。 ご利用のビジュアルに集計 (合計、平均など) がある場合は、エクスポートも集計されます。 
   
 
-    **[基になるデータ]** : ビジュアルに表示されているデータに**加えて**、基になるデータセットからの追加データをエクスポートする場合は、このオプションを選択します。  これには、データセットには含まれているものの、ビジュアルでは使用されていないデータが、含まれる場合があります。 ビジュアルにフィルターが適用されている場合は、エクスポートしたデータもフィルター処理されています。  ご利用のビジュアルに集計 (合計、平均など) がある場合、エクスポートでは集計が削除されます。基本的にデータは平坦化されます。 
+    **[基になるデータ]**: ビジュアルに表示されているデータに**加えて**、基になるデータセットからの追加データをエクスポートする場合は、このオプションを選択します。  これには、データセットには含まれているものの、ビジュアルでは使用されていないデータが、含まれる場合があります。 ビジュアルにフィルターが適用されている場合は、エクスポートしたデータもフィルター処理されています。  ご利用のビジュアルに集計 (合計、平均など) がある場合、エクスポートでは集計が削除されます。基本的にデータは平坦化されます。 
 
     ![基になるデータまたは概要データを選択するメニュー](media/end-user-export/power-bi-export-underlying.png)
 
 5. 次に行われることは、使用しているブラウザーによって異なります。 ファイルを保存するように求められるか、またはブラウザーの下部にエクスポートされたファイルへのリンクが表示される場合があります。 
 
-    ![Microsoft Edge ブラウザーで表示されているエクスポートされたファイル](media/end-user-export/power-bi-export-edge-browser.png)
+    ![Microsoft Edge ブラウザーで表示されているエクスポートされたファイル](media/end-user-export/power-bi-export-edge-screen.png)
 
     > [!NOTE]
     > データへのアクセス許可を持っていない場合は、エクスポートすることも Excel で開くこともできません。  
@@ -90,6 +92,6 @@ ms.locfileid: "87537828"
 
     ![Excel のサンプル](media/end-user-export/power-bi-underlying.png)
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 [視覚化の作成に使用されたデータを表示する](end-user-show-data.md)

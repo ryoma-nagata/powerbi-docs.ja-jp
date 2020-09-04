@@ -6,24 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/21/2020
+ms.date: 09/01/2020
 ms.author: maggies
-ms.openlocfilehash: bb769937e99cd3e936d7f5f3967e8f17b939242c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 69aa11216624416f005dcb2e47d1b818204ae7ec
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236055"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286730"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>PowerShell を使って Power BI レポートのデータ ソース接続文字列を変更する - Power BI Report Server
 
 
-PowerShell の API を使って、Power BI Report Server の Power BI レポートのデータ ソース接続文字列を変更できます。 
+PowerShell を使用して必要な API を操作することにより、Power BI Report Server でホストされている Power BI レポートのデータ ソース接続文字列を変更できます。 
 
 > [!NOTE]
 > 現在、この機能は DirectQuery に対してのみ機能します。 インポートとデータ更新のサポートが予定されています。
 
 1. Power BI Report Server PowerShell コマンドレットをインストールします。 コマンドレットとインストール手順は [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools) に記載されています。 
+
+    次のコマンドを使用して、[PowerShell ギャラリー](https://www.powershellgallery.com/packages/ReportingServicesTools/)から `ReportingServicesTools` モジュールを直接インストールします。
+
+    ```powershell
+    Install-Module ReportingServicesTools
+    ```
 
 2. PowerShell コマンドレットを使用して、Power BI ファイルの既存のデータ ソース情報を取得します。
 

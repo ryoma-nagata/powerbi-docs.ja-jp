@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: how-to
-ms.date: 04/17/2020
+ms.topic: reference
+ms.date: 09/01/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: b6beb2115f664de12382933c8200b07b510bd083
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215883"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286776"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>"*コンシューマー*" および無料ライセンスを持つその他のユーザー向けの Power BI 機能の一覧
 
@@ -49,7 +49,7 @@ ms.locfileid: "86215883"
 
 - **無料ライセンス** - 通常は、組織内の "*コンシューマー*" に割り当てられます (下の 1 つめの画像を参照)。 また、個人として Power BI サービスにサインアップし、[スタンドアロン モードの Power BI サービス](../fundamentals/service-self-service-signup-for-power-bi.md)を試すユーザーに割り当てられます (下の 2 つめの画像を参照)。 
 
-    ![無料ユーザーを示す画面](media/end-user-features/power-bi-free-organization.png)
+    ![Premium ユーザーを示す画面](media/end-user-features/power-bi-free-organization.png)
 
     無料ユーザーの場合、Premium 容量を持つ組織のメンバーになると、非常に大きな権限が与えられます。 Pro の同僚が Premium 容量ワークスペースを使用してコンテンツを共有している限り、無料ユーザーは閲覧したり、これらの Pro の同僚と共同作業を行ったりすることができます。  **このようにして、無料ユーザーは Power BI "*コンシューマー*" になり、ビジネス上の意思決定のためにコンテンツを受信および共有できるようになります。** 
  
@@ -87,7 +87,7 @@ ms.locfileid: "86215883"
 |お気に入り | ![オレンジの x](media/end-user-features/orange-x.png) | ![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
  |編集、更新、再共有、再発行する |![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png)   |
  |新しいアプリの作成 |![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png)   |
- |Appsource: ダウンロードして開く | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) | 
+ |AppSource: ダウンロードして開く | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) | 
 |組織ストア: ダウンロードして開く|![オレンジの x](media/end-user-features/orange-x.png)  |![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
  |**アプリ ワークスペース**
 | ワークスペースまたはコンテンツを作成、編集、または削除する  | ![オレンジの x](media/end-user-features/orange-x.png)  |![オレンジの x](media/end-user-features/orange-x.png) |
@@ -129,7 +129,7 @@ ms.locfileid: "86215883"
 | 他のユーザーによって作成されたブックマークを表示し、独自のブックマークを追加する  | ![オレンジの x](media/end-user-features/orange-x.png)|![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
 | 他のユーザーからのコメントを表示して応答する: 新しいコメントを追加する  | ![オレンジの x](media/end-user-features/orange-x.png)|![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
 |表示サイズを変更する   | ![緑の mwo](media/end-user-features/green-mwo.png) | ![緑のドット](media/end-user-license/power-bi-green-dot.png)  | 
-| コピーの保存 |![オレンジの x](media/end-user-features/orange-x.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png)*  
+| コピーの保存 |![オレンジの x](media/end-user-features/orange-x.png) |![オレンジの x](media/end-user-features/orange-x.png)  
 |ビジュアルをイメージとしてコピーする* |
 | レポート ビジュアルをクロス強調表示およびクロスフィルターする   |![緑の mwo](media/end-user-features/green-mwo.png) |![緑のドット](media/end-user-license/power-bi-green-dot.png)  |
 |  ドリル   |![緑の mwo](media/end-user-features/green-mwo.png)  |![緑のドット](media/end-user-license/power-bi-green-dot.png)  |

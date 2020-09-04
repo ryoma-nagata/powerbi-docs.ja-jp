@@ -8,15 +8,15 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
-ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
+ms.openlocfilehash: 08294e1320e603131beb0ca332b0f85ee51ea8bb
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88857794"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937564"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server での Power BI レポート データ ソース
-Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。 一部のデータ ソースは Power BI Report Server 向けに最適化された Power BI Desktop でサポートされていますが、Power BI Report Server に発行されている Power BI レポート向けとしては最適化されていません。 両方でサポートされているデータ ソースについては、次の一覧を参照してください。
+Power BI レポートは、複数のデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。 データをインポートすること、または DirectQuery を使うか SQL Server Analysis Services へのライブ接続を使ってデータのクエリを直接行うことができます。 一部のデータ ソースは、Power BI Report Server 用に最適化された Power BI Desktop では使用できますが、Power BI Report Server に発行するときはサポートされていません。
 
 これらのデータ ソースは、Power BI Report Server 内で使われている Power BI レポートに固有のものです。 ページ分割されたレポート (.rdl) でサポートされるデータ ソースについては、「[Reporting Services でサポートされるデータ ソース (SSRS)](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)」をご覧ください。
 

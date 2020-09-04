@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 12/03/2019
-ms.openlocfilehash: 0e4a62cf6216af49ef61651dc310c93de41664b7
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/01/2020
+ms.openlocfilehash: 43b63da5a8107a2e30d729142e2d36f2a4f30c08
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538127"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286753"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Power BI サービスのページ分割されたレポートを自分および他のユーザーがサブスクライブする 
 
@@ -27,7 +27,7 @@ Power BI サービスのページ分割されたレポートに対して自分�
 
 - レポートのプレビュー画像を電子メールの本文に含めることができます。  これは省略可能であり、選択した添付ファイル形式によっては、添付したレポート ドキュメントの最初のページと多少異なる場合があります。 
 
-- レポート添付ファイルのサイズの最大値は、25 MB です。 
+- レポート添付ファイルの最大サイズは 24 MB です。 
 
 - Azure Analysis Services や Power BI のデータセットなど、現在サポートされているデータ ソースに接続する、他のユーザーのページ分割されたレポートをサブスクライブすることができます。 SQL Server Reporting Services で現在の方法と同様に、レポート添付ファイルでもご利用のアクセス許可に基づいてデータが反映されることに留意してください。 
 

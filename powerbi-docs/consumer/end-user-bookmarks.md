@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/26/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f8bd09bd55694bbd7c6a991d502dde45dad5f2e4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162068"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937716"
 ---
 # <a name="what-are-bookmarks"></a>ブックマークとは?
 
@@ -29,18 +29,24 @@ ms.locfileid: "86162068"
 
 また、ブックマークのコレクションを作成して適切な順序に並べ替えた後、プレゼンテーションで各ブックマークを順番に表示することで、一連の分析情報を強調し、ストーリーを伝えることができます。  
 
-![リボンからブックマーク ウィンドウを選択して表示します。](media/end-user-bookmarks/power-bi-select-bookmark.png)
+![リボンからブックマーク ウィンドウを選択して表示します。](media/end-user-bookmarks/power-bi-bookmark-icon.png)
 
 ## <a name="open-bookmarks"></a>ブックマークを開く
-[ブックマーク] ウィンドウを開くには、メニューバーから **[ブックマーク]**  >  **[ブックマークをさらに表示]** を選択します。 レポートの元の公開表示に戻すには、 **[既定値にリセット]** を選択します。
+[ブックマーク] ウィンドウを開くには、メニューバーから **[ブックマーク]**  >  **[ブックマークをさらに表示]** を選択します。 
+
+![[ブックマーク] ペインが開いているレポート キャンバスのスクリーンショット。](media/end-user-bookmarks/power-bi-show-bookmarks.png)
+
+レポートの元の発行されたビューに戻すには、 **[リセット]** アイコンを選択します。
+
+![元に戻すアイコンが選択されているスクリーンショット](media/end-user-bookmarks/power-bi-revert.png)
 
 ### <a name="report-bookmarks"></a>レポートのブックマーク
-レポート *デザイナー*にレポート ブックマークが含まれていた場合、 **[レポート ブックマーク]** という見出しの下で見つかります。 このレポートページには、B1 と B2 という 2 つのブックマークがあります。 
+レポート *デザイナー*にレポート ブックマークが含まれていた場合、 **[レポート ブックマーク]** という見出しの下で見つかります。 このレポート ページには、次の 4 つのブックマークがあります: B1、B2、VanArsdel YTD、All YTD。 現在は **All YTD** が選択されています。
 
 > [!NOTE]
 > 共有レポートを表示するには、Power BI Pro または Premium が必要です。 
 
-![レポート ブックマークを表示します。](media/end-user-bookmarks/power-bi-report.png)
+![レポート ブックマークを表示します。](media/end-user-bookmarks/power-bi-bookmark-list.png)
 
 ブックマークを選択すると、そのレポート ビューに変わります。 
 
@@ -48,7 +54,7 @@ ms.locfileid: "86162068"
 
 ### <a name="personal-bookmarks"></a>個人用ブックマーク
 
-ブックマークを作成すると、次の要素がブックマークと共に保存されます。
+レポートを表示できる場合は、個人用ブックマークを追加することもできます。  ブックマークを作成すると、次の要素がブックマークと共に保存されます。
 
 * 現在のページ
 * フィルター
@@ -59,15 +65,21 @@ ms.locfileid: "86162068"
 * 表示 ( **[選択]** ウィンドウで指定されたオブジェクトの表示)
 * 表示されているオブジェクトのフォーカスまたは **Spotlight** モード
 
-ブックマークで表示させたいようにレポート ページを構成します。 意図したとおりにレポート ページとビジュアルを配置できたら、 **[ブックマーク]** ウィンドウの **[追加]** を選んでブックマークを追加します。 この例では、リージョンと日付にフィルターをいくつか追加しました。 
+ブックマークで表示させたいようにレポート ページを構成します。 次の点に注意してください。
 
-![個人用ブックマークの追加。](media/end-user-bookmarks/power-bi-bookmark-personal.png)
+1. **[フィルター]** ペインで、既存の日付フィルターを変更してあります。
+1. **[フィルター]** ペインで、既存のリージョン フィルターを変更してあります。
+1.  ドーナツ グラフ視覚エフェクトでデータ ポイントを選択して、レポート キャンバスをクロスフィルターおよびクロス強調表示してあります。 
+
+意図したとおりにレポート ページとビジュアルを配置できたら、 **[ブックマーク]** ウィンドウの **[追加]** を選んでブックマークを追加します。 
+
+![個人用ブックマークの追加。](media/end-user-bookmarks/power-bi-personal.png)
 
 **Power BI** によって個人用ブックマークが作成され、汎用的な名前か、ユーザーが入力した名前が付けられます。 ブックマークの名前の横にある省略記号を選択し、表示されたメニューからアクションを選択することで、ブックマークを*名前変更*、*削除*、*更新*できます。
 
-ブックマークを作成した後は、 **[ブックマーク]** ウィンドウでブックマークを選択するだけで表示できます。 
+ブックマークを作成した後は、 **[ブックマーク]** ペインでブックマークを選択するだけで表示されます。 
 
-![個人用ブックマークの追加。](media/end-user-bookmarks/power-bi-bookmark-west.png)
+![選択して特定のブックマークを表示する。](media/end-user-bookmarks/power-bi-selected.png)
 
 
 <!--
@@ -91,7 +103,7 @@ The order of your bookmarks can become important when you use the **View** featu
 - ブックマークのタイトル バーにある矢印を使って、次または前のブックマークに移動できます。
 - **表示**モードを終了するには、 **[ブックマーク]** ウィンドウの **[終了]** を選ぶか、ブックマークのタイトル バーにある **[X]** を選びます。
 
-![ブックマーク スライドショー](media/end-user-bookmarks/power-bi-slideshow.png)
+![ブックマーク スライドショー](media/end-user-bookmarks/power-bi-view-bookmarks.png)
 
 **表示**モードのときは、 **[ブックマーク]** ウィンドウの [X] をクリックしてウィンドウを閉じ、プレゼンテーション用のスペースを大きくすることができます。 また、**表示**モードでは、すべてのビジュアルは対話形式になり、他の場合の対話操作と同様に、クロス強調表示に使うことができます。 
 

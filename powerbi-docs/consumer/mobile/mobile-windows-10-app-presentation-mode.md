@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c01169a514b1231f93df21a23dc8992e92353070
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204489"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937610"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub と Windows 10 デバイスで、プレゼンテーション モードでレポートとダッシュボードを表示する
 Windows 10 デバイスと Surface Hub で、プレゼンテーション モードを使用し、レポートとダッシュボードを全画面表示できます。 プレゼンテーション モードは、会議やカンファレンスで、またはオフィスの専用プロジェクターで Power BI を表示する場合や、小さい画面上の領域を最大化するためだけにも役立ちます。

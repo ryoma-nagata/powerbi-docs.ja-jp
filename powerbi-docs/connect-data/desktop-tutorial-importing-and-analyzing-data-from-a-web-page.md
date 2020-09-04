@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4321ed284a6db7b4ed021c51d9fa1abe6752b75a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3778b1fcd4841902588df89ce785e65bec2bd3dc
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348622"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092362"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>チュートリアル:Power BI Desktop を使用して Web ページのデータを分析する
 
@@ -169,7 +169,7 @@ Web 接続の確立には基本認証のみが使用されます。 Web コネ�
 
 1. 視覚エフェクトを選び、 **[書式]** アイコンを選んでから、 **[データの色]** を選んでデータの色のオプションを展開します。
 
-   ![データの色の書式設定](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   ![書式アイコンとデータの色の選択](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
 
 1. **[すべて表示]** を **[オン]** にし、**West Germany** の横のドロップダウン メニューで黄色を選択します。
 
@@ -179,7 +179,7 @@ Web 接続の確立には基本認証のみが使用されます。 Web コネ�
 
 1. **[フォントの色]** を赤に、 **[テキスト サイズ]** を **12** に、 **[フォント ファミリ]** を **[Segoe (Bold)]** にそれぞれ変更します。
 
-   ![データの色の書式設定](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   ![フォントの色、サイズ、ファミリ](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
 
 マップの視覚エフェクトは次のようになります。
 
@@ -201,7 +201,7 @@ Power BI Desktop は、さまざまなデータ ソースからデータを取�
 
 ## <a name="see-also"></a>関連項目
 
-* [他の Power BI Desktop のチュートリアルを読む](/power-bi/guided-learning/)
+* [Microsoft Learn for Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI Desktop のビデオを見る](../fundamentals/desktop-videos.md)
 * [Power BI フォーラムにアクセスする](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI ブログを読む](https://go.microsoft.com/fwlink/?LinkID=519327)

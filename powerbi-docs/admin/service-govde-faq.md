@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 9c5c430c09550ba9739c038aabb0dece5d88b1e1
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702630"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092339"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>ドイツ クラウド顧客向け Power BI のよく寄せられる質問用
 **Power BI サービス**には、欧州連合/European Free Trade Agreement (EU/EFTA) 顧客向けバージョンがあります (別称 Microsoft Cloud Deutschland、MCD)。 この記事で説明する **Power BI サービス**のバージョンは、EU/EFTA 顧客向けであり、**Power BI サービス**の市販バージョンまたは政府顧客向け Power BI サービスとは別の独立したものです。
@@ -65,7 +65,7 @@ ms.locfileid: "88702630"
 | Power BI サービス直接サインイン |[https://app.powerbi.de/?noSignUpCheck=1](https://app.powerbi.de/?noSignUpCheck=1) |[https://app.powerbi.com/?noSignUpCheck=1](https://app.powerbi.com/?noSignUpCheck=1) |
 | サービス API |[https://api.powerbi.de/](https://api.powerbi.de/) |[https://api.powerbi.com/](https://api.powerbi.com/) |
 | 管理者によるユーザー ライセンス管理、サービス正常性ステータス、サポート要求用の Office ポータル |[https://portal.office.de/](https://portal.office.de/) |[https://portal.office.com/](https://portal.office.com/) |
-| AAD オーソリティ URI |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
+| Azure Active Directory 機関の URI |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
 | Power BI サービス リソース URI |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) | |
 | Power BI ビジュアル ライブラリ |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Power BI 用アプリケーション登録 (Embedded 用) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
@@ -75,6 +75,6 @@ ms.locfileid: "88702630"
 ## <a name="next-steps"></a>次の手順
 Power BI を使うと、さまざまなことを行えます。 サービスにサインアップする方法を説明する記事など、詳細および学習については、次のリソースをご覧ください。
 
-* [Power BI のガイド付き学習](../guided-learning/index.yml)
+* [Power BI のガイド付き学習](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI サービスの概要](../fundamentals/service-get-started.md)
 * [Power BI Desktop とは何ですか?](../fundamentals/desktop-what-is-desktop.md)

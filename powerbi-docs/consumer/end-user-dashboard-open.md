@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fbbda6edde0028a6d7ca21081f582ace7cb0cc94
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216198"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286811"
 ---
 # <a name="view-a-dashboard"></a>ダッシュボードの表示
 
@@ -22,9 +22,9 @@ ms.locfileid: "86216198"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI *コンシューマー*は、ダッシュボードの表示に多くの時間を使います。 ダッシュボードは、基になるレポートとデータセットから特定の情報を強調表示するために設計されています。 Power BI コンシューマーは、その情報を追跡、監視、質問への回答、テストなどに使用して、データ駆動型のビジネス上の意思決定を行います。
+Power BI の "*ビジネス ユーザー*" は、ダッシュボードの表示に多くの時間を使います。 ダッシュボードは、基になるレポートとデータセットから特定の情報を強調表示するために設計されています。 Power BI のビジネス ユーザーは、その情報を追跡、監視、質問への回答、テストなどに利用して、データ駆動型のビジネス上の意思決定を行います。
 
-![ダッシュボード](media/end-user-dashboard-open/power-bi-new-dash-new.png)
+![ダッシュボード](media/end-user-dashboard-open/power-bi-new-dashboard.png)
 
 
 Power BI Pro または Premium ライセンスは、ダッシュボードの共有と共有ダッシュボードの表示の両方に必要です。 [お使いのライセンスの種類について](end-user-license.md)。 
@@ -35,14 +35,14 @@ Power BI Pro または Premium ライセンスは、ダッシュボードの共�
 
 |              |         |
 |------------|--------------------------------|
-|![ダッシュボード アイコン](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |ダッシュボードは、Power BI サービスのさまざまな場所から開くことができます。 <br> このダッシュボード アイコンを探してください。 ダッシュボードを特定したら、 <br>簡単に開くことができます。それを選択するだけで、ダッシュボードが Power BI のキャンバスに表示されます。 |
+|![ダッシュボード アイコン](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |ダッシュボードは、Power BI サービスのさまざまな場所から開くことができます。 <br> このダッシュボード アイコンを探してください。 ダッシュボードを特定したら、 <br>それを選択して開くと、ダッシュボードが Power BI キャンバスいっぱいに表示されます。 |
 |                    |          |
 
 
 
 ダッシュボードはナビ ペインにあるすべてのコンテナーで見つけることができます。 
 
-![ダッシュボード アイコン](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
+![ダッシュボードが見つかる可能性のあるすべての場所を示すビデオ](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **ホーム** 
 - **[お気に入り]** : [お気に入りとしてダッシュボードを設定](end-user-favorite.md)した場合
@@ -54,5 +54,7 @@ Power BI Pro または Premium ライセンスは、ダッシュボードの共�
 
 
 ## <a name="next-steps"></a>次のステップ
+* [ダッシュボードの概要](end-user-dashboards.md)に戻ります
+
 * [サンプル ダッシュボード](../create-reports/sample-tutorial-connect-to-the-samples.md)のツアーを利用してダッシュボードに慣れます。    
 * [ダッシュボードのタイル](end-user-tiles.md)およびタイルを選んだときの結果について学習します。

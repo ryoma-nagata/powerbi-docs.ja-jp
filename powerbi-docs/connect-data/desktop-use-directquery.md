@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/02/2020
+ms.date: 08/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939509"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092316"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery
 *Power BI Desktop* では、データ ソースに接続するときに、常にデータのコピーを Power BI Desktop にインポートすることができます。 データ ソースによっては、代替手法を利用できます。DirectQuery を使用して、データ ソースに直接接続します。
@@ -50,6 +50,8 @@ DirectQuery を使用する利点をいくつか以下に示します。
 - **クエリ エディター**のクエリが複雑すぎると、エラーが発生します。 エラーを解決するには、問題となるステップを**クエリ エディター**で削除するか、DirectQuery を使用する代わりにデータを "*インポート*" します。 SAP Business Warehouse のような多次元ソースの場合、**クエリ エディター**はありません。
 
 - タイム インテリジェンス機能は DirectQuery では利用できません。 たとえば、データ列 (年度、四半期、月、日など) の特殊な処理は、DirectQuery モードではサポートされていません。
+
+- 計算テーブルおよび計算列で、シングル サインオン (SSO) 認証を使用してデータ ソースから DirectQuery テーブルを参照することは、Power BI サービスではサポートされていません。
 
 - 基になるデータ ソースに送信されるクエリが許容範囲のパフォーマンスを確実に発揮できるよう、メジャー内で許可される DAX 式には制約があります。
 

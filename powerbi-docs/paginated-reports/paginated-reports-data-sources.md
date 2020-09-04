@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: d82026ddb3ae12d95aed94fc6f96f45b4861ec48
-ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
+ms.openlocfilehash: fda04d3241db68f1ca8da66d999bfca6cef9e8cf
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88168422"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937449"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI のページ分割されたレポートでサポートされるデータ ソース
 
@@ -27,7 +27,7 @@ ms.locfileid: "88168422"
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL Data Warehouse | 基本、シングル サインオン (SSO)、OAuth2 | Azure SQL DB でエンタープライズ ゲートウェイを使用できます。 ただし、このようなシナリオでは、SSO または oAuth2 を使用して認証を行うことはできません。   |
 | Azure SQL Managed Instance | 基本 | パブリック エンドポイントまたはプライベート エンドポイント経由 (プライベート エンドポイントは、エンタープライズ ゲートウェイ経由でルーティングする必要があります)  |
-| Azure Analysis Services | SSO、OAuth2 | AAS ファイアウォールを無効にするか、BlackForest リージョンの IP 範囲をすべて許可するように構成する必要があります。 これは、BlackForest リージョンにのみ適用されます。 |
+| Azure Analysis Services | SSO、OAuth2 | AAS ファイアウォールを無効にするか、BlackForest リージョンの IP 範囲をすべて許可するように構成する必要があります。 これは、BlackForest リージョンにのみ適用されます。  外部テナントからの SSO はサポートされていません。 |
 | Power BI データセット | SSO | Premium と Premium 以外の Power BI データセット。 読み取りのアクセス許可が必要 |
 | Premium Power BI データセット (XMLA) | SSO | Power BI データセットは、埋め込みのページ分割されたレポートのデータ ソースとしてはサポートされていません。  |
 | データの入力 | 該当なし | データはレポートに埋め込まれます。 |

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/18/2020
+ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7a1fabd1c61219d7f195253a4384accfd2521d24
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235991"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040226"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI の更新の概要
 
@@ -61,6 +61,8 @@ Power BI 管理ポータルにある Power BI の**更新の概要**ページで
 
 *[Refresh time booked (minutes)]\(予約済みの更新時間 (分)\)* 列は、関連付けられている各データセットについて最大 60 レコードの平均を計算したものです。 30 分の各時間枠に表示されている数値は、その時間枠に開始するようにスケジュール設定されたすべての更新**と**、"*前の*" 時間枠に開始するように設定されているが、その平均時間が選択した時間枠にまたがっているスケジュールされた更新の分数の合計を計算したものです。
 
+*[利用可能な更新時間 (分)]* 列は、各タイム スロットで更新に使用できる分数から、そのタイム スロットに対して既にスケジュールされている更新を引いたものです。 たとえば、P2 サブスクリプションで同時に更新を 12 回実行できる場合、12 個の 30 分スロットがあるので、そのタイム スロットでは更新に 360 分 (12 更新 x 30 分) を使用できます。 そのスロットで 20 分かかる更新が 1 回予約されている場合、そのスロットの *[利用可能な更新時間 (分)]* は 340 分です (使用可能な合計 360 分から、予約されている 20 分を差し引いて、340 分が使用可能)。 
+
 時間枠を選択してから関連する**詳細**ボタンを選択すると、どのスケジュールされた更新イベントが予約済みの更新時間に関係しているかや、その所有者、および完了までにかかる時間を確認できます。
 
 このしくみを確認するために、例を見てみましょう。 日曜日の午後 8 時 30 分の時間枠を選択して**詳細**をクリックすると、次のダイアログが表示されます。
@@ -84,4 +86,4 @@ Power BI 管理ポータルにある Power BI の**更新の概要**ページで
 - [オンプレミス データ ゲートウェイのトラブルシューティング](service-gateway-onprem-tshoot.md)  
 - [Power BI Gateway - Personal のトラブルシューティング](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

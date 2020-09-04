@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
+ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557212"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "89220885"
 ---
 # <a name="understand-the-deployment-process-preview"></a>配置プロセスについて理解する (プレビュー)
 
@@ -154,7 +154,7 @@ ms.locfileid: "86557212"
 
 [![運用ステージの右下にあるアプリの発行ボタンが強調表示されたスクリーンショット。](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
-運用ステージでは、左下隅にあるメイン アクション ボタンをクリックすると、Power BI のアプリの更新ページが開き、アプリ ユーザーがコンテンツを更新できるようになります。
+運用ステージでは、右下隅にあるメイン アクション ボタンをクリックすると、Power BI のアプリの更新ページが開き、アプリ ユーザーがコンテンツを更新できるようになります。
 
 [![運用ステージの右下にあるアプリの更新ボタンが強調表示されたスクリーンショット。](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: ee51ea2bbca794730d35d1f21bc999adda3dcc98
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478155"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937541"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>新しいワークスペース エクスペリエンスで使用状況メトリックを監視する (プレビュー)
 
@@ -184,6 +184,10 @@ ms.locfileid: "87478155"
 1. 新しいレポートが現在のワークスペース内の [レポート] タブに保存され、[最近] のコンテンツ リストに追加されます。
 
     ![[レポート] タブの新しいレポート](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-new-report.png)
+    
+> [!NOTE]
+> 使用状況メトリック レポートのコピーを保存すると、通常の Power BI レポートと同様に処理されます。 閲覧者ロールのユーザーを含め、ワークスペースの表示アクセス許可を持つすべてのユーザーが、このファイルにアクセスできます。
+
 
 ### <a name="create-a-new-usage-report-in-power-bi-desktop"></a>Power BI Desktop で新しい利用状況レポートを作成する
 
@@ -242,7 +246,14 @@ Excel で利用状況データに接続する場合、定義済みのメジャ�
 
 ## <a name="usage-metrics-in-national-clouds"></a>国内クラウドの使用状況指標
 
-Power BI は別個の国内クラウドで利用できます。 これらのクラウドは、グローバル バージョンの Power BI と同じレベルのセキュリティ、プライバシー、コンプライアンス、透明性を提供します。また、サービス提供、データの保存、アクセス、制御に関するその地域の規制に対応する独自のモデルと組み合わせて使用できます。 この各国規制に応じた独自モデルにより、国内クラウドで利用状況の指標は使用できません。 詳しくは、[国内クラウド](https://powerbi.microsoft.com/clouds/)に関するページをご覧ください。
+Power BI は別個の国内クラウドで利用できます。 これらのクラウドは、グローバル バージョンの Power BI と同じレベルのセキュリティ、プライバシー、コンプライアンス、透明性を提供します。また、サービス提供、データの保存、アクセス、制御に関するその地域の規制に対応する独自のモデルと組み合わせて使用できます。 現在、最新の使用状況メトリックは次の各国のクラウドで利用できます。 
+
+- 米国政府機関向けコミュニティ クラウド
+- US Government Community Cloud High
+- 米国国防総省
+- 中国
+
+詳しくは、[国内クラウド](https://powerbi.microsoft.com/clouds/)に関するページをご覧ください。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 

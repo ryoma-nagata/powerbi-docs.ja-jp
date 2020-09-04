@@ -6,15 +6,15 @@ ms.reviewer: maggie.tsang
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc5cba8953a527e87768815759a14dd8f2cf7ee1
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6e1850e281c58bd89597af2bbd9ade0a769071ae
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537851"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040249"
 ---
 # <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>ビジュアルをイメージとしてクリップボードにコピーする
 
@@ -35,15 +35,15 @@ Power BI レポートまたはダッシュボードからイメージを共有�
 
 2. ビジュアルの右上隅にある **[その他のアクション] (...)** を選択し、 **[視覚エフェクトをイメージとしてコピー]** を選択します。 
 
-    ![表示されている [視覚エフェクトをイメージとしてコピー] アイコン](media/end-user-copy-paste/power-bi-copy-dashboard.png)
+    ![ドロップダウン メニューに表示される画像オプションとして視覚エフェクトをコピーする](media/end-user-copy-paste/power-bi-copy-dashboard.png)
 
 3. **[Your visual is ready to copy]\(ビジュアルをコピーする準備ができました\)** ダイアログが表示されたら、 **[クリップボードにコピー]** を選択します。
 
     ![[クリップボードにコピー] オプションを含むダイアログ](media//end-user-copy-paste/power-bi-copied.png)
 
-4. ビジュアルをコピーしたら、**Ctrl + V** キーを使用して別のアプリケーションに貼り付けるか、右クリックして [貼り付け] を選択します。 以下のスクリーンショットでは、ビジュアルが Microsoft Word に貼り付けられています。 
+4. 視覚エフェクトをコピーしたら、**Ctrl + V** キーを使用するか、**右クリック** >  **[貼り付け]** を選択して、別のアプリケーションに貼り付けます。 以下のスクリーンショットでは、ビジュアルが Microsoft Word に貼り付けられています。 
 
-    ![Outlook に貼り付けられたビジュアル](media//end-user-copy-paste/power-bi-paste-word.png)
+    ![Microsoft Word に貼り付けられた視覚エフェクト](media//end-user-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>レポートのビジュアルからコピーする 
 
@@ -58,7 +58,7 @@ Power BI レポートまたはダッシュボードからイメージを共有�
     ![[クリップボードにコピー] オプションを含むダイアログ](media//end-user-copy-paste/power-bi-copied.png)
 
 
-4. ビジュアルをコピーしたら、**Ctrl + V** キーを使用して別のアプリケーションに貼り付けるか、右クリックして [貼り付け] を選択します。 次のスクリーンショットでは、ビジュアルがメールに貼り付けられています。
+4. 視覚エフェクトをコピーしたら、**Ctrl + V** キーを使用するか、**右クリック** >  **[貼り付け]** を選択して、別のアプリケーションに貼り付けます。 次のスクリーンショットでは、ビジュアルがメールに貼り付けられています。
 
     ![Outlook に貼り付けられたビジュアル](media//end-user-copy-paste/power-bi-copy-email.png)
 
@@ -79,10 +79,10 @@ Power BI レポートまたはダッシュボードからイメージを共有�
 
 Q:ビジュアルでコピー アイコンが無効になっているのはなぜですか?    
 A:現在、ネイティブ Power BI 視覚化と認定済みカスタム ビジュアルがサポートされています。 次のような特定のビジュアルのサポートは制限されています。 
-- ESRI とその他のマップ ビジュアル 
+- ESRI とその他のマップ視覚エフェクト 
 - Python のビジュアル 
 - R ビジュアル 
-- PowerApps    
+- PowerApps の視覚エフェクト   
 
 A:ビジュアルをコピーする機能は、IT 部門または Power BI 管理者が無効にする可能性があります。
 
@@ -94,6 +94,8 @@ A:カスタム ビジュアルとアニメーション視覚化には制限が�
 
 ## <a name="next-steps"></a>次の手順
 [Power BI レポートでの視覚化](end-user-visual-type.md)についての詳細を参照する
+
+レポートの編集アクセス許可を持っている場合は、[同じレポート内で視覚エフェクトをコピーして貼り付けること](../visuals/power-bi-visualization-copy-paste.md)ができます。 
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 
