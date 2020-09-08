@@ -118,6 +118,8 @@
               href: report-performance-troubleshoot.md
             - name: デプロイ パイプラインのベスト プラクティス
               href: ../create-reports/deployment-pipelines-best-practices.md
+            - name: Power BI アクティビティ ログへのアクセス
+              href: admin-activity-log.md
     - name: Power BI への移行
       items:
         - name: 移行の概要
