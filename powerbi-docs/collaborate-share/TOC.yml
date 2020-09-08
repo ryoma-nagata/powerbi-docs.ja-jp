@@ -27,7 +27,7 @@
               href: service-workspaces-new-look.md
             - name: クラシック ワークスペースをアップグレードする
               href: ../collaborate-share/service-upgrade-workspaces.md
-            - name: ワークスペースを作成する
+            - name: クラシック ワークスペースを作成する
               href: service-create-workspaces.md
             - name: ワークスペースからアプリを発行する
               href: service-create-distribute-apps.md
