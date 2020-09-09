@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 29b821dc44f7eacb07f0df31100df2ff837c2189
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 60a22946ccde642987e748904d0dc7fe636ec700
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803398"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401981"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Power BI に移行するための要件を収集する
 
@@ -67,7 +67,7 @@ ms.locfileid: "88803398"
 - **データ構造とクレンジングのニーズ:** 必要な各データ ソースのデータ構造と、[データ クレンジング](../transform-model/desktop-query-overview.md) アクティビティが必要な範囲を判断します。
 - **データ統合:** 複数のデータ ソースがある場合のデータ統合の処理方法と、各モデル テーブル間の[リレーションシップ](../transform-model/desktop-create-and-manage-relationships.md)の定義方法を評価します。 モデルを単純化し、[そのサイズを縮小する](import-modeling-data-reduction.md)ために必要な具体的なデータ要素を特定します。
 - **許容されるデータ待機時間:** 各データ ソースのデータ待機時間のニーズを判断します。 使用する[データ ストレージ モード](../transform-model/desktop-storage-mode.md)に関する判断に影響します。 インポート モデル テーブルのデータ更新頻度も把握しておくことが重要です。
-- **データの量とスケーラビリティ:** データ量の予測を評価します。これは、[大規模モデルのサポート](/admin/service-premium-large-models.md)と、DirectQuery または[複合モデル](../transform-model/desktop-composite-models.md)の設計に関する判断の要因となります。 履歴データのニーズに関する考慮事項も理解しておく必要があります。 大規模なデータセットの場合、[増分データ更新](../admin/service-premium-incremental-refresh.md)ルールを判断することも必要になります。
+- **データの量とスケーラビリティ:** データ量の予測を評価します。これは、[大規模モデルのサポート](../admin/service-premium-large-models.md)と、DirectQuery または[複合モデル](../transform-model/desktop-composite-models.md)の設計に関する判断の要因となります。 履歴データのニーズに関する考慮事項も理解しておく必要があります。 大規模なデータセットの場合、[増分データ更新](../admin/service-premium-incremental-refresh.md)ルールを判断することも必要になります。
 - **メジャー、KPI、ビジネス ルール:** メジャー、KPI、ビジネス ルールのニーズを評価します。 これらは、ロジックを適用する場所 (データセットまたはデータ統合プロセス) に関する判断に影響を与えます。
 - **マスター データとデータ カタログ:** 注意が必要なマスター データの問題があるかどうかを検討します。 エンタープライズ データ カタログとの統合が、検出可能性の向上、定義へのアクセス、または組織で受け入れられる一貫した用語の作成に適しているかどうかを判断します。
 - **セキュリティとデータ プライバシー:** [行レベルのセキュリティ](../admin/service-admin-rls.md)要件など、データセットに固有のセキュリティまたはデータ プライバシーの考慮事項があるかどうかを判断します。

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 58eb9af4975c0afeb12a71a880711ddd73e64d50
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803500"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89402004"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI への展開
 
@@ -87,7 +87,7 @@ IT マネージド ソリューション、またはビジネスの生産性に�
 
 - **変更管理:** 必要に応じて、標準的な変更管理手法を使用して、展開の承認を取得し、展開をユーザー全体に通知します。 運用展開が許可されている承認された変更管理期間が存在する場合があります。 通常は、これは IT マネージド コンテンツに適用することができ、セルフサービス コンテンツにはあまり適用されません。
 - **ロールバック計画**: 移行では、それが新しいソリューションの初めての移行であることが想定されます。 コンテンツが既に存在する場合は、必要になったときに、以前のバージョンに戻す計画を立てることが賢明です。 以前のバージョンの Power BI Desktop ファイル (SharePoint または OneDrive のバージョン管理を使用) がある場合に、これは効果を発揮します。
-- **接続文字列とパラメーター:** テストと運用でデータ ソースが異なる場合は、データセットの接続文字列を調整します。 [パラメーター化](/connect-data/service-parameters.md)を使用すれば、この目的を効果的に達成できます。
+- **接続文字列とパラメーター:** テストと運用でデータ ソースが異なる場合は、データセットの接続文字列を調整します。 [パラメーター化](../connect-data/service-parameters.md)を使用すれば、この目的を効果的に達成できます。
 - **データ更新:** インポートされたデータセットについては、[データセットの更新をスケジュール](../connect-data/refresh-scheduled-refresh.md)します。
 - **ワークスペースのコンテンツ:** データセットとレポートを運用ワークスペースに発行し、ダッシュボードを作成します。 ご利用のコンテンツが Premium 容量のワークスペースに発行されている場合は、[配置パイプライン](../create-reports/deployment-pipelines-overview.md)によって、開発、テスト、運用の各ワークスペースに展開されるプロセスを簡略化することができます。
 - **アプリ:** アプリがコンテンツ配布戦略の一部である場合は、運用ワークスペースからのコンテンツを使用して[アプリ](../consumer/end-user-apps.md)を発行します。

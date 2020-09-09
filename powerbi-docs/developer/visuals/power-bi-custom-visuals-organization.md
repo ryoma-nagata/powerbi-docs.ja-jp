@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278815"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401958"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI の組織のビジュアル
 
@@ -32,7 +32,7 @@ Power BI ビジュアルが重要視される組織もあります。その組�
 
 ## <a name="administer-organizational-power-bi-visuals"></a>組織の Power BI ビジュアルを管理する
 
-組織の Power BI ビジュアルを管理し、展開する方法の詳細については、[組織の Power BI ビジュアルの展開と管理](https://go.microsoft.com/fwlink/?linkid=866790)に関する記事を参照してください。
+組織の Power BI ビジュアルを管理し、展開する方法の詳細については、[組織の Power BI ビジュアルの展開と管理](../../admin/organizational-visuals.md)に関する記事を参照してください。
 
 > [!WARNING]
 > ファイルからインストールされた Power BI ビジュアルには、セキュリティやプライバシーのリスクがあるコードが含まれている場合があります。 組織のリポジトリに展開する前に、Power BI ビジュアル ファイルの作成者とソースを信頼できることを確認してください。
