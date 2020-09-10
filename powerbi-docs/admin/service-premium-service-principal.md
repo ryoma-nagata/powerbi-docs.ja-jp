@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c62ee84c919e5910d1c1c9e111f19c7b74889b04
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227221"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490355"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>サービス プリンシパルを使用して Premium ワークスペースとデータセットのタスクを自動化する
 
@@ -63,11 +63,11 @@ Premium ワークスペースとデータセットの操作を実行するため
 
 1. Power BI サービスで、ワークスペースに対して **[詳細]**  >  **[ワークスペース アクセス]** を選択します。
 
-    ![ワークスペースの設定](media/service-premium-service-principal/workspace-access.png)
+    ![ワークスペース アクセスの設定](media/service-premium-service-principal/workspace-access.png)
 
 2. アプリケーション名で検索し、**管理者**または**メンバー**としてワークスペースにサービス プリンシパルを追加します。
 
-    ![ワークスペース管理者](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
+    ![[アクセス] ダイアログ](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
 
 ## <a name="connection-strings-for-the-xmla-endpoint"></a>XMLA エンドポイント用の接続文字列
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO と ADOMD
 
-クライアント アプリケーションや Web アプリと接続するとき、[AMO と ADOMD のクライアント ライブラリ](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) バージョン 15.0.2 以降の、NuGet からインストールできるパッケージでは、接続文字列にサービス プリンシパルを指定できます。構文 `app:AppID` とパスワードまたは `cert:thumbprint` を利用します。
+クライアント アプリケーションや Web アプリと接続するとき、[AMO と ADOMD のクライアント ライブラリ](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) バージョン 15.1.42.26 (2020 年 6 月) 以降の、NuGet からインストールできるパッケージでは、接続文字列にサービス プリンシパルを指定できます。構文 `app:AppID` とパスワードまたは `cert:thumbprint` を利用します。
 
 次の例では、`appID` と `password` を使用し、モデル データベース更新操作を実行します。
 

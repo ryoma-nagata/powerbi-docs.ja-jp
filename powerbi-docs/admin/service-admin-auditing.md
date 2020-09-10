@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 7b5a96f4b592789c04ebaca5418e470d546ff788
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88802976"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512058"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI でユーザー アクティビティを追跡する
 
@@ -108,6 +108,9 @@ $activities.Count
 $activities[0]
 
 ```
+
+> [!NOTE]
+> Power BI アクティビティ ログ イベントをフィルター処理して取得する方法については、PowerShell のサンプルを参照してください。 詳細については、「[Power BI アクティビティ ログへのアクセス](../guidance/admin-activity-log.md)」を参照してください。
 
 ## <a name="use-the-audit-log"></a>監査ログの使用
 
@@ -369,8 +372,8 @@ Exchange Online に接続する方法の詳細については、「[リモート
 
 ## <a name="next-steps"></a>次の手順
 
-[Power BI 管理とは](service-admin-administering-power-bi-in-your-organization.md)  
-
-[Power BI 管理ポータル](service-admin-portal.md)  
-
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- [Power BI 管理とは](service-admin-administering-power-bi-in-your-organization.md)
+- [Power BI 管理ポータル](service-admin-portal.md)
+- [Power BI アクティビティ ログへのアクセス](../guidance/admin-activity-log.md)
+- わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+- Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com/)

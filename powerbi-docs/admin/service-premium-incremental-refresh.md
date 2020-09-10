@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227443"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443331"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI での増分更新
 
@@ -25,12 +26,11 @@ Power BI の非常に大きいデータセットの増分更新には、次の�
 > * **リソースの消費量が減る** - 更新するデータが少ないと、メモリや他のリソースの全体的な消費量が減少します。
 
 > [!NOTE]
-> 増分更新は、Power BI Pro、Premium および共有サブスクリプションとデータセットで行えます。 
+> 増分更新は、Power BI Pro、Premium および共有サブスクリプションとデータセットで行えます。
 
 ## <a name="configure-incremental-refresh"></a>増分更新を構成する
 
 増分更新ポリシーは、Power BI Desktop で定義し、発行されると Power BI サービスに適用されます。
-
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Power BI Desktop で大きいデータセットをフィルター処理する
 
@@ -98,18 +98,17 @@ Power BI サービスで日付列のフィルターを使用して、複数の�
 
 #### <a name="refresh-ranges"></a>更新範囲
 
-次の例では、丸 5 年間のデータと、現在の日付までの今年のデータを格納し、10 日間のデータを増分更新するように、更新ポリシーを定義します。 最初の更新操作では、履歴データを読み込みます。 その後の更新は増分的であり、(毎日実行するようにスケジュールされている場合は) 次の操作が実行されます。
+次の例では、丸 5 年間のデータと、現在の日付までの今年のデータを格納し、丸 10 日間のデータを増分更新するように、更新ポリシーを定義します。 最初の更新操作では、履歴データを読み込みます。 その後の更新は増分的であり、(毎日実行するようにスケジュールされている場合は) 次の操作が実行されます。
 
 - 新しい日のデータが追加されます。
 
-- 現在の日付までの 10 日分が更新されます。
+- 現在の日付までの丸 10 日分が更新されます。
 
 - 現在の日付より 5 年以上前のデータが削除されます。 たとえば、今日の日付が 2019 年 1 月 1 日の場合は、2013 年が削除されます。
 
 Power BI サービスの最初の更新では、丸 5 年間のすべてをインポートするのに長くかかる可能性があります。 その後の更新は、わずかな時間で完了する可能性があります。
 
 ![更新範囲](media/service-premium-incremental-refresh/refresh-ranges.png)
-
 
 #### <a name="current-date"></a>現在の日付
 

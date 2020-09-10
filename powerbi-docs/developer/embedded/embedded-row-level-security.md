@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
-ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
+ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84795141"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89402050"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded での行レベルのセキュリティ
 
@@ -65,7 +66,7 @@ RLS は Power BI Desktop で作成します。 データセットとレポート
 3. **District** テーブルに、「 **[District Manager] = USERNAME()** 」という DAX 式を入力します。
 
     ![RLS ルールの DAX ステートメント](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. ルールが動作していることを確認するには、 **[モデリング]** タブで **[ロールとして表示]** を選び、作成した **Manager** ロールと **[その他のユーザー]** の両方を選びます。 ユーザーとして「**AndrewMa**」と入力します。
+4. ルールが動作していることを確認するには、 **[モデリング]** タブで **[ロールとして表示]** を選び、作成した **Manager** ロールと **[その他のユーザー]** の両方を選びます。 ユーザーとして「**Andrew Ma**」と入力します。
 
     ![[ロールとして表示] ダイアログ](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 

@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 07/24/2020
+ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 6a2fa7aca043c553c9174db81ff575853e526e06
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87260194"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512795"
 ---
 |機能   | 管理者  | メンバー  | 共同作成者  | Viewer |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ ms.locfileid: "87260194"
 | 項目の表示と操作。<sup>5</sup> |  ![[はい] チェックマーク](media/power-bi-workspace-roles-table/green-checkmark.png) | ![[はい] チェックマーク](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![[はい] チェックマーク](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![[はい] チェックマーク](media/power-bi-workspace-roles-table/green-checkmark.png)  |
 | ワークスペース データフローの格納データを読み取る | ![[はい] チェックマーク](media/power-bi-workspace-roles-table/green-checkmark.png) | ![[はい] チェックマーク](media/power-bi-workspace-roles-table/green-checkmark.png) | ![[はい] チェックマーク](media/power-bi-workspace-roles-table/green-checkmark.png) | ![[はい] チェックマーク](media/power-bi-workspace-roles-table/green-checkmark.png) |
 
-<sup>1</sup> [ワークスペース管理者がこのアクセス許可を共同作成者に委任した場合](../collaborate-share/service-create-the-new-workspaces.md#security-settings)、共同作成者は、アプリのメタデータを更新することはできますが、新しいアプリを公開したり、アプリへのアクセス許可を持つユーザーを変更したりすることはできません。
+<sup>1</sup> 共同作成者は、ワークスペース管理者がこのアクセス許可を委任すると、[ワークスペースに関連付けられているアプリを更新](../collaborate-share/service-create-the-new-workspaces.md#allow-contributors-to-update-the-app)できます。 ただし、新しいアプリを発行したり、アクセス許可を持つユーザーを変更したりすることはできません。
 
 <sup>2</sup> 共同作成者とビューアーが再共有アクセス許可を持っている場合、ワークスペース内のアイテムを共有することもできます。
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/10/2020
+ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 19b4d64039333a18405ac57d98773e9e23857a18
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049798"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490466"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -141,7 +141,7 @@ Office 365 セキュリティ/コンプアライアンス センターで Power 
 
 次の図には、 **[テナント設定]** タブのいくつかの設定が示されています。
 
-![テナント設定](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+![テナント設定](media/service-admin-portal/powerbi-admin-tenant-settings-2.png)
 
 > [!NOTE]
 > 組織のすべてのユーザーに対して設定の変更が有効になるには、最大で 15 分かかることがあります。
@@ -251,18 +251,36 @@ Microsoft 365 グループに基づく従来のワークスペースについて
 
 ## <a name="export-and-sharing-settings"></a>エクスポートと共有の設定
 
-### <a name="share-content-with-external-users"></a>外部ユーザーとコンテンツを共有する
+### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Azure Active Directory のゲスト ユーザーによる Power BI へのアクセスを許可する
 
-組織内のユーザーは、組織外のユーザーとダッシュボード、レポート、およびアプリを共有できます。 外部共有の詳細については、[こちら](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)を参照してください。
+この設定を有効にすると Azure Active Directory Business-to-Business (Azure AD B2B) のゲスト ユーザーが Power BI にアクセスできるようになります。 この設定を無効にすると、Power BI にアクセスしようとしたときに、ゲスト ユーザーにエラーが表示されます。 組織全体に対してこの設定を無効にすると、ユーザーが組織にゲストを招待したり、個々のゲスト ユーザーにアクセス許可を割り当てたりするのを防ぐこともできます。 Power BI にアクセスできるゲスト ユーザーを制御するには、特定のセキュリティ グループのオプションを使用します。
 
-![外部ユーザーの設定](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![Azure Active Directory のゲスト ユーザーによる Power BI へのアクセスを許可する](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
 
-外部ユーザーと共有すると、次の図のようなメッセージが表示されます。
+### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>既存の Azure Active Directory のゲスト ユーザーにアクセス許可を付与できるようにする
 
-![外部ユーザーと共有する](media/service-admin-portal/powerbi-admin-sharing-external.png)  
+有効にすると、組織内のユーザーは Power BI のアクセス許可または共有エクスペリエンスを通じて個々のゲスト ユーザーにアクセス許可を付与できます。 無効になっているユーザーは Power BI にアクセス許可を割り当てたり、ゲスト ユーザーを招待したりできません。
+
+![既存の Azure Active Directory のゲスト ユーザーにアクセス許可を付与できるようにする](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
+
 
 > [!IMPORTANT]
-> このオプションは、Power BI のユーザーが Power BI を使用して組織内の Azure Active Directory B2B (Azure AD B2B) ゲスト ユーザーになるよう外部のユーザーを招待できるかどうかを制御します。 有効にすると、Azure AD のゲスト招待元ロールを持つユーザーは、レポート、ダッシュボード、Power BI アプリを共有するときに、外部の電子メールアドレスを追加できます。 外部の受信者は、Azure AD B2B ゲスト ユーザーとして組織に参加するように招待されます。 重要な点として、この設定を無効にした場合、組織内で既に Azure AD B2B ゲスト ユーザーである外部ユーザーは、Power BI のユーザー ピッカー UI に引き続き表示され、項目、ワークスペース、およびアプリにアクセスできます。
+>  この設定によって、ゲスト ユーザーに常にアクセス許可が割り当てられなくなるわけではありません。 この設定では、個々のゲスト ユーザーに対するアクセス権の付与のみが阻止されます。 ゲスト ユーザーには、セキュリティ、Office 365 グループ、配布リストなどのユーザー グループを使用して引き続きアクセス権を付与することができます。 
+
+ゲスト ユーザーにアクセス許可を与えることが許可されていないユーザーは、UI にエラー メッセージが表示されます。 また、アイテムに対するアクセス許可を変更する場合、アイテムに対するアクセス許可を付与または変更するには、ゲストへのアクセス許可の付与が許可されていないユーザーがアクセス リストからゲスト ユーザーをすべて削除する必要があります。 
+
+### <a name="invite-external-users-to-your-organization"></a>組織に外部ユーザーを招待する 
+
+**[Invite external users to your organization]\(組織に外部ユーザーを招待する\)** 設定により、組織が Power BI 共有とアクセス許可のエクスペリエンスを通じて、新しい外部ユーザーを組織に招待できるかどうかを選択できるようになります。 無効にした場合、まだ組織のゲスト ユーザーでない外部ユーザーは、Power BI を使用して組織に追加することができません。 
+
+![組織に外部ユーザーを招待する](media/service-admin-portal/powerbi-admin-allow-invite-aad-b2b-guests.png)
+
+> [!IMPORTANT]
+> この設定は、以前は "外部ユーザーとコンテンツを共有する" と呼ばれていました。 変更後の名前は、設定の内容をより正確に反映しています。
+
+組織に外部ユーザーを招待するには、Azure Active Directory のゲスト招待元ロールも必要です。 この設定では、Power BI を通じて招待する機能のみが制御されます。 
+
+ユーザーに対して **[Allow giving permissions to existing Azure Active Directory guest users]\(既存の Azure Active Directory ゲスト ユーザーにアクセス許可を与える\)** 設定が無効になっている場合は、Power BI を通じて外部ユーザーを組織に招待することもできません。
 
 ### <a name="publish-to-web"></a>Web に公開
 

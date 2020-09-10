@@ -6,16 +6,16 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 12d31c19e3f32068778eb6f3eb7b3b5b18e93847
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c8db048f9ae74871840df96e63c60510ce800318
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215968"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443308"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 
@@ -28,16 +28,16 @@ ms.locfileid: "86215968"
 
 Power BI サービスはクラウド ベースのビジネス分析サービスで、これを使えばだれでもデータの視覚化と分析の速度と効率を向上させ、理解を深めることができます。 使いやすいダッシュボード、対話形式のレポート、説得力のある視覚エフェクトによってデータを生き生きしたものにし、ユーザーがクラウド ベースまたはオンプレミスの広範囲にわたるデータを活用できるようにします。 [Power BI](../fundamentals/power-bi-overview.md) について、詳細を確認してください。
 
-## <a name="what-is-a-power-bi-consumers"></a>Power BI "*コンシューマー*" とは何ですか?
+## <a name="what-is-a-power-bi-business-user"></a>Power BI "*ビジネス ユーザー*" とは何ですか?
 
-Power BI をどのように操作するかは、ご自分の仕事上の役割により異なります。 エンドユーザーまたは "*コンシューマー*" の場合、同僚からコンテンツ (ダッシュボード、レポート、アプリ) を受け取ります。 Power BI のオンラインまたはモバイル バージョン (Power BI サービスと呼ばれます) で作業し、このコンテンツをレビューおよび操作してビジネス上の決定を行います。  詳細については、[コンシューマー向けの Power BI](index.yml) に関するページを参照してください。
+Power BI をどのように操作するかは、ご自分の仕事上の役割により異なります。 エンド ユーザーまたは "*ビジネス ユーザー*" の場合、同僚からコンテンツ (ダッシュボード、レポート、アプリ) を受け取ります。 Power BI のオンラインまたはモバイル バージョン (Power BI サービスと呼ばれます) で作業し、このコンテンツをレビューおよび操作してビジネス上の決定を行います。  詳細については、[ビジネス ユーザー向けの Power BI](index.yml) に関するページを参照してください。
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro と Power BI Premium の違いは何ですか?
 
-Power BI Pro は、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可する個別のユーザー ライセンスです。 他の Pro ユーザーとコンテンツを共有して、共同作業することもできます。 Pro ユーザーだけが、ワークスペースへのコンテンツの発行、ダッシュボードの共有、ダッシュボードとレポートのサブスクライブを行うことができます。 
+Power BI Pro は、Power BI サービスのすべてのコンテンツと機能へのアクセスを許可する個別のユーザー ライセンスです。 他の Pro ユーザーとコンテンツを共有して、共同作業することもできます。 Pro ユーザーだけが、他のワークスペースへのコンテンツの発行、ダッシュボードの共有、ダッシュボードとレポートの登録を行うことができます。 
 
-Power BI Premium では、専用の容量を提供して、より一貫したパフォーマンスを実現します。 また、Power BI でより大規模なデータ ボリュームもサポートします。 個々のユーザーについては、Premium では Pro ユーザーがコンテンツを広範囲に配布できます。コンテンツを表示する受信者にユーザーごとの Pro ライセンスは必要ありません。 つまり、"*コンシューマー*" は、同僚と共同作業すること、および彼らと共有されているダッシュボード、レポート、およびアプリを表示したり、操作したりすることができます。 
+Power BI Premium では、専用の容量を提供して、より一貫したパフォーマンスを実現します。 また、Power BI でより大規模なデータ ボリュームもサポートします。 個々のユーザーについては、Premium では Pro ユーザーがコンテンツを広範囲に配布できます。コンテンツを表示する受信者にユーザーごとの Pro ライセンスは必要ありません。 つまり、"*ビジネス ユーザー*" は、同僚と共同作業したり、彼らと共有されているダッシュボード、レポート、およびアプリを表示したり、操作したりできます。 
 
 詳細については、[自分が所有するライセンスの種類](end-user-license.md)に関するページを参照してください。
 
@@ -47,9 +47,9 @@ Power BI Premium に関連する質問については、「[Power BI Premium FAQ
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop とは何ですか?
 
-Power BI Desktop は無償のアプリケーションで、各自のコンピューターに直接インストールできます。 Power BI Desktop は、Power BI サービスと連携して動作します。  データ サイエンティスト、レポート デザイナー、管理者、および開発者は、Power BI Desktop を操作してレポートを作成し、お客様のような Power BI サービスの "*コンシューマー*" が利用できるようにします。 [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) について、詳細を確認してください。
+Power BI Desktop は無償のアプリケーションで、各自のコンピューターに直接インストールできます。 Power BI Desktop は、Power BI サービスと連携して動作します。  データ サイエンティスト、レポート デザイナー、管理者、および開発者は、Power BI Desktop を操作してレポートを作成し、お客様のような Power BI サービスの "*ビジネス ユーザー*" が利用できるようにします。 [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) について、詳細を確認してください。
 
-## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>"*コンシューマー*" として Power BI サービスを使用するには何が必要ですか?
+## <a name="as-a-business-user-what-do-i-need-to-use-the-power-bi-service"></a>"*ビジネス ユーザー*" として Power BI サービスを使用するには何が必要ですか?
 
 お客様の会社が Power BI ライセンスまたは Premium 容量アカウントを購入している場合、お客様が必要とするのは Web ブラウザーと資格情報だけです。 ログインするには、職場の電子メール アドレスと、パスワード (Power BI 管理者によって設定されます) を使用します。  
 
@@ -84,7 +84,7 @@ Power BI モバイル アプリはそれぞれ該当するストアから無料�
 * [Power BI ブログ](https://powerbi.microsoft.com/blog/)
 * [Web セミナー](../fundamentals/webinars.md)
 * [YouTube チャンネル](https://www.youtube.com/user/mspowerbi)の概要ビデオ
-* [*コンシューマー*としての Power BI の使用開始](index.yml)に関する記事
+* ["*ビジネス ユーザー*" としての Power BI の使用開始](index.yml)に関する記事
 * [コミュニティに参加](https://community.powerbi.com/)して質問する
 * 他の推奨事項については、「[ヘルプを取得するための 10 のヒント](../fundamentals/service-tips-for-finding-help.md)」をご覧ください。
 
@@ -112,7 +112,7 @@ Power BI セキュリティ、プライバシー、およびコンプライア�
 
 ## <a name="next-steps"></a>次の手順
 
-* [Power BI コンシューマーとは何ですか? ](end-user-consumer.md)
-* [コンシューマーが Power BI を使用するにはどうすればよいですか? ](end-user-reading-view.md)
+* [Power BI ビジネス ユーザーとは](end-user-consumer.md)
+* [ビジネス ユーザーと Power BI の連携](end-user-reading-view.md)
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 * それでも解決しない場合は、 [Power BI のサポート ページ](https://powerbi.microsoft.com/support/)をご覧ください
