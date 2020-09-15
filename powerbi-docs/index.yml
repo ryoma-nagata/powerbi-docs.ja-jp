@@ -12,27 +12,27 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/31/2020
-  ms.openlocfilehash: d293b27b65e3997b895d3fd10d69292db661bc3b
-  ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+  ms.date: 09/09/2020
+  ms.openlocfilehash: f1334267e0b1698c8105115e821d8eccb69c1b00
+  ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 07/28/2020
-  ms.locfileid: "87364033"
+  ms.lasthandoff: 09/10/2020
+  ms.locfileid: "90008608"
 highlightedContent:
   items:
-  - title: 米国のデータを含む COVID-19 のレポートを作成する
-    itemType: sample
-    url: create-reports/sample-covid-19-us.md
   - title: Power BI Desktop の概要
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: Power BI サービスにサインアップする
-    itemType: how-to-guide
-    url: fundamentals/service-self-service-signup-for-power-bi.md
-  - title: 共同作業と共有の方法
+  - title: Microsoft Teams での Power BI との共同作業
     itemType: concept
-    url: collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md
+    url: collaborate-share/service-collaborate-microsoft-teams.md
+  - title: アプリケーションに Power BI コンテンツを埋め込む
+    itemType: tutorial
+    url: developer/embedded/embed-sample-for-customers.md
+  - title: Microsoft Learn の Power BI
+    itemType: learn
+    url: https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
 conceptualContent:
   items:
   - title: Power BI では、次のことが行われます。作業の開始
@@ -40,12 +40,12 @@ conceptualContent:
     - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: Power BI とは?
-    - url: fundamentals/desktop-what-is-desktop.md
-      itemType: overview
-      text: Power BI Desktop とは何ですか?
     - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: Power BI サービスとは何ですか?
+    - url: fundamentals/service-self-service-signup-for-power-bi.md
+      itemType: overview
+      text: Power BI サービスにサインアップする
     footerLink:
       url: fundamentals/index.yml
       text: 詳細情報
@@ -71,9 +71,9 @@ conceptualContent:
     - url: admin/service-admin-licensing-organization.md
       itemType: concept
       text: 組織でのライセンス
-    - url: admin/service-admin-portal.md
+    - url: admin/service-premium-what-is.md
       itemType: concept
-      text: 管理ポータル
+      text: Power BI Premium とは
     footerLink:
       url: admin/index.yml
       text: 詳細情報
@@ -107,9 +107,9 @@ conceptualContent:
       text: 詳細情報
   - title: データの変換と整形
     links:
-    - url: transform-model/desktop-analytics-pane.md
-      itemType: how-to-guide
-      text: '[分析] ウィンドウを使用する'
+    - url: transform-model/desktop-query-overview.md
+      itemType: overview
+      text: クエリ エディターの概要
     - url: transform-model/desktop-common-query-tasks.md
       itemType: concept
       text: 一般的なクエリ タスク
@@ -135,9 +135,9 @@ conceptualContent:
       text: 詳細情報
   - title: レポートとダッシュボードの作成
     links:
-    - url: create-reports/desktop-report-themes.md
-      itemType: concept
-      text: レポートのテーマ
+    - url: create-reports/sample-covid-19-us.md
+      itemType: sample
+      text: 米国のデータを含む COVID-19 のレポートを作成する
     - url: paginated-reports/paginated-reports-report-builder-power-bi.md
       itemType: concept
       text: ページ分割されたレポートとは
