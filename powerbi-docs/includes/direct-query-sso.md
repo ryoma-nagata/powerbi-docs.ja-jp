@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 04/28/2020
 ms.author: davidi
-ms.openlocfilehash: d56988986cfd994bb21c9bc25d024903719472cf
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ed87101fe7f5fadd24594d53bbd0ffb6f029faa4
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82255810"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90012799"
 ---
 ## <a name="single-sign-on"></a>シングル サインオン
 
@@ -26,3 +26,5 @@ SSO オプションが有効になっている場合、データ ソースを基
 
 SSO オプションは、このデータ ソースを使うすべてのデータセットで有効になります。 インポートのシナリオに使われる認証方法には影響しません。
 
+> [!Note]
+> Azure Multi-Factor Authentication (MFA) はサポートされていません。 DirectQuery で SSO を使用する必要があるユーザーは、MFA から除外する必要があります。
