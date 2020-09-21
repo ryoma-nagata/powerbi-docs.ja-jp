@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 05/01/2020
-ms.openlocfilehash: 36c14ec0da3c7818a6c938e0fd47f4a6476470f6
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.date: 09/09/2020
+ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562423"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642394"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI のページ分割されたレポートの URL パラメーター
 
@@ -91,9 +91,9 @@ URL でレポート パラメーターを渡す例については、 [URL 内�
     - 'interactive' (既定値): 対話型モードでレポートを読み込みます。
     - 'pageView': ページ ビュー モードでレポートを読み込みます。
 
-**パラメーター パネルの状態** レポートの読み込み時にパラメーター パネルを閉じるか、開くか、または完全に非表示にするかを指定します。
+**パラメーター パネル** レポートの読み込み時にパラメーター パネルを閉じるか、開くか、または完全に非表示にするかを指定します。
 
--   rdl:parameterPanelState
+-   rdl:parameterPanel
 
     - 'collapsed': パラメーター パネルが閉じられた状態でレポートを読み込みます。 ユーザーがボタンをクリックして展開できるように、パラメーター ボタンが有効になっています。
     - 'hidden': パラメーター パネルが閉じられ、パラメーター ボタンが無効な状態でレポートを読み込みます。

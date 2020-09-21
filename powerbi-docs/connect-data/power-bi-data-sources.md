@@ -6,22 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2020
+ms.date: 09/11/2020
 ms.author: davidi
-ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
-ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
+ms.openlocfilehash: 926569e783dad7a97b91e2e5c1752401d21d6612
+ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88764953"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90084055"
 ---
 # <a name="power-bi-data-sources"></a>Power BI データ ソース
 
 この表には、DirectQuery やオンプレミス データ ゲートウェイに関する情報など、データセットに対して Power BI でサポートされているデータ ソースがまとめられています。 データフローの詳細については、「[Power BI データフロー用のデータ リソースに接続する](../transform-model/service-dataflows-data-sources.md)」を参照してください。
-
-> [!NOTE]
-> Power BI Desktop 用のデータ コネクタの多くには、認証に Internet Explorer 10 (またはそれ以降) が必要です。 
-
 
 | データ ソースの | デスクトップから接続する | サービスから接続し、更新する | DirectQuery / ライブ接続 | ゲートウェイ (サポートあり) | ゲートウェイ (必須) |
 |---|---|---|---|---|---|---|---|
@@ -63,7 +59,7 @@ ms.locfileid: "88764953"
 | Excel | はい <sup>3</sup> | はい <sup>3</sup> | いいえ | はい <sup>3</sup> | いいえ <sup>4</sup> |
 | Facebook | はい | はい | いいえ | いいえ | いいえ |
 | ファイル | はい | はい | いいえ | はい | はい |
-| フォルダー | はい | はい | いいえ | はい | はい |
+| Folder | はい | はい | いいえ | はい | はい |
 | GitHub | はい | はい | いいえ | いいえ | いいえ |
 | Google Analytics | はい | はい | いいえ | いいえ | いいえ |
 | Google BigQuery | はい | はい | はい | いいえ | いいえ |
@@ -156,6 +152,11 @@ ms.locfileid: "88764953"
 <sup>7</sup> Power BI サービスでは、認証を必要とする OData フィードはサポートされていません。
 
 <sup>8</sup> Paxata は、Power BI Report Server 向けに最適化された Power BI Desktop のバージョンでサポートされています。 Power BI Report Server に発行された Power BI レポートではサポートされていません。 サポートされているデータ ソースの一覧については、「[Power BI Report Server での Power BI レポート データ ソース](../report-server/data-sources.md)」を参照してください。
+
+## <a name="considerations-and-limitations"></a>考慮事項と制限事項
+
+- Power BI Desktop 用のデータ コネクタの多くには、認証に Internet Explorer 10 (またはそれ以降) が必要です。 
+- 一部のデータ ソースは、Power BI Report Server 用に最適化された Power BI Desktop では使用できますが、Power BI Report Server に発行するときはサポートされていません。 サポートされているデータ ソースの一覧については、「[Power BI Report Server での Power BI レポート データ ソース](../report-server/data-sources.md)」を参照してください。
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery ソースのシングル サインオン (SSO)
 

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 44b66c2c8245b7f9629ad36879e6f13a5e720687
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537759"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008740"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI でサポートされているインサイトの種類
 
@@ -27,7 +27,7 @@ ms.locfileid: "87537759"
 ![一連の分析情報](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>インサイトのしくみ
-Power BI はデータセットのさまざまなサブセットをすばやく検索します。 Power BI は検索する際、興味がある可能性のあるインサイトを検出するために一連の洗練されたアルゴリズムを適用します。 Power BI の "*コンシューマー*" は、ダッシュボードのタイルで分析情報を実行できます。
+Power BI はデータセットのさまざまなサブセットをすばやく検索します。 Power BI は検索する際、興味がある可能性のあるインサイトを検出するために一連の洗練されたアルゴリズムを適用します。 Power BI の "*ビジネス ユーザー*" は、ダッシュボードのタイルで分析情報を実行できます。
 
 ## <a name="some-terminology"></a>用語
 Power BI では統計的アルゴリズムを使用して分析情報が明らかにされます。 これらのアルゴリズムについては、この記事の次のセクションに一覧して説明します。 アルゴリズムに進む前に、ここでは馴染みがないと思われるいくつかの用語の定義を示します。 
@@ -44,49 +44,49 @@ Power BI では統計的アルゴリズムを使用して分析情報が明ら�
 ### <a name="category-outliers-topbottom"></a>カテゴリ外れ値 (上/下)
 1 つまたは 2 つのカテゴリの値が他のカテゴリよりもはるかに大きいケースを強調表示します。  
 
-![カテゴリの外れ値の例](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
+![カテゴリの外れ値の例](./media/end-user-insight-types/pbi-auto-insight-type-category-outliers.png)
 
 ### <a name="change-points-in-a-time-series"></a>時系列の変更点
 データの時系列の傾向で、大きな変化があったときに強調表示します。
 
-![時系列の変更点の例](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
+![時系列の変更点の例](./media/end-user-insight-types/pbi-auto-insight-type-changepoint.png)
 
 ### <a name="correlation"></a>Correlation
 データセット内のカテゴリまたは値に対してプロットされたときに、複数のメジャーが、類似したパターンまたは傾向を示すケースを検出します。
 
-![相関関係の例](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
+![相関関係の例](./media/end-user-insight-types/pbi-auto-insight-type-correlation.png)
 
 ### <a name="low-variance"></a>低差異
 あるディメンションのデータ ポイントが平均から離れていないため、"分散" が低くなるケースを検出します。 たとえば、"売上" というメジャーと "地域" というディメンションがあるとします。 そして、地域全体を調べると、データ ポイントと (データ ポイントの) 平均の間にほとんど違いがないことがわかります。 すべての地域の売上の分散がしきい値を下回ると、分析情報がトリガーされます。 つまり、売上がすべての地域で非常に類似している場合です。
 
-![低差異の例](./media/end-user-insight-types/power-bi-low-variance.png)
+![低差異の例](./media/end-user-insight-types/power-bi-insights-low-variance.png)
 
 ### <a name="majority-major-factors"></a>マジョリティ (主要因子)
 別のディメンションによって分類した場合に、合計値の大部分が単一の因子に帰する可能性があるケースを検索します。  
 
-![主な要因の例](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
+![主な要因の例](./media/end-user-insight-types/pbi-auto-insight-type-majority.png)
 
 ### <a name="overall-trends-in-time-series"></a>時系列の全体的な傾向
 時系列データの上昇または下降の傾向を検出します。
 
-![時系列の全体的な傾向の例](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
+![時系列の全体的な傾向の例](./media/end-user-insight-types/pbi-auto-insight-type-trend.png)
 
 ### <a name="seasonality-in-time-series"></a>時系列の周期性
 週単位、月単位、または年単位の周期性などの時系列データの定期的なパターンを見つけます。
 
-![周期性の例](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
+![周期性の例](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>安定した共有
 連続した変数にわたる親の全体の値に関連して、子の値のシェア間に親子の相関関係があるケースを強調表示します。 安定したシェアの分析情報は、メジャー、ディメンション、および別の日付/時刻のディメンションのコンテキストに適用されます。 この分析情報は、特定のディメンション値 ("北東地域" など) の、その日付/時刻のディメンションにわたる全体的な売上が、安定したパーセンテージを示す場合にトリガーされます。
 
 安定したシェアの分析情報は、低差異の分析情報に似ています。どちらも時間の経過に伴う値の分散の小ささに関連しているためです。 ただし、安定したシェアの分析情報では、時間経過に伴う**全体のパーセンテージ**の分散の小ささが測定されますが、低差異の分析情報では、ディメンション全体のメジャーの絶対値に関する分散の小ささが測定されます。
 
-![安定した共有の例](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
+![安定した共有の例](./media/end-user-insight-types/pbi-auto-insight-type-steadyshare.png)
 
 ### <a name="time-series-outliers"></a>時系列外れ値
 時系列全体にわたるデータに対して、その他の日付/時刻値と大きく異なる値を持つ特定の日付や時刻がある場合を検出します。
 
-![時系列外れ値の例](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
+![時系列外れ値の例](./media/end-user-insight-types/pbi-auto-insight-type-time-series-outliers-purple.png)
 
 ## <a name="next-steps"></a>次のステップ
 [Power BI のインサイト](end-user-insights.md)

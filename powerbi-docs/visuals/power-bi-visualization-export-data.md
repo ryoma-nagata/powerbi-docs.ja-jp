@@ -11,11 +11,12 @@ ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238968"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008930"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>視覚エフェクトの作成に使用されたデータをエクスポートする
 
@@ -267,7 +268,9 @@ Power BI 管理ポータルの設定がエクスポート データのレポー�
   
   1. ファイルが保存されているローカル フォルダーに移動し、 *.csv* を選択します。
 
-- *.csv* にエクスポートすると、特定の文字が先頭の **'** でエスケープされます。
+- *.csv* にエクスポートするとき、Excel で開いたときにスクリプトが実行されないようにするため、特定の文字が先頭の **'** でエスケープされます。 これは次の場合に発生します。
+  - 列がデータ モデルで "テキスト" 型として定義される場合、"**_かつ_**"
+  - テキストの最初の文字が **=、@、+、-** のいずれかである場合
 
 - Power BI 管理者は、データのエクスポートを無効にできます。
 

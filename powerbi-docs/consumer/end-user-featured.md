@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 09/03/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 022ce2c28ef41636c4530f93e7c2765784c24ff0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3cbd8acd2f32ea5fa0ccbb0fa3f91e45629cc079
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215855"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642457"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI サービスのおすすめのダッシュボード
 
@@ -23,9 +23,9 @@ ms.locfileid: "86215855"
 多くのユーザーには、他のダッシュボードより頻繁にアクセスする 1 つのダッシュボードがあります。 それは、ビジネスの運営に使用するダッシュボードかもしれません。 または、多くの異なるダッシュボードとレポートから取られたタイルの集合体が含まれるダッシュボードの場合もあります。
 
 ## <a name="create-a-featured-dashboard"></a>おすすめのダッシュボードを作成する
-ダッシュボードを "*おすすめ*" に選択すると、Power BI サービスを開くたびに、そのダッシュボードが表示された状態で開きます。 
+ダッシュボードを "*おすすめ*" に設定すると、Power BI サービスを開くたびに、そのダッシュボードが表示された状態で開きます。 
 
-![おすすめに設定アイコン](./media/end-user-featured/power-bi-dropdown.png)
+![おすすめに設定アイコン](./media/end-user-featured/power-bi-dropbox.png)
 
 複数のダッシュボードを選んで、お気に入りに設定することもできます。 「[お気に入りのダッシュボード](end-user-favorite.md)」を参照してください。
 
@@ -37,19 +37,19 @@ ms.locfileid: "86215855"
 1. おすすめに設定するダッシュボードを開きます。 
 2. 上部のメニューバーで、**その他のオプション** (...) を選択し、 **[おすすめに設定]** を選択します。 
    
-    ![おすすめに設定アイコン](./media/end-user-featured/power-bi-dropdown.png)
+    ![[おすすめに設定] のオプションが含まれるドロップボックスを示すスクリーンショット](./media/end-user-featured/power-bi-set-as-featured.png)
 3. 選択内容を確認します。
    
     ![おすすめのダッシュボードを設定する](./media/end-user-featured/power-bi-featured-confirm.png)
 
 ## <a name="change-the-featured-dashboard"></a>おすすめのダッシュボードを変更する
-後で考えが変わった場合、新しいダッシュボードをおすすめのダッシュボードとして設定できます。
+後で考えが変わった場合、新しいダッシュボードをおすすめのダッシュボードとして設定できます。 ダッシュボードをおすすめから解除しても、Power BI から削除されることはありません。 
 
 1. 前の手順 1 と 2 に従います。
    
-2. **[おすすめのダッシュボードに設定]** を選択します。 ダッシュボードをおすすめから解除しても、Power BI から削除されることはありません。 
+2. **[おすすめのダッシュボードに設定]** を選択します。 
    
-    ![成功メッセージ](./media/end-user-featured/power-bi-unfeature-new.png)
+    ![成功メッセージ](./media/end-user-featured/power-bi-unfeatured.png)
 
 ## <a name="remove-the-featured-dashboard"></a>おすすめのダッシュボードを削除する
 おすすめのダッシュボードを 1 つも設定しない場合に、ダッシュボードのおすすめを解除する方法を次に示します。

@@ -347,6 +347,8 @@
               href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
             - name: Power BI 共有データセットを使用したレポートを作成する
               href: ../paginated-reports/report-builder-shared-datasets.md
+            - name: ページ分割されたレポートの .rdl をダウンロードする
+              href: ../paginated-reports/paginated-reports-download-rdl.md
             - name: パラメーターを作成する
               href: ../paginated-reports/paginated-reports-parameters.md
             - name: レポートの表示回数を設定する

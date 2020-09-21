@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490466"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642803"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -253,21 +253,9 @@ Microsoft 365 グループに基づく従来のワークスペースについて
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Azure Active Directory のゲスト ユーザーによる Power BI へのアクセスを許可する
 
-この設定を有効にすると Azure Active Directory Business-to-Business (Azure AD B2B) のゲスト ユーザーが Power BI にアクセスできるようになります。 この設定を無効にすると、Power BI にアクセスしようとしたときに、ゲスト ユーザーにエラーが表示されます。 組織全体に対してこの設定を無効にすると、ユーザーが組織にゲストを招待したり、個々のゲスト ユーザーにアクセス許可を割り当てたりするのを防ぐこともできます。 Power BI にアクセスできるゲスト ユーザーを制御するには、特定のセキュリティ グループのオプションを使用します。
+この設定を有効にすると Azure Active Directory Business-to-Business (Azure AD B2B) のゲスト ユーザーが Power BI にアクセスできるようになります。 この設定を無効にすると、Power BI にアクセスしようとしたときに、ゲスト ユーザーにエラーが表示されます。 組織全体に対してこの設定を無効にすると、ユーザーが組織にゲストを招待するのを防ぐこともできます。 Power BI にアクセスできるゲスト ユーザーを制御するには、特定のセキュリティ グループのオプションを使用します。
 
 ![Azure Active Directory のゲスト ユーザーによる Power BI へのアクセスを許可する](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
-
-### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>既存の Azure Active Directory のゲスト ユーザーにアクセス許可を付与できるようにする
-
-有効にすると、組織内のユーザーは Power BI のアクセス許可または共有エクスペリエンスを通じて個々のゲスト ユーザーにアクセス許可を付与できます。 無効になっているユーザーは Power BI にアクセス許可を割り当てたり、ゲスト ユーザーを招待したりできません。
-
-![既存の Azure Active Directory のゲスト ユーザーにアクセス許可を付与できるようにする](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
-
-
-> [!IMPORTANT]
->  この設定によって、ゲスト ユーザーに常にアクセス許可が割り当てられなくなるわけではありません。 この設定では、個々のゲスト ユーザーに対するアクセス権の付与のみが阻止されます。 ゲスト ユーザーには、セキュリティ、Office 365 グループ、配布リストなどのユーザー グループを使用して引き続きアクセス権を付与することができます。 
-
-ゲスト ユーザーにアクセス許可を与えることが許可されていないユーザーは、UI にエラー メッセージが表示されます。 また、アイテムに対するアクセス許可を変更する場合、アイテムに対するアクセス許可を付与または変更するには、ゲストへのアクセス許可の付与が許可されていないユーザーがアクセス リストからゲスト ユーザーをすべて削除する必要があります。 
 
 ### <a name="invite-external-users-to-your-organization"></a>組織に外部ユーザーを招待する 
 
@@ -279,8 +267,6 @@ Microsoft 365 グループに基づく従来のワークスペースについて
 > この設定は、以前は "外部ユーザーとコンテンツを共有する" と呼ばれていました。 変更後の名前は、設定の内容をより正確に反映しています。
 
 組織に外部ユーザーを招待するには、Azure Active Directory のゲスト招待元ロールも必要です。 この設定では、Power BI を通じて招待する機能のみが制御されます。 
-
-ユーザーに対して **[Allow giving permissions to existing Azure Active Directory guest users]\(既存の Azure Active Directory ゲスト ユーザーにアクセス許可を与える\)** 設定が無効になっている場合は、Power BI を通じて外部ユーザーを組織に招待することもできません。
 
 ### <a name="publish-to-web"></a>Web に公開
 

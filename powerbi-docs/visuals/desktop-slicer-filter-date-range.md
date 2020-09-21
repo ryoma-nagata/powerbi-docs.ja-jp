@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ef6fef8535e0fb6013e363a23f4736368a66720c
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562446"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008884"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI での相対日付のスライサーおよびフィルターの作成
 
@@ -45,9 +45,7 @@ Power BI を使用する同僚とレポートを共有するには、それぞ�
 ![最初の設定が呼び出されている相対構成オプションのスクリーンショット。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 * 最後
-
 * 次へ
-
 * この
 
 "*相対日付スライサー*" の 2 番目 (真ん中) の設定では、数字を入力して、相対的な日付範囲を定義できます。
@@ -59,26 +57,19 @@ Power BI を使用する同僚とレポートを共有するには、それぞ�
 ![3 番目の設定が呼び出されている相対構成オプションのスクリーンショット。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
 * 日
-
 * 週
-
 * 週 (暦)
-
 * Months
-
 * 月 (暦)
-
 * 年
-
 * 年 (暦)
 
 一覧から "**月**" を選択して、真ん中の設定で *2* と入力した場合、次のような状態になります。
 
-* 今日が 7 月 20 日の場合
+* 今日が 7 月 20 日の場合:
 
-* スライサーによって制約されるビジュアルに含まれているデータには、前の 2 か月間のデータが表示されます
-
-* 5 月 21 日から 7 月 20 日 (今日の日付) まで
+    - スライサーによって制約されるビジュアルに含まれているデータには、前の 2 か月間のデータが表示されます
+    - 5 月 21 日から 7 月 20 日 (今日の日付) まで
 
 一方、"*月 (暦)* " を選択すると、制約されたビジュアルに、5 月 1 日から 6 月 30 日 (過去 2 カレンダー月) までのデータが表示されます。
 
@@ -100,10 +91,9 @@ Power BI を使用する同僚とレポートを共有するには、それぞ�
 
 現在、**相対日付範囲スライサー**とフィルターには次の制限事項と考慮事項が適用されています。
 
+* スライサーのフィールドのデータ型は、既定のテキストではなく日付である必要があります。 そうしないと、関連するオプションがスライサーに表示されません。
 * **Power BI** のデータ モデルには、タイム ゾーン情報が含まれていません。 モデルは時間を保存できますが、タイム ゾーンの指定はありません。
-
 * スライサーとフィルターは、常に協定世界時 (UTC) に基づいています。 レポートでフィルターを設定して、別のタイム ゾーンにいる同僚に送る場合、双方とも同じデータが表示されます。 UTC タイム ゾーンを使用していない場合は、ご自分と同僚との間の時刻のずれを考慮する必要があります。
-
 * **クエリ エディター**を使って、キャプチャされたデータを現地のタイム ゾーンから UTC に変換できます。
 
 ## <a name="next-steps"></a>次の手順

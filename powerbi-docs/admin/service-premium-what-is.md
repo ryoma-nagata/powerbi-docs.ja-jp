@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: de5ab7b75967e752615bf7415c81ba7bb18c1a80
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364056"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008562"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium とは
 
@@ -205,7 +205,7 @@ Premium 容量ではクエリごとのメモリと時間の制約値は大幅に
 
 ## <a name="incremental-refresh"></a>増分更新
 
-Power BI Premium で大規模なデータセットを用意して管理する上で、増分更新は不可欠な部分です。 増分更新には多くの利点があります。たとえば、変更されたデータを更新するだけで済むので、更新がより迅速に行われます。 揮発性のソース システムに対して長時間の接続を維持する必要がないため、更新の信頼性が高くなります。 更新するデータが少ないと、メモリや他のリソースの全体的な消費量が減少するので、リソースの消費量が減ります。 増分更新ポリシーは、**Power BI Desktop** で定義し、Premium 容量内のワークスペースに発行すると適用されます。 
+増分更新は、Power BI Premium と Power BI Pro で大規模なデータセットを保持して管理する上で、不可欠な要素です。 増分更新には多くの利点があります。たとえば、変更されたデータを更新するだけで済むので、更新がより迅速に行われます。 揮発性のソース システムに対して長時間の接続を維持する必要がないため、更新の信頼性が高くなります。 更新するデータが少ないと、メモリや他のリソースの全体的な消費量が減少するので、リソースの消費量が減ります。 増分更新ポリシーは、**Power BI Desktop** で定義し、Premium 容量内のワークスペースに発行すると適用されます。 
 
 ![更新の詳細](media/service-premium-incremental-refresh/refresh-details.png)
 

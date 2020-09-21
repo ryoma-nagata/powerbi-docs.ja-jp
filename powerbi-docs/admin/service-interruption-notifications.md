@@ -6,13 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 09/09/2020
 ms.author: kfollis
-ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 89619a20f2fcf8510825b0234b90be5b2ff92e11
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485486"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642275"
 ---
 # <a name="service-interruption-notifications"></a>サービス中断の通知
 
@@ -39,7 +40,7 @@ Power BI Premium 容量が長期にわたって高リソース使用の状態に
 
 * 原因であるデータセットのデータセット ID
 * 操作の種類
-* 高リソース使用率に関係がある CPU 時間
+* 高リソース使用率に関係がある CPU 時間。 Wikipedia にある [CPU 時間の定義](https://wikipedia.org/wiki/CPU_time)を次に示します。
 
 Power BI Premium 容量の過負荷が検出された場合にも、Power BI によってメール通知が送信されます。 このメールでは、過負荷の考えられる理由、過去 10 分間に負荷を発生させた操作、および各操作で発生した負荷の量について説明されます。 
 

@@ -7,15 +7,15 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/22/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5fa66f2ff3650e4b4578207c2c70b70041c2c3d5
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 21bccbd11f8d2060b648e22c8ed8aa9471c820f0
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537736"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642497"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI を使用してダッシュボード タイルに関するデータの分析情報を表示する
 
@@ -23,7 +23,7 @@ ms.locfileid: "87537736"
 
 ダッシュボード上の各ビジュアル [タイル](end-user-tiles.md)からデータの探索を開始できます。 タイルを選択すると、レポートまたは [Q&A](end-user-q-and-a.md) が開き、レポートの背後でデータセットをフィルター処理し、並べ替えて掘り下げることができます。 また、インサイトを実行すると、Power BI でデータの探索が自動的に実行されます。
 
-![省略記号メニュー モード](./media/end-user-insights/power-bi-insight.png)
+![オプションとして [分析情報を表示] が表示された省略記号メニュー モード](./media/end-user-insights/power-bi-insight.png)
 
 分析を実行して、データに基づいて、興味を引く対話型のビジュアルを生成します。 特定のダッシュボード タイルで分析を実行することができます。分析情報に対して分析を実行することもできます。
 
@@ -35,12 +35,12 @@ ms.locfileid: "87537736"
 1. [ダッシュボードを開きます](end-user-dashboards.md)。
 2. タイルの上にマウスを置きます。 **その他のオプション** (...) を選択し、 **[詳細情報の表示]** を選択します。 
 
-    ![省略記号メニュー モード](./media/end-user-insights/power-bi-hovers.png)
+    ![省略記号を選択したことで表示されたドロップダウンを示すスクリーンショット](./media/end-user-insights/power-bi-hover.png)
 
 
 3. タイルが[フォーカス モード](end-user-focus.md)で開き、インサイト カードが右側に表示されます。    
    
-    ![フォーカス モード](./media/end-user-insights/power-bi-insights-tile.png)    
+    ![フォーカス モード](./media/end-user-insights/power-bi-insights-tiles.png)    
 4. 興味をそそる情報がありましたか? 詳細に確認するには、その分析情報カードを選択します。 選択した分析情報が左側に表示され、右側には、その単一の分析情報に含まれるデータのみに基づく新しい分析情報カードが表示されます。    
 
  ## <a name="interact-with-the-insight-cards"></a>インサイト カードとの対話
@@ -48,15 +48,12 @@ ms.locfileid: "87537736"
 
    * キャンバス上のビジュアルをフィルター処理します。  フィルターを表示するには、右上の矢印を選択し、[フィルター] ウィンドウを展開します。
 
-      ![[フィルター] メニューが展開された分析情報](./media/end-user-insights/power-bi-filters.png)
+      ![分析情報と、展開された [フィルター] メニュー](./media/end-user-insights/power-bi-filter.png)
    
-   * インサイト カード自体に対してインサイトを実行します。 これは**関連する分析情報**と呼ばれることがよくあります。 分析情報カードを選択してアクティブにします。 これは、レポート キャンバスに表示されます。
+   * インサイト カード自体に対してインサイトを実行します。 これは**関連する分析情報**と呼ばれることがよくあります。 分析情報カードを選択してアクティブにします。 それはレポート キャンバスの左側に移動し、右側には、その単一の分析情報に含まれるデータのみに基づく新しいカードが表示されます。
    
-      ![[フィルター] メニューが展開された分析情報](./media/end-user-insights/power-bi-insight-card.png)
+      ![関連する分析情報と展開された [フィルター] メニュー](./media/end-user-insights/power-bi-insights-card.png)
    
-   * 右上にある電球アイコン ![[分析情報の取得] アイコン](./media/end-user-insights/power-bi-bulb-icon.png) または **[分析情報の取得]** を選択します。 インサイトが左側に表示され、右側には、その単一の情報に含まれるデータのみに基づく新しいカードが表示されます。
-     
-     ![[詳細情報の取得] アイコンが表示されたメニュー バー](./media/end-user-insights/power-bi-related.png)
      
 レポートに戻るには、左上にある **[フォーカス モードの終了]** を選択します。
 
@@ -67,5 +64,5 @@ ms.locfileid: "87537736"
 ## <a name="next-steps"></a>次の手順
 
 [分析機能を使用](end-user-analyze-visuals.md)してレポートの視覚化に対して分析情報を実行する    
-使用できるクイック分析情報の種類については[こちら](end-user-insight-types.md)を参照してください。
+使用できる分析情報の種類については[こちら](end-user-insight-types.md)を参照してください。
 

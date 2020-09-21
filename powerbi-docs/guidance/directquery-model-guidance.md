@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214539"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642623"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery モデルのガイダンス
 
@@ -127,7 +127,7 @@ DirectQuery モデルを複合モデルに変換することで実現できる�
 
 ## <a name="educate-users"></a>ユーザーを教育する
 
-DirectQuery データセットに基づいてレポートを効率的に操作する方法について、ユーザーを教育することが重要です。 レポート作成者は、「[レポートの設計を最適化する](#optimize-report-designs section)」の内容についての教育を受ける必要があります。
+DirectQuery データセットに基づいてレポートを効率的に操作する方法について、ユーザーを教育することが重要です。 レポート作成者は、「[レポートの設計を最適化する](#optimize-report-designs)」セクションの内容についての教育を受ける必要があります。
 
 DirectQuery データセットに基づくレポートについて、レポート利用者を教育することをお勧めします。 この記事で説明されている制限事項など、一般的なデータ アーキテクチャについて理解しておくと役立つ場合があります。 更新応答や対話的なフィルター処理は速度が遅くなる場合があることを認識させます。 レポート ユーザーはパフォーマンスが低下する理由を理解していれば、レポートやデータについての信頼を失う可能性が低くなります。
 

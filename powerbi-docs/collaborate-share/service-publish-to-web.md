@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216562"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642655"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -180,7 +180,7 @@ Power BI にサインアップしたより小規模の組織または個人の�
 - [共有データセットと認定済みデータセット](../connect-data/service-datasets-share.md)。
 - 直接共有されているか、組織のコンテンツ パックを経由して共有されているレポート
 - 編集メンバーではないワークスペース内のレポート。
-- 現時点では、 **[Web に公開]** レポートで "R" ビジュアルはサポートされていません。
+- 現時点では、 **[Web に公開]** レポートで "R" および Python ビジュアルはサポートされていません。
 - Web に公開されたレポートのビジュアルからのデータのエクスポート。
 - ArcGIS Maps for Power BI のビジュアル
 - レポート レベルの DAX メジャーを含むレポート

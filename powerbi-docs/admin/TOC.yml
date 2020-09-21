@@ -80,7 +80,9 @@
           href: desktop-admin-sign-in-form.md
         - name: データ保護
           items:
-            - name: Power BI における秘密度ラベル
+            - name: Power BI におけるデータ保護
+              href: service-security-data-protection-overview.md
+            - name: 秘密度ラベルの概要
               href: service-security-sensitivity-label-overview.md
             - name: 秘密度ラベルを有効にする
               href: service-security-enable-data-sensitivity-labels.md

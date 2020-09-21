@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: fda04d3241db68f1ca8da66d999bfca6cef9e8cf
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: cdce9ead296a25aad95ab504d6da38f06f681b72
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937449"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008631"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI のページ分割されたレポートでサポートされるデータ ソース
 
@@ -29,7 +29,7 @@ ms.locfileid: "88937449"
 | Azure SQL Managed Instance | 基本 | パブリック エンドポイントまたはプライベート エンドポイント経由 (プライベート エンドポイントは、エンタープライズ ゲートウェイ経由でルーティングする必要があります)  |
 | Azure Analysis Services | SSO、OAuth2 | AAS ファイアウォールを無効にするか、BlackForest リージョンの IP 範囲をすべて許可するように構成する必要があります。 これは、BlackForest リージョンにのみ適用されます。  外部テナントからの SSO はサポートされていません。 |
 | Power BI データセット | SSO | Premium と Premium 以外の Power BI データセット。 読み取りのアクセス許可が必要 |
-| Premium Power BI データセット (XMLA) | SSO | Power BI データセットは、埋め込みのページ分割されたレポートのデータ ソースとしてはサポートされていません。  |
+| Premium Power BI データセット (XMLA) | SSO | "アプリ所有データ" のシナリオでは、Power BI データセットは埋め込みのページ分割されたレポートのデータ ソースとしてはサポートされません。  Power BI レポート ビルダーで適切に接続できるようにするには、データ ソースを設定するときに [資格情報を使用しない] オプションが選択されていることを確認します。   |
 | データの入力 | 該当なし | データはレポートに埋め込まれます。 |
 
 Azure SQL Database を除き、データ ソースはすべて、Power BI サービスにレポートをアップロードした後に使用できるようになります。 データ ソースは、既定でシングル サインオン (SSO) を使用するように設定されています (該当する場合)。 Azure Analysis Services では、認証の種類を OAuth2 に変更できます。 ただし、特定のデータ ソースの認証の種類が OAuth2 に変更されると、SSO を使用するように戻すことはできません。  また、この変更は、特定のテナントのすべてのワークスペースでそのデータ ソースを使用するすべてのレポートに適用されます。  ページ分割されたレポートの行レベルのセキュリティは、ユーザーが認証の種類に SSO を選択しない限り機能しません。
