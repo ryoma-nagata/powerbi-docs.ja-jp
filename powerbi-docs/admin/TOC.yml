@@ -133,7 +133,7 @@
         - name: PowerShell、REST API、および .NET SDK
           href: service-admin-reference.md
         - name: PowerShell 用の Power BI のコマンドレット
-          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          href: /powershell/power-bi/
           maintainContext: true
         - name: サービス URL リファレンス
           href: power-bi-whitelist-urls.md

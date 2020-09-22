@@ -40,9 +40,9 @@
             - name: ページ分割されたレポート データ ソース
               href: connect-data-sources.md
             - name: サブスクリプション
-              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+              href: /sql/reporting-services/working-with-subscriptions-web-portal
             - name: モバイル アプリの使用
-              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+              href: ../consumer/mobile/mobile-apps-for-mobile-devices.md
             - name: スケジュールされた更新のトラブルシューティング
               href: scheduled-refresh-troubleshoot.md
         - name: 開発者向けレポート サーバー
@@ -50,9 +50,9 @@
             - name: 開発者向けレポート サーバー
               href: developer-handbook-overview.md
             - name: レポート ビューアー コントロール
-              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+              href: /sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started
             - name: 拡張機能の開発
-              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+              href: /sql/reporting-services/extensions/reporting-services-extension-library
             - name: レポートの埋め込み
               href: quickstart-embed.md
     - name: 方法
@@ -74,12 +74,12 @@
             - name: ページ分割されたレポートに直接データを入力する
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: KPI の操作
-              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+              href: /sql/reporting-services/working-with-kpis-in-reporting-services
             - name: OData フィードとして共有データセットにアクセスする
               href: access-dataset-odata.md
             - name: PowerShell を使用してデータ ソース接続文字列を変更する
               href: connect-data-source-apis.md
-            - name: スケジュールされた更新を構成する
+            - name: スケジュールされた更新の構成
               href: configure-scheduled-refresh.md
             - name: レポートにコメントを追加する
               href: add-comments.md
@@ -102,7 +102,7 @@
             - name: Azure アプリケーション プロキシを使用してレポート サーバーを構成する
               href: azure-application-proxy.md
             - name: Azure AD を使用したリモート モバイル アクセス
-              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+              href: /azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi
             - name: Excel ブックをホストする
               href: excel-oos.md
     - name: リファレンス
@@ -110,13 +110,13 @@
         - name: REST API
           href: rest-api.md
         - name: WMI
-          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+          href: /sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs
         - name: SOAP API
-          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+          href: /sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework
         - name: URL アクセス
-          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
-        - name: 拡張機能
-          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+          href: /sql/reporting-services/url-access-ssrs
+        - name: の拡張
+          href: /sql/reporting-services/extensions/reporting-services-extension-library
     - name: リソース
       items:
         - name: キャパシティ プランニングに関するホワイト ペーパー

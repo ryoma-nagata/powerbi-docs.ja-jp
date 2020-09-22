@@ -137,7 +137,7 @@
             - name: アプリをインストールして使用する
               href: end-user-app-view.md
             - name: サービスへの接続
-              href: end-user-connect-to-services.md
+              href: ../connect-data/service-connect-to-services.md
             - name: アプリ マーケットプレースからサンプル アプリを入手する
               href: end-user-app-marketing.md
         - name: データに関する質問
@@ -153,6 +153,6 @@
         - name: よく寄せられる質問
           href: end-user-faq.md
         - name: サポートされているブラウザー
-          href: end-user-browsers.md
+          href: ../fundamentals/power-bi-browsers.md
         - name: クイック分析情報の種類
           href: end-user-insight-types.md
