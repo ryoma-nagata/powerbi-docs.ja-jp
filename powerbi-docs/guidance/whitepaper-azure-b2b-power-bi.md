@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782784"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965375"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -25,13 +25,13 @@ ms.locfileid: "85782784"
 **技術レビューアー:** Adam Wilson、Sheng Liu、Qian Liu、Sergei Gundorov、Jacob Grimm、Adam Saxton、Maya Shenhav、Nimrod Shalit、Elisabeth Olson
 
 > [!NOTE]
-> このホワイトペーパーを保存または印刷するには、ブラウザーから [**印刷**] を選択し、[ **PDF として保存**] を選択します。
+> このホワイトペーパーを保存または印刷するには、ブラウザーから [ **印刷** ] を選択し、[ **PDF として保存**] を選択します。
 
 ## <a name="introduction"></a>はじめに
 
 Power BI によって、組織はビジネスの360度のビューを提供し、これらの組織のすべてのユーザーがデータを使用してインテリジェントな意思決定を行えるようにします。 これらの組織の多くは、外部のパートナー、クライアント、および請負業者との信頼関係が強固で信頼されています。 これらの組織は、これらの外部パートナーのユーザーに Power BI のダッシュボードやレポートへのセキュリティで保護されたアクセスを提供する必要があります。
 
-Power BI は[Azure Active Directory 企業間 (AZURE AD B2B)](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)と統合されているため、組織外のゲストユーザーに Power BI コンテンツを安全に配布できますが、内部データへのアクセスを制御し、管理することができます。
+Power BI は [Azure Active Directory 企業間 (AZURE AD B2B)](/azure/active-directory/b2b/what-is-b2b) と統合されているため、組織外のゲストユーザーに Power BI コンテンツを安全に配布できますが、内部データへのアクセスを制御し、管理することができます。
 
 このホワイトペーパーでは、Azure Active Directory B2B との統合 Power BI を理解するために必要なすべての詳細について説明します。 最も一般的なユースケース、セットアップ、ライセンス、および行レベルのセキュリティについて説明します。
 
@@ -64,7 +64,7 @@ Contoso のビジネスユーザーは、ビジネス上の目的で必要に応
 
 Contoso は、下請業者と協力して、放射型の信頼性分析を実行します。 下請業者は、Contoso の Power BI 環境のデータにアクセスする必要がある10人のユーザーのチームを持っています。 Contoso Azure AD 管理者は、すべてのユーザーを招待し、下請業者の変更で担当者として追加や変更を処理するために関与します。 Azure AD 管理者は、下請業者のすべての従業員のセキュリティグループを作成します。 Contoso の従業員は、セキュリティグループを使用して、レポートへのアクセスを簡単に管理し、必要なすべての下請業者の担当者がすべての必要なレポート、ダッシュボード、および Power BI アプリにアクセスできるようにすることができます。 Azure AD 管理者は、Contoso または下請業者の信頼された従業員に招待権限を委任することにより、招待プロセスに関与しないようにすることもできます。
 
-一部の組織では、外部ユーザーを追加するタイミングをより細かく制御する必要があり、外部組織や多くの外部組織で多くのユーザーを招待しています。 このような場合、計画された共有を使用して、共有のスケールを管理したり、組織のポリシーを適用したり、信頼されたユーザーに権限を委任して外部ユーザーを招待および管理したりすることができます。 Azure AD B2B では、 [IT 管理者によって Azure portal から](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)直接送信される予定の招待をサポートしています。または、[招待マネージャー API を使用して](https://docs.microsoft.com/azure/active-directory/b2b/customize-invitation-api)、ユーザーのセットを1回の操作で招待することができます。 計画された招待方法を使用すると、組織はユーザーを招待して承認プロセスを実装できるユーザーを制御できます。 動的グループなどの高度な Azure AD 機能を使用すると、セキュリティグループのメンバーシップを自動的に管理しやすくなります。
+一部の組織では、外部ユーザーを追加するタイミングをより細かく制御する必要があり、外部組織や多くの外部組織で多くのユーザーを招待しています。 このような場合、計画された共有を使用して、共有のスケールを管理したり、組織のポリシーを適用したり、信頼されたユーザーに権限を委任して外部ユーザーを招待および管理したりすることができます。 Azure AD B2B では、 [IT 管理者によって Azure portal から](/azure/active-directory/b2b/add-users-administrator)直接送信される予定の招待をサポートしています。または、 [招待マネージャー API を使用して](/azure/active-directory/b2b/customize-invitation-api) 、ユーザーのセットを1回の操作で招待することができます。 計画された招待方法を使用すると、組織はユーザーを招待して承認プロセスを実装できるユーザーを制御できます。 動的グループなどの高度な Azure AD 機能を使用すると、セキュリティグループのメンバーシップを自動的に管理しやすくなります。
 
 
 ![どのゲストがコンテンツを表示できるかを制御する](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_02.png)
@@ -80,7 +80,7 @@ Contoso は、下請業者と協力して、放射型の信頼性分析を実行
 
 Contoso には、1つまたは複数のサプライヤーと共有するために必要な一連のレポートとダッシュボードが用意されています。 必要なすべての外部ユーザーがこのコンテンツにアクセスできるようにするために、Power BI アプリとしてパッケージ化されます。 外部ユーザーは、アプリアクセスリストに直接追加するか、セキュリティグループを使用して追加されます。 Contoso のだれかが、電子メールなどのすべての外部ユーザーにアプリの URL を送信します。 外部ユーザーがリンクを開くと、すべてのコンテンツが単一のナビゲーションエクスペリエンスで表示されます。
 
-Power BI アプリを使用すると、Contoso はサプライヤー向けの BI ポータルを簡単に作成できます。 1つのアクセスリストでは、必要なすべてのコンテンツへのアクセスを制御し、無駄な時間のチェックと項目レベルのアクセス許可の設定を減らします。 B2B Azure AD は、ユーザーが追加のログイン資格情報を必要としないように、サプライヤーのネイティブ id を使用してセキュリティアクセスを維持します。 セキュリティグループで計画された招待を使用している場合は、チームがプロジェクトを交代またはアウトするときに、アプリへのアクセス管理が簡略化されます。 手動または[動的グループ](https://docs.microsoft.com/azure/active-directory/b2b/use-dynamic-groups)を使用したセキュリティグループのメンバーシップ。これにより、仕入先のすべての外部ユーザーが適切なセキュリティグループに自動的に追加されます。
+Power BI アプリを使用すると、Contoso はサプライヤー向けの BI ポータルを簡単に作成できます。 1つのアクセスリストでは、必要なすべてのコンテンツへのアクセスを制御し、無駄な時間のチェックと項目レベルのアクセス許可の設定を減らします。 B2B Azure AD は、ユーザーが追加のログイン資格情報を必要としないように、サプライヤーのネイティブ id を使用してセキュリティアクセスを維持します。 セキュリティグループで計画された招待を使用している場合は、チームがプロジェクトを交代またはアウトするときに、アプリへのアクセス管理が簡略化されます。 手動または [動的グループ](/azure/active-directory/b2b/use-dynamic-groups)を使用したセキュリティグループのメンバーシップ。これにより、仕入先のすべての外部ユーザーが適切なセキュリティグループに自動的に追加されます。
 
 
 ![AAD を使用したコンテンツの制御](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_03.png)
@@ -103,13 +103,13 @@ Contoso は、下請け業者やサプライヤーと協力して、Contoso の�
 今後のリリースでは、Contoso 社のユーザーがレポートまたはダッシュボードを外部のゲストと共有すると、Power BI はゲストに通知する電子メールを送信します。 ゲストユーザーがモバイルデバイスでレポートまたはダッシュボードへのリンクを開くと、デバイスのネイティブ Power BI モバイルアプリでコンテンツが開きます (インストールされている場合)。 ゲストユーザーは、外部テナントで共有されているコンテンツ間を移動し、ホームテナントから独自のコンテンツに戻ることができます。
 
 > [!NOTE]
-> ゲストユーザーは Power BI モバイルアプリを開き、外部テナントにすぐに移動することはできません。外部テナントのアイテムへのリンクから開始する必要があります。 一般的な回避策については、このドキュメントで後述[する「親組織の Power BI のコンテンツへのリンクの配布](#distributing-links-to-content-in-the-parent-organizations-power-bi)」を参照してください。
+> ゲストユーザーは Power BI モバイルアプリを開き、外部テナントにすぐに移動することはできません。外部テナントのアイテムへのリンクから開始する必要があります。 一般的な回避策については、このドキュメントで後述 [する「親組織の Power BI のコンテンツへのリンクの配布](#distributing-links-to-content-in-the-parent-organizations-power-bi) 」を参照してください。
 
 ### <a name="cross-organization-editing-and-management-of-power-bi-content"></a>Power BI コンテンツのクロス組織の編集と管理
 
 Contoso とそのサプライヤーおよび下請け業者は、密接に連携しています。 多くの場合、下請業者のアナリストは、Contoso が共有しているレポートに追加のメトリックまたはデータビジュアライゼーションを追加する必要があります。 データは Contoso の Power BI テナントに格納されている必要がありますが、外部ユーザーは、それを編集し、新しいコンテンツを作成し、適切なユーザーに配布することもできます。
 
-Power BI には、外部の**ゲストユーザーが組織内のコンテンツを編集および管理できる**オプションが用意されています。 既定では、外部ユーザーには読み取り専用の使用状況指向のエクスペリエンスがあります。 ただし、この新しい設定により、Power BI 管理者は、自分の組織内のコンテンツを編集および管理できる外部ユーザーを選択できます。 外部ユーザーは、許可されると、レポート、ダッシュボード、アプリの発行または更新、ワークスペースでの作業、および使用するアクセス許可があるデータへの接続を行うことができます。
+Power BI には、外部の **ゲストユーザーが組織内のコンテンツを編集および管理できる** オプションが用意されています。 既定では、外部ユーザーには読み取り専用の使用状況指向のエクスペリエンスがあります。 ただし、この新しい設定により、Power BI 管理者は、自分の組織内のコンテンツを編集および管理できる外部ユーザーを選択できます。 外部ユーザーは、許可されると、レポート、ダッシュボード、アプリの発行または更新、ワークスペースでの作業、および使用するアクセス許可があるデータへの接続を行うことができます。
 
 このシナリオの詳細については、このドキュメントの後半の「外部ユーザーがコンテンツを編集および管理できるようにする Power BI」を参照してください。
 
@@ -157,18 +157,18 @@ Contoso とその radiator supplier の関係は、組織間の直接的な共�
 
 2番目の方法は、Power BI コンテンツ機能の組織間の編集と管理に依存しています。 親組織は、子会社のユーザーに Power BI へのアクセスを許可し、アクセス許可によってアクセスできる対象を制御します。 これにより、Power BI ホームにアクセスできるようになります。ここでは、子会社のユーザーが、親組織のテナントで共有されているコンテンツの包括的な一覧を確認できます。 その後、親組織の Power BI 環境への URL が、子会社のユーザーに与えられます。
 
-最終的な方法では、各子会社の Power BI テナント内で作成された Power BI アプリを使用します。 Power BI アプリには[、[外部リンク] オプションを使用して構成さ](https://docs.microsoft.com/power-bi/service-dashboard-edit-tile#hyperlink)れたタイルを含むダッシュボードが含まれています。 ユーザーがタイルを押すと、親組織の Power BI にある適切なレポート、ダッシュボード、またはアプリが表示されます。 このアプローチには、子会社のすべてのユーザーに対して自動的にアプリをインストールし、独自の Power BI 環境にサインインするたびにアプリケーションを使用できるという利点があります。 この方法の利点として、リンクをネイティブに開くことができる Power BI モバイルアプリに適しています。 また、これを2番目の方法と組み合わせて、Power BI 環境間での切り替えを容易にすることもできます。
+最終的な方法では、各子会社の Power BI テナント内で作成された Power BI アプリを使用します。 Power BI アプリには [、[外部リンク] オプションを使用して構成さ](../create-reports/service-dashboard-edit-tile.md#hyperlink)れたタイルを含むダッシュボードが含まれています。 ユーザーがタイルを押すと、親組織の Power BI にある適切なレポート、ダッシュボード、またはアプリが表示されます。 このアプローチには、子会社のすべてのユーザーに対して自動的にアプリをインストールし、独自の Power BI 環境にサインインするたびにアプリケーションを使用できるという利点があります。 この方法の利点として、リンクをネイティブに開くことができる Power BI モバイルアプリに適しています。 また、これを2番目の方法と組み合わせて、Power BI 環境間での切り替えを容易にすることもできます。
 
 #### <a name="allowing-subsidiary-users-to-access-data-sources-hosted-by-the-parent-organization"></a>親組織でホストされているデータソースへのアクセスを、子会社のユーザーに許可する
 
 多くの場合、子会社のアナリストは、親組織によって提供されるデータを使用して独自の分析を作成する必要があります。 この場合、一般的なクラウドデータソースを使用して課題に対処します。
 
-最初の方法では、次の図に示すように、 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview)を利用して、親とその子会社全体でアナリストのニーズに対応するエンタープライズグレードのデータウェアハウスを構築します。 Contoso はデータをホストし、行レベルのセキュリティなどの機能を使用して、各子会社のユーザーが自分のデータにのみアクセスできるようにすることができます。 各組織のアナリストは、Power BI Desktop を通じてデータウェアハウスにアクセスし、その結果の分析をそれぞれの Power BI テナントに発行できます。
+最初の方法では、次の図に示すように、 [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) を利用して、親とその子会社全体でアナリストのニーズに対応するエンタープライズグレードのデータウェアハウスを構築します。 Contoso はデータをホストし、行レベルのセキュリティなどの機能を使用して、各子会社のユーザーが自分のデータにのみアクセスできるようにすることができます。 各組織のアナリストは、Power BI Desktop を通じてデータウェアハウスにアクセスし、その結果の分析をそれぞれの Power BI テナントに発行できます。
 
 ![Power BI テナントを使用した共有のしくみ](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_07.png)
 
 
-2番目の方法では、 [Azure SQL Database](https://azure.microsoft.com/services/sql-database/)を利用して、データへのアクセスを提供するリレーショナルデータウェアハウスを構築します。 これは、Azure Analysis Services の方法と同様に機能しますが、行レベルのセキュリティなどの一部の機能は、複数の子会社にわたってデプロイおよび保守が困難な場合があります。
+2番目の方法では、 [Azure SQL Database](https://azure.microsoft.com/services/sql-database/) を利用して、データへのアクセスを提供するリレーショナルデータウェアハウスを構築します。 これは、Azure Analysis Services の方法と同様に機能しますが、行レベルのセキュリティなどの一部の機能は、複数の子会社にわたってデプロイおよび保守が困難な場合があります。
 
 より高度な方法も使用できますが、上記の方法は最も一般的です。
 
@@ -214,7 +214,7 @@ Power BI の Azure AD B2B との統合により、Contoso はシームレスで�
 
 1. Power BI で BI ポータルを作成する
 
-    Contoso の最初のタスクは、Power BI で BI ポータルを作成することです。 Contoso の BI ポータルは、多数の内部ユーザーとゲストユーザーが使用できるようにする、専用のダッシュボードとレポートのコレクションで構成されています。 Power BI でこれを行うには、Power BI アプリを構築することをお勧めします。 アプリの詳細について[は Power BI を](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)参照してください。
+    Contoso の最初のタスクは、Power BI で BI ポータルを作成することです。 Contoso の BI ポータルは、多数の内部ユーザーとゲストユーザーが使用できるようにする、専用のダッシュボードとレポートのコレクションで構成されています。 Power BI でこれを行うには、Power BI アプリを構築することをお勧めします。 アプリの詳細について [は Power BI を](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)参照してください。
 
 - Contoso の BI チームは、ワークスペースを作成し Power BI
 
@@ -257,7 +257,7 @@ Power BI の Azure AD B2B との統合により、Contoso はシームレスで�
     > [!NOTE]
     > Azure portal からゲストユーザーを招待するには、テナントの Azure Active Directory の管理者である必要があります。
 
-    Contoso が多くのゲストユーザーを招待する場合は、PowerShell を使用してこれを行うことができます。 Contoso の Azure AD 管理者は、すべてのゲストユーザーの電子メールアドレスを CSV ファイルに保存します。 [B2B コラボレーションコードと PowerShell のサンプル](https://docs.microsoft.com/azure/active-directory/b2b/code-samples)と手順については Azure Active Directory を参照してください。
+    Contoso が多くのゲストユーザーを招待する場合は、PowerShell を使用してこれを行うことができます。 Contoso の Azure AD 管理者は、すべてのゲストユーザーの電子メールアドレスを CSV ファイルに保存します。 [B2B コラボレーションコードと PowerShell のサンプル](/azure/active-directory/b2b/code-samples)と手順については Azure Active Directory を参照してください。
 
     招待の後、ゲストユーザーは招待リンクを含む電子メールを受信します。
 
@@ -267,7 +267,7 @@ Power BI の Azure AD B2B との統合により、Contoso はシームレスで�
     ゲストユーザーがリンクをクリックすると、Contoso Azure AD テナントのコンテンツにアクセスできるようになります。
 
     > [!NOTE]
-    > [ここで](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)説明するように Azure AD ブランド化機能を使用して、招待メールのレイアウトを変更することができます。
+    > [ここで](/azure/active-directory/active-directory-b2b-invitation-email)説明するように Azure AD ブランド化機能を使用して、招待メールのレイアウトを変更することができます。
 
 
     **アドホック招待**
@@ -336,7 +336,7 @@ Azure AD アカウントが外部パーティの Azure AD で使用または作�
 Contoso は、サプライヤーおよびパートナー組織からのゲストユーザーのライセンスを取得して、Power BI コンテンツにアクセスできるようにする3つの方法のいずれかを選択できます。
 
 > [!NOTE]
-> _Azure AD B2B's free レベルでは、AZURE AD B2B で Power BI を使用するのに十分です。動的グループなどの高度な Azure AD B2B 機能では、追加のライセンスが必要になります。詳細については、Azure AD B2B のドキュメントを参照してください。_[_https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Azure AD B2B's free レベルでは、AZURE AD B2B で Power BI を使用するのに十分です。動的グループなどの高度な Azure AD B2B 機能では、追加のライセンスが必要になります。詳細については、Azure AD B2B のドキュメントを参照してください。_[_https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>方法 1: Contoso を使用する Power BI Premium
 
@@ -354,17 +354,17 @@ Contoso では、更新頻度の増加、専用容量、大規模なモデルサ
 このアプローチでは、Contoso はパートナー組織のゲストユーザーに pro ライセンスを割り当てます。これは Contoso の Microsoft 365 管理センターから行うことができます。 これにより、パートナー組織のゲストユーザーは、ライセンスを購入しなくても Contoso 社の Power BI アプリにアクセスできるようになります。 これは、組織がまだ Power BI 採用していない外部ユーザーとの共有に適しています。
 
 > [!NOTE]
-> Contoso の pro ライセンスは、Contoso テナントのコンテンツにアクセスする場合にのみ、ゲストユーザーに適用されます。 Pro ライセンスを使用すると、Power BI Premium 容量以外のコンテンツにアクセスできます。 ただし、Pro ライセンスを持つ外部ユーザーは、既定で消費のみのエクスペリエンスに制限されています。 これは、このドキュメントで後述する「Power BI で_外部ユーザーがコンテンツを編集および管理できるようにする_方法」で説明されている方法を使用して変更できます。
+> Contoso の pro ライセンスは、Contoso テナントのコンテンツにアクセスする場合にのみ、ゲストユーザーに適用されます。 Pro ライセンスを使用すると、Power BI Premium 容量以外のコンテンツにアクセスできます。 ただし、Pro ライセンスを持つ外部ユーザーは、既定で消費のみのエクスペリエンスに制限されています。 これは、このドキュメントで後述する「Power BI で _外部ユーザーがコンテンツを編集および管理できるようにする_ 方法」で説明されている方法を使用して変更できます。
 
 ![ライセンス情報](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_25.png)
 
 
 ### <a name="approach-3-guest-users-bring-their-own-power-bi-pro-license"></a>方法 3: ゲストユーザーが独自の Power BI Pro ライセンスを持ち込む
 
-このアプローチでは、Supplier 1 は Power BI Pro ライセンスを Lucy に割り当てます。 その後、このライセンスで Contoso の Power BI アプリにアクセスできます。 Lucy は外部 Power BI 環境にアクセスするときに自身の組織の Pro ライセンスを使用できるため、この方法は_ライセンス_持ち込み (byol) と呼ばれることもあります。 両方の組織が Power BI を使用している場合は、分析ソリューション全体に対して有益なライセンスが提供され、外部ユーザーにライセンスを割り当てる際のオーバーヘッドが最小限に抑えられます。
+このアプローチでは、Supplier 1 は Power BI Pro ライセンスを Lucy に割り当てます。 その後、このライセンスで Contoso の Power BI アプリにアクセスできます。 Lucy は外部 Power BI 環境にアクセスするときに自身の組織の Pro ライセンスを使用できるため、この方法は _ライセンス_ 持ち込み (byol) と呼ばれることもあります。 両方の組織が Power BI を使用している場合は、分析ソリューション全体に対して有益なライセンスが提供され、外部ユーザーにライセンスを割り当てる際のオーバーヘッドが最小限に抑えられます。
 
 > [!NOTE]
-> Supplier 1 で Lucy に指定された pro ライセンスは、Lucy がゲストユーザーであるすべての Power BI テナントに適用されます。 Pro ライセンスを使用すると、Power BI Premium 容量以外のコンテンツにアクセスできます。 ただし、Pro ライセンスを持つ外部ユーザーは、既定で消費のみのエクスペリエンスに制限されています。 これは、このドキュメントで後述する「Power BI で_外部ユーザーがコンテンツを編集および管理できるようにする_方法」で説明されている方法を使用して変更できます。
+> Supplier 1 で Lucy に指定された pro ライセンスは、Lucy がゲストユーザーであるすべての Power BI テナントに適用されます。 Pro ライセンスを使用すると、Power BI Premium 容量以外のコンテンツにアクセスできます。 ただし、Pro ライセンスを持つ外部ユーザーは、既定で消費のみのエクスペリエンスに制限されています。 これは、このドキュメントで後述する「Power BI で _外部ユーザーがコンテンツを編集および管理できるようにする_ 方法」で説明されている方法を使用して変更できます。
 
 ![Pro ライセンスの要件](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_26.png)
 
@@ -374,7 +374,7 @@ Contoso では、更新頻度の増加、専用容量、大規模なモデルサ
 
 ### <a name="user-based-security"></a>ユーザーベースのセキュリティ
 
-Power BI の最も強力な機能の1つは行レベルセキュリティです。 この機能を使用すると、Contoso は1つのレポートとデータセットを作成できますが、ユーザーごとに異なるセキュリティ規則を適用できます。 詳細については、「[行レベルのセキュリティ (RLS)](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/)」を参照してください。
+Power BI の最も強力な機能の1つは行レベルセキュリティです。 この機能を使用すると、Contoso は1つのレポートとデータセットを作成できますが、ユーザーごとに異なるセキュリティ規則を適用できます。 詳細については、「 [行レベルのセキュリティ (RLS)](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/)」を参照してください。
 
 Power BI の Azure AD B2B との統合により、Contoso は contoso テナントに招待されるとすぐに行レベルセキュリティ規則をゲストユーザーに割り当てることができます。 前に説明したように、Contoso では、計画またはアドホック招待を通じてゲストユーザーを追加できます。 Contoso が行レベルのセキュリティを適用する場合は、計画された招待を使用して、ゲストユーザーを事前に追加し、コンテンツを共有する前にそれらをセキュリティロールに割り当てることを強くお勧めします。 Contoso がアドホック招待を使用する場合、ゲストユーザーがデータを表示できない期間が短時間である可能性があります。
 
@@ -391,7 +391,7 @@ Contoso が接続しているユーザーに基づいてデータをフィルタ
 
 ![ロールの管理](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_28.png)
 
-レポートでロールが定義されている場合、ユーザーは、任意のデータにアクセスするために、特定のロールに割り当てられている必要があります。 ロールの割り当ては、Power BI サービス (**データセット > セキュリティ**) 内で行われます。
+レポートでロールが定義されている場合、ユーザーは、任意のデータにアクセスするために、特定のロールに割り当てられている必要があります。 ロールの割り当ては、Power BI サービス ( **データセット > セキュリティ** ) 内で行われます。
 
 ![セキュリティの設定](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_29.png)
 
@@ -459,20 +459,20 @@ Power BI は、オンプレミス[データゲートウェイ](https://powerbi.m
 > [!NOTE]
 > Power BI テナントに接続するためにゲートウェイをインストールする場合は、テナント内に作成されたユーザーを使用する必要があります。 外部ユーザーはゲートウェイをインストールしてテナントに接続することはできません。 _
 
-外部ユーザーの場合、外部ユーザーは通常、オンプレミスの AD で認識されていないため、より複雑になる可能性があります。 Power BI は、「[データソースの管理-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)」で説明されているように、Contoso の管理者が外部ユーザー名を内部ユーザー名にマップできるようにすることで、この回避策を提供します。 たとえば、は [lucy@supplier1.com](mailto:lucy@supplier1.com) [lucy \_ supplier1 \_ com # EXT@contoso.com ](mailto:lucy_supplier1_com)にマップできます。
+外部ユーザーの場合、外部ユーザーは通常、オンプレミスの AD で認識されていないため、より複雑になる可能性があります。 Power BI は、「 [データソースの管理-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)」で説明されているように、Contoso の管理者が外部ユーザー名を内部ユーザー名にマップできるようにすることで、この回避策を提供します。 たとえば、は [lucy@supplier1.com](mailto:lucy@supplier1.com) [lucy \_ supplier1 \_ com # EXT@contoso.com ](mailto:lucy_supplier1_com)にマップできます。
 
 ![ユーザー名のマッピング](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
-Contoso が少数のユーザーのみを持っている場合、または Contoso がすべての外部ユーザーを1つの内部アカウントにマップできる場合、この方法は問題ありません。 各ユーザーが独自の資格情報を必要とする複雑なシナリオでは、「[データソースの管理-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)」で説明されているように、[カスタム AD 属性](https://technet.microsoft.com/library/cc961737.aspx)を使用してマッピングを行うより高度なアプローチがあります。 これにより、Contoso の管理者は、Azure AD (外部 B2B ユーザー) のすべてのユーザーのマッピングを定義できるようになります。  これらの属性は、スクリプトまたはコードを使用して AD オブジェクトモデルを通じて設定できます。そのため、Contoso は招待またはスケジュールされたリズムでマッピングを完全に自動化できます。
+Contoso が少数のユーザーのみを持っている場合、または Contoso がすべての外部ユーザーを1つの内部アカウントにマップできる場合、この方法は問題ありません。 各ユーザーが独自の資格情報を必要とする複雑なシナリオでは、「[データソースの管理-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)」で説明されているように、[カスタム AD 属性](/previous-versions/windows/it-pro/windows-2000-server/cc961737(v=technet.10))を使用してマッピングを行うより高度なアプローチがあります。 これにより、Contoso の管理者は、Azure AD (外部 B2B ユーザー) のすべてのユーザーのマッピングを定義できるようになります。  これらの属性は、スクリプトまたはコードを使用して AD オブジェクトモデルを通じて設定できます。そのため、Contoso は招待またはスケジュールされたリズムでマッピングを完全に自動化できます。
 
 ## <a name="enabling-external-users-to-edit-and-manage-content-within-power-bi"></a>外部ユーザーが Power BI 内のコンテンツを編集および管理できるようにする
 
 Contoso を使用すると、組織内でのコンテンツの投稿を外部ユーザーに許可することができます。これには、「組織内の組織内での Power BI コンテンツの編集と管理」セクションを参照してください。
 
 > [!NOTE]
-> 組織の Power BI 内のコンテンツを編集および管理するには、ユーザーは個人用ワークスペース以外のワークスペースで Power BI Pro ライセンスを持っている必要があります。 ユーザーは、このドキュメントの「_ライセンス_」セクションで説明されているように Pro ライセンスを取得できます。
+> 組織の Power BI 内のコンテンツを編集および管理するには、ユーザーは個人用ワークスペース以外のワークスペースで Power BI Pro ライセンスを持っている必要があります。 ユーザーは、このドキュメントの「 _ライセンス_ 」セクションで説明されているように Pro ライセンスを取得できます。
 
-Power BI 管理ポータルでは、[外部のゲストユーザーがテナントの設定] の [組織] 設定**でコンテンツを編集および管理できるように**します。 既定では、この設定は [無効] に設定されています。つまり、既定では、外部ユーザーは制限付きの読み取り専用のエクスペリエンスを利用できます。 この設定は、Azure AD で UserType が Guest に設定されているユーザーに適用されます。 次の表では、ユーザーの UserType に応じた動作と、設定の構成方法について説明します。
+Power BI 管理ポータルでは、[外部のゲストユーザーがテナントの設定] の [組織] 設定 **でコンテンツを編集および管理できるように** します。 既定では、この設定は [無効] に設定されています。つまり、既定では、外部ユーザーは制限付きの読み取り専用のエクスペリエンスを利用できます。 この設定は、Azure AD で UserType が Guest に設定されているユーザーに適用されます。 次の表では、ユーザーの UserType に応じた動作と、設定の構成方法について説明します。
 
 | **Azure AD のユーザーの種類** | **外部のゲストユーザーがコンテンツ設定を編集および管理することを許可する** | **Behavior** |
 | --- | --- | --- |
@@ -490,8 +490,8 @@ Power BI 管理ポータルでは、次の図に設定が表示されます。
 
 これらのユーザーが Power BI にログインできるようにするには、テナントの URL を指定します。 テナントの URL を見つけるには、次の手順に従います。
 
-1. Power BI サービスの上部のメニューで、[ヘルプ (?] を選択し**ます。** ) をクリックし、 **Power BI について説明**します。
-2. [**テナント URL**] の横にある値を探します。 これは、ゲストユーザーと共有できるテナント URL です。
+1. Power BI サービスの上部のメニューで、[ヘルプ (?] を選択し **ます。** ) をクリックし、  **Power BI について説明**します。
+2. [  **テナント URL**] の横にある値を探します。 これは、ゲストユーザーと共有できるテナント URL です。
 
     ![テナントの URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
@@ -525,7 +525,7 @@ Azure AD B2B 共有を使用する場合、Azure Active Directory 管理者は�
 
 設定の詳細については、次を参照してください。
 
-[https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)
+[https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations](/azure/active-directory/b2b/delegate-invitations)
 
 > [!NOTE]
 > 既定では、"ゲストユーザーのアクセス許可は制限されています" オプションが [はい] に設定されているので、Power BI 内のゲストユーザーは、特に、ユーザーが選択した Ui が機能しないユーザーに対して、特に共有をブロックします。 適切なエクスペリエンスを確保するために、次に示すように、Azure AD 管理者と協力して [いいえ] に設定することが重要です。 * *
@@ -542,13 +542,13 @@ Power BI 管理者は、Power BI 管理ポータルにアクセスすること�
 - 管理者、ゲストの招待元ロール、およびメンバーが招待できる
 - ゲストを含むすべてのユーザーが招待できる
 
-これらのポリシーの詳細については、「 [B2B コラボレーション Azure Active Directory の招待の委任](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-delegate-invitations)」を参照してください。
+これらのポリシーの詳細については、「 [B2B コラボレーション Azure Active Directory の招待の委任](/azure/active-directory/active-directory-b2b-delegate-invitations)」を参照してください。
 
-外部ユーザーによるすべての Power BI アクションも[、監査ポータルで監査](https://powerbi.microsoft.com/documentation/powerbi-admin-auditing/)されます。
+外部ユーザーによるすべての Power BI アクションも [、監査ポータルで監査](https://powerbi.microsoft.com/documentation/powerbi-admin-auditing/)されます。
 
 ### <a name="conditional-access-policies-for-guest-users"></a>ゲストユーザーの条件付きアクセスポリシー
 
-Contoso テナントのコンテンツにアクセスするゲストユーザーに対して、条件付きアクセスポリシーを適用することができます。 詳細な手順については、「 [B2B コラボレーションユーザーの条件付きアクセス](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)」を参照してください。
+Contoso テナントのコンテンツにアクセスするゲストユーザーに対して、条件付きアクセスポリシーを適用することができます。 詳細な手順については、「 [B2B コラボレーションユーザーの条件付きアクセス](/azure/active-directory/active-directory-b2b-mfa-instructions)」を参照してください。
 
 ## <a name="common-alternative-approaches"></a>一般的な代替アプローチ
 
@@ -576,7 +576,7 @@ B2B Azure AD 組織間でのデータとレポートの共有が容易になり�
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>代替オプション 2: カスタム認証を使用してカスタム Power BI Embedded アプリケーションを作成する
 
-Contoso のもう1つのオプションは、カスタム認証 (["アプリ所有データ"](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)) を使用して、独自のカスタム埋め込み Power BI アプリケーションを作成することです。 多くの組織には、Power BI コンテンツを外部パートナーに配布するためのカスタムアプリケーションを作成するための時間やリソースがありませんが、組織によっては、これが最善の方法であり、非常に深刻な考慮事項です。
+Contoso のもう1つのオプションは、カスタム認証 (["アプリ所有データ"](../developer/embedded/embed-sample-for-customers.md)) を使用して、独自のカスタム埋め込み Power BI アプリケーションを作成することです。 多くの組織には、Power BI コンテンツを外部パートナーに配布するためのカスタムアプリケーションを作成するための時間やリソースがありませんが、組織によっては、これが最善の方法であり、非常に深刻な考慮事項です。
 
 多くの場合、組織は既存のパートナーポータルを使用して、パートナーのすべての組織リソースへのアクセスを一元化し、組織の内部リソースから分離し、パートナーが多数のパートナーと個々のユーザーをサポートするための合理化されたエクスペリエンスを提供しています。
 
@@ -612,11 +612,11 @@ Power BI Embedded を使用すると、ポータルは、アプリトークン�
 
 エンドユーザーがコンテンツにアクセスするには、常に同意エクスペリエンスをクリックする必要があります。
 
-多数のゲストユーザーを招待する場合は、[リソース組織のゲスト招待元ロールにユーザーを追加](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-add-guest-to-role)して、コア Azure AD 管理者から委任することをお勧めします。 このユーザーは、サインイン UI、PowerShell スクリプト、または API を使用して、パートナー組織の他のユーザーを招待できます。 これにより、Azure AD 管理者がパートナー組織のユーザーに招待または再送信する際の管理負担が軽減されます。
+多数のゲストユーザーを招待する場合は、 [リソース組織のゲスト招待元ロールにユーザーを追加](/azure/active-directory/active-directory-b2b-add-guest-to-role)して、コア Azure AD 管理者から委任することをお勧めします。 このユーザーは、サインイン UI、PowerShell スクリプト、または API を使用して、パートナー組織の他のユーザーを招待できます。 これにより、Azure AD 管理者がパートナー組織のユーザーに招待または再送信する際の管理負担が軽減されます。
 
 **パートナーが多要素認証を使用していない場合、Contoso がゲストユーザーに対して multi-factor authentication を強制することはできますか。**
 
-はい。 詳細については、「 [B2B コラボレーションユーザーの条件付きアクセス](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)」を参照してください。
+はい。 詳細については、「 [B2B コラボレーションユーザーの条件付きアクセス](/azure/active-directory/active-directory-b2b-mfa-instructions)」を参照してください。
 
 **招待されたパートナーがフェデレーションを使用して独自のオンプレミス認証を追加するとき、B2B コラボレーションはどのように機能しますか?**
 

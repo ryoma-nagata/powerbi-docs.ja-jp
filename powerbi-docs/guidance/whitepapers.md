@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/03/2020
 ms.author: maggies
-ms.openlocfilehash: 529be27d10a5ac1a352473be14e6e7184493bdf9
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: e514bf77900031af2f32bdad5717e82b33a88623
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336799"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965274"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI のホワイト ペーパー
 
@@ -26,11 +26,11 @@ ms.locfileid: "84336799"
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Power BI Premium の起動時の状態と展開方法について説明します。 | 2017 年 10 月 |
 | [Power BI Premium の計画と展開](whitepaper-powerbi-premium-deployment.md)| このホワイトペーパーの内容は、一般的なガイダンスに組み込まれています。 適切に定義されたワークロードのために Premium 容量を計画および展開するためのガイダンスとベストプラクティスについては、リンクを参照してください。| 2019 年 3 月 |
 | [Power BI Report Server のキャパシティ プランニング ガイダンス](../report-server/capacity-planning.md) |このホワイト ペーパーでは、Report Server に対して実行されたさまざまなワークロードの多数のロード テストの結果を示して、Power BI Report Server のキャパシティ プランニングに関するガイダンスをオファーします。 | 2018 年 3 月 |
-| [セキュリティ](../admin/service-admin-power-bi-security.md) |Power BI でのセキュリティについて詳細に説明します。 | 2019 年 3 月 |
+| [Security](../admin/service-admin-power-bi-security.md) |Power BI でのセキュリティについて詳細に説明します。 | 2019 年 3 月 |
 | [Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する](../guidance/whitepaper-azure-b2b-power-bi.md)|このホワイト ペーパーでは、Azure Active Directory Business-to-business (AAD B2B) の統合を使用して組織外のユーザーにコンテンツを配布する方法について説明します。| 2019 年 3 月 |
 | [Power BI を使用した高度な分析](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |予測分析、カスタム視覚化、R の統合、データ分析式などの、Power BI の高度な分析機能について説明します。 | 2017 年 2 月 |
 | [双方向フィルタリング](../transform-model/desktop-bidirectional-filtering.md) |Power BI Desktop での双方向のクロス フィルタリングについて説明します (同じ動作の SQL Server Analysis Services 2016 についても説明されています)。 | 2018 年 7 月 |
-| [SQL Server 2016 Analysis Services の DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |SQL Server 2016 では、DirectQuery の設計が変更され、速度とパフォーマンスが大幅に向上しましたが、理解することと実装方法もより複雑になりました。 | 2017 年 1 月 |
+| [SQL Server 2016 Analysis Services の DirectQuery](/archive/blogs/analysisservices/directquery-in-sql-server-2016-analysis-services-whitepaper) |SQL Server 2016 では、DirectQuery の設計が変更され、速度とパフォーマンスが大幅に向上しましたが、理解することと実装方法もより複雑になりました。 | 2017 年 1 月 |
 | [Power BI と SAP BW](https://aka.ms/powerbiandsapbw)| このドキュメントでは、SAP のお客様が既存の SAP Business Warehouse (BW) システムに Power BI を接続することで得られる利点について説明します。 2019年11月に更新されました。| 2019 年 11 月 |
 | [表形式の BI セマンティック モデルの保護](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |このホワイトペーパーでは、表形式の BI セマンティックおよび Power BI のセキュリティ モデルを紹介します。 説明する内容は、ロールの作成、動的セキュリティの実装、権限借用設定の構成、ロールの管理、ネットワーク セキュリティのコンテキストで動作するモデルへの接続方法の選択についてです。 | 2016 年 4 月 |
 | [Power BI と GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| このリンクをたどると、Microsoft Power BI GDPR ホワイトペーパーも含む、Service Trust Portal に関するホワイトペーパーの一覧が表示されます。 | 2018 年 4 月 |
