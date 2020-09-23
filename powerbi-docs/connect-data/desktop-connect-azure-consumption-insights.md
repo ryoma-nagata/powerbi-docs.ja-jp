@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034430"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858627"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop で Azure Consumption Insights データに接続する
 
@@ -178,7 +178,7 @@ Azure Consumption Insights を使用すると、Azure Enterprise Agreement 請�
 Azure では [**Azure Consumption Insights (ACI) API**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/) も提供されます。 ACI API を使用して、Azure の使用量情報の収集、レポート作成、および視覚化に関する独自のカスタム ソリューションを作成することができます。
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>ポータル、コネクタ、および API 間での名前と使用状況の詳細のマッピング
-Azure portal の列および詳細の名前と、API およびコネクタでの名前は、必ずしも同じであるわけではありませんが、よく似ています。 わかりやすくするために、次の表にマッピングを示します。 また、列が古いものであるかどうかも示します。 詳細と、用語の定義については、[Azure 課金データ辞書](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail)に関するページを参照してください。
+Azure portal の列および詳細の名前と、API およびコネクタでの名前は、必ずしも同じであるわけではありませんが、よく似ています。 わかりやすくするために、次の表にマッピングを示します。 また、列が古いものであるかどうかも示します。 詳細と、用語の定義については、[Azure 課金データ辞書](/azure/billing/billing-enterprise-api-usage-detail)に関するページを参照してください。
 
 | ACI コネクタ / ContentPack ColumnName | ACI API の列名 | EA の列名 | 古い / 旧バージョンとの互換性のために存在する |
 | --- | --- | --- | --- |
@@ -238,4 +238,4 @@ Power BI Desktop を使用すれば、さまざまな種類のデータ ソー�
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop で Excel ブックに接続する](desktop-connect-excel.md)   
-* [Power BI Desktop にデータを直接入力する](desktop-enter-data-directly-into-desktop.md)   
+* [Power BI Desktop にデータを直接入力する](desktop-enter-data-directly-into-desktop.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac5eb41aa248eeebf2cbfb6d53e327e2a3e83fdd
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0717ad71d3065043a3bff8305c051cdce40e7329
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537621"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965074"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX:BLANK を値に変換しない
 
@@ -79,6 +79,6 @@ DIVIDE([Profit], [Sales])
 この記事に関する詳細については、次のリソースを参照してください。
 
 - [Data Analysis Expressions (DAX) リファレンス](/dax/)
-- ラーニング パス:[Power BI Desktop で DAX を使用する](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- ラーニング パス:[Power BI Desktop で DAX を使用する](/learn/paths/dax-power-bi/)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

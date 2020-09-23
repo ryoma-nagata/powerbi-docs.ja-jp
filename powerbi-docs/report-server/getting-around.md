@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 35cbfd905db3d6d8464add0fe0e67060c41c9d0a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a42ffc2610021ec1f9b77fb5e950253ff8196e61
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239412"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858786"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Web ポータルでコンテンツを管理する 
 Power BI レポート サーバー Web ポータルは、Power BI レポート、モバイル レポート、およびページ分割されたレポート、および KPI を表示、格納、および管理するためのオンプレミスの場所です。
@@ -63,10 +63,9 @@ Power BI レポート サーバーでは、Web ポータルに格納する項目
     ![[プロパティ] を選択](media/getting-around/report-server-web-portal-manage-properties.png)
 3. **[適用]** を選択します。
 
-[Web ポータルでサブスクリプションの使用](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)の詳細を参照してください。
+[Web ポータルでサブスクリプションの使用](/sql/reporting-services/working-with-subscriptions-web-portal)の詳細を参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 [Power BI Report Server とは](get-started.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6f9661b6cda8782e83e64e30f55ae4b0d8bf6fa2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224854"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858694"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop で Analysis Services の表形式データに接続する
 Power BI Desktop では、2 つの方法で SQL Server Analysis Services 表形式モデルに接続し、データを取得することができます。ライブ接続を使用するか、項目を選択して Power BI Desktop にインポートして探索してみてください。
@@ -81,7 +81,7 @@ Power BI Desktop で動的なレポートを作成したら、Power BI サイト
 **回答:** はい。 テーブル モデルで使用される機能によっては、Power BI Desktop のエクスペリエンスが変わることがあります。 次に例をいくつか示します。
 * モデル内のメジャーは、列の横にあるテーブルの中ではなく、 **[フィールド]** ウィンドウ リストの先頭にグループ化されて表示されることがあります。 通常どおり使用できるのでご心配なく。この方が簡単に見つけることができます。
 
-* 表形式モデルに計算グループが定義されている場合、ビジュアルに数値フィールドを追加することにより、暗黙的に作成されるメジャーではなく、モデル メジャーとの組み合わせでのみ、その計算グループを使用できます。 モデルには、**DiscourageImplicitMeasures** フラグが手動で設定されている場合もありますが、効果は同じです。 詳細については、[Analysis Services での計算グループ](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)に関するページを参照してください。
+* 表形式モデルに計算グループが定義されている場合、ビジュアルに数値フィールドを追加することにより、暗黙的に作成されるメジャーではなく、モデル メジャーとの組み合わせでのみ、その計算グループを使用できます。 モデルには、**DiscourageImplicitMeasures** フラグが手動で設定されている場合もありますが、効果は同じです。 詳細については、[Analysis Services での計算グループ](/analysis-services/tabular-models/calculation-groups#benefits)に関するページを参照してください。
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>初回接続後にサーバー名を変更するには
 ライブ接続で探索する目的で Power BI Desktop ファイルを作成した後、その接続を別のサーバーに切り替えることがあります。 たとえば、開発サーバーに接続して Power BI Desktop ファイルを作成した後に、接続を実稼働サーバーに切り替えてから Power BI サービスに発行したい場合などです。
@@ -97,4 +97,3 @@ Power BI Desktop で動的なレポートを作成したら、Power BI サイト
 次の一覧には、SQL Server Analysis Services (SSAS) か Azure Analysis Services に接続したときに発生する既知の問題がすべてまとめられています。 
 
 * **エラー:モデル スキーマを読み込むことができません**:このエラーは通常、Analysis Services に接続するユーザーに、データベースまたはモデルにアクセスする許可が与えられていないときに発生します。
-

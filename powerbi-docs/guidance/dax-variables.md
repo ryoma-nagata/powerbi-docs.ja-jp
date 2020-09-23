@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ade84d1523d79e4e233604905627e8e862278fa1
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: cd2f71a2d96a0057e3da5ee7e02bbb05498c6065
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537414"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965182"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX:変数を使用して数式を改善する
 
@@ -115,6 +115,6 @@ RETURN
 
 - [Data Analysis Expressions (DAX) リファレンス](/dax/)
 - [VAR](/dax/var-dax) DAX に関する記事
-- ラーニング パス:[Power BI Desktop で DAX を使用する](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- ラーニング パス:[Power BI Desktop で DAX を使用する](/learn/paths/dax-power-bi/)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

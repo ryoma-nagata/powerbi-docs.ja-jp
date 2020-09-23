@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: d8e36a9eba34b2c27c9ce6f86edfafa568bccf90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cf205603a4807b814e56904151e0ce8db66cfab1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236319"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853542"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server のページ分割されたレポートを作成する
 この記事では、いくつかの簡単な手順で、Power BI Report Server のページ分割されたレポートを作成します。
@@ -60,7 +60,7 @@ SSRS サーバーのレポートを作成するためにレポート ビルダ�
    
     ![グラフ ウィザード:データセットを選択する](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
-     データセットを作成する必要がある場合は、 「[Create a shared or embedded dataset](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)」 (共有または埋め込みデータセットの作成) を参照してください。
+     データセットを作成する必要がある場合は、 「[Create a shared or embedded dataset](/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)」 (共有または埋め込みデータセットの作成) を参照してください。
 2. グラフの種類、この場合は横棒グラフを選択します。
    
     ![グラフ ウィザード:グラフの種類](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
@@ -81,7 +81,7 @@ SSRS サーバーのレポートを作成するためにレポート ビルダ�
 
 作成したばかりのグラフを変更することができます。レイアウト、値、凡例など、何でも変更できます。
 
-また、ゲージ、テーブル、マトリックス、テーブル、マップなど、他のあらゆる種類の視覚エフェクトを追加できます。 複数のページにヘッダーとフッターを追加できます。 「[Report Builder tutorials](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)」 (レポート ビルダー チュートリアル) を参照して、試してみましょう。
+また、ゲージ、テーブル、マトリックス、テーブル、マップなど、他のあらゆる種類の視覚エフェクトを追加できます。 複数のページにヘッダーとフッターを追加できます。 「[Report Builder tutorials](/sql/reporting-services/report-builder-tutorials)」 (レポート ビルダー チュートリアル) を参照して、試してみましょう。
 
 ![レポート ビルダーのデザイン ビュー](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
@@ -96,8 +96,7 @@ SSRS サーバーのレポートを作成するためにレポート ビルダ�
 ## <a name="next-steps"></a>次の手順
 SQL Server Data Tools のレポート ビルダーとレポート デザイナーでレポートをデザインするために役立つ多くの優れたリソースがあります。 レポート ビルダー チュートリアルから開始するとよいでしょう。
 
-* [レポート ビルダー チュートリアル](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
+* [レポート ビルダー チュートリアル](/sql/reporting-services/report-builder-tutorials)
 * [Power BI Report Server とは](get-started.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

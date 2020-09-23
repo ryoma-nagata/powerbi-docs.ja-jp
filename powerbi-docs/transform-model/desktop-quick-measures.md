@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 129b4a22e17b5eab03018efae113ff47133e9dda
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 8ba43290e0e076963a61a7211ad99e99636ebb2e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214172"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853386"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>クイック メジャーを使用して一般的な計算を実行する
 *クイック メジャー*を使用し、一般的で強力な計算を簡単に実行できます。 クイック メジャーでは、一連の Data Analysis Expressions (DAX) コマンドがバックグラウンドで実行され、レポートで使用できるように結果が提供されます。 DAX を記述する必要はありません。ダイアログ ボックスで指定した入力に基づいて自動的に作成されます。 計算のカテゴリ、およびニーズに合わせた各計算の変更方法が、数多くあります。 一番の利点はおそらく、クイック メジャーで実行された DAX を参照することで DAX がすぐに始められること、DAX に関する自分の知識を広められることです。
@@ -131,8 +131,7 @@ Power BI Desktop でクイック メジャーを作成するには、 **[フィ�
 > クイック メジャーの DAX ステートメントでは、引数の区切り記号としてコンマのみ使用されます。 お使いのバージョンの Power BI Desktop の言語でコンマが小数点記号として使用されていると、クイック メジャーは正しく動作しません。
 
 ### <a name="time-intelligence-and-quick-measures"></a>タイム インテリジェンスとクイック メジャー
-タイム インテリジェンス クイック メジャーで独自の日付テーブルを使用できます。 外部の表形式モデルを使用している場合は、[タイムインテリジェンスで使用する目的で [日付テーブルとしてマーク] を指定する](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)方法に関するページで説明されているように、モデルを作成するときに、そのテーブルのプライマリ日付列が日付テーブルとしてマークされたことを確認します。 独自の日付テーブルをインポートしている場合は、「[Power BI Desktop で日付テーブルを設定し、使用する](desktop-date-tables.md)」で説明されているように、日付テーブルとしてマークします。
+タイム インテリジェンス クイック メジャーで独自の日付テーブルを使用できます。 外部の表形式モデルを使用している場合は、[タイムインテリジェンスで使用する目的で [日付テーブルとしてマーク] を指定する](/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)方法に関するページで説明されているように、モデルを作成するときに、そのテーブルのプライマリ日付列が日付テーブルとしてマークされたことを確認します。 独自の日付テーブルをインポートしている場合は、「[Power BI Desktop で日付テーブルを設定し、使用する](desktop-date-tables.md)」で説明されているように、日付テーブルとしてマークします。
 
 ### <a name="additional-information-and-examples"></a>その他の情報と例
 まだ提供されていないクイック メジャーについてのアイデアがありますか。 成功しました。 [Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906) ページを見て、Power BI Desktop にあれば便利だと思うクイック メジャーに関するあなたのアイデアや DAX 数式を投稿してください。 Microsoft は、今後のリリースでクイック メジャー リストに追加するか検討します。
-

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 079689fe9c068f433eb39d5363e253fecfc39968
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233213"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858924"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>チュートリアル:Power BI レポートに Power Apps ビジュアルを埋め込む
 
@@ -32,8 +32,8 @@ Power Apps サブスクリプションをお持ちでない場合は、開始す
 ## <a name="prerequisites"></a>前提条件
 
 * [Google Chrome](https://www.google.com/chrome/browser/) または [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) ブラウザー
-* [営業案件の分析のサンプル](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)がインストールされた [Power BI サブスクリプション](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)
-* [Power Apps でアプリを作成する](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch)方法と [Power BI レポートを編集する](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)方法を理解している
+* [営業案件の分析のサンプル](../create-reports/sample-opportunity-analysis.md#get-the-content-pack-for-this-sample)がインストールされた [Power BI サブスクリプション](../fundamentals/service-self-service-signup-for-power-bi.md)
+* [Power Apps でアプリを作成する](/powerapps/maker/canvas-apps/data-platform-create-app-scratch)方法と [Power BI レポートを編集する](../create-reports/service-the-report-editor-take-a-tour.md)方法を理解している
 
 
 
@@ -105,8 +105,8 @@ Power BI レポートのスライサーで **[1 月]** を選択します。こ�
 営業案件の分析のサンプルをもう使用しない場合は、ダッシュボード、レポート、およびデータセットを削除できます。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
-トラブルシューティングの詳細については、「[Power BI 用の Power Apps ビジュアル](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)」を参照してください。
+トラブルシューティングの詳細については、「[Power BI 用の Power Apps ビジュアル](/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 [Q&A ビジュアル](power-bi-visualization-types-for-reports-and-q-and-a.md)    
-[チュートリアル: Power BI レポートに Power Apps ビジュアルを埋め込む](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    
+[チュートリアル: Power BI レポートに Power Apps ビジュアルを埋め込む](/powerapps/maker/canvas-apps/powerapps-custom-visual)

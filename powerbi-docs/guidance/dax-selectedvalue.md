@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 70f28bd916f2c8d9c6ce40e61cd7f4c90a7726f8
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 3f80a4bf4d7b220192c81e9c567d676e60f5baf0
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537437"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965064"
 ---
 # <a name="dax-use-selectedvalue-instead-of-values"></a>DAX:VALUES の代わりに SELECTEDVALUE を使用する
 
@@ -58,6 +58,6 @@ IF(
 この記事に関する詳細については、次のリソースを参照してください。
 
 - [Data Analysis Expressions (DAX) リファレンス](/dax/)
-- ラーニング パス:[Power BI Desktop で DAX を使用する](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- ラーニング パス:[Power BI Desktop で DAX を使用する](/learn/paths/dax-power-bi/)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

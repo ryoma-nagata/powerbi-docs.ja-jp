@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: d32d931a2778cc1041da327eee323c8b44914f0f
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642623"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965314"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop の DirectQuery モデルのガイダンス
 
@@ -41,11 +41,11 @@ Power BI Desktop を使用して、すべての DirectQuery モデルを作成�
 > すべてのモデラーが、リレーショナル データベースを最適化するためのアクセス許可またはスキルを持っているわけではないことを理解しています。 DirectQuery モデル用にデータを準備するのが推奨されるレイヤーですが、ソース データベースを変更せず、モデルの設計でいくつかの最適化を実現することもできます。 ただし、多くの場合、ソース データベースに最適化を適用することで、最適化の結果を最善にすることができます。
 
 - **データの整合性が完全であることを確認する:** ディメンション型のテーブルに、ファクト型のテーブルにマップされる一意の値 (ディメンション キー) の列が含まれていることが特に重要です。 また、ファクト型のディメンション列に有効なディメンション キーの値が含まれていることも重要です。 これにより、リレーションシップの両側に一致する値があることを期待できる、より効率的なモデル リレーションシップを構成できます。 ソース データに整合性がない場合は、データを効果的に修復するため、"不明" ディメンション レコードを追加することをお勧めします。 たとえば、**Product** テーブルに不明な製品を表す行を追加し、それに -1 のような範囲外のキーを割り当てることができます。 **Sales** テーブルの行に存在しない製品キーの値が含まれている場合は、-1 に置き換えます。 これにより、**Sales** のすべての製品キー値に対し、**Product** テーブルに対応する行が含まれることが保証されます。
-- **インデックスを追加する:** テーブルまたはビューで適切なインデックスを定義し、予想されるレポートのビジュアルのフィルター処理とグループ化に対してデータを効率的に取得できるようにします。 SQL Server、Azure SQL Database、または Azure SQL Data Warehouse ソースの場合、インデックス設計ガイダンスに関する有益な情報については、「[SQL Server のインデックスのアーキテクチャとデザイン ガイド](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017)」をご覧ください。 SQL Server または Azure SQL Database の揮発性ソースについては、「[列ストアを使用したリアルタイム運用分析の概要](/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics?view=sql-server-2017)」をご覧ください。
+- **インデックスを追加する:** テーブルまたはビューで適切なインデックスを定義し、予想されるレポートのビジュアルのフィルター処理とグループ化に対してデータを効率的に取得できるようにします。 SQL Server、Azure SQL Database、または Azure SQL Data Warehouse ソースの場合、インデックス設計ガイダンスに関する有益な情報については、「[SQL Server のインデックスのアーキテクチャとデザイン ガイド](/sql/relational-databases/sql-server-index-design-guide)」をご覧ください。 SQL Server または Azure SQL Database の揮発性ソースについては、「[列ストアを使用したリアルタイム運用分析の概要](/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics)」をご覧ください。
 - **分散テーブルを設計する:** 超並列処理 (MPP) アーキテクチャを利用する Azure SQL Data Warehouse ソースの場合は、大きなファクト型テーブルをハッシュ分散として構成し、ディメンション型テーブルをすべてのコンピューティング ノードにレプリケートするように構成することを検討します。 詳しくは、「[Azure SQL Data Warehouse での分散テーブルの設計に関するガイダンス](/azure/sql-data-warehouse/sql-data-warehouse-tables-distribute#what-is-a-distributed-table)」をご覧ください。
-- **必要なデータ変換が具体化されていることを確認する:** SQL Server リレーショナル データベース ソース (およびその他のリレーショナル データベース ソース) では、計算列をテーブルに追加できます。 このような列は式に基づいています (たとえば、**数量**に**単価**を掛ける)。 計算列は永続化 (具体化) することができ、通常の列と同様に、インデックスを作成することもできます。 詳細については、「[計算列のインデックス](/sql/relational-databases/indexes/indexes-on-computed-columns?view=sql-server-2017)」を参照してください。
+- **必要なデータ変換が具体化されていることを確認する:** SQL Server リレーショナル データベース ソース (およびその他のリレーショナル データベース ソース) では、計算列をテーブルに追加できます。 このような列は式に基づいています (たとえば、**数量**に**単価**を掛ける)。 計算列は永続化 (具体化) することができ、通常の列と同様に、インデックスを作成することもできます。 詳細については、「[計算列のインデックス](/sql/relational-databases/indexes/indexes-on-computed-columns)」を参照してください。
 
-    ファクト テーブルのデータをより高い粒度で事前集計できるインデックス付きビューについても検討します。 たとえば、**Sales** テーブルに注文明細レベルでデータが格納されている場合は、このデータを集計するビューを作成できます。 日付 (月単位)、顧客、製品で **Sales** テーブルのデータをグループ化し、売上や数量などのメジャー値を集計する SELECT ステートメントを基にして、ビューを作成できます。その後、ビューにインデックスを付けることができます。 SQL Server または Azure SQL Database ソースについては、「[インデックス付きビューの作成](/sql/relational-databases/views/create-indexed-views?view=sql-server-2017)」をご覧ください。
+    ファクト テーブルのデータをより高い粒度で事前集計できるインデックス付きビューについても検討します。 たとえば、**Sales** テーブルに注文明細レベルでデータが格納されている場合は、このデータを集計するビューを作成できます。 日付 (月単位)、顧客、製品で **Sales** テーブルのデータをグループ化し、売上や数量などのメジャー値を集計する SELECT ステートメントを基にして、ビューを作成できます。その後、ビューにインデックスを付けることができます。 SQL Server または Azure SQL Database ソースについては、「[インデックス付きビューの作成](/sql/relational-databases/views/create-indexed-views)」をご覧ください。
 - **日付テーブルを具体化する:** 一般的なモデリング要件には、時間ベースのフィルター処理をサポートするための日付テーブルの追加が含まれます。 組織内の既知の時間ベースのフィルターをサポートするには、ソース データベースにテーブルを作成し、ファクト テーブルの日付を含む日付の範囲で読み込まれるようにします。 また、年、四半期、月、週など、便利な期間の列が含まれるようにします。
 
 ## <a name="optimize-model-design"></a>モデルの設計を最適化する
@@ -87,7 +87,7 @@ Power BI Desktop を使用して、すべての DirectQuery モデルを作成�
 
     **[データ ソースあたりの最大接続数]** の値を増やすと、基になるデータ ソースに送信できるクエリが増えます (指定された最大数まで)。1 つのページにたくさんのビジュアルがあるとき、たくさんのユーザーが同時にレポートにアクセスするときに便利です。 接続の最大数に到達した後は、接続が利用可能になるまで、後続のクエリは待ち行列に入ります。 この上限を増やすと、結果的に、基になるデータ ソースの負荷が増えます。そのため、全体的なパフォーマンスの向上はこの設定では保証されません。
     
-    Power BI にモデルを発行したとき、基になるデータ ソースに同時に送信されるクエリの最大数も、環境によって異なります。 異なる環境 (Power BI、Power BI Premium、Power BI Report Server など) ごとに、異なるスループット制約が適用される可能性があります。 Power BI Premium 容量リソースの制限について詳しくは、「[Power BI Premium 容量のデプロイと管理](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment)」をご覧ください。
+    Power BI にモデルを発行したとき、基になるデータ ソースに同時に送信されるクエリの最大数も、環境によって異なります。 異なる環境 (Power BI、Power BI Premium、Power BI Report Server など) ごとに、異なるスループット制約が適用される可能性があります。 Power BI Premium 容量リソースの制限について詳しくは、「[Power BI Premium 容量のデプロイと管理](./whitepaper-powerbi-premium-deployment.md)」をご覧ください。
 
 ## <a name="optimize-report-designs"></a>レポートの設計を最適化する
 

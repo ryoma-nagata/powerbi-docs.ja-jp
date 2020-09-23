@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: aa05ffa7ba07ea1daf162f8ebb2baa3d18f64b29
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dadfd405eb13acd9b1db757e6123278fbfcfeef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75256358"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857211"
 ---
 # <a name="migrate-your-subscription-to-the-new-go-local-german-regions"></a>お使いのサブスクリプションを新しい "ローカルに移動" ドイツ リージョンに移行する
 
-Microsoft Cloud ドイツ (Microsoft Cloud Deutschland) の既存のお客様は、近々にご自分の Power BI ユーザーを、新しい "ローカルに移動" のドイツ リージョンに移行できるようになります。 移行プロセスを開始するには、まずは新しいドイツ データセンター リージョンへの [Microsoft がアシストする移行にオプトイン](https://aka.ms/office365germanymoveoptin)します。
+Microsoft Cloud ドイツ (Microsoft Cloud Deutschland) の既存のお客様は、近々にご自分の Power BI ユーザーを、新しい "ローカルに移動" のドイツ リージョンに移行できるようになります。 移行プロセスを開始するには、まずは新しいドイツ データセンター リージョンへの [Microsoft がアシストする移行にオプトイン](/microsoft-365/enterprise/ms-cloud-germany-migration-opt-in)します。
 
 ご自分の組織がオプトインしている場合、2020 年のある時点で移行が開始されることが期待できます。 ご自分のコア カスタマー データとサブスクリプションは、新しい "ローカルに移動" ドイツ リージョンに移行されます。
 

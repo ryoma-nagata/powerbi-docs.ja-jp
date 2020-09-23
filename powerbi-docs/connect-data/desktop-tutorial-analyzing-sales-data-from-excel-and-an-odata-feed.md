@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c0fb194c3585af9ce3011f5cb2a4e6b57b5092ed
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 0401fecc91aef03c0b9e0767bfb241cd701ff50b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092408"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853749"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>チュートリアル:Excel と OData フィードの売上データを分析する
 
@@ -172,7 +172,7 @@ Power Query エディターの左側にある **[クエリ]** の一覧で各ク
 ![製品クエリの適用したステップ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/products-query-applied-steps.png) &nbsp;&nbsp; ![注文クエリの適用したステップ](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orders-query-applied-steps.png)
 
 >[!TIP]
->[適用したステップ] の基礎は、[M 言語](https://docs.microsoft.com/powerquery-m/power-query-m-reference)とも呼ばれる *Power Query 言語*で記述された数式です。 数式を表示および編集するには、リボンの **[ホーム]** タブの **[クエリ]** グループで **[詳細エディター]** を選択します。
+>[適用したステップ] の基礎は、[M 言語](/powerquery-m/power-query-m-reference)とも呼ばれる *Power Query 言語*で記述された数式です。 数式を表示および編集するには、リボンの **[ホーム]** タブの **[クエリ]** グループで **[詳細エディター]** を選択します。
 
 ## <a name="import-the-transformed-queries"></a>変換されたクエリをインポートする
 
@@ -272,7 +272,7 @@ Power BI Desktop では、相互に強調表示し、互いにフィルターを
 
 ## <a name="next-steps"></a>次の手順
 
-* [Microsoft Learn for Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
-* [Power BI Desktop のビデオを見る](/power-bi/fundamentals/desktop-videos)
+* [Microsoft Learn for Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [Power BI Desktop のビデオを見る](../fundamentals/desktop-videos.md)
 * [Power BI フォーラムにアクセスする](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI ブログを読む](https://go.microsoft.com/fwlink/?LinkID=519327)

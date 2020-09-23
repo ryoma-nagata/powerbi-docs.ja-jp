@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4d1b969e82ef4f6a911f7adc79bf0d9308e7560
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a3659a2d39faad1d975a5e3c989cb40e800deb76
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240104"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853496"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI データフロー用のデータ リソースに接続する
 
@@ -186,4 +186,4 @@ Power Query とスケジュールされた更新について詳しくは、次�
 * [スケジュールされた更新の構成](../connect-data/refresh-scheduled-refresh.md)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
-* [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Model の概要](/powerapps/common-data-model/overview)

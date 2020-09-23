@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/01/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: b24663acf2a3a3fd76953413c298580041afc4ab
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 3af8779f87c511e0d3e12a062278c20de1852b0b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286845"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853401"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Azure Machine Learning の Power BI への統合
 
@@ -28,8 +28,8 @@ ms.locfileid: "89286845"
 
 Azure Machine Learning の詳細については、以下を参照してください。
 
-- 概要:[Azure Machine Learning とは](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Azure Machine Learning のクイック スタートおよびチュートリアル:[Azure Machine Learning のドキュメント](https://docs.microsoft.com/azure/machine-learning/)
+- 概要:[Azure Machine Learning とは](/azure/machine-learning/service/overview-what-is-azure-ml)
+- Azure Machine Learning のクイック スタートおよびチュートリアル:[Azure Machine Learning のドキュメント](/azure/machine-learning/)
 
 > [!NOTE]
 > Azure Machine Learning 統合を使用するには、Power BI Premium サブスクリプションが必要です。
@@ -41,7 +41,7 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 - Machine Learning Studio (クラシック) モデルの場合は、Machine Learning Studio (クラシック) Web サービスへの**読み取り**アクセス権
 - Machine Learning モデルの場合は、Machine Learning ワークスペースへの**読み取り**アクセス権
 
-Azure ML service 上でホストされているモデルへのアクセス権を付与することにより、Power BI ユーザーがこの Power Query 関数としてのモデルにアクセスできるようにする手順を以下に示します。  詳細については、[RBAC および Azure portal を使用したアクセスの管理](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)に関する記事を参照してください。
+Azure ML service 上でホストされているモデルへのアクセス権を付与することにより、Power BI ユーザーがこの Power Query 関数としてのモデルにアクセスできるようにする手順を以下に示します。  詳細については、[RBAC および Azure portal を使用したアクセスの管理](/azure/role-based-access-control/role-assignments-portal)に関する記事を参照してください。
 
 1. [Azure portal](https://portal.azure.com) にサインインします。
 
@@ -70,7 +70,7 @@ Azure ML service 上でホストされているモデルへのアクセス権を
 
 データ サイエンティストは、Machine Learning の機械学習モデルを開発する際、さらにはデプロイする際にも、主に Python を使用しています。  モデルのスキーマ ファイルの作成タスクを自動化する Machine Learning Studio (クラシック) とは異なり、Machine Learning の場合、データ サイエンティストは、Python を使用して、スキーマ ファイルを明示的に生成する必要があります。
 
-Machine Learning モデルでは、デプロイされた Web サービスにこのスキーマ ファイルを含める必要があります。 Web サービスのスキーマを自動的に生成するには、デプロイされたモデルのエントリ スクリプトで入力/出力のサンプルを指定する必要があります。 記事「[Azure Machine Learning を使用してモデルをデプロイする」のサブセクション「(省略可能) Swagger スキーマの自動生成」](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-advanced-entry-script#power-bi-compatible-endpoint)を参照してください。 このリンクには、スキーマ生成のステートメントを含む、エントリ スクリプトの例が含まれます。 
+Machine Learning モデルでは、デプロイされた Web サービスにこのスキーマ ファイルを含める必要があります。 Web サービスのスキーマを自動的に生成するには、デプロイされたモデルのエントリ スクリプトで入力/出力のサンプルを指定する必要があります。 記事「[Azure Machine Learning を使用してモデルをデプロイする」のサブセクション「(省略可能) Swagger スキーマの自動生成」](/azure/machine-learning/how-to-deploy-advanced-entry-script#power-bi-compatible-endpoint)を参照してください。 このリンクには、スキーマ生成のステートメントを含む、エントリ スクリプトの例が含まれます。 
 
 具体的には、エントリ スクリプト内の *\@input_schema* 関数と *\@output_schema* 関数によって、*input_sample* および *output_sample* 変数の入出力のサンプル形式が参照され、デプロイ時にこれらのサンプルを使用して Web サービス用の OpenAPI (Swagger) 仕様が生成されます。
 

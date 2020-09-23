@@ -7,15 +7,15 @@ featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6c500c7bf0548d115bc658cab868b8f415bbda90
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: dda0b61f1b74624f13003f57ffb29d99165f126c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537966"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763890"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI 通知を表示する
 
@@ -35,13 +35,13 @@ Amanda が通知をレビューし、管理し、また、通知に応答する�
 ## <a name="view-your-notifications"></a>通知を表示する
 1. Power BI にサインインすると、オフラインの間に送信された新しい通知がフィードに追加されます。 新しい通知があると、Power BI では、黄色いバブルと新しいアイテムの数が表示されます。
    
-   ![新しい通知アイコン](./media/end-user-notification-center/power-bi-new-notification.png)
+   ![新しい通知アイコン](./media/end-user-notification-center/power-bi-new-notifications.png)
 2. Power BI メニュー バーで、 **[通知]** アイコンを選択します。
    
-   ![通知アイコンが選択された上部メニュー バー](./media/end-user-notification-center/power-bi-notifications-icon.png)
+   ![通知アイコンが選択された上部メニュー バー](./media/end-user-notification-center/power-bi-notification-icon.png)
 3. 最新の通知から先に表示され、未読のメッセージは強調表示されます。 通知は、削除するか、100 件の上限に達するまで 90 日間保持されます。
    
-   ![通知センター](./media/end-user-notification-center/power-bi-notification-center.png)
+   ![通知センター](./media/end-user-notification-center/power-bi-notifications-center.png)
 4. 通知を破棄するには、[X] アイコンを選択します。
 
 ## <a name="next-steps"></a>次のステップ

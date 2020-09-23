@@ -51,7 +51,9 @@
           items:
             - name: Teams での共同作業
               href: service-collaborate-microsoft-teams.md
-            - name: Teams へのレポートの埋め込み
+            - name: Power BI アプリを Teams に追加する
+              href: service-microsoft-teams-app.md
+            - name: '[Teams] タブにレポートを埋め込む'
               href: service-embed-report-microsoft-teams.md
             - name: Teams に直接共有する
               href: service-share-report-teams.md

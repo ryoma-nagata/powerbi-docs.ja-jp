@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9271bc6d3ee102ed7d1b52dec2100a5cba88e568
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5ee81b9aa594e6a101d85e4f90c14c7e653edf6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239815"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853299"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>データフローと Azure Data Lake の統合 (プレビュー)
 
@@ -45,7 +45,7 @@ ms.locfileid: "85239815"
 
 ## <a name="power-bi-organizes-cdm-folders-in-the-data-lake"></a>Power BI による Data Lake 内での CDM フォルダーの編成
 
-Power BI データフロー、および Power BI データフローと ADLS Gen2 の統合により、Power BI で Data Lake 内にデータを生成できます。 データ プロデューサーである Power BI では、model.json ファイルとその関連データ ファイルを含むデータ フローごとに CDM フォルダーを作成する必要があります。 Power BI では、*ファイル システム*を使用することにより、他のデータ プロデューサーとは別個にデータが保存されます。 Azure Data Lake Storage Gen2 ファイル システムと階層型名前空間の詳細については、[それらの説明記事](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace)をご覧ください。
+Power BI データフロー、および Power BI データフローと ADLS Gen2 の統合により、Power BI で Data Lake 内にデータを生成できます。 データ プロデューサーである Power BI では、model.json ファイルとその関連データ ファイルを含むデータ フローごとに CDM フォルダーを作成する必要があります。 Power BI では、*ファイル システム*を使用することにより、他のデータ プロデューサーとは別個にデータが保存されます。 Azure Data Lake Storage Gen2 ファイル システムと階層型名前空間の詳細については、[それらの説明記事](/azure/storage/data-lake-storage/namespace)をご覧ください。
 
 Power BI では、サブフォルダーが使用されます。これは、あいまいさを排し、**Power BI サービス**に表示されるデータをより適切に編成できるようにするためです。 フォルダーの命名および構造は、ワークスペース (フォルダー) とデータフロー (CDM フォルダー) を表します。 次の図は、Power BI とその他のデータ プロデューサーによって共有される Data Lake の構造の例を示しています。 各サービス (この場合は Dynamics 365、Dynamics for Finance and Operation、および Power BI) で、ファイルシステムが独自に作成および保守されています。 ファイル システム内の CDM フォルダーをより適切に編成できるようにするため、各サービス内のエクスペリエンスによっては、サブフォルダーが作成されます。 
 
@@ -61,12 +61,12 @@ Power BI ファイル システム内で CDM フォルダーを作成および�
 
 Active Directory OAuth ベアラー トークンと POSIX ACL により、CDM フォルダーをデータ コンシューマー (データを読み取る必要があるユーザーやサービスなど) とより簡単に共有できるようになりました。 これにより、管理者は、どのユーザーが CDM フォルダーにアクセスしたかを監視できます。 必要なアクションは、選択した Active Directory オブジェクト (ユーザー グループやサービスなど) へのアクセス権を CDM フォルダーに付与することのみです。 データ プロデューサー以外の ID については、CDM フォルダーへのアクセス権をすべて読み取り専用として付与することをお勧めします。 これにより、プロデュ－サーで生成されるデータの整合性が保護されます。
 
-CDM フォルダーを Power BI に追加するには、CDM フォルダーを追加するユーザーが、CDM フォルダー自体とその中のすべてのファイルやフォルダーに対して、の*読み取り*アクセス権 (ACL) を持っている必要があります。 さらには、CDM フォルダー自体とその中のすべてのフォルダーに対して、*実行*アクセス権 (ACL) も持っている必要があります。 詳細については、「[ファイルとディレクトリのアクセス制御リスト](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)」および「[Azure Data Lake Storage Gen2 の使用に関するベスト プラクティス](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices)」をご覧になることをお勧めします。
+CDM フォルダーを Power BI に追加するには、CDM フォルダーを追加するユーザーが、CDM フォルダー自体とその中のすべてのファイルやフォルダーに対して、の*読み取り*アクセス権 (ACL) を持っている必要があります。 さらには、CDM フォルダー自体とその中のすべてのフォルダーに対して、*実行*アクセス権 (ACL) も持っている必要があります。 詳細については、「[ファイルとディレクトリのアクセス制御リスト](/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)」および「[Azure Data Lake Storage Gen2 の使用に関するベスト プラクティス](/azure/storage/blobs/data-lake-storage-best-practices)」をご覧になることをお勧めします。
 
 
 ### <a name="alternative-forms-of-authorization"></a>代替形式の許可
 
-Power BI の外部のユーザーやサービスは、代替形式の許可を利用することもできます。代替形式の許可の場合、キー アクセス権を持つユーザーは、アカウント内の*すべての*リソースへのアクセスが許可されます。また、フル アクセス権を持つユーザーは、Lake 内のすべてのリソースへのアクセスが許可されます。代替形式の許可では、アクセス範囲をファイル システムや CDM フォルダーに制限することはできません。 この代替形式では、簡単にアクセス権を付与することができますが、Data Lake 内の特定のリソースを共有する機能は制限されます。また、ユーザーは、ストレージにアクセスしたユーザーを監査できません。 使用可能な許可方式の詳細については、「[Access control in Azure Data Lake Storage Gen2 article](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control
+Power BI の外部のユーザーやサービスは、代替形式の許可を利用することもできます。代替形式の許可の場合、キー アクセス権を持つユーザーは、アカウント内の*すべての*リソースへのアクセスが許可されます。また、フル アクセス権を持つユーザーは、Lake 内のすべてのリソースへのアクセスが許可されます。代替形式の許可では、アクセス範囲をファイル システムや CDM フォルダーに制限することはできません。 この代替形式では、簡単にアクセス権を付与することができますが、Data Lake 内の特定のリソースを共有する機能は制限されます。また、ユーザーは、ストレージにアクセスしたユーザーを監査できません。 使用可能な許可方式の詳細については、「[Access control in Azure Data Lake Storage Gen2 article](/azure/storage/blobs/data-lake-storage-access-control
 )」 (Azure Data Lake Storage Gen2 でのアクセス制御に関する記事) をご覧ください。
 
 
@@ -88,12 +88,12 @@ Power BI の外部のユーザーやサービスは、代替形式の許可を�
 * [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 
 Azure Storage の詳細については、次の記事をご覧ください。
-* [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage セキュリティ ガイド](/azure/storage/common/storage-security-guide)
 * [Azure Data Services から GitHub サンプルを開始する](https://aka.ms/cdmadstutorial)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
-* [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM フォルダー](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM モデル ファイル定義](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Common Data Model の概要](/powerapps/common-data-model/overview)
+* [CDM フォルダー](/common-data-model/data-lake)
+* [CDM モデル ファイル定義](/common-data-model/model-json)
 
 [Power BI コミュニティへの質問](https://community.powerbi.com/)は、いつでも行うことができます。

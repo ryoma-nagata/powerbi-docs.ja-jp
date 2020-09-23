@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2add0d99ac9b8aab7ad60f51a89df5910b9ce8af
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286155"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965342"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>チュートリアル:Power BI Desktop を使用して Facebook のデータを分析する
 
@@ -114,7 +114,7 @@ Power Query エディターでデータを整形して変換すると、**Power 
    ![適用したステップ](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >**[適用したステップ]** の基になるのは、[Power Query M 数式言語](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language)で記述された数式です。 数式を表示および編集するには、リボンの **[ホーム]** タブの **[クエリ]** グループで **[詳細エディター]** を選択します。 
+   >**[適用したステップ]** の基になるのは、[Power Query M 数式言語](/powerquery-m/quick-tour-of-the-power-query-m-formula-language)で記述された数式です。 数式を表示および編集するには、リボンの **[ホーム]** タブの **[クエリ]** グループで **[詳細エディター]** を選択します。 
 
 ### <a name="import-the-transformed-data"></a>変換されたデータをインポートする
 
@@ -251,7 +251,6 @@ Facebook ページからデータをインポートしたら、視覚化を使�
 Power BI Desktop は、さまざまなデータ ソースからデータを取得して分析のニーズに合わせてデータの形を整えることから、このデータを機能豊富な対話型の方法で視覚化することまで、シームレスなエンド ツー エンドのエクスペリエンスを提供します。 レポートの準備ができたら、[Power BI サービスにアップロード](../create-reports/desktop-upload-desktop-files.md)し、それに基づいてダッシュボードを作成し、他の Power BI ユーザーと共有することができます。
 
 ## <a name="next-steps"></a>次の手順
-* [他の Power BI Desktop のチュートリアルを読む](https://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop のビデオを見る](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Microsoft Learn for Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI フォーラムにアクセスする](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI ブログを読む](https://go.microsoft.com/fwlink/?LinkID=519327)

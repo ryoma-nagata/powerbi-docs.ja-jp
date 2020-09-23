@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/11/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0d09fd8c931a92828d11b5813e57e0691c848dc0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214127"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853611"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop でのクエリの概要
 他のユーザーは、その成果を足場としてビジネス インテリジェンスの成果を拡大することができます。
@@ -81,7 +81,7 @@ Power Query エディターのリボンは、次の 4 つのタブで構成さ�
 
 ![[ホーム] タブが表示されている Power BI Desktop のスクリーンショット。](media/desktop-query-overview/queryoverview_transformribbon.png)
 
-例を含む、データの変換の詳細については、「[チュートリアル: Power BI Desktop でのデータの整形と結合](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)」を参照してください。
+例を含む、データの変換の詳細については、「[チュートリアル: Power BI Desktop でのデータの整形と結合](../connect-data/desktop-shape-and-combine-data.md)」を参照してください。
 
 **[列の追加]** タブでは、列の追加、列のデータの書式設定、カスタムの列の追加に関連するその他のタスクが用意されています。 次の図は、 **[列の追加]** タブを示しています。  
 
@@ -145,4 +145,4 @@ Power BI Desktop を使用すると、さまざまなことを行えます。 �
 * [Power BI Desktop のデータ ソース](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop でデータに接続する](../connect-data/desktop-connect-to-data.md)
 * [チュートリアル: Power BI Desktop でのデータの整形と結合](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop で一般的なクエリ タスクを実行する](desktop-common-query-tasks.md)   
+* [Power BI Desktop で一般的なクエリ タスクを実行する](desktop-common-query-tasks.md)

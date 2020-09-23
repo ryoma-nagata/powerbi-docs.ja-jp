@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f00f554a35c4e92328b1ea1017baf7d8006386a0
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: b94f5709c6c83b8cab98b7e4fe0522f540374346
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537483"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965516"
 ---
 # <a name="dax-appropriate-use-of-error-functions"></a>DAX:エラー関数の適切な使用方法
 
@@ -65,6 +65,6 @@ Profit Margin
 
 - [Data Analysis Expressions (DAX) リファレンス](/dax/)
 
-- ラーニング パス:[Power BI Desktop で DAX を使用する](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- ラーニング パス:[Power BI Desktop で DAX を使用する](/learn/paths/dax-power-bi/)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

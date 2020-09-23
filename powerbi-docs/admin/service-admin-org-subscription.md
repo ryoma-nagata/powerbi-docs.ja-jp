@@ -10,12 +10,12 @@ ms.date: 05/13/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f5fd85887a7866513c06c984c5207527400a67c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99d1f9543625ab564db305b50b196b1e6fcdebef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228213"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857245"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>組織に合った Power BI サービス サブスクリプションを利用する
 
@@ -55,7 +55,7 @@ Microsoft 365 管理センターで Power BI Pro ライセンスを購入する�
 
 8. 購入を確認するには、 **[課金]**  >  **[製品とサービス]** を参照し、 **[Power BI Pro]** を探します。
 
-組織で Power BI サービスを制御および取得する方法の詳細については、「[組織内の Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)」を参照してください。
+組織で Power BI サービスを制御および取得する方法の詳細については、「[組織内の Power BI](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)」を参照してください。
 
 ## <a name="more-ways-to-get-power-bi-for-your-organization"></a>組織向けの Power BI を取得するためのその他の方法
 
@@ -98,4 +98,4 @@ Power BI サブスクリプションにサインアップするには、職場�
 
 - [ユーザー ライセンスの表示と管理](service-admin-manage-licenses.md)
 - [セルフサービスでのサインアップと購入を有効または無効にする](service-admin-disable-self-service.md)
-- [ビジネス サブスクリプションと課金ドキュメント](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)
+- [ビジネス サブスクリプションと課金ドキュメント](/microsoft-365/commerce/?view=o365-worldwide)
