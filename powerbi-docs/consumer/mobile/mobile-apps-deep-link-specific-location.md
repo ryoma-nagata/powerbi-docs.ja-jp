@@ -8,11 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: b414457c15155053ff6d316d1147536ec9ca5a8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393789"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856647"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリの特定の場所へのリンクを作成する
 Power BI では、リンクを使用し、レポート、ダッシュボード、タイルといった特定の項目に直接アクセスできます。
@@ -99,7 +100,7 @@ https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes h
 
 Power BI 内のリンクは、Power BI Service とまったく同じようにモバイル アプリで機能します。
 
-別の Power BI 項目を指すレポートにリンクを追加する場合、ブラウザーのアドレス バーからその項目 URL をコピーできます。 レポートのテキスト ボックスにハイパーリンクを追加する方法については[こちら](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)をご覧ください。
+別の Power BI 項目を指すレポートにリンクを追加する場合、ブラウザーのアドレス バーからその項目 URL をコピーできます。 レポートのテキスト ボックスにハイパーリンクを追加する方法については[こちら](../../create-reports/service-add-hyperlink-to-text-box.md)をご覧ください。
 
 ## <a name="use-report-url-with-filter"></a>フィルターを含むレポート URL を使用する
 Power BI サービスと同様に、Power BI Mobile アプリでも、フィルター クエリ パラメーターを含む URL がサポートされています。 Power BI Mobile アプリでレポートを開き、フィルターを適用して特定の状態のものに絞り込むことができます。 たとえば、この URL の場合、売上レポートが開き、担当地域でフィルター処理されます
@@ -108,7 +109,7 @@ Power BI サービスと同様に、Power BI Mobile アプリでも、フィル�
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```
 
-レポートをフィルター処理するためのクエリ パラメーターを構築する方法については[こちら](https://docs.microsoft.com/power-bi/service-url-filters)をご覧ください。
+レポートをフィルター処理するためのクエリ パラメーターを構築する方法については[こちら](../../collaborate-share/service-url-filters.md)をご覧ください。
 
 ## <a name="next-steps"></a>次の手順
 Power BI モバイル アプリで使用したいその他の機能にぜひ投票してください。お客様からのフィードバックは、将来実装する機能を決めるのに役立ちます。 
@@ -117,4 +118,3 @@ Power BI モバイル アプリで使用したいその他の機能にぜひ投�
 * Twitter で @MSPowerBI をフォローする
 * [Power BI コミュニティの会話](https://community.powerbi.com/)に参加する
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
-

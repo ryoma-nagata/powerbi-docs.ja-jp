@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/16/2020
-ms.openlocfilehash: a6c668ad08b3b56eeb92919f37b021a77100ceee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 049f6f563c9ac6e7494b0680b69e0df8909304d4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239027"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861891"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI レポート サーバーのインストール
 
@@ -93,9 +93,9 @@ Power BI Report Server のインストールは簡単です。 ファイルの�
 
 ## <a name="configure-your-report-server"></a>自分のレポート サーバーを構成する
 
-セットアップで **[レポート サーバーの構成]** を選択すると、Reporting Services Configuration Manager が表示されます。 詳細については、「[Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)」(Reporting Services 構成マネージャー) を参照してください。
+セットアップで **[レポート サーバーの構成]** を選択すると、Reporting Services Configuration Manager が表示されます。 詳細については、「[Reporting Services Configuration Manager](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)」(Reporting Services 構成マネージャー) を参照してください。
 
-Reporting Services の初期構成を完了するには、[レポート サーバー データベースを作成](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)します。 この手順を完了するには、SQL Server データベース サーバーが必要です。
+Reporting Services の初期構成を完了するには、[レポート サーバー データベースを作成](/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)します。 この手順を完了するには、SQL Server データベース サーバーが必要です。
 
 ### <a name="creating-a-database-on-a-different-server"></a>別のサーバーでデータベースを作成する
 
@@ -109,7 +109,7 @@ Reporting Services の初期構成を完了するには、[レポート サー�
 
 ![レポート サーバー サービス アカウントを構成する](media/install-report-server/pbireportserver-configure-account.png)
 
-詳細については、[レポート サーバー サービス アカウントの構成](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)に関するページを参照してください。
+詳細については、[レポート サーバー サービス アカウントの構成](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)に関するページを参照してください。
 
 ## <a name="windows-service"></a>Windows サービス
 
@@ -143,23 +143,23 @@ Web サービスの URL と Web ポータルの URL 用に構成した TCP ポ�
 
 ## <a name="additional-configuration"></a>追加の構成
 
-* Power BI サービスとの統合を構成し、Power BI ダッシュボードにレポート アイテムを固定できるようにするには、「[Integrate with the Power BI service](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager) 」(Power BI サービスとの統合) を参照してください。
-* サブスクリプション処理の電子メールを構成するには、「[電子メールの設定 - Reporting Services のネイティブ モード (構成マネージャー)](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)」および[レポート サーバーの電子メール配信](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)に関するページを参照してください。
-* レポート コンピューターで Web ポータルにアクセスしてレポートを表示および管理できるように Web ポータルを構成するには、「[Configure a firewall for report server access](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)」 (レポート サーバーにアクセスするためのファイアウォールを構成する) と「[Configure a Report Server for Remote Administration](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)」 (リモート管理用にレポート サーバーを構成する) を参照してください。
-* SQL Server Management Studio でのレポート サーバー システム プロパティの設定の詳細については、「[サーバーのプロパティの [詳細設定] ページ](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services)」を参照してください。 特に指定しない限り、オプションは Power BI Report Server と SQL Server Reporting Services の両方に適用されます。
+* Power BI サービスとの統合を構成し、Power BI ダッシュボードにレポート アイテムを固定できるようにするには、「[Integrate with the Power BI service](/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager) 」(Power BI サービスとの統合) を参照してください。
+* サブスクリプション処理の電子メールを構成するには、「[電子メールの設定 - Reporting Services のネイティブ モード (構成マネージャー)](/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)」および[レポート サーバーの電子メール配信](/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)に関するページを参照してください。
+* レポート コンピューターで Web ポータルにアクセスしてレポートを表示および管理できるように Web ポータルを構成するには、「[Configure a firewall for report server access](/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)」 (レポート サーバーにアクセスするためのファイアウォールを構成する) と「[Configure a Report Server for Remote Administration](/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)」 (リモート管理用にレポート サーバーを構成する) を参照してください。
+* SQL Server Management Studio でのレポート サーバー システム プロパティの設定の詳細については、「[サーバーのプロパティの [詳細設定] ページ](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services)」を参照してください。 特に指定しない限り、オプションは Power BI Report Server と SQL Server Reporting Services の両方に適用されます。
 
 ## <a name="next-steps"></a>次のステップ
 
 [管理者の概要](admin-handbook-overview.md)  
 [レポート サーバーのプロダクト キーを検索する方法](find-product-key.md)  
 [Power BI レポート サーバー向けに最適化された Power BI Desktop のインストール](install-powerbi-desktop.md)  
-[レポート サービスのインストールを確認する](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
-[レポート サーバー サービス アカウントを構成する](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
-[レポート サーバーの URL を構成する](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
-[レポート サーバー データベース接続を構成する](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
-[レポート サーバーを初期化する](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
-[レポート サーバーで SSL 接続を構成する](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
-[Windows サービス アカウントとアクセス許可を構成する](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
+[レポート サービスのインストールを確認する](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+[レポート サーバー サービス アカウントを構成する](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
+[レポート サーバーの URL を構成する](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
+[レポート サーバー データベース接続を構成する](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
+[レポート サーバーを初期化する](/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
+[レポート サーバーで SSL 接続を構成する](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
+[Windows サービス アカウントとアクセス許可を構成する](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 [Power BI レポート サーバーのブラウザーのサポート](browser-support.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f241315eecdbb600a798630167913aa1be0079a3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b2e9cc5cb07eebf3befebd1be1686fdbb0f653b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239049"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861822"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop でのリレーションシップの作成と管理
 複数のテーブルをインポートするとき、それらのすべてのテーブルからデータを使用して分析を実行する可能性が高くなります。 結果を正確に計算し、レポートに正しい情報を表示するためには、これらのテーブル間のリレーションシップが必要です。 Power BI Desktop を使用すると、これらのリレーションシップを簡単に作成できます。 実際、ほとんどの場合、自動検出機能が実行してくれるため、何もすることはありません。 ただし、場合によっては、自分でリレーションシップを作成したり、リレーションシップを変更したりすることが必要な場合があります。 いずれの場合も、Power BI Desktop におけるリレーションシップおよびその作成方法と編集方法を理解することが重要です。
@@ -45,7 +45,7 @@ ms.locfileid: "85239049"
 * **[重複の削除]** を使用して、一意の値を含む列を作成します。 この方法の短所は、重複行が削除されると、情報が失われる可能性があることです。多くの場合、キー (行) は正当な理由があって複製されます。
 * 個別キー値の一覧で構成される中間テーブルをモデルに追加します。このモデルがリレーションシップの両方の元の列にリンクされます。
 
-詳細については、こちらの[ブログ記事](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/)を参照してください。
+詳細については、こちらの[ブログ記事](/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message)を参照してください。
 
 
 ## <a name="edit-a-relationship"></a>リレーションシップの編集
@@ -65,7 +65,7 @@ ms.locfileid: "85239049"
 
 **一対多 (1:*)** : 一対多のリレーションシップでは、一方のテーブル内の列には特定の値のインスタンスが 1 つだけあり、関連するもう一方のテーブルには、ある値のインスタンスが複数存在していてもかまいません。
 
-**多対多 (\*:\*)** : 複合モデルでは、テーブル間に多対多のリレーションシップを確立できます。これにより、テーブル内の値が一意である必要がなくなります。 また、リレーションシップを作成するためだけに新しいテーブルを導入するなどの以前の回避策も除外されます。 詳しくは、[多対多カーディナリティのリレーションシップ](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)に関する記事をご覧ください。 
+**多対多 (\*:\*)** : 複合モデルでは、テーブル間に多対多のリレーションシップを確立できます。これにより、テーブル内の値が一意である必要がなくなります。 また、リレーションシップを作成するためだけに新しいテーブルを導入するなどの以前の回避策も除外されます。 詳しくは、[多対多カーディナリティのリレーションシップ](./desktop-many-to-many-relationships.md)に関する記事をご覧ください。 
 
 どのようなときにカーディナリティを変更するのかについて詳しくは、「[詳細設定オプションについて](#understanding-additional-options)」をご覧ください。
 
@@ -358,4 +358,3 @@ Power BI Desktop が自動的にリレーションシップを作成する際、
 場合によっては、モデルに複数のテーブルがあり、それらのテーブル間に複雑なリレーションシップが含まれることがあります。 Power BI Desktop の **[リレーションシップ]** ビューでは、モデル内のすべてのリレーションシップ、その方向、カーディナリティが、わかりやすくカスタマイズ可能なダイアグラムに表示されます。 
 
 詳しくは、「[Power BI Desktop でリレーションシップ ビューを操作する](desktop-relationship-view.md)」をご覧ください。
-

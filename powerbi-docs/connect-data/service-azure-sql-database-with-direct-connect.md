@@ -10,12 +10,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: ffdb18927d5b92ecd10eb4b9e3a3b8fcd921dea2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 038d18639639fa13250e44da141314e9a94fe412
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230570"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861914"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database と DirectQuery
 
@@ -29,7 +29,7 @@ DirectQuery を使用すると、レポート ビューでデータを調べる�
 **注:**
 
 * 接続するときに、完全修飾のサーバー名を指定します (詳細については後述します)。
-* データベースのファイアウォール ルールが確実に "[Azure サービスに対するアクセスを許可する](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)" ように構成します。
+* データベースのファイアウォール ルールが確実に "[Azure サービスに対するアクセスを許可する](/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)" ように構成します。
 * 列の選択、フィルターの追加など、どの操作によってもクエリがデータベースに送り返されます。
 * タイルは、1 時間ごとに更新されます (更新をスケジュール設定する必要はありません)。 更新の頻度は、接続したときに [詳細] 設定で調整できます。
 * DirectQuery データセットの Q&A は使用できません。

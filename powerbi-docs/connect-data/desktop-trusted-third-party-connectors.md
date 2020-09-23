@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05db20b2f83f10409339fad949874fc1076a6b98
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06b117a271671092a94aa8e7994269344b444178
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285971"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859614"
 ---
 # <a name="trusted-third-party-connectors"></a>信頼されたサードパーティ製コネクタ
 
@@ -24,7 +24,7 @@ Power BI では、一般に、"データ拡張機能のセキュリティ" レ�
 
 特定のコネクタの開発者は、証明書を使用してコネクタに署名し、セキュリティ設定を引き下げることなく安全に読み込むために必要な情報を提供できます。
 
-セキュリティ設定の詳細については、[こちら](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)を参照してください。
+セキュリティ設定の詳細については、[こちら](./desktop-connector-extensibility.md)を参照してください。
 
 ## <a name="using-the-registry-to-trust-third-party-connectors"></a>レジストリを使用してサードパーティ製コネクタを信頼する
 
@@ -46,4 +46,4 @@ Power BI でサードパーティ製コネクタを信頼するには、信頼�
 
 ## <a name="how-to-sign-connectors"></a>コネクタに署名する方法
 
-自分または開発者が署名する必要があるコネクタがある場合は、[こちら](https://docs.microsoft.com/power-query/handlingconnectorsigning)の Power Query ドキュメントを参照してください。
+自分または開発者が署名する必要があるコネクタがある場合は、[こちら](/power-query/handlingconnectorsigning)の Power Query ドキュメントを参照してください。

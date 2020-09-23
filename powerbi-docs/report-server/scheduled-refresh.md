@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75837610"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861776"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server での Power BI のスケジュールされた更新
 Power BI レポートのスケジュールされた更新は、レポートのデータを最新の状態に保つことができます。
@@ -57,9 +57,9 @@ Power BI レポートによっては、スケジュールされた更新計画�
 ### <a name="memory-limits"></a>メモリの制限
 レポート サーバーの従来のワークロードは、Web アプリケーションに似ています。 インポートされたデータまたは DirectQuery を含むレポートを読み込む機能、およびスケジュールされた更新を実行する機能は、レポート サーバーと共にホストされている Analysis Services インスタンスに依存します。 その結果、サーバーで予期しないメモリ不足が発生する場合があります。 レポート サーバーと共に Analysis Services がメモリを消費する可能性があることを考慮して、適切にサーバーのデプロイを計画してください。
 
-Analysis Services インスタンスを監視する方法については、「[Monitor an Analysis Services Instance](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)」(Analysis Services インスタンスを監視する) をご覧ください。
+Analysis Services インスタンスを監視する方法については、「[Monitor an Analysis Services Instance](/sql/analysis-services/instances/monitor-an-analysis-services-instance)」(Analysis Services インスタンスを監視する) をご覧ください。
 
-Analysis Services 内のメモリ設定については、「[Memory Properties](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)」(メモリのプロパティ) をご覧ください。
+Analysis Services 内のメモリ設定については、「[Memory Properties](/sql/analysis-services/server-properties/memory-properties)」(メモリのプロパティ) をご覧ください。
 
 ### <a name="data-model-size-limit"></a>データ モデル サイズの制限
 スケジュールされた更新中に内部の Analysis Services エンジンに読み込まれるデータ モデルの最大サイズは 2,000 MB (2 GB) です。 この最大サイズは構成できません。 データ モデルのサイズが 2 GB を超えると、"結果の長さが、対象となる大きな型の長さの制限 (2 GB) を超えています" という更新エラーが発生します。 その場合は、Analysis Services インスタンスでモデルをホストし、レポート内のモデルへのライブ接続を使用することをお勧めします。

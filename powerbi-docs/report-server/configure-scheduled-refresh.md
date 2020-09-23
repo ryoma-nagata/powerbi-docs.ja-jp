@@ -8,11 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7bc3b77a8badafe1c9660af347a74214176690ac
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236080"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859039"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI レポートのスケジュールされた更新を構成する方法
 Power BI Report Server で Power BI レポートのデータを更新するには、スケジュールされた更新計画を作成する必要があります。 この計画は、Report Server 上の Power BI レポートの *[管理]* 領域で作成します。
@@ -20,7 +21,7 @@ Power BI Report Server で Power BI レポートのデータを更新するに�
 ![Power BI レポートの正常なスケジュールされた更新](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>データ ソースの資格情報を構成する
-スケジュールされた更新計画を作成するには、必要なアクセス許可が必要です。 アクセス許可は、Report Server のロール定義で定義されています。 詳細については、SQL Server Reporting Services のドキュメントの「[ロールの定義 - 定義済みロール](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles)」を参照してください。
+スケジュールされた更新計画を作成するには、必要なアクセス許可が必要です。 アクセス許可は、Report Server のロール定義で定義されています。 詳細については、SQL Server Reporting Services のドキュメントの「[ロールの定義 - 定義済みロール](/sql/reporting-services/security/role-definitions-predefined-roles)」を参照してください。
 
 スケジュールされたデータ更新計画を作成する前に、Power BI レポートで使われている**各データ ソース**の資格情報を設定する必要があります。
 
@@ -85,9 +86,8 @@ Web ポータルでスケジュールされた更新計画の状態を表示し�
 現在の状態を表示するには、Web ページを更新する必要があります。 状態は自動的には変更されません。
 
 ## <a name="next-steps"></a>次の手順
-スケジュールの作成と変更については、「[Create, modify, and delete schedules](https://docs.microsoft.com/sql/reporting-services/subscriptions/create-modify-and-delete-schedules)」(スケジュールを作成、変更、削除する) をご覧ください。
+スケジュールの作成と変更については、「[Create, modify, and delete schedules](/sql/reporting-services/subscriptions/create-modify-and-delete-schedules)」(スケジュールを作成、変更、削除する) をご覧ください。
 
 スケジュールされた更新のトラブルシューティング方法については、「[Power BI Report Server でスケジュールされた更新をトラブルシューティングする](scheduled-refresh-troubleshoot.md)」をご覧ください。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

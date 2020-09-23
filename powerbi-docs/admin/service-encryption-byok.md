@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204566"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856832"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI で独自の暗号化キーを使用する
 
@@ -39,7 +39,7 @@ BYOK はデータセットのみに該当します。 ユーザーがサービ�
 ```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
 
 > [!NOTE]
-> このコマンドレットでは、Power BI 管理モジュール v1.0.840 が必要です。 Get-InstalledModule -Name MicrosoftPowerBIMgmt を実行すると、どのバージョンを所持しているかを確認することができます。 最新バージョンをインストールするには、Install-Module -Name MicrosoftPowerBIMgmt を実行します。 Power BI のコマンドレットおよびそのパラメーターの詳細については、[Power BI PowerShell コマンドレット モジュール](https://docs.microsoft.com/powershell/power-bi/overview)に関するページを参照してください。
+> このコマンドレットでは、Power BI 管理モジュール v1.0.840 が必要です。 Get-InstalledModule -Name MicrosoftPowerBIMgmt を実行すると、どのバージョンを所持しているかを確認することができます。 最新バージョンをインストールするには、Install-Module -Name MicrosoftPowerBIMgmt を実行します。 Power BI のコマンドレットおよびそのパラメーターの詳細については、[Power BI PowerShell コマンドレット モジュール](/powershell/power-bi/overview)に関するページを参照してください。
 
 ## <a name="configure-azure-key-vault"></a>Azure Key Vault を構成する
 
@@ -193,7 +193,7 @@ Power BI では、テナントでの BYOK の管理に役立つ追加のコマ�
 
 ## <a name="next-steps"></a>次のステップ
 
-* [Power BI PowerShell コマンドレット モジュール](https://docs.microsoft.com/powershell/power-bi/overview) 
+* [Power BI PowerShell コマンドレット モジュール](/powershell/power-bi/overview) 
 
 * [Power BI で作業を共有する方法](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 
@@ -202,4 +202,3 @@ Power BI では、テナントでの BYOK の管理に役立つ追加のコマ�
 * [SharePoint Online にレポート Web パーツを埋め込む](../collaborate-share/service-embed-report-spo.md)
 
 * [Power BI から Web への公開](../collaborate-share/service-publish-to-web.md)
-

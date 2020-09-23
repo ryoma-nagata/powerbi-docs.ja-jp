@@ -8,19 +8,19 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937633"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861960"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Capacity Metrics に接続する
 Premium 容量リソースを最適に利用するにはどうすればよいかを十分な情報に基づいて判断するには、ご利用の容量を監視することが不可欠です。 Power BI Premium Capacity Metrics アプリからは、ご利用の容量のパフォーマンスに関する非常に詳細な情報が提供されます。
 
 ![Power BI Premium Capacity Metrics アプリのレポート](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
 
-この記事では、アプリをインストールしてデータ ソースに接続する方法について説明します。 レポートの内容とその使用方法については、「[アプリで Premium 容量を監視する](../service-admin-premium-monitor-capacity.md)」と [Premium Capacity Metrics アプリに関するブログ記事](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/)を参照してください。
+この記事では、アプリをインストールしてデータ ソースに接続する方法について説明します。 レポートの内容とその使用方法については、「[アプリで Premium 容量を監視する](../admin/service-admin-premium-monitor-capacity.md)」と [Premium Capacity Metrics アプリに関するブログ記事](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/)を参照してください。
 
 アプリをインストールしてデータ ソースに接続した後は、必要に応じてレポートをカスタマイズできます。 その後、それを組織内の同僚に配布することができます。
 

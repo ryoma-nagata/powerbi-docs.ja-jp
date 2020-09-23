@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74698695"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861799"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server でスケジュールされた更新をトラブルシューティングする
 この記事では、Power BI Report Server でスケジュールされた更新に関する問題のトラブルシューティングに利用できるリソースについて説明します。
@@ -35,9 +35,9 @@ ms.locfileid: "74698695"
 
 メモリ不足が頻繁に発生する場合は、レポート サーバーのデプロイをスケールアウトしてリソースの負荷を分散させると有効な場合があります。 rsreportserver.config の `IsDataModelRefreshService` の設定を使って、データ更新に特定のレポート サーバーが使われるように定義することもできます。この設定を使うと、1 台以上のサーバーをオンデマンド レポート処理用のフロントエンド サーバーとして定義し、他のサーバーをスケジュールされた更新だけに使うことができます。
 
-Analysis Services インスタンスを監視する方法については、「[Monitor an Analysis Services Instance](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)」(Analysis Services インスタンスを監視する) をご覧ください。
+Analysis Services インスタンスを監視する方法については、「[Monitor an Analysis Services Instance](/sql/analysis-services/instances/monitor-an-analysis-services-instance)」(Analysis Services インスタンスを監視する) をご覧ください。
 
-Analysis Services 内のメモリ設定については、「[Memory Properties](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)」(メモリのプロパティ) をご覧ください。
+Analysis Services 内のメモリ設定については、「[Memory Properties](/sql/analysis-services/server-properties/memory-properties)」(メモリのプロパティ) をご覧ください。
 
 ### <a name="kerberos-configuration"></a>Kerberos の構成
 Windows 資格情報でデータ ソースに正常に接続するには、Kerberos の制約付き委任の構成が必要な場合があります。 Kerberos の制約付き委任を構成する方法については、「[Power BI レポートを使用するために Kerberos を構成する](configure-kerberos-powerbi-reports.md)」をご覧ください。
@@ -180,7 +180,7 @@ Power BI Report Server および Analysis Services の既定の場所は次の�
 ### <a name="profiling-the-local-analysis-services-process"></a>ローカル Analysis Services プロセスのプロファイリング
 診断のためにローカル Analysis Services プロセスで SQL Profiler トレースを実行できます。 ローカル Analysis Services インスタンスに接続するには、次のようにします。
 
-SQL Server Profiler トレースは、[SQL Server Management Studio (SSMS) のダウンロード](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)に含まれます。
+SQL Server Profiler トレースは、[SQL Server Management Studio (SSMS) のダウンロード](/sql/ssms/download-sql-server-management-studio-ssms)に含まれます。
 
 1. 管理者として **SQL Server Profiler** を開始します。
 2. **[新しいトレース]** ボタンを選びます。
@@ -188,7 +188,6 @@ SQL Server Profiler トレースは、[SQL Server Management Studio (SSMS) の�
 4. **[トレースのプロパティ]** ダイアログで、キャプチャするイベントを選び、 **[実行]** を選びます。
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>メモリ内のページのロック Windows 特権
-Power BI レポートをレンダリングできない場合は、Power BI Report Server を実行しているサービス アカウントに**メモリ内のページのロック**特権を割り当てると、解決する場合があります。 **メモリ内のページのロック**の構成方法については、「[Windows privileges assigned to the Analysis Services service account](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)」(Analysis Services サービス アカウントに割り当てられる Windows 特権) をご覧ください。
+Power BI レポートをレンダリングできない場合は、Power BI Report Server を実行しているサービス アカウントに**メモリ内のページのロック**特権を割り当てると、解決する場合があります。 **メモリ内のページのロック**の構成方法については、「[Windows privileges assigned to the Analysis Services service account](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)」(Analysis Services サービス アカウントに割り当てられる Windows 特権) をご覧ください。
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 8e8f1c143f65b1974364a8a1c9c55e132a4131c4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204432"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857038"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium 容量でワークロードを構成する
 
@@ -198,7 +198,7 @@ Power BI のレポートでは、容量に対するクエリごとに、この�
 
 ### <a name="rest-api"></a>REST API
 
-ワークロードの有効化と容量への割り当ては、[Capacities](https://docs.microsoft.com/rest/api/power-bi/capacities) REST API を使用します。
+ワークロードの有効化と容量への割り当ては、[Capacities](/rest/api/power-bi/capacities) REST API を使用します。
 
 ## <a name="monitoring-workloads"></a>ワークロードの監視
 

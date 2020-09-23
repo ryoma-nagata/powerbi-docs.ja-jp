@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034162"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857061"
 ---
 # <a name="power-bi-security"></a>Power BI のセキュリティ
 
@@ -61,10 +61,10 @@ Power BI のログインに職場の電子メール (<em>david@contoso.com</em> 
 
 ## <a name="enforcing-tls-version-usage"></a>TLS バージョンの使用の強制
 
-ネットワークおよび IT 管理者は、ネットワーク上のセキュリティで保護された通信に対する現在の TLS (Transport Layer Security) の使用を強制できます。 Windows では、Microsoft Schannel プロバイダーを介して TLS バージョンがサポートされます ([TLS Schannel SSP に関する記事](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-)を参照)。
+ネットワークおよび IT 管理者は、ネットワーク上のセキュリティで保護された通信に対する現在の TLS (Transport Layer Security) の使用を強制できます。 Windows では、Microsoft Schannel プロバイダーを介して TLS バージョンがサポートされます ([TLS Schannel SSP に関する記事](/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-)を参照)。
 
-管理上の理由でレジストリ キーを設定することで、このように強制できます。 強制については、[AD FS での SSL プロトコルの管理に関する記事](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs)を参照してください。 
+管理上の理由でレジストリ キーを設定することで、このように強制できます。 強制については、[AD FS での SSL プロトコルの管理に関する記事](/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs)を参照してください。 
 
 **Power BI Desktop** では、これらの記事で説明されているレジストリ キー設定が優先され、また、存在する場合はこれらのレジストリ キー設定に基づいて許可される TLS のバージョンを使用して作成された接続のみが優先されます。
 
-これらのレジストリ キーの設定については詳しくは、[TLS レジストリ設定](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)に関する記事を参照してください。
+これらのレジストリ キーの設定については詳しくは、[TLS レジストリ設定](/windows-server/security/tls/tls-registry-settings)に関する記事を参照してください。

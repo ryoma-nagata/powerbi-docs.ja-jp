@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2b1570176138a38e9856691af7d81f201b055db1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 955e32e99c4f208bbf3582c32b9e5efee95a8f3a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238518"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861937"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Power BI Desktop のレポート テンプレートを作成する
 
@@ -70,7 +70,7 @@ Power BI レポート テンプレートを使用するには、Power BI Desktop
 
 ## <a name="next-steps"></a>次のステップ
 **クエリ パラメーター**の学習についても関心がありますか。
-* [Power BI Desktop でクエリ パラメーターを使用する](https://docs.microsoft.com/power-query/power-query-query-parameters)
+* [Power BI Desktop でクエリ パラメーターを使用する](/power-query/power-query-query-parameters)
 
 さらに、Power BI Desktop を使用すると、さまざまなことを行えます。 そのような機能について詳しくは、次のリソースをご覧ください。
 
@@ -78,4 +78,4 @@ Power BI レポート テンプレートを使用するには、Power BI Desktop
 * [Power BI Desktop でのクエリの概要](../transform-model/desktop-query-overview.md)
 * [Power BI Desktop でのデータ型](../connect-data/desktop-data-types.md)
 * [Power BI Desktop でのデータの整形と結合](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop での一般的なクエリ タスク](../transform-model/desktop-common-query-tasks.md)    
+* [Power BI Desktop での一般的なクエリ タスク](../transform-model/desktop-common-query-tasks.md)

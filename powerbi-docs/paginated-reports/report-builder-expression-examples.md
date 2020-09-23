@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3a24724e67a931860296983fe3a116137d3b5361
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921150"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859523"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI レポート ビルダーでの式の例
 式は、Power BI Report Builder のページ分割されたレポートで、内容とレポートの外観を制御するためによく使われます。 式を記述するには Microsoft Visual Basic を使い、式では組み込み関数、カスタム コード、レポートとグループ変数、およびユーザー定義変数を使うことができます。 式は等号 (=) で始まります。   
@@ -38,7 +38,7 @@ ms.locfileid: "78921150"
  レポート内の多くの式には、関数が含まれます。 これらの関数を使用して、データの書式を設定し、ロジックを適用し、レポートのメタデータにアクセスできます。 Microsoft Visual Basic ランタイム ライブラリの関数や、`xref:System.Convert` および `xref:System.Math` 名前空間の関数を使って、式を記述することができます。 カスタム コード内の関数への参照を追加できます。 また、`xref:System.Text.RegularExpressions` などの Microsoft .NET Framework のクラスを使うこともできます。  
   
 ##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic の関数  
- Visual Basic の関数を使って、テキスト ボックスに表示されるデータや、パラメーター、プロパティ、またはレポートの他の領域に使われるデータを、操作することができます。 このセクションでは、これらの関数の使い方を示す例を提供します。 各関数の詳細については、MSDN の「 [Visual Basic ランタイム ライブラリのメンバー](https://go.microsoft.com/fwlink/?LinkId=198941) 」を参照してください。  
+ Visual Basic の関数を使って、テキスト ボックスに表示されるデータや、パラメーター、プロパティ、またはレポートの他の領域に使われるデータを、操作することができます。 このセクションでは、これらの関数の使い方を示す例を提供します。 各関数の詳細については、MSDN の「 [Visual Basic ランタイム ライブラリのメンバー](/dotnet/visual-basic/language-reference/runtime-library-members) 」を参照してください。  
   
  .NET Framework では、特定の日付形式など、さまざまなカスタム書式オプションが提供されています。 詳しくは、「[型の書式設定](/dotnet/standard/base-types/formatting-types)」をご覧ください。  
   
@@ -517,4 +517,3 @@ ms.locfileid: "78921150"
 ## <a name="next-steps"></a>次のステップ
 
 - [Power BI Premium のページ分割されたレポートとは](paginated-reports-report-builder-power-bi.md)
-  

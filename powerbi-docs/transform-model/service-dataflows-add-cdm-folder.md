@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 05dcae0a2277ee84e6c8bfbdb51532252c50c896
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23c15b49bfd6b069181b5d860637e00315376059
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238896"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861707"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>データフローとして CDM フォルダーを Power BI へ追加する (プレビュー)
 
@@ -26,7 +26,7 @@ Power BI では、組織の Azure Data Lake Store Gen2 にデータフローと�
 
 * ADLS Gen2 ストレージ アカウントを使用するには、管理者が事前に Power BI 内部にそれをリンクする必要があります。 ADLS Gen2 アカウントを Power BI にリンクする方法については、「[データフロー ストレージ用の Azure Data Lake Storage Gen2 を接続する](service-dataflows-connect-azure-data-lake-storage-gen2.md)」を参照してください。
 * CDM フォルダーからのデータフローの作成は、[新しいワークスペース エクスペリエンス](../collaborate-share/service-create-the-new-workspaces.md) "*のみ*" で使用できます。 
-* Power BI に CDM フォルダーを追加するには、フォルダーを追加するユーザーが、[CDM フォルダーとその中のファイルに対して承認](https://go.microsoft.com/fwlink/?linkid=2029121)されている必要があります。
+* Power BI に CDM フォルダーを追加するには、フォルダーを追加するユーザーが、[CDM フォルダーとその中のファイルに対して承認](./service-dataflows-azure-data-lake-integration.md)されている必要があります。
 * CDM フォルダー内にあるすべてのファイルとフォルダーを Power BI に追加するには、それらに対する読み取りと実行のアクセス許可が付与される必要があります。
 
 以降のセクションでは、CDM フォルダーからデータフローを作成する方法について説明します。
@@ -86,7 +86,7 @@ Power BI Desktop:
 
   ![データフローの使用を試行した際のエラー](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-この問題を解決するには、ベンに CDM フォルダーとその中のファイルに対する閲覧者のアクセス許可を付与する必要があります。 CDM フォルダーへのアクセス権を付与する方法については、[こちらの記事](https://go.microsoft.com/fwlink/?linkid=2029121)を参照してください。
+この問題を解決するには、ベンに CDM フォルダーとその中のファイルに対する閲覧者のアクセス許可を付与する必要があります。 CDM フォルダーへのアクセス権を付与する方法については、[こちらの記事](./service-dataflows-azure-data-lake-integration.md)を参照してください。
 
 
 ## <a name="next-steps"></a>次のステップ
@@ -107,13 +107,13 @@ Power BI Desktop:
 * [Power BI データフロー用の開発者向けリソース](service-dataflows-developer-resources.md)
 
 Azure Storage の詳細については、次の記事をご覧ください。
-* [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage セキュリティ ガイド](/azure/storage/common/storage-security-guide)
 * [スケジュールされた更新の構成](../connect-data/refresh-scheduled-refresh.md)
 * [Azure Data Services から GitHub サンプルを開始する](https://aka.ms/cdmadstutorial)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
-* [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM フォルダー](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM モデル ファイル定義](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Common Data Model の概要](/powerapps/common-data-model/overview)
+* [CDM フォルダー](/common-data-model/data-lake)
+* [CDM モデル ファイル定義](/common-data-model/model-json)
 
 [Power BI コミュニティへの質問](https://community.powerbi.com/)は、いつでも行うことができます。

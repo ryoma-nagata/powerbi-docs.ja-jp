@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: c26d169a4c8ef876d1fe92e4967b07c982f510db
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952618"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856877"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Power BI 管理のための PowerShell コマンドレット、REST API、.NET クライアント ライブラリ
 Power BI では、管理者が PowerShell コマンドレットを使用して一般的なタスクのスクリプトを作成できます。 REST API も公開され、管理ソリューションを開発する .NET クライアント ライブラリが提供されています。 このトピックでは、コマンドレットの一覧と、それに対応する API と REST API エンドポイントを示します。 詳細については、次のトピックを参照してください。
 
-- PowerShell の[ダウンロード](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)と[ドキュメント](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
-- REST API の[ドキュメント](https://docs.microsoft.com/rest/api/power-bi/admin)
+- PowerShell の[ダウンロード](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)と[ドキュメント](/powershell/power-bi/overview?view=powerbi-ps)
+- REST API の[ドキュメント](/rest/api/power-bi/admin)
 - .NET クライアント ライブラリの[ダウンロード](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
 
 > 以下のコマンドレットを管理用のテナントに対して動作させるには、`-Scope Organization` と共に呼び出す必要があります。

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 264eb0c9079e1f54d53aeb41a1ef73016c2bf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874309"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859276"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI レポート サーバーのブラウザーのサポート
 Power BI レポート サーバーとレポート ビューアー コントロールで管理および表示するためにサポートされているブラウザーのバージョンについて説明します。
@@ -91,12 +91,12 @@ Your browser does not support scripts or has been configured to not allow script
  スクリプトを使用せずにレポートを表示することを選択した場合、レポート ツール バーやドキュメント マップなどのレポート ビューアー機能を使用しない HTML でレポートが表示されます。
 
 > [!NOTE]
-> レポート ツール バーは HTML ビューアー コンポーネントの一部です。 既定では、ツール バーはブラウザー ウィンドウに表示されるすべてのレポートの上部に表示されます。 レポート ビューアーでは、レポート内の情報を検索したり、特定のページまでスクロールしたり、表示目的でページ サイズを調整するなどの機能を利用できます。 レポート ツール バーまたは HTML ビューアーの詳細については、「 [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar)」を参照してください。
+> レポート ツール バーは HTML ビューアー コンポーネントの一部です。 既定では、ツール バーはブラウザー ウィンドウに表示されるすべてのレポートの上部に表示されます。 レポート ビューアーでは、レポート内の情報を検索したり、特定のページまでスクロールしたり、表示目的でページ サイズを調整するなどの機能を利用できます。 レポート ツール バーまたは HTML ビューアーの詳細については、「 [HTML Viewer and the Report Toolbar](/sql/reporting-services/html-viewer-and-the-report-toolbar)」を参照してください。
 > 
 > 
 
 ## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Visual Studio でのレポート ビューアー Web サーバー コントロールのブラウザー サポート
-レポート ビューアー Web サーバー コントロールは、ASP.NET Web アプリケーションにレポート機能を埋め込むために使用します。 レポート ビューアー コントロールを取得する方法の詳細については、「[Integrating Reporting Services Using Report Viewer Controls - Get Started](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)」 (レポート ビューアー コントロールを使用して Reporting Services を統合する - はじめに) を参照してください。
+レポート ビューアー Web サーバー コントロールは、ASP.NET Web アプリケーションにレポート機能を埋め込むために使用します。 レポート ビューアー コントロールを取得する方法の詳細については、「[Integrating Reporting Services Using Report Viewer Controls - Get Started](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)」 (レポート ビューアー コントロールを使用して Reporting Services を統合する - はじめに) を参照してください。
 
 スクリプトのサポートが有効になっているブラウザーを使用します。 ブラウザーでスクリプトを実行できない場合は、レポートを表示することはできません。
 
@@ -114,7 +114,6 @@ Your browser does not support scripts or has been configured to not allow script
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) のダウンロード](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) のダウンロード](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

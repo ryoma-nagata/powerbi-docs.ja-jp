@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459602"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859246"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server の変更ログ
 
@@ -32,7 +32,7 @@ ms.locfileid: "86459602"
             - クエリのマージにあいまい一致が使用されていた場合に更新が失敗した問題を修正しました。
     - *バージョン:1.8.7450.37410 (ビルド 15.0.1103.227)、リリース日:2020 年 5 月 27 日*
          - 機能
-            -  カスタマイズ可能なカタログ接続プール サイズのサポートを追加しました (詳細については、「[MaxCatalogConnectionPoolSizePerProcess 設定](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service)」を参照してください)。
+            -  カスタマイズ可能なカタログ接続プール サイズのサポートを追加しました (詳細については、「[MaxCatalogConnectionPoolSizePerProcess 設定](/sql/reporting-services/report-server/rsreportserver-config-configuration-file#bkmk_service)」を参照してください)。
             -  更新操作中にレポートを表示するときの動作が改善されました。
         - セキュリティ更新プログラム
         - バグの修正
@@ -65,7 +65,7 @@ ms.locfileid: "86459602"
            -  特定のデータ ソースのアップロードに失敗する Power BI レポートの修正
            -  Power BI Report Server デスクトップ リンクのポータルからのダウンロード場所の修正
            -  Excel レンダリング用の DynamicImageDPI の修正
-           -  特定のマルチユーザー シナリオで間違ったスレッド カルチャを使用する Oracle 接続の修正 (詳細については、[UseInstalledUICulture に関するドキュメント](https://docs.microsoft.com/power-bi/report-server/connect-data-sources)を参照)
+           -  特定のマルチユーザー シナリオで間違ったスレッド カルチャを使用する Oracle 接続の修正 (詳細については、[UseInstalledUICulture に関するドキュメント](./connect-data-sources.md)を参照)
            -  レポートの埋め込みで失敗の原因となる CustomHeaders の既定値の修正
            -  特定のケースで間違って生成される SQL パラメーター名の修正
     - *バージョン:1.6.7327.3007 (ビルド 15.0.1102.759)、リリース日:2020 年 1 月 23 日*
@@ -351,7 +351,7 @@ ms.locfileid: "86459602"
 
     - *ビルド 14.0.600.305、リリース日:2017 年 9 月 19 日*  
         - バグの修正
-            - 最新の[Bing Maps Web コントロール](https://msdn.microsoft.com/library/mt712542.aspx)に更新
+            - 最新の[Bing Maps Web コントロール](/bingmaps/v8-web-control/)に更新
 
     - *ビルド 14.0.600.301、リリース日:2017 年 7 月 11 日*
         - バグの修正
@@ -373,6 +373,6 @@ ms.locfileid: "86459602"
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) のダウンロード](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) のダウンロード](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

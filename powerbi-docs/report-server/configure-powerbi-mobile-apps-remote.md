@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: c8dd2a4313f3b78eac7bd0b9863d5403c31adc08
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 996e3835337ce8aa1002abce7682d707daec032e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236138"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859131"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>リモートでレポート サーバーへの Power BI モバイル アプリのアクセスを構成する
 
@@ -69,9 +69,8 @@ Intune を使用して構成ポリシーを設定する例を以下に示しま�
 
 ## <a name="next-steps"></a>次のステップ
 
-- [Azure AD アプリケーション プロキシを使用して Power BI Mobile へのリモート アクセスを有効にする](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+- [Azure AD アプリケーション プロキシを使用して Power BI Mobile へのリモート アクセスを有効にする](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 - [管理者の概要](admin-handbook-overview.md)  
 - [Power BI レポート サーバーのインストール](install-report-server.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

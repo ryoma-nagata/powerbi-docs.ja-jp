@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/14/2020
-ms.openlocfilehash: 2bc2e026acf0f895796158408afa6449c93ce254
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9e2c44bdcbeabc28a95bd62bf6ba6763ae61442
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236177"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859062"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>Web アプリケーション プロキシと Active Directory フェデレーション サービスを使用する - Power BI Report Server
 
@@ -40,7 +40,7 @@ WAP アプリケーションと AD FS サーバーの両方の証明書を構成
 
 SPN は、Kerberos 認証を使うサービスの一意の識別子です。 レポート サーバーの適切な HTTP SPN が存在していることを確認します。
 
-レポート サーバーの適切なサービス プリンシパル名 (SPN) の構成方法については、「[レポート サーバーのサービス プリンシパル名 (SPN) の登録](https://docs.microsoft.com/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)」をご覧ください。
+レポート サーバーの適切なサービス プリンシパル名 (SPN) の構成方法については、「[レポート サーバーのサービス プリンシパル名 (SPN) の登録](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)」をご覧ください。
 
 ### <a name="enabling-negotiate-authentication"></a>ネゴシエート認証を有効にする
 
@@ -56,11 +56,11 @@ SPN は、Kerberos 認証を使うサービスの一意の識別子です。 レ
 </AuthenticationTypes>
 ```
 
-詳しくは、「[Modify a Reporting Services Configuration File](https://docs.microsoft.com/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)」 (Reporting Services 構成ファイルを変更する) および「[レポート サーバーで Windows 認証を構成する](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)」をご覧ください。
+詳しくは、「[Modify a Reporting Services Configuration File](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)」 (Reporting Services 構成ファイルを変更する) および「[レポート サーバーで Windows 認証を構成する](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)」をご覧ください。
 
 ## <a name="2-configure-active-directory-federation-services-ad-fs"></a>2.Active Directory Federation Services (AD FS) を構成する
 
-環境内の Windows 2016 サーバーで AD FS を構成する必要があります。 構成を行うには、サーバー マネージャーで [管理]、[役割と機能の追加] の順に選択します。 詳しくは、「[Active Directoryフェデレーション サービス](https://docs.microsoft.com/windows-server/identity/active-directory-federation-services)」をご覧ください。
+環境内の Windows 2016 サーバーで AD FS を構成する必要があります。 構成を行うには、サーバー マネージャーで [管理]、[役割と機能の追加] の順に選択します。 詳しくは、「[Active Directoryフェデレーション サービス](/windows-server/identity/active-directory-federation-services)」をご覧ください。
 
 AD FS サーバーで AD FS 管理アプリを使用して、次の手順を実行します。
 
@@ -93,7 +93,7 @@ AD FS サーバーで AD FS 管理アプリを使用して、次の手順を実�
 
 ## <a name="3-configure-web-application-proxy-wap"></a>3.Web アプリケーション プロキシ (WAP) を構成する
 
-環境内のサーバーで、Web アプリケーション プロキシ (役割) の Windows の役割を有効にします。 これは、Windows 2016 サーバー上になければなりません。 詳しくは、「[Web Application Proxy in Windows Server 2016](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)」 (Windows Server 2016 での Web アプリケーション プロキシ) および「[Publishing Applications using AD FS Preauthentication](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication)」 (AD FS の事前認証を使用したアプリケーションの公開) をご覧ください。
+環境内のサーバーで、Web アプリケーション プロキシ (役割) の Windows の役割を有効にします。 これは、Windows 2016 サーバー上になければなりません。 詳しくは、「[Web Application Proxy in Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)」 (Windows Server 2016 での Web アプリケーション プロキシ) および「[Publishing Applications using AD FS Preauthentication](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication)」 (AD FS の事前認証を使用したアプリケーションの公開) をご覧ください。
 
 ### <a name="configure-constrained-delegation"></a>制約付き委任を構成する
 
@@ -174,4 +174,3 @@ Active Directory 内の WAP サーバー コンピューター アカウント�
 *[Power BI Report Server とは](get-started.md)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-
