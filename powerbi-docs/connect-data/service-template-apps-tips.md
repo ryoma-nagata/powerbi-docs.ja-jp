@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: f5c8f763b1f02d055d39c62ef2e2902b6efca439
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235534"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860281"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI でのテンプレート アプリの作成に関するヒント
 
@@ -124,15 +124,15 @@ Power BI Desktop の[パラメーター](https://powerbi.microsoft.com/blog/deep
 テンプレート アプリは AppSource に発行できます、ご自身のアプリを AppSource に送信する前に、次のガイドラインに従ってください。
 
 * アプリの機能をインストーラーが理解しやすいように魅力的なサンプル データを使ってテンプレート アプリを作成します (空のレポートとダッシュボードは承認されていません)。
-テンプレート アプリではサンプル データのみのアプリがサポートされます。静的なアプリのチェック ボックスは必ずオンにしてください。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+テンプレート アプリではサンプル データのみのアプリがサポートされます。静的なアプリのチェック ボックスは必ずオンにしてください。 [詳細情報](./service-template-apps-create.md#define-the-properties-of-the-template-app)
 * データ接続に必要な資格情報とパラメーターが含まれる、検証チームを対象とした指示を用意します。
-* アプリケーションでは、Power BI とご自身の CPP プランにアプリ アイコンを含める必要があります。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* ランディング ページを構成します。 [詳細情報](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 必ず、[パートナー センター > Power BI アプリ オファー](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)のドキュメントに従ってください。
+* アプリケーションでは、Power BI とご自身の CPP プランにアプリ アイコンを含める必要があります。 [詳細情報](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* ランディング ページを構成します。 [詳細情報](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* 必ず、[パートナー センター > Power BI アプリ オファー](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)のドキュメントに従ってください。
 * ダッシュボードがご自身のアプリに含まれる場合は、空でないことを確認します。
 * アプリを送信する前に、アプリ リンクを使用してそのアプリをインストールします。データセットに接続できることと、計画したとおりのアプリ エクスペリエンスであることを確認します。
 * pbix をテンプレート ワークスペースにアップロードする前に、不要な接続すべてをアンロードしてください。
-* Power BI の「[レポートとビジュアルのデザインに関するベスト プラクティス](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)」に従って、ユーザーに対する効果を最大限に高め、配布の承認を得ます。
+* Power BI の「[レポートとビジュアルのデザインに関するベスト プラクティス](../visuals/power-bi-report-visualizations.md)」に従って、ユーザーに対する効果を最大限に高め、配布の承認を得ます。
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="create-a-download-link-for-the-app"></a>アプリのダウンロード リンクを作成する

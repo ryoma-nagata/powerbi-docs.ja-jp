@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921242"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859706"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI のページ分割されたレポートでの改ページ
 
@@ -34,7 +34,7 @@ ms.locfileid: "78921242"
   
  既定では、ページ サイズは 8.5 x 11 インチですが、このサイズは、 **[レポートのプロパティ]** ペインまたは **[ページ設定]** ダイアログ ボックスで、または **[プロパティ]** ペインで PageHeight プロパティと PageWidth プロパティを変更することで、変更できます。 ページ サイズは、レポート本文の内容に合わせて拡大または縮小されません。 レポートを 1 ページに表示させたい場合は、レポート本文のすべてのコンテンツを、特定の物理ページに収まるように配置する必要があります。 収まらない場合に強制改ページ形式を使用していると、レポートのページが追加されます。 レポート本文が物理ページの右端からはみ出た場合、改ページが水平方向に挿入されます。 レポート本文が物理ページの下端からはみ出た場合、垂直方向に改ページが挿入されます。  
   
- レポートに定義されている物理ページ サイズをオーバーライドする場合は、レポートのエクスポートに使用している特定のレンダラーの [デバイス情報] 設定を使用して、物理ページ サイズを指定できます。 完全な一覧については、SQL Server Reporting Services ドキュメントの「[表示拡張機能のデバイス情報設定](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017)」を参照してください。  
+ レポートに定義されている物理ページ サイズをオーバーライドする場合は、レポートのエクスポートに使用している特定のレンダラーの [デバイス情報] 設定を使用して、物理ページ サイズを指定できます。 完全な一覧については、SQL Server Reporting Services ドキュメントの「[表示拡張機能のデバイス情報設定](/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services)」を参照してください。  
   
 ### <a name="margins"></a>余白
 
@@ -77,13 +77,13 @@ ms.locfileid: "78921242"
   
  定数と単純な式または複雑な式を使用して、Disabled プロパティと ResetPageNumber プロパティの値を設定できます。 ただし、式を BreakLocation プロパティと共に使用することはできません。 式の記述と使用の詳細については、「[Power BI レポート ビルダーでの式](report-builder-expressions.md)」を参照してください。  
   
- レポートでは、**Globals** コレクションを使用して、現在のページ名またはページ番号を参照する式を作成できます。 詳細については、レポート ビルダーと Reporting Services のドキュメントで「[組み込み Globals および Users 参照](https://docs.microsoft.com/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder?view=sql-server-2017)」を参照してください。
+ レポートでは、**Globals** コレクションを使用して、現在のページ名またはページ番号を参照する式を作成できます。 詳細については、レポート ビルダーと Reporting Services のドキュメントで「[組み込み Globals および Users 参照](/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder)」を参照してください。
   
 ### <a name="naming-excel-worksheet-tabs"></a>Excel ワークシート タブの名前付け
 
  これらのプロパティは、Excel ブックにレポートをエクスポートするときに便利です。 レポートをエクスポートするときに、ワークシートのタブ名として既定の名前を指定するには、InitialPage プロパティを使用し、各ワークシートで異なる名前を指定する場合は、PageName プロパティを使用します。 改ページによって定義された新しい各レポート ページは、PageName プロパティの値によって名前が指定された別のワークシートにエクスポートされます。 PageName が空白でも、レポートに最初のページ名がある場合、Excel ブックのすべてのワークシートで同じ名前 (最初のページ名) が使用されます。  
   
- レポートを Excel にエクスポートするときのこれらのプロパティの動作の詳細については、レポート ビルダーと Reporting Services のドキュメントで「[Microsoft Excel へのエクスポート](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs)」を参照してください。  
+ レポートを Excel にエクスポートするときのこれらのプロパティの動作の詳細については、レポート ビルダーと Reporting Services のドキュメントで「[Microsoft Excel へのエクスポート](/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs)」を参照してください。  
   
 ## <a name="next-steps"></a>次のステップ
 

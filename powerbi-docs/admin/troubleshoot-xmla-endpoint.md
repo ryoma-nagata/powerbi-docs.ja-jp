@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363964"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854083"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA エンドポイント接続のトラブルシューティング
 
@@ -138,11 +138,11 @@ Power BI で、スケジュールされた更新またはオンデマンドの�
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL コマンドでのオーバーライド
 
-[Refresh コマンド (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) でのオーバーライドを使用すると、ユーザーは更新操作のために別のパーティション クエリ定義またはデータ ソース定義を選択できます。 現時点では、Power BI Premium では**オーバーライドはサポートされていません**。 エラー "Out-of-line binding is not allowed in Power BI Premium. For additional information, see 'XMLA read/write support' in the product documentation." (不一致バインドは Power BI Premium では許可されていません。詳細については、製品ドキュメントの「XMLA の読み取りおよび書き込みのサポート」を参照してください。) が 返されます。
+[Refresh コマンド (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) でのオーバーライドを使用すると、ユーザーは更新操作のために別のパーティション クエリ定義またはデータ ソース定義を選択できます。 現時点では、Power BI Premium では**オーバーライドはサポートされていません**。 エラー "Out-of-line binding is not allowed in Power BI Premium. For additional information, see 'XMLA read/write support' in the product documentation." (不一致バインドは Power BI Premium では許可されていません。詳細については、製品ドキュメントの「XMLA の読み取りおよび書き込みのサポート」を参照してください。) が 返されます。
 
 ## <a name="see-also"></a>関連項目
 
 [XMLA エンドポイントを使用したデータセット接続](service-premium-connect-tools.md)   
 [サービス プリンシパルを使用して Premium ワークスペースとデータセットのタスクを自動化する](service-premium-service-principal.md)   
 ["Excel で分析" に関するトラブルシューティング](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[表形式モデル ソリューションのデプロイ](https://docs.microsoft.com/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[表形式モデル ソリューションのデプロイ](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)

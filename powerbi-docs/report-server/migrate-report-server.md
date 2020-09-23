@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/17/2019
-ms.openlocfilehash: 898e2bc688e9d3e819511288484f07511c809fb8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 650984e7bd7effca8fff222f828eaa9c7e42dce1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238016"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860141"
 ---
 # <a name="migrate-a-report-server-installation"></a>レポート サーバー インストールの移行
 
@@ -97,6 +97,6 @@ Power BI Report Server 間での移行手順は、SSRS (ネイティブ モー�
 
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
-[rs.exe ユーティリティと Web サービスを使用したスクリプト](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
+[rs.exe ユーティリティと Web サービスを使用したスクリプト](/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

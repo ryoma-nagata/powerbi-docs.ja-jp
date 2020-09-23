@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: e4f2db2c5b0220215c9c71cc62349c2255cf046d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490355"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854623"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>サービス プリンシパルを使用して Premium ワークスペースとデータセットのタスクを自動化する
 
@@ -40,14 +40,14 @@ Power BI Premium では、Power BI Embedded と同じサービス プリンシ�
 
 サービス プリンシパルは Azure portal でアプリの登録として作成するか、PowerShell を使用して作成します。 サービス プリンシパルを作成するときは、アプリ名、アプリケーション (クライアント) ID、ディレクトリ (テナント) ID、およびクライアント シークレットを別々にコピーして保存してください。 サービス プリンシパルを作成する手順については、以下を参照してください。
 
-[サービス プリンシパルを作成する - Azure Portal](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)   
-[サービス プリンシパルを作成する - PowerShell](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+[サービス プリンシパルを作成する - Azure Portal](/azure/active-directory/develop/howto-create-service-principal-portal)   
+[サービス プリンシパルを作成する - PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 
 ## <a name="create-an-azure-ad-security-group"></a>Azure AD セキュリティ グループを作成する
 
 既定では、サービス プリンシパルにはそれが有効にされたテナント設定へのアクセス権があります。 ご利用の管理者設定に応じて、特定のセキュリティ グループまたは組織全体へのアクセス権を付与することができます。
 
-サービス プリンシパルのアクセス権を特定のテナント設定に制限するには、特定のセキュリティ グループに対するアクセスを許可できます。 あるいは、サービス プリンシパル専用のセキュリティ グループを作成し、それを目的のテナント設定から除外することもできます。 セキュリティ グループを作成してサービス プリンシパルを追加する手順については、「[Azure Active Directory を使用して基本グループを作成してメンバーを追加する](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)」をご覧ください。
+サービス プリンシパルのアクセス権を特定のテナント設定に制限するには、特定のセキュリティ グループに対するアクセスを許可できます。 あるいは、サービス プリンシパル専用のセキュリティ グループを作成し、それを目的のテナント設定から除外することもできます。 セキュリティ グループを作成してサービス プリンシパルを追加する手順については、「[Azure Active Directory を使用して基本グループを作成してメンバーを追加する](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)」をご覧ください。
 
 ## <a name="enable-service-principals"></a>サービス プリンシパルを有効にする
 
@@ -59,7 +59,7 @@ Power BI の **[管理ポータル]**  >  **[テナント設定]** で、 **[Pow
 
 ## <a name="workspace-access"></a>ワークスペース アクセス
 
-Premium ワークスペースとデータセットの操作を実行するために必要なアクセス許可をサービス プリンシパルに付与するには、ワークスペースのメンバーまたは管理者としてサービス プリンシパルを追加する必要があります。ここでは Power BI サービスでのワークスペース アクセスの使用について説明しますが、[グループ ユーザーの追加 REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) を使用することもできます。
+Premium ワークスペースとデータセットの操作を実行するために必要なアクセス許可をサービス プリンシパルに付与するには、ワークスペースのメンバーまたは管理者としてサービス プリンシパルを追加する必要があります。ここでは Power BI サービスでのワークスペース アクセスの使用について説明しますが、[グループ ユーザーの追加 REST API](/rest/api/power-bi/groups/addgroupuser) を使用することもできます。
 
 1. Power BI サービスで、ワークスペースに対して **[詳細]**  >  **[ワークスペース アクセス]** を選択します。
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO と ADOMD
 
-クライアント アプリケーションや Web アプリと接続するとき、[AMO と ADOMD のクライアント ライブラリ](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) バージョン 15.1.42.26 (2020 年 6 月) 以降の、NuGet からインストールできるパッケージでは、接続文字列にサービス プリンシパルを指定できます。構文 `app:AppID` とパスワードまたは `cert:thumbprint` を利用します。
+クライアント アプリケーションや Web アプリと接続するとき、[AMO と ADOMD のクライアント ライブラリ](/azure/analysis-services/analysis-services-data-providers) バージョン 15.1.42.26 (2020 年 6 月) 以降の、NuGet からインストールできるパッケージでは、接続文字列にサービス プリンシパルを指定できます。構文 `app:AppID` とパスワードまたは `cert:thumbprint` を利用します。
 
 次の例では、`appID` と `password` を使用し、モデル データベース更新操作を実行します。
 
@@ -115,6 +115,6 @@ db.Model.SaveChanges();
 ## <a name="next-steps"></a>次の手順
 
 [XMLA エンドポイントを使用したデータセット接続](service-premium-connect-tools.md)  
-[Azure Automation](https://docs.microsoft.com/azure/automation)  
-[Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/)  
-[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
+[Azure Automation](/azure/automation)  
+[Azure Logic Apps](/azure/logic-apps/)  
+[Power BI REST API](/rest/api/power-bi/)

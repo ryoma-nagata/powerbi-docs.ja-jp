@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 4f0a34f990613ab57a95d1f299392d77c7c1f625
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204315"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854669"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium の大規模なモデル (プレビュー)
 
@@ -94,7 +94,7 @@ Power BI では、動的メモリ管理を使用して、非アクティブな�
 
 ## <a name="checking-dataset-size"></a>データセット サイズの確認
 
-履歴データを読み込んだ後、[XMLA エンドポイント](service-premium-connect-tools.md)を介して [SSMS](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) を使用して、モデルのプロパティ ウィンドウでデータセットの推定サイズを確認できます。
+履歴データを読み込んだ後、[XMLA エンドポイント](service-premium-connect-tools.md)を介して [SSMS](/sql/ssms/download-sql-server-management-studio-ssms) を使用して、モデルのプロパティ ウィンドウでデータセットの推定サイズを確認できます。
 
 ![データセットの推定サイズ](media/service-premium-large-models/estimated-dataset-size.png)
 
@@ -122,7 +122,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>リージョンで使用できるかどうか
 
-Power BI の大規模なモデルは、[Azure Premium ファイル ストレージ](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)がサポートされている特定の Azure リージョンでのみ使用できます。
+Power BI の大規模なモデルは、[Azure Premium ファイル ストレージ](/azure/storage/files/storage-files-planning#storage-tiers)がサポートされている特定の Azure リージョンでのみ使用できます。
 
 次の一覧は、Power BI の大規模なモデルを使用できるリージョンを示しています。 次の一覧に含まれていないリージョンでは、大規模なモデルがサポートされていません。
 
@@ -155,7 +155,7 @@ Power BI の大規模なモデルは、[Azure Premium ファイル ストレー�
 
 次のリンクには、大規模なモデルを使用する際に役立つ情報が用意されています。
 
-* [Azure Premium ファイル ストレージ](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
+* [Azure Premium ファイル ストレージ](/azure/storage/files/storage-files-planning#storage-tiers)
 * [Power BI Premium の Multi-Geo のサポートを構成する](service-admin-premium-multi-geo.md)
 * [Power BI で独自の暗号化キーを使用する](service-encryption-byok.md)
 * [容量はどのように機能するのか](service-premium-what-is.md#how-capacities-function)

@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252730"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860787"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop とは何ですか?
 
@@ -66,7 +66,7 @@ Power BI Desktop の使用を開始するには、最初にデータに接続し
 
 ## <a name="transform-and-clean-data-create-a-model"></a>データの変換とクリーニング、モデルの作成
 
-Power BI Desktop では、組み込みの [Power Query エディター](https://docs.microsoft.com/power-bi/desktop-query-overview)を使用して、データのクリーンアップと変換ができます。 Power Query エディターでは、データに対して、データ型の変更、列の削除、複数のソースのデータの結合などの変更を行います。 作業は彫刻に似ています。大きな土 (データ) の塊から始めて、望みどおりになるまで、不要な部分を削り、必要な部分を付け加えて、データを整形していきます。 
+Power BI Desktop では、組み込みの [Power Query エディター](../transform-model/desktop-query-overview.md)を使用して、データのクリーンアップと変換ができます。 Power Query エディターでは、データに対して、データ型の変更、列の削除、複数のソースのデータの結合などの変更を行います。 作業は彫刻に似ています。大きな土 (データ) の塊から始めて、望みどおりになるまで、不要な部分を削り、必要な部分を付け加えて、データを整形していきます。 
 
 Power Query エディターを起動するには:
 
@@ -134,4 +134,3 @@ Power BI Desktop の使用を開始するには、まず、アプリケーショ
 
 * [Windows ストアから Power BI Desktop を取得する](https://aka.ms/pbidesktopstore)
 * [Web から Power BI Desktop をダウンロードする](https://www.microsoft.com/download/details.aspx?id=58494)
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 2327349928b481e51217b360587470f7f44b78d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2f6d02d6128a2896a19d87f30f46f26f101385f6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233271"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860994"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでオンプレミスのレポート サーバーのレポートと KPI を表示する
 
@@ -32,8 +32,8 @@ Power BI モバイル アプリを使って、タッチ対応のモバイルか�
 **モバイル アプリは、Power BI コンテンツを表示する場所で、作成する場所ではありません。**
 
 * 組織内のレポートの作成者は、[Power BI Desktop で Power BI レポートを作成してから、それらを Power BI レポート サーバーの Web ポータルに発行します](../../report-server/quickstart-create-powerbi-report.md)。 
-* [Web ポータルで KPI 権限](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services)を作成し、それらをフォルダー内に整理してお気に入りに設定し、簡単に検索できるようにすることもできます。 
-* SQL Server 2016 Enterprise Edition Mobile Report Publisher で [Reporting Services のモバイル レポートを作成](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)し、[Reporting Services の Web ポータル](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode)にそのレポートを公開します。  
+* [Web ポータルで KPI 権限](/sql/reporting-services/working-with-kpis-in-reporting-services)を作成し、それらをフォルダー内に整理してお気に入りに設定し、簡単に検索できるようにすることもできます。 
+* SQL Server 2016 Enterprise Edition Mobile Report Publisher で [Reporting Services のモバイル レポートを作成](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)し、[Reporting Services の Web ポータル](/sql/reporting-services/web-portal-ssrs-native-mode)にそのレポートを公開します。  
 
 Power BI モバイル アプリで最大 5 個のレポート サーバーに接続して、フォルダーやお気に入りに追加した Power BI レポートや KPI を表示します。 
 

@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c8db048f9ae74871840df96e63c60510ce800318
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: dca1b3bb107c8a2e02b48db9d22a4fe6c2875a4c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443308"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860925"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI に関してよく寄せられる質問
 
@@ -100,7 +100,7 @@ Power BI モバイル アプリはそれぞれ該当するストアから無料�
 
 Power BI セキュリティ、プライバシー、およびコンプライアンスについて詳しくは、以下をご覧ください。
 
-* こちらの [Power BI のセキュリティ](https://go.microsoft.com/fwlink/?LinkId=829185)に関するホワイトペーパー
+* こちらの [Power BI のセキュリティ](../guidance/whitepaper-powerbi-security.md)に関するホワイトペーパー
 
 * こちらの [Power BI のセキュリティ のサポート](../admin/service-admin-power-bi-security.md)に関する記事
 

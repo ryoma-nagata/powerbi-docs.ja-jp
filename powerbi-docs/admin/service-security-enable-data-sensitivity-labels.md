@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ebc4601f3575e84c248aef9204537a7d93c428ac
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: afe81469bc3ce67979602eedbf49b00cf7a3f1e6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049186"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854315"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Power BI で秘密度ラベルを有効にする
 
-[Microsoft Information Protection 秘密度ラベル](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)を Power BI で使用するには、テナント上で有効にする必要があります。 この記事では、Power BI テナント管理者がそれを行う方法について説明します。 Power BI の秘密度ラベルの概要については、「[Power BI における秘密度ラベル](service-security-sensitivity-label-overview.md)」を参照してください。 Power BI で秘密度ラベルを適用する方法の詳細については、「[秘密度ラベルを適用する](./service-security-apply-data-sensitivity-labels.md)」を参照してください。 
+[Microsoft Information Protection 秘密度ラベル](/microsoft-365/compliance/sensitivity-labels)を Power BI で使用するには、テナント上で有効にする必要があります。 この記事では、Power BI テナント管理者がそれを行う方法について説明します。 Power BI の秘密度ラベルの概要については、「[Power BI における秘密度ラベル](service-security-sensitivity-label-overview.md)」を参照してください。 Power BI で秘密度ラベルを適用する方法の詳細については、「[秘密度ラベルを適用する](./service-security-apply-data-sensitivity-labels.md)」を参照してください。 
 
 秘密度ラベルが有効になっているとき:
 
@@ -34,10 +34,10 @@ ms.locfileid: "88049186"
 
 * Office アプリには[秘密度レベルの表示や適用を行う Office 独自のライセンス要件があります]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels )。
 
-* テナントで秘密度ラベルを有効にする前に、関連するユーザーやグループに対して秘密度ラベルが定義され、公開されていることを確認します。 詳細については、「[機密ラベルとそのポリシーを作成して構成する](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)」を参照してください。
+* テナントで秘密度ラベルを有効にする前に、関連するユーザーやグループに対して秘密度ラベルが定義され、公開されていることを確認します。 詳細については、「[機密ラベルとそのポリシーを作成して構成する](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)」を参照してください。
 
 >[!NOTE]
-> 組織で Azure Information Protection 秘密度ラベルを使用している場合、ラベルを Power BI で使用するには、Microsoft Information Protection 統合ラベル付けプラットフォームに移行する必要があります。 [秘密度ラベルの移行の詳細を確認してください](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)。
+> 組織で Azure Information Protection 秘密度ラベルを使用している場合、ラベルを Power BI で使用するには、Microsoft Information Protection 統合ラベル付けプラットフォームに移行する必要があります。 [秘密度ラベルの移行の詳細を確認してください](/azure/information-protection/configure-policy-migrate-labels)。
 
 ## <a name="enable-sensitivity-labels"></a>秘密度ラベルを有効にする
 
@@ -78,6 +78,6 @@ Power BI における秘密度ラベルの制限一覧については、「[Powe
 この記事では、Power BI 内で秘密度ラベルを有効にする方法を説明しました。 次の記事では、Power BI におけるデータ保護の詳細について説明しています。 
 
 * [Power BI の秘密度ラベルの概要](service-security-sensitivity-label-overview.md)
-* [Power BI で秘密度ラベルを適用する方法](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Power BI で秘密度ラベルを適用する方法](./service-security-apply-data-sensitivity-labels.md)
 * [Power BI 内で Microsoft Cloud App Security の制御を使用する](service-security-using-microsoft-cloud-app-security-controls.md)
 * [保護メトリック レポート](service-security-data-protection-metrics-report.md)

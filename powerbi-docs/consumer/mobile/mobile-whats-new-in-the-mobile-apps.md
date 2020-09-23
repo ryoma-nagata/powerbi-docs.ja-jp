@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204900"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860235"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 用モバイル アプリの新機能
 関連する最新情報については、次の資料を参照してください。
@@ -23,7 +23,7 @@ ms.locfileid: "88204900"
 * [Power BI サービスの新機能](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
->**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="august-2020"></a>2020 年 8 月
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>コンテンツに移動する方法を改善しました (iOS および Android)
@@ -153,19 +153,19 @@ Power BI モバイルアプリでは、Power BI で作成されたブックマ�
 
 ### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>レポート サーバーのアクセス設定をリモートで構成するための Android サポート
 
-Power BI モバイル アプリのレポート サーバーのアクセス設定をリモートで構成するための Android サポートを追加しました。 IT 管理者は、組織の MDM ツールを使用して、iOS と Android の両方のデバイスでこれらの設定をリモートで構成できるようになりました。 詳細については、「[リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote)」を参照してください。
+Power BI モバイル アプリのレポート サーバーのアクセス設定をリモートで構成するための Android サポートを追加しました。 IT 管理者は、組織の MDM ツールを使用して、iOS と Android の両方のデバイスでこれらの設定をリモートで構成できるようになりました。 詳細については、「[リモートでレポート サーバーへの Power BI iOS モバイル アプリのアクセスを構成する](../../report-server/configure-powerbi-mobile-apps-remote.md)」を参照してください。
 
 ### <a name="cross-report-drillthrough"></a>レポート間のドリルスルー
 
 今月は、レポート間のドリルスルーのサポートが追加されました。 データ ポイントをタップしてドリルスルーし、他のレポートやレポート ページにアクセスできるようになりました。 ターゲット ページまでドリルスルーすると、そのページのコンテンツはドリルスルー設定に基づいてフィルター処理されます。
 
 > [!NOTE]
-> レポート間のドリルスルーは、レポート作成中にこの機能を有効にした場合にのみ使用できます。 [レポート間のドリルスルーについての詳細情報](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through)。
+> レポート間のドリルスルーは、レポート作成中にこの機能を有効にした場合にのみ使用できます。 [レポート間のドリルスルーについての詳細情報](../../create-reports/desktop-cross-report-drill-through.md)。
 
 
 ### <a name="data-sensitivity-labels"></a>データ機密ラベル
 
-コンテンツの所有者がレポート、ダッシュボード、データセット、およびデータフローに設定した機密ラベルを表示して、データの機密度を分類できるようになりました。 機密ラベルは、コンテンツを他のユーザーとどのように共有できるかを決定します。 [Power BI のデータ機密ラベルについての詳細情報](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)。
+コンテンツの所有者がレポート、ダッシュボード、データセット、およびデータフローに設定した機密ラベルを表示して、データの機密度を分類できるようになりました。 機密ラベルは、コンテンツを他のユーザーとどのように共有できるかを決定します。 [Power BI のデータ機密ラベルについての詳細情報](../../admin/service-security-data-protection-overview.md)。
 
 ### <a name="support-for-custom-app-navigation-windows"></a>カスタム アプリ ナビゲーションのサポート (Windows)
 
@@ -190,7 +190,7 @@ iOS および Android に加えて、Windows デバイス用のカスタム ア�
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure Active Directory (AD) アプリケーション プロキシを使用したセキュリティで保護されたアクセス (iOS および Android)
 
-Azure Active Directory チームと手を組み、Azure Active Directory (Azure AD) アプリケーション プロキシに Power BI モバイル アプリケーションを統合しました。 この構成を使用すると、複雑なオンプレミス構成を設定することなく、エンタープライズ境界内でホストされているレポート サーバーに Power BI Mobile アプリから接続できます。 [Power BI モバイルと Azure AD アプリケーション プロキシの統合](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)の詳細を参照してください。 [Azure AD アプリケーション プロキシと Power BI の構成方法](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)を参照してください。
+Azure Active Directory チームと手を組み、Azure Active Directory (Azure AD) アプリケーション プロキシに Power BI モバイル アプリケーションを統合しました。 この構成を使用すると、複雑なオンプレミス構成を設定することなく、エンタープライズ境界内でホストされているレポート サーバーに Power BI Mobile アプリから接続できます。 [Power BI モバイルと Azure AD アプリケーション プロキシの統合](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)の詳細を参照してください。 [Azure AD アプリケーション プロキシと Power BI の構成方法](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)を参照してください。
 
 ## <a name="july-2019"></a>2019 年 7 月
 
@@ -228,11 +228,11 @@ iOS デバイスの検索 (スポットライト) との Power BI の統合。 i
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>強化された条件付きアクセスの保護 (iOS、Android)
 
-アプリ ポリシーが適用される前の Power BI へのアクセスを制限することでセキュリティを強化するために、Azure AD に[新しいアプリ保護ベースの条件付きアクセス機能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)を統合しました。
+アプリ ポリシーが適用される前の Power BI へのアクセスを制限することでセキュリティを強化するために、Azure AD に[新しいアプリ保護ベースの条件付きアクセス機能](/azure/active-directory/conditional-access/app-protection-based-conditional-access)を統合しました。
 
 ### <a name="device-protection-ios"></a>デバイスの保護 (iOS)
 
-ユーザーは、デバイスの組み込み保護を使用して、Face ID、Touch ID または Power BI にアクセスするためのパスコードを要求することによって、Power BI をセキュリティで保護することができます。 これは、アプリ設定を使用してユーザーが制御できますが、Intune やその他の MDM ツールを使用して管理者が制御することもできます。 [詳細情報](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access)
+ユーザーは、デバイスの組み込み保護を使用して、Face ID、Touch ID または Power BI にアクセスするためのパスコードを要求することによって、Power BI をセキュリティで保護することができます。 これは、アプリ設定を使用してユーザーが制御できますが、Intune やその他の MDM ツールを使用して管理者が制御することもできます。 [詳細情報](./mobile-native-secure-access.md)
 
 ### <a name="one-page-report-slideshow-windows"></a>1 ページのレポートのスライド ショー (Windows)
 
@@ -274,7 +274,7 @@ Power BI iOS アプリから、ADFS 構成上の PBI RS でホストされてい
 ![シングル タップ操作](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> 既存のユーザーは、アプリ設定でこの動作を有効にする必要があります。 詳細については、[シングル タップ レポート対話機能を構成する方法](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)に関する記事を参照してください。
+> 既存のユーザーは、アプリ設定でこの動作を有効にする必要があります。 詳細については、[シングル タップ レポート対話機能を構成する方法](./mobile-app-interaction-settings.md)に関する記事を参照してください。
 
 ## <a name="january---february-2019"></a>2019 年 1 月 - 2 月
  
@@ -304,11 +304,11 @@ Surface Hub および Windows 10 デバイスのプレゼンテーション モ�
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>タブレットの縦向きレイアウト (iOS と Android)
 
-縦向きモードのタブレットでレポートを表示するために、電話レポート レイアウトが使用されるようになりました (存在する場合)。 Power BI サービスまたは Power BI Desktop で電話レイアウトを作成する方法については、[こちら](https://docs.microsoft.com/power-bi/desktop-create-phone-report/)をご覧ください。
+縦向きモードのタブレットでレポートを表示するために、電話レポート レイアウトが使用されるようになりました (存在する場合)。 Power BI サービスまたは Power BI Desktop で電話レイアウトを作成する方法については、[こちら](/power-bi/desktop-create-phone-report/)をご覧ください。
 
 ### <a name="supporting-report-query-string"></a>レポートのクエリ文字列のサポート 
 
-クエリ文字列を含むレポート リンクがモバイル アプリで開き、クエリ文字列で定義された条件に基づいて事前にフィルターされるようになりました。 クエリ文字列を含むレポートの URL を作成する方法については、[こちら](https://docs.microsoft.com/power-bi/service-url-filters/)をご覧ください。  
+クエリ文字列を含むレポート リンクがモバイル アプリで開き、クエリ文字列で定義された条件に基づいて事前にフィルターされるようになりました。 クエリ文字列を含むレポートの URL を作成する方法については、[こちら](/power-bi/service-url-filters/)をご覧ください。  
 
 ### <a name="shared-credentials-now-in-android"></a>資格情報の共有 (Android)
 

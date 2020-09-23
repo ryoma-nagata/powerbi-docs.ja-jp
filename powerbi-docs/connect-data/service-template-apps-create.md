@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: df9c1af29482a40b7e1dd7edbca0020b43e4f00f
-ms.sourcegitcommit: a0d56eeed12253e782e0a3eff8610f72a3ad5cb9
+ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90571014"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860672"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI でテンプレート アプリを作成する
 
@@ -191,7 +191,7 @@ Power Query でパラメーターを使用している場合は、適切に定�
 
     このオプションが表示されない場合、管理ポータルで[テンプレート アプリ開発の許可](../admin/service-admin-portal.md#template-apps-settings)を与えるよう、Power BI 管理者に連絡してください。
 11. **[昇格]** を選択し、選択を確定します。
-12. この新しい URL をコピーし、テスト目的でテナントの外と共有します。 このリンクは、[新しいパートナー センター オファー](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)を作成して、AppSource 上でアプリを配信するプロセスを始めるときに送信するリンクでもあります。 パートナー センターには、実稼働前のリンクのみ送信します。 アプリが承認され、AppSource で公開されたという通知を受け取ってから初めて、Power BI でこのパッケージを実稼働に昇格させることができます。
+12. この新しい URL をコピーし、テスト目的でテナントの外と共有します。 このリンクは、[新しいパートナー センター オファー](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)を作成して、AppSource 上でアプリを配信するプロセスを始めるときに送信するリンクでもあります。 パートナー センターには、実稼働前のリンクのみ送信します。 アプリが承認され、AppSource で公開されたという通知を受け取ってから初めて、Power BI でこのパッケージを実稼働に昇格させることができます。
 13. アプリを運用する、あるいは AppSource 経由で共有する準備ができたら、**[リリース管理]** ウィンドウに戻り、**[実稼働前]** の隣にある **[アプリの昇格]** を選択します。
 14. **[昇格]** を選択し、選択を確定します。
 
@@ -199,10 +199,10 @@ Power Query でパラメーターを使用している場合は、適切に定�
 
     ![実稼働のアプリ](media/service-template-apps-create/power-bi-template-app-production.png)
 
-自分のアプリを世界中に何千人といる Power BI ユーザーに広く利用してもらうために、アプリを AppSource に提出することをお勧めします。 詳細については、「[Power BI アプリケーション プラン](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)」を参照してください。
+自分のアプリを世界中に何千人といる Power BI ユーザーに広く利用してもらうために、アプリを AppSource に提出することをお勧めします。 詳細については、「[Power BI アプリケーション プラン](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)」を参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 
 顧客がテンプレート アプリを操作するしくみについては、[組織でのアプリのインストールと配布](service-template-apps-install-distribute.md)に関するページをご覧ください。
 
-アプリ配布の詳細については、「[Power BI アプリケーション プラン](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)」をご覧ください。
+アプリ配布の詳細については、「[Power BI アプリケーション プラン](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)」をご覧ください。

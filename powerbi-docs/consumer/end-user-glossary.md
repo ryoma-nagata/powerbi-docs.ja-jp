@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 08/24/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 012fad9cd566018a6fd0d96fb172fadd816e3420
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803045"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860856"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI サービスのビジネス ユーザー向け用語集    
 Power BI サービスでは、使い慣れていない、あるいは混乱を招くような用語が導入される場合があります。 用語集は用語を検索する最適な場所であり、ブックマークを付けることもできます。 Power BI サービスを構成する構成要素について学習するために最適なリソースとして、[基本的な概念](end-user-basic-concepts.md)もあります。 基本的な概念では、Power BI の*各部分* の概要と、それらの関係が示されます。
@@ -97,7 +97,7 @@ Power BI サービスのコンテンツは、通常、ダッシュボード、�
 アプリのコンテンツ インデックス。
 
 **content pack (コンテンツ パック)**     
- 事前にパッケージ化されたデータセット、レポート、およびダッシュボードのコレクション。 これらは**アプリ**に置き換えられています。[新しいワークスペース エクスペリエンスの詳細](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces)に関する記事を確認してください。 
+ 事前にパッケージ化されたデータセット、レポート、およびダッシュボードのコレクション。 これらは**アプリ**に置き換えられています。[新しいワークスペース エクスペリエンスの詳細](../collaborate-share/service-create-the-new-workspaces.md)に関する記事を確認してください。 
 
 **content view (コンテンツ ビュー)**
 

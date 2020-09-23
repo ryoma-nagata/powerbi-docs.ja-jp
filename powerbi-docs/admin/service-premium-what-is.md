@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008562"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854692"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium とは
 
@@ -98,7 +98,7 @@ Power BI Premium では、"*専用の容量*" が提供されます。 他の顧
 
 容量のワークロードは、ユーザーが利用できるようにされているサービスです。 既定で、Premium 容量および Azure 容量によってサポートされるのは、Power BI クエリの実行に関連付けられるデータセット ワークロードのみです。 データセット ワークロードを無効にすることはできません。 [AI (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[データフロー](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)、および[ページ分割されたレポート](../paginated-reports/paginated-reports-save-to-power-bi-service.md)に対する追加のワークロードを有効にすることができます。 これらのワークロードは、Premium のサブスクリプションのみでサポートされます。 
 
-各追加のワークロードでは、ワークロードで使用できる最大メモリを (使用可能な合計メモリの割合として) 構成できます。 最大メモリの既定値は、SKU によって決定されます。 使用する場合にのみそれらの追加のワークロードを有効にすることで、ご利用の容量の使用可能なリソースを最大限に活用することができます。 そして、メモリ設定を変更するのは、既定の設定では容量のリソース要件が満たされないことが判明した場合のみにしてください。 [管理ポータル](service-admin-portal.md)の **[容量の設定]** を使用するか、または [Capacities REST APIs](https://docs.microsoft.com/rest/api/power-bi/capacities) を使用して、容量管理者は容量に対してワークロードを有効にしたり構成したりすることができます。  
+各追加のワークロードでは、ワークロードで使用できる最大メモリを (使用可能な合計メモリの割合として) 構成できます。 最大メモリの既定値は、SKU によって決定されます。 使用する場合にのみそれらの追加のワークロードを有効にすることで、ご利用の容量の使用可能なリソースを最大限に活用することができます。 そして、メモリ設定を変更するのは、既定の設定では容量のリソース要件が満たされないことが判明した場合のみにしてください。 [管理ポータル](service-admin-portal.md)の **[容量の設定]** を使用するか、または [Capacities REST APIs](/rest/api/power-bi/capacities) を使用して、容量管理者は容量に対してワークロードを有効にしたり構成したりすることができます。  
 
 ![ワークロードの有効化](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
@@ -173,7 +173,7 @@ Premium 容量を監視することで、容量がどのように実行されて
 
 ### <a name="capacities-rest-apis"></a>Capacities REST API
 
-Power BI REST API には、[Capacities API](https://docs.microsoft.com/rest/api/power-bi/capacities) のコレクションが含まれています。 API を使用すれば、管理者は、ワークロードの有効化および無効化、容量へのワークスペースの割り当てなど、ご利用の Premium 容量のさまざまな側面をプログラムで管理できます。
+Power BI REST API には、[Capacities API](/rest/api/power-bi/capacities) のコレクションが含まれています。 API を使用すれば、管理者は、ワークロードの有効化および無効化、容量へのワークスペースの割り当てなど、ご利用の Premium 容量のさまざまな側面をプログラムで管理できます。
 
 ## <a name="large-datasets"></a>大規模なデータセット
 
@@ -252,5 +252,3 @@ Premium では、コンテンツを表示する受信者に Pro ライセンス�
 > [Premium 容量を管理する](service-premium-capacity-manage.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-
-

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b749ad07dd2feb9f8a3bdf776108571add9102bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1cf289e4f556fb3f92806dad1343797824f0888e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240013"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860005"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Power BI データフローでの増分更新の使用
 
@@ -163,4 +163,4 @@ Power Query とスケジュールされた更新について詳しくは、次�
 * [スケジュールされた更新の構成](../connect-data/refresh-scheduled-refresh.md)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
-* [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Model の概要](/powerapps/common-data-model/overview)

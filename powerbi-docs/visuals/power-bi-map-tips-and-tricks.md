@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 87509a4a2415a8f7a2a7a27d34dc2a6f3a39b92f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0c28d95c5275f5778b1ae646b8e5fb65489eb072
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232407"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860120"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI マップの視覚エフェクトに関するヒントとテクニック
 
@@ -50,7 +50,7 @@ Power BI サービスと Power BI Desktop は、マップのビジュアルを�
 
 **1.Power BI Desktop で地理的なフィールドを分類する**
 
-Power BI Desktop では、データ フィールドに *データ カテゴリ* を設定しておくと、フィールドを正確にジオコーディングできます。 データ ビューで、目的の列を選択します。 リボンで **[モデリング]** タブを選択し、 **[データ カテゴリ]** を **[住所]** 、 **[市区町村]** 、 **[大陸]** 、 **[国/地域]** 、 **[市区郡]** 、 **[郵便番号]** 、 **[州]** 、または **[都道府県]** に設定します。 これらのデータのカテゴリは、Bing で日付を正しくエンコードするために役立ちます。 詳細については、「[Power BI Desktop でのデータ分類](../transform-model/desktop-data-categorization.md)」を参照してください。 SQL Server Analysis Services に接続中の場合、[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) を使用して Power BI 以外のデータ分類を設定する必要があります。
+Power BI Desktop では、データ フィールドに *データ カテゴリ* を設定しておくと、フィールドを正確にジオコーディングできます。 データ ビューで、目的の列を選択します。 リボンで **[モデリング]** タブを選択し、 **[データ カテゴリ]** を **[住所]** 、 **[市区町村]** 、 **[大陸]** 、 **[国/地域]** 、 **[市区郡]** 、 **[郵便番号]** 、 **[州]** 、または **[都道府県]** に設定します。 これらのデータのカテゴリは、Bing で日付を正しくエンコードするために役立ちます。 詳細については、「[Power BI Desktop でのデータ分類](../transform-model/desktop-data-categorization.md)」を参照してください。 SQL Server Analysis Services に接続中の場合、[SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) を使用して Power BI 以外のデータ分類を設定する必要があります。
 
 **2.複数の場所列を使用します。**     
  マッピングのデータ カテゴリを設定するだけでは、Bing がユーザーの意図を正しく推測するためには不十分な場合もあります。 複数の国や地域に同じ名前の場所が存在するため、指定があいまいになることがあります。 たとえば、 ***サウサンプトン*** は、イングランド、ペンシルバニア、ニューヨークに存在します。

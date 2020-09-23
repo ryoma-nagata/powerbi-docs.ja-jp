@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214370"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859982"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI レポート サーバーの新機能
 
@@ -206,7 +206,7 @@ Microsoft レポート ビルダーまたは SQL Server Data Tools (SSDT) を使
 
 #### <a name="azure-active-directory-application-proxy-support"></a>Azure Active Directory アプリケーション プロキシのサポート
 
-Azure Active Directory アプリケーション プロキシによって、Web アプリまたはモバイル アプリを介してセキュリティで保護されたアクセスを実現するために、独自の Web アプリケーション プロキシを管理する必要がなくなりました。 詳細については、「[Azure Active Directory アプリケーション プロキシからのオンプレミス アプリケーションへのリモート アクセス](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)」を参照してください。
+Azure Active Directory アプリケーション プロキシによって、Web アプリまたはモバイル アプリを介してセキュリティで保護されたアクセスを実現するために、独自の Web アプリケーション プロキシを管理する必要がなくなりました。 詳細については、「[Azure Active Directory アプリケーション プロキシからのオンプレミス アプリケーションへのリモート アクセス](/azure/active-directory/manage-apps/application-proxy)」を参照してください。
 
 #### <a name="custom-headers"></a>カスタム ヘッダー
 
@@ -572,7 +572,7 @@ IT 管理者は、組織の MDM ツールを使用し、レポート サーバ�
 
 #### <a name="export-to-accessible-pdf"></a>アクセス可能な PDF へのエクスポート
 
-ページ分割された (RDL) レポートを PDF にエクスポートする際に、アクセス可能な/タグ付けされた PDF ファイルを取得できるようになりました。 サイズは大きくなりますが、スクリーン リーダーやその他の支援技術による読み取りや移動が容易になります。 アクセス可能な PDF を有効にするには、**AccessiblePDF** デバイス情報の設定を **True** に指定します。 「[PDF デバイス情報の設定](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings)」と「[デバイス情報設定の変更](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)」を参照してください。
+ページ分割された (RDL) レポートを PDF にエクスポートする際に、アクセス可能な/タグ付けされた PDF ファイルを取得できるようになりました。 サイズは大きくなりますが、スクリーン リーダーやその他の支援技術による読み取りや移動が容易になります。 アクセス可能な PDF を有効にするには、**AccessiblePDF** デバイス情報の設定を **True** に指定します。 「[PDF デバイス情報の設定](/sql/reporting-services/pdf-device-information-settings)」と「[デバイス情報設定の変更](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)」を参照してください。
 
 ### <a name="other-improvements"></a>その他の改良
 
@@ -639,7 +639,7 @@ SSRS 2017 に導入された開発者 API (REST API) が、Power BI Report Serve
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>SQL Server Analysis Services (SSAS) と Power BI Report Server のメモリ使用量
 
-Power BI Report Server は、SQL Server Analysis Services (SSAS) を内部的にホストするようになりました。 これは、スケジュールされた更新に限ったことではありません。 SSAS をホストすることで、レポート サーバーのメモリ使用量を大幅に拡張できます。 サーバー ノードでは AS.ini 構成ファイルを使うことができるので、SSAS に慣れている場合は、最大メモリ制限やディスク キャッシュなどの設定を更新できます。詳細については、「[Server properties in Analysis Services](https://docs.microsoft.com/sql/analysis-services/server-properties/server-properties-in-analysis-services)」(Analysis Services でのサーバー プロパティ) をご覧ください。
+Power BI Report Server は、SQL Server Analysis Services (SSAS) を内部的にホストするようになりました。 これは、スケジュールされた更新に限ったことではありません。 SSAS をホストすることで、レポート サーバーのメモリ使用量を大幅に拡張できます。 サーバー ノードでは AS.ini 構成ファイルを使うことができるので、SSAS に慣れている場合は、最大メモリ制限やディスク キャッシュなどの設定を更新できます。詳細については、「[Server properties in Analysis Services](/sql/analysis-services/server-properties/server-properties-in-analysis-services)」(Analysis Services でのサーバー プロパティ) をご覧ください。
 
 ### <a name="viewing-and-interacting-with-excel-workbooks"></a>Excel ブックの表示と操作
 

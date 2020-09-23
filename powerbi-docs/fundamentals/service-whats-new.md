@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: a36c377a7faf82e6aeb544859b72ac973305a3b3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252776"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860166"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI サービスの新機能
 **Power BI サービス**の既知の問題と最近リリースされた機能については、このページをご確認ください。 関連する最新情報については、次の資料を参照してください。
 
-- Microsoft Business Applications グループからの[ビジネス インテリジェンスの新機能 (2018 年 10 月)](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) に関するリリース ノート: Microsoft のビジネス アプリケーションに対する最新の更新プログラム。
+- Microsoft Business Applications グループからの[ビジネス インテリジェンスの新機能 (2018 年 10 月)](/business-applications-release-notes/October18/intelligence-platform/planned-features) に関するリリース ノート: Microsoft のビジネス アプリケーションに対する最新の更新プログラム。
 - [Power BI Desktop の新機能](desktop-latest-update.md)  
 - [Power BI 用モバイル アプリの新機能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI チーム ブログ](https://powerbi.microsoft.com/blog/)
@@ -189,7 +189,7 @@ ms.locfileid: "87252776"
 *    Power BI レポートを共有し、お気に入りに追加する。
 *    Azure SQL Database と Data Warehouse で OAuth2 と DirectQuery シングル サインオン (SSO) サポート。
 *    リージョン内監査: 監査ログがテナントと同じ Microsoft 365 リージョンに保存されるようになりました。
-*    SharePoint Online [Power BI レポート Web パーツ](https://go.microsoft.com/fwlink/p/?LinkId=825698) の GA。
+*    SharePoint Online [Power BI レポート Web パーツ](../collaborate-share/service-embed-report-spo.md) の GA。
 *    あるテナントのすべてのユーザーに対して、Power BI ビジュアルの表示をオフにする管理者制御。
 *    Azure Analysis Services (AAS) でスケジュールされた更新をサポート。
 
@@ -200,7 +200,7 @@ ms.locfileid: "87252776"
 * AI を活用したアプリ推奨。
 * ダッシュボード オンタイル UI 更新。
 * アプリの電子メール サブスクリプション サポート。 
-* [Web への公開](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings)を管理者が細かく制御。
+* [Web への公開](../admin/service-admin-portal.md#export-and-sharing-settings)を管理者が細かく制御。
 
 ### <a name="september-2017"></a>2017 年 9 月
 * Premium 容量では、Power BI Pro ライセンスを持たないユーザーとダッシュボードを共有します。
@@ -646,7 +646,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * 今週のサービス更新では、新しいレポートを作成するときに、複数のページ サイズから選択し、ページ サイズを定義できるようになりました。 この機能では、レポートの各ページのサイズと縦横比を制御します。
 * 画像とバブル チャートについて、視覚的な書式を追加しました。 縦横比をロックしながら画像のサイズを変更することで、画像のゆがみを回避できます。また、散布図のバブルを塗りつぶすかどうかを構成できます。
 * Power BI から、予備の電子メール アドレスに共有の招待を送信できるようになりました。 ダッシュボードを共有すると、元の電子メール アドレスと予備の電子メール アドレス (構成している場合) の両方に共有の招待のリンクが送信されます。
-* Power BI は、Dedicated on Multitenant (DonMT) Microsoft 365 アーキテクチャのユーザーを含め、すべてのユーザーが使用できます。 マルチテナント モードの共有サービスとして Power BI を使用することになります。 ほとんどの場合、単純な[セルフサービスサインアップ プロセス](https://powerbi.microsoft.com/)を実行するだけで Power BI に登録できます。職場の電子メール アドレスを入力し、名前とパスワードを入力するだけで始めることができます。 テナント管理者の場合、[この手順](https://go.microsoft.com/fwlink/?LinkId=627174)に従ってユーザーにライセンスを割り当てることができます。
+* Power BI は、Dedicated on Multitenant (DonMT) Microsoft 365 アーキテクチャのユーザーを含め、すべてのユーザーが使用できます。 マルチテナント モードの共有サービスとして Power BI を使用することになります。 ほとんどの場合、単純な[セルフサービスサインアップ プロセス](https://powerbi.microsoft.com/)を実行するだけで Power BI に登録できます。職場の電子メール アドレスを入力し、名前とパスワードを入力するだけで始めることができます。 テナント管理者の場合、[この手順](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)に従ってユーザーにライセンスを割り当てることができます。
 * Azure 監査ログでは、Azure サブスクリプションの制御プレーン操作ログを確認できます。 Power BI Azure 監査ログ コンテンツ パックを使用すると、ログに含まれる豊富な情報を簡単に分析し、視覚化することができます。 コンテンツ パックからデータに接続し、すぐに使用できるダッシュボードとレポートでデータを分析できます。 詳細については、[ブログ](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/)と[オンライン ドキュメント](../connect-data/service-connect-to-services.md)をご覧ください。
 
 [私たちのブログをご覧ください](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/)。
@@ -708,7 +708,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 * [Excel ファイル全体の取り込み](../connect-data/service-excel-workbook-files.md):OneDrive for Business に格納されているどの Excel ブックでも Power BI に取り込み、そのブック全体を Excel Online での場合とまったく同様に表示できます。
 * [CSV ファイルの取り込み](../connect-data/service-get-data-from-files.md):Excel や Power BI Desktop ファイルと同様に、コンマ区切り値 (CSV) テキスト ファイルも、Power BI のダッシュボードとレポートのデータセットにできます。
 * Excel、Power BI Desktop、CSV のファイルの置き換え: 更新されたバージョンのファイルを Power BI にアップロードし、既存のデータセットをそのファイルで置換できます。 このデータセットに接続されているすべてのレポートとダッシュボードが、この新しいバージョンを自動的に使用するようになります。
-* 今週の Power BI の更新では、[Visual Studio Online コンテンツ パック](https://powerbi.microsoft.com/blog/monitoring-your-visual-studio-online-work-items-with-power-bi/)で、作業項目の追跡機能が提供されるようになりました。 この更新には、Git リポジトリ、pull requests、および初期バージョンに含まれているバージョン管理のコンテンツに関する重要なメトリックのほか、新しいダッシュボード、レポート、および作業項目に関する洞察を提供する更新されたデータ セットが含まれます。 開始方法の詳細については、[Power BI 用 Visual Studio Online コンテンツ パックのヘルプ ページ](../connect-data/service-connect-to-quickbooks-online.md)をご覧ください。
+* 今週の Power BI の更新では、[Visual Studio Online コンテンツ パック](https://powerbi.microsoft.com/blog/monitoring-your-visual-studio-online-work-items-with-power-bi/)で、作業項目の追跡機能が提供されるようになりました。 この更新には、Git リポジトリ、pull requests、および初期バージョンに含まれているバージョン管理のコンテンツに関する重要なメトリックのほか、新しいダッシュボード、レポート、および作業項目に関する洞察を提供する更新されたデータ セットが含まれます。 開始方法の詳細については、[Power BI 用 Visual Studio Online コンテンツ パックのヘルプ ページ](../connect-data/service-connect-to-services.md)をご覧ください。
 
 **2015 年 7 月 14 日**
 
@@ -743,7 +743,7 @@ Power BI チームは、休暇中忙しく働いていました。 詳しくは�
 
 **2015 年 5 月 28 日**
 
-* この[コンテンツ パック](https://powerbi.microsoft.com/blog/get-quick-insights-into-your-quickbooks-online-account-data)を使用して、QuickBooks Online アカウントのデータに関する洞察をすばやく得ることができます。 接続および開始の方法の詳細については、Power BI 用 QuickBooks Online コンテンツ パックの[ドキュメント](../connect-data/service-connect-to-quickbooks-online.md)をご覧ください。
+* この[コンテンツ パック](https://powerbi.microsoft.com/blog/get-quick-insights-into-your-quickbooks-online-account-data)を使用して、QuickBooks Online アカウントのデータに関する洞察をすばやく得ることができます。 接続および開始の方法の詳細については、Power BI 用 QuickBooks Online コンテンツ パックの[ドキュメント](../connect-data/service-connect-to-services.md)をご覧ください。
 
 **2015 年 5 月 13 日**
 

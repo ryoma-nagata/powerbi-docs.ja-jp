@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 5243f80fea732e01fee600d738ae6e6cde56e261
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427731"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853979"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>チュートリアル:ページ分割されたレポートを作成して Power BI サービスにアップロードする
 
@@ -38,7 +38,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 - [Microsoft ダウンロード センターから Power BI レポート ビルダー](https://aka.ms/pbireportbuilder)をインストールします。 
 
-- クイック スタート「[Azure portal で Azure SQL データベースを作成する](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)」に従います。 **[概要]** タブの **[サーバー名]** ボックスの値をコピーして保存します。Azure で作成したパスワードとユーザー名を憶えておきます。
+- クイック スタート「[Azure portal で Azure SQL データベースを作成する](/azure/sql-database/sql-database-get-started-portal)」に従います。 **[概要]** タブの **[サーバー名]** ボックスの値をコピーして保存します。Azure で作成したパスワードとユーザー名を憶えておきます。
 
 ページ分割されたレポートを Power BI サービスにアップロードするための前提条件を次に示します。
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332316"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860557"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>チュートリアル:Power BI を使用して GitHub リポジトリに接続する
 このチュートリアルでは、Power BI で GitHub サービスの実際のデータに接続します。Power BI でダッシュボードとレポートが自動的に作成されます。 Power BI のコンテンツ パブリック リポジトリ (単に "*リポジトリ*" とも呼ばれます) に接続すると、次のような質問に対する回答が表示されます。Power BI のパブリック コンテンツに寄稿しているユーザーの数、 最も寄稿が多いユーザーは誰か、 最も寄稿が多いのは何曜日か、 その他の質問もあります。 
@@ -39,7 +39,7 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 
 GitHub アカウントをまだ持っていない場合、このチュートリアルを行うにはアカウントが必要です。 
 
-- [GitHub アカウント](https://docs.microsoft.com/contribute/get-started-setup-github)にサインアップします。
+- [GitHub アカウント](/contribute/get-started-setup-github)にサインアップします。
 
 
 ## <a name="how-to-connect"></a>接続する方法
@@ -139,5 +139,3 @@ GitHub アカウントをまだ持っていない場合、このチュートリ�
  
 > [!div class="nextstepaction"]
 > [使用するオンライン サービスに接続する](service-connect-to-services.md)
-
-

@@ -8,27 +8,27 @@ ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e10f2144e987f8fdc7ea9dbfd18d4581889ae8bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230122"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854232"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>病院の緊急時対応の意思決定支援ダッシュボードに接続する
 病院の緊急時対応の意思決定支援ダッシュボード テンプレート アプリは、[医療緊急時対応用 Microsoft Power Platform](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/) のレポート コンポーネントです。 ダッシュボードでは、非常事態担当マネージャーに対して、タイムリーに適切な意思決定を行うのに役立つヘルス システム全体の集計データが表示されます。
 
 ![病院の緊急時対応の意思決定支援ダッシュボード アプリ レポート](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-report.png)
 
-この記事では、アプリをインストールする方法と、データ ソースに接続する方法について説明します。 このアプリで表示されるレポートの使用方法については、[病院の緊急時対応の意思決定支援ダッシュボードに関するドキュメント](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)を参照してください。
+この記事では、アプリをインストールする方法と、データ ソースに接続する方法について説明します。 このアプリで表示されるレポートの使用方法については、[病院の緊急時対応の意思決定支援ダッシュボードに関するドキュメント](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)を参照してください。
 
 テンプレート アプリをインストールし、データ ソースに接続した後、必要に応じてレポートをカスタマイズできます。 その後、組織内の同僚にアプリとして配布することができます。
 
 ## <a name="prerequisites"></a>前提条件
 
-このテンプレート アプリをインストールする前に、まず、[病院の緊急時対応 Power Platform ソリューション](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure)をインストールして設定する必要があります。 このソリューションをインストールすると、アプリにデータを設定するために必要なデータソース参照が作成されます。
+このテンプレート アプリをインストールする前に、まず、[病院の緊急時対応 Power Platform ソリューション](/powerapps/sample-apps/emergency-response/deploy-configure)をインストールして設定する必要があります。 このソリューションをインストールすると、アプリにデータを設定するために必要なデータソース参照が作成されます。
 
-病院の緊急時対応 Power Platform ソリューションをインストールする場合は、[Common Data Service 環境インスタンスの URL](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) をメモしておいてください。 これは、テンプレート アプリをデータに接続するために必要になります。
+病院の緊急時対応 Power Platform ソリューションをインストールする場合は、[Common Data Service 環境インスタンスの URL](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) をメモしておいてください。 これは、テンプレート アプリをデータに接続するために必要になります。
 
 ## <a name="install-the-app"></a>アプリをインストールする
 
@@ -66,7 +66,7 @@ ms.locfileid: "85230122"
 
 1. ダイアログ ボックスで、次のようにします。
    1. 組織名フィールドに、組織の名前 ("Contoso Health Systems" など) を入力します。 このフィールドは省略可能です。 この名前は、ダッシュボードの左上に表示されます。
-   1. CDS_base_solution フィールドに、[Common Data Service 環境インスタンスの URL](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) を入力します。 たとえば、 https://[myenv].crm.dynamics.com です。 完了したら、 **[次へ]** をクリックします。
+   1. CDS_base_solution フィールドに、[Common Data Service 環境インスタンスの URL](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) を入力します。 たとえば、 https://[myenv].crm.dynamics.com です。 完了したら、 **[次へ]** をクリックします。
 
    ![病院の緊急時対応の意思決定支援アプリの URL ダイアログ](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-url-dialog.png)
 
@@ -99,8 +99,8 @@ ms.locfileid: "85230122"
 詳細については、「[アプリをカスタマイズして共有する](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。 アプリを公開または配布する前に、必ず、[レポートの免責事項](../create-reports/sample-covid-19-us.md#disclaimers)を確認してください。
 
 ## <a name="next-steps"></a>次の手順
-* [病院の緊急時対応レポートについて](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
-* [Power Apps での危機通信のサンプル テンプレートのセットアップと学習](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [病院の緊急時対応レポートについて](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
+* [Power Apps での危機通信のサンプル テンプレートのセットアップと学習](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 * [Power BI テンプレート アプリとは](../connect-data/service-template-apps-overview.md)
 * [組織でテンプレート アプリをインストールして配布する](../connect-data/service-template-apps-install-distribute.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 6033ba7442e7993edbbc68aa36922a2efddd1f83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235650"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860580"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI テンプレート アプリとは
 
@@ -49,7 +49,7 @@ Power BI テンプレート アプリを使用すると、Power BI Pro または
 
 テンプレート アプリを作成するには、作成するためのアクセス許可が必要です。 詳細については、Power BI 管理ポータルのテンプレート アプリの設定に関するセクションを参照してください。 
 
-テンプレート アプリを Power BI サービスと AppSource に公開するには、[クラウド マーケットプレース パブリッシャーになる](https://docs.microsoft.com/azure/marketplace/become-publisher)ための要件を満たす必要があります。
+テンプレート アプリを Power BI サービスと AppSource に公開するには、[クラウド マーケットプレース パブリッシャーになる](/azure/marketplace/become-publisher)ための要件を満たす必要があります。
  
 ## <a name="high-level-steps"></a>概要手順
 
@@ -67,7 +67,7 @@ Power BI テンプレート アプリを使用すると、Power BI Pro または
 
 6. AppSource での検証と、テナント外でのテストのために、テスト アプリを運用前環境に昇格させてアプリを送信します。 
 
-7. 発行に向けて、コンテンツを[パートナー センター](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)に送信します。 
+7. 発行に向けて、コンテンツを[パートナー センター](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)に送信します。 
 
 8. AppSource でプランを "ライブ" にし、アプリを Power BI の運用環境に移動します。
 
@@ -77,9 +77,9 @@ Power BI テンプレート アプリを使用すると、Power BI Pro または
 
 テンプレート アプリを作成するには、作成するためのアクセス許可が必要です。 詳細については、Power BI [管理ポータルのテンプレート アプリの設定](../admin/service-admin-portal.md#template-apps-settings)に関するセクションを参照してください。
 
-テンプレート アプリを Power BI サービスと AppSource に公開するには、[クラウド マーケットプレース パブリッシャーになる](https://docs.microsoft.com/azure/marketplace/become-publisher)ための要件を満たす必要があります。
+テンプレート アプリを Power BI サービスと AppSource に公開するには、[クラウド マーケットプレース パブリッシャーになる](/azure/marketplace/become-publisher)ための要件を満たす必要があります。
  > [!NOTE] 
- > テンプレート アプリの送信は、[パートナー センター](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)で管理されます。 同じ Microsoft デベロッパー センター登録アカウントを使用してサインインします。 ご自分の AppSource オファリング用に所持する Microsoft アカウントは 1 つだけとする必要があります。 アカウントは個々のサービスまたはオファーに固有のものとしないでください。
+ > テンプレート アプリの送信は、[パートナー センター](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)で管理されます。 同じ Microsoft デベロッパー センター登録アカウントを使用してサインインします。 ご自分の AppSource オファリング用に所持する Microsoft アカウントは 1 つだけとする必要があります。 アカウントは個々のサービスまたはオファーに固有のものとしないでください。
 
 ## <a name="tips"></a>ヒント 
 

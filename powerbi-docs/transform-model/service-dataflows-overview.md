@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9a0b9eb90e3c39cf1f07842f5ea1da88b7cd06ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2bb23da89489966cd3d96bb2c4daaa6302a96326
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322403"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859729"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Power BI でのセルフサービスのデータ準備
 
@@ -24,7 +24,7 @@ ms.locfileid: "83322403"
 
 Power BI では、ばらばらのソースからデータを取りまとめてモデリング用に準備するのに役立つ**データフロー**が導入されています。 アナリストは、使い慣れたセルフサービス ツールを使用して簡単にデータフローを作成できます。 データフローは、データ ソース接続、ETL ロジック、更新スケジュールなどを定義することにより、ビッグ データの取り込み、変換、統合、補強を行うために使用されます。 さらに、データフローの一部である新しいモデル駆動型計算エンジンにより、データ アナリストやレポート作成者にとっても、データの準備が管理しやすくなり、より決定論的になり、面倒でなくなります。 スプレッドシートが影響を受けたすべての数式を再計算するのと同じように、データフローはユーザーに代わってエンティティやデータ要素の変更を管理し、更新を自動化して、基本的なデータ更新であっても面倒で時間がかかっていたロジック チェックを軽減します。 データフローを使用すると、データ科学者が監視する必要のあった (そして、完了するまでに何時間または何日も要した) タスクを、アナリストやレポート作成者が数回クリックするだけで処理できるようになります。 
 
-データは、Azure Data Lake Storage Gen2 の [**Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) 内にエンティティとして保存されます。 データフローの作成と管理は、Power BI サービスのワークスペースで行います。  
+データは、Azure Data Lake Storage Gen2 の [**Common Data Model**](/powerapps/common-data-model/overview) 内にエンティティとして保存されます。 データフローの作成と管理は、Power BI サービスのワークスペースで行います。  
  
 **データフロー** は、**Common Data Model** を使用するように設計されています。Common Data Model は、マイクロソフトによって公開されている、データのビルド、使用、および分析を容易にする目的で作成されているデータ スキーマの標準化されたモジュール型の拡張可能なコレクションです。 このモデルでは、データ ソースから Power BI ダッシュボードを作成する手間がほとんどかかりません。
 
@@ -117,4 +117,4 @@ Power Query とスケジュールされた更新について詳しくは、次�
 * [スケジュールされた更新の構成](../connect-data/refresh-scheduled-refresh.md)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
-* [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Model の概要](/powerapps/common-data-model/overview)

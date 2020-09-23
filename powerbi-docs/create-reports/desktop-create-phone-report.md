@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9161813c291a3feb8c01e4201972337f8e96fcb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23873d53aa0d472247f2e8d850dc3b1e9b3bf065
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221766"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853795"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>モバイル アプリ用に Power BI レポートを最適化する
 モバイル ユーザーは、任意の Power BI レポート ページを横向きに表示できます。 ただし、レポート作成者は、モバイル デバイス用に最適化され、縦向きで表示される追加のビューを作成できます。 このデザイン オプション (Power BI Desktop と Power BI サービスの両方で使用できます) を使用すると、作成者は、出先のモバイル ユーザーにとって意味のある視覚化だけを選択して再配置することができます。
@@ -119,5 +120,5 @@ Power BI モバイル アプリでは、モバイル最適化レポートは特�
 ## <a name="next-steps"></a>次の手順
 * [Power BI でダッシュボードの Phone ビューを作成する](service-create-dashboard-mobile-phone-view.md)。
 * [電話用に最適化された Power BI レポートを表示する](../consumer/mobile/mobile-apps-view-phone-report.md)。
-* [レポートとダッシュボードの作成に関する Power BI のドキュメント](https://docs.microsoft.com/power-bi/create-reports/)。
+* [レポートとダッシュボードの作成に関する Power BI のドキュメント](./index.yml)。
 * 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

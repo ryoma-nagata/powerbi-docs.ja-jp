@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cd3a0a8974636d6962fe23a7ffe272e47e487754
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 97501fe6e5a3e12e1b6773ce1b3fd67b503bf0f1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230415"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860304"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>危機管理コミュニケーション プレゼンス レポートに接続する
 
@@ -23,15 +23,15 @@ ms.locfileid: "85230415"
 
 ダッシュボードでは、非常事態担当マネージャーに対して、タイムリーに適切な意思決定を行うのに役立つヘルス システム全体の集計データが表示されます。
 
-この記事では、アプリをインストールする方法と、データ ソースに接続する方法について説明します。 危機管理コミュニケーション アプリの詳細については、「[Power Apps での危機通信のサンプル テンプレートのセットアップと学習](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)」を参照してください
+この記事では、アプリをインストールする方法と、データ ソースに接続する方法について説明します。 危機管理コミュニケーション アプリの詳細については、「[Power Apps での危機通信のサンプル テンプレートのセットアップと学習](/powerapps/maker/canvas-apps/sample-crisis-communication-app)」を参照してください
 
 テンプレート アプリをインストールし、データ ソースに接続した後、必要に応じてレポートをカスタマイズできます。 その後、組織内の同僚にアプリとして配布することができます。
 
 ## <a name="prerequisites"></a>前提条件
 
-このテンプレート アプリをインストールする前に、まず、[危機管理コミュニケーションのサンプル](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)をインストールして設定する必要があります。 このソリューションをインストールすると、アプリにデータを設定するために必要なデータソース参照が作成されます。
+このテンプレート アプリをインストールする前に、まず、[危機管理コミュニケーションのサンプル](/powerapps/maker/canvas-apps/sample-crisis-communication-app)をインストールして設定する必要があります。 このソリューションをインストールすると、アプリにデータを設定するために必要なデータソース参照が作成されます。
 
-危機管理コミュニケーション サンプルをインストールする場合は、["CI_Employee Status" の SharePoint リスト フォルダーのパスとリスト ID](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi) をメモしておいてください。
+危機管理コミュニケーション サンプルをインストールする場合は、["CI_Employee Status" の SharePoint リスト フォルダーのパスとリスト ID](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi) をメモしておいてください。
 
 ## <a name="install-the-app"></a>アプリをインストールする
 
@@ -68,7 +68,7 @@ ms.locfileid: "85230415"
    ![危機管理コミュニケーション プレゼンス レポート アプリの [データを接続] リンク](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-connect-data.png)
 
 1. ダイアログ ボックスで、次のようにします。
-   1. SharePoint_Folder フィールドに、["CI_Employee Status" SharePoint リスト パス](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi)を入力します。
+   1. SharePoint_Folder フィールドに、["CI_Employee Status" SharePoint リスト パス](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi)を入力します。
    1. List_ID フィールドに、リスト設定から取得したリスト ID を入力します。 完了したら、 **[次へ]** をクリックします。
 
    ![危機管理コミュニケーション プレゼンス レポート アプリの URL ダイアログ](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-url-dialog.png)
@@ -102,7 +102,7 @@ ms.locfileid: "85230415"
 詳細については、「[アプリをカスタマイズして共有する](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。 アプリを公開または配布する前に、必ず、[レポートの免責事項](../create-reports/sample-covid-19-us.md#disclaimers)を確認してください。
 
 ## <a name="next-steps"></a>次の手順
-* [Power Apps での危機通信のサンプル テンプレートのセットアップと学習](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Power Apps での危機通信のサンプル テンプレートのセットアップと学習](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 * [Power BI テンプレート アプリとは](../connect-data/service-template-apps-overview.md)
 * [組織でテンプレート アプリをインストールして配布する](../connect-data/service-template-apps-install-distribute.md)

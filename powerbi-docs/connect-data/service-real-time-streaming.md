@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cfe184b1f2bd34796dea8982117e3ba90561fa31
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: fb5807dd0a5bfa5d3223a8c436da475c51d8d8a0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459694"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860626"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI のリアルタイム ストリーミング
 Power BI のリアルタイム ストリーミングを使用すると、リアルタイムでデータをストリーミングし、ダッシュボードを更新できます。 Power BI で作成された任意の視覚化やダッシュボードで、リアルタイムのデータや視覚化を表示し、更新できます。 ストリーミング データのデバイスおよびソースとしては、工場のセンサー、ソーシャル メディア ソース、サービス使用状況メトリック、またはその他の多くの時間依存データのコレクターや転送元が考えられます。
@@ -85,7 +85,7 @@ Power BI のリアルタイム ストリーミングを使用すると、リア�
 > [!NOTE]
 > *defaultMode* フラグが *pushStreaming* に設定されたデータセットを使用すると、要求のサイズが**ストリーミング** データセットの 15 KB サイズ制限を超えているが、**プッシュ** データセットの 16 KB サイズ制限内に収まっている場合、要求は成功し、プッシュ データセット内でデータが更新されます。 ただし、ストリーミング タイルは一時的に失敗します。
 
-データセットが作成されたら、REST API の [**PostRows** API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) を使用してデータをプッシュします。
+データセットが作成されたら、REST API の [**PostRows** API](/rest/api/power-bi/pushdatasets/datasets_postrows) を使用してデータをプッシュします。
 
 REST API に対する要求はすべて、**Azure AD OAuth** によってセキュリティが保護されます。
 
@@ -154,7 +154,7 @@ Power BI で利用し、視覚化できるリアルタイム ストリーミン�
 
 ![[新しいストリーミング データセット] ダイアログのスクリーンショット。接続用の Power BI REST API のエントリが表示されています。](media/service-real-time-streaming/real-time-streaming_5.png)
 
-このデータ ストリーム経由で送信されるデータを保存するように Power BI を設定するには、 *[履歴データの解析]* を有効にします。集めたデータ ストリームでレポート作成や分析を実行できます。 API に関する説明は[ここ](https://docs.microsoft.com/rest/api/power-bi/)にあります。
+このデータ ストリーム経由で送信されるデータを保存するように Power BI を設定するには、 *[履歴データの解析]* を有効にします。集めたデータ ストリームでレポート作成や分析を実行できます。 API に関する説明は[ここ](/rest/api/power-bi/)にあります。
 
 データ ストリームを作成すると、REST API URL エンドポイントが与えられます。これは *POST* 要求を利用し、作成した Power BI **ストリーミング データ** データセットにデータをプッシュすることで呼び出せます。
 
@@ -244,5 +244,5 @@ Power BI におけるリアルタイム ストリーミングの動作は、簡�
 ## <a name="next-steps"></a>次の手順
 Power BI でリアルタイム ストリーミングを使用する場合に役に立ついくつかのリンクを次に示します。
 
-* [リアルタイム データを使用する Power BI REST API の概要](https://docs.microsoft.com/rest/api/power-bi/)
+* [リアルタイム データを使用する Power BI REST API の概要](/rest/api/power-bi/)
 * [Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)

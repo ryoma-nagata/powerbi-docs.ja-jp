@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ae57fb5a3d2ff38a29e0c1e3c24af23582af43a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1273030bc1fd8664e854eb2b59939cf271b017fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222254"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860028"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>テーブルでの条件付き書式の使用 
 
@@ -181,9 +181,9 @@ Web サイト URL が含まれる列またはメジャーがある場合は、�
 
 - 条件付き書式は、テーブルまたはマトリックスのビジュアルの値にのみ適用され、小計、総計、**合計**行には適用されません。 
 - グループ化されていないテーブルは、条件付き書式をサポートしていない単一行として表示されます。
-- データに *NaN* 値が含まれている場合は、自動最大値/最小値、または割合ルールを使用したルールベースの書式設定を使用してグラデーションの書式設定を適用することはできません。 NaN は "Not a number" (数値ではない) を意味し、通常は、ゼロ除算エラーで発生します。 このようなエラーを回避するには、[DIVIDE() DAX 関数](https://docs.microsoft.com/dax/divide-function-dax)を使用できます。
+- データに *NaN* 値が含まれている場合は、自動最大値/最小値、または割合ルールを使用したルールベースの書式設定を使用してグラデーションの書式設定を適用することはできません。 NaN は "Not a number" (数値ではない) を意味し、通常は、ゼロ除算エラーで発生します。 このようなエラーを回避するには、[DIVIDE() DAX 関数](/dax/divide-function-dax)を使用できます。
 - 条件付き書式を使用するには、集計またはメジャーを値に適用する必要があります。 そのため、 **[値によって色分け]** の例に "第 1" または "最後" が表示されます。 Analysis Services 多次元キューブに対してレポートを作成する場合、キューブ所有者が値を提供するメジャーを構築していない限り、条件付き書式の属性を使用することはできません。
 
 ## <a name="next-steps"></a>次の手順
 
-色の書式設定の詳細については、「[Power BI における色の書式設定に関するヒントとコツ](../visuals/service-tips-and-tricks-for-color-formatting.md)」をご覧ください  
+色の書式設定の詳細については、「[Power BI における色の書式設定に関するヒントとコツ](../visuals/service-tips-and-tricks-for-color-formatting.md)」をご覧ください

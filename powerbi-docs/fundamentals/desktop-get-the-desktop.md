@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160213"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860212"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 Power BI Desktop では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 Power BI Desktop を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。 Power BI Desktop は無料でダウンロードできます。
@@ -38,7 +38,7 @@ Microsoft Store で最新バージョンの Power BI Desktop にアクセスす�
 
    - ブラウザーを開き、Microsoft Store の [Power BI Desktop ページ](https://aka.ms/pbidesktopstore)に直接移動します。
 
-    - [Power BI サービス](https://docs.microsoft.com/power-bi/service-get-started)で、右上隅にある **[ダウンロード]** アイコンを選択し、 **[Power BI Desktop]** を選択します。
+    - [Power BI サービス](./service-get-started.md)で、右上隅にある **[ダウンロード]** アイコンを選択し、 **[Power BI Desktop]** を選択します。
 
       ![Power BI Desktop のダウンロード オプションを示す Microsoft Store のスクリーンショット。](media/desktop-get-the-desktop/getpbid_downloads.png)
 
@@ -203,4 +203,4 @@ Power BI Desktop をインストールした後は、以下のコンテンツを
 * [Power BI Desktop のデータ ソース](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop でデータに接続する](../connect-data/desktop-connect-to-data.md)
 * [Power BI Desktop でのデータの整形と結合](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop での一般的なクエリ タスク](../transform-model/desktop-common-query-tasks.md)   
+* [Power BI Desktop での一般的なクエリ タスク](../transform-model/desktop-common-query-tasks.md)

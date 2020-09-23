@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f095eb351797c228bb5f6e9b70c741ca078e7f67
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221673"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859913"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop でカスタム書式設定文字列を使用する
 
@@ -68,7 +68,7 @@ ms.locfileid: "85221673"
 | _ss_ | 00 - 59 (秒、先行ゼロあり) |
 
 
-カスタム値文字列の書式設定方法の[例](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)を参照してください。
+カスタム値文字列の書式設定方法の[例](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)を参照してください。
 
 ユーザー定義の数値式では、1 から 3 個のセクションをセミコロンで区切って指定できます。 セミコロンの間に何も含まれていない場合、不足しているセクションは表示されません (&quot;&quot; になります)。 セミコロンを指定しないと、正の書式設定が使用されます。
 
@@ -151,7 +151,7 @@ ms.locfileid: "85221673"
 ## <a name="next-steps"></a>次の手順
 次の記事にも興味をもたれるかもしれません。
 
-* [VBA の書式設定文字列](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [VBA の書式設定文字列](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
 * [Power BI Desktop のメジャー](../transform-model/desktop-measures.md)
 * [Power BI Desktop でのデータ型](../connect-data/desktop-data-types.md)
 * [テーブルでの条件付き書式設定](desktop-conditional-table-formatting.md)

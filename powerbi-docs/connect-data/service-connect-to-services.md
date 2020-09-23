@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236240"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860718"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI で使用するサービスに接続する
 Power BI では、Salesforce、Microsoft Dynamics、Google Analytics など、ビジネスに使用する数多くのサービスに接続できます。 Power BI は、資格情報を使用してサービスに接続することで開始します。 これは、データを自動表示し、ビジネスに関する分析を視覚的に示すダッシュボードと一連の Power BI レポートで Power BI "*ワークスペース*" を作成します。
 
 >[!IMPORTANT]
->サービス コンテンツ パックは、[テンプレート アプリ](https://docs.microsoft.com/power-bi/service-template-apps-overview)に置き換えられています。 2019 年 9 月 25 日の時点で、多くのコンテンツ パックが既に非推奨となっています。 インストールされている非推奨のコンテンツ パックはご利用のアカウントに残りますが、それに対するドキュメントやサポートは提供されません。また、もう一度インストールすることもできません。
+>サービス コンテンツ パックは、[テンプレート アプリ](./service-template-apps-overview.md)に置き換えられています。 2019 年 9 月 25 日の時点で、多くのコンテンツ パックが既に非推奨となっています。 インストールされている非推奨のコンテンツ パックはご利用のアカウントに残りますが、それに対するドキュメントやサポートは提供されません。また、もう一度インストールすることもできません。
 
 Power BI にサインインし、[接続できるすべてのサービス](https://app.powerbi.com/getdata/services)を表示します。 
 

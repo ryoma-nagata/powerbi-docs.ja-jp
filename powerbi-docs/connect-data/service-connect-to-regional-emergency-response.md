@@ -8,29 +8,29 @@ ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229678"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860741"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>地域的緊急応答ダッシュボードに接続する
-地域的緊急応答ダッシュボードは、[Microsoft Power Platform 地域的緊急応答ソリューション](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview)のレポート コンポーネントです。 地域組織の管理者は、Power BI テナントのダッシュボードを表示して、効率的な意思決定を行うのに役立つ重要なデータとメトリックをすばやく確認することができます。
+地域的緊急応答ダッシュボードは、[Microsoft Power Platform 地域的緊急応答ソリューション](/powerapps/sample-apps/regional-emergency-response/overview)のレポート コンポーネントです。 地域組織の管理者は、Power BI テナントのダッシュボードを表示して、効率的な意思決定を行うのに役立つ重要なデータとメトリックをすばやく確認することができます。
 
 ![地域的緊急応答ダッシュボード アプリ レポート](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-report.png)
 
 この記事では、地域的緊急応答ダッシュボード テンプレート アプリを使用して地域的緊急応答アプリをインストールする方法と、データ ソースに接続する方法について説明します。
 
-ダッシュボードに表示される情報の詳細については、「[分析情報の取得](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)」を参照してください。
+ダッシュボードに表示される情報の詳細については、「[分析情報の取得](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)」を参照してください。
 
 テンプレート アプリをインストールし、データ ソースに接続した後、必要に応じてレポートをカスタマイズできます。 その後、組織内の同僚にアプリとして配布することができます。
 
 ## <a name="prerequisites"></a>前提条件
 
-このテンプレート アプリをインストールする前に、まず、[地域的緊急応答ソリューション](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy)をインストールして設定する必要があります。 このソリューションをインストールすると、アプリにデータを設定するために必要なデータソース参照が作成されます。
+このテンプレート アプリをインストールする前に、まず、[地域的緊急応答ソリューション](/powerapps/sample-apps/regional-emergency-response/deploy)をインストールして設定する必要があります。 このソリューションをインストールすると、アプリにデータを設定するために必要なデータソース参照が作成されます。
 
-地域的緊急応答ソリューションをインストールする場合は、[Common Data Service 環境インスタンスの URL](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard) をメモしておいてください。 これは、テンプレート アプリをデータに接続するために必要になります。
+地域的緊急応答ソリューションをインストールする場合は、[Common Data Service 環境インスタンスの URL](/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard) をメモしておいてください。 これは、テンプレート アプリをデータに接続するために必要になります。
 
 ## <a name="install-the-app"></a>アプリをインストールする
 
@@ -62,7 +62,7 @@ ms.locfileid: "85229678"
 
    ![地域的緊急応答ダッシュボード アプリの [データを接続] リンク](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-connect-data.png)
 
-1. 表示されるダイアログボックスに、[Common Data Service 環境インスタンスの URL](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) を入力します。 たとえば、 https://[myenv].crm.dynamics.com です。 完了したら、 **[次へ]** をクリックします。
+1. 表示されるダイアログボックスに、[Common Data Service 環境インスタンスの URL](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) を入力します。 たとえば、 https://[myenv].crm.dynamics.com です。 完了したら、 **[次へ]** をクリックします。
 
    ![地域的緊急応答ダッシュボード アプリの URL ダイアログ](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-url-dialog.png)
 
@@ -92,11 +92,11 @@ ms.locfileid: "85229678"
 
 ## <a name="customize-and-share"></a>カスタマイズと共有
 
-詳細については、「[アプリをカスタマイズして共有する](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。 アプリを公開または配布する前に、必ず、[レポートの免責事項](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)を確認してください。
+詳細については、「[アプリをカスタマイズして共有する](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。 アプリを公開または配布する前に、必ず、[レポートの免責事項](/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)を確認してください。
 
 ## <a name="next-steps"></a>次の手順
-* [地域的緊急応答ダッシュボードについて](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
-* [Power Apps での危機通信のサンプル テンプレートのセットアップと学習](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [地域的緊急応答ダッシュボードについて](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
+* [Power Apps での危機通信のサンプル テンプレートのセットアップと学習](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 * [Power BI テンプレート アプリとは](../connect-data/service-template-apps-overview.md)
 * [組織でテンプレート アプリをインストールして配布する](../connect-data/service-template-apps-install-distribute.md)
