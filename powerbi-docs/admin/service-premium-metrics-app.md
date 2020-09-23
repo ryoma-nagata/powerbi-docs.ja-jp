@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 999e146d459fbff541e3655d97ddb841972ec62c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227727"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855083"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics アプリ
 
@@ -342,10 +342,9 @@ ms.locfileid: "85227727"
 ## <a name="next-steps"></a>次の手順
 
 * [Power BI Premium とは何ですか?](service-premium-what-is.md)
-* [Power BI Premium リリース ノート](../service-premium-release-notes.md)
 * [Microsoft Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)
 * [Power BI のエンタープライズ展開の計画に関するホワイト ペーパー](https://aka.ms/pbienterprisedeploy)
-* [Extended Pro Trial のアクティブ化](../service-extended-pro-trial.md)
+* [Extended Pro Trial のアクティブ化](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [Power BI Embedded のよくあるご質問](../developer/embedded/embedded-faq.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

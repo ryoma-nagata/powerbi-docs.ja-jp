@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 773533fee8fc4fada0cc33d9a6d2188118135797
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859776"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861178"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>開発者向けハンドブックの概要、Power BI レポート サーバー
 
@@ -29,15 +29,15 @@ Power BI レポート サーバーの開発者向けハンドブックへよう�
 
 ### <a name="report-viewer-control"></a>レポート ビューアー コントロール
 
-ページ分割されたレポートには、レポート ビューアー コントロールが利用できます。 これにより、.NET Windows 内または Web アプリケーション内にコントロールを配置できます。 詳細については、「[Get started with the Report Viewer Control](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)」 (レポート ビューアー コントロールを使ってみる) を参照してください。
+ページ分割されたレポートには、レポート ビューアー コントロールが利用できます。 これにより、.NET Windows 内または Web アプリケーション内にコントロールを配置できます。 詳細については、「[Get started with the Report Viewer Control](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)」 (レポート ビューアー コントロールを使ってみる) を参照してください。
 
 ## <a name="apis"></a>API
 
 Power BI レポート サーバーと対話する複数の API オプションがあります。 この手法には次のものが含まれます。
 
 * [REST API](rest-api.md)
-* [URL アクセス](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
-* [WMI プロバイダー](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
+* [URL アクセス](/sql/reporting-services/url-access-ssrs)
+* [WMI プロバイダー](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 オープン ソースの [PowerShell ユーティリティ](https://github.com/Microsoft/ReportingServicesTools)を使用してレポート サーバーを管理することもできます。
 
@@ -55,14 +55,14 @@ Power BI レポート サーバーと対話する複数の API オプション�
 * ページ分割されたレポートの表示拡張機能
 * セキュリティ拡張機能
 
-拡張ライブラリの詳細については、[こちら](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)を参照してください。
+拡張ライブラリの詳細については、[こちら](/sql/reporting-services/extensions/reporting-services-extension-library)を参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 
-[レポート ビューアー コントロールを使ってみる](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
-[Web サービスと .NET Framework を使用してのアプリケーションの構築](https://docs.microsoft.com/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
-[URL アクセス](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)  
-[拡張ライブラリ](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)  
-[WMI プロバイダー](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
+[レポート ビューアー コントロールを使ってみる](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
+[Web サービスと .NET Framework を使用してのアプリケーションの構築](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
+[URL アクセス](/sql/reporting-services/url-access-ssrs)  
+[拡張ライブラリ](/sql/reporting-services/extensions/reporting-services-extension-library)  
+[WMI プロバイダー](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

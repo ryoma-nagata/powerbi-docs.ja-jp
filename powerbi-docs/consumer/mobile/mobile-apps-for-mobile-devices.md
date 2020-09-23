@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: a0d65cb61d671f5779fa8281ad8be3153211a4a6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5f581a9b08afc8d9d8c3a36ed765c5d211d7876b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347265"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856417"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI モバイル アプリとは
 Power BI では、iOS、Android、および Windows 10 モバイル デバイス用のモバイル アプリを提供しています。 モバイル アプリを使用して、クラウドとオンプレミスのデータに接続して操作します。 
@@ -38,7 +38,7 @@ Power BI Desktop でレポートを作成します。 Power BI レポート サ�
 | [![Windows デバイス](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../fundamentals/desktop-getting-started.md) |Windows 10 用 Power BI モバイル アプリは、Windows 10 フォンを含むすべての Windows 10 デバイス上で動作します。 Windows 10 用 Power BI モバイル アプリには、他のモバイル アプリの多数の機能の他に、特別な機能があります。 たとえば、Power BI モバイル アプリから [Windows 10 のスタート画面に Power BI ダッシュボードをピン留め](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)できます。 さらに、[Surface Hub 上の Windows 10 用 Power BI モバイル アプリで Power BI をプレゼンテーション モードで実行](mobile-windows-10-app-presentation-mode.md)することができます。 <br/>Windows 10 デバイス用 Power BI モバイル アプリの使用を開始するには、[こちら](mobile-windows-10-phone-app-get-started.md)を参照してください。 |||
 
 >[!NOTE]
->**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのエンタープライズ サポート
 Microsoft Intune を使用すると、Android 用や iOS 用の Power BI モバイル アプリなど、デバイスとアプリを管理できます。

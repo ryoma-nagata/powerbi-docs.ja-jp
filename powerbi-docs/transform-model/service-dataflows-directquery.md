@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 76c42c52ba877b3e6477a2baee11aef4a531161c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937380"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861569"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Power BI で DirectQuery とデータフローを使用する (プレビュー)
 
@@ -70,7 +70,7 @@ DirectQuery とデータフローには、いくつかの既知の制限事項�
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
-* [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Model の概要](/powerapps/common-data-model/overview)
 * [Common Data Model のスキーマとエンティティの詳細について GitHub で学習する](https://github.com/Microsoft/CDM)
 
 Power BI Desktop の関連記事:

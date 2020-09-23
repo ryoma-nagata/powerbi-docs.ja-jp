@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d1ecee28e1364e3d5d0356bc2f23f2f865ce1c4
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 5fcffd39e9a341478657b63770201ad722b8c291
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008539"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855129"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>ドイツ クラウド顧客向け Power BI のよく寄せられる質問用
 **Power BI サービス**には、欧州連合/European Free Trade Agreement (EU/EFTA) 顧客向けバージョンがあります (別称 Microsoft Cloud Deutschland、MCD)。 この記事で説明する **Power BI サービス**のバージョンは、EU/EFTA 顧客向けであり、**Power BI サービス**の市販バージョンまたは政府顧客向け Power BI サービスとは別の独立したものです。
@@ -75,6 +75,6 @@ ms.locfileid: "90008539"
 ## <a name="next-steps"></a>次の手順
 Power BI を使うと、さまざまなことを行えます。 サービスにサインアップする方法を説明する記事など、詳細および学習については、次のリソースをご覧ください。
 
-* [Microsoft Learn for Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [Microsoft Learn for Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI サービスの概要](../fundamentals/service-get-started.md)
 * [Power BI Desktop とは何ですか?](../fundamentals/desktop-what-is-desktop.md)

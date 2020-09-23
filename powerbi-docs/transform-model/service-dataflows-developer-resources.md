@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2987d17510d8bbe5681c78df7d86d839c45b5ef9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3fea12fcc9d87c796f3da7bb0df040211db90f70
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240056"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861546"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Power BI データフロー用の開発者向けリソース
 
@@ -28,7 +28,7 @@ Power BI データフローに関する作業については、次の開発者�
 
 | データフローのリソース | Description |
 | --- | --- |
-| [Power BI データフロー REST API リファレンス](https://go.microsoft.com/fwlink/?linkid=2047629)    | データフロー REST API の完全なリファレンス ガイドです。|
+| [Power BI データフロー REST API リファレンス](/rest/api/power-bi/dataflows)    | データフロー REST API の完全なリファレンス ガイドです。|
 
 
 ## <a name="next-steps"></a>次の手順
@@ -41,9 +41,9 @@ Power BI データフローに関する作業については、次の開発者�
 * [オンプレミス データ ソースでのデータフローの使用](service-dataflows-on-premises-gateways.md)
 
 CDM による開発とチュートリアル リソースについて詳しくは、次をご覧ください。
-* [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM フォルダー](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM モデル ファイル定義](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Common Data Model の概要](/powerapps/common-data-model/overview)
+* [CDM フォルダー](/common-data-model/data-lake)
+* [CDM モデル ファイル定義](/common-data-model/model-json)
 
 
 Power Query とスケジュールされた更新について詳しくは、次の記事をご覧ください。

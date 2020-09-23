@@ -5,15 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9c5e241cee86b9f7ea21607128f5c32099dd0415
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231074"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861500"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI ゲートウェイ (個人用モード) のトラブルシューティング
 
@@ -30,7 +31,7 @@ ms.locfileid: "85231074"
 ## <a name="installation"></a>インストール
 **ゲートウェイ (個人用モード) は 64 ビット バージョンで動作する:** コンピューターが 32 ビット バージョンの場合、ゲートウェイ (個人用モード) をインストールすることはできません。 オペレーティング システムは、64 ビット バージョンである必要があります。 64 ビット バージョンの Windows をインストールするか、64 ビット コンピューターにゲートウェイ (個人用モード) をインストールします。
 
-**コンピューターのローカル管理者であるにもかかわらず、ゲートウェイ (個人用モード) をサービスとしてインストールできない:** ユーザーはコンピューターのローカル管理者グループに存在するものの、グループ ポリシーでそのユーザー名でのサービスとしてのサインインが許可されていない場合、インストールが失敗する可能性があります。 グループ ポリシーで、ユーザーがサービスとしてサインインすることが許可されていることを確認してください。 この問題の修正に取り組んでいます。 詳細については、「[サービスとしてログオンする権利をアカウントに追加する](https://technet.microsoft.com/library/cc739424.aspx)」を参照してください。
+**コンピューターのローカル管理者であるにもかかわらず、ゲートウェイ (個人用モード) をサービスとしてインストールできない:** ユーザーはコンピューターのローカル管理者グループに存在するものの、グループ ポリシーでそのユーザー名でのサービスとしてのサインインが許可されていない場合、インストールが失敗する可能性があります。 グループ ポリシーで、ユーザーがサービスとしてサインインすることが許可されていることを確認してください。 この問題の修正に取り組んでいます。 詳細については、「[サービスとしてログオンする権利をアカウントに追加する](/previous-versions/windows/it-pro/windows-server-2003/cc739424(v=ws.10))」を参照してください。
 
 **操作がタイムアウトしました:** ゲートウェイ (個人用モード) をインストールしているコンピューター (物理マシンまたは VM) に単一のコア プロセッサがある場合、このメッセージは一般的なものです。 すべてのアプリケーションを閉じ、不要なプロセスすべてをオフにして、もう一度インストールしてみてください。
 

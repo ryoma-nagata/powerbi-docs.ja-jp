@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 7a08b41f7307881a75573cadbeca984840300032
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264875"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856187"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのタイルを調べる
 適用対象:
@@ -87,7 +87,7 @@ ms.locfileid: "86264875"
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Windows 10 モバイル アプリのタイル
 
 >[!NOTE]
->**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 1. Windows 10 用の [Power BI モバイル アプリでダッシュボード](mobile-apps-view-dashboard.md)を開きます。
 2. タイルで垂直線の省略記号をタップします。 ここでは、次の操作を実行できます。 

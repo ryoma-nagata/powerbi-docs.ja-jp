@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b5481e3d0b84f81a9cdee827df27c90e32a7e84
-ms.sourcegitcommit: ae9e698b082598f37242080a3ad3dd0b3be08478
+ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89474816"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855106"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 
@@ -27,7 +27,7 @@ Power BI US Government サブスクリプションを取得してユーザーに
 
 ### <a name="enroll-in-a-microsoft-365-government-plan"></a>Microsoft 365 Government プランに登録する
 
-新規のお客様は、Microsoft 365 Government プランにサインアップする前に、組織の資格を検証する必要があります。  [Microsoft 365 for Government 適格性検証フォーム](https://www.microsoft.com/microsoft-365/government/eligibility-validation)を完成させることから始めます。 組織に適したプランを確実に選択するには、[Microsoft 365 US Government サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)を参照してください。
+新規のお客様は、Microsoft 365 Government プランにサインアップする前に、組織の資格を検証する必要があります。  [Microsoft 365 for Government 適格性検証フォーム](https://www.microsoft.com/microsoft-365/government/eligibility-validation)を完成させることから始めます。 組織に適したプランを確実に選択するには、[Microsoft 365 US Government サービスの説明](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)を参照してください。
 
 > [!NOTE]
 > Power BI を既に商用環境にデプロイ済みで、US Government クラウドに移行したい場合は、新しい Power BI Pro サブスクリプションを Microsoft 365 Government プランに追加する必要があります。 次に、米国政府向けの Power BI サービスに商用データをレプリケートし、商用ライセンスの割り当てをユーザー アカウントから削除してから、Power BI Pro Government ライセンスをユーザー アカウントに割り当てます。
@@ -45,11 +45,11 @@ Microsoft 365 のデプロイ後に、Power BI Pro サブスクリプション�
 
 Microsoft 365 には、政府機関のさまざまなコンプライアンス要件を満たすための複数の環境が用意されています。 各環境の詳細については、以下を参照してください。
 
-* [Microsoft 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) は、連邦政府、州政府、および地方自治体向けに設計されています。
+* [Microsoft 365 Government Community Cloud (GCC)](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) は、連邦政府、州政府、および地方自治体向けに設計されています。
 
-* [Microsoft 365 Government Community Cloud High (GCC High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) は、連邦政府機関、軍需産業、航空宇宙産業、および機密扱いではないが統制している情報を保持しているその他の組織向けに設計されています。 この環境は、国際武器取引規則 (ITAR) のデータまたは国防省調達規則 (DFARS) に関する要件がある、国家安全保障に関わる組織と企業に適しています。
+* [Microsoft 365 Government Community Cloud High (GCC High)](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) は、連邦政府機関、軍需産業、航空宇宙産業、および機密扱いではないが統制している情報を保持しているその他の組織向けに設計されています。 この環境は、国際武器取引規則 (ITAR) のデータまたは国防省調達規則 (DFARS) に関する要件がある、国家安全保障に関わる組織と企業に適しています。
 
-* [Microsoft 365 DoD 環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)は、米国国防総省専用に設計されています。
+* [Microsoft 365 DoD 環境](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)は、米国国防総省専用に設計されています。
 
 ## <a name="connect-to-power-bi-for-us-government"></a>米国政府向け Power BI に接続する
 
@@ -72,7 +72,7 @@ Azure は複数のクラウドに分散されています。 既定では、ク�
 
 パブリック クラウドでは、IP 範囲を使用できます。 US Government クラウドの IP 範囲を取得するには、「[Azure IP 範囲とサービス タグ - US Government クラウド](https://www.microsoft.com/download/details.aspx?id=57063)」でファイルをダウンロードしてください。
 
-SQL データベースのファイアウォールを設定するには、「[IP ファイアウォール規則の作成および管理](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)」を参照してください。
+SQL データベースのファイアウォールを設定するには、「[IP ファイアウォール規則の作成および管理](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)」を参照してください。
 
 ## <a name="power-bi-feature-availability"></a>Power BI の機能の利用可能性
 
@@ -83,7 +83,7 @@ Government クラウドのお客様の要件に対応するため、Government �
 |特徴 |GCC |GCC High |DoD|
 |------|------|------|------|
 |[政府機関と商用クラウド間の Azure B2B コラボレーション](service-admin-azure-ad-b2b.md)<sup>1</sup>|![利用可能](../media/yes.png)|![利用不可](../media/no.png)|![利用不可](../media/no.png)|
-|[Power BI Web パーツを使用した SharePoint Online への埋め込み](https://docs.microsoft.com/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![利用可能](../media/yes.png)|![利用可能](../media/yes.png)|![利用不可](../media/no.png)|
+|[Power BI Web パーツを使用した SharePoint Online への埋め込み](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![利用可能](../media/yes.png)|![利用可能](../media/yes.png)|![利用不可](../media/no.png)|
 |[データドリブン アラートのための Power Automate との接続](../connect-data/power-bi-data-sources.md)|![利用可能](../media/yes.png)|![利用可能](../media/yes.png)|![利用不可](../media/no.png)|
 |[Teams での [Power BI] タブ](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![利用可能](../media/yes.png)|![利用不可](../media/no.png)|![利用不可](../media/no.png)|
 |[容量メトリック](../admin/service-admin-premium-monitor-portal.md)|Q3 2020 |Q3 2020|Q3 2020|
@@ -96,7 +96,7 @@ Government クラウドのお客様の要件に対応するため、Government �
 |[カスタム ビジュアル](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|Q4 2020 |Q4 2020| Q4 2020|
 |[QR コードの生成](../create-reports/service-create-qr-code-for-tile.md)|![利用不可](../media/no.png)|![利用不可](../media/no.png)|![利用不可](../media/no.png)|
 
-<sup>1</sup> B2B コラボレーションは GCC で利用できますが、その環境でのライセンスを外部ユーザーに発行する必要があります。 商用クラウド ライセンスは GCC では無効です。 米国政府機関向け B2B コラボレーションの既知の制限に関する詳細については、「[Compare Azure Government and global Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)」(Azure Government とグローバル Azure の比較) を参照してください
+<sup>1</sup> B2B コラボレーションは GCC で利用できますが、その環境でのライセンスを外部ユーザーに発行する必要があります。 商用クラウド ライセンスは GCC では無効です。 米国政府機関向け B2B コラボレーションの既知の制限に関する詳細については、「[Compare Azure Government and global Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)」(Azure Government とグローバル Azure の比較) を参照してください
 
 <sup>2</sup> GCC 用の Teams の Power BI エクスペリエンスは限られており、従来のワークスペースでのみ機能します。また、「[Microsoft Teams に Power BI コンテンツを埋め込む](../collaborate-share/service-embed-report-microsoft-teams.md)」で説明されている拡張機能は含まれていません。
 
@@ -105,6 +105,6 @@ Government クラウドのお客様の要件に対応するため、Government �
 ## <a name="next-steps"></a>次の手順
 
 * [米国政府向け Power BI へのサインアップ](service-govus-signup.md)
-* [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
-* [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
+* [Microsoft Power Apps US Government](/power-platform/admin/powerapps-us-government)
+* [Power Automate US Government](/power-automate/us-govt)
 * [米国政府向け Power BI のデモ](https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government)

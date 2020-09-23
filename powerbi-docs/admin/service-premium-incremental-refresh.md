@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: 51aa05d49f0691c7ebb916ff84e3a8cbb0416096
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443331"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855014"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI での増分更新
 
@@ -112,7 +112,7 @@ Power BI サービスの最初の更新では、丸 5 年間のすべてをイ�
 
 #### <a name="current-date"></a>現在の日付
 
-"*現在の日付*" とは、更新時のシステム日付です。 Power BI サービスのデータセットでスケジュールされている更新が有効になっている場合は、指定したタイム ゾーンが考慮され、現在の日付が決定されます。 Power BI サービスにより手動で呼び出された更新でも、スケジュールされた更新でも、指定されている場合はタイム ゾーンが順守されます。 たとえば、タイム ゾーンが指定された、太平洋標準時の午後 8 時 (米国およびカナダ) に発生する更新では、(それ以外の場合では翌日になる) GMT ではなく、太平洋標準時に基づいて現在の日付が決定されます。 Power BI サービスによって呼び出されていない更新操作 ([TMSL 更新コマンド](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)など) では、スケジュールされた更新タイム ゾーンは考慮されません
+"*現在の日付*" とは、更新時のシステム日付です。 Power BI サービスのデータセットでスケジュールされている更新が有効になっている場合は、指定したタイム ゾーンが考慮され、現在の日付が決定されます。 Power BI サービスにより手動で呼び出された更新でも、スケジュールされた更新でも、指定されている場合はタイム ゾーンが順守されます。 たとえば、タイム ゾーンが指定された、太平洋標準時の午後 8 時 (米国およびカナダ) に発生する更新では、(それ以外の場合では翌日になる) GMT ではなく、太平洋標準時に基づいて現在の日付が決定されます。 Power BI サービスによって呼び出されていない更新操作 ([TMSL 更新コマンド](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)など) では、スケジュールされた更新タイム ゾーンは考慮されません
 
 ![タイム ゾーン](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -153,7 +153,7 @@ Power BI サービスの最初の更新では、丸 5 年間のすべてをイ�
 
 ## <a name="query-timeouts"></a>クエリのタイムアウト
 
-[更新のトラブルシューティング](../connect-data/refresh-troubleshooting-refresh-scenarios.md)に関する記事では、Power BI サービスでの更新操作がタイムアウトの対象になることが説明されています。 クエリは、データ ソースの既定のタイムアウトによっても制限できます。 ほとんどのリレーショナル ソースでは、M 式でタイムアウトをオーバーライドできます。 たとえば、次の例では、[SQL Server のデータ アクセス関数](https://docs.microsoft.com/powerquery-m/sql-database)を使って 2 時間に設定しています。 ポリシーの範囲によって定義されている各期間が、コマンド タイムアウトの設定に従ってクエリを送信します。
+[更新のトラブルシューティング](../connect-data/refresh-troubleshooting-refresh-scenarios.md)に関する記事では、Power BI サービスでの更新操作がタイムアウトの対象になることが説明されています。 クエリは、データ ソースの既定のタイムアウトによっても制限できます。 ほとんどのリレーショナル ソースでは、M 式でタイムアウトをオーバーライドできます。 たとえば、次の例では、[SQL Server のデータ アクセス関数](/powerquery-m/sql-database)を使って 2 時間に設定しています。 ポリシーの範囲によって定義されている各期間が、コマンド タイムアウトの設定に従ってクエリを送信します。
 
 ```powerquery-m
 let
@@ -176,7 +176,7 @@ XMLA エンドポイントの読み取り、書き込みが有効になってい
 
 #### <a name="override-incremental-refresh-behavior"></a>増分更新の動作をオーバーライドする
 
-SSMS では、[テーブル モデルのスクリプト言語 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) と[表形式オブジェクト モデル (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) を使用して、増分更新を呼び出す方法をより細かく制御することもできます。 たとえば、SSMS では、オブジェクト エクスプローラーでテーブルを右クリックしてから、 **[テーブルの処理]** メニュー オプションを選択します。 次に、 **[スクリプト]** ボタンをクリックして、TMSL 更新コマンドを生成します。
+SSMS では、[テーブル モデルのスクリプト言語 (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) と[表形式オブジェクト モデル (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) を使用して、増分更新を呼び出す方法をより細かく制御することもできます。 たとえば、SSMS では、オブジェクト エクスプローラーでテーブルを右クリックしてから、 **[テーブルの処理]** メニュー オプションを選択します。 次に、 **[スクリプト]** ボタンをクリックして、TMSL 更新コマンドを生成します。
 
 ![[テーブルの処理] ダイアログの [スクリプト] ボタン](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -204,7 +204,7 @@ SSMS では、[テーブル モデルのスクリプト言語 (TMSL)](https://do
 }
 ```
 
-TMSL での既定の増分更新動作の上書きの詳細については、「[Refresh コマンド](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)」を参照してください。
+TMSL での既定の増分更新動作の上書きの詳細については、「[Refresh コマンド](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)」を参照してください。
 
 ### <a name="custom-queries-for-detect-data-changes"></a>データ変更の検出のためのカスタム クエリ
 
@@ -247,4 +247,4 @@ pollingExpression は、他の M クエリの簡易な M 式または名前と�
 ## <a name="see-also"></a>関連項目
 
 [XMLA エンドポイントを使用したデータセット接続](service-premium-connect-tools.md)   
-[更新に関するトラブルシューティング シナリオ](../connect-data/refresh-troubleshooting-refresh-scenarios.md)   
+[更新に関するトラブルシューティング シナリオ](../connect-data/refresh-troubleshooting-refresh-scenarios.md)

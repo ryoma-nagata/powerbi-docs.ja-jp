@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: a1a30dc09e61e29053a5a1d95cde3d5a339c5a3d
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.date: 09/15/2020
+ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220862"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855561"
 ---
-# <a name="deployment-pipelines-best-practices-preview"></a>デプロイ パイプラインのベスト プラクティス (プレビュー)
+# <a name="deployment-pipelines-best-practices"></a>デプロイ パイプラインのベスト プラクティス
 
 この記事では、コンテンツのライフサイクルを通してコンテンツを管理する BI 作成者向けのガイダンスを提供します。 ここでは、BI コンテンツ ライフサイクルの管理ツールとしてデプロイ パイプラインを利用することに重点を置いています。
 
@@ -79,7 +79,7 @@ ms.locfileid: "89220862"
 
 ### <a name="use-parameters-in-your-model"></a>モデルでパラメーターを使用する
 
-Power BI サービスでデータセットのデータ ソースを編集することはできないため、静的接続文字列を使用する代わりに[パラメーター](https://docs.microsoft.com/power-query/power-query-query-parameters)を使用して、インスタンス名やデータベース名などの接続の詳細情報を格納することをお勧めします。 これにより、Power BI サービス Web ポータルを使用して、または後のステージで [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) 使用して接続を管理できます。
+Power BI サービスでデータセットのデータ ソースを編集することはできないため、静的接続文字列を使用する代わりに[パラメーター](/power-query/power-query-query-parameters)を使用して、インスタンス名やデータベース名などの接続の詳細情報を格納することをお勧めします。 これにより、Power BI サービス Web ポータルを使用して、または後のステージで [API](/rest/api/power-bi/datasets/updateparametersingroup) 使用して接続を管理できます。
 
 デプロイ パイプラインでは、開発、テスト、および運用の各ステージに特定の値を設定するようにパラメーター ルールを構成できます。
 

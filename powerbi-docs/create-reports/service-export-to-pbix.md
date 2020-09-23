@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5cd0dd3b91109e63e5481e2f5e5516fd9ecd245c
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: cd9295e26de50714a15afb672814893317fb8e3b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385977"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861408"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI サービスから Power BI Desktop にレポートをダウンロードする (プレビュー)
       
@@ -30,7 +30,7 @@ Power BI Desktop では、ローカル コンピューターから Power BI サ�
 
 .pbix ファイルをダウンロードするには、次の手順に従います。
 
-1. Power BI サービスで、ダウンロードするレポートを[編集ビュー](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view)で開きます。
+1. Power BI サービスで、ダウンロードするレポートを[編集ビュー](./service-interact-with-a-report-in-editing-view.md)で開きます。
 
 2. 上部のナビ ペインで、 **[ファイル]、[レポートのダウンロード]** の順に選択します。
    

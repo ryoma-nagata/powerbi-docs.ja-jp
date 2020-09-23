@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 03197d7d6b976615f13d9f482c1ba4d4c1ae2abd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90061cec87bae4b65d347617dacc2863052a07ce
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239442"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861155"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) を利用し、Excel ブックをホストするようにレポート サーバーを構成する
 
-Web ポータルで Power BI レポートを表示することに加え、Power BI Report Server は [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) を使用して Excel ブックをホストすることができます。 レポート サーバーで一元的に、セルフサービスの Microsoft BI コンテンツの公開と表示を行うことができます。
+Web ポータルで Power BI レポートを表示することに加え、Power BI Report Server は [Office Online Server](/officeonlineserver/office-online-server-overview) (OOS) を使用して Excel ブックをホストすることができます。 レポート サーバーで一元的に、セルフサービスの Microsoft BI コンテンツの公開と表示を行うことができます。
 
 ![レポート サーバー Web ポータルから表示される Excel レポート](media/excel-oos/excel-in-pbirs.png)
 
@@ -187,6 +187,6 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 [管理者の概要](admin-handbook-overview.md)  
 [Power BI レポート サーバーのインストール](install-report-server.md)  
 [レポート ビルダーのダウンロード](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) のダウンロード](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) のダウンロード](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

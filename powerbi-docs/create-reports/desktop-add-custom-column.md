@@ -9,16 +9,16 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18d94702cad6f770aaf078f1d692c96d48ce50ac
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229031"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855405"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop でカスタム列を追加する
 
-Power BI Desktop でクエリ エディターを使用して、データの新しいカスタム列をモデルに簡単に追加できます。 クエリ エディターでは、カスタム列を定義するために [PowerQuery M 式クエリ](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language)を作成して、カスタム列を作成したり、名前を変更したりすることができます。 PowerQuery M 式クエリには、[包括的な関数参照コンテンツ セット](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference)があります。 
+Power BI Desktop でクエリ エディターを使用して、データの新しいカスタム列をモデルに簡単に追加できます。 クエリ エディターでは、カスタム列を定義するために [PowerQuery M 式クエリ](/powerquery-m/quick-tour-of-the-power-query-m-formula-language)を作成して、カスタム列を作成したり、名前を変更したりすることができます。 PowerQuery M 式クエリには、[包括的な関数参照コンテンツ セット](/powerquery-m/power-query-m-function-reference)があります。 
 
 クエリ エディターでカスタム列を作成すると、Power BI Desktop によって、クエリの **[クエリの設定]** に **[適用したステップ]** として追加されます。 いつでも変更、移動、または修正できます。
 
@@ -49,7 +49,7 @@ Power BI Desktop でクエリ エディターを使用して、データの新�
 
 - **[新しい列名]** ボックスに、カスタム列の初期名が表示されます。 この列の名前は、変更できます。
 
-- [[カスタム列の式]](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) ボックスに、**PowerQuery M 式クエリ**が表示されます。 これらのクエリを作成するには、新しいカスタム列を定義する数式を作成します。 
+- [[カスタム列の式]](/powerquery-m/power-query-m-function-reference) ボックスに、**PowerQuery M 式クエリ**が表示されます。 これらのクエリを作成するには、新しいカスタム列を定義する数式を作成します。 
 
    ![[カスタム列の追加] ページ](media/desktop-add-custom-column/add-custom-column_03.png)
 
@@ -95,4 +95,3 @@ Power BI Desktop でクエリ エディターを使用して、データの新�
 - カスタム列を作成するには、クエリ エディターに提供する例に基づいて列を作成するなど、他の方法もあります。 詳細については、「[Power BI Desktop で例から列を追加する](desktop-add-column-from-example.md)」を参照してください。
 
 - Power Query M のリファレンス情報については、「[Power Query M 関数リファレンス](/powerquery-m/power-query-m-function-reference)」を参照してください。
-

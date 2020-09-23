@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cb41d7d9d1e85957ebf02ce2742d3e32670d0cc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281716"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861017"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>チュートリアル:Power BI での Machine Learning Studio (クラシック) モデルの呼び出し (プレビュー)
 
@@ -31,11 +31,11 @@ ms.locfileid: "83281716"
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Azure ML モデルを作成して発行する
 
-[チュートリアル手順 1:Machine Learning Studio (クラシック) ワークスペースの作成](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)に関するページの手順に従って **Machine Learning** ワークスペースを作成します。
+[チュートリアル手順 1:Machine Learning Studio (クラシック) ワークスペースの作成](/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)に関するページの手順に従って **Machine Learning** ワークスペースを作成します。
 
-この手順では、既存のどの Azure ML モデルやデータセットを使っても構いません。 発行済みのモデルがない場合は、「[Azure Machine Learning Studio (クラシック) で初めてのデータ サイエンス実験を作成する](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)」の手順に従って、自動車の価格を予測する Azure ML モデルを数分で作成することができます。
+この手順では、既存のどの Azure ML モデルやデータセットを使っても構いません。 発行済みのモデルがない場合は、「[Azure Machine Learning Studio (クラシック) で初めてのデータ サイエンス実験を作成する](/azure/machine-learning/studio/create-experiment)」の手順に従って、自動車の価格を予測する Azure ML モデルを数分で作成することができます。
 
-[Azure Machine Learning Studio (クラシック) Web サービスのデプロイ](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)に関する手順に従って、Azure ML モデルを Web サービスとして発行します。
+[Azure Machine Learning Studio (クラシック) Web サービスのデプロイ](/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)に関する手順に従って、Azure ML モデルを Web サービスとして発行します。
 
 ## <a name="grant-a-power-bi-user-access"></a>Power BI ユーザーにアクセス権を付与する
 

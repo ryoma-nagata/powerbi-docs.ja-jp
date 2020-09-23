@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
-ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f921d9dbeb16d1b960e22f228f7833c8fbf184b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710208"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861247"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Power BI Report Server の Always Encrypted
 
-この記事では、データ ソースの種類 Microsoft SQL Server および Microsoft Azure SQL Database を使用する場合に Power BI Report Server でサポートされる Always Encrypted について説明します。 SQL Server の Always Encrypted 機能の詳細については、記事「[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)」を参照してください。
+この記事では、データ ソースの種類 Microsoft SQL Server および Microsoft Azure SQL Database を使用する場合に Power BI Report Server でサポートされる Always Encrypted について説明します。 SQL Server の Always Encrypted 機能の詳細については、記事「[Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine)」を参照してください。
 
 ## <a name="always-encrypted-user-isolation"></a>Always Encrypted ユーザーの分離
 
@@ -37,8 +37,8 @@ ms.locfileid: "76710208"
 
 証明書にアクセスする必要があるアカウントはサービス アカウントです。 証明書は、ローカル コンピューターの証明書ストアに格納する必要があります。 詳細については、次のトピックを参照してください。
 
-- [レポート サーバー サービス アカウントの構成](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configuration Manager)
-- SQL Server に関する記事「Always Encrypted の列マスター キーを作成して保存する」の「[証明書をアプリケーションとユーザーが使用できるようにする](https://docs.microsoft.com/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users)」セクション。
+- [レポート サーバー サービス アカウントの構成](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configuration Manager)
+- SQL Server に関する記事「Always Encrypted の列マスター キーを作成して保存する」の「[証明書をアプリケーションとユーザーが使用できるようにする](/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users)」セクション。
 
 ### <a name="column-encryption-strategy"></a>列暗号化戦略
 
@@ -51,7 +51,7 @@ Power BI Report Server では、列暗号化戦略として、*決定論的*暗�
 |COUNT および DISTINCT を除いて、集計フィールドとして使用できる。 | いいえ (COUNT および DISTINCT を除く) | いいえ |
 |レポート パラメーターとして使用できる。 | はい | いいえ |
 
-詳細については、[決定論的暗号化とランダム化暗号化の比較](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption)に関するページを参照してください。
+詳細については、[決定論的暗号化とランダム化暗号化の比較](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption)に関するページを参照してください。
 
 ### <a name="parameter-usage"></a>パラメーターの使用法
 
@@ -73,7 +73,7 @@ Power BI Report Server では、列暗号化戦略として、*決定論的*暗�
 | --- | --- | --- | --- | --- | --- |
 | int | はい | はい | COUNT、DISTINCT | はい (Integer として) |   |
 | float | はい | はい | COUNT、DISTINCT | はい (Float として) |   |
-| nvarchar | はい | はい | COUNT、DISTINCT | はい (Text として) | 明確な暗号化では、バイナリ 2 文字型の列の並べ替え順序を持つ列の照合順序を使用する必要があります。 詳細については、SQL Server の「[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption)」の記事を参照してください。  |
+| nvarchar | はい | はい | COUNT、DISTINCT | はい (Text として) | 明確な暗号化では、バイナリ 2 文字型の列の並べ替え順序を持つ列の照合順序を使用する必要があります。 詳細については、SQL Server の「[Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption)」の記事を参照してください。  |
 | varchar | はい | はい | COUNT、DISTINCT | いいえ |   |
 | decimal | はい | はい | COUNT、DISTINCT | いいえ |   |
 | numeric | はい | はい | COUNT、DISTINCT | いいえ |   |
@@ -86,11 +86,10 @@ Power BI Report Server では、列暗号化戦略として、*決定論的*暗�
 
 ## <a name="always-encrypted-in-connection-strings"></a>接続文字列内の Always Encrypted
 
-SQL Server データ ソースの接続文字列で Always Encrypted を有効にする必要があります。 有効化の詳細については、「[アプリケーション クエリで Always Encrypted を有効にする](https://docs.microsoft.com/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries)」を参照してください。
+SQL Server データ ソースの接続文字列で Always Encrypted を有効にする必要があります。 有効化の詳細については、「[アプリケーション クエリで Always Encrypted を有効にする](/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries)」を参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 
-SQL Server および Azure SQL Database での [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)
+SQL Server および Azure SQL Database での [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

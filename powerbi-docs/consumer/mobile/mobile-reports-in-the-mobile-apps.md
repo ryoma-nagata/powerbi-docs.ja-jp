@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204975"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855957"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのレポートを調べる
 適用対象:
@@ -23,7 +23,7 @@ ms.locfileid: "88204975"
 | iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
 >[!NOTE]
->**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Power BI レポートは、データの対話型表示で、データから得られるさまざまな発見と洞察を表す視覚化が付いています。 Power BI モバイル アプリでは、3 段階のプロセスの 3 つ目の手順でレポートを表示できます。
 
@@ -134,13 +134,13 @@ Power BI モバイル アプリをダウンロードすると、そのアプリ�
 
 **ブックマーク**はレポートに[ブックマーク](mobile-reports-in-the-mobile-apps.md#bookmarks)が設定されている場合にのみ表示されます。 Power BI サービスで定義できる個人用ブックマークとレポートの作成者によって定義されたブックマークの両方が表示されます。 ブックマークの 1 つが既定のブックマークとして定義されている場合、レポートが読み込まれたとき、そのビューが開きます。
 
-Power BI モバイル アプリからの共有を禁止する [Intune 保護ポリシー](https://docs.microsoft.com/intune/app-protection-policies)が組織で適用されている場合、**[注釈を付けて共有]** がオフになることがあります。
+Power BI モバイル アプリからの共有を禁止する [Intune 保護ポリシー](/intune/app-protection-policies)が組織で適用されている場合、**[注釈を付けて共有]** がオフになることがあります。
 
 **招待**は、ユーザーがレポートを他のユーザーと共有するアクセス許可を持っている場合にのみ有効になります。 レポートの所有者である場合、または所有者から再共有アクセス許可を与えられている場合にのみ、アクセス許可が付与されます。
 
-レポート作成者がレポートを地理的データで分類している場合は、**現在の場所でのフィルター処理**が有効になります。 レポート内の地理的データの識別の詳細については、[こちら](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)を参照してください。
+レポート作成者がレポートを地理的データで分類している場合は、**現在の場所でのフィルター処理**が有効になります。 レポート内の地理的データの識別の詳細については、[こちら](../../transform-model/desktop-mobile-geofiltering.md)を参照してください。
 
-**バーコードのスキャンによるレポートのフィルター処理**は、レポート内のデータセットが**バーコード**としてタグ付けされている場合にのみ有効になります。 Power BI Desktop でのバーコードのタグ付けの詳細については、[こちら](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)を参照してください。
+**バーコードのスキャンによるレポートのフィルター処理**は、レポート内のデータセットが**バーコード**としてタグ付けされている場合にのみ有効になります。 Power BI Desktop でのバーコードのタグ付けの詳細については、[こちら](../../transform-model/desktop-mobile-barcodes.md)を参照してください。
 
 ### <a name="bookmarks"></a>ブックマーク
 
@@ -154,7 +154,7 @@ Power BI モバイル アプリでは、レポートの作成者が定義した�
 
 ![ブックマーク ビュー](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
-[Power BI サービスでのブックマークについてさらに学習してください](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks)。
+[Power BI サービスでのブックマークについてさらに学習してください](../end-user-bookmarks.md)。
 
 ## <a name="configure-your-experience-with-reports"></a>レポート使用時のエクスペリエンスを構成する
 Power BI モバイル アプリには、レポート エクスペリエンスを制御するための設定がいくつかあります。 現時点では、以下のことを構成できます。

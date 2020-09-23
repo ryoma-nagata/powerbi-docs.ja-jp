@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411959"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855290"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Power BI Desktop での外部ツールの使用 (プレビュー)
 
@@ -37,13 +37,13 @@ Power BI Desktop の **[外部ツール]** リボンには、コンピュータ�
 
 外部ツールでは、Power BI Desktop データセット (Analysis Services モデル) に接続して、次のオブジェクトを編集できます。 Power BI Desktop テンプレート (PBIT) ファイルの編集はサポートされていません。
 
-* 計算の[メジャー](https://docs.microsoft.com/analysis-services/tabular-models/measures-ssas-tabular)
-* 複雑なモデルにおける計算の再利用性のための[計算グループ](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups)
-* データセット メタデータの的を絞ったビジネス ドメイン固有ビューを定義するための[パースペクティブ](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular)
+* 計算の[メジャー](/analysis-services/tabular-models/measures-ssas-tabular)
+* 複雑なモデルにおける計算の再利用性のための[計算グループ](/analysis-services/tabular-models/calculation-groups)
+* データセット メタデータの的を絞ったビジネス ドメイン固有ビューを定義するための[パースペクティブ](/analysis-services/tabular-models/perspectives-ssas-tabular)
 
 外部ツールを使用してメタデータの翻訳を管理することは可能かもしれませんが、現在、このプレビュー バージョンではサポートされていません。 現在のユーザーのロケールが翻訳されたロケールである場合、現在のバージョンの Power BI Desktop を使用してフィールド リスト内のオブジェクトを編集しても、正しく機能しません。 
 
-すべての[表形式オブジェクト モデル](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) データセットのメタデータは読み取り専用でアクセスできますが、[表形式オブジェクト モデル](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)の記事で説明されている一覧に含まれていないオブジェクトは、Power BI Desktop Analysis Services インスタンスでの編集がまだサポートされていません。
+すべての[表形式オブジェクト モデル](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) データセットのメタデータは読み取り専用でアクセスできますが、[表形式オブジェクト モデル](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)の記事で説明されている一覧に含まれていないオブジェクトは、Power BI Desktop Analysis Services インスタンスでの編集がまだサポートされていません。
 
 
 ## <a name="featured-external-tools"></a>おすすめの外部ツール
@@ -147,5 +147,3 @@ ALM Toolkit の主要なツール作成者は [Christian Wade](https://www.linke
 
 * [Power BI でレポート間のドリルスルーを使用する](desktop-cross-report-drill-through.md)
 * [Power BI Desktop でスライサーを使用する](../visuals/power-bi-visualization-slicers.md)
-
-

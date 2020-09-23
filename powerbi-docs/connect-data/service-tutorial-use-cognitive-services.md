@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4c19965def178d4260527032820c4109c4fe235f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6511afb499b12d379957ac37ebfe19890c111282
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281578"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861040"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>チュートリアル:Power BI での Cognitive Services の使用
 
-Power BI で Azure Cognitive Services からの一連の関数にアクセスし、データフロー用のセルフ サービスのデータ準備でデータを強化することが可能です。 現在サポートされているサービスは、[感情分析](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)、[キー フレーズ抽出](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)、[言語検出](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)、および[イメージのタグ付け](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)です。 変換は Power BI サービス上で実行されます。Azure Cognitive Services サブスクリプションは不要です。 この機能には、Power BI Premium が必要です。
+Power BI で Azure Cognitive Services からの一連の関数にアクセスし、データフロー用のセルフ サービスのデータ準備でデータを強化することが可能です。 現在サポートされているサービスは、[感情分析](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)、[キー フレーズ抽出](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)、[言語検出](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)、および[イメージのタグ付け](/azure/cognitive-services/computer-vision/concept-tagging-images)です。 変換は Power BI サービス上で実行されます。Azure Cognitive Services サブスクリプションは不要です。 この機能には、Power BI Premium が必要です。
 
 Cognitive Services の変換は、[データフロー用のセルフ サービスのデータ準備](https://powerbi.microsoft.com/blog/introducing-power-bi-data-prep-wtih-dataflows/)でサポートされます。 最初に、以下に示すテキスト分析およびイメージのタグ付けに関するステップ バイ ステップの例を使用します。
 
@@ -174,7 +174,7 @@ Tag Images 関数を選択し、列フィールドに「 _[バイナリ]_ 」、
 
 このチュートリアルでは、Power BI のデータ フロー上でセンチメント スコアリングおよびイメージのタグ付け関数を適用しました。 Power BI での Cognitive Services の詳細については、以下の記事を参照してください。
 
-* [Azure での Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/)
+* [Azure での Cognitive Services](/azure/cognitive-services/)
 * [データフロー上でのセルフサービスのデータ準備](../transform-model/service-dataflows-overview.md)の開始
 * [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/) の詳細について
 

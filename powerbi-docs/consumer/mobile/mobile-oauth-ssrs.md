@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.openlocfilehash: 1e45e3292499d0eb827b6b03c63ab839a520da97
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9d54df0369b28eafc08a0e4f84599aac66c299e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220266"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856095"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth を使用し、Power BI Report Server と SSRS に接続する
 
@@ -72,7 +72,7 @@ SPN は、Kerberos 認証を使うサービスの一意の識別子です。 レ
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Active Directory フェデレーション サービス (ADFS) の構成
 
-環境内の Windows 2016 サーバーで ADFS を構成する必要があります。 構成を行うには、サーバー マネージャーで [管理]、[役割と機能の追加] の順に選択します。 詳しくは、「[Active Directoryフェデレーション サービス](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)」をご覧ください。
+環境内の Windows 2016 サーバーで ADFS を構成する必要があります。 構成を行うには、サーバー マネージャーで [管理]、[役割と機能の追加] の順に選択します。 詳しくは、「[Active Directoryフェデレーション サービス](/windows-server/identity/active-directory-federation-services)」をご覧ください。
 
 ### <a name="create-an-application-group"></a>アプリケーション グループを作成する
 
@@ -136,7 +136,7 @@ AD FS 管理画面内で、Power BI Mobile アプリの情報を含む Reporting
 
 ## <a name="web-application-proxy-wap-configuration"></a>Web アプリケーション プロキシ (WAP) の構成
 
-環境内のサーバーで、Web アプリケーション プロキシ (役割) の Windows の役割を有効にします。 これは、Windows 2016 サーバー上になければなりません。 詳しくは、「[Web Application Proxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)」 (Windows Server 2016 での Web アプリケーション プロキシ) および「[Publishing Applications using AD FS Preauthentication](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)」 (AD FS の事前認証を使用したアプリケーションの公開) をご覧ください。
+環境内のサーバーで、Web アプリケーション プロキシ (役割) の Windows の役割を有効にします。 これは、Windows 2016 サーバー上になければなりません。 詳しくは、「[Web Application Proxy in Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)」 (Windows Server 2016 での Web アプリケーション プロキシ) および「[Publishing Applications using AD FS Preauthentication](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)」 (AD FS の事前認証を使用したアプリケーションの公開) をご覧ください。
 
 ### <a name="constrained-delegation-configuration"></a>制約付き委任の構成
 
@@ -228,7 +228,7 @@ Power BI モバイル アプリ内で、Reporting Services インスタンスに
 
 ## <a name="multi-factor-authentication"></a>多要素認証
 
-多要素認証を有効にして、環境のセキュリティを強化できます。 詳しくは、「[Configure AD FS 2016 and Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)」 (AD FS 2016 と Azure MFA を構成する) をご覧ください。
+多要素認証を有効にして、環境のセキュリティを強化できます。 詳しくは、「[Configure AD FS 2016 and Azure MFA](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa)」 (AD FS 2016 と Azure MFA を構成する) をご覧ください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
@@ -245,8 +245,8 @@ Fiddler を使うとサインインが正常に行われる場合は、WAP ア�
 [レポート サーバーのサービス プリンシパル名 (SPN) の登録](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
 [Reporting Services 構成ファイルを変更する](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
 [レポート サーバーで Windows 認証を構成する](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
-[Active Directoryフェデレーション サービス](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
-[Windows Server 2016 での Web アプリケーション プロキシ](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
-[AD FS の事前認証を使用したアプリケーションの公開](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[AD FS 2016 と Azure MFA を構成する](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Active Directoryフェデレーション サービス](/windows-server/identity/active-directory-federation-services)  
+[Windows Server 2016 での Web アプリケーション プロキシ](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)  
+[AD FS の事前認証を使用したアプリケーションの公開](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
+[AD FS 2016 と Azure MFA を構成する](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

@@ -8,11 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee2ce1161f5afbdc39520a0102d3289f00792207
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 553beb5f30625ce416ea778ba6b5fde63526065c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240216"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856472"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでお気に入りを作成し、表示する
 適用対象:
@@ -22,7 +23,7 @@ ms.locfileid: "85240216"
 | iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
 >[!NOTE]
->**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 モバイル アプリで、お気に入りの Power BI ダッシュボード、レポート、アプリ、お気に入りのオンプレミスの Microsoft Power BI Report Server および Reporting Services の KPI とモバイル レポートを作成し、表示する方法について説明します。
 
@@ -75,4 +76,3 @@ Power BI モバイル アプリでは、お気に入りの Power BI レポート
 ## <a name="next-steps"></a>次の手順
 * [Power BI のお気に入りのダッシュボード](../end-user-favorite.md) 
 * わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-

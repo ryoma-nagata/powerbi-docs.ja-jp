@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fd0f9db041fb4862831630249e847c63572263b0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2ac06bb288077a15a7227e2eb439762bc182e1a8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240254"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861661"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI でのデータフローの作成と使用
 
@@ -77,7 +77,7 @@ ms.locfileid: "85240254"
 
 データフローのエンティティに含まれる新しいツールを使用すると、Common Data Model (Microsoft の標準化されたスキーマ) にビジネス データを簡単にマップし、Microsoft やサード パーティのデータで補強して、機械学習に簡単にアクセスできます。 これらの新機能を活用することで、ビジネス データに関するインテリジェントでアクションにつながる分析情報を提供できます。 クエリの編集ステップでの変換が完了すると、データ ソース テーブルの列を、Common Data Model で定義されている標準エンティティのフィールドにマップできます。 標準エンティティには、Common Data Service によって定義された既知のスキーマがあります。
 
-この方法の詳細および Common Data Model については、「[Common Data Model とは](https://docs.microsoft.com/powerapps/common-data-model/overview)」をご覧ください。
+この方法の詳細および Common Data Model については、「[Common Data Model とは](/powerapps/common-data-model/overview)」をご覧ください。
 
 データフローで Common Data Model を利用するには、 **[クエリを編集]** ダイアログで **[標準にマップする]** 変換をクリックします。 **[エンティティのマップ]** 画面が表示されたら、マップする標準エンティティを選択できます。
 
@@ -175,7 +175,7 @@ Power BI のデータフローでは、Power BI のデータ更新プロセス�
 * [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
-* [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Model の概要](/powerapps/common-data-model/overview)
 * [Common Data Model のスキーマとエンティティの詳細について GitHub で学習する](https://github.com/Microsoft/CDM)
 
 Power BI Desktop の関連記事:

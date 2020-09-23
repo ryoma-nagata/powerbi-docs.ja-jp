@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48f094def0576d6e90a71117cc37ac975304e07f
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557281"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861316"
 ---
 # <a name="create-key-influencers-visualizations"></a>主要なインフルエンサーの視覚化を作成する
 
@@ -241,7 +241,7 @@ ID の数を見てみましょう。 各顧客の行には、関連付けられ�
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>メジャーまたは集計された列であるメトリックを分析する
 
-メジャーまたは集計された列の場合、分析の既定値は[上](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)で説明した**継続的な分析タイプ**になります。 これは変更できません。 メジャー/集計された列の分析と、集計されていない数値列の分析の最大の違いは、分析が実行されるレベルです。
+メジャーまたは集計された列の場合、分析の既定値は[上](#analyze-a-metric-that-is-numeric)で説明した**継続的な分析タイプ**になります。 これは変更できません。 メジャー/集計された列の分析と、集計されていない数値列の分析の最大の違いは、分析が実行されるレベルです。
 
 集計されていない列の場合、分析は常にテーブル レベルで実行されます。 上の家の価格の例では、**House Price** メトリックを分析して、家の価格の上昇/低下に影響を与えるものを確認しました。 分析はテーブル レベルで自動的に実行されます。 テーブルには家ごとに一意の ID があるので、分析は家のレベルで実行されます。
 
@@ -255,7 +255,7 @@ ID の数を見てみましょう。 各顧客の行には、関連付けられ�
 
 この分析は非常に要約されているため、回帰モデルで学習できるデータ内のパターンを見つけることは困難です。 より良い結果を得るには、さらに詳細なレベルで分析を実行する必要があります。 住宅レベルで家の価格を分析する場合は、**ID** フィールドを分析に明示的に追加する必要があります。 それでも、家の ID をインフルエンサーと考えたくはありません。 家の ID が大きくなると家の価格が上昇することを学習しても役に立ちません。 このような場合は、 **[配置方法]** フィールド ウェル オプションが役に立ちます。 **[配置方法]** を使用すると、新しいインフルエンサーを探さずに、分析のレベルを設定するために使用するフィールドを追加できます。
 
-**[配置方法]** に **ID** を追加すると視覚エフェクトがどのようになるか見てみましょう。 メジャーを評価するレベルを定義すると、インフルエンサーの解釈は、[集計されていない数値列](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)の場合とまったく同じになります。
+**[配置方法]** に **ID** を追加すると視覚エフェクトがどのようになるか見てみましょう。 メジャーを評価するレベルを定義すると、インフルエンサーの解釈は、[集計されていない数値列](#analyze-a-metric-that-is-numeric)の場合とまったく同じになります。
 
 ![メジャー テーブル](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

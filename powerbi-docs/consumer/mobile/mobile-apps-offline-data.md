@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 3b7f578040a49438ccca89fd9112a3ca5079a20a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034246"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856026"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリでデータをオフライン表示する
 適用対象:
@@ -23,7 +23,7 @@ ms.locfileid: "86034246"
 | iPhone |iPad |Android フォン |Android タブレット |Windows 10 デバイス |
 
 >[!NOTE]
->**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile を使用するスマートフォン**に対する Power BI モバイル アプリのサポートは、2021 年 3 月 16 日に廃止されます。 [詳細情報](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 モバイル ブラウザーでなくモバイル アプリで Power BI を表示する 1 つの利点は、ネットワークに接続していなくてもデータを表示できることです。 
 

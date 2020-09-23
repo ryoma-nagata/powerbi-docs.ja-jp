@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eb46c35c4040ead37b132cf2c34a22663ee72b6d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220289"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856147"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>電話用に最適化された Power BI レポートを表示する
 
@@ -115,7 +115,7 @@ Power BI レポートの他のすべての機能は、引き続き電話用に�
 
 ## <a name="drill-through-from-a-value"></a>値からドリルスルーする
 ドリルスルーでは、あるレポートページ内の値が他のレポートページと接続されます。 データ ポイントから別のレポートページにドリルスルーすると、データ ポイント値を使用し、ドリルスルーしたページにフィルターが適用されます。あるいは、選択したデータのコンテキストで表示されます。
-レポート作成者は、レポートを作成するときに[ドリルスルーを定義](https://docs.microsoft.com/power-bi/desktop-drillthrough)できます。
+レポート作成者は、レポートを作成するときに[ドリルスルーを定義](../../create-reports/desktop-drillthrough.md)できます。
 
 1. ビジュアル内のデータ ポイントで長くタップします (タップしたまま押さえます)。
 2. ツールヒントが表示されます。ドリルスルーが定義されている場合、ツールヒント フッターにドリルスルー矢印が表示されます。
