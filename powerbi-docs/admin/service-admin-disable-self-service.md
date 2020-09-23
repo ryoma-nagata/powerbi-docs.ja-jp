@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 216be5b7a72d32e78933c7b6ceb879ccfbb4dd92
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 966699f20e83a7ea34140486f97f4491c4ba35e2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228483"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857452"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>セルフサービスでのサインアップと購入を有効または無効にする
 
@@ -44,9 +44,9 @@ ms.locfileid: "85228483"
 
 ### <a name="before-you-begin"></a>始める前に
 
-以下の手順では、Azure Active Directory の PowerShell コマンドを使用して、**AllowAdHocSubscriptions** の設定の値を変更します。 これらのコマンドを使用するには、Azure AD PowerShell モジュールがインストールされている必要があります。 PowerShell の使用について詳しくは、「[Windows PowerShell ファースト ステップ ガイド](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)」をご覧ください。
+以下の手順では、Azure Active Directory の PowerShell コマンドを使用して、**AllowAdHocSubscriptions** の設定の値を変更します。 これらのコマンドを使用するには、Azure AD PowerShell モジュールがインストールされている必要があります。 PowerShell の使用について詳しくは、「[Windows PowerShell ファースト ステップ ガイド](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)」をご覧ください。
 
-Azure AD モジュールをインストールするには、管理者として Windows PowerShell を開始します。 ローカル実行ポリシーでスクリプトの実行が許可されていることを確認してください。 問題が発生した場合は、「[PowerShell 実行ポリシー](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)」を参照し、ローカル ポリシーを変更する方法を確認してください。
+Azure AD モジュールをインストールするには、管理者として Windows PowerShell を開始します。 ローカル実行ポリシーでスクリプトの実行が許可されていることを確認してください。 問題が発生した場合は、「[PowerShell 実行ポリシー](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)」を参照し、ローカル ポリシーを変更する方法を確認してください。
 
 Azure AD モジュールをインストールするには、次のコマンドを実行します。
 
@@ -90,9 +90,9 @@ Set-MsolCompanySettings -AllowAdHocSubscriptions $false
 
 ### <a name="before-you-begin"></a>始める前に
 
-以下の手順では、MSCommerce PowerShell コマンドを使用して、**AllowSelfServicePurchase** の設定の値を変更します。 これらのコマンドを使用するには、MSCommerce PowerShell モジュールがインストールされている必要があります。 PowerShell の使用について詳しくは、「[Windows PowerShell ファースト ステップ ガイド](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)」をご覧ください。
+以下の手順では、MSCommerce PowerShell コマンドを使用して、**AllowSelfServicePurchase** の設定の値を変更します。 これらのコマンドを使用するには、MSCommerce PowerShell モジュールがインストールされている必要があります。 PowerShell の使用について詳しくは、「[Windows PowerShell ファースト ステップ ガイド](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)」をご覧ください。
 
-MSCommerce モジュールをインストールするには、管理者として Windows PowerShell を開始します。 ローカル実行ポリシーでスクリプトの実行が許可されていることを確認してください。 問題が発生した場合は、「[PowerShell 実行ポリシー](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)」を参照し、ローカル ポリシーを変更する方法を確認してください。
+MSCommerce モジュールをインストールするには、管理者として Windows PowerShell を開始します。 ローカル実行ポリシーでスクリプトの実行が許可されていることを確認してください。 問題が発生した場合は、「[PowerShell 実行ポリシー](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)」を参照し、ローカル ポリシーを変更する方法を確認してください。
 
 MSCommerce モジュールをインストールするには、次のコマンドを実行します。
 
@@ -128,5 +128,5 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ
 
 Power BI および他の Power Platform におけるセルフサービスでの購入の詳細については、次の記事を参照してください。
 
-- [セルフサービスでの購入に関してよくあるご質問](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide#admin-capabilities)
-- [MSCommerce PowerShell モジュールに対して AllowSelfServicePurchase を使用する](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide)
+- [セルフサービスでの購入に関してよくあるご質問](/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide#admin-capabilities)
+- [MSCommerce PowerShell モジュールに対して AllowSelfServicePurchase を使用する](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide)

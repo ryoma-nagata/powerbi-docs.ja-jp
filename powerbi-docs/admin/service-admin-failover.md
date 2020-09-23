@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782328"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857429"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ
 
@@ -54,7 +55,7 @@ Power BI のサポート ページ ([https://powerbi.microsoft.com/support/](htt
 
 フェールオーバーが必要であると判断されてから、Power BI が再度運用可能になるには約 15 分かかります。 フェールオーバーが必要であることの判断の時間は、破損のシナリオによって異なります。 
 
-フェールオーバーが実行されると、Power BI は Azure Storage の GEO レプリケーションを使用してフェールオーバーを実行します。 このようなレプリケーションのリターン ポイントは通常 15 分ですが、SLA で [Azure Storage のこの時間が保証されていない](https://docs.microsoft.com/azure/storage/common/storage-redundancy)ため、Power BI でも時間の保証はありません。 
+フェールオーバーが実行されると、Power BI は Azure Storage の GEO レプリケーションを使用してフェールオーバーを実行します。 このようなレプリケーションのリターン ポイントは通常 15 分ですが、SLA で [Azure Storage のこの時間が保証されていない](/azure/storage/common/storage-redundancy)ため、Power BI でも時間の保証はありません。 
 
 ## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>Premium 容量が使用できなくなった場合、ワークスペースとレポートはどうなりますか。 
 

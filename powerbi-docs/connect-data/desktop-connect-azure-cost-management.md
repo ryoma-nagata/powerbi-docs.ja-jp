@@ -10,18 +10,18 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 53606f52752bcc6f7c790b5e2cccaf26f0d10006
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3ae0a9605391ca1230fb0080490e1ef0eadf3d72
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224693"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858488"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Power BI Desktop で Azure Cost Management コネクタを使用してビジュアルとレポートを作成する
 
 Power BI Desktop 用の Azure Cost Management コネクタを使用すると、強力でカスタマイズされた視覚化とレポートを作成し、Azure のコストの理解を深めることができます。 現在、Azure Cost Management コネクタは、[Microsoft 顧客契約](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/)または [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) を結んでいるお客様をサポートしています。  
 
-Azure Cost Management コネクタは、Azure での認証に OAuth 2.0 を使用して、コネクタを利用するユーザーを識別します。 このプロセスで生成されるトークンは、特定の期間、有効です。 Power BI は、次回のログインのためにトークンを保持します。 OAuth 2.0 は、これらのアクセス許可の安全な処理を保証するためにバックグラウンドで実行されるプロセスのための標準です。 接続する場合、Enterprise Agreement の場合は [Enterprise Administrator](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) アカウントを使用し、Microsoft 顧客契約の場合は[課金アカウント所有者](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles)を使用する必要があります。 
+Azure Cost Management コネクタは、Azure での認証に OAuth 2.0 を使用して、コネクタを利用するユーザーを識別します。 このプロセスで生成されるトークンは、特定の期間、有効です。 Power BI は、次回のログインのためにトークンを保持します。 OAuth 2.0 は、これらのアクセス許可の安全な処理を保証するためにバックグラウンドで実行されるプロセスのための標準です。 接続する場合、Enterprise Agreement の場合は [Enterprise Administrator](/azure/billing/billing-understand-ea-roles) アカウントを使用し、Microsoft 顧客契約の場合は[課金アカウント所有者](/azure/billing/billing-understand-mca-roles)を使用する必要があります。 
 
 > [!NOTE]
 > このコネクタは、以前にリリースされていた [Azure Consumption Insights および Azure Cost Management (ベータ)](desktop-connect-azure-consumption-insights.md) コネクタに置き換わるものです。 前のコネクタで作成されたレポートはすべて、このコネクタを使用して再作成する必要があります。
@@ -108,4 +108,4 @@ Power BI Desktop を使用すれば、さまざまな種類のデータ ソー�
 * [Power BI Desktop のデータ ソース](desktop-data-sources.md)
 * [Power BI Desktop でのデータの整形と結合](desktop-shape-and-combine-data.md)
 * [Power BI Desktop で Excel ブックに接続する](desktop-connect-excel.md)   
-* [Power BI Desktop にデータを直接入力する](desktop-enter-data-directly-into-desktop.md)   
+* [Power BI Desktop にデータを直接入力する](desktop-enter-data-directly-into-desktop.md)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: caccfdede32e91aa6265db0d38e26e96f8a7852c
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: a3d3e5daa05b60a64186b133c21f84ff98bfae54
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878645"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858050"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI での自動化 された機械学習
 
@@ -32,7 +32,7 @@ ms.locfileid: "87878645"
 
 AutoML では、データフローのために**バイナリの予測**、**分類**、**回帰モデル**の作成がサポートされています。 これらは監視対象の機械学習技術の種類です。つまり、過去の観測の既知の結果から学習して、他の観測結果を予測します。 AutoML モデルをトレーニングするための入力データセットは、既知の結果を使用して**ラベル付け**されたレコードのセットです。
 
-Power BI の AutoML では、[Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) の[自動 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) を統合して ML モデルが作成されます。 ただし、Power BI で AutoML を使用するために Azure サブスクリプションは必要ありません。 ML モデルのトレーニングとホストのプロセスは、Power BI サービスによって完全に管理されます。
+Power BI の AutoML では、[Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml) の[自動 ML](/azure/machine-learning/service/concept-automated-ml) を統合して ML モデルが作成されます。 ただし、Power BI で AutoML を使用するために Azure サブスクリプションは必要ありません。 ML モデルのトレーニングとホストのプロセスは、Power BI サービスによって完全に管理されます。
 
 ML モデルをトレーニングした後、AutoML によって、ML モデルの可能性のパフォーマンスを説明する Power BI レポートが自動的に生成されます。 AutoML では、モデルから返される予測に影響を与える入力の中で主要なインフルエンサーを強調することにより、説明可能性を強調します。 このレポートには、モデルの主要なメトリックも含まれています。
 

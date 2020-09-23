@@ -28,7 +28,9 @@
           href: mobile-apps-data-in-real-world-context.md
         - name: モバイル アプリでデータをオフライン表示する
           href: mobile-apps-offline-data.md
-        - name: Power BI for Mixed Reality アプリ (プレビュー)
+        - name: HoloLens 2 の Power BI
+          href: mobile-hololens2-app.md
+        - name: HoloLens の Power BI (第 1 世代)
           href: mobile-mixed-reality-app.md
     - name: 操作方法
       items:

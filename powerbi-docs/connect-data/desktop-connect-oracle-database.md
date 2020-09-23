@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: b77543a7601cf4f8522c333137802e71ce41a41c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091597"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858372"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Power BI Desktop を使用して Oracle データベースに接続する
 Power BI Desktop を使用して Oracle データベースに接続するには、Power BI Desktop を実行しているコンピューター上に適切な Oracle クライアント ソフトウェアをインストールする必要があります。 使用する Oracle クライアント ソフトウェアは、インストールした Power BI Desktop のバージョンによって異なります。32 ビットまたは 64 ビット。 また、お使いの Oracle サーバーのバージョンにもよります。
@@ -24,7 +24,7 @@ Power BI Desktop を使用して Oracle データベースに接続するには�
 - Oracle Data Access Client (ODAC) ソフトウェア 11.2 以降
 
 > [!NOTE]
-> Power BI Desktop、オンプレミス データ ゲートウェイ、または Power BI Report Server 用に Oracle データベースを構成する場合は、[Oracle の接続の種類](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)に関する記事を参照してください。 
+> Power BI Desktop、オンプレミス データ ゲートウェイ、または Power BI Report Server 用に Oracle データベースを構成する場合は、[Oracle の接続の種類](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)に関する記事を参照してください。 
 
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>インストールされている Power BI Desktop バージョンの特定
@@ -89,4 +89,4 @@ Microsoft Store から Power BI Desktop をダウンロードした場合、Orac
 
 Oracle データベースへの接続時に Power BI Gateway に "*オブジェクト参照が設定されていません*" というエラー メッセージが表示される場合は、「[データ ソースの管理 - Oracle](service-gateway-onprem-manage-oracle.md)」に記載されている手順に従ってください。
 
-Power BI Report Server を使用している場合は、[Oracle の接続の種類](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)に関する記事のガイダンスを参照してください。
+Power BI Report Server を使用している場合は、[Oracle の接続の種類](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)に関する記事のガイダンスを参照してください。

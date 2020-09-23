@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402004"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964997"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI への展開
 
@@ -100,7 +100,7 @@ IT マネージド ソリューション、またはビジネスの生産性に�
 - **レポートとダッシュボードの設定:** レポートおよびダッシュボードごとに設定を更新して確認します。 最も重要な設定は次のとおりです。
   - 説明
   - 連絡先のユーザーまたはグループ
-  - [秘密度ラベル](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+  - [秘密度ラベル](../admin/service-security-apply-data-sensitivity-labels.md)
   - [おすすめコンテンツ](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)
 - **サブスクリプション:** 必要に応じて、レポートのサブスクリプションを設定します。
 
@@ -136,7 +136,7 @@ IT マネージド ソリューション、またはビジネスの生産性に�
 
 ## <a name="monitor-the-solution"></a>ソリューションを監視する
 
-[Power BI アクティビティ ログ](../admin/service-admin-auditing.md)からのイベントを使用すれば、新しいソリューションの使用パターン (または Power BI Report Server に展開されたコンテンツに関する[実行ログ](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view?view=sql-server-ver15)) を把握できます。 アクティビティ ログを分析することは、実際の使用状況が期待と異なるかどうかを判断するのに役立ちます。 また、それによって、ソリューションが適切にサポートされていることを検証することもできます。
+[Power BI アクティビティ ログ](../admin/service-admin-auditing.md)からのイベントを使用すれば、新しいソリューションの使用パターン (または Power BI Report Server に展開されたコンテンツに関する[実行ログ](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view)) を把握できます。 アクティビティ ログを分析することは、実際の使用状況が期待と異なるかどうかを判断するのに役立ちます。 また、それによって、ソリューションが適切にサポートされていることを検証することもできます。
 
 アクティビティ ログを確認することによって対処できる質問をいくつか次に示します。
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 4a38ca35e6955bc92f52492e657a9e00bad05ea3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161378"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857613"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B で外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -151,7 +151,7 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 * Azure Active Directory には、全体的な組織内で外部ゲスト ユーザーが実行できる内容を制限できる設定が存在します。 これらの設定は、Power BI 環境にも適用されます。 これらの設定については、次のドキュメントで説明されています。
   * [外部コラボレーションの設定を管理する](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-  * [特定の組織からの B2B ユーザーへの招待を許可またはブロックする](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+  * [特定の組織からの B2B ユーザーへの招待を許可またはブロックする](/azure/active-directory/b2b/allow-deny-list)
   * [条件付きアクセスを使用してアクセスを許可またはブロックする](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
 
 * GCC などの政府機関のクラウドから外部の商用クラウド ユーザーに対してコンテンツを共有することができます。 ただし、ゲスト ユーザーは自分のライセンスを使用することができません。 コンテンツにアクセスできるようにするには、Premium に割り当てられた容量に格納する必要があります。 または、ゲスト アカウントに Power BI Pro ライセンスを割り当てる方法があります。
@@ -162,6 +162,6 @@ Azure portal で招待を送信するには、次の手順のようにします�
 
 ## <a name="next-steps"></a>次の手順
 
-行レベル セキュリティのしくみなど、詳細については、ホワイトペーパー「[Distribute Power BI content to external guest users using Azure AD B2B (Azure AD B2B を使用して外部ゲスト ユーザーに Power BI のコンテンツを配布する)](https://aka.ms/powerbi-b2b-whitepaper)」をご覧ください。
+行レベル セキュリティのしくみなど、詳細については、ホワイトペーパー「[Distribute Power BI content to external guest users using Azure AD B2B (Azure AD B2B を使用して外部ゲスト ユーザーに Power BI のコンテンツを配布する)](../guidance/whitepaper-azure-b2b-power-bi.md)」をご覧ください。
 
 Azure AD B2B について詳しくは、「[Azure Active Directory B2B コラボレーションとは](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)」をご覧ください。

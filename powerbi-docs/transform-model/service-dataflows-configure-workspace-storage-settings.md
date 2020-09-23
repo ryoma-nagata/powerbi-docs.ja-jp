@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e43edb3241140024241ab78af1236d9551a35f1a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ad3684bbf285ff85fa3dec6b0cdc807dc05eca05
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239769"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857912"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>ワークスペースのデータフロー設定を構成する (プレビュー)
 
@@ -128,13 +128,13 @@ Power BI Pro、Premium、および埋め込みのワークスペース:
 
 Azure Storage の詳細については、次の記事をご覧ください。
 
-* [Azure Storage セキュリティ ガイド](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage セキュリティ ガイド](/azure/storage/common/storage-security-guide)
 * [Azure Data Services から GitHub サンプルを開始する](https://aka.ms/cdmadstutorial)
 
 Common Data Model について詳しくは、次の概要記事をご覧ください。
 
-* [Common Data Model の概要](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM フォルダー](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM モデル ファイル定義](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Common Data Model の概要](/powerapps/common-data-model/overview)
+* [CDM フォルダー](/common-data-model/data-lake)
+* [CDM モデル ファイル定義](/common-data-model/model-json)
 
 [Power BI コミュニティへの質問](https://community.powerbi.com/)は、いつでも行うことができます。

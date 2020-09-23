@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: 4b112c3522a35f86f74481a79f3fff919a0e9e33
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87544760"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857751"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Power BI ビジュアルの管理設定を管理する
 
@@ -64,7 +64,7 @@ UI テナント設定の影響を受けるのは Power BI サービスのみで�
 
 ![ファイルまたは AppSource からのビジュアル](media/organizational-visuals/tenant-settings.png)
 
-テナント設定に加えた UI の変更は、Power BI サービスにのみ適用されます。 組織内のユーザーが .pbiviz ファイルをアップロードし、AppSource からのビジュアルを Power BI Desktop 内の彼らの [視覚化] ペインに追加できるようにするには、[Azure AD グループ ポリシー](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy)を使用します。
+テナント設定に加えた UI の変更は、Power BI サービスにのみ適用されます。 組織内のユーザーが .pbiviz ファイルをアップロードし、AppSource からのビジュアルを Power BI Desktop 内の彼らの [視覚化] ペインに追加できるようにするには、[Azure AD グループ ポリシー](/azure/active-directory-domain-services/manage-group-policy)を使用します。
 
 |キー  |値の名前  |値  |
 |---------|---------|---------|
@@ -83,7 +83,7 @@ UI テナント設定の影響を受けるのは Power BI サービスのみで�
 
 ![認定済みビジュアル](media/organizational-visuals/certified-visuals.png)
 
-テナント設定に加えた UI の変更は、Power BI サービスにのみ適用されます。 Power BI Desktop で認定済みビジュアルのテナント設定を管理するには、[Azure AD グループ ポリシー](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy)を使用します。
+テナント設定に加えた UI の変更は、Power BI サービスにのみ適用されます。 Power BI Desktop で認定済みビジュアルのテナント設定を管理するには、[Azure AD グループ ポリシー](/azure/active-directory-domain-services/manage-group-policy)を使用します。
 
 |キー  |値の名前  |値  |
 |---------|---------|---------|

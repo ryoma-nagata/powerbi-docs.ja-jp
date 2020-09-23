@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5120b1ec0ce1acbe746dabe2b11b5653a34a4603
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: abff4eafc741ea776180752147019cae3c744e2c
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537598"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964986"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX:フィルター引数として FILTER を使用しない
 
@@ -103,6 +103,6 @@ CALCULATE(
 
 - [Data Analysis Expressions (DAX) リファレンス](/dax/)
 - [FILTER 関数 (DAX)](/dax/filter-function-dax)
-- ラーニング パス:[Power BI Desktop で DAX を使用する](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- ラーニング パス:[Power BI Desktop で DAX を使用する](/learn/paths/dax-power-bi/)
 - わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
 - Power BI チームへのご提案は、 [Power BI を改善するためのアイデアをお寄せください](https://ideas.powerbi.com)

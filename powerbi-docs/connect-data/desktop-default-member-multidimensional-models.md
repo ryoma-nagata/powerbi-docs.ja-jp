@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 75c1d76d5fbdfc0d844e69ef0f76ced7cd2e302d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 75753886930a4b9c2e109f36b5cc01ccbaec49e6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292940"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858326"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Power BI で多次元モデルを操作する
 
 Power BI で多次元モデルに接続し、モデル内のすべての種類のデータを視覚化するレポートを作成できます。 多次元モデルを使用するとき、Power BI では、"*既定のメンバー*" として定義されている列に基づいて、データの処理方法にルールが適用されます。 
 
-多次元モデルを使用するとき、Power BI では、**DefaultMember** を含む列に基づいてモデルのデータが処理されます。 *DefaultMember* 属性は、多次元モデルの特定の列に対して CSDL (Conceptual Schema Definition Language) で設定されます。 既定のメンバーについて詳しくは、[属性のプロパティに関する記事](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017)をご覧ください。 DAX クエリを実行すると、モデルで指定されている既定のメンバーが自動的に適用されます。
+多次元モデルを使用するとき、Power BI では、**DefaultMember** を含む列に基づいてモデルのデータが処理されます。 *DefaultMember* 属性は、多次元モデルの特定の列に対して CSDL (Conceptual Schema Definition Language) で設定されます。 既定のメンバーについて詳しくは、[属性のプロパティに関する記事](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017)をご覧ください。 DAX クエリを実行すると、モデルで指定されている既定のメンバーが自動的に適用されます。
 
 この記事では、多次元モデルのさまざまな状況における、"*既定のメンバー*" が見つかった場所に基づく Power BI の動作方法について説明します。 
 

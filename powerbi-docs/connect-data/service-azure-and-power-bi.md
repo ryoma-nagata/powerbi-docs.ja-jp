@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2fcb9b7a7571513eac8fb97b12e60f67a5ac9cb3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c7dceceaaf063ffe4b379595cfc010e4eda2ae53
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230895"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858152"
 ---
 # <a name="azure-and-power-bi"></a>Azure と Power BI
 
@@ -66,4 +66,4 @@ Azure と Power BI を使用して必要な限りの拡張を行えます。 複
 
 ## <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure と Power BI を併用して何ができますか。
 
-**Azure** と **Power BI** を組み合わせて行えるシナリオはたくさんあります - 可能性とチャンスはビジネスによって異なります。 **Azure サービス**について詳しくは、こちらの[概要ページ](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/plan-your-environment)をご確認ください。**Azure を使用したデータ分析シナリオ**、およびお持ちのデータ ソースをビジネスをさらに成長させるインテリジェンスに変換する方法が取り上げられています。
+**Azure** と **Power BI** を組み合わせて行えるシナリオはたくさんあります - 可能性とチャンスはビジネスによって異なります。 **Azure サービス**について詳しくは、こちらの[概要ページ](/azure/machine-learning/team-data-science-process/plan-your-environment)をご確認ください。**Azure を使用したデータ分析シナリオ**、およびお持ちのデータ ソースをビジネスをさらに成長させるインテリジェンスに変換する方法が取り上げられています。

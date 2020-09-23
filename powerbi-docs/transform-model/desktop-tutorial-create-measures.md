@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 91b0bba3b8e3fc221a05e6ccb2de1ec9b888d1ef
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 61eb4fc54966545858a7ebc85044696064027acd
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349312"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858395"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>チュートリアル:Power BI Desktop での独自のメジャーの作成
 メジャーを使用すると、Power BI Desktop で最も強力なデータ分析ソリューションをいくつか作成できます。 メジャーは、ユーザーがレポートで操作するデータに対して計算を実行するために役立ちます。 このチュートリアルでは、メジャーの基本について説明し、独自のメジャーを Power BI Desktop で作成する手順を紹介します。
@@ -245,4 +245,4 @@ Power BI Desktop の 2018 年 2 月のリリースから、ウィンドウでの
   
 - DAX の数式についてさらに詳しく知りたい場合や、さらに高度なメジャーを作成する場合は、「[Power BI Desktop での DAX の基本事項](desktop-quickstart-learn-dax-basics.md)」を参照してください。 この記事では、構文、関数、およびコンテキストの詳しい理解など、DAX の基本的な概念について説明します。
   
-- また、「[Data Analysis Expressions (DAX) リファレンス](https://docs.microsoft.com/dax/index)」を、ぜひお気に入りに追加してください。 このリファレンスでは、DAX の構文、演算子、および 200 種類を超える DAX 関数について詳細を調べることができます。
+- また、「[Data Analysis Expressions (DAX) リファレンス](/dax/index)」を、ぜひお気に入りに追加してください。 このリファレンスでは、DAX の構文、演算子、および 200 種類を超える DAX 関数について詳細を調べることができます。

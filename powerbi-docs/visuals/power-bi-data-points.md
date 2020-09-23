@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97bccec3ec0e92ebfcc6b9251cf5c17f176fbed1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240128"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857728"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>視覚エフェクトの種類別のデータ ポイントの制限と戦略を適用する
 
@@ -41,7 +41,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 ## <a name="statistics"></a>統計
 特定のモデルは特定の列の値の数に関する統計情報を提供できます。 このような情報が存在するとき、ビジュアルが戦略の値の数を明示的にオーバーライドしない場合は、複数の階層間の均衡を図るためにその情報を活用します。
 
-詳しくは、「[What's new in Analysis Services](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)」(Analysis Services の新機能) をご覧ください
+詳しくは、「[What's new in Analysis Services](/sql/analysis-services/what-s-new-in-analysis-services)」(Analysis Services の新機能) をご覧ください
 
 ## <a name="dynamic-limits"></a>動的制限
 上記の戦略に加えて、グループ化列 (軸と凡例、またはカテゴリと系列) の 2 つの階層があるビジュアルは、"*動的制限*" と呼ばれる 1 つの追加戦略を使用します。  動的制限は、データ ポイントの均衡を図るよう設計されています。 
@@ -50,7 +50,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 
 動的制限は、以下に示すように、対象のサーバーで使用できるときは自動的に適用されます。
 
-* オンプレミスの SSAS バージョン 2016 以降と連携する Power BI Desktop で、[サーバーの SuperDax 機能を活用している](https://blogs.msdn.microsoft.com/analysisservices/2015/09/02/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3/)
+* オンプレミスの SSAS バージョン 2016 以降と連携する Power BI Desktop で、[サーバーの SuperDax 機能を活用している](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3)
 
 * インポートされたモデル、直接クエリ、サービスへのライブ接続、または AS PaaS へのライブ接続を使用している Desktop および Power BI サービス。 
 
@@ -132,7 +132,7 @@ Power BI でビジュアルをレンダリングするときは、視覚エフ�
 - 値:一度に 200 行のウィンドウを使用することによる仮想化
 
 ### <a name="scatter-chart-high-density"></a>散布図 (高密度)
-[高密度な散布図](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)に関する記事をご覧ください
+[高密度な散布図](./desktop-high-density-scatter-charts.md)に関する記事をご覧ください
 
 ### <a name="pie"></a>円
 - 最大ポイント数:3,500

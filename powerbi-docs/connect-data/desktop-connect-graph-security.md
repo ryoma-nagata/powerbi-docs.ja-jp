@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9f434d27a11d171509645594a6f7f67e62c16faa
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 5d7fbe9e302c7b1460bc285af140a50304c468da
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409308"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858533"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop の Microsoft Graph Security API に接続する
 
-Power BI Desktop の Microsoft Graph Security コネクタを使用して、[Microsoft Graph Security API](https://aka.ms/graphsecuritydocs) に接続します。 次に、ダッシュボードとレポートを構築することで、ご自分のセキュリティ関連の[アラート](https://docs.microsoft.com/graph/api/resources/alert?view=graph-rest-1.0)および[セキュリティ スコア](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta)に対する分析情報を得ることができます。
+Power BI Desktop の Microsoft Graph Security コネクタを使用して、[Microsoft Graph Security API](/graph/security-concept-overview) に接続します。 次に、ダッシュボードとレポートを構築することで、ご自分のセキュリティ関連の[アラート](/graph/api/resources/alert?view=graph-rest-1.0)および[セキュリティ スコア](/graph/api/resources/securescores?view=graph-rest-beta)に対する分析情報を得ることができます。
 
-Microsoft Graph Security API と、Microsoft およびそのエコシステム パートナーからの[複数のセキュリティ ソリューション](https://aka.ms/graphsecurityalerts)とが接続されることで、アラートの関連付けが容易になります。 この組み合わせによって、豊富なコンテキスト情報にアクセスできるようになり、自動化が簡略化されます。 これにより、組織はコストの削減および複雑さの軽減を実施しながら、迅速に複数のセキュリティ製品にわたって分析情報を取得し活動することができます。
+Microsoft Graph Security API と、Microsoft およびそのエコシステム パートナーからの[複数のセキュリティ ソリューション](/graph/api/resources/security-api-overview#alerts)とが接続されることで、アラートの関連付けが容易になります。 この組み合わせによって、豊富なコンテキスト情報にアクセスできるようになり、自動化が簡略化されます。 これにより、組織はコストの削減および複雑さの軽減を実施しながら、迅速に複数のセキュリティ製品にわたって分析情報を取得し活動することができます。
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>Microsoft Graph Security コネクタを使用するための前提条件
 
-Microsoft Graph Security コネクタを使用するには、Azure Active Directory (Azure AD) テナント管理者の同意を*明示的に*取得する必要があります。 [Microsoft Graph Security 認証要件](https://aka.ms/graphsecurityauth)に関するページを参照してください。
+Microsoft Graph Security コネクタを使用するには、Azure Active Directory (Azure AD) テナント管理者の同意を*明示的に*取得する必要があります。 [Microsoft Graph Security 認証要件](/graph/security-authorization)に関するページを参照してください。
 同意には、コネクタのアプリケーション ID と名前が必要です。それは次に示すようなものであり、[Azure portal](https://portal.azure.com) で確認できます。
 
 | プロパティ | 値 |
@@ -37,11 +37,11 @@ Microsoft Graph Security コネクタを使用するには、Azure Active Direct
 
 コネクタに対して同意を付与するために、Azure AD テナント管理者は次のいずれかの方法を使用できます。
 
-* [Azure AD アプリケーションに対して同意を付与する](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
+* [Azure AD アプリケーションに対して同意を付与する](/azure/active-directory/develop/v2-permissions-and-consent)
 
-* ご利用のロジック アプリが初めて実行されたときに[アプリケーション同意エクスペリエンス](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)を介して送信した要求に応答する
+* ご利用のロジック アプリが初めて実行されたときに[アプリケーション同意エクスペリエンス](/azure/active-directory/develop/application-consent-experience)を介して送信した要求に応答する
    
-Microsoft Graph Security コネクタにサインインするユーザーが "*セキュリティ管理者*" ロールのメンバーでない**場合**は、そのアカウントに Azure AD Security 閲覧者ロールを割り当てる必要があります。 「[Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)」(Azure AD のロールをユーザーに割り当てる) を参照してください。
+Microsoft Graph Security コネクタにサインインするユーザーが "*セキュリティ管理者*" ロールのメンバーでない**場合**は、そのアカウントに Azure AD Security 閲覧者ロールを割り当てる必要があります。 「[Assign Azure AD roles to users](/graph/security-authorization#assign-azure-ad-roles-to-users)」(Azure AD のロールをユーザーに割り当てる) を参照してください。
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>Microsoft Graph Security コネクタを使用する
 
@@ -69,13 +69,13 @@ Microsoft Graph Security コネクタにサインインするユーザーが "*�
 
     ![[現在、サインインしています] ダイアログ ボックス](media/desktop-connect-graph-security/SignedIn.PNG)
     
-8. 接続すると、アラートやセキュリティ スコアなど、手順 4 で選択したバージョンの [Microsoft Graph Security API](https://aka.ms/graphsecuritydocs) で使用できるエンティティが **[ナビゲーター]** ウィンドウに表示されます。 Power BI Desktop にインポートして使用するエンティティを 1 つまたは複数選択します。 次に、 **[読み込む]** を選択して、手順 9 の後に表示される結果ビューを取得します。
+8. 接続すると、アラートやセキュリティ スコアなど、手順 4 で選択したバージョンの [Microsoft Graph Security API](/graph/security-concept-overview) で使用できるエンティティが **[ナビゲーター]** ウィンドウに表示されます。 Power BI Desktop にインポートして使用するエンティティを 1 つまたは複数選択します。 次に、 **[読み込む]** を選択して、手順 9 の後に表示される結果ビューを取得します。
 
     ![[ナビゲーター] ダイアログ ボックス](media/desktop-connect-graph-security/NavTable.PNG)
     
-9. Microsoft Graph Security API で高度なクエリを使用する場合は、 **[Specify custom Microsoft Graph Security URL to filter results]\(カスタム Microsoft Graph Security URL を指定して結果を絞り込む\)** を選択します。 この機能を使用して、必須のアクセス許可を持つ Microsoft Graph Security API に対して [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) クエリを発行します。
+9. Microsoft Graph Security API で高度なクエリを使用する場合は、 **[Specify custom Microsoft Graph Security URL to filter results]\(カスタム Microsoft Graph Security URL を指定して結果を絞り込む\)** を選択します。 この機能を使用して、必須のアクセス許可を持つ Microsoft Graph Security API に対して [OData.Feed](./desktop-connect-odata.md) クエリを発行します。
 
-   次の例では、`https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri* が使用されています。 クエリを作成してフィルター処理、並べ替え、または最近の結果の取得を行う方法を確認するには、[OData システム クエリ オプション](https://docs.microsoft.com/graph/query-parameters)に関するページを参照してください。
+   次の例では、`https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri* が使用されています。 クエリを作成してフィルター処理、並べ替え、または最近の結果の取得を行う方法を確認するには、[OData システム クエリ オプション](/graph/query-parameters)に関するページを参照してください。
 
    ![OdataFeed の例](media/desktop-connect-graph-security/ODataFeed.PNG)
     
