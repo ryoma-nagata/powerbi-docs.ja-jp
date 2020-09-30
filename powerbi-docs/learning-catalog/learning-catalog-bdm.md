@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: f41699791ee79ae963978f69974e91f336ccd193
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: af44ca4674d66c8415b9919c9c83e3fbfda391b1
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532766"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528024"
 ---
 # <a name="business-and-technical-decision-makers-learning-catalog"></a>ビジネスおよび技術に関する意思決定者向けラーニング カタログ
 
@@ -22,6 +22,6 @@ ms.locfileid: "84532766"
 ## <a name="get-started"></a>はじめに<a name="get-started"></a>
 | Content  | Description  | 形式  | 長さ     |
 |---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
-| [Power BI のビジネス価値について学習する](https://docs.microsoft.com/learn/modules/introduction-power-bi/) | Power BI を活用して、対話型の視覚化を使用してレポートとダッシュボードを簡単に作成する方法を学習し、他の組織がどのようにこのソリューションを使用してアクションにつながる分析情報でビジネス結果を推進しているかを確認します。 | 無料、マイペースで進められるオンライン ラーニング パス | 21 分 |
-| [Microsoft Power Platform の基礎](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/)      | Power Platform のビジネス価値と製品機能について説明します。 シンプルな PowerApp を作成し、CDS を使用してデータに接続し、Power BI ダッシュボードを構築し、Microsoft Flow を使用してプロセスを自動化します。                          | 無料、マイペースで進められるオンライン ラーニング パス | 2 時間 42 分  |
+| [Power BI のビジネス価値について学習する](/learn/modules/introduction-power-bi/) | Power BI を活用して、対話型の視覚化を使用してレポートとダッシュボードを簡単に作成する方法を学習し、他の組織がどのようにこのソリューションを使用してアクションにつながる分析情報でビジネス結果を推進しているかを確認します。 | 無料、マイペースで進められるオンライン ラーニング パス | 21 分 |
+| [Microsoft Power Platform の基礎](/learn/paths/power-plat-fundamentals/)      | Power Platform のビジネス価値と製品機能について説明します。 シンプルな PowerApp を作成し、CDS を使用してデータに接続し、Power BI ダッシュボードを構築し、Microsoft Flow を使用してプロセスを自動化します。                          | 無料、マイペースで進められるオンライン ラーニング パス | 2 時間 42 分  |
 | [Microsoft Power BI の YouTube チャンネル](https://www.youtube.com/user/mspowerbi/videos)  | Microsoft の Power BI 製品チームのコンテンツを含む YouTube チャンネル  | ビデオ   |            |
