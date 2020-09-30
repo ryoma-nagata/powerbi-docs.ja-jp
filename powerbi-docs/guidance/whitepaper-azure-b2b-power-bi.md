@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965375"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528392"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B を使用して外部ゲスト ユーザーに Power BI コンテンツを配布する
 
@@ -306,7 +306,7 @@ Power BI の Azure AD B2B との統合により、Contoso はシームレスで�
 
     その後、ゲストユーザーは、電子メールのリンクをクリックするかリンクをブックマークすることで、Contoso のアプリにアクセスできます。 Contoso では、ゲストユーザーが既に使用している既存のエクストラネットポータルにこのリンクを追加することで、ゲストユーザーの作業を容易にすることもできます。
 
-4. 次の手順
+4. 次のステップ
 
     Contoso は、Power BI アプリと Azure AD B2B を使用して、コードなしでサプライヤーの BI ポータルをすばやく作成できました。 これにより、標準化された分析を必要なすべてのサプライヤーに配布することが大幅に簡素化されました。
 
@@ -535,7 +535,7 @@ Azure AD B2B 共有を使用する場合、Azure Active Directory 管理者は�
 
 ### <a name="control-guest-invites"></a>ゲスト招待の制御
 
-Power BI 管理者は、Power BI 管理ポータルにアクセスすることによって、Power BI 専用の外部共有を制御できます。 ただし、テナント管理者は、さまざまな Azure AD ポリシーを使用して外部共有を制御することもできます。  これらのポリシーを使用すると、テナント管理者は
+Power BI 管理者は、Power BI 管理ポータルにアクセスすることによって、Power BI 専用の外部共有を制御できます。 ただし、管理者は、さまざまな Azure AD ポリシーを使用して外部共有を制御することもできます。  これらのポリシーを使用すると、管理者は
 
 - エンドユーザーによる招待をオフにする
 - 管理者と、ゲストの招待元ロールのユーザーのみが招待できる
