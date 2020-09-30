@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 467061dfe7ee3cdf62c08dd60c4325eee96d431c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 0555f6c46ef864ed89d3d364420a14a2ff18ab84
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763645"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136099"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>新しいワークスペース エクスペリエンスで使用状況メトリックを監視する (プレビュー)
 
@@ -363,7 +363,7 @@ Power BI は別個の国内クラウドで利用できます。 これらのク�
 
     ![利用状況の指標データセットの URL](media/service-modern-usage-metrics/power-bi-usage-metrics-url.png)
 
-1. ブラウザーで [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup) に移動し、 **[使ってみる]** ボタンを選択します。
+1. ブラウザーで [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](/rest/api/power-bi/datasets/deletedatasetingroup) に移動し、 **[使ってみる]** ボタンを選択します。
 
     ![データセットの削除の [使ってみる]](media/service-modern-usage-metrics/power-bi-delete-dataset-try-it.png)
 

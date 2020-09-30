@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/27/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b20577dbd3c26a837310059ba665a47b624024b5
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 290af971972bf3ece31283b22cedbf824e9f8c1e
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536333"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526952"
 ---
 # <a name="change-the-display-of-a-report-page"></a>レポート ページの表示の変更
 
@@ -28,7 +28,7 @@ ms.locfileid: "87536333"
 
 ## <a name="explore-the-view-menu"></a>[表示] メニューの探索
 
-![[表示] のドロップダウン オプションのスクリーンショット。](media/end-user-report-view/power-bi-viewmenu.png)
+![[表示] のドロップダウン オプションのスクリーンショット。](media/end-user-report-view/power-bi-menu-view.png)
 
 
 **[表示]** メニューのオプションで、サイズや幅を柔軟に選択してレポート ページを表示できます。

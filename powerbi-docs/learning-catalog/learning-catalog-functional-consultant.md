@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 11150686d1ff922877081a672290069f85b1afc5
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 3ebfa0e13293f65d5399aafb7071d4eaad63cc6f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411913"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527795"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>アプリケーションの機能コンサルタント向けラーニング カタログ
 
@@ -34,8 +34,8 @@ ms.locfileid: "87411913"
 | [Power BI:適切に行われる分析](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_02OnDemandRegistration-ForminBody.html)  | すべての分析および Excel のビジョナリーへ: 人々が利用したい思う美しいレポートを作成し、わかりやすく魅力的な分析情報を共有し、複雑なデータのサイロの壁を安全に取り払ってアクセス可能にする方法について説明します。 私達は製品の新しい革新技術と、最新のエンタープライズ BI およびセルフサービス BI に関するビジョンを共有することになります。これにより、お客様の組織ではデータドリブン カルチャを構築できるようになります。   | ウェビナー       |                   |
 | [AI によって BI が変更される 3 つの方法](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI-OnDemand.html)  | アナリストにとって、データを調査して視覚化し、関係者が分析情報を迅速かつ効率的に見つけることができるようにすることが重要です。 ビジネスの需要は、経営陣が何がいつ起こったかをたずねることから、なぜそれが起こったか、さらに将来何が起きるかをたずねるところまで発展してきました。 AI とビジネス インテリジェンス (BI) を組み合わせた 3 つのデータ分析の機会について学習するには、このウェビナーに登録してください。   | ウェビナー       |                   |
 | [Power BI の力を最大限に活かすためのヒントとテクニック - Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/6-22-2017-Unleash-the-Power-of-Power-BI-tips-and-tricks-by/td-p/161490) | 南半球で最大の Power BI の展開に関する詳細の一部と、それがどのように使用され、彼らの BI のニーズをどのように満たしているかについて説明する、Philip Seamark のウェビナーに参加してください。 このセッションでは、Power BI レポートを強化するのに役立つさまざまなヒントとテクニックについて取り上げます。   | ウェビナー       | 53 分 47 秒       |
-| [Power BI とは?](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview)  | Power BI の概要   | Web サイト       | 読むのにかかる時間: 3 分 |
-| [Power BI Desktop で DAX を使用する](https://docs.microsoft.com/learn/paths/dax-power-bi/) | このラーニング パスでは、Data Analysis Expressions (DAX) について紹介し、計算によってデータ モデルを強化するために必要な基本スキルを提供します。  | 無料、マイペースで進められるオンライン ラーニング パス | 4 時間 30 分 |
+| [Power BI とは?](../fundamentals/power-bi-overview.md)  | Power BI の概要   | Web サイト       | 読むのにかかる時間: 3 分 |
+| [Power BI Desktop で DAX を使用する](/learn/paths/dax-power-bi/) | このラーニング パスでは、Data Analysis Expressions (DAX) について紹介し、計算によってデータ モデルを強化するために必要な基本スキルを提供します。  | 無料、マイペースで進められるオンライン ラーニング パス | 4 時間 30 分 |
 ## <a name="best-practices"></a>ベスト プラクティス<a name="best-practices"></a>
 | コンテンツ   | Description  | 書式   | 長さ   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------|

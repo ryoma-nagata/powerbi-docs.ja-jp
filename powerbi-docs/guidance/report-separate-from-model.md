@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277435"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525940"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Power BI Desktop のモデルからレポートを分離する
 
@@ -37,7 +37,7 @@ ms.locfileid: "83277435"
 - データ モデルの作成者とレポートの作成者が異なる。
 - 現在、または将来、モデルが複数のレポートのソースになることがわかっている。
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="3 つの PBIX ファイルがあります。1 つ目には、モデルのみが含まれます。他の 2 つにはレポートのみが含まれ、Power BI サービスでホストされているモデルにライブ接続します。レポートは、さまざまなユーザーによって開発されています。" border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="1 つのファイルには、同じユーザーによって開発されたモデルとレポートが含まれています。" border="true":::
 
 データ モデルの作成者は、引き続き Power BI Desktop のレポート作成エクスペリエンスを使用して、モデル設計をテストおよび検証できます。 ただし、ファイルを Power BI サービスに発行した直後に、ワークスペースからレポートを削除する必要があります。 また、データセットを再発行して上書きするたびに、レポートを削除しておく必要があります。
 
@@ -56,7 +56,7 @@ ms.locfileid: "83277435"
 
 モデルに破壊的変更を加える必要がある場合は、次のいずれかの方法をお勧めします。
 
-- Power BI サービスで[データセットに関連するコンテンツを表示する](../consumer/end-user-related.md#view-related-content-for-a-dataset)。
+- Power BI サービスで[データセットに関連するコンテンツを表示する](../consumer/end-user-related.md)。
 - Power BI サービスの[データ系列](../collaborate-share/service-data-lineage.md)ビューを調べる。
 
 どちらのオプションを使用しても、関連するレポートとダッシュボードをすばやく識別できます。 データ系列ビューの方が、関連する各成果物の担当者を簡単に確認できるので、より適しています。 実際に、担当者宛ての電子メール メッセージが開くハイパーリンクがあります。
