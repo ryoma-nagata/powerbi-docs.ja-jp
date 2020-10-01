@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams と Power BI で共同作業する
-description: Microsoft Teams のチャネルとチャットで、対話型の Power BI コンテンツを簡単に共有し、共同作業を行うことができます。
+description: 分散された環境で働くことが標準になるにつれて、リモートでの仕事を可能にし、従業員の同期を維持するために Microsoft Teams を利用する組織が増えています。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,23 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/15/2020
+ms.openlocfilehash: d0510a3c8caf2e07034b9410d4338431670833e5
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478040"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005493"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Microsoft Teams と Power BI で共同作業する
 
-従業員が分散されリモートであることが標準になるにつれて、従業員の同期を維持するために Microsoft Teams に依存している組織が増えています。Power BI には、Microsoft Teams のチャネルとチャットで、対話型の Power BI コンテンツの共有および共同作業を行うためのオプションがいくつか用意されています。 
+分散された環境で働くことが標準になるにつれて、リモートでの仕事を可能にし、従業員の同期を維持するために Microsoft Teams を利用する組織が増えています。この記事では、Microsoft Teams のチャネルとチャットで、対話型の Power BI コンテンツを共有および共同作業を行うためのオプションについて概要を説明します。 
 
-- Microsoft Teams の **[Power BI]** タブを使用すると、[対話形式のレポートを Microsoft Teams のチャネルおよびチャットに埋め込む](service-embed-report-microsoft-teams.md)ことができます。 **[Power BI]** タブを使用すると、仕事仲間があなたのチームのデータを検索し、あなたのチームのチャネル内のデータについて話し合うことができます。 
+- Microsoft Teams の **[Power BI]** タブを使用すると、[対話形式のレポートを Microsoft Teams のチャネルおよびチャットに埋め込む](service-embed-report-microsoft-teams.md)ことができます。 [Power BI] タブを使用すると、仕事仲間があなたのチームのデータを検索し、あなたのチームのチャネル内のデータについて話し合うことができます。 
 - ご自分のレポート、ダッシュボード、およびアプリへのリンクを [Microsoft Teams] メッセージ ボックスに貼り付けるときに、[リンク プレビュー](service-teams-link-preview.md)を作成します。 リンク プレビューには、リンクに関する情報が表示されます。 
-- Power BI サービスでレポートやダッシュボードを表示しているときに Teams で会話をすばやく開始するには、[[Teams で共有]](service-share-report-teams.md) を使用します。
+- Power BI サービスでレポートやダッシュボードを表示しているときに Microsoft Teams で会話をすばやく開始するには、[[Microsoft Teams で共有]](service-share-report-teams.md) を使用します。
+- [Microsoft Teams 内の Power BI アプリ](service-microsoft-teams-app.md)を使用すると、基本的な Power BI サービス エクスペリエンス全体を Microsoft Teams に取り込むことができます。
  
-:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="Teams チャネルに埋め込まれた Power BI レポートのスクリーンショット。":::
+:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="Microsoft Teams チャネルに埋め込まれた Power BI レポートのスクリーンショット。":::
 
 ## <a name="requirements"></a>要件
 
@@ -56,10 +57,19 @@ Microsoft Teams にレポートを埋め込んだり、項目へのリンクを�
 - リンク プレビュー サービスでは、シングル サインオンはサポートされていません。
 - リンク プレビューは、チャットまたはプライベート チャネルでは機能しません。
 
+## <a name="microsoft-power-platform-in-microsoft-teams"></a>Microsoft Teams の Microsoft Power Platform
+
+他の Microsoft Power Platform アプリも、Microsoft Teams と統合されています。
+
+- [Power Platform の管理者エクスペリエンス](/power-platform/admin/about-teams-environment)
+- [Power Automate](/power-automate/teams/overview)
+- [Power Apps](/powerapps/teams/overview)
+- [Power Virtual Agents](/power-virtual-agents/)
+
 ## <a name="next-steps"></a>次のステップ
 
 - [Microsoft Teams に Power BI コンテンツを埋め込む](service-embed-report-microsoft-teams.md)
 - [Microsoft Teams で Power BI リンク プレビューを入手する](service-teams-link-preview.md)
-- [Power BI サービスから Teams に直接共有する](service-share-report-teams.md)
+- [Power BI サービスから Microsoft Teams に直接共有する](service-share-report-teams.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

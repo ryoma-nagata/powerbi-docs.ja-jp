@@ -6,15 +6,15 @@ ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 95b4b423b1dffb51d00760a97d21f2bf52df39d8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008907"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860327"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI サービスでのページ分割されたレポート
 
@@ -36,7 +36,7 @@ ms.locfileid: "90008907"
 
 ![シンプルな 1 つのパラメーター レポート](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-ページ分割されたレポートと比較して、Power BI レポートはやりとりがかなり容易です。 Power BI レポートでは、アドホック レポートが許可されているほか、Power BI ビジュアルを含むさまざまな種類のビジュアルがサポートされています。
+ページ分割されたレポートと比較して、Power BI レポートはやりとりがかなり容易です。 Power BI レポートでは、カスタム レポートを作成できるほか、カスタム ビジュアルを含むさまざまな種類のビジュアルがサポートされています。
 
 ## <a name="identify-a-paginated-report"></a>ページ分割されたレポートを識別する
 
@@ -78,7 +78,7 @@ ms.locfileid: "90008907"
 ### <a name="export-the-paginated-report"></a>ページ分割されたレポートをエクスポートする
 PDF、Word、XML、PowerPoint、Excel などのページ分割されたレポートをエクスポートするためのさまざまなオプションが用意されています。 エクスポート時には、可能な限り書式設定が保持されます。 たとえば、Excel、Word、PowerPoint、MHTML、PDF にエクスポートされるページ分割されたレポートでは、"完璧なピクセル" の書式設定が維持されます。 
 
-![新しい販売注文](./media/end-user-paginated-report/power-bi-exporting.png)
+![エクスポートされたページ分割されたレポートを示すスクリーンショット。](./media/end-user-paginated-report/power-bi-exporting.png)
 
 ![4 種類のエクスポート](./media/end-user-paginated-report/power-bi-four.png)
 

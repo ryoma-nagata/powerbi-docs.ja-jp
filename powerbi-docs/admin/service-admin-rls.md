@@ -7,25 +7,25 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: kfollis
-ms.date: 12/05/2019
+ms.date: 09/17/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1478c077cda1097d3903bd0379dc79b27d034ffc
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: 590909ac01240a84a4401c74a63dcf66c99dacfd
+ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443561"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "90811728"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI での行レベルのセキュリティ (RLS)
 
-Power BI で行レベル セキュリティ (RLS) を使用すると、特定のユーザーのデータ アクセスを制限できます。 フィルターでは行レベルでデータ アクセスが制限され、ロール内でフィルターを定義することができます。 Power BI サービスでは、ワークスペースのメンバーがそのワークスペース内のデータセットにアクセスできることに注意してください。 RLS では、このデータ アクセスは制限されません。
+Power BI で行レベル セキュリティ (RLS) を使用すると、特定のユーザーのデータ アクセスを制限できます。 フィルターでは行レベルでデータ アクセスが制限され、ロール内でフィルターを定義することができます。 Power BI サービスでは、ワークスペースのメンバーがそのワークスペース内のデータセットにアクセスすることができます。 RLS では、このデータ アクセスは制限されません。
 
-Power BI Desktop で Power BI にインポートされたデータ モデルの RLS を構成できます。 SQL Server などの DirectQuery を使用しているデータセットに RLS を構成することもできます。 これまで、RLS を実装できるのは、Power BI の外部にあるオンプレミスの Analysis Services モデル内だけでした。 Analysis Services または Azure Analysis Services のライブ接続では、Power BI Desktop 内ではなく、モデル内の行レベルのセキュリティを構成します。 このセキュリティ オプションは、ライブ接続データセットには表示されません。
+Power BI Desktop で Power BI にインポートされたデータ モデルの RLS を構成できます。 SQL Server などの DirectQuery を使用しているデータセットに RLS を構成することもできます。 Analysis Services または Azure Analysis Services のライブ接続では、Power BI Desktop 内ではなく、モデル内の行レベルのセキュリティを構成します。 このセキュリティ オプションは、ライブ接続データセットには表示されません。
 
 [!INCLUDE [include-short-name](../includes/rls-desktop-define-roles.md)]
 
-既定では、リレーションシップが一方向と双方向のいずれに設定されているかに関係なく、行レベルのセキュリティ フィルターで一方向のフィルターが使用されます。 行レベルのセキュリティで双方向のクロス フィルターを手動で有効にすることができます。その場合は、リレーションシップを選択して、 **[両方向にセキュリティ フィルターを適用する]** チェック ボックスをオンにします。 サーバー レベルで、動的な行レベルのセキュリティも実装した場合 (行レベルのセキュリティはユーザー名またはログイン ID に基づく) は、このボックスをオンにする必要があります。
+既定では、リレーションシップが一方向と双方向のいずれに設定されているかに関係なく、行レベルのセキュリティ フィルターで一方向のフィルターが使用されます。 行レベルのセキュリティで双方向のクロス フィルターを手動で有効にすることができます。その場合は、リレーションシップを選択して、 **[両方向にセキュリティ フィルターを適用する]** チェック ボックスをオンにします。 サーバー レベルで、動的な行レベルのセキュリティも実装した場合 (行レベルのセキュリティはユーザー名またはログイン ID に基づく) は、このオプションをオンにします。
 
 詳細については、「[Power BI Desktop での DirectQuery を使用する双方向のクロス フィルタリング](../transform-model/desktop-bidirectional-filtering.md)」と「[表形式の BI セマンティック モデルの保護](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)」の技術記事を参照してください。
 
@@ -36,14 +36,19 @@ Power BI Desktop で Power BI にインポートされたデータ モデルの 
 
 ## <a name="manage-security-on-your-model"></a>モデルのセキュリティの管理
 
-データ モデルのセキュリティを管理するには、次の操作を行います。
+データ モデルのセキュリティを管理するには、次の手順を実行します。
 
-1. データセットの**省略記号 [...]** を選択します。
-2. **[セキュリティ]** を選択します。
-   
-   ![両方向にセキュリティ フィルターを適用する](media/service-admin-rls/rls-security.png)
+1. Power BI サービスで、データセットの **[その他のオプション]** メニューを選択します。 このメニューは、ナビゲーション メニューまたはワークスペース ページのどちらから選択した場合でも、データセット名にカーソルを合わせると表示されます。
 
-移動先の RLS ページで、Power BI Desktop で作成した役割にメンバーを追加できます。 [セキュリティ] は、データセットの所有者のみに表示されます。 データセットがグループ内にある場合、セキュリティ オプションは、グループの管理者だけに表示されます。 
+    ![ワークスペースの [その他のオプション] メニュー](media/service-admin-rls/dataset-leftnav-more-options.png)
+
+    ![ナビゲーション メニューの [その他のオプション] メニュー](media/service-admin-rls/dataset-canvas-more-options.png)
+
+1. **[セキュリティ]** を選択します。
+
+   ![[その他のオプション] メニューから [セキュリティ] を選択する](media/service-admin-rls/dataset-more-options-menu.png)
+
+[セキュリティ] を選択すると、移動先の RLS ページで、Power BI Desktop で作成したロールにメンバーを追加できます。 [セキュリティ] は、データセットの所有者のみに表示されます。 データセットがグループ内にある場合、セキュリティ オプションは、グループの管理者だけに表示されます。
 
 Power BI Desktop 内でのみ、役割を作成または変更できます。
 
@@ -51,11 +56,11 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 
 ### <a name="add-members"></a>メンバーの追加
 
-役割にメンバーを追加するには、追加するユーザー、セキュリティ グループ、または配布リストのメール アドレスまたは名前を入力します。 Power BI 内に作成したグループは追加できません。 [組織外部の](../guidance/whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners)メンバーを追加できます。
+ロールにメンバーを追加するには、ユーザーまたはセキュリティ グループのメール アドレスまたは名前を入力します。 Power BI で作成されたグループを追加することはできません。 [組織外部の](../guidance/whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners)メンバーを追加できます。
 
 ![メンバーの追加](media/service-admin-rls/rls-add-member.png)
 
-役割名または [メンバー] の横のかっこ内の数字は、その役割に属しているメンバーの数を示します。
+ロール名または [メンバー] の横のかっこ内の数字は、そのロールに属しているメンバーの数を示します。
 
 ![役割に属しているメンバー](media/service-admin-rls/rls-member-count.png)
 
@@ -67,22 +72,22 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Power BI サービス内でのロールの検証
 
-役割をテストすることで、定義した役割が正しく動作することを検証することができます。 
+役割をテストすることで、定義した役割が正しく動作することを検証することができます。
 
 1. ロールの横にある**その他のオプション** (...) を選択します。
 2. **[ロールとしてデータをテスト]** を選択します。
 
 ![ロールとしてテスト](media/service-admin-rls/rls-test-role.png)
 
-この役割で使用できるレポートが表示されます。 このビューにはダッシュ ボードは表示されません。 上部の青色のバーの中に、適用される内容が表示されます。
+このロールで使用できるレポートが表示されます。 ダッシュボードは、このビューには表示されません。 ページ ヘッダーには、適用されているロールが表示されます。
 
 ![現在 <役割> として表示しています](media/service-admin-rls/rls-test-role2.png)
 
-**[Now viewing as (次の表示)]** を選択することで、その他の役割、または役割の組み合わせをテストすることができます。
+**[次のユーザーとして表示中]** を選択することで、その他のロール、またはロールの組み合わせをテストすることができます。
 
 ![その他の役割のテスト](media/service-admin-rls/rls-test-role3.png)
 
-特定のユーザーとしてデータを表示できます。または、役割の組み合わせを選択してそれらの動作を検証できます。 
+特定のユーザーとしてデータを表示できます。または、ロールの組み合わせを選択してそれらの動作を検証できます。
 
 通常の表示に戻るには、 **[行レベルのセキュリティに戻る]** を選択します。
 
@@ -90,10 +95,10 @@ Power BI Desktop 内でのみ、役割を作成または変更できます。
 
 ## <a name="using-rls-with-workspaces-in-power-bi"></a>Power BI での RLS とワークスペースの使用
 
-Power BI サービス内のワークスペースに Power BI Desktop レポートを発行した場合、役割は読み取り専用のメンバーに適用されます。 メンバーはワークスペース設定内の Power BI コンテンツだけを表示できることを示す必要があります。
+Power BI サービス内のワークスペースに Power BI Desktop レポートを発行した場合、ロールは読み取り専用のメンバーに適用されます。 メンバーはワークスペース設定内の Power BI コンテンツだけを表示できることを示す必要があります。
 
 > [!WARNING]
-> メンバーが編集アクセス許可を持つようにワークスペースを構成している場合、RLS の役割は適用されません。 ユーザーはすべてのデータを確認できます。
+> メンバーが編集アクセス許可を持つようにワークスペースを構成している場合、RLS ロールは適用されません。 ユーザーはすべてのデータを表示できます。
 
 ![グループ設定](media/service-admin-rls/rls-group-settings.png)
 
@@ -102,8 +107,6 @@ Power BI サービス内のワークスペースに Power BI Desktop レポー�
 [!INCLUDE [include-short-name](../includes/rls-faq.md)]
 
 ## <a name="next-steps"></a>次の手順
-
-この記事に関する詳細については、次のリソースを参照してください。
 
 - [Power BI Desktop の行レベルのセキュリティを使用してデータ アクセスを制限する](../create-reports/desktop-rls.md)
 - [Power BI Desktop での行レベルのセキュリティ (RLS) のガイダンス](../guidance/rls-guidance.md)

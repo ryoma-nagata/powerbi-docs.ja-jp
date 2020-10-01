@@ -6,13 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 09/17/2020
 ms.author: painbar
-ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235698"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763772"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>組織でテンプレート アプリをインストールして配布する
 
@@ -74,13 +75,9 @@ ms.locfileid: "85235698"
 
    ![GitHub アプリの [データを接続] リンク](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
 
+    パラメーター ダイアログが開きます。ここで、サンプル データのデータ ソースを独自のデータ ソースに変更します ([既知の制限](service-template-apps-overview.md#known-limitations)に関するページを参照してください)。次に、認証方法ダイアログが開きます。 これらのダイアログでは、必要に応じて値を再定義します。 詳細については、インストールする特定のテンプレート アプリのドキュメントを参照してください。
 
-    
-    これにより表示される 1 つまたは複数のダイアログで、データ ソースをサンプル データから独自のデータ ソースに変更します。 これは一般に、データセット パラメーターとデータ ソースの資格情報の再定義を意味します。 「[既知の制限事項](service-template-apps-overview.md#known-limitations)」を参照してください。
-    
-    次の例では、2 つのダイアログを使用してデータに接続します。
-
-   ![データへの接続ダイアログ](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
+   ![データへの接続ダイアログのスクリーンショット。](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
     接続ダイアログの入力が済むと、接続プロセスが開始されます。 バナーによってデータが更新中であることと、その間サンプル データが表示されていることが示されます。
 
@@ -109,11 +106,11 @@ ms.locfileid: "85235698"
 
 アプリを最初に AppSource からダウンロードした場合、テンプレート アプリの新しいバージョンが利用可能になると、ユーザーは次の 2 つの方法で通知を受け取ります。
 * 新しいアプリ バージョンが使用可能であることを通知する更新プログラムのバナーが Power BI サービスに表示されます。
-  ![テンプレート アプリの更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+  ![テンプレート アプリの更新通知バナー](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
 * Power BI の通知ペインに通知を受け取ります。
 
 
-  ![テンプレート アプリの更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
+  ![テンプレート アプリの更新通知ペイン](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >最初に AppSource ではなく直接リンクを使用してアプリを入手した場合、新しいバージョンが利用可能になったことを知る唯一の方法は、テンプレート アプリの作成者に問い合わせることです。

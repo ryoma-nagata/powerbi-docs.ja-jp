@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 09/19/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4c44e7d0ff21f49887a069e0a83686aafecc2f24
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 600b8d1447d50a1647097d94df9077299f00cccf
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537276"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860416"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI サービスから印刷する
 
@@ -49,9 +49,9 @@ Power BI から印刷すると、ブラウザーによって [印刷] ウィン�
 
 ## <a name="print-a-dashboard"></a>ダッシュボードの印刷
 1. 印刷するダッシュボードを開きます。
-2. 左上隅で [エクスポート] を選択し、 **[このページを印刷します]** を選択します。
+2. 左上隅にある **[ファイル]** を選択し、 **[このページを印刷します]** を選択します。
    
-    ![[ダッシュボードを印刷] オプション](./media/end-user-print/power-bi-dashboard-print.png)
+    ![[ダッシュボードを印刷] オプション](./media/end-user-print/power-bi-dashboard-print-options.png)
 
 3. お使いのブラウザーの [印刷] ウィンドウが開きます。 設定を選択します。 たとえば、ダッシュボードの幅が高さよりも広い場合は、レイアウトを **[横]** に変更することができます。 **[印刷]** を選択します。
    
@@ -62,11 +62,13 @@ Power BI から印刷すると、ブラウザーによって [印刷] ウィン�
 
 3. カーソルを置いて**その他のオプション** (...) を表示し、 **[フォーカス モードで開く]** かフォーカス アイコン ![フォーカス アイコン](./media/end-user-print/power-bi-focus-icon.png) を選択すると、[タイルがフォーカス モードで開きます](end-user-focus.md)。
    
-    ![省略記号メニュー](./media/end-user-print/power-bi-menu-options.png)
+    ![省略記号メニュー](./media/end-user-print/power-bi-focus-tile.png)
 
 4. タイルの上にカーソルを移動して、[オプション] メニューを表示します。
    
-    ![全画面表示オプション メニュー](./media/end-user-print/menu-options-new.png)
+    ![全画面表示オプション メニュー](./media/end-user-print/power-bi-menu-option.png)
+
+    ![全画面表示モード](./media/end-user-print/power-bi-focus.png)
 
 4. [印刷] アイコンを選択します。 ![[印刷] アイコン](./media/end-user-print/print-icon.png).     
 
@@ -83,9 +85,9 @@ Power BI から印刷すると、ブラウザーによって [印刷] ウィン�
 ## <a name="print-a-report-page"></a>レポート ページの印刷
 レポートは、一度に 1 ページを印刷できます。
 
-1. レポートを開き、 **[エクスポート]** の **[印刷]** を選択すると、現在のレポート ページが印刷されます。
+1. レポートを開き、 **[ファイル]**  >  **[このページを印刷します]** を選択して現在のレポート ページを印刷します。
    
-    ![Power BI ファイル メニュー](./media/end-user-print/power-bi-report-print.png)
+    ![Power BI ファイル メニュー](./media/end-user-print/power-bi-print-report.png)
 2. お使いのブラウザーの [印刷] ウィンドウが開きます。
 
 3. 前述の「**ダッシュボードの印刷**」の印刷手順を実行します。
@@ -95,27 +97,30 @@ Power BI から印刷すると、ブラウザーによって [印刷] ウィン�
 ## <a name="print-a-report-visual"></a>レポートのビジュアルの印刷
 1. タイルをポイントし、右上隅のフォーカス アイコン ![フォーカス アイコン](./media/end-user-print/power-bi-focus-icon.png) を選ぶことにより、[フォーカス モードでビジュアルを開きます](end-user-focus.md)。
 
-2. 左上隅から **[エクスポート]** の **[印刷]** を選択するとビジュアルが印刷されます。
 
-    ![Power BI ファイル メニュー](./media/end-user-print/power-bi-report-print.png)
+    ![フォーカス モードで視覚エフェクトを開く](./media/end-user-print/power-bi-visual-focus.png)
+
+2. 左上隅にある **[ファイル]**  >  **[このページを印刷します]** を選択して視覚エフェクトを印刷します。
+
+    ![Power BI の [ファイル] メニューのスクリーンショット](./media/end-user-print/power-bi-visual-print.png)
 
 
 3. 前述の「**ダッシュボードの印刷**」の印刷手順を実行します。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 
-* Q:すべてのレポート ページを一度に印刷できません。    
-* A:これは正しい動作です。 レポートは、一度に 1 ページのみ印刷できます。
-* Q:PDF に出力できません。    
-* A:このオプションは、ブラウザーに PDF ドライバーを構成している場合のみ表示されます。    
+* Q: すべてのレポート ページを一度に印刷できません。    
+* A: これは正しい動作です。 レポートは、一度に 1 ページのみ印刷できます。
+* Q: PDF に出力できません。    
+* A: このオプションは、ブラウザーに PDF ドライバーを構成している場合のみ表示されます。    
 * Q: **[印刷]** を選択したときに表示される画面が、ここに示されている図と一致しません。    
-* A:印刷画面は、ブラウザーとソフトウェアのバージョンによって異なります。
-* Q:印刷の拡大縮小が正しく行われません。  ダッシュボードがページに収まりません。 印刷の向きなどに問題があります。    
+* A: 印刷画面は、ブラウザーとソフトウェアのバージョンによって異なります。
+* Q: 印刷の拡大/縮小が正しく行われません。  ダッシュボードがページに収まりません。 印刷の向きなどに問題があります。    
 * A:印刷結果が Power BI サービスでの表示と必ず同じになることは保証できません。 拡大/縮小、余白、ビジュアルの詳細、向き、サイズなどは、Power BI によって制御されません。 ブラウザーの印刷設定を調整してみてください。 前述の提案内容として、ページの向き (縦または横)、余白サイズ、倍率があります。 これらで解決しない場合は、お使いのブラウザーのドキュメントを参照してください。      
 * Q:全画面表示モードから印刷する場合、ビジュアルにマウス ポインターを合わせても [印刷] オプションが表示されません。   
 * A:既定のビューのダッシュボードまたはレポートに戻り、フォーカス モードでビジュアルを再び開き、全画面表示モードで開きます。 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 [同僚や他のユーザーとダッシュボードやレポートを共有する](../collaborate-share/service-share-dashboards.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

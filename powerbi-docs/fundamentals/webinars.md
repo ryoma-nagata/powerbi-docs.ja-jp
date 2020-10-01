@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.author: kfollis
-ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768403"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020023"
 ---
 # <a name="power-bi-webinars"></a>Power BI ウェビナー
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) は Chauncy Freels と業務提携するベンダーであり、このウェビナー リストの維持を手伝っています"
@@ -22,19 +22,31 @@ ms.locfileid: "87768403"
 
 ## <a name="upcoming-webinars"></a>今後のウェビナー
 
+**Power BI ですばやく起動して実行する**  
+作成者: Miguel Martinez、Microsoft  
+[2020 年 11 月 5 日、午前 10 時 00 分から午前 11 時 00 分まで (太平洋夏時間) に視聴できるように登録する](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
 [Power BI コミュニティからの今後のウェビナー](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>おすすめのウェビナー
 
 最初に、次の人気のオンデマンド ウェビナーをご覧ください。
 
+**Microsoft Power BI を使用してリアルタイムでデータを監視する**  
+作成者: Miguel Martinez、Peter Myers  
+[今すぐ見る](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Power BI と Snowflake を使用してスケーラブルな BI ソリューションを構築する**  
+作成者: Chris Webb、Craig Collier、Chris Holliday  
+[今すぐ見る](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
+
 **BI コンテンツ管理のベスト プラクティスでユーザーの満足度を大幅に上げる**  
 作成者: Nimrod Shalit  
-[ビデオを見る](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
+[今すぐ見る](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
 
 **分析情報からアクションへ:Power BI を使用したデータ カルチャの推進**  
 作成者: Arun Ulagaratchagan、Amir Netz  
-[今すぐ見る]( https://info.microsoft.com/ww-landing-From-Insight-to-Action-Driving-a-Data-Culture-with-Power-BI.html?lcid=en-us)
+[ビデオを見る]( https://info.microsoft.com/ww-landing-From-Insight-to-Action-Driving-a-Data-Culture-with-Power-BI.html?lcid=en-us)
 
 **Power BI Embedded でより優れた分析を実現する**  
 作成者: Alon Baram  
@@ -46,7 +58,7 @@ ms.locfileid: "87768403"
 
 **Power BI でビッグ データの準備と分析を簡素化する**  
 作成者: Priya Sathy  
-[ビデオを見る](https://info.microsoft.com/ww-landing-simplify-big-data-prep-and-analysis-with-power-BI.html?lcid=en-us)
+[今すぐ見る](https://info.microsoft.com/ww-landing-simplify-big-data-prep-and-analysis-with-power-BI.html?lcid=en-us)
 
 **Power BI を使用して意思決定を改善する**  
 作成者: Kim Manis、Lukasz Pawlowski  
@@ -58,7 +70,7 @@ ms.locfileid: "87768403"
 
 **Microsoft Power BI がもたらす総合的な経済効果を調べる**  
 講師: Megan Tomlin (Microsoft)、Jonathan Lipsitz (Forrester Consulting)  
-[ビデオを見る]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
+[今すぐ見る]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **Azure 仮想イベントの分析: Azure Synapse Analytics を使用して分析情報の取得時間の短縮**  
 講師: Gayle Sheppard および John Macintyre  

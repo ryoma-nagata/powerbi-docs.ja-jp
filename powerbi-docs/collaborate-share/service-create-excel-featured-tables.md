@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/30/2020
+ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
+ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478086"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "90811853"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Power BI Desktop でおすすめのテーブルを設定する (プレビュー)
 
@@ -40,21 +40,15 @@ Excel のデータ型ギャラリーでは、ユーザーが Power BI データ�
 
 1. Power BI Desktop でモデル ビューに移動します。
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="モデル ビュー":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="おすすめのテーブル オプションをプレビューする":::
  
 2. テーブルを選択し、 **[Is featured table]\(おすすめのテーブル\)** を **[はい]** に設定します。
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="[Is featured table]\(おすすめのテーブル\) を [はい] に設定する":::
-
-4. **[Set up this featured table]\(このおすすめのテーブルの設定\)** で、必須フィールドを指定します。
-
-    - **[説明]** 。 
-        > [!TIP]
-        > Power BI レポート作成者が識別できるように、"おすすめのテーブル" で説明を開始します。
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="おすすめのテーブル オプションをプレビューする" で説明を開始します。
     - **[行ラベル]** フィールド値は、ユーザーが行を簡単に識別できるようにするために Excel で使用されます。 これは、リンク セルのセル値として、また **[Data Selector]\(データ セレクター\)** ペインおよび **[情報]** カード内に表示されます。 
     - **[キー列]** フィールド値により、行の一意の ID が指定されます。 この値により、Excel でセルをテーブル内の特定の行にリンクすることが可能になります。
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="おすすめのテーブルの設定":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="おすすめのテーブル オプションをプレビューする":::
 
 1. Power BI サービスに対してデータセットを発行またはインポートすると、Excel のデータ型ギャラリーにおすすめのテーブルが表示されます。 また、自分や他のレポート作成者がこのデータセットに基づくレポートを作成することもできます。
 
@@ -66,19 +60,13 @@ Excel のデータ型ギャラリーでは、ユーザーが Power BI データ�
 
 初期プレビューの制限事項を次に示します。
 
-- 次の機能を使用する Power BI データセットのおすすめのテーブルは、Excel に表示されません。 
+- 次の機能を使用する Power BI データセットのおすすめのテーブルは、Excel に表示されません。
 
-    - 行レベル セキュリティのデータセット。
-    - Microsoft Information Protection が有効なデータセット。
     - DirectQuery データセット。
     - ライブ接続を使用するデータセット。
 
-- Excel には、おすすめのテーブルの列および計算列のデータのみが表示されます。 次のものは初期プレビューでは提供されません。
-
-    - おすすめのテーブルで定義されるメジャー。
-    - 関連テーブルで定義されるメジャー、およびリレーションシップから計算される暗黙のメジャー。
-
-- Excel には、新しい Power BI ワークスペースに格納されているおすすめのテーブルのみが表示されます。 クラシック ワークスペース、または個人用ワークスペースに格納されているおすすめのテーブルは、Excel ではデータ型として表示されません。 Power BI で[クラシック ワークスペースを新しいワークスペースにアップグレードする](service-upgrade-workspaces.md)ことができます。
+- Excel には、おすすめのテーブルの列および計算列のデータのみが表示されます。 関連テーブルに定義されているメジャー、リレーションシップから計算された暗黙のメジャーは、初期プレビューでは提供されません。
+- Excel には、新しい Power BI ワークスペースに格納されているおすすめのテーブルのみが表示されます。 クラシック ワークスペースに格納されているおすすめのテーブルは、Excel ではデータ型として表示されません。 Power BI で[クラシック ワークスペースを新しいワークスペースにアップグレードする](service-upgrade-workspaces.md)ことができます。
 - その他の Excel の考慮事項については、「Excel で Power BI のおすすめのテーブルにアクセスする」の記事にある「[注意点と制限事項](service-excel-featured-tables.md#considerations-and-limitations)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順

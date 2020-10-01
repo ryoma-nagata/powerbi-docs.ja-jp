@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91b19fd5e357f4ab020b72b259ab5053c36af8f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4405ab8d3e0db949ec825f3eea436183512f862d
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238444"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91019911"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Power BI Desktop からデータセットとレポートを発行する
 Power BI Desktop ファイルを Power BI サービスに発行すると、モデル内のデータが Power BI ワークスペースに発行されます。 **レポート** ビューで作成したレポートの場合も同様です。 ワークスペース ナビゲーターに、同じ名前の新しいデータセットおよびレポートが表示されます。
@@ -30,8 +30,8 @@ Power BI Desktop から発行すると、Power BI で **[データの取得]** �
    ![[発行] ボタン](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
 
-2. Power BI にサインインします。
-3. 発行先を選択します。
+2. まだサインインしていない場合は、Power BI にサインインします。
+3. 発行先を選択します。 2020 年 9 月のリリース以降、利用可能なワークスペースの一覧を検索して、発行先にするワークスペースを見つけることができます。 検索ボックスを使用すると、ワークスペースをフィルター処理できます。 ワークスペースを選択し、 **[選択]** ボタンをクリックして発行します。
 
    ![発行先を選択する](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
 
@@ -58,3 +58,13 @@ Power BI Desktop ファイルを発行すると、Power BI Desktop で作成し�
 > [!NOTE]
 > Power BI レポートの一部のデータ接続には、Power BI サービスにインポートされたデータセットのデータが含まれるのではなく、データへのリンクが含まれる場合があります。 たとえば、DirectQuery 接続では、データ自体をインポートするのではなく、更新または相互作用が発生するとデータにリンクされます。 レポート内のリンクされたデータ ソースがオンプレミスの場合、Power BI からそれらにアクセスするためのゲートウェイが必要になる場合があります。 詳細については、「[オンプレミス データ ゲートウェイとは](../connect-data/service-gateway-onprem.md)」を参照してください。
 > 
+
+## <a name="next-steps"></a>次の手順
+
+Power BI Desktop では、あらゆる種類の操作を実行できます。 そのような機能について詳しくは、次のリソースをご覧ください。
+
+* [Power BI Desktop とは何ですか?](../fundamentals/desktop-what-is-desktop.md)
+* [Power BI Desktop でのクエリの概要](../transform-model/desktop-query-overview.md)
+* [Power BI Desktop でのデータ型](../connect-data/desktop-data-types.md)
+* [チュートリアル: Power BI Desktop でデータの整形と結合](../connect-data/desktop-shape-and-combine-data.md)
+* [Power BI Desktop での一般的なクエリ タスク](../transform-model/desktop-common-query-tasks.md)

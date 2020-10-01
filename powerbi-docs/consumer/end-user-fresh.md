@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 09/15/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 73affb07b137ee60fe00f7d344759ec2de1bcb85
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c3ae3974b411ccd7f1be175910878cdeb0bc5c40
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215920"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763214"
 ---
 # <a name="your-content-is-up-to-date"></a>コンテンツが最新の状態に維持される
 
@@ -23,7 +23,7 @@ ms.locfileid: "86215920"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-*コンシューマー*は、*デザイナー*が作成し、コンシューマーと共有したコンテンツを使用します。 そのコンテンツが最新の状態になっているか気になることがあるでしょう。あるいは、コンテンツの最終更新日が知りたくなることもあります。 最新のコンテンツを使用していることがわかれば、自信を持って作業できます。  
+"*ビジネス ユーザー*" は、"*デザイナー*" が作成し、コンシューマーと共有したコンテンツを使用します。 そのコンテンツが最新の状態になっているか気になることがあるでしょう。あるいは、コンテンツの最終更新日が知りたくなることもあります。 最新のコンテンツを使用していることがわかれば、自信を持って作業できます。  
  
 ![Power BI ダッシュボード](media/end-user-fresh/power-bi-dashboards.png)
 
@@ -38,7 +38,7 @@ ms.locfileid: "86215920"
 
 所有者の名前は、ダッシュボードとレポートのタイトル バーでわかります。 レポートまたはダッシュボードの名前を選択すると、**所有者**を含む追加の詳細が表示されます。
 
-![Power BI ダッシュボードの所有者](media/end-user-fresh/power-bi-owner.png)
+![Power BI ダッシュボードの所有者](media/end-user-fresh/power-bi-designer.png)
 
 
 ### <a name="apps"></a>アプリ
@@ -47,19 +47,19 @@ ms.locfileid: "86215920"
 
 1. ナビ ペインから **[アプリ]** を選択します。
 
-    ![ナビゲーション ウィンドウ](media/end-user-fresh/power-bi-nav-app.png)
+    ![ナビゲーション ウィンドウ](media/end-user-fresh/power-bi-nav-apps.png)
 
 
 
 2. アプリをポイントすると、タイトル、更新日、デザイナーの名前が表示されます。 
 
-    ![2 つのアプリの内、1 つが選択されています](media/end-user-fresh/power-bi-app.png)
+    ![2 つのアプリの内、1 つが選択されています](media/end-user-fresh/power-bi-apps.png)
 
 
 ### <a name="shared-with-me"></a>共有アイテム
 **[共有アイテム]** 画面には、コンテンツ所有者の名前とコンテンツが最後に共有された日付が表示されます。
 
-![共有アイテム画面に変更日付と所有者が表示されています](media/end-user-fresh/power-bi-share.png) 
+![共有アイテム画面に変更日付と所有者が表示されています](media/end-user-fresh/power-bi-shared.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>最終更新日を調べる方法
@@ -70,20 +70,20 @@ ms.locfileid: "86215920"
 
 1. ダッシュボード タイルで**その他のオプション** (...) を選択し、 **[フォーカス モードで開く]** を選択します。
 
-    ![省略記号を選択すると表示されるメニュー](media/end-user-fresh/power-bi-focus-mode.png)
+    ![省略記号を選択すると表示されるメニュー](media/end-user-fresh/power-bi-fresh-focus.png)
 
 2. 右上隅に最終更新日が表示されます。 表示されない場合、ブラウザーの幅を大きくしてください。 
 
-    ![幅を広くしたブラウザーに最終更新日が表示されています](media/end-user-fresh/power-bi-last-refresh2.png)
+    ![幅を広くしたブラウザーに最終更新日が表示されています](media/end-user-fresh/power-bi-last-refresh.png)
 
 ### <a name="dashboards-and-reports"></a>ダッシュボードとレポート
-最終更新日を調べるもう 1 つの方法に **[関連の表示]** を使用する方法があります。  **[関連の表示]** は、Power BI の上部メニュー バーから**その他のオプション** (...) を選択して利用できます。
+最終更新日を調べるもう 1 つの方法に **[See related content]\(関連コンテンツの表示\)** を使用する方法があります。  **[See related content]\(関連コンテンツの表示\)** を使用するには、Power BI の上部のメニュー バーから **[その他のアクション]** (...) を選択します。
 
-![メニューから [関連の表示] を選択する](media/end-user-fresh/power-bi-view-related-dropdown.png)
+![メニューから [See related]\(関連の表示\) を選択する](media/end-user-fresh/power-bi-see-related.png)
 
 **[関連コンテンツ]** ウィンドウに、ダッシュボードまたはレポートの基になるデータセットの最終更新情報が表示されます。
 
-![Power BI ダッシュボード](media/end-user-fresh/power-bi-refresh.png)
+![[関連コンテンツ] ペインのスクリーンショット](media/end-user-fresh/power-bi-see-related-screen.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>デザイナーがアプリを削除するとどうなるか
 

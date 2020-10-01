@@ -259,8 +259,6 @@
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
             - name: Power BI の視覚エフェクトで ArcGIS マップと対話する
               href: ../visuals/power-bi-visualizations-arcgis.md
-            - name: ArcGIS Maps for Power BI の視覚エフェクトを作成する
-              href: ../visuals/power-bi-visualization-arcgis.md
             - name: 基本的な面グラフ
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: カード ビジュアル (大きな数字のタイル) を作成する

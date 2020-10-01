@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/14/2020
+ms.date: 09/17/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 612fa923f45b427cb9c4fea4ecc1b18ad8580004
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084032"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854370"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Power BI にアクセスするためのプライベート リンク
 
@@ -158,7 +158,7 @@ ARM テンプレートを作成する
     |サイズ | 既定値 **[Standard DS1 v2]** のままにします |
     |管理者アカウント ||
     |ユーザー名 |任意のユーザー名を入力します |
-    |Password | 任意のパスワードを入力します。 パスワードは 12 文字以上で、[定義された複雑さの要件](https://docs.microsoft.com/azure/virtual-machines/windows/faq?toc=/azure/virtual-network/toc.json#what-are-the-password-requirements-when-creating-a-vm)を満たす必要があります |
+    |Password | 任意のパスワードを入力します。 パスワードは 12 文字以上で、[定義された複雑さの要件](/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm)を満たす必要があります |
     |パスワードの確認 | パスワードを再入力します |
     |受信ポートの規則 ||
     |パブリック受信ポート | 既定値 **[なし]** のままにします |
@@ -284,6 +284,7 @@ Power BI でプライベート リンクを使用する際に留意する必要�
 * プライベート リンク環境を使用する場合、外部の画像またはテーマを使用することはできません。カスタム ビジュアルに影響を与える可能性があります
 * プライベート リンク環境を使用する場合、[PDF にエクスポート] などのエクスポート サービス、レポートから Excel へのエクスポート、その他のエクスポート サービスは機能しません
 * プライベート リンク環境では、SQL Server Reporting Services レポート (一般に RDL ファイルと呼ばれ、*.rdl 形式のファイル) はレンダリングされません
+* インターネット アクセスが無効になっていて、データセットまたはデータフローが Power BI データセットまたはデータフローにデータ ソースとして接続している場合、接続は失敗します
 
 
 ## <a name="next-steps"></a>次の手順

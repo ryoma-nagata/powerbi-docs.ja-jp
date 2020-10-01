@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 8e8411ea29436a5ee19802d2a970b760062fe59e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008740"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763990"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI でサポートされているインサイトの種類
 
@@ -77,7 +77,7 @@ Power BI では統計的アルゴリズムを使用して分析情報が明ら�
 ![周期性の例](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>安定した共有
-連続した変数にわたる親の全体の値に関連して、子の値のシェア間に親子の相関関係があるケースを強調表示します。 安定したシェアの分析情報は、メジャー、ディメンション、および別の日付/時刻のディメンションのコンテキストに適用されます。 この分析情報は、特定のディメンション値 ("北東地域" など) の、その日付/時刻のディメンションにわたる全体的な売上が、安定したパーセンテージを示す場合にトリガーされます。
+連続した変数にわたる親の全体の値に関連して、子の値のシェア間に親子の相関関係があるケースを強調表示します。 安定したシェアの分析情報は、メジャー、ディメンション、および別の日付/時刻のディメンションのコンテキストに適用されます。 この分析情報は、特定のディメンション値 ("東地域" など) の、その日付/時刻のディメンションにわたる全体的な売上が、安定したパーセンテージを示す場合にトリガーされます。
 
 安定したシェアの分析情報は、低差異の分析情報に似ています。どちらも時間の経過に伴う値の分散の小ささに関連しているためです。 ただし、安定したシェアの分析情報では、時間経過に伴う**全体のパーセンテージ**の分散の小ささが測定されますが、低差異の分析情報では、ディメンション全体のメジャーの絶対値に関する分散の小ささが測定されます。
 

@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/21/2020
+ms.openlocfilehash: 0abaf886806ea783bb478f47d020daeea7829da5
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478017"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965112"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Microsoft Teams に Power BI コンテンツを埋め込む
 
@@ -30,9 +30,9 @@ Microsoft Teams の **[Power BI]** タブを使用するには、次の要素を
 - Microsoft Teams の **[Power BI]** タブでレポートを表示するには、ユーザーがそのレポートを表示するためのアクセス許可を持っている必要があります。
 - ユーザーは、チャネルとチャットにアクセスできる Microsoft Teams ユーザーである必要があります。
 
-Power BI および Teams がどのように連携するかの背景とその他の要件については、「[Microsoft Teams と Power BI で共同作業する](service-embed-report-microsoft-teams.md)」を参照してください。
+Power BI と Microsoft Teams がどのように連携するかの背景とその他の要件については、「[Microsoft Teams と Power BI で共同作業する](service-embed-report-microsoft-teams.md)」を参照してください。
 
-## <a name="embed-a-report-in-teams"></a>Teams へのレポートの埋め込み
+## <a name="embed-a-report-in-microsoft-teams"></a>Microsoft Teams にレポートを埋め込む
 
 Microsoft Teams チャンネルまたはチャットにご利用のレポートを埋め込むには、以下の手順に従ってください。
 
@@ -62,7 +62,7 @@ Microsoft Teams チャンネルまたはチャットにご利用のレポート�
 
 ## <a name="start-a-conversation"></a>会話の開始
 
-Power BI レポート タブを Microsoft Teams に追加すると、レポートに関するタブの会話が Teams によって自動的に作成されます。
+Power BI レポート タブを Microsoft Teams に追加すると、レポートに関するタブの会話が Microsoft Teams によって自動的に作成されます。
 
 - 右上隅にある **[[会話] タブを表示します]** アイコンを選択します。
 
@@ -74,6 +74,7 @@ Power BI レポート タブを Microsoft Teams に追加すると、レポー�
 
 ## <a name="known-issues-and-limitations"></a>既知の問題と制限事項
 
+- Microsoft Teams では、Power BI レポートの視覚エフェクトからデータをエクスポートすると、データは自動的にダウンロード フォルダーに保存されます。 これは "data (*n*).xlsx" (*n* は同じフォルダーにデータをエクスポートした回数) という Excel ファイルです。
 - Power BI ダッシュボードを Microsoft Teams の **[Power BI]** タブに埋め込むことはできません。
 - [URL フィルター](service-url-filters.md)は、Microsoft Teams の **[Power BI]** タブではサポートされていません。
 - 国内のクラウドでは、この新しい **[Power BI]** タブは使用できません。 Power BI アプリの新しいワークスペース エクスペリエンスやレポートがサポートされていない古いバージョンを使用できる可能性があります。

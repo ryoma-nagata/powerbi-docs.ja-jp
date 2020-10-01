@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea519b4f120bb643e88d29fba79a5ca464030797
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9124322dbf7656b05c4cd174207e074cd4f807fe
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537368"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763967"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Power BI のレポート内でビジュアルがどのように相互作用するか
 
@@ -52,7 +52,7 @@ Power BI の優れた機能の 1 つは、レポート ページ上のすべて�
     
 - レポート ページ上のその他のビジュアルをクロスフィルター処理およびクロス強調表示するとき、ビジュアルレベル フィルターは保持されます。 したがって、VisualA にレポート デザイナーまたはユーザーが適用したビジュアル レベルのフィルターがあり、visualA を使用して visualB と相互作用する場合、visualA のビジュアル レベル フィルターが visualB に適用されます。
 
-    ![ドーナツ グラフで [モデレーション] セグメントを選択した後のレポート ページ](media/end-user-interactions/power-bi-visual-filters.png)
+    ![既に設定されているフィルターが表示されたレポート ページ](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>次の手順
 [レポート フィルターの使用方法](../consumer/end-user-report-filter.md)

@@ -1,5 +1,5 @@
 ---
-title: Power BI サービスから Teams に直接共有する
+title: Power BI サービスから Microsoft Teams に直接共有する
 description: Power BI ダッシュボードとレポートを、Power BI サービスから Microsoft Teams に直接共有できます。
 author: maggiesMSFT
 ms.author: maggies
@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: 0152f835f130eaea12addee1cc8daa15975d7aa1
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 6f4f083f7ec36fff13624b6b0d28ffd810e0d62b
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478063"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964820"
 ---
-# <a name="share-directly-to-teams-from-the-power-bi-service"></a>Power BI サービスから Teams に直接共有する
+# <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>Power BI サービスから Microsoft Teams に直接共有する
 
 Power BI ダッシュボード、レポート、およびビジュアルを、Power BI サービスから Microsoft Teams に直接共有できます。 Power BI サービスでレポートやダッシュボードを表示しているときに会話をすばやく開始するには、 **[Teams で共有]** 機能を使用します。
 
@@ -27,9 +27,9 @@ Power BI で **[Teams で共有]** 機能を使用するには、次の設定を
 
 - Power BI 管理者が、Power BI 管理ポータルで **[Teams で共有]** テナント設定を無効にしていない。 この設定により、組織は **[Teams で共有]** ボタンに非表示にすることができます。 詳細については、[Power BI 管理ポータル](../admin/service-admin-portal.md#share-to-teams-tenant-setting)に関する記事を参照してください。
 
-Power BI および Teams がどのように連携するかの背景とその他の要件については、「[Microsoft Teams と Power BI で共同作業する](service-collaborate-microsoft-teams.md)」を参照してください。
+Power BI と Microsoft Teams がどのように連携するかの背景とその他の要件については、「[Microsoft Teams と Power BI で共同作業する](service-collaborate-microsoft-teams.md)」を参照してください。
 
-## <a name="share-power-bi-content-to-teams"></a>Power BI コンテンツを Teams に共有する
+## <a name="share-power-bi-content-to-microsoft-teams"></a>Microsoft Teams に Power BI コンテンツを共有する
 
 次の手順に従って、Power BI サービスでレポート、ダッシュボード、およびビジュアルへのリンクを、Microsoft Teams のチャネルとチャットに共有します。
 

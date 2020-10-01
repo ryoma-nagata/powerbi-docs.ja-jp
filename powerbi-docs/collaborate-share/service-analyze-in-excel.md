@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937495"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020069"
 ---
 # <a name="analyze-in-excel"></a>[Excel で分析]
 **[Excel で分析]** を使用すると、Power BI データセットを Excel に取り込み、ピボットテーブル、グラフ、スライサー、およびその他の Excel 機能を使用してデータセットを表示および操作できます。 **[Excel で分析]** を使用するには、まず Power BI から機能をダウンロードしてインストールし、Excel で使用する 1 つ以上のデータセットを選択する必要があります。 
@@ -92,6 +92,15 @@ Power BI サービスで、Excel で分析するデータセットまたはレ�
     >![保護ビューの編集を有効にするバナーのスクリーンショット](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
     >
     >![信頼済みドキュメントのコンテンツを有効にするバナーのスクリーンショット](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
+
+Excel を使用してピボットテーブルを使用した Power BI を分析する場合、Power BI によって秘密度ラベル継承が Excel に拡張されます。 Excel でピボットテーブルを作成すると、Power BI データセットに適用される秘密度ラベルが Excel ファイルに自動的に適用されます。 
+
+データセット上のラベルがその後に変更されて制限がより厳しくなった場合、Excel でのデータ更新時に、Excel ファイルに適用されているラベルが自動的に更新されます。 データセットが変更されて制限が緩くなった場合は、ラベルの継承や更新は発生しません。
+
+手動で設定された Excel の秘密度ラベルが、データセットのラベルによって自動的に上書きされることはありません。 Excel ファイルに秘密度ラベルが手動で設定されている場合、ラベルをアップグレードするための推奨事項を含むポリシー ヒントが表示されます。 
+
+詳細については、「[Power BI で秘密度ラベルを適用する方法](../admin/service-security-apply-data-sensitivity-labels.md)」をご覧ください。
+
 
 ## <a name="use-excel-to-analyze-the-data"></a>Excel を使用してデータを分析する
 
@@ -177,4 +186,4 @@ Excel ファイルには、Power BI 内のユーザーのデータセットに�
 * [Power BI Desktop でスライサーを使用する](../visuals/power-bi-visualization-slicers.md)
 * [Excel で分析のトラブルシューティング](desktop-troubleshooting-analyze-in-excel.md)
 * [Excel で Power BI のおすすめのテーブルにアクセスする (プレビュー)](service-excel-featured-tables.md)。
-
+* [Power BI で秘密度ラベルを適用する方法](../admin/service-security-apply-data-sensitivity-labels.md)

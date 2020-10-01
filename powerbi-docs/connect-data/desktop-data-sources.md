@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160397"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020046"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop のデータ ソース
 
@@ -95,12 +95,13 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Denodo
 * Dremio
 * Exasol
-* Indexima (ベータ)
+* Indexima
 * InterSystems IRIS (ベータ)
 * Jethro (ベータ)
 * Kyligence
 * Linkar PICK スタイル / MultiValue Databases (ベータ)
 * MarkLogic
+* MariaDB (ベータ)
 
 > [!NOTE]
 > 一部のデータベース コネクタの場合、有効にするためには、 **[ファイル]、[オプションと設定]、[オプション]** の順に選択し、 **[プレビュー機能]** を選択し、コネクタを有効にする必要があります。 前途コネクタの一部が表示されず、その中に使用したいコネクタも含まれている場合は、 **[プレビュー機能]** を確認してください。 データ ソースに*ベータ*や*プレビュー*などのマークが付いている場合、サポートや機能が限定されていることにもご注意ください。運用環境では利用しないでください。
@@ -126,8 +127,8 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 
 **[Azure]** カテゴリには、次のデータ接続があります。
 
-* Azure SQL Database
-* Azure SQL Data Warehouse
+* Azure SQL データベース
+* Azure Synapse Analytics (SQL DW)
 * Azure Analysis Services データベース
 * Azure Database for PostgreSQL
 * Azure Blob Storage
@@ -139,9 +140,9 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 対話型クエリ
-* Azure Data Explorer (Kusto)
 * Azure Cost Management
 * Azure Time Series Insights (ベータ)
+* Azure Databricks
 
 
 次の図は、 **[Azure]** の **[データの取得]** ウィンドウを示しています。
@@ -194,8 +195,10 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * TeamDesk (Beta)
 * Webtrends Analytics (ベータ)
 * Witivio (ベータ)
-* Workplace Analytics (ベータ)
 * Zoho Creator (ベータ)
+* Workplace Analytics (ベータ)
+* Hexagon PPM Smart API
+
 
 次の図は、 **[オンライン サービス]** の **[データの取得]** ウィンドウを示しています。
 
@@ -217,29 +220,27 @@ Power BI Desktop を使用すると、多種多様なソースからデータに
 * Python スクリプト
 * ODBC
 * OLE DB
+* Acterys: Model Automation & Planning (ベータ)
+* Automation Anywhere (ベータ)
 * Solver
+* Cherwell (ベータ)
+* Cognite Data Fusion (ベータ)
 * FHIR
 * Information Grid (ベータ)
 * Jamf Pro (ベータ)
+* MicroStrategy for Power BI
 * Paxata
 * QubolePresto (ベータ)
 * Roamler (ベータ)
 * Shortcuts Business Insights (ベータ)
 * Siteimprove
+* SurveyMonkey (ベータ)
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (ベータ)
-* Vessel Insight (ベータ)
-* Workforce Dimensions (ベータ)
-* Zucchetti HR Infinity (ベータ)
-* Cognite Data Fusion (ベータ)
-* MicroStrategy for Power BI
-* SurveyMonkey (ベータ)
 * Vena (ベータ)
-* Acterys: Model Automation & Planning (ベータ)
-* Automation Anywhere (ベータ)
-* Cherwell (ベータ)
+* Zucchetti HR Infinity (ベータ)
+* Vessel Insight (ベータ)
 * 空のクエリ
-
 
 
 
@@ -288,7 +289,7 @@ PBIDS ファイルを作成するには、管理者が 1 つの接続に必要�
 
 PBIDS ファイルには、認証情報と、テーブルとスキーマの情報が含まれて "*いません*"。  
 
-次のコード スニペットは、PBIDS ファイルの一般的な例をいくつか示していますが、完全でも包括的でもありません。 その他のデータ ソースについては、[プロトコルおよびアドレス情報のデータ ソース参照 (DSR) 形式](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)に関する記事を参照してください。
+次のコード スニペットは、PBIDS ファイルの一般的な例をいくつか示していますが、完全でも包括的でもありません。 その他のデータ ソースについては、[プロトコルおよびアドレス情報のデータ ソース参照 (DSR) 形式](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)に関する記事を参照してください。
 
 これらの例は便宜上のものであり、網羅する目的はありません。また、DSR 形式のサポートされているすべてのコネクタが含まれているわけではありません。 管理者または組織は、これらの例をガイドとして使用して独自のデータ ソースを作成し、そこから独自のデータ ソース ファイルを作成およびサポートすることができます。
 

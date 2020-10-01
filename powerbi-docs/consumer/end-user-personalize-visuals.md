@@ -1,28 +1,28 @@
 ---
-title: レポート内のビジュアルをカスタマイズする
+title: レポート内の視覚エフェクトをカスタマイズする (プレビュー)
 description: レポートを編集することなく、独自のビューを作成します。
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a731feb822fcda8fd6478094f8393faa34b6b2bf
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 8fc61a1aee263b40afb8ae95f365477b4104ca71
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537345"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763346"
 ---
 # <a name="personalize-visuals-in-a-report"></a>レポート内のビジュアルをカスタマイズする
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 すべてのユーザーの要件を満たす 1 つのビジュアルを作成するのは困難です。 しかし、同僚のレポートを共有している場合、その同僚に変更を行うよう依頼することなく、こちらでビジュアルを変更したくなることがあります。 
 
-たとえば、軸の内容を入れ替えたり、ビジュアルの種類を変更したり、ツールヒントに何かを追加したりしたくなることがあります。 **このビジュアルのカスタマイズ**機能を使用すると、必要に応じて自分でビジュアルに変更を加え、後で表示できるようにブックマークとして保存することができます。 レポートに対する編集アクセス許可も必要ありません。
+たとえば、軸の内容を入れ替えたり、ビジュアルの種類を変更したり、ツールヒントに何かを追加したりしたくなることがあります。 **[Personalize this visual]\(この視覚エフェクトのカスタマイズ\)** 機能を使用すると、必要に応じて自分で視覚エフェクトに変更を加え、後で表示できるように[ブックマーク](end-user-bookmarks.md)として保存することができます。 レポートに対する編集アクセス許可も必要ありません。
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize.png" alt-text="ビジュアルをカスタマイズする":::
  
@@ -44,10 +44,12 @@ ms.locfileid: "87537345"
 - ビジュアルに対するすべての変更をリセットする
 - 最近の変更をクリアする
 
+> [!IMPORTANT]
+> 視覚エフェクトをカスタマイズする機能は、レポート *デザイナー*が有効にする必要があるプレビュー機能です。 **[Personalize this visual]\(この視覚エフェクトのカスタマイズ\)** ![[Personalize this visual]\(この視覚エフェクトのカスタマイズ\)](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) アイコンが表示されない場合、レポート デザイナーは現在のレポートに対してこの機能を有効にしていません。 
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>Power BI サービスでビジュアルをカスタマイズする
 
-ビジュアルをカスタマイズすることで、レポートの読み取りビューを離れることなく、さまざまな方法でデータを探索できます。 次の例では、ニーズに合わせて視覚化を変更するさまざまな方法を示します。 
+視覚エフェクトをカスタマイズすることで、[レポートの読み取りビュー](end-user-reading-view.md)を離れることなく、さまざまな方法でデータを探索できます。 次の例では、ニーズに合わせて視覚化を変更するさまざまな方法を示します。 
 
 1. Power BI サービスの読み取りビューでレポートを開きます。
 
@@ -59,57 +61,57 @@ ms.locfileid: "87537345"
 
 積み上げ縦棒グラフにした方が適切にデータが表示されると思われる場合は、 **視覚化の種類**を変更します。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="視覚化の種類を変更する":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="ビジュアルをカスタマイズする":::
  
 ### <a name="swap-out-a-measure-or-dimension"></a>メジャーまたはディメンションをスワップ アウトする
 置換するフィールドを選択して X 軸に使用されているフィールドを置き換え、別のフィールドを選択します。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="軸を変更する":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="ビジュアルをカスタマイズする":::
  
 ### <a name="add-or-remove-a-legend"></a>凡例を追加または削除する
 凡例を追加すると、カテゴリに基づいてビジュアルの色分けを設定できます。 この例では、会社名に基づいて色分けされています。 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="凡例を追加または削除する":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="ビジュアルをカスタマイズする":::
 
 ### <a name="compare-two-or-more-different-measures"></a>2 つ以上の異なるメジャーを比較する
 [+] アイコンを使用してビジュアルの複数のメジャーを追加することにより、異なるメジャーの値を比較対照することができます。 メジャーを削除するには、 **[その他のオプション] (...)** を選択し、 **[フィールドの削除]** を選択します。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="メジャーを比較する":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="ビジュアルをカスタマイズする":::
 
 ### <a name="change-aggregations"></a>集計を変更する
 メジャーの計算方法を変更するには、 **[個人用設定]** ペインで集計を変更します。 **[その他のオプション] (...)** を選択し、使用する集計を選択します。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="集計を変更する":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="ビジュアルをカスタマイズする":::
 
 ### <a name="capture-changes"></a>変更をキャプチャする 
 個人用ブックマークを使用して、カスタマイズされたビューに戻ることができるように変更をキャプチャします。 **[ブックマーク]**  >  **[個人用ブックマーク]** の順に選択し、ブックマークに名前を付けます。 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="ブックマークを作成する":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="ビジュアルをカスタマイズする":::
  
 また、ブックマークを既定のビューに設定することもできます。
 
 ### <a name="share-changes"></a>変更を共有する 
 読み取りと再共有のアクセス許可を持っている場合は、レポートを共有するときに、自分の変更内容を含めることを選択できます。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="変更を共有する":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="ビジュアルをカスタマイズする":::
  
 ### <a name="reset-all-your-changes-to-a-report"></a>レポートへのすべての変更をリセットする
 
 レポート キャンバスの右上隅にある **[既定にリセット]** を選択します。 これにより、レポート内のすべての変更が削除され、作成者が最後に保存したレポート ビューに設定し直されます。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="すべての変更をリセットする":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="ビジュアルをカスタマイズする":::
  
 ### <a name="reset-all-your-changes-to-a-visual"></a>ビジュアルへのすべての変更をリセットする
 
 ビジュアルのメニュー バーにある **[Reset this visual]\(このビジュアルをリセットする\)** を選択すると、特定のビジュアルに対するすべての変更が削除され、作成者が最後に保存したそのビジュアルのビューに設定し直しされます。
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="すべてのビジュアルの変更をリセットする":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="ビジュアルをカスタマイズする":::
  
 ### <a name="clear-recent-changes"></a>最近の変更をクリアする
 
 消しゴムアイコンを選択すると、 **[個人用設定]** ペインを開いた後に加えた最近の変更がすべてクリアされます。  
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="最近の変更を元に戻す":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="ビジュアルをカスタマイズする":::
 
 ## <a name="limitations-and-known-issues"></a>制限事項と既知の問題
 

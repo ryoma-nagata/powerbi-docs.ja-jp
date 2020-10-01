@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 06/25/2020
-ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.custom: contperfq1
+ms.date: 09/22/2020
+ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
+ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220885"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91024037"
 ---
-# <a name="understand-the-deployment-process-preview"></a>配置プロセスについて理解する (プレビュー)
+# <a name="understand-the-deployment-process"></a>デプロイ プロセスを理解する
 
 配置プロセスを使用すると、パイプライン内のあるステージのコンテンツを別のステージに (通常は開発からテスト、テストから運用に) クローンすることができます。
 
@@ -90,7 +91,7 @@ ms.locfileid: "89220885"
 
 * サポートされていないデータセットに基づくレポート
 
-* ワークスペースでテンプレート アプリを使用できません
+* [テンプレート アプリ ワークスペース](../connect-data/service-template-apps-create.md#create-the-template-workspace)
 
 * ページ分割されたレポート
 
@@ -137,14 +138,60 @@ ms.locfileid: "89220885"
 以下のデータセットのプロパティも、配置中にコピーされません。
 
 * ロール割り当て
-    
+
 * スケジュールの更新
-    
+
 * データ ソース資格情報
-    
+
 * クエリ キャッシュの設定 (容量から継承可能)
-    
+
 * 保証の設定
+
+## <a name="incremental-refresh"></a>増分更新
+
+デプロイ パイプラインでは[増分更新](../admin/service-premium-incremental-refresh.md)がサポートされています。この機能により、大規模なデータセットのより高速かつ信頼性の高い更新が可能になり、使用量も抑えられます。
+
+デプロイ パイプラインを使用すると、データとパーティションの両方を保持しながら、増分更新を使用してデータセットを更新できます。 データセットをデプロイすると、ポリシーが一緒にコピーされます。
+
+### <a name="activating-incremental-refresh-in-a-pipeline"></a>パイプラインで増分更新をアクティブにする
+
+増分更新を有効にするには、[それを Power BI Desktop でオンにして](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh)から、データセットを発行します。 発行した後、増分更新ポリシーはパイプライン全体で類似しており、Power BI Desktop でのみ作成できます。
+
+増分更新を使用してパイプラインを構成した後は、次のフローに従うことをお勧めします。
+
+1. Power BI Desktop で PBIX ファイルに変更を加えます。 待機時間が長くならないようにするために、データのサンプルを使用して変更を行うことができます。
+
+2. PBIX ファイルを "*開発*" ステージにアップロードします。
+
+3. コンテンツを "*テスト*" ステージにデプロイします。 デプロイ後に加えた変更は、使用しているデータセット全体に適用されます。
+
+4. "*テスト*" ステージで加えた変更を確認し、検証した後で、"*運用*" ステージにデプロイします。
+
+### <a name="usage-examples"></a>使用例
+
+次に、増分更新をデプロイ パイプラインと統合する方法の例をいくつか示します。
+
+* [新しいパイプラインを作成](deployment-pipelines-get-started.md#step-1---create-a-deployment-pipeline)し、増分更新が有効になっているデータセットを含むワークスペースに接続します。
+
+* "*開発*" ワークスペースに既に存在しているデータセットで増分更新を有効にします。  
+
+* 増分更新を使用するデータセットがある運用ワークスペースからパイプラインを作成します。 これを行うには、ワークスペースを新しいパイプラインの "*実稼働*" ステージに割り当て、[逆方向のデプロイ](deployment-pipelines-get-started.md#backwards-deployment)を使用して "*テスト*" ステージにデプロイし、次に "*開発*" ステージにデプロイします。
+
+* 既存のパイプラインの一部であるワークスペースに増分更新を使用するデータセットを発行します。
+
+### <a name="limitations-and-considerations"></a>制限事項と考慮事項
+
+増分更新の場合、デプロイ パイプラインでサポートされるのは[拡張データセット メタデータ](../connect-data/desktop-enhanced-dataset-metadata.md)を使用するデータセットのみです。 Power BI Desktop の 2020 年 9 月リリース以降、Power BI Desktop で作成または変更されたすべてのデータセットでは、拡張データセット メタデータが自動的に実装されます。
+
+増分更新が有効になっているアクティブなパイプラインにデータセットを再発行する場合、次の変更によって、データ損失の可能性によるデプロイの失敗が発生します。
+
+* 増分更新を使用しないデータセットを再発行して、増分更新が有効になっているデータセットを置き換える。
+
+* 増分更新が有効になっているテーブルの名前を変更する。
+
+* 増分更新が有効になっているテーブルの非計算列の名前を変更する。
+
+列の追加、列の削除、計算列の名前の変更など、その他の変更は許可されています。 ただし、変更によって表示内容が影響を受ける場合は、更新した後に変更が表示されます。
 
 ## <a name="deploying-power-bi-apps"></a>Power BI アプリの配置
 
@@ -170,9 +217,9 @@ ms.locfileid: "89220885"
 パイプライン アクセス権を持つユーザーは、以下のアクセス許可を持ちます。
 
 * パイプラインを表示する
-    
+
 * 他のユーザーとパイプラインを共有する
-    
+
 * パイプラインを編集および削除する
 
 >[!NOTE]
@@ -202,9 +249,9 @@ ms.locfileid: "89220885"
 "*パイプライン アクセス権*" を持つワークスペース メンバーは、以下の操作も実行できます。
 
 * ワークスペースのコンテンツを表示する
-    
+
 * ステージを比較する
-    
+
 * レポートとダッシュボードを配置する
 
 * ワークスペースを削除する
@@ -222,7 +269,7 @@ ms.locfileid: "89220885"
 ワークスペースのメンバーまたは管理者であるデータセット所有者は、次の操作も実行できます。
 
 * データセットの更新
-    
+
 * ルールを構成する
 
 >[!NOTE]
@@ -244,13 +291,11 @@ ms.locfileid: "89220885"
 
 ### <a name="dataset-limitations"></a>データセットの制限事項
 
-* [増分更新](../admin/service-premium-incremental-refresh.md)で構成されたデータセットは、配置できません。
-
 * リアルタイム データ接続を使用するデータセットを配置することはできません。
 
 * 配置中に、ターゲット データセットで[ライブ接続](../connect-data/desktop-report-lifecycle-datasets.md)が使用される場合は、ソース データセットでもこの接続モードを使用する必要があります。
 
-* 配置後に、(配置されているステージから) データセットをダウンロードすることはサポートされていません。
+* デプロイ後に (デプロイされているステージから) データセットをダウンロードすることはサポートされていません。
 
 * データセット ルールの制限事項の一覧については、「[データセット ルールの制限事項](deployment-pipelines-get-started.md#dataset-rule-limitations)」を参照してください。
 

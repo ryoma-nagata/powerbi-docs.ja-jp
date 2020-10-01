@@ -6,21 +6,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4282b4fc5d59e2ff5e0def353ad444546dcf5f43
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 2268cb86ec60e2b461c66cca6034fd47a30c2e38
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008516"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91019977"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop の新機能
 
-## <a name="august-2020-update-2844610"></a>2020 年 8 月更新 (2.84.461.0)
+## <a name="september-2020-update-2852840"></a>2020 年 9 月更新 (2.85.284.0)
 
-8 月の Power BI Desktop 更新プログラムには、革新的な新機能が含まれています。 
+9 月の Power BI Desktop の更新プログラムは、秋の訪れや紅葉のようにクールで明快です。 
+
+今月新たに、Power BI Desktop の毎月のブログとビデオの更新プログラムに、Power BI モバイルと Power BI サービスの新機能の更新情報も含まれるようになりました。 この記事では、Power BI Desktop の更新について説明します。 モバイルと Power BI サービスの更新プログラムの詳細については、それぞれの新機能に関する記事をご覧ください。
+
+* [Power BI サービスの新機能](service-whats-new.md)
+* [Power BI 用モバイル アプリの新機能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 [ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=58494)から最新バージョンの Power BI Desktop を取得してください。 Windows 10 を実行している場合、[Microsoft Store](https://aka.ms/pbidesktopstore) から Power BI Desktop を取得することもできます。 Power BI Desktop のインストール方法に関係なくバージョン番号が異なる場合でも、月次バージョン番号は同じです。 Power BI Desktop のダウンロードとインストールの詳細については、「[Power BI Desktop の取得](desktop-get-the-desktop.md)」を参照してください。 
 
@@ -34,48 +39,56 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 * \[記事\]:一部の機能には、詳細を記載する記事が用意されています。
 * 残りの機能は説明を必要としないため、記事やビデオは用意されていません。
 
-[Power BI Desktop の毎月の更新プログラムのビデオ](#power-bi-desktop-monthly-update-video)全体を視聴することもできます。
+[Power BI の毎月の更新プログラムのビデオ](#power-bi-desktop-monthly-update-video)全体を視聴することもできます。
 
 > [!IMPORTANT]
 > 2021 年 1 月 31 日以降、Power BI Desktop は、Windows 7 ではサポートされなくなります。 その後、Power BI Desktop の最新リリースの場合のみ、Power BI Desktop は Windows 8 以降のバージョンの Windows でサポートされます。 
 
 以下の更新は、今月の Power BI Desktop の新しい機能です。
 
+https://www.youtube.com/watch?v=gPGy18Yo0Go https://youtu.be/TPsV7N4bZZg?t=15
 
-### <a name="reporting"></a>レポート
-* ビジュアルのカスタマイズにおけるパースペクティブのサポート (プレビュー) [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=15) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Perspectives) 
-* データ ポイントの四角形のなげなわ選択 (プレビュー) [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=448) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Data_point) 
-* より多くのビジュアルへの動的な書式設定のサポートの追加 [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=715) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_dynamic_formatting) 
 
+https://www.youtube.com/watch?v=gPGy18Yo0Go
+
+https://www.youtube.com/watch?v=TPsV7N4bZZg?t=448
 
 ### <a name="analytics"></a>Analytics
-* Q&A の DirectQuery サポート [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=926) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Direct_Query) 
+* スマート物語 (プレビュー) [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=51)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
+* Q&A で算術演算がサポートされるようになりました [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=333)   [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
+
+
+### <a name="reporting"></a>レポート
+* データ ポイントの四角形の選択 (追加のグラフ用) [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=370)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
+* レイヤーの順序を維持するための一般的な視覚化オプションが追加されました [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=405)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
+* 発行時のワークスペースの検索 [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=615)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
+* 積み上げ視覚化用の合計ラベル数 [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=630)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
+* モバイル オーサリングの機能拡張 [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=786)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
+
+
+### <a name="modeling"></a>モデリング
+* 拡張データセット メタデータの一般提供開始 [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1200)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
+* 通貨データ型の列を含む集計式のパフォーマンスの向上 [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1220)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
+
+
+### <a name="data-connectivity"></a>データ接続
+* Azure Databricks [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1342)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
+* MariaDB [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1365)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
+* Hexagon PPM Smart API [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1386)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
+* データ接続に関するその他の更新 [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1411)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
 
 
 ### <a name="visuals"></a>視覚化
-* さまざまな企業による複数の新しいビジュアル [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=956) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Visualizations)
-* ArcGIS Maps の更新 [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=1096) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_ArcGIS)
-* AppSource ビジュアルの管理機能の拡張 [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=1135) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Admin)
+* さまざまなプロバイダーからの新しい視覚エフェクト [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1228)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
 
 
 ### <a name="template-apps"></a>テンプレート アプリ
-* Agile CRM Analytics for Dynamics 365 [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=1300) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_CRM)
+* マルチチャネル属性ダッシュボード [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
+* ワークスペース分析ダッシュボード [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
 
 
-### <a name="data-preparation"></a>データの準備
-* Text/CSF by Example (プレビュー) [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=1335) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_text_csv) 
+これらの新機能の詳細については、[Power BI Desktop 機能の概要](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/)に関するブログ投稿を参照してください。
 
-### <a name="data-connectivity"></a>データ接続
-* Cherwell コネクタ [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=1392) [[記事]](../create-reports/desktop-external-tools.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Cherwell_connector) 
-
-* Automation Anywhere コネクタ [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=1414) [[記事]](../create-reports/desktop-external-tools.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Auto_connector) 
-
-* Acterys コネクタ [[ビデオ]](https://youtu.be/TPsV7N4bZZg?t=1434) [[記事]](../create-reports/desktop-external-tools.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Acterys_connector) 
-
-
-これらの新機能の詳細については、[Power BI Desktop 機能の概要](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/)に関するブログ投稿を参照してください。
-
-「[Power BI サービスの新機能](service-whats-new.md)」と「[Power BI 用モバイル アプリの新機能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)」をご確認ください。
 
 > [!NOTE]
 > [Power BI Desktop で利用できるデータ ソース](../connect-data/desktop-data-sources.md)をご覧ください。 リストは増え続けていますので、頻繁にご確認ください。
@@ -91,7 +104,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 ビデオや他の関連コンテンツで Power BI について学習しましょう。 次にまとめてあるビデオ ソースとコンテンツをご利用ください。
 
 -   [Power BI channel](https://www.youtube.com/user/mspowerbi): YouTube の Power BI 動画を集めたもの。
--   [Power BI に関する Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): Power BI の学習ツアー (短編のシリーズ構成)。
+-   [Power BI に関する Microsoft Learn](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): Power BI の学習ツアー (短編のシリーズ構成)。
 
 ## <a name="updates-for-previous-months"></a>以前の月の更新プログラム
 

@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364079"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861293"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Azure アプリケーション プロキシを使用して Power BI Report Server を構成する
 
-この記事では、Azure Active Directory アプリケーション プロキシを使用して、Power BI Report Server と SQL Server Reporting Services (SSRS) 2016 以降に接続する方法について説明します。 この統合により、企業ネットワークから離れているユーザーは自分のクライアント ブラウザーから Power BI Report Server と Reporting Services レポートにアクセスでき、Azure Active Directory (AD) によって保護されます。 Azure Active Directory アプリケーション プロキシを介したオンプレミス アプリケーションへのリモート アクセスについては、[こちら](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)を参照してください。
+この記事では、Azure Active Directory アプリケーション プロキシを使用して、Power BI Report Server と SQL Server Reporting Services (SSRS) 2016 以降に接続する方法について説明します。 この統合により、企業ネットワークから離れているユーザーは自分のクライアント ブラウザーから Power BI Report Server と Reporting Services レポートにアクセスでき、Azure Active Directory (AD) によって保護されます。 Azure Active Directory アプリケーション プロキシを介したオンプレミス アプリケーションへのリモート アクセスについては、[こちら](/azure/active-directory/manage-apps/application-proxy)を参照してください。
 
 ## <a name="environment-details"></a>環境の詳細
 
@@ -125,7 +125,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 ## <a name="configure-azure-application-proxy-connector"></a>Azure アプリケーション プロキシ コネクタを構成する
 
-アプリケーション プロキシ コネクタに関連する構成については、[こちらの記事](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)を参照してください。
+アプリケーション プロキシ コネクタに関連する構成については、[こちらの記事](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)を参照してください。
 
 アプリケーション プロキシ コネクタは、Power BI Report Server にインストールしましたが、それを別のサーバーで構成し、委任が適切に設定されていることを確認できます。
 
@@ -150,14 +150,14 @@ KCD を構成するには、コネクタ コンピューターごとに以下の
 
 これで Azure AD アプリケーション プロキシを構成する準備ができました。
 
-次の設定を使用したアプリケーション プロキシを介して Power BI Report Server を公開します。 アプリケーション プロキシを使用してアプリケーションを公開する方法の詳細な手順については、[Azure AD アプリケーション プロキシを使用したアプリケーションの公開](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)に関する記事を参照してください。
+次の設定を使用したアプリケーション プロキシを介して Power BI Report Server を公開します。 アプリケーション プロキシを使用してアプリケーションを公開する方法の詳細な手順については、[Azure AD アプリケーション プロキシを使用したアプリケーションの公開](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)に関する記事を参照してください。
 
 - **内部 URL**: 企業ネットワーク内でコネクタが接続できるレポート サーバーの URL を入力します。 コネクタがインストールされているサーバーからこの URL に到達できることを確認します。 ベスト プラクティスは、`https://servername/` などのトップレベル ドメインを使用して、アプリケーション プロキシ経由で公開されていないサブパスに関する問題を回避することです。 たとえば、`https://servername/reports/` や `https://servername/reportserver/` ではなく、`https://servername/` を使用します。 この環境は `https://pbirsazureapp.eastus.cloudapp.azure.com/` を使用して構成しました。
 
     > [!NOTE]
-    > レポート サーバーに対してセキュリティで保護された HTTPS 接続を使用することをお勧めします。 方法の詳細については、「[ネイティブ モードのレポート サーバーでの SSL 接続の構成](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017)」を参照してください。
+    > レポート サーバーに対してセキュリティで保護された HTTPS 接続を使用することをお勧めします。 方法の詳細については、「[ネイティブ モードのレポート サーバーでの SSL 接続の構成](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)」を参照してください。
 
-- **外部 URL**: Power BI Mobile アプリの接続先となるパブリック URL を入力します。 たとえば、カスタム ドメインが使用されている場合は、`https://reports.contoso.com` のようになります。 カスタム ドメインを使用するには、ドメインの証明書をアップロードし、DNS レコードがアプリケーションの既定の msappproxy.net ドメインを指すようにします。 詳細な手順については、「[Azure AD アプリケーション プロキシでのカスタム ドメインの使用](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-custom-domain)」を参照してください。
+- **外部 URL**: Power BI Mobile アプリの接続先となるパブリック URL を入力します。 たとえば、カスタム ドメインが使用されている場合は、`https://reports.contoso.com` のようになります。 カスタム ドメインを使用するには、ドメインの証明書をアップロードし、DNS レコードがアプリケーションの既定の msappproxy.net ドメインを指すようにします。 詳細な手順については、「[Azure AD アプリケーション プロキシでのカスタム ドメインの使用](/azure/active-directory/manage-apps/application-proxy-configure-custom-domain)」を参照してください。
 
 この環境では外部 URL が `https://pbirsazureapp-umacontoso2410.msappproxy.net/` になるように構成しました。
 
@@ -184,7 +184,7 @@ KCD を構成するには、コネクタ コンピューターごとに以下の
     - レポートを実行してみるか、またはデータ ソースへのテスト接続を実行します。これにより、Kerberos チケットが作成されます。
     - レポートまたはテスト接続の実行が正常に完了したら、コマンド プロンプトを開き、コマンド `klist` を実行します。 結果セクションに、`http/` SPN のチケットが表示されるはずです。 それが、Power BI Report Server で構成した SPN と同じである場合は、その SPN をこのセクションで使用します。
 
-1. ユーザーの代わりに使うコネクタに**委任されたログイン ID** を選択します。 詳細については、「[さまざまなオンプレミス ID とクラウド ID の操作](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities)」を参照してください。
+1. ユーザーの代わりに使うコネクタに**委任されたログイン ID** を選択します。 詳細については、「[さまざまなオンプレミス ID とクラウド ID の操作](/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities)」を参照してください。
 
     ユーザー プリンシパル名を使用することをお勧めします。 このサンプルでは、 **[ユーザー プリンシパル名]** オプションを使用するように構成しました。
 
@@ -216,7 +216,7 @@ KCD を構成するには、コネクタ コンピューターごとに以下の
 1. まず、ログインで使用する予定のカスタム ドメインを構成し、次にそれを確実に検証する必要があります。
 2. この例では、umacontoso.com という名前のドメインを購入し、そのエントリを使用して DNS ゾーンを構成しました。 また、`onmicrosoft.com` ドメインを試しに使用して、それをオンプレミスの AD と同期させることもできます。
 
-    リファレンスについては、「[チュートリアル: 既存のカスタム DNS 名を Azure App Service にマップする](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-domain)」を参照してください。
+    リファレンスについては、「[チュートリアル: 既存のカスタム DNS 名を Azure App Service にマップする](/Azure/app-service/app-service-web-tutorial-custom-domain)」を参照してください。
 
 1. カスタム ドメインの DNS エントリの検証が正常に行われると、ポータルから、そのドメインに対応する**検証済み**の状態を確認できるはずです。
 
@@ -295,8 +295,6 @@ Power BI モバイル アプリから Power BI Report Server に接続してア�
 
 ## <a name="next-steps"></a>次の手順
 
-[Azure AD アプリケーション プロキシを使用して Power BI Mobile へのリモート アクセスを有効にする](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+[Azure AD アプリケーション プロキシを使用して Power BI Mobile へのリモート アクセスを有効にする](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
-
-                

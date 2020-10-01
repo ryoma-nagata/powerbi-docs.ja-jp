@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/15/2020
+ms.openlocfilehash: f7b37392581ad532093b0a543fe75cdb969d2c86
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557166"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855371"
 ---
-# <a name="deployment-pipelines-troubleshooting-preview"></a>配置パイプラインのトラブルシューティング (プレビュー)
+# <a name="deployment-pipelines-troubleshooting"></a>配置パイプラインのトラブルシューティング
 
 この記事では、配置パイプラインの問題のトラブルシューティングについて説明します。
 
@@ -39,6 +39,13 @@ Power BI の配置パイプラインがどのようなものであるかを理�
 * ワークスペースは、1 つのパイプラインにのみ割り当てることができる
 
 * 自分が新しいワークスペースの管理者である
+
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>ワークスペースにパイプライン ステージ タグが表示されない理由
+
+デプロイ パイプラインには、パイプラインに割り当てられているワークスペースのパイプライン ステージ タグが表示されます。 "*開発*" および "*テスト*" ステージのタグは常に表示されます。 ただし、[パイプラインへのアクセス権](deployment-pipelines-process.md#user-with-pipeline-access)を持っている場合、または[ワークスペース管理者](deployment-pipelines-process.md#workspace-admin)である場合にのみ、"*運用環境*" タグが表示されます。
+
+> [!div class="mx-imgBorder"]
+> ![運用環境パイプライン ワークスペースの運用環境タグのスクリーンショット。](media/deployment-pipelines-troubleshooting/production-tag.png)
 
 ## <a name="licensing"></a>ライセンス
 
@@ -72,7 +79,7 @@ Power BI の配置パイプラインがどのようなものであるかを理�
 
 ### <a name="how-can-i-assign-workspaces-to-all-the-stages-in-a-pipeline"></a>パイプラインのすべてのステージにワークスペースを割り当てるにはどうすればよいですか。
 
-パイプラインごとに、1 つのワークスペースを割り当てることができます。 ワークスペースがパイプラインに割り当てられたら、それを次のパイプライン ステージに配置できます。 最初の配置時に、ソース ステージの項目のコピーを使用して新しいワークスペースが作成されます。 コピーされた項目間のリレーションシップは保持されます。 詳細については、[配置パイプラインにワークスペースを割り当てる](deployment-pipelines-get-started.md#step-2---assign-a-workspace-to-a-deployment-pipeline)方法に関するページを参照してください。
+パイプラインごとに、1 つのワークスペースを割り当てることができます。 ワークスペースがパイプラインに割り当てられたら、それを次のパイプライン ステージに配置できます。 最初のデプロイ時に、ソース ステージの項目のコピーを使用して新しいワークスペースが作成されます。 コピーされた項目間のリレーションシップは保持されます。 詳細については、[配置パイプラインにワークスペースを割り当てる](deployment-pipelines-get-started.md#step-2---assign-a-workspace-to-a-deployment-pipeline)方法に関するページを参照してください。
 
 ### <a name="why-did-my-first-deployment-fail"></a>最初の配置が失敗したのですが、なぜでしょうか。
 
@@ -81,7 +88,7 @@ Power BI の配置パイプラインがどのようなものであるかを理�
 |Error  |アクション  |
 |---------|---------|
 |[Premium 容量のアクセス許可](deployment-pipelines-process.md#creating-a-premium-capacity-workspace)がない。     |Premium 容量のアクセス許可を取得するには、容量管理者にワークスペースを容量に追加するように依頼するか、容量に対する割り当てアクセス許可を要求します。 ワークスペースが容量に追加されたら、再配置します。        |
-|ワークスペースに対するアクセス許可がない。     |配置するには、ワークスペース メンバーになっている必要があります。 ワークスペース管理者に、適切なアクセス許可を付与するよう依頼します。         |
+|ワークスペースに対するアクセス許可がない。     |デプロイするには、ワークスペース メンバーになっている必要があります。 ワークスペース管理者に、適切なアクセス許可を付与するよう依頼します。         |
 |Power BI 管理者がワークスペースの作成を無効にしている。     |Power BI 管理者に連絡してサポートを依頼します。         |
 |ワークスペースが[新しいワークスペース エクスペリエンス](../collaborate-share/service-create-the-new-workspaces.md)でない。     |新しいワークスペース エクスペリエンスでコンテンツを作成します。 クラシック ワークスペースにコンテンツがある場合は、新しいワークスペース エクスペリエンスに[アップグレード](../collaborate-share/service-upgrade-workspaces.md)できます。         |
 |[選択的配置](deployment-pipelines-get-started.md#selective-deployment)を使用しており、コンテンツのデータセットを選択していない。     |次のいずれかの操作を行います。 </br></br>データセットにリンクされているコンテンツの選択を解除します。 選択されていないコンテンツ (レポートやダッシュボードなど) は、次のステージにコピーされません。 </br></br>選択したコンテンツにリンクされているデータセットを選択します。 データセットが次のステージにコピーされます。         |
@@ -112,7 +119,7 @@ Power BI の配置パイプラインがどのようなものであるかを理�
 
 ![破損したリンクのために配置が失敗した場合に表示される、無効なルールに関するエラーのスクリーンショット。](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
-以前は成功した配置が、破損したリンクのために失敗する場合は、警告が表示されます。 **[ルールの構成]** をクリックすると、失敗したデータセットがマークされている配置設定ペインに移動できます。 データセットをクリックすると、破損したルールがマークされます。
+以前は成功した配置が、破損したリンクのために失敗する場合は、警告が表示されます。 **[ルールの構成]** を選択すると、失敗したデータセットがマークされているデプロイ設定ペインに移動できます。 データセットを選択すると、破損したルールがマークされます。
 
 正常に配置するには、破損したルールを修正または削除し、再配置します。
 
@@ -120,9 +127,9 @@ Power BI の配置パイプラインがどのようなものであるかを理�
 
 Power BI サービスでは、データ ソース接続を変更することはできません。
 
-テスト ステージまたは運用ステージでデータ ソースを変更する場合は、[データセット ルール](deployment-pipelines-get-started.md#step-4---create-dataset-rules)または [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) を使用できます。 データセット ルールは、次回の配置後にのみ有効になります。
+テスト ステージまたは運用ステージでデータ ソースを変更する場合は、[データセット ルール](deployment-pipelines-get-started.md#step-4---create-dataset-rules)または [API](/rest/api/power-bi/datasets/updateparametersingroup) を使用できます。 データセット ルールは、次回の配置後にのみ有効になります。
 
-### <a name="i-fixed-a-bug-in-production-but-now-i-cant-click-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>運用環境でバグを修正しましたが、[deploy to previous stage]\(前のステージに配置する\) ボタンをクリックできなくなりました。 淡色表示になったのはなぜですか。
+### <a name="i-fixed-a-bug-in-production-but-now-i-cant-select-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>運用環境でバグを修正しましたが、[deploy to previous stage]\(前のステージにデプロイする\) ボタンを選択できなくなりました。 淡色表示になったのはなぜですか。
 
 逆方向に配置できるのは、配置先が空のステージである場合のみです。 テスト ステージにコンテンツがある場合は、運用環境から逆方向に配置することはできません。
 
@@ -165,7 +172,7 @@ Multi-Geo はサポートされています。 異なる geo のステージ間�
 >[配置パイプラインの概要](deployment-pipelines-overview.md)
 
 >[!div class="nextstepaction"]
->[配置パイプラインの使用を開始する](deployment-pipelines-get-started.md)
+>[デプロイ パイプラインの使用を開始する](deployment-pipelines-get-started.md)
 
 >[!div class="nextstepaction"]
 >[配置パイプライン プロセスを理解する](deployment-pipelines-process.md)

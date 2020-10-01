@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: cecb78ec986ddf672a9560598ccf68c95fa5d659
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ab3b250734e2c2c2b4d97d952357669761da9095
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034223"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854165"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Power BI で Microsoft Cloud App Security の制御を使用する
 
@@ -22,7 +22,7 @@ Power BI で Cloud App Security を使用すると、Power BI のレポート、
 
 ![Cloud App Security コントロール ペインを使用する](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-01.png)
 
-Cloud App Security は、Power BI だけでなく、あらゆる種類のアプリとサービスに対して構成できます。 Power BI のデータと分析に対する Cloud App Security 保護を活用するには、Power BI と連携するように Cloud App Security を構成する必要があります。 Cloud App Security について、その動作の概要、ダッシュボード、アプリのリスク スコアなどの詳細については、[Cloud App Security](https://docs.microsoft.com/cloud-app-security/) のドキュメントを参照してください。
+Cloud App Security は、Power BI だけでなく、あらゆる種類のアプリとサービスに対して構成できます。 Power BI のデータと分析に対する Cloud App Security 保護を活用するには、Power BI と連携するように Cloud App Security を構成する必要があります。 Cloud App Security について、その動作の概要、ダッシュボード、アプリのリスク スコアなどの詳細については、[Cloud App Security](/cloud-app-security/) のドキュメントを参照してください。
 
 
 ## <a name="using-cloud-app-security-with-power-bi"></a>Power BI で Cloud App Security を使用する
@@ -41,17 +41,17 @@ Power BI で Cloud App Security を使用するには、関連する Microsoft �
 ### <a name="set-session-policies-in-azure-ad-required"></a>Azure AD でセッション ポリシーを設定する (必須)
 セッション制御を設定するために必要な手順は、Azure AD ポータルと Cloud App Security ポータルで完了します。 Azure AD ポータルでは、Power BI 用の条件付きアクセス ポリシーを作成し、Cloud App Security サービスを介して Power BI で使用されるセッションをルーティングします。 
 
-Cloud App Security は、リバース プロキシ アーキテクチャを使用して動作し、Power BI ユーザー アクティビティをリアルタイムで監視するために Azure AD 条件付きアクセスと統合されています。 プロセスを理解するのに役立つ手順を以下に示します。また、各手順のリンク先の内容には、段階を踏んだ詳細な指示があります。 また、プロセス全体について説明している [Cloud App Security の記事](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)を読むこともできます。
+Cloud App Security は、リバース プロキシ アーキテクチャを使用して動作し、Power BI ユーザー アクティビティをリアルタイムで監視するために Azure AD 条件付きアクセスと統合されています。 プロセスを理解するのに役立つ手順を以下に示します。また、各手順のリンク先の内容には、段階を踏んだ詳細な指示があります。 また、プロセス全体について説明している [Cloud App Security の記事](/cloud-app-security/proxy-deployment-aad)を読むこともできます。
 
-1.  [Azure AD 条件付きアクセスのテスト ポリシーを作成する](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#add-azure-ad)
-2.  [ポリシーのスコープに含まれるユーザーを使用して各アプリにサインインする](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#sign-in-scoped)
-3.  [アプリがアクセスとセッション制御を使用するように構成されていることを確認する](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#portal)
-4.  [デプロイをテストする](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#step-4-test-the-deployment)
+1.  [Azure AD 条件付きアクセスのテスト ポリシーを作成する](/cloud-app-security/proxy-deployment-aad#add-azure-ad)
+2.  [ポリシーのスコープに含まれるユーザーを使用して各アプリにサインインする](/cloud-app-security/proxy-deployment-aad#sign-in-scoped)
+3.  [アプリがアクセスとセッション制御を使用するように構成されていることを確認する](/cloud-app-security/proxy-deployment-aad#portal)
+4.  [デプロイをテストする](/cloud-app-security/proxy-deployment-aad#step-4-test-the-deployment)
 
-セッション ポリシーを設定するプロセスについては、「[セッション ポリシー](https://docs.microsoft.com/cloud-app-security/session-policy-aad)」の記事で詳しく説明されています。 
+セッション ポリシーを設定するプロセスについては、「[セッション ポリシー](/cloud-app-security/session-policy-aad)」の記事で詳しく説明されています。 
 
 ### <a name="set-anomaly-detection-policies-to-monitor-power-bi-activities-recommended"></a>異常検出ポリシーを設定して Power BI アクティビティを監視する (推奨)
-個別にスコープを指定できる Power BI の異常検出ポリシーを、ポリシーに含めたり除外したりするユーザーおよびグループのみに適用するように定義することができます。 [詳細情報](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#scope-anomaly-detection-policies)
+個別にスコープを指定できる Power BI の異常検出ポリシーを、ポリシーに含めたり除外したりするユーザーおよびグループのみに適用するように定義することができます。 [詳細情報](/cloud-app-security/anomaly-detection-policy#scope-anomaly-detection-policies)
 
 Cloud App Security には、Power BI 専用の 2 つの組み込み検出もあります。 [詳細については、このドキュメントで後述するセクションをご覧ください](#built-in-cloud-app-security-detections-for-power-bi)。
 
@@ -69,7 +69,7 @@ Cloud App Security 検出を使用すると、管理者は監視対象のアプ�
 
 * **レポートの大量共有** – ユーザーが大量のレポートを 1 つのセッションで共有した場合に検出されます。
 
-これらの検出の設定は、Cloud App Security ポータルで構成されます。 [詳細情報](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#unusual-activities-by-user) 
+これらの検出の設定は、Cloud App Security ポータルで構成されます。 [詳細情報](/cloud-app-security/anomaly-detection-policy#unusual-activities-by-user) 
 
 ## <a name="power-bi-admin-role-in-cloud-app-security"></a>Cloud App Security での Power BI 管理者ロール
 
@@ -80,10 +80,9 @@ Power BI での Cloud App Security の使用は、ユーザー セッション�
 
 * Cloud App Security は、Excel、PowerPoint、PDF ファイルでのみ操作できます。
 * Power BI のセッション ポリシーで秘密度ラベル機能を使用する場合は、Azure Information Protection Premium P1 または Premium P2 のライセンスを持っている必要があります。 Microsoft Azure Information Protection は、スタンドアロンとして、またはいずれかの Microsoft ライセンス スイートを介して購入できます。 詳細については、「[Azure Information Protection の価格](https://azure.microsoft.com/pricing/details/information-protection/)」を参照してください。 また、ご使用の Power BI 資産に秘密度ラベルが適用されている必要があります。
-* セッション制御は、任意のオペレーティング システムの主要なプラットフォーム上で任意のブラウザーで使用できます。 Internet Explorer 11、Microsoft Edge (最新版)、Google Chrome (最新版)、Mozilla Firefox (最新版)、Apple Safari (最新版) のいずれかを使用することをお勧めします。 Power BI パブリック API 呼び出しとその他のブラウザーベース以外のセッションは、Cloud App Security のセッション制御の一部としてはサポートされていません。 詳細は[こちら](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)をご覧ください。
+* セッション制御は、任意のオペレーティング システムの主要なプラットフォーム上で任意のブラウザーで使用できます。 Internet Explorer 11、Microsoft Edge (最新版)、Google Chrome (最新版)、Mozilla Firefox (最新版)、Apple Safari (最新版) のいずれかを使用することをお勧めします。 Power BI パブリック API 呼び出しとその他のブラウザーベース以外のセッションは、Cloud App Security のセッション制御の一部としてはサポートされていません。 詳細は[こちら](/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)をご覧ください。
 
 > [!CAUTION]
-> * 現在、Cloud App Security の "*コンテンツ検査*" ポリシーは、Excel ファイル ポリシーを適用すると Power BI で使用できないため、このポリシーを Power BI に設定しないでください。
 > * セッション ポリシーの "アクション" 部分では、項目にラベルが存在しない場合にのみ、"保護" 機能が機能します。 ラベルが既に存在する場合、"保護" アクションは適用されません。Power BI の項目に既に適用されている既存のラベルをオーバーライドすることはできません。
 
 ## <a name="example"></a>例
@@ -110,7 +109,7 @@ Power BI での Cloud App Security の使用は、ユーザー セッション�
 
       **[アクティビティ ソース]** セクションで、関連するブロック ポリシーを選択します。 アンマネージド デバイスと非準拠デバイスをブロックすることをお勧めします。 セッションが Power BI のときにダウンロードをブロックすることを選択します。
 
-        ![セッション ポリシーの作成](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-05.png)
+        ![セッション ポリシーの作成 - ダウンロードをブロックします。](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-05.png)
 
         下にスクロールすると、他のオプションが表示されます。 次の図は、これらのオプションと追加の例を示しています。 
 
@@ -119,28 +118,25 @@ Power BI での Cloud App Security の使用は、ユーザー セッション�
   6. ご自分のニーズに合った **[ブロック]** オプションを選択します。
   7. このようなアクションに対するアラートを作成していることを確認します。
 
-        ![セッション ポリシー設定の選択](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-06.png)
+        ![セッション ポリシー設定を選択します。](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-06.png)
 
         
 
   8. 最後に、 **[作成]** ボタンを選択して、セッション ポリシーを作成します。
 
-        ![セッション ポリシーの作成](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
-
-> [!CAUTION]
-> Power BI Excel ファイルに**コンテンツ検査**ポリシーは作成しないでください。 これはこの機能に関する既知の制限です。
+        ![セッション ポリシーを作成します。](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
 
 ## <a name="next-steps"></a>次の手順
 この記事では、Cloud App Security で Power BI に対してデータとコンテンツの保護をどのように提供できるかについて説明しました。 次の記事にも関心をもたれるかもしれません。これらの記事では、Power BI のデータ保護と、それを有効にする Azure サービスのサポート コンテンツについて説明しています。
 
 * [Power BI の秘密度ラベルの概要](service-security-sensitivity-label-overview.md)
 * [Power BI で秘密度ラベルを有効にする](service-security-enable-data-sensitivity-labels.md)
-* [Power BI で秘密度ラベルを適用する方法](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Power BI で秘密度ラベルを適用する方法](service-security-apply-data-sensitivity-labels.md)
 
 次の Azure およびセキュリティについての記事にも関心をもたれるかもしれません。
 
-* [Microsoft Cloud App Security Conditional Access App Control でアプリを保護する](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
-* [おすすめアプリへの Conditional Access App Control の展開](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
-* [セッション ポリシー](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
-* [秘密度ラベルの概要](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+* [Microsoft Cloud App Security Conditional Access App Control でアプリを保護する](/cloud-app-security/proxy-intro-aad)
+* [おすすめアプリへの Conditional Access App Control の展開](/cloud-app-security/proxy-deployment-aad)
+* [セッション ポリシー](/cloud-app-security/session-policy-aad)
+* [秘密度ラベルの概要](/microsoft-365/compliance/sensitivity-labels)
 * [データ保護メトリック レポート](service-security-data-protection-metrics-report.md)

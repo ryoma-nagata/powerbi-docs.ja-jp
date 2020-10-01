@@ -1,5 +1,5 @@
 ---
-title: Power BI コンシューマーのライセンスの種類
+title: Power BI ビジネス ユーザーのライセンスの種類
 description: さまざまな種類のライセンスと、使用しているライセンスの判別方法について説明します。
 author: mihart
 ms.reviewer: lukasz
@@ -7,22 +7,22 @@ ms.service: powerbi
 ms.subservice: powerbi-consumer
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 07/15/2020
+ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 6e84158d01f1e257743052df4d621485497379fd
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409492"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763944"
 ---
-# <a name="licenses-and-subscriptions-for-consumers"></a>"*コンシューマー*" のライセンスとサブスクリプション
+# <a name="licenses-and-subscriptions-for-business-users"></a>"*ビジネス ユーザー*" のライセンスとサブスクリプション
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-"[*コンシューマー*](end-user-consumer.md)" は、Power BI サービスを使用してレポートやダッシュボードを調べ、データに裏付けられたビジネス上の意思決定を行うことができます。 Power BI をしばらく使用しているか、または "*デザイナー*" の同僚とチャットしていると、特定の種類のライセンス、サブスクリプション、またはアクセス許可がある場合にのみ使用できる機能があることに気づくでしょう。
+"[*ビジネス ユーザー*](end-user-consumer.md)" は、Power BI サービスを使用してレポートやダッシュボードを調べ、データに裏付けられたビジネス上の意思決定を行うことができます。 Power BI をしばらく使用しているか、または "*デザイナー*" の同僚とチャットしていると、特定の種類のライセンス、サブスクリプション、またはアクセス許可がある場合にのみ使用できる機能があることに気づくでしょう。
 
 Power BI サービスで何ができるかは、次の 3 つのことによって決まります。
 -    使用しているライセンスとサブスクリプションの種類。
@@ -36,13 +36,13 @@ Power BI サービスで何ができるかは、次の 3 つのことによっ�
 
 ## <a name="licenses"></a>ライセンス
 
-Power BI サービスの各ユーザーは、*Free* ライセンスまたは *Pro* ライセンスのいずれかを使用しています。 Power BI "*コンシューマー*" の場合は、おそらく、Power BI テナント管理者によって管理されているライセンスを使用しています。
+Power BI サービスの各ユーザーは、*無料*ライセンスまたは *Pro* ライセンスのいずれかを持っています。 Power BI "*ビジネス ユーザー*" の場合は、おそらく、Power BI テナント管理者によって管理されている無料ライセンスを使用しています。
 
 複数のライセンスを同時に所有している可能性もあります。  サービスでは、常に、ユーザーが現在所有している最も制限の少ないライセンスに等しいエクスペリエンスが提供されます。
 
 ## <a name="power-bi-premium-capacity"></a>Power BI Premium 容量
 
-Premium は組織のサブスクリプションであり、コンテンツの格納方法が異なります (専用容量)。 Premium を使用すれば、アクセス許可を持つ組織内または組織外いずれのユーザーも、個別の Power BI Pro ライセンスを購入することなく、Power BI のコンテンツを見ることができます。 
+Premium は組織のサブスクリプションであり、コンテンツの格納方法が異なります (専用容量)。 Premium を使用すれば、アクセス許可を持つ組織内または組織外いずれのユーザーも、個別の Power BI Pro ライセンスを購入することなく、この Premium 容量に格納されているコンテンツを見ることができます。 
 
 Premium では、コンテンツを表示する受信者に Pro ライセンスを要求することなく、Pro ユーザーによるコンテンツの広範囲な配信が可能になります。 コンテンツ デザイナーの場合は Pro ライセンスが必要です。 デザイナーは、データ ソースに接続し、データをモデル化し、ワークスペースのアプリとしてパッケージ化されるレポートおよびダッシュボードを作成できます。 Pro ライセンスを持たないユーザーは Power BI Premium 容量内のワークスペースに、[そのワークスペースでのロール](end-user-workspaces.md)を割り当てられている限りアクセスできます。
 
@@ -57,7 +57,7 @@ Premium 容量の詳細については、「[Power BI Premium とは](../admin/s
 
 この最初のユーザー Pradtanna は Office 365 E5 を使用しています。これには、Power BI Pro ライセンスが含まれています。
 
-![Office ポータルの [サブスクリプション] タブ](media/end-user-license/power-bi-license-office.png)
+![Office 365 E5 サブスクリプションを示す Office ポータルの [サブスクリプション] タブ](media/end-user-license/power-bi-license-office.png)
 
 この 2 番目のユーザー Zalan は、Power BI Free ライセンスを持っています。 
 
@@ -93,7 +93,7 @@ Pro ユーザーは既に Zalan とワークスペースを共有しているこ
 
 組織が Premium サブスクリプションを購入する場合、管理者は通常、Premium 容量内で作業を行い、コンテンツの作成と共有を行う従業員に対して、Pro ライセンスを割り当てます。 Pro ユーザーは、[ワークスペース](end-user-workspaces.md)を作成し、それらのワークスペースにコンテンツ (ダッシュボード、レポート、アプリ) を追加します。 それらのワークスペース内で Free ユーザーが共同作業できるようにするには、管理者または Pro ユーザーは、"*専用容量*" にワークスペースを割り当てます。  
 
-|ライセンスの種類  |共有された容量  |専用容量  |
+|ライセンスの種類  |共有された容量 |専用 Premium 容量  |
 |---------|---------|---------|
 |**Free**     |  自分用のコンテンツを作成してそのコンテンツと対話する、個人用サンドボックスとして使用します。 Free ライセンスは、Power BI サービスを試すのに適した方法です。 他のユーザーのコンテンツを使用したり、自分のコンテンツを他のユーザーと共有したりすることはできません <sup>1</sup>     |   専用容量に割り当てられているコンテンツ、および他のユーザーから共有されているコンテンツを使用します。 Free ユーザーと Pro ユーザーは、Free ユーザーが Pro アカウントを持っていなくても共同作業を行うことができます。      |
 |**Pro**     |  コンテンツを作成して共有することで、他の Pro ユーザーと共同作業します。        |  コンテンツを作成して共有することで、Free および Pro ユーザーと共同作業します。       |
@@ -109,7 +109,7 @@ Pro ユーザーは既に Zalan とワークスペースを共有しているこ
 
     ![3 つのワークスペースの画像](media/end-user-license/power-bi-dedicated.jpg)
 
-Power BI Pro "*デザイナー*" は、いずれかのワークスペースで、他の Pro ユーザーと共有および共同作業できます。 ただし、Power BI Pro ユーザーが Free ユーザーと共有および共同作業できる唯一の方法は、Premium 専用容量であるワークスペース B を使用することです。  ワークスペース内で、デザイナーが共同作業者にロールを割り当てます。 自分のロールによって、ワークスペース内で実行できるアクションが決まります。 通常、Power BI "*コンシューマー*" には、"*ビューアー*" ロールが割り当てられています。 ロールの詳細については、[Power BI コンシューマー向けのワークスペース](end-user-workspaces.md)に関する記事をご覧ください。
+Power BI Pro "*デザイナー*" は、いずれかのワークスペースで、他の Pro ユーザーと共有および共同作業できます。 ただし、Power BI Pro ユーザーが Free ユーザーと共有および共同作業できる唯一の方法は、Premium 専用容量であるワークスペース B を使用することです。  ワークスペース内で、デザイナーが共同作業者にロールを割り当てます。 自分のロールによって、ワークスペース内で実行できるアクションが決まります。 Power BI "*ビジネス ユーザー*" には、通常、"*ビューアー*" ロールが割り当てられます。 ロールの詳細については、[Power BI ビジネス ユーザー向けのワークスペース](end-user-workspaces.md)に関する記事を参照してください。
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 
@@ -129,6 +129,6 @@ Power BI Pro "*デザイナー*" は、いずれかのワークスペースで�
 
 ## <a name="next-steps"></a>次の手順
 
-- [自分が Power BI の "*コンシューマー*" か確認する](end-user-consumer.md)    
+- [Power BI "*ビジネス ユーザー*" とは](end-user-consumer.md)    
 - [ワークスペースについて学習する](end-user-workspaces.md)    
-- [ライセンスの種類別の Power BI コンシューマー機能を確認する](end-user-features.md)
+- [ライセンスの種類別に Power BI ビジネス ユーザーの機能を確認する](end-user-features.md)

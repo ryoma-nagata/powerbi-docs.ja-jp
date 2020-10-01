@@ -1,22 +1,22 @@
 ---
-title: Power BI for Mixed Reality アプリ (プレビュー)
+title: HoloLens の Power BI (第 1 世代)
 description: 仮想世界に専念した状態で、または使用環境のコンテキストで、Power BI for Mixed Reality アプリ (プレビュー) でダッシュボードとレポートを表示します。
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b0288bf3980ac54b960160f011531f3667d8edff
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205920"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005516"
 ---
-# <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality アプリ (プレビュー)
-仮想世界に専念した状態で Power BI for Mixed Reality アプリ (プレビュー) でダッシュボードとレポートを表示するか、使用環境のコンテキストで特定の場所にダッシュボードとレポートを配置します。 
+# <a name="power-bi-for-hololens-1st-gen"></a>HoloLens の Power BI (第 1 世代)
+仮想世界に専念した状態で Power BI for HoloLens アプリでダッシュボードとレポートを表示するか、使用環境のコンテキストで特定の場所にダッシュボードとレポートを配置します。 
 
 Windows ストアから [Power BI for Mixed Reality アプリをダウンロード](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab)します: Windows ストアでは "Power BI Mobile" と呼ばれています。 仮想世界のダッシュボードとレポートで対話してから、配置するものを選択します。 
 

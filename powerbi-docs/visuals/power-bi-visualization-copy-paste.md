@@ -6,15 +6,15 @@ ms.reviewer: maggie tsang
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/13/2020
+ms.date: 09/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5791f2428c13bca9a6e2df02e7739623bb51fc96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785f16b84dee1509ab04255587724e5ce39a043c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233283"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763124"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>レポートの視覚エフェクトをコピーして貼り付ける
 
@@ -23,7 +23,7 @@ ms.locfileid: "85233283"
 この記事では、ビジュアルをコピーして貼り付けるための 2 つの方法について説明します。 
 * レポート内のビジュアルをコピーし、別のレポート ページに貼り付ける (レポートの編集権限が必要)
 
-* Power BI からビジュアルのイメージをクリップボードにコピーし、他のアプリケーションに貼り付ける
+* 視覚エフェクトの画像を Power BI からクリップボードにコピーし、他のアプリケーションに貼り付けます (Power BI サービスとモバイルでは使用可能であり、Power BI Desktop では使用できません)
 
 ## <a name="copy-and-paste-within-the-same-report"></a>同じレポート内でコピーして貼り付ける
 Power BI レポートのビジュアルをレポート内のあるページから同じレポート内の同じページまたは別のページにコピーできます。 
@@ -41,7 +41,7 @@ Power BI レポートのビジュアルをレポート内のあるページか�
 
 ## <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>ビジュアルをイメージとしてクリップボードにコピーする
 
-Power BI レポートまたはダッシュボードからイメージを共有したいと思ったことはありませんか。 ビジュアルをコピーし、貼り付けがサポートされる他のアプリケーションに貼り付けられるようになりました。 
+Power BI レポートまたはダッシュボードからイメージを共有したいと思ったことはありませんか。 これで、Power BI サービスまたはモバイルから視覚エフェクトをコピーし、貼り付けをサポートする他のアプリケーションに貼り付けることができます。 
 
 ビジュアルの静的なイメージをコピーするときに、メタデータと共にビジュアルのコピーを取得します。 これには、以下のことが含まれます。
 * Power BI レポートまたはダッシュボードに戻るリンク
@@ -52,7 +52,7 @@ Power BI レポートまたはダッシュボードからイメージを共有�
 
 ### <a name="copy-from-a-dashboard-tile"></a>ダッシュボード タイルからコピーする
 
-1. コピー元のダッシュボードに移動します。
+1. Power BI サービスを開き、コピー元のダッシュボードに移動します。
 
 2. ビジュアルの右上隅にある **[その他のオプション] (...)** を選択し、 **[視覚エフェクトをイメージとしてコピー]** を選びます。 
 
@@ -64,15 +64,15 @@ Power BI レポートまたはダッシュボードからイメージを共有�
 
 4. ビジュアルの準備ができたら、**Ctrl + V** キーを使用して別のアプリケーションに貼り付けるか、右クリックして [貼り付け] を選択します。 以下のスクリーンショットでは、ビジュアルが Microsoft Word に貼り付けられています。 
 
-    ![Outlook に貼り付けられたビジュアル](media/power-bi-visualization-copy-paste/power-bi-paste-word.png)
+    ![Word に貼り付けられた視覚エフェクト](media/power-bi-visualization-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>レポートのビジュアルからコピーする 
 
-1. コピー元のレポートに移動します。
+1. Power BI サービスを開き、コピー元のレポートに移動します。
 
 2. ビジュアルの右上隅にある **[視覚エフェクトをイメージとしてコピー]** のアイコンを選択します。 
 
-    ![表示されている [視覚エフェクトをイメージとしてコピー] アイコン](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
+    ![[視覚エフェクトをイメージとしてコピー] アイコンを示すスクリーンショット](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
 
 3. **[Your visual is ready to copy]\(ビジュアルをコピーする準備ができました\)** ダイアログが表示されたら、 **[クリップボードにコピー]** を選択します。
 
@@ -95,7 +95,7 @@ Power BI レポートまたはダッシュボードからイメージを共有�
 コンテンツを所有しているか、テナントの管理者である場合、レポートまたはダッシュボードからビジュアルをイメージとしてコピーできるようにするかどうかを制御できます。
 
 #### <a name="disable-copy-as-an-image-for-a-specific-visual"></a>特定のビジュアルのイメージとしてのコピーを無効にする
-ユーザーが特定のビジュアルをコピーできないようにする場合、そのビジュアルからコピー アイコンを削除できます。
+ユーザーが特定の視覚エフェクトをコピーできないようにする場合、Power BI サービスでその視覚エフェクトからコピー アイコンを削除できます。    
 1. ペイント ローラー アイコンを選び、[書式設定] ウィンドウを開きます。 
 
 1. **[Visual formatting]\(ビジュアルの書式設定\)** カードを開きます。
@@ -129,6 +129,8 @@ Power BI レポートまたはダッシュボードからイメージを共有�
    ![コピーを使用できない](media/power-bi-visualization-copy-paste/power-bi-copy-grey.png)
 
 
+Q:[イメージとしてコピー] オプションが表示されません    
+A:Power BI Desktop を使用している場合、この機能はまだ使用できません    
 Q:ビジュアルでコピー アイコンが無効になっているのはなぜですか?    
 A:現在、ネイティブ Power BI ビジュアルと認定済みビジュアルがサポートされています。 次のような特定のビジュアルのサポートは制限されています。 
 - ESRI とその他のマップ ビジュアル 
