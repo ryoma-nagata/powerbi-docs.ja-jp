@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/22/2020
+ms.date: 09/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2268cb86ec60e2b461c66cca6034fd47a30c2e38
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: acfe54479ae02b950dcc8521807add7c06071207
+ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91019977"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "91224189"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop の新機能
 
@@ -53,7 +53,7 @@ https://www.youtube.com/watch?v=gPGy18Yo0Go
 
 https://www.youtube.com/watch?v=TPsV7N4bZZg?t=448
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>分析
 * スマート物語 (プレビュー) [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=51)  [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
 * Q&A で算術演算がサポートされるようになりました [[ビデオ]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=333)   [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
 
@@ -97,7 +97,7 @@ https://www.youtube.com/watch?v=TPsV7N4bZZg?t=448
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop の毎月の更新プログラムのビデオ
 次のビデオでは、それぞれの更新について説明しています。 ブログの投稿からこのビデオを視聴することもできます。
 
-> [!VIDEO https://www.youtube.com/embed/TPsV7N4bZZg]
+> [!VIDEO https://www.youtube.com/embed/gPGy18Yo0Go]
 
 ## <a name="more-videos"></a>他のビデオ
 
