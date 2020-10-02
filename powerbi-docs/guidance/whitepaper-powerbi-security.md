@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 19548729f4ae85334fea14584e78ad4ee05a5c24
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965326"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635702"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI のセキュリティに関するホワイトペーパー
 
@@ -171,12 +171,11 @@ Power BI サービスによるデータの管理方法は、データが **Direc
 
 次の表は、使用されているクエリの種類に基づいて Power BI データを説明したものです。 **X** は、関連するクエリの種類を使用する際に Power BI データが存在することを示しています。
 
-
-|  |インポート  |DirectQuery  |ライブ接続  |
-|---------|---------|---------|---------|
-|スキーマ     |     X    |    X     |         |
-|行データ     |    X     |         |         |
-|ビジュアルのデータ キャッシュ     |    X     |     X    |    X     |
+|                         | インポート   | DirectQuery | ライブ接続  |
+|-------------------------|----------|-------------|---------------|
+|**[スキーマ]**               | X        | X           |               |
+|**行データ**             | X        |             |               |
+|**ビジュアルのデータ キャッシュ** | X        | X           | X             |
 
 DirectQuery と他のクエリの違いによって、Power BI サービスによる保存データの処理方法と、クエリ自体が暗号化されるかどうかが決まります。 以下のセクションでは、保存データと移動中のデータ、および暗号化、場所、データを処理するプロセスについて説明します。
 
@@ -223,7 +222,7 @@ CEK の暗号化に使用されるキー暗号化キー (KEK) は、事前に定
         - データセットが更新の対象として設定されている場合、資格情報はデータ移動の Azure SQL Database で暗号化されて格納されます。 暗号化キーは、顧客のインフラストラクチャ上でゲートウェイを実行しているコンピューターに格納されます。
         - データセットが更新の対象として設定されていない場合は、データ ソースの資格情報は格納されません。
 
-1. Data
+1. データ
 
     a. オンプレミスの Analysis Services と、DirectQuery – Power BI サービスでは何も格納されません。
 
@@ -309,7 +308,7 @@ Power BI では、次の方法でデータ整合性の監視が実現されま�
     c. プッシュされたデータ - なし (適用できません)
 
     d. ETL - なし (計算ノードには何も格納されず、また上記の「**保存データ**」セクションの説明と違いはありません)
-4. Data
+4. データ
 
     一部のデータ成果物は、計算ノードのディスク上に一定の時間、格納することができます。
 
