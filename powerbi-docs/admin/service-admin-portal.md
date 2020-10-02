@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/03/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ae904f203c3f5b9437fd01b9306cc160e6feff1b
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857958"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375260"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -270,7 +270,7 @@ Microsoft 365 グループに基づく従来のワークスペースについて
 
 ### <a name="publish-to-web"></a>Web に公開
 
-Power BI テナントの管理者には、ユーザーが埋め込みコードを作成してレポートを Web に公開するためのオプションが、 **[Web に公開]** 設定で提供されます。 この機能により、レポートとそのデータを、Web 上のすべてのユーザーが利用できるようになります。 Web への公開の詳細については、[こちら](../collaborate-share/service-publish-to-web.md)を参照してください。
+Power BI 管理者には、ユーザーが埋め込みコードを作成してレポートを Web に公開するためのオプションが、 **[Web に公開]** 設定により提供されます。 この機能により、レポートとそのデータを、Web 上のすべてのユーザーが利用できるようになります。 Web への公開の詳細については、[こちら](../collaborate-share/service-publish-to-web.md)を参照してください。
 
 > [!NOTE]
 > Web に公開する埋め込みコードの新規作成を許可できるのは、Power BI 管理者のみです。 組織には、既存の埋め込みコードが存在する場合があります。 現在、公開されているレポートを確認するには、管理ポータルの [[埋め込みコード]](service-admin-portal.md#embed-codes) セクションを参照してください。
@@ -319,7 +319,7 @@ Power BI テナントの管理者には、ユーザーが埋め込みコード�
 ![[Excel にエクスポート] 設定](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
 >[!IMPORTANT]
-> [Excel にエクスポート] 設定が導入される前は、Excel ファイルへのデータのエクスポートはデータ設定のエクスポートで制御されていました。 このため、[Excel にエクスポート] 設定の導入前に存在していたテナントでは、テナント管理者が [Excel にエクスポート] 設定を確認すると、 *[未適用の変更]* があることがわかります。 新しい設定を有効にするには、これらの変更を適用する必要があります。 それ以外の場合、Excel ファイルへのエクスポートは、[データ設定のエクスポート] によって引き続き制御されます。
+> [Excel にエクスポート] 設定が導入される前は、Excel ファイルへのデータのエクスポートはデータ設定のエクスポートで制御されていました。 このため、[Excel にエクスポート] 設定の導入前に存在していたテナントでは、Power BI 管理者が [Excel にエクスポート] 設定を確認すると、 *[未適用の変更]* があることがわかります。 新しい設定を有効にするには、これらの変更を適用する必要があります。 それ以外の場合、Excel ファイルへのエクスポートは、[データ設定のエクスポート] によって引き続き制御されます。
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>PowerPoint プレゼンテーションまたは PDF ドキュメントとしてレポートをエクスポート
 
@@ -401,11 +401,11 @@ Azure AD B2B ゲスト ユーザーは、組織内のコンテンツを編集お
 
 ## <a name="featured-tables-settings"></a>おすすめのテーブルの設定
 
-**[テナント設定]** で、 **[Allow connections to featured tables]\(おすすめのテーブルへの接続を許可\)** のテナント設定を選択すると、組織内のどのユーザーが Excel データ型ギャラリーのおすすめのテーブルを使用できるかを Power BI 管理者が制御できるようになります。 
+**[テナント設定]** の **[Allow connections to featured tables]\(おすすめのテーブルへの接続を許可\)** 設定を使用すると、組織内のどのユーザーが Excel データ型ギャラリーのおすすめのテーブルを使用できるかを Power BI 管理者が制御できるようになります。 
 
 :::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="新しいワークスペース エクスペリエンスを作成する":::
 
-**[データのエクスポート]** テナント設定が **[無効]** に設定されている場合は、おすすめのテーブルへの接続も無効になります。
+**[データのエクスポート]** 設定が **[無効]** に設定されている場合は、おすすめのテーブルへの接続も無効になります。
 
 [Excel での Power BI のおすすめのテーブル](../collaborate-share/service-excel-featured-tables.md)について、詳細をご確認ください。
 
@@ -586,7 +586,7 @@ Power BI の情報保護を有効にすると、管理ポータルにデータ�
 
 ## <a name="manage-featured-content"></a>おすすめコンテンツを管理する
 
-テナント管理者は、組織全体により Power BI ホームのおすすめセクションで推奨されたすべてのレポート、ダッシュボード、アプリを管理できます。
+Power BI 管理者は、おすすめセクションに昇格されているすべてのレポート、ダッシュボード、アプリを、組織全体で Power BI ホームで管理できます。
 
 - 管理ポータルで **[おすすめコンテンツ]** を選択します。
 

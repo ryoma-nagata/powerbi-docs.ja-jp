@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 521c1cbc60c6d616c06bde6b6826bb270d3ddba0
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642290"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375306"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>データ ソースの管理 - Analysis Services
 
@@ -219,7 +219,9 @@ EffectiveUserName は、ドメインに参加していない Analysis Services �
 
 自分の UPN がわからないけれども、自分がドメイン管理者ではない場合もあります。 ワークステーションから次のコマンドを実行して、自分のアカウントの UPN を確認できます。
 
-    whoami /upn
+```dos
+whoami /upn
+```
 
 結果はメール アドレスに似ていますが、これはドメイン アカウントの UPN です。 Analysis Services データ ソースをライブ接続に使用している場合に、この UPN が Power BI へのサインインに使用しているメール アドレスと一致しない場合は、[ユーザー名をマップ](#map-user-names-for-analysis-services-data-sources)する方法を参照してください。
 
@@ -235,7 +237,7 @@ Analysis Services ライブ接続を使用する場合は、ローカル Active 
 
 - [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) ツールを使用し、ローカル アカウントと Azure AD テナントを同期させることができます。
 
-   Azure AD Connect ツールには、ディレクトリ同期と認証の設定のオプションがあります。 オプションには、パスワード ハッシュ同期、パススルー認証、およびフェデレーションが含まれます。 テナント管理者またはローカル ドメイン管理者ではない場合、IT 管理者に問い合わせ、構成を支援してもらいます。
+   Azure AD Connect ツールには、ディレクトリ同期と認証の設定のオプションがあります。 オプションには、パスワード ハッシュ同期、パススルー認証、およびフェデレーションが含まれます。 管理者でもローカル ドメイン管理者でもない場合は、構成のサポートについて IT 管理者にお問い合わせください。
 
    Azure AD Connect を利用すると、UPN は Azure AD とローカル Active Directory インスタンス間で一致します。
 

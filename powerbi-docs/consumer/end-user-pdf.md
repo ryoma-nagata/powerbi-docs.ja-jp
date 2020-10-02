@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: add9e4e5c5a68354eb3e2d1b9c9b86a3b8c4e614
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 7eb55555efa6fe3eb9acad5c67e05288f0e55f21
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763818"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527426"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Power BI から PDF にレポートをエクスポートする
 
@@ -60,7 +60,7 @@ Power BI サービスで、レポートを選択してそれをキャンバス�
 * ESRI 視覚エフェクトはサポートされていません
 * 現在、レポート ページが 50 ページを超えるレポートはエクスポートできません。
 * レポートを PDF にエクスポートする処理が完了するまで数分かかる場合がありますので、しばらくお待ちください。 必要な時間に影響する要因としては、レポートの構造や、Power BI サービスの現在の負荷などがあります。
-* Power BI サービスで **[PDF にエクスポート]** メニュー項目を使用できない場合は、テナント管理者が機能を無効にしている可能性があります。 詳細については、テナント管理者に問い合わせてください。
+* Power BI サービスで **[PDF にエクスポート]** メニュー項目を使用できない場合は、Power BI 管理者が機能を無効にしている可能性があります。 詳細については、管理者にお問い合わせください。
 * 背景画像はグラフの境界領域でトリミングされます。 PDF にエクスポートする前に背景画像を削除することをお勧めします。
 * 組織外のユーザーが所有していて、そのユーザーから共有されているレポートなど、Power BI テナント ドメイン外のユーザーによって所有されているレポートは、PDF に発行できません。
 * 組織外の人、つまり、Power BI テナント内にいないユーザーとダッシュボードを共有している場合、そのユーザーは共有されたダッシュ ボードに関連付けられているレポートを PDF にエクスポートできません。 たとえば、ユーザー aaron@contoso.com は cassie@northwinds.com と共有することができます。 しかし、cassie@northwinds.com は関連付けられたレポートを PDF にエクスポートできません。

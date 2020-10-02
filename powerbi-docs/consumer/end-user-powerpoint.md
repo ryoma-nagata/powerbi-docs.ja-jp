@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 61c084dca6d80a5e609f642ed6fc6894bef9e63c
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764289"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527443"
 ---
 # <a name="export-reports-to-powerpoint"></a>レポートを PowerPoint にエクスポートする
 
@@ -110,7 +110,7 @@ PowerPoint デッキや高解像度画像についての作業を自由に行う
     - 処理に 1 時間以上かかるレポート。 
     - 読み込みに 6 分以上かかるレポート ページ。 
 
-* Power BI サービスで **[PowerPoint へのエクスポート]** メニュー項目を使用できない場合は、テナント管理者またはレポート所有者が機能を無効にしている可能性があります。 詳細については、テナント管理者または所有者にお問い合わせください。
+* Power BI サービスで **[PowerPoint へのエクスポート]** メニュー項目を使用できない場合は、Power BI 管理者またはレポート所有者が機能を無効にしている可能性があります。 詳細については、管理者または所有者にお問い合わせください。
 * Power BI サービスでは、Power BI の言語設定を PowerPoint のエクスポート用の言語として使用します。 お使いのブラウザーで言語の設定を表示または設定するには、歯車アイコン ![歯車アイコン](media/end-user-powerpoint/power-bi-settings-icon.png) >  **[設定]**  >  **[全般]**  >  **[言語]** の順に選択します。
 
 
