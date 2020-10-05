@@ -35,6 +35,22 @@
           href: desktop-bidirectional-filtering.md
         - name: Power BI で多次元モデルを操作する
           href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: データフロー
+      items:
+        - name: データフローの概要
+          href: dataflows/dataflows-introduction-self-service.md
+        - name: データフローを作成する
+          href: dataflows/dataflows-create.md
+        - name: データフローの構成と使用
+          href: dataflows/dataflows-configure-consume.md
+        - name: データフローと Azure Data Lake Gen2
+          href: dataflows/dataflows-azure-data-lake-storage-integration.md
+        - name: データフローの Premium 機能
+          href: dataflows/dataflows-premium-features.md
+        - name: データフローと共に Machine Learning と Cognitive Services を使用する
+          href: dataflows/dataflows-machine-learning-integration.md
+        - name: データフローの制限事項と考慮事項
+          href: dataflows/dataflows-features-limitations.md
     - name: 攻略ガイド
       items:
         - name: 一般的なクエリ タスクを実行する
