@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: a3cb8d6ae8d8b872d00b3b4ce1aad13105f3b1e4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232812"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527771"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>チュートリアル:R を利用した Power BI 視覚エフェクトを作成する
 
@@ -78,7 +78,7 @@ ms.locfileid: "85232812"
 
 1. Power BI Desktop で、 **[R スクリプト ビジュアル]** を選択します。
 
-   ![視覚化ペインの R 視覚エフェクト](./media/create-r-based-power-bi-desktop/r-script-icon.png)
+   ![Power BI Desktop の R スクリプト ビジュアルを示すスクリーンショット。](./media/create-r-based-power-bi-desktop/r-script-icon.png)
 
 1. 次の R コードを **[R スクリプト エディター]** に貼り付けます。
 
@@ -94,7 +94,7 @@ ms.locfileid: "85232812"
 
 1. **[スクリプトの実行]** アイコンを選択して、結果を確認します。
 
-    ![視覚化ペインの R 視覚エフェクト](./media/create-r-based-power-bi-desktop/run-r-script.png)
+    ![線プロットであるスクリプトを実行した結果を示すスクリーンショット。](./media/create-r-based-power-bi-desktop/run-r-script.png)
 
 1. R スクリプトの準備ができたら、前の手順の 1 つで作成した視覚化プロジェクトの `script.r` ファイルにそれをコピーします。
 
@@ -176,7 +176,7 @@ ms.locfileid: "85232812"
 
 `corrplot` パッケージを使用した結果は、次の例のようになります。
 
-![視覚化ペインの R 視覚エフェクト](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
+![corrplot によって作成された 4 つの楕円が表示されている [視覚化] ペインを示すスクリーンショット。](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
 
 ## <a name="adding-a-static-property-to-the-property-pane"></a>プロパティ ペインに静的プロパティを追加する
 

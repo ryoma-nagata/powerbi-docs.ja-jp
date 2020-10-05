@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/20/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 2c9834310179d8936cda8b769e3b7e3f80d328e6
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 71c214e265c84eb7436d384a98f793eefe2f6a23
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254185"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526228"
 ---
 # <a name="data-source-impact-analysis"></a>データ ソースの影響分析
 
@@ -42,6 +42,17 @@ ms.locfileid: "87254185"
  
 * **影響の概要**:影響を受ける可能性のあるワークスペース、データフロー、およびデータセットの数が表示されます。 この数には、アクセスできないワークスペースが含まれています。
 * **使用状況の内訳**:影響を受けるデータフローとデータセットの名前がワークスペースごとに表示されます。 特定のワークスペースへの影響をさらに詳しく調べるには、ワークスペース名をクリックしてワークスペースを開きます。 影響を受けるワークスペースに移動したら、[データセットの影響分析](service-dataset-impact-analysis.md) を使用して、接続されているレポートとダッシュボードの使用状況の詳細を確認します。
+
+## <a name="notify-contacts"></a>連絡先に通知
+
+データ ソースに変更を加えた場合、または変更を検討している場合は、関連するユーザーに連絡し、それについて通知することができます。 連絡先に通知すると、影響を受けるすべてのワークスペースの[連絡先一覧](service-create-the-new-workspaces.md#create-a-contact-list)にメールが送信されます (従来のワークスペースの場合は、ワークスペースの管理者にメールが送信されます)。 メールには送信元の名前が表示されるので、連絡先でそれを確認し、新しいメール スレッドで返信することができます。 
+
+1. 影響分析作業ウィンドウの **[Notify contacts]\(連絡先に通知\)** をクリックします。 [Notify contacts]\(連絡先に通知\) ダイアログが表示されます。
+
+   ![データソースの [連絡先に通知] ダイアログのスクリーンショット。](media/service-data-source-impact-analysis/notify-contacts-dialog.png)
+
+1. テキスト ボックスに、変更に関する詳細を入力します。
+1. メッセージの準備ができたら、 **[送信]** をクリックします。
 
 ## <a name="privacy"></a>プライバシー
 

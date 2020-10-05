@@ -8,11 +8,11 @@ ms.topic: include
 ms.date: 08/15/2020
 ms.author: mihart
 ms.custom: include file
-ms.openlocfilehash: a9d760bb962a2c4ebf5387faf4c09ebf55aac9b7
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: 8ca9942175916e354a57b9cee9f35382de0fc6ef
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88639041"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91545776"
 ---
-<Token>**適用対象:** ![×](media/no.png)***ビジネス ユーザー***向けの Power BI サービス ![×](media/no.png)デザイナーと開発者向けの Power BI サービス ![×](media/yes.png)Power BI Desktop ![×](media/no.png)Pro または Premium ライセンスが必要 </Token>
+<Token>**適用対象:** ![適用対象外: "***ビジネス ユーザー***" 向けの ](media/no.png)Power BI サービス ![適用対象外: ](media/no.png)デザイナーおよび開発者向けの Power BI サービス ![適用対象: ](media/yes.png)Power BI Desktop ![適用対象外: ](media/no.png)Pro ライセンスまたは Premium ライセンスが必要 </Token>

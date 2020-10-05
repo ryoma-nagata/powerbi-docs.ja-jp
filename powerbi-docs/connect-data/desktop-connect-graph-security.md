@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5d7fbe9e302c7b1460bc285af140a50304c468da
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7f08d75ecc9386dc2329c6564448023dfbfb3b9b
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858533"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374961"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop の Microsoft Graph Security API に接続する
 
-Power BI Desktop の Microsoft Graph Security コネクタを使用して、[Microsoft Graph Security API](/graph/security-concept-overview) に接続します。 次に、ダッシュボードとレポートを構築することで、ご自分のセキュリティ関連の[アラート](/graph/api/resources/alert?view=graph-rest-1.0)および[セキュリティ スコア](/graph/api/resources/securescores?view=graph-rest-beta)に対する分析情報を得ることができます。
+Power BI Desktop の Microsoft Graph Security コネクタを使用して、[Microsoft Graph Security API](/graph/security-concept-overview) に接続します。 次に、ダッシュボードとレポートを構築することで、ご自分のセキュリティ関連の[アラート](/graph/api/resources/alert)および[セキュリティ スコア](/graph/api/resources/securescores)に対する分析情報を得ることができます。
 
-Microsoft Graph Security API と、Microsoft およびそのエコシステム パートナーからの[複数のセキュリティ ソリューション](/graph/api/resources/security-api-overview#alerts)とが接続されることで、アラートの関連付けが容易になります。 この組み合わせによって、豊富なコンテキスト情報にアクセスできるようになり、自動化が簡略化されます。 これにより、組織はコストの削減および複雑さの軽減を実施しながら、迅速に複数のセキュリティ製品にわたって分析情報を取得し活動することができます。
+Microsoft Graph Security API と、Microsoft およびそのパートナーからの[複数のセキュリティ ソリューション](/graph/api/resources/security-api-overview#alerts)とが接続されることで、アラートの関連付けが容易になります。 この組み合わせによって、豊富なコンテキスト情報にアクセスできるようになり、自動化が簡略化されます。 これにより、組織はコストの削減および複雑さの軽減を実施しながら、迅速に複数のセキュリティ製品にわたって分析情報を取得し活動することができます。
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>Microsoft Graph Security コネクタを使用するための前提条件
 
-Microsoft Graph Security コネクタを使用するには、Azure Active Directory (Azure AD) テナント管理者の同意を*明示的に*取得する必要があります。 [Microsoft Graph Security 認証要件](/graph/security-authorization)に関するページを参照してください。
+Microsoft Graph Security コネクタを使用するには、Azure Active Directory (Azure AD) のグローバル管理者の同意を "*明示的に*" 取得する必要があります。 [Microsoft Graph Security 認証要件](/graph/security-authorization)に関するページを参照してください。
 同意には、コネクタのアプリケーション ID と名前が必要です。それは次に示すようなものであり、[Azure portal](https://portal.azure.com) で確認できます。
 
 | プロパティ | 値 |
@@ -35,7 +35,7 @@ Microsoft Graph Security コネクタを使用するには、Azure Active Direct
 | **リダイレクト URI** | `https://oauth.powerbi.com/views/oauthredirect.html` |
 |||
 
-コネクタに対して同意を付与するために、Azure AD テナント管理者は次のいずれかの方法を使用できます。
+コネクタに対して同意を付与するために、Azure AD グローバル管理者は、次のいずれかの方法を使用することができます。
 
 * [Azure AD アプリケーションに対して同意を付与する](/azure/active-directory/develop/v2-permissions-and-consent)
 
@@ -61,7 +61,7 @@ Microsoft Graph Security コネクタにサインインするユーザーが "*�
 
     ![サインイン](media/desktop-connect-graph-security/SignIn.PNG) 
     
-6. あなたがテナント管理者であり、*かつ* Microsoft Graph Security Power BI コネクタ (アプリケーション) にまだ同意していない場合、次のダイアログ ボックスが表示されます。 **[組織の代理として同意する]** を選択します。
+6. あなたが管理者であり、"*かつ*" Microsoft Graph Security Power BI コネクタ (アプリケーション) にまだ同意していない場合、次のダイアログ ボックスが表示されます。 **[組織の代理として同意する]** を選択します。
 
     ![[管理者の同意] ダイアログ ボックス](media/desktop-connect-graph-security/AdminConsent.PNG)
     

@@ -8,14 +8,15 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861960"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375237"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Capacity Metrics に接続する
+
 Premium 容量リソースを最適に利用するにはどうすればよいかを十分な情報に基づいて判断するには、ご利用の容量を監視することが不可欠です。 Power BI Premium Capacity Metrics アプリからは、ご利用の容量のパフォーマンスに関する非常に詳細な情報が提供されます。
 
 ![Power BI Premium Capacity Metrics アプリのレポート](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
@@ -25,7 +26,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 アプリをインストールしてデータ ソースに接続した後は、必要に応じてレポートをカスタマイズできます。 その後、それを組織内の同僚に配布することができます。
 
 > [!NOTE]
-> テンプレート アプリをインストールするには[アクセス許可](./service-template-apps-install-distribute.md#prerequisites)が必要です。 十分なアクセス許可がないことがわかった場合は、テナント管理者にお問い合わせください。
+> テンプレート アプリをインストールするには[アクセス許可](./service-template-apps-install-distribute.md#prerequisites)が必要です。 十分なアクセス許可がないことがわかった場合は、Power BI 管理者にお問い合わせください。
 
 ## <a name="install-the-app"></a>アプリをインストールする
 
@@ -83,7 +84,7 @@ Premium 容量リソースを最適に利用するにはどうすればよいか
 
 アプリのカスタマイズを開始するには、右上隅にある鉛筆アイコンをクリックします。
 
- ![Microsoft サインイン画面](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
+ ![[編集] アイコン](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
 
 詳細については、「[アプリをカスタマイズして共有する](./service-template-apps-install-distribute.md#customize-and-share-the-app)」を参照してください。
 

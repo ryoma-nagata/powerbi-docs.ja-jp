@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a5ed3d2a4798332de2394e1ad5be6fdbdb6eeae
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803379"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525802"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Power BI への移行を準備する
 
@@ -73,7 +73,7 @@ Power BI 実装の初期段階で対処すべきいくつかの重要な項目�
 
 Power BI 実装の初期段階で対処すべきいくつかの重要な項目は、次のとおりです。
 
-- [Power BI のテナント管理設定](admin-tenant-settings.md)に関する決定。ドキュメントに記載する必要があります。
+- [Power BI のテナント設定](admin-tenant-settings.md)に関する決定。ドキュメントに記載する必要があります。
 - [ワークスペース管理](../collaborate-share/service-new-workspaces.md)に関する決定。ドキュメントに記載する必要があります。
 - アプリ、ワークスペース、共有、サブスクリプション、コンテンツの埋め込みなど、データと[コンテンツの配布方法](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)に関連する考慮事項および基本設定。
 - Import モードや DirectQuery モードの使用、[Composite モデルでの 2 つのモードの組み合わせ](composite-model-guidance.md)など、[データセット モード](../connect-data/service-dataset-modes-understand.md)に関連する基本設定。
@@ -96,7 +96,7 @@ Power BI 実装の初期段階で対処すべきいくつかの重要な項目�
 - Power BI テナントをセットアップし、Azure Active Directory と統合する。
 - [Power BI 管理者](../admin/service-admin-role.md)を定義する。
 - 初期の[ユーザー ライセンス](../admin/service-admin-licensing-organization.md)を取得し、割り当てる。
-- [Power BI テナント管理者の設定](admin-tenant-settings.md)を構成し、確認する。
+- [Power BI テナントの設定](admin-tenant-settings.md)を構成し、確認する。
 - [ワークスペース ロール](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)を設定し、Azure Active Directory セキュリティ グループおよびユーザーへのアクセス権を割り当てる。
 - 定期的に更新する計画を使用して、初期の[データ ゲートウェイ](../connect-data/service-gateway-deployment-guidance.md) クラスターを構成する。
 - 初期の [Premium 容量ライセンス](../admin/service-admin-premium-purchase.md)を購入する (該当する場合)。

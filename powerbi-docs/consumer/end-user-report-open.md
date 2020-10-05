@@ -6,22 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/25/2020
 ms.author: mihart
-ms.openlocfilehash: 2d55c7dbf0b57d9414436c57e314a22837efeba2
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: d70bc80f7cea3fcff7a25446dd0f73a3c96ee461
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536471"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527522"
 ---
-# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*コンシューマー*向け Power BI サービスでレポートを表示する
+# <a name="view-a-report-in-the-power-bi-service-for-business-users"></a>"*ビジネス ユーザー*" 向け Power BI サービスでレポートを表示する
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-レポートは、ビジュアルで構成される 1 つまたは複数のページです。 レポートは Power BI "*デザイナー*" によって作成され、["*コンシューマー*" と直接](end-user-shared-with-me.md)、または[アプリ](end-user-apps.md)の一部として共有されます。 
+レポートは、ビジュアルで構成される 1 つまたは複数のページです。 レポートは、Power BI "*デザイナー*" によって作成され、["*ビジネス ユーザーと直接*"](end-user-shared-with-me.md)、または[アプリ](end-user-apps.md)の一部として共有されます。 レポートを開くには、Power BI Pro ライセンスを使用するか、レポートを Premium 専用容量に格納されているワークスペースの一部とする必要があります。
 
 レポートはさまざまな方法で開くことができますが、そのうちの [ホーム] から開く方法とダッシュボードから開く方法の 2 つを説明します。 
 
@@ -31,16 +31,16 @@ ms.locfileid: "87536471"
 ## <a name="open-a-report-from-power-bi-home"></a>Power BI ホームからレポートを開く
 それでは、ユーザーと直接共有されているレポートを開いてみましょう。その後で、アプリの一部として共有されたレポートを開いてみましょう。
 
-   ![ホーム ページ](./media/end-user-report-open/power-bi-home-canvas.png)
+   ![レポートを指す矢印が表示されている Power BI サービスのホーム キャンバスを示すスクリーンショット。](./media/end-user-report-open/power-bi-home.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>ユーザーと共有されているレポートを開く
 Power BI "*デザイナー*" では、メールのリンクを介して、または Power BI コンテンツに自動的に追加することにより、個々のレポートを直接共有できます。 この方法で共有されたレポートは、ナビゲーション ペインの **[自分と共有]** コンテナーとホーム キャンバスの **[自分と共有]** セクションに表示されます。
 
 1. Power BI サービス (app.powerbi.com) を開きます。
 
-2. ナビ ペインで、 **[ホーム]** を選択して自分のホーム キャンバスを表示します。  
+2. ナビ ペインで、**[ホーム]** を選択して自分のホーム キャンバスを表示します。  
 
-   ![ホーム キャンバス](./media/end-user-report-open/power-bi-select-home-new.png)
+   ![ホーム キャンバス](./media/end-user-report-open/power-bi-open-home.png)
    
 3. **[共有アイテム]** が表示されるまで下方向にスクロールします。 レポート アイコン ![レポート アイコン](./media/end-user-report-open/power-bi-report-icon.png) を見つけます。 このスクリーンショットには、1 つのダッシュボードと 1 つのレポートがあります。 このレポートには "*売上およびマーケティングのサンプル*" という名前が付けられています。 
    
@@ -52,19 +52,21 @@ Power BI "*デザイナー*" では、メールのリンクを介して、また
 
 5. 左側にタブが並んでいます。  各タブはレポート *ページ*を表します。 現在、"*成長の機会*" ページが開いています。 "*YTD カテゴリ*" タブを選択して、代わりにそのレポート ページを開きます。 
 
-   ![レポート ページ タブ](./media/end-user-report-open/power-bi-ytd.png)
+   ![[レポート] ページのタブを示すスクリーン ショット。](./media/end-user-report-open/power-bi-report-open.png)
 
-6. 右側に **[フィルター]** ウィンドウが表示されることに注意してください。 このレポート ページまたはレポート全体に適用されているフィルターが、ここに表示されます。
+6. 右側の **[フィルター]** ペインを展開します。 このレポート ページまたはレポート全体に適用されているフィルターが、ここに表示されます。
 
-7. レポートのビジュアルの上にカーソルを置くと、いくつかのアイコンと**その他のオプション** (...) が表示されます。特定のビジュアルに適用されているフィルターを確認するには、[フィルター] アイコンを選択します。 ここでは、*Rolling Period および Region による Total Units* の折れ線グラフのフィルター アイコンを選択しています。
+   ![フィルターが展開されている Power BI サービス](./media/end-user-report-open/power-bi-filters.png)
 
-   ![レポート ページ タブ](./media/end-user-report-open/power-bi-visual-filters.png)
+7. レポートのビジュアルの上にカーソルを置くと、いくつかのアイコンと**その他のオプション** (...) が表示されます。特定のビジュアルに適用されているフィルターを確認するには、[フィルター] アイコンを選択します。 ここでは、*Total units by month and manufacturer* (月別および製造元別の合計ユニット数) の折れ線グラフのフィルター アイコンを選択しています。
 
-6. これで、レポート ページ全体が表示されます。 ページの表示 (ズーム) を変更するには、右上隅にある [表示] ドロップダウンを選択し、 **[実際のサイズ]** を選択します。
+   ![選択されたビジュアルのフィルターを示すスクリーンショット。](./media/end-user-report-open/power-bi-visual-filter.png)
 
-   ![ズームの変更](./media/end-user-report-open/power-bi-fit-new.png)
+6. これで、レポート ページ全体が表示されます。 ページの表示 (ズーム) を変更するには、右上隅にある [表示] ドロップダウンを選択し、 **[実際のサイズ]** を選択して、 **[幅に合わせる]** に切り替えます。
 
-   ![ページに合わせる](./media/end-user-report-open/power-bi-actual.png)
+   ![ズームの変更](./media/end-user-report-open/power-bi-view-actual.png)
+
+   ![幅に合わせるように表示を変更する](./media/end-user-report-open/power-bi-width.png)
 
 さまざまな方法でレポートを操作して分析情報を得て、ビジネス上の意思決定を行うことができます。  左側の目次を使用して、Power BI レポートに関するその他の記事を読むことができます。 
 
@@ -82,21 +84,21 @@ Power BI "*デザイナー*" では、メールのリンクを介して、また
 
 7. **[マイ アプリ]** が表示されるまで下方向にスクロールします。
 
-   ![ホーム ページ](./media/end-user-report-open/power-bi-app.png)
+   ![Power BI ホームの [マイ アプリ] セクションを示すスクリーンショット。](./media/end-user-report-open/power-bi-apps.png)
 
 8. 新しい "*営業およびマーケティング*" アプリを選択して開きます。 アプリでは、アプリ *デザイナー*によって設定されたオプションに基づき、ダッシュボードまたはレポートが開きます。 このアプリはダッシュボードに開かれます。  
 
 
-## <a name="open-a-report-from-a-dashboard"></a>ダッシュボードからレポートを開く
+## <a name="open-a-report-from-a-dashboard"></a>ダッシュボードからレポートを開きます
 レポートはダッシュボードから開くことができます。 ほとんどのダッシュボード [タイル](end-user-tiles.md)はレポートから "*ピン留め*" されています。 タイルを選択すると、タイルの作成に使用されたレポートが開きます。 
 
-1. ダッシュボードからタイルを選択します。 この例では、"*年度累計ユニット数...* " という縦棒グラフ タイルを選択しています。
+1. ダッシュボードからタイルを選択します。 この例では、"*年度累計ユニット数...*" という縦棒グラフ タイルを選択しています。
 
-    ![タイルが選択されているダッシュボード](./media/end-user-report-open/power-bi-dashboard.png)
+    ![タイルが選択されているダッシュボード](./media/end-user-report-open/power-bi-dashboards.png)
 
 2.  関連付けられているレポートが開きます。 "*YTD カテゴリ*" ページが表示されていることがわかります。 これは、ダッシュボードから選択した縦棒グラフを含むレポート ページです。
 
-    ![読み取りビューで開かれたレポート](./media/end-user-report-open/power-bi-report-tabs.png)
+    ![読み取りビューで開かれたレポート](./media/end-user-report-open/power-bi-report-tab.png)
 
 > [!NOTE]
 > 一部のタイルはレポートに関連付けられていません。 [Q&A を使用して作成](end-user-q-and-a.md)されたタイルを選択すると、Q&A 画面が開きます。 [ダッシュボードの **[タイルの追加]** ウィジェットを使用して作成](../create-reports/service-dashboard-add-widget.md)されたタイルを選択すると、ビデオが再生されたり、Web サイトが開いたりなど、さまざまなことが起こる場合があります。  

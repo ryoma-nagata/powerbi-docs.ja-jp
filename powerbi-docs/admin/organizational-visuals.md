@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857751"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524790"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Power BI ビジュアルの管理設定を管理する
 
@@ -148,11 +148,11 @@ AppSource の Power BI ビジュアルは自動的に更新されます。 組�
 
 1. 追加するビジュアルの行で、 **[設定]** をクリックします。
 
-    ![organizational-pane](media/organizational-visuals/organizational-pane.png)organizational-pane
+    ![組織のビジュアルが選択され、設定アイコンが呼び出されている管理者ポータルを示すスクリーンショット。](media/organizational-visuals/organizational-pane.png)organizational-pane
 
 2. [視覚化] ペインの設定を有効にし、 **[更新]** をクリックします。
 
-    ![update-organizational-pane](media/organizational-visuals/update-organizational-pane.png)
+    ![ビジュアルが組織全体に表示されるようにすることができる [ビジュアルの設定] ダイアログ ボックスを示すスクリーンショット。](media/organizational-visuals/update-organizational-pane.png)
 
 ### <a name="delete-a-visual-uploaded-from-a-file"></a>ファイルからアップロードされたビジュアルを削除する
 

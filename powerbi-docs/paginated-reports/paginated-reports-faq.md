@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216670"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526676"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI のページ分割されたレポート:FAQ 
 
@@ -76,7 +76,7 @@ Pro ライセンスがなくても、お使いのマイ ワークスペースが
 - **P2/A5**:20% (既定値)、5% (最小値)
 - **P3/A6**:20% (既定値)、2.5% (最小値)
 
-Power BI テナント管理者は、管理ポータルで既定の最大メモリの割合を変更できます。 **[容量の設定]** タブの **[Power BI Premium]** の下にある **[ページ分割されたレポート]** ワークロード セクションを参照してください。
+Power BI 管理者は、管理ポータルで、既定の最大メモリの割合を変更できます。 **[容量の設定]** タブの **[Power BI Premium]** の下にある **[ページ分割されたレポート]** ワークロード セクションを参照してください。
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="[ページ分割されたレポート] の [容量の設定] タブ":::
 

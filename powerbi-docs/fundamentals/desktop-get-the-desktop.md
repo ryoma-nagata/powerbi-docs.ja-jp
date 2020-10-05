@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860212"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136145"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop の取得
 Power BI Desktop では、データを視覚化する高度なクエリ、モデル、レポートを作成できます。 Power BI Desktop を使うと、データ モデルを作成し、レポートを作成し、Power BI サービスに発行することで作業を共有することができます。 Power BI Desktop は無料でダウンロードできます。
@@ -105,9 +105,12 @@ Power BI Desktop の実行に必要な最小要件は、次のとおりです。
 * .NET 4.5
 * Internet Explorer 10 以上
 * メモリ (RAM):1 GB 以上使用可能、1.5 GB 以上を推奨します。
-* ディスプレイ: 1440 x 900 以上または 1600 x 900 (16:9) を推奨します。 1024 x 768 または 1280 x 800 などのより低い解像度は推奨されていません。特定のコントロール (起動画面を閉じるなど) は、これらの解像度を超えて表示されるためです。
+* ディスプレイ: 1440 x 900 以上または 1600 x 900 (16:9) が必要です。 1024 x 768 または 1280 x 800 などの低い解像度はサポートされていません。これは、特定のコントロール (起動画面を閉じるなど) がこれらの解像度を超えて表示されるためです。
 * Windows の表示設定: 表示設定でテキスト、アプリ、その他の項目を 100% より大きいサイズに変更してある場合、Power BI Desktop を使い続けるために対話する必要がある特定のダイアログを表示できないことがあります。 この問題が発生した場合は、Windows で **[設定]**  >  **[システム]**  >  **[表示]** に移動して表示設定を確認し、スライダーを使って表示設定を 100% に戻します。
-* CPU: 1 ギガヘルツ (GHz) 以上の速度の 32 ビットまたは 64 ビットの x86 プロセッサが推奨されます。
+* CPU: 1 GHz の 64 ビット (x64) プロセッサを推奨します。
+
+> [!NOTE]
+> Windows Server ではなく、Windows 10 など、クライアント バージョンの Windows を使用することをお勧めします。 たとえば、Power BI Desktop では、Internet Explorer セキュリティ強化の構成の使用がサポートされていません。使用すると、Power BI Desktop で Power BI サービスにサインインできなくなるためです。
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 

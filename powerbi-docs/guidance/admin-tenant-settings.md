@@ -1,5 +1,5 @@
 ---
-title: テナントの管理者設定のガイダンス
+title: テナント設定のガイダンス
 description: Power BI のテナント設定に関するガイダンス。
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: fdde090d4fe6e154482e1223b16215fdeca9f56f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049301"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528346"
 ---
-# <a name="tenant-admin-settings-guidance"></a>テナントの管理者設定のガイダンス
+# <a name="tenant-settings-guidance"></a>テナント設定のガイダンス
 
 この記事は、組織内の Power BI 環境の設定と構成を担当する Power BI 管理者を対象としています。
 

@@ -1,20 +1,20 @@
 ---
 title: Power BI サービスのレポート
-description: コンシューマー向け Power BI サービスのレポート
+description: ビジネス ユーザー向けの Power BI サービスのレポート
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/28/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: bc0ef9854afdb95a00502ea6755dc36db6c8fbf4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 871f807d18017343b4b23eee4d59833c196cf2f0
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536218"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528070"
 ---
 # <a name="reports-in-power-bi"></a>Power BI のレポート
 
@@ -22,7 +22,7 @@ ms.locfileid: "87536218"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI レポートはデータセットのマルチパースペクティブ表示です。データセットからのさまざまな結果や分析情報がビジュアルによって表されます。  レポートでは、単一のビジュアルを使用することも、各ページでさまざまなビジュアルを使用することもできます。 職務に応じて、レポートを*デザイン*する人になる場合があります。 また、レポートを*使用*する人になる場合もあります。 この記事は、"*コンシューマー*" を対象としています。
+Power BI レポートはデータセットのマルチパースペクティブ表示です。データセットからのさまざまな結果や分析情報がビジュアルによって表されます。  レポートでは、単一のビジュアルを使用することも、各ページでさまざまなビジュアルを使用することもできます。 職務に応じて、レポートを*デザイン*する人になる場合があります。 また、レポートを "*使用*" するビジネス ユーザーになる場合もあります。 この記事は、"*ビジネス ユーザー*" を対象としています。
 
 ![レポート ページのスクリーンショット。](./media/end-user-reports/power-bi-report.png)
 
@@ -32,7 +32,7 @@ C. *フィルター* ウィンドウでは、すべてのレポート ページ�
 D. Power BI のバナーには、レポートの名前と最終更新日が表示されます。 矢印を選択すると開くメニューには、レポートの所有者の名前も表示されます。    
 E. アクション バーには、このレポートで実行できる操作が表示されます。  たとえば、コメントの追加、ブックマークの表示、レポートからのデータのエクスポートなどを行うことができます。  **その他のオプション** (...) を選択すると、追加のレポート機能の一覧が表示されます。    
 
-Power BI を初めて使うときは、「[Power BI サービスのコンシューマーの基本的な概念](end-user-basic-concepts.md)」を読むと基礎がよくわかります。 レポートは、モバイル デバイス上で表示、共有、および注釈を付けることができます。 詳細については、「[Power BI モバイル アプリのレポートを調べる](mobile/mobile-reports-in-the-mobile-apps.md)」を参照してください。
+Power BI を初めて使うときは、[Power BI サービス ビジネス ユーザーの基本的な概念](end-user-basic-concepts.md)に関する記事を読むと、基礎がよくわかります。 レポートは、モバイル デバイス上で表示、共有、および注釈を付けることができます。 詳細については、「[Power BI モバイル アプリのレポートを調べる](mobile/mobile-reports-in-the-mobile-apps.md)」を参照してください。
 
 ## <a name="advantages-of-reports"></a>レポートの利点
 
@@ -68,14 +68,14 @@ Power BI は、1 つのデータセットに基づいてレポートを作成し
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
 | Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->
 
-## <a name="report-designers-and-report-consumers"></a>レポート デザイナーとレポート コンシューマー
+## <a name="report-designers-and-report-users"></a>レポート デザイナーとレポート ユーザー
 
 自分の役割に応じて、自分で使用するためや同僚と共有するためにレポートを作成する*デザイナー*になる場合があります。 レポートを作成して共有する方法を覚えておく必要があります。
 
-また、他のユーザーからレポートを受け取る*コンシューマー*になる場合もあります。 レポートを理解し、処理する方法を知る必要があります。 レポート *コンシューマー*の場合、次のリンクが役立ちます。
+また、他のユーザーからレポートを受け取る "*ビジネス ユーザー*" になる場合もあります。 レポートを理解し、処理する方法を知る必要があります。 レポート "*ビジネス ユーザー*" の場合、次のリンクが役立ちます。
 
 * まず、[Power BI サービスのツアー](end-user-basic-concepts.md)を利用して、レポートとレポート ツールをどこで探せばよいかを理解します。
-* [レポートを開く](end-user-report-open.md)方法と、[コンシューマーが使用できるすべての対話的操作](end-user-reading-view.md)について学習します。
+* [レポートを開く](end-user-report-open.md)方法と、[ビジネス ユーザーが使用できるすべての対話的操作](end-user-reading-view.md)について学習します。
 * いずれかの[サンプル](../create-reports/sample-tutorial-connect-to-the-samples.md)のツアーを利用してレポートに慣れます。  
 * レポートで使用されているデータセット、およびレポートのビジュアルが表示されているダッシュボード ("*ピン留め*") を確認するには、「[Power BI サービスで関連するコンテンツを表示する](end-user-related.md)」を参照してください。
 

@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e8a5d3b4bf8200e6e990c1bced2920383398b6cf
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 29dad4db6843f0895ea9de791992b3f70ce57e66
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857084"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524744"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>新しい Microsoft 365 試用版で Power BI にサインアップする
 
@@ -35,7 +35,7 @@ ms.locfileid: "90857084"
 
     新しいメール アドレスが必要な場合は、Microsoft によってその手順が示されます。 最初の手順は、新しいアカウントを作成することです。 **[アカウントの設定]** を選択します。
 
-    ![新しいアカウントにサインアップすることを選択](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
+    ![新しいアカウントにサインアップすることを選択します。](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
 
 2. 新しいアカウントに関する詳細情報を入力します。
 
@@ -43,7 +43,7 @@ ms.locfileid: "90857084"
 
 3. 新しいメール アドレスとパスワードを作成します。 you@yourcompany.onmicrosoft.com のような、新しいサインイン名を作成します。 これが、新しい職場または学校アカウントと Power BI で使用するサインインになります。
 
-    ![新しいアカウントにサインアップすることを選択](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
+    ![[ビジネス ID を作成する] オプションを示すスクリーンショット。](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 
 4. これだけです。  以上で、Power BI へのサインアップに使用できるメール アドレスが作成されました。 「[個人として Power BI にサインアップする](../fundamentals/service-self-service-signup-for-power-bi.md)」に進んでください。
 

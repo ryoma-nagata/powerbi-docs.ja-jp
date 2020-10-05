@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5fcffd39e9a341478657b63770201ad722b8c291
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 97164fe1db72cac28096b1fde5130cfccec29be2
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855129"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374807"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>ドイツ クラウド顧客向け Power BI のよく寄せられる質問用
 **Power BI サービス**には、欧州連合/European Free Trade Agreement (EU/EFTA) 顧客向けバージョンがあります (別称 Microsoft Cloud Deutschland、MCD)。 この記事で説明する **Power BI サービス**のバージョンは、EU/EFTA 顧客向けであり、**Power BI サービス**の市販バージョンまたは政府顧客向け Power BI サービスとは別の独立したものです。
@@ -34,7 +34,7 @@ ms.locfileid: "90855129"
    価格など多くの情報は、[Power BI Germany Cloud のホーム ページ](https://powerbi.microsoft.com/power-bi-germany/)でご覧になれます。 そのページには、25 ユーザー ライセンス付きで 30 日間有効の **Power BI Pro サービス**試用版にサインアップするためのリンクもあります。 試用版サインアップの一環として、必要に応じて購入またはライセンスを追加できます。 Enterprise Agreement (EA)、政府機関、および非営利料金も提供しています。 詳細については、Microsoft の顧客担当者にお問い合わせください。
 3. **Azure Germany および Office 365 Germany サブスクリプションの一部の Germany Cloud テナントを持っています。既存のテナントを使って Power BI Germany にサインアップできますか?**
    
-   はい。 サインアップ プロセスの一部として、既存の Germany Cloud テナント管理者アカウントでログインし、Power BI Pro サービス ライセンスを Germany Cloud の既存のテナントに追加できます。 Germany Cloud テナントとユーザー アカウントは Germany Cloud 用 Power BI サービスとは異なることに注意してください。
+   はい。 サインアップ プロセスの一部として、既存の Germany Cloud 管理者アカウントでログインし、Power BI Pro サービス ライセンスを Germany Cloud の既存のテナントに追加できます。 Germany Cloud テナントとユーザー アカウントは Germany Cloud 用 Power BI サービスとは異なることに注意してください。
 4. **Germany Cloud 用 Power BI サービスに無料サービスはありますか?**
    
    いいえ。 Germany Cloud 用 Power BI サービスには無料ライセンス バージョンはありません。 ただし、ビジネス ニーズが Power BI 無料プランで満たされる場合は、[パブリック クラウドの Power BI 無料プラン](https://powerbi.microsoft.com/get-started/)にサインアップすることをお勧めします。

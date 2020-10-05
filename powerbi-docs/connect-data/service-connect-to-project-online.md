@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 25a0ddaaf72e185d795d819e8c2cb990d2823ed2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99a8cf5081274f922d210a140d333814b80fd01f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229796"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527748"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI で Project Web App に接続する
 Microsoft Project Web App は、プロジェクト ポートフォリオ管理 (PPM) および日常の作業用の柔軟なオンライン ソリューションです。 Project Web App を使用すると、プロジェクト ポートフォリオの投資を開始して優先順位を設定し、意図したとおりのビジネス価値を提供できます。 Power BI 用 Project Web App テンプレート アプリでは、Project Web App から分析情報をロック解除し、プロジェクト、ポートフォリオ、リソースの管理に役立てることができます。
@@ -29,7 +29,7 @@ Power BI 用 [Project Web App テンプレート アプリ](https://appsource.mi
 
 2. **[サービス]** ボックスで、 **[取得]** を選択します。
    
-   ![AppSource](media/service-connect-to-project-online/AppSource.png)
+   ![使用可能なアプリが 5 つ表示されている AppSource ウィンドウを示すスクリーンショット。](media/service-connect-to-project-online/AppSource.png)
 3. AppSource で **[アプリ]** タブを選択し、 **[Microsoft Project Web App]** を検索して選択します。
    
 4. **[この Power BI アプリをインストールしますか?]** というメッセージが表示されます。 **[インストール]** を選択します。 

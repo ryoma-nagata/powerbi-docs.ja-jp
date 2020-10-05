@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857429"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374225"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI の高可用性、フェールオーバー、およびディザスター リカバリーに関する FAQ
 
@@ -74,4 +74,8 @@ Power BI サービス インスタンスは、フェールオーバーの原因�
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>フェールオーバー モードの場合、ゲートウェイは機能しますか。
 
-いいえ。 オンプレミス データ ソースで必要なデータ (直接クエリと Live Connect に基づくすべてのレポートとダッシュボード) は、フェールオーバー中には機能しません。 しかし、ゲートウェイの構成は変更されません。Power BI インスタンスが元の状態に戻ると、ゲートウェイは正常な機能に戻ります。
+いいえ。 オンプレミス データ ソースで必要なデータ (直接クエリと Live Connect に基づくすべてのレポートとダッシュボード) は、フェールオーバー中には機能しません。 しかし、ゲートウェイの構成は変更されません。 Power BI インスタンスが元の状態に戻ると、ゲートウェイは正常な機能に戻ります。
+
+プライマリ リージョンで深刻な障害が発生し、長時間にわたってオンラインに戻すことができなくなった場合、フェールオーバーされたプライマリ リージョンでは、読み取りと書き込みの両方が操作可能となり、お客様は新しいリージョンに対してゲートウェイを再デプロイして構成することができるようになります。
+
+お客様は、新しいゲートウェイを別のコンピューターにインストールするか、既存のゲートウェイを引き継ぐことができます。 古いゲートウェイに関連付けられているすべてのデータソースが新しいゲートウェイに引き継がれるため、既存のゲートウェイを使用する方が簡単です。

@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/07/2020
+ms.date: 09/25/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 76a3bd087899126d1c3aa9eed6eb7d20b1441bff
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6f7e640669b53d67a635083d3ae48e23720c9e61
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161887"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375101"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>ダッシュボードまたはレポートにコメントを追加する
 
@@ -23,15 +23,15 @@ ms.locfileid: "86161887"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-個人のコメントを追加するか、同僚とダッシュボードまたはレポートに関する会話を開始します。 **コメント**機能は、*コンシューマー*が共同作業するための方法の 1 つにすぎません。 
+個人のコメントを追加するか、同僚とダッシュボードまたはレポートに関する会話を開始します。 **コメント**機能は、"*ビジネス ユーザー*" が他のユーザーと共同作業するための方法の 1 つにすぎません。 
 
 ![コメントのビデオ](media/end-user-comment/comment.gif)
 
 > [!NOTE]
-> 共有レポートにコメントを追加するなど、他のユーザーと共同作業するには、Power BI Pro または Premium ライセンスが必要です。 [私のライセンスの種類は何ですか?](end-user-license.md)
+> 共有レポートにコメントを追加するなど、他のユーザーと共同作業するには、Power BI Pro ライセンスを使用するか、Power BI Premium 容量でコンテンツをホストする必要があります。 [私のライセンスの種類は何ですか?](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>コメント機能を使用する方法
-コメントは、ダッシュボード全体、ダッシュボード上の個々のビジュアル、レポート ページ、ページ分割されたレポート、レポート ページ上の個々のビジュアルに追加することができます。 一般的なコメント、または特定の同僚に宛てたコメントを追加します。  
+コメントは、ダッシュボード全体、ダッシュボード上の個々のビジュアル、レポート ページ、ページ分割されたレポート、レポート ページ上の個々のビジュアルに追加することができます。 一般的なコメントを追加するか、特定の同僚に宛てたコメントを追加します。  
 
 レポートにコメントを追加すると、Power BI によって現在のフィルターとスライサーの値がキャプチャされ、[ブックマーク](end-user-bookmarks.md)が作成されます。 つまり、コメントを選択またはコメントに応答すると、レポート ページまたはレポートのビジュアルが変更されて、コメントが最初に追加されたときにアクティブだったフィルターとスライサーの選択が表示される場合があります。  
 
@@ -46,15 +46,15 @@ ms.locfileid: "86161887"
 
 1. Power BI ダッシュボードまたはレポートを開き、 **[コメント]** アイコンを選択します。 これによって [コメント] ダイアログが開きます。
 
-    ![[コメント] アイコン](media/end-user-comment/power-bi-comments-icon.png)
+    ![メニュー バーの [コメント] アイコン](media/end-user-comment/power-bi-comment-icon.png)
 
     ここでは、ダッシュ ボードの作成者が既に一般的なコメントを追加しています。  このコメントは、このダッシュボードにアクセスできるすべてのユーザーが参照できます。
 
-    ![[コメント] アイコン](media/end-user-comment/power-bi-first-comment.png)
+    ![[コメント] セクションが選択されているダッシュボードのスクリーンショット](media/end-user-comment/power-bi-first-comments.png)
 
 2. 返信するには、 **[返信]** を選択し、返信を入力し、 **[投稿]** を選択します。  
 
-    ![コメントの [返信] アイコン](media/end-user-comment/power-bi-comments-reply.png)
+    ![返信画面を選択します](media/end-user-comment/power-bi-comments-reply.png)
 
     Power BI では、既定で、コメントのスレッドを開始した同僚に返信が送られます。この場合は、Aaron です。 
 
@@ -62,7 +62,7 @@ ms.locfileid: "86161887"
 
  3. 既存のスレッドの一部ではないコメントを追加する場合は、コメントを上部のテキスト フィールドに入力します。
 
-    ![コメントの [返信] アイコン](media/end-user-comment/power-bi-new-commenting.png)
+    ![新しいスレッドを示すスクリーンショット](media/end-user-comment/power-bi-new-commenting.png)
 
     このダッシュボードに対するコメントは、次のように表示されます。
 
@@ -71,25 +71,25 @@ ms.locfileid: "86161887"
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>特定のダッシュボードまたはレポートのビジュアルにコメントを追加する
 ダッシュボード全体またはレポート ページ全体にコメントを追加するだけでなく、個々のダッシュボード タイルと個々のレポート ビジュアルにコメントを追加することができます。 これらのプロセスは似ています。この例では、レポートを使用しています。
 
-1. ビジュアルをポイントし、**その他のオプション** (...) を選びます。    
-2. ドロップダウンから、 **[コメントを開く]** を選択します。
+1. ビジュアルの上にカーソルを置き、 **[その他のアクション]** (...) を選択します。    
+2. ドロップダウンから、**[コメントの追加]** を選択します。
 
     ![[コメントの追加] が最初の選択肢](media/end-user-comment/power-bi-comment-reports.png)  
 
 3.  **[コメント]** ダイアログが開き、ページの他のビジュアルがグレーで表示されます。このビジュアルには、まだコメントがありません。 
 
-    ![自分自身へのコメントを追加する](media/end-user-comment/power-bi-comments-column.png)  
+    ![ビジュアルが選択され、[コメント] ダイアログが開いているスクリーンショット](media/end-user-comment/power-bi-comments-column.png)  
 
 4. コメントを入力し、 **[投稿]** を選択します。
 
-    ![自分自身へのコメントを追加する](media/end-user-comment/power-bi-comment-logistics.png)  
+    ![新しいメッセージが表示されている [コメント] ダイアログ](media/end-user-comment/power-bi-comment-spikes.png)  
 
-    - レポート ページで、ビジュアルに対して作成されたコメントを選択すると、そのビジュアルが強調表示されます (上記を参照)。
+    - レポート ページで、ビジュアルに対して作成されたコメントを選択すると、そのビジュアルが強調表示されます (以下を参照)。
 
     - ダッシュボードでは、グラフ アイコン ![[グラフ] アイコン付きのコメント](media/end-user-comment/power-bi-comment-chart-icon.png) で、コメントが特定のビジュアルに関連付けられていることがわかります。 ダッシュボード全体に適用されるコメントには、特別なアイコンがありません。 グラフ アイコンを選択すると、ダッシュボード上の関連するビジュアルが強調表示されます。
     
 
-    ![強調表示された関連ビジュアル](media/end-user-comment/power-bi-highlight.png)
+    ![強調表示された関連ビジュアル](media/end-user-comment/power-bi-highlights.png)
 
 5. **[閉じる]** を選択して、ダッシュボードまたはレポートに戻ります。
 
@@ -98,12 +98,13 @@ ms.locfileid: "86161887"
 
 これは、視覚エフェクトの*デザイナー*と行っている会話です。 @ 記号を使用して、確実にコメントを見ることができるようにしています。 通知を受け取り、このダッシュボードと関連する会話を開くためのリンクを選択します。  
 
-![コメントのメンションを追加する](media/end-user-comment/power-bi-comment-convo.png)  
+![コメントのメンションを追加する](media/end-user-comment/power-bi-comment-conversation.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 
 - 会話に返信しても、ブックマークはキャプチャされません。 会話の最初のコメントのみがブックマークを作成します。
+- ページ分割されたレポートを使用している場合、レポートに関する一般的なコメントのみを残しておくことができます。  ページ番号が付けられた個々のレポート ビジュアルにコメントを残すことはできません。
 
 ## <a name="next-steps"></a>次の手順
-[コンシューマーの視覚エフェクト](end-user-visualizations.md)  に戻る  
-<!--[Select a visualization to open a report](end-user-open-report.md)-->
+[ビジネス ユーザー向けの視覚エフェクト](end-user-visualizations.md)  に戻る  
+[視覚化を選択してレポートを開く](end-user-report-open.md)

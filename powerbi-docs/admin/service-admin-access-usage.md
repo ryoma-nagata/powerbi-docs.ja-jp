@@ -1,49 +1,45 @@
 ---
 title: サインインした Power BI ユーザーを見つける
-description: テナント管理者が Power BI にサインインしたユーザーを確認するには、Azure Active Directory アクセスと使用状況レポートを使用して、ユーザーを表示します。
+description: ご自分が管理者であり、Power BI にサインインしたユーザーを確認したい場合は、Azure Active Directory アクセスと使用状況レポートを使用できます
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/09/2019
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e278918fdcf19a8de5cd5af1995bbc050dd765ec
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161194"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374744"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>サインインした Power BI ユーザーを見つける
 
-テナント管理者が Power BI にサインインしたユーザーを確認するには、[Azure Active Directory アクセスと使用状況レポート](/azure/active-directory/reports-monitoring/concept-sign-ins)を使用して、ユーザーを表示します。
+ご自分が組織の管理者であり、Power BI にサインインしたユーザーを確認したい場合は、[Azure Active Directory アクセスと使用状況レポート](/azure/active-directory/reports-monitoring/concept-sign-ins)を使用してください。
 
 > [!NOTE]
-> **サインイン** レポートでは役に立つ情報が提供されますが、各ユーザーが持つライセンスの種類は示されません。 ライセンスを表示するには、Microsoft 365 管理センターを使用します。
+> **サインイン** レポートにより役に立つ情報が提供されますが、ユーザーごとのライセンスの種類は識別されません。 ライセンスを表示するには、Microsoft 365 管理センターを使用します。
 
 ## <a name="requirements"></a>要件
 
-(非管理者を含む) すべてのユーザーが自分のサインインのレポートを表示できますが、すべてのユーザーに関するレポートを表示するには、次の要件を満たす必要があります。
+ユーザーは自分のサインインのレポートを表示できます。すべてのユーザーのレポートを表示するには、次のいずれかのロールを使用する必要があります: 全体管理者、セキュリティ管理者、セキュリティ閲覧者、全体閲覧者、またはレポート閲覧者。
 
-* テナントには Azure Active Directory Premium ライセンスが関連付けられている必要があります。
-
-* 次のいずれかのロールである必要があります:全体管理者、セキュリティ管理者、セキュリティ閲覧者。
-
-## <a name="use-the-azure-portal-to-view-sign-ins"></a>Azure portal を使用してサインインを表示する
+## <a name="use-the-azure-active-directory-admin-center-to-view-sign-ins"></a>Azure Active Directory 管理センターを使用してサインインを表示する
 
 サインイン アクティビティを表示するには、次の手順のようにします。
 
-1. **Azure portal** で、 **[Azure Active Directory]** を選択します。
+1. [Azure Active Directory 管理センター](https://aad.portal.azure.com)にサインインし、ポータル メニューから **[Azure Active Directory]** を選択します。
 
-1. **[監視]** で **[サインイン]** を選択します。
+1. [リソース] メニューから、 **[監視]**  >  **[サインイン]** の順に選択します。
    
-    ![[Azure Active Directory] オプションと [サインイン] オプションが強調表示されている Azure UI のスクリーンショット。](media/service-admin-access-usage/azure-portal-sign-ins.png)
+    ![[サインイン] オプションが強調表示されている Azure Active Directory 管理センターのスクリーンショット。](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
-1. **[Microsoft Power BI]** または **[Power BI Gateway]** のいずれかを選択して、アプリケーションをフィルター処理し、 **[適用]** を選択します。
+1. 既定では、すべてのユーザーとすべてのアプリケーションについて、過去 24 時間のすべてのサインインが表示されます。 別の期間を選択するには、作業ウィンドウで **[日付]** を選択し、使用可能な時間間隔を選択します。 過去 7 日間の情報のみが利用できます。 Power BI へのサインインのみを表示するには、フィルターを追加します。 **[フィルターの追加]** を選択し、フィルター処理するフィールドとして **[アプリケーション]** を選択し、 **[適用]** を選択します。 作業ウィンドウの上部から **[次で始まるアプリケーション]** を選択し、アプリ名を入力します。 **[適用]** を選択します。
 
-    **Microsoft Power BI** では、サービス関連のサインイン アクティビティでフィルター処理されます。一方、**Power BI Gateway** では、オンプレミス データ ゲートウェイに固有のサインイン アクティビティでフィルター処理されます。
+    **Microsoft Power BI** の場合は、サービスに関連するサインイン アクティビティにフィルター処理されます。 **Power BI Gateway** の場合は、オンプレミス データ ゲートウェイに固有のサインイン アクティビティにフィルター処理されます。
    
     ![[アプリケーション] フィールドが強調表示されているサインイン フィルターのスクリーンショット。](media/service-admin-access-usage/sign-in-filter.png)
 
@@ -51,20 +47,22 @@ ms.locfileid: "86161194"
 
 CSV ファイル形式または JSON ファイル形式で[サインイン レポートをダウンロード](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report)できます。
 
+1. **[サインイン]** レポート用のコマンド バーで、 **[ダウンロード]** を選択してから、次のオプションのいずれかを選択します。
+
+   * **[CSV]** : 現在フィルター処理されているデータの CSV ファイルをダウンロードします。
+
+   * **[JSON]** : 現在フィルター処理されているデータの JSON ファイルをダウンロードします。
+
+2. ファイル名を入力して、 **[ダウンロード]** を選択します。
+
 ![[ダウンロード] オプションが強調表示されているデータ エクスポートのスクリーンショット。](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
-**サインイン** レポートの先頭で、 **[ダウンロード]** を選択し、次のオプションのいずれかを選択します。
+## <a name="data-retention"></a>データ保持期間
 
-* **[CSV]** : 現在フィルター処理されているデータの CSV ファイルをダウンロードします。
-
-* **[JSON]** : 現在フィルター処理されているデータの JSON ファイルをダウンロードします。
-
-## <a name="data-retention"></a>データのリテンション期間
-
-サインイン関連のデータは、最大 30 日間使用できます。 詳しくは、「[Azure Active Directory レポートの保持ポリシー](/azure/active-directory/reports-monitoring/reference-reports-data-retention)」を参照してください。
+組織が Azure AD Premium ライセンスを所有していない場合、サインインに関連するデータを利用できる期間は最大で 7 日です。 Azure AD Premium P1 または Azure AD Premium P2 を使用している場合、過去 30 日間のデータを表示できます。 詳しくは、「[Azure Active Directory レポートの保持ポリシー](/azure/active-directory/reports-monitoring/reference-reports-data-retention)」を参照してください。
 
 ## <a name="next-steps"></a>次の手順
 
-[組織内での監査の使用](service-admin-auditing.md)
+[ユーザー アクティビティを監査する](service-admin-auditing.md)
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

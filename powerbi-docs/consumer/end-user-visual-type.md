@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 86453ff7a192a9c79f1c9eda97529b661c7512d3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537713"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526883"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI でのビジュアルの種類
 
@@ -142,7 +142,7 @@ ArcGIS マップと Power BI を組み合わせると、マッピングをマッ
 図形マップでは、色を使用してマップの領域が比較されます。 図形マップでは、マップ上のデータ ポイントの地理的な場所を正確に示すことはできません。 代わりに、これの主な用途は、違う色を適用することにより、マップ上の領域を相対的に比較できます。
 
 ### <a name="matrix"></a>Matrix
-![マトリックス](media/end-user-visual-type/matrix.png)
+![Revenue (収益) と Y T D Revenue (Y T D 収益) に対する年と四半期のデータ マトリックスを示すスクリーンショット。](media/end-user-visual-type/matrix.png)
 
 マトリックス ビジュアルは、階段状レイアウトをサポートするテーブル ビジュアル (後の「テーブル」を参照) の一種です。 多くの場合、レポート デザイナーは、ユーザーがマトリックスの 1 つまたは複数の要素 (行、列、セル) を選択してレポート ページ上の他のビジュアルをクロス強調表示できるようにするため、レポートやダッシュボードにマトリックスを組み込みます。  
 
