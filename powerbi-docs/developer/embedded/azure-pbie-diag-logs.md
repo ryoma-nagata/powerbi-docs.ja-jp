@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79495805"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748795"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure の Power BI Embedded の診断ログ
 
-[Azure のリソース診断ログ](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)を使用すると、容量からのさまざまなイベントをログに記録して、それらを分析ツールで読み込み、リソースの動作に関する分析情報を得られます。
+[Azure のリソース診断ログ](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)を使用すると、容量からのさまざまなイベントをログに記録して、それらを分析ツールで読み込み、リソースの動作に関する分析情報を得られます。
 
 診断を使用することで、次のようないくつかのシナリオに対処できます。
 
@@ -36,12 +36,12 @@ ms.locfileid: "79495805"
 
     * **名前** - 作成する診断設定の名前を入力します。
 
-    * **ストレージ アカウントへのアーカイブ** - このオプションを使用するには、既存のストレージ アカウントに接続する必要があります。 「[ストレージ アカウントを作成する](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)」に記載されている手順に従ってストレージ アカウントを作成します。 次に、ポータルのこのページに戻ってきて、ストレージ アカウントを選択します。 新しく作成したストレージ アカウントがドロップダウン メニューに表示されるまでには、数分かかる場合があります。 ログ ファイルのストレージは JSON 形式です。
-    * **イベント ハブへのストリーム** - このオプションを使用するには、既存のイベント ハブの名前空間とイベント ハブに接続する必要があります。 詳細については、「[Azure Portal を使用して Event Hubs 名前空間とイベント ハブを作成する](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)」をご覧ください。
-    * **Log Analytics への送信** - このオプションを使用するには、既存のワークスペースを使用するか、ポータルで[新しいワークスペースを作成する](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)ための手順に従って、新しいLog Analytics ワークスペースを作成します。 これは、組み込みの分析、ダッシュボード、通知の機能を備えている [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview) を活用します。 Log Analytics を使用して、他のリソースからのより多くのデータに接続し、アプリケーションのリソースすべてにわたるデータを 1 つの完全なビューにまとめます。 また、[1 回のクリックで Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi) に接続することもできます。
-    Log Analytics でのログの表示について詳しくは、[Log Analytics でのログの表示](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity)に関するページをご覧ください。
+    * **ストレージ アカウントへのアーカイブ** - このオプションを使用するには、既存のストレージ アカウントに接続する必要があります。 「[ストレージ アカウントを作成する](/azure/storage/common/storage-create-storage-account)」に記載されている手順に従ってストレージ アカウントを作成します。 次に、ポータルのこのページに戻ってきて、ストレージ アカウントを選択します。 新しく作成したストレージ アカウントがドロップダウン メニューに表示されるまでには、数分かかる場合があります。 ログ ファイルのストレージは JSON 形式です。
+    * **イベント ハブへのストリーム** - このオプションを使用するには、既存のイベント ハブの名前空間とイベント ハブに接続する必要があります。 詳細については、「[Azure Portal を使用して Event Hubs 名前空間とイベント ハブを作成する](/azure/event-hubs/event-hubs-create)」をご覧ください。
+    * **Log Analytics への送信** - このオプションを使用するには、既存のワークスペースを使用するか、ポータルで[新しいワークスペースを作成する](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)ための手順に従って、新しいLog Analytics ワークスペースを作成します。 これは、組み込みの分析、ダッシュボード、通知の機能を備えている [Azure Log Analytics](/azure/log-analytics/log-analytics-overview) を活用します。 Log Analytics を使用して、他のリソースからのより多くのデータに接続し、アプリケーションのリソースすべてにわたるデータを 1 つの完全なビューにまとめます。 また、[1 回のクリックで Power BI](/azure/log-analytics/log-analytics-powerbi) に接続することもできます。
+    Log Analytics でのログの表示について詳しくは、[Log Analytics でのログの表示](/azure/log-analytics/log-analytics-activity)に関するページをご覧ください。
     * **エンジン** - このオプションを選択して、以下で一覧表示されている一連の[エンジンのイベント](#whats-logged)をログに記録します。
-    * **AllMetrics** - このオプションを選択して、詳細データを[メトリック](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)に保存します。 ストレージ アカウントにアーカイブする場合、診断ログのリテンション期間を選択できます。 リテンション期間が過ぎると、ログは自動的に削除されます。
+    * **AllMetrics** - このオプションを選択して、詳細データを[メトリック](/azure/analysis-services/analysis-services-monitor#server-metrics)に保存します。 ストレージ アカウントにアーカイブする場合、診断ログのリテンション期間を選択できます。 リテンション期間が過ぎると、ログは自動的に削除されます。
 
 3. **[保存]** を選択します。
 
@@ -87,11 +87,11 @@ PowerShell を使用してメトリックと診断ログを有効にするには
 
 ### <a name="rest-api"></a>REST API
 
-[Azure Monitor の REST API を使用して診断設定を変更する](https://docs.microsoft.com/rest/api/monitor/)方法を学習します。 
+[Azure Monitor の REST API を使用して診断設定を変更する](/rest/api/monitor/)方法を学習します。 
 
 ### <a name="resource-manager-template"></a>Resource Manager テンプレート
 
-[Resource Manager テンプレートを使用してリソースの作成時に診断設定を有効にする](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template)方法を学習します。
+[Resource Manager テンプレートを使用してリソースの作成時に診断設定を有効にする](/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template)方法を学習します。
 
 ## <a name="whats-logged"></a>ログに記録されるもの
 
@@ -174,11 +174,11 @@ Log Analytics で診断データを表示するには、次のように、左側
 
 **EventClass\_s** またはイベント名のいずれかを選択すると、Log Analytics はクエリの作成を続行します。 後で再利用するためにクエリを保存しておきます。
 
-強化されたクエリ、ダッシュ ボード、収集したデータに対するアラート機能を備えた Web サイトを提供する [Log Analytics](https://docs.microsoft.com/azure/log-analytics/) をご覧ください。
+強化されたクエリ、ダッシュ ボード、収集したデータに対するアラート機能を備えた Web サイトを提供する [Log Analytics](/azure/log-analytics/) をご覧ください。
 
 ### <a name="queries"></a>編集
 
-使用できるクエリは数百個あります。 作業開始するためのクエリを次にいくつか示します。 新しいログ検索クエリ言語の使用について詳しくは、「[Log Analytics でのログ検索について](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search)」をご覧ください。
+使用できるクエリは数百個あります。 作業開始するためのクエリを次にいくつか示します。 新しいログ検索クエリ言語の使用について詳しくは、「[Log Analytics でのログ検索について](/azure/log-analytics/log-analytics-log-search)」をご覧ください。
 
 * 5 分 (300,000 ミリ秒) 未満の時間で完了したクエリの結果。
 
@@ -206,7 +206,7 @@ Log Analytics で診断データを表示するには、次のように、左側
 Azure リソースの診断ログについて、さらに詳しく学習することができます。
 
 > [!div class="nextstepaction"]
-> [Azure リソースの診断ログ](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
+> [Azure リソースの診断ログ](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
 
 > [!div class="nextstepaction"]
-> [Set-AzureRmDiagnosticSetting](https://docs.microsoft.com/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)
+> [Set-AzureRmDiagnosticSetting](/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)

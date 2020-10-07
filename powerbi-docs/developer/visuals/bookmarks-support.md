@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878584"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749002"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Power BI ビジュアルのブックマーク サポートを追加する
 
 Power BI レポートのブックマークを使用すると、レポート ページの構成済みビュー、選択の状態、およびビジュアルのフィルター処理の状態をキャプチャできます。 しかし、ブックマークをサポートし、変更に適切に対応するには、Power BI ビジュアル側からの追加のアクションが必要です。
 
-ブックマークの詳細については、「[Power BI でブックマークを使用して分析情報を共有し、ストーリーを作成する](https://docs.microsoft.com/power-bi/desktop-bookmarks)」を参照してください。
+ブックマークの詳細については、「[Power BI でブックマークを使用して分析情報を共有し、ストーリーを作成する](../../create-reports/desktop-bookmarks.md)」を参照してください。
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>ビジュアルでのレポート ブックマークのサポート
 

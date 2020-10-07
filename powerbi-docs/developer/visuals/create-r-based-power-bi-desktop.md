@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527771"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749324"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>チュートリアル:R を利用した Power BI 視覚エフェクトを作成する
 
@@ -31,9 +31,9 @@ ms.locfileid: "91527771"
 ## <a name="prerequisites"></a>前提条件
 
 * **Power BI Pro** アカウント。 開始する前に、[無料試用版にサインアップ](https://powerbi.microsoft.com/pricing/)してください。
-* R エンジン。 これはさまざまな場所から無料でダウンロードできます。たとえば、[Revolution Open ダウンロード ページ](https://mran.revolutionanalytics.com/download/)や [CRAN Repository](https://cran.r-project.org/bin/windows/base/) があります。 詳細については、「[R を使用した Power BI ビジュアルの作成](../../desktop-r-visuals.md)」をご覧ください。
+* R エンジン。 これはさまざまな場所から無料でダウンロードできます。たとえば、[Revolution Open ダウンロード ページ](https://mran.revolutionanalytics.com/download/)や [CRAN Repository](https://cran.r-project.org/bin/windows/base/) があります。 詳細については、「[R を使用した Power BI ビジュアルの作成](../../create-reports/desktop-r-visuals.md)」をご覧ください。
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md)。
-* Windows ユーザーの場合は [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) バージョン 4 以降、OSX ユーザーの場合は[ターミナル](https://macpaw.com/how-to/use-terminal-on-mac)。
+* Windows ユーザーの場合は [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) バージョン 4 以降、OSX ユーザーの場合は[ターミナル](https://macpaw.com/how-to/use-terminal-on-mac)。
 
 ## <a name="getting-started"></a>作業の開始
 
@@ -283,6 +283,6 @@ ms.locfileid: "91527771"
 
 ## <a name="next-steps"></a>次の手順
 
-R を利用した視覚エフェクトの詳細については、「[Power BI で R を利用した Power BI ビジュアルを使用する](../../desktop-r-powered-custom-visuals.md)」をご覧ください。
+R を利用した視覚エフェクトの詳細については、「[Power BI で R を利用した Power BI ビジュアルを使用する](../../create-reports/desktop-r-powered-custom-visuals.md)」をご覧ください。
 
-Power BI Desktop での R を利用した視覚エフェクトの詳細については、「[R を使用した Power BI ビジュアルの作成](../../desktop-r-visuals.md)」をご覧ください。
+Power BI Desktop での R を利用した視覚エフェクトの詳細については、「[R を使用した Power BI ビジュアルの作成](../../create-reports/desktop-r-visuals.md)」をご覧ください。

@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23e71d08b344fc27edca26372b7781b9e0d3d6d1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238771"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749117"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded の Multi-Geo のサポート
 
@@ -64,11 +65,11 @@ Power BI コンテンツを別のリージョンに移動するには、次の�
 
 Multi-Geo で API を使用して容量を管理できるように、既存の API に次の変更を加えました。
 
-1. **[容量を取得する](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** - API はユーザーがアクセスできる容量の一覧を返します。 応答には容量の場所を示す 'region' という追加のプロパティが含まれるようになります。
+1. **[容量を取得する](/rest/api/power-bi/capacities/getcapacities)** - API はユーザーがアクセスできる容量の一覧を返します。 応答には容量の場所を示す 'region' という追加のプロパティが含まれるようになります。
 
-2. **[容量に割り当てる](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API は指定のワークスペースを容量に割り当てることを許可します。 この操作は、ワークスペースをホーム リージョン以外の容量に割り当てることや、ワークスペースを異なるリージョン間の容量に移動することを許可しません。 この操作を実行するには、ユーザーまたは[サービス プリンシパル](embed-service-principal.md)は引き続きワークスペースに対する管理アクセス許可、およびターゲット容量に対する管理アクセス許可または割り当てアクセス許可が必要です。
+2. **[容量に割り当てる](/rest/api/power-bi/capacities)** - API は指定のワークスペースを容量に割り当てることを許可します。 この操作は、ワークスペースをホーム リージョン以外の容量に割り当てることや、ワークスペースを異なるリージョン間の容量に移動することを許可しません。 この操作を実行するには、ユーザーまたは[サービス プリンシパル](embed-service-principal.md)は引き続きワークスペースに対する管理アクセス許可、およびターゲット容量に対する管理アクセス許可または割り当てアクセス許可が必要です。
 
-3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - *Create* や *Delete* を含む、Azure Resource Manager API の操作はすべて Multi-Geo をサポートします。
+3. **[Azure Resource Manager API](/rest/api/power-bi-embedded/capacities)** - *Create* や *Delete* を含む、Azure Resource Manager API の操作はすべて Multi-Geo をサポートします。
 
 ## <a name="limitations-and-considerations"></a>制限事項と考慮事項
 

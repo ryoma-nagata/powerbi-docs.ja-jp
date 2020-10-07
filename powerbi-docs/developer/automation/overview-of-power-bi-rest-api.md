@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43480006b775aa7b8444f099b783f0d7f45a98c8
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488434"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748979"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Power BI API の開発者向け機能
 
@@ -26,7 +26,7 @@ Power BI API を使って行うことのできる例は以下のとおりです�
 | **参照する内容** | **参照先の記事** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | Power BI ユーザーと Power BI 以外のユーザーのためにレポート、ダッシュボード、タイルを埋め込む | [Power BI ダッシュボード、レポート、およびタイルを埋め込む方法](../embedded/embed-sample-for-customers.md) |
-| Power BI オブジェクトで管理タスクを実行する | [Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/) |
+| Power BI オブジェクトで管理タスクを実行する | [Power BI REST API リファレンス](/rest/api/power-bi/) |
 | 既存のビジネス ワークフローを拡張して、主要なデータを Power BI ダッシュボードにプッシュします。 | [ダッシュボードにデータをプッシュする](walkthrough-push-data.md) |
 | Power BI に対して認証を行う | [Power BI に対して認証を行う](../embedded/get-azuread-access-token.md) |
 
@@ -35,10 +35,10 @@ Power BI API を使って行うことのできる例は以下のとおりです�
 
 ## <a name="api-developer-tools"></a>API 開発者ツール
 
-| ツール | Description |  |  |
-|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [プレイグラウンド ツール](https://microsoft.github.io/PowerBI-JavaScript/demo) | Power BI JavaScript API を使用した完全なサンプルを体験できます。 このツールを使うと、さまざまな種類の Power BI Embedded のサンプルを簡単に再生することもできます。 |  |  |
-| [Power BI JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Power BI JavaScript API の詳細情報が得られます。 |  |  |
+| ツール | Description |
+|---------|-------------|
+| [プレイグラウンド ツール](https://microsoft.github.io/PowerBI-JavaScript/demo) | Power BI JavaScript API を使用した完全なサンプルを体験できます。 このツールを使うと、さまざまな種類の Power BI Embedded のサンプルを簡単に再生することもできます。 |
+| [Power BI JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Power BI JavaScript API の詳細情報が得られます。 |
 | [Postman](https://www.getpostman.com/) | 要求の実行、テスト、デバッグ、監視、自動テストの実行などを行います。 |
 
 ## <a name="push-data-into-power-bi"></a>Power BI にデータをプッシュする
@@ -58,6 +58,6 @@ Power BI API を使って、[データセットにデータをプッシュ](walk
 * [データセットにデータをプッシュする](walkthrough-push-data.md)
 * [Power BI のビジュアルを開発する](../visuals/custom-visual-develop-tutorial.md)
 * [Power BI REST API リファレンス](rest-api-reference.md)
-* [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
+* [Power BI REST API](/rest/api/power-bi/)
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

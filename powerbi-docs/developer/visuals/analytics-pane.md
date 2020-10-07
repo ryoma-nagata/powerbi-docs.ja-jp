@@ -9,23 +9,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: e9d1479b596f563edc37f0c7a72b29c3343fed1e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239901"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749025"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI ビジュアルの分析ウィンドウ
 
-2018 年 11 月に、**分析**ウィンドウが[ネイティブ ビジュアル](https://docs.microsoft.com/power-bi/desktop-analytics-pane)に導入されました。
+2018 年 11 月に、**分析**ウィンドウが[ネイティブ ビジュアル](../../transform-model/desktop-analytics-pane.md)に導入されました。
 この記事では、API v2.5.0 を使用する Power BI ビジュアルで**分析**ウィンドウにそれらのプロパティを表示して管理する方法について検討します。
 
 ![分析ウィンドウ](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>分析ウィンドウを管理する
 
-[**書式**ウィンドウ](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options)でプロパティを管理するように、ビジュアルの **capabilities.json** ファイルでオブジェクトを定義することで、*分析*ウィンドウを管理します。
+[**書式**ウィンドウ](./custom-visual-develop-tutorial-format-options.md)でプロパティを管理するように、ビジュアルの **capabilities.json** ファイルでオブジェクトを定義することで、*分析*ウィンドウを管理します。
 
 **分析**ウィンドウでは、次のような違いがあります。
 

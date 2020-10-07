@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: b1ae402f8e8712920cc93248828603d1087c8c4a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401958"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749232"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI の組織のビジュアル
 
@@ -49,7 +49,7 @@ Power BI ビジュアルが重要視される組織もあります。その組�
 
 エンド ユーザー:
 
-* 組織の Power BI ビジュアルは、組織のリポジトリからインポートされるプライベートなビジュアルです。 他のプライベートなビジュアルと同じように、これらを [PowerPoint にエクスポート](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint)したり、ユーザーが[レポート ページをサブスクライブする](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe)ときに受信する電子メールに表示したりすることはできません。 これらの機能をサポートしているのは、マーケットプレースから直接インポートされる[認定済み Power BI ビジュアル](power-bi-custom-visuals-certified.md)のみです。
+* 組織の Power BI ビジュアルは、組織のリポジトリからインポートされるプライベートなビジュアルです。 他のプライベートなビジュアルと同じように、これらを [PowerPoint にエクスポート](../../consumer/end-user-powerpoint.md)したり、ユーザーが[レポート ページをサブスクライブする](../../consumer/end-user-subscribe.md)ときに受信する電子メールに表示したりすることはできません。 これらの機能をサポートしているのは、マーケットプレースから直接インポートされる[認定済み Power BI ビジュアル](power-bi-custom-visuals-certified.md)のみです。
 
 * AppSource マーケットプレースの Visio ビジュアル、PowerApps ビジュアル、Map box ビジュアル、GlobeMap ビジュアルは、組織のリポジトリから展開された場合、レンダリングされません。
 

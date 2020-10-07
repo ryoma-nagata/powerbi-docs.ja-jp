@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034062"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748956"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Power BI 用の資格情報をプログラムで構成する
 
@@ -25,7 +25,7 @@ ms.locfileid: "86034062"
 
 ## <a name="update-credentials-flow-for-data-sources"></a>データ ソースの資格情報フローを更新する
 
-1. [Get Datasources](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasourcesingroup) を呼び出して、データセットのデータ ソースを検出します。 各データ ソースの応答本文には、種類、接続の詳細、ゲートウェイ、およびデータ ソース ID が含まれています。
+1. [Get Datasources](/rest/api/power-bi/datasets/getdatasourcesingroup) を呼び出して、データセットのデータ ソースを検出します。 各データ ソースの応答本文には、種類、接続の詳細、ゲートウェイ、およびデータ ソース ID が含まれています。
 
     ```csharp
     // Select a datasource
@@ -33,7 +33,7 @@ ms.locfileid: "86034062"
     var datasource = datasources.First();
     ```
 
-2. [Update Datasource の例](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (資格情報の種類によって異なる) に従って、資格情報の文字列を作成します。
+2. [Update Datasource の例](/rest/api/power-bi/gateways/updatedatasource) (資格情報の種類によって異なる) に従って、資格情報の文字列を作成します。
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -50,9 +50,9 @@ ms.locfileid: "86034062"
     ---
 
     >[!NOTE]
-    >クラウド データ ソースを使用している場合、このセクションの後続手順には従わないでください。 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) を呼び出し、手順 1 で取得したゲートウェイ ID とデータ ソース ID を利用して資格情報を設定します。 
+    >クラウド データ ソースを使用している場合、このセクションの後続手順には従わないでください。 [Update Datasource](/rest/api/power-bi/gateways/updatedatasource) を呼び出し、手順 1 で取得したゲートウェイ ID とデータ ソース ID を利用して資格情報を設定します。 
 
-3. [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) を呼び出して、ゲートウェイの公開キーを取得します。
+3. [Get Gateway](/rest/api/power-bi/gateways/getgateways) を呼び出して、ゲートウェイの公開キーを取得します。
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
@@ -104,7 +104,7 @@ ms.locfileid: "86034062"
 
     ---
 
-6. [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) を呼び出して資格情報を設定します。
+6. [Update Datasource](/rest/api/power-bi/gateways/updatedatasource) を呼び出して資格情報を設定します。
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);
@@ -114,7 +114,7 @@ ms.locfileid: "86034062"
 
 1. ご利用のコンピューター上に[オンプレミス データ ゲートウェイ](https://powerbi.microsoft.com/gateway/)をインストールします。
 
-2. [Get Gateways](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) を呼び出して、ゲートウェイ ID と公開キーを取得します。
+2. [Get Gateways](/rest/api/power-bi/gateways/getgateways) を呼び出して、ゲートウェイ ID と公開キーを取得します。
 
     ```csharp
     // Select a gateway
@@ -134,7 +134,7 @@ ms.locfileid: "86034062"
             dataSourceName: "my sql datasource");
     ```
 
-5. [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) API を呼び出します。
+5. [Create Datasource](/rest/api/power-bi/gateways/createdatasource) API を呼び出します。
 
     ```csharp
     pbiClient.Gateways.CreateDatasource(gateway.Id, request);
@@ -142,7 +142,7 @@ ms.locfileid: "86034062"
 
 ## <a name="credential-types"></a>資格情報の種類
 
-[Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) を使用して**エンタープライズ オンプレミス ゲートウェイ**で[データソースの作成](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource)または[データソースの更新](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)を呼び出すときは、ゲートウェイの公開キーを使用して資格情報の値を暗号化する必要があります。
+[Power BI Rest API](/rest/api/power-bi/) を使用して**エンタープライズ オンプレミス ゲートウェイ**で[データソースの作成](/rest/api/power-bi/gateways/createdatasource)または[データソースの更新](/rest/api/power-bi/gateways/updatedatasource)を呼び出すときは、ゲートウェイの公開キーを使用して資格情報の値を暗号化する必要があります。
 
 >[!NOTE]
 >.NET SDK v3 では、以下に示す .NET SDK v2 の例も実行できます。
@@ -233,6 +233,6 @@ var credentials = "{\"credentialData\":\"\"}";
 
 データセットを作成したら、データセットと適切なゲートウェイとの間でバインドが自動的に作成されます。これには、すべての接続についてのデータ ソースの照合も含まれます。 このようなゲートウェイまたは複数の適切なゲートウェイが存在しない場合、自動バインディングは失敗します。
 
-オンプレミスのデータセットを使用している場合は、不足しているオンプレミスのデータ ソースを作成し、[Bind To Gateway](https://docs.microsoft.com/rest/api/power-bi/datasets/bindtogateway) を使用してデータセットをゲートウェイに手動でバインドします。
+オンプレミスのデータセットを使用している場合は、不足しているオンプレミスのデータ ソースを作成し、[Bind To Gateway](/rest/api/power-bi/datasets/bindtogateway) を使用してデータセットをゲートウェイに手動でバインドします。
 
-バインドすることが可能なゲートウェイを検出するには、[Discover Gateways](https://docs.microsoft.com/rest/api/power-bi/datasets/discovergateways) を使用します。
+バインドすることが可能なゲートウェイを検出するには、[Discover Gateways](/rest/api/power-bi/datasets/discovergateways) を使用します。

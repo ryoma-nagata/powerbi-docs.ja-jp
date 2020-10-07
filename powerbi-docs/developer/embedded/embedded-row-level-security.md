@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402050"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748910"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded での行レベルのセキュリティ
 
@@ -78,7 +78,7 @@ RLS は Power BI Desktop で作成します。 データセットとレポート
 
 Power BI Desktop でロールを構成したので、アプリケーションでロールを利用するための作業が必要です。
 
-ユーザーはアプリケーションによって認証および承認され、特定の Power BI Embedded レポートへのアクセスを、埋め込みトークンを使って許可されます。 Power BI Embedded には、ユーザーが誰であるかに関する具体的な情報はありません。 RLS を機能させるためには、埋め込みトークンの一部として、ID の形式で追加コンテキストを渡す必要があります。 [埋め込みトークン](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API を使って ID を渡すことができます。
+ユーザーはアプリケーションによって認証および承認され、特定の Power BI Embedded レポートへのアクセスを、埋め込みトークンを使って許可されます。 Power BI Embedded には、ユーザーが誰であるかに関する具体的な情報はありません。 RLS を機能させるためには、埋め込みトークンの一部として、ID の形式で追加コンテキストを渡す必要があります。 [埋め込みトークン](/rest/api/power-bi/embedtoken) API を使って ID を渡すことができます。
 
 この API は、ID とそれに関連するデータセットを示す値を受け取ります。 RLS を機能させるためには、ID の一部として次の要素を渡す必要があります。
 
@@ -134,7 +134,7 @@ REST API を呼び出すと、更新された API は、ユーザー名、ロー
 ユーザー名プロパティとして有効な ID は、Analysis Services サーバーのアクセス許可を持つ Windows ユーザーです。
 
 >[!NOTE]
-> サービス プリンシパルを [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) データ ソースと共に使用する場合、サービス プリンシパル自体に Azure Analysis Services インスタンスのアクセス許可が含まれている必要があります。 この目的のためのサービス プリンシパルを含むセキュリティ グループを使用することはできません。
+> サービス プリンシパルを [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) データ ソースと共に使用する場合、サービス プリンシパル自体に Azure Analysis Services インスタンスのアクセス許可が含まれている必要があります。 この目的のためのサービス プリンシパルを含むセキュリティ グループを使用することはできません。
 
 ### <a name="on-premises-data-gateway-configuration"></a>オンプレミス データ ゲートウェイ構成
 
@@ -195,7 +195,7 @@ REST API を呼び出す場合は、次の例のように各 ID の内部にカ�
 
 Power BI Embedded アプリケーションで CustomData() 機能の設定を開始するための手順は、次のとおりです。
 
-1. ご自身の Azure Analysis Services データベースを作成します。 次に、[SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) を介してご自身の Azure Analysis Services サーバーにサインインします。
+1. ご自身の Azure Analysis Services データベースを作成します。 次に、[SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) を介してご自身の Azure Analysis Services サーバーにサインインします。
 
     ![Azure Analysis Services データベースを作成する](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -245,7 +245,7 @@ Power BI Embedded アプリケーションで CustomData() 機能の設定を開
 
 * [Power BI レポートでロールを構成する](../../create-reports/desktop-rls.md)。
 * データ ソース レベルでロールを構成する (Analysis Services のライブ接続のみ)。
-* [埋め込みトークン](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)で `EffectiveIdentity` を使ってプログラムで実行する。 埋め込みトークンを使う場合、実際のフィルターは特定のセッションの埋め込みトークンを通過します。
+* [埋め込みトークン](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)で `EffectiveIdentity` を使ってプログラムで実行する。 埋め込みトークンを使う場合、実際のフィルターは特定のセッションの埋め込みトークンを通過します。
 
 ユーザーが短縮、スコープ設定、またはフィルター処理されたデータのビューを利用できるようにするためには、[JavaScript のフィルター](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters)を使います。 ただし、ユーザーは引き続きモデル スキーマのテーブル、列、およびメジャーにアクセスできるため、潜在的にはそこにあるすべてのデータにアクセスできます。 データへのアクセス制限は RLS を使う場合にのみ適用でき、クライアント側のフィルター処理 API を使う場合は適用できません。
 
@@ -261,7 +261,7 @@ Azure SQL で各ユーザーのビューを管理したり、マルチテナン�
 
 このような有効な ID の発行は、Azure SQL Server での RLS ルールに直接適用されます。 Power BI Embedded では、Azure SQL Server のデータのクエリを実行するときに、提供されたアクセス トークンが使用されます。 (アクセス トークンの提供対象である) ユーザーの UPN には、USER_NAME() SQL 関数の結果としてアクセスできます。
 
-トークン ベースの ID は、Azure SQL Database に接続されている専用容量での DirectQuery モデルに対してのみ動作します。これは、AAD 認証を許可するように構成されています ([Azure SQL Database に対する AAD 認証の詳細](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins))。 トークン ベースの ID を使用するには、エンド ユーザーの OAuth2 資格情報を使用するように、データセットのデータ ソースを構成する必要があります。
+トークン ベースの ID は、Azure SQL Database に接続されている専用容量での DirectQuery モデルに対してのみ動作します。これは、AAD 認証を許可するように構成されています ([Azure SQL Database に対する AAD 認証の詳細](/azure/sql-database/sql-database-manage-logins))。 トークン ベースの ID を使用するには、エンド ユーザーの OAuth2 資格情報を使用するように、データセットのデータ ソースを構成する必要があります。
 
    ![Azure SQL Server を構成する](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -322,11 +322,11 @@ ID BLOB で提供する値は、Azure SQL Server に対する (リソース URL 
 
 SQL Server Analysis Services (SSAS) オンプレミス ライブ接続データ ソースを使用して行レベル セキュリティ (RLS) を構成するお客様は、**Power BI Embedded** と統合することで、新しい[サービス プリンシパル](embed-service-principal.md)機能を使用して、ユーザーと、SSAS のデータへのユーザー アクセスを管理することができます。
 
-[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) を使用すると、[サービス プリンシパル オブジェクト](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)を使用して埋め込みトークンに対して SSAS オンプレミス ライブ接続用の有効な ID を指定することができます。
+[Power BI REST API](/rest/api/power-bi/) を使用すると、[サービス プリンシパル オブジェクト](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)を使用して埋め込みトークンに対して SSAS オンプレミス ライブ接続用の有効な ID を指定することができます。
 
 これまでは、SSAS オンプレミス ライブ接続用の有効な ID を指定することができるためには、埋め込みトークンを生成するマスター ユーザーがゲートウェイ管理者である必要がありました。現在では、ユーザーがゲートウェイ管理者である必要はなくなりました。ゲートウェイ管理者は、そのデータ ソースに専用のアクセス許可をユーザーに付与することができ、そのユーザーは埋め込みトークンを生成するときに、有効な ID をオーバーライドできます。 この新しい機能により、SSAS ライブ接続に対してサービス プリンシパルでの埋め込みが可能になります。
 
-このシナリオを有効にするには、ゲートウェイ管理者が [Add Datasource User REST API](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser) を使用して、Power BI Embedded に対する *ReadOverrideEffectiveIdentity* アクセス許可をサービス プリンシパルに付与する必要があります。
+このシナリオを有効にするには、ゲートウェイ管理者が [Add Datasource User REST API](/rest/api/power-bi/gateways/adddatasourceuser) を使用して、Power BI Embedded に対する *ReadOverrideEffectiveIdentity* アクセス許可をサービス プリンシパルに付与する必要があります。
 
 管理ポータルを使用してこのアクセス許可を設定することはできません。 このアクセス許可は、API でのみ設定されます。 管理ポータルでは、そのようなアクセス許可を持つユーザーと SPN についての指示が表示されます。
 
