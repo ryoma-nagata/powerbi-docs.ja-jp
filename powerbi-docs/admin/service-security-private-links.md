@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: dee055f53302ef6e7884463b8e0feb113aa9bd5a
+ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854370"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "91224212"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Power BI にアクセスするためのプライベート リンク
 
@@ -226,10 +226,7 @@ ARM テンプレートを作成する
     |Subnet |*mySubnet* の選択 |
     |**プライベート DNS 統合** ||
     |プライベート DNS ゾーンとの統合|   **[はい]** を選択します |
-    |プライベート DNS ゾーン   |選択 <br><br>
-    " *(新規)privatelink.analysis.windows.net*" <br>
-    " *(新規)privatelink.pbidedicated.windows.net*" <br>
-    " *(新規)privatelink.tip1.powerquery.microsoft.com* |"
+    |プライベート DNS ゾーン   |選択 <br> " *(新規)privatelink.analysis.windows.net*" <br> " *(新規)privatelink.pbidedicated.windows.net*" <br> " *(新規)privatelink.tip1.powerquery.microsoft.com*" |
     
     次の図は、 **[プライベート エンドポイントの作成 - 構成]** ウィンドウを示しています。
     

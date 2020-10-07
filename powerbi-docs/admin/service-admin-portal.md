@@ -10,12 +10,12 @@ ms.date: 09/25/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ae904f203c3f5b9437fd01b9306cc160e6feff1b
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 62c463972d4811bac0c5400da96a88264273a873
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375260"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600268"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>管理ポータルでの Power BI の管理
 
@@ -393,7 +393,7 @@ Azure AD B2B ゲスト ユーザーは、組織内のコンテンツを編集お
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI を使用する
 
-組織内のユーザーは、Esri が提供する ArcGIS Maps for Power BI の視覚化を使用できます。 [詳細情報](../visuals/power-bi-visualization-arcgis.md)
+組織内のユーザーは、Esri が提供する ArcGIS Maps for Power BI の視覚化を使用できます。 [詳細情報](../visuals/power-bi-visualizations-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI でグローバル検索を使用する (プレビュー)
 

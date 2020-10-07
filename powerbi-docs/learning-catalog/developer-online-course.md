@@ -9,11 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/01/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 82f9ffaeb98610dd9ae5986031638c5086749937
-ms.sourcegitcommit: 7fba2caf3bd7ed93a7ecb6a6b9ba2da26de27395
+ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "84467035"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527886"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Power BI 開発者 (1 日) コース
 
@@ -84,7 +85,7 @@ Power BI に関する知識は、あれば望ましいですが、必須では�
 
 - 最新バージョンの [Power BI Desktop](../fundamentals/desktop-get-the-desktop.md)。
 - Visual Studio 2015 以降。 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) をお勧めします。 学習シナリオに適した無料の **Community** エディションを使用できます。 **ASP.NET および Web 開発**ワークロードがインストールされている必要があります。
-- [Power BI によってサポートされている](../power-bi-browsers.md) Web ブラウザー。 Microsoft Edge をお勧めします。
+- [Power BI によってサポートされている](../fundamentals/power-bi-browsers.md) Web ブラウザー。 Microsoft Edge をお勧めします。
 
 次の手順に従ってセットアップを開始します。
 
@@ -105,7 +106,7 @@ Power BI に関する知識は、あれば望ましいですが、必須では�
 最初のラボを開始する準備ができたら、 **&lt;CourseFolder&gt;\PowerBIDevIAD\Lab01A\PowerBIDevIAD_Lab01A.pdf** ファイルを開きます。 このドキュメントには、Power BI サービスにサインインして Power BI レポートを準備する方法が示されています。
 
 > [!NOTE]
-> 独自の Power BI アカウントを用意する必要があります。 まだお持ちでない場合は、「[個人として Power BI にサインアップする](../service-self-service-signup-for-power-bi.md)」を参照してください。
+> 独自の Power BI アカウントを用意する必要があります。 まだお持ちでない場合は、「[個人として Power BI にサインアップする](../fundamentals/service-self-service-signup-for-power-bi.md)」を参照してください。
 >
 > お使いのアカウントには、Power BI Pro ライセンスが必要になります。または、Power BI Pro 試用版ライセンスを受け入れてもかまいません (このオファーを受け入れることができるのは、1 回だけです)。 また、お使いのアカウントでは、Power BI Pro ライセンスで利用できる無料の埋め込みトークンの予約を使い果たさないようにする必要があります。
 >

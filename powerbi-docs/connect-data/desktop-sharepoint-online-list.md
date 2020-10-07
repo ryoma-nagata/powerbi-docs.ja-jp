@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 74dbd1207a39f44f761c5068af41db1f40acabe3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222687"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598648"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>SharePoint リスト上にレポートを作成する
 
@@ -30,7 +30,7 @@ SharePoint Online のリストは、設定するのが簡単であることに�
 2. Power BI Desktop を開き、リボンの [ホーム] タブで **[データの取得]**  >  **[その他]** の順に選択します。
 3. **[Online Services]** を選択してから、 **[SharePoint Online リスト]** を選択します。  
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="get data" width="350"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="Screenshot shows the Get Data dialog box with Online Services selected." width="350"/>
 
 4. **[接続]** を選択します。
 4. ご利用のリストを含む SharePoint Online サイトのアドレス (URL とも呼ばれる) を見つけます。  SharePoint Online のページから、サイトのアドレスを取得するには、通常、ナビゲーション ウィンドウ内の **[ホーム]** を選択するか、または上部にあるサイトのアイコンを選択して、ご利用の Web ブラウザーのアドレス バーからアドレスをコピーします。
@@ -52,7 +52,7 @@ SharePoint Online のリストは、設定するのが簡単であることに�
 
 9. ナビゲーターの左側で、接続先の SharePoint リストの横にあるチェックボックスを選択します。
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="get data" width="450"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="Screenshot shows the Navigator page with BudgetRequests selected." width="450"/>
 
 10. **[読み込み]** を選択します。  Power BI によって、ご利用のリスト データが新しいレポートに読み込まれます。
 
