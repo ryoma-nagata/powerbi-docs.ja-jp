@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 38db00f51a333b754267d52aaf3e3eabccc3e6b6
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273025"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746403"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -50,7 +50,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Azure Active Directory にアプリケーションを登録する
 
-Azure Active Directory に[アプリケーションを登録する](register-app.md)と、アプリケーションは [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) にアクセスできるようになります。 アプリケーションを登録すると、アプリケーションの ID を設定し、Power BI REST リソースへのアクセス許可を指定することができます。
+Azure Active Directory に[アプリケーションを登録する](register-app.md)と、アプリケーションは [Power BI REST API](/rest/api/power-bi/) にアクセスできるようになります。 アプリケーションを登録すると、アプリケーションの ID を設定し、Power BI REST リソースへのアクセス許可を指定することができます。
 
 **サーバー側の Web アプリケーション** アプリの登録を続行する必要があります。 アプリケーション シークレットを作成するには、サーバー側 Web アプリケーションを登録します。
 
@@ -190,9 +190,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-your-content-within-your-application"></a>アプリケーション内にコンテンツを埋め込む
 
-コンテンツを埋め込む手順は [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) で行うことはできますが、この記事で説明するコード例は .NET SDK で作成されています。
+コンテンツを埋め込む手順は [Power BI REST API](/rest/api/power-bi/) で行うことはできますが、この記事で説明するコード例は .NET SDK で作成されています。
 
-Web アプリにレポートを統合するには、Power BI REST API または Power BI C# SDK を使用します。 Azure Active Directory 認証アクセス トークンを使用してレポートを取得することもできます。 その後、同じアクセス トークンを使ってレポートを読み込みます。 Power BI Rest API では、特定の Power BI リソースへのプログラムによるアクセスが提供されます。 詳細については、「[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)」 (Power BI REST API) と [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページを参照してください。
+Web アプリにレポートを統合するには、Power BI REST API または Power BI C# SDK を使用します。 Azure Active Directory 認証アクセス トークンを使用してレポートを取得することもできます。 その後、同じアクセス トークンを使ってレポートを読み込みます。 Power BI Rest API では、特定の Power BI リソースへのプログラムによるアクセスが提供されます。 詳細については、「[Power BI REST API](/rest/api/power-bi/)」 (Power BI REST API) と [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページを参照してください。
 
 ### <a name="get-an-access-token-from-azure-ad"></a>Azure AD からアクセス トークンを取得する
 
@@ -200,11 +200,11 @@ Web アプリにレポートを統合するには、Power BI REST API または 
 
 ### <a name="get-a-report"></a>レポートを取得する
 
-Power BI またはページ分割されたレポートを取得するには、[レポートの取得](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作を使用し、Power BI レポートとページ分割されたレポートの一覧を取得します。 レポートの一覧から、レポート ID を取得できます。
+Power BI またはページ分割されたレポートを取得するには、[レポートの取得](/rest/api/power-bi/reports/getreports)操作を使用し、Power BI レポートとページ分割されたレポートの一覧を取得します。 レポートの一覧から、レポート ID を取得できます。
 
 ### <a name="get-reports-by-using-an-access-token"></a>アクセス トークンを使ってレポートを取得する
 
-[レポートを取得する](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)操作により、レポートの一覧が返されます。 レポートの一覧から 1 つのレポートを取得できます。
+[レポートを取得する](/rest/api/power-bi/reports/getreports)操作により、レポートの一覧が返されます。 レポートの一覧から 1 つのレポートを取得できます。
 
 REST API 呼び出しを行うには、*Authorization* ヘッダーを "*ベアラー {アクセス トークン}* " の形式で含める必要があります。
 

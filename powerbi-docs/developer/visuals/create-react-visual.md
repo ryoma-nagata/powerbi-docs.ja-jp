@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 2b1b28608799616f4bc75837f82521ae345cf186
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0160bf604b23102bcb6e21232a64a776f3bb8290
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148972"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746265"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>チュートリアル:React ベースのビジュアルを作成する
 
@@ -36,7 +36,7 @@ ms.locfileid: "83148972"
 
 * **Power BI Pro** アカウント。 開始する前に、[無料試用版にサインアップ](https://powerbi.microsoft.com/pricing/)してください。
 * [Visual Studio Code](https://www.visualstudio.com/)。
-* Windows ユーザーの場合は [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) バージョン 4 以降、OSX ユーザーの場合は[ターミナル](https://macpaw.com/how-to/use-terminal-on-mac)。
+* Windows ユーザーの場合は [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) バージョン 4 以降、OSX ユーザーの場合は[ターミナル](https://macpaw.com/how-to/use-terminal-on-mac)。
 * 「[開発者環境を設定する](custom-visual-develop-tutorial.md#setting-up-the-developer-environment)」で説明されている環境。
 
 ## <a name="getting-started"></a>作業の開始

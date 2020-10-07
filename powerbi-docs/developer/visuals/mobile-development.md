@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 38e6ac3be143381304f1fdfc8e1427b91f398a9a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196631"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747530"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>モバイル対応の Power BI ビジュアルを作成する方法
 モバイル消費は、Power BI において大きな役割があります。 その長所の 1 つは、いつでもどこでもデータに接続していられることです。
 
 Power BI ビジュアルを作成する開発者は、できるだけ多くのユーザーが使用できるようにし、最適なモバイル エクスペリエンスを提供するため、各モバイル デバイスに固有の制約に対応する必要があります。
 
-[Windows、iOS、Android 用の Power BI アプリ](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices)を使用して、ビジネス ユーザーが外出先でも指先 1 つでデータの包括的なビューを見られるようにします。
+[Windows、iOS、Android 用の Power BI アプリ](../../consumer/mobile/mobile-apps-for-mobile-devices.md)を使用して、ビジネス ユーザーが外出先でも指先 1 つでデータの包括的なビューを見られるようにします。
 
 ## <a name="requirements"></a>要件
 
@@ -63,7 +63,7 @@ Power BI ビジュアルを作成する開発者は、できるだけ多くの�
   同じ設定をデスクトップ ブラウザーのビジュアルにも適用でき、必要に応じてオーバーライドして、ビジュアルをより小さい画面に合わせることができます。
 
   > [!NOTE]
-  > **フォーカス** モードでビジュアルを最適化するには、縦と横両方の向きの画面サイズを考慮する必要があります。[フォーカス モードでのコンテンツの表示](/power-bi/consumer/end-user-focus)に関する記事をご覧ください。
+  > **フォーカス** モードでビジュアルを最適化するには、縦と横両方の向きの画面サイズを考慮する必要があります。[フォーカス モードでのコンテンツの表示](../../consumer/end-user-focus.md)に関する記事をご覧ください。
 
 - Interactive
 
@@ -74,9 +74,9 @@ Power BI ビジュアルを作成する開発者は、できるだけ多くの�
   モバイル デバイスにビジュアルをレンダリングできない場合は、わかりやすいエラーを表示する必要があります。
 
 ## <a name="supported-browsers-and-devices"></a>サポートされているブラウザーとデバイス
-Power BI ビジュアルは、Power BI アプリをサポートするすべてのデバイスでレンダリングできる必要があります。詳しくは、「[Power BI のサポートされているブラウザー](/power-bi/power-bi-browsers)」および[Power BI モバイル アプリ](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices)に関する記事をご覧ください。
+Power BI ビジュアルは、Power BI アプリをサポートするすべてのデバイスでレンダリングできる必要があります。詳しくは、「[Power BI のサポートされているブラウザー](../../fundamentals/power-bi-browsers.md)」および[Power BI モバイル アプリ](../../consumer/mobile/mobile-apps-for-mobile-devices.md)に関する記事をご覧ください。
 
 Windows、iOS、Android デバイスの最新モデルに対してテストする場合、開発者はこれらの品質面のほとんどを考慮する必要があります。
 
 ## <a name="next-steps"></a>次の手順
-作業を開始するには、次を参照してください: 「[チュートリアル: Power BI のビジュアルを開発する](/power-bi/developer/visuals/custom-visual-develop-tutorial)」。
+作業を開始するには、次を参照してください: 「[チュートリアル: Power BI のビジュアルを開発する](./custom-visual-develop-tutorial.md)」。

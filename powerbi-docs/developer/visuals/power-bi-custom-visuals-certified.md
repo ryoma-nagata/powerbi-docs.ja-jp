@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: ee79a2f74714322e6ff7b4ec965060b7c9291060
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84c33cfc1d9163ff631c11d285b5441dd301578e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237454"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748128"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>認定済みの Power BI ビジュアルを取得する
 
@@ -84,7 +84,7 @@ Power BI ビジュアルを作成するには、最新バージョンの [powerb
 
 ### <a name="source-code-requirements"></a>ソース コードの要件
 
-[Power BI ビジュアルの追加の認定](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification)ポリシー一覧に従っていることを確認します。 提出がこれらのガイドラインに従っていない場合、パートナー センターからの却下メールには、このリンクに記載されているポリシー番号が記載されます。
+[Power BI ビジュアルの追加の認定](/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification)ポリシー一覧に従っていることを確認します。 提出がこれらのガイドラインに従っていない場合、パートナー センターからの却下メールには、このリンクに記載されているポリシー番号が記載されます。
 
 次に示すコードの要件に従って、コードが Power BI 認定ポリシーに準拠していることを確認します。  
 

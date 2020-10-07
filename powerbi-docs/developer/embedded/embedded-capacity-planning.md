@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145120"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746748"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI 埋め込み分析の容量計画
 
@@ -42,7 +42,7 @@ Power BI 埋め込み分析の展開に必要な容量の種類を計算する�
 ここでは、計画ツールを使用する方法の例をいくつか示します。
 
 * 容量管理者は、容量で特定の期間内に処理できるユーザー数について理解を深めることができます。
-* レポート作成者は、Power BI Desktop の[パフォーマンス アナライザー](https://docs.microsoft.com/power-bi/desktop-performance-analyzer)で測定したユーザーの負荷の結果を理解できます。
+* レポート作成者は、Power BI Desktop の[パフォーマンス アナライザー](../../create-reports/desktop-performance-analyzer.md)で測定したユーザーの負荷の結果を理解できます。
 * ブラウザーにリアルタイムでレンダリングされていることを確認できます。
 * SQL Server Profiler を使用すると、測定対象の容量の [XMLA エンドポイントに接続](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)して、実行されているクエリを確認できます。
 * ロード テストの結果は、Premium Capacity Metrics アプリの [データセット] ページに表示されます。 容量管理者は、このツールを使用して負荷を生成し、負荷がどのように表示されるかを確認できます。

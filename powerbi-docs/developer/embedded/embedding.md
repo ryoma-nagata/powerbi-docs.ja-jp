@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487855"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746219"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI を使用した埋め込み分析
 
@@ -43,7 +43,7 @@ Power BI コンテンツを埋め込む主なシナリオは 2 つあります�
  
 - Power BI ライセンスを要求しない、ユーザーおよび顧客向けの埋め込み。 
 
-[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) は両方のシナリオに対応します。
+[Power BI REST API](/rest/api/power-bi/) は両方のシナリオに対応します。
 
 Power BI ライセンスのない顧客やユーザーの場合、同じ API を使用して、組織用と顧客用のダッシュボードやレポートをカスタム アプリケーションに埋め込むことができます。 顧客には、アプリケーションで管理されるデータが表示されます。 また、組織の Power BI ユーザーには、Power BI で直接か、埋め込みアプリケーションのコンテキストで*自分のデータ*を表示するための追加オプションが与えられます。 埋め込みのニーズに合わせて JavaScript や REST API を最大限に活用できます。
 
@@ -53,7 +53,7 @@ Power BI ライセンスのない顧客やユーザーの場合、同じ API を
 
 **組織向けの埋め込み**を使って、Power BI サービスを拡張することができます。 この種類の埋め込みでは、アプリケーションのユーザーがコンテンツを表示するには Power BI サービスにサインインする必要があります。 サインインした組織のユーザーは、自分が所有しているか、誰かが Power BI サービスで自分と共有しているダッシュボードとレポートにのみアクセスできます。
 
-組織向けの埋め込みの例としては、[SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams の統合 (管理者権限が必要です)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) などの内部のアプリケーションがあります。
+組織向けの埋め込みの例としては、[SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams の統合 (管理者権限が必要です)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) などの内部のアプリケーションがあります。
 
 組織向けに埋め込むには、「[チュートリアル:組織向けのアプリケーションに Power BI コンテンツを埋め込む](embed-sample-for-your-organization.md)」を参照してください。
 

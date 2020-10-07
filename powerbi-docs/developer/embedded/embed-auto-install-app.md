@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 646a09545a06dfa65bd73a666fa2419d82e4da33
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236914"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748657"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>組織向けの埋め込みのときに Power BI アプリを自動インストールする
 
@@ -29,7 +29,7 @@ ms.locfileid: "85236914"
 
 ![アプリのコンテンツ作成登録](media/embed-auto-install-app/register-app-create-content.png)
 
-次に、埋め込み URL にアプリ ID を指定する必要があります。 アプリ ID を指定するには、アプリの作成者はまずアプリをインストールし、サポートされている [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 呼び出し ([レポートの取得](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)または[ダッシュボードの取得](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)) のいずれか 1 つを使用する必要があります。 その後アプリの作成者は REST API 応答から埋め込み URL を取得する必要があります。 コンテンツがアプリからのものである場合、アプリ ID は URL 内に含まれています。  埋め込み URL の取得後は、定期的な埋め込みに使用できます。
+次に、埋め込み URL にアプリ ID を指定する必要があります。 アプリ ID を指定するには、アプリの作成者はまずアプリをインストールし、サポートされている [Power BI Rest API](/rest/api/power-bi/) 呼び出し ([レポートの取得](/rest/api/power-bi/reports/getreports)または[ダッシュボードの取得](/rest/api/power-bi/dashboards/getdashboards)) のいずれか 1 つを使用する必要があります。 その後アプリの作成者は REST API 応答から埋め込み URL を取得する必要があります。 コンテンツがアプリからのものである場合、アプリ ID は URL 内に含まれています。  埋め込み URL の取得後は、定期的な埋め込みに使用できます。
 
 ## <a name="secure-embed"></a>安全な埋め込み
 

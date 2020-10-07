@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 08/12/2020
-ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 6e9da6e16d32f0093bc0e4be35415f1a23f7fa41
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204913"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748566"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI ビジュアルのガイドライン
 他のユーザーが検出して使用できるようにご自分の Power BI ビジュアルを Microsoft AppSource に[発行](office-store.md)する前に、ユーザー向けに優れたエクスペリエンスを作成するためのガイドラインに従っていることを確認してください。
@@ -28,7 +28,7 @@ ms.locfileid: "88204913"
 
 IAP Power BI ビジュアルは、*無料の機能*を提供する*無料*のビジュアルです。 これには、追加料金が適用される場合がある、いくつかの高度な機能も用意されています。 開発者は、Power BI ビジュアルの説明で、操作のために追加購入が必要となる機能についてユーザーに通知する必要があります。 現在、Microsoft は、アプリおよびアドインの購入をサポートするためのネイティブ API を提供していません。
 
-開発者は、これらの購入に対し、任意のサードパーティ製の支払いシステムを使うことができます。 詳細については、[ストアのポリシー](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads)に関する記事をご覧ください。
+開発者は、これらの購入に対し、任意のサードパーティ製の支払いシステムを使うことができます。 詳細については、[ストアのポリシー](/legal/marketplace/certification-policies#11002-displaying-ads)に関する記事をご覧ください。
 
 
 >[!IMPORTANT]  

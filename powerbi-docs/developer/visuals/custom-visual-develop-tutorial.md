@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
-ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
+ms.openlocfilehash: 3ff04b476cba281ef484fc6a1bfd73be94af563e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88512933"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746656"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>チュートリアル:Power BI のビジュアルを開発する
 
@@ -38,7 +38,7 @@ Power BI Desktop レポートでは、Circle Card になるようにカードが
 
 * **Power BI Pro** にサインアップしていない場合は、[無料の試用版にサインアップ](https://powerbi.microsoft.com/pricing/)してください。
 * [Visual Studio Code](https://www.visualstudio.com/) をインストールする必要があります。
-* Windows ユーザーの場合は [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) バージョン 4 以降が、OSX ユーザーの場合は[ターミナル](https://macpaw.com/how-to/use-terminal-on-mac)が必要です。
+* Windows ユーザーの場合は [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) バージョン 4 以降が、OSX ユーザーの場合は[ターミナル](https://macpaw.com/how-to/use-terminal-on-mac)が必要です。
 
 ## <a name="setting-up-the-developer-environment"></a>開発者環境を設定する
 

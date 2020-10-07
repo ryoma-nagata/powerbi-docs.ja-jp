@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: cb50e887b7821ed23a928c6eb28d0c8bb3a28cb1
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b66c87d88e08a4c1f9ee4f9aebdbf44516d9cb43
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86213836"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746518"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>手順 2: 認証アクセス トークンを取得する
 
@@ -184,6 +184,6 @@ namespace walkthrough_push_data
 
 * このシリーズの次の記事は、「[Power BI でデータセットを作成する](walkthrough-push-data-create-dataset.md)」です
 * [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
-* [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI REST API](/rest/api/power-bi/)  
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878580"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748473"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI ビジュアル API の変更ログ
 このページには、API バージョンの簡単な概要が含まれています。 ここに記載されているバージョンは安定バージョンと見なされ、変更されません。
@@ -62,7 +62,7 @@ ms.locfileid: "87878580"
 * `proto` プロパティでは、dataView 内に非表示のメタデータまたはデータが格納されなくなりました。 `proto` を介してプロパティにアクセスするビジュアルは、この更新によって破損する可能性があります。
 
 ## <a name="api-v1130"></a>API v1.13.0
-* **[同期スライサー](./enable-sync-slicers.md)** をサポート。これは、PBI の現在のコード状態により、単一フィールド スライサーでのみ動作することに注意してください。[詳細](/power-bi/desktop-slicers)。
+* **[同期スライサー](./enable-sync-slicers.md)** をサポート。これは、PBI の現在のコード状態により、単一フィールド スライサーでのみ動作することに注意してください。[詳細](../../visuals/power-bi-visualization-slicers.md)。
 * アクセシビリティ:[ハイコントラストのサポート](./high-contrast-support.md) 
 * アクセシビリティ:"キーボード フォーカスを許可する" フラグ
 

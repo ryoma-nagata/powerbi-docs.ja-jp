@@ -8,19 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355032"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748381"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>手順 5.Power BI テーブルに行を追加する
 
 この記事は、チュートリアル「[データセットにデータをプッシュする](walkthrough-push-data.md)」の一部です。
 
-チュートリアル「データセットにデータをプッシュする」の**手順 4**「[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)」では、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作と Newtonsoft.Json を使ってデータセット ID を取得しました。この手順では、そのデータセット ID と [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を使って **Power BI** のデータセットに行を追加します。 
+チュートリアル「データセットにデータをプッシュする」の**手順 4**「[Power BI テーブルに行を追加するためにデータセットを取得する](walkthrough-push-data-get-datasets.md)」では、[データセットの取得](/rest/api/power-bi/datasets/getdatasets)操作と Newtonsoft.Json を使ってデータセット ID を取得しました。この手順では、そのデータセット ID と [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を使って **Power BI** のデータセットに行を追加します。 
 
-[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を呼び出すと、データセットに行が追加されます。
+[PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を呼び出すと、データセットに行が追加されます。
 
 ![行の追加](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -104,9 +105,7 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
     #endregion
 ```
 
-以下は、[完全なコード リスト](#code)です。
-
-<a name="code"/>
+以下は、完全なコード リストです。
 
 ## <a name="complete-code-listing"></a>完全なコード リスト
 
@@ -314,5 +313,5 @@ Power BI API を使ってデータセットに行を追加する方法を次に�
 ## <a name="next-steps"></a>次の手順
 [Power BI ダッシュボードにデータをプッシュする](walkthrough-push-data.md)  
 [Power BI REST API の概要](overview-of-power-bi-rest-api.md)  
-[Power BI REST API リファレンス](https://docs.microsoft.com/rest/api/power-bi/)  
+[Power BI REST API リファレンス](/rest/api/power-bi/)  
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

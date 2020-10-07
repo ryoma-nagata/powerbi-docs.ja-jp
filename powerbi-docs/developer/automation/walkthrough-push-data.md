@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488202"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746702"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI データセットにデータをプッシュする
 
@@ -33,14 +33,14 @@ Power BI API を使うと、Power BI データセットにデータをプッシ�
 
 ## <a name="power-bi-api-operations-to-push-data"></a>データをプッシュする Power BI API の操作
 
-Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリによりデータセットに行が追加されると、ダッシュボードのタイルは新しいデータで自動的に更新されます。 データをプッシュするには、[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) および [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を使います。 データセットを検索するには、[データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)操作を使います。 これらの操作のいずれについても、グループ ID を渡してグループを操作することができます。 グループ ID の一覧を取得するには、[グループの取得](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)操作を使います。
+Power BI REST API を使うと、Power BI にデータ ソースをプッシュできます。 アプリによりデータセットに行が追加されると、ダッシュボードのタイルは新しいデータで自動的に更新されます。 データをプッシュするには、[PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset) および [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 操作を使います。 データセットを検索するには、[データセットの取得](/rest/api/power-bi/datasets/getdatasets)操作を使います。 これらの操作のいずれについても、グループ ID を渡してグループを操作することができます。 グループ ID の一覧を取得するには、[グループの取得](/rest/api/power-bi/groups/getgroups)操作を使います。
 
 データセットにデータをプッシュするための操作を次に示します。
 
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
-* [データセットの取得](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
-* [行の POST](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
-* [グループの取得](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [データセットの取得](/rest/api/power-bi/datasets/getdatasets)
+* [行の POST](/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [グループの取得](/rest/api/power-bi/groups/getgroups)
 
 Power BI でデータセットを作成するには、Power BI サービスに JavaScript Object Notation (JSON) 文字列を渡します。 JSON について詳しくは、「[JSON の紹介](https://json.org/)」をご覧ください。
 
@@ -48,54 +48,58 @@ Power BI でデータセットを作成するには、Power BI サービスに J
 
 **Power BI のデータセット JSON オブジェクト**
 
-    {"name": "dataset_name", "tables":
-        [{"name": "", "columns":
-            [{ "name": "column_name1", "dataType": "data_type"},
-             { "name": "column_name2", "dataType": "data_type"},
-             { ... }
-            ]
-          }
+```json
+{"name": "dataset_name", "tables":
+    [{"name": "", "columns":
+        [{ "name": "column_name1", "dataType": "data_type"},
+         { "name": "column_name2", "dataType": "data_type"},
+         { ... }
         ]
-    }
+      }
+    ]
+}
+```
 
 Sales Marketing データセットの例では、以下のような JSON 文字列を渡します。 この例では、**SalesMarketing** がデータセット名、**Product** がテーブル名です。 テーブルを定義したら、テーブル スキーマを定義します。 **SalesMarketing** データセットの場合、テーブル スキーマには次の列が含まれています:ProductID、Manufacturer、Category、Segment、Product、IsCompete。
 
 **データセット オブジェクト JSON の例**
 
-    {
-        "name": "SalesMarketing",
-        "tables": [
+```json
+{
+    "name": "SalesMarketing",
+    "tables": [
+        {
+            "name": "Product",
+            "columns": [
+            {
+                "name": "ProductID",
+                "dataType": "int"
+            },
+            {
+                "name": "Manufacturer",
+                "dataType": "string"
+            },
+            {
+                "name": "Category",
+                "dataType": "string"
+            },
+            {
+                "name": "Segment",
+                "dataType": "string"
+            },
             {
                 "name": "Product",
-                "columns": [
-                {
-                    "name": "ProductID",
-                    "dataType": "int"
-                },
-                {
-                    "name": "Manufacturer",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Category",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Segment",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Product",
-                    "dataType": "string"
-                },
-                {
-                    "name": "IsCompete",
-                    "dataType": "bool"
-                }
-                ]
+                "dataType": "string"
+            },
+            {
+                "name": "IsCompete",
+                "dataType": "bool"
             }
-        ]
-    }
+            ]
+        }
+    ]
+}
+```
 
 Power BI のテーブル スキーマでは、次のデータ型を使うことができます。
 

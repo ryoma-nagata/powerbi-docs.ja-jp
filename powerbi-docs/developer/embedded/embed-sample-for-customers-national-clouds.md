@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c0927eb46177726c4277b2fa697003d7f0fdc56
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: c5a902a8de8449290d52974063b25f51ff92dd9d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402027"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747576"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>チュートリアル:Power BI コンテンツを国内クラウド向けアプリケーションに埋め込む
 
 分析コンテンツをご自身の国内クラウド向けのビジネス プロセス アプリケーション内に埋め込む方法について説明します。 Power BI .NET SDK と Power BI JavaScript API を使って、ご自身の Web アプリケーションにレポート、ダッシュボード、またはタイルを埋め込むことができます。
 
-Power BI では[国内クラウド](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud)もサポートされています。
+Power BI では[国内クラウド](/azure/active-directory/develop/authentication-national-cloud)もサポートされています。
 
 各種の国内クラウドを次に示します。
 
@@ -43,7 +43,7 @@ Power BI では[国内クラウド](https://docs.microsoft.com/azure/active-dire
 > [!NOTE]
 > 代わりに組織向けのダッシュボードを埋め込む場合は、 「[ダッシュボードを組織のアプリに統合する](embed-sample-for-your-organization.md)」をご覧ください。
 
-ダッシュボードを Web アプリに統合するには、**Power BI** API、および Azure Active Directory (AD) 承認**アクセス トークン**を使って、ダッシュボードを取得します。 次に、埋め込んだトークンを使ってダッシュボードを読み込みます。 **Power BI** API では、特定の **Power BI** リソースへのプログラムによるアクセスが提供されます。 詳細については、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)、[Power BI .NET SDK、[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページをご覧ください。
+ダッシュボードを Web アプリに統合するには、**Power BI** API、および Azure Active Directory (AD) 承認**アクセス トークン**を使って、ダッシュボードを取得します。 次に、埋め込んだトークンを使ってダッシュボードを読み込みます。 **Power BI** API では、特定の **Power BI** リソースへのプログラムによるアクセスが提供されます。 詳細については、[Power BI REST API](/rest/api/power-bi/)、[Power BI .NET SDK、[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) に関するページをご覧ください。
 
 ## <a name="download-the-sample"></a>サンプルをダウンロードする
 
@@ -238,10 +238,10 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>埋め込みトークンを作成する
 
-JavaScript API を使用して、埋め込みトークンを生成できます。 埋め込みトークンは、埋め込むアイテムに固有のものです。 Power BI コンテンツを埋め込むときは常に、そのための埋め込みトークンを新しく作成する必要があります。 使用する **accessLevel** など、詳しくは「[Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken)」 (埋め込みトークン) をご覧ください。
+JavaScript API を使用して、埋め込みトークンを生成できます。 埋め込みトークンは、埋め込むアイテムに固有のものです。 Power BI コンテンツを埋め込むときは常に、そのための埋め込みトークンを新しく作成する必要があります。 使用する **accessLevel** など、詳しくは「[Embed Token](/rest/api/power-bi/embedtoken)」 (埋め込みトークン) をご覧ください。
 
 > [!IMPORTANT]
-> 埋め込みトークンは開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。
+> 埋め込みトークンは開発テストのためのものです。そのため、Power BI マスター アカウントで生成できる埋め込みトークンの数には限りがあります。 運用環境で埋め込む場合、[容量を購入する](./embedded-faq.md#technical)必要があります。 容量を購入する場合、埋め込みトークンの生成数には上限がありません。
 
 サンプルは、[組織向けの埋め込みのサンプル](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)の **Controllers\HomeController.cs** にあります。
 
@@ -440,7 +440,7 @@ JavaScript を使用して、Web ページの div 要素にダッシュ ボー�
 
 * JavaScript API の詳細については、[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) のページを参照してください。
 
-* Germany Cloud 向け Power BI の詳細については、「[ドイツ クラウド顧客向け Power BI のよく寄せられる質問](https://docs.microsoft.com/power-bi/service-govde-faq)」を参照してください。
+* Germany Cloud 向け Power BI の詳細については、「[ドイツ クラウド顧客向け Power BI のよく寄せられる質問](../../admin/service-govde-faq.md)」を参照してください。
 
 * [Power BI に Power BI ワークスペース コレクション コンテンツを移行する方法](migrate-from-powerbi-embedded.md)
 

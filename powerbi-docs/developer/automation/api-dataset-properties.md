@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e0092003cbf019bcf720eeb7aa32e8a9e800f143
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561503"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747300"
 ---
 # <a name="dataset-properties"></a>データセットのプロパティ
 
 データセット API の現行のバージョン 1 では、名前とテーブルのコレクションを使用したデータセットの作成にのみ対応しています。 各テーブルには名前を付け、列のコレクションを含めることができます。 各列には、名前とデータ型があります。 特にメジャーおよびテーブル間のリレーションシップをサポートすることで、これらのプロパティを大幅に拡張します。 このリリースでサポートするプロパティの完全な一覧を次に示します。
 
 > [!IMPORTANT]
-> [データセット操作グループ](https://docs.microsoft.com/rest/api/power-bi/datasets)に関するページからアクセスできます。
+> [データセット操作グループ](/rest/api/power-bi/datasets)に関するページからアクセスできます。
 
 ## <a name="dataset"></a>データセット
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: fe1eb36a63d504497f15bef8316e96d120439793
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145111"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746196"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded に関してよく寄せられる質問
 
@@ -51,7 +51,7 @@ ISV (通常は大規模) が、アプリの埋め込みに加えて、P SKU を�
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>埋め込みトークンはいくつ作成できますか?
 
-PRO ライセンスでの埋め込みトークンは、開発テストを意図したものであるため、Power BI マスター アカウントまたは[サービス プリンシパル](embed-service-principal.md)で生成できるトークンの数には制限があります。 運用環境で埋め込むには、[容量を購入](#technical)してください。 容量を購入する場合、生成できる埋め込みトークンの数に上限はありません。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、[使用可能な機能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)に関するページに移動します。
+PRO ライセンスでの埋め込みトークンは、開発テストを意図したものであるため、Power BI マスター アカウントまたは[サービス プリンシパル](embed-service-principal.md)で生成できるトークンの数には制限があります。 運用環境で埋め込むには、[容量を購入](#technical)してください。 容量を購入する場合、生成できる埋め込みトークンの数に上限はありません。 現在の埋め込み使用パーセンテージを示す使用状況の値を確認するには、[使用可能な機能](/rest/api/power-bi/availablefeatures)に関するページに移動します。
 
 ## <a name="technical"></a>技術的な質問
 
@@ -69,7 +69,7 @@ PRO ライセンスでの埋め込みトークンは、開発テストを意図�
 
 * [Power BI 管理ポータル](../../admin/service-admin-portal.md#power-bi-embedded)を使用します。
 
-* Power BI で [metric app](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) をダウンロードします。
+* Power BI で [metric app](../../admin/service-admin-premium-monitor-capacity.md) をダウンロードします。
 
 * [Azure 診断ログ](azure-pbie-diag-logs.md)を使用します。
 
@@ -79,7 +79,7 @@ PRO ライセンスでの埋め込みトークンは、開発テストを意図�
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>容量を作成、拡張、再開すると、容量が中断状態になります。なぜでしょうか?
 
-容量のプロビジョニング (拡張、再開、作成) は失敗することがあります。 Get Details API を使って、容量の ProvisioningState を確認できます。[Capacities - Get Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails) を使用します。
+容量のプロビジョニング (拡張、再開、作成) は失敗することがあります。 Get Details API を使って、容量の ProvisioningState を確認できます。[Capacities - Get Details](/rest/api/power-bi-embedded/capacities/getdetails) を使用します。
 
 ### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>Power BI Embedded 容量は、特定のリージョンのみでしか使用できませんか?
 
@@ -89,7 +89,7 @@ PRO ライセンスでの埋め込みトークンは、開発テストを意図�
 
 ユーザーがワークスペース、アプリ、または成果物へのアクセス許可を付与されても、API 呼び出しですぐに利用できない場合があります。
 結果として、"GET" API の応答に成果物が含まれていなかったり、成果物を使おうとするとエラーが発生したりする可能性があります。
-ユーザーは、ユーザーのアクセス許可を更新する [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) を呼び出すことによって、この問題を解決できます。
+ユーザーは、ユーザーのアクセス許可を更新する [refreshUserPermissions API](/rest/api/power-bi/users/refreshuserpermissions) を呼び出すことによって、この問題を解決できます。
 
 
 ### <a name="how-can-i-find-my-pbi-tenant-region"></a>自分の PBI テナント リージョンを確認する方法はありますか?
@@ -114,8 +114,8 @@ Power BI では、組織のアカウントでサインアップすることが�
 
 はい。PowerShell コマンドレットや Azure Resource Manager REST API を使って、PBIE リソースを作成および管理できます。
 
-* [REST API](https://docs.microsoft.com/rest/api/power-bi-embedded/) 
-* [PowerShell コマンドレット](https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/)
+* [REST API](/rest/api/power-bi-embedded/) 
+* [PowerShell コマンドレット](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded ソリューションでは、PBI Embedded 専用容量はどのような役割を果たしますか?
 
@@ -145,7 +145,7 @@ Power BI Embedded では引き続き、マスター ユーザー (Power BI Pro �
 
 Azure AD テナントが既にある場合は、既存のディレクトリを使用できます。 埋め込みアプリケーション コンテンツのセキュリティ用に新しい Azure AD テナント作成することもできます。
 
-AAD トークンを取得するには、[Azure Active Directory 認証ライブラリ](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)のいずれかを使用できます。 複数のプラットフォームで利用可能なクライアント ライブラリがあります。
+AAD トークンを取得するには、[Azure Active Directory 認証ライブラリ](/azure/active-directory/develop/active-directory-authentication-libraries)のいずれかを使用できます。 複数のプラットフォームで利用可能なクライアント ライブラリがあります。
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>私はアプリケーションのユーザー認証に AAD を既に使用しています。 "ユーザーがデータを所有する" シナリオでは、Power BI に認証するとき、この ID をどのように利用できますか?
 
@@ -194,7 +194,7 @@ Power BI で[サービス プリンシパル](embed-service-principal.md)を使�
 
 サービス プリンシパルは、対象セキュリティ グループの Power BI テナントのすべての設定のアクセス許可を継承します。 アクセス許可を制限するには、サービス プリンシパル専用のセキュリティ グループを作成し、関連する有効な Power BI 設定の **[特定のセキュリティ グループを除く]** リストに追加します。
 
-このような状況は、新しいワークスペースに**管理者**としてサービス プリンシパルを追加するときに問題となります。 このタスクは [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) または Power BI サービスを使用して管理できます。
+このような状況は、新しいワークスペースに**管理者**としてサービス プリンシパルを追加するときに問題となります。 このタスクは [API](/rest/api/power-bi/groups/addgroupuser) または Power BI サービスを使用して管理できます。
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>アプリケーション ID とサービス プリンシパル オブジェクト ID はそれぞれどのような状況で使用しますか?
 
@@ -283,7 +283,7 @@ Power BI Embedded は[国内クラウド](embed-sample-for-customers-national-cl
     > [!Note]
     > **Power BI Embedded** ソリューションを使って開発を行いながら、並行して **Power BI ワークスペース コレクション**を使い続けることができます。 準備ができたら、顧客を新しい **Power BI Embedded** ソリューションに移動し、**Power BI ワークスペース コレクション** ソリューションの使用を終了します。
 
-詳しくは、「[Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)」をご覧ください。
+詳しくは、「[Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法](./migrate-from-powerbi-embedded.md)」をご覧ください。
 
 ### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>Power BI ワークスペース コレクションは非推奨パス上にありますか?
 
@@ -327,11 +327,11 @@ Power BI Embedded は[国内クラウド](embed-sample-for-customers-national-cl
 
 ### <a name="how-can-i-edit-my-registered-application"></a>登録済みアプリケーションを編集する方法
 
-AAD 登録済みアプリケーションの編集方法については、「[クイック スタート:Azure Active Directory のアプリケーションを更新する](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)」をご覧ください。
+AAD 登録済みアプリケーションの編集方法については、「[クイック スタート:Azure Active Directory のアプリケーションを更新する](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)」をご覧ください。
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Power BI ユーザー プロファイルまたはデータを編集する方法
 
-Power BI データの編集方法は、[こちら](https://docs.microsoft.com/power-bi/service-basic-concepts)をご覧ください。
+Power BI データの編集方法は、[こちら](../../fundamentals/service-basic-concepts.md)をご覧ください。
 
 詳しくは、「[埋め込みアプリケーションのトラブルシューティング](embedded-troubleshoot.md)」をご覧ください。
 

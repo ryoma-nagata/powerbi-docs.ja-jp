@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
-ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
+ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86092241"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746633"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>チュートリアル:顧客向けのアプリケーションに Power BI コンテンツを埋め込む
 
@@ -46,7 +46,7 @@ ms.locfileid: "86092241"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure Active Directory (Azure AD) にアプリケーションを登録する
 
-Azure Active Directory に[アプリケーションを登録する](register-app.md)と、アプリケーションは [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) にアクセスできるようになります。 アプリケーションを登録すると、アプリケーションの ID を設定し、[Power BI REST リソースへのアクセス許可](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)を指定することができます。 マスター アカウントを使うか、[サービス プリンシパル](embed-service-principal.md)を使うかによってアプリケーションの登録方法が決まります。
+Azure Active Directory に[アプリケーションを登録する](register-app.md)と、アプリケーションは [Power BI REST API](/rest/api/power-bi/) にアクセスできるようになります。 アプリケーションを登録すると、アプリケーションの ID を設定し、[Power BI REST リソースへのアクセス許可](/azure/active-directory/develop/v2-permissions-and-consent)を指定することができます。 マスター アカウントを使うか、[サービス プリンシパル](embed-service-principal.md)を使うかによってアプリケーションの登録方法が決まります。
 
 選択した方法によって、Azure に登録するアプリケーションの種類が変わります。
 
@@ -62,7 +62,7 @@ Azure Active Directory に[アプリケーションを登録する](register-app
 
 ### <a name="create-and-publish-your-reports"></a>レポートを作成して発行する
 
-Power BI Desktop を使用してレポートとデータセットを作成し、ワークスペースにこれらのレポートを発行できます。 この作業を実行するには 2 とおりの方法があります。エンド ユーザーは、マスター アカウント (Power BI Pro ライセンス) で従来のワークスペースにレポートを発行できます。 サービス プリンシパルを使用する場合、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) を使用し、新しいワークスペースにレポートを発行できます。
+Power BI Desktop を使用してレポートとデータセットを作成し、ワークスペースにこれらのレポートを発行できます。 この作業を実行するには 2 とおりの方法があります。エンド ユーザーは、マスター アカウント (Power BI Pro ライセンス) で従来のワークスペースにレポートを発行できます。 サービス プリンシパルを使用する場合、[Power BI REST API](/rest/api/power-bi/imports/postimportingroup) を使用し、新しいワークスペースにレポートを発行できます。
 
 以下の手順で PBIX レポートを Power BI ワークスペースに発行できます。
 
@@ -224,11 +224,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-content-within-your-application"></a>自分のアプリケーション内にコンテンツを埋め込む
 
-コンテンツを埋め込む手順は [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) で行いますが、この記事で説明するコード例は **.NET SDK** で作成されています。
+コンテンツを埋め込む手順は [Power BI REST API](/rest/api/power-bi/) で行いますが、この記事で説明するコード例は **.NET SDK** で作成されています。
 
-アプリケーション内で顧客向けの埋め込みを行うには、**Azure AD** からマスター アカウントまたは[サービス プリンシパル](embed-service-principal.md)の**アクセス トークン**を取得する必要があります。 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) への呼び出しを行う前に、Power BI アプリケーションのための [Azure AD アクセス トークン](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)を取得する必要があります。
+アプリケーション内で顧客向けの埋め込みを行うには、**Azure AD** からマスター アカウントまたは[サービス プリンシパル](embed-service-principal.md)の**アクセス トークン**を取得する必要があります。 [Power BI REST API](/rest/api/power-bi/) への呼び出しを行う前に、Power BI アプリケーションのための [Azure AD アクセス トークン](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)を取得する必要があります。
 
-**アクセス トークン**を使用して Power BI Client を作成するには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) とやりとりするための Power BI クライアント オブジェクトを作成する必要があります。 **AccessToken** を ***Microsoft.Rest.TokenCredentials*** オブジェクトでラップして、Power BI クライアント オブジェクトを作成します。
+**アクセス トークン**を使用して Power BI Client を作成するには、[Power BI REST API](/rest/api/power-bi/) とやりとりするための Power BI クライアント オブジェクトを作成する必要があります。 **AccessToken** を ***Microsoft.Rest.TokenCredentials*** オブジェクトでラップして、Power BI クライアント オブジェクトを作成します。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -269,11 +269,11 @@ JavaScript API から使うことができる埋め込みトークンを生成�
 **特定の項目の埋め込みトークンを生成するための API**
 
 これらの API で作成される埋め込みトークンは、埋め込む項目に固有のものです。 これらの API を使用して Power BI 項目 (レポート、ダッシュボード、タイルなど) を埋め込むときは常に、その項目用に新しい埋め込みトークンを作成する必要があります。
-* [Dashboards GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [Datasets GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [Tiles GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
+* [Dashboards GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [Datasets GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [Reports GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [Tiles GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
 レポート、ダッシュボード、またはタイル用の埋め込みトークンを作成するサンプルは、[サンプル アプリケーション](https://github.com/Microsoft/PowerBI-Developer-Samples)の次のファイルから入手できます。
 * Services\EmbedService.cs
@@ -300,7 +300,7 @@ var embedConfig = new EmbedConfig()
 
 **複数の項目の埋め込みトークンを生成するための API**<a id="multiEmbedToken"></a>
 
-[Generate Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) 埋め込み API は、複数の項目を埋め込むために使用できるトークンを生成します。
+[Generate Token](/rest/api/power-bi/embedtoken/generatetoken) 埋め込み API は、複数の項目を埋め込むために使用できるトークンを生成します。
 
 レポートを埋め込む際にデータセットを動的に選択するためにも使用できます。 この API の使用方法の詳細については、[動的バインド](embed-dynamic-binding.md)に関するページを参照してください。
 
@@ -414,7 +414,7 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 > [!NOTE]
 > A SKU の場合、無料 Power BI ライセンスでは Power BI コンテンツにアクセスできません。
 
-次の表は、各 SKU のリソースと制限を示しています。 ニーズに最適な容量を判断するには、[シナリオに応じてどの SKU を購入すればよいか](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose)をまとめた表を参照してください。
+次の表は、各 SKU のリソースと制限を示しています。 ニーズに最適な容量を判断するには、[シナリオに応じてどの SKU を購入すればよいか](./embedded-faq.md#which-solution-should-i-choose)をまとめた表を参照してください。
 
 | 容量ノード | 合計 v コア数 | バックエンド v コア数 | RAM (GB) | フロントエンド v コア数 | DirectQuery/ライブ接続 (秒あたり) | モデル更新並列処理 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -430,7 +430,7 @@ JavaScript API を使用する完全なサンプルの場合、[Playground ツ�
 
 開発テストでは、Pro ライセンスで埋め込み試用版トークンを使用できます。 運用環境に埋め込むには、専用の容量を使用します。
 
-Power BI サービス プリンシパルまたはマスター アカウントで生成できる埋め込み試用版トークンの数は制限されています。 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) API を使用して、現在の埋め込みの使用率を確認します。 使用量は、サービス プリンシパルまたはマスター アカウントごとに表示されます。
+Power BI サービス プリンシパルまたはマスター アカウントで生成できる埋め込み試用版トークンの数は制限されています。 [Available Features](/rest/api/power-bi/availablefeatures/getavailablefeatures) API を使用して、現在の埋め込みの使用率を確認します。 使用量は、サービス プリンシパルまたはマスター アカウントごとに表示されます。
 
 テスト中に埋め込みトークンが不足した場合は、Power BI Embedded または Premium の[容量](embedded-capacity.md)を購入する必要があります。 専用の容量で生成できる埋め込みトークンの数に制限はありません。
 
@@ -441,7 +441,7 @@ Power BI サービス プリンシパルまたはマスター アカウントで
 
 埋め込みコンテンツ (データセット、レポート、ダッシュボードを含む) に関連する Power BI リソースを含むすべてのワークスペースは、専用容量に割り当てられる必要があります。 たとえば、埋め込みレポートとそれにバインドされているデータセットが異なるワークスペースに存在する場合、両方のワークスペースを専用容量に割り当てる必要があります。
 
-[サービス プリンシパル](embed-service-principal.md)を使用して専用の容量をワークスペースに割り当てるには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) を使用します。 Power BI REST API の使用時は必ず[サービス プリンシパル オブジェクト ID](embed-service-principal.md) を使用してください。
+[サービス プリンシパル](embed-service-principal.md)を使用して専用の容量をワークスペースに割り当てるには、[Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity) を使用します。 Power BI REST API の使用時は必ず[サービス プリンシパル オブジェクト ID](embed-service-principal.md) を使用してください。
 
 以下の手順に従い、**マスター アカウント**を使用してワークスペースに専用容量を割り当てます。
 
