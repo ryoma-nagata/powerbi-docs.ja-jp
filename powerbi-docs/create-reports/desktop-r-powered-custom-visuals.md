@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7abbfce4254359c95efe1ef91511672b0aa98be6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229373"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634989"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI で R を利用した Power BI ビジュアルを使用する
 
@@ -125,20 +125,25 @@ Power BI チームはこれらの問題の軽減に懸命に取り組んでお�
 
 3. R コンソールを使って、R パッケージを手動でインストールします。 このアプローチの手順は次のとおりです。
 
-   a.  R を利用したビジュアルのインストール スクリプトをダウンロードし、そのファイルをローカル ドライブに保存します。
+   a. R を利用したビジュアルのインストール スクリプトをダウンロードし、そのファイルをローカル ドライブに保存します。
 
-   b.  R コンソールから、次の手順を実行します。
+   b. R コンソールから、次の手順を実行します。
 
-       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```console
+      source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```
 
    標準的な既定のインストール場所は次のとおりです。
 
+   ```console
        c:\Program Files\R\R-3.3.x\bin\x64\Rterm.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\x64\Rgui.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\R.exe (for CRAN-R)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\R.exe (for MRO)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\x64\Rgui.exe (for MRO)
        c:\Program Files\RStudio\bin\rstudio.exe (for RStudio)
+   ```
+
 4. 前の手順でうまくいかない場合は、次のことを試してください。
 
    a. **R Studio** を使い、上の 3.b  (R コンソールからのスクリプト行の実行) に記載されている手順に従います。

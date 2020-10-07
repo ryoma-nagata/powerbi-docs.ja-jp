@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/22/2020
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99ee50db33d549d33347c9ceedfe9084f0dbe01f
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 2464d95fd9d2cc7a5e3bb42479c1ba96bf5285a8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020115"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600542"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop に対する以前の毎月の更新
 
@@ -552,8 +552,8 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 
 次のリンクを選択して、この以前のバージョンをダウンロードします。 
 
-* [2020 年 3 月バージョンの Power BI Desktop - 32 ビット](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-03.exe)
-* [2020 年 3 月バージョンの Power BI Desktop - 64 ビット](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-03_x64.exe)
+* [2020 年 3 月バージョンの Power BI Desktop - 32 ビット](https://www.microsoft.com/download/confirmation.aspx?id=58494&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1)
+* [2020 年 3 月バージョンの Power BI Desktop - 64 ビット](https://www.microsoft.com/download/confirmation.aspx?id=58494&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1)
 
 
 
@@ -1392,7 +1392,7 @@ Power BI Desktop 更新プログラムの一覧にある各機能の横のリン
 ### <a name="reporting"></a>レポート
 
 * ページ上でオブジェクトを揃えるためのスマート ガイド [[ビデオ]](https://youtu.be/AHNlkjRFdYI?t=11) [[記事]](../create-reports/power-bi-reports-filters-and-highlighting.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* ArcGIS Maps for Power BI の更新 [[ビデオ]](https://youtu.be/AHNlkjRFdYI?t=84) [[記事]](../visuals/power-bi-visualization-arcgis.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* ArcGIS Maps for Power BI の更新 [[ビデオ]](https://youtu.be/AHNlkjRFdYI?t=84) [[記事]](../visuals/power-bi-visualizations-arcgis.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * フィールド リスト アクセシビリティ サポート [[ビデオ]](https://youtu.be/AHNlkjRFdYI?t=464) [[記事]](../create-reports/desktop-report-view.md#copy-and-paste-between-reports) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * ページ上のオブジェクトにタブ順序を設定する [[ビデオ]](https://youtu.be/AHNlkjRFdYI?t=643) [[記事]](../create-reports/power-bi-reports-filters-and-highlighting.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * ボタン ビジュアルのヒント [[ビデオ]](https://youtu.be/AHNlkjRFdYI?t=884) [[記事]](../create-reports/desktop-accessibility-overview.md) [[ブログ]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)

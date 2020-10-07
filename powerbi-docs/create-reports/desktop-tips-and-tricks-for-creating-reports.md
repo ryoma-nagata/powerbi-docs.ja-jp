@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953009"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633540"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop におけるレポート作成のヒントとテクニック
 データを最大限に活用するには、少しのヒントが必要な場合があります。 Microsoft Power BI Desktop でレポートを作成する場合、*および* Power Pivot のアドインを有効にし、なおかつ Power Query をインストールして有効にした Microsoft Excel 2016 または Excel 2013 Pro-Plus エディションでレポートを作成する場合に役立つヒントとテクニックをまとめました。 
@@ -44,7 +44,9 @@ Power BI Desktop のクエリ エディターのナビゲーターでいずれ�
 ## <a name="reference-lines-in-your-report"></a>レポート内の参照行
 Power BI Desktop の計算列を使って、参照行を定義できます。 参照行を作成するテーブルと列を識別します。 リボンで [新しい列] を選択し、数式バーに次の数式を入力します。
 
-    Target Value = 100
+```console
+Target Value = 100
+```
 
 この計算列は、使用されている場所に関係なく、値 100 を返します。 フィールドの一覧に新しい列が表示されます。 [ターゲット値] 計算列を折れ線グラフに追加すると、一連の値と特定の参照行との関連性がわかります。 
 
@@ -66,7 +68,9 @@ Power BI は Bing と統合されており、既定のマップ座標 (ジオコ
 ## <a name="better-geocoding-with-more-specific-locations"></a>ジオコーディングの正確性を増すために場所を詳細に指定
 マッピング用のデータ カテゴリの設定だけでは不十分な場合があります。 Power BI Desktop のクエリ エディターを使用すると、番地などの詳細な場所指定を作成できます。 [列の追加] 機能を使用して、カスタム列を作成します。 その後、次のように必要な場所指定を作成します。 
 
-    = [Field1] & " " & [Field2]
+```console
+= [Field1] & " " & [Field2]
+```
 
 この結果のフィールドをマップ表示で使用します。 これは、データ セットによくある配送先住所フィールドから番地を作成するときに非常に便利です。 注意しなければならないのは、連結がテキスト フィールドにしか機能しない点です。 必要に応じて、番地をテキスト データ型に変換してから、住所の作成に使用してください。
 
@@ -77,11 +81,13 @@ Power BI Desktop ではヒストグラムを複数の方法で作成できます
 
 バケットを定義してヒストグラムを作成 - ヒストグラム作成の基準とするフィールドが含まれているクエリを判別します。 クエリの [参照] オプションを使用して、新しいクエリを作成し、"FieldName" という名前を付けます。 ルールを使用してバケットを定義します。 [列の追加] リボンの [カスタム列の追加] オプションを使用し、カスタム ルールを作成します。 次に、バケットの単純なルールの例を示します。
 
-    if([FieldName] \< 2) then "\<2 min" else
-    if([FieldName] \< 5) then "\<5 min" else
-    if([FieldName] \< 10) then "\<10 min" else
-    if([FieldName] \< 30) then "\<30 min" else
-    "longer")
+```console
+if([FieldName] \< 2) then "\<2 min" else
+if([FieldName] \< 5) then "\<5 min" else
+if([FieldName] \< 10) then "\<10 min" else
+if([FieldName] \< 30) then "\<30 min" else
+"longer")
+```
 
 結果の集計列のデータ型が数値であることを確認してください。 「最も単純なヒストグラム」で説明した手法でグループを使用して、ヒストグラムを完成させます。 このオプションでは、より多くのデータ ポイントを処理しますが、ブラッシングはやはり使用できません。
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813625"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635219"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI Embedded の分析の容量と SKU
 
@@ -68,10 +68,9 @@ Power BI Premium には、*P* および *EM* の 2 つの SKU が用意されて
 
 この表では、カスタム アプリは、埋め込み分析を使用して作成された Web アプリを指します。 (JavaScript、.NET SDK、または REST API を使用して) カスタム Web アプリに開発者として埋め込む場合、UX を制御およびカスタマイズすることができます。 この機能は、Power BI サービスや Power BI モバイルなどの他の埋め込みオプションを使用する場合は使用できません。
 
-
-|         |         |         |
-|---------|---------|---------|
-|**シナリオ**</br><p></p>|**Azure**</br>(A SKU)|**Office**</br>(P および EM SKU)|
+| 通信の種類 | Azure   | Office          |
+|----------|---------|-----------------|
+|          | (A SKU) | (P および EM SKU) |
 |[顧客向けに埋め込む](embed-sample-for-customers.md)</br>(アプリ所有データ)     |✔        |✔        |
 |[組織向けの埋め込み](embed-sample-for-your-organization.md)</br>(ユーザー所有データ)     |✖        |✔         |
 |Microsoft 365 アプリ</br>(旧称 Office 365 アプリ)<ul><li>[Teams への埋め込み](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[SharePoint への埋め込み](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |

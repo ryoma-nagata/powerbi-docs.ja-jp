@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
-ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.openlocfilehash: 52593cbcbdc0a67709735a06eca493fefb18e1a0
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86301001"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633701"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む
 
@@ -60,10 +60,10 @@ Power BI サービスでは、アクセスを必要とするユーザーと埋�
 
 埋め込み URL の入力設定を使用し、ユーザー エクスペリエンスをカスタマイズできます。 指定の iFrame では、URL の **src** 設定を更新できます。
 
-| プロパティ  | Description  |  |  |  |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | **pageName** クエリ文字列パラメーターを使用し、開くレポート ページを設定します。 次に示すように、この値は、Power BI サービスでレポートを表示するとき、レポートの URL の終わりにあります。 |  |  |  |
-| URL フィルター  | Power BI UI から受け取った埋め込み URL の [URL フィルター](service-url-filters.md)を使用し、埋め込みコンテンツをフィルター処理できます。 この方法では、基本的な HTML および JavaScript エクスペリエンスのみとのローコードの統合を構築できます。  |  |  |  |
+| プロパティ  | Description  |
+|-----------|--------------|
+| pageName  | **pageName** クエリ文字列パラメーターを使用し、開くレポート ページを設定します。 次に示すように、この値は、Power BI サービスでレポートを表示するとき、レポートの URL の終わりにあります。 |
+| URL フィルター  | Power BI UI から受け取った埋め込み URL の [URL フィルター](service-url-filters.md)を使用し、埋め込みコンテンツをフィルター処理できます。 この方法では、基本的な HTML および JavaScript エクスペリエンスのみとのローコードの統合を構築できます。  |
 
 ## <a name="set-which-page-opens-for-an-embedded-report"></a>埋め込まれたレポートに対して開くページを設定する 
 

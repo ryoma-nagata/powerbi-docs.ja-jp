@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f27bfb97d175c962d6eaf281ac061fdc60765781
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6d3279a8fa8421dbe466d7d165e1cb3d96ab926f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225088"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634759"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Power BI Desktop での Access と Excel の .xls ファイルのインポートに関するトラブルシューティング
 
@@ -74,10 +74,12 @@ Power BI Desktop のエラー メッセージで Access データベース エ�
 1. [ダウンロード ページ](https://www.microsoft.com/download/details.aspx?id=13255)から、両方のビット版の Access データベース エンジンをインストールします。 
 
 1. */passive* スイッチを使用して、Access データベース エンジンの各バージョンを実行します。 例:
-   
-       c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
-   
-       c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
+
+   ```console
+   c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
+
+   c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
+   ```
 
 ## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>状況 3:Microsoft 365 サブスクリプションで Access または .XLS ファイルを使うことによる問題
 

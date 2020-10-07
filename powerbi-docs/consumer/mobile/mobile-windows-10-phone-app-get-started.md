@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: ba582003008e1355156b189b5753f4e4c0a8353c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5ef68bac75daf25e48cbd4d24279627d4b494764
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861477"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634368"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 用の Power BI モバイル アプリの概要
 Windows 10 用の Power BI モバイル アプリでは、タブレットまたは携帯電話で Power BI を使用できます。 タッチ対応の最新のモバイルからビジネス情報にアクセスできるようになります。 どこにいても、[Windows のスタート画面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)から会社のダッシュボードを表示して操作できます。
@@ -106,7 +106,7 @@ Power BI ダッシュボードのサンプルを表示し、操作できます�
 
 [Power BI モバイル アプリでのお気に入り](mobile-apps-favorites.md)の詳細については、こちらをご覧ください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="other-tasks"></a>その他のタスク
 Windows 10 デバイス用 Power BI アプリ、Power BI のダッシュボードとレポート、Reporting Services Web ポータルの Reporting Services モバイル レポートと KPI では、他に次のことが可能です。
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI のダッシュボードとレポート

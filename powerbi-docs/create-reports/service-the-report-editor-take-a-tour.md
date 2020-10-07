@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b0b2ae2ca98b7dd3b9940319fc68a7effba4782
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349772"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635196"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI でのレポート エディターのツアー
 
@@ -122,9 +122,14 @@ Power BI サービスの分析ウィンドウでは、視覚化に動的な参�
 ## <a name="5-the-fields-pane"></a>5.フィールド ウィンドウ
 フィールド ウィンドウには、視覚化を作成するために使用できるデータ内にあるテーブル、フォルダー、フィールドが表示されます。
 
-|  |  |
-| --- | --- |
-| ![フィールド ウィンドウ](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png) |<ul><li>ページにフィールドをドラッグして、新しい視覚化を作成します。  既存の視覚化にフィールドをドラッグし、その視覚化にフィールドを追加することもできます。<br><br></li> <li>フィールドの横にチェックマークを追加すると、そのフィールドがアクティブな (または新しい) 視覚化に追加されます。 また、そのフィールドをどのバケットに配置するかも決定されます。  たとえば、フィールドを凡例、軸、値のいずれに使用するかについて決定されます。 Power BI で最良の判断が行われますが、配置されたフィールドを必要に応じて別のバケットに移動できます。 <br><br></li><li>どちらの方法でも、選択された各フィールドは、レポート エディターの視覚化ウィンドウに追加されます。</li></ul> |
+:::row:::
+    :::column:::
+        ![フィールド ウィンドウ](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png)
+    :::column-end:::
+    :::column:::
+        <ul><li>ページにフィールドをドラッグして、新しい視覚化を作成します。  既存の視覚化にフィールドをドラッグし、その視覚化にフィールドを追加することもできます。<br><br></li> <li>フィールドの横にチェックマークを追加すると、そのフィールドがアクティブな (または新しい) 視覚化に追加されます。 また、そのフィールドをどのバケットに配置するかも決定されます。  たとえば、フィールドを凡例、軸、値のいずれに使用するかについて決定されます。 Power BI で最良の判断が行われますが、配置されたフィールドを必要に応じて別のバケットに移動できます。 <br><br></li><li>どちらの方法でも、選択された各フィールドは、レポート エディターの視覚化ウィンドウに追加されます。</li></ul>
+    :::column-end:::
+:::row-end:::
 
 Power BI Desktop では、フィールドの表示/非表示、計算の追加などのオプションも備わっています。
 

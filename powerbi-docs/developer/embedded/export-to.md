@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160374"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746127"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI レポートをファイルにエクスポートする (プレビュー)
 
@@ -22,7 +22,7 @@ ms.locfileid: "88160374"
 * **.png**
     * .png にエクスポートすると、複数ページのレポートは .zip ファイルに圧縮されます
     * .zip 内の各ファイルは、レポートのページを表します
-    * ページ名は、[ページ取得](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) API または[グループ内のページ取得](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) API の戻り値と同じです
+    * ページ名は、[ページ取得](/rest/api/power-bi/reports/getpages) API または[グループ内のページ取得](/rest/api/power-bi/reports/getpagesingroup) API の戻り値と同じです
 
 ## <a name="usage-examples"></a>使用例
 
@@ -38,17 +38,17 @@ API を使用する前に、次の[管理者テナント設定](../../admin/serv
 * **[PowerPoint プレゼンテーションまたは PDF ドキュメントとしてレポートをエクスポート]** - 既定で有効になります。
 * **[画像ファイルとしてレポートをエクスポート]** - *.png* の場合にのみ必要で、既定では無効になります。
 
-API は非同期です。 [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API を呼び出すと、エクスポート ジョブがトリガーされます。 エクスポート ジョブをトリガーした後は、[ポーリング](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus)を使用して、ジョブが完了するまで追跡します。
+API は非同期です。 [exportToFile](/rest/api/power-bi/reports/exporttofile) API を呼び出すと、エクスポート ジョブがトリガーされます。 エクスポート ジョブをトリガーした後は、[ポーリング](/rest/api/power-bi/reports/getexporttofilestatus)を使用して、ジョブが完了するまで追跡します。
 
 ポーリングの間、API からは完了した作業量を表す数値が返されます。 各エクスポート ジョブの作業量は、レポートに含まれるページ数に基づいて計算されます。 すべてのページに同じ重みが設定されます。 たとえば、10 ページのレポートをエクスポートしていて、ポーリングから 70 が返された場合は、API によりエクスポート ジョブで 10 ページのうち 7 ページが処理されたことを意味します。
 
-エクスポートが完了すると、ポーリング API の呼び出しから、ファイルを取得するための [Power BI URL](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile) が返されます。 その URL は 24 時間有効です。
+エクスポートが完了すると、ポーリング API の呼び出しから、ファイルを取得するための [Power BI URL](/rest/api/power-bi/reports/getfileofexporttofile) が返されます。 その URL は 24 時間有効です。
 
 ## <a name="supported-features"></a>サポートされている機能
 
 ### <a name="selecting-which-pages-to-print"></a>印刷するページの選択
 
-[ページ取得](https://docs.microsoft.com/rest/api/power-bi/reports/getpages)または[グループ内のページ取得](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup)の戻り値に従って、印刷するページを指定します。 エクスポートするページの順序を指定することもできます。
+[ページ取得](/rest/api/power-bi/reports/getpages)または[グループ内のページ取得](/rest/api/power-bi/reports/getpagesingroup)の戻り値に従って、印刷するページを指定します。 エクスポートするページの順序を指定することもできます。
 
 ### <a name="bookmarks"></a>ブックマーク
 

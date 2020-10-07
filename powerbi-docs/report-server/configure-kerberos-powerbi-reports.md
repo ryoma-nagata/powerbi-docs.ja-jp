@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4890cf864334951982a8b6d7acc8fc8338016d6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859177"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634966"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI レポートを使用するために Kerberos を構成する
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -29,13 +29,17 @@ Power BI レポート サーバー、SQL Server、Analysis Services を 1 台の
 ## <a name="error-running-report"></a>エラー実行レポート
 レポート サーバーが正しく構成されていない場合、次のエラーが表示されることがあります。
 
-    Something went wrong.
+```output
+Something went wrong.
 
-    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+```
 
 技術的な詳細には、次のメッセージが表示されます。
 
-    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```output
+We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```
 
 ![Power BI レポートのスクリーンショット。Analysis Services サーバーに接続できない問題に関連してエラー メッセージが表示されています。](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
  
@@ -91,7 +95,9 @@ RSWindowsNegotiate が認証の種類の一覧の先頭にあることを確認�
 
 SPN を 2 つ作成することをお勧めします。 1 つには NetBIOS 名を使い、もう 1 つには完全修飾ドメイン名 (FQDN) を使います。 SPN の形式は次のとおりです。
 
-    <Service>/<Host>:<port>
+```console
+<Service>/<Host>:<port>
+```
 
 Power BI レポート サーバーは、HTTP のサービスを使います。 HTTP SPN の場合はポートを記述しません。 ここで使うサービスは HTTP です。 SPN のホストは、URL で使う名前になります。 通常、これはコンピューターの名前です。 ロード バランサーの背後にいる場合、これは仮想名でもかまいません。
 
@@ -119,13 +125,17 @@ SetSPN ツールを使って SPN を追加できます。 コンピューター 
 
 コンピューター アカウントへの SPN の配置は (FQDN SPN と NetBIOS SPN の両方)、contosoreports という仮想 URL を使う場合は次のようになります。
 
-      Setspn -a HTTP/contosoreports.contoso.com ContosoRS
-      Setspn -a HTTP/contosoreports ContosoRS
+```console
+Setspn -a HTTP/contosoreports.contoso.com ContosoRS
+Setspn -a HTTP/contosoreports ContosoRS
+```
 
 ドメイン ユーザー アカウントへの SPN の配置は (FQDN SPN と NetBIOS SPN の両方)、SPN のホストに対するコンピューター名を使う場合は次のようになります。
 
-      Setspn -a HTTP/ContosoRS.contoso.com RSService
-      Setspn -a HTTP/ContosoRS RSService
+```console
+Setspn -a HTTP/ContosoRS.contoso.com RSService
+Setspn -a HTTP/ContosoRS RSService
+```
 
 ## <a name="spns-for-the-analysis-services-service"></a>Analysis Services サービスの SPN
 Analysis Services の SPN は、Power BI レポート サーバーと似ています。 名前付きインスタンスがある場合は、SPN の形式が少し異なります。
@@ -146,13 +156,17 @@ SetSPN ツールを使って SPN を追加できます。 この例では、コ�
 
 コンピューター アカウントへの SPN の配置は (FQDN SPN と NetBIOS SPN の両方)、次のようになります。
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```
 
 ドメイン ユーザー アカウントへの SPN の配置は (FQDN SPN と NetBIOS SPN の両方)、次のようになります。
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
-    Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
+Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```
 
 ## <a name="spns-for-the-sql-browser-service"></a>SQL Browser サービスの SPN
 Analysis Services の名前付きインスタンスがある場合は、Browser サービスの SPN も必要です。 これは、Analysis Services に固有です。
@@ -164,8 +178,10 @@ SQL Browser の場合は、MSOLAPDisco.3 のサービスを使います。 SPN �
 
 Analysis Services の SPN の例は次のようになります。
 
-    MSOLAPDisco.3/ContosoAS.contoso.com
-    MSOLAPDisco.3/ContosoAS
+```console
+MSOLAPDisco.3/ContosoAS.contoso.com
+MSOLAPDisco.3/ContosoAS
+```
 
 SPN の配置も、Power BI レポート サーバーの場合と似ています。 ここでの違いは、SQL Browser は常にローカル システム アカウントで実行することです。 これは、SPN は常にコンピューター アカウントになることを意味します。 
 
@@ -174,8 +190,10 @@ SetSPN ツールを使って SPN を追加できます。 この例では、コ�
 
 コンピューター アカウントへの SPN の配置は (FQDN SPN と NetBIOS SPN の両方)、次のようになります。
 
-    Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```
 
 詳細については、「[An SPN for the SQL Server Browser service is required](https://support.microsoft.com/kb/950599)」(SQL Server Browser サービスの SPN が必要である) をご覧ください。
 
