@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215153"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668622"
 ---
 # <a name="bi-directional-relationship-guidance"></a>双方向のリレーションシップのガイダンス
 
@@ -77,7 +77,7 @@ ms.locfileid: "86215153"
 
 **Product** スライサーには、1 つの項目が表示されるようになりました。T シャツです。 この項目は、オーストラリアの顧客に販売された唯一の製品を表しています。
 
-![3 つのビジュアルを含むレポート ページを示す図。 その詳細については、次の段落で説明します。](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![3 つの視覚エフェクトが含まれ、Product が強調表示されているレポート ページを示す図。その詳細については、次の段落で説明します。](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 まず、この設計がご自分のレポート ユーザーに適しているかどうかを慎重に検討することをお勧めします。 このエクスペリエンスはわかりにくいと考えるレポート ユーザーもいます。 このようなユーザーは、別のスライサーを操作するとスライサー項目が動的に表示されたり非表示になったりする理由を理解できません。
 

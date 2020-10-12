@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 5add474500754405acb959577a0a7eb2e50a148b
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091712"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668645"
 ---
 # <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリにおけるダッシュボードの表示
 適用対象:
@@ -45,11 +45,11 @@ ms.locfileid: "88091712"
     ![ダッシュ ボードをタップする](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * 黄色の星 ![お気に入りの星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
-   * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
+   * 各ダッシュボード名の下の表示 (この例では "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
    
    既定の Power BI ダッシュボードは、iPhone では少し異なる外観です。 すべてのタイルは同じサイズで表示され、上から下に 1 つずつ配置されます。
    
-    ![ダッシュ ボードの縦向きビュー](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
+    ![スクリーンショットには、同じサイズの複数の Power BI タイルを含む iPhone が示されています。](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
    > ダッシュボードの所有者である場合は、Power BI サービスで、縦モードの[スマートフォン独自のダッシュボード ビューを作成](../../create-reports/service-create-dashboard-mobile-phone-view.md)できます。 
@@ -62,12 +62,12 @@ ms.locfileid: "88091712"
 3. ダッシュボードのすべてのタイルを参照するには、上下にスワイプします。 次の操作を実行できます。
    
    * [タイルをタップ](mobile-tiles-in-the-mobile-apps.md)してフォーカス モードで開き、操作します。
-   * 星 ![お気に入りの星](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) をタップして[お気に入りに追加](mobile-apps-favorites.md)します。
+   * 星 ![お気に入りの星ではありません](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) をタップして[お気に入りにします](mobile-apps-favorites.md)。
    * 自分のダッシュボードを見てもらえるよう、 **[招待]** ![[招待] アイコン](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) をタップして[仕事仲間を招待](mobile-share-dashboard-from-the-mobile-apps.md)します。
    * [ダッシュ ボードを Apple Watch と同期させる](mobile-apple-watch.md)
 4. ダッシュボードの一覧に戻るには、ダッシュボードのタイトルの横にある矢印をタップし、 **[マイ ワークスペース]** をタップします。
    
-   ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
+   ![スクリーンショットには、設計どおりに配置されたさまざまなサイズのタイルが含まれる Power BI ダッシュボードが示されています。](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>iPhone で横モードでダッシュボードを表示する
 また、電話を横向きにするだけで、ダッシュボードを横モードで表示することができます。 ダッシュボードのレイアウトは、一連のタイルから、ダッシュボード全体のビューに切り替わります。すべてのダッシュボードのタイルは、Power BI サービスで表示されるのとまったく同じように表示されます。
@@ -82,13 +82,13 @@ ms.locfileid: "88091712"
    必要なら、最初に Apple App Store から [iPad アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkId=522062)します。
 2. アプリの上部にある **[ダッシュ ボード]** をタップします。  
    
-   ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
+   ![スクリーンショットには、[マイ ワークスペース] で [ダッシュボード] が選択された iPad の画面が示されています。](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * 黄色の星 ![お気に入りの星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
-   * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
+   * 各ダッシュボード名の下の表示 (この例では "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
 3. ワークスペースからダッシュ ボードを共有することができます。 ダッシュ ボード タイルの右下隅にある省略記号 ( **...** ) をタップし、 **[他の人を招待]** をタップします。
    
-   ![[招待] アイコン](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
+   ![スクリーンショットには、[他の参加者を招待する] が表示される、選択された省略記号コントロールが示されています。](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. ダッシュ ボードをタップして開き、そのダッシュ ボード内のタイルを表示することもできます。 ダッシュボードで、次の操作を実行できます。
    
    * [操作するタイルをタップ](mobile-tiles-in-the-mobile-apps.md)します。
@@ -97,7 +97,7 @@ ms.locfileid: "88091712"
    * タイルの[スナップショットに注釈を付け、共有する](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
 5. [マイ ワークスペース] に戻るには、左上隅のダッシュボードの名前をタップし、 **[マイ ワークスペース]** をタップします。
    
-   ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
+   ![スクリーンショットには、[マイ ワークスペース] が強調表示された iPad の階層リンク メニューが示されています。](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
 
 ## <a name="view-dashboards-on-your-android-phone"></a>Android フォンでダッシュボードを表示する
 1. Android フォンで Power BI アプリを開き、サインインします。
@@ -105,15 +105,15 @@ ms.locfileid: "88091712"
    必要なら、最初に [Android アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)します。
 2. ダッシュボードをタップして開きます。   
    
-   ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
+   ![スクリーンショットには、[マイ ワークスペース] で [ダッシュボード] が選択された Android フォンの画面が示されています。](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
     黄色い星 ![お気に入りの星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
 
-    各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
+    ダッシュボード名の下の表示 (この例では "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
 
     Power BI ダッシュボードは、Android フォンでは少し異なる外観です。 すべてのタイルは同じ幅で表示され、上から下に 1 つずつ配置されます。
 
-    ![ダッシュ ボードの縦向きビュー](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
+    ![スクリーンショットには、同じサイズの複数のタイルを含む Android フォンが示されています。](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
     ダッシュボードの所有者である場合は、Power BI サービスで、縦モードの[スマートフォン独自のダッシュボード ビューを作成](../../create-reports/service-create-dashboard-mobile-phone-view.md)できます。 
 
@@ -129,10 +129,10 @@ ms.locfileid: "88091712"
    必要なら、最初に [Android アプリをダウンロード](https://go.microsoft.com/fwlink/?LinkID=544867)します。
 2. ダッシュボードをタップして開きます。   
    
-   ![ダッシュボードのホーム](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
+   ![スクリーンショットには、[マイ ワークスペース] で [ダッシュボード] が選択された Android タブレットの画面が示されています。](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * 黄色の星 ![お気に入りの星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) は、お気に入りのダッシュ ボードを表します。 
-   * 各ダッシュボード名の下の表示 (この例では "MBI") ![データ分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
+   * 各ダッシュボード名の下の表示 (この例では "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: は、各ダッシュボード内のデータを分類する方法を示しています。 詳細については、[Power BI でのデータの分類](../../create-reports/service-data-classification.md)に関するページを参照してください。
 3. ダッシュボードでは、名前の隣にある垂直線の**その他のオプション** (...) ボタンをタップして仕事仲間の招待、更新、またはダッシュボードに関する情報を取得できます。
    
    ![省略記号メニュー](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -141,7 +141,7 @@ ms.locfileid: "88091712"
    "ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域を拡大縮小したり、パンして移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
 5. ダッシュボードのホーム ページに戻って、ダッシュボードの名前をタップして階層リンクの軌跡を開き、 **[マイ ワークスペース]** をタップします。
    
-    ![階層リンク](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
+    ![スクリーンショットには、[マイ ワークスペース] が強調表示された Android タブレットの階層リンク メニューが示されています。](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     "ピンチ" ジェスチャーを使ってダッシュボードのさまざまな領域を拡大縮小したり、パンして移動したりできます。 また、[タイルをタップ](mobile-tiles-in-the-mobile-apps.md)すれば、そのタイルがフォーカス モードで表示され、データを操作できるようになります。
 

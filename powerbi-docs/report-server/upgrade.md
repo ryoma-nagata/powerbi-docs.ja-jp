@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
-ms.date: 09/05/2017
-ms.openlocfilehash: cb2a5ede49acb218450174bbf77388be5c504617
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 09/22/2020
+ms.openlocfilehash: 9267d6318bd951fdff41cb51786a4a519fa75917
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861730"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136053"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Report Server のアップグレード
 
 Power BI Report Server のアップグレード方法について説明します。
 
- **ダウンロード** ![ダウンロード](media/upgrade/download.png "download")
+ **ダウンロード** ![ダウンロード アイコン](media/upgrade/download.png "ダウンロード アイコン")
 
 Power BI Report Server および Power BI Report Server 向けに最適化された Power BI Desktop をダウンロードするには、「[Power BI Report Server によるオンプレミスでのレポート作成](https://powerbi.microsoft.com/report-server/)」を参照してください。
 
@@ -30,21 +30,21 @@ Power BI Report Server および Power BI Report Server 向けに最適化され
 
 ### <a name="backing-up-the-encryption-keys"></a>暗号化キーのバックアップ
 
-暗号化キーは、レポート サーバーのインストールの初回構成時に、バックアップする必要があります。 また、サービス アカウントの ID を変更したり、コンピューター名を変更したりするたびに、キーはバックアップする必要があります。 詳細については、「 [Back Up and Restore Reporting Services Encryption Keys](/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)」を参照してください。
+暗号化キーは、レポート サーバーのインストールの初回構成時にバックアップしてください。 また、サービス アカウントの ID を変更したり、コンピューター名を変更したりするたびに、キーをバックアップしてください。 詳細については、「 [Back Up and Restore Reporting Services Encryption Keys](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)」を参照してください。
 
 ### <a name="backing-up-the-report-server-databases"></a>レポート サーバー データベースのバックアップ
 
-レポート サーバーはステートレス サーバーであるため、すべてのアプリケーション データは、SQL Server データベース エンジンのインスタンスで実行される **reportserver** と **reportservertempdb** データベースに格納されます。 **reportserver** と **reportservertempdb** データベースは、SQL Server データベースをバックアップするサポート対象のいずれかの方法を使用して、バックアップすることができます。 レポート サーバー データベースについては、次のような推奨事項があります。
+レポート サーバーはステートレス サーバーであるため、すべてのアプリケーション データは、SQL Server データベース エンジンのインスタンスで実行される **reportserver** と **reportservertempdb** データベースに格納されます。 **reportserver** と **reportservertempdb** データベースは、SQL Server データベースをバックアップするサポート対象のいずれかの方法を使用して、バックアップすることができます。 これらの推奨事項は、レポート サーバー データベースに固有のものです。
 
 * **reportserver** データベースをバックアップするには、完全復旧モデルを使用します。
 * **reportservertempdb** データベースをバックアップするには、単純復旧モデルを使用します。
-* 各データベースに対して異なるバックアップ スケジュールを設定できます。 **reportservertempdb** をバックアップする唯一の理由は、ハードウェア障害が発生した場合にこのデータベースの再作成を回避することです。 ハードウェア障害が発生した場合、 **reportservertempdb**のデータを復旧する必要はありませんが、テーブル構造については復旧が必要になります。 **reportservertempdb**が失われた場合、レポート サーバー データベースの再作成以外にこのデータベースを復元する方法はありません。 **reportservertempdb**を再作成する場合、プライマリ レポート サーバー データベースと同じ名前を使用することが重要です。
+* 各データベースに対して異なるバックアップ スケジュールを設定できます。 **reportservertempdb** をバックアップする唯一の理由は、ハードウェア障害が発生した場合にこのデータベースの再作成を回避することです。 ハードウェア障害が発生した場合、**reportservertempdb** のデータを復旧する必要はありませんが、テーブル構造については復旧が必要になります。 **reportservertempdb**が失われた場合、レポート サーバー データベースの再作成以外にこのデータベースを復元する方法はありません。 **reportservertempdb** を再作成する場合、プライマリ レポート サーバー データベースと同じ名前を使用することが重要です。
 
 SQL Server リレーショナル データベースのバックアップと復旧の詳細については、「[SQL Server データベースのバックアップと復元](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases)」を参照してください。
 
 ### <a name="backing-up-the-configuration-files"></a>構成ファイルのバックアップ
 
-Power BI Report Server は、アプリケーション設定の格納に構成ファイルを使用します。 初めてサーバーを構成するときおよびカスタム拡張機能を配置した後は常に、ファイルをバックアップする必要があります。 バックアップするのは次のファイルです。
+Power BI Report Server は、アプリケーション設定の格納に構成ファイルを使用します。 初めてサーバーを構成するときおよびカスタム拡張機能を配置した後は常に、ファイルをバックアップしてください。 バックアップするのは次のファイルです。
 
 * config.json
 * RSHostingService.exe.config
@@ -72,9 +72,17 @@ Power BI Report Server のアップグレードは簡単です。 わずかな�
 
     ![アップグレードの構成](media/upgrade/reportserver-upgrade-configure.png)
 
+## <a name="enable-microsoft-update-security-fixes-for-power-bi-report-server"></a>Power BI Report Server 用の Microsoft Update セキュリティ修正プログラムを有効にする
+
+Power BI Report Server では、Microsoft Update 経由でセキュリティ修正プログラムを受信することができます。 これらを取得できるようにするには、Microsoft Update を手動でオプトインします。
+
+1.  オプトインするコンピューターの **[更新とセキュリティ]** 設定で Windows Update を開きます。
+2.  **[詳細オプション]** を選択します。
+3.  **[Windows の更新時に他の Microsoft 製品の更新プログラムを入手する]** のチェック ボックスをオンにします。
+
 ## <a name="upgrade-power-bi-desktop"></a>Power BI Desktop のアップグレード
 
-レポート サーバーをアップグレードしたら、そのサーバーに一致する、Power BI Power BI Report Server に最適化された Power BI Desktop のバージョンに、すべての Power BI のレポート作成者がアップグレードしたかどうかを確認する必要があります。
+レポート サーバーをアップグレードしたら、そのサーバーに一致する、Power BI Power BI Report Server に最適化された Power BI Desktop のバージョンに、すべての Power BI のレポート作成者がアップグレードしたかどうかを確認してください。
 
 ## <a name="next-steps"></a>次の手順
 

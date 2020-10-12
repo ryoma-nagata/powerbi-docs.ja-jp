@@ -7,15 +7,15 @@ Ms.custom: css_fy20Q4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 00adcf77d2d53a44e4faf6013c0134b7ffd1af80
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: bea5b36c98ab8a62b444bfc731b5d54df6550f0f
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536149"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780446"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI サービスにサインインする
 
@@ -31,21 +31,21 @@ Power BI サービスがブラウザーで実行されます。
 
 - 同僚から、ダッシュボードまたはレポートへのリンクを含む電子メールを受信した場合は、 **[Open this report]\(このレポートを開く\)** または **[Open this dashboard]\(このダッシュボードを開く\)** のリンクを選択します。
 
-    ![ブラウザーのフィールドへの入力](media/end-user-sign-in/power-bi-share.png)    
+    ![スクリーンショットには、レポートへのリンクを含む電子メールが示されています。](media/end-user-sign-in/power-bi-share.png)    
 
 - それ以外の場合は、お気に入りのブラウザーを開き、「**app.powerbi.com**」と入力します。
 
-    ![ブラウザーのフィールドへの入力](media/end-user-sign-in/power-bi-sign-in.png)    
+    ![スクリーンショットには、アドレス app.powerbi.com が表示されたブラウザーが示されています。](media/end-user-sign-in/power-bi-signin.png)    
 
 
 ### <a name="step-2-type-your-email-address"></a>手順 2: メール アドレスを入力する
 初めてサインインするときに、Microsoft によって、Microsoft 365 アカウントを既にお持ちであるかどうかが確認されます。 次の例では、Pradtanna は他の Microsoft サービスのライセンスを既に持っています。 
 
-![サインイン画面](media/end-user-sign-in/power-bi-already.png)
+![スクリーンショットには、サインイン メッセージが示されています。](media/end-user-sign-in/power-bi-already.png)
 
 パスワードを入力します。 これはご自分の Microsoft 365 アカウントのパスワードです。 これは、Outlook や Office などの他の Microsoft 製品で使用するのと同じ電子メールとパスワードです。  アカウントの設定方法によっては、電子メールまたはモバイル デバイスに送信されたコードを入力するように求められる場合もあります。   
 
-![サインイン画面](media/end-user-sign-in/power-bi-pass.png)
+![スクリーンショットには、[パスワードの入力] ダイアログ ボックスが示されています。](media/end-user-sign-in/power-bi-pass.png)
 
 場合によっては、全体管理者がお客様にライセンスを割り当て、この情報を含む電子メールを送信することがあります。 ご自分の受信トレイでウェルカム メールを探し、その指示に従って最初のサインインを行ってください。 サインインにはこの同じ電子メール アカウントを使用します。 
  
@@ -59,29 +59,29 @@ Power BI サービスがブラウザーで実行されます。
 ### <a name="step-4-review-your-home-landing-page"></a>手順 4: ホーム ランディング ページを確認する
 初回のアクセス時には、Power BI で **[ホーム]** ランディング ページが開きます。 **[ホーム]** が開かない場合は、ナビゲーション ウィンドウから選択します。 
 
-![選択された [ホーム] を示すスクリーンショット](media/end-user-sign-in/power-bi-home-selected.png)
+![選択された [ホーム] を示すスクリーンショット](media/end-user-sign-in/power-bi-home-blank.png)
 
 [ホーム] には、自分が使用するアクセス許可を持っているすべてのコンテンツが表示されます。 最初はあまりコンテンツが表示されないかもしれませんが、心配しないでください。同僚と Power BI を使い始めれば変わります。 同僚が自分に電子メールで共有したレポートがあるでしょうか? それは、ホーム ランディング ページの見出し **[自分と共有]** の下に表示されます。
 
-![ホーム ランディング ページ](media/end-user-sign-in/power-bi-home.png)
+![ホーム ランディング ページ](media/end-user-sign-in/power-bi-home-new.png)
 
 Power BI でホームを開きたくない場合は、代わりに[**おすすめ**ダッシュボードまたはレポートを設定](end-user-featured.md)して開くことができます。 
 
 ## <a name="safely-interact-with-content"></a>コンテンツを安全に操作する
-***コンシューマー***として、他のユーザーから共有されたコンテンツを操作し、データを探索して、ビジネスに関する決定を行います。  フィルター、スライス、サブスクライブ、エクスポート、サイズ変更などの操作を行っても、基になっているデータセットや元の共有コンテンツ (ダッシュボードとレポート) が影響を受けることはありません。 Power BI は、探索や実験のための安全な場所です。 それは変更を保存できないという意味ではありません。保存できます。 ただし、それらの変更が反映されるのはコンテンツの**自分の**表示だけです。 また、ボタンをクリックするだけで、簡単に元の既定のビューに戻すことができます。
+"***ビジネス ユーザー***" として、他のユーザーから共有されたコンテンツを操作し、データを探索して、ビジネスに関する決定を行います。  フィルター、スライス、サブスクライブ、エクスポート、サイズ変更などの操作を行っても、基になっているデータセットや元の共有コンテンツ (ダッシュボードとレポート) が影響を受けることはありません。 Power BI は、探索や実験のための安全な場所です。 それは変更を保存できないという意味ではありません。保存できます。 ただし、それらの変更が反映されるのはコンテンツの**自分の**表示だけです。 また、ボタンをクリックするだけで、簡単に元の既定のビューに戻すことができます。
 
 ![[既定値にリセット] ボタン](media/end-user-sign-in/power-bi-reset.png)
 
 ## <a name="sign-out-of-the-power-bi-service"></a>Power BI サービスからサインアウトする
-Power BI を閉じたりサインアウトしたりするときに変更が保存されるので、中断したところから作業を再開できます。
+Power BI サービスを閉じたりサインアウトしたりするときに変更が保存されるので、中断したところから作業を再開できます。
 
 Power BI を閉じるには、作業しているブラウザー タブを閉じます。 
 
-![[x] を選択してタブを閉じる](media/end-user-sign-in/power-bi-close.png) 
+![[x] を選択してタブを閉じる](media/end-user-sign-in/power-bi-close-tab.png) 
 
 コンピューターを共有している場合は、Power BI を閉じるたびにサインアウトすることをお勧めします。  サインアウトするには、右上隅にあるプロファイルの画像を選択して、 **[サインアウト]** を選択します。  
 
-![プロファイルの選択](media/end-user-sign-in/power-bi-sign-out.png) 
+![プロファイルの選択](media/end-user-sign-in/power-bi-signout.png) 
 
 ## <a name="troubleshooting-and-considerations"></a>トラブルシューティングと考慮事項
 - 個人として Power BI にサインアップした場合は、サインアップに使用したメール アドレスでサインインします。

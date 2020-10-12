@@ -1,22 +1,22 @@
 ---
-title: Power BI コンシューマーのための Q&A
+title: Power BI ビジネス ユーザー向け Q&A
 description: Power BI Q&A 自然言語クエリに関するドキュメントの概要トピックです。
 author: mihart
 ms.reviewer: mohammad.ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/11/2020
+ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 496b47e259d4044f00fa6b7e74e9a4eec27942c8
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6562bcbc5c7316e395aa1824309d5a64ce17be35
+ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537207"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "91224497"
 ---
-# <a name="qa-for-power-bi-consumers"></a>Power BI コンシューマーのための Q&A
+# <a name="qa-for-power-bi-business-users"></a>Power BI ビジネス ユーザー向け Q&A
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
@@ -35,7 +35,7 @@ Q&A は、表示されているデータに基づいて最適な視覚化を選�
 ## <a name="where-can-i-use-qa"></a>Q&A はどこで使用できますか。
 Power BI サービスのダッシュボードと、Power BI モバイルのダッシュボードの下部に Q&A があります。 デザイナーから編集アクセス許可を与えられていない場合、利用者は Q&A を使ってデータを探すことはできますが、Q&A で作成された視覚エフェクトを保存することはできません。
 
-![質問ボックス](media/end-user-q-and-a/powerbi-qna.png)
+![質問ボックス](media/end-user-q-and-a/power-bi-qna.png)
 
 レポートの*デザイナー*が [Q&A のビジュアル](../visuals/power-bi-visualization-q-and-a.md)を追加していれば、レポートにも Q&A が表示されます。   
 
@@ -46,7 +46,7 @@ Power BI サービスのダッシュボードと、Power BI モバイルのダ�
 **Power BI Q&A** は Pro または Premium ライセンスで利用できます。  [Power BI モバイル アプリの Q&A](mobile/mobile-apps-ios-qna.md) および [Power BI Embedded の Q&A ](../developer/embedded/qanda.md) については、別の記事で説明します。 現在のところ、**Power BI Q & A** では、英語で寄せられた自然言語クエリの回答のみがサポートされます。ただし、スペイン語についてはプレビューがあり、ご自身の Power BI 管理者が有効にできます。
 
 
-![Q&A で作成されたツリーマップ](media/end-user-q-and-a/power-bi-treemap.png)
+![Q&A で作成されたツリーマップ](media/end-user-q-and-a/power-bi-treemaps.png)
 
 質問をすることは、始まりにすぎません。  質問の検索条件を限定あるいは拡大したり、信頼に値する新しい情報を明らかにしたり、詳しい情報に的を絞ったり、ズームアウトしてより広い視野を得たりして、データの調査を楽しんでください。 分析や発見を行うことによって喜びを得ることができます。
 
@@ -54,9 +54,9 @@ Power BI サービスのダッシュボードと、Power BI モバイルのダ�
 
 
 ## <a name="use-qa-on-a-dashboard-in-the-power-bi-service"></a>Power BI サービスのダッシュボードで Q&A を使用する
-Power BI サービス (app.powerbi.com) のダッシュボードには 1 つ以上のデータセットからピン留めされたタイルが含まれているので、いずれかのデータセットに含まれるいずれかのデータに関して質問することができます。 ダッシュボードの作成に使われたレポートとデータセットを見るには、 **[その他の操作]** ボックスの一覧から **[関連の表示]** を選択します。
+Power BI サービス (app.powerbi.com) のダッシュボードには 1 つ以上のデータセットからピン留めされたタイルが含まれているので、いずれかのデータセットに含まれるいずれかのデータに関して質問することができます。 ダッシュボードの作成に使われたレポートとデータセットを見るには、 **[その他の操作]** ボックスの一覧から **[関連するコンテンツの表示]** を選択します。
 
-![メニュー バーの [関連の表示]](media/end-user-q-and-a/power-bi-q-and-a-view-related.png)
+![メニュー バーから関連コンテンツを表示する](media/end-user-q-and-a/power-bi-q-and-a-see-related.png)
 
 ## <a name="how-do-i-start"></a>どのように始めますか。
 最初に、内容を理解します。 ダッシュボードとレポートでビジュアルを確認してください。 自分が利用できるデータの型と範囲の感じをつかみます。 
@@ -69,17 +69,15 @@ Power BI サービス (app.powerbi.com) のダッシュボードには 1 つ以�
 
 データの感じをつかんだら、ダッシュボードに戻り、質問ボックスにカーソルを置きます。 これで Q&A 画面が開きます。
 
-![Q&A 画面](media/end-user-q-and-a/power-bi-suggested.png) 
+![Q&A 画面のスクリーンショット](media/end-user-q-and-a/power-bi-suggested.png) 
 
 入力を開始する前に、Q & A で質問を作るときに役立つ情報が新しい画面に表示されます。 基になっているデータセットのテーブルの名前を含む言い回しおよび質問が表示されるほか、データセット所有者によって作成された "*おすすめ*" の質問が表示されることもあります。
 
 そのいずれかを選択して質問ボックスに追加し、特定の回答を見つけられるように、その質問を調整できます。 
 
-![Q&A 画面](media/end-user-q-and-a/power-bi-result.png) 
+![Q&A 画面とクエリ](media/end-user-q-and-a/power-bi-result.png) 
 
-Power BI を使って質問するには、プロンプト、オートコンプリート、視覚的合図などの機能も使用できます。Power BI には、ダッシュボードの Q&A、レポートの Q&A、および Q&A ビジュアルに関してこのヘルプが用意されています。 これらの機能については、後述する「[自然言語クエリを入力して Q&A ビジュアルを作成する」](#create-a-qa-visual-by-typing-a-natural-language-query)セクションで詳しく説明します。
-
-<!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
+Power BI を使って質問するには、プロンプト、オートコンプリート、視覚的合図などの機能も使用できます。Power BI には、ダッシュボードの Q&A、および Q&A 視覚エフェクトに関してこのヘルプが用意されています。 これらの機能については、後述する「[自然言語クエリを入力して Q&A 視覚エフェクトを作成する](#create-a-visual-using-your-own-qa-question)」セクションで詳しく説明します。
 
 
 ## <a name="the-qa-visual-in-power-bi-reports"></a>Power BI レポートの Q&A ビジュアル
@@ -94,20 +92,23 @@ Q&A ビジュアルは、上部に並んだ質問ボックスで見分けるこ�
 ## <a name="use-qa"></a>Q&A を使用する 
 ダッシュボード上で Q&A を使用する場合、またはレポート内でビジュアル Q&A を使用する場合は、提案された質問のいずれかを選択するか、自然言語の質問を入力します。 
 
-### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>提案された質問を使用して Q&A ビジュアルを作成する
+### <a name="create-a-visual-by-using-a-suggested-question"></a>提案された質問を使用して視覚エフェクトを作成する
 
-ここでは、 **[top geo states by total units]** を選択しています。 Power BI によって最善であると判断される視覚化タイプが、使用するものとして選択されます。 この例ではマップです。
+ここでは、 **[top geo states by total units]** を選択しています。 Power BI によって最善であると判断される視覚化タイプが、使用するものとして選択されます。 この例では基本マップです。
 
-![Q&A ビジュアル マップ](media/end-user-q-and-a/power-bi-q-and-a-suggested.png)
+![Q&A ビジュアル マップ](media/end-user-q-and-a/power-bi-q-and-a-suggest.png)
 
 ただし、使用する視覚化タイプは、自然言語クエリに追加することで、Power BI に対して明示的に指定することができます。 実際のデータに対してすべての視覚化タイプが妥当であるとは限らないので注意してください。 たとえば、このデータから意味のある散布図は生成されません。 しかし、塗り分け地図としてなら機能します。
 
-![塗り分け地図としての Q&A ビジュアル](media/end-user-q-and-a/power-bi-filled-map.png)
-
-### <a name="create-a-qa-visual-by-typing-a-natural-language-query"></a>自然言語クエリを入力して Q&A ビジュアルを作成する
+![塗り分け地図としての Q&A ビジュアル](media/end-user-q-and-a/power-bi-qna-filled-map.png)
 
 
-どのような質問をするべきか、またどのような用語を使用すべきかがわからない場合は、 **[すべての候補を表示する]** を展開するか、またはレポート内の他のビジュアルを観察します。 そうすることでデータセットの内容と用語についての知識が得られます。
+
+どのような質問をするべきか、またどのような用語を使用すべきかがわからない場合は、**[すべての候補を表示する]** を展開するか、またはレポート内の他のビジュアルを観察します。 そうすることでデータセットの内容と用語についての知識が得られます。
+
+![Q&A 画面で [すべての候補を表示する] が選択されている様子](media/end-user-q-and-a/power-bi-show-all.png)
+
+### <a name="create-a-visual-using-your-own-qa-question"></a>独自の Q&A 質問を使用して視覚エフェクトを作成する
 
 1. 自然言語を使用して Q&A フィールドに質問を入力します。 質問を入力する際は、Power BI のオートコンプリート、視覚的合図、フィードバック機能が役立ちます。
 
@@ -117,62 +118,65 @@ Q&A ビジュアルは、上部に並んだ質問ボックスで見分けるこ�
 
     ![青色の下線付きの単語が表示された Q&A](media/end-user-q-and-a/power-bi-autocomplete.png)
 
-    **赤色と青色の下線** - Power BI Q&A では、Power BI で認識された、またはされなかった単語を確認できるように、下線付きの単語が表示されます。 青色の実線の下線は、Power BI によって単語が認識されたことを示します。 次の例は、**store** という単語が Q&A によって認識されたことを示しています。
+    **実線と点線の下線** - Power BI Q&A では、Power BI で認識された、またはされなかった単語を確認できるように、下線付きの単語が表示されます。 
 
-    ![質問を補完するドロップダウン候補が表示された Q&A](media/end-user-q-and-a/power-bi-blue.png)
+    青色の実線の下線は、Power BI によって単語が認識されたことを示します。 次の例では、**sales fact sentiment** と **region** が認識されています。
 
-    青色の下線付きの単語を選択すると、提案された質問のドロップダウンが表示されます。 
+    ![Q&A の質問で、単語に赤い二重下線が引かれている様子](media/end-user-q-and-a/power-bi-qna-blue.png)
 
-    ![[以下もお試しいただけます] 候補が表示されたドロップダウン](media/end-user-q-and-a/power-bi-try.png)
+    赤色の二重下線は、Power BI が単語の意味をまったく理解できないことを示します。 例として、データ内のどこにも存在しない "geography" という言葉を使用した場合が挙げられます。 この単語は英語の辞書に載っていますが、Q&A ではこの用語に赤い下線が付けられます。 Power BI Q&A では視覚化を作成できず、レポート デザイナーに用語の追加を依頼することが提案されます。  
 
+    ![[以下もお試しいただけます] 候補が表示されたドロップダウン](media/end-user-q-and-a/power-bi-qna-stores.png)
 
-    多くの場合、Q&A に単語を入力すると、赤色の下線でマークされます。 赤い下線は、潜在的な 2 つの問題のいずれかを示している可能性があります。 1 番目の種類の問題は、低信頼度として分類されます。 不明瞭な、またはあいまいな単語を入力すると、フィールドに赤色の下線が表示されます。 たとえば、"Location" という単語を使用できます。 複数のフィールドに "Location" という語が含まれている可能性があるので、赤い下線が表示され、目的のフィールドを選択するようにシステムから求められます。 この例では、Power BI から "VanArsdel" に使用するフィールドを選択するよう求められます。
+    Power BI が単語の意味をはっきりと理解できない場合は、点線の下線が表示されます。 単語を選択すると、候補の一覧が表示されます。 たとえば、"Location" という単語を使用できます。 複数のフィールドに "Location" という語が含まれている可能性があるので、目的のフィールドを選択するようにシステムから求められます。  
+
+    ![Q&A の質問で、"location" に点線の下線が引かれている様子](media/end-user-q-and-a/power-bi-qna-dotted.png)
+
     
-    ![Q&A の質問ボックスに赤色の下線付きで表示された用語](media/end-user-q-and-a/power-bi-q-and-a-red.png)
     
-    低信頼度の別の例として、"area" という単語を入力しても、一致する列が "district" である場合が挙げられます。 Bing および Office との統合により、Power BI Q&A では、同じことを意味する単語も認識されます。 Q&A によって単語に赤の下線が付けられているので、直接一致していないことがわかります
+    Bing および Office との統合により、Power BI Q&A では、同じことを意味する単語も認識されます。 Q&A によって単語に下線が付けられているので、直接一致していないことがわかります
 
-    ![Q&A ではシノニムを使って質問が言い換えられます](media/end-user-q-and-a/power-bi-red.png)
 
-    2 番目の種類の問題は、Q&A によって単語がまったく認識されない場合です。 例として、データ内のどこにも存在しない "geography" という言葉を使用した場合が挙げられます。 この単語は英語の辞書に載っていますが、Q&A ではこの用語に赤い下線が付けられます。 Power BI Q&A では視覚化を作成できず、レポート デザイナーに用語の追加を依頼することが提案されます。
 
-    ![geography という単語の追加をデザイナーに依頼する提案が表示された Q&A](media/end-user-q-and-a/power-bi-geography.png)
+    
 
-    **候補** - さらに質問文を入力していくと、質問が認識されなければ Power BI から通知が表示され、支援機能が作動します。 下の例では、Power BI から "候補" というメッセージが表示され、データセット内の用語を使用して別の質問文が提案されています。 
+    **候補** - さらに質問文を入力していくと、質問が認識されなければ Power BI から通知が表示され、支援機能が作動します。 次の例では、'VanArsdel' の解釈の候補として、2 つのフィールドが表示されています。 
 
-    ![Q&A ビジュアルから提示された修正候補](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+    ![Q&A ビジュアルから提示された修正候補](media/end-user-q-and-a/power-bi-qna-did-you-mean.png)
 
-    Power BI による修正を選択すると、目的の結果が折れ線グラフとして表示されます。 
+    Power BI の修正案を選択すると、すべての単語が認識され、青い下線が引かれます。 結果は折れ線グラフとして表示されます。 
 
-    ![折れ線グラフとして表示された Q&A ビジュアルの結果](media/end-user-q-and-a/power-bi-q-and-a-line.png)
+    ![折れ線グラフとして表示された Q&A ビジュアルの結果](media/end-user-q-and-a/power-bi-q-and-a-line-chart.png)
 
 
     ただし折れ線グラフは、別の視覚化タイプに変更することができます。  
 
-    ![質問に "as a column chart" が追加された Q&A ビジュアル](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
+    ![質問に "as a column chart" が追加された Q&A ビジュアル](media/end-user-q-and-a/power-bi-q-and-a-specify.png)
 
 
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
 
-**質問**:このダッシュボードに Q&A が表示されません。    
-**回答 1**:質問ボックスが表示されない場合、最初に設定を確認してください。 それを行うには、Power BI ツール バーの右上隅にある歯車アイコンを選択します。   
-![歯車アイコン](media/end-user-q-and-a/power-bi-settings.png)
+**質問**: このダッシュボードに Q&A が表示されません。    
+**回答 1**: 質問ボックスが表示されない場合、最初に設定を確認してください。 それを行うには、Power BI ツール バーの右上隅か、[**その他のオプション (...)] ドロップダウン メニューにある歯車アイコンを選択します。   
+![歯車アイコン](media/end-user-q-and-a/power-bi-cog.png)
 
 次に、 **[設定]**  >  **[ダッシュボード]** の順に選択します。 **[このダッシュボードに Q&A 検索ボックスを表示する]** の隣にチェックマークがあることを確認します。    
-![ダッシュボードの Q&A 設定](media/end-user-q-and-a/power-bi-turn-on.png)  
+![ダッシュボードの Q&A 設定](media/end-user-q-and-a/power-bi-om.png)  
 
 
-**回答 2**:場合によっては、設定にアクセスできないことがあります。 ダッシュボードの "*デザイナー*" または管理者によって Q&A がオフに設定されている場合は、オンに戻してよいかどうかをそれらのデザイナーまたは管理者に確認してください。   
+**回答 2**:場合によっては、設定にアクセスできないことがあります。 ダッシュボードの "所有者" または管理者によって Q&A がオフに設定されている場合は、オンに戻してよいかどうかをそれらのデザイナーまたは管理者に確認してください。 所有者を検索するには、上部のメニュー バーからダッシュボードの名前を選択します。
 
-**質問**:質問を入力しても、求めている結果が表示されません。    
-**回答**:レポートまたはダッシュボードの所有者に連絡するためのオプションを選択してください。 この操作は、Q&A のダッシュボード ページまたは Q&A ビジュアルから直接行うことができます。 または、Power BI のヘッダーから所有者を検索できます。  Q&A の結果を改善するためにデザイナーができることがたくさんあります。 たとえば、デザイナーは、簡単に理解される言葉を使用するようにデータセットの列名を変更できます (`CustFN` の代わりに `CustomerFirstName`)。 デザイナーはデータセットのことをよく理解しているため、役に立つ質問を考え、Q&A によって提案される質問にそれらを追加できます。
+![レポート名ドロップダウンのスクリーンショット](media/end-user-q-and-a/power-bi-owner.png)    
 
-![連絡先情報を表示する](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+**質問**: 質問を入力しても、求めている結果が表示されません。    
+**回答**:レポートまたはダッシュボードの所有者に連絡するためのオプションを選択してください。 この操作は、Q&A のダッシュボード ページまたは Q&A ビジュアルから直接行うことができます。 または、Power BI のヘッダーから所有者を検索できます。  Q&A の結果を改善するために所有者ができることがたくさんあります。 たとえば、所有者は、簡単に理解される言葉を使用するようにデータセットの列名を変更できます (`CustFN` の代わりに `CustomerFirstName`)。 所有者はデータセットのことをよく理解しているため、役に立つ質問を考え、Q&A によって提案される質問にそれらを追加できます。
+
+![連絡先情報を表示する](media/end-user-q-and-a/power-bi-qna-contact.png)
 
 ## <a name="privacy"></a>プライバシー
 
 Microsoft は、Power BI を改善するために質問を使用する場合があります。 詳細については、「[Microsoft プライバシー ステートメント](https://go.microsoft.com/fwlink/?LinkId=521839)」を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 Q&A ビジュアルがレポートの "*デザイナー*" によってどのように作成され、管理されるかについては、[Q&A ビジュアルの種類](../visuals/power-bi-visualization-q-and-a.md)に関するページを参照してください。
