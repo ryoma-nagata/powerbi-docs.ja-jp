@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
-ms.date: 12/17/2018
-ms.openlocfilehash: 8003d7ed6d6b455860ed5ed3bc4ada06c0a35c5f
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/30/2020
+ms.openlocfilehash: 10790ef963a11fd78c41a28b54e7d177bd96a157
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537805"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747921"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI ビジュアルに関する FAQ
 
@@ -32,9 +32,9 @@ ms.locfileid: "87537805"
 
 ユーザーは、組み込みの Power BI Desktop と Power BI サービス組織ストアの *[自分の所属組織]* タブで組織の Power BI ビジュアルを見つけることができます。 
 
-### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>管理者がパブリック マーケットプレースから組織のストアに Power BI ビジュアルをアップロードする場合、ベンダーがパブリック マーケットプレースのビジュアルを更新したらそれは自動的に更新されますか?
+### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-using-add-visual--from-appsource-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>管理者が *[視覚化の追加] > [AppSource から]* を使用してパブリック マーケットプレースから組織のストアに Power BI 視覚エフェクトをアップロードする場合、ベンダーがパブリック マーケットプレースの視覚エフェクトを更新したらそれは自動的に更新されますか?
 
-いいえ、パブリック マーケットプレースからの自動更新はありません。 組織の Power BI ビジュアルのバージョンを更新するのは管理者の役割です。
+はい、視覚化はパブリック マーケットプレースから自動的に更新されます。 視覚化が認定されている場合、PDF または PowerPoint へのエクスポートなどの追加機能を含め、認定が保持されます。
 
 ### <a name="is-there-a-way-to-disable-the-organization-store"></a>組織のストアを無効にする方法はありますか?
 
@@ -135,7 +135,7 @@ IAP Power BI ビジュアルは無料のダウンロード可能な Power BI ビ
 
 ### <a name="what-is-changing-in-the-submission-process"></a>送信プロセスの変更点は何ですか?
 
-IAP Power BI ビジュアルをマーケットプレースに送信するプロセスは無料の Power BI ビジュアルの場合と同じプロセスです。 認定を受ける Power BI ビジュアルの送信には、[パートナー センター](https://docs.microsoft.com/partner-center/)を使用します。
+IAP Power BI ビジュアルをマーケットプレースに送信するプロセスは無料の Power BI ビジュアルの場合と同じプロセスです。 認定を受ける Power BI ビジュアルの送信には、[パートナー センター](/partner-center/)を使用します。
 
 
 Power BI ビジュアルを登録するときは、 *[Product setup]\(製品の設定\)* タブに移動し、 *[My product requires the purchase of a service]\(この製品にはサービスの購入が必要です\)* チェック ボックスをオンにします。

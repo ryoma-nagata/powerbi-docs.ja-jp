@@ -1,17 +1,17 @@
 ---
 title: レポート作成者ラーニング カタログ
-description: Power BI のすべてのトレーニング オプションを検索する
+description: 最も基本的なものから最も高度なものまで、レポート デザイナー向けの Power BI のトレーニング オプションをすべて紹介します。
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 6b12b5333f852a62cc4e6232169fe353ace25fc3
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 3774de30309b2e1b3a8b086ee1d7605d1cba256d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526109"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749370"
 ---
 # <a name="report-creator-learning-catalog"></a>レポート作成者ラーニング カタログ
 

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 37bd8f15dcf17cd0f967e819338a719edf2a3054
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276377"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747553"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL 証明書を作成する
 
 この記事では Power BI ビジュアル用の Secure Sockets Layer (SSL) 証明書を生成してインストールする方法について説明します。
 
-Windows、macOS X、Linux の各手順を実行するには、Power BI Visual Tools **pbiviz** パッケージがインストールされている必要があります。 詳細については、[開発者環境の設定](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#setting-up-the-developer-environment)に関するページをご覧ください。 
+Windows、macOS X、Linux の各手順を実行するには、Power BI Visual Tools **pbiviz** パッケージがインストールされている必要があります。 詳細については、[開発者環境の設定](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment)に関するページをご覧ください。 
 
 ## <a name="create-a-certificate-on-windows"></a>Windows で証明書を作成する
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 Windows 7 の場合、`pbiviz` ツールを使用するには、コマンド ラインから OpenSSL ユーティリティを使用できるようにする必要があります。 OpenSSL をインストールするには、[OpenSSL](https://www.openssl.org) または [OpenSSL バイナリ](https://wiki.openssl.org/index.php/Binaries)にアクセスします。
 
-証明書をインストールする方法の詳細と手順については、[Windows 用の証明書の作成およびインストール](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#windows)に関するページをご覧ください。
+証明書をインストールする方法の詳細と手順については、[Windows 用の証明書の作成およびインストール](./custom-visual-develop-tutorial.md#windows)に関するページをご覧ください。
 
 ## <a name="create-a-certificate-on-macos-x"></a>macOS で証明書を作成する
 
@@ -58,7 +58,7 @@ OpenSSL ユーティリティをインストールしたら、次のコマンド
 pbiviz --install-cert
 ```
 
-詳細と手順については、[OS X 用の証明書の作成およびインストール](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#osx)に関するページをご覧ください。
+詳細と手順については、[OS X 用の証明書の作成およびインストール](./custom-visual-develop-tutorial.md#osx)に関するページをご覧ください。
 
 ## <a name="create-a-certificate-on-linux"></a>Linux で証明書を作成する
 
@@ -184,7 +184,7 @@ PFX 証明書ファイルにパスフレーズが必要な場合は、次のよ�
    \PowerBI-visuals-tools\config.json
    ```
    
-1. `server` セクションで、\<YOUR PASSPHRASE> プレースホルダーを置き換えることで、パスフレーズを指定します。
+1. `server` セクションで、\<YOUR PASSPHRASE> プレースホルダーを置き換えることによってパスフレーズを指定します。
 
     ```cmd
     "server":{

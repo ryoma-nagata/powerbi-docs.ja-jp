@@ -1,6 +1,6 @@
 ---
 title: Power BI Report Server での Power BI のスケジュールされた更新
-description: Power BI レポートは、さまざまなデータ ソースに接続できます。 データの使い方に応じて、異なるデータ ソースを利用できます。
+description: Power BI レポートのスケジュールされた更新を使用すると、埋め込みモデルのレポートのデータを最新の状態に保つことができます。
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 710df5f4159f49884d9eee1044b2c077c7edcb88
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861776"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749094"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server での Power BI のスケジュールされた更新
 Power BI レポートのスケジュールされた更新は、レポートのデータを最新の状態に保つことができます。
@@ -29,14 +29,14 @@ Power BI レポートのスケジュールされた更新を使うときは、�
 
 * スケジュールされたイベントを生成するタイマーとしての SQL Server エージェント。
 * スケジュールされたジョブは、レポート サーバー データベースのイベントと通知のキューに追加されます。 スケールアウト配置では、キューは配置しているすべてのレポート サーバーで共有されます。
-* スケジュール イベントの結果として発生するすべてのレポート処理は、バックグラウンド プロセスとして実行されます。
+* スケジュール イベントの結果として生じるすべてのレポート処理は、バックグラウンド プロセスとして実行されます。
 * データ モデルは、Analysis Services インスタンス内に読み込まれます。
 * 一部のデータ ソースでは、データ ソースに接続してデータを変換するために、Power Query マッシュアップ エンジンが使われます。 他のデータ ソースは、Power BI Report Server のデータ モデルをホストする Analysis Services サービスから直接接続できます。
 * 新しいデータは、Analysis Services 内のデータ モデルに読み込まれます。
 * スケールアウト構成では、データ モデルを複数のノードにレプリケートできます。
 * Analysis Services がデータを処理し、必要な計算をすべて実行します。
 
-Power BI Report Server は、すべてのスケジュールされた操作のイベント キューを保持します。 定期的にキューをポーリングし、新しいイベントがないかどうかを確認します。 既定では、キューは 10 秒ごとにスキャンされます。 RSReportServer.config ファイルの構成設定 **PollingInterval**、**IsNotificationService**、**IsEventService** を変更することで、間隔を変えることができます。 **IsDataModelRefreshService** を使うと、レポート サーバーがスケジュールされたイベントを処理するかどうかも設定できます。
+Power BI Report Server は、すべてのスケジュールされた操作のイベント キューを保持します。 定期的にキューをポーリングし、新しいイベントがないかどうかを確認します。 既定では、10 秒間隔でキューがスキャンされます。 間隔を変更するには、RSReportServer.config ファイルで **PollingInterval**、 **IsNotificationService**、および **IsEventService** の構成設定を変更します。 **IsDataModelRefreshService** を使うと、レポート サーバーがスケジュールされたイベントを処理するかどうかも設定できます。
 
 ### <a name="analysis-services"></a>Analysis Services
 Power BI レポートのレンダリングと、スケジュールされた更新の実行には、Power BI レポートのデータ モデルを Analysis Services に読み込む必要があります。 Analysis Services プロセスは、Power BI Report Server で実行されます。
@@ -67,4 +67,4 @@ Analysis Services 内のメモリ設定については、「[Memory Properties](
 ## <a name="next-steps"></a>次のステップ
 Power BI レポートに[スケジュールされた更新](configure-scheduled-refresh.md)を構成します。
 
-他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

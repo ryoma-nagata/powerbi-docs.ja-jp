@@ -11,12 +11,12 @@ ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763944"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527945"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>"*ビジネス ユーザー*" のライセンスとサブスクリプション
 
@@ -36,7 +36,7 @@ Power BI サービスで何ができるかは、次の 3 つのことによっ�
 
 ## <a name="licenses"></a>ライセンス
 
-Power BI サービスの各ユーザーは、*無料*ライセンスまたは *Pro* ライセンスのいずれかを持っています。 Power BI "*ビジネス ユーザー*" の場合は、おそらく、Power BI テナント管理者によって管理されている無料ライセンスを使用しています。
+Power BI サービスの各ユーザーは、*無料*ライセンスまたは *Pro* ライセンスのいずれかを持っています。 Power BI "*ビジネス ユーザー*" の場合は、おそらく、Power BI 管理者によって管理されている無料ライセンスを使用しています。
 
 複数のライセンスを同時に所有している可能性もあります。  サービスでは、常に、ユーザーが現在所有している最も制限の少ないライセンスに等しいエクスペリエンスが提供されます。
 

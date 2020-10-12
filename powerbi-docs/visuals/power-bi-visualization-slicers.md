@@ -1,6 +1,6 @@
 ---
 title: Power BI のスライサー
-description: Power BI スライサーはフィルターの代わりになる手段であり、レポートの他の視覚化に表示されるデータセットの一部を絞り込むことができます。
+description: Power BI スライサーはフィルターの代わりになる手段であり、デザインするレポートで他の視覚エフェクトに表示されるデータセットの一部を絞り込むことができます。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/07/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: de466c4e299a3467f66b7b769303e1eadd7ee5b0
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 1f68ed28a57f5dd52d447d48ea231e468dd5d02a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409630"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747737"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI のスライサー
 

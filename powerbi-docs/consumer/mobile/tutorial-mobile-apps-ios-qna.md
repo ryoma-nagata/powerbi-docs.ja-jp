@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: painbar
-ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75221811"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668323"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>チュートリアル:Power BI iOS アプリの Q&A 仮想アナリストでデータについて質問する
 
@@ -92,13 +92,13 @@ Q&A 仮想アナリストは、[Power BI サービス](https://powerbi.com)の�
 
 3. [ダッシュボード] タブをクリックし、[営業案件の分析サンプル] 行で [ごみ箱] をクリックします。
 
-    ![削除アイコンを選ぶ](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
+    ![ダッシュボードが選択され、削除アイコンが強調表示されている Power BI ワークスペースが、スクリーンショットで示されています。](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
     今度は [レポート] タブを選択し、同じ操作を行います。
 
 4. 今度は [データセット] タブを選択し、 **[その他のオプション]** (...) をクリックし、 **[削除]** を選択します。
 
-    ![削除アイコンを選ぶ](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
+    ![データセットが選択され、[その他のオプション] メニューから [削除] が選択されている Power BI ワークスペースが、スクリーンショットで示されています。](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>次の手順
 

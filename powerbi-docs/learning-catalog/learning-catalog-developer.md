@@ -1,17 +1,17 @@
 ---
 title: 開発者向けラーニング カタログ
-description: Power BI のすべてのトレーニング オプションを検索する
+description: 最も基本的なものから最も高度なものまで、開発者向けの Power BI のトレーニング オプションをすべて紹介します。
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 8825cf687d3d6dd754e520f5e452b2483e3f179b
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 442ae8cb6c433cbc7501a6f354158c39a48e2d68
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411867"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746541"
 ---
 # <a name="developer-learning-catalog"></a>開発者向けラーニング カタログ
 
@@ -31,7 +31,7 @@ ms.locfileid: "87411867"
 | [Power BI Embedded を 20 分で学習する](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | このウェビナーでは、Power BI Embedded の概要を説明します。 このウェビナーを最後まで見ると、ユーザーは Power BI Embedded の概要、製品を使い始める次の手順、ヘルプ/リソースの場所を理解することができます。 | ウェビナー       |                |
 | [Power BI の埋め込みによる開発 - Ted Pattison – 2018 年 4 月更新](https://www.youtube.com/watch?v=swnGlrRy588)  | この開発者向けのウェビナーでは、Power BI 埋め込みプラットフォームに対する最新の機能強化について、ISV や企業の開発者がそれらをどのように活用できるかについて、Ted Pattison が説明します。 | YouTube ビデオ | 59 分 49 秒  |
 | [Power BI 埋め込みバージョン 2 – 完全なストーリー](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | このウェビナーは、クリティカル パス トレーニングの Power BI MVP Ted Pattison により、2017 年 8 月 10 日に発表されました。 このウェビナーでは、Power BI Premium を介して提供される新しい Power BI 埋め込み機能を使用して開発する方法について説明します。  | ウェビナー       | 1 時間 7 分 23 秒 |
-| [チュートリアル: 顧客向けのアプリケーションに Power BI コンテンツを埋め込む](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | Azure の Power BI Embedded または Office での Power BI の埋め込みを使用すると、アプリ所有データを使用して、レポート、ダッシュボード、またはタイルをアプリケーション内に埋め込むことができます。  | ドキュメント |                |
+| [チュートリアル: 顧客向けのアプリケーションに Power BI コンテンツを埋め込む](../developer/embedded/embed-sample-for-customers.md#set-up-your-embedded-analytics-development-environment) | Azure の Power BI Embedded または Office での Power BI の埋め込みを使用すると、アプリ所有データを使用して、レポート、ダッシュボード、またはタイルをアプリケーション内に埋め込むことができます。  | ドキュメント |                |
 | [Power BI Embedded を 20 分で学習する](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | このウェビナーでは、Power BI Embedded の概要を説明します。 このウェビナーを最後まで見ると、ユーザーは Power BI Embedded の概要、製品を使い始める次の手順、ヘルプ/リソースの場所を理解することができます。 | ウェビナー       |                |
 ## <a name="dax"></a>DAX<a name="dax"></a>
 | コンテンツ | Description | 書式  | 長さ      |

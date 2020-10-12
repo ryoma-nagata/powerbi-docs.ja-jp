@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 6b8d02984fdd6af467b0df5acb6c1455a6e93172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221048"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749048"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Embedded に Power BI ワークスペース コレクション コンテンツを移行する方法
 
@@ -48,7 +48,7 @@ Power BI ワークスペース コレクションから Power BI Embedded への
    * アプリケーションごとに個別のテナントを使用しますか。
    * 顧客ごとに個別のテナントを使用しますか。
 
-     アプリケーション、または顧客ごとに新しいテナントを作成することにした場合は、「[Azure Active Directory テナントを作成する](create-an-azure-active-directory-tenant.md)」または「[Azure Active Directory テナントを取得する方法](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)」を参照してください。
+     アプリケーション、または顧客ごとに新しいテナントを作成することにした場合は、「[Azure Active Directory テナントを作成する](create-an-azure-active-directory-tenant.md)」または「[Azure Active Directory テナントを取得する方法](/azure/active-directory/develop/active-directory-howto-tenant)」を参照してください。
 2. アプリケーションの "マスター" アカウントとして機能する、この新しいテナントのユーザーを作成します。 そのアカウントで Power BI にサインアップする必要があります。また、このアカウントに Power BI Pro のライセンスが割り当てられている必要があります。
 
 ## <a name="accounts-within-azure-ad"></a>Azure AD 内のアカウント
@@ -58,7 +58,7 @@ Power BI ワークスペース コレクションから Power BI Embedded への
 > [!NOTE]
 > これらのアカウントでは、ワークスペースを使用するために、Power BI Pro ライセンスが必要になります。
 
-1. テナント管理者ユーザー。
+1. Power BI 管理者。
 
     このユーザーは、埋め込むために作成されたすべてのワークスペースのメンバーにすることをお勧めします。
 
@@ -168,7 +168,7 @@ Power BI ワークスペース コレクションから移行したコンテン�
 ## <a name="rebuild-your-application"></a>アプリケーションを再構築する
 
 1. powerbi.com 内のレポートの場所と Power BI REST API を使用するには、アプリケーションを変更する必要があります。
-2. アプリケーションの*マスター* アカウントを使用して、AuthN/AuthZ 認証を再構築します。 [埋め込みトークン](https://docs.microsoft.com/rest/api/power-bi/embedtoken)を使用することで、このユーザーを他のユーザーの代理として機能させることができます。
+2. アプリケーションの*マスター* アカウントを使用して、AuthN/AuthZ 認証を再構築します。 [埋め込みトークン](/rest/api/power-bi/embedtoken)を使用することで、このユーザーを他のユーザーの代理として機能させることができます。
 3. Powerbi.com からレポートをアプリケーションに埋め込みます。
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>ユーザーを Power BI ユーザーにマップする
@@ -180,7 +180,7 @@ Power BI ワークスペース コレクションから移行したコンテン�
 運用環境に移行する準備ができたら、以下の手順を実行する必要があります。
 
 * 開発用に個別のテナントを使用する場合は、ワークスペース、ダッシュボードおよびレポートが運用環境で利用可能であることを確認する必要があります。 また、運用テナントの Azure AD でアプリケーションを作成し、手順 1. のとおり、適切なアプリにアクセス許可を割り当てたことを確認する必要があります。
-* ニーズに合う容量を購入します。 ニーズに合った容量の大きさと種類については、[Power BI Embedded の分析の容量計画に関するホワイト ペーパー](https://aka.ms/pbiewhitepaper)をご覧ください。 Azure で[容量を購入](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)できます。
+* ニーズに合う容量を購入します。 ニーズに合った容量の大きさと種類については、[Power BI Embedded の分析の容量計画に関するホワイト ペーパー](./embedded-capacity-planning.md)をご覧ください。 Azure で[容量を購入](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)できます。
 * ワークスペースを編集し、[詳細] で Premium 容量にそれを割り当てます。
 
     ![Premium 容量](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
@@ -204,7 +204,7 @@ Azure 内でいくつかのクリーンアップを行う必要があります�
 [JavaScript API Git リポジトリ](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git リポジトリ](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 埋め込みサンプル](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[ワークスペース コレクションの分析の容量計画に関するホワイト ペーパー](https://aka.ms/pbiewhitepaper)  
+[ワークスペース コレクションの分析の容量計画に関するホワイト ペーパー](./embedded-capacity-planning.md)  
 [Power BI Premium ホワイト ペーパー](https://aka.ms/pbipremiumwhitepaper)  
 
 他にわからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

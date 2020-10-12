@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 771c41b896a6b886e8c72fa3d88ca8842e8ebffe
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337121"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748841"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>チュートリアル:顧客向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む
 
@@ -57,7 +57,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 * **Power BI Premium** - ページ分割されたレポートを埋め込むには、*P* SKU の容量が必要です。 Power BI コンテンツを埋め込む場合、このソリューションは "*Power BI 埋め込み*" と呼ばれます。 このサブスクリプションの詳細については、「[Power BI Premium とは](../../admin/service-premium-what-is.md)」を参照してください。
 * **Azure Power BI Embedded** - [Microsoft Azure portal](https://portal.azure.com) で専用の容量を購入できます。 このサブスクリプションは、*A* SKU を使用します。 ページ分割されたレポートを埋め込むには、少なくとも *A4* サブスクリプションが必要です。 Power BI Embedded 容量の作成方法の詳細については、「[Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md)」 (Azure Portal で Power BI Embedded 容量を作成する) をご覧ください。
 
-次の表は、各 SKU のリソースと制限を示しています。 ニーズに最適な容量を判断するには、[シナリオに応じてどの SKU を購入すればよいか](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose)をまとめた表を参照してください。
+次の表は、各 SKU のリソースと制限を示しています。 ニーズに最適な容量を判断するには、[シナリオに応じてどの SKU を購入すればよいか](./embedded-faq.md#which-solution-should-i-choose)をまとめた表を参照してください。
 
 | 容量ノード | 合計 v コア数 | バックエンド v コア数 | RAM (GB) | フロントエンド v コア数 | 
 | --- | --- | --- | --- | --- |
@@ -70,13 +70,13 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 専用の容量を作成すると、アプリ ワークスペースをその専用の容量に割り当てることができます。
 
-[サービス プリンシパル](embed-service-principal.md)を使用して専用の容量をワークスペースに割り当てるには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) を使用します。 Power BI REST API の使用時は必ず[サービス プリンシパル オブジェクト ID](embed-service-principal.md) を使用してください。
+[サービス プリンシパル](embed-service-principal.md)を使用して専用の容量をワークスペースに割り当てるには、[Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity) を使用します。 Power BI REST API の使用時は必ず[サービス プリンシパル オブジェクト ID](embed-service-principal.md) を使用してください。
 
 ### <a name="create-and-upload-your-paginated-reports"></a>ページ分割されたレポートを作成してアップロードする
 
 [Power BI レポート ビルダー](../../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)を使用して、ページ分割されたレポートを作成し、[レポートをサービスにアップロード](../../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)できます。
 
-[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) を使用して、ページ分割されたレポートを新しいワークスペースにインポートできます。
+[Power BI REST API](/rest/api/power-bi/imports/postimportingroup) を使用して、ページ分割されたレポートを新しいワークスペースにインポートできます。
 
 ## <a name="embed-content-using-the-sample-application"></a>サンプル アプリケーションを使用してコンテンツを埋め込む
 
@@ -119,7 +119,7 @@ Azure サブスクリプションをお持ちでない場合は、始める前�
 
 3. **applicationId** を必要とするアプリケーションを選択します。
 
-    ![アプリの選択](media/embed-paginated-reports-for-customers/display-name.png)
+    ![スクリーンショットには、アプリケーション ID が必要なものとして選択されているアプリケーションの表示名が示されています。](media/embed-paginated-reports-for-customers/display-name.png)
 
 4. **アプリケーション ID** が GUID として一覧表示されます。 この**アプリケーション ID** を、アプリケーションの **applicationId** として使用します。
 
@@ -171,7 +171,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 3. **ApplicationSecret** を使用する必要があるアプリケーションを選択します。
 
-    ![アプリの選択](media/embed-paginated-reports-for-customers/display-name-2.png)
+    ![スクリーンショットには、アプリケーション シークレットが必要なものとして選択されているアプリケーションの表示名が示されています。](media/embed-paginated-reports-for-customers/display-name-2.png)
 
 4. **[管理]** で **[証明書とシークレット]** を選択します。
 
@@ -201,11 +201,11 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 ## <a name="embed-power-bi-paginated-reports-within-your-application"></a>アプリケーション内に Power BI のページ分割されたレポートを埋め込む
 
-Power BI のページ分割されたレポートを埋め込む手順は [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) で行いますが、この記事で説明するコード例は **.NET SDK** で作成されています。
+Power BI のページ分割されたレポートを埋め込む手順は [Power BI REST API](/rest/api/power-bi/) で行いますが、この記事で説明するコード例は **.NET SDK** で作成されています。
 
-顧客向けの Power BI のページ分割されたレポートをアプリケーションに埋め込むには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) を呼び出す前に、**Azure AD** [サービス プリンシパル](embed-service-principal.md)を持ち、Power BI アプリケーションの [Azure AD アクセス トークン](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)を取得する必要があります。
+顧客向けの Power BI のページ分割されたレポートをアプリケーションに埋め込むには、[Power BI REST API](/rest/api/power-bi/) を呼び出す前に、**Azure AD** [サービス プリンシパル](embed-service-principal.md)を持ち、Power BI アプリケーションの [Azure AD アクセス トークン](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)を取得する必要があります。
 
-**アクセス トークン**を使用して Power BI Client を作成するには、[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) とやり取りするための Power BI クライアント オブジェクトを作成する必要があります。 **AccessToken** を ***Microsoft.Rest.TokenCredentials*** オブジェクトでラップして、Power BI クライアント オブジェクトを作成します。
+**アクセス トークン**を使用して Power BI Client を作成するには、[Power BI REST API](/rest/api/power-bi/) とやり取りするための Power BI クライアント オブジェクトを作成する必要があります。 **AccessToken** を ***Microsoft.Rest.TokenCredentials*** オブジェクトでラップして、Power BI クライアント オブジェクトを作成します。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>埋め込みトークンを作成する
 
-JavaScript API から使うことができる埋め込みトークンを生成します。 Power BI のページ分割されたレポートを埋め込むための埋め込みトークンを作成するには、[Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API を使用します。
+JavaScript API から使うことができる埋め込みトークンを生成します。 Power BI のページ分割されたレポートを埋め込むための埋め込みトークンを作成するには、[Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API を使用します。
 
 埋め込みトークンを作成するサンプルは、[サンプル アプリケーション](https://github.com/Microsoft/PowerBI-Developer-Samples)内の *Services\EmbedService.cs* ファイルにあります。
 

@@ -7,70 +7,73 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 50f52058e43c1e59ce0a6894ff83d67528acc291
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: f27cea554cd9d4e1a68fa300c5d39d70e1eefb48
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536287"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527266"
 ---
-# <a name="view-related-content-in-the-power-bi-service"></a>Power BI サービスで関連するコンテンツを表示する
+# <a name="see-related-content-in-the-power-bi-service"></a>Power BI サービスで関連するコンテンツを表示する
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 **[関連するコンテンツ]** ペインには、Power BI サービスのコンテンツ (ダッシュボード、レポート、データセット) がどのように相互接続されているかが示されます。 **[関連するコンテンツ]** ウィンドウは、操作を実行するための起動パッドでもあります。 ここからは、ダッシュボードを開いたり、レポートを開いたり、分析情報を生成したり、Excel でデータを分析するといった操作を行うことができます。  
 
-Power BI では、レポートはデータセットを基にして作成されていて、レポートのビジュアルはダッシュボードにピン留めされ、ダッシュボードのビジュアルはレポートにリンクしています。 しかし、マーケティング レポートのビジュアルをホストしているダッシュボードをどのようにして知りますか。 そのダッシュボードをどのようにして見つけますか。 調達ダッシュボードでは複数のデータセットからのビジュアルが使われていますか。 その場合、どのような名前が付けられていて、開いて編集するにはどうすればよいですか。 HR データセットはレポートやダッシュボードで使われていますか。 または、それはリンクを壊さずに移動できますか。 このような疑問の答えは、 **[関連するコンテンツ]** ペインでわかります。  このペインでは、関連するコンテンツが表示されるだけでなく、コンテンツに対する操作を実行し、関連するコンテンツ間を簡単に移動することもできます。
+Power BI サービスでは、レポートはデータセットを基にして作成されていて、レポート視覚エフェクトはダッシュボードにピン留めされ、ダッシュボード視覚エフェクトはレポートにリンクしています。 しかし、マーケティング レポートのビジュアルをホストしているダッシュボードをどのようにして知りますか。 そのダッシュボードをどのようにして見つけますか。 調達ダッシュボードでは複数のデータセットからのビジュアルが使われていますか。 その場合、どのような名前が付けられていて、開いて編集するにはどうすればよいですか。 HR データセットはレポートやダッシュボードで使われていますか。 または、それはリンクを壊さずに移動できますか。 このような疑問の答えは、 **[関連するコンテンツ]** ペインでわかります。  このペインでは、関連するコンテンツが表示されるだけでなく、コンテンツに対する操作を実行し、関連するコンテンツ間を簡単に移動することもできます。
 
-![関連コンテンツ](./media/end-user-related/power-bi-list.png)
+![関連コンテンツ](./media/end-user-related/power-bi-see-related-pane.png)
 
 > [!NOTE]
 > 関連するコンテンツの機能は、ストリーミング データセットには機能しません。
 > 
 > 
 
-## <a name="view-related-content-for-a-dashboard-or-report"></a>ダッシュボードまたはレポートの関連するコンテンツを表示する
-Watch ではダッシュボードの関連するコンテンツが表示されます。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。データセットは、調達の分析のサンプルをご利用ください。
+## <a name="see-related-content-for-a-dashboard-or-report"></a>ダッシュボードまたはレポートの関連するコンテンツを表示する
+Watch ではダッシュボードの関連するコンテンツが表示されます。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。調達の分析のサンプルをご利用ください。
+
+> [!NOTE]
+> このビデオでは、以前のバージョンの Power BI を使って操作説明をしています。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
-ダッシュボードまたはレポートを開いた状態で、メニュー バーの**その他のオプション** (...) を選択し、ドロップダウンから **[関連の表示]** を選択します。
+ダッシュボードまたはレポートを開いた状態で、メニュー バーの**その他のオプション** (...) を選択し、ドロップダウンから **[関連するコンテンツの表示]** を選択します。
 
-![省略記号ドロップダウン](./media/end-user-related/power-bi-dropdown.png)
+![省略記号ドロップダウン](./media/end-user-related/power-bi-see-related.png)
 
-**[関連するコンテンツ]** ペインが開きます。 ダッシュボードの場合、ダッシュボードに視覚エフェクトがピン留めされているすべてのレポートと、それに関連付けられているデータセットが表示されます。 このダッシュボードでは、1 つのレポートからのみピン留めされた視覚エフェクトがあり、そのレポートは 1 つのデータセットのみに基づいています。 
+**[関連するコンテンツ]** ペインが開きます。 ダッシュボードの場合、ダッシュボードに視覚エフェクトがピン留めされているすべてのレポートと、それに関連付けられているデータセットが表示されます。 このダッシュボードでは、1 つのレポートからのみピン留めされた視覚エフェクトがあり、そのレポートは 1 つのデータセットのみに基づいています。 この記事の冒頭にある画像を見ると、ダッシュボードの関連コンテンツとして、4 つのレポート (および 2 つのデータセット) から視覚化がピン留めされています。
 
 ![[関連するコンテンツ] ウィンドウ](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-ここからは、関連するコンテンツに対する操作を直接実行できます。  たとえば、レポートまたはダッシュボード名を選択して開きます。  表示されたレポートで、[Excel で分析](../collaborate-share/service-analyze-in-excel.md)や[詳細情報の取得](end-user-insights.md)などのアイコンを選択します。 データセットの場合は、最後に更新された日時を確認し、[Excel で分析](../collaborate-share/service-analyze-in-excel.md)し、[詳細情報を取得する](end-user-insights.md)ことができます。  
+ここからは、アクセス許可に応じて、関連するコンテンツに対する操作を直接実行できます。  たとえば、レポートまたはダッシュボード名を選択して開きます。  一覧表示されたレポートについては、アイコンを選択してレポートを開き、レポートの設定を編集したり、[詳細情報を取得](end-user-insights.md)したりすることができます。 データセットについては、最終更新日時を確認したり、[Excel で分析](../collaborate-share/service-analyze-in-excel.md)したり、[詳細情報を取得](end-user-insights.md)したり、内容を更新したりすることができます。  
 
 
 
-## <a name="view-related-content-for-a-dataset"></a>データセットの関連するコンテンツを表示する
-**[関連するコンテンツ]** ペインを開くには、データセットに対する "*表示*" アクセス許可が少なくとも必要です。 この例では、[調達の分析のサンプル](../create-reports/sample-procurement.md)を使います。
+<!-- ## See related content for a dataset
+You'll need at least *view* permissions to a dataset to open the **Related content** pane. In this example, we're using the [Procurement Analysis sample](../create-reports/sample-procurement.md).
 
-ナビ ペインで **[ワークスペース]** の見出しを探し、一覧からワークスペースを選択します。 ワークスペースにコンテンツがある場合は、右側のキャンバスに表示されます。 
+From the nav pane, locate the **Workspaces** heading and select a workspace from the list. If you have content in a workspace, it will display in the canvas to the right. 
 
-![ナビ ペインのワークスペース](./media/end-user-related/power-bi-workspace.png)
+![workspaces in nav pane](./media/end-user-related/power-bi-workspace.png)
 
 
-ワークスペースで **[データセット]** タブを選び、 **[関連の表示]** アイコン ![[関連の表示] アイコン](./media/end-user-related/power-bi-view-related-icon-new.png) を探します。
+In a workspace, select the **Datasets** tab and locate the **See related** icon ![See related icon](./media/end-user-related/power-bi-view-related-icon-new.png).
 
-![データセット タブ](./media/end-user-related/power-bi-related-dataset.png)
+![Datasets tab](./media/end-user-related/power-bi-related-dataset.png)
 
-アイコンを選び、 **[関連するコンテンツ]** ペインを開きます。
+Select the icon to open the **Related content** pane.
 
-![Power BI のコンテンツ ビューの上部にある [関連するコンテンツ] ペイン](media/end-user-related/power-bi-dataset.png)
+![Related content pane opens on top of Power BI content view](media/end-user-related/power-bi-dataset.png)
 
-ここからは、関連するコンテンツに対する操作を直接実行できます。 たとえば、ダッシュボード名またはレポート名を選んで開きます。  一覧のダッシュボードで、[ダッシュボードを他のユーザーと共有する](../collaborate-share/service-share-dashboards.md)アイコンや、ダッシュボードの **[設定]** ウィンドウを開くアイコンを選びます。 レポートで、[Excel での分析](../collaborate-share/service-analyze-in-excel.md)、[名前の変更](../create-reports/service-rename.md)、[詳細情報の取得](end-user-insights.md)などのアイコンを選びます。  
+From here, you can take direct action on the related content. For example, select a dashboard or report name to open it.  For any dashboard in the list, select an icon to [share the dashboard with others](../collaborate-share/service-share-dashboards.md) or to open the **Settings** window for the dashboard. For a report, select an icon to [analyze in Excel](../collaborate-share/service-analyze-in-excel.md), [rename](../create-reports/service-rename.md), or [get insights](end-user-insights.md).  -->
 
 ## <a name="limitations-and-troubleshooting"></a>制限事項とトラブルシューティング
-* "関連の表示" が表示されない場合は、代わりにそのアイコンを探します ![[関連の表示] アイコン](./media/end-user-related/power-bi-view-related-icon-new.png)。 アイコンを選び、 **[関連するコンテンツ]** ペインを開きます。
+* "関連の表示" が表示されない場合は、代わりにアイコン ![関連の表示アイコン](./media/end-user-related/power-bi-view-related-icon-new.png) を探してください。 アイコンを選び、 **[関連するコンテンツ]** ペインを開きます。
 * レポートの関連するコンテンツを開くには、[[読み取りビュー]](end-user-reading-view.md) を表示している必要があります。
 * 関連するコンテンツの機能は、ストリーミング データセットには機能しません。
 

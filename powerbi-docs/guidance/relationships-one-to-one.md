@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136260"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668415"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一対一のリレーションシップのガイダンス
 
@@ -82,7 +82,7 @@ ms.locfileid: "91136260"
 
 レポート作成者は、 **[フィールド]** ペインで、次の 2 つのテーブルの製品関連フィールドを確認できます:**Product**、**Product Category**。
 
-![[フィールド] ペインに展開された両方のテーブルが表示されています。列はフィールドとして表示されます。](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
+![[フィールド] ペインに、展開された両方のテーブルが表示されています。列はフィールドとして表示され、Product と Product category が強調表示されています。](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
 
 両方のテーブルのフィールドをテーブル ビジュアルに追加するとどうなるかを見てみましょう。 この例では、**SKU** 列のソースは **Product** テーブルです。
 
@@ -112,7 +112,7 @@ ms.locfileid: "91136260"
 
     この例では、レポート作成者は、 **[フィールド]** ペインで **Product** という名前の 1 つのテーブルを確認できるようになりました。 これには、すべての製品関連フィールドが含まれます。
 
-    ![[フィールド] ペインに展開された両方のテーブルが表示されています。列はフィールドとして表示されます。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
+    ![[フィールド] ペインに、展開された両方のテーブルが表示されています。列はフィールドとして表示され、Product が強調表示されています。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
 3. **欠損値の置換**:2 番目のクエリに一致しない行が含まれている場合、そこから導かれる列には NULL が表示されます。 必要に応じて、NULL をトークン値に置き換えることを検討してください。 欠損値の置換は、レポート作成者が列の値でフィルター処理またはグループ化を行う場合に特に重要になります。レポートのビジュアルに空白が表示される可能性があるためです。
 
     次のテーブル ビジュアルでは、製品 SKU CL-02 のカテゴリが _[Undefined]_ になっていることがわかります。 このクエリでは、null カテゴリがこのトークン テキスト値に置き換えられました。
@@ -123,7 +123,7 @@ ms.locfileid: "91136260"
 
     この例では、レポート作成者は次の 2 つのレベルを持つ階層を使用できるようになりました:**Category**、**Product**。
 
-    ![[フィールド] ペインに展開された両方のテーブルが表示されています。列はフィールドとして表示されます。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
+    ![[フィールド] ペインに、展開された両方のテーブルが表示されています。列はフィールドとして表示され、Products が強調表示されています。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
 
 テーブルを分離することがフィールドの整理に役立つ場合でも、やはり 1 つのテーブルに統合することをお勧めします。 代わりに "_表示フォルダー_" を使用することで、引き続きフィールドを整理することができます。
 

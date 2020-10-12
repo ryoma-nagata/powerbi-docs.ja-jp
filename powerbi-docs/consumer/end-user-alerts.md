@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3e34a736148a5d962c1f2d56782d38f31c15b9b6
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049579"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525329"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>チュートリアル:Power BI ダッシュボードでアラートを設定する
 
@@ -86,7 +86,7 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
    
 1. **[アラートの管理]** ウィンドウで、 **[+ アラート ルールの追加]** を選択します。  スライダーが **[オン]** に設定されていることを確認し、アラートのタイトルを指定します。 タイトルは、アラートの内容を簡単に理解するために役立ちます。
    
-   ![アラート管理ウィンドウ](media/end-user-alerts/power-bi-alert-manage.png)
+   ![[アラート ルールの追加] ウィンドウ](media/end-user-alerts/power-bi-alert-manage.png)
 4. 下にスクロールして、アラートの詳細を入力します。  この例では、市場シェアが 40 以上になった場合に 1 日に 1 回通知するアラートを作成します。 アラートは[通知センター](end-user-notification-center.md)に表示されます。 電子メールの送信も設定します。
    
    ![アラート管理ウィンドウ、しきい値の設定](media/end-user-alerts/power-bi-manage-alert-detail.png)
@@ -142,7 +142,7 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 
 ## <a name="tips-and-troubleshooting"></a>ヒントとトラブルシューティング 
 
-* ゲージ、KPI、またはカードに対してアラートを設定できない場合、テナント管理者または IT ヘルプ デスクに問い合わせてください。 ダッシュボードまたは特定の種類のダッシュボード タイルでは、アラートがオフになっているか、使用できないことがあります。
+* ゲージ、KPI、またはカードに対してアラートを設定できない場合、Power BI 管理者または IT ヘルプ デスクに問い合わせてください。 ダッシュボードまたは特定の種類のダッシュボード タイルでは、アラートがオフになっているか、使用できないことがあります。
 * アラートは更新されたデータでのみ動作します。 静的データでは動作しません。 Microsoft が提供する多くのサンプルは、静的なものです。 
 * 共有コンテンツを受け取ったり、表示したりするには、Power BI Pro または Premium ライセンスが必要です。 詳細については、[お使いのライセンスの種類](end-user-license.md)に関するページを参照してください。
 * アラートは、レポートからダッシュボードにピン留めされたストリーミング データセットから作成されたビジュアルに対して設定できます。 **[タイルの追加]**  >  **[カスタム ストリーミング データ]** を使用して、ダッシュボード上に直接作成されたストリーミング タイルにアラートを設定することはできません。

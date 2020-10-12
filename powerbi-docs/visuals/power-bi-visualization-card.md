@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e213107f84f81aef78a52cdb282b70379c7465
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237504"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526827"
 ---
 # <a name="create-card-visualizations"></a>カード視覚エフェクトを作成する
 
@@ -102,7 +102,8 @@ Q&A 質問ボックスは、カードの作成時に使用できるもう 1 つ�
 5. カードが希望どおりになるまで書式設定オプションの探索を続けます。 
 
 ## <a name="considerations-and-troubleshooting"></a>考慮事項とトラブルシューティング
-質問ボックスがまったく表示されない場合は、システム管理者またはテナント管理者に問い合わせてください。    
+
+質問ボックスがまったく表示されない場合は、Power BI 管理者に問い合わせてください。
 
 ## <a name="next-steps"></a>次の手順
 [Power BI の複合グラフ](power-bi-visualization-combo-chart.md)

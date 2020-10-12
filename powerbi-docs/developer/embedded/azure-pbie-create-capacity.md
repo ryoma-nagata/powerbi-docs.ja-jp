@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 99943f30aa0c31223eae2058aff8b4d34d49bf1d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204823"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748864"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal での Power BI Embedded 容量の作成
 
@@ -26,11 +26,11 @@ ms.locfileid: "88204823"
 
 * **Azure サブスクリプション:** [Azure 無料試用版](https://azure.microsoft.com/free/)にアクセスし、アカウントを作成してください。
 
-* **Azure Active Directory:** お使いのサブスクリプションは Azure Active Directory (Azure AD) テナントに関連付けられている必要があります。 また、***そのテナントのアカウントで Azure にサインインする必要があります***。 Microsoft アカウントはサポートされていません。 詳細については、「[認証とユーザーのアクセス許可](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)」を参照してください。
+* **Azure Active Directory:** お使いのサブスクリプションは Azure Active Directory (Azure AD) テナントに関連付けられている必要があります。 また、***そのテナントのアカウントで Azure にサインインする必要があります***。 Microsoft アカウントはサポートされていません。 詳細については、「[認証とユーザーのアクセス許可](/azure/analysis-services/analysis-services-manage-users)」を参照してください。
 
 * **Power BI テナント:** ご利用の Azure AD テナントの少なくとも 1 つのアカウントを Power BI に登録しておく必要があります。
 
-* **リソース グループ:** 既にあるリソース グループを使用するか、[新しく作成](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)します。
+* **リソース グループ:** 既にあるリソース グループを使用するか、[新しく作成](/azure/azure-resource-manager/resource-group-overview)します。
 
 ## <a name="create-a-capacity"></a>容量を作成する
 
@@ -46,17 +46,17 @@ Power BI Embedded 容量を作成する前に、少なくとも一度、Power BI
 
 4. 必須情報を入力し、 **[確認および作成]** を選択します。
 
-    ![Azure portal で新しい容量を作成するために入力するフィールドのスクリーンショット。](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    ![スクリーンショットには、Azure portal で新しい容量を作成するための、Power BI Embedded ページの [基本] タブが示されています。](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **サブスクリプション** - 容量を作成するサブスクリプション。
 
-    * **リソース グループ** - この新しい容量が含まれるリソース グループ。 既存のリソース グループから選択するか、新しく作成します。 詳細については、「[Azure Resource Manager の概要](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)」を参照してください。
+    * **リソース グループ** - この新しい容量が含まれるリソース グループ。 既存のリソース グループから選択するか、新しく作成します。 詳細については、「[Azure Resource Manager の概要](/azure/azure-resource-manager/resource-group-overview)」を参照してください。
 
     * **リソース名** - 容量のリソース名。
 
     * **場所** - お使いのテナントの Power BI がホストされている場所。 既定の場所はホーム領域ですが、[Multi-Geo オプション](embedded-multi-geo.md)を使用して場所を変更できます。
 
-    * **サイズ** - 必要な [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 詳細については、「[SKU のメモリとコンピューティング能力](/power-bi/developer/embedded/embedded-capacity)」を参照してください。
+    * **サイズ** - 必要な [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 詳細については、「[SKU のメモリとコンピューティング能力](./embedded-capacity.md)」を参照してください。
 
     * **Power BI 容量管理者** - 容量の管理者。
         >[!NOTE]
@@ -114,7 +114,7 @@ Power BI Embedded 容量コマンドでは、バージョン 2.3.1 以降の Azu
 
 ### <a name="create-a-capacity-with-azure-cli"></a>Azure CLI で容量を作成する
 
-[az Power BI embedded-capacity create](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) コマンドを使用し、容量を作成します。
+[az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) コマンドを使用し、容量を作成します。
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -126,7 +126,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Azure CLI で容量を削除する
 
-Azure CLI を使用して容量を削除するには、[az powerbi embedded-capacity delete](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) コマンドを使用します。
+Azure CLI を使用して容量を削除するには、[az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) コマンドを使用します。
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -135,13 +135,13 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Azure CLI で容量を管理する
 
-[az powerbi](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) ですべての Power BI Embedded Azure CLI コマンドを表示できます。
+[az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) ですべての Power BI Embedded Azure CLI コマンドを表示できます。
 
 # <a name="arm-template"></a>[ARM テンプレート](#tab/ARM-template)
 
 ### <a name="use-resource-manager-template"></a>Resource Manager テンプレートの使用
 
-[Resource Manager テンプレート](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview)は JavaScript Object Notation (JSON) ファイルであり、プロジェクトのインフラストラクチャと構成が定義されています。 このテンプレートでは、デプロイしようとしているものを、それを作成する一連のプログラミング コマンドを記述しなくても記述できる、宣言型の構文を使用しています。 Resource Manager テンプレートの開発に関する詳細を学ぶには、[Resource Manager ドキュメント](https://docs.microsoft.com/azure/azure-resource-manager/)と[テンプレート リファレンス](https://docs.microsoft.com/azure/templates/)を参照してください。
+[Resource Manager テンプレート](/azure/azure-resource-manager/templates/overview)は JavaScript Object Notation (JSON) ファイルであり、プロジェクトのインフラストラクチャと構成が定義されています。 このテンプレートでは、デプロイしようとしているものを、それを作成する一連のプログラミング コマンドを記述しなくても記述できる、宣言型の構文を使用しています。 Resource Manager テンプレートの開発に関する詳細を学ぶには、[Resource Manager ドキュメント](/azure/azure-resource-manager/)と[テンプレート リファレンス](/azure/templates/)を参照してください。
 
 Azure サブスクリプションをお持ちでない場合は、開始する前に[無料](https://azure.microsoft.com/free/)アカウントを作成してください。
 
@@ -209,7 +209,7 @@ Azure サブスクリプションをお持ちでない場合は、開始する�
 }
 ```
 
-1 つの Azure リソースがテンプレートで定義されます。[Microsoft.PowerBIDedicated/capacities Az](https://docs.microsoft.com/azure/templates/microsoft.powerbidedicated/allversions) - Power BI Embedded 容量の作成。
+1 つの Azure リソースがテンプレートで定義されます。[Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) - Power BI Embedded 容量の作成。
 
 ### <a name="deploy-the-template"></a>テンプレートのデプロイ
 
@@ -219,20 +219,20 @@ Azure サブスクリプションをお持ちでない場合は、開始する�
 
 2. 必須情報を入力し、 **[確認および作成]** を選択します。
 
-    ![Azure portal で新しい容量を作成するために入力するフィールドのスクリーンショット。](media/azure-pbie-create-capacity/arm-template.png)
+    ![スクリーンショットには、Azure portal で新しい容量を作成するための [Create a Power BI Embedded capacity]\(Power BI Embedded の容量を作成する\) ページの [基本] タブが示されています。](media/azure-pbie-create-capacity/arm-template.png)
 
     * **サブスクリプション** - 容量を作成するサブスクリプション。
 
-    * **リソース グループ** - この新しい容量が含まれるリソース グループ。 既存のリソース グループから選択するか、新しく作成します。 詳細については、「[Azure Resource Manager の概要](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)」を参照してください。
+    * **リソース グループ** - この新しい容量が含まれるリソース グループ。 既存のリソース グループから選択するか、新しく作成します。 詳細については、「[Azure Resource Manager の概要](/azure/azure-resource-manager/resource-group-overview)」を参照してください。
 
     * **リージョン** - 容量が属するリージョン。
 
     * **名前** - 容量名。
 
-    * **場所** - お使いのテナントの Power BI がホストされている場所。 既定の場所はホーム領域ですが、[Multi-Geo オプション](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+    * **場所** - お使いのテナントの Power BI がホストされている場所。 既定の場所はホーム領域ですが、[Multi-Geo オプション](./embedded-multi-geo.md
 )を使用して場所を変更できます。
 
-    * **SKU** - 必要な [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 詳細については、「[SKU のメモリとコンピューティング能力](/power-bi/developer/embedded/embedded-capacity)」を参照してください。
+    * **SKU** - 必要な [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 詳細については、「[SKU のメモリとコンピューティング能力](./embedded-capacity.md)」を参照してください。
 
     * **管理者** - 容量の管理者。
         >[!NOTE]

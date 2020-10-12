@@ -1,17 +1,17 @@
 ---
 title: データ アナリストのラーニング カタログ
-description: Power BI のすべてのトレーニング オプションを検索する
+description: 最も基本的なものから最も高度なものまで、データ アナリスト向けの Power BI のトレーニング オプションをすべて紹介します
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: f9b7f7f56065f3a27ee2fde3aeecb95a8f19ebdb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 711cb902eed3eee22eb117f9c2fe1f772291671b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527840"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746564"
 ---
 # <a name="data-analyst-learning-catalog"></a>データ アナリストのラーニング カタログ
 

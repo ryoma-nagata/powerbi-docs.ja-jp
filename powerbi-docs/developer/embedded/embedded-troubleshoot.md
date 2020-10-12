@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 245a23f0477b542ecd402a5028cffebe2d1142ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485693"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749071"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>埋め込みアプリケーションのトラブルシューティング
 
@@ -75,27 +75,27 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 さらに調査するには、Fiddler キャプチャが必要になる場合があります。 403 エラーにはいくつかの理由が考えられます。
 
-* ユーザーが共有容量で生成できる埋め込みトークンの量を超えました。 埋め込みトークンを生成するための Azure 容量を購入し、ワークスペースをその容量に割り当てます。 「[Azure Portal での Power BI Embedded 容量の作成](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)」をご覧ください。
+* ユーザーが共有容量で生成できる埋め込みトークンの量を超えました。 埋め込みトークンを生成するための Azure 容量を購入し、ワークスペースをその容量に割り当てます。 「[Azure Portal での Power BI Embedded 容量の作成](/azure/power-bi-embedded/create-capacity)」をご覧ください。
 * Azure AD 認証トークンの有効期限が切れています。
 * 認証されたユーザーがグループ (ワークスペース) に属していません。
 * 認証されたユーザーがグループ (ワークスペース) の管理者ではありません。
-* 認証されたユーザーは、アクセス許可を持っていません。 アクセス許可は [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) を使用して更新できます
+* 認証されたユーザーは、アクセス許可を持っていません。 アクセス許可は [refreshUserPermissions API](/rest/api/power-bi/users/refreshuserpermissions) を使用して更新できます
 * Authorization ヘッダーが正しく記載されていない可能性があります。 入力ミスがないことを確認してください。
 
 場合によっては、GenerateToken を呼び出す前にアプリケーションのバックエンドで認証トークンを更新する必要があります。
 
-    ```
-    GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
-    Host: wabi-us-north-central-redirect.analysis.windows.net
-    ...
-    Authorization: Bearer eyJ0eXAiOi...
-    ...
+```console
+GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
+Host: wabi-us-north-central-redirect.analysis.windows.net
+...
+Authorization: Bearer eyJ0eXAiOi...
+...
 
-    HTTP/1.1 403 Forbidden
-    ...
+HTTP/1.1 403 Forbidden
+...
 
-    {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-    ```
+{"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
+```
 
 ## <a name="authentication"></a>認証
 
@@ -113,13 +113,13 @@ Azure Portal または Power BI アプリ登録ページ内のエラー メッ�
 
 Power BI Embedded を使用、および Azure AD Direct Authentication を利用している場合、次のようなログインに関するメッセージを受信する場合があります: ***error:unauthorized_client,error_description:AADSTS70002: 資格情報の検証エラー。AADSTS50053: 正しくないユーザー ID またはパスワードでのサインインの試行回数が上限に達しました***。これは、2018 年 6 月 14 日から直接認証が使われていないことが原因です。
 
-組織または[サービス プリンシパル](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object)にスコープ設定された [Azure AD ポリシー](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)を使用して、直接認証をオンに戻す方法があります。
+組織または[サービス プリンシパル](/azure/active-directory/develop/active-directory-application-objects#service-principal-object)にスコープ設定された [Azure AD ポリシー](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)を使用して、直接認証をオンに戻す方法があります。
 
 このポリシーは、アプリごとにのみ有効にすることをお勧めします。
 
 このポリシーを作成するには、ポリシーを作成して割り当てるディレクトリに対して**グローバル管理者**であることが必要です。 ポリシーを作成して、このアプリケーションの SP に割り当てるのためのサンプル スクリプトを次に示します。
 
-1. [Azure AD プレビュー PowerShell モジュール](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)をインストールします。
+1. [Azure AD プレビュー PowerShell モジュール](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)をインストールします。
 
 2. 次の PowerShell コマンドを 1 行ずつ実行します (結果として、変数 $sp に複数のアプリケーションが含まれていないことを確認します)。
 
@@ -153,7 +153,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 これらのうちどれが原因かを検証するには、次の手順を試します。
 
-* [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets) を実行します。 プロパティ IsEffectiveIdentityRequired は true ですか?
+* [get dataset](/rest/api/power-bi/datasets) を実行します。 プロパティ IsEffectiveIdentityRequired は true ですか?
 * ユーザー名はあらゆる EffectiveIdentity で必須です。
 * IsEffectiveIdentityRolesRequired が true であれば、ロールが必要です。
 * DatasetId はあらゆる EffectiveIdentity で必須です。
@@ -270,46 +270,52 @@ Power BI Desktop から、あるいは powerbi.com 内でファイルを開き�
 
 **[アクセス許可の付与]** を選ぶと ([アクセス許可の付与] ステップ)、次のエラーが発生します。
 
-    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```output
+AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```
 
 解決するには、ポップアップを閉じ、数秒待ってから、もう一度やり直してください。 この操作を数回繰り返す必要があるかもしれません。 アプリケーション登録プロセス完了から外部 API で使用可能になるまでの時間間隔が問題の原因です。
 
 サンプル アプリを実行すると、次のエラー メッセージが表示されます。
 
-    Password is empty. Please fill password of Power BI username in web.config.
+```output
+Password is empty. Please fill password of Power BI username in web.config.
+```
 
 このエラーは、サンプル アプリケーションに挿入されていない唯一の値がユーザー パスワードであるために発生します。 ソリューションの Web.config ファイルを開き、pbiPassword フィールドにユーザーのパスワードを入力します。
 
 "AADSTS50079: ユーザーは多要素認証を使用する必要があります" というエラーが表示された場合。
 
-    Need to use an AAD account that doesn't have MFA enabled.
+MFA が有効になっていない AAD アカウントを使用する必要があります。
 
-#### <a name="using-the-embed-for-your-organization-sample-application"></a>組織サンプル アプリケーションへの埋め込みの使用
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>組織のサンプル アプリケーションでの埋め込みの使用
 
 **組織向けの埋め込み**エクスペリエンスを使用している場合、*PowerBI-Developer-Samples.zip* ファイルを保存して解凍します。 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* フォルダーを開き、*pbi-saas-embed-report.sln* ファイルを実行します。
 
 **組織向けの埋め込み**サンプル アプリを実行すると、次のエラーが発生します。
 
-    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```output
+AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```
 
 このエラーは、Web サーバー アプリケーションに対して指定されているリダイレクト URL が、サンプルの URL と異なるためです。 サンプル アプリケーションを登録する場合は、リダイレクト URL として `https://localhost:13526/` を使います。
 
-登録済みのアプリケーションを編集する場合は、[Azure AD 登録済みアプリケーションの更新](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)方法を確認し、アプリケーションが Web API へのアクセスを提供できるようにします。
+登録済みのアプリケーションを編集する場合は、[Azure AD 登録済みアプリケーションの更新](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)方法を確認し、アプリケーションが Web API へのアクセスを提供できるようにします。
 
-Power BI ユーザー プロファイルまたはデータを編集する場合は、[Power BI データ](https://docs.microsoft.com/power-bi/service-basic-concepts)の編集方法をご覧ください。
+Power BI ユーザー プロファイルまたはデータを編集する場合は、[Power BI データ](../../fundamentals/service-basic-concepts.md)の編集方法をご覧ください。
 
 "AADSTS50079: ユーザーは多要素認証を使用する必要があります" というエラーが表示された場合。
 
-    Need to use an AAD account that doesn't have MFA enabled.
+MFA が有効になっていない AAD アカウントを使用する必要があります。
 
 詳しくは、「[Power BI Embedded に関してよく寄せられる質問](embedded-faq.md)」をご覧ください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
 
 さらなる支援が必要な場合は、[サポートに問い合わせる](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded)か、[Azure portal でサポート チケットを作成](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)し、発生したエラー メッセージを指定してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 詳細については、[よくあるご質問](embedded-faq.md)をご覧ください。
 
-他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
+その他の質問 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。

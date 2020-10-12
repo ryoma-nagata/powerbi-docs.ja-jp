@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856187"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668553"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI モバイル アプリのタイルを調べる
 適用対象:
@@ -57,7 +57,7 @@ ms.locfileid: "90856187"
     ![Power BI に内部ブラウザーでリンクを開くことを許可するダイアログを示すスクリーンショット。](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Power BI アプリ内でリンクを開いた後で、リンクをコピーしたり、代わりにブラウザー ウィンドウで開いたりすることができます。
-7. タイルの基になっている[レポートを開きます](mobile-reports-in-the-mobile-apps.md) ![[レポートを開く] アイコン](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)。
+7. タイルの基になっている[レポートを開きます](mobile-reports-in-the-mobile-apps.md) ![iOS のレポートを開くアイコン](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)。
 8. タイルをフォーカス モードのままにするには、タイル名をタップし、ダッシュボードの名前または **[マイ ワークスペース]** をタップします。
    
     ![[マイ ワークスペース] と [営業案件の分析のサンプル] を指すポインターが示されている、ダッシュボードのスクリーンショット。](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -72,7 +72,7 @@ ms.locfileid: "90856187"
    
    * グラフをタップして、折れ線グラフ、横棒グラフ、縦棒グラフ、またはバブル チャート内のバーを移動し、視覚化の特定の点の値を表示します。  
    * 鉛筆アイコン ![鉛筆アイコン](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) をタップして[タイルに注釈を付け](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)、[スナップショットを共有] アイコン ![[スナップショットを共有] アイコン](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) をタップして他のユーザーと[それを共有](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)します。
-   * [レポートを開く] アイコン ![[レポートを開く] アイコン](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) をタップして、モバイル アプリで[レポートを表示](mobile-reports-in-the-mobile-apps.md)します。
+   * レポートを開くアイコン ![Android のレポートを開くアイコン](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) をタップし、 モバイル アプリで[レポートを表示](mobile-reports-in-the-mobile-apps.md)します。
 3. ダッシュボード作成者がリンクをタイルに追加することもあります。 その場合、縦の省略記号 **[…]** をタップすると、 **[リンクを開く]** ![[リンク] アイコン](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) が表示されます。
    
     ![[リンクを開く] を指す縦の省略記号が示されているダッシュボードのスクリーンショット。](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
@@ -129,4 +129,4 @@ ms.locfileid: "90856187"
 
 ## <a name="next-steps"></a>次の手順
 * [Power BI とは?](../../fundamentals/power-bi-overview.md)
-* わからないことがある場合は、 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。
+* 疑問がある場合 [Power BI コミュニティで質問してみてください](https://community.powerbi.com/)。

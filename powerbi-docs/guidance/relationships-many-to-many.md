@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216696"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668530"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多対多のリレーションシップのガイダンス
 
@@ -48,7 +48,7 @@ ms.locfileid: "86216696"
 > [!NOTE]
 > Power BI Desktop モデル図にテーブル行を表示することはできません。 この記事では、わかりやすい例による説明をサポートするためにこのようにしています。
 
-![モデルでテーブル行が表示されるようになったことを示す図。 行の詳細については、次の段落で説明します。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![モデルでテーブル行が表示されるようになったことを示す図。 4 つのテーブルの行の詳細については、次の段落で説明します。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 4 つのテーブルの行の詳細については、次の箇条書きで説明します。
 
@@ -137,7 +137,7 @@ ms.locfileid: "86216696"
 
 次は、テーブル行を見てみましょう。 **Fulfillment** テーブルでは、注文明細行を複数の出荷で満たせることに注目してください (注文明細行がない場合は、注文がまだ満たされていないことを意味します)。
 
-![モデルでテーブル行が表示されるようになったことを示す図。 行の詳細については、次の段落で説明します。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![モデルでテーブル行が表示されるようになったことを示す図。 2 つのテーブルの行の詳細については、次の段落で説明します。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 2 つのテーブルの行の詳細については、次の箇条書きで説明します。
 
@@ -161,7 +161,7 @@ ms.locfileid: "86216696"
 
 ### <a name="relate-many-to-many-facts-guidance"></a>多対多ファクトの関連付けに関するガイダンス
 
-一般には、多対多カーディナリティを使用して、2 つのファクトの種類のテーブルを直接関連付けることはお勧めしません。 主な理由は、モデルでは、ビジュアル フィルターやグループをレポートする方法に柔軟性がないためです。 この例では、ビジュアルでフィルター処理またはグループ化できるのは、**Order** テーブルの **OrderID** 列でのみとなります。 他の理由は、データの品質に関連します。 データに整合性の問題がある場合、"_弱いリレーションシップ_" の性質により、一部の行がクエリの実行中に省略される可能性があります。 詳細については、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
+一般には、多対多カーディナリティを使用して、2 つのファクトの種類のテーブルを直接関連付けることはお勧めしません。 主な理由は、モデルでは、ビジュアル フィルターやグループをレポートする方法に柔軟性がないためです。 この例では、ビジュアルでフィルター処理またはグループ化できるのは、**Order** テーブルの **OrderID** 列でのみとなります。 他の理由は、データの品質に関連します。 データに整合性の問題がある場合、"_制限付きリレーションシップ_" の性質により、一部の行がクエリの実行中に省略される可能性があります。 詳細については、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
 
 ファクトの種類のテーブルを直接関連付けるのではなく、[スター スキーマ](star-schema.md)設計原則を採用することをお勧めします。 これを行うには、ディメンションの種類のテーブルを追加します。 一対多リレーションシップを使用して、ディメンションの種類のテーブルをファクトの種類のテーブルに関連付けます。 この設計手法は、柔軟なレポート オプションが提供されるため、堅牢です。 これにより、ディメンションの種類の列のいずれかを使用して、フィルター処理またはグループ化を行い、関連するファクトの種類のテーブルを集計することができます。
 
@@ -184,7 +184,7 @@ ms.locfileid: "86216696"
 - レポート ビジュアルでは、ディメンションの種類のテーブルの任意の表示列で、"_フィルター処理またはグループ化_" することができます
 - レポート ビジュアルでは、ファクトの種類のテーブルの任意の表示列を "_集計_" できます
 - **OrderLine**、**OrderDate**、または **Product** テーブルに適用されたフィルターは、両方のファクトの種類のテーブルに伝達されます
-- すべてのリレーションシップは一対多であり、各リレーションシップは "_強いリレーションシップ_" となります。 データ整合性の問題はマスクされません。 詳細については、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
+- すべてのリレーションシップは一対多であり、各リレーションシップは "_制限付きリレーションシップ_" となります。 データ整合性の問題はマスクされません。 詳細については、[Power BI Desktop でのモデル リレーションシップ (リレーションシップの評価)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) に関する記事をご覧ください。
 
 ## <a name="relate-higher-grain-facts"></a>より高い粒度のファクトを関連付ける
 
@@ -228,7 +228,7 @@ IF(
 
 これで、次のマトリックス ビジュアルで、**Target Quantity** メジャーが使用されるようになりました。 これは、毎月のターゲット数量がすべて空白であることを示しています。
 
-![マトリックス ビジュアルで、2020 年のターゲット数量が 270 として表示されていることを示す図。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![2020 年のターゲット数量が 270 で、毎月の値が空白であることが示されているマトリックス視覚エフェクトの図。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>より高い粒度を関連付ける (日付以外)
 

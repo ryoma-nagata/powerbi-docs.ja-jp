@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 05/12/2020
-ms.openlocfilehash: e7b1e33322e0c1174b05a4e7b3617b5d3f7a18e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9faa50cd7e2c4a1a51dfb4a72dda950cf3a396a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231228"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746794"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>サービス プリンシパルとアプリケーション シークレットを使用した Power BI コンテンツの埋め込み
 
@@ -24,21 +24,21 @@ ms.locfileid: "85231228"
 
 >[!NOTE]
 >ご利用のバックエンド サービスは、秘密キーではなく、証明書を使用してセキュリティで保護することをお勧めします。
->* [秘密キーまたは証明書を使用して Azure AD からアクセス トークンを取得する方法の詳細を説明します](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion)。
+>* [秘密キーまたは証明書を使用して Azure AD からアクセス トークンを取得する方法の詳細を説明します](/azure/architecture/multitenant-identity/client-assertion)。
 >* [サービス プリンシパルと証明書を使用した Power BI コンテンツの埋め込み](embed-service-principal-certificate.md)
 
 ## <a name="method"></a>メソッド
 
 埋め込み分析でサービス プリンシパルとアプリケーション ID を使用するには、次の手順を行います。
 
-1. [Azure AD アプリ](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management)を作成します。
+1. [Azure AD アプリ](/azure/active-directory/manage-apps/what-is-application-management)を作成します。
 
     1. Azure AD アプリのシークレットを作成します。
     
     2. アプリの "*アプリケーション ID*" と "*アプリケーション シークレット*" を取得します。
 
     >[!NOTE]
-    >これらの手順については**手順 1** で説明します。 Azure AD アプリの作成の詳細については、[Azure AD アプリの作成](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)に関するページを参照してください。
+    >これらの手順については**手順 1** で説明します。 Azure AD アプリの作成の詳細については、[Azure AD アプリの作成](/azure/active-directory/develop/howto-create-service-principal-portal)に関するページを参照してください。
 
 2. Azure AD セキュリティ グループを作成します。
 
@@ -55,7 +55,7 @@ ms.locfileid: "85231228"
 
 次のいずれかの方法を使用して、Azure AD アプリを作成します。
 * [Microsoft Azure portal でアプリを作成する](https://portal.azure.com/#allservices)
-* [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) を使用してアプリを作成する
+* [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) を使用してアプリを作成する
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Microsoft Azure portal での Azure AD アプリの作成
 
@@ -63,7 +63,7 @@ ms.locfileid: "85231228"
 
 7. **[証明書とシークレット]** タブをクリックします。
 
-     ![アプリケーション ID](media/embed-service-principal/certificates-and-secrets.png)
+     ![スクリーンショットには、Azure portal のアプリに対する [証明書とシークレット] ペインが示されています。](media/embed-service-principal/certificates-and-secrets.png)
 
 
 8. **[新しいクライアント シークレット]** をクリックします
@@ -81,7 +81,7 @@ ms.locfileid: "85231228"
 
 ### <a name="creating-an-azure-ad-app-using-powershell"></a>PowerShell を使用した Azure AD アプリの作成
 
-このセクションには、[PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) を使用して新しい Azure AD アプリを作成するためのサンプル スクリプトが含まれています。
+このセクションには、[PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) を使用して新しい Azure AD アプリを作成するためのサンプル スクリプトが含まれています。
 
 ```powershell
 # The app ID - $app.appid
@@ -111,7 +111,7 @@ Azure AD セキュリティ グループを作成するには、次の 2 つの�
 
 ### <a name="create-a-security-group-manually"></a>セキュリティ グループを手動で作成する
 
-Azure セキュリティ グループを手動で作成するには、「[Azure Active Directory を使用して基本グループを作成してメンバーを追加する](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)」に記載の手順に従ってください。 
+Azure セキュリティ グループを手動で作成するには、「[Azure Active Directory を使用して基本グループを作成してメンバーを追加する](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)」に記載の手順に従ってください。 
 
 ### <a name="create-a-security-group-using-powershell"></a>PowerShell を使用してセキュリティ グループを作成する
 
@@ -121,7 +121,7 @@ Azure セキュリティ グループを手動で作成するには、「[Azure 
 >組織全体に対してサービス プリンシパル アクセスを有効にする場合、この手順をスキップします。
 
 ```powershell
-# Required to sign in as a tenant admin
+# Required to sign in as admin
 Connect-AzureAD
 
 # Create an Azure AD security group
@@ -149,7 +149,7 @@ Azure AD で作成したセキュリティ グループを、 **[開発者向け
 Power BI サービス内でレポート、ダッシュボード、データセットなどの Azure AD アプリのアクセス成果物を有効にするには、メンバーまたは管理者としてのサービス プリンシパル エンティティをご利用のワークスペースに追加します。
 
 >[!NOTE]
->このセクションでは、UI の手順について説明します。 また、[グループ - グループ ユーザー API の追加](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)に関するページを参照して、サービス プリンシパルをワークスペースに追加することもできます。
+>このセクションでは、UI の手順について説明します。 また、[グループ - グループ ユーザー API の追加](/rest/api/power-bi/groups/addgroupuser)に関するページを参照して、サービス プリンシパルをワークスペースに追加することもできます。
 
 1. アクセスを有効にするワークスペースまでスクロールし、 **[その他]** メニューで、 **[ワークスペース アクセス]** を選択します。
 
@@ -179,7 +179,7 @@ Power BI サービス内でレポート、ダッシュボード、データセ�
 >[顧客向けの Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Azure Active Directory でのアプリケーション オブジェクトとサービス プリンシパル オブジェクト](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Azure Active Directory でのアプリケーション オブジェクトとサービス プリンシパル オブジェクト](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[サービス プリンシパルを使用するオンプレミス データ ゲートウェイを使用した行レベルのセキュリティ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

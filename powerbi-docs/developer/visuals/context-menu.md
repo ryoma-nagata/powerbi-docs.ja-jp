@@ -1,20 +1,20 @@
 ---
-title: Power BI ビジュアルの機能とプロパティ
-description: この記事では、Power BI ビジュアルの機能とプロパティについて説明します。
+title: Power BI ビジュアルにコンテキスト メニューを追加する
+description: Power BI の視覚化にコンテキスト メニューを追加する方法について説明します。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 7d24ea77fd73ca6a83176d1b8560c88fa98a8d6b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9e63a1196ddc7557fcf8b2fceb424415a63d4df9
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380757"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748082"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>Power BI ビジュアルにコンテキスト メニューを追加する
 
