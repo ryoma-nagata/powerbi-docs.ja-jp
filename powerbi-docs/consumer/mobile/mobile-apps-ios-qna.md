@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264914"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634414"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS アプリの Q&A 仮想アナリスト - Power BI
 
@@ -52,7 +52,7 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 4. キーワードから **[by]\(グループ化\)** をタップし、候補リストから **[item]\(アイテム\)** をタップして、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
     ![項目別の売上](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. キーワードから **[as]** (として) をタップし、縦棒グラフ アイコン ![グラフ アイコン](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) をタップして、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+5. キーワードから **[as]** (として) をタップし、縦棒グラフ アイコン :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false"::: をタップして、 **[送信]** ![送信アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 6. 表示されたグラフを長押しし、 **[展開]** をタップします。
 
     ![[展開] を指すポインターが示されている、縦棒グラフのスクリーンショット。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -68,7 +68,7 @@ Power BI にサインアップしていない場合は、[無料の試用版に�
 10. キーワードから **[by]\(グループ化\)** をタップし、候補リストから **[time]\(時間\)** をタップして、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
      ![ユニットあたりの平均金額別に上位売上を時系列で示すグラフのスクリーンショット。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. 「**as**」 (として) と入力し、候補リストから折れ線グラフ アイコン ![グラフ アイコン](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) をタップして、 **[送信]** ![[送信] アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
+11. 「**as**」 (として) と入力し、候補リストから折れ線グラフ アイコン :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false"::: をタップして、 **[送信]** ![送信アイコン](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) をタップします。
 
     ![縦棒グラフから折れ線グラフへのポインターが示されている、縦棒と折れ線のグラフのスクリーンショット](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

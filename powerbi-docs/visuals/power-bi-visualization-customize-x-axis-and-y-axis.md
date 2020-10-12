@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 332c1c1b6c3e4888f0177bab284e6b4902987be2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219783"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635679"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X 軸と Y 軸のプロパティをカスタマイズする
 
@@ -75,7 +75,7 @@ X 軸のラベルは、グラフの縦棒の下に表示されます。 現在�
 
 3. **[X 軸]** スライダーを **[オン]** に移動します。
 
-    ![[オン] のスライダーのスクリーンショット。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
+    ![X 軸の [オン] スライダーのスクリーンショット。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
 
     X 軸を **[オフ]** に設定する理由としては、ラベルがなくても視覚化が一目瞭然である場合や、情報量の多いレポート ページにさらに多くのデータを表示するためのスペースが必要な場合などが考えられます。
 
@@ -139,7 +139,7 @@ Y 軸のラベルは、既定では左側に表示されます。 現在、小�
 
 1. **[Y 軸]** スライダーを **[オン]** に移動します。  
 
-    ![[オン] のスライダーのスクリーンショット。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
+    ![Y 軸の [オン] スライダーのスクリーンショット。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
     Y 軸をオフにする理由の 1 つとして、より多くのデータが表示されるように領域を確保することが考えられます。
 

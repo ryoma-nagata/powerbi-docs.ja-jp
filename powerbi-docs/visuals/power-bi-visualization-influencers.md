@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a8a38790b606fa5f700f2b9389ebad5338919d28
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861316"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635288"
 ---
 # <a name="create-key-influencers-visualizations"></a>主要なインフルエンサーの視覚化を作成する
 
@@ -231,13 +231,13 @@ ID の数を見てみましょう。 各顧客の行には、関連付けられ�
 -   右側のウィンドウの散布図は、テーブル内の個別の値に対して住宅の平均価格をプロットしたものです。
 -   バブル内の値は、平年がその標準偏差 (この場合は 30 年) の分増加するときに、住宅の平均価格がどのくらい上昇 (この場合は 1,350 ドル) するかを示しています。
 
-![数値ターゲットのメジャー インフルエンサー](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+![スクリーンショットには、住宅価格の主要インフルエンサーが表示されています。左側にインフルエンサー、右側に散布図が表示されています。](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
 
 ## <a name="interpret-the-results-top-segments"></a>結果を解釈する:上位セグメント
 
 数値ターゲットの上位セグメントは、住宅価格の平均が全体のデータセット内よりも高いグループを示します。 たとえば、次では、**セグメント 1** が、**GarageCars** (ガレージに収まる車の台数) が 2 より大きく、**RoofStyle** がヒップである家で構成されています。 これらの特徴を持つ住宅の平均価格 355,000 ドルが、データ内の全体の平均 180,000 ドルと比較されました。
 
-![数値ターゲットのメジャー インフルエンサー](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
+![スクリーンショットには、住宅価格の上位セグメントが表示されています。](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>メジャーまたは集計された列であるメトリックを分析する
 
@@ -245,19 +245,19 @@ ID の数を見てみましょう。 各顧客の行には、関連付けられ�
 
 集計されていない列の場合、分析は常にテーブル レベルで実行されます。 上の家の価格の例では、**House Price** メトリックを分析して、家の価格の上昇/低下に影響を与えるものを確認しました。 分析はテーブル レベルで自動的に実行されます。 テーブルには家ごとに一意の ID があるので、分析は家のレベルで実行されます。
 
-![メジャー テーブル](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+![スクリーンショットには、住宅価格の例を表レベルで分析する画面が表示されています。](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
 
 メジャーと集計された列の場合は、分析レベルはすぐにはわかりません。 **House Price** が **Average** として集計されている場合は、この平均住宅価格計算のレベルを考慮する必要があります。 それは、近所レベルでの平均住宅価格でしょうか。 それとも、地域レベルでしょうか。
 
 メジャーおよび集計された列は、使用されている **[説明]** のフィールドのレベルで自動的に分析されます。 **[説明]** の次の 3 つのフィールドに関心があるとします: **Kitchen Quality**、**Building Type**、**Air Conditioning**。 **平均住宅価格**は、これら 3 つのフィールドの一意の組み合わせごとに計算されます。 多くの場合、テーブル ビューに切り替えて、どのようなデータが評価されているのかを確認すると役に立ちます。
 
-![メジャー テーブル](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+![スクリーンショットには、3 つの列と平均住宅価格が表示されています。](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
 この分析は非常に要約されているため、回帰モデルで学習できるデータ内のパターンを見つけることは困難です。 より良い結果を得るには、さらに詳細なレベルで分析を実行する必要があります。 住宅レベルで家の価格を分析する場合は、**ID** フィールドを分析に明示的に追加する必要があります。 それでも、家の ID をインフルエンサーと考えたくはありません。 家の ID が大きくなると家の価格が上昇することを学習しても役に立ちません。 このような場合は、 **[配置方法]** フィールド ウェル オプションが役に立ちます。 **[配置方法]** を使用すると、新しいインフルエンサーを探さずに、分析のレベルを設定するために使用するフィールドを追加できます。
 
 **[配置方法]** に **ID** を追加すると視覚エフェクトがどのようになるか見てみましょう。 メジャーを評価するレベルを定義すると、インフルエンサーの解釈は、[集計されていない数値列](#analyze-a-metric-that-is-numeric)の場合とまったく同じになります。
 
-![メジャー テーブル](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+![スクリーンショットには、このセクションで説明している 3 つの列を基準にした、住宅価格の視覚化が示されています。](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
 主要なインフルエンサーの視覚化を使用してメジャーを分析する方法の詳細については、次のチュートリアルをご覧ください。
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: b02d8d61a4580e70a72aa4da66c4409f04b7f6bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 054d7a4f96c83b97fbd5e96e7a3cf66d58a74823
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240088"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635932"
 ---
 # <a name="add-drill-down-support"></a>ドリルダウン サポートの追加
 
@@ -26,7 +26,9 @@ Power BI のドリルダウンの詳細については、[こちら](./../../con
 
 ビジュアルでドリルダウンをサポートするには、`capabilities.json` に "drill-down" という名前の新しいフィールドを追加します。このフィールドには、1 つのプロパティがあります。
 
-    *roles - the name of the dataRole you want to enable drill-down on.
+```json
+*roles - the name of the dataRole you want to enable drill-down on.
+```
 
 > [!NOTE]
 > drill-down dataRole は `Grouping` 型である必要があります。
@@ -222,11 +224,11 @@ button {
 
 Power BI Desktop に階層を作成します。
 
-![新しい階層を作成する](media/drill-down-support/create-new-hierarchy.png)
+![スクリーンショットで、コンテキスト メニューで [新しい階層] が選択されている Power B I Desktop が示されています。](media/drill-down-support/create-new-hierarchy.png)
 
 新しい階層にすべてのカテゴリ列 (H1、H2、H3) を含めます。
 
-![新しい階層を作成する](media/drill-down-support/new-hierarchy.png)
+![スクリーンショットで、新しい階層に追加できるカテゴリ列が示されています。](media/drill-down-support/new-hierarchy.png)
 
 これらの手順が完了すると、次のビジュアルが表示されます。
 
@@ -305,11 +307,11 @@ export class Visual implements IVisual {
 
 ビジュアルにデータを適用します。
 
-![データが適用されたビジュアル](media/drill-down-support/dev-visual-drilldown-data.png)
+![スクリーンショットで、H2 が強調表示された階層が示されています。](media/drill-down-support/dev-visual-drilldown-data.png)
 
 最後の手順では、選択項目とコンテキスト メニューを使用したビジュアルが表示されます。
 
-![ドリルダウン サポートを使用したビジュアル](media/drill-down-support/dev-visual-drilldown-demo.gif)
+![アニメーションで、視覚エフェクトのコンテキスト メニューでのドリルダウンとドリルアップの選択が示されています。](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>マトリックス データ ビュー マッピングにドリルダウン サポートを追加する
 
@@ -389,7 +391,7 @@ export class Visual implements IVisual {
 
 ビジュアルにデータを適用します。
 
-![データが適用されたビジュアル](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
+![スクリーンショットで、列と行の階層およびそのメンバーが選択されている MatrixHierarchy が示されています。](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 マトリックス データ ビュー マッピングを処理するために必要なインターフェイスをインポートします。
 
@@ -614,7 +616,7 @@ public update(options: VisualUpdateOptions) {
 
 最後の手順では、コンテキスト メニューを使用したビジュアルが表示されます。
 
-![ドリルダウン サポートを使用したビジュアル](media\drill-down-support\dev-visual-drilldown-demo.gif)
+![ドリルダウンまたはドリルアップのオプションが含まれる視覚エフェクトのコンテキスト メニューを示すアニメーション。](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>次のステップ
 

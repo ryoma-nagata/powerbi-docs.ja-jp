@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88205106"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635817"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>サンプルの Sales & Marketing アプリをインストールして Power BI サービスで使用する
 
@@ -53,11 +53,11 @@ ms.locfileid: "88205106"
 
 6. 独自のデータに接続するか、サンプル データを使用して探索するか、新しいアプリをカスタマイズして共有するかを選択します。 Microsoft のサンプル アプリを選択したので、探索を開始しましょう。 
 
-    ![サンプル データで探索する](./media/end-user-app-marketing/power-bi-explore-app.png)
+    ![スクリーンショットでは、[新しいアプリを開始する] の [サンプル データで探索する] オプションが赤枠で強調されています。](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  新しいアプリがダッシュボードで開かれます。 アプリ "*デザイナー*" によって、代わりにレポートを開くように、アプリが設定されている可能性があります。  
 
-    ![サンプル データで探索する](./media/end-user-app-marketing/power-bi-app-new.png)
+    ![スクリーンショットは、アプリのダッシュボードを示しています。](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 

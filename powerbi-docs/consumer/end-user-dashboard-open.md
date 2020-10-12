@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286811"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633954"
 ---
 # <a name="view-a-dashboard"></a>ダッシュボードの表示
 
@@ -31,14 +31,11 @@ Power BI Pro または Premium ライセンスは、ダッシュボードの共�
 
 ## <a name="open-a-dashboard"></a>ダッシュボードを開く
 
+ダッシュボードは、Power BI サービスのさまざまな場所から開くことができます。
 
+![ダッシュボード アイコン](media/end-user-dashboard-open/power-bi-dashboard-icon.png)
 
-|              |         |
-|------------|--------------------------------|
-|![ダッシュボード アイコン](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |ダッシュボードは、Power BI サービスのさまざまな場所から開くことができます。 <br> このダッシュボード アイコンを探してください。 ダッシュボードを特定したら、 <br>それを選択して開くと、ダッシュボードが Power BI キャンバスいっぱいに表示されます。 |
-|                    |          |
-
-
+このダッシュボード アイコンを探してください。 ダッシュボードが見つかったら、それを選択して開くと、ダッシュボードが Power BI キャンバスいっぱいに表示されます。
 
 ダッシュボードはナビ ペインにあるすべてのコンテナーで見つけることができます。 
 

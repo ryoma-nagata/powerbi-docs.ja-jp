@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2245861e37a67e023efde1e6fc7c68a551f2944
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: e2ad8867117977cb7f53fbd295a2f560d65b0d76
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814016"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600510"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI での視覚化の種類
 ## <a name="power-bi-visualizations"></a>Power BI の視覚化
@@ -113,7 +113,7 @@ ms.locfileid: "83814016"
 ### <a name="maps-arcgis-maps"></a>マップ:ArcGIS マップ
 ![ArcGIS マップ](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-詳しくは、[Power BI の ArcGIS マップ](power-bi-visualization-arcgis.md)に関するページを参照してください。
+詳しくは、[Power BI の ArcGIS マップ](power-bi-visualizations-arcgis.md)に関するページを参照してください。
 
 ### <a name="maps-filled-maps-choropleth"></a>マップ:塗り分け地図 (コロプレス)
 ![塗り分け地図](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,7 +133,7 @@ ms.locfileid: "83814016"
 
 
 ### <a name="matrix"></a>Matrix
-![マトリックス](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![マトリックス視覚エフェクトのスクリーンショット](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >テーブルは 2 つのディメンションをサポートしていますが、マトリックスでは、複数のディメンションにわたってデータをわかりやすく表示することが簡単にでき、階段状レイアウトがサポートされています。 マトリックスではデータが自動的に集計され、ドリル ダウンを使用できます。 
@@ -232,7 +232,7 @@ Power BI Q&A で自然言語クエリを入力するときに、クエリ内で�
 
 ***ツリー マップでの都市ごとの売り上げ***
 
-ダッシュボードに Q&A フィールドがない場合は、テナント管理者によって無効にされている可能性があります。 
+ダッシュボードに Q&A フィールドがない場合は、Power BI 管理者によって無効にされている可能性があります。 
 
 ![指定されたビジュアルの種類を示す Q&A 質問ボックス](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 

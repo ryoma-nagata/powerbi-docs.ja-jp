@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/21/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 8f0d4c970de1724f47a016cbe063f1cc3df20178
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239934"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635242"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Power BI Q&A 内で質問と用語を理解できるように Q&A を学習させる
 
@@ -61,7 +61,7 @@ Q&A は、Microsoft Office のナレッジを使用して、認識できない�
 
 実際のデータに含まれている用語をボックスに入力します。
 
-![[Q&A の学習]、シノニム、プロンプト](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
+![スクリーンショットでは、Q&A ボックスの一部に "収益" という単語が表示され、テキスト ボックスの横に "収益の参照先" というテキストが表示されています。](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 データ モデルのフィールド以外のものを指定すると、望ましくない結果が生じる可能性があります。
 
@@ -73,7 +73,7 @@ Q&A は、Microsoft Office のナレッジを使用して、認識できない�
 
 条件をボックスに入力します。
 
-![[Q&A の学習]、シノニム、プロンプト](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
+![スクリーンショットでは、Q&A ボックスの一部に "すばらしいパブリッシャー" と表示され、テキスト ボックスの左側には "次を持つパブリッシャー"、右側には "はすばらしいです" というテキストが表示されています。](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 定義できる条件の例を次に示します。
 

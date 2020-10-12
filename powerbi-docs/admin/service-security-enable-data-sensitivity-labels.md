@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: afe81469bc3ce67979602eedbf49b00cf7a3f1e6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 96e51d41c39ccc11d4e3816883193132531bb730
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854315"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374317"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Power BI で秘密度ラベルを有効にする
 
-[Microsoft Information Protection 秘密度ラベル](/microsoft-365/compliance/sensitivity-labels)を Power BI で使用するには、テナント上で有効にする必要があります。 この記事では、Power BI テナント管理者がそれを行う方法について説明します。 Power BI の秘密度ラベルの概要については、「[Power BI における秘密度ラベル](service-security-sensitivity-label-overview.md)」を参照してください。 Power BI で秘密度ラベルを適用する方法の詳細については、「[秘密度ラベルを適用する](./service-security-apply-data-sensitivity-labels.md)」を参照してください。 
+[Microsoft Information Protection 秘密度ラベル](/microsoft-365/compliance/sensitivity-labels)を Power BI で使用するには、テナント上で有効にする必要があります。 この記事では、Power BI 管理者がそれを行う方法について説明します。 Power BI の秘密度ラベルの概要については、「[Power BI における秘密度ラベル](service-security-sensitivity-label-overview.md)」を参照してください。 Power BI で秘密度ラベルを適用する方法の詳細については、「[秘密度ラベルを適用する](./service-security-apply-data-sensitivity-labels.md)」を参照してください。 
 
 秘密度ラベルが有効になっているとき:
 
@@ -34,7 +34,7 @@ ms.locfileid: "90854315"
 
 * Office アプリには[秘密度レベルの表示や適用を行う Office 独自のライセンス要件があります]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels )。
 
-* テナントで秘密度ラベルを有効にする前に、関連するユーザーやグループに対して秘密度ラベルが定義され、公開されていることを確認します。 詳細については、「[機密ラベルとそのポリシーを作成して構成する](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)」を参照してください。
+* テナントで秘密度ラベルを有効にする前に、関連するユーザーやグループに対して秘密度ラベルが定義され、公開されていることを確認します。 詳細については、「[機密ラベルとそのポリシーを作成して構成する](/microsoft-365/compliance/create-sensitivity-labels)」を参照してください。
 
 >[!NOTE]
 > 組織で Azure Information Protection 秘密度ラベルを使用している場合、ラベルを Power BI で使用するには、Microsoft Information Protection 統合ラベル付けプラットフォームに移行する必要があります。 [秘密度ラベルの移行の詳細を確認してください](/azure/information-protection/configure-policy-migrate-labels)。

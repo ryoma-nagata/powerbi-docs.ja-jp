@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11ccbdd3a5586aa10c051e6bfed820ed7f0ae48b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237549"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634686"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI のレポートとダッシュボードのテーブル
 
@@ -157,7 +157,7 @@ ms.locfileid: "85237549"
 
 1. **[コピー]**  >  **[値のコピー]** を選択します。
 
-    ![コピー オプション](media/power-bi-visualization-tables/power-bi-copy-value.png)
+    ![スクリーンショットでは、[コピー] が選択され、[値のコピー] オプションが選択されています。](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
     クリップボードのセルの値が書式設定されていなくても、その値を別のアプリケーションに貼り付けることができます。
 
@@ -169,7 +169,7 @@ ms.locfileid: "85237549"
 
 1. **[コピー]**  >  **[選択範囲のコピー]** を選択します。
 
-    ![コピー オプション](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+    ![スクリーンショットでは、[コピー] が選択され、[選択内容のコピー] オプションが選択されています。](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>テーブルの列の幅を調整する
 

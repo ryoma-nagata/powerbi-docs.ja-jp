@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240433"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635794"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI の Q&A を最適化するためのベスト プラクティス
 データに関する質問に、一般的な語句と自然言語を使用するのは効果的です。 さらに効果的な方法は、データから回答を得ることです。これが、Power BI の Q&A の機能です。
@@ -116,11 +116,11 @@ Power BI は、既定で積極的に数値列を集計するため、"年ごと�
 
 **作業が必要**
 
-![Q&A に複数のテーブルを使用する](media/q-and-a-best-practices/desktop-qna-09.png)
+![スクリーンショットは、Suppliers テーブルに連絡先情報が含まれている様子を示しています。](media/q-and-a-best-practices/desktop-qna-09.png)
 
 **Q&A の準備がてきている**
 
-![Q&A に複数のテーブルを使用する](media/q-and-a-best-practices/desktop-qna-10.png)
+![スクリーンショットには 2 つのテーブルが表示されています。1 つは仕入先用で、もう 1 つは連絡先用です。](media/q-and-a-best-practices/desktop-qna-10.png)
 
 ### <a name="pivot-to-eliminate-property-bags"></a>プロパティ バッグを排除するピボット
 
@@ -134,7 +134,7 @@ Power BI は、既定で積極的に数値列を集計するため、"年ごと�
 
 **Q&A の準備がてきている**
 
-![Q&A に複数のテーブルを使用する](media/q-and-a-best-practices/desktop-qna-12.png)
+![スクリーンショットには、Age、MartialStatus、City、および Gender の各プロパティを持つ 4 つの列が表示され、複数の顧客の値が表示されています。](media/q-and-a-best-practices/desktop-qna-12.png)
 
 ### <a name="union-to-eliminate-partitioning"></a>結合してパーティション分割を排除する
 
@@ -148,7 +148,7 @@ Power BI は、既定で積極的に数値列を集計するため、"年ごと�
 
 **Q&A の準備がてきている**
 
-![Q&A に複数のテーブルを使用する](media/q-and-a-best-practices/desktop-qna-14.png)
+![スクリーンショットには、2 つのテーブルが表示されています。一方のテーブルには、ツアー用の書籍と著者の情報が含まれていて、もう一方のテーブルには、ツアーに関連付けられている都市名が含まれています。](media/q-and-a-best-practices/desktop-qna-14.png)
 
 ### <a name="split-formatted-columns"></a>書式設定された列の分割
 
@@ -160,7 +160,7 @@ Power BI は、既定で積極的に数値列を集計するため、"年ごと�
 
 **Q&A の準備がてきている**
 
-![Q&A に複数のテーブルを使用する](media/q-and-a-best-practices/desktop-qna-16.png)
+![スクリーンショットにはテーブルが表示され、顧客名の列と住所 (フル表記) の列がある以外に、住所を番地、市区町村、国に分けた 3 つの列が表示されています。](media/q-and-a-best-practices/desktop-qna-16.png)
 
 同様に、人のフルネームの列がある場合、ユーザーが名前の一部を使用して質問したい場合に備えて、**First Name** (姓) と**Last Name** (名) の列を追加します。 
 
@@ -175,7 +175,7 @@ Power BI は、既定で積極的に数値列を集計するため、"年ごと�
 
 **Q&A の準備がてきている**
 
-![Q&A に複数のテーブルを使用する](media/q-and-a-best-practices/desktop-qna-18.png)
+![スクリーンショットには、2 つのテーブルが表示されています。1 つは曲名とジャンルのテーブルで、もう 1 つは作曲者のテーブルです。](media/q-and-a-best-practices/desktop-qna-18.png)
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>非正規化して非アクティブなリレーションシップを削除する
 

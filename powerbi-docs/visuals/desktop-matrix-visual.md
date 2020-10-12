@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e96431aaa17b1ae79d940d768a7e160e402c0af3
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354710"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635863"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI でマトリックスの視覚エフェクトを作成する
 
@@ -206,7 +207,7 @@ ms.locfileid: "85354710"
 
 Web サイト URL が含まれる列またはメジャーがある場合は、条件付き書式を使用して、それらの URL をアクティブ リンクとしてフィールドに適用できます。 このオプションは、書式設定ペインの **[条件付き書式]** カードの下にあります。
 
-![選択されている行を示すフィルター カード](media/desktop-matrix-visual/power-bi-web-url.png)
+![スクリーンショットでは、書式設定アイコンと [Web URL] の位置関係が矢印で示されています。](media/desktop-matrix-visual/power-bi-web-url.png)
 
 **[Web URL]** を [オン] にし、列の URL として使用するフィールドを選択します。 適用されると、そのフィールド (列) の値はアクティブなリンクになります。 マウス ポインターを移動してリンクを表示し、選択してそのページに移動します。 
 

@@ -10,12 +10,12 @@ ms.date: 05/20/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: ebc402bf317eb99294137260fcd0cd1e9178d9eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e1da5cc99cbc12b9cbcc41544569f8f0ede9590
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237299"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634023"
 ---
 # <a name="collaborate-in-workspaces"></a>ワークスペースで共同作業する
 
@@ -25,7 +25,7 @@ ms.locfileid: "85237299"
 
  自分のワークスペースは Power BI の **[ホーム]** から表示するか、左側にあるナビゲーション ウィンドウから **[ワークスペース]** または **[マイ ワークスペース]** を選択することで表示できます。
 
- ![ナビゲーション ウィンドウに 2 種類のワークスペースが表示されています](media/end-user-workspaces/power-bi-home.png)
+ ![スクリーンショットでは、ナビゲーション ウィンドウに 2 種類のワークスペースが表示されています。](media/end-user-workspaces/power-bi-home.png)
 
 ## <a name="types-of-workspaces"></a>ワークスペースの種類
 **マイ ワークスペース**には、ユーザーが所有および作成するすべてのコンテンツが格納されます。 これは、個人用サンドボックスまたはユーザーのコンテンツの作業領域と考えることができます。 Power BI を使用する多くの*コンシューマー*の場合、**マイ ワークスペース**は空のままです。これは、ジョブに新しいコンテンツの作成が含まれていないためです。 定義上、*コンシューマー*は、他のユーザーが作成したデータを利用し、そのデータを使用してビジネス上の意思決定を行います。 コンテンツを作成することがわかっている場合は、代わりに、[デザイナー向けの Power BI に関する記事](../create-reports/index.yml)を参照することを検討してください。
@@ -34,7 +34,7 @@ ms.locfileid: "85237299"
 
 下の Fig sales ワークスペースには、3 つのレポートと 1 つのダッシュボードが含まれています。 
 
-![ナビゲーション ウィンドウに 2 種類のワークスペースが表示されています](media/end-user-workspaces/power-bi-app-workspace.png)
+![スクリーンショットでは、ワークスペースが [ワークスペース] のメニュー項目に表示されています。ワークスペースには、レポートとダッシュボードが含まれています。](media/end-user-workspaces/power-bi-app-workspace.png)
 
 ## <a name="roles-in-the-workspaces"></a>ワークスペース内のロール
 

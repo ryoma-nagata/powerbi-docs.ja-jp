@@ -1,20 +1,20 @@
 ---
-title: ビジュアルの作成に使用されたデータを表示する
-description: このドキュメントでは、Power BI コンシューマーがビジュアルの作成に使用するデータを "表示" する方法について説明します。
+title: レポートの視覚エフェクトの作成に使用されたデータを表示する
+description: このドキュメントでは、Power BI のビジネス ユーザーがレポートの視覚エフェクトの作成に使用されたデータを "表示" する方法について説明します。
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/28/2020
+ms.date: 10/6/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a48f6aa12a1fd3f3a3dcea39524ed3d51251b062
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536241"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780227"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Power BI レポートでデータを表示する
 
@@ -37,8 +37,12 @@ Power BI のビジュアルは、基礎データセットからのデータを�
 
 4. 方向を変更するには、ビジュアルの右上隅にある縦方向のレイアウト ![レイアウト アイコン](media/end-user-show-data/power-bi-vertical-icon-new.png) を選択します。
    
-   ![ビジュアルとデータの横表示](./media/end-user-show-data/power-bi-horizontal.png)
+   ![ビジュアルとデータの横表示](./media/end-user-show-data/power-bi-show-horizontal.png)
 
-## <a name="next-steps"></a>次の手順
+レポートに戻るには、左上隅にある **[レポートに戻る]** を選択します。 
+
+   ![レポートに戻るためのリンクを示すスクリーンショット。](./media/end-user-show-data/power-bi-back.png)
+
+## <a name="next-steps"></a>次のステップ
 [Power BI レポートのビジュアル](../visuals/power-bi-report-visualizations.md)    
 [Power BI レポート](end-user-reports.md)    

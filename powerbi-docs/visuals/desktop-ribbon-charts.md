@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7f36ada69f1ee98c7392d05eb169947c600774e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221650"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635771"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Power BI のリボン グラフを作成する
 
@@ -24,7 +24,7 @@ ms.locfileid: "85221650"
 
 リボン グラフを作成してデータを視覚化し、ランクが最も高い (最大値の) データ カテゴリをすばやく判断できます。 リボン グラフでは、ランクの変化を効果的に確認できます。各期間を対象に、最高位の範囲 (値) が常に一番上に表示されます。 
 
-![リボン グラフ](media/desktop-ribbon-charts/ribbon-charts-01.png)
+![スクリーンショットには、リボン グラフが表示され、オーディオ、携帯電話、およびその他のカテゴリのデータが、各年度の四半期ごとに表示されています。](media/desktop-ribbon-charts/ribbon-charts-01.png)
 
 > [!NOTE]
 > Power BI を使用する同僚とレポートを共有するには、それぞれのユーザーが個別の Power BI Pro ライセンスを持っているか、レポートが Premium 容量に保存されている必要があります。 [レポートの共有](../collaborate-share/service-share-reports.md)に関するページをご覧ください。
@@ -57,12 +57,12 @@ ms.locfileid: "85221650"
 
 3. リボン グラフには、毎月のランクが表示されます。 ランクが時間の経過と共にどのように変化するかに注意してください。 たとえば、Home カテゴリは、2 月から 3 月の間に 2 位から 5 位に移動しています。
 
-    ![リボン グラフ](media/desktop-ribbon-charts/power-bi-ribbon.png)
+    ![スクリーンショットには、枠線内のデータを使って作成したリボン グラフが表示されています。](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
 ## <a name="format-a-ribbon-chart"></a>リボン グラフを書式設定する
 リボン グラフを作成するとき、 **[視覚化]** ウィンドウの **[書式]** セクションの書式設定オプションを利用できます。 リボン グラフの書式設定オプションは、積み上げ縦棒グラフのそれと似ています。リボンに固有の追加書式設定オプションがあります。
 
-![[視覚化] ウィンドウのリボン テンプレート](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
+![スクリーンショットでは、書式アイコンが選択され、[リボン] 領域が展開されています。](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
 
 リボン グラフのこの書式設定オプションでは、次の項目を調整できます。
 
@@ -77,7 +77,7 @@ ms.locfileid: "85221650"
 
 データ ラベルの書式オプションを設定します。 この例では、テキストの色を白に、表示単位を千に設定しています。
 
-![[視覚化] ウィンドウのリボン テンプレート](media/desktop-ribbon-charts/power-bi-data-labels.png)
+![スクリーンショットは、最終的に書式設定されたリボン グラフを示しています。](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
 ## <a name="next-steps"></a>次の手順
 

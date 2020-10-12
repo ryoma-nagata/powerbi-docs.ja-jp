@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3154becb2f496c0bbb0f84d1c1e7316868251c36
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226036"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374938"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>同僚の Power BI ホーム ページでコンテンツをおすすめに登録する
 
@@ -24,7 +24,7 @@ ms.locfileid: "85226036"
 
 ## <a name="who-can-feature-content"></a>コンテンツをおすすめに登録することができるユーザー
 
-テナントでコンテンツをおすすめに登録する機能を有効にするかどうかは、Power BI テナント管理者が決定します。 管理者は、コンテンツをおすすめに登録することができるユーザーも選択します。 詳細については、[管理ポータル](../admin/service-admin-portal.md#featured-content)に関する記事を参照してください。
+テナントでコンテンツをおすすめに登録する機能を有効にするかどうかは、Power BI 管理者が決定します。 管理者は、コンテンツをおすすめに登録することができるユーザーも選択します。 詳細については、[管理ポータル](../admin/service-admin-portal.md#featured-content)に関する記事を参照してください。
 
 自分が組織内でその責任を持つ選択グループの 1 人である場合は、Power BI Pro ライセンスを持っている必要があります。 ダッシュボードとレポートをおすすめに登録するには、ワークスペース内での管理者ロール、メンバー ロール、または共同作成者ロールを持っている必要があります。 アプリ自体をおすすめに登録するには、ワークスペース内での管理者ロールまたはメンバー ロールを持っている必要があります。 詳細については、「[新しいワークスペースのロール](service-new-workspaces.md#roles-in-the-new-workspaces)」を参照してください。
 
@@ -38,13 +38,13 @@ ms.locfileid: "85226036"
 
 1. ワークスペースの **[ダッシュボード]** または **[レポート]** 一覧で、 **[設定]** アイコンを選択します。
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="レポートの設定アイコン":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="ホーム上の Power BI おすすめコンテンツ":::
 
 2. **[設定]** ペインで、名前を確認または変更します。 必要に応じて、**説明**を追加し、**スナップショット**をアップロードします。 これらは、ユーザーがコンテンツを見つける際に役立つため、便利です。
 
 3. **[おすすめ]** を選択します。
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="おすすめコンテンツの設定":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="ホーム上の Power BI おすすめコンテンツ":::
 
 4. **[保存]** を選択します。
 

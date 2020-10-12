@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59cede1cae716661be8d3796330bde7da44170eb
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274192"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634598"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI の折れ線グラフ
 
@@ -67,11 +67,11 @@ ms.locfileid: "83274192"
 ### <a name="use-two-y-axes"></a>2 つの Y 軸を使用する
 同じグラフで売上合計と合計ユニット数を確認したい場合は、どうしますか。 販売数がユニット数を大幅に上回っている場合、折れ線グラフは使用できません。 実際、合計ユニット数を示す赤色の線はゼロのように見えます。
 
-   ![値の差が大きい](media/power-bi-line-charts/power-bi-diverging.png)
+   ![スクリーンショットでは、Y 軸を 1 つだけ使用した場合に、合計ユニット数が平らに表示され、売上高と比較できなくなる様子が示されています。](media/power-bi-line-charts/power-bi-diverging.png)
 
 それぞれの値の差が大きい場合、その値を 1 つのグラフに表示するには、複合グラフを使用します。 複合グラフの詳細については、「[Power BI の複合グラフ](power-bi-visualization-combo-chart.md)」を参照してください。 以下の例では、2 つ目の Y 軸を追加することで、売上と合計ユニット数を 1 つのグラフに表示しています。 
 
-   ![値の差が大きい](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![スクリーンショットでは、売上高を棒グラフにして Y 軸を左側に表示し、合計ユニット数を折れ線グラフにして Y 軸を右側に表示している様子が示されています。](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>強調表示とクロス フィルター処理
 [フィルター] ウィンドウの使用方法については、「[Power BI でのレポートへのフィルターの追加](../create-reports/power-bi-report-add-filter.md)」をご覧ください。

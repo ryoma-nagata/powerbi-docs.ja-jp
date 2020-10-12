@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9d74733e6baad4f84d52e8bc8749fe0295eedb2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239831"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632827"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Power BI で分解ツリー ビジュアルを作成して表示する
 
@@ -53,7 +53,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 次の手順は、ドリルダウンする 1 つ以上のディメンションを指定することです。 これらのフィールドを **[説明]** バケットに追加します。 ルート ノードの横にプラス記号が表示されることに注意してください。 [+] を選択すると、ドリルダウンするフィールドを選択できます (任意の順序でフィールドをドリルダウンできます)。
 
-![分解ツリー メニュー](media/power-bi-visualization-decomposition-tree/tree-menu.png)
+![スクリーンショットは、プラス アイコンが選択され、[説明] リストのオプションが表示された状態を示しています。](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 **[予測バイアス]** を選択すると、ツリーが展開され、列の値によってメジャーが分割されます。 ドリルダウンする別のノードを選択することで、このプロセスを繰り返すことができます。
 
@@ -61,7 +61,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 最後のレベルのノードを選択すると、データがクロスフィルター処理されます。 前のレベルのノードを選択すると、パスが変更されます。
 
-![分解ツリー メニュー](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
+![アニメーションは、前のレベルからノードを選択した場合に、表示が変更され、対応する子ノードが表示される様子を示しています。](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
 
 他のビジュアルを操作すると、分解ツリーがクロスフィルター処理されます。 結果的にレベル内のノードの順序が変更されることがあります。
 下の例では、[Ubisoft] によってツリーをクロスフィルター処理しています。 パスが更新され、Xbox の売上が先頭から 2 番目に移動し、PlayStation が先頭になります。 
@@ -70,7 +70,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 パスが消失しても、既存のレベル (この場合は [Game Genre]\(ゲームのジャンル\)) はツリーに固定されたままになります。 したがって、[Nintendo] ノードを選択すると、ツリーは自動的に [Game Genre]\(ゲームのジャンル\) まで展開されます。
 
-![分解ツリー メニュー](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
+![アニメーションは、クロス フィルターを選択することで、表示されるノードが変わる様子を示しています。](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
 
 
 ## <a name="ai-splits"></a>AI 分割
@@ -132,11 +132,11 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 AI レベルは、別のビジュアルで分解ツリーをクロスフィルター処理した場合も再計算されます。 下の例では、受注残の割合が最も高いのは [Plant]\(プラント\) #0477 であることがわかります。
 
-![分解ツリーのクロスフィルター処理](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
+![スクリーンショットは、根本原因分析ですべての月が選択されている様子を示しています。](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
 ただし、横棒グラフで **[4 月]** を選択すると、変化の幅が最も大きいのは、 **[Product Type]\(製品の種類\) が [Advanced Surgical]\(高度な手術\)**  になります。 この場合、並べ替えられたのはノードだけでなく、まったく異なる列が選択されています。 
 
-![分解ツリーのクロスフィルター処理](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
+![スクリーンショットは、根本原因分析で 4 月だけが選択されている様子を示しています。](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
 Ai レベルを非 AI レベルのように動作させる場合は、電球を選択して、動作を既定値に戻します。 
 

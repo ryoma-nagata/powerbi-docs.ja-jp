@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354618"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633839"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI における色の書式設定に関するヒントとコツ
 
@@ -129,15 +130,15 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 ## <a name="add-color-to-table-rows"></a>テーブルの行に色を追加する
 テーブルとマトリックスには、色の書式設定に関する多くのオプションが用意されています。 
 
-![既定のテーブル](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+![スクリーンショットは、白と灰色の行が交互に表示された表を示しています。](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
 
 テーブルまたはマトリックスに色を適用する最も簡単な方法の 1 つは、[書式設定] タブを開き、 **[スタイル]** を選択することです。  次の図では、 **[太字ヘッダーの目立つ色の行]** を選択しています。
 
-![既定のテーブル](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+![スクリーンショットは、スタイルとして [太字ヘッダーの目立つ色の行] オプションが選択され、ヘッダー行が黒、他の行が明るい緑と濃い緑で表示されている様子を示しています。](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
 他の色の書式設定オプションを試してみてください。 この図では、 **[列ヘッダー]** の背景色を変更し、 **[値]** (行) の **[背景色]** と **[代替の背景色]** の両方を変更しました。
 
-![既定のテーブル](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
+![スクリーンショットには、[背景色] と [代替の背景色] の値セレクターが表示されています。](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Power BI で元に戻す方法
 他の多くの Microsoft のサービスやソフトウェアと同様に、Power BI には、最後のコマンドを元に戻すための簡単な方法が備わっています。 たとえば、データ ポイントの色または一連のデータ ポイントを変更した場合に、それらが視覚化に表示されるときの色が好みでない場合があります。 そして、前にどの色だったか正確には思い出せないけれども、その色に戻したいことがあります。
@@ -148,7 +149,7 @@ Power BI は、ダッシュボードとレポートをカスタマイズする�
 
 ![下部に [既定値に戻す] が表示されている [書式設定] カード](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>フィードバック
+## <a name="give-us-your-feedback"></a>フィードバックをお寄せください
 共有したいヒントがありますか? そのヒントを是非マイクロソフトまでお送りください。このページに記載することを検討させていただきます。
 
 ## <a name="next-steps"></a>次の手順

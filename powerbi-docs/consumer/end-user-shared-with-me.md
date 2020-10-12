@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/22/2020
+ms.date: 10/5/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ea8bf0ffa3b4b871c26758fd7433525e1eecd3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0b6ccdf2e5caad141ef0c33ae70b9c2f2b604462
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537943"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780168"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>自分と共有されているダッシュボードとレポートを表示する
 
@@ -22,9 +22,9 @@ ms.locfileid: "87537943"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-同僚が **[共有]** ボタンを使用して自分とコンテンツを共有した場合、 **[自分と共有]** コンテナーに表示されます。 このダッシュボードまたはレポートは、 **[自分と共有]** からのみ使用でき、 **[アプリ]** からは使用できません。
+同僚からダッシュボードまたはレポートを共有されると、 **[自分と共有]** コンテナーに表示されます。 同僚からアプリを共有されると、そのアプリは **[アプリ]** コンテナーに表示されます。   
 
-![[共有] アイコン](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
+![[共有] アイコン](./media/end-user-shared-with-me/power-bi-shared-with-me.png)
 
 Amanda による**自分と共有**コンテンツの一覧の説明と、一覧を移動およびフィルター処理する方法のデモンストレーションをご覧ください。 その後、ビデオで説明されている手順に従って、ご自分でやってみてください。 共有されたダッシュボードを表示するには、Power BI Pro ライセンスが必要です。 詳しくは、[Power BI Premium](../admin/service-premium-what-is.md) に関するページをご覧ください。
     
@@ -37,24 +37,10 @@ Amanda による**自分と共有**コンテンツの一覧の説明と、一覧
 
 ## <a name="interact-with-shared-content"></a>共有コンテンツとの対話
 
-*デザイナー*より付与されたアクセス許可に応じて、共有のダッシュボードやレポートと対話するオプションがあります。 これらには、ダッシュボードのコピーの作成、レポートの[読み取りビュー](end-user-reading-view.md)での表示、他の同僚と再共有があります。
-
-![[自分と共有] コンテナー](./media/end-user-shared-with-me/power-bi-shared.png)
-
-### <a name="actions-available-from-the-shared-with-me-container"></a>**[自分と共有]** コンテナーから使用できるアクション
-使用できるアクションは、コンテンツの*デザイナー*によって割り当てられた設定によって異なります。 オプションには次のようなものがあります。
-* 星のアイコンを選択して、[ダッシュボードまたはレポートをお気に入りに追加します](end-user-favorite.md) ![星のアイコン](./media/end-user-shared-with-me/power-bi-star-icon.png)。
-* ダッシュボードまたはレポートを削除する  ![ごみ箱アイコン](./media/end-user-shared-with-me/power-bi-delete-icon.png).
-* 一部のダッシュボードとレポートを再共有することができます。  ![共有アイコン](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [レポートを Excel で開きます](end-user-export.md) ![Excel にエクスポート アイコン](./media/end-user-shared-with-me/power-bi-excel.png) 
-* Power BI によるデータの[分析情報を表示](end-user-insights.md)します ![分析情報アイコン](./media/end-user-shared-with-me/power-bi-insights.png)。
-  
-  > [!NOTE]
-  > EGRC の分類の詳細については、 **[分類]** ボタンを選択するか、「[ダッシュボードのデータの分類](../create-reports/service-data-classification.md)」を参照してください。
-  > 
+"*デザイナー*" より付与されたアクセス許可に応じて、共有のダッシュボードやレポートと対話するオプションがあります。 これらには、ダッシュボードのコピーの作成、サブスクライブ、レポートの[読み取りビュー](end-user-reading-view.md)での表示、他の同僚と再共有があります。 それを開くには、ダッシュボードまたはレポートを選択します。
 
 
-## <a name="search-and-sort-shared-dashboards"></a>共有ダッシュボードの検索と並べ替え
-コンテンツ リストが長い場合は、必要なものを検索するためのオプションがいくつかあります。 検索フィールドを使用するか、日付で並べ替えます。または、 **[所有者]** 列から選択できます。    
+## <a name="search-and-sort-shared-dashboards-and-reports"></a>共有されたダッシュボードとレポートを検索して並べ替える
+**[自分と共有]** コンテンツ リストが長くなった場合、必要なものを検索するためのオプションがいくつかあります。 検索フィールドを使用したり (1)、いずれかの列で並べ替えたり (2)、[フィルター] ペインを使用したりすることができます。 [フィルター] ペインを開くには、右上隅にある **[フィルター]** を選択します。    
 
-![ダッシュボードの所有者と検索](./media/end-user-shared-with-me/power-bi-sort.png)
+![ダッシュボードの所有者と検索](./media/end-user-shared-with-me/power-bi-filter.png)

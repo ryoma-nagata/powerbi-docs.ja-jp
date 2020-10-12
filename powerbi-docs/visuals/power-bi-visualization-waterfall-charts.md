@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e0aa8c5845c7f87f15e9b152bcaa20094e83ade
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237781"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635725"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI のウォーターフォール図
 
@@ -96,7 +96,7 @@ ms.locfileid: "85237781"
 
 1.  **[ストア]**  >  **[担当地域]** を選択します。これにより、 **[詳細]** バケットに **[担当地域]** が追加されます。
 
-    ![[詳細] バケットでのストアの表示](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![[詳細] 領域に「担当地域」が追加された画面のスクリーンショット。](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
     Power BI では、視覚化にデータを追加する目的で **[詳細]** の値が使用されます。 会計月別の増減に寄与した上位 5 個の要素が追加されます。 つまり、たとえば、2 月の場合、データ ポイントが 1 つだけではなく、6 つ与えられます。  
 

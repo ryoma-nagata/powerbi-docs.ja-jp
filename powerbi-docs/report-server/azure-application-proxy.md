@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 60287bfde79c918250037ccc03781e7cb47d6320
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861293"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634230"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Azure アプリケーション プロキシを使用して Power BI Report Server を構成する
 
@@ -201,7 +201,7 @@ KCD を構成するには、コネクタ コンピューターごとに以下の
     - 新しいリダイレクト URL を作成し、 **[種類]**  = **Web** および **[リダイレクト URI]**  = `https://pbirsazureapp-umacontoso2410.msappproxy.net/` でそれを構成します。
     - **[詳細設定]** セクションでは、 **[ログアウト URL]** を `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout` に構成します。
 
-    ![[認証設定]](media/azure-application-proxy/azure-report-server-authentication-1.png)
+    ![スクリーンショットには、[PBIRS 認証] ペイン内の [リダイレクト URI] と [詳細設定] が表示されています。](media/azure-application-proxy/azure-report-server-authentication-1.png)
 
 1. 引き続き、Power BI Report Server アプリケーション用の [アプリの登録] の **[認証]** セクションで、 **[暗黙的な許可]** 、 **[既定のクライアントの種類]** 、および **[サポートされているアカウントの種類]** を次のように構成します。
 
@@ -209,7 +209,7 @@ KCD を構成するには、コネクタ コンピューターごとに以下の
     - **[既定のクライアントの種類]** を **[なし]** に設定します。
     - **[サポートされているアカウントの種類]** を **[この組織のディレクトリ内のアカウントのみ (UmaContoso のみ – シングル テナント)]** に設定します。
 
-    ![[認証設定]](media/azure-application-proxy/azure-report-server-authentication-2.png)
+    ![スクリーンショットには、[PBIRS 認証] ペインと、説明された設定が表示されています。](media/azure-application-proxy/azure-report-server-authentication-2.png)
 
 1. シングル サインオンが設定され、URL `https://pbirsazureapp-umacontoso2410.msappproxy.net` が機能したら、Power BI Report Server でアクセス許可が提供されているアカウントとログインで使用するアカウントが同期されていることを確認する必要があります。
 

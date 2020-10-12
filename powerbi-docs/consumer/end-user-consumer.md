@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 74f6d14ed96e7e33929aafe315965c04b2f78863
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860971"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633977"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>コンシューマー向けの Power BI サービス
 
@@ -24,17 +24,17 @@ ms.locfileid: "90860971"
  
 あらゆる種類のレポート、スプレッドシート、グラフを含むメール、さらに印刷された配布資料が送信されます。 データが増えるにつれて、必要なものをすばやく見つけることが難しくなり、最新の情報を使用していないのではないかと心配になることがあるでしょう。  
  
-![Power BI ダッシュボード](media/end-user-consumer/power-bi-consumer-pipes.png)
+![図は、レポート、グラフ、電子メール、およびスプレッドシートの形式でデータを受信しているコンシューマーを示しています。](media/end-user-consumer/power-bi-consumer-pipes.png)
 
 ## <a name="the-power-bi-service-for-consumers"></a>"*コンシューマー*" 向けの Power BI サービス
 
 Power BI によって仕事が簡単になり、同時にインパクトも増します。 データはすべてチャートとグラフになり、データが視覚化されます。 データの分析情報は、数字や語句から成る長い一覧や表ではなく、データの分析情報についてのストーリーを示す、"***美しく***"、カラフルで説得力のあるビジュアルです。 
 
-![Power BI ダッシュボード](media/end-user-consumer/power-bi-consumer-examples.png)
+![スクリーンショットには、さまざまな種類のグラフを含んだ Power BI レポートが表示されています。](media/end-user-consumer/power-bi-consumer-examples.png)
  
 ブラウザーまたはモバイル デバイスで Power BI サービスを開くだけです。 お客様も同僚も、自動的に更新およびリフレッシュされる、信頼済みの同じダッシュボードとレポートから作業を行うため、常に最新コンテンツで作業できます。   
 
-![Power BI ダッシュボード](media/end-user-consumer/power-bi-funnel.png)
+![図では、複数の形式のデータが Power BI にマージされ、コンピューター画面と携帯用デバイスに表示されています。](media/end-user-consumer/power-bi-funnel.png)
 
 コンテンツは静的ではないため、傾向、分析情報、およびその他のビジネス インテリジェンスを調べることができます。 コンテンツを細かく分けます。自分の言葉を使って質問することもできます。 または、自分から何もしなくても、データによって興味深い分析情報が見つかります。データが変更されるとアラートが送信され、設定したスケジュールに基づいてメールでレポートが送信されます。 任意のデバイスから、クラウドまたはオンプレミスのすべてのデータをいつでも使用できます。 これは、Power BI で実行できることのほんの始まりにしかすぎません。 
 
@@ -56,7 +56,7 @@ Power BI をどのように操作するかは、ご自分の仕事上の役割�
  
 それは変更を保存できないという意味ではありません。保存できます。 ただし、それらの変更が反映されるのは、コンテンツの表示のみです。 また、ボタンをクリックするだけで、簡単に元の既定のビューに戻すことができます。  
 
-![Power BI ダッシュボード](media/end-user-consumer/power-bi-reset.png)
+![スクリーンショットには、[既定値にリセット] ボタンが表示されています。](media/end-user-consumer/power-bi-reset.png)
 
 
 ## <a name="next-steps"></a>次の手順

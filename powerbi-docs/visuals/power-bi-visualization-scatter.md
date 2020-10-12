@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b4a5733e0c4b8617dc93edb1e7fe35a0a76a3338
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238162"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632896"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI での散布図、バブル チャート、およびドット プロット グラフ
 
@@ -143,7 +143,7 @@ ms.locfileid: "85238162"
 
         a. **総売上差異 %** フィールドを**前年の粗利 (%)** に変更します
 
-        ![中央値が追加されたバブル チャートのスクリーンショット。](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+        ![[詳細] で [Gross Margin Last Year percent] が選択されている画面のスクリーンショット。](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
 
         b. [分析] ウィンドウから、 **[対称網掛け]** を追加します。 網掛けから、Hosiery (靴下・下着類) (ピンク色の網掛け領域内の緑のバブル) が店舗の面積あたりの売上よりも粗利を優先する唯一のカテゴリであることがわかります。 
 
@@ -151,7 +151,7 @@ ms.locfileid: "85238162"
 
     - [分析] ウィンドウの調査を続けて、データ内の興味深い洞察を見つけます。 
 
-        ![対称網掛けがあるバブル チャートのスクリーンショット。](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
+        ![[分析] ペインのスクリーンショット。](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>ドット プロット グラフを作成する
 
