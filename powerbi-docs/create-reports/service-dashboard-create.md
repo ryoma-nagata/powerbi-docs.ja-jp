@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 18fae9e7bca385ee10fed90649430a8062054b2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1892af9d943df1f4abf39aa55ae99c5e6ee1b34
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219576"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633425"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>レポートから Power BI ダッシュボードを作成する
 「[Power BI デザイナーのダッシュボードの概要](service-dashboards.md)」を読みました。今度は自分のダッシュボードを作成します。 ダッシュボードを作成するには、さまざまな方法があります。 たとえば、レポートから、何もない状態から、データセットから、または既存のダッシュボードを複製して、ダッシュボードを作成できます。  
@@ -27,7 +27,7 @@ ms.locfileid: "85219576"
 - タイルをピン留めする方法 
 - ダッシュボードとレポートの間を移動する方法 
  
-![ダッシュボード](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![いくつかの視覚エフェクトを表示する Power B I ダッシュボードのスクリーンショット。](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
 > ダッシュボードは、Power BI Desktop ではなく、Power BI サービスの機能です。 ダッシュボードは Power BI モバイル デバイスで作成することはありませんが、そこで[表示および共有する](../consumer/mobile/mobile-apps-view-dashboard.md)ことができます。
@@ -59,7 +59,7 @@ ms.locfileid: "85219576"
     ![OneDrive for Business ウィンドウ](media/service-dashboard-create/power-bi-import.png)
 8. 成功メッセージが表示されたら、 **[x]** を選択して閉じます。
 
-   ![成功メッセージ](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![X が選択された成功メッセージが表示されているスクリーンショット。](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
 > ご存知でしたか? ナビ ペインを絞り込むには、上部の 3 本線のアイコン ![ナビ ペインの表示/非表示アイコン](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png) を選択します。 これにより、レポート自体の領域が増えます。
@@ -77,17 +77,17 @@ ms.locfileid: "85219576"
     ![タイルのポイント](media/service-dashboard-create/power-bi-hover.png)
 4. ここでは新しいダッシュボードを作成しているため、 **[新しいダッシュボード]** オプションを選択して名前を指定します。
 
-    ![ダッシュボードにピン留めダイアログ](media/service-dashboard-create/power-bi-pin-tile.png)
+    ![[ダッシュボードにピン留めする] ウィンドウが表示されているスクリーンショット。](media/service-dashboard-create/power-bi-pin-tile.png)
 5. **[ピン留め]** を選択すると、現在のワークスペースに新しいダッシュボードが作成されます。 **[ダッシュボードにピン留めしました]** というメッセージが表示されたら、 **[ダッシュボードに移動]** を選択します。 レポートの保存を求めるメッセージが表示されたら、 **[保存]** を選択します。
 
-    ![成功メッセージ](media/service-dashboard-create/power-bi-pin-success.png)
+    ![[ダッシュボードに移動] オプションが選択された成功メッセージが表示されているスクリーンショット。](media/service-dashboard-create/power-bi-pin-success.png)
 
     Power BI で新しいダッシュボードが開きます。 1 つのタイルがあります。ピン留めしたばかりの視覚エフェクトです。
 
    ![1 つのタイルを含むダッシュボード](media/service-dashboard-create/power-bi-pinned.png)
 7. タイルを選択してレポートに戻ります。 新しいダッシュボードにさらにいくつかタイルをピン留めします。 **[ダッシュボードにピン留めする]** ウィンドウが表示されたら、 **[既存のダッシュボード]** を選択します。  
 
-   ![ダッシュボードにピン留めダイアログ](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![[既存のダッシュボード] オプションが選択された [ダッシュボードにピン留めする] ウィンドウが表示されているスクリーンショット。](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>レポート ページ全体をダッシュボードにピン留めする
 1 度に 1 つのビジュアルをピン留めするのではなく、[レポート ページ全体を*ライブ タイル*としてピン留め](service-dashboard-pin-live-tile-from-report.md)できます。 やってみましょう。
@@ -102,11 +102,11 @@ ms.locfileid: "85219576"
 
 3. **[ダッシュボードにピン留めする]** ウィンドウが表示されたら、 **[既存のダッシュボード]** を選択します。
 
-   ![ダッシュボードにピン留めダイアログ](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![[既存のダッシュボード] オプションがオンになっている [ライブをピン留めする] ボタンを表示する [ダッシュボードにピン留めする] ウィンドウのスクリーンショット。](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. 成功メッセージが表示されたら、 **[ダッシュボードに移動]** を選択します。 そこに、レポートからピン留めされたタイルが表示されています。 次の例では、レポートの 1 ページ目から 2 つのタイルを、レポートの 2 ページ目から 1 つのライブ タイルをピン留めしています。
 
-   ![ダッシュボード](media/service-dashboard-create/power-bi-dashboard.png)
+   ![この記事の視覚エフェクトを表示する Power B I ダッシュボードのスクリーンショット。](media/service-dashboard-create/power-bi-dashboard.png)
 
 ## <a name="next-steps"></a>次の手順
 これで初めてのダッシュボードを作成できました。 作成したダッシュボードでは、さらに多くの処理を行うことができます。 以下に提案されている記事のいずれかに従うか、ご自分で調査を開始してください。 

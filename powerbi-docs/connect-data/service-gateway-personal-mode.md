@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2c65adfaee96eee61e1494f730b752d12020ab4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236150"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632574"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Power BI で個人用ゲートウェイを使用する
 
@@ -31,13 +31,13 @@ ms.locfileid: "85236150"
 
 |   |オンプレミス データ ゲートウェイ | オンプレミス データ ゲートウェイ (個人用モード) |
 | ---- | ---- | ---- |
-|サポートされているクラウド サービス |Power BI、PowerApps、Azure Logic Apps、Power Automate、Azure Analysis Services、データフロー |Power BI |
-|実行 |ゲートウェイへのアクセス権を持つユーザーによる構成に応じて |Windows 認証の場合はゲートウェイのユーザーとして、他の認証の種類の場合はゲートウェイのユーザーによる構成に応じて |
-|コンピューター管理者としてのみインストールできる |はい |いいえ |
-|ゲートウェイとデータ ソースの一元管理 |はい |いいえ |
-|データをインポートして更新をスケジュールする |はい |はい |
-|DirectQuery のサポート |はい |いいえ |
-|Analysis Services に対する LiveConnect のサポート |はい |いいえ |
+|**サポートされているクラウド サービス** |Power BI、PowerApps、Azure Logic Apps、Power Automate、Azure Analysis Services、データフロー |Power BI |
+|**計** |ゲートウェイへのアクセス権を持つユーザーによる構成に応じて |Windows 認証の場合はゲートウェイのユーザーとして、他の認証の種類の場合はゲートウェイのユーザーによる構成に応じて |
+|**コンピューター管理者としてのみインストールできる** |はい |いいえ |
+|**ゲートウェイとデータ ソースの一元管理** |はい |いいえ |
+|**データをインポートして更新をスケジュールする** |はい |はい |
+|**DirectQuery のサポート** |はい |いいえ |
+|**Analysis Services に対する LiveConnect のサポート** |はい |いいえ |
 
 ## <a name="install-the-on-premises-data-gateway-personal-mode"></a>オンプレミス データ ゲートウェイ (個人用モード) をインストールする
 

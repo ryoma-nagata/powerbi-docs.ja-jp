@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 698abf814b9b93635ba425b2c9d1d30a292714ab
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034361"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599911"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Power BI Desktop で [参照整合性を想定] 設定を適用する
 **DirectQuery** を利用し、データ ソースに接続するとき、 **[参照整合性を想定]** 選択を使用し、より効率的なクエリをデータ ソースに対して実行します。 この機能には基礎となるデータに関していくつかの要件があり、**DirectQuery** の利用時にのみ利用できます。
@@ -39,7 +39,7 @@ ms.locfileid: "86034361"
    ![Orders テーブルと Products テーブルのスクリーンショット。](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
 2. 次の画像では、**Orders[DepotID]** と **Depots[DepotID]** の間に参照整合性がないことに注意してください。一部の *Orders* に関して、**DepotID** が *Null* になっているためです。 そのため、 **[参照整合性を想定]** を *設定しない* でください。
    
-   ![Orders テーブルと Products テーブルのスクリーンショット。](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![Orders テーブルと Depots テーブルのスクリーンショット。](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. 最後になりますが、次のテーブルの **Orders[CustomerID]** と **Customers[CustID]** の間には参照整合性がありません。**CustomerID** には、*Customers* テーブルにはない値がいくつか含まれています (この例では *CustX*)。 そのため、 **[参照整合性を想定]** を *設定しない* でください。
    
    ![Orders テーブルと Customers テーブルのスクリーンショット。](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)

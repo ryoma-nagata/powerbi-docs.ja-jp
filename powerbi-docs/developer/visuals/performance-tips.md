@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: 7ebc02b2c459517957425e78438e12e89dc2e1bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196562"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746080"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>ハイ パフォーマンス Power BI ビジュアルを構築する方法
 この記事では、ビジュアルのレンダリング時に開発者がハイ パフォーマンスを実現する方法について説明します。 
@@ -36,7 +36,7 @@ ms.locfileid: "82196562"
 ### <a name="review-animation-loops"></a>アニメーション ループを確認する
 アニメーション ループで、変更されない要素は再描画しますか? 
 
- - 問題: フレーム間で変更されない要素を描画するのは、時間の浪費です。
+ - 問題:フレーム間で変更されない要素を描画するのは、時間の浪費です。
 
  - 解決方法:フレームを選択的に更新します。 
  
@@ -76,7 +76,7 @@ ms.locfileid: "82196562"
 ### <a name="avoid-dom-manipulation"></a>DOM の操作を回避する 
 DOM の操作を可能な限り制限します。  `prepend()`、`append()`、`after()` などの挿入操作は時間がかかるため、必要な場合以外は使用しないでください。
 
-例:
+次に例を示します。
 
   ```javascript
   for (let i=0; i<1000; i++) { 
@@ -104,13 +104,13 @@ DOM の操作を可能な限り制限します。  `prepend()`、`append()`、`a
 ### <a name="use-canvas-or-webgl"></a>Canvas または WebGL を使用する 
 アニメーションを繰り返し使用する場合は、SVG ではなく **Canvas** または **WebGL** を使用することを検討してください。 SVG とは異なり、これらのオプションを使用すると、コンテンツではなくサイズによってパフォーマンスが決まります。 
 
-その違いの詳細については、「[SVG と Canvas: 選択する方法](https://msdn.microsoft.com/library/gg193983(v=vs.85).aspx)」を参照してください。 
+その違いの詳細については、「[SVG と Canvas: 選択する方法](/previous-versions/windows/internet-explorer/ie-developer/samples/gg193983(v=vs.85))」を参照してください。 
 
 ### <a name="use-requestanimationframe-instead-of-settimeout"></a>setTimeout の代わりに requestAnimationFrame を使用する 
 [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) を使用して画面上のアニメーションを更新する場合は、ブラウザーで別の再描画が呼び出される**前に**、アニメーション関数が呼び出されます。
 
 詳細については、`requestAnimationFrame`を使用したスムーズなアニメーションに関するこの[サンプル](https://testdrive-archive.azurewebsites.net/Graphics/RequestAnimationFrame/Default.html)を参照してください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
-最適化の手法の詳細については、「[Power BI の最適化ガイド](/power-bi/guidance/power-bi-optimization)」を参照してください。
+最適化の手法の詳細については、「[Power BI の最適化ガイド](../../guidance/power-bi-optimization.md)」を参照してください。

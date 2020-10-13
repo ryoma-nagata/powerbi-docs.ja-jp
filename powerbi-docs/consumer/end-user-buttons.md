@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b0b677e67fa15906492fbaa41fcfd456d77bf01
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161792"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633887"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI サービスのボタン
 同僚から受け取ったレポートでボタンに気付き、その使い方を知りたいと思うことがあります。 単語が含まれているものもあれば、矢印やグラフィックスが含まれているものもあります。ドロップダウン メニューまで含まれているものもあります。 この記事では、ボタンを見分け、その使い方を理解する方法について説明します。
@@ -31,11 +31,11 @@ ms.locfileid: "86161792"
 1. 横棒グラフで **[Word]** を選択します。
 1. **[ドリルスルー]** を選択し、 **[マーケット バスケット分析]** を選択します。
 
-    ![[戻る] ボタンのスクリーンショット](media/end-user-buttons/power-bi-drillthrough.png)
+    ![[ドリルスルー] ボタンのスクリーンショット。](media/end-user-buttons/power-bi-drillthrough.png)
 
     **[マーケット バスケット分析]** を選択すると、Power BI で "*マーケット バスケット分析*" レポート ページが開き、移動元ページで行われた選択を利用し、移動先ページに表示される内容がフィルター処理されます。
 
-    ![[戻る] ボタンのスクリーンショット](media/end-user-buttons/power-bi-go-back.png)
+    ![[戻る] ボタンのスクリーンショット。](media/end-user-buttons/power-bi-go-back.png)
 
     これで**マーケットバスケット分析**レポート ページが表示されました。Word 用にフィルター処理されています。 前のページに戻るには、[戻る] ボタンを選択します。 
 
@@ -60,15 +60,15 @@ Power BI サービスでは、2 つの方法でドリルスルーできます。
 
 このドリルスルー ボタンでは "*店舗の詳細*" ページに移動します。 ボタンの上にカーソルを置くとヒントが表示され、店舗と製品の両方を選択する必要があることがわかります。 どちらも 1 つ選択しない限り、ボタンは無効のままです。
 
-![[ドリルスルー] ボタンとカーソルを置いて表示されるヒントのスクリーンショット](media/end-user-buttons/power-bi-drill-two-selections.png)
+![上にヒント表示されたドリルスルー ボタンのスクリーンショット。](media/end-user-buttons/power-bi-drill-two-selections.png)
 
 製品を 1 つ (**Word**)、店舗を 1 つ (**Leo**) 選択したので、ボタンの色が変化し、有効になったことがわかります。
 
-![[ドリルスルー] ボタンとカーソルを置いて表示されるヒントのスクリーンショット](media/end-user-buttons/power-bi-select-both.png)
+![[店舗の詳細にドリルスルーする] ボタンのスクリーンショット。](media/end-user-buttons/power-bi-select-both.png)
 
 [ドリルスルー] ボタンを選択すると、"*店舗*" レポート ページに移動します。 "*店舗*" ページは、今回選択した **Word** と **Leo** でフィルター処理されます。
 
-![[ドリルスルー] ボタンとカーソルを置いて表示されるヒントのスクリーンショット](media/end-user-buttons/power-bi-store.png)
+![店舗レポート ページのスクリーンショット。](media/end-user-buttons/power-bi-store.png)
 
 [ドリルスルー] ボタンには、移動先を選択するためのドロップダウン メニューを含めることもできます。 移動元レポート ページで選択したら、ドリルスルーの移動先レポート ページを選択します。 下の例では、"*マーケット詳細*" レポート ページにドリルスルーするように選択を変更しています。 
 
@@ -78,13 +78,13 @@ Power BI サービスでは、2 つの方法でドリルスルーできます。
 
 [ページの移動] ボタンでは、同じレポート内の別のページに移動します。 レポートをデザインするとき、多くの場合、ストーリーを語る目的で、あるいはレポートの分析情報に導く目的でナビゲーション ボタンを作成します。 下の例では、レポートのデザイン時、レポートの最初のページ (最上位の概要ページ) に移動するためのボタンを各レポートに追加しました。 このレポートにはページがたくさんあるため、このページ ナビゲーション ボタンは役立ちます。
 
-![Team scorecard という名前の [ページの移動] ボタンのスクリーンショット](media/end-user-buttons/power-bi-nav-button.png)
+![[Team scorecard] という名前のページ ナビゲーション ボタンのスクリーンショット。](media/end-user-buttons/power-bi-nav-button.png)
 
 
 ## <a name="qa-buttons"></a>[Q&A] ボタン 
 [Q&A] ボタンを選択すると、Power BI の Q&A エクスプローラー ウィンドウが開きます。 この Q&A ウィンドウはレポート ページの上に表示され、[X] を選択することで閉じることができます。[Q&A に関する詳細はこちらをご覧ください](end-user-q-and-a.md)。
 
-![Team scorecard という名前の [ページの移動] ボタンのスクリーンショット](media/end-user-buttons/power-bi-qna.png)
+![「データについて質問する」というテキストが表示されている Power BI Q&A エクスプローラー ウィンドウのスクリーンショット。](media/end-user-buttons/power-bi-qna.png)
 
 ## <a name="web-url"></a>Web URL
 [Web URL] ボタンでは、新しいブラウザー ウィンドウが開きます。 レポートをデザインするとき、企業 Web サイトにリンクさせる目的でこの種類のボタンを参照ソースとして追加することがあります。あるいは、別のレポートまたはダッシュボードのリンクとして追加することがあります。 下の例では、[Web URL] ボタンをクリックすると、レポートのソース ファイルをダウンロードできます。 

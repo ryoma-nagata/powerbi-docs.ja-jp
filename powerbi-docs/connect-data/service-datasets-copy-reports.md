@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b6f5b1250604f435a49fe6310193eeb80da16763
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236809"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633210"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>他のワークスペースからレポートをコピーする
 
@@ -82,7 +82,7 @@ ms.locfileid: "85236809"
 
 1. [レポート] リスト ビューで、 **[関連の表示]** を選択します。
 
-    ![[関連の表示] アイコン](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
+    ![[アクション] の下の [関連の表示] アイコンが表示されているスクリーンショット。](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
 1. **[関連コンテンツ]** ダイアログ ボックスには、すべての関連項目が表示されます。 このリストでは、データセットは他のものと同じように表示されます。 別のワークスペース内にあるかどうかは判別できません。 これは既知の問題です。
  
@@ -98,7 +98,7 @@ ms.locfileid: "85236809"
 
 2. データセットの一覧で、共有データセットには**削除**アイコンがないことがわかります。 ページを最新の情報に更新するか、別のページに移動して戻ります。 データセットがなくなります。 そうでない場合は、 **[関連の表示]** を確認してください。 ワークスペース内の別のテーブルに関連している可能性があります。
 
-    ![[関連の表示] アイコン](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+    ![データセットと [関連の表示] オプションを表示する関連テーブルの確認のスクリーンショット。](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
     > [!NOTE]
     > このワークスペース内の共有データセットを削除しても、データセットは削除されません。 それに対する参照が削除されるだけです。

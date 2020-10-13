@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 975a7304e61042e408d732aa1c85bfed184f75f5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239148"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632528"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>販売総数が異なる箇所を見つけるために Power BI Desktop に分析情報を適用する (プレビュー)
 
@@ -110,18 +110,20 @@ ms.locfileid: "85239148"
 
 限られた時間では、モデル内の縦棒がすべて調べられるとは限りません。そのため、インパクトが最も大きい縦棒と値が表示される保証はありません。 しかしながら、最も可能性の高い縦棒が最初に調べられるよう、さまざまなヒューリスティックスが採用されています。 たとえば、縦棒をすべて調べた後、次の縦棒/値が販売総数において最もインパクトが大きいと判断されたとします。インパクトの大きい順に上から下に並んでいます。
 
-    Subcategory = Touring Bikes
-    Channel = Direct
-    Subcategory = Mountain Bikes
-    Subcategory = Road Bikes
-    Subcategory = Kids Bikes
-    Channel = Store
+```console
+Subcategory = Touring Bikes
+Channel = Direct
+Subcategory = Mountain Bikes
+Subcategory = Road Bikes
+Subcategory = Kids Bikes
+Channel = Store
+```
 
 この場合、縦棒の順序で次のように出力されます。
 
-    Subcategory: Touring Bikes, Mountain Bikes, Road Bikes (only three listed, with the text including “...amongst others” to indicate that more than three have a significant impact) 
+* Subcategory:Touring Bikes, Mountain Bikes, Road Bikes (only three listed, with the text including “...amongst others” to indicate that more than three have a significant impact) 
 
-    Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
+* Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
 
 ## <a name="considerations-and-limitations"></a>考慮事項と制限事項
 **インサイト**で現在サポートされていないシナリオには、次のようなものがあります。

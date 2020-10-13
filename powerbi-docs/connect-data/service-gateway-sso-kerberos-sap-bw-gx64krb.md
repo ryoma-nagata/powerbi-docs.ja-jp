@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/10/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: d6f43b3ef48946b9206343107767d2a4cb8cdc28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9dc24d853ee363c75eca811d068288bc375b1f88
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237667"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374248"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>gx64krb5 を用いた SAP BW へのシングル サインオン (SSO) に Kerberos を使用する
 
 この記事では、gx64krb5 を使用して Power BI サービスから SSO を有効にするよう SAP BW データ ソースを構成する方法について説明します。
 
+> [!IMPORTANT]
+> SAP では現在、gx64krb5 をサポートしていません。結果として、Microsoft もそのサポートを停止しました。 既存の接続と新規の接続は 2020 年の終わりまで正しく機能しますが、2021 年からは機能しなくなります。 代わりに CommonCryptoLib を使用してください。 
+
 > [!NOTE]
-> [Kerberos SSO の構成](service-gateway-sso-kerberos.md)に関する記事の手順に加えて、この記事の手順を完了することにより、Power BI サービスの SAP BW アプリケーション サーバー ベースのレポートについて SSO ベースの更新を有効にすることができます。 ただし、SNC ライブラリとしては gx64krb5 ではなく CommonCryptoLib を使用することをお勧めします。 SAP では gx64krb5 がサポートされなくなったため、これをゲートウェイ用に構成するのに必要な手順は、CommonCryptoLib と比べてかなり複雑になっています。 CommonCryptoLib を使用して SSO を構成する方法については、[CommonCryptoLib を使用した SSO 用の SAP BW の構成](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md)に関するページを参照してください。 SNC ライブラリとしては、CommonCryptoLib "_または_" gx64krb5 を使用する必要があります。 両方のライブラリの構成手順を行わないでください。
+> [Kerberos SSO の構成](service-gateway-sso-kerberos.md)に関する記事の手順に加えて、この記事の手順を完了することにより、Power BI サービスの SAP BW アプリケーション サーバー ベースのレポートについて SSO ベースの更新を有効にすることができます。 ただし、SNC ライブラリとしては gx64krb5 ではなく CommonCryptoLib を使用することをお勧めします。 SAP では gx64krb5 がサポートされなくなったため、これをゲートウェイ用に構成するのに必要な手順は、CommonCryptoLib と比べてかなり複雑になっています。 CommonCryptoLib を使用して SSO を構成する方法については、[CommonCryptoLib を使用した SSO 用の SAP BW の構成](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md)に関するページを参照してください。 CommonCryptoLib "*または*" gx64krb5 を SNC ライブラリを使用してください。ただし、両方は使用しないでください。 両方のライブラリの構成手順を行わないでください。
 
 このガイドは広範囲に及んでいるため、説明されている手順の一部を既に完了している場合は、それらはスキップしてかまいません。 たとえば、gx64krb5 を使用して SSO 用に SAP BW サーバーを既に構成している場合があります。
 

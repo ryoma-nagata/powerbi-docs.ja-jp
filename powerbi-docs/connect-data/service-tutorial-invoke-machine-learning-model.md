@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a5cfbfe52ec8b4e0d9eec07844a3eaa7f9447ded
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861017"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600408"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>チュートリアル:Power BI での Machine Learning Studio (クラシック) モデルの呼び出し (プレビュー)
 
@@ -45,7 +45,7 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 
 [Azure portal](https://portal.azure.com) にサインインして **[サブスクリプション]** ページに移動します (ナビ ペイン メニューの **[すべてのサービス]** の一覧にあります)。
 
-![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
+![[サブスクリプション] が選択された Azure portal が表示されているスクリーンショット。](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
 モデルの発行に使用した Azure サブスクリプションを選択し、 **[Access 制御 (IAM)]** を選択します。 次に、 **[ロールの割り当ての追加]** を選択してから、 **[閲覧者]** ロールを選択し、Power BI ユーザーを選択します。 完了したら、 **[保存]** を選択します。 次の図は、この手順で選択する項目を示しています。
 
@@ -95,7 +95,7 @@ Power BI から Azure ML モデルにアクセスするには、Azure サブス�
 
 Power Query エディターに、CSV ファイル内のデータのプレビューが表示されます。 コマンドのリボンから **[テーブルの変換]** を選択し、 **[先頭の行を見出しとして使用]** を選択します。  これにより、 _[昇格されたヘッダー数]_ クエリのステップが、右側の **[適用したステップ]** ウィンドウに追加されます。 右側のウィンドウを使用して、クエリ名を "_自動車価格_" などのわかりやすい名前に変更することもできます。
 
-![Azure Portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
+![データのプレビューを表示する Power Query エディターのスクリーンショット。](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
 この例のソース データセットには、'?' に設定された不明な値があります。  これをクリーンアップし、後からエラーが発生しないようにするには、'?' を扱いやすい '0' に置き換えます。  これを行うには、 *[normalized-losses]* 、 *[bore]* 、 *[stroke]* 、 *[compression-ratio]* 、 *[horsepower]* 、 *[peak-rpm]* 、および *[price]* の各列をヘッダーで名前をクリックして選択した後、[列の変換] をクリックし、[値の置換] を選択します。  '?' を ' 0' に置換します。
 

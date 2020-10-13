@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856832"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374892"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI で独自の暗号化キーを使用する
 
@@ -67,7 +67,7 @@ Azure Key Vault は、暗号化キーなどのシークレットを安全に格�
 
 1. **[キーのアクセス許可]** で、 **[キーの折り返しを解除]** および **[キーを折り返す]** を選択します。
 
-    ![PBIX ファイル コンポーネント](media/service-encryption-byok/service-principal.png)
+    ![PBIX ファイルでサービス プリンシパルと暗号化操作を選択する](media/service-encryption-byok/service-principal.png)
 
 1. **[OK]** 、 **[保存]** の順に選択します。
 
@@ -80,7 +80,7 @@ Azure Key Vault は、暗号化キーなどのシークレットを安全に格�
 
 1. **[キーの種類]** では RSA を、**[RSA キー サイズ]** では 4096 を選択します。
 
-    ![PBIX ファイル コンポーネント](media/service-encryption-byok/create-rsa-key.png)
+    ![キーの作成。キーの種類とサイズが強調表示されています](media/service-encryption-byok/create-rsa-key.png)
 
 1. **［作成］** を選択します
 
@@ -90,7 +90,7 @@ Azure Key Vault は、暗号化キーなどのシークレットを安全に格�
 
 1. **[キーを折り返す]** と **[キーの折り返しを解除]** の両方が選択されていることを確認します。 Power BI で BYOK を有効にしたときに使用する **[キー識別子]** をコピーします。
 
-    ![PBIX ファイル コンポーネント](media/service-encryption-byok/key-properties.png)
+    ![プロパティ。キー識別子と許可される操作が強調表示されています](media/service-encryption-byok/key-properties.png)
 
 ### <a name="soft-delete-option"></a>論理的な削除のオプション
 
@@ -114,7 +114,7 @@ BYOK を有効にする前に、次の考慮事項に注意してください。
 
 ### <a name="enable-byok"></a>BYOK を有効にする
 
-BYOK を有効にするには、`Connect-PowerBIServiceAccount` コマンドレットを使用してサインインした、Power BI サービスのテナント管理者である必要があります。 その後、以下の例に示すように、[`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) を使用して BYOK を有効にします。
+BYOK を有効にするには、Power BI 管理者になっている必要があり、`Connect-PowerBIServiceAccount` コマンドレットを使用してサインインしている必要があります。 その後、以下の例に示すように、[`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) を使用して BYOK を有効にします。
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

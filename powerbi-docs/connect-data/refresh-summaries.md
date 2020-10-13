@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 469e2de86d18b9adeb4a7c8aeabeaae1db2a28de
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040226"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600458"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI の更新の概要
 
@@ -53,11 +53,11 @@ Power BI 管理ポータルにある Power BI の**更新の概要**ページで
 
 **[スケジュール]** ビューを選択するには、更新の概要の **[スケジュール]** をクリックします。 [スケジュール] ビューには、その週のスケジュール情報が 30 分ごとの時間帯に分割されて表示されます。 
 
-![[スケジュール] ビュー](media/refresh-summaries/refresh-summaries-02a.jpg)
+![[スケジュールの更新] ページの [スケジュール] タブの大写しが表示されているスクリーンショット。](media/refresh-summaries/refresh-summaries-02a.jpg)
 
 スケジュール ビューは、スケジュールされた更新イベントが適切に配置され、すべての更新が重複なしで完了できるようになっているかどうかを確認したり、時間がかかりすぎてリソースの競合を発生させる更新イベントをスケジュール設定しているかどうかを確認したりする場合に、非常に便利です。 このようなリソースの競合を見つけた場合は、競合や重複が発生しないように更新スケジュールを調整して、スケジュールされた更新を正常に完了できるようにする必要があります。 
 
-![[スケジュール] ビュー](media/refresh-summaries/refresh-summaries-02.jpg)
+![[スケジュールの更新] ページの [スケジュール] タブが表示されているスクリーンショット。](media/refresh-summaries/refresh-summaries-02.jpg)
 
 *[Refresh time booked (minutes)]\(予約済みの更新時間 (分)\)* 列は、関連付けられている各データセットについて最大 60 レコードの平均を計算したものです。 30 分の各時間枠に表示されている数値は、その時間枠に開始するようにスケジュール設定されたすべての更新**と**、"*前の*" 時間枠に開始するように設定されているが、その平均時間が選択した時間枠にまたがっているスケジュールされた更新の分数の合計を計算したものです。
 
@@ -67,7 +67,7 @@ Power BI 管理ポータルにある Power BI の**更新の概要**ページで
 
 このしくみを確認するために、例を見てみましょう。 日曜日の午後 8 時 30 分の時間枠を選択して**詳細**をクリックすると、次のダイアログが表示されます。
 
-![[スケジュール] ビュー](media/refresh-summaries/refresh-summaries-04.jpg)
+![選択した時間の更新の詳細が表示されているスクリーンショット。](media/refresh-summaries/refresh-summaries-04.jpg)
 
 この時間枠には、3 つのスケジュールされた更新イベントが発生します。 
 

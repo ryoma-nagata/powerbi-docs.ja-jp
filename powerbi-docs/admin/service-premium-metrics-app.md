@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ddaafaf175e2cb083e8e8eb494c156f0e9de8e0f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855083"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633162"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics アプリ
 
@@ -61,7 +61,7 @@ ms.locfileid: "90855083"
 
 2 つのシナリオが説明されており、ページの **[シナリオ 1]** または **[シナリオ 2]** を選択すると、レポート ページに表示できます。 
 
-![アクティブ メモリの詳細ページ](media/service-premium-metrics-app/premium-metrics-app-03.png)
+![アクティブ メモリの詳細ページが表示されているスクリーンショット。](media/service-premium-metrics-app/premium-metrics-app-03.png)
 
 各シナリオに関連付けられたトラブルシューティング ガイドには、メトリックの意味が詳しく説明されています。そのため、容量の状態と、問題を軽減するためにできることをよりよく理解できます。 
 
@@ -116,7 +116,7 @@ ms.locfileid: "90855083"
 
 容量にワークロードを完了できる十分なメモリがあるかどうかを判断するには、 **[A: Consumed Memory Percentages]\(A: 消費メモリの割合\)** を確認します。これはアクティブに処理されていているため、削除できないデータセットによって消費されているメモリを表します。 黒い点線によって傾向が強調表示されます。 メモリ不足が発生している容量では、同じビジュアルにメモリの傾向線 (黒い点線) が明確に上向きに表示されます。つまり、その時点で、追加のデータセットがメモリに読み込まれない可能性があります。 傾向線 (黒い破線) は、7 日間のデータに基づく成長の傾向を示しています。 
 
-![アクティブ メモリの詳細ページ](media/service-premium-metrics-app/premium-metrics-app-07.png)
+![シナリオ 2 のアクティブ メモリの詳細ページが表示されているスクリーンショット。](media/service-premium-metrics-app/premium-metrics-app-07.png)
 
 #### <a name="diagnosing-scenario-two"></a>シナリオ 2 の診断
 
@@ -267,7 +267,7 @@ ms.locfileid: "90855083"
 
 シナリオ 1 を診断するには、まず調整がメモリ不足によって行われているかどうかを判断します。 これを行うには、次の手順を実行します。
 
-1.    **テーブル A** から目的のデータセットをクリックして選択します。 
+1. **テーブル A** から目的のデータセットをクリックして選択します。 
 
     ![テーブル A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -310,7 +310,7 @@ ms.locfileid: "90855083"
 
 シナリオ 2 を診断するには、まず更新の最大同時実行数に達したことによる調整かどうかを判断します。 これを行うには、次の手順を実行します。
 
-1.    **テーブル A** から目的のデータセットをクリックして選択します。 
+1. **テーブル A** から目的のデータセットをクリックして選択します。 
 
     ![テーブル A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 

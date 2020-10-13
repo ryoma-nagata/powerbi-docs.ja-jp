@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/14/2019
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3ae0a9605391ca1230fb0080490e1ef0eadf3d72
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858488"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599866"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Power BI Desktop で Azure Cost Management コネクタを使用してビジュアルとレポートを作成する
 
@@ -26,6 +26,10 @@ Azure Cost Management コネクタは、Azure での認証に OAuth 2.0 を使�
 > [!NOTE]
 > このコネクタは、以前にリリースされていた [Azure Consumption Insights および Azure Cost Management (ベータ)](desktop-connect-azure-consumption-insights.md) コネクタに置き換わるものです。 前のコネクタで作成されたレポートはすべて、このコネクタを使用して再作成する必要があります。
 
+> [!NOTE]
+> Power BI Desktop 向け Azure Cost Management コネクタの場合、政府向けクラウドに接続できません。 
+
+
 ## <a name="connect-using-azure-cost-management"></a>Azure Cost Management を使用して接続する
 
 Power BI Desktop で **Azure Cost Management コネクタ**を使用するには、次の手順を実行します。
@@ -34,7 +38,7 @@ Power BI Desktop で **Azure Cost Management コネクタ**を使用するには
 2.  データ カテゴリの一覧から **[Azure]** を選択します。
 3.  **[Azure Cost Management]** を選択します。
 
-    ![データを取得](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
+    ![データを取得する](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
 
 4. 表示されるダイアログに、**Microsoft 顧客契約**の場合は**課金プロファイル ID** を、**Enterprise Agreement (EA)** の場合は**加入契約番号**を入力します。 
 
@@ -48,9 +52,9 @@ Power BI Desktop で **Azure Cost Management コネクタ**を使用するには
 3.  メニューの **[設定]** でサイドバーの **[プロパティ]** を選択します。
 4.  **[課金プロファイル]** で **[ID]** をコピーします。 
 5.  **[範囲の選択]** については **[課金プロファイル ID]** を選択し、前の手順の課金プロファイル ID を貼り付けます。 
-6.  月数を入力し、 **[OK]** を選択します。
+6.  月数を入力し、**[OK]** を選択します。
 
-    ![課金 ID を取得する](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
+    ![Azure Cost Management プロパティのスクリーンショット。課金プロファイル ID のスコープを確認できます。](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
 7.  プロンプトが表示されたら、Azure ユーザー アカウントとパスワードを使用してサインインします。 
 
@@ -61,39 +65,39 @@ Enterprise Agreement (EA) アカウントを使用して接続するには、Azu
 
 1.  [Azure portal](https://portal.azure.com/) で、 **[コストの管理と請求]** に移動します。
 2.  ご自分の請求先アカウントを選択します。
-3.  **[概要]** メニューで、 **[請求先アカウント ID]** をコピーします。
+3.  **[概要]** メニューで、**[請求先アカウント ID]** をコピーします。
 4.  **[範囲の選択]** については **[加入契約番号]** を選択し、前の手順の課金プロファイル ID を貼り付けます。 
-5.  月数を入力し、 **[OK]** を選択します。
+5.  月数を入力し、**[OK]** を選択します。
 
-    ![課金 ID を取得する](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
+    ![Azure Cost Management プロパティのスクリーンショット。加入契約番号のスコープを確認できます。](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
 6.  プロンプトが表示されたら、Azure ユーザー アカウントとパスワードを使用してサインインします。 
 
 ## <a name="data-available-through-the-connector"></a>コネクタ経由で使用できるデータ
 
-正常に認証されると、 **[ナビゲーター]** ウィンドウが開き、次の使用できるデータ テーブルが表示されます。
+正常に認証されると、**[ナビゲーター]** ウィンドウが開き、次の使用できるデータ テーブルが表示されます。
 
 
 
-| **テーブル** | **説明** |
+| **Table** | **説明** |
 | --- | --- |
-| **Balance summary (残高の概要)** | Enterprise Agreement (EA) の残高の概要。 |
+| **Balance summary** | Enterprise Agreement (EA) の残高の概要。 |
 | **Billing events** | 新しい請求書やクレジットでの購入などのイベント ログ。Microsoft 顧客契約のみ。 |
 | **Budgets** | 既存の予算目標に対する実際のコストや使用状況を確認できる予算の詳細。 |
 | **Charges** | Azure の使用状況、マーケットプレイスの料金、および別請求の料金についての月レベルの概要。 Microsoft 顧客契約のみ。 |
 | **Credit lots** | 指定された課金プロファイルの Azure クレジット ロット購入の詳細。 Microsoft 顧客契約のみ。 |
-| **Pricesheets** | 指定された課金プロファイルまたは EA の登録に適用されるメーター レート。 |
+| **Pricesheets** | 指定された課金プロファイルまたは EA 登録に適用可能な測定レート。 |
 | **RI charges** | 過去 24 か月の間の、ご利用の予約インスタンスに関連付けられている料金。 |
 | **RI recommendations (shared)** | ご利用のすべてのサブスクリプション上での過去 7 日、30 日、または 60 日の間の使用状況の傾向に基づく、予約インスタンス購入の推奨事項。 |
 | **RI recommendations (single)** | ご利用の 1 つのサブスクリプション上での過去 7 日、30 日、または 60 日の間の使用状況の傾向に基づく、予約インスタンス購入の推奨事項。 |
-| **RI usage details (RI 使用状況の詳細)** | 過去 1 か月の間の既存の予約インスタンスの消費に関する詳細。 |
-| **RI usage summary (RI 使用状況の概要)** | Azure の予約の使用率 (日単位)。 |
+| **RI usage details** | 過去 1 か月の間の既存の予約インスタンスの消費に関する詳細。 |
+| **RI usage summary** | 日次の Azure の予約使用率。 |
 | **Usage details** | EA 登録に対する指定した課金プロファイルの消費量と見積もり料金の内訳。 |
-| **Usage details amortized (償却された使用量の詳細)** | EA 登録に対する指定した課金プロファイルの消費量と見積もられた償却済み料金の内訳。 |
+| **Usage details amortized** | EA 登録に対する指定した課金プロファイルの消費量と見積もられた償却済み料金の内訳。 |
 
 テーブルを選択すると、プレビュー ダイアログが表示されます。 1 つまたは複数のテーブルを選択するには、名前の横にあるボックスをオンにして **[読み込み]** を選択します。
 
-![課金 ID を取得する](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
+![[ナビゲーター] ダイアログ ボックスのスクリーンショット。](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
 
 **[読み込み]** を選択すると、Power BI Desktop にデータが読み込まれます。 
 

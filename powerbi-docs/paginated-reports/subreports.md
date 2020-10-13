@@ -1,6 +1,6 @@
 ---
 title: Power BI のページ分割された レポートでのサブレポート
-description: この記事では、Power BI サービスのページ分割されたレポートでサポートされるデータ ソースについて、および Azure SQL Database データ ソースに接続する方法について学習します。
+description: この記事では、Power BI サービスのページ分割されたレポートでサポートされるデータ ソースについて説明します。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: fbe60bab0d1c8d95cec1a3fda1d4b23fe919ea31
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861385"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746587"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI のページ分割された レポートでのサブレポート
 
@@ -33,7 +33,7 @@ Power BI レポート ビルダーは、コンピューター上のページ分�
 
 サインインすると Power BI レポート ビルダーの **[Power BI サービス]** オプションが、 **[ファイル]** メニューの **[開く]** および **[名前を付けて保存]** オプションとして表示されます。 レポートを保存するための **[Power BI サービス]** オプションを選択した場合は、Power BI レポート ビルダーと Power BI サービスの間にライブ接続が作成されます。 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Power BI サービスから開く":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Power BI へのサインイン":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>ローカル レポートを Power BI サービスに保存する
 
@@ -48,7 +48,7 @@ Power BI レポート ビルダーは、コンピューター上のページ分�
 
 3. **[名前を付けて保存]** ダイアログ ボックスで、ページ分割されたレポートを保存できる Power BI Premium ワークスペースを選択します。  Premium ワークスペースには、名前の横にダイヤモンド形のアイコン ![Premium のダイヤモンド形アイコン](media/subreports/report-builder-premium-diamond.png) が表示されます。
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI サービスの [名前を付けて保存]":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI へのサインイン":::
 
 4. **[保存]** を選択します。
 
@@ -58,7 +58,7 @@ Power BI レポート ビルダーは、コンピューター上のページ分�
 
 1. **[挿入]** のリボンで **[サブレポート]** ボタンを選択するか、レポート キャンバスを右クリックして、 **[挿入]**  >  **[サブレポート]** を選択します。
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="レポートにサブレポートを挿入する":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Power BI へのサインイン":::
 
     **[サブレポートのプロパティ]** ダイアログ ボックスが開きます。  
 

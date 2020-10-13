@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2f663c8e47e9a66ec3f4ee3eb70646239be6126a
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860672"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375007"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI でテンプレート アプリを作成する
 
@@ -21,7 +21,7 @@ Power BI "*テンプレート アプリ*" を利用すれば、Power BI パー�
 
 Power BI のレポートやダッシュボードを作成できる場合、"*テンプレート アプリ ビルダー*" となって、分析コンテンツを作成し、パッケージ化して "*アプリ*" にすることができます。 作成したアプリは、AppSource など、利用できるあらゆるプラットフォームから他の Power BI テナントに配備できます。また、自分の Web サービスで使用するという方法もあります。 ビルダーは保護付きの分析パッケージを作成し、配布できます。
 
-Power BI テナント管理者は、組織においてテンプレート アプリを作成できる人とそれをインストールできる人を管理します。 権限を与えられたこれらのユーザーはテンプレート アプリをインストールし、その後、そのアプリを変更したり、組織内の Power BI 利用者に配布したりできます。
+Power BI 管理者は、組織においてテンプレート アプリを作成できる人とそれをインストールできる人を管理します。 権限を与えられたこれらのユーザーはテンプレート アプリをインストールし、その後、そのアプリを変更したり、組織内の Power BI 利用者に配布したりできます。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -163,7 +163,7 @@ Power Query でパラメーターを使用している場合は、適切に定�
 
     ![[リリース管理] アイコン](media/service-template-apps-create/power-bi-release-management-icon.png)
 
-2. 上記の **[テスト テンプレート アプリを作成する]** セクションでテスト アプリを作成した場合は、 **[リンクの取得]** を選択します (結果として、 **[テスト]** の横にある黄色の点が既に入力されています)。
+2. 上記の **[テンプレート アプリのプロパティを定義する]** セクションでテスト アプリを作成した場合、 **[リンクの取得]** を選択します (結果として、 **[テスト]** の横にある黄色の点が既に入力されています)。
 
     アプリをまだ作成していない場合は、 **[アプリの作成]** を選択します。 これで、テンプレート アプリの作成プロセスに戻ります。
 

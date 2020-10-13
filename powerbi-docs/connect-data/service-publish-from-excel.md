@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81ba595be7262c81cdb68f2a1ed052c45663d7a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 108c7cea815475c98a7529a53b9a177ff5fbf405
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234354"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600147"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Microsoft Excel から Power BI へ発行する
 Microsoft Excel 2016 以降では、Excel ブックのデータに基づいて対話性の高いレポートやダッシュボードを作成できる [Power BI](https://powerbi.microsoft.com) ワークスペースに Excel ブックを直接発行できます。 これにより、分析情報を組織内のユーザーと共有できます。
@@ -44,11 +44,11 @@ Excel では、ローカルの Excel ファイルを発行することがサポ�
 
 **[発行]** を選択する際に、発行先のワークスペースを選択できます。 Excel ファイルが OneDrive for Business に存在する場合は、*マイ ワークスペース*にのみ発行できます。 Excel ファイルがローカル ドライブにある場合は、*マイ ワークスペース*またはアクセス権のある共有ワークスペースに発行できます。
 
-![Power BI へ発行](media/service-publish-from-excel/pbi_choose_workspace.png)
+![Power BI に発行する画面のスクリーンショット。マイ ワークスペースが選択されています。](media/service-publish-from-excel/pbi_choose_workspace.png)
 
 Power BI でブックを取得する方法に関する 2 つのオプションがあります。
 
-![Power BI へ発行](media/service-publish-from-excel/pbi_uploadexport3.png)
+![発行画面のスクリーンショット。マイ ワークスペースが選択されています。](media/service-publish-from-excel/pbi_uploadexport3.png)
 
 発行すると、発行したブックの内容がローカル ファイルとは別の Power BI にインポートされます。 Power BI でファイルを更新した場合は、更新したバージョンを再度発行する必要があります。または、ブックまたは Power BI のデータセットに対するスケジュールされた更新を構成して、データを更新することができます。
 

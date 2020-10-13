@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/21/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: b628502ad5658388065a197c1c722a59dd9ad2b4
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 275a83c8588bb9489361d467c6c6ab458abc86b2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86973389"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635334"
 ---
 # <a name="tutorial-from-excel-workbook-to-stunning-report-in-power-bi-desktop"></a>チュートリアル:Power BI Desktop で Excel ブックから魅力的なレポートを作成する
 
@@ -58,39 +58,39 @@ ms.locfileid: "86973389"
 
 1. **[財務]** テーブルを選択し、 **[データの変換]** を選択します。 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-financial-navigator.png" alt-text="財務サンプル データを表示した Power BI ナビゲーターのスクリーンショット。"::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-financial-navigator.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。"::: 
 
 1. **[販売数]** 列を選択します。 **[ホーム]** タブで、 **[データ型]** を選択し、 **[整数]** を選択します。 **[現在のものを置換]** を選択して、列の型を変更します。 
 
     ユーザーが行うデータ クリーニングの手順で最も頻度が高いのは、データ型の変更です。 この場合、販売数は 10 進数形式です。 0\.2 や 0.5 の販売数は意味がありません。 では、それを整数に変更しましょう。 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-query-whole-number.png" alt-text="10 進数から整数に変更しているときのスクリーンショット。"::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-query-whole-number.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。"::: 
 
 1. **[セグメント]** 列を選択します。 **[変換]** タブで、 **[書式]** 、 **[大文字]** の順に選択します。
 
     さらに、後でグラフにしたときにセグメントを見やすくする必要があります。 では、[セグメント] 列の書式を設定しましょう。 
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-upper-case.png" alt-text="見出しを小文字から大文字に変更しているときのスクリーンショット。":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-upper-case.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. 次に、列名を **[月の名前]** から **[月]** に短縮します。 **[月の名前]** 列をダブルクリックして、列名を **[月]** に変更します。  
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-month-name.png" alt-text="列名を短縮しているときのスクリーンショット。":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-month-name.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. **[製品]** 列で、ドロップダウンを選択し、 **[Montana]** の横にあるボックスをオフにします。 
 
      Montana 製品は先月に製造中止になっていることがわかっているので、混乱を避けるために、このデータをフィルター処理してレポートから除外する必要があります。 
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-montana.png" alt-text="Montana の値を削除しているときのスクリーンショット。":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-montana.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. 各変換が、 **[クエリの設定]** の **[適用したステップ]** の一覧に追加されたことがわかります。
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-query-applied-steps.png" alt-text="[適用したステップ] の一覧のスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-query-applied-steps.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. **[ホーム]** タブに戻り、 **[閉じて適用]** を選択します。 データは、レポートを作成するための準備がほとんど整いました。 
 
     [フィールド] の一覧にシグマ記号が表示されているのがわかりますか? Power BI によって、これらのフィールドが数値であることが検出されました。 さらに、Power BI によって、カレンダー記号が付いたデータ フィールドも示されます。
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-fields-list-sigmas-date.png" alt-text="数値フィールドと日付フィールドを含む [フィールド] の一覧のスクリーンショット。":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-fields-list-sigmas-date.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 ### <a name="extra-credit-write-a-measure-in-dax"></a>追加の手順: DAX でメジャーを作成する
 
@@ -98,11 +98,11 @@ ms.locfileid: "86973389"
 
 1. 左側にある **[データ ビュー]** を選択します。 
  
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-data-view.png" alt-text="[データ ビュー] アイコンのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-data-view.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. **[ホーム]** リボンで、 **[新しいテーブル]** を選択します。 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-new-table.png" alt-text="[新しいテーブル] アイコンのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-new-table.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. 次のメジャーを入力して、2013 年 1 月 1 日から 2014 年 12 月 31 日までのすべての日付を含むカレンダー テーブルを作成します。  
 
@@ -110,15 +110,13 @@ ms.locfileid: "86973389"
 
 2. チェック マークを選択してコミットします。
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-dax-expression.png" alt-text="DAX 式のスクリーンショット。":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-dax-expression.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. 左側にある **[モデル ビュー]** を選択します。 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-model-view.png" alt-text="[モデル ビュー] アイコンのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-model-view.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。" を作成します。  
 
-1. **[Date]** フィールドを財務テーブルからカレンダー テーブルの **[Date]** フィールドにドラッグして、テーブルを結合し、これらの間の "*リレーションシップ*" を作成します。  
-
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-relationship.png" alt-text="[Date] フィールド間のリレーションシップのスクリーンショット。":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-relationship.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 ## <a name="build-your-report"></a>レポートの構築 
 
@@ -126,14 +124,14 @@ ms.locfileid: "86973389"
 
 一度に 1 つずつビジュアルを作成して、最終的なレポートを完成させましょう。 
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-report-by-numbers.png" alt-text="レポートのすべての要素を番号で示したスクリーンショット。":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-report-by-numbers.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 ### <a name="visual-1-add-a-title"></a>ビジュアル 1: タイトルの追加 
 
 1. **[挿入]** リボンで、 **[テキスト ボックス]** を選択します。 "エグゼクティブ サマリ - 財務レポート" と入力します。 
 1. 入力したテキストを選択します。 フォント サイズを 20 にして太字に設定します。 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-title-executive-summary.png" alt-text="タイトルの書式を設定しているときのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-title-executive-summary.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. [視覚化] ウィンドウで、 **[背景]** を **[オフ]** に切り替えます。 
 1. 1 行に収まるようにボックスのサイズを変更します。 
@@ -145,19 +143,19 @@ ms.locfileid: "86973389"
 1. [フィールド] ウィンドウの **[Profit]** フィールドをレポート キャンバスの空白領域にドラッグします。 Power BI では、既定により、縦棒が 1 つある縦棒グラフ (利益) が表示されます。 
 1. **[Date]** フィールドを同じビジュアルにドラッグします。 Power BI によって、縦棒グラフが更新され、2 年分の利益が年別に表示されます。
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-year.png" alt-text="利益縦棒グラフのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-year.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. [視覚化] ウィンドウの **[フィールド]** セクションで、 **[軸]** の値のドロップダウンを選択します。 **[日付]** を **[日付の階層]** から **[日付]** に変更します。
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy.png" alt-text="[日付の階層] から [日付] に変更しているときのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
     Power BI によって、縦棒グラフが更新され、毎月の利益が表示されます。
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-month.png" alt-text="月別の縦棒グラフのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-month.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. [視覚化] ウィンドウで、視覚化の種類を **[折れ線グラフ]** に変更します。 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-profit-date-line-chart.png" alt-text="縦棒から横棒グラフへの変更を示すスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-profit-date-line-chart.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
     以上で、2014 年 12 月が最も利益が多かったことが簡単にわかるようになりました。
 
@@ -170,7 +168,7 @@ ms.locfileid: "86973389"
 
     Power BI によって、各場所の相対的な利益を表すバブルの表示された地図ビジュアルが作成されます。 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-map-visual.png" alt-text="マップ チャートを作成しているときのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-map-visual.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
     ヨーロッパは、北米より好調であるように見えます。 
 
@@ -187,7 +185,7 @@ ms.locfileid: "86973389"
 
 1. 上の 2 つのグラフの下にあるスペースを埋めるのに十分な幅になるように、グラフをドラッグします。
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-clustered-column-chart.png" alt-text="集合縦棒グラフのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-clustered-column-chart.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
     会社は引き続き Paseo 製品に投資し、中小企業と政府のセグメントをターゲットにする必要があるように見えます。  
 
@@ -199,11 +197,11 @@ ms.locfileid: "86973389"
 2. [視覚化] ウィンドウで、 **[スライサー]** を選択します。 
 3. [視覚化] ウィンドウの [フィールド] セクションで、 **[フィールド]** のドロップダウンを選択します。 [四半期] と [日] を削除して、[年] と [月] のみを残します。 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy-trim.png" alt-text="[日付の階層] を変更しているときのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy-trim.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 4. 各年を展開し、ビジュアルのサイズを変更して、すべての月が表示されるようにします。
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="日付の階層スライサーのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 以上で、上司が 2013 年のデータのみを表示するように要求した場合、スライサーを使用して、年を切り替えたり、各年の特定の月に切り替えたりすることができます。 
 
@@ -215,15 +213,13 @@ ms.locfileid: "86973389"
 
 - **[表示]** リボンで、テーマを **[エグゼクティブ]** に変更します。  
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-executive.png" alt-text="[エグゼクティブ] テーマを選択しているときのスクリーンショット。"::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-executive.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。"::: 
 
 **ビジュアルを整理する** 
 
 [視覚化] ウィンドウの **[書式]** タブで、次の変更を行います。
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="[視覚化] ウィンドウの [書式] タブのスクリーンショット。":::
-
-1. ビジュアル 2 を選択します。 **[タイトル]** セクションで、 **[タイトルのテキスト]** を "月別および年別の利益" に変更し、 **[テキスト サイズ]** を **[16 pt]** に変更します。 **[影]** を **[オン]** に切り替えます。 
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。" に変更し、 **[テキスト サイズ]** を **[16 pt]** に変更します。 **[影]** を **[オン]** に切り替えます。 
 
 1. ビジュアル 3 を選択します。 **[マップ スタイル]** セクションで、 **[テーマ]** を **[グレースケール]** に変更します。 **[タイトル]** セクションで、タイトルの **[テキスト サイズ]** を **[16 pt]** に変更します。 **[影]** を **[オン]** に切り替えます。
 
@@ -237,7 +233,7 @@ ms.locfileid: "86973389"
 1. **[図形の書式設定]** ウィンドウの **[線]** セクションで、 **[透明度]** を **[100%]** に変更します。 
 1. **[塗りつぶし]** セクションで、 **[塗りつぶしの色]** を **[テーマの色 5 #6B91C9]** (青) に変更します。 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-color-5.png" alt-text="[テーマの色 5] のスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-color-5.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 1. **[書式]** タブで、 **[背面へ移動]**  >  **[最背面へ移動]** を選択します。 
 1. ビジュアル 1 のテキスト、タイトルを選択し、フォントの色を **[白]** に変更します。 
@@ -252,7 +248,7 @@ ms.locfileid: "86973389"
 
 最終的な洗練されたレポートは次のようになります。  
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-formatted-report.png" alt-text="書式設定された最終的なレポートのスクリーンショット。":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-formatted-report.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 手短に言えば、このレポートは、上司が最も関心のある質問に答えることができます。 
 
@@ -283,7 +279,7 @@ ms.locfileid: "86973389"
 1. [Power BI サービス] > **[選択]** で、 **[個人用ワークスペース]** などの宛先を選択します。
 1. **[Power BI で 'ご利用のファイル名' を開く]** を選択します。
 
-    :::image type="content" source="media/desktop-excel-stunning-report/open-power-bi.png" alt-text="Power BI サービスでレポートを開いたときのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/open-power-bi.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
     完成したレポートがブラウザーに表示されます。
 
@@ -291,7 +287,7 @@ ms.locfileid: "86973389"
 
 1. レポートの上部にある **[共有]** を選択して、レポートを他のユーザーと共有します。
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-share-report.png" alt-text="Power BI サービスからレポートを共有するときのスクリーンショット。":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-share-report.png" alt-text="Power BI サービスの Power BI レポートのスクリーンショット。":::
 
 ## <a name="next-steps"></a>次の手順
 

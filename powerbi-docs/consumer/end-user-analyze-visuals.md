@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
-ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
+ms.openlocfilehash: f5b930ade7e0ae4e58977ba33dc725c6f1e34695
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88168486"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635886"
 ---
 # <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>分析機能を使用してレポート視覚化の変動を解釈する
 
@@ -50,7 +50,7 @@ Power BI によって生成されたすべての分析情報を表示するに�
 
 ウォーターフォール ビジュアルの下部にある小さいアイコンを選択すると、インサイトで散布グラフ、積み上げ縦棒グラフ、またはリボン グラフのいずれかを表示できます。
 
-![分析情報ビジュアルの三つ組み](media/end-user-analyze-visuals/power-bi-options.png)
+![ビジュアルの下部にアイコンが表示されているスクリーンショット。](media/end-user-analyze-visuals/power-bi-options.png)
 
 視覚化と機能に関するフィードバックを送るには、ページの上部にある*上向き親指*と*下向き親指*のアイコンを使用します。  
 
@@ -59,7 +59,7 @@ Power BI によって生成されたすべての分析情報を表示するに�
 
 分析情報は、レポートが読み取りまたは編集ビューの場合に使用でき、データの分析と、レポートに簡単に追加できる視覚化の作成の両方で使用できます。 編集ビューでレポートを開いている場合は、親指アイコンの横にプラス アイコンが表示されます。 プラス アイコンを選択すると、新しい視覚化としてレポートに分析情報を追加できます。 
 
-![分析情報ビジュアルの三つ組み](media/end-user-analyze-visuals/power-bi-add-visual.png)
+![分析情報追加用のプラス アイコンが表示されているスクリーンショット。](media/end-user-analyze-visuals/power-bi-add-visual.png)
 
 ## <a name="details-of-the-results-returned"></a>返される結果の詳細
 

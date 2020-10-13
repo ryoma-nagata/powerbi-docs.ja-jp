@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
-ms.date: 05/29/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 791b5efce0489e837cb75ed1ae6632dcc240fc1c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bd003bd8662a60a67b2bc13f228d165859b38e5c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857590"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374662"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 管理とは
 
@@ -25,7 +25,7 @@ Power BI 管理とは、Power BI の動作を制御する組織全体設定を�
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Power BI に関連する管理者ロール
 
-組織の Power BI を管理するとき、連動するロールがいくつかあります。 ほとんどの管理者ロールは Microsoft 365 管理センターで割り当てられるか、PowerShell を利用して割り当てられます。 Power BI Premium 容量と Power BI Embedded 容量の管理者ロールは、容量の作成時に割り当てられます。 管理者ロールのそれぞれの詳細については、「[管理者ロールについて](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)」を参照してください。 管理者ロールを割り当てる方法については、「[管理者ロールを割り当てる](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide)」を参照してください。
+組織の Power BI を管理するとき、連動するロールがいくつかあります。 ほとんどの管理者ロールは Microsoft 365 管理センターで割り当てられるか、PowerShell を利用して割り当てられます。 Power BI Premium 容量と Power BI Embedded 容量の管理者ロールは、容量の作成時に割り当てられます。 管理者ロールのそれぞれの詳細については、「[管理者ロールについて](/microsoft-365/admin/add-users/about-admin-roles)」を参照してください。 管理者ロールを割り当てる方法については、「[管理者ロールを割り当てる](/microsoft-365/admin/add-users/assign-admin-roles)」を参照してください。
 
 | **管理者の種類** | **管理者のスコープ** | **Power BI タスク** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ Power BI 管理者は主に Power BI 管理ポータルで作業します。 た
 | | データの分類と追跡 |
 | | データ損失防止ポリシー |
 | | 情報ガバナンス |
-| [Azure portal の Azure Active Directory (AAD)](https://aad.portal.azure.com) | Power BI リソースへの条件付きアクセスを構成する |
+| [Azure portal の Azure Active Directory](https://aad.portal.azure.com) | Power BI リソースへの条件付きアクセスを構成する |
 | | Power BI Embedded 容量をプロビジョニングする |
 | [PowerShell コマンドレット](/powershell/power-bi/overview) | スクリプトによってワークスペースと Power BI のその他の側面を管理する |
 | [管理 API と SDK](service-admin-reference.md) | カスタム管理ツールをビルドします。 たとえば、Power BI Desktop では、これらの API を使用して管理に関連するデータに基づくレポートを作成できます。 |
@@ -78,7 +78,7 @@ Power BI 管理者は主に Power BI 管理ポータルで作業します。 た
 Power BI 管理に関連する事柄の基本については、次の記事で詳細をご覧ください。
 
 - [Power BI 管理ポータルを使用する](service-admin-portal.md)
-- [テナントの管理者設定のガイダンス](../guidance/admin-tenant-settings.md)
+- [テナント設定のガイダンス](../guidance/admin-tenant-settings.md)
 - [PowerShell コマンドレットを使用する](/powershell/power-bi/overview)
 - [Power BI 管理のよく寄せられる質問](service-admin-faq.md)
 - [組織のユーザーに Power BI サービスのライセンスを与える](service-admin-licensing-organization.md)

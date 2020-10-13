@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f56acb7859b04f77ca403725740cb7ce472ccb7d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c056a48c78ae2e46ccd6419ad1b9d1e1a6693847
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223054"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598799"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop から Power BI サービスのデータセットに接続する
 
@@ -32,7 +32,7 @@ Power BI の 1 つの課題は、レポート、ダッシュボード、およ�
 
 たとえば、Anna はチームのビジネス アナリストだとします。 アンナは、優れたデータ モデル (多くの場合データセットと呼ばれます) の作成に熟練しています。 Anna はデータセットとレポートを作成し、そのレポートを Power BI サービスで共有できます。
 
-![Power BI サービスに公開する](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
+![Power BI サービスの [発行] ボタンのスクリーンショット。](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
 Anna のレポートとデータセットは誰もが大好きです。 それがトラブルの始まりです。 Anna のチームの全員が、そのデータセットの "*自分のバージョン*" を作成し、自分のレポートをチームと共有しようとします。 そして突然、Power BI サービスのチームのワークスペースに、異なるデータセットに基づく大量のレポートが出現します。 どれが最新のものでしょう。 データセットは同じですか、それともほぼ同じなだけですか。 何が違うのですか。 Power BI サービス ライブ接続機能を使うと、このようなことをすべて改善できます。 次のセクションでは、Anna が発行したデータセットを、他のユーザーが自分のワークスペース内の自分のレポートに使用し、誰もが、同じ検証され確実な発行済みデータセットを使って独自のレポートを作成できるようにする方法を説明します。
 

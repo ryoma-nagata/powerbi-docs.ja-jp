@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4036bb6a2fdc8db7c251a39f5527c54ae1c578b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859913"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600574"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop でカスタム書式設定文字列を使用する
 
 **Power BI Desktop** でカスタム書式設定文字列を使用すると、ビジュアルでのフィールドの表示方法をカスタマイズし、意図したとおりにレポートが表示されるようにすることができます。
 
-![カスタム書式設定文字列の使用](media/desktop-custom-format-strings/custom-format-strings-01.png)
+![書式にカスタムが選択された Power B I Desktop が表示されているスクリーンショット。 ](media/desktop-custom-format-strings/custom-format-strings-01.png)
 
 
 ## <a name="how-to-use-custom-format-strings"></a>カスタム書式設定文字列の使用方法
@@ -31,7 +31,7 @@ ms.locfileid: "90859913"
 
 **[書式]** ドロップダウンから **[カスタム]** を選択すると、よく使用される書式設定文字列の一覧から選択できます。 
 
-![カスタム書式設定文字列の使用](media/desktop-custom-format-strings/custom-format-strings-03.png)
+![カスタム書式の詳細が表示されているスクリーンショット。](media/desktop-custom-format-strings/custom-format-strings-03.png)
 
 
 ## <a name="supported-custom-format-syntax"></a>サポートされているカスタム書式設定構文

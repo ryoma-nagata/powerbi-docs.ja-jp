@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4269ccb5f86a364d2bf4abf89e3184096a368ff3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234698"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633494"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI Q&A を使用してデータを探索しビジュアルを作成する
 
@@ -33,7 +33,7 @@ Power BI サービス (app.powerbi.com) のダッシュボードには 1 つ以�
 
 ダッシュボードの左上隅には Q&A 質問ボックスがあり、ここに自然言語を使って質問を入力します。 Q&A ボックスが表示されませんか。 **コンシューマー向けの Q&A** に関する記事の「[考慮事項とトラブルシューティング](../consumer/end-user-q-and-a.md#considerations-and-troubleshooting)」を参照してください。  Q&A は、入力した用語を認識して、回答を探す場所 (データセット) を見つけ出します。 さらに、オートコンプリート、書き換え、その他のテキストや視覚による支援を使用して質問の作成を助けます。
 
-![Q&A 質問ボックス](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
+![「データについて質問する」というオプションが表示されている Power B I ダッシュボードのスクリーンショット。](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
 
 質問を変更すると、質問に対する回答は、対話型の視覚化と更新として表示されます。
 
@@ -87,7 +87,7 @@ Q&A を使ってデータセットを探索し、レポートとダッシュボ�
 
 2. Q&A 質問ボックスがレポート キャンバスに表示されます。 次の例では、別の視覚エフェクトの上に質問ボックスが表示されています。 これでも問題はありませんが、質問する前にレポートに空のページを追加した方がよい場合があります。
 
-    ![Q&A 質問ボックス](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
+    ![視覚エフェクト上に質問ボックスを表示するキャンバスのスクリーンショット。](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 
 3. 質問ボックスにカーソルを置きます。 入力を進めるにつれて、質問の作成に役立つ候補が表示されます。
 

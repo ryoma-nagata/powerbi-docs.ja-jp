@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878692"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747714"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>チュートリアル:R スクリプトから R ビジュアルにフィルター プロットを作成する
 この記事では、R ビジュアルで R スクリプトを使用してじょうごプロットを作成する方法を順を追って説明します。
@@ -66,11 +66,11 @@ ms.locfileid: "87878692"
 
 1. *capabilities.json* を編集して、文字列 `Values` を `dataset` に置き換えます。 これにより、テンプレート内の "ロール" の名前が置き換えられ、R コード内と同様になります。
 
-   ![事前と事後の比較](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
+   ![json ファイルに対する変更の差分比較のスクリーンショット。](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
 
 1. *(省略可能)* *dependencies.json* を編集して、R スクリプトで必要とされる各 R パッケージのセクションを追加します。 これにより、ビジュアルが初めて読み込まれる場合に、これらのパッケージを自動的にインポートするように Power BI に指示が出されます。
 
-   ![事前と事後の比較](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
+   ![cranPackages の項目にコンテンツが追加されたときの差分比較を表示するスクリーンショット。](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
 
 1. `pbiviz package` コマンドを使用してビジュアルを再パッケージ化してから、それを Power BI にインポートしてみてください。
 
@@ -119,7 +119,7 @@ ms.locfileid: "87878692"
 
 1. UI からの内部パラメーターを含むビジュアル要素の色とサイズをユーザーが制御できるようにするための機能を追加します。
 
-   ![CV02to03](./media/funnel-plot/diagram-two.PNG)
+   ![右側のバージョンにオプションが追加された 2 つのバージョンのツール ウィンドウを表示するスクリーンショット。](./media/funnel-plot/diagram-two.PNG)
 
 1. *capabilities.json* を編集して、`objects` セクションを更新します。 ここでは、各パラメーターの名前、ツールヒント、および種類を定義すると共に、パラメーターを複数のグループに分割することも決定します (この場合は 3 つのグループ)。
 
@@ -274,7 +274,7 @@ ms.locfileid: "87878692"
 
 * 各 R ビジュアルでは、その入力テーブルに `unique` 演算子が適用されます。 複数の同一の行が削除されるのを防ぐには、一意の ID を持つ追加の入力フィールドを追加し、R コードでそれを無視することを検討してください。   
 
-* Power BI アカウントを持っている場合は、`pbiviz package` コマンドを使用して再パッケージ化するのではなく、Power BI サービスを使用してビジュアルを[即座に](/power-bi/developer/visuals/custom-visual-develop-tutorial/)開発してください。
+* Power BI アカウントを持っている場合は、`pbiviz package` コマンドを使用して再パッケージ化するのではなく、Power BI サービスを使用してビジュアルを[即座に](./custom-visual-develop-tutorial.md)開発してください。
 
 ### <a name="html-widgets-gallery"></a>HTML ウィジェット ギャラリー
 次のビジュアルで使用するために、[ HTML ウィジェット ギャラリー](http://gallery.htmlwidgets.org/)でビジュアルを探索します。 作業を簡単にするために、20 を超える対話型の HTML ビジュアを含む[ビジュアル プロジェクト リポジトリ](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)を作成し、その中から選択できるようにしました。
@@ -291,15 +291,15 @@ ms.locfileid: "87878692"
 1. *pbiviz.json* 内のメタデータを変更します。最も重要なのは `guid` フィールドです。
 1. 再パッケージ化し、必要に応じて、ビジュアルのカスタマイズを続けます。 
 
-![CV02to03](./media/funnel-plot/diagram-four.PNG)
+![この記事の前半で説明した 6 つのウィジェットを表示するスクリーンショット。](./media/funnel-plot/diagram-four.PNG)
 
-![CV02to03](./media/funnel-plot/diagram-five.PNG)
+![スクリーンショットは、この記事の前半で説明した追加の 6 つのウィジェットを表示しています。](./media/funnel-plot/diagram-five.PNG)
 
 > [!NOTE]
 > このプロジェクトのすべてのウィジェットがサービスでサポートされているわけではありません。
 
 ## <a name="next-steps"></a>次の手順
 
-詳細については、[Power BI ビジュアル](./custom-visual-develop-tutorial.md)および [R ビジュアル](/power-bi/visuals/service-r-visuals)に関するページの追加のチュートリアルを参照してください。
+詳細については、[Power BI ビジュアル](./custom-visual-develop-tutorial.md)および [R ビジュアル](../../visuals/service-r-visuals.md)に関するページの追加のチュートリアルを参照してください。
 
 [Office ストア (ギャラリー)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI) に対して[ビジュアルを開発して送信する](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/)方法を学習します。その他の例については、[R スクリプト ショーケース](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals)を参照してください

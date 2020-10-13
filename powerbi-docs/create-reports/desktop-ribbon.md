@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 3cc9277b567a58b60dc86c41b7ae56ad5c678d6b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793968"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600582"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Power BI Desktop で更新されたリボンを使用する
 
@@ -30,7 +30,7 @@ Power BI Desktop のリボンは、Microsoft Office などの他の Microsoft �
 
 リボンの更新の利点は、Power BI Desktop のエクスペリエンスをその他の Microsoft 製品と同じように簡単で使いやすくするこを目的としています。 
 
-![Power BI Desktop の新しいリボン](media/desktop-ribbon/desktop-ribbon-03.png)
+![Power B I Desktop のリボンを大写しに表示するスクリーンショット。](media/desktop-ribbon/desktop-ribbon-03.png)
 
 これらの利点は、次のカテゴリに分類できます。
 

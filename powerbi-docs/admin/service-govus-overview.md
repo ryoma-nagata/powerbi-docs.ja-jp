@@ -1,21 +1,21 @@
 ---
 title: 米国政府顧客向け Power BI - 概要
-description: 米国政府機関のお客様は、Power BI Pro サブスクリプションを Microsoft 365 Government プランに追加できます。 このサービスの説明では、サインアップして利用可能な機能を確認する方法について説明します。
+description: 米国政府機関のお客様は、Power BI Pro サブスクリプションを Microsoft 365 Government プランに追加できます。 このサービスの説明では、サインアップして接続し、利用可能な機能を確認する方法について説明します。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2020
+ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855106"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524629"
 ---
 # <a name="power-bi-for-us-government-customers"></a>米国政府顧客向け Power BI
 
@@ -51,7 +51,8 @@ Microsoft 365 には、政府機関のさまざまなコンプライアンス要
 
 * [Microsoft 365 DoD 環境](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)は、米国国防総省専用に設計されています。
 
-## <a name="connect-to-power-bi-for-us-government"></a>米国政府向け Power BI に接続する
+
+## <a name="sign-in-to-power-bi-for-us-government"></a>米国政府向け Power BI にサインインする
 
 Power BI に接続するための URL は、政府機関のユーザーと商用ユーザーの間で異なります。 Power BI にサインインするには、次の URL を使用します。
 
@@ -61,6 +62,38 @@ Power BI に接続するための URL は、政府機関のユーザーと商用
 
 お使いのアカウントが、複数のクラウドで設定されている可能性があります。 アカウントがそのように設定されている場合は、Power BI Desktop にサインインするときに接続先のクラウドを選択できます。
 
+## <a name="allow-connections-to-power-bi"></a>Power BI への接続を許可する
+
+Power BI サービスを使用するには、インターネット上で必要なエンドポイントへの接続を許可する必要があります。 自分のネットワーク、Power BI、およびその他の依存サービスの間の通信を有効にするには、これらの宛先にアクセスできる必要があります。
+
+次の表では、一般的なサイト使用目的で Power BI サービスへの接続を有効にするために、許可リストに追加する必要のあるエンドポイントを示します。 これらのエンドポイントは、米国政府のクラウドに固有のものです。 Power BI のサービスで必要なことは、リストに記載されているエンドポイントのために TCP ポート 443 を開いておくことだけです。 データの取得、ダッシュボードとレポートの統合、Power BI ビジュアル、およびその他のオプション サービスのエンドポイントは、米国政府のクラウドに固有のものではありません。 許可リストにこれらの URL も追加するには、「[Power BI URL を許可リストに追加する](power-bi-whitelist-urls.md)」を参照してください。
+
+Power BI の認証、ID、管理は、Microsoft 365 サービスへの接続に依存します。 また、監査ログを表示するには Microsoft 365 に接続する必要があります。 これらのサービスのエンドポイントを識別するには、次の表の「Microsoft 365 統合」を参照してください。
+
+### <a name="power-bi-urls-for-general-site-usage"></a>一般的なサイト使用のための Power BI URL
+
+|  目的 | 宛先 |
+| ---- | ----- |
+| バックエンド API | **GCC**: api.powerbigov.us |
+| | **GCC-High**: api.high.powerbigov.us |
+| | **DoD**: api.mil.powerbi.gov.us |
+| バックエンド API | **GCC**: *analysis.usgovcloudapi.net |
+| | **GCC High**: *.high.analysis.usgovcloudapi.net |
+| | **DoD**: *.mil.analysis.usgovcloudapi.net |
+| バックエンド API | **すべて**: *.pbidedicated.usgovcloudapi.net |
+| Content Delivery Network (CDN) | **GCC**: gov.content.powerapps.us |
+| | **GCC High**: high.content.powerapps.us |
+| | **DoD**: mil.content.powerapps.us |
+| Microsoft 365 の統合 | **GCC**:[ワールドワイド エンドポイント](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**:[US Government GCC High エンドポイント](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**:[US Government DOD エンドポイント](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| ポータル |**GCC**: *.powerbigov.us |
+| | **GCC-High**: *.high.powerbigov.us |
+| | **DoD**: *.mil.powerbigov.us |
+| サービスの利用統計情報 | **すべて**: dc.services.visualstudio.us |
+| 情報メッセージ (省略可) | **すべて**: dynmsg.modpim.com |
+| NPS 調査 (省略可) | **すべて**: nps.onyx.azure.net |
+
 ## <a name="connect-government-and-global-azure-cloud-services"></a>行政機関向け Azure クラウド サービスとグローバルな Azure クラウド サービスに接続する
 
 Azure は複数のクラウドに分散されています。 既定では、クラウド固有のインスタンスへの接続を開くファイアウォール規則を有効にすることができますが、クラウド間ネットワークはこれとは異なります。  パブリック クラウド内のサービスと Government Community Cloud 内のサービスの間で通信を行うには、固有のファイアウォール規則を構成する必要があります。 たとえば、Power BI の政府機関向けクラウドのデプロイから SQL データベースのパブリック クラウド インスタンスにアクセスする場合は、SQL データベースのファイアウォール規則が必要です。 次のデータセンターの Azure Government クラウドへの接続を許可するには、SQL データベースの固有のファイアウォール規則を構成します。
@@ -69,8 +102,12 @@ Azure は複数のクラウドに分散されています。 既定では、ク�
 * USGov バージニア州
 * USGov テキサス
 * USGov アリゾナ
+* US DoD East
+* US DoD Central
 
-パブリック クラウドでは、IP 範囲を使用できます。 US Government クラウドの IP 範囲を取得するには、「[Azure IP 範囲とサービス タグ - US Government クラウド](https://www.microsoft.com/download/details.aspx?id=57063)」でファイルをダウンロードしてください。
+US Government クラウドの IP 範囲を取得するには、「[Azure IP 範囲とサービス タグ - US Government クラウド](https://www.microsoft.com/download/details.aspx?id=57063)」でファイルをダウンロードしてください。 範囲は Power BI と Power Query の両方に対して示されます。
+
+Microsoft Azure Government クラウド サービスの詳細については、[Azure Government のドキュメント](https://docs.microsoft.com/azure/azure-government/)を参照してください。
 
 SQL データベースのファイアウォールを設定するには、「[IP ファイアウォール規則の作成および管理](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)」を参照してください。
 
@@ -78,12 +115,12 @@ SQL データベースのファイアウォールを設定するには、「[IP 
 
 Government クラウドのお客様の要件に対応するため、Government プランと商用プランにはいくつかの違いがあります。 私たちの目標は、一般提供から 30 日以内に、すべての機能を政府機関向けクラウドで使用できるようにすることです。 場合によっては、基になる依存関係によって機能が使用できなくなることがあります。
 
-次の表は、特定の政府環境で利用できない機能と、リリースが計画されている場合の公開予定時期を示しています。
+次の表は、特定の政府環境で利用できない機能を示しています。 リリースが計画されている場合の公開予定時期も含めます。
 
 |特徴 |GCC |GCC High |DoD|
 |------|------|------|------|
 |[政府機関と商用クラウド間の Azure B2B コラボレーション](service-admin-azure-ad-b2b.md)<sup>1</sup>|![利用可能](../media/yes.png)|![利用不可](../media/no.png)|![利用不可](../media/no.png)|
-|[Power BI Web パーツを使用した SharePoint Online への埋め込み](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![利用可能](../media/yes.png)|![利用可能](../media/yes.png)|![利用不可](../media/no.png)|
+|[Power BI Web パーツを使用した SharePoint Online への埋め込み](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![利用可能](../media/yes.png)|![利用可能](../media/yes.png)|![利用不可](../media/no.png)|
 |[データドリブン アラートのための Power Automate との接続](../connect-data/power-bi-data-sources.md)|![利用可能](../media/yes.png)|![利用可能](../media/yes.png)|![利用不可](../media/no.png)|
 |[Teams での [Power BI] タブ](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![利用可能](../media/yes.png)|![利用不可](../media/no.png)|![利用不可](../media/no.png)|
 |[容量メトリック](../admin/service-admin-premium-monitor-portal.md)|Q3 2020 |Q3 2020|Q3 2020|

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4ee0db7cae34f9592824e4f315255ff4fcff077b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339791"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600334"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop で集計を使用する
 
@@ -53,7 +53,7 @@ Power BI の "*集計*" では、テーブルのサイズを縮小できるた�
 - Sum
 - テーブル行数のカウント
 
-![[集計の管理] ダイアログ](media/desktop-aggregations/aggregations_07.jpg)
+![[集計の管理] ダイアログ ボックスが表示されているスクリーンショット。](media/desktop-aggregations/aggregations_07.jpg)
 
 このリレーションシップベースの集計例では、GroupBy エントリは省略可能です。 DISTINCTCOUNT を除き、これらは集計の動作には影響せず、主に読みやすくするためのものです。 GroupBy エントリがなくても、集計には、リレーションシップに基づいてヒットします。 これは、この記事の後半の、GroupBy エントリを必要とする、[ビッグ データの例](#aggregation-based-on-groupby-columns)とは異なります。
 
@@ -144,11 +144,11 @@ Power BI の "*集計*" では、テーブルのサイズを縮小できるた�
 
 デュアル ストレージ モードの詳細については、「[Power BI Desktop でストレージ モードを管理する](desktop-storage-mode.md)」を参照してください。
 
-### <a name="strong-vs-weak-relationships"></a>リレーションシップの強弱
+### <a name="regular-vs-limited-relationships"></a>標準対制限付きリレーションシップ
 
-リレーションシップに基づく集計ヒットでは、強いリレーションシップが必要です。
+リレーションシップに基づく集計ヒットには、標準リレーションシップを使用する必要があります。
 
-強いリレーションシップには、両方のテーブルが単一ソースからのものである、以下のストレージ モードの組み合わせが含まれます。
+標準リレーションシップにおけるストレージ モードは、両方のテーブルが単一ソースからのものである、以下の組み合わせになります。
 
 | "*多*" 側のテーブル | *1* 側のテーブル |
 | ------------- |----------------------| 
@@ -156,7 +156,7 @@ Power BI の "*集計*" では、テーブルのサイズを縮小できるた�
 | インポート        | インポートまたはデュアル       | 
 | DirectQuery   | DirectQuery またはデュアル  | 
 
-"*ソース間*" のリレーションシップが強いと見なされる唯一のケースは、両方のテーブルがインポートに設定されている場合です。 多対多リレーションシップは常に弱いと見なされます。
+"*ソース間*" のリレーションシップが標準と見なされる唯一のケースは、両方のテーブルがインポートに設定されている場合です。 多対多リレーションシップは常に制限付きと見なされます。
 
 リレーションシップに依存しない "*ソース間*" の集計のヒットについては、「[GroupBy 列に基づく集計](#aggregation-based-on-groupby-columns)」を参照してください。 
 
@@ -244,11 +244,11 @@ GroupBy 列に基づく集計では、**GroupBy** エントリを省略するこ
 
 **CalendarDay** は集計テーブルの対象ではないため、次のクエリでは集計にヒットしません。
 
-![集計にヒットしないクエリの例](media/desktop-aggregations/aggregations-code_10.jpg)
+![CalendarDay を含むクエリのテキストが表示されているスクリーンショット。](media/desktop-aggregations/aggregations-code_10.jpg)
 
 次のタイム インテリジェンス クエリでは、集計にヒットしません。これは、DATESYTD 関数では **CalendarDay** 値のテーブルが生成され、**CalendarDay** が集計テーブルの対象ではないためです。
 
-![集計にヒットしないクエリの例](media/desktop-aggregations/aggregations-code_11.jpg)
+![DATESYTD 関数を含むクエリのテキストが表示されているスクリーンショット。](media/desktop-aggregations/aggregations-code_11.jpg)
 
 ## <a name="aggregation-precedence"></a>集計の優先順位
 
@@ -271,7 +271,7 @@ GroupBy 列に基づく集計では、**GroupBy** エントリを省略するこ
 
 チェーン集計が許可されていないため、 **[詳細テーブル]** 列には、**Driver Activity Agg** ではなく、**Driver Activity** テーブルが指定されています。
 
-![[集計の管理] ダイアログ](media/desktop-aggregations/aggregations_14.jpg)
+![[優先順位] が選択された [集計の管理] ダイアログ ボックスが表示されているスクリーンショット。](media/desktop-aggregations/aggregations_14.jpg)
 
 次のテーブルは、**Driver Activity Agg2** テーブルの集計を示しています。
 

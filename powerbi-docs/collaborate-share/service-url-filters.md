@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437264"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633003"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL のクエリ文字列パラメーターを使用してレポートをフィルター処理する
 
@@ -37,7 +37,7 @@ Power BI Desktop で作業しているとします。 他の Power BI レポー�
 
 *<URL>* ?filter= *<テーブル>* / *<フィールド>* eq ' *<値>* '
 
-![フィルター付き URL のスクリーンショット。](media/service-url-filters/power-bi-filter-urls7b.png)
+![URL とフィルターのスクリーンショット。](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **テーブル**と**フィールド**の名前では大文字と小文字が区別されますが、**値**では区別されません。
 * レポート ビューに表示されないフィールドをフィルター処理することもできます。
@@ -64,7 +64,7 @@ Power BI Desktop で作業しているとします。 他の Power BI レポー�
 ?filter=Store/Territory eq 'NC'
 ```
 
-![フィルター付き URL のスクリーンショット。](media/service-url-filters/power-bi-filter-urls7.png)
+![ノース カロライナのフィルターを使用した URL のスクリーンショット。](media/service-url-filters/power-bi-filter-urls7.png)
 
 これでレポートがノースカロライナでフィルター処理されました。レポートに含まれるすべての視覚化には、ノースカロライナのデータだけが表示されています。
 
@@ -155,10 +155,10 @@ V3 と V4 には他にも違いがあります。 OData V3 では、Dates はサ
 |**[列]**     |  [ is 0x005B ] は 0x005D       |  _x005B_Column_x005D_       |
 |**列+プラス**     | + は 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![ 特殊文字をレンダリングするテーブルの視覚化のスクリーンショット。](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![Unicode の特殊文字をレンダリングするテーブルのビジュアルのスクリーンショット。](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![特殊文字をレンダリングするテーブルの視覚化のスクリーンショット。](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Power BI のコードの特殊文字をレンダリングするテーブルの視覚化のスクリーンショット。](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>値の特殊文字
 
@@ -172,11 +172,11 @@ URL フィルターでは、単一引用符 (') を除く、フィールド値�
 
 - `?filter=Table/Name eq 'Lee''s Summit'` は次のようになります。
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Name is O'Brien":::
 
 - `in` 演算子もこのエスケープをサポートしています。`?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` は次のようになります。
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit or O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Name is O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>DAX を使用して複数の値をフィルター処理する
 

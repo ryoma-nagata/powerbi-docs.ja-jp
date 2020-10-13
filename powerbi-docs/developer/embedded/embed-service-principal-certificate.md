@@ -9,23 +9,23 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 06/01/2020
-ms.openlocfilehash: 7caa39ca6fbf196aaa2be4492ab132ad05983f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231835"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749186"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>サービス プリンシパルと証明書を使用した Power BI コンテンツの埋め込み
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 >[!NOTE]
->ご利用のバックエンド サービスは、秘密キーではなく、証明書を使用してセキュリティで保護することをお勧めします。 [秘密キーまたは証明書を使用して Azure AD からアクセス トークンを取得する方法の詳細を説明します](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion)。
+>ご利用のバックエンド サービスは、秘密キーではなく、証明書を使用してセキュリティで保護することをお勧めします。 [秘密キーまたは証明書を使用して Azure AD からアクセス トークンを取得する方法の詳細を説明します](/azure/architecture/multitenant-identity/client-assertion)。
 
 ## <a name="certificate-based-authentication"></a>証明書ベースの認証
 
-証明書ベースの認証では、Windows、Android、または iOS デバイス上のクライアント証明書、または [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts) に保持されているクライアント証明書を、Azure Active Directory (Azure AD) と共に使用して認証することができます。
+証明書ベースの認証では、Windows、Android、または iOS デバイス上のクライアント証明書、または [Azure Key Vault](/azure/key-vault/basic-concepts) に保持されているクライアント証明書を、Azure Active Directory (Azure AD) と共に使用して認証することができます。
 
 この認証方法を使用すると、ローテーションまたは失効に対して、証明書を中央の場所から CA を使用して管理できます。
 
@@ -49,7 +49,7 @@ Azure AD での証明書の詳細については「[クライアント資格情�
 
 信頼された "*証明機関*" から証明書を取得することも、証明書を自分で生成することもできます。
 
-このセクションでは、[Azure Key Vault](https://docs.microsoft.com/azure/key-vault/create-certificate) を使用して証明書を作成する方法、および公開キーを含む *.cer* ファイルをダウンロードする方法について説明します。
+このセクションでは、[Azure Key Vault](/azure/key-vault/create-certificate) を使用して証明書を作成する方法、および公開キーを含む *.cer* ファイルをダウンロードする方法について説明します。
 
 1. [Microsoft Azure](https://ms.portal.azure.com/#allservices) にログインします。
 
@@ -63,11 +63,11 @@ Azure AD での証明書の詳細については「[クライアント資格情�
 
 4. **[証明書]** をクリックします。
 
-    ![certificates](media/embed-service-principal-certificate/certificates.png)
+    ![[証明書] がコールアウトされた [キー コンテナー] ページを表示するスクリーンショット。](media/embed-service-principal-certificate/certificates.png)
 
 5. **[生成/インポート]** をクリックします。
 
-    ![generate](media/embed-service-principal-certificate/generate.png)
+    ![[生成/インポート] がコールアウトされた [証明書] ウィンドウを表示するスクリーンショット。](media/embed-service-principal-certificate/generate.png)
 
 6. 次のように、 **[証明書フィールドの作成]** を構成します。
 
@@ -107,7 +107,7 @@ Azure AD での証明書の詳細については「[クライアント資格情�
 
 1. Azure AD アプリケーションで、 **[証明書とシークレット]** タブをクリックします。
 
-     ![アプリケーション ID](media/embed-service-principal/certificates-and-secrets.png)
+     ![アプリの [証明書とシークレット] ウィンドウを Azure portal で表示するスクリーンショット。](media/embed-service-principal/certificates-and-secrets.png)
 
 2. **[証明書のアップロード]** をクリックし、このチュートリアルの[最初の手順](#step-1---create-a-certificate)で作成およびダウンロードした *.cer* ファイルをアップロードします。 *.cer* ファイルには公開キーが含まれています。
 
@@ -175,7 +175,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 ## <a name="configure-visual-studio-to-use-msi"></a>MSI を使用するように Visual Studio を構成する
 
-埋め込みソリューションを作成する場合は、マネージド サービス ID (MSI) を使用するように Visual Studio を構成すると便利な場合があります。 [MSI](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview) は、Azure AD ID を管理できるようにする機能です。 構成が完了すると、Visual Studio は Azure Key Vault に対して認証を行うようになります。
+埋め込みソリューションを作成する場合は、マネージド サービス ID (MSI) を使用するように Visual Studio を構成すると便利な場合があります。 [MSI](/azure/active-directory/managed-identities-azure-resources/overview) は、Azure AD ID を管理できるようにする機能です。 構成が完了すると、Visual Studio は Azure Key Vault に対して認証を行うようになります。
 
 1. Visual Studio でプロジェクトを開きます。
 
@@ -200,7 +200,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 >[顧客向けの Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Azure Active Directory でのアプリケーション オブジェクトとサービス プリンシパル オブジェクト](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Azure Active Directory でのアプリケーション オブジェクトとサービス プリンシパル オブジェクト](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[サービス プリンシパルを使用するオンプレミス データ ゲートウェイを使用した行レベルのセキュリティ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

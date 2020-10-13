@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 07/15/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860695"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634644"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>ゲートウェイのトラブルシューティング - Power BI
 
@@ -32,9 +32,11 @@ ms.locfileid: "90860695"
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>エラー: 接続できません。 詳細:"接続の資格情報が正しくありません"
 
-**[詳細を表示する]** には、データ ソースから受信したエラー メッセージが表示されます。 SQL Server の場合、次のように表示されます。
+**[詳細を表示する]** には、データ ソースから受信したエラー メッセージが表示されます。 SQL Server の場合、次のようなメッセージが表示されます。
 
-    Login failed for user 'username'.
+```output
+Login failed for user 'username'.
+```
 
 ユーザー名とパスワードが正しいことを確認します。 また、これらの資格情報を使用してデータ ソースに正常に接続できることを確認します。 使用されているアカウントが認証方法と一致していることを確認してください。
 
@@ -44,7 +46,9 @@ ms.locfileid: "90860695"
 
 **[詳細を表示する]** には、データ ソースから受信したエラー メッセージが表示されます。 SQL Server の場合、次のように表示されます。
 
-    Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```output
+Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>エラー: 接続できません。 詳細:"Unknown error in data gateway" (データ ゲートウェイでの不明なエラー)
 
@@ -62,11 +66,15 @@ ms.locfileid: "90860695"
 
 基になっているエラー メッセージが次のような場合は、データ ソースに対して使用しているアカウントがその Analysis Services インスタンスのサーバー管理者ではないことを意味しています。 詳細は、「[Grant server admin rights to an Analysis Services instance](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance)」 (Analysis Services インスタンスにサーバー管理者権限を付与する) を参照してください。
 
-    The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```output
+The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```
 
 基になっているエラー メッセージが次のような場合は、Analysis Services のサービス アカウントに [token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal) (TGGAU) ディレクトリ属性がない可能性があります。
 
-    The username or password is incorrect.
+```output
+The username or password is incorrect.
+```
 
 Windows 2000 以前と互換性のあるアクセス権を持つドメインでは TGGAU 属性は有効になります。 最近作成されたドメインではこの属性が既定で有効になりません。 詳細は、「[一部のアプリケーションや API でアカウント オブジェクトの承認情報に対するアクセス許可が必要になる ](https://support.microsoft.com/kb/331951)」を参照してください。
 
@@ -75,13 +83,17 @@ Windows 2000 以前と互換性のあるアクセス権を持つドメインで�
 1. SQL Server Management Studio 内の Analysis Services マシンに接続します。 詳細接続プロパティ内に、該当するユーザーの EffectiveUserName を含め、この追加でエラーが再現されるかどうかを確認します。
 2. dsacls Active Directory ツールを使用すれば、属性がリストされるかどうかを確認できます。 このツールはドメイン コントローラーにあります。 アカウントのドメインの識別名を確認し、ツールにその名前を渡す必要があります。
 
-        dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```console
+   dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```
 
     結果は次のようになります。
 
-            Allow BUILTIN\Windows Authorization Access Group
-                                          SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
-                                          READ PROPERTY
+   ```console
+   Allow BUILTIN\Windows Authorization Access Group
+                                   SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
+                                   READ PROPERTY
+   ```
 
 この問題を修正するには、Analysis Services Windows サービスで使用するアカウントで TGGAU を有効にする必要があります。
 
@@ -139,7 +151,9 @@ Analysis Services サーバーがユーザーとは異なるドメインにあ�
 1. [ゲートウェイ ログ](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app)内で有効なユーザー名を見つけます。
 2. 値が渡されたら、それが正しいことを確認します。 自分のユーザーの場合は、コマンド プロンプトから次のコマンドを使用して UPN を確認できます。 UPN は電子メール アドレスのような形式です。
 
-        whoami /upn
+   ```console
+   whoami /upn
+   ```
 
 必要に応じて、Azure Active Directory から Power BI が取得した内容を確認できます。
 
@@ -147,10 +161,13 @@ Analysis Services サーバーがユーザーとは異なるドメインにあ�
 2. 右上隅にある **[サインイン]** を選択します。
 3. 次のクエリを実行します。 かなり大きな JSON 応答が表示されます。
 
-        https://graph.windows.net/me?api-version=1.5
+   ```http
+   https://graph.windows.net/me?api-version=1.5
+   ```
+
 4. **userPrincipalName** を探します。
 
-Azure Active Directory UPN がローカルの Active Directory UPN と一致しない場合は、[[ユーザー名のマップ]](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) 機能を使用して、有効な値に置き換えることができます。 あるいは、テナント管理者かローカルの Active Directory 管理者と協力して UPN を変更できます。
+Azure Active Directory UPN がローカルの Active Directory UPN と一致しない場合は、[[ユーザー名のマップ]](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) 機能を使用して、有効な値に置き換えることができます。 あるいは、自分の Power BI 管理者かローカルの Active Directory 管理者と協力して自分の UPN を変更できます。
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -192,11 +209,11 @@ FailedToImpersonateUserException は、別のユーザーを偽装できない�
 
 * SAP HANA では、偽装されるユーザーが Active Directory (ユーザー エイリアス) で sAMAccountName 属性を使用する必要があります。 この属性が正しくない場合は、1033 エラーが表示されます。
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+    ![属性エディター](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
 * ログには、UPN ではなく sAMAccountName (エイリアス) が表示されます。このエイリアスの後にドメイン (alias@doimain.com) が続きます。
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+    ![ログのアカウント情報](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
 ```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">

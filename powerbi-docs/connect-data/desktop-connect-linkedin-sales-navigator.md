@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b87e176338552f0a90c4789d35f531fd7b12d44a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dd8e453a0cec6c404cad077a85f68044fa57ba1f
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224747"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600248"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Power BI Desktop で LinkedIn Sales Navigator に接続する
 
@@ -86,7 +86,7 @@ PBIX ファイルに加えて、LinkedIn Sales Navigator には、ダウンロ�
 
 **[Usage]\(使用状況\)** タブには、LinkedIn Sales Navigator データ全体が表示されます。
 
-![LinkedIn Sales Navigator の [Usage]\(使用状況\) タブ](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-12.png)
+![自分の LinkedIn Sales Navigator データ全体を表示する LinkedIn Sales Navigator の [使用状況] タブ。](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-12.png)
 
 **[Search]\(検索\)** タブでは、検索結果をさらに詳しく調べることができます。
 

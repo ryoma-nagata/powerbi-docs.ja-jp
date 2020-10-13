@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364102"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634736"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop でレポート テーマを使用する
 
@@ -53,11 +53,11 @@ Power BI Desktop の "*レポート テーマ*" を使うと、コーポレー�
 
 1. **[表示]** リボンから **[テーマ]** ドロップダウン矢印ボタン **[テーマの切り替え]** を選択します。
 
-   ![レポート テーマの選択](media/desktop-report-themes/report-themes-02.png)
+   ![[表示] リボンが選択された、いくつかのテーマが表示されているスクリーンショット。](media/desktop-report-themes/report-themes-02.png)
 
 2. ドロップダウン メニューが表示されたら、付属のテーマの中から選択します。
 
-   ![レポート テーマの選択](media/desktop-report-themes/report-themes-03.png)
+   ![選択できる Power BI のテーマが展開されたスクリーンショット。](media/desktop-report-themes/report-themes-03.png)
 
    これで、そのレポート テーマがレポートに適用されます。
 
@@ -600,7 +600,9 @@ Power BI では、動的なシリーズの色が追跡され、他のビジュ�
 
 色では、次の形式が使用されます。カスタムの 16 進数コードによって "FFFFFF" が置き換えられる例を次に示します。
 
-    { "solid": { "color": "#FFFFFF" } }
+```json
+{ "solid": { "color": "#FFFFFF" } }
+```
 
 ドロップダウン書式設定オプションで最もよく使用される列挙値は、ペインに表示される任意のオプションに設定できます。たとえば、凡例の位置に対する "RightCenter" や、円データ ラベルに対する "Data value, percent of total" などです。 列挙オプションは、プロパティ リストの後で示します。
 

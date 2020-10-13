@@ -5,17 +5,17 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7c81f3b624de0692d597cfb6c79f2159a6133593
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854692"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599014"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium とは
 
@@ -30,7 +30,7 @@ Power BI Premium を使用すると、組織の専用リソースと拡張され
 > * ユーザー別ライセンスを購入することなくどのユーザーともデータを共有できる
 
 
-![管理ポータル](media/service-premium-what-is/premium-admin-portal.png) 
+![Power BI 管理者ポータルのスクリーンショット。](media/service-premium-what-is/premium-admin-portal.png) 
 
 この記事では、Power BI Premium の主要な機能を紹介します。 必要に応じて、より詳細な情報が記載されているその他の記事へのリンクが提供されています。 Power BI Pro と Power BI Premium の詳細については、「[Power BI の価格](https://powerbi.microsoft.com/pricing/)」の「_Power BI 機能の比較_」セクションを参照してください。
 
@@ -139,11 +139,11 @@ Premium 容量の管理では、容量の作成または削除、管理者の割
 
 容量が作成されると、[管理ポータル](service-admin-portal.md)での管理タスクの大部分は完了します。
 
-![管理ポータル](media/service-premium-what-is/premium-admin-portal.png)
+![Power BI 管理者ポータルのスクリーンショット。マイ ワークスペースが選択されています。](media/service-premium-what-is/premium-admin-portal.png)
 
 容量管理者は、容量へのワークスペースの割り当て、ユーザーのアクセス許可の管理、他の管理者の割り当てを行うことができます。 容量管理者はまた、ワークロードの構成、メモリ割り当ての調整、さらに必要に応じて、容量の再起動、容量の上限を超えた場合の操作のリセットを行うこともできます。
 
-![管理ポータル](media/service-premium-what-is/premium-admin-portal-mgmt.png)
+![Power BI 管理ポータルの容量管理のスクリーンショット。](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
 容量管理者は、容量が円滑に運用されているかどうかを確認することもできます。 管理者ポータルですぐに容量の健全性を監視することも、Premium 容量メトリク アプリを使用して監視することもできます。
 
@@ -155,7 +155,7 @@ Premium 容量を監視することで、容量がどのように実行されて
 
 ポータルによる監視では、大まかなメトリックに関するクイック ビューが表示され、過去 7 日間にわたりかけられた負荷および使用している容量によって利用されたリソースの平均が示されます。 
 
-![管理ポータル](media/service-premium-what-is/premium-admin-portal-health.png)
+![Power BI 管理者ポータルの容量の健全性のスクリーンショット。](media/service-premium-what-is/premium-admin-portal-health.png)
 
 **Power BI Premium 容量メトリック** アプリからは、ご利用の容量がどのように実行されているかについてかなり詳細な情報が提供されます。 このアプリには、大まかなダッシュボードとより詳細なレポートが用意されています。
 

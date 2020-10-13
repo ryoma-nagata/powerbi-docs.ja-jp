@@ -1,6 +1,6 @@
 ---
 title: 組織向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む
-description: Power BI API を使用して、Power BI のページ分割されたレポートをアプリケーションに統合または埋め込む方法を説明します。
+description: このチュートリアルでは、Power BI API を使用して、Power BI のページ分割されたレポートをアプリケーションに統合または埋め込む方法を説明します。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878752"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747622"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>チュートリアル:組織向けのアプリケーションに Power BI のページ分割されたレポートを埋め込む
 
 **Power BI** では、"*ユーザー所有データ*" シナリオを使用して、組織向けのアプリケーションにページ分割されたレポートを埋め込むことができます。
 
 ページ分割されたレポートは、高品質な印刷のためにデザインされたレポートです。 通常、これらのレポートには大量のデータが含まれており、印刷されたページに合うようにレンダリングされます。
-Power BI でページ分割されたレポートがどのようにサポートされているかを理解するには、「[Power BI Premium のページ分割されたレポートとは](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)」をご覧ください。
+Power BI でページ分割されたレポートがどのようにサポートされているかを理解するには、「[Power BI Premium のページ分割されたレポートとは](../../paginated-reports/paginated-reports-report-builder-power-bi.md)」をご覧ください。
 
 **ユーザー所有データ**を使用すれば、アプリケーションで埋め込み分析を使用できるように Power BI サービスを拡張できます。 このチュートリアルでは、ページ分割されたレポートをアプリケーションに統合する方法を示します。
 

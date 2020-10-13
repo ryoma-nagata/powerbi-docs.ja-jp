@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: cea4af4a8c265e5195a8239bd592c8734e332255
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858855"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375168"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI から Web への公開
 
@@ -161,14 +161,14 @@ Web サイトまたはブログに埋め込まれた **[Web に公開]** コン�
 
 Power BI 管理ポータルには、Web に発行できるユーザーを制御する設定があります。 管理ポータルで[テナントの [Web に公開] 設定](../admin/service-admin-portal.md#publish-to-web)を変更するには、組織の [Power BI 管理者](../admin/service-admin-role.md)と連携する必要があります。
 
-Power BI にサインアップしたより小規模の組織または個人の場合は、まだ Power BI 管理者が存在しない可能性があります。 [テナント管理者の引き継ぎプロセス](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)に従ってください。 Power BI 管理者が設定されたら、埋め込みコードの作成を有効にすることができます。
+Power BI にサインアップしたより小規模の組織または個人の場合は、まだ Power BI 管理者が存在しない可能性があります。 [管理者の引き継ぎプロセス](/azure/active-directory/users-groups-roles/domains-admin-takeover)に従ってください。 Power BI 管理者が設定されたら、埋め込みコードの作成を有効にすることができます。
 
 通常、確立された組織には、既に Power BI 管理者が存在します。 次のいずれかのロールを持つユーザーは、Power BI 管理者として操作を行うことができます。
 
 - グローバル管理者
 - Azure Active Directory で Power BI サービス管理者ロールを持つユーザー
 
-組織内の[これらの担当者のいずれかを見つけて](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)、管理ポータルで[テナントの [Web に公開] 設定](../admin/service-admin-portal.md#publish-to-web)を更新するよう依頼する必要があります。
+組織内の[これらの担当者のいずれかを見つけて](/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)、管理ポータルで[テナントの [Web に公開] 設定](../admin/service-admin-portal.md#publish-to-web)を更新するよう依頼する必要があります。
 
 ## <a name="limitations"></a>制限事項
 
@@ -196,5 +196,3 @@ Power BI にサインアップしたより小規模の組織または個人の�
 - [セキュリティで保護されたポータルまたは Web サイトにレポートを埋め込む](service-embed-secure.md)
 
 他にわからないことがある場合は、 [Power BI コミュニティを利用してください](https://community.powerbi.com/)。
-
-

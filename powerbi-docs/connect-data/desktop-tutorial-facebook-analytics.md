@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965342"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600484"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>チュートリアル:Power BI Desktop を使用して Facebook のデータを分析する
 
@@ -128,7 +128,7 @@ Power Query エディターでデータを整形して変換すると、**Power 
    
    データが読み込まれると、 **[レポート]** ビューに **[フィールド]** ペインの新しいクエリとして表示されます。
    
-   ![新しいクエリ](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   ![Query1 というクエリで使用できるフィールドが表示されているスクリーンショット。](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
    
 ## <a name="use-the-data-in-report-visualizations"></a>レポートの視覚化でデータを使用する 
 
@@ -138,7 +138,7 @@ Facebook ページからデータをインポートしたら、視覚化を使�
 
 1. Power BI Desktop の **[レポート]** ビューで、 **[フィールド]** ペインから **[message]** を選択するか、レポート キャンバスにドラッグします。 すべての投稿メッセージを示すテーブルがキャンバスに表示されます。 
    
-   ![新しいクエリ](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   ![レポート ビューでのメッセージの一覧が表示されているスクリーンショット。](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
 2. そのテーブルを選択した状態で、 **[フィールド]** ペインから **[Number of comments]** も選択するか、テーブルにドラッグします。 
    

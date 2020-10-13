@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0e21c4397708b289d7eccfbdbaa839cbf16c1f0b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224050"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632459"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>例を提供して Web ページ データを取得する
 
@@ -36,7 +36,9 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 この記事に従って操作する場合は、この記事で使用している [Microsoft Store の URL](https://www.microsoft.com/store/top-paid/games/xbox?category=classics) を利用できます。
 
-    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```http
+https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```
 
 ![Web ダイアログ](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
@@ -48,14 +50,14 @@ Web ページからのデータ取得を利用すると、ユーザーは Web �
 
 この例では、ページ上のゲームごとに*名前*と*価格*を抽出します。 ページから各列の例をいくつか指定することで、それを行うことができます。 例を入力すると、*Power Query* により、スマート データ抽出アルゴリズムを使用して、入力した例のパターンに適合するデータが抽出されます。
 
-![例を指定したデータ](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+![インターネットのデータが表示されているスクリーンショット。](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > [!NOTE]
 > 値の候補に含まれるのは、長さが 128 文字以下の値のみです。
 
 Web ページから抽出されたデータに問題がなければ、 **[OK]** を選択して Power Query エディターに移動します。 さらに変換を適用したり、このデータを他のデータと結合するといった、データの整形を行ったりすることができます。
 
-![例を指定したデータ](media/desktop-connect-to-web-by-example/web-by-example_07.png)
+![インターネットからデータを抽出した Power Query エディターが表示されているスクリーンショット。](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
 そこからは、ビジュアルを作成したり、Power BI Desktop レポートを作成するときに Web ページのデータを使用したりすることができます。
 

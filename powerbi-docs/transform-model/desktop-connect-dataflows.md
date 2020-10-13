@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 24635df4a07f0f73a701fcb9d30b5db3ef678666
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861086"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668461"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Power BI Desktop で Power Platform データフローによって作成されたデータに接続する
 **Power BI Desktop** では、Power BI Desktop の他のデータ ソースと同様に、**Power Platform データフロー**によって作成されたデータに接続できます。
@@ -37,7 +37,7 @@ ms.locfileid: "90861086"
 
 この方法では、大規模なデータの処理が **Power BI Desktop** の実行中のインスタンス内でローカルに実行されるのではなく、データフロー内でオンライン実行されます。 このアプローチにより、Power BI Desktop では少量のデータを取り込んで、データフローの応答性と迅速性を確保することができます。
 
-## <a name="considerations-and-limitations"></a>考慮事項と制限事項
+## <a name="additional-considerations"></a>その他の注意点
 
 ほとんどのデータフローは、Power BI サービスのテナント内にあります。 ただし、**Power BI Desktop** の顧客は、データフローの所有者である場合か、データフローの CDM フォルダーに対して明示的に承認済みになっている場合を除いて、Azure Data Lake Storage Gen2 アカウント内に保管されているデータフローにはアクセスできません。 次の状況を検討します。
 
@@ -45,28 +45,21 @@ ms.locfileid: "90861086"
 2.  ベンは、アンナが作成したワークスペースのメンバーでもあり、Power BI Desktop とデータフロー コネクターを使用して、アンナが作成したデータフローからデータを取得することを考えています。
 3.  Ben は Data Lake 内のデータフローの CDM フォルダーに対して承認されたユーザーとして追加されていないため、エラーを受け取ります。
 
-    ![データフローの使用を試行した際のエラー](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
-
-この問題を解決するには、ベンに CDM フォルダーとその中のファイルに対する閲覧者のアクセス許可を付与する必要があります。 CDM フォルダーへのアクセス権を付与する方法について詳しくは、[こちらの記事](./service-dataflows-azure-data-lake-integration.md)をご覧ください。
+この問題を解決するには、ベンに CDM フォルダーとその中のファイルに対する閲覧者のアクセス許可を付与する必要があります。 CDM フォルダーに対するアクセスを付与する方法の詳細については、「[データフローの構成と使用](dataflows/dataflows-configure-consume.md)」を参照してください。
 
 
 
 
-## <a name="next-steps"></a>次の手順
-Power Platform データフローを使用して、さまざまな目的の処理を実行できます。 詳細については、次のリソースをご覧ください。
+## <a name="next-steps"></a>次のステップ
+データフローを使用し、さまざまな目的の処理を実行できます。 詳細については、次のリソースをご覧ください。
 
-* [データフローを使用したセルフサービスのデータ作成](service-dataflows-overview.md)
-* [Power BI でのデータフローの作成と使用](service-dataflows-create-use.md)
-* [Power BI Premium での計算されたエンティティの使用 (プレビュー)](service-dataflows-computed-entities-premium.md)
-* [オンプレミス データ ソースでのデータフローの使用 (プレビュー)](service-dataflows-on-premises-gateways.md)
-* [Power Platform データフロー用の開発者向けリソース (プレビュー)](service-dataflows-developer-resources.md)
+* [データフローとセルフサービスのデータ準備の概要](dataflows/dataflows-introduction-self-service.md)
+* [データフローの作成](dataflows/dataflows-create.md)
+* [データフローの構成と使用](dataflows/dataflows-configure-consume.md)
+* [Azure Data Lake Gen 2 を使用するようにデータフロー ストレージを構成する](dataflows/dataflows-azure-data-lake-storage-integration.md)
+* [データフローの Premium 機能](dataflows/dataflows-premium-features.md)
+* [データフローを使用した AI](dataflows/dataflows-machine-learning-integration.md)
 
-Azure Data Lake Storage Gen2 との統合について詳しくは、次の記事をご覧ください。
-
-* [データフローと Azure Data Lake の統合 (プレビュー)](service-dataflows-azure-data-lake-integration.md)
-* [ワークスペース データ フローの設定の構成 (プレビュー)](service-dataflows-configure-workspace-storage-settings.md)
-* [データ フロー としての CDM フォルダーの Power BI への追加 (プレビュー)](service-dataflows-add-cdm-folder.md)
-* [データ フロー ストレージ用の Azure Data Lake Storage Gen2 の接続 (プレビュー)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 **Power BI Desktop** に関する以下の記事が役立つ場合もあります。
 
