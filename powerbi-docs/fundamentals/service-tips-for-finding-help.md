@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2500ba94a6ad387e9944fb29f865b391ea4c0711
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f5cb17187770c8c0b37c48a495c6844c462e83ec
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860948"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525623"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI の質問のヘルプを得るための 10 のヒント
 Power BI に関する疑問に対する答えを、必要なときに (つまり、"ジャストインタイム" で) 得られないために、Power BI を使用しながらイライラしたり、苦労したりしていませんか。 
@@ -49,7 +49,7 @@ Power BI チームは、定期的な [Power BI ブログ投稿](https://powerbi.
 
 他にも次のようなオプションをオンラインで利用できます。
 
-* **edX.org** が無料で提供している「[Analyzing and Visualizing Data with Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4)」 (Power BI でのデータの分析および視覚化) コース。
+* **edX.org** が無料で提供している「[Analyzing and Visualizing Data with Power BI](https://www.edx.org/course/data-analysis-in-power-bi)」 (Power BI でのデータの分析および視覚化) コース。
 * **Lynda.com** が提供している「[Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)」 (Power BI Pro の基本的なトレーニング) などのコース。
 * 対面式の「**Dashboard in a Day**」トレーニング セッション。
 
