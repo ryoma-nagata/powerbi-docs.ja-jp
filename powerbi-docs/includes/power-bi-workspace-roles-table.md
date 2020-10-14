@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512795"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983742"
 ---
 |機能   | 管理者  | メンバー  | 共同作成者  | Viewer |
 |---|---|---|---|---|
@@ -42,6 +42,6 @@ ms.locfileid: "89512795"
 
 <sup>3</sup> レポートをコピーする場合、およびこのワークスペース内のデータセットに基づいて別のワークスペースでレポートを作成する場合は、[そのデータセットに対するビルドのアクセス許可](../connect-data/service-datasets-build-permissions.md)が必要です。 このワークスペース内のデータセットについては、管理者、メンバー、共同作成者のロールを持つユーザーに対して、そのワークスペース ロールを通じてビルドのアクセス許可が自動的に付与されます。
 
-<sup>4</sup> ゲートウェイに対するアクセス許可も必要であることに注意してください。 これらのアクセス許可は、ワークスペースのロールとアクセス許可に関係なく、他の場所で管理されます。 詳細については、[オンプレミス ゲートウェイの管理](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage)に関するページを参照してください。
+<sup>4</sup> ゲートウェイに対するアクセス許可も必要であることに注意してください。 これらのアクセス許可は、ワークスペースのロールとアクセス許可に関係なく、他の場所で管理されます。 詳細については、[オンプレミス ゲートウェイの管理](/data-integration/gateway/service-gateway-manage)に関するページを参照してください。
 
 <sup>5</sup> Power BI Pro ライセンスを持っていない場合でも、項目が Premium 容量内のワークスペースにあれば、Power BI サービスで項目を表示および操作することができます。

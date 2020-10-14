@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/04/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d684ab319a61c932f851e76322af758a4188c5e0
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 51f98bd5bc22609aba01a775678c5dccf6cf0d0c
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536011"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830199"
 ---
 # <a name="add-spotlights-to-power-bi-reports"></a>Power BI レポートに Spotlight を追加する
 
@@ -32,7 +32,7 @@ Spotlight を使用すると、レポート ページ上の特定のビジュア
 
 3. **Spotlight** のオプションを選択します。 選択したビジュアルが強調表示されます。これにより、ページ上の他のビジュアルがすべてフェードされ、透明に近くなります。 
 
-    ![スポットライト モード](media/end-user-spotlight/power-bi-spotlighted.png)
+    ![スポットライト モード](media/end-user-spotlight/power-bi-spotlighted-treemap.png)
 
 
 
