@@ -10,8 +10,8 @@
     - name: チュートリアル
       expanded: true
       items:
-        - name: Power BI のビジュアルを開発する
-          href: custom-visual-develop-tutorial.md
+        - name: 'チュートリアル:Power BI サークル カード ビジュアルの開発'
+          href: develop-circle-card.md
         - name: 反応ベースのビジュアルを作成する
           href: create-react-visual.md
         - name: 横棒グラフを作成する
@@ -54,6 +54,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: Power BI ビジュアルを AppSource に発行する
           href: office-store.md
+        - name: Power BI ビジュアルを開発するための環境のセットアップ
+          href: environment-setup.md
         - name: R を利用したビジュアルを作成する
           href: create-r-based-power-bi-desktop.md
         - name: Power BI のビジュアルをテストする
