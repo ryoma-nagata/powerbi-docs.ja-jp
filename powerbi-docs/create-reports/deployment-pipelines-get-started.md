@@ -181,7 +181,7 @@ ms.locfileid: "90855774"
     * Azure Analysis Services
     * SQL Server Analysis Services (SSAS)
     * Azure SQL Server
-    * [データベースのインポート]
+    * SQL Server
     * OData フィード
     * Oracle
     * SapHana (インポート モードでのみサポートされます。ダイレクト クエリ モードではサポートされません)
